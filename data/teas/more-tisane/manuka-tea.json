@@ -36,7 +36,28 @@
     "https://en.wikipedia.org/wiki/M%C4%81nuka"
   ],
   "confidence": "low",
-  "images": [],
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/51/M%C4%81nuka_flowers_and_foliage_-_Hooton_Reserve%2C_Auckland.jpg/1280px-M%C4%81nuka_flowers_and_foliage_-_Hooton_Reserve%2C_Auckland.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/51/M%C4%81nuka_flowers_and_foliage_-_Hooton_Reserve%2C_Auckland.jpg/330px-M%C4%81nuka_flowers_and_foliage_-_Hooton_Reserve%2C_Auckland.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source_page": "https://commons.wikimedia.org/wiki/File:M%C4%81nuka_flowers_and_foliage_-_Hooton_Reserve,_Auckland.jpg",
+      "author": "Bjankuloski06",
+      "license": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0",
+      "kind": "plant",
+      "alt": "Manuka shrub with white flowers and narrow foliage in Auckland"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/74/Manukaflowers.jpg/1280px-Manukaflowers.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/74/Manukaflowers.jpg/330px-Manukaflowers.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Manukaflowers.jpg",
+      "author": "User:Gerald.w",
+      "license": "CC BY-SA 3.0",
+      "license_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+      "kind": "plant",
+      "alt": "Manuka branch with white flowers, seed capsules and small pointed leaves"
+    }
+  ],
   "stub": true,
   "processing": "Dried plant material, as with most herbal infusions.",
   "harvest_season": "Depends on the plant and the place.",

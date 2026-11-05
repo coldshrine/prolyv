@@ -36,7 +36,18 @@
     "https://id.wikipedia.org/wiki/Wedang_dongo"
   ],
   "confidence": "low",
-  "images": [],
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7e/Wedang_dongo_khas_Solo.jpg/1280px-Wedang_dongo_khas_Solo.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7e/Wedang_dongo_khas_Solo.jpg/330px-Wedang_dongo_khas_Solo.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Wedang_dongo_khas_Solo.jpg",
+      "author": "Risanprasetyo /Febri Ady Prasetyo",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "kind": "liquor",
+      "alt": "Bowl of wedang dongo, a warm ginger drink with pale rice dumplings and a spoon"
+    }
+  ],
   "stub": true,
   "processing": "Dried plant material, as with most herbal infusions.",
   "harvest_season": "Depends on the plant and the place.",

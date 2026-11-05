@@ -39,7 +39,18 @@
     "https://ratetea.com/styles.php"
   ],
   "confidence": "low",
-  "images": [],
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/90/Starr-180919-0974-Camellia_sinensis-flowers-Skyline_Zipline_Crater_Rd-Maui_%2830876007407%29.jpg/1280px-Starr-180919-0974-Camellia_sinensis-flowers-Skyline_Zipline_Crater_Rd-Maui_%2830876007407%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/90/Starr-180919-0974-Camellia_sinensis-flowers-Skyline_Zipline_Crater_Rd-Maui_%2830876007407%29.jpg/330px-Starr-180919-0974-Camellia_sinensis-flowers-Skyline_Zipline_Crater_Rd-Maui_%2830876007407%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Starr-180919-0974-Camellia_sinensis-flowers-Skyline_Zipline_Crater_Rd-Maui_(30876007407).jpg",
+      "author": "Forest and Kim Starr",
+      "license": "CC BY 3.0 us",
+      "license_url": "https://creativecommons.org/licenses/by/3.0/us/deed.en",
+      "kind": "plant",
+      "alt": "White flower with yellow stamens on a Camellia sinensis tea plant among dark green leaves"
+    }
+  ],
   "stub": true,
   "processing": "Dried plant material, as with most herbal infusions.",
   "harvest_season": "Depends on the plant and the place.",

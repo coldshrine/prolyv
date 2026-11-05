@@ -41,7 +41,18 @@
     "https://ko.wikipedia.org/wiki/%EB%8F%84%ED%99%94%EC%B0%A8"
   ],
   "confidence": "low",
-  "images": [],
+  "images": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/0/00/Dohwa-cha.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/00/Dohwa-cha.jpg/330px-Dohwa-cha.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Dohwa-cha.jpg",
+      "author": "신사임당",
+      "license": "CC BY 2.0 kr",
+      "license_url": "https://creativecommons.org/licenses/by/2.0/kr/deed.en",
+      "kind": "liquor",
+      "alt": "Pale peach flower tea in a ceramic cup with a blossom floating on top"
+    }
+  ],
   "stub": true,
   "processing": "The stamens are removed, then the flowers are dried in shade and kept in paper bags. A brew takes 15 to 20 grams boiled in 500 ml of water.",
   "harvest_season": "Spring.",

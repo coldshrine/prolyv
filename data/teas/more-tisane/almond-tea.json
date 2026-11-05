@@ -43,7 +43,28 @@
     "https://zh.wikipedia.org/wiki/%E6%9D%8F%E4%BB%81%E8%8C%B6"
   ],
   "confidence": "medium",
-  "images": [],
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c5/Cantonese_Almond_Tea.jpg/1280px-Cantonese_Almond_Tea.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c5/Cantonese_Almond_Tea.jpg/330px-Cantonese_Almond_Tea.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Cantonese_Almond_Tea.jpg",
+      "author": "Zheng Zhou",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "kind": "liquor",
+      "alt": "Cantonese almond tea, a creamy white drink in a dark enamel mug"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8a/Almond_Tea_Soup_of_Beijing.jpg/1280px-Almond_Tea_Soup_of_Beijing.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8a/Almond_Tea_Soup_of_Beijing.jpg/330px-Almond_Tea_Soup_of_Beijing.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Almond_Tea_Soup_of_Beijing.jpg",
+      "author": "Zheng Zhou",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "kind": "serving",
+      "alt": "Bowl of Beijing almond tea soup topped with sliced almonds, goji berries and osmanthus"
+    }
+  ],
   "stub": true,
   "processing": "Almonds are ground into a milk or powder, then cooked or mixed with boiling water and sweetened.",
   "harvest_season": "Depends on the plant and the place.",

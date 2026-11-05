@@ -39,7 +39,18 @@
     "https://ja.wikipedia.org/wiki/日本茶"
   ],
   "confidence": "low",
-  "images": [],
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/be/Tanba_tea_in_Ajimaoku_Sasayamacity_Hyogopref.JPG/1280px-Tanba_tea_in_Ajimaoku_Sasayamacity_Hyogopref.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/be/Tanba_tea_in_Ajimaoku_Sasayamacity_Hyogopref.JPG/330px-Tanba_tea_in_Ajimaoku_Sasayamacity_Hyogopref.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Tanba_tea_in_Ajimaoku_Sasayamacity_Hyogopref.JPG",
+      "author": "Mti",
+      "license": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "kind": "plantation",
+      "alt": "Rows of clipped Tanba tea bushes beside a road in Sasayama, Hyogo, with mountains behind"
+    }
+  ],
   "stub": true,
   "processing": "Typical of green tea: picked, heated soon after picking to stop oxidation, then shaped and dried.",
   "harvest_season": "Usually picked in spring, with the earliest pickings prized, as with most green teas.",

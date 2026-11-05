@@ -39,7 +39,48 @@
     "https://ja.wikipedia.org/wiki/日本茶"
   ],
   "confidence": "low",
-  "images": [],
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6a/Omaezaki_Tea_plantation_2021-04_ac_%283%29.jpg/1280px-Omaezaki_Tea_plantation_2021-04_ac_%283%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6a/Omaezaki_Tea_plantation_2021-04_ac_%283%29.jpg/330px-Omaezaki_Tea_plantation_2021-04_ac_%283%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Omaezaki_Tea_plantation_2021-04_ac_(3).jpg",
+      "author": "Asturio Cantabrio",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "kind": "plantation",
+      "alt": "Rows of neatly clipped tea bushes in a field at Omaezaki, Shizuoka"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6b/Omaezaki_Tea_plantation_2021-04_ac_%281%29.jpg/1280px-Omaezaki_Tea_plantation_2021-04_ac_%281%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6b/Omaezaki_Tea_plantation_2021-04_ac_%281%29.jpg/330px-Omaezaki_Tea_plantation_2021-04_ac_%281%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Omaezaki_Tea_plantation_2021-04_ac_(1).jpg",
+      "author": "Asturio Cantabrio",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "kind": "plant",
+      "alt": "Close-up of fresh green tea shoots in an Omaezaki tea field"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ed/Omaezaki_Tea_plantation_2021-04_ac_%282%29.jpg/1280px-Omaezaki_Tea_plantation_2021-04_ac_%282%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ed/Omaezaki_Tea_plantation_2021-04_ac_%282%29.jpg/330px-Omaezaki_Tea_plantation_2021-04_ac_%282%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Omaezaki_Tea_plantation_2021-04_ac_(2).jpg",
+      "author": "Asturio Cantabrio",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "kind": "plantation",
+      "alt": "Tea rows under a blue sky at Shirowa, Omaezaki"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fd/Omaezaki_Tea_plantation_2021-04_ac_%284%29.jpg/1280px-Omaezaki_Tea_plantation_2021-04_ac_%284%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fd/Omaezaki_Tea_plantation_2021-04_ac_%284%29.jpg/330px-Omaezaki_Tea_plantation_2021-04_ac_%284%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Omaezaki_Tea_plantation_2021-04_ac_(4).jpg",
+      "author": "Asturio Cantabrio",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "kind": "plantation",
+      "alt": "Wide view of a flat tea field at Omaezaki under a blue sky"
+    }
+  ],
   "stub": true,
   "processing": "Typical of green tea: picked, heated soon after picking to stop oxidation, then shaped and dried.",
   "harvest_season": "Usually picked in spring, with the earliest pickings prized, as with most green teas.",

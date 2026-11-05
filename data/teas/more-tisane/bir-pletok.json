@@ -36,7 +36,18 @@
     "https://id.wikipedia.org/wiki/Bir_pletok"
   ],
   "confidence": "medium",
-  "images": [],
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d7/Iced_bir_pletok_20240622_112754.jpg/1280px-Iced_bir_pletok_20240622_112754.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d7/Iced_bir_pletok_20240622_112754.jpg/330px-Iced_bir_pletok_20240622_112754.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Iced_bir_pletok_20240622_112754.jpg",
+      "author": "Swarabakti",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "kind": "liquor",
+      "alt": "Glass mug of reddish iced bir pletok with a pink straw"
+    }
+  ],
   "stub": true,
   "processing": "Ingredients are boiled and strained; before serving it may be shaken until it foams.",
   "harvest_season": "Depends on the plant and the place.",

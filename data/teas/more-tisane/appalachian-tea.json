@@ -42,7 +42,18 @@
     "https://en.wikipedia.org/wiki/Ilex_vomitoria"
   ],
   "confidence": "low",
-  "images": [],
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fd/Coastal_Georgia_Botanical_Gardens%2C_Inkberry_ilex_glabra_%27Shamrock%27.jpg/1280px-Coastal_Georgia_Botanical_Gardens%2C_Inkberry_ilex_glabra_%27Shamrock%27.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fd/Coastal_Georgia_Botanical_Gardens%2C_Inkberry_ilex_glabra_%27Shamrock%27.jpg/330px-Coastal_Georgia_Botanical_Gardens%2C_Inkberry_ilex_glabra_%27Shamrock%27.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Coastal_Georgia_Botanical_Gardens,_Inkberry_ilex_glabra_%27Shamrock%27.jpg",
+      "author": "Michael Rivera",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "kind": "plant",
+      "alt": "Young inkberry holly (Ilex glabra) shrub growing in pine straw mulch"
+    }
+  ],
   "stub": true,
   "processing": "Dried plant material, as with most herbal infusions.",
   "harvest_season": "Depends on the plant and the place.",

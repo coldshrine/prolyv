@@ -42,7 +42,28 @@
     "https://de.wikipedia.org/wiki/Fr%C3%BCchtetee"
   ],
   "confidence": "low",
-  "images": [],
+  "images": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/5/52/Fr%C3%BCchtetee.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/52/Fr%C3%BCchtetee.jpg/330px-Fr%C3%BCchtetee.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Fr%C3%BCchtetee.jpg",
+      "author": "",
+      "license": "CC BY-SA 2.5",
+      "license_url": "https://creativecommons.org/licenses/by-sa/2.5",
+      "kind": "dry_leaf",
+      "alt": "Loose dry fruit tea blend with hibiscus and dried fruit pieces on a white background"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/c/c8/%E5%85%AB%E3%83%B6%E5%B2%B3%E5%80%B6%E6%A5%BD%E9%83%A8%E3%81%AE%E3%83%95%E3%83%AB%E3%83%BC%E3%83%84%E3%83%86%E3%82%A3%E3%83%BC.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c8/%E5%85%AB%E3%83%B6%E5%B2%B3%E5%80%B6%E6%A5%BD%E9%83%A8%E3%81%AE%E3%83%95%E3%83%AB%E3%83%BC%E3%83%84%E3%83%86%E3%82%A3%E3%83%BC.jpg/330px-%E5%85%AB%E3%83%B6%E5%B2%B3%E5%80%B6%E6%A5%BD%E9%83%A8%E3%81%AE%E3%83%95%E3%83%AB%E3%83%BC%E3%83%84%E3%83%86%E3%82%A3%E3%83%BC.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source_page": "https://commons.wikimedia.org/wiki/File:%E5%85%AB%E3%83%B6%E5%B2%B3%E5%80%B6%E6%A5%BD%E9%83%A8%E3%81%AE%E3%83%95%E3%83%AB%E3%83%BC%E3%83%84%E3%83%86%E3%82%A3%E3%83%BC.jpg",
+      "author": "Toru Miwa",
+      "license": "CC BY 2.0",
+      "license_url": "https://creativecommons.org/licenses/by/2.0",
+      "kind": "serving",
+      "alt": "Glass teapot of fruit tea with sliced fruit, kept warm over a candle on a wooden table"
+    }
+  ],
   "stub": true,
   "processing": "Dried plant material, as with most herbal infusions.",
   "harvest_season": "Depends on the plant and the place.",

@@ -40,7 +40,18 @@
     "https://en.wikipedia.org/wiki/Guaco"
   ],
   "confidence": "low",
-  "images": [],
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/99/Flor_de_Guaco.jpg/1280px-Flor_de_Guaco.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/99/Flor_de_Guaco.jpg/330px-Flor_de_Guaco.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Flor_de_Guaco.jpg",
+      "author": "Hall_9001",
+      "license": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "kind": "plant",
+      "alt": "Guaco plant (Mikania glomerata) with clusters of pale cream flowers and green leaves"
+    }
+  ],
   "stub": true,
   "processing": "Dried plant material, as with most herbal infusions.",
   "harvest_season": "Depends on the plant and the place.",

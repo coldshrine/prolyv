@@ -39,7 +39,18 @@
     "https://en.wikipedia.org/wiki/Korean_tea"
   ],
   "confidence": "low",
-  "images": [],
+  "images": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/a/a2/Korean_pumpkin_tea-Hobakcha-01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a2/Korean_pumpkin_tea-Hobakcha-01.jpg/330px-Korean_pumpkin_tea-Hobakcha-01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Korean_pumpkin_tea-Hobakcha-01.jpg",
+      "author": "Timber Tank",
+      "license": "CC BY-SA 2.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+      "kind": "liquor",
+      "alt": "Cup of yellow Korean pumpkin tea on a saucer, with its sachets beside it"
+    }
+  ],
   "stub": true,
   "processing": "Dried plant material, as with most herbal infusions.",
   "harvest_season": "Depends on the plant and the place.",

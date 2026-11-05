@@ -39,7 +39,18 @@
     "https://gopaldharaindia.com/tea-cultivars/"
   ],
   "confidence": "low",
-  "images": [],
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/89/Green_tea_leaves.jpg/1280px-Green_tea_leaves.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/89/Green_tea_leaves.jpg/330px-Green_tea_leaves.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Green_tea_leaves.jpg",
+      "author": "たね",
+      "license": "CC BY-SA 3.0",
+      "license_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+      "kind": "plant",
+      "alt": "Fresh green shoots of the Yabukita tea plant in sunlight"
+    }
+  ],
   "stub": true,
   "processing": "A plant cultivar, not a processing style: it is usually made into green tea, and the method is up to the grower.",
   "harvest_season": "Depends on the place and the grower.",

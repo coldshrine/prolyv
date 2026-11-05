@@ -41,7 +41,28 @@
     "https://ja.wikipedia.org/wiki/日本茶"
   ],
   "confidence": "low",
-  "images": [],
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/22/Misakubo_Tea_plantation_ac_%281%29.jpg/1280px-Misakubo_Tea_plantation_ac_%281%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/22/Misakubo_Tea_plantation_ac_%281%29.jpg/330px-Misakubo_Tea_plantation_ac_%281%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Misakubo_Tea_plantation_ac_(1).jpg",
+      "author": "Asturio Cantabrio",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "kind": "plantation",
+      "alt": "Rows of clipped tea bushes on both sides of a paved lane in Misakubo, with forested mountains behind"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1c/Misakubo_Tea_plantation_and_Misakubo_Honmachi_ac.jpg/1280px-Misakubo_Tea_plantation_and_Misakubo_Honmachi_ac.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1c/Misakubo_Tea_plantation_and_Misakubo_Honmachi_ac.jpg/330px-Misakubo_Tea_plantation_and_Misakubo_Honmachi_ac.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Misakubo_Tea_plantation_and_Misakubo_Honmachi_ac.jpg",
+      "author": "Asturio Cantabrio",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "kind": "plantation",
+      "alt": "Terraced tea fields on a hillside above the houses of Misakubo town"
+    }
+  ],
   "stub": true,
   "processing": "Typical of green tea: picked, heated soon after picking to stop oxidation, then shaped and dried.",
   "harvest_season": "Usually picked in spring, with the earliest pickings prized, as with most green teas.",

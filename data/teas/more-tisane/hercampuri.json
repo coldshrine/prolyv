@@ -38,7 +38,28 @@
     "https://es.wikipedia.org/wiki/Gentianella_albo-rosea"
   ],
   "confidence": "low",
-  "images": [],
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/dc/Hercampuri_%28Gentianella_alborosea%29%2C_planta_seca.jpg/1280px-Hercampuri_%28Gentianella_alborosea%29%2C_planta_seca.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/dc/Hercampuri_%28Gentianella_alborosea%29%2C_planta_seca.jpg/330px-Hercampuri_%28Gentianella_alborosea%29%2C_planta_seca.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Hercampuri_(Gentianella_alborosea),_planta_seca.jpg",
+      "author": "Cbrescia",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "kind": "dry_leaf",
+      "alt": "Close view of dried hercampuri (Gentianella alborosea) sprigs on a wooden surface"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d6/Gentianella_alborosea.JPG/1280px-Gentianella_alborosea.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d6/Gentianella_alborosea.JPG/330px-Gentianella_alborosea.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Gentianella_alborosea.JPG",
+      "author": "R. Mathis",
+      "license": "CC BY 3.0",
+      "license_url": "https://creativecommons.org/licenses/by/3.0",
+      "kind": "dry_leaf",
+      "alt": "Bunches of dried hercampuri plants with stems laid out on a woven Andean textile"
+    }
+  ],
   "stub": true,
   "processing": "Dried plant material, as with most herbal infusions.",
   "harvest_season": "Depends on the plant and the place.",

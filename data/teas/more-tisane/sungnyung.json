@@ -41,7 +41,38 @@
     "https://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%B3%E3%83%8B%E3%83%A5%E3%83%B3"
   ],
   "confidence": "medium",
-  "images": [],
+  "images": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/7/75/Sungnyung.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/75/Sungnyung.jpg/330px-Sungnyung.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Sungnyung.jpg",
+      "author": "w:en:User:Drpepper000",
+      "license": "CC BY-SA 3.0",
+      "license_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+      "kind": "liquor",
+      "alt": "Pale golden sungnyung scorched rice tea in a white ceramic bowl on a wooden table"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/50/Sungnyung_2.jpg/1280px-Sungnyung_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/50/Sungnyung_2.jpg/330px-Sungnyung_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Sungnyung_2.jpg",
+      "author": "국립국어원",
+      "license": "CC BY-SA 2.0 kr",
+      "license_url": "https://creativecommons.org/licenses/by-sa/2.0/kr/deed.en",
+      "kind": "liquor",
+      "alt": "Sungnyung with soft rice grains in a speckled stoneware bowl on a white background"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/64/Making_sungnyung_4_sungnyung_in_dolsot.jpg/1280px-Making_sungnyung_4_sungnyung_in_dolsot.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/64/Making_sungnyung_4_sungnyung_in_dolsot.jpg/330px-Making_sungnyung_4_sungnyung_in_dolsot.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Making_sungnyung_4_sungnyung_in_dolsot.jpg",
+      "author": "chomjong",
+      "license": "CC BY 2.0",
+      "license_url": "https://creativecommons.org/licenses/by/2.0",
+      "kind": "serving",
+      "alt": "Sungnyung made from scorched rice and water in a stone dolsot bowl"
+    }
+  ],
   "stub": true,
   "processing": "Water is poured over the browned rice layer in the pot and simmered until it takes on the roasted flavour.",
   "harvest_season": "Depends on the plant and the place.",

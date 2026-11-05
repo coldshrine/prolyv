@@ -38,7 +38,18 @@
     "https://ko.wikipedia.org/wiki/%EB%85%B8%EA%B0%81%EC%B0%A8"
   ],
   "confidence": "low",
-  "images": [],
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fa/%EB%85%B8%EA%B0%81%EC%B0%A8.jpg/1280px-%EB%85%B8%EA%B0%81%EC%B0%A8.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fa/%EB%85%B8%EA%B0%81%EC%B0%A8.jpg/330px-%EB%85%B8%EA%B0%81%EC%B0%A8.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source_page": "https://commons.wikimedia.org/wiki/File:%EB%85%B8%EA%B0%81%EC%B0%A8.jpg",
+      "author": "Pesqua",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "kind": "dry_leaf",
+      "alt": "A small pile of dark, curled dry nogak-cha leaves on a white surface"
+    }
+  ],
   "stub": true,
   "processing": "The leaves are pan-fired and rolled repeatedly, in a method close to green tea.",
   "harvest_season": "Spring, around the Gogu solar term.",

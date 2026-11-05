@@ -39,7 +39,18 @@
     "https://en.wikipedia.org/wiki/Libyan_tea"
   ],
   "confidence": "low",
-  "images": [],
+  "images": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/3/37/Tea_and_peanuts.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/37/Tea_and_peanuts.jpg/330px-Tea_and_peanuts.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Tea_and_peanuts.jpg",
+      "author": "Abdulgahniessadi",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "kind": "liquor",
+      "alt": "Small glasses of dark red Libyan tea filled with peanuts on a tray"
+    }
+  ],
   "stub": true,
   "processing": "Made from a green base tea according to the recipe; the method varies.",
   "harvest_season": "Not tied to a harvest: it depends on the base tea.",

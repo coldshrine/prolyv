@@ -42,7 +42,28 @@
     "https://ko.wikipedia.org/wiki/%EB%B2%84%EC%84%AF%EC%B0%A8"
   ],
   "confidence": "low",
-  "images": [],
+  "images": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/3/3b/Neungi-cha_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3b/Neungi-cha_2.jpg/330px-Neungi-cha_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Neungi-cha_2.jpg",
+      "author": "산골할매",
+      "license": "CC BY 2.0 kr",
+      "license_url": "https://creativecommons.org/licenses/by/2.0/kr/deed.en",
+      "kind": "liquor",
+      "alt": "Cloudy reddish-brown neungi mushroom tea in a crackle-glazed ceramic cup"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/3/35/Neungi-cha.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/35/Neungi-cha.jpg/330px-Neungi-cha.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Neungi-cha.jpg",
+      "author": "산골할매",
+      "license": "CC BY 2.0 kr",
+      "license_url": "https://creativecommons.org/licenses/by/2.0/kr/deed.en",
+      "kind": "serving",
+      "alt": "Dried neungi mushroom pieces on a white dish beside a ceramic teapot, cups of brown tea and a pitcher with steeped mushroom"
+    }
+  ],
   "stub": true,
   "processing": "Dried plant material, as with most herbal infusions.",
   "harvest_season": "Depends on the plant and the place.",

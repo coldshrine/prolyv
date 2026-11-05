@@ -39,7 +39,18 @@
     "https://en.wikipedia.org/wiki/Teh_tarik"
   ],
   "confidence": "low",
-  "images": [],
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2a/Teh_Hijau_Tarik_in_Banda_Aceh.jpg/1280px-Teh_Hijau_Tarik_in_Banda_Aceh.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2a/Teh_Hijau_Tarik_in_Banda_Aceh.jpg/330px-Teh_Hijau_Tarik_in_Banda_Aceh.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Teh_Hijau_Tarik_in_Banda_Aceh.jpg",
+      "author": "M.akbar.raf",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "kind": "liquor",
+      "alt": "Glass mug of frothy pulled green tea on a glass saucer"
+    }
+  ],
   "stub": true,
   "processing": "Made from a green base tea according to the recipe; the method varies.",
   "harvest_season": "Not tied to a harvest: it depends on the base tea.",
