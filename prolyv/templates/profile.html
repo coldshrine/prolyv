@@ -1,5 +1,5 @@
 {% extends "base.html" %}
-{% from "partials/macros.html" import avatar %}
+{% from "partials/macros.html" import avatar, session_card %}
 {% block title %}{{ profile.display_name }} (@{{ profile.handle }}) · Prolyv{% endblock %}
 {% block content %}
 <section class="hero hero-profile">
@@ -11,8 +11,9 @@
       <p class="profile-line"><span class="handle">@{{ profile.handle }}</span>{% if profile.bio %} · {{ profile.bio }}{% endif %}</p>
       <div class="actions">
         {% if is_me %}
-        <a class="btn btn-primary" href="/settings">Edit profile</a>
-        <a class="btn btn-secondary" href="/new">Log a tea</a>
+        <a class="btn btn-primary" href="/sessions/new">Log a tea</a>
+        <a class="btn btn-secondary" href="/diary">My diary</a>
+        <a class="btn btn-ghost" href="/settings">Edit profile</a>
         {% else %}
         <a class="btn btn-primary" href="{% if current_user %}/discuss{% else %}/login{% endif %}">Follow</a>
         <a class="btn btn-secondary" href="/discuss">Ask in the forum</a>
@@ -20,7 +21,7 @@
       </div>
     </div>
     <ul class="stats">
-      <li><p class="stat-value grad-pink">0</p><p class="stat-label">sessions logged</p></li>
+      <li><p class="stat-value grad-pink">{{ session_count }}</p><p class="stat-label">public sessions</p></li>
       <li><p class="stat-value grad-mint">0</p><p class="stat-label">helpful replies</p></li>
     </ul>
   </div>
@@ -28,9 +29,13 @@
 <section class="container">
   <h2 class="h2">Sessions</h2>
   <p class="muted">Private sessions stay private. Public ones will appear here.</p>
+  {% if sessions %}
+  <div class="session-list">{% for s in sessions %}{{ session_card(s, show_author=False) }}{% endfor %}</div>
+  {% else %}
   <div class="card empty">
     <p class="empty-title">No public sessions yet</p>
-    <p class="muted">{% if is_me %}The diary is the next thing we are building — your steeps will land here.{% else %}When @{{ profile.handle }} shares a session, it will show up here.{% endif %}</p>
+    <p class="muted">{% if is_me %}Log a tea and switch it to public to show it here. <a href="/sessions/new">Log a tea</a>{% else %}When @{{ profile.handle }} shares a session, it will show up here.{% endif %}</p>
   </div>
+  {% endif %}
 </section>
 {% endblock %}

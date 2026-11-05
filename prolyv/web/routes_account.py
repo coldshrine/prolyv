@@ -13,6 +13,7 @@ from prolyv.web.cookies import delete_cookie
 from prolyv.web.deps import CurrentUser, DbDep, RequiredUser, SettingsDep, SignerDep, require_csrf
 from prolyv.web.flash import set_flash
 from prolyv.web.routes_auth import PROVIDER_NAMES, set_telegram_intent
+from prolyv.web.routes_diary import public_session_count, public_sessions_for_user
 from prolyv.web.templating import render
 
 router = APIRouter()
@@ -167,5 +168,7 @@ def profile_page(request: Request, db: DbDep, handle: str, current_user: Current
         "profile": user,
         "is_me": current_user is not None and current_user.id == user.id,
         "joined": user.created_at.strftime("%B %Y"),
+        "sessions": public_sessions_for_user(db, user.id),
+        "session_count": public_session_count(db, user.id),
     }
     return render(request, "profile.html", context)

@@ -6,7 +6,7 @@ import enum
 import uuid
 from datetime import UTC, datetime
 
-from sqlalchemy import JSON, Boolean, DateTime, Enum, ForeignKey, Integer, String, Text, UniqueConstraint, Uuid
+from sqlalchemy import JSON, Boolean, DateTime, Enum, Float, ForeignKey, Integer, String, Text, UniqueConstraint, Uuid
 from sqlalchemy.orm import DeclarativeBase, Mapped, mapped_column, relationship
 
 
@@ -79,7 +79,7 @@ class Identity(Base):
 class AuthSession(Base):
     """A browser login. Only the SHA-256 of the cookie token is stored."""
 
-    __tablename__ = "sessions"
+    __tablename__ = "auth_sessions"
 
     id: Mapped[uuid.UUID] = mapped_column(Uuid, primary_key=True, default=uuid.uuid4)
     user_id: Mapped[uuid.UUID] = mapped_column(ForeignKey("users.id", ondelete="CASCADE"), index=True)
@@ -273,3 +273,109 @@ class TeaAlias(Base):
     alias: Mapped[str] = mapped_column(String(160))
 
     tea: Mapped[Tea] = relationship(back_populates="aliases")
+
+
+# ---------------------------------------------------------------------------------------------------------------
+# Diary: tea sessions (milestone 3)
+# ---------------------------------------------------------------------------------------------------------------
+
+
+class Visibility(str, enum.Enum):
+    private = "private"
+    public = "public"
+
+
+VESSELS = ["gaiwan", "teapot", "kyusu", "mug", "thermos", "grandpa", "cold brew", "other"]
+SESSION_TASTE_TAGS = [
+    "floral", "fruity", "honey", "sweet", "creamy", "nutty", "cocoa", "malty", "roasted", "smoky", "mineral", "grassy",
+    "vegetal", "umami", "woody", "earthy", "camphor", "spicy", "bitter", "astringent", "brisk", "tart", "thick", "thin",
+]
+
+
+class TeaSession(Base):
+    """One brewing session in a diary. Private by default; public ones show in the feed and on the profile."""
+
+    __tablename__ = "tea_sessions"
+
+    id: Mapped[uuid.UUID] = mapped_column(Uuid, primary_key=True, default=uuid.uuid4)
+    user_id: Mapped[uuid.UUID] = mapped_column(ForeignKey("users.id", ondelete="CASCADE"), index=True)
+    tea_id: Mapped[uuid.UUID | None] = mapped_column(ForeignKey("teas.id", ondelete="SET NULL"), index=True)
+    tea_name: Mapped[str] = mapped_column(String(160))
+    grams: Mapped[float | None] = mapped_column(Float)
+    water_ml: Mapped[int | None] = mapped_column(Integer)
+    temp_c: Mapped[int | None] = mapped_column(Integer)
+    vessel: Mapped[str | None] = mapped_column(String(40))
+    rinse: Mapped[bool] = mapped_column(Boolean, default=False)
+    rating: Mapped[int | None] = mapped_column(Integer)
+    taste_tags: Mapped[list] = mapped_column(JSON, default=list)
+    note: Mapped[str] = mapped_column(Text, default="")
+    visibility: Mapped[Visibility] = mapped_column(
+        Enum(Visibility, name="visibility", native_enum=False, length=10), default=Visibility.private, index=True
+    )
+    allow_comments: Mapped[bool] = mapped_column(Boolean, default=True)
+    post_id: Mapped[uuid.UUID | None] = mapped_column(Uuid, index=True)  # "brew along" with a blog post (milestone 5)
+    brewed_at: Mapped[datetime] = mapped_column(DateTime, default=utcnow, nullable=False, index=True)
+    created_at: Mapped[datetime] = mapped_column(DateTime, default=utcnow, nullable=False)
+    updated_at: Mapped[datetime] = mapped_column(DateTime, default=utcnow, onupdate=utcnow, nullable=False)
+
+    user: Mapped[User] = relationship()
+    tea: Mapped[Tea | None] = relationship()
+    steeps: Mapped[list[Steep]] = relationship(back_populates="session", cascade="all, delete-orphan", order_by="Steep.n")
+    comments: Mapped[list[SessionComment]] = relationship(
+        back_populates="session", cascade="all, delete-orphan", order_by="SessionComment.created_at"
+    )
+
+    @property
+    def is_public(self) -> bool:
+        return self.visibility == Visibility.public
+
+    @property
+    def params_line(self) -> str:
+        bits = []
+        if self.grams:
+            bits.append(f"{self.grams:g} g")
+        if self.water_ml:
+            bits.append(f"{self.water_ml} ml")
+        if self.temp_c:
+            bits.append(f"{self.temp_c} °C")
+        if self.steeps:
+            bits.append(f"{len(self.steeps)} steep{'s' if len(self.steeps) != 1 else ''}")
+        if self.vessel:
+            bits.append(self.vessel)
+        return " · ".join(bits)
+
+    @property
+    def stars(self) -> str:
+        if not self.rating:
+            return ""
+        return "★" * self.rating + "☆" * (5 - self.rating)
+
+    @property
+    def category_key(self) -> str:
+        return self.tea.category.value if self.tea else "oolong"
+
+
+class Steep(Base):
+    __tablename__ = "steeps"
+    __table_args__ = (UniqueConstraint("session_id", "n", name="uq_steeps_session_n"),)
+
+    id: Mapped[uuid.UUID] = mapped_column(Uuid, primary_key=True, default=uuid.uuid4)
+    session_id: Mapped[uuid.UUID] = mapped_column(ForeignKey("tea_sessions.id", ondelete="CASCADE"), index=True)
+    n: Mapped[int] = mapped_column(Integer)
+    seconds: Mapped[int] = mapped_column(Integer)
+    note: Mapped[str | None] = mapped_column(String(200))
+
+    session: Mapped[TeaSession] = relationship(back_populates="steeps")
+
+
+class SessionComment(Base):
+    __tablename__ = "session_comments"
+
+    id: Mapped[uuid.UUID] = mapped_column(Uuid, primary_key=True, default=uuid.uuid4)
+    session_id: Mapped[uuid.UUID] = mapped_column(ForeignKey("tea_sessions.id", ondelete="CASCADE"), index=True)
+    user_id: Mapped[uuid.UUID] = mapped_column(ForeignKey("users.id", ondelete="CASCADE"), index=True)
+    body: Mapped[str] = mapped_column(Text)
+    created_at: Mapped[datetime] = mapped_column(DateTime, default=utcnow, nullable=False)
+
+    session: Mapped[TeaSession] = relationship(back_populates="comments")
+    user: Mapped[User] = relationship()

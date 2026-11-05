@@ -7,8 +7,8 @@
     <p class="lead">Log tea sessions in 30 seconds, keep them private or share them, and talk brewing with people who drink the same tea.</p>
     <div class="actions">
       {% if current_user %}
-      <a class="btn btn-primary" href="/new"><span class="plus" aria-hidden="true">+</span> Log a tea</a>
-      <a class="btn btn-secondary" href="/u/{{ current_user.handle }}">Your profile</a>
+      <a class="btn btn-primary" href="/sessions/new"><span class="plus" aria-hidden="true">+</span> Log a tea</a>
+      <a class="btn btn-secondary" href="/diary">My diary</a>
       {% else %}
       <a class="btn btn-primary" href="/login">Start your diary</a>
       <a class="btn btn-secondary" href="/feed">Read the feed</a>

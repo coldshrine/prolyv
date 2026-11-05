@@ -16,3 +16,20 @@
   </span>
 </a>
 {%- endmacro %}
+
+{% macro session_card(sess, show_author=True) -%}
+<article class="session-card">
+  <span class="cup-mark cup-{{ sess.category_key }} cup-sm" aria-hidden="true"></span>
+  <div class="session-card-body">
+    <p class="session-date">{{ sess.brewed_at.strftime('%-d %b %Y') }}{% if not sess.is_public %} · <span class="badge-private">private</span>{% endif %}</p>
+    <a class="session-title" href="/sessions/{{ sess.id }}">{{ sess.tea_name }}</a>
+    {% if sess.params_line %}<p class="session-params">{{ sess.params_line }}</p>{% endif %}
+    {% if sess.note %}<p class="session-note">{{ sess.note[:160] }}{% if sess.note|length > 160 %}…{% endif %}</p>{% endif %}
+    {% if show_author %}<p class="session-author"><a href="/u/{{ sess.user.handle }}">@{{ sess.user.handle }}</a></p>{% endif %}
+  </div>
+  <div class="session-side">
+    {% if sess.rating %}<span class="stars" aria-label="{{ sess.rating }} of 5">{{ sess.stars }}</span>{% endif %}
+    {% if sess.is_public and sess.comments %}<a href="/sessions/{{ sess.id }}#comments" class="small">{{ sess.comments|length }} comment{{ '' if sess.comments|length == 1 else 's' }}</a>{% endif %}
+  </div>
+</article>
+{%- endmacro %}

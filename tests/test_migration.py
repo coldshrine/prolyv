@@ -21,8 +21,8 @@ def test_migration_builds_the_schema_and_matches_the_models(tmp_path, monkeypatc
 
     command.upgrade(config, "head")
     inspector = inspect(create_engine(url))
-    assert {"users", "identities", "sessions"} <= set(inspector.get_table_names())
-    assert {c["name"] for c in inspector.get_columns("sessions")} == {
+    assert {"users", "identities", "auth_sessions", "teas", "tea_sessions", "steeps"} <= set(inspector.get_table_names())
+    assert {c["name"] for c in inspector.get_columns("auth_sessions")} == {
         "id", "user_id", "token_hash", "expires_at", "created_at", "last_seen_at", "user_agent",
     }
     assert {c["name"] for c in inspector.get_columns("users")} == {

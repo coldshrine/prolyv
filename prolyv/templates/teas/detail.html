@@ -1,4 +1,5 @@
 {% extends "base.html" %}
+{% from "partials/macros.html" import session_card %}
 {% block title %}{{ tea.name_en }} · Prolyv tea base{% endblock %}
 {% block head %}
 <link rel="canonical" href="{{ og.url }}">
@@ -86,12 +87,14 @@
     {% if tea.aliases %}<p class="muted small">Also known as: {{ tea.aliases|map(attribute='alias')|join(', ') }}</p>{% endif %}
 
     <h2 class="h2" id="sessions">Sessions with this tea</h2>
-    {% block tea_sessions %}
+    {% if sessions %}
+    <div class="session-list">{% for s in sessions %}{{ session_card(s) }}{% endfor %}</div>
+    {% else %}
     <div class="card empty">
-      <p class="empty-title">No sessions logged yet</p>
+      <p class="empty-title">No public sessions yet</p>
       <p class="muted">Be the first: <a href="{% if current_user %}/sessions/new?tea={{ tea.slug }}{% else %}/login?next=/sessions/new%3Ftea%3D{{ tea.slug }}{% endif %}">log this tea</a>.</p>
     </div>
-    {% endblock %}
+    {% endif %}
   </div>
 
   <aside class="tea-side">

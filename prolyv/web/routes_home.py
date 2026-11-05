@@ -14,8 +14,6 @@ SECTIONS = {
     "feed": ("Feed", "Public tea sessions from everyone on Prolyv will show up here."),
     "discuss": ("Discussions", "Topics and replies about the teas you drink."),
     "blog": ("Blog", "Full brewing breakdowns behind the short videos."),
-    "diary": ("My diary", "Your sessions, private by default, public when you choose."),
-    "new": ("Log a tea", "Tea, grams, water, temperature, steeps, rating, notes — in 30 seconds."),
 }
 
 

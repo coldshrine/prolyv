@@ -289,8 +289,11 @@ def tea_detail(request: Request, db: DbDep, settings: SettingsDep, user: Current
         jsonld["image"] = image.url
     if tea.wikipedia_url:
         jsonld["sameAs"] = [tea.wikipedia_url]
+    from prolyv.web.routes_diary import public_sessions_for_tea
+
     context = {
         "tea": tea, "related": related, "image": image, "is_admin_view": is_admin,
+        "sessions": public_sessions_for_tea(db, tea.id),
         "jsonld": json.dumps(jsonld, ensure_ascii=False),
         "og": {"title": f"{tea.name_en} · Prolyv tea base", "description": (tea.taste_profile or "")[:200],
                "image": image.thumb_url if image else None, "url": f"{settings.base_url}/teas/{tea.slug}"},

@@ -1,0 +1,113 @@
+{% extends "base.html" %}
+{% from "partials/macros.html" import avatar %}
+{% block title %}{{ sess.tea_name }} · {{ sess.user.display_name }}'s diary · Prolyv{% endblock %}
+{% block head %}
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="Prolyv">
+<meta property="og:title" content="{{ og.title }}">
+<meta property="og:description" content="{{ og.description }}">
+<meta property="og:url" content="{{ og.url }}">
+{% if og.image %}<meta property="og:image" content="{{ og.image }}">{% endif %}
+{% if not sess.is_public %}<meta name="robots" content="noindex">{% endif %}
+{% endblock %}
+{% block content %}
+<section class="hero">
+  <div class="container session-hero">
+    <span class="cup-mark cup-{{ sess.category_key }} cup-lg" aria-hidden="true"></span>
+    <div class="session-hero-meta">
+      <p class="eyebrow">{{ sess.brewed_at.strftime('%-d %B %Y') }} · {% if sess.is_public %}public session{% else %}private · only you can see this{% endif %}</p>
+      <h1 class="display">{{ sess.tea_name }}</h1>
+      <p class="session-by"><a class="author-link" href="/u/{{ sess.user.handle }}">{{ avatar(sess.user, 32) }} <span>{{ sess.user.display_name }} · @{{ sess.user.handle }}</span></a>{% if sess.tea %} · <a href="/teas/{{ sess.tea.slug }}">tea card</a>{% endif %}</p>
+      {% if sess.rating %}<p class="stars stars-lg" aria-label="{{ sess.rating }} of 5">{{ sess.stars }}</p>{% endif %}
+      {% if sess.taste_tags %}<div class="tags">{% for t in sess.taste_tags %}<span class="tag">{{ t }}</span>{% endfor %}</div>{% endif %}
+      <div class="actions">
+        <a class="btn btn-primary" href="{% if current_user %}/sessions/new?from={{ sess.id }}{% else %}/login?next=/sessions/new%3Ffrom%3D{{ sess.id }}{% endif %}">Brew it the same way</a>
+        {% if sess.is_public %}<button type="button" class="btn btn-secondary" id="share-btn" data-url="{{ og.url }}">Share</button>{% endif %}
+        {% if is_owner %}<a class="btn btn-secondary" href="/sessions/{{ sess.id }}/edit">Edit</a>{% endif %}
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="container session-body">
+  <div class="session-main">
+    <ul class="facts">
+      {% if sess.grams %}<li><span class="fact-label">Leaf</span><span>{{ sess.grams|round(1) if sess.grams != sess.grams|int else sess.grams|int }} g</span></li>{% endif %}
+      {% if sess.water_ml %}<li><span class="fact-label">Water</span><span>{{ sess.water_ml }} ml</span></li>{% endif %}
+      {% if sess.temp_c %}<li><span class="fact-label">Temperature</span><span>{{ sess.temp_c }} °C</span></li>{% endif %}
+      {% if sess.vessel %}<li><span class="fact-label">Vessel</span><span>{{ sess.vessel|capitalize }}</span></li>{% endif %}
+      <li><span class="fact-label">Rinse</span><span>{{ 'Yes' if sess.rinse else 'No' }}</span></li>
+      <li><span class="fact-label">Steeps</span><span>{{ sess.steeps|length }}</span></li>
+    </ul>
+
+    {% if sess.steeps %}
+    <h2 class="h2">Steeps</h2>
+    <ol class="steep-timeline">
+      {% for st in sess.steeps %}<li><span class="steep-n">{{ st.n }}</span><span class="steep-sec">{{ st.seconds }} s</span>{% if st.note %}<span class="steep-note">{{ st.note }}</span>{% endif %}</li>{% endfor %}
+    </ol>
+    {% endif %}
+
+    {% if sess.note %}
+    <h2 class="h2">Notes</h2>
+    <div class="prose">{% for p in sess.note.split('\n\n') %}<p>{{ p }}</p>{% endfor %}</div>
+    {% endif %}
+
+    {% if sess.is_public %}
+    <h2 class="h2" id="comments">Comments{% if sess.comments %} · {{ sess.comments|length }}{% endif %}</h2>
+    {% if sess.comments %}
+    <ul class="comments">
+      {% for c in sess.comments %}
+      <li class="comment">
+        <a class="author-link" href="/u/{{ c.user.handle }}">{{ avatar(c.user, 28) }} <span>@{{ c.user.handle }}</span></a>
+        <span class="muted small">{{ c.created_at.strftime('%-d %b %Y') }}</span>
+        <p>{{ c.body }}</p>
+        {% if current_user and (c.user_id == current_user.id or can_moderate) %}
+        <form method="post" action="/sessions/{{ sess.id }}/comments/{{ c.id }}/delete" class="inline-form"><input type="hidden" name="csrf_token" value="{{ csrf_token }}"><button class="link-btn small" type="submit">delete</button></form>
+        {% endif %}
+      </li>
+      {% endfor %}
+    </ul>
+    {% endif %}
+    {% if sess.allow_comments %}
+      {% if current_user %}
+      <form method="post" action="/sessions/{{ sess.id }}/comments" class="form comment-form">
+        <input type="hidden" name="csrf_token" value="{{ csrf_token }}">
+        <textarea name="body" rows="3" maxlength="2000" placeholder="Brewed this too? Say how it went." required></textarea>
+        <div class="actions"><button class="btn btn-secondary btn-sm" type="submit">Comment</button></div>
+      </form>
+      {% else %}<p class="muted"><a href="/login?next=/sessions/{{ sess.id }}">Log in</a> to comment.</p>{% endif %}
+    {% else %}<p class="muted small">Comments are off for this session.</p>{% endif %}
+    {% endif %}
+  </div>
+
+  {% if is_owner %}
+  <aside class="session-side">
+    <section class="card">
+      <h2 class="h2">Your session</h2>
+      <form method="post" action="/sessions/{{ sess.id }}/visibility" class="form">
+        <input type="hidden" name="csrf_token" value="{{ csrf_token }}">
+        <input type="hidden" name="visibility" value="{{ 'private' if sess.is_public else 'public' }}">
+        <button class="btn btn-secondary" type="submit">{% if sess.is_public %}Make private{% else %}Make public{% endif %}</button>
+      </form>
+      <form method="post" action="/sessions/{{ sess.id }}/delete" class="form" onsubmit="return confirm('Delete this session?')">
+        <input type="hidden" name="csrf_token" value="{{ csrf_token }}">
+        <button class="btn btn-ghost" type="submit">Delete</button>
+      </form>
+    </section>
+  </aside>
+  {% endif %}
+</section>
+{% endblock %}
+{% block scripts %}
+<script>
+(function () {
+  var btn = document.getElementById("share-btn");
+  if (!btn) return;
+  btn.addEventListener("click", function () {
+    var url = btn.dataset.url;
+    if (navigator.share) { navigator.share({ title: document.title, url: url }).catch(function () {}); return; }
+    navigator.clipboard.writeText(url).then(function () { btn.textContent = "Link copied"; });
+  });
+})();
+</script>
+{% endblock %}

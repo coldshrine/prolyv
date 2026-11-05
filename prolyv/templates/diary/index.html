@@ -1,0 +1,58 @@
+{% extends "base.html" %}
+{% from "partials/macros.html" import session_card %}
+{% block title %}My diary · Prolyv{% endblock %}
+{% block content %}
+<section class="hero">
+  <div class="container diary-head">
+    <div>
+      <p class="eyebrow">My diary</p>
+      <h1 class="display">{{ current_user.display_name }}</h1>
+      <p class="lead">{% if stats.total %}{{ stats.total }} session{{ '' if stats.total == 1 else 's' }} logged · {{ stats.public }} public{% else %}Your steeps will show up here.{% endif %}</p>
+      <div class="actions"><a class="btn btn-primary" href="/sessions/new"><span class="plus" aria-hidden="true">+</span> Log a tea</a><a class="btn btn-secondary" href="/u/{{ current_user.handle }}">Public profile</a></div>
+    </div>
+    <ul class="stats">
+      <li><p class="stat-value grad-pink">{{ stats.month }}</p><p class="stat-label">last 30 days</p></li>
+      <li><p class="stat-value grad-mint">{{ stats.avg_rating if stats.avg_rating else '–' }}</p><p class="stat-label">average rating</p></li>
+      <li><p class="stat-value grad-pink">{{ stats.steeps }}</p><p class="stat-label">steeps</p></li>
+      <li><p class="stat-value grad-mint">{{ stats.favourite or '–' }}</p><p class="stat-label">most brewed</p></li>
+    </ul>
+  </div>
+</section>
+
+<section class="container diary-body">
+  <div class="diary-main">
+    <h2 class="h2">Last 30 days</h2>
+    {% if days %}
+      {% for day, items in days.items() %}
+      <h3 class="day-label">{% if day == today %}Today{% else %}{{ day.strftime('%A, %-d %B') }}{% endif %}</h3>
+      <div class="session-list">{% for s in items %}{{ session_card(s, show_author=False) }}{% endfor %}</div>
+      {% endfor %}
+    {% else %}
+    <div class="card empty"><p class="empty-title">Nothing in the last 30 days</p><p class="muted">Brew something and <a href="/sessions/new">log it</a>.</p></div>
+    {% endif %}
+  </div>
+  <aside class="diary-side">
+    <section class="card">
+      <h2 class="h2">Cups calendar</h2>
+      <div class="calendar" aria-label="Sessions per day, last 12 weeks">
+        {% for week in grid %}<div class="cal-week">{% for day in week %}<span class="cal-day{% if day.future %} cal-future{% elif day.count >= 3 %} cal-3{% elif day.count == 2 %} cal-2{% elif day.count == 1 %} cal-1{% endif %}" title="{{ day.date.strftime('%-d %b') }}: {{ day.count }}"></span>{% endfor %}</div>{% endfor %}
+      </div>
+      <p class="muted small">Each square is a day; brighter means more sessions.</p>
+    </section>
+    <section class="card">
+      <h2 class="h2">Shelf</h2>
+      {% if shelf %}
+      <ul class="shelf">
+        {% for item in shelf %}
+        <li>
+          <span class="cup-mark cup-{{ item.tea.category.value if item.tea else 'oolong' }} cup-xs" aria-hidden="true"></span>
+          <span class="shelf-name">{% if item.tea %}<a href="/teas/{{ item.tea.slug }}">{{ item.name }}</a>{% else %}{{ item.name }}{% endif %}</span>
+          <span class="muted small">{{ item.count }}× · last {{ item.last.strftime('%-d %b') }}{% if item.avg %} · ★ {{ item.avg }}{% endif %}</span>
+        </li>
+        {% endfor %}
+      </ul>
+      {% else %}<p class="muted small">Teas you log will stack up here.</p>{% endif %}
+    </section>
+  </aside>
+</section>
+{% endblock %}
