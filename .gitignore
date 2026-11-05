@@ -24,7 +24,8 @@ build/
 .ruff_cache/
 .mypy_cache/
 
-# editors / OS
+# editors / OS / Claude desktop launch config
 .DS_Store
+.claude/launch.json
 .idea/
 .vscode/

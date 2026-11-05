@@ -1,0 +1,42 @@
+# systemd unit for Prolyv. Install:
+#   sudo cp deploy/prolyv.service /etc/systemd/system/prolyv.service
+#   sudo systemctl daemon-reload && sudo systemctl enable --now prolyv
+# Logs: journalctl -u prolyv -f
+
+[Unit]
+Description=Prolyv — tea diary, forum and blog (uvicorn)
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=simple
+User=ubuntu
+Group=ubuntu
+WorkingDirectory=/home/ubuntu/prolyv
+# Secrets and bind address live here (copy .env.example, chmod 600, owned by root:ubuntu).
+EnvironmentFile=/etc/prolyv.env
+Environment=PYTHONDONTWRITEBYTECODE=1
+# Port 8010 is not opened in the OCI security list or host iptables, so only the local Caddy reaches it;
+# that is why trusting X-Forwarded-* from any proxy address is acceptable here.
+ExecStart=/home/ubuntu/prolyv/.venv/bin/uvicorn prolyv.main:app \
+    --host ${BIND_HOST} --port ${BIND_PORT} \
+    --proxy-headers --forwarded-allow-ips=* \
+    --workers 1 --timeout-keep-alive 10
+Restart=always
+RestartSec=3
+# The micro VM has 956 MB RAM; keep one worker and let systemd restart on trouble.
+MemoryMax=300M
+
+# Hardening
+NoNewPrivileges=true
+PrivateTmp=true
+ProtectSystem=strict
+ProtectHome=read-only
+ReadWritePaths=/var/lib/prolyv
+ProtectKernelTunables=true
+ProtectControlGroups=true
+RestrictSUIDSGID=true
+UMask=0027
+
+[Install]
+WantedBy=multi-user.target
