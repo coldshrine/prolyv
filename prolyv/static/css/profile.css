@@ -99,7 +99,7 @@
 .pf-note-4 { background: rgba(255, 79, 216, 0.18); color: #FFC4F2; }
 
 .pf-aside { display: flex; flex-direction: column; gap: 16px; }
-.pf-side-title { margin: 0; font-size: 17px; font-weight: 800; }
+.pf-side-title { margin: 0; font-family: inherit; font-size: 17px; font-weight: 800; letter-spacing: 0; }
 .pf-badges { list-style: none; margin: 12px 0 0; padding: 0; display: flex; flex-direction: column; gap: 10px; }
 .pf-badges li { display: flex; align-items: center; gap: 12px; }
 .pf-badges b { display: block; font-weight: 800; font-size: 15px; }
