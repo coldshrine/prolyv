@@ -241,7 +241,9 @@ Google may refuse a `*.sslip.io` redirect URI when the app goes to Production, a
 e-mail links don't depend on it. If Google refuses it, use your own domain or a Cloudflare Tunnel with your own domain.
 
 The one difference: the Dota analyzer's Caddy runs **inside Docker** and already owns ports 80 and 443, so Prolyv
-is a site block in that Caddy, not a second Caddy. Prolyv itself runs as a systemd service on the host.
+is a site block in that Caddy, not a second Caddy. Prolyv itself runs as a systemd service on the host and listens on a
+Unix socket shared with the container. The host firewall rejects traffic from Docker networks to host ports, so a TCP
+upstream would not reach it, and the socket needs no port opened.
 
 ```bash
 export SSH="ssh -i ~/Downloads/ssh-key-2026-06-25.key"
@@ -250,13 +252,14 @@ export SSH="ssh -i ~/Downloads/ssh-key-2026-06-25.key"
 1. **Tools on the VM (once).**
 
    ```bash
-   $SSH ubuntu@144.24.168.1 'curl -LsSf https://astral.sh/uv/install.sh | sh && sudo apt-get install -y sqlite3 && sudo mkdir -p /var/lib/prolyv/backups && sudo chown -R ubuntu:ubuntu /var/lib/prolyv'
+   $SSH ubuntu@144.24.168.1 'curl -LsSf https://astral.sh/uv/install.sh | sh && sudo apt-get install -y sqlite3 && sudo mkdir -p /var/lib/prolyv/backups /var/lib/prolyv/run /var/lib/prolyv/media && sudo chown -R ubuntu:ubuntu /var/lib/prolyv'
    ```
 
 2. **Copy the code** (never `.env`, never the database):
 
    ```bash
-   rsync -az -e "$SSH" --exclude .venv --exclude .git --exclude '.env' --exclude '*.db*' --exclude __pycache__ ./ ubuntu@144.24.168.1:prolyv/
+   rsync -az -e "$SSH" --exclude .venv --exclude .git --exclude '.env' --exclude '*.db*' --exclude __pycache__ --exclude media --exclude data/tea-research --exclude tests --exclude .claude ./ ubuntu@144.24.168.1:prolyv/
+   rsync -az -e "$SSH" media/teas/ ubuntu@144.24.168.1:/var/lib/prolyv/media/teas/
    ```
 
 3. **Install dependencies** (uv fetches Python 3.12 on first run):
@@ -268,8 +271,7 @@ export SSH="ssh -i ~/Downloads/ssh-key-2026-06-25.key"
 4. **Secrets.** Create `/etc/prolyv.env` from `.env.example` and fill it in. Values that differ from local:
    `BASE_URL=https://prolyv.144.24.168.1.sslip.io`, `DATABASE_URL=sqlite:////var/lib/prolyv/prolyv.db`,
    `MEDIA_DIR=/var/lib/prolyv/media`, `ADMIN_EMAILS=<the e-mail you sign in with>` (or `ADMIN_TELEGRAM_IDS=<your numeric Telegram id>`), no `DEV_LOGIN` (the app won't start with it),
-   `BIND_HOST=0.0.0.0` (so the Caddy container can reach uvicorn through the host gateway; port 8010 is closed
-   in the OCI security list and in the host firewall, so nothing else can).
+   and leave `BIND_HOST` and `BIND_PORT` out.
 
    ```bash
    $SSH ubuntu@144.24.168.1 'sudo cp prolyv/.env.example /etc/prolyv.env && sudo chown root:ubuntu /etc/prolyv.env && sudo chmod 640 /etc/prolyv.env && sudo nano /etc/prolyv.env'
@@ -284,15 +286,16 @@ export SSH="ssh -i ~/Downloads/ssh-key-2026-06-25.key"
 6. **Service.**
 
    ```bash
-   $SSH ubuntu@144.24.168.1 'sudo cp prolyv/deploy/prolyv.service /etc/systemd/system/ && sudo systemctl daemon-reload && sudo systemctl enable --now prolyv && sleep 2 && curl -s localhost:8010/healthz'
+   $SSH ubuntu@144.24.168.1 'sudo cp prolyv/deploy/prolyv.service /etc/systemd/system/ && sudo systemctl daemon-reload && sudo systemctl enable --now prolyv && sleep 3 && curl -s --unix-socket /var/lib/prolyv/run/prolyv.sock http://localhost/healthz'
    ```
 
    Expect `{"ok":true}`. Logs: `journalctl -u prolyv -f`.
 
 7. **Caddy (the Dota analyzer's container).** In `~/dota-tournament-analyzer/deploy/`:
-   - append the site block from `deploy/Caddyfile` to its `Caddyfile`, with `reverse_proxy host.docker.internal:8010`;
-   - in `docker-compose.yml`, under the `caddy` service, add `extra_hosts: ["host.docker.internal:host-gateway"]`;
-   - `sudo docker compose up -d` (Caddy reloads, obtains the certificate for the new host automatically).
+   - append the site block from `deploy/Caddyfile` to its `Caddyfile`, keeping the global `servers { protocols h1 h2 }`
+     block at the top of that file (HTTP/3 hangs browsers here);
+   - in `docker-compose.yml`, under the `caddy` service, add the volume `/var/lib/prolyv/run:/run/prolyv`;
+   - validate the file with a throwaway container, then `sudo docker compose up -d --no-deps caddy`.
 
    Check <https://prolyv.144.24.168.1.sslip.io/healthz>, then `/login`. When you move to a real domain, point its
    DNS A record at the VM, change the site address in the Caddyfile and `BASE_URL`, update the Google redirect
@@ -316,7 +319,7 @@ guides. `scripts/seed_demo.py` refuses to run on a real domain.
 **Photos on the server:** set `MEDIA_DIR=/var/lib/prolyv/media`. Only `media/teas/` is served as static files. Session photos go through the app, which shows those of private or hidden sessions to their author and admins only, so never point Caddy straight at this folder. Include that folder in your backups, because session photos
 live only there; tea photos can be regenerated by the importer.
 
-**Memory.** One uvicorn worker (~70 MB) next to the Dota containers is fine on 956 MB plus swap; the unit caps
+**Memory.** One uvicorn worker next to the Dota containers is fine on 956 MB plus swap; the unit caps
 Prolyv at 300 MB and restarts it if it ever grows past that.
 
 ## What is still a stub

@@ -13,13 +13,13 @@ Type=simple
 User=ubuntu
 Group=ubuntu
 WorkingDirectory=/home/ubuntu/prolyv
-# Secrets and bind address live here (copy .env.example, chmod 600, owned by root:ubuntu).
+# Secrets live here (chmod 640, owned by root:ubuntu).
 EnvironmentFile=/etc/prolyv.env
 Environment=PYTHONDONTWRITEBYTECODE=1
-# Port 8010 is not opened in the OCI security list or host iptables, so only the local Caddy reaches it;
-# that is why trusting X-Forwarded-* from any proxy address is acceptable here.
+# Only a Unix socket, shared with the Caddy container through a bind mount: no TCP port to open or firewall. Only Caddy
+# reaches the socket, which is why trusting X-Forwarded-* from it is acceptable.
 ExecStart=/home/ubuntu/prolyv/.venv/bin/uvicorn prolyv.main:app \
-    --host ${BIND_HOST} --port ${BIND_PORT} \
+    --uds /var/lib/prolyv/run/prolyv.sock \
     --proxy-headers --forwarded-allow-ips=* \
     --workers 1 --timeout-keep-alive 10
 Restart=always

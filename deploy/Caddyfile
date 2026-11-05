@@ -1,20 +1,19 @@
 # Caddy site for Prolyv with automatic HTTPS (Let's Encrypt).
 #
-# Standalone Caddy on the host (apt install caddy): copy to /etc/caddy/Caddyfile and `sudo systemctl reload caddy`.
+# On the shared Oracle VM, Caddy runs as a Docker container for the Dota analyzer and owns ports 80/443. Do NOT start a
+# second Caddy there. Append the site block below to that container's Caddyfile
+# (~/dota-tournament-analyzer/deploy/Caddyfile), and give the caddy service in docker-compose.yml this extra volume:
+#   - /var/lib/prolyv/run:/run/prolyv
+# Then `sudo docker compose up -d --no-deps caddy`. See README -> "Deploy to the Oracle VM".
 #
-# On the shared Oracle VM, Caddy already runs as a Docker container for the Dota analyzer and owns ports
-# 80/443. Do NOT start a second Caddy there: paste the site block below into that container's Caddyfile
-# (~/dota-tournament-analyzer/deploy/Caddyfile), change the upstream to host.docker.internal:8010, add
-#   extra_hosts: ["host.docker.internal:host-gateway"]
-# to the caddy service in docker-compose.yml, set BIND_HOST=0.0.0.0 in /etc/prolyv.env, and run
-# `sudo docker compose up -d` in that deploy folder. See README → "Deploy to the Oracle VM".
-
-{
-	# QUIC/UDP 443 is blocked by the OCI firewall; TCP h1/h2 only, same as the Dota analyzer.
-	servers {
-		protocols h1 h2
-	}
-}
+# That Caddyfile must start with this global block. QUIC/UDP 443 is blocked by the OCI firewall, and without it browsers
+# hang on HTTP/3:
+#
+# {
+# 	servers {
+# 		protocols h1 h2
+# 	}
+# }
 
 # Replace with your real domain once you have one; sslip.io needs no DNS setup.
 prolyv.144.24.168.1.sslip.io {
@@ -32,15 +31,5 @@ prolyv.144.24.168.1.sslip.io {
 		-Server
 	}
 
-	# Standalone Caddy on the host:
-	reverse_proxy 127.0.0.1:8010
-	# Caddy inside Docker (Dota analyzer compose):
-	# reverse_proxy host.docker.internal:8010
-
-	log {
-		output file /var/log/caddy/prolyv.log {
-			roll_size 10MiB
-			roll_keep 5
-		}
-	}
+	reverse_proxy unix//run/prolyv/prolyv.sock
 }
