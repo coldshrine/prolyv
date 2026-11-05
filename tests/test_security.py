@@ -61,7 +61,7 @@ def test_attached_session_disappears_when_private_or_hidden(app, client, db):
     telegram_login(client, username="olena_tea")
     session_id, topic_id, token = public_session_with_topic(client, db)
     visitor = fresh(app)
-    assert "My private note" in visitor.get(f"/discussions/{topic_id}").text
+    assert "Secret Oolong" in visitor.get(f"/discussions/{topic_id}").text
     assert "Attached session" in visitor.get("/discussions").text
 
     client.post(f"/sessions/{session_id}/visibility", data={"csrf_token": token, "visibility": "private"}, follow_redirects=False)
@@ -72,7 +72,7 @@ def test_attached_session_disappears_when_private_or_hidden(app, client, db):
     client.post(f"/sessions/{session_id}/visibility", data={"csrf_token": token, "visibility": "public"}, follow_redirects=False)
     db.execute(update(TeaSession).where(TeaSession.id == uuid.UUID(session_id)).values(hidden=True))
     db.commit()
-    assert "My private note" not in visitor.get(f"/discussions/{topic_id}").text
+    assert "Secret Oolong" not in visitor.get(f"/discussions/{topic_id}").text
 
 
 def test_admin_follows_a_verified_sign_in_not_the_handle(tmp_path, google):
