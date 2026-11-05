@@ -174,9 +174,9 @@ def test_new_session_prefills_from_tea_and_from_session(client, db):
 def test_tea_suggestions(client, db):
     make_tea(db, "tie-guan-yin", "Tie Guan Yin", aliases=["TGY"])
     telegram_login(client)
-    assert "Tie Guan Yin" in client.get("/teas/suggest", params={"q": "tgy"}).text
-    assert "Not in the base yet" in client.get("/teas/suggest", params={"q": "zzz"}).text
-    assert client.get("/teas/suggest", params={"q": "t"}).text.strip() == ""
+    assert "Tie Guan Yin" in client.get("/teas/suggest", params={"tea_name": "tgy"}).text
+    assert "Not in the base yet" in client.get("/teas/suggest", params={"tea_name": "zzz"}).text
+    assert client.get("/teas/suggest", params={"tea_name": "t"}).text.strip() == ""
 
 
 def jpeg_with_exif(size=(1600, 1200)) -> bytes:

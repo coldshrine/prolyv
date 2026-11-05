@@ -24,6 +24,7 @@ from prolyv.models import (
     TeaStatus,
     User,
     Visibility,
+    fold_text,
     utcnow,
 )
 from prolyv.search import index_session, remove
@@ -471,13 +472,14 @@ def diary(request: Request, db: DbDep, user: RequiredUser):
 
 
 @router.get("/teas/suggest")
-def tea_suggest(request: Request, db: DbDep, user: RequiredUser, q: str = ""):
-    q = q.strip().lower()[:60]
+def tea_suggest(request: Request, db: DbDep, user: RequiredUser, tea_name: str = ""):
+    """HTMX sends the input by its field name, tea_name."""
+    q = tea_name.strip().lower()[:60]
     teas = []
     if len(q) >= 2:
         stmt = select(Tea).where(Tea.status == TeaStatus.published)
-        for token in q.split()[:4]:
-            stmt = stmt.where(Tea.search_text.like(f"%{token}%"))
+        for token in fold_text(q).split()[:4]:
+            stmt = stmt.where(Tea.search_text.contains(token, autoescape=True))
         teas = db.execute(stmt.order_by(Tea.popularity.desc(), Tea.name_en).limit(8)).scalars().all()
     return render(request, "diary/_tea_suggest.html", {"teas": teas, "q": q})
 

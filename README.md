@@ -228,6 +228,9 @@ Same machine and pattern as the Dota analyzer: `ubuntu@144.24.168.1`, always-fre
 HTTPS. Nothing new is created in Oracle Cloud, so the cost stays at $0. The micro instance's sshd drops
 connections now and then — retry `ssh` two to four times.
 
+Google may refuse a `*.sslip.io` redirect URI when the app goes to Production, and that isn't confirmed either way. Telegram and
+e-mail links don't depend on it. If Google refuses it, use your own domain or a Cloudflare Tunnel with your own domain.
+
 The one difference: the Dota analyzer's Caddy runs **inside Docker** and already owns ports 80 and 443, so Prolyv
 is a site block in that Caddy, not a second Caddy. Prolyv itself runs as a systemd service on the host.
 
@@ -255,6 +258,7 @@ export SSH="ssh -i ~/Downloads/ssh-key-2026-06-25.key"
 
 4. **Secrets.** Create `/etc/prolyv.env` from `.env.example` and fill it in. Values that differ from local:
    `BASE_URL=https://prolyv.144.24.168.1.sslip.io`, `DATABASE_URL=sqlite:////var/lib/prolyv/prolyv.db`,
+   `MEDIA_DIR=/var/lib/prolyv/media`, `ADMIN_HANDLES=<your handle>`, no `DEV_LOGIN` (the app won't start with it),
    `BIND_HOST=0.0.0.0` (so the Caddy container can reach uvicorn through the host gateway; port 8010 is closed
    in the OCI security list and in the host firewall, so nothing else can).
 
