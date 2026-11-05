@@ -73,9 +73,11 @@ def create_app(settings: Settings | None = None, google_transport=None) -> FastA
     app.add_middleware(RateLimitMiddleware, limiter=RateLimiter(settings.auth_rate_limit, settings.auth_rate_window))
 
     app.mount("/static", StaticFiles(directory=str(STATIC_DIR)), name="static")
-    media_dir = Path(settings.media_dir)
-    media_dir.mkdir(parents=True, exist_ok=True)
-    app.mount("/media", StaticFiles(directory=str(media_dir)), name="media")
+    # Only tea photos are static. Session photos go through a route that checks who is asking, and stories are
+    # drawn by another one, so nothing else under MEDIA_DIR may be reachable from a plain URL.
+    tea_media = Path(settings.media_dir) / "teas"
+    tea_media.mkdir(parents=True, exist_ok=True)
+    app.mount("/media/teas", StaticFiles(directory=str(tea_media)), name="media-teas")
     app.include_router(routes_auth.router)
     app.include_router(routes_account.router)
     app.include_router(routes_diary.router)  # before teas: owns /teas/suggest

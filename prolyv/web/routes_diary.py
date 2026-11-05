@@ -2,13 +2,14 @@
 
 from __future__ import annotations
 
+import re
 import uuid
 from collections import OrderedDict
 from datetime import date, datetime, timedelta
 from pathlib import Path
 
 from fastapi import APIRouter, Depends, Form, HTTPException, Request
-from fastapi.responses import RedirectResponse, Response
+from fastapi.responses import FileResponse, RedirectResponse, Response
 from sqlalchemy import func, select
 from sqlalchemy.orm import selectinload
 
@@ -37,6 +38,8 @@ from prolyv.web.templating import render
 
 router = APIRouter()
 
+PHOTO_FILE = re.compile(r"[0-9a-f]{32}-(?:1200|400)\.webp")
+
 
 def session_query():
     return select(TeaSession).options(selectinload(TeaSession.steeps), selectinload(TeaSession.tea), selectinload(TeaSession.user), selectinload(TeaSession.photos))
@@ -46,12 +49,15 @@ def public_sessions():
     return session_query().where(TeaSession.visibility == Visibility.public, TeaSession.hidden.is_(False))
 
 
+def can_view(sess: TeaSession, viewer: User | None, is_admin: bool = False) -> bool:
+    if sess.is_public and not sess.hidden:
+        return True
+    return is_admin or (viewer is not None and viewer.id == sess.user_id)
+
+
 def get_session(db, session_id: uuid.UUID, viewer: User | None, is_admin: bool = False) -> TeaSession:  # noqa: ANN001
     sess = db.execute(session_query().where(TeaSession.id == session_id)).scalar_one_or_none()
-    if sess is None:
-        raise HTTPException(status_code=404)
-    owner = viewer is not None and viewer.id == sess.user_id
-    if (not sess.is_public or sess.hidden) and not owner and not is_admin:
+    if sess is None or not can_view(sess, viewer, is_admin):
         raise HTTPException(status_code=404)
     return sess
 
@@ -364,6 +370,24 @@ def session_page(request: Request, db: DbDep, settings: SettingsDep, user: Curre
     context = {"sess": sess, "is_owner": is_owner, "can_moderate": is_owner or is_admin, "og": og, "comments": comments,
                "saved": is_saved(db, user, "session", sess.id)}
     return render(request, "diary/session.html", context)
+
+
+@router.get("/media/sessions/{session_hex}/{filename}")
+def session_photo(request: Request, db: DbDep, settings: SettingsDep, user: CurrentUser, session_hex: str, filename: str):
+    """Photos follow their session: a private or hidden one shows them to its author and admins only."""
+    try:
+        session_id = uuid.UUID(hex=session_hex)
+    except ValueError:
+        raise HTTPException(status_code=404) from None
+    sess = db.get(TeaSession, session_id)
+    if sess is None or not PHOTO_FILE.fullmatch(filename) or not can_view(sess, user, getattr(request.state, "is_admin", False)):
+        raise HTTPException(status_code=404)
+    path = Path(settings.media_dir) / "sessions" / session_id.hex / filename
+    if not path.is_file():
+        raise HTTPException(status_code=404)
+    # never in a shared cache, because a public session can turn private again
+    cache = "private, max-age=3600" if sess.is_public and not sess.hidden else "private, no-store"
+    return FileResponse(path, media_type="image/webp", headers={"Cache-Control": cache})
 
 
 @router.get("/sessions/{session_id}/story.png")

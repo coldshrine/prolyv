@@ -274,3 +274,59 @@ def test_export_contains_my_data_only(client):
     assert data["profile"]["handle"] == "olena_tea" and [s["tea"] for s in data["sessions"]] == ["Export Oolong"]
     assert data["sessions"][0]["steeps"][0]["seconds"] == 15 and data["sign_in_methods"][0]["provider"] == "telegram"
     assert "hash" not in response.text
+
+
+def test_private_session_photos_are_only_for_the_author_and_admins(client, db, app):
+    from fastapi.testclient import TestClient
+    from sqlalchemy import update
+
+    from tests.conftest import DESKTOP_UA
+
+    telegram_login(client, tg_id="1", username="olena_tea")
+    token = csrf_token(client)
+    data = {"csrf_token": token, "tea_name": "Secret Oolong", "visibility": "private", "brewed_at": "2026-11-05"}
+    response = client.post("/sessions/new", data=data, files=[("photos", ("a.jpg", jpeg_with_exif(), "image/jpeg"))], follow_redirects=False)
+    sid = session_id_from(response)
+    photo = db.get(TeaSession, uuid.UUID(sid)).photos[0]
+    urls = [photo.url, photo.thumb_url]
+
+    def fresh():
+        return TestClient(app, headers={"user-agent": DESKTOP_UA})
+
+    stranger = fresh()
+    telegram_login(stranger, tg_id="2", username="stranger")
+    anonymous = fresh()
+    admin = fresh()
+    telegram_login(admin, tg_id="3", username="boss")
+    app.state.settings.admin_handles = "boss"
+
+    for url in urls:
+        owner_view = client.get(url)
+        assert owner_view.status_code == 200 and owner_view.headers["content-type"] == "image/webp"
+        assert owner_view.headers["cache-control"] == "private, no-store"
+        assert stranger.get(url).status_code == 404
+        assert anonymous.get(url).status_code == 404
+        assert admin.get(url).status_code == 200
+
+    # the path cannot be reached around the route
+    tail = urls[0].removeprefix("/media/")
+    for sneaky in (f"/media/{tail}", f"/media/teas/../{tail}", f"/media/teas/%2e%2e/{tail}", f"/media/teas/..%2f{tail}", f"//media/{tail}"):
+        assert anonymous.get(sneaky).status_code == 404, sneaky
+    assert anonymous.get(urls[0].rsplit("/", 1)[0] + "/../../../prolyv.db").status_code == 404
+
+    # public shows it to everyone, hiding by a moderator takes it away again
+    client.post(f"/sessions/{sid}/visibility", data={"csrf_token": token, "visibility": "public"}, follow_redirects=False)
+    assert anonymous.get(urls[0]).status_code == 200 and stranger.get(urls[1]).status_code == 200
+    db.execute(update(TeaSession).where(TeaSession.id == uuid.UUID(sid)).values(hidden=True))
+    db.commit()
+    assert anonymous.get(urls[0]).status_code == 404
+    assert client.get(urls[0]).status_code == 200
+
+
+def test_story_files_are_not_served_from_media(client, tmp_path, settings):
+    from pathlib import Path
+
+    folder = Path(settings.media_dir) / "stories"
+    folder.mkdir(parents=True)
+    (folder / "abc-1.png").write_bytes(b"x")
+    assert client.get("/media/stories/abc-1.png").status_code == 404
