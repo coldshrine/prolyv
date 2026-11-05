@@ -1,0 +1,29 @@
+# Choices for the owner (appended by the code sessions)
+
+- Admin rights now come from ADMIN_EMAILS (verified e-mail) or ADMIN_TELEGRAM_IDS. Set one of them on the server before launch, or nobody is an admin.
+- Footer: Threads, Telegram bot and Support us from the canvas are not drawn. No accounts or page exist for them, and socials come only from SOCIAL_TIKTOK and SOCIAL_INSTAGRAM.
+- Contact in the footer shows only when CONTACT_EMAIL is set.
+- Splash screen from the canvas is not built. A server-rendered site has no loading moment to show it in, so it could only slow the page down.
+- Feed cards have no Follow or Save actions. The canvas shows none, the brief mentions them.
+- Profile Shelf: the canvas "180 g left" and "What Olena is drinking right now" are not drawn, because the diary does not track stock. It shows session count and average rating, with "Teas Olena has logged in public sessions."
+- Forum, Topic: view counts are not drawn ("312 views" on the canvas), because the site does not record views. Decide whether to start counting them.
+- Topic: "N sessions logged" counts only the person's public sessions, so private diary entries stay private. Decide if the total should show instead.
+- Topic: the opening post and replies show "Follow topic" to everyone but the topic's author, who is already notified of every reply.
+- Forum: replies hidden before this change keep their old count and search entry until a moderator presses unhide and hide once. No migration was allowed.
+- Blog, "New breakdowns by email": not drawn. It needs SMTP and a subscribers table, and neither exists.
+- Blog, "Series" and post "In this series": not drawn. Post has no series column, and a schema change is out of scope.
+- Blog post, per-steep tasting notes and "What we'd change next time": no such data. Rows show only the tea's real steep times; an author can write the rest in the post body.
+- Blog post, "most common change" in the brew-along summary: not drawn. Sessions don't record what changed against the post.
+- Blog post, video length and view counts on the figure ("0:48", "184k views"): not drawn. We don't store them, and TikTok/Instagram would need an API.
+- Blog comments, "Attach my session" and nested author replies: not drawn. PostComment has no session or parent column. Author comments get an "author" label and tint instead; "Add my session" covers attaching.
+- Blog post, forum thread card: Topic has no post link, so a thread shows only when its text contains /blog/<slug>. A real link needs a column, or a prefill on /discussions/new.
+- Diary "Running low on your shelf" and "Restock" are not drawn: there is no stock data; the Shelf shows the teas brewed most instead.
+- Comment "Attach my session" is not drawn: session comments have no field for an attached session (needs a schema change).
+- New session "Photo of the package" is not drawn: nothing reads a package photo; the leaf-or-liquor photo upload remains.
+- "Your tea year" shows live counts for the current year, not "Arrives on December 28" and "See an example": no scheduled year-end story exists.
+- Session Rinse shows Yes, not "1 × 5 s": rinse time is not stored. The privacy line says "Allow comments" only, because "Brew it the same way" cannot be switched off.
+- "Discuss in the forum" on someone else's session opens a new topic without the attachment: the forum only attaches the author's own public sessions.
+- Set CONTACT_EMAIL before launch. Without it /privacy has no private channel: it points to Settings and asks people not to post personal requests in public.
+- Profile tile now reads "public sessions" for everyone, including the owner. Showing the private total to the owner is still her choice.
+- Blog: on a post with no linked tea the brew-along block and button are hidden, but /sessions/new?post=<slug> still accepts the link. Sessions already attached keep the block visible.
+- Left from QA round 2, by agreement: Polish items, story cup spiral, session card cup and avatar sizes, /blog grid without an aside, phone steep list cup, text behind bars in WebKit (unconfirmed on a device), saving and commenting share one quota.
