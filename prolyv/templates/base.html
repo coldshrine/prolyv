@@ -52,22 +52,51 @@
 </main>
 {% block footer %}
 <footer class="site-footer">
+  <div class="rainbow-stripe" aria-hidden="true"></div>
   <div class="site-footer-inner">
-    <a class="brand" href="/"><span class="brand-mark" aria-hidden="true"></span><span class="brand-name">Prolyv</span></a>
-    <nav aria-label="Site">
-      <a href="/teas">Tea base</a>
-      <a href="/discussions">Discussions</a>
-      <a href="/blog">Blog</a>
-      {% if is_admin %}<a href="/admin">Admin</a>{% endif %}
-      {% if current_user %}<a href="/saved">Saved</a>{% endif %}
-      <a href="/about">About</a>
-      <a href="/rules">Community rules</a>
-      <a href="/privacy">Privacy</a>
-      <a href="/terms">Terms</a>
-      {% if settings.social_tiktok %}<a href="{{ settings.social_tiktok }}" target="_blank" rel="noopener">TikTok</a>{% endif %}
-      {% if settings.social_instagram %}<a href="{{ settings.social_instagram }}" target="_blank" rel="noopener">Instagram</a>{% endif %}
+    <div class="footer-brand">
+      <a class="brand" href="/"><span class="brand-mark" aria-hidden="true"></span><span class="brand-name">Prolyv</span></a>
+      <p>A tea diary, forum and blog. Log your sessions, talk them through and share{% if settings.social_tiktok or settings.social_instagram %}. The home of our TikTok and Instagram{% endif %}.</p>
+      {% if settings.social_tiktok or settings.social_instagram %}
+      <div class="footer-social">
+        {% if settings.social_tiktok %}<a href="{{ settings.social_tiktok }}" aria-label="TikTok" target="_blank" rel="noopener"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M14 4v10.5a3.5 3.5 0 1 1-3.5-3.5"></path><path d="M14 4c.5 2.6 2.2 4 5 4.2"></path></svg></a>{% endif %}
+        {% if settings.social_instagram %}<a href="{{ settings.social_instagram }}" aria-label="Instagram" target="_blank" rel="noopener"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#FFFFFF" stroke-width="2" aria-hidden="true"><rect x="4" y="4" width="16" height="16" rx="5"></rect><circle cx="12" cy="12" r="3.5"></circle><circle cx="17" cy="7" r="0.6"></circle></svg></a>{% endif %}
+      </div>
+      {% endif %}
+    </div>
+    <nav aria-label="Community">
+      <p class="footer-title">COMMUNITY</p>
+      <ul>
+        <li><a href="/">Feed</a></li>
+        <li><a href="/teas">Tea base</a></li>
+        <li><a href="/discussions">Discussions</a></li>
+        <li><a href="/blog">Blog</a></li>
+        <li><a href="/diary">My diary</a></li>
+        {% if current_user %}<li><a href="/saved">Saved</a></li><li><a href="/settings">Settings</a></li>{% endif %}
+        {% if is_admin %}<li><a href="/admin">Admin</a></li>{% endif %}
+      </ul>
+    </nav>
+    <nav aria-label="Forum sections">
+      <p class="footer-title">FORUM SECTIONS</p>
+      <ul>
+        <li><a href="/discussions/s/oolong">Oolong</a></li>
+        <li><a href="/discussions/s/pu-erh">Pu-erh</a></li>
+        <li><a href="/discussions/s/teaware">Teaware</a></li>
+        <li><a href="/discussions/s/beginners">Beginners</a></li>
+      </ul>
+    </nav>
+    <nav aria-label="Project">
+      <p class="footer-title">PROJECT</p>
+      <ul>
+        <li><a href="/about">About Prolyv</a></li>
+        <li><a href="/rules">Community rules</a></li>
+        <li><a href="/privacy">Privacy</a></li>
+        <li><a href="/terms">Terms</a></li>
+        {% if settings.contact_email %}<li><a href="mailto:{{ settings.contact_email }}">Contact</a></li>{% endif %}
+      </ul>
     </nav>
   </div>
+  <div class="site-footer-bottom"><span>© {{ year }} Prolyv · Made in Ukraine</span><span>Your diary is yours: private entries are visible only to you.</span></div>
 </footer>
 {% endblock %}
 {% block tabbar %}

@@ -62,12 +62,12 @@ def test_attached_session_disappears_when_private_or_hidden(app, client, db):
     session_id, topic_id, token = public_session_with_topic(client, db)
     visitor = fresh(app)
     assert "My private note" in visitor.get(f"/discussions/{topic_id}").text
-    assert "session attached" in visitor.get("/discussions").text
+    assert "Attached session" in visitor.get("/discussions").text
 
     client.post(f"/sessions/{session_id}/visibility", data={"csrf_token": token, "visibility": "private"}, follow_redirects=False)
     page = visitor.get(f"/discussions/{topic_id}").text
     assert "My private note" not in page and "Secret Oolong" not in page
-    assert "session attached" not in visitor.get("/discussions").text
+    assert "Attached session" not in visitor.get("/discussions").text
 
     client.post(f"/sessions/{session_id}/visibility", data={"csrf_token": token, "visibility": "public"}, follow_redirects=False)
     db.execute(update(TeaSession).where(TeaSession.id == uuid.UUID(session_id)).values(hidden=True))

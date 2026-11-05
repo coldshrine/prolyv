@@ -29,52 +29,62 @@
 </a>
 {%- endmacro %}
 
+{# The card from the canvas. show_author=False on the author's own lists (diary, profile), where the head would repeat. #}
 {% macro session_card(sess, show_author=True) -%}
 <article class="session-card">
-  {% if sess.photos %}<img class="session-thumb" src="{{ sess.photos[0].thumb_url }}" alt="" loading="lazy">{% else %}{{ cup(sess.category_key, 56, sess.tea.liquor_hex if sess.tea else None) }}{% endif %}
-  <div class="session-card-body">
-    <p class="session-date">{{ sess.brewed_at.strftime('%-d %b %Y') }}{% if not sess.is_public %} · <span class="badge-private">private</span>{% endif %}</p>
-    <a class="session-title" href="/sessions/{{ sess.id }}">{{ sess.tea_name }}</a>
-    {% if sess.params_line %}<p class="session-params">{{ sess.params_line }}</p>{% endif %}
-    {% if sess.note %}<p class="session-note">{{ sess.note[:160] }}{% if sess.note|length > 160 %}…{% endif %}</p>{% endif %}
-    {% if show_author %}<p class="session-author">{{ who(sess.user) }}</p>{% endif %}
+  <div class="session-head">
+    {% if show_author %}{{ avatar(sess.user, 36) }}<p class="session-who">{% if sess.user.deleted_at %}<span>Deleted account</span>{% else %}<a href="/u/{{ sess.user.handle }}">{{ sess.user.display_name }}</a>{% endif %} · {{ sess.brewed_at|ago }}</p>
+    {% else %}<p class="session-who session-date">{{ sess.brewed_at.strftime('%-d %b %Y') }}</p>{% endif %}
+    {% if not sess.is_public %}<span class="kind-badge">PRIVATE</span>{% else %}<span class="kind-badge">SESSION</span>{% endif %}
   </div>
-  <div class="session-side">
-    {% if sess.rating %}<span class="stars" aria-label="{{ sess.rating }} of 5">{{ sess.stars }}</span>{% endif %}
-    {% if sess.is_public and sess.comments %}<a href="/sessions/{{ sess.id }}#comments" class="small">{{ sess.comments|length }} comment{{ '' if sess.comments|length == 1 else 's' }}</a>{% endif %}
+  <a class="session-main" href="/sessions/{{ sess.id }}">
+    {% if sess.photos %}<img class="session-thumb" src="{{ sess.photos[0].thumb_url }}" alt="" loading="lazy">{% else %}{{ cup(sess.category_key, 72, sess.tea.liquor_hex if sess.tea else None) }}{% endif %}
+    <span class="session-title-box"><span class="session-title">{{ sess.tea_name }}</span>{% if sess.params_line %}<span class="session-params">{{ sess.params_line }}</span>{% endif %}</span>
+  </a>
+  {% if sess.note %}<p class="session-note">{{ sess.note[:220] }}{% if sess.note|length > 220 %}…{% endif %}</p>{% endif %}
+  {% if sess.rating or sess.comment_count or sess.is_public %}
+  <div class="session-foot">
+    <span class="session-stats">{% if sess.rating %}<span class="stars" aria-label="{{ sess.rating }} of 5">{{ sess.stars }}</span>{% endif %}{% if sess.comment_count %}<a href="/sessions/{{ sess.id }}#comments">{{ sess.comment_count }} comment{{ '' if sess.comment_count == 1 else 's' }}</a>{% endif %}</span>
+    {% if show_author and sess.is_public %}<a class="btn-pill" href="/sessions/new?from={{ sess.id }}"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 4v6h6"></path><path d="M20 12a8 8 0 1 1-2.3-5.7L20 9"></path></svg>Brew it the same way</a>{% endif %}
   </div>
+  {% endif %}
 </article>
 {%- endmacro %}
 
 {% macro topic_card(topic, show_section=True) -%}
 <article class="topic-card">
   <div class="topic-card-head">
-    {% if topic.pinned %}<span class="badge badge-pin">Pinned</span>{% endif %}
-    {% if topic.solved %}<span class="badge badge-solved">Solved</span>{% endif %}
-    {% if show_section %}<a class="badge badge-section" href="/discussions/s/{{ topic.section.slug }}">{{ topic.section.name }}</a>{% endif %}
-    <span class="muted small">{{ topic.activity_at.strftime('%-d %b') }}</span>
+    {% if show_section %}<a class="sec-badge sec-{{ topic.section.slug }}" href="/discussions/s/{{ topic.section.slug }}">{{ topic.section.name|upper }}</a>{% endif %}
+    {% if topic.pinned %}<span class="badge badge-pin">PINNED</span>{% endif %}
+    {% if topic.solved %}<span class="badge badge-solved">SOLVED</span>{% endif %}
+    <span class="topic-time">{{ topic.created_at|ago }}</span>
   </div>
   <a class="topic-title" href="/discussions/{{ topic.id }}">{{ topic.title }}</a>
-  <p class="topic-excerpt">{{ topic.body[:180] }}{% if topic.body|length > 180 %}…{% endif %}</p>
-  <p class="topic-meta">{{ who(topic.user) }} · {{ topic.reply_count }} repl{{ 'y' if topic.reply_count == 1 else 'ies' }}{% if topic.shown_session %} · session attached{% endif %}</p>
+  {% if topic.excerpt %}<p class="topic-excerpt">{{ topic.excerpt[:180] }}{% if topic.excerpt|length > 180 %}…{% endif %}</p>{% endif %}
+  {% if topic.shown_session %}<p class="attached-pill">{{ cup(topic.shown_session.category_key, 26) }}<span>Attached session{% if topic.shown_session.params_line %}: {{ topic.shown_session.params_line }}{% endif %}</span></p>{% endif %}
+  <p class="topic-meta"><span>{% if topic.user.deleted_at %}Deleted account{% else %}<a href="/u/{{ topic.user.handle }}">{{ topic.user.display_name }}</a>{% endif %}</span><strong>{{ topic.reply_count }} repl{{ 'y' if topic.reply_count == 1 else 'ies' }}</strong>{% if topic.last_reply_at %}<span>last reply {{ topic.last_reply_at|ago }}</span>{% endif %}</p>
 </article>
 {%- endmacro %}
 
 {% macro feed_item(item) -%}
 {% if item.kind == 'session' %}{{ session_card(item.obj) }}
 {% elif item.kind == 'topic' %}{{ topic_card(item.obj) }}
-{% elif item.kind == 'post' %}{{ post_card(item.obj) }}{% endif %}
+{% else %}{{ post_card(item.obj) }}{% endif %}
 {%- endmacro %}
 
 {% macro post_card(post) -%}
-<article class="post-card">
-  {% if post.cover_url %}<a class="post-cover" href="/blog/{{ post.slug }}"><img src="{{ post.cover_url }}" alt="" loading="lazy"></a>{% endif %}
-  <div class="post-card-body">
-    <p class="session-date">Blog · {{ post.published_at.strftime('%-d %b %Y') if post.published_at else 'draft' }}</p>
-    <a class="topic-title" href="/blog/{{ post.slug }}">{{ post.title }}</a>
-    {% if post.summary %}<p class="topic-excerpt">{{ post.summary }}</p>{% endif %}
-  </div>
-</article>
+<a class="post-card" href="/blog/{{ post.slug }}">
+  <span class="post-cover" aria-hidden="true">
+    {% if post.cover_url %}<img src="{{ post.cover_url }}" alt="" loading="lazy">{% else %}{{ cup(post.cup_kind, 120, spin=True) }}{% endif %}
+    <span class="post-badge">{{ post.kind_label|upper }}</span>
+  </span>
+  <span class="post-card-body">
+    <span class="post-kicker">BLOG · {{ post.read_minutes }} MIN{% if post.published_at %} · {{ post.published_at.strftime('%-d %b %Y') }}{% endif %}{% if not post.published_at %} · DRAFT{% endif %}</span>
+    <span class="post-title">{{ post.title }}</span>
+    {% if post.summary %}<span class="post-summary">{{ post.summary }}</span>{% endif %}
+    <span class="post-more">Read and discuss →</span>
+  </span>
+</a>
 {%- endmacro %}
 
 

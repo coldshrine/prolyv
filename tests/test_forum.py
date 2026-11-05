@@ -41,7 +41,7 @@ def test_create_topic_and_search(client, db):
     tid = topic_id_from(response)
 
     page = client.get(f"/discussions/{tid}").text
-    assert "Why does my shu turn bitter" in page and "@olena_tea" in page and "What am I doing wrong?" in page
+    assert "Why does my shu turn bitter" in page and "/u/olena_tea" in page and "What am I doing wrong?" in page
     assert "0 replies" in page and "Topic posted" in page
 
     index = client.get("/discussions").text
@@ -109,7 +109,7 @@ def test_replies_votes_and_marking_helpful(client, db):
     assert db.get(Reply, reply.id).marked_helpful_by_author and db.get(Topic, uuid.UUID(tid)).solved
     page = client.get(f"/discussions/{tid}").text
     assert "Marked helpful by the author" in page and "Solved" in page
-    assert "Solved" in client.get("/discussions").text
+    assert "SOLVED" in client.get("/discussions").text
     client.cookies.clear()
     assert "1</p><p class=\"stat-label\">helpful replies" in client.get("/u/mike").text.replace("\n", "")
 
@@ -149,7 +149,7 @@ def test_admin_pin_and_author_delete(tmp_path, google):
         telegram_login(client, tg_id="900", username=ADMIN)
         admin_token = csrf_token(client)
         client.post(f"/discussions/{tid}/pin", data={"csrf_token": admin_token}, follow_redirects=False)
-        assert "Pinned" in client.get("/discussions").text
+        assert "PINNED" in client.get("/discussions").text
         client.cookies.clear()
         telegram_login(client, tg_id="2", username="mike")
         assert client.post(f"/discussions/{tid}/delete", data={"csrf_token": csrf_token(client)}, follow_redirects=False).status_code == 403
@@ -172,7 +172,7 @@ def test_home_feed_merges_public_sessions_and_topics(client):
     assert "Feed Oolong" not in client.get("/", params={"tab": "discussions"}).text
     client.cookies.clear()
     guest = client.get("/").text
-    assert "Every steep, in your diary" in guest and "Latest on Prolyv" in guest and "Feed Oolong" in guest
+    assert "Log your tea. Talk through every steep." in guest and "How it works" in guest and "Feed Oolong" in guest
     assert client.get("/feed", follow_redirects=False).headers["location"] == "/"
     assert client.get("/discuss", follow_redirects=False).headers["location"] == "/discussions"
 

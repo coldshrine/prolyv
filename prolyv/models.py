@@ -464,6 +464,10 @@ class TeaSession(Base):
     def category_key(self) -> str:
         return self.tea.category.value if self.tea else "oolong"
 
+    @property
+    def comment_count(self) -> int:
+        return sum(1 for comment in self.comments if not comment.hidden)
+
 
 class Steep(Base):
     __tablename__ = "steeps"
@@ -556,6 +560,14 @@ class Topic(Base):
         return public_or_none(self.attached_session)
 
     @property
+    def excerpt(self) -> str:
+        """The first thing the author says, without quoted paragraphs."""
+        for paragraph in self.body.split("\n\n"):
+            if paragraph.strip() and not paragraph.lstrip().startswith(">"):
+                return paragraph.strip()
+        return ""
+
+    @property
     def activity_at(self) -> datetime:
         return self.last_reply_at or self.created_at
 
@@ -643,6 +655,18 @@ class Post(Base):
     comments: Mapped[list[PostComment]] = relationship(back_populates="post", cascade="all, delete-orphan", order_by="PostComment.created_at")
 
     @property
+    def read_minutes(self) -> int:
+        return max(1, round(len((self.body_md or "").split()) / 200))
+
+    @property
+    def kind_label(self) -> str:
+        return "Video" if self.video_url else "Article"
+
+    @property
+    def cup_kind(self) -> str:
+        return self.tea.category.value if self.tea else "oolong"
+
+    @property
     def is_published(self) -> bool:
         return self.published_at is not None
 
@@ -692,6 +716,31 @@ class Follow(Base):
     id: Mapped[uuid.UUID] = mapped_column(Uuid, primary_key=True, default=uuid.uuid4)
     follower_id: Mapped[uuid.UUID] = mapped_column(ForeignKey("users.id", ondelete="CASCADE"), index=True)
     followee_id: Mapped[uuid.UUID] = mapped_column(ForeignKey("users.id", ondelete="CASCADE"), index=True)
+    created_at: Mapped[datetime] = mapped_column(DateTime, default=utcnow, nullable=False)
+
+
+class TopicFollow(Base):
+    """Someone wants to hear about new replies in a topic."""
+
+    __tablename__ = "topic_follows"
+    __table_args__ = (UniqueConstraint("user_id", "topic_id", name="uq_topic_follows_user_topic"),)
+
+    id: Mapped[uuid.UUID] = mapped_column(Uuid, primary_key=True, default=uuid.uuid4)
+    user_id: Mapped[uuid.UUID] = mapped_column(ForeignKey("users.id", ondelete="CASCADE"), index=True)
+    topic_id: Mapped[uuid.UUID] = mapped_column(ForeignKey("topics.id", ondelete="CASCADE"), index=True)
+    created_at: Mapped[datetime] = mapped_column(DateTime, default=utcnow, nullable=False)
+
+
+class HelpfulVote(Base):
+    """A Helpful press on something other than a reply: kind is 'topic', 'session_comment' or 'post_comment'."""
+
+    __tablename__ = "helpful_votes"
+    __table_args__ = (UniqueConstraint("user_id", "kind", "ref_id", name="uq_helpful_votes_user_ref"),)
+
+    id: Mapped[uuid.UUID] = mapped_column(Uuid, primary_key=True, default=uuid.uuid4)
+    user_id: Mapped[uuid.UUID] = mapped_column(ForeignKey("users.id", ondelete="CASCADE"), index=True)
+    kind: Mapped[str] = mapped_column(String(20))
+    ref_id: Mapped[uuid.UUID] = mapped_column(Uuid, index=True)
     created_at: Mapped[datetime] = mapped_column(DateTime, default=utcnow, nullable=False)
 
 

@@ -76,7 +76,7 @@ def test_public_session_shows_on_profile_and_tea_card(client, db):
     assert "Tie Guan Yin" in client.get("/u/olena_tea").text
     assert "1</p><p class=\"stat-label\">public sessions" in client.get("/u/olena_tea").text.replace("\n", "")
     tea_page = client.get("/teas/tie-guan-yin").text
-    assert "@olena_tea" in tea_page and "No public sessions yet" not in tea_page
+    assert "/u/olena_tea" in tea_page and "No public sessions yet" not in tea_page
 
 
 def test_visibility_toggle_edit_and_delete(client, db):

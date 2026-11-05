@@ -3,13 +3,14 @@
 from __future__ import annotations
 
 import uuid
+from datetime import timedelta
 from urllib.parse import urlencode
 
 from fastapi import APIRouter, HTTPException, Request
 from fastapi.responses import JSONResponse, RedirectResponse
 from sqlalchemy import func, select
 
-from prolyv.models import EXPLAINER_SLUG, Tea, TeaStatus
+from prolyv.models import EXPLAINER_SLUG, ForumSection, Tea, TeaStatus
 from prolyv.search import search_all, search_teas
 from prolyv.social import followee_ids
 from prolyv.web.deps import CurrentUser, DbDep
@@ -20,7 +21,7 @@ router = APIRouter()
 CATALOG = (Tea.status == TeaStatus.published, Tea.slug.not_like(EXPLAINER_SLUG))
 FEED_PAGE = 30
 FEED_MAX_PAGES = 30
-FEED_TABS = [("all", "All"), ("sessions", "Sessions"), ("discussions", "Discussions"), ("blog", "Blog")]
+FEED_TABS = [("all", "All"), ("sessions", "Sessions"), ("discussions", "Discuss"), ("blog", "Blog")]
 
 
 def build_feed(db, tab: str = "all", limit: int = FEED_PAGE, following: list | None = None) -> list[dict]:  # noqa: ANN001
@@ -50,6 +51,25 @@ def build_feed(db, tab: str = "all", limit: int = FEED_PAGE, following: list | N
     return items[:limit]
 
 
+def hot_topics(db, limit: int = 4) -> list:  # noqa: ANN001
+    """The topics with most replies among those active in the last 30 days. Empty until people actually reply."""
+    from prolyv.models import Topic, utcnow
+    from prolyv.web.routes_forum import topic_query
+
+    since = utcnow() - timedelta(days=30)
+    return db.execute(
+        topic_query().where(Topic.hidden.is_(False), Topic.reply_count > 0, Topic.last_reply_at >= since)
+        .order_by(Topic.reply_count.desc(), Topic.last_reply_at.desc()).limit(limit)
+    ).scalars().all()
+
+
+def latest_public_session(db):  # noqa: ANN001, ANN201
+    from prolyv.models import TeaSession
+    from prolyv.web.routes_diary import public_sessions
+
+    return db.execute(public_sessions().order_by(TeaSession.brewed_at.desc()).limit(1)).scalars().first()
+
+
 @router.get("/")
 def home(request: Request, db: DbDep, user: CurrentUser, tab: str = "all", page: int = 1):
     tabs = [*FEED_TABS, ("following", "Following")] if user else FEED_TABS
@@ -59,7 +79,9 @@ def home(request: Request, db: DbDep, user: CurrentUser, tab: str = "all", page:
     page = min(max(1, page), FEED_MAX_PAGES)
     items = build_feed(db, tab, limit=page * FEED_PAGE + 1, following=following)
     next_url = f"/?{urlencode({**({'tab': tab} if tab != 'all' else {}), 'page': page + 1})}" if len(items) > page * FEED_PAGE and page < FEED_MAX_PAGES else None
-    context = {"feed": items[(page - 1) * FEED_PAGE:page * FEED_PAGE], "tab": tab, "tabs": tabs, "tea_count": tea_count, "next_url": next_url}
+    context = {"feed": items[(page - 1) * FEED_PAGE:page * FEED_PAGE], "tab": tab, "tabs": tabs, "tea_count": tea_count, "next_url": next_url,
+               "hot_topics": hot_topics(db), "sections": db.execute(select(ForumSection).order_by(ForumSection.sort)).scalars().all(),
+               "latest_session": None if user else latest_public_session(db)}
     return render(request, "home.html", context)
 
 

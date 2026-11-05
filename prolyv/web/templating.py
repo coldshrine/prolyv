@@ -2,6 +2,7 @@
 
 from __future__ import annotations
 
+from datetime import date
 from pathlib import Path
 
 from fastapi import Request
@@ -41,6 +42,7 @@ def render(request: Request, name: str, context: dict | None = None, status_code
         "flash": pop_flash(request, settings, signer),
         "in_app_browser": is_in_app_browser(request.headers.get("user-agent")),
         "path": request.url.path,
+        "year": date.today().year,
     }
     ctx.update(context or {})
     return templates.TemplateResponse(request, name, ctx, status_code=status_code)

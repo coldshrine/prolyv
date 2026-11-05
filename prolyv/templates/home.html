@@ -1,47 +1,76 @@
 {% extends "base.html" %}
-{% from "partials/macros.html" import feed_item, cup, show_more %}
+{% from "partials/macros.html" import feed_item, cup, show_more, avatar %}
 {% block content %}
 {% if not current_user %}
-<section class="hero">
-  <div class="container hero-inner">
-    <p class="eyebrow">Tea diary · forum · blog</p>
-    <h1 class="display">Every steep, in your diary</h1>
-    <p class="lead">Log tea sessions in 30 seconds, keep them private or share them, and talk brewing with people who drink the same tea.</p>
-    <div class="actions">
-      <a class="btn btn-primary" href="/login">Start your diary</a>
-      <a class="btn btn-secondary" href="/teas">Browse {{ tea_count }} teas</a>
+<section class="home-hero">
+  <div class="home-hero-top">
+    <div class="home-hero-text">
+      <p class="home-kicker">DIARY · FORUM · BLOG</p>
+      <div class="home-cup home-cup-phone">{{ cup('shu', 200, spin=True) }}</div>
+      <h1 class="home-title">Log your tea. Talk through every steep.</h1>
+      <p class="home-lead">A personal tea diary where any session can become a discussion.{% if settings.social_tiktok or settings.social_instagram %} The home of our TikTok and Instagram.{% endif %}</p>
+      <div class="home-actions">
+        <a class="btn btn-primary btn-lg" href="/login?next=/sessions/new">Start your diary</a>
+        <a class="btn btn-secondary btn-lg" href="#how">How it works</a>
+      </div>
     </div>
+    <div class="home-cup home-cup-wide">
+      {{ cup('shu', 360, spin=True) }}
+      {% if latest_session %}<a class="home-chip" href="/sessions/{{ latest_session.id }}">{{ avatar(latest_session.user, 30) }}<span><b>{{ latest_session.user.display_name.split(' ')[0] }}</b> logged {{ latest_session.tea_name }}{% if latest_session.comment_count %} · {{ latest_session.comment_count }} comment{{ '' if latest_session.comment_count == 1 else 's' }}{% endif %}</span></a>{% endif %}
+    </div>
+    {% if latest_session %}<a class="home-chip home-chip-phone" href="/sessions/{{ latest_session.id }}">{{ avatar(latest_session.user, 28) }}<span><b>{{ latest_session.user.display_name.split(' ')[0] }}</b> logged {{ latest_session.tea_name }}{% if latest_session.comment_count %} · {{ latest_session.comment_count }} comment{{ '' if latest_session.comment_count == 1 else 's' }}{% endif %}</span></a>{% endif %}
   </div>
-</section>
-{% else %}
-<section class="hero">
-  <div class="container hero-inner hero-compact">
-    <p class="eyebrow">Feed</p>
-    <h1 class="h1">Hi, {{ current_user.display_name }}</h1>
-    <div class="actions">
-      <a class="btn btn-primary" href="/sessions/new"><span class="plus" aria-hidden="true">+</span> Log a tea</a>
-      <a class="btn btn-secondary" href="/diary">My diary</a>
-      <a class="btn btn-secondary" href="/teas">Tea base</a>
-    </div>
+  <div class="home-pillars" id="how">
+    <a class="pillar" href="/diary"><span class="pillar-mark pillar-diary" aria-hidden="true"></span><span class="pillar-text"><b>Diary</b><span>Sessions, steeps, your shelf and stats. Private by default.</span></span></a>
+    <a class="pillar" href="/discussions"><span class="pillar-mark pillar-forum" aria-hidden="true"></span><span class="pillar-text"><b>Discussions</b><span>Ask with your session attached and get answers that fit.</span></span></a>
+    <a class="pillar" href="/blog"><span class="pillar-mark pillar-blog" aria-hidden="true"></span><span class="pillar-text"><b>Blog</b><span>Breakdowns of our videos: everything that didn’t fit into 30 seconds.</span></span></a>
   </div>
 </section>
 {% endif %}
-<section class="container">
-  {% if not current_user %}
-  <a class="card card-link tea-base-promo" href="/teas">
-    {{ cup('oolong', 64) }}
-    <span><span class="promo-title">Explore the tea base</span><span class="muted">{{ tea_count }} teas with photos, taste notes, brewing parameters and how each one is sold.</span></span>
-    <span class="promo-arrow" aria-hidden="true">→</span>
-  </a>
-  <h2 class="h2 feed-title">Latest on Prolyv</h2>
-  {% endif %}
-  <nav class="chips feed-tabs" aria-label="Feed">
-    {% for key, label in tabs %}<a class="chip{% if key == tab %} chip-on{% endif %}" href="/?tab={{ key }}">{{ label }}</a>{% endfor %}
-  </nav>
-  {% if feed %}
-  <div class="feed more-list">{% for item in feed %}{{ feed_item(item) }}{% endfor %}{% if next_url %}{{ show_more(next_url) }}{% endif %}</div>
-  {% else %}
-  <div class="card empty"><p class="empty-title">Quiet for now</p><p class="muted">{% if tab == 'following' %}Follow people on their profile pages and their sessions and topics will appear here.{% else %}Public sessions, discussions and blog posts will appear here.{% endif %}</p></div>
-  {% endif %}
-</section>
+<div class="container home-body">
+  <section class="home-feed" aria-labelledby="feed-h">
+    <div class="feed-head">
+      <h2 class="feed-h" id="feed-h">{% if current_user %}Hi, {{ current_user.display_name.split(' ')[0] }}{% else %}Feed{% endif %}</h2>
+      <nav class="segmented" aria-label="Filter the feed">
+        {% for key, label in tabs %}<a href="/{% if key != 'all' %}?tab={{ key }}{% endif %}"{% if key == tab %} aria-current="true"{% endif %}>{{ label }}</a>{% endfor %}
+      </nav>
+    </div>
+    {% if feed %}
+    <div class="feed more-list">{% for item in feed %}{{ feed_item(item) }}{% endfor %}{% if next_url %}{{ show_more(next_url) }}{% endif %}</div>
+    {% else %}
+    <div class="card empty"><p class="empty-title">Quiet for now</p><p class="muted">{% if tab == 'following' %}Follow people on their profile pages and their sessions and topics will appear here.{% else %}Public sessions, discussions and blog posts will appear here.{% endif %}</p></div>
+    {% endif %}
+  </section>
+  <aside class="home-side">
+    <section class="side-diary">
+      <h2>Your diary</h2>
+      <p>{% if current_user %}Log what you just brewed. It stays private until you decide to share it.{% else %}Your first session takes 30 seconds. It stays private until you decide to share it.{% endif %}</p>
+      <a class="side-diary-btn" href="{% if current_user %}/sessions/new{% else %}/login?next=/sessions/new{% endif %}">Log a tea</a>
+    </section>
+    {% if hot_topics %}
+    <section class="side-card" aria-labelledby="hot-h">
+      <h2 id="hot-h">Hot topics</h2>
+      <ol class="hot-list">
+        {% for t in hot_topics %}<li><a href="/discussions/{{ t.id }}">{{ t.title }}</a><span>{{ t.section.name }} · {{ t.reply_count }} repl{{ 'y' if t.reply_count == 1 else 'ies' }}</span></li>{% endfor %}
+      </ol>
+      <a class="side-link" href="/discussions">All discussions →</a>
+    </section>
+    {% endif %}
+    <section class="side-card side-sections" aria-labelledby="sec-h">
+      <h2 id="sec-h">Sections</h2>
+      <ul class="sec-list">{% for s in sections %}<li><a class="sec-pill sec-{{ s.slug }}" href="/discussions/s/{{ s.slug }}">{{ s.name }}</a></li>{% endfor %}</ul>
+    </section>
+    <a class="side-card side-teas" href="/teas">{{ cup('oolong', 48) }}<span><b>Tea base</b><span>{{ tea_count }} teas with taste notes and brewing parameters.</span></span></a>
+    {% if settings.social_tiktok or settings.social_instagram %}
+    <section class="side-card">
+      <h2>Find us on TikTok and Instagram</h2>
+      <p class="muted">Short videos live there. Parameters, breakdowns and discussion live here, on the blog.</p>
+      <div class="side-social">
+        {% if settings.social_tiktok %}<a class="btn-pill" href="{{ settings.social_tiktok }}" target="_blank" rel="noopener">TikTok</a>{% endif %}
+        {% if settings.social_instagram %}<a class="btn-pill" href="{{ settings.social_instagram }}" target="_blank" rel="noopener">Instagram</a>{% endif %}
+      </div>
+    </section>
+    {% endif %}
+  </aside>
+</div>
 {% endblock %}

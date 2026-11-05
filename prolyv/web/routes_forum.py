@@ -33,6 +33,8 @@ def topic_query():
         selectinload(Topic.attached_session).selectinload(TeaSession.steeps),
         selectinload(Topic.attached_session).selectinload(TeaSession.user),
         selectinload(Topic.attached_session).selectinload(TeaSession.tea),
+        selectinload(Topic.attached_session).selectinload(TeaSession.photos),
+        selectinload(Topic.attached_session).selectinload(TeaSession.comments),
     )
 
 
@@ -174,7 +176,9 @@ def topic_page(request: Request, db: DbDep, user: CurrentUser, topic_id: uuid.UU
         select(Reply).where(Reply.topic_id == topic.id, Reply.hidden.is_(False) if not is_admin else True)
         .options(selectinload(Reply.user), selectinload(Reply.attached_session).selectinload(TeaSession.steeps),
                  selectinload(Reply.attached_session).selectinload(TeaSession.user),
-                 selectinload(Reply.attached_session).selectinload(TeaSession.tea))
+                 selectinload(Reply.attached_session).selectinload(TeaSession.tea),
+                 selectinload(Reply.attached_session).selectinload(TeaSession.photos),
+                 selectinload(Reply.attached_session).selectinload(TeaSession.comments))
         .order_by(Reply.created_at)
     ).scalars().all()
     my_votes = set()

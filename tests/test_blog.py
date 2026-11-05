@@ -112,7 +112,7 @@ def test_brew_along_and_comments(tmp_path, google):
     db.expire_all()
     assert db.get(TeaSession, __import__("uuid").UUID(sid)).post_id == post.id
     page = client.get("/blog/why-does-shu-turn-bitter").text
-    assert "Brewed along · 1" in page and "@mike" in page
+    assert "Brewed along · 1" in page and "/u/mike" in page
 
     assert client.post("/blog/why-does-shu-turn-bitter/comments", data={"csrf_token": token, "body": "Worked for me, thanks!"}, follow_redirects=False).status_code == 303
     page = client.get("/blog/why-does-shu-turn-bitter").text
