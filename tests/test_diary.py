@@ -177,3 +177,100 @@ def test_tea_suggestions(client, db):
     assert "Tie Guan Yin" in client.get("/teas/suggest", params={"q": "tgy"}).text
     assert "Not in the base yet" in client.get("/teas/suggest", params={"q": "zzz"}).text
     assert client.get("/teas/suggest", params={"q": "t"}).text.strip() == ""
+
+
+def jpeg_with_exif(size=(1600, 1200)) -> bytes:
+    from io import BytesIO
+
+    from PIL import Image
+
+    exif = Image.Exif()
+    exif[0x010F] = "SecretCamera"
+    buffer = BytesIO()
+    Image.new("RGB", size, "green").save(buffer, "JPEG", exif=exif)
+    return buffer.getvalue()
+
+
+def test_photos_are_reencoded_without_metadata_and_can_be_removed(client, db):
+    from io import BytesIO
+    from pathlib import Path
+
+    from PIL import Image
+
+    telegram_login(client, username="olena_tea")
+    token = csrf_token(client)
+    data = {"csrf_token": token, "tea_name": "Photo Oolong", "visibility": "public", "allow_comments": "on", "brewed_at": "2026-11-05"}
+    response = client.post("/sessions/new", data=data, files=[("photos", ("a.jpg", jpeg_with_exif(), "image/jpeg"))], follow_redirects=False)
+    sid = session_id_from(response)
+    sess = db.get(TeaSession, uuid.UUID(sid))
+    photo = sess.photos[0]
+    photo_id, photo_url, photo_thumb = photo.id, photo.url, photo.thumb_url
+    assert photo_url.endswith("-1200.webp") and photo_thumb.endswith("-400.webp")
+    served = client.get(photo_url)
+    assert served.status_code == 200
+    with Image.open(BytesIO(served.content)) as image:
+        assert image.format == "WEBP" and max(image.size) == 1200 and not image.getexif()
+    assert b"SecretCamera" not in served.content
+    assert photo_thumb in client.get(f"/sessions/{sid}").text
+
+    edit = {"csrf_token": token, "tea_name": "Photo Oolong", "visibility": "public", "brewed_at": "2026-11-05", "remove_photo": str(photo_id)}
+    client.post(f"/sessions/{sid}/edit", data=edit, follow_redirects=False)
+    db.expire_all()
+    assert db.get(TeaSession, uuid.UUID(sid)).photos == []
+    assert client.get(photo_url).status_code == 404
+
+    media = Path(client.app.state.settings.media_dir)
+    client.post(f"/sessions/{sid}/delete", data={"csrf_token": token}, follow_redirects=False)
+    assert not (media / "sessions" / uuid.UUID(sid).hex).exists()
+
+
+def test_bad_uploads_are_refused(client, db):
+    telegram_login(client, username="olena_tea")
+    token = csrf_token(client)
+    data = {"csrf_token": token, "tea_name": "Fake", "brewed_at": "2026-11-05"}
+    response = client.post("/sessions/new", data=data, files=[("photos", ("evil.jpg", b"<script>alert(1)</script>", "image/jpeg"))], follow_redirects=False)
+    assert response.status_code == 303
+    sid = session_id_from(response)
+    assert db.get(TeaSession, uuid.UUID(sid)).photos == []
+    assert "doesn" in client.get(f"/sessions/{sid}").text  # the flash explains it
+
+    from prolyv.uploads import MAX_BYTES, PhotoError, save_session_photo
+
+    try:
+        save_session_photo(client.app.state.settings.media_dir, uuid.uuid4(), b"x" * (MAX_BYTES + 1))
+        raise AssertionError("expected PhotoError")
+    except PhotoError as exc:
+        assert "10 MB" in str(exc)
+
+
+def test_story_card_is_a_1080x1920_png_for_allowed_viewers(client):
+    from io import BytesIO
+
+    from PIL import Image
+
+    telegram_login(client, tg_id="1", username="olena_tea")
+    token = csrf_token(client)
+    private = session_id_from(new_session(client, token, tea_name="铁观音 Tie Guan Yin Чай", rating="5"))
+    response = client.get(f"/sessions/{private}/story.png")
+    assert response.status_code == 200 and response.headers["content-type"] == "image/png"
+    with Image.open(BytesIO(response.content)) as image:
+        assert image.size == (1080, 1920)
+    assert client.get(f"/sessions/{private}/story.png").content == response.content  # cached
+    client.cookies.clear()
+    assert client.get(f"/sessions/{private}/story.png").status_code == 404
+
+
+def test_export_contains_my_data_only(client):
+    telegram_login(client, tg_id="2", username="mike")
+    new_session(client, csrf_token(client), tea_name="Mike Tea", visibility="public")
+    client.cookies.clear()
+    telegram_login(client, tg_id="1", username="olena_tea")
+    token = csrf_token(client)
+    new_session(client, token, tea_name="Export Oolong")
+    assert "Download my data" in client.get("/settings").text
+    response = client.get("/settings/export")
+    assert response.headers["content-type"].startswith("application/json") and "attachment" in response.headers["content-disposition"]
+    data = response.json()
+    assert data["profile"]["handle"] == "olena_tea" and [s["tea"] for s in data["sessions"]] == ["Export Oolong"]
+    assert data["sessions"][0]["steeps"][0]["seconds"] == 15 and data["sign_in_methods"][0]["provider"] == "telegram"
+    assert "hash" not in response.text

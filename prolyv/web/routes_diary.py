@@ -5,9 +5,10 @@ from __future__ import annotations
 import uuid
 from collections import OrderedDict
 from datetime import date, datetime, timedelta
+from pathlib import Path
 
 from fastapi import APIRouter, Depends, Form, HTTPException, Request
-from fastapi.responses import RedirectResponse
+from fastapi.responses import RedirectResponse, Response
 from sqlalchemy import func, select
 from sqlalchemy.orm import selectinload
 
@@ -16,6 +17,7 @@ from prolyv.models import (
     VESSELS,
     Post,
     SessionComment,
+    SessionPhoto,
     Steep,
     Tea,
     TeaSession,
@@ -25,6 +27,8 @@ from prolyv.models import (
     utcnow,
 )
 from prolyv.search import index_session, remove
+from prolyv.story import render_story
+from prolyv.uploads import MAX_PHOTOS, PhotoError, delete_photo_files, delete_session_media, save_session_photo
 from prolyv.social import notify, notify_followers
 from prolyv.web.deps import CurrentUser, DbDep, RequiredUser, SettingsDep, SignerDep, post_quota, require_csrf
 from prolyv.web.flash import set_flash
@@ -34,7 +38,7 @@ router = APIRouter()
 
 
 def session_query():
-    return select(TeaSession).options(selectinload(TeaSession.steeps), selectinload(TeaSession.tea), selectinload(TeaSession.user))
+    return select(TeaSession).options(selectinload(TeaSession.steeps), selectinload(TeaSession.tea), selectinload(TeaSession.user), selectinload(TeaSession.photos))
 
 
 def public_sessions():
@@ -207,6 +211,32 @@ def apply_session_form(db, sess: TeaSession, form: dict) -> None:  # noqa: ANN00
     sess.steeps = [Steep(n=i + 1, seconds=s["seconds"], note=s["note"] or None) for i, s in enumerate(form["steeps"])]
 
 
+async def apply_photos(request: Request, db, sess: TeaSession, data) -> str | None:  # noqa: ANN001
+    """Removes ticked photos and stores new uploads. Returns a message if a file was refused."""
+    settings = request.app.state.settings
+    remove_ids = set(data.getlist("remove_photo"))
+    for photo in list(sess.photos):
+        if str(photo.id) in remove_ids:
+            delete_photo_files(settings.media_dir, photo.url, photo.thumb_url)
+            sess.photos.remove(photo)
+    problem = None
+    for upload in data.getlist("photos"):
+        if isinstance(upload, str) or not upload.filename:
+            continue
+        if len(sess.photos) >= MAX_PHOTOS:
+            problem = f"A session can have up to {MAX_PHOTOS} photos."
+            break
+        content = await upload.read()
+        try:
+            url, thumb = save_session_photo(settings.media_dir, sess.id, content)
+        except PhotoError as exc:
+            problem = str(exc)
+            continue
+        sess.photos.append(SessionPhoto(url=url, thumb_url=thumb, sort=len(sess.photos)))
+    db.flush()
+    return problem
+
+
 def form_context(form: dict, errors: dict | None = None, tea: Tea | None = None, editing: TeaSession | None = None) -> dict:
     return {
         "form": form, "errors": errors or {}, "tea": tea, "editing": editing, "vessels": VESSELS,
@@ -243,7 +273,8 @@ def session_new_form(request: Request, db: DbDep, user: RequiredUser, tea: str =
 
 @router.post("/sessions/new", dependencies=[Depends(require_csrf)])
 async def session_create(request: Request, db: DbDep, settings: SettingsDep, signer: SignerDep, user: RequiredUser):
-    form, errors = parse_session_form(await request.form())
+    data = await request.form()
+    form, errors = parse_session_form(data)
     if errors:
         return render(request, "diary/session_form.html", form_context(form, errors), status_code=400)
     sess = TeaSession(user=user, tea_name=form["tea_name"])
@@ -251,10 +282,14 @@ async def session_create(request: Request, db: DbDep, settings: SettingsDep, sig
     db.flush()
     apply_session_form(db, sess, form)
     db.flush()
+    problem = await apply_photos(request, db, sess, data)
     announce_session(db, sess)
     index_session(db, sess)
     response = RedirectResponse(f"/sessions/{sess.id}", status_code=303)
-    set_flash(response, settings, signer, "ok", "Session saved to your diary." + (" It is public." if sess.is_public else ""))
+    if problem:
+        set_flash(response, settings, signer, "error", f"Session saved, but a photo was refused. {problem}")
+    else:
+        set_flash(response, settings, signer, "ok", "Session saved to your diary." + (" It is public." if sess.is_public else ""))
     return response
 
 
@@ -269,15 +304,20 @@ def session_edit_form(request: Request, db: DbDep, user: RequiredUser, session_i
 async def session_edit(request: Request, db: DbDep, settings: SettingsDep, signer: SignerDep, user: RequiredUser, session_id: uuid.UUID):
     sess = get_session(db, session_id, user, getattr(request.state, "is_admin", False))
     require_owner(sess, user, getattr(request.state, "is_admin", False))
-    form, errors = parse_session_form(await request.form())
+    data = await request.form()
+    form, errors = parse_session_form(data)
     if errors:
         return render(request, "diary/session_form.html", form_context(form, errors, tea=sess.tea, editing=sess), status_code=400)
     apply_session_form(db, sess, form)
+    problem = await apply_photos(request, db, sess, data)
     sess.updated_at = utcnow()
     announce_session(db, sess)
     index_session(db, sess)
     response = RedirectResponse(f"/sessions/{sess.id}", status_code=303)
-    set_flash(response, settings, signer, "ok", "Session updated.")
+    if problem:
+        set_flash(response, settings, signer, "error", f"Saved, but a photo was refused. {problem}")
+    else:
+        set_flash(response, settings, signer, "ok", "Session updated.")
     return response
 
 
@@ -299,6 +339,7 @@ def session_delete(request: Request, db: DbDep, settings: SettingsDep, signer: S
     sess = get_session(db, session_id, user, getattr(request.state, "is_admin", False))
     require_owner(sess, user, getattr(request.state, "is_admin", False))
     remove(db, "session", sess.id)
+    delete_session_media(settings.media_dir, sess.id)
     db.delete(sess)
     response = RedirectResponse("/diary", status_code=303)
     set_flash(response, settings, signer, "ok", "Session deleted.")
@@ -322,6 +363,24 @@ def session_page(request: Request, db: DbDep, settings: SettingsDep, user: Curre
     context = {"sess": sess, "is_owner": is_owner, "can_moderate": is_owner or is_admin, "og": og, "comments": comments,
                "saved": is_saved(db, user, "session", sess.id)}
     return render(request, "diary/session.html", context)
+
+
+@router.get("/sessions/{session_id}/story.png")
+def session_story(request: Request, db: DbDep, settings: SettingsDep, user: CurrentUser, session_id: uuid.UUID):
+    """The 1080x1920 card for Instagram and TikTok stories, drawn on demand and cached on disk."""
+    sess = get_session(db, session_id, user, getattr(request.state, "is_admin", False))
+    folder = Path(settings.media_dir) / "stories"
+    path = folder / f"{sess.id.hex}-{int(sess.updated_at.timestamp())}.png"
+    if path.exists():
+        data = path.read_bytes()
+    else:
+        data = render_story(sess, settings.base_host)
+        folder.mkdir(parents=True, exist_ok=True)
+        for old in folder.glob(f"{sess.id.hex}-*.png"):
+            old.unlink(missing_ok=True)
+        path.write_bytes(data)
+    headers = {"Content-Disposition": f'inline; filename="prolyv-session-{sess.id.hex[:8]}.png"', "Cache-Control": "private, max-age=300"}
+    return Response(data, media_type="image/png", headers=headers)
 
 
 @router.post("/sessions/{session_id}/comments", dependencies=[Depends(require_csrf), Depends(post_quota)])

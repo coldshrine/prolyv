@@ -633,3 +633,12 @@ input[type="email"]:focus { border-color: var(--pink); box-shadow: 0 0 0 3px rgb
 .tea-row:hover { border-color: rgba(255, 255, 255, 0.3); color: var(--fg); }
 .tea-row img { width: 72px; height: 72px; object-fit: cover; border-radius: 14px; flex: none; }
 .tea-row-body { display: flex; flex-direction: column; gap: 2px; min-width: 0; }
+
+/* ---------------------------------------------------------------- Session photos */
+.session-thumb { width: 64px; height: 64px; object-fit: cover; border-radius: 14px; flex: none; }
+.session-photos { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 8px; }
+.session-photos img { width: 100%; aspect-ratio: 4 / 3; object-fit: cover; border-radius: 16px; border: 1px solid var(--card-line); }
+.photo-edit { list-style: none; margin: 0 0 12px; padding: 0; display: flex; flex-wrap: wrap; gap: 12px; }
+.photo-edit img { width: 96px; height: 72px; object-fit: cover; border-radius: 12px; }
+.photo-edit .check { margin-top: 4px; font-size: 13px; }
+input[type="file"] { color: var(--muted); font: inherit; font-size: 14px; }

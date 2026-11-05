@@ -86,7 +86,7 @@
   function collect() {
     var data = {};
     form.querySelectorAll("input, textarea, select").forEach(function (el) {
-      if (!el.name || el.name === "csrf_token" || el.name.indexOf("steep_") === 0) return;
+      if (!el.name || el.type === "file" || el.name === "csrf_token" || el.name === "remove_photo" || el.name.indexOf("steep_") === 0) return;
       if (el.type === "checkbox") data[el.name] = el.checked;
       else if (el.type === "radio") { if (el.checked) data[el.name] = el.value; }
       else data[el.name] = el.value;

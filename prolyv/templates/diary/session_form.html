@@ -7,7 +7,7 @@
   <p class="lead">{% if editing %}Fix the numbers or the note; the date stays unless you change it.{% else %}Tea, grams, water, temperature, steeps, rating, notes — in 30 seconds. Private by default.{% endif %}</p>
   <p class="draft-hint muted small" id="draft-hint" hidden>Draft restored from this device · <a href="#" id="draft-discard">discard</a></p>
 
-  <form method="post" action="{% if editing %}/sessions/{{ editing.id }}/edit{% else %}/sessions/new{% endif %}" class="form session-form" id="session-form" data-draft-key="{{ draft_key }}" data-suggested="{{ form.suggested_seconds|join(',') }}" novalidate>
+  <form method="post" action="{% if editing %}/sessions/{{ editing.id }}/edit{% else %}/sessions/new{% endif %}" class="form session-form" id="session-form" enctype="multipart/form-data" data-draft-key="{{ draft_key }}" data-suggested="{{ form.suggested_seconds|join(',') }}" novalidate>
     <input type="hidden" name="csrf_token" value="{{ csrf_token }}">
     <input type="hidden" name="tea_id" id="tea_id" value="{{ form.tea_id }}">
     <input type="hidden" name="post_id" value="{{ form.post_id or '' }}">
@@ -71,6 +71,17 @@
         {% for t in tag_options %}<label class="tag-toggle"><input type="checkbox" name="taste_tags" value="{{ t }}"{% if t in form.taste_tags %} checked{% endif %}><span>{{ t }}</span></label>{% endfor %}
       </div>
       <label class="field"><span class="label">Notes</span><textarea name="note" rows="4" placeholder="What stood out, what to change next time…">{{ form.note }}</textarea></label>
+    </section>
+
+    <section class="card">
+      <h2 class="h2">Photos</h2>
+      {% if editing and editing.photos %}
+      <ul class="photo-edit">
+        {% for ph in editing.photos %}<li><img src="{{ ph.thumb_url }}" alt=""><label class="check"><input type="checkbox" name="remove_photo" value="{{ ph.id }}"> Remove</label></li>{% endfor %}
+      </ul>
+      {% endif %}
+      <label class="field"><span class="label">Add up to 4 photos</span><input type="file" name="photos" accept="image/jpeg,image/png,image/webp" multiple></label>
+      <p class="muted small">JPEG, PNG or WebP, up to 10 MB each. Location and camera data are removed.</p>
     </section>
 
     <section class="card">

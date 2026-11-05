@@ -2,14 +2,30 @@
 
 from __future__ import annotations
 
+import json
+
 from fastapi import APIRouter, Depends, Form, HTTPException, Request
-from fastapi.responses import RedirectResponse
+from fastapi.responses import RedirectResponse, Response
+from sqlalchemy import select
+from sqlalchemy.orm import selectinload
 
 from prolyv.auth.accounts import AccountError, get_user_by_handle, handle_taken, soft_delete, unlink
 from prolyv.handles import RESERVED, is_valid_handle
-from prolyv.models import Provider, User
+from prolyv.models import (
+    Follow,
+    PostComment,
+    Provider,
+    Reply,
+    SavedItem,
+    SessionComment,
+    TeaSession,
+    Topic,
+    User,
+    utcnow,
+)
 from prolyv.security import SESSION_COOKIE
 from prolyv.social import follow_counts, is_following
+from prolyv.uploads import delete_session_media
 from prolyv.web.cookies import delete_cookie
 from prolyv.web.deps import CurrentUser, DbDep, RequiredUser, SettingsDep, SignerDep, require_csrf
 from prolyv.web.flash import set_flash
@@ -148,6 +164,39 @@ def settings_unlink(
     return response
 
 
+@router.get("/settings/export")
+def settings_export(request: Request, db: DbDep, user: RequiredUser):
+    """Everything this person created, as one JSON file."""
+    iso = lambda value: value.isoformat() if value else None  # noqa: E731
+    sessions = db.execute(
+        select(TeaSession).where(TeaSession.user_id == user.id).options(selectinload(TeaSession.steeps), selectinload(TeaSession.photos))
+        .order_by(TeaSession.brewed_at)
+    ).scalars().all()
+    data = {
+        "exported_at": iso(utcnow()),
+        "profile": {"handle": user.handle, "display_name": user.display_name, "bio": user.bio, "avatar_url": user.avatar_url, "joined": iso(user.created_at)},
+        "sign_in_methods": [{"provider": i.provider.value, "account": i.label} for i in user.identities],
+        "sessions": [{
+            "id": str(s.id), "tea": s.tea_name, "brewed_at": iso(s.brewed_at), "grams": s.grams, "water_ml": s.water_ml, "temp_c": s.temp_c,
+            "vessel": s.vessel, "rinse": s.rinse, "rating": s.rating, "taste_tags": s.taste_tags, "note": s.note, "visibility": s.visibility.value,
+            "steeps": [{"n": st.n, "seconds": st.seconds, "note": st.note} for st in s.steeps],
+            "photos": [p.url for p in s.photos],
+        } for s in sessions],
+        "topics": [{"title": t.title, "body": t.body, "created_at": iso(t.created_at), "url": f"/discussions/{t.id}"}
+                   for t in db.execute(select(Topic).where(Topic.user_id == user.id)).scalars()],
+        "replies": [{"body": r.body, "created_at": iso(r.created_at), "url": f"/discussions/{r.topic_id}"}
+                    for r in db.execute(select(Reply).where(Reply.user_id == user.id)).scalars()],
+        "session_comments": [{"body": c.body, "created_at": iso(c.created_at), "url": f"/sessions/{c.session_id}"}
+                             for c in db.execute(select(SessionComment).where(SessionComment.user_id == user.id)).scalars()],
+        "blog_comments": [{"body": c.body, "created_at": iso(c.created_at)}
+                          for c in db.execute(select(PostComment).where(PostComment.user_id == user.id)).scalars()],
+        "saved": [{"kind": i.kind, "id": str(i.ref_id)} for i in db.execute(select(SavedItem).where(SavedItem.user_id == user.id)).scalars()],
+        "following": [h for h in db.execute(select(User.handle).join(Follow, Follow.followee_id == User.id).where(Follow.follower_id == user.id)).scalars()],
+    }
+    body = json.dumps(data, ensure_ascii=False, indent=1)
+    return Response(body, media_type="application/json", headers={"Content-Disposition": f'attachment; filename="prolyv-{user.handle}.json"'})
+
+
 @router.post("/settings/delete", dependencies=[Depends(require_csrf)])
 def settings_delete(
     request: Request, db: DbDep, settings: SettingsDep, signer: SignerDep, user: RequiredUser, confirm: str = Form("")
@@ -155,6 +204,8 @@ def settings_delete(
     if normalize_handle(confirm) != user.handle:
         errors = {"delete": "Type your handle exactly to confirm."}
         return render_settings(request, user, errors=errors, status_code=400)
+    for sess in db.execute(select(TeaSession.id).where(TeaSession.user_id == user.id)).scalars().all():
+        delete_session_media(settings.media_dir, sess)
     soft_delete(db, user)
     response = RedirectResponse("/", status_code=303)
     delete_cookie(response, settings, SESSION_COOKIE)

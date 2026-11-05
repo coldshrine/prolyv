@@ -23,7 +23,7 @@
 
 {% macro session_card(sess, show_author=True) -%}
 <article class="session-card">
-  {{ cup(sess.category_key, 56, sess.tea.liquor_hex if sess.tea else None) }}
+  {% if sess.photos %}<img class="session-thumb" src="{{ sess.photos[0].thumb_url }}" alt="" loading="lazy">{% else %}{{ cup(sess.category_key, 56, sess.tea.liquor_hex if sess.tea else None) }}{% endif %}
   <div class="session-card-body">
     <p class="session-date">{{ sess.brewed_at.strftime('%-d %b %Y') }}{% if not sess.is_public %} · <span class="badge-private">private</span>{% endif %}</p>
     <a class="session-title" href="/sessions/{{ sess.id }}">{{ sess.tea_name }}</a>

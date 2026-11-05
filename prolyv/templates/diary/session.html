@@ -23,6 +23,7 @@
       <div class="actions">
         <a class="btn btn-primary" href="{% if current_user %}/sessions/new?from={{ sess.id }}{% else %}/login?next=/sessions/new%3Ffrom%3D{{ sess.id }}{% endif %}">Brew it the same way</a>
         {% if sess.is_public %}<button type="button" class="btn btn-secondary" data-share="{{ og.url }}">Share</button>{% endif %}
+        <a class="btn btn-secondary" href="/sessions/{{ sess.id }}/story.png" target="_blank" rel="noopener">Story card</a>
         {{ save_button('session', sess.id, saved, current_user, csrf_token, path) }}
         {% if is_owner %}<a class="btn btn-secondary" href="/sessions/{{ sess.id }}/edit">Edit</a>{% endif %}
       </div>
@@ -40,6 +41,11 @@
       <li><span class="fact-label">Rinse</span><span>{{ 'Yes' if sess.rinse else 'No' }}</span></li>
       <li><span class="fact-label">Steeps</span><span>{{ sess.steeps|length }}</span></li>
     </ul>
+
+    {% if sess.photos %}
+    <h2 class="h2">Photos</h2>
+    <div class="session-photos">{% for ph in sess.photos %}<a href="{{ ph.url }}" target="_blank" rel="noopener"><img src="{{ ph.thumb_url }}" alt="Photo of {{ sess.tea_name }}" loading="lazy"></a>{% endfor %}</div>
+    {% endif %}
 
     {% if sess.steeps %}
     <h2 class="h2">Steeps</h2>

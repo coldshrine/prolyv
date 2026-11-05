@@ -20,6 +20,10 @@
 prolyv.144.24.168.1.sslip.io {
 	encode zstd gzip
 
+	request_body {
+		max_size 60MB
+	}
+
 	header {
 		Strict-Transport-Security "max-age=31536000"
 		X-Content-Type-Options "nosniff"
