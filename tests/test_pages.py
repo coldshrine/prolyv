@@ -94,3 +94,41 @@ def test_unified_search_finds_everything_in_every_language(client, db):
     assert "Nothing matches" in client.get("/search", params={"q": "zzzqqq"}).text
     assert client.get("/search", params={"q": '"(*'}).status_code == 200
     assert client.get("/search").status_code == 200
+
+
+def test_seed_prod_is_idempotent_and_has_no_invented_people(app, db, monkeypatch):
+    import importlib
+    import sys
+    from pathlib import Path as P
+
+    from sqlalchemy import select
+
+    from prolyv.markdown import render_markdown
+    from prolyv.models import Post, Topic, User
+
+    sys.path.insert(0, str(P(__file__).resolve().parent.parent / "scripts"))
+    seed_prod = importlib.import_module("seed_prod")
+    author = seed_prod.get_prolyv_user(db)
+    for _ in range(2):
+        seed_prod.seed_guides(db, author)
+        seed_prod.seed_topics(db, author)
+        db.commit()
+    assert len(db.execute(select(Post)).scalars().all()) == len(seed_prod.GUIDES)
+    assert len(db.execute(select(Topic)).scalars().all()) == len(seed_prod.TOPICS)
+    assert [u.handle for u in db.execute(select(User)).scalars()] == ["prolyv"] and author.identities == []
+    assert 3 <= len(seed_prod.GUIDES) <= 5
+    for guide in seed_prod.GUIDES:
+        assert "<h2>" in render_markdown(guide["body"])
+
+
+def test_seed_demo_refuses_real_domains(monkeypatch):
+    import importlib
+    import sys
+    from pathlib import Path as P
+
+    from prolyv.config import Settings
+
+    sys.path.insert(0, str(P(__file__).resolve().parent.parent / "scripts"))
+    seed_demo = importlib.import_module("seed_demo")
+    monkeypatch.setattr(seed_demo, "get_settings", lambda: Settings(_env_file=None, secret_key="x" * 40, base_url="https://prolyv.app"))
+    assert seed_demo.main() == 1

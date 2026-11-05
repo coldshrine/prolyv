@@ -34,22 +34,16 @@ def _clean(text: str | None) -> str:
 
 
 def _cup(size: int, stops: tuple[str, ...], core: str) -> Image.Image:
-    """The brand cup: porcelain rim and a conic swirl of liquor colours. Drawn small and scaled, it is smooth anyway."""
-    n = 320
-    image = Image.new("RGBA", (n, n), (0, 0, 0, 0))
-    px = image.load()
-    radius, inner = n / 2, n / 2 * 0.74
+    """The brand cup: porcelain rim and a conic swirl of liquor colours, with smooth anti-aliased edges."""
+    n = 240
+    swirl = Image.new("RGB", (n, n))
+    px = swirl.load()
+    centre, inner = n / 2, n / 2
     rgb_stops, core_rgb = [_rgb(s) for s in stops], _rgb(core)
     for y in range(n):
         for x in range(n):
-            dx, dy = x + 0.5 - radius, y + 0.5 - radius
+            dx, dy = x + 0.5 - centre, y + 0.5 - centre
             d = math.hypot(dx, dy)
-            if d > radius:
-                continue
-            if d > inner:
-                shade = 1 - 0.18 * max(0, (dx + dy) / (2 * radius))
-                px[x, y] = (int(248 * shade), int(244 * shade), int(255 * shade), 255)
-                continue
             seg = (((math.atan2(dy, dx) + math.pi * 0.72) / (2 * math.pi)) % 1) * (len(stops) - 1)
             i = int(seg)
             c = [a + (b - a) * (seg - i) for a, b in zip(rgb_stops[i], rgb_stops[i + 1], strict=True)]
@@ -57,8 +51,22 @@ def _cup(size: int, stops: tuple[str, ...], core: str) -> Image.Image:
             c = [v + (w - v) * mix for v, w in zip(c, core_rgb, strict=True)]
             gloss = max(0, 1 - math.hypot(dx / inner + 0.28, dy / inner + 0.44) / 0.32) * 0.7
             c = [v + (255 - v) * gloss for v in c]
-            px[x, y] = (int(c[0]), int(c[1]), int(c[2]), 255)
-    return image.resize((size, size), Image.LANCZOS)
+            edge = max(0, (d / inner - 0.6) / 0.4) * 0.28
+            px[x, y] = tuple(int(v * (1 - edge)) for v in c)
+    rim = Image.linear_gradient("L").rotate(45, expand=False).resize((size, size), Image.BICUBIC)
+    rim = Image.merge("RGB", [rim.point(lambda v, top=t: int(top - (255 - v) * 0.16)) for t in (255, 248, 255)])
+
+    def disc(radius_share: float) -> Image.Image:
+        big = size * 4
+        mask = Image.new("L", (big, big), 0)
+        pad = big * (1 - radius_share) / 2
+        ImageDraw.Draw(mask).ellipse((pad, pad, big - pad, big - pad), fill=255)
+        return mask.resize((size, size), Image.LANCZOS)
+
+    cup = Image.new("RGBA", (size, size), (0, 0, 0, 0))
+    cup.paste(rim, (0, 0), disc(1.0))
+    cup.paste(swirl.resize((size, size), Image.BICUBIC), (0, 0), disc(0.74))
+    return cup
 
 
 def _background(glow: str) -> Image.Image:

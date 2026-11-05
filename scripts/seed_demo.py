@@ -1,9 +1,11 @@
 #!/usr/bin/env python
-"""Local development data: a few users (one admin) and, as later milestones land, sessions, topics and posts.
+"""Demo users and activity for local development only. It refuses to run unless BASE_URL is localhost.
 
-Safe to re-run: existing rows are kept. Sign in with DEV_LOGIN=1 in .env and open /dev/login/<handle>.
+Real content (teas, sections, starter topics, guides) comes from scripts/seed_prod.py. Safe to re-run: existing rows
+are kept. With DEV_LOGIN=1 in .env, sign in at /login (demo user) or /dev/login/<handle>.
 
-    uv run python scripts/seed_dev.py
+    uv run python scripts/seed_prod.py --skip-teas
+    uv run python scripts/seed_demo.py
 """
 
 from __future__ import annotations
@@ -18,7 +20,7 @@ sys.path.insert(0, str(ROOT))
 
 from prolyv.config import get_settings  # noqa: E402
 from prolyv.db import make_engine, make_session_factory  # noqa: E402
-from prolyv.markdown import render_markdown  # noqa: E402
+from prolyv.search import rebuild  # noqa: E402
 from prolyv.models import (  # noqa: E402
     ForumSection,
     Identity,
@@ -38,6 +40,7 @@ USERS = [
     ("karyna", "Karyna", "Tea TikToker. Runs Prolyv. Mostly oolong and sheng.", True),
     ("olena_tea", "Olena K.", "Lviv · Mostly shu and aged oolong. I log every session, even the bad ones.", False),
     ("tea_mike", "Mike", "Darjeeling first flush believer, gaiwan convert since 2024.", False),
+    ("demo_user", "Demo User", "A local demo account.", False),
 ]
 
 
@@ -60,11 +63,16 @@ def seed_users(db) -> list[User]:  # noqa: ANN001
 
 def main() -> int:
     settings = get_settings()
+    if not settings.is_local:
+        print("seed_demo.py only runs when BASE_URL is localhost. Use scripts/seed_prod.py on a real site.")
+        return 1
     factory = make_session_factory(make_engine(settings.database_url))
     with factory() as db:
         users = seed_users(db)
         for extra in EXTRA_SEEDERS:
             extra(db, users)
+        db.commit()
+        rebuild(db)
         db.commit()
     admins = [h for h, _, _, is_admin in USERS if is_admin]
     print(f"\ndone. Admin handle(s) for ADMIN_HANDLES: {', '.join(admins)}")
@@ -112,8 +120,8 @@ def seed_sessions(db, users: list[User]) -> None:  # noqa: ANN001
 def seed_forum(db, users: list[User]) -> None:  # noqa: ANN001
     from prolyv.search import index_reply, index_topic
 
-    if db.execute(select(Topic).limit(1)).first() is not None:
-        print("  = topics exist")
+    if db.execute(select(Topic).where(Topic.user_id == users[1].id).limit(1)).first() is not None:
+        print("  = demo topics exist")
         return
     sections = {s.slug: s for s in db.execute(select(ForumSection)).scalars().all()}
     karyna, olena, mike = users[0], users[1], users[2]
@@ -125,8 +133,8 @@ def seed_forum(db, users: list[User]) -> None:  # noqa: ANN001
           (karyna, "Also check the water: very soft water makes shu flat and then bitter. A pinch of mineralisation helps.", False)]),
         (mike, "oolong", "Tie Guan Yin: spring vs autumn harvest, side by side",
          "Brewed the spring and the autumn lot from the same farm back to back. Autumn wins on aroma, spring on texture.\n\nAnyone else notice this? Attaching the session.", []),
-        (karyna, "beginners", "What to buy first: gaiwan or a small teapot?",
-         "If you are starting gongfu brewing with oolong and pu-erh, a 100 ml porcelain gaiwan does everything. Teapots come later, when you know what you like.", []),
+        (karyna, "teaware", "Porcelain or clay for sheng?",
+         "I keep going back and forth. Porcelain shows me the tea, clay rounds it off. What do you use, and for which years?", []),
     ]
     for author, section_slug, title, body, replies in samples:
         topic = Topic(section=sections[section_slug], user=author, title=title, body=body,
@@ -145,38 +153,34 @@ def seed_forum(db, users: list[User]) -> None:  # noqa: ANN001
     print(f"  + {len(samples)} topics")
 
 
-POST_BODY = """## The short version
+def seed_demo_diary(db, users: list[User]) -> None:  # noqa: ANN001
+    """Fill the demo user's diary so the screen shows what a used account looks like."""
+    from datetime import timedelta
 
-Shu pu-erh turns bitter when the leaf is pushed too hard at the start. One quick rinse, then keep the first three
-steeps at five to ten seconds, and it stays sweet for a dozen infusions.
-
-## Parameters I used
-
-- 8 g of leaf, a 100 ml gaiwan, water just off the boil
-- rinse 5 s, then 5 · 5 · 8 · 10 · 15 · 20 · 30 · 45 · 60 · 90 seconds
-- porcelain, not clay: you want to taste the leaf, not the pot
-
-## What to listen for
-
-By steep four the cocoa shows up; by steep seven it is dates and damp forest. If it is drying at steep three, the
-water was too hot for too long. Brew along below and tell me where yours turned.
-"""
-
-
-def seed_posts(db, users: list[User]) -> None:  # noqa: ANN001
-    if db.execute(select(Post).limit(1)).first() is not None:
-        print("  = posts exist")
+    demo = users[3]
+    if db.execute(select(TeaSession).where(TeaSession.user_id == demo.id).limit(1)).first() is not None:
+        print("  = demo diary exists")
         return
-    karyna = users[0]
-    tea = db.execute(select(Tea).where(Tea.slug == "shu-puerh-gong-ting")).scalar_one_or_none()
-    post = Post(author=karyna, slug="why-shu-puerh-turns-bitter", title="Why shu pu-erh turns bitter after the third steep",
-                summary="One rinse, short early steeps, and the cocoa shows up by steep four.", body_md=POST_BODY,
-                body_html=render_markdown(POST_BODY), tea=tea, published_at=utcnow())
-    db.add(post)
-    print("  + 1 post")
+    teas = {t.slug: t for t in db.execute(select(Tea)).scalars().all()}
+    now = utcnow()
+    samples = [
+        ("da-hong-pao", "Da Hong Pao", 7, 100, 100, "gaiwan", 4, ["roasted", "mineral"], "Charcoal first, then stone fruit from the third steep.", [10, 10, 15, 20, 30, 45], 0, False),
+        ("sencha", "Sencha", 5, 150, 70, "kyusu", 5, ["umami", "grassy"], "Cooler water fixed the bitterness.", [60, 20, 45], 1, True),
+        ("bai-mu-dan", "Bai Mu Dan", 6, 120, 90, "teapot", 3, ["honey", "sweet"], "Quiet but pleasant.", [45, 60, 90], 3, False),
+        ("sheng-puerh-yiwu", "Sheng pu-erh, Yiwu", 7, 100, 95, "gaiwan", 4, ["floral", "honey"], "", [10, 10, 12, 15, 20, 25, 30], 6, True),
+        ("darjeeling-first-flush", "Darjeeling First Flush", 3, 200, 90, "teapot", 4, ["floral", "brisk"], "Three minutes was right.", [180], 12, False),
+    ]
+    for slug, name, grams, water, temp, vessel, rating, tags, note, steeps, days_ago, public in samples:
+        tea = teas.get(slug)
+        sess = TeaSession(user=demo, tea=tea, tea_name=tea.name_en if tea else name, grams=grams, water_ml=water, temp_c=temp,
+                          vessel=vessel, rating=rating, taste_tags=tags, note=note, announced=public,
+                          visibility=Visibility.public if public else Visibility.private, brewed_at=now - timedelta(days=days_ago, hours=2))
+        sess.steeps = [Steep(n=i + 1, seconds=x) for i, x in enumerate(steeps)]
+        db.add(sess)
+    print(f"  + {len(samples)} demo diary sessions")
 
 
-EXTRA_SEEDERS: list = [seed_sessions, seed_forum, seed_posts]  # later milestones append functions (db, users) -> None
+EXTRA_SEEDERS: list = [seed_sessions, seed_demo_diary, seed_forum]
 
 
 if __name__ == "__main__":

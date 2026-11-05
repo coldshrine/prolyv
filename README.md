@@ -48,18 +48,18 @@ uv run uvicorn prolyv.main:app --reload
 Open <http://localhost:8000/login>. For a populated local site:
 
 ```bash
-uv run python scripts/import_teas.py
+uv run python scripts/seed_prod.py
 ```
 
 ```bash
-uv run python scripts/seed_dev.py
+uv run python scripts/seed_demo.py
 ```
 
-The first command fills the tea base from `data/teas/**/*.json` and fetches links and free-licence photos from
-Wikipedia, Wikidata and Wikimedia Commons (about ten minutes the first time; every response is cached in
-`data/cache/`, so later runs are fast and `--no-network` works offline). The second creates three users (`karyna`
-is the admin), a few sessions, topics and a blog post. With `DEV_LOGIN=1` and `ADMIN_HANDLES=karyna` in `.env`
-you can sign in as any seeded user at `/dev/login/<handle>` without Google or Telegram (refused on https).
+`seed_prod.py` runs `scripts/import_teas.py`, which fills the tea base from `data/teas/**/*.json` and fetches links and
+free-licence photos from Wikimedia (slow the first time; responses are cached in `data/cache/`, photos in `media/`), and
+then adds the starter topics and guides written under the Prolyv name. `seed_demo.py` adds demo users and activity, and
+only runs on localhost. With `DEV_LOGIN=1` and `ADMIN_HANDLES=karyna` in `.env`, press "Continue as demo user" on `/login` or
+open `/dev/login/<handle>` (`karyna` is the admin). Never set `DEV_LOGIN=1` on a server: the app refuses to start.
 
 Tests:
 
@@ -172,9 +172,9 @@ sessions are database rows, not signed cookies.
 
 ## Search
 
-Teas are searched with `LIKE` over a denormalised `search_text` (names, aliases, origin) — fine for a few
-thousand rows. Forum topics and replies use SQLite FTS5 (`forum_fts`, created by the migration and kept in sync
-from the routes); on Postgres this is the one place that needs a `tsvector` equivalent.
+`/search` uses one SQLite FTS5 index (`search_fts`) over teas, topics with their replies, posts and public sessions, kept in
+step by the routes and rebuilt by the importer. Chinese characters are indexed one by one, because the tokenizer doesn't
+split them. The filter box on `/teas` uses `LIKE` over a normalised `search_text`, which is fine for thousands of rows.
 
 ## Project layout
 
@@ -193,7 +193,11 @@ prolyv/
     telegram.py     Login Widget verification
     accounts.py     sign-in resolution, linking, unlinking, soft delete
     sessions.py     create / load / slide / revoke
-  forum_search.py   FTS5 index helpers
+  search.py         FTS5 site search
+  social.py         notifications and follows
+  uploads.py        session photos (re-encoded, metadata removed)
+  story.py          1080x1920 story card PNG
+  mail.py           SMTP for sign-in links
   markdown.py       Markdown -> sanitised HTML for the blog
   web/
     routes_auth.py     /login, /auth/google/*, /auth/telegram/callback, /logout
@@ -203,12 +207,15 @@ prolyv/
     routes_forum.py    /discussions, /discussions/{id}, replies, votes, search
     routes_blog.py     /blog, /blog/{slug}, comments, /admin/posts
     routes_home.py     / (feed), /healthz, legacy redirects
-    routes_dev.py      /dev/login/{handle} (DEV_LOGIN=1 only)
+    routes_social.py   follow, /notifications, /saved, /report, /admin, /admin/reports, /admin/users
+    routes_pages.py    /about, /rules, /privacy, /terms, robots.txt, manifest, icons
+    routes_dev.py      /dev/login (DEV_LOGIN=1 on localhost only)
     deps.py, cookies.py, flash.py, templating.py, useragent.py
   templates/        base (top bar + bottom tab bar), login, settings, profile, teas/, diary/, forum/, blog/, admin/
-  static/           app.css (design tokens), session.js (steep timer), htmx.min.js (2.0.4, vendored)
+  fonts/            Unbounded and Manrope (SIL OFL) for story cards
+  static/           app.css (design tokens), app.js, session.js (steep timer), telegram.js, icons, htmx 2.0.4 (vendored)
 data/teas/          tea cards (JSON) + SCHEMA.md; data/cache/ is the importer's HTTP cache (git-ignored)
-scripts/            import_teas.py, seed_dev.py
+scripts/            import_teas.py, seed_prod.py, seed_demo.py, set_keys.py
 alembic/            migrations (alembic upgrade head)
 tests/              pytest suite (uv run pytest)
 deploy/             prolyv.service, Caddyfile, backup.sh
@@ -290,13 +297,17 @@ export SSH="ssh -i ~/Downloads/ssh-key-2026-06-25.key"
 
 **Tea base on the server:** after the first deploy run the importer once on the VM (it only needs outbound
 HTTPS): `cd ~/prolyv && set -a && . /etc/prolyv.env && set +a && .venv/bin/python scripts/import_teas.py`.
-Re-run it whenever cards change. Do **not** run `scripts/seed_dev.py` on the server.
+Re-run it whenever cards change. Use `scripts/seed_prod.py` for the first run, which also adds the starter topics and
+guides. `scripts/seed_demo.py` refuses to run on a real domain.
+
+**Photos on the server:** set `MEDIA_DIR=/var/lib/prolyv/media`. Include that folder in your backups, because session photos
+live only there; tea photos can be regenerated by the importer.
 
 **Memory.** One uvicorn worker (~70 MB) next to the Dota containers is fine on 956 MB plus swap; the unit caps
 Prolyv at 300 MB and restarts it if it ever grows past that.
 
 ## What is still a stub
 
-- "Follow" on profiles, avatar upload and Open Graph share images for sessions.
-- Forum search on Postgres (FTS5 is SQLite-only).
-- Notifications (replies, comments) and e-mail.
+- Avatar upload (the avatar comes from the sign-in provider) and Open Graph images for sessions.
+- Search on Postgres (FTS5 is SQLite-only; `prolyv/search.py` is the one module to change).
+- E-mail notifications: notifications are in-app only.
