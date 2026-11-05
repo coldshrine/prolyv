@@ -9,7 +9,7 @@ from fastapi.responses import RedirectResponse
 from sqlalchemy import func, select
 from sqlalchemy.orm import selectinload
 
-from prolyv.forum_search import index_reply, index_topic, remove_reply, remove_topic, search_topics
+from prolyv.search import index_reply, index_topic, remove_reply, remove_topic, search_topics
 from prolyv.models import ForumSection, Reply, ReplyVote, TeaSession, Topic, User, Visibility, utcnow
 from prolyv.social import notify, notify_followers
 from prolyv.web.deps import CurrentUser, DbDep, RequiredUser, SettingsDep, SignerDep, post_quota, require_csrf

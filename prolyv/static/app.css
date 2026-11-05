@@ -628,3 +628,8 @@ input[type="email"]:focus { border-color: var(--pink); box-shadow: 0 0 0 3px rgb
 .admin-hub { margin-top: 18px; }
 .admin-hub .card { margin-top: 0; }
 .stats { grid-auto-rows: 1fr; }
+
+.tea-row { display: flex; gap: 14px; align-items: center; padding: 14px 16px; border-radius: 22px; background: rgba(16, 18, 48, 0.7); border: 1px solid var(--card-line); color: var(--fg); text-decoration: none; }
+.tea-row:hover { border-color: rgba(255, 255, 255, 0.3); color: var(--fg); }
+.tea-row img { width: 72px; height: 72px; object-fit: cover; border-radius: 14px; flex: none; }
+.tea-row-body { display: flex; flex-direction: column; gap: 2px; min-width: 0; }

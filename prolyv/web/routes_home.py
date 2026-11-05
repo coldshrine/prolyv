@@ -7,6 +7,7 @@ from fastapi.responses import JSONResponse, RedirectResponse
 from sqlalchemy import func, select
 
 from prolyv.models import Tea, TeaStatus
+from prolyv.search import search_all
 from prolyv.social import followee_ids
 from prolyv.web.deps import CurrentUser, DbDep
 from prolyv.web.templating import render
@@ -48,6 +49,35 @@ def home(request: Request, db: DbDep, user: CurrentUser, tab: str = "all"):
     following = followee_ids(db, user) if tab == "following" and user else None
     tea_count = db.scalar(select(func.count()).select_from(Tea).where(Tea.status == TeaStatus.published)) or 0
     return render(request, "home.html", {"feed": build_feed(db, tab, following=following), "tab": tab, "tabs": tabs, "tea_count": tea_count})
+
+
+SEARCH_TABS = [("all", "All"), ("teas", "Teas"), ("discussions", "Discussions"), ("blog", "Blog"), ("sessions", "Sessions")]
+SEARCH_KINDS = {"all": ("tea", "topic", "reply", "post", "session"), "teas": ("tea",), "discussions": ("topic", "reply"),
+                "blog": ("post",), "sessions": ("session",)}
+
+
+@router.get("/search")
+def search_page(request: Request, db: DbDep, q: str = "", type: str = "all"):
+    from prolyv.models import Post, TeaSession, Topic
+    from prolyv.web.routes_blog import published_posts
+    from prolyv.web.routes_diary import public_sessions
+    from prolyv.web.routes_forum import topic_query
+
+    q = q.strip()[:80]
+    type = type if type in SEARCH_KINDS else "all"
+    hits = search_all(db, q, SEARCH_KINDS[type], limit=120) if q else []
+    wanted = {kind: [ref for k, ref in hits if k == kind] for kind in ("tea", "topic", "post", "session")}
+    found: dict[tuple, object] = {}
+    for obj in db.execute(select(Tea).where(Tea.id.in_(wanted["tea"]), Tea.status == TeaStatus.published)).scalars():
+        found[("tea", obj.id)] = obj
+    for obj in db.execute(topic_query().where(Topic.id.in_(wanted["topic"]), Topic.hidden.is_(False))).scalars():
+        found[("topic", obj.id)] = obj
+    for obj in db.execute(published_posts().where(Post.id.in_(wanted["post"]))).scalars():
+        found[("post", obj.id)] = obj
+    for obj in db.execute(public_sessions().where(TeaSession.id.in_(wanted["session"]))).scalars():
+        found[("session", obj.id)] = obj
+    results = [{"kind": kind, "obj": found[(kind, ref)]} for kind, ref in hits if (kind, ref) in found]
+    return render(request, "search.html", {"q": q, "type": type, "tabs": SEARCH_TABS, "results": results})
 
 
 @router.get("/healthz")

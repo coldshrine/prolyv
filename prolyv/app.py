@@ -16,7 +16,7 @@ from prolyv.auth.google import GoogleOIDC
 from prolyv.auth.sessions import load_session
 from prolyv.config import Settings, get_settings
 from prolyv.db import make_engine, make_session_factory
-from prolyv.forum_search import ensure_fts
+from prolyv.search import ensure_fts
 from prolyv.ratelimit import RateLimiter, RateLimitMiddleware
 from prolyv.security import SESSION_COOKIE, Signer
 from prolyv.web import routes_account, routes_auth, routes_blog, routes_dev, routes_diary, routes_forum, routes_home, routes_pages, routes_social, routes_teas
@@ -49,7 +49,7 @@ def create_app(settings: Settings | None = None, google_transport=None) -> FastA
     app.state.post_limiter = RateLimiter(settings.post_rate_limit, settings.post_rate_window)
     app.state.engine = make_engine(settings.database_url)
     app.state.session_factory = make_session_factory(app.state.engine)
-    ensure_fts(app.state.engine)  # SQLite FTS5 table for the forum (idempotent; the migration creates it too)
+    ensure_fts(app.state.engine)  # SQLite FTS5 index (idempotent; filled when empty)
     app.state.google = GoogleOIDC(
         settings.google_client_id,
         settings.google_client_secret,

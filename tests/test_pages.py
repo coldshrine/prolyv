@@ -67,3 +67,30 @@ def test_branded_404_and_500_keep_the_user_signed_in(client):
     with TestClient(client.app, raise_server_exceptions=False) as quiet:
         page = quiet.get("/x/boom")
     assert page.status_code == 500 and "Something went wrong" in page.text and "kaboom" not in page.text
+
+
+def test_unified_search_finds_everything_in_every_language(client, db):
+    from prolyv.search import index_tea
+    from tests.conftest import csrf_token
+    from tests.test_diary import new_session
+    from tests.test_forum import post_topic
+    from tests.test_teas import make_tea
+
+    tea = make_tea(db, "tie-guan-yin", "Tie Guan Yin", name_zh="铁观音", name_ru="Те Гуань Инь", name_romanized="Tiě Guānyīn", aliases=["Iron Goddess"])
+    index_tea(db, tea)
+    db.commit()
+    telegram_login(client, username="olena_tea")
+    token = csrf_token(client)
+    post_topic(client, token, title="Clay pots for oolong", body="Which Yixing clay suits Tie Guan Yin best?")
+    new_session(client, token, tea_name="Secret Yixing session", visibility="private")
+    new_session(client, token, tea_name="Morning Yixing session", visibility="public", note="Lovely")
+    client.cookies.clear()
+
+    for query in ("铁观音", "观音", "те гуань", "гуань инь", "tie", "tiě guanyin", "iron"):
+        assert "Tie Guan Yin" in client.get("/search", params={"q": query}).text, query
+    page = client.get("/search", params={"q": "yixing"}).text
+    assert "Clay pots for oolong" in page and "Morning Yixing session" in page and "Secret Yixing" not in page
+    assert "Clay pots" not in client.get("/search", params={"q": "yixing", "type": "sessions"}).text
+    assert "Nothing matches" in client.get("/search", params={"q": "zzzqqq"}).text
+    assert client.get("/search", params={"q": '"(*'}).status_code == 200
+    assert client.get("/search").status_code == 200

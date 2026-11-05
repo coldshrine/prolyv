@@ -3,7 +3,7 @@ import uuid
 
 from sqlalchemy import select
 
-from prolyv.forum_search import fts_query
+from prolyv.search import fts_query
 from prolyv.models import Reply, Topic
 from tests.conftest import build_app, csrf_token, make_settings, telegram_login
 from tests.test_diary import new_session, session_id_from
@@ -59,6 +59,7 @@ def test_fts_query_is_sanitised():
     assert fts_query('why "bitter" (shu)?') == '"why"* "bitter"* "shu"*'
     assert fts_query("   ") == ""
     assert fts_query("Улун чай") == '"улун"* "чай"*'
+    assert fts_query("铁观音 tea") == '"铁 观 音" "tea"*'
 
 
 def test_topic_validation(client):

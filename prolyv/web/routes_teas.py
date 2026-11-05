@@ -12,6 +12,7 @@ from fastapi.responses import RedirectResponse, Response
 from sqlalchemy import func, select
 
 from prolyv.handles import slugify
+from prolyv.search import index_tea, remove
 from prolyv.web.cup import HEX_RE
 from prolyv.models import (
     CATEGORY_LABELS,
@@ -389,6 +390,7 @@ async def admin_tea_new(request: Request, db: DbDep, settings: SettingsDep, sign
     db.flush()
     apply_tea_form(db, tea, form)
     db.flush()
+    index_tea(db, tea)
     response = RedirectResponse(f"/teas/{tea.slug}", status_code=303)
     set_flash(response, settings, signer, "ok", "Added to the tea base." if tea.status == TeaStatus.published else "Saved as a draft.")
     return response
@@ -404,6 +406,7 @@ def admin_tea(db, slug: str) -> Tea:  # noqa: ANN001
 @router.post("/admin/teas/{slug}/delete", dependencies=[Depends(require_csrf)])
 def admin_tea_delete(request: Request, db: DbDep, settings: SettingsDep, signer: SignerDep, user: AdminUser, slug: str):
     tea = admin_tea(db, slug)
+    remove(db, "tea", tea.id)
     db.delete(tea)
     response = RedirectResponse("/admin/teas", status_code=303)
     set_flash(response, settings, signer, "ok", f"{tea.name_en} was removed.")
@@ -427,6 +430,8 @@ async def admin_tea_edit(request: Request, db: DbDep, settings: SettingsDep, sig
     tea.status = TeaStatus.published if data.get("published") else TeaStatus.pending
     tea.locked = True  # the importer will not overwrite an admin's text
     tea.updated_at = utcnow()
+    db.flush()
+    index_tea(db, tea)
     response = RedirectResponse(f"/teas/{tea.slug}", status_code=303)
     set_flash(response, settings, signer, "ok", "Card saved.")
     return response

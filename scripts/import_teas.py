@@ -36,6 +36,7 @@ sys.path.insert(0, str(ROOT))
 from prolyv.config import get_settings  # noqa: E402
 from prolyv.db import make_engine, make_session_factory  # noqa: E402
 from prolyv.models import Tea, TeaAlias, TeaCategory, TeaForm, TeaImage, TeaStatus  # noqa: E402
+from prolyv.search import ensure_fts, rebuild  # noqa: E402
 
 CARDS_DIR = ROOT / "data" / "teas"
 CACHE_DIR = ROOT / "data" / "cache"
@@ -586,6 +587,9 @@ def main(argv: list[str] | None = None) -> int:
             report.append({"slug": tea.slug, "images": len(tea.images), "wikipedia": bool(tea.wikipedia_url), "new": is_new})
             print(f"  [{n:3}/{len(cards)}] {'new' if is_new else 'upd'} {tea.slug:40} photos={len(tea.images)} "
                   f"wiki={'y' if tea.wikipedia_url else '-'}")
+        ensure_fts(engine)
+        rebuild(db)
+        db.commit()
     CACHE_DIR.mkdir(parents=True, exist_ok=True)
     (CACHE_DIR / "import_report.json").write_text(json.dumps(
         {"at": _now(), "created": created, "updated": updated, "with_images": with_images, "errors": errors,

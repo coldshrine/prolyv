@@ -12,6 +12,7 @@ from sqlalchemy.orm import selectinload
 from prolyv.handles import slugify
 from prolyv.markdown import render_markdown
 from prolyv.models import Post, PostComment, Tea, TeaSession, TeaStatus, Visibility, utcnow
+from prolyv.search import index_post, remove
 from prolyv.social import notify
 from prolyv.web.deps import AdminUser, CurrentUser, DbDep, RequiredUser, SettingsDep, SignerDep, post_quota, require_csrf
 from prolyv.web.flash import set_flash
@@ -175,6 +176,7 @@ async def admin_post_new(request: Request, db: DbDep, settings: SettingsDep, sig
     db.flush()
     apply_post_form(db, post, form)
     db.flush()
+    index_post(db, post)
     response = RedirectResponse(f"/blog/{post.slug}", status_code=303)
     set_flash(response, settings, signer, "ok", "Published." if post.is_published else "Saved as a draft (only admins can see it).")
     return response
@@ -201,6 +203,7 @@ async def admin_post_edit(request: Request, db: DbDep, settings: SettingsDep, si
         return render(request, "admin/post_edit.html", {"form": form, "errors": errors, "post": post}, status_code=400)
     apply_post_form(db, post, form)
     post.updated_at = utcnow()
+    index_post(db, post)
     response = RedirectResponse(f"/blog/{post.slug}", status_code=303)
     set_flash(response, settings, signer, "ok", "Post saved.")
     return response
@@ -209,6 +212,7 @@ async def admin_post_edit(request: Request, db: DbDep, settings: SettingsDep, si
 @router.post("/admin/posts/{post_id}/delete", dependencies=[Depends(require_csrf)])
 def admin_post_delete(request: Request, db: DbDep, settings: SettingsDep, signer: SignerDep, user: AdminUser, post_id: uuid.UUID):
     post = admin_get_post(db, post_id)
+    remove(db, "post", post.id)
     db.delete(post)
     response = RedirectResponse("/admin/posts", status_code=303)
     set_flash(response, settings, signer, "ok", "Post deleted.")

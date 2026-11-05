@@ -99,3 +99,15 @@
 {% macro save_button(kind, ref_id, saved, user, csrf, next) -%}
 {% if user %}<form method="post" action="/saved/toggle" class="inline-form"><input type="hidden" name="csrf_token" value="{{ csrf }}"><input type="hidden" name="kind" value="{{ kind }}"><input type="hidden" name="ref_id" value="{{ ref_id }}"><input type="hidden" name="next" value="{{ next }}"><button class="btn btn-secondary" type="submit" aria-pressed="{{ 'true' if saved else 'false' }}">{{ 'Saved ✓' if saved else 'Save' }}</button></form>{% else %}<a class="btn btn-secondary" href="/login?next={{ next|urlencode }}">Save</a>{% endif %}
 {%- endmacro %}
+
+{% macro tea_row(tea) -%}
+<a class="tea-row" href="/teas/{{ tea.slug }}">
+  {% if tea.primary_image %}<img src="{{ tea.primary_image.thumb_url or tea.primary_image.url }}" alt="" loading="lazy" referrerpolicy="no-referrer">{% else %}{{ cup(tea.category.value, 56, tea.liquor_hex) }}{% endif %}
+  <span class="tea-row-body">
+    <span class="session-date">Tea · {{ tea.category_label }}</span>
+    <span class="tea-card-name">{{ tea.name_en }}</span>
+    {% if tea.name_zh or tea.name_ru %}<span class="tea-card-native">{{ tea.name_zh or '' }}{% if tea.name_zh and tea.name_ru %} · {% endif %}{{ tea.name_ru or '' }}</span>{% endif %}
+    <span class="tea-card-origin">{{ tea.origin_country }}{% if tea.origin_region %} · {{ tea.origin_region }}{% endif %}</span>
+  </span>
+</a>
+{%- endmacro %}

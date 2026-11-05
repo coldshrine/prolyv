@@ -110,7 +110,7 @@ def seed_sessions(db, users: list[User]) -> None:  # noqa: ANN001
 
 
 def seed_forum(db, users: list[User]) -> None:  # noqa: ANN001
-    from prolyv.forum_search import index_reply, index_topic
+    from prolyv.search import index_reply, index_topic
 
     if db.execute(select(Topic).limit(1)).first() is not None:
         print("  = topics exist")

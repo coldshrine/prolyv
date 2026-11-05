@@ -19,7 +19,7 @@ target_metadata = Base.metadata
 
 def include_object(obj, name, type_, reflected, compare_to):  # noqa: ANN001
     """Skip the SQLite FTS5 virtual table and its shadow tables (created by raw SQL in the forum migration)."""
-    if type_ == "table" and name.startswith("forum_fts"):
+    if type_ == "table" and name.startswith(("forum_fts", "search_fts")):
         return False
     return True
 

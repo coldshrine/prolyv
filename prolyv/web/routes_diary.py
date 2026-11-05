@@ -24,6 +24,7 @@ from prolyv.models import (
     Visibility,
     utcnow,
 )
+from prolyv.search import index_session, remove
 from prolyv.social import notify, notify_followers
 from prolyv.web.deps import CurrentUser, DbDep, RequiredUser, SettingsDep, SignerDep, post_quota, require_csrf
 from prolyv.web.flash import set_flash
@@ -251,6 +252,7 @@ async def session_create(request: Request, db: DbDep, settings: SettingsDep, sig
     apply_session_form(db, sess, form)
     db.flush()
     announce_session(db, sess)
+    index_session(db, sess)
     response = RedirectResponse(f"/sessions/{sess.id}", status_code=303)
     set_flash(response, settings, signer, "ok", "Session saved to your diary." + (" It is public." if sess.is_public else ""))
     return response
@@ -273,6 +275,7 @@ async def session_edit(request: Request, db: DbDep, settings: SettingsDep, signe
     apply_session_form(db, sess, form)
     sess.updated_at = utcnow()
     announce_session(db, sess)
+    index_session(db, sess)
     response = RedirectResponse(f"/sessions/{sess.id}", status_code=303)
     set_flash(response, settings, signer, "ok", "Session updated.")
     return response
@@ -285,6 +288,7 @@ def session_visibility(request: Request, db: DbDep, settings: SettingsDep, signe
     require_owner(sess, user, getattr(request.state, "is_admin", False))
     sess.visibility = Visibility.public if visibility == "public" else Visibility.private
     announce_session(db, sess)
+    index_session(db, sess)
     response = RedirectResponse(f"/sessions/{sess.id}", status_code=303)
     set_flash(response, settings, signer, "ok", "This session is now public." if sess.is_public else "This session is private again.")
     return response
@@ -294,6 +298,7 @@ def session_visibility(request: Request, db: DbDep, settings: SettingsDep, signe
 def session_delete(request: Request, db: DbDep, settings: SettingsDep, signer: SignerDep, user: RequiredUser, session_id: uuid.UUID):
     sess = get_session(db, session_id, user, getattr(request.state, "is_admin", False))
     require_owner(sess, user, getattr(request.state, "is_admin", False))
+    remove(db, "session", sess.id)
     db.delete(sess)
     response = RedirectResponse("/diary", status_code=303)
     set_flash(response, settings, signer, "ok", "Session deleted.")
