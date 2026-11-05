@@ -1,0 +1,13 @@
+{% extends "base.html" %}
+{% block title %}{{ title }} · Prolyv{% endblock %}
+{% block content %}
+<section class="container narrow centered">
+  <p class="eyebrow">Error {{ status }}</p>
+  <h1 class="h1">{{ title }}</h1>
+  <p class="lead">{{ text }}</p>
+  <div class="actions">
+    <a class="btn btn-primary" href="/login">Back to login</a>
+    <a class="btn btn-secondary" href="/">Home</a>
+  </div>
+</section>
+{% endblock %}

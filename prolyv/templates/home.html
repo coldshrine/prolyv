@@ -1,0 +1,26 @@
+{% extends "base.html" %}
+{% block content %}
+<section class="hero">
+  <div class="container hero-inner">
+    <p class="eyebrow">Tea diary · forum · blog</p>
+    <h1 class="display">Every steep, in your diary</h1>
+    <p class="lead">Log tea sessions in 30 seconds, keep them private or share them, and talk brewing with people who drink the same tea.</p>
+    <div class="actions">
+      {% if current_user %}
+      <a class="btn btn-primary" href="/new"><span class="plus" aria-hidden="true">+</span> Log a tea</a>
+      <a class="btn btn-secondary" href="/u/{{ current_user.handle }}">Your profile</a>
+      {% else %}
+      <a class="btn btn-primary" href="/login">Start your diary</a>
+      <a class="btn btn-secondary" href="/feed">Read the feed</a>
+      {% endif %}
+    </div>
+  </div>
+</section>
+<section class="container">
+  <div class="grid-3">
+    <article class="card"><h3>Diary</h3><p class="muted">Tea, grams, water, temperature, steeps, rating, notes. Private by default.</p></article>
+    <article class="card"><h3>Discussions</h3><p class="muted">Ask about a tea, attach the session, get answers from people who brewed it.</p></article>
+    <article class="card"><h3>Blog</h3><p class="muted">The full breakdown behind every short video on TikTok and Instagram.</p></article>
+  </div>
+</section>
+{% endblock %}

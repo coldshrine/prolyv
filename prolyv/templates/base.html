@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="color-scheme" content="dark">
+<meta name="theme-color" content="#07081A">
+<title>{% block title %}Prolyv — every steep, in your diary{% endblock %}</title>
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Cdefs%3E%3ClinearGradient id='g' x1='0' y1='0' x2='1' y2='1'%3E%3Cstop offset='0' stop-color='%23FF4FD8'/%3E%3Cstop offset='.5' stop-color='%232563FF'/%3E%3Cstop offset='1' stop-color='%23FF8A1F'/%3E%3C/linearGradient%3E%3C/defs%3E%3Ccircle cx='16' cy='16' r='15' fill='url(%23g)'/%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Unbounded:wght@500;600;700;800&display=swap">
+<link rel="stylesheet" href="/static/app.css?v={{ version }}">
+<script src="/static/htmx.min.js?v=2.0.4" defer></script>
+{% block head %}{% endblock %}
+</head>
+<body class="{% block body_class %}{% endblock %}">
+{% from "partials/macros.html" import avatar %}
+{% block topbar %}
+<header class="topbar">
+  <div class="topbar-inner">
+    <a class="brand" href="/"><span class="brand-mark" aria-hidden="true"></span><span class="brand-name">Prolyv</span></a>
+    <nav class="topnav" aria-label="Main navigation">
+      <a href="/feed"{% if path == '/feed' %} aria-current="page"{% endif %}>Feed</a>
+      <a href="/discuss"{% if path == '/discuss' %} aria-current="page"{% endif %}>Discussions</a>
+      <a href="/blog"{% if path == '/blog' %} aria-current="page"{% endif %}>Blog</a>
+      <a href="/diary"{% if path == '/diary' %} aria-current="page"{% endif %}>My diary</a>
+    </nav>
+    <div class="topbar-actions">
+      {% if current_user %}
+      <a class="avatar-link" href="/u/{{ current_user.handle }}" aria-label="Your profile">{{ avatar(current_user, 40) }}</a>
+      <a class="btn btn-primary btn-sm" href="/new"><span class="plus" aria-hidden="true">+</span> Log a tea</a>
+      {% else %}
+      <a class="btn btn-secondary btn-sm" href="/login">Log in</a>
+      <a class="btn btn-primary btn-sm hide-mobile" href="/login?next=/new"><span class="plus" aria-hidden="true">+</span> Log a tea</a>
+      {% endif %}
+    </div>
+  </div>
+</header>
+{% endblock %}
+{% if flash %}<div class="flash flash-{{ flash.kind }}" role="status">{{ flash.text }}</div>{% endif %}
+<main class="page">
+{% block content %}{% endblock %}
+</main>
+{% block tabbar %}
+<nav class="tabbar" aria-label="Main navigation">
+  <a href="/feed"{% if path == '/feed' %} aria-current="page"{% endif %}><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 11l8-7 8 7v9a1 1 0 0 1-1 1h-5v-6h-4v6H5a1 1 0 0 1-1-1z"/></svg><span>Feed</span><i class="dot"></i></a>
+  <a href="/discuss"{% if path == '/discuss' %} aria-current="page"{% endif %}><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 6a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2h-7l-5 4v-4H6a2 2 0 0 1-2-2z"/></svg><span>Discuss</span><i class="dot"></i></a>
+  <a class="tab-plus" href="{% if current_user %}/new{% else %}/login?next=/new{% endif %}" aria-label="Log a tea"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 5v14M5 12h14"/></svg></a>
+  <a href="/blog"{% if path == '/blog' %} aria-current="page"{% endif %}><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M8 5l12 7-12 7z"/></svg><span>Blog</span><i class="dot"></i></a>
+  <a href="/diary"{% if path == '/diary' %} aria-current="page"{% endif %}><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 4h11a2 2 0 0 1 2 2v14H8a2 2 0 0 1-2-2zM6 18a2 2 0 0 1 2-2h11"/></svg><span>Diary</span><i class="dot"></i></a>
+</nav>
+{% endblock %}
+{% block scripts %}{% endblock %}
+</body>
+</html>

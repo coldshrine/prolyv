@@ -1,0 +1,3 @@
+{% macro avatar(user, size=40) -%}
+{% if user.avatar_url %}<img class="avatar" src="{{ user.avatar_url }}" alt="" width="{{ size }}" height="{{ size }}" style="--size:{{ size }}px" referrerpolicy="no-referrer" loading="lazy">{% else %}<span class="avatar avatar-initials" style="--size:{{ size }}px" aria-hidden="true">{{ user.initials }}</span>{% endif %}
+{%- endmacro %}
