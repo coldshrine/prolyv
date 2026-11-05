@@ -11,7 +11,9 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Unbounded:wght@500;600;700;800&display=swap">
 <link rel="stylesheet" href="/static/app.css?v={{ version }}">
+<meta name="htmx-config" content='{"includeIndicatorStyles":false,"allowEval":false}'>
 <script src="/static/htmx.min.js?v=2.0.4" defer></script>
+<script src="/static/app.js?v={{ version }}" defer></script>
 {% block head %}{% endblock %}
 </head>
 <body class="{% block body_class %}{% endblock %}">

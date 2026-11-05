@@ -90,7 +90,7 @@ def test_detail_page(client, db):
     assert "Read more on Wikipedia" in page and "Also known as: TGY" in page
     assert "Log this tea" in page and "/login?next=/sessions/new%3Ftea%3Dtie-guan-yin" in page
     assert 'property="og:image" content="https://upload.wikimedia.org/x.jpg"' in page
-    assert '"@type": "Product"' in page and "Photo: Someone · CC BY-SA 4.0" in page
+    assert '"@type": "Article"' in page and "Photo: Someone · CC BY-SA 4.0" in page
     assert "Rou Gui" in page  # related oolong
     assert "Sessions with this tea" in page
     assert client.get("/teas/TIE-GUAN-YIN").status_code == 200
@@ -174,3 +174,44 @@ def test_dev_login_only_works_locally(tmp_path, google):
         assert response.status_code == 303
         assert client.get("/settings").status_code == 200
         assert client.get("/dev/login/nobody", follow_redirects=False).status_code == 404
+
+
+def test_encyclopedia_fields_on_the_card(client, db):
+    make_tea(db, "tie-guan-yin", "Tie Guan Yin", name_zh="铁观音", name_ru="Те Гуань Инь", liquor_hex="#D8C86A", leaf_hex="#3F6B3F",
+             history="Documented since the Qing dynasty.\n\nA legend ties it to a farmer.", sources=["https://en.wikipedia.org/wiki/Tieguanyin"],
+             confidence="low", i18n={"ru": {"description": "Первый абзац.\n\nВторой абзац.", "history": "История чая.", "taste_profile": "Орхидея."}})
+    page = client.get("/teas/tie-guan-yin").text
+    assert "铁观音" in page and "Те Гуань Инь" in page and "History" in page and "Documented since" in page
+    assert "background:#D8C86A" in page and "background:#3F6B3F" in page and "Sources" in page
+    assert "thinly documented" in page and 'hreflang="ru"' in page and "?lang=ru" in page and "中文" not in page
+    ru = client.get("/teas/tie-guan-yin", params={"lang": "ru"}).text
+    assert "Первый абзац." in ru and "История чая." in ru and "Орхидея." in ru and "First paragraph" not in ru
+    assert "First paragraph" in client.get("/teas/tie-guan-yin", params={"lang": "zh"}).text  # no translation: English
+
+    make_tea(db, "plain", "Plain Tea")
+    plain = client.get("/teas/plain").text
+    assert "lang-switch" not in plain and "No photo yet" in plain and "hreflang" not in plain
+
+
+def test_search_finds_chinese_russian_and_folded_names(client, db):
+    make_tea(db, "tie-guan-yin", "Tie Guan Yin", name_zh="铁观音", name_ru="Те Гуань Инь", name_romanized="Tiě Guānyīn", aliases=["Iron Goddess"])
+    make_tea(db, "sencha", "Sencha", category="green", name_zh="煎茶", name_ru="Сенча")
+    for query in ("铁观音", "观音", "те гуань", "Гуань", "tieguanyin", "tiě", "iron goddess"):
+        names = re.findall(r'class="tea-card-name">([^<]+)<', client.get("/teas", params={"q": query}).text)
+        assert names == ["Tie Guan Yin"], query
+    assert re.findall(r'class="tea-card-name">([^<]+)<', client.get("/teas", params={"q": "сенча"}).text) == ["Sencha"]
+    assert "Nothing found" in client.get("/teas", params={"q": "100%_"}).text
+
+
+def test_index_pages_and_sitemap(client, db, settings):
+    make_tea(db, "da-hong-pao", "Da Hong Pao", region="Fujian · Wuyi Mountains", name_zh="大红袍")
+    make_tea(db, "sencha", "Sencha", category="green", country="Japan", region="Shizuoka")
+    types = client.get("/teas/types").text
+    assert "Oolong" in types and "/teas/c/oolong" in types
+    origins = client.get("/teas/origins").text
+    assert "/teas/o/china" in origins and "/teas/o/wuyi-mountains" in origins and "/teas/o/japan" in origins
+    az = client.get("/teas/a-z").text
+    assert 'id="letter-D"' in az and "大红袍" in az and "/teas/sencha" in az
+    sitemap = client.get("/sitemap.xml").text
+    for path in ("/teas/types", "/teas/origins", "/teas/a-z", "/teas/o/wuyi-mountains", "/teas/c/oolong"):
+        assert f"{settings.base_url}{path}<" in sitemap

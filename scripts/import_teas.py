@@ -22,10 +22,12 @@ import re
 import sys
 import time
 from datetime import UTC, datetime
+from io import BytesIO
 from pathlib import Path
 from urllib.parse import quote, urlencode
 
 import httpx2 as httpx
+from PIL import Image, ImageOps
 from sqlalchemy import select
 
 ROOT = Path(__file__).resolve().parent.parent
@@ -57,6 +59,8 @@ TASTE_TAGS = {
     "spicy", "herbal", "bitter", "brisk", "tart",
 }
 CAFFEINE = {"none", "low", "medium", "high"}
+IMAGE_KINDS = {"dry_leaf", "liquor", "wet_leaf", "cake", "plant", "plantation", "serving", "other"}
+HEX_RE = re.compile(r"^#[0-9a-fA-F]{6}$")
 SLUG_RE = re.compile(r"^[a-z0-9]+(?:-[a-z0-9]+)*$")
 
 # Commons licences we may show. Matched case-insensitively against LicenseShortName.
@@ -95,6 +99,30 @@ class Http:
             path.parent.mkdir(parents=True, exist_ok=True)
             path.write_text(json.dumps({"url": full, "fetched_at": _now(), "body": body}, ensure_ascii=False))
         return body
+
+    def get_bytes(self, url: str, limit: int = 40_000_000) -> bytes | None:
+        """A file for the local media copy. Not cached here: the re-encoded files are the cache."""
+        if not self.enabled:
+            return None
+        for attempt in range(4):
+            wait = self.pause - (time.monotonic() - self._last)
+            if wait > 0:
+                time.sleep(wait)
+            self._last = time.monotonic()
+            try:
+                response = self.client.get(url)
+                self.requests += 1
+            except httpx.HTTPError:
+                time.sleep(1.5 * (attempt + 1))
+                continue
+            if response.status_code == 429 or response.status_code >= 500:
+                retry_after = response.headers.get("retry-after", "")
+                time.sleep(int(retry_after) if retry_after.isdigit() and int(retry_after) < 60 else 3.0 * (attempt + 1))
+                continue
+            if response.status_code != 200 or len(response.content) > limit:
+                return None
+            return response.content
+        return None
 
     def _fetch(self, url: str) -> dict | None:
         for attempt in range(4):
@@ -313,6 +341,8 @@ def commons_imageinfo(http: Http, titles: list[str]) -> list[dict]:
                     "title": page["title"],
                     "url": clean_image_url(info["url"]),
                     "thumb_url": clean_image_url(info.get("thumburl") or info["url"]),
+                    "source_url": clean_image_url(info["url"]),
+                    "download_url": clean_image_url(info.get("thumburl") or info["url"]),
                     "source_page": info.get("descriptionurl"),
                     "author": strip_html((meta.get("Artist") or {}).get("value")),
                     "license": license_name,
@@ -345,10 +375,58 @@ def clean_image_url(url: str | None) -> str | None:
     return url.replace("https://thumb.wikimedia.org/", "https://upload.wikimedia.org/")
 
 
+def curated_images(card: dict) -> list[dict]:
+    """Photos listed in the card file. Only free licences, the same rule as the automatic search."""
+    images = []
+    for item in card.get("images") or []:
+        if not isinstance(item, dict) or not item.get("url"):
+            continue
+        license_name = strip_html(item.get("license"))
+        if not license_name or not LICENSE_OK.search(license_name):
+            continue
+        images.append({
+            "title": item.get("source_page") or item["url"], "url": item["url"], "thumb_url": item.get("thumb_url") or item["url"],
+            "source_page": item.get("source_page"), "author": strip_html(item.get("author")), "license": license_name,
+            "license_url": item.get("license_url"), "kind": item.get("kind") if item.get("kind") in IMAGE_KINDS else "other",
+            "alt": strip_html(item.get("alt")), "source_url": item["url"],
+        })
+    return images
+
+
+def localize_image(http: Http, media_dir: Path, slug: str, image: dict) -> dict:
+    """Re-encode into media/teas/<slug>/ as WebP 1200 and 400 px, served from our own domain. EXIF is dropped.
+
+    Files already on disk are reused, so re-running costs nothing. If the download fails the remote URL stays."""
+    source = image.get("source_url") or image["url"]
+    digest = hashlib.sha1(source.encode()).hexdigest()[:12]
+    folder = media_dir / "teas" / slug
+    big, small = folder / f"{digest}-1200.webp", folder / f"{digest}-400.webp"
+    if not (big.exists() and small.exists()):
+        data = http.get_bytes(image.get("download_url") or source)
+        if data is None:
+            return image
+        try:
+            with Image.open(BytesIO(data)) as raw:
+                picture = ImageOps.exif_transpose(raw).convert("RGB")
+            folder.mkdir(parents=True, exist_ok=True)
+            large = picture.copy()
+            large.thumbnail((1200, 1200))
+            large.save(big, "WEBP", quality=82, method=4)
+            picture.thumbnail((400, 400))
+            picture.save(small, "WEBP", quality=75, method=4)
+        except (OSError, ValueError, Image.DecompressionBombError) as exc:
+            print(f"    could not convert {source}: {exc.__class__.__name__}", file=sys.stderr)
+            return image
+    return {**image, "url": f"/media/teas/{slug}/{big.name}", "thumb_url": f"/media/teas/{slug}/{small.name}"}
+
+
 def enrich(http: Http, card: dict, max_images: int) -> dict:
-    """Links + photo candidates for one card. Umbrella articles only contribute the link, never their photos."""
+    """Links + photos for one card. Umbrella articles only contribute the link, never their photos.
+
+    A card with its own `images` list uses exactly those; the automatic photo search does not run for it."""
     out: dict = {"wikipedia_url": None, "wikidata_id": None, "images": [], "summary": None}
     title, scope = card.get("wikipedia_title"), card["wikipedia_scope"]
+    has_curated = "images" in card
     candidates: list[str] = []
     page = summary = entity = None
     if title and scope != "none":
@@ -360,16 +438,22 @@ def enrich(http: Http, card: dict, max_images: int) -> dict:
                 out["wikidata_id"] = page.get("wikidata")
                 if page.get("wikidata"):
                     entity = wikidata_entity(http, page["wikidata"])
-                if entity:
-                    candidates += [f"File:{name}" for name in entity["images"]]
-                if page.get("pageimage"):
-                    candidates.append(f"File:{page['pageimage']}")
-                # inline article images include navbox pictures (cuisine, flags): keep only tea-looking ones
-                candidates += [t for t in page["images"] if looks_like_tea_photo(t)]
-                if entity and entity.get("commons_category"):
-                    candidates += [t for t in commons_category_files(http, entity["commons_category"]) if looks_like_photo(t)]
+                if has_curated:
+                    pass
+                else:
+                    if entity:
+                        candidates += [f"File:{name}" for name in entity["images"]]
+                    if page.get("pageimage"):
+                        candidates.append(f"File:{page['pageimage']}")
+                    # inline article images include navbox pictures (cuisine, flags): keep only tea-looking ones
+                    candidates += [t for t in page["images"] if looks_like_tea_photo(t)]
+                    if entity and entity.get("commons_category"):
+                        candidates += [t for t in commons_category_files(http, entity["commons_category"]) if looks_like_photo(t)]
     if summary:
         out["summary"] = {"title": summary.get("title"), "description": summary.get("description"), "extract": summary.get("extract")}
+    if has_curated:
+        out["images"] = curated_images(card)
+        return out
     # Commons search: the English name, the native name, then the first alias; results must look like tea photos.
     search_terms = [card["name_en"], card.get("name_native"), *(card.get("aliases") or [])[:1]]
     for term in [t for t in search_terms if t]:
@@ -418,6 +502,14 @@ def upsert(db, card: dict, extra: dict, network: bool) -> tuple[Tea, bool]:
         tea.vintage_note = card.get("vintage_note")
         tea.description = card["description"]
         tea.popularity = int(card.get("popularity", 3))
+        tea.name_zh = card.get("name_zh")
+        tea.name_ru = card.get("name_ru")
+        tea.history = card.get("history")
+        tea.liquor_hex = card["liquor_hex"] if HEX_RE.match(str(card.get("liquor_hex"))) else None
+        tea.leaf_hex = card["leaf_hex"] if HEX_RE.match(str(card.get("leaf_hex"))) else None
+        tea.confidence = card.get("confidence") if card.get("confidence") in ("high", "medium", "low") else None
+        tea.sources = [u for u in card.get("sources") or [] if isinstance(u, str) and u.startswith(("http://", "https://"))]
+        tea.i18n = card.get("i18n") if isinstance(card.get("i18n"), dict) else {}
         wanted = [a.strip() for a in card.get("aliases", []) if a and a.strip()]
         tea.aliases.clear()
         db.flush()  # delete the old aliases before inserting the new set (unique (tea_id, alias))
@@ -429,7 +521,8 @@ def upsert(db, card: dict, extra: dict, network: bool) -> tuple[Tea, bool]:
         tea.wikidata_id = extra["wikidata_id"]
     if extra.get("images") or (network and not tea.locked):
         tea.images = [
-            TeaImage(url=i["url"], thumb_url=i["thumb_url"], source_page=i["source_page"], author=i["author"],
+            TeaImage(url=i["url"], thumb_url=i["thumb_url"], source_url=i.get("source_url"), kind=i.get("kind"),
+                     alt=i.get("alt") or card["name_en"], source_page=i["source_page"], author=i["author"],
                      license=i["license"], license_url=i["license_url"], is_primary=(n == 0), sort=n)
             for n, i in enumerate(extra.get("images", []))
         ]
@@ -443,7 +536,7 @@ def write_wiki_digest(card: dict, extra: dict) -> None:
         "slug": card["slug"], "name_en": card["name_en"], "wikipedia_title": card.get("wikipedia_title"),
         "wikipedia_scope": card["wikipedia_scope"], "wikipedia_url": extra.get("wikipedia_url"),
         "wikidata_id": extra.get("wikidata_id"), "summary": extra.get("summary"),
-        "images": [i["title"] for i in extra.get("images", [])],
+        "images": [i.get("title") for i in extra.get("images", [])],
     }
     (WIKI_CACHE / f"{card['slug']}.json").write_text(json.dumps(digest, ensure_ascii=False, indent=1))
 
@@ -458,6 +551,7 @@ def main(argv: list[str] | None = None) -> int:
     parser.add_argument("--no-network", action="store_true")
     parser.add_argument("--refresh", action="store_true", help="ignore the HTTP cache")
     parser.add_argument("--max-images", type=int, default=4)
+    parser.add_argument("--no-media", action="store_true", help="keep remote image URLs instead of local WebP copies")
     parser.add_argument("--dry-run", action="store_true", help="validate cards only")
     parser.add_argument("--database-url", help="override DATABASE_URL")
     args = parser.parse_args(argv)
@@ -473,11 +567,16 @@ def main(argv: list[str] | None = None) -> int:
     engine = make_engine(url)
     factory = make_session_factory(engine)
     http = Http(enabled=not args.no_network, refresh=args.refresh)
+    media_dir = Path(get_settings().media_dir)
+    if not media_dir.is_absolute():
+        media_dir = ROOT / media_dir
     created = updated = with_images = 0
     report = []
     with factory() as db:
         for n, card in enumerate(cards, 1):
             extra = enrich(http, card, args.max_images)
+            if not args.no_media:
+                extra["images"] = [localize_image(http, media_dir, card["slug"], image) for image in extra["images"]]
             write_wiki_digest(card, extra)
             tea, is_new = upsert(db, card, extra, network=not args.no_network)
             db.commit()

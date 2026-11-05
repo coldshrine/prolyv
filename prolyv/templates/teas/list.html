@@ -13,8 +13,9 @@
     </div>
   </div>
 
+  {% include "teas/_browse.html" %}
   <form class="teas-filters" method="get" action="{{ canonical }}" hx-get="{{ canonical }}" hx-trigger="input delay:300ms, change" hx-target="#tea-results" hx-select="#tea-results" hx-swap="outerHTML" hx-push-url="true" role="search">
-    <input type="search" name="q" value="{{ q }}" placeholder="Search by name, alias or region…" autocomplete="off" aria-label="Search teas">
+    <input type="search" name="q" value="{{ q }}" placeholder="Search in English, 中文 or по-русски" autocomplete="off" aria-label="Search teas">
     <select name="origin" aria-label="Origin">
       <option value="">Any origin</option>
       {% for key, name, count in countries %}<option value="{{ key }}"{% if key == origin %} selected{% endif %}>{{ name }} ({{ count }})</option>{% endfor %}

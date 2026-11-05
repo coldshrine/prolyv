@@ -550,3 +550,47 @@ input[type="email"]:focus { border-color: var(--pink); box-shadow: 0 0 0 3px rgb
 .admin-list li { display: flex; flex-wrap: wrap; align-items: center; gap: 4px 12px; padding: 10px 0; border-bottom: 1px solid rgba(255, 255, 255, 0.08); }
 .admin-list li > a:first-child { font-weight: 800; color: var(--fg); text-decoration: none; }
 .admin-list li > .muted { flex: 1 1 220px; }
+
+/* ---------------------------------------------------------------- The cup (design canvas component) */
+.cup { position: relative; display: inline-block; flex: none; border-radius: 50%; background: radial-gradient(circle at 38% 30%, #FFFFFF 0, #F1EBFF 50%, #C9BDF2 100%); }
+.cup-rim { position: absolute; inset: 7.9%; border-radius: 50%; background: #F8F4FF; }
+.cup-liquor { position: absolute; inset: 13.2%; border-radius: 50%; overflow: hidden; }
+.cup-swirl, .cup-layer { position: absolute; inset: 0; display: block; }
+.cup-swirl svg { position: absolute; inset: 0; width: 100%; height: 100%; }
+.cup-spin .cup-swirl { animation: prolyvSpin 24s linear infinite; }
+@media (prefers-reduced-motion: reduce) { .cup-spin .cup-swirl { animation: none; } }
+.login-cup { display: inline-flex; }
+
+/* ---------------------------------------------------------------- Encyclopedia */
+.browse-links { display: flex; flex-wrap: wrap; gap: 4px 16px; margin-top: 12px; font-weight: 800; font-size: 14px; }
+.browse-links a { color: var(--muted); text-decoration: none; }
+.browse-links a:hover, .browse-links a[aria-current] { color: var(--fg); }
+.browse-links a[aria-current] { border-bottom: 2px solid var(--pink); }
+.tea-names .name-zh { font-size: 22px; color: var(--fg); }
+.tea-names .name-ru { font-size: 18px; color: var(--fg); }
+.tea-names .name-native, .tea-names .romanized { font-size: 15px; }
+.tea-names { align-items: baseline; }
+.lang-switch { display: inline-flex; align-self: flex-start; padding: 3px; border-radius: 999px; background: rgba(255, 255, 255, 0.06); border: 1px solid rgba(255, 255, 255, 0.14); }
+.lang-switch a { padding: 4px 14px; border-radius: 999px; color: var(--muted); font-weight: 800; font-size: 13px; text-decoration: none; }
+.lang-switch a[aria-current] { background: #FFFFFF; color: var(--bg); }
+.swatches { display: flex; flex-wrap: wrap; gap: 14px; font-size: 13px; font-weight: 800; color: var(--muted); }
+.swatch { display: inline-flex; align-items: center; gap: 8px; }
+.swatch i { width: 22px; height: 22px; border-radius: 50%; border: 2px solid rgba(255, 255, 255, 0.3); }
+.tea-thumbs a[aria-current] img { border-color: var(--pink); }
+.sources { margin: 0; padding-left: 20px; font-size: 14px; overflow-wrap: anywhere; }
+.sources li { margin-bottom: 4px; }
+.facts a { color: inherit; }
+.type-grid { display: grid; grid-template-columns: 1fr; gap: 10px; margin-top: 16px; }
+.type-grid .card { margin-top: 0; }
+.type-card .type-blurb { display: block; margin-top: 2px; }
+.origin-list { display: flex; flex-direction: column; gap: 0; }
+.origin-list .h2 a { color: var(--fg); text-decoration: none; }
+.origin-regions { display: flex; flex-wrap: wrap; gap: 6px; margin: 0; }
+.az-letter { margin-top: 24px; }
+.az-list { list-style: none; margin: 8px 0 0; padding: 0; display: grid; grid-template-columns: 1fr; gap: 6px 24px; }
+.az-list a { color: var(--fg); font-weight: 700; text-decoration: none; }
+.az-list a:hover { color: var(--link); }
+@media (min-width: 768px) {
+  .type-grid { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+  .az-list { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+}

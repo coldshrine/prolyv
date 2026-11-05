@@ -63,6 +63,9 @@ def create_app(settings: Settings | None = None, google_transport=None) -> FastA
     app.add_middleware(RateLimitMiddleware, limiter=RateLimiter(settings.auth_rate_limit, settings.auth_rate_window))
 
     app.mount("/static", StaticFiles(directory=str(STATIC_DIR)), name="static")
+    media_dir = Path(settings.media_dir)
+    media_dir.mkdir(parents=True, exist_ok=True)
+    app.mount("/media", StaticFiles(directory=str(media_dir)), name="media")
     app.include_router(routes_auth.router)
     app.include_router(routes_account.router)
     app.include_router(routes_diary.router)  # before teas: owns /teas/suggest

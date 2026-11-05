@@ -36,6 +36,7 @@ def make_settings(tmp_path, **overrides) -> Settings:
     values = {
         "secret_key": "test-secret-key-test-secret-key-test-secret-key-0000",
         "database_url": f"sqlite:///{tmp_path}/test.db",
+        "media_dir": f"{tmp_path}/media",
         "base_url": "http://testserver",
         "telegram_bot_token": BOT_TOKEN,
         "telegram_bot_username": "prolyv_test_bot",

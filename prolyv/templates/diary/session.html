@@ -1,5 +1,5 @@
 {% extends "base.html" %}
-{% from "partials/macros.html" import avatar %}
+{% from "partials/macros.html" import avatar, cup %}
 {% block title %}{{ sess.tea_name }} · {{ sess.user.display_name }}'s diary · Prolyv{% endblock %}
 {% block head %}
 <meta property="og:type" content="article">
@@ -13,7 +13,7 @@
 {% block content %}
 <section class="hero">
   <div class="container session-hero">
-    <span class="cup-mark cup-{{ sess.category_key }} cup-lg" aria-hidden="true"></span>
+    {{ cup(sess.category_key, 180, sess.tea.liquor_hex if sess.tea else None, spin=True) }}
     <div class="session-hero-meta">
       <p class="eyebrow">{{ sess.brewed_at.strftime('%-d %B %Y') }} · {% if sess.is_public %}public session{% else %}private · only you can see this{% endif %}</p>
       <h1 class="display">{{ sess.tea_name }}</h1>

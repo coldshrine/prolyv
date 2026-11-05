@@ -1,0 +1,17 @@
+{% extends "base.html" %}
+{% block title %}All teas A–Z · Prolyv tea base{% endblock %}
+{% block head %}<link rel="canonical" href="{{ settings.base_url }}/teas/a-z"><meta name="description" content="All {{ total }} teas in the Prolyv base, A to Z.">{% endblock %}
+{% block content %}
+<section class="container">
+  <p class="eyebrow"><a href="/teas">Tea base</a> · {{ total }} teas</p>
+  <h1 class="h1">All teas A–Z</h1>
+  {% include "teas/_browse.html" %}
+  <nav class="chips" aria-label="Letters">{% for letter in letters %}<a class="chip" href="#letter-{{ letter }}">{{ letter }}</a>{% endfor %}</nav>
+  {% for letter, rows in letters.items() %}
+  <h2 class="h2 az-letter" id="letter-{{ letter }}">{{ letter }}</h2>
+  <ul class="az-list">
+    {% for row in rows %}<li><a href="/teas/{{ row.slug }}">{{ row.name_en }}</a>{% if row.name_zh %} <span class="muted small" lang="zh">{{ row.name_zh }}</span>{% endif %}{% if row.name_ru %} <span class="muted small" lang="ru">{{ row.name_ru }}</span>{% endif %}</li>{% endfor %}
+  </ul>
+  {% endfor %}
+</section>
+{% endblock %}

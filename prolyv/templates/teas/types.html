@@ -1,0 +1,19 @@
+{% extends "base.html" %}
+{% from "partials/macros.html" import cup %}
+{% block title %}Types of tea · Prolyv tea base{% endblock %}
+{% block head %}<link rel="canonical" href="{{ settings.base_url }}/teas/types"><meta name="description" content="Every type of tea in the Prolyv base: green, white, yellow, oolong, black, sheng and shu pu-erh, heicha and tisanes.">{% endblock %}
+{% block content %}
+<section class="container">
+  <p class="eyebrow"><a href="/teas">Tea base</a></p>
+  <h1 class="h1">Types of tea</h1>
+  {% include "teas/_browse.html" %}
+  <div class="type-grid">
+    {% for t in types %}
+    <a class="card card-link type-card" href="/teas/c/{{ t.key }}">
+      {{ cup(t.key, 64) }}
+      <span><span class="promo-title">{{ t.label }} <span class="muted small">{{ t.count }}</span></span><span class="muted small type-blurb">{{ t.blurb }}</span></span>
+    </a>
+    {% endfor %}
+  </div>
+</section>
+{% endblock %}

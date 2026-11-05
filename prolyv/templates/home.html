@@ -1,5 +1,5 @@
 {% extends "base.html" %}
-{% from "partials/macros.html" import feed_item, session_card, topic_card, post_card %}
+{% from "partials/macros.html" import feed_item, cup %}
 {% block content %}
 {% if not current_user %}
 <section class="hero">
@@ -29,7 +29,7 @@
 <section class="container">
   {% if not current_user %}
   <a class="card card-link tea-base-promo" href="/teas">
-    <span class="cup-mark cup-oolong" aria-hidden="true"></span>
+    {{ cup('oolong', 64) }}
     <span><span class="promo-title">Explore the tea base</span><span class="muted">{{ tea_count }} teas with photos, taste notes, brewing parameters and how each one is sold.</span></span>
     <span class="promo-arrow" aria-hidden="true">→</span>
   </a>

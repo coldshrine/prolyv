@@ -1,5 +1,5 @@
 {% extends "base.html" %}
-{% from "partials/macros.html" import session_card %}
+{% from "partials/macros.html" import session_card, cup %}
 {% block title %}My diary · Prolyv{% endblock %}
 {% block content %}
 <section class="hero">
@@ -45,7 +45,7 @@
       <ul class="shelf">
         {% for item in shelf %}
         <li>
-          <span class="cup-mark cup-{{ item.tea.category.value if item.tea else 'oolong' }} cup-xs" aria-hidden="true"></span>
+          {{ cup(item.tea.category.value if item.tea else 'oolong', 32, item.tea.liquor_hex if item.tea else None) }}
           <span class="shelf-name">{% if item.tea %}<a href="/teas/{{ item.tea.slug }}">{{ item.name }}</a>{% else %}{{ item.name }}{% endif %}</span>
           <span class="muted small">{{ item.count }}× · last {{ item.last.strftime('%-d %b') }}{% if item.avg %} · ★ {{ item.avg }}{% endif %}</span>
         </li>

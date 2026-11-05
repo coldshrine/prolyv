@@ -1,0 +1,18 @@
+{% extends "base.html" %}
+{% block title %}Tea by country and region · Prolyv tea base{% endblock %}
+{% block head %}<link rel="canonical" href="{{ settings.base_url }}/teas/origins"><meta name="description" content="Teas in the Prolyv base by country and region.">{% endblock %}
+{% block content %}
+<section class="container">
+  <p class="eyebrow"><a href="/teas">Tea base</a></p>
+  <h1 class="h1">By country and region</h1>
+  {% include "teas/_browse.html" %}
+  <div class="origin-list">
+    {% for c in countries %}
+    <section class="card">
+      <h2 class="h2"><a href="/teas/o/{{ c.key }}">{{ c.name }}</a> <span class="muted small">{{ c.count }}</span></h2>
+      {% if c.regions %}<p class="origin-regions">{% for r in c.regions %}<a class="chip" href="/teas/o/{{ r.key }}">{{ r.name }} <span class="count">{{ r.count }}</span></a>{% endfor %}</p>{% endif %}
+    </section>
+    {% endfor %}
+  </div>
+</section>
+{% endblock %}

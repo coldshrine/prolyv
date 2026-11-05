@@ -1,6 +1,8 @@
 <input type="hidden" name="csrf_token" value="{{ csrf_token }}">
 <div class="form-grid">
   <label class="field span-2"><span class="label">Name (English)</span><input name="name_en" value="{{ form.name_en or '' }}" maxlength="120" required>{% if errors.name_en %}<span class="field-error">{{ errors.name_en }}</span>{% endif %}</label>
+  <label class="field"><span class="label">Chinese name</span><input name="name_zh" value="{{ form.name_zh or '' }}" maxlength="120" placeholder="铁观音"></label>
+  <label class="field"><span class="label">Russian name</span><input name="name_ru" value="{{ form.name_ru or '' }}" maxlength="160" placeholder="Те Гуань Инь"></label>
   <label class="field"><span class="label">Native name</span><input name="name_native" value="{{ form.name_native or '' }}" maxlength="120" placeholder="铁观音"></label>
   <label class="field"><span class="label">Romanized</span><input name="name_romanized" value="{{ form.name_romanized or '' }}" maxlength="160" placeholder="Tiě Guānyīn"></label>
   <label class="field span-2"><span class="label">Aliases (comma-separated)</span><input name="aliases" value="{{ form.aliases or '' }}" placeholder="Iron Goddess of Mercy, TGY"></label>
@@ -29,6 +31,10 @@
   </fieldset>
   <label class="field span-2"><span class="label">Sold as · vintages</span><textarea name="vintage_note" rows="3" placeholder="How and in which years or seasons this tea is sold">{{ form.vintage_note or '' }}</textarea></label>
   <label class="field span-2"><span class="label">Description</span><textarea name="description" rows="8" required>{{ form.description or '' }}</textarea>{% if errors.description %}<span class="field-error">{{ errors.description }}</span>{% endif %}</label>
+  <label class="field span-2"><span class="label">History</span><textarea name="history" rows="5">{{ form.history or '' }}</textarea></label>
+  <label class="field"><span class="label">Liquor colour</span><input name="liquor_hex" value="{{ form.liquor_hex or '' }}" maxlength="7" placeholder="#C9963C">{% if errors.liquor_hex %}<span class="field-error">{{ errors.liquor_hex }}</span>{% endif %}</label>
+  <label class="field"><span class="label">Dry leaf colour</span><input name="leaf_hex" value="{{ form.leaf_hex or '' }}" maxlength="7" placeholder="#3B5D3A">{% if errors.leaf_hex %}<span class="field-error">{{ errors.leaf_hex }}</span>{% endif %}</label>
+  <label class="field span-2"><span class="label">Sources (one URL per line)</span><textarea name="sources" rows="3">{{ form.sources or '' }}</textarea></label>
   <label class="field span-2"><span class="label">Wikipedia URL</span><input name="wikipedia_url" value="{{ form.wikipedia_url or '' }}" placeholder="https://en.wikipedia.org/wiki/…">{% if errors.wikipedia_url %}<span class="field-error">{{ errors.wikipedia_url }}</span>{% endif %}</label>
   {% if is_admin %}<label class="field"><span class="label">Popularity 1–5</span><input name="popularity" value="{{ form.popularity or '3' }}" inputmode="numeric"></label>{% endif %}
 </div>

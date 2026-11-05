@@ -1,3 +1,7 @@
+{% macro cup(kind='oolong', size=72, hex=None, spin=False) -%}
+{% set c = cup_styles(kind, size, hex) %}<span class="cup{% if spin %} cup-spin{% endif %}" aria-hidden="true" style="width:{{ size }}px;height:{{ size }}px;box-shadow:{{ c.shadow }}"><span class="cup-rim" style="box-shadow:{{ c.rim }}"></span><span class="cup-liquor"><span class="cup-swirl" style="background:{{ c.swirl }}"><svg viewBox="0 0 100 100"><path d="M50 50 C 53.6 44.6, 60.7 44.6, 62.5 51.8 C 64.6 60.7, 53.6 67.9, 44.6 64.3 C 32.1 58.9, 33.9 41.1, 46.4 35.7 C 62.5 28.6, 78.6 41.1, 76.8 57.1 C 74.6 76.8, 51.8 83.9, 35.7 75" fill="none" stroke="rgba(255,255,255,0.5)" stroke-width="1.8" stroke-linecap="round"/><path d="M53.6 53.6 C 57.1 51.8, 58.9 55.4, 56.8 57.5" fill="none" stroke="rgba(255,255,255,0.7)" stroke-width="1.1" stroke-linecap="round"/></svg></span><span class="cup-layer" style="background:{{ c.core }}"></span><span class="cup-layer" style="background:{{ c.gloss }}"></span></span></span>
+{%- endmacro %}
+
 {% macro avatar(user, size=40) -%}
 {% if user.avatar_url %}<img class="avatar" src="{{ user.avatar_url }}" alt="" width="{{ size }}" height="{{ size }}" style="--size:{{ size }}px" referrerpolicy="no-referrer" loading="lazy">{% else %}<span class="avatar avatar-initials" style="--size:{{ size }}px" aria-hidden="true">{{ user.initials }}</span>{% endif %}
 {%- endmacro %}
@@ -5,12 +9,12 @@
 {% macro tea_card(tea) -%}
 <a class="tea-card" href="/teas/{{ tea.slug }}">
   <span class="tea-card-media" data-category="{{ tea.category.value }}">
-    {% if tea.primary_image %}<img src="{{ tea.primary_image.thumb_url or tea.primary_image.url }}" alt="" loading="lazy" referrerpolicy="no-referrer">{% else %}<span class="cup-mark cup-{{ tea.category.value }}" aria-hidden="true"></span>{% endif %}
+    {% if tea.primary_image %}<img src="{{ tea.primary_image.thumb_url or tea.primary_image.url }}" alt="" loading="lazy" referrerpolicy="no-referrer">{% else %}{{ cup(tea.category.value, 96, tea.liquor_hex) }}{% endif %}
     <span class="chip chip-cat chip-{{ tea.category.value }}">{{ tea.category_label }}</span>
   </span>
   <span class="tea-card-body">
     <span class="tea-card-name">{{ tea.name_en }}</span>
-    {% if tea.name_native %}<span class="tea-card-native">{{ tea.name_native }}</span>{% endif %}
+    {% if tea.name_zh or tea.name_ru or tea.name_native %}<span class="tea-card-native">{{ tea.name_zh or tea.name_native or '' }}{% if (tea.name_zh or tea.name_native) and tea.name_ru %} · {% endif %}{{ tea.name_ru or '' }}</span>{% endif %}
     <span class="tea-card-origin">{{ tea.origin_country }}{% if tea.origin_region %} · {{ tea.origin_region }}{% endif %}</span>
     {% if tea.taste_tags %}<span class="tags">{% for t in tea.taste_tags[:3] %}<span class="tag">{{ t }}</span>{% endfor %}</span>{% endif %}
   </span>
@@ -19,7 +23,7 @@
 
 {% macro session_card(sess, show_author=True) -%}
 <article class="session-card">
-  <span class="cup-mark cup-{{ sess.category_key }} cup-sm" aria-hidden="true"></span>
+  {{ cup(sess.category_key, 56, sess.tea.liquor_hex if sess.tea else None) }}
   <div class="session-card-body">
     <p class="session-date">{{ sess.brewed_at.strftime('%-d %b %Y') }}{% if not sess.is_public %} · <span class="badge-private">private</span>{% endif %}</p>
     <a class="session-title" href="/sessions/{{ sess.id }}">{{ sess.tea_name }}</a>

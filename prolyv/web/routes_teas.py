@@ -12,6 +12,7 @@ from fastapi.responses import RedirectResponse, Response
 from sqlalchemy import func, select
 
 from prolyv.handles import slugify
+from prolyv.web.cup import HEX_RE
 from prolyv.models import (
     CATEGORY_LABELS,
     FORM_LABELS,
@@ -21,6 +22,7 @@ from prolyv.models import (
     TeaForm,
     TeaImage,
     TeaStatus,
+    fold_text,
     origin_key,
     utcnow,
 )
@@ -43,8 +45,9 @@ def published() -> select:
 
 
 def apply_filters(stmt, q: str, category: str, origin: str, form: str):
-    for token in q.lower().split()[:6]:
-        stmt = stmt.where(Tea.search_text.like(f"%{token}%"))
+    for token in fold_text(q).split()[:6]:
+        escaped = token.replace("\\", "\\\\").replace("%", "\\%").replace("_", "\\_")
+        stmt = stmt.where(Tea.search_text.like(f"%{escaped}%", escape="\\"))
     if category:
         stmt = stmt.where(Tea.category == TeaCategory(category))
     if origin:
@@ -155,7 +158,7 @@ def tea_form_context(form: dict | None = None, errors: dict | None = None, tea: 
 
 def read_tea_form(data) -> tuple[dict, dict]:  # noqa: ANN001
     form = {k: (data.get(k) or "").strip() for k in (
-        "name_en", "name_native", "name_romanized", "aliases", "category", "origin_country", "origin_region",
+        "name_en", "name_native", "name_romanized", "name_zh", "name_ru", "history", "liquor_hex", "leaf_hex", "sources", "aliases", "category", "origin_country", "origin_region",
         "cultivar", "processing", "form", "harvest_season", "appearance_dry", "appearance_liquor", "appearance_wet",
         "taste_profile", "taste_tags", "vintage_note", "description", "wikipedia_url", "caffeine_level",
         "brew_grams", "brew_water_ml", "brew_temp_c", "brew_steeps", "brew_seconds", "brew_notes", "popularity",
@@ -173,6 +176,9 @@ def read_tea_form(data) -> tuple[dict, dict]:  # noqa: ANN001
         errors["description"] = "Tell us a little more (at least 40 characters)."
     if form["wikipedia_url"] and not form["wikipedia_url"].startswith("https://en.wikipedia.org/wiki/"):
         errors["wikipedia_url"] = "Use a link to the English Wikipedia article."
+    for key in ("liquor_hex", "leaf_hex"):
+        if form[key] and not HEX_RE.match(form[key]):
+            errors[key] = "Use a colour like #C9963C."
     return form, errors
 
 
@@ -180,6 +186,12 @@ def apply_tea_form(db, tea: Tea, form: dict) -> None:  # noqa: ANN001
     tea.name_en = form["name_en"]
     tea.name_native = form["name_native"] or None
     tea.name_romanized = form["name_romanized"] or None
+    tea.name_zh = form["name_zh"] or None
+    tea.name_ru = form["name_ru"] or None
+    tea.history = form["history"] or None
+    tea.liquor_hex = form["liquor_hex"] or None
+    tea.leaf_hex = form["leaf_hex"] or None
+    tea.sources = [u.strip() for u in form["sources"].splitlines() if u.strip().startswith(("http://", "https://"))]
     tea.category = TeaCategory(form["category"])
     tea.origin_country = form["origin_country"]
     tea.origin_region = form["origin_region"] or None
@@ -223,6 +235,8 @@ def form_from_tea(tea: Tea) -> dict:
     brewing = tea.brewing or {}
     return {
         "name_en": tea.name_en, "name_native": tea.name_native or "", "name_romanized": tea.name_romanized or "",
+        "name_zh": tea.name_zh or "", "name_ru": tea.name_ru or "", "history": tea.history or "",
+        "liquor_hex": tea.liquor_hex or "", "leaf_hex": tea.leaf_hex or "", "sources": "\n".join(tea.sources or []),
         "aliases": ", ".join(a.alias for a in tea.aliases), "category": tea.category.value,
         "origin_country": tea.origin_country, "origin_region": tea.origin_region or "", "cultivar": tea.cultivar or "",
         "processing": tea.processing or "", "form": tea.form.value, "harvest_season": tea.harvest_season or "",
@@ -240,37 +254,97 @@ def form_from_tea(tea: Tea) -> dict:
 # ------------------------------------------------------------------------------------------ the card
 
 
+CATEGORY_BLURBS = {
+    TeaCategory.green: "Unoxidised: the leaf is heated soon after picking to keep it fresh, grassy and sweet.",
+    TeaCategory.white: "Barely handled: withered and dried, from silver buds to big leaves and aged cakes.",
+    TeaCategory.yellow: "Green tea with an extra slow 'sealed yellowing' step that softens it.",
+    TeaCategory.oolong: "Partly oxidised, from floral high-mountain balls to dark charcoal-roasted rock tea.",
+    TeaCategory.black: "Fully oxidised: hong cha, Darjeeling, Assam, Ceylon and their blends.",
+    TeaCategory.sheng: "Raw pu-erh from Yunnan, sold by harvest year and able to age for decades.",
+    TeaCategory.shu: "Ripe pu-erh: pile-fermented, dark, smooth and ready to drink.",
+    TeaCategory.heicha: "Other post-fermented dark teas: Liu Bao, Fu brick, Anhua and Sichuan bricks.",
+    TeaCategory.tisane: "Not from the tea plant: herbs, flowers, roots and traditional blends.",
+}
+
+
+@router.get("/teas/types")
+def tea_types(request: Request, db: DbDep, user: CurrentUser):
+    counts = dict(db.execute(select(Tea.category, func.count()).where(Tea.status == TeaStatus.published).group_by(Tea.category)).all())
+    types = [{"key": c.value, "label": CATEGORY_LABELS[c], "blurb": CATEGORY_BLURBS[c], "count": counts.get(c, 0)} for c in TeaCategory]
+    return render(request, "teas/types.html", {"types": types})
+
+
+@router.get("/teas/origins")
+def tea_origins(request: Request, db: DbDep, user: CurrentUser):
+    rows = db.execute(select(Tea.origin_country, Tea.origin_region).where(Tea.status == TeaStatus.published)).all()
+    countries: dict[str, dict] = {}
+    for country, region in rows:
+        entry = countries.setdefault(country, {"name": country, "key": origin_key(country), "count": 0, "regions": {}})
+        entry["count"] += 1
+        for level in {part.strip() for part in (region or "").split("·") if part.strip()}:
+            reg = entry["regions"].setdefault(origin_key(level), {"name": level, "key": origin_key(level), "count": 0})
+            reg["count"] += 1
+    ordered = sorted(countries.values(), key=lambda c: (-c["count"], c["name"]))
+    for entry in ordered:
+        entry["regions"] = sorted(entry["regions"].values(), key=lambda r: (-r["count"], r["name"]))
+    return render(request, "teas/origins.html", {"countries": ordered})
+
+
+@router.get("/teas/a-z")
+def tea_a_to_z(request: Request, db: DbDep, user: CurrentUser):
+    rows = db.execute(
+        select(Tea.slug, Tea.name_en, Tea.name_zh, Tea.name_ru).where(Tea.status == TeaStatus.published).order_by(Tea.name_en)
+    ).all()
+    letters: dict[str, list] = {}
+    for row in rows:
+        first = fold_text(row.name_en)[:1].upper()
+        letters.setdefault(first if first.isalpha() else "#", []).append(row)
+    return render(request, "teas/a_z.html", {"letters": letters, "total": len(rows)})
+
+
+def absolute_url(settings, url: str | None) -> str | None:  # noqa: ANN001
+    if url and url.startswith("/"):
+        return f"{settings.base_url}{url}"
+    return url
+
+
 @router.get("/teas/{slug}")
-def tea_detail(request: Request, db: DbDep, settings: SettingsDep, user: CurrentUser, slug: str):
+def tea_detail(request: Request, db: DbDep, settings: SettingsDep, user: CurrentUser, slug: str, lang: str = "en"):
     tea = db.execute(select(Tea).where(Tea.slug == slug.lower())).scalar_one_or_none()
     if tea is None:
         raise HTTPException(status_code=404)
     is_admin = user is not None and settings.is_admin_handle(user.handle)
     if tea.status != TeaStatus.published and not is_admin:
         raise HTTPException(status_code=404)
+    languages = tea.languages
+    lang = lang if lang in languages else "en"
+    text = tea.localized(lang)
     related = db.execute(
         published().where(Tea.category == tea.category, Tea.id != tea.id).order_by(Tea.popularity.desc(), Tea.name_en).limit(4)
     ).scalars().all()
     image = tea.primary_image
+    page_url = f"{settings.base_url}/teas/{tea.slug}"
+    alternate = [a for a in [tea.name_zh, tea.name_ru, tea.name_native, tea.name_romanized, *[a.alias for a in tea.aliases]] if a]
+    summary = (text["taste_profile"] or (text["description_paragraphs"] or [tea.name_en])[0])[:300]
     jsonld = {
-        "@context": "https://schema.org", "@type": "Product", "name": tea.name_en,
-        "alternateName": [a.alias for a in tea.aliases][:5],
-        "description": (tea.taste_profile or tea.paragraphs[0] if tea.paragraphs else tea.name_en)[:300],
-        "category": tea.category_label, "url": f"{settings.base_url}/teas/{tea.slug}",
-        "countryOfOrigin": tea.origin_country,
+        "@context": "https://schema.org", "@type": "Article", "headline": tea.name_en, "about": {
+            "@type": "Thing", "name": tea.name_en, "alternateName": alternate[:8], "description": summary},
+        "description": summary, "url": page_url, "inLanguage": lang,
+        "dateModified": tea.updated_at.date().isoformat(), "publisher": {"@type": "Organization", "name": "Prolyv"},
     }
     if image:
-        jsonld["image"] = image.url
+        jsonld["image"] = absolute_url(settings, image.url)
     if tea.wikipedia_url:
-        jsonld["sameAs"] = [tea.wikipedia_url]
+        jsonld["about"]["sameAs"] = tea.wikipedia_url
     from prolyv.web.routes_diary import public_sessions_for_tea
 
     context = {
-        "tea": tea, "related": related, "image": image, "is_admin_view": is_admin,
-        "sessions": public_sessions_for_tea(db, tea.id),
-        "jsonld": json.dumps(jsonld, ensure_ascii=False),
-        "og": {"title": f"{tea.name_en} · Prolyv tea base", "description": (tea.taste_profile or "")[:200],
-               "image": image.thumb_url if image else None, "url": f"{settings.base_url}/teas/{tea.slug}"},
+        "tea": tea, "text": text, "lang": lang, "languages": languages, "related": related, "image": image, "is_admin_view": is_admin,
+        "sessions": public_sessions_for_tea(db, tea.id), "page_url": page_url,
+        "jsonld": json.dumps(jsonld, ensure_ascii=False).replace("</", "<\\/"),
+        "og": {"title": f"{tea.name_en} · Prolyv tea base", "description": summary[:200],
+               "image": absolute_url(settings, image.url) if image else None,
+               "url": page_url if lang == "en" else f"{page_url}?lang={lang}"},
     }
     return render(request, "teas/detail.html", context)
 
@@ -382,7 +456,11 @@ def admin_tea_image(request: Request, db: DbDep, settings: SettingsDep, signer: 
 def sitemap(db: DbDep, settings: SettingsDep):
     base = settings.base_url
     entries = [(f"{base}/", None), (f"{base}/teas", None), (f"{base}/login", None)]
+    entries += [(f"{base}/teas/types", None), (f"{base}/teas/origins", None), (f"{base}/teas/a-z", None)]
     entries += [(f"{base}/teas/c/{c.value}", None) for c in TeaCategory]
+    origin_rows = db.execute(select(Tea.origin_keys).where(Tea.status == TeaStatus.published)).scalars().all()
+    origins = sorted({key for row in origin_rows for key in row.split()})
+    entries += [(f"{base}/teas/o/{key}", None) for key in origins]
     rows = db.execute(select(Tea.slug, Tea.updated_at).where(Tea.status == TeaStatus.published).order_by(Tea.slug)).all()
     entries += [(f"{base}/teas/{slug}", updated) for slug, updated in rows]
     body = ['<?xml version="1.0" encoding="UTF-8"?>', '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">']

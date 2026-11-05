@@ -1,8 +1,10 @@
 {% extends "base.html" %}
-{% from "partials/macros.html" import session_card %}
-{% block title %}{{ tea.name_en }} · Prolyv tea base{% endblock %}
+{% from "partials/macros.html" import session_card, cup %}
+{% block title %}{{ tea.name_en }}{% if tea.name_zh %} ({{ tea.name_zh }}){% endif %} · Prolyv tea base{% endblock %}
 {% block head %}
 <link rel="canonical" href="{{ og.url }}">
+{% if languages|length > 1 %}{% for code in languages %}<link rel="alternate" hreflang="{{ code }}" href="{{ page_url }}{% if code != 'en' %}?lang={{ code }}{% endif %}">
+{% endfor %}<link rel="alternate" hreflang="x-default" href="{{ page_url }}">{% endif %}
 <meta name="description" content="{{ og.description }}">
 <meta property="og:type" content="article">
 <meta property="og:site_name" content="Prolyv">
@@ -18,18 +20,18 @@
   <div class="container tea-hero">
     <div class="tea-gallery">
       {% if image %}
-      <figure class="tea-photo">
-        <img src="{{ image.thumb_url or image.url }}" alt="{{ tea.name_en }}" referrerpolicy="no-referrer">
-        <figcaption>{{ image.credit }}{% if image.source_page %} · <a href="{{ image.source_page }}" rel="noopener nofollow" target="_blank">source</a>{% endif %}</figcaption>
+      <figure class="tea-photo" id="tea-photo">
+        <img id="tea-photo-img" src="{{ image.url }}" alt="{{ image.alt or tea.name_en }}" referrerpolicy="no-referrer">
+        <figcaption id="tea-photo-credit">{{ image.credit }}{% if image.source_page %} · <a href="{{ image.source_page }}" rel="noopener nofollow" target="_blank">source</a>{% endif %}</figcaption>
       </figure>
       {% if tea.images|length > 1 %}
-      <div class="tea-thumbs">
-        {% for im in tea.images %}<a href="{{ im.source_page or im.url }}" target="_blank" rel="noopener nofollow" title="{{ im.credit }}"><img src="{{ im.thumb_url or im.url }}" alt="" loading="lazy" referrerpolicy="no-referrer"></a>{% endfor %}
+      <div class="tea-thumbs" id="tea-thumbs">
+        {% for im in tea.images %}<a href="{{ im.url }}" data-full="{{ im.url }}" data-alt="{{ im.alt or tea.name_en }}" data-credit="{{ im.credit }}" data-source="{{ im.source_page or '' }}"{% if im.is_primary %} aria-current="true"{% endif %}><img src="{{ im.thumb_url or im.url }}" alt="{{ im.alt or tea.name_en }}" loading="lazy" referrerpolicy="no-referrer"></a>{% endfor %}
       </div>
       {% endif %}
       {% else %}
-      <div class="tea-photo tea-photo-empty" data-category="{{ tea.category.value }}">
-        <span class="cup-mark cup-{{ tea.category.value }} cup-lg" aria-hidden="true"></span>
+      <div class="tea-photo tea-photo-empty">
+        {{ cup(tea.category.value, 180, tea.liquor_hex, spin=True) }}
         <p class="muted small">No photo yet</p>
       </div>
       {% endif %}
@@ -37,11 +39,25 @@
     <div class="tea-meta">
       <p class="eyebrow"><a href="/teas/c/{{ tea.category.value }}">{{ tea.category_label }}</a>{% for label, key in tea.origin_parts %} · <a href="/teas/o/{{ key }}">{{ label }}</a>{% endfor %}</p>
       <h1 class="display">{{ tea.name_en }}</h1>
-      {% if tea.name_native or tea.name_romanized %}
-      <p class="tea-names">{% if tea.name_native %}<span class="native">{{ tea.name_native }}</span>{% endif %}{% if tea.name_romanized %}<span class="romanized">{{ tea.name_romanized }}</span>{% endif %}</p>
+      <p class="tea-names">
+        {% if tea.name_zh %}<span class="name-zh" lang="zh">{{ tea.name_zh }}</span>{% endif %}
+        {% if tea.name_ru %}<span class="name-ru" lang="ru">{{ tea.name_ru }}</span>{% endif %}
+        {% if tea.name_native and tea.name_native != tea.name_zh %}<span class="name-native">{{ tea.name_native }}</span>{% endif %}
+        {% if tea.name_romanized %}<span class="romanized">{{ tea.name_romanized }}</span>{% endif %}
+      </p>
+      {% if languages|length > 1 %}
+      <nav class="lang-switch" aria-label="Language of this card">
+        {% for code in languages %}<a href="/teas/{{ tea.slug }}{% if code != 'en' %}?lang={{ code }}{% endif %}"{% if code == lang %} aria-current="true"{% endif %}>{{ {'en': 'EN', 'ru': 'RU', 'zh': '中文'}[code] }}</a>{% endfor %}
+      </nav>
       {% endif %}
-      {% if tea.taste_profile %}<p class="lead">{{ tea.taste_profile }}</p>{% endif %}
+      {% if text.taste_profile %}<p class="lead" lang="{{ lang }}">{{ text.taste_profile }}</p>{% endif %}
       {% if tea.taste_tags %}<div class="tags">{% for t in tea.taste_tags %}<span class="tag">{{ t }}</span>{% endfor %}</div>{% endif %}
+      {% if tea.liquor_hex or tea.leaf_hex %}
+      <div class="swatches">
+        {% if tea.leaf_hex %}<span class="swatch"><i style="background:{{ tea.leaf_hex }}"></i>Leaf</span>{% endif %}
+        {% if tea.liquor_hex %}<span class="swatch"><i style="background:{{ tea.liquor_hex }}"></i>Liquor</span>{% endif %}
+      </div>
+      {% endif %}
       <div class="actions">
         <a class="btn btn-primary" href="{% if current_user %}/sessions/new?tea={{ tea.slug }}{% else %}/login?next=/sessions/new%3Ftea%3D{{ tea.slug }}{% endif %}">Log this tea</a>
         {% if tea.wikipedia_url %}<a class="btn btn-secondary" href="{{ tea.wikipedia_url }}" target="_blank" rel="noopener">Read more on Wikipedia</a>{% endif %}
@@ -53,38 +69,45 @@
 </section>
 
 <section class="container tea-body">
-  <div class="tea-main">
-    <ul class="facts">
-      <li><span class="fact-label">Category</span><span>{{ tea.category_label }}</span></li>
+  <div class="tea-main" lang="{{ lang }}">
+    <ul class="facts" lang="en">
+      <li><span class="fact-label">Category</span><span><a href="/teas/c/{{ tea.category.value }}">{{ tea.category_label }}</a></span></li>
       <li><span class="fact-label">Origin</span><span>{{ tea.origin_country }}{% if tea.origin_region %} · {{ tea.origin_region }}{% endif %}</span></li>
       <li><span class="fact-label">Form</span><span>{{ tea.form_label }}</span></li>
       {% if tea.cultivar %}<li><span class="fact-label">Cultivar</span><span>{{ tea.cultivar }}</span></li>{% endif %}
-      {% if tea.harvest_season %}<li><span class="fact-label">Harvest</span><span>{{ tea.harvest_season }}</span></li>{% endif %}
       {% if tea.caffeine_level %}<li><span class="fact-label">Caffeine</span><span>{{ tea.caffeine_level|capitalize }}</span></li>{% endif %}
     </ul>
+    {% if text.harvest_season %}<h2 class="h2">Harvest</h2><p>{{ text.harvest_season }}</p>{% endif %}
+    {% if text.processing %}<h2 class="h2">How it’s made</h2><p>{{ text.processing }}</p>{% endif %}
 
-    {% if tea.processing %}
-    <h2 class="h2">How it’s made</h2>
-    <p>{{ tea.processing }}</p>
-    {% endif %}
-
-    {% if tea.appearance_dry or tea.appearance_liquor or tea.appearance_wet %}
+    {% if text.appearance_dry or text.appearance_liquor or text.appearance_wet %}
     <h2 class="h2">What it looks like</h2>
     <dl class="looks">
-      {% if tea.appearance_dry %}<div><dt>Dry leaf</dt><dd>{{ tea.appearance_dry }}</dd></div>{% endif %}
-      {% if tea.appearance_liquor %}<div><dt>Liquor</dt><dd>{{ tea.appearance_liquor }}</dd></div>{% endif %}
-      {% if tea.appearance_wet %}<div><dt>Wet leaf</dt><dd>{{ tea.appearance_wet }}</dd></div>{% endif %}
+      {% if text.appearance_dry %}<div><dt>Dry leaf</dt><dd>{{ text.appearance_dry }}</dd></div>{% endif %}
+      {% if text.appearance_liquor %}<div><dt>Liquor</dt><dd>{{ text.appearance_liquor }}</dd></div>{% endif %}
+      {% if text.appearance_wet %}<div><dt>Wet leaf</dt><dd>{{ text.appearance_wet }}</dd></div>{% endif %}
     </dl>
     {% endif %}
 
-    {% if tea.vintage_note %}
+    {% if text.vintage_note %}
     <h2 class="h2">Sold as · vintages</h2>
-    <div class="card vintage"><p>{{ tea.vintage_note }}</p></div>
+    <div class="card vintage"><p>{{ text.vintage_note }}</p></div>
     {% endif %}
 
     <h2 class="h2">About {{ tea.name_en }}</h2>
-    <div class="prose">{% for p in tea.paragraphs %}<p>{{ p }}</p>{% endfor %}</div>
+    <div class="prose">{% for p in text.description_paragraphs %}<p>{{ p }}</p>{% endfor %}</div>
     {% if tea.aliases %}<p class="muted small">Also known as: {{ tea.aliases|map(attribute='alias')|join(', ') }}</p>{% endif %}
+
+    {% if text.history_paragraphs %}
+    <h2 class="h2">History</h2>
+    <div class="prose">{% for p in text.history_paragraphs %}<p>{{ p }}</p>{% endfor %}</div>
+    {% endif %}
+    {% if tea.confidence == 'low' %}<p class="muted small">This tea is thinly documented, so treat the details as approximate.</p>{% endif %}
+
+    {% if tea.sources %}
+    <h2 class="h2">Sources</h2>
+    <ul class="sources">{% for url in tea.sources %}<li><a href="{{ url }}" target="_blank" rel="noopener nofollow">{{ url|replace('https://', '')|replace('http://', '')|truncate(70, True) }}</a></li>{% endfor %}</ul>
+    {% endif %}
 
     <h2 class="h2" id="sessions">Sessions with this tea</h2>
     {% if sessions %}
@@ -108,7 +131,7 @@
         {% if tea.brewing.steeps %}<li><span class="brew-value">{{ tea.brewing.steeps }}</span><span class="brew-label">steeps</span></li>{% endif %}
       </ul>
       {% if tea.brewing.seconds %}<p class="brew-steeps">{% for s in tea.brewing.seconds %}<span class="tag">{{ loop.index }} · {{ s }}s</span>{% endfor %}</p>{% endif %}
-      {% if tea.brewing.notes %}<p class="muted small">{{ tea.brewing.notes }}</p>{% endif %}
+      {% if text.brewing_notes %}<p class="muted small" lang="{{ lang }}">{{ text.brewing_notes }}</p>{% endif %}
     </section>
     {% endif %}
     {% if related %}

@@ -9,6 +9,7 @@ from jinja2 import Environment, FileSystemLoader, select_autoescape
 from starlette.templating import Jinja2Templates
 
 from prolyv import __version__
+from prolyv.web.cup import cup_styles
 from prolyv.web.deps import csrf_token_for
 from prolyv.web.flash import pop_flash
 from prolyv.web.useragent import is_in_app_browser
@@ -20,6 +21,7 @@ jinja_env = Environment(
     trim_blocks=True,
     lstrip_blocks=True,
 )
+jinja_env.globals["cup_styles"] = cup_styles
 templates = Jinja2Templates(env=jinja_env)
 
 

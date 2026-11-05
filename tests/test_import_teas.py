@@ -120,6 +120,52 @@ def test_upsert_is_idempotent_and_respects_locked_cards(app, db):
     assert tea3.name_en == "Sencha (updated)"  # admin edits win over the card file
 
 
+def test_curated_images_skip_the_search_and_get_local_webp_copies(tmp_path):
+    from io import BytesIO
+
+    from PIL import Image
+
+    class FakeHttp:
+        calls = 0
+
+        def get_json(self, url, params=None):
+            text = url + str(params)
+            assert "list" not in str(params or {}) and "imageinfo" not in text, "automatic photo search must not run"
+            return {"query": {"pages": [{"title": "Sencha", "fullurl": "https://en.wikipedia.org/wiki/Sencha", "images": []}]}} if "api.php" in url else None
+
+        def get_bytes(self, url):
+            FakeHttp.calls += 1
+            buffer = BytesIO()
+            Image.new("RGB", (2000, 1000), "green").save(buffer, "JPEG", exif=b"Exif\x00\x00secret")
+            return buffer.getvalue()
+
+    card = dict(CARD, images=[
+        {"url": "https://u/a.jpg", "source_page": "https://c/a", "author": "<b>Ann</b>", "license": "CC BY 4.0", "kind": "dry_leaf", "alt": "Dry sencha"},
+        {"url": "https://u/shop.jpg", "license": "All rights reserved"},
+    ])
+    http = FakeHttp()
+    extra = import_teas.enrich(http, card, max_images=4)
+    assert [i["url"] for i in extra["images"]] == ["https://u/a.jpg"] and extra["images"][0]["author"] == "Ann"
+
+    local = import_teas.localize_image(http, tmp_path, "sencha", extra["images"][0])
+    assert local["url"].startswith("/media/teas/sencha/") and local["url"].endswith("-1200.webp") and local["thumb_url"].endswith("-400.webp")
+    with Image.open(tmp_path / local["url"].removeprefix("/media/")) as big:
+        assert big.format == "WEBP" and big.size == (1200, 600) and not big.getexif()
+    with Image.open(tmp_path / local["thumb_url"].removeprefix("/media/")) as small:
+        assert small.size == (400, 200)
+    import_teas.localize_image(http, tmp_path, "sencha", extra["images"][0])
+    assert FakeHttp.calls == 1  # files on disk are reused
+
+
+def test_upsert_stores_encyclopedia_fields(app, db):
+    card = dict(CARD, name_zh="煎茶", name_ru="Сенча", history="Paragraph.", liquor_hex="#B5C96A", leaf_hex="bad", confidence="high",
+                sources=["https://en.wikipedia.org/wiki/Sencha", "javascript:alert(1)"], i18n={"ru": {"description": "Описание."}})
+    tea, _ = import_teas.upsert(db, card, {"images": []}, network=False)
+    db.commit()
+    assert tea.name_zh == "煎茶" and tea.liquor_hex == "#B5C96A" and tea.leaf_hex is None and tea.languages == ["en", "ru"]
+    assert tea.sources == ["https://en.wikipedia.org/wiki/Sencha"] and "сенча" in tea.search_text and "煎茶" in tea.search_text
+
+
 def test_dry_run_on_the_real_catalog_folder():
     cards, errors = import_teas.load_cards(None, None)
     assert isinstance(cards, list)

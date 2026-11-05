@@ -19,6 +19,8 @@ dependencies = [
     "pydantic-settings>=2.3",
     "markdown-it-py>=3",
     "bleach>=6",
+    "pillow>=10",
+    "nh3>=0.2",
 ]
 
 [dependency-groups]

@@ -174,6 +174,8 @@ class Tea(Base):
     name_en: Mapped[str] = mapped_column(String(120))
     name_native: Mapped[str | None] = mapped_column(String(120))
     name_romanized: Mapped[str | None] = mapped_column(String(160))
+    name_zh: Mapped[str | None] = mapped_column(String(120))
+    name_ru: Mapped[str | None] = mapped_column(String(160))
     category: Mapped[TeaCategory] = mapped_column(
         Enum(TeaCategory, name="tea_category", native_enum=False, length=16), index=True
     )
@@ -193,6 +195,12 @@ class Tea(Base):
     caffeine_level: Mapped[str | None] = mapped_column(String(10))
     vintage_note: Mapped[str | None] = mapped_column(Text)
     description: Mapped[str] = mapped_column(Text, default="")
+    history: Mapped[str | None] = mapped_column(Text)
+    liquor_hex: Mapped[str | None] = mapped_column(String(7))
+    leaf_hex: Mapped[str | None] = mapped_column(String(7))
+    confidence: Mapped[str | None] = mapped_column(String(10))
+    sources: Mapped[list] = mapped_column(JSON, default=list)
+    i18n: Mapped[dict] = mapped_column(JSON, default=dict)
     wikipedia_url: Mapped[str | None] = mapped_column(String(500))
     wikidata_id: Mapped[str | None] = mapped_column(String(20))
     popularity: Mapped[int] = mapped_column(Integer, default=3)
@@ -237,12 +245,43 @@ class Tea(Base):
     def paragraphs(self) -> list[str]:
         return [p.strip() for p in (self.description or "").split("\n\n") if p.strip()]
 
+    @property
+    def languages(self) -> list[str]:
+        """Text languages available on the card; 'en' is the base text, the switcher shows only when there are more."""
+        translated = [lang for lang in ("ru", "zh") if (self.i18n or {}).get(lang, {}).get("description")]
+        return ["en", *translated]
+
+    def localized(self, lang: str = "en") -> dict:
+        """The card's long-form text in one language, falling back to English field by field."""
+        base = {
+            "processing": self.processing, "harvest_season": self.harvest_season, "appearance_dry": self.appearance_dry,
+            "appearance_liquor": self.appearance_liquor, "appearance_wet": self.appearance_wet,
+            "taste_profile": self.taste_profile, "vintage_note": self.vintage_note, "history": self.history,
+            "description": self.description, "brewing_notes": (self.brewing or {}).get("notes"),
+        }
+        if lang != "en":
+            base.update({k: v for k, v in (self.i18n or {}).get(lang, {}).items() if k in base and v})
+        split = lambda text: [p.strip() for p in (text or "").split("\n\n") if p.strip()]  # noqa: E731
+        base["description_paragraphs"] = split(base["description"])
+        base["history_paragraphs"] = split(base["history"])
+        return base
+
     def refresh_search_text(self) -> None:
-        bits = [self.name_en, self.name_native, self.name_romanized, self.origin_country, self.origin_region,
-                self.category.value, self.cultivar, *[a.alias for a in self.aliases]]
-        self.search_text = " ".join(b.lower() for b in bits if b)
+        names = [self.name_en, self.name_native, self.name_romanized, self.name_zh, self.name_ru, *[a.alias for a in self.aliases]]
+        bits = [*names, self.origin_country, self.origin_region, self.category.value, self.category_label, self.cultivar]
+        text = " ".join(b for b in bits if b)
+        compact = " ".join(n.replace(" ", "").replace("-", "") for n in names if n and (" " in n or "-" in n))
+        self.search_text = fold_text(f"{text} {compact}")
         keys = [key for _, key in self.origin_parts]
         self.origin_keys = " " + " ".join(keys) + " "
+
+
+def fold_text(text: str) -> str:
+    """Lowercase without diacritics: 'Tiě Guānyīn' -> 'tie guanyin', 'Чёрный' -> 'черныи'. Keeps CJK and Cyrillic."""
+    import unicodedata
+
+    decomposed = unicodedata.normalize("NFKD", text.lower())
+    return "".join(ch for ch in decomposed if unicodedata.category(ch) != "Mn")
 
 
 def origin_key(label: str) -> str:
@@ -261,6 +300,9 @@ class TeaImage(Base):
     tea_id: Mapped[uuid.UUID] = mapped_column(ForeignKey("teas.id", ondelete="CASCADE"), index=True)
     url: Mapped[str] = mapped_column(String(1000))
     thumb_url: Mapped[str | None] = mapped_column(String(1000))
+    source_url: Mapped[str | None] = mapped_column(String(1000))  # the original file, before it was re-encoded here
+    kind: Mapped[str | None] = mapped_column(String(20))
+    alt: Mapped[str | None] = mapped_column(String(300))
     source_page: Mapped[str | None] = mapped_column(String(1000))
     author: Mapped[str | None] = mapped_column(String(300))
     license: Mapped[str | None] = mapped_column(String(80))

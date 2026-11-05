@@ -1,4 +1,5 @@
 {% extends "base.html" %}
+{% from "partials/macros.html" import cup %}
 {% block title %}Log in · Prolyv{% endblock %}
 {% block body_class %}login-body{% endblock %}
 {% block topbar %}{% endblock %}
@@ -8,7 +9,7 @@
   <section class="login-brand" aria-label="About Prolyv">
     <a class="brand" href="/"><span class="brand-mark" aria-hidden="true"></span><span class="brand-name">Prolyv</span></a>
     <div class="login-brand-body">
-      <div class="cup" aria-hidden="true"></div>
+      <span class="login-cup">{{ cup('oolong', 220, spin=True) }}</span>
       <h2 class="login-tagline">Every steep, in your diary</h2>
       <ul class="login-points">
         <li>Log a session in 30 seconds</li>
