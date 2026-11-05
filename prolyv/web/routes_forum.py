@@ -3,6 +3,7 @@
 from __future__ import annotations
 
 import uuid
+from urllib.parse import urlencode
 
 from fastapi import APIRouter, Depends, Form, HTTPException, Request
 from fastapi.responses import RedirectResponse
@@ -76,11 +77,17 @@ def list_topics(request: Request, db, user, section: ForumSection | None, q: str
         topics.sort(key=lambda t: order.get(t.id, 999))
         topics = topics[(page - 1) * PAGE_SIZE : page * PAGE_SIZE]
     else:
-        stmt = stmt.order_by(Topic.pinned.desc(), func.coalesce(Topic.last_reply_at, Topic.created_at).desc())
+        stmt = stmt.order_by(Topic.pinned.desc(), func.coalesce(Topic.last_reply_at, Topic.created_at).desc(), Topic.id)
         topics = db.execute(stmt.offset((page - 1) * PAGE_SIZE).limit(PAGE_SIZE)).scalars().all()
     counts = dict(db.execute(select(Topic.section_id, func.count()).where(Topic.hidden.is_(False)).group_by(Topic.section_id)).all())
     sections = [(s, counts.get(s.id, 0)) for s in all_sections(db)]
-    context = {"topics": topics, "sections": sections, "section": section, "q": q, "page": page, "pages": pages, "total": total}
+    base = f"/discussions/s/{section.slug}" if section else "/discussions"
+
+    def page_url(n: int) -> str:
+        return f"{base}?{urlencode({**({'q': q} if q else {}), 'page': n})}"
+
+    context = {"topics": topics, "sections": sections, "section": section, "q": q, "page": page, "pages": pages, "total": total,
+               "page_url": page_url, "shown": min(page * PAGE_SIZE, total)}
     return render(request, "forum/index.html", context)
 
 
@@ -263,8 +270,12 @@ def topic_delete(request: Request, db: DbDep, settings: SettingsDep, signer: Sig
     return response
 
 
-def topics_for_user(db, user_id: uuid.UUID, limit: int = 5) -> list[Topic]:  # noqa: ANN001
-    return db.execute(topic_query().where(Topic.user_id == user_id, Topic.hidden.is_(False)).order_by(Topic.created_at.desc()).limit(limit)).scalars().all()
+def topics_for_user(db, user_id: uuid.UUID, limit: int = 5, offset: int = 0) -> list[Topic]:  # noqa: ANN001
+    return db.execute(topic_query().where(Topic.user_id == user_id, Topic.hidden.is_(False)).order_by(Topic.created_at.desc(), Topic.id).offset(offset).limit(limit)).scalars().all()
+
+
+def topic_count_for_user(db, user_id: uuid.UUID) -> int:  # noqa: ANN001
+    return db.scalar(select(func.count()).select_from(Topic).where(Topic.user_id == user_id, Topic.hidden.is_(False))) or 0
 
 
 def helpful_reply_count(db, user_id: uuid.UUID) -> int:  # noqa: ANN001

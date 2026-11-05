@@ -6,7 +6,7 @@ import uuid
 
 from fastapi import APIRouter, Depends, Form, HTTPException, Request
 from fastapi.responses import RedirectResponse
-from sqlalchemy import func, select
+from sqlalchemy import func, select, update
 from sqlalchemy.orm import selectinload
 
 from prolyv.auth.accounts import get_user_by_handle, purge_sessions
@@ -59,17 +59,21 @@ def follow_toggle(request: Request, db: DbDep, user: RequiredUser, handle: str):
 # ---------------------------------------------------------------------------------------------- notifications
 
 
+NOTIFICATION_PAGE = 30
+
+
 @router.get("/notifications")
-def notifications_page(request: Request, db: DbDep, user: RequiredUser):
+def notifications_page(request: Request, db: DbDep, user: RequiredUser, page: int = 1):
+    page = max(1, page)
     rows = db.execute(
         select(Notification).options(selectinload(Notification.actor)).where(Notification.user_id == user.id)
-        .order_by(Notification.created_at.desc()).limit(100)
+        .order_by(Notification.created_at.desc(), Notification.id).offset((page - 1) * NOTIFICATION_PAGE).limit(NOTIFICATION_PAGE + 1)
     ).scalars().all()
-    response = render(request, "social/notifications.html", {"notifications": rows, "had_unread": {n.id for n in rows if n.read_at is None}})
-    now = utcnow()
-    for row in rows:
-        if row.read_at is None:
-            row.read_at = now
+    context = {"notifications": rows[:NOTIFICATION_PAGE], "had_unread": {n.id for n in rows if n.read_at is None},
+               "next_url": f"/notifications?page={page + 1}" if len(rows) > NOTIFICATION_PAGE else None}
+    response = render(request, "social/notifications.html", context)
+    # opening the page clears the badge, however long the list is
+    db.execute(update(Notification).where(Notification.user_id == user.id, Notification.read_at.is_(None)).values(read_at=utcnow()))
     return response
 
 
@@ -96,14 +100,18 @@ def saved_toggle(request: Request, db: DbDep, user: RequiredUser, kind: str = Fo
 
 @router.get("/saved")
 def saved_page(request: Request, db: DbDep, user: RequiredUser):
+    from prolyv.web.routes_diary import session_query
+    from prolyv.web.routes_forum import topic_query
+    from prolyv.web.routes_teas import CARD_OPTIONS
+
     items = db.execute(select(SavedItem).where(SavedItem.user_id == user.id).order_by(SavedItem.created_at.desc())).scalars().all()
     ids = {kind: [i.ref_id for i in items if i.kind == kind] for kind in SAVE_KINDS}
-    teas = db.execute(select(Tea).where(Tea.id.in_(ids["tea"]), Tea.status == TeaStatus.published)).scalars().all()
-    sessions = db.execute(select(TeaSession).where(
+    teas = db.execute(select(Tea).options(*CARD_OPTIONS).where(Tea.id.in_(ids["tea"]), Tea.status == TeaStatus.published)).scalars().all()
+    sessions = db.execute(session_query().where(
         TeaSession.id.in_(ids["session"]), TeaSession.hidden.is_(False),
         (TeaSession.visibility == Visibility.public) | (TeaSession.user_id == user.id),
     )).scalars().all()
-    topics = db.execute(select(Topic).where(Topic.id.in_(ids["topic"]), Topic.hidden.is_(False))).scalars().all()
+    topics = db.execute(topic_query().where(Topic.id.in_(ids["topic"]), Topic.hidden.is_(False))).scalars().all()
     posts = db.execute(select(Post).where(Post.id.in_(ids["post"]), Post.published_at.is_not(None))).scalars().all()
     return render(request, "social/saved.html", {"teas": teas, "sessions": sessions, "topics": topics, "posts": posts})
 

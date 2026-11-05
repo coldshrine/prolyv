@@ -48,7 +48,7 @@ def test_create_session_with_steeps_and_view_it(client, db):
     assert "Keep steep six short." in page
 
     diary = client.get("/diary").text
-    assert "Tie Guan Yin" in diary and "Last 30 days" in diary and "Cups calendar" in diary and "Shelf" in diary
+    assert "Tie Guan Yin" in diary and "Your sessions" in diary and "Cups calendar" in diary and "Shelf" in diary
     assert "1 session logged" in diary
 
 
@@ -330,3 +330,35 @@ def test_story_files_are_not_served_from_media(client, tmp_path, settings):
     folder.mkdir(parents=True)
     (folder / "abc-1.png").write_bytes(b"x")
     assert client.get("/media/stories/abc-1.png").status_code == 404
+
+
+def test_diary_reaches_every_session_page_by_page(client, db):
+    from datetime import datetime, timedelta
+
+    from prolyv.models import User
+
+    telegram_login(client, username="olena_tea")
+    user = db.execute(select(User).where(User.handle == "olena_tea")).scalar_one()
+    start = datetime(2024, 1, 1, 12)
+    for n in range(65):
+        db.add(TeaSession(user_id=user.id, tea_name=f"Tea{n:02}x", brewed_at=start + timedelta(days=n // 40)))
+    db.commit()
+
+    seen = []
+    url = "/diary"
+    for _ in range(5):
+        page = client.get(url).text
+        seen += re.findall(r"Tea\d\dx", page.split('class="diary-side"')[0])
+        found = re.search(r'href="(/diary\?page=\d+)"', page)
+        if not found:
+            break
+        url = found.group(1)
+    assert len(seen) == 65 and len(set(seen)) == 65
+    assert url == "/diary?page=3"
+    assert client.get("/diary?page=2").text.count("Show more") == 1
+
+    # the day split between the first two pages has one heading only
+    first, second = client.get("/diary").text, client.get("/diary?page=2").text
+    heading = "2 January 2024" if "2 January 2024" in first else "January 2024"
+    assert heading in first
+    assert second.count('class="day-label"') + first.count('class="day-label"') == 2

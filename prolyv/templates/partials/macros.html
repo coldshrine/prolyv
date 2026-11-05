@@ -7,11 +7,11 @@
 {%- endmacro %}
 
 {# Goes last inside a .more-list. The next page's items and its own button replace this block; without JS it is a plain link. #}
-{% macro show_more(url, note=None) -%}
-<div class="show-more">
-  <a class="btn btn-secondary btn-sm" href="{{ url }}" hx-get="{{ url }}" hx-target="closest .show-more" hx-swap="outerHTML" hx-select=".more-list > *" hx-push-url="false">Show more</a>
+{% macro show_more(url, note=None, list=".more-list", tag="div") -%}
+<{{ tag }} class="show-more">
+  <a class="btn btn-secondary btn-sm" href="{{ url }}" hx-get="{{ url }}" hx-target="closest .show-more" hx-swap="outerHTML" hx-select="{{ list }} > *" hx-push-url="false">Show more</a>
   {% if note %}<span class="muted small">{{ note }}</span>{% endif %}
-</div>
+</{{ tag }}>
 {%- endmacro %}
 
 {% macro tea_card(tea) -%}

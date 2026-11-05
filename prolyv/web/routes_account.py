@@ -31,11 +31,13 @@ from prolyv.web.deps import CurrentUser, DbDep, RequiredUser, SettingsDep, Signe
 from prolyv.web.flash import set_flash
 from prolyv.web.routes_auth import PROVIDER_NAMES, set_telegram_intent
 from prolyv.web.routes_diary import public_session_count, public_sessions_for_user
-from prolyv.web.routes_forum import helpful_reply_count, topics_for_user
+from prolyv.web.routes_forum import helpful_reply_count, topic_count_for_user, topics_for_user
 from prolyv.web.templating import render
 
 router = APIRouter()
 
+PROFILE_SESSIONS = 20
+PROFILE_TOPICS = 10
 AVATAR_FIELD = {Provider.google: "picture", Provider.telegram: "photo_url"}
 
 
@@ -214,17 +216,23 @@ def settings_delete(
 
 
 @router.get("/u/{handle}")
-def profile_page(request: Request, db: DbDep, handle: str, current_user: CurrentUser):
+def profile_page(request: Request, db: DbDep, handle: str, current_user: CurrentUser, page: int = 1, topics_page: int = 1):
     user = get_user_by_handle(db, normalize_handle(handle))
     if user is None:
         raise HTTPException(status_code=404)
+    session_count = public_session_count(db, user.id)
+    topic_count = topic_count_for_user(db, user.id)
+    page = min(max(1, page), max(1, (session_count + PROFILE_SESSIONS - 1) // PROFILE_SESSIONS))
+    topics_page = min(max(1, topics_page), max(1, (topic_count + PROFILE_TOPICS - 1) // PROFILE_TOPICS))
     context = {
         "profile": user,
+        "next_sessions": f"/u/{user.handle}?page={page + 1}" if session_count > page * PROFILE_SESSIONS else None,
+        "next_topics": f"/u/{user.handle}?topics_page={topics_page + 1}" if topic_count > topics_page * PROFILE_TOPICS else None,
         "is_me": current_user is not None and current_user.id == user.id,
         "joined": user.created_at.strftime("%B %Y"),
-        "sessions": public_sessions_for_user(db, user.id),
-        "session_count": public_session_count(db, user.id),
-        "topics": topics_for_user(db, user.id),
+        "sessions": public_sessions_for_user(db, user.id, PROFILE_SESSIONS, (page - 1) * PROFILE_SESSIONS),
+        "session_count": session_count,
+        "topics": topics_for_user(db, user.id, PROFILE_TOPICS, (topics_page - 1) * PROFILE_TOPICS),
         "helpful_count": helpful_reply_count(db, user.id),
         "following": is_following(db, current_user, user.id),
         "follower_count": follow_counts(db, user.id)[0],

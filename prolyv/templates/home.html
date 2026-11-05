@@ -1,5 +1,5 @@
 {% extends "base.html" %}
-{% from "partials/macros.html" import feed_item, cup %}
+{% from "partials/macros.html" import feed_item, cup, show_more %}
 {% block content %}
 {% if not current_user %}
 <section class="hero">
@@ -39,7 +39,7 @@
     {% for key, label in tabs %}<a class="chip{% if key == tab %} chip-on{% endif %}" href="/?tab={{ key }}">{{ label }}</a>{% endfor %}
   </nav>
   {% if feed %}
-  <div class="feed">{% for item in feed %}{{ feed_item(item) }}{% endfor %}</div>
+  <div class="feed more-list">{% for item in feed %}{{ feed_item(item) }}{% endfor %}{% if next_url %}{{ show_more(next_url) }}{% endif %}</div>
   {% else %}
   <div class="card empty"><p class="empty-title">Quiet for now</p><p class="muted">{% if tab == 'following' %}Follow people on their profile pages and their sessions and topics will appear here.{% else %}Public sessions, discussions and blog posts will appear here.{% endif %}</p></div>
   {% endif %}

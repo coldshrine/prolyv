@@ -11,9 +11,10 @@ from pathlib import Path
 from fastapi import APIRouter, Depends, Form, HTTPException, Request
 from fastapi.responses import FileResponse, RedirectResponse, Response
 from sqlalchemy import func, select
-from sqlalchemy.orm import selectinload
+from sqlalchemy.orm import load_only, selectinload
 
 from prolyv.models import (
+    CATEGORY_LABELS,
     SESSION_TASTE_TAGS,
     VESSELS,
     Post,
@@ -42,7 +43,8 @@ PHOTO_FILE = re.compile(r"[0-9a-f]{32}-(?:1200|400)\.webp")
 
 
 def session_query():
-    return select(TeaSession).options(selectinload(TeaSession.steeps), selectinload(TeaSession.tea), selectinload(TeaSession.user), selectinload(TeaSession.photos))
+    return select(TeaSession).options(selectinload(TeaSession.steeps), selectinload(TeaSession.tea), selectinload(TeaSession.user),
+                                      selectinload(TeaSession.photos), selectinload(TeaSession.comments))
 
 
 def public_sessions():
@@ -455,44 +457,68 @@ def week_grid(counts: dict[date, int], weeks: int = 12) -> list[list[dict]]:
     return grid
 
 
-@router.get("/diary")
-def diary(request: Request, db: DbDep, user: RequiredUser):
-    sessions = db.execute(
-        session_query().where(TeaSession.user_id == user.id).order_by(TeaSession.brewed_at.desc())
-    ).scalars().all()
+DIARY_PAGE = 30
+
+
+def diary_overview(db, user: User) -> dict:  # noqa: ANN001
+    """Stats, calendar and shelf from slim rows, so a long diary stays cheap to open."""
+    rows = db.execute(
+        select(TeaSession.tea_id, TeaSession.tea_name, TeaSession.brewed_at, TeaSession.rating, TeaSession.visibility)
+        .where(TeaSession.user_id == user.id).order_by(TeaSession.brewed_at.desc())
+    ).all()
     since = utcnow() - timedelta(days=30)
-    recent = [s for s in sessions if s.brewed_at >= since]
-    days: OrderedDict[date, list[TeaSession]] = OrderedDict()
-    for s in recent:
-        days.setdefault(s.brewed_at.date(), []).append(s)
-
     counts: dict[date, int] = {}
-    for s in sessions:
-        counts[s.brewed_at.date()] = counts.get(s.brewed_at.date(), 0) + 1
-
     shelf: OrderedDict[str, dict] = OrderedDict()
-    for s in sessions:
-        key = str(s.tea_id) if s.tea_id else s.tea_name.lower()
-        entry = shelf.setdefault(key, {"name": s.tea_name, "tea": s.tea, "count": 0, "last": s.brewed_at, "ratings": []})
+    for row in rows:
+        counts[row.brewed_at.date()] = counts.get(row.brewed_at.date(), 0) + 1
+        key = str(row.tea_id) if row.tea_id else row.tea_name.lower()
+        entry = shelf.setdefault(key, {"name": row.tea_name, "tea_id": row.tea_id, "tea": None, "count": 0, "last": row.brewed_at, "ratings": []})
         entry["count"] += 1
-        if s.rating:
-            entry["ratings"].append(s.rating)
+        if row.rating:
+            entry["ratings"].append(row.rating)
     shelf_items = sorted(shelf.values(), key=lambda e: (-e["count"], e["name"]))[:12]
+    tea_ids = [entry["tea_id"] for entry in shelf_items if entry["tea_id"]]
+    teas = {tea.id: tea for tea in db.execute(select(Tea).options(load_only(Tea.slug, Tea.category, Tea.liquor_hex)).where(Tea.id.in_(tea_ids))).scalars()}
     for entry in shelf_items:
+        entry["tea"] = teas.get(entry["tea_id"])
         entry["avg"] = round(sum(entry["ratings"]) / len(entry["ratings"]), 1) if entry["ratings"] else None
-
-    rated = [s.rating for s in sessions if s.rating]
-    categories: dict[str, int] = {}
-    for s in sessions:
-        if s.tea:
-            categories[s.tea.category_label] = categories.get(s.tea.category_label, 0) + 1
+    rated = [row.rating for row in rows if row.rating]
+    top_category = db.execute(
+        select(Tea.category, func.count().label("n")).join(TeaSession, TeaSession.tea_id == Tea.id).where(TeaSession.user_id == user.id)
+        .group_by(Tea.category).order_by(func.count().desc(), Tea.category).limit(1)
+    ).first()
+    steeps = db.scalar(select(func.count()).select_from(Steep).join(TeaSession, Steep.session_id == TeaSession.id).where(TeaSession.user_id == user.id)) or 0
     stats = {
-        "total": len(sessions), "month": len(recent),
+        "total": len(rows), "month": sum(1 for row in rows if row.brewed_at >= since),
         "avg_rating": round(sum(rated) / len(rated), 1) if rated else None,
-        "favourite": max(categories, key=categories.get) if categories else None,
-        "public": sum(1 for s in sessions if s.is_public), "steeps": sum(len(s.steeps) for s in sessions),
+        "favourite": CATEGORY_LABELS[top_category.category] if top_category else None,
+        "public": sum(1 for row in rows if row.visibility == Visibility.public), "steeps": steeps,
     }
-    return render(request, "diary/index.html", {"days": days, "grid": week_grid(counts), "shelf": shelf_items, "stats": stats, "today": date.today()})
+    return {"stats": stats, "grid": week_grid(counts), "shelf": shelf_items}
+
+
+@router.get("/diary")
+def diary(request: Request, db: DbDep, user: RequiredUser, page: int = 1):
+    overview = diary_overview(db, user)
+    total = overview["stats"]["total"]
+    pages = max(1, (total + DIARY_PAGE - 1) // DIARY_PAGE)
+    page = min(max(1, page), pages)
+    newest_first = (TeaSession.brewed_at.desc(), TeaSession.created_at.desc(), TeaSession.id)
+    sessions = db.execute(
+        session_query().where(TeaSession.user_id == user.id).order_by(*newest_first).offset((page - 1) * DIARY_PAGE).limit(DIARY_PAGE)
+    ).scalars().all()
+    days: OrderedDict[date, list[TeaSession]] = OrderedDict()
+    for s in sessions:
+        days.setdefault(s.brewed_at.date(), []).append(s)
+    # a day split across two pages keeps a single heading
+    previous_last = None
+    if page > 1:
+        previous_last = db.scalar(
+            select(TeaSession.brewed_at).where(TeaSession.user_id == user.id).order_by(*newest_first).offset((page - 1) * DIARY_PAGE - 1).limit(1)
+        )
+    context = {**overview, "days": days, "today": date.today(), "continued_day": previous_last.date() if previous_last else None,
+               "next_url": f"/diary?page={page + 1}" if page < pages else None, "shown": min(page * DIARY_PAGE, total)}
+    return render(request, "diary/index.html", context)
 
 
 @router.get("/teas/suggest")
@@ -508,8 +534,9 @@ def tea_suggest(request: Request, db: DbDep, user: RequiredUser, tea_name: str =
     return render(request, "diary/_tea_suggest.html", {"teas": teas, "q": q})
 
 
-def public_sessions_for_user(db, user_id: uuid.UUID, limit: int = 20) -> list[TeaSession]:  # noqa: ANN001
-    return db.execute(public_sessions().where(TeaSession.user_id == user_id).order_by(TeaSession.brewed_at.desc()).limit(limit)).scalars().all()
+def public_sessions_for_user(db, user_id: uuid.UUID, limit: int = 20, offset: int = 0) -> list[TeaSession]:  # noqa: ANN001
+    stmt = public_sessions().where(TeaSession.user_id == user_id).order_by(TeaSession.brewed_at.desc(), TeaSession.id)
+    return db.execute(stmt.offset(offset).limit(limit)).scalars().all()
 
 
 def public_sessions_for_tea(db, tea_id: uuid.UUID, limit: int = 6) -> list[TeaSession]:  # noqa: ANN001
@@ -517,4 +544,4 @@ def public_sessions_for_tea(db, tea_id: uuid.UUID, limit: int = 6) -> list[TeaSe
 
 
 def public_session_count(db, user_id: uuid.UUID) -> int:  # noqa: ANN001
-    return db.scalar(select(func.count()).select_from(TeaSession).where(TeaSession.user_id == user_id, TeaSession.visibility == Visibility.public)) or 0
+    return db.scalar(select(func.count()).select_from(TeaSession).where(TeaSession.user_id == user_id, TeaSession.visibility == Visibility.public, TeaSession.hidden.is_(False))) or 0

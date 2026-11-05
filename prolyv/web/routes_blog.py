@@ -49,7 +49,7 @@ def blog_index(request: Request, db: DbDep, user: CurrentUser, page: int = 1):
     total = db.scalar(select(func.count()).select_from(Post).where(Post.published_at.is_not(None))) or 0
     pages = max(1, (total + PAGE_SIZE - 1) // PAGE_SIZE)
     page = min(page, pages)
-    posts = db.execute(published_posts().order_by(Post.published_at.desc()).offset((page - 1) * PAGE_SIZE).limit(PAGE_SIZE)).scalars().all()
+    posts = db.execute(published_posts().order_by(Post.published_at.desc(), Post.id).offset((page - 1) * PAGE_SIZE).limit(PAGE_SIZE)).scalars().all()
     drafts = 0
     if getattr(request.state, "is_admin", False):
         drafts = db.scalar(select(func.count()).select_from(Post).where(Post.published_at.is_(None))) or 0

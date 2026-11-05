@@ -154,3 +154,57 @@ def test_soft_delete_erases_diary_and_shows_deleted_account(client, db):
     assert db.get(Topic, uuid.UUID(tid)) is not None
     assert db.execute(select(Notification)).first() is None
     assert not re.search(r"/u/deleted_", client.get("/discussions").text)
+
+
+def test_long_lists_continue_with_show_more(client, db):
+    from datetime import datetime, timedelta
+
+    from sqlalchemy import func, select
+
+    from prolyv.models import ForumSection, Notification, Post, TeaSession, Topic, User, Visibility
+    from tests.conftest import telegram_login
+
+    telegram_login(client, username="olena_tea")
+    user = db.execute(select(User).where(User.handle == "olena_tea")).scalar_one()
+    section = db.execute(select(ForumSection)).scalars().first()
+    start = datetime(2026, 1, 1)
+    for n in range(45):
+        at = start + timedelta(hours=n)
+        db.add(TeaSession(user_id=user.id, tea_name=f"Brew{n:02}x", brewed_at=at, visibility=Visibility.public))
+        db.add(Topic(section_id=section.id, user_id=user.id, title=f"Topic{n:02}x", body="Body", created_at=at))
+        db.add(Post(slug=f"post-{n}", title=f"Post{n:02}x", author_id=user.id, published_at=at))
+        db.add(Notification(user_id=user.id, text=f"Note{n:02}x", url="/", created_at=at))
+    db.commit()
+
+    def walk(url, pattern, selector=r'hx-get="([^"]+)"'):
+        names = []
+        for _ in range(60):
+            page = client.get(url.replace("&amp;", "&"))
+            assert page.status_code == 200, url
+            names += re.findall(pattern, page.text)
+            more = re.search(selector, page.text.split("show-more", 1)[1]) if "show-more" in page.text else None
+            if not more:
+                return names
+            url = more.group(1)
+        raise AssertionError("did not end")
+
+    assert len(set(walk("/?tab=sessions", r"Brew\d\dx"))) == 45
+    assert len(set(walk("/?tab=discussions", r"Topic\d\dx"))) == 45
+    assert len(set(walk("/?tab=blog", r"Post\d\dx"))) == 45
+    everything = walk("/", r"(?:Brew|Topic|Post)\d\dx")
+    assert len(set(everything)) == 135
+    assert len(set(walk("/discussions", r"Topic\d\dx"))) == 45
+    assert len(set(walk("/blog", r"Post\d\dx"))) == 45
+    assert len(set(walk("/u/olena_tea", r"Brew\d\dx", r'hx-get="(/u/olena_tea\?page=\d+)"'))) == 45
+
+    # topics on a profile have their own button, which pulls only topics
+    profile = client.get("/u/olena_tea").text
+    assert 'hx-select=".more-topics &gt; *"' in profile or 'hx-select=".more-topics > *"' in profile
+    assert "/u/olena_tea?topics_page=2" in profile
+    assert "Topic34x" in client.get("/u/olena_tea?topics_page=2").text
+
+    notes = client.get("/notifications").text
+    assert "Note44x" in notes and "Note10x" not in notes and "/notifications?page=2" in notes and 'class="unread"' in notes
+    db.expire_all()
+    assert db.scalar(select(func.count()).select_from(Notification).where(Notification.read_at.is_(None))) == 0
+    assert "Note10x" in client.get("/notifications?page=2").text

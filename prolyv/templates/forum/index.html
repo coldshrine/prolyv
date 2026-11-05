@@ -1,5 +1,5 @@
 {% extends "base.html" %}
-{% from "partials/macros.html" import topic_card %}
+{% from "partials/macros.html" import topic_card, show_more %}
 {% block title %}{% if section %}{{ section.name }} · {% endif %}Discussions · Prolyv{% endblock %}
 {% block content %}
 <section class="container">
@@ -23,14 +23,8 @@
   </nav>
 
   {% if topics %}
-  <div class="topic-list">{% for t in topics %}{{ topic_card(t, show_section=not section) }}{% endfor %}</div>
-  {% if pages > 1 %}
-  <nav class="pagination" aria-label="Pages">
-    {% if page > 1 %}<a class="btn btn-secondary btn-sm" href="?q={{ q|urlencode }}&page={{ page - 1 }}">← Previous</a>{% endif %}
-    <span class="muted">Page {{ page }} of {{ pages }}</span>
-    {% if page < pages %}<a class="btn btn-secondary btn-sm" href="?q={{ q|urlencode }}&page={{ page + 1 }}">Next →</a>{% endif %}
-  </nav>
-  {% endif %}
+  {% if page > 1 %}<p class="previous-page"><a class="btn btn-ghost btn-sm" href="{{ page_url(page - 1) }}">← Previous page</a></p>{% endif %}
+  <div class="topic-list more-list">{% for t in topics %}{{ topic_card(t, show_section=not section) }}{% endfor %}{% if page < pages %}{{ show_more(page_url(page + 1), shown ~ " of " ~ total) }}{% endif %}</div>
   {% else %}
   <div class="card empty"><p class="empty-title">{% if q %}Nothing matches “{{ q }}”{% else %}No topics yet{% endif %}</p><p class="muted">{% if current_user %}<a href="/discussions/new">Start the first one</a>.{% else %}<a href="/login?next=/discussions/new">Log in</a> to start one.{% endif %}</p></div>
   {% endif %}

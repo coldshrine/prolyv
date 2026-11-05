@@ -1,5 +1,5 @@
 {% extends "base.html" %}
-{% from "partials/macros.html" import post_card %}
+{% from "partials/macros.html" import post_card, show_more %}
 {% block title %}Blog · Prolyv{% endblock %}
 {% block content %}
 <section class="container">
@@ -13,14 +13,8 @@
   </div>
   {% if is_admin and drafts %}<p class="muted small"><a href="/admin/posts">{{ drafts }} draft{{ '' if drafts == 1 else 's' }} waiting</a></p>{% endif %}
   {% if posts %}
-  <div class="post-list">{% for post in posts %}{{ post_card(post) }}{% endfor %}</div>
-  {% if pages > 1 %}
-  <nav class="pagination" aria-label="Pages">
-    {% if page > 1 %}<a class="btn btn-secondary btn-sm" href="?page={{ page - 1 }}">← Newer</a>{% endif %}
-    <span class="muted">Page {{ page }} of {{ pages }}</span>
-    {% if page < pages %}<a class="btn btn-secondary btn-sm" href="?page={{ page + 1 }}">Older →</a>{% endif %}
-  </nav>
-  {% endif %}
+  {% if page > 1 %}<p class="previous-page"><a class="btn btn-ghost btn-sm" href="/blog?page={{ page - 1 }}">← Newer posts</a></p>{% endif %}
+  <div class="post-list more-list">{% for post in posts %}{{ post_card(post) }}{% endfor %}{% if page < pages %}{{ show_more("/blog?page=" ~ (page + 1)) }}{% endif %}</div>
   {% else %}
   <div class="card empty"><p class="empty-title">No posts yet</p><p class="muted">The first brewing breakdown is coming.</p></div>
   {% endif %}

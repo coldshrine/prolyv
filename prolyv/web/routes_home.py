@@ -16,11 +16,15 @@ from prolyv.web.templating import render
 
 router = APIRouter()
 
+FEED_PAGE = 30
+FEED_MAX_PAGES = 30
 FEED_TABS = [("all", "All"), ("sessions", "Sessions"), ("discussions", "Discussions"), ("blog", "Blog")]
 
 
-def build_feed(db, tab: str = "all", limit: int = 30, following: list | None = None) -> list[dict]:  # noqa: ANN001
-    """Newest public things across the site. Each item: {kind, at, obj}. `following` limits it to those authors."""
+def build_feed(db, tab: str = "all", limit: int = FEED_PAGE, following: list | None = None) -> list[dict]:  # noqa: ANN001
+    """Newest public things across the site. Each item: {kind, at, obj}. `following` limits it to those authors.
+
+    Asks each source for the `limit` newest and merges them. Ties have a fixed order, so pages never repeat or skip."""
     from prolyv.models import Post, TeaSession, Topic
     from prolyv.web.routes_blog import published_posts
     from prolyv.web.routes_diary import public_sessions
@@ -28,29 +32,33 @@ def build_feed(db, tab: str = "all", limit: int = 30, following: list | None = N
 
     items: list[dict] = []
     if tab in ("all", "sessions", "following"):
-        stmt = public_sessions().order_by(TeaSession.brewed_at.desc()).limit(limit)
+        stmt = public_sessions().order_by(TeaSession.brewed_at.desc(), TeaSession.id).limit(limit)
         if following is not None:
             stmt = stmt.where(TeaSession.user_id.in_(following))
         items += [{"kind": "session", "at": s.brewed_at, "obj": s} for s in db.execute(stmt).scalars().all()]
     if tab in ("all", "discussions", "following"):
-        stmt = topic_query().where(Topic.hidden.is_(False)).order_by(Topic.created_at.desc()).limit(limit)
+        stmt = topic_query().where(Topic.hidden.is_(False)).order_by(Topic.created_at.desc(), Topic.id).limit(limit)
         if following is not None:
             stmt = stmt.where(Topic.user_id.in_(following))
         items += [{"kind": "topic", "at": t.created_at, "obj": t} for t in db.execute(stmt).scalars().all()]
     if tab in ("all", "blog"):
-        stmt = published_posts().order_by(Post.published_at.desc()).limit(limit)
+        stmt = published_posts().order_by(Post.published_at.desc(), Post.id).limit(limit)
         items += [{"kind": "post", "at": p.published_at, "obj": p} for p in db.execute(stmt).scalars().all()]
     items.sort(key=lambda i: i["at"], reverse=True)
     return items[:limit]
 
 
 @router.get("/")
-def home(request: Request, db: DbDep, user: CurrentUser, tab: str = "all"):
+def home(request: Request, db: DbDep, user: CurrentUser, tab: str = "all", page: int = 1):
     tabs = [*FEED_TABS, ("following", "Following")] if user else FEED_TABS
     tab = tab if tab in dict(tabs) else "all"
     following = followee_ids(db, user) if tab == "following" and user else None
     tea_count = db.scalar(select(func.count()).select_from(Tea).where(Tea.status == TeaStatus.published)) or 0
-    return render(request, "home.html", {"feed": build_feed(db, tab, following=following), "tab": tab, "tabs": tabs, "tea_count": tea_count})
+    page = min(max(1, page), FEED_MAX_PAGES)
+    items = build_feed(db, tab, limit=page * FEED_PAGE + 1, following=following)
+    next_url = f"/?{urlencode({**({'tab': tab} if tab != 'all' else {}), 'page': page + 1})}" if len(items) > page * FEED_PAGE and page < FEED_MAX_PAGES else None
+    context = {"feed": items[(page - 1) * FEED_PAGE:page * FEED_PAGE], "tab": tab, "tabs": tabs, "tea_count": tea_count, "next_url": next_url}
+    return render(request, "home.html", context)
 
 
 SEARCH_TABS = [("all", "All"), ("teas", "Teas"), ("discussions", "Discussions"), ("blog", "Blog"), ("sessions", "Sessions")]

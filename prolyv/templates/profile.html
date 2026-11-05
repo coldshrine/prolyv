@@ -1,5 +1,5 @@
 {% extends "base.html" %}
-{% from "partials/macros.html" import avatar, session_card, topic_card, report_button %}
+{% from "partials/macros.html" import avatar, session_card, topic_card, report_button, show_more %}
 {% block title %}{{ profile.display_name }} (@{{ profile.handle }}) · Prolyv{% endblock %}
 {% block content %}
 <section class="hero hero-profile">
@@ -35,7 +35,7 @@
   <h2 class="h2">Sessions</h2>
   <p class="muted">Private sessions stay private. Public ones will appear here.</p>
   {% if sessions %}
-  <div class="session-list">{% for s in sessions %}{{ session_card(s, show_author=False) }}{% endfor %}</div>
+  <div class="session-list more-list">{% for s in sessions %}{{ session_card(s, show_author=False) }}{% endfor %}{% if next_sessions %}{{ show_more(next_sessions) }}{% endif %}</div>
   {% else %}
   <div class="card empty">
     <p class="empty-title">No public sessions yet</p>
@@ -44,7 +44,7 @@
   {% endif %}
   {% if topics %}
   <h2 class="h2 profile-topics-title">Topics</h2>
-  <div class="topic-list">{% for t in topics %}{{ topic_card(t) }}{% endfor %}</div>
+  <div class="topic-list more-topics">{% for t in topics %}{{ topic_card(t) }}{% endfor %}{% if next_topics %}{{ show_more(next_topics, list=".more-topics") }}{% endif %}</div>
   {% endif %}
 </section>
 {% endblock %}

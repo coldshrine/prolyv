@@ -1,5 +1,5 @@
 {% extends "base.html" %}
-{% from "partials/macros.html" import session_card, cup %}
+{% from "partials/macros.html" import session_card, cup, show_more %}
 {% block title %}My diary · Prolyv{% endblock %}
 {% block content %}
 <section class="hero">
@@ -21,14 +21,17 @@
 
 <section class="container diary-body">
   <div class="diary-main">
-    <h2 class="h2">Last 30 days</h2>
+    <h2 class="h2">Your sessions</h2>
     {% if days %}
+    <div class="more-list">
       {% for day, items in days.items() %}
-      <h3 class="day-label">{% if day == today %}Today{% else %}{{ day.strftime('%A, %-d %B') }}{% endif %}</h3>
+      {% if day != continued_day %}<h3 class="day-label">{% if day == today %}Today{% elif day.year == today.year %}{{ day.strftime('%A, %-d %B') }}{% else %}{{ day.strftime('%-d %B %Y') }}{% endif %}</h3>{% endif %}
       <div class="session-list">{% for s in items %}{{ session_card(s, show_author=False) }}{% endfor %}</div>
       {% endfor %}
+      {% if next_url %}{{ show_more(next_url, shown ~ " of " ~ stats.total) }}{% endif %}
+    </div>
     {% else %}
-    <div class="card empty"><p class="empty-title">Nothing in the last 30 days</p><p class="muted">Brew something and <a href="/sessions/new">log it</a>.</p></div>
+    <div class="card empty"><p class="empty-title">No sessions yet</p><p class="muted">Brew something and <a href="/sessions/new">log it</a>.</p></div>
     {% endif %}
   </div>
   <aside class="diary-side">
