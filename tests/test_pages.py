@@ -163,3 +163,12 @@ def test_account_menu_reaches_saved_settings_and_log_out(client):
     page = client.get("/").text
     for target in ('href="/saved"', 'href="/settings"', 'action="/logout"'):
         assert target in page.split("</header>")[0]
+
+
+def test_tea_photos_are_served_as_webp(tmp_path):
+    settings = make_settings(tmp_path)
+    folder = Path(settings.media_dir) / "teas" / "sencha"
+    folder.mkdir(parents=True)
+    (folder / "a-1200.webp").write_bytes(b"RIFF0000WEBP")
+    with TestClient(build_app(settings)) as client:
+        assert client.get("/media/teas/sencha/a-1200.webp").headers["content-type"] == "image/webp"

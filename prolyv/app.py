@@ -3,6 +3,7 @@
 from __future__ import annotations
 
 import logging
+import mimetypes
 from pathlib import Path
 from urllib.parse import urlencode, urlsplit
 
@@ -40,6 +41,8 @@ from prolyv.web.routes_auth import login_redirect
 from prolyv.web.templating import render
 
 STATIC_DIR = Path(__file__).resolve().parent / "static"
+# Tea photos are WebP, and a slim server image has no system MIME table that knows it.
+mimetypes.add_type("image/webp", ".webp")
 
 ERROR_TEXT = {
     403: ("You don't have access to this page", "If you think you should, check that you are signed in to the right account."),
