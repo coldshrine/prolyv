@@ -18,8 +18,9 @@ sys.path.insert(0, str(ROOT))
 
 from prolyv.config import get_settings  # noqa: E402
 from prolyv.db import make_engine, make_session_factory  # noqa: E402
+from prolyv.markdown import render_markdown  # noqa: E402
 from prolyv.models import (  # noqa: E402
-    ForumSection, Identity, Provider, Reply, Steep, Tea, TeaSession, Topic, User, Visibility, utcnow,
+    ForumSection, Identity, Post, Provider, Reply, Steep, Tea, TeaSession, Topic, User, Visibility, utcnow,
 )
 
 USERS = [
@@ -133,7 +134,38 @@ def seed_forum(db, users: list[User]) -> None:  # noqa: ANN001
     print(f"  + {len(samples)} topics")
 
 
-EXTRA_SEEDERS: list = [seed_sessions, seed_forum]  # later milestones append functions (db, users) -> None
+POST_BODY = """## The short version
+
+Shu pu-erh turns bitter when the leaf is pushed too hard at the start. One quick rinse, then keep the first three
+steeps at five to ten seconds, and it stays sweet for a dozen infusions.
+
+## Parameters I used
+
+- 8 g of leaf, a 100 ml gaiwan, water just off the boil
+- rinse 5 s, then 5 · 5 · 8 · 10 · 15 · 20 · 30 · 45 · 60 · 90 seconds
+- porcelain, not clay: you want to taste the leaf, not the pot
+
+## What to listen for
+
+By steep four the cocoa shows up; by steep seven it is dates and damp forest. If it is drying at steep three, the
+water was too hot for too long. Brew along below and tell me where yours turned.
+"""
+
+
+def seed_posts(db, users: list[User]) -> None:  # noqa: ANN001
+    if db.execute(select(Post).limit(1)).first() is not None:
+        print("  = posts exist")
+        return
+    karyna = users[0]
+    tea = db.execute(select(Tea).where(Tea.slug == "shu-puerh-gong-ting")).scalar_one_or_none()
+    post = Post(author=karyna, slug="why-shu-puerh-turns-bitter", title="Why shu pu-erh turns bitter after the third steep",
+                summary="One rinse, short early steeps, and the cocoa shows up by steep four.", body_md=POST_BODY,
+                body_html=render_markdown(POST_BODY), tea=tea, published_at=utcnow())
+    db.add(post)
+    print("  + 1 post")
+
+
+EXTRA_SEEDERS: list = [seed_sessions, seed_forum, seed_posts]  # later milestones append functions (db, users) -> None
 
 
 if __name__ == "__main__":

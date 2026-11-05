@@ -509,3 +509,27 @@ select option { color: #111; }
 .post-card { display: flex; flex-direction: column; border-radius: 22px; background: rgba(16, 18, 48, 0.7); border: 1px solid var(--card-line); overflow: hidden; }
 .post-cover img { width: 100%; aspect-ratio: 16 / 9; object-fit: cover; }
 .post-card-body { padding: 14px 18px 16px; display: flex; flex-direction: column; gap: 6px; }
+
+/* ---------------------------------------------------------------- Blog (milestone 5) */
+.post-list { display: grid; grid-template-columns: 1fr; gap: 14px; margin-top: 18px; }
+.post-hero { padding: 36px 16px; display: flex; flex-direction: column; gap: 10px; max-width: 860px; }
+.post-body { padding-top: 24px; }
+.post-cover-figure { margin: 0 0 20px; border-radius: var(--radius-card); overflow: hidden; border: 1px solid var(--card-line); }
+.post-cover-figure img { width: 100%; }
+.embed { display: flex; justify-content: center; margin: 0 0 20px; }
+.post-prose h2 { font-size: 24px; margin: 28px 0 10px; }
+.post-prose h3 { font-size: 19px; margin: 22px 0 8px; }
+.post-prose ul, .post-prose ol { padding-left: 22px; color: #E6E7FA; font-size: 17px; line-height: 1.6; }
+.post-prose li { margin-bottom: 6px; }
+.post-prose blockquote { margin: 0 0 14px; padding: 12px 18px; border-left: 3px solid var(--pink); background: rgba(255, 79, 216, 0.08); border-radius: 0 14px 14px 0; }
+.post-prose img { border-radius: 16px; margin: 6px 0 14px; }
+.post-prose table { width: 100%; border-collapse: collapse; margin: 0 0 16px; font-size: 15px; }
+.post-prose th, .post-prose td { padding: 8px 10px; border-bottom: 1px solid rgba(255, 255, 255, 0.12); text-align: left; }
+.post-prose code { background: rgba(255, 255, 255, 0.08); padding: 2px 6px; border-radius: 6px; color: #FFE39A; }
+.post-prose pre { background: rgba(255, 255, 255, 0.06); padding: 14px; border-radius: 14px; overflow-x: auto; }
+.notice-ok { background: rgba(34, 227, 166, 0.1); border-color: rgba(34, 227, 166, 0.4); color: #9DF5D3; }
+.notice-ok a { color: #FFFFFF; }
+@media (min-width: 768px) {
+  .post-list { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .post-hero { padding: 56px 24px; }
+}

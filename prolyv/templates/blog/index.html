@@ -1,0 +1,28 @@
+{% extends "base.html" %}
+{% from "partials/macros.html" import post_card %}
+{% block title %}Blog · Prolyv{% endblock %}
+{% block content %}
+<section class="container">
+  <div class="teas-head">
+    <div>
+      <p class="eyebrow">Blog{% if total %} · {{ total }} post{{ '' if total == 1 else 's' }}{% endif %}</p>
+      <h1 class="h1">Full brewing breakdowns</h1>
+      <p class="lead">The long version behind every short video. Brew along and your session lands under the post.</p>
+    </div>
+    {% if is_admin %}<a class="btn btn-primary btn-sm" href="/admin/posts/new"><span class="plus" aria-hidden="true">+</span> Write a post</a>{% endif %}
+  </div>
+  {% if is_admin and drafts %}<p class="muted small"><a href="/admin/posts">{{ drafts }} draft{{ '' if drafts == 1 else 's' }} waiting</a></p>{% endif %}
+  {% if posts %}
+  <div class="post-list">{% for post in posts %}{{ post_card(post) }}{% endfor %}</div>
+  {% if pages > 1 %}
+  <nav class="pagination" aria-label="Pages">
+    {% if page > 1 %}<a class="btn btn-secondary btn-sm" href="?page={{ page - 1 }}">← Newer</a>{% endif %}
+    <span class="muted">Page {{ page }} of {{ pages }}</span>
+    {% if page < pages %}<a class="btn btn-secondary btn-sm" href="?page={{ page + 1 }}">Older →</a>{% endif %}
+  </nav>
+  {% endif %}
+  {% else %}
+  <div class="card empty"><p class="empty-title">No posts yet</p><p class="muted">The first brewing breakdown is coming.</p></div>
+  {% endif %}
+</section>
+{% endblock %}

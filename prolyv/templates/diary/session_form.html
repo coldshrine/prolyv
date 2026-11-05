@@ -10,6 +10,8 @@
   <form method="post" action="{% if editing %}/sessions/{{ editing.id }}/edit{% else %}/sessions/new{% endif %}" class="form session-form" id="session-form" data-draft-key="{{ draft_key }}" data-suggested="{{ form.suggested_seconds|join(',') }}" novalidate>
     <input type="hidden" name="csrf_token" value="{{ csrf_token }}">
     <input type="hidden" name="tea_id" id="tea_id" value="{{ form.tea_id }}">
+    <input type="hidden" name="post_id" value="{{ form.post_id or '' }}">
+    {% if form.post %}<div class="notice notice-ok">Brewing along with <a href="/blog/{{ form.post.slug }}">{{ form.post.title }}</a>. Make the session public and it will appear under the post.</div>{% endif %}
 
     <section class="card">
       <h2 class="h2">Tea</h2>

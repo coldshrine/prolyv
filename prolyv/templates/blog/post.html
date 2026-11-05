@@ -1,0 +1,83 @@
+{% extends "base.html" %}
+{% from "partials/macros.html" import avatar, session_card %}
+{% block title %}{{ post.title }} · Prolyv blog{% endblock %}
+{% block head %}
+<link rel="canonical" href="{{ og.url }}">
+<meta name="description" content="{{ og.description }}">
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="Prolyv">
+<meta property="og:title" content="{{ og.title }}">
+<meta property="og:description" content="{{ og.description }}">
+<meta property="og:url" content="{{ og.url }}">
+{% if og.image %}<meta property="og:image" content="{{ og.image }}">{% endif %}
+{% if not post.is_published %}<meta name="robots" content="noindex">{% endif %}
+{% endblock %}
+{% block content %}
+<article class="post">
+  <section class="hero">
+    <div class="container post-hero">
+      <p class="eyebrow"><a href="/blog">Blog</a> · {% if post.is_published %}{{ post.published_at.strftime('%-d %B %Y') }}{% else %}draft{% endif %}{% if post.tea %} · <a href="/teas/{{ post.tea.slug }}">{{ post.tea.name_en }}</a>{% endif %}</p>
+      <h1 class="display">{{ post.title }}</h1>
+      {% if post.summary %}<p class="lead">{{ post.summary }}</p>{% endif %}
+      <p class="session-by"><a class="author-link" href="/u/{{ post.author.handle }}">{{ avatar(post.author, 32) }} <span>{{ post.author.display_name }}</span></a></p>
+      <div class="actions">
+        <a class="btn btn-primary" href="{% if current_user %}/sessions/new?post={{ post.slug }}{% else %}/login?next=/sessions/new%3Fpost%3D{{ post.slug }}{% endif %}">Brew along</a>
+        {% if post.tea %}<a class="btn btn-secondary" href="/teas/{{ post.tea.slug }}">Tea card</a>{% endif %}
+        {% if is_admin_view %}<a class="btn btn-ghost" href="/admin/posts/{{ post.id }}/edit">Edit post</a>{% endif %}
+      </div>
+      {% if not post.is_published %}<div class="notice">Draft — only admins can see this page.</div>{% endif %}
+    </div>
+  </section>
+
+  <section class="container narrow post-body">
+    {% if post.cover_url %}<figure class="post-cover-figure"><img src="{{ post.cover_url }}" alt=""></figure>{% endif %}
+    {% set embed = post.embed %}
+    {% if embed %}
+      {% if embed.provider == 'tiktok' %}
+      <div class="embed embed-tiktok">
+        <blockquote class="tiktok-embed" cite="{{ embed.url }}" data-video-id="{{ embed.id }}" style="max-width: 605px; min-width: 325px;"><section><a target="_blank" rel="noopener" href="{{ embed.url }}">Watch on TikTok</a></section></blockquote>
+        <script async src="https://www.tiktok.com/embed.js"></script>
+      </div>
+      {% elif embed.provider == 'instagram' %}
+      <div class="embed embed-instagram">
+        <blockquote class="instagram-media" data-instgrm-permalink="{{ embed.url }}" data-instgrm-version="14" style="max-width: 540px; min-width: 326px; width: 100%;"><a href="{{ embed.url }}" target="_blank" rel="noopener">View on Instagram</a></blockquote>
+        <script async src="https://www.instagram.com/embed.js"></script>
+      </div>
+      {% else %}<p><a class="btn btn-secondary btn-sm" href="{{ embed.url }}" target="_blank" rel="noopener">Watch the video</a></p>{% endif %}
+    {% endif %}
+    <div class="prose post-prose">{{ post.body_html|safe }}</div>
+  </section>
+
+  <section class="container narrow">
+    <h2 class="h2" id="brew-along">Brewed along{% if brew_along_count %} · {{ brew_along_count }}{% endif %}</h2>
+    {% if brew_alongs %}
+    <div class="session-list">{% for s in brew_alongs %}{{ session_card(s) }}{% endfor %}</div>
+    {% else %}
+    <div class="card empty"><p class="empty-title">Nobody has brewed along yet</p><p class="muted">Log your session from this post and make it public to show up here.</p></div>
+    {% endif %}
+
+    <h2 class="h2" id="comments">Comments{% if post.comments %} · {{ post.comments|length }}{% endif %}</h2>
+    {% if post.comments %}
+    <ul class="comments">
+      {% for c in post.comments %}
+      <li class="comment">
+        <a class="author-link" href="/u/{{ c.user.handle }}">{{ avatar(c.user, 28) }} <span>@{{ c.user.handle }}</span></a>
+        <span class="muted small">{{ c.created_at.strftime('%-d %b %Y') }}</span>
+        <p>{{ c.body }}</p>
+        {% if current_user and (c.user_id == current_user.id or is_admin_view) %}
+        <form method="post" action="/blog/{{ post.slug }}/comments/{{ c.id }}/delete" class="inline-form"><input type="hidden" name="csrf_token" value="{{ csrf_token }}"><button class="link-btn small" type="submit">delete</button></form>
+        {% endif %}
+      </li>
+      {% endfor %}
+    </ul>
+    {% endif %}
+    {% if current_user %}
+    <form method="post" action="/blog/{{ post.slug }}/comments" class="form comment-form">
+      <input type="hidden" name="csrf_token" value="{{ csrf_token }}">
+      <textarea name="body" rows="3" maxlength="2000" placeholder="Questions, your result, what you changed…" required></textarea>
+      <div class="actions"><button class="btn btn-secondary btn-sm" type="submit">Comment</button></div>
+    </form>
+    {% else %}<p class="muted"><a href="/login?next=/blog/{{ post.slug }}">Log in</a> to comment.</p>{% endif %}
+  </section>
+</article>
+{% endblock %}

@@ -471,3 +471,68 @@ FORUM_SECTIONS = [
     ("beginners", "Beginners", "First steps, gongfu basics, what to buy first."),
     ("where-to-buy", "Where to buy", "Shops, vendors, prices, what arrived in the post."),
 ]
+
+
+# ---------------------------------------------------------------------------------------------------------------
+# Blog (milestone 5)
+# ---------------------------------------------------------------------------------------------------------------
+
+
+class Post(Base):
+    """A blog post written by an admin in Markdown. video_url (TikTok / Instagram) becomes an embed."""
+
+    __tablename__ = "posts"
+
+    id: Mapped[uuid.UUID] = mapped_column(Uuid, primary_key=True, default=uuid.uuid4)
+    slug: Mapped[str] = mapped_column(String(120), unique=True, index=True)
+    title: Mapped[str] = mapped_column(String(160))
+    summary: Mapped[str] = mapped_column(String(300), default="")
+    body_md: Mapped[str] = mapped_column(Text, default="")
+    body_html: Mapped[str] = mapped_column(Text, default="")
+    cover_url: Mapped[str | None] = mapped_column(String(1000))
+    video_url: Mapped[str | None] = mapped_column(String(500))
+    tea_id: Mapped[uuid.UUID | None] = mapped_column(ForeignKey("teas.id", ondelete="SET NULL"))
+    author_id: Mapped[uuid.UUID] = mapped_column(ForeignKey("users.id", ondelete="CASCADE"), index=True)
+    published_at: Mapped[datetime | None] = mapped_column(DateTime, index=True)  # null = draft
+    created_at: Mapped[datetime] = mapped_column(DateTime, default=utcnow, nullable=False)
+    updated_at: Mapped[datetime] = mapped_column(DateTime, default=utcnow, onupdate=utcnow, nullable=False)
+
+    author: Mapped[User] = relationship()
+    tea: Mapped[Tea | None] = relationship()
+    comments: Mapped[list[PostComment]] = relationship(back_populates="post", cascade="all, delete-orphan", order_by="PostComment.created_at")
+
+    @property
+    def is_published(self) -> bool:
+        return self.published_at is not None
+
+    @property
+    def embed(self) -> dict | None:
+        return video_embed(self.video_url)
+
+
+class PostComment(Base):
+    __tablename__ = "post_comments"
+
+    id: Mapped[uuid.UUID] = mapped_column(Uuid, primary_key=True, default=uuid.uuid4)
+    post_id: Mapped[uuid.UUID] = mapped_column(ForeignKey("posts.id", ondelete="CASCADE"), index=True)
+    user_id: Mapped[uuid.UUID] = mapped_column(ForeignKey("users.id", ondelete="CASCADE"), index=True)
+    body: Mapped[str] = mapped_column(Text)
+    created_at: Mapped[datetime] = mapped_column(DateTime, default=utcnow, nullable=False)
+
+    post: Mapped[Post] = relationship(back_populates="comments")
+    user: Mapped[User] = relationship()
+
+
+def video_embed(url: str | None) -> dict | None:
+    """TikTok and Instagram URLs -> {provider, url, id}. Anything else is shown as a plain link."""
+    import re
+
+    if not url:
+        return None
+    tiktok = re.match(r"https?://(?:www\.)?tiktok\.com/@[\w.\-]+/video/(\d+)", url)
+    if tiktok:
+        return {"provider": "tiktok", "url": url.split("?")[0], "id": tiktok.group(1)}
+    instagram = re.match(r"https?://(?:www\.)?instagram\.com/(?:p|reel|reels)/([\w\-]+)", url)
+    if instagram:
+        return {"provider": "instagram", "url": f"https://www.instagram.com/{'reel' if '/reel' in url else 'p'}/{instagram.group(1)}/", "id": instagram.group(1)}
+    return {"provider": "link", "url": url, "id": None}

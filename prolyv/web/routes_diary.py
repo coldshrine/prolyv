@@ -14,6 +14,7 @@ from sqlalchemy.orm import selectinload
 from prolyv.models import (
     SESSION_TASTE_TAGS,
     VESSELS,
+    Post,
     SessionComment,
     Steep,
     Tea,
@@ -60,7 +61,7 @@ def empty_form() -> dict:
     return {
         "tea_id": "", "tea_name": "", "grams": "", "water_ml": "", "temp_c": "", "vessel": "gaiwan", "rinse": False,
         "rating": "", "taste_tags": [], "note": "", "visibility": "private", "allow_comments": True,
-        "brewed_at": date.today().isoformat(), "steeps": [], "suggested_seconds": [],
+        "brewed_at": date.today().isoformat(), "steeps": [], "suggested_seconds": [], "post_id": "", "post": None,
     }
 
 
@@ -115,6 +116,7 @@ def parse_session_form(data) -> tuple[dict, dict]:  # noqa: ANN001
         return value
 
     form["tea_id"] = text("tea_id", 40)
+    form["post_id"] = text("post_id", 40)
     form["tea_name"] = text("tea_name", 160)
     form["grams"] = number("grams", 0.1, 100, float, "Leaf")
     form["water_ml"] = number("water_ml", 10, 5000, int, "Water")
@@ -170,6 +172,13 @@ def apply_session_form(db, sess: TeaSession, form: dict) -> None:  # noqa: ANN00
         if tea is not None and tea.status != TeaStatus.published:
             tea = None
     sess.tea = tea
+    post = None
+    if form.get("post_id"):
+        try:
+            post = db.get(Post, uuid.UUID(form["post_id"]))
+        except ValueError:
+            post = None
+    sess.post_id = post.id if post is not None and post.is_published else None
     sess.tea_name = form["tea_name"] or (tea.name_en if tea else "")
     sess.grams = form["grams"]
     sess.water_ml = form["water_ml"]
@@ -197,9 +206,14 @@ def form_context(form: dict, errors: dict | None = None, tea: Tea | None = None,
 
 
 @router.get("/sessions/new")
-def session_new_form(request: Request, db: DbDep, user: RequiredUser, tea: str = ""):
+def session_new_form(request: Request, db: DbDep, user: RequiredUser, tea: str = "", post: str = ""):
     source = request.query_params.get("from", "")
     picked = None
+    along = None
+    if post:
+        along = db.execute(select(Post).where(Post.slug == post.lower(), Post.published_at.is_not(None))).scalar_one_or_none()
+        if along is not None and along.tea is not None and not tea:
+            picked = along.tea
     if tea:
         picked = db.execute(select(Tea).where(Tea.slug == tea.lower(), Tea.status == TeaStatus.published)).scalar_one_or_none()
     if picked is not None:
@@ -213,6 +227,8 @@ def session_new_form(request: Request, db: DbDep, user: RequiredUser, tea: str =
         picked = original.tea
     else:
         form = empty_form()
+    if along is not None:
+        form["post_id"], form["post"] = str(along.id), along
     return render(request, "diary/session_form.html", form_context(form, tea=picked))
 
 

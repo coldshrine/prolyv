@@ -17,6 +17,8 @@ dependencies = [
     "joserfc>=1.0",
     "itsdangerous>=2.2",
     "pydantic-settings>=2.3",
+    "markdown-it-py>=3",
+    "bleach>=6",
 ]
 
 [dependency-groups]
