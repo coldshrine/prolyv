@@ -1,22 +1,96 @@
 {% extends "base.html" %}
-{% from "partials/macros.html" import post_card, show_more %}
+{% from "partials/macros.html" import cup, show_more %}
 {% block title %}Blog · Prolyv{% endblock %}
+{% block head %}
+<meta name="description" content="Every video we post on TikTok and Instagram gets a page here: the full parameters, every steep, and a place to talk about it.">
+<link rel="stylesheet" href="/static/css/blog.css?v={{ version }}">
+{% endblock %}
+{% macro short_date(d) %}{{ d.strftime('%b %-d') if d.year == year else d.strftime('%b %-d, %Y') }}{% endmacro %}
+{% macro plural(n, word) %}{{ n }} {{ word }}{{ '' if n == 1 else 's' }}{% endmacro %}
+{% macro post_row(post) -%}
+{% set is_video = post.video_url %}
+<a class="blog-card" href="/blog/{{ post.slug }}">
+  <span class="blog-cover cov-{{ post.cup_kind }}" aria-hidden="true">
+    {% if post.cover_url %}<img src="{{ post.cover_url }}" alt="" loading="lazy">{% else %}{{ cup(post.cup_kind, 112, post.tea.liquor_hex if post.tea else None) }}{% endif %}
+    <span class="blog-badge">{{ 'VIDEO' if is_video else 'GUIDE' }}</span>
+  </span>
+  <span class="blog-card-body">
+    <span class="blog-cat {{ 'cat-video' if is_video else 'cat-guide' }}">{{ 'VIDEO BREAKDOWN' if is_video else 'GUIDE' }} · {{ post.read_minutes }} MIN</span>
+    <span class="blog-card-title">{{ post.title }}</span>
+    {% if post.summary %}<span class="blog-card-text">{{ post.summary }}</span>{% endif %}
+    <span class="blog-card-meta"><span>{{ short_date(post.published_at) }}</span><span class="blog-card-dot" aria-hidden="true"> · </span><span>{{ plural(comment_counts.get(post.id, 0), 'comment') }}</span></span>
+  </span>
+</a>
+{%- endmacro %}
 {% block content %}
-<section class="container">
-  <div class="teas-head">
-    <div>
-      <p class="eyebrow">Blog{% if total %} · {{ total }} post{{ '' if total == 1 else 's' }}{% endif %}</p>
-      <h1 class="h1">Full brewing breakdowns</h1>
-      <p class="lead">The long version behind every short video. Brew along and your session lands under the post.</p>
+<section class="blog-hero">
+  <div class="blog-hero-in">
+    <div class="blog-hero-text">
+      <p class="blog-kicker">THE HOME OF OUR SHORT VIDEOS</p>
+      <h1 class="blog-h1">Blog</h1>
+      <p class="blog-lead">Every video we post on TikTok and Instagram gets a page here: the full parameters, every steep, and a place to talk about it.</p>
     </div>
-    {% if is_admin %}<a class="btn btn-primary btn-sm" href="/admin/posts/new"><span class="plus" aria-hidden="true">+</span> Write a post</a>{% endif %}
+    {% if social %}
+    <div class="blog-social">
+      {% for link in social %}
+      <a href="{{ link.url }}" target="_blank" rel="noopener">{% if link.provider == 'tiktok' %}<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M14 4v10.5a3.5 3.5 0 1 1-3.5-3.5"></path><path d="M14 4c.5 2.6 2.2 4 5 4.2"></path></svg>{% else %}<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#FFFFFF" stroke-width="2" aria-hidden="true"><rect x="4" y="4" width="16" height="16" rx="5"></rect><circle cx="12" cy="12" r="3.5"></circle><circle cx="17" cy="7" r="0.6"></circle></svg>{% endif %}{{ link.label }}</a>
+      {% endfor %}
+    </div>
+    {% endif %}
   </div>
-  {% if is_admin and drafts %}<p class="muted small"><a href="/admin/posts">{{ drafts }} draft{{ '' if drafts == 1 else 's' }} waiting</a></p>{% endif %}
-  {% if posts %}
-  {% if page > 1 %}<p class="previous-page"><a class="btn btn-ghost btn-sm" href="/blog?page={{ page - 1 }}">← Newer posts</a></p>{% endif %}
-  <div class="post-list more-list">{% for post in posts %}{{ post_card(post) }}{% endfor %}{% if page < pages %}{{ show_more("/blog?page=" ~ (page + 1)) }}{% endif %}</div>
-  {% else %}
-  <div class="card empty"><p class="empty-title">No posts yet</p><p class="muted">The first brewing breakdown is coming.</p></div>
-  {% endif %}
 </section>
+
+{% if latest %}
+{% set is_video = latest.video_url %}
+{% set n_comments = comment_counts.get(latest.id, 0) %}
+{% set n_along = along_counts.get(latest.id, 0) %}
+<section class="blog-latest-wrap" aria-label="Latest post">
+  <a class="blog-latest" href="/blog/{{ latest.slug }}">
+    <span class="blog-latest-cover" aria-hidden="true">
+      {% if latest.cover_url %}<img src="{{ latest.cover_url }}" alt="">{% else %}{{ cup(latest.cup_kind, 260, latest.tea.liquor_hex if latest.tea else None, spin=True) }}{% endif %}
+      <span class="blog-latest-kind">{% if is_video %}<svg width="12" height="12" viewBox="0 0 24 24" fill="#FFFFFF" aria-hidden="true"><path d="M7 4l12 8-12 8z"></path></svg>VIDEO{% else %}GUIDE{% endif %}</span>
+      <span class="blog-latest-tag">LATEST</span>
+    </span>
+    <span class="blog-latest-body">
+      <span class="blog-cat cat-video">{{ 'BREAKDOWN' if is_video else 'GUIDE' }} · {{ latest.read_minutes }} MIN READ · {{ short_date(latest.published_at)|upper }}</span>
+      <span class="blog-latest-title">{{ latest.title }}</span>
+      {% if latest.summary %}<span class="blog-latest-text">{{ latest.summary }}</span>{% endif %}
+      <span class="blog-latest-meta"><span class="blog-read">Read and discuss →</span><span>{{ plural(n_comments, 'comment') }}</span>{% if n_along %}<span>{{ n_along }} session{{ '' if n_along == 1 else 's' }} attached</span>{% endif %}</span>
+    </span>
+  </a>
+</section>
+{% endif %}
+
+<div class="blog-main">
+  <section class="blog-posts" id="all-posts" aria-labelledby="posts-h">
+    {% if total or tab != 'all' %}
+    <div class="blog-posts-head">
+      <h2 id="posts-h" class="blog-h2">All posts</h2>
+      <nav class="blog-tabs" aria-label="Filter posts by category">
+        {% for key, label in tabs %}<a href="/blog{% if key != 'all' %}?tab={{ key }}{% endif %}#all-posts"{% if key == tab %} aria-current="true"{% endif %}>{{ label }}</a>{% endfor %}
+      </nav>
+    </div>
+    {% else %}<h2 id="posts-h" class="sr-only">All posts</h2>{% endif %}
+    {% if is_admin %}<p class="blog-admin"><a class="btn btn-secondary btn-sm" href="/admin/posts/new"><span class="plus" aria-hidden="true">+</span> Write a post</a>{% if drafts %} <a class="small" href="/admin/posts">{{ drafts }} draft{{ '' if drafts == 1 else 's' }} waiting</a>{% endif %}</p>{% endif %}
+    {% if page > 1 %}<p class="previous-page"><a class="btn btn-ghost btn-sm" href="/blog?{{ tab_query }}page={{ page - 1 }}#all-posts">← Newer posts</a></p>{% endif %}
+    {% if posts %}
+    <div class="blog-grid more-list">{% for post in posts %}{{ post_row(post) }}{% endfor %}{% if page < pages %}{{ show_more("/blog?" ~ tab_query ~ "page=" ~ (page + 1)) }}{% endif %}</div>
+    {% elif not total %}
+    <p class="blog-empty">{% if tab == 'all' %}The first brewing breakdown is coming.{% else %}Nothing in this category yet.{% endif %}</p>
+    {% elif tab != 'all' %}
+    <p class="blog-empty">Nothing in this category yet.</p>
+    {% endif %}
+  </section>
+
+  {% if popular %}
+  <aside class="blog-aside">
+    <section class="side-card" aria-labelledby="popular-h">
+      <h2 id="popular-h">Most brewed along</h2>
+      <ol class="hot-list">
+        {% for post, n in popular %}<li><a href="/blog/{{ post.slug }}">{{ post.title }}</a><span class="blog-side-meta">{{ n }} session{{ '' if n == 1 else 's' }} attached</span></li>{% endfor %}
+      </ol>
+    </section>
+  </aside>
+  {% endif %}
+</div>
 {% endblock %}
