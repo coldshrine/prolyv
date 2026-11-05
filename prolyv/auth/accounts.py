@@ -8,6 +8,7 @@ from dataclasses import dataclass, field
 from sqlalchemy import delete, select
 from sqlalchemy.orm import Session
 
+from prolyv.config import Settings
 from prolyv.handles import generate_handle
 from prolyv.models import (
     AuthSession,
@@ -163,3 +164,14 @@ def delete_expired_sessions(db: Session) -> int:
         db.delete(sess)
     db.flush()
     return len(expired)
+
+
+def is_admin_user(db: Session, settings: Settings, user: User) -> bool:
+    """Admin follows a verified sign-in, never the handle string, which anyone can take once it is free."""
+    if settings.is_local and settings.is_admin_handle(user.handle):
+        return True
+    emails, telegram_ids = settings.admin_email_set, settings.admin_telegram_id_set
+    if not emails and not telegram_ids:
+        return False
+    rows = db.execute(select(Identity.provider, Identity.provider_user_id, Identity.email).where(Identity.user_id == user.id)).all()
+    return any((row.email or "").lower() in emails or (row.provider == Provider.telegram and row.provider_user_id in telegram_ids) for row in rows)

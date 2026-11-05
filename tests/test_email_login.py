@@ -13,7 +13,7 @@ from tests.conftest import build_app, csrf_token, make_settings, telegram_login
 @pytest.fixture
 def local_client(tmp_path, google):
     app = build_app(make_settings(tmp_path, base_url="http://localhost:8000"), google)
-    with TestClient(app) as client:
+    with TestClient(app, base_url="http://localhost:8000") as client:
         yield client
 
 
@@ -30,9 +30,9 @@ def request_link(client, email="olena@example.com", **extra) -> str:
 
 def follow_link(client, link):
     page = client.get(link)
-    assert "Sign in to Prolyv" in page.text
+    assert "Sign in to Prolyv" in page.text or "Link this e-mail" in page.text
     token = re.search(r'name="token" value="([^"]+)"', page.text).group(1)
-    data = {"token": token}
+    data = {"token": token, "form_token": re.search(r'name="form_token" value="([^"]+)"', page.text).group(1)}
     match = re.search(r'name="next" value="([^"]+)"', page.text)
     if match:
         data["next"] = match.group(1)
@@ -49,7 +49,7 @@ def test_placeholders_count_as_not_configured():
 
 def test_login_page_on_localhost_sends_nobody_to_a_dead_end(tmp_path):
     app = build_app(make_settings(tmp_path, base_url="http://localhost:8000", google_client_id="", google_client_secret=""))
-    with TestClient(app) as client:
+    with TestClient(app, base_url="http://localhost:8000") as client:
         page = client.get("/login").text
         assert "telegram.org" not in page and "/auth/google/start" not in page
         assert "needs a public domain" in page and "Get a sign-in link by email" in page
@@ -76,7 +76,7 @@ def test_magic_link_creates_account_and_is_single_use(local_client):
     assert "olena@example.com" in client.get("/settings").text
 
     client.cookies.clear()
-    assert client.post("/auth/email/verify", data={"token": token}, follow_redirects=False).status_code == 400
+    assert client.post("/auth/email/verify", data={"token": token}, follow_redirects=False).status_code == 403
     assert "expired" in client.get(link).text
 
 
@@ -149,7 +149,7 @@ def test_link_email_from_settings_needs_the_same_browser(local_client):
 
 def test_demo_login_only_with_flag_on_localhost(tmp_path, google):
     app = build_app(make_settings(tmp_path, base_url="http://localhost:8000", dev_login=True), google)
-    with TestClient(app) as client:
+    with TestClient(app, base_url="http://localhost:8000") as client:
         assert "Continue as demo user" in client.get("/login").text
         assert client.get("/dev/login", follow_redirects=False).status_code == 303
         assert client.get("/settings").status_code == 200

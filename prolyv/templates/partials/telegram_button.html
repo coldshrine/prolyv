@@ -1,4 +1,4 @@
-<button type="button" class="btn-auth btn-telegram" data-telegram-login data-bot-id="{{ settings.telegram_bot_id }}">
+<button type="button" class="btn-auth btn-telegram" data-telegram-login data-bot-id="{{ settings.telegram_bot_id }}" data-state="{{ tg_state }}">
   <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 4L3 11l6 2 2 6 3-4 5 4z"/><path d="M9 13l12-9"/></svg>
   {{ tg_label|default("Continue with Telegram") }}
 </button>

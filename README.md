@@ -97,7 +97,7 @@ site wait for it, so run big imports when the site is quiet. Options: `--group j
 the cache), `--dry-run` (validate only), `--no-network`, `--prune` (unpublish teas whose card file is gone).
 
 Teas are added only by the team: the card files plus the importer, or the admin form at `/admin/teas/new`. Users do
-not add teas. Admins (handles listed in `ADMIN_HANDLES`) can edit any card and manage its photos; blog posts are
+not add teas. Admins (`ADMIN_EMAILS` or `ADMIN_TELEGRAM_IDS`, matched against a verified sign-in; `ADMIN_HANDLES` works on localhost only) can edit any card and manage its photos; blog posts are
 written at `/admin/posts`.
 
 ## Что сделать руками, 5 минут
@@ -267,7 +267,7 @@ export SSH="ssh -i ~/Downloads/ssh-key-2026-06-25.key"
 
 4. **Secrets.** Create `/etc/prolyv.env` from `.env.example` and fill it in. Values that differ from local:
    `BASE_URL=https://prolyv.144.24.168.1.sslip.io`, `DATABASE_URL=sqlite:////var/lib/prolyv/prolyv.db`,
-   `MEDIA_DIR=/var/lib/prolyv/media`, `ADMIN_HANDLES=<your handle>`, no `DEV_LOGIN` (the app won't start with it),
+   `MEDIA_DIR=/var/lib/prolyv/media`, `ADMIN_EMAILS=<the e-mail you sign in with>` (or `ADMIN_TELEGRAM_IDS=<your numeric Telegram id>`), no `DEV_LOGIN` (the app won't start with it),
    `BIND_HOST=0.0.0.0` (so the Caddy container can reach uvicorn through the host gateway; port 8010 is closed
    in the OCI security list and in the host firewall, so nothing else can).
 

@@ -9,6 +9,7 @@ from datetime import date, datetime, timedelta
 from pathlib import Path
 
 from fastapi import APIRouter, Depends, Form, HTTPException, Request
+from fastapi.concurrency import run_in_threadpool
 from fastapi.responses import FileResponse, RedirectResponse, Response
 from sqlalchemy import func, select
 from sqlalchemy.orm import load_only, selectinload
@@ -32,7 +33,7 @@ from prolyv.models import (
 from prolyv.search import index_session, remove
 from prolyv.social import notify, notify_followers
 from prolyv.story import render_story
-from prolyv.uploads import MAX_PHOTOS, PhotoError, delete_photo_files, delete_session_media, save_session_photo
+from prolyv.uploads import MAX_PHOTOS, PhotoError, delete_photo_files, delete_session_media, delete_story_files, save_session_photo
 from prolyv.web.deps import CurrentUser, DbDep, RequiredUser, SettingsDep, SignerDep, post_quota, require_csrf
 from prolyv.web.flash import set_flash
 from prolyv.web.templating import render
@@ -237,7 +238,7 @@ async def apply_photos(request: Request, db, sess: TeaSession, data) -> str | No
             break
         content = await upload.read()
         try:
-            url, thumb = save_session_photo(settings.media_dir, sess.id, content)
+            url, thumb = await run_in_threadpool(save_session_photo, settings.media_dir, sess.id, content)
         except PhotoError as exc:
             problem = str(exc)
             continue
@@ -280,7 +281,7 @@ def session_new_form(request: Request, db: DbDep, user: RequiredUser, tea: str =
     return render(request, "diary/session_form.html", form_context(form, tea=picked))
 
 
-@router.post("/sessions/new", dependencies=[Depends(require_csrf)])
+@router.post("/sessions/new", dependencies=[Depends(require_csrf), Depends(post_quota)])
 async def session_create(request: Request, db: DbDep, settings: SettingsDep, signer: SignerDep, user: RequiredUser):
     data = await request.form()
     form, errors = parse_session_form(data)
@@ -309,7 +310,7 @@ def session_edit_form(request: Request, db: DbDep, user: RequiredUser, session_i
     return render(request, "diary/session_form.html", form_context(form_from_session(sess), tea=sess.tea, editing=sess))
 
 
-@router.post("/sessions/{session_id}/edit", dependencies=[Depends(require_csrf)])
+@router.post("/sessions/{session_id}/edit", dependencies=[Depends(require_csrf), Depends(post_quota)])
 async def session_edit(request: Request, db: DbDep, settings: SettingsDep, signer: SignerDep, user: RequiredUser, session_id: uuid.UUID):
     sess = get_session(db, session_id, user, getattr(request.state, "is_admin", False))
     require_owner(sess, user, getattr(request.state, "is_admin", False))
@@ -320,6 +321,8 @@ async def session_edit(request: Request, db: DbDep, settings: SettingsDep, signe
     apply_session_form(db, sess, form)
     problem = await apply_photos(request, db, sess, data)
     sess.updated_at = utcnow()
+    if not sess.is_public:
+        delete_story_files(settings.media_dir, sess.id)
     announce_session(db, sess)
     index_session(db, sess)
     response = RedirectResponse(f"/sessions/{sess.id}", status_code=303)
@@ -336,6 +339,8 @@ def session_visibility(request: Request, db: DbDep, settings: SettingsDep, signe
     sess = get_session(db, session_id, user, getattr(request.state, "is_admin", False))
     require_owner(sess, user, getattr(request.state, "is_admin", False))
     sess.visibility = Visibility.public if visibility == "public" else Visibility.private
+    if not sess.is_public:
+        delete_story_files(settings.media_dir, sess.id)
     announce_session(db, sess)
     index_session(db, sess)
     response = RedirectResponse(f"/sessions/{sess.id}", status_code=303)

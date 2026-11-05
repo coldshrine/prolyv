@@ -8,9 +8,10 @@
     var form = document.createElement("form");
     form.method = "POST";
     form.action = "/auth/telegram/callback";
-    Object.keys(user).forEach(function (key) {
+    var fields = Object.assign({}, user, { state: button.dataset.state });
+    Object.keys(fields).forEach(function (key) {
       var input = document.createElement("input");
-      input.type = "hidden"; input.name = key; input.value = user[key];
+      input.type = "hidden"; input.name = key; input.value = fields[key];
       form.appendChild(input);
     });
     document.body.appendChild(form);

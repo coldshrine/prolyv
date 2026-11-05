@@ -298,7 +298,7 @@ def test_private_session_photos_are_only_for_the_author_and_admins(client, db, a
     anonymous = fresh()
     admin = fresh()
     telegram_login(admin, tg_id="3", username="boss")
-    app.state.settings.admin_handles = "boss"
+    app.state.settings.admin_telegram_ids = "3"
 
     for url in urls:
         owner_view = client.get(url)

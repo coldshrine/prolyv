@@ -29,7 +29,7 @@
       {% endif %}
 
       {% if settings.telegram_usable %}
-        {% include "partials/telegram_button.html" %}
+        {% set tg_state = form_token %}{% include "partials/telegram_button.html" %}
       {% elif settings.is_local %}
         <p class="muted small">Telegram sign-in needs a public domain, so it is off on localhost.</p>
       {% endif %}

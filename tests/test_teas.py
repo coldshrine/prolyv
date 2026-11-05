@@ -233,7 +233,7 @@ def test_sitemap_lists_published_teas(client, db, settings):
 
 def test_dev_login_only_works_locally(tmp_path, google):
     dev_app = build_app(make_settings(tmp_path, dev_login=True, base_url="http://localhost:8000"), google)
-    with TestClient(dev_app) as client:
+    with TestClient(dev_app, base_url="http://localhost:8000") as client:
         telegram_login(client, username="olena_tea")
         client.cookies.clear()
         response = client.get("/dev/login/olena_tea", follow_redirects=False)

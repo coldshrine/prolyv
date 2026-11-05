@@ -10,7 +10,7 @@ from prolyv.auth.sessions import create_session
 from prolyv.models import Identity, Provider, User
 from prolyv.security import SESSION_COOKIE
 from prolyv.web.cookies import set_cookie
-from prolyv.web.deps import DbDep, SettingsDep, SignerDep
+from prolyv.web.deps import DbDep, SettingsDep, SignerDep, on_this_machine
 from prolyv.web.flash import set_flash
 
 router = APIRouter()
@@ -21,7 +21,7 @@ DEMO_HANDLE = "demo_user"
 @router.get("/dev/login")
 def dev_login_demo(request: Request, db: DbDep, settings: SettingsDep, signer: SignerDep):
     """'Continue as demo user' on the login page (localhost with DEV_LOGIN=1 only)."""
-    if not settings.dev_login_enabled:
+    if not settings.dev_login_enabled or not on_this_machine(request):
         raise HTTPException(status_code=404)
     if get_user_by_handle(db, DEMO_HANDLE) is None:
         user = User(handle=DEMO_HANDLE, display_name="Demo User", bio="A local demo account.")
@@ -33,7 +33,7 @@ def dev_login_demo(request: Request, db: DbDep, settings: SettingsDep, signer: S
 
 @router.get("/dev/login/{handle}")
 def dev_login(request: Request, db: DbDep, settings: SettingsDep, signer: SignerDep, handle: str):
-    if not settings.dev_login_enabled:
+    if not settings.dev_login_enabled or not on_this_machine(request):
         raise HTTPException(status_code=404)
     user = get_user_by_handle(db, handle.lower())
     if user is None:

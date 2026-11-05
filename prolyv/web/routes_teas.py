@@ -355,7 +355,7 @@ def tea_detail(request: Request, db: DbDep, settings: SettingsDep, user: Current
     tea = db.execute(select(Tea).where(Tea.slug == slug.lower())).scalar_one_or_none()
     if tea is None:
         raise HTTPException(status_code=404)
-    is_admin = user is not None and settings.is_admin_handle(user.handle)
+    is_admin = getattr(request.state, "is_admin", False)
     if tea.status != TeaStatus.published and not is_admin:
         raise HTTPException(status_code=404)
     languages = tea.languages

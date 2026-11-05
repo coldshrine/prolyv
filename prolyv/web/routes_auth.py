@@ -4,10 +4,10 @@ from __future__ import annotations
 
 import hmac
 import logging
-from urllib.parse import quote
+from urllib.parse import quote, urlsplit
 
 from fastapi import APIRouter, Depends, Form, HTTPException, Request
-from fastapi.responses import RedirectResponse, Response
+from fastapi.responses import RedirectResponse
 
 from prolyv.auth.accounts import AccountError, ExternalProfile, sign_in
 from prolyv.auth.email_links import TOKEN_MINUTES, create_login_token, email_profile, find_valid_token, normalize_email
@@ -28,7 +28,7 @@ from prolyv.security import (
     random_state,
 )
 from prolyv.web.cookies import delete_cookie, set_cookie
-from prolyv.web.deps import CurrentUser, DbDep, RequiredUser, SettingsDep, SignerDep, require_csrf
+from prolyv.web.deps import CurrentUser, DbDep, RequiredUser, SettingsDep, SignerDep, on_this_machine, require_csrf
 from prolyv.web.flash import set_flash
 from prolyv.web.templating import render
 
@@ -52,9 +52,11 @@ def safe_next(value: str | None) -> str | None:
     return None
 
 
-def set_telegram_intent(response: Response, settings: Settings, signer: Signer, next_url: str | None) -> None:
-    """Pages that show the Telegram button set this; the callback requires it (blocks login CSRF)."""
-    set_cookie(response, settings, INTENT_COOKIE, signer.dumps("tg_intent", {"next": next_url}), INTENT_COOKIE_MAX_AGE)
+def new_intent(signer: Signer, next_url: str | None) -> tuple[str, str]:
+    """(cookie value, form token) for one sign-in attempt. The token is an HMAC of a random cookie, so another site can't
+    produce it, and a callback or magic link it pushes at a visitor is refused."""
+    intent = signer.dumps("tg_intent", {"next": next_url, "n": random_state()})
+    return intent, signer.csrf_token(hash_token(intent))
 
 
 def anon_form_token(request: Request, signer: Signer) -> str:
@@ -71,8 +73,7 @@ def login_page(request: Request, settings: SettingsDep, signer: SignerDep, user:
     next_url = safe_next(next)
     if user is not None:
         return RedirectResponse(next_url or "/", status_code=303)
-    intent = signer.dumps("tg_intent", {"next": next_url})
-    form_token = signer.csrf_token(hash_token(intent))
+    intent, form_token = new_intent(signer, next_url)
     response = render(request, "login.html", {"next": next_url, "form_token": form_token})
     set_cookie(response, settings, INTENT_COOKIE, intent, INTENT_COOKIE_MAX_AGE)
     return response
@@ -126,18 +127,17 @@ def google_callback(
     return complete_sign_in(request, db, settings, signer, profile, user, payload.get("next"), clear=(OAUTH_COOKIE,))
 
 
-@router.api_route("/auth/telegram/callback", methods=["GET", "POST"])
+@router.post("/auth/telegram/callback")
 async def telegram_callback(request: Request, db: DbDep, settings: SettingsDep, signer: SignerDep, user: CurrentUser):
+    """telegram.js posts the widget's answer here from our own page. A payload alone proves who the Telegram user is,
+    not that this browser asked to sign in, so the attempt's token must match too."""
     if not settings.telegram_enabled:
         raise HTTPException(status_code=404)
-    if request.method == "POST":
-        form = await request.form()
-        params = {k: v for k, v in form.items() if isinstance(v, str)}
-    else:
-        params = dict(request.query_params)
+    form = await request.form()
+    params = {k: v for k, v in form.items() if isinstance(v, str)}
 
     intent = signer.loads("tg_intent", request.cookies.get(INTENT_COOKIE), INTENT_COOKIE_MAX_AGE)
-    if intent is None:
+    if intent is None or not hmac.compare_digest(params.get("state", ""), anon_form_token(request, signer)):
         return error_page(request, "Please start from the login page", "Open Prolyv's login page and tap Continue with Telegram.")
 
     try:
@@ -200,7 +200,7 @@ def complete_sign_in(
 @router.post("/auth/email/start")
 def email_start(request: Request, db: DbDep, settings: SettingsDep, signer: SignerDep, user: CurrentUser,
                 email: str = Form(""), next: str = Form(""), csrf_token: str = Form("")):
-    if not settings.email_login_enabled:
+    if not settings.email_login_enabled or not (settings.smtp_enabled or on_this_machine(request)):
         raise HTTPException(status_code=404)
     if user is not None:
         valid = signer.verify_csrf(request.state.session.token_hash, csrf_token)
@@ -238,17 +238,23 @@ def email_start(request: Request, db: DbDep, settings: SettingsDep, signer: Sign
 
 
 @router.get("/auth/email/verify")
-def email_verify_page(request: Request, db: DbDep, user: CurrentUser, token: str = "", next: str = ""):
+def email_verify_page(request: Request, db: DbDep, settings: SettingsDep, signer: SignerDep, user: CurrentUser, token: str = "", next: str = ""):
     """Shows a button instead of signing in right away, so mail scanners that fetch links don't burn the token."""
     row = find_valid_token(db, token)
     if row is None:
         return error_page(request, "This link has expired", "Sign-in links work once and last 15 minutes. Ask for a new one.")
-    return render(request, "auth/email_confirm.html", {"token": token, "next": safe_next(next), "email": row.email})
+    intent, form_token = new_intent(signer, safe_next(next))
+    linking = row.user_id is not None
+    response = render(request, "auth/email_confirm.html", {"token": token, "next": safe_next(next), "email": row.email, "form_token": form_token, "linking": linking})
+    set_cookie(response, settings, INTENT_COOKIE, intent, INTENT_COOKIE_MAX_AGE)
+    return response
 
 
 @router.post("/auth/email/verify")
 def email_verify(request: Request, db: DbDep, settings: SettingsDep, signer: SignerDep, user: CurrentUser,
-                 token: str = Form(""), next: str = Form("")):
+                 token: str = Form(""), next: str = Form(""), form_token: str = Form("")):
+    if not request.cookies.get(INTENT_COOKIE) or not hmac.compare_digest(form_token, anon_form_token(request, signer)):
+        raise HTTPException(status_code=403, detail="csrf_failed")
     row = find_valid_token(db, token)
     if row is None:
         return error_page(request, "This link has expired", "Sign-in links work once and last 15 minutes. Ask for a new one.")
@@ -269,4 +275,10 @@ def logout(request: Request, db: DbDep, settings: SettingsDep, signer: SignerDep
 
 
 def login_redirect(request: Request) -> RedirectResponse:
-    return RedirectResponse(f"/login?next={quote(request.url.path)}", status_code=303)
+    target = request.url.path
+    if request.method != "GET":  # the action itself can't be opened after signing in: go back to the page it came from
+        referer = urlsplit(request.headers.get("referer", ""))
+        target = referer.path if referer.netloc == request.url.netloc and referer.path else "/"
+    elif request.url.query:
+        target = f"{target}?{request.url.query}"
+    return RedirectResponse(f"/login?next={quote(target)}", status_code=303)

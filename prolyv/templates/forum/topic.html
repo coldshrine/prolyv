@@ -16,7 +16,7 @@
   <h1 class="h1">{{ topic.title }}</h1>
   <p class="session-by">{{ author_chip(topic.user, 32, long=True) }} · <span class="muted">{{ topic.created_at.strftime('%-d %B %Y') }}</span></p>
   <div class="prose topic-body user-text">{{ paras(topic.paragraphs) }}</div>
-  {% if topic.attached_session %}<div class="attached"><p class="label">Attached session</p>{{ session_card(topic.attached_session) }}</div>{% endif %}
+  {% if topic.shown_session %}<div class="attached"><p class="label">Attached session</p>{{ session_card(topic.shown_session) }}</div>{% endif %}
   <div class="actions topic-actions">
     {{ save_button('topic', topic.id, saved, current_user, csrf_token, path) }}
     {% if current_user and not is_author %}{{ report_button('topic', topic.id, csrf_token, path) }}{% endif %}
@@ -40,7 +40,7 @@
         {% if r.marked_helpful_by_author %}<span class="badge badge-solved">Marked helpful by the author</span>{% endif %}
       </div>
       <div class="prose user-text">{{ paras(r.paragraphs) }}</div>
-      {% if r.attached_session %}<div class="attached">{{ session_card(r.attached_session) }}</div>{% endif %}
+      {% if r.shown_session %}<div class="attached">{{ session_card(r.shown_session) }}</div>{% endif %}
       <div class="reply-actions">
         {% if current_user and r.user_id != current_user.id %}
         <form method="post" action="/discussions/{{ topic.id }}/replies/{{ r.id }}/helpful"><input type="hidden" name="csrf_token" value="{{ csrf_token }}"><button class="vote-btn{% if r.id in my_votes %} vote-on{% endif %}" type="submit" aria-pressed="{{ 'true' if r.id in my_votes else 'false' }}">👍 Helpful · {{ r.helpful_count }}</button></form>

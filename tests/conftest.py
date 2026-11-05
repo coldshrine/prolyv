@@ -17,6 +17,7 @@ from prolyv.auth.telegram import sign_telegram_params
 from prolyv.config import Settings
 from prolyv.models import Base
 from prolyv.search import ensure_forum_sections
+from prolyv.security import INTENT_COOKIE, hash_token
 
 BOT_TOKEN = "123456:TEST-BOT-TOKEN-0123456789"
 GOOGLE_CLIENT_ID = "test-client-id.apps.googleusercontent.com"
@@ -33,6 +34,8 @@ TIKTOK_UA = (
 
 
 def make_settings(tmp_path, **overrides) -> Settings:
+    if "admin_handles" in overrides:  # a handle only makes an admin on a local copy
+        overrides.setdefault("base_url", "http://localhost:8000")
     values = {
         "secret_key": "test-secret-key-test-secret-key-test-secret-key-0000",
         "database_url": f"sqlite:///{tmp_path}/test.db",
@@ -139,7 +142,13 @@ def telegram_params(tg_id="42", first_name="Olena", last_name="K.", username="ol
 def telegram_login(client: TestClient, **kwargs):
     """Visit /login (sets the intent cookie) and hit the Telegram callback with validly signed params."""
     client.get("/login")
-    return client.get("/auth/telegram/callback", params=telegram_params(**kwargs), follow_redirects=False)
+    return telegram_post(client, telegram_params(**kwargs))
+
+
+def telegram_post(client: TestClient, params: dict):
+    """What telegram.js does on our page: the widget's answer plus this attempt's token."""
+    token = client.app.state.signer.csrf_token(hash_token(client.cookies.get(INTENT_COOKIE) or ""))
+    return client.post("/auth/telegram/callback", data={**params, "state": token}, follow_redirects=False)
 
 
 def google_login(client: TestClient, google: GoogleStub, sub="google-sub-1", email="olena@example.com", name="Olena K.",

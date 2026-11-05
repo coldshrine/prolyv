@@ -47,7 +47,9 @@ class Settings(BaseSettings):
     social_instagram: str = ""
     contact_email: str = ""  # shown on the legal pages when set
 
-    admin_handles: str = ""  # comma-separated handles that may administer the site
+    admin_emails: str = ""  # comma-separated verified e-mails (Google or magic link) of the site's admins
+    admin_telegram_ids: str = ""  # comma-separated numeric Telegram ids of the site's admins
+    admin_handles: str = ""  # local development only: a handle is just a name anyone could take
     dev_login: bool = False  # "Continue as demo user"; the app refuses to start with it unless BASE_URL is localhost
 
     session_days: int = 30
@@ -116,6 +118,14 @@ class Settings(BaseSettings):
 
     def is_admin_handle(self, handle: str) -> bool:
         return handle.lower() in self.admin_handle_set
+
+    @property
+    def admin_email_set(self) -> frozenset[str]:
+        return frozenset(e.strip().lower() for e in self.admin_emails.split(",") if e.strip())
+
+    @property
+    def admin_telegram_id_set(self) -> frozenset[str]:
+        return frozenset(t.strip() for t in self.admin_telegram_ids.split(",") if t.strip())
 
     @property
     def dev_login_enabled(self) -> bool:

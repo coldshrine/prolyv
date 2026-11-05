@@ -1,13 +1,14 @@
 {% extends "base.html" %}
-{% block title %}Sign in · Prolyv{% endblock %}
+{% block title %}{{ "Link this e-mail" if linking else "Sign in" }} · Prolyv{% endblock %}
 {% block content %}
 <section class="container narrow centered">
-  <p class="eyebrow">Sign-in link</p>
-  <h1 class="h1">Continue as {{ email }}</h1>
+  <p class="eyebrow">{{ "Link an e-mail" if linking else "Sign-in link" }}</p>
+  <h1 class="h1">{% if linking %}Link {{ email }} to your account{% else %}Continue as {{ email }}{% endif %}</h1>
   <form method="post" action="/auth/email/verify" class="actions">
     <input type="hidden" name="token" value="{{ token }}">
+    <input type="hidden" name="form_token" value="{{ form_token }}">
     {% if next %}<input type="hidden" name="next" value="{{ next }}">{% endif %}
-    <button class="btn btn-primary" type="submit">Sign in to Prolyv</button>
+    <button class="btn btn-primary" type="submit">{{ "Link this e-mail" if linking else "Sign in to Prolyv" }}</button>
   </form>
 </section>
 {% endblock %}

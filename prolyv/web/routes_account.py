@@ -23,13 +23,13 @@ from prolyv.models import (
     User,
     utcnow,
 )
-from prolyv.security import SESSION_COOKIE
+from prolyv.security import INTENT_COOKIE, INTENT_COOKIE_MAX_AGE, SESSION_COOKIE
 from prolyv.social import follow_counts, is_following
 from prolyv.uploads import delete_session_media
-from prolyv.web.cookies import delete_cookie
+from prolyv.web.cookies import delete_cookie, set_cookie
 from prolyv.web.deps import CurrentUser, DbDep, RequiredUser, SettingsDep, SignerDep, require_csrf
 from prolyv.web.flash import set_flash
-from prolyv.web.routes_auth import PROVIDER_NAMES, set_telegram_intent
+from prolyv.web.routes_auth import PROVIDER_NAMES, new_intent
 from prolyv.web.routes_diary import public_session_count, public_sessions_for_user
 from prolyv.web.routes_forum import helpful_reply_count, topic_count_for_user, topics_for_user
 from prolyv.web.templating import render
@@ -57,9 +57,13 @@ def settings_context(user: User, form: dict | None = None, errors: dict | None =
 
 
 def render_settings(request: Request, user: User, form: dict | None = None, errors: dict | None = None, status_code: int = 200):
-    response = render(request, "settings.html", settings_context(user, form, errors), status_code=status_code)
-    if user.identity_for(Provider.telegram) is None:
-        set_telegram_intent(response, request.app.state.settings, request.app.state.signer, "/settings")
+    context = settings_context(user, form, errors)
+    needs_telegram = user.identity_for(Provider.telegram) is None
+    if needs_telegram:
+        intent, context["tg_state"] = new_intent(request.app.state.signer, "/settings")
+    response = render(request, "settings.html", context, status_code=status_code)
+    if needs_telegram:
+        set_cookie(response, request.app.state.settings, INTENT_COOKIE, intent, INTENT_COOKIE_MAX_AGE)
     return response
 
 

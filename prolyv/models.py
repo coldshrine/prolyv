@@ -488,6 +488,10 @@ class ForumSection(Base):
     topics: Mapped[list[Topic]] = relationship(back_populates="section")
 
 
+def public_or_none(sess: TeaSession | None) -> TeaSession | None:
+    return sess if sess is not None and sess.is_public and not sess.hidden else None
+
+
 class Topic(Base):
     __tablename__ = "topics"
 
@@ -509,6 +513,11 @@ class Topic(Base):
     user: Mapped[User] = relationship()
     attached_session: Mapped[TeaSession | None] = relationship()
     replies: Mapped[list[Reply]] = relationship(back_populates="topic", cascade="all, delete-orphan", order_by="Reply.created_at")
+
+    @property
+    def shown_session(self) -> TeaSession | None:
+        """The attached session, only while it is public: it can turn private or be hidden after it was attached."""
+        return public_or_none(self.attached_session)
 
     @property
     def activity_at(self) -> datetime:
@@ -536,6 +545,10 @@ class Reply(Base):
     user: Mapped[User] = relationship()
     attached_session: Mapped[TeaSession | None] = relationship()
     votes: Mapped[list[ReplyVote]] = relationship(back_populates="reply", cascade="all, delete-orphan")
+
+    @property
+    def shown_session(self) -> TeaSession | None:
+        return public_or_none(self.attached_session)
 
     @property
     def paragraphs(self) -> list[str]:

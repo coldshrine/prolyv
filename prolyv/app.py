@@ -11,6 +11,7 @@ from fastapi.responses import PlainTextResponse
 from fastapi.staticfiles import StaticFiles
 from starlette.exceptions import HTTPException as StarletteHTTPException
 
+from prolyv.auth.accounts import is_admin_user
 from prolyv.auth.google import GoogleOIDC
 from prolyv.auth.sessions import load_session
 from prolyv.config import Settings, get_settings
@@ -107,7 +108,7 @@ def create_app(settings: Settings | None = None, google_transport=None) -> FastA
             db.commit()
             request.state.user = sess.user if sess else None
             if sess:
-                request.state.is_admin = settings.is_admin_handle(sess.user.handle)
+                request.state.is_admin = is_admin_user(db, settings, sess.user)
         finally:
             db.close()
 

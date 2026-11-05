@@ -9,6 +9,7 @@ from fastapi import Depends, HTTPException, Request
 from sqlalchemy import func, select
 from sqlalchemy.orm import Session
 
+from prolyv.auth.accounts import is_admin_user
 from prolyv.auth.sessions import load_session, touch_session
 from prolyv.config import Settings
 from prolyv.db import session_scope
@@ -41,7 +42,7 @@ def get_current_user(request: Request, db: DbDep, settings: SettingsDep, signer:
     request.state.session = sess
     request.state.user = sess.user if sess is not None else None
     request.state.csrf_token = signer.csrf_token(sess.token_hash) if sess is not None else ""
-    request.state.is_admin = sess is not None and settings.is_admin_handle(sess.user.handle)
+    request.state.is_admin = sess is not None and is_admin_user(db, settings, sess.user)
     if sess is None:
         return None
     request.state.unread = db.scalar(
@@ -64,6 +65,12 @@ def require_user(request: Request, user: CurrentUser) -> User:
 RequiredUser = Annotated[User, Depends(require_user)]
 
 
+def on_this_machine(request: Request) -> bool:
+    """BASE_URL defaults to localhost, so a forgotten setting must not switch on local-only helpers on a real domain."""
+    host = request.url.hostname or ""
+    return host in ("localhost", "127.0.0.1", "::1") or host.endswith(".localhost")
+
+
 def csrf_token_for(request: Request) -> str:
     return getattr(request.state, "csrf_token", "")
 
@@ -76,8 +83,8 @@ async def require_csrf(request: Request, user: RequiredUser, signer: SignerDep) 
         raise HTTPException(status_code=403, detail="csrf_failed")
 
 
-def require_admin(request: Request, user: RequiredUser, settings: SettingsDep) -> User:
-    if not settings.is_admin_handle(user.handle):
+def require_admin(request: Request, user: RequiredUser) -> User:
+    if not request.state.is_admin:
         raise HTTPException(status_code=403, detail="admin_only")
     return user
 

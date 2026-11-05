@@ -56,7 +56,7 @@
   </div>
   <a class="topic-title" href="/discussions/{{ topic.id }}">{{ topic.title }}</a>
   <p class="topic-excerpt">{{ topic.body[:180] }}{% if topic.body|length > 180 %}…{% endif %}</p>
-  <p class="topic-meta">{{ who(topic.user) }} · {{ topic.reply_count }} repl{{ 'y' if topic.reply_count == 1 else 'ies' }}{% if topic.attached_session %} · session attached{% endif %}</p>
+  <p class="topic-meta">{{ who(topic.user) }} · {{ topic.reply_count }} repl{{ 'y' if topic.reply_count == 1 else 'ies' }}{% if topic.shown_session %} · session attached{% endif %}</p>
 </article>
 {%- endmacro %}
 

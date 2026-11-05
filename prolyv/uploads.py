@@ -7,10 +7,11 @@ import uuid
 from io import BytesIO
 from pathlib import Path
 
-from PIL import Image, ImageOps
+from PIL import Image
 
 MAX_BYTES = 10 * 1024 * 1024
-MAX_PIXELS = 50_000_000
+MAX_PIXELS = 60_000_000  # JPEG: decoded at reduced scale, so a big phone photo costs little
+MAX_PIXELS_OTHER = 20_000_000  # PNG and WebP decode in full: about 80 MB of memory at this size, against a 300 MB service limit
 MAX_PHOTOS = 4
 ALLOWED_FORMATS = {"JPEG", "PNG", "WEBP"}
 
@@ -27,22 +28,27 @@ def save_session_photo(media_dir: str, session_id: uuid.UUID, data: bytes) -> tu
         with Image.open(BytesIO(data)) as raw:
             if raw.format not in ALLOWED_FORMATS:
                 raise PhotoError("Use a JPEG, PNG or WebP photo.")
-            if raw.width * raw.height > MAX_PIXELS:
+            plain = raw.mode in ("RGB", "L")
+            limit = MAX_PIXELS if raw.format == "JPEG" and plain else MAX_PIXELS_OTHER
+            if raw.width * raw.height > limit:
                 raise PhotoError("That photo is too large. Try a smaller one.")
-            upright = ImageOps.exif_transpose(raw).convert("RGB")
+            orientation = raw.getexif().get(0x0112)
+            picture = raw if plain else raw.convert("RGB")  # palettes and alpha don't resize well
+            picture.thumbnail((1200, 1200))  # in place, and JPEG decodes at reduced scale
+            clean = Image.new("RGB", picture.size)  # a new image carries pixels only, no EXIF or other metadata
+            clean.paste(picture)
     except PhotoError:
         raise
-    except (OSError, ValueError, Image.DecompressionBombError) as exc:
+    except (OSError, ValueError, SyntaxError, Image.DecompressionBombError) as exc:
         raise PhotoError("That file doesn't look like a photo.") from exc
-    # a new image carries pixels only, no EXIF or other metadata
-    clean = Image.new("RGB", upright.size)
-    clean.paste(upright)
+    turn = {2: Image.Transpose.FLIP_LEFT_RIGHT, 3: Image.Transpose.ROTATE_180, 4: Image.Transpose.FLIP_TOP_BOTTOM,
+            5: Image.Transpose.TRANSPOSE, 6: Image.Transpose.ROTATE_270, 7: Image.Transpose.TRANSVERSE, 8: Image.Transpose.ROTATE_90}.get(orientation)
+    if turn is not None:
+        clean = clean.transpose(turn)
     folder = Path(media_dir) / "sessions" / session_id.hex
     folder.mkdir(parents=True, exist_ok=True)
     name = uuid.uuid4().hex
-    large = clean.copy()
-    large.thumbnail((1200, 1200))
-    large.save(folder / f"{name}-1200.webp", "WEBP", quality=82, method=4)
+    clean.save(folder / f"{name}-1200.webp", "WEBP", quality=82, method=4)
     clean.thumbnail((400, 400))
     clean.save(folder / f"{name}-400.webp", "WEBP", quality=75, method=4)
     base = f"/media/sessions/{session_id.hex}/{name}"
@@ -57,3 +63,9 @@ def delete_photo_files(media_dir: str, url: str, thumb_url: str | None) -> None:
 
 def delete_session_media(media_dir: str, session_id: uuid.UUID) -> None:
     shutil.rmtree(Path(media_dir) / "sessions" / session_id.hex, ignore_errors=True)
+    delete_story_files(media_dir, session_id)
+
+
+def delete_story_files(media_dir: str, session_id: uuid.UUID) -> None:
+    for path in (Path(media_dir) / "stories").glob(f"{session_id.hex}-*.png"):
+        path.unlink(missing_ok=True)

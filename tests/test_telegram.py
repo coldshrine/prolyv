@@ -5,7 +5,7 @@ from sqlalchemy import select
 
 from prolyv.auth.telegram import TelegramAuthError, sign_telegram_params, verify_telegram_auth
 from prolyv.models import AuthSession, Identity, Provider, User
-from tests.conftest import BOT_TOKEN, set_cookie_names, telegram_login, telegram_params
+from tests.conftest import BOT_TOKEN, set_cookie_names, telegram_login, telegram_params, telegram_post
 
 
 def test_valid_signature_is_accepted():
@@ -76,7 +76,7 @@ def test_callback_creates_user_and_session(client, db):
 
 def test_callback_accepts_post_form(client, db):
     client.get("/login")
-    response = client.post("/auth/telegram/callback", data=telegram_params(tg_id="43"), follow_redirects=False)
+    response = telegram_post(client, telegram_params(tg_id="43"))
     assert response.status_code == 303
     assert db.execute(select(User)).scalar_one().identities[0].provider_user_id == "43"
 
@@ -85,7 +85,7 @@ def test_callback_rejects_tampered_hash(client, db):
     client.get("/login")
     params = telegram_params()
     params["id"] = "1"
-    response = client.get("/auth/telegram/callback", params=params, follow_redirects=False)
+    response = telegram_post(client, params)
     assert response.status_code == 400
     assert "could not be verified" in response.text
     assert db.execute(select(User)).first() is None
@@ -94,14 +94,14 @@ def test_callback_rejects_tampered_hash(client, db):
 def test_callback_rejects_stale_auth(client):
     client.get("/login")
     params = telegram_params(auth_date=int(time.time()) - 2 * 86400)
-    response = client.get("/auth/telegram/callback", params=params, follow_redirects=False)
+    response = telegram_post(client, params)
     assert response.status_code == 400
     assert "older than 24 hours" in response.text
 
 
 def test_callback_requires_login_page_intent(client):
     """A signed callback pasted into a fresh browser must not log that browser in (login CSRF)."""
-    response = client.get("/auth/telegram/callback", params=telegram_params(), follow_redirects=False)
+    response = telegram_post(client, telegram_params())
     assert response.status_code == 400
     assert "start from the login page" in response.text
     assert "prolyv_session" not in set_cookie_names(response)
@@ -120,7 +120,7 @@ def test_second_login_from_a_new_browser_reuses_user(client, db):
 def test_callback_refuses_when_already_signed_in_without_intent(client):
     """A logged-in browser only gets a Telegram intent from /settings (link flow), never from /login."""
     telegram_login(client, tg_id="42")
-    response = client.get("/auth/telegram/callback", params=telegram_params(tg_id="42"), follow_redirects=False)
+    response = telegram_post(client, telegram_params(tg_id="42"))
     assert response.status_code == 400
 
 
@@ -131,5 +131,5 @@ def test_callback_404_when_telegram_not_configured(tmp_path, google):
 
     app = build_app(make_settings(tmp_path, telegram_bot_token="", telegram_bot_username=""), google)
     with TestClient(app) as client:
-        assert client.get("/auth/telegram/callback", params=telegram_params()).status_code == 404
+        assert client.post("/auth/telegram/callback", data=telegram_params()).status_code == 404
         assert "telegram.org" not in client.get("/login").text

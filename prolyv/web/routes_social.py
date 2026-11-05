@@ -9,7 +9,7 @@ from fastapi.responses import RedirectResponse
 from sqlalchemy import func, select, update
 from sqlalchemy.orm import selectinload
 
-from prolyv.auth.accounts import get_user_by_handle, purge_sessions
+from prolyv.auth.accounts import get_user_by_handle, is_admin_user, purge_sessions
 from prolyv.models import (
     REPORT_REASONS,
     SAVE_KINDS,
@@ -220,7 +220,7 @@ def admin_user_ban(request: Request, db: DbDep, settings: SettingsDep, signer: S
     if target is None:
         raise HTTPException(status_code=404)
     response = RedirectResponse("/admin/users", status_code=303)
-    if target.id == user.id or settings.is_admin_handle(target.handle):
+    if target.id == user.id or is_admin_user(db, settings, target):
         set_flash(response, settings, signer, "error", "Admins can't be restricted here.")
         return response
     if banned == "1":
