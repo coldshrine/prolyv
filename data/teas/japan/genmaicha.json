@@ -3,10 +3,17 @@
   "name_en": "Genmaicha",
   "name_native": "玄米茶",
   "name_romanized": "Genmaicha",
-  "aliases": ["Brown rice tea", "Popcorn tea", "Genmai cha", "Rice tea", "Roasted rice green tea"],
+  "aliases": [
+    "Brown rice tea",
+    "Popcorn tea",
+    "Genmai cha",
+    "Rice tea",
+    "Roasted rice green tea",
+    "Генмайча"
+  ],
   "category": "green",
   "origin_country": "Japan",
-  "origin_region": "Nationwide; blended mostly in Shizuoka, Kyoto and Kagoshima",
+  "origin_region": "Japan",
   "cultivar": null,
   "processing": "Finished green tea, usually bancha or a mid-grade sencha, blended roughly half and half with rice (often sticky mochi rice) that has been soaked, steamed, dried and roasted until golden, with some grains popping white.",
   "form": "loose",
@@ -15,12 +22,81 @@
   "appearance_liquor": "Light yellow-green to pale amber, usually clear.",
   "appearance_wet": "Green leaf softened among swollen, pale rice grains.",
   "taste_profile": "Toasted rice and popcorn over a light, grassy, slightly savoury green-tea base; mild, warming and never harsh.",
-  "taste_tags": ["roasted", "nutty", "grassy", "sweet"],
-  "brewing": {"grams": 5, "water_ml": 200, "temp_c": 90, "steeps": 2, "seconds": [30, 30], "notes": "Hot water and short steeps bring out the rice; if the base is a good sencha you can drop to 80 °C for more green character. Measure by weight, since the rice is light, and use a wide-spouted pot so the grains do not block it."},
+  "taste_tags": [
+    "roasted",
+    "nutty",
+    "grassy",
+    "sweet"
+  ],
+  "brewing": {
+    "grams": 5,
+    "water_ml": 200,
+    "temp_c": 90,
+    "steeps": 2,
+    "seconds": [
+      30,
+      30
+    ],
+    "notes": "Hot water and short steeps bring out the rice; if the base is a good sencha you can drop to 80 °C for more green character. Measure by weight, since the rice is light, and use a wide-spouted pot so the grains do not block it."
+  },
   "caffeine_level": "low",
   "vintage_note": "Sold year-round with a best-before date rather than a harvest: the rice is roasted in batches and the tea is blended as needed, and quality is described by the base (bancha versus sencha, sometimes 'ichibancha sencha genmaicha') and whether matcha is added, not by season. Buy small bags; the roasted rice goes stale and loses its popcorn aroma within a few months of opening.",
-  "description": "Genmaicha is green tea blended with roasted rice: usually bancha or a mid-grade sencha mixed about half and half with grains that have been soaked, steamed, dried and roasted until golden, a few of them popped white like tiny popcorn. The name just means 'brown rice tea'; the story about a servant called Genmai who spilled rice into his master's tea is a joke that got repeated until it sounded like history.\n\nIt began as a way to stretch tea, and the rice still does two useful things: it dilutes the leaf, which keeps caffeine and astringency low, and it brings a toasty, nutty sweetness that makes the green tea taste rounder than it is. Quality lives in the details. Good producers use sticky mochi rice roasted fresh and a decent first-flush sencha; the cheap bags use dusty late-season bancha and rice that was roasted months ago and smells of nothing.\n\nBrew it hot. Water around 90 °C and a 30-second steep bring the rice forward, and the tea is good for two infusions at most; if the base is a nice sencha you can drop to 80 °C for a little more green character. Because the rice is light, measure by weight (about 5 g for 200 ml) rather than by the spoon, and use a pot with a wide spout or the grains will block it. It cold-brews well and makes a gentle iced tea.\n\nThe label will tell you the base tea (bancha, sencha, sometimes 'ichibancha sencha genmaicha' or even gyokuro) and whether matcha has been added, which turns it into the bright green matcha-iri genmaicha. Buy small bags with a recent roast or pack date, and look for plump golden grains with a few white popped ones rather than uniformly dark brown ones. It is a year-round product with no harvest or vintage to track.\n\nIt is the Japanese tea most likely to convert someone who says green tea is bitter, and it is at its best with food: rice dishes, sushi, anything salty or fried.",
+  "description": "Genmaicha is green tea blended with roasted rice: usually bancha or a mid-grade sencha mixed about half and half with grains that have been soaked, steamed, dried and roasted until golden, a few of them popped white like tiny popcorn. The name just means 'brown rice tea', although the rice is not always brown; the story about a servant called Genmai who spilled rice into his master's tea is a popular tale with nothing documented behind it.\n\nIt is usually explained as a way to stretch tea, and the rice still does two useful things: it dilutes the leaf, which keeps caffeine and astringency low, and it brings a toasty, nutty sweetness that makes the green tea taste rounder than it is. Quality lives in the details. Good producers use sticky mochi rice roasted fresh and a decent first-flush sencha; the cheap bags use dusty late-season bancha and rice that was roasted months ago and smells of nothing.\n\nBrew it hot. Water around 90 °C and a 30-second steep bring the rice forward, and the tea is good for two infusions at most; if the base is a nice sencha you can drop to 80 °C for a little more green character. Because the rice is light, measure by weight (about 5 g for 200 ml) rather than by the spoon, and use a pot with a wide spout or the grains will block it. It cold-brews well and makes a gentle iced tea.\n\nThe label will tell you the base tea (bancha, sencha, sometimes 'ichibancha sencha genmaicha' or even gyokuro) and whether matcha has been added, which turns it into the bright green matcha-iri genmaicha. Buy small bags with a recent roast or pack date, and look for plump golden grains with a few white popped ones rather than uniformly dark brown ones. It is a year-round product with no harvest or vintage to track.\n\nIt is the Japanese tea most likely to convert someone who says green tea is bitter, and it is at its best with food: rice dishes, sushi, anything salty or fried.",
   "wikipedia_title": "Genmaicha",
   "wikipedia_scope": "exact",
-  "popularity": 5
+  "popularity": 5,
+  "name_zh": "玄米茶",
+  "name_ru": "Гэммайтя",
+  "history": "Nobody agrees on where genmaicha began. One account credits a Kyoto tea merchant before the war who could not bear to waste the mochi crumbs left after the New Year rice cakes were broken, and roasted them into his tea. Another points to the crisp grains stuck to the bottom of a rice pot. Several tea companies founded in Kyoto say their own Taishō-era products, sold as Hanayanagi and Hōraicha, were the first.\n\nThe rice lowered the price of a bag, and the tea has the nickname 'people's tea' for that reason. Today it is drunk by everyone, and in Japan it ranks with bancha and hōjicha as an everyday cup rather than a fine tea.\n\nThe name says brown rice, but the rice need not be brown, and mochi rice is common. Fox-coloured roasted grains give more aroma than the white popped ones that look so appealing, so the rice matters more to quality than the leaf does. Variations add matcha (matcha-iri genmaicha), a little salt or black beans, or use hōjicha as the base. Korea has a close relative called hyeonminokcha.",
+  "liquor_hex": "#D9CF85",
+  "leaf_hex": "#8A8A4A",
+  "sources": [
+    "https://ja.wikipedia.org/wiki/%E7%8E%84%E7%B1%B3%E8%8C%B6",
+    "https://en.wikipedia.org/wiki/Genmaicha",
+    "https://ru.wikipedia.org/wiki/%D0%93%D1%8D%D0%BC%D0%BC%D0%B0%D0%B9%D1%82%D1%8F",
+    "https://zh.wikipedia.org/wiki/%E7%8E%84%E7%B1%B3%E8%8C%B6"
+  ],
+  "confidence": "medium",
+  "images": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/7/74/Genmaicha.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/74/Genmaicha.JPG/330px-Genmaicha.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Genmaicha.JPG",
+      "author": "No machine-readable author provided. Kyd assumed (based on copyright claims).",
+      "license": "Public domain",
+      "license_url": null,
+      "kind": "dry_leaf",
+      "alt": "Loose genmaicha, green tea leaves mixed with roasted rice and white popped kernels"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/36/Genmaicha_tea_brewed_and_unbrewed.jpg/1280px-Genmaicha_tea_brewed_and_unbrewed.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/36/Genmaicha_tea_brewed_and_unbrewed.jpg/330px-Genmaicha_tea_brewed_and_unbrewed.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Genmaicha_tea_brewed_and_unbrewed.jpg",
+      "author": "Matt Gibson Uploaded by Gothick at en.wikipedia",
+      "license": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "kind": "liquor",
+      "alt": "Clear glass mug of brewed genmaicha beside a small dish of the dry tea"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d3/Genmaicha_-_Sencha_green_tea_with_toasted_rice.jpg/1280px-Genmaicha_-_Sencha_green_tea_with_toasted_rice.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d3/Genmaicha_-_Sencha_green_tea_with_toasted_rice.jpg/330px-Genmaicha_-_Sencha_green_tea_with_toasted_rice.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Genmaicha_-_Sencha_green_tea_with_toasted_rice.jpg",
+      "author": "Selena N. B. H. from Fayetteville, USA",
+      "license": "CC BY 2.0",
+      "license_url": "https://creativecommons.org/licenses/by/2.0",
+      "kind": "dry_leaf",
+      "alt": "Sencha mixed with toasted rice on a metal tea scoop"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/0/07/Genmaicha.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/07/Genmaicha.jpg/330px-Genmaicha.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Genmaicha.jpg",
+      "author": "Teabuzzed",
+      "license": "Public domain",
+      "license_url": null,
+      "kind": "dry_leaf",
+      "alt": "Close view of dry genmaicha with green leaves and golden roasted rice"
+    }
+  ]
 }

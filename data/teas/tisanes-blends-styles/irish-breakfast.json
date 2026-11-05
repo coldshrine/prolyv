@@ -3,10 +3,15 @@
   "name_en": "Irish Breakfast",
   "name_native": null,
   "name_romanized": null,
-  "aliases": ["Irish breakfast tea", "Irish blend", "Irish tea"],
+  "aliases": [
+    "Irish breakfast tea",
+    "Irish blend",
+    "Irish tea",
+    "Ирландский завтрак"
+  ],
   "category": "black",
   "origin_country": "Ireland",
-  "origin_region": "Blended in Ireland, built on Assam with East African (Kenyan, Rwandan) black teas",
+  "origin_region": "Ireland",
   "cultivar": null,
   "processing": "A blend of strong, fully oxidised black teas with a high proportion of Assam, mostly CTC and broken grades for a fast, dark brew; combined to a fixed house taste and sold mainly in tea bags.",
   "form": "loose",
@@ -15,12 +20,78 @@
   "appearance_liquor": "Dark red-brown, almost opaque, turning a rich tan with milk.",
   "appearance_wet": "Dark coppery broken leaf.",
   "taste_profile": "Stronger and maltier than English Breakfast, with a thick, almost syrupy body, a cocoa-like depth and a firm tannic edge made to be rounded off with milk.",
-  "taste_tags": ["malty", "brisk", "cocoa"],
-  "brewing": {"grams": 3, "water_ml": 250, "temp_c": 100, "steeps": 1, "seconds": [270], "notes": "Boiling water, 4–5 minutes, then milk; Irish drinkers brew it strong enough that the milk barely lightens it. Loose orthodox versions take a second steep. It is also the right strength for a pot shared over an hour."},
+  "taste_tags": [
+    "malty",
+    "brisk",
+    "cocoa"
+  ],
+  "brewing": {
+    "grams": 3,
+    "water_ml": 250,
+    "temp_c": 100,
+    "steeps": 1,
+    "seconds": [
+      270
+    ],
+    "notes": "Boiling water, 4–5 minutes, then milk; Irish drinkers brew it strong enough that the milk barely lightens it. Loose orthodox versions take a second steep. It is also the right strength for a pot shared over an hour."
+  },
   "caffeine_level": "high",
   "vintage_note": "No vintage: a year-round blend with no harvest year and a best-before of two to three years, in which the Assam proportion is the defining choice. In Ireland the mass-market bagged brands are the reference and are CTC-based; outside Ireland 'Irish Breakfast' usually means a loose, Assam-heavy orthodox blend from a specialist shop and is a rather different, rounder tea. Check the origin list for Assam first and Kenya or Rwanda second.",
   "description": "Irish Breakfast is English Breakfast turned up: more Assam, more body, a darker cup and a maltier, almost chocolatey depth, blended for a country that drinks more tea per head than almost anywhere else and takes it strong with plenty of milk. In Ireland itself it is simply 'tea', sold in bags by a couple of dominant brands; abroad, the name describes any Assam-forward breakfast blend.\n\nThe blend leans on Assam for its malt and thickness and on East African teas, Kenyan and increasingly Rwandan, for colour, briskness and strength, mostly in CTC form so a bag gives a dark cup in two minutes. Loose-leaf versions from specialist blenders use orthodox Assam and are smoother and more aromatic, which is a different experience from the Irish kitchen cup.\n\nBrewed properly, four or five minutes with boiling water, it is thick, malty and tannic, and milk is not optional so much as part of the recipe; without it the astringency is hard work. The usual mistake outside Ireland is treating it gently. In Ireland the common one is the opposite, stewing a pot until it could stand a spoon, which is also, admittedly, how a lot of people like it.\n\nThere is nothing to know about vintages, only about Assam content and leaf grade: a strong CTC bag for speed, an orthodox loose blend for a pot. Both are cheap, and the best way to judge one is with milk, because that is how it was designed to be drunk.\n\nIf you like it, a plain second-flush Assam shows you where the malt comes from, and a Scottish Breakfast is the next step up in strength.",
   "wikipedia_title": "Irish breakfast tea",
   "wikipedia_scope": "exact",
-  "popularity": 4
+  "popularity": 4,
+  "name_zh": "爱尔兰早餐茶",
+  "name_ru": "Айриш Брекфаст",
+  "history": "Tea came to Ireland from China in the mid-18th century and at first stayed with the wealthy, since it was expensive and few others wanted it. By the mid-19th century it was within reach of people across the social classes.\n\nThere has never been a set formula. What unites the blends is a base of strong Indian Assam, chosen for its dark colour and malty aroma, with a softer supporting tea, often from Kenya, and Ceylon or Rwandan tea in some versions. The ratio of Assam to the rest is what gives a blend its character, and broken leaf is favoured because it steeps quickly. Barry's, Bewley's, Lyons and Robert Roberts in the Republic, and Nambarrie's and Thompson's Punjana in Northern Ireland, all lean heavily on Assam.\n\nIn Ireland this tea is drunk all day and is seldom called breakfast tea, apart from specific products sold under that name by Barry's, Bewley's, Thompson's and the British brand Twinings.",
+  "liquor_hex": "#6B2A12",
+  "leaf_hex": "#2B1C14",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Irish_breakfast_tea",
+    "https://zh.wikipedia.org/wiki/%E7%88%B1%E5%B0%94%E5%85%B0%E6%97%A9%E9%A4%90%E8%8C%B6",
+    "https://www.wikidata.org/wiki/Q3818294"
+  ],
+  "confidence": "medium",
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7c/Tea_in_Ireland.jpg/1280px-Tea_in_Ireland.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7c/Tea_in_Ireland.jpg/330px-Tea_in_Ireland.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Tea_in_Ireland.jpg",
+      "author": "Lexane Sirac",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "kind": "liquor",
+      "alt": "Cup of dark red-brown Irish Breakfast tea with a metal teapot and milk jug on a hotel table"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8c/Milk_Irish_Breakfast_Tea.jpg/1280px-Milk_Irish_Breakfast_Tea.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8c/Milk_Irish_Breakfast_Tea.jpg/330px-Milk_Irish_Breakfast_Tea.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Milk_Irish_Breakfast_Tea.jpg",
+      "author": "Lexane Sirac",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "kind": "liquor",
+      "alt": "White cup of Irish Breakfast tea with milk, showing a rich tan colour"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9a/Irish_Breakfast_tea.jpg/1280px-Irish_Breakfast_tea.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9a/Irish_Breakfast_tea.jpg/330px-Irish_Breakfast_tea.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Irish_Breakfast_tea.jpg",
+      "author": "Tim Lewis from New Mexico, USA",
+      "license": "CC BY-SA 2.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+      "kind": "liquor",
+      "alt": "Glass jar of dark amber Irish Breakfast tea with a tea bag steeping inside"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ad/Milk_in_Irish_Breakfast_tea.jpg/1280px-Milk_in_Irish_Breakfast_tea.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ad/Milk_in_Irish_Breakfast_tea.jpg/330px-Milk_in_Irish_Breakfast_tea.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Milk_in_Irish_Breakfast_tea.jpg",
+      "author": "Lexane Sirac",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "kind": "serving",
+      "alt": "Milk being poured into a cup of dark Irish Breakfast tea, with a teapot behind"
+    }
+  ]
 }

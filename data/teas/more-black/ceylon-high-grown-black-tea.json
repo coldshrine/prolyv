@@ -1,0 +1,57 @@
+{
+  "slug": "ceylon-high-grown-black-tea",
+  "name_en": "Ceylon High-grown Black Tea",
+  "name_native": null,
+  "name_romanized": null,
+  "name_zh": "锡兰高地红茶",
+  "name_ru": "Высокогорный цейлонский чай",
+  "aliases": [
+    "High Grown Ceylon",
+    "Ceylon high-grown tea",
+    "High-grown Ceylon"
+  ],
+  "category": "black",
+  "origin_country": "Sri Lanka",
+  "origin_region": "Sri Lanka · Central Highlands",
+  "cultivar": null,
+  "processing": "Black tea from high-elevation estates, mainly made by the orthodox method. Sri Lankan tea is classed by the elevation of its gardens and factories, with high-grown meaning above about 4,000 feet.",
+  "form": "loose",
+  "harvest_season": "Varies by district; Uva lies on the eastern side of the central range and Dimbula on the western side, so their seasons are judged separately.",
+  "appearance_dry": "Dark, fairly fine orthodox leaf, as is typical of the high-grown districts.",
+  "appearance_liquor": "Bright, clear golden to reddish amber, lighter than low-grown Ceylon.",
+  "appearance_wet": "Coppery-brown leaf, typical of orthodox black tea.",
+  "taste_profile": "Fresh and rose-scented with strong astringency. Uva in particular is forceful and mellow, which suits a breakfast cup and milk.",
+  "taste_tags": [
+    "floral",
+    "brisk",
+    "citrus"
+  ],
+  "brewing": {
+    "grams": 3,
+    "water_ml": 250,
+    "temp_c": 95,
+    "steeps": 2,
+    "seconds": [
+      150,
+      240
+    ],
+    "notes": "These are usual Western-style settings. Keep the first steep on the short side, since astringency comes on fast."
+  },
+  "caffeine_level": "high",
+  "vintage_note": "Sold by district and leaf grade, often as Uva, Dimbula or Nuwara Eliya, not by vintage year. As with other orthodox black teas, buy recent stock and drink it within a couple of years.",
+  "description": "This is the top elevation class of Ceylon tea, grown above about 4,000 feet in Sri Lanka's central highlands. Humidity, cool temperatures and rainfall there suit quality tea, and the three names to know are Uva, Dimbula and Nuwara Eliya.\n\nThe districts are not interchangeable. Uva, on the eastern side of the central range, is strong and mellow and often used as breakfast tea or for milk tea. Dimbula lies on the western side, and specialty Nuwara Eliya teas attract bidders worldwide.\n\nHigh-grown tea is fresh, rose-scented and sharply astringent. Short steeps keep it lively, and a longer one gives you a firm breakfast cup.\n\nA district name on the pack tells you more than the general high-grown label. The Lion Logo marks consumer packs of pure Ceylon tea packed in Sri Lanka, though it does not by itself indicate elevation.",
+  "history": "High-grown tea belongs to the history of Ceylon tea generally, which James Taylor is credited with starting commercially in 1867 and which grew rapidly after coffee rust devastated the island's plantations from 1869. The elevation classes are still used today to separate high, medium and low-grown tea.",
+  "liquor_hex": "#C07A32",
+  "leaf_hex": "#3A2A1E",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Tea_production_in_Sri_Lanka",
+    "https://ja.wikipedia.org/wiki/%E3%82%BB%E3%82%A4%E3%83%AD%E3%83%B3%E3%83%86%E3%82%A3%E3%83%BC",
+    "https://zh.wikipedia.org/wiki/%E9%94%A1%E5%85%B0%E9%AB%98%E5%9C%B0%E7%BA%A2%E8%8C%B6",
+    "https://www.wikidata.org/wiki/Q1376911"
+  ],
+  "confidence": "medium",
+  "wikipedia_title": "Tea production in Sri Lanka",
+  "wikipedia_scope": "umbrella",
+  "popularity": 3,
+  "images": []
+}

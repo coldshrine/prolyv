@@ -1,0 +1,56 @@
+{
+  "slug": "grassland-milk-tea",
+  "name_en": "Grassland Milk Tea",
+  "name_native": "草原奶茶",
+  "name_romanized": "Cǎoyuán Nǎichá",
+  "aliases": [
+    "Salty milk tea"
+  ],
+  "category": "heicha",
+  "origin_country": "China",
+  "origin_region": "Inner Mongolia",
+  "cultivar": null,
+  "form": "other",
+  "caffeine_level": "medium",
+  "brewing": {
+    "grams": 6,
+    "water_ml": 120,
+    "temp_c": 100,
+    "steeps": 6,
+    "seconds": [
+      15,
+      15,
+      20,
+      30,
+      45,
+      60
+    ],
+    "notes": "A safe starting point for dark tea: rinse once, boiling water, or simmer it the traditional way."
+  },
+  "taste_tags": [
+    "earthy",
+    "woody"
+  ],
+  "description": "A salted milk tea of the nomadic communities in China's pastoral regions, including Inner Mongolia, Xinjiang and Tibet.\n\nThis is a way of preparing tea more than a tea you buy under one name, so the recipe and the base tea change from one maker to the next.",
+  "wikipedia_title": null,
+  "wikipedia_scope": "none",
+  "popularity": 1,
+  "name_zh": "草原奶茶",
+  "name_ru": "Цао Юань Най Ча",
+  "history": "Salt is tied to long storage, suiting long journeys and harsh weather. Little more is documented about it as a distinct tea.",
+  "liquor_hex": "#C9A77C",
+  "leaf_hex": "#2A1E16",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Milk_tea"
+  ],
+  "confidence": "low",
+  "images": [],
+  "stub": true,
+  "processing": "The leaves are crushed and infused in boiling water, then boiled; milk is stirred in and salt is added last.",
+  "harvest_season": "Not tied to a harvest: it depends on the base tea.",
+  "appearance_dry": "Usually dark leaf, loose or pressed into bricks or baskets.",
+  "appearance_liquor": "Usually orange-red to dark brown.",
+  "appearance_wet": "Usually coarse dark leaf with some stem.",
+  "taste_profile": "Expect what dark teas usually give: smooth, woody and earthy.",
+  "vintage_note": "Not sold by vintage: it is made from whatever base tea the maker keeps, so freshness of the base matters more than the year."
+}

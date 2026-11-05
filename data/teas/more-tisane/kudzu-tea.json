@@ -1,0 +1,62 @@
+{
+  "slug": "kudzu-tea",
+  "name_en": "Kudzu Tea (Chik-cha)",
+  "name_native": "칡차",
+  "name_romanized": "chikcha",
+  "name_zh": "葛根茶",
+  "name_ru": "Чай из кудзу",
+  "aliases": [
+    "Arrowroot tea",
+    "葛茶",
+    "갈근차",
+    "Chikcha",
+    "Galgeun-cha",
+    "Galbun-cha",
+    "葛粉茶",
+    "Gegen-cha",
+    "Kuzuyu",
+    "葛湯",
+    "Чик-ча"
+  ],
+  "category": "tisane",
+  "origin_country": "South Korea",
+  "origin_region": "Korean Peninsula",
+  "cultivar": "Kudzu (East Asian arrowroot)",
+  "processing": "Roots are washed, peeled and sun-dried for simmering, or shredded, dried for about a month and ground to a starch powder that is stirred into hot water. Dried flowers can also be infused.",
+  "form": "other",
+  "harvest_season": "Roots are dug from late autumn to early spring; flowers are preferably picked in August.",
+  "appearance_dry": "Pale fibrous slices or shreds of root, or a fine white starch powder.",
+  "appearance_liquor": "Root tea is typically a thin pale amber; powder gives a pale, translucent, thick gruel.",
+  "appearance_wet": "Soft, fibrous root pieces; powder dissolves and leaves nothing behind.",
+  "taste_profile": "The powder has no real scent or flavour until it meets hot water, then turns gently sweet with a thick, honey-like texture.",
+  "taste_tags": [
+    "sweet",
+    "earthy"
+  ],
+  "brewing": {
+    "grams": 18,
+    "water_ml": 600,
+    "temp_c": 100,
+    "steeps": 1,
+    "seconds": [
+      1800
+    ],
+    "notes": "Simmer 15–20 g of root on low heat until the water is reduced by two thirds, optionally with jujubes. Serve hot or cold; honey suits it better than sugar. Stir powder into hot water until it thickens."
+  },
+  "caffeine_level": "none",
+  "vintage_note": "Not sold by vintage. Dried root and starch powder are available year-round, drawn from a late autumn to early spring dig. Check which form you are buying, because root tea and powder make completely different drinks.",
+  "description": "Kudzu tea is a traditional East Asian drink from the root of kudzu, known in Korea as chikcha, in China as gegen cha and in Japan as kuzuyu. English often calls it arrowroot tea, though true arrowroot is a different plant.\n\nKorea has two main versions. Galgeun-cha is made by simmering dried root, while galbun-cha is made from starch powder. For the powder, shredded roots dry for twenty days in the shade and ten more in a hot ondol room before grinding. A third, lighter version infuses dried flowers.\n\nThe two cups have little in common. The simmered root is a decoction, served hot or cold, sometimes with jujubes. The powder makes a gruel-like drink that can take sugar, milk, green tea or cocoa. Japanese kuzuyu is the same idea, thick, sweet and pale, served as a winter dessert.\n\nIf you try the powder, add it gradually and keep stirring, because it thickens fast. Honey is the usual sweetener for the root version, and sugar is not recommended.",
+  "history": "Little is documented about when kudzu first became a drink, though it is established under separate names in China, Korea and Japan. The Korean names themselves show the split between forms: chik is the native word for the plant, while galgeun and galbun are Sino-Korean terms for the root and the powder.",
+  "liquor_hex": "#D8C49A",
+  "leaf_hex": "#CDBB9A",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Arrowroot_tea",
+    "https://ko.wikipedia.org/wiki/%EC%B9%A1%EC%B0%A8",
+    "https://www.wikidata.org/wiki/Q6449330"
+  ],
+  "confidence": "medium",
+  "wikipedia_title": "Arrowroot tea",
+  "wikipedia_scope": "exact",
+  "popularity": 2,
+  "images": []
+}

@@ -1,0 +1,62 @@
+{
+  "slug": "zhengyan-cha",
+  "name_en": "Zhengyan Cha",
+  "name_native": "正岩茶",
+  "name_romanized": "Zhèngyán Chá",
+  "name_zh": "正岩茶",
+  "name_ru": "Чжэн Янь Ча",
+  "aliases": [
+    "Zheng Yan Cha",
+    "Zhengyan Tea",
+    "Zhengyan Rock Tea",
+    "Core-area Wuyi rock tea"
+  ],
+  "category": "oolong",
+  "origin_country": "China",
+  "origin_region": "Fujian · Wuyi Mountains",
+  "cultivar": null,
+  "processing": "As with other Wuyi rock teas: withered, shaken to partial oxidation, fired, rolled and then roasted over charcoal, in a strength that varies by maker. The term describes where the leaf grew, not a separate method.",
+  "form": "loose",
+  "harvest_season": "As usual for Wuyi rock teas, a single main spring picking, with roasting continuing for months afterwards.",
+  "appearance_dry": "Typically dark, glossy, twisted strips, brown-black with a roasted sheen, as with other Wuyi rock teas.",
+  "appearance_liquor": "Typically clear orange to amber, deeper with a heavier roast.",
+  "appearance_wet": "Typically broad, soft leaves with reddened edges, as is usual for Wuyi rock oolongs.",
+  "taste_profile": "No single flavour, since many cultivars qualify. Well-made rock teas in general pair roast and mineral notes with a long sweet finish, and the core-area lots are the ones prized for that depth.",
+  "taste_tags": [
+    "mineral",
+    "roasted",
+    "woody",
+    "sweet"
+  ],
+  "brewing": {
+    "grams": 7,
+    "water_ml": 110,
+    "temp_c": 100,
+    "steeps": 7,
+    "seconds": [
+      10,
+      10,
+      15,
+      20,
+      30,
+      45,
+      60
+    ],
+    "notes": "Gaiwan or small clay pot and water at a full boil, as usual for rock teas. Keep the early steeps short, since a heavy roast turns harsh when left to sit."
+  },
+  "caffeine_level": "medium",
+  "vintage_note": "Zhengyan is a claim of place rather than a product line, so it is sold under a cultivar name, such as Rou Gui or Shui Xian, with the harvest year. As with other Wuyi rock teas, the current year's lot usually reaches the market after roasting and is often better after some months of rest. The label is not reliably policed, so ask which valley the leaf came from.",
+  "description": "Zhengyan means 'true rock', and it is a word about address. It marks Wuyi rock tea grown in the central part of the mountains, the area traditionally rated highest, as opposed to the half-rock (banyan) ground around it and the riverside tea called zhoucha.\n\nThe word says nothing about cultivar or roast. A Zhengyan tea can be Rou Gui, Shui Xian or a named bush, and it goes through the usual rock tea steps of shaking, partial oxidation and charcoal roasting.\n\nWhat drinkers look for, as with fine rock teas generally, is a mineral depth and a finish that keeps going after the roast has faded. Boiling water and short steeps show this best. If only the roast is left by the third steep, the leaf probably was not doing much of the work.\n\nThe usual shorthand for the best of the core is 'three pits and two streams', a set of named valleys including Huiyuan Keng, Niulan Keng and Daoshui Keng. Lists differ in their spelling and there is no widely quoted legal boundary for the word zhengyan itself, so treat it on a label as a seller's claim and judge by the shop and the cup.",
+  "history": "The split into zhengyan, banyan and zhoucha is a common way of ranking Wuyi tea by growing environment, and it still appears in research reviews of rock tea. Little is documented about when the term first came into use.\n\nToday it is mainly a market word, and sellers use it freely.",
+  "liquor_hex": "#B9702C",
+  "leaf_hex": "#3B2A1F",
+  "wikipedia_title": "Wuyi tea",
+  "wikipedia_scope": "umbrella",
+  "popularity": 3,
+  "sources": [
+    "https://zh.wikipedia.org/wiki/%E6%AD%A6%E5%A4%B7%E5%B2%A9%E8%8C%B6",
+    "https://vufind.katalog.k.utb.cz/SummonRecord/FETCH-LOGICAL-c636-a1fd5c7094aff100128716898bf9b85f10226d42ce7d563b95bd401ae46dad263"
+  ],
+  "confidence": "medium",
+  "images": []
+}

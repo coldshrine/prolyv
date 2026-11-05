@@ -3,7 +3,15 @@
   "name_en": "Longjing 43 vs Qunti (Dragon Well cultivars)",
   "name_native": "龙井43 / 群体种",
   "name_romanized": "Lóngjǐng Sìshísān / Qúntǐ zhǒng",
-  "aliases": ["LJ43", "Longjing #43", "Qunti zhong", "Heirloom Longjing", "Old-bush Dragon Well", "Lao Cong Longjing", "Seed-grown Longjing"],
+  "aliases": [
+    "LJ43",
+    "Longjing #43",
+    "Qunti zhong",
+    "Heirloom Longjing",
+    "Old-bush Dragon Well",
+    "Lao Cong Longjing",
+    "Seed-grown Longjing"
+  ],
   "category": "green",
   "origin_country": "China",
   "origin_region": "Zhejiang · Hangzhou",
@@ -14,14 +22,45 @@
   "appearance_dry": "Longjing 43: uniform, bright green, flat blades; Qunti: mixed sizes, yellow-green to 'brown rice' colour, slightly less polished.",
   "appearance_liquor": "Pale yellow-green and clear in both; Qunti tends a shade more golden.",
   "appearance_wet": "43 opens into neat, near-identical bud-and-one-leaf sets; Qunti leaves vary in size and shade.",
-  "taste_profile": "43 is bright and aromatic, toasted bean with a brisk edge; Qunti is rounder and more savoury, with a longer, sweeter finish.",
-  "taste_tags": ["nutty", "sweet", "umami", "vegetal"],
-  "brewing": {"grams": 4, "water_ml": 150, "temp_c": 80, "steeps": 3, "seconds": [45, 45, 75], "notes": "Taste them side by side in identical glasses with the same water; the cultivar difference shows most clearly in the second steep and in the finish."},
+  "taste_profile": "43 is clean and tidy, toasted bean with a brisk edge; Qunti has the richer aroma and flavour, rounder and more savoury, with a longer, sweeter finish.",
+  "taste_tags": [
+    "nutty",
+    "sweet",
+    "umami",
+    "vegetal"
+  ],
+  "brewing": {
+    "grams": 4,
+    "water_ml": 150,
+    "temp_c": 80,
+    "steeps": 3,
+    "seconds": [
+      45,
+      45,
+      75
+    ],
+    "notes": "Taste them side by side in identical glasses with the same water; the cultivar difference shows most clearly in the second steep and in the finish."
+  },
   "caffeine_level": "medium",
   "vintage_note": "Both are sold only as the current spring's harvest. Longjing 43 is the first Dragon Well of the year, typically from mid to late March, and dominates pre-Qingming lots; Qunti comes in roughly a week later and sells at a premium when it genuinely comes from the West Lake villages. Neither is meant to be aged: drink within the year, keep it cold and sealed.",
-  "description": "Ask a Hangzhou tea seller what is in the bag and you will hear one of two answers: Longjing 43 or Qunti. They are the two cultivars behind almost all genuine Dragon Well, and the difference is bigger than most drinkers expect, so it earns a card of its own.\n\nQunti zhong ('population variety') is the old seed-grown landrace: every bush is genetically a little different, they bud late and unevenly, and the finished leaf is a jumble of sizes with a yellowish, brown-rice tone. Longjing 43 is a single clone selected from that population by the tea research institute in Hangzhou and released as a national cultivar in the 1980s. It buds early, every shoot looks the same, the leaf fires up a prettier bright green, and it yields more. That is why it took over most of the gardens.\n\nIn the cup, 43 is the cleaner, louder tea: a high toasted-bean aroma, brisk and pretty, sometimes a little thin. Qunti is quieter up front but deeper, with more body, a longer sweet and savoury finish, and more variation from steep to steep. Plenty of old-school drinkers pay extra for Qunti from the Shifeng and Longjing village slopes; plenty of others honestly prefer 43 and its brighter nose. Brew them side by side at 80 °C in two glasses and you will have an opinion within ten minutes.\n\nBuying notes: because 43 is early, the first 'mingqian' Longjing every year is 43; pre-Qingming Qunti exists but there is far less of it and it costs more. Other early clones such as Wuniuzao and Zhongcha 108 are legitimately used for inexpensive Zhejiang Longjing, but they are sometimes dressed up as West Lake tea; the tell is a very early picking date and an unnaturally uniform, bright-green leaf. An honest seller will name the cultivar without being asked twice.",
+  "description": "Ask a Hangzhou tea seller what is in the bag and you will hear one of two answers: Longjing 43 or Qunti. They are the two cultivars behind almost all genuine Dragon Well, and the difference is bigger than most drinkers expect, so it deserves a separate look.\n\nQunti zhong ('population variety') is the old seed-grown landrace: every bush is genetically a little different, they bud late and unevenly, and the finished leaf is a jumble of sizes with a yellowish, brown-rice tone. Longjing 43 is a single clone selected from that population by the tea research institute in Hangzhou and released as a national cultivar in the 1980s. It buds early, every shoot looks the same, the leaf fires up a prettier bright green, and it yields more. That is why it took over most of the gardens.\n\nIn the cup, 43 is the cleaner, tidier tea: toasted bean, brisk and pretty, sometimes a little thin. Qunti has the richer aroma and flavour, with more body, a longer sweet and savoury finish, and more variation from steep to steep. Plenty of old-school drinkers pay extra for Qunti from the Shifeng and Longjing village slopes; plenty of others honestly prefer the clean, brisk cup of 43. Brew them side by side at 80 °C in two glasses and you will have an opinion within ten minutes.\n\nBuying notes: because 43 is early, the first 'mingqian' Longjing every year is 43; pre-Qingming Qunti exists but there is far less of it and it costs more. Other early clones such as Wuniuzao and Zhongcha 108 are legitimately used for inexpensive Zhejiang Longjing, but they are sometimes dressed up as West Lake tea; the tell is a very early picking date and an unnaturally uniform, bright-green leaf. An honest seller will name the cultivar without being asked twice.",
   "wikipedia_title": "Longjing tea",
   "wikipedia_scope": "umbrella",
   "popularity": 3,
-  "sources_note": "Longjing 43 was selected in the 1960s–70s and registered as a national cultivar in the 1980s (1987 is the date usually given); the card keeps it to 'released in the 1980s'. Relative price claims are market generalisations."
+  "sources_note": "Longjing 43 was selected in the 1960s–70s and registered as a national cultivar in the 1980s (1987 is the date usually given); the card keeps it to 'released in the 1980s'. Relative price claims are market generalisations.",
+  "name_zh": "龙井43与群体种",
+  "name_ru": "Лун Цзин 43 и Цюнь Ти",
+  "history": "Qunti is the older of the two: the traditional population of Longjing bushes, described in Hangzhou reporting as native to the Shifeng area. Every bush differs a little.\n\nLongjing 43 came out of that population. The Tea Research Institute of the Chinese Academy of Agricultural Sciences picked a single plant in 1960, numbered it 6043, and saw it recognised as a national cultivar in 1987. Unlike Qunti it is propagated from cuttings.\n\nThe practical difference is the calendar. Longjing 43 buds in mid to late March and is picked about 7 to 10 days ahead of Qunti, and that head start is a large part of why it spread. In 2023 and 2026 the West Lake area announced separate opening dates for the two, with 43 going first and Qunti following in late March.",
+  "liquor_hex": "#D8D488",
+  "leaf_hex": "#8A9148",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Longjing_tea",
+    "https://hznews.hangzhou.com.cn/chengshi/content/2019-03/13/content_7161136_2.htm",
+    "https://hznews.hangzhou.com.cn/chengshi/content/2011-04/08/content_3684897.htm",
+    "https://m.thepaper.cn/baijiahao_6814648",
+    "https://news.qq.com/rain/a/20260313A03RO400",
+    "https://news.ycwb.com/2023-03/13/content_51815421.htm"
+  ],
+  "confidence": "high",
+  "images": []
 }

@@ -1,0 +1,60 @@
+{
+  "slug": "jujube-tea",
+  "name_en": "Jujube Tea (Daechu-cha)",
+  "name_native": "대추차",
+  "name_romanized": "daechu-cha",
+  "name_zh": "红枣茶",
+  "name_ru": "Чай из зизифуса",
+  "aliases": [
+    "Chinese red dates tea",
+    "Daechu-cha",
+    "Jujube tea",
+    "Red date tea",
+    "Тэчху-ча",
+    "テチュ茶",
+    "紅棗茶"
+  ],
+  "category": "tisane",
+  "origin_country": "South Korea",
+  "origin_region": "Korean Peninsula",
+  "cultivar": null,
+  "processing": "Dried jujubes are boiled for a long time until the water turns sweet, or jujubes preserved by slow simmering for eight hours to a day are diluted in boiling water.",
+  "form": "other",
+  "harvest_season": "Made from dried fruit, or preserved fruit and syrup, all year; sun-dried fruit is preferred for preserving.",
+  "appearance_dry": "Wrinkled, glossy dried fruit in deep red-brown.",
+  "appearance_liquor": "Deep ruby-brown to rich dark maroon.",
+  "appearance_wet": "Plump, soft, split red-brown fruit.",
+  "taste_profile": "Naturally sweet and fruity with a dried-date richness, thicker and syrupy when made from preserved jujube.",
+  "taste_tags": [
+    "sweet",
+    "dried-fruit",
+    "fruity"
+  ],
+  "brewing": {
+    "grams": 40,
+    "water_ml": 600,
+    "temp_c": 100,
+    "steeps": 1,
+    "seconds": [
+      3600
+    ],
+    "notes": "Boil dried fruit gently for a long time, topping up if needed, and add honey only if you must. Pine nuts are the usual garnish. Amounts are a starting point."
+  },
+  "caffeine_level": "none",
+  "vintage_note": "No vintages or seasons: dried jujubes and jujube syrup are sold year-round. Look for fruit that is still supple, and read syrup labels for added sugar.",
+  "description": "Jujube tea is a dark, sweet drink made by boiling dried jujubes, the small red fruit also sold as Chinese red dates. It belongs to both Korea and China: Koreans know it as daechu-cha and count it as a traditional tea, while Chinese-speaking drinkers call it hongzao cha.\n\nThere are two routes. One is simply a long boil of dried fruit. The other is preserving first: sun-dried jujubes simmer on low heat for eight hours to a day until the liquid turns syrupy, and that preserve is then let down with boiling water.\n\nThe colour is impressive, a deep ruby-brown to dark maroon, and the taste is all fruit and sweetness with no bitterness. Long, slow cooking is what makes it good; a quick steep gives a thin cup. Pine nuts on top are the classic finish.\n\nShops sell ready-made syrup, which is the easy way in. Traditional claims about nerves, anaemia and appetite come with it, but enjoy it first as a sweet drink rather than a treatment.",
+  "history": "Chinese-language and English sources describe it as a Chinese tea, while Korean sources call it a traditional Korean one. Little is documented about when it first became a named tea. A Korean encyclopedia entry covers it as daechu-cha, and in China a pre-made syrup is sold in grocery stores.",
+  "liquor_hex": "#5E1F14",
+  "leaf_hex": "#7A2A1C",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Jujube_tea",
+    "https://zh.wikipedia.org/wiki/%E7%BA%A2%E6%9E%A3%E8%8C%B6",
+    "https://ko.wikipedia.org/wiki/%EB%8C%80%EC%B6%94%EC%B0%A8",
+    "https://www.wikidata.org/wiki/Q5208153"
+  ],
+  "confidence": "medium",
+  "wikipedia_title": "Jujube tea",
+  "wikipedia_scope": "exact",
+  "popularity": 3,
+  "images": []
+}

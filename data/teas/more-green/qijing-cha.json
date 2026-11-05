@@ -1,0 +1,56 @@
+{
+  "slug": "qijing-cha",
+  "name_en": "Qijing Cha",
+  "name_native": "七境茶",
+  "name_romanized": "Qījìng Chá",
+  "aliases": [
+    "Luoyuan Qijingtang Green Tea",
+    "七境堂绿茶",
+    "七境绿茶"
+  ],
+  "category": "green",
+  "origin_country": "China",
+  "origin_region": "Fujian · Luoyuan",
+  "cultivar": null,
+  "form": "loose",
+  "caffeine_level": "medium",
+  "brewing": {
+    "grams": 3,
+    "water_ml": 150,
+    "temp_c": 80,
+    "steeps": 3,
+    "seconds": [
+      60,
+      75,
+      105
+    ],
+    "notes": "A safe starting point for green tea: cooler water, short steeps, then adjust by taste."
+  },
+  "taste_tags": [
+    "nutty",
+    "floral"
+  ],
+  "description": "A green tea from Qijingtang in western Luoyuan county, Fujian, with a national geographical indication; leaf from Qijingtang is blended with some from neighbouring villages.\n\nTreat it as you would any green tea: cooler water, short steeps, and a seller who can say where and when it was picked.",
+  "wikipedia_title": null,
+  "wikipedia_scope": "none",
+  "popularity": 1,
+  "name_zh": "七境茶",
+  "name_ru": "Ци Цзин Ча",
+  "history": "It is said to have been a tribute in the Chongzhen reign of the Ming and long sold well in Beijing and Tianjin. By tradition the name comes from a temple funded jointly by seven villages, each called a jing. Little more is documented about it.",
+  "liquor_hex": "#D6D47C",
+  "leaf_hex": "#7E8E42",
+  "sources": [
+    "https://www.maigoo.com/top/430372.html",
+    "https://www.163.com/dy/article/K7DET74G0556G110.html"
+  ],
+  "confidence": "medium",
+  "images": [],
+  "stub": true,
+  "processing": "Typical of green tea: picked, heated soon after picking to stop oxidation, then shaped and dried.",
+  "harvest_season": "Usually picked in spring, with the earliest pickings prized, as with most green teas.",
+  "appearance_dry": "Tight, curved strands of a glossy, slightly grey green with visible specks.",
+  "appearance_liquor": "Bright, tender green.",
+  "appearance_wet": "Soft, bright, tender green.",
+  "taste_profile": "Lasting fresh aroma of chestnut with a floral edge, and a full, fresh taste.",
+  "vintage_note": "Green teas like this are normally sold as the current year's harvest and are best within a year of picking. It is not an ageing tea."
+}

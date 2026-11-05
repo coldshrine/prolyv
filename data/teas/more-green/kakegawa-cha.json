@@ -1,0 +1,58 @@
+{
+  "slug": "kakegawa-cha",
+  "name_en": "Kakegawa-cha",
+  "name_native": "掛川茶",
+  "name_romanized": "Kakegawa-cha",
+  "name_zh": "挂川茶",
+  "name_ru": "Какэгава-тя",
+  "aliases": [
+    "Kakegawa cha",
+    "Kakegawa tea",
+    "Kakegawa fukamushi",
+    "掛川産掛川茶"
+  ],
+  "category": "green",
+  "origin_country": "Japan",
+  "origin_region": "Shizuoka · Kakegawa",
+  "cultivar": null,
+  "processing": "Green tea from Kakegawa City, most often sencha given a long, deep steaming (fukamushi), which reduces astringency and clouds the cup a deep green. Many gardens use chagusaba farming, spreading cut pampas grass and bamboo grass between the rows.",
+  "form": "loose",
+  "harvest_season": "Spring, as with other Shizuoka senchas, with the first picking prized.",
+  "appearance_dry": "Short, broken, dark green leaf, as is usual for deep-steamed sencha.",
+  "appearance_liquor": "A deep, slightly cloudy green.",
+  "appearance_wet": "Soft, fine green fragments, typical of long steaming.",
+  "taste_profile": "Full and soft, with less astringency than a light steaming would give from this catechin-rich leaf; expect the rounded, savoury sweetness typical of fukamushi.",
+  "taste_tags": [
+    "umami",
+    "vegetal",
+    "sweet"
+  ],
+  "brewing": {
+    "grams": 5,
+    "water_ml": 150,
+    "temp_c": 75,
+    "steeps": 3,
+    "seconds": [
+      40,
+      10,
+      30
+    ],
+    "notes": "Keep steeps short because the fine leaf gives up its flavour fast. Use a fine-mesh pot, and shake out the last drops."
+  },
+  "caffeine_level": "medium",
+  "vintage_note": "Usually sold as the current year's spring tea and drunk fresh; new-crop lots are the most sought after. Check the label: 'Kakegawa-san Kakegawa-cha' means all the aracha was made in the city, while plain Kakegawa-cha may include a share from neighbouring areas under rules tightened in April 2020.",
+  "description": "Kakegawa-cha is green tea from the city of Kakegawa, between the Oi and Tenryu river systems in Shizuoka. It is mostly known for fukamushi, the long-steamed sencha that gives a deep green cup, and it makes up around a tenth of Shizuoka's tea.\n\nThe hillside gardens get plenty of sun, which builds catechins and with them astringency. Long steaming is the answer: it softens that edge. Many growers here also use chagusaba farming, cutting and drying pampas and bamboo grass and working it into the rows, a practice recognised for its biodiversity.\n\nExpect a round, thick cup; the deep steaming means the fine leaf goes fast. Short steeps and a fine strainer solve most problems, and long steeps are what turn it bitter.\n\nThe naming rules are worth knowing. 'Kakegawa-san Kakegawa-cha' is 100 percent city-grown aracha, and plain Kakegawa-cha requires at least 75 percent. Tea from the Higashiyama district has its own registered name.\n\nCompare it with a light Kawane or Honyama sencha to see how much steaming alone changes a Shizuoka tea.",
+  "history": "Local tradition puts the start around 1572, when temple parishioners carried tea seed from Kyoto and sowed it at Yoshiokahara. Another story has a village headman bringing seed back from Ise, and a third has the castle lord Yamauchi Kazutoyo serving tea to Tokugawa Ieyasu in 1600. These are told as traditions.\n\nProduction grew between the Edo and Meiji periods as the Makinohara plateau was cleared for tea, and some went for export. Deep steaming, studied for about 20 years, came into use around 1975.\n\nThe chagusaba method was listed in 2013 as a Globally Important Agricultural Heritage System by the FAO, and the name Kakegawa-cha became a regional collective trademark in April 2017.",
+  "liquor_hex": "#9DA83A",
+  "leaf_hex": "#4F6B2A",
+  "sources": [
+    "https://ja.wikipedia.org/wiki/%E6%8E%9B%E5%B7%9D%E8%8C%B6",
+    "https://www.wikidata.org/wiki/Q109325576",
+    "https://ja.wikipedia.org/wiki/%E6%97%A5%E6%9C%AC%E8%8C%B6"
+  ],
+  "confidence": "medium",
+  "images": [],
+  "wikipedia_title": "掛川茶",
+  "wikipedia_scope": "exact",
+  "popularity": 3
+}

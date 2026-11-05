@@ -1,0 +1,58 @@
+{
+  "slug": "minamiyamashiro-cha",
+  "name_en": "Minamiyamashiro-cha",
+  "name_native": "南山城茶",
+  "name_romanized": "Minamiyamashiro-cha",
+  "name_zh": "南山城茶",
+  "name_ru": "Минамиямасиро-тя",
+  "aliases": [
+    "Minami Yamashiro Sencha",
+    "南山城煎茶",
+    "Minamiyamashiro tea"
+  ],
+  "category": "green",
+  "origin_country": "Japan",
+  "origin_region": "Kyoto · Minamiyamashiro",
+  "cultivar": "Yabukita (in some single-cultivar lots)",
+  "processing": "Usually made as steamed, rolled sencha, as is typical of Japanese green tea; a growing share of the village's leaf now goes to tencha, the unrolled base for matcha.",
+  "form": "loose",
+  "harvest_season": "As with other Kyoto greens, the spring first flush is the prized picking.",
+  "appearance_dry": "Typically glossy, dark green sencha needles.",
+  "appearance_liquor": "Clear yellow-green, as is usual for a steamed sencha.",
+  "appearance_wet": "Soft, bright green leaf pieces, typical of sencha.",
+  "taste_profile": "Little is recorded about a taste specific to this area; expect what Kyoto mountain sencha usually gives, a fresh green sweetness with some savouriness and light astringency.",
+  "taste_tags": [
+    "vegetal",
+    "umami",
+    "sweet"
+  ],
+  "brewing": {
+    "grams": 5,
+    "water_ml": 150,
+    "temp_c": 75,
+    "steeps": 3,
+    "seconds": [
+      60,
+      15,
+      40
+    ],
+    "notes": "Ordinary sencha treatment: start at about 75°C and pour off every drop between steeps. Hotter water brings the astringency forward."
+  },
+  "caffeine_level": "medium",
+  "vintage_note": "Sold like other Japanese sencha: by the current year's spring crop, best drunk within about a year. Lots may carry a cultivar name such as Yabukita, and much of the area's output goes into blends sold simply as Uji tea.",
+  "description": "Minamiyamashiro is Kyoto Prefecture's only village, in hill country in the south-east corner of the prefecture, and its tea is one of the local names folded under the wider Uji label. You will rarely see it on a packet unless a seller is making a point of the place.\n\nThe tea fields are what mark it out. The Kizu and Nabari rivers cut through the Kasagi mountains here, and the rows of bushes run straight up the slopes rather than following the contours. Sencha is the traditional product, though tencha has taken a larger share in recent years, about a quarter of crude tea output by the prefecture's 2015 figures.\n\nLittle is written about a flavour peculiar to the village, so brew it as you would any good Kyoto sencha: cool water, about a minute for the first steep, then a quick second. Expect fresh green sweetness and a savoury edge rather than anything showy.\n\nWhen buying, look for the harvest year and a named cultivar. The Dōsenbō plateau is promoted as the highest-lying district in the Uji growing area, and tea from it is sometimes sold under its own name.",
+  "history": "Tea fields here spread gradually after sencha exports began at the end of the Edo period, with river transport on the Kizu helping the trade. In January 2015 the landscape was registered as a Kyoto Prefecture scenic asset under the title of a main Uji tea growing area, covering districts including Tayama and Dōsenbō.\n\nThe recent change is in the product itself: prefectural records from 2015 note a shift away from sencha, with new tencha factories helping to keep the growing area going.",
+  "liquor_hex": "#CFCF7C",
+  "leaf_hex": "#46602F",
+  "sources": [
+    "https://ja.wikipedia.org/wiki/%E6%97%A5%E6%9C%AC%E8%8C%B6",
+    "https://www.pref.kyoto.jp/toshi/sisan020.html",
+    "https://www.pref.kyoto.jp/nosan/documents/h27_gijigaiyou.pdf",
+    "https://www.sazentea.com/en/products/c55-japanese-tea"
+  ],
+  "confidence": "medium",
+  "wikipedia_title": "日本茶",
+  "wikipedia_scope": "umbrella",
+  "popularity": 2,
+  "images": []
+}

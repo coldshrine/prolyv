@@ -3,24 +3,70 @@
   "name_en": "Nilgiri Frost Tea",
   "name_native": "நீலகிரி தேயிலை",
   "name_romanized": "Nīlakiri tēyilai",
-  "aliases": ["Nilgiri winter frost", "Nilgiri Winter Special", "Frost tea", "Nilgiri frost black", "Nilgiri winter tea"],
+  "aliases": [
+    "Nilgiri winter frost",
+    "Nilgiri Winter Special",
+    "Frost tea",
+    "Nilgiri frost black",
+    "Nilgiri winter tea"
+  ],
   "category": "black",
   "origin_country": "India",
-  "origin_region": "Tamil Nadu · Nilgiri Hills (high estates around Ooty and Kotagiri)",
+  "origin_region": "Tamil Nadu · Nilgiri Hills",
   "cultivar": "Chinary and hybrid seedling bushes plus UPASI clones",
-  "processing": "Orthodox black tea from leaf plucked on cold, clear winter mornings after frost; a long, cool wither, gentle rolling, careful oxidation and light firing preserve an unusually floral aroma. Some estates stop oxidation early for an oolong-like version.",
+  "processing": "Orthodox black tea from leaf plucked in the cold winter weeks; makers describe a careful wither, gentle rolling and light firing that keep an unusually floral aroma.",
   "form": "loose",
-  "harvest_season": "The brief cold season, roughly December to early February, when night temperatures on the high estates drop close to freezing.",
+  "harvest_season": "The cold season, with accounts ranging from December to February and from January to March depending on the estate and the year.",
   "appearance_dry": "Tightly twisted dark leaf with some golden-tipped strands.",
   "appearance_liquor": "Bright gold to light orange.",
   "appearance_wet": "Coppery-olive leaf with a fresh, floral smell.",
   "taste_profile": "Markedly floral and fruity — honeysuckle, citrus peel, sometimes a hint of mint — on a light, sweet body with soft tannin.",
-  "taste_tags": ["floral", "citrus", "sweet", "brisk"],
-  "brewing": {"grams": 3, "water_ml": 200, "temp_c": 90, "steeps": 3, "seconds": [180, 240, 300], "notes": "A touch cooler than ordinary Nilgiri and no milk; it re-steeps well."},
+  "taste_tags": [
+    "floral",
+    "citrus",
+    "sweet",
+    "brisk"
+  ],
+  "brewing": {
+    "grams": 3,
+    "water_ml": 200,
+    "temp_c": 90,
+    "steeps": 3,
+    "seconds": [
+      180,
+      240,
+      300
+    ],
+    "notes": "A touch cooler than ordinary Nilgiri and no milk; it re-steeps well."
+  },
   "caffeine_level": "medium",
-  "vintage_note": "Sold as a seasonal special with the winter and the year on the label ('Winter Frost 2025', 'Frost Tea Jan 2026') from estates such as Glendale, Havukal, Chamraj and Thiashola, reaching importers from about January in limited quantity. Buy it in the first half of the year and drink within twelve months; it is not an ageing tea.",
-  "description": "Nilgiri frost tea is a winter speciality from the highest estates in the Nilgiri Hills, made from leaf plucked on cold, clear mornings between roughly December and early February, when night temperatures drop close to freezing. The cold slows the bushes, concentrates the shoots and produces a black tea far more aromatic than anything the same gardens make in the warm months.\n\nFactories handle the frost leaf with more care than the everyday crop: a long, cool wither, gentle orthodox rolling, controlled oxidation and a light firing. Some estates stop oxidation early for an oolong-like 'frost' tea, but most sell it as a fully oxidised black.\n\nThe cup is bright gold to light orange and unmistakably floral and fruity: honeysuckle, citrus peel, sometimes a hint of mint, on a light, sweet body with soft tannin. Brew it a touch cooler than ordinary Nilgiri, around 90 °C, for three minutes, and try a second and third steep; milk would waste it.\n\nIt is sold as a seasonal special with the winter and the year on the label from estates such as Glendale, Havukal, Chamraj and Thiashola, and it shows up with importers from about January in limited quantity. Buy it in the first half of the year and drink it within twelve months; it is not an ageing tea.\n\nIf you have only met Nilgiri in tea bags, a frost lot is the best argument for the region.",
+  "vintage_note": "Sold as a seasonal special with the winter or the year on the label, from estates such as Glendale and Havukal, in limited quantity from the early months of the year. Buy it in the first half of the year and drink within twelve months; it is not an ageing tea.",
+  "description": "Nilgiri frost tea is a winter speciality from high estates in the Nilgiri Hills, made from leaf plucked in the cold season, roughly December to March depending on the estate and the year. The cold slows the bushes and concentrates flavour in the shoots, and the result is a black tea more aromatic than the everyday crop of the same gardens.\n\nFactories handle the frost leaf with more care than the everyday crop: a careful wither, gentle orthodox rolling, controlled oxidation and a light firing.\n\nThe cup is bright gold to light orange and unmistakably floral and fruity: honeysuckle, citrus peel, sometimes a hint of mint, on a light, sweet body with soft tannin. Brew it a touch cooler than ordinary Nilgiri, around 90 °C, for three minutes, and try a second and third steep; milk would waste it.\n\nIt is sold as a seasonal special with the winter or the year on the label from estates such as Glendale and Havukal, and it reaches shops in the early months of the year in limited quantity. Buy it in the first half of the year and drink it within twelve months; it is not an ageing tea.\n\nIf you have only met Nilgiri in tea bags, a frost lot is the best argument for the region.",
   "wikipedia_title": "Nilgiri tea",
   "wikipedia_scope": "umbrella",
-  "popularity": 2
+  "popularity": 2,
+  "name_zh": "尼尔吉里霜茶",
+  "name_ru": "Морозный чай Нилгири",
+  "history": "Tea has been grown commercially in the Nilgiri Hills since the nineteenth century, and the bushes there can be plucked for most of the year. The exception is a short dormant spell in the cold of December and January, and the first leaf after it is among the most flavourful of the year because cold weather raises its concentration of defensive compounds.\n\nFor a long time winter leaf was usually blended with the rest of the crop. Selling it separately as frost tea appears to be fairly recent, and little is documented about who began it. Today it is a small seasonal line from a few estates, among them Glendale and Havukal. Accounts of the picking window differ, from December to February, late January to early February, or January to March, so the name describes a season more than a fixed date.",
+  "liquor_hex": "#D9A441",
+  "leaf_hex": "#3E3226",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Nilgiri_tea",
+    "https://www.teabox.com/products/havukal-frost-winter-nilgiri-black-tea",
+    "https://www.teabox.com/products/glendale-winter-frost-twirl-black",
+    "https://stir-tea-coffee.com/features/indian-origin-update-teas-of-nilgiris"
+  ],
+  "confidence": "medium",
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/81/Tea_Gardens_at_Nilgiris.jpg/1280px-Tea_Gardens_at_Nilgiris.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/81/Tea_Gardens_at_Nilgiris.jpg/330px-Tea_Gardens_at_Nilgiris.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Tea_Gardens_at_Nilgiris.jpg",
+      "author": "https://www.flickr.com/photos/pondspider/",
+      "license": "CC BY 2.0",
+      "license_url": "https://creativecommons.org/licenses/by/2.0",
+      "kind": "plantation",
+      "alt": "Tea garden on rolling slopes in the Nilgiri Hills, Tamil Nadu, with misty mountains behind"
+    }
+  ]
 }

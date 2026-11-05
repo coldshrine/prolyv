@@ -3,10 +3,17 @@
   "name_en": "Korean Black Tea (Hongcha)",
   "name_native": "홍차",
   "name_romanized": "Hongcha",
-  "aliases": ["Korean hongcha", "Korean red tea", "Hadong black tea", "Jeju black tea", "Hadong hongcha", "紅茶"],
+  "aliases": [
+    "Korean hongcha",
+    "Korean red tea",
+    "Hadong black tea",
+    "Jeju black tea",
+    "Hadong hongcha",
+    "紅茶"
+  ],
   "category": "black",
   "origin_country": "South Korea",
-  "origin_region": "Gyeongsangnam-do · Hadong and Jeju Province (also Jeollanam-do · Boseong)",
+  "origin_region": "Gyeongsangnam-do · Hadong",
   "cultivar": "Seed-grown native bushes in Hadong; Yabukita and other plantation cultivars on Jeju and in Boseong",
   "processing": "Fully oxidised orthodox black tea: withered, rolled, oxidised until red-brown and dried; Hadong lots are hand-rolled in small batches, Jeju lots machine-made on the plantations, and a few are finished with a light roast in the Korean manner.",
   "form": "loose",
@@ -15,13 +22,43 @@
   "appearance_liquor": "Bright red-amber to copper, clear.",
   "appearance_wet": "Uniform copper-brown leaves, soft and whole in hand-rolled lots.",
   "taste_profile": "Soft, sweet and mild: honey, dried persimmon and a little malt, with a round body, gentle tannin and a sweet finish that stays away from the briskness of Assam or Ceylon.",
-  "taste_tags": ["honey", "sweet", "malty", "dried-fruit"],
-  "brewing": {"grams": 4, "water_ml": 120, "temp_c": 95, "steeps": 6, "seconds": [15, 12, 15, 25, 40, 60], "notes": "Gongfu style with just-boiled water gives the sweetest result; Western style use 3 g per 250 ml for 2–3 minutes and do not add milk, which flattens it."},
+  "taste_tags": [
+    "honey",
+    "sweet",
+    "malty",
+    "dried-fruit"
+  ],
+  "brewing": {
+    "grams": 4,
+    "water_ml": 120,
+    "temp_c": 95,
+    "steeps": 6,
+    "seconds": [
+      15,
+      12,
+      15,
+      25,
+      40,
+      60
+    ],
+    "notes": "Gongfu style with just-boiled water gives the sweetest result; Western style use 3 g per 250 ml for 2–3 minutes and do not add milk, which flattens it."
+  },
   "caffeine_level": "medium",
   "vintage_note": "Sold as the current year's production in small packs with the year stated, usually from early summer; it is a small-volume tea from a few Hadong and Jeju makers. It keeps well for two or three years and some drinkers prefer it with a year of rest, but it is not sold or priced by age.",
   "description": "Korea is not known for black tea, and most of what it makes is drunk at home, but a small number of Hadong and Jeju producers turn out fully oxidised leaf under the name hongcha, 'red tea', the same term used in China. It is a different thing from hwangcha and balhyocha, the partially oxidised teas Korea is better known for: this is a proper black tea, made the orthodox way, from the same bushes that give the spring greens.\n\nIn Hadong it is hand-made in small batches from seed-grown bushes, withered, rolled and oxidised until the leaf turns copper, then dried, sometimes with the light final roast that Korean makers give almost everything. On Jeju the big plantations make a machine-processed version from clonal cultivars that is cleaner, brighter and more consistent, and it also turns up in blends and milk-tea bases.\n\nThe cup is noticeably softer than most black tea: honey, dried persimmon, a little malt and a sweet, round finish with gentle tannin. Brewed gongfu style it gives half a dozen sweet steeps; Western style it makes a kind afternoon cup that does not need milk and is better without it. Boiling water is fine, so it is the easiest Korean tea to brew.\n\nIt is sold loose, by year, from the maker; volumes are small and prices sit above everyday Chinese or Indian black tea. Names overlap, so a 'Korean black tea' in a Western shop may actually be a heavily oxidised balhyocha; the hongcha label usually means the maker intended a full black tea. The year of harvest and the producer are what to look for.\n\nIf you like it, a Hadong balhyocha from the same maker shows how the same leaf behaves with less oxidation and more roast, and a Taiwanese or Yunnan black makes a useful comparison for the honey-sweet style.",
   "wikipedia_title": "Korean tea",
   "wikipedia_scope": "umbrella",
   "popularity": 2,
-  "sources_note": "Korean black tea is a small, loosely defined category; which producers make 'hongcha' versus 'balhyocha' changes from year to year, so the card describes the style rather than specific brands."
+  "sources_note": "Korean black tea is a small, loosely defined category; which producers make 'hongcha' versus 'balhyocha' changes from year to year, so the card describes the style rather than specific brands.",
+  "name_zh": "韩国红茶",
+  "name_ru": "Корейский чёрный чай (Хонча)",
+  "history": "Hongcha is simply the Korean reading of the same word China uses for black tea, 'red tea', named for the colour of the liquor. Black tea in the wider sense began in China and is now made across East Asia, Korea included, but Korean production is small and its own history is thinly documented.\n\nOne older Korean name does turn up as the country's representative black tea: jaekseolcha. How it relates to the hongcha sold today by small makers is not clear, and little is on record about when the modern style took hold or who first made it. Treat it as a small, loosely defined category rather than a tea with a fixed story.",
+  "liquor_hex": "#B4602A",
+  "leaf_hex": "#4A3324",
+  "sources": [
+    "https://ko.wikipedia.org/wiki/%ED%99%8D%EC%B0%A8",
+    "https://en.wikipedia.org/wiki/Black_tea"
+  ],
+  "confidence": "low",
+  "images": []
 }

@@ -3,7 +3,12 @@
   "name_en": "Bangdong Sheng Pu-erh",
   "name_native": "邦东生普洱",
   "name_romanized": "Bāngdōng Shēng Pǔ'ěr",
-  "aliases": ["Bang Dong sheng", "Bangdong Daxueshan", "Bangdong rock tea", "邦东大雪山"],
+  "aliases": [
+    "Bang Dong sheng",
+    "Bangdong Daxueshan",
+    "Bangdong rock tea",
+    "邦东大雪山"
+  ],
   "category": "sheng",
   "origin_country": "China",
   "origin_region": "Yunnan · Lincang · Linxiang · Bangdong",
@@ -15,12 +20,47 @@
   "appearance_liquor": "Bright gold and clear, thick-looking in the glass.",
   "appearance_wet": "Long narrow olive leaves on whippy stems, strikingly uniform where the gardens are vine-pruned.",
   "taste_profile": "Strongly aromatic, with orchid, honey and ripe fruit, a soft bitterness, a thick sweet body and a cool, slightly mineral finish that the locals attribute to the rocky hillsides.",
-  "taste_tags": ["floral", "honey", "sweet", "mineral", "fruity"],
-  "brewing": {"grams": 7, "water_ml": 110, "temp_c": 95, "steeps": 11, "seconds": [8, 6, 8, 10, 15, 20, 30, 45, 60, 90, 150], "notes": "Rinse once, briefly. Thin vine-style leaves release fast, so keep early steeps short; a porcelain gaiwan shows the aroma, which is the point of this tea."},
+  "taste_tags": [
+    "floral",
+    "honey",
+    "sweet",
+    "mineral",
+    "fruity"
+  ],
+  "brewing": {
+    "grams": 7,
+    "water_ml": 110,
+    "temp_c": 95,
+    "steeps": 11,
+    "seconds": [
+      8,
+      6,
+      8,
+      10,
+      15,
+      20,
+      30,
+      45,
+      60,
+      90,
+      150
+    ],
+    "notes": "Rinse once, briefly. Thin vine-style leaves release fast, so keep early steeps short; a porcelain gaiwan shows the aroma, which is the point of this tea."
+  },
   "caffeine_level": "high",
   "vintage_note": "Sold by spring harvest year and village (Bangdong Dazhai, Mangluo/Xigui, Nahan, Manggang and others), mostly as loose maocha and small-run cakes from 2010 onwards; before that the township's tea mostly disappeared into anonymous Lincang blends. It is drunk young (1–5 years) for its aroma and softens into honey through the 5–12-year window; aged Bangdong is not really a category. Most supply is 2012–2025, dry-stored in Lincang or Kunming, and a lot of it is sold under the name of its most famous village, Xigui, at a markup.",
   "description": "Bangdong is a township in Linxiang District, Lincang, dropping steeply from the Bangdong Daxueshan range to the Lancang river, and its tea gardens are famous for growing among boulders: the phrase 'tea from the cracks in the rocks' is the local pitch, and the mineral, cooling finish of the tea is credited to it. Xigui, the township's star village, sits at the bottom of the slope by the river; Bangdong as a name covers the rest.\n\nMany gardens here are kept in the vine (tengtiao) style, where mature leaves and side shoots are stripped by hand so the tree pushes long whippy tips, and the maocha is correspondingly slim, dark and low in buds. Processing is standard sheng, pan-fired, rolled, sun-dried and pressed loosely or sold loose.\n\nIn the cup Bangdong is one of the most aromatic teas in Yunnan: orchid and honey on the nose, ripe fruit behind it, a gentle bitterness, a thick sweet soup and a cool finish with a faint stony edge. It is less heavy than Xigui and far cheaper, but the family resemblance is obvious. Short early steeps keep the aroma in front; it brews ten or eleven good infusions.\n\nSold by spring year and village. Because Xigui is a tiny piece of Bangdong and commands a huge premium, a large amount of ordinary Bangdong tea is sold as Xigui, and tea honestly labelled Bangdong is the better buy. Look for the long dark vine-style leaf and that specific orchid-plus-stone character.\n\nIf you drink Bangdong and want to know what the extra money for Xigui buys, it is mainly weight and length of finish, not aroma.",
   "wikipedia_title": "Pu'er tea",
   "wikipedia_scope": "umbrella",
-  "popularity": 2
+  "popularity": 2,
+  "name_zh": "邦东生普洱",
+  "name_ru": "Шэн Пуэр Бан Дун",
+  "history": "Bangdong is a tea township in Linxiang District, Lincang, and vendors describe its gardens as growing among rocks. Xigui is its best-known village name. As a name on a wrapper it is a product of the modern interest in single-origin Lincang tea.\n\nLittle is documented about its earlier history, when its leaf is said to have gone mostly into anonymous regional blends.",
+  "liquor_hex": "#DCB452",
+  "leaf_hex": "#3F3F2A",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Pu%27er_tea"
+  ],
+  "confidence": "low",
+  "images": []
 }

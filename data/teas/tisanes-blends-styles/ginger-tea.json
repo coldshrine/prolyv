@@ -3,10 +3,23 @@
   "name_en": "Ginger Tea",
   "name_native": "생강차 / 姜茶",
   "name_romanized": "Saenggang-cha / Jiāng chá",
-  "aliases": ["Saenggang-cha", "Ginger root tea", "Wedang jahe", "Salabat", "Jiang cha", "Ginger infusion", "Dried ginger tea"],
+  "aliases": [
+    "Saenggang-cha",
+    "Ginger root tea",
+    "Wedang jahe",
+    "Salabat",
+    "Jiang cha",
+    "Ginger infusion",
+    "Dried ginger tea",
+    "薑茶",
+    "姜母茶",
+    "薑母茶",
+    "Shogayu",
+    "生姜湯"
+  ],
   "category": "tisane",
-  "origin_country": "Korea",
-  "origin_region": "Nationwide (saenggang-cha); ginger drinks are equally traditional in China, Indonesia (wedang jahe), the Philippines (salabat) and the Caribbean",
+  "origin_country": "South Korea",
+  "origin_region": "South Korea",
   "cultivar": "Zingiber officinale, the rhizome, used fresh, dried or preserved in sugar or honey",
   "processing": "Fresh ginger is sliced or grated and simmered; for tea blends the rhizome is washed, sliced and dried into pale chips or cubes; in Korea it is also macerated in sugar or honey as saenggang-cheong, and instant granules are made by drying a sweetened decoction.",
   "form": "other",
@@ -14,14 +27,51 @@
   "appearance_dry": "Knobbly tan-skinned rhizomes with pale yellow flesh, or dried pale-yellow slices and small cubes.",
   "appearance_liquor": "Cloudy pale gold from fresh root; clear light yellow from dried slices.",
   "appearance_wet": "Soft, translucent yellow slices with a sharp, lemony-hot smell.",
-  "taste_profile": "Hot and pungent with a peppery bite, lemony and fresh from new root, drier and woodier from dried ginger; it is usually sweetened with honey, and in Korea cooked with jujubes and cinnamon.",
-  "taste_tags": ["spicy", "sweet", "citrus"],
-  "brewing": {"grams": 15, "water_ml": 500, "temp_c": 100, "steeps": 1, "seconds": [900], "notes": "Fresh: slice 15–20 g of root thinly (no need to peel) into 500 ml of water and simmer for 10–15 minutes; sweeten with honey, add lemon off the heat. Dried slices: 3 g per 250 ml, just-boiled water, 5–7 minutes. Cheong: a tablespoon in hot water, stir."},
+  "taste_profile": "Hot and pungent with a peppery bite, lemony and fresh from new root, drier and woodier from dried ginger; it is usually sweetened with honey, and in Korea often served with jujubes and pine nuts.",
+  "taste_tags": [
+    "spicy",
+    "sweet",
+    "citrus"
+  ],
+  "brewing": {
+    "grams": 15,
+    "water_ml": 500,
+    "temp_c": 100,
+    "steeps": 1,
+    "seconds": [
+      900
+    ],
+    "notes": "Fresh: slice 15–20 g of root thinly (no need to peel) into 500 ml of water and simmer for 10–15 minutes; sweeten with honey, add lemon off the heat. Dried slices: 3 g per 250 ml, just-boiled water, 5–7 minutes. Cheong: a tablespoon in hot water, stir."
+  },
   "caffeine_level": "none",
   "vintage_note": "No vintage. Fresh root is sold all year from the autumn harvest; dried ginger slices and cut ginger for blends carry a two-year best-before but lose their bite well within it; Korean saenggang-cheong jars have a production date and keep for a year or more in the fridge. Instant 'ginger tea' granules and sachets are mostly sugar with a little extract and should be judged as a sweet drink. The strength of fresh root varies with variety and age: old, fibrous ginger is hotter and drier than young.",
-  "description": "Ginger tea is less a product than a habit shared by half the world: sliced ginger root simmered in water and sweetened with honey, drunk in Korea as saenggang-cha, in Indonesia as wedang jahe, in the Philippines as salabat, in China and India and the Caribbean under other names. It is the warming drink of cold seasons and the first thing many people make when they feel a chill coming on.\n\nThe root is a rhizome, not a leaf, and it is used three ways: fresh and simmered, which gives the brightest, most lemony heat; dried and sliced, which goes into tea blends and gives a drier, more peppery warmth; or preserved in sugar or honey as a Korean-style cheong, where a spoonful makes the drink. Fresh ginger is at its hottest when old and fibrous, mildest when young and pink-tipped.\n\nThe mistake people make with fresh ginger is steeping it like a tea: it needs a simmer of ten minutes or more to pull out the heat and the aroma, and the lemon goes in after, off the heat. Dried slices, on the other hand, infuse quickly. The Korean version is cooked with dried jujubes and a piece of cinnamon bark, which adds a sweet, date-like depth and rounds off the bite.\n\nThere is nothing to know about vintages, only about form. Buy firm, heavy fresh root; buy dried slices from a shop with turnover, because they fade; and read the label on jars and sachets, where the ginger content is the quality marker and most instant versions are sugar.\n\nIt is traditionally drunk for nausea, colds and cold hands; whatever you make of that, a pot of fresh ginger with honey and lemon is one of the great winter drinks, and it blends naturally with black tea, lemongrass, turmeric or a little yuja preserve.",
+  "description": "Ginger tea is less a product than a habit shared by half the world: sliced ginger root simmered in water and sweetened with honey, drunk in Korea as saenggang-cha, in Indonesia as wedang jahe, in the Philippines as salabat, in China and India and the Caribbean under other names. It is the warming drink of cold seasons and the first thing many people make when they feel a chill coming on.\n\nThe root is a rhizome, not a leaf, and it is used three ways: fresh and simmered, which gives the brightest, most lemony heat; dried and sliced, which goes into tea blends and gives a drier, more peppery warmth; or preserved in sugar or honey as a Korean-style cheong, where a spoonful makes the drink. Fresh ginger is at its hottest when old and fibrous, mildest when young and pink-tipped.\n\nThe mistake people make with fresh ginger is steeping it like a tea: it needs a simmer of ten minutes or more to pull out the heat and the aroma, and the lemon goes in after, off the heat. Dried slices, on the other hand, infuse quickly. The Korean version is often garnished with jujubes and pine nuts, and jujubes or pear are sometimes boiled with the ginger, which adds a sweet, date-like depth and rounds off the bite.\n\nThere is nothing to know about vintages, only about form. Buy firm, heavy fresh root; buy dried slices from a shop with turnover, because they fade; and read the label on jars and sachets, where the ginger content is the quality marker and most instant versions are sugar.\n\nIt is traditionally drunk for nausea, colds and cold hands; whatever you make of that, a pot of fresh ginger with honey and lemon is one of the great winter drinks, and it blends naturally with black tea, lemongrass, turmeric or a little yuja preserve.",
   "wikipedia_title": "Ginger tea",
   "wikipedia_scope": "exact",
   "popularity": 5,
-  "sources_note": "origin_country set to Korea for the saenggang-cha tradition; ginger itself is native to Island Southeast Asia and ginger drinks are traditional across Asia and the Caribbean, so this is a judgement call."
+  "sources_note": "origin_country set to Korea for the saenggang-cha tradition; ginger itself is native to Island Southeast Asia and ginger drinks are traditional across Asia and the Caribbean, so this is a judgement call.",
+  "name_zh": "姜茶",
+  "name_ru": "Имбирный чай",
+  "history": "Ginger drinks have no single birthplace. Ginger has a long record as a herbal medicine across East, South, Southeast and West Asia, and many regions built a drink around it, so the story is a set of local habits rather than one line of descent. An early firm point is Tang China, where ginger was a favoured addition to tea to offset its bitterness, along with onion, orange peel, cloves and mint. That was tea with ginger, not ginger on its own.\n\nThe local forms are what is best documented. In Korea saenggang-cha is made from boiled slices, ginger juice or ginger preserved in honey, with powdered instant versions now common. Japan has shogayu, Java has wedang jahe with palm sugar, and in the Philippines salabat is sold by street vendors at the dawn masses before Christmas, usually with rice cakes. India's adrak ki chai and Malaysia's teh halia are close relatives but contain black tea, so they are not caffeine-free.\n\nLittle is documented about how old any of these exact recipes are.",
+  "liquor_hex": "#E2C566",
+  "leaf_hex": "#CDAE6C",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Ginger_tea",
+    "https://ko.wikipedia.org/wiki/%EC%83%9D%EA%B0%95%EC%B0%A8",
+    "https://ja.wikipedia.org/wiki/%E7%94%9F%E5%A7%9C%E6%B9%AF",
+    "https://zh.wikipedia.org/wiki/%E8%96%91%E6%AF%8D%E8%8C%B6"
+  ],
+  "confidence": "medium",
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5b/Ginger_Tea_.jpg/1280px-Ginger_Tea_.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5b/Ginger_Tea_.jpg/330px-Ginger_Tea_.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Ginger_Tea_.jpg",
+      "author": "Trupti.gauns",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "kind": "liquor",
+      "alt": "Glass mug of golden ginger tea next to a piece of fresh ginger root"
+    }
+  ]
 }

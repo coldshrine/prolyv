@@ -1,0 +1,54 @@
+{
+  "slug": "fujieda-cha",
+  "name_en": "Fujieda-cha",
+  "name_native": "藤枝茶",
+  "name_romanized": "Fujieda-cha",
+  "name_zh": "藤枝茶",
+  "name_ru": "Фудзиэда-тя",
+  "aliases": [
+    "Fujieda tea"
+  ],
+  "category": "green",
+  "origin_country": "Japan",
+  "origin_region": "Shizuoka · Fujieda",
+  "cultivar": null,
+  "processing": "A place name, not one method. Most of it is made as steamed green tea typical of Shizuoka, while the Okabe district of the city grows shaded gyokuro and some producers also make black tea.",
+  "form": "loose",
+  "harvest_season": "Spring, as with other Shizuoka green teas, with the first picking prized.",
+  "appearance_dry": "Typically fine dark green needles for sencha; gyokuro from Okabe is finer still.",
+  "appearance_liquor": "Typically clear yellow-green for sencha.",
+  "appearance_wet": "Soft green leaf, more broken in deeper-steamed lots.",
+  "taste_profile": "No single profile is documented. Expect the fresh, grassy sweetness typical of Shizuoka sencha, with much more umami in shaded Okabe teas.",
+  "taste_tags": [
+    "vegetal",
+    "sweet",
+    "umami"
+  ],
+  "brewing": {
+    "grams": 5,
+    "water_ml": 150,
+    "temp_c": 75,
+    "steeps": 3,
+    "seconds": [
+      60,
+      20,
+      40
+    ],
+    "notes": "General guidance for Shizuoka sencha. Gyokuro from Okabe needs far cooler water and a smaller pour."
+  },
+  "caffeine_level": "medium",
+  "vintage_note": "Usually sold as the current year's spring tea, as with other Shizuoka greens, with new-crop lots most sought after. Check the type as well as the place, since the same name can cover sencha, gyokuro and local black tea.",
+  "description": "Fujieda-cha is simply tea from the city of Fujieda in central Shizuoka, one of the many local names inside the big Shizuoka tea region. It tells you where the tea comes from rather than how it was made.\n\nThe city runs from a fertile plain in the south up to mountains in the north, along the Seto river. Its best-known tea is not sencha at all: the Okabe district is counted among Japan's three main gyokuro areas, home to Asahina gyokuro.\n\nFor an everyday leaf, brew it as you would other Shizuoka sencha, with water around 75 C and a short second steep. Little is documented about a taste that sets Fujieda apart from its neighbours, so the maker and type tell you more than the name.\n\nWhen buying, read the label for sencha, gyokuro or wakocha, the Japanese black tea also made here. If you want the tea the city is famous for, go straight to Asahina.",
+  "history": "Little is documented about the history of Fujieda tea as a distinct name. It is listed among the many local teas of Shizuoka, and the city was an old post town area on the Tokaido, with stations at Okabe and Fujieda, though no direct link to tea is recorded in what is readily available.\n\nIts present reputation rests on Okabe gyokuro, with local black tea and bottled tea as more recent lines.",
+  "liquor_hex": "#C8C870",
+  "leaf_hex": "#4F6A30",
+  "sources": [
+    "https://ja.wikipedia.org/wiki/%E6%97%A5%E6%9C%AC%E8%8C%B6",
+    "https://www.seikatsu-guide.com/info/22/22214/2/"
+  ],
+  "confidence": "low",
+  "images": [],
+  "wikipedia_title": "日本茶",
+  "wikipedia_scope": "umbrella",
+  "popularity": 2
+}

@@ -1,0 +1,56 @@
+{
+  "slug": "mizobe-cha",
+  "name_en": "Mizobe-cha",
+  "name_native": "溝辺茶",
+  "name_romanized": "Mizobe-cha",
+  "name_zh": "沟边茶",
+  "name_ru": "Мидзобэ-тя",
+  "aliases": [
+    "Kirishima Mizobe-cha",
+    "霧島溝辺茶",
+    "みぞべ茶",
+    "溝辺茶"
+  ],
+  "category": "green",
+  "origin_country": "Japan",
+  "origin_region": "Kagoshima · Kirishima · Mizobe",
+  "cultivar": null,
+  "processing": "Lightly steamed (asamushi) green tea, rolled and dried in the usual sencha way.",
+  "form": "loose",
+  "harvest_season": "Spring first flush is the prized picking, as with other Japanese sencha; local dates are not well documented.",
+  "appearance_dry": "As is usual for asamushi sencha, fairly intact dark green needles.",
+  "appearance_liquor": "Pale, clear yellow-green, typical of a light steaming.",
+  "appearance_wet": "Mostly whole, soft green leaf pieces, as with other lightly steamed teas.",
+  "taste_profile": "Few specific tasting records exist; a light steam usually means a clean, aromatic cup with fresh green notes rather than the thick body of deep-steamed tea.",
+  "taste_tags": [
+    "vegetal",
+    "grassy",
+    "umami"
+  ],
+  "brewing": {
+    "grams": 5,
+    "water_ml": 150,
+    "temp_c": 70,
+    "steeps": 3,
+    "seconds": [
+      70,
+      15,
+      30
+    ],
+    "notes": "Lightly steamed leaf opens slowly, so give the first steep a little longer than you would a deep-steamed tea."
+  },
+  "caffeine_level": "medium",
+  "vintage_note": "Usual for Japanese green tea: sold by the current year's harvest, with spring first flush and shincha at the top. Drink it fresh rather than keeping it.",
+  "description": "Mizobe-cha comes from the Mizobe district of Kirishima city, in northern Kagoshima. It is grown on the Jusantsukabaru plateau, and it is regarded as one of the leading names of the Kirishima area.\n\nThe one firm detail about its style is the steaming: this is asamushi, lightly steamed tea. That is worth noticing in a prefecture where deeper-steamed tea is common, because a short steam keeps the leaf more intact and the liquor clearer.\n\nBrew it as you would other asamushi sencha, with cool water and patience on the first steep. Hurrying it with hot water is the usual way to get a thin, bitter cup.\n\nIt is a small regional name, so look for the producer and harvest on the pack. Compare it with a deep-steamed Kagoshima tea to taste what steaming time does.",
+  "history": "Little is documented in accessible references about when tea growing began in Mizobe or who established it. What is recorded is its place today, as a named local tea from the Jusantsukabaru plateau within the wider Kirishima area.",
+  "liquor_hex": "#D4D48A",
+  "leaf_hex": "#50703A",
+  "sources": [
+    "https://ja.wikipedia.org/wiki/%E6%97%A5%E6%9C%AC%E8%8C%B6"
+  ],
+  "confidence": "low",
+  "wikipedia_title": "日本茶",
+  "wikipedia_scope": "umbrella",
+  "popularity": 2,
+  "images": []
+}

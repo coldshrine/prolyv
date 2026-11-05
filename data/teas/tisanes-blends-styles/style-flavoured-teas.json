@@ -3,10 +3,17 @@
   "name_en": "Flavoured Teas (what 'flavouring' means on a label)",
   "name_native": null,
   "name_romanized": null,
-  "aliases": ["Flavored tea", "Flavoured tea", "Aromatised tea", "Fruit tea", "Flavoured blends", "Natural flavouring"],
+  "aliases": [
+    "Flavored tea",
+    "Flavoured tea",
+    "Aromatised tea",
+    "Fruit tea",
+    "Flavoured blends",
+    "Natural flavouring"
+  ],
   "category": "black",
   "origin_country": "Germany",
-  "origin_region": "Hamburg and the German tea-blending industry (Europe's largest producer of flavoured blends); Paris for the luxury houses that popularised the style; blends are made everywhere now",
+  "origin_region": "Hamburg",
   "cultivar": null,
   "processing": "Finished tea is tumbled or sprayed with a flavouring, a concentrated aroma dissolved in a carrier such as alcohol or propylene glycol, and dried; dried fruit pieces, petals, spices, candy or freeze-dried fruit are often added for appearance. It is distinct from scenting (absorbing the aroma of fresh flowers) and from plain blending (mixing ingredients without added aroma).",
   "form": "loose",
@@ -15,13 +22,48 @@
   "appearance_liquor": "That of the base tea, usually amber to red for black-tea blends, sometimes tinted by hibiscus or fruit.",
   "appearance_wet": "Base leaf with softened fruit and petals; the aroma is weaker than the dry smell suggested.",
   "taste_profile": "Whatever the label says, more or less: a loud, clear aroma of fruit, vanilla, caramel or spice that sits on top of a plain tea; the best are balanced and fade gracefully over the steep, the worst taste of sweets and leave a coated feeling on the tongue.",
-  "taste_tags": ["fruity", "sweet", "floral"],
-  "brewing": {"grams": 3, "water_ml": 250, "temp_c": 95, "steeps": 1, "seconds": [180], "notes": "Brew to the base: just-boiled water and 3 minutes for a black-tea blend, cooler and shorter for a green base. A second steep is usually weak, since the flavouring extracts at once. Many flavoured blends are designed for iced tea and cold-brew well."},
+  "taste_tags": [
+    "fruity",
+    "sweet",
+    "floral"
+  ],
+  "brewing": {
+    "grams": 3,
+    "water_ml": 250,
+    "temp_c": 95,
+    "steeps": 1,
+    "seconds": [
+      180
+    ],
+    "notes": "Brew to the base: just-boiled water and 3 minutes for a black-tea blend, cooler and shorter for a green base. A second steep is usually weak, since the flavouring extracts at once. Many flavoured blends are designed for iced tea and cold-brew well."
+  },
   "caffeine_level": "medium",
-  "vintage_note": "No vintage: flavoured blends are built to taste identical year-round and carry a two- to three-year best-before, but the aroma fades six to twelve months after opening, so buy small. The label is what to read. In the EU, 'natural flavouring' must be made from natural source materials, 'natural strawberry flavouring' must get at least 95 % of its flavouring from strawberries, and plain 'flavouring' may be synthetic; US rules use 'natural flavors' and 'artificial flavors'. 'With other natural flavours' usually means the named fruit is a minor part. Decorative fruit pieces contribute colour, not taste.",
-  "description": "Flavoured tea is tea with an added aroma: a finished leaf sprayed with a concentrated flavouring and dressed with fruit pieces, petals or sprinkles. Earl Grey, scented with bergamot oil, is the grandfather of the style; the modern explosion, from caramel and vanilla to 'birthday cake', came out of the German blending industry around Hamburg and the Paris tea houses in the 1980s, and it now makes up a large share of what supermarkets and tea chains sell.\n\nThe technique is simple and cheap: flavouring, which is a mix of aroma compounds in a carrier, is tumbled onto the leaf and dried in, and the inclusions go in afterwards for looks. That is a different thing from scenting, where fresh flowers lend their aroma to the leaf over hours, and from blending, where ingredients are simply mixed; a jasmine tea is scented, a chai is blended, a 'strawberry cream' black tea is flavoured.\n\nIn the cup the flavouring comes out at once and dominates, which is why most flavoured teas give one good steep and a weak second, and why the base is usually a plain, inexpensive leaf chosen not to compete. Nothing wrong with that: a good flavoured tea is balanced, tastes of what it claims and leaves the mouth clean, and many are made for iced tea. A bad one tastes of boiled sweets and lingers.\n\nThe label is the thing to learn to read. 'Natural flavouring' has a legal meaning in the EU and the US but does not mean the flavour came from the named fruit; 'natural strawberry flavouring' does, mostly; plain 'flavouring' can be synthetic; and pretty pieces of dried fruit are decoration. There is no vintage, and an opened pack loses its aroma within the year.\n\nIf you enjoy flavoured teas, the next step is to taste the real thing the flavour imitates: a scented jasmine or osmanthus tea, a bug-bitten oolong that tastes of honey without anything added, or a good Dian Hong that is naturally chocolatey.",
+  "vintage_note": "No vintage: flavoured blends are built to taste identical year-round and carry a two- to three-year best-before, but the aroma fades six to twelve months after opening, so buy small. The label is what to read. In the EU, 'natural flavouring' must be made from natural source materials, 'natural strawberry flavouring' must get at least 95 % of its flavouring from strawberries, and plain 'flavouring' may be synthetic; US rules use 'natural flavors' and 'artificial flavors'. 'With other natural flavourings' means the flavouring comes only partly from the named fruit, whose taste must still be easy to recognise. Decorative fruit pieces contribute colour, not taste.",
+  "description": "Flavoured tea is tea with an added aroma: a finished leaf sprayed with a concentrated flavouring and dressed with fruit pieces, petals or sprinkles. Earl Grey, scented with bergamot oil, is the grandfather of the style; the modern explosion, from caramel and vanilla to 'birthday cake', is usually linked to the German blending industry around Hamburg and to the Paris tea houses, though its timing is poorly documented, and it now makes up a large share of what supermarkets and tea chains sell.\n\nThe technique is simple and cheap: flavouring, which is a mix of aroma compounds in a carrier, is tumbled onto the leaf and dried in, and the inclusions go in afterwards for looks. That is a different thing from scenting, where fresh flowers lend their aroma to the leaf over hours, and from blending, where ingredients are simply mixed; a jasmine tea is scented, a chai is blended, a 'strawberry cream' black tea is flavoured.\n\nIn the cup the flavouring comes out at once and dominates, which is why most flavoured teas give one good steep and a weak second, and why the base is usually a plain, inexpensive leaf chosen not to compete. Nothing wrong with that: a good flavoured tea is balanced, tastes of what it claims and leaves the mouth clean, and many are made for iced tea. A bad one tastes of boiled sweets and lingers.\n\nThe label is the thing to learn to read. 'Natural flavouring' has a legal meaning in the EU and the US but does not mean the flavour came from the named fruit; 'natural strawberry flavouring' does, mostly; plain 'flavouring' can be synthetic; and pretty pieces of dried fruit are decoration. There is no vintage, and an opened pack loses its aroma within the year.\n\nIf you enjoy flavoured teas, the next step is to taste the real thing the flavour imitates: a scented jasmine or osmanthus tea, a bug-bitten oolong that tastes of honey without anything added, or a good Dian Hong that is naturally chocolatey.",
   "wikipedia_title": "Tea blending and additives",
   "wikipedia_scope": "umbrella",
   "popularity": 4,
-  "sources_note": "EU labelling rules summarised from Regulation (EC) 1334/2008 as I understand them (the 95 % rule for 'natural X flavouring'); worth a fact-check. Origin as Germany/France is a judgement about where the modern style was industrialised."
+  "sources_note": "EU labelling rules summarised from Regulation (EC) 1334/2008 as I understand them (the 95 % rule for 'natural X flavouring'); worth a fact-check. Origin as Germany/France is a judgement about where the modern style was industrialised.",
+  "name_zh": "调味茶",
+  "name_ru": "Ароматизированные чаи",
+  "history": "Tea picks up smells easily, which is a nuisance in a warehouse and an opportunity for a blender. Earl Grey is the best known old example: black tea with bergamot peel or, more often, its essential oil. Lady Grey adds lemon and orange peel. Commercial flavoured tea is mostly made in large blending drums with flavourings, oils or perfume blends, a method that can add interest and can also hide a poor leaf.\n\nLittle is documented about when the modern fruit-and-dessert style took off. Trade lore links it to German blenders and the Paris tea houses, but that is memory rather than a dated record.\n\nThe label rules are easier to pin down. EU Regulation 1334/2008 allows 'natural strawberry flavouring' only when at least 95 % of the flavouring comes from strawberries. 'With other natural flavourings' means part of it does and the strawberry is still easy to recognise.",
+  "liquor_hex": "#B5651D",
+  "leaf_hex": "#4A3526",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Tea_blending_and_additives",
+    "https://legislation.gov.uk/eur/2008/1334/article/16/adopted"
+  ],
+  "confidence": "medium",
+  "images": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/c/cd/Cafe_Latte_-_The_NecessiTeas_flavored_tea.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cd/Cafe_Latte_-_The_NecessiTeas_flavored_tea.jpg/330px-Cafe_Latte_-_The_NecessiTeas_flavored_tea.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Cafe_Latte_-_The_NecessiTeas_flavored_tea.jpg",
+      "author": "A Girl With Tea from USA",
+      "license": "CC BY 2.0",
+      "license_url": "https://creativecommons.org/licenses/by/2.0",
+      "kind": "dry_leaf",
+      "alt": "Dry flavoured black tea leaves mixed with coffee beans and cocoa beans on a white background"
+    }
+  ]
 }

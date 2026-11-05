@@ -3,10 +3,19 @@
   "name_en": "Sumatra Black Tea",
   "name_native": "Teh hitam Sumatra",
   "name_romanized": "Teh hitam Sumatra",
-  "aliases": ["Sumatra BOP", "Sumatra tea", "North Sumatra black tea", "Kayu Aro tea", "Bah Butong tea", "Sidamanik tea", "Indonesian CTC", "Sumatra oolong"],
+  "aliases": [
+    "Sumatra BOP",
+    "Sumatra tea",
+    "North Sumatra black tea",
+    "Kayu Aro tea",
+    "Bah Butong tea",
+    "Sidamanik tea",
+    "Indonesian CTC",
+    "Sumatra oolong"
+  ],
   "category": "black",
   "origin_country": "Indonesia",
-  "origin_region": "North Sumatra · Simalungun (Bah Butong, Sidamanik) and Jambi · Kerinci (Kayu Aro)",
+  "origin_region": "North Sumatra · Simalungun",
   "cultivar": "Assamica-type clones on the large estates, with some old seedling fields at Kayu Aro",
   "processing": "Mostly CTC for tea bags and blends, with orthodox whole-leaf and broken grades still made on some estates; withered, cut or rolled, fully oxidised and fired. A handful of small producers now make oolong and green tea from the same highland bushes.",
   "form": "loose",
@@ -15,13 +24,38 @@
   "appearance_liquor": "Deep red-brown, strong and sometimes slightly cloudy in CTC; clear copper in orthodox lots.",
   "appearance_wet": "Dark copper, small and even.",
   "taste_profile": "Full, dark and malty with a slightly earthy depth, firm tannin and a plain sweetness; stronger and heavier than Java tea and well suited to milk.",
-  "taste_tags": ["malty", "earthy", "brisk", "sweet"],
-  "brewing": {"grams": 3, "water_ml": 200, "temp_c": 100, "steeps": 2, "seconds": [180, 240], "notes": "Boiling water, three to four minutes, milk and sugar welcome; it is a breakfast and tea-bag tea. Orthodox lots can be steeped shorter."},
+  "taste_tags": [
+    "malty",
+    "earthy",
+    "brisk",
+    "sweet"
+  ],
+  "brewing": {
+    "grams": 3,
+    "water_ml": 200,
+    "temp_c": 100,
+    "steeps": 2,
+    "seconds": [
+      180,
+      240
+    ],
+    "notes": "Boiling water, three to four minutes, milk and sugar welcome; it is a breakfast and tea-bag tea. Orthodox lots can be steeped shorter."
+  },
   "caffeine_level": "high",
   "vintage_note": "A bulk commodity sold by grade (mostly BOP, BOPF, PF and CTC dusts) and estate, not by vintage, all year round; most of it goes into Indonesian tea bags and export blends. Single-estate loose-leaf Sumatra from Kayu Aro or Bah Butong is occasionally offered by specialists as the current year's lot, and it keeps well for two to three years.",
-  "description": "Sumatra is the quieter half of Indonesia's tea story. The big estates are in the north, in the Simalungun hills above Lake Toba around Bah Butong and Sidamanik, and further south in the Kerinci highlands of Jambi, where Kayu Aro, planted by the Dutch in the 1920s at 1,400 to 1,600 metres, is one of the largest and highest contiguous tea plantations anywhere. Almost everything they make is strong black tea for tea bags and blends.\n\nThe climate is tropical and wet, so the bushes flush all year and the factories run continuously, mostly on CTC lines. The result is a heavier, darker tea than Java's: full, malty, a little earthy, with firm tannin and a plain sweetness, the sort of leaf blenders use to give a breakfast blend its backbone. Orthodox broken grades and the occasional whole-leaf OP still come off some estates and are a shade more refined.\n\nBrew it the breakfast way, boiling water and three or four minutes, and it takes milk and sugar well; it is also the tea behind a good deal of the sweet iced tea sold across Indonesia. Dry-season lots are brighter and worth asking for if you can find a seller who knows the harvest.\n\nIt is sold by grade and estate in bulk, and by brand in the shops, rarely with a date. Specialist shops sometimes list a single-estate Sumatra, usually Kayu Aro or Bah Butong, and that is the way to taste it on its own. The highland bushes have also started to attract small producers making green tea and oolong, so 'Sumatra oolong' now turns up occasionally; it is a lightly oxidised, rolled tea in the Taiwanese manner, pleasant but still rare.\n\nFor a sense of the archipelago, drink a Sumatra BOP next to a Java OP: the first is the heavy, dark one, the second the bright, light one, and most 'Indonesian' blends are some mix of the two.",
+  "description": "Sumatra is the quieter half of Indonesia's tea story. The big estates are in the north, in the Simalungun hills above Lake Toba around Bah Butong and Sidamanik, and further south in the Kerinci highlands of Jambi, at Kayu Aro. Almost everything they make is strong black tea for tea bags and blends.\n\nThe climate is tropical and wet, so the bushes flush all year and the factories run continuously, mostly on CTC lines. The result is a heavier, darker tea than Java's: full, malty, a little earthy, with firm tannin and a plain sweetness, the sort of leaf blenders use to give a breakfast blend its backbone. Orthodox broken grades and the occasional whole-leaf OP still come off some estates and are a shade more refined.\n\nBrew it the breakfast way, boiling water and three or four minutes, and it takes milk and sugar well; it is also a likely base for the sweet iced tea sold across Indonesia. Dry-season lots are brighter and worth asking for if you can find a seller who knows the harvest.\n\nIt is sold by grade and estate in bulk, and by brand in the shops, rarely with a date. Specialist shops sometimes list a single-estate Sumatra, usually Kayu Aro or Bah Butong, and that is the way to taste it on its own. The highland bushes have also started to attract small producers making green tea and oolong, so 'Sumatra oolong' now turns up occasionally; it is a lightly oxidised, rolled tea in the Taiwanese manner, pleasant but still rare.\n\nFor a sense of the archipelago, drink a Sumatra BOP next to a Java OP: the first is the heavy, dark one, the second the bright, light one, and most 'Indonesian' blends are some mix of the two.",
   "wikipedia_title": "Tea production in Indonesia",
   "wikipedia_scope": "umbrella",
   "popularity": 2,
-  "sources_note": "Kayu Aro planting date (1920s) and altitude are from memory; 'one of the largest contiguous plantations' is a commonly made claim. Sumatra oolong production is small and the description is general."
+  "sources_note": "Kayu Aro planting date (1920s) and altitude are from memory; 'one of the largest contiguous plantations' is a commonly made claim. Sumatra oolong production is small and the description is general.",
+  "name_zh": "苏门答腊红茶",
+  "name_ru": "Суматра",
+  "history": "Tea plantations began in Java and spread to North Sumatra in the early 20th century. Today the big estates lie in the Simalungun hills of the north and at Kayu Aro in the Kerinci highlands. Little that is specific to the tea as a named style is documented, because most of it goes anonymously into tea bags and blends.\n\nSmall lots of single-estate black tea, and a little oolong and green, are the exceptions.",
+  "liquor_hex": "#8A3B18",
+  "leaf_hex": "#33241A",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Tea_production_in_Indonesia"
+  ],
+  "confidence": "low",
+  "images": []
 }

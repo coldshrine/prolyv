@@ -1,0 +1,61 @@
+{
+  "slug": "sun-moon-lake-black-tea",
+  "name_en": "Sun Moon Lake Black Tea",
+  "name_native": "日月潭紅茶",
+  "name_romanized": "Rìyuètán Hóngchá",
+  "name_zh": "日月潭红茶",
+  "name_ru": "Жи Юэ Тань Хун Ча",
+  "aliases": [
+    "Sunmoon Lake Black Tea",
+    "日月潭紅茶",
+    "Жиюэтань хунча",
+    "Жиюэтань-хунча",
+    "Чай озера Солнца и Луны"
+  ],
+  "category": "black",
+  "origin_country": "Taiwan",
+  "origin_region": "Nantou · Yuchi · Sun Moon Lake",
+  "cultivar": "Assam, TTES No. 7, No. 8, No. 18 (Hongyu)",
+  "processing": "Large-leaf cultivars are made as full black tea: withered, rolled, fully oxidised and dried, as is standard for the class.",
+  "form": "loose",
+  "harvest_season": "Specific picking calendars are not well recorded in plain terms; ask the seller for the season and the cultivar.",
+  "appearance_dry": "Long, dark twisted leaf, as is typical of large-leaf black tea.",
+  "appearance_liquor": "Clear reddish amber, typical of large-leaf black tea.",
+  "appearance_wet": "Broad coppery brown leaves, as you would expect from an Assam-type plant.",
+  "taste_profile": "As with other black teas from Assam-type large-leaf plants, expect a full, malty body and real briskness. The character shifts with the cultivar, so an Assam lot and a No. 18 lot will not taste the same.",
+  "taste_tags": [
+    "malty",
+    "brisk",
+    "sweet"
+  ],
+  "brewing": {
+    "grams": 5,
+    "water_ml": 120,
+    "temp_c": 90,
+    "steeps": 5,
+    "seconds": [
+      20,
+      20,
+      30,
+      45,
+      60
+    ],
+    "notes": "Large-leaf black tea can turn tannic, so start with short steeps and water a little below boiling. For a mug, use 3 g in 250 ml for about three minutes."
+  },
+  "caffeine_level": "high",
+  "vintage_note": "Usual for Taiwanese black tea: sold by harvest year and often by cultivar, and at its best fresh, within a year or two. A label naming the cultivar, such as No. 18 or Assam, tells you more than the lake's name alone. A government certification mark also exists for this tea, so look for it on the pack.",
+  "description": "Sun Moon Lake black tea comes from Yuchi township in Nantou, around the lake that gives it its name. It is one of Taiwan's ten famous teas, which is unusual in a list dominated by oolongs, and its distinction is the plant: large-leaf stock of Assam origin rather than the small-leaf bushes behind most Taiwanese tea.\n\nThe gardens sit at roughly 500 to 800 metres. Growers use Assam along with the Taiwanese cultivars No. 7, No. 8 and No. 18, the last also known as Hongyu or Red Ruby and regarded as the top of the range.\n\nExpect what large-leaf black tea usually gives: a full, malty, brisk cup. It can bite if overbrewed, so keep steeps short in a gaiwan, or use a light hand in a mug.\n\nWhen buying, ask for the cultivar, since 'Sun Moon Lake' on its own covers several different teas. The government certification mark is another thing worth checking for.",
+  "history": "The tea goes back to the Japanese colonial period, when the technician Arai Kokichiro brought large-leaf plants from Assam to Taiwan. Yuchi's steady temperature and humidity suited them, and the township became the centre for this kind of black tea.\n\nThe name itself is more recent: Nantou county magistrate Liu Yu-you gave it in 1978. Later, the Yuchi branch of Taiwan's tea research station bred No. 18 into the area's premium black tea, and a local association now promotes hand-picked tea under its own Assam black tea brand.",
+  "liquor_hex": "#A84F22",
+  "leaf_hex": "#33231A",
+  "sources": [
+    "https://zh.wikipedia.org/wiki/%E8%87%BA%E7%81%A3%E8%8C%B6",
+    "https://en.wikipedia.org/wiki/Taiwanese_tea"
+  ],
+  "confidence": "medium",
+  "wikipedia_title": "Taiwanese tea",
+  "wikipedia_scope": "umbrella",
+  "popularity": 3,
+  "images": [],
+  "sources_note": "Latin spellings of 新井耕吉郎 and 刘裕猷 are mine. Taste and appearance are class-typical, not sourced to this tea."
+}

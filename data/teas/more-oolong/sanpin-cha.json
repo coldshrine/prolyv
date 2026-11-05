@@ -1,0 +1,55 @@
+{
+  "slug": "sanpin-cha",
+  "name_en": "Sanpin-cha",
+  "name_native": "さんぴん茶",
+  "name_romanized": "Sanpin-cha",
+  "name_zh": "冲绳香片茶",
+  "name_ru": "Сампин-тя",
+  "aliases": [
+    "Okinawan Jasmine Tea",
+    "Japanese jasmine tea",
+    "Sanpin tea",
+    "香片茶"
+  ],
+  "category": "oolong",
+  "origin_country": "Japan",
+  "origin_region": "Okinawa",
+  "cultivar": null,
+  "processing": "Partly oxidised tea scented with jasmine flowers (Jasminum sambac), usually by resting tea with fresh blossoms and then sifting them out and drying the leaf. The base leaf is imported rather than grown in Okinawa.",
+  "form": "loose",
+  "harvest_season": "The base tea comes from Fujian or northern Taiwan; jasmine scenting generally happens when the flowers bloom, in the warm months.",
+  "appearance_dry": "Dark green to brownish twisted leaf, sometimes with a few dried flowers in cheaper grades.",
+  "appearance_liquor": "Clear golden yellow, typically a little deeper than green-based jasmine tea.",
+  "appearance_wet": "Soft green-brown leaf, as expected from a partly oxidised base.",
+  "taste_profile": "Strongly jasmine-scented with a light, rounded body from the partly oxidised base; drunk hot or iced, it stays refreshing rather than heavy.",
+  "taste_tags": [
+    "floral",
+    "sweet"
+  ],
+  "brewing": {
+    "grams": 5,
+    "water_ml": 400,
+    "temp_c": 90,
+    "steeps": 2,
+    "seconds": [
+      120,
+      180
+    ],
+    "notes": "Everyday Western-style pot, or cold-brew in the fridge overnight. Measures are a general starting point for scented teas."
+  },
+  "caffeine_level": "medium",
+  "vintage_note": "Sold with no harvest year, as an everyday packaged tea: loose leaf or teabags, plus ready-to-drink cartons, cans and PET bottles in Okinawan supermarkets and convenience stores. Scent fades with time, so buy fresh stock and drink it soon.",
+  "description": "Sanpin-cha is what Okinawa calls its jasmine tea, and it is the everyday drink of the islands. The name is a worn-down form of the Chinese 香片, xiangpian, a word for jasmine tea.\n\nWhat separates it from standard jasmine tea is the base: it uses a partly oxidised tea, whereas most jasmine tea starts from green. No leaf for it is grown in Okinawa. It comes in from Fujian and northern Taiwan.\n\nExpect jasmine up front and a softer body than the green versions. It is forgiving: a pot of hot water, or an overnight cold brew, does the job. Oversteeping brings out more bitterness rather than more flower, so keep to a couple of minutes.\n\nMost of it is sold as a commodity, including bottled drinks, so there is little to grade. For loose leaf, as with any jasmine tea, a natural scent from real blossoms beats flavouring, and a pile of dried flowers in the bag tends to signal a lesser grade.\n\nA more heavily oxidised relative is sold in Okinawa as shiimii-cha (清明茶), worth trying alongside it.",
+  "history": "The name points to Chinese roots, and the leaf still comes from Fujian and Taiwan, but little is documented about exactly when jasmine tea took hold in Okinawa.\n\nThe drink has moved with the times: alongside loose tea, it is now widely sold in cartons, cans and plastic bottles.",
+  "liquor_hex": "#D9B85A",
+  "leaf_hex": "#5E5A36",
+  "sources": [
+    "https://ja.wikipedia.org/wiki/%E3%82%B8%E3%83%A3%E3%82%B9%E3%83%9F%E3%83%B3%E8%8C%B6",
+    "https://en.wikipedia.org/wiki/Jasmine_tea"
+  ],
+  "confidence": "medium",
+  "wikipedia_title": "Jasmine tea",
+  "wikipedia_scope": "umbrella",
+  "popularity": 3,
+  "images": []
+}

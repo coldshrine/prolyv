@@ -1,0 +1,54 @@
+{
+  "slug": "okumusashi",
+  "name_en": "Okumusashi",
+  "name_native": "おくむさし",
+  "name_romanized": "Okumusashi",
+  "name_zh": "奥武藏",
+  "name_ru": "Окумусаси",
+  "aliases": [
+    "Oku Musashi",
+    "Norin 26"
+  ],
+  "category": "green",
+  "origin_country": "Japan",
+  "origin_region": "Saitama",
+  "cultivar": "Okumusashi",
+  "processing": "Bred as a green tea cultivar and made in the usual steamed style; its aroma has since led to its use for black tea as well.",
+  "form": "loose",
+  "harvest_season": "Spring, late in the season, about eight days after Yabukita by Saitama's comparison.",
+  "appearance_dry": "As with other sencha, dark-green needles; black tea versions are dark and twisted.",
+  "appearance_liquor": "As green tea, clear yellow-green, typical of the style.",
+  "appearance_wet": "Soft green leaf, as is usual for steamed green tea.",
+  "taste_profile": "Valued chiefly for its aroma; few specific tasting notes have been published, so expect the general sencha profile with a fragrant lift.",
+  "taste_tags": [
+    "floral",
+    "vegetal"
+  ],
+  "brewing": {
+    "grams": 5,
+    "water_ml": 150,
+    "temp_c": 70,
+    "steeps": 3,
+    "seconds": [
+      60,
+      15,
+      45
+    ],
+    "notes": "Sencha settings for the green version. For black tea from this cultivar, use near-boiling water and a longer steep."
+  },
+  "caffeine_level": "medium",
+  "vintage_note": "The green version sells as the current year's spring harvest, as is usual for Japanese green tea. Black tea made from it is a small-batch product, usually labelled by cultivar and maker.",
+  "description": "Okumusashi is a Saitama cultivar from the early 1960s, bred to be cold-tolerant, high-yielding and of good quality. That made it useful in a northern tea region where frost is a real concern.\n\nIt was made first as green tea. Its good aroma later gave it a second life in black tea, which is where curious drinkers may be more likely to come across it.\n\nFew detailed tasting notes exist, so approach it as you would any sencha, or as any Japanese black tea if that is the version you have.\n\nThe late picking is the practical feature for a grower, because it extends the harvest beyond Yabukita. It stands upright, holds up relatively well against anthracnose, and is somewhat weak to gray blight.",
+  "history": "The Saitama tea research institute registered Okumusashi as Norin 26 in 1962, and a paper on the newly registered cultivar appeared in the Tea Research Journal that same year. Saitama records its later use for black tea, thanks to its aroma.",
+  "liquor_hex": "#D2D080",
+  "leaf_hex": "#42592C",
+  "sources": [
+    "https://www.pref.saitama.lg.jp/b0914/chahinsyu.html",
+    "https://www.pref.saitama.lg.jp/a0904/shoureihinshu.html"
+  ],
+  "confidence": "medium",
+  "wikipedia_title": null,
+  "wikipedia_scope": "none",
+  "popularity": 2,
+  "images": []
+}

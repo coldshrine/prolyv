@@ -3,7 +3,14 @@
   "name_en": "Kang Zhuan (Sichuan Tibetan Brick)",
   "name_native": "康砖茶",
   "name_romanized": "Kāngzhuān Chá",
-  "aliases": ["Kang brick tea", "Kangzhuan", "Ya'an Kang Zhuan", "South Road border tea", "Nan Lu Bian Cha", "Tibetan brick tea"],
+  "aliases": [
+    "Kang brick tea",
+    "Kangzhuan",
+    "Ya'an Kang Zhuan",
+    "South Road border tea",
+    "Nan Lu Bian Cha",
+    "Tibetan brick tea"
+  ],
   "category": "heicha",
   "origin_country": "China",
   "origin_region": "Sichuan · Ya'an",
@@ -15,13 +22,47 @@
   "appearance_liquor": "Deep red-brown, bright, slightly thick.",
   "appearance_wet": "Coarse, dark-brown leaves and woody stems.",
   "taste_profile": "Woody and earthy-sweet with a smooth, rounded body, a faint smokiness and a mild, dark finish; no bitterness once rinsed.",
-  "taste_tags": ["woody", "earthy", "sweet", "smoky"],
-  "brewing": {"grams": 8, "water_ml": 120, "temp_c": 100, "steeps": 8, "seconds": [15, 15, 20, 30, 45, 60, 90, 150], "notes": "Made for the kettle: 10 g per litre simmered 5–10 minutes, then with butter and salt as in Tibet, or just milk. Gongfu works too: rinse twice, boiling water, longer steeps."},
+  "taste_tags": [
+    "woody",
+    "earthy",
+    "sweet",
+    "smoky"
+  ],
+  "brewing": {
+    "grams": 8,
+    "water_ml": 120,
+    "temp_c": 100,
+    "steeps": 8,
+    "seconds": [
+      15,
+      15,
+      20,
+      30,
+      45,
+      60,
+      90,
+      150
+    ],
+    "notes": "Made for the kettle: 10 g per litre simmered 5–10 minutes, then with butter and salt as in Tibet, or just milk. Gongfu works too: rinse twice, boiling water, longer steeps."
+  },
   "caffeine_level": "low",
   "vintage_note": "Sold by pressing year and factory (the Ya'an and Yingjing tea factories are the big names), traditionally as 500 g bricks in bamboo-wrapped bundles; market lots run 1–10 years, with bricks from the 1980s–90s traded as collectables. Drinkable the year it is made, softer after a few years.",
   "description": "Kang Zhuan is the brick that Sichuan has sent to Tibet for centuries: the standard unit of the 'South Road border tea' that went out of Ya'an on porters' backs and mule trains over the passes to Kangding and on to Lhasa. The 'Kang' is Kangding, the old trading town at the edge of the plateau, and the brick is still made for that market first – most of it is drunk boiled with butter and salt rather than sipped from a gaiwan.\n\nIt is made from mature leaf and stems, the coarse material that makes a robust, sweet tea when boiled, by a process of repeated steaming and piling the Ya'an makers call 'zuo se', 'making colour': the fired, rolled leaf is heaped, steamed, heaped again and so on over days or weeks until it is uniformly dark, then dried, steamed once more and pressed into 500 g bricks, wrapped in paper and packed in long bamboo bundles for transport.\n\nIn the cup it is woody and earthy-sweet with a smooth, rounded body, a faint smokiness and a mild, dark finish that has none of the muddiness of a cheap ripe pu-erh; rinsed twice and brewed with boiling water it gives seven or eight steeps, and simmered for ten minutes it gives the thick, red-brown liquor that takes butter or milk. It is a tea for cold weather and heavy food.\n\nIt is sold by pressing year and factory in bricks and bundles, cheaply, mostly through Sichuan and the Tibetan regions; the modern consumer line of the same tea is sold as Ya'an Zang Cha in smaller formats. Look for a clean, dry brick with a sweet, woody smell; a musty smell means bad storage. Older bricks are traded and their wrappers are collectable, but the tea itself is for drinking, not for ageing on a shelf for decades.\n\nIf you have never had Tibetan butter tea, a Kang Zhuan, a knob of butter, a pinch of salt and a blender get you most of the way there.",
   "wikipedia_title": "Tibetan tea",
   "wikipedia_scope": "umbrella",
   "popularity": 2,
-  "sources_note": "The 'zuo se' repeated steaming-and-piling description is generalised from Ya'an makers' accounts; brick weights (500 g standard) and bundle packaging vary by factory and era. Jin Jian is the larger, coarser sibling brick and is mentioned under ya-an-zang-cha."
+  "sources_note": "The 'zuo se' repeated steaming-and-piling description is generalised from Ya'an makers' accounts; brick weights (500 g standard) and bundle packaging vary by factory and era. Jin Jian is the larger, coarser sibling brick and is mentioned under ya-an-zang-cha.",
+  "name_zh": "康砖茶",
+  "name_ru": "Кан Чжуань",
+  "history": "Kang Zhuan is one of the two teas left in Ya'an's South Road border-tea line, which once had many grades and has been reduced to Kang Zhuan and the coarser Jin Jian. The two share the same five main stages and thirty-two steps and differ in how much of each raw material goes in.\n\nThe tea trade behind it is long documented: in the Qing, over 70% of the tea entering Tibet came from Sichuan, mainly from Ya'an, carried over the mountains by porters. South Road making became national intangible heritage in 2008 and part of the UNESCO listing for Chinese tea in 2022.",
+  "liquor_hex": "#7E3A18",
+  "leaf_hex": "#3A2A18",
+  "sources": [
+    "https://www.news.cn/politics/20241029/7b88c7d31b1d4915929fe37965952699/c.html",
+    "https://www.thepaper.cn/newsDetail_forward_19327473",
+    "https://www.ihchina.cn/project_details/14625.html",
+    "https://xdspkj.ijournals.cn/xdspkjen/article/pdf/20130945"
+  ],
+  "confidence": "medium",
+  "images": []
 }

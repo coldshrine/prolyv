@@ -1,0 +1,56 @@
+{
+  "slug": "corn-silk-tea",
+  "name_en": "Corn Silk Tea",
+  "name_native": "옥수수수염차",
+  "name_romanized": "oksusu-suyeom-cha",
+  "name_zh": "玉米须茶",
+  "name_ru": "Чай из кукурузных рылец",
+  "aliases": [
+    "玉米须",
+    "Yumi xu cha",
+    "トウモロコシのひげ茶",
+    "Oksusu-suyeom-cha"
+  ],
+  "category": "tisane",
+  "origin_country": "South Korea",
+  "origin_region": "South Korea",
+  "cultivar": null,
+  "processing": "Corn silk is dried and boiled or infused in water; it carries a light roasted flavour, and much of it is now sold as a bottled ready-to-drink tea.",
+  "form": "loose",
+  "harvest_season": "A by-product of the maize crop, drunk all year; no prized picking is recorded.",
+  "appearance_dry": "Fine, tangled dry threads, typically golden to reddish brown.",
+  "appearance_liquor": "Typically a clear pale gold to light amber.",
+  "appearance_wet": "Soft, limp strands, darker than when dry.",
+  "taste_profile": "Lightly roasted and gently sweet, less nutty than tea made from corn kernels.",
+  "taste_tags": [
+    "sweet",
+    "roasted",
+    "grassy"
+  ],
+  "brewing": {
+    "grams": 5,
+    "water_ml": 500,
+    "temp_c": 100,
+    "steeps": 1,
+    "seconds": [
+      300
+    ],
+    "notes": "Amounts are a starting point, as with similar herbal teas; boil longer for more depth. It also works well chilled."
+  },
+  "caffeine_level": "none",
+  "vintage_note": "Not a vintage drink: it is sold year-round, mainly in PET bottles with a best-before date, and also dried for home brewing. For dried silk, as with other herbal teas, buy recent stock and keep it sealed.",
+  "description": "Corn silk tea is a caffeine-free Korean drink made from the threads of the maize ear. Koreans count it among their traditional non-leaf teas, yet most people today know it as a bottle from the convenience store fridge.\n\nThe method is plain: the silk is dried and boiled in water. It gives a lighter roasted note than corn tea made mainly from the kernels.\n\nExpect something less nutty than corn tea but sweeter, an easy cup with no bitterness to manage. It is equally pleasant hot or cold.\n\nThe health image sells it: corn silk has a folk-medicine reputation as a diuretic, and advertising leans on the idea of reduced puffiness and a slim V-shaped jawline. Most of the research behind such claims is in animals or small trials, so treat it as a pleasant drink, not a remedy.\n\nThe English term corn tea is loose and can mean kernels, silk or both, so read the label if you want one rather than the other.",
+  "history": "Corn silk has a long folk-medicine use, including among Indigenous peoples of the Americas, who used it as a diuretic. As a mass-market Korean drink its story is recent and well dated.\n\nKwangdong Pharmaceutical launched its bottled corn silk tea in July 2006. Reported sales reached 150 million bottles by November 2007 and passed one billion by 2018, and bottled versions have since reached Japan as a Korean import.",
+  "liquor_hex": "#D9B865",
+  "leaf_hex": "#A9743A",
+  "sources": [
+    "https://ko.wikipedia.org/wiki/%EC%98%A5%EC%88%98%EC%88%98%EC%88%98%EC%97%BC%EC%B0%A8",
+    "https://ja.wikipedia.org/wiki/%E3%83%88%E3%82%A6%E3%83%A2%E3%83%AD%E3%82%B3%E3%82%B7%E3%81%AE%E3%81%B2%E3%81%92%E8%8C%B6",
+    "https://www.wikidata.org/wiki/Q109367781"
+  ],
+  "confidence": "medium",
+  "wikipedia_title": null,
+  "wikipedia_scope": "none",
+  "popularity": 3,
+  "images": []
+}

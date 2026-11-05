@@ -1,0 +1,61 @@
+{
+  "slug": "hoang-su-phi-tea",
+  "name_en": "Hoàng Su Phì Tea",
+  "name_native": "Chè Hoàng Su Phì",
+  "name_romanized": "Chè Hoàng Su Phì",
+  "name_zh": "黄树皮茶",
+  "name_ru": "Чай Хоангшуфи",
+  "aliases": [
+    "Hoang Su Phi tea",
+    "Hoàng Su Phì Shan Tuyết",
+    "Chè Shan tuyết Hoàng Su Phì"
+  ],
+  "category": "green",
+  "origin_country": "Vietnam",
+  "origin_region": "Hà Giang · Hoàng Su Phì",
+  "cultivar": "Shan Tuyết",
+  "processing": "Mostly shan tuyết leaf from mountain trees, made by local cooperatives and households, largely as green tea in the regional manner.",
+  "form": "loose",
+  "harvest_season": "Spring picking is usually the most valued, as with other high mountain shan tuyết; no fixed calendar applies across the district.",
+  "appearance_dry": "Long, twisted leaf with downy buds, typical of shan tuyết.",
+  "appearance_liquor": "Clear yellow to pale gold.",
+  "appearance_wet": "Large, thick leaves.",
+  "taste_profile": "As with other shan tuyết teas, expect a soft bitterness turning to lasting sweetness over a full body; notes particular to this district are not well recorded.",
+  "taste_tags": [
+    "sweet",
+    "mineral",
+    "herbal"
+  ],
+  "brewing": {
+    "grams": 5,
+    "water_ml": 120,
+    "temp_c": 90,
+    "steeps": 6,
+    "seconds": [
+      15,
+      15,
+      20,
+      30,
+      45,
+      60
+    ],
+    "notes": "Brew as other shan tuyết: hot water and many short steeps."
+  },
+  "caffeine_level": "medium",
+  "vintage_note": "Sold by cooperatives and small makers, usually as the current year's tea and often under a commune or cooperative name. The district has its own certification mark, and the wider Hà Giang geographical indication applies to shan tuyết here. As with other green teas, drink fresh lots within about a year.",
+  "description": "Hoàng Su Phì is a mountain district of Hà Giang with one of the largest concentrations of old shan tuyết trees in Vietnam. Its tea is a place name more than a single style, covering what local cooperatives make from those trees.\n\nReports put the district's old trees above 1,200 metres. Communes such as Phìn Hồ, Túng Sán and Thông Nguyên are named as growing areas, and the Phìn Hồ cooperative is one of the better-known producers.\n\nExpect what shan tuyết usually offers: big leaf, a soft bitterness that turns sweet, and many steeps at hot temperatures. Little has been written about what sets this district apart from neighbouring ones, so comparing it with Xín Mần or Tà Xùa side by side is the best test.\n\nWhen buying, look for the commune or cooperative name. Not all tea from the district is from ancient trees, since total tea area here is far larger than the oldest groves.",
+  "history": "These trees predate any commercial tea industry here, and one report describes some in the district as more than 200 years old. It also puts their number at about three million across more than 2,000 hectares, a figure best read as an estimate.\n\nModern recognition came through several steps: Hoàng Su Phì falls within the Hà Giang geographical indication for shan tuyết, trees here were among those listed as Heritage Trees in 2019, and a 2021 district resolution set out a plan to raise the value of its old-tree tea through 2025, looking ahead to 2030.",
+  "liquor_hex": "#D6BC60",
+  "leaf_hex": "#596040",
+  "wikipedia_title": null,
+  "wikipedia_scope": "none",
+  "popularity": 2,
+  "sources": [
+    "https://vietnamnews.vn/life-style/534893/ancient-tea-trees-get-top-recognition-and-protection.html",
+    "https://tuyengiao.hagiang.gov.vn/upload/64711/20220630/NQ_06_5b749.pdf",
+    "https://nhandan.vn/ocop/ha-giang-bao-ton-nang-cao-gia-tri-cay-che-shan-tuyet-post372156.html",
+    "https://vnbusiness.vn/phat-trien-san-pham-ocop-mien-nui-bai-1-tim-cho-dung-cho-che-shan-tuyet-hoang-su-phi.html"
+  ],
+  "confidence": "medium",
+  "images": []
+}

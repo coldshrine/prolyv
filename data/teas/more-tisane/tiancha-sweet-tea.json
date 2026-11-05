@@ -1,0 +1,60 @@
+{
+  "slug": "tiancha-sweet-tea",
+  "name_en": "Tian Cha (Chinese Sweet Tea)",
+  "name_native": "甜茶",
+  "name_romanized": "Tiánchá",
+  "name_zh": "甜茶",
+  "name_ru": "Тянь Ча",
+  "aliases": [
+    "Chinese sweet tea (tiancha)",
+    "Tencha (sweet tea)",
+    "Tiancha",
+    "Chinese sweet tea",
+    "Tian cha",
+    "Rubus suavissimus tea",
+    "Тянь ча (китайский сладкий чай)"
+  ],
+  "category": "tisane",
+  "origin_country": "China",
+  "origin_region": "Guangxi",
+  "cultivar": "Rubus suavissimus (other plants are also sold as tiancha)",
+  "processing": "Leaves are dried and infused as a herbal tea. Little is documented about processing specifics, which likely vary with the plant used.",
+  "form": "loose",
+  "harvest_season": "Little is documented on harvest timing; as a leaf herbal tea it is sold without a prized picking.",
+  "appearance_dry": "As is usual for a dried leaf herbal tea, crumpled dull green to brownish leaves.",
+  "appearance_liquor": "Typically a clear yellow to light amber.",
+  "appearance_wet": "Soft, dull green to brown leaves.",
+  "taste_profile": "Markedly sweet without any added sugar, thanks to rubusoside, with a plain herbal, leafy background.",
+  "taste_tags": [
+    "sweet",
+    "herbal"
+  ],
+  "brewing": {
+    "grams": 2,
+    "water_ml": 300,
+    "temp_c": 95,
+    "steeps": 2,
+    "seconds": [
+      240,
+      360
+    ],
+    "notes": "A practical starting point. Use very little: it gets cloyingly sweet quickly, so try it alone before blending."
+  },
+  "caffeine_level": "none",
+  "vintage_note": "Not sold by year or vintage in any established way; it comes as dried leaf or supplement-style products. Check which plant is in the packet, as the name covers several species, and buy recent stock.",
+  "description": "Tian cha means sweet tea, and in China it refers to herbal teas made from plants other than the tea bush. The classic version uses the leaves of Chinese blackberry, Rubus suavissimus, which contain rubusoside, a natural sweetener about 200 times sweeter than cane sugar.\n\nThe name is a trap in two ways. It covers several plants, including Lithocarpus polystachyus, Oldenlandia hedyotidea and sweet hydrangeas. And in Japanese it reads tencha, the same sound as the shaded leaf used for matcha, which is another thing entirely. It has nothing to do with iced American sweet tea either.\n\nThe cup is the surprise: leaves in hot water come out sweet with nothing added. Keep the dose small, since a heavy hand gives a cloying drink.\n\nJapan's allergy-season marketing made it known as a hay fever remedy. The evidence is weak: Japan's national nutrition institute found no reliable data, a health ministry survey of clinics had only 14 percent reporting a benefit, and a placebo-controlled trial in mite-allergy rhinitis found no effect. Enjoy it as a sweet herbal drink.",
+  "history": "Tian cha is an old Chinese medicinal herbal tea and has long been used for kidney complaints, but specific documented dates and places are scarce.\n\nIts modern fame came from Japan, where research including work by Suntory on a small group of subjects led to a wave of hay fever supplements in pharmacies. Later assessments were far less enthusiastic.",
+  "liquor_hex": "#D2B15A",
+  "leaf_hex": "#6F6B3C",
+  "sources": [
+    "https://ja.wikipedia.org/wiki/%E7%94%9C%E8%8C%B6",
+    "https://en.wikipedia.org/wiki/Chinese_sweet_tea",
+    "https://www.wikidata.org/wiki/Q63322955"
+  ],
+  "confidence": "medium",
+  "wikipedia_title": "Chinese sweet tea",
+  "wikipedia_scope": "exact",
+  "popularity": 2,
+  "sources_note": "Guangxi as origin comes from the master list and was not confirmed by the sources read. Appearance and liquor are class-typical.",
+  "images": []
+}

@@ -1,0 +1,53 @@
+{
+  "slug": "kenyan-green",
+  "name_en": "Kenyan Green Tea",
+  "name_native": null,
+  "name_romanized": null,
+  "name_zh": "肯尼亚绿茶",
+  "name_ru": "Кенийский зелёный чай",
+  "aliases": [
+    "Kenyan green orthodox",
+    "Kenya green tea"
+  ],
+  "category": "green",
+  "origin_country": "Kenya",
+  "origin_region": "Kenya",
+  "cultivar": "TRFK 306 (purple-leaf, in one documented case)",
+  "processing": "In the best-described case, at the Emrok factory, purple-leaf tea is pan-fired in a rotary machine to stop enzyme activity, rolled and tray-dried. Other Kenyan makers may differ.",
+  "form": "loose",
+  "harvest_season": "Kenya's highlands pick through much of the year; no prized green tea season is documented.",
+  "appearance_dry": "Twisted whole leaf of an orthodox kind; colour depends on the cultivar and maker.",
+  "appearance_liquor": "Not well described; expect a clear yellow-green to gold, as with other pan-fired greens.",
+  "appearance_wet": "Whole leaf or large pieces, typical of orthodox tea.",
+  "taste_profile": "Few reliable notes exist. The pan-firing was designed to tame the bitter, astringent liquor of purple leaf, so expect a softer green, with some grip left.",
+  "taste_tags": [
+    "vegetal",
+    "bitter"
+  ],
+  "brewing": {
+    "grams": 3,
+    "water_ml": 250,
+    "temp_c": 80,
+    "steeps": 2,
+    "seconds": [
+      120,
+      180
+    ],
+    "notes": "General advice for a pan-fired green tea. Shorten the steep first if it runs bitter."
+  },
+  "caffeine_level": "medium",
+  "vintage_note": "A small, made-to-order niche, not sold by vintage or famous seasons. As with other green teas, look for a recent pick date and drink it within about a year.",
+  "description": "Kenya is a giant of machine-cut black tea, so green tea here is a rarity. It comes from the small but growing group of producers who have moved into whole-leaf orthodox tea, and these lines remain a tiny share of the country's exports.\n\nThe best-described example comes from Emrok, on the Ogirgir estate in Nandi County at about 2,000 metres. There, purple-leaf TRFK 306 is heated in a rotary pan, rolled and dried on trays. The purpose was practical: the raw purple leaf gives a very bitter, astringent liquor, and this method makes it easier to drink.\n\nTasting notes are thin, so go gently. As with other pan-fired greens, start with water around 80 °C and a moderate steep.\n\nThe name covers little beyond the country. Ask what cultivar and which factory made it, and judge the cup by taste.",
+  "history": "Kenya's tea industry was built on black CTC, and its turn toward orthodox tea is recent. The Tea Research Foundation of Kenya developed the purple cultivar TRFK 306, released to farmers in 2011.\n\nThe Emrok factory on the Ogirgir estate, which was founded in 1960, was built in 2012 and has been reported making purple tea to order. Little is documented about Kenyan green tea from non-purple leaf.",
+  "liquor_hex": "#CFC275",
+  "leaf_hex": "#4C4A36",
+  "sources": [
+    "https://stir-tea-coffee.com/features/emrok-modern-approach-to-orthodox/",
+    "https://ibtimes.com/kenya-tea-producers-turn-over-new-leaf-prices-stumble-2894196"
+  ],
+  "confidence": "low",
+  "wikipedia_title": null,
+  "wikipedia_scope": "none",
+  "popularity": 2,
+  "images": []
+}

@@ -1,0 +1,60 @@
+{
+  "slug": "aracha",
+  "name_en": "Aracha",
+  "name_native": "荒茶",
+  "name_romanized": "Aracha",
+  "name_zh": "荒茶",
+  "name_ru": "Аратя",
+  "aliases": [
+    "Crude tea",
+    "Farmer's tea",
+    "Unrefined green tea",
+    "Ара-тя"
+  ],
+  "category": "green",
+  "origin_country": "Japan",
+  "origin_region": "Various tea regions",
+  "cultivar": null,
+  "processing": "Steamed, rolled and dried at a private or communal factory, then left unrefined: no sorting, final firing or blending. It stays at about 13% moisture and keeps its stems, broken pieces and fine hairs.",
+  "form": "loose",
+  "harvest_season": "Made at every harvest, right after picking. The first flush of spring is the one usually kept chilled and re-fired through the year as it is needed.",
+  "appearance_dry": "Uneven deep-green needles mixed with stems, fragments and leaf hairs.",
+  "appearance_liquor": "Deep green and somewhat cloudy from the fine particles.",
+  "appearance_wet": "A mix of soft green leaf, stems and fragments, not uniform like finished sencha.",
+  "taste_profile": "Bold, more aromatic than the finished tea it would become, with a green, savoury depth; cultivar and processing change it a lot.",
+  "taste_tags": [
+    "vegetal",
+    "umami",
+    "grassy",
+    "bitter"
+  ],
+  "brewing": {
+    "grams": 5,
+    "water_ml": 150,
+    "temp_c": 70,
+    "steeps": 3,
+    "seconds": [
+      60,
+      15,
+      45
+    ],
+    "notes": "Treat it like sencha, but with care: the fine particles and higher moisture make it quick to go strong, so keep the water cool."
+  },
+  "caffeine_level": "medium",
+  "vintage_note": "Mostly a trade product: tea farms sell it to wholesalers and tea companies straight after each harvest, in paper bags held cold until the next crop. When it reaches drinkers it is usually sold as the current year's first flush and should be finished soon, because at this moisture level it does not keep well outside cold storage.",
+  "description": "Aracha, crude tea, is the state nearly every Japanese green tea passes through: the leaf after steaming, rolling and drying, but before anyone has sorted it. Drink it and you are tasting sencha before it has been tidied up.\n\nFarmers or communal factories make it, then sell it on. Tea companies then sort the leaf from the stems and dust, sift it by size, give it a final firing and blend it to a house flavour. That last firing also brings moisture down from around 13% to about 3%.\n\nThe cup is usually bolder and more aromatic than the finished product, and deeper green because everything stays in. It is rougher too. Use cool water, around 70 °C, and a shorter steep than you would give a tidy sencha.\n\nWhen you see it for sale, it is generally a seasonal treat from a farm or specialist shop. Keep it sealed and in the fridge, and drink it soon.",
+  "history": "Aracha is a stage in the Japanese trade rather than an invention with a date. Its importance comes from the way the industry is split: growers make the crude tea, and tea merchants buy it up and finish it.\n\nThe bulk stock is stored in 30- or 60-kilogram paper bags at 0-5 °C and re-fired as needed through the year, so a first flush tea can last until the next harvest. The word came up in public in June 2011, when radiation testing after the Fukushima accident was extended to it.",
+  "wikipedia_title": "Aracha",
+  "wikipedia_scope": "exact",
+  "popularity": 3,
+  "liquor_hex": "#A9B95A",
+  "leaf_hex": "#3F5A2C",
+  "images": [],
+  "sources": [
+    "https://en.wikipedia.org/wiki/Aracha",
+    "https://ru.wikipedia.org/wiki/%D0%90%D1%80%D0%B0%D1%82%D1%8F",
+    "https://ja.wikipedia.org/wiki/%E8%A3%BD%E8%8C%B6",
+    "https://en.wikipedia.org/wiki/Green_tea"
+  ],
+  "confidence": "high"
+}

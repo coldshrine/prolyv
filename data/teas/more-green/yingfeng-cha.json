@@ -1,0 +1,53 @@
+{
+  "slug": "yingfeng-cha",
+  "name_en": "Yingfeng Cha",
+  "name_native": "瀛峰茶",
+  "name_romanized": "Yíngfēng Chá",
+  "aliases": [
+    "Yingfengcha"
+  ],
+  "category": "green",
+  "origin_country": "China",
+  "origin_region": "Chongqing · Qijiang",
+  "cultivar": null,
+  "form": "loose",
+  "caffeine_level": "medium",
+  "brewing": {
+    "grams": 3,
+    "water_ml": 150,
+    "temp_c": 80,
+    "steeps": 3,
+    "seconds": [
+      60,
+      75,
+      105
+    ],
+    "notes": "A safe starting point for green tea: cooler water, short steeps, then adjust by taste."
+  },
+  "taste_tags": [
+    "vegetal",
+    "sweet"
+  ],
+  "description": "A green tea speciality of Qijiang district in Chongqing.\n\nTreat it as you would any green tea: cooler water, short steeps, and a seller who can say where and when it was picked.",
+  "wikipedia_title": null,
+  "wikipedia_scope": "none",
+  "popularity": 1,
+  "name_zh": "瀛峰茶",
+  "name_ru": "Ин Фэн Ча",
+  "history": "In 1996 a local tea company and Southwest Agricultural University jointly developed two lines, Yingfeng Chunluo and Yingfeng Yurui, which have won quality awards in Chongqing and nationally. Little more is documented about it.",
+  "liquor_hex": "#CFD678",
+  "leaf_hex": "#4F6236",
+  "sources": [
+    "https://milulu.com.cn/techan/21085.html"
+  ],
+  "confidence": "low",
+  "images": [],
+  "stub": true,
+  "processing": "Typical of green tea: picked, heated soon after picking to stop oxidation, then shaped and dried.",
+  "harvest_season": "Usually picked in spring, with the earliest pickings prized, as with most green teas.",
+  "appearance_dry": "Tight, dark green and glossy.",
+  "appearance_liquor": "Clear jade green.",
+  "appearance_wet": "Leaves stand upright in the water like clusters of flowers.",
+  "taste_profile": "Mellow, with a clean fragrance and a long finish.",
+  "vintage_note": "Green teas like this are normally sold as the current year's harvest and are best within a year of picking. It is not an ageing tea."
+}

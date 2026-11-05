@@ -1,0 +1,57 @@
+{
+  "slug": "lemon-myrtle-tea",
+  "name_en": "Lemon Myrtle Tea",
+  "name_native": null,
+  "name_romanized": null,
+  "aliases": [
+    "Australian Lemon Myrtle",
+    "Lemon Myrtle",
+    "Lemon scented myrtle",
+    "Backhousia citriodora",
+    "Лимонный мирт"
+  ],
+  "category": "tisane",
+  "origin_country": "Australia",
+  "origin_region": "Queensland · New South Wales north coast",
+  "cultivar": "Backhousia citriodora (citral chemotype)",
+  "processing": "Leaves of plantation trees, kept low by pruning, are mechanically harvested and dried, then usually sold as flakes.",
+  "form": "loose",
+  "harvest_season": "Plantation crop with no prized picking documented; the trees flower from summer through autumn.",
+  "appearance_dry": "Green dried leaf flakes with a strong lemon smell.",
+  "appearance_liquor": "Pale yellow to light gold and clear.",
+  "appearance_wet": "Soft, olive-green leaf fragments.",
+  "taste_profile": "Sharply lemony in aroma, thanks to very high citral, but without the acidity of lemon juice, leaving a clean herbal finish.",
+  "taste_tags": [
+    "citrus",
+    "herbal",
+    "sweet"
+  ],
+  "brewing": {
+    "grams": 1,
+    "water_ml": 250,
+    "temp_c": 95,
+    "steeps": 1,
+    "seconds": [
+      300
+    ],
+    "notes": "Use a light hand, as it is potent. It is often blended with green or black tea."
+  },
+  "caffeine_level": "none",
+  "vintage_note": "Sold as dried flakes or in blends, with no vintages. Citral aroma fades, so buy recent stock in sealed packs, and judge it by the smell of the leaf.",
+  "description": "Lemon myrtle is an Australian rainforest tree, native to subtropical Queensland from Mackay to Brisbane, and its dried leaf makes one of the most intensely lemony infusions you can brew. There is no tea plant unless it is blended.\n\nCommercial plantations keep the trees low as hedges and machine-harvest the leaves, which are dried and flaked. The form grown for flavour is the citral type, whose oil is typically 90 to 98 percent citral. That is where the lemon comes from.\n\nStart with very little leaf: it is potent. Because the flavour comes without the acid, the leaf also works in milk-based food without curdling it.\n\nBuy it by nose: the flakes should smell loud and fresh. Don't confuse it with lemon verbena or lemon ironbark, which are different plants despite some shared common names.",
+  "history": "Aboriginal Australians used the plant in food and medicine long before it was given its botanical name in 1853 by Ferdinand von Mueller, after the botanist James Backhouse. Its oil was first isolated in 1888, and the company Tarax used it as a lemon flavouring during the Second World War.\n\nCommercial leaf came later. In 1989 Peter Hardwick explored it as a spice and crop, and the name lemon myrtle was shortened from lemon scented myrtle by the native foods trade. Myrtle rust, found in plantations in 2011, is now a serious threat to production.",
+  "liquor_hex": "#E2D58A",
+  "leaf_hex": "#74864A",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Backhousia_citriodora",
+    "https://ja.wikipedia.org/wiki/%E3%83%AC%E3%83%A2%E3%83%B3%E3%83%9E%E3%83%BC%E3%83%88%E3%83%AB",
+    "https://www.wikidata.org/wiki/Q2708073"
+  ],
+  "confidence": "medium",
+  "wikipedia_title": "Backhousia citriodora",
+  "wikipedia_scope": "exact",
+  "popularity": 2,
+  "name_zh": "柠檬香桃木茶",
+  "name_ru": "Чай из лимонного мирта",
+  "images": []
+}

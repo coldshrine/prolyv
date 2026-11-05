@@ -3,10 +3,18 @@
   "name_en": "Jiaogulan",
   "name_native": "绞股蓝",
   "name_romanized": "Jiǎogǔlán",
-  "aliases": ["Gynostemma", "Gynostemma pentaphyllum", "Southern ginseng", "Immortality herb", "Five-leaf ginseng", "Amachazuru", "Jiao gu lan"],
+  "aliases": [
+    "Gynostemma",
+    "Gynostemma pentaphyllum",
+    "Southern ginseng",
+    "Immortality herb",
+    "Five-leaf ginseng",
+    "Amachazuru",
+    "Jiao gu lan"
+  ],
   "category": "tisane",
   "origin_country": "China",
-  "origin_region": "Shaanxi · Pingli County (a recognised origin); also Guangxi, Hunan and Guizhou, and grown in Vietnam and Thailand",
+  "origin_region": "Shaanxi · Pingli",
   "cultivar": "Gynostemma pentaphyllum, a climbing vine in the cucumber family with five-fingered leaves",
   "processing": "Young vines and leaves are picked, withered briefly, then pan-fired or steamed and rolled and dried, much like a green tea; some lots are rolled into tight pellets or pearls.",
   "form": "loose",
@@ -15,12 +23,72 @@
   "appearance_liquor": "Yellow-green, clear.",
   "appearance_wet": "Bright-green five-fingered leaflets on slender stems, looking like a tiny vine.",
   "taste_profile": "A green, slightly bitter herbal start that turns into a strong, lingering ginseng-like sweetness, with a liquorice note; the sweetness builds with each steep.",
-  "taste_tags": ["herbal", "sweet", "bitter", "vegetal"],
-  "brewing": {"grams": 3, "water_ml": 250, "temp_c": 85, "steeps": 3, "seconds": [180, 240, 300], "notes": "Water at 80–90 °C, 3 minutes; the leaves take three or four steeps and the later ones are sweeter and less bitter than the first. Boiling water pushes the bitterness. It also brews well gongfu-style, 4 g in a 120 ml gaiwan with 20–40 second steeps."},
+  "taste_tags": [
+    "herbal",
+    "sweet",
+    "bitter",
+    "vegetal"
+  ],
+  "brewing": {
+    "grams": 3,
+    "water_ml": 250,
+    "temp_c": 85,
+    "steeps": 3,
+    "seconds": [
+      180,
+      240,
+      300
+    ],
+    "notes": "Water at 80–90 °C, 3 minutes; the leaves take three or four steeps and the later ones are sweeter and less bitter than the first. Boiling water pushes the bitterness. It also brews well gongfu-style, 4 g in a 120 ml gaiwan with 20–40 second steeps."
+  },
   "caffeine_level": "none",
-  "vintage_note": "Sold like a green tea: the current year's harvest, with spring tips priced above later cuts, and the harvest year usually stated by Chinese sellers. Labels distinguish leaf (ye) from pellet or pearl rolls, and 'wild' or mountain-grown lots from farmed ones; Pingli in Shaanxi is the protected origin to look for. It loses its fresh sweetness after about 18 months, so avoid old stock.",
-  "description": "Jiaogulan is a climbing vine from the mountains of southern and central China, a relative of the cucumber rather than of tea, whose five-fingered leaves make an infusion that starts green and bitter and finishes with a surprising, lasting sweetness. It is sometimes called southern ginseng because its taste and some of its chemistry resemble ginseng, and it has a long history as a folk tonic in the areas where it grows.\n\nThe leaves are processed almost exactly like a green tea: a quick heat to stop enzymatic browning, rolling, drying. That keeps the leaf bright green and the cup clean, and it is why jiaogulan behaves like a tea in the pot, re-steeping several times with the sweetness growing each time, rather than like a one-shot herbal infusion.\n\nBrew it with water well under the boil and give it three minutes; boiling water brings up the bitterness without adding anything. The first steep is the greenest and most bitter, the second and third are where the honeyed, liquorice-like finish really shows. It is pleasant cold too, and people who find it too bitter often prefer it blended with a little mint or stevia leaf.\n\nIt is sold by harvest year and season like a green tea, with spring tips at the top, in leaf form or rolled into small pellets. Pingli County in Shaanxi has a protected designation for it; cheaper lots from elsewhere are usually coarser and more bitter. Buy within a year or so of harvest.\n\nTraditionally it is drunk as an everyday tonic tea in its home region, and since it has no caffeine it works as an evening green-tea substitute. If you like its bitter-sweet profile, kuding is the more extreme version of the same idea.",
+  "vintage_note": "Sold like a green tea: the current year's harvest, with spring tips priced above later cuts, and the harvest year usually stated by Chinese sellers. Labels distinguish leaf (ye) from pellet or pearl rolls, and 'wild' or mountain-grown lots from farmed ones; Pingli in Shaanxi is a well-known origin to look for. It loses its fresh sweetness with age, so avoid old stock.",
+  "description": "Jiaogulan is a climbing vine from the mountains of southern and central China, a relative of the cucumber rather than of tea, whose five-fingered leaves make an infusion that starts green and bitter and finishes with a surprising, lasting sweetness. It is sometimes called southern ginseng because its taste and some of its chemistry resemble ginseng, and it has a long history as a folk tonic in the areas where it grows.\n\nThe leaves are processed almost exactly like a green tea: a quick heat to stop enzymatic browning, rolling, drying. That keeps the leaf bright green and the cup clean, and it is why jiaogulan behaves like a tea in the pot, re-steeping several times with the sweetness growing each time, rather than like a one-shot herbal infusion.\n\nBrew it with water well under the boil and give it three minutes; boiling water brings up the bitterness without adding anything. The first steep is the greenest and most bitter, the second and third are where the honeyed, liquorice-like finish really shows. It is pleasant cold too, and people who find it too bitter often prefer it blended with a little mint or stevia leaf.\n\nIt is sold by harvest year and season like a green tea, with spring tips at the top, in leaf form or rolled into small pellets. Pingli County in Shaanxi is a well-known origin; cheaper lots from elsewhere are usually coarser and more bitter. Buy within a year or so of harvest.\n\nTraditionally it is drunk as an everyday tonic tea in its home region, and since it has no caffeine it works as an evening green-tea substitute. If you like its bitter-sweet profile, kuding is the more extreme version of the same idea.",
   "wikipedia_title": "Gynostemma pentaphyllum",
   "wikipedia_scope": "exact",
-  "popularity": 2
+  "popularity": 2,
+  "name_zh": "绞股蓝",
+  "name_ru": "Цзяо Гу Лань",
+  "history": "Jiaogulan enters the written record in 1406, in the Ming famine herbal Jiuhuang Bencao, as a food for hard times rather than a medicine. Li Shizhen's Compendium of Materia Medica of 1578 is usually cited for its first medicinal use, though he confused it with a similar herb, wulianmei; Wu Qijun sorted that out in 1848.\n\nIt stayed a local folk drink of the mountains of southern China and northern Vietnam, and came late to mainstream Chinese medicine. Interest abroad began with sweetener research in Japan in the 1970s, when its sweet compounds were found to include saponins identical to those of ginseng. Japan had a brief boom in drinking and growing it around 1980.\n\nThat chemistry invites the comparison with ginseng, but good clinical evidence for its health claims is still missing. In the European Union a 2012 court ruling treated it as a novel food and barred its sale as food.",
+  "liquor_hex": "#C9C76E",
+  "leaf_hex": "#4A5F2E",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Gynostemma_pentaphyllum",
+    "https://zh.wikipedia.org/wiki/%E7%B5%9E%E8%82%A1%E8%97%8D",
+    "https://ja.wikipedia.org/wiki/%E3%82%A2%E3%83%9E%E3%83%81%E3%83%A3%E3%83%85%E3%83%AB",
+    "https://ru.wikipedia.org/wiki/%D0%93%D0%B8%D0%BD%D0%BE%D1%81%D1%82%D0%B5%D0%BC%D0%BC%D0%B0_%D0%BF%D1%8F%D1%82%D0%B8%D0%BB%D0%B8%D1%81%D1%82%D0%BD%D0%B0%D1%8F"
+  ],
+  "confidence": "high",
+  "images": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/3/33/Gynostemma_pentaphyllum_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/33/Gynostemma_pentaphyllum_2.jpg/330px-Gynostemma_pentaphyllum_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Gynostemma_pentaphyllum_2.jpg",
+      "author": "Doronenko",
+      "license": "CC BY-SA 3.0",
+      "license_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+      "kind": "plant",
+      "alt": "Jiaogulan vine with five-part leaves and a curling tendril"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/9/94/Gynostemma_pentaphyllum_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/94/Gynostemma_pentaphyllum_1.jpg/330px-Gynostemma_pentaphyllum_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Gynostemma_pentaphyllum_1.jpg",
+      "author": "Doronenko",
+      "license": "CC BY-SA 3.0",
+      "license_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+      "kind": "plant",
+      "alt": "Serrated compound leaves of the jiaogulan plant"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c2/Gynostemma_pentaphyllum.jpg/1280px-Gynostemma_pentaphyllum.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c2/Gynostemma_pentaphyllum.jpg/330px-Gynostemma_pentaphyllum.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Gynostemma_pentaphyllum.jpg",
+      "author": "Lioman",
+      "license": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "kind": "plant",
+      "alt": "Close view of bright green jiaogulan leaflets against the sky"
+    }
+  ]
 }

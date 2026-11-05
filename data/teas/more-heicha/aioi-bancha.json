@@ -1,0 +1,57 @@
+{
+  "slug": "aioi-bancha",
+  "name_en": "Aioi Bancha",
+  "name_zh": "相生晚茶",
+  "name_ru": "Аиои бантя",
+  "name_native": "相生晩茶",
+  "name_romanized": "Aioi bancha",
+  "aliases": [
+    "相生番茶",
+    "Awa bancha",
+    "阿波晩茶",
+    "Авабантя"
+  ],
+  "category": "heicha",
+  "origin_country": "Japan",
+  "origin_region": "Tokushima · Naka · Aioi",
+  "cultivar": null,
+  "processing": "Mature summer leaves are boiled, rubbed to bruise them, packed tightly into barrels under weights with their cooking water, and left to ferment with lactic bacteria, usually for one to two weeks in Naka, then dried.",
+  "form": "loose",
+  "harvest_season": "Around July, when all the leaves on a branch are stripped by hand.",
+  "appearance_dry": "Large, flat, crinkled leaves in olive and brown tones, with some twigs and fragments sorted out by size.",
+  "appearance_liquor": "Clear golden yellow.",
+  "appearance_wet": "Soft, large mature leaves in dull olive-brown, bruised from rubbing.",
+  "taste_profile": "Gently sour with a pickle-like, fruity aroma and a soft sweetness, and hardly any astringency.",
+  "taste_tags": [
+    "tart",
+    "fruity",
+    "sweet"
+  ],
+  "brewing": {
+    "grams": 5,
+    "water_ml": 1000,
+    "temp_c": 100,
+    "steeps": 1,
+    "seconds": [
+      120
+    ],
+    "notes": "The traditional way is to simmer about 5 g in a litre of water for two minutes. Locals also brew it in a kyusu like sencha."
+  },
+  "caffeine_level": "low",
+  "vintage_note": "Made once a year in summer and sold from that year's batch under the village or area name. It is not a tea sold by vintage or aged deliberately, though the fermentation makes it more stable than a fresh green tea.",
+  "description": "Aioi Bancha is the version of Awa bancha made in the former town of Aioi, now part of Naka in Tokushima. Despite the name it has little in common with ordinary bancha: it is a lactic-fermented tea, closer in spirit to pickles. Locals often write it with a different character for ban to mark that difference.\n\nThe leaf is picked late, in high summer, then boiled, rubbed and sealed in barrels under weights with its own cooking water. Air is kept out on purpose. Afterwards the leaves are loosened and dried outdoors or in a greenhouse, then sorted.\n\nThe cup is golden, faintly sour and very soft, with low catechins and low caffeine because of the old leaf and the fermentation. People used to green tea can be startled by the pickle smell, which is normal. Try it hot, or chilled in summer.\n\nBuy it by producer and place: Aioi from Naka, and Kamikatsu is the other main area, with its own longer soak of two to three weeks. Comparing the two is the best next step, and Goishicha from Kochi shows how far this family can go.",
+  "history": "Two legends explain its origin, one crediting the monk Kobo Daishi and the other a Heike fugitive named Yokoo. No records before the early modern era back up either.\n\nThe tea has gained official standing recently. In 2018 it was selected, with Ishizuchi kurocha and Goishicha, under the fermented tea techniques of the Shikoku mountains, and in 2021 its production techniques were designated an Important Intangible Folk Cultural Property of Japan.",
+  "wikipedia_title": "阿波晩茶",
+  "wikipedia_scope": "umbrella",
+  "popularity": 2,
+  "liquor_hex": "#C9A24A",
+  "leaf_hex": "#6B5A35",
+  "sources": [
+    "https://ja.wikipedia.org/wiki/%E9%98%BF%E6%B3%A2%E6%99%A9%E8%8C%B6",
+    "https://ru.wikipedia.org/wiki/%D0%90%D0%B2%D0%B0%D0%B1%D0%B0%D0%BD%D1%82%D1%8F",
+    "https://www.wikidata.org/wiki/Q11657546",
+    "https://chamart.jp/en/archives/learn_japan/tokushima"
+  ],
+  "confidence": "high",
+  "images": []
+}

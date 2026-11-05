@@ -3,24 +3,85 @@
   "name_en": "Kangra Green Tea",
   "name_native": "कांगड़ा चाय",
   "name_romanized": "Kāṅgṛā chāy",
-  "aliases": ["Kangra green", "Himachal green tea", "Kangra valley green tea", "Palampur green tea"],
+  "aliases": [
+    "Kangra green",
+    "Himachal green tea",
+    "Kangra valley green tea",
+    "Palampur green tea"
+  ],
   "category": "green",
   "origin_country": "India",
-  "origin_region": "Himachal Pradesh · Kangra Valley (Palampur)",
+  "origin_region": "Himachal Pradesh · Kangra Valley",
   "cultivar": "Chinary bushes (Camellia sinensis var. sinensis) from nineteenth-century seed",
-  "processing": "Brief wither, then pan-firing or steaming to stop oxidation, rolling and drying in small factories; historically a major product of the valley, much of it sold through Amritsar and on to Kabul.",
+  "processing": "Brief wither, then pan-firing or steaming to stop oxidation, rolling and drying in small factories; historically exported to Kashmir, Afghanistan and Central Asia.",
   "form": "loose",
   "harvest_season": "April to October; the spring leaf is the gentlest and most prized.",
   "appearance_dry": "Loosely twisted, dull-green leaf.",
   "appearance_liquor": "Pale yellow-green.",
   "appearance_wet": "Olive-green leaf.",
   "taste_profile": "Mild and sweetly vegetal with a nutty finish and very little bitterness.",
-  "taste_tags": ["vegetal", "nutty", "sweet"],
-  "brewing": {"grams": 3, "water_ml": 200, "temp_c": 80, "steeps": 2, "seconds": [150, 180], "notes": "Forgiving for a green; keep the water around 80 °C and it will give a second steep."},
+  "taste_tags": [
+    "vegetal",
+    "nutty",
+    "sweet"
+  ],
+  "brewing": {
+    "grams": 3,
+    "water_ml": 200,
+    "temp_c": 80,
+    "steeps": 2,
+    "seconds": [
+      150,
+      180
+    ],
+    "notes": "Forgiving for a green; keep the water around 80 °C and it will give a second steep."
+  },
   "caffeine_level": "medium",
-  "vintage_note": "Sold as the current season's harvest, mostly within northern India and at modest prices, with much of it going to Punjab and Kashmir as the base for kahwa; a few speciality importers list spring lots by garden. Use within the year of harvest, kept sealed and dark.",
-  "description": "Kangra green tea is the historic product of the Kangra valley in Himachal Pradesh. In the nineteenth century much of the valley's green tea went to the markets of Amritsar, Kabul and Central Asia, and green tea is still what much of the local crop becomes, especially the leaf that goes north to Kashmir for kahwa.\n\nThe leaf is withered briefly, then pan-fired or steamed to stop oxidation, rolled and dried; small factories around Palampur and a cooperative plant handle most of it. The Chinary bushes and cool mountain springs give a leaf that is naturally low in bitterness.\n\nThe cup is pale yellow-green, mild and sweetly vegetal with a nutty finish and almost no astringency, closer to a soft Chinese green than to anything from Japan. Brew it at around 80 °C for two to three minutes; it is forgiving, and a second steep works.\n\nIt is sold as the current season's harvest, with the spring lot the gentlest, mostly within northern India and at modest prices; a few speciality importers list it abroad under the garden name. Use it within the year of harvest, kept sealed and dark.\n\nIt makes a very good base for kahwa: simmer cardamom, cinnamon and a pinch of saffron in water, take it off the heat, then steep the green tea for a few minutes.",
+  "vintage_note": "Sold as the current season's harvest, mostly within northern India and at modest prices, with some going to Kashmir as the base for kahwa; a few speciality importers list spring lots by garden. Use within the year of harvest, kept sealed and dark.",
+  "description": "Kangra green tea is one of the two historic products of the Kangra valley in Himachal Pradesh. In the nineteenth century the valley's tea reached Kabul and Central Asia, and green tea went to Kashmir as well. Today it is the minority of the crop, about a tenth, and some of it still goes north to Kashmir for kahwa.\n\nThe leaf is withered briefly, then pan-fired or steamed to stop oxidation, rolled and dried; small factories around Palampur and a cooperative plant handle most of it. The Chinary bushes and cool mountain springs give a leaf that is naturally low in bitterness.\n\nThe cup is pale yellow-green, mild and sweetly vegetal with a nutty finish and almost no astringency, closer to a soft Chinese green than to anything from Japan. Brew it at around 80 °C for two to three minutes; it is forgiving, and a second steep works.\n\nIt is sold as the current season's harvest, with the spring lot the gentlest, mostly within northern India and at modest prices; a few speciality importers list it abroad under the garden name. Use it within the year of harvest, kept sealed and dark.\n\nIt makes a very good base for kahwa: simmer cardamom, cinnamon and a pinch of saffron in water, take it off the heat, then steep the green tea for a few minutes.",
   "wikipedia_title": "Kangra tea",
   "wikipedia_scope": "exact",
-  "popularity": 2
+  "popularity": 2,
+  "name_zh": "康格拉绿茶",
+  "name_ru": "Кангра зелёный",
+  "history": "Green tea has been made in Kangra alongside black since the mid-nineteenth century, from the Chinese variety planted after an 1848 survey. In the 1880s Kangra tea was being bought in Kabul and Central Asia, and the valley is known historically for exporting green tea to Kashmir and Afghanistan.\n\nThe 1905 earthquake ended the boom. Green is now the minority product, with black around 90 percent of output, but Kashmir still draws on the valley's green leaf for kahwah.",
+  "liquor_hex": "#D8D48C",
+  "leaf_hex": "#6F7443",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Kangra_tea",
+    "https://en.wikipedia.org/wiki/Kahwah"
+  ],
+  "confidence": "medium",
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e0/Tea_garden_at_Nagri_in_the_Kangra_Valley_of_Himachal_Pradesh%2C_India.jpg/1280px-Tea_garden_at_Nagri_in_the_Kangra_Valley_of_Himachal_Pradesh%2C_India.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e0/Tea_garden_at_Nagri_in_the_Kangra_Valley_of_Himachal_Pradesh%2C_India.jpg/330px-Tea_garden_at_Nagri_in_the_Kangra_Valley_of_Himachal_Pradesh%2C_India.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Tea_garden_at_Nagri_in_the_Kangra_Valley_of_Himachal_Pradesh,_India.jpg",
+      "author": "UnpetitproleX",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "kind": "plantation",
+      "alt": "Tea plantation at Nagri in the Kangra Valley with the snow-capped Dhauladhar range behind"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8c/Mann_Tea_Estate_1.jpg/1280px-Mann_Tea_Estate_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8c/Mann_Tea_Estate_1.jpg/330px-Mann_Tea_Estate_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Mann_Tea_Estate_1.jpg",
+      "author": "Anirudhsuri",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "kind": "plantation",
+      "alt": "Rows of tea bushes under shade trees at Mann Tea Estate in Kangra district"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5c/Towa_-_1.jpg/1280px-Towa_-_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5c/Towa_-_1.jpg/330px-Towa_-_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Towa_-_1.jpg",
+      "author": "Anirudhsuri",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "kind": "plantation",
+      "alt": "Tea bushes below forested hills at Towa Tea Estate in Kangra"
+    }
+  ]
 }

@@ -3,10 +3,21 @@
   "name_en": "Kukicha",
   "name_native": "茎茶",
   "name_romanized": "Kukicha",
-  "aliases": ["Twig tea", "Stem tea", "Bōcha", "Kuki cha", "Sencha kukicha"],
+  "aliases": [
+    "Twig tea",
+    "Stem tea",
+    "Bōcha",
+    "Kuki cha",
+    "Sencha kukicha",
+    "Karigane",
+    "Shiraore",
+    "莖茶",
+    "棒茶",
+    "Кукича"
+  ],
   "category": "green",
   "origin_country": "Japan",
-  "origin_region": "Nationwide · Shizuoka, Kagoshima, Mie, Kyoto, Fukuoka",
+  "origin_region": "Shizuoka",
   "cultivar": null,
   "processing": "Not a separate crop: the stems, petioles and twigs sorted out of sencha, kabusecha or gyokuro during refining are collected, given a light final firing and sold on their own; a roasted version becomes kuki hōjicha.",
   "form": "loose",
@@ -15,12 +26,72 @@
   "appearance_liquor": "Pale yellow-green and clear.",
   "appearance_wet": "Softened green stems that look like tiny cut grass stalks.",
   "taste_profile": "Light, sweet and clean with a faint creamy note and a gentle grassy freshness, much less astringent than the leaf it came from.",
-  "taste_tags": ["sweet", "grassy", "creamy", "vegetal"],
-  "brewing": {"grams": 5, "water_ml": 150, "temp_c": 80, "steeps": 3, "seconds": [60, 20, 50], "notes": "Stems are light, so measure by weight and fill the kyusu more than looks reasonable. It tolerates hotter water than sencha and makes an easy, forgiving daily tea; also excellent cold-brewed."},
+  "taste_tags": [
+    "sweet",
+    "grassy",
+    "creamy",
+    "vegetal"
+  ],
+  "brewing": {
+    "grams": 5,
+    "water_ml": 150,
+    "temp_c": 80,
+    "steeps": 3,
+    "seconds": [
+      60,
+      20,
+      50
+    ],
+    "notes": "Stems are light, so measure by weight and fill the kyusu more than looks reasonable. It tolerates hotter water than sencha and makes an easy, forgiving daily tea; also excellent cold-brewed."
+  },
   "caffeine_level": "low",
   "vintage_note": "Sold as a by-product of the current year's refining, usually labelled with the parent tea (sencha kukicha, gyokuro kukicha) and sometimes the flush; first-flush stems reach shops in early summer and are cheapest in large bags. There is no ageing tradition for the green version, so drink it within the year, while the roasted kuki hōjicha is made and sold year-round. 'Three-year bancha' (sannen bancha) is a separate, aged and roasted twig product from the macrobiotic world.",
-  "description": "Kukicha is stem tea: the stalks, petioles and twigs that are sorted out of sencha, kabusecha and gyokuro when the rough tea is refined, collected and sold on their own. It is cheap because it is a by-product, and it is loved because stems carry much less caffeine and catechin than leaf and a good deal of sweetness, which makes a light, forgiving, slightly creamy tea that you can drink all day.\n\nIn the refining plant the aracha passes through sieves, air separators and colour sorters that pull out everything that is not a flat green needle; the pale stems go one way, the dust another, the buds another. Stems from the first flush are the best grade, pale green and tender; later flushes give woodier, browner twigs. Regional names for the same thing can confuse: Kyoto calls the stems of gyokuro and tencha karigane, Kyushu says shiraore, and Ishikawa roasts its stems into Kaga bōcha. Roast any kukicha and you have kuki hōjicha.\n\nIt tolerates hotter water than sencha, around 80 °C, with a first steep of about a minute and a quick second; the stems are bulky and light, so weigh out 5 g rather than trusting a spoon, and expect to fill the kyusu more than looks sensible. The cup is pale, clean and sweet with a gentle grassy note and a faint creaminess, and it cold-brews into something close to sweet green water in the best sense. It is hard to make bitter.\n\nBuy it by parent tea: 'gyokuro kukicha' or karigane is sweeter and more savoury and costs more, 'sencha kukicha' is the everyday version, and green stems are the ones you want for this card, not roasted brown twigs. A trap for English speakers: the 'kukicha' sold in health-food shops is often a roasted, aged twig tea from the macrobiotic tradition (sannen bancha, 'three-year bancha'), which is a different drink. Green kukicha is a current-year product; keep it sealed and cold and finish it within the year.\n\nIt is the Japanese tea to reach for in the evening, and the one to give people who find sencha too strong.",
+  "description": "Kukicha is stem tea: the stalks, petioles and twigs that are sorted out of sencha, kabusecha and gyokuro when the rough tea is refined, collected and sold on their own. It is cheap because it is a by-product, and it is loved because stems carry much less caffeine and catechin than leaf and a good deal of sweetness, which makes a light, forgiving, slightly creamy tea that you can drink all day.\n\nIn the refining plant the aracha passes through sieves, air separators and colour sorters that pull out everything that is not a flat green needle; the pale stems go one way, the dust another, the buds another. Stems from the first flush are the best grade, pale green and tender; later flushes give woodier, browner twigs. Regional names for the same thing can confuse: Kyoto calls the stems of gyokuro and tencha karigane, Kyushu says shiraore, and Ishikawa roasts its stems into Kaga bōcha. Roast any kukicha and you have kuki hōjicha.\n\nIt tolerates hotter water than sencha, around 80 °C, with a first steep of about a minute and a quick second; the stems are bulky and light, so weigh out 5 g rather than trusting a spoon, and expect to fill the kyusu more than looks sensible. The cup is pale, clean and sweet with a gentle grassy note and a faint creaminess, and it cold-brews into something close to sweet green water in the best sense. It is hard to make bitter.\n\nBuy it by parent tea: 'gyokuro kukicha' or karigane is sweeter and more savoury and costs more, 'sencha kukicha' is the everyday version, and green stems are the ones you want here, not roasted brown twigs. A trap for English speakers: the 'kukicha' sold in health-food shops is often a roasted, aged twig tea from the macrobiotic tradition (sannen bancha, 'three-year bancha'), which is a different drink. Green kukicha is a current-year product; keep it sealed and cold and finish it within the year.\n\nIt is the Japanese tea to reach for in the evening, and the one to give people who find sencha too strong.",
   "wikipedia_title": "Kukicha",
   "wikipedia_scope": "exact",
-  "popularity": 4
+  "popularity": 4,
+  "name_zh": "茎茶",
+  "name_ru": "Кукитя",
+  "history": "The sources give no founding story or date for kukicha. It comes out of the refining of rough tea (aracha) into sencha, where stems, along with buds (mecha) and fines (konacha), are sorted out as by-products known as demono.\n\nIts low price reflects supply and demand more than taste, though it is often treated as a second-class tea. Stems hold about twice the theanine of leaf and more of certain aroma compounds, and they make few bitter catechins because they barely photosynthesise.\n\nThe names have drifted. Karigane first meant stems from gyokuro, and shiraore is the Kyushu word for the same thing, but karigane now also covers good stem tea in general. Kaga bōcha from Ishikawa roasts the stems and is the best-known roasted version. Kukicha is also a favourite of the macrobiotic diet.",
+  "liquor_hex": "#E0DC98",
+  "leaf_hex": "#B4B878",
+  "sources": [
+    "https://ja.wikipedia.org/wiki/%E8%8C%8E%E8%8C%B6",
+    "https://en.wikipedia.org/wiki/Kukicha",
+    "https://zh.wikipedia.org/wiki/%E8%8E%96%E8%8C%B6",
+    "https://ru.wikipedia.org/wiki/%D0%9A%D1%83%D0%BA%D0%B8%D1%82%D1%8F"
+  ],
+  "confidence": "medium",
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/ba/Kukicha.jpg/1280px-Kukicha.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/ba/Kukicha.jpg/330px-Kukicha.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Kukicha.jpg",
+      "author": "Difference engine",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "kind": "dry_leaf",
+      "alt": "Small pile of dry kukicha, pale green stems and darker leaf pieces, on a white background"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/4/47/Kukicha-p1030752.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/47/Kukicha-p1030752.jpg/330px-Kukicha-p1030752.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Kukicha-p1030752.jpg",
+      "author": "Rama",
+      "license": "CC BY-SA 2.0 fr",
+      "license_url": "https://creativecommons.org/licenses/by-sa/2.0/fr/deed.en",
+      "kind": "dry_leaf",
+      "alt": "Close-up of dry kukicha showing flattened pale green stems mixed with dark green leaf"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/eb/Small_tasting_cup_of_kukicha.jpg/1280px-Small_tasting_cup_of_kukicha.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/eb/Small_tasting_cup_of_kukicha.jpg/330px-Small_tasting_cup_of_kukicha.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Small_tasting_cup_of_kukicha.jpg",
+      "author": "Difference engine",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "kind": "liquor",
+      "alt": "White tasting cup of pale yellow-green kukicha on a wooden table"
+    }
+  ]
 }

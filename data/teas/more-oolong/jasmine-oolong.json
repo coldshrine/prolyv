@@ -1,0 +1,58 @@
+{
+  "slug": "jasmine-oolong",
+  "name_en": "Jasmine Oolong",
+  "name_native": "茉莉烏龍",
+  "name_romanized": "Mòlì Wūlóng",
+  "name_zh": "茉莉乌龙",
+  "name_ru": "Жасминовый улун",
+  "aliases": [
+    "Jasmine Wulong",
+    "茉莉乌龙茶",
+    "茉莉烏龍茶"
+  ],
+  "category": "oolong",
+  "origin_country": "Taiwan",
+  "origin_region": "Taiwan",
+  "cultivar": null,
+  "processing": "An oolong base is scented with fresh jasmine blossoms: the tea absorbs the aroma, and the spent flowers are removed. As in jasmine tea generally, better grades go through repeated scenting rounds.",
+  "form": "ball",
+  "harvest_season": "Base oolong and flowers come from separate pickings; jasmine scenting is generally done when the summer blossom is in season.",
+  "appearance_dry": "Often tight rolled balls of green oolong, sometimes with loose twisted leaf instead.",
+  "appearance_liquor": "Pale gold and clear.",
+  "appearance_wet": "Rolled leaves that unfurl dramatically into large soft pieces.",
+  "taste_profile": "Sweet jasmine over a rounder, fuller oolong body, with less astringency than jasmine green tea.",
+  "taste_tags": [
+    "floral",
+    "sweet",
+    "creamy"
+  ],
+  "brewing": {
+    "grams": 5,
+    "water_ml": 120,
+    "temp_c": 90,
+    "steeps": 5,
+    "seconds": [
+      30,
+      25,
+      30,
+      40,
+      60
+    ],
+    "notes": "Give rolled balls a longer first steep to open. Very hot water can sharpen the floral note, so step down slightly if it feels harsh."
+  },
+  "caffeine_level": "medium",
+  "vintage_note": "Sold as a scented tea, usually without a stated vintage, though good sellers give the scenting year. As with other jasmine teas, it is best drunk within a year or two, while the aroma is fresh. It is not an ageing tea.",
+  "description": "Jasmine oolong is what happens when the jasmine scenting method meets an oolong instead of the usual green tea. It is a style rather than an appellation, so the name alone does not tell you where it was made.\n\nThe base is often rolled into tight balls that open up dramatically in the pot. Scenting works because tea readily takes up aromas: the leaf sits with fresh blossoms, then the flowers are taken out, and in better tea the round is repeated.\n\nThe oolong brings body and complexity, so the cup is sweeter and less astringent than jasmine green tea. Good ones taste of flowers and tea together; poor ones taste of perfume over nothing much.\n\nWhen buying, smell the leaf and then taste the second steep. Natural scent stays in the tea as the steeps go on, while added flavouring tends to fall off quickly or feel artificial. Ask how many rounds of scenting it had, and whether real flowers were used.",
+  "history": "Little is documented about who first scented oolong with jasmine. The jasmine method is long established with green tea bases, and jasmine oolong is described as one of the newer extensions of it, along with jasmine black and white teas.",
+  "liquor_hex": "#DDBF6A",
+  "leaf_hex": "#5F6D3A",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Jasmine_tea",
+    "https://m.thepaper.cn/baijiahao_14893784"
+  ],
+  "confidence": "low",
+  "wikipedia_title": "Jasmine tea",
+  "wikipedia_scope": "umbrella",
+  "popularity": 3,
+  "images": []
+}

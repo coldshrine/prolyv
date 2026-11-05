@@ -1,0 +1,58 @@
+{
+  "slug": "dixu-tea",
+  "name_en": "Dixu Tea",
+  "name_native": "底圩茶",
+  "name_romanized": "Dǐxū Chá",
+  "name_zh": "底圩茶",
+  "name_ru": "Ди Сюй Ча",
+  "aliases": [
+    "Diweicha",
+    "Diwei Tea",
+    "Ди Вэй Ча"
+  ],
+  "category": "green",
+  "origin_country": "China",
+  "origin_region": "Yunnan · Wenshan · Guangnan",
+  "cultivar": "Dixu local large-leaf",
+  "processing": "Mostly made as green tea, tightly shaped and dried. The same leaf also suits yellow, white, black and compressed teas, and a local bamboo-tube version exists.",
+  "form": "loose",
+  "harvest_season": "Spring, summer and autumn, one or two flushes per season, mainly by hand; in warm wet years, winter tea can run until mid-December.",
+  "appearance_dry": "Tight, neat strands, green and heavily downy, with white dominating over green.",
+  "appearance_liquor": "Clear, bright pale yellow.",
+  "appearance_wet": "Tender large-leaf shoots.",
+  "taste_profile": "Pure, downy aroma and a sweet, refreshing aftertaste that holds its flavour over many steeps.",
+  "taste_tags": [
+    "sweet",
+    "vegetal",
+    "floral"
+  ],
+  "brewing": {
+    "grams": 3,
+    "water_ml": 150,
+    "temp_c": 85,
+    "steeps": 4,
+    "seconds": [
+      40,
+      60,
+      90,
+      120
+    ],
+    "notes": "Downy large-leaf green stands up to repeated steeps, so start short and add time gradually."
+  },
+  "caffeine_level": "medium",
+  "vintage_note": "The green is sold by year and season, best as fresh spring tea and within the year. Picking runs through three seasons, so ask which one you are buying; black tea and bamboo-tube versions are sold under the same local name.",
+  "description": "Dixu Tea comes from Guangnan County in Yunnan's Wenshan prefecture, in the hills where the Yunnan plateau falls away towards Guangxi. It takes its name from Dixu township and is a protected local tea, based on a large-leaf plant that stays tender for a long time.\n\nThe plant is a small tree with hairy young shoots, and that down shows up in the dry leaf, which looks more white than green. Gardens mostly lie at 800 to 1,500 metres on acidic sandy soil. Older gardens were seed-sown on open slopes; newer ones are terraced and increasingly planted from cuttings.\n\nIn the cup it is clear and bright, with a pure downy fragrance and a sweet aftertaste, and it is known for keeping its flavour across repeated steeps. That gives you room: start short, and do not rush to throw out the leaf.\n\nGreen is the main style, but the same plant goes into other teas, so read the label. Look out for the local bamboo-tube version, which has its own reputation. Spring picks are the ones to seek out if you want the green at its most delicate.",
+  "history": "The Guangnan county gazetteer gives the tea a history of over 300 years, naming it for Dixu township where it first appeared. A local factory began making black tea for market in 1986, and in 1983 a bamboo-tube version was rated among Yunnan's ten fine teas at a provincial tasting.\n\nChina's Ministry of Agriculture registered Dixu Tea as a geographical indication on 31 March 2016, covering 18 townships and two farms in the county.",
+  "liquor_hex": "#E0D682",
+  "leaf_hex": "#9AA57E",
+  "sources": [
+    "https://milulu.com.cn/techan/17619.html",
+    "https://www.maigoo.com/top/423324.html"
+  ],
+  "confidence": "medium",
+  "wikipedia_title": null,
+  "wikipedia_scope": "none",
+  "popularity": 2,
+  "images": [],
+  "sources_note": "Reading of 圩 here (xū vs wéi) is unverified; row alias suggests Diwei, so both are given."
+}

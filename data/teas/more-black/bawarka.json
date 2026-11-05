@@ -1,0 +1,52 @@
+{
+  "slug": "bawarka",
+  "name_en": "Bawarka",
+  "name_native": "Bawarka",
+  "name_romanized": null,
+  "aliases": [
+    "Bavaroise"
+  ],
+  "category": "black",
+  "origin_country": "Poland",
+  "origin_region": "Poland",
+  "cultivar": null,
+  "form": "other",
+  "caffeine_level": "high",
+  "brewing": {
+    "grams": 3,
+    "water_ml": 200,
+    "temp_c": 95,
+    "steeps": 2,
+    "seconds": [
+      180,
+      240
+    ],
+    "notes": "A safe starting point for black tea: Western style, water just off the boil."
+  },
+  "taste_tags": [
+    "malty",
+    "sweet"
+  ],
+  "description": "The Polish name for tea with a generous splash of milk, taken over from the French bavaroise, a drink of tea, milk and liqueur.\n\nThis is a way of preparing tea more than a tea you buy under one name, so the recipe and the base tea change from one maker to the next.",
+  "wikipedia_title": null,
+  "wikipedia_scope": "none",
+  "popularity": 1,
+  "name_zh": "波兰牛奶红茶",
+  "name_ru": "Баварка",
+  "history": "The name passed from French gastronomy into Polish, where it now also covers the version without alcohol. In Poland, tea with milk is traditionally recommended to nursing mothers to encourage milk supply. Little more is documented about it.",
+  "liquor_hex": "#C99A6B",
+  "leaf_hex": "#3A2A1E",
+  "sources": [
+    "https://de.wikipedia.org/wiki/Bavaroise_%28Getr%C3%A4nk%29"
+  ],
+  "confidence": "low",
+  "images": [],
+  "stub": true,
+  "processing": "Made from a black base tea according to the recipe; the method varies.",
+  "harvest_season": "Not tied to a harvest: it depends on the base tea.",
+  "appearance_dry": "Usually dark twisted leaf, sometimes with golden tips.",
+  "appearance_liquor": "Usually a clear red-brown.",
+  "appearance_wet": "Usually coppery brown leaf.",
+  "taste_profile": "Expect what black teas usually give: malty, sweet and brisk.",
+  "vintage_note": "Not sold by vintage: it is made from whatever base tea the maker keeps, so freshness of the base matters more than the year."
+}

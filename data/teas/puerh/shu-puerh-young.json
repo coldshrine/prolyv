@@ -3,7 +3,14 @@
   "name_en": "Young Shu Pu-erh (1–3 Years)",
   "name_native": "新熟茶",
   "name_romanized": "Xīn Shúchá",
-  "aliases": ["New shu", "Fresh ripe pu-erh", "Young ripe pu-erh", "Xin shu cha", "Current-year shu"],
+  "aliases": [
+    "New shu",
+    "Fresh ripe pu-erh",
+    "Young ripe pu-erh",
+    "Xin shu cha",
+    "Current-year shu",
+    "Синь Шу Ча"
+  ],
   "category": "shu",
   "origin_country": "China",
   "origin_region": "Yunnan",
@@ -15,12 +22,45 @@
   "appearance_liquor": "Dark red-brown, sometimes slightly cloudy in the first steep of a very new tea, clearing with a rinse.",
   "appearance_wet": "Soft brown leaves, with a stronger earthy, sometimes fishy smell that fades after the rinse.",
   "taste_profile": "Sweet dates and cocoa under a layer of damp earth, hay and, in the first months, a fishy or musty 'pile' note; a thick body, a touch of bitterness in lighter fermentations, and a finish that gets cleaner with every month of airing.",
-  "taste_tags": ["earthy", "dried-fruit", "cocoa", "sweet"],
-  "brewing": {"grams": 8, "water_ml": 120, "temp_c": 100, "steeps": 10, "seconds": [10, 10, 12, 15, 20, 30, 45, 60, 90, 150], "notes": "Rinse twice with boiling water, the second rinse 10–15 seconds, and discard anything cloudy. Boiling water throughout. Break the cake up and air the pieces in a clean jar or paper for a few weeks before drinking; it makes a real difference."},
+  "taste_tags": [
+    "earthy",
+    "dried-fruit",
+    "cocoa",
+    "sweet"
+  ],
+  "brewing": {
+    "grams": 8,
+    "water_ml": 120,
+    "temp_c": 100,
+    "steeps": 10,
+    "seconds": [
+      10,
+      10,
+      12,
+      15,
+      20,
+      30,
+      45,
+      60,
+      90,
+      150
+    ],
+    "notes": "Rinse twice with boiling water, the second rinse 10–15 seconds, and discard anything cloudy. Boiling water throughout. Break the cake up and air the pieces in a clean jar or paper for a few weeks before drinking; it makes a real difference."
+  },
   "caffeine_level": "medium",
-  "vintage_note": "Young shu is sold by pressing year, usually 1–3 years after fermentation, and it is the bulk of the ripe market because most shu is drunk within ten years. The first year after pressing commonly carries 'dui wei', the smell of the pile (damp earth, hay, sometimes fish), which fades with airing and is mostly gone by year two or three; well-made tea from a clean pile has little of it even when new, which is the quickest quality test there is. Lightly fermented modern styles keep more bitterness and need a couple more years; traditional full fermentation is drinkable almost at once. Kunming-dry storage clears the pile smell more slowly than Guangdong humidity but keeps the tea cleaner.",
+  "vintage_note": "Young shu is sold by pressing year, usually 1–3 years after fermentation, and it makes up much of the ripe market because shu is generally drunk fairly young. The first year after pressing commonly carries 'dui wei', the smell of the pile (damp earth, hay, sometimes fish), which fades with airing and is mostly gone by about year three; well-made tea from a clean pile has little of it even when new, which is the quickest quality test there is. Normally fermented tea tends to show its character after two or three years, and lightly fermented modern styles keep more bitterness and need longer. Dry Kunming storage changes the tea more slowly than Guangdong humidity but keeps it cleaner; hot, damp storage moves faster and can leave musty or pile notes.",
   "description": "Young shu is ripe pu-erh in its first few years after fermentation, and it is most of the ripe tea anyone drinks: cheap, comforting, nearly impossible to brew wrong, and occasionally smelling of the pile it came out of. Learning to tell a clean young shu from a rough one is the most useful skill in buying ripe tea.\n\nThe tea has been wet-piled for six to eight weeks, dried, rested and pressed, and the residues of that process, moisture, heat and microbes, leave a smell the trade calls dui wei: damp earth, wet hay, sometimes a fishy or musty edge. It is not mould and it is not a fault in small amounts; it is the tea being new, and it fades as the cake airs over its first couple of years. A badly managed pile leaves sourness or a sharp mustiness that does not fade, and that is a fault.\n\nIn the cup a good young shu is sweet with dates and cocoa, thick and smooth, a little earthy, and gets visibly cleaner from month to month; lightly fermented modern styles keep a touch of bitterness and a tea-like brightness. Two boiling rinses, boiling water throughout, and the single best trick: break the cake into chunks and let them breathe in a jar for a few weeks before you judge it.\n\nIt is sold by pressing year, which is usually a year after the leaf was picked, by factory recipe or by boutique origin, and at low to moderate prices. Buy the cleanest young shu you can find rather than the most famous name, and smell the dry leaf: date-and-wood sweetness good, fish and sour bad. A 'drink now' shu that smells strongly of the pile will be fine in two years; one that smells sour will not.\n\nIf you want to taste what time does, buy two of the same cake and open the second in five years; the difference is smaller than with sheng but real.",
   "wikipedia_title": "Pu'er tea",
   "wikipedia_scope": "umbrella",
-  "popularity": 3
+  "popularity": 3,
+  "name_zh": "新熟茶",
+  "name_ru": "Молодой Шу Пуэр",
+  "history": "Young shu is an age class, not a place or a recipe: any ripe pu-erh in its first few years after the pile. The Chinese name is a plain description, and little is documented about it as a category of its own. What people write about is the pile smell, dui wei, and how long it takes to go.\n\nOne Chinese-language tea article gives a rough timetable. A cake only two or three months out of the press is heavy with pile smell and not yet good to drink; after about three years the smell has mostly gone, and normally fermented tea becomes drinkable after two or three years, lightly fermented tea after three or more. These are drinkers' rules of thumb rather than measurements, and storage shifts them: hot, damp places move the tea faster but risk mould and pile odour, while dry ones are slower and cleaner.",
+  "liquor_hex": "#4A1F0E",
+  "leaf_hex": "#33211A",
+  "sources": [
+    "https://www.cmoney.tw/notes/note-detail.aspx?nid=66878"
+  ],
+  "confidence": "low",
+  "images": []
 }

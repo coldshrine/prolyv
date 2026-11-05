@@ -1,0 +1,53 @@
+{
+  "slug": "ziyuan-da-ye-cha",
+  "name_en": "Ziyuan Da Ye Cha",
+  "name_native": "资源大叶茶",
+  "name_romanized": "Zīyuán Dàyè Chá",
+  "aliases": [
+    "資源大葉茶"
+  ],
+  "category": "green",
+  "origin_country": "China",
+  "origin_region": "Guangxi · Ziyuan Lianghe",
+  "cultivar": "Ziyuan Da Ye",
+  "form": "loose",
+  "caffeine_level": "medium",
+  "brewing": {
+    "grams": 3,
+    "water_ml": 150,
+    "temp_c": 80,
+    "steeps": 3,
+    "seconds": [
+      60,
+      75,
+      105
+    ],
+    "notes": "A safe starting point for green tea: cooler water, short steeps, then adjust by taste."
+  },
+  "taste_tags": [
+    "vegetal",
+    "sweet"
+  ],
+  "description": "A seed-propagated, large-leaf, small-tree tea plant from Lianghe township in Ziyuan County, Guangxi.\n\nIts high polyphenol and caffeine content suits it to black tea and Liubao.",
+  "wikipedia_title": null,
+  "wikipedia_scope": "none",
+  "popularity": 1,
+  "name_zh": "资源大叶茶",
+  "name_ru": "Цзы Юань Да Е Ча",
+  "history": "It is described as cold-hardy and of medium yield. Little more is documented about its history.",
+  "liquor_hex": "#C9A84A",
+  "leaf_hex": "#5E6636",
+  "sources": [
+    "https://www.ichabaike.com/chashu/ziyuandayecha/"
+  ],
+  "confidence": "low",
+  "images": [],
+  "stub": true,
+  "processing": "A plant cultivar, not a processing style: it is usually made into green tea, and the method is up to the grower.",
+  "harvest_season": "Depends on the place and the grower.",
+  "appearance_dry": "Depends on how the leaf is processed.",
+  "appearance_liquor": "Depends on how the leaf is processed.",
+  "appearance_wet": "Depends on how the leaf is processed.",
+  "taste_profile": "Depends on how the leaf is processed; tea from it usually falls within what green teas give.",
+  "vintage_note": "A cultivar is not sold by vintage. Tea made from it follows the usual pattern for green tea, so ask for the harvest year and the grower."
+}

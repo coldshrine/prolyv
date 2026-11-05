@@ -1,0 +1,59 @@
+{
+  "slug": "vervain-tea",
+  "name_en": "Vervain Tea (Verveine)",
+  "name_native": null,
+  "name_romanized": null,
+  "name_zh": "马鞭草茶",
+  "name_ru": "Вербена лекарственная",
+  "aliases": [
+    "Vervain",
+    "Verveine",
+    "Verbena",
+    "Common verbena",
+    "Verbena officinalis",
+    "Вербена",
+    "馬鞭草"
+  ],
+  "category": "tisane",
+  "origin_country": "France",
+  "origin_region": "Europe",
+  "cultivar": null,
+  "processing": "The aerial parts of common vervain are dried, cut and infused; no oxidation or roasting is involved.",
+  "form": "loose",
+  "harvest_season": "The plant flowers in June and July, and herbs of this kind are typically gathered around flowering.",
+  "appearance_dry": "Cut grey-green stems and small toothed leaves with a few pale mauve flower bits.",
+  "appearance_liquor": "Usually a clear pale yellow-green, typical of dried leafy herbs.",
+  "appearance_wet": "Limp dull green leaf and square stem fragments.",
+  "taste_profile": "Plain, green and herbal with some bitterness from the plant's bitter compounds; little is recorded beyond that.",
+  "taste_tags": [
+    "herbal",
+    "bitter",
+    "vegetal"
+  ],
+  "brewing": {
+    "grams": 2,
+    "water_ml": 200,
+    "temp_c": 95,
+    "steeps": 1,
+    "seconds": [
+      300
+    ],
+    "notes": "A typical herbal infusion method. Not safe in pregnancy, and traditional Chinese use warns against it during menstruation as well."
+  },
+  "caffeine_level": "none",
+  "vintage_note": "Sold without vintages, as cut dried herb or in teabags from herbal suppliers. As usual for dried herbs, recent stock is best. Check the Latin name: in French, verveine on a tisane often means lemon verbena, a different and much more fragrant plant.",
+  "description": "Vervain tea is an infusion of common vervain, Verbena officinalis, a modest perennial with mauve flower spikes, native to Europe and now naturalised widely. It is one of the few verbenas from outside the Americas.\n\nProcessing is simple drying and cutting, so the cup depends on the herb itself. The plant carries bitter compounds and iridoids such as verbenalin, and it is taken much more for tradition than for perfume.\n\nExpect a plain, herbal, slightly bitter cup rather than anything lemony. If you were hoping for lemon, you probably want lemon verbena, Aloysia citrodora, which shares the French name verveine; this is the most common buying mistake.\n\nIt has a long reputation as a calming herb, but that is folk use rather than proven medicine. It is not considered safe during pregnancy, and the plant is listed in Chinese herbal medicine as mildly toxic, so keep it occasional.",
+  "history": "Few herbs carry as much legend. It was called the tears of Isis in Egypt and Juno's tears later on, Romans counted it among sacred plants, and a medieval Christian legend said it staunched Christ's wounds. These are stories rather than history, but they explain names like holy herb.\n\nIts use as a tea is on firmer ground. Nicholas Culpeper discussed folk uses of the plant in his 1652 The English Physitian, and it has been taken as tea in traditional Austrian medicine. Chinese-language sources also note the stems and leaves being used as a tea substitute.",
+  "liquor_hex": "#CFC77E",
+  "leaf_hex": "#747F58",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Verbena_officinalis",
+    "https://ru.wikipedia.org/wiki/%D0%92%D0%B5%D1%80%D0%B1%D0%B5%D0%BD%D0%B0_%D0%BB%D0%B5%D0%BA%D0%B0%D1%80%D1%81%D1%82%D0%B2%D0%B5%D0%BD%D0%BD%D0%B0%D1%8F",
+    "https://zh.wikipedia.org/wiki/%E9%A9%AC%E9%9E%AD%E8%8D%89"
+  ],
+  "confidence": "medium",
+  "wikipedia_title": "Verbena officinalis",
+  "wikipedia_scope": "umbrella",
+  "popularity": 2,
+  "images": []
+}

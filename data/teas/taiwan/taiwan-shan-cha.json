@@ -3,11 +3,19 @@
   "name_en": "Taiwan Shan Cha (Native Mountain Tea)",
   "name_native": "台灣山茶",
   "name_romanized": "Táiwān Shānchá",
-  "aliases": ["Taiwan wild mountain tea", "Taiwanese native tea", "Camellia formosensis tea", "Liugui mountain tea", "Shan Cha black", "Yongkang mountain tea", "Taiwan yuansheng shancha"],
+  "aliases": [
+    "Taiwan wild mountain tea",
+    "Taiwanese native tea",
+    "Camellia formosensis tea",
+    "Liugui mountain tea",
+    "Shan Cha black",
+    "Yongkang mountain tea",
+    "Taiwan yuansheng shancha"
+  ],
   "category": "black",
   "origin_country": "Taiwan",
-  "origin_region": "Kaohsiung · Liugui; Nantou · Ren'ai (Meiyuan); Taitung · Yongkang",
-  "cultivar": "Taiwan native mountain tea (Camellia sinensis f. formosensis), including the TTES #24 'Shan Yun' selection",
+  "origin_region": "Kaohsiung · Liugui",
+  "cultivar": "Taiwan native mountain tea (Camellia formosensis), including the TTES #24 selection",
   "processing": "Leaf from wild, semi-wild or planted native trees, hand-picked and usually made as an orthodox black (withered, rolled, fully oxidised, dried); some producers make a rolled oolong or a green, and a few press the black into cakes.",
   "form": "loose",
   "harvest_season": "Spring (March–May) is the main harvest from the mountain trees, with a smaller summer picking; harvesting on national forest land is restricted.",
@@ -15,13 +23,44 @@
   "appearance_liquor": "Clear orange-red.",
   "appearance_wet": "Uneven, slightly leathery leaves in brown and copper, of different sizes.",
   "taste_profile": "A cooling menthol-and-woody note with herbal, slightly medicinal depth, dark honey and a long, dry-sweet finish; less malty and wilder than Assam-type black.",
-  "taste_tags": ["camphor", "woody", "herbal", "honey", "medicinal"],
-  "brewing": {"grams": 5, "water_ml": 120, "temp_c": 90, "steeps": 6, "seconds": [20, 20, 30, 45, 60, 90], "notes": "Around 90 °C with short gongfu steeps or three minutes Western-style; the aromatic edge shows best when it is not pushed."},
+  "taste_tags": [
+    "camphor",
+    "woody",
+    "herbal",
+    "honey",
+    "medicinal"
+  ],
+  "brewing": {
+    "grams": 5,
+    "water_ml": 120,
+    "temp_c": 90,
+    "steeps": 6,
+    "seconds": [
+      20,
+      20,
+      30,
+      45,
+      60,
+      90
+    ],
+    "notes": "Around 90 °C with short gongfu steeps or three minutes Western-style; the aromatic edge shows best when it is not pushed."
+  },
   "caffeine_level": "medium",
-  "vintage_note": "Sold by harvest year, by area and increasingly by cultivar (TTES #24 Shan Yun), in small quantities at prices that vary wildly; Liugui, promoted by the Kaohsiung city government, is the easiest name to find. Treat 'wild' on the label as a claim, since genuinely wild-harvested tea is scarce and much comes from planted native-tea seedlings. Black lots keep two or three years and a few producers age pressed cakes.",
-  "description": "Taiwan shan cha, 'mountain tea', is the island's native tea plant, a form of Camellia sinensis that grows wild in the central and southern mountains, in Nantou's Meiyuan area, the Liugui and Taoyuan districts of Kaohsiung, parts of Chiayi and Pingtung, and around Yongkang in Taitung. It is the wild parent of Ruby 18, which is where that tea's mint-and-cinnamon note comes from, and in the last decade or so it has become a small speciality in its own right, mostly as black tea.\n\nThe trees are tall and uneven, picked by hand from wild or semi-wild stands and, increasingly, from planted seedlings, because harvesting on national forest land is restricted. Most producers make an orthodox black, withered, rolled, fully oxidised and dried, which suits the leaf's character; some make a rolled oolong or a green, and a few press the black tea into cakes. The Tea Research and Extension Station released its first cultivar selected from native tea, number 24, Shan Yun, from the Yongkang population in 2019, so cultivated shan cha is beginning to appear with a cultivar name.\n\nThe cup is unlike any other black tea: a cooling menthol-and-woody note, herbal and slightly medicinal depth, dark honey and a long, dry-sweet finish, with less malt and more wildness than Assam-type tea. Brew it at around 90 degrees with short gongfu steeps or three minutes Western-style; it is not harsh, but the aromatic edge comes through best when it is not pushed.\n\nIt is sold by harvest year, by area, and increasingly by cultivar, in small quantities at prices that vary wildly; Liugui, which the Kaohsiung city government promotes, is the easiest name to find. Treat 'wild' on the label as a claim: genuinely wild-harvested tea is scarce, and much of what is sold comes from planted native-tea seedlings, which is fine as long as it is said. Spring leaf is the main harvest, with a smaller summer picking.\n\nDrink it next to Ruby 18 to taste where the famous 'Taiwan fragrance' came from.",
+  "vintage_note": "Sold by harvest year, by area and increasingly by cultivar (TTES #24), in small quantities at prices that vary wildly. Treat 'wild' on the label as a claim, since genuinely wild-harvested tea is scarce and much comes from planted native-tea seedlings. Black lots keep two or three years and a few producers age pressed cakes.",
+  "description": "Taiwan shan cha, 'mountain tea', is the island's native tea plant, now treated as its own species, Camellia formosensis, which grows wild in the central, southern and eastern mountains of the island, with a distinct population in Taitung. It is the wild parent of Ruby 18, which is where that tea's mint-and-cinnamon note comes from, and in the last decade or so it has become a small speciality in its own right, mostly as black tea.\n\nThe trees are tall and uneven, picked by hand from wild or semi-wild stands and, increasingly, from planted seedlings, because harvesting on national forest land is restricted. Most producers make an orthodox black, withered, rolled, fully oxidised and dried, which suits the leaf's character; some make a rolled oolong or a green, and a few press the black tea into cakes. The Tea Research and Extension Station has also bred cultivar number 24 from the Yongkang population, so cultivated shan cha is beginning to appear with a cultivar name.\n\nThe cup is unlike any other black tea: a cooling menthol-and-woody note, herbal and slightly medicinal depth, dark honey and a long, dry-sweet finish, with less malt and more wildness than Assam-type tea. Brew it at around 90 degrees with short gongfu steeps or three minutes Western-style; it is not harsh, but the aromatic edge comes through best when it is not pushed.\n\nIt is sold by harvest year, by area, and increasingly by cultivar, in small quantities at prices that vary wildly. Treat 'wild' on the label as a claim: genuinely wild-harvested tea is scarce, and much of what is sold comes from planted native-tea seedlings, which is fine as long as it is said. Spring leaf is the main harvest, with a smaller summer picking.\n\nDrink it next to Ruby 18 to taste where the famous 'Taiwan fragrance' came from.",
   "wikipedia_title": "Taiwanese tea",
   "wikipedia_scope": "umbrella",
   "popularity": 1,
-  "sources_note": "Botanical status (Camellia sinensis f. formosensis, sometimes treated as Camellia formosensis) and the 2019 release of TTES #24 Shan Yun from Yongkang material are from memory; the list of wild populations is approximate. Category set to black because that is how most of it is sold."
+  "sources_note": "Botanical status (Camellia sinensis f. formosensis, sometimes treated as Camellia formosensis) and the 2019 release of TTES #24 Shan Yun from Yongkang material are from memory; the list of wild populations is approximate. Category set to black because that is how most of it is sold.",
+  "name_zh": "台湾山茶",
+  "name_ru": "Тайвань Шань Ча",
+  "history": "Taiwan's native tea plant grows in the low and middle mountains of the centre, south and east of the island, and local strains differ in flavour. Han settlers were already going into the Shuishalian area to pick and make it before 1697, and the result was called Shuishalian tea.\n\nFor much of the twentieth century botanists filed it under Camellia sinensis or the Assam variety. DNA work in 2009 led to its treatment as a separate species, Camellia formosensis, with the Taitung population named as the variety yungkangensis, Yongkang mountain tea.\n\nBreeders at Yuchi crossed it with Burmese large-leaf Assam to create Ruby 18, and cultivar number 24 was later bred from the Yongkang population alone.",
+  "liquor_hex": "#B85A22",
+  "leaf_hex": "#3D2A1C",
+  "sources": [
+    "https://zh.wikipedia.org/wiki/%E5%8F%B0%E7%81%A3%E5%B1%B1%E8%8C%B6",
+    "https://www.wikidata.org/wiki/Q15390037"
+  ],
+  "confidence": "medium",
+  "images": []
 }

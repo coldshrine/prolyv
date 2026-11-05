@@ -3,25 +3,59 @@
   "name_en": "Hadong Green Tea",
   "name_native": "하동 녹차",
   "name_romanized": "Hadong nokcha",
-  "aliases": ["Hadong nokcha", "Jirisan green tea", "Hwagae valley tea", "Jaksul-cha", "Hadong wild tea", "Hadong deokkeum-cha"],
+  "aliases": [
+    "Hadong nokcha",
+    "Jirisan green tea",
+    "Hwagae valley tea",
+    "Jaksul-cha",
+    "Hadong wild tea",
+    "Hadong deokkeum-cha"
+  ],
   "category": "green",
   "origin_country": "South Korea",
-  "origin_region": "Gyeongsangnam-do · Hadong · Jirisan (Hwagae valley)",
+  "origin_region": "Gyeongsangnam-do · Hadong · Jirisan",
   "cultivar": "Seed-grown native bushes (jaeraejong), genetically mixed and often semi-wild",
   "processing": "Hand-picked, pan-fired in a heated iron cauldron and hand-rolled on a mat through several firing-and-rolling cycles, then slowly dried at low heat; a few makers add a final light roast.",
   "form": "loose",
-  "harvest_season": "Late April to early June, sold by the standard Korean grades: ujeon (before 20 April), sejak (late April to early May), jungjak (mid May) and daejak (late May on).",
+  "harvest_season": "Mid April to early June, sold by the standard Korean grades: ujeon (before 20 April), sejak (late April to early May), jungjak (mid May) and daejak (late May on).",
   "appearance_dry": "Fine, slightly curly, irregular dark green leaves of mixed sizes, with a warm chestnut-and-grain smell rather than a fresh grassy one.",
   "appearance_liquor": "Pale yellow-green with a faint golden tint, clear.",
   "appearance_wet": "Small uneven leaves and buds, olive green, clearly from mixed seedling bushes rather than a single cultivar.",
   "taste_profile": "Roasted chestnut and toasted grain over a sweet, savoury body, with a soft texture, a little smoke in rustic lots and a long clean finish.",
-  "taste_tags": ["nutty", "sweet", "umami", "roasted"],
-  "brewing": {"grams": 3, "water_ml": 100, "temp_c": 70, "steeps": 4, "seconds": [60, 45, 60, 90], "notes": "Korean style: small pot, water cooled in a bowl first, leaf kept in the pot between rounds. Grade decides the temperature: ujeon at 55–60°C, sejak around 70°C, jungjak and daejak up to 80°C."},
+  "taste_tags": [
+    "nutty",
+    "sweet",
+    "umami",
+    "roasted"
+  ],
+  "brewing": {
+    "grams": 3,
+    "water_ml": 100,
+    "temp_c": 70,
+    "steeps": 4,
+    "seconds": [
+      60,
+      45,
+      60,
+      90
+    ],
+    "notes": "Korean style: small pot, water cooled in a bowl first, leaf kept in the pot between rounds. Grade decides the temperature: ujeon at 55–60°C, sejak around 70°C, jungjak and daejak up to 80°C."
+  },
   "caffeine_level": "medium",
   "vintage_note": "Sold as the current year's spring harvest, labelled by grade (ujeon, sejak, jungjak, daejak) and often by the maker's name; the first packs appear in late April and the fine grades are gone by midsummer. Small hand-made lots are usually 40–100 g; buy the current year, keep it sealed and cool, and drink it within twelve months.",
   "description": "Hadong, on the southern slopes of Jirisan in Gyeongsangnam-do, is the home of Korean hand-made green tea. The Samguk Sagi records that tea seeds from Tang China were planted on Jirisan in 828, and Hadong's Hwagae valley near the temple of Ssanggyesa claims that first planting. Whatever the exact spot, the tea here has grown from seed for a very long time, and the bushes still do: they are scattered up rocky hillsides and along streams rather than planted in rows, and no two look quite alike.\n\nThat seedling diversity, plus the small scale, is what sets Hadong apart from Boseong and Jeju. Most of the tea is picked by hand by families and small workshops, fired in a heated iron cauldron and rolled on a mat by hand, then fired again, cycle after cycle, until it is dry. The style is called deokkeum-cha, 'roasted tea', and it gives Korean green its signature chestnut-and-grain warmth. The traditional Hadong tea agrosystem was recognised by the FAO as a Globally Important Agricultural Heritage System in 2017.\n\nIn the cup Hadong tea is sweet, nutty and savoury with a soft texture and a finish that goes on for a while; rustic lots carry a trace of smoke from the cauldron. It is sold by the standard Korean grades, and the brewing temperature should follow the grade: cool water for ujeon and sejak, warmer for the later picks. Brewed too hot it loses the sweetness and turns bitter, which is the usual reason people are disappointed.\n\nWhen buying, look for the maker's name, the grade and the year; 'Hadong' alone on a big supermarket pack tells you little, because the county also has mechanised gardens. Teas sold as 'wild' (yasaeng) come from abandoned or semi-wild hillside bushes and tend to be more rugged and variable.\n\nHadong is also the centre for Korean oxidised teas, so a hwangcha or balhyocha from the same maker is the natural next step after their green.",
   "wikipedia_title": "Hadong County",
   "wikipedia_scope": "umbrella",
   "popularity": 3,
-  "sources_note": "The 828 planting is from the Samguk Sagi; the precise location in Hwagae is a local claim. FAO GIAHS designation of the 'Traditional Hadong Tea Agrosystem' in 2017 is stated from memory; worth a quick check."
+  "sources_note": "The 828 planting is from the Samguk Sagi; the precise location in Hwagae is a local claim. FAO GIAHS designation of the 'Traditional Hadong Tea Agrosystem' in 2017 is stated from memory; worth a quick check.",
+  "name_zh": "河东绿茶",
+  "name_ru": "Зелёный чай Хадон",
+  "history": "Hadong, on the southern side of Jirisan, is often described as Korea's leading green tea producer. The local account dates its tea to 828, when plants came from China to Silla, and treats the county's wild-growing tea as the descendant of that arrival.\n\nThe festival's account credits its quality to gravelly and fertile ground, high mountains, deep valleys, rivers including the Seomjin, fog and wide temperature swings at harvest. A wild tea cultural festival keeps the story in public view.",
+  "liquor_hex": "#D8CF86",
+  "leaf_hex": "#4E5A32",
+  "sources": [
+    "https://en.wikipedia.org/wiki/List_of_South_Korean_festivals"
+  ],
+  "confidence": "medium",
+  "images": []
 }

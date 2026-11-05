@@ -3,10 +3,17 @@
   "name_en": "Charcoal Roasting (style)",
   "name_native": "炭焙",
   "name_romanized": "Tàn bèi",
-  "aliases": ["Tan bei", "Charcoal-roasted oolong", "Charcoal baked tea", "Roasted oolong", "Nong xiang (heavy-roast style)", "Hong bei"],
+  "aliases": [
+    "Tan bei",
+    "Charcoal-roasted oolong",
+    "Charcoal baked tea",
+    "Roasted oolong",
+    "Nong xiang (heavy-roast style)",
+    "Hong bei"
+  ],
   "category": "oolong",
   "origin_country": "China",
-  "origin_region": "Fujian · Wuyi Mountains (yancha) and Anxi (traditional Tieguanyin); Taiwan · Dong Ding and Muzha (Tie Guan Yin)",
+  "origin_region": "Fujian · Wuyi Mountains",
   "cultivar": null,
   "processing": "Finished oolong is slow-roasted in bamboo baskets over charcoal embers banked under a layer of ash, at low temperatures for many hours, in several sessions spread over days or weeks, then rested for weeks or months so the 'fire' taste fades. Light, medium and heavy roasts are distinguished; electric roasting ovens are the modern, cheaper alternative and much of what is sold as roasted tea has never seen charcoal.",
   "form": "loose",
@@ -15,12 +22,44 @@
   "appearance_liquor": "Amber to deep orange-brown, very clear.",
   "appearance_wet": "Dark brown leaf, often with a reddish edge, that opens slowly over many steeps.",
   "taste_profile": "Caramel, toasted grain and roasted nuts over dried fruit and a mineral, lingering sweetness; a well-done charcoal roast adds depth and a clean warmth without any ash or burnt notes, and the fruit of the underlying tea still shows through.",
-  "taste_tags": ["roasted", "nutty", "sweet", "dried-fruit", "mineral"],
-  "brewing": {"grams": 7, "water_ml": 110, "temp_c": 100, "steeps": 7, "seconds": [10, 10, 15, 20, 30, 45, 60], "notes": "Boiling water, a quick rinse, short steeps in a gaiwan or clay pot; roasted oolongs open slowly and reward patience in the later infusions. A freshly roasted tea can taste of 'fire' for the first month or two; a few months' rest settles it. Good with milk only in the heaviest Taiwanese styles."},
+  "taste_tags": [
+    "roasted",
+    "nutty",
+    "sweet",
+    "dried-fruit",
+    "mineral"
+  ],
+  "brewing": {
+    "grams": 7,
+    "water_ml": 110,
+    "temp_c": 100,
+    "steeps": 7,
+    "seconds": [
+      10,
+      10,
+      15,
+      20,
+      30,
+      45,
+      60
+    ],
+    "notes": "Boiling water, a quick rinse, short steeps in a gaiwan or clay pot; roasted oolongs open slowly and reward patience in the later infusions. A freshly roasted tea can taste of 'fire' for the first month or two; a few months' rest settles it. Good with milk only in the heaviest Taiwanese styles."
+  },
   "caffeine_level": "medium",
   "vintage_note": "Sold by the year of harvest and roast, usually the current year or the year after, since roasted teas need rest and keep well; heavy roasts are stored for years and re-roasted every few years to drive off moisture, and such aged roasted oolongs are sold with both the harvest year and the roasting dates. 'Charcoal roasted' is a premium claim that is hard to verify, since charcoal roasting is slow and labour-intensive and most roasted tea is done electrically; a trusted seller and a clean, deep, non-smoky taste are the only real guides. Roast level (light, medium, heavy) should be stated.",
   "description": "Charcoal roasting is the finishing craft behind the great dark oolongs: Wuyi rock teas, traditional Anxi Tieguanyin, Taiwan's Dong Ding and Muzha Tie Guan Yin. After the tea is made, it is roasted slowly in bamboo baskets over charcoal embers buried under ash, for hours at a time and in several rounds spread over days or weeks, and then put away to rest while the taste of fire fades and the sweetness comes forward.\n\nThe roast does several things at once. It drives out moisture so the tea keeps, it caramelises sugars and transforms the floral, green compounds of the raw oolong into toasted, nutty, dried-fruit aromas, and it builds the smooth, warming body that roasted teas are prized for. Charcoal, as opposed to an electric oven, gives slower, more even heat and a particular depth and sweetness that roasters swear by; the skill is in the temperature, which must stay low enough never to scorch, and in knowing when to stop.\n\nA well-roasted tea tastes of caramel, roasted nuts and dried fruit with a mineral, lingering finish and no ash or char; the underlying tea's fruit should still be there. Brew it with boiling water and short steeps, and give it more infusions than you think it has, because roasted leaf opens slowly. A tea that tastes burnt or smoky was roasted too hot; one that tastes flat was roasted too long.\n\nRoasted teas are sold by harvest and roast year and are often better after some months of rest; heavy roasts keep for years and are re-roasted periodically, and old roasted oolongs are their own collector's category. 'Charcoal' on a label is a premium claim you cannot check, so buy from people whose roasting you have tasted.\n\nTo learn the style, drink a green-style Tieguanyin and a traditional roasted one side by side, then a Dong Ding at light and heavy roast: same leaf, four different teas.",
   "wikipedia_title": "Tea processing",
   "wikipedia_scope": "umbrella",
-  "popularity": 3
+  "popularity": 3,
+  "name_zh": "炭焙",
+  "name_ru": "Тань Бэй",
+  "history": "Heavy firing has long marked some oolongs: Wuyi teas are fired heavily, as most oolongs were historically, and roasted oolong is known for woody, thick aromas.\n\nLittle precise history of charcoal roasting itself can be given with confidence, so no date or inventor is offered here.",
+  "liquor_hex": "#B5651F",
+  "leaf_hex": "#3A2A1F",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Wuyi_tea",
+    "https://en.wikipedia.org/wiki/Oolong"
+  ],
+  "confidence": "low",
+  "images": []
 }

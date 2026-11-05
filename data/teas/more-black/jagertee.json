@@ -1,0 +1,56 @@
+{
+  "slug": "jagertee",
+  "name_en": "Jagertee",
+  "name_native": "Jägertee",
+  "name_romanized": null,
+  "aliases": [
+    "Jägertee",
+    "Jagatee",
+    "Егертее"
+  ],
+  "category": "black",
+  "origin_country": "Austria",
+  "origin_region": "Austria",
+  "cultivar": null,
+  "form": "other",
+  "caffeine_level": "high",
+  "brewing": {
+    "grams": 3,
+    "water_ml": 200,
+    "temp_c": 95,
+    "steeps": 2,
+    "seconds": [
+      180,
+      240
+    ],
+    "notes": "A safe starting point for black tea: Western style, water just off the boil."
+  },
+  "taste_tags": [
+    "sweet",
+    "spicy"
+  ],
+  "description": "A warm winter punch from Austria, historically made by mixing Inländer rum with spiced black tea.\n\nThis is a way of preparing tea more than a tea you buy under one name, so the recipe and the base tea change from one maker to the next.",
+  "wikipedia_title": null,
+  "wikipedia_scope": "none",
+  "popularity": 1,
+  "name_zh": "猎人茶",
+  "name_ru": "Охотничий чай",
+  "history": "The name comes from the Austro-Bavarian pronunciation of the German for hunter's tea. Under EC Regulation 110/2008 the name is reserved for the drink made in Austria, so German versions go by names like Hüttentee or Förstertee. It is a popular après-ski drink in the Alps, and a stronger relative, Wilderertee, is served in some rural places.",
+  "liquor_hex": "#9A4A1C",
+  "leaf_hex": "#3A2A1E",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Jagertee",
+    "https://ru.wikipedia.org/wiki/%D0%9E%D1%85%D0%BE%D1%82%D0%BD%D0%B8%D1%87%D0%B8%D0%B9_%D1%87%D0%B0%D0%B9",
+    "https://www.wikidata.org/wiki/Q1678436"
+  ],
+  "confidence": "medium",
+  "images": [],
+  "stub": true,
+  "processing": "Made from a black base tea according to the recipe; the method varies.",
+  "harvest_season": "Not tied to a harvest: it depends on the base tea.",
+  "appearance_dry": "Usually dark twisted leaf, sometimes with golden tips.",
+  "appearance_liquor": "Usually a clear red-brown.",
+  "appearance_wet": "Usually coppery brown leaf.",
+  "taste_profile": "Sweet and spiced, served warm.",
+  "vintage_note": "Not sold by vintage: it is made from whatever base tea the maker keeps, so freshness of the base matters more than the year."
+}

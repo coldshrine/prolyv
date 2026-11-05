@@ -3,10 +3,19 @@
   "name_en": "Shizuoka Sencha",
   "name_native": "静岡茶",
   "name_romanized": "Shizuoka sencha",
-  "aliases": ["Shizuoka-cha", "Shizuoka tea", "Kakegawa-cha", "Kawane-cha", "Honyama-cha", "Makinohara tea"],
+  "aliases": [
+    "Shizuoka-cha",
+    "Shizuoka tea",
+    "Kakegawa-cha",
+    "Kawane-cha",
+    "Honyama-cha",
+    "Makinohara tea",
+    "靜岡茶",
+    "Сидзуока-тя"
+  ],
   "category": "green",
   "origin_country": "Japan",
-  "origin_region": "Shizuoka · Makinohara, Kakegawa, Kawane, Honyama, Tenryū, Fujieda",
+  "origin_region": "Shizuoka · Makinohara",
   "cultivar": "Yabukita (bred here), with Kōshun, Tsuyuhikari, Yamakai and Saemidori lots",
   "processing": "Steamed sencha in every style: deep-steamed (fukamushi) on the Makinohara plateau and around Kakegawa, light to normal steaming in the mountain districts of Kawane, Honyama and Tenryū; refined and fired by the prefecture's large tea trade, which also blends tea from other regions.",
   "form": "loose",
@@ -15,13 +24,51 @@
   "appearance_liquor": "From opaque deep green (fukamushi) to clear pale gold-green (asamushi).",
   "appearance_wet": "Fine green paste or whole small leaves depending on the steaming.",
   "taste_profile": "The textbook sencha: fresh green, savoury and sweet with a balanced astringency; deep-steamed Makinohara lots are thick and mellow, mountain lots are high-aroma and brisk.",
-  "taste_tags": ["grassy", "umami", "sweet", "vegetal", "brisk"],
-  "brewing": {"grams": 5, "water_ml": 150, "temp_c": 75, "steeps": 3, "seconds": [45, 15, 45], "notes": "Check whether your lot is deep-steamed (short steeps, fine mesh) or light-steamed (a longer first steep); 70–80 °C either way."},
+  "taste_tags": [
+    "grassy",
+    "umami",
+    "sweet",
+    "vegetal",
+    "brisk"
+  ],
+  "brewing": {
+    "grams": 5,
+    "water_ml": 150,
+    "temp_c": 75,
+    "steeps": 3,
+    "seconds": [
+      45,
+      15,
+      45
+    ],
+    "notes": "Check whether your lot is deep-steamed (short steeps, fine mesh) or light-steamed (a longer first steep); 70–80 °C either way."
+  },
   "caffeine_level": "medium",
-  "vintage_note": "Sold as the current year's harvest and graded by flush: ichibancha from late April, sold first as shincha and then as the year's sencha until the next spring, with nibancha going into cheaper blends and bottled tea. Shizuoka is also the country's blending hub, so a bag labelled 'Shizuoka tea' may be a blend finished there; single-district lots (Kawane, Honyama, Kakegawa) state the district. Not an ageing tea.",
-  "description": "Shizuoka, the prefecture under Mount Fuji, has been Japan's biggest tea producer for more than a century and still grows roughly a third of the crop, with Kagoshima now hard on its heels. Its tea is sencha in every style the country makes, from the thick, cloudy deep-steamed teas of the Makinohara plateau and Kakegawa to the clear, aromatic mountain teas of Kawane, Honyama and the Tenryū valley, and the Yabukita cultivar that dominates Japanese tea was selected here.\n\nThe plateau tea is the volume tea: the Makinohara plateau was opened for tea by former samurai after the Meiji restoration, and its flat, sunny fields grow thick leaves that the local processors learned to tame with long steaming, which is how fukamushi was born. Up the Ōi and Abe rivers the story is different, with small terraced gardens, slow-growing leaf and short steaming that keeps whole needles and high aroma. Shizuoka is also the national trading and blending hub, so a great deal of tea from other prefectures passes through its refineries and comes out labelled Shizuoka.\n\nCheck which style you have before you brew. Deep-steamed Kakegawa or Makinohara lots want 30–40 seconds at 75 °C and a fine mesh; Kawane or Honyama lots want a full minute or more and a standard kyusu. Either way the profile is the textbook sencha: fresh green, savoury, sweet after the swallow, with a balanced astringency, thick and mellow in the coastal teas and lifted and brisk in the mountain ones.\n\nShizuoka-cha on its own usually means a blend finished in the prefecture, which is often very good and very consistent; single-district lots name the district (Kakegawa, Kawane, Honyama, Tenryū, Umegashima) and cost more. The harvest calendar runs from late April on the coast to mid-May in the mountains, shincha first, then the year's ichibancha, with second flush going to cheap blends and bottled tea. Beyond Yabukita, look for Kōshun, Tsuyuhikari and Yamakai as the local cultivars worth trying.\n\nBuy a coastal fukamushi and a mountain asamushi from the same spring and you have the full range of Japanese sencha in two bags.",
+  "vintage_note": "Sold as the current year's harvest and graded by flush: ichibancha from late April, sold first as shincha and then as the year's sencha until the next spring, with nibancha going into cheaper blends and bottled tea. Labelling is strict: 'Shizuoka-cha' must be 100% Shizuoka leaf, while 'Shizuoka-cha blend' is finished in the prefecture with at least 50% Shizuoka leaf and states the ratio; single-district lots (Kawane, Honyama, Kakegawa) state the district. Not an ageing tea.",
+  "description": "Shizuoka, the prefecture under Mount Fuji, has long been Japan's biggest tea producer and still makes roughly a third of the crop, with Kagoshima hard on its heels; Kagoshima passed it in farm value in 2019. Its tea is sencha in every style the country makes, from the thick, cloudy deep-steamed teas of the Makinohara plateau and Kakegawa to the clear, aromatic mountain teas of Kawane, Honyama and the Tenryū valley, and the Yabukita cultivar that dominates Japanese tea was selected here.\n\nThe plateau tea is the volume tea: the Makinohara plateau was opened for tea by former samurai after the Meiji restoration, and its flat, sunny fields grow thick leaves that the local processors learned to tame with long steaming, which is how fukamushi was born. Up the Ōi and Abe rivers the story is different, with small terraced gardens, slow-growing leaf and short steaming that keeps whole needles and high aroma. Shizuoka is also the national trading and blending hub. Tea labelled Shizuoka-cha must be all Shizuoka leaf, while 'Shizuoka-cha blend' is finished there with at least 50% local leaf and states the ratio, the rest coming from other prefectures or abroad.\n\nCheck which style you have before you brew. Deep-steamed Kakegawa or Makinohara lots want 30–40 seconds at 75 °C and a fine mesh; Kawane or Honyama lots want a full minute or more and a standard kyusu. Either way the profile is the textbook sencha: fresh green, savoury, sweet after the swallow, with a balanced astringency, thick and mellow in the coastal teas and lifted and brisk in the mountain ones.\n\nShizuoka-cha on its own often means leaf blended from across the prefecture, which is often very good and very consistent; single-district lots name the district (Kakegawa, Kawane, Honyama, Tenryū, Umegashima) and cost more. The harvest calendar runs from late April on the coast to mid-May in the mountains, shincha first, then the year's ichibancha, with second flush going to cheap blends and bottled tea. Beyond Yabukita, look for Kōshun, Tsuyuhikari and Yamakai as the local cultivars worth trying.\n\nBuy a coastal fukamushi and a mountain asamushi from the same spring and you have the full range of Japanese sencha in two bags.",
   "wikipedia_title": "Sencha",
   "wikipedia_scope": "umbrella",
   "popularity": 4,
-  "sources_note": "Production share ('roughly a third') is approximate; Shizuoka and Kagoshima have traded the top spot in recent statistics."
+  "sources_note": "Production share ('roughly a third') is approximate; Shizuoka and Kagoshima have traded the top spot in recent statistics.",
+  "name_zh": "静冈茶",
+  "name_ru": "Сенча из Сидзуоки",
+  "history": "The local founding story says the monk Enni (Shōichi Kokushi) brought tea seeds back from Song China in the Kamakura period and planted them at Ashikubo, now part of Shizuoka city. Firmer ground comes later: a family record of 1362 notes tea from around present-day Fukuroi being sent as a gift, and from the Keichō era Ashikubo and Ōkōchi supplied tea to the shogun's household in Edo.\n\nThe modern industry begins with the fall of the shogunate. After the Tokugawa house was moved to Shizuoka, about 300 former guards led by Chūjō Kin'nosuke chose in 1869 to become farmers and began clearing the Makinohara plateau for tea. Some 100 Ōi river porters, put out of work when ferries were allowed in 1870, joined them. The dry plateau had been left alone by rice farmers, and clearing went on into the Taishō period, with water and quality problems worked at until after the Pacific War.\n\nThe prefecture led Japan in tea farm value for 49 years from 1970 until Kagoshima passed it in 2019, and it remained first in aracha, the rough tea, in 2020 with 36 percent of the national figure. Its area and output are falling, as steep fields resist big harvesting machines, growers age, and bottled tea cuts demand for loose leaf.",
+  "liquor_hex": "#B7C25A",
+  "leaf_hex": "#2E4A24",
+  "sources": [
+    "https://ja.wikipedia.org/wiki/%E9%9D%99%E5%B2%A1%E8%8C%B6"
+  ],
+  "confidence": "medium",
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/94/MtFuji_FUjiCity_Obuchi.jpg/1280px-MtFuji_FUjiCity_Obuchi.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/94/MtFuji_FUjiCity_Obuchi.jpg/330px-MtFuji_FUjiCity_Obuchi.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source_page": "https://commons.wikimedia.org/wiki/File:MtFuji_FUjiCity_Obuchi.jpg",
+      "author": "Mocchy",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "kind": "plantation",
+      "alt": "Rows of tea fields in Fuji City, Shizuoka, with snow-capped Mount Fuji behind"
+    }
+  ]
 }

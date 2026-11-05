@@ -1,0 +1,55 @@
+{
+  "slug": "danmine-cha",
+  "name_en": "Damine-cha",
+  "name_native": "田峯茶",
+  "name_romanized": "Damine-cha",
+  "aliases": [
+    "Damine Tea",
+    "Danmine-cha"
+  ],
+  "category": "green",
+  "origin_country": "Japan",
+  "origin_region": "Aichi · Shitara, Damine",
+  "cultivar": null,
+  "form": "loose",
+  "caffeine_level": "medium",
+  "brewing": {
+    "grams": 3,
+    "water_ml": 150,
+    "temp_c": 80,
+    "steeps": 3,
+    "seconds": [
+      60,
+      75,
+      105
+    ],
+    "notes": "A safe starting point for green tea: cooler water, short steeps, then adjust by taste."
+  },
+  "taste_tags": [
+    "vegetal",
+    "sweet"
+  ],
+  "description": "Tea from the Damine district of Shitara in Aichi, grown in the mountains at about 350 m, where mist off the Toyokawa river shades the bushes. The local works mainly makes green tea and hojicha.\n\nTreat it as you would any green tea: cooler water, short steeps, and a seller who can say where and when it was picked.",
+  "wikipedia_title": null,
+  "wikipedia_scope": "none",
+  "popularity": 1,
+  "name_zh": "田峰茶",
+  "name_ru": "Дамине-тя",
+  "history": "The district has long been known for green tea, and its growers' association won an agriculture minister's prize at the 31st Aichi tea fair in July 1997. Ageing growers have shrunk the trade: about 25 tonnes a year in the Showa 50s fell to 9 tonnes in 2017, with 3.2 hectares of fields in 2016 and the association leasing plots from those who retire. It began developing a black tea in 2014 from a second flush once left unpicked, and made it in earnest from 2018.",
+  "liquor_hex": "#D6D27A",
+  "leaf_hex": "#7E8B3E",
+  "sources": [
+    "https://ja.wikipedia.org/wiki/%E7%94%B0%E5%B3%AF%E8%8C%B6",
+    "https://www.wikidata.org/wiki/Q60997803"
+  ],
+  "confidence": "medium",
+  "images": [],
+  "stub": true,
+  "processing": "Typical of green tea: picked, heated soon after picking to stop oxidation, then shaped and dried.",
+  "harvest_season": "Usually picked in spring, with the earliest pickings prized, as with most green teas.",
+  "appearance_dry": "Green leaf whose shape depends on the maker, as is usual for regional green teas.",
+  "appearance_liquor": "Usually a clear, pale yellow-green.",
+  "appearance_wet": "Usually soft green leaf that opens up in the water.",
+  "taste_profile": "Expect what green teas usually give: fresh, vegetal and lightly sweet.",
+  "vintage_note": "Black tea made here since 2018 uses second-flush leaf that was once abandoned."
+}

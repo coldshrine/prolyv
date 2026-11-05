@@ -1,0 +1,56 @@
+{
+  "slug": "hong-sui-cha",
+  "name_en": "Hong Sui Cha (Broken Black Tea)",
+  "name_native": "红碎茶",
+  "name_romanized": "Hóng Suì Chá",
+  "name_zh": "红碎茶",
+  "name_ru": "Хун Суй Ча",
+  "aliases": [
+    "Broken black tea",
+    "Dian Hong Sui Cha",
+    "紅碎茶"
+  ],
+  "category": "black",
+  "origin_country": "China",
+  "origin_region": "Yunnan",
+  "cultivar": "Yunnan large-leaf (for Dian Hong broken grades)",
+  "processing": "Withered, then broken by a traditional roller, a Rotorvane or a CTC machine, then oxidised and dried; CTC lots come out as small granules. Sieving sorts the tea into size grades.",
+  "form": "loose",
+  "harvest_season": "Machine-made over a long season; in Yunnan the picking runs from mid-March to mid-November across spring, summer and autumn.",
+  "appearance_dry": "Small even particles or granules, dark with a reddish shine.",
+  "appearance_liquor": "Deep, bright red, darker than whole-leaf black tea from the same area.",
+  "appearance_wet": "Fine coppery fragments with no whole leaf to see.",
+  "taste_profile": "Strong and brisk, as with other broken black teas: quick, full colour and a firm malty grip that stands up to milk and sugar.",
+  "taste_tags": [
+    "brisk",
+    "malty",
+    "bitter"
+  ],
+  "brewing": {
+    "grams": 3,
+    "water_ml": 250,
+    "temp_c": 95,
+    "steeps": 1,
+    "seconds": [
+      150
+    ],
+    "notes": "Normally brewed Western-style or in a bag. Small particles extract fast, so keep it to two or three minutes, or add milk if it goes long."
+  },
+  "caffeine_level": "high",
+  "vintage_note": "Sold by size grade and not by year: broken and fannings grades. Drink it fresh, ideally within a year or so, since the small particles lose aroma quickly.",
+  "description": "Hong sui cha simply means broken black tea, the Chinese name for the small-particle grades that fill most of the world's tea bags. It is made in China too, though its best-known home is elsewhere, and in Yunnan it is the second face of Dian Hong beside the whole-leaf gongfu.\n\nThe breaking is the point. Chinese usage covers several methods: traditional rollers, whose output is lower but richer in taste, and machine routes, including rotorvane, LTP and CTC. Smaller pieces oxidise evenly and brew fast.\n\nThe cup is dark, strong and quick. Do not gongfu it: a couple of minutes in a mug is enough, and more just adds bitterness. It is made for milk, sugar or blending as much as for drinking plain.\n\nBroken does not mean bad here, but look for an even particle and a fresh smell.",
+  "history": "Broken grades grew up with machine rolling. The first CTC machine ran in 1930 at the Amgoorie garden in Assam, under the supervision of William McKercher.\n\nIn China, red broken tea is made in Yunnan as Dian Hong graded tea. When production began there is not something clear dates are available for.",
+  "liquor_hex": "#8F3414",
+  "leaf_hex": "#3A2318",
+  "sources": [
+    "https://zh.wikipedia.org/wiki/%E6%AD%A3%E5%B1%B1%E5%B0%8F%E7%A7%8D",
+    "https://zh.wikipedia.org/wiki/%E6%BB%87%E7%BA%A2",
+    "https://en.wikipedia.org/wiki/Crush,_tear,_curl",
+    "https://www.paperandtea.com/blogs/glossary/ctc-tea"
+  ],
+  "confidence": "medium",
+  "wikipedia_title": null,
+  "wikipedia_scope": "none",
+  "popularity": 2,
+  "images": []
+}

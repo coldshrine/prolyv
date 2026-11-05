@@ -3,10 +3,16 @@
   "name_en": "Tanzania Black Tea",
   "name_native": null,
   "name_romanized": null,
-  "aliases": ["Tanzanian tea", "Usambara tea", "Luponde tea", "Southern Highlands tea", "Tanzania CTC"],
+  "aliases": [
+    "Tanzanian tea",
+    "Usambara tea",
+    "Luponde tea",
+    "Southern Highlands tea",
+    "Tanzania CTC"
+  ],
   "category": "black",
   "origin_country": "Tanzania",
-  "origin_region": "Southern Highlands (Njombe, Mufindi, Tukuyu) and Usambara Mountains (Tanga)",
+  "origin_region": "Southern Highlands · Njombe",
   "cultivar": "Assam-type seedling bushes and Kenyan clones",
   "processing": "Mainly CTC, fully oxidised and fired at estate factories; a few estates (Luponde and Kibena in the south, some Usambara factories) make orthodox and green teas.",
   "form": "loose",
@@ -15,13 +21,39 @@
   "appearance_liquor": "Bright copper-red.",
   "appearance_wet": "Even dark copper leaf.",
   "taste_profile": "Brisk and bright with a mild malty sweetness and a clean finish; close to Kenyan in style but a little softer and rounder.",
-  "taste_tags": ["brisk", "malty", "sweet"],
-  "brewing": {"grams": 3, "water_ml": 200, "temp_c": 95, "steeps": 2, "seconds": [210, 300], "notes": "Just under the boil, 3–4 minutes, milk optional; orthodox lots re-steep."},
+  "taste_tags": [
+    "brisk",
+    "malty",
+    "sweet"
+  ],
+  "brewing": {
+    "grams": 3,
+    "water_ml": 200,
+    "temp_c": 95,
+    "steeps": 2,
+    "seconds": [
+      210,
+      300
+    ],
+    "notes": "Just under the boil, 3–4 minutes, milk optional; orthodox lots re-steep."
+  },
   "caffeine_level": "high",
   "vintage_note": "Sold through the Mombasa auction and by private contract, mostly in bulk for blending; a small amount reaches speciality shops as named-estate orthodox lots by year (Luponde's organic teas are the best known). No vintage: buy fresh and use within a year.",
-  "description": "Tanzania grows tea in two main areas: the Southern Highlands around Njombe, Mufindi and Tukuyu, and the Usambara Mountains of Tanga in the north-east, both at roughly 1,200 to 2,200 metres and both planted in the colonial era. Output is modest by Kenyan standards and most of it is CTC for blending, but a few estates make orthodox teas that are worth seeking out.\n\nManufacture is mostly CTC: wither, cut, quick oxidation and firing at estate factories, some of them fed by smallholders. Luponde in the Livingstone Mountains, one of the highest estates in Africa, and Kibena near Njombe make orthodox and green teas, and factories in the Usambaras have done the same. The main crop comes in the rainy months from November to May, with the dry-season teas brighter.\n\nThe cup is bright copper-red, brisk and clean with a mild malty sweetness; it is close to Kenyan in style but a little softer and rounder. Brew it with water just under the boil for three to four minutes, milk optional; orthodox lots re-steep.\n\nIt is sold through the Mombasa auction and by private contract, mostly in bulk for blending, and a small amount reaches speciality shops as named-estate orthodox lots by year (Luponde's organic teas are the best known). No vintage: buy fresh and use within a year.\n\nA Tanzanian orthodox is a good way to taste what the Usambara or Livingstone mountains do that the Kenyan plateau does not.",
+  "description": "Tanzania grows tea in two main areas: the Southern Highlands around Njombe, Mufindi and Tukuyu, and the Usambara Mountains of Tanga in the north-east, both planted in the colonial era. Output is modest by Kenyan standards and most of it is CTC for blending, but a few estates make orthodox teas that are worth seeking out.\n\nManufacture is mostly CTC: wither, cut, quick oxidation and firing at estate factories, some of them fed by smallholders. Luponde in the Livingstone Mountains and Kibena near Njombe make orthodox and green teas, and factories in the Usambaras have done the same. The main crop comes in the rainy months from November to May, with the dry-season teas brighter.\n\nThe cup is bright copper-red, brisk and clean with a mild malty sweetness; it is close to Kenyan in style but a little softer and rounder. Brew it with water just under the boil for three to four minutes, milk optional; orthodox lots re-steep.\n\nIt is sold through the Mombasa auction and by private contract, mostly in bulk for blending, and a small amount reaches speciality shops as named-estate orthodox lots by year (Luponde's organic teas are the best known). No vintage: buy fresh and use within a year.\n\nA Tanzanian orthodox is a good way to taste what the Usambara or Livingstone mountains do that the Kenyan plateau does not.",
   "wikipedia_title": "Black tea",
   "wikipedia_scope": "umbrella",
   "popularity": 2,
-  "sources_note": "No Wikipedia article on Tanzanian tea; 'Black tea' used as umbrella ('Agriculture in Tanzania' and 'Usambara Mountains' exist). Estate details from memory."
+  "sources_note": "No Wikipedia article on Tanzanian tea; 'Black tea' used as umbrella ('Agriculture in Tanzania' and 'Usambara Mountains' exist). Estate details from memory.",
+  "name_zh": "坦桑尼亚红茶",
+  "name_ru": "Танзанийский чёрный чай",
+  "history": "Tea reached what is now Tanzania in the colonial era. At independence in 1961 the crop in the Southern Highlands was entirely in the hands of foreign companies and a few settlers. Smallholders began planting soon after and had about 330 hectares by 1963/64.\n\nThe Southern Highlands, chiefly Mufindi, Njombe and Rungwe, are a main growing area today, and Luponde in Njombe Region is known for organic tea. Recent reports describe dormant factories reopening and new ones being built.",
+  "liquor_hex": "#A5461E",
+  "leaf_hex": "#2E231B",
+  "sources": [
+    "https://core.ac.uk/download/140874.pdf",
+    "https://www.foodbusinessmea.com/tanzanias-tea-sector-rebounds-as-dormant-factories-reopen-new-processing-plants-boost-production/",
+    "https://svtea.com/products/tanzania-luponde-organic-black-fop"
+  ],
+  "confidence": "medium",
+  "images": []
 }

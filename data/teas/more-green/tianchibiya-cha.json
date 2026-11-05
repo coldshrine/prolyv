@@ -1,0 +1,53 @@
+{
+  "slug": "tianchibiya-cha",
+  "name_en": "Tianchi Biya Cha",
+  "name_native": "天尺碧芽茶",
+  "name_romanized": "Tiānchǐ Bìyá Chá",
+  "aliases": [
+    "Tianchibiyacha"
+  ],
+  "category": "green",
+  "origin_country": "China",
+  "origin_region": "Chongqing · Wulong",
+  "cultivar": null,
+  "form": "loose",
+  "caffeine_level": "medium",
+  "brewing": {
+    "grams": 3,
+    "water_ml": 150,
+    "temp_c": 80,
+    "steeps": 3,
+    "seconds": [
+      60,
+      75,
+      105
+    ],
+    "notes": "A safe starting point for green tea: cooler water, short steeps, then adjust by taste."
+  },
+  "taste_tags": [
+    "vegetal",
+    "sweet"
+  ],
+  "description": "A flat-shaped green tea from Wulong in Chongqing, made from tender spring buds with one barely opened leaf.\n\nTreat it as you would any green tea: cooler water, short steeps, and a seller who can say where and when it was picked.",
+  "wikipedia_title": null,
+  "wikipedia_scope": "none",
+  "popularity": 1,
+  "name_zh": "天尺碧芽茶",
+  "name_ru": "Тянь Чи Би Я Ча",
+  "history": "It won an international gold award in the Huaming Cup contest at the 2005 tea culture festival in Yongchuan, Chongqing. Little more is documented about it.",
+  "liquor_hex": "#CFD47A",
+  "leaf_hex": "#7E8B3E",
+  "sources": [
+    "https://milulu.com.cn/techan/16802.html"
+  ],
+  "confidence": "low",
+  "images": [],
+  "stub": true,
+  "processing": "Typical of green tea: picked, heated soon after picking to stop oxidation, then shaped and dried.",
+  "harvest_season": "Spring, one bud and one barely opened leaf.",
+  "appearance_dry": "Flat.",
+  "appearance_liquor": "Jade green and clear.",
+  "appearance_wet": "Tender, even and bright.",
+  "taste_profile": "Elegant aroma, fresh with a returning sweetness.",
+  "vintage_note": "Green teas like this are normally sold as the current year's harvest and are best within a year of picking. It is not an ageing tea."
+}

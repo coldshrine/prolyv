@@ -1,0 +1,57 @@
+{
+  "slug": "lishan-xiaozhong",
+  "name_en": "Lishan Xiaozhong",
+  "name_native": "立山小种",
+  "name_romanized": "lìshān xiǎozhǒng",
+  "aliases": [
+    "立山小種",
+    "Lapsang Souchong",
+    "正山小种",
+    "Zhengshan Xiaozhong"
+  ],
+  "category": "black",
+  "origin_country": "China",
+  "origin_region": "Fujian · Wuyi",
+  "cultivar": null,
+  "form": "loose",
+  "caffeine_level": "high",
+  "brewing": {
+    "grams": 3,
+    "water_ml": 200,
+    "temp_c": 95,
+    "steeps": 2,
+    "seconds": [
+      180,
+      240
+    ],
+    "notes": "A safe starting point for black tea: Western style, water just off the boil."
+  },
+  "taste_tags": [
+    "smoky",
+    "woody",
+    "dried-fruit"
+  ],
+  "description": "Another Chinese name for Lapsang Souchong, the pine-smoked black tea of the Wuyi Mountains in Fujian, centred on Tongmu.\n\nTreat it as you would any black tea: water just off the boil, a few minutes in the pot, and a seller who can say where it was grown.",
+  "wikipedia_title": null,
+  "wikipedia_scope": "none",
+  "popularity": 1,
+  "name_zh": "立山小种",
+  "name_ru": "Ли Шань Сяо Чжун",
+  "history": "The tea dates from around the Ming-Qing transition. By legend, soldiers passing through the Wuyi area delayed the processing of fresh leaves, and farmers rescued them by drying them over pine; this story is not confirmed as history. The name Zhengshan Xiaozhong appears before 1640. An unsmoked version arose in Tongmu in the early 21st century.",
+  "liquor_hex": "#8F3418",
+  "leaf_hex": "#25201A",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Lapsang_souchong",
+    "https://zh.wikipedia.org/wiki/%E6%AD%A3%E5%B1%B1%E5%B0%8F%E7%A7%8D"
+  ],
+  "confidence": "medium",
+  "images": [],
+  "stub": true,
+  "processing": "Leaves are smoke-dried over a pinewood fire, by cold smoking during processing or hot smoking afterwards.",
+  "harvest_season": "Picked through the growing season, as with most black teas.",
+  "appearance_dry": "Black, tight strips.",
+  "appearance_liquor": "Deep red.",
+  "appearance_wet": "Usually coppery brown leaf.",
+  "taste_profile": "Pine smoke and resin with a note of dried longan.",
+  "vintage_note": "Black teas are normally sold by harvest year and are best within a couple of years."
+}

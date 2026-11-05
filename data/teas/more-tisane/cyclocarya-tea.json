@@ -1,0 +1,60 @@
+{
+  "slug": "cyclocarya-tea",
+  "name_en": "Qing Qian Liu Cha (Cyclocarya)",
+  "name_native": "青钱柳茶",
+  "name_romanized": "Qīngqiánliǔ Chá",
+  "name_zh": "青钱柳茶",
+  "name_ru": "Цин Цянь Лю Ча",
+  "aliases": [
+    "Cyclocarya tea",
+    "Cyclocarya paliurus tea",
+    "青錢柳茶",
+    "Чай из циклокарии"
+  ],
+  "category": "tisane",
+  "origin_country": "China",
+  "origin_region": "Hunan · Suining",
+  "cultivar": null,
+  "processing": "Young Cyclocarya paliurus leaves are withered, fixed, rolled or cut, sorted and dried, following the steps of green tea making.",
+  "form": "loose",
+  "harvest_season": "Made from young leaves; little is documented about a prized picking.",
+  "appearance_dry": "Rolled or cut dark green leaf, in the manner of a green tea.",
+  "appearance_liquor": "Clear golden yellow-green, typical of a leaf infusion made this way.",
+  "appearance_wet": "Soft, dull green leaf pieces.",
+  "taste_profile": "Varies by origin: one comparison scored Leigong Mountain leaf as more bitter, Shaoyang as more savoury and Zhangjiajie as sweeter.",
+  "taste_tags": [
+    "bitter",
+    "sweet",
+    "umami",
+    "herbal"
+  ],
+  "brewing": {
+    "grams": 3,
+    "water_ml": 200,
+    "temp_c": 95,
+    "steeps": 3,
+    "seconds": [
+      120,
+      180,
+      300
+    ],
+    "notes": "Steep as a substitute tea in hot water. Taste the first cup before lengthening steeps, since bitterness differs by origin."
+  },
+  "caffeine_level": "none",
+  "vintage_note": "Not sold by year. It is sold by pack as a current-production herbal product, often with the place of origin on the label. Treat it like a green tea and drink it fresh.",
+  "description": "This is a substitute tea from the leaves of Cyclocarya paliurus, a Chinese tree known as qing qian liu, or the money tree for its coin-like fruit. It contains no tea leaf. Chinese usage treats it as a health drink.\n\nProcessing follows green tea: fixing, rolling, sorting and drying. Suining county in Hunan has a protected geographical indication for its version, and neighbouring Chengbu has a local standard of its own. Xiushui in Jiangxi and parts of Fujian also produce it.\n\nOrigin matters here. A recent lab and taste study of leaf from Xiushui, Leigong Mountain, Zhangjiajie, Shaoyang and Hupingshan found clear differences in aroma and compounds, including more polyphenols in Xiushui leaf. Taste scores differed as well, so one origin is no guide to another.\n\nWhen buying, look for a named origin and ignore medical promises on the box. Those health claims are much broader than the evidence a tea drinker can check.",
+  "history": "The drink has a modern, formal paper trail more than a long documented one. Suining qing qian liu tea carries a national geographical indication, and Chengbu has its own Hunan standard, DB43/T 1380-2017. A 2021 trade group standard also covers it.\n\nThe tree itself is slow to propagate, with seeds taking about two years to germinate, and is regarded as endangered. How far back the drink goes is not clearly documented.",
+  "liquor_hex": "#C9B25A",
+  "leaf_hex": "#4F5A2E",
+  "sources": [
+    "https://zh.wikipedia.org/wiki/%E9%9D%92%E9%92%B1%E6%9F%B3%E5%B1%9E",
+    "https://zh.wikipedia.org/wiki/%E7%BB%A5%E5%AE%81%E5%8E%BF",
+    "https://www.spgykj.com/article/doi/10.13386/j.issn1002-0306.2025070013",
+    "https://www.ttbz.org.cn/upload/file/20210721/6376248627263317827727937.docx"
+  ],
+  "confidence": "medium",
+  "wikipedia_title": null,
+  "wikipedia_scope": "none",
+  "popularity": 2,
+  "images": []
+}

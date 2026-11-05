@@ -1,0 +1,55 @@
+{
+  "slug": "nanbu-cha",
+  "name_en": "Nanbu-cha",
+  "name_zh": "南部茶",
+  "name_ru": "Намбу-тя",
+  "name_native": "南部茶",
+  "name_romanized": "Nanbu-cha",
+  "aliases": [
+    "Nanbu tea",
+    "Kai no Midori"
+  ],
+  "category": "green",
+  "origin_country": "Japan",
+  "origin_region": "Yamanashi · Nanbu",
+  "cultivar": "Yabukita",
+  "processing": "Sencha made mostly by regular steaming, unlike the deep steaming common in neighbouring Shizuoka, which gives a lighter cup.",
+  "form": "loose",
+  "harvest_season": "Spring first flush is the usual prized picking for Japanese sencha of this kind.",
+  "appearance_dry": "Typical of regular-steamed sencha: slender, dark green needles.",
+  "appearance_liquor": "Clear, light yellow-green.",
+  "appearance_wet": "Mostly whole green leaf, as is usual for regular steaming.",
+  "taste_profile": "Close to northern Shizuoka sencha but somewhat lighter, with the clean, grassy character typical of Yabukita.",
+  "taste_tags": [
+    "grassy",
+    "vegetal",
+    "umami"
+  ],
+  "brewing": {
+    "grams": 5,
+    "water_ml": 150,
+    "temp_c": 75,
+    "steeps": 3,
+    "seconds": [
+      60,
+      15,
+      45
+    ],
+    "notes": "Usual sencha guidance: being lighter, it benefits from a full minute on the first steep."
+  },
+  "caffeine_level": "medium",
+  "vintage_note": "Sold as the current year's harvest in vacuum packs and tins, plus bottled drinks, as is usual for regional sencha. Drink the loose tea within about a year. Packs carry brand names such as Kai no Midori, Koshu Shingen or Yorokobi-cha rather than vintages.",
+  "description": "Nanbu-cha comes from the town of Nanbu in southern Yamanashi, the warm, rainy corner of an otherwise fruit-growing prefecture. It is Yamanashi's largest tea area, little known outside the region.\n\nThe climate is about the same as northern Shizuoka and the cultivar is the same Yabukita, so what separates them is steaming. Nanbu mostly keeps to regular steaming where Shizuoka often steams deep, and the cup comes out lighter and clearer.\n\nDrink it as a straightforward everyday sencha. It will not have the body of fukamushi, so do not expect it, and give the first steep a little longer rather than a hotter kettle.\n\nIt is mostly sold through the local farm cooperative, a local tea garden and the Nanbu roadside station, and only rarely online. If you pass through, the roadside station also does tea soba and matcha soft serve.",
+  "history": "Documents of the Anayama lords of the Warring States period mention Nanbu tea as a gift, which suggests cultivation by the Muromachi era. For a long time it was mostly drunk at home, though records show 200 kan (about 750 kg) shipped along the Fuji River in 1892.\n\nCommercial growing started in 1954, when a local resident bought newly registered Yabukita plants from Shizuoka and cleared land for a garden the next year. A 1959 survey found the land suitable, and support followed; the town's tea association formed in 1964. By 2011 output had reached about 270 tonnes.",
+  "wikipedia_title": "南部茶",
+  "wikipedia_scope": "exact",
+  "popularity": 2,
+  "liquor_hex": "#DAD990",
+  "leaf_hex": "#40592E",
+  "sources": [
+    "https://ja.wikipedia.org/wiki/%E5%8D%97%E9%83%A8%E8%8C%B6",
+    "https://www.wikidata.org/wiki/Q11408611"
+  ],
+  "confidence": "medium",
+  "images": []
+}

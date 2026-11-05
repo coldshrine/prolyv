@@ -1,0 +1,61 @@
+{
+  "slug": "stevia-tea",
+  "name_en": "Stevia Tea (Ka'á He'é)",
+  "name_native": "ka'a he'ê",
+  "name_romanized": null,
+  "name_zh": "甜叶菊茶",
+  "name_ru": "Стевия",
+  "aliases": [
+    "Ka'á he'é (stevia)",
+    "Stevia",
+    "Stevia tea",
+    "Sweet herb",
+    "Sweet herb of Paraguay",
+    "หญ้าหวาน",
+    "甜菊"
+  ],
+  "category": "tisane",
+  "origin_country": "Paraguay",
+  "origin_region": "Northeastern Paraguay",
+  "cultivar": "Stevia rebaudiana",
+  "processing": "Leaves are dried and used whole or cut, on their own or added to other herbs and to mate. Nothing else is done to them, unlike the refined stevia sweeteners extracted from the leaf.",
+  "form": "loose",
+  "harvest_season": "Not tied to a prized picking in the way tea is; dried leaf is sold year-round from cultivated plants.",
+  "appearance_dry": "Crumbled mid-green leaf, usually cut small.",
+  "appearance_liquor": "Pale yellow-green to light gold, typical of a dried-leaf infusion.",
+  "appearance_wet": "Soft, dull green leaf fragments.",
+  "taste_profile": "Intensely sweet with a slow start and a long finish, plus a licorice-like or bitter aftertaste when strong.",
+  "taste_tags": [
+    "sweet",
+    "herbal",
+    "bitter"
+  ],
+  "brewing": {
+    "grams": 1,
+    "water_ml": 250,
+    "temp_c": 95,
+    "steeps": 1,
+    "seconds": [
+      300
+    ],
+    "notes": "Western-style. Use only a pinch: it is more a sweetener than a drink. In Paraguay a little leaf goes in with mate or other herbal teas, and too much brings out the bitter aftertaste."
+  },
+  "caffeine_level": "none",
+  "vintage_note": "Sold as dried leaf with no harvest year, usually in herbal shops or blends. Most of what carries the name stevia is a refined sweetener, not this leaf, so check that you are buying whole dried leaf. Age does not improve it.",
+  "description": "Ka'a he'ê, 'sweet herb' in Guaraní, is the leaf of Stevia rebaudiana, native to Paraguay and Brazil. Drunk by itself it is an oddity; its real job has been sweetening other things.\n\nThe leaf only has to be dried. Its sweetness comes from steviol glycosides such as stevioside and rebaudioside A. These pass through the body unmetabolised, which is why the extracted sweetener has no calories.\n\nIn the cup, the sweetness arrives late and stays long. A concentrated brew shows a licorice-like, slightly bitter edge. It works best in small amounts: a pinch alongside mate, as in Paraguay, or mixed into another herbal tea.\n\nDo not confuse the leaf with shop-bought stevia drops or powders, which are purified extracts. If you want the original, look for cut green leaf from a herb seller.",
+  "history": "The Guaraní peoples of what are now Paraguay and Brazil used the plant for centuries to sweeten mate and medicinal teas. The genus takes its name from the Spanish botanist and physician Pedro Jaime Esteve (1500–1556), a professor at Valencia.\n\nIn 1931 two French chemists, Bridel and Lavieille, isolated the sweet glycosides. Japan began growing the plant and using it as a sugar substitute in the early 1970s, and from there it spread through Asia and beyond, with the extract now far better known than the leaf tea.",
+  "liquor_hex": "#D6CF8E",
+  "leaf_hex": "#5F7F3F",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Stevia",
+    "https://ru.wikipedia.org/wiki/%D0%A1%D1%82%D0%B5%D0%B2%D0%B8%D1%8F",
+    "https://en.wikipedia.org/wiki/Mate_%28drink%29",
+    "https://vi.wikipedia.org/wiki/Chi_C%C3%BAc_ng%E1%BB%8Dt"
+  ],
+  "confidence": "high",
+  "wikipedia_title": "Stevia",
+  "wikipedia_scope": "umbrella",
+  "popularity": 2,
+  "images": [],
+  "sources_note": "Colours and appearance are typical of dried-leaf infusions."
+}

@@ -3,7 +3,13 @@
   "name_en": "Mengsong Sheng Pu-erh",
   "name_native": "勐宋生普洱",
   "name_romanized": "Měngsòng Shēng Pǔ'ěr",
-  "aliases": ["Meng Song sheng", "Menghai Mengsong", "Huazhu Liangzi", "Baotang", "勐宋"],
+  "aliases": [
+    "Meng Song sheng",
+    "Menghai Mengsong",
+    "Huazhu Liangzi",
+    "Baotang",
+    "勐宋"
+  ],
   "category": "sheng",
   "origin_country": "China",
   "origin_region": "Yunnan · Xishuangbanna · Menghai · Mengsong",
@@ -15,12 +21,47 @@
   "appearance_liquor": "Bright gold, clear, with a strong aroma rising off the cup.",
   "appearance_wet": "Thick, elastic, olive-green leaves with fat buds; sturdy high-mountain material.",
   "taste_profile": "High-mountain intensity: a lifted floral and honey aroma, a firm bitterness that turns to sweetness quickly, a thick body, a cooling finish and a noticeable physical warmth; close to Bulang in strength but more fragrant.",
-  "taste_tags": ["floral", "bitter", "sweet", "honey"],
-  "brewing": {"grams": 7, "water_ml": 110, "temp_c": 95, "steeps": 12, "seconds": [8, 6, 8, 10, 15, 20, 30, 45, 60, 90, 120, 180], "notes": "Rinse once. Strong tea; flash the early steeps and let the aroma lead. It has the stamina for a dozen infusions."},
+  "taste_tags": [
+    "floral",
+    "bitter",
+    "sweet",
+    "honey"
+  ],
+  "brewing": {
+    "grams": 7,
+    "water_ml": 110,
+    "temp_c": 95,
+    "steeps": 12,
+    "seconds": [
+      8,
+      6,
+      8,
+      10,
+      15,
+      20,
+      30,
+      45,
+      60,
+      90,
+      120,
+      180
+    ],
+    "notes": "Rinse once. Strong tea; flash the early steeps and let the aroma lead. It has the stamina for a dozen infusions."
+  },
   "caffeine_level": "high",
   "vintage_note": "Sold by spring harvest year and village (Naka, Baotang, Da'an, Huazhu Liangzi and others), as boutique cakes and loose maocha, with Naka priced far above the rest; Mengsong leaf has also gone into Menghai factory blends for decades without being named. Young (1–3 years) it is bright and bitter; the 5–15-year window turns it into dense honeyed tea, and dry-stored early-2000s Mengsong-based cakes show how well it ages. Supply is 2005–2025, mostly Kunming- or Menghai-dry; note that there is a second Mengsong in Jinghong's Menglong area, so check which one the wrapper means.",
   "description": "Mengsong is a high township in the north-east of Menghai County, climbing to Huazhu Liangzi, the highest point in Xishuangbanna at about 2,430 m, and it makes some of the most aromatic and powerful tea in the county. Naka, its most famous village, has its own card; this one is for the township as a whole, including the old gardens of Baotang, Da'an and the Huazhu Liangzi slopes.\n\nThe tea grows between roughly 1,500 and 2,000 m, higher and cooler than Bulang or Nannuo, and the leaf is thick and bud-rich. Processing is standard sheng with a firm roll, and the altitude shows in a tea that is slow to open and long to finish.\n\nIn the cup Mengsong combines strength with fragrance: flowers and honey on the nose, a firm bitterness that converts quickly, a thick body, a cool finish and a warming energy that puts it close to Bulang in impact. It is a little less tobacco-like and a little more perfumed than Bulang tea. Flash the first steeps and it will run for a long session, getting sweeter as it goes.\n\nSold by spring year and village; Naka is the premium, Baotang and Huazhu Liangzi gushu sit in the middle, and township-wide Mengsong tea is affordable for the quality. The name is sometimes confused with the Mengsong in Jinghong's Menglong area, a different and less famous place, so check the county. Thick leaves, a strong nose and a bitterness that turns sweet are what you are paying for.\n\nIf you like Bulang's strength but wish it had more aroma, Mengsong is the answer; if you like Mengsong, Naka is the same thing turned up.",
   "wikipedia_title": "Pu'er tea",
   "wikipedia_scope": "umbrella",
-  "popularity": 2
+  "popularity": 2,
+  "name_zh": "勐宋生普洱",
+  "name_ru": "Мэн Сун Шэн Пуэр",
+  "history": "Mengsong is a high township of Menghai County in Xishuangbanna, listed among the county's pu-erh areas. Village labels such as Naka and Baotang are how its tea is told apart on the market today.\n\nLittle is documented about Mengsong as a tea in its own right, and what circulates about its past comes mainly from the trade.",
+  "liquor_hex": "#D9AE3A",
+  "leaf_hex": "#37432A",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Pu%27er_tea"
+  ],
+  "confidence": "low",
+  "images": []
 }

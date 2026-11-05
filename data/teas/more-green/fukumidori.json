@@ -1,0 +1,54 @@
+{
+  "slug": "fukumidori",
+  "name_en": "Fukumidori",
+  "name_native": "ふくみどり",
+  "name_romanized": "Fukumidori",
+  "name_zh": "福绿",
+  "name_ru": "Фукумидори",
+  "aliases": [],
+  "category": "green",
+  "origin_country": "Japan",
+  "origin_region": "Saitama",
+  "cultivar": "Fukumidori",
+  "processing": "Grown for sencha: steamed, rolled and dried in the usual way. Some producers also lightly wither it first for a more aromatic tea.",
+  "form": "loose",
+  "harvest_season": "Picked in spring, about a day later than Yabukita; first flush is the usual choice.",
+  "appearance_dry": "Typical of sencha: deep green, needle-shaped leaf.",
+  "appearance_liquor": "Typical of sencha: clear yellow-green.",
+  "appearance_wet": "Typical of sencha: soft green leaf.",
+  "taste_profile": "Few tasting notes are on record for this cultivar. As a Yabukita descendant made into sencha, expect the usual savoury and grassy sencha character.",
+  "taste_tags": [
+    "vegetal",
+    "umami"
+  ],
+  "brewing": {
+    "grams": 5,
+    "water_ml": 150,
+    "temp_c": 70,
+    "steeps": 3,
+    "seconds": [
+      60,
+      15,
+      45
+    ],
+    "notes": "General sencha settings, a good place to start with a cultivar this rarely described."
+  },
+  "caffeine_level": "medium",
+  "vintage_note": "Sold in small lots as the current year's spring sencha, usually named as a single cultivar by the garden that grew it. As with other sencha, drink it within the year.",
+  "description": "Fukumidori is a cold-hardy Japanese cultivar bred in Saitama for sencha, and it is mainly grown today in Saitama and Ibaraki. Its name joins the characters for fortune and green.\n\nIts cold tolerance is what sets it apart: it suits the northern edge of Japanese tea growing, including the Sayama area. It buds around the normal time and is picked about a day after Yabukita.\n\nFew detailed tasting notes exist, so what you can expect is what is typical of a Yabukita-line sencha: savoury, grassy and clean. Brew it as sencha, around 70 °C for a minute.\n\nYou will mostly find it as a single-cultivar sencha from a small garden, with Yoshino Tea Garden in Sayama as one example, and one Okutomi garden sells a withered version. It is a nice way to taste what northern tea growing does.",
+  "history": "The line starts in 1948 with a cross of Yabukita and Sayamamidori, which produced a seedling known as 23F1-107. Its large buds made it hard to process, so it sat unused for years.\n\nThe Saitama Prefectural Tea Experiment Station returned to it in 1957 and crossed it back to Yabukita, which produced Fukumidori. Listings give registration dates of 1986 and 1988 in Japan's cultivar registers.",
+  "wikipedia_title": null,
+  "wikipedia_scope": "none",
+  "popularity": 2,
+  "liquor_hex": "#CFD27C",
+  "leaf_hex": "#47632F",
+  "images": [],
+  "sources": [
+    "https://myjapanesegreentea.com/fukumidori",
+    "https://australianteamasters.com.au/japanese-tea-cultivars-listing",
+    "https://yunomi.life/products/yoshino-tea-garden-fukumidori-single-cultivar-sencha-sayama-saitama",
+    "https://yunomi.life/ja/products/withered-sencha-green-tea-fukumidori-single-cultivar-by-okutomi-tea-garden"
+  ],
+  "confidence": "medium",
+  "sources_note": "Chinese name is a descriptive rendering. Taste notes not sourced."
+}

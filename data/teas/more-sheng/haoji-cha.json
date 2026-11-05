@@ -1,0 +1,61 @@
+{
+  "slug": "haoji-cha",
+  "name_en": "Haoji Cha",
+  "name_native": "号级茶",
+  "name_romanized": "Hàojí Chá",
+  "name_zh": "号级茶",
+  "name_ru": "Хао Цзи Ча",
+  "aliases": [
+    "Hao Ji Cha",
+    "Haoji",
+    "Hao-grade pu-erh",
+    "Private house pu-erh",
+    "號級茶",
+    "Хаоцзи ча"
+  ],
+  "category": "sheng",
+  "origin_country": "China",
+  "origin_region": "Yunnan · Yiwu",
+  "cultivar": null,
+  "processing": "Not one recipe but an era: sun-dried leaf from the mountains near Yiwu pressed by private houses into cakes. The methods varied from house to house and are thinly recorded.",
+  "form": "cake",
+  "harvest_season": "Varied by house and is seldom recorded. Spring leaf is generally the most prized in pu-erh.",
+  "appearance_dry": "Old cakes are typically dark brown with a dense, aged look, and each carries its house's identity.",
+  "appearance_liquor": "Deep chestnut to dark amber, as is usual for raw pu-erh of great age.",
+  "appearance_wet": "Dark brown, soft leaf, typical of very old raw pu-erh.",
+  "taste_profile": "There is no single taste, since it covers many houses and decades. Very old raw pu-erh generally tends towards wood and earth with a smooth, soft body.",
+  "taste_tags": [
+    "woody",
+    "earthy"
+  ],
+  "brewing": {
+    "grams": 5,
+    "water_ml": 100,
+    "temp_c": 95,
+    "steeps": 6,
+    "seconds": [
+      10,
+      10,
+      15,
+      20,
+      30,
+      45
+    ],
+    "notes": "General advice for very old raw pu-erh. Rinse briefly and keep the steeps short."
+  },
+  "caffeine_level": "medium",
+  "vintage_note": "A collector's category defined by era, and it is not produced today. Genuine pieces are identified by house name and sold mostly through specialist auctions, and fakes go back a long way. Modern cakes with old house names are recreations at best.",
+  "description": "Haoji Cha is not a single tea but the first chapter of the collector's pu-erh timeline: cakes made by private family firms, or hao, before state factories took over. Famous names include Songpin, Tongqing, Tongchang and Fuyuanchang.\n\nMost of this tea centres on Yiwu, which drew on the six famous mountains nearby and traded on to Tibet, Beijing, Hong Kong and Southeast Asia. Output per house was small and quality varied, so the category is not a guarantee of greatness.\n\nFew drinkers will meet the real thing, and what it tastes like depends on the house and on a century of storage. Very old raw pu-erh in general is about texture and quiet wood rather than bright flavour, so brew it with care and short steeps.\n\nTreat any offer cautiously. These cakes are rare and costly, counterfeits have long been a problem, and many modern cakes with old house names are white labels. A serious modern Yiwu cake is the sensible way in.",
+  "history": "Collectors usually divide older pu-erh into eras, and haoji comes first, covering private firms from the Qing dynasty through the Republic. It is generally treated as ending around 1950, though the boundary is a broad market convention rather than a precise date.\n\nAfter 1949 the private firms were absorbed into state structures. The state factories that followed produced the next category, yinji or mark-grade tea, identified by wrapper marks and no longer by family names.",
+  "liquor_hex": "#7A3F18",
+  "leaf_hex": "#3B291C",
+  "sources": [
+    "https://teadb.org/old-school-puerh-categories-ji-haoji/",
+    "https://lhauction.com.hk/tc/web/getMedia?id=392"
+  ],
+  "confidence": "medium",
+  "wikipedia_title": "Pu'er tea",
+  "wikipedia_scope": "umbrella",
+  "popularity": 3,
+  "images": []
+}

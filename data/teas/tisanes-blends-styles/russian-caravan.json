@@ -3,10 +3,15 @@
   "name_en": "Russian Caravan",
   "name_native": null,
   "name_romanized": null,
-  "aliases": ["Russian Caravan tea", "Caravan tea", "Caravan blend"],
+  "aliases": [
+    "Russian Caravan tea",
+    "Caravan tea",
+    "Caravan blend",
+    "俄国商队茶"
+  ],
   "category": "black",
-  "origin_country": "United Kingdom",
-  "origin_region": "A Western (largely British) blend of Chinese teas: Keemun, Lapsang Souchong and often an oolong, sometimes Yunnan or Assam",
+  "origin_country": "China",
+  "origin_region": "Blended from Chinese teas",
   "cultivar": null,
   "processing": "A blend of finished teas, not a processing style: a smooth Chinese black such as Keemun is combined with a proportion of pine-smoked Lapsang Souchong and often a roasted oolong, in varying ratios, so the smoke sits in the background rather than dominating.",
   "form": "loose",
@@ -15,12 +20,38 @@
   "appearance_liquor": "Deep amber to red-brown, clear.",
   "appearance_wet": "Dark copper and brown leaf with a soft smoky scent.",
   "taste_profile": "Gently smoky and malty with a sweet, dried-fruit base and a roasted, woody edge; mellower than straight Lapsang, with the Keemun's cocoa and the oolong's roundness showing through.",
-  "taste_tags": ["smoky", "malty", "sweet", "woody"],
-  "brewing": {"grams": 3, "water_ml": 250, "temp_c": 95, "steeps": 1, "seconds": [210], "notes": "Just-boiled water, 3–4 minutes; it takes milk or lemon but is best plain. A second steep is thinner but keeps the smoke. If the blend is heavy on Lapsang, shorten the steep rather than diluting."},
+  "taste_tags": [
+    "smoky",
+    "malty",
+    "sweet",
+    "woody"
+  ],
+  "brewing": {
+    "grams": 3,
+    "water_ml": 250,
+    "temp_c": 95,
+    "steeps": 1,
+    "seconds": [
+      210
+    ],
+    "notes": "Just-boiled water, 3–4 minutes; it takes milk or lemon but is best plain. A second steep is thinner but keeps the smoke. If the blend is heavy on Lapsang, shorten the steep rather than diluting."
+  },
   "caffeine_level": "medium",
-  "vintage_note": "No vintage and no harvest year: a year-round blend with a two- to three-year best-before, and the smoke fades first, so an open tin is best within a year. The ratio of smoked to unsmoked tea is the whole character and varies from a whisper to a dominant note, so the label and a sniff of the tin are the guide; serious blenders name the components (Keemun, Lapsang Souchong, oolong), supermarket versions may use smoke flavouring instead of smoked leaf. Not a Russian product despite the name.",
-  "description": "Russian Caravan is a British blend with a romantic name: Chinese black tea, a measure of pine-smoked Lapsang Souchong and often some oolong, meant to evoke the tea that reached Russia overland by camel caravan through Mongolia and Siberia in the eighteenth and nineteenth centuries. The story that the smoke came from the caravans' campfires is a legend; the smoke comes from Lapsang, and the blend is a Western invention.\n\nThere is no processing to describe, only a recipe. The base is usually a smooth, slightly cocoa-like Keemun, the smoke is Lapsang Souchong, and a roasted oolong or a Yunnan black is often added for roundness; the blender's choice of ratio makes the difference between a subtle, savoury tea and a bonfire.\n\nBrewed three to four minutes it is gently smoky, malty and sweet with a dried-fruit base and a woody finish, more approachable than straight Lapsang and good with savoury food, smoked fish, cheese or a full breakfast. It takes a little milk, but most people who like it drink it plain. The mistake is treating it like a breakfast tea and stewing it; the smoke turns acrid.\n\nIt is sold year-round without a vintage, loose and in bags, and the only things worth checking are the named components and whether the smoke is real smoked leaf or a flavouring. Russian tea culture itself, incidentally, is mostly about strong black tea from the samovar, not smoke.\n\nIf you like it, go to the sources: a plain Keemun, a lightly smoked Tongmu Lapsang, and then blend your own to taste.",
+  "vintage_note": "No vintage and no harvest year: a year-round blend with a two- to three-year best-before, and the smoke fades first, so an open tin is best within a year. The ratio of smoked to unsmoked tea is the whole character and varies from a whisper to a dominant note, so the label and a sniff of the tin are the guide; serious blenders name the components (Keemun, Lapsang Souchong, oolong), supermarket versions may use smoke flavouring instead of smoked leaf. The name recalls the caravan route.",
+  "description": "Russian Caravan is a blend with a romantic name: Chinese black tea, a measure of pine-smoked Lapsang Souchong and often some oolong, meant to evoke the tea that reached Russia overland by camel caravan through Mongolia and Siberia from the eighteenth century. The story that the smoke came from the caravans' campfires is a legend; the smoke comes from Lapsang, and who first made the blend is unclear.\n\nThere is no processing to describe, only a recipe. The base is usually a smooth, slightly cocoa-like Keemun, the smoke is Lapsang Souchong, and a roasted oolong or a Yunnan black is often added for roundness; the blender's choice of ratio makes the difference between a subtle, savoury tea and a bonfire.\n\nBrewed three to four minutes it is gently smoky, malty and sweet with a dried-fruit base and a woody finish, more approachable than straight Lapsang and good with savoury food, smoked fish, cheese or a full breakfast. It takes a little milk, but most people who like it drink it plain. The mistake is treating it like a breakfast tea and stewing it; the smoke turns acrid.\n\nIt is sold year-round without a vintage, loose and in bags, and the only things worth checking are the named components and whether the smoke is real smoked leaf or a flavouring. Russian tea culture itself, incidentally, is mostly about strong black tea from the samovar, not smoke.\n\nIf you like it, go to the sources: a plain Keemun, a lightly smoked Tongmu Lapsang, and then blend your own to taste.",
   "wikipedia_title": "Russian Caravan",
   "wikipedia_scope": "exact",
-  "popularity": 3
+  "popularity": 3,
+  "name_zh": "俄罗斯商队茶",
+  "name_ru": "Русский караван",
+  "history": "The name looks back to the camel caravans that, from the eighteenth century, carried tea overland from the Chinese border across Mongolia and Siberia to European Russia. The journey took at least half a year. Russian connoisseurs paid extra for caravan tea, believing that the cold, dry route improved it and that the moisture it took up at night on the snowy steppe gave it delicacy.\n\nThe usual story says the smoky taste came from the caravans' campfires. The smoke in the modern blend comes from lapsang souchong, and some versions leave it out altogether.\n\nToday's recipe is oolong, keemun and lapsang souchong, with Yunnan black or Assam in some blends. Who first blended it is unclear; one account has Russians reworking imported Chinese black tea to their own taste.",
+  "liquor_hex": "#94481F",
+  "leaf_hex": "#2F2219",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Russian_Caravan",
+    "https://zh.wikipedia.org/wiki/%E4%BF%84%E7%BD%97%E6%96%AF%E5%95%86%E9%98%9F%E8%8C%B6",
+    "https://www.wikidata.org/wiki/Q604976"
+  ],
+  "confidence": "medium",
+  "images": []
 }

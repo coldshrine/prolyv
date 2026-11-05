@@ -3,10 +3,17 @@
   "name_en": "Xiaguan Iron Cake (Tie Bing)",
   "name_native": "下关铁饼",
   "name_romanized": "Xiàguān Tiěbǐng",
-  "aliases": ["Tie bing", "Iron cake", "Xiaguan 8653", "T8653", "Nan Zhao tie bing", "铁饼"],
+  "aliases": [
+    "Tie bing",
+    "Iron cake",
+    "Xiaguan 8653",
+    "T8653",
+    "Nan Zhao tie bing",
+    "铁饼"
+  ],
   "category": "sheng",
   "origin_country": "China",
-  "origin_region": "Yunnan · Dali · Xiaguan (blended leaf from several prefectures)",
+  "origin_region": "Yunnan · Dali · Xiaguan",
   "cultivar": "Blended Yunnan large-leaf plantation and arbor leaf from several prefectures",
   "processing": "Raw pu-erh maocha, blended by grade, steamed and pressed in a metal mould under a hydraulic press into a flat, hard-edged 357 g disc; the mould leaves a pattern of small dimples on the back, and the extreme compression slows ageing.",
   "form": "cake",
@@ -15,13 +22,48 @@
   "appearance_liquor": "Yellow-orange when young, amber to red-brown with age, clear after a thorough rinse.",
   "appearance_wet": "Medium-grade chopped leaves that separate slowly and keep some of their compressed shape through the first steeps.",
   "taste_profile": "Dense and slow: a firm bitterness, light smoke, pine and mineral notes and a dry grip when young; after fifteen or twenty years, plum, wood and a gentle camphor edge that still has a backbone of bite.",
-  "taste_tags": ["bitter", "smoky", "mineral", "woody", "camphor"],
-  "brewing": {"grams": 8, "water_ml": 120, "temp_c": 100, "steeps": 10, "seconds": [25, 15, 15, 20, 25, 35, 45, 60, 90, 150], "notes": "Rinse twice with boiling water and give the leaf a minute to soften between rinse and first steep. Breaking an iron cake takes a strong pick from the edge; take the pieces off a week ahead and let them air. Boiling water throughout."},
+  "taste_tags": [
+    "bitter",
+    "smoky",
+    "mineral",
+    "woody",
+    "camphor"
+  ],
+  "brewing": {
+    "grams": 8,
+    "water_ml": 120,
+    "temp_c": 100,
+    "steeps": 10,
+    "seconds": [
+      25,
+      15,
+      15,
+      20,
+      25,
+      35,
+      45,
+      60,
+      90,
+      150
+    ],
+    "notes": "Rinse twice with boiling water and give the leaf a minute to soften between rinse and first steep. Breaking an iron cake takes a strong pick from the edge; take the pieces off a week ahead and let them air. Boiling water throughout."
+  },
   "caffeine_level": "high",
-  "vintage_note": "Sold by production year and batch, with the factory's 8653 blend (created in the mid-1980s) the classic recipe pressed as an iron cake and the 1980s–1990s examples the collector's targets. Young (1–5 years) iron cakes are tight, harsh and cheap; because the compression slows ageing, a fifteen-year-old iron cake can taste like a ten-year-old ordinary cake, so the 15–25-year window is where they are judged, and that is exactly the age range (roughly 1995–2010 production) most sought after today. Dry-stored examples stay sharp for decades; Hong Kong or Guangdong storage speeds them up and is how most of the famous old iron cakes were kept.",
-  "description": "An iron cake is pu-erh pressed not with the stone or bag-and-plate method but in a metal mould under a hydraulic press, which produces a flat, thin-edged, extremely hard disc with a pattern of little dimples on the back where the mould gripped. Xiaguan in Dali is the factory most associated with them, and the earliest examples are usually credited to its experiments in the 1950s; the style became a signature in the 1980s with the 8653 recipe and its many iron-cake batches.\n\nThe leaf is the same blended, graded maocha that goes into the factory's tuo, steamed and crushed into a density that a cake knife barely dents. That compression does two things: it keeps air out, so the tea ages slowly and keeps its sharpness, and it keeps the smoky, pine-and-mineral Xiaguan character locked in for years.\n\nYoung iron cakes are honestly hard work: bitter, smoky, drying, with a short sweetness. The reward comes late. A well-stored iron cake at fifteen to twenty-five years is plummy, woody, lightly camphorous and still has a backbone of bitterness that keeps it lively, which is why old Xiaguan iron cakes have a cult following among people who find mushy aged tea boring. Two boiling rinses, a strong pick and patience are the technique; break pieces off a week ahead and let them breathe.\n\nThey are sold by production year, recipe and batch, and the famous 1980s and 1990s examples are expensive collector items with the usual counterfeit problem; the 2000s batches are reasonable and plentiful, and new ones are cheap. Check the back for the dimples and the edge for the knife-like thinness, and buy with the storage history, since a dry-stored iron cake needs more years than a wet-stored one.\n\nIf you already like Xiaguan tuo, an iron cake is the same house style on a longer clock; buy the oldest one you can afford and leave the new one alone for a decade.",
+  "vintage_note": "Sold by production year and batch. The factory's 8653 recipe, which its code dates to 1986, is the classic blend pressed as an iron cake; the factory's numbered marking dates from 2005, so older cakes usually go by year and batch, and those from the late 1980s and 1990s are the collector's targets. Young (1–5 years) iron cakes are tight, harsh and cheap; because the compression slows ageing, a fifteen-year-old iron cake can taste like a ten-year-old ordinary cake, so the 15–25-year window is where they are usually judged. Dry-stored examples stay sharp for decades; Hong Kong or Guangdong storage speeds them up and is how many old iron cakes were kept.",
+  "description": "An iron cake is pu-erh pressed not with the stone or bag-and-plate method but in a metal mould under a hydraulic press, which produces a flat, thin-edged, extremely hard disc with a pattern of little dimples on the back where the mould gripped. Xiaguan in Dali is the factory most associated with them; how early it began is poorly documented, but the style's best-known recipe is the 8653, dated to 1986, with its many iron-cake batches.\n\nThe leaf is the same blended, graded maocha that goes into the factory's tuo, steamed and crushed into a density that a cake knife barely dents. That compression does two things: it keeps air out, so the tea ages slowly and keeps its sharpness, and it keeps the smoky, pine-and-mineral Xiaguan character locked in for years.\n\nYoung iron cakes are honestly hard work: bitter, smoky, drying, with a short sweetness. The reward comes late. A well-stored iron cake at fifteen to twenty-five years is plummy, woody, lightly camphorous and still has a backbone of bitterness that keeps it lively, which is why old Xiaguan iron cakes have a cult following among people who find mushy aged tea boring. Two boiling rinses, a strong pick and patience are the technique; break pieces off a week ahead and let them breathe.\n\nThey are sold by production year, recipe and batch, and the famous 1980s and 1990s examples are expensive collector items with the usual counterfeit problem; the 2000s batches are reasonable and plentiful, and new ones are cheap. Check the back for the dimples and the edge for the knife-like thinness, and buy with the storage history, since a dry-stored iron cake needs more years than a wet-stored one.\n\nIf you already like Xiaguan tuo, an iron cake is the same house style on a longer clock; buy the oldest one you can afford and leave the new one alone for a decade.",
   "wikipedia_title": "Compressed tea",
   "wikipedia_scope": "umbrella",
   "popularity": 2,
-  "sources_note": "The 1950s origin of iron cakes at Xiaguan is the usual trade account but is not well documented; the 8653 recipe is generally dated to 1986. Flag for fact-check."
+  "sources_note": "The 1950s origin of iron cakes at Xiaguan is the usual trade account but is not well documented; the 8653 recipe is generally dated to 1986. Flag for fact-check.",
+  "name_zh": "下关铁饼",
+  "name_ru": "Сягуань Те Бин",
+  "history": "The name refers to the press: pu-erh compressed in an iron mould into a very tight disc. Xiaguan in Dali is the factory usually associated with these cakes. How far back iron pressing goes there is poorly documented.\n\nThe firmer ground is the code. Since 2005 the factory has marked its series with numbers: the first two digits give the year of the recipe, the third the leaf grade and the last the factory, 3 for Xiaguan, with a T in front marking pressed tea. Read that way, 8653 is a 1986 recipe of grade 5 leaf.\n\nThe factory itself goes back to 1941, when it was set up as the Kangzang Tea Factory, and it took the Xiaguan name in 1950. What is said about the great old batches comes from the collector trade rather than factory records, so it deserves some caution.",
+  "liquor_hex": "#C4842F",
+  "leaf_hex": "#55503A",
+  "sources": [
+    "https://zh.wikipedia.org/wiki/%E4%B8%8B%E5%85%B3%E6%B2%B1%E8%8C%B6",
+    "https://ru.wikipedia.org/wiki/%D0%A1%D1%8F%D0%B3%D1%83%D0%B0%D0%BD%D1%8C_%28%D1%84%D0%B0%D0%B1%D1%80%D0%B8%D0%BA%D0%B0%29"
+  ],
+  "confidence": "low",
+  "images": []
 }

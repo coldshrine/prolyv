@@ -1,0 +1,53 @@
+{
+  "slug": "okuhikari",
+  "name_en": "Okuhikari",
+  "name_native": "おくひかり",
+  "name_romanized": "Okuhikari",
+  "name_zh": "奥光",
+  "name_ru": "Окухикари",
+  "aliases": [
+    "Oku Hikari"
+  ],
+  "category": "green",
+  "origin_country": "Japan",
+  "origin_region": "Shizuoka",
+  "cultivar": "Okuhikari",
+  "processing": "Made as Japanese green tea; Shizuoka research has also tested it as pan-fired kamairicha with good results.",
+  "form": "loose",
+  "harvest_season": "Spring first flush, as is typical of Shizuoka green teas; its exact timing is rarely stated.",
+  "appearance_dry": "As with other sencha, dark-green needles.",
+  "appearance_liquor": "Clear pale yellow-green, typical of Shizuoka green tea.",
+  "appearance_wet": "Soft green leaf, as is usual for steamed green tea.",
+  "taste_profile": "A clean, refreshing aroma, with a first-flush flavour that rated well in a pan-fired trial.",
+  "taste_tags": [
+    "vegetal",
+    "floral"
+  ],
+  "brewing": {
+    "grams": 5,
+    "water_ml": 150,
+    "temp_c": 70,
+    "steeps": 3,
+    "seconds": [
+      60,
+      15,
+      45
+    ],
+    "notes": "Normal sencha settings. For a pan-fired version, go up to about 80°C."
+  },
+  "caffeine_level": "medium",
+  "vintage_note": "As with other Japanese green teas, it is sold as the current year's spring harvest and best drunk within a year. It turns up as small single-cultivar lots from Shizuoka growers rather than as a mainstream product.",
+  "description": "Okuhikari is a Japanese green tea cultivar connected with Shizuoka, where most of what is known about it comes from prefectural trials. Its aroma is the thing to notice: clean and refreshing, not sweet and lingering.\n\nThe usual processing for Japanese green tea applies, steaming first and then rolling and drying. It has also done well pan-fired: in a Shizuoka study of kamairicha, its first-flush flavour was among those rated highest.\n\nLittle is written about how it develops across steeps, so start it as you would any sencha, with cool water and about a minute, and adjust from there.\n\nIf you find a single-cultivar lot, try it alongside Shizukaori, its Shizuoka offspring, to see what the cross changed.",
+  "history": "Little is documented about when or by whom Okuhikari was bred. It appears in Shizuoka research as a pan-fired candidate and as the seed parent of the early cultivar Shizukaori, from a 1989 cross with Kuritawase, so it was already in use by then.",
+  "liquor_hex": "#D6D88E",
+  "leaf_hex": "#4C6A34",
+  "sources": [
+    "https://www.pref.shizuoka.jp/_res/projects/default_project/_page_/001/025/684/521kamairitya.pdf",
+    "https://www.pref.shizuoka.jp/_res/projects/default_project/_page_/001/025/687/581shizukaori.pdf"
+  ],
+  "confidence": "low",
+  "wikipedia_title": null,
+  "wikipedia_scope": "none",
+  "popularity": 2,
+  "images": []
+}

@@ -3,10 +3,20 @@
   "name_en": "Bai Hao Yin Zhen (Silver Needle)",
   "name_native": "白毫银针",
   "name_romanized": "Báiháo Yínzhēn",
-  "aliases": ["Silver Needle", "Baihao Yinzhen", "Yin Zhen", "Fuding Silver Needle", "Zhenghe Silver Needle", "White Hair Silver Needle", "Pai Hao Yin Chen"],
+  "aliases": [
+    "Silver Needle",
+    "Baihao Yinzhen",
+    "Yin Zhen",
+    "Fuding Silver Needle",
+    "Zhenghe Silver Needle",
+    "White Hair Silver Needle",
+    "Pai Hao Yin Chen",
+    "白毫銀針",
+    "Байхао Иньчжэнь"
+  ],
   "category": "white",
   "origin_country": "China",
-  "origin_region": "Fujian · Fuding and Zhenghe",
+  "origin_region": "Fujian · Fuding",
   "cultivar": "Fuding Dabai, Fuding Dahao, Zhenghe Dabai",
   "processing": "Buds only, withered for one to three days (in sun, in shade or a combination) with no rolling and no pan-firing, then dried at low temperature; the slow wither allows a little enzymatic change, so it is minimally but not zero oxidised.",
   "form": "loose",
@@ -15,12 +25,102 @@
   "appearance_liquor": "Pale straw to light apricot, clear, with a faint shimmer of down.",
   "appearance_wet": "Fat, soft buds in pale green, still fuzzy, floating at first and then sinking.",
   "taste_profile": "Delicate and sweet with melon, cucumber, fresh hay and honey, a creamy, almost velvety texture from the down and a long cooling finish.",
-  "taste_tags": ["sweet", "honey", "creamy", "fruity"],
-  "brewing": {"grams": 5, "water_ml": 120, "temp_c": 88, "steeps": 6, "seconds": [45, 30, 45, 60, 90, 150], "notes": "Gaiwan at 85–90 °C with longer steeps than you would give a green: buds release slowly and float at first, so give the first infusion time. Also superb grandpa-style in a tall glass topped up through the day, and cold-brewed overnight."},
+  "taste_tags": [
+    "sweet",
+    "honey",
+    "creamy",
+    "fruity"
+  ],
+  "brewing": {
+    "grams": 5,
+    "water_ml": 120,
+    "temp_c": 88,
+    "steeps": 6,
+    "seconds": [
+      45,
+      30,
+      45,
+      60,
+      90,
+      150
+    ],
+    "notes": "Gaiwan at 85–90 °C with longer steeps than you would give a green: buds release slowly and float at first, so give the first infusion time. Also superb grandpa-style in a tall glass topped up through the day, and cold-brewed overnight."
+  },
   "caffeine_level": "medium",
   "vintage_note": "Sold both fresh and aged. Fresh Yin Zhen is the current year's spring harvest, graded by picking date (tou chun first-pick, then regular spring) and by origin (Fuding, Zhenghe); it is at its freshest in the first year. Loose or pressed Yin Zhen is also sold with an age, typically 3–7 years, as the slow-withered bud turns from hay and melon toward honey and dried fruit. Summer and autumn buds are sometimes sold as Silver Needle but are thinner and less downy.",
-  "description": "Bai Hao Yin Zhen is white tea at its most stripped-down: nothing but the unopened bud, picked over a few spring days, withered and dried. It comes from the two white-tea counties of northern Fujian, Fuding on the coast and Zhenghe inland, and from the big, downy Dabai and Dahao bushes bred there, whose buds are fat enough to make a tea on their own.\n\nThe making is mostly patience. The buds are spread thin on bamboo trays and left to wither for one to three days, in sun, in shade or both, losing water slowly while enzymes do a small amount of gentle work, and then they are dried at low heat. There is no rolling and no firing, so what you taste is the bud itself and the skill of the wither: too fast and it is grassy, too slow and it goes dull and sour.\n\nIn the cup it is quiet and precise: melon, cucumber, fresh hay, a honey sweetness, and a velvety texture from the down that is the signature of a good lot. It is not low in caffeine, whatever the packaging says; buds carry plenty. Brew it hotter and longer than a green, 85–90 °C in a gaiwan with a long first steep because the buds float and release slowly, and it will give six infusions. It is also the best tea in China for a tall glass topped up through the day, and for cold brewing overnight.\n\nGrades and origins matter. Fuding Yin Zhen is plumper, silvery and sweeter; Zhenghe Yin Zhen is slimmer, greyer and deeper. The first days' picking, sold as tou chun, is the premium, and 'rice needle' lots of tiny early buds are a marketing tier above that. Watch for Yunnan buds (bigger, with a dark underside) sold as Fujian Silver Needle, and for summer or autumn buds, which are thinner and less downy. Age is an honest option here: a well-stored Yin Zhen of five years turns from hay to honey and dried apricot, and it is sold loose or as pressed cakes with the year stated.\n\nTry a fresh lot and a three-year-old side by side: it is the cleanest demonstration of what time does to white tea.",
+  "description": "Bai Hao Yin Zhen is white tea at its most stripped-down: nothing but the unopened bud, picked over a few spring days, withered and dried. It comes from the two white-tea counties of northern Fujian, Fuding on the coast and Zhenghe inland, and from the big, downy Dabai and Dahao bushes bred there, whose buds are fat enough to make a tea on their own.\n\nThe making is mostly patience. The buds are spread thin on bamboo trays and left to wither for one to three days, in sun, in shade or both, losing water slowly while enzymes do a small amount of gentle work, and then they are dried at low heat. There is no rolling and no firing, so what you taste is the bud itself and the skill of the wither: too fast and it is grassy, too slow and it goes dull and sour.\n\nIn the cup it is quiet and precise: melon, cucumber, fresh hay, a honey sweetness, and a velvety texture from the down that is the signature of a good lot. It is not low in caffeine, whatever the packaging says; buds carry plenty. Brew it hotter and longer than a green, 85–90 °C in a gaiwan with a long first steep because the buds float and release slowly, and it will give six infusions. It is also the best tea in China for a tall glass topped up through the day, and for cold brewing overnight.\n\nGrades and origins matter. Fuding Yin Zhen is plumper, silvery and sweeter; Zhenghe Yin Zhen is slimmer, greyer and deeper. The first days' picking, sold as tou chun, is the premium. Watch for Yunnan buds (bigger, with a dark underside) sold as Fujian Silver Needle, and for summer or autumn buds, which are thinner and less downy. Age is an honest option here: a well-stored Yin Zhen of five years turns from hay to honey and dried apricot, and it is sold loose or as pressed cakes with the year stated.\n\nTry a fresh lot and a three-year-old side by side: it is the cleanest demonstration of what time does to white tea.",
   "wikipedia_title": "Baihao Yinzhen",
   "wikipedia_scope": "exact",
-  "popularity": 5
+  "popularity": 5,
+  "name_zh": "白毫银针",
+  "name_ru": "Бай Хао Инь Чжэнь",
+  "history": "The usual account places the start of Silver Needle in Fuding early in the Jiaqing reign, around 1796, when buds were first made into white tea from local bushes, with exports following from 1891. An older name, Lü Xue Ya ('green snow shoots'), is attached to a mother tree said to grow in Hongxue Cave on Taimu Mountain, which is more local tradition than record.\n\nFuding's tea became known as the northern road needle. Zhenghe, inland, began making it around 1889 and its tea is called the southern road needle. The two towns also gave their names to the Da Bai bushes behind the two styles: Fuding lighter, with less oxidation, and Zhenghe darker and fuller.\n\nClaims of a far older pedigree are common. Some writers trace the tea to the white tea in Emperor Huizong's early twelfth-century treatise, and archaeologists reported needle-like tea among the grave goods of Emperor Jing of Han. These show that bud tea is old, but they do not show that this tea, made this way, goes back that far. Today it is the most expensive of the Fujian white teas and appears on many lists of China's famous teas.",
+  "liquor_hex": "#E8D9A0",
+  "leaf_hex": "#C9CDB8",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Baihao_Yinzhen",
+    "https://ja.wikipedia.org/wiki/%E7%99%BD%E6%AF%AB%E9%8A%80%E9%87%9D",
+    "https://ru.wikipedia.org/wiki/%D0%91%D0%B0%D0%B9%D1%85%D0%B0%D0%BE_%D0%B8%D0%BD%D1%8C%D1%87%D0%B6%D1%8D%D0%BD%D1%8C",
+    "https://zh.wikipedia.org/wiki/%E7%99%BD%E8%8C%B6",
+    "https://zh.wikipedia.org/wiki/%E7%99%BD%E6%AF%AB%E9%93%B6%E9%92%88"
+  ],
+  "confidence": "high",
+  "images": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/a/ae/Bai_Hao_Yin_Zhen_tea_leaf_%28Fuding%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ae/Bai_Hao_Yin_Zhen_tea_leaf_%28Fuding%29.jpg/330px-Bai_Hao_Yin_Zhen_tea_leaf_%28Fuding%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Bai_Hao_Yin_Zhen_tea_leaf_(Fuding).jpg",
+      "author": "User Iateasquirrel on en.wikipedia",
+      "license": "CC BY-SA 3.0",
+      "license_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+      "kind": "dry_leaf",
+      "alt": "Plump, downy pale silver-green dry Fuding Bai Hao Yin Zhen buds"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/0/0b/Bai_Hao_Yin_Zhen_tea_leaf.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0b/Bai_Hao_Yin_Zhen_tea_leaf.jpg/330px-Bai_Hao_Yin_Zhen_tea_leaf.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Bai_Hao_Yin_Zhen_tea_leaf.jpg",
+      "author": "User Iateasquirrel on en.wikipedia",
+      "license": "CC BY-SA 3.0",
+      "license_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+      "kind": "dry_leaf",
+      "alt": "Slimmer, downy grey-green dry Zhenghe Bai Hao Yin Zhen buds"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/94/Bai_Hao_Yinzhen_or_Silver_needle_White_Tea.JPG/1280px-Bai_Hao_Yinzhen_or_Silver_needle_White_Tea.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/94/Bai_Hao_Yinzhen_or_Silver_needle_White_Tea.JPG/330px-Bai_Hao_Yinzhen_or_Silver_needle_White_Tea.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Bai_Hao_Yinzhen_or_Silver_needle_White_Tea.JPG",
+      "author": "LDFrancis",
+      "license": "Public domain",
+      "license_url": null,
+      "kind": "liquor",
+      "alt": "Pale yellow Silver Needle white tea in a white cup on a dark table"
+    }
+  ],
+  "i18n": {
+    "ru": {
+      "processing": "Только почки: их вялят от одного до трёх дней (на солнце, в тени или сочетая то и другое) без скручивания и без прогрева в котле, затем сушат при низкой температуре; за долгое вяление успевают пройти небольшие ферментативные изменения, так что окисление минимальное, но не нулевое.",
+      "harvest_season": "Короткое окно ранней весной, примерно с конца марта до середины апреля, когда толстые почки уже набухли, но листья ещё не раскрылись; выше всего ценится сбор первых дней (тоу чунь).",
+      "appearance_dry": "Пухлые, прямые одиночные почки в густом серебристо-белом ворсе: серебристо-зелёные в партиях из Фудина, более тонкие и серые в партиях из Чжэнхэ.",
+      "appearance_liquor": "От бледно-соломенного до светло-абрикосового, прозрачный, с лёгким мерцанием ворса.",
+      "appearance_wet": "Толстые мягкие почки бледно-зелёного цвета, всё ещё ворсистые, сначала плавают, потом опускаются на дно.",
+      "taste_profile": "Нежный и сладкий: дыня, огурец, свежее сено и мёд, сливочная, почти бархатистая от ворса текстура и долгое охлаждающее послевкусие.",
+      "vintage_note": "Продаётся и свежим, и выдержанным. Свежий Инь Чжэнь — весенний сбор текущего года, сортируется по дате сбора (сначала тоу чунь, затем обычная весна) и происхождению (Фудин, Чжэнхэ); свежее всего он в первый год. Рассыпной или прессованный Инь Чжэнь продают и с указанием возраста, обычно 3–7 лет: медленно завяленная почка переходит от сена и дыни к мёду и сухофруктам. Летние и осенние почки иногда продают как Серебряные иглы, но они тоньше и менее ворсистые.",
+      "history": "Обычно начало Серебряных игл относят к Фудину раннего периода правления Цзяцин, примерно к 1796 году, когда из почек местных кустов впервые стали делать белый чай, а экспорт последовал с 1891 года. Более старое название, Люй Сюэ Я («зелёные снежные ростки»), связано с материнским деревом, которое, как говорят, растёт в пещере Хунсюэ на горе Таймушань, но это скорее местное предание, чем запись.\n\nЧай из Фудина стал известен как иглы северного пути. Чжэнхэ, лежащий в глубине провинции, начал делать его примерно в 1889 году, и его чай называют иглами южного пути. Эти два города дали имена и кустам Да Бай, стоящим за двумя стилями: фудинский светлее и менее окислен, а чжэнхэский темнее и полнее.\n\nЗаявления о куда более древней родословной встречаются часто. Некоторые возводят этот чай к белому чаю из трактата императора Хуэйцзуна начала XII века, а археологи сообщали о похожем на иглы чае среди погребальных даров ханьского императора Цзин-ди. Это показывает, что чай из почек стар, но не показывает, что именно этот чай, сделанный именно так, настолько древний. Сегодня это самый дорогой из белых чаёв Фуцзяни, и он входит во многие списки знаменитых чаёв Китая.",
+      "description": "Бай Хао Инь Чжэнь — белый чай в самом обнажённом виде: только нераскрывшаяся почка, собранная за несколько весенних дней, завяленная и высушенная. Он происходит из двух уездов белого чая на севере Фуцзяни, Фудина на побережье и Чжэнхэ в глубине провинции, с выведенных там крупных ворсистых кустов Да Бай и Да Хао, чьи почки настолько толстые, что сами по себе составляют чай.\n\nГлавное в его изготовлении — терпение. Почки тонким слоем раскладывают на бамбуковых подносах и оставляют вянуть от одного до трёх дней, на солнце, в тени или и так и так: вода уходит медленно, а ферменты понемногу делают свою мягкую работу. Затем чай сушат на слабом огне. Ни скручивания, ни прогрева, поэтому на вкус это сама почка и мастерство вяления: слишком быстро — и выходит травянисто, слишком медленно — и становится тускло и кисло.\n\nВ чашке он тихий и точный: дыня, огурец, свежее сено, медовая сладость и бархатистая от ворса текстура, по которой и узнают хорошую партию. Кофеина в нём немало, что бы ни писали на упаковке: в почках его много. Заваривайте горячее и дольше, чем зелёный, 85–90 °C в гайвани, с долгим первым проливом, потому что почки всплывают и отдают медленно, и он выдержит шесть проливов. Кроме того, это лучший в Китае чай для высокого стакана, в который весь день подливают воду, и для холодного заваривания в течение ночи.\n\nСорта и происхождение важны. Фудинский Инь Чжэнь более пухлый, серебристый и сладкий; чжэнхэский тоньше, серее и глубже. Сбор первых дней, который продают как тоу чунь, — премиальный. Остерегайтесь юньнаньских почек (крупнее, с тёмной нижней стороной), которые выдают за фуцзяньские Серебряные иглы, и летних или осенних почек, более тонких и менее ворсистых. Выдержка здесь — честный вариант: хорошо хранившийся пятилетний Инь Чжэнь переходит от сена к мёду и кураге, и его продают рассыпным или в прессованных блинах с указанием года.\n\nПопробуйте рядом свежую партию и трёхлетнюю: это самая наглядная демонстрация того, что время делает с белым чаем.",
+      "brewing_notes": "Гайвань при 85–90 °C, проливы длиннее, чем для зелёного: почки отдают медленно и сначала всплывают, так что первому настаиванию нужно дать время. Также великолепен по-дедовски, в высоком стакане, куда весь день подливают воду, и при холодном заваривании в течение ночи."
+    },
+    "zh": {
+      "processing": "只取芽头,萎凋一到三天(日晒、阴干或两者结合),不揉捻、不炒青,再低温干燥;缓慢的萎凋让酶起一点作用,所以氧化极轻,但并非为零。",
+      "harvest_season": "早春很短的一段时间,约3月下旬至4月中旬,此时芽头已肥壮而叶片尚未展开;最初几天采的头春最为珍贵。",
+      "appearance_dry": "单芽肥壮挺直,密披银白茸毛:福鼎茶银中带绿,政和茶较瘦、偏灰。",
+      "appearance_liquor": "汤色浅稻草色至淡杏色,清澈,有隐约的毫光。",
+      "appearance_wet": "芽头肥软,浅绿色,仍带茸毛,先浮后沉。",
+      "taste_profile": "细腻甘甜,有甜瓜、黄瓜、鲜干草和蜂蜜的气息,茸毛带来奶润近乎丝绒的口感,收尾悠长清凉。",
+      "vintage_note": "新茶和老茶都有售。新银针是当年春茶,按采摘时间(先头春,后普通春茶)和产地(福鼎、政和)分级,第一年最鲜爽。散茶或压制的银针也标年份出售,通常为3–7年,缓慢萎凋的芽头会由干草、甜瓜转向蜂蜜和果干。夏秋季的芽有时也当银针卖,但更瘦,茸毛也更少。",
+      "history": "通常的说法是,银针始于嘉庆初年的福鼎,约1796年,当地开始用本地茶树的芽制白茶,1891年起开始外销。更早的名字“绿雪芽”,则与传说生长在太姥山鸿雪洞的一棵母树有关,这更多是地方传说,而非史料。\n\n福鼎茶被称为北路银针。内陆的政和约在1889年开始制作,它的茶称为南路银针。两地也为这两种风格背后的大白茶树留下了名字:福鼎较清淡,氧化较轻;政和较深沉饱满。\n\n更古老的渊源之说并不少见。有人把它追溯到宋徽宗十二世纪初茶书中的白茶,考古学家也曾报告,汉景帝的陪葬品中有形似针状的茶。这些说明芽茶由来已久,却不能说明这款茶、这种做法也有那么久远。如今它是福建白茶中最贵的一种,也出现在许多中国名茶榜单上。",
+      "description": "白毫银针是最纯粹的白茶:只有未展开的芽头,在春天的几天内采下,萎凋、干燥。它产自闽北两个白茶县,沿海的福鼎和内陆的政和,茶树是当地选育的大白、大毫,茸毛丰厚,芽头肥壮到单独就能成茶。\n\n做这款茶,靠的主要是耐心。芽头薄摊在竹筛上,萎凋一到三天,日晒、阴干或两者兼用,水分缓缓散失,酶也轻轻起一点作用,随后低温干燥。不揉捻,也不炒青,所以喝到的就是芽头本身和萎凋的功夫:太快则发青草气,太慢则沉闷发酸。\n\n入杯之后它安静而精准:甜瓜、黄瓜、鲜干草、蜂蜜般的甜,还有茸毛带来的丝绒口感,这正是好茶的标志。不管包装怎么说,它的咖啡因并不低;芽头里含量不少。冲泡要比绿茶水温高、时间长,用盖碗85–90 °C,第一泡要久一些,因为芽头会上浮、释放缓慢,能泡六泡。它也是中国最适合高玻璃杯的茶,一天里随喝随续水,也适合冷泡一夜。\n\n等级和产地都很重要。福鼎银针更肥壮、银亮、甘甜;政和银针更瘦、偏灰、更深沉。最初几天采的头春是上品。要当心冒充福建银针的云南芽(更大,背面发暗),以及更瘦、茸毛更少的夏秋季芽。陈放在这里是实在的选择:存放得当的五年银针会由干草转为蜂蜜和杏干,有散茶也有压制的茶饼,都标明年份。\n\n把新茶和三年陈并排试一试:这是展示时间如何改变白茶的最直接方式。",
+      "brewing_notes": "盖碗85–90 °C,浸泡时间比绿茶长:芽头释放缓慢,起初上浮,第一泡要给足时间。用高玻璃杯随喝随续水也极好,冷泡一夜同样出色。"
+    }
+  }
 }

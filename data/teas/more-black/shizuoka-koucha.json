@@ -1,0 +1,52 @@
+{
+  "slug": "shizuoka-koucha",
+  "name_en": "Shizuoka Koucha",
+  "name_native": "静岡紅茶",
+  "name_romanized": "Shizuoka Kōcha",
+  "name_zh": "静冈红茶",
+  "name_ru": "Сидзуока котя",
+  "aliases": [
+    "Shizuoka black tea",
+    "Shizuoka wakoucha"
+  ],
+  "category": "black",
+  "origin_country": "Japan",
+  "origin_region": "Shizuoka",
+  "cultivar": null,
+  "processing": "Made as a fully oxidised black tea, as with other Japanese wakoucha: withered, rolled, oxidised and dried. Details vary by maker.",
+  "form": "loose",
+  "harvest_season": "Not fixed for the prefecture; Japanese black tea usually follows the same seasonal flushes as local green tea, and each maker states its own picking.",
+  "appearance_dry": "Typical of Japanese black tea, dark twisted leaf with a reddish-brown cast.",
+  "appearance_liquor": "Typically a clear reddish amber.",
+  "appearance_wet": "Typically coppery-brown open leaf.",
+  "taste_profile": "No single profile is established for the prefecture; Japanese black teas in general lean gentle and sweet with little astringency.",
+  "taste_tags": [
+    "sweet",
+    "malty"
+  ],
+  "brewing": {
+    "grams": 3,
+    "water_ml": 200,
+    "temp_c": 95,
+    "steeps": 2,
+    "seconds": [
+      150,
+      210
+    ],
+    "notes": "A usual Western-style starting point for Japanese black tea."
+  },
+  "caffeine_level": "medium",
+  "vintage_note": "Usual for Japanese black tea, it is sold from recent harvests and is best drunk within a year or two. The prefecture name is broad, so look for the maker, the district and the cultivar.",
+  "description": "Shizuoka koucha is black tea from Shizuoka, Japan's best-known green tea prefecture. The name covers anything made there, with Mariko black tea as a more local label within it.\n\nThe method is the standard one for black tea, and the result depends on the maker and the cultivar more than on the prefecture.\n\nAs with other Japanese black teas, expect a soft, mild cup. Brew it Western-style and taste it plain before adding anything.\n\nBuy it by producer. Comparing two makers side by side will teach you more than the regional name can.",
+  "history": "Shizuoka appears in Japanese listings of domestic black teas, with Mariko named separately. Beyond that, little is documented here about how it developed as a regional tea, so treat it as a broad label without a single origin story.",
+  "liquor_hex": "#BC6E30",
+  "leaf_hex": "#4D3324",
+  "sources": [
+    "https://ja.wikipedia.org/wiki/%E7%B4%85%E8%8C%B6"
+  ],
+  "confidence": "low",
+  "wikipedia_title": null,
+  "wikipedia_scope": "none",
+  "popularity": 2,
+  "images": []
+}

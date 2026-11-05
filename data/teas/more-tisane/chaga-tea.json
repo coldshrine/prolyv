@@ -1,0 +1,59 @@
+{
+  "slug": "chaga-tea",
+  "name_en": "Chaga Tea",
+  "name_native": "чага",
+  "name_romanized": "chaga",
+  "name_zh": "白桦茸茶",
+  "name_ru": "Чага",
+  "aliases": [
+    "Inonotus obliquus",
+    "Birch conk tea",
+    "桦褐孔菌茶"
+  ],
+  "category": "tisane",
+  "origin_country": "Russia",
+  "origin_region": "Russia · Birch forests",
+  "cultivar": "Inonotus obliquus",
+  "processing": "The dark growth formed on birch by a parasitic fungus is cut from the tree, dried and broken into chunks or ground. It is made into a long-simmered decoction, not a quick infusion.",
+  "form": "other",
+  "harvest_season": "Little is documented about a preferred season; it is sold dried all year.",
+  "appearance_dry": "Hard chunks with a black, cracked outer crust and rust-brown inner flesh, or a brown powder.",
+  "appearance_liquor": "Rich amber to dark brown, close to black coffee after a long simmer.",
+  "appearance_wet": "Swollen dark brown woody chunks that stay firm and can be reused.",
+  "taste_profile": "Earthy and slightly bitter, with hints of vanilla and nuts; darker and more bitter the longer it cooks.",
+  "taste_tags": [
+    "earthy",
+    "woody",
+    "bitter",
+    "nutty"
+  ],
+  "brewing": {
+    "grams": 10,
+    "water_ml": 1000,
+    "temp_c": 95,
+    "steeps": 2,
+    "seconds": [
+      1800,
+      1800
+    ],
+    "notes": "Western-style decoction: about a tablespoon of chunks per litre, brought to the boil and then simmered at least 20 to 30 minutes. Chunks can be reused two or three times, as long as they still colour the water."
+  },
+  "caffeine_level": "none",
+  "vintage_note": "Sold as dried chunks or powder, without vintage. Chunks show what you are buying better than powder, and extracts from China and Japan are a different product. Keep it dry; it does not improve with age.",
+  "description": "Chaga is not a tea or even a plant but a dark growth on birch trunks, caused by the parasitic fungus Inonotus obliquus. It occurs in birch forests in Russia, eastern Europe and Korea, as well as in the northern United States.\n\nThe treatment is more like making stock. Hard chunks go into water that is brought to the boil and then held at a simmer, for half an hour or for hours if you like it strong. The dark colour comes from melanin pigments.\n\nThe cup looks like black coffee and tastes much softer than it looks: earthy, a bit bitter, with something of vanilla and nuts. Too many chunks or too long on the stove turn it bitter.\n\nBuy chunks with both dark crust and rusty inner flesh. Treat health claims with care: Soviet medicine allowed it only for symptomatic relief in late-stage cancer patients and not as treatment of the tumour.",
+  "history": "Little is documented about the early use of chaga as a drink. Its official moment in Russia came in 1955, when chaga and its preparations entered the Soviet state pharmacopoeia, permitted to improve the wellbeing of patients with stage four cancer, not to fight the tumour itself.\n\nThe chemistry of the fungus is still poorly studied. Today concentrated hot-water extracts from China and Japan are exported worldwide alongside the old-style chunks.",
+  "liquor_hex": "#4A2A14",
+  "leaf_hex": "#3A2518",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Inonotus_obliquus",
+    "https://ru.wikipedia.org/wiki/%D0%A7%D0%B0%D0%B3%D0%B0_%28%D0%B3%D1%80%D0%B8%D0%B1%29",
+    "https://foragerchef.com/?p=61961",
+    "https://www.foraged.com/blog/what-does-chaga-tea-taste-like-and-why-you-might-love-it"
+  ],
+  "confidence": "medium",
+  "wikipedia_title": "Inonotus obliquus",
+  "wikipedia_scope": "umbrella",
+  "popularity": 3,
+  "images": [],
+  "sources_note": "No dated account of early Russian home use was read."
+}

@@ -1,0 +1,55 @@
+{
+  "slug": "mino-cha",
+  "name_en": "Mino-cha",
+  "name_native": "美濃茶",
+  "name_romanized": "Mino-cha",
+  "name_zh": "美浓茶",
+  "name_ru": "Мино-тя",
+  "aliases": [
+    "美濃茶",
+    "Mino tea"
+  ],
+  "category": "green",
+  "origin_country": "Japan",
+  "origin_region": "Gifu · Mino",
+  "cultivar": null,
+  "processing": "An origin label rather than a method: mostly Japanese steamed green tea of the sencha kind, from Gifu-grown leaf.",
+  "form": "loose",
+  "harvest_season": "Spring first flush is prized, as with Japanese green tea generally.",
+  "appearance_dry": "Dark green needles, typical of Japanese steamed green tea.",
+  "appearance_liquor": "Clear yellow-green.",
+  "appearance_wet": "Soft green leaf pieces.",
+  "taste_profile": "Varies by district; Shirakawa leans soft and low in astringency, Ibi balances umami with some grip.",
+  "taste_tags": [
+    "vegetal",
+    "umami",
+    "sweet"
+  ],
+  "brewing": {
+    "grams": 5,
+    "water_ml": 150,
+    "temp_c": 75,
+    "steeps": 3,
+    "seconds": [
+      60,
+      15,
+      30
+    ],
+    "notes": "Standard sencha approach. Read the label for the district, since the name covers quite different lots."
+  },
+  "caffeine_level": "medium",
+  "vintage_note": "Sold as current-year tea under an origin label, not by vintage. New first-flush tea arrives each spring and is best within the year. The label also tells you the blend: 100% Gifu leaf for Mino-cha, and 50% or more must be marked as a blend.",
+  "description": "Mino-cha is the collective name for tea from Gifu Prefecture, promoted as a brand since 2004. It is grown mostly in the Mino part of the prefecture, in the south-west to south-centre, rather than in mountainous Hida to the north.\n\nThink of it as an umbrella. Two named districts carry it: Mino-Ibi in the west, around Ibigawa, Ikeda and Tarui, and Mino-Shirakawa in the centre, around Shirakawa and Higashishirakawa, where gardens sit at about 200 to 700 metres. Smaller local names sit beneath those.\n\nBecause it is an origin label, there is no single Mino taste. Brew it as a sencha and judge the lot in front of you.\n\nThe useful thing is the labelling rule: full Gifu leaf can be called Mino-cha, while tea with at least half Gifu leaf must be marked as a Mino blend. Town-level names are allowed only when all the leaf comes from there, on the seller's own responsibility. That makes a village name on the bag a meaningful clue.",
+  "history": "The name as a brand is recent: from 2004 Gifu has positioned tea made entirely from prefectural leaf as Mino-cha. The growing itself is much older, with Ikeda gardens recorded in the Muromachi period and Shirakawa tracing its start to around 1400.\n\nProduction stands at a modest scale, with 2,760 tonnes of fresh leaf and 625 tonnes of crude tea reported for the prefecture.",
+  "liquor_hex": "#D4D07C",
+  "leaf_hex": "#465C30",
+  "wikipedia_title": "美濃茶",
+  "wikipedia_scope": "exact",
+  "popularity": 2,
+  "sources": [
+    "https://ja.wikipedia.org/wiki/%E7%BE%8E%E6%BF%83%E8%8C%B6",
+    "https://ja.wikipedia.org/wiki/%E6%97%A5%E6%9C%AC%E8%8C%B6"
+  ],
+  "confidence": "medium",
+  "images": []
+}

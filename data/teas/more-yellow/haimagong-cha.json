@@ -1,0 +1,58 @@
+{
+  "slug": "haimagong-cha",
+  "name_en": "Haimagong Cha",
+  "name_native": "海马宫茶",
+  "name_romanized": "Hǎimǎgōng Chá",
+  "name_zh": "海马宫茶",
+  "name_ru": "Хай Ма Гун Ча",
+  "aliases": [
+    "Haimagong Tea",
+    "Haimagongcha",
+    "海馬宮茶"
+  ],
+  "category": "yellow",
+  "origin_country": "China",
+  "origin_region": "Guizhou · Bijie · Dafang",
+  "cultivar": "Local small- and medium-leaf populations",
+  "processing": "Kill-green, first rolling, piling (the yellowing stage), then repeated re-firing and re-rolling, followed by baking and sorting.",
+  "form": "loose",
+  "harvest_season": "Picked around Guyu in spring. First grade is one bud with one just-opening leaf, second grade one bud and two leaves, third grade one bud and three leaves.",
+  "appearance_dry": "Tight, curled strands with visible down.",
+  "appearance_liquor": "Bright yellow-green.",
+  "appearance_wet": "Tender, even and bright, in a young yellow.",
+  "taste_profile": "High, clean aroma with a mellow body and a sweet aftertaste.",
+  "taste_tags": [
+    "sweet",
+    "vegetal",
+    "floral"
+  ],
+  "brewing": {
+    "grams": 4,
+    "water_ml": 150,
+    "temp_c": 85,
+    "steeps": 4,
+    "seconds": [
+      45,
+      60,
+      75,
+      100
+    ],
+    "notes": "General guidance for tender curled yellow tea. Start below boiling, and raise the temperature only if the cup is thin."
+  },
+  "caffeine_level": "medium",
+  "vintage_note": "Sold by grade from the spring picking around Guyu. As with most yellow teas, current-year tea is what to look for, and it is not normally aged.",
+  "description": "Haimagong Cha is a yellow tea named after Haimagong township, at the foot of Laoyingyan in Dafang county, Guizhou. It is a small local name, far less seen than the Hunan or Sichuan yellow teas, which makes it a nice find.\n\nThe method is unusually hands-on. After the kill-green and a first rolling the leaf is piled to yellow, then fired and rolled repeatedly before baking and sorting. That cycle tightens the leaf into its curled shape and softens the cup.\n\nThe cup is bright yellow-green with a high aroma, a mellow body and a sweet finish. Brew it like a delicate tea, with water below the boil, and keep the first steeps short.\n\nGrading is clear and useful. The top grade is one bud with a just-opening leaf, and lower grades have more and larger leaves. The name is rarely seen outside China, so ask for grade and harvest year.",
+  "history": "The tea is said to date back to the Ming dynasty and takes its name from the township where it grows. Little else about its early history is documented, including who first made it known or how its method developed.",
+  "liquor_hex": "#CFCB6E",
+  "leaf_hex": "#78763A",
+  "sources": [
+    "https://zh.wikipedia.org/wiki/%E6%B5%B7%E9%A9%AC%E5%AE%AB%E8%8C%B6",
+    "https://www.wikidata.org/wiki/Q11151481",
+    "https://en.wikipedia.org/wiki/Yellow_tea"
+  ],
+  "confidence": "medium",
+  "wikipedia_title": "Yellow tea",
+  "wikipedia_scope": "umbrella",
+  "popularity": 2,
+  "images": []
+}

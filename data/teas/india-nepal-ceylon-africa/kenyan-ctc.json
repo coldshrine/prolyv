@@ -3,10 +3,17 @@
   "name_en": "Kenyan CTC Black Tea",
   "name_native": null,
   "name_romanized": null,
-  "aliases": ["Kenya tea", "Kenyan black tea", "Kenya BP1", "Kenya PF1", "KTDA tea", "Kericho tea"],
+  "aliases": [
+    "Kenya tea",
+    "Kenyan black tea",
+    "Kenya BP1",
+    "Kenya PF1",
+    "KTDA tea",
+    "Kericho tea"
+  ],
   "category": "black",
   "origin_country": "Kenya",
-  "origin_region": "Rift Valley and Central highlands · Kericho, Nandi, Nyeri, Kiambu, Meru (1,500–2,700 m)",
+  "origin_region": "Rift Valley · Kericho",
   "cultivar": "Kenyan clones of Assam-type stock bred by the Tea Research Foundation of Kenya (TRFK 6/8, 31/8 and others)",
   "processing": "CTC: withered leaf is cut, torn and curled into granules, oxidised quickly and fired; equatorial highland leaf is rich in theaflavins, giving a bright, coppery, very brisk cup. Nearly all Kenyan tea is made this way.",
   "form": "loose",
@@ -15,12 +22,46 @@
   "appearance_liquor": "Bright reddish-copper, very colourful, with a golden rim on the cup.",
   "appearance_wet": "Tiny copper-brown particles.",
   "taste_profile": "Strong, brisk and bright with a clean, slightly citrusy sharpness and a hint of malt; the backbone of most British tea bags.",
-  "taste_tags": ["brisk", "citrus", "malty"],
-  "brewing": {"grams": 3, "water_ml": 200, "temp_c": 100, "steeps": 1, "seconds": [180], "notes": "Boiling water, two to three minutes, milk. Fast and forgiving; not for a second steep."},
+  "taste_tags": [
+    "brisk",
+    "citrus",
+    "malty"
+  ],
+  "brewing": {
+    "grams": 3,
+    "water_ml": 200,
+    "temp_c": 100,
+    "steeps": 1,
+    "seconds": [
+      180
+    ],
+    "notes": "Boiling water, two to three minutes, milk. Fast and forgiving; not for a second steep."
+  },
   "caffeine_level": "high",
   "vintage_note": "Sold weekly at the Mombasa tea auction by factory and grade (BP1, PF1, PD, D1), with KTDA smallholder factories supplying more than half the country's crop; almost all of it leaves Kenya in bulk to be blended and bagged abroad, so the factory name rarely reaches a retail pack. No vintage: freshness and factory matter, and the dry-season invoices are the ones blenders fight over.",
   "description": "Kenya is the world's biggest exporter of black tea, and nearly all of it is CTC: small, hard granules of fully oxidised tea from the highlands either side of the Rift Valley, around Kericho, Nandi, Nyeri, Kiambu and Meru, grown at 1,500 to 2,700 metres on the equator. If you drink tea bags in Britain, Pakistan or Egypt, you drink Kenyan CTC most days without knowing it.\n\nThe bushes are clones bred locally from Assam-type stock, plucked every week or two all year round, with no winter to stop them. Withered leaf is cut, torn and curled into granules, oxidised quickly and fired; equatorial sun and altitude give leaf that is rich in theaflavins, which is why Kenyan tea is so bright, coppery and brisk in the cup. More than half the crop comes from smallholders selling through KTDA factories.\n\nThe cup is strong, bright and brisk with a clean, slightly citrusy sharpness and a hint of malt, and it colours instantly with milk. Boiling water, two to three minutes, milk; it is fast, forgiving and not meant for a second steep.\n\nIt is sold every week at the Mombasa auction by factory and grade (BP1, PF1, PD, D1 and the like) and leaves the country almost entirely in bulk to be blended and bagged abroad, so the factory name rarely reaches a retail pack. There is no vintage; the dry-season invoices from January to February and July to September are the brightest, and freshness is what counts.\n\nKenyan tea is also the reason a cheap breakfast tea bag can taste as good as it does; it is the backbone of most of them.",
   "wikipedia_title": "Tea production in Kenya",
   "wikipedia_scope": "exact",
-  "popularity": 4
+  "popularity": 4,
+  "name_zh": "肯尼亚CTC红茶",
+  "name_ru": "Кенийский чёрный чай CTC",
+  "history": "Tea reached Kenya in 1903, when G. W. L. Caine planted it at what is now Limuru. Commercial growing began in 1924 with Malcolm Fyers Bell, sent out by Brooke Bond to start the first estates.\n\nThe modern industry is split between company plantations and smallholders. The Kenya Tea Development Agency runs 66 factories serving more than 500,000 small farmers, who produce over 60 percent of the country's tea, and the Tea Research Foundation of Kenya has bred more than 49 varieties for them.\n\nMost of the crop is made by the crush, tear, curl method and sold in bulk through the Mombasa auction to blenders abroad. By 2018 Kenya was the world's largest exporter of black tea. Whole-leaf orthodox teas and small lots of green, white and purple tea exist too, but they are a sideline.",
+  "liquor_hex": "#A8481A",
+  "leaf_hex": "#2B1E16",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Tea_production_in_Kenya"
+  ],
+  "confidence": "medium",
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c3/Tea_farming_in_Kericho_15.JPG/1280px-Tea_farming_in_Kericho_15.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c3/Tea_farming_in_Kericho_15.JPG/330px-Tea_farming_in_Kericho_15.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Tea_farming_in_Kericho_15.JPG",
+      "author": "Ahero dala",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "kind": "plantation",
+      "alt": "Tea fields under a cloudy sky in Kericho, Kenya, with trees and hills behind"
+    }
+  ]
 }

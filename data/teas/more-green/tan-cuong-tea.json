@@ -1,0 +1,63 @@
+{
+  "slug": "tan-cuong-tea",
+  "name_en": "Tân Cương Tea",
+  "name_native": "Trà Tân Cương",
+  "name_romanized": "Trà Tân Cương",
+  "name_zh": "越南太原新疆绿茶",
+  "name_ru": "Тан Кыонг",
+  "aliases": [
+    "Tân Cương",
+    "Trà Tân Cương",
+    "Tan Cuong",
+    "Chè Tân Cương",
+    "Thai Nguyen Tan Cuong"
+  ],
+  "category": "green",
+  "origin_country": "Vietnam",
+  "origin_region": "Thai Nguyen · Tan Cuong",
+  "cultivar": "Trung Du and hybrids",
+  "processing": "A pan-fired green tea: fresh shoots are heated to stop oxidation, rolled into curls and dried. Traditional firing is done by hand, while grades depend on how much of the shoot is picked.",
+  "form": "loose",
+  "harvest_season": "Young shoots are picked through the growing season. As with other green teas, the finest grades are those with the most bud.",
+  "appearance_dry": "Small, dark green, tightly curled leaves, with more visible bud in the higher grades.",
+  "appearance_liquor": "Clear yellow-green, typical of Thai Nguyen green tea.",
+  "appearance_wet": "Small, soft green shoots whose size and bud content depend on the grade.",
+  "taste_profile": "A strong bitter touch on the tip of the tongue turns into a deep, lingering sweetness, often with an aroma Vietnamese writers liken to young green rice.",
+  "taste_tags": [
+    "bitter",
+    "sweet",
+    "grassy",
+    "umami"
+  ],
+  "brewing": {
+    "grams": 3,
+    "water_ml": 150,
+    "temp_c": 80,
+    "steeps": 3,
+    "seconds": [
+      30,
+      60,
+      120
+    ],
+    "notes": "Keep the water near 80°C and the first steep short. Vietnamese drinkers often like it stronger, so adjust to taste."
+  },
+  "caffeine_level": "medium",
+  "vintage_note": "Sold by grade rather than by year: dinh non, tom non and moc cau are the names to know. As is usual for green tea, buy the most recent harvest and drink it fresh. The Tan Cuong name is protected, but misuse has been documented, so ask for the grower or producer.",
+  "description": "Tan Cuong is the best-known green tea of Vietnam, grown in hills on the edge of Thai Nguyen city at the eastern foot of the Tam Dao range. It is often called the country's first famous tea, and its distinctive feature is a sharp opening that turns sweet.\n\nThe leaf is pan-fired, rolled and dried, with careful hand firing at the traditional end of the market. The bowl-shaped hills, rainfall and local soils are often credited for its character, though that is hard to separate from plant choice and skill. Most of the area now grows hybrids, and the native Trung Du plant holds only about a tenth.\n\nThe first sip can be quite bitter, and the point is what follows: a sweetness that lingers on the palate. Many people overdo the heat, so use water near 80°C and keep the first steep short.\n\nGrades tell you what was picked, with dinh non and tom non at the bud end and moc cau carrying more leaf. The geographical indication covers a defined zone, yet studies have recorded misuse of the name. A named farm or producer is more reassuring than the word Tan Cuong on a bag.",
+  "history": "Tea was already grown in the Thai Nguyen highlands when large-scale production developed, though early dates rest mostly on trade and local press accounts. Vietnamese writers commonly speak of a roughly century-old reputation for Tan Cuong as the country's first famous tea.\n\nVietnam's National Office of Intellectual Property certified the Tan Cuong geographical indication in 2007, and the name is also protected in the EU under the EU-Vietnam Free Trade Agreement. Reports describe the zone differently over time, from three communes to six.\n\nA later concern has been the loss of the native Trung Du plant to hybrids, along with documented misuse of the name, and Thai Nguyen has responded with preservation programmes.",
+  "liquor_hex": "#CDC066",
+  "leaf_hex": "#3E4A2C",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Vietnamese_tea",
+    "https://sti.vista.gov.vn/publication/view/17a65bb1dc56c1235d7ee8029c94408b-9a05e8903af90abd32556973568c517e-40157.html",
+    "https://dthujs.vn/index.php/dthujs/article/view/961",
+    "https://en.nhandan.vn/thai-nguyen-elevates-value-of-tea-post157957.html",
+    "https://en.vietnamplus.vn/thai-nguyen-moving-to-preserve-tan-cuong-tea/231548.vnp",
+    "https://vietnamagriculture.nongnghiep.vn/hundred-years-of-the-first-famous-tea-lost-in-the-tan-cuong-tea-land-d352817.html"
+  ],
+  "confidence": "high",
+  "wikipedia_title": "Vietnamese tea",
+  "wikipedia_scope": "umbrella",
+  "popularity": 3,
+  "images": []
+}

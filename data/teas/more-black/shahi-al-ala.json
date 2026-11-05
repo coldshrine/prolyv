@@ -1,0 +1,52 @@
+{
+  "slug": "shahi-al-ala",
+  "name_en": "Shahi al-Ala",
+  "name_native": "شاهي العالة",
+  "name_romanized": "shāhī al-ʿāla",
+  "aliases": [
+    "Libyan tea"
+  ],
+  "category": "black",
+  "origin_country": "Libya",
+  "origin_region": "Libya",
+  "cultivar": null,
+  "form": "other",
+  "caffeine_level": "high",
+  "brewing": {
+    "grams": 3,
+    "water_ml": 200,
+    "temp_c": 95,
+    "steeps": 2,
+    "seconds": [
+      180,
+      240
+    ],
+    "notes": "A safe starting point for black tea: Western style, water just off the boil."
+  },
+  "taste_tags": [
+    "malty",
+    "sweet"
+  ],
+  "description": "Libyan tea: a strong, boiled, thick-bodied drink with a dense foam, served in small glasses from traditional stainless steel equipment.\n\nTreat it as you would any black tea: water just off the boil, a few minutes in the pot, and a seller who can say where it was grown.",
+  "wikipedia_title": null,
+  "wikipedia_scope": "none",
+  "popularity": 1,
+  "name_zh": "利比亚泡沫茶",
+  "name_ru": "Шахи аль-Ала",
+  "history": "It is prepared much like Moroccan tea, by boiling the leaves, but differs in how it is served. It usually comes in three rounds, the last with boiled skinned peanuts or almonds, and mint or basil may be added. Little more is documented about it.",
+  "liquor_hex": "#6E2A10",
+  "leaf_hex": "#3A2A1E",
+  "sources": [
+    "https://ar.wikipedia.org/wiki/%D8%A7%D9%84%D8%B4%D8%A7%D9%8A_%D8%A7%D9%84%D9%84%D9%8A%D8%A8%D9%8A"
+  ],
+  "confidence": "medium",
+  "images": [],
+  "stub": true,
+  "processing": "The leaves are boiled, at first without sugar so that the foam can form.",
+  "harvest_season": "Picked through the growing season, as with most black teas.",
+  "appearance_dry": "Usually dark twisted leaf, sometimes with golden tips.",
+  "appearance_liquor": "Heavy-bodied, with a layer of dense foam on each glass.",
+  "appearance_wet": "Usually coppery brown leaf.",
+  "taste_profile": "Concentrated and strong.",
+  "vintage_note": "Black teas are normally sold by harvest year and are best within a couple of years."
+}

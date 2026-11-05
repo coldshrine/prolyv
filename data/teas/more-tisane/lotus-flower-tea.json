@@ -1,0 +1,58 @@
+{
+  "slug": "lotus-flower-tea",
+  "name_en": "Lotus Flower Tea",
+  "name_native": "연꽃차",
+  "name_romanized": "yeonkkot-cha",
+  "name_zh": "莲花茶",
+  "name_ru": "Чай из цветков лотоса",
+  "aliases": [
+    "Lotus herbal tea",
+    "Lotus tea",
+    "Yeonhwa-cha",
+    "Yeonkkot-cha",
+    "연화차",
+    "蓮花茶",
+    "莲茶"
+  ],
+  "category": "tisane",
+  "origin_country": "South Korea",
+  "origin_region": "Korean Peninsula",
+  "cultivar": null,
+  "processing": "Either a fresh whole flower is used as it is, or the petals are dried and simmered gently. No tea leaf is involved.",
+  "form": "other",
+  "harvest_season": "Fresh flowers are only available during the summer lotus bloom, as is typical of the plant; dried petals are used all year.",
+  "appearance_dry": "Dried pale pink to tan petals, or sometimes a whole flower.",
+  "appearance_liquor": "Typically a clear, very pale gold.",
+  "appearance_wet": "Soft, translucent petals, or an opened whole flower.",
+  "taste_profile": "Little is written about its flavour; as with other flower infusions, expect a light, delicately floral and slightly vegetal cup.",
+  "taste_tags": [
+    "floral",
+    "vegetal"
+  ],
+  "brewing": {
+    "grams": 6,
+    "water_ml": 600,
+    "temp_c": 90,
+    "steeps": 1,
+    "seconds": [
+      300
+    ],
+    "notes": "Use 4–8 g of dried petals in 600 ml of water over low heat, enough for two or three cups. A fresh whole flower can be used instead."
+  },
+  "caffeine_level": "none",
+  "vintage_note": "No vintages. Dried petals are sold year-round and, like other dried flowers, are best used while still fragrant; fresh-flower tea depends on the summer bloom. Check the label, because lotus tea can also mean leaves, seeds or a scented green tea.",
+  "description": "Lotus flower tea, yeonkkot-cha or yeonhwa-cha in Korean, is an infusion of the lotus blossom. It should not be mixed up with Vietnamese trà sen, which is green tea scented with lotus and does contain caffeine.\n\nThere are two ways to make it. A fresh whole flower can go straight into hot water, or dried petals can be simmered gently, which is the more practical everyday method.\n\nExpect something delicate: as with other flower infusions, it is light and floral rather than strong, so keep the heat gentle.\n\nThe name lotus tea is crowded. Korean practice separates leaf (yeonnip-cha), fruit (yeonbang-cha), seed (yeonja-cha) and root (yeongeun-cha) teas, and Chinese lotus plumule tea is another drink again. If you want the flower, look for the specific name.",
+  "history": "Lotus flower tea has a recognised place in Korean temple cuisine, where the fresh whole flower stands for the blossoming of Buddhist enlightenment. Little is documented about when the practice began or who shaped it. Drinks from other parts of the plant are shared across East and Southeast Asia.",
+  "liquor_hex": "#E6DCA6",
+  "leaf_hex": "#CFA99A",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Lotus_tea",
+    "https://ko.wikipedia.org/wiki/%EC%97%B0%EC%B0%A8_%28%EC%9D%8C%EC%8B%9D%29",
+    "https://ja.wikipedia.org/wiki/%E8%93%AE%E8%8C%B6"
+  ],
+  "confidence": "medium",
+  "wikipedia_title": "Lotus tea",
+  "wikipedia_scope": "umbrella",
+  "popularity": 2,
+  "images": []
+}

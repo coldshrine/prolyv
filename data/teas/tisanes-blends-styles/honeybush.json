@@ -3,10 +3,17 @@
   "name_en": "Honeybush",
   "name_native": "Heuningbos",
   "name_romanized": null,
-  "aliases": ["Honeybush tea", "Heuningbostee", "Bergtee", "Cyclopia", "Honey bush"],
+  "aliases": [
+    "Honeybush tea",
+    "Heuningbostee",
+    "Bergtee",
+    "Cyclopia",
+    "Honey bush",
+    "Хонибуш"
+  ],
   "category": "tisane",
   "origin_country": "South Africa",
-  "origin_region": "Eastern Cape and Western Cape · Langkloof, Kouga and Overberg mountains",
+  "origin_region": "Eastern Cape · Langkloof",
   "cultivar": "Cyclopia species: mainly C. intermedia (wild, mountain), C. subternata and C. genistoides (cultivated)",
   "processing": "Leaves, stems and flowers are cut and chopped, then oxidised in heated tanks or heaps at roughly 70–90 °C for a day or two, which turns them dark brown and develops the honey aroma; the material is then dried and sieved. A smaller amount is dried unoxidised and sold as green honeybush.",
   "form": "loose",
@@ -15,12 +22,58 @@
   "appearance_liquor": "Deep amber to reddish-brown, clear.",
   "appearance_wet": "Dark, softened woody pieces with a strong smell of honey and dried apricot.",
   "taste_profile": "Sweeter and rounder than rooibos: honey, dried apricot and a light floral note over a soft woody base, with no bitterness even when boiled.",
-  "taste_tags": ["honey", "sweet", "dried-fruit", "floral"],
-  "brewing": {"grams": 4, "water_ml": 250, "temp_c": 100, "steeps": 1, "seconds": [600], "notes": "Boiling water and 8–10 minutes, or simmer it in a pot for 10–15 minutes the way it is done at home in the Cape; the coarse cut needs time. Takes milk and honey well and makes an excellent cold brew."},
+  "taste_tags": [
+    "honey",
+    "sweet",
+    "dried-fruit",
+    "floral"
+  ],
+  "brewing": {
+    "grams": 4,
+    "water_ml": 250,
+    "temp_c": 100,
+    "steeps": 1,
+    "seconds": [
+      600
+    ],
+    "notes": "Boiling water and 8–10 minutes, or simmer it in a pot for 10–15 minutes the way it is done at home in the Cape; the coarse cut needs time. Takes milk and honey well and makes an excellent cold brew."
+  },
   "caffeine_level": "none",
   "vintage_note": "No vintage and usually no harvest date: honeybush is sold as a dried, pasteurised product with a two- to three-year best-before. Packs distinguish 'fermented' (the normal oxidised style) from 'green honeybush', sometimes name the species (intermedia for wild mountain tea, subternata or genistoides for cultivated), and come as a coarse loose cut or in tea bags. Wild-harvested lots are small and sold when the spring cut has been processed; cultivated honeybush is available all year.",
   "description": "Honeybush is rooibos's less famous neighbour from the Cape fynbos, made from several Cyclopia species that grow on the mountain slopes of the Eastern and Western Cape. The bushes carry yellow, honey-scented flowers in spring, which is where the name comes from, and the tea really does taste the way the flowers smell.\n\nWhere rooibos is oxidised in heaps in the open, honeybush is traditionally 'fermented' hot: the chopped plant is heaped or put in tanks and kept warm for a day or two, then dried. That warm oxidation is what builds the deep brown colour and the honey, dried-apricot aroma. Much of the crop is still cut from wild mountain stands, with cultivated fields taking a growing share.\n\nThe cup is sweeter and fruitier than rooibos, with a softer, almost syrupy texture and nothing harsh in it. Because the cut is coarse and woody it needs a long, hot steep; eight to ten minutes with boiling water is normal and a stovetop simmer is traditional. The usual mistake is treating it like a tea bag and pulling it after three minutes, which gives a pale, watery cup.\n\nIt is sold as a loose chip cut or in bags, and the best packs tell you whether it is wild mountain honeybush (Cyclopia intermedia) or a cultivated species, and whether it is the standard oxidised style or green. There is no vintage to chase; freshness within the best-before window is what matters.\n\nTry it plain first, then with a spoon of honey and a slice of lemon as an evening drink. It also blends naturally with rooibos, dried orange peel or cinnamon without losing itself.",
   "wikipedia_title": "Cyclopia (plant)",
   "wikipedia_scope": "umbrella",
-  "popularity": 3
+  "popularity": 3,
+  "name_zh": "蜜树茶",
+  "name_ru": "Ханибуш",
+  "history": "Honeybush comes from Cyclopia, a genus of about 20 legumes found only in small parts of South Africa's southern and southwestern Cape, and takes its name from the honey scent of the flowers. Only four or five species are in common home or commercial use, among them C. intermedia, known locally as bergtee, or mountain tea, and found between Port Elizabeth and the edge of the Langkloof.\n\nIn some rural districts a kettle of it used to be kept infusing on the stove, since unlike true tea it does not turn bitter with long simmering. When it first came into use is not well documented.",
+  "liquor_hex": "#A85F24",
+  "leaf_hex": "#6B4526",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Cyclopia_%28plant%29",
+    "https://en.wikipedia.org/wiki/List_of_plants_known_as_honeybush"
+  ],
+  "confidence": "medium",
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7f/Cyclopia_genistoides_1DS-II_2-4427.jpg/1280px-Cyclopia_genistoides_1DS-II_2-4427.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7f/Cyclopia_genistoides_1DS-II_2-4427.jpg/330px-Cyclopia_genistoides_1DS-II_2-4427.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Cyclopia_genistoides_1DS-II_2-4427.jpg",
+      "author": "SAplants",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "kind": "plant",
+      "alt": "Yellow pea-like flowers of the honeybush species Cyclopia genistoides"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/a/a6/Cyclopia_alpina_15170100.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a6/Cyclopia_alpina_15170100.jpg/330px-Cyclopia_alpina_15170100.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Cyclopia_alpina_15170100.jpg",
+      "author": "Tony Rebelo",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "kind": "plant",
+      "alt": "Yellow flowers of alpine honeybush, Cyclopia alpina, against a blue sky"
+    }
+  ]
 }

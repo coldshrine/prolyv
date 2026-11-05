@@ -1,0 +1,55 @@
+{
+  "slug": "meiryoku",
+  "name_en": "Meiryoku",
+  "name_native": "めいりょく",
+  "name_romanized": "Meiryoku",
+  "name_zh": "茗绿",
+  "name_ru": "Мэйрёку",
+  "aliases": [
+    "茗緑"
+  ],
+  "category": "green",
+  "origin_country": "Japan",
+  "origin_region": "Western Japan",
+  "cultivar": "Meiryoku",
+  "processing": "Mainly steamed, rolled and dried as sencha, the usual treatment for this cultivar.",
+  "form": "loose",
+  "harvest_season": "Spring, around the same time as Yabukita or a day or two ahead; first flush is the picking that matters, as with most sencha.",
+  "appearance_dry": "As is usual for sencha, fine dark-green needles.",
+  "appearance_liquor": "Clear yellow-green, as is typical of a medium-steamed sencha.",
+  "appearance_wet": "Soft, mid-green leaf fragments, as with other sencha.",
+  "taste_profile": "A clean, refreshing cup, with the savoury side you would expect from a cultivar higher in amino acids and lower in catechins than Yabukita.",
+  "taste_tags": [
+    "vegetal",
+    "umami",
+    "grassy"
+  ],
+  "brewing": {
+    "grams": 5,
+    "water_ml": 150,
+    "temp_c": 70,
+    "steeps": 3,
+    "seconds": [
+      60,
+      15,
+      45
+    ],
+    "notes": "Ordinary sencha treatment in a kyusu. Hotter water brings out more bitterness, and this cultivar carries more caffeine than Yabukita."
+  },
+  "caffeine_level": "medium",
+  "vintage_note": "As with Japanese sencha in general, it is sold by the current year's spring harvest and is best drunk within about a year. Single-cultivar lots are uncommon; look for the cultivar named on the label.",
+  "description": "Meiryoku is a Japanese green tea cultivar, a cross of Yabukita and Yamatomidori, grown mainly for sencha. It is a farmer's cultivar first: vigorous, spreading and easy to establish, with high yields and strong resistance to gray blight.\n\nProcessing is the normal sencha route of steaming, rolling and drying, so the character comes from the plant. Compared with Yabukita it has more caffeine and amino acids and fewer catechins.\n\nThe cup is described as refreshing and of good quality. Little is documented about how it changes across steeps, so treat it like any sencha: cool water and a first steep of about a minute, then a quick second one.\n\nYou are unlikely to meet it often under its own name. If you do, compare it side by side with a Yabukita sencha, which is the benchmark it was bred against.",
+  "history": "Testing of the selected Yabukita × Yamatomidori seedling began in 1980, and the cultivar was registered in 1986 as Japanese tea cultivar number 35. Field reports from Fukuoka and Kagawa describe its early budding, its spreading habit and how easily cuttings root, along with a weakness to frost that splits the bark. Where exactly it was bred is not clear from what has been published in English.",
+  "liquor_hex": "#CFCF7E",
+  "leaf_hex": "#4E6B32",
+  "sources": [
+    "https://myjapanesegreentea.com/meiryoku",
+    "https://www.farc.pref.fukuoka.jp/farc/seika/seikah2-6/4-17.pdf",
+    "https://www.pref.kagawa.lg.jp/documents/21210/61-6.pdf"
+  ],
+  "confidence": "medium",
+  "wikipedia_title": null,
+  "wikipedia_scope": "none",
+  "popularity": 2,
+  "images": []
+}

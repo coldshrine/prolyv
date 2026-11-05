@@ -1,0 +1,91 @@
+{
+  "slug": "wuyi-yancha",
+  "name_en": "Wuyi Yancha",
+  "name_native": "武夷岩茶",
+  "name_romanized": "Wǔyí Yánchá",
+  "name_zh": "武夷岩茶",
+  "name_ru": "Уи Янь Ча",
+  "aliases": [
+    "Wuyi Rock Tea",
+    "Wuyi tea",
+    "Wu Yi Yan Cha",
+    "Wuyi Oolong",
+    "Bohea",
+    "Bohea tea",
+    "Уи Яньча",
+    "岩茶"
+  ],
+  "category": "oolong",
+  "origin_country": "China",
+  "origin_region": "Fujian · Wuyi Mountains",
+  "cultivar": "Many: Rou Gui, Shui Xian, Da Hong Pao and other named bushes",
+  "processing": "Mature, opened leaves are withered, partly oxidised, fired, rolled and then roasted, traditionally with a firm hand; the roast is a large part of the style.",
+  "form": "loose",
+  "harvest_season": "Mainly spring, starting around the start-of-summer solar term in early May; spring makes up most of the crop and is the better picking.",
+  "appearance_dry": "Long, twisted, dark brown strips with a slight sheen.",
+  "appearance_liquor": "Clear amber to orange-brown, deeper with a heavier roast.",
+  "appearance_wet": "Large open leaves, dull green-brown, often with reddened edges.",
+  "taste_profile": "Roast and dark minerality over woody, fruity sweetness, with a lingering sweet finish that drinkers call yan yun, or 'rock rhyme'. Detail changes a lot with the bush and the roast.",
+  "taste_tags": [
+    "roasted",
+    "mineral",
+    "woody",
+    "floral",
+    "sweet"
+  ],
+  "brewing": {
+    "grams": 7,
+    "water_ml": 110,
+    "temp_c": 98,
+    "steeps": 7,
+    "seconds": [
+      10,
+      10,
+      15,
+      20,
+      30,
+      45,
+      60
+    ],
+    "notes": "Use a small gaiwan or clay pot and water just off the boil. Pour off quickly: long early steeps turn the roast bitter."
+  },
+  "caffeine_level": "medium",
+  "vintage_note": "Sold by year and by spring harvest, and it usually reaches the market some months after picking because the roasting takes time; many drinkers let a fresh roast rest before opening it. Sellers also state the growing area, with zheng yan (core rock area) priced above ban yan and zhou cha. Older, well-kept lots are sold with their age stated.",
+  "description": "Wuyi Yancha is not one tea but a family: the oolongs of the Wuyi Mountains in northern Fujian, grown among cliffs and rock crevices. The name means rock tea, and within it sit Da Hong Pao, Rou Gui, Shui Xian and dozens of named bushes.\n\nPickers wait for fully opened leaves rather than young buds, and the tea is oxidised and roasted more firmly than most modern oolongs. That is where the dark colour and toasty depth come from, and why the same bush can taste quite different in another maker's hands.\n\nExpect roast first, then a mineral, woody body with fruit or florals underneath, and a sweetness that returns after you swallow. It holds up over several steeps if you keep them short and the water very hot. Most disappointing cups come from timid water or from leaving the leaf in too long.\n\nThe location matters to the price. Zheng yan means the rock core of the area, ban yan its edges, and zhou cha is grown on flatter land and along streams. The name has been stretched: tea from elsewhere has been sold as Wuyi, which led to a protected-origin mark limited to approved producers in Wuyishan.\n\nA good way in is to pour a Rou Gui and a Shui Xian side by side: spice against soft, woody weight, from the same mountains.",
+  "history": "The Wuyi area became Fujian's tea centre after the Hongwu Emperor ended imperial production of pressed cakes in 1391 and the Northern Park estate at Jian'ou collapsed. In the 16th century farmers terraced the slopes, often on monastery land, and Wuyi makers invited monks from Songluo in Anhui to teach pan-firing. Letting the leaf partly oxidise before firing is thought to have led them to oolong. Chinese accounts also credit the Tang writer Sun Qiao with the early nickname 'Wan Gan Hou', and record a Yuan imperial tea garden here.\n\nEuropean traders knew these dark teas as Bohea, from the Hokkien pronunciation of Wuyi, and the word became a general English name for oxidised tea before sliding down to mean the cheapest black grade.\n\nChina granted the tea protected-origin status in 2002 and revised the national standard in 2006, tightening the rules on growing areas, cultivars and Da Hong Pao grades.",
+  "liquor_hex": "#B5682C",
+  "leaf_hex": "#3D2C20",
+  "wikipedia_title": "Wuyi tea",
+  "wikipedia_scope": "exact",
+  "popularity": 4,
+  "sources": [
+    "https://en.wikipedia.org/wiki/Wuyi_tea",
+    "https://zh.wikipedia.org/wiki/%E6%AD%A6%E5%A4%B7%E5%B2%A9%E8%8C%B6",
+    "https://ja.wikipedia.org/wiki/%E6%AD%A6%E5%A4%B7%E5%B2%A9%E8%8C%B6",
+    "https://ko.wikipedia.org/wiki/%EB%AC%B4%EC%9D%B4%EC%95%94%EC%B0%A8",
+    "https://www.wikidata.org/wiki/Q4938043"
+  ],
+  "confidence": "high",
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/49/Wuyi_oolong_tea.jpg/1280px-Wuyi_oolong_tea.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/49/Wuyi_oolong_tea.jpg/330px-Wuyi_oolong_tea.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Wuyi_oolong_tea.jpg",
+      "author": "Nadav Spiegelman",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "kind": "dry_leaf",
+      "alt": "Dark twisted dry Wuyi oolong leaves in a ceramic tea scoop on a wooden surface"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f5/China_Wuyishan_Tea_Plantation.jpg/1280px-China_Wuyishan_Tea_Plantation.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f5/China_Wuyishan_Tea_Plantation.jpg/330px-China_Wuyishan_Tea_Plantation.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source_page": "https://commons.wikimedia.org/wiki/File:China_Wuyishan_Tea_Plantation.jpg",
+      "author": "Lennartbj",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "kind": "plantation",
+      "alt": "Rows of tea bushes on a valley floor between rock cliffs in the Wuyi Mountains"
+    }
+  ]
+}

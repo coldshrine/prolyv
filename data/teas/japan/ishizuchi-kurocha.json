@@ -3,25 +3,58 @@
   "name_en": "Ishizuchi Kurocha",
   "name_native": "石鎚黒茶",
   "name_romanized": "Ishizuchi kurocha",
-  "aliases": ["Ishizuchi black tea", "Ehime kurocha", "Saijo kurocha", "Ishizuchi fermented tea", "Ishizuchi-kurocha"],
+  "aliases": [
+    "Ishizuchi black tea",
+    "Ehime kurocha",
+    "Saijo kurocha",
+    "Ishizuchi fermented tea",
+    "Ishizuchi-kurocha"
+  ],
   "category": "heicha",
   "origin_country": "Japan",
-  "origin_region": "Ehime · Saijō (foothills of Mount Ishizuchi)",
+  "origin_region": "Ehime · Saijo",
   "cultivar": "Seed-grown zairai bushes",
-  "processing": "Summer leaves are steamed, left to grow a surface mould in a warm room for a week or two, then kneaded and packed into containers for an anaerobic lactic fermentation of a week or more; the leaves are finally dried, traditionally in the sun.",
+  "processing": "Summer leaves, soft and hard together, are steamed for 20 to 30 minutes, cooled, kept loosely in tubs for about a week until mould grows, lightly kneaded, then returned to tubs under weights for an anaerobic fermentation of one to four weeks; the leaves are finally sun-dried for a day or two.",
   "form": "loose",
   "harvest_season": "A single summer picking in July; made in small batches that are finished by autumn.",
   "appearance_dry": "Dark olive to brown, loosely matted leaf fragments, slightly fuzzy and uneven, drier and more broken than awabancha.",
-  "appearance_liquor": "Pale amber, clear.",
+  "appearance_liquor": "Golden to pale amber, clear.",
   "appearance_wet": "Soft, dark brown leaves with a faint sour-pickle smell.",
   "taste_profile": "A clean lactic sourness over a quiet, slightly earthy sweetness, softer and lighter than goishicha; refreshing when chilled.",
-  "taste_tags": ["tart", "earthy", "sweet", "herbal"],
-  "brewing": {"grams": 5, "water_ml": 400, "temp_c": 100, "steeps": 2, "seconds": [180, 240], "notes": "Boiling water and long steeps, or simmer a few minutes and keep the liquor in a jug; it is also drunk cold-brewed in summer. A little goes a long way."},
+  "taste_tags": [
+    "tart",
+    "earthy",
+    "sweet",
+    "herbal"
+  ],
+  "brewing": {
+    "grams": 5,
+    "water_ml": 400,
+    "temp_c": 100,
+    "steeps": 2,
+    "seconds": [
+      180,
+      240
+    ],
+    "notes": "Boiling water and long steeps, or simmer a few minutes and keep the liquor in a jug; it is also drunk cold-brewed in summer. A little goes a long way."
+  },
   "caffeine_level": "low",
   "vintage_note": "An almost extinct tea revived by local groups, made once a year in very small quantities and sold from early autumn in small packets with the year by the makers, a few Ehime shops and specialist dealers; it is often sold out by spring. It keeps for a year or two without harm, and there is no ageing market.",
-  "description": "Ishizuchi kurocha is a fermented tea from the foothills of Mount Ishizuchi near Saijō in Ehime, made by the same two-stage method as goishicha, mould first and bacteria second, but sold as loose leaf rather than pressed tiles. It very nearly died out, with production down to a single household, before local groups took it up again, and it is now made in small batches each summer.\n\nLeaves picked in July are steamed and left in a warm room for a week or two until a mould grows over them; they are then kneaded, packed tightly into containers and left to ferment without air for a further week or more, during which lactic-acid bacteria give the tea its sourness. The leaves are finally dried, traditionally in the sun. Mature leaf, steaming and a long fermentation leave very little caffeine and no astringency.\n\nBrew it hot and long: 5 g in 400 ml of boiling water for three minutes, then a longer second steep, or simmer it for a few minutes and keep the liquor in a jug. The cup is pale amber with a clean lactic sourness over a quiet, slightly earthy sweetness, softer and lighter than goishicha; cold, it is refreshing in the way a sour drink is on a hot day. Brewed like sencha with cool water it tastes of almost nothing.\n\nIt is sold from early autumn in small packets with the year by the makers, a few shops in Ehime and specialist dealers, often in teabags as well as loose, and it is usually gone by spring. There are no grades; the maker and the year are what you get. A year or two in a dry cupboard does it no harm.\n\nIf you want to taste the whole family, line it up against awabancha (lactic only), goishicha (mould then lactic, pressed) and batabatacha (mould only, whisked with salt).",
+  "description": "Ishizuchi kurocha is a fermented tea from the foothills of Mount Ishizuchi near Saijō in Ehime, made by the same two-stage method as goishicha, mould first and bacteria second, but sold as loose leaf rather than pressed tiles. It very nearly died out before local people took it up again, and it is now made in small batches each summer.\n\nLeaves picked in summer are steamed and left in tubs for about a week until a mould grows over them; they are then kneaded, packed tightly into containers and left to ferment without air for a further one to four weeks, during which lactic-acid bacteria give the tea its sourness. The leaves are finally dried, traditionally in the sun. Mature leaf, steaming and a long fermentation leave very little caffeine and no astringency.\n\nBrew it hot and long: 5 g in 400 ml of boiling water for three minutes, then a longer second steep, or simmer it for a few minutes and keep the liquor in a jug. The cup is pale amber with a clean lactic sourness over a quiet, slightly earthy sweetness, softer and lighter than goishicha; cold, it is refreshing in the way a sour drink is on a hot day. Brewed like sencha with cool water it tastes of almost nothing.\n\nIt is sold from early autumn in small packets with the year by the makers, a few shops in Ehime and specialist dealers, often in teabags as well as loose, and it is usually gone by spring. There are no grades; the maker and the year are what you get. A year or two in a dry cupboard does it no harm.\n\nIf you want to taste the whole family, line it up against awabancha (lactic only), goishicha (mould then lactic, pressed) and batabatacha (mould only, whisked with salt).",
   "wikipedia_title": "Japanese tea",
   "wikipedia_scope": "umbrella",
   "popularity": 1,
-  "sources_note": "No dedicated English Wikipedia article is known; umbrella used. The 'single household' low point is as commonly reported by Japanese sources on the revival."
+  "sources_note": "No dedicated English Wikipedia article is known; umbrella used. The 'single household' low point is as commonly reported by Japanese sources on the revival.",
+  "name_zh": "石锤黑茶",
+  "name_ru": "Исидзути Куротя",
+  "history": "Ishizuchi kurocha comes from Ishizuchi Nakamura in the Komatsu district of Saijo, Ehime, in the deep country northwest of the highest peak in western Japan. It has been made there for a long time, though no firm starting date is documented. It is one of the pickle teas, weighted in tubs like goishicha and awabancha, and it was traditionally boiled in a tea bag in a kettle and ladled out into cups.\n\nThe method differs from goishicha by one step, a light rolling after the mould stage. Research published in 2020 pointed to Aspergillus, especially Aspergillus niger, in the first stage and Lactobacillus plantarum in the second, all from the local surroundings with no starter added.\n\nIt was selected for documentation in 2018 with its Shikoku relatives. Saijo city then carried out a study, published at the end of fiscal 2021, and in March 2023 the making of the tea was designated an Important Intangible Folk Cultural Property of Japan.",
+  "liquor_hex": "#D2A94A",
+  "leaf_hex": "#5E4A2C",
+  "sources": [
+    "https://ja.wikipedia.org/wiki/%E7%9F%B3%E9%8E%9A%E9%BB%92%E8%8C%B6",
+    "https://en.wikipedia.org/wiki/Fermented_tea",
+    "https://yunomi.life/ja/collections/satsukikai"
+  ],
+  "confidence": "medium",
+  "images": []
 }

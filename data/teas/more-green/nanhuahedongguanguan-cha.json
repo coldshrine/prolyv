@@ -1,0 +1,54 @@
+{
+  "slug": "nanhuahedongguanguan-cha",
+  "name_en": "Nanhua Hedong Pot Tea",
+  "name_native": "南华河硐罐罐茶",
+  "name_romanized": "Nánhuá Hédòng Guànguàn Chá",
+  "aliases": [
+    "Nanhuahedongguanguan Cha",
+    "Nanhuahedongguanguancha"
+  ],
+  "category": "green",
+  "origin_country": "China",
+  "origin_region": "Yunnan · Nanhua, Chuxiong",
+  "cultivar": null,
+  "form": "loose",
+  "caffeine_level": "medium",
+  "brewing": {
+    "grams": 3,
+    "water_ml": 150,
+    "temp_c": 80,
+    "steeps": 3,
+    "seconds": [
+      60,
+      75,
+      105
+    ],
+    "notes": "A safe starting point for green tea: cooler water, short steeps, then adjust by taste."
+  },
+  "taste_tags": [
+    "vegetal",
+    "sweet"
+  ],
+  "description": "A pot tea associated with Hedong in Nanhua County, Chuxiong, Yunnan.\n\nThis is a way of preparing tea more than a tea you buy under one name, so the recipe and the base tea change from one maker to the next.",
+  "wikipedia_title": null,
+  "wikipedia_scope": "none",
+  "popularity": 1,
+  "name_zh": "南华河硐罐罐茶",
+  "name_ru": "Нань Хуа Хэ Дун Гуань Гуань Ча",
+  "history": null,
+  "liquor_hex": "#C9B45A",
+  "leaf_hex": "#6E7238",
+  "sources": [
+    "https://milulu.com.cn/techan/33155.html"
+  ],
+  "confidence": "low",
+  "images": [],
+  "stub": true,
+  "processing": "Made from a green base tea according to the recipe; the method varies.",
+  "harvest_season": "Not tied to a harvest: it depends on the base tea.",
+  "appearance_dry": "Green leaf whose shape depends on the maker, as is usual for regional green teas.",
+  "appearance_liquor": "Usually a clear, pale yellow-green.",
+  "appearance_wet": "Usually soft green leaf that opens up in the water.",
+  "taste_profile": "Expect what green teas usually give: fresh, vegetal and lightly sweet.",
+  "vintage_note": "Not sold by vintage: it is made from whatever base tea the maker keeps, so freshness of the base matters more than the year."
+}

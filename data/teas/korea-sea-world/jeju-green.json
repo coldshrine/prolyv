@@ -3,10 +3,16 @@
   "name_en": "Jeju Green Tea",
   "name_native": "제주 녹차",
   "name_romanized": "Jeju nokcha",
-  "aliases": ["Jeju nokcha", "Jeju Island green tea", "O'Sulloc green tea", "Osulloc sejak", "Seogwang tea garden tea"],
+  "aliases": [
+    "Jeju nokcha",
+    "Jeju Island green tea",
+    "O'Sulloc green tea",
+    "Osulloc sejak",
+    "Seogwang tea garden tea"
+  ],
   "category": "green",
   "origin_country": "South Korea",
-  "origin_region": "Jeju Province · Seogwipo (Seogwang and other plantations on the volcanic slopes of Hallasan)",
+  "origin_region": "Jeju Province · Seogwipo",
   "cultivar": "Clonal cultivars, mainly Japanese-origin varieties such as Yabukita, planted in rows on volcanic soil",
   "processing": "Machine-harvested leaf, mostly steamed to fix it, then rolled and dried; some lots are pan-fired, and the large producers also make shaded leaf for malcha.",
   "form": "loose",
@@ -15,13 +21,40 @@
   "appearance_liquor": "Bright pale green, clear to faintly hazy.",
   "appearance_wet": "Even, small, vivid green leaves of a single cultivar.",
   "taste_profile": "Clean and bright: fresh greens and a light seaweed note, a gentle sweetness and a touch of mineral from the volcanic soil, with less toastiness than mainland Korean tea.",
-  "taste_tags": ["grassy", "marine", "sweet", "mineral"],
-  "brewing": {"grams": 3, "water_ml": 120, "temp_c": 70, "steeps": 3, "seconds": [60, 45, 75], "notes": "Brew like a light sencha: cooled water and short steeps. The ujeon grade wants cooler water still; the everyday blends cope with 80°C."},
+  "taste_tags": [
+    "grassy",
+    "marine",
+    "sweet",
+    "mineral"
+  ],
+  "brewing": {
+    "grams": 3,
+    "water_ml": 120,
+    "temp_c": 70,
+    "steeps": 3,
+    "seconds": [
+      60,
+      45,
+      75
+    ],
+    "notes": "Brew like a light sencha: cooled water and short steeps. The ujeon grade wants cooler water still; the everyday blends cope with 80°C."
+  },
   "caffeine_level": "medium",
   "vintage_note": "The graded spring teas are sold as the current year's harvest with the grade and year on the pack (ujeon appears in late April, sejak in May); the everyday blends and bagged teas are sold all year without a vintage. Buy the current spring for loose leaf and drink it within the year.",
-  "description": "Jeju is a volcanic island off Korea's south coast, mild and wet, with porous basalt soil and a long growing season, and it is now the country's second big tea region after Boseong. Most of the island's tea is grown on large, immaculate plantations on the southern slopes of Hallasan, the best known of them the Seogwang garden planted by the cosmetics group Amorepacific from the late 1970s, whose O'Sulloc brand and tea museum turned Jeju tea into a national name.\n\nThese are modern gardens: rows of clonal bushes, machine harvesting, and processing that leans on steaming rather than the hand-fired cauldron of Hadong. That makes Jeju green tea the greenest and brightest of the Korean styles, closer in feel to a mild sencha, and it is why the island's producers also do well with powdered malcha and with blends.\n\nThe cup is fresh and clean, cut grass and a little seaweed, with a soft sweetness and a faint mineral edge that people like to attribute to the volcanic soil. It is not a complicated tea, and it is not meant to be; it is a daily green, easy to brew with cooled water and very good cold. Boiling water and long steeps are the way to make it bitter.\n\nJeju tea is sold under the Korean grades for the spring picks, with the year printed on the pack, and as year-round blends, bags and bottles below that. The high-end lots from the island are genuinely good; the gift-shop end is mostly packaging. Look for the grade and the harvest year, and for sejak if you want the best value.\n\nA cup of Jeju sejak next to a Boseong sejak is a quiet lesson in terroir: similar cultivars and methods, and yet the island tea is a shade cleaner and more marine.",
+  "description": "Jeju is a volcanic island off Korea's south coast, mild and wet, with porous basalt soil and a long growing season, and it is now one of the country's big tea regions, alongside Boseong and Hadong. Most of the island's tea is grown on large, immaculate plantations on the southern slopes of Hallasan, the best known of them the Seogwang garden planted by the cosmetics group Amorepacific, whose O'Sulloc brand and tea museum turned Jeju tea into a national name.\n\nThese are modern gardens: rows of clonal bushes, machine harvesting, and processing that leans on steaming rather than the hand-fired cauldron of Hadong. That makes Jeju green tea the greenest and brightest of the Korean styles, closer in feel to a mild sencha, and it is why the island's producers also do well with powdered malcha and with blends.\n\nThe cup is fresh and clean, cut grass and a little seaweed, with a soft sweetness and a faint mineral edge that people like to attribute to the volcanic soil. It is not a complicated tea, and it is not meant to be; it is a daily green, easy to brew with cooled water and very good cold. Boiling water and long steeps are the way to make it bitter.\n\nJeju tea is sold under the Korean grades for the spring picks, with the year printed on the pack, and as year-round blends, bags and bottles below that. The high-end lots from the island are genuinely good; the gift-shop end is mostly packaging. Look for the grade and the harvest year, and for sejak if you want the best value.\n\nA cup of Jeju sejak next to a Boseong sejak is a quiet lesson in terroir: similar cultivars and methods, and yet the island tea is a shade cleaner and more marine.",
   "wikipedia_title": "O'Sulloc Tea",
   "wikipedia_scope": "umbrella",
   "popularity": 3,
-  "sources_note": "Amorepacific's Seogwang garden planting dates (late 1970s to early 1980s) are from memory. Jeju as the 'second' region after Boseong by output is approximate; some sources rank Hadong second."
+  "sources_note": "Amorepacific's Seogwang garden planting dates (late 1970s to early 1980s) are from memory. Jeju as the 'second' region after Boseong by output is approximate; some sources rank Hadong second.",
+  "name_zh": "济州绿茶",
+  "name_ru": "Зелёный чай с острова Чеджу",
+  "history": "Jeju's tea is a modern plantation story: rows of clonal bushes on the volcanic slopes of Hallasan, harvested by machine and largely steamed. Amorepacific's Seogwang garden and its O'Sulloc brand made the island's tea widely known in Korea.\n\nAccounts of the first planting vary between the late 1970s and early 1980s, so no exact date is given here.",
+  "liquor_hex": "#CFD488",
+  "leaf_hex": "#3F5A2E",
+  "sources": [
+    "https://en.wikipedia.org/wiki/O%27Sulloc_Tea",
+    "https://www.koreajoongangdaily.com/lifestyle/oncebarren-land-yields-a-leafy-brew/10990919"
+  ],
+  "confidence": "low",
+  "images": []
 }

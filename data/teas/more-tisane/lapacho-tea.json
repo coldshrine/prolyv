@@ -1,0 +1,61 @@
+{
+  "slug": "lapacho-tea",
+  "name_en": "Lapacho (Pau d'Arco, Taheebo)",
+  "name_native": "lapacho",
+  "name_romanized": null,
+  "aliases": [
+    "Lapacho",
+    "Pau d'arco",
+    "Taheebo",
+    "Tajibo",
+    "Лапачо",
+    "Тахибо",
+    "ラパチョ"
+  ],
+  "category": "tisane",
+  "origin_country": "Argentina",
+  "origin_region": "South America · Andes and lowland forest",
+  "cultivar": "Handroanthus impetiginosus",
+  "processing": "The thin inner bark of the tree is stripped and dried, then boiled rather than steeped.",
+  "form": "other",
+  "harvest_season": "Bark, not a seasonal leaf; no prized harvest time is documented.",
+  "appearance_dry": "Chips and shreds of reddish-brown inner bark.",
+  "appearance_liquor": "Light brown and clear.",
+  "appearance_wet": "Darkened, softened woody bark chips.",
+  "taste_profile": "A refreshing brown drink with a distinctive light bitterness and a woody edge.",
+  "taste_tags": [
+    "woody",
+    "bitter",
+    "earthy"
+  ],
+  "brewing": {
+    "grams": 5,
+    "water_ml": 500,
+    "temp_c": 100,
+    "steeps": 1,
+    "seconds": [
+      600
+    ],
+    "notes": "Simmer the bark, then let it stand. Good hot or cold. Avoid it in pregnancy or while breastfeeding."
+  },
+  "caffeine_level": "none",
+  "vintage_note": "Sold as loose dried bark, with no vintages or harvest years. It is bought by weight from herbal shops, and sellers rarely give a date, so simply buy from a shop that names the species.",
+  "description": "Lapacho, also called taheebo or pau d'arco, is a herbal drink made from the inner bark of a South American tree, Handroanthus impetiginosus. There is no tea plant here and no caffeine; it is the same tree that gives ipe timber.\n\nOnly the thin layer under the outer bark is used. Because it is bark, it needs boiling: simmer it, then let it stand, as you would a decoction.\n\nThe cup is light brown, slightly bitter and rather refreshing, and works cold as well as hot. A little goes a long way.\n\nBe careful with the marketing. It has long been sold as a cancer treatment, but the American Cancer Society finds no good evidence for that and warns of side effects. Large doses have been linked to nausea, vomiting, dizziness and bleeding tendencies, and its active compound lapachol caused reproductive harm in rats. Drink it as an occasional curiosity, not as medicine.",
+  "history": "Indigenous peoples of South and Central America have used the bark for fever, infections and stomach complaints. It is also said to have been an important medicine of the Incas and to have over 1,000 years of use among the Kallawaya, claims that are hard to date precisely.\n\nIn more recent times it has been exported as a herbal product, including to Japan, usually with health claims attached that have not stood up in humans.",
+  "liquor_hex": "#A9733F",
+  "leaf_hex": "#7A4A2C",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Lapacho",
+    "https://ru.wikipedia.org/wiki/%D0%9B%D0%B0%D0%BF%D0%B0%D1%87%D0%BE",
+    "https://ja.wikipedia.org/wiki/%E3%83%A9%E3%83%91%E3%83%81%E3%83%A7",
+    "https://es.wikipedia.org/wiki/Lapacho_medicinal",
+    "https://www.wikidata.org/wiki/Q1828662"
+  ],
+  "confidence": "high",
+  "wikipedia_title": "Lapacho",
+  "wikipedia_scope": "exact",
+  "popularity": 2,
+  "name_zh": "拉帕乔茶",
+  "name_ru": "Лапачо",
+  "images": []
+}

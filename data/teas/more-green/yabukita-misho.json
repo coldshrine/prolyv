@@ -1,0 +1,56 @@
+{
+  "slug": "yabukita-misho",
+  "name_en": "Yabukita Misho",
+  "name_native": "やぶきたみしょう",
+  "name_romanized": "Yabukita Mishō",
+  "name_zh": "薮北实生",
+  "name_ru": "Ябукита мисё",
+  "aliases": [
+    "薮北実生",
+    "実生やぶきた",
+    "Yabukita Missho",
+    "Seed-grown Yabukita"
+  ],
+  "category": "green",
+  "origin_country": "Japan",
+  "origin_region": "Saitama · Sayama",
+  "cultivar": "Yabukita seedlings",
+  "processing": "No single style. Misho only says the bushes grew from Yabukita seed; one Sayama garden, for one, makes a black tea from such leaf.",
+  "form": "loose",
+  "harvest_season": "Varies by maker, usually sold from a named spring picking; the known Sayama example is first flush.",
+  "appearance_dry": "Depends on how it is made: dark green needles if sencha-style, as is typical, and dark twisted leaf as black tea.",
+  "appearance_liquor": "Depends on how it is made: yellow-green as a steamed green, as is typical of Japanese greens.",
+  "appearance_wet": "Soft green leaf pieces when made as a steamed green; plants may vary within a field.",
+  "taste_profile": "No settled profile is on record. Seed-grown plants differ from one another, so expect it to vary by garden.",
+  "taste_tags": [
+    "vegetal",
+    "sweet"
+  ],
+  "brewing": {
+    "grams": 5,
+    "water_ml": 150,
+    "temp_c": 70,
+    "steeps": 3,
+    "seconds": [
+      60,
+      20,
+      40
+    ],
+    "notes": "Sencha settings for a green version. A black tea made from this leaf wants hotter water, around 90°C."
+  },
+  "caffeine_level": "medium",
+  "vintage_note": "Sold in tiny lots by individual gardens, labelled by harvest and year where stated. As with other Japanese greens, green versions are best fresh from the current year's harvest.",
+  "description": "Yabukita Misho means Yabukita grown from seed. Yabukita proper is a clone, propagated by cuttings; a misho bush is a seedling of it, and the name marks that difference.\n\nThis matters because seedlings do not copy their parent. As with any seed-grown tea, a field can be less uniform than clonal rows. Breeders have used natural Yabukita seedlings as a pool of new cultivars for that very reason, including Yamakai.\n\nLittle is documented on how the tea itself tastes. The clearest example on the market is a first-flush black tea from a Sayama grower, which shows the label is about the plant and not a style.\n\nSo read the label for the maker and the processing, not just the name, and do not assume it will taste like a standard Yabukita sencha.",
+  "history": "Little is documented about when growers began selling tea under this label. The term appears in Japanese cultivar lists as 薮北実生, and it describes a kind of plant, not a bred and named cultivar.",
+  "liquor_hex": "#CFCF80",
+  "leaf_hex": "#40562E",
+  "sources": [
+    "https://yunomi.life/pages/list-of-japanese-tea-cultivars",
+    "https://yunomi.life/en-au/products/yokota-tea-garden-sayama-black-tea-yabukita-missho-first-flush"
+  ],
+  "confidence": "low",
+  "wikipedia_title": null,
+  "wikipedia_scope": "none",
+  "popularity": 2,
+  "images": []
+}

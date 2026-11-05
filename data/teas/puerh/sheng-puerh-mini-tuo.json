@@ -3,24 +3,62 @@
   "name_en": "Sheng Pu-erh Mini Tuo",
   "name_native": "生普小沱茶",
   "name_romanized": "Shēngpǔ Xiǎo Tuóchá",
-  "aliases": ["Mini tuocha", "Xiao tuo", "Small tuo", "Mini bird's nest", "Pu-erh mini tuo", "小沱茶"],
+  "aliases": [
+    "Mini tuocha",
+    "Xiao tuo",
+    "Small tuo",
+    "Mini bird's nest",
+    "Pu-erh mini tuo",
+    "小沱茶"
+  ],
   "category": "sheng",
   "origin_country": "China",
   "origin_region": "Yunnan",
   "cultivar": "Yunnan large-leaf (Camellia sinensis var. assamica), mostly plantation leaf and sorted fragments",
-  "processing": "Raw pu-erh maocha, usually lower grades and broken leaf, is steamed and machine-pressed into 3–6 g nest-shaped tuo and wrapped individually in foil or paper; sheng versions are the minority next to shu mini tuo.",
+  "processing": "Raw pu-erh maocha, usually lower grades and broken leaf, is steamed and machine-pressed into 3–5 g nest-shaped tuo and wrapped individually in foil or paper; sheng versions are the minority next to shu mini tuo.",
   "form": "tuo",
   "harvest_season": "Pressed from any season's maocha, often summer and autumn leaf, and sold without much reference to harvest.",
   "appearance_dry": "A hard, smooth little nest with a dimple on the bottom, dark green with small bits of bud and visible fragments.",
   "appearance_liquor": "Yellow to orange-gold, often cloudy in the first steep from fine particles.",
   "appearance_wet": "Small broken leaves and fragments that take a while to loosen from the dense core.",
   "taste_profile": "Straightforward and strong: a sharp bitterness, grassy and woody notes, a quick thin sweetness and a short finish; built for a mug, not a tasting.",
-  "taste_tags": ["bitter", "grassy", "woody", "brisk"],
-  "brewing": {"grams": 5, "water_ml": 120, "temp_c": 100, "steeps": 8, "seconds": [40, 20, 15, 20, 30, 45, 60, 120], "notes": "Rinse twice with boiling water, the second rinse for 20–30 seconds, to break the compression. One tuo per 120–150 ml; the first proper steep needs 30–40 seconds and the pieces open fully by the third. Fine for grandpa-style in a big mug."},
+  "taste_tags": [
+    "bitter",
+    "grassy",
+    "woody",
+    "brisk"
+  ],
+  "brewing": {
+    "grams": 5,
+    "water_ml": 120,
+    "temp_c": 100,
+    "steeps": 8,
+    "seconds": [
+      40,
+      20,
+      15,
+      20,
+      30,
+      45,
+      60,
+      120
+    ],
+    "notes": "Rinse twice with boiling water, the second rinse for 20–30 seconds, to break the compression. One tuo per 120–150 ml; the first proper steep needs 30–40 seconds and the pieces open fully by the third. Fine for grandpa-style in a big mug."
+  },
   "caffeine_level": "high",
   "vintage_note": "Sold by weight or by count in bags, tins and gift boxes, generally with a production year on the packaging and rarely with a harvest season or origin; most are pressed from recent plantation leaf and sold within a year or two. They age slowly because of the hard compression and are not bought to cellar, though 5–10-year-old factory mini tuo from the Dali and Kunming plants do turn up and can be pleasant. Treat the year as a freshness date rather than a vintage, and treat anything described as gushu in this format with disbelief.",
-  "description": "Mini tuo are single-serving nests of pu-erh, roughly 3–6 g each, pressed by machine and wrapped one by one, and the sheng version is the raw-tea counterpart of the ripe mini tuo that fill supermarket gift boxes. They are the cheapest and most convenient form of pu-erh and, honestly, usually the roughest.\n\nThe material is typically lower-grade maocha and sorted fragments from plantation gardens, steamed and pressed hard into a dimpled nest so that a single piece makes a mug or a small pot. The compression is severe, so the tea opens slowly, releases a lot of fine particles and changes very little in storage.\n\nIn the cup, a sheng mini tuo is strong and direct: bitter, grassy, woody, with a thin quick sweetness and a short finish; the first steep is often cloudy. It improves a lot with a double rinse and a long first infusion, and it is better in a big mug with hot water topped up than in a careful gaiwan session. A few years of age round it off noticeably.\n\nThey are sold by count and weight, often with a production year and seldom with an origin, in tins and boxes aimed at gifts and offices. The thing to know is simply what they are: everyday tea at everyday prices, not a compact gushu. The better ones come from the established Dali and Kunming factories; the worst are dust pressed with scented flavourings, which you can smell through the wrapper.\n\nIf you like the single-serve idea but want to taste real material, dragon balls are the same convenience with far better leaf.",
+  "description": "Mini tuo are single-serving nests of pu-erh, roughly 3–5 g each, pressed by machine and wrapped one by one, and the sheng version is the raw-tea counterpart of the ripe mini tuo that fill supermarket gift boxes. They are the cheapest and most convenient form of pu-erh and, honestly, usually the roughest.\n\nThe material is typically lower-grade maocha and sorted fragments from plantation gardens, steamed and pressed hard into a dimpled nest so that a single piece makes a mug or a small pot. The compression is severe, so the tea opens slowly, releases a lot of fine particles and changes very little in storage.\n\nIn the cup, a sheng mini tuo is strong and direct: bitter, grassy, woody, with a thin quick sweetness and a short finish; the first steep is often cloudy. It improves a lot with a double rinse and a long first infusion, and it is better in a big mug with hot water topped up than in a careful gaiwan session. A few years of age round it off noticeably.\n\nThey are sold by count and weight, often with a production year and seldom with an origin, in tins and boxes aimed at gifts and offices. The thing to know is simply what they are: everyday tea at everyday prices, not a compact gushu. The better ones come from the established Dali and Kunming factories; the worst are dust pressed with scented flavourings, which you can smell through the wrapper.\n\nIf you like the single-serve idea but want to taste real material, dragon balls are the same convenience with far better leaf.",
   "wikipedia_title": "Compressed tea",
   "wikipedia_scope": "umbrella",
-  "popularity": 2
+  "popularity": 2,
+  "name_zh": "生普小沱茶",
+  "name_ru": "Шэн Пу Сяо То Ча",
+  "history": "The mini tuo is a format, not a tea from one place. It takes the dome-with-a-dimple shape of the standard 100 g tuocha and shrinks it to a nugget of 3 to 5 g, enough for one pot or cup. Chinese calls it xiao tuocha, simply small tuo.\n\nLittle is documented about who first pressed raw pu-erh this way or when. It is best understood as a convenience format of modern production, with no regional story of its own.",
+  "liquor_hex": "#C9962F",
+  "leaf_hex": "#3C3F27",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Compressed_tea"
+  ],
+  "confidence": "medium",
+  "images": []
 }

@@ -1,0 +1,65 @@
+{
+  "slug": "guangyun-gong-bing",
+  "name_en": "Guangyun Gong Bing",
+  "name_native": "广云贡饼",
+  "name_romanized": "Guǎngyún Gòngbǐng",
+  "name_zh": "广云贡饼",
+  "name_ru": "Гуан Юнь Гун Бин",
+  "aliases": [
+    "Guangyun Gongbing",
+    "Guangyun Gong Cake",
+    "广云贡茶",
+    "广云贡",
+    "廣雲貢餅",
+    "60广云贡",
+    "70广云贡"
+  ],
+  "category": "sheng",
+  "origin_country": "China",
+  "origin_region": "Guangdong · Yunnan leaf",
+  "cultivar": null,
+  "processing": "Yunnan leaf blended with leaf from Guangdong and Guangxi, the better grades pressed into cakes and the lower grades sold loose. Ripe cakes using Guangdong's artificial pile fermentation were also made.",
+  "form": "cake",
+  "harvest_season": "Not recorded by season. It was a planned-economy export blend, and its seasons were never part of how it was described.",
+  "appearance_dry": "Round cakes aged to a dark brown, traditionally in an earth-yellow glossy wrapper.",
+  "appearance_liquor": "Deep reddish amber, typical of a pu-erh style cake with decades of age.",
+  "appearance_wet": "Dark, mixed leaf, as you would expect from a multi-province blend of this age.",
+  "taste_profile": "The 1960s cakes are described as mellow and full, and the 1970s cakes as cleaner but thinner, a difference put down to how much Yunnan large-leaf tea they contain.",
+  "taste_tags": [
+    "woody",
+    "earthy",
+    "sweet"
+  ],
+  "brewing": {
+    "grams": 6,
+    "water_ml": 100,
+    "temp_c": 98,
+    "steeps": 7,
+    "seconds": [
+      10,
+      10,
+      15,
+      20,
+      25,
+      35,
+      50
+    ],
+    "notes": "General advice for an old pressed blend, with a quick rinse and water just off the boil."
+  },
+  "caffeine_level": "medium",
+  "vintage_note": "Sold by production decade, mainly as 1960s and 1970s cakes, known as 60 Guangyun and 70 Guangyun. Production dwindled and stopped after the 1970s, so originals are collector stock. Check the wrapper and provenance closely.",
+  "description": "Guangyun Gong Bing is one of pu-erh's odd historical footnotes, a cake that exists because of who was allowed to export tea. The name combines Guangdong, which sold it, and Yunnan, which supplied the leaf that gave it its pu-erh identity.\n\nIt was a blend, with Yunnan leaf stretched by tea from Guangdong and Guangxi. The Yunnan share matters most: the more of it, the fuller the tea is said to be, and the Yunnan share fell over time.\n\nThe 1960s cakes have the better reputation for a rich, rounded cup, while the 1970s ones are cleaner and lighter inside. Brew either with very hot water and short steeps, as with most old pressed tea.\n\nThe wrapper is the identifier: a variation on the Eight Zhong mark with a green character for tea, and the name of the Guangdong export company. At this age and rarity, buy only from a seller who can show provenance.",
+  "history": "In the 1960s and 1970s, overseas Chinese in Southeast Asia wanted a lot of pu-erh, but only the Guangdong tea import and export company held export rights. With government coordination it took Yunnan leaf and blended it with leaf from Guangdong and Guangxi. Accounts differ on the details, with early batches reported as pure Yunnan leaf and later ones increasingly from Guangdong.\n\nIn 1973 the Yunnan tea company gained its own export rights and sharply cut the leaf it sent to Guangdong, so the cakes declined until they stopped. The episode had a lasting effect: in 1974 Yunnan sent staff from the Kunming and Xiaguan factories to Guangdong, and they brought accelerated fermentation methods back home.",
+  "liquor_hex": "#8A4A1E",
+  "leaf_hex": "#43301F",
+  "sources": [
+    "https://zh.wikipedia.org/wiki/%E5%B9%BF%E4%BA%91%E8%B4%A1%E9%A5%BC",
+    "https://www.wikidata.org/wiki/Q63386871",
+    "https://en.wikipedia.org/wiki/Pu%27er_tea"
+  ],
+  "confidence": "medium",
+  "wikipedia_title": "广云贡饼",
+  "wikipedia_scope": "exact",
+  "popularity": 2,
+  "images": []
+}

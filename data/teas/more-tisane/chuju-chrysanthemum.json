@@ -1,0 +1,61 @@
+{
+  "slug": "chuju-chrysanthemum",
+  "name_en": "Chuju Chrysanthemum",
+  "name_native": "滁菊",
+  "name_romanized": "Chújú",
+  "name_zh": "滁菊",
+  "name_ru": "Чу Цзюй",
+  "aliases": [
+    "Chuju",
+    "Чуджу",
+    "Чуцзюй",
+    "滁州贡菊",
+    "Chuzhou tribute chrysanthemum"
+  ],
+  "category": "tisane",
+  "origin_country": "China",
+  "origin_region": "Anhui · Chuzhou",
+  "cultivar": "Chrysanthemum morifolium",
+  "processing": "Flowers are gathered in batches and dried in shade or over gentle heat, or fumigated or steamed and then sun-dried, as allowed for medicinal chrysanthemum in the Chinese Pharmacopoeia.",
+  "form": "other",
+  "harvest_season": "Medicinal chrysanthemum is gathered in batches at full bloom, generally from September to November.",
+  "appearance_dry": "Small dried flower heads with pale petals around a golden centre.",
+  "appearance_liquor": "Clear pale yellow, as is typical of pale chrysanthemum infusions.",
+  "appearance_wet": "Soft pale petals around a yellow disc, opening out in hot water.",
+  "taste_profile": "A floral chrysanthemum fragrance with slight bitterness at first; little more specific tasting detail is documented.",
+  "taste_tags": [
+    "floral",
+    "bitter",
+    "herbal"
+  ],
+  "brewing": {
+    "grams": 3,
+    "water_ml": 300,
+    "temp_c": 92,
+    "steeps": 3,
+    "seconds": [
+      180,
+      240,
+      300
+    ],
+    "notes": "Water at about 90 to 95 °C suits chrysanthemum generally. Add more hot water as the pot empties; rock sugar is the traditional softener."
+  },
+  "caffeine_level": "none",
+  "vintage_note": "Sold after the autumn harvest, as dried flowers without a vintage. As with other chrysanthemum, buy the latest harvest and store it sealed. The Chuzhou place name and geographical-indication labelling are the things to check, since the name can be attached to flowers from elsewhere.",
+  "description": "Chuju comes from Chuzhou in eastern Anhui, where it is a geographical-indication product and the city flower. Local promoters rank it first among China's medicinal chrysanthemums, a boast worth taking as a boast, but it is certainly one of the recognised named kinds.\n\nThe Chinese Pharmacopoeia sets out the drying routes for chrysanthemum, from shade or gentle heat to fumigation or steaming followed by the sun. Nanqiao District, with demonstration fields around Daliu and Shiji towns, is reported at about 8,000 mu.\n\nIt is used both as medicine and as a tea, and it starts slightly bitter in the cup. The local praise of golden heart, jade petals describes the look well: admire it in a glass. Do not over-steep it if you dislike bitterness.\n\nChuzhou now also turns it into wine, essential oil and pillows, so check you are buying plain dried flowers. Traditional heat-clearing claims come from Chinese medicine and should not be read as proven effects.",
+  "history": "Chuju is reported locally as a tribute item in the Qing dynasty, which is why it is also called Chuzhou tribute chrysanthemum. Chrysanthemum tea more broadly became popular during the Song dynasty.\n\nRecent development centres on Nanqiao District, where provincial planting standards are promoted and a farmer-cooperative model has spread the crop. Research on its compounds is under way with Nanjing Agricultural University and Anhui University of Chinese Medicine.",
+  "wikipedia_title": "Chrysanthemum tea",
+  "wikipedia_scope": "umbrella",
+  "popularity": 2,
+  "liquor_hex": "#EADF9E",
+  "leaf_hex": "#DDD3A8",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Chrysanthemum_tea",
+    "https://c.m.163.com/news/a/L09FE2QI05502PRR.html",
+    "https://news.qq.com/rain/a/20260624A0B4E100",
+    "https://shennongalpha.westlake.edu.cn/term/nmm-01rg",
+    "https://m.gmw.cn/2026-10/13/content_1304574996.htm"
+  ],
+  "confidence": "medium",
+  "images": []
+}

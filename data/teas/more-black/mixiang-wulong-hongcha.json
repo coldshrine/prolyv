@@ -1,0 +1,50 @@
+{
+  "slug": "mixiang-wulong-hongcha",
+  "name_en": "Oolong Black Tea (Mixiang Wulong Hongcha)",
+  "name_native": "蜜香乌龙红茶",
+  "name_romanized": "Mìxiāng Wūlóng Hóngchá",
+  "aliases": [],
+  "category": "black",
+  "origin_country": "China",
+  "origin_region": "Fujian",
+  "cultivar": null,
+  "form": "loose",
+  "caffeine_level": "high",
+  "brewing": {
+    "grams": 3,
+    "water_ml": 200,
+    "temp_c": 95,
+    "steeps": 2,
+    "seconds": [
+      180,
+      240
+    ],
+    "notes": "A safe starting point for black tea: Western style, water just off the boil."
+  },
+  "taste_tags": [
+    "honey",
+    "sweet"
+  ],
+  "description": "A honey-scented tea from Fujian whose name joins oolong and black tea, sweet with the returning sweetness of an oolong.\n\nTreat it as you would any black tea: water just off the boil, a few minutes in the pot, and a seller who can say where it was grown.",
+  "wikipedia_title": null,
+  "wikipedia_scope": "none",
+  "popularity": 1,
+  "name_zh": "蜜香乌龙红茶",
+  "name_ru": "Ми Сян У Лун Хун Ча",
+  "history": null,
+  "liquor_hex": "#B5662A",
+  "leaf_hex": "#3D2C1E",
+  "sources": [
+    "https://www.cnpp.cn/focus/3517774.html"
+  ],
+  "confidence": "low",
+  "images": [],
+  "stub": true,
+  "processing": "Typical of black tea: withered, rolled, fully oxidised and dried.",
+  "harvest_season": "Picked through the growing season, as with most black teas.",
+  "appearance_dry": "Usually dark twisted leaf, sometimes with golden tips.",
+  "appearance_liquor": "Usually a clear red-brown.",
+  "appearance_wet": "Usually coppery brown leaf.",
+  "taste_profile": "Honey aroma, sweet, with a lingering oolong-like sweetness.",
+  "vintage_note": "Black teas are normally sold by harvest year and are best within a couple of years."
+}

@@ -1,0 +1,62 @@
+{
+  "slug": "yunnan-zhuancha",
+  "name_en": "Yunnan Zhuancha",
+  "name_native": "云南砖茶",
+  "name_romanized": "Yúnnán Zhuānchá",
+  "name_zh": "云南砖茶",
+  "name_ru": "Юньнань Чжуань Ча",
+  "aliases": [
+    "Yunnan Brick Tea",
+    "Yunnan Pu-erh Brick",
+    "云南方茶",
+    "Yunnan Square Tea",
+    "Fangcha",
+    "雲南磚茶"
+  ],
+  "category": "sheng",
+  "origin_country": "China",
+  "origin_region": "Yunnan",
+  "cultivar": null,
+  "processing": "Older leaf and coarser grades are usually steamed and pressed into rectangular or square bricks. Both raw and ripe versions exist, depending on the factory recipe.",
+  "form": "brick",
+  "harvest_season": "No prized picking: bricks commonly use mature, later-season leaf rather than early buds.",
+  "appearance_dry": "A dense rectangular or square brick of dark, coarse leaf, with some stem usual.",
+  "appearance_liquor": "Amber to orange in raw bricks, and dark red-brown in ripe ones.",
+  "appearance_wet": "Broad, mature leaves and pieces of stem.",
+  "taste_profile": "Plain and sturdy rather than delicate; typical of coarse-leaf pressed tea, it leans woody and earthy, with more bite in raw bricks and more smoothness in ripe ones.",
+  "taste_tags": [
+    "woody",
+    "earthy",
+    "bitter"
+  ],
+  "brewing": {
+    "grams": 6,
+    "water_ml": 120,
+    "temp_c": 98,
+    "steeps": 6,
+    "seconds": [
+      10,
+      15,
+      20,
+      30,
+      45,
+      60
+    ],
+    "notes": "Bricks are pressed hard: use a tea pick along the grain and let the chunks rest before brewing. A rinse helps, and coarse-leaf bricks also take well to simmering."
+  },
+  "caffeine_level": "medium",
+  "vintage_note": "Sold by production year and by the factory or recipe name, such as 7581 from Kunming or Xiaguan square tea. Bricks are usually everyday tea, though older factory lots trade higher. As with other pressed pu-erh, raw bricks are often kept for years, and ripe ones are ready to drink.",
+  "description": "Yunnan zhuancha is the pressed brick of Yunnan pu-erh country, rectangular or square, and the square ones go by the name fangcha. It is a shape and a working-class tea tradition, not one recipe, and the group holds both raw and ripe teas.\n\nBricks generally use older leaf and coarse grades, pressed tight for transport and storage. This is the opposite of a bud-heavy cake: more body and stem, less perfume, and a tea that forgives rough handling.\n\nExpect a plain, woody cup. Raw bricks have more bite, while ripe bricks are smooth and earthy. The main mistake is brewing tiny hard lumps: pry the brick apart gently, let the pieces air, and give them a rinse to open up.\n\nWell-known names include the border-trade brick, 7581, Yunnan square brick, 9062, 92 square brick and Xiaguan square tea, along with modern named bricks. Check whether you are buying raw or ripe, since the word brick will not tell you. A high price needs a year and a factory behind it.\n\nIf you like the sturdy style, try a Xiaguan raw brick and a ripe 7581 side by side.",
+  "history": "Compressing tea made it easier to carry and store, and bricks were especially supplied to border and high-altitude herding regions, which is why they are also called border-sale tea. Trade accounts place the flowering of Yunnan pressed teas in the Ming and Qing, with tea traded for horses. One claim dates Yunnan bricks to the Song dynasty, but it rests on popular tea writing and should be taken lightly.\n\nThe bricks known today by number come from the state factory era, when recipe codes appeared on Yunnan teas.",
+  "liquor_hex": "#8C4A1C",
+  "leaf_hex": "#4A3722",
+  "sources": [
+    "https://milulu.com.cn/tea/4095.html",
+    "https://post.smzdm.com/p/alloe390/"
+  ],
+  "confidence": "low",
+  "wikipedia_title": "Pu'er tea",
+  "wikipedia_scope": "umbrella",
+  "popularity": 3,
+  "images": []
+}

@@ -1,0 +1,56 @@
+{
+  "slug": "black-bean-tea",
+  "name_en": "Black Bean Tea (Kuromame-cha)",
+  "name_native": "黒豆茶",
+  "name_romanized": "Kuromame-cha",
+  "name_zh": "黑豆茶",
+  "name_ru": "Чай из чёрных бобов (куромамэ-тя)",
+  "aliases": [
+    "Black bean tea",
+    "Black soybean tea",
+    "Kuromame-cha",
+    "Куромамэ-тя"
+  ],
+  "category": "tisane",
+  "origin_country": "Japan",
+  "origin_region": "Aichi · Nagoya",
+  "cultivar": "Black soybean",
+  "processing": "Black soybeans are used either whole or coarsely to finely crushed, typically after roasting, as is usual for Japanese bean and grain teas. Whole beans take longer to extract but give a clearer, cleaner cup.",
+  "form": "loose",
+  "harvest_season": "Not sold by season. Made from stored beans throughout the year.",
+  "appearance_dry": "Glossy to matt roasted black beans, whole or cracked, sometimes showing a pale interior.",
+  "appearance_liquor": "Clear reddish amber from whole beans; cloudier when the beans have been crushed.",
+  "appearance_wet": "Swollen, soft black beans that can be eaten.",
+  "taste_profile": "Defined by a toasty, savoury bean aroma; whole beans stay clean and fragrant, and crushed beans can turn harsh.",
+  "taste_tags": [
+    "roasted",
+    "nutty",
+    "sweet"
+  ],
+  "brewing": {
+    "grams": 10,
+    "water_ml": 300,
+    "temp_c": 100,
+    "steeps": 2,
+    "seconds": [
+      300,
+      480
+    ],
+    "notes": "A rough guide for whole beans, which need a long steep. Crushed beans brew faster but turn cloudy and harsh if left too long."
+  },
+  "caffeine_level": "none",
+  "vintage_note": "There are no vintages or seasonal lots. It is a packaged product with a best-before date, and as with other roasted bean teas it tastes best while the roast is fresh. Read the ingredient list, because some teas under this name are mostly barley or eucommia.",
+  "description": "Kuromame-cha is a caffeine-free Japanese drink made from black soybeans, with no tea plant in it. People buy it for one thing above all: a distinctive, toasty fragrance.\n\nThe most important choice is the bean's form. Whole beans take longer but stay clear in the cup, with a stronger aroma and no harshness. Crushed beans brew quickly but turn cloudy and can taste rough.\n\nGive whole beans a good long steep and don't rush them. It is a gentle drink, easy to have in the evening given its lack of caffeine.\n\nCheck the label before buying. Some products called black bean tea contain eucommia or barley, with black bean as just one ingredient, and kuromame mugicha is openly a barley and bean blend, in which the barley can dominate. Claims about anthocyanins and health are common marketing and not a reason to drink it.",
+  "history": "Japanese accounts credit this tea to Inagaki (稲垣洋), second-generation president of the Nagoya-based maker Yamatake, who is said to have developed it in 1998. The company obtained a patent in 2000.\n\nIt has since become a broader category, including blended products in which black bean is only a part. Whether people brewed roasted black beans at home earlier is not something this attribution settles.",
+  "wikipedia_title": null,
+  "wikipedia_scope": "none",
+  "popularity": 2,
+  "liquor_hex": "#9A5A2A",
+  "leaf_hex": "#1F1A1C",
+  "sources": [
+    "https://ja.wikipedia.org/wiki/%E9%BB%92%E8%B1%86%E8%8C%B6",
+    "https://www.wikidata.org/wiki/Q11678829"
+  ],
+  "confidence": "medium",
+  "images": []
+}

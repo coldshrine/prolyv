@@ -1,0 +1,113 @@
+{
+  "slug": "sheng-puerh",
+  "name_en": "Sheng Pu-erh",
+  "name_native": "生普洱茶",
+  "name_romanized": "Shēng Pǔ'ěr Chá",
+  "name_zh": "生普洱茶",
+  "name_ru": "Шэн Пуэр",
+  "aliases": [
+    "Raw Pu-erh",
+    "Raw pu'er",
+    "Sheng Pu'er",
+    "Sheng Puerh",
+    "Sheng cha",
+    "Green Pu'er",
+    "生普",
+    "生茶",
+    "普洱生茶",
+    "Шен пуэр"
+  ],
+  "category": "sheng",
+  "origin_country": "China",
+  "origin_region": "Yunnan · Xishuangbanna, Pu'er, Lincang",
+  "cultivar": "Yunnan large-leaf",
+  "processing": "Large-leaf fresh leaf is withered, pan-fixed, rolled and sun-dried into maocha, then sold loose or steamed and pressed, with no wet piling.",
+  "form": "cake",
+  "harvest_season": "Spring is the most valued picking and autumn is also respected; summer tea is less prized.",
+  "appearance_dry": "Long olive-green leaves with pale tips when young, turning brown and reddish over years of storage.",
+  "appearance_liquor": "Pale gold to orange when young, deepening to clear amber and red with age.",
+  "appearance_wet": "Thick, supple whole leaves, green when young and browner with age.",
+  "taste_profile": "Young tea is bitter-sweet, vegetal and bright with a long sweet return; well-stored older tea moves towards wood, dried fruit and a camphor edge.",
+  "taste_tags": [
+    "bitter",
+    "sweet",
+    "vegetal",
+    "woody",
+    "camphor"
+  ],
+  "brewing": {
+    "grams": 6,
+    "water_ml": 100,
+    "temp_c": 92,
+    "steeps": 8,
+    "seconds": [
+      8,
+      8,
+      10,
+      15,
+      20,
+      30,
+      40,
+      55
+    ],
+    "notes": "Rinse quickly. With young tea keep steeps very short or drop the temperature a little; with aged tea use boiling water and be less cautious."
+  },
+  "caffeine_level": "medium",
+  "vintage_note": "Sold by harvest year, with the region on the label. In practice it is drunk young or kept: harshness starts to fade after two or three years, and it is often held to reach its stride after 10 to 20 years of good storage. Over about 40 years it is mostly collectors' territory. Ask about the storage: dry and wet-stored cakes of one year taste very different.",
+  "description": "Sheng is pu-erh in its original form: sun-dried Yunnan large-leaf tea, sold loose or pressed, and left to change at its own pace. It skips the wet pile that makes ripe pu-erh, so it starts out far closer to a strong green tea.\n\nThe gentle sun-drying is what leaves room for that later change. Pressing slows things down, and very tight pressings are thought by many to reward decades of careful ageing, while loose leaf can move along noticeably in two or three years.\n\nA young one can be startling: bitter up front, then a sweetness that comes back and stays. Use a light hand and short steeps. With age the green edge fades, and the cup moves towards wood and fruit, so older tea can take much hotter, longer steeps.\n\nThe things to check are year, mountain, and storage. Wet storage speeds change but risks mould, and it has long been used to fake age, along with distressed wrappers. Famous village names cost a lot and are often borrowed by ordinary leaf.\n\nA good first step is a small cake from a recent year that you can drink now, with a second put away to try again in a few years.",
+  "history": "Raw pu-erh is the older of the two forms; until the 1970s all pu-erh was made this way or darkened by other means, and much of its change happened during long transport and storage. The name 'sheng' became necessary only when Kunming's 1973 ripening process created its opposite.\n\nHydraulic presses replaced hand levers along the way, and China's 2008 national standard fixed the definition around large-leaf tea from the Yunnan production area.",
+  "liquor_hex": "#D8B64E",
+  "leaf_hex": "#5F6237",
+  "wikipedia_title": "Pu'er tea",
+  "wikipedia_scope": "umbrella",
+  "popularity": 4,
+  "sources": [
+    "https://en.wikipedia.org/wiki/Pu%27er_tea",
+    "https://ru.wikipedia.org/wiki/%D0%9F%D1%83%D1%8D%D1%80",
+    "https://zh.wikipedia.org/wiki/%E6%99%AE%E6%B4%B1%E8%8C%B6",
+    "https://ratetea.com/styles.php"
+  ],
+  "confidence": "high",
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7c/Yunnan_Sourcing_%22Golden_Pig%22_Raw_Pu-erh_Tea_Cake_-_opened_-_WikiTea_01.jpg/1280px-Yunnan_Sourcing_%22Golden_Pig%22_Raw_Pu-erh_Tea_Cake_-_opened_-_WikiTea_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7c/Yunnan_Sourcing_%22Golden_Pig%22_Raw_Pu-erh_Tea_Cake_-_opened_-_WikiTea_01.jpg/330px-Yunnan_Sourcing_%22Golden_Pig%22_Raw_Pu-erh_Tea_Cake_-_opened_-_WikiTea_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Yunnan_Sourcing_%22Golden_Pig%22_Raw_Pu-erh_Tea_Cake_-_opened_-_WikiTea_01.jpg",
+      "author": "Ash Crow",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "kind": "cake",
+      "alt": "Raw pu-erh cake with olive and pale-tipped leaves, resting on its opened white paper wrapper"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/c/c6/Haiwan_bingcha.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c6/Haiwan_bingcha.jpg/330px-Haiwan_bingcha.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Haiwan_bingcha.jpg",
+      "author": "Jason Fasi.",
+      "license": "CC BY 2.5",
+      "license_url": "https://creativecommons.org/licenses/by/2.5",
+      "kind": "cake",
+      "alt": "Haiwan 2005 raw pu-erh bingcha, a round pressed cake with a small paper ticket, on a bamboo mat"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/9/9c/Xiaguan_1992_tuo_cha.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9c/Xiaguan_1992_tuo_cha.jpg/330px-Xiaguan_1992_tuo_cha.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Xiaguan_1992_tuo_cha.jpg",
+      "author": "Jason Fasi",
+      "license": "CC BY 2.5",
+      "license_url": "https://creativecommons.org/licenses/by/2.5",
+      "kind": "cake",
+      "alt": "Xiaguan 1992 raw pu-erh tuocha, a dome-shaped pressed tea on a bamboo mat"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/4/4c/Zhuan_cha.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4c/Zhuan_cha.jpg/330px-Zhuan_cha.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Zhuan_cha.jpg",
+      "author": "Jason Fasi",
+      "license": "CC BY 2.5",
+      "license_url": "https://creativecommons.org/licenses/by/2.5",
+      "kind": "cake",
+      "alt": "Dadugang 2006 raw pu-erh zhuancha, a pressed brick showing long dark and olive leaves"
+    }
+  ]
+}

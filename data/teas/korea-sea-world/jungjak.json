@@ -3,10 +3,16 @@
   "name_en": "Jungjak (Korean Green Tea, Third Pick)",
   "name_native": "중작",
   "name_romanized": "Jungjak",
-  "aliases": ["Joongjak", "Jungjak-cha", "Semul-cha", "中雀", "Korean mid-season green tea"],
+  "aliases": [
+    "Joongjak",
+    "Jungjak-cha",
+    "Semul-cha",
+    "中雀",
+    "Korean mid-season green tea"
+  ],
   "category": "green",
   "origin_country": "South Korea",
-  "origin_region": "Gyeongsangnam-do · Hadong and Jeollanam-do · Boseong (also Jeju)",
+  "origin_region": "Gyeongsangnam-do · Hadong",
   "cultivar": "Seed-grown native bushes (jaeraejong) in Hadong; Yabukita and other clonal cultivars on the plantations",
   "processing": "Two to three opened leaves with the bud, pan-fired and hand- or machine-rolled in repeated cycles, with a slightly stronger final firing than the earlier grades; plantation lots are often steamed.",
   "form": "loose",
@@ -15,12 +21,51 @@
   "appearance_liquor": "Light yellow-green with a touch more depth of colour than sejak, clear.",
   "appearance_wet": "Fully opened mid-sized leaves, dark green, some reddish stem ends.",
   "taste_profile": "Rounder and fuller than sejak: roasted barley, cooked greens and a pleasant grip, with a sweetness that shows most on the second steep.",
-  "taste_tags": ["nutty", "grassy", "vegetal", "sweet"],
-  "brewing": {"grams": 3, "water_ml": 100, "temp_c": 75, "steeps": 4, "seconds": [40, 30, 45, 60], "notes": "Forgiving: it handles slightly hotter water than sejak and also makes an excellent cold brew (5 g per litre, 6–8 hours in the fridge)."},
+  "taste_tags": [
+    "nutty",
+    "grassy",
+    "vegetal",
+    "sweet"
+  ],
+  "brewing": {
+    "grams": 3,
+    "water_ml": 100,
+    "temp_c": 75,
+    "steeps": 4,
+    "seconds": [
+      40,
+      30,
+      45,
+      60
+    ],
+    "notes": "Forgiving: it handles slightly hotter water than sejak and also makes an excellent cold brew (5 g per litre, 6–8 hours in the fridge)."
+  },
   "caffeine_level": "medium",
   "vintage_note": "Sold as the current year's harvest under the grade name jungjak, from late May onwards; it is the everyday grade, priced well below sejak and usually available all year from the larger producers. Still a fresh green tea: drink it within the year and keep it sealed.",
   "description": "Jungjak, 'middle sparrow', is the third picking of the Korean spring, taken in mid May once the bushes are in full growth. The leaves are bigger and the yield is higher, so this is the grade that fills most Korean households' tea caddies and most restaurant teapots. It is less talked about than ujeon and sejak, but it is where Korean green tea becomes a daily drink rather than a treat.\n\nThe pick is two or three opened leaves with the bud. Hadong makers fire it in the cauldron like the finer grades, usually with a firmer final firing because the bigger leaf can take it; the plantations of Boseong and Jeju process it by machine and often by steaming. Either way the leaf is stronger and more forgiving than the early picks, with more body and a touch of astringency.\n\nThe cup tastes of roasted barley and cooked greens with a sweet middle and a gentle grip at the end. It is the easiest Korean green tea to brew: slightly hotter water, a bit longer in the pot, and it is also the grade to use for cold brewing, where the sweetness comes through and the astringency disappears.\n\nOn the shelf it is sold under its grade name with the harvest year; it is the cheapest of the hand-picked grades and the one most often sold in larger 100 g packs. If a producer only offers one green tea without a grade name, it is very often jungjak-level leaf, which is no bad thing.\n\nTry it alongside a Chinese pan-fired green like Longjing or a Japanese sencha: it sits between them, with the toastiness of the first and the body of the second, and that is a fair summary of Korean green tea in general.",
   "wikipedia_title": "Korean tea",
   "wikipedia_scope": "umbrella",
-  "popularity": 2
+  "popularity": 2,
+  "name_zh": "中雀",
+  "name_ru": "Чунджак",
+  "history": "Jungjak is a grade, not a place or a named tea: the Korean spring picking after ujeon and sejak, taken in May (sources differ on early, mid or late) when the leaves have opened. It is the everyday level of Korean green tea, made wherever the graded system is used, from Hadong to Boseong and Jeju.\n\nLittle is documented about when the grade names settled into their present use.",
+  "liquor_hex": "#D3C878",
+  "leaf_hex": "#47512E",
+  "sources": [
+    "https://www.koreajoongangdaily.com/lifestyle/the-glories-of-green/10940996",
+    "https://cominstea.com/blogs/news/a-short-blog-introducing-korean-tea"
+  ],
+  "confidence": "low",
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/28/Jungjak_tea_leaves.jpg/1280px-Jungjak_tea_leaves.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/28/Jungjak_tea_leaves.jpg/330px-Jungjak_tea_leaves.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Jungjak_tea_leaves.jpg",
+      "author": "Difference engine",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "kind": "dry_leaf",
+      "alt": "Pile of long, twisted dark green Jungjak tea leaves on a white background"
+    }
+  ]
 }

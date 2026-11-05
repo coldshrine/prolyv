@@ -3,10 +3,16 @@
   "name_en": "Uganda Black Tea",
   "name_native": null,
   "name_romanized": null,
-  "aliases": ["Ugandan tea", "Uganda CTC", "Rwenzori tea", "Kabarole tea", "Fort Portal tea"],
+  "aliases": [
+    "Ugandan tea",
+    "Uganda CTC",
+    "Rwenzori tea",
+    "Kabarole tea",
+    "Fort Portal tea"
+  ],
   "category": "black",
   "origin_country": "Uganda",
-  "origin_region": "Western Uganda · Kabarole, Bushenyi, Kyenjojo, and Mityana in the centre (1,200–1,800 m)",
+  "origin_region": "Western Region · Kabarole",
   "cultivar": "Assam-type seedling bushes and Kenyan clones",
   "processing": "Almost entirely CTC: cut, torn and curled, fully oxidised and fired at estate and bought-leaf factories, sorted into BP1, PF1, PD and dust grades; small orthodox and speciality trials exist.",
   "form": "loose",
@@ -15,13 +21,38 @@
   "appearance_liquor": "Red-brown, a little less bright than Kenyan.",
   "appearance_wet": "Fine dark grains.",
   "taste_profile": "Plain, strong and brisk with a soft malty note and little aroma; a blender's tea that adds body and colour.",
-  "taste_tags": ["brisk", "malty", "woody"],
-  "brewing": {"grams": 3, "water_ml": 200, "temp_c": 100, "steeps": 1, "seconds": [180], "notes": "Boiling water, two to three minutes, milk; not for a second steep."},
+  "taste_tags": [
+    "brisk",
+    "malty",
+    "woody"
+  ],
+  "brewing": {
+    "grams": 3,
+    "water_ml": 200,
+    "temp_c": 100,
+    "steeps": 1,
+    "seconds": [
+      180
+    ],
+    "notes": "Boiling water, two to three minutes, milk; not for a second steep."
+  },
   "caffeine_level": "high",
   "vintage_note": "Sold weekly through the Mombasa auction by factory and grade, usually at the lower end of the price list, and almost never retailed under its own name; look for it inside East African blends and supermarket tea bags. No vintage: freshness is what counts.",
   "description": "Uganda is one of Africa's biggest tea producers, growing it on the western slopes towards the Rwenzori mountains and Lake Albert, around Fort Portal, Kabarole and Bushenyi, and in the central districts around Mityana, at 1,200 to 1,800 metres. It is a blender's tea almost without exception: CTC granules sold in bulk, strong and plain, with little of the brightness of its Kenyan and Rwandan neighbours.\n\nManufacture is standard CTC at estate and bought-leaf factories, fully oxidised and fired, sorted into the usual BP1, PF1, PD and dust grades. The crop comes in two rainy seasons, and a lot of the leaf is grown by smallholders. Quality has improved as factories have been rebuilt, and a few have started orthodox and speciality trials, but they are still small.\n\nThe cup is red-brown, strong and brisk with a soft malty note and little aroma; it adds body and colour to a blend rather than character. Boiling water, two to three minutes, milk; it is not a tea for a second steep.\n\nIt is sold weekly through the Mombasa auction by factory and grade, usually at the lower end of the price list, and almost never retailed under its own name; look for it inside East African blends and supermarket tea bags. No vintage: freshness is what counts.\n\nUseful to know mostly as the quiet filler in many cheap bags, and as a reminder that 'African tea' covers a very wide range.",
   "wikipedia_title": "Black tea",
   "wikipedia_scope": "umbrella",
   "popularity": 1,
-  "sources_note": "No Wikipedia article on Ugandan tea ('Tea production in Uganda' redirects to 'Agriculture in Uganda'); 'Black tea' used as umbrella. Growing-district list from memory."
+  "sources_note": "No Wikipedia article on Ugandan tea ('Tea production in Uganda' redirects to 'Agriculture in Uganda'); 'Black tea' used as umbrella. Growing-district list from memory.",
+  "name_zh": "乌干达红茶",
+  "name_ru": "Угандийский чёрный чай",
+  "history": "Tea was first grown in Uganda in the botanical gardens at Entebbe in the early twentieth century, and commercial growing began in the 1920s.\n\nPolitical upheaval in the 1970s nearly destroyed the industry, and by 1981 output was about 5 per cent of the 1974 figure. By 2018 Uganda was producing about 50 million kg, reported as the second largest crop in Africa after Kenya. Most of it still goes through the Mombasa auction.",
+  "liquor_hex": "#8E3D1B",
+  "leaf_hex": "#2A1F18",
+  "sources": [
+    "https://www.ahmadtea.com/focus-on-africa-tea-in-uganda/",
+    "https://nexusmedia.ug/?p=17145",
+    "https://ratetea.com/region/uganda/106/"
+  ],
+  "confidence": "medium",
+  "images": []
 }

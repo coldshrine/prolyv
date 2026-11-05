@@ -1,0 +1,75 @@
+{
+  "slug": "sikkim-tea",
+  "name_en": "Sikkim Tea",
+  "name_native": null,
+  "name_romanized": null,
+  "name_zh": "锡金茶",
+  "name_ru": "Сиккимский чай",
+  "aliases": [
+    "Temi tea",
+    "Sikkim (čaj)"
+  ],
+  "category": "black",
+  "origin_country": "India",
+  "origin_region": "Sikkim",
+  "cultivar": null,
+  "processing": "Generally treated as a black tea in the style of neighbouring Darjeeling, though processing details vary by garden and are little documented; the seasonal flushes shape the cup.",
+  "form": "loose",
+  "harvest_season": "Several flushes: first in spring, then a stronger second, a monsoon third and an autumn final flush. Spring lots are the lightest and most floral.",
+  "appearance_dry": "Twisted brown-green leaf is typical of a Himalayan orthodox tea, darker in later flushes.",
+  "appearance_liquor": "Golden in the first flush, deepening through the season.",
+  "appearance_wet": "Mixed green and copper leaf is typical of Himalayan spring black tea, more uniformly brown later on.",
+  "taste_profile": "First flush is lightly floral and slightly sweet; later pickings are toasty and strong, mellow and full in the monsoon, and rounded with a hint of warm spice in autumn.",
+  "taste_tags": [
+    "floral",
+    "sweet",
+    "roasted",
+    "spicy"
+  ],
+  "brewing": {
+    "grams": 3,
+    "water_ml": 250,
+    "temp_c": 90,
+    "steeps": 1,
+    "seconds": [
+      180
+    ],
+    "notes": "Brew it Western-style without milk. As with Darjeeling, use slightly cooler water for spring lots and closer to boiling for later flushes."
+  },
+  "caffeine_level": "medium",
+  "vintage_note": "Usually sold by flush and harvest year, like its Darjeeling neighbour, and mostly under the marketing name Temi tea. Spring lots are best within about a year; later flushes hold up a little longer. It is not an ageing tea.",
+  "description": "Sikkim tea comes from the small Himalayan state next door to Darjeeling, and it is much less widely known. Most of it reaches the market as Temi tea.\n\nAs in Darjeeling, the seasons shape the cup, and the first, second, monsoon and autumn flushes all taste different. Interest has grown recently with demand for organic products.\n\nA spring cup is golden, lightly floral and slightly sweet. Later ones get toastier and stronger, the monsoon flush is full and mellow, and the autumn flush is rounded with a little warm spice. Treat it as you would a Darjeeling and skip the milk.\n\nCheck the flush and year on the label. Unlike Darjeeling, it has no GI tag, so the name carries no legal origin guarantee and the seller's details matter more.\n\nTo see what terroir and season can do, try a spring Temi beside a spring Darjeeling.",
+  "history": "Little is documented here about how the state's tea industry developed. What is clear is that it has long been overshadowed by Darjeeling, has more recently gained attention through organic demand, and still lacks a GI tag.",
+  "liquor_hex": "#C9963F",
+  "leaf_hex": "#5A4A30",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Sikkim_tea",
+    "https://www.wikidata.org/wiki/Q12054238"
+  ],
+  "confidence": "low",
+  "wikipedia_title": "Sikkim tea",
+  "wikipedia_scope": "exact",
+  "popularity": 2,
+  "images": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/a/ad/The_Temi_Tea_Garden%2C_Sikkim.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ad/The_Temi_Tea_Garden%2C_Sikkim.jpg/330px-The_Temi_Tea_Garden%2C_Sikkim.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source_page": "https://commons.wikimedia.org/wiki/File:The_Temi_Tea_Garden,_Sikkim.jpg",
+      "author": "Madhumita Das",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "kind": "plantation",
+      "alt": "Temi Tea Garden in Sikkim with snow-capped Himalayan peaks behind"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/40/Sikkim_Tea_Garden_HDR.jpg/1280px-Sikkim_Tea_Garden_HDR.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/40/Sikkim_Tea_Garden_HDR.jpg/330px-Sikkim_Tea_Garden_HDR.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Sikkim_Tea_Garden_HDR.jpg",
+      "author": "Adi Power",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "kind": "plantation",
+      "alt": "Sikkim tea garden on a slope behind a bamboo fence, with a mountain in the distance"
+    }
+  ]
+}

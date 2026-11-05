@@ -1,0 +1,59 @@
+{
+  "slug": "formosa-oolong",
+  "name_en": "Formosa Oolong",
+  "name_native": "台湾乌龙",
+  "name_romanized": "Táiwān Wūlóng",
+  "name_zh": "台湾乌龙",
+  "name_ru": "Тайваньский улун (Формоза)",
+  "aliases": [
+    "Taiwan Wulong",
+    "Taiwanese Oolong",
+    "Тайваньский улун",
+    "Формоза",
+    "臺灣烏龍"
+  ],
+  "category": "oolong",
+  "origin_country": "Taiwan",
+  "origin_region": "Taiwan",
+  "cultivar": null,
+  "processing": "Varies, since this is a trade name rather than one recipe. The classic export type is heavily oxidised for an oolong, and the white-tip version is made from leaves bitten by leafhoppers.",
+  "form": "loose",
+  "harvest_season": "Depends on the tea; white-tip oolong is a summer picking, taken after leafhoppers have fed on the buds.",
+  "appearance_dry": "Varies; classic white-tip lots show twisted, multicoloured leaf with pale tips.",
+  "appearance_liquor": "Amber to reddish gold in the heavier oxidised styles.",
+  "appearance_wet": "Soft, mixed green and reddish-brown leaf in the heavier oxidised styles.",
+  "taste_profile": "In the classic heavier style, honeyed and ripe-fruited with a soft body and little astringency; lighter teas sold under the name can be more floral.",
+  "taste_tags": [
+    "honey",
+    "fruity",
+    "sweet"
+  ],
+  "brewing": {
+    "grams": 5,
+    "water_ml": 120,
+    "temp_c": 90,
+    "steeps": 5,
+    "seconds": [
+      30,
+      25,
+      30,
+      45,
+      60
+    ],
+    "notes": "Slightly cooler water suits the delicate tippy styles. A roasted or rolled tea sold under this name can take full boil."
+  },
+  "caffeine_level": "medium",
+  "vintage_note": "Normally sold as the current or recent harvest, and the label says little by itself: Formosa Oolong can mean a modest blended export grade or a good single-origin tea. Ask for the actual type, area and year. Teas sold by name, such as Dong Ding or Oriental Beauty, tell you far more.",
+  "description": "Formosa Oolong is the old export name for Taiwanese oolong, using the island's former Western name. It is a trade label rather than one defined tea, and it still appears on tins today.\n\nIn English-language tea history it became especially linked to white-tip oolong, the fruity tea now better known as Oriental Beauty, made from leaves bitten by insects. The bites push the plant to produce defensive compounds, and that gives the cup its sweet character.\n\nThe classic style tastes of honey and ripe fruit with a gentle body. Other Taiwanese types, including Dong Ding and Bao Zhong, are also oolong from Formosa, so a label alone cannot tell you which you are getting.\n\nWhen buying, look past the name for the type, the area and the harvest year. If a shop cannot say more than Formosa, it is probably an inexpensive blend, which can still be pleasant for everyday drinking.\n\nIf you like the honeyed style, try a named Oriental Beauty next to see what the label was originally pointing at.",
+  "history": "The name traces to 1867, when the merchant Dodd set up a tea company in Wanhua, Taipei, and sold Taiwanese oolong abroad as Formosa Oolong. He saw an opening as Britain moved to build a tea industry in India.\n\nBy the late 19th century oolong was nearly a synonym for Taiwanese tea in overseas markets. Rivals from Ceylon attacked it in the United States by publicising foot trampling in its production, and mechanisation, shown at the St. Louis Exhibition, was part of the reply.",
+  "liquor_hex": "#C4802E",
+  "leaf_hex": "#6B4F30",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Taiwanese_tea"
+  ],
+  "confidence": "medium",
+  "wikipedia_title": "Taiwanese tea",
+  "wikipedia_scope": "umbrella",
+  "popularity": 3,
+  "images": []
+}

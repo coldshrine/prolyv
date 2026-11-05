@@ -3,10 +3,21 @@
   "name_en": "Kagoshima Sencha (Chiran / Kirishima)",
   "name_native": "鹿児島茶",
   "name_romanized": "Kagoshima sencha",
-  "aliases": ["Kagoshima-cha", "Chiran-cha", "Chirancha", "Kirishima-cha", "Satsuma tea", "Ei tea"],
+  "aliases": [
+    "Kagoshima-cha",
+    "Chiran-cha",
+    "Chirancha",
+    "Kirishima-cha",
+    "Satsuma tea",
+    "Ei tea",
+    "Kagoshima green tea",
+    "鹿儿岛茶",
+    "知览茶",
+    "雾岛茶"
+  ],
   "category": "green",
   "origin_country": "Japan",
-  "origin_region": "Kagoshima · Minamikyūshū (Chiran, Ei, Kawanabe), Kirishima, Shibushi, Tanegashima",
+  "origin_region": "Kagoshima · Minamikyushu",
   "cultivar": "Yutaka Midori, Saemidori, Asatsuyu, Okumidori, Yabukita, Asanoka",
   "processing": "Mostly deep-steamed sencha from large, flat, machine-harvested fields, often blended from several cultivars for a round profile; mountain Kirishima lots are lighter-steamed, and the prefecture also produces a lot of tencha and organic tea.",
   "form": "loose",
@@ -15,13 +26,81 @@
   "appearance_liquor": "Vivid, deep, slightly cloudy green.",
   "appearance_wet": "Soft green leaf fragments, very bright in colour.",
   "taste_profile": "Rich, sweet and umami-heavy with a smooth, thick body and low astringency; the multi-cultivar blends are rounded and the Saemidori lots sweet and vivid.",
-  "taste_tags": ["umami", "sweet", "vegetal", "creamy"],
-  "brewing": {"grams": 5, "water_ml": 150, "temp_c": 75, "steeps": 3, "seconds": [40, 10, 40], "notes": "Treat as fukamushi: fine mesh, short steeps, cooler water for the sweet cultivar lots. The first steep is the thick one."},
+  "taste_tags": [
+    "umami",
+    "sweet",
+    "vegetal",
+    "creamy"
+  ],
+  "brewing": {
+    "grams": 5,
+    "water_ml": 150,
+    "temp_c": 75,
+    "steeps": 3,
+    "seconds": [
+      40,
+      10,
+      40
+    ],
+    "notes": "Treat as fukamushi: fine mesh, short steeps, cooler water for the sweet cultivar lots. The first steep is the thick one."
+  },
   "caffeine_level": "medium",
   "vintage_note": "Sold as the current year's harvest, with Kagoshima's shincha arriving in mid-April, the first on the mainland, followed by the year's ichibancha sencha; nibancha and later pickings go to blends, bottled tea and tencha. Chiran-cha and Kirishima-cha are the district labels, often with the cultivar stated, and all of it is meant to be drunk within the year.",
-  "description": "Kagoshima, at the southern tip of Kyushu, is the new power in Japanese tea: warm, volcanic, flat enough for machines, and now neck and neck with Shizuoka for the top of the production tables, having overtaken it in some recent years' statistics. Its sencha is mostly deep-steamed, sweet and vividly green, and it arrives first: the mainland's earliest shincha is picked here in mid-April.\n\nThe climate is the story. Early springs allow early-budding cultivars like Yutaka Midori, the prefecture's workhorse, and Saemidori and Asatsuyu, which give sweeter, lower-astringency leaf than Yabukita; many Kagoshima teas are blends of several cultivars built for a round, rich profile. The big fields of Minamikyūshū city, which unified its tea under the Chiran-cha name a few years ago, are the heart of production; Kirishima, in the mountains to the north-east, is cooler and has a cluster of organic farms making lighter-steamed teas; and the prefecture also leads the country in organic certification and has become a major source of tencha for matcha.\n\nBrew it like fukamushi: 5 g for 150 ml at 70–75 °C, a short first steep of about 40 seconds with a fine mesh, a near-instant second and a hotter third. The cup is thick and opaque green, umami-heavy and sweet, with a smooth body and little bitterness; Saemidori lots are especially vivid and melon-sweet, while Kirishima mountain lots are clearer and brisker.\n\nFor decades a lot of Kagoshima leaf went north to be sold in Shizuoka blends; today it is increasingly sold under its own district names, Chiran-cha and Kirishima-cha above all, often with the cultivar on the label, which makes it one of the easiest regions for exploring single cultivars. It is sold as the current year's harvest, shincha from mid-April and ichibancha after, with later pickings going to blends, bottled tea and tencha.\n\nA Saemidori Chiran shincha in April is the earliest taste of the new year's green tea you can get, and a good reason to pay attention to this region.",
+  "description": "Kagoshima, at the southern tip of Kyushu, is the new power in Japanese tea: warm, volcanic, flat enough for machines, and now neck and neck with Shizuoka for the top of the production tables, leading by value and second or close to it by volume. Its sencha is mostly deep-steamed, sweet and vividly green, and it arrives first: the mainland's earliest shincha is picked here in the first half of April.\n\nThe climate is the story. Early springs allow early-budding cultivars like Yutaka Midori, a workhorse here alongside Yabukita, and Saemidori and Asatsuyu, which give sweeter, lower-astringency leaf than Yabukita; many Kagoshima teas are blends of several cultivars built for a round, rich profile. The big fields around Minamikyūshū city, whose tea is sold under the Chiran-cha name, are the heart of production; Kirishima, in the mountains to the north-east, is cooler and known for lighter-steamed teas; and the prefecture is also a major source of organic tea and of tencha for matcha.\n\nBrew it like fukamushi: 5 g for 150 ml at 70–75 °C, a short first steep of about 40 seconds with a fine mesh, a near-instant second and a hotter third. The cup is thick and opaque green, umami-heavy and sweet, with a smooth body and little bitterness; Saemidori lots are especially vivid and melon-sweet, while Kirishima mountain lots are clearer and brisker.\n\nFor decades a lot of Kagoshima leaf went north to be sold in Shizuoka blends; today it is increasingly sold under its own district names, Chiran-cha and Kirishima-cha above all, often with the cultivar on the label, which makes it one of the easiest regions for exploring single cultivars. It is sold as the current year's harvest, shincha from the first half of April and ichibancha after, with later pickings going to blends, bottled tea and tencha.\n\nA Saemidori Chiran shincha in April is the earliest taste of the new year's green tea you can get, and a good reason to pay attention to this region.",
   "wikipedia_title": "Sencha",
   "wikipedia_scope": "umbrella",
   "popularity": 4,
-  "sources_note": "Production ranking versus Shizuoka varies by year and metric (volume vs value); the Chiran-cha brand unification across Minamikyushu city is dated 'a few years ago' rather than to a specific year."
+  "sources_note": "Production ranking versus Shizuoka varies by year and metric (volume vs value); the Chiran-cha brand unification across Minamikyushu city is dated 'a few years ago' rather than to a specific year.",
+  "name_zh": "鹿儿岛煎茶",
+  "name_ru": "Сенча из Кагосимы",
+  "history": "A legend says Heike fugitives brought tea to Ata Shirakawa in the early Kamakura period. The first record is later: in 1319 or 1320 a head priest from Uji grew tea at Hannya-ji temple in Yoshimatsu. In the Edo period the Satsuma domain encouraged planting, mostly in the north of the province, along paddy ridges and hedges. Its gazetteer singled out the tea of Akune, Yoshimatsu and Miyakonojō.\n\nWhen Japan opened to trade, new fields were cleared for export in the south of the Satsuma peninsula and around Soo. Poor tea became a problem, and a prefectural tea association was formed in 1887 to fix it. Growers also tried black tea from early Meiji until the 1950s, but it never took hold.\n\nThe modern industry dates from about the 1960s and 1970s, when production grew quickly on green tea. The name meant little in the market, so nearly all of it went into blends sold under other regions' labels, Shizuoka above all. Regional branding began around 1985, the Kagoshima-cha name came into use in the early 1990s, and Chiran and Kirishima became known names of their own.\n\nSince the 2000s demand for bottled tea has pushed mechanised, multi-harvest production further. By 2006 the prefecture had 8,460 hectares of tea and about a quarter of Japan's rough tea. It has ranked first by value and second to Shizuoka by volume, a ranking that shifts as the figures change.",
+  "liquor_hex": "#7FA02F",
+  "leaf_hex": "#3A6128",
+  "sources": [
+    "https://ja.wikipedia.org/wiki/%E9%B9%BF%E5%85%90%E5%B3%B6%E8%8C%B6",
+    "https://en.wikipedia.org/wiki/Kagoshima_green_tea"
+  ],
+  "confidence": "medium",
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a6/2017_Kagoshima_sencha.jpg/1280px-2017_Kagoshima_sencha.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a6/2017_Kagoshima_sencha.jpg/330px-2017_Kagoshima_sencha.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source_page": "https://commons.wikimedia.org/wiki/File:2017_Kagoshima_sencha.jpg",
+      "author": "Difference engine",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "kind": "dry_leaf",
+      "alt": "Pile of dark green deep-steamed Kagoshima sencha needles"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/31/2017_Kagoshima_sencha_-_second_infusion.jpg/1280px-2017_Kagoshima_sencha_-_second_infusion.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/31/2017_Kagoshima_sencha_-_second_infusion.jpg/330px-2017_Kagoshima_sencha_-_second_infusion.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source_page": "https://commons.wikimedia.org/wiki/File:2017_Kagoshima_sencha_-_second_infusion.jpg",
+      "author": "Difference engine",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "kind": "liquor",
+      "alt": "White cup of vivid green Kagoshima sencha liquor"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/59/Tea_Plantation_in_Chiran_01.jpg/1280px-Tea_Plantation_in_Chiran_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/59/Tea_Plantation_in_Chiran_01.jpg/330px-Tea_Plantation_in_Chiran_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Tea_Plantation_in_Chiran_01.jpg",
+      "author": "Naokijp",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "kind": "plantation",
+      "alt": "Rows of tea bushes at a plantation in Chiran, Kagoshima"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bb/Tea_Plantation_in_Nansatsu_Plateau.jpg/1280px-Tea_Plantation_in_Nansatsu_Plateau.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bb/Tea_Plantation_in_Nansatsu_Plateau.jpg/330px-Tea_Plantation_in_Nansatsu_Plateau.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Tea_Plantation_in_Nansatsu_Plateau.jpg",
+      "author": "Ray_go",
+      "license": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "kind": "plantation",
+      "alt": "Tea fields on the Nansatsu Plateau in Kagoshima"
+    }
+  ]
 }

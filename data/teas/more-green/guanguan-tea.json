@@ -1,0 +1,61 @@
+{
+  "slug": "guanguan-tea",
+  "name_en": "Guanguan Tea",
+  "name_native": "罐罐茶",
+  "name_romanized": "Guànguàn Chá",
+  "name_zh": "罐罐茶",
+  "name_ru": "Гуань Гуань Ча",
+  "aliases": [
+    "Guanguanercha",
+    "Ganguguanguancha",
+    "罐罐儿茶",
+    "甘谷罐罐茶"
+  ],
+  "category": "green",
+  "origin_country": "China",
+  "origin_region": "Gansu · Tianshui",
+  "cultivar": null,
+  "processing": "Not a processed tea but a way of drinking it: cheap tea is boiled repeatedly in a tiny pot over a small stove, often with roasted jujube, longan, wolfberry or rock sugar.",
+  "form": "other",
+  "harvest_season": "No picking of its own; it uses whatever inexpensive tea the household has, and is drunk all year, above all on cold mornings and at festivals.",
+  "appearance_dry": "Depends on the tea used: usually cheap rough leaf, and in Zhouqu county fu brick tea.",
+  "appearance_liquor": "Very dark, thick and strong, in tiny amounts per boil.",
+  "appearance_wet": "Stewed, dark, broken leaf left in the pot, with softened fruit if any was added.",
+  "taste_profile": "Very strong and bitter, with a long aftertaste; roasted jujube, longan and rock sugar pull it towards dark sweetness.",
+  "taste_tags": [
+    "bitter",
+    "roasted",
+    "dried-fruit",
+    "sweet"
+  ],
+  "brewing": {
+    "grams": 5,
+    "water_ml": 100,
+    "temp_c": 100,
+    "steeps": 5,
+    "seconds": [
+      120,
+      120,
+      120,
+      120,
+      120
+    ],
+    "notes": "Boil on a small stove rather than steep: fill the pot about halfway with tea, top up with water, boil until it foams, pour off, add water and repeat, adding roasted jujube or longan if you like. Times are a rough guide, and the old way takes an hour or more."
+  },
+  "caffeine_level": "high",
+  "vintage_note": "There is no harvest or vintage to buy, because this is a preparation. People use inexpensive everyday tea, and year of picking does not matter once it has been boiled this hard.",
+  "description": "Guanguan tea is not a type of leaf at all. It takes its name from the guanguan, a small cup-sized pot once made of clay and now often of iron, and it belongs to farmhouses across parts of Gansu and neighbouring Shaanxi, including Gangu, Wushan and Tianshui.\n\nThe method is simple and slow. Tea goes into the little pot with water and is boiled on a small stove, poured off a mouthful at a time, then topped up and boiled again until a cup is full. Roasted jujube, crushed longan, wolfberry or rock sugar are common additions.\n\nExpect something very bitter and strong, with a lingering aftertaste, softened only by whatever fruit went in. It is usually drunk scalding, with flatbread toasted beside the stove, and often as a farmer's breakfast. Older drinkers may take over an hour over a single cup.\n\nDo not look for a grade: this is a habit built around cheap tea. To try it, use any robust leaf and a small heatproof pot, and keep an eye on it, because such a small volume boils over quickly.",
+  "history": "Little is recorded about when the custom began. It is described as a long-standing farmhouse habit of northwest China, with the clay pot gradually replaced by iron and an open stove still central to the ritual.\n\nThe practice is regional and varies from place to place: Zhouqu in Gannan is reported to use fu brick tea in a small clay pot, while Gangu is known for its additions of jujube and longan.",
+  "liquor_hex": "#6E3F16",
+  "leaf_hex": "#4F4A2C",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Wushan_County%2C_Gansu",
+    "https://milulu.com.cn/techan/30519.html",
+    "https://milulu.com.cn/techan/31015.html"
+  ],
+  "confidence": "medium",
+  "wikipedia_title": "Wushan County, Gansu",
+  "wikipedia_scope": "umbrella",
+  "popularity": 2,
+  "images": []
+}

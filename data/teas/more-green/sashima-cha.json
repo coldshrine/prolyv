@@ -1,0 +1,55 @@
+{
+  "slug": "sashima-cha",
+  "name_en": "Sashima-cha",
+  "name_native": "さしま茶",
+  "name_romanized": "Sashima-cha",
+  "name_zh": "猿岛茶",
+  "name_ru": "Сасима-тя",
+  "aliases": [
+    "猿島茶",
+    "Sashima tea"
+  ],
+  "category": "green",
+  "origin_country": "Japan",
+  "origin_region": "Ibaraki · Sashima",
+  "cultivar": null,
+  "processing": "Mainly fukamushi: the first steaming is held longer than for ordinary sencha, then the leaf is rolled and dried. Growers typically handle everything from field to sale themselves, and a local group keeps hand-rolling alive.",
+  "form": "loose",
+  "harvest_season": "Spring first flush is the best regarded; the association's bottled tea uses first flush only.",
+  "appearance_dry": "Fine, thick-feeling deep green leaf with some small particles, typical of deep-steamed tea.",
+  "appearance_liquor": "Deep, slightly cloudy yellow-green, as is usual for fukamushi.",
+  "appearance_wet": "Soft, broken dark green leaf.",
+  "taste_profile": "Rich in taste and aroma, sweet and rounded, from thick leaf and long steaming.",
+  "taste_tags": [
+    "sweet",
+    "umami",
+    "vegetal"
+  ],
+  "brewing": {
+    "grams": 5,
+    "water_ml": 150,
+    "temp_c": 75,
+    "steeps": 3,
+    "seconds": [
+      40,
+      10,
+      25
+    ],
+    "notes": "Fukamushi gives up its flavour fast and the fine leaf can clog a strainer; shorten the first steep and use a fine mesh pot."
+  },
+  "caffeine_level": "medium",
+  "vintage_note": "Sold as current-year tea, and spring first flush commands the most attention. Deep-steamed tea fades faster than regular sencha once open, so buy small and finish it within a few months of opening.",
+  "description": "Sashima-cha comes from the south-west of Ibaraki: Sakai town, Koga, Bando, Joso and Yachiyo, on the Sashima plateau. It is one of the prefecture's three noted teas, and it grows near the northern edge of commercial tea in Japan.\n\nThe climate has hot summers and cold winters, and the volcanic ash soil is fertile, so the leaf grows thick. Thick leaf takes long steaming well, and deep-steamed fukamushi has become the local mainstay. Most growers also process and sell their own tea, so one family often stands behind the whole bag.\n\nThe cup is full, sweet and mellow, with a strong aroma. Water around 75°C and a short first steep work well; the finer particles make it dark quickly.\n\nIt is sold under the unified hiragana spelling, in use since the association formed in 2009, and you may still find older mentions in kanji. A producer's name is a better guide than the regional name alone.",
+  "history": "Tea here is said to go back to the early Edo period, and a tea land survey of 1611 records cultivation. Between 1644 and 1673 the Sekiyado domain encouraged planting and moved the tea by river, although the tax on tea was steeper than on rice and other crops.\n\nThe local account credits 中山元成 with achieving the first export of Japanese tea, with Sashima tea, on 10 October 1859. 野村佐平治, from the Sakai area, is remembered for raising production.\n\nThe Sashima Tea Association formed on 25 February 2009 and settled the hiragana spelling. In November 2011 the local hand-rolling preservation group won a national hand-rolling competition in Shizuoka.",
+  "liquor_hex": "#BDBE52",
+  "leaf_hex": "#2F4A24",
+  "wikipedia_title": "さしま茶",
+  "wikipedia_scope": "exact",
+  "popularity": 2,
+  "sources": [
+    "https://ja.wikipedia.org/wiki/%E3%81%95%E3%81%97%E3%81%BE%E8%8C%B6",
+    "https://ja.wikipedia.org/wiki/%E6%97%A5%E6%9C%AC%E8%8C%B6"
+  ],
+  "confidence": "medium",
+  "images": []
+}

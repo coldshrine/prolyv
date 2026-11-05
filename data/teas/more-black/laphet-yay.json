@@ -1,0 +1,79 @@
+{
+  "slug": "laphet-yay",
+  "name_en": "Laphet Yay (Burmese Milk Tea)",
+  "name_native": "လက်ဖက်ရည်",
+  "name_romanized": "lahpet yay",
+  "name_zh": "缅甸奶茶",
+  "name_ru": "Лапхет-йе (бирманский молочный чай)",
+  "aliases": [
+    "Burmese milk tea",
+    "Lahpet yeijo",
+    "Lahpetyei gyo",
+    "Laphet yay cho",
+    "緬甸奶茶",
+    "Бирманский чай с молоком"
+  ],
+  "category": "black",
+  "origin_country": "Myanmar",
+  "origin_region": "Nationwide",
+  "cultivar": null,
+  "processing": "A tea-shop drink: black tea is simmered with water and a little salt for about 15 to 30 minutes, then combined with evaporated and condensed milk and pulled to make it frothy.",
+  "form": "other",
+  "harvest_season": "Not tied to a harvest; made all year from strong black tea.",
+  "appearance_dry": "The base is plain dark black tea leaf.",
+  "appearance_liquor": "Opaque warm tan, with a light froth from pulling.",
+  "appearance_wet": "Leaf is strained away before serving and plays no part in the cup.",
+  "taste_profile": "Rich and sweet with a firm astringent backbone, and the balance moves a long way depending on how you order it.",
+  "taste_tags": [
+    "creamy",
+    "sweet",
+    "brisk",
+    "malty"
+  ],
+  "brewing": {
+    "grams": 10,
+    "water_ml": 300,
+    "temp_c": 100,
+    "steeps": 1,
+    "seconds": [
+      1200
+    ],
+    "notes": "Simmer rather than steep, with a pinch of salt. The standard ratio is about 5 parts brewed tea to 1 evaporated milk and 1 condensed milk. Pull between two vessels before serving."
+  },
+  "caffeine_level": "medium",
+  "vintage_note": "Made to order in tea shops, so it carries no year or season. The base is simply a strong black tea, and the skill lies in the mix. Drinkers judge a shop by how well it hits their ratio, not by which harvest it used.",
+  "description": "Laphet yay, literally 'tea liquid', is what you get at a Burmese tea shop: strongly brewed black tea with evaporated and condensed milk, drunk alongside fritters and small sweets called mont.\n\nThe tea is simmered for 15 to 30 minutes with a bit of salt, far longer than any steep. Then come the milks and a pull similar to teh tarik, which gives it a light froth and cools it.\n\nThe interesting part is ordering. There are more than two dozen versions with their own shorthand. Standard (pon hman) sits near 5:1:1 tea to evaporated to condensed milk, a-phan is more astringent, a-seint richer and a-cho sweeter. Kyaukpadaung means sweet but astringent, and gate sone, 'final stop', has no milk at all.\n\nAt home, do not cut the simmering short: the drink needs that strength to stand up to two kinds of milk. Tinned evaporated and condensed milk are the right choice here.",
+  "history": "Myanmar's older tea habit was green tea, which is still a tea-shop staple. Milk tea arrived during British rule, when Burma was part of British India. From the late 1800s, Indian migrants in the major cities opened general stores called kaka hsaing, which also sold milk tea and gradually turned into tea shops.\n\nThat early drink was strong tea with steamed fresh milk and sugar, much like Indian milk tea. Today's recipe relies on tinned evaporated and condensed milk, though fresh milk, cream (malai) and cane sugar are still used as options.",
+  "liquor_hex": "#B5844F",
+  "leaf_hex": "#352417",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Burmese_milk_tea",
+    "https://zh.wikipedia.org/wiki/%E7%B7%AC%E7%94%B8%E5%A5%B6%E8%8C%B6"
+  ],
+  "confidence": "medium",
+  "wikipedia_title": "Burmese milk tea",
+  "wikipedia_scope": "exact",
+  "popularity": 3,
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e0/%E1%80%9C%E1%80%80%E1%80%BA%E1%80%96%E1%80%80%E1%80%BA%E1%80%9B%E1%80%8A%E1%80%BA_lah-phat-yay.jpg/1280px-%E1%80%9C%E1%80%80%E1%80%BA%E1%80%96%E1%80%80%E1%80%BA%E1%80%9B%E1%80%8A%E1%80%BA_lah-phat-yay.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e0/%E1%80%9C%E1%80%80%E1%80%BA%E1%80%96%E1%80%80%E1%80%BA%E1%80%9B%E1%80%8A%E1%80%BA_lah-phat-yay.jpg/330px-%E1%80%9C%E1%80%80%E1%80%BA%E1%80%96%E1%80%80%E1%80%BA%E1%80%9B%E1%80%8A%E1%80%BA_lah-phat-yay.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source_page": "https://commons.wikimedia.org/wiki/File:%E1%80%9C%E1%80%80%E1%80%BA%E1%80%96%E1%80%80%E1%80%BA%E1%80%9B%E1%80%8A%E1%80%BA_lah-phat-yay.jpg",
+      "author": "Cun Cun",
+      "license": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0",
+      "kind": "liquor",
+      "alt": "White cup of frothy tan Burmese milk tea on a saucer"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/51/Myanmar_Traditional_Tea.jpg/1280px-Myanmar_Traditional_Tea.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/51/Myanmar_Traditional_Tea.jpg/330px-Myanmar_Traditional_Tea.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Myanmar_Traditional_Tea.jpg",
+      "author": "Zawzawaungthwin",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "kind": "liquor",
+      "alt": "Cup of Burmese milk tea with bubbly froth on a saucer, seen from above"
+    }
+  ]
+}

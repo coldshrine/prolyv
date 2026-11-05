@@ -1,0 +1,53 @@
+{
+  "slug": "solokhaul-tea",
+  "name_en": "Solokhaul Tea",
+  "name_native": "Солохаульский чай",
+  "name_romanized": "Solokhaulskiy chai",
+  "name_zh": "索洛哈乌尔茶",
+  "name_ru": "Солохаульский чай",
+  "aliases": [
+    "Solokh-Aul tea",
+    "Solokhaul chai"
+  ],
+  "category": "black",
+  "origin_country": "Russia",
+  "origin_region": "Krasnodar Krai · Sochi · Solokh-Aul",
+  "cultivar": null,
+  "processing": "Details of the method are not well documented. Black tea from the area follows the usual withering, rolling, oxidation and drying.",
+  "form": "loose",
+  "harvest_season": "Exact picking dates are not well documented for this tea.",
+  "appearance_dry": "As with other Krasnodar black teas, expect dark, twisted, small to medium leaf.",
+  "appearance_liquor": "Typical of the class, a clear reddish amber.",
+  "appearance_wet": "Typical of black tea, soft coppery-brown leaf.",
+  "taste_profile": "Little is recorded specifically about this tea. Black teas from the class usually offer mild malt, some sweetness and moderate briskness.",
+  "taste_tags": [
+    "malty",
+    "sweet"
+  ],
+  "brewing": {
+    "grams": 3,
+    "water_ml": 250,
+    "temp_c": 95,
+    "steeps": 2,
+    "seconds": [
+      180,
+      270
+    ],
+    "notes": "These are usual Western-style black tea settings, nothing specific to this tea."
+  },
+  "caffeine_level": "medium",
+  "vintage_note": "Usually sold as a packaged product of the producer, not by harvest year. As with other black teas, look for a recent packing date and drink it within a couple of years.",
+  "description": "Solokhaul tea comes from the Sochi area and carries the name of Solokhaul Tea, a company that grew out of the former Solokhaul tea state farm. It is one of a handful of producers growing and processing tea around Sochi.\n\nThe details of how it is made are not well documented, so assume ordinary black tea processing unless the pack says otherwise.\n\nThe flavour is also little described. Brew it as an everyday black tea, and try it beside Dagomys or Matsesta to get a feel for Sochi tea.\n\nWhen buying, check the producer and the stated origin, because Krasnodar labels can differ in how much local leaf they use.",
+  "history": "The producer began as the Solokhaul tea state farm and now operates as a company under the Solokhaul Tea name. When the farm was founded and how its tea has changed over time are not well documented.",
+  "liquor_hex": "#AB5B27",
+  "leaf_hex": "#3C2B1D",
+  "sources": [
+    "https://ru.wikipedia.org/wiki/%D0%9A%D1%80%D0%B0%D1%81%D0%BD%D0%BE%D0%B4%D0%B0%D1%80%D1%81%D0%BA%D0%B8%D0%B9_%D1%87%D0%B0%D0%B9",
+    "https://en.wikipedia.org/wiki/Sochi"
+  ],
+  "confidence": "low",
+  "wikipedia_title": "Краснодарский чай",
+  "wikipedia_scope": "umbrella",
+  "popularity": 2,
+  "images": []
+}

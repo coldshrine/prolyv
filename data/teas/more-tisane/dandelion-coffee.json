@@ -1,0 +1,60 @@
+{
+  "slug": "dandelion-coffee",
+  "name_en": "Dandelion Coffee",
+  "name_native": null,
+  "name_romanized": null,
+  "name_zh": "蒲公英咖啡",
+  "name_ru": "Кофе из одуванчика",
+  "aliases": [
+    "Dandelion tea",
+    "Dandelion root coffee",
+    "Roasted dandelion root",
+    "たんぽぽコーヒー",
+    "민들레차"
+  ],
+  "category": "tisane",
+  "origin_country": "United States",
+  "origin_region": "North America",
+  "cultivar": "Taraxacum species",
+  "processing": "Dandelion taproots are dug, washed, sliced and dried, then roasted until dark and ground or chopped for steeping.",
+  "form": "other",
+  "harvest_season": "Roots of plants at least two years old are dug in spring for a sweeter, milder cup, or in autumn for a richer, more bitter one.",
+  "appearance_dry": "Dark brown roasted chips or coarse grounds, much like coffee.",
+  "appearance_liquor": "Opaque-looking dark brown, like thin black coffee.",
+  "appearance_wet": "Soft, dark root fragments.",
+  "taste_profile": "Roasted and coffee-like, with a light bitterness, earthiness and more sweetness in spring-dug roots.",
+  "taste_tags": [
+    "roasted",
+    "bitter",
+    "earthy"
+  ],
+  "brewing": {
+    "grams": 3,
+    "water_ml": 240,
+    "temp_c": 100,
+    "steeps": 1,
+    "seconds": [
+      600
+    ],
+    "notes": "About a teaspoon of roasted root per cup, steeped for roughly ten minutes. It can also be simmered or dripped like coffee, and takes cream and sugar well."
+  },
+  "caffeine_level": "none",
+  "vintage_note": "Not sold by year. It comes in bags, as roasted granules, or as instant mixes, and home-roasted root works just as well. Choose a recent roast, keep it dry, and read the label, as some coffee-substitute blends contain other roots or grains.",
+  "description": "Dandelion coffee has neither coffee nor caffeine in it. It is a drink of roasted dandelion root, close enough to coffee in colour and taste to have served as a stand-in whenever beans were scarce.\n\nHarvesters pick true dandelion, with its ground-level rosette and hollow stems, and take the pale taproots of well-grown plants. Once dried and sliced, the roots are roasted, and that roasting creates the coffee-like character.\n\nIn the cup it reads as a light, roasted, slightly bitter brew. Spring-dug roots are sweeter, while autumn ones are stronger and more bitter. Do not rush it: ten minutes of steeping gets you far more than two.\n\nHealth claims are everywhere and evidence is thin, so drink it because you like it or because you want something dark in the evening without caffeine. Some people may get stomach discomfort or an allergic reaction.",
+  "history": "Dandelion root has long been used in Chinese and European folk medicine, but the roasted coffee substitute is documented later. Susanna Moodie described making it in her 1852 memoir of Canadian life, Roughing It in the Bush, crediting an article she had read in the New York Albion in the 1830s.\n\nConfederate soldiers drank it during the American Civil War as a substitute, Harper's New Monthly Magazine mentioned it in 1886, and in 1919 it was noted as a cheap source of coffee. Germany also relied on such substitutes during the Second World War.",
+  "liquor_hex": "#3F2414",
+  "leaf_hex": "#4A2E1A",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Dandelion_coffee",
+    "https://zh.wikipedia.org/wiki/%E8%92%B2%E5%85%AC%E8%8B%B1%E5%92%96%E5%95%A1",
+    "https://ja.wikipedia.org/wiki/%E3%81%9F%E3%82%93%E3%81%BD%E3%81%BD%E3%82%B3%E3%83%BC%E3%83%92%E3%83%BC",
+    "https://ko.wikipedia.org/wiki/%EB%AF%BC%EB%93%A4%EB%A0%88%EC%B0%A8",
+    "https://www.wikidata.org/wiki/Q3269640"
+  ],
+  "confidence": "high",
+  "wikipedia_title": "Dandelion coffee",
+  "wikipedia_scope": "exact",
+  "popularity": 3,
+  "images": [],
+  "sources_note": "Master list said United Kingdom; earliest documented accounts are North American, so country changed."
+}

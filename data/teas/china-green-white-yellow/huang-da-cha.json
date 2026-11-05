@@ -3,10 +3,19 @@
   "name_en": "Huang Da Cha (Big Yellow Tea)",
   "name_native": "黄大茶",
   "name_romanized": "Huáng Dàchá",
-  "aliases": ["Huoshan Huang Da Cha", "Big Yellow Tea", "Yellow Big Leaf", "Huangdacha", "Anhui big yellow"],
+  "aliases": [
+    "Huoshan Huang Da Cha",
+    "Big Yellow Tea",
+    "Yellow Big Leaf",
+    "Huangdacha",
+    "Anhui big yellow",
+    "霍山黄大茶",
+    "皖西黄大茶",
+    "Wanxi Huang Da Cha"
+  ],
   "category": "yellow",
   "origin_country": "China",
-  "origin_region": "Anhui · Lu'an · Huoshan and Jinzhai",
+  "origin_region": "Anhui · Lu'an · Huoshan",
   "cultivar": "Huoshan local landrace bushes, picked coarse",
   "processing": "Coarse shoots of a bud with three to five leaves and stem are pan-fired, rolled, piled to yellow for several days, then baked hard over a high charcoal fire in the 'pulling the old fire' manner until dark, twisted and toasty.",
   "form": "loose",
@@ -15,13 +24,42 @@
   "appearance_liquor": "Deep amber-orange, clear.",
   "appearance_wet": "Big brown-yellow leaves and stems, coarse and sturdy.",
   "taste_profile": "Toasted rice crust, roasted grain and caramel with a mellow sweetness and almost no astringency; warming and rustic.",
-  "taste_tags": ["roasted", "sweet", "nutty", "woody"],
-  "brewing": {"grams": 5, "water_ml": 200, "temp_c": 100, "steeps": 4, "seconds": [60, 60, 90, 150], "notes": "Boiling water in a pot or large mug; it can be simmered for five minutes for the traditional thick, toasty cup. A gaiwan works but misses the point."},
+  "taste_tags": [
+    "roasted",
+    "sweet",
+    "nutty",
+    "woody"
+  ],
+  "brewing": {
+    "grams": 5,
+    "water_ml": 200,
+    "temp_c": 100,
+    "steeps": 4,
+    "seconds": [
+      60,
+      60,
+      90,
+      150
+    ],
+    "notes": "Boiling water in a pot or large mug; it can be simmered for five minutes for the traditional thick, toasty cup. A gaiwan works but misses the point."
+  },
   "caffeine_level": "low",
   "vintage_note": "Sold year-round as a cheap everyday tea, in bags, loose bundles and sometimes pressed bricks, with no vintage; most is the current year's late-spring crop. It is a local Anhui staple that has had a small revival nationally. Keeps well for a year or two because of the hard bake.",
   "description": "Huang Da Cha, 'big yellow tea', is the farmhouse end of yellow tea: coarse, stemmy, roasted dark, cheap, and drunk by the jug in Huoshan and Jinzhai counties of Anhui, where it has been the daily tea for generations while the fine bud teas went to market. It is the yellow-tea equivalent of a roasted bancha.\n\nIt is made from leaf picked late, a bud with three to five leaves and stem, pan-fired and rolled, then piled to yellow for several days, long enough to turn the leaf brownish-yellow and mellow. The finish is the 'pulling the old fire' bake also used for Lu'an Gua Pian: baskets swung over a fierce charcoal fire again and again until the leaf is dark, twisted and smells of toasted rice.\n\nIn the cup it is amber, toasty and sweet: the crust of a rice pot, roasted grain, caramel, a mellow body and almost no astringency, with low caffeine because of the mature leaf. Brew it with boiling water in a pot or simmer it for five minutes the way it is drunk at home; a gaiwan and short steeps make it seem thin. It is a winter tea, a tea for after a heavy meal, and a good one with food.\n\nIt is sold year-round as a cheap daily tea, loose, in bags or sometimes pressed into bricks, without vintage or grade fuss. It has had a small revival in China on the back of health claims about yellow tea; treat the claims as marketing and the tea as a pleasant, honest roasted drink. Guangdong's Da Ye Qing is a related large-leaf yellow with a lighter bake.\n\nIf you like hojicha or a roasted Taiwanese oolong on a cold evening, this is the Chinese yellow tea for you.",
   "wikipedia_title": "Yellow tea",
   "wikipedia_scope": "umbrella",
   "popularity": 2,
-  "sources_note": "No dedicated English Wikipedia article found."
+  "sources_note": "No dedicated English Wikipedia article found.",
+  "name_zh": "黄大茶",
+  "name_ru": "Хуан Да Ча",
+  "history": "Huang Da Cha, also called Wanxi Huang Da Cha, is the big-leaf class of yellow tea, and its best-known form comes from western Anhui. Huoshan and Jinzhai are the core, with Yuexi and neighbouring areas also producing it; Dahuaping and Manshuihe in Huoshan and Yanzihe in Jinzhai are the places usually rated highest. Huoshan Huang Da Cha holds a Chinese geographical indication.\n\nIts history as a separate tea is thinly documented. Firm dates are hard to find. What marks it is plain enough: big stems and big leaves, a yellowing step and a heavy bake, a look so unusual it is used as a test of authenticity.",
+  "liquor_hex": "#B9772B",
+  "leaf_hex": "#5A4326",
+  "sources": [
+    "https://zh.wikipedia.org/wiki/%E9%9C%8D%E5%B1%B1%E9%BB%84%E5%A4%A7%E8%8C%B6",
+    "https://zh.wikipedia.org/wiki/%E9%BB%84%E8%8C%B6",
+    "https://www.curioustea.com/?p=2953"
+  ],
+  "confidence": "medium",
+  "images": []
 }

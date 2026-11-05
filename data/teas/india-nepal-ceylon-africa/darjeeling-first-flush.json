@@ -3,7 +3,13 @@
   "name_en": "Darjeeling First Flush",
   "name_native": "दार्जिलिङ चिया",
   "name_romanized": "Dārjiliṅ chiyā",
-  "aliases": ["Darjeeling FF", "Spring flush Darjeeling", "Darjeeling spring tea", "Champagne of teas", "Darjeeling 1st flush"],
+  "aliases": [
+    "Darjeeling FF",
+    "Spring flush Darjeeling",
+    "Darjeeling spring tea",
+    "Champagne of teas",
+    "Darjeeling 1st flush"
+  ],
   "category": "black",
   "origin_country": "India",
   "origin_region": "West Bengal · Darjeeling",
@@ -15,13 +21,88 @@
   "appearance_liquor": "Pale gold to light amber, bright and clear.",
   "appearance_wet": "Soft, mostly green to olive leaf with brownish edges, slightly uneven in colour.",
   "taste_profile": "Fresh, floral and lightly astringent: white flowers, green grape and apricot, a hint of cut grass and a clean, drying finish.",
-  "taste_tags": ["floral", "fruity", "grassy", "brisk"],
-  "brewing": {"grams": 3, "water_ml": 200, "temp_c": 85, "steeps": 2, "seconds": [180, 240], "notes": "Water well below the boil (80–90 °C) and no milk; boiling water pulls out harsh tannin and buries the florals. A good lot takes a second, longer steep."},
+  "taste_tags": [
+    "floral",
+    "fruity",
+    "grassy",
+    "brisk"
+  ],
+  "brewing": {
+    "grams": 3,
+    "water_ml": 200,
+    "temp_c": 85,
+    "steeps": 2,
+    "seconds": [
+      180,
+      240
+    ],
+    "notes": "Water well below the boil (80–90 °C) and no milk; boiling water pulls out harsh tannin and buries the florals. A good lot takes a second, longer steep."
+  },
   "caffeine_level": "medium",
   "vintage_note": "Sold by flush and year: look for 'First Flush' plus the harvest year (2025, 2026…) and the estate name on the pack, often with an invoice (lot) number. Early lots ship from March and the trade peaks in spring; a first flush is at its best within 6–12 months of picking and loses its fresh florals after about a year, so last year's first flush should cost less. Grade codes such as FTGFOP1 appear on labels but say little about quality compared with the garden, the flush and the lot.",
   "description": "Darjeeling first flush is the spring picking from the gardens around Darjeeling in the hills of northern West Bengal, grown between roughly 600 and 2,000 metres. It is the tea that makes people rethink what 'black tea' means: pale, floral and brisk, closer to a green oolong than to anything you would put milk in. Only leaf from the district's registered gardens may legally carry the name, which is protected as a geographical indication in India and the EU.\n\nThe bushes sit dormant through the cold, dry winter, so the first shoots after the spring showers are small, slow-grown and concentrated. Makers give that leaf a long, hard wither, roll it gently and oxidise it only partway before firing, which is why the dry leaf looks mottled green, brown and silver and why the cup stays pale gold rather than copper. Technically it is a black tea by process; in the cup it behaves like something in between.\n\nExpect white flowers, green grape, a little apricot and a grassy freshness, with the brisk, lightly drying finish that Darjeeling is known for. The classic mistake is treating it like breakfast tea: boiling water and five minutes gives you harsh tannin and not much else. Brew it like a delicate oolong, water around 85 °C, three minutes, and give a good lot a second, longer steep. No milk.\n\nIt is sold by estate, flush and year. Grade codes such as FTGFOP1 ('Finest Tippy Golden Flowery Orange Pekoe, grade 1') describe leaf size and tip, not taste; the garden name, the harvest year and the invoice number tell you much more. Well-known names include Castleton, Margaret's Hope, Jungpana, Makaibari, Glenburn, Goomtee and Puttabong, and clonal lots (usually from the AV2 bush) are the most floral and the most expensive. For years more tea was sold as 'Darjeeling' worldwide than the district could grow, so buy from shops that name the garden and the lot and be wary of cheap blends.\n\nDrink it fresh: a first flush peaks in the months after picking and fades within about a year. If you love the aroma but want more body, the second flush from the same garden is the natural next step.",
   "wikipedia_title": "Darjeeling tea",
   "wikipedia_scope": "exact",
   "popularity": 5,
-  "sources_note": "Native name given in Nepali (the language of the Darjeeling hills); Bengali (দার্জিলিং চা) or Hindi (दार्जिलिंग चाय) would also be defensible."
+  "sources_note": "Native name given in Nepali (the language of the Darjeeling hills); Bengali (দার্জিলিং চা) or Hindi (दार्जिलिंग चाय) would also be defensible.",
+  "name_zh": "大吉岭春摘红茶",
+  "name_ru": "Дарджилинг первого сбора",
+  "history": "Tea reached Darjeeling in 1841, when Archibald Campbell, working for the East India Company on a hill station, planted seed in his garden. The Company set up three experimental gardens in 1852 at Tukvar, Steinthal and Alubari, commercial gardens followed from 1856, and by 1866 there were 39. The Chinese sinensis variety did far better than assamica in the cold, cloudy hills, and that is why first flush can taste as it does.\n\nThe flush is simply the leaf that grows first after winter dormancy, the opening of a season that runs from March to November and is divided into four. Light and floral with some astringency, it is the flush also used for white tea.\n\nHow spring lots came to be sold as a prized product in their own right is less well documented than the district's history. After independence the estates passed to Indian owners, the Soviet Union replaced Britain as the main buyer, and later marketing turned toward Western Europe. Since 2004 Darjeeling has been a registered geographical indication. Far more tea has been sold under the name than the district produces.",
+  "liquor_hex": "#D9B65A",
+  "leaf_hex": "#7C7A4A",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Darjeeling_tea",
+    "https://ja.wikipedia.org/wiki/%E3%83%80%E3%83%BC%E3%82%B8%E3%83%AA%E3%83%B3%E3%83%BB%E3%83%86%E3%82%A3%E3%83%BC",
+    "https://zh.wikipedia.org/wiki/%E5%A4%A7%E5%90%89%E5%B6%BA%E8%8C%B6",
+    "https://en.wikipedia.org/wiki/Badamtam_Tea_Estate"
+  ],
+  "confidence": "high",
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/98/Darjeeling-Turzum_2014_First_Flush_DJ4.JPG/1280px-Darjeeling-Turzum_2014_First_Flush_DJ4.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/98/Darjeeling-Turzum_2014_First_Flush_DJ4.JPG/330px-Darjeeling-Turzum_2014_First_Flush_DJ4.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Darjeeling-Turzum_2014_First_Flush_DJ4.JPG",
+      "author": "Whiteness",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "kind": "dry_leaf",
+      "alt": "Wiry olive-green and brown first flush Darjeeling leaves on white"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/14/Darjeeling-tea-first-flush-in-cup.jpg/1280px-Darjeeling-tea-first-flush-in-cup.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/14/Darjeeling-tea-first-flush-in-cup.jpg/330px-Darjeeling-tea-first-flush-in-cup.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Darjeeling-tea-first-flush-in-cup.jpg",
+      "author": "David J. Fred",
+      "license": "CC BY-SA 2.5",
+      "license_url": "https://creativecommons.org/licenses/by-sa/2.5",
+      "kind": "liquor",
+      "alt": "White cup of pale amber first flush Darjeeling tea"
+    }
+  ],
+  "i18n": {
+    "ru": {
+      "processing": "Жёсткое долгое завяливание, бережная ортодоксальная скрутка и лишь частичное окисление (часто намного меньше половины) перед сушкой; из-за слабого окисления лист во многом остаётся зелёным, а настой светлым и ярким.",
+      "harvest_season": "С конца февраля или начала марта до середины апреля, после зимнего покоя; больше всего ценятся самые ранние партии, собранные после первых весенних дождей.",
+      "appearance_dry": "Жилистый пёстрый лист — оливково-зелёный, коричневый, с серебристыми типсами; похож скорее на зелёный чай или улун, чем на чёрный.",
+      "appearance_liquor": "От бледно-золотистого до светло-янтарного, яркий и прозрачный.",
+      "appearance_wet": "Мягкий, в основном зелёный или оливковый лист с коричневатыми краями, окрашен слегка неравномерно.",
+      "taste_profile": "Свежий, цветочный, слегка терпкий: белые цветы, зелёный виноград и абрикос, намёк на скошенную траву и чистый, сушащий финиш.",
+      "vintage_note": "Продаётся по сбору и году: ищите на упаковке First Flush, год сбора (2025, 2026…) и название плантации, часто с номером инвойса (партии). Ранние партии отгружают с марта, пик торговли приходится на весну; первый сбор лучше всего в течение 6–12 месяцев после сбора, а примерно через год теряет свежие цветочные ноты, так что прошлогодний должен стоить дешевле. Коды сортности вроде FTGFOP1 на этикетках есть, но о качестве говорят мало по сравнению с плантацией, сбором и партией.",
+      "history": "В Дарджилинг чай попал в 1841 году, когда Арчибальд Кэмпбелл, работавший на Ост-Индскую компанию над горной станцией, посадил семена у себя в саду. В 1852 году Компания заложила три экспериментальных сада — в Туквере, Штайнтале и Алубари, — с 1856 года появились коммерческие плантации, а к 1866-му их было уже 39. Китайская разновидность sinensis чувствовала себя в холодных облачных горах куда лучше ассамики, и именно поэтому первый сбор может иметь такой вкус.\n\nПервый сбор — это просто лист, который вырастает первым после зимнего покоя, начало сезона, длящегося с марта по ноябрь и делящегося на четыре сбора. Лёгкий, цветочный, с некоторой терпкостью, он же идёт и на белый чай.\n\nКак весенние партии стали продаваться как отдельный ценный продукт, задокументировано хуже, чем история самого района. После обретения независимости плантации перешли к индийским владельцам, главным покупателем вместо Британии стал Советский Союз, а позже маркетинг развернулся к Западной Европе. С 2004 года Дарджилинг — зарегистрированное географическое указание. Под этим названием продавалось намного больше чая, чем район производит.",
+      "description": "Дарджилинг первого сбора — весенний чай с плантаций вокруг Дарджилинга, в горах севера Западной Бенгалии, на высоте примерно от 600 до 2000 метров. Это чай, который заставляет переосмыслить, что такое «чёрный чай»: светлый, цветочный и бодрый, он ближе к зелёному улуну, чем к тому, во что добавляют молоко. Законно носить это название может только лист с зарегистрированных плантаций района: оно защищено как географическое указание в Индии и ЕС.\n\nВсю холодную сухую зиму кусты спят, поэтому первые побеги после весенних дождей мелкие, медленно выросшие и концентрированные. Этот лист долго и жёстко завяливают, бережно скручивают и окисляют лишь частично перед сушкой — поэтому сухой лист пёстрый, зелёно-коричнево-серебристый, а настой остаётся бледно-золотым, а не медным. Технически по способу изготовления это чёрный чай; в чашке он ведёт себя как нечто среднее.\n\nЖдите белых цветов, зелёного винограда, немного абрикоса и травянистой свежести с бодрым, слегка сушащим финишем, которым славится Дарджилинг. Классическая ошибка — обращаться с ним как с чаем к завтраку: кипяток и пять минут дают резкий танин и почти ничего больше. Заваривайте как нежный улун: вода около 85 °C, три минуты, а хорошей партии дайте второй, более долгий пролив. Без молока.\n\nПродаётся по плантации, сбору и году. Коды сортности вроде FTGFOP1 (Finest Tippy Golden Flowery Orange Pekoe, сорт 1) описывают размер листа и типсы, а не вкус; название плантации, год сбора и номер инвойса скажут намного больше. Среди известных имён — Castleton, Margaret's Hope, Jungpana, Makaibari, Glenburn, Goomtee и Puttabong, а клональные партии (обычно с куста AV2) самые цветочные и самые дорогие. Годами по всему миру под именем «Дарджилинг» продавалось больше чая, чем район мог вырастить, поэтому покупайте в магазинах, которые называют плантацию и партию, и опасайтесь дешёвых купажей.\n\nПейте свежим: первый сбор на пике в месяцы после сбора и угасает примерно за год. Если вам нравится аромат, но хочется больше тела, естественный следующий шаг — второй сбор с той же плантации.",
+      "brewing_notes": "Вода заметно ниже кипения (80–90 °C) и никакого молока; кипяток вытягивает резкий танин и хоронит цветочные ноты. Хорошая партия выдержит второй, более долгий пролив."
+    },
+    "zh": {
+      "processing": "重度长时间萎凋,轻柔的传统揉捻,只做部分氧化(常常远不到一半)后烘干;氧化轻,所以叶子大多保持绿色,茶汤浅而明亮。",
+      "harvest_season": "2月下旬或3月初至4月中旬,在冬季休眠之后;春季头几场雨后最早采的批次最抢手。",
+      "appearance_dry": "条索细硬,橄榄绿、褐色与银毫相杂,看上去更像绿茶或乌龙茶,而不像红茶。",
+      "appearance_liquor": "浅金至浅琥珀色,明亮清澈。",
+      "appearance_wet": "叶底柔软,多为绿色至橄榄色,边缘带褐,色泽略不均匀。",
+      "taste_profile": "清新、花香、微涩:白花、青葡萄和杏,一丝青草气,收尾干净略带收敛。",
+      "vintage_note": "按采摘季和年份销售:包装上找“First Flush”、采摘年份(2025、2026……)和茶园名称,常附发票(批次)号。早批3月起发货,交易高峰在春季;春摘在采后6–12个月内最佳,约一年后清新的花香就散了,所以去年的春摘理应便宜些。标签上的FTGFOP1等等级代码,比起茶园、采摘季和批次,其实说明不了多少品质。",
+      "history": "茶树在1841年来到大吉岭:为东印度公司经营山间驻地的阿奇博尔德·坎贝尔(Archibald Campbell)在自家花园里播下了种子。1852年,公司在Tukvar、Steinthal和Alubari开设三处试验茶园,1856年起出现商业茶园,到1866年已有39座。在这片寒冷多云的山区,中国小叶种远比阿萨姆种长得好,春摘能有这样的味道,原因正在于此。\n\n春摘不过是冬季休眠后最先长出的叶子,是3月到11月这个产季的开端,全季分为四个采摘期。它轻盈、有花香,略带涩感,白茶也用这一季的叶子。\n\n春季批次如何成为独立的珍品出售,相关记载不如这一产区本身的历史清楚。印度独立后,茶园转入印度人之手,苏联取代英国成为最大买家,后来营销又转向西欧。大吉岭自2004年起是注册地理标志。历来以这个名字出售的茶,远远多于当地的产量。",
+      "description": "大吉岭春摘是西孟加拉邦北部山区大吉岭一带茶园的春季采摘,海拔约600至2000米。这款茶会让人重新思考“红茶”是什么:色浅、花香、爽利,更接近偏绿的乌龙茶,而不是你会往里加奶的那种茶。只有该产区注册茶园的茶叶才能合法使用这个名字,它在印度和欧盟都受地理标志保护。\n\n茶树在寒冷干燥的冬天休眠,所以春雨后的第一批新梢细小、生长缓慢、滋味浓缩。制茶人对这些叶子长时间重萎凋,轻柔揉捻,只部分氧化便烘干,所以干茶绿、褐、银相杂,茶汤是浅金色而非铜色。从工艺上说它算红茶;在杯中则介于两者之间。\n\n可以期待白花、青葡萄、一点杏子和青草的清新,以及大吉岭著称的爽利、微微收敛的收尾。经典错误是把它当早餐茶泡:沸水加五分钟,只会得到粗涩的单宁,别的所剩无几。要像泡细嫩乌龙那样:水温85 °C左右,三分钟,好的批次再来一道时间更长的第二泡。不加奶。\n\n它按茶园、采摘季和年份销售。FTGFOP1(Finest Tippy Golden Flowery Orange Pekoe,一级)这类等级代码说的是叶子大小和芽毫,而不是味道;茶园名、采摘年份和发票号透露的信息要多得多。知名茶园包括Castleton、Margaret's Hope、Jungpana、Makaibari、Glenburn、Goomtee和Puttabong,而无性系批次(通常来自AV2品种)花香最盛,也最贵。多年来全球以“大吉岭”之名出售的茶,超过了当地能种出的数量,所以要去标明茶园和批次的店铺购买,并小心廉价拼配。\n\n趁新鲜喝:春摘在采后几个月达到巅峰,约一年内逐渐消退。如果喜欢这香气却想要更厚的茶体,同一茶园的夏摘就是顺理成章的下一步。",
+      "brewing_notes": "水温明显低于沸点(80–90 °C),不加奶;沸水会泡出粗涩的单宁,盖住花香。好的批次可以再泡一道时间更长的第二泡。"
+    }
+  }
 }

@@ -1,0 +1,51 @@
+{
+  "slug": "shengshui-green-tea",
+  "name_en": "Shengshui Green Tea",
+  "name_native": "圣水绿茶",
+  "name_romanized": "Shèngshuǐ lǜchá",
+  "aliases": [],
+  "category": "green",
+  "origin_country": "China",
+  "origin_region": "Hubei · Zhushan",
+  "cultivar": null,
+  "form": "loose",
+  "caffeine_level": "medium",
+  "brewing": {
+    "grams": 3,
+    "water_ml": 150,
+    "temp_c": 80,
+    "steeps": 3,
+    "seconds": [
+      60,
+      75,
+      105
+    ],
+    "notes": "A safe starting point for green tea: cooler water, short steeps, then adjust by taste."
+  },
+  "taste_tags": [
+    "floral",
+    "umami"
+  ],
+  "description": "A green tea with geographical indication status from Zhushan County, Hubei, grown across 15 tea-producing townships and more than 200,000 mu of gardens.\n\nTreat it as you would any green tea: cooler water, short steeps, and a seller who can say where and when it was picked.",
+  "wikipedia_title": null,
+  "wikipedia_scope": "none",
+  "popularity": 1,
+  "name_zh": "圣水绿茶",
+  "name_ru": "Шэн Шуй Люй Ча",
+  "history": "Tea growing in Zhushan is traced back to the Xia and Shang periods and is said to have peaked in the Tang, when this tea was offered as tribute. It has been named a Hubei famous-brand product and took a gold award at an international agricultural fair. Geographical indication protection came on 25 May 2010.",
+  "liquor_hex": "#D2D678",
+  "leaf_hex": "#7E8B3E",
+  "sources": [
+    "https://www.baike.com/wiki/圣水绿茶"
+  ],
+  "confidence": "medium",
+  "images": [],
+  "stub": true,
+  "processing": "Typical of green tea: picked, heated soon after picking to stop oxidation, then shaped and dried.",
+  "harvest_season": "Usually picked in spring, with the earliest pickings prized, as with most green teas.",
+  "appearance_dry": "Round, straight buds of emerald colour, thickly covered in white down.",
+  "appearance_liquor": "Tender green and bright.",
+  "appearance_wet": "Tender green, bright and even.",
+  "taste_profile": "Fresh, brisk and savoury-sweet, with a lasting natural floral aroma.",
+  "vintage_note": "Green teas like this are normally sold as the current year's harvest and are best within a year of picking. It is not an ageing tea."
+}

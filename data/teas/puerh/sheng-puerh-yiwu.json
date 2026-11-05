@@ -3,7 +3,13 @@
   "name_en": "Yiwu Sheng Pu-erh",
   "name_native": "易武生普洱",
   "name_romanized": "Yìwǔ Shēng Pǔ'ěr",
-  "aliases": ["Yiwu raw pu-erh", "Yi Wu sheng", "Yiwu Zhengshan", "Mansa", "易武正山", "Yiwu gushu"],
+  "aliases": [
+    "Yiwu raw pu-erh",
+    "Yi Wu sheng",
+    "Yiwu Zhengshan",
+    "易武正山",
+    "Yiwu gushu"
+  ],
   "category": "sheng",
   "origin_country": "China",
   "origin_region": "Yunnan · Xishuangbanna · Mengla · Yiwu",
@@ -15,12 +21,46 @@
   "appearance_liquor": "Pale gold when young, deepening to amber with age, bright and clear.",
   "appearance_wet": "Large, supple yellow-green leaves on long stems, thick and leathery between the fingers.",
   "taste_profile": "Soft and honeyed with orchid and wildflower notes over a thick, oily body; very little bitterness, and a sweetness that rises in the throat a minute after swallowing.",
-  "taste_tags": ["honey", "floral", "sweet", "fruity"],
-  "brewing": {"grams": 7, "water_ml": 110, "temp_c": 95, "steeps": 10, "seconds": [10, 8, 10, 15, 20, 30, 45, 60, 90, 150], "notes": "Rinse once for about 5 seconds and discard. Gaiwan or thin porcelain pot; Yiwu is gentle, so keep the early steeps short and push the late ones long rather than stewing the first ones."},
+  "taste_tags": [
+    "honey",
+    "floral",
+    "sweet",
+    "fruity"
+  ],
+  "brewing": {
+    "grams": 7,
+    "water_ml": 110,
+    "temp_c": 95,
+    "steeps": 10,
+    "seconds": [
+      10,
+      8,
+      10,
+      15,
+      20,
+      30,
+      45,
+      60,
+      90,
+      150
+    ],
+    "notes": "Rinse once for about 5 seconds and discard. Gaiwan or thin porcelain pot; Yiwu is gentle, so keep the early steeps short and push the late ones long rather than stewing the first ones."
+  },
   "caffeine_level": "high",
-  "vintage_note": "Sold by spring harvest year and by village, almost always as a 357 g or 200 g cake. Young (1–3 years) Yiwu is floral and light; it is famous for rewarding the mid-aged window (roughly 5–15 years), when the honey thickens and dried-fruit notes appear; genuinely aged Yiwu (pre-2005, including the late-1990s private-label 'Yiwu Zhengshan' cakes that started the modern boutique boom) is scarce and expensive. What is on the market today is overwhelmingly 2005–2025, and the storage matters as much as the year: Kunming-dry cakes keep their florals and stay pale, Guangdong or Hong Kong humid storage turns the same cake darker, sweeter and softer much faster.",
-  "description": "Yiwu is the gentle end of the pu-erh map: a township in Mengla County on the eastern edge of Xishuangbanna near the Laos border, whose old gardens fed the tea trade of the Qing era (the old mountain name, Mansa, is one of the six ancient tea mountains). Where Bulang teas hit you with bitterness, Yiwu is soft, honeyed and sweet from the first sip, and that softness is exactly what people pay for.\n\nThe leaf is Yunnan large-leaf stock grown among forest trees at roughly 1,000–1,500 m. It is picked, pan-fired, hand-rolled and sun-dried like any sheng, but Yiwu producers tend to roll lightly and press loosely, so the leaves stay long and whole and the cakes pry apart easily. Nothing dramatic happens in processing; the character is in the material and the hillside.\n\nYoung Yiwu tastes of honey, orchid and a faint cooked-sugar sweetness, with a thick, almost oily body and a returning sweetness (hui gan) that rises in the throat after you swallow. Bitterness is low, which is why beginners love it and why experienced drinkers judge it by texture and aftertaste rather than punch. The classic mistake is brewing it like a Bulang tea: it does not need long steeps to show itself, but it will keep giving for twelve or more infusions if you lengthen the late ones.\n\nIt is sold by village and by spring harvest year. Famous village names (Mahei, Luoshuidong, Gaoshan, Guafengzhai, Wangong, Bohetang, Tongqinghe, Yishanmo) carry big premiums, and the market for them is full of blends labelled with the best name in the bag. 'Yiwu Zhengshan' just means 'genuine Yiwu mountain' and guarantees nothing by itself. Whole long leaves, a clean honey nose and that creeping throat sweetness are better guides than any wrapper.\n\nIf you want to understand why people age pu-erh at all, Yiwu is the place to start: a cake with eight to ten years in moderately humid storage trades its florals for dried fruit and a deeper honey while keeping its softness.",
+  "vintage_note": "Sold by spring harvest year and by village, almost always as a 357 g or 200 g cake. Young (1–3 years) Yiwu is floral and light; it is famous for rewarding the mid-aged window (roughly 5–15 years), when the honey thickens and dried-fruit notes appear; genuinely aged Yiwu (pre-2005, including private-label 'Yiwu Zhengshan' cakes said to date from the late 1990s) is scarce and expensive. What is on the market today is overwhelmingly 2005–2025, and the storage matters as much as the year: Kunming-dry cakes keep their florals and stay pale, Guangdong or Hong Kong humid storage turns the same cake darker, sweeter and softer much faster.",
+  "description": "Yiwu is the gentle end of the pu-erh map: a township in Mengla County on the eastern edge of Xishuangbanna near the Laos border, whose old gardens fed the tea trade of the Qing era (it took the place of nearby Mansa among the six ancient tea mountains). Where Bulang teas hit you with bitterness, Yiwu is soft, honeyed and sweet from the first sip, and that softness is exactly what people pay for.\n\nThe leaf is Yunnan large-leaf stock grown among forest trees; the area averages about 1,400 m. It is picked, pan-fired, hand-rolled and sun-dried like any sheng, but Yiwu producers tend to roll lightly and press loosely, so the leaves stay long and whole and the cakes pry apart easily. Nothing dramatic happens in processing; the character is in the material and the hillside.\n\nYoung Yiwu tastes of honey, orchid and a faint cooked-sugar sweetness, with a thick, almost oily body and a returning sweetness (hui gan) that rises in the throat after you swallow. Bitterness is low, which is why beginners love it and why experienced drinkers judge it by texture and aftertaste rather than punch. The classic mistake is brewing it like a Bulang tea: it does not need long steeps to show itself, but it will keep giving for twelve or more infusions if you lengthen the late ones.\n\nIt is sold by village and by spring harvest year. Famous village names (Mahei, Luoshuidong, Gaoshan, Guafengzhai, Wangong, Bohetang, Tongqinghe, Yishanmo) carry big premiums, and the market for them is full of blends labelled with the best name in the bag. 'Yiwu Zhengshan' just means 'genuine Yiwu mountain' and guarantees nothing by itself. Whole long leaves, a clean honey nose and that creeping throat sweetness are better guides than any wrapper.\n\nIf you want to understand why people age pu-erh at all, Yiwu is the place to start: a cake with eight to ten years in moderately humid storage trades its florals for dried fruit and a deeper honey while keeping its softness.",
   "wikipedia_title": "Pu'er tea",
   "wikipedia_scope": "umbrella",
-  "popularity": 4
+  "popularity": 4,
+  "name_zh": "易武生普洱",
+  "name_ru": "И У Шэн Пуэр",
+  "history": "Yiwu's tea history runs through its neighbour Mansa, one of the old six tea mountains. In the Qianlong era Mansa was the busy one, with about 300 households on its old street and a guild hall from Shiping built in 1789. Fires in 1874 and 1887 ruined it, and by the usual account trade moved about 20 km to Yiwu, which rose to take Mansa's place.\n\nThe modern market sells Yiwu by village, and names such as Mahei, Luoshuidong and Guafeng Zhai are where its old-tree tea is mainly said to come from.",
+  "liquor_hex": "#E0BE5E",
+  "leaf_hex": "#5C5F42",
+  "sources": [
+    "https://m.sohu.com/n/467373626/",
+    "https://www.jiemian.com/article/1164569.html"
+  ],
+  "confidence": "medium",
+  "images": []
 }

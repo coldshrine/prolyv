@@ -1,0 +1,54 @@
+{
+  "slug": "taiwan-tarry-lapsang-souchong",
+  "name_en": "Taiwan Tarry Lapsang Souchong",
+  "name_native": "台湾正山小种",
+  "name_romanized": "Táiwān Zhèngshān Xiǎozhǒng",
+  "aliases": [
+    "Formosa Lapsang Souchong",
+    "台灣正山小種"
+  ],
+  "category": "black",
+  "origin_country": "Taiwan",
+  "origin_region": "Taiwan",
+  "cultivar": null,
+  "form": "loose",
+  "caffeine_level": "high",
+  "brewing": {
+    "grams": 3,
+    "water_ml": 200,
+    "temp_c": 95,
+    "steeps": 2,
+    "seconds": [
+      180,
+      240
+    ],
+    "notes": "A safe starting point for black tea: Western style, water just off the boil."
+  },
+  "taste_tags": [
+    "malty",
+    "sweet"
+  ],
+  "description": "A black tea from Taiwan made in the Lapsang Souchong manner.\n\nTreat it as you would any black tea: water just off the boil, a few minutes in the pot, and a seller who can say where it was grown.",
+  "wikipedia_title": null,
+  "wikipedia_scope": "none",
+  "popularity": 1,
+  "name_zh": "台湾正山小种",
+  "name_ru": "Тайваньский лапсанг сушонг",
+  "history": null,
+  "liquor_hex": "#8E3A18",
+  "leaf_hex": "#2E2218",
+  "sources": [
+    "https://what-cha.com/collections/black-tea",
+    "https://www.uptontea.com/collections/formosa-teas"
+  ],
+  "confidence": "low",
+  "images": [],
+  "stub": true,
+  "processing": "Typical of black tea: withered, rolled, fully oxidised and dried.",
+  "harvest_season": "Picked through the growing season, as with most black teas.",
+  "appearance_dry": "Usually dark twisted leaf, sometimes with golden tips.",
+  "appearance_liquor": "Usually a clear red-brown.",
+  "appearance_wet": "Usually coppery brown leaf.",
+  "taste_profile": "Expect what black teas usually give: malty, sweet and brisk.",
+  "vintage_note": "Black teas are normally sold by harvest year and are best within a couple of years."
+}

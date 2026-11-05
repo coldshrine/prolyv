@@ -3,7 +3,19 @@
   "name_en": "Dong Ding Oolong",
   "name_native": "凍頂烏龍茶",
   "name_romanized": "Dòngdǐng Wūlóng Chá",
-  "aliases": ["Tung Ting", "Dongding", "Frozen Summit oolong", "Tong Ding oolong", "Lugu oolong"],
+  "aliases": [
+    "Tung Ting",
+    "Dongding",
+    "Frozen Summit oolong",
+    "Tong Ding oolong",
+    "Lugu oolong",
+    "Dong Ding tea",
+    "Tung-ting tea",
+    "冻顶乌龙",
+    "凍頂茶",
+    "水沙連之茶",
+    "Дун Дин Улун"
+  ],
   "category": "oolong",
   "origin_country": "Taiwan",
   "origin_region": "Nantou · Lugu",
@@ -15,13 +27,94 @@
   "appearance_liquor": "Clear golden-yellow to light amber depending on the roast level.",
   "appearance_wet": "Thick whole leaves open to a dark olive green with reddish-brown edges and a soft, oily feel.",
   "taste_profile": "Toasted grain and warm buttery sweetness up front, orchid and ripe fruit underneath, with a thick, soft mouthfeel and a long, gently roasty finish.",
-  "taste_tags": ["roasted", "floral", "sweet", "nutty", "fruity"],
-  "brewing": {"grams": 6, "water_ml": 110, "temp_c": 95, "steeps": 7, "seconds": [30, 25, 30, 40, 55, 80, 120], "notes": "Water at or just off the boil; rolled leaf needs a slightly longer first steep to open. A clay pot flatters the roast, a porcelain gaiwan shows more of the florals."},
+  "taste_tags": [
+    "roasted",
+    "floral",
+    "sweet",
+    "nutty",
+    "fruity"
+  ],
+  "brewing": {
+    "grams": 6,
+    "water_ml": 110,
+    "temp_c": 95,
+    "steeps": 7,
+    "seconds": [
+      30,
+      25,
+      30,
+      40,
+      55,
+      80,
+      120
+    ],
+    "notes": "Water at or just off the boil; rolled leaf needs a slightly longer first steep to open. A clay pot flatters the roast, a porcelain gaiwan shows more of the florals."
+  },
   "caffeine_level": "medium",
-  "vintage_note": "Sold by harvest: the spring and winter crops of the current year, with winter Dong Ding often a little thicker and spring more fragrant. The Lugu Farmers' Association competition, held after each of those harvests, grades lots from Special (特等) through First (頭等), Second, Third and the 'plum blossom' tiers and sells them in sealed, numbered 300 g packs at a steep premium over ordinary garden tea. Roasted lots keep well for a year or two, and the heavier roasts are sometimes aged on purpose, but everyday Dong Ding is best within a year of its roast.",
-  "description": "Dong Ding is the tea most Taiwanese drinkers mean when they say 'oolong' without any qualifier: a ball-rolled Qing Xin oolong from the villages around the Dong Ding hill in Lugu Township, Nantou, at roughly 600–800 metres. It is not high-mountain tea by Taiwan's definition (that label starts at 1,000 metres); what sets it apart is that it is roasted, so it drinks warmer and rounder than the green, floral high-mountain style that came later. The story that the bushes arrived from Wuyi in the 1850s with a scholar named Lin Fengchi is a local legend, repeated on every sign in Lugu.\n\nThe leaf is withered in the sun and then indoors with repeated tossing, oxidised further than high-mountain tea, pan-fired, and rolled in cloth bundles over and over until it curls into tight half-spheres. Then comes the roast: hours or days in bamboo baskets or ovens, traditionally over longan-wood charcoal, which turns raw florals into toasted grain, honey and dried fruit and gives the liquor its gold-to-amber colour. Lightly roasted modern lots sit close to high-mountain tea; traditional lots are unmistakably toasty.\n\nIn the cup you get buttery sweetness and toasted cereal first, then orchid and a ripe fruitiness underneath, with a thick texture and a finish that stays warm in the throat. It holds up to seven or eight steeps and does not turn harsh when pushed. The common mistake is brewing it like a delicate green oolong: it wants fully boiling water and a proper dose of leaf, and a clay pot suits the roast.\n\nIt is sold by season, spring and winter, and increasingly by competition grade: the Lugu Farmers' Association runs the largest tea competition in Taiwan twice a year, and winning lots go out in sealed, numbered 300 g boxes at prices far above garden tea. 'Dong Ding' is also used loosely as a style name, so tea from Mingjian or elsewhere, and Jin Xuan or Si Ji Chun leaf, is often sold under it; ask for the cultivar and whether it was actually grown in Lugu.\n\nIf the roast is what you like, go deeper with a charcoal-roasted Dong Ding or a Hong Shui oolong; if it is the florals, Shan Lin Xi or Alishan will show you the same cultivar without the fire.",
+  "vintage_note": "Sold by harvest: the spring and winter crops of the current year, with winter Dong Ding often a little thicker and spring more fragrant. Competitions in Lugu, held after those harvests by the Farmers' Association and local tea groups, grade lots into tiers from Special (特等) and First (頭等) downward and sell them in sealed, numbered packs at a steep premium over ordinary garden tea. Roasted lots keep well for a year or two, and the heavier roasts are sometimes aged on purpose, but everyday Dong Ding is best within a year of its roast.",
+  "description": "Dong Ding is the tea most Taiwanese drinkers mean when they say 'oolong' without any qualifier: a ball-rolled Qing Xin oolong from the villages around the Dong Ding hill in Lugu Township, Nantou, at roughly 600 to 1,200 metres. Most of it grows below Taiwan's 1,000-metre line for high-mountain tea, but what really sets it apart is that it is roasted, so it drinks warmer and rounder than the green, floral high-mountain style that came later. The story that the bushes arrived from Wuyi in the 1850s with a scholar named Lin Fengchi is a local legend, repeated on every sign in Lugu.\n\nThe leaf is withered in the sun and then indoors with repeated tossing, oxidised further than high-mountain tea, pan-fired, and rolled in cloth bundles over and over until it curls into tight half-spheres. Then comes the roast: hours or days in bamboo baskets or ovens, traditionally over longan-wood charcoal, which turns raw florals into toasted grain, honey and dried fruit and gives the liquor its gold-to-amber colour. Lightly roasted modern lots sit close to high-mountain tea; traditional lots are unmistakably toasty.\n\nIn the cup you get buttery sweetness and toasted cereal first, then orchid and a ripe fruitiness underneath, with a thick texture and a finish that stays warm in the throat. It holds up to seven or eight steeps and does not turn harsh when pushed. The common mistake is brewing it like a delicate green oolong: it wants fully boiling water and a proper dose of leaf, and a clay pot suits the roast.\n\nIt is sold by season, spring and winter, and increasingly by competition grade: Lugu has run tea competitions since 1976, now among the best known in Taiwan, and winning lots go out in sealed, numbered boxes at prices far above garden tea. 'Dong Ding' is also used loosely as a style name, so tea from Mingjian or elsewhere, and Jin Xuan or Si Ji Chun leaf, is often sold under it; ask for the cultivar and whether it was actually grown in Lugu.\n\nIf the roast is what you like, go deeper with a charcoal-roasted Dong Ding or a Hong Shui oolong; if it is the florals, Shan Lin Xi or Alishan will show you the same cultivar without the fire.",
   "wikipedia_title": "Dongding tea",
   "wikipedia_scope": "exact",
   "popularity": 5,
-  "sources_note": "Lugu competition grade names and the 300 g (half-jin) pack convention are from memory of the Farmers' Association system; worth checking the current tier list."
+  "sources_note": "Lugu competition grade names and the 300 g (half-jin) pack convention are from memory of the Farmers' Association system; worth checking the current tier list.",
+  "name_zh": "冻顶乌龙茶",
+  "name_ru": "Дун Дин",
+  "history": "The name is a place: Dong Ding hill in Lugu Township, written 崠頂 in an 1894 county survey, from a Hakka word for a summit. 'Frozen Summit' is a later folk reading. The bushes have several origin stories. The usual one says that in 1855 the scholar Lin Fengchi brought 36 Qing Xin oolong seedlings back from Wuyi and that 12 were planted beside Qilin Lake; a local Su family points to its own genealogy and Qianlong-era planting; and Lian Heng's 1908 general history of Taiwan speaks of a little-known native tea of Shuishalian.\n\nThe modern tea was built in the twentieth century. In 1948 Wu Zhenduo of the tea research station found under 50 hectares of old, stunted bushes, with farmers growing sweet potato between the rows to get by, and from 1953 the station began training them. In 1974, after Chiang Ching-kuo visited Fenghuang and Yonglong villages, a dedicated production zone was set up.\n\nThe real turning point came on 2 May 1976, when the first Dong Ding competition was held at Lugu Elementary School. The champion tea was bid up to 5,000 Taiwan dollars a catty when ordinary tea sold for 60 to 80, the press took notice, and the name spread. Competitions then pushed farmers toward lighter oxidation, so the once reddish liquor turned gold to orange-yellow.\n\nThe 1999 earthquake and Typhoon Toraji in 2001 badly hit the area. Rebuilding produced Dong Ding Gui Fei, a bug-bitten style with lychee and honey notes.",
+  "liquor_hex": "#D2A03F",
+  "leaf_hex": "#4A4A26",
+  "sources": [
+    "https://zh.wikipedia.org/wiki/%E5%87%8D%E9%A0%82%E7%83%8F%E9%BE%8D%E8%8C%B6",
+    "https://en.wikipedia.org/wiki/Dong_Ding_tea",
+    "https://ja.wikipedia.org/wiki/%E5%87%8D%E9%A0%82%E7%83%8F%E9%BE%8D%E8%8C%B6",
+    "https://en.wikipedia.org/wiki/Lugu%2C_Nantou"
+  ],
+  "confidence": "high",
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/30/Dong_Ding_tea.jpg/1280px-Dong_Ding_tea.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/30/Dong_Ding_tea.jpg/330px-Dong_Ding_tea.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Dong_Ding_tea.jpg",
+      "author": "Waliy sherpa",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "kind": "dry_leaf",
+      "alt": "Rolled dark Dong Ding oolong half-balls in a small metal dish held in a hand"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3d/Dongding_feuilles_liqueur.jpg/1280px-Dongding_feuilles_liqueur.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3d/Dongding_feuilles_liqueur.jpg/330px-Dongding_feuilles_liqueur.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Dongding_feuilles_liqueur.jpg",
+      "author": "Pancrat",
+      "license": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "kind": "liquor",
+      "alt": "Dong Ding oolong liquor in a white cup beside dry and infused leaves on a plate and a teapot"
+    }
+  ],
+  "i18n": {
+    "ru": {
+      "processing": "Умеренное окисление (традиционно около 25–35%, современные партии часто слабее), многократная скрутка в ткани в шарики, затем лёгкая или средняя обжарка, традиционно на углях из лонгана; именно обжарка отличает его от зелёного высокогорного стиля.",
+      "harvest_season": "Весна (апрель–май) и зима (конец октября — ноябрь) — два главных сбора, именно они идут на конкурсы; летние и осенние сборы тоже есть, но они дешевле и проще.",
+      "appearance_dry": "Тугие, слегка блестящие тёмно-зелёные или оливковые полушария с короткими черешками, темнее и тусклее высокогорного чая из-за обжарки.",
+      "appearance_liquor": "Прозрачный, от золотисто-жёлтого до светло-янтарного в зависимости от обжарки.",
+      "appearance_wet": "Плотные цельные листья раскрываются в тёмный оливково-зелёный цвет с красно-коричневыми краями, на ощупь мягкие, маслянистые.",
+      "taste_profile": "Сначала поджаренное зерно и тёплая сливочная сладость, под ними орхидея и спелые фрукты, густое мягкое ощущение во рту и долгий, мягко поджаристый финиш.",
+      "vintage_note": "Продаётся по сбору: весенний и зимний урожай текущего года, причём зимний Дун Дин часто чуть плотнее, а весенний ароматнее. На конкурсах в Лугу, которые после этих сборов проводят Ассоциация фермеров и местные чайные объединения, партии делят на уровни от Особого (特等) и Первого (頭等) и ниже и продают в запечатанных нумерованных упаковках с большой наценкой к обычному садовому чаю. Обжаренные партии хорошо хранятся год-два, а сильно обжаренные иногда специально выдерживают, но повседневный Дун Дин лучше выпить в течение года после обжарки.",
+      "history": "Название — это место: холм Дун Дин в волости Лугу, записанный как 崠頂 в уездной описи 1894 года, от хаккаского слова для вершины. «Морозная вершина» — более позднее народное толкование. О происхождении кустов рассказывают по-разному. Обычно говорят, что в 1855 году учёный Линь Фэнчи привёз из Уи 36 саженцев улуна Цин Синь и 12 из них посадили у озера Цилинь; местная семья Су ссылается на собственную родословную и посадки эпохи Цяньлун, а в «Общей истории Тайваня» Лянь Хэна 1908 года говорится о малоизвестном местном чае из Шуйшаляня.\n\nСовременный чай создавался в XX веке. В 1948 году У Чжэньдо с чайной исследовательской станции обнаружил меньше 50 гектаров старых, чахлых кустов, между рядами которых фермеры, чтобы как-то прожить, выращивали батат, а с 1953 года станция начала их обучать. В 1974 году, после поездки Цзян Цзинго в деревни Фэнхуан и Юнлун, была создана специальная зона производства.\n\nНастоящий перелом случился 2 мая 1976 года, когда в начальной школе Лугу прошёл первый конкурс Дун Дин. Цену чая-победителя подняли до 5000 тайваньских долларов за цзинь, тогда как обычный продавался по 60–80, пресса обратила внимание, и название разошлось. Затем конкурсы подтолкнули фермеров к более лёгкому окислению, и некогда красноватый настой стал золотисто-оранжево-жёлтым.\n\nЗемлетрясение 1999 года и тайфун «Тораджи» в 2001-м сильно ударили по этим местам. Из восстановления родился Дун Дин Гуй Фэй — чай из покусанного насекомыми листа с нотами личи и мёда.",
+      "description": "Дун Дин — это чай, который большинство тайваньцев имеет в виду, говоря просто «улун»: скрученный в шарики улун Цин Синь из деревень вокруг холма Дун Дин в волости Лугу, Наньтоу, на высоте примерно от 600 до 1200 метров. Большая его часть растёт ниже тайваньской тысячеметровой отметки для высокогорного чая, но по-настоящему его выделяет обжарка: он пьётся теплее и круглее, чем зелёный цветочный высокогорный стиль, появившийся позже. История о том, что кусты попали сюда из Уи в 1850-х вместе с учёным Линь Фэнчи, — местная легенда, которую повторяет каждая вывеска в Лугу.\n\nЛист вялят на солнце, затем в помещении с многократным перемешиванием, окисляют сильнее, чем высокогорный чай, прожаривают на сковороде и снова и снова скручивают в тканевых мешках, пока он не свернётся в тугие полушария. Затем обжарка: часы или дни в бамбуковых корзинах или печах, традиционно на углях из лонгана, которая превращает сырую цветочность в поджаренное зерно, мёд и сухофрукты и придаёт настою золотисто-янтарный цвет. Современные партии лёгкой обжарки стоят близко к высокогорному чаю; традиционные однозначно поджаристые.\n\nВ чашке сначала сливочная сладость и поджаренные злаки, затем орхидея и спелая фруктовость под ними, с плотной текстурой и финишем, который тепло остаётся в горле. Держит семь-восемь проливов и не становится резким, если его подтолкнуть. Обычная ошибка — заваривать его как нежный зелёный улун: ему нужен настоящий кипяток и полноценная порция листа, а обжарке подходит глиняный чайник.\n\nПродаётся он по сезону, весна и зима, и всё чаще по конкурсному уровню: в Лугу чайные конкурсы проводятся с 1976 года, сейчас они среди самых известных на Тайване, а партии-победители уходят в запечатанных нумерованных коробках по ценам намного выше садового чая. «Дун Дин» также свободно используют как название стиля, так что под ним часто продают чай из Минцзяня и других мест, а также лист Цзинь Сюань или Сы Цзи Чунь; спрашивайте про сорт и о том, вырос ли он действительно в Лугу.\n\nЕсли вам нравится обжарка, идите глубже: Дун Дин на углях или улун Хун Шуй; если цветочность — Шань Линь Си или Алишань покажут тот же сорт без огня.",
+      "brewing_notes": "Вода кипящая или только что снятая с огня; скрученному листу нужен чуть более долгий первый пролив, чтобы раскрыться. Глиняный чайник подчёркивает обжарку, фарфоровая гайвань лучше показывает цветочные ноты."
+    },
+    "zh": {
+      "processing": "中度氧化(传统约25%–35%,现代批次常更轻),用布球反复多轮揉捻,再做轻至中度焙火,传统上用龙眼木炭;正是焙火把它与清绿的高山茶风格区分开来。",
+      "harvest_season": "春茶(4–5月)和冬茶(10月下旬至11月)是两大主要产季,也是参加比赛的茶;夏秋茶也有,但更便宜、更平淡。",
+      "appearance_dry": "紧结的半球形,微有光泽,墨绿至橄榄色,带少许短梗;因焙火而比高山茶更深、更暗。",
+      "appearance_liquor": "清澈,金黄至浅琥珀色,视焙火程度而定。",
+      "appearance_wet": "肥厚的完整叶片舒展开来,呈深橄榄绿色,边缘红褐,手感柔软油润。",
+      "taste_profile": "入口是烤谷物和温暖的奶油甜感,底下是兰花香和熟果香,口感稠厚柔软,余韵悠长,带温和的焙火香。",
+      "vintage_note": "按产季销售:当年的春茶和冬茶,冬季冻顶往往稍厚,春季更香。鹿谷的比赛茶在这两季之后由农会和当地茶叶团体举办,按特等、头等往下分级,以密封编号包装出售,价格远高于普通茶园茶。焙火批次可存一两年,重焙的有时会特意陈放,但日常冻顶最好在焙火后一年内喝完。",
+      "history": "这个名字指的是一个地方:鹿谷乡的冻顶山,1894年的县志调查写作“崠顶”,出自客家话里表示山顶的词。“冰冻的山顶”是后来的民间解读。茶树的来历有好几种说法。常见的说法是,1855年书生林凤池从武夷带回36株青心乌龙茶苗,其中12株种在麒麟潭边;当地苏姓人家则援引自家族谱和乾隆年间的种植;连横1908年的台湾通史又提到水沙连一种鲜为人知的本土茶。\n\n现代的冻顶茶成形于二十世纪。1948年,茶叶试验站的吴振铎发现这里只有不到50公顷老弱茶树,茶农为了生计在行间种番薯;从1953年起,试验站开始培训他们。1974年,蒋经国视察凤凰、永隆两村后,设立了专门的生产区。\n\n真正的转折点是1976年5月2日,首届冻顶茶比赛在鹿谷小学举行。冠军茶被竞价到每斤5000新台币,而当时普通茶只卖60到80元,媒体纷纷报道,名声由此传开。此后比赛又推动茶农走向轻氧化,原本偏红的茶汤变成金黄至橙黄色。\n\n1999年的地震和2001年的台风桃芝重创当地。重建中诞生了冻顶贵妃,一种带荔枝和蜂蜜气息的虫咬风格茶。",
+      "description": "冻顶是多数台湾茶友不加限定说“乌龙”时指的那款茶:产自南投鹿谷乡冻顶山周边村落的球形青心乌龙,海拔约600至1200米。它大多长在台湾高山茶1000米门槛以下,但真正让它与众不同的是焙火,所以喝起来比后来兴起的清绿花香高山茶更温暖圆润。至于茶树是1850年代由书生林凤池从武夷带来的说法,只是当地传说,鹿谷的每块招牌上都在讲。\n\n鲜叶先日光萎凋,再室内反复浪青,氧化程度高于高山茶,经炒青后用布包一遍遍揉捻,直到卷成紧结的半球。接着是焙火:在竹笼或焙茶机中焙上几小时乃至几天,传统上用龙眼木炭,把生涩的花香转化为烤谷物、蜂蜜和果干,并赋予茶汤金黄到琥珀的颜色。轻焙的现代批次接近高山茶;传统批次则焙火香十分鲜明。\n\n杯中先是奶油甜感和烤谷物,底下是兰花香和熟果香,质地稠厚,余韵温暖地留在喉间。它能泡七八道,用力泡也不会变得粗涩。常见的错误是把它当清淡的绿乌龙来泡:它需要滚沸的水和足量投茶,紫砂陶壶也很衬这种焙火。\n\n它按春、冬两季销售,也越来越多地按比赛等级销售:鹿谷自1976年起举办茶赛,如今已跻身台湾最知名的比赛之列,获奖批次装在密封编号盒中,价格远高于茶园茶。“冻顶”也常被宽泛地当作风格名使用,所以名间等地的茶,以及金萱或四季春的叶子,也常以此名出售;要问清品种,以及是否真的产自鹿谷。\n\n如果你喜欢的是焙火,可以进一步试试炭焙冻顶或红水乌龙;如果喜欢的是花香,杉林溪或阿里山会让你尝到同一品种不经火的样子。",
+      "brewing_notes": "用沸水或刚离火的水;球形茶第一泡要稍长些才能舒展。陶壶衬托焙火,瓷盖碗更能显出花香。"
+    }
+  }
 }

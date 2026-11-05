@@ -1,0 +1,53 @@
+{
+  "slug": "huanglian-cha",
+  "name_en": "Huanglian Cha",
+  "name_native": "黄莲茶",
+  "name_romanized": "Huánglián Chá",
+  "aliases": [
+    "黃蓮茶"
+  ],
+  "category": "green",
+  "origin_country": "China",
+  "origin_region": "Guangdong · Qingyuan Liannan",
+  "cultivar": null,
+  "form": "loose",
+  "caffeine_level": "medium",
+  "brewing": {
+    "grams": 3,
+    "water_ml": 150,
+    "temp_c": 80,
+    "steeps": 3,
+    "seconds": [
+      60,
+      75,
+      105
+    ],
+    "notes": "A safe starting point for green tea: cooler water, short steeps, then adjust by taste."
+  },
+  "taste_tags": [
+    "vegetal",
+    "sweet"
+  ],
+  "description": "One of the named teas of the Liannan Yao mountains in northern Guangdong, grown by the Yao people on high slopes.\n\nTreat it as you would any green tea: cooler water, short steeps, and a seller who can say where and when it was picked.",
+  "wikipedia_title": null,
+  "wikipedia_scope": "none",
+  "popularity": 1,
+  "name_zh": "黄莲茶",
+  "name_ru": "Хуан Лянь Ча",
+  "history": "It is credited with a lingering clean fragrance and with winning the favour of the British queen at a London tea exhibition in 1957, a story that comes from a single popular account. Little more is documented about it.",
+  "liquor_hex": "#D6D27A",
+  "leaf_hex": "#7E8B3E",
+  "sources": [
+    "https://www.maigoo.com/top/423321.html"
+  ],
+  "confidence": "low",
+  "images": [],
+  "stub": true,
+  "processing": "Typical of green tea: picked, heated soon after picking to stop oxidation, then shaped and dried.",
+  "harvest_season": "Usually picked in spring, with the earliest pickings prized, as with most green teas.",
+  "appearance_dry": "Green leaf whose shape depends on the maker, as is usual for regional green teas.",
+  "appearance_liquor": "Usually a clear, pale yellow-green.",
+  "appearance_wet": "Usually soft green leaf that opens up in the water.",
+  "taste_profile": "Expect what green teas usually give: fresh, vegetal and lightly sweet.",
+  "vintage_note": "Green teas like this are normally sold as the current year's harvest and are best within a year of picking. It is not an ageing tea."
+}

@@ -1,0 +1,53 @@
+{
+  "slug": "kanoo-cha",
+  "name_en": "Kanoo-cha",
+  "name_native": "鹿子尾茶",
+  "name_romanized": "Kanoo-cha",
+  "aliases": [
+    "Kanoo-cha (Hatsuhana pan-fired tea, historic)"
+  ],
+  "category": "green",
+  "origin_country": "Japan",
+  "origin_region": "Fukuoka · Yame",
+  "cultivar": null,
+  "form": "loose",
+  "caffeine_level": "medium",
+  "brewing": {
+    "grams": 3,
+    "water_ml": 150,
+    "temp_c": 80,
+    "steeps": 3,
+    "seconds": [
+      60,
+      75,
+      105
+    ],
+    "notes": "A safe starting point for green tea: cooler water, short steeps, then adjust by taste."
+  },
+  "taste_tags": [
+    "vegetal",
+    "sweet"
+  ],
+  "description": "A historic pan-fired tea from the Yame area of Fukuoka, sold under names such as Uguisu and Hatsuhana.\n\nTreat it as you would any green tea: cooler water, short steeps, and a seller who can say where and when it was picked.",
+  "wikipedia_title": null,
+  "wikipedia_scope": "none",
+  "popularity": 1,
+  "name_zh": "鹿子尾茶",
+  "name_ru": "Каноо-тя",
+  "history": "Through the Horeki and Meiwa years (1751 to 1771) it was popular in the Kyoto and Osaka markets. The leaf came from seed-grown bushes on mountain slopes rather than managed gardens, so supply was unsteady. Little more is documented.",
+  "liquor_hex": "#D9CC7A",
+  "leaf_hex": "#6E7A3C",
+  "sources": [
+    "https://ja.wikipedia.org/wiki/八女茶"
+  ],
+  "confidence": "low",
+  "images": [],
+  "stub": true,
+  "processing": "Pan-fired rather than steamed.",
+  "harvest_season": "Usually picked in spring, with the earliest pickings prized, as with most green teas.",
+  "appearance_dry": "Green leaf whose shape depends on the maker, as is usual for regional green teas.",
+  "appearance_liquor": "Usually a clear, pale yellow-green.",
+  "appearance_wet": "Usually soft green leaf that opens up in the water.",
+  "taste_profile": "Expect what green teas usually give: fresh, vegetal and lightly sweet.",
+  "vintage_note": "Historic: documented for the mid-18th century."
+}

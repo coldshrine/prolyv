@@ -74,7 +74,15 @@ def api(lang, **params):
     params.update(format='json', redirects=1)
     return get(f'https://{lang}.wikipedia.org/w/api.php', params)
 
+PAGES = {}
+
 def page(lang, title):
+    key = (lang, title)
+    if key not in PAGES:
+        PAGES[key] = _page(lang, title)
+    return PAGES[key]
+
+def _page(lang, title):
     extra = {'variant': 'zh-cn'} if lang == 'zh' else {}
     d = api(lang, action='query', prop='extracts|pageprops', explaintext=1, titles=title, **extra)
     try:
@@ -144,6 +152,8 @@ def search(lang, query, n=3):
     except (TypeError, KeyError):
         return []
 
+PARSED = {}
+
 def build(it):
     slug = it['slug']
     path = os.path.join(OUT, slug + '.json')
@@ -163,8 +173,8 @@ def build(it):
         add('en', it.get('wikipedia_title'))
     elif it.get('wikipedia_scope') is None and not thin:
         add('en', it.get('en'))
-        for a in (it.get('aliases') or [])[:3]:
-            if re.fullmatch(r'[A-Za-z][A-Za-z \-\']+', a or ''):
+        for a in (it.get('aliases') or [])[:2]:
+            if 'en' not in pages and re.fullmatch(r'[A-Za-z][A-Za-z \-\']+', a or ''):
                 add('en', a)
     add('zh', it.get('zh'))
     if thin and not it.get('zh'):
@@ -177,7 +187,7 @@ def build(it):
         add('ko', it.get('native'))
     if it.get('country') == 'Vietnam':
         add('vi', it.get('en'))
-    if not thin:
+    if not thin and not pages:
         add('ru', it.get('ru'))
     wd = None
     for p in list(pages.values()):
@@ -208,27 +218,30 @@ def build(it):
         if m:
             add_mention(m.group(1), urllib.parse.unquote(m.group(2)).replace('_', ' '))
     if not thin:
-        if it.get('zh') and len(it['zh']) >= 2:
-            for t in search('zh', f'"{it["zh"]}" 茶'):
+        # wiki search only when nothing else turned up: the shared request budget is small, writers can still search the web
+        if it.get('zh') and len(it['zh']) >= 2 and not pages and len(mention_pages) < 2:
+            for t in search('zh', f'"{it["zh"]}" 茶', 2):
                 add_mention('zh', t)
-        if it.get('en'):
-            for t in search('en', f'"{it["en"]}" tea', 2):
+        if it.get('en') and not pages and not mention_pages:
+            for t in search('en', f'"{re.sub(r" *[(].*?[)]", "", it["en"])}" tea', 2):
                 add_mention('en', t)
-        if it.get('ru') and len(pages) < 2:
-            for t in search('ru', f'"{it["ru"]}" чай', 2):
-                add_mention('ru', t)
     # evidence pages the discovery agents opened
     evidence = []
     for url in [u for u in (it.get('evidence') or []) if isinstance(u, str) and u.startswith('http')][:3]:
         if 'wikipedia.org' in url:
             continue
-        raw = get(url, is_json=False, timeout=15)
-        if not raw:
-            continue
-        try:
-            title, text = html_text(raw)
-        except Exception:
-            continue
+        cached = PARSED.get(url)
+        if cached is None:
+            raw = get(url, is_json=False, timeout=15)
+            if not raw:
+                continue
+            try:
+                cached = html_text(raw)
+            except Exception:
+                continue
+            if len(PARSED) < 3000:
+                PARSED[url] = cached
+        title, text = cached
         m = mentions(text, names, 1500)
         if m:
             evidence.append({'url': url, 'title': title, 'text': m})

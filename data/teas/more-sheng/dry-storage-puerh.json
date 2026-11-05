@@ -1,0 +1,65 @@
+{
+  "slug": "dry-storage-puerh",
+  "name_en": "Dry-Storage Pu-erh",
+  "name_native": "干仓普洱",
+  "name_romanized": "Gāncāng Pǔ'ěr",
+  "name_zh": "干仓普洱茶",
+  "name_ru": "Пуэр сухого хранения",
+  "aliases": [
+    "Dry Storage Pu'er",
+    "Dry-stored Pu-erh",
+    "干仓",
+    "乾倉",
+    "Ган Цан"
+  ],
+  "category": "sheng",
+  "origin_country": "China",
+  "origin_region": "Yunnan",
+  "cultivar": "Yunnan large-leaf",
+  "processing": "Ordinary pressed sheng aged in a dry, ventilated store without deliberate added humidity; one buying guide puts dry storage below 70% relative humidity, but no fixed standard exists.",
+  "form": "cake",
+  "harvest_season": "Not defined by harvest; the term describes storage, and any season's tea can be stored this way.",
+  "appearance_dry": "A firm cake that darkens gradually from olive to brown and stays clean, with no white mould or frost.",
+  "appearance_liquor": "Golden to amber, clearer and lighter than wet-stored tea of the same age.",
+  "appearance_wet": "Leaves stay comparatively supple and brownish green, without the dark, brittle look of wet storage.",
+  "taste_profile": "Ages slowly, keeping aroma and a quick, strong returning sweetness; a clean cup without musty notes.",
+  "taste_tags": [
+    "woody",
+    "sweet",
+    "bitter",
+    "camphor"
+  ],
+  "brewing": {
+    "grams": 6,
+    "water_ml": 100,
+    "temp_c": 95,
+    "steeps": 8,
+    "seconds": [
+      10,
+      10,
+      12,
+      15,
+      20,
+      25,
+      35,
+      45
+    ],
+    "notes": "Typical settings for aged sheng. It keeps more of its young grip than wet-stored tea, so keep steeps short."
+  },
+  "caffeine_level": "medium",
+  "vintage_note": "Sold as sheng of a stated harvest year with the storage described, often as a city or region such as Kunming. Change is slow, so a tea of 10 years can still seem youthful. Claims of dry storage are hard to check, so judge by smell and cup, with any mustiness as a warning.",
+  "description": "Dry-storage pu-erh isn't a kind of tea so much as a way of ageing one: sheng kept in a relatively dry, ventilated place, not in a humid warehouse. It is a set of choices about time and humidity, and it changes what you get in the cup.\n\nThe trade-off is speed for clarity. Dry conditions slow the changes in the leaf, so aroma and a quick returning sweetness hold on while bitterness softens gradually. Humid, warm storage moves faster and gives a softer, smoother cup, but it brings risk of mould.\n\nExpect a clean tea with more of its young character than a wet-stored equivalent. Brew it as you would aged sheng, with very hot water and short steeps.\n\nThe terms are relative, not standards. One guide draws the line at below 70% humidity for dry and above 80% for wet, while others recommend 55 to 75% for home storage. Hong Kong storage is a particular debate, since some argue it should not simply be equated with wet storage. Trust your nose: dry storage should smell clean.",
+  "history": "The dry and wet distinction grew up in the pu-erh trade as buyers began to compare how stored tea had aged. It became a talking point partly in reaction to tea kept in humid conditions, including cellars, to hurry its ageing.\n\nHow storage shapes value remains argued over. Some writers claim most truly old teas were dry-stored, while others defend skilled, humid Hong Kong storage. No single standard or origin date for the term is documented.",
+  "liquor_hex": "#B9812E",
+  "leaf_hex": "#4B3D28",
+  "wikipedia_title": null,
+  "wikipedia_scope": "none",
+  "popularity": 3,
+  "sources": [
+    "https://www.maigoo.com/goomai/740799.html",
+    "https://www.rmzxw.com.cn/c/2014-03-21/308395.shtml",
+    "https://www.jiemian.com/article/1997285.html"
+  ],
+  "confidence": "low",
+  "images": []
+}

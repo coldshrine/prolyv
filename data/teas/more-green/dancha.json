@@ -1,0 +1,55 @@
+{
+  "slug": "dancha",
+  "name_en": "Dancha",
+  "name_native": "団茶",
+  "name_romanized": "Dancha",
+  "aliases": [
+    "團茶",
+    "餅茶"
+  ],
+  "category": "green",
+  "origin_country": "Japan",
+  "origin_region": "Japan",
+  "cultivar": null,
+  "form": "cake",
+  "caffeine_level": "medium",
+  "brewing": {
+    "grams": 3,
+    "water_ml": 150,
+    "temp_c": 80,
+    "steeps": 3,
+    "seconds": [
+      60,
+      75,
+      105
+    ],
+    "notes": "A safe starting point for green tea: cooler water, short steeps, then adjust by taste."
+  },
+  "taste_tags": [
+    "vegetal",
+    "sweet"
+  ],
+  "description": "Dancha is compressed tea, historically made by steaming leaf and pounding it in a mortar before shaping it. The word now covers solid teas of many shapes and grades, and in Japan it recalls the form that arrived from Tang China.\n\nTreat it as you would any green tea: cooler water, short steeps, and a seller who can say where and when it was picked.",
+  "wikipedia_title": null,
+  "wikipedia_scope": "none",
+  "popularity": 1,
+  "name_zh": "团茶",
+  "name_ru": "Дантя",
+  "history": "Lu Yu's Classic of Tea describes the pounded cakes, then called bingcha, and the name dancha became usual in the Song dynasty, when dragon and phoenix cakes went to the court as tribute. The first Ming emperor abolished those tribute cakes, and the solid form then survived mainly as tea for export to frontier peoples. The monks Saicho and Kukai brought it to Japan in the Heian period, where the court around Emperor Saga drank it, but the fashion faded after the embassies to Tang ended. Kochi's goishicha is said to descend from it.",
+  "liquor_hex": "#B98F45",
+  "leaf_hex": "#5F5A32",
+  "sources": [
+    "https://ja.wikipedia.org/wiki/%E5%9B%A3%E8%8C%B6",
+    "https://en.wikipedia.org/wiki/Tea_culture_in_Japan"
+  ],
+  "confidence": "medium",
+  "images": [],
+  "stub": true,
+  "processing": "Steamed leaf was pounded in a mortar and pressed into a solid shape; Tang-era drinkers ground it to powder and seasoned it with salt and spices such as cinnamon or ginger.",
+  "harvest_season": "Usually picked in spring, with the earliest pickings prized, as with most green teas.",
+  "appearance_dry": "Green leaf whose shape depends on the maker, as is usual for regional green teas.",
+  "appearance_liquor": "Usually a clear, pale yellow-green.",
+  "appearance_wet": "Usually soft green leaf that opens up in the water.",
+  "taste_profile": "Expect what green teas usually give: fresh, vegetal and lightly sweet.",
+  "vintage_note": "Green teas like this are normally sold as the current year's harvest and are best within a year of picking. It is not an ageing tea."
+}

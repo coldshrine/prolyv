@@ -3,7 +3,14 @@
   "name_en": "Sheng Jian",
   "name_native": "生尖茶",
   "name_romanized": "Shēngjiān Chá",
-  "aliases": ["Shengjian", "Anhua Sheng Jian", "Sheng Jian Hei Cha", "Xiang Jian", "Raw Tips"],
+  "aliases": [
+    "Shengjian",
+    "Anhua Sheng Jian",
+    "Sheng Jian Hei Cha",
+    "Xiang Jian No. 3",
+    "湘尖三号",
+    "Raw Tips"
+  ],
   "category": "heicha",
   "origin_country": "China",
   "origin_region": "Hunan · Yiyang · Anhua",
@@ -15,13 +22,44 @@
   "appearance_liquor": "Orange-red, clear, deepening with simmering.",
   "appearance_wet": "Coarse brown leaves and woody stems.",
   "taste_profile": "Rustic, sweet and woody with pine smoke and a hay-like note, thin if steeped quickly but thick and honeyed when simmered.",
-  "taste_tags": ["woody", "smoky", "sweet", "herbal"],
-  "brewing": {"grams": 8, "water_ml": 120, "temp_c": 100, "steeps": 7, "seconds": [15, 15, 20, 30, 45, 60, 120], "notes": "Best simmered: 10 g per litre for 5–10 minutes, with or without milk. Gongfu steeps work after a rinse but need boiling water and a generous dose."},
+  "taste_tags": [
+    "woody",
+    "smoky",
+    "sweet",
+    "herbal"
+  ],
+  "brewing": {
+    "grams": 8,
+    "water_ml": 120,
+    "temp_c": 100,
+    "steeps": 7,
+    "seconds": [
+      15,
+      15,
+      20,
+      30,
+      45,
+      60,
+      120
+    ],
+    "notes": "Best simmered: 10 g per litre for 5–10 minutes, with or without milk. Gongfu steeps work after a rinse but need boiling water and a generous dose."
+  },
   "caffeine_level": "low",
   "vintage_note": "Sold by year and factory in baskets and bulk packs as the cheapest Anhua basket tea; market lots run 1–15 years and it benefits more than any other Anhua tea from a few years' rest, which turn its coarseness into sweetness.",
-  "description": "Sheng Jian is the bottom of the three Anhua basket grades, made from coarse summer leaf with stems and the occasional flat old leaf. It is the tea the other two were sorted out of, and it would be easy to dismiss if it did not make such an honest, sweet pot when it is treated the way it was designed to be: boiled.\n\nThe leaf is processed as hei mao cha like the rest – pan-fired, rolled, briefly piled and dried over pine fires – and steamed into bamboo baskets to dry and mature. Coarse leaf and stems carry less aroma than bud and young leaf but far more sugar, which is why dark-tea makers have never minded them; the pine smoke clings harder to coarse leaf, too, so young Sheng Jian is the smokiest of the three.\n\nSteeped quickly in a gaiwan it is thin and woody; simmered for five to ten minutes it becomes thick, honeyed and hay-sweet with the smoke in the background, and it will take milk. Rest it a few years and the smoke drops away, leaving a soft, sweet, woody tea that costs almost nothing.\n\nIt is sold by year and factory in baskets and bulk packs, mostly to people who drink Anhua tea by the kettle rather than the cup. There is no point paying a premium for it; what matters is clean storage (no must, no sourness) and a decent factory. Expect lots of stems and do not count them as a fault.\n\nIf you want to try Anhua tea the way it is drunk in the north-west – boiled, with milk and a pinch of salt – this is the grade to do it with.",
+  "description": "Sheng Jian is the bottom of the three Anhua basket grades, made from coarse summer leaf with stems and the occasional flat old leaf. It would be easy to dismiss if it did not make such an honest, sweet pot when it is treated the way it was designed to be: boiled.\n\nThe leaf is processed as hei mao cha like the rest – pan-fired, rolled, briefly piled and dried over pine fires – and steamed into bamboo baskets to dry and mature. Coarse leaf and stems carry less aroma than bud and young leaf, and young Sheng Jian tends to be the smokiest of the three.\n\nSteeped quickly in a gaiwan it is thin and woody; simmered for five to ten minutes it becomes thick, honeyed and hay-sweet with the smoke in the background, and it will take milk. Rest it a few years and the smoke drops away, leaving a soft, sweet, woody tea that costs almost nothing.\n\nIt is sold by year and factory in baskets and bulk packs, mostly to people who drink Anhua tea by the kettle rather than the cup. There is no point paying a premium for it; what matters is clean storage (no must, no sourness) and a decent factory. Expect lots of stems and do not count them as a fault.\n\nIf you want to try Anhua tea the way it is drunk in the north-west – boiled, with milk and a pinch of salt – this is the grade to do it with.",
   "wikipedia_title": "Fermented tea",
   "wikipedia_scope": "umbrella",
   "popularity": 1,
-  "sources_note": "Grade-3 leaf standard follows Chinese standards; the exact origin of the name 'sheng' (raw/coarse) is not settled and is left unexplained."
+  "sources_note": "Grade-3 leaf standard follows Chinese standards; the exact origin of the name 'sheng' (raw/coarse) is not settled and is left unexplained.",
+  "name_zh": "生尖",
+  "name_ru": "Шэн Цзянь",
+  "history": "Sheng Jian is the lowest of the three Anhua basket teas. Accounts from Anhua trace the family to the Qianlong era, when Shanxi merchants from Quwo and local tea houses reprocessed the more tender dark leaf into lightly pressed baskets, at first in seven named grades. After 1949 only Tian Jian, Gong Jian and Sheng Jian remained, together called the three Jian.\n\nThe usual story has the Daoguang emperor naming the top grade, Tian Jian, in 1825; treat that as legend. Better recorded is its recent history: in 1967 the name was judged feudal and it became Xiang Jian No. 3 at the Baishaxi factory, returning to Sheng Jian in 1983. An industry standard for the Xiang Jian teas followed in 2010 and a national one in 2016.",
+  "liquor_hex": "#B5602A",
+  "leaf_hex": "#4A3524",
+  "sources": [
+    "https://m.voc.com.cn/xhn/news/202303/16072838.html",
+    "https://zh.wikipedia.org/wiki/%E9%BB%91%E8%8C%B6"
+  ],
+  "confidence": "medium",
+  "images": []
 }

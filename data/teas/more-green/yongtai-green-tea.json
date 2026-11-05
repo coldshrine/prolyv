@@ -1,0 +1,52 @@
+{
+  "slug": "yongtai-green-tea",
+  "name_en": "Yongtai Green Tea",
+  "name_native": "永泰绿茶",
+  "name_romanized": "Yǒngtài Lǜchá",
+  "aliases": [],
+  "category": "green",
+  "origin_country": "China",
+  "origin_region": "Fujian · Yongtai",
+  "cultivar": null,
+  "form": "loose",
+  "caffeine_level": "medium",
+  "brewing": {
+    "grams": 3,
+    "water_ml": 150,
+    "temp_c": 80,
+    "steeps": 3,
+    "seconds": [
+      60,
+      75,
+      105
+    ],
+    "notes": "A safe starting point for green tea: cooler water, short steeps, then adjust by taste."
+  },
+  "taste_tags": [
+    "nutty",
+    "floral",
+    "sweet"
+  ],
+  "description": "A green tea of Yongtai county under Fuzhou in Fujian.\n\nTreat it as you would any green tea: cooler water, short steeps, and a seller who can say where and when it was picked.",
+  "wikipedia_title": null,
+  "wikipedia_scope": "none",
+  "popularity": 1,
+  "name_zh": "永泰绿茶",
+  "name_ru": "Юн Тай Люй Ча",
+  "history": "Tea production in the county is recorded as far back as the Tang dynasty. Little more is documented about this tea's own history.",
+  "liquor_hex": "#D6D27A",
+  "leaf_hex": "#7E8B3E",
+  "sources": [
+    "https://www.maigoo.com/top/430372.html"
+  ],
+  "confidence": "low",
+  "images": [],
+  "stub": true,
+  "processing": "Fixed, rolled, shaped and baked.",
+  "harvest_season": "Usually picked in spring, with the earliest pickings prized, as with most green teas.",
+  "appearance_dry": "Tight, even strands of a moist green colour with visible down.",
+  "appearance_liquor": "Bright, tender green.",
+  "appearance_wet": "Bright, even green leaves.",
+  "taste_profile": "Fresh, mellow and sweet, with a chestnut aroma and a floral note.",
+  "vintage_note": "Green teas like this are normally sold as the current year's harvest and are best within a year of picking. It is not an ageing tea."
+}

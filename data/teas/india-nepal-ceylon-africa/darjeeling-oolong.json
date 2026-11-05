@@ -3,7 +3,11 @@
   "name_en": "Darjeeling Oolong",
   "name_native": "दार्जिलिङ चिया",
   "name_romanized": "Dārjiliṅ chiyā",
-  "aliases": ["Darjeeling oolong tea", "Oolong Darjeeling", "Darjeeling semi-oxidised"],
+  "aliases": [
+    "Darjeeling oolong tea",
+    "Oolong Darjeeling",
+    "Darjeeling semi-oxidised"
+  ],
   "category": "oolong",
   "origin_country": "India",
   "origin_region": "West Bengal · Darjeeling",
@@ -15,12 +19,50 @@
   "appearance_liquor": "Golden to light amber, clear.",
   "appearance_wet": "Olive-brown leaf with reddish edges.",
   "taste_profile": "Floral and fruity: honeysuckle, ripe pear and apricot with a soft, honeyed body and noticeably less astringency than the black teas from the same leaf.",
-  "taste_tags": ["floral", "fruity", "honey", "sweet"],
-  "brewing": {"grams": 4, "water_ml": 200, "temp_c": 90, "steeps": 3, "seconds": [180, 240, 300], "notes": "Also good gongfu style (6 g per 120 ml, steeps of 20–40 seconds), where the fruit opens up over several infusions."},
+  "taste_tags": [
+    "floral",
+    "fruity",
+    "honey",
+    "sweet"
+  ],
+  "brewing": {
+    "grams": 4,
+    "water_ml": 200,
+    "temp_c": 90,
+    "steeps": 3,
+    "seconds": [
+      180,
+      240,
+      300
+    ],
+    "notes": "Also good gongfu style (6 g per 120 ml, steeps of 20–40 seconds), where the fruit opens up over several infusions."
+  },
   "caffeine_level": "medium",
   "vintage_note": "Sold by garden, season and year in small lots, often with the clonal (AV2) in the listing, at roughly first-flush prices; drink within a year or two. Treat 'oolong' on a Darjeeling label as the maker's description of style rather than a defined category: there is no standard oxidation level, so two lots can taste very different and it pays to compare.",
   "description": "Darjeeling oolong is what a few estates make when they take their partly oxidised spring processing one step further on purpose: longer withers, a little bruising, controlled oxidation somewhere between a green and a black tea, and a gentle finish. Since a first-flush Darjeeling is already only partly oxidised, the boundary is blurry, and the word 'oolong' on a Darjeeling label is the maker's description of style rather than a defined category.\n\nOxidation typically lands somewhere between 30 and 60 per cent; some gardens finish with a light roast, most do not. The leaf stays long and loosely twisted, mottled olive and brown with silver tips, and the cup is golden to light amber.\n\nIn the cup you get honeysuckle, ripe pear and apricot with a honeyed softness and noticeably less astringency than a black tea from the same leaf. It is at its best brewed Western style at about 90 °C for three minutes, or gongfu style in a small pot with short steeps, where its fruit opens up over several infusions.\n\nIt is sold by garden, season and year in small lots, often labelled with the clonal (AV2 is the usual one), and it costs about what a good first flush does. Because there is no standard for how oxidised it should be, two 'Darjeeling oolongs' can taste very different; read the seller's description and compare. Drink within a year or two.\n\nIt is a good bridge for oolong drinkers curious about Darjeeling, and for Darjeeling drinkers who find the first flush a touch sharp.",
   "wikipedia_title": "Darjeeling tea",
   "wikipedia_scope": "umbrella",
-  "popularity": 2
+  "popularity": 2,
+  "name_zh": "大吉岭乌龙茶",
+  "name_ru": "Дарджилинг улун",
+  "history": "Darjeeling is overwhelmingly a black tea district, and oolong is an exception made there by choice. Some estates produce a batch now and then by limiting oxidation, borrowing Chinese method on the local leaf.\n\nNo founding date or first maker is well documented, and there is no fixed standard for the style. The name tells you what the garden intended more than how oxidised the tea actually is.",
+  "liquor_hex": "#D9A441",
+  "leaf_hex": "#6E6A45",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Darjeeling_tea",
+    "https://en.wikipedia.org/wiki/Oolong"
+  ],
+  "confidence": "low",
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bb/Darjeeling_Oolong_Tea.jpg/1280px-Darjeeling_Oolong_Tea.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bb/Darjeeling_Oolong_Tea.jpg/330px-Darjeeling_Oolong_Tea.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Darjeeling_Oolong_Tea.jpg",
+      "author": "Benoy",
+      "license": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "kind": "dry_leaf",
+      "alt": "Long, loosely twisted dry Darjeeling oolong leaves in mixed dark olive and pale green on a white background"
+    }
+  ]
 }

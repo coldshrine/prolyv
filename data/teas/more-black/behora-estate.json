@@ -1,0 +1,56 @@
+{
+  "slug": "behora-estate",
+  "name_en": "Behora",
+  "name_native": null,
+  "name_romanized": null,
+  "name_zh": "贝霍拉阿萨姆红茶",
+  "name_ru": "Ассам Бехора",
+  "aliases": [
+    "Assam Behora"
+  ],
+  "category": "black",
+  "origin_country": "India",
+  "origin_region": "Assam · Golaghat",
+  "cultivar": null,
+  "processing": "Black tea, fully oxidised and fired, sold abroad mainly as the whole-leaf TGFOP and the broken FBOP.",
+  "form": "loose",
+  "harvest_season": "Lots on the market are mostly second flush, picked around June.",
+  "appearance_dry": "Dark leaf, either twisted and tippy (TGFOP) or small and broken (FBOP).",
+  "appearance_liquor": "Deep red-brown, darker in the broken grade.",
+  "appearance_wet": "Coppery-brown, in smaller pieces for the broken grade.",
+  "taste_profile": "Strong and malty with a sweet undertone; the broken grade pours heavier and brisker.",
+  "taste_tags": [
+    "malty",
+    "sweet",
+    "brisk"
+  ],
+  "brewing": {
+    "grams": 3,
+    "water_ml": 250,
+    "temp_c": 95,
+    "steeps": 1,
+    "seconds": [
+      210
+    ],
+    "notes": "Western-style. Shorten the steep by a minute for the broken FBOP, which gives up its strength faster."
+  },
+  "caffeine_level": "high",
+  "vintage_note": "Sold by flush and grade, mainly second flush TGFOP and FBOP, sometimes without the year stated on the shop page. Ask for the season when you can. As usual for Assam black tea, it is best within a year or two.",
+  "description": "Behora is a garden in Golaghat district, near the Dhansiri river and the foothills of the Karbi hills, not far from Kaziranga. It is a working-style Assam with a long history behind it rather than a boutique name.\n\nSellers offer it mostly in two grades. TGFOP is the whole-leaf version with tip and FBOP is the broken one, and the difference matters more here than any tasting note: same garden, but a noticeably heavier cup from the smaller leaf.\n\nExpect a strong malt with a little sweetness underneath. It is a good morning tea and takes milk well, as other strong Assams do. If it comes out harsh, cut the time before you cut the leaf.\n\nGood to know when buying: several shops describe it almost identically and few state the year, so a dated lot is worth preferring.",
+  "history": "An article on planter life records that jungle near the Dhansiri was cleared and the estate set up by 1908, with a wooden factory beside the river. The present factory, offices and bungalows date from about 1935, and an airstrip was once built so senior staff could fly in from Calcutta.\n\nThe same article names McLeod Russel India Ltd as owner at the time of writing; ownership may have changed since.",
+  "liquor_hex": "#8E3E18",
+  "leaf_hex": "#3F2C1C",
+  "sources": [
+    "https://www.historyofceylontea.com/ceylon-publications/ceylon-tea-articles/slice-of-planter-s-life-a-visit-to-the-behora-tea-estate.html",
+    "https://britishtea.com/products/assam-behora-fbop-2nd-flush",
+    "https://ratetea.com/tea/apollo/behora-assam-tgfop/2521",
+    "https://www.tea-and-coffee.com/assam-tea-behora-tgfop",
+    "https://assaminfo.com/general-knowledge-assam/districtwise-tea-gardens-in-assam",
+    "https://en.wikipedia.org/wiki/Bokakhat"
+  ],
+  "confidence": "medium",
+  "wikipedia_title": null,
+  "wikipedia_scope": "none",
+  "popularity": 2,
+  "images": []
+}

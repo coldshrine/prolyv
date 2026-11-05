@@ -1,0 +1,55 @@
+{
+  "slug": "christmas-tea",
+  "name_en": "Christmas Tea",
+  "name_native": "Thé de Noël",
+  "name_romanized": null,
+  "name_zh": "圣诞茶",
+  "name_ru": "Рождественский чай",
+  "aliases": [
+    "Christmas tea (The de Noel)",
+    "French Christmas tea",
+    "Thé de Noël",
+    "The de Noel"
+  ],
+  "category": "black",
+  "origin_country": "France",
+  "origin_region": "France",
+  "cultivar": null,
+  "processing": "A blend: tea, usually black, is mixed with flowers, dried fruit or spices, and commercial versions also get part of their taste from added flavourings.",
+  "form": "loose",
+  "harvest_season": "Not tied to a harvest; the base tea comes from any season, and blends mostly appear for the winter holidays.",
+  "appearance_dry": "Dark leaf flecked with pieces of spice, peel or flowers, varying by blender.",
+  "appearance_liquor": "Clear reddish brown, as with most black tea blends.",
+  "appearance_wet": "Dark leaf mixed with softened bits of fruit and spice.",
+  "taste_profile": "Varies by recipe; usually warm spice and dried fruit over a plain black tea base.",
+  "taste_tags": [
+    "spicy",
+    "dried-fruit",
+    "citrus",
+    "sweet"
+  ],
+  "brewing": {
+    "grams": 3,
+    "water_ml": 250,
+    "temp_c": 95,
+    "steeps": 1,
+    "seconds": [
+      210
+    ],
+    "notes": "Normally brewed Western-style. Follow the blender's advice, since recipes differ, and shorten the steep if it turns bitter."
+  },
+  "caffeine_level": "medium",
+  "vintage_note": "Sold seasonally as a holiday blend, not by harvest year, and most shops stock it around the end of the year. Flavoured blends lose aroma with time, so buy the current season's batch and drink it within the winter or soon after.",
+  "description": "Thé de Noël, or Christmas tea, is a family of holiday blends rather than one tea. Tea is combined with flowers, dried fruit or spices, and in France it is treated as part of the flavoured tea world.\n\nThere is no fixed recipe. Each blender builds their own, and commercial versions usually lean on added flavourings as well as the visible pieces in the tin.\n\nExpect the warmth to come from the additions, with the tea underneath as a plain base. Brew it Western-style in a pot and keep the steep moderate, since a long one brings out the bitterness of the leaf and muddies the spice.\n\nWhen buying, read the ingredient list. It tells you more than the festive name does, including whether the flavour comes from real spice and peel or mostly from aroma.",
+  "history": "Little is documented about the origin of Christmas tea as a named style, and no first maker or date can be given with confidence. It is recorded today as one of the blends counted among flavoured teas in France, and many tea sellers now offer their own version.",
+  "wikipedia_title": null,
+  "wikipedia_scope": "none",
+  "popularity": 3,
+  "liquor_hex": "#9A4A20",
+  "leaf_hex": "#3B2A1E",
+  "sources": [
+    "https://fr.wikipedia.org/wiki/Th%C3%A9_aromatis%C3%A9"
+  ],
+  "confidence": "low",
+  "images": []
+}

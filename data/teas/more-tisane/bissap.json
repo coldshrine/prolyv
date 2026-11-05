@@ -1,0 +1,63 @@
+{
+  "slug": "bissap",
+  "name_en": "Bissap (Zobo, Sobolo, Wonjo)",
+  "name_native": "bissap",
+  "name_romanized": null,
+  "name_zh": "西非洛神花饮",
+  "name_ru": "Биссап (зобо, соболо)",
+  "aliases": [
+    "Jus de Bissap",
+    "Zobo",
+    "Sobolo",
+    "Wonjo",
+    "Ondjo",
+    "Dabileni",
+    "Tsobo",
+    "Roselle juice",
+    "Dah"
+  ],
+  "category": "tisane",
+  "origin_country": "Senegal",
+  "origin_region": "West Africa",
+  "cultivar": "Hibiscus sabdariffa",
+  "processing": "Dried roselle calyces are infused or boiled, often with ginger, cloves, mint, vanilla or orange, then strained, sweetened and usually chilled.",
+  "form": "loose",
+  "harvest_season": "Made year-round from dried calyces; no prized picking applies.",
+  "appearance_dry": "Curled, leathery, dark crimson calyces.",
+  "appearance_liquor": "Dark ruby to purple-red and clear, generally served cold.",
+  "appearance_wet": "Plump, soft, deep magenta calyces.",
+  "taste_profile": "Tart like cranberry or grape juice, sweetened, with mint, ginger or orange on top depending on who made it.",
+  "taste_tags": [
+    "tart",
+    "fruity",
+    "sweet",
+    "spicy"
+  ],
+  "brewing": {
+    "grams": 30,
+    "water_ml": 1000,
+    "temp_c": 100,
+    "steeps": 1,
+    "seconds": [
+      900
+    ],
+    "notes": "A home guide rather than a fixed recipe: steep or simmer with ginger or mint, strain, sweeten while warm and chill well. Zobo in Nigeria is boiled with ginger and cloves for up to an hour."
+  },
+  "caffeine_level": "none",
+  "vintage_note": "Has no vintage: it is made fresh and sold chilled in the street and in markets, and the dried flowers are sold by weight with no year given. Buy whole, deep red calyces.",
+  "description": "Bissap is what much of West Africa calls its cold hibiscus drink, made from the calyces of roselle, Hibiscus sabdariffa. It is often described as Senegal's national drink, and it goes by zobo in Nigeria, sobolo in Ghana and ondjo in Guinea-Bissau.\n\nThe base is simple, and the additions are where each cook shows up. Senegalese-style jus de bissap may bring in mint, vanilla and orange juice, while Nigerian zobo gets boiled with ginger and cloves. The anthocyanins provide the color, and the whole batch ends up dark ruby.\n\nIt drinks like a sharp cranberry or grape juice, with enough sugar to take the edge off. Serve it very cold, as it is sold in the street, and adjust the sugar only once it has chilled, since cold dulls sweetness.\n\nThe dried flowers are found in markets throughout West and East Africa. Hot, unsweetened and on its own, the same plant becomes the hibiscus tea or karkade most people know.",
+  "history": "Roselle was domesticated in Africa, particularly the Western Sudan, and West Africans have long used it in sauces, soups and drinks.\n\nThe drink travelled with the African diaspora and has relatives in the Americas: agua de Jamaica in Mexico, sorrel in the Caribbean, and red drinks in American soul food cooking, which are associated with West Africa.",
+  "liquor_hex": "#7E1529",
+  "leaf_hex": "#541022",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Hibiscus_tea",
+    "https://en.wikipedia.org/wiki/Roselle_%28plant%29",
+    "https://pt.wikipedia.org/wiki/Ch%C3%A1_de_hibisco",
+    "https://ko.wikipedia.org/wiki/%ED%9E%88%EB%B9%84%EC%8A%A4%EC%BB%A4%EC%8A%A4%EC%B0%A8"
+  ],
+  "confidence": "high",
+  "wikipedia_title": "Hibiscus tea",
+  "wikipedia_scope": "umbrella",
+  "popularity": 3,
+  "images": []
+}

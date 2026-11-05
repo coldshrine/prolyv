@@ -1,0 +1,54 @@
+{
+  "slug": "imereti-tea",
+  "name_en": "Imereti Tea",
+  "name_native": "იმერეთი",
+  "name_romanized": "Imereti",
+  "name_zh": "伊梅列季红茶",
+  "name_ru": "Имеретинский чай",
+  "aliases": [
+    "Georgia Imereti Black Tea",
+    "Georgia Imereti Elegant Black Tea",
+    "Imereti Black Tea"
+  ],
+  "category": "black",
+  "origin_country": "Georgia",
+  "origin_region": "Imereti",
+  "cultivar": null,
+  "processing": "Black tea with full oxidation; methods vary by producer.",
+  "form": "loose",
+  "harvest_season": "Not documented for this region specifically; ask the seller for the picking season.",
+  "appearance_dry": "Dark twisted leaf, as is typical of black tea; no regional look is documented.",
+  "appearance_liquor": "Clear amber, less deeply coloured than Indian or Ceylon black, as is general for Georgian tea.",
+  "appearance_wet": "Soft brown leaf, as is typical of black tea.",
+  "taste_profile": "Little is recorded for this region; good Georgian black is generally fragrant and soft rather than sharp.",
+  "taste_tags": [
+    "sweet",
+    "malty"
+  ],
+  "brewing": {
+    "grams": 4,
+    "water_ml": 250,
+    "temp_c": 95,
+    "steeps": 1,
+    "seconds": [
+      150
+    ],
+    "notes": "Georgian tea extracts quickly and colours lightly, so add leaf for strength rather than time."
+  },
+  "caffeine_level": "medium",
+  "vintage_note": "Imereti has no formal vintage system, so check the picking year on the pack and, as is usual for black tea, drink it within a couple of years.",
+  "description": "Imereti is a region of western Georgia, and Imereti tea means black tea grown there. It is a region name on a label more than a defined style.\n\nProcessing depends on the maker.\n\nFew tasting descriptions apply to the region as a whole, so judge each lot alone. Expect what is typical of Georgian black tea: softer and less sharp than Assam or Ceylon, and quick to give up its flavour.\n\nWhen buying, look for a named grower and a harvest year. Words like elegant are the seller's language and tell you little about the leaf, while a named estate tells you far more.",
+  "history": "Tea growing took hold in Georgia in the second half of the 19th century, and Imereti became one of its leading zones. In the last century Georgia ranked among the world's largest tea producers.\n\nTkibuli in Imereti is now the subject of a proposed tea route for tourism. Little is documented about the region's tea output.",
+  "wikipedia_title": null,
+  "wikipedia_scope": "none",
+  "popularity": 2,
+  "liquor_hex": "#B4692B",
+  "leaf_hex": "#39281C",
+  "sources": [
+    "https://what-cha.com/collections/vendors?q=Georgia",
+    "https://cue.edu.ge/en/articles/the-revival-of-the-tea-route-in-tkibuli-historical-economic-heritage-and-prospects-for-tourism-development/"
+  ],
+  "confidence": "low",
+  "images": [],
+  "sources_note": "name_zh is a descriptive rendering."
+}

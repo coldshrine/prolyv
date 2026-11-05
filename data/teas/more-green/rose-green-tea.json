@@ -1,0 +1,55 @@
+{
+  "slug": "rose-green-tea",
+  "name_en": "Rose Green Tea",
+  "name_native": "玫瑰绿茶",
+  "name_romanized": "Méiguī Lǜchá",
+  "name_zh": "玫瑰绿茶",
+  "name_ru": "Зелёный чай с розой",
+  "aliases": [
+    "Мэй Гуй Люй Ча",
+    "玫瑰綠茶"
+  ],
+  "category": "green",
+  "origin_country": "China",
+  "origin_region": "China · Various",
+  "cultivar": null,
+  "processing": "Green tea combined with rose, either blended with dried petals or scented by resting the tea with fresh flowers. Methods vary by maker and no single standard applies.",
+  "form": "loose",
+  "harvest_season": "No set season: the base is ordinary green tea and the rose comes from its own flowering.",
+  "appearance_dry": "Green tea leaf, often mixed with pink or dark red rose petals or buds.",
+  "appearance_liquor": "Clear yellow-green, sometimes faintly warmer in tone where petals are included.",
+  "appearance_wet": "Soft green leaf with faded, limp rose petals when they are present.",
+  "taste_profile": "Typically a light green tea with a sweet rose perfume on top; the balance depends entirely on the blend, and bottled versions are often sugared.",
+  "taste_tags": [
+    "floral",
+    "sweet",
+    "vegetal"
+  ],
+  "brewing": {
+    "grams": 3,
+    "water_ml": 200,
+    "temp_c": 80,
+    "steeps": 2,
+    "seconds": [
+      120,
+      180
+    ],
+    "notes": "Brew it as a Western-style green tea, with cool enough water to keep the base from turning bitter. Rose aroma mostly leaves after the second steep."
+  },
+  "caffeine_level": "medium",
+  "vintage_note": "Sold as a non-vintage flavoured or scented tea, rarely with a harvest year. Check the packing date, buy small amounts and drink within a year, since both base and rose lose aroma. It does not age.",
+  "description": "Rose green tea is what the name says: green tea paired with rose. It is a broad style rather than a named tea from one place, and it can mean anything from a careful scented tea to a bag of cheap leaf with some petals.\n\nThere are two main routes. Blending simply mixes dried rose with finished tea, while scenting lets the tea absorb aroma from flowers and may leave few petals behind. Jasmine dominates Chinese scented tea production, so rose is a much smaller niche.\n\nIn the cup, expect perfume first and a light green tea underneath. Cool water matters, because a bitter base and sweet rose make an awkward pair. It also appears as a sweetened commercial drink, notably in Thailand, where it is a popular variation and should not be confused with traditional unsweetened green tea.\n\nWhen buying, read the ingredients: 'flavour' or 'aroma' on the list means the rose is not all from flowers. If you want the rose itself to speak, try whole rose buds on their own and add them to a green tea you already like.",
+  "history": "Little is documented about where or when rose green tea began, and no single origin is known. It belongs to the wider family of Chinese flower-paired teas, and today it is also made as a commercial variation in Thailand, alongside barley and lemon green teas.",
+  "liquor_hex": "#DCCB84",
+  "leaf_hex": "#70723F",
+  "sources": [
+    "https://zh.wikipedia.org/wiki/%E8%8C%B6%E6%96%87%E5%8C%96",
+    "https://zh.wikipedia.org/wiki/%E4%B8%96%E7%95%8C%E8%8C%B6%E6%96%87%E5%8C%96",
+    "https://ratetea.com/styles.php"
+  ],
+  "confidence": "low",
+  "wikipedia_title": null,
+  "wikipedia_scope": "none",
+  "popularity": 2,
+  "images": []
+}

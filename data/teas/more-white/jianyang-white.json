@@ -1,0 +1,60 @@
+{
+  "slug": "jianyang-white",
+  "name_en": "Jianyang White Tea",
+  "name_native": "建阳白茶",
+  "name_romanized": "Jiànyáng Báichá",
+  "name_zh": "建阳白茶",
+  "name_ru": "Цзяньян Бай Ча",
+  "aliases": [
+    "Jianyang White",
+    "Jianyang Baicha"
+  ],
+  "category": "white",
+  "origin_country": "China",
+  "origin_region": "Fujian · Jianyang",
+  "cultivar": "Local Cai Cha, Shui Xian, Fu'an and Zhenghe Dabai",
+  "processing": "Withered at length and dried without firing or rolling. Jianyang works in two main lines, Xiao Bai from local seed-grown plants and Shui Xian Bai from Shui Xian tea plants.",
+  "form": "loose",
+  "harvest_season": "Spring, from bud pickings through bud-and-leaf grades; later and more mature pickings go to shou mei.",
+  "appearance_dry": "Varies by line: small, fine Xiao Bai leaf or larger, plumper Shui Xian shoots in olive and silver.",
+  "appearance_liquor": "Pale gold to amber, depending on grade.",
+  "appearance_wet": "Soft mixed leaf, small in Xiao Bai and broad in Shui Xian.",
+  "taste_profile": "Xiao Bai is described as fresh and brisk-sweet with a clean finish; Shui Xian Bai is known for its aroma and a fuller taste.",
+  "taste_tags": [
+    "sweet",
+    "floral",
+    "vegetal"
+  ],
+  "brewing": {
+    "grams": 5,
+    "water_ml": 120,
+    "temp_c": 90,
+    "steeps": 6,
+    "seconds": [
+      25,
+      25,
+      35,
+      45,
+      60,
+      90
+    ],
+    "notes": "Use cooler water for bud-rich lots and hotter water for shou mei. Since the plant base varies, taste first and adjust."
+  },
+  "caffeine_level": "medium",
+  "vintage_note": "Sold by harvest year and grade, with named lines such as Xiao Bai Gong Mei or Shui Xian Mu Dan. As with Fujian white teas in general, a lot can be drunk fresh or stored, with the coarser grades usually kept longer.",
+  "description": "Jianyang, in northern Fujian, is the third name in Fujian white tea, after Fuding and Zhenghe, and it plays by different rules. Rather than leaning on big-white cultivars, it is known for Xiao Bai from local seed-grown plants and for Shui Xian Bai.\n\nThe craft is the familiar long wither and dry. Local practice splits the output into named lines: Xiao Bai needle, gong mei and shou mei on one side, and Shui Xian needle, peony and shou mei on the other. Zhangdun, Shuiji, Huilong and Xiaohu are the main townships, with Zhangdun the largest.\n\nXiao Bai looks less showy but is praised for a fresher cup. Shui Xian Bai brings more aroma and fuller flavour. Adjust water by grade, and try the two lines together, since the difference between them is the point.\n\nWhen buying, ask which line and grade you are getting rather than settling for the word Jianyang alone. Gong mei is a good first choice here, as it is one of the region's signature products.",
+  "history": "Jianyang's place in white tea is old but its dates are disputed. A common account has white tea starting in Fuding and passing on to Jianyang and then Zhenghe, while Jianyang's own tradition argues its white tea is no younger than Fuding's.\n\nShui Xian tea is held to have originated around Xiaohu township, which helps explain the local Shui Xian Bai line. Zhangdun has since been promoted as the home of Xiao Bai, and a local standard for Jianyang white tea now sets out its grades.",
+  "liquor_hex": "#D8B468",
+  "leaf_hex": "#8C8A68",
+  "sources": [
+    "https://news.cnhnb.com/mrdzx/detail/465445",
+    "https://www.ttbz.org.cn/upload/file/20200915/6373578203128552818716435.docx",
+    "https://m.bjnews.com.cn/detail/1673493009168199.html",
+    "https://www.chinesemuseum.com.au/alltheteainchina-white-tea"
+  ],
+  "confidence": "medium",
+  "images": [],
+  "wikipedia_title": null,
+  "wikipedia_scope": "none",
+  "popularity": 2
+}

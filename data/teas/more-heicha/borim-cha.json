@@ -1,0 +1,58 @@
+{
+  "slug": "borim-cha",
+  "name_en": "Borim-cha",
+  "name_native": "보림차",
+  "name_romanized": "Borim-cha",
+  "name_zh": "宝林茶",
+  "name_ru": "Борим-ча",
+  "aliases": [
+    "Borim-baengmo-cha",
+    "보림백모차",
+    "寶林茶",
+    "寶林白茅茶",
+    "宝林白茅茶"
+  ],
+  "category": "heicha",
+  "origin_country": "South Korea",
+  "origin_region": "Jeollanam-do · Jangheung",
+  "cultivar": null,
+  "processing": "A kind of tteokcha, Korean post-fermented pressed tea. As usual for tteokcha, the leaves are steamed and then shaped into a solid cake before drying.",
+  "form": "cake",
+  "harvest_season": "Little is recorded for this name specifically. Neighbouring Jangheung coin tea is hand-picked in May.",
+  "appearance_dry": "A small, solid dark cake, as is usual for Korean tteokcha.",
+  "appearance_liquor": "Probably a clear amber to reddish brown, judging by other aged Korean cake teas.",
+  "appearance_wet": "The cake softens and breaks into dull brown leaf, as other steamed and pressed teas do.",
+  "taste_profile": "No detailed tasting record exists for this name. Korean fermented cake teas in general lean woody and gently earthy, with a toasted note if the cake is warmed first.",
+  "taste_tags": [
+    "woody",
+    "earthy",
+    "roasted"
+  ],
+  "brewing": {
+    "grams": 8,
+    "water_ml": 550,
+    "temp_c": 90,
+    "steeps": 3,
+    "seconds": [
+      300,
+      420,
+      600
+    ],
+    "notes": "These are the proportions used for Jangheung coin tea, the closest documented relative: a small cake in a large pot, steeped for minutes rather than seconds."
+  },
+  "caffeine_level": "low",
+  "vintage_note": "Little is documented about how this tea is sold. Korean fermented cake teas are made in small quantities and aged after pressing, so a stated year of making matters more than a harvest season. Ask the maker how long the cake has rested.",
+  "description": "Borim-cha is a Korean cake tea named after Borimsa, the Buddhist temple in Jangheung, South Jeolla Province, where it is said to have begun. It is also called Borim-baengmo-cha, and it counts as a popular variety of tteokcha, the pressed tea that was the most common kind in pre-modern Korea.\n\nDetails of its own method are scarce. Tteokcha as a class is steamed and pressed into solid cakes, then fermented with time, unlike the pan-fired green teas most people now associate with Korea.\n\nThere is no reliable tasting account under this exact name, so treat any description as a guide to the class: woody and earthy, with some toast. Brew it as you would Jangheung coin tea, a small piece in plenty of hot water for several minutes.\n\nIf you find it for sale, ask who made it and when.",
+  "history": "The name points to Borimsa in Jangheung, a region that served as a centre of Korean tea culture under the Goryeo and Joseon dynasties. Beyond that origin in the temple's name, little is documented about when the tea took its present form or who kept it going.",
+  "liquor_hex": "#A8682E",
+  "leaf_hex": "#3F3322",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Fermented_tea",
+    "https://en.wikipedia.org/wiki/Korean_tea"
+  ],
+  "confidence": "low",
+  "wikipedia_title": "Korean tea",
+  "wikipedia_scope": "umbrella",
+  "popularity": 2,
+  "images": []
+}

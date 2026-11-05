@@ -1,0 +1,59 @@
+{
+  "slug": "uji-cha",
+  "name_en": "Uji-cha",
+  "name_native": "宇治茶",
+  "name_zh": "宇治茶",
+  "name_ru": "Удзи-тя",
+  "name_romanized": "Uji-cha",
+  "aliases": [
+    "Uji Tea",
+    "Uji cha",
+    "Ujicha"
+  ],
+  "category": "green",
+  "origin_country": "Japan",
+  "origin_region": "Kyoto · Uji",
+  "cultivar": null,
+  "processing": "A regional name covering matcha, sencha and gyokuro. It means leaf from Kyoto, Nara, Shiga or Mie finished by Kyoto firms using methods from the Uji area, with shaded growing as the signature.",
+  "form": "loose",
+  "harvest_season": "Spring first flush is the prized picking, as with Japanese greens generally, for matcha and gyokuro above all.",
+  "appearance_dry": "Varies by style: fine green needles for sencha and gyokuro, bright green powder for matcha.",
+  "appearance_liquor": "From pale green-gold in sencha and gyokuro to opaque green in matcha.",
+  "appearance_wet": "Soft deep-green leaf in the shaded teas.",
+  "taste_profile": "Shading is the thread: sweet, savoury and rich in gyokuro and matcha, with sencha fresher and more balanced.",
+  "taste_tags": [
+    "umami",
+    "sweet",
+    "vegetal"
+  ],
+  "brewing": {
+    "grams": 5,
+    "water_ml": 150,
+    "temp_c": 70,
+    "steeps": 3,
+    "seconds": [
+      60,
+      15,
+      45
+    ],
+    "notes": "Settings for sencha. Take gyokuro much cooler, around 50-60 °C, and whisk matcha at around 80 °C."
+  },
+  "caffeine_level": "high",
+  "vintage_note": "Sold as the current year's crop for sencha and gyokuro; matcha is sold by grade and should be used fresh. The name does not mean grown in Uji town, so a label naming Ujitawara, Wazuka or another district says more. Sealed cold storage is usual.",
+  "description": "Uji is Japan's best-known name in high-grade green tea. The current definition surprises people: the leaf may come from Kyoto, Nara, Shiga or Mie, with Kyoto's own preferred, provided a Kyoto firm finishes it in Kyoto by methods from the Uji area. Inside the prefecture, growing areas include Uji, Joyo, Ujitawara, Wazuka and Minamiyamashiro.\n\nThe key technique is ooishita, growing under cover of reeds and straw, which raises sweetness and savour. It gave Japan modern matcha, and combined with sencha rolling, gyokuro. The river fog and well-drained fan soils helped, and reeds for the cover grew nearby.\n\nGyokuro needs cool water and patience, while matcha is a whisked powder and a sencha sits between in cost and fuss. The thing to taste across all of them is that dense sweet-savoury body.\n\nWhen buying, think in districts and houses, not just the word Uji. It sits on everything from ceremonial tins to supermarket blends, and origin rules allow for that, so ask where the leaf grew.",
+  "history": "Eisai brought seed from Song China in the early Kamakura period and passed it to the monk Myoe, who planted it near Kozanji at Toganoo and later at Uji. A legend has Myoe showing villagers how to sow in the hoofprints of his horse. The term Uji tea first appears in a record of 1374.\n\nAt first it ranked behind Toganoo, but it rose fast under Ashikaga Yoshimitsu and by the end of the 1500s had displaced its rival. The shaded method came in the 15th or 16th century, and Sen no Rikyu worked with the Kanbayashi tea family on its standing. In 1584 Toyotomi Hideyoshi banned outsiders from selling tea under the name.\n\nUnder the Edo shogunate, tea jars were carried in procession from Uji to Edo. Sencha followed in the 18th century, and Yamamoto Kahei is credited with inventing gyokuro at Ogura.",
+  "liquor_hex": "#BFCB72",
+  "leaf_hex": "#2F5230",
+  "sources": [
+    "https://ja.wikipedia.org/wiki/%E5%AE%87%E6%B2%BB%E8%8C%B6",
+    "https://en.wikipedia.org/wiki/Uji_tea",
+    "https://zh.wikipedia.org/wiki/%E5%AE%87%E6%B2%BB%E8%8C%B6",
+    "https://ja.wikipedia.org/wiki/%E6%97%A5%E6%9C%AC%E8%8C%B6",
+    "https://www.wikidata.org/wiki/Q11449516"
+  ],
+  "confidence": "high",
+  "images": [],
+  "wikipedia_title": "Uji tea",
+  "wikipedia_scope": "exact",
+  "popularity": 4
+}

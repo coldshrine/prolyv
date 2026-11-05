@@ -3,25 +3,58 @@
   "name_en": "Krasnodar Tea (Sochi Black Tea)",
   "name_native": "Краснодарский чай",
   "name_romanized": "Krasnodarskiy chay",
-  "aliases": ["Krasnodarsky chai", "Sochi tea", "Russian tea", "Dagomys tea", "Matsesta tea", "Solokh-Aul tea", "Northernmost tea", "Krasnodar green tea"],
+  "aliases": [
+    "Krasnodarsky chai",
+    "Sochi tea",
+    "Russian tea",
+    "Dagomys tea",
+    "Matsesta tea",
+    "Solokh-Aul tea",
+    "Northernmost tea",
+    "Krasnodar green tea"
+  ],
   "category": "black",
   "origin_country": "Russia",
-  "origin_region": "Krasnodar Krai · Sochi (Dagomys, Matsesta and Solokh-Aul in the foothills of the Caucasus)",
+  "origin_region": "Krasnodar Krai · Sochi",
   "cultivar": "Seed-grown bushes of Georgian (Chakvi) and Chinese origin, selected over a century for cold tolerance",
   "processing": "Orthodox black tea: withered, rolled, fully oxidised and dried, sorted into whole-leaf and broken grades; the same gardens also make green tea, and the tourist factories sell flavoured blends with local herbs and fruit.",
   "form": "loose",
-  "harvest_season": "A short season from May to September, with the first May pick the finest; frost and snow keep the bushes dormant for the rest of the year and make this the world's northernmost commercial tea.",
+  "harvest_season": "A short season from May to September, with the first May pick the finest; frost and snow keep the bushes dormant for the rest of the year and put it among the northernmost commercial teas in the world.",
   "appearance_dry": "Dark, loosely twisted leaves of mixed size, some golden tips, with a sweet, slightly floral smell.",
   "appearance_liquor": "Bright amber to light red, clear.",
   "appearance_wet": "Copper-brown leaves, medium size, soft.",
   "taste_profile": "Mild, sweet and gentle with a light maltiness, a faint floral note and low tannin; a soft, easy tea rather than a strong one, closer to Georgian than to Ceylon.",
-  "taste_tags": ["sweet", "malty", "floral", "brisk"],
-  "brewing": {"grams": 3, "water_ml": 200, "temp_c": 95, "steeps": 2, "seconds": [180, 240], "notes": "Russian style: a concentrate (zavarka) in a small pot, diluted with hot water from the kettle or samovar, with lemon, honey or jam on the side. It is soft enough to take a long steep without turning harsh."},
+  "taste_tags": [
+    "sweet",
+    "malty",
+    "floral"
+  ],
+  "brewing": {
+    "grams": 3,
+    "water_ml": 200,
+    "temp_c": 95,
+    "steeps": 2,
+    "seconds": [
+      180,
+      240
+    ],
+    "notes": "Russian style: a concentrate (zavarka) in a small pot, diluted with hot water from the kettle or samovar, with lemon, honey or jam on the side. It is soft enough to take a long steep without turning harsh."
+  },
   "caffeine_level": "medium",
-  "vintage_note": "Sold as the current year's harvest by the Sochi producers (Matsesta, Dagomys and smaller farms), often with the harvest month on hand-made lots and the May tea priced highest; the supermarket 'Krasnodar tea' brands are blended, undated and have repeatedly been found to contain imported leaf, so buy from a named garden. Use within a year.",
-  "description": "Krasnodar tea is the world's northernmost commercial tea, grown on the foothills above Sochi on Russia's Black Sea coast. The story begins in 1901 with Judas Koshman, a peasant who had worked on the Georgian plantations and planted seeds at Solokh-Aul in the hills, where his bushes survived the winters; his small garden is now a museum. Soviet plantings expanded tea around Dagomys and Matsesta from the 1930s, and 'Krasnodarsky chai' became a prestige brand of the USSR.\n\nThe climate is marginal: humid subtropical in summer, with real frosts and snow in winter, so the bushes are cold-hardy selections, the season is short, and yields are low. That is also what gives the tea its character. The leaf grows slowly and the first May picking is sweet and delicate; summer picks are fuller, and the gardens also make green tea, which the Sochi producers push hard to tourists.\n\nIn the cup it is mild, sweet and soft with a light maltiness and a faint floral note, low in tannin, more in the Georgian style than anything brisk and British. Brewed the Russian way, as a concentrate diluted with hot water and drunk with lemon or jam, it is a gentle, friendly tea that does not punish long steeping. It is not a tea for milk.\n\nThe buying problem is a famous one: Krasnodar tea has a reputation to sell and only a few hundred hectares of bushes, and Russian consumer tests have repeatedly found supermarket 'Krasnodar' brands padded with imported leaf. Buy from a named Sochi producer, ideally hand-made tea with the harvest month on the pack, from the farm, the factory shops or specialist sellers; the Matsesta and Dagomys factories and a handful of small farms are the real sources.\n\nIf you visit Sochi, the Dagomys tea houses in the hills serve it with samovars, honey and pies, which is the right context; and a Georgian black from across the border is the natural comparison.",
+  "vintage_note": "Sold as the current year's harvest by the Sochi producers (Matsesta, Dagomys and smaller farms), often with the harvest month on hand-made lots and the May tea priced highest; the supermarket 'Krasnodar tea' brands are blended, undated and are widely reported to contain imported leaf, so buy from a named garden. Use within a year.",
+  "description": "Krasnodar tea is one of the northernmost commercially grown teas in the world, grown on the foothills above Sochi on Russia's Black Sea coast. The story begins in 1901, when I. A. Koshman laid out the first plantation near Solokh-Aul in the hills. Soviet plantings later expanded tea, with a Dagomys state tea farm organised in 1947, and 'Krasnodarsky chai' became a prestige brand of the USSR.\n\nThe climate is marginal: humid subtropical in summer, with real frosts and snow in winter, so the bushes are cold-hardy selections, the season is short, and yields are low. That is also what gives the tea its character. The leaf grows slowly and the first May picking is sweet and delicate; summer picks are fuller, and the gardens also make green tea, which the Sochi producers push hard to tourists.\n\nIn the cup it is mild, sweet and soft with a light maltiness and a faint floral note, low in tannin, more in the Georgian style than anything brisk and British. Brewed the Russian way, as a concentrate diluted with hot water and drunk with lemon or jam, it is a gentle, friendly tea that does not punish long steeping. It is not a tea for milk.\n\nThe buying problem is a famous one: Krasnodar tea has a reputation to sell and only a small area of bushes, and Russian press reports describe supermarket 'Krasnodar' brands padded with imported leaf. Buy from a named Sochi producer, ideally hand-made tea with the harvest month on the pack, from the farm, the factory shops or specialist sellers; the Matsesta and Dagomys factories and a handful of small farms are the real sources.\n\nIf you visit Sochi, the Dagomys tea houses in the hills serve it with samovars, honey and pies, which is the right context; and a Georgian black from across the border is the natural comparison.",
   "wikipedia_title": "Russian tea culture",
   "wikipedia_scope": "umbrella",
   "popularity": 2,
-  "sources_note": "No dedicated English Wikipedia article for Krasnodar tea was found ('Krasnodar tea' and 'Krasnodar Tea' both missing), so 'Russian tea culture' is the umbrella; 'Dagomys' is the alternative. Koshman's 1901 planting at Solokh-Aul is well documented; the planted area ('a few hundred hectares') and the consumer-test findings about adulterated brands are from Russian press reports and should be treated as approximate."
+  "sources_note": "No dedicated English Wikipedia article for Krasnodar tea was found ('Krasnodar tea' and 'Krasnodar Tea' both missing), so 'Russian tea culture' is the umbrella; 'Dagomys' is the alternative. Koshman's 1901 planting at Solokh-Aul is well documented; the planted area ('a few hundred hectares') and the consumer-test findings about adulterated brands are from Russian press reports and should be treated as approximate.",
+  "name_zh": "克拉斯诺达尔红茶",
+  "name_ru": "Краснодарский чай",
+  "history": "Tea on Russia's Black Sea coast grows in the hills above Sochi, at the very edge of what the plant will tolerate. The usual account traces it to a small peasant planting at Solokh-Aul, later followed by larger Soviet gardens around Dagomys and Matsesta, when the name became a familiar one across the USSR.\n\nThe name has outgrown the gardens. Supermarket packs called Krasnodar tea are often said to be blended with imported leaf, so the history of the place and the contents of a given pack are two separate questions.",
+  "liquor_hex": "#BE7230",
+  "leaf_hex": "#46301F",
+  "sources": [
+    "https://ru.wikipedia.org/wiki/%D0%9A%D1%80%D0%B0%D1%81%D0%BD%D0%BE%D0%B4%D0%B0%D1%80%D1%81%D0%BA%D0%B8%D0%B9_%D1%87%D0%B0%D0%B9"
+  ],
+  "confidence": "low",
+  "images": []
 }

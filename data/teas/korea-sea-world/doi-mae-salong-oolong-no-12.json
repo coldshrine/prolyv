@@ -3,10 +3,19 @@
   "name_en": "Doi Mae Salong Oolong No. 12 (Thai Jin Xuan)",
   "name_native": "ชาอู่หลงเบอร์ 12",
   "name_romanized": "Cha ulong boe sip-song",
-  "aliases": ["Thai oolong No. 12", "Oolong #12", "Thai Jin Xuan", "Thai milk oolong", "Mae Salong oolong", "Doi Mae Salong oolong", "Chin Shin No. 12", "Santikhiri oolong"],
+  "aliases": [
+    "Thai oolong No. 12",
+    "Oolong #12",
+    "Thai Jin Xuan",
+    "Thai milk oolong",
+    "Mae Salong oolong",
+    "Doi Mae Salong oolong",
+    "Chin Shin No. 12",
+    "Santikhiri oolong"
+  ],
   "category": "oolong",
   "origin_country": "Thailand",
-  "origin_region": "Chiang Rai · Mae Fa Luang · Doi Mae Salong (Santikhiri), also Doi Wawee and Mae Chan",
+  "origin_region": "Chiang Rai · Doi Mae Salong",
   "cultivar": "Jin Xuan (TTES No. 12), a Taiwanese cultivar introduced from Taiwan",
   "processing": "Taiwanese-style ball-rolled oolong: sun and indoor withering, tumbling to bruise, light oxidation (around 15–25%), pan kill-green, repeated cloth-wrapped rolling into tight balls and drying; usually unroasted, with lightly roasted versions sold separately.",
   "form": "loose",
@@ -15,13 +24,44 @@
   "appearance_liquor": "Pale greenish gold, bright and clear.",
   "appearance_wet": "Thick, whole, bright green leaves with stems, unfurling completely.",
   "taste_profile": "Buttery and smooth with the cultivar's natural milky note, gardenia and sweet corn, a soft round body and a light, clean finish; simpler than Taiwanese Jin Xuan but recognisably the same tea.",
-  "taste_tags": ["creamy", "floral", "sweet", "vegetal"],
-  "brewing": {"grams": 6, "water_ml": 110, "temp_c": 90, "steeps": 6, "seconds": [25, 15, 20, 30, 45, 60], "notes": "Rinse to open the pellets, then water a touch below the boil to keep the creamy note from turning grassy. It also makes a good Western pot and a very good cold brew."},
+  "taste_tags": [
+    "creamy",
+    "floral",
+    "sweet",
+    "vegetal"
+  ],
+  "brewing": {
+    "grams": 6,
+    "water_ml": 110,
+    "temp_c": 90,
+    "steeps": 6,
+    "seconds": [
+      25,
+      15,
+      20,
+      30,
+      45,
+      60
+    ],
+    "notes": "Rinse to open the pellets, then water a touch below the boil to keep the creamy note from turning grassy. It also makes a good Western pot and a very good cold brew."
+  },
   "caffeine_level": "medium",
   "vintage_note": "Sold as the current year's harvest in vacuum-sealed 100–200 g foil packs, usually labelled 'No. 12' with the farm or village and sometimes the season; winter and spring lots cost more. It is a green-style oolong meant to be drunk within a year, kept sealed and cool; the lightly roasted versions keep a little longer.",
-  "description": "Doi Mae Salong is a ridge-top village in the far north of Chiang Rai province, settled by remnants of the Kuomintang army who came over from Burma in the early 1960s. The Thai government and Taiwan later helped the villagers replace opium with tea, and from the late 1980s and 1990s Taiwanese cultivars and Taiwanese processing arrived together. Today the hills around Mae Salong are Thailand's oolong country, and the two numbers on every shop sign are No. 12 and No. 17.\n\nNo. 12 is Jin Xuan, the Taiwanese 'milk oolong' cultivar, and it is made exactly as it would be in Nantou: withered, bruised, lightly oxidised, and rolled in cloth over and over into tight green balls. The hills sit at around 1,200 to 1,400 metres with warm days and cool nights, which suits the bush, and the long season allows several harvests a year.\n\nThe cup is buttery and gently floral, with the natural milky softness the cultivar is known for, sweet corn and gardenia, and a light clean finish. Against a good Taiwanese Jin Xuan it is a touch simpler and shorter, and against the price it is very good indeed. Brew it with a rinse and hot but not boiling water; it is forgiving enough for a big teapot and makes an excellent cold brew.\n\nIt is sold vacuum-packed by farm and harvest, often simply as 'Oolong No. 12', at the village shops, in Chiang Rai and Chiang Mai, and increasingly abroad. Two cautions: 'milk oolong' with a loud, sweet dairy smell has been flavoured, and the Jin Xuan note in the real thing is subtle; and cheap mixed lots from the rainy season taste flat, so ask for winter or spring tea.\n\nTaste it next to a No. 17 from the same farm to understand why the village keeps both: No. 12 is the soft, creamy one and No. 17 the lighter, more floral one.",
+  "description": "Doi Mae Salong is a ridge-top village in the far north of Chiang Rai province, settled by remnants of the Nationalist Chinese army who came over from Burma after 1949. Decades ago Taiwanese cultivars and Taiwanese processing arrived together, though the exact dates are poorly documented. Today the hills around Mae Salong are Thailand's oolong country, and the two numbers on every shop sign are No. 12 and No. 17.\n\nNo. 12 is Jin Xuan, the Taiwanese 'milk oolong' cultivar, and it is made exactly as it would be in Nantou: withered, bruised, lightly oxidised, and rolled in cloth over and over into tight green balls. The hills are high, with warm days and cool nights, which suits the bush, and the long season allows several harvests a year.\n\nThe cup is buttery and gently floral, with the natural milky softness the cultivar is known for, sweet corn and gardenia, and a light clean finish. Against a good Taiwanese Jin Xuan it is a touch simpler and shorter, and against the price it is very good indeed. Brew it with a rinse and hot but not boiling water; it is forgiving enough for a big teapot and makes an excellent cold brew.\n\nIt is sold vacuum-packed by farm and harvest, often simply as 'Oolong No. 12', at the village shops, in Chiang Rai and Chiang Mai, and increasingly abroad. Two cautions: 'milk oolong' with a loud, sweet dairy smell has been flavoured, and the Jin Xuan note in the real thing is subtle; and cheap mixed lots from the rainy season taste flat, so ask for winter or spring tea.\n\nTaste it next to a No. 17 from the same farm to understand why the village keeps both: No. 12 is the soft, creamy one and No. 17 the lighter, more floral one.",
   "wikipedia_title": "Jin Xuan tea",
   "wikipedia_scope": "umbrella",
   "popularity": 2,
-  "sources_note": "Dates for the introduction of Taiwanese cultivars to Mae Salong (late 1980s to 1990s) and the altitude range are approximate. 'No. 12' corresponds to the Taiwan Tea Research and Extension Station cultivar number for Jin Xuan."
+  "sources_note": "Dates for the introduction of Taiwanese cultivars to Mae Salong (late 1980s to 1990s) and the altitude range are approximate. 'No. 12' corresponds to the Taiwan Tea Research and Extension Station cultivar number for Jin Xuan.",
+  "name_zh": "美斯乐金萱乌龙",
+  "name_ru": "Дой Мэ Салонг, улун № 12",
+  "history": "The people of Mae Salong descend largely from Chinese Nationalist soldiers from Yunnan who refused to surrender after 1949, crossed Burma and were given asylum in northern Thailand, where the Thai government asked for their help against communist insurgents. Tea varieties and a central-Taiwan way of making them came over from Taiwan decades ago; exactly when is poorly documented.\n\nThe number is Taiwanese. Jin Xuan was bred at Taiwan's tea research station and officially named Taiwan Tea No. 12 in 1981. Taiwan's institute records that the cultivar, along with machinery and processing knowledge, went to Thailand among other countries to produce Taiwan-style oolong.",
+  "liquor_hex": "#DCD48C",
+  "leaf_hex": "#3F5A34",
+  "sources": [
+    "https://www.saratogateaandhoney.com/blogs/blog/exploring-mae-salong-thailand",
+    "https://taiwaninsight.org/2026/07/17/the-lure-of-jinxuan-%e9%87%91%e8%90%b1-following-a-tea-cultivar-bred-in-taiwan-across-places-names-and-tastes/",
+    "https://en.wikipedia.org/wiki/Jin_Xuan_tea"
+  ],
+  "confidence": "medium",
+  "images": []
 }

@@ -1,0 +1,50 @@
+{
+  "slug": "makura-cd86",
+  "name_en": "Makura Cd86",
+  "name_native": "枕Cd86",
+  "name_romanized": "Makura Cd86",
+  "aliases": [],
+  "category": "black",
+  "origin_country": "Japan",
+  "origin_region": "Japan",
+  "cultivar": "Makura Cd86",
+  "form": "loose",
+  "caffeine_level": "high",
+  "brewing": {
+    "grams": 3,
+    "water_ml": 200,
+    "temp_c": 95,
+    "steeps": 2,
+    "seconds": [
+      180,
+      240
+    ],
+    "notes": "A safe starting point for black tea: Western style, water just off the boil."
+  },
+  "taste_tags": [
+    "malty",
+    "sweet"
+  ],
+  "description": "A tea plant of Darjeeling native stock, known in Japan as the parent of the cultivar Benifuuki.\n\nUsed as a breeding parent of Benifuuki.",
+  "wikipedia_title": null,
+  "wikipedia_scope": "none",
+  "popularity": 1,
+  "name_zh": "枕Cd86茶树品种",
+  "name_ru": "Макура Cd86",
+  "history": "Crossed with Benihomare, an Assam-type seedling selection, it gave Benifuuki, which was developed for black and semi-fermented tea. Little more is documented about it.",
+  "liquor_hex": "#B5562A",
+  "leaf_hex": "#3F3122",
+  "sources": [
+    "https://ja.wikipedia.org/wiki/べにふうき"
+  ],
+  "confidence": "low",
+  "images": [],
+  "stub": true,
+  "processing": "A plant cultivar, not a processing style: it is usually made into black tea, and the method is up to the grower.",
+  "harvest_season": "Depends on the place and the grower.",
+  "appearance_dry": "Depends on how the leaf is processed.",
+  "appearance_liquor": "Depends on how the leaf is processed.",
+  "appearance_wet": "Depends on how the leaf is processed.",
+  "taste_profile": "Depends on how the leaf is processed; tea from it usually falls within what black teas give.",
+  "vintage_note": "A cultivar is not sold by vintage. Tea made from it follows the usual pattern for black tea, so ask for the harvest year and the grower."
+}

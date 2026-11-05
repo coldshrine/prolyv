@@ -1,0 +1,50 @@
+{
+  "slug": "songyang-xiang-cha",
+  "name_en": "Songyang Xiang Cha",
+  "name_native": "松阳香茶",
+  "name_romanized": "Sōngyáng Xiāngchá",
+  "aliases": [],
+  "category": "green",
+  "origin_country": "China",
+  "origin_region": "Zhejiang · Songyang",
+  "cultivar": null,
+  "form": "loose",
+  "caffeine_level": "medium",
+  "brewing": {
+    "grams": 3,
+    "water_ml": 150,
+    "temp_c": 80,
+    "steeps": 3,
+    "seconds": [
+      60,
+      75,
+      105
+    ],
+    "notes": "A safe starting point for green tea: cooler water, short steeps, then adjust by taste."
+  },
+  "taste_tags": [
+    "brisk"
+  ],
+  "description": "Songyang Xiang Cha is a green tea from Songyang County in Zhejiang, named for its aroma and made for everyday domestic drinking.\n\nTreat it as you would any green tea: cooler water, short steeps, and a seller who can say where and when it was picked.",
+  "wikipedia_title": null,
+  "wikipedia_scope": "none",
+  "popularity": 1,
+  "name_zh": "松阳香茶",
+  "name_ru": "Сун Ян Сян Ча",
+  "history": "It was developed in the late 1990s and came to be sold in more than 20 Chinese provinces and cities. It has been reported to make up over 80 percent of the county's tea output and half of its value, about 100 million yuan.",
+  "liquor_hex": "#D9D684",
+  "leaf_hex": "#7E8B3E",
+  "sources": [
+    "https://www.baike.com/wiki/松阳香茶"
+  ],
+  "confidence": "medium",
+  "images": [],
+  "stub": true,
+  "processing": "Typical of green tea: picked, heated soon after picking to stop oxidation, then shaped and dried.",
+  "harvest_season": "Usually picked in spring, with the earliest pickings prized, as with most green teas.",
+  "appearance_dry": "Fine, tight strands with a lustrous emerald colour.",
+  "appearance_liquor": "Clear and bright.",
+  "appearance_wet": "Bright green leaf.",
+  "taste_profile": "Lasting high aroma and a full, brisk flavour.",
+  "vintage_note": "Green teas like this are normally sold as the current year's harvest and are best within a year of picking. It is not an ageing tea."
+}

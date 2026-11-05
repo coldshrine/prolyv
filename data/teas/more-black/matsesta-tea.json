@@ -1,0 +1,53 @@
+{
+  "slug": "matsesta-tea",
+  "name_en": "Matsesta Tea",
+  "name_native": "Мацестинский чай",
+  "name_romanized": "Matsestinskiy chai",
+  "name_zh": "马采斯塔茶",
+  "name_ru": "Мацестинский чай",
+  "aliases": [
+    "Мацеста чай",
+    "Matsesta chai"
+  ],
+  "category": "black",
+  "origin_country": "Russia",
+  "origin_region": "Krasnodar Krai · Sochi · Matsesta",
+  "cultivar": null,
+  "processing": "Details of the method are not well documented. Black tea from the area follows the usual withering, rolling, oxidation and drying.",
+  "form": "loose",
+  "harvest_season": "Exact picking dates are not well documented for this tea.",
+  "appearance_dry": "As with other Krasnodar black teas, expect dark, twisted, small to medium leaf.",
+  "appearance_liquor": "Typical of the class, a clear reddish amber.",
+  "appearance_wet": "Typical of black tea, soft coppery-brown leaf.",
+  "taste_profile": "Little is recorded specifically about this tea. Black teas from the class usually offer mild malt, some sweetness and moderate briskness.",
+  "taste_tags": [
+    "malty",
+    "sweet"
+  ],
+  "brewing": {
+    "grams": 3,
+    "water_ml": 250,
+    "temp_c": 95,
+    "steeps": 2,
+    "seconds": [
+      180,
+      270
+    ],
+    "notes": "These are usual Western-style black tea settings, nothing specific to this tea."
+  },
+  "caffeine_level": "medium",
+  "vintage_note": "Usually sold as a packaged product of the factory, not by harvest year. As with other black teas, look for a recent packing date and drink it within a couple of years.",
+  "description": "Matsesta tea comes from the Sochi area, where the Matsesta tea factory is one of a handful of enterprises growing and processing tea. It sells under the Matsesta Tea trademark and also uses the label Krasnodar Tea since 1947.\n\nThe specifics of how it is made are not well documented, so assume ordinary black tea processing unless a pack says otherwise.\n\nThe same is true of flavour. Brew it like an everyday black tea and compare it with Dagomys or Solokhaul if you want a sense of the local range.\n\nWhen buying, check the factory name and origin on the pack, because the word Krasnodar alone does not tell you how much of the leaf is local.",
+  "history": "Little is documented about this tea's early years. It is known today through the Matsesta tea factory and is listed among the enterprises growing and processing tea in Sochi. The factory's label refers to 1947, but that date is its own branding and does not by itself establish the tea's history.",
+  "liquor_hex": "#A95826",
+  "leaf_hex": "#3A291C",
+  "sources": [
+    "https://ru.wikipedia.org/wiki/%D0%9A%D1%80%D0%B0%D1%81%D0%BD%D0%BE%D0%B4%D0%B0%D1%80%D1%81%D0%BA%D0%B8%D0%B9_%D1%87%D0%B0%D0%B9",
+    "https://en.wikipedia.org/wiki/Sochi"
+  ],
+  "confidence": "low",
+  "wikipedia_title": "Краснодарский чай",
+  "wikipedia_scope": "umbrella",
+  "popularity": 2,
+  "images": []
+}

@@ -3,10 +3,15 @@
   "name_en": "Kenyan White Tea",
   "name_native": null,
   "name_romanized": null,
-  "aliases": ["Kenya Silver Needle", "Kenyan silver tips", "Kenya white tea", "Kenyan white buds"],
+  "aliases": [
+    "Kenya Silver Needle",
+    "Kenyan silver tips",
+    "Kenya white tea",
+    "Kenyan white buds"
+  ],
   "category": "white",
   "origin_country": "Kenya",
-  "origin_region": "Central highlands · Kirinyaga, Nyeri and Nandi",
+  "origin_region": "Nandi Hills and the central highlands near Mount Kenya",
   "cultivar": "Large-bud Kenyan clones (TRFK series)",
   "processing": "Hand-plucked buds and young leaf withered slowly in shade for a day or more and dried gently without rolling; oxidation is incidental. A small speciality line at orthodox-capable factories.",
   "form": "loose",
@@ -15,13 +20,41 @@
   "appearance_liquor": "Pale gold.",
   "appearance_wet": "Plump pale-olive buds.",
   "taste_profile": "Soft honey and hay with a melon-like sweetness and a fuller, rounder body than Chinese white teas; almost no astringency.",
-  "taste_tags": ["honey", "sweet", "floral"],
-  "brewing": {"grams": 3, "water_ml": 200, "temp_c": 80, "steeps": 3, "seconds": [300, 360, 420], "notes": "Five minutes or more at 80 °C; re-steeps two or three times without turning bitter."},
+  "taste_tags": [
+    "honey",
+    "sweet",
+    "floral"
+  ],
+  "brewing": {
+    "grams": 3,
+    "water_ml": 200,
+    "temp_c": 80,
+    "steeps": 3,
+    "seconds": [
+      300,
+      360,
+      420
+    ],
+    "notes": "Five minutes or more at 80 °C; re-steeps two or three times without turning bitter."
+  },
   "caffeine_level": "low",
   "vintage_note": "Sold in small lots by factory and plucking date through speciality importers and Kenyan direct-trade brands, priced well above the country's black teas because of the hand-picking. Drink within a year or two; not an ageing tea.",
-  "description": "Kenyan white tea is a small speciality line from the central highlands: downy buds and young leaf from the same clonal bushes that supply the CTC factories, withered slowly and dried without rolling. It has existed for only a couple of decades, made by a few orthodox-capable factories and smallholder groups in Kirinyaga, Nyeri and Nandi for direct-trade and speciality buyers.\n\nBuds are plucked by hand, which in a country built on fast machine-grade plucking is itself unusual, then withered in shade for a day or more and dried gently; there is no rolling and only incidental oxidation. The equatorial climate means it can be made year-round, with the plumpest buds in the dry seasons.\n\nThe cup is pale gold and tastes of honey and hay with a melon-like sweetness and a fuller, rounder body than Chinese white teas, with almost no astringency. Brew it at around 80 °C for five minutes or more and re-steep two or three times.\n\nIt is sold in small lots by factory and plucking date through speciality importers and Kenyan direct-trade brands, priced well above the country's black teas because of the hand-picking. Drink it within a year or two.\n\nWorth a try as a comparison with Fujian or Darjeeling white teas: same method, very different leaf.",
+  "description": "Kenyan white tea is a small speciality line from the Nandi Hills and the highlands near Mount Kenya: downy buds and young leaf from Kenyan clonal bushes, withered slowly and dried without rolling. It is a recent product, made by a few estates, orthodox-capable factories and smallholder groups for direct-trade and speciality buyers.\n\nBuds are plucked by hand, which in a country built on fast machine-grade plucking is itself unusual, then withered in shade for a day or more and dried gently; there is no rolling and only incidental oxidation. The equatorial climate means it can be made year-round, with the plumpest buds in the dry seasons.\n\nThe cup is pale gold and tastes of honey and hay with a melon-like sweetness and a fuller, rounder body than Chinese white teas, with almost no astringency. Brew it at around 80 °C for five minutes or more and re-steep two or three times.\n\nIt is sold in small lots by factory and plucking date through speciality importers and Kenyan direct-trade brands, priced well above the country's black teas because of the hand-picking. Drink it within a year or two.\n\nWorth a try as a comparison with Fujian or Darjeeling white teas: same method, very different leaf.",
   "wikipedia_title": "Tea production in Kenya",
   "wikipedia_scope": "umbrella",
   "popularity": 1,
-  "sources_note": "Kenyan white tea is a small niche; the producing areas and 'couple of decades' history are from memory and worth a check."
+  "sources_note": "Kenyan white tea is a small niche; the producing areas and 'couple of decades' history are from memory and worth a check.",
+  "name_zh": "肯尼亚白茶",
+  "name_ru": "Кенийский белый чай",
+  "history": "White tea is a recent sideline in Kenya, a country whose industry is built on black tea. Little is documented about when it began; one tea guide describes a handful of estates near Mount Kenya and in the Nandi Hills taking it up.\n\nVersions reaching shops today include a silver needle style from the Tumoi Teas Cooperative in the Nandi Hills, picked and processed by hand at over 2,000 metres by the seller's account, and a silver needle from the foot of Mount Kenya. Royal Tea of Kenya also once sold a white tea, now discontinued.",
+  "liquor_hex": "#E6D39A",
+  "leaf_hex": "#B5B49A",
+  "sources": [
+    "https://tea-lab.pages.dev/teas/kenyan-white/",
+    "https://yoshien.com/en/mt-kenya-silver-needle.html",
+    "https://ratetea.com/tea/royal-tea-of-kenya/white-whisper-tea/5025/",
+    "https://www.curioustea.com/?p=47801"
+  ],
+  "confidence": "low",
+  "images": []
 }

@@ -3,24 +3,66 @@
   "name_en": "Nilgiri Oolong",
   "name_native": "நீலகிரி தேயிலை",
   "name_romanized": "Nīlakiri tēyilai",
-  "aliases": ["South Indian oolong", "Nilgiri oolong tea", "Indian oolong"],
+  "aliases": [
+    "South Indian oolong",
+    "Nilgiri oolong tea",
+    "Indian oolong"
+  ],
   "category": "oolong",
   "origin_country": "India",
   "origin_region": "Tamil Nadu · Nilgiri Hills",
   "cultivar": "Chinary and hybrid seedling bushes plus UPASI clones",
-  "processing": "Partly oxidised (roughly 30–70% depending on the maker), either twisted or ball-rolled in the Taiwanese manner, and lightly fired; a small speciality line at a few estates.",
+  "processing": "Partly oxidised, with the degree depending on the maker, then shaped and lightly fired; a small speciality line at a few estates.",
   "form": "loose",
   "harvest_season": "Year-round; winter and early-summer pickings are the most aromatic.",
   "appearance_dry": "Twisted or semi-rolled leaf in mixed brown and olive.",
   "appearance_liquor": "Golden amber, clear.",
   "appearance_wet": "Olive-brown leaf with reddish margins.",
   "taste_profile": "Fruity and mild: peach, honey and a light floral note with a smooth body and gentle astringency.",
-  "taste_tags": ["fruity", "honey", "floral", "sweet"],
-  "brewing": {"grams": 4, "water_ml": 200, "temp_c": 90, "steeps": 3, "seconds": [180, 240, 300], "notes": "Also works gongfu style with short steeps; expect three or four infusions."},
+  "taste_tags": [
+    "fruity",
+    "honey",
+    "floral",
+    "sweet"
+  ],
+  "brewing": {
+    "grams": 4,
+    "water_ml": 200,
+    "temp_c": 90,
+    "steeps": 3,
+    "seconds": [
+      180,
+      240,
+      300
+    ],
+    "notes": "Also works gongfu style with short steeps; expect three or four infusions."
+  },
   "caffeine_level": "medium",
-  "vintage_note": "Sold in small lots by estate and season (Glendale, Havukal and Chamraj are regulars), usually priced like a good orthodox black from the same garden; drink within a year or two. Styles vary from maker to maker, so read the oxidation description and buy a sample first.",
-  "description": "Nilgiri oolong is a small speciality line from a handful of estates in the Nilgiri Hills of Tamil Nadu, where a few makers have borrowed Taiwanese and Chinese methods to turn their year-round leaf into something lighter and fruitier than the region's black teas. It is not a traditional product, but it is a real one, and the better lots are worth seeking out.\n\nThe leaf is withered, bruised gently and oxidised partway, anywhere from about 30 to 70 per cent depending on the maker, then either twisted or ball-rolled and lightly fired. Because the Nilgiri climate allows plucking all year, oolongs are made in several seasons; the cool winter and early-summer pickings tend to be the most aromatic.\n\nExpect a golden-amber cup with peach, honey and a light floral note, a smooth body and gentle astringency; heavier-oxidised lots lean towards baked fruit, lighter ones towards fresh flowers. Brew it Western style at about 90 °C for three minutes, or gongfu style with short steeps, and expect three or four good infusions.\n\nIt is sold in small lots by estate and season (Glendale, Havukal and Chamraj are regulars) at about the price of a good orthodox black from the same garden, and it should be drunk within a year or two. Styles vary a lot, so read the oxidation description and buy a sample first.\n\nA good one to try if you like Darjeeling oolongs or Taiwanese high-mountain teas and want to see what southern India does with the idea.",
+  "vintage_note": "Sold in small lots by estate and season (Chamraj and Korakundah both offer one); drink within a year or two. Styles vary from maker to maker, so read the oxidation description and buy a sample first.",
+  "description": "Nilgiri oolong is a small speciality line from a handful of estates in the Nilgiri Hills of Tamil Nadu, where a few makers turn their year-round leaf into something lighter and fruitier than the region's black teas. It is not a traditional product, but it is a real one, and the better lots are worth seeking out.\n\nThe leaf is withered, bruised gently and oxidised partway, to a degree that depends on the maker, then shaped and lightly fired. Because the Nilgiri climate allows plucking for most of the year, oolongs can be made in several seasons.\n\nExpect a golden-amber cup with peach, honey and a light floral note, a smooth body and gentle astringency; heavier-oxidised lots lean towards baked fruit, lighter ones towards fresh flowers. Brew it Western style at about 90 °C for three minutes, or gongfu style with short steeps, and expect three or four good infusions.\n\nIt is sold in small lots by estate and season (Chamraj and Korakundah both offer one), and it should be drunk within a year or two. Styles vary a lot, so read the oxidation description and buy a sample first.\n\nA good one to try if you like Darjeeling oolongs or Taiwanese high-mountain teas and want to see what southern India does with the idea.",
   "wikipedia_title": "Nilgiri tea",
   "wikipedia_scope": "umbrella",
-  "popularity": 1
+  "popularity": 1,
+  "name_zh": "尼尔吉里乌龙茶",
+  "name_ru": "Нилгири улун",
+  "history": "Oolong is not a traditional product of the Nilgiris, a region built on black tea, and little is documented about when or by whom it was first made there. It exists today as a small speciality line at a few estates. Chamraj, part of United Nilgiri Tea Estates, lists oolong in its range, and organic oolong is sold from Korakundah.\n\nThere is no fixed regional style, so what is in the packet depends on the maker.",
+  "liquor_hex": "#C9963F",
+  "leaf_hex": "#5E5236",
+  "sources": [
+    "https://thesecretoftea.com/pages/chamraj",
+    "https://thesecretoftea.com/products/korakundah-organic-oolong-tea-premium-nilgiri-tea-in-brass-tin-pack"
+  ],
+  "confidence": "low",
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/81/Tea_Gardens_at_Nilgiris.jpg/1280px-Tea_Gardens_at_Nilgiris.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/81/Tea_Gardens_at_Nilgiris.jpg/330px-Tea_Gardens_at_Nilgiris.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Tea_Gardens_at_Nilgiris.jpg",
+      "author": "https://www.flickr.com/photos/pondspider/",
+      "license": "CC BY 2.0",
+      "license_url": "https://creativecommons.org/licenses/by/2.0",
+      "kind": "plantation",
+      "alt": "Tea garden on rolling slopes in the Nilgiri Hills, Tamil Nadu, with misty mountains behind"
+    }
+  ]
 }

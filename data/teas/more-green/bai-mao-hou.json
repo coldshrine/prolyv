@@ -1,0 +1,81 @@
+{
+  "slug": "bai-mao-hou",
+  "name_en": "Bai Mao Hou (White Monkey)",
+  "name_native": "白毛猴",
+  "name_romanized": "Báimáo Hóu",
+  "name_zh": "白毛猴",
+  "name_ru": "Бай Мао Хоу",
+  "aliases": [
+    "Baimao Hou",
+    "White Monkey",
+    "White-haired monkey",
+    "白毛猴茶",
+    "Zhenghe Baimaohou",
+    "政和白毛猴"
+  ],
+  "category": "green",
+  "origin_country": "China",
+  "origin_region": "Fujian · Taimu Mountains",
+  "cultivar": null,
+  "processing": "Buds and young leaves are steamed and carefully dried. It is a green tea, despite a look and a name that lead many people to take it for white tea.",
+  "form": "loose",
+  "harvest_season": "The first two weeks of the season, from late March to early April.",
+  "appearance_dry": "Downy, pale leaves and buds, said to resemble the paw of a white-haired monkey.",
+  "appearance_liquor": "Typically a pale yellow-green and clear, as with other delicate spring greens.",
+  "appearance_wet": "As usual for a bud-and-young-leaf pick, soft, pale green buds and small leaves.",
+  "taste_profile": "Little specific is recorded; expect what is typical of a downy early-spring green, light and soft with a gentle vegetal sweetness, close enough to white tea that the two get confused.",
+  "taste_tags": [
+    "vegetal",
+    "sweet",
+    "floral"
+  ],
+  "brewing": {
+    "grams": 3,
+    "water_ml": 150,
+    "temp_c": 80,
+    "steeps": 3,
+    "seconds": [
+      90,
+      120,
+      180
+    ],
+    "notes": "Treat it as a delicate green: cooler water and a gaiwan or glass with the lid off, since boiling water would flatten a pick this young."
+  },
+  "caffeine_level": "medium",
+  "vintage_note": "Usually sold, like other Chinese greens, as the current spring harvest and best drunk within the year. Because the harvest window falls in late March and early April, ask for the picking date rather than just the year. Keep it sealed and cool.",
+  "description": "Bai Mao Hou, the white-haired monkey, is a Fujian green tea from the Taimu Mountains. Its name comes from the dried leaf, which is said to look like a white monkey's paw.\n\nOnly buds and young leaves from the first two weeks of the season go in, from late March to early April. They are steamed and gently dried, which sets the tea apart from the many pan-fired Chinese greens. Its downy look explains why people so often file it under white tea, but the processing makes it a green.\n\nTasting notes specific to this tea are scarce. As with other downy spring greens, expect a light, soft cup with mild sweetness rather than a strong grassy hit. Keep the water at around 80°C and do not oversteep.\n\nBuy it for what it is and check that the seller calls it a green tea. The label White Monkey is often used loosely, so a shop that names the mountain and the harvest date is a better bet. Do not confuse it with the Taiwanese tea plant also called Baimaohou, which is used in small amounts for Oriental Beauty oolong and has nothing to do with this green.",
+  "history": "Little is documented about when the tea first appeared or who made it known. It is recorded as a green tea of the Taimu Mountains in Fujian, and the name Zhenghe Baimaohou also circulates in trade, pointing to Zhenghe county in the same province, though how the two names relate is not clear.",
+  "liquor_hex": "#DEDA9C",
+  "leaf_hex": "#A9B08C",
+  "wikipedia_title": "Baimao Hou",
+  "wikipedia_scope": "exact",
+  "popularity": 2,
+  "sources": [
+    "https://en.wikipedia.org/wiki/Baimao_Hou",
+    "https://www.wikidata.org/wiki/Q16241448",
+    "https://zh.wikipedia.org/wiki/%E6%9D%B1%E6%96%B9%E7%BE%8E%E4%BA%BA%E8%8C%B6"
+  ],
+  "confidence": "medium",
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/02/White-monkey-gross.jpg/1280px-White-monkey-gross.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/02/White-monkey-gross.jpg/330px-White-monkey-gross.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source_page": "https://commons.wikimedia.org/wiki/File:White-monkey-gross.jpg",
+      "author": "soultea.de /André Helbig",
+      "license": "CC BY 3.0",
+      "license_url": "https://creativecommons.org/licenses/by/3.0",
+      "kind": "dry_leaf",
+      "alt": "Pile of dry White Monkey green tea, twisted dark leaves with pale buds"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6b/White-monkey-kanne-gross.jpg/1280px-White-monkey-kanne-gross.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6b/White-monkey-kanne-gross.jpg/330px-White-monkey-kanne-gross.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source_page": "https://commons.wikimedia.org/wiki/File:White-monkey-kanne-gross.jpg",
+      "author": "soultea.de /André Helbig",
+      "license": "CC BY 3.0",
+      "license_url": "https://creativecommons.org/licenses/by/3.0",
+      "kind": "liquor",
+      "alt": "Pale yellow White Monkey green tea in a glass teapot and glass cup"
+    }
+  ]
+}

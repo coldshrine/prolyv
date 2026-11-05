@@ -3,7 +3,14 @@
   "name_en": "Hong Yun Black (TTES #21)",
   "name_native": "紅韻紅茶（台茶21號）",
   "name_romanized": "Hóngyùn Hóngchá",
-  "aliases": ["Hongyun", "Red Rhyme", "TTES No. 21", "Taiwan Tea No. 21", "Tai Cha 21", "Hong Yun black tea"],
+  "aliases": [
+    "Hongyun",
+    "Red Rhyme",
+    "TTES No. 21",
+    "Taiwan Tea No. 21",
+    "Tai Cha 21",
+    "Hong Yun black tea"
+  ],
   "category": "black",
   "origin_country": "Taiwan",
   "origin_region": "Nantou · Yuchi · Sun Moon Lake",
@@ -15,13 +22,40 @@
   "appearance_liquor": "Bright orange-red, clear.",
   "appearance_wet": "Even copper-red leaves of medium size.",
   "taste_profile": "A high citrus-blossom aroma like pomelo flower and orange peel over a smooth, sweet, lightly malty body with a clean, slightly brisk finish and none of Ruby 18's mint.",
-  "taste_tags": ["citrus", "floral", "sweet", "malty"],
-  "brewing": {"grams": 5, "water_ml": 120, "temp_c": 90, "steeps": 6, "seconds": [20, 20, 30, 40, 60, 90], "notes": "90 °C, three minutes Western-style or short gongfu steeps; too hot and too long turns it thin and drying. Cold-brews into something close to a citrus cordial."},
+  "taste_tags": [
+    "citrus",
+    "floral",
+    "sweet",
+    "malty"
+  ],
+  "brewing": {
+    "grams": 5,
+    "water_ml": 120,
+    "temp_c": 90,
+    "steeps": 6,
+    "seconds": [
+      20,
+      20,
+      30,
+      40,
+      60,
+      90
+    ],
+    "notes": "90 °C, three minutes Western-style or short gongfu steeps; too hot and too long turns it thin and drying. Cold-brews into something close to a citrus cordial."
+  },
   "caffeine_level": "high",
   "vintage_note": "Sold by harvest year and season, usually in small quantities at prices near Ruby 18, with summer lots the most aromatic, and it is sometimes entered in the Sun Moon Lake black-tea evaluations alongside Hong Yu. Plantings are still small, so supply is limited. Drink it within two years.",
   "description": "Hong Yun, 'red rhyme', is Taiwan Tea Experiment Station cultivar number 21, released in 2008 as the next black-tea cultivar after Ruby 18 and bred, like it, at the Yuchi branch by Sun Moon Lake. It is a cross between an Indian Assam line called Kyang and the small-leaf Keemun bush from Anhui, and the point of the pairing shows in the cup: Assam body with a high, floral citrus aroma that the breeders compared to pomelo blossom.\n\nIt is made exactly like Hong Yu: withered, rolled into twisted strips, fully oxidised and dried with no roast. The leaf is a little finer and shorter than Ruby 18 and the liquor is a bright orange-red rather than deep ruby. Plantings are still small, so most of what exists comes from Yuchi and a handful of other growers, and it is often the tea a Sun Moon Lake producer brings out to show you something new.\n\nExpect orange peel and pomelo flower on the nose, a smooth, sweet, lightly malty body with a touch of honey and a clean, slightly brisk finish, without the mint of Ruby 18. It brews like any good orthodox black: 90 degrees, three minutes Western-style or short gongfu steeps, and it cold-brews into something close to a citrus cordial. Push it too hot and too long and it turns thin and drying.\n\nIt is sold by harvest year and season, with summer lots the most aromatic, and usually in small quantities at prices near Ruby 18, and it sometimes turns up in the Sun Moon Lake black-tea evaluations alongside Hong Yu. Drink it within two years. Because it is uncommon it is rarely faked, but ask for the cultivar number if a seller just says 'Sun Moon Lake black'.\n\nIf you find Ruby 18 a little heavy, this is the lighter, brighter sibling.",
   "wikipedia_title": "Taiwanese tea",
   "wikipedia_scope": "umbrella",
   "popularity": 2,
-  "sources_note": "Parentage (Kyang x Keemun) and 2008 release are from memory of TRES cultivar notes; the 'pomelo flower' descriptor is the station's own."
+  "sources_note": "Parentage (Kyang x Keemun) and 2008 release are from memory of TRES cultivar notes; the 'pomelo flower' descriptor is the station's own.",
+  "name_zh": "红韵红茶",
+  "name_ru": "Хун Юнь",
+  "history": "Hong Yun is a modern Taiwanese black tea made from a numbered cultivar of the island's tea research station, Taiwan Tea No. 21, and it is grown around Yuchi and Sun Moon Lake, the same district as Ruby 18. It is a bred cultivar rather than an old local tea, so its story is short. Little is documented in detail beyond the breeding programme, and supply stays small.",
+  "liquor_hex": "#C4602A",
+  "leaf_hex": "#4A2A1C",
+  "sources": [],
+  "confidence": "low",
+  "images": []
 }

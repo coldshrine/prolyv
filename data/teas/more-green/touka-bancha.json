@@ -1,0 +1,53 @@
+{
+  "slug": "touka-bancha",
+  "name_en": "Toshun Bancha",
+  "name_native": "冬春番茶",
+  "name_romanized": "tōshun bancha",
+  "aliases": [
+    "Touka Bancha"
+  ],
+  "category": "green",
+  "origin_country": "Japan",
+  "origin_region": "Japan",
+  "cultivar": null,
+  "form": "loose",
+  "caffeine_level": "medium",
+  "brewing": {
+    "grams": 3,
+    "water_ml": 150,
+    "temp_c": 80,
+    "steeps": 3,
+    "seconds": [
+      60,
+      75,
+      105
+    ],
+    "notes": "A safe starting point for green tea: cooler water, short steeps, then adjust by taste."
+  },
+  "taste_tags": [
+    "vegetal",
+    "sweet"
+  ],
+  "description": "A Japanese bancha named for the winter and early spring, before the first flush.\n\nTreat it as you would any green tea: cooler water, short steeps, and a seller who can say where and when it was picked.",
+  "wikipedia_title": null,
+  "wikipedia_scope": "none",
+  "popularity": 1,
+  "name_zh": "冬春番茶",
+  "name_ru": "Тосюн бантя",
+  "history": "It is defined by its season, given as 1 January to 9 March. Little more is documented about it.",
+  "liquor_hex": "#D6D27A",
+  "leaf_hex": "#7E8B3E",
+  "sources": [
+    "https://ja.wikipedia.org/wiki/日本茶"
+  ],
+  "confidence": "low",
+  "images": [],
+  "stub": true,
+  "processing": "Typical of green tea: picked, heated soon after picking to stop oxidation, then shaped and dried.",
+  "harvest_season": "Winter to early spring, 1 January to 9 March.",
+  "appearance_dry": "Green leaf whose shape depends on the maker, as is usual for regional green teas.",
+  "appearance_liquor": "Usually a clear, pale yellow-green.",
+  "appearance_wet": "Usually soft green leaf that opens up in the water.",
+  "taste_profile": "Expect what green teas usually give: fresh, vegetal and lightly sweet.",
+  "vintage_note": "Green teas like this are normally sold as the current year's harvest and are best within a year of picking. It is not an ageing tea."
+}

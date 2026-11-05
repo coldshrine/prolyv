@@ -3,25 +3,91 @@
   "name_en": "Tie Guan Yin (Qing Xiang)",
   "name_native": "清香铁观音",
   "name_romanized": "Qīngxiāng Tiě Guānyīn",
-  "aliases": ["Iron Goddess of Mercy", "Ti Kuan Yin", "TGY", "Anxi Tieguanyin", "Green-style Tieguanyin", "Tieguanyin"],
+  "aliases": [
+    "Iron Goddess of Mercy",
+    "Ti Kuan Yin",
+    "TGY",
+    "Anxi Tieguanyin",
+    "Green-style Tieguanyin",
+    "Tieguanyin",
+    "铁观音",
+    "鐵觀音",
+    "安溪铁观音",
+    "清香鐵觀音",
+    "绿观音"
+  ],
   "category": "oolong",
   "origin_country": "China",
   "origin_region": "Fujian · Anxi",
   "cultivar": "Tieguanyin",
   "processing": "Lightly oxidised (roughly 10–20%), tightly ball-rolled, only lightly dried with no real roast; usually vacuum-packed in small foil bags and kept refrigerated.",
   "form": "loose",
-  "harvest_season": "Spring (late April to May) and autumn (October). Autumn lots are often the most fragrant; summer lots are cheaper and flatter.",
+  "harvest_season": "Spring (mid-to-late April to early May) and autumn (late September to early October). Autumn lots are often the most fragrant; summer lots are cheaper and flatter.",
   "appearance_dry": "Tight, glossy jade-green pellets, often with a short reddish stem attached.",
   "appearance_liquor": "Pale yellow-green and crystal clear.",
   "appearance_wet": "Large whole leaves unfurl almost completely, bright green with faintly red edges.",
   "taste_profile": "Orchid and lilac florals over a creamy, buttery body, with a long cooling sweetness and only a touch of grip.",
-  "taste_tags": ["floral", "creamy", "sweet", "vegetal"],
-  "brewing": {"grams": 7, "water_ml": 110, "temp_c": 95, "steeps": 7, "seconds": [15, 10, 15, 20, 30, 45, 60], "notes": "Rinse once for a few seconds to open the pellets. Porcelain gaiwan; keep the first steeps short or the florals turn grassy."},
+  "taste_tags": [
+    "floral",
+    "creamy",
+    "sweet",
+    "vegetal"
+  ],
+  "brewing": {
+    "grams": 7,
+    "water_ml": 110,
+    "temp_c": 95,
+    "steeps": 7,
+    "seconds": [
+      15,
+      10,
+      15,
+      20,
+      30,
+      45,
+      60
+    ],
+    "notes": "Rinse once for a few seconds to open the pellets. Porcelain gaiwan; keep the first steeps short or the florals turn grassy."
+  },
   "caffeine_level": "medium",
   "vintage_note": "Sold by season: the spring and autumn harvests of the current year, and most of it should be drunk within a year of picking (keep it sealed and cold). It is not an ageing tea in this green style; aged, re-roasted Tieguanyin (chen xiang) is a separate product sold with its age stated.",
   "description": "Tie Guan Yin from Anxi in southern Fujian is the oolong most people meet first, and the modern 'qing xiang' (clear fragrance) style is the reason: it is green, floral and creamy rather than roasted, and it looks like little jade pellets.\n\nThe leaves are oxidised only lightly and then rolled and dried over and over until they curl into balls, with just enough heat to fix the aroma and none of the charcoal roasting the traditional style used. That is why it needs to live in the fridge: the flavour that makes it special is also the first thing to fade.\n\nBrewed gongfu style it opens with orchid and a buttery texture, turns sweeter and softer by the third and fourth steeps, and fades gracefully rather than turning harsh. Most mistakes come from water that is too cool or steeps that are too long; use water just off the boil and keep the early infusions short.\n\nIt is sold by harvest, spring and autumn, in small vacuum packs; a good shop will tell you the season and the village. Avoid anything with a bright, almost neon green colour and a perfume-like smell, which usually means heavy flavouring or very low oxidation chasing colour over taste.\n\nIf you like this and want more depth, try the traditional roasted style or an aged chen xiang Tieguanyin next: same leaf, completely different tea.",
   "wikipedia_title": "Tieguanyin",
   "wikipedia_scope": "exact",
   "popularity": 5,
-  "sources_note": "Reproduced from the SCHEMA.md example card with minor additions to aliases."
+  "sources_note": "Reproduced from the SCHEMA.md example card with minor additions to aliases.",
+  "name_zh": "清香铁观音",
+  "name_ru": "Цин Сян Те Гуань Инь",
+  "history": "Tieguanyin itself is a Qing-dynasty tea from Xiping in Anxi, but this light, green version is recent. Anxi tea was traditionally more oxidised and more roasted; lower oxidation and light drying became the mainstream only in recent decades, and the name qing xiang separates this newer style from the older roasted one.\n\nIts rise tracks the market. In the 1990s Anxi Tieguanyin moved beyond Fujian into central China, and by 2009 one tael of a prize-winning tea had fetched more than 150,000 yuan. Fakes then spread, and in 2011 a scare over rare-earth residues hit its reputation, after which its market share slipped year by year and Anxi pushed agricultural reform.\n\nThe tea system has since been recognised as heritage, nationally in 2014 and by the UN Food and Agriculture Organization in 2022. Output runs across four harvests a year, with autumn the largest and usually the most fragrant.",
+  "liquor_hex": "#E3DA95",
+  "leaf_hex": "#6F8A4A",
+  "sources": [
+    "https://zh.wikipedia.org/wiki/%E9%93%81%E8%A7%82%E9%9F%B3",
+    "https://en.wikipedia.org/wiki/Tieguanyin",
+    "https://ja.wikipedia.org/wiki/%E9%89%84%E8%A6%B3%E9%9F%B3",
+    "https://www.wikidata.org/wiki/Q1328947"
+  ],
+  "confidence": "high",
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9a/Maxim-2b-TinKuanYinLeaves.JPG/1280px-Maxim-2b-TinKuanYinLeaves.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9a/Maxim-2b-TinKuanYinLeaves.JPG/330px-Maxim-2b-TinKuanYinLeaves.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Maxim-2b-TinKuanYinLeaves.JPG",
+      "author": "Maximilian Wimmer",
+      "license": "CC BY-SA 3.0",
+      "license_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+      "kind": "dry_leaf",
+      "alt": "Green rolled Tieguanyin oolong leaves, loosely opened, on pale paper"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/83/Maxim-3-TinKuanYinInfusion.JPG/1280px-Maxim-3-TinKuanYinInfusion.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/83/Maxim-3-TinKuanYinInfusion.JPG/330px-Maxim-3-TinKuanYinInfusion.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Maxim-3-TinKuanYinInfusion.JPG",
+      "author": "Maximilian Wimmer",
+      "license": "CC BY-SA 3.0",
+      "license_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+      "kind": "wet_leaf",
+      "alt": "Tieguanyin leaves unfurling in pale yellow infusion in a white bowl"
+    }
+  ]
 }

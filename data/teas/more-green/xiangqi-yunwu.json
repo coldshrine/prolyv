@@ -1,0 +1,53 @@
+{
+  "slug": "xiangqi-yunwu",
+  "name_en": "Xiangqi Yunwu",
+  "name_native": "象棋云雾",
+  "name_romanized": "Xiàngqí Yúnwù",
+  "aliases": [
+    "象棋雲霧"
+  ],
+  "category": "green",
+  "origin_country": "China",
+  "origin_region": "Guangxi · Hezhou Zhaoping",
+  "cultivar": null,
+  "form": "loose",
+  "caffeine_level": "medium",
+  "brewing": {
+    "grams": 3,
+    "water_ml": 150,
+    "temp_c": 80,
+    "steeps": 3,
+    "seconds": [
+      60,
+      75,
+      105
+    ],
+    "notes": "A safe starting point for green tea: cooler water, short steeps, then adjust by taste."
+  },
+  "taste_tags": [
+    "floral",
+    "sweet"
+  ],
+  "description": "A green tea from Xiangqi Mountain, between Wenzhu and Xianhui in Zhaoping County, Guangxi, grown on slopes at around 700 metres.\n\nTreat it as you would any green tea: cooler water, short steeps, and a seller who can say where and when it was picked.",
+  "wikipedia_title": null,
+  "wikipedia_scope": "none",
+  "popularity": 1,
+  "name_zh": "象棋云雾",
+  "name_ru": "Сян Ци Юнь У",
+  "history": "It is regarded as one of Guangxi's special named teas. Little is documented about when it was first made.",
+  "liquor_hex": "#DAD68A",
+  "leaf_hex": "#7E9A48",
+  "sources": [
+    "https://www.ichabaike.com/lvcha/xiangqiyunwu/"
+  ],
+  "confidence": "low",
+  "images": [],
+  "stub": true,
+  "processing": "Typical of green tea: picked, heated soon after picking to stop oxidation, then shaped and dried.",
+  "harvest_season": "Usually picked in spring, with the earliest pickings prized, as with most green teas.",
+  "appearance_dry": "Flat and straight, emerald green, with visible white down.",
+  "appearance_liquor": "Clear and bright.",
+  "appearance_wet": "Tender green and even.",
+  "taste_profile": "Clean, lasting fragrance with a fresh, sweet, mellow taste.",
+  "vintage_note": "Green teas like this are normally sold as the current year's harvest and are best within a year of picking. It is not an ageing tea."
+}

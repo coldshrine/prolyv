@@ -1,0 +1,56 @@
+{
+  "slug": "happy-valley-estate",
+  "name_en": "Happy Valley",
+  "name_native": null,
+  "name_romanized": null,
+  "name_zh": "快乐谷茶园红茶",
+  "name_ru": "Хэппи Вэлли",
+  "aliases": [
+    "Happy Valley Tea Estate",
+    "Happy Valley Tea Garden",
+    "Wilson Tea Estate"
+  ],
+  "category": "black",
+  "origin_country": "India",
+  "origin_region": "West Bengal · Darjeeling",
+  "cultivar": null,
+  "processing": "Black tea made in the Darjeeling way, withered, rolled, oxidised and dried. The estate has also sold hand-rolled tea, and it moved to organic farming after 2007.",
+  "form": "loose",
+  "harvest_season": "First flush picking and processing keep the garden busiest from March to May; later flushes follow as elsewhere in Darjeeling.",
+  "appearance_dry": "Typical of Darjeeling whole-leaf tea: wiry leaf in greens and browns, varying by flush.",
+  "appearance_liquor": "Pale gold in spring lots, amber in later ones.",
+  "appearance_wet": "Mixed green and coppery leaf, with less green in later flushes.",
+  "taste_profile": "No fixed house taste is well documented. As with other high Darjeeling gardens, expect floral and brisk in spring and rounder with some fruit later on.",
+  "taste_tags": [
+    "floral",
+    "brisk",
+    "fruity"
+  ],
+  "brewing": {
+    "grams": 3,
+    "water_ml": 250,
+    "temp_c": 90,
+    "steeps": 2,
+    "seconds": [
+      180,
+      240
+    ],
+    "notes": "Western style. Keep spring lots cooler and shorter; later flushes take hotter water."
+  },
+  "caffeine_level": "medium",
+  "vintage_note": "Sold by flush and year like other Darjeeling estates, with first flush from the March to May season as the headline lot. Drink spring lots within about a year. Since the estate has changed hands more than once, recent lots are the only fair guide to the tea now.",
+  "description": "Happy Valley is the garden closest to Darjeeling town, about 3 kilometres north, which makes it the one many visitors actually walk through. It covers 177 hectares at around 2,100 metres, and its factory ranks among the highest in the world.\n\nThe bushes are old, at least 80 years and in places about 150, with very little replanting recently. After 2007 the estate switched to organic farming and built a new factory, keeping the old one as a working museum with its slow piston engines.\n\nBrew it as a normal Darjeeling and adjust by flush. Little is documented about a consistent house flavour, so treat the typical Darjeeling picture as a starting point: florals and bite in spring, more roundness later.\n\nThis is a garden to buy by year and lot, since its ownership and fortunes have swung. If you visit between March and May, you will see first flush being plucked and processed.",
+  "history": "Founded in 1854, it is usually counted as Darjeeling's second-oldest estate after Steinthal. An Englishman, David Wilson, named it Wilson Tea Estate and was growing tea by 1860. Tarapada Banerjee took it over in 1903, then in 1929 bought neighbouring Windsor and merged the two as Happy Valley.\n\nAfter nearly four dormant years during an industry slump, it was bought in March 2007 by S K Bansal of the Ambootia group and reopened to the public in 2008. That year its hand-rolled tea was picked for sale at Harrods, and it also reached Mariage Frères in France.\n\nIn late 2022, amid long financial distress, it passed with five other gardens to Lemongrass Organic Tea Estates, led by Sushil Kumar Agarwal.",
+  "liquor_hex": "#CC9A45",
+  "leaf_hex": "#62583A",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Happy_Valley_Tea_Estate",
+    "https://www.wikidata.org/wiki/Q5653142",
+    "https://happyearthtea.com/blogs/tea-101/darjeeling-tea-gardens"
+  ],
+  "confidence": "medium",
+  "wikipedia_title": "Happy Valley Tea Estate",
+  "wikipedia_scope": "exact",
+  "popularity": 3,
+  "images": []
+}

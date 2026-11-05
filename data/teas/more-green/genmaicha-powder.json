@@ -1,0 +1,57 @@
+{
+  "slug": "genmaicha-powder",
+  "name_en": "Genmaicha Powder",
+  "name_native": "玄米茶パウダー",
+  "name_romanized": "Genmaicha Pawadā",
+  "name_zh": "玄米茶粉",
+  "name_ru": "Порошковая гэммайтя",
+  "aliases": [
+    "Powdered genmaicha",
+    "Genmaicha latte powder",
+    "粉末玄米茶"
+  ],
+  "category": "green",
+  "origin_country": "Japan",
+  "origin_region": "Nationwide",
+  "cultivar": null,
+  "processing": "Green tea, usually sencha, is blended with roasted brown rice and milled together into a fine powder.",
+  "form": "powder",
+  "harvest_season": "Takes the season of the base tea, which sellers rarely name. Some lots state a first-flush sencha.",
+  "appearance_dry": "A fine powder, typically a pale khaki green from the mix of leaf and toasted rice.",
+  "appearance_liquor": "Opaque, pale green-beige, with the ground leaf and rice suspended in it.",
+  "appearance_wet": "There is no wet leaf: the powder stays in the drink.",
+  "taste_profile": "Typical of genmaicha but more concentrated: toasted rice and a nutty warmth over a brisk green-tea edge, fuller in body since all of it is drunk.",
+  "taste_tags": [
+    "roasted",
+    "nutty",
+    "grassy",
+    "sweet"
+  ],
+  "brewing": {
+    "grams": 2,
+    "water_ml": 200,
+    "temp_c": 75,
+    "steeps": 1,
+    "seconds": [
+      20
+    ],
+    "notes": "Whisk or shake into water, hot or cold, and drink straight away. For a latte, make a paste with a splash of water first, then add milk."
+  },
+  "caffeine_level": "low",
+  "vintage_note": "Sold as a non-vintage pantry product, often in bulk bags for cooking and cafe use and in small sachets, usually with a best-before date and no harvest year. The toasted aroma is the first thing to go, so keep it sealed and use it within weeks of opening.",
+  "description": "Genmaicha powder is what it sounds like: genmaicha, the green tea with roasted brown rice, ground so fine that it dissolves into your cup. It belongs to the modern shelf of cafe and kitchen teas.\n\nProducers blend the tea and rice and then mill them together. The base is usually sencha, though few sellers tell you much more. Some name organic or first-flush leaf, and that is about as far as the detail goes.\n\nSince you consume everything, the cup is stronger than steeped genmaicha, with the toasty rice in front and more of the leaf's bite behind it. Hot water brings the bitterness up quickly, so go cooler than you might expect. It does not need heat at all, which is why people use it for cold drinks and lattes.\n\nBuying it is mostly a matter of reading the ingredients: tea and rice only, with no sugar or milk powder if you want the plain thing. Check that it is not an instant mix, and buy small amounts.\n\nIt is also good in baking and desserts, where the toasted rice flavour comes through in a way that a plain green powder cannot manage.",
+  "history": "Little is documented about when genmaicha powder first appeared or who made it first. It is a recent variation on steeped genmaicha, sold by Japanese tea companies for lattes, cold drinks and cooking, and it fits the wider Japanese trade in milled green teas.",
+  "liquor_hex": "#B5AE6A",
+  "leaf_hex": "#A3A15E",
+  "sources": [
+    "https://obubutea.com/shop/cooking/genmaicha-powder/",
+    "https://moychay.nl/products/genmaicha-powder",
+    "https://yunomi.life/ja/products/palette-genmaicha-powder",
+    "https://www.souschef.co.uk/products/cosmic-dealer-genmaicha-green-tea-powder"
+  ],
+  "confidence": "low",
+  "wikipedia_title": null,
+  "wikipedia_scope": "none",
+  "popularity": 2,
+  "images": []
+}

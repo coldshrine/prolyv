@@ -3,10 +3,18 @@
   "name_en": "English Breakfast",
   "name_native": null,
   "name_romanized": null,
-  "aliases": ["English breakfast tea", "Breakfast tea", "Breakfast blend", "Builder's tea (loosely)"],
+  "aliases": [
+    "English breakfast tea",
+    "Breakfast tea",
+    "Breakfast blend",
+    "Builder's tea (loosely)",
+    "英國早餐茶",
+    "英式早餐茶",
+    "Инглиш Брекфаст"
+  ],
   "category": "black",
   "origin_country": "United Kingdom",
-  "origin_region": "Blended in Britain from Assam, Ceylon and Kenyan black teas (historically also Chinese Keemun)",
+  "origin_region": "United Kingdom",
   "cultivar": null,
   "processing": "A blend of fully oxidised black teas, mostly broken-leaf or CTC grades, combined by a blender to a fixed house taste; nothing is added. Loose versions use larger orthodox leaf, tea bags use small CTC granules and fannings for a fast, strong brew.",
   "form": "loose",
@@ -15,12 +23,84 @@
   "appearance_liquor": "Deep red-brown and bright, turning tan with milk.",
   "appearance_wet": "Coppery-brown broken leaf.",
   "taste_profile": "Full-bodied, malty and brisk with a firm tannic grip and a touch of toast and dried fruit; built to be drunk strong with milk and, often, sugar.",
-  "taste_tags": ["malty", "brisk", "woody"],
-  "brewing": {"grams": 3, "water_ml": 250, "temp_c": 100, "steeps": 1, "seconds": [240], "notes": "Boiling water, 3–5 minutes; it is meant to be strong. Milk is the standard serve (add it after, so you can see the colour), and it is the right tea for a pot that sits on the table. Loose orthodox blends can take a short second steep."},
+  "taste_tags": [
+    "malty",
+    "brisk",
+    "woody"
+  ],
+  "brewing": {
+    "grams": 3,
+    "water_ml": 250,
+    "temp_c": 100,
+    "steeps": 1,
+    "seconds": [
+      240
+    ],
+    "notes": "Boiling water, 3–5 minutes; it is meant to be strong. Milk is the standard serve (add it after, so you can see the colour), and it is the right tea for a pot that sits on the table. Loose orthodox blends can take a short second steep."
+  },
   "caffeine_level": "high",
   "vintage_note": "The opposite of a vintage tea: the point of a breakfast blend is that this year's tin tastes like last year's, so blenders rebalance the Assam, Ceylon and Kenyan components every season and print no harvest year. Sold year-round in bags and loose, with a best-before of two to three years. What you can check is the origin list (Assam-led blends are maltier, Kenyan-led brighter and more astringent) and whether the leaf is CTC or orthodox, which decides whether it is a quick strong brew for bags or a rounder loose-leaf pot.",
   "description": "English Breakfast is the strong, malty, milk-friendly black blend that most of the English-speaking world means by 'a cup of tea'. It is not a single tea but a recipe, typically Assam for body, Ceylon for brightness and Kenyan tea for colour and strength, and every brand has its own version; nineteenth-century blends leaned on Chinese black tea, which is why some premium versions still include a little Keemun.\n\nThe blender's job is consistency. Tea crops change with the weather, so the proportions are adjusted every season to keep the house taste exactly where customers expect it. Most of it is sold in bags made from CTC granules and fannings, which brew fast and strong, while loose-leaf versions use larger orthodox leaf and give a rounder, less aggressive cup.\n\nIn the cup it is full, malty and brisk, with enough tannin to stand up to milk and a biscuit, and it is one of the few teas that is genuinely better brewed hard: boiling water, three to five minutes, no delicacy required. Under-brewing it gives a thin, bitter cup; the common mistakes are stewing a bag for ten minutes or using water that has gone off the boil.\n\nThere is no vintage and no season to chase. Read the back of the pack for the origins, decide whether you want the quick CTC strength of a bag or the rounder loose leaf, and expect premium versions to say more about their Assam. 'Irish Breakfast' is the same idea with more Assam, 'Scottish Breakfast' stronger still.\n\nIf you want to understand what the blend is made of, drink a plain second-flush Assam and a plain Ceylon side by side; the breakfast blend is the middle of those two with Kenyan colour added.",
   "wikipedia_title": "English breakfast tea",
   "wikipedia_scope": "exact",
-  "popularity": 5
+  "popularity": 5,
+  "name_zh": "英国早餐茶",
+  "name_ru": "Английский завтрак",
+  "history": "Blends of black tea drunk with breakfast are an old British and Irish habit, and sellers were using the term 'breakfast tea' by the late 18th century at the latest. Where the specific name 'English Breakfast' comes from is much less clear, and it may not be England at all.\n\nOne American account dates it to 1843 or 1844 and to Richard Davies, an English immigrant selling tea in New York, who is said to have started with Congou and added a little Pekoe and Pouchong at 50 cents a pound. The original newspaper article has not been found, only a retelling from 1876. An 1884 American publication says the Bohea teas shipped to England were known in the US trade as 'English Breakfast'.\n\nThe British story credits Queen Victoria, who is said to have tasted a 'breakfast tea' at Balmoral in 1892 and taken a supply back to London. Both tales are hard to verify.\n\nThe recipe moved along with the empire's tea. Today's blends rest on Assam, Ceylon and Kenya, with Keemun sometimes included in dearer versions, and the Chinese base of the early accounts has largely gone.",
+  "liquor_hex": "#8C3E17",
+  "leaf_hex": "#32221A",
+  "sources": [
+    "https://en.wikipedia.org/wiki/English_breakfast_tea",
+    "https://ja.wikipedia.org/wiki/%E3%82%A4%E3%83%B3%E3%82%B0%E3%83%AA%E3%83%83%E3%82%B7%E3%83%A5%E3%83%BB%E3%83%96%E3%83%AC%E3%83%83%E3%82%AF%E3%83%95%E3%82%A1%E3%82%B9%E3%83%88%E3%83%BB%E3%83%86%E3%82%A3%E3%83%BC",
+    "https://zh.wikipedia.org/wiki/%E8%8B%B1%E5%9C%8B%E6%97%A9%E9%A4%90%E8%8C%B6"
+  ],
+  "confidence": "high",
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/94/1_ounce_of_English_breakfast_tea_2013-04-05_13-25.jpg/1280px-1_ounce_of_English_breakfast_tea_2013-04-05_13-25.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/94/1_ounce_of_English_breakfast_tea_2013-04-05_13-25.jpg/330px-1_ounce_of_English_breakfast_tea_2013-04-05_13-25.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source_page": "https://commons.wikimedia.org/wiki/File:1_ounce_of_English_breakfast_tea_2013-04-05_13-25.jpg",
+      "author": "User:Nickkarls",
+      "license": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "kind": "dry_leaf",
+      "alt": "One ounce of loose English Breakfast black tea in a clear plastic bag"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c7/English_breakfast_tea%2C_Marrickville%2C_Sydney.jpg/1280px-English_breakfast_tea%2C_Marrickville%2C_Sydney.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c7/English_breakfast_tea%2C_Marrickville%2C_Sydney.jpg/330px-English_breakfast_tea%2C_Marrickville%2C_Sydney.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source_page": "https://commons.wikimedia.org/wiki/File:English_breakfast_tea,_Marrickville,_Sydney.jpg",
+      "author": "ashishlohorung",
+      "license": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "kind": "liquor",
+      "alt": "A white cup of English Breakfast tea held above a red teapot"
+    }
+  ],
+  "i18n": {
+    "ru": {
+      "processing": "Купаж полностью окисленных чёрных чаёв, в основном ломаных или CTC, который блендер составляет под постоянный фирменный вкус; ничего не добавляется. В рассыпных версиях используется более крупный ортодоксальный лист, в пакетиках — мелкие гранулы CTC и феннингс, чтобы быстро получить крепкий настой.",
+      "harvest_season": "Это не сбор: купаж делают круглый год, подправляя рецепт каждый сезон, чтобы чашка оставалась прежней, что бы ни случилось в этом году с ассамским или кенийским урожаем.",
+      "appearance_dry": "Мелкий, тёмный, ровный ломаный лист или гранулы; в рассыпных версиях — скрученный чёрный лист с редкими золотистыми типсами.",
+      "appearance_liquor": "Насыщенный красно-коричневый, яркий; с молоком становится светло-коричневым.",
+      "appearance_wet": "Медно-коричневый ломаный лист.",
+      "taste_profile": "Плотный, солодовый и бодрый, с крепкой танинной хваткой и ноткой тоста и сухофруктов; задуман, чтобы пить его крепким с молоком и часто с сахаром.",
+      "vintage_note": "Полная противоположность винтажному чаю: смысл купажа к завтраку в том, чтобы банка этого года была на вкус как прошлогодняя, поэтому блендеры каждый сезон перебалансируют ассамскую, цейлонскую и кенийскую составляющие и не указывают год сбора. Продаётся круглый год в пакетиках и рассыпным, со сроком годности два-три года. Проверить можно список происхождения (купажи на основе Ассама более солодовые, на основе Кении ярче и терпче) и то, CTC это или ортодоксальный лист, — от этого зависит, будет ли это быстрый крепкий настой для пакетиков или более округлый рассыпной чайник.",
+      "history": "Купажи чёрного чая к завтраку — давняя британская и ирландская привычка, и выражение «чай к завтраку» продавцы использовали самое позднее к концу XVIII века. Откуда взялось конкретное название English Breakfast, гораздо менее ясно, и может оказаться, что вовсе не из Англии.\n\nОдин американский рассказ датирует его 1843 или 1844 годом и связывает с Ричардом Дэвисом, английским иммигрантом, торговавшим чаем в Нью-Йорке: якобы он начал с Конгу и добавил немного Пекое и Пушона, по 50 центов за фунт. Оригинальная газетная статья не найдена, есть только пересказ 1876 года. В американском издании 1884 года говорится, что чаи Бохея, шедшие в Англию, в торговле США были известны как English Breakfast.\n\nБританская история приписывает название королеве Виктории, которая будто бы попробовала «чай к завтраку» в Балморале в 1892 году и увезла запас в Лондон. Обе байки трудно проверить.\n\nРецепт менялся вместе с чаем империи. Сегодняшние купажи держатся на Ассаме, Цейлоне и Кении, в более дорогие иногда входит Цимэнь, а китайская основа ранних рассказов в основном ушла.",
+      "description": "Английский завтрак — тот крепкий, солодовый, дружащий с молоком чёрный купаж, который в большей части англоязычного мира и подразумевают под «чашкой чая». Это не отдельный чай, а рецепт: обычно Ассам для тела, Цейлон для яркости и кенийский чай для цвета и крепости, и у каждого бренда своя версия; купажи XIX века опирались на китайский чёрный чай, поэтому в некоторых премиальных версиях до сих пор есть немного Цимэня.\n\nЗадача блендера — постоянство. Урожаи меняются с погодой, поэтому пропорции каждый сезон подправляют, чтобы фирменный вкус был ровно там, где его ждут покупатели. Большая часть продаётся в пакетиках из гранул CTC и феннингса, которые завариваются быстро и крепко, а в рассыпных версиях используется более крупный ортодоксальный лист, дающий более округлую, менее агрессивную чашку.\n\nВ чашке он плотный, солодовый и бодрый, с достаточным танином, чтобы выдержать молоко и печенье, и это один из немногих чаёв, который и правда лучше заварить покрепче: кипяток, три-пять минут, никаких нежностей. Если недозаварить, получится жидкая горькая чашка; обычные ошибки — томить пакетик десять минут или брать воду, которая уже остыла после кипения.\n\nНи года, ни сезона тут искать не нужно. Прочитайте на обороте упаковки происхождение, решите, нужна ли вам быстрая крепость CTC в пакетике или более округлый рассыпной лист, и учтите, что премиальные версии расскажут о своём Ассаме подробнее. Irish Breakfast — та же идея с большей долей Ассама, Scottish Breakfast ещё крепче.\n\nЧтобы понять, из чего состоит купаж, выпейте рядом чистый Ассам второго сбора и чистый Цейлон; купаж к завтраку — это середина между ними плюс цвет от кенийского чая.",
+      "brewing_notes": "Кипяток, 3–5 минут; он и должен быть крепким. Стандартная подача — с молоком (добавляйте его после, чтобы видеть цвет), и это тот самый чай для чайника, который стоит на столе. Рассыпные ортодоксальные купажи выдерживают короткий второй пролив."
+    },
+    "zh": {
+      "processing": "用全氧化红茶拼配而成,主要是碎叶或CTC等级,由拼配师调成固定的品牌风味;不添加任何东西。散装款用较大的传统工艺茶叶,袋泡款用细小的CTC颗粒和片茶,以便快速泡出浓茶。",
+      "harvest_season": "没有采摘季:全年拼配,配方每季微调,无论当年阿萨姆或肯尼亚的收成如何,杯中味道都保持不变。",
+      "appearance_dry": "细小、深色、匀整的碎叶或颗粒;散装款可见扭曲的黑色茶条,偶有金毫。",
+      "appearance_liquor": "深红褐色,明亮,加奶后转为棕褐色。",
+      "appearance_wet": "铜褐色碎叶。",
+      "taste_profile": "茶体饱满,麦芽感足,爽利,单宁紧实,带一点烤面包和果干的气息;就是要泡得浓,加奶,往往还加糖。",
+      "vintage_note": "与年份茶完全相反:早餐茶的意义在于今年这罐和去年一个味道,所以拼配师每季重新平衡阿萨姆、锡兰和肯尼亚的比例,不标采摘年份。全年有袋泡和散装出售,保质期两到三年。可以看的是产地列表(阿萨姆为主的麦芽感更强,肯尼亚为主的更亮更涩),以及是CTC还是传统工艺茶,这决定了它是快速浓泡的袋茶,还是更圆润的散茶壶泡。",
+      "history": "早餐时喝拼配红茶是英国和爱尔兰的老习惯,至迟到18世纪末,茶商已在使用“早餐茶”这个说法。而“English Breakfast”这个具体名字从何而来就不太清楚了,甚至可能根本不是来自英国。\n\n美国的一种说法把它定在1843或1844年,归于在纽约卖茶的英国移民Richard Davies,据说他以工夫茶为底,加了少许白毫和包种,每磅50美分。原始报纸文章至今未见,只有1876年的转述。1884年的一份美国出版物则说,运往英国的武夷茶在美国茶叶贸易中被称为“English Breakfast”。\n\n英国的说法归功于维多利亚女王,据说她1892年在巴尔莫勒尔尝到一种“早餐茶”,带了一批回伦敦。两个故事都难以查证。\n\n配方随着帝国的茶而变。如今的拼配以阿萨姆、锡兰和肯尼亚为基础,较贵的款式有时加入祁门,早期说法里的中国茶底已基本不见了。",
+      "description": "英国早餐茶就是英语世界大部分地方所说的“一杯茶”:浓烈、麦芽感足、适合加奶的拼配红茶。它不是单一的茶,而是一个配方,通常是阿萨姆提供茶体,锡兰提供明亮度,肯尼亚茶提供颜色和力度,每个品牌各有版本;19世纪的拼配依赖中国红茶,所以有些高端款仍加少许祁门。\n\n拼配师的工作是保持一致。茶叶收成随天气变化,所以每季都要调整比例,让品牌风味稳稳留在顾客期待的位置。大部分以CTC颗粒和片茶制成的袋泡茶出售,泡得快且浓;散装款用较大的传统工艺茶叶,杯中更圆润,没那么冲。\n\n杯中饱满、麦芽感足、爽利,单宁足以撑起牛奶和饼干,也是少数真正泡得浓才好的茶之一:沸水,三到五分钟,不必讲究细腻。泡不够会又薄又苦;常见的错误是把茶包闷十分钟,或者用已经过了沸点的水。\n\n这里没有年份和产季可追。看看包装背面的产地,决定你要的是袋泡CTC的快速浓度还是散茶的圆润,并且可以预期高端款会多讲讲它的阿萨姆。“爱尔兰早餐茶”是同一思路但阿萨姆更多,“苏格兰早餐茶”则更浓。\n\n想了解这款拼配由什么构成,可以把纯的夏摘阿萨姆和纯的锡兰红茶对比着喝;早餐茶就是这两者的中间地带,再加上肯尼亚茶的颜色。",
+      "brewing_notes": "沸水,3–5分钟;它就该浓。标准喝法是加奶(后加,这样能看到颜色),也正适合那种一直放在桌上的茶壶。散装传统工艺拼配可以再短泡一道。"
+    }
+  }
 }

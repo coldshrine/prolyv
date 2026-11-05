@@ -1,0 +1,54 @@
+{
+  "slug": "omi-cha",
+  "name_en": "Omi-cha",
+  "name_native": "近江の茶",
+  "name_romanized": "Ōmi no Cha",
+  "name_zh": "近江茶",
+  "name_ru": "Оми-тя",
+  "aliases": [
+    "Ōmi tea",
+    "近江茶"
+  ],
+  "category": "green",
+  "origin_country": "Japan",
+  "origin_region": "Shiga",
+  "cultivar": null,
+  "processing": "An umbrella for Shiga's green teas, most notably steamed sencha; methods vary with the sub-region and maker.",
+  "form": "loose",
+  "harvest_season": "Typically spring for the most valued first flush, with later pickings for everyday tea, as is usual in Japan.",
+  "appearance_dry": "Typically deep green needles for sencha, varying with the sub-region.",
+  "appearance_liquor": "Typically clear yellow-green for sencha.",
+  "appearance_wet": "Typically soft green leaf.",
+  "taste_profile": "Described as elegant and full of flavour in its higher-grade sencha, shaped by misty fields and wide swings between day and night temperature.",
+  "taste_tags": [
+    "vegetal",
+    "umami"
+  ],
+  "brewing": {
+    "grams": 5,
+    "water_ml": 180,
+    "temp_c": 75,
+    "steeps": 3,
+    "seconds": [
+      60,
+      20,
+      40
+    ],
+    "notes": "Treat as ordinary sencha to begin with, then adjust for the specific area named on the label."
+  },
+  "caffeine_level": "medium",
+  "vintage_note": "Sold as the current year's crop as usual for Japanese greens, with first-flush lots the most valued. The name is a prefecture-wide label, so lots with a named sub-region such as Asamiya or Tsuchiyama tell you more.",
+  "description": "Omi is the old name for Shiga, and Omi tea is simply the collective term for the prefecture's green tea. Koka city makes the most of it.\n\nThe terrain does much of the work: many sites see strong day-night temperature swings and frequent fog, conditions associated with refined sencha.\n\nThink of it as a family and not a style. Some is sold simply as Omi tea, while smaller areas carry their own names: Asamiya, Tsuchiyama, Mandokoro and Kitayama. Brew it as sencha and adjust from there.\n\nFor a fun comparison, taste a mountain Asamiya next to a Tsuchiyama from gentler hills. It is an easy way to learn how much place matters in one prefecture.",
+  "history": "Shiga has a strong claim on the beginning of Japanese tea. Tradition says Saicho sowed seed from Tang China in 805 at Hiyoshi tea garden in Sakamoto at the foot of Mount Hiei.\n\nThe Nihon Koki records that in 815 the monk Eichu prepared and served tea to Emperor Saga on the way to present-day Otsu, which is regarded as the first written record of tea drinking in Japan.\n\nMuch later, the name became a prefectural umbrella over smaller local brands.",
+  "liquor_hex": "#CBCB7A",
+  "leaf_hex": "#4D6432",
+  "sources": [
+    "https://ja.wikipedia.org/wiki/%E8%BF%91%E6%B1%9F%E3%81%AE%E8%8C%B6",
+    "https://www.wikidata.org/wiki/Q65284030"
+  ],
+  "confidence": "medium",
+  "wikipedia_title": "近江の茶",
+  "wikipedia_scope": "exact",
+  "popularity": 3,
+  "images": []
+}

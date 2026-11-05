@@ -1,0 +1,55 @@
+{
+  "slug": "kothamalli",
+  "name_en": "Koththamalli (Coriander Tea)",
+  "name_native": "ඉඟුරු කොත්තමල්ලි තේ",
+  "name_romanized": "Koththamalli",
+  "name_zh": "芫荽籽姜茶",
+  "name_ru": "Коттамалли (кориандровый чай)",
+  "aliases": [
+    "Coriander tea",
+    "Kothamalli",
+    "Coriander and ginger tea",
+    "இஞ்சி கொத்தமல்லி தேநீர்"
+  ],
+  "category": "tisane",
+  "origin_country": "Sri Lanka",
+  "origin_region": "Sri Lanka",
+  "cultivar": null,
+  "processing": "Coriander seeds and ginger are brewed together in water; it is a home preparation and no leaf processing is involved.",
+  "form": "other",
+  "harvest_season": "Made to order from pantry spices, all year and especially when someone has a cold.",
+  "appearance_dry": "Pale tan coriander seeds with pieces of ginger.",
+  "appearance_liquor": "Typically a cloudy pale gold to light brown.",
+  "appearance_wet": "Swollen seeds and soft pieces of ginger.",
+  "taste_profile": "As its two ingredients suggest, warming and spicy from the ginger, with the citrusy, herbal note typical of coriander seed.",
+  "taste_tags": [
+    "spicy",
+    "herbal",
+    "citrus"
+  ],
+  "brewing": {
+    "grams": 5,
+    "water_ml": 300,
+    "temp_c": 100,
+    "steeps": 1,
+    "seconds": [
+      600
+    ],
+    "notes": "Amounts vary by household; this is a starting point. Crush the seeds and slice the ginger first, simmer, then strain."
+  },
+  "caffeine_level": "none",
+  "vintage_note": "Not a product with vintages or seasons. It is usually made fresh at home from seeds and ginger, and pre-mixed packets simply carry a use-by date. Fresh spices make the difference here.",
+  "description": "Koththamalli is a Sri Lankan herbal drink made by brewing coriander seeds and ginger, and it is the classic home remedy when someone catches a cold. Think of it as family medicine first and a tea second.\n\nThere is no real processing, only two pantry spices and hot water. Crushing the seeds and slicing the ginger helps them give up flavour.\n\nThe flavour is what you would expect from the ingredients: warm ginger heat with the citrusy, herbal side of coriander. If it is too fierce, reduce the ginger rather than the coriander.\n\nYou will rarely need to buy it. Just check your coriander seeds still smell of something, as old ones make a dull cup.",
+  "history": "Koththamalli is documented as a traditional Sri Lankan home remedy, with coriander and ginger long valued for healing in Ayurveda; that is a traditional view rather than a proven cure. When the drink itself took shape is not well documented.\n\nIt is familiar enough to have reached popular culture: in 2014 the Sri Lankan baila band The Gypsies released a song named after it.",
+  "liquor_hex": "#C9A65E",
+  "leaf_hex": "#B59A62",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Koththamalli",
+    "https://www.wikidata.org/wiki/Q56279801"
+  ],
+  "confidence": "medium",
+  "wikipedia_title": "Koththamalli",
+  "wikipedia_scope": "exact",
+  "popularity": 2,
+  "images": []
+}

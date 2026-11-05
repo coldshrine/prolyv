@@ -1,12 +1,18 @@
 {
   "slug": "dimbula",
   "name_en": "Dimbula",
-  "name_native": "ඩිඹුල තේ",
-  "name_romanized": "Dimbula tē",
-  "aliases": ["Dimbulla", "Dimbula Ceylon", "Dimbula BOP", "Western high-grown Ceylon", "Hatton tea"],
+  "name_native": null,
+  "name_romanized": null,
+  "aliases": [
+    "Dimbulla",
+    "Dimbula Ceylon",
+    "Dimbula BOP",
+    "Western high-grown Ceylon",
+    "Hatton tea"
+  ],
   "category": "black",
   "origin_country": "Sri Lanka",
-  "origin_region": "Central Province · Dimbula (Hatton, Talawakelle, Bogawantalawa; 1,100–1,600 m)",
+  "origin_region": "Central Province · Dimbula",
   "cultivar": "Assam-type seedling bushes and TRI clones",
   "processing": "Fully oxidised orthodox black tea in the standard Ceylon pattern, mainly broken grades (BOP, BOPF) with some leaf grades (OP, Pekoe).",
   "form": "loose",
@@ -15,13 +21,64 @@
   "appearance_liquor": "Bright golden-orange to copper.",
   "appearance_wet": "Even coppery leaf.",
   "taste_profile": "The classic Ceylon balance: brisk, bright and medium-bodied with a crisp, slightly fruity, faintly mentholated note and a clean finish.",
-  "taste_tags": ["brisk", "fruity", "citrus", "sweet"],
-  "brewing": {"grams": 3, "water_ml": 200, "temp_c": 95, "steeps": 2, "seconds": [210, 300], "notes": "Water just off the boil; suits milk, lemon or nothing at all. Leaf grades give a second steep."},
+  "taste_tags": [
+    "brisk",
+    "fruity",
+    "citrus",
+    "sweet"
+  ],
+  "brewing": {
+    "grams": 3,
+    "water_ml": 200,
+    "temp_c": 95,
+    "steeps": 2,
+    "seconds": [
+      210,
+      300
+    ],
+    "notes": "Water just off the boil; suits milk, lemon or nothing at all. Leaf grades give a second steep."
+  },
   "caffeine_level": "high",
-  "vintage_note": "Sold weekly at the Colombo auction by estate and grade; the January–March 'Western quality season' invoices from well-known gardens (Kirkoswald, Somerset and others) fetch the best prices, and most of the rest goes into blends and tea bags. Buy within the year of manufacture.",
-  "description": "Dimbula (also spelt Dimbulla) is the western slope of Sri Lanka's central highlands, around Hatton, Talawakelle and Bogawantalawa at roughly 1,100 to 1,600 metres, and it is the district most people are tasting when they think of 'Ceylon tea'. Its teas have the classic balance: bright, brisk, medium-bodied and clean, with enough character to drink plain and enough strength to take milk.\n\nThe leaf is Assam-type seedling and clonal bush made orthodox style in the standard Ceylon way, mostly into broken grades (BOP, BOPF) with some leaf grades (OP, Pekoe). Dimbula gets its dry season from January to March, while the north-east monsoon is blowing on the other side of the hills; the teas made then are the 'Western quality season' lots that the trade pays most for.\n\nThe cup is bright golden-orange to copper with a crisp, slightly fruity, faintly mentholated note, a firm but not harsh briskness and a clean finish. Brew it with water just off the boil for three to four minutes; it suits milk, lemon or nothing at all, and the leaf grades will give a second steep.\n\nIt is sold weekly at the Colombo auction by estate and grade, and the first-quarter invoices from well-known gardens such as Kirkoswald and Somerset are the ones good retailers buy; most of the rest goes into blends and tea bags. Buy within the year of manufacture.\n\nIf you want one Ceylon to calibrate your palate against, this is the district to start with.",
+  "vintage_note": "Sold weekly at the Colombo auction by estate and grade; the January–March 'Western quality season' invoices fetch the best prices, and most of the rest goes into blends and tea bags. Buy within the year of manufacture.",
+  "description": "Dimbula (also spelt Dimbulla) is the western slope of Sri Lanka's central highlands, around Hatton, Talawakelle and Bogawantalawa, and it is the district most people are tasting when they think of 'Ceylon tea'. Its teas have the classic balance: bright, brisk, medium-bodied and clean, with enough character to drink plain and enough strength to take milk.\n\nThe leaf is Assam-type seedling and clonal bush made orthodox style in the standard Ceylon way, mostly into broken grades (BOP, BOPF) with some leaf grades (OP, Pekoe). Dimbula gets its dry season from January to March, while the north-east monsoon is blowing on the other side of the hills; the teas made then are the 'Western quality season' lots that the trade pays most for.\n\nThe cup is bright golden-orange to copper with a crisp, slightly fruity, faintly mentholated note, a firm but not harsh briskness and a clean finish. Brew it with water just off the boil for three to four minutes; it suits milk, lemon or nothing at all, and the leaf grades will give a second steep.\n\nIt is sold weekly at the Colombo auction by estate and grade, and the quality-season invoices from well-known gardens are the ones good retailers buy; most of the rest goes into blends and tea bags. Buy within the year of manufacture.\n\nIf you want one Ceylon to calibrate your palate against, this is the district to start with.",
   "wikipedia_title": "Ceylon tea",
   "wikipedia_scope": "umbrella",
   "popularity": 4,
-  "sources_note": "Sinhala spelling of Dimbula and the estate names are from memory."
+  "sources_note": "Sinhala spelling of Dimbula and the estate names are from memory.",
+  "name_zh": "汀布拉红茶",
+  "name_ru": "Цейлон Димбула",
+  "history": "British planters were in this part of the hill country by the mid nineteenth century: the Dimbula Athletic and Cricket Club at Radella, formed by tea planters, was founded in 1856, and it is the oldest sporting club in Sri Lanka outside Colombo.\n\nThe district's reputation rests on one season, the dry months at the start of the year, when the western estates make their best tea. Little else could be confirmed about how the district and its gardens developed.",
+  "liquor_hex": "#BF6E22",
+  "leaf_hex": "#33261C",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Dimbula_Athletic_%26_Cricket_Club"
+  ],
+  "confidence": "low",
+  "images": [],
+  "i18n": {
+    "ru": {
+      "processing": "Полностью окисленный ортодоксальный красный чай, сделанный по обычной цейлонской схеме, в основном ломаные сорта (BOP, BOPF) и немного листовых (OP, Pekoe).",
+      "harvest_season": "Круглый год; сухой сезон с января по март на западных склонах даёт чаи «западного сезона качества».",
+      "appearance_dry": "Аккуратный тёмно-коричневый ломаный лист с небольшим количеством типсов.",
+      "appearance_liquor": "Яркий, от золотисто-оранжевого до медного.",
+      "appearance_wet": "Ровный лист медного цвета.",
+      "taste_profile": "Классический цейлонский баланс: бодрый, яркий, средней насыщенности, с хрусткой, слегка фруктовой, едва ментоловой нотой и чистым финалом.",
+      "vintage_note": "Продаётся еженедельно на аукционе в Коломбо по эстейтам и сортам; партии «западного сезона качества» (январь–март) получают лучшие цены, а большая часть остального уходит в купажи и пакетики. Покупайте в течение года с момента производства.",
+      "history": "Британские плантаторы появились в этой части холмистого края к середине XIX века: спортивно-крикетный клуб Dimbula Athletic and Cricket Club в Раделле, созданный чайными плантаторами, был основан в 1856 году и считается старейшим спортивным клубом Шри-Ланки за пределами Коломбо.\n\nРепутация района держится на одном сезоне — сухих месяцах начала года, когда западные эстейты делают свой лучший чай. Почти ничего больше о том, как развивались район и его сады, подтвердить не удалось.",
+      "description": "Димбула (встречается и написание Dimbulla) — западный склон центрального нагорья Шри-Ланки, в районе Хаттона, Талавакелле и Богаванталавы, и именно этот район пробует большинство людей, когда думает о «цейлонском чае». У здешних чаёв классический баланс: яркие, бодрые, средней насыщенности и чистые, с достаточным характером, чтобы пить их без добавок, и достаточной крепостью, чтобы принять молоко.\n\nЛист с сеянцев и клональных кустов ассамского типа обрабатывают ортодоксальным способом по обычной цейлонской схеме, в основном в ломаные сорта (BOP, BOPF) и немного в листовые (OP, Pekoe). Сухой сезон в Димбуле длится с января по март, пока по другую сторону гор дует северо-восточный муссон; сделанные в это время чаи — партии «западного сезона качества», за которые торговля платит больше всего.\n\nНастой яркий, от золотисто-оранжевого до медного, с хрусткой, слегка фруктовой, едва ментоловой нотой, твёрдой, но не грубой бодростью и чистым финалом. Заваривайте водой, только что снятой с кипения, три–четыре минуты; с молоком, лимоном или вовсе без всего — всё подходит, а листовые сорта выдержат второй пролив.\n\nЧай продаётся еженедельно на аукционе в Коломбо по эстейтам и сортам, и хорошие розничные продавцы берут именно партии сезона качества с известных садов; большая часть остального уходит в купажи и пакетики. Покупайте в течение года с момента производства.\n\nЕсли нужен один цейлон, чтобы настроить по нему вкус, начинайте с этого района.",
+      "brewing_notes": "Вода, только что снятая с кипения; подходит с молоком, лимоном или вовсе без всего. Листовые сорта выдерживают второй пролив."
+    },
+    "zh": {
+      "processing": "按标准锡兰做法制成的全发酵传统红茶，主要是碎茶等级（BOP、BOPF），也有部分条形等级（OP、Pekoe）。",
+      "harvest_season": "全年采摘；西坡1–3月旱季出产“西部品质季”茶。",
+      "appearance_dry": "整齐的深褐色碎叶，带少量芽尖。",
+      "appearance_liquor": "明亮的金橙色至铜色。",
+      "appearance_wet": "叶底均匀，呈铜色。",
+      "taste_profile": "经典的锡兰式平衡：鲜爽明亮，厚度中等，带清脆、略有果味、隐约薄荷凉感的气息，收尾干净。",
+      "vintage_note": "每周在科伦坡拍卖会上按茶园和等级出售；1–3月“西部品质季”的批次价格最高，其余大多进入拼配茶和袋泡茶。请在制造当年内购买。",
+      "history": "到十九世纪中叶，英国种植园主已来到这片山地：由茶园主组建的Dimbula Athletic and Cricket Club位于Radella，成立于1856年，是斯里兰卡科伦坡以外最古老的体育俱乐部。\n\n这个产区的名声系于一季，即年初的旱季，西部茶园此时做出最好的茶。至于产区及其茶园如何发展，能够证实的其他信息很少。",
+      "description": "汀布拉（也拼作Dimbulla）是斯里兰卡中部高地的西坡，位于哈顿、Talawakelle和Bogawantalawa一带，大多数人想到“锡兰茶”时，尝到的其实就是这个产区。它的茶有经典的平衡：明亮、鲜爽、厚度中等、干净，既有足够的个性可以清饮，也有足够的劲道可以加奶。\n\n原料是阿萨姆型实生和无性系茶树，按标准锡兰做法以传统工艺制作，大多做成碎茶等级（BOP、BOPF），也有部分条形等级（OP、Pekoe）。汀布拉的旱季是1月到3月，此时东北季风正吹向山的另一侧；这期间做的茶就是茶行出价最高的“西部品质季”批次。\n\n茶汤明亮，从金橙色到铜色，带清脆、略有果味、隐约薄荷凉感的气息，鲜爽有力而不粗糙，收尾干净。用刚离沸的水泡三到四分钟；加奶、加柠檬或清饮都合适，条形等级还能再泡一次。\n\n它每周在科伦坡拍卖会上按茶园和等级出售，好的零售商买的正是知名茶园的品质季批次；其余大多进入拼配茶和袋泡茶。请在制造当年内购买。\n\n如果你想找一款锡兰茶来校准味觉，就从这个产区开始。",
+      "brewing_notes": "用刚离沸的水；加奶、加柠檬或清饮都合适。条形等级还能再泡一次。"
+    }
+  }
 }

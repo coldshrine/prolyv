@@ -1,0 +1,54 @@
+{
+  "slug": "mamaki-tea",
+  "name_en": "Māmaki Tea",
+  "name_native": "Māmaki",
+  "name_romanized": null,
+  "name_zh": "夏威夷马马基茶",
+  "name_ru": "Чай мамаки",
+  "aliases": [
+    "Mamaki tea",
+    "Pipturus albidus"
+  ],
+  "category": "tisane",
+  "origin_country": "United States",
+  "origin_region": "Hawaii",
+  "cultivar": "Pipturus albidus",
+  "processing": "Leaves of the endemic Hawaiian shrub are harvested, withered and dried, sometimes in mechanical dryers, then sorted. There is little processing beyond that.",
+  "form": "loose",
+  "harvest_season": "No prized picking is recorded; small growers harvest leaves as the plants allow.",
+  "appearance_dry": "Crumbled dark olive-green dried leaf, sometimes with bits of stem.",
+  "appearance_liquor": "Clear, between amber and rust.",
+  "appearance_wet": "Soft dark green leaf fragments.",
+  "taste_profile": "Smooth and mild, faintly earthy, with a slightly sweet undertone.",
+  "taste_tags": [
+    "earthy",
+    "sweet",
+    "herbal"
+  ],
+  "brewing": {
+    "grams": 4,
+    "water_ml": 480,
+    "temp_c": 95,
+    "steeps": 1,
+    "seconds": [
+      300
+    ],
+    "notes": "About 2 tablespoons of crumbled leaf to 2 cups of water just off the boil. Steep time is by taste."
+  },
+  "caffeine_level": "none",
+  "vintage_note": "Sold by small Hawaiian growers with no vintage, typically as recently dried loose leaf or bags. Look for the name of the farm and island, because supply is local and limited. As with other dried leaf herbs, freshness counts more than age.",
+  "description": "Māmaki is a shrub found only in Hawaii, growing wild in the understorey of wet forests on all the main islands except Kahoʻolawe and Niʻihau. The tea comes from its leaves and contains no Camellia sinensis.\n\nProcessing is simple: leaves are withered, dried and sorted, without the rolling or firing of true tea. That leaves a plain leaf infusion rather than anything shaped by a tea maker.\n\nThe cup is amber to rust in colour, smooth and quiet, with mild earthiness and a little sweetness. Little is recorded about getting the best from it, so start with a short steep and adjust by taste.\n\nBuy from named island growers if you can, and treat health claims on packaging with care. Anyone pregnant, nursing or on medication would do well to ask a doctor first.",
+  "history": "Native Hawaiians used the plant as medicine and for dye, and it is reported to have been drunk as a hot infusion, though detailed records are scarce and much of what circulates comes from sellers.\n\nCommercial tea is a smaller, modern story. University of Hawaiʻi agricultural specialists have worked on finding higher-yielding, better-tasting varieties to expand the market.",
+  "liquor_hex": "#B5692E",
+  "leaf_hex": "#5A5A32",
+  "sources": [
+    "https://coe.hawaii.edu/stems2/farm-to-school/mamaki-hawaiis-endemic-tea-presentation-slides-2017/",
+    "https://keolamagazine.com/?p=12666",
+    "https://www.hawaii-guide.com/hawaii-eats/recipes/mamaki-tea"
+  ],
+  "confidence": "low",
+  "wikipedia_title": null,
+  "wikipedia_scope": "none",
+  "popularity": 2,
+  "images": []
+}

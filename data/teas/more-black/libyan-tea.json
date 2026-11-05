@@ -1,0 +1,51 @@
+{
+  "slug": "libyan-tea",
+  "name_en": "Libyan Tea",
+  "name_native": null,
+  "name_romanized": null,
+  "aliases": [],
+  "category": "black",
+  "origin_country": "Libya",
+  "origin_region": "Libya",
+  "cultivar": null,
+  "form": "other",
+  "caffeine_level": "high",
+  "brewing": {
+    "grams": 3,
+    "water_ml": 200,
+    "temp_c": 95,
+    "steeps": 2,
+    "seconds": [
+      180,
+      240
+    ],
+    "notes": "A safe starting point for black tea: Western style, water just off the boil."
+  },
+  "taste_tags": [
+    "sweet"
+  ],
+  "description": "A strong, foam-topped Libyan tea, black or green, boiled from loose leaves and served in small glasses; it is a variant of Maghrebi tea.\n\nThis is a way of preparing tea more than a tea you buy under one name, so the recipe and the base tea change from one maker to the next.",
+  "wikipedia_title": null,
+  "wikipedia_scope": "none",
+  "popularity": 1,
+  "name_zh": "利比亚茶",
+  "name_ru": "Ливийский чай",
+  "history": "It usually comes in three rounds, sweetened with sugar and sometimes flavoured with mint or basil, the last round with boiled peanuts or almonds. One interpretation holds that the yellowish foam began as protection against desert sand and dust, but this is unproven. Little more is documented about it.",
+  "liquor_hex": "#6E2E12",
+  "leaf_hex": "#2E2118",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Libyan_tea",
+    "https://en.wikipedia.org/wiki/Tea_culture",
+    "https://www.wikidata.org/wiki/Q28162884"
+  ],
+  "confidence": "medium",
+  "images": [],
+  "stub": true,
+  "processing": "Loose leaves are boiled without sugar at first so that foam can form.",
+  "harvest_season": "Not tied to a harvest: it depends on the base tea.",
+  "appearance_dry": "Usually dark twisted leaf, sometimes with golden tips.",
+  "appearance_liquor": "Dark, under a layer of yellowish foam.",
+  "appearance_wet": "Usually coppery brown leaf.",
+  "taste_profile": "Expect what black teas usually give: malty, sweet and brisk.",
+  "vintage_note": "Not sold by vintage: it is made from whatever base tea the maker keeps, so freshness of the base matters more than the year."
+}

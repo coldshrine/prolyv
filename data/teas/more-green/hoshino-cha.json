@@ -1,0 +1,58 @@
+{
+  "slug": "hoshino-cha",
+  "name_en": "Hoshino-cha",
+  "name_native": "星野茶",
+  "name_romanized": "Hoshino-cha",
+  "name_zh": "星野茶",
+  "name_ru": "Хосино-тя",
+  "aliases": [
+    "Hoshino tea",
+    "Hoshino gyokuro"
+  ],
+  "category": "green",
+  "origin_country": "Japan",
+  "origin_region": "Fukuoka · Yame · Hoshino",
+  "cultivar": null,
+  "processing": "Steamed Japanese green tea, best known in its shaded gyokuro form; the village also makes sencha and tencha.",
+  "form": "loose",
+  "harvest_season": "Spring, with the first flush the most prized; gyokuro is shaded before picking.",
+  "appearance_dry": "For gyokuro, fine, glossy, dark green needles.",
+  "appearance_liquor": "Clear pale green-gold, with a slight viscosity in the shaded teas.",
+  "appearance_wet": "Tender, deep green leaves, whole in hand-picked lots.",
+  "taste_profile": "Gyokuro here is known for deep sweetness and a rich, mellow aroma, with umami in front and low astringency.",
+  "taste_tags": [
+    "umami",
+    "sweet",
+    "marine",
+    "vegetal"
+  ],
+  "brewing": {
+    "grams": 5,
+    "water_ml": 60,
+    "temp_c": 55,
+    "steeps": 3,
+    "seconds": [
+      120,
+      30,
+      60
+    ],
+    "notes": "Settings for gyokuro. Cool water is the point: hot water brings out bitterness and buries the sweetness. For Hoshino sencha use about 70 C."
+  },
+  "caffeine_level": "high",
+  "vintage_note": "Sold by style and current-year harvest, with hand-picked gyokuro at the top of the range and produced in small amounts. Like most Japanese green tea it is best within about a year; keep it sealed.",
+  "description": "Hoshino is a mountain village, now part of Yame city in Fukuoka, and its tea is sold both as Hoshino-cha and under the wider Yame name. It is one of Japan's best-known gyokuro areas, and the village name on a tin usually signals a serious shaded tea.\n\nThe setting does much of the work. Temperatures swing widely between day and night, and the wider area is known for morning fog in the growing season. One trade account suggests this may reduce direct sun and help amino acids build up.\n\nThe gyokuro is dark, glossy and rich: use little water, keep it cool and be patient, then drink the small, thick cup slowly. The second steep needs only seconds at first, and the leaves can be eaten at the end if you enjoy that.\n\nCheck whether a tea is simply Hoshino-grown or carries the stricter Yame Traditional Hon Gyokuro mark.",
+  "history": "Little is documented specifically about the early history of tea in Hoshino. It sits within the Yame tea area, whose origin tradition goes back to 1423 at nearby Kasahara.\n\nThe village's fame today rests on gyokuro. Long-running local firms include Hoshino Seichaen, founded in 1946, and the grower Kurazumi took first place in the gyokuro section of the National Tea Competition in 2018.",
+  "liquor_hex": "#D9D68C",
+  "leaf_hex": "#2F4F2A",
+  "sources": [
+    "https://ja.wikipedia.org/wiki/%E6%97%A5%E6%9C%AC%E8%8C%B6",
+    "https://www.crossroadfukuoka.jp/spot/10596",
+    "https://japanesetea.sg/japanese-tea-pedia/chasho/hoshino-seichaen/",
+    "https://ooika.squarespace.com/shop/p/kurazumi-okumidori-hoshino-matcha"
+  ],
+  "confidence": "medium",
+  "wikipedia_title": "日本茶",
+  "wikipedia_scope": "umbrella",
+  "popularity": 3,
+  "images": []
+}

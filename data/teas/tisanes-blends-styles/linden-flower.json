@@ -3,10 +3,19 @@
   "name_en": "Linden Flower (Lipa)",
   "name_native": "Липа / Lipa / Lindenblüten / Tilleul",
   "name_romanized": "Lypa",
-  "aliases": ["Lime blossom tea", "Lime flower tea", "Tilleul", "Lindenblütentee", "Lipa", "Tilia", "Linden tea", "Basswood flower tea"],
+  "aliases": [
+    "Lime blossom tea",
+    "Lime flower tea",
+    "Tilleul",
+    "Lindenblütentee",
+    "Lipa",
+    "Tilia",
+    "Linden tea",
+    "Basswood flower tea"
+  ],
   "category": "tisane",
   "origin_country": "Ukraine",
-  "origin_region": "Nationwide (lypa); equally traditional in Poland, the Balkans, Germany and France (tilleul)",
+  "origin_region": "Ukraine",
   "cultivar": "Tilia cordata (small-leaved lime) and Tilia platyphyllos (large-leaved lime); the flowers are picked with their pale wing-like bract",
   "processing": "Flower clusters are picked by hand with the bract just as they open, spread thinly and dried quickly in shade or a warm, airy loft; slow drying turns them brown and dull. Nothing else is done to them.",
   "form": "loose",
@@ -15,12 +24,57 @@
   "appearance_liquor": "Pale gold, clear, with a faint silky thickness.",
   "appearance_wet": "Softened cream-coloured flowers and limp bracts, smelling of honey and warm hay.",
   "taste_profile": "Honeyed and softly floral with a hay-like sweetness and a slightly silky, mucilaginous texture; mild, soothing and never bitter unless it is very old.",
-  "taste_tags": ["honey", "floral", "sweet"],
-  "brewing": {"grams": 2, "water_ml": 250, "temp_c": 90, "steeps": 2, "seconds": [480, 600], "notes": "A generous tablespoon per cup (the flowers are very light), water just under the boil, 8–10 minutes with a lid; boiling water and an open cup lose the scent. Traditionally drunk hot with honey, and lovely as a cold brew in summer."},
+  "taste_tags": [
+    "honey",
+    "floral",
+    "sweet"
+  ],
+  "brewing": {
+    "grams": 2,
+    "water_ml": 250,
+    "temp_c": 90,
+    "steeps": 2,
+    "seconds": [
+      480,
+      600
+    ],
+    "notes": "A generous tablespoon per cup (the flowers are very light), water just under the boil, 8–10 minutes with a lid; boiling water and an open cup lose the scent. Traditionally drunk hot with honey, and lovely as a cold brew in summer."
+  },
   "caffeine_level": "none",
   "vintage_note": "Sold as the current summer's harvest and best used within a year, because the colour tells the story: fresh linden is pale green-gold and smells of honey, old linden is brown and smells of nothing. In Ukraine and Poland it is sold in pharmacies as a medicinal herb with the harvest year on the box, and in Western Europe by tea merchants as 'tilleul' or 'lime blossom', usually without a date. Buy whole flower clusters with their bracts rather than a fine cut.",
   "description": "Linden flower, lypa in Ukrainian, tilleul in French, is the sweet honey-scented blossom of the lime tree, picked for two or three weeks each June and dried for the rest of the year. It is one of the most familiar herbal infusions across central and eastern Europe, the cup your grandmother made when you had a cold, and in France a tilleul after dinner is as normal as a coffee.\n\nThere is no processing beyond picking and quick drying, and that quickness is the whole craft. The flowers come with a pale papery bract attached and must be dried in a day or two in shade and moving air; slow or damp drying browns them and kills the scent, which is why a good pack looks pale green-gold and a poor one looks like autumn leaves.\n\nThe cup is gentle, honeyed and soft, with a faint silkiness on the tongue and a hay-like finish, and it needs time: eight to ten minutes under a lid, longer than most people give it, with water a little off the boil. Honey is the classic addition and suits it better than sugar; a few dried raspberries or a slice of lemon are common too. Cold-brewed it makes a lovely pale summer drink.\n\nBuy whole flowers with bracts, from the latest harvest, and check the colour and the smell. In Ukraine, Poland and the Balkans it is sold in pharmacies with a harvest year on the box, which is handy; in Western tea shops it is 'lime blossom' or 'tilleul' and rarely dated.\n\nIt has been used traditionally as a warming drink for colds and a calming one at night; whatever you make of that, it is a lovely, cheap, caffeine-free infusion, and the obvious base for a home blend with mint and thyme.",
   "wikipedia_title": "Tilia",
   "wikipedia_scope": "umbrella",
-  "popularity": 3
+  "popularity": 3,
+  "name_zh": "椴树花茶",
+  "name_ru": "Липовый цвет",
+  "history": "Linden, or lime, is a genus of about 30 species of trees across the temperate Northern Hemisphere, and the flowers for this infusion come from the European species.\n\nLittle is documented about the beginnings of the drink. It is known as a household remedy and everyday cup across central and eastern Europe and in France, handed down without any named origin or maker.",
+  "liquor_hex": "#E3CC7E",
+  "leaf_hex": "#B9B67A",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Tilia"
+  ],
+  "confidence": "low",
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/98/Tiliae_flos_267302.jpg/1280px-Tiliae_flos_267302.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/98/Tiliae_flos_267302.jpg/330px-Tiliae_flos_267302.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Tiliae_flos_267302.jpg",
+      "author": "Rillke",
+      "license": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "kind": "dry_leaf",
+      "alt": "Dried linden flowers and bracts scattered on a white surface"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/53/Linden_flowers_at_the_Central_Experimental_Farm%2C_Ottawa_%2827818569562%29.jpg/1280px-Linden_flowers_at_the_Central_Experimental_Farm%2C_Ottawa_%2827818569562%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/53/Linden_flowers_at_the_Central_Experimental_Farm%2C_Ottawa_%2827818569562%29.jpg/330px-Linden_flowers_at_the_Central_Experimental_Farm%2C_Ottawa_%2827818569562%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Linden_flowers_at_the_Central_Experimental_Farm,_Ottawa_(27818569562).jpg",
+      "author": "Ross Dunn",
+      "license": "CC BY-SA 2.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+      "kind": "plant",
+      "alt": "Linden branch with heart-shaped leaves and pale flowers in bloom"
+    }
+  ]
 }

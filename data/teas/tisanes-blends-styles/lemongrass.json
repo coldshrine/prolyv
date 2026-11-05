@@ -3,10 +3,22 @@
   "name_en": "Lemongrass",
   "name_native": "ตะไคร้ (takhrai) / Sereh",
   "name_romanized": "Cha takhrai",
-  "aliases": ["Lemon grass tea", "Cha takhrai", "Sereh", "Citronella grass (loosely)", "Cymbopogon citratus", "Tanglad"],
+  "aliases": [
+    "Lemon grass tea",
+    "Cha takhrai",
+    "Sereh",
+    "Citronella grass (loosely)",
+    "Cymbopogon citratus",
+    "Tanglad",
+    "柠檬草",
+    "香茅茶",
+    "檸檬草",
+    "Лимонная трава",
+    "Цимбопогон лимонный"
+  ],
   "category": "tisane",
   "origin_country": "Thailand",
-  "origin_region": "Nationwide (cha takhrai); also grown for tea in Sri Lanka, India, Indonesia, Vietnam, Egypt and Brazil",
+  "origin_region": "Thailand",
   "cultivar": "Cymbopogon citratus (West Indian lemongrass), the culinary species; Cymbopogon flexuosus is grown more for oil",
   "processing": "Stalks and leaves are cut, chopped into short pieces and dried in shade or warm air; fresh stalks are simply bruised and simmered.",
   "form": "loose",
@@ -15,12 +27,60 @@
   "appearance_liquor": "Pale yellow-green, clear.",
   "appearance_wet": "Soft, fibrous strands smelling of lemon sweets and fresh-cut grass.",
   "taste_profile": "Clean lemony freshness without any sourness, a grassy sweetness and a faint gingery warmth; light in body and very easy to drink.",
-  "taste_tags": ["citrus", "grassy", "sweet", "herbal"],
-  "brewing": {"grams": 3, "water_ml": 250, "temp_c": 95, "steeps": 2, "seconds": [360, 420], "notes": "Dried: a heaped tablespoon per cup, just-boiled water, 5–7 minutes, lid on. Fresh: two stalks, bashed with the back of a knife, simmered for 5 minutes. Both are excellent cold-brewed, and in Thailand it is served iced and sweetened."},
+  "taste_tags": [
+    "citrus",
+    "grassy",
+    "sweet",
+    "herbal"
+  ],
+  "brewing": {
+    "grams": 3,
+    "water_ml": 250,
+    "temp_c": 95,
+    "steeps": 2,
+    "seconds": [
+      360,
+      420
+    ],
+    "notes": "Dried: a heaped tablespoon per cup, just-boiled water, 5–7 minutes, lid on. Fresh: two stalks, bashed with the back of a knife, simmered for 5 minutes. Both are excellent cold-brewed, and in Thailand it is served iced and sweetened."
+  },
   "caffeine_level": "none",
   "vintage_note": "No vintage: dried lemongrass is sold year-round in a cut-and-sifted grade or in bags, with a two-year best-before, but the citral scent fades within about a year and old stock looks brown-yellow instead of pale green. Fresh stalks from Asian groceries make a noticeably brighter cup. It is one of the most common blend ingredients, so check whether a 'lemongrass tea' is pure or a mix with ginger, green tea or lemon peel.",
-  "description": "Lemongrass is the citrus-scented tropical grass of Thai and Vietnamese cooking, and the same stalks make one of the cleanest herbal infusions there is: all lemon aroma, none of the sourness. Iced, sweetened lemongrass tea is sold on every street in Thailand, and dried lemongrass is a base note in countless Western herbal blends.\n\nThe scent comes from citral, the same compound that gives lemon peel its smell, concentrated in the lower stalks; the plant is cut, chopped and dried, or used fresh and bruised. There is no fermentation or roasting, so the only quality question is how much aroma survived the drying and the time on the shelf.\n\nThe cup is pale, light-bodied and fresh, lemony with a grassy sweetness and a slight ginger-like warmth at the end, and it is nearly impossible to brew badly: hot water, five to seven minutes, a lid to keep the volatile oils in. Fresh stalks simmered for a few minutes give a rounder, brighter drink than dried. Cold-brewed overnight it is one of the best iced herbal teas, and it pairs naturally with ginger, mint, butterfly pea flower and green tea.\n\nBuy pale green dried pieces rather than straw-coloured ones, in small amounts, or just use fresh stalks from the grocery. Check the ingredient list on anything called lemongrass tea, since many are blends.\n\nIt is traditionally drunk after meals in Southeast Asia; whatever you make of that, it is a good caffeine-free evening cup and a useful ingredient to keep in the cupboard for blending your own.",
+  "description": "Lemongrass is the citrus-scented tropical grass of Thai and Vietnamese cooking, and the same stalks make one of the cleanest herbal infusions there is: all lemon aroma, none of the sourness. Iced, sweetened lemongrass tea is common in Thailand, and dried lemongrass is a base note in countless Western herbal blends.\n\nThe scent comes from citral, the same compound that gives lemon peel its smell, concentrated in the lower stalks; the plant is cut, chopped and dried, or used fresh and bruised. There is no fermentation or roasting, so the only quality question is how much aroma survived the drying and the time on the shelf.\n\nThe cup is pale, light-bodied and fresh, lemony with a grassy sweetness and a slight ginger-like warmth at the end, and it is nearly impossible to brew badly: hot water, five to seven minutes, a lid to keep the volatile oils in. Fresh stalks simmered for a few minutes give a rounder, brighter drink than dried. Cold-brewed overnight it is one of the best iced herbal teas, and it pairs naturally with ginger, mint, butterfly pea flower and green tea.\n\nBuy pale green dried pieces rather than straw-coloured ones, in small amounts, or just use fresh stalks from the grocery. Check the ingredient list on anything called lemongrass tea, since many are blends.\n\nIt has a long folk-medicine reputation in Southeast Asia and Brazil; whatever you make of that, it is a good caffeine-free evening cup and a useful ingredient to keep in the cupboard for blending your own.",
   "wikipedia_title": "Cymbopogon",
   "wikipedia_scope": "umbrella",
-  "popularity": 4
+  "popularity": 4,
+  "name_zh": "柠檬草茶",
+  "name_ru": "Лемонграсс",
+  "history": "Lemongrass tea has no founding story. The plant behind it, Cymbopogon citratus, is native to maritime Southeast Asia, while its close relative C. flexuosus comes from the mainland and from India and Sri Lanka. People have long used the leaves for infusions and decoctions in Southeast Asian traditional medicine, but little is documented about when or where it first became an everyday drink, and the same goes for the Thai cha takhrai.\n\nThe plant travelled well. Today it is farmed in India, Sri Lanka, Thailand, Guatemala and parts of Africa, among other places. Brazil took to it after it was imported from Southeast Asia: there it is called capim-santo or capim-limão, drunk mostly as a herbal tea and regarded as closer to medicine than to a culinary pleasure. A Brazilian iced version combines it with pineapple peelings.",
+  "liquor_hex": "#E3DC9A",
+  "leaf_hex": "#B9B56A",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Cymbopogon",
+    "https://en.wikipedia.org/wiki/Brazilian_tea_culture",
+    "https://rishi-tea.com/blogs/journal/lemongrass"
+  ],
+  "confidence": "medium",
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6d/LEMON_GRASS_TEA_AS_A_HOT_TEA_FOR_STOMACH_ACHE_AND_GOOD_DIGESTION.jpg/1280px-LEMON_GRASS_TEA_AS_A_HOT_TEA_FOR_STOMACH_ACHE_AND_GOOD_DIGESTION.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6d/LEMON_GRASS_TEA_AS_A_HOT_TEA_FOR_STOMACH_ACHE_AND_GOOD_DIGESTION.jpg/330px-LEMON_GRASS_TEA_AS_A_HOT_TEA_FOR_STOMACH_ACHE_AND_GOOD_DIGESTION.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source_page": "https://commons.wikimedia.org/wiki/File:LEMON_GRASS_TEA_AS_A_HOT_TEA_FOR_STOMACH_ACHE_AND_GOOD_DIGESTION.jpg",
+      "author": "Elmer Centeno Guevarra",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "kind": "liquor",
+      "alt": "Glasses of pale yellow lemongrass tea on a red tray among fresh lemongrass stalks"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/65/LEMON_GRASS_TANGLAD_IN_TAGALOG_BALANOI_IN_PANGASINAN_AS_HERBAL_TEA_IN_PANGASINAN.jpg/1280px-LEMON_GRASS_TANGLAD_IN_TAGALOG_BALANOI_IN_PANGASINAN_AS_HERBAL_TEA_IN_PANGASINAN.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/65/LEMON_GRASS_TANGLAD_IN_TAGALOG_BALANOI_IN_PANGASINAN_AS_HERBAL_TEA_IN_PANGASINAN.jpg/330px-LEMON_GRASS_TANGLAD_IN_TAGALOG_BALANOI_IN_PANGASINAN_AS_HERBAL_TEA_IN_PANGASINAN.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source_page": "https://commons.wikimedia.org/wiki/File:LEMON_GRASS_TANGLAD_IN_TAGALOG_BALANOI_IN_PANGASINAN_AS_HERBAL_TEA_IN_PANGASINAN.jpg",
+      "author": "Elmer Centeno Guevarra",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "kind": "liquor",
+      "alt": "Glasses of yellow-green lemongrass tea beside fresh lemongrass stalks"
+    }
+  ]
 }

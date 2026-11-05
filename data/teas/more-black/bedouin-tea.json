@@ -1,0 +1,51 @@
+{
+  "slug": "bedouin-tea",
+  "name_en": "Bedouin Tea",
+  "name_native": "شاي بدوي",
+  "name_romanized": "Shāy Badawī",
+  "name_zh": "贝都因茶",
+  "name_ru": "Бедуинский чай",
+  "aliases": [
+    "Shai Badawi"
+  ],
+  "category": "black",
+  "origin_country": "Jordan",
+  "origin_region": "Jordan · Desert regions",
+  "cultivar": null,
+  "processing": "A preparation, not a leaf style: tea is made on an open fire with dried herbs such as thyme or sage, often with spices such as cardamom or cinnamon.",
+  "form": "loose",
+  "harvest_season": "Not applicable as a seasonal tea; it depends on the tea and dried herbs at hand.",
+  "appearance_dry": "A mix of dark tea leaf and grey-green dried herbs, sometimes with whole spices.",
+  "appearance_liquor": "Typically a dark reddish brown.",
+  "appearance_wet": "Dark tea leaf mixed with softened herbs and spices.",
+  "taste_profile": "Strong tea with the savoury lift of thyme or sage, and warmth when cardamom or cinnamon goes in.",
+  "taste_tags": [
+    "herbal",
+    "spicy",
+    "brisk"
+  ],
+  "brewing": {
+    "grams": 6,
+    "water_ml": 500,
+    "temp_c": 100,
+    "steeps": 1,
+    "seconds": [
+      300
+    ],
+    "notes": "A home approximation: simmer tea and herbs in one pot, then strain. Amounts vary by household and there is no fixed recipe."
+  },
+  "caffeine_level": "medium",
+  "vintage_note": "It has no vintages and is made fresh on the spot. Packaged mixes sold under the name are ordinary blends, so read the ingredients and buy for fresh-smelling herbs.",
+  "description": "Bedouin tea is a way of making tea more than a type of tea: the name belongs to nomadic Bedouin communities, who prepare it over an open fire.\n\nThe character comes from what goes into the pot. Dried herbs such as thyme or sage are typical, and spices such as cardamom or cinnamon are common too.\n\nExpect a strong, aromatic cup. At home, go easy on the herbs at first, since sage can quickly take over.\n\nThere is no standard recipe, so a packaged blend reflects one maker's choice and not a fixed tradition.",
+  "history": "Little is documented about when this preparation took its present form. It is described as a practice of nomadic Bedouin within the wider Arabic tea tradition, and it has no known inventor or dated origin.",
+  "liquor_hex": "#8A3F1C",
+  "leaf_hex": "#4A4030",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Arabic_tea"
+  ],
+  "confidence": "low",
+  "wikipedia_title": "Arabic tea",
+  "wikipedia_scope": "umbrella",
+  "popularity": 2,
+  "images": []
+}

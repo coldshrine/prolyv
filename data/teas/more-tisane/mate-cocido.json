@@ -1,0 +1,58 @@
+{
+  "slug": "mate-cocido",
+  "name_en": "Mate Cocido",
+  "name_native": "mate cocido",
+  "name_romanized": null,
+  "name_zh": "煮马黛茶",
+  "name_ru": "Мате косидо",
+  "aliases": [
+    "Mate Cocido Soluble",
+    "Cocido",
+    "Kojói",
+    "Yerbiado",
+    "Boiled mate",
+    "马黛茶"
+  ],
+  "category": "tisane",
+  "origin_country": "Argentina",
+  "origin_region": "Misiones · Corrientes",
+  "cultivar": null,
+  "processing": "Yerba mate is boiled in water and strained, or sold in tea bags cut so that dust and stems are removed and mostly leaf remains. A soluble form also exists.",
+  "form": "loose",
+  "harvest_season": "Not a seasonal product; it is made from ordinary processed yerba mate all year.",
+  "appearance_dry": "Chopped olive-green yerba, usually inside a tea bag.",
+  "appearance_liquor": "Clear amber-olive in the cup, cloudier when boiled loose.",
+  "appearance_wet": "Soft, dull olive fragments of leaf.",
+  "taste_profile": "Bitter like gourd mate but noticeably milder and easier, with a herbal, slightly grassy body that takes milk and sugar well.",
+  "taste_tags": [
+    "bitter",
+    "herbal",
+    "grassy"
+  ],
+  "brewing": {
+    "grams": 3,
+    "water_ml": 250,
+    "temp_c": 90,
+    "steeps": 1,
+    "seconds": [
+      240
+    ],
+    "notes": "For loose yerba, bring it just to a simmer and strain. Tea bags are made like ordinary tea. Milk and sugar are traditional, not a mistake."
+  },
+  "caffeine_level": "medium",
+  "vintage_note": "Not sold by year. It is an everyday shelf product in tea bags, loose yerba or soluble form, with only a best-before date, and is best used while fresh. Flavoured versions such as lemon, peach, vanilla, orange and tangerine sit next to the plain one.",
+  "description": "Mate cocido is mate for people without a gourd: the same yerba, boiled or bagged and drunk from a cup. It is common across the Southern Cone, from southern Brazil and the Bolivian Chaco to Paraguay, Argentina and Uruguay.\n\nThe traditional way is to boil the yerba in water and strain it. Bagged versions are ground differently from gourd yerba, with dust and sticks removed, so they steep cleanly like tea.\n\nThe cup is bitter but gentler than gourd mate, and it does not ask for repeated refills. Sweetened or with milk it becomes a comforting breakfast drink. Served cold with ice and lemon it is a summer drink instead.\n\nBuying is simple: choose a plain version first and check the ingredients on flavoured boxes. If you enjoy it and want more intensity, gourd mate is the obvious next step.",
+  "history": "Jesuit missions in what is now southern Brazil, Paraguay and northeast Argentina improved yerba cultivation in the early 17th century and exported it. Chopped yerba sold for steeping like tea became known in Europe as Jesuits' tea, and mate cocido descends from it.\n\nBecause yerba was cheap next to tea or coffee, the drink became a staple of schools, hospitals and prisons from the early 20th century.",
+  "liquor_hex": "#A9862F",
+  "leaf_hex": "#7C7A3A",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Mate_cocido",
+    "https://www.wikidata.org/wiki/Q3622432",
+    "https://ko.wikipedia.org/wiki/%EB%A7%88%ED%85%8C%EC%B0%A8"
+  ],
+  "confidence": "medium",
+  "wikipedia_title": "Mate cocido",
+  "wikipedia_scope": "exact",
+  "popularity": 3,
+  "images": []
+}

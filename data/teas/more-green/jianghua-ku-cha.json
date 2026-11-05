@@ -1,0 +1,57 @@
+{
+  "slug": "jianghua-ku-cha",
+  "name_en": "Jianghua Ku Cha",
+  "name_native": "江华苦茶",
+  "name_romanized": "Jiānghuá Kǔ Chá",
+  "name_zh": "江华苦茶",
+  "name_ru": "Цзян Хуа Ку Ча",
+  "aliases": [
+    "Jianghua",
+    "Jianghua Ku Cha (cultivar)",
+    "Jianghua Bitter Tea",
+    "Camellia sinensis var. assamica cv. Jianghua"
+  ],
+  "category": "green",
+  "origin_country": "China",
+  "origin_region": "Hunan · Yongzhou · Jianghua",
+  "cultivar": "Jianghua (assamica type)",
+  "processing": "Picked at one bud with one or two leaves, then fixed at high heat, rolled tight and dried, the usual green tea sequence.",
+  "form": "loose",
+  "harvest_season": "Mainly spring, at one bud with one or two leaves.",
+  "appearance_dry": "Tight, well-filled, evenly curled strips, dark and glossy with some brown.",
+  "appearance_liquor": "No firm description is on record; expect a deeper yellow-green than a delicate spring green, given the dark leaf.",
+  "appearance_wet": "Oval, serrated leaf of a large-leaf type, fresh green.",
+  "taste_profile": "Starts somewhat bitter and astringent, then turns to a long sweetness with a full body and a marked returning sweetness.",
+  "taste_tags": [
+    "bitter",
+    "sweet",
+    "vegetal"
+  ],
+  "brewing": {
+    "grams": 3,
+    "water_ml": 150,
+    "temp_c": 85,
+    "steeps": 3,
+    "seconds": [
+      40,
+      60,
+      90
+    ],
+    "notes": "General settings to keep the bitterness in check. Start short, since the name means bitter tea and it earns it."
+  },
+  "caffeine_level": "medium",
+  "vintage_note": "Usual for a Hunan green: bought from the current spring harvest and drunk within the year. Little is recorded about specific grades or years. The name can also point to the plant rather than to a finished tea.",
+  "description": "Jianghua Ku Cha, Jianghua bitter tea, comes from Jianghua Yao Autonomous County in Hunan, and it is tied to Yao communities there. It is both a local tea and a named plant, catalogued as an assamica-type bush.\n\nThe core townships named for it include Liangchahe, Daxi, Haojiang and Xiangjiang, and it spreads to neighbouring Lanshan, Jiangyong and Shuangpai. The processing is plain green tea work, fixing, rolling and drying, and the leaf ends up dark and tight.\n\nThe point of it is the turn in the mouth: bitterness first, then a long sweetness that keeps coming back. If you dislike the opening, shorten the steep instead of lowering the temperature too far.\n\nBe cautious with remedy-style claims attached to it, since folk use is not evidence of treatment.",
+  "history": "Little is documented about when this tea was first made or sold. It is described as part of Yao cultural life in Jianghua, without dated records behind that, and the plant is catalogued as an assamica cultivar named after the county.",
+  "liquor_hex": "#BFB35A",
+  "leaf_hex": "#3D3A26",
+  "sources": [
+    "https://www.ichabaike.com/chashu/jianghuakucha/",
+    "https://www.wikidata.org/wiki/Q137826361"
+  ],
+  "confidence": "low",
+  "wikipedia_title": null,
+  "wikipedia_scope": "none",
+  "popularity": 2,
+  "images": []
+}

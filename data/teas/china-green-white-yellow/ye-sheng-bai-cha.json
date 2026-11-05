@@ -3,10 +3,17 @@
   "name_en": "Ye Sheng Bai Cha (Wild and Abandoned-Garden White)",
   "name_native": "野生白茶 / 荒野白茶",
   "name_romanized": "Yěshēng Báichá / Huāngyě Báichá",
-  "aliases": ["Wild white tea", "Huang Ye white", "Huangye Yinzhen", "Huangye Mudan", "Abandoned garden white", "Yunnan wild white"],
+  "aliases": [
+    "Wild white tea",
+    "Huang Ye white",
+    "Huangye Yinzhen",
+    "Huangye Mudan",
+    "Abandoned garden white",
+    "Yunnan wild white"
+  ],
   "category": "white",
   "origin_country": "China",
-  "origin_region": "Fujian · Fuding and Zhenghe; Yunnan · Jinggu and Lincang",
+  "origin_region": "Fujian · Fuding",
   "cultivar": "Fujian: untended seed-grown bushes and old Dabai plants; Yunnan: wild-growing assamica and Camellia taliensis trees",
   "processing": "Standard white-tea withering and drying applied to shoots from untended, old or truly wild bushes; the leaf is more irregular, picked in smaller quantities and often withered longer because the shoots are tougher.",
   "form": "loose",
@@ -15,13 +22,45 @@
   "appearance_liquor": "Gold to deep apricot, clear.",
   "appearance_wet": "Uneven, thick, leathery leaves and buds, olive to brown.",
   "taste_profile": "More mineral and herbal than garden white, with wild honey, dried herbs and a faint camphor coolness, a thicker body and a very long sweet finish.",
-  "taste_tags": ["honey", "herbal", "mineral", "sweet", "camphor"],
-  "brewing": {"grams": 5, "water_ml": 120, "temp_c": 95, "steeps": 8, "seconds": [30, 20, 30, 45, 60, 90, 120, 180], "notes": "Gaiwan at 90–95 °C; tougher leaf wants heat and time and will outlast garden tea by several steeps. Excellent simmered once aged."},
+  "taste_tags": [
+    "honey",
+    "herbal",
+    "mineral",
+    "sweet",
+    "camphor"
+  ],
+  "brewing": {
+    "grams": 5,
+    "water_ml": 120,
+    "temp_c": 95,
+    "steeps": 8,
+    "seconds": [
+      30,
+      20,
+      30,
+      45,
+      60,
+      90,
+      120,
+      180
+    ],
+    "notes": "Gaiwan at 90–95 °C; tougher leaf wants heat and time and will outlast garden tea by several steeps. Excellent simmered once aged."
+  },
   "caffeine_level": "medium",
   "vintage_note": "Sold fresh as the current spring's tea and, increasingly, pressed and aged with the year stated; prices are high and claims are higher. In Fujian the honest term is huang ye (abandoned garden) for old, untended bushes, since truly wild tea there is almost non-existent; in Yunnan ye sheng covers genuinely wild-growing trees, often Camellia taliensis rather than ordinary tea. Expect small lots and ask hard questions.",
   "description": "'Wild white tea' is one of the most abused phrases in the trade and one of the most rewarding teas when it is real. In Fujian it almost always means huang ye, 'abandoned garden': tea bushes planted decades ago, left untended when villagers moved to the cities, now tall, mossy and growing among weeds and trees on the hillsides, picked sparingly in spring. In Yunnan it can mean genuinely wild-growing tea trees in the forests of Jinggu and Lincang, often not even Camellia sinensis but its cousin Camellia taliensis, with purplish buds and a dark leaf.\n\nThe processing is the same wither-and-dry as any white tea, but the shoots are tougher, more irregular and fewer, so the wither tends to run longer and the finished tea looks scruffier: mixed sizes, long stems, duller colour. It is not a pretty tea in the tin.\n\nIt is a striking one in the cup. Untended bushes grow slowly with deep roots, and the tea has a density garden tea lacks: wild honey, dried herbs, a mineral edge, a faint camphor coolness in the Yunnan lots, a thick body and a sweetness that goes on for minutes. It wants hot water, 90–95 °C, and gives eight steeps in a gaiwan, and once aged a few years it simmers beautifully.\n\nBuying is where care is needed. Real huang ye tea is a small production from steep, awkward places, so it is expensive and rarely uniform; a cheap, tidy 'wild Silver Needle' is garden tea with a story. In Fujian the honest sellers say huang ye, not ye sheng; in Yunnan ask whether the trees are sinensis or taliensis and how old. Fresh tea is sold as the current spring; pressed cakes with a year are increasingly common and age well. Judge by the cup: the long finish and the herbal-mineral depth cannot be faked.\n\nIf the real thing is out of reach, a Zhenghe Mudan from old bushes gives a taste of the same depth at a fraction of the price.",
   "wikipedia_title": "White tea",
   "wikipedia_scope": "umbrella",
   "popularity": 2,
-  "sources_note": "Covers both Fujian huang ye and Yunnan ye sheng in one card because the market sells them under the same English name; taliensis identification for Yunnan wild material is common but not universal."
+  "sources_note": "Covers both Fujian huang ye and Yunnan ye sheng in one card because the market sells them under the same English name; taliensis identification for Yunnan wild material is common but not universal.",
+  "name_zh": "野生白茶",
+  "name_ru": "Е Шэн Бай Ча",
+  "history": "This is a market label more than a historic tea, and little is documented about when it began. Selling leaf from old, abandoned or forest-grown bushes as a category of its own appears to be recent.\n\nThe words have no single national definition, so the name alone tells you little about what is in the bag. A local standard for wild tea (not white tea specifically) in Lishui, Zhejiang, shows how one region draws the line: trees over 50 years old, growing above 500 metres.",
+  "liquor_hex": "#DDA645",
+  "leaf_hex": "#7C7A55",
+  "sources": [
+    "https://tidenews.com.cn/news.html?id=3168306"
+  ],
+  "confidence": "low",
+  "images": []
 }

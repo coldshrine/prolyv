@@ -3,10 +3,16 @@
   "name_en": "Enshi Yu Lu (Jade Dew)",
   "name_native": "恩施玉露",
   "name_romanized": "Ēnshī Yùlù",
-  "aliases": ["En Shi Yu Lu", "Enshi Yulu", "Jade Dew", "Enshi Jade Dew", "Chinese steamed green"],
+  "aliases": [
+    "En Shi Yu Lu",
+    "Enshi Yulu",
+    "Jade Dew",
+    "Enshi Jade Dew",
+    "Chinese steamed green"
+  ],
   "category": "green",
   "origin_country": "China",
-  "origin_region": "Hubei · Enshi Tujia and Miao Autonomous Prefecture",
+  "origin_region": "Hubei · Enshi",
   "cultivar": "Enshi Taizi (local landrace) and Longjing 43",
   "processing": "Steamed green, the rare Chinese survival of the steaming method: shoots are steamed for well under a minute to kill the green, cooled, then rolled and rubbed straight on a heated table in several stages until they become fine, dark-green needles, and dried.",
   "form": "loose",
@@ -15,13 +21,52 @@
   "appearance_liquor": "Clear, bright jade green, unusually green for a Chinese tea.",
   "appearance_wet": "Even bud-and-leaf sets in a vivid, bright green.",
   "taste_profile": "Thick and savoury with seaweed, fresh spinach and sweet corn, a soft umami body and a clean, cooling finish; closer to a sencha than to Longjing.",
-  "taste_tags": ["umami", "marine", "vegetal", "sweet"],
-  "brewing": {"grams": 4, "water_ml": 120, "temp_c": 75, "steeps": 4, "seconds": [40, 30, 45, 60], "notes": "Gaiwan or small pot at 70–75 °C, cooler than other Chinese greens; steamed leaf releases its flavour fast and turns bitter above 80 °C."},
+  "taste_tags": [
+    "umami",
+    "marine",
+    "vegetal",
+    "sweet"
+  ],
+  "brewing": {
+    "grams": 4,
+    "water_ml": 120,
+    "temp_c": 75,
+    "steeps": 4,
+    "seconds": [
+      40,
+      30,
+      45,
+      60
+    ],
+    "notes": "Gaiwan or small pot at 70–75 °C, cooler than other Chinese greens; steamed leaf releases its flavour fast and turns bitter above 80 °C."
+  },
   "caffeine_level": "medium",
   "vintage_note": "Sold as the current year's spring harvest in pre-Qingming, yu qian and later grades, and nearly all of it is drunk in China; outside Hubei it turns up at specialist sellers in small lots. Most production is now machine-made; hand-rubbed needles exist and cost more. Drink within the year, kept cold and sealed, as the steamed style stales faster than pan-fired greens.",
   "description": "Enshi Yu Lu is the Chinese green tea that tastes like it took a detour through Japan, and in a sense the history runs the other way: steaming was the old Chinese way of killing the green, Japan kept it, and China almost entirely switched to the wok. Enshi, in the mountains of south-western Hubei, is the one place where a steamed famous tea survived, and the method gives it the 'three greens': green dry leaf, green liquor, green wet leaf.\n\nAfter a brief steaming the leaf is cooled fast, then rolled and rubbed on a heated table in a series of movements that gradually straighten and tighten it into fine needles. Done well, the leaf is dark emerald and glossy, like a tight bundle of pine needles; done badly it is dull and broken. The region's selenium-rich soil gets a lot of marketing attention; whether you can taste it is another matter.\n\nThe cup is the surprise: thick, savoury, with seaweed and fresh spinach and a sweet-corn note, soft umami and a clean finish. If you like sencha you will like this; if you only know toasty Chinese greens it will seem oddly oceanic. Brew it cooler than you would a Longjing, around 70–75 °C, and short, in a gaiwan or small pot. It gives four steeps, with the first two carrying most of the umami.\n\nIt is sold as the spring crop of the current year, mostly in pre-Qingming and yu qian lots, and it does not travel widely, so most of what reaches the West comes through specialist sellers. Machine-made is the norm and fine; hand-rubbed needles exist at a premium. Buy it early in the season and finish it within months, since steamed leaf loses its freshness faster than pan-fired tea.\n\nTry it next to a Japanese asamushi sencha and a Longjing: the comparison makes the whole steaming-versus-pan-firing story click.",
   "wikipedia_title": "Green tea",
   "wikipedia_scope": "umbrella",
   "popularity": 3,
-  "sources_note": "No dedicated English Wikipedia article found. The tasting claim about selenium is flagged as marketing."
+  "sources_note": "No dedicated English Wikipedia article found. The tasting claim about selenium is flagged as marketing.",
+  "name_zh": "恩施玉露",
+  "name_ru": "Энь Ши Юй Лу",
+  "history": "Enshi Yu Lu is a steamed needle-shaped green tea from Enshi in western Hubei, centred on Bajiao township and Wuyangba. China's national heritage listing says the method was founded in 1680, in the Kangxi reign, by a tea merchant surnamed Lan at Huanglianxi in Bajiao. In the Qing dynasty Bajiao merchants carried it north to Xiangfan and Laohekou and on to Nanyang in Henan.\n\nThose early dates are not firm. Other accounts date the modern way of making it only to the early 1900s, when steamed tea, long since displaced by pan-firing in most of China, came back here. The craft passed through master-and-apprentice and family lines. The tea was named among China's famous teas in 1965, holds a national geographical indication, and its making joined the national heritage list in 2014.",
+  "liquor_hex": "#C9D484",
+  "leaf_hex": "#2F5A38",
+  "sources": [
+    "https://www.ihchina.cn/project_details/14616.html",
+    "https://www.curioustea.com/?p=42932"
+  ],
+  "confidence": "medium",
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b3/Enshi_Yu_Lu_2._Aufguss.jpg/1280px-Enshi_Yu_Lu_2._Aufguss.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b3/Enshi_Yu_Lu_2._Aufguss.jpg/330px-Enshi_Yu_Lu_2._Aufguss.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Enshi_Yu_Lu_2._Aufguss.jpg",
+      "author": "Fritzober",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "kind": "wet_leaf",
+      "alt": "Infused Enshi Yu Lu needles in pale liquor in a blue-and-white gaiwan"
+    }
+  ]
 }

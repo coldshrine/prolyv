@@ -3,10 +3,18 @@
   "name_en": "Vietnamese Black Tea",
   "name_native": "Hồng trà / Trà đen",
   "name_romanized": "Hồng trà / Trà đen",
-  "aliases": ["Hong tra", "Tra den", "Vietnam OP", "Vietnamese orthodox black tea", "Vietnam CTC", "Hồng trà Shan Tuyết", "Vietnamese red tea"],
+  "aliases": [
+    "Hong tra",
+    "Tra den",
+    "Vietnam OP",
+    "Vietnamese orthodox black tea",
+    "Vietnam CTC",
+    "Hồng trà Shan Tuyết",
+    "Vietnamese red tea"
+  ],
   "category": "black",
   "origin_country": "Vietnam",
-  "origin_region": "Phú Thọ, Yên Bái, Tuyên Quang and Nghệ An for the estate teas; Hà Giang and Lâm Đồng for the artisanal lots",
+  "origin_region": "Phu Tho",
   "cultivar": "Mixed: PH1 and other assamica-type clones on the lowland estates, Shan tea old trees for the artisanal 'hồng trà Shan Tuyết', Taiwanese cultivars in Lâm Đồng",
   "processing": "Orthodox (withered, rolled, fully oxidised, fired, sorted into OP, P, BOP and fannings grades) or CTC on the large estates; the small-batch Shan Tuyết black is hand-rolled and sun- or oven-dried, often with a long, gentle oxidation.",
   "form": "loose",
@@ -15,13 +23,40 @@
   "appearance_liquor": "Bright red-brown and clear in orthodox lots, deep and opaque in CTC, golden amber in old-tree lots.",
   "appearance_wet": "Copper-brown leaves, small and even from the estates, large and whole from the old trees.",
   "taste_profile": "Estate tea is plain, brisk and moderately malty, built for strength and milk; the old-tree hồng trà is a different animal, honeyed and sweet with dried longan, a little malt and a long soft finish.",
-  "taste_tags": ["malty", "brisk", "honey", "sweet"],
-  "brewing": {"grams": 3, "water_ml": 200, "temp_c": 95, "steeps": 2, "seconds": [180, 240], "notes": "Estate grades are Western-style teas and take milk and sugar well. For old-tree Shan Tuyết black, switch to gongfu: 5 g per 120 ml, just-boiled water, short steeps, and it will give six or seven rounds."},
+  "taste_tags": [
+    "malty",
+    "brisk",
+    "honey",
+    "sweet"
+  ],
+  "brewing": {
+    "grams": 3,
+    "water_ml": 200,
+    "temp_c": 95,
+    "steeps": 2,
+    "seconds": [
+      180,
+      240
+    ],
+    "notes": "Estate grades are Western-style teas and take milk and sugar well. For old-tree Shan Tuyết black, switch to gongfu: 5 g per 120 ml, just-boiled water, short steeps, and it will give six or seven rounds."
+  },
   "caffeine_level": "high",
   "vintage_note": "Estate black tea is a bulk commodity sold by grade (OP, BOP, PS, fannings) and not by vintage, blended and bagged all year; most of it leaves the country in sacks. The artisanal old-tree black tea is sold by the current year's spring or autumn pick from named districts, keeps well for two or three years, and is the only Vietnamese black tea worth hunting by year.",
-  "description": "Vietnam is one of the world's biggest tea exporters, and black tea is a large part of that trade, yet almost none of it is sold under its own name. Estate black tea from the midland and northern provinces, Phú Thọ, Yên Bái, Tuyên Quang, Nghệ An, is made in orthodox and CTC grades and shipped in bulk, with Pakistan, Taiwan and Russia among the usual buyers, to be blended into other people's tea bags. It is honest, strong and plain, and the Vietnamese themselves mostly drink green.\n\nThe interesting Vietnamese black tea is the newer, small-batch kind: hồng trà made from the old Shan Tuyết trees of Hà Giang and Yên Bái, and to a lesser extent from the Taiwanese cultivars of Lâm Đồng. These are hand-rolled, oxidised slowly and dried gently, in the style of Yunnan's dianhong or Taiwan's honey-sweet black teas, and they taste like it: honey, dried longan, a little malt, a thick soft body and a long sweet finish, with none of the harshness of the estate grades.\n\nThe two kinds want different brewing. Estate OP or CTC is a Western tea, three minutes in a pot, milk if you like. Old-tree black is a gongfu tea: more leaf, less water, short steeps, and it keeps giving. Treat the second like the first and you will miss most of what you paid for.\n\nWhen buying, the label tells you which you are getting. Grade letters and no origin mean estate tea; a district (Hoàng Su Phì, Suối Giàng, Cầu Đất), a year, and words like Shan Tuyết or cổ thụ (ancient tree) mean the artisanal kind, usually from a cooperative or a specialist exporter. Golden downy buds in the dry leaf are the sign of old-tree material.\n\nIf you drink Yunnan black tea, the Hà Giang old-tree hồng trà is the obvious next cup: the same kind of trees, a few hundred kilometres south, at a friendlier price.",
+  "description": "Vietnam is one of the world's biggest tea exporters, and black tea is a large part of that trade, yet almost none of it is sold under its own name. Estate black tea from the midland and northern provinces, Phú Thọ, Yên Bái, Tuyên Quang, Nghệ An, is made in orthodox and CTC grades and shipped in bulk, with Pakistan, Taiwan and Russia among the usual buyers, to be blended into other people's tea bags. It is honest, strong and plain, and the Vietnamese themselves mostly drink green.\n\nThe interesting Vietnamese black tea is the newer, small-batch kind: hồng trà made from the old Shan Tuyết trees of Hà Giang and Yên Bái, and to a lesser extent from the Taiwanese cultivars of Lâm Đồng. These are hand-rolled, oxidised slowly and dried gently, in the style of Yunnan's dianhong or Taiwan's honey-sweet black teas, and they taste like it: honey, dried longan, a little malt, a thick soft body and a long sweet finish, with none of the harshness of the estate grades.\n\nThe two kinds want different brewing. Estate OP or CTC is a Western tea, three minutes in a pot, milk if you like. Old-tree black is a gongfu tea: more leaf, less water, short steeps, and it keeps giving. Treat the second like the first and you will miss most of what you paid for.\n\nWhen buying, the label tells you which you are getting. Grade letters and no origin mean estate tea; a district (Hoàng Su Phì, Suối Giàng, Cầu Đất), a year, and words like Shan Tuyết or cổ thụ (ancient tree) mean the artisanal kind, usually from a cooperative or a specialist exporter. Golden downy buds are common in this style, but they show bud content and do not prove the leaf came from old trees.\n\nIf you drink Yunnan black tea, the Hà Giang old-tree hồng trà is the obvious next cup: the same kind of trees, a few hundred kilometres south, at a friendlier price.",
   "wikipedia_title": "Vietnamese tea",
   "wikipedia_scope": "umbrella",
   "popularity": 2,
-  "sources_note": "Export destinations (Pakistan, Taiwan, Russia) reflect the usual rankings in Vietnamese trade statistics for black tea and may shift year to year. PH1 as the common estate clone is from memory."
+  "sources_note": "Export destinations (Pakistan, Taiwan, Russia) reflect the usual rankings in Vietnamese trade statistics for black tea and may shift year to year. PH1 as the common estate clone is from memory.",
+  "name_zh": "越南红茶",
+  "name_ru": "Вьетнамский чёрный чай",
+  "history": "Vietnamese black tea is known mainly through trade figures. A 2018 report ranked Vietnam fifth in the world for tea exports and seventh for production, with Pakistan, Russia and Taiwan among the biggest customers for its tea in general. Taiwanese customs data for 2024 put Vietnam as Taiwan's largest supplier of black tea by volume, and Russian demand for black tea helped Vietnam's exports in 2022. Rankings vary from one year and one data set to the next, so treat them as a rough picture.\n\nThe small-batch hồng trà from old Shan Tuyết trees is a much newer and quieter story. Little is documented about when it began or who first made it; it is known mostly through the small makers and specialist sellers who offer it today.",
+  "liquor_hex": "#9C4A1F",
+  "leaf_hex": "#2F2420",
+  "sources": [
+    "https://en.baobacninhtv.vn/vietnam-tea-exports-ranked-fifth-worldwide.bbg",
+    "https://baobacninhtv.vn/vietnam-becomes-largest-supplier-of-black-tea-to-taiwan-china--postid413694.bbg",
+    "https://stir-tea-coffee.com/tea-coffee-news/vietnam%E2%80%99s-tea-exports-rise-in-2022/"
+  ],
+  "confidence": "medium",
+  "images": []
 }

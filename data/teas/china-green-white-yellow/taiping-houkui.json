@@ -3,24 +3,92 @@
   "name_en": "Taiping Houkui (Monkey King)",
   "name_native": "太平猴魁",
   "name_romanized": "Tàipíng Hóukuí",
-  "aliases": ["Tai Ping Hou Kui", "Taiping Hou Kui", "Monkey King tea", "Monkey Chief", "Houkui"],
+  "aliases": [
+    "Tai Ping Hou Kui",
+    "Taiping Hou Kui",
+    "Monkey King tea",
+    "Monkey Chief",
+    "Houkui",
+    "Monkey Tea",
+    "Тайпин Хоукуй"
+  ],
   "category": "green",
   "origin_country": "China",
-  "origin_region": "Anhui · Huangshan district (Taiping) · Houkeng, Hougang and Yanjia villages",
+  "origin_region": "Anhui · Huangshan · Taiping",
   "cultivar": "Shidacha (local large-leaf 'persimmon leaf' landrace)",
   "processing": "Baked green: large shoots of one bud and two leaves are pan-fired, laid out one by one and pressed flat (by hand in the traditional nie jian style, or between cloth and rollers in the modern pressed style), then dried over charcoal in several passes.",
   "form": "loose",
   "harvest_season": "Late: from around Grain Rain (20 April) to early or mid May, because the shoot has to reach two full leaves before it is picked.",
-  "appearance_dry": "Enormous flat, straight leaves 5–7 cm long, two leaves wrapped around a bud, dark green with reddish veins; machine-pressed lots show a faint cloth-grid imprint.",
+  "appearance_dry": "Enormous flat, straight leaves 5–7 cm long, two leaves wrapped around a bud, dark green with reddish veins; a faint mesh or cloth-grid imprint from drying and pressing is common, and more regular on machine-pressed lots.",
   "appearance_liquor": "Very pale green-gold, clear.",
   "appearance_wet": "Whole, intact two-leaf-and-bud shoots that stand up in a tall glass like a bundle of reeds.",
   "taste_profile": "Clean orchid fragrance over a light, sweet, silky body with almost no astringency and a long cooling finish.",
-  "taste_tags": ["floral", "sweet", "vegetal", "creamy"],
-  "brewing": {"grams": 4, "water_ml": 250, "temp_c": 85, "steeps": 3, "seconds": [120, 120, 180], "notes": "Tall straight glass, leaves stood upright stems-down, water poured down the side. It needs more time than other greens because the leaf is huge and barely rolled; a gaiwan works if you snap the leaves to fit."},
+  "taste_tags": [
+    "floral",
+    "sweet",
+    "vegetal",
+    "creamy"
+  ],
+  "brewing": {
+    "grams": 4,
+    "water_ml": 250,
+    "temp_c": 85,
+    "steeps": 3,
+    "seconds": [
+      120,
+      120,
+      180
+    ],
+    "notes": "Tall straight glass, leaves stood upright stems-down, water poured down the side. It needs more time than other greens because the leaf is huge and barely rolled; a gaiwan works if you snap the leaves to fit."
+  },
   "caffeine_level": "medium",
   "vintage_note": "Sold as the current year's spring harvest from late April into May, later than most Chinese greens. Grades run from Houkui (top, the core villages, often hand-made) through Kuijian to Jiancha; the hand-pressed nie jian tea from Houkeng is the expensive one, the machine-pressed style from the wider Taiping area is what most people drink. Drink within the year, kept cold and sealed.",
-  "description": "Taiping Houkui is the one with the giant leaves. It comes from a few villages, Houkeng above all, on the slopes near Taiping Lake in the Huangshan district of Anhui, and it is made from the Shidacha bush, a local large-leaf variety whose shoots are left to grow until a bud is wrapped in two full leaves before picking. The shoots are then pressed flat and dried, so each one looks like a green blade the length of your finger.\n\nThe traditional method is slow and manual: after pan-firing, each shoot is laid out straight and pressed by hand (nie jian, 'pinched tips'), then baked over charcoal in several passes. Modern production presses the shoots between cloth and rollers, which flattens them more and leaves a faint grid pattern on the leaf. Both are legitimate; the hand-made tea is less flat, less uniform and much more expensive.\n\nThe cup is the opposite of the leaf: light, pale and delicate, with a clear orchid note, a sweet silky texture and nothing harsh. It is a tea to drink in a tall glass, leaves standing upright, watching them sway. About 85 °C is right, and it needs a couple of minutes because the leaf gives itself up slowly; three generous infusions is normal. It will not satisfy anyone looking for a punchy green, which is exactly the point.\n\nBecause it is picked late (late April into May) it is one of the last famous greens of the season, and because the core villages are tiny, a lot of 'Houkui' comes from the wider Taiping area or from Shidacha planted elsewhere in Anhui. Price follows that: core-village hand-made at the top, pressed tea from the district in the middle, and flat, grid-stamped leaf from further afield at the bottom. The orchid aroma is the honest test; cheap lots smell of hay.\n\nStore it carefully: the big leaves snap easily, so buy it in a rigid box or tin, not a bag squashed at the bottom of a parcel.",
+  "description": "Taiping Houkui is the one with the giant leaves. It comes from a few villages, Houkeng above all, on the slopes near Taiping Lake in the Huangshan district of Anhui, and it is made from the Shidacha bush, a local large-leaf variety whose shoots are left to grow until a bud is wrapped in two full leaves before picking. The shoots are then pressed flat and dried, so each one looks like a green blade the length of your finger.\n\nThe traditional method is slow and manual: after pan-firing, each shoot is laid out straight and pressed by hand (nie jian, 'pinched tips'), then baked over charcoal in several passes. Modern production presses the shoots between cloth and rollers, which flattens them more and leaves a more regular grid pattern on the leaf. Both are legitimate; the hand-made tea is less flat, less uniform and much more expensive.\n\nThe cup is the opposite of the leaf: light, pale and delicate, with a clear orchid note, a sweet silky texture and nothing harsh. It is a tea to drink in a tall glass, leaves standing upright, watching them sway. About 85 °C is right, and it needs a couple of minutes because the leaf gives itself up slowly; three generous infusions is normal. It will not satisfy anyone looking for a punchy green, which is exactly the point.\n\nBecause it is picked late (late April into May) it is one of the last famous greens of the season, and because the core villages are tiny, a lot of 'Houkui' comes from the wider Taiping area or from Shidacha planted elsewhere in Anhui. Price follows that: core-village hand-made at the top, pressed tea from the district in the middle, and very flat, perfectly uniform leaf from further afield at the bottom. The orchid aroma is the honest test; cheap lots smell of hay.\n\nStore it carefully: the big leaves snap easily, so buy it in a rigid box or tin, not a bag squashed at the bottom of a parcel.",
   "wikipedia_title": "Taiping houkui",
   "wikipedia_scope": "exact",
-  "popularity": 4
+  "popularity": 4,
+  "name_zh": "太平猴魁",
+  "name_ru": "Тай Пин Хоу Куй",
+  "history": "The tea as it is known today dates from about 1900, when it was first made around Houkeng in what was then Taiping county, now the Huangshan district of Anhui. Some accounts reach further back, saying tea was grown here from the Ming and picked for emperors in the Qing, but those claims may concern the local tea rather than this distinctive style. The core has always been three neighbouring hamlets: Houkeng, Hougang and Yanjia.\n\nThe usual story explains the name with monkeys: wild tea seeded by birds in cracks on sheer rock, out of reach until villagers trained monkeys to climb up and pick it. It is a legend, not history.\n\nFame came quickly, with a first-class gold medal at the 1915 Panama exposition. The tea also took the 'King of Tea' title at the China Tea Exhibition in 2004, and it now has geographical indication status. Fakes are a constant problem: factories can turn out tidy, symmetrical leaf that looks better than the handmade tea, and teas from surrounding areas are sold under the same name for far less.",
+  "liquor_hex": "#E0DC9A",
+  "leaf_hex": "#3F5A2E",
+  "sources": [
+    "https://zh.wikipedia.org/wiki/%E5%A4%AA%E5%B9%B3%E7%8C%B4%E9%AD%81",
+    "https://en.wikipedia.org/wiki/Taiping_houkui",
+    "https://ja.wikipedia.org/wiki/%E5%A4%AA%E5%B9%B3%E7%8C%B4%E9%AD%81",
+    "https://zh.wikipedia.org/wiki/%E4%B8%AD%E5%9B%BD%E5%8D%81%E5%A4%A7%E5%90%8D%E8%8C%B6"
+  ],
+  "confidence": "high",
+  "images": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/c/c5/Fresh_Hou_Kui_Green_Tea_01.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c5/Fresh_Hou_Kui_Green_Tea_01.JPG/330px-Fresh_Hou_Kui_Green_Tea_01.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Fresh_Hou_Kui_Green_Tea_01.JPG",
+      "author": "Sebastian Stabinger",
+      "license": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "kind": "dry_leaf",
+      "alt": "Close-up of long, flat dark green Taiping Houkui leaves"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/df/Fresh_Hou_Kui_Green_Tea_Leaves.jpg/1280px-Fresh_Hou_Kui_Green_Tea_Leaves.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/df/Fresh_Hou_Kui_Green_Tea_Leaves.jpg/330px-Fresh_Hou_Kui_Green_Tea_Leaves.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Fresh_Hou_Kui_Green_Tea_Leaves.jpg",
+      "author": "Sebastian Stabinger",
+      "license": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "kind": "dry_leaf",
+      "alt": "Four long, flat Taiping Houkui leaves laid out side by side on a white background"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b9/Taiping_houkui_05.jpg/1280px-Taiping_houkui_05.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b9/Taiping_houkui_05.jpg/330px-Taiping_houkui_05.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Taiping_houkui_05.jpg",
+      "author": "Pannet",
+      "license": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0",
+      "kind": "dry_leaf",
+      "alt": "Bundle of long, flat Taiping Houkui leaves held in a hand against a white background"
+    }
+  ]
 }

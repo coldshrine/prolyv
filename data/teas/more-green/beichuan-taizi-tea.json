@@ -1,0 +1,57 @@
+{
+  "slug": "beichuan-taizi-tea",
+  "name_en": "Beichuan Taizi Tea",
+  "name_native": "北川苔子茶",
+  "name_romanized": "Běichuān Táizi Chá",
+  "name_zh": "北川苔子茶",
+  "name_ru": "Бэйчуань Тайцзы Ча",
+  "aliases": [
+    "Beichuantaizicha",
+    "Taizi Tea",
+    "苔子茶"
+  ],
+  "category": "green",
+  "origin_country": "China",
+  "origin_region": "Sichuan · Mianyang · Beichuan",
+  "cultivar": "Beichuan Taizi",
+  "processing": "Made into green tea from a cold-hardy mountain variety with stout buds and thick leaves.",
+  "form": "loose",
+  "harvest_season": "Spring, as is usual for Sichuan mountain greens; high altitude generally delays the first picking.",
+  "appearance_dry": "Not closely documented; stout buds and thick leaves are the marks of the variety.",
+  "appearance_liquor": "Bright emerald green.",
+  "appearance_wet": "Bright yellow-green leaf.",
+  "taste_profile": "A mellow, fragrant cup with a lingering sweet aftertaste that lasts through repeat steeps.",
+  "taste_tags": [
+    "sweet",
+    "vegetal",
+    "floral"
+  ],
+  "brewing": {
+    "grams": 3,
+    "water_ml": 150,
+    "temp_c": 85,
+    "steeps": 4,
+    "seconds": [
+      45,
+      60,
+      80,
+      110
+    ],
+    "notes": "Thick-leaved mountain tea can usually take slightly hotter water and an extra steep. Start short and adjust by taste."
+  },
+  "caffeine_level": "medium",
+  "vintage_note": "Normally sold as a current-year spring green and best drunk within a year, as is usual for the class. Look for the Beichuan origin and the geographical indication mark.",
+  "description": "Beichuan Taizi is a green tea from the Qiang autonomous county of Beichuan in the mountains north-west of Mianyang. The name refers both to the tea and to the plant behind it, a variety described as an offshoot of wild tea trees.\n\nGrowing in dense mountain forest at roughly 1,000 to 1,800 metres, with wide temperature swings, plenty of cloud and little direct sun, the plant has become cold-hardy, with stout buds and thick leaves. It is also noted for high amino acid content, which tends to go with sweetness and a softer bite.\n\nThe finished tea is described as mellow and high-scented, with a bright green liquor and a sweet finish, and it stands up to several steeps. Thick leaf like this forgives a slightly hotter kettle than delicate bud teas.\n\nThe protected area takes in eleven townships of Beichuan. It is an easy tea to overlook outside Sichuan, so a seller who can name the township and harvest date is a good sign.",
+  "history": "Local accounts say Taizi tea was a tribute in the Tang dynasty, which should be treated as tradition, as no details accompany the claim. The clear record is modern: in October 2009 the national quality authority granted the tea geographical indication protection, covering townships such as Qushan, Leigu and Tongkou.",
+  "liquor_hex": "#D4DA8A",
+  "leaf_hex": "#66803A",
+  "sources": [
+    "https://milulu.com.cn/techan/17027.html",
+    "https://zh.wikipedia.org/wiki/%E5%8C%97%E5%B7%9D%E7%BE%8C%E6%97%8F%E8%87%AA%E6%B2%BB%E5%8E%BF"
+  ],
+  "confidence": "medium",
+  "images": [],
+  "wikipedia_title": null,
+  "wikipedia_scope": "none",
+  "popularity": 2
+}

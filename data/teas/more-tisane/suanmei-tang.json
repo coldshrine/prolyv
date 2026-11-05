@@ -1,0 +1,56 @@
+{
+  "slug": "suanmei-tang",
+  "name_en": "Suanmei Tang (Sour Plum Drink)",
+  "name_native": "酸梅汤",
+  "name_romanized": "Suānméi Tāng",
+  "name_zh": "酸梅汤",
+  "name_ru": "Суань Мэй Тан",
+  "aliases": [
+    "Suanmei tang",
+    "Suanmeitang (sour plum drink)",
+    "Sour plum drink",
+    "Суаньмэй тан"
+  ],
+  "category": "tisane",
+  "origin_country": "China",
+  "origin_region": "Beijing",
+  "cultivar": null,
+  "processing": "Smoked dark plums (wumei) are soaked in boiling water or simmered, then strained, and liquorice, osmanthus and rock sugar are added. It is cooled and usually served iced.",
+  "form": "other",
+  "harvest_season": "A summer drink; it is made whenever needed from dried ingredients.",
+  "appearance_dry": "A mix of wrinkled black smoked plums, liquorice slices and small golden osmanthus flowers.",
+  "appearance_liquor": "Deep reddish brown and clear when well strained.",
+  "appearance_wet": "Swollen, soft black plums among softened herbs, strained off before serving.",
+  "taste_profile": "Sour and sweet at once, with a smoky depth from the plums and a floral lift from osmanthus; refreshing when ice cold.",
+  "taste_tags": [
+    "tart",
+    "sweet",
+    "smoky",
+    "floral"
+  ],
+  "brewing": {
+    "grams": 30,
+    "water_ml": 1000,
+    "temp_c": 100,
+    "steeps": 1,
+    "seconds": [
+      1800
+    ],
+    "notes": "Simmer the plums and liquorice, add rock sugar and osmanthus toward the end, strain and chill. Quantities vary by household, so adjust the sugar to taste."
+  },
+  "caffeine_level": "none",
+  "vintage_note": "Not sold by vintage. It comes as a dried ingredient mix, as concentrate or syrup, as bottled drink, or freshly made in summer. Ingredient mixes keep well when dry, while bottled versions vary a lot, so check for real wumei and how much sugar is used.",
+  "description": "Suanmei tang is China's classic summer cooler, a sweet-sour drink of smoked dark plums, closely tied to old Beijing. It is a recipe rather than a leaf, and it contains no tea at all.\n\nThe method is simple: soak or simmer wumei, strain them out, then add liquorice, osmanthus and rock sugar. The smoked plums are what separate it from a simple plum juice, giving the drink a dusky depth.\n\nServed well chilled it is tart first, then sweet, with osmanthus on the finish. Too much sugar flattens it, and too short a simmer leaves it thin. Make it a day ahead if you can, and let it rest in the fridge.\n\nIn Hong Kong and Guangdong it also appears on the menu of herbal cooling tea shops. Bottled and powdered versions are everywhere, so read the label, since quality ranges from real plum extract to something closer to flavoured sugar water.",
+  "history": "The Southern Song record Wulin Jiushi is said to mention plum brine sold in Lin'an, an early relative of the drink, and the Yuan-era Yinshan Zhengyao by Hu Sihui describes a white plum drink. The name suanmei tang itself settled in the Qing dynasty, reportedly at court first and then among ordinary people.\n\nIn old Beijing, Jin Shoushen's writing on the city names Xinyuanzhai at Liulichang, along with Longjinghe and Jiulongzhai in Xisi, as famous makers. Street sellers kept the drink in ice buckets and clinked two stacked copper bowls together to attract customers.",
+  "wikipedia_title": null,
+  "wikipedia_scope": "none",
+  "popularity": 4,
+  "liquor_hex": "#7A2E1C",
+  "leaf_hex": "#2B1B18",
+  "sources": [
+    "https://zh.wikipedia.org/wiki/%E9%85%B8%E6%A2%85%E6%B1%A4",
+    "https://zh.wikipedia.org/wiki/%E6%B6%BC%E8%8C%B6"
+  ],
+  "confidence": "medium",
+  "images": []
+}

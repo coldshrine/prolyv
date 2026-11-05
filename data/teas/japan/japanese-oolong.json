@@ -3,24 +3,62 @@
   "name_en": "Japanese Oolong (Wa-oolong)",
   "name_native": "和烏龍茶",
   "name_romanized": "Wa-ūroncha",
-  "aliases": ["Wa oolong", "Kokusan ūroncha", "Japanese-grown oolong", "Nihon oolong", "Wa-uroncha"],
+  "aliases": [
+    "Wa oolong",
+    "Kokusan ūroncha",
+    "Japanese-grown oolong",
+    "Nihon oolong",
+    "Wa-uroncha",
+    "Ва-улун",
+    "和烏龍"
+  ],
   "category": "oolong",
   "origin_country": "Japan",
-  "origin_region": "Shizuoka; Kagoshima; Miyazaki; Saga; Kyoto · Wazuka",
+  "origin_region": "Shizuoka",
   "cultivar": "Kōshun, Sōfū, Benifuuki, Yabukita, seed-grown zairai bushes",
-  "processing": "Leaf is withered in the sun and indoors, bruised by shaking or tumbling to oxidise the edges (typically lightly, around 15–40%), pan-fired, rolled and dried; most producers work in tiny batches with adapted green-tea machinery, and a few roast lightly.",
+  "processing": "Leaf is withered in the sun and indoors, bruised by shaking or tumbling to oxidise the edges (typically lightly), pan-fired, rolled and dried; most producers work in tiny batches with adapted green-tea machinery, and a few roast lightly.",
   "form": "loose",
   "harvest_season": "Mostly second flush (June–July) and autumn, when the leaf has the fuller structure oolong needs; some first-flush experiments.",
   "appearance_dry": "Twisted or loosely curled leaves in mixed green, olive and brown, rarely ball-rolled.",
   "appearance_liquor": "Clear pale gold to light amber.",
   "appearance_wet": "Olive-green leaves with reddened edges, often slightly uneven in oxidation.",
   "taste_profile": "Light, floral and fruity, with the soft sweetness of Japanese leaf and less roast and body than a Taiwanese oolong; Kōshun lots are strikingly aromatic.",
-  "taste_tags": ["floral", "fruity", "sweet", "honey", "grassy"],
-  "brewing": {"grams": 5, "water_ml": 120, "temp_c": 90, "steeps": 5, "seconds": [45, 30, 45, 60, 90], "notes": "Gaiwan or small kyusu, hot water, short steeps; these teas are delicate, so do not push the temperature to a full boil. Cold-brewed, the aromatic cultivars are superb."},
+  "taste_tags": [
+    "floral",
+    "fruity",
+    "sweet",
+    "honey",
+    "grassy"
+  ],
+  "brewing": {
+    "grams": 5,
+    "water_ml": 120,
+    "temp_c": 90,
+    "steeps": 5,
+    "seconds": [
+      45,
+      30,
+      45,
+      60,
+      90
+    ],
+    "notes": "Gaiwan or small kyusu, hot water, short steeps; these teas are delicate, so do not push the temperature to a full boil. Cold-brewed, the aromatic cultivars are superb."
+  },
   "caffeine_level": "medium",
   "vintage_note": "A craft product sold by farm, cultivar and year in small bags, with new lots appearing from late summer; most should be drunk within a year while the aroma is fresh, although the few more oxidised or roasted lots keep longer. There is no established grading or ageing tradition yet, so the producer's name is the main guide.",
-  "description": "Japanese oolong, often sold as wa-oolong or kokusan ūroncha, is semi-oxidised tea made by Japanese green-tea farms, mostly in the last fifteen or twenty years, mostly in tiny batches and mostly as an experiment that turned into a product. It is not an attempt to copy Taiwan: the leaf, the cultivars and the humid climate push it towards a light, floral, sweet tea with less roast and body than most Taiwanese or Chinese oolongs.\n\nThe hard part in Japan is withering. Leaf is wilted in the sun and indoors, bruised by shaking or tumbling so the edges oxidise, usually lightly (around 15–40 percent), then pan-fired, rolled and dried with whatever machinery the farm has; a few producers roast lightly, and almost nobody ball-rolls. Cultivar matters more than anything. Kōshun and Sōfū, both bred for aroma, make strikingly perfumed oolongs; Benifuuki gives a fruitier, more structured tea; Yabukita gives a gentle, grassy-floral one. Summer and autumn leaf is preferred because spring leaf is too tender to bruise well.\n\nBrew it in a gaiwan or small kyusu with water at about 90 °C, 5 g for 120 ml and short steeps starting around 45 seconds; it gives four or five infusions and does not like a full rolling boil. The cup is pale gold, floral and lightly fruity with a honeyed sweetness and the soft texture of Japanese leaf; cold-brewed, the aromatic cultivars are superb. The mistake is to expect the depth of a Dong Ding and dismiss it; taken on its own terms it is a delicate, pretty tea.\n\nIt is sold in 20–30 g bags by farm, cultivar and year, from late summer, at craft prices, in the 'wa-oolong' corner of specialist shops or straight from the farm. There is no grading tradition and no ageing one yet, and the more oxidised or roasted lots keep longer than the green ones. Shizuoka, Kagoshima, Miyazaki, Saga and the Wazuka hills of Kyoto are the main sources.\n\nA Kōshun oolong next to a Taiwanese baozhong is a good way to see what Japanese leaf brings to the style.",
+  "description": "Japanese oolong, often sold as wa-oolong or kokusan ūroncha, is semi-oxidised tea made by Japanese green-tea farms, mostly in recent decades, mostly in tiny batches and mostly as an experiment that turned into a product. It is not an attempt to copy Taiwan: the leaf, the cultivars and the humid climate push it towards a light, floral, sweet tea with less roast and body than most Taiwanese or Chinese oolongs.\n\nThe hard part in Japan is withering. Leaf is wilted in the sun and indoors, bruised by shaking or tumbling so the edges oxidise, usually lightly, then pan-fired, rolled and dried with whatever machinery the farm has; a few producers roast lightly, and almost nobody ball-rolls. Cultivar matters more than anything. Kōshun and Sōfū, both bred for aroma, make strikingly perfumed oolongs; Benifuuki gives a fruitier, more structured tea; Yabukita gives a gentle, grassy-floral one. Summer and autumn leaf is preferred because spring leaf is too tender to bruise well.\n\nBrew it in a gaiwan or small kyusu with water at about 90 °C, 5 g for 120 ml and short steeps starting around 45 seconds; it gives four or five infusions and does not like a full rolling boil. The cup is pale gold, floral and lightly fruity with a honeyed sweetness and the soft texture of Japanese leaf; cold-brewed, the aromatic cultivars are superb. The mistake is to expect the depth of a Dong Ding and dismiss it; taken on its own terms it is a delicate, pretty tea.\n\nIt is sold in 20–30 g bags by farm, cultivar and year, from late summer, at craft prices, in the 'wa-oolong' corner of specialist shops or straight from the farm. There is no grading tradition and no ageing one yet, and the more oxidised or roasted lots keep longer than the green ones. Shizuoka, Kagoshima, Miyazaki, Saga and the Wazuka hills of Kyoto are the main sources.\n\nA Kōshun oolong next to a Taiwanese baozhong is a good way to see what Japanese leaf brings to the style.",
   "wikipedia_title": "Japanese tea",
   "wikipedia_scope": "umbrella",
-  "popularity": 2
+  "popularity": 2,
+  "name_zh": "日本乌龙茶",
+  "name_ru": "Японский Улун",
+  "history": "Oolong has been tried in Japan for longer than the craft label suggests. There were attempts in Kumamoto and Oita around 1875, and they did not go far. Japanese drinkers came to know oolong through Taiwan after 1895, and it became a mass drink from the 1970s, helped by slimming reports and the pop duo Pink Lady, then by Itoen's canned oolong of 1980. Nearly all of that was imported leaf, as most oolong drunk in Japan still is.\n\nDomestic making stayed scattered. Some producers tried it in the 1980s as individuals, and with green tea prices falling, inventive producers have taken a renewed interest. It remains a small-batch category, lighter in oxidation and roast than most oolong elsewhere.",
+  "liquor_hex": "#D9BE6A",
+  "leaf_hex": "#6B7446",
+  "sources": [
+    "https://gjtea.org/oolongcha/",
+    "https://artfultea.com/blogs/tea-wisdom/what-is-japanese-oolong"
+  ],
+  "confidence": "medium",
+  "images": []
 }

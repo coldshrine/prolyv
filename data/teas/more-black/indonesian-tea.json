@@ -1,0 +1,53 @@
+{
+  "slug": "indonesian-tea",
+  "name_en": "Indonesian Tea",
+  "name_native": "teh Indonesia",
+  "name_romanized": null,
+  "name_zh": "印度尼西亚茶",
+  "name_ru": "Индонезийский чай",
+  "aliases": [
+    "Teh Indonesia",
+    "Sumatra tea"
+  ],
+  "category": "black",
+  "origin_country": "Indonesia",
+  "origin_region": "Java · West Java",
+  "cultivar": "Mainly assamica-type plants, which replaced the early China-type stock",
+  "processing": "Export tea is mainly black, made by orthodox or CTC methods; orthodox gives larger, whole leaf and is the premium style. Green tea is made mostly for the home market.",
+  "form": "loose",
+  "harvest_season": "Depends on the estate. As with other tropical highland tea, plucking generally runs for most of the year rather than around one prized flush.",
+  "appearance_dry": "Dark brown to black, in whole or broken orthodox leaf or small CTC granules.",
+  "appearance_liquor": "Clear reddish-amber, deeper in CTC grades.",
+  "appearance_wet": "Coppery brown, broken or whole depending on grade.",
+  "taste_profile": "As is usual for tropical black tea from assamica plants, clean, brisk and fairly light to medium in body, with less malt than Assam. Much of it is designed to be a blending tea.",
+  "taste_tags": [
+    "brisk",
+    "woody"
+  ],
+  "brewing": {
+    "grams": 3,
+    "water_ml": 250,
+    "temp_c": 95,
+    "steeps": 1,
+    "seconds": [
+      210
+    ],
+    "notes": "Western-style, like other everyday black teas. Takes lemon or a little sugar well; orthodox grades are worth trying plain first."
+  },
+  "caffeine_level": "medium",
+  "vintage_note": "Mostly sold in bulk for blends and own-label tea with no year stated, so freshness is the only timing that matters. Single-estate lots occasionally appear with an estate or harvest date. Black tea of this kind is for drinking within a couple of years rather than ageing.",
+  "description": "Indonesian tea is a national label rather than a single style. West Java is the heartland, producing more than two-thirds of the country's output, and North Sumatra is another producing province, with plantations in the Simalungun area dating from 1919.\n\nMost of it is black tea from assamica plants, made either orthodox, with larger whole leaf, or CTC, for a stronger and quicker brew. Green tea is made too, but it mostly stays at home, where it often turns up in sweet and scented drinks.\n\nIn the cup, expect the usual tropical black profile: clean, brisk and not too heavy. It is a good everyday tea and takes lemon or sugar happily. Brew it like any black tea and don't overthink it.\n\nMost of it reaches you anonymously inside blends. If you want to taste it properly, look for a named estate and an orthodox grade, which are not easy to find but do exist.",
+  "history": "Accounts of the start differ. Some place Dutch-brought seeds on Java in the 17th century. An Indonesian industry report credits Andreas Cleyer with bringing seeds from Japan in 1684 as ornamentals, then records plantings at Bogor in 1826 and at the Cisurupan garden in Garut in 1827. Large-scale production followed in the mid-19th century under Dutch rule, and the Assam type later replaced the first Chinese plants.\n\nIn the early 20th century the Dutch East Indies was the third largest source of tea exports, after British India and Ceylon. In 1958 the government took over Dutch and British plantations, later consolidated into state plantation companies. Indonesia was the world's eighth-largest producer in 2023.",
+  "liquor_hex": "#A9561F",
+  "leaf_hex": "#33241A",
+  "wikipedia_title": null,
+  "wikipedia_scope": "none",
+  "popularity": 3,
+  "sources": [
+    "https://www.o-cha.net/english/association/information/documents/20211019-CurrentstatusofIndonesianteaindustry.pdf",
+    "https://www.alveus.eu/blog/indonesian-tea/",
+    "https://en.wikipedia.org/wiki/Tea_production_in_Indonesia"
+  ],
+  "confidence": "medium",
+  "images": []
+}

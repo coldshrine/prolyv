@@ -648,13 +648,13 @@
 ]
 },
 {
-"slug": "baojing-huangjincha-1",
-"en": "Baojing Huangjincha 1",
+"slug": "baojing-huangjin-cha-no-1",
+"en": "Baojing Huangjin Cha No. 1",
 "zh": "保靖黄金茶1号",
-"ru": "Баоцзин Хуанцзиньча 1",
+"ru": "Баоцзин Хуанцзинь Ча № 1",
 "native": null,
 "aliases": [
-"Baojing Huangjin Cha No. 1"
+"Baojing Huangjincha 1"
 ],
 "category": "green",
 "country": "China",
@@ -968,7 +968,7 @@
 ],
 "category": "green",
 "country": "China",
-"region": "Sichuan",
+"region": "Sichuan · Chengdu",
 "kind": "scented",
 "tier": 1,
 "existing_slug": null,
@@ -1130,7 +1130,7 @@
 "country": "China",
 "region": null,
 "kind": "style",
-"tier": 2,
+"tier": 3,
 "existing_slug": null,
 "evidence": [
 "https://www.teaspring.com/green-tea.asp",
@@ -1141,7 +1141,7 @@
 "slug": "bulang-sour-tea",
 "en": "Bulang Sour Tea",
 "zh": "布朗族酸茶",
-"ru": null,
+"ru": "Булан Суань Ча",
 "native": null,
 "aliases": [],
 "category": "green",
@@ -1458,7 +1458,7 @@
 "aliases": [],
 "category": "green",
 "country": "China",
-"region": "Hubei",
+"region": "Henan · Xinyang",
 "kind": "variety",
 "tier": 2,
 "existing_slug": null,
@@ -2243,7 +2243,7 @@
 {
 "slug": "zhu-ye-qing",
 "en": "Emei Zhuyeqing",
-"zh": "峨眉竹叶青",
+"zh": "竹叶青",
 "ru": "Эмэй Чжуецин",
 "native": null,
 "aliases": [
@@ -2254,6 +2254,7 @@
 "Bamboo leaf green",
 "green leaf manna",
 "Emeishan Zhuyeqing",
+"峨眉竹叶青",
 "峨眉山竹叶青茶"
 ],
 "category": "green",
@@ -2751,12 +2752,14 @@
 ]
 },
 {
-"slug": "fangpingxiangming",
-"en": "Fangpingxiangming",
+"slug": "fangping-xiangming",
+"en": "Fangping Xiangming",
 "zh": "方坪香茗",
-"ru": "Фанпинсянмин",
+"ru": "Фанпин Сянмин",
 "native": null,
-"aliases": [],
+"aliases": [
+"Fangpingxiangming"
+],
 "category": "green",
 "country": "China",
 "region": "Chongqing · 市涪陵区",
@@ -3138,12 +3141,14 @@
 ]
 },
 {
-"slug": "fumingxiangcuilong",
-"en": "Fumingxiangcuilong",
+"slug": "fuming-xiangcuilong",
+"en": "Fuming Xiangcuilong",
 "zh": "府茗香翠龙",
-"ru": "Фуминсянцуйлун",
+"ru": "Фумин Сянцуйлун",
 "native": null,
-"aliases": [],
+"aliases": [
+"Fumingxiangcuilong"
+],
 "category": "green",
 "country": "China",
 "region": "Guizhou · 毕节市纳雍县",
@@ -4679,7 +4684,7 @@
 "country": "China",
 "region": null,
 "kind": "scented",
-"tier": 2,
+"tier": 3,
 "existing_slug": null,
 "evidence": [
 "https://chay.by/product/chaj-zelenyj-hua-lun-chzhu-100-g-vesovoj/",
@@ -4936,7 +4941,7 @@
 ],
 "category": "green",
 "country": "China",
-"region": "Yunnan",
+"region": "Yunnan · Dehong Lianghe",
 "kind": "appellation",
 "tier": 2,
 "existing_slug": null,
@@ -4987,7 +4992,7 @@
 {
 "slug": "jasmine-dragon-pearls",
 "en": "Jasmine Dragon Pearls",
-"zh": null,
+"zh": "茉莉龙珠",
 "ru": "Молихуа Лунчжу",
 "native": null,
 "aliases": [
@@ -5381,7 +5386,7 @@
 "slug": "jingpo-pickled-tea",
 "en": "Jingpo Pickled Tea",
 "zh": "景颇族腌茶",
-"ru": null,
+"ru": "Цзинпо Янь Ча",
 "native": null,
 "aliases": [],
 "category": "green",
@@ -5578,12 +5583,14 @@
 ]
 },
 {
-"slug": "jiudingxuemei",
-"en": "Jiudingxuemei",
+"slug": "jiuding-xuemei",
+"en": "Jiuding Xuemei",
 "zh": "九顶雪眉",
-"ru": "Цзюдинсюэмэй",
+"ru": "Цзюдин Сюэмэй",
 "native": null,
-"aliases": [],
+"aliases": [
+"Jiudingxuemei"
+],
 "category": "green",
 "country": "China",
 "region": "Sichuan · 达州市宣汉县",
@@ -6953,7 +6960,7 @@
 ],
 "category": "green",
 "country": "China",
-"region": "Chongqing",
+"region": "Chongqing · Kaizhou",
 "kind": "variety",
 "tier": 2,
 "existing_slug": null,
@@ -7050,12 +7057,14 @@
 ]
 },
 {
-"slug": "lumingyupian",
-"en": "Lumingyupian",
+"slug": "luming-yupian",
+"en": "Luming Yupian",
 "zh": "鹿鸣玉片",
-"ru": "Луминюйпянь",
+"ru": "Лумин Юйпянь",
 "native": null,
-"aliases": [],
+"aliases": [
+"Lumingyupian"
+],
 "category": "green",
 "country": "China",
 "region": "Sichuan · 宜宾市珙县",
@@ -7402,12 +7411,13 @@
 ]
 },
 {
-"slug": "madeng",
-"en": "Madeng",
+"slug": "madeng-cha",
+"en": "Madeng Cha",
 "zh": "马邓茶",
-"ru": "Мадэн",
+"ru": "Мадэн Ча",
 "native": null,
 "aliases": [
+"Madeng",
 "Madengcha",
 "马邓"
 ],
@@ -7616,7 +7626,7 @@
 "slug": "medog-tea",
 "en": "Medog Tea",
 "zh": "墨脱茶",
-"ru": null,
+"ru": "Мото Ча",
 "native": null,
 "aliases": [
 "Medog Green Tea",
@@ -7673,12 +7683,14 @@
 ]
 },
 {
-"slug": "meijiangcuipian",
-"en": "Meijiangcuipian",
+"slug": "meijiang-cuipian",
+"en": "Meijiang Cuipian",
 "zh": "湄江翠片",
-"ru": "Мэйцзянцуйпянь",
+"ru": "Мэйцзян Цуйпянь",
 "native": null,
-"aliases": [],
+"aliases": [
+"Meijiangcuipian"
+],
 "category": "green",
 "country": "China",
 "region": "Guizhou · 遵义市湄潭县",
@@ -8767,12 +8779,14 @@
 ]
 },
 {
-"slug": "nvwayinfeng",
-"en": "Nvwayinfeng",
+"slug": "nuwa-yinfeng",
+"en": "Nüwa Yinfeng",
 "zh": "女娲银峰",
-"ru": "Нюйваиньфэн",
+"ru": "Нюйва Иньфэн",
 "native": null,
-"aliases": [],
+"aliases": [
+"Nvwayinfeng"
+],
 "category": "green",
 "country": "China",
 "region": "Shaanxi · 安康市平利县",
@@ -9044,12 +9058,14 @@
 ]
 },
 {
-"slug": "pingshanlonghucui",
-"en": "Pingshanlonghucui",
+"slug": "pingshan-longhucui",
+"en": "Pingshan Longhucui",
 "zh": "屏山龙湖翠",
-"ru": "Пиншаньлунхуцуй",
+"ru": "Пиншань Лунхуцуй",
 "native": null,
-"aliases": [],
+"aliases": [
+"Pingshanlonghucui"
+],
 "category": "green",
 "country": "China",
 "region": "Sichuan · 宜宾市屏山县",
@@ -9395,7 +9411,7 @@
 ],
 "category": "green",
 "country": "China",
-"region": "Guizhou",
+"region": "Guizhou · Bijie Jinsha",
 "kind": "appellation",
 "tier": 2,
 "existing_slug": null,
@@ -9455,7 +9471,7 @@
 ],
 "category": "green",
 "country": "China",
-"region": "Yunnan",
+"region": "Yunnan · Baoshan Tengchong",
 "kind": "variety",
 "tier": 2,
 "existing_slug": null,
@@ -9995,8 +10011,8 @@
 ],
 "category": "green",
 "country": "China",
-"region": "Gansu",
-"kind": "recipe",
+"region": "Gansu · Lanzhou",
+"kind": "blend",
 "tier": 2,
 "existing_slug": null,
 "evidence": [
@@ -11221,12 +11237,14 @@
 ]
 },
 {
-"slug": "tiangangyinya",
-"en": "Tiangangyinya",
+"slug": "tiangang-yinya",
+"en": "Tiangang Yinya",
 "zh": "天岗银芽",
-"ru": "Тяньганинья",
+"ru": "Тяньган Инья",
 "native": null,
-"aliases": [],
+"aliases": [
+"Tiangangyinya"
+],
 "category": "green",
 "country": "China",
 "region": "Sichuan · 巴中市通江县",
@@ -11569,12 +11587,14 @@
 ]
 },
 {
-"slug": "weiyuanfulixueya",
-"en": "Weiyuanfulixueya",
+"slug": "weiyuanfu-lixueya",
+"en": "Weiyuanfu Lixueya",
 "zh": "威远复立雪芽",
-"ru": "Вэйюаньфулисюэя",
+"ru": "Вэйюаньфу Лисюэя",
 "native": null,
-"aliases": [],
+"aliases": [
+"Weiyuanfulixueya"
+],
 "category": "green",
 "country": "China",
 "region": "Sichuan · 内江市威远县",
@@ -12245,7 +12265,7 @@
 ],
 "category": "green",
 "country": "China",
-"region": "Hainan",
+"region": "Hainan · Haikou",
 "kind": "scented",
 "tier": 2,
 "existing_slug": null,
@@ -12993,12 +13013,14 @@
 ]
 },
 {
-"slug": "xuyongxiangming",
-"en": "Xuyongxiangming",
+"slug": "xuyong-xiangming",
+"en": "Xuyong Xiangming",
 "zh": "叙永香茗",
-"ru": "Сюйюнсянмин",
+"ru": "Сюйюн Сянмин",
 "native": null,
-"aliases": [],
+"aliases": [
+"Xuyongxiangming"
+],
 "category": "green",
 "country": "China",
 "region": "Sichuan · 泸州市叙永县",
@@ -13066,12 +13088,14 @@
 ]
 },
 {
-"slug": "yangaibilvchun",
-"en": "Yangaibilvchun",
+"slug": "yangai-biluchun",
+"en": "Yangai Bilüchun",
 "zh": "羊艾碧绿春",
-"ru": "Яньгайбилюйчунь",
+"ru": "Яньгай Билюйчунь",
 "native": null,
-"aliases": [],
+"aliases": [
+"Yangaibilvchun"
+],
 "category": "green",
 "country": "China",
 "region": "Guizhou · 贵阳市花溪区",
@@ -13083,12 +13107,14 @@
 ]
 },
 {
-"slug": "yangaisongbaichangqing",
-"en": "Yangaisongbaichangqing",
+"slug": "yangaisong-baichangqing",
+"en": "Yangaisong Baichangqing",
 "zh": "羊艾松柏常青",
-"ru": "Яньгайсунбайчанцин",
+"ru": "Яньгайсун Байчанцин",
 "native": null,
-"aliases": [],
+"aliases": [
+"Yangaisongbaichangqing"
+],
 "category": "green",
 "country": "China",
 "region": "Guizhou · 贵阳市花溪区",
@@ -13198,7 +13224,7 @@
 ],
 "category": "green",
 "country": "China",
-"region": "Guangxi",
+"region": "Guangxi · Laibin Xiangzhou",
 "kind": "cultivar",
 "tier": 2,
 "existing_slug": null,
@@ -13319,12 +13345,14 @@
 ]
 },
 {
-"slug": "yibinxufulongya",
-"en": "Yibinxufulongya",
+"slug": "yibinxu-fulongya",
+"en": "Yibinxu Fulongya",
 "zh": "宜宾叙府龙芽",
-"ru": "Ибиньсюйфулуня",
+"ru": "Ибиньсюй Фулуня",
 "native": null,
-"aliases": [],
+"aliases": [
+"Yibinxufulongya"
+],
 "category": "green",
 "country": "China",
 "region": "Sichuan · 宜宾市屏山县",
@@ -13531,12 +13559,14 @@
 ]
 },
 {
-"slug": "yizhoubiluochun",
-"en": "Yizhoubiluochun",
+"slug": "yizhou-biluochun",
+"en": "Yizhou Biluochun",
 "zh": "夷州碧螺春",
-"ru": "Ичжоубилочунь",
+"ru": "Ичжоу Билочунь",
 "native": null,
-"aliases": [],
+"aliases": [
+"Yizhoubiluochun"
+],
 "category": "green",
 "country": "China",
 "region": "Guizhou · 铜仁市石阡县",
@@ -13882,7 +13912,7 @@
 "country": "China",
 "region": null,
 "kind": "style",
-"tier": 2,
+"tier": 3,
 "existing_slug": null,
 "evidence": [
 "https://www.wikidata.org/wiki/Q15886055",
@@ -13924,7 +13954,7 @@
 "country": "China",
 "region": null,
 "kind": "style",
-"tier": 2,
+"tier": 3,
 "existing_slug": null,
 "evidence": [
 "https://sevencups.com/shop-category/green-tea/"
@@ -13965,12 +13995,14 @@
 ]
 },
 {
-"slug": "yunhaibaihao",
-"en": "Yunhaibaihao",
+"slug": "yunhai-baihao",
+"en": "Yunhai Baihao",
 "zh": "云海白毫",
-"ru": "Юньхайбайхао",
+"ru": "Юньхай Байхао",
 "native": null,
-"aliases": [],
+"aliases": [
+"Yunhaibaihao"
+],
 "category": "green",
 "country": "China",
 "region": "Yunnan · 西双版纳州勐海县",
@@ -14059,12 +14091,14 @@
 ]
 },
 {
-"slug": "yunlonghaofeng",
-"en": "Yunlonghaofeng",
+"slug": "yunlong-haofeng",
+"en": "Yunlong Haofeng",
 "zh": "云竜毫峰",
-"ru": "Юньлунхаофэн",
+"ru": "Юньлун Хаофэн",
 "native": null,
-"aliases": [],
+"aliases": [
+"Yunlonghaofeng"
+],
 "category": "green",
 "country": "China",
 "region": "Yunnan · 玉溪市新平县",
@@ -14525,7 +14559,7 @@
 "aliases": [],
 "category": "green",
 "country": "China",
-"region": "Shaanxi",
+"region": "Henan · Xinyang Zhenlei Shan",
 "kind": "variety",
 "tier": 2,
 "existing_slug": null,

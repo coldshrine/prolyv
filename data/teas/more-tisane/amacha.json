@@ -1,0 +1,57 @@
+{
+  "slug": "amacha",
+  "name_en": "Amacha (Hydrangea Sweet Tea)",
+  "name_native": "甘茶",
+  "name_romanized": "Amacha",
+  "name_zh": "甘茶",
+  "name_ru": "Ама-тя (гортензиевый чай)",
+  "aliases": [
+    "Ama-cha",
+    "Hydrangea tea",
+    "Amacha",
+    "甜茶",
+    "Аматя"
+  ],
+  "category": "tisane",
+  "origin_country": "Japan",
+  "origin_region": "Japan",
+  "cultivar": "Hydrangea macrophylla var. thunbergii (Amacha group)",
+  "processing": "Young leaves are steamed, rolled and dried; drying and related processing free the intensely sweet compounds phyllodulcin and isophyllodulcin. The dried leaf is then boiled in water.",
+  "form": "loose",
+  "harvest_season": "Young leaves are the ones gathered; specific dates are not well documented. The drink's traditional moment is April 8, for Buddha's Birthday.",
+  "appearance_dry": "Dark, crinkled, greenish-brown rolled leaves.",
+  "appearance_liquor": "Yellow-brown and clear.",
+  "appearance_wet": "Soft, dark olive leaves with the shape of a hydrangea leaf.",
+  "taste_profile": "Strikingly and lingeringly sweet, far beyond what the colour suggests, with a little of the tannin's dryness behind it.",
+  "taste_tags": [
+    "sweet",
+    "herbal"
+  ],
+  "brewing": {
+    "grams": 3,
+    "water_ml": 1000,
+    "temp_c": 100,
+    "steeps": 1,
+    "seconds": [
+      600
+    ],
+    "notes": "Keep it weak: Japan's health ministry advises boiling only 2 to 3 g of dried leaf in 1 litre of water. Strong brews have caused vomiting, so don't scale this up gongfu-style. The ten-minute time is a guide."
+  },
+  "caffeine_level": "none",
+  "vintage_note": "It isn't sold by vintage. It is a packaged dried leaf with demand around the Buddha's Birthday festival in April, and recent stock is what to buy. Check the plant on the label, since gynostemma products may use the same name.",
+  "description": "Amacha is Japan's sweet tea, made from the leaves of a sweet-leaved hydrangea and not from the tea plant. Its name simply means sweet tea. There is no sugar in it; the sweetness comes from phyllodulcin, roughly 400 to 800 times as sweet as table sugar.\n\nYoung leaves are steamed, rolled and dried. The processing is the key step, because it breaks down compounds in the fresh leaf and makes the sweet substances easy to extract. The result is a yellow-brown drink with no caffeine.\n\nBrew it weak, and this matters for safety. Over-concentrated amacha has caused group poisonings among children at flower festivals, so stick to about 2 to 3 g per litre of water.\n\nBuy from a tea or herb seller who names the plant. Most hydrangeas contain toxins and are not suitable, and only the Amacha group is used. Sweet-vine products from Gynostemma are a separate plant sold under the same name in Japan.",
+  "history": "Amacha is best known from kanbutsu-e, the April 8 Buddha's Birthday festival, when it is poured over small flower-decked Buddha statues. Earlier versions of the rite used fragrant waters; amacha took over in the Edo period, in a story tied to the sweet dew said to have bathed the newborn Buddha.\n\nFolk custom added a charm against insects, written with ink ground using amacha and posted upside down on a pillar. The plant also found work beyond the festival, in soy sauce brewing and as a sweetener for people with diabetes, and it was included in the 15th edition of the Japanese Pharmacopoeia.",
+  "wikipedia_title": "Amacha",
+  "wikipedia_scope": "exact",
+  "popularity": 2,
+  "liquor_hex": "#C9A14A",
+  "leaf_hex": "#5A5A32",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Amacha",
+    "https://ja.wikipedia.org/wiki/%E7%94%98%E8%8C%B6",
+    "https://www.wikidata.org/wiki/Q451683",
+    "https://en.wikipedia.org/wiki/Herbal_tea"
+  ],
+  "confidence": "high",
+  "images": []
+}

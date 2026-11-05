@@ -1,0 +1,62 @@
+{
+  "slug": "dianqing",
+  "name_en": "Dianqing",
+  "name_native": "滇青",
+  "name_romanized": "Diānqīng",
+  "name_zh": "滇青",
+  "name_ru": "Дянь Цин",
+  "aliases": [
+    "Dian Qing",
+    "Yunnan sun-dried green",
+    "Дяньцин",
+    "晒青毛茶"
+  ],
+  "category": "sheng",
+  "origin_country": "China",
+  "origin_region": "Yunnan",
+  "cultivar": "Yunnan large-leaf",
+  "processing": "Yunnan large-leaf tea is fired to stop oxidation, rolled and then dried in the sun; sun-drying is what separates it from oven-dried Dianlv.",
+  "form": "loose",
+  "harvest_season": "Mostly spring for the better material, as is usual for Yunnan tea; lots are also made in other seasons.",
+  "appearance_dry": "Long, coarse dark-green leaf with some silver tips, typical of sun-dried large-leaf maocha.",
+  "appearance_liquor": "Yellow to golden and clear.",
+  "appearance_wet": "Large, thick leaves, olive green when young.",
+  "taste_profile": "Typically strong and brisk with bitterness that resolves into sweetness, and a sun-dried, faintly hay-like aroma.",
+  "taste_tags": [
+    "bitter",
+    "brisk",
+    "grassy",
+    "sweet"
+  ],
+  "brewing": {
+    "grams": 6,
+    "water_ml": 110,
+    "temp_c": 90,
+    "steeps": 6,
+    "seconds": [
+      10,
+      10,
+      15,
+      20,
+      30,
+      45
+    ],
+    "notes": "Typical settings for young sheng material. Slightly cooler water and quick steeps tame the bitterness."
+  },
+  "caffeine_level": "high",
+  "vintage_note": "Sold loose by harvest year and often by area, usually as fresh maocha, or pressed into pu-erh that is then sold by year. It can be drunk young or stored; storage is what moves it towards aged character.",
+  "description": "Dianqing is Yunnan's sun-dried green tea, made from large-leaf bushes. It is both a tea in its own right and the raw base for pu-erh, and the sun is the point: it is what sets it apart from oven-dried Yunnan green tea, Dianlv.\n\nThe steps are simple: the leaf is fired, rolled and laid out to dry. Slow, cool drying leaves a tea that keeps changing with storage, which is why this material rather than oven-dried green tea goes into pressed pu-erh.\n\nIt tastes direct: strong, brisk and often bitter at first, with sweetness following. Use short steeps and don't take the bitterness as a flaw unless it lingers.\n\nIt is often sold as maocha under various names, and the terms overlap, so ask how it was dried. Oven-dried tea blended in is a common worry for pu-erh drinkers. Quality also varies by area.",
+  "history": "Sun-drying is described as the older way of handling tea in Yunnan, and oven-dried Dianlv took shape only in the middle and later twentieth century around the same large-leaf plants.\n\nThe term's exact boundaries are less tidy than they look. It is widely used for sun-dried large-leaf maocha, which serves as the base material for traditional pu-erh makers such as Xiaguan and Dayi, but no firm definition separating it from sun-dried maocha generally is well established.",
+  "liquor_hex": "#D4B65A",
+  "leaf_hex": "#4E5634",
+  "wikipedia_title": null,
+  "wikipedia_scope": "none",
+  "popularity": 3,
+  "sources": [
+    "https://www.yunnanexploration.com/?p=64773",
+    "https://www.spkx.net.cn/CN/Y2024/V45/I1/133",
+    "https://www.ihchina.cn/project_details/28520.html"
+  ],
+  "confidence": "medium",
+  "images": []
+}

@@ -1,0 +1,52 @@
+{
+  "slug": "kanaya-cha",
+  "name_en": "Kanaya-cha",
+  "name_native": "金谷茶",
+  "name_romanized": "Kanaya-cha",
+  "name_zh": "金谷茶",
+  "name_ru": "Каная-тя",
+  "aliases": [
+    "Kanaya tea"
+  ],
+  "category": "green",
+  "origin_country": "Japan",
+  "origin_region": "Shizuoka · Shimada · Kanaya",
+  "cultivar": null,
+  "processing": "Little is documented specifically for this name. Tea from the neighbouring Makinohara plateau is commonly deep-steamed sencha, and that is the likely style.",
+  "form": "loose",
+  "harvest_season": "Spring, as with other Shizuoka greens, with the first picking prized.",
+  "appearance_dry": "Typically short dark green leaf if deep-steamed, as is usual around Makinohara.",
+  "appearance_liquor": "Typically a deep, slightly cloudy green when deep-steamed.",
+  "appearance_wet": "Typically soft, fine green fragments.",
+  "taste_profile": "No specific notes are documented. Deep-steamed tea from around Makinohara is usually round and mild, with low astringency.",
+  "taste_tags": [
+    "vegetal",
+    "umami"
+  ],
+  "brewing": {
+    "grams": 5,
+    "water_ml": 150,
+    "temp_c": 75,
+    "steeps": 3,
+    "seconds": [
+      40,
+      10,
+      30
+    ],
+    "notes": "General guidance for a deep-steamed sencha; keep steeps short and use a fine strainer."
+  },
+  "caffeine_level": "medium",
+  "vintage_note": "No special practice is documented. As with other Shizuoka greens, expect the current year's spring tea, sold fresh. A shop label may also state the cultivar, which tells you more than the place name.",
+  "description": "Kanaya-cha is tea from Kanaya, now part of Shimada City in Shizuoka, at the foot of the Makinohara plateau beside the Oi river. Shimada lists it next to its better-known Shimada and Kawane teas.\n\nLittle is written about how it differs from its neighbours. Tea on the Makinohara side is commonly deep-steamed, so a cup is likely to be round, green and mild, with low astringency.\n\nBrew it as you would other deep-steamed sencha, with short steeps and a fine strainer. If the label says light steaming, go a little longer on the first steep.\n\nThe name carries no grade or legal definition that is easy to check, so read the label for the cultivar, the steaming and the harvest. Some of the local leaf also goes into Japanese black tea.",
+  "history": "Little is documented about Kanaya-cha as a distinct name. It is recorded among the local teas of Shizuoka. The wider story of the area is the Makinohara plateau, cleared for tea between the Edo and Meiji periods, and it probably shaped Kanaya too, though the details for this name are not well recorded.",
+  "liquor_hex": "#B4B84F",
+  "leaf_hex": "#56702E",
+  "sources": [
+    "https://ja.wikipedia.org/wiki/%E6%97%A5%E6%9C%AC%E8%8C%B6"
+  ],
+  "confidence": "low",
+  "images": [],
+  "wikipedia_title": "日本茶",
+  "wikipedia_scope": "umbrella",
+  "popularity": 2
+}

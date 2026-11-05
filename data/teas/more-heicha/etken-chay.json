@@ -1,0 +1,58 @@
+{
+  "slug": "etken-chay",
+  "name_en": "Etken Chay",
+  "name_native": "ئەتكەن چاي",
+  "name_romanized": "etken chay",
+  "aliases": [
+    "ئەتكەنچاي",
+    "әткән чай"
+  ],
+  "category": "heicha",
+  "origin_country": "China",
+  "origin_region": "Xinjiang",
+  "cultivar": null,
+  "form": "other",
+  "caffeine_level": "medium",
+  "brewing": {
+    "grams": 6,
+    "water_ml": 120,
+    "temp_c": 100,
+    "steeps": 6,
+    "seconds": [
+      15,
+      15,
+      20,
+      30,
+      45,
+      60
+    ],
+    "notes": "A safe starting point for dark tea: rinse once, boiling water, or simmer it the traditional way."
+  },
+  "taste_tags": [
+    "earthy",
+    "woody"
+  ],
+  "description": "A salted Uyghur milk tea from Xinjiang, made by boiling black tea and milk together in equal measure.\n\nThis is a way of preparing tea more than a tea you buy under one name, so the recipe and the base tea change from one maker to the next.",
+  "wikipedia_title": null,
+  "wikipedia_scope": "none",
+  "popularity": 1,
+  "name_zh": "新疆维吾尔咸奶茶",
+  "name_ru": "Эткен чай",
+  "history": "It is said to have reached China from India along the Silk Road, though this rests on tradition. It is usually served in a bowl with cake, sometimes topped with sesame seeds. Little more is documented about it.",
+  "liquor_hex": "#C4A07A",
+  "leaf_hex": "#3A2A1E",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Uyghur_cuisine",
+    "https://en.wikipedia.org/wiki/Butter_tea"
+  ],
+  "confidence": "low",
+  "images": [],
+  "stub": true,
+  "processing": "Equal parts black tea and milk are boiled together with salt; butter, sour cream or spices are sometimes added.",
+  "harvest_season": "Not tied to a harvest: it depends on the base tea.",
+  "appearance_dry": "Usually dark leaf, loose or pressed into bricks or baskets.",
+  "appearance_liquor": "Usually orange-red to dark brown.",
+  "appearance_wet": "Usually coarse dark leaf with some stem.",
+  "taste_profile": "Expect what dark teas usually give: smooth, woody and earthy.",
+  "vintage_note": "Not sold by vintage: it is made from whatever base tea the maker keeps, so freshness of the base matters more than the year."
+}

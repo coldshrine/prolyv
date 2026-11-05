@@ -1,0 +1,55 @@
+{
+  "slug": "lockhart-estate",
+  "name_en": "Lockhart",
+  "name_native": null,
+  "name_romanized": null,
+  "name_zh": "洛克哈特红茶",
+  "name_ru": "Локхарт",
+  "aliases": [
+    "Lockhart Estate",
+    "Lockhart Tea Estate",
+    "Munnar Lockhart"
+  ],
+  "category": "black",
+  "origin_country": "India",
+  "origin_region": "Kerala · Munnar",
+  "cultivar": null,
+  "processing": "The factory here uses orthodox methods only. Its range runs from a white tea through Orange Pekoe and TFP to fine dust.",
+  "form": "loose",
+  "harvest_season": "Picking dates are not well documented; like other Munnar gardens, it crops across much of the year.",
+  "appearance_dry": "Long dark strands in Orange Pekoe; much smaller particles in the lower grades.",
+  "appearance_liquor": "Bright reddish-amber in the leaf grades, as is typical of Munnar black tea.",
+  "appearance_wet": "Coppery-brown leaf, in larger pieces for Orange Pekoe.",
+  "taste_profile": "A brisk, bright cup in the broken grades and a harsher edge in the fine dust; Orange Pekoe is the longer-leaf, gentler option.",
+  "taste_tags": [
+    "brisk",
+    "malty",
+    "woody"
+  ],
+  "brewing": {
+    "grams": 3,
+    "water_ml": 250,
+    "temp_c": 95,
+    "steeps": 2,
+    "seconds": [
+      150,
+      210
+    ],
+    "notes": "Western-style for Orange Pekoe. Use a shorter steep for small grades, which extract fast and turn sharp."
+  },
+  "caffeine_level": "medium",
+  "vintage_note": "Mostly sold as a grade from the estate or its factory shop, usually without a stated flush. Treat it like other South Indian black tea: buy recent, drink within a year or two, and check the grade rather than just the estate name.",
+  "description": "Lockhart is one of the oldest tea gardens in the High Range around Munnar, in the Kannan Devan Hills, about 9 km from town on the Thekkady road. It is best known to visitors for its factory tour and tea museum.\n\nThe factory works in orthodox style, not CTC, which is less common than you might think in a company making both. A standard tasting here covers four teas: a delicate white, the longer strands of Orange Pekoe, a bright TFP and a rougher fine dust.\n\nThat makes it a good lesson in grades, because the same place can give very different cups. Taste them in order and you can see how leaf size drives strength. For a daily cup Orange Pekoe is a sensible pick, and the smaller grades take milk better.\n\nBeyond that tasting, little has been written about the character of the tea, so it helps to think of it as typical Munnar black tea rather than a distinctive single-origin rarity.",
+  "history": "Baron John Von Rosenberg and his son George Otto are credited with establishing the plantation in 1879, starting with cinchona, then coffee, and only later tea. It was among the first gardens in the High Range.\n\nThe present museum building dates from 1936, and it opened to the public on 22 January 2014, showing early machinery and photographs. The estate today belongs to Harrisons Malayalam Ltd, part of the RPG Group since 1988; it covers about 645 hectares and processes around 21 tonnes of tea a day.",
+  "liquor_hex": "#AE5E25",
+  "leaf_hex": "#40301F",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Lockhart_Tea_Museum",
+    "https://www.teaandcoffee.net/blog/34036/the-misty-tea-estates-of-munnar/"
+  ],
+  "confidence": "high",
+  "wikipedia_title": "Lockhart Tea Museum",
+  "wikipedia_scope": "umbrella",
+  "popularity": 2,
+  "images": []
+}

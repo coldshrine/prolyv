@@ -3,10 +3,16 @@
   "name_en": "Kenyan Orthodox Black Tea",
   "name_native": null,
   "name_romanized": null,
-  "aliases": ["Kenya orthodox", "Kenyan hand-rolled black", "Kenya OP", "Kenyan speciality black", "Kenya whole leaf black tea"],
+  "aliases": [
+    "Kenya orthodox",
+    "Kenyan hand-rolled black",
+    "Kenya OP",
+    "Kenyan speciality black",
+    "Kenya whole leaf black tea"
+  ],
   "category": "black",
   "origin_country": "Kenya",
-  "origin_region": "Central and Rift Valley highlands · Nandi Hills, Kericho, Nyeri, Kirinyaga, Meru",
+  "origin_region": "Rift Valley · Nandi Hills",
   "cultivar": "Kenyan clones (TRFK series) of Assam-type stock, with some Chinary plantings for speciality lots",
   "processing": "Fully oxidised orthodox manufacture: a longer wither than CTC, whole-leaf rolling, full oxidation and firing, then sorting into leaf grades; a small but growing share of Kenyan output, some of it hand-rolled at speciality factories.",
   "form": "loose",
@@ -15,13 +21,41 @@
   "appearance_liquor": "Bright copper-amber.",
   "appearance_wet": "Supple coppery leaf.",
   "taste_profile": "Fuller and sweeter than the CTC: malt, dark honey and dried fruit with a brisk, citrusy lift and a clean finish.",
-  "taste_tags": ["malty", "honey", "citrus", "brisk"],
-  "brewing": {"grams": 3, "water_ml": 200, "temp_c": 95, "steeps": 2, "seconds": [210, 300], "notes": "Just under the boil, 3–4 minutes; try it without milk first, and expect a second steep."},
+  "taste_tags": [
+    "malty",
+    "honey",
+    "citrus",
+    "brisk"
+  ],
+  "brewing": {
+    "grams": 3,
+    "water_ml": 200,
+    "temp_c": 95,
+    "steeps": 2,
+    "seconds": [
+      210,
+      300
+    ],
+    "notes": "Just under the boil, 3–4 minutes; try it without milk first, and expect a second steep."
+  },
   "caffeine_level": "high",
-  "vintage_note": "Sold mainly by direct trade and speciality importers as named-factory lots, sometimes with a plucking month (Kangaita, a KTDA factory in Kirinyaga, Emrok in Nandi and several cooperative factories are names that come up); a few orthodox grades also pass through the Mombasa auction. Buy the current year's lot and use within about 18 months.",
-  "description": "Kenyan orthodox is the small but growing share of Kenya's tea that is rolled whole rather than cut into CTC granules: long, twisted black leaf from the same equatorial highlands around Nandi, Kericho, Nyeri and Meru that supply the world's tea bags. It exists because a few factories and smallholder groups realised that the bright, theaflavin-rich Kenyan leaf, given a longer wither and gentler handling, makes a speciality tea that can stand next to an Assam or a Ceylon.\n\nManufacture is conventional orthodox: a longer wither than CTC, whole-leaf rolling, full oxidation and firing, then sorting into leaf grades; some of the speciality factories hand-roll small lots, and the same places often make white, green and purple teas on the side. The leaf is plucked year-round, and the dry-season lots are brighter and more aromatic.\n\nThe cup is bright copper-amber, fuller and sweeter than the CTC: malt, dark honey and dried fruit with a brisk, citrusy lift and a clean finish. Brew it with water just under the boil for three to four minutes, try it without milk first, and expect a second steep.\n\nIt is sold mainly by direct trade and speciality importers as named-factory lots, sometimes with a plucking month; Kangaita (a KTDA factory in Kirinyaga), Emrok in Nandi and several cooperative factories are names that come up, and a few orthodox grades also pass through the Mombasa auction. Buy the current year's lot and use it within eighteen months.\n\nA good tea for anyone who dismissed Kenya as 'tea-bag country'; the leaf was always this good, it was just cut up.",
+  "vintage_note": "Sold mainly by direct trade and speciality importers as named-factory lots, sometimes with a plucking month (Kangaita, a KTDA factory in Kirinyaga, Emrok in Nandi and other KTDA-managed factories with orthodox lines are names that come up); a few orthodox grades also pass through the Mombasa auction. Buy the current year's lot and use within about 18 months.",
+  "description": "Kenyan orthodox is the small but growing share of Kenya's tea that is rolled whole rather than cut into CTC granules: long, twisted black leaf from the same equatorial highlands around Nandi, Kericho, Nyeri and Meru that supply the world's tea bags. It exists because a few factories and smallholder groups realised that the bright, theaflavin-rich Kenyan leaf, given a longer wither and gentler handling, makes a speciality tea that can stand next to an Assam or a Ceylon.\n\nManufacture is conventional orthodox: a longer wither than CTC, whole-leaf rolling, full oxidation and firing, then sorting into leaf grades; some of the speciality factories hand-roll small lots, and the same places often make white, green and purple teas on the side. The leaf is plucked year-round, and the dry-season lots are brighter and more aromatic.\n\nThe cup is bright copper-amber, fuller and sweeter than the CTC: malt, dark honey and dried fruit with a brisk, citrusy lift and a clean finish. Brew it with water just under the boil for three to four minutes, try it without milk first, and expect a second steep.\n\nIt is sold mainly by direct trade and speciality importers as named-factory lots, sometimes with a plucking month; Kangaita, a KTDA factory in Kirinyaga, Emrok in Nandi and other KTDA-managed factories with orthodox lines are names that come up, and a few orthodox grades also pass through the Mombasa auction. Buy the current year's lot and use it within eighteen months.\n\nA good tea for anyone who dismissed Kenya as 'tea-bag country'; the leaf was always this good, it was just cut up.",
   "wikipedia_title": "Tea production in Kenya",
   "wikipedia_scope": "umbrella",
   "popularity": 2,
-  "sources_note": "Factory names (Kangaita, Emrok) from memory."
+  "sources_note": "Factory names (Kangaita, Emrok) from memory.",
+  "name_zh": "肯尼亚传统工艺红茶",
+  "name_ru": "Кенийский чёрный ортодокс",
+  "history": "Kenya's tea export trade is built on CTC, which made up 98 percent of its exports in 2023 by one promotional account.\n\nEmrok in Nandi is the name most often cited. Its Ogirgir estate was first planted in 1962, and accounts differ on whether the orthodox factory dates from 2002 or 2012.\n\nThe smallholder sector moved later. KTDA-managed factories made 2.0 million kg of orthodox in the year to June 2020, up from 1.6 million, with 10 factories by then having installed lines, Kangaita among them.",
+  "liquor_hex": "#AD5A1F",
+  "leaf_hex": "#2B2119",
+  "sources": [
+    "https://www.the-star.co.ke/business/kenya/2020-08-11-orthodox-teas-production-up-25/",
+    "https://www.the-star.co.ke/news/2020-03-06-ktda-pushes-for-more-orthodox-tea-factories",
+    "https://stir-tea-coffee.com/features/emrok-modern-approach-to-orthodox/",
+    "https://standardmedia.co.ke/testbed/business/amp/branding-voice/article/2001496339/unlocking-growth-the-vital-role-of-orthodox-tea-in-kenyas-thriving-tea-sector"
+  ],
+  "confidence": "medium",
+  "images": []
 }

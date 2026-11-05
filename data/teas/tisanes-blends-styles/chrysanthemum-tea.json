@@ -3,10 +3,24 @@
   "name_en": "Chrysanthemum Tea (Ju Hua)",
   "name_native": "菊花茶",
   "name_romanized": "Júhuā chá",
-  "aliases": ["Ju hua", "Juhua cha", "Hangbaiju", "Hang Bai Ju", "Gongju", "Taiju", "Chrysanthemum flower tea", "Guk hwa cha"],
+  "aliases": [
+    "Ju hua",
+    "Juhua cha",
+    "Hangbaiju",
+    "Hang Bai Ju",
+    "Gongju",
+    "Taiju",
+    "Chrysanthemum flower tea",
+    "Guk hwa cha",
+    "Gukhwacha",
+    "杭白菊",
+    "贡菊",
+    "Цзюй Хуа Ча",
+    "Гукхвача"
+  ],
   "category": "tisane",
   "origin_country": "China",
-  "origin_region": "Zhejiang · Tongxiang (Hangbaiju) and Anhui · Huangshan (Gongju); also Hubei and Henan",
+  "origin_region": "Zhejiang · Tongxiang",
   "cultivar": "Chrysanthemum × morifolium; tea types include Hangbaiju (white, Hangzhou style), Gongju (Huangshan 'tribute' chrysanthemum), Taiju (unopened buds) and yellow Huangju",
   "processing": "Flowers are picked by hand when open (or as tight buds for taiju), then either steamed briefly and sun-dried, the traditional Hangbaiju method, or dried straight away in low-heat ovens; good lots are never bleached.",
   "form": "loose",
@@ -15,12 +29,89 @@
   "appearance_liquor": "Pale straw-yellow, clear, with a faint oiliness on the surface.",
   "appearance_wet": "The flowers rehydrate and open fully, looking almost fresh.",
   "taste_profile": "Honeyed and lightly floral with hay and a cooling, faintly bitter herbal finish; a little rock sugar or a few goji berries is the classic way to round it.",
-  "taste_tags": ["floral", "honey", "herbal", "sweet"],
-  "brewing": {"grams": 2, "water_ml": 250, "temp_c": 90, "steeps": 3, "seconds": [180, 240, 300], "notes": "4–6 whole flowers per cup or glass, water around 90 °C, 3 minutes; the same flowers take two or three refills. Traditionally brewed in a tall glass so you can watch the flowers open, often with goji berries and rock sugar, or added to a pot of ripe pu-erh (ju pu)."},
+  "taste_tags": [
+    "floral",
+    "honey",
+    "herbal",
+    "sweet"
+  ],
+  "brewing": {
+    "grams": 2,
+    "water_ml": 250,
+    "temp_c": 90,
+    "steeps": 3,
+    "seconds": [
+      180,
+      240,
+      300
+    ],
+    "notes": "4–6 whole flowers per cup or glass, water around 90 °C, 3 minutes; the same flowers take two or three refills. Traditionally brewed in a tall glass so you can watch the flowers open, often with goji berries and rock sugar, or added to a pot of ripe pu-erh (ju pu)."
+  },
   "caffeine_level": "none",
-  "vintage_note": "Sold as the current year's autumn harvest and drunk through the following year; Chinese sellers usually state the harvest year and the type, with taiju (buds) and large single flowers from Huangshan, sold one flower per cup, at the top of the price range and small broken Hangbaiju at the bottom. Flowers lose colour and aroma within 12–18 months, so a pack should look ivory, not brown. Unnaturally bright white flowers with a sharp chemical smell have usually been sulfur-fumed to preserve colour; avoid them.",
-  "description": "Chrysanthemum tea is one of the oldest flower infusions in China and still one of the most common: whole dried chrysanthemum heads in a tall glass, topped with hot water, often with a few goji berries and a lump of rock sugar. It is drunk as a cooling counterpart to rich food, and in Guangdong and Hong Kong it sits on the table beside the pu-erh.\n\nThe flowers come from special tea cultivars rather than garden chrysanthemums, and the processing is simple but decisive: picked when the heads are open, briefly steamed in the Hangzhou tradition or dried straight away, and gently dried so the petals keep their ivory colour. The buds picked before they open, taiju, are a separate, more delicate grade; Huangshan's gongju are large single flowers that brew one to a cup.\n\nThe cup is pale gold and tastes of honey and hay with a cooling herbal edge and a slight bitterness at the end. Water just under the boil and three minutes is plenty; the same flowers take two or three refills. Most people add rock sugar, and the pairing with ripe pu-erh (ju pu) is a Cantonese classic worth trying with any shu you have.\n\nIt is sold by the autumn harvest and should be bought fresh: look for a stated year, intact flowers that are ivory rather than brown, and no chemical smell, since cheap lots are sometimes sulfur-treated to stay white. Hangbaiju from Tongxiang and gongju from Huangshan are the well-known origins, and reputable shops name them.\n\nIt has been used traditionally as a cooling drink for tired eyes and hot weather; whatever you make of that, it is a lovely evening infusion on its own, and a small handful dropped into a pot of shu pu-erh changes the whole tea.",
+  "vintage_note": "Sold as the current year's autumn harvest and drunk through the following year; Chinese sellers usually state the harvest year and the type, with taiju (buds) and very large single flowers, sold one flower per cup, at the top of the price range and small broken Hangbaiju at the bottom. Flowers lose colour and aroma within 12–18 months, so a pack should look ivory, not brown. Unnaturally bright white flowers with a sharp chemical smell have usually been sulfur-fumed to preserve colour; avoid them.",
+  "description": "Chrysanthemum tea is one of the oldest flower infusions in China and still one of the most common: whole dried chrysanthemum heads in a tall glass, topped with hot water, often with a few goji berries and a lump of rock sugar. It is drunk as a cooling counterpart to rich food, and in Guangdong and Hong Kong it sits on the table beside the pu-erh.\n\nThe flowers come from special tea cultivars rather than garden chrysanthemums, and the processing is simple but decisive: picked when the heads are open, briefly steamed in the Hangzhou tradition or dried straight away, and gently dried so the petals keep their ivory colour. The buds picked before they open, taiju, are a separate, more delicate grade; Huangshan's gongju is the other famous named type, and very large single flowers are also sold to brew one to a cup.\n\nThe cup is pale gold and tastes of honey and hay with a cooling herbal edge and a slight bitterness at the end. Water just under the boil and three minutes is plenty; the same flowers take two or three refills. Most people add rock sugar, and the pairing with ripe pu-erh (ju pu) is a Cantonese classic worth trying with any shu you have.\n\nIt is sold by the autumn harvest and should be bought fresh: look for a stated year, intact flowers that are ivory rather than brown, and no chemical smell, since cheap lots are sometimes sulfur-treated to stay white. Hangbaiju from Tongxiang and gongju from Huangshan are the well-known origins, and reputable shops name them.\n\nIt has been used traditionally as a cooling drink for tired eyes and hot weather; whatever you make of that, it is a lovely evening infusion on its own, and a small handful dropped into a pot of shu pu-erh changes the whole tea.",
   "wikipedia_title": "Chrysanthemum tea",
   "wikipedia_scope": "exact",
-  "popularity": 4
+  "popularity": 4,
+  "name_zh": "菊花茶",
+  "name_ru": "Хризантемовый чай",
+  "history": "Chrysanthemum began in China as a medicinal plant. Records of its cultivation for medicine go back more than two thousand years, and some accounts push growing it as a herb to around 1500 BCE. The herbals treat it seriously: the Shennong Bencao Jing and later the Bencao Gangmu both describe its uses, and traditional medicine still gives it to people with tired eyes. Drinking it as a tea is said to have caught on in the Song dynasty.\n\nOver time certain places became known for their own flowers. Four names recur: gongju from Huangshan, hangbaiju from Tongxiang near Hangzhou, chuju from Chuzhou and boju from Bozhou, the last two in Anhui. Gongju and hangbaiju are the most popular, and Henan, Sichuan and Jiangxi have local types too.\n\nKorea has a line of its own, gukhwacha, made from Indian chrysanthemum picked before it opens. The encyclopedist Yi Gyu-gyeong (1788 to 1856) recorded recipes with honey and with flowers rolled in starch. In Hong Kong, Vitasoy launched the city's first packaged chrysanthemum tea in 1978.",
+  "liquor_hex": "#E8D67E",
+  "leaf_hex": "#E2D5A0",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Chrysanthemum_tea",
+    "https://zh.wikipedia.org/wiki/%E8%8F%8A%E8%8A%B1%E8%8C%B6",
+    "https://ja.wikipedia.org/wiki/%E8%8F%8A%E8%8A%B1",
+    "https://ko.wikipedia.org/wiki/%EA%B5%AD%ED%99%94%EC%B0%A8",
+    "https://zh.wikipedia.org/wiki/%E7%B6%AD%E4%BB%96"
+  ],
+  "confidence": "high",
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/73/Chrysanthemum_tea.JPG/1280px-Chrysanthemum_tea.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/73/Chrysanthemum_tea.JPG/330px-Chrysanthemum_tea.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Chrysanthemum_tea.JPG",
+      "author": "Taman Renyah",
+      "license": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "kind": "liquor",
+      "alt": "Cup of pale yellow chrysanthemum tea with whole flowers floating in it"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/3/39/Chrysanthemumtea.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/39/Chrysanthemumtea.jpg/330px-Chrysanthemumtea.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Chrysanthemumtea.jpg",
+      "author": "Original uploader was Benjwong at en.wikipedia",
+      "license": "CC BY-SA 2.5",
+      "license_url": "https://creativecommons.org/licenses/by-sa/2.5",
+      "kind": "wet_leaf",
+      "alt": "Steeped whole chrysanthemum flowers inside an open teapot"
+    }
+  ],
+  "i18n": {
+    "ru": {
+      "processing": "Цветы собирают вручную, когда они раскрылись (или тугими бутонами для тайцзюй), затем либо ненадолго пропаривают и сушат на солнце — традиционный метод ханбайцзюй, либо сразу сушат в печах на слабом огне; хорошие партии никогда не отбеливают.",
+      "harvest_season": "Поздняя осень, с октября по ноябрь, когда растения цветут; собирают две-три недели, причём больше всего ценятся ранние, полностью сформировавшиеся цветы.",
+      "appearance_dry": "Целые сухие соцветия, лепестки от цвета слоновой кости до бледно-жёлтого вокруг золотистой серединки, лёгкие и слегка хрупкие; тайцзюй — маленькие бледные закрытые бутоны.",
+      "appearance_liquor": "Бледный соломенно-жёлтый, прозрачный, с едва заметной маслянистостью на поверхности.",
+      "appearance_wet": "Цветы набирают воду и полностью раскрываются, выглядят почти свежими.",
+      "taste_profile": "Медовый, легко цветочный, с нотами сена и прохладным, чуть горьковатым травяным послевкусием; классический способ его округлить — немного кускового сахара или несколько ягод годжи.",
+      "vintage_note": "Продают как осенний урожай текущего года и пьют весь следующий год; китайские продавцы обычно указывают год сбора и тип, причём тайцзюй (бутоны) и очень крупные одиночные цветы, которые продаются по цветку на чашку, стоят дороже всего, а мелкий ломаный ханбайцзюй дешевле всего. За 12–18 месяцев цветы теряют цвет и аромат, так что содержимое упаковки должно быть цвета слоновой кости, а не коричневым. Неестественно ярко-белые цветы с резким химическим запахом обычно окурены серой для сохранения цвета; таких лучше избегать.",
+      "history": "В Китае хризантема начиналась как лекарственное растение. Записи о её выращивании для медицины уходят в прошлое более чем на две тысячи лет, а некоторые источники относят её культивирование как лекарственной травы примерно к 1500 году до н. э. Травники относятся к ней серьёзно: её применение описывают и «Шэнь-нун бэнь цао цзин», и позднее «Бэнь цао ган му», а традиционная медицина до сих пор даёт её людям с усталыми глазами. Как чай её, говорят, стали пить при династии Сун.\n\nСо временем отдельные места прославились своими цветами. Постоянно повторяются четыре названия: гунцзюй из Хуаншаня, ханбайцзюй из Тунсяна близ Ханчжоу, чуцзюй из Чучжоу и боцзюй из Бочжоу, последние два — из Аньхоя. Самые популярные — гунцзюй и ханбайцзюй, а свои местные типы есть также в Хэнани, Сычуани и Цзянси.\n\nВ Корее есть собственная линия, кукхвача, из индийской хризантемы, собранной до раскрытия. Энциклопедист Ли Гю Гён (1788–1856) записал рецепты с мёдом и с цветами, обвалянными в крахмале. В Гонконге компания Vitasoy выпустила первый в городе упакованный хризантемовый чай в 1978 году.",
+      "description": "Хризантемовый чай — один из древнейших цветочных настоев Китая и по сей день один из самых распространённых: целые сухие соцветия в высоком стакане, залитые горячей водой, часто с несколькими ягодами годжи и кусочком кускового сахара. Его пьют как охлаждающий противовес жирной еде, а в Гуандуне и Гонконге он стоит на столе рядом с пуэром.\n\nЦветы берут от особых чайных культиваров, а не от садовых хризантем, и обработка проста, но решающа: соцветия собирают раскрывшимися, по ханчжоуской традиции ненадолго пропаривают или сразу сушат, причём бережно, чтобы лепестки сохранили цвет слоновой кости. Бутоны, собранные до раскрытия, тайцзюй, — отдельный, более нежный сорт; другой знаменитый тип с собственным названием — хуаншаньский гунцзюй, а ещё продают очень крупные одиночные цветы, которые заваривают по одному на чашку.\n\nНастой бледно-золотой, на вкус это мёд и сено с прохладной травяной ноткой и лёгкой горчинкой в конце. Воды чуть ниже кипения и трёх минут вполне достаточно; те же цветы выдержат две-три доливки. Большинство добавляет кусковой сахар, а сочетание с шу пуэром (цзюй пу) — кантонская классика, которую стоит попробовать с любым шу, какой у вас есть.\n\nПродают его по осеннему урожаю, и покупать надо свежим: ищите указанный год, целые цветы цвета слоновой кости, а не коричневые, и отсутствие химического запаха, поскольку дешёвые партии иногда обрабатывают серой, чтобы оставались белыми. Известные места происхождения — ханбайцзюй из Тунсяна и гунцзюй из Хуаншаня, и солидные магазины их называют.\n\nТрадиционно его использовали как охлаждающий напиток при усталости глаз и в жару; что бы вы об этом ни думали, это чудесный вечерний настой и сам по себе, а небольшая горсть цветов в чайнике шу пуэра меняет весь чай.",
+      "brewing_notes": "4–6 целых цветов на чашку или стакан, вода около 90 °C, 3 минуты; те же цветы выдержат две-три доливки. Традиционно заваривают в высоком стакане, чтобы видеть, как раскрываются цветы, часто с ягодами годжи и кусковым сахаром, или добавляют в чайник шу пуэра (цзюй пу)."
+    },
+    "zh": {
+      "processing": "花朵在开放时手工采摘(胎菊则采紧实的花蕾),之后或短暂蒸制再晒干,这是杭白菊的传统做法,或立即低温烘干;好的批次绝不漂白。",
+      "harvest_season": "深秋10月至11月花开时采摘,采期两三周,以早期发育饱满的花朵为贵。",
+      "appearance_dry": "完整的干燥花头,象牙白至淡黄的花瓣围绕金色花心,轻盈微脆;胎菊则是小而色浅的闭合花蕾。",
+      "appearance_liquor": "汤色淡麦秆黄,清澈,表面有一层隐约的油光。",
+      "appearance_wet": "花朵吸水后完全舒展,看上去几乎像鲜花。",
+      "taste_profile": "蜜香,带淡淡花香和干草气息,收尾有清凉微苦的草本感;经典的调和方法是加一点冰糖或几粒枸杞。",
+      "vintage_note": "按当年秋季新花出售,喝到次年;中国卖家通常会标明采收年份和品类,胎菊(花蕾)和一杯一朵出售的特大单朵菊价格最高,细碎的杭白菊最便宜。花朵12至18个月内就会失去色泽和香气,所以包装里应是象牙白,而不是褐色。白得不自然、带刺鼻化学味的花,通常用硫磺熏过以保色,应避开。",
+      "history": "菊花在中国最初是药用植物。药用栽培的记载可追溯到两千多年前,也有说法将其作为药草种植的历史推到公元前1500年前后。本草典籍对它十分重视:《神农本草经》和后来的《本草纲目》都记述了它的用途,传统医学至今仍用它来缓解眼睛疲劳。据说把它当茶喝的风气始于宋代。\n\n后来,一些地方逐渐以各自的菊花闻名。常被提到的有四个名字:黄山贡菊、杭州附近桐乡的杭白菊、滁州滁菊和亳州亳菊,后两者都在安徽。贡菊和杭白菊最受欢迎,河南、四川和江西也有各自的地方品种。\n\n韩国有自己的一脉,即菊花茶(gukhwacha),用未开放时采摘的野菊制成。百科学者李圭景(1788—1856)记录过加蜂蜜以及将花裹上淀粉的做法。在香港,维他奶于1978年推出了全港首款包装菊花茶。",
+      "description": "菊花茶是中国最古老的花草茶之一,至今仍极为常见:整朵干菊花放进高杯,冲入热水,常常再加几粒枸杞和一块冰糖。人们喝它来解油腻、降火,在广东和香港,它就摆在桌上,和普洱并列。\n\n花朵来自专门的茶用品种,而非园艺菊花,工艺简单却很关键:花头开放时采摘,按杭州传统短暂蒸制或立即干燥,再轻柔烘干,让花瓣保持象牙白。开放前采摘的花蕾即胎菊,是单独的一个更细嫩的等级;黄山贡菊是另一个著名品类,还有一杯泡一朵的特大单朵菊出售。\n\n茶汤淡金色,有蜜和干草的味道,带清凉的草本感,尾韵微苦。水温略低于沸点,泡三分钟足够;同一批花还能续水两三次。多数人会加冰糖,而与熟普搭配的菊普是广东的经典喝法,不妨用手头任何一款熟普试试。\n\n它按秋季新花出售,应该买新鲜的:要看有没有标明年份,花朵是否完整、呈象牙白而非褐色,有没有化学味,因为廉价货有时会用硫磺处理以保持白色。桐乡杭白菊和黄山贡菊是知名产地,靠谱的店家会写明。\n\n传统上它被用作清凉饮品,缓解眼睛疲劳、消暑;不管你怎么看这些说法,单独喝它就是一杯美妙的晚间花草茶,而往一壶熟普里丢一小把,整壶茶都会变样。",
+      "brewing_notes": "每杯4至6朵整花,水温约90 °C,泡3分钟;同一批花可续水两三次。传统上用高杯冲泡,好看花朵舒展,常加枸杞和冰糖,也可加入一壶熟普中(菊普)。"
+    }
+  }
 }

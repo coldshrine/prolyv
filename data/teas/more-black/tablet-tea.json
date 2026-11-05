@@ -1,0 +1,60 @@
+{
+  "slug": "tablet-tea",
+  "name_en": "Tablet Tea",
+  "name_native": "紧压茶",
+  "name_romanized": "Jǐnyā Chá",
+  "name_zh": "紧压茶",
+  "name_ru": "Плиточный чай",
+  "aliases": [
+    "Plate tea",
+    "Slab tea",
+    "Compressed tea",
+    "緊壓茶",
+    "Брикетированный чай"
+  ],
+  "category": "black",
+  "origin_country": "China",
+  "origin_region": "Hubei · Hankou",
+  "cultivar": null,
+  "processing": "Crumbs and siftings left from grading loose tea are steamed and pressed into thin slabs up to 2 cm thick, or into small tablets of 2 to 5 g.",
+  "form": "brick",
+  "harvest_season": "Not tied to a picking: it is made from sorting residues of loose tea, so the season of the raw material does not matter on the label.",
+  "appearance_dry": "Smooth, dense, dark slab with fine even texture, often with a pressed pattern.",
+  "appearance_liquor": "Dark reddish brown and rather opaque when strongly brewed.",
+  "appearance_wet": "Fine dark sediment rather than recognisable leaves.",
+  "taste_profile": "Typically plain, strong and a little rough: a dark, brisk brew made for milk, salt or sugar rather than for sipping on its own.",
+  "taste_tags": [
+    "brisk",
+    "woody",
+    "bitter"
+  ],
+  "brewing": {
+    "grams": 5,
+    "water_ml": 300,
+    "temp_c": 100,
+    "steeps": 1,
+    "seconds": [
+      300
+    ],
+    "notes": "Break or shave off a piece. Compressed tea is traditionally boiled rather than steeped, often with milk, and a longer simmer does no harm."
+  },
+  "caffeine_level": "medium",
+  "vintage_note": "Sold by weight and grade rather than by year. Soviet black tablet tea came in top, first, second and third grades, with slabs of 100, 150 or 250 g. It keeps well because it is dense, but it is not an ageing tea in the pu-erh sense.",
+  "description": "Tablet tea, plitochny chai to Russian speakers, is black tea dust pressed into a thin slab. Think of it as the tidy, factory cousin of brick tea: the raw material is not coarse leaf but the crumbs and siftings left when loose tea is sorted.\n\nThat changes everything in the cup. Fine particles pressed hard make a dense, stable block that travels well and gives up strength fast once broken up. Slabs weigh 100, 150 or 250 g and are no more than 2 cm thick; the same material can also be shaped into small tablets of a few grams.\n\nIt is not a tea to analyse. Shave off a little, boil or steep it strongly, and add milk or sugar the way it has generally been drunk. If you drink it plain, expect force more than fragrance.\n\nThe Russian word is often stretched to cover all pressed tea, including green brick. Strictly, tablet tea means this fine-particle slab, while kirpichny (brick) tea is the coarser leaf-and-stem product. Today you will mostly meet it as a nostalgic or souvenir item, so judge it by a clean smell and no mustiness.",
+  "history": "Compressed tea in general is old: it was the main form of tea in China before the Ming dynasty, and travelled by caravan because it was compact and tough. Tablet tea from fine residues is a later, industrial branch.\n\nRussian accounts credit the first industrial production of tablet tea in China to the merchant P. A. Ponomarev, in Hankou in 1876.\n\nIn the Soviet Union black tablet tea was produced in four grades, and from the 1950s to 1970 tablet and brick tea were among the teas the country exported, going mainly to Asia.",
+  "liquor_hex": "#6E2F14",
+  "leaf_hex": "#2A1C14",
+  "sources": [
+    "https://ru.wikipedia.org/wiki/%D0%9F%D1%80%D0%B5%D1%81%D1%81%D0%BE%D0%B2%D0%B0%D0%BD%D0%BD%D1%8B%D0%B9_%D1%87%D0%B0%D0%B9",
+    "https://en.wikipedia.org/wiki/Compressed_tea",
+    "https://zh.wikipedia.org/wiki/%E7%B4%A7%E5%8E%8B%E8%8C%B6",
+    "https://ru.wikipedia.org/wiki/%D0%A7%D0%B0%D0%B9_%D0%B2_%D0%A0%D0%BE%D1%81%D1%81%D0%B8%D0%B8",
+    "https://www.wikidata.org/wiki/Q1204167"
+  ],
+  "confidence": "medium",
+  "wikipedia_title": "Compressed tea",
+  "wikipedia_scope": "umbrella",
+  "popularity": 2,
+  "sources_note": "name_zh 紧压茶 is the broader class; Chinese has no separate established term for this fine-particle slab that was confirmed.",
+  "images": []
+}

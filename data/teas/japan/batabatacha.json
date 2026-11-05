@@ -3,25 +3,68 @@
   "name_en": "Batabatacha",
   "name_native": "バタバタ茶",
   "name_romanized": "Batabatacha",
-  "aliases": ["Bata bata cha", "Toyama kurocha", "Birudani batabatacha", "Asahi batabatacha", "Whisked bancha"],
+  "aliases": [
+    "Bata bata cha",
+    "Toyama kurocha",
+    "Birudani batabatacha",
+    "Asahi batabatacha",
+    "Whisked bancha",
+    "ばたばた茶"
+  ],
   "category": "heicha",
   "origin_country": "Japan",
-  "origin_region": "Toyama · Asahi (Birudani)",
+  "origin_region": "Toyama · Asahi",
   "cultivar": "Seed-grown zairai bushes and ordinary summer leaf",
-  "processing": "Mature leaves are steamed or boiled, piled in a warm room for a few weeks so moulds ferment the heap, then dried; the finished dark tea (Toyama kurocha) is boiled, poured into a bowl with a pinch of salt and whisked to a froth with a double-headed bamboo whisk.",
+  "processing": "Late-season leaves with twigs are steamed and rolled, then piled for 20 to 24 days, turned whenever the heap reaches about 60 °C, and sun-dried for around three days; the finished dark tea (Toyama kurocha) is boiled, poured into a bowl with a pinch of salt and whisked to a froth with a pair of bamboo whisks.",
   "form": "loose",
-  "harvest_season": "Summer and early-autumn leaf from the current year; the tea is made in autumn and drunk through the year.",
+  "harvest_season": "Late leaf picked in September with its small twigs, after the July second flush has regrown; the tea is finished that autumn and drunk through the year.",
   "appearance_dry": "Coarse, dark brown to black leaf pieces and stems, dry and crumbly, smelling faintly of hay and cellar.",
   "appearance_liquor": "Reddish-brown and clear before whisking, then topped with a dense pale foam.",
   "appearance_wet": "Dark, limp, fully brown leaves.",
   "taste_profile": "Mild, earthy and slightly musty with a savoury, soft body and a faint sweetness; the salt-and-foam serve makes it taste almost like a light broth.",
-  "taste_tags": ["earthy", "woody", "umami", "medicinal"],
-  "brewing": {"grams": 10, "water_ml": 1000, "temp_c": 100, "steeps": 1, "seconds": [600], "notes": "Simmer the leaf in a kettle for ten minutes or so, pour into a wide bowl, add a pinch of salt and whisk briskly with the paired 'meoto' chasen until it foams; drink foam and liquid together. The leaf can be topped up with water and simmered again."},
+  "taste_tags": [
+    "earthy",
+    "woody",
+    "umami",
+    "medicinal"
+  ],
+  "brewing": {
+    "grams": 10,
+    "water_ml": 1000,
+    "temp_c": 100,
+    "steeps": 1,
+    "seconds": [
+      600
+    ],
+    "notes": "Simmer the leaf in a kettle for ten minutes or so, pour into a wide bowl, add a pinch of salt and whisk briskly with the paired 'meoto' chasen until it foams; drink foam and liquid together. The leaf can be topped up with water and simmered again."
+  },
   "caffeine_level": "low",
-  "vintage_note": "Made from the current year's summer leaf by a very small number of producers around Asahi town and sold locally and by a few specialist shops in bags with the production year; it is a dried fermented tea that keeps a year or more and is not aged on purpose. Buy it with the double whisk if you want the real ritual.",
-  "description": "Batabatacha is a fermented tea from Asahi on the Toyama coast, drunk in a way found nowhere else in Japan: boiled, poured into a bowl with a pinch of salt and whisked into a thick foam with a double-headed bamboo whisk, which makes the 'bata-bata' sound that gives it its name. The tea itself is a mould-fermented dark tea, locally called Toyama kurocha or Birudani batabatacha after the hamlet that makes it, and the whisking is traditionally a social ritual, tied to Buddhist memorial days and neighbourhood gatherings.\n\nMature leaves are steamed or boiled, piled in a warm room and left for a few weeks while moulds ferment the heap, then dried; there is no lactic stage, which puts it closer in spirit to Chinese dark teas than to the sour banchas of Shikoku. The finished leaf is coarse, dark and crumbly and smells of hay and cellar. Mature leaf and fermentation leave it very low in caffeine.\n\nTo drink it the local way, simmer about 10 g in a litre of water for ten minutes, pour into a wide bowl, add a pinch of salt and whisk briskly with the paired 'meoto' chasen until the surface is covered in dense pale foam; drink foam and liquor together. The flavour is mild, earthy and slightly musty with a savoury, broth-like body, and the salt turns it into something closer to a light soup than a tea. The leaf can be topped up with water and simmered again. Steeped like sencha in a kyusu it is thin and dull, which is why the ritual matters.\n\nIt is made from the current year's summer leaf by a very small number of producers and sold locally, at a few Toyama shops and by specialist dealers in bags with the year; the double whisk is sold alongside it and is worth buying if you want the real thing. It keeps a year or more as a dried fermented tea, and there is no ageing market or grade.\n\nIf the salt-and-foam idea appeals, Okinawa's bukubuku-cha is the other whisked-foam tea to look for; if the fermentation does, goishicha and awabancha are the next stops.",
+  "vintage_note": "Made from the current year's September leaf by a very small number of producers around Asahi town and sold locally and by a few specialist shops in bags with the production year; it is a dried fermented tea that keeps a year or more and is not aged on purpose. Buy it with the paired whisks if you want the real ritual.",
+  "description": "Batabatacha is a fermented tea from Asahi on the Toyama coast, drunk in a way shared with only a few other Japanese whisked teas: boiled, poured into a bowl with a pinch of salt and whisked into a thick foam with two bamboo whisks together, which makes the 'bata-bata' sound that gives it its name. The tea itself is a mould-fermented dark tea, locally called Toyama kurocha or Birudani batabatacha after the hamlet where the custom is strongest, and the whisking is traditionally a social ritual, tied to Buddhist memorial days and neighbourhood gatherings.\n\nLate-season leaves are steamed, rolled and piled for 20 to 24 days while moulds ferment the heap, then dried; there is no lactic stage, which puts it closer in spirit to Chinese dark teas than to the sour banchas of Shikoku. The finished leaf is coarse, dark and crumbly and smells of hay and cellar. Mature leaf and fermentation leave it very low in caffeine.\n\nTo drink it the local way, simmer about 10 g in a litre of water for ten minutes, pour into a wide bowl, add a pinch of salt and whisk briskly with the paired 'meoto' chasen until the surface is covered in dense pale foam; drink foam and liquor together. The flavour is mild, earthy and slightly musty with a savoury, broth-like body, and the salt turns it into something closer to a light soup than a tea. The leaf can be topped up with water and simmered again. Steeped like sencha in a kyusu it is thin and dull, which is why the ritual matters.\n\nIt is made from the current year's September leaf by a very small number of producers and sold locally, at a few Toyama shops and by specialist dealers in bags with the year; the double whisk is sold alongside it and is worth buying if you want the real thing. It keeps a year or more as a dried fermented tea, and there is no ageing market or grade.\n\nIf the salt-and-foam idea appeals, Okinawa's bukubuku-cha is the other whisked-foam tea to look for; if the fermentation does, goishicha and awabancha are the next stops.",
   "wikipedia_title": "Batabatacha",
   "wikipedia_scope": "exact",
   "popularity": 1,
-  "sources_note": "English Wikipedia is believed to have a 'Batabatacha' article; if not, use 'Japanese tea' as umbrella. Mould-only (no lactic stage) fermentation and the Birudani hamlet are as described in Japanese sources on Toyama kurocha."
+  "sources_note": "English Wikipedia is believed to have a 'Batabatacha' article; if not, use 'Japanese tea' as umbrella. Mould-only (no lactic stage) fermentation and the Birudani hamlet are as described in Japanese sources on Toyama kurocha.",
+  "name_zh": "巴塔巴塔茶",
+  "name_ru": "Батабата-тя",
+  "history": "Batabatacha is both a fermented dark tea and a way of drinking it, belonging to Asahi in northern Toyama and the neighbouring Itoigawa area of Niigata. The name is said to come from the clatter of two bamboo whisks working together in the bowl. In Birudani, a hamlet of Asahi, the custom ran deep: a greeting there invites you to drink tea, a tea gathering was held on the evening of the 27th of each month, and the arrival of a bride was marked by giving rice cakes and dark tea to relatives and neighbours.\n\nThe leaf has had a precarious supply. The tea writer Oishi Sadao thought it was probably once made in Toyama, but that the climate suited tea poorly and supply came to depend on Mikata in Fukui. When Fukui stopped making it in 1976, a Mr Ogihara of Kosugi in Toyama learned the method and restarted cultivation and production.\n\nIn Itoigawa the name means mostly the drinking style, with bancha or hojicha, dried tea flowers and roasted beans boiled together. That version is thought to descend from botebote-cha of Shimane, carried north on the coastal trading ships.",
+  "liquor_hex": "#8E4F24",
+  "leaf_hex": "#3E2C1C",
+  "sources": [
+    "https://ja.wikipedia.org/wiki/%E3%81%B0%E3%81%9F%E3%81%B0%E3%81%9F%E8%8C%B6",
+    "https://en.wikipedia.org/wiki/Fermented_tea"
+  ],
+  "confidence": "medium",
+  "images": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/a/a4/%E3%83%90%E3%82%BF%E3%83%90%E3%82%BF%E8%8C%B6%EF%BC%88%E7%B3%B8%E9%AD%9A%E5%B7%9D%EF%BC%89.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a4/%E3%83%90%E3%82%BF%E3%83%90%E3%82%BF%E8%8C%B6%EF%BC%88%E7%B3%B8%E9%AD%9A%E5%B7%9D%EF%BC%89.jpg/330px-%E3%83%90%E3%82%BF%E3%83%90%E3%82%BF%E8%8C%B6%EF%BC%88%E7%B3%B8%E9%AD%9A%E5%B7%9D%EF%BC%89.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source_page": "https://commons.wikimedia.org/wiki/File:%E3%83%90%E3%82%BF%E3%83%90%E3%82%BF%E8%8C%B6%EF%BC%88%E7%B3%B8%E9%AD%9A%E5%B7%9D%EF%BC%89.jpg",
+      "author": "百姓天国",
+      "license": "CC0",
+      "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "kind": "dry_leaf",
+      "alt": "Coarse dry Batabatacha leaves and stems on a red lacquer dish"
+    }
+  ]
 }

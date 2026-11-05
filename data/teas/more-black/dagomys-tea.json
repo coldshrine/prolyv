@@ -1,0 +1,52 @@
+{
+  "slug": "dagomys-tea",
+  "name_en": "Dagomys Tea",
+  "name_native": "Дагомысский чай",
+  "name_romanized": "Dagomysskiy chai",
+  "name_zh": "达戈梅斯茶",
+  "name_ru": "Дагомысский чай",
+  "aliases": [
+    "Dagomyschay",
+    "Дагомысчай"
+  ],
+  "category": "black",
+  "origin_country": "Russia",
+  "origin_region": "Krasnodar Krai · Sochi · Dagomys",
+  "cultivar": null,
+  "processing": "Details of the method are not well documented. Black tea from the area follows the usual withering, rolling, oxidation and drying.",
+  "form": "loose",
+  "harvest_season": "Exact picking dates are not well documented for this tea.",
+  "appearance_dry": "As with other Krasnodar black teas, expect dark, twisted, small to medium leaf.",
+  "appearance_liquor": "Typical of the class, a clear reddish amber.",
+  "appearance_wet": "Typical of black tea, soft coppery-brown leaf.",
+  "taste_profile": "Little is recorded specifically about this tea. Black teas from the class usually offer mild malt, some sweetness and moderate briskness.",
+  "taste_tags": [
+    "malty",
+    "sweet"
+  ],
+  "brewing": {
+    "grams": 3,
+    "water_ml": 250,
+    "temp_c": 95,
+    "steeps": 2,
+    "seconds": [
+      180,
+      270
+    ],
+    "notes": "These are usual Western-style black tea settings, nothing specific to this tea."
+  },
+  "caffeine_level": "medium",
+  "vintage_note": "Usually sold as a packaged product of the producer, not by harvest year. As with other black teas, look for a recent packing date and drink it within a couple of years.",
+  "description": "Dagomys tea comes from the Sochi area on Russia's Black Sea coast, part of the wider Krasnodar tea region. The name is tied to the Dagomys tea state farm and its successor, the Dagomyschay group.\n\nFew details of its production are on record. Expect the usual steps for black tea, and do not take any particular method for granted.\n\nThe same goes for flavour. Brew it as you would an everyday black tea and judge the result on its own terms, ideally beside another Sochi tea.\n\nWhen buying, read the producer's name and the stated origin on the pack, because Krasnodar labels can differ in how much local leaf they use.",
+  "history": "The Dagomys tea state farm was organised in 1947 and later became the Dagomyschay group. Local tea planting is recorded a little earlier: in 1939 staff of a Sochi institute for subtropical plants laid out the first tea plantation at the Goytkh collective farm Soviet Armenia, led by Shmavon Sukiasyan of the Paporotny hamlet. How directly that planting connects to the farm is not clear, and little else is documented.",
+  "liquor_hex": "#AA5A26",
+  "leaf_hex": "#3B2A1C",
+  "sources": [
+    "https://ru.wikipedia.org/wiki/%D0%9A%D1%80%D0%B0%D1%81%D0%BD%D0%BE%D0%B4%D0%B0%D1%80%D1%81%D0%BA%D0%B8%D0%B9_%D1%87%D0%B0%D0%B9"
+  ],
+  "confidence": "low",
+  "wikipedia_title": "Краснодарский чай",
+  "wikipedia_scope": "umbrella",
+  "popularity": 2,
+  "images": []
+}

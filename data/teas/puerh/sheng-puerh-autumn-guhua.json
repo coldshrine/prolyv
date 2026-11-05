@@ -3,7 +3,14 @@
   "name_en": "Autumn (Guhua) Sheng Pu-erh",
   "name_native": "谷花茶",
   "name_romanized": "Gǔhuā Chá",
-  "aliases": ["Gu hua cha", "Autumn sheng", "Autumn flush pu-erh", "Qiu cha", "Grain flower tea", "秋茶"],
+  "aliases": [
+    "Gu hua cha",
+    "Autumn sheng",
+    "Autumn flush pu-erh",
+    "Qiu cha",
+    "Grain flower tea",
+    "秋茶"
+  ],
   "category": "sheng",
   "origin_country": "China",
   "origin_region": "Yunnan",
@@ -15,12 +22,44 @@
   "appearance_liquor": "Pale gold, bright and clear.",
   "appearance_wet": "Slim, tender yellow-green leaves and long thin buds, thinner than spring leaf.",
   "taste_profile": "More fragrant and softer than spring tea from the same trees: pronounced floral and honey aromatics, low bitterness, light astringency, a lighter body and a shorter but clean sweet finish.",
-  "taste_tags": ["floral", "honey", "sweet", "grassy"],
-  "brewing": {"grams": 7, "water_ml": 110, "temp_c": 95, "steeps": 9, "seconds": [10, 8, 10, 15, 20, 30, 45, 60, 120], "notes": "Rinse once. Brew it as you would spring tea but expect it to fade a couple of steeps sooner; porcelain to show the aroma, and a slightly longer late steep to pull out the sweetness."},
+  "taste_tags": [
+    "floral",
+    "honey",
+    "sweet",
+    "grassy"
+  ],
+  "brewing": {
+    "grams": 7,
+    "water_ml": 110,
+    "temp_c": 95,
+    "steeps": 9,
+    "seconds": [
+      10,
+      8,
+      10,
+      15,
+      20,
+      30,
+      45,
+      60,
+      120
+    ],
+    "notes": "Rinse once. Brew it as you would spring tea but expect it to fade a couple of steeps sooner; porcelain to show the aroma, and a slightly longer late steep to pull out the sweetness."
+  },
   "caffeine_level": "high",
   "vintage_note": "Sold by harvest year with 'autumn' or 'guhua' on the wrapper, usually at a substantial discount to the same village's spring cake, and reaching shops from November; it carries the same calendar year as that spring's tea, so a cake marked only with a year may be either, and honest vendors say which. It is bought to drink young (1–5 years) for its aroma; it ages lighter and faster than spring tea, becoming honeyed within 5–10 years without the depth spring material develops, so aged autumn tea is not a collector category. Beware the common trick of blending autumn leaf into 'spring' cakes to add fragrance and cut cost.",
   "description": "Guhua, 'grain flower' tea, is raw pu-erh picked in the autumn, in the dry sunny weeks from mid-September into October when the rice is flowering in the Yunnan valleys. It is the second harvest of the year in quality and price: not the prized spring flush, but far above the summer rain tea, and in some villages so fragrant that locals prefer it.\n\nThe trees have had a wet summer of growth and push slender shoots with lots of thin buds; the weather is dry, so the sun-drying that defines sheng goes smoothly and the maocha comes out clean. Processing is exactly as for spring tea, and the same gardens, trees and hands are involved, which is why autumn tea is the honest way to taste a famous village cheaply.\n\nIn the cup, autumn sheng is lifted and perfumed, with more obvious floral and honey aroma than the spring tea, less bitterness, a lighter body and a shorter finish. It drinks very well young and does not reward long ageing, turning soft and honeyed within a few years rather than deep. Brew it like spring tea and expect two fewer steeps.\n\nIt is sold by harvest year with 'autumn' or 'guhua' stated, typically at a large discount to spring, and it shares a calendar year with that spring's tea, so a wrapper showing only a year hides the season. Vendors who are honest about autumn tea tend to be honest about everything else. The classic deception runs the other way: autumn leaf blended into cakes sold as spring to boost fragrance and margin, which you can suspect when a 'spring' cake is unusually perfumed and thin.\n\nFor a cheap, fragrant everyday sheng, autumn tea from a good village is one of the best buys in pu-erh; just do not pay spring prices for it.",
   "wikipedia_title": "Pu'er tea",
   "wikipedia_scope": "umbrella",
-  "popularity": 2
+  "popularity": 2,
+  "name_zh": "谷花茶",
+  "name_ru": "Гу Хуа Ча",
+  "history": "Guhua is not a place or a cultivar but a season: the autumn picking of Yunnan raw tea. The name means grain flower, and it is sold today as a cheaper and more perfumed counterpart to spring tea.\n\nLittle is documented about the origin of the name or the first use of it on a wrapper.",
+  "liquor_hex": "#E2C56E",
+  "leaf_hex": "#6B6C42",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Pu%27er_tea"
+  ],
+  "confidence": "low",
+  "images": []
 }

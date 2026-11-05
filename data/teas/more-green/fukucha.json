@@ -1,0 +1,59 @@
+{
+  "slug": "fukucha",
+  "name_en": "Fukucha",
+  "name_native": "福茶",
+  "name_romanized": "Fukucha",
+  "aliases": [
+    "Fukuja",
+    "Obukucha",
+    "大福茶",
+    "大服茶",
+    "皇服茶",
+    "王服茶"
+  ],
+  "category": "green",
+  "origin_country": "Japan",
+  "origin_region": "Kyoto · Kansai",
+  "cultivar": null,
+  "form": "other",
+  "caffeine_level": "medium",
+  "brewing": {
+    "grams": 3,
+    "water_ml": 150,
+    "temp_c": 80,
+    "steeps": 3,
+    "seconds": [
+      60,
+      75,
+      105
+    ],
+    "notes": "A safe starting point for green tea: cooler water, short steeps, then adjust by taste."
+  },
+  "taste_tags": [
+    "vegetal",
+    "sweet"
+  ],
+  "description": "Fukucha is a celebratory drink of Kyoto and the Kansai region, taken at New Year, at Setsubun and on New Year's Eve. Black soybeans, kombu, pickled plum or sansho go into the cup with sencha or hot water poured over.\n\nThis is a way of preparing tea more than a tea you buy under one name, so the recipe and the base tea change from one maker to the next.",
+  "wikipedia_title": null,
+  "wikipedia_scope": "none",
+  "popularity": 1,
+  "name_zh": "福茶",
+  "name_ru": "Фукутя",
+  "history": "By legend, the monk Kuya offered tea to a Kannon statue during a Heian-era epidemic, the sick who drank it recovered, and Emperor Murakami took it each New Year's Day. Rokuharamitsu-ji in Kyoto still gives out its version during the first three days of the year, tracing it to the epidemic of 951. The New Year form is called obukucha, and in the Omotesenke school the name goes to the matcha whisked by the head of the house before dawn on New Year's Day.",
+  "liquor_hex": "#D6D27A",
+  "leaf_hex": "#7E8B3E",
+  "sources": [
+    "https://ja.wikipedia.org/wiki/%E7%A6%8F%E8%8C%B6",
+    "https://www.wikidata.org/wiki/Q22124487"
+  ],
+  "confidence": "medium",
+  "images": [],
+  "stub": true,
+  "processing": "Hot water or sencha is poured over black soybeans, kombu, pickled plum or sansho; on New Year's Day the water is the year's first drawn, and at Setsubun roasted soybeans are added.",
+  "harvest_season": "Not tied to a harvest: it depends on the base tea.",
+  "appearance_dry": "Green leaf whose shape depends on the maker, as is usual for regional green teas.",
+  "appearance_liquor": "Usually a clear, pale yellow-green.",
+  "appearance_wet": "Usually soft green leaf that opens up in the water.",
+  "taste_profile": "Expect what green teas usually give: fresh, vegetal and lightly sweet.",
+  "vintage_note": "Not sold by vintage: it is made from whatever base tea the maker keeps, so freshness of the base matters more than the year."
+}

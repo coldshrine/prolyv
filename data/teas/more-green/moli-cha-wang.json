@@ -1,0 +1,54 @@
+{
+  "slug": "moli-cha-wang",
+  "name_en": "Moli Cha Wang",
+  "name_native": "茉莉茶王",
+  "name_romanized": "mòlì chá wáng",
+  "aliases": [
+    "Моли Ча Ван (Владыка жасмина)",
+    "Владыка жасмина"
+  ],
+  "category": "green",
+  "origin_country": "China",
+  "origin_region": "China",
+  "cultivar": null,
+  "form": "loose",
+  "caffeine_level": "medium",
+  "brewing": {
+    "grams": 3,
+    "water_ml": 150,
+    "temp_c": 80,
+    "steeps": 3,
+    "seconds": [
+      60,
+      75,
+      105
+    ],
+    "notes": "A safe starting point for green tea: cooler water, short steeps, then adjust by taste."
+  },
+  "taste_tags": [
+    "vegetal",
+    "sweet"
+  ],
+  "description": "A Chinese green tea scented with jasmine, sold in Russian as the Lord of Jasmine.\n\nRecipes for a flavoured or scented tea vary from one maker to the next, so read the ingredient list and brew it like its base tea.",
+  "wikipedia_title": null,
+  "wikipedia_scope": "none",
+  "popularity": 1,
+  "name_zh": "茉莉茶王",
+  "name_ru": "Мо Ли Ча Ван",
+  "history": "Sellers present it as a high grade of jasmine tea. Little is documented about it.",
+  "liquor_hex": "#DDD48A",
+  "leaf_hex": "#7E8B3E",
+  "sources": [
+    "https://teahouse.ua/ru/vladyka-zhasmina-moli-chavan/"
+  ],
+  "confidence": "low",
+  "images": [],
+  "stub": true,
+  "processing": "A green base tea flavoured or scented by the maker; the recipe varies.",
+  "harvest_season": "The base tea can come from any picking, so the season matters less than the recipe.",
+  "appearance_dry": "Green leaf whose shape depends on the maker, as is usual for regional green teas.",
+  "appearance_liquor": "Usually a clear, pale yellow-green.",
+  "appearance_wet": "Usually soft green leaf that opens up in the water.",
+  "taste_profile": "Expect what green teas usually give: fresh, vegetal and lightly sweet.",
+  "vintage_note": "Flavoured and scented teas are not sold by vintage. Buy recent stock and drink it within a year or so, since the aroma fades."
+}

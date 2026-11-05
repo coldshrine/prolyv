@@ -1,0 +1,56 @@
+{
+  "slug": "xinyang-white",
+  "name_en": "Xinyang White Tea",
+  "name_native": "信阳白茶",
+  "name_romanized": "Xìnyáng Báichá",
+  "name_zh": "信阳白茶",
+  "name_ru": "Синьян Бай Ча",
+  "aliases": [
+    "Xinyang Bai Cha"
+  ],
+  "category": "white",
+  "origin_country": "China",
+  "origin_region": "Henan · Xinyang",
+  "cultivar": null,
+  "processing": "A modern reworking of white tea with light rolling added to the usual wither and drying, intended to give a stronger cup than traditional white tea. Descriptions of the steps vary and some also list a fixing stage.",
+  "form": "loose",
+  "harvest_season": "Little is documented on picking dates. The top grade is heavy in plump buds, which points to an early spring picking, as is usual for the class.",
+  "appearance_dry": "Flattish, intact bud-and-leaf sets in grey-green to silvery tones, with fresh down.",
+  "appearance_liquor": "Clear and bright, pale apricot-yellow to light green in good grades.",
+  "appearance_wet": "Tender, bright bud-heavy leaf in the higher grades, with some reddish leaf in lower ones.",
+  "taste_profile": "Described as fresh, clean and sweet with a light floral scent, smooth and without bitterness, with a lasting sweet return.",
+  "taste_tags": [
+    "sweet",
+    "floral",
+    "vegetal"
+  ],
+  "brewing": {
+    "grams": 5,
+    "water_ml": 110,
+    "temp_c": 90,
+    "steeps": 5,
+    "seconds": [
+      10,
+      15,
+      20,
+      30,
+      45
+    ],
+    "notes": "Short steeps in a gaiwan, about 5 to 10 seconds to start, then longer each round."
+  },
+  "caffeine_level": "medium",
+  "vintage_note": "A young tea with no real aged market: its method was only considered mature about a decade after 2012. Sold in special, first and second grades, normally fresh from the current year as far as sellers show. Ask for the year and the producer, since this name is not a long-established standard.",
+  "description": "Xinyang in southern Henan is famous for Xinyang Mao Jian, a green tea. Xinyang White Tea is something newer and much smaller: a local attempt to make a white tea that drinkers would not find too thin.\n\nThe change was light rolling, added to the traditional white tea steps. Rolling breaks some of the leaf and brings more into the water, so the result sits somewhere between a classic white and a soft green, and accounts of the steps do not fully agree.\n\nThe cup is described as clean, fresh and sweet with a little flower and no bitterness. Grades run from a bud-rich top level with a pale apricot liquor down to a second grade that is deeper and duller. A quick first steep in a gaiwan suits it.\n\nDon't mix this up with white-leaf green teas, or with Xinyang Mao Jian. A name this new is used loosely, so ask exactly how the tea was made.",
+  "history": "The tea is credited to Zhou Kaiqi of the Huangmiao ecological tea factory in Shihe Gang, who began developing it in 2012 because many drinkers found white tea too mild. By about ten years later the method was regarded as settled and the tea was brought to market.\n\nLittle else is documented, and the account comes from popular tea references rather than official records.",
+  "liquor_hex": "#E2D79A",
+  "leaf_hex": "#9EA88A",
+  "sources": [
+    "https://www.cnpp.cn/focus/3517730.html",
+    "https://www.ichabaike.com/baicha/xinyangbaicha/"
+  ],
+  "confidence": "low",
+  "wikipedia_title": null,
+  "wikipedia_scope": "none",
+  "popularity": 2,
+  "images": []
+}

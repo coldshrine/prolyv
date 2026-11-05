@@ -1,0 +1,60 @@
+{
+  "slug": "longquan-baozhong",
+  "name_en": "Longquan Baozhong",
+  "name_native": "龍泉包種茶",
+  "name_romanized": "Lóngquán Bāozhǒng Chá",
+  "name_zh": "龙泉包种茶",
+  "name_ru": "Лун Цюань Бао Чжун",
+  "aliases": [
+    "Longquan Tea",
+    "Longtan Baozhong",
+    "龙泉茶",
+    "龍泉茶",
+    "龍潭包種茶"
+  ],
+  "category": "oolong",
+  "origin_country": "Taiwan",
+  "origin_region": "Taoyuan · Longtan",
+  "cultivar": null,
+  "processing": "A lightly oxidised baozhong-type tea, with a little oxidation and light firing that keep it green and fragrant.",
+  "form": "loose",
+  "harvest_season": "Little is documented specifically; as with other northern Taiwanese baozhong, spring is usually the most valued picking.",
+  "appearance_dry": "Twisted dark-green leaf, typical of baozhong.",
+  "appearance_liquor": "Pale green and clear.",
+  "appearance_wet": "Soft, open green leaves, typical of baozhong.",
+  "taste_profile": "Pleasantly fragrant in a pale green cup, light in body, as is usual for baozhong.",
+  "taste_tags": [
+    "floral",
+    "vegetal",
+    "sweet"
+  ],
+  "brewing": {
+    "grams": 5,
+    "water_ml": 120,
+    "temp_c": 95,
+    "steeps": 5,
+    "seconds": [
+      20,
+      20,
+      30,
+      45,
+      60
+    ],
+    "notes": "Local advice is a quick steep in very hot water to release the aroma; do not let the tea sit long."
+  },
+  "caffeine_level": "medium",
+  "vintage_note": "A fresh tea, normally sold from the current year's harvest and best drunk within about a year, as with other baozhong. Mostly sold locally through Longtan's gardens and farmers' channels, often simply as Longquan tea.",
+  "description": "Longquan is the name of the baozhong grown around Longtan in Taoyuan, on low tablelands at around 200 m rather than in the mountains. It is a tea with a government-given name and a long local trade behind it.\n\nIt is lightly oxidised, so it stays closer to green tea than most oolongs do. The growing area covers the Longtan, Dianzihu and Tongluoquan tablelands and the villages of Sanshui, Sanhe and Sanlin.\n\nIn the cup it is pale green and fragrant. The traditional advice is a quick steep at high heat, which pushes out the aroma without over-extracting. Expect a light, easy tea rather than a complex one.\n\nLook for it as Longquan tea when buying, and ask for the season. Longtan has also made black, green and other oolong teas, so check which you are getting.",
+  "history": "Longtan's tea growing is dated back to 1867. Under Japanese rule the town served as a collection point for exported tea, with early shipments going to Southeast Asia and mainland China.\n\nThe name Longquan came in 1983, given by Lee Teng-hui, then provincial governor. Around 1989 agricultural records put the area at about 2,700 hectares, the largest of any township-level tea district in Taiwan, but those figures are old. Low and unstable prices and a scattered range of products have since weakened the industry, and newer brands and tea tourism are trying to revive it.",
+  "liquor_hex": "#D3D68E",
+  "leaf_hex": "#4F6238",
+  "wikipedia_title": "Taiwanese tea",
+  "wikipedia_scope": "umbrella",
+  "popularity": 2,
+  "sources": [
+    "https://www.longtan.tycg.gov.tw/cp.aspx?n=6987",
+    "https://zh.wikipedia.org/wiki/%E8%87%BA%E7%81%A3%E8%8C%B6"
+  ],
+  "confidence": "medium",
+  "images": []
+}

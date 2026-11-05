@@ -3,7 +3,13 @@
   "name_en": "Assam CTC",
   "name_native": "অসম চাহ",
   "name_romanized": "Oxom sāh",
-  "aliases": ["Assam CTC black tea", "Assam BOP", "Assam granular tea", "Assam tea bags", "Assam chai tea"],
+  "aliases": [
+    "Assam CTC black tea",
+    "Assam BOP",
+    "Assam granular tea",
+    "Assam tea bags",
+    "Assam chai tea"
+  ],
   "category": "black",
   "origin_country": "India",
   "origin_region": "Assam · Brahmaputra Valley",
@@ -15,12 +21,50 @@
   "appearance_liquor": "Dark reddish-brown, thick-looking, and opaque tan once milk goes in.",
   "appearance_wet": "Tiny dark brown particles.",
   "taste_profile": "Strong, malty and brisk with a thick body and plenty of tannin; little nuance, built to carry milk and sugar.",
-  "taste_tags": ["malty", "brisk", "woody"],
-  "brewing": {"grams": 3, "water_ml": 200, "temp_c": 100, "steeps": 1, "seconds": [180], "notes": "Boiling water, two to three minutes, then milk; or simmer with milk, sugar and spices for chai. It does not re-steep."},
+  "taste_tags": [
+    "malty",
+    "brisk",
+    "woody"
+  ],
+  "brewing": {
+    "grams": 3,
+    "water_ml": 200,
+    "temp_c": 100,
+    "steeps": 1,
+    "seconds": [
+      180
+    ],
+    "notes": "Boiling water, two to three minutes, then milk; or simmer with milk, sugar and spices for chai. It does not re-steep."
+  },
   "caffeine_level": "high",
-  "vintage_note": "Sold by grade (BOP, BP, PF, PD, Dust) through the Guwahati auction every week of the year, retailed in India as branded packet tea and loose 'chai patti', and exported for tea bags and breakfast blends. There is no vintage: buy the freshest pack and finish it within a year, because granules go stale faster than whole leaf.",
-  "description": "Assam CTC is the granular black tea that fills most Indian teacups and a large share of the world's tea bags. CTC stands for 'crush, tear, curl', a machine process developed in Assam in the 1930s that macerates withered leaf into small, hard granules which brew fast, dark and strong. The great majority of Assam's crop, around nine-tenths, is made this way.\n\nAfter a short wither the leaf passes through a series of toothed CTC rollers, is oxidised quickly on a moving bed and fired, then sorted by size into grades such as BOP, BP, PF, PD and Dust. The tiny particles expose a huge surface area, which is why a CTC brew colours in seconds and gives up almost everything the leaf has in a single steep.\n\nThe cup is thick, malty and brisk with plenty of tannin and not much nuance; it is designed to carry milk and sugar, and that is how nearly all of it is drunk, either as English-style builder's tea or simmered with milk into chai. Use boiling water and two to three minutes, or boil it with milk and spices. Do not expect a second steep.\n\nIt is sold by grade through the Guwahati auction every week of the year and retailed in India as branded packet tea and loose 'chai patti'; abroad it is the strong base of breakfast blends and supermarket tea bags. Grades differ in strength and brewing speed rather than quality, and the factory matters more than the season. There is no vintage: buy the freshest pack you can and finish it within a year, because granules go stale faster than whole leaf.\n\nFor a proper cup of Indian-style chai it is the only tea that really works; orthodox leaf is too gentle to stand up to the milk.",
+  "vintage_note": "Sold by grade (BOP, BP, PF, PD, Dust) through the Guwahati auction, retailed in India as branded packet tea and loose 'chai patti', and exported for tea bags and breakfast blends. There is no vintage: buy the freshest pack and finish it within a year, because granules go stale faster than whole leaf.",
+  "description": "Assam CTC is the granular black tea that fills most Indian teacups and a large share of the world's tea bags. CTC stands for 'crush, tear, curl', a machine process developed in Assam in the 1930s that macerates withered leaf into small, hard granules which brew fast, dark and strong. Most of Assam's crop is made this way.\n\nAfter a short wither the leaf passes through a series of toothed CTC rollers, is oxidised quickly on a moving bed and fired, then sorted by size into grades such as BOP, BP, PF, PD and Dust. The tiny particles expose a huge surface area, which is why a CTC brew colours in seconds and gives up almost everything the leaf has in a single steep.\n\nThe cup is thick, malty and brisk with plenty of tannin and not much nuance; it is designed to carry milk and sugar, and that is how nearly all of it is drunk, either as English-style builder's tea or simmered with milk into chai. Use boiling water and two to three minutes, or boil it with milk and spices. Do not expect a second steep.\n\nIt is sold by grade through the Guwahati auction and retailed in India as branded packet tea and loose 'chai patti'; abroad it is the strong base of breakfast blends and supermarket tea bags. Grades differ in strength and brewing speed rather than quality, and the factory matters more than the season. There is no vintage: buy the freshest pack you can and finish it within a year, because granules go stale faster than whole leaf.\n\nFor a proper cup of Indian-style chai it is the only tea that really works; orthodox leaf is too gentle to stand up to the milk.",
   "wikipedia_title": "Assam tea",
   "wikipedia_scope": "exact",
-  "popularity": 4
+  "popularity": 4,
+  "name_zh": "阿萨姆CTC红茶",
+  "name_ru": "Ассам CTC",
+  "history": "Tea in Assam is documented from 1823, when the Scottish trader Robert Bruce was shown a plant the Singpho people used for drinks and food. It took more than a decade for the East India Company's Tea Committee to accept it as true tea, and the first batch reached London in 1838 and went to auction in January 1839. For about a century after that, Assam made leaf tea in the orthodox way.\n\nCTC came out of the same valley. The first machine went into service around 1930 or 1931 at Amgoorie, an Assam garden, under Sir William McKercher; accounts differ on the exact year. The method spread mainly after 1950, fastest in India and Africa, and tea bags and cheap strong tea at home gave it a huge market.\n\nToday the crushed, granular style is the bulk of what Assam makes, and most of it is drunk with milk, either as breakfast tea abroad or as boiled chai in India.",
+  "liquor_hex": "#7A2E12",
+  "leaf_hex": "#2F2018",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Assam_tea",
+    "https://en.wikipedia.org/wiki/Crush,_tear,_curl",
+    "https://ja.wikipedia.org/wiki/%E3%82%A2%E3%83%83%E3%82%B5%E3%83%A0%E3%83%BB%E3%83%86%E3%82%A3%E3%83%BC",
+    "https://makaibari.in/blogs/news/the-history-and-origins-of-ctc-tea",
+    "https://www.goodricke.com/tea-garden/assam/amgoorie"
+  ],
+  "confidence": "high",
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/46/Assam_CTC_Hanamizuki_2009.JPG/1280px-Assam_CTC_Hanamizuki_2009.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/46/Assam_CTC_Hanamizuki_2009.JPG/330px-Assam_CTC_Hanamizuki_2009.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Assam_CTC_Hanamizuki_2009.JPG",
+      "author": "USAGI-WRP",
+      "license": "CC BY 3.0",
+      "license_url": "https://creativecommons.org/licenses/by/3.0",
+      "kind": "dry_leaf",
+      "alt": "Dark brown granules of dry Assam CTC black tea in a white dish"
+    }
+  ]
 }

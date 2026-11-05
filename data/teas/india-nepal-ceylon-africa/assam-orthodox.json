@@ -3,7 +3,14 @@
   "name_en": "Assam Orthodox",
   "name_native": "অসম চাহ",
   "name_romanized": "Oxom sāh",
-  "aliases": ["Assam black tea", "Assam TGFOP", "Assam FTGFOP1", "Orthodox Assam", "Assam leaf tea", "Assam second flush"],
+  "aliases": [
+    "Assam black tea",
+    "Assam TGFOP",
+    "Assam FTGFOP1",
+    "Orthodox Assam",
+    "Assam leaf tea",
+    "Assam second flush"
+  ],
   "category": "black",
   "origin_country": "India",
   "origin_region": "Assam · Brahmaputra Valley",
@@ -15,13 +22,78 @@
   "appearance_liquor": "Deep red-amber to copper, bright.",
   "appearance_wet": "Coppery-red, even, supple leaf.",
   "taste_profile": "Malty and full: dark honey, dried fig and a hint of cocoa, with a brisk, tannic backbone that softens with milk.",
-  "taste_tags": ["malty", "honey", "dried-fruit", "brisk"],
-  "brewing": {"grams": 3, "water_ml": 200, "temp_c": 95, "steeps": 2, "seconds": [240, 300], "notes": "Boiling or just under, about four minutes. Takes milk very well, but a tippy lot from a named garden is worth trying neat first."},
+  "taste_tags": [
+    "malty",
+    "honey",
+    "dried-fruit",
+    "brisk"
+  ],
+  "brewing": {
+    "grams": 3,
+    "water_ml": 200,
+    "temp_c": 95,
+    "steeps": 2,
+    "seconds": [
+      240,
+      300
+    ],
+    "notes": "Boiling or just under, about four minutes. Takes milk very well, but a tippy lot from a named garden is worth trying neat first."
+  },
   "caffeine_level": "high",
   "vintage_note": "Sold through the Guwahati and Kolkata auctions and by private sale as garden invoices, by flush and grade: FTGFOP1, TGFOP, GFOP, FOP and the broken grades. The second flush of the current year is the prized lot (shops label it 'Assam Second Flush 2025' and so on) and arrives from July; first flush is on sale from April–May. Orthodox Assam keeps 2–3 years sealed but is at its best within about 18 months.",
   "description": "Assam orthodox is the whole-leaf black tea of the Brahmaputra valley in north-east India, the world's largest contiguous tea-growing region and the home of the big-leaved assamica bush. It is the malty, coppery, full-bodied tea that most breakfast blends are trying to imitate, and the gardens along the river make it in a style bolder than almost anything else on the shelf.\n\nThe leaf is withered, rolled whole in orthodox rollers, oxidised fully to a copper-red and then fired, before being sorted into leaf grades. Low altitude, heavy rain and summer heat drive the bushes hard, and the second flush in late May and June, when the buds are fat and golden, gives the best orthodox teas of the year; the spring first flush is lighter and the rains crop plainer.\n\nA good second-flush orthodox tastes of malt, dark honey and dried fig with a cocoa edge, a thick body and a brisk, tannic backbone. Brew it with water at or just under the boil for about four minutes; it takes milk very well, but a tippy lot from a named garden deserves to be tried neat first, and it will give a decent second steep.\n\nIt is sold by garden, flush and grade, through the Guwahati and Kolkata auctions and by private sale. The grade codes (FTGFOP1, TGFOP, GFOP, FOP, and the broken grades BOP and GBOP) describe leaf size and the amount of golden tip, not quality; a plain TGFOP from a good garden can beat a FTGFOP1 from a poor one. Names worth knowing include Halmari, Mangalam, Doomni, Dikom, Harmutty, Khongea and Mokalbari. Orthodox Assam keeps two or three years sealed but is best within eighteen months.\n\nIf you only know Assam from tea bags, a single-estate second flush is the tea that will change your mind.",
   "wikipedia_title": "Assam tea",
   "wikipedia_scope": "exact",
   "popularity": 5,
-  "sources_note": "Native name given in Assamese (অসম চাহ); the romanisation 'Oxom sāh' follows Assamese pronunciation and could be checked."
+  "sources_note": "Native name given in Assamese (অসম চাহ); the romanisation 'Oxom sāh' follows Assamese pronunciation and could be checked.",
+  "name_zh": "阿萨姆传统工艺红茶",
+  "name_ru": "Ассам ортодоксальный",
+  "history": "This is the older Assam tea, the style the region started with. In 1823 Robert Bruce came across a tea plant used by the Singpho people; his brother Charles later sent samples on, and in 1836 a Tea Committee team went to study it around Sadiya. The first batch shipped to London in 1838 sold well at auction in January 1839, though buyers found it short on fragrance and dull, which was blamed on inexperienced processing.\n\nThe early business was a disaster. The Assam Company had to reorganise in 1847, workers died of disease in numbers, and by 1870 almost all of the sixty companies running gardens had gone bankrupt. Machinery in the 1870s, heated withering among it, finally made the leaf dry reliably in the wet heat and made the gardens pay.\n\nThe arrival of CTC in the 1930s pushed whole-leaf tea into the minority, so orthodox Assam is now the smaller, more prized part of the crop. Geographical-indication protection has been sought for Assam Orthodox as a name of its own.",
+  "liquor_hex": "#A34A1A",
+  "leaf_hex": "#33241A",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Assam_tea",
+    "https://en.wikipedia.org/wiki/History_of_tea_in_India",
+    "https://ja.wikipedia.org/wiki/%E3%82%A2%E3%83%83%E3%82%B5%E3%83%A0%E3%83%BB%E3%83%86%E3%82%A3%E3%83%BC",
+    "https://zh.wikipedia.org/wiki/%E9%98%BF%E8%90%A8%E5%A7%86%E7%BA%A2%E8%8C%B6"
+  ],
+  "confidence": "high",
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3b/Assam-Tee_SFTGFOP1.jpg/1280px-Assam-Tee_SFTGFOP1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3b/Assam-Tee_SFTGFOP1.jpg/330px-Assam-Tee_SFTGFOP1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Assam-Tee_SFTGFOP1.jpg",
+      "author": "soultea.de /André Helbig",
+      "license": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "kind": "dry_leaf",
+      "alt": "Pile of long, twisted dark brown dry Assam SFTGFOP1 leaf on a white background"
+    }
+  ],
+  "i18n": {
+    "ru": {
+      "processing": "Полностью окисленный ортодоксальный чёрный чай: лист вялят, целиком скручивают на ортодоксальных роллерах, окисляют до медно-красного цвета и сушат огнём, а затем сортируют по листовым грейдам вроде TGFOP и FTGFOP1.",
+      "harvest_season": "С марта по ноябрь; второй флеш (конец мая — июнь) даёт лучшие, типсовые, солодовые чаи, первый (март–апрель) легче, а чай сезона дождей проще.",
+      "appearance_dry": "Длинный, хорошо скрученный лист от тёмно-коричневого до чёрного с россыпью золотых типсов.",
+      "appearance_liquor": "Глубокий красно-янтарный до медного, яркий настой.",
+      "appearance_wet": "Медно-красный, ровный, эластичный лист.",
+      "taste_profile": "Солодовый и полный: тёмный мёд, сушёный инжир и намёк на какао на бодрой, танинной основе, которая смягчается с молоком.",
+      "vintage_note": "Продаётся через аукционы в Гувахати и Калькутте и напрямую, партиями от конкретных садов, по флешам и грейдам: FTGFOP1, TGFOP, GFOP, FOP и ломаные грейды. Самая ценная партия — второй флеш текущего года (в магазинах пишут «Assam Second Flush 2025» и так далее), он появляется с июля; первый флеш в продаже с апреля–мая. Ортодоксальный Ассам хранится 2–3 года в запечатанном виде, но лучше всего примерно в первые 18 месяцев.",
+      "history": "Это более старый ассамский чай, тот стиль, с которого регион начинался. В 1823 году Роберт Брюс наткнулся на чайное растение, которым пользовался народ сингпхо; позже его брат Чарльз переслал образцы дальше, а в 1836 году группа Чайного комитета отправилась изучать его в окрестности Садии. Первая партия, отправленная в Лондон в 1838 году, хорошо продалась на аукционе в январе 1839 года, хотя покупатели сочли её бедной ароматом и тусклой, и винили в этом неопытность в обработке.\n\nРанний бизнес обернулся катастрофой. В 1847 году Ассамской компании пришлось реорганизоваться, рабочие во множестве умирали от болезней, а к 1870 году почти все из шестидесяти компаний, управлявших садами, обанкротились. Лишь техника 1870-х, в том числе вяление с подогревом, позволила надёжно сушить лист во влажной жаре и сделала сады прибыльными.\n\nС приходом CTC в 1930-е цельнолистовой чай оказался в меньшинстве, так что ортодоксальный Ассам теперь — меньшая и более ценимая часть урожая. Для названия Assam Orthodox добивались и отдельной защиты как географического указания.",
+      "description": "Ортодоксальный Ассам — цельнолистовой чёрный чай долины Брахмапутры на северо-востоке Индии, крупнейшего в мире сплошного чаеводческого региона и родины крупнолистового куста assamica. Это тот самый солодовый, медный, полнотелый чай, которому пытается подражать большинство завтрачных купажей, а сады вдоль реки делают его смелее почти всего, что стоит на полке.\n\nЛист вялят, целиком скручивают на ортодоксальных роллерах, полностью окисляют до медно-красного цвета и сушат огнём, а затем сортируют по листовым грейдам. Низкая высота, сильные дожди и летняя жара заставляют кусты работать на износ, и второй флеш в конце мая и в июне, когда почки толстые и золотистые, даёт лучшие ортодоксальные чаи года; весенний первый флеш легче, а чай сезона дождей проще.\n\nХороший ортодокс второго флеша отдаёт солодом, тёмным мёдом и сушёным инжиром с оттенком какао, у него плотное тело и бодрая, танинная основа. Заваривайте водой в кипящем или почти кипящем состоянии около четырёх минут; молоко он принимает отлично, но типсовую партию от именного сада стоит сначала попробовать чистой, а второй пролив выйдет вполне приличным.\n\nПродаётся по садам, флешам и грейдам, через аукционы в Гувахати и Калькутте и напрямую. Коды грейдов (FTGFOP1, TGFOP, GFOP, FOP и ломаные BOP и GBOP) говорят о размере листа и количестве золотых типсов, а не о качестве: простой TGFOP из хорошего сада может обойти FTGFOP1 из плохого. Стоит знать такие названия, как Halmari, Mangalam, Doomni, Dikom, Harmutty, Khongea и Mokalbari. Ортодоксальный Ассам хранится два-три года в запечатанном виде, но лучше всего в первые восемнадцать месяцев.\n\nЕсли вы знаете Ассам только по чайным пакетикам, именно второй флеш одного сада заставит вас передумать.",
+      "brewing_notes": "Кипяток или чуть ниже, около четырёх минут. Отлично принимает молоко, но типсовую партию от именного сада стоит сначала попробовать чистой."
+    },
+    "zh": {
+      "processing": "全氧化的传统工艺红茶:萎凋后用传统揉捻机整叶揉捻,氧化至铜红色再烘干,然后按TGFOP、FTGFOP1等叶级筛分。",
+      "harvest_season": "3月至11月;二春茶(5月下旬至6月)最好,金毫多、麦芽香足,头春茶(3–4月)较清淡,雨季茶较平淡。",
+      "appearance_dry": "条索修长,揉捻紧实,色泽深褐至乌黑,点缀着金毫。",
+      "appearance_liquor": "汤色深红琥珀至铜红,明亮。",
+      "appearance_wet": "叶底铜红,匀整柔软。",
+      "taste_profile": "麦芽香浓,滋味饱满:深色蜂蜜、无花果干,带一点可可,骨架爽利、单宁感强,加奶后变得柔和。",
+      "vintage_note": "通过古瓦哈提和加尔各答的拍卖会以及私下交易,按茶园批次销售,并分茶季和等级:FTGFOP1、TGFOP、GFOP、FOP以及碎茶等级。当年二春茶最受追捧(商家会标“Assam Second Flush 2025”之类),7月起到货;头春茶4–5月上市。传统工艺阿萨姆密封可存放2–3年,但约18个月内最佳。",
+      "history": "这是阿萨姆更古老的茶,也是这个产区最初的风格。1823年,罗伯特·布鲁斯发现了辛颇人(Singpho)使用的一种茶树;他的兄弟查尔斯后来把样品送了出去,1836年茶叶委员会派人前往萨地亚一带考察。1838年运往伦敦的第一批茶在1839年1月的拍卖会上卖得不错,不过买家觉得它香气不足、滋味沉闷,这被归咎于制茶经验不足。\n\n早期的生意是一场灾难。阿萨姆公司在1847年不得不重组,工人大批死于疾病,到1870年,经营茶园的六十家公司几乎全部破产。直到19世纪70年代有了机械,其中包括热风萎凋,茶叶才能在湿热中稳定干燥,茶园也才开始盈利。\n\n20世纪30年代CTC出现后,整叶茶退居少数,因此传统工艺阿萨姆如今是产量中较小、也更受珍视的部分。Assam Orthodox这一名称也曾单独申请地理标志保护。",
+      "description": "传统工艺阿萨姆是印度东北部布拉马普特拉河谷的整叶红茶,这里是世界上最大的连片产茶区,也是大叶种assamica茶树的故乡。大多数早餐茶拼配想模仿的,正是这种麦芽香浓、铜红色、茶体饱满的茶,而沿河茶园做出的风格,比货架上几乎所有茶都更奔放。\n\n茶叶先萎凋,用传统揉捻机整叶揉捻,完全氧化至铜红色,再烘干,然后按叶级筛分。低海拔、大雨和夏季酷热让茶树长得极猛,5月下旬至6月的二春茶芽头肥壮金黄,是全年最好的传统工艺茶;春季头春茶较清淡,雨季茶较平淡。\n\n好的二春传统工艺茶有麦芽、深色蜂蜜和无花果干的味道,带一点可可,茶体厚实,骨架爽利、单宁感强。用沸水或接近沸腾的水冲泡约四分钟;它非常适合加奶,但名园的多毫批次值得先清饮试试,第二泡也还不错。\n\n它按茶园、茶季和等级销售,渠道是古瓦哈提和加尔各答的拍卖会以及私下交易。等级代码(FTGFOP1、TGFOP、GFOP、FOP,以及碎茶等级BOP和GBOP)说明的是叶片大小和金毫多少,而不是品质;好茶园普通的TGFOP可能胜过差茶园的FTGFOP1。值得记住的名字有Halmari、Mangalam、Doomni、Dikom、Harmutty、Khongea和Mokalbari。传统工艺阿萨姆密封可存放两三年,但十八个月内最佳。\n\n如果你只从茶包认识阿萨姆,一款单一茶园的二春茶会改变你的看法。",
+      "brewing_notes": "沸水或接近沸腾的水,约四分钟。非常适合加奶,但名园的多毫批次值得先清饮试试。"
+    }
+  }
 }

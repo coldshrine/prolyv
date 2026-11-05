@@ -1,0 +1,56 @@
+{
+  "slug": "foam-black-tea",
+  "name_en": "Foam Black Tea",
+  "name_native": "泡沫红茶",
+  "name_romanized": "Pàomò Hóngchá",
+  "name_zh": "泡沫红茶",
+  "name_ru": "Пао Мо Хун Ча",
+  "aliases": [
+    "Bubble foam tea",
+    "泡沫紅茶",
+    "Paomo hongcha",
+    "Паомо хунча"
+  ],
+  "category": "black",
+  "origin_country": "Taiwan",
+  "origin_region": "Taiwan",
+  "cultivar": null,
+  "processing": "A drink, not a leaf style: black tea and fructose syrup are shaken hard with ice in a cocktail shaker until a fine foam forms.",
+  "form": "other",
+  "harvest_season": "Not relevant to the drink; it is made all year from fresh-brewed tea.",
+  "appearance_dry": "There is no dry form of the drink itself; the base is ordinary black tea.",
+  "appearance_liquor": "Cloudy reddish amber, ice cold, with a pale layer of fine foam on top.",
+  "appearance_wet": "No leaf reaches the cup.",
+  "taste_profile": "Ice-cold sweetened black tea, softened by shaking, with a light, airy head. It is smoother than plain iced tea, and the syrup can be flavoured.",
+  "taste_tags": [
+    "sweet",
+    "brisk",
+    "malty"
+  ],
+  "brewing": {
+    "grams": 6,
+    "water_ml": 200,
+    "temp_c": 95,
+    "steeps": 1,
+    "seconds": [
+      240
+    ],
+    "notes": "Brew strong, then shake with syrup and plenty of ice until the shaker is frosted and a fine head forms. Pour straight away, since the foam is the point and does not last."
+  },
+  "caffeine_level": "medium",
+  "vintage_note": "There are no vintages: it is shaken to order and drunk straight away. Taiwanese shops stress fresh tea and fine foam, so those are the things to look for rather than any year or harvest.",
+  "description": "Foam black tea is the Taiwanese shaken iced tea that came before bubble tea: black tea, syrup and ice in a cocktail shaker, worked until a fine head forms. There are no pearls. Green, oolong and flower teas get the same treatment.\n\nShaking does two things: it chills the tea very fast and it beats air into it, which makes for a lighter, softer texture. Early shops did this by hand, hence the other name, 手摇茶, 'hand-shaken tea'. Machines came later, though many shops still advertise shaking by hand.\n\nYou can make it at home with a cocktail shaker. Brew the tea strong and hot, add syrup to taste, fill the shaker with ice and shake hard. Weak tea is the usual mistake, because the ice dilutes it quickly.\n\nIn Taiwan the shops themselves range from takeaway stands to sit-down places. If bubble tea feels too heavy, this is the lighter way into the same world.",
+  "history": "Nobody agrees on who invented it. Shuangquan Black Tea in Tainan, founded in 1949, says similar drinks existed in Japanese-style tea rooms during the colonial period and that it then refined the shaker method. Chun Shui Tang in Taichung says its founder Liu Han-chieh got the idea from watching cocktail shakers on a 1979 visit to Japan, and that he gave the drink its name. A Taichung shop called Xiao Xie has its own story about shaking leftover tea with ice, and another tale traces it to a university professor's experiments in 1983.\n\nBy Chun Shui Tang's account, it was doubted at first and then did so well that Taichung had a whole street of foam tea shops. Takeaway stalls gradually displaced the sit-down tea houses, and that street culture is what produced bubble tea.",
+  "liquor_hex": "#A9582A",
+  "leaf_hex": "#3A2A20",
+  "sources": [
+    "https://zh.wikipedia.org/wiki/%E6%B3%A1%E6%B2%AB%E7%B4%85%E8%8C%B6",
+    "https://en.wikipedia.org/wiki/Bubble_tea"
+  ],
+  "confidence": "medium",
+  "wikipedia_title": "Bubble tea",
+  "wikipedia_scope": "umbrella",
+  "popularity": 2,
+  "images": [],
+  "sources_note": "All origin stories are shops' own or unverified accounts. Latin spellings of Liu Han-chieh and Xiao Xie are mine."
+}

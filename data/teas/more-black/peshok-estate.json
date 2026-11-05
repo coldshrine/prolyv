@@ -1,0 +1,52 @@
+{
+  "slug": "peshok-estate",
+  "name_en": "Peshok",
+  "name_native": null,
+  "name_romanized": null,
+  "name_zh": "佩肖克茶园大吉岭红茶",
+  "name_ru": "Пешок",
+  "aliases": [
+    "Peshok Tea Garden",
+    "Darjeeling Peshok"
+  ],
+  "category": "black",
+  "origin_country": "India",
+  "origin_region": "West Bengal · Darjeeling · Rangli Rangliot",
+  "cultivar": null,
+  "processing": "Little is documented about this garden's methods. Darjeeling tea is typically made orthodox, while workers here have also made tea by hand during the garden's closure.",
+  "form": "loose",
+  "harvest_season": "Not documented for this garden. Darjeeling picking generally runs from spring into autumn, in distinct flushes.",
+  "appearance_dry": "Typical of orthodox Darjeeling, twisted brown and olive leaf; hand-made lots can vary.",
+  "appearance_liquor": "Typical of Darjeeling, pale gold to amber depending on the flush.",
+  "appearance_wet": "Mixed green and copper leaf, as is usual for the region.",
+  "taste_profile": "No reliable tasting record exists for this garden. As with other Darjeelings, expect floral notes in spring tea and fuller fruit in summer tea.",
+  "taste_tags": [
+    "floral",
+    "fruity"
+  ],
+  "brewing": {
+    "grams": 3,
+    "water_ml": 250,
+    "temp_c": 90,
+    "steeps": 2,
+    "seconds": [
+      180,
+      240
+    ],
+    "notes": "A standard Western-style Darjeeling brew is a sensible start. Shorten the first steep if the lot is an unfamiliar hand-made one."
+  },
+  "caffeine_level": "medium",
+  "vintage_note": "Availability is the real question, because the garden has been closed or disrupted since the mid-2010s. Any lot should state its year and flush; treat older stock with care, as Darjeeling is usually best young.",
+  "description": "Peshok is a Darjeeling tea garden and village in the Rangli Rangliot block, and it is better documented for its troubles than for its tea. If you find a lot, you are holding something uncommon.\n\nAccounts of how it was made are thin. Darjeeling gardens typically make orthodox leaf tea, and during the closure workers tried to keep going with hand-made tea, so a lot from these years may not resemble a factory one.\n\nNothing reliable describes this garden's cup, so taste it without expectations. Typical of the district, spring tea leans floral and summer tea leans fruity, and a gentle first steep tells you most of what you need.\n\nBe cautious when buying: ask for the year, the flush and who made it. With a garden in this position, a seller who cannot answer those questions probably cannot vouch for the tea either.",
+  "history": "Peshok was held by the Alchemist Group together with Dooteriah and Kalej Valley. Accounts date the closure to 2015 or 2017, with no formal notice at first, and the gardens later passed to Trident. In 2019 the West Bengal government declared them officially locked out. Its founding and current state are not well documented.",
+  "liquor_hex": "#C4903F",
+  "leaf_hex": "#5A4E30",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Peshok_Tea_Garden"
+  ],
+  "confidence": "low",
+  "wikipedia_title": "Peshok Tea Garden",
+  "wikipedia_scope": "exact",
+  "popularity": 2,
+  "images": []
+}

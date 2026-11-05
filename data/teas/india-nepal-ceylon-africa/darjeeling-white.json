@@ -3,7 +3,12 @@
   "name_en": "Darjeeling White Tea",
   "name_native": "दार्जिलिङ चिया",
   "name_romanized": "Dārjiliṅ chiyā",
-  "aliases": ["Darjeeling silver tips", "Darjeeling white", "Darjeeling Silver Needle", "Darjeeling white tips"],
+  "aliases": [
+    "Darjeeling silver tips",
+    "Darjeeling white",
+    "Darjeeling Silver Needle",
+    "Darjeeling white tips"
+  ],
   "category": "white",
   "origin_country": "India",
   "origin_region": "West Bengal · Darjeeling",
@@ -15,12 +20,60 @@
   "appearance_liquor": "Very pale straw to light gold.",
   "appearance_wet": "Plump, downy buds that turn pale olive.",
   "taste_profile": "Delicate honey and fresh hay with a faint floral note and a gentle, clean sweetness; more body than its colour suggests.",
-  "taste_tags": ["honey", "floral", "sweet"],
-  "brewing": {"grams": 3, "water_ml": 200, "temp_c": 85, "steeps": 3, "seconds": [240, 300, 360], "notes": "Buds need a longer steep than they look: 85 °C and four minutes or more, and later steeps are often better than the first. Measure by weight, not by spoon."},
+  "taste_tags": [
+    "honey",
+    "floral",
+    "sweet"
+  ],
+  "brewing": {
+    "grams": 3,
+    "water_ml": 200,
+    "temp_c": 85,
+    "steeps": 3,
+    "seconds": [
+      240,
+      300,
+      360
+    ],
+    "notes": "Buds need a longer steep than they look: 85 °C and four minutes or more, and later steeps are often better than the first. Measure by weight, not by spoon."
+  },
   "caffeine_level": "medium",
   "vintage_note": "Sold by garden and year, usually as a spring harvest and occasionally as an autumn one; made in small quantities and priced at the top of an estate's list. Most is drunk young, within one to two years, though some drinkers age it like Fujian white tea; nobody sells it as a vintage product yet.",
   "description": "Darjeeling white tea is made from the downy spring buds of the region's clonal bushes, especially AV2, dried gently with almost no handling. It is a modern product of the gardens rather than a traditional one, and in a good year it rivals the best Fujian white teas for aroma while tasting unmistakably Himalayan.\n\nBuds, or buds with one tiny leaf, are plucked in March and April, withered slowly over many hours and dried at low heat; there is no rolling and no deliberate oxidation, only the slight browning that happens on its own. The result is fluffy, silver and very light for its volume, which is why you should measure it by weight rather than by spoon.\n\nThe liquor is barely coloured but has real body: honey and fresh hay, a gentle floral note, a soft sweetness and a cooling finish. Brew it with water around 85 °C and give it four minutes or more; it will not turn bitter, and the second and third steeps are often better than the first.\n\nIt is sold by estate and year, mostly as a spring lot and sometimes as an autumn one, and it is priced at the top of a garden's list because the pluck is slow and the yield tiny. Most people drink it within a year or two; a few age it like Fujian white tea, but no one sells it as an aged product yet.\n\nIf you like it, compare it with a Nepal white tea from across the border, which is made the same way and often costs less.",
   "wikipedia_title": "Darjeeling tea",
   "wikipedia_scope": "umbrella",
-  "popularity": 2
+  "popularity": 2,
+  "name_zh": "大吉岭白茶",
+  "name_ru": "Дарджилинг белый",
+  "history": "White tea in Darjeeling is a relatively modern line, added by gardens better known for black tea. One tea guide dates it to the late twentieth century; who made it first is not well documented.\n\nToday it is sold under garden names such as Rohini and Balasun, and sellers often name AV2 as the clone behind it. Lots vary in style: some are mostly silver buds, while others include young leaves, and some are sold outright as Bai Mudan, or White Peony.",
+  "liquor_hex": "#EDE0AE",
+  "leaf_hex": "#C8CBB4",
+  "sources": [
+    "https://tea-lab.pages.dev/teas/darjeeling-white/",
+    "https://gopaldharaindia.com/product/darjeeling-white-peony/",
+    "https://jayshreetea.com/products/darjeeling-balasun-white-tea-morning-dew-first-flush-2026"
+  ],
+  "confidence": "low",
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/49/Darjeeling_white_tea.jpg/1280px-Darjeeling_white_tea.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/49/Darjeeling_white_tea.jpg/330px-Darjeeling_white_tea.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Darjeeling_white_tea.jpg",
+      "author": "yoppy",
+      "license": "CC BY 2.0",
+      "license_url": "https://creativecommons.org/licenses/by/2.0",
+      "kind": "dry_leaf",
+      "alt": "Dry Margaret's Hope Darjeeling white tea, pale silvery-olive leaves and buds on a white plate"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d9/Darjeeling_White_Tea.jpg/1280px-Darjeeling_White_Tea.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d9/Darjeeling_White_Tea.jpg/330px-Darjeeling_White_Tea.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Darjeeling_White_Tea.jpg",
+      "author": "Benoy",
+      "license": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "kind": "dry_leaf",
+      "alt": "Pile of dry organic Darjeeling white tea, long pale green leaves and buds on a white surface"
+    }
+  ]
 }

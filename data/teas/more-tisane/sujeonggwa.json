@@ -1,0 +1,58 @@
+{
+  "slug": "sujeonggwa",
+  "name_en": "Sujeonggwa",
+  "name_native": "수정과",
+  "name_romanized": "Sujeonggwa",
+  "name_zh": "水正果",
+  "name_ru": "Суджонгва",
+  "aliases": [
+    "Korean persimmon punch",
+    "Cinnamon punch",
+    "Сучжонгва",
+    "柿饼汁"
+  ],
+  "category": "tisane",
+  "origin_country": "South Korea",
+  "origin_region": "Korea",
+  "cultivar": null,
+  "processing": "Ginger and cinnamon are boiled, often separately, then strained and sweetened with sugar or honey. Dried persimmon soaks in the cooled liquid, and it is served cold with pine nuts.",
+  "form": "other",
+  "harvest_season": "A prepared drink with no harvest; the dried persimmon is an autumn and winter product, but it is drunk all year.",
+  "appearance_dry": "Not a dry product: a dark liquid with soft dried persimmon and pine nuts floating in it.",
+  "appearance_liquor": "Clear, deep reddish brown.",
+  "appearance_wet": "Plump pieces of softened dried persimmon and a few pine nuts on the surface.",
+  "taste_profile": "Sweet and warmly spiced: ginger and cinnamon bite first, then the mellow sweetness of dried persimmon, all served cold.",
+  "taste_tags": [
+    "sweet",
+    "spicy",
+    "dried-fruit"
+  ],
+  "brewing": {
+    "grams": 40,
+    "water_ml": 1000,
+    "temp_c": 100,
+    "steeps": 1,
+    "seconds": [
+      3600
+    ],
+    "notes": "Boil ginger and cinnamon separately for the clearest flavour, about an hour for the ginger, then combine, sweeten and cool. Add dried persimmon only once cool and let it soak for several hours. Serve cold."
+  },
+  "caffeine_level": "none",
+  "vintage_note": "No vintages. It is made fresh at home or sold in cans and bottles with a use-by date, all year round. There is nothing to age or to look for by season.",
+  "description": "Sujeonggwa is a Korean dessert drink of ginger, cinnamon and dried persimmon, served cold with pine nuts after a meal. It is often filed among Korean traditional teas, but it contains no tea leaf and behaves more like a spiced punch.\n\nThe method is mostly patience. Ginger and cinnamon are simmered, ideally apart, strained and sweetened, and dried persimmon goes in only after the liquid has cooled, so it softens slowly.\n\nThe first sip brings a ginger and cinnamon heat that feels odd in a cold drink, and then persimmon sweetness settles it. If the spice overpowers, use less ginger next time.\n\nCanned versions are sold and make an easy introduction; homemade lets you set the sweetness and the spice yourself.\n\nOn a Korean table it often appears next to sikhye, the sweet rice drink, and trying them side by side is an easy way to learn both.",
+  "history": "Sujeonggwa first appears in the 1765 court record Sujak Uigwe, then in later cookbooks through to the 20th century. A 1795 royal record lists around twenty kinds at a palace banquet, mostly with dried persimmon, but also with pear, yuja, cherry and black raspberry.\n\nEarly versions used pear and yuja before dried persimmon soaked with ginger and pine nuts took over. Regional and older forms survive, including pear and pumpkin versions, and it is now sold in cans.",
+  "liquor_hex": "#8A3E1E",
+  "leaf_hex": "#8A4A22",
+  "sources": [
+    "https://ko.wikipedia.org/wiki/%EC%88%98%EC%A0%95%EA%B3%BC",
+    "https://zh.wikipedia.org/wiki/%E6%B0%B4%E6%AD%A3%E6%9E%9C",
+    "https://ja.wikipedia.org/wiki/%E3%82%B9%E3%82%B8%E3%83%A7%E3%83%B3%E3%82%B0%E3%82%A1",
+    "https://en.wikipedia.org/wiki/List_of_Korean_drinks",
+    "https://www.wikidata.org/wiki/Q39553"
+  ],
+  "confidence": "high",
+  "wikipedia_title": "List of Korean drinks",
+  "wikipedia_scope": "umbrella",
+  "popularity": 3,
+  "images": []
+}

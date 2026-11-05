@@ -3,10 +3,18 @@
   "name_en": "Lao Cha Tou (Old Tea Nuggets)",
   "name_native": "老茶头",
   "name_romanized": "Lǎo Chátóu",
-  "aliases": ["Lao cha tou", "Tea heads", "Tea nuggets", "Cha tou", "Old tea heads", "Shu nuggets", "茶头"],
+  "aliases": [
+    "Lao cha tou",
+    "Tea heads",
+    "Tea nuggets",
+    "Cha tou",
+    "Old tea heads",
+    "Shu nuggets",
+    "茶头"
+  ],
   "category": "shu",
   "origin_country": "China",
-  "origin_region": "Yunnan (mostly Menghai and Lincang fermentation)",
+  "origin_region": "Yunnan",
   "cultivar": "Yunnan large-leaf (Camellia sinensis var. assamica), mixed plantation and arbor leaf",
   "processing": "During wet-piling, leaves in the hottest, wettest part of the pile exude pectin and sugars and stick together into dense knots; these clumps are sorted out after fermentation, dried and sold as they are, sometimes pressed into bricks.",
   "form": "other",
@@ -15,13 +23,48 @@
   "appearance_liquor": "Very dark red-brown, glossy and clear once the nuggets open.",
   "appearance_wet": "The knots soften slowly into clumps of thick, dark, still-stuck-together leaves.",
   "taste_profile": "Sweet, thick and very clean: red dates, sticky rice, a touch of cocoa and damp wood, a syrupy body, almost no earthiness or bitterness and a long steady finish that keeps going for twenty steeps.",
-  "taste_tags": ["sweet", "dried-fruit", "creamy", "woody"],
-  "brewing": {"grams": 8, "water_ml": 120, "temp_c": 100, "steeps": 12, "seconds": [20, 15, 15, 20, 25, 30, 40, 60, 90, 120, 180, 300], "notes": "Rinse twice with boiling water, the second rinse 20–30 seconds, because the nuggets are slow to open. Boiling water throughout; the spent nuggets can be simmered for a final sweet pot. Pick out any dust or foreign bits before brewing."},
+  "taste_tags": [
+    "sweet",
+    "dried-fruit",
+    "creamy",
+    "woody"
+  ],
+  "brewing": {
+    "grams": 8,
+    "water_ml": 120,
+    "temp_c": 100,
+    "steeps": 12,
+    "seconds": [
+      20,
+      15,
+      15,
+      20,
+      25,
+      30,
+      40,
+      60,
+      90,
+      120,
+      180,
+      300
+    ],
+    "notes": "Rinse twice with boiling water, the second rinse 20–30 seconds, because the nuggets are slow to open. Boiling water throughout; the spent nuggets can be simmered for a final sweet pot. Pick out any dust or foreign bits before brewing."
+  },
   "caffeine_level": "medium",
   "vintage_note": "Sold by production year, loose by weight or as pressed bricks, and the big Menghai factory's 2006 'Lao Cha Tou brick' is the product that turned a by-product into a category, so there is little labelled cha tou from before the mid-2000s. Most on sale is 1–8 years old; the nuggets lose their pile smell slowly because they are dense, so 3–5 years is the comfortable minimum, and 10-year-old lots are sweet and smooth without being expensive. The 'lao' in the name means the nuggets are from an older, well-fermented pile style, not that the tea is aged; check the year.",
   "description": "Lao cha tou, 'old tea heads', are the lumps that form in a ripe pu-erh pile: in the hottest, wettest core of the heap the leaves sweat out pectin and sugars and glue themselves into knots that the workers cannot break apart when turning the pile. For decades they were sorted out and sold cheaply or kept by the factory hands; since a big Menghai brand pressed them into a brick in 2006 they have become a product people seek out.\n\nNothing else is done to them. They are sifted from the finished pile, dried and sold as nuggets from pea to walnut size, or pressed together into bricks. Because they formed where fermentation was most intense, they are usually very fully fermented and, once their pile smell has faded, exceptionally clean.\n\nIn the cup they are the sweetest thing in ripe pu-erh: red dates, sticky rice, cocoa and wood in a thick, syrupy soup, with almost no earthiness or bitterness and a finish that just keeps going. The nuggets open slowly, so give them two long rinses and expect the first steeps to be pale; by the fourth they are dark and dense, and they will run fifteen or twenty infusions, after which simmering them gives a final sweet pot.\n\nThey are sold by production year, loose or in bricks, at moderate prices, with the Menghai factory's bricks the reference and many smaller producers offering loose nuggets. Quality varies with the cleanliness of the pile and the sorting: good lots are uniform hard nuggets with no dust, poor ones are crumbly, dusty and sour. The name confuses people; 'lao' refers to the style of nugget, not to age, so the year on the label is the real age.\n\nThey are the ripe tea to give someone who thinks shu tastes like dirt, and an excellent tea to boil on a cold day.",
   "wikipedia_title": "Pu'er tea",
   "wikipedia_scope": "umbrella",
   "popularity": 3,
-  "sources_note": "Form set to 'other' (loose nuggets, also pressed into bricks). The 2006 Dayi Lao Cha Tou brick as the product that popularised the category is standard trade history."
+  "sources_note": "Form set to 'other' (loose nuggets, also pressed into bricks). The 2006 Dayi Lao Cha Tou brick as the product that popularised the category is standard trade history.",
+  "name_zh": "老茶头",
+  "name_ru": "Лао Ча Тоу",
+  "history": "Lao cha tou began as a by-product. Leaves in a ripe pu-erh pile can stick into hard knots that do not break up when the heap is turned, and these were sorted out at the end of fermentation.\n\nThe usual story says factory workers kept the knots for themselves until the market caught on, and that a Menghai brick helped turn them into a product of their own. Little is firmly documented about that history, so it is best taken as trade lore.",
+  "liquor_hex": "#3A170A",
+  "leaf_hex": "#2F1E14",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Pu%27er_tea"
+  ],
+  "confidence": "low",
+  "images": []
 }

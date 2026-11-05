@@ -1,0 +1,63 @@
+{
+  "slug": "chuan-zi-cha",
+  "name_en": "Chuan Zi Cha",
+  "name_native": "川字茶",
+  "name_romanized": "Chuānzìchá",
+  "name_zh": "川字茶",
+  "name_ru": "Чуань Цзы Ча",
+  "aliases": [
+    "川-character Brick",
+    "Chuan character brick",
+    "川字茶砖",
+    "川字青砖",
+    "Chuanzi brick"
+  ],
+  "category": "heicha",
+  "origin_country": "China",
+  "origin_region": "Hubei · Xianning · Chibi",
+  "cultivar": null,
+  "processing": "Hubei green brick: fixed, rolled, pile-fermented, then steamed, pressed into a brick stamped with the character 川, and dried.",
+  "form": "brick",
+  "harvest_season": "Not sold by a prized picking; bricks are bought by factory and production year.",
+  "appearance_dry": "Hard, dark brown rectangular brick with the character 川 on its face.",
+  "appearance_liquor": "Red-brown to deep red.",
+  "appearance_wet": "Dark brown, coarse, broken leaf.",
+  "taste_profile": "As with other Hubei bricks, it is soft and mellow with old wood and earth, and sometimes a little honey with age.",
+  "taste_tags": [
+    "earthy",
+    "woody",
+    "sweet"
+  ],
+  "brewing": {
+    "grams": 6,
+    "water_ml": 120,
+    "temp_c": 98,
+    "steeps": 6,
+    "seconds": [
+      20,
+      20,
+      25,
+      30,
+      45,
+      60
+    ],
+    "notes": "General advice for Hubei brick: pry off a chunk, rinse, and use water at or near boiling. A brick also takes well to simmering."
+  },
+  "caffeine_level": "medium",
+  "vintage_note": "Sold as a pressed brick by factory and production year, and it is kept and aged like other Hubei dark tea. The 川 stamp is a mark of the type but is no guarantee of age or quality, so look for the producer and year as well.",
+  "description": "Chuan zi cha is Hubei green brick tea named for what you see on it: the character 川 pressed into the brick's face. The stamp served as a trademark in the modern era and became the name people used for the tea, so this is really qing zhuan by another name.\n\nIt is made the same way as other bricks of the area: leaf is fixed and rolled, then piled to ferment, and steamed and pressed. The result is a hard, dark slab made to survive long journeys.\n\nExpect what is typical of Hubei brick in the cup, soft and earthy with old wood, poured a red-brown colour. Use boiling water and be patient with the chisel, since a pried-off chunk brews better than dust.\n\nThe name is not a formal grade. If you see 川 on a brick, read it as a sign of its type and history, and then judge the seller by the year and producer on the wrapper.",
+  "history": "Green brick tea was produced at Yangloudong in Puqi during the Qing dynasty, and the 川 mark came later, when it was used as a trademark on the brick's face in the modern era.\n\nThe bricks travelled. In the 1860s period, a Russian merchant with a trading house and tea factory at Hankou had Chinese workers make chuan zi bricks along with other teas for shipment to Russian Central Asia, and some of that tea crossed back into Ili and Tacheng in Xinjiang.",
+  "liquor_hex": "#843C1C",
+  "leaf_hex": "#33261B",
+  "sources": [
+    "https://m.jiemian.com/article/780057.html",
+    "https://zh.wikipedia.org/wiki/%E5%90%89%E7%A5%A5%E6%B6%8C%E5%95%86%E8%A1%8C",
+    "https://www.ichabaike.com/heicha/laoqingcha/"
+  ],
+  "confidence": "medium",
+  "wikipedia_title": "Dark tea",
+  "wikipedia_scope": "umbrella",
+  "popularity": 2,
+  "images": [],
+  "sources_note": "Kept separate because the 川 stamp has its own history, but this is the same tea family as hubei-heicha and lao-qing-cha. The 1860s timing is inferred from the merchant's career in the page, so check it."
+}

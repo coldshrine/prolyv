@@ -1,0 +1,51 @@
+{
+  "slug": "ureshino-koucha",
+  "name_en": "Ureshino Koucha",
+  "name_native": "嬉野紅茶",
+  "name_romanized": "Ureshino Kōcha",
+  "name_zh": "嬉野红茶",
+  "name_ru": "Урэсино котя",
+  "aliases": [
+    "Ureshino black tea"
+  ],
+  "category": "black",
+  "origin_country": "Japan",
+  "origin_region": "Saga · Ureshino",
+  "cultivar": null,
+  "processing": "Made as a fully oxidised black tea, as with other Japanese wakoucha: withered, rolled, oxidised and dried. Little is documented about local specifics.",
+  "form": "loose",
+  "harvest_season": "Not fixed; Japanese black tea usually follows the same seasonal flushes as local green tea, and each maker states its own picking.",
+  "appearance_dry": "Typical of Japanese black tea, dark twisted leaf with a reddish-brown cast.",
+  "appearance_liquor": "Typically a clear reddish amber.",
+  "appearance_wet": "Typically coppery-brown open leaf.",
+  "taste_profile": "No documented house style; Japanese black teas in general tend to be gentle and sweet with little astringency.",
+  "taste_tags": [
+    "sweet",
+    "malty"
+  ],
+  "brewing": {
+    "grams": 3,
+    "water_ml": 200,
+    "temp_c": 95,
+    "steeps": 2,
+    "seconds": [
+      150,
+      210
+    ],
+    "notes": "A usual Western-style starting point for Japanese black tea."
+  },
+  "caffeine_level": "medium",
+  "vintage_note": "Usual for Japanese black tea, it is sold from recent harvests by small makers and is best drunk within a year or two. Look for the maker and the cultivar on the label.",
+  "description": "Ureshino koucha is black tea from Ureshino in Saga prefecture, a town far better known for its green tea. It is a place name on a bag and not a defined style.\n\nThe method is the standard one for black tea. Anything more specific depends on the individual grower.\n\nAs with other Japanese black teas, expect a soft, mild cup. Start with a Western-style steep and drink it plain.\n\nBuy it by maker, and ask which cultivar and picking you are getting.",
+  "history": "Little is documented about black tea in Ureshino: when it began and who made it known are not clearly recorded. It is best understood as a side line of a green tea district.",
+  "liquor_hex": "#B9692E",
+  "leaf_hex": "#4B3122",
+  "sources": [
+    "https://ja.wikipedia.org/wiki/和紅茶"
+  ],
+  "confidence": "low",
+  "wikipedia_title": null,
+  "wikipedia_scope": "none",
+  "popularity": 2,
+  "images": []
+}

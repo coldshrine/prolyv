@@ -1,0 +1,57 @@
+{
+  "slug": "cha-manao",
+  "name_en": "Cha Manao (Lime Thai Tea)",
+  "name_native": "ชามะนาว",
+  "name_romanized": "cha manao",
+  "name_zh": "泰式柠檬茶",
+  "name_ru": "Ча манао",
+  "aliases": [
+    "Cha manao",
+    "Lime Thai tea",
+    "Thai lime tea"
+  ],
+  "category": "black",
+  "origin_country": "Thailand",
+  "origin_region": "Thailand",
+  "cultivar": null,
+  "processing": "A drink, not a leaf style: strong dark Thai tea is sweetened with sugar, flavoured with lime and served without milk, sometimes with mint.",
+  "form": "other",
+  "harvest_season": "Not relevant to the drink; it is made all year.",
+  "appearance_dry": "There is no dry form of the drink itself; the base is the strong black tea used for Thai tea.",
+  "appearance_liquor": "Clear dark reddish amber over ice, as is typical of milkless Thai tea, lightening where the lime goes in.",
+  "appearance_wet": "No leaf reaches the glass; a mint sprig or lime piece may garnish it.",
+  "taste_profile": "Sweet and sharp: strong, tannic black tea with lime on top, and sometimes a cool lift from mint.",
+  "taste_tags": [
+    "citrus",
+    "tart",
+    "sweet",
+    "brisk"
+  ],
+  "brewing": {
+    "grams": 6,
+    "water_ml": 250,
+    "temp_c": 95,
+    "steeps": 1,
+    "seconds": [
+      300
+    ],
+    "notes": "Brew strong, dissolve the sugar while the tea is hot, chill over ice and add the lime last. Fresh juice tastes best when added just before drinking."
+  },
+  "caffeine_level": "medium",
+  "vintage_note": "There are no vintages: it is made fresh from whatever Thai tea base the vendor uses, typically Ceylon tea or locally grown Assam-type leaf. The dry mix keeps the way any black tea does, and the prepared drink should be finished the same day.",
+  "description": "Cha manao is Thailand's lime iced tea, the sharp milkless cousin of the orange cha yen. Think of dark Thai iced tea with lime squeezed into it.\n\nIt starts from the same strongly brewed tea as other Thai tea drinks, but it skips the milk and is sweetened only with sugar. Lime goes in for acid, and mint is an optional extra.\n\nThe balance is the whole game: enough sugar to carry the tannin, enough lime to cut the sugar. Taste it before adding ice, keeping in mind that melting ice will thin it out.\n\nThere is nothing special to buy here, as the same strong black tea used for cha yen works well. Fresh lime makes more difference than the choice of tea.",
+  "history": "Little is documented about when or where this drink first appeared. It is treated as one of the standard variations in the Thai tea family, alongside cha yen and the plain sweetened cha dam yen, and it is served everywhere from street stalls to smart restaurants.",
+  "liquor_hex": "#9C4A1E",
+  "leaf_hex": "#2F2019",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Thai_tea",
+    "https://zh.wikipedia.org/wiki/%E6%B3%B0%E5%BC%8F%E5%A5%B6%E8%8C%B6",
+    "https://ko.wikipedia.org/wiki/%EC%B0%A8_%EC%98%8C"
+  ],
+  "confidence": "low",
+  "wikipedia_title": "Thai tea",
+  "wikipedia_scope": "umbrella",
+  "popularity": 2,
+  "images": [],
+  "sources_note": "name_zh is descriptive; 柠檬 strictly means lemon, and the zh page uses 柠檬茶 for this drink."
+}

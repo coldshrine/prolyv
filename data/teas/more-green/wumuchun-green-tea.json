@@ -1,0 +1,54 @@
+{
+  "slug": "wumuchun-green-tea",
+  "name_en": "Wumuchun Green Tea",
+  "name_native": "乌木春绿茶",
+  "name_romanized": "Wūmùchūn Lǜchá",
+  "aliases": [
+    "Wumuchunlvcha"
+  ],
+  "category": "green",
+  "origin_country": "China",
+  "origin_region": "Yunnan · Lijiang, Huaping",
+  "cultivar": null,
+  "form": "loose",
+  "caffeine_level": "medium",
+  "brewing": {
+    "grams": 3,
+    "water_ml": 150,
+    "temp_c": 80,
+    "steeps": 3,
+    "seconds": [
+      60,
+      75,
+      105
+    ],
+    "notes": "A safe starting point for green tea: cooler water, short steeps, then adjust by taste."
+  },
+  "taste_tags": [
+    "vegetal",
+    "sweet"
+  ],
+  "description": "A green tea from Huaping county in Lijiang, made by the tea factory of Yongxing Lisu township.\n\nTreat it as you would any green tea: cooler water, short steeps, and a seller who can say where and when it was picked.",
+  "wikipedia_title": null,
+  "wikipedia_scope": "none",
+  "popularity": 1,
+  "name_zh": "乌木春绿茶",
+  "name_ru": "У Му Чунь Люй Ча",
+  "history": "It is made from large-leaf tea grown high in the mist along the Wumu River. Little more is documented about it.",
+  "liquor_hex": "#D6D27A",
+  "leaf_hex": "#7E8B3E",
+  "sources": [
+    "https://milulu.com.cn/techan/22747.html",
+    "https://www.yunnanexploration.com/?p=64773"
+  ],
+  "confidence": "low",
+  "images": [],
+  "stub": true,
+  "processing": "Typical of green tea: picked, heated soon after picking to stop oxidation, then shaped and dried.",
+  "harvest_season": "Usually picked in spring, with the earliest pickings prized, as with most green teas.",
+  "appearance_dry": "Green leaf whose shape depends on the maker, as is usual for regional green teas.",
+  "appearance_liquor": "Usually a clear, pale yellow-green.",
+  "appearance_wet": "Usually soft green leaf that opens up in the water.",
+  "taste_profile": "Expect what green teas usually give: fresh, vegetal and lightly sweet.",
+  "vintage_note": "Green teas like this are normally sold as the current year's harvest and are best within a year of picking. It is not an ageing tea."
+}

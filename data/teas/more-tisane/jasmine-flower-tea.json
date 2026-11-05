@@ -1,0 +1,61 @@
+{
+  "slug": "jasmine-flower-tea",
+  "name_en": "Jasmine Flower Tea (Mo Li Hua)",
+  "name_native": "茉莉花",
+  "name_romanized": "Mòlìhuā",
+  "name_zh": "茉莉花",
+  "name_ru": "Мо Ли Хуа (цветки жасмина)",
+  "aliases": [
+    "Jasmine Bud",
+    "茉莉花蕾",
+    "Jasmine Flowers (Mo Li Hua)",
+    "Цветки жасмина (Моли Хуа)",
+    "Молихуа",
+    "Arabian jasmine",
+    "Jasminum sambac"
+  ],
+  "category": "tisane",
+  "origin_country": "China",
+  "origin_region": "Southern China",
+  "cultivar": "Jasminum sambac",
+  "processing": "Flower buds of Jasminum sambac are picked while white and closed, then dried and steeped alone. It contains no tea leaf, unlike jasmine tea, where fresh flowers scent a green tea base.",
+  "form": "other",
+  "harvest_season": "Chinese growers see flowers from May to October, with the peak in summer. Buds are gathered in the early morning, selected by colour: white rather than green.",
+  "appearance_dry": "Small, pale cream to straw-coloured closed buds, some with a touch of green at the base.",
+  "appearance_liquor": "Very pale straw yellow and clear.",
+  "appearance_wet": "Plump, soft ivory buds, partly opened and slightly translucent.",
+  "taste_profile": "Light and thin-bodied, with a sweet, heady floral scent that is stronger on the nose than on the tongue.",
+  "taste_tags": [
+    "floral",
+    "sweet"
+  ],
+  "brewing": {
+    "grams": 2,
+    "water_ml": 250,
+    "temp_c": 90,
+    "steeps": 2,
+    "seconds": [
+      180,
+      300
+    ],
+    "notes": "A small pinch is enough, since the scent can overpower. Slightly cooled water keeps it from turning sharp; a few buds also work added to green or white tea."
+  },
+  "caffeine_level": "none",
+  "vintage_note": "Sold by weight as dried buds with no vintage year. As with other dried flowers, the current season is what you want, because aroma fades in storage. Keep the buds sealed away from light and strong smells.",
+  "description": "Mo Li Hua is the dried bud of Arabian jasmine, Jasminum sambac, brewed by itself. It is easy to mix up with jasmine tea, but this one has no tea leaf and so no caffeine: you are drinking the flower alone.\n\nThe buds matter more than open blossoms. They are picked in the early morning and judged by colour, since green ones do not develop the expected fragrance, and open flowers lose their scent sooner.\n\nIn the cup it is mostly aroma: sweet, heady and floral over a thin, gentle body. Most people use too much. Start with a small pinch and short contact, then add more on the next attempt.\n\nShops sell it by weight, usually without a harvest date, so smell it if you can. Look for clean floral fragrance and pale, unbroken buds. Brown buds or a dusty smell mean old stock. Any medicinal claims on the packet are not well supported.\n\nThe buds are also handy for blending. A few in a pot of green tea or oolong give a quick, loose version of a scented tea, and Japanese writing on the plant mentions dried buds mixed with oolong in just this way.",
+  "history": "The plant was spread by people across South and West Asia, and early Chinese records point to Southeast Asia as its source. Double-flowered forms are the common ones grown in China, while many-petalled forms reached Guangdong and Taiwan in the Qing dynasty. Carl Linnaeus described the species in 1753 and William Aiton moved it to Jasminum in 1789.\n\nIn Fuzhou, where it is the city flower, jasmine has a long link with tea through scenting green tea. Little is documented about when people began drinking the dried buds alone.",
+  "wikipedia_title": "Jasminum sambac",
+  "wikipedia_scope": "umbrella",
+  "popularity": 3,
+  "liquor_hex": "#EFE6B8",
+  "leaf_hex": "#D9CFA6",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Jasminum_sambac",
+    "https://zh.wikipedia.org/wiki/%E8%8C%89%E8%8E%89%E8%8A%B1",
+    "https://ja.wikipedia.org/wiki/%E3%83%9E%E3%83%84%E3%83%AA%E3%82%AB",
+    "https://www.wikidata.org/wiki/Q1356614",
+    "https://winghopfung.com/zh/products/dried-jasmine-flower-1324-4oz"
+  ],
+  "confidence": "medium",
+  "images": []
+}

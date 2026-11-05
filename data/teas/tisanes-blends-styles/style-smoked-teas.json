@@ -3,10 +3,17 @@
   "name_en": "Smoked Teas (style)",
   "name_native": "烟熏茶 / 正山小种",
   "name_romanized": "Yānxūn chá",
-  "aliases": ["Smoked tea", "Pine-smoked tea", "Lapsang Souchong (style)", "Zheng Shan Xiao Zhong", "Smoky tea", "Tarry Souchong"],
+  "aliases": [
+    "Smoked tea",
+    "Pine-smoked tea",
+    "Lapsang Souchong (style)",
+    "Zheng Shan Xiao Zhong",
+    "Smoky tea",
+    "Tarry Souchong"
+  ],
   "category": "black",
   "origin_country": "China",
-  "origin_region": "Fujian · Wuyi Mountains · Tongmu (home of Lapsang Souchong); smoked teas are also made in Hunan, Yunnan and by Western blenders",
+  "origin_region": "Fujian · Wuyi Mountains · Tongmu",
   "cultivar": "Wuyi Caicha (local small-leaf bushes) for Tongmu Lapsang; various for other smoked teas",
   "processing": "Tea is dried, and sometimes withered, over smouldering pine in a smokehouse: in the Tongmu tradition the leaf is withered on racks above a pine fire, rolled, oxidised, pan-fired and then finished over pine smoke, so the smoke is part of the making. Many modern 'smoked' teas are smoked after processing, and cheap ones are made with liquid smoke flavouring.",
   "form": "loose",
@@ -15,12 +22,81 @@
   "appearance_liquor": "Deep red-amber, clear.",
   "appearance_wet": "Dark copper leaf, the smoke softer and sweeter once wet.",
   "taste_profile": "Pine smoke, tar and a bacon-like savouriness over a sweet, malty black tea with dried longan and a cooling finish; lightly smoked originals are balanced and fruity, heavy export styles are campfire first and tea second.",
-  "taste_tags": ["smoky", "woody", "sweet", "malty"],
-  "brewing": {"grams": 5, "water_ml": 120, "temp_c": 95, "steeps": 5, "seconds": [15, 15, 20, 30, 45], "notes": "Gongfu with short steeps shows the fruit behind the smoke; Western style, 3 g per 250 ml for 3 minutes. Heavily smoked teas take milk and are the classic match for smoked fish, cheese and a full breakfast. The smoke mellows noticeably after a year or two in a sealed tin."},
+  "taste_tags": [
+    "smoky",
+    "woody",
+    "sweet",
+    "malty"
+  ],
+  "brewing": {
+    "grams": 5,
+    "water_ml": 120,
+    "temp_c": 95,
+    "steeps": 5,
+    "seconds": [
+      15,
+      15,
+      20,
+      30,
+      45
+    ],
+    "notes": "Gongfu with short steeps shows the fruit behind the smoke; Western style, 3 g per 250 ml for 3 minutes. Heavily smoked teas take milk and are the classic match for smoked fish, cheese and a full breakfast. The smoke mellows noticeably after a year or two in a sealed tin."
+  },
   "caffeine_level": "medium",
-  "vintage_note": "Sold as the current spring harvest for Tongmu originals, with the smoke level the main variable: lightly smoked traditional lots, heavily smoked export grades (sometimes called Tarry Souchong), and, most Tongmu production today, unsmoked 'Zheng Shan Xiao Zhong', which is a completely different, honeyed tea under the same name. Western blends such as Russian Caravan use a proportion of smoked leaf and are sold year-round. Smoked teas keep well for several years and soften with age; a tin of heavy Lapsang is often better in its second year.",
-  "description": "Smoked tea is the tea that smells of a campfire, and almost all of it descends from one place: Tongmu village in the Wuyi Mountains of Fujian, where Lapsang Souchong was first dried over pine fires, probably as a way to finish tea fast in the damp mountain spring. It became a British favourite in the nineteenth century, and heavy, tarry export grades were made to suit that taste.\n\nThe method is the whole style. In Tongmu the leaf is withered on bamboo racks in a smokehouse above a slow pine fire, rolled and oxidised, then dried again over pine smoke, so the smoke is woven in at two stages and the result is layered, with dried longan and malt underneath. Elsewhere, and for the export market, finished tea is simply smoked hard afterwards, which gives the bonfire effect, and the cheapest versions use smoke flavouring and taste of it.\n\nA good smoked tea is a surprise: brewed short and hot, the smoke sits on top of a sweet, fruity black tea rather than replacing it, and the cup is savoury, cooling and long. The common mistake is stewing it, which turns pine into ashtray. It takes milk if the smoke is heavy, and it is the best tea in the world for smoked salmon, bacon and strong cheese.\n\nWhen buying, the first question is smoke level, the second is whether it was smoked in the making or afterwards, and the third is to note that most Tongmu tea now sold as Zheng Shan Xiao Zhong is unsmoked. Smoked teas keep for years and soften, so an older tin is no problem.\n\nIf you like the idea but find Lapsang too much, Russian Caravan dilutes it with Keemun and oolong, and a lightly smoked Tongmu lot is the refined end of the style.",
+  "vintage_note": "Sold as the current spring harvest for Tongmu originals, with the smoke level the main variable: lightly smoked traditional lots, heavily smoked export grades (sometimes called Tarry Souchong), and, in much of Tongmu's production today, unsmoked 'Zheng Shan Xiao Zhong', which is a completely different, honeyed tea under the same name. Western blends such as Russian Caravan use a proportion of smoked leaf and are sold year-round. Smoked teas keep well for several years and soften with age; a tin of heavy Lapsang is often better in its second year.",
+  "description": "Smoked tea is the tea that smells of a campfire, and its reference point is one place: Tongmu village in the Wuyi Mountains of Fujian, the traditional home of Lapsang Souchong, dried over pine fires, by one common explanation as a way to finish tea fast in the damp mountain spring. It found a following in the West, and heavy, tarry export grades were made to suit that taste.\n\nThe method is the whole style. In Tongmu the leaf is withered on bamboo racks in a smokehouse above a slow pine fire, rolled and oxidised, then dried again over pine smoke, so the smoke is woven in at two stages and the result is layered, with dried longan and malt underneath. Elsewhere, and for the export market, finished tea is simply smoked hard afterwards, which gives the bonfire effect, and the cheapest versions use smoke flavouring and taste of it.\n\nA good smoked tea is a surprise: brewed short and hot, the smoke sits on top of a sweet, fruity black tea rather than replacing it, and the cup is savoury, cooling and long. The common mistake is stewing it, which turns pine into ashtray. It takes milk if the smoke is heavy, and it is the best tea in the world for smoked salmon, bacon and strong cheese.\n\nWhen buying, the first question is smoke level, the second is whether it was smoked in the making or afterwards, and the third is to note that much Tongmu tea now sold as Zheng Shan Xiao Zhong is unsmoked. Smoked teas keep for years and soften, so an older tin is no problem.\n\nIf you like the idea but find Lapsang too much, Russian Caravan dilutes it with Keemun and oolong, and a lightly smoked Tongmu lot is the refined end of the style.",
   "wikipedia_title": "Lapsang souchong",
   "wikipedia_scope": "umbrella",
-  "popularity": 3
+  "popularity": 3,
+  "name_zh": "烟熏茶",
+  "name_ru": "Копчёные чаи",
+  "history": "The best-known smoked tea is lapsang souchong, from the Wuyi Mountains of Fujian, and it is the reference point for the style. It has been sold under names such as smoky souchong and tarry lapsang souchong. It is also produced in Taiwan.\n\nThe usual leaf is the larger, coarser lower leaf, which takes smoke readily and has less aroma of its own to lose, though any leaf can be used. Pine (Pinus taiwanensis) is the standard fuel, with cedar and cypress sometimes used instead. Zheng Shan Xiao Zhong is the version that uses young leaves and the bud. When and why smoking began is less well documented than the method itself, so explanations of its origin are best taken as tradition.",
+  "liquor_hex": "#8F3E1B",
+  "leaf_hex": "#231A15",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Lapsang_souchong"
+  ],
+  "confidence": "medium",
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bb/Lapsang_Souchong.jpg/1280px-Lapsang_Souchong.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bb/Lapsang_Souchong.jpg/330px-Lapsang_Souchong.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Lapsang_Souchong.jpg",
+      "author": "Difference engine",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "kind": "dry_leaf",
+      "alt": "Pile of dark, twisted dry Lapsang Souchong leaves from Fujian"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/86/JacksonsLapsangSouchong_low.jpg/1280px-JacksonsLapsangSouchong_low.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/86/JacksonsLapsangSouchong_low.jpg/330px-JacksonsLapsangSouchong_low.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source_page": "https://commons.wikimedia.org/wiki/File:JacksonsLapsangSouchong_low.jpg",
+      "author": "No machine-readable author provided. Sjhan81 assumed (based on copyright claims).",
+      "license": "CC BY-SA 3.0",
+      "license_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+      "kind": "dry_leaf",
+      "alt": "Dry black Lapsang Souchong leaves on a white background"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b2/Tekoe_-_Lapsang_Souchong_tea_-_WikiTea.jpg/1280px-Tekoe_-_Lapsang_Souchong_tea_-_WikiTea.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b2/Tekoe_-_Lapsang_Souchong_tea_-_WikiTea.jpg/330px-Tekoe_-_Lapsang_Souchong_tea_-_WikiTea.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Tekoe_-_Lapsang_Souchong_tea_-_WikiTea.jpg",
+      "author": "Ash Crow",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "kind": "dry_leaf",
+      "alt": "Dry Lapsang Souchong leaves in a white porcelain tea vessel"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3e/Lapsang_souchong_tea.jpg/1280px-Lapsang_souchong_tea.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3e/Lapsang_souchong_tea.jpg/330px-Lapsang_souchong_tea.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Lapsang_souchong_tea.jpg",
+      "author": "No machine-readable author provided. Deltabeignet assumed (based on copyright claims).",
+      "license": "CC BY-SA 3.0",
+      "license_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+      "kind": "liquor",
+      "alt": "Red-amber brewed Lapsang Souchong in a clear glass"
+    }
+  ]
 }

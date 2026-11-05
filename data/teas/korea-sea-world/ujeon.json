@@ -3,10 +3,17 @@
   "name_en": "Ujeon (Korean Pre-Rain Green Tea)",
   "name_native": "우전",
   "name_romanized": "Ujeon",
-  "aliases": ["Woojeon", "Ujeon-cha", "Cheonmul-cha", "雨前", "Korean first flush green tea", "Pre-rain tea"],
+  "aliases": [
+    "Woojeon",
+    "Ujeon-cha",
+    "Cheonmul-cha",
+    "雨前",
+    "Korean first flush green tea",
+    "Pre-rain tea"
+  ],
   "category": "green",
   "origin_country": "South Korea",
-  "origin_region": "Gyeongsangnam-do · Hadong · Jirisan (also Jeollanam-do · Boseong and Jeju)",
+  "origin_region": "Gyeongsangnam-do · Hadong · Jirisan",
   "cultivar": "Seed-grown native bushes (jaeraejong) in Hadong; Yabukita and other clonal cultivars on the Boseong and Jeju plantations",
   "processing": "Hand-picked buds with at most one tiny leaf, pan-fired in a heated iron cauldron and hand-rolled in several short cycles (deokkeum-cha), then dried slowly at low heat; a minority of plantation ujeon is steamed instead.",
   "form": "loose",
@@ -15,12 +22,41 @@
   "appearance_liquor": "Very pale yellow-green, bright and completely clear.",
   "appearance_wet": "Whole buds and baby leaves of uniform size, soft olive green.",
   "taste_profile": "Gentle and sweet: fresh soybean and steamed chestnut, a nutty warmth from the pan, a soft savoury body and a long clean finish with almost no astringency when brewed cool.",
-  "taste_tags": ["sweet", "nutty", "umami", "vegetal"],
-  "brewing": {"grams": 3, "water_ml": 100, "temp_c": 60, "steeps": 4, "seconds": [60, 45, 60, 90], "notes": "Small teapot or gaiwan, water cooled first (Korean tea tables use a cooling bowl, the sukwu, for exactly this). Hotter water flattens it into generic green tea and brings out a bitterness it does not need to show."},
+  "taste_tags": [
+    "sweet",
+    "nutty",
+    "umami",
+    "vegetal"
+  ],
+  "brewing": {
+    "grams": 3,
+    "water_ml": 100,
+    "temp_c": 60,
+    "steeps": 4,
+    "seconds": [
+      60,
+      45,
+      60,
+      90
+    ],
+    "notes": "Small teapot or gaiwan, water cooled first (Korean tea tables use a cooling bowl, the sukwu, for exactly this). Hotter water flattens it into generic green tea and brings out a bitterness it does not need to show."
+  },
   "caffeine_level": "medium",
   "vintage_note": "Sold only as the current spring's harvest and labelled by grade, not by date; it reaches shops in late April or May and is usually gone by summer. Quantities are tiny, so it costs several times more than sejak from the same garden, and last year's ujeon is a markdown item rather than something to collect. Keep it sealed and cool and finish it within the year.",
   "description": "Ujeon is the name Korean growers give to the very first pick of the spring, taken before Gogu, the 'grain rain' day that falls around 20 April; the word means 'before the rain'. It is not a cultivar or a place but a grade, and it sits at the top of the Korean green tea ladder above sejak, jungjak and daejak: only buds and the smallest first leaves, picked by hand over a week or two while the bushes are barely awake.\n\nMost ujeon comes from Hadong on the slopes of Jirisan, where the bushes are grown from seed and scattered across the hillsides rather than planted in neat rows, and from the plantations of Boseong and Jeju. The classic method is pan-firing in a heated iron cauldron, rolling the hot leaves by hand on a mat, and repeating the cycle until the leaf is dry; the maker's skill shows in how toasty the finish is without ever tasting scorched. A few producers steam instead, which gives a greener, more Japanese-leaning cup.\n\nIn the cup it is quiet: steamed soybean and chestnut, a nutty warmth from the pan, a soft savoury body and a sweetness that lingers. The common mistake is treating it like sencha or longjing and pouring hot water over it. Koreans cool the water to roughly 50–65°C, use a small pot and short steeps, and get four or five rounds that stay sweet.\n\nBecause it is a grade rather than a brand, the words on the packet matter. Real ujeon is sold as the current spring's picking in small 40–80 g packs, it is expensive, and it sells out early. If a shop offers 'ujeon' cheaply, in bulk, or all year round, assume it is sejak or lower. Both Hadong and Boseong green teas carry Korean geographical-indication labels, and the small Hadong makers are the ones to hunt for the hand-made style.\n\nIf ujeon feels too subtle for the money, sejak from the same maker, picked only a week or two later, has more flavour for much less and is what most Korean tea drinkers actually buy.",
   "wikipedia_title": "Ujeon",
   "wikipedia_scope": "exact",
-  "popularity": 2
+  "popularity": 2,
+  "name_zh": "雨前茶",
+  "name_ru": "Уджон",
+  "history": "Ujeon is less a tea with a founding story than a word for timing. It is written 雨前 in hanja, 'before the rain', and the rain in question is gogu, the solar term that falls on 20 or 21 April. Green tea from leaves and buds picked by hand before that day gets the name, and because it is the first picking of the year it is also called cheonmul-cha, first-flush tea.\n\nThe usual comparison is with Chinese pre-Qingming tea and Japanese shincha, since all three prize the earliest spring leaf, though the calendar marks differ. When Korean makers settled on the term is poorly documented. What can be said is that it names a picking and a grade rather than a place or a cultivar, so it can come from any Korean garden that picks early enough.",
+  "liquor_hex": "#E3E2A8",
+  "leaf_hex": "#5C6B45",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Ujeon",
+    "https://ko.wikipedia.org/wiki/%EC%9A%B0%EC%A0%84_%28%EB%85%B9%EC%B0%A8%29",
+    "https://www.wikidata.org/wiki/Q30043971"
+  ],
+  "confidence": "medium",
+  "images": []
 }

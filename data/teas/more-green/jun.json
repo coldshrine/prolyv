@@ -1,0 +1,53 @@
+{
+  "slug": "jun",
+  "name_en": "Jun",
+  "name_native": null,
+  "name_romanized": null,
+  "aliases": [
+    "Xun"
+  ],
+  "category": "green",
+  "origin_country": "China",
+  "origin_region": "Tibet (claimed)",
+  "cultivar": null,
+  "form": "other",
+  "caffeine_level": "medium",
+  "brewing": {
+    "grams": 3,
+    "water_ml": 150,
+    "temp_c": 80,
+    "steeps": 3,
+    "seconds": [
+      60,
+      75,
+      105
+    ],
+    "notes": "A safe starting point for green tea: cooler water, short steeps, then adjust by taste."
+  },
+  "taste_tags": [
+    "honey",
+    "sweet"
+  ],
+  "description": "A fermented drink close to kombucha, made by culturing honey-sweetened green tea with a SCOBY rather than sugared black tea.\n\nThis is a way of preparing tea more than a tea you buy under one name, so the recipe and the base tea change from one maker to the next.",
+  "wikipedia_title": null,
+  "wikipedia_scope": "none",
+  "popularity": 1,
+  "name_zh": "蜂蜜绿茶发酵饮",
+  "name_ru": "Джун",
+  "history": "Western sellers claim monks of the Bon tradition in Tibet and northern China made it for a thousand years or more, and this should be read as legend. The food writer Sandor Katz found no trace of it in books on Tibetan food or Himalayan ferments, and thinks it a recent offshoot of kombucha.",
+  "liquor_hex": "#D9C77E",
+  "leaf_hex": "#7E8B3E",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Jun_(drink)"
+  ],
+  "confidence": "medium",
+  "images": [],
+  "stub": true,
+  "processing": "Green tea sweetened with honey is fermented with a symbiotic culture of bacteria and yeast; fruit, spices or other flavourings are often added.",
+  "harvest_season": "Not tied to a harvest: it depends on the base tea.",
+  "appearance_dry": "Green leaf whose shape depends on the maker, as is usual for regional green teas.",
+  "appearance_liquor": "Usually a clear, pale yellow-green.",
+  "appearance_wet": "Usually soft green leaf that opens up in the water.",
+  "taste_profile": "Sweeter than kombucha.",
+  "vintage_note": "Not sold by vintage: it is made from whatever base tea the maker keeps, so freshness of the base matters more than the year."
+}

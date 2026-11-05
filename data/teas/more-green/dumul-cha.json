@@ -1,0 +1,61 @@
+{
+  "slug": "dumul-cha",
+  "name_en": "Dumul-cha",
+  "name_native": "두물차",
+  "name_romanized": "dumul-cha",
+  "aliases": [
+    "Sejak",
+    "세작",
+    "細雀",
+    "Jakseol",
+    "작설",
+    "雀舌",
+    "Second flush tea"
+  ],
+  "category": "green",
+  "origin_country": "South Korea",
+  "origin_region": "South Korea",
+  "cultivar": null,
+  "form": "loose",
+  "caffeine_level": "medium",
+  "brewing": {
+    "grams": 3,
+    "water_ml": 150,
+    "temp_c": 80,
+    "steeps": 3,
+    "seconds": [
+      60,
+      75,
+      105
+    ],
+    "notes": "A safe starting point for green tea: cooler water, short steeps, then adjust by taste."
+  },
+  "taste_tags": [
+    "vegetal",
+    "sweet"
+  ],
+  "description": "Korean second-flush green tea, also called sejak, made from young, tender leaves and buds picked by hand. The name jakseol, sparrow tongue, refers to the size of the leaves at plucking.\n\nTreat it as you would any green tea: cooler water, short steeps, and a seller who can say where and when it was picked.",
+  "wikipedia_title": null,
+  "wikipedia_scope": "none",
+  "popularity": 1,
+  "name_zh": "细雀",
+  "name_ru": "Думуль-ча",
+  "history": "It is defined by its picking window between the solar terms gogu and ipha. Because the leaves have grown more than first-flush ones, fewer are damaged in processing, and it is regarded as a dependable purchase.",
+  "liquor_hex": "#D6D27A",
+  "leaf_hex": "#7E8B3E",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Sejak",
+    "https://ko.wikipedia.org/wiki/%EB%91%90%EB%AC%BC%EC%B0%A8",
+    "https://ko.wikipedia.org/wiki/%EC%B0%A8_%28%EC%9D%8C%EB%A3%8C%29"
+  ],
+  "confidence": "medium",
+  "images": [],
+  "stub": true,
+  "processing": "Typical of green tea: picked, heated soon after picking to stop oxidation, then shaped and dried.",
+  "harvest_season": "After gogu (20–21 April) and before ipha (5–6 May).",
+  "appearance_dry": "Young leaves and buds about the size of a sparrow's tongue.",
+  "appearance_liquor": "Usually a clear, pale yellow-green.",
+  "appearance_wet": "Usually soft green leaf that opens up in the water.",
+  "taste_profile": "Expect what green teas usually give: fresh, vegetal and lightly sweet.",
+  "vintage_note": "Green teas like this are normally sold as the current year's harvest and are best within a year of picking. It is not an ageing tea."
+}

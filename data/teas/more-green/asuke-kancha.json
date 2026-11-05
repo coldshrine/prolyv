@@ -1,0 +1,53 @@
+{
+  "slug": "asuke-kancha",
+  "name_en": "Asuke Kancha",
+  "name_native": "足助寒茶",
+  "name_romanized": "Asuke Kancha",
+  "name_zh": "足助寒茶",
+  "name_ru": "Асукэ кантя",
+  "aliases": [
+    "Asuke winter tea"
+  ],
+  "category": "green",
+  "origin_country": "Japan",
+  "origin_region": "Aichi · Toyota · Asuke",
+  "cultivar": null,
+  "processing": "Leaves and some branch are hand-cut in winter, steamed, separated from the twigs and sun-dried, with no rolling step.",
+  "form": "loose",
+  "harvest_season": "Winter only, which is what the name means: kan is the cold season.",
+  "appearance_dry": "Large, flat, unrolled leaves in a brownish tone close to hōjicha.",
+  "appearance_liquor": "Clear and golden.",
+  "appearance_wet": "Big, soft, mature leaves in olive-brown; little fragments of twig are possible.",
+  "taste_profile": "Mild and gently sweet with a slight sourness, and very little astringency.",
+  "taste_tags": [
+    "sweet",
+    "tart",
+    "woody"
+  ],
+  "brewing": {
+    "grams": 3,
+    "water_ml": 120,
+    "temp_c": 100,
+    "steeps": 2,
+    "seconds": [
+      300,
+      420
+    ],
+    "notes": "Use boiling water and a long steep; traditional practice also simmers the leaves for up to about 15 minutes. Short gongfu steeps give very little."
+  },
+  "caffeine_level": "low",
+  "vintage_note": "Made in small amounts by individuals around Asuke, each winter. Like other Japanese bancha it has no vintage market and is simply bought as the latest batch, though sun-dried mature leaf is more forgiving of storage than a fine sencha.",
+  "description": "Asuke kancha is a winter bancha from the Asuke district of Toyota city in Aichi, and one of only two Japanese kancha traditions commonly named, the other being Shishikui in Tokushima. Most Japanese tea is picked from spring onward, so a tea cut in the cold months is a real oddity.\n\nThe leaf often comes from tea growing half wild among other plants rather than from clipped rows. Leaves and a fair piece of branch are taken by hand, steamed, stripped from the twigs and dried in the sun. There is no rolling here; the Shishikui version adds it.\n\nThe cup is golden, soft and faintly sweet-sour, with less catechin and caffeine than regular bancha. It is a tea for boiling water and patience. Three grams in 120 ml for five minutes works well, and a simmer in a kettle is the older way.\n\nNobody prizes it as a high grade. Its appeal is scarcity and the memory of households making their own tea, so buy it as a curiosity if you can find it.",
+  "history": "Kancha belongs to the home-made tea of the Japanese countryside, from a time when households produced their own leaf, and Asuke is one of the few places where the practice survives. Little is documented about when it began there.\n\nToday it is made by individuals rather than factories.",
+  "liquor_hex": "#C9A04A",
+  "leaf_hex": "#6B5A36",
+  "sources": [
+    "https://myjapanesegreentea.com/kancha",
+    "https://ja.wikipedia.org/wiki/%E6%97%A5%E6%9C%AC%E8%8C%B6"
+  ],
+  "confidence": "medium",
+  "wikipedia_title": "日本茶",
+  "wikipedia_scope": "umbrella",
+  "popularity": 2,
+  "images": []
+}

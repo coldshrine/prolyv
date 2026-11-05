@@ -3,10 +3,17 @@
   "name_en": "Lemon Balm (Melissa)",
   "name_native": "Zitronenmelisse / Меліса / Mélisse",
   "name_romanized": null,
-  "aliases": ["Melissa", "Melissa tea", "Melissentee", "Balm", "Melissa officinalis", "Bee balm (loosely)"],
+  "aliases": [
+    "Melissa",
+    "Melissa tea",
+    "Melissentee",
+    "Balm",
+    "Melissa officinalis",
+    "Bee balm (loosely)"
+  ],
   "category": "tisane",
   "origin_country": "Germany",
-  "origin_region": "Across central Europe (the plant is native to the Mediterranean and western Asia and naturalised everywhere); commercial leaf from Germany, Poland, Bulgaria and Egypt",
+  "origin_region": "Germany",
   "cultivar": "Melissa officinalis, a lemon-scented member of the mint family",
   "processing": "Leafy stems are cut before flowering and dried quickly in shade or at low heat, because the leaf browns and loses its scent easily; the leaves are then stripped and cut. No fermentation.",
   "form": "loose",
@@ -15,13 +22,67 @@
   "appearance_liquor": "Pale yellow-green, clear.",
   "appearance_wet": "Soft green leaves that smell faintly of lemon and honey.",
   "taste_profile": "Soft lemon over a gentle mint-like herbal base, honeyed and mild; sweeter and much quieter than lemon verbena, with a faint green bitterness if steeped long.",
-  "taste_tags": ["citrus", "herbal", "sweet"],
-  "brewing": {"grams": 3, "water_ml": 250, "temp_c": 90, "steeps": 1, "seconds": [420], "notes": "A heaped tablespoon per cup, water just under the boil, 6–8 minutes with a lid, since the aroma is delicate and escapes with steam. Honey suits it, and it is the classic bedtime partner for chamomile, linden and lavender."},
+  "taste_tags": [
+    "citrus",
+    "herbal",
+    "sweet"
+  ],
+  "brewing": {
+    "grams": 3,
+    "water_ml": 250,
+    "temp_c": 90,
+    "steeps": 1,
+    "seconds": [
+      420
+    ],
+    "notes": "A heaped tablespoon per cup, water just under the boil, 6–8 minutes with a lid, since the aroma is delicate and escapes with steam. Honey suits it, and it is the classic bedtime partner for chamomile, linden and lavender."
+  },
   "caffeine_level": "none",
   "vintage_note": "Sold as the latest summer cut and best within six to twelve months, because lemon balm loses its scent faster than almost any other herb; a pack that is olive-brown and smells of hay is finished. In Central and Eastern Europe it is a pharmacy herb with the harvest year on the box, elsewhere a tea-merchant item without a date. Buy cut leaf rather than fine dust, in small amounts, and keep it sealed in the dark.",
   "description": "Lemon balm, Melissa, is the gentle lemon herb of the European kitchen garden, a bushy mint relative whose leaves smell of lemon and honey when you brush them and make a soft, calming cup that is a bedtime standard from Germany to Ukraine. It is quieter than lemon verbena and sweeter than lemongrass, and it is the one that fades fastest in the jar.\n\nThe leaf is cut before flowering and dried as quickly and gently as possible, because its aroma is fragile: a day too long in the drying loft and it is hay. That fragility is why fresh leaves from a garden make a far better cup than most dried packs, and why buying small and recent matters more here than with any other herb.\n\nBrewed six to eight minutes under a lid with water just under the boil, it is pale, mild and honeyed with a lemon-mint lift, and it takes honey and a slice of lemon well. The usual disappointment is a stale pack that gives warm hay water; the fix is fresher leaf, a lid and more of it. It blends naturally with chamomile, linden, lavender and mint, which is how most people drink it.\n\nBuy green cut leaf from the latest harvest, ideally with a harvest year on the box from a pharmacy range, and use it within the year. There is no grading beyond the cut and no vintage, just freshness.\n\nIt has traditionally been drunk as a calming evening and digestive tea; whatever you make of that, a handful of fresh leaves in a teapot in summer is one of the simplest pleasures of having a garden.",
   "wikipedia_title": "Lemon balm",
   "wikipedia_scope": "umbrella",
   "popularity": 3,
-  "sources_note": "origin_country is a judgement call; lemon balm tea is traditional across Europe."
+  "sources_note": "origin_country is a judgement call; lemon balm tea is traditional across Europe.",
+  "name_zh": "香蜂草茶",
+  "name_ru": "Мелисса",
+  "history": "Lemon balm is a perennial of the mint family, and its genus name comes from the Greek for honey bee, after the bees its flowers attract. Its species name, officinalis, points to its old place in the apothecary. It has been cultivated since at least the 16th century, partly to draw bees.\n\nThe tea itself has no documented beginning. It is simply one of the established uses of the plant, alongside cooking and essential oil. Today the leaf is grown commercially in countries including Hungary, Egypt, Ireland and Italy.",
+  "liquor_hex": "#DCD89A",
+  "leaf_hex": "#8A9A5B",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Lemon_balm"
+  ],
+  "confidence": "low",
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cf/Lemon_balm_1.jpg/1280px-Lemon_balm_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cf/Lemon_balm_1.jpg/330px-Lemon_balm_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Lemon_balm_1.jpg",
+      "author": "Killarnee",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "kind": "plant",
+      "alt": "Close view of toothed green lemon balm leaves"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/70/Lemon_balm_plant.jpg/1280px-Lemon_balm_plant.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/70/Lemon_balm_plant.jpg/330px-Lemon_balm_plant.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Lemon_balm_plant.jpg",
+      "author": "Amitchell125",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "kind": "plant",
+      "alt": "Lemon balm plant in sunlight"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/5/51/Melissa_officinalis1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/51/Melissa_officinalis1.jpg/330px-Melissa_officinalis1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Melissa_officinalis1.jpg",
+      "author": "",
+      "license": "CC BY-SA 3.0",
+      "license_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+      "kind": "plant",
+      "alt": "Low clump of Melissa officinalis growing in dark soil"
+    }
+  ]
 }

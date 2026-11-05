@@ -1,0 +1,56 @@
+{
+  "slug": "banya-cha",
+  "name_en": "Banya-cha",
+  "name_native": "반야차",
+  "name_romanized": "Banya-cha",
+  "name_zh": "般若茶",
+  "name_ru": "Панья-ча",
+  "aliases": [
+    "Prajna tea",
+    "般若茶"
+  ],
+  "category": "green",
+  "origin_country": "South Korea",
+  "origin_region": "Jeollanam-do · Boseong",
+  "cultivar": null,
+  "processing": "A steamed green tea, unlike the pan-fired style that dominates Korean tea.",
+  "form": "loose",
+  "harvest_season": "Picking dates are not well documented for this tea. It typically follows the Korean spring flushes.",
+  "appearance_dry": "Typically dark green fine leaf, as with other steamed greens.",
+  "appearance_liquor": "Usually clear yellow-green, as is typical of steamed green tea.",
+  "appearance_wet": "Soft, bright green leaf, typical of steamed tea.",
+  "taste_profile": "Few tasting records exist; as with steamed greens generally, expect a fresh, grassy, savoury cup rather than a toasted one.",
+  "taste_tags": [
+    "grassy",
+    "vegetal",
+    "umami"
+  ],
+  "brewing": {
+    "grams": 3,
+    "water_ml": 120,
+    "temp_c": 70,
+    "steeps": 3,
+    "seconds": [
+      60,
+      30,
+      60
+    ],
+    "notes": "A typical approach for steamed green tea: cool water, with shorter later steeps."
+  },
+  "caffeine_level": "medium",
+  "vintage_note": "Sold as a current-year spring tea, as is usual for Korean green tea. Look for the harvest year and drink it within about a year.",
+  "description": "Banya-cha takes its name from prajñā, the Buddhist word for wisdom. It is counted among the renowned Korean green teas and is credited to Buddhist monks in Boseong.\n\nIt is steamed, which sets it apart from most Korean tea. Steaming keeps a greener, fresher character, and the tea is described as growing on sandy loam between mountains and sea.\n\nIn the cup, expect what is typical of steamed green tea: grassy and savoury, without the nutty toast of pan-fired leaf. Use cool water and keep steeps short.\n\nIt is not a common label. Ask who made it and where, as origin matters more than the evocative name.",
+  "history": "Little is documented beyond the basic account: Buddhist monks in Boseong developed this steamed tea, and references list it alongside jungno-cha among Korea's well-known green teas. No firm date for its creation has been recorded in accessible sources.",
+  "liquor_hex": "#D0D07C",
+  "leaf_hex": "#46603A",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Green_tea",
+    "https://en.wikipedia.org/wiki/Korean_tea"
+  ],
+  "confidence": "low",
+  "wikipedia_title": "Korean tea",
+  "wikipedia_scope": "umbrella",
+  "popularity": 2,
+  "images": [],
+  "sources_note": "The master list placed this in Hadong, but the located description names Boseong, so Boseong is used."
+}

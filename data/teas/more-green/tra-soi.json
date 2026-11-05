@@ -1,0 +1,57 @@
+{
+  "slug": "tra-soi",
+  "name_en": "Trà Sói (Chloranthus Tea)",
+  "name_native": "Trà sói",
+  "name_romanized": "Trà sói",
+  "name_zh": "越南珠兰花茶",
+  "name_ru": "Ча Шой",
+  "aliases": [
+    "Tra soi",
+    "Chloranthus tea",
+    "Trà hoa sói"
+  ],
+  "category": "green",
+  "origin_country": "Vietnam",
+  "origin_region": "Vietnam",
+  "cultivar": null,
+  "processing": "Green tea scented with fresh flowers of Chloranthus spicatus; the flowers are cleaned and air-dried, then scented into the tea, reportedly at about 300 to 400 g per kilogram.",
+  "form": "loose",
+  "harvest_season": "Depends on the base green tea and the flowering of the sói plant; no standard season is recorded.",
+  "appearance_dry": "Dark green twisted leaf, as is usual for northern Vietnamese greens, sometimes with tiny pale flower buds.",
+  "appearance_liquor": "Clear yellow-green, as with other scented green teas.",
+  "appearance_wet": "Mid-green leaf in the manner of its base tea.",
+  "taste_profile": "A green tea cup with a soft floral perfume from the chloranthus; little has been written about the finer detail of the taste.",
+  "taste_tags": [
+    "floral",
+    "vegetal"
+  ],
+  "brewing": {
+    "grams": 5,
+    "water_ml": 150,
+    "temp_c": 80,
+    "steeps": 3,
+    "seconds": [
+      30,
+      45,
+      75
+    ],
+    "notes": "Brew as any scented green, with cooler water and short steeps."
+  },
+  "caffeine_level": "medium",
+  "vintage_note": "Sold undated or by the year of scenting, usually from small makers and often on a named base such as Thái Nguyên green. Like other scented greens it is best within about a year.",
+  "description": "Trà sói is Vietnamese green tea scented with hoa sói, Chloranthus spicatus, a shade-loving shrub with tiny flowers. It is one of the classic Vietnamese flower teas, listed with jasmine, lotus, aglaia and pomelo blossom.\n\nThe scenting works like the others: fresh flowers, cleaned and aired, go in with the tea until the scent has moved across. The plant likes moist, shady ground and does well in midland and low mountain country, which suits the northern tea districts.\n\nWhat you get is a floral note over ordinary green tea. Published descriptions of the cup are scarce, so we would not promise specifics. Cooler water keeps it clean.\n\nThe Chinese relative, zhulan scented tea, uses the same flower, and it is a good comparison if you can find both. Look for sellers who name the base tea; some offer it on Thái Nguyên green. The traditional health uses claimed for the flower have no clinical backing, so buy it for the smell.",
+  "history": "Little is documented about when or where chloranthus scenting began in Vietnam. It appears in accounts of Vietnamese tea as an established flower tea, with B'lao named as a place known for marinated teas using jasmine, lotus and hoa sói, but no dates or makers are recorded.",
+  "liquor_hex": "#D8CF86",
+  "leaf_hex": "#4F5C3A",
+  "wikipedia_title": "Vietnamese tea",
+  "wikipedia_scope": "umbrella",
+  "popularity": 2,
+  "sources": [
+    "https://en.wikipedia.org/wiki/Vietnamese_tea",
+    "https://uses.plantnet-project.org/en/Chloranthus_spicatus_(PROSEA)",
+    "https://nhathuoclongchau.com.vn/thanh-phan/soi-hoa",
+    "https://vietnam.vnanet.vn/english/print/blao-marinated-tea-304488.html"
+  ],
+  "confidence": "low",
+  "images": []
+}

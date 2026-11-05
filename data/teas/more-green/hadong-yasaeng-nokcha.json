@@ -1,0 +1,62 @@
+{
+  "slug": "hadong-yasaeng-nokcha",
+  "name_en": "Hadong Yasaeng Nokcha (wild green tea)",
+  "name_native": "야생녹차",
+  "name_romanized": "Hadong yasaeng nokcha",
+  "name_zh": "河东野生绿茶",
+  "name_ru": "Хадон ясэн нокча",
+  "aliases": [
+    "하동 야생녹차",
+    "河東野生綠茶",
+    "Hadong wild tea",
+    "Hwagae wild green tea",
+    "Hadong green tea"
+  ],
+  "category": "green",
+  "origin_country": "South Korea",
+  "origin_region": "South Gyeongsang · Hadong · Hwagae",
+  "cultivar": null,
+  "processing": "Hand-picked leaf is fired by hand in an iron pot, rolled by hand and dried.",
+  "form": "loose",
+  "harvest_season": "Spring. Local grades run by picking date: ujeon around grain rain (about 20 April) is the most prized, then sejak around 6 May, followed by jungjak and daejak.",
+  "appearance_dry": "Slim, dark green hand-twisted leaves, finer in the early grades.",
+  "appearance_liquor": "Typically clear pale yellow-green with a golden edge.",
+  "appearance_wet": "Soft green leaves and buds, small in early pickings, uneven by the nature of hill bushes.",
+  "taste_profile": "As with hand-fired Korean greens, expect a sweet, nutty, gently toasted cup with a soft green body and little bitterness in cool water.",
+  "taste_tags": [
+    "nutty",
+    "sweet",
+    "vegetal",
+    "roasted"
+  ],
+  "brewing": {
+    "grams": 3,
+    "water_ml": 120,
+    "temp_c": 70,
+    "steeps": 3,
+    "seconds": [
+      60,
+      45,
+      75
+    ],
+    "notes": "Typical of Korean green tea: cool the water and use a small pot. Take early grades cooler still."
+  },
+  "caffeine_level": "medium",
+  "vintage_note": "Sold fresh each spring by picking grade, with pre-grain-rain lots costing most and later jungjak and daejak far less. It is a current-year tea with no ageing tradition. Check the harvest year and the grade on the pack.",
+  "description": "In Hwagae valley in Hadong, tea grows among rocks and on steep slopes below Jirisan, and locals call it wild tea to set it apart from tea from other parts of the country. It is the signature tea of the area and a point of local pride.\n\nThe method is what you pay for. Leaf is hand-picked and fired by hand in an iron pot, then rolled and dried. Press pieces contrast its small, rough plots with the broad, tidy tea fields of Boseong.\n\nThe cup leans sweet and nutty, with a toasted edge typical of pan-fired tea. Use cooled water and a small pot. The most common mistake is water straight from the boil, which makes it bitter.\n\nWild here describes old bushes on rough ground rather than a legal grade, so ask about the garden and maker. Look for the picking grade and harvest year on the pack.",
+  "history": "The commonly told account says Kim Daeryeom brought tea seeds from Tang China in 828, and they were planted near Ssanggyesa temple in Hwagae, where a monument marks the site. Gurye, across the mountain, has a rival claim.\n\nIn modern times the valley has become known for hand-made tea and a wild tea culture festival, and its traditional tea farming was listed by FAO as a Globally Important Agricultural Heritage System in 2017. Local press has called some wild bushes over 1,000 years old, a claim rather than a measured age.",
+  "liquor_hex": "#D8CF82",
+  "leaf_hex": "#455433",
+  "sources": [
+    "https://www.jjan.kr/article/20130801478505",
+    "https://m.seoul.co.kr/news/2005/05/19/20050519052001",
+    "https://sports.khan.co.kr/article/200605172056413",
+    "https://sfcs.fao.org/giahs/giahs-around-the-world/korea-traditional-hadong-tea-system/en"
+  ],
+  "confidence": "medium",
+  "wikipedia_title": "Korean tea",
+  "wikipedia_scope": "umbrella",
+  "popularity": 3,
+  "images": [],
+  "sources_note": "Details on grades, FAO listing and the 500-year tree come from search snippets; the full FAO page refused access."
+}

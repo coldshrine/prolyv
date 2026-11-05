@@ -1,0 +1,96 @@
+{
+  "slug": "cutting-chai",
+  "name_en": "Cutting Chai",
+  "name_native": "कटिंग चाय",
+  "name_romanized": "Kaṭiṅg chāy",
+  "name_zh": "孟买半杯奶茶",
+  "name_ru": "Каттинг-чай",
+  "aliases": [
+    "Bombay Cutting Chai",
+    "Mumbai cutting chai"
+  ],
+  "category": "black",
+  "origin_country": "India",
+  "origin_region": "Maharashtra · Mumbai",
+  "cultivar": null,
+  "processing": "Black tea or tea powder boiled with milk, sugar and often ginger and cardamom, then strained and served as a small half serving in a glass.",
+  "form": "other",
+  "harvest_season": "Not relevant: it is a roadside serving made from everyday black tea.",
+  "appearance_dry": "Not sold as a distinct dry tea; street chai usually starts from small granular black tea.",
+  "appearance_liquor": "Opaque, deep tan milk tea in a small glass.",
+  "appearance_wet": "Not applicable: it is strained on pouring.",
+  "taste_profile": "Hot, sweet and milky, with ginger and spice around the tea.",
+  "taste_tags": [
+    "sweet",
+    "spicy",
+    "creamy"
+  ],
+  "brewing": {
+    "grams": 5,
+    "water_ml": 120,
+    "temp_c": 100,
+    "steeps": 1,
+    "seconds": [
+      300
+    ],
+    "notes": "Boil tea powder with water, ginger and spices, add milk and sugar, strain, and fill a small glass only partway."
+  },
+  "caffeine_level": "medium",
+  "vintage_note": "Sold by the glass at street stalls, never by year or season. The tea behind it is an everyday black tea bought for current use.",
+  "description": "Cutting chai is less a tea than a way of ordering one: a half glass of strong chai from a Mumbai roadside stall. The word means the full cup has been cut in half, at a lower price.\n\nIt is a milk tea boiled with sugar and, in many versions, ginger and cardamom.\n\nIt is hot and sweet, gone in a few mouthfuls. Small glasses matter, because this drink is built for a quick stop.\n\nThere is nothing to look for on a shelf. In Mumbai, pick a busy stall and have it with a vada pav before a local train, which is the classic setting.",
+  "history": "Cutting chai belongs to Mumbai's street stalls. The usual explanation of the name is that vendors served half a cup at a reduced price, though accounts differ. No reliable date or first vendor is documented.\n\nThe term has since become part of the city's identity: a Mumbai college media festival, running since 2007, takes its name from the drink.",
+  "liquor_hex": "#A9744A",
+  "leaf_hex": "#3A2518",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Masala_chai",
+    "https://www.localsamosa.com/2020/05/28/local-chai-of-india",
+    "https://en.wikipedia.org/wiki/Cutting_Chai_Festival",
+    "https://hebbarskitchen.com/cutting-chai-recipe-mumbai-cutting-tea/"
+  ],
+  "confidence": "low",
+  "wikipedia_title": "Masala chai",
+  "wikipedia_scope": "umbrella",
+  "popularity": 3,
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/31/Cutting_chai.jpg/1280px-Cutting_chai.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/31/Cutting_chai.jpg/330px-Cutting_chai.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Cutting_chai.jpg",
+      "author": "Photosticlife",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "kind": "liquor",
+      "alt": "Small ribbed glass of milky tan cutting chai on a white surface"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/07/Fancy_Cutting_Chai.jpg/1280px-Fancy_Cutting_Chai.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/07/Fancy_Cutting_Chai.jpg/330px-Fancy_Cutting_Chai.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Fancy_Cutting_Chai.jpg",
+      "author": "Heena Ahmed",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "kind": "liquor",
+      "alt": "Glass of cutting chai on a saucer with a spoon at a cafe table"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2d/Samosa_with_cutting_chai_-_1.jpg/1280px-Samosa_with_cutting_chai_-_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2d/Samosa_with_cutting_chai_-_1.jpg/330px-Samosa_with_cutting_chai_-_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Samosa_with_cutting_chai_-_1.jpg",
+      "author": "Sarkar Sayantan",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "kind": "serving",
+      "alt": "Glasses of cutting chai served with a samosa and snacks on a dark table"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e6/Indian_evening_snack_-_samosa_and_dalmoth_with_cutting_chai.jpg/1280px-Indian_evening_snack_-_samosa_and_dalmoth_with_cutting_chai.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e6/Indian_evening_snack_-_samosa_and_dalmoth_with_cutting_chai.jpg/330px-Indian_evening_snack_-_samosa_and_dalmoth_with_cutting_chai.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Indian_evening_snack_-_samosa_and_dalmoth_with_cutting_chai.jpg",
+      "author": "Sarkar Sayantan",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "kind": "serving",
+      "alt": "Glasses of cutting chai with samosas, dalmoth and a painted kettle"
+    }
+  ]
+}

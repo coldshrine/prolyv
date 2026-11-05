@@ -3,10 +3,18 @@
   "name_en": "Matcha (Ceremonial Grade)",
   "name_native": "抹茶",
   "name_romanized": "Matcha",
-  "aliases": ["Ceremonial matcha", "Usucha grade matcha", "Koicha grade matcha", "Stone-ground matcha", "Maccha"],
+  "aliases": [
+    "Ceremonial matcha",
+    "Usucha grade matcha",
+    "Koicha grade matcha",
+    "Stone-ground matcha",
+    "Maccha",
+    "末茶",
+    "Матча"
+  ],
   "category": "green",
   "origin_country": "Japan",
-  "origin_region": "Kyoto · Uji; Aichi · Nishio; Kagoshima; Fukuoka · Yame; Shizuoka",
+  "origin_region": "Kyoto · Uji",
   "cultivar": "Samidori, Asahi, Uji-hikari, Gokou (Uji); Okumidori, Saemidori, Yabukita (Nishio, Kagoshima)",
   "processing": "Spring leaf shaded for 20–30 days, steamed, dried flat without rolling into tencha, stripped of stems and veins, then ground slowly between granite stone mills into a powder a few microns across; the powder is whisked into water and drunk whole.",
   "form": "powder",
@@ -15,12 +23,52 @@
   "appearance_liquor": "Opaque jade-green with a fine, creamy foam when whisked as usucha; thick and glossy as koicha.",
   "appearance_wet": "Not applicable: the powder stays suspended in the bowl and is drunk.",
   "taste_profile": "Thick umami, sweet cream and fresh green notes with a smooth, rounded finish and very little bitterness in a true drinking grade.",
-  "taste_tags": ["umami", "sweet", "creamy", "vegetal", "marine"],
-  "brewing": {"grams": 2, "water_ml": 70, "temp_c": 75, "steeps": 1, "seconds": [20], "notes": "Sift the powder into a warm bowl, work it into a paste with a splash of water, then add the rest at 70–80 °C and whisk briskly in a W motion for 15–20 seconds until a fine foam forms (usucha). For koicha use about 4 g to 40 ml and knead slowly into a glossy, thick liquid with no foam."},
+  "taste_tags": [
+    "umami",
+    "sweet",
+    "creamy",
+    "vegetal",
+    "marine"
+  ],
+  "brewing": {
+    "grams": 2,
+    "water_ml": 70,
+    "temp_c": 75,
+    "steeps": 1,
+    "seconds": [
+      20
+    ],
+    "notes": "Sift the powder into a warm bowl, work it into a paste with a splash of water, then add the rest at 70–80 °C and whisk briskly in a W motion for 15–20 seconds until a fine foam forms (usucha). For koicha use about 4 g to 40 ml and knead slowly into a glossy, thick liquid with no foam."
+  },
   "caffeine_level": "high",
   "vintage_note": "Sold by grade and freshness rather than by year: the tencha is the spring harvest, stored cold and milled to order in small batches through the year, so a good tin carries a milling or packing date and should be opened within months and finished within a few weeks of opening. The old practice of 'kuchikiri', opening the jar of new matcha in November after the summer rest, survives at some Kyoto houses. Grades are house names (usucha and koicha grades) rather than a standard, and 'ceremonial' on an export label is marketing, not a legal category.",
-  "description": "Ceremonial matcha is shaded green tea ground to a powder and whisked into water, at the quality meant for drinking straight as a thin usucha or a thick koicha, with no milk or sugar to hide behind. Uji in Kyoto is the historical home; Nishio in Aichi and the big fields of Kagoshima produce most of the volume today, and Yame and Shizuoka contribute. The word 'ceremonial' itself is an export term: Japanese houses sell by their own grade names.\n\nThe bushes are shaded for three to four weeks before the spring harvest, the leaf is steamed, dried flat and stripped of stems and veins to make tencha, and the tencha is ground between granite stones at a slow, cool pace so the powder ends up a few microns across without being scorched. Grinding is the bottleneck: a mill produces only tens of grams an hour, which is why the real thing costs what it does. Colour is your first tell. Properly shaded, freshly milled matcha is a vivid, slightly bluish spring green; a yellowish or olive powder is older, less shaded or badly stored.\n\nIn the bowl, a good lot is thick and creamy with a deep umami, a natural sweetness and fresh green notes, and only a whisper of bitterness at the end. Sift about 2 g into a warm bowl, work it into a paste with a splash of water, add 60–70 ml at 70–80 °C and whisk fast in a W motion for 15–20 seconds until a fine foam covers the surface; drink it straight away before it settles. Koicha uses double the powder to half the water and is kneaded, not whisked, into something close to a glossy syrup, and only the top grades are smooth enough for it. The common mistakes are boiling water, skipping the sieve, using far too much powder, and judging matcha by a culinary grade whisked plain.\n\nIt is sold in 20–40 g tins, by grade and freshness. Higher grades are intended for koicha and come from older bushes, longer and more traditional shading and the finest tencha; the usucha grades below them are what most people drink daily. Look for the producer and region, a milling or packing date and a sealed tin; once open, keep it in the fridge and finish it in a few weeks. Be wary of large bags of pale powder sold as 'ceremonial' at culinary prices, and of 'Uji' on tea that was merely finished in Kyoto. Demand has outrun supply in recent years, so prices have risen and some houses limit quantities.\n\nTry koicha once with a top grade to understand what the expensive tins are for, and eat a sweet first, as the tea rooms do; the bitterness disappears.",
+  "description": "Ceremonial matcha is shaded green tea ground to a powder and whisked into water, at the quality meant for drinking straight as a thin usucha or a thick koicha, with no milk or sugar to hide behind. Uji in Kyoto is the historical home and still a leading producer; Nishio in Aichi and the big fields of Kagoshima also grow a great deal, and Yame and Shizuoka contribute. The word 'ceremonial' itself is an export term: Japanese houses sell by their own grade names.\n\nThe bushes are shaded for three to four weeks before the spring harvest, the leaf is steamed, dried flat and stripped of stems and veins to make tencha, and the tencha is ground between granite stones at a slow, cool pace so the powder ends up a few microns across without being scorched. Grinding is the bottleneck: a mill produces only tens of grams an hour, which is why the real thing costs what it does. Colour is your first tell. Properly shaded, freshly milled matcha is a vivid, slightly bluish spring green; a yellowish or olive powder is older, less shaded or badly stored.\n\nIn the bowl, a good lot is thick and creamy with a deep umami, a natural sweetness and fresh green notes, and only a whisper of bitterness at the end. Sift about 2 g into a warm bowl, work it into a paste with a splash of water, add 60–70 ml at 70–80 °C and whisk fast in a W motion for 15–20 seconds until a fine foam covers the surface; drink it straight away before it settles. Koicha uses double the powder to half the water and is kneaded, not whisked, into something close to a glossy syrup, and only the top grades are smooth enough for it. The common mistakes are boiling water, skipping the sieve, using far too much powder, and judging matcha by a culinary grade whisked plain.\n\nIt is sold in 20–40 g tins, by grade and freshness. Higher grades are intended for koicha and come from older bushes, longer and more traditional shading and the finest tencha; the usucha grades below them are what most people drink daily. Look for the producer and region, a milling or packing date and a sealed tin; once open, keep it in the fridge and finish it in a few weeks. Be wary of large bags of pale powder sold as 'ceremonial' at culinary prices, and of 'Uji' on tea that was merely finished in Kyoto. Demand has outrun supply in recent years, so prices have risen and some houses limit quantities.\n\nTry koicha once with a top grade to understand what the expensive tins are for, and eat a sweet first, as the tea rooms do; the bitterness disappears.",
   "wikipedia_title": "Matcha",
   "wikipedia_scope": "exact",
-  "popularity": 5
+  "popularity": 5,
+  "name_zh": "抹茶",
+  "name_ru": "Маття церемониального сорта",
+  "history": "Powdered tea began in China. Tang tea was roasted from compressed cakes and ground, and by the Song dynasty powder from steamed, dried leaf was whisked in a bowl, a practice Japanese monks met in Chinese temples. The monk Eisai is credited with bringing it to Japan around 1191, along with tea seed, and his book on tea followed in 1211. In China the method faded under the Ming, while in Japan it went on developing.\n\nThe tea we now call matcha took shape when Uji growers developed shaded cultivation, by the 16th century at the latest, with some research placing the start in the early 1400s. Shade brought the vivid green and the savoury depth that earlier brownish powders lacked, and it later made sencha-era teas such as gyokuro possible. Matcha sat at the centre of chanoyu, the tea ceremony, in which thick koicha calls for the smoothest, costliest powder.\n\nThe word 'ceremonial' adds little by itself: it is a grade label, not a defined category. The real definitions come from the Japan Tea Central Association and ISO 20715:2023, which require shaded leaf, steamed and dried without rolling, then ground fine. Much of what is sold as matcha falls outside them; by one estimate nearly seven tenths of what circulates is not matcha in this strict sense, and goes mostly into food. China has made matcha at scale in Guizhou since 2018, largely for industry, as global demand has grown.",
+  "liquor_hex": "#86B23C",
+  "leaf_hex": "#74A83A",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Matcha",
+    "https://ja.wikipedia.org/wiki/%E6%8A%B9%E8%8C%B6",
+    "https://zh.wikipedia.org/wiki/%E6%8A%B9%E8%8C%B6",
+    "https://ko.wikipedia.org/wiki/%EB%A7%90%EC%B0%A8",
+    "https://ru.wikipedia.org/wiki/%D0%9C%D0%B0%D1%82%D1%82%D1%8F"
+  ],
+  "confidence": "high",
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f2/Bamboo_chasen_to_whisk_koicha_%2815455038443%29.jpg/1280px-Bamboo_chasen_to_whisk_koicha_%2815455038443%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f2/Bamboo_chasen_to_whisk_koicha_%2815455038443%29.jpg/330px-Bamboo_chasen_to_whisk_koicha_%2815455038443%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Bamboo_chasen_to_whisk_koicha_(15455038443).jpg",
+      "author": "T.Tseng",
+      "license": "CC BY 2.0",
+      "license_url": "https://creativecommons.org/licenses/by/2.0",
+      "kind": "serving",
+      "alt": "Hands whisking thick green matcha with a bamboo chasen in a dark bowl"
+    }
+  ]
 }

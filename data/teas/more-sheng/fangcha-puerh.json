@@ -1,0 +1,68 @@
+{
+  "slug": "fangcha-puerh",
+  "name_en": "Fangcha",
+  "name_native": "方茶",
+  "name_romanized": "Fāngchá",
+  "name_zh": "方茶",
+  "name_ru": "Фан Ча",
+  "aliases": [
+    "Fang Cha (Square Tea)",
+    "Fang Cha (square brick)",
+    "Fang cha",
+    "Fangcha (Square)",
+    "Pu'er Fangcha",
+    "Yunnan Fangcha",
+    "普洱方茶",
+    "云南方茶",
+    "Фан ча",
+    "Фан ча (квадрат)",
+    "Фанча"
+  ],
+  "category": "sheng",
+  "origin_country": "China",
+  "origin_region": "Yunnan",
+  "cultivar": "Yunnan large-leaf (typical of pu-erh)",
+  "processing": "Sun-dried large-leaf tea is steamed, pressed in a square mould and dried, in the same way as other compressed pu-erh.",
+  "form": "brick",
+  "harvest_season": "Not specific; the name refers to shape, and the base tea can be from any season.",
+  "appearance_dry": "A flat, compact square of pressed leaf, olive to brown depending on age.",
+  "appearance_liquor": "Golden when young, deepening to amber with age, as with other sheng.",
+  "appearance_wet": "Compressed large leaves that separate gradually, typical of pressed pu-erh.",
+  "taste_profile": "No fixed profile, since shape does not set flavour; as with other young sheng, expect bitterness and sweetness, turning woodier with age.",
+  "taste_tags": [
+    "bitter",
+    "sweet",
+    "woody"
+  ],
+  "brewing": {
+    "grams": 6,
+    "water_ml": 100,
+    "temp_c": 95,
+    "steeps": 7,
+    "seconds": [
+      10,
+      10,
+      15,
+      20,
+      30,
+      40,
+      60
+    ],
+    "notes": "Typical settings for pressed sheng. Pry a piece off along the edge rather than breaking leaf into dust."
+  },
+  "caffeine_level": "medium",
+  "vintage_note": "Sold like other pu-erh, by pressing year and producer, young or stored. Shape says nothing about age or quality, so look for the year, the origin of the material and how it has been stored.",
+  "description": "Fangcha simply means square tea: pu-erh pressed into a flat square rather than a round cake, a tuo or a long brick. It is one of the recognised compressed shapes of pu-erh and not a separate style.\n\nThe making follows the general pattern for compressed pu-erh: sun-dried large-leaf material is steamed to soften it, pressed in a mould and dried. Little is documented on standard sizes or weights for the square, so don't assume one.\n\nThe taste comes from the leaf inside and the storage, not the shape. A young square acts like young sheng, with bitterness and sweetness; an old one should be woodier and softer. Dense pressing can affect how fast it ages and how easily it comes apart, as with other tightly pressed tea.\n\nBuy it as you would any cake, by producer, year and storage. Squares make neat gifts and samples, and some are decorative more than serious, so a low price and pretty stamp shouldn't sway you.",
+  "history": "Square pressed tea is listed among pu-erh's traditional shapes alongside cakes, bricks and tuos. Pressing Yunnan tea in general has a long record: a Ming-era text describes tea steamed into lumps. A distinct history of the square format has not been well documented.",
+  "liquor_hex": "#C79A3F",
+  "leaf_hex": "#4A4A2C",
+  "wikipedia_title": "Fermented tea",
+  "wikipedia_scope": "umbrella",
+  "popularity": 2,
+  "sources": [
+    "https://en.wikipedia.org/wiki/Fermented_tea",
+    "https://www.ihchina.cn/project_details/14621.html"
+  ],
+  "confidence": "low",
+  "images": []
+}

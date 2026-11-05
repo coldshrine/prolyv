@@ -3,10 +3,17 @@
   "name_en": "Yabukita Sencha",
   "name_native": "やぶきた",
   "name_romanized": "Yabukita",
-  "aliases": ["Yabukita cultivar", "Yabukita single cultivar", "Yabukita-shu", "Yabukita green tea"],
+  "aliases": [
+    "Yabukita cultivar",
+    "Yabukita single cultivar",
+    "Yabukita-shu",
+    "Yabukita green tea",
+    "藪北",
+    "Сенча Ябукита"
+  ],
   "category": "green",
   "origin_country": "Japan",
-  "origin_region": "Nationwide; bred in Shizuoka",
+  "origin_region": "Shizuoka",
   "cultivar": "Yabukita",
   "processing": "Processed as sencha in every regional style, from light to deep steaming; single-cultivar lots are usually finished with a moderate firing to show the cultivar's balance.",
   "form": "loose",
@@ -15,13 +22,72 @@
   "appearance_liquor": "Clear to lightly hazy bright yellow-green.",
   "appearance_wet": "Even, medium-sized green leaves.",
   "taste_profile": "The reference sencha flavour: balanced grassy aroma, moderate umami, a clean sweetness and a firm but fair astringency that keeps it refreshing.",
-  "taste_tags": ["grassy", "umami", "brisk", "sweet", "vegetal"],
-  "brewing": {"grams": 5, "water_ml": 150, "temp_c": 75, "steeps": 3, "seconds": [60, 15, 45], "notes": "Brew like standard sencha; it is the cultivar most brewing guides were written for. Hotter water (80 °C) brings more aroma at the cost of some astringency."},
+  "taste_tags": [
+    "grassy",
+    "umami",
+    "brisk",
+    "sweet",
+    "vegetal"
+  ],
+  "brewing": {
+    "grams": 5,
+    "water_ml": 150,
+    "temp_c": 75,
+    "steeps": 3,
+    "seconds": [
+      60,
+      15,
+      45
+    ],
+    "notes": "Brew like standard sencha; it is the cultivar most brewing guides were written for. Hotter water (80 °C) brings more aroma at the cost of some astringency."
+  },
   "caffeine_level": "medium",
-  "vintage_note": "Sold as the current year's first flush, usually as part of an unlabelled sencha (most sencha is Yabukita) or as a single-cultivar lot marked 'Yabukita' by farms that also sell Saemidori or Okumidori for comparison; shincha in spring, ichibancha through the year, and no ageing. The cultivar itself carries no price premium; region and grade set the price.",
-  "description": "Yabukita is the cultivar behind most Japanese tea. It was selected in 1908 by Sugiyama Hikosaburō from seedlings in a Shizuoka field, named for the plot on the north side of a cleared bamboo grove, registered as a cultivar in 1953 and planted so widely over the following decades that it came to cover about three-quarters of the country's tea fields. Its share is slipping now, but a bag of sencha with no cultivar on it is almost certainly Yabukita, and a single-cultivar lot labelled with the name is the reference point for everything else.\n\nIt won because it is a good all-rounder: cold-hardy, vigorous, high-yielding, mid-season in budding, and balanced in the cup in whatever style it is processed, from light-steamed mountain sencha to deep-steamed plateau tea, with a strong, fresh aroma and a frank astringency. The weaknesses are the ones of any monoculture: a harvest that lands on the same days everywhere, and susceptibility to disease, which is part of why newer cultivars such as Saemidori and Okumidori are gaining ground.\n\nBrewed as standard sencha, 5 g for 150 ml at 75 °C for a minute, it gives the textbook profile: grassy and fresh with a moderate umami, a clean sweetness and a firm astringency that keeps it refreshing; it has more aroma and more grip than the sweet modern cultivars and less of their thickness. Hotter water brings up the aroma at the cost of bitterness. Most brewing guides for sencha were written with this cultivar in mind, so if a guide works for you, it probably works for Yabukita.\n\nIt is sold as the current year's first flush, either anonymously as ordinary sencha or as a labelled single-cultivar lot by farms that also offer their Saemidori or Okumidori for comparison; shincha in spring, then ichibancha through the year. Price depends on region and grade rather than on the cultivar, which carries no premium.\n\nUse it as the baseline: drink a Yabukita from a given farm first, then its other cultivars, and the differences will be obvious.",
+  "vintage_note": "Sold as the current year's first flush, usually as part of an unlabelled sencha (most sencha is Yabukita) or as a single-cultivar lot marked 'Yabukita' by farms that also sell Saemidori or Okumidori for comparison; shincha in spring, ichibancha through the year, and no ageing.",
+  "description": "Yabukita is the cultivar behind most Japanese tea. It was selected in 1908 by Sugiyama Hikosaburō from seedlings in a Shizuoka field, named for the plot on the north side of a cleared bamboo grove, registered as a cultivar in 1953 and planted so widely over the following decades that it came to cover about three-quarters of the country's tea fields. Its share is slipping now, but a bag of sencha with no cultivar on it is very likely Yabukita, and a single-cultivar lot labelled with the name is the reference point for everything else.\n\nIt won because it is a good all-rounder: frost-resistant, vigorous, high-yielding, earlier than the native seedlings it replaced, and balanced in the cup in whatever style it is processed, from light-steamed mountain sencha to deep-steamed plateau tea, with a fresh aroma and a frank astringency. Accounts of that aroma disagree: its formal description praises it as strong and distinctive, while the trade often blends in other cultivars to make up for a weak one. The weaknesses are the ones of any monoculture: a harvest that lands on the same days everywhere, and susceptibility to disease, which is part of why newer cultivars such as Saemidori and Okumidori are gaining ground.\n\nBrewed as standard sencha, 5 g for 150 ml at 75 °C for a minute, it gives the textbook profile: grassy and fresh with a moderate umami, a clean sweetness and a firm astringency that keeps it refreshing; it has more grip than the sweet modern cultivars and less of their thickness. Hotter water brings up the aroma at the cost of bitterness. Most brewing guides for sencha were written with this cultivar in mind, so if a guide works for you, it probably works for Yabukita.\n\nIt is sold as the current year's first flush, either anonymously as ordinary sencha or as a labelled single-cultivar lot by farms that also offer their Saemidori or Okumidori for comparison; shincha in spring, then ichibancha through the year. Price depends mostly on region and grade.\n\nUse it as the baseline: drink a Yabukita from a given farm first, then its other cultivars, and the differences will be obvious.",
   "wikipedia_title": "Yabukita",
   "wikipedia_scope": "exact",
   "popularity": 4,
-  "sources_note": "English Wikipedia title assumed to be 'Yabukita'; if absent, use 'Japanese tea' as umbrella. Selection year 1908 and registration 1953 are the usual dates given."
+  "sources_note": "English Wikipedia title assumed to be 'Yabukita'; if absent, use 'Japanese tea' as umbrella. Selection year 1908 and registration 1953 are the usual dates given.",
+  "name_zh": "薮北",
+  "name_ru": "Ябукита",
+  "history": "Yabukita traces to one farmer, Sugiyama Hikosaburō (1857–1941) of Udo village, now part of Shizuoka city. In 1908 he picked out the best bushes among seedlings on a tea plot cleared from his bamboo grove. Those from the north side he called yabukita, 'north of the grove', and those from the south yabuminami. The naming story is the usual account rather than a firm record.\n\nIt was slow to catch on. Registration as Tea Norin No. 6 came in 1953, and only when Shizuoka made it a recommended cultivar in 1955, nearly 50 years after selection, did planting take off. Growers liked its frost resistance, its first flush about ten days earlier than native seedlings, a dependable harvest and yields more than 10 percent higher.\n\nIt came to cover about 75 percent of Japan's tea bushes, and that success became the complaint: a uniform flavour, and picking and factory work all falling at once. With support from the agriculture ministry the trade has been trying to move to other cultivars. The mother tree, made a Shizuoka natural monument in 1963, was moved in 1968 to a spot beside the road to the prefectural art museum.",
+  "liquor_hex": "#CCCF6C",
+  "leaf_hex": "#33492A",
+  "sources": [
+    "https://ja.wikipedia.org/wiki/%E3%82%84%E3%81%B6%E3%81%8D%E3%81%9F",
+    "https://ru.wikipedia.org/wiki/%D0%A1%D1%8D%D0%BD%D1%82%D1%8F"
+  ],
+  "confidence": "high",
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/71/Chakan_aracha_kesencha_yabukita_2009.jpg/1280px-Chakan_aracha_kesencha_yabukita_2009.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/71/Chakan_aracha_kesencha_yabukita_2009.jpg/330px-Chakan_aracha_kesencha_yabukita_2009.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Chakan_aracha_kesencha_yabukita_2009.jpg",
+      "author": "User:USAGI-WRP",
+      "license": "CC BY 3.0",
+      "license_url": "https://creativecommons.org/licenses/by/3.0",
+      "kind": "dry_leaf",
+      "alt": "Dark green Yabukita ara-cha needles with pale stem pieces"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/89/Green_tea_leaves.jpg/1280px-Green_tea_leaves.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/89/Green_tea_leaves.jpg/330px-Green_tea_leaves.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Green_tea_leaves.jpg",
+      "author": "たね",
+      "license": "CC BY-SA 3.0",
+      "license_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+      "kind": "plant",
+      "alt": "Bright young leaves on a Yabukita tea plant"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/66/Hikosaburo_Sugiyama_Memorial_Tea_Field_04.jpg/1280px-Hikosaburo_Sugiyama_Memorial_Tea_Field_04.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/66/Hikosaburo_Sugiyama_Memorial_Tea_Field_04.jpg/330px-Hikosaburo_Sugiyama_Memorial_Tea_Field_04.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Hikosaburo_Sugiyama_Memorial_Tea_Field_04.jpg",
+      "author": "Akahito Yamabe",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "kind": "plantation",
+      "alt": "Tea bushes in the Sugiyama Hikosaburo memorial Yabukita field in Shizuoka"
+    }
+  ]
 }

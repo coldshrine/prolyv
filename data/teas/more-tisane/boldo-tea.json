@@ -1,0 +1,60 @@
+{
+  "slug": "boldo-tea",
+  "name_en": "Boldo Tea",
+  "name_native": "boldo",
+  "name_romanized": null,
+  "name_zh": "解醉茶",
+  "name_ru": "Болдо",
+  "aliases": [
+    "Boldo",
+    "Boldo infusion",
+    "Boldo-do-chile",
+    "Peumus boldus",
+    "Больдо",
+    "Пеумус"
+  ],
+  "category": "tisane",
+  "origin_country": "Chile",
+  "origin_region": "Central Chile",
+  "cultivar": null,
+  "processing": "The evergreen leaves of the boldo tree are dried and infused whole, cut or in teabags, with no fermentation or roasting step usually involved.",
+  "form": "loose",
+  "harvest_season": "The tree is evergreen, so leaves are not tied to a prized picking; little is documented about a preferred season.",
+  "appearance_dry": "Leathery, oval grey-green leaves with a slightly bumpy surface, whole or cut.",
+  "appearance_liquor": "Usually a clear pale yellow-green, deepening with a longer steep, as with most dried-leaf infusions.",
+  "appearance_wet": "Stiff, dull olive leaves that keep their shape and a strong aroma.",
+  "taste_profile": "Woody and slightly bitter with a camphor-like aroma and a rough, coniferous edge.",
+  "taste_tags": [
+    "woody",
+    "camphor",
+    "bitter",
+    "herbal"
+  ],
+  "brewing": {
+    "grams": 1,
+    "water_ml": 200,
+    "temp_c": 95,
+    "steeps": 1,
+    "seconds": [
+      300
+    ],
+    "notes": "Start weak, since the camphor note builds quickly. Often blended with yerba mate or other teas to soften it. Avoid during pregnancy and never use the essential oil."
+  },
+  "caffeine_level": "none",
+  "vintage_note": "Sold without vintage or season, as loose dried leaf or in teabags that are easy to find in South American supermarkets. As with most dried herbs, buy recent stock and judge it by aroma.",
+  "description": "Boldo is a South American herbal tea from the leaves of Peumus boldus, a tree native to central Chile and the only species in its genus. It is a kitchen-cupboard drink in Chile and Argentina, and it also turns up in Brazil, Uruguay and Paraguay.\n\nThere is little craft in the making: the leaves are dried and steeped. All the character is already in the leaf, which has a strong essential oil rich in ascaridole, the same compound found in epazote.\n\nExpect something closer to a bay leaf than to a floral tisane: woody, a little bitter, camphor up the nose. Many drinkers cut it with yerba mate or another tea, which is the easiest way to find out whether you like it.\n\nThe name causes real mix-ups. Plectranthus ornatus and related plants are sold as false boldo or local boldo, and they are different species with different cautions, so check for Peumus boldus on the pack.\n\nThis is one to drink occasionally. Ascaridole is toxic, and although it dissolves poorly in water, which is why a plain infusion is considered more acceptable than alcohol extracts, boldo oil should not be used at all, and it is not a tea for pregnancy.",
+  "history": "Boldo takes its name from the Mapuche word for the tree, foḻo, and it is part of the sclerophyllous forest of central Chile. Its leaves have long served both as a culinary herb and a folk remedy across the southern part of South America, though little is documented about when the infusion first became an everyday drink.\n\nIts modern status is more clearly recorded. Brazil's pharmacopoeia lists it for mild indigestion, while the European Medicines Agency's 2009 assessment raised concerns about ascaridole, accepting water infusions more readily than ethanol extracts.",
+  "liquor_hex": "#CDBB6A",
+  "leaf_hex": "#6F7355",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Boldo",
+    "https://ru.wikipedia.org/wiki/%D0%9F%D0%B5%D1%83%D0%BC%D1%83%D1%81",
+    "https://pt.wikipedia.org/wiki/Peumus_boldus",
+    "https://www.wikidata.org/wiki/Q138542088"
+  ],
+  "confidence": "medium",
+  "wikipedia_title": "Boldo",
+  "wikipedia_scope": "umbrella",
+  "popularity": 2,
+  "images": []
+}

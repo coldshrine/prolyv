@@ -1,0 +1,56 @@
+{
+  "slug": "furicha",
+  "name_en": "Furicha",
+  "name_native": "振り茶",
+  "name_romanized": "Furicha",
+  "name_zh": "振茶",
+  "name_ru": "Фуритя",
+  "aliases": [
+    "Whisked bancha",
+    "Bukubukucha",
+    "Batabatacha",
+    "Botebotecha",
+    "振茶"
+  ],
+  "category": "green",
+  "origin_country": "Japan",
+  "origin_region": "Various · Okinawa, Toyama, Niigata, Shimane",
+  "cultivar": null,
+  "processing": "Not a kind of leaf but a way of serving: coarse local tea, typically bancha, is boiled and then whipped to a foam with an oversized whisk, often with salt. The tea used varies by region and can be a fermented dark tea.",
+  "form": "other",
+  "harvest_season": "Depends on the local tea. Shimane's botebote uses bancha harvested in late autumn and dried in the shade; other regions use their own coarse home-made tea.",
+  "appearance_dry": "Varies with the region; typically coarse, brownish, rustic leaf and not a refined tea.",
+  "appearance_liquor": "A brown-gold brew under a thick pale foam, which in Okinawa is piled high and served on its own.",
+  "appearance_wet": "Large, coarse leaves in the boiling pot, strained off before whisking.",
+  "taste_profile": "Typical of boiled bancha: mellow, toasty and low in bitterness, softened further by the foam and usually made savoury with salt.",
+  "taste_tags": [
+    "roasted",
+    "woody",
+    "nutty"
+  ],
+  "brewing": {
+    "grams": 10,
+    "water_ml": 1000,
+    "temp_c": 100,
+    "steeps": 1,
+    "seconds": [
+      300
+    ],
+    "notes": "Boil coarse bancha, pour into a bowl, add a little salt and whip with a large whisk until foamy. Regional versions add rice, pickles or other toppings."
+  },
+  "caffeine_level": "low",
+  "vintage_note": "Furicha has no vintage because it is not sold as a tea type at all. You buy the local tea for it, usually a current-year bancha or a regional dark tea, and sometimes a set with a whisk. Age matters little for such rustic leaf, but it should be stored dry and used within a year or so, as is usual for bancha.",
+  "description": "Furicha is an umbrella word for a folk custom: boil plain bancha, then froth it with a whisk and drink or even eat the foam. There is no leaf called furicha. The furi is the shaking motion of the whisk.\n\nIt was once widespread in Japan and now survives in only a few places, each with its own name. Bukubuku-cha in Naha uses tea boiled with toasted rice, whipped in a huge bowl, with the foam moved to another cup and topped with crushed peanuts. Bata-bata-cha in Niigata and Toyama uses a fermented dark tea, salt and a whisk shaped like two bound together. Botebote-cha in Izumo uses shade-dried late autumn bancha with toppings stirred in. In Nakasoji in Nara, home-dried bancha is milled and served with rice crackers.\n\nThe foam is the point: it softens the taste of rough tea and holds food, turning the bowl into a snack. The whisks are made for it, usually bigger than a tea ceremony chasen and with a different job.\n\nDon't look for furicha on a shop shelf. To try it, get a coarse bancha, boil it properly and whip it hard with a large whisk and a pinch of salt. A delicate tea is wasted here.\n\nIt was always a shared thing too, served to guests or at gatherings. That is worth keeping in mind if you make it at home: it is more fun as a bowl for several people.",
+  "history": "The origin of furicha is unclear, and three explanations are offered: ordinary people imitating the tea ceremony with cheap bancha when matcha was out of reach, a source of the tea ceremony itself, or a remnant of Japanese tea drinking older than the influence of Lu Yu's Classic of Tea.\n\nIt was practised widely until the 18th century. In the Edo period, Jodo Shinshu temples in Hokuriku served bata-bata-cha at religious gatherings, and travelling pedlars sold whisks as a consumable. Today it is a rare regional habit.",
+  "liquor_hex": "#B08A4A",
+  "leaf_hex": "#6B5A36",
+  "sources": [
+    "https://ja.wikipedia.org/wiki/%E6%8C%AF%E3%82%8A%E8%8C%B6",
+    "https://www.wikidata.org/wiki/Q22124782"
+  ],
+  "confidence": "medium",
+  "wikipedia_title": "振り茶",
+  "wikipedia_scope": "exact",
+  "popularity": 2,
+  "images": []
+}

@@ -1,0 +1,55 @@
+{
+  "slug": "komakage",
+  "name_en": "Komakage",
+  "name_native": "駒影",
+  "name_romanized": "Komakage",
+  "name_zh": "驹影",
+  "name_ru": "Комакагэ",
+  "aliases": [
+    "こまかげ"
+  ],
+  "category": "green",
+  "origin_country": "Japan",
+  "origin_region": "Kyoto · Uji",
+  "cultivar": "Komakage",
+  "processing": "Originally meant for shaded gyokuro, and now also made into steamed sencha.",
+  "form": "loose",
+  "harvest_season": "Spring first flush is usual, as with most Japanese greens; shaded lots are covered before picking.",
+  "appearance_dry": "Fine, deep green needles, as is typical of gyokuro and good sencha; the fresh leaves are small and elliptical.",
+  "appearance_liquor": "Clear pale yellow-green, typical of shaded Uji-style tea and sencha.",
+  "appearance_wet": "Small, soft, dark green leaves.",
+  "taste_profile": "Known for a characteristic aroma and rich flavour, though specific notes are rarely recorded; shaded versions lean to umami, as gyokuro does.",
+  "taste_tags": [
+    "umami",
+    "vegetal",
+    "sweet"
+  ],
+  "brewing": {
+    "grams": 4,
+    "water_ml": 120,
+    "temp_c": 70,
+    "steeps": 3,
+    "seconds": [
+      60,
+      15,
+      45
+    ],
+    "notes": "Standard sencha parameters. If you have a shaded lot, go down to about 50-60 C and use more leaf, as with gyokuro."
+  },
+  "caffeine_level": "medium",
+  "vintage_note": "Very rarely sold under its own name; when it is, it is the current year's spring lot from a single garden, usually as sencha. Drink within about a year, as with other Japanese greens. Most Uji production is blended, so the cultivar may never appear on the label.",
+  "description": "Komakage is an old Kyoto cultivar and one of the varieties the prefecture classes as an Uji cultivar. Its name means horse shadow, and it goes back to a legend about the beginnings of Uji tea.\n\nIt was selected for gyokuro, and that is where it belongs historically, under shade. Today it also goes into sencha. The plant has small elliptical leaves, medium yield and strong resistance to cold.\n\nDetailed tasting notes are scarce. It has a reputation for a distinctive aroma and rich flavour, and otherwise you should expect the general shape of a shaded or steamed Japanese green. Give it cool water if the lot is shaded.\n\nIt is occasionally sold by name, for example as a single-cultivar sencha from Sayama in Saitama. If you see it, try it: chances to taste it are rare.",
+  "history": "Komakage was developed in 1954 at the Kyoto prefectural tea research centre from seed selected at Manpuku-ji in Uji. It remains unregistered, though Kyoto Prefecture lists it among the cultivars it supports for Uji tea.\n\nThe name comes from a legend: Myoe Shonin, remembered as the father of Uji tea, is said to have ridden his horse through the fields and told farmers to plant along the hoofprints. A monument near Uji marks the story.",
+  "liquor_hex": "#CDD07E",
+  "leaf_hex": "#2F4F2A",
+  "sources": [
+    "https://myjapanesegreentea.com/komakage",
+    "https://en.wikipedia.org/wiki/Shade_cultivation_of_tea",
+    "https://yunomi.life/products/yoshino-tea-garden-komakage-single-cultivar-sencha-sayama-saitama"
+  ],
+  "confidence": "medium",
+  "wikipedia_title": "Shade cultivation of tea",
+  "wikipedia_scope": "umbrella",
+  "popularity": 2,
+  "images": []
+}

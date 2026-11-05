@@ -3,7 +3,15 @@
   "name_en": "Xing Ren Xiang Dancong (Almond)",
   "name_native": "杏仁香单丛",
   "name_romanized": "Xìngrénxiāng Dāncóng",
-  "aliases": ["Almond Fragrance Dancong", "Xing Ren Xiang", "Xingrenxiang", "Ju Duo Zai", "锯朵仔", "Almond Phoenix oolong", "Apricot Kernel Dancong"],
+  "aliases": [
+    "Almond Fragrance Dancong",
+    "Xing Ren Xiang",
+    "Xingrenxiang",
+    "Ju Duo Zai",
+    "锯朵仔",
+    "Almond Phoenix oolong",
+    "Apricot Kernel Dancong"
+  ],
   "category": "oolong",
   "origin_country": "China",
   "origin_region": "Guangdong · Chaozhou · Fenghuang Mountains",
@@ -15,13 +23,47 @@
   "appearance_liquor": "Golden-orange, bright and clear.",
   "appearance_wet": "Small, narrow olive leaves with finely serrated edges (the saw-tooth that gives Ju Duo Zai its name) and red rims.",
   "taste_profile": "Toasted almond and marzipan with a soft floral top note, a smooth, slightly creamy body, honey in the middle steeps and a clean, cooling finish with mild astringency.",
-  "taste_tags": ["nutty", "honey", "floral", "sweet", "roasted"],
-  "brewing": {"grams": 8, "water_ml": 110, "temp_c": 100, "steeps": 8, "seconds": [5, 5, 8, 10, 15, 25, 40, 60], "notes": "Boiling water, thin gaiwan, flash steeps. The almond note is clearest in the aroma of the warmed cup and in steeps two to four; it is a gentler strain than most, so it forgives a slightly slow pour."},
+  "taste_tags": [
+    "nutty",
+    "honey",
+    "floral",
+    "sweet",
+    "roasted"
+  ],
+  "brewing": {
+    "grams": 8,
+    "water_ml": 110,
+    "temp_c": 100,
+    "steeps": 8,
+    "seconds": [
+      5,
+      5,
+      8,
+      10,
+      15,
+      25,
+      40,
+      60
+    ],
+    "notes": "Boiling water, thin gaiwan, flash steeps. The almond note is clearest in the aroma of the warmed cup and in steeps two to four; it is a gentler strain than most, so it forgives a slightly slow pour."
+  },
   "caffeine_level": "medium",
   "vintage_note": "Sold by harvest year, spring tea roasted and rested over the summer and on sale from around June or, for heavier roasts, from autumn. Its medium roast keeps well: good for two to three years sealed and dry, and older lots are occasionally sold with the year stated.",
   "description": "Xing Ren Xiang, almond fragrance, is the nutty one among the Phoenix dancongs: a long-leaf oolong from the Fenghuang Mountains whose aroma lands somewhere between toasted almond and marzipan, with the florals playing second fiddle. For drinkers who find dancong too perfumed, this is the strain that usually wins them over.\n\nIt is one of the ten classic aroma types, and in practice the name most often attached to it is Ju Duo Zai, little saw, the small-leaf clone with finely serrated leaf edges that has become the standard almond dancong. Like all dancong it descends from a selected single tree of the Fenghuang Shui Xian population, propagated by cuttings and grown from the low gardens around Fenghuang town up to Wudong.\n\nThe almond character is partly the plant and partly the roast. The leaf is withered, shaken overnight to a medium-light oxidation and rolled into fine strips, and then given a medium charcoal roast, a shade more than Ya Shi Xiang would get; that roast turns the strain's natural nuttiness into something like toasted almond skin and marzipan, with honey underneath.\n\nIn the cup it is smooth and slightly creamy rather than juicy, with the nut on the nose, honey in the middle and a cool, clean finish. It lasts eight steeps and is more forgiving of a slow pour than most dancong, though the usual rules apply: lots of leaf, boiling water, quick infusions, full decanting.\n\nIt is sold by year and elevation, with high-mountain and Wudong Ju Duo Zai at the top of the range, and it keeps better than the light-roast strains because of its roast. Buy from sellers who state the village and the harvest. It is an excellent tea with food and a good companion to a Rou Gui Xiang dancong if you want to explore the warmer, spicier end of the family.",
   "wikipedia_title": "Oolong",
   "wikipedia_scope": "umbrella",
   "popularity": 3,
-  "sources_note": "Ju Duo Zai is treated here as the main Xing Ren Xiang clone, as it is in most Chaozhou and vendor sources; some sellers list it as a separate strain."
+  "sources_note": "Ju Duo Zai is treated here as the main Xing Ren Xiang clone, as it is in most Chaozhou and vendor sources; some sellers list it as a separate strain.",
+  "name_zh": "杏仁香单丛",
+  "name_ru": "Син Жэнь Сян Дань Цун",
+  "history": "Xing Ren Xiang belongs to the Phoenix dancong of Chaozhou in Guangdong, and it counts among the ten aroma types the trade uses to sort them. One Chinese article files it by taste as well as by smell, and another says it is named for both the aroma and the flavour of almond.\n\nOne Chinese account gives it more than 300 years of cultivation, a round figure that is hard to check. In the market the name is closely tied to Ju Duo Zai, little saw, another name from the local habit of calling tea trees after objects. Sellers often treat the two as one tea, while others list them apart, and little is documented on how the two names came together.",
+  "liquor_hex": "#D9962F",
+  "leaf_hex": "#4A3524",
+  "sources": [
+    "https://m.thepaper.cn/baijiahao_15613431",
+    "https://www.jiemian.com/article/1174385.html",
+    "https://winghopfung.com/zh-hans/products/original-hand-made-oolong-tea-almond-aroma-honey-orchid-ya-shi-xiang-dan-cong"
+  ],
+  "confidence": "medium",
+  "images": []
 }

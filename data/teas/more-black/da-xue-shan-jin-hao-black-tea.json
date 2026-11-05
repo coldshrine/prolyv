@@ -1,0 +1,51 @@
+{
+  "slug": "da-xue-shan-jin-hao-black-tea",
+  "name_en": "Da Xue Shan Jin Hao Black Tea",
+  "name_native": "大雪山金毫红茶",
+  "name_romanized": "dàxuěshān jīnháo hóngchá",
+  "aliases": [
+    "大雪山金毫紅茶"
+  ],
+  "category": "black",
+  "origin_country": "China",
+  "origin_region": "Yunnan",
+  "cultivar": null,
+  "form": "loose",
+  "caffeine_level": "high",
+  "brewing": {
+    "grams": 3,
+    "water_ml": 200,
+    "temp_c": 95,
+    "steeps": 2,
+    "seconds": [
+      180,
+      240
+    ],
+    "notes": "A safe starting point for black tea: Western style, water just off the boil."
+  },
+  "taste_tags": [
+    "fruity"
+  ],
+  "description": "Golden-tip black tea named after Da Xue Shan in Yunnan.\n\nTreat it as you would any black tea: water just off the boil, a few minutes in the pot, and a seller who can say where it was grown.",
+  "wikipedia_title": null,
+  "wikipedia_scope": "none",
+  "popularity": 1,
+  "name_zh": "大雪山金毫红茶",
+  "name_ru": "Да Сюэ Шань Цзинь Хао Хун Ча",
+  "history": null,
+  "liquor_hex": "#B5551F",
+  "leaf_hex": "#5A3A1E",
+  "sources": [
+    "https://www.sazentea.com/en/products/c57-chinese-tea"
+  ],
+  "confidence": "low",
+  "images": [],
+  "stub": true,
+  "processing": "Typical of black tea: withered, rolled, fully oxidised and dried.",
+  "harvest_season": "Picked through the growing season, as with most black teas.",
+  "appearance_dry": "Usually dark twisted leaf, sometimes with golden tips.",
+  "appearance_liquor": "Usually a clear red-brown.",
+  "appearance_wet": "Usually coppery brown leaf.",
+  "taste_profile": "A rich aroma of muscat grape.",
+  "vintage_note": "Black teas are normally sold by harvest year and are best within a couple of years."
+}

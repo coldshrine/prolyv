@@ -1,0 +1,66 @@
+{
+  "slug": "mariko-koucha",
+  "name_en": "Mariko Koucha",
+  "name_native": "丸子紅茶",
+  "name_romanized": "Mariko kōcha",
+  "aliases": [
+    "Maruko black tea",
+    "Mariko black tea"
+  ],
+  "category": "black",
+  "origin_country": "Japan",
+  "origin_region": "Shizuoka · Suruga-ku · Mariko",
+  "cultivar": null,
+  "processing": "Fully oxidised black tea made in the traditional way; the exact local method is not detailed here.",
+  "form": "loose",
+  "harvest_season": "Spring to summer pickings, as is usual for Shizuoka black tea.",
+  "appearance_dry": "Dark, twisted leaf, as is typical of Japanese black tea.",
+  "appearance_liquor": "Reddish amber and clear.",
+  "appearance_wet": "Brown to coppery leaf.",
+  "taste_profile": "Not well documented; Japanese black teas are typically mellow with moderate astringency.",
+  "taste_tags": [
+    "sweet",
+    "malty",
+    "woody"
+  ],
+  "brewing": {
+    "grams": 4,
+    "water_ml": 200,
+    "temp_c": 95,
+    "steeps": 3,
+    "seconds": [
+      180,
+      180,
+      240
+    ],
+    "notes": "Western style; good with milk."
+  },
+  "caffeine_level": "medium",
+  "vintage_note": "Sold as the current year's harvest in small lots from local growers; it is not an ageing tea.",
+  "description": "Mariko is a district of Shizuoka City, and Mariko koucha is the black tea made there. The place is regarded as the birthplace of Japanese black tea.\n\nThe tea is made from leaf that is withered, rolled, oxidised and dried, the usual black tea route. The cup depends on the cultivar and the year, and little is documented about its exact character.\n\nIf you want to try it, look for small producers in Shizuoka who say plainly which cultivar and which season the lot comes from.",
+  "history": "Mariko is said to be where black tea production began in Japan, in the early Meiji period. Tada Motokichi, a former retainer of Tokugawa Yoshinobu who settled in Shizuoka, is credited with clearing land and laying the foundations of tea growing there.\n\nDomestic black tea production declined after black tea imports were liberalised in 1971 and later revived.",
+  "liquor_hex": "#B5521F",
+  "leaf_hex": "#3A2418",
+  "sources": [
+    "https://www.at-s.com/life/article/ats/1413499.html",
+    "https://rurubu.jp/andmore/spot/80021647"
+  ],
+  "confidence": "low",
+  "wikipedia_title": null,
+  "wikipedia_scope": "none",
+  "popularity": 2,
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/30/Mariko_Tea_Plantation_135309311_org.jpg/1280px-Mariko_Tea_Plantation_135309311_org.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/30/Mariko_Tea_Plantation_135309311_org.jpg/330px-Mariko_Tea_Plantation_135309311_org.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Mariko_Tea_Plantation_135309311_org.jpg",
+      "author": "no",
+      "license": "CC BY 2.1 jp",
+      "license_url": "https://creativecommons.org/licenses/by/2.1/jp/deed.en",
+      "kind": "plantation",
+      "alt": "Rows of tea bushes with fresh green shoots in the Mariko tea field, Shizuoka"
+    }
+  ],
+  "name_zh": "丸子红茶",
+  "name_ru": "Марико-котя"
+}

@@ -2,7 +2,7 @@
 """Find free-licence photo candidates for each tea on Wikimedia and build one contact sheet per tea for visual checking.
 Usage: photo_candidates.py [slug-list.json]   (default: every card without an `images` field)
 Writes photos/<slug>.json and photos/sheets/<slug>.jpg. Licences kept: CC0, public domain, CC BY, CC BY-SA. No shop photos, nothing non-free."""
-import concurrent.futures as cf, glob, hashlib, io, json, os, re, sys, threading, time
+import concurrent.futures as cf, glob, hashlib, io, json, os, re, sys, threading, time, unicodedata
 import requests
 from PIL import Image, ImageDraw, ImageOps
 HERE = os.path.dirname(os.path.abspath(__file__))
@@ -140,34 +140,61 @@ def sheet(slug, cands):
         canvas.save(os.path.join(SHEETS, slug + '.jpg'), 'JPEG', quality=72)
     return kept
 
+def norm(text):
+    text = unicodedata.normalize('NFKD', text or '').lower()
+    return ''.join(ch for ch in text if ch.isalnum() and not unicodedata.combining(ch))
+
+def name_forms(card):
+    """Compact forms of every name of this tea, to tell a photo of it from a photo that only sits on a page about tea in general."""
+    raw = [card.get('name_en'), card.get('name_zh'), card.get('name_native'), card.get('name_romanized'), *(card.get('aliases') or [])]
+    forms = set()
+    for name in raw:
+        if not name:
+            continue
+        for variant in (name, re.sub(r'\s*\(.*?\)', '', name)):
+            n = norm(variant)
+            n = re.sub(r'(tea|cha)$', '', n) if len(n) > 7 else n
+            if len(n) >= 5 or (len(n) >= 2 and re.search(r'[\u3040-\u9fff\uac00-\ud7af]', n)):
+                forms.add(n)
+    return forms
+
 def gather(card):
     slug = card['slug']
     path = os.path.join(OUT, slug + '.json')
-    if os.path.exists(path):
+    if os.path.exists(path) and not os.environ.get('REDO'):
         return slug, -1
     dossier_path = os.path.join(HERE, 'dossier', slug + '.json')
-    titles = []
     d = json.load(open(dossier_path, encoding='utf-8')) if os.path.exists(dossier_path) else {}
+    forms = name_forms(card)
+    ranked = {}  # title -> source rank, lower is better
+    def add(titles, rank):
+        for t in titles:
+            if ok_name(t) and t not in ranked:
+                ranked[t] = rank
     wd = d.get('wikidata')
     if wd:
         files, cats = wikidata_files(wd['qid'])
-        titles += files
+        add(files, 0)
         for cat in cats[:1]:
-            titles += category_files(cat)
-    for p in (d.get('pages') or [])[:3]:
+            # a category named after this tea vouches for its files; a broad one like "Green tea" does not
+            add(category_files(cat), 1 if any(f in norm(cat) for f in forms) else 5)
+    terms = [re.sub(r'\s*\(.*?\)', '', card.get('name_en') or ''), card.get('name_zh'), card.get('name_native'), card.get('name_romanized')]
+    compact = re.sub(r'[^A-Za-z]', '', terms[0] or '')
+    if card.get('popularity', 1) >= 3:
+        terms += [compact] + [a for a in (card.get('aliases') or [])[:3] if re.search(r'[A-Za-z\u4e00-\u9fff]', a)]
+    for term in dict.fromkeys(t for t in terms if t and len(t) >= 2):
+        add(search_files(term), 2)
+    # images in an article: only worth keeping when the file itself names this tea, articles about tea in general have dozens
+    for p in (d.get('pages') or [])[:2]:
         if p['title'] in ('Tea', '茶', 'Чай', 'Green tea', 'Black tea', '茶叶'):
             continue
-        titles += page_files(p['lang'], p['title'])
-    terms = [card.get('name_en'), card.get('name_zh') or card.get('name_native')]
-    if card.get('name_native') and card.get('name_native') != card.get('name_zh'):
-        terms.append(card['name_native'])
-    if card.get('popularity', 1) >= 3:
-        terms += [a for a in (card.get('aliases') or [])[:2] if re.search(r'[A-Za-z一-鿿]', a)]
-    for term in dict.fromkeys(t for t in terms if t and len(t) >= 2):
-        clean = re.sub(r'\s*\(.*?\)', '', term)
-        titles += search_files(clean)
-    titles = [t for t in dict.fromkeys(titles) if ok_name(t)][:24]
-    cands = imageinfo(titles)[:8] if titles else []
+        add([t for t in page_files(p['lang'], p['title']) if any(f in norm(t) for f in forms)], 3)
+    titles = sorted(ranked, key=lambda t: (0 if any(f in norm(t) for f in forms) else 1, ranked[t]))[:24]
+    info = imageinfo(titles) if titles else []
+    def score(c):
+        text = norm(c['title'] + ' ' + c.get('desc', ''))
+        return (0 if any(f in text for f in forms) else 1, ranked.get(c['title'], 9))
+    cands = [c for c in sorted(info, key=score) if score(c)[0] == 0 or score(c)[1] <= 1][:8]
     kept = sheet(slug, cands) if cands else []
     json.dump({'slug': slug, 'candidates': kept}, open(path, 'w', encoding='utf-8'), ensure_ascii=False)
     return slug, len(kept)

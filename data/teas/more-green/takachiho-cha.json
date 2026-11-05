@@ -1,0 +1,56 @@
+{
+  "slug": "takachiho-cha",
+  "name_en": "Takachiho-cha",
+  "name_native": "高千穂茶",
+  "name_romanized": "Takachiho-cha",
+  "name_zh": "高千穗茶",
+  "name_ru": "Такатихо-тя",
+  "aliases": [
+    "Takachiho",
+    "たかちほ",
+    "Takachiho kamairicha",
+    "高千穂釜炒り茶"
+  ],
+  "category": "green",
+  "origin_country": "Japan",
+  "origin_region": "Miyazaki · Takachiho",
+  "cultivar": null,
+  "processing": "Pan-fired, not steamed: fresh leaf is heated, turned and massaged in a pan, then dried. It is not allowed to oxidise, and it takes on a curly, rounded shape.",
+  "form": "loose",
+  "harvest_season": "Little is documented for Takachiho alone; as with other Japanese green teas, spring is the main and most prized picking.",
+  "appearance_dry": "Curly, rounded leaf in muted olive green.",
+  "appearance_liquor": "Lighter and clearer than most green teas, a pale gold.",
+  "appearance_wet": "Open olive-green leaf, as is typical of pan-fired tea.",
+  "taste_profile": "Refreshing and aromatic, with a mouthfeel closer to some Chinese greens than to sencha, and the toasty note typical of pan-firing.",
+  "taste_tags": [
+    "roasted",
+    "floral",
+    "grassy"
+  ],
+  "brewing": {
+    "grams": 4,
+    "water_ml": 150,
+    "temp_c": 85,
+    "steeps": 3,
+    "seconds": [
+      60,
+      20,
+      45
+    ],
+    "notes": "Slightly hotter water than you would use for sencha. Hot water brings out the aroma, and the rounded leaf opens slowly, so give the first steep a full minute."
+  },
+  "caffeine_level": "medium",
+  "vintage_note": "Usual for Japanese green tea: sold as the current year's harvest and best drunk fresh, within about a year. It comes in small batches from family farms, so stock can run out before the next spring. Producer names matter more than any vintage label.",
+  "description": "Takachiho-cha is the pan-fired green tea of the Takachiho area in the mountains of northern Miyazaki. Kamairicha makes up only about 1% of Japan's green tea, and it is made almost entirely here and in the surrounding Nishiusuki District.\n\nWhere most Japanese tea goes through a steamer, this leaf goes into a pan, where it is heated, turned and massaged. That leaves it curly and rounded and stops oxidation, so it is a true green and not a light oolong, despite the shape.\n\nThe cup is paler and clearer than sencha, fragrant and refreshing, with a texture that reminds many people of Chinese tea. The common mistake is brewing it cool like sencha: it wants slightly hotter water to wake the aroma.\n\nAround 33 family-run farms keep it going, so buy by producer and check the harvest date. One of them, Kai Seicha-en, won an agriculture minister's award in 2015 for fragrance, a useful name to start with.",
+  "history": "Pan-fired tea has been an everyday drink in Takachiho for centuries, though no precise starting date is documented.\n\nThe farms remain small and family-run, and the labour-intensive method keeps output limited.",
+  "liquor_hex": "#E0CF82",
+  "leaf_hex": "#616C3C",
+  "sources": [
+    "https://www.mlit.go.jp/tagengo-db/en/H30-01363.html"
+  ],
+  "confidence": "medium",
+  "wikipedia_title": null,
+  "wikipedia_scope": "none",
+  "popularity": 2,
+  "images": []
+}

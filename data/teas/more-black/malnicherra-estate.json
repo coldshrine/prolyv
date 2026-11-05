@@ -1,0 +1,59 @@
+{
+  "slug": "malnicherra-estate",
+  "name_en": "Malnicherra",
+  "name_native": null,
+  "name_romanized": null,
+  "name_zh": "马尔尼切拉茶园红茶",
+  "name_ru": "Малничерра",
+  "aliases": [
+    "Malnichera",
+    "Malnicherra Tea Estate",
+    "Malnicherra Tea Garden",
+    "Malnichhara",
+    "Malnichhera",
+    "Mulnicherra"
+  ],
+  "category": "black",
+  "origin_country": "Bangladesh",
+  "origin_region": "Sylhet",
+  "cultivar": null,
+  "processing": "Withered, rolled, fully oxidised and dried, as with other Bangladeshi black teas; little is documented about this garden's own methods.",
+  "form": "loose",
+  "harvest_season": "No garden-specific calendar is documented; like other gardens of the Assam-Sylhet tea belt, it is picked through the warm, wet months of the year.",
+  "appearance_dry": "Typical of South Asian plains black tea: dark brown leaf, usually in small or broken grades.",
+  "appearance_liquor": "Deep reddish amber, as is usual for lowland black teas of this region.",
+  "appearance_wet": "Coppery brown leaf fragments, typical of the class.",
+  "taste_profile": "No reliable tasting record for this garden exists; lowland black teas of the Sylhet area are generally strong and malty, with a brisk finish.",
+  "taste_tags": [
+    "malty",
+    "brisk"
+  ],
+  "brewing": {
+    "grams": 3,
+    "water_ml": 250,
+    "temp_c": 95,
+    "steeps": 2,
+    "seconds": [
+      180,
+      240
+    ],
+    "notes": "Brew Western-style like other strong lowland black teas. Milk suits it if the cup comes out brisk."
+  },
+  "caffeine_level": "high",
+  "vintage_note": "Little of this garden's tea reaches buyers under its own name, and no year or flush pattern is documented for it. As usual for black tea of this class, buy recent production and drink it within a year or two; it is not a tea to age.",
+  "description": "Malnicherra is a garden on the edge of Sylhet city in north-eastern Bangladesh, close to the airport road. Its claim to attention is historical rather than gustatory: it is generally counted as the country's first commercial tea estate.\n\nLittle is documented about how its tea is made today. Expect the usual treatment for black tea in this part of South Asia: withering, rolling, full oxidation and drying, which gives a dark leaf and a strong, red cup.\n\nNo dependable tasting notes exist for this garden in particular. Teas of the wider Sylhet area are generally malty and brisk, so brew them as you would a plain Assam: about three grams to a large mug, hot water, three minutes, then adjust.\n\nFinding it by name outside Bangladesh is hard. If you meet a garden-labelled pack, ask for the production date and grade. Claims that it is the oldest garden in all of South Asia should be taken with caution.",
+  "history": "Most accounts date the garden to 1854, and a Bangladesh tea trade overview adds that commercial production began in 1857. The Financial Express names the founders as a British man, M Hudson, and his brother. Other popular accounts give 1849 and a Lord Hurdson, a version that is less well supported.\n\nTea had already been tried in Chittagong before this: a garden from 1840 is recorded there and did not last, while others point to a planting in 1828. So the safer description is first commercial estate in the country, not first planting and certainly not the oldest garden in the subcontinent.\n\nThe garden has passed through English, Pakistani and Bangladeshi merchants and has been privately owned since 1988. It is also a well-known stop for visitors to Sylhet.",
+  "liquor_hex": "#9C4A1E",
+  "leaf_hex": "#40291A",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Malnicherra_Tea_Estate",
+    "https://btabd.com/overview",
+    "https://thefinancialexpress.com.bd/trade/sylhet-tea-industry-hamstrung-by-investment-crunch-1569733911",
+    "https://www.wikidata.org/wiki/Q55232252"
+  ],
+  "confidence": "medium",
+  "wikipedia_title": "Malnicherra Tea Estate",
+  "wikipedia_scope": "exact",
+  "popularity": 2,
+  "images": []
+}

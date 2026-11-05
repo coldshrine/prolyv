@@ -1,0 +1,62 @@
+{
+  "slug": "wuli-qing",
+  "name_en": "Wuli Qing",
+  "name_native": "雾里青",
+  "name_romanized": "Wùlǐ Qīng",
+  "name_zh": "雾里青",
+  "name_ru": "У Ли Цин",
+  "aliases": [
+    "Wuliqing",
+    "Wu Li Qing",
+    "雾里青茶",
+    "霧裡青",
+    "Улицин"
+  ],
+  "category": "green",
+  "origin_country": "China",
+  "origin_region": "Anhui · Shitai",
+  "cultivar": null,
+  "processing": "An early spring green of fine young leaves and buds, picked and finished by hand. Beyond that, the steps are poorly documented.",
+  "form": "loose",
+  "harvest_season": "Early spring, before Qingming (Ming Qian); one documented lot was picked in mid March.",
+  "appearance_dry": "Fine, even, young leaves and buds.",
+  "appearance_liquor": "Bright and very light.",
+  "appearance_wet": "Tender young leaf and bud, as is usual for a pre-Qingming green.",
+  "taste_profile": "Delicate and sweet with a floral aroma, some grassy, brassica-like umami, a hint of fruit and a clean, soft finish.",
+  "taste_tags": [
+    "floral",
+    "sweet",
+    "umami",
+    "grassy"
+  ],
+  "brewing": {
+    "grams": 3,
+    "water_ml": 150,
+    "temp_c": 78,
+    "steeps": 3,
+    "seconds": [
+      50,
+      75,
+      110
+    ],
+    "notes": "This is a delicate early green, so use cool water and be careful with time. It gets cabbagey quickly if pushed."
+  },
+  "caffeine_level": "medium",
+  "vintage_note": "Sold as a current-year early spring green, as is usual for pre-Qingming teas, with the picking date as the main selling point. Drink it within the year. Any talk of centuries-old tea refers to the shipwreck story, not to what you are buying.",
+  "description": "Wuli Qing, green in the mist, is a small early spring green from southern Anhui. The modern tea is linked with Shitai county and the Qimen area; older accounts connect it with monasteries around Jiuhua Shan.\n\nIt is fine young leaf and bud, picked before Qingming and worked by hand. Sellers mention the Zhu Ye Zhong cultivar for at least one lot, but no single cultivar or method seems to define the name.\n\nThe liquor is bright and very pale, with a floral nose. Expect sweetness and delicacy, then grassy, brassica-like umami and a soft finish. Keep the water cool.\n\nMuch of what you read about this tea comes from people selling it, and the shipwreck story does a lot of the marketing. Judge a bag by its picking date and the look of the leaf.",
+  "history": "Merchants and Chinese press accounts say it became a tribute tea in 1508, carried to Beijing by water along the Grand Canal. These accounts also tie it to the old Huizhou road through Shitai, along which tea left the mountains for Shanghai and Guangzhou.\n\nThe tea's fame rests on the Swedish East India Company ship Götheborg, which sank near Gothenburg in 1745. The story goes that sealed jars recovered from the wreck in excavations of 1986 to 1992 held Wuli Qing that could still be drunk. Treat the identification as a popular claim: its evidence is hard to trace, and details vary between tellings.",
+  "liquor_hex": "#E3DFA6",
+  "leaf_hex": "#7C9450",
+  "sources": [
+    "https://www.curioustea.com/?p=54333",
+    "https://www.curioustea.com/?p=41301",
+    "https://news.sina.com.cn/c/2006-07-13/01259443863s.shtml",
+    "https://www.maigoo.com/brand/6716.html"
+  ],
+  "confidence": "low",
+  "wikipedia_title": null,
+  "wikipedia_scope": "none",
+  "popularity": 2,
+  "sources_note": "The master row placed this in Tongcheng; nothing read connects it to Tongcheng, so the region was changed to Shitai. The Götheborg identification rests on commercial and press accounts.",
+  "images": []
+}

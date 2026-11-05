@@ -1,0 +1,62 @@
+{
+  "slug": "coffee-leaf-tea",
+  "name_en": "Coffee Leaf Tea (Kuti)",
+  "name_native": null,
+  "name_romanized": null,
+  "name_zh": "咖啡叶茶",
+  "name_ru": "Чай из листьев кофе",
+  "aliases": [
+    "Coffee-leaf tea",
+    "Coffee tea leaves",
+    "Kuti",
+    "Kaari",
+    "Kahwa daun",
+    "Coffee-cha",
+    "コーヒー茶",
+    "커피잎차"
+  ],
+  "category": "tisane",
+  "origin_country": "Ethiopia",
+  "origin_region": "Southwest Ethiopia · Kaffa",
+  "cultivar": "Coffea arabica, Coffea robusta",
+  "processing": "Leaves of the coffee plant are roasted or dried, then ground or crumpled for steeping; some are brewed fresh.",
+  "form": "loose",
+  "harvest_season": "No prized picking is established. Where the drink is traditional, leaves rather than berries may be the crop taken from the bush.",
+  "appearance_dry": "Crumpled or ground brown-green leaf, similar in look to yerba mate.",
+  "appearance_liquor": "Golden to amber, darker when the leaf is well roasted.",
+  "appearance_wet": "Soft, broken olive-brown leaf pieces.",
+  "taste_profile": "Close to a green tea in taste, gently vegetal and a little toasty, with the roast setting how dark it goes.",
+  "taste_tags": [
+    "vegetal",
+    "roasted",
+    "grassy",
+    "herbal"
+  ],
+  "brewing": {
+    "grams": 3,
+    "water_ml": 250,
+    "temp_c": 90,
+    "steeps": 1,
+    "seconds": [
+      240
+    ],
+    "notes": "Treat it like a roasted green tea and shorten the steep if it turns harsh. In southwest Ethiopia, spices such as pepper are often added."
+  },
+  "caffeine_level": "low",
+  "vintage_note": "Not a vintage product: it is made locally for household use and sold in small lots by specialty producers without a set season. As with other roasted leaf infusions, freshness matters more than year, so look for a recent packing date.",
+  "description": "Coffee leaf tea is exactly what it sounds like: an infusion of the leaves of the coffee plant rather than its seeds. The result is not coffee-like at all and is usually compared to green tea, with less caffeine than either regular tea or coffee.\n\nThe leaves of arabica or robusta are roasted, then ground or crumpled, though they can also be brewed fresh. The roast does much of the work here, since it decides how dark and toasty the cup turns out.\n\nAs with other roasted leaf infusions, watch the water and time: slightly cooler water and a shorter steep keep it soft. For the traditional Ethiopian direction, add a pinch of spice such as pepper.\n\nThe two best-known traditions are far apart. In southwest Ethiopia, including Kaffa, Sheka and Bench Maji, it is called kuti; in West Sumatra, robusta leaves are dried for kahwa daun. Shop versions are few, so ask which species and roast you are getting.",
+  "history": "In Ethiopia, coffee leaf tea has been drunk for hundreds of years under the name kuti, and it remains popular among communities in the southwest of the country.\n\nIt also has a separate history in Sumatra, where some growers took only leaves from the coffee plant and left the berries on the bush. Exact dates for either tradition are little documented.",
+  "liquor_hex": "#B98A3E",
+  "leaf_hex": "#6A5A34",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Coffee-leaf_tea",
+    "https://zh.wikipedia.org/wiki/%E5%92%96%E5%95%A1%E5%8F%B6%E8%8C%B6",
+    "https://ko.wikipedia.org/wiki/%EC%BB%A4%ED%94%BC%EC%9E%8E%EC%B0%A8",
+    "https://www.wikidata.org/wiki/Q5140969"
+  ],
+  "confidence": "medium",
+  "wikipedia_title": "Coffee-leaf tea",
+  "wikipedia_scope": "exact",
+  "popularity": 2,
+  "images": []
+}

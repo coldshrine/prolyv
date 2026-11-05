@@ -1,0 +1,59 @@
+{
+  "slug": "ureshino-cha",
+  "name_en": "Ureshino-cha",
+  "name_native": "嬉野茶",
+  "name_zh": "嬉野茶",
+  "name_ru": "Урэсино-тя",
+  "name_romanized": "Ureshino-cha",
+  "aliases": [
+    "Ureshino Tea",
+    "うれしの茶",
+    "Tamaryokucha",
+    "Guri-cha"
+  ],
+  "category": "green",
+  "origin_country": "Japan",
+  "origin_region": "Saga · Ureshino",
+  "cultivar": "Yabukita",
+  "processing": "Traditionally pan-fired in the kamairi manner, but now mostly steamed. Either way the leaf is rolled into rounded, glossy shapes called tamaryokucha or guri-cha, resembling Chinese green tea.",
+  "form": "loose",
+  "harvest_season": "Spring first flush is the prized picking, as with Japanese greens generally.",
+  "appearance_dry": "Rounded, curled leaf with a glossy green sheen, unlike the straight needles of sencha.",
+  "appearance_liquor": "Clear yellow-green, typically paler and more golden in the pan-fired version.",
+  "appearance_wet": "Leaves open slowly from the curled shape into soft green pieces.",
+  "taste_profile": "Strong aroma and savouriness in steamed tamaryokucha; pan-fired versions, as is typical of the method, lean toasty and clean rather than marine.",
+  "taste_tags": [
+    "umami",
+    "vegetal",
+    "roasted",
+    "sweet"
+  ],
+  "brewing": {
+    "grams": 5,
+    "water_ml": 150,
+    "temp_c": 75,
+    "steeps": 3,
+    "seconds": [
+      75,
+      30,
+      60
+    ],
+    "notes": "The curled leaf needs a little longer to open than sencha. Pan-fired lots take somewhat hotter water, up to around 85 °C."
+  },
+  "caffeine_level": "medium",
+  "vintage_note": "Sold as the current year's crop. Under the 2002 rules, Ureshino-cha means 100% Saga and Nagasaki leaf, and 'Ureshino-cha blend' means at least 50%. True pan-fired tea is only a small share of output, around 2 to 5%, so check for kamairi on the label.",
+  "description": "Ureshino tea comes from Ureshino in southwest Saga and across into Higashisonogi in Nagasaki. Its mark is shape: round, glossy, curled leaf called tamaryokucha, rather than the needle of sencha. This looks back to Chinese green tea and Japan's pan-firing tradition.\n\nThe old method fired the leaf in a pan, which the area is famous for. Nowadays most is steamed and then worked into the same round shape. Yabukita, widely planted here, does not suit pan-firing, and so the older style has shrunk to a small share with a preservation society behind it.\n\nGive the leaf time to open. Steamed lots are aromatic and savoury. Pan-fired lots are worth seeking out, as they taste closer to a light Chinese green than to other Japanese tea.\n\nRead the label: blends carry the word and lots may be steamed. Try pan-fired and steamed side by side.",
+  "history": "Tradition holds that Ming potters settled at Sarayadani in 1440 and grew tea for their own use, and that a Ming man later brought the Nanjing pan. In the early Edo period Yoshimura Shinbei moved in and laid the foundations of the trade. Writers and visitors passing along the Nagasaki road, including Kaempfer and Siebold, left notes on it.\n\nIn 1853 the Nagasaki merchant Oura Kei gave samples to a Dutch trader, and in 1856 a large order came from the Englishman W. J. Alt, an early start to Japan's serious tea exports. Exports to Russia followed in the early Showa period, along with machine processing.\n\nThe brand was defined in 2002 and registered as a regional trademark in June 2008.",
+  "liquor_hex": "#CFCF80",
+  "leaf_hex": "#4A6332",
+  "sources": [
+    "https://ja.wikipedia.org/wiki/%E5%AC%89%E9%87%8E%E8%8C%B6",
+    "https://ja.wikipedia.org/wiki/%E6%97%A5%E6%9C%AC%E8%8C%B6",
+    "https://www.wikidata.org/wiki/Q11447803"
+  ],
+  "confidence": "medium",
+  "images": [],
+  "wikipedia_title": null,
+  "wikipedia_scope": "none",
+  "popularity": 3
+}

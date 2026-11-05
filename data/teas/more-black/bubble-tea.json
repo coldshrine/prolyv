@@ -1,0 +1,85 @@
+{
+  "slug": "bubble-tea",
+  "name_en": "Bubble Tea",
+  "name_native": "珍珠奶茶",
+  "name_romanized": "Zhēnzhū Nǎichá",
+  "name_zh": "珍珠奶茶",
+  "name_ru": "Бабл-ти",
+  "aliases": [
+    "Boba milk tea",
+    "Boba tea",
+    "Pearl milk tea",
+    "boba",
+    "tapioca tea",
+    "波霸奶茶",
+    "珍奶",
+    "粉圓奶茶",
+    "Баббл-чай",
+    "Чай с шариками"
+  ],
+  "category": "black",
+  "origin_country": "Taiwan",
+  "origin_region": "Taiwan · Taichung and Tainan",
+  "cultivar": null,
+  "processing": "A drink, not a leaf style: brewed tea, most often black or green, is shaken with milk or creamer and sweetener, then poured over cooked tapioca pearls.",
+  "form": "other",
+  "harvest_season": "Not relevant to the drink; shops use ordinary base teas all year.",
+  "appearance_dry": "There is no dry form of the drink itself; the base is usually plain black or green tea, and uncooked pearls are hard, small and dark.",
+  "appearance_liquor": "Opaque milky tan with dark pearls at the bottom in the classic black tea version; fruit versions without milk are clear and brightly coloured.",
+  "appearance_wet": "Cooked pearls are glossy, soft and chewy, brown-black when coloured with brown sugar or caramel.",
+  "taste_profile": "Sweet, creamy milk tea with a tannic backbone from the base tea, and the bouncy chew of the pearls, which Taiwanese call QQ. Sweetness and flavourings vary widely from shop to shop.",
+  "taste_tags": [
+    "sweet",
+    "creamy",
+    "malty"
+  ],
+  "brewing": {
+    "grams": 8,
+    "water_ml": 250,
+    "temp_c": 95,
+    "steeps": 1,
+    "seconds": [
+      300
+    ],
+    "notes": "Brew the tea strong, because ice and milk will thin it. Cook the pearls separately, soak them in syrup, and drink the same day: they harden as they sit."
+  },
+  "caffeine_level": "medium",
+  "vintage_note": "There are no vintages: it is made to order and drunk at once, and the pearls are cooked in batches through the day. What you can judge is the base tea and whether the shop uses fresh milk or creamer, which a menu often signals with the word 'latte'.",
+  "description": "Bubble tea is the Taiwanese milk tea with chewy tapioca balls at the bottom of the cup and a wide straw to pull them up. Pearl black milk tea and pearl green milk tea are the two standard orders, and everything else grew out of them.\n\nThe tea is brewed strong, shaken with milk or creamer and sweetener, then poured over pearls of cassava starch. Dark pearls get their colour from brown sugar or caramel. Shops now offer jelly, red bean, pudding, popping balls and cheese foam too, plus versions with no milk at all.\n\nThe pleasure is mostly texture and sweetness, with the tea giving enough tannin to stop it from turning into dessert. If you make it at home, overbrew the tea on purpose and cook the pearls just before serving. Asking for less sugar also lets you actually taste the base.\n\nThe words are a muddle. In Taiwan, 波霸 can mean the larger pearls, about a centimetre across, while 珍珠 means smaller ones, around 5 mm. In English, 'bubble' originally meant the froth from shaking, not the balls, though most people now assume otherwise.\n\nIt is also a heavy drink: a 500 ml cup can run to about 700 kcal. Think of it as a treat rather than your daily tea.",
+  "history": "The drink grew out of Taiwan's shaken-tea shops of the 1980s, and two tea houses claim to have invented it. Chun Shui Tang in Taichung says its employee Lin Hsiu-hui tried tapioca in milk tea in 1985 and that it joined the menu in 1987. Hanlin Tea Room in Tainan says its owner Tu Tsong-he created it in 1986 after seeing white tapioca balls at a local market. A long court fight ended with neither holding exclusive rights, and accounts disagree on some details.\n\nStudents took it up in the early 1990s, and in the later part of that decade machine-sealed cups made takeaway chains possible. Those chains carried it across Hong Kong and mainland China and on to overseas markets where Taiwanese emigrants had settled.\n\nIn the United States it became bound up with Asian American identity, and 'boba' is the common word there. The Oxford English Dictionary added 'bubble tea' in 2005, and Unicode added an emoji for it in 2020.",
+  "liquor_hex": "#B98A5E",
+  "leaf_hex": "#2B1A12",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Bubble_tea",
+    "https://zh.wikipedia.org/wiki/%E7%8F%8D%E7%8F%A0%E5%A5%B6%E8%8C%B6",
+    "https://ja.wikipedia.org/wiki/%E3%82%BF%E3%83%94%E3%82%AA%E3%82%AB%E3%83%86%E3%82%A3%E3%83%BC",
+    "https://ru.wikipedia.org/wiki/%D0%91%D0%B0%D0%B1%D0%BB-%D1%82%D0%B8"
+  ],
+  "confidence": "high",
+  "wikipedia_title": "Bubble tea",
+  "wikipedia_scope": "exact",
+  "popularity": 4,
+  "images": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/1/18/Classic_bubble_tea.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/18/Classic_bubble_tea.jpg/330px-Classic_bubble_tea.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Classic_bubble_tea.jpg",
+      "author": "Oqmilteashop",
+      "license": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "kind": "liquor",
+      "alt": "Glass mug of milky tan bubble tea with dark tapioca pearls at the bottom and a striped straw"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/53/Pearl_Milk_Tea_in_Chun_Shui_Tang.jpg/1280px-Pearl_Milk_Tea_in_Chun_Shui_Tang.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/53/Pearl_Milk_Tea_in_Chun_Shui_Tang.jpg/330px-Pearl_Milk_Tea_in_Chun_Shui_Tang.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Pearl_Milk_Tea_in_Chun_Shui_Tang.jpg",
+      "author": "Battlesnake1",
+      "license": "CC0",
+      "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "kind": "liquor",
+      "alt": "Tall glass of iced pearl milk tea with dark tapioca pearls, served on a wooden table in Taipei"
+    }
+  ],
+  "sources_note": "Origin accounts conflict (the ja page credits Chun Shui Tang's owner and 1983; the ru page says early 1980s); the card reports the two main claims."
+}

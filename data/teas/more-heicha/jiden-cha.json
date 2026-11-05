@@ -1,0 +1,57 @@
+{
+  "slug": "jiden-cha",
+  "name_en": "Jiden-cha",
+  "name_native": "神田茶",
+  "name_romanized": "Jiden-cha",
+  "aliases": [
+    "Kamikatsu Awa Bancha"
+  ],
+  "category": "heicha",
+  "origin_country": "Japan",
+  "origin_region": "Tokushima · Kamikatsu",
+  "cultivar": null,
+  "form": "loose",
+  "caffeine_level": "medium",
+  "brewing": {
+    "grams": 6,
+    "water_ml": 120,
+    "temp_c": 100,
+    "steeps": 6,
+    "seconds": [
+      15,
+      15,
+      20,
+      30,
+      45,
+      60
+    ],
+    "notes": "A safe starting point for dark tea: rinse once, boiling water, or simmer it the traditional way."
+  },
+  "taste_tags": [
+    "tart",
+    "sweet"
+  ],
+  "description": "A local name in Kamikatsu, Tokushima Prefecture, for Awa bancha, a post-fermented tea soured by lactic acid bacteria. Despite the word bancha, its leaves and method differ from ordinary green bancha.\n\nTreat it as you would any dark tea: rinse it, use boiling water, and buy from someone who can say who pressed it and when.",
+  "wikipedia_title": null,
+  "wikipedia_scope": "none",
+  "popularity": 1,
+  "name_zh": "神田茶",
+  "name_ru": "Дзидэн-тя",
+  "history": "Legends credit either the monk Kōbō Daishi or Yokoo Gon-no-kami, a Heike refugee, with bringing it, but nothing before the early modern period backs either story. The making of Awa bancha was selected in 2018 for documentation alongside other fermented teas of the Shikoku mountains, and in 2021 it was designated a national Important Intangible Folk Cultural Property.",
+  "liquor_hex": "#C9A23C",
+  "leaf_hex": "#4A3A22",
+  "sources": [
+    "https://ja.wikipedia.org/wiki/%E9%98%BF%E6%B3%A2%E6%99%A9%E8%8C%B6",
+    "https://ru.wikipedia.org/wiki/%D0%90%D0%B2%D0%B0%D0%B1%D0%B0%D0%BD%D1%82%D1%8F"
+  ],
+  "confidence": "medium",
+  "images": [],
+  "stub": true,
+  "processing": "Mature leaves are boiled, bruised, packed tightly into sealed, weighted tubs under their cooking water and left to ferment for about two to three weeks in Kamikatsu, then loosened, dried and sorted.",
+  "harvest_season": "High summer, around July; every leaf is stripped from the branch.",
+  "appearance_dry": "Usually dark leaf, loose or pressed into bricks or baskets.",
+  "appearance_liquor": "Golden.",
+  "appearance_wet": "Usually coarse dark leaf with some stem.",
+  "taste_profile": "Pickle-like aroma and a gentle sweetness, with little astringency because catechins and caffeine are low.",
+  "vintage_note": "Dark teas are sold by production year and many improve with several years of dry storage."
+}

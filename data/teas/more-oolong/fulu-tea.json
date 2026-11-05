@@ -1,0 +1,58 @@
+{
+  "slug": "fulu-tea",
+  "name_en": "Fulu Tea",
+  "name_native": "福鹿茶",
+  "name_romanized": "Fúlù Chá",
+  "aliases": [
+    "总统茶",
+    "總統茶"
+  ],
+  "category": "oolong",
+  "origin_country": "Taiwan",
+  "origin_region": "Taitung · Luye",
+  "cultivar": null,
+  "form": "loose",
+  "caffeine_level": "medium",
+  "brewing": {
+    "grams": 6,
+    "water_ml": 110,
+    "temp_c": 95,
+    "steeps": 6,
+    "seconds": [
+      20,
+      15,
+      20,
+      30,
+      45,
+      60
+    ],
+    "notes": "A safe starting point for oolong: gongfu style with water just off the boil."
+  },
+  "taste_tags": [
+    "floral",
+    "roasted"
+  ],
+  "description": "The regional name for low- and mid-elevation tea from Luye in Taitung County, eastern Taiwan, covering black tea, baozhong and oolong. Early spring oolong and red oolong are its specialities.\n\nTreat it as you would any oolong of its region: hot water, short steeps in a small pot, and a seller who can say which season it comes from.",
+  "wikipedia_title": null,
+  "wikipedia_scope": "none",
+  "popularity": 1,
+  "name_zh": "福鹿茶",
+  "name_ru": "Фу Лу Ча",
+  "history": "Small plantings of large-leaf Assam began here in the 1960s, and cultivation expanded between 1980 and 1995 to include oolong varieties. Lee Teng-hui gave the area's tea its name in April 1982 as provincial governor, and after he became president in 1988 it was also called president's tea. Sales fell after 1996 as Taiwan-style tea grown abroad came back to the island; a national award won in 2005 by the Yong'an grower Chen Xiqing and the launch of red oolong in 2008 helped restore its standing.",
+  "liquor_hex": "#C4842F",
+  "leaf_hex": "#4A4A2C",
+  "sources": [
+    "https://zh.wikipedia.org/wiki/%E7%A6%8F%E9%B9%BF%E8%8C%B6",
+    "https://www.wikidata.org/wiki/Q17502461"
+  ],
+  "confidence": "medium",
+  "images": [],
+  "stub": true,
+  "processing": "Typical of oolong: withered, tossed to bruise the leaf edges, partly oxidised, then fixed, rolled and dried, sometimes roasted.",
+  "harvest_season": "Spring picking starts around March, about a month ahead of high-mountain gardens, which earns it the name early spring tea; the winter picking comes about a month later than theirs.",
+  "appearance_dry": "Usually twisted strips or rolled balls, from green to dark brown depending on the roast.",
+  "appearance_liquor": "Usually from golden to amber, depending on oxidation and roast.",
+  "appearance_wet": "Usually whole leaves that open up, often with darker edges.",
+  "taste_profile": "Expect what oolongs usually give: floral or fruity notes, more roasted when the leaf is roasted.",
+  "vintage_note": "Oolongs are normally sold by season and year: light styles are best fresh, roasted styles are often rested for a year or more after roasting."
+}

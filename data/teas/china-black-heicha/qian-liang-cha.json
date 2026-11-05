@@ -3,7 +3,13 @@
   "name_en": "Qian Liang Cha (Thousand-Tael Log)",
   "name_native": "千两茶",
   "name_romanized": "Qiānliǎng Chá",
-  "aliases": ["Hua Juan Cha", "Thousand Tael Tea", "Qianliang", "Anhua log tea", "Bai Liang Cha", "Shi Liang Cha", "花卷茶"],
+  "aliases": [
+    "Hua Juan Cha",
+    "Thousand Tael Tea",
+    "Qianliang",
+    "Anhua log tea",
+    "花卷茶"
+  ],
   "category": "heicha",
   "origin_country": "China",
   "origin_region": "Hunan · Yiyang · Anhua",
@@ -15,13 +21,49 @@
   "appearance_liquor": "Orange-red to deep amber, bright.",
   "appearance_wet": "Coarse dark-brown leaves and stems, softened but still firm.",
   "taste_profile": "Thick, sweet and woody with pine smoke, a bamboo-leaf freshness from the wrapping and a long, cooling finish; aged logs add jujube and a mushroom-like softness.",
-  "taste_tags": ["woody", "smoky", "sweet", "dried-fruit", "herbal"],
-  "brewing": {"grams": 8, "water_ml": 120, "temp_c": 100, "steeps": 10, "seconds": [10, 10, 15, 20, 30, 45, 60, 90, 120, 180], "notes": "Saw or chip off a piece, rinse once, boiling water in a clay pot or gaiwan; even better simmered 5–10 minutes in a kettle. Keep a disc in its bamboo leaf and it will go on ageing."},
+  "taste_tags": [
+    "woody",
+    "smoky",
+    "sweet",
+    "dried-fruit",
+    "herbal"
+  ],
+  "brewing": {
+    "grams": 8,
+    "water_ml": 120,
+    "temp_c": 100,
+    "steeps": 10,
+    "seconds": [
+      10,
+      10,
+      15,
+      20,
+      30,
+      45,
+      60,
+      90,
+      120,
+      180
+    ],
+    "notes": "Saw or chip off a piece, rinse once, boiling water in a clay pot or gaiwan; even better simmered 5–10 minutes in a kettle. Keep a disc in its bamboo leaf and it will go on ageing."
+  },
   "caffeine_level": "low",
   "vintage_note": "Sold by the year the log was made, as whole logs (a collector's item that takes two people to lift), as sawn discs of a few hundred grams, or as the smaller Bai Liang (about 3.6 kg) and Shi Liang (about 360 g) versions. Logs from the late-1990s revival to the current year are on the market; 5–15 years is the usual drinking window, and the discs are what most people actually buy.",
   "description": "Qian Liang Cha is the biggest unit of tea anyone makes: a bamboo-wrapped log of Anhua dark tea about a metre and a half long and 36 kilos in weight, 'a thousand taels' in the old measure. It is also called Hua Juan, 'flower roll', after the pattern the bamboo weave leaves on the tea. It was made in Anhua from the mid-nineteenth century for the trade to the north-west, stopped in 1958 because it took too many men and too long, and came back in small numbers in the 1980s and commercially from the late 1990s. Today it is the showpiece of Hunan dark tea.\n\nMaking one is a team sport. Steamed hei mao cha is packed by the kilo into a long basket of bamboo strips lined with liao leaves and palm fibre, and a crew of men stamp, roll and tighten the basket with wooden levers while chanting to keep time, until the tea is compressed into a solid cylinder. The log is then stood outside for around seven weeks to dry in sun, wind and night dew, which is when the character develops; golden flowers sometimes grow naturally inside. Nobody can tell you what a log is like until it is cut.\n\nIn the cup it is thick, sweet and woody, with pine smoke from the raw material, a bamboo-leaf freshness from the wrapping and a long, cooling finish; aged logs add jujube and a soft mushroom note. Saw or chip off a piece, rinse once and brew with boiling water, and it will give ten steeps; simmering a chunk for ten minutes gives the fullest cup. It is a winter tea and a tea for a crowd.\n\nWhole logs are sold by the year of making, mostly to shops and collectors who stand them in a corner and saw off discs to order; most drinkers buy the discs, each wrapped in its bamboo leaf, or the smaller Bai Liang and Shi Liang versions of the same tea. Baishaxi is the historic maker and many Anhua factories now follow. Check that a disc smells sweet and smoky rather than musty, and that the bamboo wrapping is intact, because the wrapping is part of how the tea ages.\n\nIf you buy one disc, buy a second to put away: the difference between a five- and a fifteen-year log is the whole argument for ageing dark tea.",
   "wikipedia_title": "Fermented tea",
   "wikipedia_scope": "umbrella",
   "popularity": 3,
-  "sources_note": "Origin dating (Bai Liang in the Daoguang era, Qian Liang around the 1860s–70s) and the 1958 halt, 1983 and 1997 revivals follow Chinese tea-history sources; the 49-day ('seven sevens') drying period is traditional and varies with weather."
+  "sources_note": "Origin dating (Bai Liang in the Daoguang era, Qian Liang around the 1860s–70s) and the 1958 halt, 1983 and 1997 revivals follow Chinese tea-history sources; the 49-day ('seven sevens') drying period is traditional and varies with weather.",
+  "name_zh": "千两茶",
+  "name_ru": "Цянь Лян Ча",
+  "history": "Qian Liang grew out of an older, smaller log. Shaanxi merchants were already making a cylindrical Bai Liang, 'hundred tael' tea, in Anhua by about the start of the Daoguang era, and in the Tongzhi reign Shanxi merchants scaled the idea up with more leaf and stronger pressing; the firm is named San He He in one account and San He Gong in another. The result weighed 1,000 old taels, about 36.25 kg, and it took its name from that.\n\nChinese tea histories commonly give a halt in 1958 and a revival by 1997, with an intermediate run in the 1980s, though the details vary. The craft is now national intangible heritage.",
+  "liquor_hex": "#9A4A1C",
+  "leaf_hex": "#33241A",
+  "sources": [
+    "https://paper.people.com.cn/zgcsb/html/2016-05/30/content_1683882.htm",
+    "https://www.cnpp.cn/pinpai/13388.html",
+    "https://zh.wikipedia.org/wiki/%E9%BB%91%E8%8C%B6"
+  ],
+  "confidence": "medium",
+  "images": []
 }

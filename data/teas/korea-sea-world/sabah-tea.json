@@ -3,10 +3,16 @@
   "name_en": "Sabah Tea (Borneo Black Tea)",
   "name_native": "Teh Sabah",
   "name_romanized": "Teh Sabah",
-  "aliases": ["Sabah Tea Garden tea", "Borneo tea", "Ranau tea", "Kinabalu tea", "Malaysian Borneo black tea"],
+  "aliases": [
+    "Sabah Tea Garden tea",
+    "Borneo tea",
+    "Ranau tea",
+    "Kinabalu tea",
+    "Malaysian Borneo black tea"
+  ],
   "category": "black",
   "origin_country": "Malaysia",
-  "origin_region": "Sabah · Ranau, in the foothills of Mount Kinabalu",
+  "origin_region": "Sabah · Ranau",
   "cultivar": "Assamica-type bushes planted on a single large estate",
   "processing": "Mostly CTC black tea, withered, cut, fully oxidised and fired for bags and strong brewing, with some orthodox leaf and a small green-tea line; the garden is marketed as organic and pesticide-free.",
   "form": "loose",
@@ -15,13 +21,38 @@
   "appearance_liquor": "Bright red-brown, strong and clear.",
   "appearance_wet": "Small, even, copper-brown leaf.",
   "taste_profile": "Mild and smooth with a light maltiness, a faintly earthy, woody depth and low bitterness; a plain, easy breakfast tea that suits milk.",
-  "taste_tags": ["malty", "earthy", "brisk", "sweet"],
-  "brewing": {"grams": 3, "water_ml": 200, "temp_c": 100, "steeps": 2, "seconds": [180, 240], "notes": "Boiling water, three minutes, milk optional; it is a pot and tea-bag tea. Brew it strong for teh tarik."},
+  "taste_tags": [
+    "malty",
+    "earthy",
+    "brisk",
+    "sweet"
+  ],
+  "brewing": {
+    "grams": 3,
+    "water_ml": 200,
+    "temp_c": 100,
+    "steeps": 2,
+    "seconds": [
+      180,
+      240
+    ],
+    "notes": "Boiling water, three minutes, milk optional; it is a pot and tea-bag tea. Brew it strong for teh tarik."
+  },
   "caffeine_level": "medium",
   "vintage_note": "Sold year-round by brand in bags and loose packs, never by harvest or vintage; the single garden plucks continuously and blends for consistency. An everyday tea to drink within a year or two of packing.",
-  "description": "Sabah Tea is the only tea of any size grown on Borneo. The garden sits at Ranau in the foothills of Mount Kinabalu, at around 700 metres, surrounded by rainforest, and was planted in the 1970s as a state development project before passing into private hands. It is a single estate with its own factory, a tea resort for visitors, and a brand that is in most Sabah kitchens and increasingly across Malaysia.\n\nThe bushes are Assam-type and are plucked all year, since the equatorial climate gives no seasons; the factory makes mostly CTC black tea for tea bags and the strong, milky tea Malaysians drink, plus a loose orthodox grade and a little green tea. The garden markets itself as organic and free of pesticides, with the rainforest and the mountain doing a lot of the advertising.\n\nIn the cup it is an unfussy black tea: mild, smooth, lightly malty with a faint woody-earthy depth from the lowland tropical growing conditions, low in bitterness and happy with milk and sugar. It is at its best as teh tarik or a plain breakfast pot rather than as a tea to contemplate, and the loose orthodox grade is the one to try if you want it unsweetened.\n\nIt is sold by brand and format, year-round, with no vintage, and is cheap; outside Malaysia it is mostly found in Asian groceries and online. Do not expect a specialty tea, and do not pay specialty prices; its appeal is its place of origin and its reliability.\n\nIf you are in Sabah, the tea garden near Ranau is worth a visit on the way to Kinabalu, and the comparison to make at home is with BOH from the Cameron Highlands: the peninsular tea is brighter and lighter, the Borneo tea softer and earthier.",
+  "description": "Sabah Tea is the best-known tea grown on Borneo. The garden sits at Ranau in the foothills of Mount Kinabalu, surrounded by rainforest. It is a single estate with its own factory, a tea resort for visitors, and a brand that is in most Sabah kitchens and increasingly across Malaysia.\n\nThe bushes are Assam-type and are plucked all year, since the equatorial climate gives no seasons; the factory makes mostly CTC black tea for tea bags and the strong, milky tea Malaysians drink, plus a loose orthodox grade and a little green tea. The garden markets itself as organic and free of pesticides, with the rainforest and the mountain doing a lot of the advertising.\n\nIn the cup it is an unfussy black tea: mild, smooth, lightly malty with a faint woody-earthy depth from the lowland tropical growing conditions, low in bitterness and happy with milk and sugar. It is at its best as teh tarik or a plain breakfast pot rather than as a tea to contemplate, and the loose orthodox grade is the one to try if you want it unsweetened.\n\nIt is sold by brand and format, year-round, with no vintage, and is cheap; outside Malaysia it is mostly found in Asian groceries and online. Do not expect a specialty tea, and do not pay specialty prices; its appeal is its place of origin and its reliability.\n\nIf you are in Sabah, the tea garden near Ranau is worth a visit on the way to Kinabalu, and the comparison to make at home is with BOH from the Cameron Highlands: the peninsular tea is brighter and lighter, the Borneo tea softer and earthier.",
   "wikipedia_title": "Sabah Tea",
   "wikipedia_scope": "umbrella",
   "popularity": 1,
-  "sources_note": "Altitude, founding decade (1970s) and the organic/pesticide-free claim are from the producer's own marketing and general reporting; treat the organic claim as the garden's claim. The 'Sabah Tea' Wikipedia article is about the company, hence 'umbrella'."
+  "sources_note": "Altitude, founding decade (1970s) and the organic/pesticide-free claim are from the producer's own marketing and general reporting; treat the organic claim as the garden's claim. The 'Sabah Tea' Wikipedia article is about the company, hence 'umbrella'.",
+  "name_zh": "沙巴茶",
+  "name_ru": "Сабах",
+  "history": "Sabah Tea is a single estate and brand at Ranau, in the foothills of Mount Kinabalu in Malaysian Borneo. The company is dated to 1973 at Ranau, and the Nalapak farm was incorporated into it on 26 April 1978. The garden's organic standing rests on the company's own account of itself.\n\nToday it is known mainly as an everyday Malaysian black tea and as a stop for visitors on the way to Kinabalu.",
+  "liquor_hex": "#9A4A1E",
+  "leaf_hex": "#3B2618",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Sabah_Tea"
+  ],
+  "confidence": "low",
+  "images": []
 }

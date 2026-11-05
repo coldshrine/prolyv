@@ -3,7 +3,15 @@
   "name_en": "Rou Gui",
   "name_native": "肉桂",
   "name_romanized": "Ròuguì",
-  "aliases": ["Rougui", "Cassia", "Cinnamon oolong", "Wuyi Rou Gui", "Yu Gui"],
+  "aliases": [
+    "Rougui",
+    "Cassia",
+    "Cinnamon oolong",
+    "Wuyi Rou Gui",
+    "Yu Gui",
+    "武夷肉桂",
+    "肉桂茶"
+  ],
   "category": "oolong",
   "origin_country": "China",
   "origin_region": "Fujian · Wuyi Mountains",
@@ -15,13 +23,89 @@
   "appearance_liquor": "Bright orange-amber and clear, turning reddish with heavier roasts.",
   "appearance_wet": "Thick yellow-green leaves with a red rim, slightly crumpled, leaving a warm cinnamon-like scent on the gaiwan lid.",
   "taste_profile": "Cassia-like spice and warm fruit (peach, dried longan) over a thick, almost oily body, with a tingling, faintly pungent finish and a strong mineral aftertaste.",
-  "taste_tags": ["spicy", "roasted", "stone-fruit", "mineral", "sweet"],
-  "brewing": {"grams": 8, "water_ml": 110, "temp_c": 100, "steeps": 8, "seconds": [10, 10, 15, 20, 30, 45, 60, 90], "notes": "Boiling water and quick pours; Rou Gui punishes long early steeps with harshness. Smell the lid after the first infusion: the cinnamon note is strongest there. A zisha pot rounds off the roast, a gaiwan shows the aroma better."},
+  "taste_tags": [
+    "spicy",
+    "roasted",
+    "stone-fruit",
+    "mineral",
+    "sweet"
+  ],
+  "brewing": {
+    "grams": 8,
+    "water_ml": 110,
+    "temp_c": 100,
+    "steeps": 8,
+    "seconds": [
+      10,
+      10,
+      15,
+      20,
+      30,
+      45,
+      60,
+      90
+    ],
+    "notes": "Boiling water and quick pours; Rou Gui punishes long early steeps with harshness. Smell the lid after the first infusion: the cinnamon note is strongest there. A zisha pot rounds off the roast, a gaiwan shows the aroma better."
+  },
   "caffeine_level": "medium",
   "vintage_note": "Spring harvest only, sold by year; roasted over the summer and usually on sale from September, after the roast has rested for a few months. A fresh mid or heavy roast can taste sharp for its first months and is often better the following spring; well-made Rou Gui keeps two to five years sealed and dry, and older lots are sold as aged yancha with the year stated.",
-  "description": "Rou Gui is the cultivar that drives the modern Wuyi rock tea market: a spicy, muscular oolong named for cassia bark (rou gui is the Chinese word for the cinnamon-like spice), grown in the gorges and on the cliffs of the Wuyi Mountains in northern Fujian. The Wuyi saying goes that nothing is more fragrant than Rou Gui and nothing is smoother than Shui Xian, and that pair covers most of what the mountain produces.\n\nIt is an old local bush that was recorded as a famous Wuyi mingcong in the Qing dynasty and spread widely only from the 1980s onward, once it was propagated as a recognised cultivar and makers realised how well it takes roast. The leaves are picked mature in May, shaken hard to oxidise the edges, rolled into strips and charcoal roasted. Shaking brings out the spice; the roast decides whether you get a bright, peppery, floral tea or a dark, dense, cocoa-and-cinnamon one.\n\nThe first steeps are all aroma and grip: warm spice, peach, a slightly pungent tingle on the tongue. From the third or fourth infusion the body takes over, thick and smooth, and the finish turns sweet and cooling. Use boiling water and flash steeps early on; this cultivar goes harsh if you let it sit, and it is at its best in the middle of the session rather than the start.\n\nRou Gui is where terroir names matter most and are faked most. Tea from the famous pits of the core scenic area (Niu Lan Keng, Ma Tou Yan, Hui Yuan Keng, sold under nicknames like Niu Rou and Ma Rou) commands very high prices, and the amount genuinely grown there is tiny compared with what is labelled that way. Unless you are buying from someone who can show you the plot, treat a pit name as a style description, not a guarantee, and judge the tea on body, aftertaste and how many steeps it lasts.\n\nIf Rou Gui feels too sharp, rest the bag for a few months or drink it next to a Shui Xian; the two teach you the two poles of yancha.",
+  "description": "Rou Gui is the cultivar that drives the modern Wuyi rock tea market: a spicy, muscular oolong named for cassia bark (rou gui is the Chinese word for the cinnamon-like spice), grown in the gorges and on the cliffs of the Wuyi Mountains in northern Fujian. The Wuyi saying goes that nothing is more fragrant than Rou Gui and nothing is smoother than Shui Xian, and that pair covers most of what the mountain produces.\n\nIt is an old local bush that goes back to the Qing dynasty and spread widely only in the second half of the twentieth century, as its name became known and makers realised how well it takes roast. The leaves are picked mature in May, shaken hard to oxidise the edges, rolled into strips and charcoal roasted. Shaking brings out the spice; the roast decides whether you get a bright, peppery, floral tea or a dark, dense, cocoa-and-cinnamon one.\n\nThe first steeps are all aroma and grip: warm spice, peach, a slightly pungent tingle on the tongue. From the third or fourth infusion the body takes over, thick and smooth, and the finish turns sweet and cooling. Use boiling water and flash steeps early on; this cultivar goes harsh if you let it sit, and it is at its best in the middle of the session rather than the start.\n\nRou Gui is where terroir names matter most and are faked most. Tea from the famous pits of the core scenic area (Niu Lan Keng, Ma Tou Yan, Hui Yuan Keng, sold under nicknames like Niu Rou and Ma Rou) commands very high prices, and the amount genuinely grown there is tiny compared with what is labelled that way. Unless you are buying from someone who can show you the plot, treat a pit name as a style description, not a guarantee, and judge the tea on body, aftertaste and how many steeps it lasts.\n\nIf Rou Gui feels too sharp, rest the bag for a few months or drink it next to a Shui Xian; the two teach you the two poles of yancha.",
   "wikipedia_title": "Rougui tea",
   "wikipedia_scope": "exact",
   "popularity": 4,
-  "sources_note": "Yu Gui (玉桂) is an older name for the same cultivar. The Qing-dynasty record and the 1980s spread are the standard account in Chinese tea literature."
+  "sources_note": "Yu Gui (玉桂) is an older name for the same cultivar. The Qing-dynasty record and the 1980s spread are the standard account in Chinese tea literature.",
+  "name_zh": "肉桂",
+  "name_ru": "Жоу Гуй",
+  "history": "Rou Gui is a Wuyi tea bush that goes back to the Qing dynasty and has been grown on the mountain for over a century. It stayed a local name for a long time. By one account it became widely known only from the 1950s, with planting spreading alongside its reputation until Rou Gui and Shui Xian became the two largest plantings among Wuyi rock teas.\n\nThe name means cassia, and the usual explanation is the spicy scent. A second explanation holds that the word once referred to osmanthus and points to a sweet floral aroma instead.\n\nIts recent fame has brought problems. A press investigation into the Wuyi trade put the output of Niu Lan Keng, the most famous Rou Gui plot, at around 1,000 jin a year, most of it never reaching the market, while hundreds of Niu Lan Keng listings appeared online and shop prices ran from a few thousand to 200,000 yuan per jin. It also described outside tea being packaged under plot names and nicknames such as long rou and hu rou. Older and newer processing also pull apart: the traditional method gives a dark leaf and rich smell, the newer one a leaf of mixed colour and a fruitier aroma.",
+  "liquor_hex": "#B96A24",
+  "leaf_hex": "#3D2A1C",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Rougui_tea",
+    "https://ja.wikipedia.org/wiki/%E6%AD%A6%E5%A4%B7%E8%82%89%E6%A1%82",
+    "https://www.jiemian.com/article/3022277.html",
+    "https://www.wikidata.org/wiki/Q7370926"
+  ],
+  "confidence": "medium",
+  "images": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/8/89/Rou_Gui_%28Traditional%29_Oolong_tea_leaf.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/89/Rou_Gui_%28Traditional%29_Oolong_tea_leaf.jpg/330px-Rou_Gui_%28Traditional%29_Oolong_tea_leaf.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Rou_Gui_(Traditional)_Oolong_tea_leaf.jpg",
+      "author": "",
+      "license": "CC BY-SA 3.0",
+      "license_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+      "kind": "dry_leaf",
+      "alt": "Pile of dark, twisted dry Rou Gui oolong leaves on a white background"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/8/83/Rou_Gui_Oolong_tea_leaf.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/83/Rou_Gui_Oolong_tea_leaf.jpg/330px-Rou_Gui_Oolong_tea_leaf.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Rou_Gui_Oolong_tea_leaf.jpg",
+      "author": "",
+      "license": "CC BY-SA 3.0",
+      "license_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+      "kind": "dry_leaf",
+      "alt": "Pile of dark dry Rou Gui oolong strips with some lighter leaves on white"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/a/a9/Rou_Gui_%28Traditional%29_Oolong_tea_leaf_close.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a9/Rou_Gui_%28Traditional%29_Oolong_tea_leaf_close.jpg/330px-Rou_Gui_%28Traditional%29_Oolong_tea_leaf_close.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Rou_Gui_(Traditional)_Oolong_tea_leaf_close.jpg",
+      "author": "",
+      "license": "CC BY-SA 3.0",
+      "license_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+      "kind": "dry_leaf",
+      "alt": "Close view of dark twisted dry Rou Gui oolong leaves"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/7/74/Rou_Gui_Oolong_tea_leaf_close.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/74/Rou_Gui_Oolong_tea_leaf_close.jpg/330px-Rou_Gui_Oolong_tea_leaf_close.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Rou_Gui_Oolong_tea_leaf_close.jpg",
+      "author": "",
+      "license": "CC BY-SA 3.0",
+      "license_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+      "kind": "dry_leaf",
+      "alt": "Close view of dry Rou Gui oolong leaves in dark and paler tones"
+    }
+  ]
 }

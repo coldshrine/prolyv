@@ -1,0 +1,67 @@
+{
+  "slug": "billy-tea",
+  "name_en": "Billy Tea",
+  "name_native": null,
+  "name_romanized": null,
+  "name_zh": "比利罐茶",
+  "name_ru": "Чай билли",
+  "aliases": [
+    "Billy can tea",
+    "Чай из котелка"
+  ],
+  "category": "black",
+  "origin_country": "Australia",
+  "origin_region": "Australian bush",
+  "cultivar": null,
+  "processing": "Not a leaf style but a campfire method: water is boiled in a billycan, a handful of black tea goes in, and a gum leaf is sometimes added for a eucalyptus note.",
+  "form": "loose",
+  "harvest_season": "Not tied to a harvest; made with whatever black tea is to hand.",
+  "appearance_dry": "Plain dark black tea, usually a sturdy everyday blend, sometimes with a gum leaf on the side.",
+  "appearance_liquor": "Dark, strong reddish brown, sometimes with a slight haze from fine leaf.",
+  "appearance_wet": "Soft dark leaf settled at the bottom of the can, with a limp gum leaf if one was used.",
+  "taste_profile": "Strong and tannic with a trace of woodsmoke from the fire; a gum leaf brings a cooling eucalyptus note.",
+  "taste_tags": [
+    "smoky",
+    "brisk",
+    "camphor",
+    "woody"
+  ],
+  "brewing": {
+    "grams": 12,
+    "water_ml": 1250,
+    "temp_c": 100,
+    "steeps": 1,
+    "seconds": [
+      600
+    ],
+    "notes": "Boil the water in the billy, add tea and gum leaves (or lemon myrtle), simmer gently for about 10 minutes and rest for 2."
+  },
+  "caffeine_level": "medium",
+  "vintage_note": "There are no years or seasons here, because billy tea is made on the spot. Any sturdy black tea does the job. Billy Tea has also long been a grocery brand in Australia, sold as an ordinary packaged black tea rather than by vintage.",
+  "description": "Billy tea is what you get when you boil black tea in a blackened tin can over a campfire. It belongs to Australian bush life and has a place in the national song: the swagman in Waltzing Matilda is making it.\n\nThe leaf is ordinary. All the character comes from the method: tea goes straight into boiling water and may simmer for minutes, which no gentle tea would forgive. A couple of gum leaves add eucalyptus, and leaving the lid off is said to let in some smoke.\n\nThe result is big, dark and tannic. Most people get the balance wrong by using a delicate tea, so reach for a plain robust black one and accept the bitterness, or soften it with sugar or milk as you please.\n\nThen comes the theatre. By bush custom, leaves are settled by tapping the billy with a stick or by swinging it in a full circle. A full can of boiling water is exactly as dangerous as it sounds.",
+  "history": "The expression boiling the billy goes back to the Australian gold rushes and probably earlier, and tea was a staple of the colonial period. \n\nBilly Tea became a popular grocery brand, and the Billy Tea Company changed a line of Waltzing Matilda so that the swagman waits for his billy to boil.",
+  "liquor_hex": "#6E3518",
+  "leaf_hex": "#33261B",
+  "sources": [
+    "https://www.nma.gov.au/exhibitions/defining-symbols-australia/billy",
+    "https://en.wikipedia.org/wiki/Billycan",
+    "https://en.wikipedia.org/wiki/Tea_culture",
+    "https://blog.englishteastore.com/2014/07/09/a-briefing-on-billy-tea/"
+  ],
+  "confidence": "medium",
+  "wikipedia_title": "Billycan",
+  "wikipedia_scope": "umbrella",
+  "popularity": 2,
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c2/Billycan-campfire_%28cropped%29.jpg/1280px-Billycan-campfire_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c2/Billycan-campfire_%28cropped%29.jpg/330px-Billycan-campfire_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Billycan-campfire_(cropped).jpg",
+      "author": "Flickr user \"Johan Larsson\"",
+      "license": "CC BY 2.0",
+      "license_url": "https://creativecommons.org/licenses/by/2.0",
+      "kind": "serving",
+      "alt": "Billycan of tea heating over an open campfire"
+    }
+  ]
+}

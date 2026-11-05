@@ -1,0 +1,52 @@
+{
+  "slug": "longtuanzhu-jasmine",
+  "name_en": "Longtuanzhu Jasmine",
+  "name_native": "龙团珠茉莉花茶",
+  "name_romanized": "Lóngtuánzhū Mòlì Huāchá",
+  "aliases": [
+    "龍團珠茉莉花茶"
+  ],
+  "category": "green",
+  "origin_country": "China",
+  "origin_region": "Fujian · Fuzhou",
+  "cultivar": null,
+  "form": "ball",
+  "caffeine_level": "medium",
+  "brewing": {
+    "grams": 3,
+    "water_ml": 150,
+    "temp_c": 80,
+    "steeps": 3,
+    "seconds": [
+      60,
+      75,
+      105
+    ],
+    "notes": "A safe starting point for green tea: cooler water, short steeps, then adjust by taste."
+  },
+  "taste_tags": [
+    "floral"
+  ],
+  "description": "A traditional jasmine tea of Fuzhou, with leaf rolled into round, heavy pellets.\n\nRecipes for a flavoured or scented tea vary from one maker to the next, so read the ingredient list and brew it like its base tea.",
+  "wikipedia_title": null,
+  "wikipedia_scope": "none",
+  "popularity": 1,
+  "name_zh": "龙团珠茉莉花茶",
+  "name_ru": "Лун Туань Чжу Мо Ли Хуа Ча",
+  "history": "It is known as a long-standing local product of Fuzhou's jasmine trade. Little more is documented about it.",
+  "liquor_hex": "#DCC56C",
+  "leaf_hex": "#6E7640",
+  "sources": [
+    "https://blog.sina.com.cn/s/blog_414dbdbf0102vc1x.html"
+  ],
+  "confidence": "low",
+  "images": [],
+  "stub": true,
+  "processing": "A green base tea flavoured or scented by the maker; the recipe varies.",
+  "harvest_season": "The base tea can come from any picking, so the season matters less than the recipe.",
+  "appearance_dry": "Round, tight, heavy and even.",
+  "appearance_liquor": "Yellow and bright.",
+  "appearance_wet": "Thick, plump leaves.",
+  "taste_profile": "Fresh, strong fragrance and a mellow, full taste.",
+  "vintage_note": "Flavoured and scented teas are not sold by vintage. Buy recent stock and drink it within a year or so, since the aroma fades."
+}

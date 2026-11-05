@@ -1,0 +1,67 @@
+{
+  "slug": "terere",
+  "name_en": "Tereré",
+  "name_native": "tereré",
+  "name_romanized": null,
+  "name_zh": "凉马黛茶",
+  "name_ru": "Терере",
+  "aliases": [
+    "Terere",
+    "Tererê",
+    "Iced yerba mate",
+    "Tereré de jugo",
+    "Tereré ruso",
+    "Juice tereré",
+    "Russian tereré"
+  ],
+  "category": "tisane",
+  "origin_country": "Paraguay",
+  "origin_region": "Paraguay",
+  "cultivar": "Ilex paraguariensis",
+  "processing": "Yerba mate is infused with very cold water and plenty of ice, usually with pohã ñana, medicinal or refreshing herbs. A variant uses fruit juice instead of water.",
+  "form": "loose",
+  "harvest_season": "Made all year and drunk mostly in hot weather; the yerba itself carries no prized picking.",
+  "appearance_dry": "Coarsely cut green yerba mate leaf and stem, sometimes mixed with dried herbs such as mint.",
+  "appearance_liquor": "Cloudy pale green-yellow and ice cold; bright and fruit-colored in the juice version.",
+  "appearance_wet": "A wet, olive-green packed mass of cut leaf in the cup.",
+  "taste_profile": "Grassy and bitter like mate but cleaner and sharper when cold, lifted by mint, lemon balm or other herbs.",
+  "taste_tags": [
+    "grassy",
+    "bitter",
+    "herbal"
+  ],
+  "brewing": {
+    "grams": 50,
+    "water_ml": 1000,
+    "temp_c": 5,
+    "steeps": 10,
+    "seconds": [
+      20,
+      20,
+      20,
+      20,
+      20,
+      20,
+      20,
+      20,
+      20,
+      20
+    ],
+    "notes": "Fill a cup or horn two-thirds with yerba, keep ice water in a big jug and top up round by round. Crush fresh herbs into the water, not the cup, and pass it on when you have drained it."
+  },
+  "caffeine_level": "medium",
+  "vintage_note": "The drink is mixed on the spot and has no vintage. Its base is sold as bagged yerba, including blends cut for it and mixed with herbs such as mint, labelled para tereré. Look for that labelling, since cuts and additions suit cold water better than standard yerba.",
+  "description": "Tereré is yerba mate drunk cold, and in Paraguay it is far more than a summer version of the hot drink: it is a cultural icon, usually made with a big vessel of ice water and a handful of pohã ñana, the local medicinal herbs. It is also popular in northeastern Argentina, Mato Grosso do Sul and eastern Bolivia.\n\nThe herbs are where it gets interesting. Mint and lemon balm are the easy ones, but the list runs to verbena, ginger, horsetail and many others. In some regions the water is replaced with fruit juice, giving juice tereré, called Russian tereré in places.\n\nCold water pulls less out of the leaf, so the cup is grassy and bitter without the heaviness of hot mate, and the session lasts. The jug goes round, the gourd goes round, and it is proper to wait while the saint has a sip before the first person drinks.\n\nFor buying, look for yerba labelled para tereré, made for this purpose and often already blended with herbs. In southern Brazil the word can be an insult for a chimarrão that was not hot enough, so ask for it by name in the right place.",
+  "history": "The name is of Guaraní origin, and the infusion's roots are placed in pre-Columbian America, with the custom settling as a tradition during the time of the Governorate of Paraguay.\n\nIn recent decades it has spread to parts of southern Brazil, eastern Bolivia and Argentina. On December 17, 2020, UNESCO recognized Paraguay's tereré, along with its preparation with pohã ñana, as intangible cultural heritage.",
+  "liquor_hex": "#B9B65A",
+  "leaf_hex": "#6F7A3C",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Terer%C3%A9",
+    "https://en.wikipedia.org/wiki/Mate_%28drink%29"
+  ],
+  "confidence": "high",
+  "wikipedia_title": "Tereré",
+  "wikipedia_scope": "exact",
+  "popularity": 3,
+  "images": []
+}

@@ -1,0 +1,57 @@
+{
+  "slug": "kuradashi-sencha",
+  "name_en": "Kuradashi Sencha",
+  "name_native": "蔵出し煎茶",
+  "name_romanized": "Kuradashi Sencha",
+  "name_zh": "藏出煎茶",
+  "name_ru": "Курадаси сенча",
+  "aliases": [
+    "Aged sencha",
+    "Kuradashi tea"
+  ],
+  "category": "green",
+  "origin_country": "Japan",
+  "origin_region": "Kyoto · Uji",
+  "cultivar": null,
+  "processing": "Finished sencha is stored in cool conditions for about a year and a half before release, today usually in foil bags inside wooden boxes rather than ceramic jars. The storage softens the leaf's fresh aroma.",
+  "form": "loose",
+  "harvest_season": "Picked in spring, held through the following year, and released in autumn.",
+  "appearance_dry": "Dark green rolled needles, typically a little duller than fresh sencha.",
+  "appearance_liquor": "Clear yellow-green, typically slightly deeper than fresh sencha.",
+  "appearance_wet": "Soft green leaf pieces, typical of sencha.",
+  "taste_profile": "Mellower, sweeter and rounder than fresh sencha, with a soft rather than sharp aroma; compared by one merchant to the wood, spice, fruit and nut notes of aged wine.",
+  "taste_tags": [
+    "sweet",
+    "woody",
+    "nutty",
+    "umami"
+  ],
+  "brewing": {
+    "grams": 5,
+    "water_ml": 150,
+    "temp_c": 70,
+    "steeps": 3,
+    "seconds": [
+      60,
+      15,
+      40
+    ],
+    "notes": "Treat it like a good sencha, slightly on the cool side. Do not expect shincha brightness; a gentle first steep shows the roundness better."
+  },
+  "caffeine_level": "medium",
+  "vintage_note": "The reverse of normal sencha: sold roughly a year and a half after picking, in a limited autumn release rather than as fresh spring tea. Hibiki-an's editions have run to 850 packages and sold only in the autumn season, so availability varies year to year.",
+  "description": "Almost every Japanese green tea is sold on freshness. Kuradashi sencha goes the other way. The name means taken out of the storehouse, and the tea is rested for around a year and a half before it reaches you.\n\nThe practice borrows from the old handling of tencha, which was sealed in ceramic jars and kept somewhere cool until the autumn. These days foil bags and wooden boxes are the usual storage, and the merchant's skill lies in controlling the slow change. Hibiki-an says suitable leaf is rare and comes from mountain ravines in the Uji region.\n\nYou give up shincha's bright, grassy lift and get something rounder, sweeter and deeper. Brew it at about 70°C for a minute and taste it beside a fresh sencha; the contrast is the point.\n\nIt appears in small autumn runs and isn't widely made. Do not confuse it with sencha that has simply gone stale at the back of a cupboard: real kuradashi is deliberately stored and sold as such, and should still smell clean.",
+  "history": "The root of this tea is the old Uji custom of storing tencha in sealed jars over the summer. Only seven Uji merchants were permitted the practice until the mid-19th century, according to Hibiki-an. The opening of the jar survives as Kuchikiri no Gi, a ceremony held in early October at Kōshō-ji in Uji.\n\nApplying the idea to sencha is a much narrower modern product, known mainly through specialist merchants. Little is documented about who first sold it under this name.",
+  "liquor_hex": "#CDBF6E",
+  "leaf_hex": "#49553A",
+  "sources": [
+    "https://www.hibiki-an.com/",
+    "https://www.hibiki-an.com/contents.php/cnID/7",
+    "https://www.hibiki-an.com/product_info.php/products_id/524"
+  ],
+  "confidence": "medium",
+  "wikipedia_title": "Sencha",
+  "wikipedia_scope": "umbrella",
+  "popularity": 2,
+  "images": []
+}

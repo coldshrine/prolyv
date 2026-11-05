@@ -3,7 +3,14 @@
   "name_en": "Kaihua Long Ding (Dragon Peak)",
   "name_native": "开化龙顶",
   "name_romanized": "Kāihuà Lóngdǐng",
-  "aliases": ["Kai Hua Long Ding", "Kaihua Longding", "Dragon Peak tea", "Dragon Top", "Long Ding"],
+  "aliases": [
+    "Kai Hua Long Ding",
+    "Kaihua Longding",
+    "Dragon Peak tea",
+    "Dragon Top",
+    "Long Ding",
+    "開化龍頂"
+  ],
   "category": "green",
   "origin_country": "China",
   "origin_region": "Zhejiang · Quzhou · Kaihua county",
@@ -15,13 +22,41 @@
   "appearance_liquor": "Pale green-gold, clear with a faint haze of down.",
   "appearance_wet": "Plump buds and tiny leaves, bright green, standing upright then sinking.",
   "taste_profile": "Clean and sweet with orchid and fresh chestnut, a light umami body and a cool, refreshing finish.",
-  "taste_tags": ["floral", "sweet", "nutty", "umami"],
-  "brewing": {"grams": 3, "water_ml": 150, "temp_c": 80, "steeps": 3, "seconds": [45, 45, 75], "notes": "Tall glass, 80 °C. A bud tea for watching: the needles stand up, then fall. Keep the dose light."},
+  "taste_tags": [
+    "floral",
+    "sweet",
+    "nutty",
+    "umami"
+  ],
+  "brewing": {
+    "grams": 3,
+    "water_ml": 150,
+    "temp_c": 80,
+    "steeps": 3,
+    "seconds": [
+      45,
+      45,
+      75
+    ],
+    "notes": "Tall glass, 80 °C. A bud tea for watching: the needles stand up, then fall. Keep the dose light."
+  },
   "caffeine_level": "medium",
   "vintage_note": "Sold as the current year's spring harvest, with pre-Qingming single-bud lots as the top grade and yu qian bud-and-leaf lots as the everyday version; mostly sold within Zhejiang. Drink within the year, kept cold and sealed.",
-  "description": "Kaihua Long Ding is a bud tea from Kaihua county in western Zhejiang, where the province meets Anhui and Jiangxi near the source of the Qiantang river. It is a modern famous tea, developed in the hill gardens around the county in the late 1950s, and it has become one of Zhejiang's top greens alongside Longjing and Anji Bai Cha.\n\nIt is baked rather than pan-dried, which matters: after firing, the slender shoots are straightened, not pressed, and dried with warm air, so the finished tea is a straight, downy needle that keeps its silvery colour and a fresh rather than roasty aroma. Good lots are striking in the tin, like a bundle of tiny silver-green spears.\n\nThe cup is clean and sweet, with orchid and fresh chestnut, a light savoury body and a cooling finish that lingers. It is gentle and three steeps is its range. Brew it in a tall glass at 80 °C, watch the needles stand and sink, and resist the urge to add more leaf; this is a tea of fragrance and texture, not strength.\n\nIt is sold as the current spring's harvest, graded by picking date and bud ratio, and most of it never leaves the province, so it is a good one to look for in Hangzhou or from a Zhejiang specialist. Pre-Qingming single-bud lots are the showpiece and priced that way; the bud-and-one-leaf tea picked a week or two later is better value and a touch fuller.\n\nTianmu Qing Ding from the mountains near Hangzhou is its nearest relative in style; try them together to see how two Zhejiang bud teas differ.",
+  "description": "Kaihua Long Ding is a bud tea from Kaihua county in western Zhejiang, where the province meets Anhui and Jiangxi near the source of the Qiantang river. The county's tea has old tribute records, and it has become one of Zhejiang's best-known greens.\n\nIt is baked rather than pan-dried, which matters: after firing, the slender shoots are straightened, not pressed, and dried with warm air, so the finished tea is a straight, downy needle that keeps its silvery colour and a fresh rather than roasty aroma. Good lots are striking in the tin, like a bundle of tiny silver-green spears.\n\nThe cup is clean and sweet, with orchid and fresh chestnut, a light savoury body and a cooling finish that lingers. It is gentle and three steeps is its range. Brew it in a tall glass at 80 °C, watch the needles stand and sink, and resist the urge to add more leaf; this is a tea of fragrance and texture, not strength.\n\nIt is sold as the current spring's harvest, graded by picking date and bud ratio, and most of it never leaves the province, so it is a good one to look for in Hangzhou or from a Zhejiang specialist. Pre-Qingming single-bud lots are the showpiece and priced that way; the bud-and-one-leaf tea picked a week or two later is better value and a touch fuller.\n\nTianmu Qing Ding from the mountains near Hangzhou is its nearest relative in style; try them together to see how two Zhejiang bud teas differ.",
   "wikipedia_title": "Green tea",
   "wikipedia_scope": "umbrella",
   "popularity": 2,
-  "sources_note": "No dedicated English Wikipedia article found. 'Late 1950s' for the modern creation of the tea follows the usual Chinese account."
+  "sources_note": "No dedicated English Wikipedia article found. 'Late 1950s' for the modern creation of the tea follows the usual Chinese account.",
+  "name_zh": "开化龙顶",
+  "name_ru": "Кай Хуа Лун Дин",
+  "history": "Kaihua in western Zhejiang has an older tea record than its modern fame suggests: a local report traces written mentions to the late Tang, and it cites the county gazetteer for a tribute listing in 1631. How directly those teas connect to today's straight bud tea is unclear.\n\nThe name is tied by legend to Dalong Mountain in the county, whose summit tea was said to be especially good. The frying technique joined Zhejiang's provincial heritage list in 2009, and the name holds a geographical indication.",
+  "liquor_hex": "#E0DE9E",
+  "leaf_hex": "#94A66C",
+  "sources": [
+    "https://tidenews.com.cn/news.html?id=2749178",
+    "https://tidenews.com.cn/news.html?id=3058523",
+    "https://zh.wikipedia.org/wiki/%E5%BC%80%E5%8C%96%E5%8E%BF"
+  ],
+  "confidence": "medium",
+  "images": []
 }

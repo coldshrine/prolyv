@@ -3,10 +3,17 @@
   "name_en": "Muzha Tie Guan Yin",
   "name_native": "木柵鐵觀音",
   "name_romanized": "Mùzhà Tiě Guānyīn",
-  "aliases": ["Muzha Tieguanyin", "Mucha Tie Kuan Yin", "Taiwanese Tieguanyin", "Zheng Cong Tieguanyin", "Maokong Tieguanyin", "Taipei Iron Goddess"],
+  "aliases": [
+    "Muzha Tieguanyin",
+    "Mucha Tie Kuan Yin",
+    "Taiwanese Tieguanyin",
+    "Zheng Cong Tieguanyin",
+    "Maokong Tieguanyin",
+    "Taipei Iron Goddess"
+  ],
   "category": "oolong",
   "origin_country": "Taiwan",
-  "origin_region": "Taipei · Wenshan · Muzha (Maokong)",
+  "origin_region": "Taipei · Wenshan · Muzha",
   "cultivar": "Tieguanyin (the 'red heart crooked-tail' strain) for zheng cong lots; Si Ji Chun or Jin Xuan for cheaper Tieguanyin-style tea",
   "processing": "Oxidised more heavily than Anxi's green style (roughly 30–40%), ball-rolled, then roasted in repeated cycles, traditionally with the cloth-wrapped balls still slightly damp, to a medium or heavy level that gives the amber liquor and the soft sourness.",
   "form": "loose",
@@ -15,13 +22,44 @@
   "appearance_liquor": "Amber to reddish brown, clear.",
   "appearance_wet": "Dark olive-brown leaves with red edges and the slightly crooked leaf tip of the cultivar.",
   "taste_profile": "Roasted grain, stewed plum and honey with a soft sour edge that opens the mouth, a weighty smooth body and a long sour-sweet finish, the 'Guanyin rhyme' local drinkers prize.",
-  "taste_tags": ["roasted", "tart", "honey", "dried-fruit", "woody"],
-  "brewing": {"grams": 6, "water_ml": 110, "temp_c": 100, "steeps": 7, "seconds": [25, 20, 25, 35, 50, 70, 100], "notes": "Boiling water in a clay pot; eight or more steeps, the sourness fading into sweetness as it goes."},
+  "taste_tags": [
+    "roasted",
+    "tart",
+    "honey",
+    "dried-fruit",
+    "woody"
+  ],
+  "brewing": {
+    "grams": 6,
+    "water_ml": 110,
+    "temp_c": 100,
+    "steeps": 7,
+    "seconds": [
+      25,
+      20,
+      25,
+      35,
+      50,
+      70,
+      100
+    ],
+    "notes": "Boiling water in a clay pot; eight or more steeps, the sourness fading into sweetness as it goes."
+  },
   "caffeine_level": "medium",
   "vintage_note": "Sold by season, spring and winter of the current year, and by roast level; the Muzha Farmers' Association competition after each harvest sells graded, sealed packs, and lots made from the true Tieguanyin cultivar are marked zheng cong and cost more. The style ages well and aged Muzha Tieguanyin of ten or twenty years, sold by claimed age, is a local speciality.",
   "description": "Muzha Tie Guan Yin is Taipei's own tea, grown on the Maokong hills in Wenshan District, twenty minutes by gondola from the city, and it is the Taiwanese answer to Anxi's famous oolong: darker, more oxidised, repeatedly roasted and prized for a soft, plum-like sourness that Anxi's green style has none of. A Muzha tea maker named Zhang Naimiao is credited with bringing Tieguanyin bushes over from Anxi in the late Qing and Japanese periods, and the local teahouses have been pouring it ever since.\n\nThe genuine article, called zheng cong, uses the Tieguanyin cultivar itself, a low-yielding bush with a crooked leaf tip; most Muzha plantings today are Si Ji Chun or Jin Xuan processed in the same style and sold simply as 'Tieguanyin tea', which is accepted practice in Taiwan but worth knowing. The leaf is oxidised to roughly 30 to 40 percent, ball-rolled, and then roasted in repeated cycles, traditionally with the balls still slightly damp inside their cloth, which cooks the sugars slowly and produces the amber liquor and the gentle acidity the tea is known for.\n\nExpect roasted grain, stewed plum and honey with a soft sour edge that opens the mouth, a weighty, smooth body and a long sour-sweet finish, the 'Guanyin rhyme' that local drinkers look for. It wants boiling water and a clay pot and gives eight or more steeps, the sourness fading into sweetness as it goes.\n\nIt is sold by season, spring and winter, and by roast, and the Muzha Farmers' Association runs competitions after each harvest whose graded, sealed packs are the safest buy. Ask whether a lot is zheng cong; it costs more and tastes deeper. The style ages well, and aged Muzha Tieguanyin of ten or twenty years, with the sourness turned to dried plum, is a local speciality worth trying in small amounts.\n\nIf you only know the jade-green pellets of Anxi, this is the same cultivar going the other way: the fire and the time are the point.",
   "wikipedia_title": "Tieguanyin",
   "wikipedia_scope": "umbrella",
   "popularity": 3,
-  "sources_note": "Zhang Naimiao's two trips to Anxi are usually dated to the 1890s and 1919; I give only the period to avoid a wrong year."
+  "sources_note": "Zhang Naimiao's two trips to Anxi are usually dated to the 1890s and 1919; I give only the period to avoid a wrong year.",
+  "name_zh": "木栅铁观音",
+  "name_ru": "Му Чжа Те Гуань Инь",
+  "history": "Muzha Tie Guan Yin is Taipei's traditional roasted oolong, from the Maokong hills in Wenshan. It stands apart from the greener modern Anxi style: the roast gives a stronger, nutty character and a reddish brown liquor.\n\nThe name is tied to the Tieguanyin of Anxi, though the details of how the bushes reached Muzha could not be confirmed here. Today the name often describes a way of making the tea as much as the bush itself, so a Muzha-style tea is not always made from the Tieguanyin cultivar.",
+  "liquor_hex": "#A65F24",
+  "leaf_hex": "#3B3220",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Tieguanyin"
+  ],
+  "confidence": "low",
+  "images": []
 }

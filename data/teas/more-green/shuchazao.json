@@ -1,0 +1,60 @@
+{
+  "slug": "shuchazao",
+  "name_en": "Shuchazao",
+  "name_native": "舒茶早",
+  "name_romanized": "Shūcházǎo",
+  "name_zh": "舒茶早",
+  "name_ru": "Шу Ча Цзао",
+  "aliases": [
+    "Camellia sinensis var. sinensis cv. Shuchazao",
+    "shuchazao",
+    "Шучацзао"
+  ],
+  "category": "green",
+  "origin_country": "China",
+  "origin_region": "Anhui · Shucheng",
+  "cultivar": "Shuchazao",
+  "processing": "A cultivar used for several teas rather than one finished tea. It suits green tea methods better than yellow ones in comparative work, and has also been made into Qimen-style black tea.",
+  "form": "loose",
+  "harvest_season": "As with Anhui greens in general, spring picking is the prized one; the name's zao means early.",
+  "appearance_dry": "Depends on the tea; in Shucheng Xiaolanhua it gives loose, naturally opened green strands.",
+  "appearance_liquor": "As a green tea, pale yellow-green and clear.",
+  "appearance_wet": "As a green tea, soft green buds and young leaves.",
+  "taste_profile": "Rich in amino acids and caffeine by analysis, which points to a savoury, fresh cup; the result depends strongly on the style made.",
+  "taste_tags": [
+    "umami",
+    "vegetal",
+    "sweet"
+  ],
+  "brewing": {
+    "grams": 3,
+    "water_ml": 150,
+    "temp_c": 80,
+    "steeps": 3,
+    "seconds": [
+      60,
+      90,
+      120
+    ],
+    "notes": "General advice for an Anhui green. If the leaf has been made into a black tea, use hotter water."
+  },
+  "caffeine_level": "medium",
+  "vintage_note": "Rarely a label on its own: it reaches drinkers inside named teas such as Shucheng Xiaolanhua, which are sold as the current spring harvest and best drunk within a year.",
+  "description": "Shuchazao is one of the working cultivars of Anhui green tea, a plant variety rather than a tea style. It is a selected national-level cultivar tied to the Shucheng Xiaolanhua area, and the 'Shu' in its name matches that county.\n\nResearchers like it, and it turns up all over tea science: experiments on how shading drives theanine in the plant, and on how different cultivars suit different teas. In a study on Huoshan tea, it did better with green tea methods while the local Jinjizhong suited yellow tea methods.\n\nIts chemistry is the interesting part. In a Qimen-style black tea comparison it had less ester catechin and more caffeine and free amino acids than Fuzao 2, for a richer, fresher cup.\n\nYou will seldom buy it by name, so read it as a detail about a tea that is sold under a place name. Brew it to the style in the cup. It has also been trialled outside Anhui, including southern Shaanxi, where it made an initial shortlist of clonal cultivars.",
+  "history": "Shuchazao is described as a selection made from local population plants and recognised as a national-level cultivar; its year of release and exact breeder are little documented in general references.\n\nIt has been trialled outside Anhui and appears often as a research cultivar.",
+  "liquor_hex": "#DBD88F",
+  "leaf_hex": "#6F8440",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Shade_cultivation_of_tea",
+    "https://www.wikidata.org/wiki/Q108524958",
+    "https://post.smzdm.com/p/a823vnoq/",
+    "https://search.napstic.cn/literature/periodical/010cykx202404011",
+    "https://www.spgykj.com/article/doi/10.13386/j.issn1002-0306.2019.22.043",
+    "https://agris.fao.org/search/es/records/6473693b2c1d629bc9809c71"
+  ],
+  "confidence": "medium",
+  "wikipedia_title": "Shade cultivation of tea",
+  "wikipedia_scope": "umbrella",
+  "popularity": 2,
+  "images": []
+}

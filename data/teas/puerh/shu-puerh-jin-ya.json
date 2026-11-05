@@ -3,10 +3,17 @@
   "name_en": "Jin Ya (Golden Bud) Shu Pu-erh",
   "name_native": "金芽熟普洱",
   "name_romanized": "Jīnyá Shú Pǔ'ěr",
-  "aliases": ["Jin Ya", "Golden bud shu", "Golden tips ripe pu-erh", "Jin Hao shu", "Golden needle shu", "金芽"],
+  "aliases": [
+    "Jin Ya",
+    "Golden bud shu",
+    "Golden tips ripe pu-erh",
+    "Jin Hao shu",
+    "Golden needle shu",
+    "金芽"
+  ],
   "category": "shu",
   "origin_country": "China",
-  "origin_region": "Yunnan (mostly Menghai and Lincang material)",
+  "origin_region": "Yunnan",
   "cultivar": "Yunnan large-leaf (Camellia sinensis var. assamica), bud-rich spring plantation and arbor leaf",
   "processing": "Bud-heavy maocha is wet-piled, usually to a lighter or medium degree so the buds keep their golden colour and some brightness, then dried, sorted for bud content and pressed into cakes or bricks with a solid golden face, or sold loose.",
   "form": "cake",
@@ -15,12 +22,44 @@
   "appearance_liquor": "Glossy red-brown, very clear, with a bright gold rim.",
   "appearance_wet": "A fine, even mass of soft brown buds and small leaves.",
   "taste_profile": "Smooth, creamy and aromatic: a sweet rice-soup texture, dates, light cocoa and a faint honeyed fragrance, a mild bud bitterness and a clean, quick finish; richer than a grade-7 cake and shorter-lived in the pot.",
-  "taste_tags": ["creamy", "sweet", "dried-fruit", "cocoa", "honey"],
-  "brewing": {"grams": 7, "water_ml": 120, "temp_c": 100, "steeps": 8, "seconds": [8, 8, 10, 15, 20, 30, 45, 90], "notes": "Rinse twice, fast; fine buds colour the water instantly, so keep early steeps to seconds and use a strainer. Expect a rich, short session of seven or eight steeps."},
+  "taste_tags": [
+    "creamy",
+    "sweet",
+    "dried-fruit",
+    "cocoa",
+    "honey"
+  ],
+  "brewing": {
+    "grams": 7,
+    "water_ml": 120,
+    "temp_c": 100,
+    "steeps": 8,
+    "seconds": [
+      8,
+      8,
+      10,
+      15,
+      20,
+      30,
+      45,
+      90
+    ],
+    "notes": "Rinse twice, fast; fine buds colour the water instantly, so keep early steeps to seconds and use a strainer. Expect a rich, short session of seven or eight steeps."
+  },
   "caffeine_level": "medium",
   "vintage_note": "Sold by production year as cakes, bricks and loose tea, and bought young to mid-aged (1–8 years): the bud material clears its pile smell quickly and is at its best within a few years, and it gains little after about ten, so aged golden-bud tea is unusual. It is a grade and a look rather than an origin, overlapping almost completely with gong ting, and the price should follow the cleanliness of the fermentation and the real bud content; a thin layer of gold buds pressed onto a cake of coarse leaf is a common cosmetic trick, so look at the broken edge, not the face.",
   "description": "Jin ya, 'golden bud', is ripe pu-erh made from bud-heavy leaf, named for the way the downy buds turn gold in the fermentation pile; it is the same idea as gong ting described by appearance rather than by sieve size, and the two words are used almost interchangeably. The big Menghai factory's Jin Zhen Bai Lian, 'golden needle white lotus', is the best-known cake of this kind.\n\nThe tea is wet-piled, often a little more lightly than a standard cake so that the buds keep their colour and some brightness, then sorted for bud content and pressed with the gold on the face, or sold loose. Buds carry more caffeine and more aromatic compounds than mature leaf, so the cup is richer and the session shorter.\n\nIn the cup it is smooth, creamy and faintly fragrant: a rice-soup texture, dates, light cocoa, a honeyed note and a whisper of bud bitterness, with a clean quick finish. It is a tea of texture, best in the first five steeps, and it needs flash infusions because fine buds colour the water instantly. A strainer saves the cup from fluff.\n\nIt is sold by production year, usually at a premium over ordinary grades, and the thing to check is whether the gold goes all the way through: cakes are routinely dressed with a layer of buds over coarse leaf, which brews like the coarse leaf. Break a piece from the edge and look. Clean fermentation matters more than bud count; sourness or fishiness is a fault at any price.\n\nIt makes a luxurious short morning session and, like gong ting, takes a splash of milk better than most pu-erh if you are so inclined.",
   "wikipedia_title": "Pu'er tea",
   "wikipedia_scope": "umbrella",
-  "popularity": 2
+  "popularity": 2,
+  "name_zh": "金芽熟普洱",
+  "name_ru": "Цзинь Я Шу Пуэр",
+  "history": "Jin ya, golden bud, describes how the leaf looks: downy buds that turn gold in the fermentation pile. It is a grade and a style of ripe pu-erh rather than a tea from one place, and it overlaps heavily with what the trade sells as gong ting.\n\nLittle is documented about when the name came into use. It is best understood as a modern factory and shop term.",
+  "liquor_hex": "#4F1F0D",
+  "leaf_hex": "#6B4620",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Pu%27er_tea"
+  ],
+  "confidence": "low",
+  "images": []
 }

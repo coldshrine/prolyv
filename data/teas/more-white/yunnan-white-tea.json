@@ -1,0 +1,59 @@
+{
+  "slug": "yunnan-white-tea",
+  "name_en": "Yunnan White Tea",
+  "name_native": "云南白茶",
+  "name_romanized": "Yúnnán Báichá",
+  "name_zh": "云南白茶",
+  "name_ru": "Юньнань Бай Ча",
+  "aliases": [
+    "Yunnan Bai Cha"
+  ],
+  "category": "white",
+  "origin_country": "China",
+  "origin_region": "Yunnan · Jinggu, Lincang",
+  "cultivar": "Yunnan large-leaf types, such as Jinggu Da Bai Cha",
+  "processing": "Large-leaf material withered and dried, by sun, oven or shade, with no firing or rolling.",
+  "form": "loose",
+  "harvest_season": "Mainly spring. Products range from single buds to leafier pickings.",
+  "appearance_dry": "Large, loose leaf and thick buds, in contrast of black-grey and silver.",
+  "appearance_liquor": "Clear yellow to amber-gold, deepening with higher leaf content.",
+  "appearance_wet": "Thick, broad leaf and fat buds in olive-green.",
+  "taste_profile": "Sweet, mellow and refreshing, with fuller body than Fujian whites as a general rule.",
+  "taste_tags": [
+    "sweet",
+    "floral",
+    "honey",
+    "woody"
+  ],
+  "brewing": {
+    "grams": 5,
+    "water_ml": 110,
+    "temp_c": 90,
+    "steeps": 7,
+    "seconds": [
+      15,
+      15,
+      20,
+      30,
+      40,
+      60,
+      90
+    ],
+    "notes": "Hot water suits this big leaf; drop the temperature or shorten the steeps if bitterness shows."
+  },
+  "caffeine_level": "medium",
+  "vintage_note": "Sold by harvest year, loose or pressed in cakes. Not every Yunnan white is a long-ageing tea. Ask for the year, the area and the plant.",
+  "description": "Yunnan white tea is a broad name: white tea made in Yunnan from local large-leaf plants instead of Fujian cultivars. Jinggu is the best known centre, with its Da Bai Cha plant and its Yue Guang Bai.\n\nThe process is the familiar wither and dry, but the leaf changes things. A 2022 study comparing six Yunnan whites with six from Zhenghe found fewer amino acids in the Yunnan group, 5.00% against 7.22%, with polyphenols and caffeine about level, and it scored the appearance lower.\n\nTasters there called the Yunnan group sweet and refreshing. In practice, this means a bold, slightly more structured white that can carry hot water and several rounds.\n\nThe label covers a lot, from single-bud teas to big leafy grades and pressed cakes, so ask what it is. Trying a Yue Guang Bai and a Fujian Bai Mu Dan side by side is the quick way to learn the difference.",
+  "history": "Yunnan's large-leaf tea plants come from the Lancang River basin in the south-west and south of the province, and the Yunnan large-leaf cultivar was among the first national cultivars certified in 1984.\n\nWhite tea as a recognised Yunnan category is more recent and is still taking shape. Little is documented about white tea in Baoshan, sometimes also named as a producing area.",
+  "liquor_hex": "#D8AE5E",
+  "leaf_hex": "#676B55",
+  "sources": [
+    "https://www.casb.org.cn/CN/Y2022/V38/I17/82",
+    "https://www.sohu.com/a/447378982_259312"
+  ],
+  "confidence": "low",
+  "wikipedia_title": "White tea",
+  "wikipedia_scope": "umbrella",
+  "popularity": 3,
+  "images": []
+}

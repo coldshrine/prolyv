@@ -1,0 +1,55 @@
+{
+  "slug": "mizoram-tea",
+  "name_en": "Mizoram Tea",
+  "name_native": null,
+  "name_romanized": null,
+  "aliases": [
+    "Mizoram Orthodox Black Tea",
+    "Mizoram Summer Black Tea"
+  ],
+  "category": "black",
+  "origin_country": "India",
+  "origin_region": "Mizoram",
+  "cultivar": null,
+  "form": "loose",
+  "caffeine_level": "high",
+  "brewing": {
+    "grams": 3,
+    "water_ml": 200,
+    "temp_c": 95,
+    "steeps": 2,
+    "seconds": [
+      180,
+      240
+    ],
+    "notes": "A safe starting point for black tea: Western style, water just off the boil."
+  },
+  "taste_tags": [
+    "smoky",
+    "earthy",
+    "sweet"
+  ],
+  "description": "Mizoram tea is an orthodox black tea from the hills of the northeastern Indian state of Mizoram. It is said to take a smoky character from bamboo baskets hung over a fire.\n\nTreat it as you would any black tea: water just off the boil, a few minutes in the pot, and a seller who can say where it was grown.",
+  "wikipedia_title": null,
+  "wikipedia_scope": "none",
+  "popularity": 1,
+  "name_zh": "米佐拉姆茶",
+  "name_ru": "Чай Мизорам",
+  "history": "Accounts describe traditional bamboo baskets used during withering, and sellers offer orthodox and summer black teas under the name. Little more is documented about it.",
+  "liquor_hex": "#963A1A",
+  "leaf_hex": "#3A2A1E",
+  "sources": [
+    "https://www.thesecretoftea.com/pages/mizoram",
+    "https://slurrp.com/article/from-assam-to-nagaland-a-journey-through-north-eastern-tea-1682077639655"
+  ],
+  "confidence": "low",
+  "images": [],
+  "stub": true,
+  "processing": "Orthodox processing; leaves are reportedly placed in bamboo baskets hung over a fire during withering.",
+  "harvest_season": "Picked through the growing season, as with most black teas.",
+  "appearance_dry": "Usually dark twisted leaf, sometimes with golden tips.",
+  "appearance_liquor": "Usually a clear red-brown.",
+  "appearance_wet": "Usually coppery brown leaf.",
+  "taste_profile": "Described as strong, bold, smoky and earthy, with a slightly sweet aftertaste.",
+  "vintage_note": "Black teas are normally sold by harvest year and are best within a couple of years."
+}

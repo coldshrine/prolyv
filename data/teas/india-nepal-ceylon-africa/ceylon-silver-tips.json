@@ -3,10 +3,17 @@
   "name_en": "Ceylon Silver Tips",
   "name_native": null,
   "name_romanized": null,
-  "aliases": ["Ceylon white tea", "Ceylon Silver Needle", "Adam's Peak white tea", "Virgin white tea", "Ceylon golden tips", "Sri Lanka white tea"],
+  "aliases": [
+    "Ceylon white tea",
+    "Ceylon Silver Needle",
+    "Adam's Peak white tea",
+    "Virgin white tea",
+    "Ceylon golden tips",
+    "Sri Lanka white tea"
+  ],
   "category": "white",
   "origin_country": "Sri Lanka",
-  "origin_region": "Central Province · Adam's Peak and the high-grown districts",
+  "origin_region": "Central Province · Adam's Peak",
   "cultivar": "Large-bud TRI clones and Assam-type bushes",
   "processing": "Unopened buds plucked early in the morning, sun- or shade-withered on trays and dried without rolling (some estates hand-roll very lightly); the sun-withered amber version is sold as 'golden tips'. Made in tiny quantities.",
   "form": "loose",
@@ -15,12 +22,38 @@
   "appearance_liquor": "Pale straw to light honey-gold.",
   "appearance_wet": "Plump pale-olive buds.",
   "taste_profile": "Delicate honey, pine and melon sweetness with a gentle, cooling finish; more body than Fujian Silver Needle and less of its hay note.",
-  "taste_tags": ["honey", "sweet", "floral"],
-  "brewing": {"grams": 3, "water_ml": 200, "temp_c": 80, "steeps": 3, "seconds": [300, 360, 420], "notes": "Five minutes or more at 80 °C; it never turns bitter and re-steeps two or three times. Lovely brewed in a glass."},
+  "taste_tags": [
+    "honey",
+    "sweet",
+    "floral"
+  ],
+  "brewing": {
+    "grams": 3,
+    "water_ml": 200,
+    "temp_c": 80,
+    "steeps": 3,
+    "seconds": [
+      300,
+      360,
+      420
+    ],
+    "notes": "Five minutes or more at 80 °C; it never turns bitter and re-steeps two or three times. Lovely brewed in a glass."
+  },
   "caffeine_level": "low",
   "vintage_note": "Sold by estate and grade ('Silver Tips', or 'Golden Tips' for the sun-withered amber version) in small tins and pouches, sometimes with the plucking date, at very high prices per gram; much of what supermarkets label 'Ceylon white tea' is a cheaper, leafier grade rather than pure buds. Drink within a year or two; not normally aged.",
   "description": "Ceylon silver tips are Sri Lanka's white tea: unopened buds, plucked one by one in the early morning, withered and dried with no rolling and barely any handling. The best-known lots come from the high estates around Adam's Peak and the central hills, though a few low-grown estates in the south make them too. They are made in tiny quantities and sold at prices that make them among the most expensive teas on the island.\n\nThe buds are usually withered in the sun or shade on trays, sometimes hand-rolled very lightly, and dried; some estates sun-wither the buds until they turn amber and sell those as 'golden tips'. There is no oxidation step, only the slight browning that happens naturally.\n\nThe cup is pale straw to light honey-gold and tastes of honey, pine and melon with a gentle, cooling sweetness; it has more body than Fujian Silver Needle and less of its hay note. Brew it at around 80 °C for five minutes or more, and re-steep two or three times; it will never go bitter.\n\nIt is sold by estate and grade in small tins and pouches, sometimes with the plucking date; because the price per gram is high, much of what supermarkets call 'Ceylon white tea' is a cheaper, leafier grade rather than pure buds, so check the photograph. Drink it within a year or two; it is not normally aged.\n\nA lovely tea to brew in a glass, just to watch the buds stand up and slowly sink.",
   "wikipedia_title": "Ceylon tea",
   "wikipedia_scope": "umbrella",
-  "popularity": 3
+  "popularity": 3,
+  "name_zh": "锡兰银尖",
+  "name_ru": "Цейлон Сильвер Типс",
+  "history": "When buds-only white tea began on the island is not clearly documented. The best-known modern episode is Handunugoda, a low-country estate near Galle, where the planter Herman Gunaratne launched a white tea at the suggestion of the tea historian David Kilburn; a 2004 newspaper piece gives about US$1,250 a kilo and some 48 kg a year. The owner's tale of virgins plucking with golden scissors, after an old Chinese tradition, is a legend.\n\nElsewhere the tea is tied to high ground such as Adam's Peak. The name tells you the style rather than a single place, and little independent history exists.",
+  "liquor_hex": "#E6D49A",
+  "leaf_hex": "#C4C4AE",
+  "sources": [
+    "https://tribuneindia.com/2004/20041031/spectrum/main4.htm",
+    "https://mihipedia.lk/tasting-virgin-white-teas-at-handunugoda-estate-galle-sri-lanka/"
+  ],
+  "confidence": "low",
+  "images": []
 }

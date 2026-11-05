@@ -1,0 +1,58 @@
+{
+  "slug": "xiancao-tea",
+  "name_en": "Xian Cao (Mesona) Tea",
+  "name_native": "仙草茶",
+  "name_romanized": "Xiāncǎo chá",
+  "name_zh": "仙草茶",
+  "name_ru": "Сянь Цао Ча",
+  "aliases": [
+    "Xiancao",
+    "Xiancao tea",
+    "Grass jelly herb tea",
+    "Mesona tea",
+    "Platostoma palustre",
+    "仙草"
+  ],
+  "category": "tisane",
+  "origin_country": "Taiwan",
+  "origin_region": "Hsinchu · Guanxi",
+  "cultivar": "Taoyuan No. 3 is one bred variety; most drinkers never see a cultivar named",
+  "processing": "The herb Platostoma palustre, also classed under Mesona, is harvested and dried, traditionally in the autumn winds of Hsinchu, then stored. The dried plant is boiled for a long time to make the drink.",
+  "form": "loose",
+  "harvest_season": "Grown as an annual and dried after harvest. Dried herb stored for two years or more is preferred by makers in Guanxi for a richer brew.",
+  "appearance_dry": "Dark, tangled dried stems and leaves.",
+  "appearance_liquor": "Very dark brown to nearly black.",
+  "appearance_wet": "Soft, dark, boiled-out stems and leaves that are strained away.",
+  "taste_profile": "Little precise description exists; expect a herbal, gently earthy drink, usually sweetened, in the manner of other Taiwanese herbal boil-ups.",
+  "taste_tags": [
+    "herbal",
+    "earthy",
+    "sweet"
+  ],
+  "brewing": {
+    "grams": 40,
+    "water_ml": 2000,
+    "temp_c": 100,
+    "steeps": 1,
+    "seconds": [
+      3600
+    ],
+    "notes": "A long simmer rather than a steep. Timing varies by household and maker, so taste as it goes, strain, and sweeten to taste."
+  },
+  "caffeine_level": "none",
+  "vintage_note": "Sold without a vintage as bottled drinks, concentrate or dried herb. Age still matters for the dried herb: producers in Guanxi want it stored at least two years before boiling, and well-dried herb keeps for years. Ask how long it has been stored if buying it loose.",
+  "description": "Xiancao tea is a dark herbal drink boiled from a dried mint-family plant, Platostoma palustre, which is also still listed under its older genus Mesona. It has no tea leaf in it. The same herb gives grass jelly.\n\nIn Taiwan the name is tied to Guanxi township in Hsinchu County, which calls itself the home of xiancao. Its hilly, misty slopes suit the plant, and the dry autumn wind of the area is used to dry the harvest. Growing also reaches Yangmei in Taoyuan and Shitan in Miaoli.\n\nIt is made by long boiling, not steeping, and the character of the drink depends on how old the dried herb is. Guanxi makers hold that it needs at least two years in storage before it gives a rich, fragrant brew. Taste is seldom described closely, so treat any strong claims on a package with care.\n\nMost people meet it ready-made and sweetened. If you want to try it from scratch, buy the dried herb from a named area and allow a good stretch of simmering time.",
+  "history": "Little is documented about when the drink first appeared. Its modern record is mostly agricultural: the Guanxi farmers' association puts local output at about 1.2 million jin of dried herb a year and credits the township with about 80 percent of the Taiwanese total.\n\nThe Taoyuan agricultural research station has since bred new varieties, including Taoyuan No. 3, licensed to growers such as the Guanxi association. On the Chinese mainland, hot xiancao drinks have become a chain-store format, a separate branch of the same herb.",
+  "liquor_hex": "#2A1810",
+  "leaf_hex": "#3B2E22",
+  "sources": [
+    "https://smiletaiwan.cw.com.tw/article/8991",
+    "https://smiletaiwan.cw.com.tw/article/1365",
+    "https://www.foodnext.net/science/technology/paper/5616865460"
+  ],
+  "confidence": "medium",
+  "wikipedia_title": null,
+  "wikipedia_scope": "none",
+  "popularity": 2,
+  "images": []
+}

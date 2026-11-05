@@ -1,0 +1,55 @@
+{
+  "slug": "shui-sha-lian-tea",
+  "name_en": "Shui Sha Lian Tea",
+  "name_native": "水沙連茶",
+  "name_romanized": "Shuǐshālián Chá",
+  "aliases": [
+    "Sui Soalian Tea",
+    "水沙連茶"
+  ],
+  "category": "green",
+  "origin_country": "Taiwan",
+  "origin_region": "Nantou · Shuishalian mountains",
+  "cultivar": null,
+  "form": "loose",
+  "caffeine_level": "medium",
+  "brewing": {
+    "grams": 3,
+    "water_ml": 150,
+    "temp_c": 80,
+    "steeps": 3,
+    "seconds": [
+      60,
+      75,
+      105
+    ],
+    "notes": "A safe starting point for green tea: cooler water, short steeps, then adjust by taste."
+  },
+  "taste_tags": [
+    "vegetal",
+    "sweet"
+  ],
+  "description": "The earliest recorded tea of Taiwan, picked from wild trees in the Shuishalian mountains of present-day Nantou and made as a green tea. The trees are generally thought to be the native Taiwan mountain camellia.\n\nTreat it as you would any green tea: cooler water, short steeps, and a seller who can say where and when it was picked.",
+  "wikipedia_title": null,
+  "wikipedia_scope": "none",
+  "popularity": 1,
+  "name_zh": "水沙连茶",
+  "name_ru": "Шуй Ша Лянь Ча",
+  "history": "Records from the early Qing describe leaves close in colour to Songluo tea from the mainland. The trees stood on indigenous land, so interpreters obtained consent before going up to pick, fire and sell it. It served as a remedy for fever and dysentery and, for its reputed effect on dysentery and smallpox, was shipped to China. Once Taiwan began exporting tea in the late Qing and planting expanded, it grew scarce and was seldom discussed.",
+  "liquor_hex": "#D6D27A",
+  "leaf_hex": "#7E8B3E",
+  "sources": [
+    "https://zh.wikipedia.org/wiki/%E6%B0%B4%E6%B2%99%E9%80%A3%E8%8C%B6",
+    "https://www.wikidata.org/wiki/Q137652417"
+  ],
+  "confidence": "medium",
+  "images": [],
+  "stub": true,
+  "processing": "Typical of green tea: picked, heated soon after picking to stop oxidation, then shaped and dried.",
+  "harvest_season": "Usually picked in spring, with the earliest pickings prized, as with most green teas.",
+  "appearance_dry": "Green leaf whose shape depends on the maker, as is usual for regional green teas.",
+  "appearance_liquor": "Usually a clear, pale yellow-green.",
+  "appearance_wet": "Usually soft green leaf that opens up in the water.",
+  "taste_profile": "Expect what green teas usually give: fresh, vegetal and lightly sweet.",
+  "vintage_note": "Green teas like this are normally sold as the current year's harvest and are best within a year of picking. It is not an ageing tea."
+}

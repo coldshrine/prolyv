@@ -3,7 +3,14 @@
   "name_en": "Darjeeling Moonlight (AV2 Clonal)",
   "name_native": "दार्जिलिङ चिया",
   "name_romanized": "Dārjiliṅ chiyā",
-  "aliases": ["Moonlight Darjeeling", "AV2 Darjeeling", "Clonal Darjeeling", "Darjeeling Clonal Special", "Castleton Moonlight", "Darjeeling AV2 first flush"],
+  "aliases": [
+    "Moonlight Darjeeling",
+    "AV2 Darjeeling",
+    "Clonal Darjeeling",
+    "Darjeeling Clonal Special",
+    "Castleton Moonlight",
+    "Darjeeling AV2 first flush"
+  ],
   "category": "black",
   "origin_country": "India",
   "origin_region": "West Bengal · Darjeeling",
@@ -15,13 +22,42 @@
   "appearance_liquor": "Pale champagne gold, very clear.",
   "appearance_wet": "Whole, pale green leaves and buds.",
   "taste_profile": "Intensely aromatic: white flowers, lychee, green grape and a honeyed sweetness over a soft texture with only a light grip at the end.",
-  "taste_tags": ["floral", "fruity", "honey", "sweet"],
-  "brewing": {"grams": 3, "water_ml": 200, "temp_c": 85, "steeps": 3, "seconds": [180, 240, 300], "notes": "Cool water and a short first steep; hot water or a long steep wastes the aroma you paid for. Expect two or three good infusions."},
+  "taste_tags": [
+    "floral",
+    "fruity",
+    "honey",
+    "sweet"
+  ],
+  "brewing": {
+    "grams": 3,
+    "water_ml": 200,
+    "temp_c": 85,
+    "steeps": 3,
+    "seconds": [
+      180,
+      240,
+      300
+    ],
+    "notes": "Cool water and a short first steep; hot water or a long steep wastes the aroma you paid for. Expect two or three good infusions."
+  },
   "caffeine_level": "medium",
   "vintage_note": "Sold as a named first-flush lot ('Moonlight', 'Clonal Special', 'AV2 Supreme', 'Clonal Delight') with the garden, the invoice number and the harvest year; among the most expensive Darjeelings, shipping from late March in small quantities and often by pre-order. Drink within the year of harvest: the aroma that justifies the price is the first thing to go.",
   "description": "'Moonlight' is the name several Darjeeling estates give to their lightest, most aromatic first-flush lots, almost always made from the AV2 clonal bush: large, pale, silvery leaf, barely oxidised, with a cup that sits somewhere between a white tea and a first flush. Castleton's is the best known, several other gardens sell one, and these lots usually top the garden's spring price list.\n\nAV2 (Ambari Vegetative 2) is a clone selected decades ago for its sweet, floral leaf and big, downy buds, and it has become the signature bush of modern high-end Darjeeling. For a Moonlight lot the earliest spring pickings are given a very long wither, the gentlest rolling and the shortest possible oxidation before a careful low-temperature dry, so the leaf stays pale, silvery and whole.\n\nThe aroma is the point: white flowers, lychee, green grape and a honeyed sweetness over a soft, round texture with only a light grip at the end. Brew it cool, around 85 °C, for three minutes, and expect two or three good steeps; hot water or a long first steep wastes everything that makes it expensive.\n\nIt is sold as a named first-flush lot ('Moonlight', 'Clonal Special', 'AV2 Supreme') with the garden, the invoice number and the year, and it ships from late March in small quantities, often by pre-order. Because 'Moonlight' is a marketing name rather than a grade, two gardens' versions can differ a lot; buy from a seller who names the invoice.\n\nDrink it within the year of harvest. The aroma that justifies the price is the first thing to fade, so this is not a tea to save for a special occasion a year away.",
   "wikipedia_title": "Darjeeling tea",
   "wikipedia_scope": "umbrella",
   "popularity": 3,
-  "sources_note": "'Moonlight' is a marketing name used by several estates (Castleton, Jungpana, Goomtee, Margaret's Hope) for very light AV2 first-flush lots, not a defined grade; category set to black because it is sold as a first-flush black tea even though it is barely oxidised."
+  "sources_note": "'Moonlight' is a marketing name used by several estates (Castleton, Jungpana, Goomtee, Margaret's Hope) for very light AV2 first-flush lots, not a defined grade; category set to black because it is sold as a first-flush black tea even though it is barely oxidised.",
+  "name_zh": "大吉岭月光",
+  "name_ru": "Дарджилинг Мунлайт",
+  "history": "The bush came first. AV2 stands for Ambari Vegetative 2, and it is credited to the Ambari estate in the Dooars of North Bengal, with Tocklai's clonal work behind it. The date is given variously as 1967 or the 1980s. It has since become one of the most favoured clones in Darjeeling.\n\n'Moonlight' came later as a name for very pale AV2 lots, and Castleton's is the best known. It is not a defined grade: Castleton's has been sold as a summer white, and Turzum has sold a second-flush clonal lot under the name. When the first Moonlight was made is not clearly documented.",
+  "liquor_hex": "#E2CF8F",
+  "leaf_hex": "#8F9672",
+  "sources": [
+    "https://gopaldharaindia.com/the-av2-clone-the-crown-jewel-of-darjeeling-teas/",
+    "https://www.teabox.com/tea/castleton-moonlight-summer-darjeeling-white-tea",
+    "https://tea-lab.pages.dev/cultivars/av2/",
+    "https://jayshreetea.com/darjeeling-turzum-second-flush-moonlight-clonal-tea-2024-limited-edition"
+  ],
+  "confidence": "medium",
+  "images": []
 }

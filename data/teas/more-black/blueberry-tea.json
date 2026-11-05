@@ -1,0 +1,50 @@
+{
+  "slug": "blueberry-tea",
+  "name_en": "Blueberry Tea",
+  "name_native": null,
+  "name_romanized": null,
+  "aliases": [],
+  "category": "black",
+  "origin_country": "Canada",
+  "origin_region": "Canada",
+  "cultivar": null,
+  "form": "other",
+  "caffeine_level": "high",
+  "brewing": {
+    "grams": 3,
+    "water_ml": 200,
+    "temp_c": 95,
+    "steeps": 2,
+    "seconds": [
+      180,
+      240
+    ],
+    "notes": "A safe starting point for black tea: Western style, water just off the boil."
+  },
+  "taste_tags": [
+    "fruity"
+  ],
+  "description": "Under this name go both a black tea flavoured with blueberry and a hot cocktail of orange pekoe tea with Grand Marnier and amaretto, whose fruity taste some liken to blueberries and which holds no blueberry at all in its usual form.\n\nRecipes for a flavoured or scented tea vary from one maker to the next, so read the ingredient list and brew it like its base tea.",
+  "wikipedia_title": null,
+  "wikipedia_scope": "none",
+  "popularity": 1,
+  "name_zh": "蓝莓茶",
+  "name_ru": "Черничный чай",
+  "history": "The cocktail is usually served in a brandy snifter, sometimes with a sugared rim or lemon, and is sometimes made with Earl Grey or with real blueberry tea instead. Little is documented about its origin.",
+  "liquor_hex": "#A04A20",
+  "leaf_hex": "#3A2A1E",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Blueberry_tea",
+    "https://www.adagio.com/flavors/index.html"
+  ],
+  "confidence": "low",
+  "images": [],
+  "stub": true,
+  "processing": "A black base tea flavoured or scented by the maker; the recipe varies.",
+  "harvest_season": "The base tea can come from any picking, so the season matters less than the recipe.",
+  "appearance_dry": "Usually dark twisted leaf, sometimes with golden tips.",
+  "appearance_liquor": "Usually a clear red-brown.",
+  "appearance_wet": "Usually coppery brown leaf.",
+  "taste_profile": "Expect what black teas usually give: malty, sweet and brisk.",
+  "vintage_note": "Flavoured and scented teas are not sold by vintage. Buy recent stock and drink it within a year or so, since the aroma fades."
+}

@@ -1,0 +1,60 @@
+{
+  "slug": "hongqing-green-tea",
+  "name_en": "Hongqing Green Tea",
+  "name_native": "烘青茶",
+  "name_romanized": "Hōngqīng Chá",
+  "name_zh": "烘青茶",
+  "name_ru": "Хун Цин",
+  "aliases": [
+    "Baked green tea",
+    "Oven-dried green tea",
+    "烘青绿茶",
+    "烘青綠茶",
+    "Хунцин"
+  ],
+  "category": "green",
+  "origin_country": "China",
+  "origin_region": "China · Various provinces",
+  "cultivar": null,
+  "processing": "Fixed and rolled like other Chinese greens, then dried mainly by baking in warm air or over a baking frame rather than by pan-firing. Ordinary grades use more mature leaf; special grades use tender shoots.",
+  "form": "loose",
+  "harvest_season": "Depends on the tea: fine maofeng-type lots follow the usual spring picking of green tea, while ordinary grades made as a base for scenting are picked more broadly.",
+  "appearance_dry": "Looser strands than pan-fired green tea, glossy green, with white down visible on tender grades.",
+  "appearance_liquor": "Clear, bright pale green-yellow.",
+  "appearance_wet": "Whole, soft, fresh green leaves and buds, as is usual for gently baked greens.",
+  "taste_profile": "Fresh and fragrant with a mellow, rounded body, generally softer and less toasty than a pan-fired green.",
+  "taste_tags": [
+    "vegetal",
+    "floral",
+    "sweet",
+    "grassy"
+  ],
+  "brewing": {
+    "grams": 3,
+    "water_ml": 150,
+    "temp_c": 82,
+    "steeps": 3,
+    "seconds": [
+      60,
+      75,
+      100
+    ],
+    "notes": "Typical green tea method rather than a rule for every hongqing: a glass or porcelain cup, water well off the boil. Tender maofeng-type lots want the cooler end."
+  },
+  "caffeine_level": "medium",
+  "vintage_note": "Hongqing is a way of making tea, so nobody sells it by that word alone with a year attached. As with green tea in general, named hongqing teas are bought as the current spring harvest and drunk within about a year; ordinary grades mostly leave the market as scented tea, where the base is rarely dated.",
+  "description": "Hongqing is not one tea but one of the four standard ways of finishing Chinese green tea, alongside pan-firing, steaming and sun-drying. The word simply means the leaf was dried by baking, and that last step does a lot to shape what ends up in the cup.\n\nCompared with pan-fired tea, baked strands stay looser and keep their shape and down better, because they are not pressed against hot metal. The result tends to smell fresh and taste mellow, without the chestnut toastiness of a wok-finished green.\n\nThe category splits in two. Special hongqing is made from tender leaf and covers maofeng-type famous teas; Huangshan Maofeng and Shucheng Xiaolanhua are the usual examples. Ordinary hongqing, once refined, becomes the base tea for scenting, which is why a lot of it is drunk without anyone knowing: Fuzhou jasmine tea is traditionally made on this kind of base.\n\nWhen buying, you will rarely see the word on a label except in Chinese trade descriptions. Look instead for the named tea and its harvest date. To taste the difference, try a baked maofeng next to a pan-fired green from the same spring.",
+  "history": "Chinese tea classifications sort green tea by how it is fixed and dried, with hongqing as one of the four standard groups. Little is documented about a single origin for the method, and it is better understood as a shared technique than as something one person or place invented.\n\nIts best-known modern role is twofold: famous maofeng-type teas on one side, and base tea for scented teas on the other. Fuzhou's jasmine tea craft, listed as national intangible heritage, uses baked green tea as a base, though Fuzhou also makes jasmine on pan-fired or part-pan-fired base.",
+  "liquor_hex": "#D9D68C",
+  "leaf_hex": "#6F8440",
+  "sources": [
+    "https://zh.wikipedia.org/wiki/%E7%B6%A0%E8%8C%B6",
+    "https://m.thepaper.cn/newsDetail_forward_13190935",
+    "https://www.ihchina.cn/project_details/14604.html"
+  ],
+  "confidence": "medium",
+  "wikipedia_title": "綠茶",
+  "wikipedia_scope": "umbrella",
+  "popularity": 3,
+  "images": []
+}

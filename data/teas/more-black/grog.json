@@ -1,0 +1,52 @@
+{
+  "slug": "grog",
+  "name_en": "Grog (Tea with Rum)",
+  "name_native": null,
+  "name_romanized": null,
+  "aliases": [
+    "Грог"
+  ],
+  "category": "black",
+  "origin_country": "United Kingdom",
+  "origin_region": "United Kingdom",
+  "cultivar": null,
+  "form": "other",
+  "caffeine_level": "high",
+  "brewing": {
+    "grams": 3,
+    "water_ml": 200,
+    "temp_c": 95,
+    "steeps": 2,
+    "seconds": [
+      180,
+      240
+    ],
+    "notes": "A safe starting point for black tea: Western style, water just off the boil."
+  },
+  "taste_tags": [
+    "spicy",
+    "sweet"
+  ],
+  "description": "A hot mixed drink of very strong black tea, sugar syrup and rum, with many variations.\n\nThis is a way of preparing tea more than a tea you buy under one name, so the recipe and the base tea change from one maker to the next.",
+  "wikipedia_title": null,
+  "wikipedia_scope": "none",
+  "popularity": 1,
+  "name_zh": "格罗格酒",
+  "name_ru": "Грог (чай с ромом)",
+  "history": "Its background is tied to British sailors, whose daily rum ration was cut by half from 1824. Recipes differ widely: cognac, brandy or even vodka can replace the rum, and the proportion of tea to spirit varies.",
+  "liquor_hex": "#7A3414",
+  "leaf_hex": "#3A2A1E",
+  "sources": [
+    "https://ru.wikipedia.org/wiki/Чай"
+  ],
+  "confidence": "medium",
+  "images": [],
+  "stub": true,
+  "processing": "Very strong black tea is brewed, about 50 g of dry leaf to 750-1000 g of water. Sugar is boiled with water and part of the rum until dissolved, then the steeped tea is mixed with this syrup and the remaining rum. Clove, cinnamon, pepper, lemon or lime may be added.",
+  "harvest_season": "Not tied to a harvest: it depends on the base tea.",
+  "appearance_dry": "Usually dark twisted leaf, sometimes with golden tips.",
+  "appearance_liquor": "Usually a clear red-brown.",
+  "appearance_wet": "Usually coppery brown leaf.",
+  "taste_profile": "Expect what black teas usually give: malty, sweet and brisk.",
+  "vintage_note": "Not sold by vintage: it is made from whatever base tea the maker keeps, so freshness of the base matters more than the year."
+}

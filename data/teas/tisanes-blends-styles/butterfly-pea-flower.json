@@ -3,10 +3,19 @@
   "name_en": "Butterfly Pea Flower",
   "name_native": "น้ำดอกอัญชัน (nam dok anchan)",
   "name_romanized": "Nam dok anchan",
-  "aliases": ["Blue tea", "Anchan", "Bunga telang", "Blue pea flower", "Clitoria ternatea", "Blue matcha (powder form)"],
+  "aliases": [
+    "Blue tea",
+    "Anchan",
+    "Bunga telang",
+    "Blue pea flower",
+    "Clitoria ternatea",
+    "Blue matcha (powder form)",
+    "Анчан",
+    "Тайский синий чай"
+  ],
   "category": "tisane",
   "origin_country": "Thailand",
-  "origin_region": "Central and northern Thailand (also Malaysia, Vietnam, Myanmar and southern India)",
+  "origin_region": "Central Thailand",
   "cultivar": "Clitoria ternatea, a climbing legume with deep-blue flowers",
   "processing": "Flowers are picked in the morning, laid out and sun- or oven-dried whole; a smaller amount is milled into a fine blue powder.",
   "form": "loose",
@@ -15,12 +24,79 @@
   "appearance_liquor": "Vivid cobalt blue, clear; a squeeze of lemon or lime turns it violet to magenta.",
   "appearance_wet": "Limp blue-purple flowers that have given up most of their colour.",
   "taste_profile": "Very mild: a faint green, pea-like, slightly woody taste with little aroma; the point is the colour rather than the flavour.",
-  "taste_tags": ["vegetal", "herbal", "earthy"],
-  "brewing": {"grams": 1, "water_ml": 250, "temp_c": 95, "steeps": 1, "seconds": [300], "notes": "5–8 flowers per cup, just-boiled water, 4–5 minutes; more flowers give a deeper blue but no more taste. Add citrus at the table for the colour change. In Thailand it is usually sweetened with sugar or honey and served over ice with lime."},
+  "taste_tags": [
+    "vegetal",
+    "herbal",
+    "earthy"
+  ],
+  "brewing": {
+    "grams": 1,
+    "water_ml": 250,
+    "temp_c": 95,
+    "steeps": 1,
+    "seconds": [
+      300
+    ],
+    "notes": "5–8 flowers per cup, just-boiled water, 4–5 minutes; more flowers give a deeper blue but no more taste. Add citrus at the table for the colour change. In Thailand it is usually sweetened with sugar or honey and served over ice with lime."
+  },
   "caffeine_level": "none",
   "vintage_note": "Sold year-round with no harvest date, as whole dried flowers (loose or in bags) or as powder marketed as 'blue matcha', which is simply ground petals and has nothing to do with tea. The blue pigment fades with light and age, so a pack should be stored in the dark and used within a year of opening; a best-before of one to two years is typical. Flowers that look grey-violet rather than deep blue are old and brew pale.",
-  "description": "Butterfly pea flower is the one that turns the cup blue. The dried flowers of a tropical vine give an infusion the colour of ink, and because the pigment is a natural pH indicator, a squeeze of lime shifts it to purple and then pink in front of your eyes. In Thailand it has long been a sweet iced drink and a natural food colouring for rice and desserts; in the West it arrived in the 2010s mostly through cocktails and social media.\n\nProcessing is nothing more than picking and drying the whole flowers, so the quality is about colour: fresh stock is a deep, saturated blue and gives a strong cup from a handful of flowers, while old stock has faded to grey-violet and brews weak.\n\nWhat surprises people is how little it tastes of anything. There is a mild green, pea-pod note and a faint woodiness, no bitterness and no real aroma, so it is almost always sweetened, iced or blended. Four to five minutes with hot water is plenty; longer only deepens the colour. Lemongrass, ginger, mint and citrus all work with it, and a plain blue brew over ice with lime and honey is the standard Thai serve.\n\nIt is sold as whole flowers or as a powder sometimes called blue matcha; the powder is just milled petals and should be priced like a food colouring, not like Japanese tea. Store it away from light.\n\nTreat it as a colour and a base, not a flavour: it makes blue lemonade, layered iced teas and a purple cold brew with hibiscus, and it is a fun one to show children.",
+  "description": "Butterfly pea flower is the one that turns the cup blue. The dried flowers of a tropical vine give an infusion the colour of ink, and because the pigment is a natural pH indicator, a squeeze of lime shifts it to purple and then pink in front of your eyes. In Thailand it has long been a sweet iced drink and a natural food colouring for rice and desserts; in the West it arrived only in recent years, mostly through travel shows, food blogs and cocktails.\n\nProcessing is nothing more than picking and drying the whole flowers, so the quality is about colour: fresh stock is a deep, saturated blue and gives a strong cup from a handful of flowers, while old stock has faded to grey-violet and brews weak.\n\nWhat surprises people is how little it tastes of anything. There is a mild green, pea-pod note and a faint woodiness, no bitterness and no real aroma, so it is almost always sweetened, iced or blended. Four to five minutes with hot water is plenty; longer only deepens the colour. Lemongrass, ginger, mint and citrus all work with it, and a plain blue brew over ice with lime and honey is the standard Thai serve.\n\nIt is sold as whole flowers or as a powder sometimes called blue matcha; the powder is just milled petals and should be priced like a food colouring, not like Japanese tea. Store it away from light.\n\nTreat it as a colour and a base, not a flavour: it makes blue lemonade, layered iced teas and a purple cold brew with hibiscus, and it is a fun one to show children.",
   "wikipedia_title": "Butterfly pea flower tea",
   "wikipedia_scope": "exact",
-  "popularity": 3
+  "popularity": 3,
+  "name_zh": "蝶豆花茶",
+  "name_ru": "Синий чай (анчан)",
+  "history": "Clitoria ternatea is common across Southeast Asia, and its flowers have long been used there both for herbal drinks and as a blue dye for food, as in the rice dish nasi kerabu. In Thailand and Vietnam the infusion is mixed with honey and lemon and served after dinner or as a refreshment in hotels and spas; the Thai name is nam dok anchan. No early date for the drink itself is well documented, and the usual claim is simply that it goes back centuries.\n\nThe wider world found it only recently, through travel shows, food blogs and bartenders who liked the colour change: acid turns the blue to purple, and hibiscus takes it to bright red. In 2021 the US Food and Drug Administration declared butterfly pea flower extract exempt from certification and safe for use as an additive.",
+  "liquor_hex": "#1F3FA8",
+  "leaf_hex": "#2B2A6E",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Butterfly_pea_flower_tea",
+    "https://zh.wikipedia.org/wiki/%E8%9D%B6%E8%B1%86%E8%8A%B1%E8%8C%B6",
+    "https://en.wikipedia.org/wiki/Clitoria_ternatea",
+    "https://ru.wikipedia.org/wiki/%D0%A1%D0%B8%D0%BD%D0%B8%D0%B9_%D1%87%D0%B0%D0%B9"
+  ],
+  "confidence": "medium",
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b7/Butterfly-pea_flower_tea_1.jpg/1280px-Butterfly-pea_flower_tea_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b7/Butterfly-pea_flower_tea_1.jpg/330px-Butterfly-pea_flower_tea_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Butterfly-pea_flower_tea_1.jpg",
+      "author": "Mx. Granger",
+      "license": "CC0",
+      "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "kind": "liquor",
+      "alt": "Cup of blue butterfly pea flower tea on a saucer with a spoon and a blue flower"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/15/Butterfly-pea_flower_tea_2.jpg/1280px-Butterfly-pea_flower_tea_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/15/Butterfly-pea_flower_tea_2.jpg/330px-Butterfly-pea_flower_tea_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Butterfly-pea_flower_tea_2.jpg",
+      "author": "Mx. Granger",
+      "license": "CC0",
+      "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "kind": "liquor",
+      "alt": "Cup of violet butterfly pea flower tea after adding lime, with blue flowers on the saucer"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/dc/Butterfly-pea_flower_tea_3.jpg/1280px-Butterfly-pea_flower_tea_3.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/dc/Butterfly-pea_flower_tea_3.jpg/330px-Butterfly-pea_flower_tea_3.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Butterfly-pea_flower_tea_3.jpg",
+      "author": "Mx. Granger",
+      "license": "CC0",
+      "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "kind": "liquor",
+      "alt": "Two cups of butterfly pea flower tea, one blue and one turned purple by lime juice"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2c/Blue_tea.jpg/1280px-Blue_tea.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2c/Blue_tea.jpg/330px-Blue_tea.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Blue_tea.jpg",
+      "author": "Tanya May",
+      "license": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "kind": "liquor",
+      "alt": "Small white bowl of blue butterfly pea tea on a wooden tea tray"
+    }
+  ]
 }

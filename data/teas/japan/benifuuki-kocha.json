@@ -3,10 +3,17 @@
   "name_en": "Benifuuki Kōcha",
   "name_native": "べにふうき紅茶",
   "name_romanized": "Benifūki kōcha",
-  "aliases": ["Benifuuki black tea", "Benifuki kocha", "Beni Fuuki wakōcha", "Benifuuki red tea", "Benifuuki kocha"],
+  "aliases": [
+    "Benifuuki black tea",
+    "Benifuki kocha",
+    "Beni Fuuki wakōcha",
+    "Benifuuki red tea",
+    "Benifuuki kocha",
+    "紅富貴紅茶"
+  ],
   "category": "black",
   "origin_country": "Japan",
-  "origin_region": "Kagoshima; Shizuoka; Miyazaki; Saga",
+  "origin_region": "Kagoshima",
   "cultivar": "Benifuuki",
   "processing": "Withered, rolled, fully oxidised and dried in the orthodox way; the Assam-derived cultivar oxidises readily and gives the darkest, most Indian-style cup among Japanese black teas.",
   "form": "loose",
@@ -15,13 +22,42 @@
   "appearance_liquor": "Clear, deep orange-red to copper.",
   "appearance_wet": "Even, copper-brown leaves.",
   "taste_profile": "Full-bodied for a Japanese black tea: ripe fruit, rose and a honeyed sweetness over a brisk, slightly muscatel structure with a clean, lightly tannic finish.",
-  "taste_tags": ["fruity", "honey", "floral", "brisk", "malty"],
-  "brewing": {"grams": 4, "water_ml": 200, "temp_c": 95, "steeps": 3, "seconds": [120, 90, 180], "notes": "Near-boiling water and a proper two-minute first steep; it is the Japanese black tea that can take a splash of milk, though it is better without. Short gongfu-style steeps in a small pot show off the aroma."},
+  "taste_tags": [
+    "fruity",
+    "honey",
+    "floral",
+    "brisk",
+    "malty"
+  ],
+  "brewing": {
+    "grams": 4,
+    "water_ml": 200,
+    "temp_c": 95,
+    "steeps": 3,
+    "seconds": [
+      120,
+      90,
+      180
+    ],
+    "notes": "Near-boiling water and a proper two-minute first steep; it is the Japanese black tea that can take a splash of milk, though it is better without. Short gongfu-style steeps in a small pot show off the aroma."
+  },
   "caffeine_level": "high",
   "vintage_note": "Sold by farm, year and flush like other wakōcha, in small bags from late summer; second-flush lots are the ones to look for. It keeps better than most Japanese black tea thanks to full oxidation, and a year of rest after production often improves it, but it is not traded as an aged tea.",
-  "description": "Benifuuki kōcha is the black tea Benifuuki was bred for, and it is the fullest-bodied style of Japanese black tea: a cross of Benihomare and an Assam-derived line, it oxidises readily and gives a dark, copper cup with real structure, ripe fruit and a floral, honeyed sweetness that the gentler Yabukita black teas cannot reach. If wakōcha in general is a soft, delicate category, this is the exception that can stand up to a splash of milk.\n\nIt is made the orthodox way, withered, rolled, fully oxidised and dried, mostly by small green-tea farms in Kagoshima, Shizuoka, Miyazaki and Saga, usually from second-flush summer leaf, which has the catechin content that oxidation turns into colour and flavour. The full oxidation is also what makes it the opposite of green Benifuuki: the methylated catechins that make the green version a functional tea are largely gone, and what is left is simply a good black tea.\n\nBrew it with near-boiling water, 4 g for 200 ml and a proper two-minute first steep, then two more with longer times; gongfu-style short steeps in a small pot show off the aroma. Expect rose and ripe fruit on the nose, a honeyed sweetness, a brisk, slightly muscatel structure and a clean, lightly tannic finish that is still softer than an Assam. It is better without milk, but it is the one Japanese black tea that tolerates it.\n\nIt is sold by farm, year and flush in small bags from late summer, like other wakōcha, and second-flush lots are the ones to look for; the producer's name tells you more than any grade. Full oxidation means it keeps well, and many lots are better after a year of rest, though nobody trades it as an aged tea.\n\nIf you drink Darjeeling second flush or a lighter Assam, this is the Japanese black tea to start with; for the gentle end of the category, try a Yabukita wakōcha next.",
+  "description": "Benifuuki kōcha is the black tea Benifuuki was bred for, and it is the fullest-bodied style of Japanese black tea: a cross of Benihomare, an Assam seedling selection, and Makura Cd86, a Darjeeling line, it oxidises readily and gives a dark, copper cup with real structure, ripe fruit and a floral, honeyed sweetness that the gentler Yabukita black teas cannot reach. If wakōcha in general is a soft, delicate category, this is the exception that can stand up to a splash of milk.\n\nIt is made the orthodox way, withered, rolled, fully oxidised and dried, mostly by small green-tea farms in Kagoshima, Shizuoka, Miyazaki and Saga, usually from second-flush summer leaf, which has the catechin content that oxidation turns into colour and flavour. The full oxidation is also what makes it the opposite of green Benifuuki: the methylated catechins that make the green version a functional tea are largely gone, and what is left is simply a good black tea.\n\nBrew it with near-boiling water, 4 g for 200 ml and a proper two-minute first steep, then two more with longer times; gongfu-style short steeps in a small pot show off the aroma. Expect rose and ripe fruit on the nose, a honeyed sweetness, a brisk, slightly muscatel structure and a clean, lightly tannic finish that is still softer than an Assam. It is better without milk, but it is the one Japanese black tea that tolerates it.\n\nIt is sold by farm, year and flush in small bags from late summer, like other wakōcha, and second-flush lots are the ones to look for; the producer's name tells you more than any grade. Full oxidation means it keeps well, and many lots are better after a year of rest, though nobody trades it as an aged tea.\n\nIf you drink Darjeeling second flush or a lighter Assam, this is the Japanese black tea to start with; for the gentle end of the category, try a Yabukita wakōcha next.",
   "wikipedia_title": "Benifuuki",
   "wikipedia_scope": "umbrella",
   "popularity": 2,
-  "sources_note": "Depends on the 'Benifuuki' English Wikipedia article existing; otherwise use 'Japanese tea' as umbrella."
+  "sources_note": "Depends on the 'Benifuuki' English Wikipedia article existing; otherwise use 'Japanese tea' as umbrella.",
+  "name_zh": "红富贵红茶",
+  "name_ru": "Бэнифуки Котя",
+  "history": "Benifuuki was bred for this. It is a cross of Benihomare, selected from Assam seedlings, and Makura Cd86, a Darjeeling line, and it was registered in 1993 as Tea Norin No. 44 for black and semi-oxidised tea. Its registration notes praise exactly what the cup shows: plenty of tannin, easy oxidation, a Darjeeling-like aroma and a clear red liquor.\n\nFor a while it stayed marginal, grown in small amounts in Kagoshima and Shizuoka, and the green version made from it later drew far more attention. Kagoshima became the main growing area, and small makers there produce black tea from it. Exactly how much is made as black tea is little documented.",
+  "liquor_hex": "#A24A1E",
+  "leaf_hex": "#3C2A1D",
+  "sources": [
+    "https://ja.wikipedia.org/wiki/%E3%81%B9%E3%81%AB%E3%81%B5%E3%81%86%E3%81%8D",
+    "https://www.affrc.maff.go.jp/docs/hinsyu/pdf/cha9_benihuuki.pdf",
+    "https://www.naro.go.jp/publicity_report/press/files/vegetea051209-1-7.pdf"
+  ],
+  "confidence": "medium",
+  "images": []
 }

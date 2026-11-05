@@ -3,7 +3,13 @@
   "name_en": "Tanyang Gongfu",
   "name_native": "坦洋工夫",
   "name_romanized": "Tǎnyáng Gōngfu",
-  "aliases": ["Tan Yang Gong Fu", "Tanyang Congou", "Fu'an black tea", "Tanyang Kung Fu", "Panyong Congou"],
+  "aliases": [
+    "Tan Yang Gong Fu",
+    "Tanyang Congou",
+    "Fu'an black tea",
+    "Tanyang Kung Fu",
+    "Panyong Congou"
+  ],
   "category": "black",
   "origin_country": "China",
   "origin_region": "Fujian · Ningde · Fu'an",
@@ -15,13 +21,48 @@
   "appearance_liquor": "Bright red-orange with a golden rim.",
   "appearance_wet": "Even copper-red leaves and buds, soft and whole.",
   "taste_profile": "Classic lots are sweet and mellow with caramel, sweet potato and a light floral lift; the modern cultivar style is openly floral, with orchid and gardenia over honey.",
-  "taste_tags": ["sweet", "honey", "floral", "malty", "fruity"],
-  "brewing": {"grams": 5, "water_ml": 110, "temp_c": 92, "steeps": 7, "seconds": [10, 10, 15, 20, 30, 45, 60], "notes": "Gaiwan, water a little under the boil, short steeps; the floral style likes slightly cooler water (88–90 °C). Western-style: 3 g per 250 ml, 3 minutes."},
+  "taste_tags": [
+    "sweet",
+    "honey",
+    "floral",
+    "malty",
+    "fruity"
+  ],
+  "brewing": {
+    "grams": 5,
+    "water_ml": 110,
+    "temp_c": 92,
+    "steeps": 7,
+    "seconds": [
+      10,
+      10,
+      15,
+      20,
+      30,
+      45,
+      60
+    ],
+    "notes": "Gaiwan, water a little under the boil, short steeps; the floral style likes slightly cooler water (88–90 °C). Western-style: 3 g per 250 ml, 3 minutes."
+  },
   "caffeine_level": "medium",
-  "vintage_note": "Sold by the current year's spring harvest, with grades by tip content and, for the modern style, by cultivar; drink within a year or two. It is not aged, though the sturdier classic grades keep fine for a couple of years.",
+  "vintage_note": "Sold by the current year's spring harvest, with grades by tip content and, for the modern style, by cultivar; autumn lots are cheaper. Drink within a year or two. It is not aged, though the sturdier classic grades keep fine for a couple of years.",
   "description": "Tanyang Gongfu is the best known of the three great Fujian gongfu blacks, from Tanyang village near Fu'an in the north-east of the province. It dates from the mid-nineteenth century, when the Fuzhou tea trade was at its peak, and it was for decades the big Fujian export black – gongfu, 'effort', being the trade's word for a carefully sorted whole-leaf black tea. The historic claim to fame is a gold medal at the 1915 Panama-Pacific Exposition, which every label repeats.\n\nTwo teas now share the name. The classic style is made from the local population bushes and tip-rich Fu'an Dabai, withered, rolled, oxidised and dried in the standard way and then sorted and graded; it is sweet, mellow and slightly malty. The modern 'flower and fruit' style, which took over the local market in the 2000s, is made from aromatic cultivars such as Jinguanyin and Jinmudan with longer withering, and it tastes almost like a black oolong.\n\nA classic Tanyang gives caramel, sweet potato and a gentle floral note over six or seven short steeps, with a light, friendly tannin; a cultivar Tanyang opens with orchid and gardenia and turns honeyed and soft. Brew both in a gaiwan with water a little under the boil, the floral style cooler still; long steeps make the classic style heavy and the floral style perfumed-bitter.\n\nIt is sold by the current spring harvest and graded by tip content, with 'Jin Hao' (golden tip) lots at the top and the cultivar stated for the modern style. Fu'an is a big producer, so quality ranges widely; look for an even leaf with real golden tips and a sweet rather than hay-like dry aroma. The name is protected, but tea from neighbouring counties is sold as Tanyang too, so a village or maker name is worth paying for.\n\nIf you like the floral style, compare it with a Jinguanyin black from Anxi; if you like the classic, Bailin and Zhenghe gongfu from the counties next door are its natural siblings.",
   "wikipedia_title": "Congou",
   "wikipedia_scope": "umbrella",
   "popularity": 2,
-  "sources_note": "1915 Panama-Pacific medal is the standard trade claim; the exact award category is not verified. Origin commonly given as 1851; stated as mid-19th century."
+  "sources_note": "1915 Panama-Pacific medal is the standard trade claim; the exact award category is not verified. Origin commonly given as 1851; stated as mid-19th century.",
+  "name_zh": "坦洋工夫",
+  "name_ru": "Тань Ян Гун Фу",
+  "history": "Tanyang Gongfu takes its name from Tanyang, a small village in Fu'an in north-east Fujian. The usual account dates it to 1851: a tea merchant from Jianning brought Wuyi black-tea methods to the village, and Hu Fusi of the Wanxinglong tea house was first to make them work on the local bushes. The trade spelling Panyong Congou, once familiar in the West, is a corruption of the village name.\n\nIt was a major export for decades. One account gives exports above ten thousand dan a year from 1881 to 1936, peaking in 1898, and it took a gold medal at the 1915 Panama-Pacific Exposition.\n\nA state factory founded in 1958 kept it going in small amounts. Today Tanyang Gongfu is a Chinese geographical indication.",
+  "liquor_hex": "#B4501E",
+  "leaf_hex": "#2E2019",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Congou",
+    "https://zh.wikipedia.org/wiki/%E7%A6%8F%E5%AE%89%E5%B8%82",
+    "https://chinatradenews.com.cn/epaper/content/1/2011-01/13/A13/20110113A13_pdf.pdf",
+    "https://fjrb.fjdaily.com/pc/att/202404/16/32b3501c-c8c3-424b-91ea-e045e705e525.pdf",
+    "https://thetea-main-en.pages.dev/article/tanyang-gong-fu"
+  ],
+  "confidence": "medium",
+  "images": []
 }

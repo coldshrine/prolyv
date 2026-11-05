@@ -3,7 +3,15 @@
   "name_en": "Fenghuang Shui Xian (Phoenix Shui Xian)",
   "name_native": "凤凰水仙",
   "name_romanized": "Fènghuáng Shuǐxiān",
-  "aliases": ["Phoenix Shui Xian", "Fenghuang Shuixian", "Phoenix Narcissus", "Fenghuang Lang Cai", "浪菜", "Phoenix oolong (base grade)", "Fenghuang oolong"],
+  "aliases": [
+    "Phoenix Shui Xian",
+    "Fenghuang Shuixian",
+    "Phoenix Narcissus",
+    "Fenghuang Lang Cai",
+    "浪菜",
+    "Phoenix oolong (base grade)",
+    "Fenghuang oolong"
+  ],
   "category": "oolong",
   "origin_country": "China",
   "origin_region": "Guangdong · Chaozhou · Fenghuang Mountains",
@@ -15,13 +23,45 @@
   "appearance_liquor": "Golden-orange, bright.",
   "appearance_wet": "Mixed leaves of varied size and shape, yellow-green with red edges.",
   "taste_profile": "A general honey-floral dancong character without a single defined aroma, a medium body, a toasty sweetness and a moderate finish; the taste of the mountain's average.",
-  "taste_tags": ["honey", "floral", "roasted", "sweet"],
-  "brewing": {"grams": 8, "water_ml": 110, "temp_c": 100, "steeps": 7, "seconds": [5, 5, 8, 10, 15, 25, 45], "notes": "Boiling water, thin gaiwan, flash steeps, same as any dancong; it also makes a sound pot tea, 4 g per 200 ml for a minute. A good tea to practise the Chaozhou pour on before spending money on single trees."},
+  "taste_tags": [
+    "honey",
+    "floral",
+    "roasted",
+    "sweet"
+  ],
+  "brewing": {
+    "grams": 8,
+    "water_ml": 110,
+    "temp_c": 100,
+    "steeps": 7,
+    "seconds": [
+      5,
+      5,
+      8,
+      10,
+      15,
+      25,
+      45
+    ],
+    "notes": "Boiling water, thin gaiwan, flash steeps, same as any dancong; it also makes a sound pot tea, 4 g per 200 ml for a minute. A good tea to practise the Chaozhou pour on before spending money on single trees."
+  },
   "caffeine_level": "medium",
   "vintage_note": "Sold by harvest year, frequently without a season, in the lowest price band of Phoenix tea; medium-roasted lots keep two years or so sealed and dry and are best within that time. It is not aged, and a vintage on the label is unusual.",
   "description": "Fenghuang Shui Xian is where all Phoenix dancong comes from: the seed-grown tea population of the Fenghuang Mountains above Chaozhou, from which every named single-bush strain was selected. Sold under its own name it is the plain, affordable version of the mountain's tea, honeyed and floral in a general way, without the defined aroma that earns a dancong label.\n\nIt is not the same plant as Fujian's Shui Xian. The Wuyi and Minbei cultivar came from Jianyang; the Phoenix population is Guangdong's own landrace, listed as a national cultivar in its own right, and the shared name only reflects that both are large-leaved, semi-arbor bushes that someone once thought narcissus-scented. Within Chaozhou the old grading made the relationship clear: dancong at the top for tea from selected single bushes, lang cai in the middle, and shui xian at the bottom for the blended population tea.\n\nThe making is the same as for dancong, sun-withering, shaking through the night, strip rolling and roasting, but in bigger batches, often with machine rolling, and usually with a medium roast that gives the tea a toasty sweetness and shelf stability. Because the bushes are grown from seed, each is slightly different, so the dry leaf is uneven and the cup is a blend of the mountain's aromas rather than one of them: honey, a soft floral note, a medium body and a moderate finish.\n\nBrew it like any dancong, lots of leaf and fast pours, and it gives six or seven decent steeps; brew it in a pot and it is an honest everyday oolong. It is the tea to learn the Chaozhou pour on, since mistakes cost little, and it is pleasant enough to keep around afterwards.\n\nIt is sold by year, cheaply, sometimes as plain Phoenix oolong, and it should be drunk within a couple of years. The only trap is upward: population tea dressed up with a strain name and a mountain price. Taste it against a real Mi Lan Xiang or Huang Zhi Xiang from the same seller and the difference between an average and a selection is clear in one sitting.",
   "wikipedia_title": "Oolong",
   "wikipedia_scope": "umbrella",
   "popularity": 2,
-  "sources_note": "The three-tier dancong / lang cai / shui xian grading is the traditional Chaozhou system as described in Chinese sources; the national cultivar listing of Fenghuang Shui Xian (1985) is from Chinese cultivar records."
+  "sources_note": "The three-tier dancong / lang cai / shui xian grading is the traditional Chaozhou system as described in Chinese sources; the national cultivar listing of Fenghuang Shui Xian (1985) is from Chinese cultivar records.",
+  "name_zh": "凤凰水仙",
+  "name_ru": "Фэн Хуан Шуй Сянь",
+  "history": "Fenghuang Shui Xian is the strip-rolled oolong of Fenghuang in Chaoan, Guangdong, and also the name of the plant population behind it. Its national cultivar name is given as Fenghuang Shui Xian, Huacha No. 17. Local accounts describe Phoenix dancong as the sum of the outstanding individual bushes within this population.\n\nThe tea has traditionally been graded in three levels, dancong, lang cai and shui xian. It has sold mainly in Guangdong, Hong Kong and Macau, with exports to Japan, Southeast Asia and the United States.",
+  "liquor_hex": "#C98F35",
+  "leaf_hex": "#5A4A2C",
+  "sources": [
+    "https://zh.wikipedia.org/wiki/%E5%87%A4%E5%87%B0%E6%B0%B4%E4%BB%99",
+    "https://www.rmzxw.com.cn/c/2023-01-06/3271052.shtml",
+    "https://www.rmzxw.com.cn/c/2023-09-21/3413248.shtml"
+  ],
+  "confidence": "medium",
+  "images": []
 }

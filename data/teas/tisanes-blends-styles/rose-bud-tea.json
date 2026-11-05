@@ -3,10 +3,17 @@
   "name_en": "Rose Bud Tea (Mei Gui Hua)",
   "name_native": "玫瑰花茶",
   "name_romanized": "Méiguī huā chá",
-  "aliases": ["Rosebud tea", "Mei gui hua cha", "Pingyin rose tea", "Kushui rose", "Dried rosebuds", "Rose tea"],
+  "aliases": [
+    "Rosebud tea",
+    "Mei gui hua cha",
+    "Pingyin rose tea",
+    "Kushui rose",
+    "Dried rosebuds",
+    "Rose tea"
+  ],
   "category": "tisane",
   "origin_country": "China",
-  "origin_region": "Shandong · Pingyin (Pingyin rose) and Gansu · Yongdeng (Kushui rose); damask rosebuds also come from Iran, Bulgaria and Pakistan",
+  "origin_region": "Shandong · Pingyin",
   "cultivar": "Rosa rugosa types for Chinese meigui (the Kushui rose is a rugosa hybrid); Rosa × damascena for Middle Eastern rosebuds",
   "processing": "Tight buds are picked at dawn just before they open, when the scent is strongest, and dried at low temperature in shade or warm-air dryers; better lots are dried without sulfur fumigation, which is sometimes used to keep the colour.",
   "form": "loose",
@@ -15,12 +22,58 @@
   "appearance_liquor": "Pale yellow with a pink blush, clear.",
   "appearance_wet": "The buds swell and loosen into soft, faded petals with a strong sweet-rose scent.",
   "taste_profile": "Delicate rose perfume with a honeyed sweetness and a faint tannic grip from the calyx; soft and gentle, never heavy, unless far too many buds go in.",
-  "taste_tags": ["floral", "sweet", "honey"],
-  "brewing": {"grams": 2, "water_ml": 250, "temp_c": 85, "steeps": 2, "seconds": [240, 300], "notes": "5–8 buds per cup, water at 80–90 °C, 4 minutes; boiling water turns the scent soapy. The same buds take a second steep. A few buds added to black tea, white tea or ripe pu-erh is the more common use in China."},
+  "taste_tags": [
+    "floral",
+    "sweet",
+    "honey"
+  ],
+  "brewing": {
+    "grams": 2,
+    "water_ml": 250,
+    "temp_c": 85,
+    "steeps": 2,
+    "seconds": [
+      240,
+      300
+    ],
+    "notes": "5–8 buds per cup, water at 80–90 °C, 4 minutes; boiling water turns the scent soapy. The same buds take a second steep. A few buds added to black tea, white tea or ripe pu-erh is the more common use in China."
+  },
   "caffeine_level": "none",
   "vintage_note": "Sold as the current year's May–June harvest and best within a year, because the colour fades from deep pink to brown and the scent goes with it; Chinese sellers usually state the harvest year, the origin (Pingyin and Kushui are the names to look for) and the grade, with large, uniform, deep-coloured buds at the top. 'Sulfur-free' is a meaningful claim: fumigated buds look unnaturally bright and smell faintly sharp. Rose petals (loose, no calyx) are a separate, cheaper product used for blending.",
   "description": "Rose bud tea is dried rosebuds, nothing else: a handful in a glass, hot water, and a pale pink-gold cup that smells exactly like a rose garden in June. In China it is a women's tea by tradition and a common addition to black tea and ripe pu-erh; in Iran, Turkey and the Gulf, damask rosebuds are brewed the same way and used in blends.\n\nThe buds are picked before they open, at dawn, and dried gently; what you are buying is scent, and scent is fragile. Chinese meigui roses are rugosa types grown for exactly this purpose, with Pingyin in Shandong and the Kushui rose of Gansu the famous origins, and the buds are graded by size, colour and intactness. Damask rosebuds from Iran or Bulgaria are smaller, paler and slightly more perfumed.\n\nThe cup is soft and sweet with a clean rose aroma and a little grip from the green calyx; it is easy to overdo, and ten buds in a small cup tastes of soap. Water under the boil and four minutes is right, and the buds take a second steep. In a pot of black tea, three or four buds make a rose black tea; in ripe pu-erh they cut the earthiness; in white tea they are lovely cold-brewed.\n\nBuy the current year's buds, deep pink to purple-red rather than brown, from a seller who states the harvest and the origin, and prefer sulfur-free lots. Loose rose petals without the calyx are a different product, cheaper and meant for blending.\n\nIt has traditionally been drunk as a gentle, warming everyday tea; whatever you make of that, it is a pretty, inexpensive infusion and the easiest way into scented teas. Try a few buds in a glass of Keemun black tea next.",
   "wikipedia_title": "Rosa rugosa",
   "wikipedia_scope": "umbrella",
-  "popularity": 3
+  "popularity": 3,
+  "name_zh": "玫瑰花茶",
+  "name_ru": "Мэй Гуй Хуа",
+  "history": "Gu Yuanqing's tea manual 茶谱 lists rose tea among its scented preparations, and in Chinese usage 玫瑰花茶 can also mean green tea scented with roses.\n\nLittle is documented about how the habit of steeping dried buds alone grew, or how it relates to the older scented tea.",
+  "liquor_hex": "#E8C9A0",
+  "leaf_hex": "#9C3D57",
+  "sources": [
+    "https://zh.wikipedia.org/wiki/%E8%8C%B6%E8%B0%B1_%28%E9%A1%BE%E5%85%83%E5%BA%86%29",
+    "https://zh.wikipedia.org/wiki/%E8%8C%89%E8%8E%89%E8%8A%B1%E8%8C%B6"
+  ],
+  "confidence": "low",
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f6/Cup_of_rosebud_tea_with_dried_pink_rose_buds.jpg/1280px-Cup_of_rosebud_tea_with_dried_pink_rose_buds.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f6/Cup_of_rosebud_tea_with_dried_pink_rose_buds.jpg/330px-Cup_of_rosebud_tea_with_dried_pink_rose_buds.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Cup_of_rosebud_tea_with_dried_pink_rose_buds.jpg",
+      "author": "Loppy poppy",
+      "license": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0",
+      "kind": "dry_leaf",
+      "alt": "Dried pink rose buds on a grey plate beside a bowl of pale amber rosebud tea"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3d/Cup_of_rosebud_tea.jpg/1280px-Cup_of_rosebud_tea.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3d/Cup_of_rosebud_tea.jpg/330px-Cup_of_rosebud_tea.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Cup_of_rosebud_tea.jpg",
+      "author": "Loppy poppy",
+      "license": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0",
+      "kind": "liquor",
+      "alt": "Bowl of rosebud tea with dried rose buds and loose petals scattered on a grey plate"
+    }
+  ]
 }

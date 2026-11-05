@@ -1,0 +1,61 @@
+{
+  "slug": "shaiqing-green-tea",
+  "name_en": "Shaiqing Green Tea",
+  "name_native": "晒青茶",
+  "name_romanized": "Shàiqīng Chá",
+  "name_zh": "晒青茶",
+  "name_ru": "Шай Цин",
+  "aliases": [
+    "Sun-dried green tea",
+    "晒青绿茶",
+    "曬青綠茶",
+    "Шайцин"
+  ],
+  "category": "green",
+  "origin_country": "China",
+  "origin_region": "Yunnan and other provinces",
+  "cultivar": "Yunnan large-leaf varieties (for Dianqing and pu-erh)",
+  "processing": "Fresh leaf is fixed and rolled, then dried in sunlight rather than baked or pan-fired. Much of it stays as rough maocha, the raw material for pressed teas.",
+  "form": "loose",
+  "harvest_season": "Varies by region. In Yunnan, as for pu-erh raw material generally, spring is the prized picking.",
+  "appearance_dry": "Sturdy, thick strands with some white down showing.",
+  "appearance_liquor": "Bright yellow-green.",
+  "appearance_wet": "Plump, thick leaf.",
+  "taste_profile": "Rich and mellow with strong astringency and a distinct sun-dried aroma; it holds up well across many steeps.",
+  "taste_tags": [
+    "brisk",
+    "bitter",
+    "herbal",
+    "sweet"
+  ],
+  "brewing": {
+    "grams": 5,
+    "water_ml": 100,
+    "temp_c": 90,
+    "steeps": 6,
+    "seconds": [
+      10,
+      10,
+      15,
+      20,
+      30,
+      45
+    ],
+    "notes": "Short gongfu steeps tame the astringency. Treat it more like young raw pu-erh than a delicate spring green."
+  },
+  "caffeine_level": "high",
+  "vintage_note": "As loose maocha it is bought by harvest season, usually the most recent one. Most sun-dried green tea is pressed into tuo, brick or pu-erh forms, and those are then sold by production year and may be kept for ageing, as raw pu-erh is.",
+  "description": "Shaiqing is the sun-dried branch of Chinese green tea, one of the four standard groups alongside pan-fired, baked and steamed. Its most famous form is Dianqing from Yunnan, and it matters far beyond its own cup, since pu-erh starts here.\n\nAfter fixing and rolling, the leaf dries in sunlight. That slower, gentler finish leaves a thick, sturdy strand and a recognisable sun-dried smell that baked and wok-finished greens do not have.\n\nExpect a stronger drink than a typical green tea: full, mellow and quite astringent, with lots of steeps in it. Long steeps at boiling point are the common mistake; short ones show the sweetness under the grip.\n\nSome shaiqing is drunk loose, but most ends up pressed into tuo, brick or raw pu-erh. Only tea made from Yunnan large-leaf sun-dried maocha is pu-erh in the formal sense, so a sun-dried green from elsewhere is not pu-erh, whatever its shape. Sipping a loose Dianqing is a good way to learn what raw pu-erh is before pressing and time.",
+  "history": "Sun-drying is among the simplest ways to finish tea, and producers and writers often describe it as an old method: leaf lightly fired, rolled and left in the sun. No single origin is documented.\n\nThe method's modern importance comes from Yunnan, where large-leaf sun-dried maocha is the defined raw material of pu-erh, both raw and ripe.",
+  "liquor_hex": "#D8C567",
+  "leaf_hex": "#5D6238",
+  "sources": [
+    "https://zh.wikipedia.org/wiki/%E7%B6%A0%E8%8C%B6",
+    "https://m.thepaper.cn/newsDetail_forward_13190935"
+  ],
+  "confidence": "medium",
+  "wikipedia_title": "綠茶",
+  "wikipedia_scope": "umbrella",
+  "popularity": 3,
+  "images": []
+}

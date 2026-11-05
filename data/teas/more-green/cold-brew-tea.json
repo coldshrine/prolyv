@@ -1,0 +1,68 @@
+{
+  "slug": "cold-brew-tea",
+  "name_en": "Cold Brew Tea",
+  "name_native": "水出し茶",
+  "name_romanized": "Mizudashi-cha",
+  "name_zh": "冷泡茶",
+  "name_ru": "Чай холодного заваривания",
+  "aliases": [
+    "cold bloomed tea",
+    "Mizudashi",
+    "冷水泡茶",
+    "凉水泡茶",
+    "涼水泡茶"
+  ],
+  "category": "green",
+  "origin_country": "Japan",
+  "origin_region": "Japan",
+  "cultivar": null,
+  "processing": "Not a way of making leaf but a way of steeping it: any finished tea is left in cold or room-temperature water for many hours, so time does the work of heat.",
+  "form": "loose",
+  "harvest_season": "Depends on the tea used; no picking is specific to this method.",
+  "appearance_dry": "Whatever tea you start with; greens and lightly oxidised oolongs are the usual choices.",
+  "appearance_liquor": "With a green tea, typically a pale, clear yellow-green, lighter than a hot steep of the same leaf.",
+  "appearance_wet": "Leaves open slowly and fully, keeping more of their colour than after hot water.",
+  "taste_profile": "Typically soft and rounded, with little bitterness; lighter teas can show delicate florals, while heavily roasted ones tend to lose their roast aroma.",
+  "taste_tags": [
+    "sweet",
+    "floral",
+    "vegetal"
+  ],
+  "brewing": {
+    "grams": 10,
+    "water_ml": 1000,
+    "temp_c": 5,
+    "steeps": 1,
+    "seconds": [
+      57600
+    ],
+    "notes": "A starting point rather than a rule: use more leaf than for a hot pot and leave it in the fridge or at room temperature for 16 to 24 hours, then strain. Adjust the leaf to taste."
+  },
+  "caffeine_level": "low",
+  "vintage_note": "Cold brew has no vintage of its own: it follows the tea in the jug. Fresh current-season greens and light oolongs suit it best, since cold water favours their delicate aromas. Ready-made bottles are a separate product, so check the leaf and the date on the label.",
+  "description": "Cold brew is tea steeped in cold or room-temperature water for hours instead of minutes. It is a method rather than a kind of tea, so a jug of it can hold almost any leaf. Japan is usually named as its home, where it is called mizudashi.\n\nHot water pulls out catechins and caffeine quickly, while amino acids come out even at low temperatures. That is why a cold steep usually tastes gentler and less astringent than a hot one from the same leaf.\n\nThe common mistake is too little tea. Cold water extracts slowly, so use more leaf than feels natural and give it most of a day, about 16 to 24 hours. Then strain it rather than leaving the leaf in indefinitely.\n\nChoose lightly processed teas first: greens and light oolongs can give a soft floral note, whereas a heavy roast tends to go quiet because cold water does not bring its aroma forward. Claims that cold brew protects your stomach or nutrients are repeated often, but treat them as claims.",
+  "history": "The practice is generally traced to Japan, from where it is said to have spread to Taiwan and then to mainland China. No precise date or originator is on record for it.\n\nToday it is both a home method and a commercial product, and it has attracted some laboratory interest: one finding is that cold-brewed white tea can hold more antioxidants than hot-brewed. Worries about potassium released by long steeping have been tested too, with only a small increase measured against hot brewing.",
+  "liquor_hex": "#DCDB9A",
+  "leaf_hex": "#6F7F45",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Cold_brew_tea",
+    "https://zh.wikipedia.org/wiki/%E5%86%B7%E6%B3%A1%E8%8C%B6",
+    "https://www.wikidata.org/wiki/Q17118910"
+  ],
+  "confidence": "medium",
+  "wikipedia_title": "Cold brew tea",
+  "wikipedia_scope": "exact",
+  "popularity": 3,
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7e/%E5%86%B7%E6%B3%A1%E8%8C%B6_-_Cold_Brew_Tea_%2827043674170%29.jpg/1280px-%E5%86%B7%E6%B3%A1%E8%8C%B6_-_Cold_Brew_Tea_%2827043674170%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7e/%E5%86%B7%E6%B3%A1%E8%8C%B6_-_Cold_Brew_Tea_%2827043674170%29.jpg/330px-%E5%86%B7%E6%B3%A1%E8%8C%B6_-_Cold_Brew_Tea_%2827043674170%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source_page": "https://commons.wikimedia.org/wiki/File:%E5%86%B7%E6%B3%A1%E8%8C%B6_-_Cold_Brew_Tea_(27043674170).jpg",
+      "author": "ありわかだ．．． from Taichung,Taiwan, Taiwan,R.O.C",
+      "license": "CC BY-SA 2.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+      "kind": "liquor",
+      "alt": "Glass bottle of cold-brewed tea with leaves steeping inside, beside a glass of pale golden liquor"
+    }
+  ]
+}

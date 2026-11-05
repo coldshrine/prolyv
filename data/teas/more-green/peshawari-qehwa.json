@@ -1,0 +1,57 @@
+{
+  "slug": "peshawari-qehwa",
+  "name_en": "Peshawari Qehwa",
+  "name_native": "پشاوری قہوہ",
+  "name_romanized": "Peshawari Qehwa",
+  "name_zh": "白沙瓦卡瓦茶",
+  "name_ru": "Пешаварская кахва",
+  "aliases": [
+    "Peshawari Kahwa",
+    "Peshawari Kahwah",
+    "Qehwa",
+    "Peshawar green tea"
+  ],
+  "category": "green",
+  "origin_country": "Pakistan",
+  "origin_region": "Khyber Pakhtunkhwa · Peshawar",
+  "cultivar": null,
+  "processing": "A prepared drink rather than a processed leaf: green or jasmine tea is brewed with green cardamom, often with sugar, in a teapot filled from a samovar.",
+  "form": "loose",
+  "harvest_season": "Not tied to a harvest. It is a recipe made year-round from dry green tea.",
+  "appearance_dry": "Dry green or jasmine tea leaf with whole or crushed green cardamom pods.",
+  "appearance_liquor": "Clear pale gold to light amber, darker the longer it boils.",
+  "appearance_wet": "Soft, olive-green leaf with swollen cardamom pods, usually strained off before serving.",
+  "taste_profile": "Cardamom leads, cool and sweet-spiced over a light green-tea body with a little astringency; jasmine adds a floral lift when used.",
+  "taste_tags": [
+    "spicy",
+    "floral",
+    "sweet",
+    "vegetal"
+  ],
+  "brewing": {
+    "grams": 3,
+    "water_ml": 250,
+    "temp_c": 100,
+    "steeps": 1,
+    "seconds": [
+      180
+    ],
+    "notes": "Simmer the leaf with two or three crushed cardamom pods, then sweeten to taste. Green tea turns harsh if boiled for long, so keep it short."
+  },
+  "caffeine_level": "medium",
+  "vintage_note": "Qehwa has no vintages: it is made fresh and drunk at once. Ready-mixed packs are sold as a blend, and the leaf should be from a recent harvest, since green tea and ground cardamom both fade.",
+  "description": "Qehwa is the everyday green tea of Peshawar, and the plain version is simple: green or jasmine tea and green cardamom. It belongs to the wider kahwah family but keeps things leaner than the saffron and almond versions people may know from Kashmir.\n\nIn a teahouse a brass samovar heats the water, and the brewer fills a teapot with it over qehwa leaves, sugar and cardamom. Recipes do vary: some add cinnamon, saffron or crushed almonds to the cup, while the basic Peshawar version stays with cardamom.\n\nIt drinks light, fragrant and warming. The usual mistake at home is boiling it too long, which pulls out bitterness and flattens the spice. Crush the pods just before you use them.\n\nThe place to know it is Qissa Khwani Bazaar, the old storytellers' market. There is little to buy as a graded product, so judge a blend by the smell of its cardamom.",
+  "history": "The exact origin of kahwah is unknown, and dates sometimes quoted for it are not well supported. In Peshawar the drink is bound up with Qissa Khwani Bazaar, whose teahouses are said to have served passing traders.\n\nOne surviving house is reported as more than a century old. Reporting from Peshawar describes a decline, with only a few of the bazaar's qehwa houses left as juice and ice-cream shops replaced them.",
+  "liquor_hex": "#D2B96A",
+  "leaf_hex": "#5A6138",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Kahwah",
+    "https://www.arabnews.com/node/2606601/pakistan",
+    "https://www.dawn.com/news/1330909"
+  ],
+  "confidence": "medium",
+  "wikipedia_title": "Kahwah",
+  "wikipedia_scope": "umbrella",
+  "popularity": 3,
+  "images": []
+}

@@ -3,7 +3,17 @@
   "name_en": "Shui Xian (Wuyi)",
   "name_native": "武夷水仙",
   "name_romanized": "Wǔyí Shuǐxiān",
-  "aliases": ["Shui Hsien", "Shuixian", "Narcissus oolong", "Water Sprite", "Wuyi Narcissus", "Shui Xian yancha"],
+  "aliases": [
+    "Shui Hsien",
+    "Shuixian",
+    "Narcissus oolong",
+    "Water Sprite",
+    "Wuyi Narcissus",
+    "Shui Xian yancha",
+    "水仙茶",
+    "闽北水仙",
+    "閩北水仙"
+  ],
   "category": "oolong",
   "origin_country": "China",
   "origin_region": "Fujian · Wuyi Mountains",
@@ -15,13 +25,82 @@
   "appearance_liquor": "Orange to deep amber, clear and thick-looking.",
   "appearance_wet": "Large, thick, broad leaves, olive-brown with red edges, soft and pliable between the fingers.",
   "taste_profile": "Thick and smooth above all: orchid-like florals, honey and a soft roasted sweetness over a round body, with a gentle mineral finish and almost no astringency.",
-  "taste_tags": ["floral", "roasted", "sweet", "mineral", "creamy"],
-  "brewing": {"grams": 8, "water_ml": 110, "temp_c": 100, "steeps": 8, "seconds": [10, 10, 15, 20, 30, 45, 60, 90], "notes": "Boiling water, gaiwan or zisha pot. Shui Xian is forgiving: slightly longer steeps make it thicker, not harsh. Leave the lid off between infusions so the leaves do not stew."},
+  "taste_tags": [
+    "floral",
+    "roasted",
+    "sweet",
+    "mineral",
+    "creamy"
+  ],
+  "brewing": {
+    "grams": 8,
+    "water_ml": 110,
+    "temp_c": 100,
+    "steeps": 8,
+    "seconds": [
+      10,
+      10,
+      15,
+      20,
+      30,
+      45,
+      60,
+      90
+    ],
+    "notes": "Boiling water, gaiwan or zisha pot. Shui Xian is forgiving: slightly longer steeps make it thicker, not harsh. Leave the lid off between infusions so the leaves do not stew."
+  },
   "caffeine_level": "medium",
   "vintage_note": "Spring harvest of the current year, roasted over the summer and sold from autumn once the roast has rested; the year is normally stated. Medium and heavy roasts keep three to five years and often taste better after a year, and Shui Xian is the yancha most often re-roasted and sold aged with its age on the label. Old-bush lots are sold separately as lao cong Shui Xian.",
-  "description": "Shui Xian is the workhorse of Wuyi rock tea and the most planted cultivar on the mountain: a big-leaved, soft-natured bush that makes a smooth, thick, orchid-scented oolong. Where Rou Gui is spice and attack, Shui Xian is body and comfort, and it is the tea most Wuyi makers drink at their own table.\n\nThe cultivar is not native to Wuyi. It comes from Jianyang in northern Fujian, where by the traditional account it was found near Zhuxian cave in the nineteenth century, and it was brought into the Wuyi Mountains more than a century ago. The leaves are picked mature, oxidised to a medium level with repeated shaking, rolled into long strips and charcoal roasted. The leaf is thick enough to stand a heavy roast without going hollow, which is why so much of it ends up as the foundation of Da Hong Pao blends.\n\nIn the cup it opens with a soft roasted sweetness and a narcissus-orchid note (shui xian means narcissus), then settles into a thick, almost oily texture with honey and a cooling mineral finish. It is the most forgiving yancha to brew: boiling water, a well-filled gaiwan, and it will not turn bitter if a steep runs long. Eight infusions are normal; the later ones are pale but still sweet.\n\nPrices run from cheap to serious depending on where the bushes grow and how old they are. Ordinary Shui Xian from outside the scenic area is one of the best-value roasted oolongs there is; zhengyan Shui Xian from inside it costs several times more; and lao cong (old bush) lots from plants of fifty years or more are a category of their own with a mossy, woody depth. Look for whole, long strips, a clean roast with no acrid edge, and a stated harvest and roast year.\n\nIt is also the classic tea to age: stored dry and sealed, a medium or heavy roast loses its fire within a year and slowly turns toward dried fruit and wood. If you find a lot you like, buying a little extra for next year is rarely a mistake.",
+  "description": "Shui Xian is the workhorse of Wuyi rock tea and, with Rou Gui, one of the two most planted cultivars on the mountain: a big-leaved, soft-natured bush that makes a smooth, thick, orchid-scented oolong. Where Rou Gui is spice and attack, Shui Xian is body and comfort.\n\nThe cultivar is not native to Wuyi. It comes from the Jianyang area of northern Fujian, where by one traditional account it was found at a cave near Dahu in the nineteenth century, though other accounts place its cultivation earlier, in the Kangxi era. When it reached the Wuyi Mountains is not firmly documented. The leaves are picked mature, oxidised to a medium level with repeated shaking, rolled into long strips and charcoal roasted. The leaf is thick enough to stand a heavy roast without going hollow, which is why so much of it ends up as the foundation of Da Hong Pao blends.\n\nIn the cup it opens with a soft roasted sweetness and an orchid note (shui xian is the word for narcissus, though the name has nothing to do with the flower), then settles into a thick, almost oily texture with honey and a cooling mineral finish. It is the most forgiving yancha to brew: boiling water, a well-filled gaiwan, and it will not turn bitter if a steep runs long. Eight infusions are normal; the later ones are pale but still sweet.\n\nPrices run from cheap to serious depending on where the bushes grow and how old they are. Ordinary Shui Xian from outside the scenic area is one of the best-value roasted oolongs there is; zhengyan Shui Xian from inside it costs several times more; and lao cong (old bush) lots from plants of fifty years or more are a category of their own with a mossy, woody depth. Look for whole, long strips, a clean roast with no acrid edge, and a stated harvest and roast year.\n\nIt is also the classic tea to age: stored dry and sealed, a medium or heavy roast loses its fire within a year and slowly turns toward dried fruit and wood. If you find a lot you like, buying a little extra for next year is rarely a mistake.",
   "wikipedia_title": "Shui Xian",
   "wikipedia_scope": "exact",
   "popularity": 4,
-  "sources_note": "The Jianyang origin (Zhuxian cave, Daoguang era) is the traditional account repeated in Chinese sources; the exact date of introduction to Wuyi is not firmly documented."
+  "sources_note": "The Jianyang origin (Zhuxian cave, Daoguang era) is the traditional account repeated in Chinese sources; the exact date of introduction to Wuyi is not firmly documented.",
+  "name_zh": "武夷水仙",
+  "name_ru": "У И Шуй Сянь",
+  "history": "Shui Xian is a bush from northern Fujian, not from Wuyi proper, and its early history comes in several versions. Chinese accounts say cultivation in the Jianyang and Jianou area goes back to the Kangxi era, around three hundred years. A more specific local story, attributed to a Daoguang-era county gazetteer, has a tea farmer finding the bush at a cave mouth above Dahu in the nineteenth century. Dahu villagers have moved several mother trees from the distant hills to a hollow behind the village for visitors.\n\nHow the name arose is also a matter of legend, and it has nothing to do with the narcissus flower: one explanation turns on a southern Fujian word for beautiful. When the bush reached the Wuyi Mountains is not firmly documented.\n\nIn Wuyi it became one of the two big plantings alongside Rou Gui, the base of many Da Hong Pao blends. Old-bush lao cong lots are defined by Chen De Hua as coming from plants at least fifty years old, with some said to reach 200. The same name is used for other teas elsewhere, such as Zhangping Shui Xian, a greener oolong pressed in paper-wrapped squares, whose making became national intangible heritage in 2020.",
+  "liquor_hex": "#B0601F",
+  "leaf_hex": "#40301F",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Shui_Xian",
+    "https://zh.wikipedia.org/wiki/%E6%B0%B4%E4%BB%99%E8%8C%B6",
+    "https://ko.wikipedia.org/wiki/%EC%88%98%EC%84%A0",
+    "https://www.rmzxw.com.cn/c/2021-05-07/2847835.shtml",
+    "https://ja.wikipedia.org/wiki/%E6%AD%A6%E5%A4%B7%E8%82%89%E6%A1%82",
+    "https://www.wikidata.org/wiki/Q7504735",
+    "https://blog.udn.com/tea520/183587727"
+  ],
+  "confidence": "medium",
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4d/Shui_Xian.jpg/1280px-Shui_Xian.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4d/Shui_Xian.jpg/330px-Shui_Xian.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Shui_Xian.jpg",
+      "author": "Difference engine",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "kind": "dry_leaf",
+      "alt": "Dark twisted Wuyi Shui Xian yancha oolong leaves in a small pile"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/98/Shui_Hsien_Oolong_tea_leaf.jpg/1280px-Shui_Hsien_Oolong_tea_leaf.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/98/Shui_Hsien_Oolong_tea_leaf.jpg/330px-Shui_Hsien_Oolong_tea_leaf.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Shui_Hsien_Oolong_tea_leaf.jpg",
+      "author": "",
+      "license": "CC BY-SA 3.0",
+      "license_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+      "kind": "dry_leaf",
+      "alt": "Pile of broad, dark, twisted Shui Hsien oolong leaves"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/5/51/Shui_Hsien_Trad.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/51/Shui_Hsien_Trad.jpg/330px-Shui_Hsien_Trad.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Shui_Hsien_Trad.jpg",
+      "author": "",
+      "license": "CC BY-SA 3.0",
+      "license_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+      "kind": "dry_leaf",
+      "alt": "Long dark twisted strips of traditional Shui Hsien oolong"
+    }
+  ]
 }

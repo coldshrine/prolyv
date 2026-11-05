@@ -1,0 +1,54 @@
+{
+  "slug": "lujeri-estate",
+  "name_en": "Lujeri Tea Estates",
+  "name_native": null,
+  "name_romanized": null,
+  "name_zh": "卢杰里茶园红茶",
+  "name_ru": "Луджери",
+  "aliases": [
+    "Lujeri",
+    "Lujeri Estate"
+  ],
+  "category": "black",
+  "origin_country": "Malawi",
+  "origin_region": "Mulanje · Lujeri",
+  "cultivar": null,
+  "processing": "Black tea made at the estates' own factories. The exact methods are little documented; bulk African estate tea is commonly made for blending.",
+  "form": "loose",
+  "harvest_season": "Production slows in the lean season, when some of the estates have suspended work. Prized pickings are not documented.",
+  "appearance_dry": "Typical of Malawian estate black tea: small, dark, even leaf.",
+  "appearance_liquor": "Bright reddish brown, as is usual for Malawian black tea.",
+  "appearance_wet": "Coppery brown fine leaf, as expected of a black tea of this type.",
+  "taste_profile": "No detailed tasting record is available for this estate; typical Malawian black tea is brisk and clean, well suited to taking milk.",
+  "taste_tags": [
+    "brisk",
+    "malty"
+  ],
+  "brewing": {
+    "grams": 3,
+    "water_ml": 250,
+    "temp_c": 98,
+    "steeps": 1,
+    "seconds": [
+      180
+    ],
+    "notes": "A general starting point for a brisk estate black tea. Takes milk well; go shorter if the leaf is fine."
+  },
+  "caffeine_level": "medium",
+  "vintage_note": "Sold by the crop rather than by vintage, and mostly as an ingredient of blends without a year on the pack. As with other estate black teas, freshness matters more than age. Production has been reported halted across all the estates at one point, so check that any lot is genuinely recent.",
+  "description": "Lujeri is a group of tea estates under Mount Mulanje in southern Malawi, next to the border with Mozambique. Mulanje town is the centre of Malawi's tea industry, and Lujeri has been reported as the country's second-largest producer.\n\nThis is working tea at scale, and little is written about its leaf or methods. Expect what is usual for the region: plain black tea made for strength and colour.\n\nNo detailed tasting record exists, so the safe description is the regional one, brisk and clean, and good with milk. Brew it hot and not for long.\n\nYou are more likely to have drunk Lujeri inside a blend than to have seen it named on a pack. A single-estate lot is worth a try as a benchmark for what Malawi tastes like.",
+  "history": "The company's founding date is poorly documented; it is described only as dating from the early 20th century, and tea on the Mulanje estates generally belongs to that period. It has been reported as part of the UK-based PGI Group, with estates including Bloomfield, Nsuwadzi, Sayama and Khongoloni.\n\nThe Malawian press has reported a halt in production across all its estates, beyond the usual lean-season pauses, along with hardship for workers and smallholders. Those reports carry no clear date, and the current state of the estates is uncertain.",
+  "liquor_hex": "#9E4A1E",
+  "leaf_hex": "#33241A",
+  "wikipedia_title": "Mulanje",
+  "wikipedia_scope": "umbrella",
+  "popularity": 2,
+  "images": [],
+  "sources": [
+    "https://en.wikipedia.org/wiki/Mulanje",
+    "https://mwnation.com/?p=389649",
+    "https://insightbulletin.org/?p=1955",
+    "https://mountmulanje.org.mw/?p=1198"
+  ],
+  "confidence": "low"
+}

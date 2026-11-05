@@ -3,10 +3,20 @@
   "name_en": "Yuja-cha (Citron Tea)",
   "name_native": "유자차",
   "name_romanized": "Yuja-cha",
-  "aliases": ["Yuja tea", "Yuzu tea", "Citron tea", "Yuja-cheong", "Korean citron tea", "Yujacha"],
+  "aliases": [
+    "Yuja tea",
+    "Yuzu tea",
+    "Citron tea",
+    "Yuja-cheong",
+    "Korean citron tea",
+    "Yujacha",
+    "Honey citron tea",
+    "柚子茶",
+    "Юджа-чха"
+  ],
   "category": "tisane",
-  "origin_country": "Korea",
-  "origin_region": "Jeollanam-do · Goheung (the main yuja county; also Namhae and Geoje on the south coast)",
+  "origin_country": "South Korea",
+  "origin_region": "Jeollanam-do · Goheung",
   "cultivar": "Citrus junos (yuja in Korean, yuzu in Japanese), used whole with the peel",
   "processing": "Not a dried tea but a preserve: whole yuja are washed, thinly sliced with the peel, seeded, mixed with about their own weight of sugar or honey and left to macerate into a glossy marmalade (yuja-cheong); a spoonful is stirred into hot water to make the drink.",
   "form": "other",
@@ -15,12 +25,61 @@
   "appearance_liquor": "Cloudy bright yellow-gold with shreds of peel floating in it.",
   "appearance_wet": "Soft, sweet strands of peel at the bottom of the cup, meant to be eaten with a spoon.",
   "taste_profile": "Bright, sweet-sour citrus with yuzu's grapefruit, mandarin and floral aroma, honeyed and warming, with a faint bitterness from the peel; it is a dessert drink rather than a subtle one.",
-  "taste_tags": ["citrus", "sweet", "tart", "floral"],
-  "brewing": {"grams": 25, "water_ml": 200, "temp_c": 85, "steeps": 1, "seconds": [30], "notes": "One to two tablespoons of yuja-cheong in a cup, top up with hot (not boiling) water and stir; there is nothing to steep. It is just as good with cold sparkling water over ice, and the preserve doubles as a glaze or a spread."},
+  "taste_tags": [
+    "citrus",
+    "sweet",
+    "tart",
+    "floral"
+  ],
+  "brewing": {
+    "grams": 25,
+    "water_ml": 200,
+    "temp_c": 85,
+    "steeps": 1,
+    "seconds": [
+      30
+    ],
+    "notes": "One to two tablespoons of yuja-cheong in a cup, top up with hot (not boiling) water and stir; there is nothing to steep. It is just as good with cold sparkling water over ice, and the preserve doubles as a glaze or a spread."
+  },
   "caffeine_level": "none",
   "vintage_note": "Sold in jars with a production date and a 12–24 month shelf life, made from the November–December harvest; keep refrigerated once opened. Labels state the yuja content (look for 50 % or more; cheap jars are mostly sugar), whether it is made with honey or sugar, and often the origin, with Goheung the name to look for. Big Korean brands are available year-round in Asian groceries; small producers and home-made jars appear after the winter harvest.",
-  "description": "Yuja-cha is the Korean winter drink: a spoon of thick yuja marmalade stirred into hot water, bright yellow, sweet, sour and intensely aromatic. Yuja is the same fruit the Japanese call yuzu, a knobbly, fragrant citrus too sour and seedy to eat fresh, and the south coast of Korea, especially Goheung county, grows most of it.\n\nThere is no tea leaf and no drying. The fruit is sliced thin with its peel, which is where all the perfume lives, mixed with sugar or honey, and left to turn into a preserve; the sugar draws out the juice and keeps the peel from going bitter. The result, yuja-cheong, sits in the fridge for months and is the base for the drink.\n\nThe cup tastes of grapefruit, mandarin and something floral, sweet first and then sharp, with a soft bitterness from the peel at the end, and you eat the shreds of peel with a spoon. Hot water just off the boil is fine; what people get wrong is stinginess, because a thin spoonful gives sweet water, while a generous one gives the real thing. Cold, with sparkling water and ice, it is a summer drink in its own right.\n\nBuy it by the jar and read the label: the yuja percentage is the quality marker, honey versions cost more, and the big Korean brands are reliable if a little sweet. Small-batch jars from Goheung after the December harvest are the ones to seek out.\n\nIt is traditionally drunk for sore throats and cold weather; whatever you make of that, it is a lovely drink, and the same jar makes a good glaze for roast chicken. If you like it, Korean quince preserve tea (mogwa-cha) and jujube tea are the neighbours on the shelf.",
+  "description": "Yuja-cha is the Korean winter drink: a spoon of thick yuja marmalade stirred into hot water, bright yellow, sweet, sour and intensely aromatic. Yuja is the same fruit the Japanese call yuzu, a knobbly, fragrant citrus too sour and seedy to eat fresh, and the south coast of Korea, with Goheung county the best-known name, is where it grows.\n\nThere is no tea leaf and no drying. The fruit is sliced thin with its peel, which is where all the perfume lives, mixed with sugar or honey, and left to turn into a preserve; the sugar draws out the juice and tames the peel's bitterness. The result, yuja-cheong, sits in the fridge for months and is the base for the drink.\n\nThe cup tastes of grapefruit, mandarin and something floral, sweet first and then sharp, with a soft bitterness from the peel at the end, and you eat the shreds of peel with a spoon. Hot water just off the boil is fine; what people get wrong is stinginess, because a thin spoonful gives sweet water, while a generous one gives the real thing. Cold, with sparkling water and ice, it is a summer drink in its own right.\n\nBuy it by the jar and read the label: the yuja percentage is the quality marker, honey versions cost more, and the big Korean brands are reliable if a little sweet. Small-batch jars from Goheung after the December harvest are the ones to seek out.\n\nIt is traditionally drunk for sore throats and cold weather; whatever you make of that, it is a lovely drink, and the same jar makes a good glaze for roast chicken. If you like it, Korean quince preserve tea (mogwa-cha) and jujube tea are the neighbours on the shelf.",
   "wikipedia_title": "Yuja tea",
   "wikipedia_scope": "exact",
-  "popularity": 3
+  "popularity": 3,
+  "name_zh": "柚子茶",
+  "name_ru": "Чай юджа",
+  "history": "Under the Joseon dynasty yuja was grown in what are now South Jeolla, South Gyeongsang and Jeju, and people made drinks from it. The early recipes were not today's marmalade in hot water. The 18th-century Sallim gyeongje describes shredded yuja and pear in honey water topped with pine nuts, and the Nongjeong hoeyo of 1830 gives much the same recipe. The Imwon sibyukji of about 1835 floats pomegranate seeds instead.\n\nThe closer ancestor is yujajang, in which yuja was steeped in honey and the liquid mixed with water. Old texts did not separate words like jang, tang, cheong and cha strictly, so a clear line between these drinks is hard to draw.\n\nA Korean legend credits Jang Bogo with bringing the fruit: the fruit broke in a storm at sea, the seeds lodged in his coat and they took root wherever he travelled. Today the drink is sold in big jars, kept for colds and winter weather, and the Chinese name 柚子茶 can mislead, since 柚子 in Chinese means pomelo, not yuzu.",
+  "liquor_hex": "#E6BE3C",
+  "leaf_hex": "#C9971F",
+  "sources": [
+    "https://ko.wikipedia.org/wiki/%EC%9C%A0%EC%9E%90%EC%B0%A8",
+    "https://en.wikipedia.org/wiki/Yuja_tea",
+    "https://ru.wikipedia.org/wiki/%D0%A7%D0%B0%D0%B9_%D1%8E%D0%B4%D0%B6%D0%B0",
+    "https://ja.wikipedia.org/wiki/%E6%9F%9A%E5%AD%90%E8%8C%B6",
+    "https://zh.wikipedia.org/wiki/%E6%9F%9A%E5%AD%90%E8%8C%B6"
+  ],
+  "confidence": "high",
+  "images": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/e/e6/Korean_tea-Yujacha-03.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e6/Korean_tea-Yujacha-03.jpg/330px-Korean_tea-Yujacha-03.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Korean_tea-Yujacha-03.jpg",
+      "author": "FotoosVanRobin",
+      "license": "CC BY-SA 2.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+      "kind": "liquor",
+      "alt": "Glass of yuja-cha with citron marmalade at the bottom and water being poured in, with a wooden spoon"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b0/Korean_tea-Yujacha-01.jpg/1280px-Korean_tea-Yujacha-01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b0/Korean_tea-Yujacha-01.jpg/330px-Korean_tea-Yujacha-01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Korean_tea-Yujacha-01.jpg",
+      "author": "yoppy",
+      "license": "CC BY 2.0",
+      "license_url": "https://creativecommons.org/licenses/by/2.0",
+      "kind": "liquor",
+      "alt": "Paper cup of cloudy golden yuja-cha with a metal spoon stirring the citron pulp"
+    }
+  ]
 }

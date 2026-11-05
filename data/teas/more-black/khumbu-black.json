@@ -1,0 +1,50 @@
+{
+  "slug": "khumbu-black",
+  "name_en": "Khumbu Black",
+  "name_native": null,
+  "name_romanized": null,
+  "aliases": [],
+  "category": "black",
+  "origin_country": "Nepal",
+  "origin_region": "Nepal hills",
+  "cultivar": null,
+  "form": "loose",
+  "caffeine_level": "high",
+  "brewing": {
+    "grams": 3,
+    "water_ml": 200,
+    "temp_c": 95,
+    "steeps": 2,
+    "seconds": [
+      180,
+      240
+    ],
+    "notes": "A safe starting point for black tea: Western style, water just off the boil."
+  },
+  "taste_tags": [
+    "woody",
+    "citrus"
+  ],
+  "description": "An unusual black tea from Nepal, known for its dark, green-tinged leaf.\n\nTreat it as you would any black tea: water just off the boil, a few minutes in the pot, and a seller who can say where it was grown.",
+  "wikipedia_title": null,
+  "wikipedia_scope": "none",
+  "popularity": 1,
+  "name_zh": "昆布红茶",
+  "name_ru": "Кхумбу чёрный",
+  "history": "Its development is said to have taken three years. Little more is documented about it.",
+  "liquor_hex": "#B5501E",
+  "leaf_hex": "#2E2A1C",
+  "sources": [
+    "https://stir-tea-coffee.com/features/teas-from-the-hills-of-nepal"
+  ],
+  "confidence": "low",
+  "images": [],
+  "stub": true,
+  "processing": "Typical of black tea: withered, rolled, fully oxidised and dried.",
+  "harvest_season": "Picked through the growing season, as with most black teas.",
+  "appearance_dry": "Black-brown leaves with a deep green sheen.",
+  "appearance_liquor": "Orange-red.",
+  "appearance_wet": "Usually coppery brown leaf.",
+  "taste_profile": "Strong notes of pine and citrus.",
+  "vintage_note": "Black teas are normally sold by harvest year and are best within a couple of years."
+}

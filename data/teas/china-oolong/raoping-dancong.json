@@ -3,7 +3,14 @@
   "name_en": "Raoping Dancong",
   "name_native": "饶平单丛",
   "name_romanized": "Ráopíng Dāncóng",
-  "aliases": ["Raoping Dancong", "Rao Ping Dan Cong", "Raoping Phoenix oolong", "Pingxi Dancong", "Shuangji Dancong", "Raoping oolong"],
+  "aliases": [
+    "Raoping Dancong",
+    "Rao Ping Dan Cong",
+    "Raoping Phoenix oolong",
+    "Pingxi Dancong",
+    "Shuangji Dancong",
+    "Raoping oolong"
+  ],
   "category": "oolong",
   "origin_country": "China",
   "origin_region": "Guangdong · Chaozhou · Raoping",
@@ -15,13 +22,43 @@
   "appearance_liquor": "Golden to orange, bright.",
   "appearance_wet": "Long yellow-green leaves with red edges.",
   "taste_profile": "Honey and florals in the manner of whichever strain it is, a lighter body than Fenghuang mountain tea, a toasty sweetness and a shorter finish; the mountain lots have more length.",
-  "taste_tags": ["honey", "floral", "sweet", "roasted"],
-  "brewing": {"grams": 8, "water_ml": 110, "temp_c": 100, "steeps": 7, "seconds": [5, 5, 8, 10, 15, 25, 45], "notes": "Boiling water, thin gaiwan, flash steeps. Lowland lots turn bitter quickly if steeped long; pour fast and expect six or seven good infusions."},
+  "taste_tags": [
+    "honey",
+    "floral",
+    "sweet",
+    "roasted"
+  ],
+  "brewing": {
+    "grams": 8,
+    "water_ml": 110,
+    "temp_c": 100,
+    "steeps": 7,
+    "seconds": [
+      5,
+      5,
+      8,
+      10,
+      15,
+      25,
+      45
+    ],
+    "notes": "Boiling water, thin gaiwan, flash steeps. Lowland lots turn bitter quickly if steeped long; pour fast and expect six or seven good infusions."
+  },
   "caffeine_level": "medium",
   "vintage_note": "Sold by harvest year, often with the season but rarely with a village; spring tea is on sale from May and winter xue pian in December, sold fresh. Best within a year or two, with medium roasts keeping a little longer sealed and dry; apart from the Lingtou speciality lots it is not aged.",
-  "description": "Raoping is the other dancong county: the hills east of the Fenghuang Mountains, still in Chaozhou prefecture, where the same strains are grown at lower elevations and in far greater quantity. A large share of the tea sold around the world as Phoenix dancong is Raoping tea, and knowing that is the first step to buying dancong sensibly.\n\nThe county's tea centre is Pingxi town, home of Lingtou village and the honey-scented Lingtou Dancong cultivar that dominates its plantings, alongside Mi Lan Xiang, Ya Shi Xiang and other Fenghuang strains brought over as cuttings. Most gardens sit in warm, low hills that crop three or four times a year, which keeps prices down, but Raoping also has genuine mountain gardens around the Shuangji peaks at close to a thousand metres that make tea with real length and are sold under their own names.\n\nProcessing is the Fenghuang method at scale, sun-withering, overnight shaking, strip rolling and roasting, with more machinery and bigger batches than the hand-worked Wudong gardens. The result is a tea that is honeyed and floral according to its strain, lighter in body than the Fenghuang mountain versions, with a toasty sweetness and a finish that stops sooner. It is the tea most people are tasting when they decide whether they like dancong at all.\n\nBrew it with the Chaozhou technique and pour fast; lowland leaf goes bitter more quickly than mountain leaf. Six or seven steeps is a fair run. The winter xue pian lots, picked in December, are light, intensely fragrant and a Raoping speciality worth buying fresh.\n\nIt is sold by year and season, cheaply and often under the plain name Phoenix dancong or a strain name with no village, which is where the mislabelling begins: Raoping tea sold honestly is good value, and Raoping tea sold as Wudong is the most common fraud in the category. Ask where it grew; a seller who answers Raoping without embarrassment is one to keep.",
+  "description": "Raoping is the other dancong county: the hills east of the Fenghuang Mountains, still in Chaozhou prefecture, where the same strains are grown at lower elevations and in far greater quantity. A large share of the tea sold around the world as Phoenix dancong is Raoping tea, and knowing that is the first step to buying dancong sensibly.\n\nThe county's tea centre is Fubin town, home of Lingtou village and the honey-scented Lingtou Dancong cultivar that dominates its plantings, alongside Mi Lan Xiang, Ya Shi Xiang and other Fenghuang strains brought over as cuttings. Most gardens sit in warm, low hills that crop three or four times a year, which keeps prices down, but Raoping also has mountain gardens, around Shuangji Niang, that make tea with real length and are sold under their own names.\n\nProcessing is the Fenghuang method at scale, sun-withering, overnight shaking, strip rolling and roasting, with more machinery and bigger batches than the hand-worked Wudong gardens. The result is a tea that is honeyed and floral according to its strain, lighter in body than the Fenghuang mountain versions, with a toasty sweetness and a finish that stops sooner. It is the tea most people are tasting when they decide whether they like dancong at all.\n\nBrew it with the Chaozhou technique and pour fast; lowland leaf goes bitter more quickly than mountain leaf. Six or seven steeps is a fair run. The winter xue pian lots, picked in December, are light, intensely fragrant and a Raoping speciality worth buying fresh.\n\nIt is sold by year and season, cheaply and often under the plain name Phoenix dancong or a strain name with no village, which is where the mislabelling begins: Raoping tea sold honestly is good value, and Raoping tea sold as Wudong is a common fraud in the category. Ask where it grew; a seller who answers Raoping without embarrassment is one to keep.",
   "wikipedia_title": "Oolong",
   "wikipedia_scope": "umbrella",
   "popularity": 2,
-  "sources_note": "The Shuangji mountain area of Raoping (Shuangji Niang Shan, around 1,000 m) is cited in Chinese sources as the county's high-elevation tea zone; production share figures are deliberately not given."
+  "sources_note": "The Shuangji mountain area of Raoping (Shuangji Niang Shan, around 1,000 m) is cited in Chinese sources as the county's high-elevation tea zone; production share figures are deliberately not given.",
+  "name_zh": "饶平单丛",
+  "name_ru": "Жао Пин Дань Цун",
+  "history": "Raoping is the easternmost county of Guangdong, in Chaozhou prefecture, and it is best known in tea as the home of Lingtou Dancong, found in Fubin town in the early 1960s.\n\nRaoping Dancong as such is a regional label rather than one defined tea, and little is documented about it apart from Lingtou. Local accounts of Lingtou tea reach back three centuries, with nothing firm behind them.",
+  "liquor_hex": "#D69A3F",
+  "leaf_hex": "#5C4A2C",
+  "sources": [
+    "https://zh.wikipedia.org/wiki/%E9%A5%B6%E5%B9%B3%E5%8E%BF"
+  ],
+  "confidence": "low",
+  "images": []
 }

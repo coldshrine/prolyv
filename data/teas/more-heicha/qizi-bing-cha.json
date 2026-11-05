@@ -1,0 +1,63 @@
+{
+  "slug": "qizi-bing-cha",
+  "name_en": "Qizi Bing Cha",
+  "name_native": "七子饼茶",
+  "name_romanized": "Qīzǐ Bǐng Chá",
+  "aliases": [
+    "Qizi Cake Tea",
+    "Yunnan Qizi Bing Cha",
+    "Qi Bing Cha",
+    "Qizi Cha",
+    "云南七子饼茶",
+    "七饼茶",
+    "七子茶"
+  ],
+  "category": "heicha",
+  "origin_country": "China",
+  "origin_region": "Yunnan",
+  "cultivar": null,
+  "form": "cake",
+  "caffeine_level": "medium",
+  "brewing": {
+    "grams": 6,
+    "water_ml": 120,
+    "temp_c": 100,
+    "steeps": 6,
+    "seconds": [
+      15,
+      15,
+      20,
+      30,
+      45,
+      60
+    ],
+    "notes": "A safe starting point for dark tea: rinse once, boiling water, or simmer it the traditional way."
+  },
+  "taste_tags": [
+    "earthy",
+    "woody"
+  ],
+  "description": "A class of pressed Yunnan pu-erh cakes, today usually about 357 g each, so that seven make 2.5 kg.\n\nTreat it as you would any dark tea: rinse it, use boiling water, and buy from someone who can say who pressed it and when.",
+  "wikipedia_title": null,
+  "wikipedia_scope": "none",
+  "popularity": 1,
+  "name_zh": "七子饼茶",
+  "name_ru": "Ци Цзы Бин Ча",
+  "history": "The name began as a unit of trade: under the Yongzheng reign of the Qing, merchants packed seven round cakes to a tube, a standard set by the government. Formats multiplied in the late Qing, and merchant guilds in the early Republic tried to unify them. In 1970 the Yunnan tea import and export company changed 'round' to 'cake', chose seven as a lucky number for gifts, and registered the name in place of the earlier Zhongcha round tea label.",
+  "liquor_hex": "#8A4A18",
+  "leaf_hex": "#3E3524",
+  "sources": [
+    "https://zh.wikipedia.org/wiki/%E4%B8%83%E5%AD%90%E9%A5%BC%E8%8C%B6",
+    "https://aboxtik.com/dark-tea/"
+  ],
+  "confidence": "medium",
+  "images": [],
+  "stub": true,
+  "processing": "Typical of dark tea: green leaf is piled so that microbes ferment it, then dried and often pressed.",
+  "harvest_season": "Often made from coarser, later leaf, as with most dark teas.",
+  "appearance_dry": "Usually dark leaf, loose or pressed into bricks or baskets.",
+  "appearance_liquor": "Usually orange-red to dark brown.",
+  "appearance_wet": "Usually coarse dark leaf with some stem.",
+  "taste_profile": "Expect what dark teas usually give: smooth, woody and earthy.",
+  "vintage_note": "Dark teas are sold by production year and many improve with several years of dry storage."
+}

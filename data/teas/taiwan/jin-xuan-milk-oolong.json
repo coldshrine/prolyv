@@ -3,10 +3,25 @@
   "name_en": "Jin Xuan Milk Oolong (TTES #12)",
   "name_native": "金萱茶",
   "name_romanized": "Jīnxuān Chá",
-  "aliases": ["Milk oolong", "Jinxuan", "Chin Shuan", "TTES No. 12", "Taiwan Tea No. 12", "Nai Xiang oolong", "Golden Daylily oolong", "Alishan Jin Xuan"],
+  "aliases": [
+    "Milk oolong",
+    "Jinxuan",
+    "Chin Shuan",
+    "Chin Hsuan",
+    "TTES No. 12",
+    "Taiwan Tea No. 12",
+    "Nai Xiang oolong",
+    "Golden Daylily oolong",
+    "Alishan Jin Xuan",
+    "台茶12号",
+    "台茶12號",
+    "金萱",
+    "27仔",
+    "Молочный улун"
+  ],
   "category": "oolong",
   "origin_country": "Taiwan",
-  "origin_region": "Chiayi · Alishan and Nantou · Mingjian (grown island-wide)",
+  "origin_region": "Chiayi · Alishan",
   "cultivar": "Jin Xuan (TTES #12)",
   "processing": "Lightly oxidised (roughly 15–25%), ball-rolled and dried with little or no roast; a light roast is sometimes applied to lowland lots. Nothing is added: the creamy note is natural to the cultivar.",
   "form": "loose",
@@ -15,13 +30,56 @@
   "appearance_liquor": "Pale yellow with a soft green tint, bright and clear.",
   "appearance_wet": "Broad, rounded, bright-green leaves on thick stems, opening fully by the third steep.",
   "taste_profile": "Butter, sweet corn and a milky texture with soft osmanthus-like florals and a clean sweet finish; at altitude it gains thickness and a cooling aftertaste.",
-  "taste_tags": ["creamy", "sweet", "floral", "vegetal"],
-  "brewing": {"grams": 6, "water_ml": 110, "temp_c": 95, "steeps": 6, "seconds": [30, 20, 25, 35, 50, 80], "notes": "Forgiving: water just off the boil, moderate steeps, five or six good infusions. One of the best teas for cold brewing (about 1 g per 100 ml, overnight in the fridge), where the creaminess comes forward."},
+  "taste_tags": [
+    "creamy",
+    "sweet",
+    "floral",
+    "vegetal"
+  ],
+  "brewing": {
+    "grams": 6,
+    "water_ml": 110,
+    "temp_c": 95,
+    "steeps": 6,
+    "seconds": [
+      30,
+      20,
+      25,
+      35,
+      50,
+      80
+    ],
+    "notes": "Forgiving: water just off the boil, moderate steeps, five or six good infusions. One of the best teas for cold brewing (about 1 g per 100 ml, overnight in the fridge), where the creaminess comes forward."
+  },
   "caffeine_level": "medium",
   "vintage_note": "Sold by cultivar name, growing area and season: Alishan Jin Xuan from the spring and winter harvests of the current year is the top of the range, while Mingjian lowland Jin Xuan is sold year-round, often with no season stated. It is a fresh tea for drinking within a year. Flavoured 'milk oolong' follows no vintage logic at all, which is one way to spot it.",
-  "description": "Jin Xuan is a Taiwanese tea cultivar, Taiwan Tea Experiment Station number 12, released in 1981 and now the second most planted bush on the island after Qing Xin. It is the real thing behind 'milk oolong': the leaf has a natural buttery, creamy note with a touch of osmanthus, without anything being added to it. It grows everywhere from the Mingjian lowlands to Alishan at 1,500 metres, and Alishan Jin Xuan is the version most worth seeking out.\n\nThe cultivar was bred at the research station under Wu Zhenduo from a cross between a station breeding line (Tainong 8) and the local Ying Zhi Hong Xin bush, and is said to carry his grandmother's name. It yields noticeably more than Qing Xin and shrugs off disease, which is why farmers took to it. The leaf is larger and rounder than Qing Xin and is usually made as a lightly oxidised, ball-rolled oolong with little or no roast; the same leaf also turns up as Jin Xuan black tea and in bug-bitten honey styles.\n\nIn the cup, expect butter, sweet corn and a milky texture, with soft florals and a clean, sweet finish; at altitude it gains thickness and a cooling aftertaste, in the lowlands it stays simple and pleasant. It is forgiving to brew: water just off the boil, moderate steeps, and it gives five or six good infusions. It is also one of the best teas for cold brewing, where the creaminess comes forward.\n\nThe trap is flavoured 'milk oolong'. A great deal of what is sold under that name, especially from mainland China and Thailand, is low-grade rolled oolong sprayed with milk flavouring; if the dry leaf smells like condensed milk, or the aroma survives five steeps unchanged, it is flavoured. Genuine Jin Xuan is subtle: the creaminess is a texture and a hint, not a dessert. Buy it by cultivar name and season, spring or winter, from a seller who names the growing area.\n\nIf you like it, Cui Yu (number 13), its sister cultivar from the same year, is the floral counterpart, and Jin Xuan black shows the same leaf fully oxidised.",
+  "description": "Jin Xuan is a Taiwanese tea cultivar, Taiwan Tea Experiment Station number 12, released in 1981 and now one of the most widely planted bushes on the island. It is the real thing behind 'milk oolong': the leaf has a natural buttery, creamy note with a touch of osmanthus, without anything being added to it. It grows everywhere from the Mingjian lowlands to Alishan at 1,500 metres, and Alishan Jin Xuan is the version most worth seeking out.\n\nThe cultivar was bred at the research station under Wu Zhenduo from a cross between a station breeding line (Tainong 8) and the local Ying Zhi Hong Xin bush, and is said to carry the name of his grandmother, or by another account his mother. It yields noticeably more than Qing Xin and shrugs off disease, which is why farmers took to it. The leaf is larger and rounder than Qing Xin and is usually made as a lightly oxidised, ball-rolled oolong with little or no roast; the same leaf also turns up as Jin Xuan black tea and in bug-bitten honey styles.\n\nIn the cup, expect butter, sweet corn and a milky texture, with soft florals and a clean, sweet finish; at altitude it gains thickness and a cooling aftertaste, in the lowlands it stays simple and pleasant. It is forgiving to brew: water just off the boil, moderate steeps, and it gives five or six good infusions. It is also one of the best teas for cold brewing, where the creaminess comes forward.\n\nThe trap is flavoured 'milk oolong'. A great deal of what is sold under that name, especially from mainland China and Thailand, is low-grade rolled oolong sprayed with milk flavouring; if the dry leaf smells like condensed milk, or the aroma survives five steeps unchanged, it is flavoured. Genuine Jin Xuan is subtle: the creaminess is a texture and a hint, not a dessert. Buy it by cultivar name and season, spring or winter, from a seller who names the growing area.\n\nIf you like it, Cui Yu (number 13), its sister cultivar from the same year, is the floral counterpart, and Jin Xuan black shows the same leaf fully oxidised.",
   "wikipedia_title": "Jin Xuan tea",
   "wikipedia_scope": "exact",
   "popularity": 5,
-  "sources_note": "Parentage given as Tainong 8 line x Ying Zhi Hong Xin from memory of TRES cultivar notes; the 'named after Wu Zhenduo's grandmother' story is widely repeated but anecdotal."
+  "sources_note": "Parentage given as Tainong 8 line x Ying Zhi Hong Xin from memory of TRES cultivar notes; the 'named after Wu Zhenduo's grandmother' story is widely repeated but anecdotal.",
+  "name_zh": "金萱茶",
+  "name_ru": "Цзинь Сюань",
+  "history": "Jin Xuan is a bred cultivar with a paper trail, not an old tea. The tea research station crossed the Tainong 8 line with the local Ying Zhi Hong Xin bush under the trial number 2027, which is why farmers still call it 27-zai. In 1965 the station handed a new cross of these parents to Lugu farmers for cutting trials, and in 1981 it was formally named Taiwan Tea No. 12.\n\nWu Zhenduo, the station's first director, gave it the name Jin Xuan to honour a woman of his family. Accounts differ on whether she was his grandmother or his mother. In 1982 he passed 500 plants to a Muzha farmer for trial on the tourist tea slopes there.\n\nFarmers took it up because it yields 20 to 50 percent more than Qing Xin oolong or Qing Xin Da Mou and resists die-back, and it now grows in every tea district, mainly Nantou and Chiayi. It has also spread to Thailand. The natural milkiness made its reputation and invited an imitation, so plenty of 'milk oolong' on the market is flavoured.",
+  "liquor_hex": "#E3DC9A",
+  "leaf_hex": "#6F8545",
+  "sources": [
+    "https://zh.wikipedia.org/wiki/%E5%8F%B0%E8%8C%B612%E8%99%9F",
+    "https://en.wikipedia.org/wiki/Jin_Xuan_tea",
+    "https://ru.wikipedia.org/wiki/%D0%A6%D0%B7%D0%B8%D0%BD%D1%8C_%D1%81%D1%8E%D0%B0%D0%BD%D1%8C",
+    "https://zh.wikipedia.org/wiki/%E5%87%8D%E9%A0%82%E7%83%8F%E9%BE%8D%E8%8C%B6"
+  ],
+  "confidence": "high",
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/05/Jin_Xuan_oolong_tea.jpg/1280px-Jin_Xuan_oolong_tea.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/05/Jin_Xuan_oolong_tea.jpg/330px-Jin_Xuan_oolong_tea.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Jin_Xuan_oolong_tea.jpg",
+      "author": "Difference engine",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "kind": "dry_leaf",
+      "alt": "Pile of rolled green Jin Xuan oolong balls from Alishan"
+    }
+  ]
 }

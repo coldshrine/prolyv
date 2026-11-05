@@ -1,0 +1,53 @@
+{
+  "slug": "liannan-da-ye-cha",
+  "name_en": "Liannan Da Ye Cha",
+  "name_native": "连南大叶茶",
+  "name_romanized": "Liánnán Dàyè Chá",
+  "aliases": [
+    "連南大葉茶"
+  ],
+  "category": "green",
+  "origin_country": "China",
+  "origin_region": "Guangdong · Qingyuan Liannan",
+  "cultivar": "Liannan Da Ye",
+  "form": "loose",
+  "caffeine_level": "medium",
+  "brewing": {
+    "grams": 3,
+    "water_ml": 150,
+    "temp_c": 80,
+    "steeps": 3,
+    "seconds": [
+      60,
+      75,
+      105
+    ],
+    "notes": "A safe starting point for green tea: cooler water, short steeps, then adjust by taste."
+  },
+  "taste_tags": [
+    "vegetal",
+    "sweet"
+  ],
+  "description": "A large-leaf tea from Liannan Yao Autonomous County in Guangdong, spread across seven towns and sixty-nine villages including Sanjiang, Zhaigang and Damaishan.\n\nThis is a tea plant cultivar rather than a finished tea, so you are more likely to meet its name in a grower's notes than on a packet. If you find tea made from it, brew it like any other green tea and taste what the plant brings.",
+  "wikipedia_title": null,
+  "wikipedia_scope": "none",
+  "popularity": 1,
+  "name_zh": "连南大叶茶",
+  "name_ru": "Лянь Нань Да Е Ча",
+  "history": "It is made in both pan-fired and basket-dried styles under a set production code. Little else is documented about its past.",
+  "liquor_hex": "#D2CE72",
+  "leaf_hex": "#6F7F3A",
+  "sources": [
+    "https://www.ichabaike.com/chashu/liannandayecha/"
+  ],
+  "confidence": "low",
+  "images": [],
+  "stub": true,
+  "processing": "A plant cultivar, not a processing style: it is usually made into green tea, and the method is up to the grower.",
+  "harvest_season": "Depends on the place and the grower.",
+  "appearance_dry": "Pan-fired leaf is tightly twisted and silvery green with a natural white bloom; basket-dried leaf is firm, slightly curled and ink green.",
+  "appearance_liquor": "Depends on how the leaf is processed.",
+  "appearance_wet": "Depends on how the leaf is processed.",
+  "taste_profile": "Depends on how the leaf is processed; tea from it usually falls within what green teas give.",
+  "vintage_note": "A cultivar is not sold by vintage. Tea made from it follows the usual pattern for green tea, so ask for the harvest year and the grower."
+}

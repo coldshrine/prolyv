@@ -3,10 +3,17 @@
   "name_en": "Osmanthus Oolong (Gui Hua Wulong)",
   "name_native": "桂花烏龍",
   "name_romanized": "Guìhuā Wūlóng",
-  "aliases": ["Gui Hua oolong", "Osmanthus-scented oolong", "Guihua Wulong", "Sweet olive oolong", "Osmanthus tea", "Kuei Hua oolong"],
+  "aliases": [
+    "Gui Hua oolong",
+    "Osmanthus-scented oolong",
+    "Guihua Wulong",
+    "Sweet olive oolong",
+    "Osmanthus tea",
+    "Kuei Hua oolong"
+  ],
   "category": "oolong",
   "origin_country": "Taiwan",
-  "origin_region": "Nantou · Mingjian and Lugu; New Taipei (Taipei-area blenders)",
+  "origin_region": "Nantou · Mingjian",
   "cultivar": "Si Ji Chun or Jin Xuan for most lots; Qingxin for roasted Dong Ding-style bases",
   "processing": "Finished rolled oolong, usually lightly roasted, scented with fresh osmanthus flowers picked in autumn, either layered with the flowers and re-dried in one or more rounds or simply blended with the dried flowers; no flavouring when done traditionally.",
   "form": "loose",
@@ -15,12 +22,49 @@
   "appearance_liquor": "Light gold, clear, with a few flower fragments.",
   "appearance_wet": "Rolled leaf opening to green-brown with flower fragments floating.",
   "taste_profile": "Apricot, honey and a sweet-olive perfume from the flowers over a buttery, gently toasty oolong base; soft, sweet and easy, with no bitterness.",
-  "taste_tags": ["floral", "fruity", "sweet", "honey"],
-  "brewing": {"grams": 5, "water_ml": 120, "temp_c": 90, "steeps": 5, "seconds": [30, 25, 35, 50, 80], "notes": "A little below the boil and short steeps so the flower does not turn soapy; four or five infusions. Excellent cold-brewed and makes a good milk tea."},
+  "taste_tags": [
+    "floral",
+    "fruity",
+    "sweet",
+    "honey"
+  ],
+  "brewing": {
+    "grams": 5,
+    "water_ml": 120,
+    "temp_c": 90,
+    "steeps": 5,
+    "seconds": [
+      30,
+      25,
+      35,
+      50,
+      80
+    ],
+    "notes": "A little below the boil and short steeps so the flower does not turn soapy; four or five infusions. Excellent cold-brewed and makes a good milk tea."
+  },
   "caffeine_level": "medium",
   "vintage_note": "Sold as the current year's blend, scented after the autumn osmanthus harvest, usually cheaply and without grades; keep it sealed and drink it within a year because the flower aroma fades. Artificially flavoured versions are common and follow no season at all.",
   "description": "Osmanthus oolong is Taiwan's everyday scented tea: rolled oolong perfumed with the tiny golden flowers of the sweet olive tree, which blooms across the island in October and November and smells of apricot and honey. Scented teas were a major Taiwanese export a century ago, when Taipei's tea houses scented Bao Zhong with jasmine, gardenia and osmanthus for Southeast Asia, and osmanthus oolong is the version that stayed popular at home, as a gift tea, a Mid-Autumn tea and a drink-shop staple.\n\nThe base is usually a lightly roasted Si Ji Chun or Jin Xuan from the Nantou lowlands, sometimes a Dong Ding-style roasted Qing Xin. In the traditional method the fresh flowers are layered with the tea so the leaf absorbs the aroma, then separated and the tea re-dried, in one or more rounds; the simpler, more common method is to blend dried flowers into the finished tea, which is why most packets have visible petals in them. The flowers contribute a real sweetness as well as scent.\n\nIn the cup you get apricot, honey and a sweet-olive perfume over a buttery, gently toasty oolong, soft and easy with no bitterness. Brew it a little below the boil, around 90 degrees, with short steeps so the flower does not turn soapy, and expect four or five infusions; it is excellent cold-brewed and makes a good milk tea. It pairs naturally with mooncakes and other sweet pastries.\n\nIt is sold as the current year's blend, scented after the autumn osmanthus harvest, usually cheaply and without grades; keep it sealed because the flower aroma fades within a year. The thing to avoid is artificial flavouring: a candy-like smell that does not change from steep to steep, or flowers that look bleached and smell of nothing on their own, mean essence was added. Real osmanthus is subtle and fades gracefully.\n\nIf you enjoy it, the same flower on a roasted Dong Ding base is a deeper, more grown-up version.",
   "wikipedia_title": "Oolong",
   "wikipedia_scope": "umbrella",
-  "popularity": 3
+  "popularity": 3,
+  "name_zh": "桂花乌龙",
+  "name_ru": "Гуй Хуа У Лун",
+  "history": "Osmanthus oolong is rolled oolong scented with the small golden flowers of the sweet olive, either layered with the fresh blossom or simply blended with dried flowers. It is an everyday product rather than a tea from one named place, made in Taiwan and elsewhere. Little is documented about the history of the Taiwanese version in particular.",
+  "liquor_hex": "#DDB552",
+  "leaf_hex": "#6E6A3A",
+  "sources": [],
+  "confidence": "low",
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/76/Gui_Hua_Oolong.jpg/1280px-Gui_Hua_Oolong.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/76/Gui_Hua_Oolong.jpg/330px-Gui_Hua_Oolong.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Gui_Hua_Oolong.jpg",
+      "author": "Mr. Botanical",
+      "license": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "kind": "dry_leaf",
+      "alt": "Rolled green oolong leaves flecked with golden osmanthus flowers on white"
+    }
+  ]
 }

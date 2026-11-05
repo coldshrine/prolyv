@@ -1,0 +1,58 @@
+{
+  "slug": "gol-gavzaban",
+  "name_en": "Gol Gavzaban (Persian Borage Tea)",
+  "name_native": "گل گاوزبان",
+  "name_romanized": "gol-e gāvzabān",
+  "name_zh": "伊朗琉璃苣茶",
+  "name_ru": "Гол-э гавзабан",
+  "aliases": [
+    "Gol gav zaban",
+    "Gol-e-gavzaban",
+    "Iranian borage tea",
+    "Echium amoenum tea",
+    "گل گاوزبان ایرانی",
+    "Чай из синяка приятного",
+    "Персидский бурачник"
+  ],
+  "category": "tisane",
+  "origin_country": "Iran",
+  "origin_region": "Northern Iran",
+  "cultivar": "Echium amoenum",
+  "processing": "The flowers of Echium amoenum are dried, keeping their violet-blue petals, and infused in hot water. No oxidation or roasting is described.",
+  "form": "loose",
+  "harvest_season": "Picked when the plant flowers; little is documented about exact timing.",
+  "appearance_dry": "Crinkled, dry violet-blue petals.",
+  "appearance_liquor": "Rarely described in detail; expect a light tint, typical of a dried-flower infusion.",
+  "appearance_wet": "Soft, faded violet petals.",
+  "taste_profile": "Few reliable tasting notes exist; as a dried-flower infusion it can be expected to be light and floral, and preparation conditions are known to change its aroma.",
+  "taste_tags": [
+    "floral",
+    "herbal"
+  ],
+  "brewing": {
+    "grams": 3,
+    "water_ml": 250,
+    "temp_c": 95,
+    "steeps": 1,
+    "seconds": [
+      300
+    ],
+    "notes": "A general guide of the kind used for dried-flower infusions, not a documented Iranian recipe. Steeping conditions noticeably affect aroma, so taste before lengthening the steep."
+  },
+  "caffeine_level": "none",
+  "vintage_note": "It is not sold by vintage. Dried flowers are sold loose or in tea bags, and as with other flower infusions the most recent and most vividly coloured stock is preferable.",
+  "description": "Gol gavzaban is an Iranian herbal tea made from the dried flowers of Echium amoenum, often called Iranian borage. The Persian name means roughly cow's tongue flower, after the plant's bristly, hairy stems and leaves. Despite the English nickname, it is a different plant from common borage.\n\nThe plant is a biennial or perennial native to a narrow zone across northern Iran, the Caucasus and southern Russia. Only the flowers matter here, dried with their violet-blue colour intact, and they are the thing to look at when buying.\n\nFew detailed tasting notes exist for this tea. Treat it like other dried-flower infusions, starting with a moderate steep, because a study of the infusion found that preparation changes its aroma considerably.\n\nIt is traditionally taken for colds and as a calming drink, though these uses come from traditional medicine and shouldn't replace medical advice. Sellers offer it loose and in bags.",
+  "history": "The plant has a long-standing place in Iranian traditional medicine, valued as a soothing remedy for colds and as a sedative. Little is documented about when the flower tea itself took its present form.\n\nModern research has focused on its pharmacology and on the aroma of the infusion.",
+  "wikipedia_title": "Echium amoenum",
+  "wikipedia_scope": "umbrella",
+  "popularity": 2,
+  "liquor_hex": "#D8BFA8",
+  "leaf_hex": "#5C4A8C",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Echium_amoenum",
+    "https://avesis.cu.edu.tr/yayin/d7c97f1d-5050-4bb9-9145-0e29c00c6193/elucidation-of-infusion-induced-changes-in-the-key-odorants-and-aroma-profile-of-iranian-endemic-borage-echium-amoenum-herbal-tea",
+    "https://yektamarket.com/?p=18969"
+  ],
+  "confidence": "medium",
+  "images": []
+}

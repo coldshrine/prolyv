@@ -1,0 +1,63 @@
+{
+  "slug": "congou",
+  "name_en": "Congou (Gongfu Hongcha)",
+  "name_native": "工夫红茶",
+  "name_romanized": "Gōngfu Hóngchá",
+  "name_zh": "工夫红茶",
+  "name_ru": "Гун Фу Хун Ча",
+  "aliases": [
+    "Congou",
+    "Gongfu hongcha",
+    "Kung Fu black tea",
+    "工夫紅茶"
+  ],
+  "category": "black",
+  "origin_country": "China",
+  "origin_region": "Anhui, Fujian, Jiangxi, Yunnan",
+  "cultivar": null,
+  "processing": "Fully oxidised whole-leaf black tea, worked with care into thin tight strips without breaking the leaf; that skill is the 'gongfu' of the name.",
+  "form": "loose",
+  "harvest_season": "Depends on the region; Yunnan's Dian Hong, for example, is picked from mid-March to mid-November, across spring, summer and autumn flushes.",
+  "appearance_dry": "Thin, tight, unbroken dark strips, in some regions with golden tips.",
+  "appearance_liquor": "Clear red to reddish amber, varying with region.",
+  "appearance_wet": "Whole, soft coppery-brown leaves.",
+  "taste_profile": "Varies by region: Keemun gongfu is known for rose and fruit aromas, while as a class these teas are smooth and rounded rather than brisk.",
+  "taste_tags": [
+    "malty",
+    "sweet",
+    "fruity",
+    "cocoa"
+  ],
+  "brewing": {
+    "grams": 5,
+    "water_ml": 120,
+    "temp_c": 90,
+    "steeps": 5,
+    "seconds": [
+      15,
+      15,
+      20,
+      30,
+      45
+    ],
+    "notes": "Works gongfu-style or in a Western pot (about 3 g per 250 ml for 3 minutes). Unbroken leaf is forgiving, but long steeps of a tippy lot flatten the aroma."
+  },
+  "caffeine_level": "medium",
+  "vintage_note": "Sold by region and grade rather than as 'congou' alone, usually from the current or recent year. As is usual for Chinese black teas, spring lots are priced highest and fresher tea has more lift; it keeps for a couple of years when sealed but is not generally bought to age.",
+  "description": "Congou is less a single tea than a family: Chinese black tea made as whole, carefully worked strips, as opposed to broken grades. The word comes from gongfu, 'skill', reaching English through the Hokkien pronunciation kang-hu.\n\nThe skill lies in shaping the leaf into thin tight strips without breaking it. Keeping the leaf whole slows extraction and gives a rounder cup than the small grades used in tea bags.\n\nWhat you taste depends on where it is from. Keemun gongfu from Anhui is famous for its rose and fruit aroma, Ning Hong comes from Xiushui in Jiangxi, and Dian Hong gongfu from Yunnan is made from large-leaf bushes. Brew it either way: short gongfu steeps show the aroma, and a Western pot gives a dependable everyday cup.\n\nOn a modern label you are more likely to see the region than the word congou, so shop by place and grade. Tight, even, unbroken strips are the first thing to look for.",
+  "history": "The word congou was used by nineteenth-century tea importers in America and Europe for Chinese black tea, and congou was the base of the English Breakfast blend of that century. Exactly which teas importers meant is not tidy: the term is linked both to Keemun gongfu and to the gongfu tea of Amoy and Chaozhou.\n\nA popular variety known as Panyong or Panyang Congou takes its name, in corrupted form, from Tanyang, a village in Fu'an, Fujian. It was exported to more than twenty countries and won a gold medal at the 1915 Panama–Pacific International Exposition; a state factory founded in 1958 still makes small amounts.\n\nOther regions have their own lines. Ningzhou gongfu from Xiushui in Jiangxi dates to between the Qianlong and Daoguang reigns of the Qing and served as tribute under Guangxu.",
+  "liquor_hex": "#A84F1E",
+  "leaf_hex": "#33241A",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Congou",
+    "https://ja.wikipedia.org/wiki/%E5%B7%A5%E5%A4%AB%E7%B4%85%E8%8C%B6",
+    "https://zh.wikipedia.org/wiki/%E7%A5%81%E9%97%A8%E7%BA%A2%E8%8C%B6",
+    "https://zh.wikipedia.org/wiki/%E5%AE%81%E7%BA%A2%E8%8C%B6",
+    "https://zh.wikipedia.org/wiki/%E6%BB%87%E7%BA%A2"
+  ],
+  "confidence": "medium",
+  "wikipedia_title": "Congou",
+  "wikipedia_scope": "exact",
+  "popularity": 3,
+  "images": []
+}

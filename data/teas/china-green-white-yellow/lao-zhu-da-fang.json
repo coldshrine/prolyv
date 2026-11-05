@@ -3,24 +3,64 @@
   "name_en": "Lao Zhu Da Fang (Dafang tea)",
   "name_native": "老竹大方",
   "name_romanized": "Lǎozhú Dàfāng",
-  "aliases": ["Dafang tea", "Da Fang", "Ding Gu Da Fang", "Laozhu Dafang", "Zhupu Dafang", "Shexian Dafang"],
+  "aliases": [
+    "Dafang tea",
+    "Da Fang",
+    "Ding Gu Da Fang",
+    "Laozhu Dafang",
+    "Zhupu Dafang",
+    "Shexian Dafang",
+    "Zhuye Da Fang",
+    "顶谷大方",
+    "竹铺大方",
+    "铁色大方"
+  ],
   "category": "green",
   "origin_country": "China",
-  "origin_region": "Anhui · Huangshan · Shexian · Laozhu Ling and Zhupu",
+  "origin_region": "Anhui · Huangshan · Shexian",
   "cultivar": "Shexian local landrace (Dafang group)",
   "processing": "Pan-fired flat green: shoots are fired, then pressed and smoothed against the hot wok with the palm much as for Longjing, but with a hotter, longer finish that leaves the leaf darker and faintly oily-looking.",
   "form": "loose",
   "harvest_season": "Spring, from early April to around Grain Rain; the top Ding Gu grade is picked earliest, the main crop later in April.",
-  "appearance_dry": "Flat, straight, broad blades in a dark bronze-green with a faint sheen, bigger and darker than Longjing.",
+  "appearance_dry": "Flat, straight, broad blades, yellowish green in light-fire lots and a dark bronze-green with a faint sheen in heavy-fire lots, bigger than Longjing.",
   "appearance_liquor": "Deep yellow-green, clear.",
   "appearance_wet": "Thick, broad bud-and-leaf sets, olive green.",
   "taste_profile": "Roasted chestnut and toasted bean with a full, sweet body and a warm, slightly roasty finish; stronger and rounder than Longjing.",
-  "taste_tags": ["roasted", "nutty", "sweet", "umami"],
-  "brewing": {"grams": 4, "water_ml": 120, "temp_c": 85, "steeps": 4, "seconds": [30, 30, 45, 70], "notes": "Gaiwan at 85 °C; this leaf is robust and likes a bit more heat than Longjing. Four steeps, and it is excellent brewed strong in a glass."},
+  "taste_tags": [
+    "roasted",
+    "nutty",
+    "sweet",
+    "umami"
+  ],
+  "brewing": {
+    "grams": 4,
+    "water_ml": 120,
+    "temp_c": 85,
+    "steeps": 4,
+    "seconds": [
+      30,
+      30,
+      45,
+      70
+    ],
+    "notes": "Gaiwan at 85 °C; this leaf is robust and likes a bit more heat than Longjing. Four steeps, and it is excellent brewed strong in a glass."
+  },
   "caffeine_level": "medium",
   "vintage_note": "Sold as the current year's spring harvest, with Ding Gu Da Fang (the earliest, finest grade from the highest gardens) above the standard Dafang grades; most of it is sold in Anhui or used as a scenting base for jasmine Hua Da Fang. Drink within the year, kept cold and sealed.",
   "description": "Lao Zhu Da Fang is the flat green of Shexian in Anhui's old Huizhou country, made on the ridge of Laozhu Ling and in the Zhupu valley, and it looks like a big, dark, slightly oily Longjing. Local pride holds that the Dafang style is older than Hangzhou's and that Longjing borrowed the flat-pressing technique; it is a claim worth hearing with a smile.\n\nThe making is Longjing's with the heat turned up: after firing, the leaf is pressed and smoothed against the hot wok with the palm, but the finishing pass is longer and hotter, which darkens the leaf to a bronze green and gives it a faint sheen the Chinese describe as iron-coloured. The leaf is also picked bigger, a bud with two leaves, so the finished tea is broad and sturdy.\n\nIn the cup it is the toasty cousin: roasted chestnut and toasted bean, a full sweet body and a warm roasty finish, with less of Longjing's delicacy and more of its comfort. It takes 85 °C and gives four steeps in a gaiwan, and it is one of the best Chinese greens to brew strong in a glass for an afternoon. People who like Longjing's chestnut note but find spring lots thin often end up preferring this.\n\nIt is sold as the spring crop of the current year. The top grade, Ding Gu Da Fang, is picked earliest from the highest gardens and costs real money; the standard grades are inexpensive, and a lot of Dafang leaf goes to scenting houses to become jasmine Hua Da Fang. Look for flat, even, bronze-green blades with a roasted-chestnut smell; dull brown or broken leaf is old or coarse.\n\nIt is also a good tea for people who like Japanese hojicha and want a Chinese green with the same warmth.",
   "wikipedia_title": "Dafang tea",
   "wikipedia_scope": "exact",
-  "popularity": 2
+  "popularity": 2,
+  "name_zh": "老竹大方",
+  "name_ru": "Лао Чжу Да Фан",
+  "history": "Da Fang comes from She County in Anhui's old Huizhou country, around Laozhu Ridge and Fuquan Mountain. It is a flat tea like Longjing and is made in a similar way. Some Chinese tea specialists think it was Longjing's ancestor; that remains an opinion, while the more accepted claim is that it was the earliest flat-leaf tea.\n\nThe usual story says it is named after a monk called Da Fang who lived on Laozhu peak in the late Song. That rests on tea-trade retelling rather than a known early text, and firm dates for the tea are scarce. Two styles are recognised by their drying: heavy-fire lots with a chestnut aroma and light-fire lots that are brisker and more delicate.",
+  "liquor_hex": "#CFC170",
+  "leaf_hex": "#5F6236",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Dafang_tea",
+    "https://www.viconyteas.com/directory/tea-encyclopedia/da-fang-tea.html",
+    "https://www.curioustea.com/?p=67005"
+  ],
+  "confidence": "medium",
+  "images": []
 }

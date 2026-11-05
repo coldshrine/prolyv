@@ -1,0 +1,60 @@
+{
+  "slug": "tengchong-oolong",
+  "name_en": "Tengchong Oolong",
+  "name_native": "腾冲乌龙茶",
+  "name_romanized": "Téngchōng Wūlóng",
+  "name_zh": "腾冲乌龙茶",
+  "name_ru": "Тэн Чун Улун",
+  "aliases": [
+    "腾冲乌龙",
+    "騰衝烏龍茶",
+    "Jibian Oolong",
+    "极边乌龙茶"
+  ],
+  "category": "oolong",
+  "origin_country": "China",
+  "origin_region": "Yunnan · Baoshan · Tengchong",
+  "cultivar": null,
+  "processing": "A semi-oxidised high-mountain oolong: picked, withered, cooled, tossed, then fixed by pan heat, rolled and dried.",
+  "form": "loose",
+  "harvest_season": "Not well recorded; high-mountain oolongs are usually valued most in spring and autumn.",
+  "appearance_dry": "Typical of high-mountain oolong: tight, dark green rolled leaf.",
+  "appearance_liquor": "Typical of light high-mountain oolong: clear golden yellow.",
+  "appearance_wet": "Whole leaves opening fully, with reddish edges.",
+  "taste_profile": "No independent tasting record is widely available; lightly oxidised high-mountain oolongs in general are floral and smooth with a clean sweetness.",
+  "taste_tags": [
+    "floral",
+    "sweet",
+    "creamy"
+  ],
+  "brewing": {
+    "grams": 7,
+    "water_ml": 110,
+    "temp_c": 95,
+    "steeps": 6,
+    "seconds": [
+      30,
+      20,
+      25,
+      35,
+      45,
+      60
+    ],
+    "notes": "Treat it like other rolled high-mountain oolong: a longer first steep to open the leaf, then shorter ones."
+  },
+  "caffeine_level": "medium",
+  "vintage_note": "Nothing tea-specific is recorded about its sale. Usual for light high-mountain oolong is the current year's harvest, drunk fresh and stored sealed, with the season stated on the pack.",
+  "description": "Tengchong Oolong is a registered geographical indication mark from Tengchong in western Yunnan, on the western side of the southern Gaoligong range. Yunnan is pu-erh country, so an oolong from here is something of a curiosity.\n\nThe best-known growing area is around Xinghua village in Mazhan township, near the volcanic park, where a high-mountain oolong tea scenic area has been set up. A local company promotes the tea under the Jibian name, with products such as Qingxin, Xueyu and Jin Oolong. Its own materials give about 2,500 m for a garden at Qingjing Mountain and about 2,100 m for Wuhe township.\n\nThe process follows the familiar high-mountain oolong steps of withering, cooling, tossing and fixing. Little independent description of the cup exists, so expect what is typical of light high-mountain oolong: floral, smooth and clean, and judge it for yourself.\n\nBrew it as you would a rolled oolong, with hot water and a slightly longer first steep. Ask whether the lot is the geographical indication product or simply tea from the area.",
+  "history": "Little is documented about when oolong growing started in Tengchong or who introduced it. The clearest markers are recent: the geographical indication mark, and the Mazhan oolong scenic area, rated a national AAA site in 2015.",
+  "liquor_hex": "#D8BE5C",
+  "leaf_hex": "#4E5E38",
+  "sources": [
+    "https://milulu.com.cn/techan/17513.html",
+    "https://www.yunnanexploration.com/?p=15683"
+  ],
+  "confidence": "low",
+  "wikipedia_title": null,
+  "wikipedia_scope": "none",
+  "popularity": 2,
+  "images": []
+}

@@ -1,0 +1,55 @@
+{
+  "slug": "xia-sang-ju",
+  "name_en": "Xia Sang Ju",
+  "name_native": "夏桑菊",
+  "name_romanized": "Xià Sāng Jú",
+  "name_zh": "夏桑菊",
+  "name_ru": "Ся Сан Цзюй",
+  "aliases": [
+    "Xiasangju",
+    "夏桑菊颗粒"
+  ],
+  "category": "tisane",
+  "origin_country": "China",
+  "origin_region": "Guangdong",
+  "cultivar": null,
+  "processing": "A blend of three dried herbs: prunella, mulberry leaf and chrysanthemum. It is decocted in water or, most commonly today, sold as ready-to-dissolve packets.",
+  "form": "other",
+  "harvest_season": "Not applicable: a blend made all year, drunk especially in hot weather.",
+  "appearance_dry": "Usually fine pale brown granules in small packets; as loose herbs, a mix of spikes, leaf and yellow flowers.",
+  "appearance_liquor": "Typically a clear amber brown.",
+  "appearance_wet": "Not applicable for the granules; loose herbs soften to a dark brown mix.",
+  "taste_profile": "Fragrant and sweet, with chrysanthemum on top, a far easier drink than the hard bitter liangcha.",
+  "taste_tags": [
+    "sweet",
+    "herbal",
+    "floral"
+  ],
+  "brewing": {
+    "grams": 10,
+    "water_ml": 250,
+    "temp_c": 95,
+    "steeps": 1,
+    "seconds": [
+      120
+    ],
+    "notes": "For packets: dissolve in hot water, and follow the amount on the box. Loose herbs want a simmer instead."
+  },
+  "caffeine_level": "none",
+  "vintage_note": "Not sold by year: a boxed product of small dated packets found in East Asian groceries, or a counter drink at liangcha shops. Check the best-before date, and see whether sugar has been added.",
+  "description": "Xia Sang Ju is a three-herb Chinese drink named after its parts: xia for prunella (xia ku cao), sang for mulberry leaf, and ju for chrysanthemum. It works as both a common liangcha and a recognised remedy.\n\nThe usual way to meet it now is a box of instant packets from an Asian grocery, rather than a simmering pot. Herb shops and liangcha counters still offer it freshly made.\n\nIt smells of chrysanthemum and tastes sweet, so it suits people who cannot face 24 Flavors. It is pleasant chilled in summer.\n\nFolk use is for colds with heat signs and sore throats, and for cooling off in summer. Prunella has shown immune and liver effects in animal tests, so keep it occasional rather than daily.",
+  "history": "The drink traces back to Sang Ju Yin, a formula from the Qing physician Wu Jutong's Wenbing Tiaobian, which is credited with a role during an 1814 epidemic in Jiangsu and Zhejiang. Xia Sang Ju is a later derived drink, and when exactly it took its current form is not clearly recorded.\n\nIn 2007 Hong Kong University of Science and Technology researchers reported that extracts blocked flu viruses from entering cells in the laboratory. That was laboratory work, not evidence that a cup prevents flu.",
+  "liquor_hex": "#B07F3A",
+  "leaf_hex": "#A98A5C",
+  "sources": [
+    "https://zh.wikipedia.org/wiki/%E5%A4%8F%E6%A1%91%E8%8F%8A",
+    "https://en.wikipedia.org/wiki/Xia_Sang_Ju",
+    "https://zh.wikipedia.org/wiki/%E6%B6%BC%E8%8C%B6",
+    "https://www.wikidata.org/wiki/Q8044074"
+  ],
+  "confidence": "medium",
+  "wikipedia_title": "Xia Sang Ju",
+  "wikipedia_scope": "exact",
+  "popularity": 2,
+  "images": []
+}

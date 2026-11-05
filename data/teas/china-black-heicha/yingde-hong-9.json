@@ -3,7 +3,14 @@
   "name_en": "Yingde Black (Yinghong No. 9)",
   "name_native": "英红九号",
   "name_romanized": "Yīnghóng Jiǔhào",
-  "aliases": ["Yingde Hong Cha", "Ying Hong No. 9", "Yinghong 9", "Yingteh black tea", "Guangdong black tea", "英德红茶"],
+  "aliases": [
+    "Yingde Hong Cha",
+    "Ying Hong No. 9",
+    "Yinghong 9",
+    "Yingteh black tea",
+    "Guangdong black tea",
+    "英德红茶"
+  ],
   "category": "black",
   "origin_country": "China",
   "origin_region": "Guangdong · Qingyuan · Yingde",
@@ -15,13 +22,45 @@
   "appearance_liquor": "Deep bright red with a golden ring, turning cloudy as it cools.",
   "appearance_wet": "Large, thick copper-red leaves with golden buds.",
   "taste_profile": "Thick and sweet, with cocoa, caramel and honey, a sweet-potato warmth and a gentle briskness that holds up milk without turning harsh.",
-  "taste_tags": ["cocoa", "sweet", "honey", "malty", "brisk"],
-  "brewing": {"grams": 5, "water_ml": 110, "temp_c": 92, "steeps": 7, "seconds": [10, 10, 15, 20, 30, 45, 60], "notes": "Gaiwan with water a little under the boil for the gongfu grades. Western-style: 3 g per 250 ml, 3 minutes; it is the Chinese black most at home with milk, and locals make milk tea from it."},
+  "taste_tags": [
+    "cocoa",
+    "sweet",
+    "honey",
+    "malty",
+    "brisk"
+  ],
+  "brewing": {
+    "grams": 5,
+    "water_ml": 110,
+    "temp_c": 92,
+    "steeps": 7,
+    "seconds": [
+      10,
+      10,
+      15,
+      20,
+      30,
+      45,
+      60
+    ],
+    "notes": "Gaiwan with water a little under the boil for the gongfu grades. Western-style: 3 g per 250 ml, 3 minutes; it is the Chinese black most at home with milk, and locals make milk tea from it."
+  },
   "caffeine_level": "medium",
   "vintage_note": "Sold by the current year's harvest and flush – spring first, then summer and autumn – with 'Jin Hao' golden-tip lots from the earliest spring picking at the top. Drink within a year or two; it is not aged.",
-  "description": "Yingde black is Guangdong's answer to Yunnan: a big-leaf, tippy, full-bodied black tea from the hills around Yingde, north of Guangzhou. The industry is young – it was set up in the late 1950s on state farms planted with Yunnan big-leaf seed – and Yinghong No. 9 is the cultivar that made it, selected from those Yunnan seedlings by the provincial tea research institute and registered in the 1980s. Today the cultivar name is on every box, and 'Yinghong No. 9' has become shorthand for the tea itself.\n\nThe leaf is withered, rolled firmly, oxidised in warm humid rooms and dried; both whole-leaf gongfu and broken grades are made, the latter a legacy of the export trade. The cultivar is unusually rich in the compounds that give black tea its colour and body, which is why a cup of Yingde goes cloudy as it cools – 'cream down', the sign of a high-theaflavin tea – and why it stands up to milk better than almost any other Chinese black.\n\nBrewed gongfu it is thick and sweet, with cocoa, caramel, honey and a sweet-potato warmth, and a gentle briskness rather than bite; it gives six or seven steeps. Western-style it makes a rich pot, and in Guangdong it is the base for a local style of milk tea. People who find Dian Hong a touch soft usually like Yingde for the extra structure.\n\nIt is sold by the current harvest and flush: the subtropical climate gives pickings from late winter to November, and spring lots are the ones to buy. Grades run from the all-bud 'Jin Hao' (golden tip) down through numbered gongfu grades to broken tea. Yingde is a protected name but a large area, so a producer name helps; look for fat, glossy, well-twisted leaf and a sweet, cocoa-like dry aroma.\n\nIf you like it, taste it against a Dian Hong gongfu: the same big-leaf ancestry, two different provinces, and a surprisingly different cup.",
+  "description": "Yingde black is Guangdong's answer to Yunnan: a big-leaf, tippy, full-bodied black tea from the hills around Yingde, north of Guangzhou. The industry is young, built in the mid-twentieth century on Yunnan big-leaf stock, and Yinghong No. 9 is the cultivar that made it, developed from that stock by the provincial tea research institute. Today the cultivar name is on every box, and 'Yinghong No. 9' has become shorthand for the tea itself.\n\nThe leaf is withered, rolled firmly, oxidised in warm humid rooms and dried; both whole-leaf gongfu and broken grades are made, the latter a legacy of the export trade. The cultivar is unusually rich in the compounds that give black tea its colour and body, which is why a cup of Yingde goes cloudy as it cools – 'cream down', the sign of a high-theaflavin tea – and why it stands up to milk better than almost any other Chinese black.\n\nBrewed gongfu it is thick and sweet, with cocoa, caramel, honey and a sweet-potato warmth, and a gentle briskness rather than bite; it gives six or seven steeps. Western-style it makes a rich pot, and in Guangdong it is the base for a local style of milk tea. People who find Dian Hong a touch soft usually like Yingde for the extra structure.\n\nIt is sold by the current harvest and flush: the subtropical climate gives pickings from late winter to November, and spring lots are the ones to buy. Grades run from the all-bud 'Jin Hao' (golden tip) down through numbered gongfu grades to broken tea. Yingde is a protected name but a large area, so a producer name helps; look for fat, glossy, well-twisted leaf and a sweet, cocoa-like dry aroma.\n\nIf you like it, taste it against a Dian Hong gongfu: the same big-leaf ancestry, two different provinces, and a surprisingly different cup.",
   "wikipedia_title": "Black tea",
   "wikipedia_scope": "umbrella",
   "popularity": 2,
-  "sources_note": "No English Wikipedia article for Yingde black tea exists at time of writing ('Yingde black tea' is missing; 'Yingde' is the city). Cultivar registration year commonly given as 1988; stated as 'the 1980s'."
+  "sources_note": "No English Wikipedia article for Yingde black tea exists at time of writing ('Yingde black tea' is missing; 'Yingde' is the city). Cultivar registration year commonly given as 1988; stated as 'the 1980s'.",
+  "name_zh": "英红九号",
+  "name_ru": "Ин Хун Цзю Хао",
+  "history": "Yingde black tea is a twentieth-century creation from Guangdong, and it is a protected geographical indication; Yinghong No. 9 is the cultivar regarded as its best expression. Local accounts also say Yingde black was served to the British royal household in the 1960s, a claim repeated often and hard to check.\n\nA group standard records the breeding: the Tea Research Institute of the Guangdong Academy of Agricultural Sciences developed No. 9 by single-plant selection from a Yunnan big-leaf population between 1961 and 1986, and it was certified as a provincial variety in 1988.",
+  "liquor_hex": "#9E3518",
+  "leaf_hex": "#3D2A1C",
+  "sources": [
+    "https://zh.wikipedia.org/wiki/%E8%8B%B1%E5%BE%B7%E5%B8%82",
+    "https://www.ttbz.org.cn/upload/file/20210715/6376196895935493353761940.pdf"
+  ],
+  "confidence": "medium",
+  "images": []
 }

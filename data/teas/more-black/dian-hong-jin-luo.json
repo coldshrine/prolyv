@@ -1,0 +1,90 @@
+{
+  "slug": "dian-hong-jin-luo",
+  "name_en": "Dian Hong Jin Luo (Golden Snail)",
+  "name_native": "滇红金螺",
+  "name_romanized": "Diānhóng Jīnluó",
+  "name_zh": "滇红金螺",
+  "name_ru": "Дянь Хун Цзинь Ло",
+  "aliases": [
+    "Dian Hong Jin Luo",
+    "Dian Hong Jinluo",
+    "Yunnan Golden Tippy Snail",
+    "Yunnan Pure Bud Golden Snail",
+    "Golden Snail",
+    "Red Dragon (Golden Snail)",
+    "Red Spiral (Dian Hong)",
+    "金螺",
+    "红螺",
+    "滇紅金螺",
+    "Красный дракон (золотая улитка)",
+    "Красная спираль"
+  ],
+  "category": "black",
+  "origin_country": "China",
+  "origin_region": "Yunnan · Pu'er · Simao",
+  "cultivar": "Yunnan Da Ye (large-leaf)",
+  "processing": "Hand-picked buds of Yunnan large-leaf tea are rolled by hand into small coils and made as black tea.",
+  "form": "loose",
+  "harvest_season": "Not fixed by any standard; pure-bud lots depend on spring and other flushes that give plump buds, and spring is usually the most prized, as with other Dian Hong.",
+  "appearance_dry": "Small, tight golden snails of pure bud, fuzzy to the touch.",
+  "appearance_liquor": "Clear amber.",
+  "appearance_wet": "Plump, soft buds of golden copper, slowly uncoiling.",
+  "taste_profile": "Sweet honey and a smooth texture, with a light fruity aroma and a long, pleasant finish.",
+  "taste_tags": [
+    "honey",
+    "sweet",
+    "fruity"
+  ],
+  "brewing": {
+    "grams": 5,
+    "water_ml": 110,
+    "temp_c": 90,
+    "steeps": 6,
+    "seconds": [
+      10,
+      12,
+      15,
+      20,
+      30,
+      45
+    ],
+    "notes": "Western style, makers suggest a heaped teaspoon per 250 to 300 ml at 95 to 100 °C for 3 to 5 minutes, then decanting. Gongfu with cooler water is gentler on the buds."
+  },
+  "caffeine_level": "medium",
+  "vintage_note": "Sold by harvest year, like most fine Dian Hong, and best within a couple of years while the honey aroma is lively. Sellers often distinguish pure-bud lots from one-bud-one-leaf versions, so check which you are buying.",
+  "description": "Dian Hong Jin Luo is a Yunnan black tea with a shape you remember. Jin Luo means golden snail, and that's what the coiled buds look like. It comes from Simao in Pu'er, in south-west Yunnan.\n\nIt uses buds of the same large-leaf variety that goes into much of the region's pu-erh. Hand-rolling turns them into little coils, and because it is all bud, the coils come out gold, not the near-black of ordinary black tea.\n\nThe cup is amber, honey-sweet and smooth, with a light fruitiness and a finish that lingers. Pour off the tea promptly when brewing longer Western steeps; decanting softens any bitterness.\n\nWhat Western shops call Yunnan Pure Bud Golden Snail is this tea. A very similar tea made with one leaf and a bud also exists, so look closely: more gold, more bud.\n\nCompare it with a Bi Luo Chun style Hong Cha to see how much difference the bud-to-leaf ratio makes.",
+  "history": "Little is documented about who first made Jin Luo or when. It belongs to the wider family of Dian Hong, and the snail shape seems to be a modern refinement in which makers applied hand-rolling skills to pure buds, though this is an impression, not a record.",
+  "liquor_hex": "#C07A2E",
+  "leaf_hex": "#B8862E",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Dian_Hong_Jin_Luo",
+    "https://www.wikidata.org/wiki/Q125514331",
+    "https://what-cha.com/collections/black-tea"
+  ],
+  "confidence": "medium",
+  "wikipedia_title": "Dian Hong Jin Luo",
+  "wikipedia_scope": "exact",
+  "popularity": 3,
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/dd/Dianhong_Jinluo.jpg/1280px-Dianhong_Jinluo.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/dd/Dianhong_Jinluo.jpg/330px-Dianhong_Jinluo.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Dianhong_Jinluo.jpg",
+      "author": "Shwabb1",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "kind": "dry_leaf",
+      "alt": "Small heap of curled golden and dark Dianhong Jinluo snails on a pale surface"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9a/Dianhong-Jinluo_tea.jpg/1280px-Dianhong-Jinluo_tea.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9a/Dianhong-Jinluo_tea.jpg/330px-Dianhong-Jinluo_tea.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Dianhong-Jinluo_tea.jpg",
+      "author": "Fumikas Sagisavas",
+      "license": "CC0",
+      "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "kind": "dry_leaf",
+      "alt": "Close view of many tightly curled golden and dark Dianhong Jinluo leaves"
+    }
+  ]
+}

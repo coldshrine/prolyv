@@ -1,0 +1,60 @@
+{
+  "slug": "jietan-cha",
+  "name_en": "Jietan Cha",
+  "name_native": "碣滩茶",
+  "name_romanized": "Jiétān Chá",
+  "name_zh": "碣滩茶",
+  "name_ru": "Цзе Тань Ча",
+  "aliases": [
+    "Yuanling Jietan Cha",
+    "沅陵碣滩茶",
+    "Jietan Tea",
+    "碣灘茶"
+  ],
+  "category": "green",
+  "origin_country": "China",
+  "origin_region": "Hunan · Huaihua · Yuanling",
+  "cultivar": null,
+  "processing": "Green tea shaped into tight, fine strips. The exact method is not widely published; red and dark teas are also sold under the Jietan name.",
+  "form": "loose",
+  "harvest_season": "Spring, as is usual for a Hunan famous green; exact picking dates are not widely published.",
+  "appearance_dry": "Typically tight, fine strips of a glossy green.",
+  "appearance_liquor": "Typically yellow-green and bright.",
+  "appearance_wet": "Tender and even, as is typical of a spring green at this grade.",
+  "taste_profile": "Usually described as elegant in aroma and fresh, mellow and sweet in taste.",
+  "taste_tags": [
+    "sweet",
+    "floral",
+    "vegetal"
+  ],
+  "brewing": {
+    "grams": 3,
+    "water_ml": 150,
+    "temp_c": 85,
+    "steeps": 3,
+    "seconds": [
+      60,
+      75,
+      100
+    ],
+    "notes": "General settings for a fine-stripped green. Pull back on time if the cup turns sharp."
+  },
+  "caffeine_level": "medium",
+  "vintage_note": "The green is normally sold as the current year's spring harvest and drunk within the year, as with other Hunan greens. Red and dark versions now share the name, and those follow their own rules, so read the label for the tea type.",
+  "description": "Jietan Cha is the green tea of Yuanling County in western Hunan. It is one of the teas the province lists among its best-known products.\n\nThe finished leaf is usually described as tight and fine with a glossy green colour, and the cup as elegant in aroma and fresh, mellow and sweet.\n\nBrew it as a straightforward spring green. The sweetness shows best with moderate water and steeps that are not too long.\n\nWhen buying, check for Yuanling origin and confirm you are getting the green, because the name now covers other tea types too.",
+  "history": "Local accounts call it a tribute tea from the mid-Tang, and a Tang-era listing of Jietan among Hunan teas is repeated in Chinese tea writing. These claims are hard to check.\n\nThe best-known story, told in tea writing and best taken as a story, has Japanese prime minister Tanaka Kakuei praising it during his 1972 visit to China, which earned it the nickname tea of Sino-Japanese friendship. The name is reported to have received geographical indication protection in 2011.",
+  "liquor_hex": "#D3CC7C",
+  "leaf_hex": "#5F7238",
+  "sources": [
+    "https://zh.wikipedia.org/wiki/%E6%B9%96%E5%8D%97%E7%9C%81",
+    "https://www.wyxgc.com/sj1/new1.asp?news_id=508",
+    "https://www.chinanews.com.cn/cj/2023/05-08/10003782.shtml",
+    "https://thetea-main-en.pages.dev/article/jietan-heicha",
+    "https://thetea-main-en.pages.dev/article/jietan-hongcha"
+  ],
+  "confidence": "low",
+  "wikipedia_title": null,
+  "wikipedia_scope": "none",
+  "popularity": 3,
+  "images": []
+}

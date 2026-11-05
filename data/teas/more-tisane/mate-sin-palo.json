@@ -1,0 +1,66 @@
+{
+  "slug": "mate-sin-palo",
+  "name_en": "Yerba Mate sin Palo",
+  "name_native": "yerba mate sin palo",
+  "name_romanized": null,
+  "name_zh": "去梗马黛茶",
+  "name_ru": "Мате без палочек (син пало)",
+  "aliases": [
+    "Despalada",
+    "Yerba despalada",
+    "Sin palo",
+    "Мате син пало"
+  ],
+  "category": "tisane",
+  "origin_country": "Argentina",
+  "origin_region": "Misiones",
+  "cultivar": null,
+  "processing": "Dried, milled yerba mate with most stem removed. Argentina's food code requires at least 90% leaf and allows no more than 10% stem.",
+  "form": "loose",
+  "harvest_season": "Sold year-round. Mate is generally harvested in autumn and winter, the usual season for the plant.",
+  "appearance_dry": "Fine olive-green leaf and powder with few or no visible stems.",
+  "appearance_liquor": "Cloudy, deeper yellow-green than a stemmed yerba at the same dose.",
+  "appearance_wet": "A dense, muddy green paste of fine leaf.",
+  "taste_profile": "More concentrated from the first sips, with more body and bitterness than yerba with stems.",
+  "taste_tags": [
+    "bitter",
+    "herbal",
+    "vegetal",
+    "grassy"
+  ],
+  "brewing": {
+    "grams": 40,
+    "water_ml": 500,
+    "temp_c": 70,
+    "steeps": 10,
+    "seconds": [
+      10,
+      10,
+      10,
+      10,
+      10,
+      10,
+      10,
+      10,
+      10,
+      10
+    ],
+    "notes": "Use a bombilla with small holes, since the fine cut clogs or passes through wide slots. Stay at the lower end of 60 to 80 C to keep bitterness in check."
+  },
+  "caffeine_level": "medium",
+  "vintage_note": "Not sold by year. It comes in ordinary bags with a packing or best-before date, sometimes as a premium or stronger line of a familiar brand. No vintage market exists, so simply buy it within date and keep it dry.",
+  "description": "Sin palo, also called despalada, is yerba with the stems largely taken out. For drinkers who find standard yerba too gentle, this is the usual step up.\n\nArgentina's food code sets the line: at least 90% leaf and no more than 10% stem. With so much leaf in the mix, each gourd is stronger at the same dose.\n\nThe flavour comes on quickly, with more body and more bitterness from the first sips. Advice on how long it lasts conflicts, and it can fade sooner if badly prepared. Build the gourd carefully and keep the water below boiling.\n\nThe fine cut needs a bombilla with small holes, or you will drink powder. Newcomers may want a smaller dose at first.",
+  "history": "Little is documented about when stem-free yerba became a separate commercial category. Its background is the general history of mate: Guaraní and Tupí use, Spanish colonial trade, and Argentine and Brazilian plantations from the late 19th century.\n\nThe category is now set out in Argentina's food code, where despalada is defined by its stem limit.",
+  "liquor_hex": "#9CA030",
+  "leaf_hex": "#77853A",
+  "sources": [
+    "https://www.cronista.com/informacion-gral/yerba-mate-con-palo-o-sin-palo-cual-es-la-diferencia-y-que-opcion-es-mejor-para-elegir/",
+    "https://www.diariouno.com.ar/sociedad/toma-aire-al-saber-la-diferencia-la-yerba-mate-palo-y-la-yerba-mate-despalada-n1328690",
+    "https://www.matemundo.co.uk/Yerba-mate-despalada-and-elaborada-discover-the-differences-and-choose-the-perfect-mate-tea-for-you-blog-eng-1736839530.html"
+  ],
+  "confidence": "medium",
+  "wikipedia_title": "Mate (drink)",
+  "wikipedia_scope": "umbrella",
+  "popularity": 3,
+  "images": []
+}

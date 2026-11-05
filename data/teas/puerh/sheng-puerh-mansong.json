@@ -3,10 +3,16 @@
   "name_en": "Mansong Sheng Pu-erh",
   "name_native": "曼松生普洱",
   "name_romanized": "Mànsōng Shēng Pǔ'ěr",
-  "aliases": ["Man Song", "Mansong tribute tea", "Mansong gong cha", "Mansong Wangzishan", "曼松贡茶"],
+  "aliases": [
+    "Man Song",
+    "Mansong tribute tea",
+    "Mansong gong cha",
+    "Mansong Wangzishan",
+    "曼松贡茶"
+  ],
   "category": "sheng",
   "origin_country": "China",
-  "origin_region": "Yunnan · Xishuangbanna · Mengla · Xiangming · Yibang · Mansong",
+  "origin_region": "Yunnan · Xishuangbanna · Yibang · Mansong",
   "cultivar": "Yibang small-leaf population (xiaoyezhong), old trees and newer replantings around Mansong",
   "processing": "Raw pu-erh: pan-fired, hand-rolled and sun-dried maocha, pressed into small cakes or sold loose; the tiny harvest is handled by hand from start to finish.",
   "form": "cake",
@@ -15,13 +21,48 @@
   "appearance_liquor": "Pale, almost champagne gold, perfectly clear.",
   "appearance_wet": "Small, fine, tender yellow-green leaves, the smallest leaf of any famous pu-erh.",
   "taste_profile": "Delicate and persistent: honey, orchid and a cool sugarcane sweetness, almost no bitterness, a light silky body and an aftertaste that keeps rising in the throat long after a steep; the price is for the finish, not the power.",
-  "taste_tags": ["honey", "floral", "sweet", "creamy"],
-  "brewing": {"grams": 6, "water_ml": 100, "temp_c": 95, "steeps": 12, "seconds": [8, 6, 8, 10, 15, 20, 30, 40, 60, 90, 120, 180], "notes": "Rinse once, very briefly, and smell the lid. Small leaf, so use a touch less tea and flash the early steeps; porcelain only, and do not waste it on a distracted session."},
+  "taste_tags": [
+    "honey",
+    "floral",
+    "sweet",
+    "creamy"
+  ],
+  "brewing": {
+    "grams": 6,
+    "water_ml": 100,
+    "temp_c": 95,
+    "steeps": 12,
+    "seconds": [
+      8,
+      6,
+      8,
+      10,
+      15,
+      20,
+      30,
+      40,
+      60,
+      90,
+      120,
+      180
+    ],
+    "notes": "Rinse once, very briefly, and smell the lid. Small leaf, so use a touch less tea and flash the early steeps; porcelain only, and do not waste it on a distracted session."
+  },
   "caffeine_level": "high",
   "vintage_note": "Sold by spring harvest year and by tree class, and the class is the whole story: old-tree Mansong is a few hundred kilograms a year by most accounts and is sold in small lots and small cakes at prices rivalling Lao Ban Zhang and Bingdao, while 'small tree' Mansong from replantings since the 2000s is the only version most people will meet. The name was revived around the mid-2000s, so there is essentially no aged Mansong on the market and the few 2008–2015 old-tree lots are collector tea; what you can buy is young (1–5 years), 2015–2025, dry-stored. The year matters less than being sure of the trees.",
   "description": "Mansong is a small village on the Yibang mountain in Mengla County, and in the Qing dynasty its tea was the tribute sent to the imperial court; the hill called Wangzishan, the Prince's Mountain, is the most famous of its gardens. That history and a tiny old-tree harvest make it, gram for gram, one of the most expensive teas in China.\n\nThe trees are the Yibang small-leaf type, growing in red soil at around 1,300–1,400 m, and most of the old gardens were lost in the twentieth century, so what remains is a scattering of ancient trees plus extensive replanting since the 2000s. Processing is careful hand work: light firing, gentle rolling, sun drying and loose pressing, because nobody wants to break a leaf that costs this much.\n\nIn the cup Mansong is quiet at first: honey, orchid and a cool sugarcane sweetness, a silky light body and almost no bitterness. What sets it apart is the finish, a sweetness that climbs in the throat and keeps going for minutes, and a session that stays clean and perfumed past twelve steeps. Brewed hard it tastes like nothing much, which is the usual disappointment of people who expect a famous tea to shout.\n\nSold by spring year and tree class, in small cakes and loose lots. The honest market distinction is between old-tree Mansong (minuscule quantity, eye-watering price) and small-tree Mansong (young plantings, still fine-leafed and fragrant, far cheaper); everything else labelled Mansong is a hopeful Yibang or an outright invention. Buy it only from someone who can say which trees and which year, and treat it as a taste rather than a stock.\n\nIf you want the character without the lottery, old-street Yibang gushu is the same family at a fraction of the price.",
   "wikipedia_title": "Pu'er tea",
   "wikipedia_scope": "umbrella",
   "popularity": 2,
-  "sources_note": "The 'few hundred kilograms a year' figure for old-tree Mansong is a widely repeated trade estimate rather than an audited number; Qing tribute status is documented but details vary by source."
+  "sources_note": "The 'few hundred kilograms a year' figure for old-tree Mansong is a widely repeated trade estimate rather than an audited number; Qing tribute status is documented but details vary by source.",
+  "name_zh": "曼松生普洱",
+  "name_ru": "Мань Сун Шэн Пуэр",
+  "history": "Mansong is a small place in the Yibang area of Mengla County, and the usual story says its tea was sent to the Qing court as tribute, with Wangzishan, the Prince's Mountain, as its best-known garden. The details of that tribute differ from one telling to the next.\n\nWhat is clear is that the name is now far larger than the harvest. Most Mansong on the market comes from younger plantings, the old trees are few, and any quantity quoted for them is a trade estimate.",
+  "liquor_hex": "#E8D48E",
+  "leaf_hex": "#3C3F2A",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Pu%27er_tea"
+  ],
+  "confidence": "low",
+  "images": []
 }

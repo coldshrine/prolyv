@@ -3,10 +3,19 @@
   "name_en": "Hawaii-Grown Oolong",
   "name_native": null,
   "name_romanized": null,
-  "aliases": ["Hawaiian oolong", "Hawaii grown tea", "Big Island tea", "Volcano tea", "Hamakua tea", "Hawaiian tea", "Mauna Kea oolong", "Hawaii-grown tea"],
+  "aliases": [
+    "Hawaiian oolong",
+    "Hawaii grown tea",
+    "Big Island tea",
+    "Volcano tea",
+    "Hamakua tea",
+    "Hawaiian tea",
+    "Mauna Kea oolong",
+    "Hawaii-grown tea"
+  ],
   "category": "oolong",
   "origin_country": "United States",
-  "origin_region": "Hawaii · Island of Hawaii (Volcano, Puna and the Hāmākua coast), with smaller gardens on Maui and Kauai",
+  "origin_region": "Hawaii · Island of Hawaii",
   "cultivar": "Mixed: seed-grown and clonal plants of Chinese, Taiwanese and Japanese origin trialled by the University of Hawaii and the small farms",
   "processing": "Hand-made in very small batches: withered on the farm, lightly bruised and oxidised, pan-fired and rolled either into twisted leaf or loose balls, then dried; roasting is unusual. The same farms make black, green and white teas from the same bushes.",
   "form": "loose",
@@ -15,13 +24,43 @@
   "appearance_liquor": "Pale gold to light amber, clear.",
   "appearance_wet": "Whole, soft, mid-sized leaves with reddish bruised edges.",
   "taste_profile": "Soft and floral with tropical fruit (guava, papaya), honey and a gentle green sweetness, a smooth light body and a clean finish; delicate rather than deep.",
-  "taste_tags": ["floral", "fruity", "honey", "sweet"],
-  "brewing": {"grams": 5, "water_ml": 110, "temp_c": 90, "steeps": 6, "seconds": [25, 20, 25, 35, 50, 70], "notes": "Gongfu style with water a little below the boil shows the florals best; it is light, so do not under-leaf. A Western pot at 2.5 g per 200 ml for 3 minutes also works."},
+  "taste_tags": [
+    "floral",
+    "fruity",
+    "honey",
+    "sweet"
+  ],
+  "brewing": {
+    "grams": 5,
+    "water_ml": 110,
+    "temp_c": 90,
+    "steeps": 6,
+    "seconds": [
+      25,
+      20,
+      25,
+      35,
+      50,
+      70
+    ],
+    "notes": "Gongfu style with water a little below the boil shows the florals best; it is light, so do not under-leaf. A Western pot at 2.5 g per 200 ml for 3 minutes also works."
+  },
   "caffeine_level": "medium",
   "vintage_note": "Sold directly by the farms in tiny lots of 25–50 g, usually with the harvest month and year, at some of the highest prices per gram of any tea; there is no vintage market, and each lot is simply the latest picking. Drink within a year or two; the farms also sell by subscription and at island farmers' markets.",
-  "description": "Tea in Hawaii is a new crop with an old pedigree: plants were trialled on the islands in the nineteenth century, but commercial tea only began around 2000, when the collapse of sugar and the University of Hawaii's trials pushed a handful of growers on the Big Island to plant tea on the volcanic slopes around Volcano, in Puna and along the Hāmākua coast. Today there are a few dozen small farms, most under a couple of acres, picking and processing by hand.\n\nOolong is the style most of them lead with, partly because the warm climate and the mixed Chinese and Taiwanese plant material suit it and partly because it sells. The teas are lightly oxidised and hand-rolled in tiny batches, often by the farmer at the kitchen table, and the same bushes give black, green and white teas depending on the week's mood and the buyer's request. Volcanic soil, elevation of a few hundred to over a thousand metres and rainforest humidity are the terroir.\n\nThe cup is soft and floral with tropical-fruit notes, honey and a green sweetness, light in body and clean at the finish; it is a gentle tea, and judged against a Taiwanese high-mountain oolong it is less deep and more expensive. Judged as a hand-made tea from a place where no tea existed a generation ago, it is charming. Brew it gongfu style with slightly cooler water and enough leaf.\n\nIt is sold almost entirely by the farms themselves, online, by subscription and at island markets, in 25–50 g packs labelled with the harvest month, and it costs what tiny-scale hand labour in the United States costs. Hawaii has a 'Hawaii-grown' labelling rule for tea, so a pack that says it was grown there should contain only island leaf; 'Hawaiian' tea blends sold in resort shops are usually imported tea with island fruit flavouring.\n\nIf you want to taste the islands, buy an oolong and a black from the same farm and brew them side by side; and for context, compare with a Zealong oolong from New Zealand, the other new-world tea estate with a similar price tag.",
+  "description": "Tea in Hawaii is a new crop with an old pedigree: plants were trialled on the islands in the nineteenth century, but commercial tea only began around 2000, when University of Hawaii trials and a USDA researcher's test plots encouraged a handful of growers on the Big Island to plant tea on the volcanic slopes around Volcano, in Puna and along the Hāmākua coast. Today there are around thirty small farms, most under a couple of acres, picking and processing by hand.\n\nOolong is the style most of them lead with, partly because the warm climate and the mixed Chinese and Taiwanese plant material suit it and partly because it sells. The teas are lightly oxidised and hand-rolled in tiny batches, often by the farmer at the kitchen table, and the same bushes give black, green and white teas depending on the week's mood and the buyer's request. Volcanic soil, elevation of a few hundred to over a thousand metres and rainforest humidity are the terroir.\n\nThe cup is soft and floral with tropical-fruit notes, honey and a green sweetness, light in body and clean at the finish; it is a gentle tea, and judged against a Taiwanese high-mountain oolong it is less deep and more expensive. Judged as a hand-made tea from a place with no tea industry a generation ago, it is charming. Brew it gongfu style with slightly cooler water and enough leaf.\n\nIt is sold almost entirely by the farms themselves, online, by subscription and at island markets, in 25–50 g packs labelled with the harvest month, and it costs what tiny-scale hand labour in the United States costs. A pack that names its farm and says the tea was grown in Hawaii is the one to trust; 'Hawaiian' tea blends sold in resort shops are usually imported tea with island fruit flavouring.\n\nIf you want to taste the islands, buy an oolong and a black from the same farm and brew them side by side; and for context, compare with a Zealong oolong from New Zealand, the other new-world tea estate with a similar price tag.",
   "wikipedia_title": "Tea production in the United States",
   "wikipedia_scope": "umbrella",
   "popularity": 1,
-  "sources_note": "Hawaiian tea is a loose category of small-farm teas and the card describes typical oolongs rather than a single product. The 'Hawaii-grown' labelling rule (requiring 100% Hawaii-grown leaf for that label) is from memory and should be checked. Numbers of farms and elevations are approximate."
+  "sources_note": "Hawaiian tea is a loose category of small-farm teas and the card describes typical oolongs rather than a single product. The 'Hawaii-grown' labelling rule (requiring 100% Hawaii-grown leaf for that label) is from memory and should be checked. Numbers of farms and elevations are approximate.",
+  "name_zh": "夏威夷乌龙茶",
+  "name_ru": "Гавайский улун",
+  "history": "Tea is a young craft crop in Hawaii, grown by very small farms on the Island of Hawaii, with smaller gardens on Maui and Kauai. Plant material is mixed, of Chinese, Taiwanese and Japanese origin.\n\nThis is a loose group of farm teas, not one defined style, so each lot reflects its grower. Little is documented on the oolongs as a group, and figures for farm numbers or acreage should be taken as rough.",
+  "liquor_hex": "#DDB866",
+  "leaf_hex": "#4F5A38",
+  "sources": [
+    "https://keolamagazine.com/agriculture/hawaii-island-tea/",
+    "https://freshcup.com/hawaiian-tea/"
+  ],
+  "confidence": "low",
+  "images": []
 }

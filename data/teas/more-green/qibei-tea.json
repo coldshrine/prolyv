@@ -1,0 +1,55 @@
+{
+  "slug": "qibei-tea",
+  "name_en": "Qibei Tea",
+  "name_native": "漆碑茶",
+  "name_romanized": "Qībēi Chá",
+  "name_zh": "漆碑茶",
+  "name_ru": "Ци Бэй Ча",
+  "aliases": [
+    "Qibeicha"
+  ],
+  "category": "green",
+  "origin_country": "China",
+  "origin_region": "Sichuan · Dazhou · Xuanhan",
+  "cultivar": "Fuding Dabai, Mingshan 131 and other approved cultivars",
+  "processing": "A green tea whose detailed method is set out in a county standard. Little of it is publicly described; as with other Chinese greens, the leaf is fixed by heat, shaped and dried.",
+  "form": "loose",
+  "harvest_season": "Little is documented for this tea; like other Sichuan greens, its prized picking comes in spring.",
+  "appearance_dry": "Yellow-green with an oily sheen.",
+  "appearance_liquor": "Clear, bright yellow-green.",
+  "appearance_wet": "Bright, tender green leaf.",
+  "taste_profile": "A rich chestnut aroma over a mellow body with a sweet aftertaste.",
+  "taste_tags": [
+    "nutty",
+    "sweet",
+    "vegetal"
+  ],
+  "brewing": {
+    "grams": 3,
+    "water_ml": 150,
+    "temp_c": 85,
+    "steeps": 3,
+    "seconds": [
+      60,
+      90,
+      120
+    ],
+    "notes": "General advice for a chestnut-scented green: slightly hotter water than for bud teas brings out the aroma, but keep steeps short."
+  },
+  "caffeine_level": "medium",
+  "vintage_note": "Usual for a Chinese green: sold from the current year's harvest and best within the year, with spring tea the one to look for. Nothing suggests an ageing tradition.",
+  "description": "Qibei tea is a green from Xuanhan County in the northeast of Sichuan, named after Qibei township, which promoters call the tea village of eastern Sichuan. Its protected area takes in eight townships: Tuhuang, Fankuai, Qibei, Shitie, Dukou, Sandun, Qishu and Longquan.\n\nThe gardens grow established cultivars such as Fuding Dabai and Mingshan 131, rather than one local plant. Its method is fixed in a county standard, though few details of it circulate.\n\nThe character to expect is chestnut more than flowers: a warm rich aroma, a mellow body and a sweet finish, in a clear yellow-green cup. Slightly hotter water than you would use for a tender bud tea suits that style.\n\nIt is a regional tea, mostly sold in Sichuan. Look for the geographical indication mark and a recent harvest date.",
+  "history": "Little is documented about the tea before recent decades. In 2002 Xuanhan was named a quality tea base county by the provincial agriculture department, and Qibei a provincial model township for standardised tea growing.\n\nA county standard for the tea dates from 2010, and national geographical indication protection followed on 26 September 2013.",
+  "liquor_hex": "#D2C97C",
+  "leaf_hex": "#7A7F3C",
+  "sources": [
+    "https://milulu.com.cn/techan/35437.html",
+    "https://zh.wikipedia.org/wiki/%E6%BC%86%E7%A2%91%E4%B9%A1",
+    "https://zh.wikipedia.org/wiki/%E5%AE%A3%E6%B1%89%E5%8E%BF"
+  ],
+  "confidence": "medium",
+  "wikipedia_title": null,
+  "wikipedia_scope": "none",
+  "popularity": 2,
+  "images": []
+}

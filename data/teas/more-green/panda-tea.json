@@ -1,0 +1,69 @@
+{
+  "slug": "panda-tea",
+  "name_en": "Panda Tea",
+  "name_native": "熊猫茶",
+  "name_romanized": "Xióngmāo Chá",
+  "name_zh": "熊猫茶",
+  "name_ru": "Панда чай",
+  "aliases": [
+    "Panda dung tea",
+    "Panda Ecological Tea",
+    "熊貓茶",
+    "熊猫生态茶"
+  ],
+  "category": "green",
+  "origin_country": "China",
+  "origin_region": "Sichuan · Ya'an",
+  "cultivar": null,
+  "processing": "Defined by how it is grown, not how it is processed: the tea bushes are fertilised with panda dung. Little is recorded about the processing itself.",
+  "form": "loose",
+  "harvest_season": "Not clearly recorded; the first lots went on sale in spring 2012.",
+  "appearance_dry": "Not well recorded; assume the look of an ordinary green tea from Sichuan.",
+  "appearance_liquor": "Typical of Sichuan green tea: a clear yellow-green.",
+  "appearance_wet": "Typical of Sichuan green tea: soft green leaf.",
+  "taste_profile": "No trustworthy independent tasting notes exist; the appeal has been the story and the price, and any cup should be judged as a Sichuan green.",
+  "taste_tags": [
+    "vegetal",
+    "grassy"
+  ],
+  "brewing": {
+    "grams": 3,
+    "water_ml": 150,
+    "temp_c": 85,
+    "steeps": 3,
+    "seconds": [
+      60,
+      75,
+      100
+    ],
+    "notes": "No special method exists; treat it as a general green tea."
+  },
+  "caffeine_level": "medium",
+  "vintage_note": "It went on sale in spring 2012 in two price levels, at very high prices. Nothing is recorded about regular yearly releases, so treat any lot on the market with care and ask for its year and seller.",
+  "description": "Panda tea is grown in the mountains around Ya'an in Sichuan on bushes fertilised with the dung of giant pandas. It is best understood as one entrepreneur's project, An Yanshi's, more than as a traditional regional tea.\n\nThe argument is that pandas eat bamboo and absorb only around 30 percent of its nutrients, leaving rich organic fertiliser, collected from local breeding centres. That is the producer's reasoning and it has not been shown to change the cup.\n\nFew independent drinkers have written about the taste, so nothing firm can be said of it. If you meet a sample, brew it as you would a Sichuan green and judge it the same way.\n\nThe headline was the price: at launch it was sold as the world's most expensive tea, with 50 grams reported at about 3,500 US dollars. Anti-cancer claims made for it were questioned by the panda expert Zhang Hemin and by the Chinese science writers' group Science Squirrels Club, so ignore any health promises.",
+  "history": "An Yanshi, a calligrapher and painter also described as a former journalist and lecturer at Sichuan University, set up the tea garden at Dingfeng village in Ya'an and bought panda dung from local conservation centres. The tea reached the market in spring 2012.\n\nIts launch drew international attention for its price and its story, along with public doubts about the health claims. Little has been documented about its production since.",
+  "liquor_hex": "#CDCB7E",
+  "leaf_hex": "#5E7440",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Panda_tea",
+    "https://zh.wikipedia.org/wiki/%E7%86%8A%E8%B2%93%E8%8C%B6",
+    "https://vi.wikipedia.org/wiki/Tr%C3%A0_g%E1%BA%A5u_tr%C3%BAc",
+    "https://www.wikidata.org/wiki/Q7130450"
+  ],
+  "confidence": "medium",
+  "wikipedia_title": "Panda tea",
+  "wikipedia_scope": "exact",
+  "popularity": 3,
+  "images": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/a/a7/Panda_Tea_Green_Tea.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a7/Panda_Tea_Green_Tea.jpg/330px-Panda_Tea_Green_Tea.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Panda_Tea_Green_Tea.jpg",
+      "author": "LisaAmy",
+      "license": "CC BY 3.0",
+      "license_url": "https://creativecommons.org/licenses/by/3.0",
+      "kind": "liquor",
+      "alt": "Panda Tea green tea steeping in a white gaiwan decorated with pandas, yellow-green liquor over wet leaves"
+    }
+  ]
+}

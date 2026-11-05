@@ -1,0 +1,54 @@
+{
+  "slug": "miyazaki-cha",
+  "name_en": "Miyazaki-cha",
+  "name_native": "宮崎茶",
+  "name_romanized": "Miyazaki-cha",
+  "name_zh": "宫崎茶",
+  "name_ru": "Миядзаки-тя",
+  "aliases": [
+    "Miyazaki tea"
+  ],
+  "category": "green",
+  "origin_country": "Japan",
+  "origin_region": "Miyazaki",
+  "cultivar": null,
+  "processing": "A regional name rather than one method: steamed sencha is sold from the Miyakonojo basin, while the northern mountains around Takachiho are known for pan-fired kamairicha.",
+  "form": "loose",
+  "harvest_season": "Little is documented on the prefecture's calendar as a whole; as with other Japanese green teas, spring first-flush lots are the prized ones.",
+  "appearance_dry": "Depends on style: fine green needles for sencha, curled olive leaf for kamairicha.",
+  "appearance_liquor": "Yellow-green for sencha, paler and golden for kamairicha.",
+  "appearance_wet": "Soft green leaf, as is typical of Japanese green tea.",
+  "taste_profile": "No single profile applies. Sencha from here should taste as typical sencha does, grassy and gently savoury, while kamairicha is cleaner and toasty.",
+  "taste_tags": [
+    "grassy",
+    "vegetal",
+    "roasted"
+  ],
+  "brewing": {
+    "grams": 4,
+    "water_ml": 120,
+    "temp_c": 75,
+    "steeps": 3,
+    "seconds": [
+      60,
+      15,
+      40
+    ],
+    "notes": "Typical settings for sencha. For pan-fired tea from the north of the prefecture, use hotter water, around 85 C."
+  },
+  "caffeine_level": "medium",
+  "vintage_note": "Usual for Japanese green tea: sold as the current year's harvest, with first-flush lots at the top of the range, and best drunk within about a year. Grades such as top-grade sencha appear on labels more often than a year does.",
+  "description": "Miyazaki-cha simply means tea from Miyazaki Prefecture in southern Kyushu. It is a place label, not a style, and that is the first thing to know before buying.\n\nThe prefecture has two distinct sides. The Miyakonojo basin in the south sells steamed sencha. The mountainous north around Takachiho and Gokase is one of the few homes of kamairicha, tea fired in a pan instead of steamed.\n\nSo read the label for method before you brew. Sencha wants cooler water and a short steep, as usual, while pan-fired tea takes hotter water and rewards you with a toasty aroma.\n\nExpect grades and producer names more than vintages, and check for a recent harvest. For a real sense of the region, buy one Miyakonojo sencha and one Takachiho kamairicha and drink them side by side.",
+  "history": "Little is documented about Miyazaki-cha as a single name. The older thread is everyday pan-fired tea in the northern mountains around Takachiho, which goes back centuries, though no precise date is recorded.",
+  "liquor_hex": "#CFCF72",
+  "leaf_hex": "#4A6535",
+  "sources": [
+    "https://furu-sato.com/miyazaki/202/11217262",
+    "https://www.mlit.go.jp/tagengo-db/en/H30-01363.html"
+  ],
+  "confidence": "low",
+  "wikipedia_title": null,
+  "wikipedia_scope": "none",
+  "popularity": 2,
+  "images": []
+}

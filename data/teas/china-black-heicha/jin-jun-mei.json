@@ -3,25 +3,91 @@
   "name_en": "Jin Jun Mei",
   "name_native": "金骏眉",
   "name_romanized": "Jīn Jùn Méi",
-  "aliases": ["Jinjunmei", "Golden Eyebrow", "Golden Steed Eyebrow", "JJM", "Tongmu Jin Jun Mei", "Golden Horse Eyebrow"],
+  "aliases": [
+    "Jinjunmei",
+    "Golden Eyebrow",
+    "Golden Steed Eyebrow",
+    "JJM",
+    "Tongmu Jin Jun Mei",
+    "Golden Horse Eyebrow",
+    "Beautiful Golden Eyebrows",
+    "金駿眉"
+  ],
   "category": "black",
   "origin_country": "China",
   "origin_region": "Fujian · Wuyi Mountains · Tongmu",
-  "cultivar": "Wuyi cai cha (local small-leaf population bushes) at 1,000–1,500 m; outside-Tongmu versions use Fuding Dabai, Jinguanyin and others",
+  "cultivar": "Wuyi cai cha (local small-leaf population bushes) at Tongmu; outside-Tongmu versions use Fuding Dabai, Jinguanyin and others",
   "processing": "Fully oxidised bud-only black tea, unsmoked: tiny single buds are withered, rolled very gently, oxidised and dried at low heat so the golden down and honey aroma survive.",
   "form": "loose",
   "harvest_season": "A short window from mid-April to early May at Tongmu's altitude; buds picked later are bigger, cheaper and sold under other names.",
   "appearance_dry": "Tiny, tight, slightly curved buds in a mix of black, bronze and gold with fine golden down – not uniformly gold.",
-  "appearance_liquor": "Golden-amber, luminous and clear, with a golden ring.",
+  "appearance_liquor": "Golden-amber to bright reddish, luminous and clear, with a golden ring.",
   "appearance_wet": "Minute copper-coloured buds, whole and even.",
   "taste_profile": "Honey, dried longan and a sweet-potato warmth over florals, with a thick, silky texture and a clean high-mountain finish that lasts well past ten steeps.",
-  "taste_tags": ["honey", "dried-fruit", "floral", "sweet", "creamy"],
-  "brewing": {"grams": 4, "water_ml": 110, "temp_c": 92, "steeps": 10, "seconds": [8, 8, 10, 12, 15, 20, 30, 45, 60, 90], "notes": "Porcelain gaiwan, water just under the boil; the real thing handles heat and goes a dozen steeps. Do not rinse – the first steep is the most aromatic. Western-style only if you must: 2.5 g per 250 ml, 2 minutes."},
+  "taste_tags": [
+    "honey",
+    "dried-fruit",
+    "floral",
+    "sweet",
+    "creamy"
+  ],
+  "brewing": {
+    "grams": 4,
+    "water_ml": 110,
+    "temp_c": 92,
+    "steeps": 10,
+    "seconds": [
+      8,
+      8,
+      10,
+      12,
+      15,
+      20,
+      30,
+      45,
+      60,
+      90
+    ],
+    "notes": "Porcelain gaiwan, water just under the boil; the real thing handles heat and goes a dozen steeps. Do not rinse – the first steep is the most aromatic. Western-style only if you must: 2.5 g per 250 ml, 2 minutes."
+  },
   "caffeine_level": "high",
-  "vintage_note": "Sold as the current year's spring harvest, usually released in May after a month or two of resting; drink within one to two years, and some Tongmu makers reckon it peaks in its second spring. Genuine Tongmu lots are tiny and priced like a luxury good; most 'Jin Jun Mei' on the market is the current year's bud tea from elsewhere sold under the name.",
-  "description": "Jin Jun Mei is the tea that reinvented Chinese black tea for the Chinese market. It was created in 2005 in Tongmu, the village inside the Wuyi nature reserve where smoked Lapsang souchong was born, by the Zhengshan Tang workshop and the tea makers around it, as an unsmoked, bud-only black made from the local small-leaf bushes. Within a few years it was the most expensive black tea in China and the model for a whole new 'golden bud' category.\n\nOnly the bud is picked – it takes tens of thousands of them to make 500 g – in a short window from mid-April into early May at Tongmu's altitude. The buds are withered, rolled very lightly so they are not crushed, oxidised and dried gently without any smoke. Done right, the dry leaf is a mix of black, bronze and gold: the local bushes do not produce the uniformly golden fur of Yunnan or Guangxi buds, which is one of the quickest ways to tell real Tongmu tea from the look-alikes.\n\nThe cup is honey, dried longan and a warm sweet-potato note over florals, with a silky, thick texture and the clean, cool finish Tongmu teas share. It is remarkably durable: a good lot gives ten to fifteen short steeps in a gaiwan with water just under the boil, and it does not go bitter. The mistake is to baby it with cool water and long steeps, which flattens it; the other mistake is rinsing away the most fragrant first infusion.\n\nBuying is the hard part. Genuine Tongmu Jin Jun Mei is made in very small quantities and sells for several thousand yuan per 500 g at the source. Almost everything labelled Jin Jun Mei in shops and online is 'outside-mountain' tea: bud tea from elsewhere in Fujian, or from Guangxi, Guizhou, Yunnan and Sichuan, often from big-leaf or downy cultivars that give a pretty, all-gold leaf and a simple sweet-potato taste. That tea can be pleasant at its real price; it is just not this tea. Buy from a seller who names the village and the maker, be suspicious of anything uniformly gold, and taste for longan and length rather than sweetness.\n\nIf the price is out of reach, Yin Jun Mei (bud and one leaf) and Xiao Chi Gan from the same villages give you the Tongmu character for far less.",
+  "vintage_note": "Sold as the current year's spring harvest, usually released in May after a month or two of resting; drink within one to two years. Genuine Tongmu lots are tiny and priced like a luxury good; most 'Jin Jun Mei' on the market is the current year's bud tea from elsewhere sold under the name.",
+  "description": "Jin Jun Mei is the tea that reinvented Chinese black tea for the Chinese market. It was created in 2005 in Tongmu, the village inside the Wuyi nature reserve where smoked Lapsang souchong was born, by the Zhengshan Tang workshop and the tea makers around it, as an unsmoked, bud-only black made from the local small-leaf bushes. It soon became one of the most expensive black teas in China and the model for a whole new 'golden bud' category.\n\nOnly the bud is picked, in a short window from mid-April into early May at Tongmu's altitude. The buds are withered, rolled very lightly so they are not crushed, oxidised and dried gently without any smoke. Done right, the dry leaf is a mix of black, bronze and gold: the local bushes do not produce the uniformly golden fur of Yunnan or Guangxi buds, which is one of the quickest ways to tell real Tongmu tea from the look-alikes.\n\nThe cup is honey, dried longan and a warm sweet-potato note over florals, with a silky, thick texture and the clean, cool finish Tongmu teas share. It is remarkably durable: a good lot gives about a dozen short steeps in a gaiwan with water just under the boil, and it does not go bitter. The mistake is to baby it with cool water and long steeps, which flattens it; the other mistake is rinsing away the most fragrant first infusion.\n\nBuying is the hard part. Genuine Tongmu Jin Jun Mei is made in very small quantities and sells at a luxury price. Almost everything labelled Jin Jun Mei in shops and online is 'outside-mountain' tea: bud tea from elsewhere in Fujian, or from Guangxi, Guizhou, Yunnan and Sichuan, often from big-leaf or downy cultivars that give a pretty, all-gold leaf and a simple sweet-potato taste. That tea can be pleasant at its real price; it is just not this tea. Buy from a seller who names the village and the maker, be suspicious of anything uniformly gold, and taste for longan and length rather than sweetness.\n\nIf the price is out of reach, Yin Jun Mei (bud and one leaf) and Xiao Chi Gan from the same villages give you the Tongmu character for far less.",
   "wikipedia_title": "Wuyi tea",
   "wikipedia_scope": "umbrella",
   "popularity": 4,
-  "sources_note": "No dedicated English Wikipedia article exists at time of writing ('Jin Jun Mei' is missing), so the Wuyi tea umbrella is used. Creation story (2005, Zhengshan Tang / Jiang Yuanxun with tea master Liang Junde) follows the most widely repeated account; bud counts per 500 g are quoted very differently by sources and are left vague."
+  "sources_note": "No dedicated English Wikipedia article exists at time of writing ('Jin Jun Mei' is missing), so the Wuyi tea umbrella is used. Creation story (2005, Zhengshan Tang / Jiang Yuanxun with tea master Liang Junde) follows the most widely repeated account; bud counts per 500 g are quoted very differently by sources and are left vague.",
+  "name_zh": "金骏眉",
+  "name_ru": "Цзинь Цзюнь Мэй",
+  "history": "Jin Jun Mei is a tea with a known date. In 2005 visitors from Beijing, Zhang Mengjiang and Yan Yifeng, suggested to the people of Tongmu that buds alone could make the top grade of Zheng Shan Xiao Zhong. That year Jiang Yuanxun, head of the Zhengshan tea company, and his tea makers developed it, with the master Liang Junde making the first batch. The method stays close to traditional Xiao Zhong, with only Tongmu buds as raw material. A sister tea, Yin Jun Mei, uses a bud and one leaf.\n\nThe name itself ended up in court. In 2007 two local companies applied for the trademark, and in 2009 the trademark office refused both on the grounds that it named a kind of black tea. Tongmu's tea firms then split over whether the tea belonged to one company or was shared work. On 12 December 2013 the Beijing High People's Court ruled it a generic name, which put it alongside Tie Guan Yin, Bi Luo Chun and Da Hong Pao, and anyone may now use it.\n\nToday it counts among the most expensive black teas in China, and the name appears on bud tea from far beyond the village.",
+  "liquor_hex": "#C98A2E",
+  "leaf_hex": "#5A3F22",
+  "sources": [
+    "https://zh.wikipedia.org/wiki/%E9%87%91%E9%AA%8F%E7%9C%89",
+    "https://en.wikipedia.org/wiki/Jin_Jun_Mei_tea",
+    "https://www.wikidata.org/wiki/Q15894315"
+  ],
+  "confidence": "medium",
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/db/Jin_Jun_Mei.jpg/1280px-Jin_Jun_Mei.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/db/Jin_Jun_Mei.jpg/330px-Jin_Jun_Mei.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Jin_Jun_Mei.jpg",
+      "author": "Difference engine",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "kind": "dry_leaf",
+      "alt": "Pile of thin, curled dry Jin Jun Mei buds in black and gold"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8d/Small_tasting_cup_of_Jin_Jun_Mei.jpg/1280px-Small_tasting_cup_of_Jin_Jun_Mei.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8d/Small_tasting_cup_of_Jin_Jun_Mei.jpg/330px-Small_tasting_cup_of_Jin_Jun_Mei.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Small_tasting_cup_of_Jin_Jun_Mei.jpg",
+      "author": "Difference engine",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "kind": "liquor",
+      "alt": "Small glass cup of clear golden-amber Jin Jun Mei liquor"
+    }
+  ]
 }

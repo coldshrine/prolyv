@@ -1,0 +1,64 @@
+{
+  "slug": "chaoqing-green-tea",
+  "name_en": "Chaoqing Green Tea",
+  "name_native": "炒青茶",
+  "name_romanized": "Chǎoqīng Chá",
+  "name_zh": "炒青茶",
+  "name_ru": "Чао Цин",
+  "aliases": [
+    "Pan-fired green tea",
+    "Pan-fired Tea (Fuchao Cha)",
+    "釜炒茶",
+    "덖음차",
+    "Deokkeum-cha",
+    "炒青绿茶",
+    "Чаоцин"
+  ],
+  "category": "green",
+  "origin_country": "China",
+  "origin_region": "China · Anhui, Zhejiang, Jiangxi and others",
+  "cultivar": null,
+  "processing": "Heat in a wok stops oxidation, then the leaf is rolled and finished by pan-drying. The shape depends on the handling: long, round or flat.",
+  "form": "loose",
+  "harvest_season": "Mostly spring and on through the growing season; the first spring pickings are the prized lots, while later pickings go into everyday and export grades.",
+  "appearance_dry": "Depends on the subtype: curved eyebrow-like strands, tight round grains, or flat straight blades.",
+  "appearance_liquor": "Yellow-green and clear, deeper than most steamed greens.",
+  "appearance_wet": "Green leaf and buds, a little more yellow and more torn in lower grades.",
+  "taste_profile": "Fuller and more toasty than steamed green tea, with a clear aroma, a nutty edge and some astringency in the stronger everyday grades.",
+  "taste_tags": [
+    "nutty",
+    "roasted",
+    "vegetal",
+    "brisk"
+  ],
+  "brewing": {
+    "grams": 3,
+    "water_ml": 150,
+    "temp_c": 80,
+    "steeps": 3,
+    "seconds": [
+      60,
+      90,
+      120
+    ],
+    "notes": "Sturdy everyday grades take water closer to 85 C; tender spring lots want it cooler."
+  },
+  "caffeine_level": "medium",
+  "vintage_note": "Not one tea but a method, so it is sold under the name of the specific tea or grade. Fine lots are sold as the current spring harvest, with pre-Qingming picking costing more; export grades are blended and sold year-round, and none of it is meant for ageing.",
+  "description": "Chaoqing is less a tea than a way of making one: green tea finished in a hot pan. Most of China's green tea is made this way, whereas Japan mostly steams its leaf, and that difference explains much of the contrast between the two countries' cups.\n\nThe heat of the wok stops oxidation, then the leaf is rolled and dried by pan-firing. How it is handled decides the shape. Long chaoqing becomes eyebrow-shaped meicha, round chaoqing includes gunpowder-style pearls, and flat chaoqing covers Long Jing and its relatives.\n\nIn the cup, pan-firing tends to give a clear aroma and a nutty, toasty note. Brew tender lots cooler than you think and sturdier grades a little hotter; too long a steep is what makes the stronger grades harsh.\n\nYou will rarely see the word on a fine tea's label. It is more of a classification, so buy by the actual name, place and picking date. The word is most useful when you want to compare methods: try a pan-fired green beside a baked one and a steamed one from the same season.\n\nKorea has its own tradition under the name deokkeum-cha, roasted leaf tea that is more popular there than steamed tea.",
+  "history": "Pan-firing is said to have appeared around the Southern Song and to have become widespread in the Ming dynasty, when it overtook steaming, the older way of fixing leaf. Teas such as Songluo from Huizhou and Long Jing from Hangzhou belong to that Ming flowering of regional pan-fired styles.\n\nIt has remained the basic Chinese method since then and accounts for the bulk of green tea output. The names of the subtypes are not used with complete consistency.",
+  "liquor_hex": "#D2CB7C",
+  "leaf_hex": "#5F7038",
+  "sources": [
+    "https://m.bjnews.com.cn/detail/174761218819726.html",
+    "https://m.thepaper.cn/newsDetail_forward_13190935",
+    "https://zh.wikipedia.org/wiki/%E7%B6%A0%E8%8C%B6",
+    "https://en.wikipedia.org/wiki/Korean_tea",
+    "https://en.wikipedia.org/wiki/Green_tea"
+  ],
+  "confidence": "high",
+  "wikipedia_title": "Green tea",
+  "wikipedia_scope": "umbrella",
+  "popularity": 3,
+  "images": []
+}

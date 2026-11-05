@@ -1,0 +1,62 @@
+{
+  "slug": "lingzhi-tea",
+  "name_en": "Lingzhi Tea (Reishi)",
+  "name_native": "영지버섯차",
+  "name_romanized": "Língzhī Chá",
+  "name_zh": "灵芝茶",
+  "name_ru": "Чай из линчжи",
+  "aliases": [
+    "Lingzhi tea",
+    "Lingzhicha",
+    "Yeongji-beoseot-cha",
+    "Чай из линчжи",
+    "Reishi tea",
+    "Лин Чжи Ча"
+  ],
+  "category": "tisane",
+  "origin_country": "China",
+  "origin_region": "China and Korea · widespread",
+  "cultivar": "Ganoderma lucidum (red lingzhi)",
+  "processing": "Dried slices of the lingzhi mushroom are simmered in water rather than briefly steeped. Some commercial versions are extracts or blends with other plants.",
+  "form": "other",
+  "harvest_season": "No picking season matters to the buyer; it is sold dried all year.",
+  "appearance_dry": "Thin, hard, woody slices with a glossy red-brown upper edge and a pale corky interior.",
+  "appearance_liquor": "Clear to slightly hazy reddish brown, darker the longer it simmers.",
+  "appearance_wet": "Leathery slices that barely soften and keep their shape.",
+  "taste_profile": "Woody, dark and properly bitter with a medicinal edge; longer extraction makes it harsher.",
+  "taste_tags": [
+    "bitter",
+    "woody",
+    "medicinal",
+    "earthy"
+  ],
+  "brewing": {
+    "grams": 10,
+    "water_ml": 750,
+    "temp_c": 100,
+    "steeps": 1,
+    "seconds": [
+      900
+    ],
+    "notes": "Simmer covered, starting at about 15 minutes. Recipes range up to several hours, and longer means more bitter. Jujube, goji or a little honey make it easier to drink."
+  },
+  "caffeine_level": "none",
+  "vintage_note": "Sold dried and sliced, or as bagged blends and extracts, with no harvest year as a selling point. Check the species on the label, since shops rank red lingzhi above purple. As with other dried fungi, keep it dry and sealed against mould.",
+  "description": "Lingzhi tea is a brew of the woody medicinal mushroom known as reishi in Japanese and yeongji in Korean. It contains no tea leaf and it is one of the few drinks here that is bitter on purpose.\n\nThe slices are too tough for a quick steep, so they are simmered. Times vary wildly, from about 15 minutes to many hours, and there is no agreed standard. Longer extraction darkens the liquor and strengthens the bitterness.\n\nExpect wood, earth and a sharp medicinal finish. Newcomers usually do best with a short simmer and something sweet in the pot, typically jujube, goji or honey. Lab work on a lingzhi and white tea drink has also looked at taming the bitterness with cyclodextrin, though that belongs to manufacturing rather than the home kitchen.\n\nThe market is crowded with health claims, and products labelled as lingzhi tea may be blends where the mushroom is only one ingredient. Read the ingredient list. If you take regular medication, ask a doctor first rather than trusting the packet.",
+  "history": "In Korea, yeongji-beoseot-cha is counted among traditional teas brewed from plants and fungi rather than tea leaves, and it is also drunk among ethnic Koreans in China. In China, the drink shows up today as a local product, for example in Guiyang, Guizhou. Little is documented about when it became a drink in its own right, and no reliable date for it is on record.",
+  "wikipedia_title": null,
+  "wikipedia_scope": "none",
+  "popularity": 2,
+  "liquor_hex": "#8A4B26",
+  "leaf_hex": "#6B3320",
+  "sources": [
+    "https://ko.wikipedia.org/wiki/%EC%A0%84%ED%86%B5%EC%B0%A8",
+    "https://zh.wikipedia.org/wiki/%E6%9C%9D%E9%B2%9C%E6%B0%91%E6%97%8F",
+    "https://milulu.com.cn/techan/33497.html",
+    "https://www.attiliodalberto.com/chinese-food-therapy/teas/reishi-tea.php",
+    "https://www.spkx.net.cn/CN/Y2012/V33/I2/89",
+    "https://marxfood.com/?p=8557"
+  ],
+  "confidence": "medium",
+  "images": []
+}

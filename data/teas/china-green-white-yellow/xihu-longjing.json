@@ -3,24 +3,75 @@
   "name_en": "Xihu Longjing (West Lake Dragon Well)",
   "name_native": "西湖龙井",
   "name_romanized": "Xīhú Lóngjǐng",
-  "aliases": ["Dragon Well", "Lung Ching", "West Lake Longjing", "Shifeng Longjing", "Lion Peak Dragon Well", "Long Jing"],
+  "aliases": [
+    "Dragon Well",
+    "Lung Ching",
+    "West Lake Longjing",
+    "Shifeng Longjing",
+    "Lion Peak Dragon Well",
+    "Long Jing",
+    "西湖龍井",
+    "Лунцзин",
+    "Лун Цзин с озера Си Ху"
+  ],
   "category": "green",
   "origin_country": "China",
   "origin_region": "Zhejiang · Hangzhou · West Lake",
   "cultivar": "Qunti (seed-grown landrace), Longjing 43, Longjing Changye",
   "processing": "Pan-fired green: fresh shoots are withered briefly, then pressed flat against a hot wok by hand (or machine) in two passes (qing guo and hui guo) until the leaf is dry, smooth and blade-shaped; no rolling, no baking.",
   "form": "loose",
-  "harvest_season": "Spring only, roughly mid-March to late April. Pre-Qingming lots (picked before about 5 April) are the most prized; yu qian lots (before Grain Rain, about 20 April) are the better-value sweet spot.",
+  "harvest_season": "Spring is the harvest that matters, roughly mid-March to late April. Pre-Qingming lots (picked before about 5 April) are the most prized; yu qian lots (before Grain Rain, about 20 April) are the better-value sweet spot. The bushes are also picked in summer and autumn.",
   "appearance_dry": "Flat, smooth, straight blades of yellow-green (a 'brown rice' tone in the best Lion Peak lots), each a bud with one or two tiny leaves.",
   "appearance_liquor": "Pale yellow-green, bright and clear.",
   "appearance_wet": "Tender bud-and-leaf sets in soft jade green, often standing upright in the glass.",
   "taste_profile": "Toasted soybean and fresh chestnut over a sweet, gently savoury body, with a clean cooling finish and very little astringency when brewed right.",
-  "taste_tags": ["nutty", "sweet", "umami", "vegetal"],
-  "brewing": {"grams": 4, "water_ml": 150, "temp_c": 80, "steeps": 3, "seconds": [45, 45, 75], "notes": "Tall glass or gaiwan. For the glass, warm it, add the leaf, wet it with a splash of water, then top up; or pour the water first and drop the leaf in. Never boiling water: 75–85 °C keeps the chestnut sweetness and avoids bitterness."},
+  "taste_tags": [
+    "nutty",
+    "sweet",
+    "umami",
+    "vegetal"
+  ],
+  "brewing": {
+    "grams": 4,
+    "water_ml": 150,
+    "temp_c": 80,
+    "steeps": 3,
+    "seconds": [
+      45,
+      45,
+      75
+    ],
+    "notes": "Tall glass or gaiwan. For the glass, warm it, add the leaf, wet it with a splash of water, then top up; or pour the water first and drop the leaf in. Never boiling water: 75–85 °C keeps the chestnut sweetness and avoids bitterness."
+  },
   "caffeine_level": "medium",
-  "vintage_note": "Sold only as the current year's spring harvest, labelled by picking window: pre-Qingming (ming qian) first and most expensive, then yu qian, then later April lots. The protected West Lake zone is small, so genuine Xihu Longjing is scarce and pricey; most 'Longjing' on the market is Zhejiang Longjing from the Qiantang or Yuezhou zones, or flat green from other provinces. Buy in April–May, keep it sealed in the fridge or freezer, and drink within the year; last year's tea is sold off cheap and tastes flat.",
+  "vintage_note": "Sold mainly as the current year's spring harvest, labelled by picking window: pre-Qingming (ming qian) first and most expensive, then yu qian, then later April lots. The protected West Lake zone is small, so genuine Xihu Longjing is scarce and pricey; most 'Longjing' on the market is Zhejiang Longjing from the Qiantang or Yuezhou zones, or flat green from other provinces. Buy in April–May, keep it sealed in the fridge or freezer, and drink within the year; last year's tea is sold off cheap and tastes flat.",
   "description": "Xihu Longjing is the flat, pan-fired green from the hills west of West Lake in Hangzhou, from villages like Shifeng (Lion Peak), Longjing, Yunqi, Hupao and Meijiawu, and it is the tea almost every other Chinese green gets measured against. What makes it distinct is the pan-firing: the leaf is pressed flat and dried in the wok rather than rolled and baked, which gives it that toasted-bean sweetness and a smooth, glassy leaf.\n\nMaking it is a hand-and-wok job. The freshly picked shoots rest for a few hours, then are worked in a hot wok with a repertoire of pressing, shaking and smoothing motions, first to kill the green and set the shape, then after a rest a second cooler pass to dry and polish. Done well, the leaf comes out flat and yellow-green with a cooked-chestnut aroma; done with too much heat it goes dark, oily and smoky.\n\nIn the cup it opens with toasted soybean and chestnut, moves into a sweet, broth-like savouriness, and finishes cool and clean. It gives three good infusions in a glass, maybe four in a gaiwan. The classic mistake is boiling water, which scalds the buds and makes the tea bitter and flat. Use 75–85 °C, go light on the leaf, and drink it young.\n\nBuying is where it gets tricky. The protected West Lake zone produces far less than the market sells, so 'Xihu' on a label means little without a seller you trust. Zhejiang Longjing from Xinchang or Shaoxing can be very good and much cheaper, and flat greens from Sichuan or Guizhou are often passed off as Longjing in early March, weeks before the real West Lake bushes have anything to pick. Look at the leaf (yellow-green, not neon), ask about the cultivar (Qunti or Longjing 43) and the picking date, and treat 'mingqian' claims with a little suspicion.\n\nIf you like the toasty side of it, try Lao Zhu Da Fang from Anhui next: the same flat shape, more roast, a fraction of the price.",
   "wikipedia_title": "Longjing tea",
   "wikipedia_scope": "exact",
-  "popularity": 5
+  "popularity": 5,
+  "name_zh": "西湖龙井",
+  "name_ru": "Си Ху Лун Цзин",
+  "history": "Tea around West Lake is recorded long before the name Longjing. Lu Yu noted tea at the Tianzhu and Lingyin monasteries in Qiantang in the Tang, and Su Shi, governing Hangzhou in the Song, traced the Tianzhu tea to the poet Xie Lingyun, who was said to have brought it from Mount Tiantai. A Yuan poem by Yu Ji praises the tea of Longjing itself. By 1591 a Ming compendium listing some ninety famous teas placed Longjing twenty-first, so it was known but not yet the leader.\n\nThe Qing made it. The Qianlong Emperor is recorded visiting Longjing four times and naming its eight scenes; the usual story adds that he gave imperial status to eighteen bushes by a temple at Lion Peak, and that part is legend. The tea went to the court as tribute, and by the end of the dynasty gardens covered the hills west and south of the lake, divided into the four areas still spoken of: Lion, Dragon, Cloud and Tiger.\n\nThe modern story is about protection. The craft became national intangible heritage in 2008, and in 2011 'Xihu Longjing' was registered as a geographical certification mark covering 168 square kilometres. Hangzhou passed its own regulation against counterfeits in 2021. Fakes remain common, and fewer young people are learning to fire the tea by hand. Longjing 43 and Longjing Changye now grow alongside the old seed-grown population bushes.",
+  "liquor_hex": "#D6D27A",
+  "leaf_hex": "#7E8B3E",
+  "sources": [
+    "https://zh.wikipedia.org/wiki/%E8%A5%BF%E6%B9%96%E9%BE%99%E4%BA%95",
+    "https://en.wikipedia.org/wiki/Longjing_tea",
+    "https://ja.wikipedia.org/wiki/%E9%BE%8D%E4%BA%95%E8%8C%B6",
+    "https://ru.wikipedia.org/wiki/%D0%9B%D1%83%D0%BD%D1%86%D0%B7%D0%B8%D0%BD_%28%D1%87%D0%B0%D0%B9%29",
+    "https://zh.wikipedia.org/wiki/%E8%A5%BF%E6%B9%96%E8%A1%97%E9%81%93_%28%E6%9D%AD%E5%B7%9E%E5%B8%82%29"
+  ],
+  "confidence": "high",
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/59/Dragon_Well_A.jpg/1280px-Dragon_Well_A.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/59/Dragon_Well_A.jpg/330px-Dragon_Well_A.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Dragon_Well_A.jpg",
+      "author": "http://www.chah.co.uk",
+      "license": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "kind": "dry_leaf",
+      "alt": "Flat yellow-green blades of grade A Dragon Well tea on white"
+    }
+  ]
 }

@@ -3,10 +3,15 @@
   "name_en": "Okumidori Sencha",
   "name_native": "おくみどり",
   "name_romanized": "Okumidori",
-  "aliases": ["Okumidori cultivar", "Oku Midori", "Okumidori single cultivar", "Okumidori matcha"],
+  "aliases": [
+    "Okumidori cultivar",
+    "Oku Midori",
+    "Okumidori single cultivar",
+    "Okumidori matcha"
+  ],
   "category": "green",
   "origin_country": "Japan",
-  "origin_region": "Kagoshima; Kyoto; Mie; Shizuoka; Fukuoka",
+  "origin_region": "Kagoshima",
   "cultivar": "Okumidori",
   "processing": "Made as sencha, kabusecha, gyokuro and very widely as tencha for matcha; its deep green colour and mild character suit shading.",
   "form": "loose",
@@ -15,12 +20,38 @@
   "appearance_liquor": "Clear, deep green-yellow.",
   "appearance_wet": "Dark, even, soft green leaves.",
   "taste_profile": "Mild and smooth with a gentle sweetness, soft umami and a clean, slightly nutty finish; less aromatic and less astringent than Yabukita.",
-  "taste_tags": ["sweet", "umami", "vegetal", "nutty"],
-  "brewing": {"grams": 5, "water_ml": 150, "temp_c": 72, "steeps": 3, "seconds": [60, 15, 45], "notes": "Brew like sencha; it is forgiving and rarely turns bitter. As matcha it whisks to a fine, smooth foam."},
+  "taste_tags": [
+    "sweet",
+    "umami",
+    "vegetal",
+    "nutty"
+  ],
+  "brewing": {
+    "grams": 5,
+    "water_ml": 150,
+    "temp_c": 72,
+    "steeps": 3,
+    "seconds": [
+      60,
+      15,
+      45
+    ],
+    "notes": "Brew like sencha; it is forgiving and rarely turns bitter. As matcha it whisks to a fine, smooth foam."
+  },
   "caffeine_level": "medium",
-  "vintage_note": "Sold as a named single-cultivar sencha of the current year's first flush, appearing a little later than other shincha because it buds late; far more Okumidori leaf is sold anonymously as matcha, where it is a mainstay of mid and upper grades in Kagoshima, Nishio and Uji. Not an ageing tea.",
-  "description": "Okumidori is the quiet workhorse among Japan's premium cultivars: a cross of Yabukita and a Shizuoka seedling line, registered in 1974, bred to bud late ('oku' means late) so that farms could spread the harvest beyond Yabukita's few frantic days. It gives a deep, dark green leaf and a mild, smooth cup with little astringency, and it has become one of the main cultivars for matcha, which is where most of it ends up.\n\nLate budding also means it tends to dodge spring frost, and its deep colour and gentle flavour make it ideal for shading: Okumidori tencha from Kagoshima, Nishio and Uji goes into mid and upper matcha grades, and Okumidori gyokuro and kabusecha are common. As sencha it is made in whatever style the region uses, and it is less aromatic than Yabukita but rounder and easier to drink.\n\nBrewed as sencha at about 70 °C, 5 g for 150 ml for a minute, it gives a clear, deep green-yellow cup that is mild, sweet and softly savoury with a clean, slightly nutty finish; it is very forgiving and rarely turns bitter, and it does not have the big umami of Saemidori or Asatsuyu. As matcha it whisks to a fine, smooth foam with a mellow, rounded taste and a rich colour, which is exactly why mills like it.\n\nAs a leaf tea it is sold as a labelled single-cultivar sencha of the current year's first flush, appearing a week or so after the first shincha because it buds late; far more Okumidori is sold anonymously as matcha, and single-cultivar 'Okumidori matcha' from Kagoshima is now easy to find and good value. Store and drink it like any sencha, within the year.\n\nIf you want to learn cultivars through matcha rather than leaf, an Okumidori and a Samidori from the same mill is the classic pair.",
+  "vintage_note": "Sold as a named single-cultivar sencha of the current year's first flush, appearing a little later than other shincha because it buds late; much Okumidori leaf also goes into matcha, often without the cultivar being named. Not an ageing tea.",
+  "description": "Okumidori is the quiet workhorse among Japan's premium cultivars: a cross of Yabukita and a Shizuoka seedling line, registered in 1974, bred to bud late ('oku' means late) so that farms could spread the harvest beyond Yabukita's few frantic days. It gives a deep, dark green leaf and a mild, smooth cup with little astringency, and though bred for sencha it has become a familiar cultivar for matcha as well.\n\nLate budding also means it tends to dodge spring frost, and its deep colour and gentle flavour make it ideal for shading: Okumidori tencha from Kagoshima, Nishio and Uji goes into mid and upper matcha grades, and Okumidori gyokuro and kabusecha are common. As sencha it is made in whatever style the region uses, and it is less aromatic than Yabukita but rounder and easier to drink.\n\nBrewed as sencha at about 70 °C, 5 g for 150 ml for a minute, it gives a clear, deep green-yellow cup that is mild, sweet and softly savoury with a clean, slightly nutty finish; it is very forgiving and rarely turns bitter, and it does not have the big umami of Saemidori or Asatsuyu. As matcha it whisks to a fine, smooth foam with a mellow, rounded taste and a rich colour, which is exactly why mills like it.\n\nAs a leaf tea it is sold as a labelled single-cultivar sencha of the current year's first flush, appearing a week or so after the first shincha because it buds late; far more Okumidori is sold anonymously as matcha, and single-cultivar 'Okumidori matcha' from Kagoshima is now easy to find and good value. Store and drink it like any sencha, within the year.\n\nIf you want to learn cultivars through matcha rather than leaf, an Okumidori and a Samidori from the same mill is the classic pair.",
   "wikipedia_title": "Japanese tea",
   "wikipedia_scope": "umbrella",
-  "popularity": 3
+  "popularity": 3,
+  "name_zh": "奥绿",
+  "name_ru": "Окумидори",
+  "history": "Okumidori was developed in Shizuoka as a cross of Yabukita with a native line, Shizuoka Zairai No. 16, and registered in 1974 as cultivar number 32. The aim was a late budder: it is picked about a week after Yabukita, which spreads the work of the harvest and helps it escape early spring frost.\n\nIt was meant for sencha, and it is still drunk that way, with a mild cup quite similar to Yabukita. Its later career has been in gyokuro and matcha, where its colour and mildness are valued.",
+  "liquor_hex": "#BFC95C",
+  "leaf_hex": "#27452F",
+  "sources": [
+    "https://myjapanesegreentea.com/the-okumidori-tea-cultivar"
+  ],
+  "confidence": "medium",
+  "images": []
 }

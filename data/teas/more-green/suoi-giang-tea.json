@@ -1,0 +1,67 @@
+{
+  "slug": "suoi-giang-tea",
+  "name_en": "Suối Giàng Tea",
+  "name_native": "Chè Suối Giàng",
+  "name_romanized": "Suối Giàng",
+  "name_zh": "越南安沛古树茶",
+  "name_ru": "Суой Зянг",
+  "aliases": [
+    "Suối Giàng",
+    "Suoi Giang tea",
+    "Suoi Giang Shan Tuyet",
+    "Chè Shan Tuyết Suối Giàng",
+    "Snow Shan tea"
+  ],
+  "category": "green",
+  "origin_country": "Vietnam",
+  "origin_region": "Yên Bái · Văn Chấn · Suối Giàng",
+  "cultivar": "Shan Tuyết",
+  "processing": "Fresh buds are kept in airy bamboo baskets, then roasted, rolled (by hand in the past, now often by machine) and slowly sun-dried to keep their colour and white down.",
+  "form": "loose",
+  "harvest_season": "Exact harvest dates are not well recorded. Hmong families pick the old trees by hand, and spring is the usual prized season for this type of tea in northern Vietnam.",
+  "appearance_dry": "Twisted leaf and buds with visible white down.",
+  "appearance_liquor": "Golden to amber, described as amber red in some lots.",
+  "appearance_wet": "Typically large, thick shoots from old trees.",
+  "taste_profile": "A rich, distinctive highland flavour; old-tree Shan teas of this kind generally give a full body and lingering sweetness rather than delicate greenness.",
+  "taste_tags": [
+    "sweet",
+    "woody",
+    "brisk",
+    "honey"
+  ],
+  "brewing": {
+    "grams": 5,
+    "water_ml": 100,
+    "temp_c": 90,
+    "steeps": 6,
+    "seconds": [
+      15,
+      15,
+      20,
+      30,
+      45,
+      60
+    ],
+    "notes": "General gongfu advice for large-leaf Shan tea. It takes hotter water than a delicate green; drop the temperature if the first cup turns harsh."
+  },
+  "caffeine_level": "medium",
+  "vintage_note": "Normally sold as the current year's picking from the old trees, under family or company labels, with dozens of products in the commune and six rated four-star OCOP. Ask about tree age and harvest year, because age claims vary widely and cannot be checked from the packet. Sun-dried large-leaf tea may keep for longer than a typical green, though little is recorded about ageing this one.",
+  "description": "Suối Giàng is a Hmong commune above 1,300 metres in the Văn Chấn area, known for huge, moss-covered Shan Tuyết tea trees, some so thick that it takes two people to reach around the trunk. It is the old trees, more than the leaf style, that make this tea distinct.\n\nThe leaf is roasted and rolled and then allowed to dry slowly in the sun, which keeps the white down on the buds. Machines now do much of the rolling that used to be done by hand. Producers make dozens of different products, so 'Suối Giàng tea' covers more than one style.\n\nExpect something rich and broad, closer to other large-leaf mountain teas than to a light green. Some lots pour amber red. Treat it more like a gentle young sheng than a Long Jing: hotter water and short steeps, and see how it develops.\n\nBuy with care. Reported figures for the old-tree area run from about 300 to over 500 hectares and the claimed tree ages vary by hundreds of years, so a label saying '300-year-old trees' is a claim rather than a measurement. A named family or cooperative and a stated harvest year mean more.",
+  "history": "The old Shan Tuyết trees are the core of the story, with common local claims of 300 years and more for the oldest, but their true ages remain estimates. More than 400 trees have been recognised as Vietnamese heritage trees by a conservation association.\n\nThe Hmong community holds a yearly festival with offerings at the roots of the trees and picking demonstrations. Tourism has grown around this, and reports speak both of slow investment in the brand and of old trees being dug up for bonsai, a loss still worrying the commune.\n\nYên Bái has since been folded into Lào Cai in newer reports, so the same place can appear under either province.",
+  "liquor_hex": "#C99A3F",
+  "leaf_hex": "#5A5A3C",
+  "sources": [
+    "https://vietnam.vnanet.vn/english/printpsa/suoi-giang-tea-from-highland-heritage-to-national-brand-440803.html",
+    "https://vietnamnews.vn/life-style/1594548/yen-bai-province-holds-festival-to-honour-ancient-tea-trees.html",
+    "https://en.qdnd.vn/culture-sports/culture/ancient-tea-tree-in-yen-bai-honoured-509705",
+    "https://news.laodong.vn/du-lich/kham-pha/suoi-giang-thu-phu-che-shan-tuyet-giua-nui-rung-yen-bai-1417177.html",
+    "https://vietnamnet.vn/en/vietnams-unique-ancient-shan-tuyet-tea-forest-in-pictures-E148554.html",
+    "https://en.wikipedia.org/wiki/Vietnamese_tea"
+  ],
+  "confidence": "high",
+  "wikipedia_title": "Vietnamese tea",
+  "wikipedia_scope": "umbrella",
+  "popularity": 3,
+  "images": [],
+  "sources_note": "name_zh is descriptive. Tree ages and hectare figures conflict between reports."
+}

@@ -1,0 +1,57 @@
+{
+  "slug": "fujian-chungui",
+  "name_en": "Chungui",
+  "name_native": "春闺",
+  "name_romanized": "Chūnguī",
+  "name_zh": "春闺",
+  "name_ru": "Чунь Гуй",
+  "aliases": [
+    "Chun Gui",
+    "春閨"
+  ],
+  "category": "oolong",
+  "origin_country": "China",
+  "origin_region": "Fujian · Fu'an",
+  "cultivar": "Chungui",
+  "processing": "Suited to northern Fujian (Minbei) oolong processing. A 2023 study found light tossing gives a tight, fresh tasting tea, while heavier tossing gives a mellower cup with more prominent florals.",
+  "form": "loose",
+  "harvest_season": "A late-budding cultivar, so its spring picking comes after that of early varieties; exact dates vary with place.",
+  "appearance_dry": "Tightly formed strips when lightly tossed, in the dark tone usual for Minbei oolong.",
+  "appearance_liquor": "A clear golden orange, as is usual for Minbei-style oolong.",
+  "appearance_wet": "Small leaves, as expected from a small-leaf cultivar, with reddened edges typical of oolong.",
+  "taste_profile": "Lightly tossed tea tastes fresh and brisk; heavier tossing gives a thicker, mellower cup with more prominent florals.",
+  "taste_tags": [
+    "floral",
+    "brisk"
+  ],
+  "brewing": {
+    "grams": 7,
+    "water_ml": 110,
+    "temp_c": 95,
+    "steeps": 6,
+    "seconds": [
+      15,
+      15,
+      20,
+      30,
+      45,
+      60
+    ],
+    "notes": "A general oolong starting point, not one set for this cultivar. Use a porcelain gaiwan to show the florals and keep early steeps short."
+  },
+  "caffeine_level": "medium",
+  "vintage_note": "Rarely seen as a named tea on the open market. Like other Fujian oolongs it would normally be sold by the current year's harvest; ask whether the lot was lightly or heavily tossed, since that decides the style.",
+  "description": "Chungui is a modern oolong cultivar, not a historic named tea. It was selected from natural hybrid offspring of Huang Dan, the fragrant Anxi cultivar, in work published by Fujian researchers. It is a late-budding shrub with small leaves.\n\nTrials found it suits northern Fujian oolong making, and that the amount of tossing changes the tea a good deal. Light tossing keeps the leaf tight with a fresh taste, while heavier tossing builds a mellower cup and brings the florals forward.\n\nBrew it as you would other Minbei oolongs, in a gaiwan with very hot water and short first steeps. Published notes are limited to the floral and fresh character above, so taste it without expecting a set profile.\n\nYou are more likely to meet the name in growers' and researchers' notes than on a shop shelf. If you do find a lot, ask for the year and how heavily it was tossed.",
+  "history": "Chungui was bred by single-plant selection from natural hybrid offspring of Huang Dan, and a paper on it appeared in the Fujian Journal of Agricultural Sciences in 2017, reporting trials from 2002 to 2014. That work recommends it for Fu'an and areas with a similar climate. Little else is documented about its spread or commercial use.",
+  "liquor_hex": "#C98A35",
+  "leaf_hex": "#4A3A26",
+  "sources": [
+    "https://www.fjnyxb.cn/article/doi/10.19303/j.issn.1008-0384.2017.06.005",
+    "https://doi.org/10.13386/j.issn1002-0306.2022060276"
+  ],
+  "confidence": "low",
+  "wikipedia_title": null,
+  "wikipedia_scope": "none",
+  "popularity": 2,
+  "images": []
+}

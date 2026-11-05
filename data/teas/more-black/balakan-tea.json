@@ -1,0 +1,50 @@
+{
+  "slug": "balakan-tea",
+  "name_en": "Balakan Tea",
+  "name_native": null,
+  "name_romanized": null,
+  "aliases": [],
+  "category": "black",
+  "origin_country": "Azerbaijan",
+  "origin_region": "Balakan",
+  "cultivar": null,
+  "form": "loose",
+  "caffeine_level": "high",
+  "brewing": {
+    "grams": 3,
+    "water_ml": 200,
+    "temp_c": 95,
+    "steeps": 2,
+    "seconds": [
+      180,
+      240
+    ],
+    "notes": "A safe starting point for black tea: Western style, water just off the boil."
+  },
+  "taste_tags": [
+    "malty",
+    "sweet"
+  ],
+  "description": "Black tea from the Balakan area of Azerbaijan.\n\nTreat it as you would any black tea: water just off the boil, a few minutes in the pot, and a seller who can say where it was grown.",
+  "wikipedia_title": null,
+  "wikipedia_scope": "none",
+  "popularity": 1,
+  "name_zh": "巴拉坎茶",
+  "name_ru": "Чай Балакан",
+  "history": null,
+  "liquor_hex": "#A8431C",
+  "leaf_hex": "#3A2A1E",
+  "sources": [
+    "https://ru.wikipedia.org/wiki/%D0%90%D0%B7%D0%B5%D1%80%D0%B1%D0%B0%D0%B9%D0%B4%D0%B6%D0%B0%D0%BD%D1%81%D0%BA%D0%B0%D1%8F_%D1%87%D0%B0%D0%B9%D0%BD%D0%B0%D1%8F_%D0%BA%D1%83%D0%BB%D1%8C%D1%82%D1%83%D1%80%D0%B0"
+  ],
+  "confidence": "low",
+  "images": [],
+  "stub": true,
+  "processing": "Typical of black tea: withered, rolled, fully oxidised and dried.",
+  "harvest_season": "Picked through the growing season, as with most black teas.",
+  "appearance_dry": "Usually dark twisted leaf, sometimes with golden tips.",
+  "appearance_liquor": "Usually a clear red-brown.",
+  "appearance_wet": "Usually coppery brown leaf.",
+  "taste_profile": "Expect what black teas usually give: malty, sweet and brisk.",
+  "vintage_note": "Black teas are normally sold by harvest year and are best within a couple of years."
+}

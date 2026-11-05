@@ -1,0 +1,57 @@
+{
+  "slug": "koicha",
+  "name_en": "Koicha",
+  "name_native": "濃茶",
+  "name_romanized": "Koicha",
+  "name_zh": "浓茶",
+  "name_ru": "Койтя",
+  "aliases": [
+    "Thick tea",
+    "Thick matcha",
+    "Коитя"
+  ],
+  "category": "green",
+  "origin_country": "Japan",
+  "origin_region": "Japan",
+  "cultivar": null,
+  "processing": "Not a separate tea but a way of preparing matcha: high-grade shade-grown tencha, stone-ground, then kneaded with very little water into a thick, glossy liquid with no foam.",
+  "form": "powder",
+  "harvest_season": "Uses spring leaf shaded for two to three weeks or more before picking, as with all true matcha; the highest grades are chosen for koicha.",
+  "appearance_dry": "Very fine, vivid green powder.",
+  "appearance_liquor": "Opaque, deep glossy green, thick like paint, with no froth.",
+  "appearance_wet": "No leaf remains; the powder is drunk whole, leaving a green coating in the bowl.",
+  "taste_profile": "Dense and rich with concentrated umami and sweetness, little bitterness, and the seaweed-like aroma of shaded tea.",
+  "taste_tags": [
+    "umami",
+    "sweet",
+    "creamy",
+    "marine"
+  ],
+  "brewing": {
+    "grams": 4,
+    "water_ml": 60,
+    "temp_c": 80,
+    "steeps": 1,
+    "seconds": [
+      30
+    ],
+    "notes": "Twice the powder of thin tea in the same water or less. Knead slowly with the whisk rather than whipping it; foam is a fault here. Sift the powder first."
+  },
+  "caffeine_level": "high",
+  "vintage_note": "Matcha for koicha has no vintage in the usual sense: it is sold in small sealed tins by grade and blend name, and drunk within weeks of opening. Look for a maker's explicit koicha grade, because powder that tastes fine as thin tea can be harsh at this strength.",
+  "description": "Koicha is thick matcha, the strong tea at the heart of a formal Japanese tea gathering. The word refers to the preparation rather than a cultivar or place, though in practice it demands the best powder a maker sells.\n\nThe usual measure is about twice the powder of thin tea, usucha. Where usucha is whisked to a froth to soften its astringency, koicha is kneaded slowly until glossy, without foam, which is why only leaf low in astringency and high in umami will work.\n\nThe result is closer to a warm sauce than a drink: deep, sweet and savoury, with a long finish. The usual mistake is using ordinary matcha, which at this concentration turns bitter. Water that is too hot does the same.\n\nBuy powder labelled for koicha from an established maker, and expect to pay more. Keep it sealed and cold, and finish it fast. A sweet beforehand is traditional, and it does balance the intensity.",
+  "history": "Powdered tea whisked in a bowl came to Japan from Song China, with the monk Eisai around 1191 as the figure usually credited. Shading developed at Uji by the sixteenth century at the latest, giving matcha its modern colour and umami.\n\nIn the formal chaji gathering, koicha is served after the meal and a fresh sweet, before the thin tea that follows. Each school of tea sets out its own rules for the gestures and utensils.",
+  "liquor_hex": "#4F7A22",
+  "leaf_hex": "#6F9A2B",
+  "sources": [
+    "https://ja.wikipedia.org/wiki/%E6%8A%B9%E8%8C%B6",
+    "https://en.wikipedia.org/wiki/Matcha",
+    "https://en.wikipedia.org/wiki/Tea_culture_in_Japan",
+    "https://zh.wikipedia.org/wiki/%E6%8A%B9%E8%8C%B6"
+  ],
+  "confidence": "medium",
+  "wikipedia_title": "Matcha",
+  "wikipedia_scope": "umbrella",
+  "popularity": 3,
+  "images": []
+}

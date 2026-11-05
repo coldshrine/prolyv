@@ -3,10 +3,19 @@
   "name_en": "Thai Nguyen Green Tea",
   "name_native": "Trà Thái Nguyên",
   "name_romanized": "Trà Thái Nguyên",
-  "aliases": ["Chè Thái Nguyên", "Tan Cuong tea", "Trà Tân Cương", "Trà móc câu", "Hook tea", "Trà nõn tôm", "Trà đinh", "Vietnamese green tea"],
+  "aliases": [
+    "Chè Thái Nguyên",
+    "Tan Cuong tea",
+    "Trà Tân Cương",
+    "Trà móc câu",
+    "Hook tea",
+    "Trà nõn tôm",
+    "Trà đinh",
+    "Vietnamese green tea"
+  ],
   "category": "green",
   "origin_country": "Vietnam",
-  "origin_region": "Thái Nguyên province · Tân Cương (also Đại Từ, Phú Lương, Đồng Hỷ)",
+  "origin_region": "Thai Nguyen · Tan Cuong",
   "cultivar": "Trung du (the native midland variety) in the classic gardens; newer clones such as LDP1, Kim Tuyên and Phúc Vân Tiên in replanted fields",
   "processing": "Hand- or machine-picked leaf is wilted briefly, pan-fired in a rotating drum or wok, rolled until the leaves curl into tight hooks, then fired and dried again, often with a final low roast that gives the toasty 'cốm' note.",
   "form": "loose",
@@ -15,13 +24,42 @@
   "appearance_liquor": "Bright greenish yellow, clear and slightly viscous.",
   "appearance_wet": "Small whole bud-and-leaf sets, soft yellow-green, unfurling evenly.",
   "taste_profile": "A firm, clean astringency up front, young rice and green bean in the middle, then the hallmark 'hậu ngọt', a sweet aftertaste that builds in the throat long after the cup is empty.",
-  "taste_tags": ["vegetal", "grassy", "bitter", "sweet"],
-  "brewing": {"grams": 5, "water_ml": 120, "temp_c": 85, "steeps": 5, "seconds": [20, 15, 20, 30, 45], "notes": "Vietnamese style: a small pot, a quick rinse, short steeps and small cups drunk strong. Water much above 90°C makes it harsh; much below 80°C and the sweetness never arrives. Do not steep it long Western-style."},
+  "taste_tags": [
+    "vegetal",
+    "grassy",
+    "bitter",
+    "sweet"
+  ],
+  "brewing": {
+    "grams": 5,
+    "water_ml": 120,
+    "temp_c": 85,
+    "steeps": 5,
+    "seconds": [
+      20,
+      15,
+      20,
+      30,
+      45
+    ],
+    "notes": "Vietnamese style: a small pot, a quick rinse, short steeps and small cups drunk strong. Water much above 90°C makes it harsh; much below 80°C and the sweetness never arrives. Do not steep it long Western-style."
+  },
   "caffeine_level": "high",
   "vintage_note": "Sold as the current year's tea, by grade (đinh, nõn tôm, móc câu) rather than by date, with spring-flush lots priced highest; good shops in Vietnam will tell you the flush. It is not aged: buy within the year of harvest, keep it in foil or a tin, and finish it within six to twelve months.",
-  "description": "Thái Nguyên, a province an hour or two north of Hanoi, is the capital of Vietnamese green tea, and the commune of Tân Cương just outside the provincial city is its most famous name. Vietnam is one of the world's largest tea producers, but most of its tea is exported in bulk; Thái Nguyên green is the tea the Vietnamese keep for themselves, drunk strong and hot in tiny cups at breakfast, in offices and on pavement stools.\n\nThe classic tea comes from the trung du midland bush and is pan-fired and rolled until the leaves curl into tight little hooks, which is why the standard grade is called móc câu, 'fish hook'. Finer picks get their own names: nõn tôm, 'shrimp bud', for bud and one leaf, and trà đinh, 'nail tea', for buds alone, picked at dawn and rolled one by one, which can cost as much as a good oolong. A last low firing gives the characteristic toasty note that Vietnamese drinkers compare to young green rice.\n\nThe taste is the point of contention with newcomers: it is astringent, deliberately so, and then it turns sweet in the throat, the 'hậu ngọt' aftertaste that the Vietnamese prize above all. Brewed their way, a small pot, hot but not boiling water, quick steeps and small cups, that sequence of bite and sweetness repeats four or five times. Brewed Western-style for three minutes, it is simply bitter.\n\nIt is sold by grade and season rather than by vintage, and the spring flush commands the premium. 'Tân Cương' on a packet is worth as much as the seller's honesty, since the name is used far beyond the commune; buy from a known grower or a specialist shop and look for whole, tight hooks with a dusty bloom and a sweet toasted smell. Flavoured and artificially coloured 'green teas' exist at the bottom of the market.\n\nTry it with something salty, or the way it is often drunk in the north, alongside roasted sunflower seeds; and if the bite is too much, a Thái Nguyên nõn tôm is gentler than a móc câu.",
+  "description": "Thái Nguyên, a province an hour or two north of Hanoi, is the capital of Vietnamese green tea, and the commune of Tân Cương just outside the provincial city is its most famous name. Vietnam is one of the world's largest tea producers, but most of its tea is exported in bulk; Thái Nguyên green is the tea the Vietnamese keep for themselves, drunk strong and hot in tiny cups at breakfast, in offices and on pavement stools.\n\nThe classic tea comes from the trung du midland bush and is pan-fired and rolled until the leaves curl into tight little hooks, which is why the standard grade is called móc câu, 'fish hook'. Finer picks get their own names: nõn tôm, 'shrimp bud', for bud and one leaf, and trà đinh, 'nail tea', for buds alone, which can cost as much as a good oolong. A last low firing gives the characteristic toasty note that Vietnamese drinkers compare to young green rice.\n\nThe taste is the point of contention with newcomers: it is astringent, deliberately so, and then it turns sweet in the throat, the 'hậu ngọt' aftertaste that the Vietnamese prize above all. Brewed their way, a small pot, hot but not boiling water, quick steeps and small cups, that sequence of bite and sweetness repeats four or five times. Brewed Western-style for three minutes, it is simply bitter.\n\nIt is sold by grade and season rather than by vintage, and the spring flush commands the premium. 'Tân Cương' on a packet is worth as much as the seller's honesty, since the name is used far beyond the commune; buy from a known grower or a specialist shop and look for whole, tight hooks with a dusty bloom and a sweet toasted smell. Flavoured and artificially coloured 'green teas' exist at the bottom of the market.\n\nTry it with something salty, or the way it is often drunk in the north, alongside roasted sunflower seeds; and if the bite is too much, a Thái Nguyên nõn tôm is gentler than a móc câu.",
   "wikipedia_title": "Thái Nguyên province",
   "wikipedia_scope": "umbrella",
   "popularity": 3,
-  "sources_note": "Grade names and their picking standards (đinh, nõn tôm, móc câu) are common trade usage rather than a regulated standard. Trung du as the traditional cultivar and the newer clones are from memory; Tân Cương has a geographical indication but the registration year is not stated here."
+  "sources_note": "Grade names and their picking standards (đinh, nõn tôm, móc câu) are common trade usage rather than a regulated standard. Trung du as the traditional cultivar and the newer clones are from memory; Tân Cương has a geographical indication but the registration year is not stated here.",
+  "name_zh": "越南太原绿茶",
+  "name_ru": "Тхайнгуен",
+  "history": "Thái Nguyên province, north of Hanoi, and its commune of Tân Cương are the names Vietnamese drinkers most often attach to their everyday green tea. Grade names such as móc câu, nõn tôm and trà đinh are common trade usage rather than a regulated standard.\n\nLittle is documented in plain terms about the tea's early history, so it is safest to think of it simply as the long-standing everyday green of northern Vietnam.",
+  "liquor_hex": "#C9C86A",
+  "leaf_hex": "#3F5230",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Vietnamese_tea",
+    "https://en.wikipedia.org/wiki/Th%C3%A1i_Nguy%C3%AAn_province"
+  ],
+  "confidence": "low",
+  "images": []
 }

@@ -3,11 +3,18 @@
   "name_en": "Laoshan Green",
   "name_native": "崂山绿茶",
   "name_romanized": "Láoshān Lǜchá",
-  "aliases": ["Lao Shan Green", "Laoshan Lü Cha", "Laoshan Lv Cha", "Qingdao green tea", "Mount Lao green"],
+  "aliases": [
+    "Lao Shan Green",
+    "Laoshan Lü Cha",
+    "Laoshan Lv Cha",
+    "Qingdao green tea",
+    "Mount Lao green",
+    "嶗山綠茶"
+  ],
   "category": "green",
   "origin_country": "China",
-  "origin_region": "Shandong · Qingdao · Laoshan (Mount Lao)",
-  "cultivar": "Seed-grown bushes of Huangshan origin plus Fuding Dabai and Longjing 43",
+  "origin_region": "Shandong · Qingdao · Laoshan",
+  "cultivar": "Seedlings introduced from Anhui, Zhejiang and Fujian, plus Fuding Dabai and Longjing 43",
   "processing": "Pan-fired green: shoots are fired, rolled fairly firmly and dried in the pan or a drum, giving a tightly curled, slightly twisted leaf; some makers finish with a light roast.",
   "form": "loose",
   "harvest_season": "Open-air spring tea from late April to late May (greenhouse tea from March to April); summer and autumn teas are also sold, with autumn considered second-best.",
@@ -15,13 +22,65 @@
   "appearance_liquor": "Bright yellow-green, clear.",
   "appearance_wet": "Thick, sturdy bud-and-leaf sets, bright green.",
   "taste_profile": "Rich soybean and fresh chestnut with a thick, savoury body, a hint of seaweed and a long cooling sweetness; a bold green.",
-  "taste_tags": ["nutty", "umami", "sweet", "marine"],
-  "brewing": {"grams": 5, "water_ml": 120, "temp_c": 85, "steeps": 5, "seconds": [30, 25, 35, 50, 75], "notes": "Gaiwan at 85 °C; northern leaf is sturdy and tolerates a generous dose. Also good brewed strong in a tall glass, the local way."},
+  "taste_tags": [
+    "nutty",
+    "umami",
+    "sweet",
+    "marine"
+  ],
+  "brewing": {
+    "grams": 5,
+    "water_ml": 120,
+    "temp_c": 85,
+    "steeps": 5,
+    "seconds": [
+      30,
+      25,
+      35,
+      50,
+      75
+    ],
+    "notes": "Gaiwan at 85 °C; northern leaf is sturdy and tolerates a generous dose. Also good brewed strong in a tall glass, the local way."
+  },
   "caffeine_level": "medium",
   "vintage_note": "Sold by season within the current year: greenhouse spring tea from March, open-air spring tea from late April (the prized one), then summer and autumn pickings at lower prices. Spring tea is sold by picking date; there is no pre-Qingming concept here because the open-air bushes have not budded by then. Drink within the year, kept cold and sealed.",
   "description": "Laoshan green comes from the slopes of Mount Lao above the Yellow Sea at Qingdao, in Shandong, which puts it among the northernmost tea gardens in China. Tea was planted here in the late 1950s as part of a 'move southern tea north' programme, which sounds like a footnote until you taste it: the cold winters, late springs and sea air give a green with a dense, savoury, bean-like character that nothing from Zhejiang quite matches.\n\nThe leaf is pan-fired and rolled firmly into tight curls; the bushes grow slowly in the cold, so the leaf is thick and takes a heavier hand than a Jiangnan spring tea would. Because winters are harsh, many gardens cover their bushes with plastic greenhouses, and the first 'greenhouse' tea comes in March; the open-air tea, picked from late April, is the one locals wait for.\n\nThe cup is the point: rich toasted soybean and chestnut, a thick, savoury body, a flicker of seaweed and a long cool sweetness. It is one of the few Chinese greens that is improved by a generous dose and 85 °C water, and it will run five steeps from a gaiwan. In Qingdao it is brewed strong in a tall glass and drunk all day.\n\nBuying: ask whether it is greenhouse or open-air spring tea, and when it was picked. Greenhouse tea is pleasant but lighter, open-air spring tea is the real thing, and autumn tea is a good cheaper option with a sweeter, less savoury profile. Much Laoshan tea is sold within Shandong, and the name is applied loosely across the Qingdao hills, so a specific village or garden name is a good sign. Drink it within the year.\n\nRizhao green, from down the coast, is the obvious comparison: the same climate story with a slightly different character.",
   "wikipedia_title": "Green tea",
   "wikipedia_scope": "umbrella",
   "popularity": 2,
-  "sources_note": "No dedicated English Wikipedia article found. Planting date 'late 1950s' follows the usual account of the southern-tea-north programme."
+  "sources_note": "No dedicated English Wikipedia article found. Planting date 'late 1950s' follows the usual account of the southern-tea-north programme.",
+  "name_zh": "崂山绿茶",
+  "name_ru": "Лао Шань Люй Ча",
+  "history": "Tea on Mount Lao is recent. It grew out of the 'move southern tea north' effort of the later 1950s, and accounts give 1957 or 1959 as the start depending on what they count: the political push and first seedlings, or the first planting at the Laoshan forestry farm.\n\nEarly plantings mostly died in the cold. In the early 1960s a few dozen surviving bushes were found growing in sheltered spots, and these are remembered locally as the founders of Laoshan tea. The name gained geographical indication status in 2006, and the gardens now cover more than 20,000 mu.",
+  "liquor_hex": "#CFCF72",
+  "leaf_hex": "#46552E",
+  "sources": [
+    "https://epaper.guanhai.com.cn/conpaper/qdzb/resfile/2025-04-21/A11/qdzb-20250421-A11.pdf",
+    "https://paper.people.com.cn/mszk/html/2023-03/06/content_25969974.htm",
+    "https://thetea-main-en.pages.dev/article/laoshan-lucha",
+    "https://www.jiemian.com/article/7370357.html"
+  ],
+  "confidence": "medium",
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a5/Laoshan_green_tea.jpg/1280px-Laoshan_green_tea.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a5/Laoshan_green_tea.jpg/330px-Laoshan_green_tea.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Laoshan_green_tea.jpg",
+      "author": "Difference engine",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "kind": "dry_leaf",
+      "alt": "Pile of tightly curled dark green dry Laoshan green tea leaves on a white background"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/81/Two_small_tasting_cups_of_Laoshan_green_tea.jpg/1280px-Two_small_tasting_cups_of_Laoshan_green_tea.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/81/Two_small_tasting_cups_of_Laoshan_green_tea.jpg/330px-Two_small_tasting_cups_of_Laoshan_green_tea.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Two_small_tasting_cups_of_Laoshan_green_tea.jpg",
+      "author": "Difference engine",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "kind": "liquor",
+      "alt": "Two small white cups of pale yellow-green Laoshan green tea on a wooden table"
+    }
+  ]
 }

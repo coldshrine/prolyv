@@ -1,0 +1,59 @@
+{
+  "slug": "kuki-hojicha",
+  "name_en": "Kuki Hojicha",
+  "name_native": "茎ほうじ茶",
+  "name_romanized": "Kuki Hōjicha",
+  "name_zh": "茎焙茶",
+  "name_ru": "Куки ходзитя",
+  "aliases": [
+    "Kukicha hojicha",
+    "Roasted kukicha",
+    "Karigane hojicha",
+    "かりがねほうじ茶",
+    "Bocha"
+  ],
+  "category": "green",
+  "origin_country": "Japan",
+  "origin_region": "Kyoto",
+  "cultivar": null,
+  "processing": "Tea stems (kukicha) are roasted at high heat until reddish brown, which lowers catechins and builds toasty pyrazine aromas.",
+  "form": "loose",
+  "harvest_season": "Not a harvest-led tea: stems are sorted out when green tea is finished, and quality depends on the base, with first-flush stems in the best Kaga bocha.",
+  "appearance_dry": "Light reddish-brown twigs and stem pieces, with very little leaf.",
+  "appearance_liquor": "Clear amber to light reddish brown.",
+  "appearance_wet": "Soft, swollen tan to brown stems.",
+  "taste_profile": "Toasty, nutty and softly sweet with a slight caramel note, very little bitterness and a clean finish.",
+  "taste_tags": [
+    "roasted",
+    "nutty",
+    "sweet"
+  ],
+  "brewing": {
+    "grams": 5,
+    "water_ml": 200,
+    "temp_c": 100,
+    "steeps": 2,
+    "seconds": [
+      30,
+      20
+    ],
+    "notes": "Use boiling water and a short steep; long steeps add little. It can also be cold-brewed, or served with meals."
+  },
+  "caffeine_level": "low",
+  "vintage_note": "Sold all year with no vintage, normally as a fresh roast with a best-before date. Roasted aroma fades, so buy small packets and use them within a few months of opening. Better lots name the stem base, such as first-flush Kaga bocha.",
+  "description": "Kuki hojicha is hojicha made from stems rather than leaves, the roasted version of kukicha. Stems are a by-product of finishing green tea, and roasting turns them into something sweet and gentle. In Kyoto a stem-based green tea is called karigane, and the roasted form may be sold as karigane hojicha.\n\nHigh heat turns the stems from green to reddish brown. That reaction replaces grassy notes with roasted ones and knocks back the catechins behind astringency, so this is about the most forgiving tea on the shelf.\n\nThe cup is amber and smells like toasted nuts with a hint of caramel. Boiling water suits it. Mild and low in bitterness, it works beside dinner, and people often choose it in the evening.\n\nQuality varies more than the price suggests, because hojicha can be made from low grades. Kaga bocha from Ishikawa, stem-roasted and sometimes from first-flush material, is the benchmark to try next.",
+  "history": "Hojicha began as a way to use what would not sell: unwanted stems, hard leaves and old tea. Commercial methods settled between the Meiji and early Showa periods, with Kyoto leaf hojicha and Ishikawa's stem-based bocha as the two main lines. A popular story credits a Kyoto merchant in the 1920s with inventing it by roasting unsold bancha; treat this as a story, since the Ishikawa tradition suggests a wider origin.\n\nStem roasting shifted from hand pans to drum roasters, and hojicha has lately spread abroad through lattes and bottled drinks.",
+  "liquor_hex": "#A9642A",
+  "leaf_hex": "#9A6A3E",
+  "sources": [
+    "https://ja.wikipedia.org/wiki/%E3%81%BB%E3%81%86%E3%81%98%E8%8C%B6",
+    "https://en.wikipedia.org/wiki/H%C5%8Djicha",
+    "https://ru.wikipedia.org/wiki/%D0%A5%D0%BE%D0%B4%D0%B7%D0%B8%D1%82%D1%8F",
+    "https://www.wikidata.org/wiki/Q1652744"
+  ],
+  "confidence": "medium",
+  "wikipedia_title": "Hōjicha",
+  "wikipedia_scope": "umbrella",
+  "popularity": 3,
+  "images": []
+}

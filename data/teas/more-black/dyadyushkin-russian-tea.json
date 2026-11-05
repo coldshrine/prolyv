@@ -1,0 +1,51 @@
+{
+  "slug": "dyadyushkin-russian-tea",
+  "name_en": "Dyadyushkin Russian Tea",
+  "name_native": "Русский чай Дядюшкина",
+  "name_romanized": "Russkiy chay Dyadyushkina",
+  "name_zh": "佳久什金俄罗斯茶",
+  "name_ru": "Русский чай Дядюшкина",
+  "aliases": [
+    "Dyadyushkin's Russian tea"
+  ],
+  "category": "black",
+  "origin_country": "Georgia",
+  "origin_region": "Georgia",
+  "cultivar": null,
+  "processing": "A black tea with a tip content recorded at up to 5.5%; the details of its manufacture are not documented.",
+  "form": "loose",
+  "harvest_season": "Not documented. A high tip content implies young picking, but no season is recorded for this tea.",
+  "appearance_dry": "Not described in detail; a tippy black leaf, going by its recorded tip content.",
+  "appearance_liquor": "Not recorded; Georgian black tea generally gives a less deeply coloured cup than Indian or Ceylon tea.",
+  "appearance_wet": "Not recorded for this tea.",
+  "taste_profile": "No tasting notes survive for this tea; good Georgian black is generally fragrant and soft rather than sharp.",
+  "taste_tags": [
+    "sweet",
+    "malty"
+  ],
+  "brewing": {
+    "grams": 4,
+    "water_ml": 250,
+    "temp_c": 95,
+    "steeps": 1,
+    "seconds": [
+      180
+    ],
+    "notes": "A guide for Georgian black tea in general, since this one is historical: it extracts quickly, and 1.5 to 2 teaspoons per cup gives a stronger cup."
+  },
+  "caffeine_level": "medium",
+  "vintage_note": "A historical pre-revolutionary tea, with no documented current production or vintages. A modern tin using the name should be treated as a revival or borrowed name unless the seller can show otherwise.",
+  "description": "Dyadyushkin's Russian Tea was a black tea grown in Georgia before the Russian Revolution, remembered as one of the best of its time. It is a historical name more than something you can buy.\n\nWhat stands out in the record is its tips: up to 5.5%. Tips were a mark of quality in Georgian tea, and this level put it ahead of ordinary Chinese teas of the day.\n\nNo tasting notes for it are known. As a general guide, good Georgian black is fragrant with a soft, unsharp taste, a lighter colour than Indian or Ceylon tea, and a fast extraction.\n\nTo get a sense of the tradition, look for a tippy black tea from a current small Georgian producer. It will not be this tea, but it is the nearest living relative.",
+  "history": "This tea belongs to the group of pre-revolutionary Georgian sorts, alongside Bogatyr, Kara-Dere, Zedoban and Ozurgetsky, that showed Georgian bushes could give high-quality tea. It is recorded as winning a gold medal at the Paris exhibition of 1899.\n\nLittle else is documented, including who Dyadyushkin was, where exactly the tea was grown and when it stopped being made.",
+  "wikipedia_title": null,
+  "wikipedia_scope": "none",
+  "popularity": 2,
+  "liquor_hex": "#B26A2C",
+  "leaf_hex": "#3A291D",
+  "sources": [
+    "https://ru.wikipedia.org/wiki/%D0%93%D1%80%D1%83%D0%B7%D0%B8%D0%BD%D1%81%D0%BA%D0%B8%D0%B9_%D1%87%D0%B0%D0%B9"
+  ],
+  "confidence": "low",
+  "images": [],
+  "sources_note": "The medal date 1899 is as stated in the source; the same source gives 1900 for the Paris medal of Popov's tea, so a check is worthwhile. name_zh is a descriptive rendering."
+}

@@ -3,25 +3,70 @@
   "name_en": "Tencha",
   "name_native": "碾茶",
   "name_romanized": "Tencha",
-  "aliases": ["Matcha leaf", "Unground matcha", "Ten-cha", "Tencha leaf tea"],
+  "aliases": [
+    "Matcha leaf",
+    "Unground matcha",
+    "Ten-cha",
+    "Tencha leaf tea"
+  ],
   "category": "green",
   "origin_country": "Japan",
-  "origin_region": "Kyoto · Uji; Aichi · Nishio; Kagoshima; Shizuoka",
+  "origin_region": "Kyoto · Uji",
   "cultivar": "Samidori, Asahi, Uji-hikari, Gokou, Okumidori, Saemidori, Yabukita",
-  "processing": "Shaded for 20–30 days like gyokuro, steamed, then dried flat without any rolling in a brick tencha furnace; stems and veins are removed by cutting and air sorting, leaving thin flakes of leaf blade ready for grinding into matcha.",
+  "processing": "Shaded for about two to three weeks like gyokuro, steamed, then dried flat without any rolling in a tencha furnace; stems and veins are removed by cutting and air sorting, leaving thin flakes of leaf blade ready for grinding into matcha.",
   "form": "loose",
-  "harvest_season": "First flush in May for the drinking grades of matcha; second-flush and autumn tencha go into culinary matcha. Production has expanded sharply with matcha demand, including more machine-harvested lots.",
+  "harvest_season": "First flush in May for the drinking grades of matcha; autumn tencha goes into food use. Production has expanded sharply with matcha demand, including more machine-harvested lots.",
   "appearance_dry": "Small, papery, brittle flakes of deep green leaf with the stems and veins removed, very light for their volume.",
   "appearance_liquor": "Pale, clear green with a faint sheen.",
   "appearance_wet": "Thin, flat pieces of leaf blade, vivid green, like torn tissue paper.",
   "taste_profile": "Soft, sweet and umami-rich with a clean, almost delicate texture; far less intense than matcha made from the same leaf because you are only infusing it.",
-  "taste_tags": ["umami", "sweet", "marine", "vegetal"],
-  "brewing": {"grams": 5, "water_ml": 200, "temp_c": 65, "steeps": 2, "seconds": [120, 90], "notes": "Tencha is very light, so measure by weight, not spoons. Cool water, a long first steep; many people prefer it cold-brewed. It infuses gently rather than giving the punch of matcha."},
+  "taste_tags": [
+    "umami",
+    "sweet",
+    "marine",
+    "vegetal"
+  ],
+  "brewing": {
+    "grams": 5,
+    "water_ml": 200,
+    "temp_c": 65,
+    "steeps": 2,
+    "seconds": [
+      120,
+      90
+    ],
+    "notes": "Tencha is very light, so measure by weight, not spoons. Cool water, a long first steep; many people prefer it cold-brewed. It infuses gently rather than giving the punch of matcha."
+  },
   "caffeine_level": "medium",
   "vintage_note": "Normally not a retail product at all: tencha is made from the spring harvest and stored cold for grinding into matcha through the year. The small amount sold as leaf is current-year first flush from matcha producers, in small bags; it is a curiosity rather than a staple and should be drunk within the year, because the thin flakes stale quickly once the bag is open.",
-  "description": "Tencha is matcha before it is ground: leaf that was shaded like gyokuro, steamed, dried flat without rolling and stripped of its stems and veins. Almost all of it goes straight into mills, so it is barely a retail tea at all, but a few matcha producers sell it as leaf and it is worth trying once, because it shows you what matcha is actually made of.\n\nThe process diverges from gyokuro right after steaming. Instead of being rolled, the leaves are blown and dried flat in a brick tencha furnace with a conveyor inside, then cut and winnowed so that only the thin leaf blade remains; the stems and veins are sold on as karigane. The result is light, brittle flakes, and the removal of everything but the blade is why matcha is so green, so smooth and so expensive. A granite stone mill turns only a few tens of grams of tencha into matcha in an hour.\n\nAs a leaf tea it is gentle. The flakes have almost no density, so measure 5 g by weight, cover with plenty of water at 60–65 °C and give it a couple of minutes; you get a pale, sweet, umami-rich cup with a clean texture and none of the intensity of matcha, because most of the leaf's goodness stays in the leaf when you only infuse it. It cold-brews beautifully. The mistake is to expect matcha in a kyusu; it is closer to a delicate gyokuro.\n\nWhat little is sold comes from matcha makers in Uji, Nishio and Kagoshima, in small bags, and should be from the spring harvest; buy it from a shop that mills its own matcha. Two name traps: Chinese 'tian cha' (sweet tea) is an unrelated plant, and 'tencha' on a bulk listing does not tell you how long the leaf was shaded or which harvest it was. Production of tencha has expanded sharply with world demand for matcha, and a lot of newer tencha is second-flush, machine-harvested leaf destined for culinary grades.\n\nTry it alongside a matcha from the same producer: same leaf, two completely different drinks.",
+  "description": "Tencha is matcha before it is ground: leaf that was shaded like gyokuro, steamed, dried flat without rolling and stripped of its stems and veins. Almost all of it goes straight into mills, so it is barely a retail tea at all, but a few matcha producers sell it as leaf and it is worth trying once, because it shows you what matcha is actually made of.\n\nThe process diverges from gyokuro right after steaming. Instead of being rolled, the leaves are blown and dried flat in a tencha furnace with a conveyor inside, then cut and winnowed so that only the thin leaf blade remains. The result is light, brittle flakes, and the removal of everything but the blade is why matcha is so green, so smooth and so expensive.\n\nAs a leaf tea it is gentle. The flakes have almost no density, so measure 5 g by weight, cover with plenty of water at 60–65 °C and give it a couple of minutes; you get a pale, sweet, umami-rich cup with a clean texture and none of the intensity of matcha, because most of the leaf's goodness stays in the leaf when you only infuse it. It cold-brews beautifully. The mistake is to expect matcha in a kyusu; it is closer to a delicate gyokuro.\n\nWhat little is sold comes from matcha makers in Uji, Nishio and Kagoshima, in small bags, and should be from the spring harvest; buy it from a shop that mills its own matcha. Two name traps: Chinese 'tian cha' (sweet tea) is an unrelated plant, and 'tencha' on a bulk listing does not tell you how long the leaf was shaded or which harvest it was. Production of tencha has expanded sharply with world demand for matcha, and some newer tencha is machine-harvested leaf destined for food use.\n\nTry it alongside a matcha from the same producer: same leaf, two completely different drinks.",
   "wikipedia_title": "Tencha",
   "wikipedia_scope": "exact",
   "popularity": 2,
-  "sources_note": "English Wikipedia title assumed to be 'Tencha'; if the article is at 'Tencha (tea)' or only a redirect, fall back to 'Matcha' as umbrella."
+  "sources_note": "English Wikipedia title assumed to be 'Tencha'; if the article is at 'Tencha (tea)' or only a redirect, fall back to 'Matcha' as umbrella.",
+  "name_zh": "碾茶",
+  "name_ru": "Тэнтя",
+  "history": "Tencha is the leaf that becomes matcha, and its name says so: the character 碾 means grinding in a mill. Its story is tied to shade growing, which developed in Uji. Japanese farmers were shading tea for grinding by the sixteenth century, and that shading gave matcha its vivid colour and savoury taste. Before sencha spread, tencha was the main tea Japan produced.\n\nToday the Japanese labelling standard pins it down: leaf from a garden covered for about two to three weeks, steamed, then dried without rolling in a tencha dryer. Powder ground from any other tea counts as powdered tea rather than matcha. Traditional Uji gardens used a frame of wood or bamboo with reed screens and rice straw, known as honzu, while steel pipe and synthetic cloth are common now.\n\nThe recent change is scale. Japan made 6,278 tonnes in 2025, about 3.2 times the 2014 figure and 8.6 percent of its crude tea, with Kagoshima, Kyoto and Shizuoka in the lead. Hand-picked leaf from naturally grown bushes still goes to the high grades, but machine-harvested tea from trimmed hedges, mainly for food use, has been part of the growth.",
+  "liquor_hex": "#D5DB9A",
+  "leaf_hex": "#4F7A35",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Tencha",
+    "https://ja.wikipedia.org/wiki/%E7%A2%BE%E8%8C%B6",
+    "https://ru.wikipedia.org/wiki/%D0%A2%D1%8D%D0%BD%D1%82%D1%8F",
+    "https://en.wikipedia.org/wiki/Matcha",
+    "https://www.wikidata.org/wiki/Q11587820"
+  ],
+  "confidence": "high",
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/07/Iced_tencha_tea.jpg/1280px-Iced_tencha_tea.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/07/Iced_tencha_tea.jpg/330px-Iced_tencha_tea.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Iced_tencha_tea.jpg",
+      "author": "Kmardahl",
+      "license": "CC BY-SA 2.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+      "kind": "liquor",
+      "alt": "White cup of iced tencha tea, pale green liquor with ice cubes, seen from above"
+    }
+  ]
 }

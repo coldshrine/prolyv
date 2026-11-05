@@ -3,10 +3,21 @@
   "name_en": "Gunpowder Green (Zhu Cha)",
   "name_native": "珠茶",
   "name_romanized": "Zhūchá",
-  "aliases": ["Gunpowder tea", "Pearl tea", "Pingshui Zhucha", "Temple of Heaven Gunpowder", "Zhu Cha", "Pingshui Pearl"],
+  "aliases": [
+    "Gunpowder tea",
+    "Pearl tea",
+    "Pingshui Zhucha",
+    "Temple of Heaven Gunpowder",
+    "Zhu Cha",
+    "Pingshui Pearl",
+    "Pinhead Gunpowder",
+    "平水珠茶",
+    "Чжу Ча",
+    "Люй Чжу"
+  ],
   "category": "green",
   "origin_country": "China",
-  "origin_region": "Zhejiang · Shaoxing and Pingshui (also Anhui, Hunan, Jiangxi)",
+  "origin_region": "Zhejiang · Shaoxing",
   "cultivar": "Mixed regional landraces and standard clones; not cultivar-specific",
   "processing": "Pan-fired green rolled into pellets: fairly mature leaf is fired, rolled, then dried for hours in heated rotating drums so each leaf curls into a tight, glossy ball; traditionally hand-rolled in woks, now almost entirely machine-made.",
   "form": "loose",
@@ -15,12 +26,72 @@
   "appearance_liquor": "Deep yellow to amber-green, clear.",
   "appearance_wet": "Whole mature leaves unfurl large and dark olive green.",
   "taste_profile": "Bold, toasty and slightly smoky with a firm astringency and a honeyed sweetness underneath; made to stand up to mint and sugar.",
-  "taste_tags": ["roasted", "smoky", "bitter", "brisk", "sweet"],
-  "brewing": {"grams": 3, "water_ml": 200, "temp_c": 85, "steeps": 3, "seconds": [90, 90, 150], "notes": "Western-style in a pot or gongfu with short steeps both work. Avoid boiling water unless you are making Moroccan mint tea, where the bitterness is wanted. The pellets take a minute to open, so do not judge the first steep too early."},
+  "taste_tags": [
+    "roasted",
+    "smoky",
+    "bitter",
+    "brisk",
+    "sweet"
+  ],
+  "brewing": {
+    "grams": 3,
+    "water_ml": 200,
+    "temp_c": 85,
+    "steeps": 3,
+    "seconds": [
+      90,
+      90,
+      150
+    ],
+    "notes": "Western-style in a pot or gongfu with short steeps both work. Avoid boiling water unless you are making Moroccan mint tea, where the bitterness is wanted. The pellets take a minute to open, so do not judge the first steep too early."
+  },
   "caffeine_level": "medium",
-  "vintage_note": "Sold year-round with no harvest date and no vintage: it is a blended commodity grade, labelled by export numbers such as 3505 (the finest, often marketed as 'Temple of Heaven' or 'Pinhead'), 9375 and 9372 down to coarser grades. The tight roll keeps it fresh for a year or two in a sealed tin, which is unusual for a green. Organic and 'special grade' versions exist; none is tied to a season.",
-  "description": "Gunpowder is the green tea rolled into little pellets that look, if you squint, like lead shot, and it is one of the most-drunk green teas on earth without being famous in China at all. Most of it is made in Zhejiang around Shaoxing (the historic Pingshui district gave it its Chinese trade name) and most of it is exported, above all to Morocco and the rest of North Africa, where it is the base of mint tea.\n\nIt is made for durability rather than delicacy. The leaf is picked bigger and later than for the famous greens, pan-fired, rolled, and then tumbled for hours in heated drums until each leaf curls into a tight, shiny ball. That roll locks in the flavour and keeps out air, which is why gunpowder stays drinkable for a couple of years when other greens are tired after a few months.\n\nThe cup is bold: toasty, a little smoky, with a firm bite and a honeyed sweetness under it, and a deep yellow-green colour. Brewed like a delicate green it is merely harsh; brewed like a robust one, 85 °C with a decent dose for a couple of minutes, it is a satisfying everyday tea. With fresh mint and sugar, boiled hard in the Maghrebi way, it becomes something else entirely, and that is its real calling.\n\nIt is sold by grade number rather than by season or origin: 3505 is the small, glossy top grade (often sold as Temple of Heaven or 'pinhead'), with 9375, 9372 and coarser numbers below it. Smaller, shinier and more uniform pellets mean better leaf; dull, grey, uneven ones mean stalks and age. There is no vintage to chase and no reason to pay for one.\n\nIf you want the pellet shape with real finesse, Yongxi Huo Qing from Anhui is the hand-rolled, single-origin cousin; it costs many times more and shows what the style can do.",
+  "vintage_note": "Sold year-round with no harvest date and no vintage: it is a blended commodity grade, labelled by export numbers such as 3505 (3505AAA is usually named as the finest) and lower numbers including 9372 and 9375, and also under trade names such as Temple of Heaven and Pinhead. The tight roll keeps it fresh for a year or two in a sealed tin, which is unusual for a green. Organic and 'special grade' versions exist; none is tied to a season.",
+  "description": "Gunpowder is the green tea rolled into little pellets that look, if you squint, like lead shot, and it is one of the most-drunk green teas on earth without being famous in China at all. Most of it is made in Zhejiang around Shaoxing (the historic Pingshui district gave it its Chinese trade name) and most of it is exported, above all to Morocco and the rest of North Africa, where it is the base of mint tea.\n\nIt is made for durability rather than delicacy. The leaf is picked bigger and later than for the famous greens, pan-fired, rolled, and then tumbled for hours in heated drums until each leaf curls into a tight, shiny ball. That roll locks in the flavour and keeps out air, which is why gunpowder stays drinkable for a couple of years when other greens are tired after a few months.\n\nThe cup is bold: toasty, a little smoky, with a firm bite and a honeyed sweetness under it, and a deep yellow-green colour. Brewed like a delicate green it is merely harsh; brewed like a robust one, 85 °C with a decent dose for a couple of minutes, it is a satisfying everyday tea. With fresh mint and sugar, boiled hard in the Maghrebi way, it becomes something else entirely, and that is its real calling.\n\nIt is sold by grade number rather than by season or origin: 3505 is the small, glossy top grade, with lower numbers such as 9372 and 9375 below it, and Temple of Heaven and Pinhead are common trade names for Pingshui gunpowder. Smaller, shinier and more uniform pellets mean better leaf; dull, grey, uneven ones mean stalks and age. There is no vintage to chase and no reason to pay for one.\n\nIf you want the pellet shape with real finesse, Yongxi Huo Qing from Anhui is the hand-rolled, single-origin cousin; it costs many times more and shows what the style can do.",
   "wikipedia_title": "Gunpowder tea",
   "wikipedia_scope": "exact",
-  "popularity": 4
+  "popularity": 4,
+  "name_zh": "珠茶",
+  "name_ru": "Ганпаудер",
+  "history": "Gunpowder is a shape more than a single named tea, and its early history is hazy. It is often said to date back to the Tang dynasty, but that claim comes without detail and should be taken loosely. The firmer association is with Pingshui in Zhejiang, whose pellets count as the original and most common kind and gave the Chinese trade name Pingshui Zhucha.\n\nThe English name is itself unsettled. It may come from the pellets looking like gunpowder, from the way they burst open in hot water, from a smoky taste, or, less likely, from a Mandarin phrase for 'freshly brewed' that sounds a little like it.\n\nHand rolling has given way to machines for all but the highest grades, and the tea became a major export. Its great second home is the Maghreb, where it is the base of mint tea with sugar and sits at the centre of social life. The same pellet shape was also adopted elsewhere, including Taiwan near Keelung and many rolled oolongs, so 'gunpowder' on a label does not by itself tell you where a tea comes from.",
+  "liquor_hex": "#C9B356",
+  "leaf_hex": "#4A5A3A",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Gunpowder_tea",
+    "https://ja.wikipedia.org/wiki/%E7%8F%A0%E8%8C%B6",
+    "https://ru.wikipedia.org/wiki/%D0%93%D0%B0%D0%BD%D0%BF%D0%B0%D1%83%D0%B4%D0%B5%D1%80"
+  ],
+  "confidence": "medium",
+  "images": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/5/53/Gruener_Tee_China_Gunpowder.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/53/Gruener_Tee_China_Gunpowder.jpg/330px-Gruener_Tee_China_Gunpowder.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Gruener_Tee_China_Gunpowder.jpg",
+      "author": "The original uploader was Petwoe at German Wikipedia .",
+      "license": "CC BY-SA 3.0",
+      "license_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+      "kind": "dry_leaf",
+      "alt": "Pile of China Gunpowder green tea, tightly rolled dark pellets"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/f/f2/Gunpowder_tea_in_pile.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f2/Gunpowder_tea_in_pile.jpg/330px-Gunpowder_tea_in_pile.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Gunpowder_tea_in_pile.jpg",
+      "author": "Self-photographed",
+      "license": "Public domain",
+      "license_url": null,
+      "kind": "dry_leaf",
+      "alt": "Pile of Chinese Gunpowder tea, small rolled dark green pellets"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f5/Gunpowder_Green_Tea.jpg/1280px-Gunpowder_Green_Tea.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f5/Gunpowder_Green_Tea.jpg/330px-Gunpowder_Green_Tea.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Gunpowder_Green_Tea.jpg",
+      "author": "Veganlover1993",
+      "license": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "kind": "dry_leaf",
+      "alt": "Grey-green gunpowder tea pellets spilling from a glass jar"
+    }
+  ]
 }

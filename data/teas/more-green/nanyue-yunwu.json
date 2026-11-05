@@ -1,0 +1,60 @@
+{
+  "slug": "nanyue-yunwu",
+  "name_en": "Nanyue Yunwu",
+  "name_native": "南岳云雾茶",
+  "name_romanized": "Nányuè Yúnwù Chá",
+  "name_zh": "南岳云雾茶",
+  "name_ru": "Нань Юэ Юнь У",
+  "aliases": [
+    "Nanyue Yunwu Cha",
+    "Nanyue Cloud and Mist Tea",
+    "Hengshan Yunwu",
+    "南嶽雲霧茶"
+  ],
+  "category": "green",
+  "origin_country": "China",
+  "origin_region": "Hunan · Hengyang · Nanyue",
+  "cultivar": null,
+  "processing": "Green tea graded by a group standard into silver needle, maojian and yunwu grades, with no colouring, flavouring or other additives allowed. The step-by-step method is not widely published.",
+  "form": "loose",
+  "harvest_season": "Picked in spring and autumn; leaf from around Qingming and Guyu is the most valued, and is locally called maiden tea.",
+  "appearance_dry": "Typically tight, fine, curled strips with silvery-white down.",
+  "appearance_liquor": "Typically a bright, tender green.",
+  "appearance_wet": "Tender and even, as is typical of a downy mountain green.",
+  "taste_profile": "Usually described as a clear, lasting aroma and a mellow taste.",
+  "taste_tags": [
+    "vegetal",
+    "sweet",
+    "floral"
+  ],
+  "brewing": {
+    "grams": 3,
+    "water_ml": 150,
+    "temp_c": 82,
+    "steeps": 3,
+    "seconds": [
+      60,
+      75,
+      100
+    ],
+    "notes": "General settings for a downy mountain green. Use cooler water for the silver needle grade, a touch hotter for the yunwu grade."
+  },
+  "caffeine_level": "medium",
+  "vintage_note": "Sold mainly as the current year's spring harvest, with lots from around Qingming and Guyu at the top. Grades run from silver needle through maojian to yunwu; autumn tea also exists.",
+  "description": "Nanyue Yunwu is the cloud-and-mist green of Mount Heng, the southern sacred peak of China, in Hengyang. It is reported to grow at roughly 600 to 1,100 metres, with Longchi village among the core areas.\n\nThe name covers a family of grades: silver needle, maojian and the plain yunwu green. A group standard is reported to ban colouring and added flavour, a useful line to remember when a cup smells perfumed.\n\nExpect tight, curled, downy leaf and a bright, tender-green cup with a clear aroma and a mellow body. Use moderate water for the finer grades.\n\nWhen buying, ask for the grade and the picking time, because the most valued leaf is from around Qingming and Guyu. It is often called a longevity tea locally, which is a nickname and not a health claim to take seriously.",
+  "history": "Lu Yu's Tea Classic mentions tea from the valleys of Hengshan County, and Tang tribute is claimed for the area, though these early mentions do not concern today's product by name. The late-Ming and early-Qing thinker Wang Fuzhi is said to have left a poem on tea picking at Nanyue.\n\nThe date of geographical indication status is given differently, as 2013 or 2019.",
+  "liquor_hex": "#D2D283",
+  "leaf_hex": "#74834A",
+  "sources": [
+    "https://zh.wikipedia.org/wiki/%E8%A1%A1%E5%B1%B1",
+    "https://zh.wikipedia.org/wiki/%E8%A1%A1%E9%98%B3%E5%B8%82",
+    "https://m.voc.com.cn/xhn/news/202605/32696160.html",
+    "https://www.ttbz.org.cn/Home/PdfFileStreamGet/c3QsNDE5MjA(eq)",
+    "https://thetea-main-en.pages.dev/article/nanyue-yunwucha"
+  ],
+  "confidence": "low",
+  "wikipedia_title": null,
+  "wikipedia_scope": "none",
+  "popularity": 3,
+  "images": []
+}

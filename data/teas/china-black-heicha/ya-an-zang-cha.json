@@ -3,7 +3,15 @@
   "name_en": "Ya'an Zang Cha (Ya'an Tibetan Tea)",
   "name_native": "雅安藏茶",
   "name_romanized": "Yǎ'ān Zàngchá",
-  "aliases": ["Tibetan tea", "Zang Cha", "Ya'an dark tea", "Sichuan border tea", "Bian Cha", "Zangcha", "Jin Jian"],
+  "aliases": [
+    "Tibetan tea",
+    "Zang Cha",
+    "Ya'an dark tea",
+    "Sichuan border tea",
+    "Bian Cha",
+    "Zangcha",
+    "Jin Jian"
+  ],
   "category": "heicha",
   "origin_country": "China",
   "origin_region": "Sichuan · Ya'an",
@@ -15,13 +23,59 @@
   "appearance_liquor": "Deep red-brown to ruby, bright.",
   "appearance_wet": "Coarse dark-brown leaves and stems.",
   "taste_profile": "Smooth, woody and sweet with a mild earthiness, a faint smoky warmth and a long, rounded finish without bitterness; finer modern lots are cleaner and a little fruitier.",
-  "taste_tags": ["woody", "sweet", "earthy", "smoky"],
-  "brewing": {"grams": 8, "water_ml": 120, "temp_c": 100, "steeps": 8, "seconds": [15, 15, 20, 30, 45, 60, 90, 150], "notes": "Simmer 10 g per litre for 5–10 minutes for the traditional cup, or rinse twice and brew with boiling water in a clay pot; small cubes are made for a thermos."},
+  "taste_tags": [
+    "woody",
+    "sweet",
+    "earthy",
+    "smoky"
+  ],
+  "brewing": {
+    "grams": 8,
+    "water_ml": 120,
+    "temp_c": 100,
+    "steeps": 8,
+    "seconds": [
+      15,
+      15,
+      20,
+      30,
+      45,
+      60,
+      90,
+      150
+    ],
+    "notes": "Simmer 10 g per litre for 5–10 minutes for the traditional cup, or rinse twice and brew with boiling water in a clay pot; small cubes are made for a thermos."
+  },
   "caffeine_level": "low",
   "vintage_note": "Sold by pressing year and factory, from the traditional 500 g Kang Zhuan and larger Jin Jian bricks to small gift bricks, cubes and loose packs; the modern consumer products are mostly 1–5 years old, traditional bricks 1–10 years, with older bricks traded as collectables.",
-  "description": "Ya'an Zang Cha is the modern umbrella name for the dark teas of Ya'an in western Sichuan – 'Tibetan tea', because for most of their history they were made for Tibet and drunk there as butter tea. The name became a protected origin in the 2000s, and under it sit the traditional border bricks (Kang Zhuan and the larger, coarser Jin Jian) and a new line of small bricks, cubes, gift boxes and loose tea aimed at Chinese city drinkers who want the tea without the thirty-kilo bundle.\n\nAll of it is made by the Ya'an method of repeated steaming and piling, which the makers describe as 'making colour': fired and rolled leaf is heaped warm and damp, steamed, heaped again, and the cycle repeated until the leaf is evenly dark, before drying and pressing. It is a slower, gentler darkening than the single big pile of ripe pu-erh, and it gives a tea that is smooth and woody rather than earthy or muddy.\n\nIn the cup expect wood, a deep sweetness, a mild earthiness and a faint smoky warmth, with a rounded finish and no bitterness; the finer modern lots are cleaner and show a little dried fruit. Simmered, it makes the thick red-brown liquor that takes butter or milk; brewed gongfu after two rinses it gives seven or eight steeps. The small cubes are built for a thermos and are the easiest way to drink it at a desk.\n\nIt is sold by pressing year and factory – the Ya'an and Yingjing tea factories are the historic makers – in formats from the 500 g border brick to gift tins; price rises with the leaf grade and the packaging rather than with age. Look for a sweet, woody, clean smell and a firm, dry brick; the marketing ('thirty-two steps', health claims) can be ignored in favour of the cup.\n\nIf you want the authentic version, buy a plain Kang Zhuan; if you want the easy version, buy the cubes and keep a few in your bag for winter.",
+  "description": "Ya'an Zang Cha is the modern umbrella name for the dark teas of Ya'an in western Sichuan – 'Tibetan tea', because for most of their history they were made for Tibet and drunk there as butter tea. The name became a protected origin in the 2000s, and under it sit the traditional border bricks (Kang Zhuan and the larger, coarser Jin Jian) and a new line of small bricks, cubes, gift boxes and loose tea aimed at Chinese city drinkers who want the tea without the big bundle.\n\nAll of it is made by the Ya'an method of repeated steaming and piling, which the makers describe as 'making colour': fired and rolled leaf is heaped warm and damp, steamed, heaped again, and the cycle repeated until the leaf is evenly dark, before drying and pressing. It is a slower, gentler darkening than the single big pile of ripe pu-erh, and it gives a tea that is smooth and woody rather than earthy or muddy.\n\nIn the cup expect wood, a deep sweetness, a mild earthiness and a faint smoky warmth, with a rounded finish and no bitterness; the finer modern lots are cleaner and show a little dried fruit. Simmered, it makes the thick red-brown liquor that takes butter or milk; brewed gongfu after two rinses it gives seven or eight steeps. The small cubes are built for a thermos and are the easiest way to drink it at a desk.\n\nIt is sold by pressing year and factory – the Ya'an and Yingjing tea factories are the historic makers – in formats from the 500 g border brick to gift tins; price rises with the leaf grade and the packaging rather than with age. Look for a sweet, woody, clean smell and a firm, dry brick; the 'thirty-two steps' describe the traditional craft, but the health claims can be ignored in favour of the cup.\n\nIf you want the authentic version, buy a plain Kang Zhuan; if you want the easy version, buy the cubes and keep a few in your bag for winter.",
   "wikipedia_title": "Tibetan tea",
   "wikipedia_scope": "exact",
   "popularity": 2,
-  "sources_note": "'Ya'an Zang Cha' geographical indication is dated to 2008 in Chinese sources; stated as 'the 2000s'. The 'thirty-two steps' figure is a marketing claim used by Ya'an makers and is mentioned only as such."
+  "sources_note": "'Ya'an Zang Cha' geographical indication is dated to 2008 in Chinese sources; stated as 'the 2000s'. The 'thirty-two steps' figure is a marketing claim used by Ya'an makers and is mentioned only as such.",
+  "name_zh": "雅安藏茶",
+  "name_ru": "Я Ань Цзан Ча",
+  "history": "Ya'an, once Yazhou, is where Sichuan's dark tea for Tibet was gathered and made. The trade grew in the Tang and Song dynasties as the southern-road border tea, exchanged for Tibetan horses, and the tea-and-horse offices at Yazhou and Diaomen set the rates. The Ming records one such rate: forty jin of tea for a top horse, later raised to 120 when horses were scarce.\n\nThe leaf left as bricks and went on over the caravan routes through Kangding. Its origins in Tibet come with legends, such as the bird that brought a sprig to an ailing Songtsen Gampo, or Princess Wencheng carrying tea in her dowry; both are stories rather than history.\n\nOf the many old border grades, two survive, Kang Zhuan and the coarser Jin Jian. The making of southern-road tea joined China's national heritage list in 2008 and is part of the Chinese tea crafts inscribed by UNESCO in 2022. Ya'an Zang Cha as a name for city drinkers, in small bricks and cubes, is recent.",
+  "liquor_hex": "#7A2F1C",
+  "leaf_hex": "#3B281B",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Tibetan_tea",
+    "https://zh.wikipedia.org/wiki/%E8%97%8F%E8%8C%B6",
+    "https://zh.wikipedia.org/wiki/%E5%B7%9D%E8%8C%B6",
+    "https://xdspkj.ijournals.cn/xdspkjen/article/pdf/20130945",
+    "https://www.rmzxw.com.cn/c/2021-08-20/2937629.shtml"
+  ],
+  "confidence": "high",
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1f/Briques_de_th%C3%A9_tib%C3%A9tain.jpg/1280px-Briques_de_th%C3%A9_tib%C3%A9tain.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1f/Briques_de_th%C3%A9_tib%C3%A9tain.jpg/330px-Briques_de_th%C3%A9_tib%C3%A9tain.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Briques_de_th%C3%A9_tib%C3%A9tain.jpg",
+      "author": "Atoutibet",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "kind": "cake",
+      "alt": "Stacked dark bricks of Tibetan tea drying on shelves in a Ya'an tea factory"
+    }
+  ]
 }

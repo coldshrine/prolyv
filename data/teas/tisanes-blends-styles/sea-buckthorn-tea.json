@@ -3,10 +3,17 @@
   "name_en": "Sea Buckthorn Tea",
   "name_native": "Обліпиховий чай / Облепиховый чай",
   "name_romanized": "Oblypykhovyi chai",
-  "aliases": ["Oblepikha tea", "Oblypykha", "Seaberry tea", "Sanddorn tea", "Hippophae rhamnoides", "Chatsargana"],
+  "aliases": [
+    "Oblepikha tea",
+    "Oblypykha",
+    "Seaberry tea",
+    "Sanddorn tea",
+    "Hippophae rhamnoides",
+    "Chatsargana"
+  ],
   "category": "tisane",
   "origin_country": "Russia",
-  "origin_region": "Altai Krai · Siberia (where modern cultivation was developed); the shrub grows from Europe to Mongolia and China, and the café drink is popular across Ukraine, Russia and Central Asia",
+  "origin_region": "Altai",
   "cultivar": "Hippophae rhamnoides, the bright orange berries; the leaves are also dried for a separate, milder infusion",
   "processing": "The berries are picked or shaken from the thorny branches, often after frost, then frozen, crushed or blended with sugar or honey into a purée; the café version is crushed berries topped with hot water, honey, and often ginger, orange or cinnamon. Dried berries and dried leaf are sold for conventional steeping.",
   "form": "other",
@@ -15,13 +22,37 @@
   "appearance_liquor": "Cloudy bright orange with tiny droplets of oil on the surface.",
   "appearance_wet": "Crushed pulp and skins at the bottom of the glass.",
   "taste_profile": "Tart and tangy like sour mango or apricot with a resinous, faintly pine-like note and a rich, slightly oily texture; it is always sweetened, usually with honey.",
-  "taste_tags": ["tart", "fruity", "stone-fruit", "sweet"],
-  "brewing": {"grams": 50, "water_ml": 300, "temp_c": 80, "steeps": 1, "seconds": [300], "notes": "Crush 50 g of fresh or thawed berries in a glass or small pot, add honey to taste and 300 ml of water at about 80 °C (boiling water dulls the fruit), stir and leave 5 minutes; drink it with the pulp. Grated ginger, a slice of orange or a cinnamon stick are the usual café additions. Dried berries: 5 g per cup, 10 minutes, boiling water."},
+  "taste_tags": [
+    "tart",
+    "fruity",
+    "stone-fruit",
+    "sweet"
+  ],
+  "brewing": {
+    "grams": 50,
+    "water_ml": 300,
+    "temp_c": 80,
+    "steeps": 1,
+    "seconds": [
+      300
+    ],
+    "notes": "Crush 50 g of fresh or thawed berries in a glass or small pot, add honey to taste and 300 ml of water at about 80 °C (boiling water dulls the fruit), stir and leave 5 minutes; drink it with the pulp. Grated ginger, a slice of orange or a cinnamon stick are the usual café additions. Dried berries: 5 g per cup, 10 minutes, boiling water."
+  },
   "caffeine_level": "none",
   "vintage_note": "Not a dried-leaf product with a vintage: it is sold as frozen berries, as berry purée or jam-like 'cheong' in jars with a production date, as a syrup for cafés, and in a smaller way as dried berries and dried leaf with a one- to two-year best-before. Fresh berries appear in markets in September and October; the café drink is made year-round from frozen stock. Look for whole bright-orange berries without a stale, rancid note, since the berry oil goes off with age.",
-  "description": "Sea buckthorn tea is the bright orange glass that every café in Kyiv, Lviv and Moscow puts on the winter menu: crushed sour-sweet berries, honey, hot water, often ginger or orange, drunk with a spoon for the pulp. The shrub grows wild on riverbanks and dunes from Europe to Mongolia, and its cultivation as a fruit crop was worked out in Siberia's Altai region, which is why Russia and Ukraine have such a habit of it.\n\nThere is no tea leaf and no processing to speak of: the berries are frozen or blended, because they are too sour and too fragile to do much else with. The berries are unusual in containing oil, which gives the drink its slightly rich, silky texture and the faint resinous, pine-like aroma that sets it apart from other sour fruit teas.\n\nIt tastes of sour mango and apricot with a tangy, almost savoury depth, and it needs honey; the balance between the two is the whole recipe. Use hot but not boiling water, crush the berries well and let it sit for a few minutes. The common mistake at home is too few berries and too much water, which gives a thin, acidic cup.\n\nBuy frozen whole berries from a Ukrainian, Russian or Baltic grocery, or a jar of purée with a recent production date; a dried-berry infusion is milder and a dried-leaf infusion is a different, grassy drink altogether. There is no vintage, only the autumn harvest and the freezer.\n\nIt has traditionally been drunk as a winter vitamin drink; whatever you make of that, it is one of the great cold-weather cups, and it pairs naturally with ginger, orange and a little cinnamon.",
+  "description": "Sea buckthorn tea is the bright orange glass that many cafés in Ukraine and Russia put on the winter menu: crushed sour-sweet berries, honey, hot water, often ginger or orange, drunk with a spoon for the pulp. The shrub grows across cold-temperate Eurasia from Europe to Mongolia, and Siberia's Altai region is often named as a centre of its cultivation as a fruit crop.\n\nThere is no tea leaf and no processing to speak of: the berries are frozen or blended, because they are too sour and too fragile to do much else with. The berries are unusual in containing oil, which gives the drink its slightly rich, silky texture and the faint resinous, pine-like aroma that sets it apart from other sour fruit teas.\n\nIt tastes of sour mango and apricot with a tangy, almost savoury depth, and it needs honey; the balance between the two is the whole recipe. Use hot but not boiling water, crush the berries well and let it sit for a few minutes. The common mistake at home is too few berries and too much water, which gives a thin, acidic cup.\n\nBuy frozen whole berries from a Ukrainian, Russian or Baltic grocery, or a jar of purée with a recent production date; a dried-berry infusion is milder and a dried-leaf infusion is a different, grassy drink altogether. There is no vintage, only the autumn harvest and the freezer.\n\nIt has traditionally been drunk as a winter vitamin drink; whatever you make of that, it is one of the great cold-weather cups, and it pairs naturally with ginger, orange and a little cinnamon.",
   "wikipedia_title": "Sea buckthorn",
   "wikipedia_scope": "umbrella",
   "popularity": 3,
-  "sources_note": "The Altai (Barnaul) origin of commercial cultivation is from general knowledge; worth a fact-check."
+  "sources_note": "The Altai (Barnaul) origin of commercial cultivation is from general knowledge; worth a fact-check.",
+  "name_zh": "沙棘茶",
+  "name_ru": "Облепиховый чай",
+  "history": "Sea buckthorn is a spiny shrub of cold-temperate Eurasia, with subspecies from the Carpathians and the Caucasus to Mongolia, Tibet and central China. Its fruit has culinary uses, and its oil and extracts are used in cosmetics and traditional medicine.\n\nThe hot drink of crushed berries and honey is a café staple in Russia, Ukraine and nearby countries. Little is documented about when it took that form, and its link with Siberian fruit growing is commonly repeated rather than well recorded for the drink itself.",
+  "liquor_hex": "#E8891C",
+  "leaf_hex": "#E2841F",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Sea_buckthorn"
+  ],
+  "confidence": "low",
+  "images": []
 }

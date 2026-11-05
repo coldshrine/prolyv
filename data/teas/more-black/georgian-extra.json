@@ -1,0 +1,53 @@
+{
+  "slug": "georgian-extra",
+  "name_en": "Georgian Extra",
+  "name_native": "Экстра",
+  "name_romanized": "Ekstra",
+  "name_zh": "格鲁吉亚特级茶",
+  "name_ru": "Грузинский Экстра",
+  "aliases": [
+    "Georgian Extra (black)",
+    "Экстра",
+    "Extra"
+  ],
+  "category": "black",
+  "origin_country": "Georgia",
+  "origin_region": "Georgia",
+  "cultivar": null,
+  "processing": "A top grade made only from the upper leaves of the bush and containing tips, finished as black tea. A green tea also carried the Extra name.",
+  "form": "loose",
+  "harvest_season": "Made from the uppermost young leaves; a specific season is not recorded.",
+  "appearance_dry": "Clean dark leaf with visible tips.",
+  "appearance_liquor": "Clear amber, lighter than Indian or Ceylon black, as is general for Georgian tea.",
+  "appearance_wet": "Small, even, coppery young leaves, as expected from upper-leaf picking.",
+  "taste_profile": "Aromatic with a pleasant, unsharp taste, as with good Georgian black tea in general.",
+  "taste_tags": [
+    "sweet",
+    "malty"
+  ],
+  "brewing": {
+    "grams": 4,
+    "water_ml": 250,
+    "temp_c": 95,
+    "steeps": 1,
+    "seconds": [
+      150
+    ],
+    "notes": "It extracts quickly and colours lightly. Use 1.5 to 2 teaspoons per cup for strength rather than a long steep, and drink it unblended to taste it properly."
+  },
+  "caffeine_level": "medium",
+  "vintage_note": "Extra was a Soviet quality grade, not a vintage or a season, and packs were not sold by harvest year. 'Extra' on a modern pack is a seller's label to question. As with other black teas, drink it within a couple of years of production.",
+  "description": "Georgian Extra is a grade rather than a place: with Buket, it sat at the very top of the Soviet grading of Georgian black tea. Below it came the higher grade, then first and second grades of steadily worse cleanliness.\n\nWhat set it apart was the raw material. Extra used only the top leaves of the bush and contained tips, while second grade came from machine-picked leaf and shoots with a lot of foreign matter. The lineage of Georgian black tea is usually traced to Chinese Keemun-style tea.\n\nExpect a soft cup, fragrant and easy rather than brisk. The liquor looks paler than the Indian and Ceylon teas many drinkers grew up with, and the leaf gives itself up fast. For a stronger cup, add leaf.\n\nWhen buying, treat the word Extra with care. It carried a defined meaning in the Soviet system, but that does not guarantee the same standard on a pack today. Ask who grew the tea and where, and judge by tips and cleanliness of the leaf.",
+  "history": "The grade belongs to the Soviet period, when tea growing in Georgia was a state matter and the republic was a major supplier to the Union. A 1952 Soviet advertising poster for Чай Грузинский экстра is held in the National Parliamentary Library of Georgia.\n\nLittle is documented about when the grade was introduced or the exact standard behind it.",
+  "wikipedia_title": null,
+  "wikipedia_scope": "none",
+  "popularity": 2,
+  "liquor_hex": "#B87230",
+  "leaf_hex": "#3A291C",
+  "sources": [
+    "https://ru.wikipedia.org/wiki/%D0%93%D1%80%D1%83%D0%B7%D0%B8%D0%BD%D1%81%D0%BA%D0%B8%D0%B9_%D1%87%D0%B0%D0%B9"
+  ],
+  "confidence": "low",
+  "images": [],
+  "sources_note": "name_zh is a descriptive rendering."
+}

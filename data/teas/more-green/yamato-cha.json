@@ -1,0 +1,59 @@
+{
+  "slug": "yamato-cha",
+  "name_en": "Yamato-cha",
+  "name_native": "大和茶",
+  "name_romanized": "Yamato-cha",
+  "name_zh": "大和茶",
+  "name_ru": "Ямато-тя",
+  "aliases": [
+    "Yamato cha",
+    "Yamato tea",
+    "Sencha Yamato",
+    "大和煎茶"
+  ],
+  "category": "green",
+  "origin_country": "Japan",
+  "origin_region": "Nara · Yamato Highlands",
+  "cultivar": "Yabukita, Yamatomidori, Okumidori, Meiryoku",
+  "processing": "Mostly steamed sencha, as is typical of the highlands; Yamatomidori is valued for sencha.",
+  "form": "loose",
+  "harvest_season": "Spring first flush is the prized picking, as elsewhere in Japan.",
+  "appearance_dry": "Fine dark green needles, as is typical of sencha.",
+  "appearance_liquor": "Clear yellow-green.",
+  "appearance_wet": "Soft mid-green leaf, as is typical of steamed tea.",
+  "taste_profile": "Fragrant with a natural sweetness and savoury depth, a profile growers credit to the cool nights of the highlands.",
+  "taste_tags": [
+    "sweet",
+    "umami",
+    "grassy"
+  ],
+  "brewing": {
+    "grams": 4,
+    "water_ml": 120,
+    "temp_c": 75,
+    "steeps": 3,
+    "seconds": [
+      60,
+      15,
+      40
+    ],
+    "notes": "Typical settings for sencha. Use cooler water for the sweetness, and pour out fully so the leaf does not stew between steeps."
+  },
+  "caffeine_level": "medium",
+  "vintage_note": "Sold as the current year's harvest, with spring first-flush sencha at the top, and best drunk within about a year. Labels may carry the broad name Yamato-cha or a narrower place such as Tsukigase, Fukusumi, Yagyu or Yamazoe.",
+  "description": "Yamato-cha is the tea of Nara Prefecture, grown mainly on the cool Yamato Highlands in the northeast, around Nara City, Tenri, Uda and Yamazoe, with a smaller southern area along the Yoshino River at Oyodo and Higashiyoshino. In the broad sense the name gathers up all of them.\n\nThe fields lie at roughly 200 to 600 metres, with short daylight, big swings between day and night, and morning mist. The sugars made by day are less used up overnight, which is the usual explanation for the sweetness. Most of it is made into sencha.\n\nIn the cup, look for fragrance first, then a soft savoury sweetness. It behaves like any good sencha: cooler water and short steeps, and do not let the leaf sit wet in the pot between pours.\n\nThe name is broad, so the place or producer on the label tells you more. Yabukita is the common cultivar, and Yamatomidori, selected from Nara's native tea, is the one to seek out for local character. Tsukigase is the best-known sub-area to try next.",
+  "history": "Tea in Nara is genuinely old: Shosoin documents from 758 use the character for tea. Later texts place court tea rituals in 729 and link Nara's tea gruel to the building of the Great Buddha, but those were written long after the fact and prove little.\n\nThe founding story is a tradition: Kukai (Kobo Daishi) is said to have brought seeds back from Tang China in 806, sown at Butsuryu-ji in today's Uda, where a tea mortar is kept and shown. Another account has a villager named Yoshida Tarobei buying seed from Shigaraki.\n\nIn modern times the prefecture's own breeding produced Yamatomidori, registered in 1953 from native stock. In 2007 Nara's crude tea output was 2,850 tonnes, sixth in Japan.",
+  "liquor_hex": "#D2D27C",
+  "leaf_hex": "#46622F",
+  "sources": [
+    "https://ja.wikipedia.org/wiki/%E5%A4%A7%E5%92%8C%E8%8C%B6",
+    "https://www.wikidata.org/wiki/Q11433557",
+    "https://www.maff.go.jp/kinki/tiiki/nara/photo/photo_2024/report_20240501.html",
+    "https://www.pref.nara.jp/secure/279277/chirashi_yamatocha_2022.pdf"
+  ],
+  "confidence": "high",
+  "wikipedia_title": "Japanese tea",
+  "wikipedia_scope": "umbrella",
+  "popularity": 3,
+  "images": []
+}

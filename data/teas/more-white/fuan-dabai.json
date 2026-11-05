@@ -1,0 +1,62 @@
+{
+  "slug": "fuan-dabai",
+  "name_en": "Fu'an Dabai",
+  "name_native": "福安大白茶",
+  "name_romanized": "Fú'ān Dàbái Chá",
+  "name_zh": "福安大白茶",
+  "name_ru": "Фуань Да Бай",
+  "aliases": [
+    "Fu'an Da Bai",
+    "Fuan Dabai",
+    "Фуань Дабай",
+    "Camellia sinensis cv Fu'an Dabai",
+    "皇帝茶"
+  ],
+  "category": "white",
+  "origin_country": "China",
+  "origin_region": "Fujian · Fu'an · Muyang",
+  "cultivar": "Fu'an Dabai",
+  "processing": "A clonal cultivar rather than one finished tea. Made as white tea it is withered and dried without rolling; the same leaf is also suited to black tea.",
+  "form": "loose",
+  "harvest_season": "An early-budding cultivar, picked in spring for its first shoots; the exact timing depends on place and the tea being made.",
+  "appearance_dry": "As white tea, typical of big-white cultivars: plump downy buds and leaf in silver and olive tones.",
+  "appearance_liquor": "As white tea, typically pale apricot-gold and clear.",
+  "appearance_wet": "The fresh leaf is dark green and glossy; infused white tea leaf is soft and olive-green.",
+  "taste_profile": "Tasting notes specific to this cultivar are little documented. White teas from big-white cultivars typically drink soft and sweet with light floral and hay notes.",
+  "taste_tags": [
+    "sweet",
+    "floral"
+  ],
+  "brewing": {
+    "grams": 5,
+    "water_ml": 120,
+    "temp_c": 90,
+    "steeps": 5,
+    "seconds": [
+      30,
+      30,
+      40,
+      60,
+      90
+    ],
+    "notes": "These are general white tea settings. If the leaf was made as black tea, use boiling-point water and shorter steeps."
+  },
+  "caffeine_level": "medium",
+  "vintage_note": "The cultivar itself is not a sold grade; it appears inside white and black teas, usually without being named. As with other whites, a loose lot is sold by harvest year and may be drunk fresh or kept. Black tea made from it is usually bought within a year or two.",
+  "description": "Fu'an Dabai is a tea plant before it is a tea: a clonal, early-budding Fujian cultivar from Shanggaoshan village in Muyang, in what was Fu'an county. It is a nationally recognised improved variety, and you will meet it more often in the raw material than on a label.\n\nIt is prized for yield and for being adaptable. It suits both white and black tea, and white tea makers name it alongside Fuding Dabai and Fuding Dahao as a standard source of leaf. In Fu'an it also fed the revival of Tanyang Gongfu black tea.\n\nThe cultivar has little documented tasting character of its own, so expect what its processing gives. As a white tea, assume the soft, sweet profile common to big-white cultivars, and brew it like one.\n\nWhen buying, the name mainly tells you about the plant. Ask how it was made and in which year. If you like comparing plants, try it beside a Fuding Dabai made the same way.",
+  "history": "Two accounts of its origin exist: one says the grandfather of Lin Xiuzhu selected it from wild tea, the other that it came in from the Songxi, Zhenghe and Jianyang area. It was commonly called Emperor Tea and was renamed Fu'an Dabai in 1973.\n\nFrom the 1950s it was propagated in Fu'an to support Tanyang Gongfu production. From 1970 it was introduced to Anhui, Hunan, Hubei, Guizhou, Zhejiang, Jiangxi, Jiangsu and Sichuan. In 1985 it was recognised as a national improved variety, number GS13003-1985.",
+  "liquor_hex": "#E2C98A",
+  "leaf_hex": "#A9AE8C",
+  "sources": [
+    "https://zh.wikipedia.org/wiki/%E7%A6%8F%E5%AE%89%E5%A4%A7%E7%99%BD%E8%8C%B6",
+    "https://zh.wikipedia.org/wiki/%E7%99%BD%E8%8C%B6",
+    "https://www.milulu.com.cn/tea/3391.html",
+    "https://www.wikidata.org/wiki/Q67933866"
+  ],
+  "confidence": "medium",
+  "images": [],
+  "wikipedia_title": "福安大白茶",
+  "wikipedia_scope": "exact",
+  "popularity": 2,
+  "sources_note": "The zh source calls it both big-leaf and medium-leaf class; leaf class left out of the card."
+}

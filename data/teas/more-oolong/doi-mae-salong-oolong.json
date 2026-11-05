@@ -1,0 +1,60 @@
+{
+  "slug": "doi-mae-salong-oolong",
+  "name_en": "Doi Mae Salong Oolong",
+  "name_native": "ดอยแม่สลอง",
+  "name_romanized": "Doi Mae Salong",
+  "name_zh": "美斯乐乌龙茶",
+  "name_ru": "Улун Дой Мэ Салонг",
+  "aliases": [
+    "Mae Salong Oolong",
+    "Thai Oolong",
+    "美斯乐乌龙",
+    "美斯樂烏龍"
+  ],
+  "category": "oolong",
+  "origin_country": "Thailand",
+  "origin_region": "Chiang Rai · Doi Mae Salong",
+  "cultivar": "Jin Xuan (No. 12), No. 17, Dong Ding type",
+  "processing": "Taiwanese oolong methods: partial oxidation and ball-rolling, with the oxidation and roast varying by product.",
+  "form": "loose",
+  "harvest_season": "Little is documented on specific picking dates; ask the estate which flush a lot comes from.",
+  "appearance_dry": "Tightly rolled green balls, in the Taiwanese manner.",
+  "appearance_liquor": "Pale gold to light amber, depending on the style.",
+  "appearance_wet": "Whole green leaves that unfurl fully, as with Taiwanese rolled oolongs.",
+  "taste_profile": "Varies with cultivar; Jin Xuan lots typically lean creamy and floral, as Jin Xuan does in Taiwan.",
+  "taste_tags": [
+    "floral",
+    "creamy",
+    "sweet"
+  ],
+  "brewing": {
+    "grams": 6,
+    "water_ml": 110,
+    "temp_c": 95,
+    "steeps": 6,
+    "seconds": [
+      30,
+      20,
+      25,
+      30,
+      45,
+      60
+    ],
+    "notes": "Typical gongfu settings for rolled oolong. A long first steep lets the balls open."
+  },
+  "caffeine_level": "medium",
+  "vintage_note": "Sold by cultivar number and product line, such as No. 12 or No. 17, with the same classifications used in Taiwan. It is a fresh tea, best within about a year as usual for rolled green-style oolong, and years are often not prominently stated, so ask for the harvest.",
+  "description": "Doi Mae Salong is a mountain village in northern Thailand with a Chinese community and tea that comes straight out of Taiwan. Its distinction is its story: this is oolong planted as a replacement for opium by the descendants of Kuomintang soldiers.\n\nThe plantations grow Taiwanese varieties, including Jin Xuan, Dong Ding types and Oriental Beauty, and use the same number classifications. The method follows Taiwanese models too, so a lot here should be judged like a Taiwanese rolled oolong.\n\nTaste depends on the cultivar. A No. 12 Jin Xuan should be creamy and floral as it is elsewhere, while a roasted or osmanthus line will be a different drink altogether. Brew it hot, with a longer first steep.\n\nThe village shops resemble those on Alishan, and flavoured versions are sold alongside plain ones. Ask for the cultivar number and whether the tea is scented. It is worth comparing with a Taiwanese Jin Xuan, the same plant in another climate.",
+  "history": "Former Nationalist soldiers under General Tuan Hsi-wen began settling Mae Salong around 1961, when the village had no paved roads or electricity.\n\nFrom 1987, a Taiwan-linked relief body founded by Soong Mayling, the Free China Relief Association, sent agricultural advisors and tea seedlings as part of a plan to replace opium with other crops. That programme helped turn the village into one of Thailand's best-known tea areas, and its ties to Taiwan remain strong.",
+  "liquor_hex": "#DCC877",
+  "leaf_hex": "#46603A",
+  "wikipedia_title": "Mae Salong",
+  "wikipedia_scope": "umbrella",
+  "popularity": 3,
+  "sources": [
+    "https://www.taipeitimes.com/News/feat/archives/2025/05/22/2003837289",
+    "https://en.wikipedia.org/wiki/Mae_Salong"
+  ],
+  "confidence": "medium",
+  "images": []
+}

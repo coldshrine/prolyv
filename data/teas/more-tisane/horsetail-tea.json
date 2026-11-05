@@ -1,0 +1,57 @@
+{
+  "slug": "horsetail-tea",
+  "name_en": "Horsetail Tea (Cola de Caballo)",
+  "name_native": "cola de caballo",
+  "name_romanized": null,
+  "name_zh": "问荆茶",
+  "name_ru": "Хвощ полевой",
+  "aliases": [
+    "Sugina-cha (field horsetail tea)",
+    "スギナ茶",
+    "Field horsetail tea",
+    "Equisetum arvense"
+  ],
+  "category": "tisane",
+  "origin_country": "Peru",
+  "origin_region": "Widespread wild plant",
+  "cultivar": "Equisetum arvense",
+  "processing": "The stems are dried; in Japan the young green stems are dried and then roasted for sugina-cha.",
+  "form": "loose",
+  "harvest_season": "Young green stems are the part used in Japan; little is documented about a set season elsewhere.",
+  "appearance_dry": "Short, jointed, thin green stem pieces, browner when roasted.",
+  "appearance_liquor": "Pale yellow-green, typical of a dried-stem infusion; deeper when made from roasted stems.",
+  "appearance_wet": "Soft, jointed green stem segments.",
+  "taste_profile": "Little is documented about its taste; expect a plain, green herbal cup, as with other dried-stem infusions, with some toastiness in the roasted Japanese form.",
+  "taste_tags": [
+    "herbal",
+    "vegetal"
+  ],
+  "brewing": {
+    "grams": 1,
+    "water_ml": 250,
+    "temp_c": 100,
+    "steeps": 1,
+    "seconds": [
+      300
+    ],
+    "notes": "Western-style infusion. Standard doses are around 1 g at a time, and use is usually limited to short courses of about a week. Not for pregnancy, breastfeeding, children or people with kidney disease."
+  },
+  "caffeine_level": "none",
+  "vintage_note": "Sold as a dried herb with no vintage: as cut herb in health shops, and as roasted sugina-cha in Japan. There is no harvest-year culture to follow. Buy from a seller who names the species, since toxic relatives such as marsh horsetail exist.",
+  "description": "Horsetail tea is an infusion of the stems of field horsetail, Equisetum arvense, a primitive flowerless plant. Spanish speakers call it cola de caballo, and Japan has its own version, sugina-cha, one of its many non-tea health teas.\n\nIt is made by drying the stems, and the Japanese style roasts the young green ones as well. That roasting is the one real choice in how it is made, and it should give a warmer cup than the plain dried herb, as roasting does with other herbal teas.\n\nLittle is documented about the taste as such, and few drink it for pleasure. Treat it as a mild green herbal infusion and keep the portion small. Most interest in it comes from folk medicine, where it has long been used as a diuretic and against bleeding.\n\nThis is one to treat with some care. The plant carries thiaminase, which breaks down vitamin B1, and whether brewing fully removes it is not settled. Keep to short periods, and see a doctor first if you take diuretics. Always buy the named species.",
+  "history": "Spanish folk medicine gave horsetail a strong reputation, mainly for stopping bleeding and for kidney and bladder complaints, and its long list of Spanish folk names shows how familiar it was. In Japan the roasted stems are classed among the health teas made without tea leaf.\n\nLittle is documented about the Peruvian use of this tea in particular, or about when it became a commercial product. Canada now requires horsetail products to be certified free of thiaminase-like activity.",
+  "liquor_hex": "#CFC27A",
+  "leaf_hex": "#6E8050",
+  "sources": [
+    "https://es.wikipedia.org/wiki/Equisetum_arvense",
+    "https://ja.wikipedia.org/wiki/%E3%82%B9%E3%82%AE%E3%83%8A",
+    "https://www.tuasaude.com/en/horsetail-tea",
+    "https://cob-foundation.pages.dev/health-information/horsetail-tea-side-effects"
+  ],
+  "confidence": "low",
+  "wikipedia_title": null,
+  "wikipedia_scope": "none",
+  "popularity": 2,
+  "images": [],
+  "sources_note": "Peru link comes only from the master list. Taste tags and appearance are inferred from the class; no direct taste report was read."
+}

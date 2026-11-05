@@ -1,0 +1,56 @@
+{
+  "slug": "temomicha",
+  "name_en": "Temomicha",
+  "name_native": "手揉み茶",
+  "name_romanized": "Temomicha",
+  "name_zh": "手揉茶",
+  "name_ru": "Тэмомитя",
+  "aliases": [
+    "Hand-rolled Japanese green tea",
+    "Temomi tea",
+    "Temomi sencha"
+  ],
+  "category": "green",
+  "origin_country": "Japan",
+  "origin_region": "Various prefectures",
+  "cultivar": null,
+  "processing": "Fresh shoots are steamed, then shaken, rolled and shaped entirely by hand on a heated paper-covered table called a hoiro, with the leaf itself held near 36°C until it dries into long, tight needles.",
+  "form": "loose",
+  "harvest_season": "Spring, as with other fine Japanese greens. The top material is one bud with two leaves.",
+  "appearance_dry": "Glossy, straight, needle-like leaves drawn to a point at both ends.",
+  "appearance_liquor": "Very pale, with only a faint yellow-green tint.",
+  "appearance_wet": "The needles relax and return to the shape of whole young shoots.",
+  "taste_profile": "Sweet, deep and refined, with a gentle umami rather than force or bitterness.",
+  "taste_tags": [
+    "umami",
+    "sweet",
+    "vegetal"
+  ],
+  "brewing": {
+    "grams": 5,
+    "water_ml": 100,
+    "temp_c": 60,
+    "steeps": 3,
+    "seconds": [
+      90,
+      30,
+      60
+    ],
+    "notes": "These are usual starting points for a fine Japanese green. Use cool water and a wide vessel so you can watch the needles open."
+  },
+  "caffeine_level": "medium",
+  "vintage_note": "Made in small amounts, since one tea master handles only about 1.2 to 1.7 kg of fresh leaf at a time. As with other Japanese greens it is best bought from the current year's spring picking and drunk fresh. Look for the maker's name and the harvest year.",
+  "description": "Temomicha is Japanese green tea made with no machines at all: only steam, a heated table and the hands of a tea master. It is less a regional tea than a method, and it is the method that modern factory sencha was built to imitate.\n\nAfter steaming, the shoots are tossed in the air to shed water, then rolled lightly and heavily in turn, untangled, and finally twisted between the palms into thin spindles. The heat is adjusted so the leaf stays around 36°C, warm to the touch. Too cool and the work stalls; too hot and the surface dries before the inside. The final twisting is considered the hardest stage.\n\nIn the cup it is quiet: a very pale liquor, sweet and deep, with a polished umami. Boiling water would waste it, so brew it cool and watch the needles slowly turn back into small shoots.\n\nGood temomicha is scarce and is usually sold in small lots. When buying, check that the needles are even and glossy, and that the seller says who rolled it and when; the word alone tells you little about the raw leaf.",
+  "history": "The hand method came first: Japan's machine processing was designed by translating these hand motions into mechanical steps, and machines still follow the same rule of holding the leaf near 36°C. The older hoiro tables were heated by charcoal, and today's usually run on gas.\n\nLittle is documented about who first set the standard sequence of stages, so no firm date is given here.",
+  "liquor_hex": "#E3E3AE",
+  "leaf_hex": "#3F5B34",
+  "sources": [
+    "https://ja.wikipedia.org/wiki/%E6%89%8B%E6%8F%89%E3%81%BF%E8%8C%B6",
+    "https://www.wikidata.org/wiki/Q11497063"
+  ],
+  "confidence": "medium",
+  "wikipedia_title": "手揉み茶",
+  "wikipedia_scope": "exact",
+  "popularity": 2,
+  "images": []
+}

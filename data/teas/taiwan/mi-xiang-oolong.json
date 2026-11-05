@@ -3,10 +3,17 @@
   "name_en": "Mi Xiang Oolong (Honey-Aroma Oolong)",
   "name_native": "蜜香烏龍",
   "name_romanized": "Mìxiāng Wūlóng",
-  "aliases": ["Honey oolong", "Honey-scented oolong", "Mi Xiang Wulong", "Leafhopper oolong", "Bug-bitten oolong", "Mixiang oolong"],
+  "aliases": [
+    "Honey oolong",
+    "Honey-scented oolong",
+    "Mi Xiang Wulong",
+    "Leafhopper oolong",
+    "Bug-bitten oolong",
+    "Mixiang oolong"
+  ],
   "category": "oolong",
   "origin_country": "Taiwan",
-  "origin_region": "Hualien · Ruisui; Taitung · Luye; Nantou · Mingjian",
+  "origin_region": "Hualien · Ruisui",
   "cultivar": "Da Ye oolong in the east; Jin Xuan, Si Ji Chun and some Qingxin in Nantou",
   "processing": "Leafhopper-bitten summer leaf made as a rolled oolong with moderate oxidation (roughly 25–40%) and little or no roast, lighter in both respects than Gui Fei; some makers finish it with a whisper of roast.",
   "form": "loose",
@@ -15,12 +22,41 @@
   "appearance_liquor": "Gold to light amber, clear.",
   "appearance_wet": "Mixed green and reddish-brown leaves with ragged, yellowed bitten edges.",
   "taste_profile": "Honey and ripe fruit over a light, floral green-oolong body, softer and lighter than Gui Fei, with a muscat note and a gentle sweet finish.",
-  "taste_tags": ["honey", "fruity", "sweet", "floral"],
-  "brewing": {"grams": 6, "water_ml": 110, "temp_c": 90, "steeps": 6, "seconds": [30, 25, 30, 40, 60, 90], "notes": "A little below the boil and short steeps; hotter water pushes the green side forward and hides the honey. Five or six steeps, and an excellent cold brew."},
+  "taste_tags": [
+    "honey",
+    "fruity",
+    "sweet",
+    "floral"
+  ],
+  "brewing": {
+    "grams": 6,
+    "water_ml": 110,
+    "temp_c": 90,
+    "steeps": 6,
+    "seconds": [
+      30,
+      25,
+      30,
+      40,
+      60,
+      90
+    ],
+    "notes": "A little below the boil and short steeps; hotter water pushes the green side forward and hides the honey. Five or six steeps, and an excellent cold brew."
+  },
   "caffeine_level": "medium",
   "vintage_note": "Sold by summer harvest year, usually at lowland prices and without competition grades; the word 'honey' is used generously, so the empty cup and the bitten leaf edges are the check. Drink it within a year or two; it is not aged.",
   "description": "Mi Xiang oolong, 'honey-fragrance oolong', is the lightest member of Taiwan's family of leafhopper-bitten teas: rolled oolong made from summer leaf that the tea green leafhopper has fed on, oxidised a little more than a green high-mountain tea and given no roast, or only a whisper of one, so the honey sits on a fresh, green body rather than a roasted one. The term comes from Ruisui in Hualien, where Mi Xiang black tea is the flagship and the oolong and green versions followed, and it is now made in Taitung and the Mingjian lowlands as well.\n\nThe leaf is whatever grows in unsprayed lowland gardens, Da Ye oolong in the east, Jin Xuan, Si Ji Chun and some Qing Xin in Nantou, picked from June into September when the hoppers are active. The bitten shoots are withered, oxidised to roughly 25 to 40 percent, pan-fired, ball-rolled and dried; the makers deliberately stop short of the heavier oxidation and roast that turn the same leaf into Gui Fei or Oriental Beauty.\n\nIn the cup you get honey and ripe fruit over a light, floral, green-oolong body, with a muscat note on the finish and a gentle sweetness that is easy to drink all afternoon. Brew it a little below the boil, around 90 degrees, with short steeps; hotter water pushes the green side forward and hides the honey. It gives five or six steeps and makes an excellent cold brew.\n\nIt is sold by summer harvest year, usually at lowland prices, and the word 'honey' is used generously, so check: the empty cup should smell clearly of honey, the wet leaf should show ragged, yellowed bite marks at the edges, and there should be no sticky sweetness from added flavouring. Drink it within a year or two.\n\nIf you like it, Mi Xiang black is the same leaf fully oxidised, and Gui Fei adds the roast.",
   "wikipedia_title": "Taiwanese tea",
   "wikipedia_scope": "umbrella",
-  "popularity": 2
+  "popularity": 2,
+  "name_zh": "蜜香乌龙",
+  "name_ru": "Ми Сян У Лун",
+  "history": "Mi Xiang oolong belongs to Taiwan's family of bug-bitten teas, made from leaf the tea green leafhopper has fed on. The closest relative is Gui Fei, which also goes by honey oolong and is usually more heavily roasted than Oriental Beauty, so the names blur in trade. As a separate lighter style, this tea has little documented history of its own.",
+  "liquor_hex": "#D9A84A",
+  "leaf_hex": "#6B6238",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Taiwanese_tea"
+  ],
+  "confidence": "low",
+  "images": []
 }

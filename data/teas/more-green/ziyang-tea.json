@@ -1,0 +1,51 @@
+{
+  "slug": "ziyang-tea",
+  "name_en": "Ziyang Tea",
+  "name_native": "紫阳茶",
+  "name_romanized": "Zǐyáng Chá",
+  "name_zh": "紫阳茶",
+  "name_ru": "Цзы Ян Ча",
+  "aliases": [],
+  "category": "green",
+  "origin_country": "China",
+  "origin_region": "Shaanxi · Ankang · Ziyang",
+  "cultivar": null,
+  "processing": "The general name for tea from Ziyang county, today mostly green tea in several shapes; older trade tea went to the northwest and was traded for salt and other goods.",
+  "form": "loose",
+  "harvest_season": "Spring for the named green teas, as usual for the class.",
+  "appearance_dry": "Varies by product; today's green teas range from downy round strands to fine needle shapes.",
+  "appearance_liquor": "For the green teas, typically a clear pale green.",
+  "appearance_wet": "Varies by product; good spring lots show tender green buds and leaves.",
+  "taste_profile": "A regional name, so no single taste; the green teas are generally clean and fresh with a sweet finish.",
+  "taste_tags": [
+    "vegetal",
+    "sweet"
+  ],
+  "brewing": {
+    "grams": 3,
+    "water_ml": 150,
+    "temp_c": 82,
+    "steeps": 3,
+    "seconds": [
+      60,
+      80,
+      110
+    ],
+    "notes": "General guidance for Chinese spring greens; follow the specific product if the pack names one."
+  },
+  "caffeine_level": "medium",
+  "vintage_note": "Usually sold as current-year spring green tea, under a product name such as Ziyang Maojian or under the Ziyang selenium tea mark. As with other green teas, the year matters because freshness fades. Nothing about it suggests keeping it to age.",
+  "description": "Ziyang Tea simply means tea from Ziyang county in southern Shaanxi, and it is the broadest name in this family. Think of it as a place label: more specific names sit under it, such as Ziyang Maojian and Ziyang Yinzhen, and the Ziyang selenium tea appellation is its modern protected form.\n\nToday that mostly means green tea. Exactly how it is made depends on the product, so a pack that says only Ziyang tea tells you little about shape or grade.\n\nIn the cup, expect what is typical of a northern Chinese spring green: clean, fresh and softly sweet. Use cooler water and do not leave the leaf sitting in the pot between steeps.\n\nWhen buying, ask for the product name, the picking date and the township. Some older writing treats the name as a synonym of Ziyang Yinzhen, but in ordinary use it covers the whole county.",
+  "history": "Popular accounts give Ziyang a very long tea history: production in the ancient Ba state, trade under the Western Han, Shannan tribute tea under the Tang and tea-for-horses dealings under the Song and Ming, with growers worked hard to fill the demand. These accounts are not firm documentation for Ziyang itself and are best read as local tradition. A long trade with the northwest, where the tea was exchanged for salt and other goods, is a steady theme in them.\n\nA firmer glimpse comes from the 1880s, when Chen Wenfu, an official at Liuba in Shaanxi, bought Ziyang tea seed and taught local people to plant it, so the seed was already sought after within the province by then.\n\nAfter 1949 production grew with state support, and by the end of the twentieth century tea had become central to the rural economy of the county. Origin protection and an annual tea festival came in the early twenty-first century.",
+  "liquor_hex": "#D4D68C",
+  "leaf_hex": "#6C8749",
+  "sources": [
+    "https://milulu.com.cn/tea/3764.html",
+    "https://zh.wikipedia.org/wiki/%E9%99%88%E6%96%87%E9%BB%BB"
+  ],
+  "confidence": "medium",
+  "wikipedia_title": null,
+  "wikipedia_scope": "none",
+  "popularity": 3,
+  "images": []
+}

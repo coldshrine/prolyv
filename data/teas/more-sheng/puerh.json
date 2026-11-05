@@ -1,0 +1,116 @@
+{
+  "slug": "puerh",
+  "name_en": "Pu-erh",
+  "name_native": "普洱茶",
+  "name_romanized": "Pǔ'ěr Chá",
+  "name_zh": "普洱茶",
+  "name_ru": "Пуэр",
+  "aliases": [
+    "Pu'er",
+    "Pu'er tea",
+    "Puerh",
+    "Puercha",
+    "Bo-lei",
+    "Bolay",
+    "Yunnan Pu'er",
+    "云南普洱茶",
+    "Пу Эр",
+    "Пу-эр",
+    "Чай пуэр"
+  ],
+  "category": "sheng",
+  "origin_country": "China",
+  "origin_region": "Yunnan · Xishuangbanna, Pu'er, Lincang",
+  "cultivar": "Yunnan large-leaf (Camellia sinensis var. assamica)",
+  "processing": "Sun-dried maocha is either pressed and left to mature slowly (raw, sheng) or wet-piled for microbial fermentation first (ripe, shu), then sold loose or pressed.",
+  "form": "cake",
+  "harvest_season": "Spring, summer and autumn; early spring tea and the autumn 'gu hua' picking are the most valued.",
+  "appearance_dry": "Long dark leaves, loose or pressed, olive-green when young and raw, red-brown with age or ripening.",
+  "appearance_liquor": "From bright gold-orange in young raw tea to deep, nearly opaque red-brown in ripe tea.",
+  "appearance_wet": "Thick, large leaves: green and supple in young raw tea, dark brown and soft in ripe tea.",
+  "taste_profile": "Young raw tea is bitter-sweet and brisk with a lasting sweet return; aged raw turns woody and dried-fruity; ripe is smooth, earthy and dark.",
+  "taste_tags": [
+    "earthy",
+    "woody",
+    "bitter",
+    "sweet",
+    "camphor"
+  ],
+  "brewing": {
+    "grams": 6,
+    "water_ml": 100,
+    "temp_c": 98,
+    "steeps": 8,
+    "seconds": [
+      10,
+      10,
+      15,
+      20,
+      25,
+      35,
+      45,
+      60
+    ],
+    "notes": "Rinse once, especially with pressed or aged tea. Use boiling water for ripe and aged tea, and slightly cooler water and shorter steeps for very young raw tea."
+  },
+  "caffeine_level": "medium",
+  "vintage_note": "Sold by year and region, loose or pressed, and that label is the point: pu-erh can be kept and changes with time. Raw tea is drunk young or stored for a decade or more, while ripe tea is ready to drink within months and changes less. Old raw tea over about 40 years is rarely on open sale, and ripe tea only dates from 1973, so anything claiming to be older ripe is suspect.",
+  "description": "Pu-erh is Yunnan's fermented tea, made from the large-leaf assamica variety and named after the old trading town of Pu'er, whose Qing-era prefecture collected and sold it. Unlike most so-called fermented teas, it really is changed by microbes, not just by the leaf's own enzymes.\n\nEverything starts as sun-dried maocha. Pressed and left alone, that is raw pu-erh, which matures slowly in storage. Piled wet for weeks first, it becomes ripe pu-erh, a process developed at the Kunming Tea Factory in 1973 and soon taken up at Menghai. Traditionalists still argue over whether ripe counts in the same way.\n\nThe two taste like separate teas. Young raw is vivid, bitter-sweet and sometimes fierce; ripe is smooth, dark and earthy. Both reward quick steeps and a rinse. If you are starting out, a clean ripe or a gentle young raw from a known maker are both easier than a bargain 'aged' cake.\n\nThis is a market with plenty of traps. Faked wrappers, wet-stored tea passed off as old, and famous village names on ordinary leaf are all common. Age alone proves nothing: poor tea or poor storage does not improve. Buy from people who can tell you the factory or maker, and treat investment talk with suspicion.\n\nOutside China, similar tea is made from old trees just over the borders in Laos, Myanmar, Vietnam and Thailand, but in China the name is legally tied to the Yunnan production area.",
+  "history": "Fermented leaf has a long history among peoples of southwest China. The Bulang and Dai have made pu-erh at Jingmai Mountain since at least the 10th century, and its old tea forests became a UNESCO World Heritage Site in 2023.\n\nThe tea reached a wider market under the name of Pu'er town, which the region's administration made a trading point. Demand in postwar Hong Kong encouraged a faster darkening method in the 1950s, and that improved process was taken up in Yunnan in the 1970s and turned into modern wo dui piling.\n\nChina approved pu-erh as a protected geographical indication in May 2008 and a national standard took effect that December, limiting the name to named parts of Yunnan and sun-dried large-leaf tea. Prices of famous villages later soared, then many speculative names fell back in 2025.",
+  "liquor_hex": "#8A4A1E",
+  "leaf_hex": "#4A3A24",
+  "wikipedia_title": "Pu'er tea",
+  "wikipedia_scope": "exact",
+  "popularity": 5,
+  "sources": [
+    "https://en.wikipedia.org/wiki/Pu%27er_tea",
+    "https://zh.wikipedia.org/wiki/%E6%99%AE%E6%B4%B1%E8%8C%B6",
+    "https://ja.wikipedia.org/wiki/%E3%83%97%E3%83%BC%E3%82%A2%E3%83%AB%E8%8C%B6",
+    "https://ru.wikipedia.org/wiki/%D0%9F%D1%83%D1%8D%D1%80",
+    "https://ko.wikipedia.org/wiki/%EB%B3%B4%EC%9D%B4%EC%B0%A8",
+    "https://www.wikidata.org/wiki/Q690098"
+  ],
+  "confidence": "high",
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8b/1970GuangYunPuerh.jpg/1280px-1970GuangYunPuerh.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8b/1970GuangYunPuerh.jpg/330px-1970GuangYunPuerh.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source_page": "https://commons.wikimedia.org/wiki/File:1970GuangYunPuerh.jpg",
+      "author": "Sjschen",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "kind": "dry_leaf",
+      "alt": "Broken pieces of a dark aged 1970s pu-erh cake on a white surface"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/9/9c/Xiaguan_1992_tuo_cha.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9c/Xiaguan_1992_tuo_cha.jpg/330px-Xiaguan_1992_tuo_cha.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Xiaguan_1992_tuo_cha.jpg",
+      "author": "Jason Fasi",
+      "license": "CC BY 2.5",
+      "license_url": "https://creativecommons.org/licenses/by/2.5",
+      "kind": "cake",
+      "alt": "Xiaguan 1992 raw pu-erh tuocha, a dome of pressed dark leaf on a bamboo mat"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ec/Soultea-Pu-erh-first-grade-kanne.jpg/1280px-Soultea-Pu-erh-first-grade-kanne.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ec/Soultea-Pu-erh-first-grade-kanne.jpg/330px-Soultea-Pu-erh-first-grade-kanne.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Soultea-Pu-erh-first-grade-kanne.jpg",
+      "author": "soultea.de /André Helbig",
+      "license": "CC BY 3.0",
+      "license_url": "https://creativecommons.org/licenses/by/3.0",
+      "kind": "liquor",
+      "alt": "Dark red-brown pu-erh tea in a glass teapot and a glass cup on a saucer"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/82/%22Da_Yi_Gong_Tuo%22_Pu-erh_shou_cha%2C_2010.jpg/1280px-%22Da_Yi_Gong_Tuo%22_Pu-erh_shou_cha%2C_2010.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/82/%22Da_Yi_Gong_Tuo%22_Pu-erh_shou_cha%2C_2010.jpg/330px-%22Da_Yi_Gong_Tuo%22_Pu-erh_shou_cha%2C_2010.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source_page": "https://commons.wikimedia.org/wiki/File:%22Da_Yi_Gong_Tuo%22_Pu-erh_shou_cha,_2010.jpg",
+      "author": "Copypaiste",
+      "license": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "kind": "serving",
+      "alt": "Ripe pu-erh tuocha on its opened wrapper beside a clay teapot and a cup of dark tea"
+    }
+  ]
+}

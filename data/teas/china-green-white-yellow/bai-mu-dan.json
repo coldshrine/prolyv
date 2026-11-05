@@ -3,10 +3,19 @@
   "name_en": "Bai Mu Dan (White Peony)",
   "name_native": "白牡丹",
   "name_romanized": "Bái Mǔdān",
-  "aliases": ["White Peony", "Baimudan", "Pai Mu Tan", "Mudan Wang", "Peony King", "Fuding White Peony"],
+  "aliases": [
+    "White Peony",
+    "Baimudan",
+    "Pai Mu Tan",
+    "Mudan Wang",
+    "Peony King",
+    "Fuding White Peony",
+    "白牡丹茶",
+    "Бай Мудань"
+  ],
   "category": "white",
   "origin_country": "China",
-  "origin_region": "Fujian · Fuding, Zhenghe and Jianyang",
+  "origin_region": "Fujian · Fuding",
   "cultivar": "Fuding Dabai, Fuding Dahao, Zhenghe Dabai",
   "processing": "One bud with one or two young leaves, withered slowly for one to three days on trays or racks (sun, shade or a mix), then dried at low temperature; no rolling or firing, so the leaf keeps its shape and a little natural oxidation shows at the edges.",
   "form": "loose",
@@ -15,12 +24,101 @@
   "appearance_liquor": "Pale gold to light apricot, clear and bright.",
   "appearance_wet": "Soft bud and leaves in green and olive with faint reddish edges, whole and intact.",
   "taste_profile": "Fuller than Silver Needle: hay and melon, white peach and honeysuckle, a honeyed sweetness and a soft, round body with a faint grip.",
-  "taste_tags": ["floral", "honey", "fruity", "sweet"],
-  "brewing": {"grams": 5, "water_ml": 120, "temp_c": 90, "steeps": 6, "seconds": [30, 25, 35, 50, 75, 120], "notes": "Gaiwan at 85–95 °C; it is forgiving and takes near-boiling water once it opens. Excellent grandpa-style and cold-brewed, and it can be simmered once aged."},
+  "taste_tags": [
+    "floral",
+    "honey",
+    "fruity",
+    "sweet"
+  ],
+  "brewing": {
+    "grams": 5,
+    "water_ml": 120,
+    "temp_c": 90,
+    "steeps": 6,
+    "seconds": [
+      30,
+      25,
+      35,
+      50,
+      75,
+      120
+    ],
+    "notes": "Gaiwan at 85–95 °C; it is forgiving and takes near-boiling water once it opens. Excellent grandpa-style and cold-brewed, and it can be simmered once aged."
+  },
   "caffeine_level": "medium",
   "vintage_note": "Sold fresh as the current year's spring harvest (graded Mudan Wang, special grade, grade 1 and 2 by bud ratio and picking date) and widely sold aged, loose or pressed into cakes, with the year stated; 3–7 years is the common range and older cakes exist. Fresh is floral and fresh-hay; aged turns to honey, dried fruit and wood. Autumn Mudan is cheaper and plainer.",
   "description": "Bai Mu Dan, 'white peony', is the white tea most people should start with: a bud with one or two young leaves, withered and dried, from the same northern Fujian bushes as Silver Needle but with enough leaf to give flavour, body and a price that lets you drink it every day. The dried shoots, a silver bud between two grey-green leaves, were thought to look like a peony flower, hence the name.\n\nLike all Fujian white tea it is made by withering, not by firing or rolling. The shoots spend one to three days losing water on trays, in sun or shade depending on the house and the weather, and are then dried gently. The leaves oxidise slightly at the edges during that time, which is why a wet Mudan leaf shows a little red and why the tea is fruitier and rounder than Silver Needle.\n\nIn the cup: hay and melon, white peach, honeysuckle, a honeyed sweetness and a soft, round texture with a faint grip at the end. It is forgiving to brew, 85–95 °C in a gaiwan for six steeps, and it is excellent in a tall glass topped up through the day, cold-brewed, or, once aged, simmered in a pot. The common mistake is treating it like a green and brewing it cool and short, which gives a thin, grassy cup.\n\nGrades go by bud ratio and picking date: Mudan Wang ('peony king') is the earliest, bud-heavy picking just after the Silver Needle days; special grade and grades 1 and 2 follow through April with more leaf. Fuding tea is sweeter and prettier, Zhenghe deeper, Jianyang (from the Shui Xian bush) a darker, fuller local style. Autumn Mudan is cheaper and plainer. Aged Mudan, loose or in cakes, is sold with the year stated and is a genuine improvement rather than a marketing one: five years turns it to honey, dried apricot and wood.\n\nA fresh Mudan and an aged Mudan cake make a better introduction to white tea than any Silver Needle, and they cost less.",
   "wikipedia_title": "Baimudan tea",
   "wikipedia_scope": "exact",
-  "popularity": 5
+  "popularity": 5,
+  "name_zh": "白牡丹",
+  "name_ru": "Бай Му Дань",
+  "history": "Bai Mu Dan has a shorter recorded past than its reputation suggests. It is said to have been made first at Jianyang in northern Fujian, before 1922, and after that year Zhenghe took over as the main producer. Fuding, Songxi and Jianyang also make it today.\n\nThe tea takes the same Da Bai bushes as Silver Needle but picks a bud with two young leaves, so it carries more body. Jianyang also used its Shui Xian bushes, and the two main cultivars give the Fuding and Zhenghe styles their differences.\n\nWhere the name comes from is not settled. The usual explanations point to the downy leaf, or to the white bud among green leaves looking like a peony opening. Little is documented about who first made it or sold it under this name, and one early-sounding link, a Drum Mountain monastery tea called Gushan Baiyun that Robert Fortune apparently tasted, is a story about a related tea rather than proof of this one's age.",
+  "liquor_hex": "#E3C77E",
+  "leaf_hex": "#9DA88A",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Baimudan_tea",
+    "https://ja.wikipedia.org/wiki/%E7%99%BD%E7%89%A1%E4%B8%B9",
+    "https://ru.wikipedia.org/wiki/%D0%91%D0%B0%D0%B9_%D0%BC%D1%83%D0%B4%D0%B0%D0%BD%D1%8C",
+    "https://zh.wikipedia.org/wiki/%E7%99%BD%E8%8C%B6"
+  ],
+  "confidence": "medium",
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c5/Bai_Mudan.jpg/1280px-Bai_Mudan.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c5/Bai_Mudan.jpg/330px-Bai_Mudan.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Bai_Mudan.jpg",
+      "author": "chaidrakon.ru",
+      "license": "CC BY 3.0",
+      "license_url": "https://creativecommons.org/licenses/by/3.0",
+      "kind": "dry_leaf",
+      "alt": "Pile of dry Bai Mu Dan with silvery buds and grey-green and brown leaves"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4a/Baimudan.JPG/1280px-Baimudan.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4a/Baimudan.JPG/330px-Baimudan.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Baimudan.JPG",
+      "author": "Badagnani ( talk )",
+      "license": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "kind": "dry_leaf",
+      "alt": "Close view of loose, open dry Bai Mu Dan leaves and pale downy buds"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3b/Frisch_aufgebr%C3%BChter_wei%C3%9Fer_Tee_Pai_Mu_Tan.jpg/1280px-Frisch_aufgebr%C3%BChter_wei%C3%9Fer_Tee_Pai_Mu_Tan.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3b/Frisch_aufgebr%C3%BChter_wei%C3%9Fer_Tee_Pai_Mu_Tan.jpg/330px-Frisch_aufgebr%C3%BChter_wei%C3%9Fer_Tee_Pai_Mu_Tan.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Frisch_aufgebr%C3%BChter_wei%C3%9Fer_Tee_Pai_Mu_Tan.jpg",
+      "author": "soultea.de /André Helbig",
+      "license": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "kind": "liquor",
+      "alt": "Golden Pai Mu Tan white tea in a glass cup and glass teapot"
+    }
+  ],
+  "i18n": {
+    "ru": {
+      "processing": "Почка с одним-двумя молодыми листьями медленно вянет от одного до трёх дней на подносах или стеллажах (на солнце, в тени или смешанно), затем сушится при низкой температуре; без скручивания и прогрева, поэтому лист сохраняет форму, а по краям заметно небольшое естественное окисление.",
+      "harvest_season": "Весна, с начала апреля, после сбора Инь Чжэня, и до конца апреля; самые ранние партии с большой долей почек продают как Му Дань Ван («король пионов»). Делают и более дешёвый осенний Му Дань.",
+      "appearance_dry": "Рыхлые, раскрытые побеги: серебристая почка между двумя серо-зелёными листьями с белым от ворса низом, похоже на засушенный цветок.",
+      "appearance_liquor": "От бледно-золотистого до светло-абрикосового, прозрачный и яркий.",
+      "appearance_wet": "Мягкие почка и листья зелёного и оливкового цвета с едва заметными красноватыми краями, целые и неповреждённые.",
+      "taste_profile": "Полнее, чем Серебряные иглы: сено и дыня, белый персик и жимолость, медовая сладость и мягкое, округлое тело с лёгкой терпкостью.",
+      "vintage_note": "Свежим продаётся как весенний сбор текущего года (сорта Му Дань Ван, высший, первый и второй — по доле почек и дате сбора), а также широко продаётся выдержанным, рассыпным или в прессованных блинах, с указанием года; обычный диапазон — 3–7 лет, встречаются и более старые блины. Свежий чай цветочный, со свежим сеном, а выдержанный уходит в мёд, сухофрукты и дерево. Осенний Му Дань дешевле и проще.",
+      "history": "Записанное прошлое Бай Му Даня короче, чем можно подумать по его репутации. Говорят, что впервые его сделали в Цзяньяне на севере Фуцзяни ещё до 1922 года, а после этого главным производителем стал Чжэнхэ. Сегодня его делают также в Фудине, Сунси и Цзяньяне.\n\nЧай берут с тех же кустов Да Бай, что и Серебряные иглы, но собирают почку с двумя молодыми листьями, поэтому тела в нём больше. В Цзяньяне использовали ещё и кусты Шуй Сянь, а два основных сорта кустов определяют различия фудинского и чжэнхэского стилей.\n\nОткуда взялось название, не установлено. Обычно его объясняют ворсистым листом или тем, что белая почка среди зелёных листьев похожа на раскрывающийся пион. О том, кто первым его сделал или стал продавать под этим названием, документов мало, а одна как будто ранняя ниточка — монастырский чай с горы Гушань под названием Гушань Байюнь, который, видимо, пробовал Роберт Форчун, — это история о родственном чае, а не доказательство возраста этого.",
+      "description": "Бай Му Дань, «белый пион», — белый чай, с которого стоит начинать большинству: почка с одним-двумя молодыми листьями, завяленная и высушенная, с тех же кустов севера Фуцзяни, что и Серебряные иглы, но листа в ней достаточно, чтобы дать вкус, тело и цену, позволяющую пить его каждый день. Считалось, что сухие побеги, серебристая почка между двумя серо-зелёными листьями, похожи на цветок пиона, отсюда и название.\n\nКак и весь фуцзяньский белый чай, его делают вялением, а не прогревом или скручиванием. Побеги теряют воду от одного до трёх дней на подносах, на солнце или в тени, смотря по дому и погоде, а потом их бережно сушат. За это время листья слегка окисляются по краям, поэтому на влажном листе Му Даня видно немного красного, а сам чай фруктовее и круглее Серебряных игл.\n\nВ чашке — сено и дыня, белый персик, жимолость, медовая сладость и мягкая, округлая текстура с лёгкой терпкостью в конце. Заваривать его легко и почти не страшно ошибиться: 85–95 °C в гайвани, шесть проливов. Он прекрасен в высоком стакане, куда весь день подливают воду, при холодном заваривании, а выдержанный — и сваренным в чайнике. Частая ошибка — обращаться с ним как с зелёным и заваривать прохладно и коротко: настой выходит жидким и травянистым.\n\nСорта определяются долей почек и датой сбора: Му Дань Ван («король пионов») — самый ранний сбор с большой долей почек сразу после дней Серебряных игл; высший, первый и второй сорта идут за ним в течение апреля, с большей долей листа. Фудинский чай слаще и красивее, чжэнхэский глубже, цзяньянский (с куста Шуй Сянь) — более тёмный и полный местный стиль. Осенний Му Дань дешевле и проще. Выдержанный Му Дань, рассыпной или в блинах, продают с указанием года, и выдержка здесь реально улучшает чай, а не служит маркетингу: за пять лет он уходит в мёд, курагу и дерево.\n\nСвежий Му Дань и выдержанный блин Му Даня знакомят с белым чаем лучше любых Серебряных игл и стоят меньше.",
+      "brewing_notes": "Гайвань при 85–95 °C; чай прощает ошибки и принимает почти кипяток, когда лист раскроется. Отлично подходит по-дедовски, в стакане с доливом, и для холодного заваривания, а выдержанный можно варить."
+    },
+    "zh": {
+      "processing": "一芽一二叶,在竹筛或架上缓慢萎凋一到三天(日晒、阴干或混合),再低温干燥;不揉捻、不炒青,因此叶形完整,叶缘可见少许自然氧化。",
+      "harvest_season": "春季,从4月初银针采完后到4月下旬;最早的多芽批次称为牡丹王。也有较便宜的秋牡丹。",
+      "appearance_dry": "枝叶舒展连芽,一枚银芽夹在两片灰绿叶之间,叶背满披白毫,宛如干花。",
+      "appearance_liquor": "汤色浅金至淡杏色,清澈明亮。",
+      "appearance_wet": "芽叶柔软,呈绿色和橄榄色,叶缘微红,完整不碎。",
+      "taste_profile": "比银针饱满:干草和甜瓜、白桃和金银花,蜜甜,茶汤柔和圆润,略带收敛感。",
+      "vintage_note": "新茶是当年春茶(按芽比例和采摘时间分为牡丹王、特级、一级、二级),老茶也卖得很广,有散茶和茶饼,都标明年份;常见的是3–7年,也有更老的茶饼。新茶花香带鲜干草味,陈放后转为蜂蜜、果干和木质香。秋牡丹较便宜,也较平淡。",
+      "history": "白牡丹有记载的历史,比它的名气所暗示的要短。据说它最早出自闽北建阳,时间在1922年之前,此后政和成为主产地。如今福鼎、松溪和建阳也都有生产。\n\n它用的是和银针相同的大白茶树,但采一芽二叶,所以茶体更足。建阳也用当地的水仙茶树,而两个主要品种造就了福鼎与政和风格的差异。\n\n名字的由来尚无定论。通常的解释指向多毫的叶片,或说白芽衬着绿叶,好似初绽的牡丹。至于是谁最先制作它、或最先用这个名字销售,文献很少;还有一条听上去很早的线索,是罗伯特·福琼似乎喝过的鼓山寺院茶“鼓山白云”,但那说的是一款相近的茶,并不能证明这款茶有多古老。",
+      "description": "白牡丹是大多数人入门白茶最该选的一款:一芽一二叶,萎凋后干燥,出自和银针相同的闽北茶树,但有足够的叶片带来滋味和茶体,价格也让人能天天喝。干茶一枚银芽夹着两片灰绿叶,人们觉得像牡丹花,因此得名。\n\n和所有福建白茶一样,它靠萎凋而不是炒青或揉捻成茶。芽叶在竹筛上散失水分一到三天,日晒还是阴干,要看茶厂和天气,之后再轻柔干燥。这段时间叶缘会轻微氧化,所以白牡丹的叶底略带红色,茶味也比银针更有果香、更圆润。\n\n入杯是干草和甜瓜、白桃、金银花,蜜甜,口感柔和圆润,尾端略带收敛感。它很好泡,盖碗85–95 °C能泡六泡;用高玻璃杯随喝随续水、冷泡都很出色,陈放后还可以用壶煮。常见的错误是把它当绿茶,水温低、时间短,泡出来单薄又带青草气。\n\n等级按芽比例和采摘时间划分:牡丹王是紧接银针之后最早的多芽批次;特级、一级、二级在整个4月陆续跟上,叶片渐多。福鼎茶更甜美秀气,政和更深沉,建阳(用水仙茶树)是更深色、更饱满的地方风格。秋牡丹较便宜,也较平淡。陈年白牡丹有散茶和茶饼,标明年份出售,而且确实是真正的提升,不是营销噱头:五年后会转为蜂蜜、杏干和木质香。\n\n要认识白茶,一款新白牡丹加一饼老白牡丹,胜过任何银针,花费还更少。",
+      "brewing_notes": "盖碗85–95 °C;它很宽容,叶片舒展后可用接近沸腾的水。用玻璃杯随喝随续水、冷泡都很出色,陈放后还可以煮。"
+    }
+  }
 }

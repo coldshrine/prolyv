@@ -1,0 +1,51 @@
+{
+  "slug": "junan-green-tea",
+  "name_en": "Junan Green Tea",
+  "name_native": "莒南绿茶",
+  "name_romanized": "Jǔnán Lǜchá",
+  "aliases": [],
+  "category": "green",
+  "origin_country": "China",
+  "origin_region": "Shandong · Junan",
+  "cultivar": null,
+  "form": "loose",
+  "caffeine_level": "medium",
+  "brewing": {
+    "grams": 3,
+    "water_ml": 150,
+    "temp_c": 80,
+    "steeps": 3,
+    "seconds": [
+      60,
+      75,
+      105
+    ],
+    "notes": "A safe starting point for green tea: cooler water, short steeps, then adjust by taste."
+  },
+  "taste_tags": [
+    "vegetal",
+    "sweet"
+  ],
+  "description": "A green tea from Junan county in Shandong with national geographical indication status, known for thick leaves that stand up to repeated steeping.\n\nTreat it as you would any green tea: cooler water, short steeps, and a seller who can say where and when it was picked.",
+  "wikipedia_title": null,
+  "wikipedia_scope": "none",
+  "popularity": 1,
+  "name_zh": "莒南绿茶",
+  "name_ru": "Цзюй Нань Люй Ча",
+  "history": "It has gathered 116 awards at city level and above, 20 of them national. At the second national agricultural expo in 1995 it took two golds and three silvers, half of Shandong's total, and it later represented the province's teas at a world agricultural fair.",
+  "liquor_hex": "#D2CC6E",
+  "leaf_hex": "#74823A",
+  "sources": [
+    "https://www.maigoo.com/top/423316.html"
+  ],
+  "confidence": "low",
+  "images": [],
+  "stub": true,
+  "processing": "Typical of green tea: picked, heated soon after picking to stop oxidation, then shaped and dried.",
+  "harvest_season": "Usually picked in spring, with the earliest pickings prized, as with most green teas.",
+  "appearance_dry": "Thick leaves.",
+  "appearance_liquor": "Usually a clear, pale yellow-green.",
+  "appearance_wet": "Usually soft green leaf that opens up in the water.",
+  "taste_profile": "High aroma and a strong taste, holding up through repeated infusions.",
+  "vintage_note": "Green teas like this are normally sold as the current year's harvest and are best within a year of picking. It is not an ageing tea."
+}

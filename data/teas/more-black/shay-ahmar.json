@@ -1,0 +1,52 @@
+{
+  "slug": "shay-ahmar",
+  "name_en": "Shay Ahmar",
+  "name_native": "شاي أحمر",
+  "name_romanized": "šāy ʾaḥmar",
+  "aliases": [
+    "Red tea"
+  ],
+  "category": "black",
+  "origin_country": "Saudi Arabia",
+  "origin_region": "Arabian Peninsula",
+  "cultivar": null,
+  "form": "loose",
+  "caffeine_level": "high",
+  "brewing": {
+    "grams": 3,
+    "water_ml": 200,
+    "temp_c": 95,
+    "steeps": 2,
+    "seconds": [
+      180,
+      240
+    ],
+    "notes": "A safe starting point for black tea: Western style, water just off the boil."
+  },
+  "taste_tags": [
+    "malty",
+    "sweet"
+  ],
+  "description": "The Arabic term for black tea, literally red tea, and the most common form of tea in Arabic tea culture.\n\nTreat it as you would any black tea: water just off the boil, a few minutes in the pot, and a seller who can say where it was grown.",
+  "wikipedia_title": null,
+  "wikipedia_scope": "none",
+  "popularity": 1,
+  "name_zh": "阿拉伯红茶",
+  "name_ru": "Шай ахмар",
+  "history": "Little is documented about it as a distinct style.",
+  "liquor_hex": "#A8431C",
+  "leaf_hex": "#3A2A1E",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Arabic_tea"
+  ],
+  "confidence": "low",
+  "images": [],
+  "stub": true,
+  "processing": "Typical of black tea: withered, rolled, fully oxidised and dried.",
+  "harvest_season": "Picked through the growing season, as with most black teas.",
+  "appearance_dry": "Usually dark twisted leaf, sometimes with golden tips.",
+  "appearance_liquor": "Usually a clear red-brown.",
+  "appearance_wet": "Usually coppery brown leaf.",
+  "taste_profile": "Expect what black teas usually give: malty, sweet and brisk.",
+  "vintage_note": "Black teas are normally sold by harvest year and are best within a couple of years."
+}

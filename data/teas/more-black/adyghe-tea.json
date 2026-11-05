@@ -1,0 +1,53 @@
+{
+  "slug": "adyghe-tea",
+  "name_en": "Adyghe Tea",
+  "name_native": "Адыгэ щайуц",
+  "name_romanized": null,
+  "name_zh": "阿迪格茶",
+  "name_ru": "Адыгейский чай",
+  "aliases": [
+    "Adygea tea",
+    "Adyghe black tea"
+  ],
+  "category": "black",
+  "origin_country": "Russia",
+  "origin_region": "Adygea · Maykop District",
+  "cultivar": "Frost-hardy selection bred from Georgian varieties",
+  "processing": "Leaf is picked and sorted by hand, then made into black tea by withering, rolling, full oxidation and drying, the usual steps for the class. The same plantations also supply a green tea.",
+  "form": "loose",
+  "harvest_season": "May to October. No single picking is documented as the prized one.",
+  "appearance_dry": "As with other small-leaf Russian black teas, expect dark, twisted leaf of modest size.",
+  "appearance_liquor": "Typical of the class, a clear reddish amber.",
+  "appearance_wet": "Typical of small-leaf black tea, soft coppery brown leaf.",
+  "taste_profile": "Little is documented about the cup itself. Its tannin content, recorded at up to 16%, suggests some grip, and a black tea from small-leaf bushes usually leans toward gentle malt and sweetness.",
+  "taste_tags": [
+    "malty",
+    "brisk"
+  ],
+  "brewing": {
+    "grams": 3,
+    "water_ml": 250,
+    "temp_c": 95,
+    "steeps": 2,
+    "seconds": [
+      210,
+      300
+    ],
+    "notes": "These are usual Western-style black tea settings, nothing specific to this tea. Shorten the steep if the tannins feel too firm."
+  },
+  "caffeine_level": "medium",
+  "vintage_note": "Output is tiny, so it reaches buyers in small quantities, in black and green versions under the registered Adyghe Tea name. Harvest years are not a usual selling point. As with other black teas, buy recent stock and drink it within a couple of years.",
+  "description": "Adyghe tea grows in the Republic of Adygea and, together with Krasnodar tea, counts as the northernmost tea in Russia and among the northernmost in the world. The fields lie in Maykop District near the settlement of Tsvetochny, at 400 to 550 metres. The registered name covers both black and green tea made from six varieties.\n\nThe scale is what makes it unusual. In 2016 the plantations covered 6 hectares, and only 1.5 of those were cropping. Picking and sorting are done by hand across a long season, from May to October, and drought can cut the crop sharply, as it did in 2020.\n\nDetailed tasting descriptions are scarce. What is on record is tannin content of up to 16%, so start with a moderate steep and adjust. Treat it as a curiosity of northern tea growing and judge it against other Russian teas, not against Assam or Ceylon.\n\nThis is a tea you may also meet on the spot: visitors can tour the plantations, and the institute's branch in Maykop keeps a small tea museum. Look for the name of the place and the maker on the pack, since the volumes are so small.",
+  "history": "The first tea bushes in Adygea date from 1938: Georgian varieties tracing back to Chinese Keemun stock, on experimental plots of just a few hundredths of a hectare. In 1967 staff of the Adyghe experimental station planted 20 hectares.\n\nIn 2010 the Adyghe branch of the All-Russian research institute for floriculture and subtropical crops bred a frost-hardy highland variety from 11 Georgian varieties. Harvests have stayed small: 1.8 tonnes of leaf in 2016, 600 kg in 2017, just over 2 tonnes of raw leaf in 2019 and 1.6 tonnes in 2020. In 2017 the black and green teas received gold medals at the Golden Autumn agricultural show in Moscow.",
+  "liquor_hex": "#A85A24",
+  "leaf_hex": "#3F2C1E",
+  "sources": [
+    "https://ru.wikipedia.org/wiki/%D0%90%D0%B4%D1%8B%D0%B3%D0%B5%D0%B9%D1%81%D0%BA%D0%B8%D0%B9_%D1%87%D0%B0%D0%B9",
+    "https://www.wikidata.org/wiki/Q109358821"
+  ],
+  "confidence": "medium",
+  "wikipedia_title": "Адыгейский чай",
+  "wikipedia_scope": "exact",
+  "popularity": 2,
+  "images": []
+}

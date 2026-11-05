@@ -1,0 +1,66 @@
+{
+  "slug": "khalmg-tsa",
+  "name_en": "Khalmg Tsä (Kalmyk Tea)",
+  "name_native": "Хальмг цә",
+  "name_romanized": "Khalmg tsä",
+  "name_zh": "卡尔梅克茶",
+  "name_ru": "Калмыцкий чай",
+  "aliases": [
+    "Khalmg tsä",
+    "Kalmyk tea",
+    "Джомба",
+    "Jomba"
+  ],
+  "category": "black",
+  "origin_country": "Russia",
+  "origin_region": "Kalmykia",
+  "cultivar": null,
+  "processing": "A prepared drink, not a leaf style: a piece cut from a low-grade pressed brick tea is boiled for 5 to 6 minutes, then milk and salt are added and the tea is strained through a hair sieve. Butter and, in wealthier households, bay leaf, nutmeg and cloves could also go in.",
+  "form": "brick",
+  "harvest_season": "Not tied to a harvest. The base was a low grade of brick tea, traditionally brought from northern China.",
+  "appearance_dry": "A hard, dark pressed tablet of coarse tea, cut or broken off as needed.",
+  "appearance_liquor": "Opaque and milky, a typical result of boiling dark tea with milk: beige to pinkish-brown.",
+  "appearance_wet": "Coarse dark leaf and stem, strained off after boiling.",
+  "taste_profile": "Salty and milky, with the soft weight of boiled brick tea; a little butter makes it richer, and the spiced versions turn warm and aromatic.",
+  "taste_tags": [
+    "creamy",
+    "woody",
+    "spicy"
+  ],
+  "brewing": {
+    "grams": 10,
+    "water_ml": 1000,
+    "temp_c": 100,
+    "steeps": 1,
+    "seconds": [
+      330
+    ],
+    "notes": "Boil the tea for 5 to 6 minutes, add milk and salt to taste, then strain. These amounts are a practical starting point, not a fixed recipe. Traditionally it was reboiled before serving."
+  },
+  "caffeine_level": "medium",
+  "vintage_note": "Khalmg tsä has no vintages because it is made fresh in a pot. What you buy is the brick tea, sold without any emphasis on year, and it keeps for a long time if dry. Ready-mixed packets exist in the region, but the traditional route is the brick.",
+  "description": "Khalmg tsä is the milk tea of the Kalmyks, also called jomba. It is closer to a soup than a cup of tea: boiled, salted, milky and meant to sustain you. It belongs to the same family as other salted milk teas of the Mongolic world.\n\nThe method is simple. Cut some tea from a brick, boil it for a few minutes in a pot, add milk and salt, and strain. Any milk will do: cow's or sheep's, and historically camel's in the richest homes. Butter was sometimes added, and well-off families used bay leaf, nutmeg and cloves.\n\nA thrifty detail also shapes the flavour. The spent leaves, called shar, were pressed in a wooden vice and added to the next boil, both to save tea and to soften the drink. If salt in tea sounds strange, start with very little and think of it as broth.\n\nTo make it, look for pressed brick tea, not a fine loose leaf: delicate tea has nothing to offer after a long boil. Serve it hot from the pot, ideally with something fried or filling beside it.",
+  "history": "The recipe came with the Kalmyks from Dzungaria in the 17th century. The base was low-grade Chinese brick tea, pressed into slabs and carried to the Kalmyk settlements from northern China.\n\nRussian-language accounts follow its spread. Jan Potocki wrote in 1797 of Kalmyks boiling it with milk and butter and of Tatars taking up the habit, and in the mid-19th century N. Severtsov described it as a drink of the Mongols and of the Dzungar and Volga Kalmyks, adopted by neighbouring Kyrgyz. Recipes changed in the 19th century under the influence of other peoples. Today it is known among many North Caucasian groups and among people in the Volgograd, Rostov and Astrakhan regions.",
+  "liquor_hex": "#C9A98A",
+  "leaf_hex": "#3A2A1C",
+  "sources": [
+    "https://ru.wikipedia.org/wiki/%D0%9A%D0%B0%D0%BB%D0%BC%D1%8B%D1%86%D0%BA%D0%B8%D0%B9_%D1%87%D0%B0%D0%B9",
+    "https://www.wikidata.org/wiki/Q60851303"
+  ],
+  "confidence": "medium",
+  "wikipedia_title": "Калмыцкий чай",
+  "wikipedia_scope": "exact",
+  "popularity": 2,
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/19/Kalmyk_tea_%28%22Khalmg_Tse%22_or_%22Dzhomba%22%29_and_Bortsoki_-_%D0%9A%D0%B0%D0%BB%D0%BC%D1%8B%D1%86%D0%BA%D0%B8%D0%B9_%D1%87%D0%B0%D0%B9_%28%D0%A5%D0%B0%D0%BB%D1%8C%D0%BC%D0%B3_%D1%86%D3%99_%D0%B8%D0%BB%D0%B8_%D0%B4%D0%B6%D0%BE%D0%BC%D0%B1%D0%B0%29_%D0%B8_%D0%91%D0%BE%D1%80%D1%86%D0%BE%D0%BA%D0%B8_%282025-07-05%29.jpg/1280px-Kalmyk_tea_%28%22Khalmg_Tse%22_or_%22Dzhomba%22%29_and_Bortsoki_-_%D0%9A%D0%B0%D0%BB%D0%BC%D1%8B%D1%86%D0%BA%D0%B8%D0%B9_%D1%87%D0%B0%D0%B9_%28%D0%A5%D0%B0%D0%BB%D1%8C%D0%BC%D0%B3_%D1%86%D3%99_%D0%B8%D0%BB%D0%B8_%D0%B4%D0%B6%D0%BE%D0%BC%D0%B1%D0%B0%29_%D0%B8_%D0%91%D0%BE%D1%80%D1%86%D0%BE%D0%BA%D0%B8_%282025-07-05%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/19/Kalmyk_tea_%28%22Khalmg_Tse%22_or_%22Dzhomba%22%29_and_Bortsoki_-_%D0%9A%D0%B0%D0%BB%D0%BC%D1%8B%D1%86%D0%BA%D0%B8%D0%B9_%D1%87%D0%B0%D0%B9_%28%D0%A5%D0%B0%D0%BB%D1%8C%D0%BC%D0%B3_%D1%86%D3%99_%D0%B8%D0%BB%D0%B8_%D0%B4%D0%B6%D0%BE%D0%BC%D0%B1%D0%B0%29_%D0%B8_%D0%91%D0%BE%D1%80%D1%86%D0%BE%D0%BA%D0%B8_%282025-07-05%29.jpg/330px-Kalmyk_tea_%28%22Khalmg_Tse%22_or_%22Dzhomba%22%29_and_Bortsoki_-_%D0%9A%D0%B0%D0%BB%D0%BC%D1%8B%D1%86%D0%BA%D0%B8%D0%B9_%D1%87%D0%B0%D0%B9_%28%D0%A5%D0%B0%D0%BB%D1%8C%D0%BC%D0%B3_%D1%86%D3%99_%D0%B8%D0%BB%D0%B8_%D0%B4%D0%B6%D0%BE%D0%BC%D0%B1%D0%B0%29_%D0%B8_%D0%91%D0%BE%D1%80%D1%86%D0%BE%D0%BA%D0%B8_%282025-07-05%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Kalmyk_tea_(%22Khalmg_Tse%22_or_%22Dzhomba%22)_and_Bortsoki_-_%D0%9A%D0%B0%D0%BB%D0%BC%D1%8B%D1%86%D0%BA%D0%B8%D0%B9_%D1%87%D0%B0%D0%B9_(%D0%A5%D0%B0%D0%BB%D1%8C%D0%BC%D0%B3_%D1%86%D3%99_%D0%B8%D0%BB%D0%B8_%D0%B4%D0%B6%D0%BE%D0%BC%D0%B1%D0%B0)_%D0%B8_%D0%91%D0%BE%D1%80%D1%86%D0%BE%D0%BA%D0%B8_(2025-07-05).jpg",
+      "author": "Nakonana",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "kind": "liquor",
+      "alt": "White cup of milky beige Kalmyk tea beside a plate of bortsoki pastries on a wooden table"
+    }
+  ]
+}

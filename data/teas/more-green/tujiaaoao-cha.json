@@ -1,0 +1,54 @@
+{
+  "slug": "tujiaaoao-cha",
+  "name_en": "Tujia Aoao Tea",
+  "name_native": "土家熬熬茶",
+  "name_romanized": "Tǔjiā Áo'áo Chá",
+  "aliases": [
+    "Tujiaaoao Cha",
+    "Tujiaaoaocha"
+  ],
+  "category": "green",
+  "origin_country": "China",
+  "origin_region": "Guizhou · Dejiang, Tongren",
+  "cultivar": null,
+  "form": "other",
+  "caffeine_level": "medium",
+  "brewing": {
+    "grams": 3,
+    "water_ml": 150,
+    "temp_c": 80,
+    "steeps": 3,
+    "seconds": [
+      60,
+      75,
+      105
+    ],
+    "notes": "A safe starting point for green tea: cooler water, short steeps, then adjust by taste."
+  },
+  "taste_tags": [
+    "nutty",
+    "umami"
+  ],
+  "description": "A festive Tujia dish from Dejiang county in Tongren, Guizhou, slowly simmered from tea with glutinous rice, sesame, cured pork, peanuts and other ingredients, more than ten in all.\n\nThis is a way of preparing tea more than a tea you buy under one name, so the recipe and the base tea change from one maker to the next.",
+  "wikipedia_title": null,
+  "wikipedia_scope": "none",
+  "popularity": 1,
+  "name_zh": "土家熬熬茶",
+  "name_ru": "Ту Цзя Ао Ао Ча",
+  "history": "It is made mainly at festivals or for honoured guests. Little else is documented about it.",
+  "liquor_hex": "#B08A4E",
+  "leaf_hex": "#6B5A3A",
+  "sources": [
+    "https://milulu.com.cn/techan/33998.html"
+  ],
+  "confidence": "low",
+  "images": [],
+  "stub": true,
+  "processing": "Simmered slowly over a low flame from its many ingredients, tea among them.",
+  "harvest_season": "Not tied to a harvest: it depends on the base tea.",
+  "appearance_dry": "Green leaf whose shape depends on the maker, as is usual for regional green teas.",
+  "appearance_liquor": "Usually a clear, pale yellow-green.",
+  "appearance_wet": "Usually soft green leaf that opens up in the water.",
+  "taste_profile": "Expect what green teas usually give: fresh, vegetal and lightly sweet.",
+  "vintage_note": "Not sold by vintage: it is made from whatever base tea the maker keeps, so freshness of the base matters more than the year."
+}

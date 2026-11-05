@@ -3,10 +3,17 @@
   "name_en": "Indian CTC Chai Base",
   "name_native": "चाय पत्ती",
   "name_romanized": "Chāy pattī",
-  "aliases": ["Chai patti", "CTC tea", "Indian packet tea", "Chai tea leaves", "Dust tea", "Indian CTC black tea"],
+  "aliases": [
+    "Chai patti",
+    "CTC tea",
+    "Indian packet tea",
+    "Chai tea leaves",
+    "Dust tea",
+    "Indian CTC black tea"
+  ],
   "category": "black",
   "origin_country": "India",
-  "origin_region": "Assam, Dooars, Terai and South India (blended)",
+  "origin_region": "Assam",
   "cultivar": "Assam-type seedling and clonal bushes",
   "processing": "Fully oxidised CTC black tea: withered leaf is macerated through crush-tear-curl rollers into granules, oxidised quickly and fired; blended from several regions for strength, colour and price, and graded by particle size (BP, PF, PD, Dust).",
   "form": "loose",
@@ -15,12 +22,49 @@
   "appearance_liquor": "Dark red-brown, opaque with milk.",
   "appearance_wet": "Fine dark grains.",
   "taste_profile": "Strong, brisk and malty with plenty of tannin and colour, made to stand up to milk, sugar and spices rather than to be drunk plain.",
-  "taste_tags": ["malty", "brisk", "bitter"],
-  "brewing": {"grams": 4, "water_ml": 250, "temp_c": 100, "steeps": 1, "seconds": [240], "notes": "Boil for about two minutes in water, add milk and sugar, boil again briefly and strain; or three minutes in boiling water for a strong cup with milk. Not for re-steeping."},
+  "taste_tags": [
+    "malty",
+    "brisk",
+    "bitter"
+  ],
+  "brewing": {
+    "grams": 4,
+    "water_ml": 250,
+    "temp_c": 100,
+    "steeps": 1,
+    "seconds": [
+      240
+    ],
+    "notes": "Boil for about two minutes in water, add milk and sugar, boil again briefly and strain; or three minutes in boiling water for a strong cup with milk. Not for re-steeping."
+  },
   "caffeine_level": "high",
   "vintage_note": "Sold year-round in India as branded packet tea (Tata Tea, Brooke Bond Red Label, Wagh Bakri, Society and countless regional brands) and loose by the kilo from grocers, graded by particle size; abroad it is in Indian grocery shops under the same brands. There is no vintage: look for a recent pack date and keep it sealed, since fine grades go stale within a few months of opening.",
   "description": "'Chai patti', literally 'tea leaves', is what Indian households buy by the kilo: strong CTC black tea, usually a blend of Assam, Dooars and South Indian leaf, sold loose from sacks or in branded packets and used almost exclusively for milky, sugary chai. It is the single biggest category of tea sold in one of the world's biggest tea-drinking countries, and it is built for strength, colour and price rather than aroma.\n\nCTC manufacture, developed in Assam in the 1930s, macerates withered leaf through crush-tear-curl rollers into granules that oxidise fast and brew fast. Blenders then combine granules from different regions and seasons to hit a consistent strength and colour all year round, and sort them by particle size: BP and PF are the mid-sized grades, PD and dust the finest and strongest.\n\nBrewed on its own the cup is dark, brisk and malty with a lot of tannin and little nuance; it is not meant to be drunk plain. Boil it briefly in water, add milk and sugar, boil again and strain, or simmer the whole thing together for a richer cup. Dust grades give the darkest, fastest brew and are the choice of roadside stalls; BP and PF are a little cleaner for home use.\n\nIt is sold year-round in India under big brands (Tata Tea, Brooke Bond Red Label, Wagh Bakri, Society and countless regional names) and loose from grocers, and abroad in Indian grocery shops under the same brands. There is no vintage: look for a recent pack date, keep it sealed, and expect fine grades to go stale within a few months of opening.\n\nIf a recipe calls for 'chai tea' or 'strong black tea' for masala chai, this is what it means.",
   "wikipedia_title": "Crush, tear, curl",
   "wikipedia_scope": "umbrella",
-  "popularity": 4
+  "popularity": 4,
+  "name_zh": "印度CTC红茶",
+  "name_ru": "Индийский CTC для масала-чая",
+  "history": "Indian packet chai rests on a machine. The first CTC unit went into service around 1930 or 1931 at the Amgoorie garden in Assam under Sir William McKercher; sources differ by a year. Its toothed rollers replaced the final rolling stage of orthodox manufacture and produced small, hard pellets that brew quickly.\n\nThe method spread widely only after 1950, over about three decades and fastest in India and Africa. Low price and strong liquor are credited for the near monopoly CTC holds in South Asia, and it is the base of masala chai.\n\nChai patti is a household term rather than a defined product, and blends vary by brand and region, so there is no single documented history of it beyond that of CTC itself.",
+  "liquor_hex": "#6E2A12",
+  "leaf_hex": "#2A1C14",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Crush%2C_tear%2C_curl",
+    "https://makaibari.in/blogs/news/the-history-and-origins-of-ctc-tea",
+    "https://www.goodricke.com/tea-garden/assam/amgoorie",
+    "https://www.teacupsfull.com/blogs/blog/what-is-ctc-tea"
+  ],
+  "confidence": "medium",
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/46/Assam_CTC_Hanamizuki_2009.JPG/1280px-Assam_CTC_Hanamizuki_2009.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/46/Assam_CTC_Hanamizuki_2009.JPG/330px-Assam_CTC_Hanamizuki_2009.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Assam_CTC_Hanamizuki_2009.JPG",
+      "author": "USAGI-WRP",
+      "license": "CC BY 3.0",
+      "license_url": "https://creativecommons.org/licenses/by/3.0",
+      "kind": "dry_leaf",
+      "alt": "Assam CTC black tea, small dark even granules in a white bowl"
+    }
+  ]
 }

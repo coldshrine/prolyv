@@ -1,0 +1,60 @@
+{
+  "slug": "american-ginseng-tea",
+  "name_en": "American Ginseng Tea (Xi Yang Shen Cha)",
+  "name_native": "西洋参茶",
+  "name_romanized": "Xīyángshēn Chá",
+  "name_zh": "西洋参茶",
+  "name_ru": "Чай из американского женьшеня",
+  "aliases": [
+    "American ginseng tea",
+    "花旗参茶",
+    "西洋參茶",
+    "Си Ян Шэнь Ча"
+  ],
+  "category": "tisane",
+  "origin_country": "United States",
+  "origin_region": "Wisconsin · Marathon County",
+  "cultivar": null,
+  "processing": "Dried American ginseng root (Panax quinquefolius) is sliced or ground and steeped. There is no tea leaf in a plain version.",
+  "form": "other",
+  "harvest_season": "Not relevant to the buyer in the way of a leaf tea; packs do not usually sell by harvest.",
+  "appearance_dry": "Thin, pale cream root slices or a fine beige grind in tea bags.",
+  "appearance_liquor": "Pale straw yellow and clear.",
+  "appearance_wet": "Softened, pale, slightly translucent root slices.",
+  "taste_profile": "Typical of ginseng root: earthy and bitter first, with a sweet, lingering finish. Honey is a common addition.",
+  "taste_tags": [
+    "herbal",
+    "bitter",
+    "sweet",
+    "earthy"
+  ],
+  "brewing": {
+    "grams": 3,
+    "water_ml": 200,
+    "temp_c": 100,
+    "steeps": 3,
+    "seconds": [
+      300,
+      600,
+      600
+    ],
+    "notes": "Bags take about 3 to 5 minutes in boiling water. Slices take about 10 minutes and can be refilled until the ginseng flavour is gone. Goji, jujube or longan are common additions."
+  },
+  "caffeine_level": "none",
+  "vintage_note": "Not sold by year. It comes as boxed tea bags, loose slices or whole root, often with a stated origin and a best-before date. Origin matters more than date to buyers, so check whether the root is American, Canadian or Chinese-grown.",
+  "description": "This is not tea in the botanical sense but an infusion of American ginseng root, a common drink among Chinese communities and known in Cantonese usage as huaqi ginseng. The name points to America, though the habit around it is Chinese.\n\nThe root is dried and then sliced or ground. Wisconsin is the main American growing area, with Marathon County at its centre and most US production, and root is also grown in Canada and China.\n\nA slice in hot water gives a pale cup with the earthy bitterness and sweet finish typical of ginseng. It needs longer than leaf tea, about 10 minutes for slices. Honey softens it.\n\nTraditional Chinese usage treats it as cooling, and it is not for everyone. Follow the dose on the pack, and ask a doctor first if you are pregnant or on prescription medicine.\n\nCheck the ingredient list, as blended bags may contain other things. Treat medicinal claims on boxes with caution.",
+  "history": "Little is documented about this drink as a named product. American ginseng is grown commercially in Wisconsin, which grows the great majority of the US crop, and it reaches Chinese buyers as both root and tea bags.\n\nWhen steeping it became a commercial bagged tea is not well recorded. The modern product is a mix of a Chinese herbal habit and North American root growing.",
+  "liquor_hex": "#E3D49A",
+  "leaf_hex": "#D9C9A0",
+  "sources": [
+    "https://www.wikidata.org/wiki/Q141103276",
+    "https://www.sayweee.com/zh/product/HSU-S-GINSENG-American-Ginseng-Tea-20ct/1979985",
+    "https://cn.toursforfun.com/default/nid-995.html",
+    "https://yjj.beijing.gov.cn/yjj/resource/cms/article/435858/435944/2017110812330136158.pdf"
+  ],
+  "confidence": "low",
+  "wikipedia_title": "American ginseng",
+  "wikipedia_scope": "umbrella",
+  "popularity": 2,
+  "images": []
+}

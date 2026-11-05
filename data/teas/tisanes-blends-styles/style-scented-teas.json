@@ -3,10 +3,17 @@
   "name_en": "Scented Teas (how scenting works)",
   "name_native": "花茶 / 窨花茶",
   "name_romanized": "Huāchá / Xūn huāchá",
-  "aliases": ["Scented tea", "Flower-scented tea", "Hua cha", "Xun hua", "Jasmine scenting", "Flower tea"],
+  "aliases": [
+    "Scented tea",
+    "Flower-scented tea",
+    "Hua cha",
+    "Xun hua",
+    "Jasmine scenting",
+    "Flower tea"
+  ],
   "category": "green",
   "origin_country": "China",
-  "origin_region": "Fujian · Fuzhou (the historic jasmine centre) and Guangxi · Hengxian (today's largest jasmine scenting area); Guilin for osmanthus",
+  "origin_region": "Fujian · Fuzhou",
   "cultivar": null,
   "processing": "Finished tea is mixed in layers with freshly picked flowers (jasmine, osmanthus, rose, gardenia, magnolia) and left for hours while the flowers open and release their scent into the leaf, which absorbs it; the flowers are then sifted out and the tea dried again. For jasmine this cycle is repeated three to nine times with fresh flowers each time. Scenting is distinct from flavouring (sprayed oils) and from blending (dried flowers simply mixed in).",
   "form": "loose",
@@ -15,13 +22,62 @@
   "appearance_liquor": "Depends on the base: pale yellow-green for jasmine green tea, gold for osmanthus oolong, red-amber for rose black.",
   "appearance_wet": "The base leaf as normal, carrying the flower's aroma rather than its petals.",
   "taste_profile": "A clean flower aroma that is part of the tea rather than sitting on top of it, with the base tea's own character underneath; well-made scented tea smells of flowers but tastes of tea and flowers together, never of perfume.",
-  "taste_tags": ["floral", "sweet", "honey"],
-  "brewing": {"grams": 3, "water_ml": 150, "temp_c": 80, "steeps": 4, "seconds": [45, 40, 60, 90], "notes": "Brew to the base tea: 75–85 °C for a jasmine green, 90 °C for a scented oolong, just under the boil for a scented black. Keep the lid on and the steeps short; the aroma is volatile and over-hot water cooks it."},
+  "taste_tags": [
+    "floral",
+    "sweet",
+    "honey"
+  ],
+  "brewing": {
+    "grams": 3,
+    "water_ml": 150,
+    "temp_c": 80,
+    "steeps": 4,
+    "seconds": [
+      45,
+      40,
+      60,
+      90
+    ],
+    "notes": "Brew to the base tea: 75–85 °C for a jasmine green, 90 °C for a scented oolong, just under the boil for a scented black. Keep the lid on and the steeps short; the aroma is volatile and over-hot water cooks it."
+  },
   "caffeine_level": "medium",
   "vintage_note": "Scented teas are sold by scenting year rather than harvest year: spring leaf is scented in the summer bloom and reaches the shops from late summer, and the scent fades within about a year, so this year's scenting is what to buy. Good jasmine tea states the number of scentings (five, seven, nine), the base tea and the place; 'jasmine pearls' and 'dragon phoenix pearls' are hand-rolled bases for the same process. Flowers visible in the leaf are a decorative choice, not a quality mark, and a sticky, candy-like scent means flavouring rather than scenting.",
-  "description": "Scenting is the Chinese craft of getting a flower's aroma into tea without flavouring it: the tea and freshly picked flowers are layered together for hours while the blossoms open and breathe their scent into the leaf, then the flowers are sifted out and the tea is dried again. Jasmine tea is the famous result, osmanthus oolong and rose black tea work the same way, and the method explains why a good jasmine tea contains almost no jasmine you can see.\n\nThe process depends on timing and repetition. Jasmine buds are picked in the afternoon heat and open after dark, so the scenting happens at night; the tea absorbs scent and moisture, is dried, and for the better grades the whole cycle is repeated with fresh flowers, from three times for ordinary tea to seven or nine for the top grades. Each round adds depth and smoothness, which is why the number of scentings is printed on good packs. Osmanthus is scented once or twice in its short autumn bloom, rose in early summer.\n\nThe difference from flavoured tea is in the cup: scented tea smells of flowers but tastes of tea and flowers together, the aroma fading gracefully over several steeps, while a flavoured tea has a louder, flatter perfume that sits on the tongue. Brew a scented tea for its base, cooler for green, hotter for oolong and black, and keep the lid on, since the whole point is volatile.\n\nBuy by scenting year, which for jasmine means from late summer onward, and drink within a year; look for the number of scentings, the base tea and the origin. The China group's jasmine cards cover the specific teas; this card is the method.\n\nTo understand it, drink a plain green tea, then the same style jasmine-scented, and notice that the leaf, not the flower, is doing most of the work.",
+  "description": "Scenting is the Chinese craft of getting a flower's aroma into tea without flavouring it: the tea and freshly picked flowers are layered together for hours while the blossoms open and breathe their scent into the leaf, then the flowers are sifted out and the tea is dried again. Jasmine tea is the famous result, osmanthus oolong and rose black tea work the same way, and the method explains why a good jasmine tea contains almost no jasmine you can see.\n\nThe process depends on timing and repetition. Jasmine buds are picked in the heat of the day and open after dark, so the scenting happens at night; the tea absorbs scent and moisture, is dried, and for the better grades the whole cycle is repeated with fresh flowers, from three times for ordinary tea to seven or nine for the top grades. Each round adds depth and smoothness, which is why the number of scentings is printed on good packs. Osmanthus is scented once or twice in its short autumn bloom, rose in early summer.\n\nThe difference from flavoured tea is in the cup: scented tea smells of flowers but tastes of tea and flowers together, the aroma fading gracefully over several steeps, while a flavoured tea has a louder, flatter perfume that sits on the tongue. Brew a scented tea for its base, cooler for green, hotter for oolong and black, and keep the lid on, since the whole point is volatile.\n\nBuy by scenting year, which for jasmine means from late summer onward, and drink within a year; look for the number of scentings, the base tea and the origin. The specific jasmine teas have their own entries; this one is about the method.\n\nTo understand it, drink a plain green tea, then the same style jasmine-scented, and notice that the leaf, not the flower, is doing most of the work.",
   "wikipedia_title": "Tea blending and additives",
   "wikipedia_scope": "umbrella",
   "popularity": 4,
-  "sources_note": "'Scented tea' redirects to 'Tea blending and additives' on English Wikipedia, so that umbrella is used."
+  "sources_note": "'Scented tea' redirects to 'Tea blending and additives' on English Wikipedia, so that umbrella is used.",
+  "name_zh": "花茶",
+  "name_ru": "Цветочные чаи (Хуа Ча)",
+  "history": "The practice is best documented at Fuzhou in Fujian. China's national heritage listing places the first jasmine tea there in the Northern Song and says the scenting method settled in the Ming, citing among others Xu Bo's note in Ming Tan that people in Fujian often steeped tea with jasmine. That line describes steeping rather than scenting, so treat the Song start as the traditional account.\n\nThe same account and Fuzhou press say jasmine tea became a tribute tea in the Qing, and press reports put that and large-scale commercial production in the Xianfeng reign. Fuzhou's jasmine scenting was added to the national intangible heritage list in 2014.\n\nJasmine set the pattern and other flowers followed it. Osmanthus is the second most popular scented tea in China, made in much the same way, and magnolia is used too, today mostly on oolong such as Tieguanyin.",
+  "liquor_hex": "#DCCF8A",
+  "leaf_hex": "#7A7F4A",
+  "sources": [
+    "https://www.ihchina.cn/project_details/14604.html",
+    "https://www.thepaper.cn/newsDetail_forward_22685152",
+    "https://en.wikipedia.org/wiki/Tea_blending_and_additives"
+  ],
+  "confidence": "medium",
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/22/HK_TKO_%E5%B0%87%E8%BB%8D%E6%BE%B3_Tseung_Kwan_O_%E5%9D%91%E5%8F%A3_Hang_Hau_%E5%8D%97%E8%B1%90%E5%BB%A3%E5%A0%B4_Nan_Fung_Plaza_shop_%E7%A8%BB%E9%A6%99%E8%B6%85%E7%B4%9A%E6%BC%81%E6%B8%AF_Tao_Heung_Chinese_Restaurant_August_2021_SS2_08.jpg/1280px-HK_TKO_%E5%B0%87%E8%BB%8D%E6%BE%B3_Tseung_Kwan_O_%E5%9D%91%E5%8F%A3_Hang_Hau_%E5%8D%97%E8%B1%90%E5%BB%A3%E5%A0%B4_Nan_Fung_Plaza_shop_%E7%A8%BB%E9%A6%99%E8%B6%85%E7%B4%9A%E6%BC%81%E6%B8%AF_Tao_Heung_Chinese_Restaurant_August_2021_SS2_08.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/22/HK_TKO_%E5%B0%87%E8%BB%8D%E6%BE%B3_Tseung_Kwan_O_%E5%9D%91%E5%8F%A3_Hang_Hau_%E5%8D%97%E8%B1%90%E5%BB%A3%E5%A0%B4_Nan_Fung_Plaza_shop_%E7%A8%BB%E9%A6%99%E8%B6%85%E7%B4%9A%E6%BC%81%E6%B8%AF_Tao_Heung_Chinese_Restaurant_August_2021_SS2_08.jpg/330px-HK_TKO_%E5%B0%87%E8%BB%8D%E6%BE%B3_Tseung_Kwan_O_%E5%9D%91%E5%8F%A3_Hang_Hau_%E5%8D%97%E8%B1%90%E5%BB%A3%E5%A0%B4_Nan_Fung_Plaza_shop_%E7%A8%BB%E9%A6%99%E8%B6%85%E7%B4%9A%E6%BC%81%E6%B8%AF_Tao_Heung_Chinese_Restaurant_August_2021_SS2_08.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source_page": "https://commons.wikimedia.org/wiki/File:HK_TKO_%E5%B0%87%E8%BB%8D%E6%BE%B3_Tseung_Kwan_O_%E5%9D%91%E5%8F%A3_Hang_Hau_%E5%8D%97%E8%B1%90%E5%BB%A3%E5%A0%B4_Nan_Fung_Plaza_shop_%E7%A8%BB%E9%A6%99%E8%B6%85%E7%B4%9A%E6%BC%81%E6%B8%AF_Tao_Heung_Chinese_Restaurant_August_2021_SS2_08.jpg",
+      "author": "SHAOUW YUem",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "kind": "dry_leaf",
+      "alt": "Dry jasmine tea leaves with a few dried blossoms on a white background"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f3/HK_TKO_%E5%B0%87%E8%BB%8D%E6%BE%B3_Tseung_Kwan_O_%E5%9D%91%E5%8F%A3_Hang_Hau_%E5%8D%97%E8%B1%90%E5%BB%A3%E5%A0%B4_Nan_Fung_Plaza_shop_%E7%A8%BB%E9%A6%99%E8%B6%85%E7%B4%9A%E6%BC%81%E6%B8%AF_Tao_Heung_Chinese_Restaurant_August_2021_SS2_05.jpg/1280px-HK_TKO_%E5%B0%87%E8%BB%8D%E6%BE%B3_Tseung_Kwan_O_%E5%9D%91%E5%8F%A3_Hang_Hau_%E5%8D%97%E8%B1%90%E5%BB%A3%E5%A0%B4_Nan_Fung_Plaza_shop_%E7%A8%BB%E9%A6%99%E8%B6%85%E7%B4%9A%E6%BC%81%E6%B8%AF_Tao_Heung_Chinese_Restaurant_August_2021_SS2_05.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f3/HK_TKO_%E5%B0%87%E8%BB%8D%E6%BE%B3_Tseung_Kwan_O_%E5%9D%91%E5%8F%A3_Hang_Hau_%E5%8D%97%E8%B1%90%E5%BB%A3%E5%A0%B4_Nan_Fung_Plaza_shop_%E7%A8%BB%E9%A6%99%E8%B6%85%E7%B4%9A%E6%BC%81%E6%B8%AF_Tao_Heung_Chinese_Restaurant_August_2021_SS2_05.jpg/330px-HK_TKO_%E5%B0%87%E8%BB%8D%E6%BE%B3_Tseung_Kwan_O_%E5%9D%91%E5%8F%A3_Hang_Hau_%E5%8D%97%E8%B1%90%E5%BB%A3%E5%A0%B4_Nan_Fung_Plaza_shop_%E7%A8%BB%E9%A6%99%E8%B6%85%E7%B4%9A%E6%BC%81%E6%B8%AF_Tao_Heung_Chinese_Restaurant_August_2021_SS2_05.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source_page": "https://commons.wikimedia.org/wiki/File:HK_TKO_%E5%B0%87%E8%BB%8D%E6%BE%B3_Tseung_Kwan_O_%E5%9D%91%E5%8F%A3_Hang_Hau_%E5%8D%97%E8%B1%90%E5%BB%A3%E5%A0%B4_Nan_Fung_Plaza_shop_%E7%A8%BB%E9%A6%99%E8%B6%85%E7%B4%9A%E6%BC%81%E6%B8%AF_Tao_Heung_Chinese_Restaurant_August_2021_SS2_05.jpg",
+      "author": "SHAOUW YUem",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "kind": "dry_leaf",
+      "alt": "Loose dry jasmine tea spread in a ring on a white surface"
+    }
+  ]
 }

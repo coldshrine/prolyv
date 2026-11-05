@@ -1,0 +1,74 @@
+{
+  "slug": "irani-chai",
+  "name_en": "Irani Chai",
+  "name_native": "ایرانی چائے",
+  "name_romanized": "Īrānī chāy",
+  "name_zh": "印度伊朗式奶茶",
+  "name_ru": "Ирани-чай",
+  "aliases": [
+    "Hyderabadi Irani chai",
+    "Irani tea"
+  ],
+  "category": "black",
+  "origin_country": "India",
+  "origin_region": "Telangana · Hyderabad",
+  "cultivar": null,
+  "processing": "A cafe milk tea rather than a type of leaf: black tea served with whole milk mixed with mawa, the thickened milk solids that give it body.",
+  "form": "other",
+  "harvest_season": "Not relevant: it is a prepared drink from everyday black tea.",
+  "appearance_dry": "Not sold as a distinct dry tea; it starts from ordinary black tea.",
+  "appearance_liquor": "Opaque, creamy light brown.",
+  "appearance_wet": "Not applicable: it is served strained.",
+  "taste_profile": "Typically rich and milky, with the cooked-milk sweetness that mawa brings over strong tea.",
+  "taste_tags": [
+    "creamy",
+    "sweet",
+    "brisk"
+  ],
+  "brewing": {
+    "grams": 6,
+    "water_ml": 250,
+    "temp_c": 100,
+    "steeps": 1,
+    "seconds": [
+      300
+    ],
+    "notes": "A rough home approach: brew strong black tea, warm whole milk with a little mawa until smooth, then combine and sweeten to taste."
+  },
+  "caffeine_level": "medium",
+  "vintage_note": "It has no vintage or season: it is poured all day in Irani cafés, and the house method matters more than the leaf. The base is an everyday black tea sold without a harvest year.",
+  "description": "Irani chai is the thick, sweet milk tea of the Irani cafés, above all in Hyderabad. The one thing that sets it apart from chai boiled in one pan is mawa, reduced milk solids, stirred into slowly simmered milk.\n\nTea and milk are made separately. A strong decoction boils on one side, while milk thickens over low heat for hours on the other, and they meet only at serving. That is how it keeps both strength and richness.\n\nIn the cup it is creamy, sweet and almost dessert-like. Cardamom or cinnamon may appear, depending on who makes it. A usual accompaniment is an Osmania biscuit.\n\nThere is nothing to buy on a shelf. At home, the common shortcut of boiling everything together gives you ordinary chai, so keep the decoction separate and do not skimp on simmering time.",
+  "history": "Irani cafés were opened by Zoroastrian Irani immigrants to British India in the 19th century, and the chai travelled with those cafés to Mumbai, Pune, Hyderabad and Karachi. Hyderabad's mawa style is the version described here.\n\nThe cafés have thinned out. Mumbai went from 350 in the 1950s to 25 by 2005, and Hyderabad's number is estimated to have fallen from 450 in the 2000s to 125 in 2024. No record names who first made the mawa version.",
+  "liquor_hex": "#B98F68",
+  "leaf_hex": "#3A2518",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Irani_caf%C3%A9",
+    "https://en.wikipedia.org/wiki/Milk_tea"
+  ],
+  "confidence": "medium",
+  "wikipedia_title": "Irani café",
+  "wikipedia_scope": "umbrella",
+  "popularity": 3,
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8f/Irani_tea.jpg/1280px-Irani_tea.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8f/Irani_tea.jpg/330px-Irani_tea.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Irani_tea.jpg",
+      "author": "Moniruj",
+      "license": "CC0",
+      "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "kind": "liquor",
+      "alt": "Two white cups of creamy light-brown Irani chai on saucers, seen from above"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1a/Irani_chai_and_osmania_biscuits.jpg/1280px-Irani_chai_and_osmania_biscuits.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1a/Irani_chai_and_osmania_biscuits.jpg/330px-Irani_chai_and_osmania_biscuits.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Irani_chai_and_osmania_biscuits.jpg",
+      "author": "manojkumar chidambaram",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "kind": "serving",
+      "alt": "Cup of Irani chai on a saucer beside a plate of Osmania biscuits and other baked snacks"
+    }
+  ]
+}

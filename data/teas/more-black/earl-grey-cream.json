@@ -1,0 +1,64 @@
+{
+  "slug": "earl-grey-cream",
+  "name_en": "Earl Grey Cream",
+  "name_native": null,
+  "name_romanized": null,
+  "name_zh": "奶油伯爵茶",
+  "name_ru": "Эрл Грей со сливками",
+  "aliases": [
+    "Earl Grey Creme",
+    "Cream Earl Grey",
+    "Эрл Грей Крем"
+  ],
+  "category": "black",
+  "origin_country": "United Kingdom",
+  "origin_region": "Great Britain",
+  "cultivar": null,
+  "processing": "A flavoured blend on the Earl Grey model: black tea scented with bergamot, plus a creamy flavouring. Exact recipes belong to each blender, and little is documented about them.",
+  "form": "loose",
+  "harvest_season": "Not tied to a harvest: as with other flavoured blends, the base tea is bought in and blended all year.",
+  "appearance_dry": "Typically dark, twisted black leaf, sometimes with flower petals, as in other Earl Grey blends.",
+  "appearance_liquor": "Clear reddish amber, typical of a medium black tea.",
+  "appearance_wet": "Dark brown, soft open leaf.",
+  "taste_profile": "Expect the citrus of bergamot softened by a sweet, creamy note, over the plain body of black tea; how strong each is depends on the blender.",
+  "taste_tags": [
+    "citrus",
+    "creamy",
+    "sweet"
+  ],
+  "brewing": {
+    "grams": 3,
+    "water_ml": 250,
+    "temp_c": 95,
+    "steeps": 1,
+    "seconds": [
+      180
+    ],
+    "notes": "Brew Western-style, as with other Earl Grey blends. Taste at three minutes; longer steeps bring out tannin over the flavouring."
+  },
+  "caffeine_level": "medium",
+  "vintage_note": "Not sold by year or season, as is usual for flavoured blends: it is a shop blend sold year-round. Scented teas tend to lose aroma with time, so buy small amounts and use them while fragrant.",
+  "description": "Earl Grey Cream, also spelled Creme, is a recognised style among tea drinkers: Earl Grey with a creamy flavour layered over the bergamot. It is a family of shop blends with no single recipe, and little is documented about any fixed standard.\n\nThe structure follows other flavoured blends. A black base is scented with bergamot and given a creamy flavouring. There is no cream in the tin, and the label is what tells you which flavourings were used.\n\nIn the cup, you should get citrus first and a soft sweetness behind it. Brew it like any Earl Grey, then decide whether it needs anything: the creamy note often makes milk feel optional.\n\nWhen buying, read the ingredients and smell it if you can. As with any flavoured tea, a blend that is all perfume and no tea is the common disappointment. A plain Earl Grey alongside it is the easiest way to judge what the extra flavouring adds.",
+  "history": "Little is documented about where or when this variation first appeared. It sits among the many modern flavoured variations on Earl Grey and is known today as a style name used by tea sellers, without a recorded creator.",
+  "liquor_hex": "#B5702F",
+  "leaf_hex": "#3A2A20",
+  "sources": [
+    "https://ratetea.com/styles.php"
+  ],
+  "confidence": "low",
+  "wikipedia_title": null,
+  "wikipedia_scope": "none",
+  "popularity": 3,
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b6/Earl_grey_cr%C3%A9me.JPG/1280px-Earl_grey_cr%C3%A9me.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b6/Earl_grey_cr%C3%A9me.JPG/330px-Earl_grey_cr%C3%A9me.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Earl_grey_cr%C3%A9me.JPG",
+      "author": "Kidvaati at de.wikipedia",
+      "license": "Public domain",
+      "license_url": null,
+      "kind": "dry_leaf",
+      "alt": "Small pile of dark Earl Grey creme tea leaves on a pale surface"
+    }
+  ]
+}

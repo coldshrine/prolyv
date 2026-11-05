@@ -1,0 +1,57 @@
+{
+  "slug": "prince-of-wales",
+  "name_en": "Prince of Wales",
+  "name_native": null,
+  "name_romanized": null,
+  "name_zh": "威尔士王子茶",
+  "name_ru": "Принц Уэльский",
+  "aliases": [
+    "Prince of Wales Tea",
+    "Prince of Wales tea blend",
+    "プリンス・オブ・ウェールズ"
+  ],
+  "category": "black",
+  "origin_country": "United Kingdom",
+  "origin_region": "England",
+  "cultivar": null,
+  "processing": "A blend with no set formula. Twinings' version has been described both as Keemun-based and as pure China black tea including Yunnan; other recipes have added green tea, currant, Darjeeling or a pinch of Lapsang Souchong.",
+  "form": "loose",
+  "harvest_season": "Not tied to a harvest: blenders combine teas to keep the taste steady year-round.",
+  "appearance_dry": "Dark, fine black leaf, as is typical of a China black blend.",
+  "appearance_liquor": "Bright, fairly light amber-red.",
+  "appearance_wet": "Soft, dark brown leaf.",
+  "taste_profile": "Mild and smooth with a well-rounded character and a clear aroma; Keemun-based versions are known for an orchid-like fragrance.",
+  "taste_tags": [
+    "floral",
+    "sweet",
+    "malty"
+  ],
+  "brewing": {
+    "grams": 2.5,
+    "water_ml": 250,
+    "temp_c": 95,
+    "steeps": 1,
+    "seconds": [
+      180
+    ],
+    "notes": "Brew Western-style; this is a good late-morning or afternoon tea, with or without milk. A mild blend, so it needs no long steep."
+  },
+  "caffeine_level": "medium",
+  "vintage_note": "Sold year-round as a brand blend, not by harvest year or season. What is in the tin varies widely by company and has changed over time, so the current label matters more than the name. Twinings has largely withdrawn its version from the UK while still offering it abroad.",
+  "description": "Prince of Wales is a black tea blend named after Edward, Prince of Wales, later Edward VIII, for whom it was originally devised. It is best known through Twinings, though many companies now use the name and there is no set recipe.\n\nThe recipes really do differ. Older descriptions name Keemun, gunpowder green and currant; Twinings' old tins spoke of Keemun, and its later American packaging of pure China black tea, including Yunnan. A German version from Paul Schrader mixes Chinese blacks and Darjeeling with a pinch of Lapsang Souchong, while Highgrove's blend of the same name uses Assam and Ceylon and no Chinese tea at all.\n\nThe Twinings style is smooth and mild, with a bright cup and a clear aroma, and it works plain or with milk. In Britain, it counts as an afternoon blend, lighter than a breakfast tea. A long steep is not needed.\n\nWhen buying, read the ingredients rather than trusting the name, because two tins labelled Prince of Wales may share almost nothing. If you want the classic idea, look for a Keemun-based blend. Tasting a straight Keemun next shows you what is doing the work.",
+  "history": "The blend was made for Edward while he held the title of Prince of Wales, from 1911 until 1936. In 1921 he allowed Twinings to sell it under his royal title.\n\nThe name then outgrew the original. In Germany, Paul Schrader of Bremen has offered its own version since 1958, and Twinings itself has described its blend differently over time. Its UK presence has largely ended, while overseas sales continue.",
+  "liquor_hex": "#B9692C",
+  "leaf_hex": "#2F231C",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Prince_of_Wales_tea_blend",
+    "https://zh.wikipedia.org/wiki/%E5%A8%81%E5%B0%94%E5%A3%AB%E7%8E%8B%E5%AD%90%E8%8C%B6",
+    "https://ja.wikipedia.org/wiki/%E3%83%97%E3%83%AA%E3%83%B3%E3%82%B9%E3%83%BB%E3%82%AA%E3%83%96%E3%83%BB%E3%82%A6%E3%82%A7%E3%83%BC%E3%83%AB%E3%82%BA_%28%E7%B4%85%E8%8C%B6%29",
+    "https://ko.wikipedia.org/wiki/%ED%94%84%EB%A6%B0%EC%8A%A4_%EC%98%A4%EB%B8%8C_%EC%9B%A8%EC%9D%BC%EC%8A%A4_%28%ED%99%8D%EC%B0%A8%29",
+    "https://www.wikidata.org/wiki/Q905532"
+  ],
+  "confidence": "high",
+  "wikipedia_title": "Prince of Wales tea blend",
+  "wikipedia_scope": "exact",
+  "popularity": 3,
+  "images": []
+}

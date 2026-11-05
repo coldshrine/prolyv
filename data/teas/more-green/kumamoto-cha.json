@@ -1,0 +1,58 @@
+{
+  "slug": "kumamoto-cha",
+  "name_en": "Kumamoto-cha",
+  "name_native": "くまもと茶",
+  "name_romanized": "Kumamoto-cha",
+  "name_zh": "熊本茶",
+  "name_ru": "Кумамото-тя",
+  "aliases": [
+    "Kumamoto tea",
+    "熊本茶"
+  ],
+  "category": "green",
+  "origin_country": "Japan",
+  "origin_region": "Kumamoto",
+  "cultivar": "Yabukita (the large majority), Saemidori and others",
+  "processing": "A prefectural brand covering three types: steamed tamaryokucha, sencha and pan-fired kamairicha.",
+  "form": "loose",
+  "harvest_season": "Spring first flush is the most valued, as with other Japanese green tea; timing varies widely between the scattered northern and southern areas.",
+  "appearance_dry": "Varies by type: dark green needles for sencha, curled, rounded leaf for tamaryokucha and pan-fired tea.",
+  "appearance_liquor": "Clear yellow-green for sencha, paler gold for kamairicha.",
+  "appearance_wet": "Soft green pieces in steamed types; more whole, olive leaves in pan-fired tea.",
+  "taste_profile": "Depends on the type: steamed sencha is green and savoury, while pan-fired tea typically has a toasty, nutty lift and little bitterness.",
+  "taste_tags": [
+    "vegetal",
+    "umami",
+    "roasted",
+    "nutty"
+  ],
+  "brewing": {
+    "grams": 5,
+    "water_ml": 150,
+    "temp_c": 75,
+    "steeps": 3,
+    "seconds": [
+      60,
+      15,
+      30
+    ],
+    "notes": "Use about 70 C for sencha and hotter water, around 80 to 85 C, for kamairicha."
+  },
+  "caffeine_level": "medium",
+  "vintage_note": "Sold by the current year's harvest as other Japanese green teas are, usually under a local name as well as the prefectural brand. Kamairicha keeps its toasted aroma a little better than delicate steamed tea, but it is still best fresh.",
+  "description": "Kumamoto-cha is a prefectural brand rather than one style. Tea gardens are scattered through the hill country from north to south, and the prefecture groups them under one name to raise their profile.\n\nThe interesting part is the mix of methods. Kumamoto makes steamed tamaryokucha, sencha and also pan-fired kamairicha, one of the rarer forms of Japanese tea. Yabukita covers well over two-thirds of the area, and older bushes remain common because many gardens are long established.\n\nTaste follows the method, so read the label before you brew. A pan-fired tea wants hotter water and rewards you with a toasty aroma, while sencha needs a cooler hand.\n\nLook for the local names beneath the brand, such as Yabe-cha from Yamato town, and note the method and harvest. Yamaga, in the north, is another known area with a kamairicha tradition.",
+  "history": "Tea in Kumamoto is old enough that many producing areas count as historic and many bushes are aged, though the single brand name is a modern marketing step. Pan-firing has deep roots here: the region is linked with the Aoyagi style of kamairicha.\n\nAn English-language retailer also notes that a training centre for black tea opened in Kumamoto in 1875. Today's towns keep the craft in public view through festival firing demonstrations and school programmes.",
+  "liquor_hex": "#CDCB72",
+  "leaf_hex": "#4E6A34",
+  "sources": [
+    "https://ja.wikipedia.org/wiki/%E6%97%A5%E6%9C%AC%E8%8C%B6",
+    "https://www.pref.kumamoto.jp/uploaded/attachment/100899.pdf",
+    "https://kumanichi.com/articles/1060274",
+    "https://www.tezumi.com/products/kumamoto-kamairicha-genmaicha"
+  ],
+  "confidence": "medium",
+  "wikipedia_title": "日本茶",
+  "wikipedia_scope": "umbrella",
+  "popularity": 2,
+  "images": []
+}

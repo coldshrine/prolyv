@@ -3,7 +3,14 @@
   "name_en": "Luye Red Oolong (Hong Wulong)",
   "name_native": "鹿野紅烏龍",
   "name_romanized": "Lùyě Hóng Wūlóng",
-  "aliases": ["Red Oolong", "Hong Oolong", "Hong Wu Long", "Taitung Red Oolong", "Luye oolong", "Fulu tea"],
+  "aliases": [
+    "Red Oolong",
+    "Hong Oolong",
+    "Hong Wu Long",
+    "Taitung Red Oolong",
+    "Luye oolong",
+    "Fulu tea"
+  ],
   "category": "oolong",
   "origin_country": "Taiwan",
   "origin_region": "Taitung · Luye",
@@ -15,13 +22,44 @@
   "appearance_liquor": "Deep amber-red, clear and bright.",
   "appearance_wet": "Leaves open to a coppery brown with darker edges, supple and whole.",
   "taste_profile": "Dried longan, dark plum, honey and a little cocoa on a smooth, rounded body with no astringency; somewhere between a roasted oolong and a sweet Taiwanese black.",
-  "taste_tags": ["honey", "dried-fruit", "roasted", "sweet", "cocoa"],
-  "brewing": {"grams": 6, "water_ml": 110, "temp_c": 100, "steeps": 7, "seconds": [25, 20, 30, 40, 55, 80, 120], "notes": "Nearly impossible to over-brew: boiling water and relaxed steeps. Works cold-brewed and even with a splash of milk; the later steeps turn gently sweet."},
+  "taste_tags": [
+    "honey",
+    "dried-fruit",
+    "roasted",
+    "sweet",
+    "cocoa"
+  ],
+  "brewing": {
+    "grams": 6,
+    "water_ml": 110,
+    "temp_c": 100,
+    "steeps": 7,
+    "seconds": [
+      25,
+      20,
+      30,
+      40,
+      55,
+      80,
+      120
+    ],
+    "notes": "Nearly impossible to over-brew: boiling water and relaxed steeps. Works cold-brewed and even with a splash of milk; the later steeps turn gently sweet."
+  },
   "caffeine_level": "medium",
   "vintage_note": "Sold by harvest year, usually from summer and autumn leaf, and often by roast and competition grade from the Luye Farmers' Association. Because the heavy oxidation and roast stabilise it, producers also sell it aged two to five years, when the roast fades and the fruit turns softer and plummier; a freshly roasted lot can taste fiery for its first months.",
   "description": "Red oolong is the youngest of Taiwan's named tea styles and the signature of Luye Township in Taitung, on the terraces above the Beinan river at only 300 to 400 metres. The Tea Research and Extension Station's Taitung branch developed it in 2008 to give lowland farmers something better to do with summer leaf than cheap green oolong, and it has since become the area's identity, with its own farmers' association competition.\n\nThe method pushes oxidation far beyond any other rolled oolong, to roughly 70 or 80 percent, close to black tea, and then ball-rolls, dries and roasts the leaf the way Dong Ding is finished. Heat, strong sun and the heavy oxidation turn the green florals of the cultivars used here, Da Ye oolong, Jin Xuan, Si Ji Chun and Cui Yu, into cooked fruit and honey. The dry balls are dark reddish-brown and the liquor a deep amber-red, which is where the name comes from.\n\nIt tastes like a cross between a roasted oolong and a sweet Taiwanese black: dried longan, dark plum, honey, a little cocoa and a smooth, rounded body without astringency. It is nearly impossible to over-brew, so boiling water and relaxed steeps are fine, and it works as a cold brew and even with a splash of milk. It holds up for eight or more infusions and the later ones turn gently sweet.\n\nIt is sold by harvest year and often by roast and competition grade, mostly from summer and autumn leaf picked from June to September. Because the oxidation and roast stabilise it, producers also sell it aged two to five years, when the roast fades and the fruit turns softer and plummier; a fresh lot can taste a little fiery for the first months. Older labels and roadside shops may still call Luye tea by its earlier local brand name, Fulu tea.\n\nIf you find most Taiwanese oolong too green and most black tea too thin, this is the tea to try.",
   "wikipedia_title": "Taiwanese tea",
   "wikipedia_scope": "umbrella",
   "popularity": 2,
-  "sources_note": "The 2008 TRES Taitung branch origin is the commonly cited date; the exact oxidation percentage varies by producer and the 70–80% figure is a typical claim rather than a measurement."
+  "sources_note": "The 2008 TRES Taitung branch origin is the commonly cited date; the exact oxidation percentage varies by producer and the 70–80% figure is a typical claim rather than a measurement.",
+  "name_zh": "鹿野红乌龙",
+  "name_ru": "Хун У Лун из Лу Е",
+  "history": "Red oolong is a new Taiwanese style, not a historic one. The leaf is rolled and crushed before fixing, which pushes oxidation much further than in other rolled oolongs, and it is then tightly rolled into balls that brew a reddish liquor.\n\nThe tea is tied above all to Luye in Taitung, where it became a local speciality. The name overlaps in places with Gui Fei oolong, so labels are not always a clean guide to the style. Its exact beginnings are less firmly documented than its method.",
+  "liquor_hex": "#A9552A",
+  "leaf_hex": "#3D2319",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Taiwanese_tea"
+  ],
+  "confidence": "low",
+  "images": []
 }

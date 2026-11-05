@@ -1,0 +1,63 @@
+{
+  "slug": "chongqing-tuo-cha",
+  "name_en": "Chongqing Tuo Cha",
+  "name_native": "重庆沱茶",
+  "name_romanized": "Chóngqìng Tuóchá",
+  "name_zh": "重庆沱茶",
+  "name_ru": "Чунцин То Ча",
+  "aliases": [
+    "Chongqing Tuocha",
+    "Zhongqing Tuocha",
+    "重慶沱茶",
+    "Sichuan tuocha"
+  ],
+  "category": "heicha",
+  "origin_country": "China",
+  "origin_region": "Chongqing",
+  "cultivar": null,
+  "processing": "Raw material handled much like pu-erh: withered, rolled, fixed and dried, then steamed and pressed into a bowl-shaped tuo.",
+  "form": "tuo",
+  "harvest_season": "Little is recorded about picking seasons for this tea. Material is usually blended by the factory rather than sold by a named harvest.",
+  "appearance_dry": "A firm bowl-shaped tuo of dark, compressed leaf.",
+  "appearance_liquor": "Typically orange-amber, deepening with age, as with other pressed raw-style tuos.",
+  "appearance_wet": "Typically broken, mid-sized brown-green leaf, as is usual for factory tuo.",
+  "taste_profile": "Few reliable notes exist; expect the strong, slightly smoky and woody grip of factory-pressed raw tuo, softening with years.",
+  "taste_tags": [
+    "woody",
+    "smoky",
+    "bitter",
+    "earthy"
+  ],
+  "brewing": {
+    "grams": 6,
+    "water_ml": 110,
+    "temp_c": 95,
+    "steeps": 6,
+    "seconds": [
+      10,
+      10,
+      15,
+      20,
+      30,
+      45
+    ],
+    "notes": "General advice for pressed raw tuo: flake it apart rather than chiselling it to dust, rinse once, and keep the first steeps short."
+  },
+  "caffeine_level": "medium",
+  "vintage_note": "Sold by production year and factory label, often by the Te Ji grade seen on older tuos such as 2002 pressings. Ask for the year and brand, and be wary, since one such 2002 pressing has been disputed as to whether the leaf came from Yunnan or Chongqing.",
+  "description": "Chongqing tuo cha is a bowl-shaped pressed tea from the Chongqing tea factory tradition, and it is one of the odder corners of Chinese dark tea. It looks like a Yunnan tuo but comes from a different tea region, which long sat within Sichuan until Chongqing became separate in 1997.\n\nThe leaf is treated in a fairly standard raw way, much like pu-erh: withered, rolled, fixed, dried, then pressed. Its status has been muddled: at one time pu-erh was defined by how it was made rather than where, and that allegedly led to some of these tuos being counted as pu-erh, though examples are hard to find.\n\nIn the cup, go by what is typical of factory-pressed raw tuos: firm, woody, sometimes a little smoky, softening as it ages. Pull it apart with care and start with short steeps.\n\nLittle is recorded about today's market, though dated pressings such as 2002 Te Ji tuos do circulate. Check the year and the factory, and do not expect it to behave like Yunnan pu-erh. A side-by-side with a Xiaguan tuo is the fun way to try it.",
+  "history": "One account dates production to 1953 at the Chongqing tea factory, and says that an 'Emei' brand Chongqing tuocha took a gold medal at a food quality fair in Rome in 1983. These dates rest on a single reference and should be taken with care.\n\nThe tea predates Chongqing's split from Sichuan in 1997. Modern food science has also looked at it: a 2022 study compared how different drying methods change its flavour after pressing.",
+  "liquor_hex": "#B5702B",
+  "leaf_hex": "#3D3324",
+  "sources": [
+    "https://pathlesstaken.substack.com/p/sichuan-heicha",
+    "https://thetea-main-en.pages.dev/article/zhongqing-tuocha",
+    "https://www.spkx.net.cn/CN/Y2022/V43/I22/259"
+  ],
+  "confidence": "medium",
+  "wikipedia_title": "Dark tea",
+  "wikipedia_scope": "umbrella",
+  "popularity": 2,
+  "images": [],
+  "sources_note": "1953 and 1983 dates come from one search snippet; that page could not be opened in full. Taste and colours are typical of raw tuos."
+}

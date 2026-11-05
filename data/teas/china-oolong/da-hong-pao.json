@@ -3,7 +3,14 @@
   "name_en": "Da Hong Pao",
   "name_native": "大红袍",
   "name_romanized": "Dà Hóng Páo",
-  "aliases": ["Big Red Robe", "Dahongpao", "Red Robe", "Ta Hung Pao", "Wuyi Da Hong Pao"],
+  "aliases": [
+    "Big Red Robe",
+    "Dahongpao",
+    "Red Robe",
+    "Ta Hung Pao",
+    "Wuyi Da Hong Pao",
+    "大紅袍"
+  ],
   "category": "oolong",
   "origin_country": "China",
   "origin_region": "Fujian · Wuyi Mountains",
@@ -15,13 +22,117 @@
   "appearance_liquor": "Deep orange to amber, bright and clear, darker with heavier roasts.",
   "appearance_wet": "Thick, leathery olive-brown leaves with reddened rims (the classic green leaf with a red border), slow to unfurl fully.",
   "taste_profile": "Roast and warm caramel first, then baked stone fruit and dried plum, finishing on a flinty, cooling mineral note that sits in the throat; good lots stay smooth with no charcoal bitterness.",
-  "taste_tags": ["roasted", "mineral", "stone-fruit", "sweet", "woody"],
-  "brewing": {"grams": 8, "water_ml": 110, "temp_c": 100, "steeps": 8, "seconds": [10, 10, 15, 20, 30, 45, 60, 90], "notes": "Boiling water, a porcelain gaiwan or a zisha pot kept for roasted oolong. Fill the gaiwan about two thirds with dry leaf, pour fast and decant completely; a quick rinse is optional. If it tastes burnt, the tea is too fresh from the roaster rather than badly brewed: let it rest a few months."},
+  "taste_tags": [
+    "roasted",
+    "mineral",
+    "stone-fruit",
+    "sweet",
+    "woody"
+  ],
+  "brewing": {
+    "grams": 8,
+    "water_ml": 110,
+    "temp_c": 100,
+    "steeps": 8,
+    "seconds": [
+      10,
+      10,
+      15,
+      20,
+      30,
+      45,
+      60,
+      90
+    ],
+    "notes": "Boiling water, a porcelain gaiwan or a zisha pot kept for roasted oolong. Fill the gaiwan about two thirds with dry leaf, pour fast and decant completely; a quick rinse is optional. If it tastes burnt, the tea is too fresh from the roaster rather than badly brewed: let it rest a few months."
+  },
   "caffeine_level": "medium",
   "vintage_note": "Sold by harvest year: picked once in spring, roasted over the summer and released once the fire has settled, so the new tea reaches shops from roughly September onward. Lightly roasted lots are best within a year; medium and heavy roasts improve after six months of rest and hold for two to five years sealed and dry. Older lots are sold as aged yancha with the year stated, and anything called mother-tree Da Hong Pao is a story, since those trees have not been picked since 2006.",
-  "description": "Da Hong Pao is the headline name of Wuyi rock tea (yancha), grown on the cliffs and in the gorges of the Wuyi Mountains in northern Fujian. What makes it distinct is less one bush than a whole style: a mature-leaf oolong, charcoal roasted, with the mineral, throat-cooling quality drinkers call yan yun (rock rhyme) that comes from thin soils over weathered volcanic rock and plots shaded by cliff walls.\n\nAlmost none of the Da Hong Pao on the market comes from the six famous mother trees on the Jiulongke cliff, which stopped being harvested in 2006. What you buy is either a pure-bred Da Hong Pao, usually the Qi Dan or Bei Dou cultivars propagated from those trees, or, far more often, a blend that a tea maker assembles from Shui Xian, Rou Gui and other Wuyi cultivars to hit a house profile. A good blend is a craft product, not a cheat; a lazy one is a way to use up leftovers.\n\nThe leaves are picked mature, withered in the sun, shaken repeatedly to bruise the edges and oxidise them partway, then fixed, rolled into strips and roasted over charcoal, sometimes three times across the summer. Roasting is what turns bruised green leaf into something dark, warm and layered, and it is also where the tea's age clock starts: a fresh roast is sharp and smoky, a rested one is round.\n\nIn the cup expect roast first (toasted grain, caramel), then fruit (dried plum, baked peach) and a long mineral aftertaste. Lighter roasts show more florals and fruit; heavier roasts are smoother and more cocoa-like but need months of rest. Brew with boiling water, plenty of leaf and short steeps; the leaves hold eight or more infusions and the later ones are where the sweetness lives.\n\nWhen buying, ask about roast level, harvest year, whether it is a blend or a single cultivar, and where it grew: zhengyan tea from the core scenic area costs several times more than banyan or outer-mountain tea, and the word Da Hong Pao alone tells you nothing about that. To understand what the blend is built from, drink a Rou Gui and a Shui Xian side by side first.",
+  "description": "Da Hong Pao is the headline name of Wuyi rock tea (yancha), grown on the cliffs and in the gorges of the Wuyi Mountains in northern Fujian. What makes it distinct is less one bush than a whole style: a mature-leaf oolong, charcoal roasted, with the mineral, throat-cooling quality drinkers call yan yun (rock rhyme) that comes from thin soils over weathered volcanic rock and plots shaded by cliff walls.\n\nAlmost none of the Da Hong Pao on the market comes from the six famous mother trees on the Jiulongke cliff, which stopped being harvested in 2006. What you buy is either a pure-bred Da Hong Pao grown from cuttings, often sold under cultivar names such as Qi Dan or Bei Dou and said to descend from those trees, or, far more often, a blend that a tea maker assembles from Shui Xian, Rou Gui and other Wuyi cultivars to hit a house profile. A good blend is a craft product, not a cheat; a lazy one is a way to use up leftovers.\n\nThe leaves are picked mature, withered in the sun, shaken repeatedly to bruise the edges and oxidise them partway, then fixed, rolled into strips and roasted over charcoal, sometimes three times across the summer. Roasting is what turns bruised green leaf into something dark, warm and layered, and it is also where the tea's age clock starts: a fresh roast is sharp and smoky, a rested one is round.\n\nIn the cup expect roast first (toasted grain, caramel), then fruit (dried plum, baked peach) and a long mineral aftertaste. Lighter roasts show more florals and fruit; heavier roasts are smoother and more cocoa-like but need months of rest. Brew with boiling water, plenty of leaf and short steeps; the leaves hold eight or more infusions and the later ones are where the sweetness lives.\n\nWhen buying, ask about roast level, harvest year, whether it is a blend or a single cultivar, and where it grew: zhengyan tea from the core scenic area costs several times more than banyan or outer-mountain tea, and the word Da Hong Pao alone tells you nothing about that. To understand what the blend is built from, drink a Rou Gui and a Shui Xian side by side first.",
   "wikipedia_title": "Da Hong Pao",
   "wikipedia_scope": "exact",
   "popularity": 5,
-  "sources_note": "Oxidation percentages are rough trade figures. The 2006 end of picking from the Jiulongke mother trees is widely reported; blend composition varies by maker."
+  "sources_note": "Oxidation percentages are rough trade figures. The 2006 end of picking from the Jiulongke mother trees is widely reported; blend composition varies by maker.",
+  "name_zh": "大红袍",
+  "name_ru": "Да Хун Пао",
+  "history": "Da Hong Pao is the best-known of the rock teas of the Wuyi Mountains in northern Fujian, a district that made tea by the Tang, sent tribute in the Song and kept an imperial tea garden under the Yuan. Oolong making there is usually placed at the turn from Ming to Qing. In the Qing, Da Hong Pao often took first place in local tea contests and picked up the title King of Tea.\n\nThe name comes wrapped in legend. The usual story has a sick scholar on his way to the examinations cured by a monk of Tianxin Temple, then returning in glory to lay a red robe over the bushes. Other versions swap in an empress or an emperor's mother, and a plainer explanation points to the purple-red colour of the spring buds. Even the three characters cut into the cliff at Jiulongke are disputed: one account credits monks in 1927, another a county head in the 1930s.\n\nThe modern tea begins with cuttings. Six old bushes survive on the Jiulongke cliff, giving a few hundred grams in the best years. Wuyishan tea researchers released cutting-grown plants in 1982, and in 1988 assessors judged them equal in character to the originals, which opened the way to batch production. A 20 g lot from the mother trees fetched 208,000 yuan at auction in 2005. In 2006 the city stopped all picking from them and insured them for 100 million yuan.\n\nSo what is sold today comes from cuttings of those bushes or, more often, is a blend of Wuyi cultivars made to the Da Hong Pao style.",
+  "liquor_hex": "#B8682A",
+  "leaf_hex": "#3A2A1E",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Da_Hong_Pao",
+    "https://zh.wikipedia.org/wiki/%E5%A4%A7%E7%BA%A2%E8%A2%8D",
+    "https://ja.wikipedia.org/wiki/%E5%A4%A7%E7%B4%85%E8%A2%8D",
+    "https://ru.wikipedia.org/wiki/%D0%94%D0%B0_%D1%85%D1%83%D0%BD_%D0%BF%D0%B0%D0%BE",
+    "https://en.wikipedia.org/wiki/Wuyi_tea",
+    "https://www.wikidata.org/wiki/Q835553"
+  ],
+  "confidence": "high",
+  "images": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/2/29/Da_Hong_Pao_Oolong_tea_leaf.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/29/Da_Hong_Pao_Oolong_tea_leaf.jpg/330px-Da_Hong_Pao_Oolong_tea_leaf.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Da_Hong_Pao_Oolong_tea_leaf.jpg",
+      "author": "Iateasquirrel at English Wikipedia",
+      "license": "CC BY-SA 3.0",
+      "license_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+      "kind": "dry_leaf",
+      "alt": "Pile of long, twisted dark brown Da Hong Pao leaves on white"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/55/Daikouhou_03.jpg/1280px-Daikouhou_03.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/55/Daikouhou_03.jpg/330px-Daikouhou_03.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Daikouhou_03.jpg",
+      "author": "Shizuha",
+      "license": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "kind": "liquor",
+      "alt": "Amber Da Hong Pao liquor in a yellow cup beside a white bowl of dry dark leaves"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4b/Daikouhou_02.jpg/1280px-Daikouhou_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4b/Daikouhou_02.jpg/330px-Daikouhou_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Daikouhou_02.jpg",
+      "author": "Shizuha",
+      "license": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "kind": "dry_leaf",
+      "alt": "Dark twisted Da Hong Pao leaves in a white bowl"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ea/20121030_Da_Hong_Pao.jpg/1280px-20121030_Da_Hong_Pao.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ea/20121030_Da_Hong_Pao.jpg/330px-20121030_Da_Hong_Pao.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source_page": "https://commons.wikimedia.org/wiki/File:20121030_Da_Hong_Pao.jpg",
+      "author": "Windmemories",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "kind": "plant",
+      "alt": "The original Da Hong Pao tea bushes on a walled terrace against a Wuyi rock face"
+    }
+  ],
+  "i18n": {
+    "ru": {
+      "processing": "Среднее окисление (примерно 30–50%), которого добиваются многократным встряхиванием всю ночь; затем фиксация, скрутка в витые полоски и обжарка на углях — от одного до трёх проходов за лето. Большинство коммерческих партий — купажи (пиньпэй), подогнанные под фирменную обжарку.",
+      "harvest_season": "Один весенний сбор, обычно с конца апреля до середины мая: берут зрелые побеги с тремя-четырьмя раскрывшимися листьями (кай мянь); осеннего сбора, который имел бы какое-то значение, нет.",
+      "appearance_dry": "Длинные, туго скрученные тёмные полоски, матовые, коричнево-чёрные, кое-где с красноватым краем; запах сладкий, поджаристый.",
+      "appearance_liquor": "От насыщенно-оранжевого до янтарного, яркий и прозрачный; чем сильнее обжарка, тем темнее.",
+      "appearance_wet": "Плотные, кожистые оливково-коричневые листья с покрасневшими краями (та самая классическая зелёная серединка с красной каймой); раскрываются полностью не сразу.",
+      "taste_profile": "Сначала обжарка и тёплая карамель, затем запечённые косточковые и вяленая слива, а в финале кремнистая, холодящая минеральность, которая остаётся в горле; хорошие партии остаются мягкими, без угольной горечи.",
+      "vintage_note": "Продаётся по году сбора: его собирают один раз весной, всё лето обжаривают и выпускают, когда огонь уляжется, поэтому новый чай появляется в магазинах примерно с сентября. Партии лёгкой обжарки лучше выпить в течение года; средняя и сильная обжарка становятся лучше после полугода отдыха и держатся два-пять лет в герметичной упаковке и сухости. Более старые партии продают как выдержанный яньча с указанием года, а всё, что называют Да Хун Пао с материнских кустов, — просто байка: с этих кустов не собирают с 2006 года.",
+      "history": "Да Хун Пао — самый известный из скальных чаёв гор Уи на севере Фуцзяни. Чай здесь делали уже при Тан, при Сун отправляли его в дань, а при Юань тут был императорский чайный сад. Появление улунов в этих местах обычно относят к рубежу Мин и Цин. При Цин Да Хун Пао часто занимал первые места на местных чайных состязаниях и получил титул Короля чая.\n\nНазвание окутано легендами. Обычно рассказывают о больном учёном, который шёл на экзамены, был исцелён монахом из монастыря Тяньсинь, а потом с триумфом вернулся и накрыл кусты красным халатом. В других версиях вместо него фигурирует императрица или мать императора, а более прозаичное объяснение указывает на пурпурно-красный цвет весенних почек. Спорят даже о трёх иероглифах, высеченных на скале в Цзюлункэ: по одной версии, это сделали монахи в 1927 году, по другой — глава уезда в 1930-х.\n\nСовременный чай начинается с черенков. На скале Цзюлункэ сохранилось шесть старых кустов, которые в лучшие годы дают несколько сотен граммов. Чайные исследователи из Уишаня выпустили черенковые растения в 1982 году, а в 1988-м эксперты признали их равными оригиналам по характеру, что открыло дорогу серийному производству. Партия в 20 г с материнских кустов ушла с аукциона в 2005 году за 208 000 юаней. В 2006 году город прекратил всякий сбор с них и застраховал их на 100 миллионов юаней.\n\nТак что сегодня в продаже либо чай с черенков этих кустов, либо, чаще, купаж сортов Уи, сделанный в стиле Да Хун Пао.",
+      "description": "Да Хун Пао — главное имя скального чая Уи (яньча), который растёт на скалах и в ущельях гор Уи на севере Фуцзяни. Особенным его делает не столько один куст, сколько целый стиль: улун из зрелого листа, обжаренный на углях, с той минеральной, холодящей горло особенностью, которую называют янь юнь («скальная рифма»). Она берётся из тонких почв на выветренной вулканической породе и участков, затенённых скальными стенами.\n\nПочти ничего из Да Хун Пао на рынке не связано с шестью знаменитыми материнскими кустами на скале Цзюлункэ, с которых перестали собирать в 2006 году. В продаже либо чистый Да Хун Пао с черенков, часто под сортовыми названиями вроде Ци Дань или Бэй Доу, который, как говорят, происходит от этих кустов, либо, гораздо чаще, купаж, который чайный мастер собирает из Шуй Сяня, Жоу Гуя и других сортов Уи под фирменный профиль. Хороший купаж — это ремесло, а не обман; ленивый — способ пристроить остатки.\n\nЛист собирают зрелым, вялят на солнце, многократно встряхивают, чтобы помять края и частично окислить их, затем фиксируют, скручивают в полоски и обжаривают на углях, иногда трижды за лето. Именно обжарка превращает помятый зелёный лист в нечто тёмное, тёплое и многослойное, и с неё же начинается отсчёт возраста чая: свежая обжарка резкая и дымная, отдохнувшая — округлая.\n\nВ чашке сначала обжарка (поджаренное зерно, карамель), затем фрукты (вяленая слива, запечённый персик) и долгое минеральное послевкусие. Лёгкая обжарка даёт больше цветов и фруктов; сильная мягче, ближе к какао, но ей нужны месяцы отдыха. Заваривайте кипятком, побольше листа, проливы короткие; лист выдерживает восемь и больше проливов, и самая сладость живёт в поздних.\n\nПокупая, спрашивайте об уровне обжарки, годе сбора, купаж это или один сорт и где он вырос: чай чжэнъянь из центральной заповедной зоны стоит в несколько раз дороже, чем баньянь или чай внешних гор, а одно только слово «Да Хун Пао» об этом ничего не говорит. Чтобы понять, из чего строится купаж, сначала попейте Жоу Гуй и Шуй Сянь рядом.",
+      "brewing_notes": "Кипяток, фарфоровая гайвань или исинский чайник, отведённый под обжаренные улуны. Наполните гайвань сухим листом примерно на две трети, наливайте быстро и сливайте настой полностью; короткое промывание — по желанию. Если чай отдаёт горелым, дело в том, что он слишком свеж после обжарки, а не в заваривании: дайте ему отдохнуть несколько месяцев."
+    },
+    "zh": {
+      "processing": "中度氧化(约30%–50%),靠整夜反复摇青逐步达成,随后杀青、揉成扭曲的条索,并在夏季进行一到三次炭焙。市面上多数批次是拼配茶,按茶厂自家的焙火风格调配。",
+      "harvest_season": "春季只采一次,通常在4月下旬至5月中旬,采三四片开面叶的成熟新梢;秋茶基本无足轻重。",
+      "appearance_dry": "条索长而紧结,色泽乌褐、不反光,偶见红边,带焙烤的甜香。",
+      "appearance_liquor": "深橙至琥珀色,明亮清澈,焙火越重颜色越深。",
+      "appearance_wet": "叶片肥厚如皮革,橄榄褐色,边缘泛红(即经典的绿叶红镶边),舒展较慢。",
+      "taste_profile": "先是焙火香和温润的焦糖,接着是烤核果和干李子,收尾是落在喉间的燧石般清凉矿感;好茶始终顺滑,没有炭火的苦味。",
+      "vintage_note": "按采摘年份销售:春季采一次,整个夏天焙火,待火气退去才上市,所以新茶大约9月起才到店。轻焙批次最好在一年内喝完;中焙、重焙放半年后更好,密封干燥可存两到五年。更老的批次会标明年份,作为陈年岩茶出售;至于所谓母树大红袍,不过是故事,那几棵树自2006年起就不再采摘了。",
+      "history": "大红袍是闽北武夷山岩茶中最负盛名的一款。这一带唐代已产茶,宋代入贡,元代设有御茶园。当地乌龙茶的制作,通常认为始于明清之际。清代,大红袍常在当地斗茶中夺魁,得了“茶王”之称。\n\n这个名字裹着不少传说。常见的说法是,一位赶考途中病倒的书生被天心寺的僧人治好,后来衣锦而归,将红袍披在茶树上。别的版本把主角换成皇后或皇太后;还有一种更朴实的解释,说它得名于春芽的紫红色。就连九龙窠崖壁上那三个字也有争议:一说是僧人在1927年所刻,一说是1930年代某位县长所为。\n\n现代的大红袍从扦插开始。九龙窠崖壁上现存六棵老树,年景最好时也只产几百克。武夷山的茶叶科研人员在1982年推出了扦插苗,1988年评审认为其品质特征与原株相当,从此打开了批量生产的大门。2005年,20克母树茶在拍卖会上拍出20.8万元。2006年,武夷山市停止采摘母树,并为其投保1亿元。\n\n所以如今市面上的,要么是这些老树的扦插后代,要么(更常见)是用武夷各品种拼配、按大红袍风格做的茶。",
+      "description": "大红袍是武夷岩茶的头号招牌,生长于闽北武夷山的山崖与峡谷之间。它的独特之处与其说在于某一棵树,不如说在于一整套风格:成熟叶制作、炭火烘焙的乌龙茶,带着茶友所说的岩韵——那种矿感、喉间生凉的特质,来自风化火山岩上的薄土和崖壁遮荫的茶园。\n\n市面上的大红袍几乎都与九龙窠崖壁上那六棵著名母树无关,它们自2006年起已停采。你买到的要么是扦插繁育的纯种大红袍,常以奇丹、北斗等品种名出售,据说是这些老树的后代;要么(常见得多)是制茶人用水仙、肉桂等武夷品种拼出自家风格的拼配茶。好的拼配是手艺,不是作弊;敷衍的拼配则只是消化余料。\n\n鲜叶采得成熟,经日光萎凋,反复摇青使叶缘受损并部分氧化,再杀青、揉成条索,用炭火烘焙,有时一个夏天焙三次。正是焙火把受损的绿叶变得深沉、温暖而富有层次,茶的“年龄”也从这里算起:刚焙好的茶尖锐带烟气,放过之后才圆润。\n\n入口先是焙火香(烤谷物、焦糖),接着是果香(干李子、烤桃子),然后是悠长的矿感余韵。轻焙更显花果香;重焙更顺滑,更接近可可,但需要静置几个月。用沸水、足量投茶、快出汤;叶子能泡八道以上,而甜味恰恰藏在后面几道。\n\n购买时要问清焙火程度、采摘年份、是拼配还是单一品种,以及产地:核心景区的正岩茶比半岩茶或外山茶贵好几倍,而光凭“大红袍”三个字完全看不出这一点。想了解拼配的底子,不妨先把肉桂和水仙对比着喝一喝。",
+      "brewing_notes": "沸水,用瓷盖碗或专泡焙火乌龙的紫砂壶。干茶投到盖碗约三分之二满,快冲快出,沥净茶汤;洗茶可有可无。如果喝着有焦味,那是茶刚焙好太新,而不是泡得不好:放上几个月再喝。"
+    }
+  }
 }

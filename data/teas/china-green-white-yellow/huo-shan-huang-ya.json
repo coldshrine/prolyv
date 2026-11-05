@@ -3,25 +3,103 @@
   "name_en": "Huo Shan Huang Ya (Huoshan Yellow Bud)",
   "name_native": "霍山黄芽",
   "name_romanized": "Huòshān Huángyá",
-  "aliases": ["Huoshan Huangya", "Huo Shan Yellow Bud", "Huoshan Yellow Sprout", "Yellow Bud", "Anhui yellow tea"],
+  "aliases": [
+    "Huoshan Huangya",
+    "Huo Shan Yellow Bud",
+    "Huoshan Yellow Sprout",
+    "Yellow Bud",
+    "Anhui yellow tea",
+    "霍山黃芽"
+  ],
   "category": "yellow",
   "origin_country": "China",
-  "origin_region": "Anhui · Lu'an · Huoshan county (Dahuaping, Jinji Mountain, Manshuihe)",
+  "origin_region": "Anhui · Lu'an · Huoshan",
   "cultivar": "Huoshan Jinji landrace and local population bushes",
   "processing": "A bud with one or two leaves is pan-fired, then given a short yellowing (men huang) by piling or wrapping the warm leaf for a few hours to a day, followed by baking in two or three stages; the yellowing is lighter than Junshan's and the final bake gives a chestnut note.",
   "form": "loose",
-  "harvest_season": "Spring, from mid April to early May, around Grain Rain; the top grades are the earliest bud-with-one-leaf pickings.",
+  "harvest_season": "Spring, from early April to around Grain Rain and into early May; the top grades are the earliest bud-with-one-leaf pickings.",
   "appearance_dry": "Slightly flat, straight shoots like sparrow tongues, yellow-green with golden tips and soft down.",
   "appearance_liquor": "Clear yellow with a green tinge, brighter than Junshan.",
   "appearance_wet": "Tender yellow-green bud-and-leaf sets, even and soft.",
   "taste_profile": "Cooked chestnut and sweet corn with a soft, round body, a gentle savoury note and a clean sweet finish; gentler and rounder than a green from the same hills.",
-  "taste_tags": ["nutty", "sweet", "umami", "roasted"],
-  "brewing": {"grams": 4, "water_ml": 120, "temp_c": 83, "steeps": 4, "seconds": [40, 30, 45, 70], "notes": "Gaiwan or glass at 80–85 °C. Forgiving for a bud tea; the chestnut note shows best in the second steep."},
+  "taste_tags": [
+    "nutty",
+    "sweet",
+    "umami",
+    "roasted"
+  ],
+  "brewing": {
+    "grams": 4,
+    "water_ml": 120,
+    "temp_c": 83,
+    "steeps": 4,
+    "seconds": [
+      40,
+      30,
+      45,
+      70
+    ],
+    "notes": "Gaiwan or glass at 80–85 °C. Forgiving for a bud tea; the chestnut note shows best in the second steep."
+  },
   "caffeine_level": "medium",
   "vintage_note": "Sold as the current year's spring harvest, in special grades 1 and 2 and grade 1 by picking date and bud ratio, from late April. It is the most available real yellow tea and is priced like a good green; the Huoshan name is protected, and the depth of the yellowing varies from barely there to distinctly mellow depending on the maker. Drink within the year, kept cold and sealed.",
   "description": "Huo Shan Huang Ya is the yellow tea to drink if you want to understand yellow tea without taking out a loan: a bud-with-leaf tea from the Dabie Mountains of Huoshan county in western Anhui, next door to the Lu'an Gua Pian country, made in real quantity and sold at the price of a good green. It is an old name revived in the 1970s, and the villages around Jinji Mountain and Dahuaping are its core.\n\nThe yellowing here is lighter and quicker than Junshan's: after pan-firing, the warm leaf is piled or wrapped for a few hours up to a day, long enough to soften the green edge and turn the colour toward gold, then it is baked in stages, which adds a cooked-chestnut note. Some makers go so light that the tea is practically a green; others let it sweat properly, and the difference is obvious in the cup.\n\nIt tastes of cooked chestnut and sweet corn on a soft, rounded body with a gentle savoury middle and a clean sweet finish; the point of the sweating is that the grassy, astringent edge of a fresh green is gone and the texture is mellow. It takes 80–85 °C in a gaiwan and gives four steeps, with the chestnut showing best in the second. It is one of the more forgiving spring teas and a good one for people who find greens sharp.\n\nIt is sold as the current spring's harvest from late April, graded by picking date and bud ratio, and it is widely available in Anhui and from Chinese specialists abroad. The name is protected; the things worth asking are the village and how long the yellowing was. Leaf should be yellow-green with golden tips and smell of chestnut, not hay.\n\nDrink it beside a Lu'an Gua Pian from across the county line: same mountains, same chestnut thread, one green and one yellow.",
   "wikipedia_title": "Huoshan Huangya tea",
   "wikipedia_scope": "exact",
   "popularity": 3,
-  "sources_note": "Revival date '1970s' follows the usual Chinese account (1971–72 is commonly cited)."
+  "sources_note": "Revival date '1970s' follows the usual Chinese account (1971–72 is commonly cited).",
+  "name_zh": "霍山黄芽",
+  "name_ru": "Хо Шань Хуан Я",
+  "history": "Huoshan's yellow bud has an old name. Li Zhao's Tang Guoshi Bu lists the Huangya of Huoshan in Shouzhou among the noted teas of the time, and the Ming compendium Qunfang Pu praises it again. Whether that tea resembled today's is another question: the name alone does not tell us it went through the yellowing step that defines the category now.\n\nThe tea nearly vanished in modern times and was brought back in 1971, so what you drink is a revival built on an old reputation. It comes from around Mozitan, Dahuaping, Manshuihe and neighbouring villages in Huoshan county, has a chestnut aroma and a sparrow-tongue shape, and holds a Chinese geographical indication.",
+  "liquor_hex": "#DDD583",
+  "leaf_hex": "#A3A04F",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Huoshan_Huangya_tea",
+    "https://zh.wikipedia.org/wiki/%E9%9C%8D%E5%B1%B1%E9%BB%84%E8%8A%BD",
+    "https://ko.wikipedia.org/wiki/%EA%B3%BD%EC%82%B0%ED%99%A9%EC%95%84",
+    "https://zh.wikipedia.org/wiki/%E9%BB%84%E8%8C%B6"
+  ],
+  "confidence": "high",
+  "images": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/e/e3/Huo_Shan_Huang_Ya_-_%C5%BElut%C3%BD_%C4%8Daj.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e3/Huo_Shan_Huang_Ya_-_%C5%BElut%C3%BD_%C4%8Daj.jpg/330px-Huo_Shan_Huang_Ya_-_%C5%BElut%C3%BD_%C4%8Daj.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Huo_Shan_Huang_Ya_-_%C5%BElut%C3%BD_%C4%8Daj.jpg",
+      "author": "Vypij.cz",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "kind": "dry_leaf",
+      "alt": "Slender yellow-green Huo Shan Huang Ya shoots in a white ceramic bowl"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/0/06/Huoshan_Huangya_tea_leaves.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/06/Huoshan_Huangya_tea_leaves.jpg/330px-Huoshan_Huangya_tea_leaves.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Huoshan_Huangya_tea_leaves.jpg",
+      "author": "",
+      "license": "CC BY-SA 3.0",
+      "license_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+      "kind": "dry_leaf",
+      "alt": "Flat, straight dry Huoshan Huangya shoots with pale down on a white surface"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/5/5f/Huoshan_Huangya_tea_leaves_close.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5f/Huoshan_Huangya_tea_leaves_close.jpg/330px-Huoshan_Huangya_tea_leaves_close.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Huoshan_Huangya_tea_leaves_close.jpg",
+      "author": "Iateasquirrel",
+      "license": "CC BY-SA 3.0",
+      "license_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+      "kind": "dry_leaf",
+      "alt": "Close view of downy dry Huoshan Huangya shoots"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e9/%D0%9B%D0%B8%D1%81%D1%82%D0%BE%D0%B2%D0%BE%D0%B9_%D0%B6%D0%B5%D0%BB%D1%82%D1%8B%D0%B9_%D1%87%D0%B0%D0%B9_%D0%A5%D0%BE%D1%88%D0%B0%D0%BD%D1%8C_%D0%A5%D1%83%D0%B0%D0%BD_%D0%AF.jpg/1280px-%D0%9B%D0%B8%D1%81%D1%82%D0%BE%D0%B2%D0%BE%D0%B9_%D0%B6%D0%B5%D0%BB%D1%82%D1%8B%D0%B9_%D1%87%D0%B0%D0%B9_%D0%A5%D0%BE%D1%88%D0%B0%D0%BD%D1%8C_%D0%A5%D1%83%D0%B0%D0%BD_%D0%AF.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e9/%D0%9B%D0%B8%D1%81%D1%82%D0%BE%D0%B2%D0%BE%D0%B9_%D0%B6%D0%B5%D0%BB%D1%82%D1%8B%D0%B9_%D1%87%D0%B0%D0%B9_%D0%A5%D0%BE%D1%88%D0%B0%D0%BD%D1%8C_%D0%A5%D1%83%D0%B0%D0%BD_%D0%AF.jpg/330px-%D0%9B%D0%B8%D1%81%D1%82%D0%BE%D0%B2%D0%BE%D0%B9_%D0%B6%D0%B5%D0%BB%D1%82%D1%8B%D0%B9_%D1%87%D0%B0%D0%B9_%D0%A5%D0%BE%D1%88%D0%B0%D0%BD%D1%8C_%D0%A5%D1%83%D0%B0%D0%BD_%D0%AF.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source_page": "https://commons.wikimedia.org/wiki/File:%D0%9B%D0%B8%D1%81%D1%82%D0%BE%D0%B2%D0%BE%D0%B9_%D0%B6%D0%B5%D0%BB%D1%82%D1%8B%D0%B9_%D1%87%D0%B0%D0%B9_%D0%A5%D0%BE%D1%88%D0%B0%D0%BD%D1%8C_%D0%A5%D1%83%D0%B0%D0%BD_%D0%AF.jpg",
+      "author": "Pannet",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "kind": "dry_leaf",
+      "alt": "Pile of green dry Huoshan Huangya leaves on a white background"
+    }
+  ]
 }

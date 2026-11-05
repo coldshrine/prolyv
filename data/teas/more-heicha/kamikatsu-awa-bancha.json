@@ -1,0 +1,56 @@
+{
+  "slug": "kamikatsu-awa-bancha",
+  "name_en": "Kamikatsu Awa Bancha",
+  "name_native": "上勝阿波晩茶",
+  "name_romanized": "Kamikatsu Awa bancha",
+  "aliases": [
+    "上勝阿波晩茶"
+  ],
+  "category": "heicha",
+  "origin_country": "Japan",
+  "origin_region": "Tokushima · Kamikatsu",
+  "cultivar": null,
+  "form": "loose",
+  "caffeine_level": "medium",
+  "brewing": {
+    "grams": 6,
+    "water_ml": 120,
+    "temp_c": 100,
+    "steeps": 6,
+    "seconds": [
+      15,
+      15,
+      20,
+      30,
+      45,
+      60
+    ],
+    "notes": "A safe starting point for dark tea: rinse once, boiling water, or simmer it the traditional way."
+  },
+  "taste_tags": [
+    "earthy",
+    "woody"
+  ],
+  "description": "The Awa bancha of Kamikatsu in Tokushima Prefecture, a post-fermented tea sold under the town's name.\n\nTreat it as you would any dark tea: rinse it, use boiling water, and buy from someone who can say who pressed it and when.",
+  "wikipedia_title": null,
+  "wikipedia_scope": "none",
+  "popularity": 1,
+  "name_zh": "上胜阿波晚茶",
+  "name_ru": "Камикацу ава бантя",
+  "history": "Kamikatsu is one of the two main centres of Awa bancha. On 13 June 2019 the town declared the golden-hued tea, with the processed goods and visitor programmes built on it, a supported local speciality. Little more is documented about this local version alone.",
+  "liquor_hex": "#C9A23C",
+  "leaf_hex": "#4A3D22",
+  "sources": [
+    "https://ja.wikipedia.org/wiki/阿波晩茶"
+  ],
+  "confidence": "low",
+  "images": [],
+  "stub": true,
+  "processing": "Typical of dark tea: green leaf is piled so that microbes ferment it, then dried and often pressed.",
+  "harvest_season": "Often made from coarser, later leaf, as with most dark teas.",
+  "appearance_dry": "Usually dark leaf, loose or pressed into bricks or baskets.",
+  "appearance_liquor": "Described as golden.",
+  "appearance_wet": "Usually coarse dark leaf with some stem.",
+  "taste_profile": "Expect what dark teas usually give: smooth, woody and earthy.",
+  "vintage_note": "Dark teas are sold by production year and many improve with several years of dry storage."
+}

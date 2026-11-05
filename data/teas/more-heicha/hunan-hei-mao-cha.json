@@ -1,0 +1,63 @@
+{
+  "slug": "hunan-hei-mao-cha",
+  "name_en": "Hei Mao Cha",
+  "name_native": "黑毛茶",
+  "name_romanized": "Hēi Máo Chá",
+  "name_zh": "黑毛茶",
+  "name_ru": "Хэй Мао Ча",
+  "aliases": [
+    "Hunan raw dark tea",
+    "Heimao Tea",
+    "Hunan Hei Mao Cha",
+    "湖南黑毛茶",
+    "湖南黒毛茶"
+  ],
+  "category": "heicha",
+  "origin_country": "China",
+  "origin_region": "Hunan · Anhua",
+  "cultivar": null,
+  "processing": "Five steps: fixing, rolling, pile fermentation, a second rolling and baking, often over pine wood. It is the loose raw material for Anhua's refined and pressed teas.",
+  "form": "loose",
+  "harvest_season": "Picked through the growing season, usually from fairly mature leaf, with higher grades taken from finer material; Hunan raw tea is sorted into four grades.",
+  "appearance_dry": "Coarse, dark, twisted loose leaf, black with some oily sheen.",
+  "appearance_liquor": "Orange-yellow and clear.",
+  "appearance_wet": "Yellow-brown, fairly coarse leaf.",
+  "taste_profile": "Full and mellow with a pine-smoke scent and no harsh roughness.",
+  "taste_tags": [
+    "smoky",
+    "woody",
+    "earthy"
+  ],
+  "brewing": {
+    "grams": 6,
+    "water_ml": 120,
+    "temp_c": 100,
+    "steeps": 5,
+    "seconds": [
+      10,
+      15,
+      25,
+      40,
+      60
+    ],
+    "notes": "Rinse once and use boiling water. Simple and forgiving; a longer steep gives more smoke."
+  },
+  "caffeine_level": "medium",
+  "vintage_note": "Mostly sold on to factories as raw material for San Jian, bricks and rolls, by grade and season, rather than to drinkers. Loose lots that reach retail generally carry a production year, and, as with other dark teas, can be drunk young or stored dry for a while.",
+  "description": "Hei Mao Cha is the starting point of Hunan dark tea: loose, coarse raw tea that goes on to become Tian Jian, Fu brick and the big bamboo-wrapped rolls. Hunan's version is known above all for its Anhua origin and a scent of pine smoke.\n\nThe fresh leaf is fixed, rolled, piled to ferment, rolled again and baked. The piling is what makes it a dark tea, and the pine fire gives it its typical aroma.\n\nThe cup is orange-yellow, mellow and full, with smoke but no roughness. Brew it simply, with boiling water. It will never be elegant, but tasting it next to a finished San Jian or brick shows you what later refining does.\n\nThe term also covers raw dark tea made elsewhere, such as for Liu Bao, so make sure the label says Hunan or Anhua. Good lots smell clean and smoky, not sour.",
+  "history": "Hei Mao Cha is a stage of production more than a named tea, and has no single documented origin. The making of dark tea in Anhua is generally linked to the Ming period, when pan-firing, piling and fire-drying took shape, replacing the steamed cakes of earlier centuries.\n\nModern heritage accounts of Anhua's Qian Liang describe its making in two stages, with raw hei mao cha first and refining and pressing afterwards. The raw tea has its own four-grade system in Hunan.",
+  "liquor_hex": "#C4832E",
+  "leaf_hex": "#2C261D",
+  "sources": [
+    "https://ja.wikipedia.org/wiki/%E9%BB%92%E8%8C%B6",
+    "https://m.jiemian.com/article/780057.html",
+    "https://www.ihchina.cn/project_details/14624.html",
+    "https://paper.people.com.cn/rmrb/html/2023-09/09/nw.D110000renmrb_20230909_2-07.htm",
+    "https://paper.people.com.cn/zgcsb/html/2016-05/30/content_1683882.htm"
+  ],
+  "confidence": "medium",
+  "wikipedia_title": null,
+  "wikipedia_scope": "none",
+  "popularity": 2,
+  "images": []
+}

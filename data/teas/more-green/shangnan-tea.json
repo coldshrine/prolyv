@@ -1,0 +1,59 @@
+{
+  "slug": "shangnan-tea",
+  "name_en": "Shangnan Tea",
+  "name_native": "商南茶",
+  "name_romanized": "Shāngnán Chá",
+  "name_zh": "商南茶",
+  "name_ru": "Шаннань Ча",
+  "aliases": [
+    "Shangnancha",
+    "Shangnanchuncha",
+    "商南春茶",
+    "Shangnan Spring Tea"
+  ],
+  "category": "green",
+  "origin_country": "China",
+  "origin_region": "Shaanxi · Shangluo · Shangnan",
+  "cultivar": null,
+  "processing": "Regional green tea made from shoots of one bud with one or two leaves, in either a curled or a flat, straight shape.",
+  "form": "loose",
+  "harvest_season": "Around Qingming in spring. Slow growth means production centres on spring tea, with very little summer tea.",
+  "appearance_dry": "Tight, curved or flat and straight leaves with obvious white down.",
+  "appearance_liquor": "Tender green, clear and bright.",
+  "appearance_wet": "Bright yellow-green leaf.",
+  "taste_profile": "Fresh and sweet with a rich, lasting chestnut aroma; it holds up to repeat steeps.",
+  "taste_tags": [
+    "nutty",
+    "sweet",
+    "vegetal",
+    "brisk"
+  ],
+  "brewing": {
+    "grams": 3,
+    "water_ml": 150,
+    "temp_c": 82,
+    "steeps": 3,
+    "seconds": [
+      60,
+      90,
+      120
+    ],
+    "notes": "These are general settings for a regional green. It takes several steeps, so keep the first one brief."
+  },
+  "caffeine_level": "medium",
+  "vintage_note": "It is sold mainly as the current year's spring tea, with leaf from around Qingming the most prized. Drink it within about a year. Finer named lots such as Shangnan Quanming are sold separately from everyday spring tea.",
+  "description": "Shangnan tea is the regional green of Shangnan county in southeastern Shaanxi, one of China's more northerly tea areas. It has been a registered agricultural geographical indication since 2011, covering 13 townships.\n\nBig swings between day and night, low temperatures and modest rain slow the bushes down. Yields stay low, and producers concentrate on spring tea. The leaf comes in two forms: curled, or flat and straight, both showing white down.\n\nThe signature is a strong chestnut aroma with a fresh, sweet taste, and it brews well several times over. Slightly cooler than boiling water keeps the sweetness intact.\n\nThe name is broad and quality varies. Shangnan Quanming is its best-known refined style, while Doufujian, Wangjialou and Qingquan are named local spring teas from Xinmiao township.",
+  "history": "Tea here is a modern success: planting took hold in 1970 and moved the northern limit of tea growing about 300 kilometres northward in this part of China, which makes Shangnan a young tea area.\n\nIt won praise at a famous-tea review run by the China Tea Research Institute on 15 June 1988. Agricultural geographical indication registration followed in December 2011, and in September 2020 it entered a national list of notable agricultural products. It also features in the 2013 film Latitude 33 North.",
+  "liquor_hex": "#D8DB90",
+  "leaf_hex": "#79905A",
+  "sources": [
+    "https://milulu.com.cn/techan/17877.html",
+    "https://milulu.com.cn/techan/32098.html",
+    "https://www.maigoo.com/top/423318.html"
+  ],
+  "confidence": "medium",
+  "wikipedia_title": null,
+  "wikipedia_scope": "none",
+  "popularity": 2,
+  "images": []
+}

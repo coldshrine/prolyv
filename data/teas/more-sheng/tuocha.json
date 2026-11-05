@@ -1,0 +1,81 @@
+{
+  "slug": "tuocha",
+  "name_en": "Tuocha",
+  "name_native": "沱茶",
+  "name_romanized": "Tuóchá",
+  "name_zh": "沱茶",
+  "name_ru": "То Ча",
+  "aliases": [
+    "Tuo cha",
+    "Bird's nest tea",
+    "Bowl tea",
+    "Yunnan Tuocha",
+    "Yunnan Tuo Cha",
+    "Green Tuo Cha",
+    "云南沱茶",
+    "小沱茶",
+    "Точа",
+    "То ча"
+  ],
+  "category": "sheng",
+  "origin_country": "China",
+  "origin_region": "Yunnan",
+  "cultivar": "Usually Yunnan large-leaf",
+  "processing": "Tea is steamed and pressed into a dome or small bowl with a hollow underneath. It can be raw or ripe pu-erh, and green tea is pressed this way as well.",
+  "form": "tuo",
+  "harvest_season": "Set by the tea inside; spring and autumn pickings are the most valued for pu-erh.",
+  "appearance_dry": "A hard, compact dome with a dimple beneath, from thumb-sized to palm-sized, its colour depending on the tea.",
+  "appearance_liquor": "Gold-orange for raw tea and dark red-brown for ripe.",
+  "appearance_wet": "Tightly packed pieces that open slowly, often more broken than in a loosely pressed cake.",
+  "taste_profile": "Depends on the tea. As a rule of the form, tight pressing gives a slower, fuller extraction than loose leaf: ripe tuocha is earthy and smooth, raw is bitter-sweet and strong.",
+  "taste_tags": [
+    "earthy",
+    "bitter",
+    "woody",
+    "sweet"
+  ],
+  "brewing": {
+    "grams": 5,
+    "water_ml": 100,
+    "temp_c": 98,
+    "steeps": 7,
+    "seconds": [
+      15,
+      10,
+      15,
+      20,
+      30,
+      40,
+      60
+    ],
+    "notes": "Rinse small tuos a little longer so they begin to open; large ones can be steamed and rubbed apart, then dried before use."
+  },
+  "caffeine_level": "medium",
+  "vintage_note": "As with other pressed pu-erh, sold by year and region. Standard pieces weigh about 100 g, and mini tuos of 3 to 5 g are a single-pot portion. The compact shape ages more slowly than a cake, since less surface is exposed, so buy small ones to drink rather than to keep for long.",
+  "description": "Tuocha is the little dome or bowl of pressed tea, hollow underneath. The standard piece is about 100 grams, and the xiao tuocha is small enough at a few grams to drop straight into a pot.\n\nThe shape travelled well: wrapped pieces could be strung into long bundles for mule caravans, and a tuo was easier to buy and sell than a big brick. Today most tuocha is pu-erh, either raw or ripe, although green tuocha exists too.\n\nBecause it is dense, it brews slowly at first. Give the rinse a little more time, then expect the middle steeps to be stronger than the first. A pressed mini tuo is handy for travel but rarely the best leaf.\n\nLook for year and region, and don't assume the shape says anything about quality or type. The label should tell you whether it is raw or ripe.\n\nLarge pieces can be softened over steam and rubbed apart, then dried: much easier than attacking one with a knife.",
+  "history": "Japanese accounts credit a Yunnan tea factory with developing the shape in 1917. They say it was first written 坨, for the bowl-like form, and renamed 沱 because it was said to taste good brewed with water from the Tuo River; treat that as a story rather than a settled fact. Little else about its origin is firmly documented, and Yunnan has remained the main producer.",
+  "liquor_hex": "#A65E22",
+  "leaf_hex": "#4C3A24",
+  "wikipedia_title": "Compressed tea",
+  "wikipedia_scope": "umbrella",
+  "popularity": 3,
+  "sources": [
+    "https://zh.wikipedia.org/wiki/%E6%B2%B1%E8%8C%B6",
+    "https://en.wikipedia.org/wiki/Compressed_tea",
+    "https://ja.wikipedia.org/wiki/%E7%B7%8A%E5%9C%A7%E8%8C%B6",
+    "https://en.wikipedia.org/wiki/Pu%27er_tea"
+  ],
+  "confidence": "medium",
+  "images": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/9/9c/Xiaguan_1992_tuo_cha.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9c/Xiaguan_1992_tuo_cha.jpg/330px-Xiaguan_1992_tuo_cha.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Xiaguan_1992_tuo_cha.jpg",
+      "author": "Jason Fasi",
+      "license": "CC BY 2.5",
+      "license_url": "https://creativecommons.org/licenses/by/2.5",
+      "kind": "cake",
+      "alt": "Compact dome of Xiaguan raw pu-erh tuocha on a bamboo mat"
+    }
+  ]
+}

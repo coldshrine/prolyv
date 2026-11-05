@@ -1,0 +1,58 @@
+{
+  "slug": "zairai",
+  "name_en": "Zairai",
+  "name_native": "在来",
+  "name_romanized": "Zairai",
+  "name_zh": "在来种",
+  "name_ru": "Дзайрай",
+  "aliases": [
+    "Zairaishu",
+    "在来種",
+    "Zairai-shu",
+    "Native Japanese seedling tea"
+  ],
+  "category": "green",
+  "origin_country": "Japan",
+  "origin_region": "Various tea regions",
+  "cultivar": "None: mixed seed-grown plants",
+  "processing": "Zairai describes the plants, not a method. Most is steamed or pan-fired as green tea, and some growers make it into black tea (wakōcha).",
+  "form": "loose",
+  "harvest_season": "Usually spring, like other Japanese tea. Seedling bushes bud at different times, so a single field does not flush evenly.",
+  "appearance_dry": "Less uniform than single-cultivar tea; in steamed green styles, dark green needles of mixed size and shade.",
+  "appearance_liquor": "In green styles, a clear yellow-green; black-tea versions run amber to reddish.",
+  "appearance_wet": "Leaves of visibly mixed size and shade, as you would expect from plants that are not clones.",
+  "taste_profile": "There is no fixed flavour, because the plants and processing vary. Green versions tend toward a plain, vegetal and woody character, with less of the polished sweetness of shaded modern cultivars.",
+  "taste_tags": [
+    "vegetal",
+    "woody",
+    "grassy"
+  ],
+  "brewing": {
+    "grams": 5,
+    "water_ml": 150,
+    "temp_c": 75,
+    "steeps": 3,
+    "seconds": [
+      60,
+      20,
+      40
+    ],
+    "notes": "A starting point for steamed green versions. Kamairicha takes hotter water, and black-tea zairai should be brewed like wakōcha, near the boil."
+  },
+  "caffeine_level": "medium",
+  "vintage_note": "Sold by harvest year and season like the style it is made into: green zairai is best as current-year tea, and black-tea versions keep longer. The label usually names a farm or region, because zairai itself says nothing about place. Quantities are small.",
+  "description": "Zairai is not a cultivar. The word means roughly 'native', and it covers tea bushes grown from seed, often in fields that were themselves planted from the seed of older fields. One field holds many genetically different plants, and over generations such a field can become particular to its area.\n\nThat is the opposite of modern Japanese tea, where clones from cuttings such as Yabukita bud together and can be cut in one pass. Seedlings ripen unevenly and yield less, which makes them more work.\n\nDo not expect one taste. A steamed sencha, a pan-fired kamairicha and a wakōcha labelled zairai share only their plant material. Sellers often claim a deeper flavour, but that is a claim to test in the cup. Brew it according to the style it was made into.\n\nWhen buying, look for the farm, the region and the style. Some lots come from old gardens, such as bushes of around a century in Ashikita, Kumamoto, but the word alone promises neither age nor quality.",
+  "history": "Seed was the ordinary way to grow tea in Japan before propagation by cuttings became the norm, so zairai gardens are often older than the modern cultivars around them. They now account for only about 1% of Japanese tea production by one grower-focused estimate.\n\nThe move to clones was driven by even budding and easier harvesting. Zairai survives as a small niche, and some sellers now offer it as a speciality.",
+  "liquor_hex": "#CFC877",
+  "leaf_hex": "#4F5A2C",
+  "sources": [
+    "https://yunomi.life/pages/list-of-japanese-tea-cultivars",
+    "https://gjtea.org/tea-plant-propagation-in-japan/",
+    "https://www.curioustea.com/tea/black-tea/ashikita-old-tree-zairai-wakocha/"
+  ],
+  "confidence": "medium",
+  "wikipedia_title": null,
+  "wikipedia_scope": "none",
+  "popularity": 2,
+  "images": []
+}

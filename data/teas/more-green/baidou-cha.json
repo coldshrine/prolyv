@@ -1,0 +1,53 @@
+{
+  "slug": "baidou-cha",
+  "name_en": "Baidou Cha",
+  "name_native": "百抖茶",
+  "name_romanized": "Bǎidǒu Chá",
+  "aliases": [
+    "Baidoucha",
+    "Hundred-Shake Tea"
+  ],
+  "category": "green",
+  "origin_country": "China",
+  "origin_region": "Yunnan · Xinping, Fengqing",
+  "cultivar": null,
+  "form": "loose",
+  "caffeine_level": "medium",
+  "brewing": {
+    "grams": 3,
+    "water_ml": 150,
+    "temp_c": 80,
+    "steeps": 3,
+    "seconds": [
+      60,
+      75,
+      105
+    ],
+    "notes": "A safe starting point for green tea: cooler water, short steeps, then adjust by taste."
+  },
+  "taste_tags": [
+    "roasted"
+  ],
+  "description": "A pot-roasted tea custom of Yunnan, kept in Fengqing and among Yi and Dai people in Xinping, in which leaves are shaken in a small clay pot over the fire about a hundred times before boiling water goes in.\n\nTreat it as you would any green tea: cooler water, short steeps, and a seller who can say where and when it was picked.",
+  "wikipedia_title": null,
+  "wikipedia_scope": "none",
+  "popularity": 1,
+  "name_zh": "百抖茶",
+  "name_ru": "Бай Доу Ча",
+  "history": "The name comes from the shaking, which heats the leaf evenly until it yellows and smells toasted without burning. Hosts prepare it for guests, specialists are hired for family celebrations in some villages, and folk remedies add liquor, scorched rice, salt or ginger. These are local customs, not tested cures, and little is documented about the custom's origins.",
+  "liquor_hex": "#B8803A",
+  "leaf_hex": "#5A4A2A",
+  "sources": [
+    "https://milulu.com.cn/techan/32580.html"
+  ],
+  "confidence": "medium",
+  "images": [],
+  "stub": true,
+  "processing": "Green leaf is roasted in a preheated clay pot over the fire with rhythmic shaking, then boiling water is added in several small pours so the froth rises without spilling.",
+  "harvest_season": "Usually picked in spring, with the earliest pickings prized, as with most green teas.",
+  "appearance_dry": "Green leaf whose shape depends on the maker, as is usual for regional green teas.",
+  "appearance_liquor": "Usually a clear, pale yellow-green.",
+  "appearance_wet": "Usually soft green leaf that opens up in the water.",
+  "taste_profile": "Strong, toasted and fragrant, with bitterness and astringency reduced by the roasting.",
+  "vintage_note": "Green teas like this are normally sold as the current year's harvest and are best within a year of picking. It is not an ageing tea."
+}

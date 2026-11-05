@@ -3,7 +3,12 @@
   "name_en": "Fengqing Sheng Pu-erh",
   "name_native": "凤庆生普洱",
   "name_romanized": "Fèngqìng Shēng Pǔ'ěr",
-  "aliases": ["Feng Qing sheng", "Fengqing raw pu-erh", "Shunning", "凤庆"],
+  "aliases": [
+    "Feng Qing sheng",
+    "Fengqing raw pu-erh",
+    "Shunning",
+    "凤庆"
+  ],
   "category": "sheng",
   "origin_country": "China",
   "origin_region": "Yunnan · Lincang · Fengqing",
@@ -15,13 +20,47 @@
   "appearance_liquor": "Deep gold, clear, with a slightly warmer tone than other Lincang teas.",
   "appearance_wet": "Large, thick, soft leaves with big buds, olive-green with a hint of bronze at the edges.",
   "taste_profile": "Rounder and fruitier than typical Lincang tea: dried apricot and honey, a soft bitterness, a medium-full body and a warm, slightly malty undertone that hints at the black tea the leaf is famous for.",
-  "taste_tags": ["fruity", "honey", "sweet", "malty"],
-  "brewing": {"grams": 7, "water_ml": 110, "temp_c": 95, "steeps": 10, "seconds": [10, 8, 10, 15, 20, 30, 45, 60, 90, 150], "notes": "Rinse once (twice for a tightly pressed factory cake or tuo). Robust leaf; it takes full-boil water and a longer opening steep without turning harsh."},
+  "taste_tags": [
+    "fruity",
+    "honey",
+    "sweet",
+    "malty"
+  ],
+  "brewing": {
+    "grams": 7,
+    "water_ml": 110,
+    "temp_c": 95,
+    "steeps": 10,
+    "seconds": [
+      10,
+      8,
+      10,
+      15,
+      20,
+      30,
+      45,
+      60,
+      90,
+      150
+    ],
+    "notes": "Rinse once (twice for a tightly pressed factory cake or tuo). Robust leaf; it takes full-boil water and a longer opening steep without turning harsh."
+  },
   "caffeine_level": "high",
   "vintage_note": "Sold by spring harvest year and area (Lushi, Xiangzhuqing, Dasi) from small producers, and by production year from the Fengqing Tea Factory (the Dianhong Group), whose sheng cakes and tuo carry batch dates like any factory product. Young (1–3 years) Fengqing sheng is fruity and soft; mid-aged (5–15 years) it turns honeyed and slightly malty, and factory cakes and tuo from the 1990s and 2000s are the main source of genuinely aged Fengqing tea. Most supply is 2005–2025, dry-stored; the county's old-tree material is scarce because so much goes into premium black tea.",
   "description": "Fengqing, in northern Lincang, is the home of Dianhong, the Yunnan black tea first made here in 1939 when the county was still called Shunning, and black tea is still what the county is known for. But the same Fengqing large-leaf trees also make a distinctive raw pu-erh, and the county is home to the Jinxiu tea tree at Xiangzhuqing, which local claims put at over three thousand years old and which is often called the oldest cultivated tea tree alive.\n\nThe leaf is thick and bud-rich, and in sheng processing it is pan-fired, rolled, sun-dried and pressed; the Fengqing Tea Factory presses it into cakes, bricks and tuo alongside its black tea, and small producers sell it as maocha and cakes. The large-leaf variety has a naturally high level of the compounds that make Dianhong rich, and you can taste that heritage in the sheng.\n\nIn the cup it is rounder than the sharp, floral Mengku style: dried apricot and honey, a soft bitterness, a medium-full body and a warm, faintly malty base note. It is forgiving to brew and takes boiling water well. Aged a decade in dry storage it becomes honeyed and smooth, closer in spirit to an old Menghai tea than most Lincang material gets.\n\nSold by spring year and village from small producers and by production year from the factory. Fengqing sheng is generally priced sensibly because the county's reputation is elsewhere, and the main thing to watch is the 'ancient tree' label: the celebrated old trees are few and protected, and most sheng comes from ordinary gardens. The factory's tuo and small cakes are a reliable budget way into aged Lincang tea.\n\nTaste it beside a Fengqing Dianhong from the same gardens: the fruit and malt in both come from one leaf going two ways.",
   "wikipedia_title": "Pu'er tea",
   "wikipedia_scope": "umbrella",
   "popularity": 2,
-  "sources_note": "Dianhong's origin in 1939 at Shunning (now Fengqing) is standard tea history; the age of the Jinxiu tree is a local claim (about 3,200 years) and is presented as such."
+  "sources_note": "Dianhong's origin in 1939 at Shunning (now Fengqing) is standard tea history; the age of the Jinxiu tree is a local claim (about 3,200 years) and is presented as such.",
+  "name_zh": "凤庆生普洱",
+  "name_ru": "Фэн Цин Шэн Пуэр",
+  "history": "Fengqing, in the north of Lincang and formerly called Shunning, is known above all as a home of Dianhong black tea, and its raw pu-erh has always stood in that shadow. The county also has a celebrated old tea tree at Xiangzhuqing; the great age claimed for it is a local claim and should be read as one.\n\nLittle is documented about Fengqing sheng as a style of its own. It is made from the same local large-leaf plants as the black tea, by the county factory and by small producers.",
+  "liquor_hex": "#D19B3C",
+  "leaf_hex": "#3F3A26",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Fengqing_County",
+    "https://en.wikipedia.org/wiki/Lincang"
+  ],
+  "confidence": "low",
+  "images": []
 }

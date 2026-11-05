@@ -3,25 +3,79 @@
   "name_en": "Goishicha",
   "name_native": "碁石茶",
   "name_romanized": "Goishicha",
-  "aliases": ["Goishi-cha", "Go stone tea", "Otoyo goishicha", "Kochi fermented tea", "Ōtoyo goishicha"],
+  "aliases": [
+    "Goishi-cha",
+    "Go stone tea",
+    "Otoyo goishicha",
+    "Kochi fermented tea",
+    "Ōtoyo goishicha"
+  ],
   "category": "heicha",
   "origin_country": "Japan",
   "origin_region": "Kōchi · Ōtoyo",
-  "cultivar": "Seed-grown zairai mountain bushes",
-  "processing": "Summer leaves and twigs are steamed, piled on straw mats under cloth for about a week so a surface mould grows, then packed into vats under heavy weights for a second, anaerobic lactic fermentation of around two weeks; the compacted mass is cut into small squares and sun-dried.",
+  "cultivar": "Traditionally wild mountain tea growing after slash-and-burn clearing; Yabukita is now used as well.",
+  "processing": "Summer leaves and twigs are steamed for one to two hours, spread between straw mats for about 7 to 10 days so mould grows, then packed into vats with the steaming liquor under heavy weights for an anaerobic lactic fermentation of 10 to 20 days; the compacted mass is cut into squares of 2.5 to 4 cm and sun-dried.",
   "form": "other",
-  "harvest_season": "One summer picking, around June–July; the whole year's production is finished by early autumn.",
+  "harvest_season": "One summer picking, around mid-July, taking nearly all the leaves; the whole year's production is finished by early autumn.",
   "appearance_dry": "Small, dark, compressed squares or tiles of layered leaf, about the size of a large postage stamp, brownish-black with a dusty surface.",
   "appearance_liquor": "Amber to pale brown, clear.",
   "appearance_wet": "The tile loosens into a mass of soft, dark, matted leaves.",
   "taste_profile": "Sharp sour note up front, then a savoury, slightly earthy depth with a dried-plum sweetness and a lingering tang; nothing like a green tea.",
-  "taste_tags": ["tart", "earthy", "dried-fruit", "medicinal"],
-  "brewing": {"grams": 5, "water_ml": 500, "temp_c": 100, "steeps": 1, "seconds": [300], "notes": "Traditionally simmered: one tile in half a litre of boiling water for five minutes or so, drunk hot or chilled, or used as the stock for tea porridge (chagayu). A long steep in a pot works if you cannot simmer; the spent tile can be simmered once more."},
+  "taste_tags": [
+    "tart",
+    "earthy",
+    "dried-fruit",
+    "medicinal"
+  ],
+  "brewing": {
+    "grams": 5,
+    "water_ml": 500,
+    "temp_c": 100,
+    "steeps": 1,
+    "seconds": [
+      300
+    ],
+    "notes": "Traditionally simmered: one tile in half a litre of boiling water for five minutes or so, drunk hot or chilled, or used as the stock for tea porridge (chagayu). A long steep in a pot works if you cannot simmer; the spent tile can be simmered once more."
+  },
   "caffeine_level": "low",
   "vintage_note": "Made once a year in tiny quantities by a handful of producers in Ōtoyo and sold by weight from autumn, in small packets with the year, mostly within Shikoku and through specialist shops; it sells out. Because it is a dried fermented product it keeps well for a year or two, and older pieces lose some sourness and gain earthiness, but there is no formal ageing market.",
-  "description": "Goishicha is the rarest of Japan's fermented teas, made in the mountain town of Ōtoyo in Kōchi by a handful of producers and pressed into small dark tiles that look like the black stones of a go board, which is where the name comes from. It is a two-stage fermented tea, first by mould and then by bacteria, and it tastes sharp, sour and deep, closer to a Chinese dark tea than to anything green.\n\nSummer leaves with their twigs are steamed, then spread on straw mats under cloth for about a week in a warm room, where a surface mould develops; the leaves are then packed into vats, weighted down and left to ferment without air for a couple of weeks while lactic-acid bacteria take over. The compacted block is cut into small squares, which are laid out in the sun to dry, and those squares are the finished tea. It came close to disappearing in the twentieth century, and the remaining makers keep it going in very small quantities.\n\nBrew it by simmering: one tile, about 5 g, in half a litre of boiling water for five minutes or so, drunk hot or poured off and chilled. It was traditionally shipped to the islands of the Seto Inland Sea, where it was used as the stock for tea porridge (chagayu) rather than drunk as tea, because the salty, sour liquor suited the local rice and water. A long steep in a teapot works if you cannot simmer. The cup opens sour and a little earthy, then settles into a savoury, dried-plum depth with a lingering tang. Treated like sencha it is pointless.\n\nIt is sold by weight from autumn in small packets with the year, mostly within Shikoku and through specialist dealers, and it is expensive per gram because of how little exists; crumbs and broken pieces are sold cheaper and in teabags. Older pieces lose some of their sourness and gain earthiness, but there is no ageing market or grading to speak of; the maker's name is the only guide.\n\nTry it cold-brewed in summer if the hot version is too much, and if you enjoy it, Ishizuchi kurocha from Ehime is the gentler sibling.",
+  "description": "Goishicha is the rarest of Japan's fermented teas, made in the mountain town of Ōtoyo in Kōchi by a handful of producers and pressed into small dark tiles that look like the black stones of a go board, which is where the name comes from. It is a two-stage fermented tea, first by mould and then by bacteria, and it tastes sharp, sour and deep, closer to a Chinese dark tea than to anything green.\n\nSummer leaves with their twigs are steamed, then spread between straw mats for about 7 to 10 days indoors, where a surface mould develops; the leaves are then packed into vats, weighted down and left to ferment without air for a couple of weeks while lactic-acid bacteria take over. The compacted block is cut into small squares, which are laid out in the sun to dry, and those squares are the finished tea. It came close to disappearing in the twentieth century, and the remaining makers keep it going in very small quantities.\n\nBrew it by simmering: one or two pieces of a few grams each in a litre of boiling water for five to ten minutes, drunk hot or poured off and chilled. It was traditionally shipped to the islands of the Seto Inland Sea, where it was used for tea porridge (chagayu) more than drunk as tea. A long steep in a teapot works if you cannot simmer. The cup opens sour and a little earthy, then settles into a savoury, dried-plum depth with a lingering tang. Treated like sencha it is pointless.\n\nIt is sold by weight from autumn in small packets with the year, mostly within Shikoku and through specialist dealers, and it is expensive per gram because of how little exists; crumbs and broken pieces are sold cheaper and in teabags. Older pieces lose some of their sourness and gain earthiness, but there is no ageing market or grading to speak of; the maker's name is the only guide.\n\nTry it cold-brewed in summer if the hot version is too much, and if you enjoy it, Ishizuchi kurocha from Ehime is the gentler sibling.",
   "wikipedia_title": "Goishicha",
   "wikipedia_scope": "exact",
   "popularity": 1,
-  "sources_note": "Form set to 'other' because the tea is sold as small compressed tiles rather than loose leaf or a true brick. Number of producers is given as 'a handful' without a figure."
+  "sources_note": "Form set to 'other' because the tea is sold as small compressed tiles rather than loose leaf or a true brick. Number of producers is given as 'a handful' without a figure.",
+  "name_zh": "碁石茶",
+  "name_ru": "Гоиситя",
+  "history": "Nobody knows when goishicha began. A passage in the Edo-period Nanroshi suggests it was being made by the 18th century, and some accounts place it earlier in the Edo period. It was hardly a local drink: it travelled from the Kochi mountains to the Shiwaku islands and elsewhere around the Seto Inland Sea for tea porridge, often traded against salt, and the tannic liquor also went to protect fishing nets and ropes. The name comes from the look of the dark squares drying on mats, like go stones on a board.\n\nOutput peaked around the end of the Meiji era at some 75 tonnes, from about 200 households at its height. After the war it collapsed, down to 13 households and 1.3 tonnes in 1966, and by about 1975 one farm in Otoyo was left, kept going with help from the town and visiting academics. Television coverage of its supposed beauty benefits brought new interest, a cooperative formed in 2010, and in 2018 four individuals and one company shipped around 1.3 tonnes.\n\nThe making of it was selected for documentation in 2018 with awabancha and Ishizuchi kurocha, and was designated an Important Intangible Folk Cultural Property of Japan in 2026.",
+  "liquor_hex": "#B98A3E",
+  "leaf_hex": "#2B2119",
+  "sources": [
+    "https://ja.wikipedia.org/wiki/%E7%A2%81%E7%9F%B3%E8%8C%B6",
+    "https://ru.wikipedia.org/wiki/%D0%93%D0%BE%D0%B8%D1%81%D0%B8%D1%82%D1%8F",
+    "https://en.wikipedia.org/wiki/Goishicha",
+    "https://en.wikipedia.org/wiki/Fermented_tea"
+  ],
+  "confidence": "high",
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a1/Goishi-cha_%28tea_leaves_block%29_01.jpg/1280px-Goishi-cha_%28tea_leaves_block%29_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a1/Goishi-cha_%28tea_leaves_block%29_01.jpg/330px-Goishi-cha_%28tea_leaves_block%29_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Goishi-cha_(tea_leaves_block)_01.jpg",
+      "author": "Asset utilitist",
+      "license": "CC0",
+      "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "kind": "cake",
+      "alt": "Three dark, compressed blocks of Goishicha tea leaf on a white plate"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/49/%E7%A2%81%E7%9F%B3%E8%8C%B6%E3%81%AE%E8%8C%B6%E7%95%91%EF%BC%88%E8%8C%B6%E6%9C%A8%EF%BC%89.jpg/1280px-%E7%A2%81%E7%9F%B3%E8%8C%B6%E3%81%AE%E8%8C%B6%E7%95%91%EF%BC%88%E8%8C%B6%E6%9C%A8%EF%BC%89.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/49/%E7%A2%81%E7%9F%B3%E8%8C%B6%E3%81%AE%E8%8C%B6%E7%95%91%EF%BC%88%E8%8C%B6%E6%9C%A8%EF%BC%89.jpg/330px-%E7%A2%81%E7%9F%B3%E8%8C%B6%E3%81%AE%E8%8C%B6%E7%95%91%EF%BC%88%E8%8C%B6%E6%9C%A8%EF%BC%89.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source_page": "https://commons.wikimedia.org/wiki/File:%E7%A2%81%E7%9F%B3%E8%8C%B6%E3%81%AE%E8%8C%B6%E7%95%91%EF%BC%88%E8%8C%B6%E6%9C%A8%EF%BC%89.jpg",
+      "author": "Asset utilitist",
+      "license": "CC0",
+      "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "kind": "plantation",
+      "alt": "Goishicha tea trees growing on a terraced slope in Otoyo, Kochi"
+    }
+  ]
 }

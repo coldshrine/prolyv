@@ -1,0 +1,58 @@
+{
+  "slug": "linglong-cha",
+  "name_en": "Linglong Cha",
+  "name_native": "玲珑茶",
+  "name_romanized": "Línglóng Chá",
+  "name_zh": "玲珑茶",
+  "name_ru": "Лин Лун Ча",
+  "aliases": [
+    "Linglong Tea",
+    "Guidong Linglong Cha",
+    "桂东玲珑茶",
+    "玲瓏茶"
+  ],
+  "category": "green",
+  "origin_country": "China",
+  "origin_region": "Hunan · Chenzhou · Guidong",
+  "cultivar": null,
+  "processing": "Green tea shaped into fine, hooked strips. The exact steps are not widely published.",
+  "form": "loose",
+  "harvest_season": "Spring, the season valued for its fresh taste; a detailed plucking standard is not widely published.",
+  "appearance_dry": "Tight, fine, curved strips shaped like little hooks, glossy green with silver down.",
+  "appearance_liquor": "Clear and bright, in the pale yellow-green typical of spring greens.",
+  "appearance_wet": "Tender shoots, as is usual for a fine spring green.",
+  "taste_profile": "Rich and mellow with a lasting aroma, then a sweet, cooling finish.",
+  "taste_tags": [
+    "sweet",
+    "vegetal",
+    "floral"
+  ],
+  "brewing": {
+    "grams": 3,
+    "water_ml": 150,
+    "temp_c": 85,
+    "steeps": 3,
+    "seconds": [
+      60,
+      80,
+      110
+    ],
+    "notes": "General settings for a tightly shaped green. A glass lets you watch the hooks open, and a slightly hotter water than for flat greens helps them unfold."
+  },
+  "caffeine_level": "medium",
+  "vintage_note": "As with other Hunan greens, it is normally bought as the current year's spring harvest and drunk within the year. Spring lots are the ones to look for.",
+  "description": "Linglong Cha comes from Guidong County in Hunan. What sets it apart is its shape: fine strips curved into little hooks. Linglong means dainty and intricate, and it is also the name of the village it is linked to.\n\nMaking the tea is reported as provincial intangible heritage, though the steps are not widely published.\n\nThe cup is rich but mellow, with a lasting aroma and a sweet, cool aftertaste. Tight leaf opens slowly, so give the first steep a little time rather than raising the dose.\n\nWhen buying, look for even hooks with visible down and ask for the harvest year. Guidong on the label matters, since linglong is an attractive word that could be used loosely.",
+  "history": "Records cited locally say the tea has been grown for over 300 years and was listed as tribute in the Kangxi period of the Qing dynasty. It was named a Hunan quality famous tea in 1980 and received a Ministry of Agriculture, Animal Husbandry and Fisheries quality award in 1985.\n\nIts making is now reported as a provincial intangible heritage item; the year is not confirmed here.",
+  "liquor_hex": "#D8D488",
+  "leaf_hex": "#6F7F42",
+  "sources": [
+    "https://zh.wikipedia.org/wiki/%E7%8E%B2%E7%8F%91%E8%8C%B6",
+    "https://www.wikidata.org/wiki/Q10418947",
+    "https://m.voc.com.cn/rmt/article/15737655.html"
+  ],
+  "confidence": "medium",
+  "wikipedia_title": null,
+  "wikipedia_scope": "none",
+  "popularity": 3,
+  "images": []
+}

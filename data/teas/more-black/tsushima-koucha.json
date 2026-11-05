@@ -1,0 +1,50 @@
+{
+  "slug": "tsushima-koucha",
+  "name_en": "Tsushima Koucha",
+  "name_native": "対馬紅茶",
+  "name_romanized": "Tsushima Kōcha",
+  "aliases": [],
+  "category": "black",
+  "origin_country": "Japan",
+  "origin_region": "Nagasaki · Tsushima",
+  "cultivar": "Benifuuki",
+  "form": "loose",
+  "caffeine_level": "high",
+  "brewing": {
+    "grams": 3,
+    "water_ml": 200,
+    "temp_c": 95,
+    "steeps": 2,
+    "seconds": [
+      180,
+      240
+    ],
+    "notes": "A safe starting point for black tea: Western style, water just off the boil."
+  },
+  "taste_tags": [
+    "floral",
+    "sweet"
+  ],
+  "description": "A Japanese black tea from the island of Tsushima in Nagasaki Prefecture, made mainly from the Benifuuki cultivar.\n\nTreat it as you would any black tea: water just off the boil, a few minutes in the pot, and a seller who can say where it was grown.",
+  "wikipedia_title": null,
+  "wikipedia_scope": "none",
+  "popularity": 1,
+  "name_zh": "对马红茶",
+  "name_ru": "Цусима-котя",
+  "history": "Only one grower on the island makes it, the Tsushima Oishi farm, with fields including the foot of Mount Mitake. Little more is documented.",
+  "liquor_hex": "#A8431C",
+  "leaf_hex": "#3A2A1E",
+  "sources": [
+    "https://ja.wikipedia.org/wiki/%E5%AF%BE%E9%A6%AC%E7%B4%85%E8%8C%B6"
+  ],
+  "confidence": "medium",
+  "images": [],
+  "stub": true,
+  "processing": "Typical of black tea: withered, rolled, fully oxidised and dried.",
+  "harvest_season": "Picked through the growing season, as with most black teas.",
+  "appearance_dry": "Usually dark twisted leaf, sometimes with golden tips.",
+  "appearance_liquor": "Usually a clear red-brown.",
+  "appearance_wet": "Usually coppery brown leaf.",
+  "taste_profile": "A flowery aroma with a light sweetness recalling brown sugar, strong enough to take milk.",
+  "vintage_note": "Black teas are normally sold by harvest year and are best within a couple of years."
+}

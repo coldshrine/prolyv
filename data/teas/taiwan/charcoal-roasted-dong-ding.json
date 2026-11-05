@@ -3,7 +3,13 @@
   "name_en": "Charcoal-Roasted Dong Ding",
   "name_native": "炭焙凍頂烏龍",
   "name_romanized": "Tànbèi Dòngdǐng Wūlóng",
-  "aliases": ["Tan Bei Dong Ding", "Charcoal Dong Ding", "Longan-wood roasted oolong", "Heavy-roast Dong Ding", "Charcoal-fired Tung Ting"],
+  "aliases": [
+    "Tan Bei Dong Ding",
+    "Charcoal Dong Ding",
+    "Longan-wood roasted oolong",
+    "Heavy-roast Dong Ding",
+    "Charcoal-fired Tung Ting"
+  ],
   "category": "oolong",
   "origin_country": "Taiwan",
   "origin_region": "Nantou · Lugu",
@@ -15,12 +21,43 @@
   "appearance_liquor": "Deep amber to light brown, clear and glossy.",
   "appearance_wet": "Dark brown-olive leaves that open slowly and stay pliable, with reddish edges still visible on a good lot.",
   "taste_profile": "Caramel, roasted nuts, dried longan and a hint of cocoa with the orchid of the original leaf underneath, a thick texture and a long, warming sweet finish; no smoke when it is done well.",
-  "taste_tags": ["roasted", "nutty", "sweet", "dried-fruit", "woody"],
-  "brewing": {"grams": 6, "water_ml": 110, "temp_c": 100, "steeps": 7, "seconds": [25, 20, 25, 35, 50, 70, 100], "notes": "Boiling water and a clay pot; it does not mind being pushed, and by the fifth steep it becomes a clear sweet broth. If a fresh lot smells sharply of fire, let it rest sealed for a few more weeks."},
+  "taste_tags": [
+    "roasted",
+    "nutty",
+    "sweet",
+    "dried-fruit",
+    "woody"
+  ],
+  "brewing": {
+    "grams": 6,
+    "water_ml": 110,
+    "temp_c": 100,
+    "steeps": 7,
+    "seconds": [
+      25,
+      20,
+      25,
+      35,
+      50,
+      70,
+      100
+    ],
+    "notes": "Boiling water and a clay pot; it does not mind being pushed, and by the fifth steep it becomes a clear sweet broth. If a fresh lot smells sharply of fire, let it rest sealed for a few more weeks."
+  },
   "caffeine_level": "medium",
   "vintage_note": "Sold by leaf season and roast year, usually with the roast level stated (light, medium, heavy), and many lots are released the year after the harvest once they have rested. Medium and heavy charcoal roasts are deliberately aged: sealed and dry they mellow into dried fruit over five to ten years, and they are the usual starting material for Taiwanese lao cha. Lightly roasted competition lots are drunk within a year or two.",
   "description": "Charcoal-roasted Dong Ding is the premium end of roasted Taiwanese oolong: ordinary Dong Ding leaf from Lugu, finished not in an electric oven but over the embers of longan-wood charcoal, by a small number of roasters who still do it the slow way. It costs more, takes weeks, and when it is done well it is the most comforting tea Taiwan makes.\n\nThe base is a moderately oxidised, ball-rolled Qing Xin oolong. For the roast, bamboo baskets of leaf sit over a charcoal pit whose embers are banked under a layer of ash to keep the heat low and even, roughly 80 to 120 degrees, for hours at a stretch; the roaster turns the leaf, rests it for days and goes again, two, three or more rounds depending on the level wanted. Afterwards the tea must rest for a month or more so the 'fire' retreats and the sweetness comes forward. Done badly it tastes of ash; done well it has no smoke at all.\n\nWhat you get is a warm, dense cup of caramel, roasted nuts, dried longan and a hint of cocoa, with the orchid of the original leaf still there underneath, a thick texture and a long sweet finish. It wants boiling water and a clay pot, and it does not mind being pushed; by the fifth and sixth steep it turns into a clear, sweet broth that is easy to drink all evening.\n\nIt is sold by leaf season and roast year, often with the roast level stated, and many lots are released the year after the harvest once they have rested. Genuine charcoal work is a minority; most 'charcoal-roasted' tea is electric, which is not a crime but should not command the same price. Charcoal roasting leaves the balls dark olive to brown and still supple, with an even, rounded warmth; charred black leaf and a sharp, acrid smell mean the roast was rushed or done to hide poor tea.\n\nThis is also the tea to buy if you want to age an oolong yourself: sealed and dry, a medium-heavy charcoal roast mellows into dried fruit over five to ten years and is the starting material for a lot of Taiwanese lao cha.",
   "wikipedia_title": "Dongding tea",
   "wikipedia_scope": "umbrella",
-  "popularity": 3
+  "popularity": 3,
+  "name_zh": "炭焙冻顶乌龙",
+  "name_ru": "Тань Бэй Дун Дин",
+  "history": "This is Dong Ding from Lugu finished over charcoal rather than in an electric roaster, and it is a way of finishing tea more than a separately recorded product. Little is documented about it on its own. Its story is bound up with Dong Ding itself, which moved towards lighter, greener tea in the late twentieth century and left slow charcoal work to the makers who kept it up.\n\nRoasting temperatures, schedules and woods vary by workshop and are mostly passed on as trade knowledge.",
+  "liquor_hex": "#A8662A",
+  "leaf_hex": "#4A3B24",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Dongding_tea"
+  ],
+  "confidence": "low",
+  "images": []
 }

@@ -1,0 +1,59 @@
+{
+  "slug": "jie-cha",
+  "name_en": "Jie Cha",
+  "name_native": "岕茶",
+  "name_romanized": "Jiè Chá",
+  "name_zh": "岕茶",
+  "name_ru": "Цзе Ча",
+  "aliases": [
+    "Luo Jie Tea",
+    "Luojie",
+    "罗岕茶",
+    "羅岕茶",
+    "Dongshan Jie Tea",
+    "洞山岕茶"
+  ],
+  "category": "green",
+  "origin_country": "China",
+  "origin_region": "Jiangsu · Yixing",
+  "cultivar": null,
+  "processing": "Old writers describe it as steamed, not pan-fired: the sorted leaf went into a steamer until softened and was then baked dry, and over-steaming was held to lose its freshness.",
+  "form": "loose",
+  "harvest_season": "Old accounts put picking unusually late, around the start of summer, and about five days after Grain Rain at Dongshan; a second late-summer picking is also mentioned.",
+  "appearance_dry": "Old accounts describe thicker leaves and coarser stems than early-picked teas, with only tender, carefully sorted leaf valued.",
+  "appearance_liquor": "Old writers prized a white or jade-like colour and rejected muddy liquor.",
+  "appearance_wet": "Little is documented beyond the softened, carefully sorted leaf.",
+  "taste_profile": "Old accounts praise a sweet, clear, light flavour and an orchid-like fragrance, and treat astringency and dullness as faults.",
+  "taste_tags": [
+    "floral",
+    "sweet",
+    "vegetal"
+  ],
+  "brewing": {
+    "grams": 3,
+    "water_ml": 150,
+    "temp_c": 85,
+    "steeps": 3,
+    "seconds": [
+      50,
+      70,
+      100
+    ],
+    "notes": "These are modern settings for a lightly made green tea. Old writers rinsed the leaf briefly in hot water and preferred a small pot for each guest to keep the aroma concentrated."
+  },
+  "caffeine_level": "medium",
+  "vintage_note": "Little is documented about how it is sold today, and a tea under this name should be judged on its own terms. Green teas are normally sold as the current year's harvest, but old accounts of Jie tea say that keeping it for a season could deepen its aroma, unusual for a green.",
+  "description": "Jie Cha is a historic tea from the hills on the border of Yixing and Changxing. A jie is a narrow strip of land between two hills, and the tea took its name from such places. Its fame belongs mostly to the late Ming, when it had several whole treatises to itself.\n\nWhat made it distinct was method. Old writers insist that it was steamed and then baked, at a time when pan-firing was taking over Chinese green tea, and they accuse others of passing off pan-fired tea as the real thing. It was also picked late, around the start of summer, against the usual preference for the earliest buds.\n\nThe texts rank places closely: Dongshan with its south-facing slope at the top, Miaohou of the Luo Jie area a little behind. They value a pale jade colour, sweetness, clarity and an orchid scent. How close any modern tea comes to this is hard to say, so read those notes as an old ideal, not a tasting note on what you can buy.\n\nIf you see the name for sale, ask how the tea is fixed and where the garden is. A pan-fired tea from elsewhere is exactly what the old writers complained of. For a feel of steamed green tea today, Japanese sencha is the nearest easy comparison, though it is a different tradition.",
+  "history": "Jie tea is documented in Ming writing. Xiong Mingyu wrote a report on Luo Jie tea around 1608, and Zhou Gaoqi wrote on Dongshan Jie tea in 1640. A further collection, Jie Cha Hui Chao, is credited to Mao Xiang, with a preface and postscript by Zhang Chao.\n\nLittle is documented about when the old method fell out of use or how much of the tradition survives in today's production.",
+  "wikipedia_title": "Tea classics",
+  "wikipedia_scope": "umbrella",
+  "popularity": 2,
+  "liquor_hex": "#E3DDA8",
+  "leaf_hex": "#6E7548",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Tea_classics",
+    "https://zh.wikisource.org/wiki/%E5%B2%95%E8%8C%B6%E5%8C%AF%E6%8A%84"
+  ],
+  "confidence": "medium",
+  "images": []
+}

@@ -3,10 +3,16 @@
   "name_en": "Munnar Black Tea",
   "name_native": "മൂന്നാർ ചായ",
   "name_romanized": "Mūnnār chāya",
-  "aliases": ["Kerala tea", "Kannan Devan tea", "High Range tea", "Munnar tea", "Kolukkumalai tea"],
+  "aliases": [
+    "Kerala tea",
+    "Kannan Devan tea",
+    "High Range tea",
+    "Munnar tea",
+    "Kolukkumalai tea"
+  ],
   "category": "black",
   "origin_country": "India",
-  "origin_region": "Kerala · Idukki · Munnar (High Range)",
+  "origin_region": "Kerala · Munnar",
   "cultivar": "Assam-type and hybrid seedling bushes plus UPASI clones",
   "processing": "Mostly CTC for the Indian market; a few estates and small producers make fully oxidised orthodox leaf grades and speciality teas.",
   "form": "loose",
@@ -15,13 +21,41 @@
   "appearance_liquor": "Bright reddish-amber.",
   "appearance_wet": "Even dark copper leaf.",
   "taste_profile": "Bright and brisk with a mild malty sweetness and a light fruity edge; less fragrant than Nilgiri but with more body.",
-  "taste_tags": ["brisk", "malty", "fruity"],
-  "brewing": {"grams": 3, "water_ml": 200, "temp_c": 95, "steeps": 2, "seconds": [210, 300], "notes": "Just under the boil, 3–4 minutes, milk optional; orthodox lots give a second steep."},
+  "taste_tags": [
+    "brisk",
+    "malty",
+    "fruity"
+  ],
+  "brewing": {
+    "grams": 3,
+    "water_ml": 200,
+    "temp_c": 95,
+    "steeps": 2,
+    "seconds": [
+      210,
+      300
+    ],
+    "notes": "Just under the boil, 3–4 minutes, milk optional; orthodox lots give a second steep."
+  },
   "caffeine_level": "high",
   "vintage_note": "Sold year-round through the Kochi auction and in Kerala as packet tea (Kanan Devan Hills Plantations is the big name), with orthodox and 'speciality' lots from estates such as Kolukkumalai appearing in small quantities with a season and year. No vintage: buy fresh and use within a year.",
-  "description": "Munnar black tea comes from the High Range of Kerala in south-west India, where tea has been grown since around 1880 on the rolling hills around the town of Munnar at roughly 1,500 to 2,500 metres. It is one of the biggest tea districts of the Western Ghats and the source of most of Kerala's packet tea.\n\nThe gardens, once the Kannan Devan Hills Produce Company and now mostly the employee-owned Kanan Devan Hills Plantations, make the great bulk of their leaf as CTC for the Indian market. A few estates and small producers also make orthodox leaf grades and speciality teas, and the Kolukkumalai estate, just over the state line in Tamil Nadu at around 2,400 metres, sells its orthodox tea as grown on the world's highest tea plantation.\n\nThe cup is bright reddish-amber, brisk and clean with a mild malty sweetness and a light fruity edge; it has more body than a Nilgiri but less fragrance. Brew it with water just under the boil for three to four minutes, with milk if you like; the orthodox lots give a second steep.\n\nIt is sold year-round through the Kochi auction and in Kerala as packet tea, with orthodox and 'speciality' lots from named estates appearing in small quantities with the season and year. The cooler, drier months from December to March give the brightest teas. There is no vintage: buy fresh and use within a year.\n\nIt is also one of the most visited tea landscapes in India, and the tea museum in Munnar is a good place to see old CTC and orthodox machinery at work.",
+  "description": "Munnar black tea comes from the High Range of Kerala in south-west India, where tea has been grown since around 1880 on the rolling hills around the town of Munnar. It is one of the biggest tea districts of the Western Ghats and the source of most of Kerala's packet tea.\n\nThe gardens, once the Kannan Devan Hills Produce Company and now mostly the employee-owned Kanan Devan Hills Plantations, make the great bulk of their leaf as CTC for the Indian market. A few estates and small producers also make orthodox leaf grades and speciality teas, and the Kolukkumalai estate, just over the state line in Tamil Nadu, sells its orthodox tea as grown on the world's highest tea plantation.\n\nThe cup is bright reddish-amber, brisk and clean with a mild malty sweetness and a light fruity edge; it has more body than a Nilgiri but less fragrance. Brew it with water just under the boil for three to four minutes, with milk if you like; the orthodox lots give a second steep.\n\nIt is sold year-round through the Kochi auction and in Kerala as packet tea, with orthodox and 'speciality' lots from named estates appearing in small quantities with the season and year. The cooler, drier months from December to March give the brightest teas. There is no vintage: buy fresh and use within a year.\n\nIt is also one of the most visited tea landscapes in India, and the tea museum in Munnar is a good place to see old CTC and orthodox machinery at work.",
   "wikipedia_title": "Munnar",
   "wikipedia_scope": "umbrella",
   "popularity": 2,
-  "sources_note": "Native name in Malayalam. No dedicated Wikipedia article for Munnar tea; the town article is used as the umbrella. 'World's highest tea plantation' is Kolukkumalai's own marketing claim."
+  "sources_note": "Native name in Malayalam. No dedicated Wikipedia article for Munnar tea; the town article is used as the umbrella. 'World's highest tea plantation' is Kolukkumalai's own marketing claim.",
+  "name_zh": "慕纳尔红茶",
+  "name_ru": "Чёрный чай Муннар",
+  "history": "The Kannan Devan hills around Munnar were leased to John Daniel Munro in 1877 from the local ruler. Tea followed soon after: A. H. Sharp is usually credited with planting about 50 acres at Parvathy, now part of the Seven Mallay estate, in 1880. The hills are said to take their name from two Mudhuvan guides, Kannan and Devan.\n\nFinlay Muir bought up 33 independent estates in 1895, and the Kannan Devan Hills Produce Company was formed to run them, in 1896 or 1897 depending on the account. After the Kerala land act of 1971 returned much of the land to the state, ownership shifted again, and in 2005 the estates passed to Kanan Devan Hills Plantations, mostly owned by its workers.",
+  "liquor_hex": "#AE5A24",
+  "leaf_hex": "#2F221A",
+  "sources": [
+    "https://keralamuseum.org/kannan-devan-hills-a-historical-genesis/",
+    "https://www.keralatourism.org/munnar/munnar-history.php",
+    "https://munnar.com/post/history-of-tea-in-munnar-plantations",
+    "https://en.wikipedia.org/wiki/Munnar",
+    "https://tapioca.co.in/?p=8593"
+  ],
+  "confidence": "high",
+  "images": []
 }

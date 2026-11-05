@@ -1,0 +1,48 @@
+{
+  "slug": "kazakh-tea",
+  "name_en": "Kazakh Tea",
+  "name_native": null,
+  "name_romanized": null,
+  "name_zh": "哈萨克茶",
+  "name_ru": "Казахский чай",
+  "aliases": [],
+  "category": "black",
+  "origin_country": "Kazakhstan",
+  "origin_region": "Kazakhstan",
+  "cultivar": null,
+  "processing": "A way of serving black tea, not a leaf style. The tea itself is imported and brewed strong for the table.",
+  "form": "loose",
+  "harvest_season": "Not applicable; it depends on the black tea used.",
+  "appearance_dry": "Ordinary dark black tea leaf.",
+  "appearance_liquor": "Typically a dark reddish brown before any milk is added.",
+  "appearance_wet": "Dark brown leaf, as with other strong black teas.",
+  "taste_profile": "Depends on the tea used; expect a strong, plain black tea taste served alongside sweets.",
+  "taste_tags": [
+    "brisk",
+    "malty"
+  ],
+  "brewing": {
+    "grams": 6,
+    "water_ml": 500,
+    "temp_c": 100,
+    "steeps": 1,
+    "seconds": [
+      300
+    ],
+    "notes": "A home approximation: brew a strong pot of black tea and serve it in small amounts with sweets. Households differ, and there is no single recipe."
+  },
+  "caffeine_level": "medium",
+  "vintage_note": "It has no vintages or seasons, since this is a serving custom using ordinary black tea, bought as needed and drunk fresh.",
+  "description": "Kazakh tea means black tea as it is drunk at the Kazakh table, the dastarqan, and not a tea grown in Kazakhstan. Tea has become the constant companion of a meal there.\n\nThe interest is in the setting, not the leaf. Tea traditionally arrived with sweets after the main course, often after qymyz, and it has since displaced much of the older range of drinks.\n\nBrew it strong and keep it coming. The drink is meant to go with food and company, so there is little point chasing a rare leaf for it.\n\nAny sturdy black tea will do, and no regional grade is attached to the name.",
+  "history": "Black tea reached the Kazakhs from China along the Silk Road trade routes, though no firm date is attached to this. It was traditionally taken with sweets after the main course. Today it accompanies every meal and has largely replaced other traditional drinks.",
+  "liquor_hex": "#7E3518",
+  "leaf_hex": "#33231A",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Kazakh_cuisine"
+  ],
+  "confidence": "low",
+  "wikipedia_title": "Kazakh cuisine",
+  "wikipedia_scope": "umbrella",
+  "popularity": 2,
+  "images": []
+}

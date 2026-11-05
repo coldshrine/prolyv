@@ -1,0 +1,56 @@
+{
+  "slug": "shir-chai",
+  "name_en": "Shir Chai",
+  "name_native": null,
+  "name_romanized": null,
+  "aliases": [
+    "Noon chai",
+    "Gulabi chai",
+    "Kashmiri tea",
+    "Pink tea"
+  ],
+  "category": "green",
+  "origin_country": "India",
+  "origin_region": "Kashmir",
+  "cultivar": null,
+  "form": "other",
+  "caffeine_level": "medium",
+  "brewing": {
+    "grams": 3,
+    "water_ml": 150,
+    "temp_c": 80,
+    "steeps": 3,
+    "seconds": [
+      60,
+      75,
+      105
+    ],
+    "notes": "A safe starting point for green tea: cooler water, short steeps, then adjust by taste."
+  },
+  "taste_tags": [
+    "vegetal",
+    "sweet"
+  ],
+  "description": "A traditional pink tea drink of the Indian subcontinent, made with milk and baking soda and most likely from the Kashmir Valley.\n\nThis is a way of preparing tea more than a tea you buy under one name, so the recipe and the base tea change from one maker to the next.",
+  "wikipedia_title": null,
+  "wikipedia_scope": "none",
+  "popularity": 1,
+  "name_zh": "克什米尔粉红茶",
+  "name_ru": "Шир-чай",
+  "history": "It is also called noon chai or gulabi chai, and its origin in the Kashmir Valley is considered likely rather than certain. Little more is documented about its history.",
+  "liquor_hex": "#D9A0A0",
+  "leaf_hex": "#5A6238",
+  "sources": [
+    "https://hy.wikipedia.org/wiki/%D5%94%D5%A1%D5%B7%D5%B4%D5%AB%D6%80%D5%AB_%D5%A9%D5%A5%D5%B5"
+  ],
+  "confidence": "low",
+  "images": [],
+  "stub": true,
+  "processing": "Made from a green base tea according to the recipe; the method varies.",
+  "harvest_season": "Not tied to a harvest: it depends on the base tea.",
+  "appearance_dry": "Green leaf whose shape depends on the maker, as is usual for regional green teas.",
+  "appearance_liquor": "Pink.",
+  "appearance_wet": "Usually soft green leaf that opens up in the water.",
+  "taste_profile": "Expect what green teas usually give: fresh, vegetal and lightly sweet.",
+  "vintage_note": "Not sold by vintage: it is made from whatever base tea the maker keeps, so freshness of the base matters more than the year."
+}

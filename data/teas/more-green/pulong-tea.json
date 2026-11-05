@@ -1,0 +1,50 @@
+{
+  "slug": "pulong-tea",
+  "name_en": "Pulong Tea",
+  "name_native": "普龙茶",
+  "name_romanized": "Pǔlóng Chá",
+  "aliases": [],
+  "category": "green",
+  "origin_country": "China",
+  "origin_region": "Yunnan · Wenshan, Guangnan",
+  "cultivar": "Pulong local variety",
+  "form": "loose",
+  "caffeine_level": "medium",
+  "brewing": {
+    "grams": 3,
+    "water_ml": 150,
+    "temp_c": 80,
+    "steeps": 3,
+    "seconds": [
+      60,
+      75,
+      105
+    ],
+    "notes": "A safe starting point for green tea: cooler water, short steeps, then adjust by taste."
+  },
+  "taste_tags": [
+    "sweet"
+  ],
+  "description": "A green tea from a local tea-plant variety of Guangnan county, created by Zhuang growers in Pulong village in Wenshan.\n\nTreat it as you would any green tea: cooler water, short steeps, and a seller who can say where and when it was picked.",
+  "wikipedia_title": null,
+  "wikipedia_scope": "none",
+  "popularity": 1,
+  "name_zh": "普龙茶",
+  "name_ru": "Пу Лун Ча",
+  "history": "The growing area lies on the northern side of the Jiulong Mountains, at an average of about 1,000 metres. Once made in quantity, it sold across the province and beyond and was ranked among Yunnan's ten quality famous teas. Little more is documented about it.",
+  "liquor_hex": "#DCD483",
+  "leaf_hex": "#A9A36A",
+  "sources": [
+    "https://milulu.com.cn/tea/3184.html"
+  ],
+  "confidence": "medium",
+  "images": [],
+  "stub": true,
+  "processing": "One bud with one or two young leaves is sorted, spread for 1 to 2 hours until surface water is gone, then shaped by hand in the wok.",
+  "harvest_season": "Usually picked in spring, with the earliest pickings prized, as with most green teas.",
+  "appearance_dry": "Shaped like Zhenmei, showing white down, ivory in tone, with golden fish leaves.",
+  "appearance_liquor": "Clear.",
+  "appearance_wet": "Tender yellow, plump leaves that open into whole shoots.",
+  "taste_profile": "Fresh and strong, mellow and sweet.",
+  "vintage_note": "Green teas like this are normally sold as the current year's harvest and are best within a year of picking. It is not an ageing tea."
+}

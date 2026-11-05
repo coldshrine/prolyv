@@ -1,0 +1,60 @@
+{
+  "slug": "xixiang-chaye",
+  "name_en": "Xixiang Green Tea",
+  "name_native": "西乡茶叶",
+  "name_romanized": "Xīxiāng Cháyè",
+  "name_zh": "西乡茶叶",
+  "name_ru": "Сисян Ча Е",
+  "aliases": [
+    "Xixiang Chaye",
+    "Xixiangchaye",
+    "Xixianglvcha",
+    "西乡绿茶",
+    "Сисян Люй Ча"
+  ],
+  "category": "green",
+  "origin_country": "China",
+  "origin_region": "Shaanxi · Hanzhong · Xixiang",
+  "cultivar": null,
+  "processing": "A general name for green teas from one county, so methods vary by producer; most are pan-fired or baked in the way usual for Shaanxi greens.",
+  "form": "loose",
+  "harvest_season": "Spring is the usual picking for fine green tea in this area, with earlier leaf costing more.",
+  "appearance_dry": "This varies, since the name covers many styles; finer lots are typically slim, green and downy.",
+  "appearance_liquor": "Typically a clear pale green, as with other southern Shaanxi greens.",
+  "appearance_wet": "Green leaf and buds, their size depending on grade.",
+  "taste_profile": "Southern Shaanxi greens are generally described as fragrant, full and able to take repeat steeps; no single profile is recorded for this broad name.",
+  "taste_tags": [
+    "vegetal",
+    "sweet",
+    "grassy"
+  ],
+  "brewing": {
+    "grams": 3,
+    "water_ml": 150,
+    "temp_c": 82,
+    "steeps": 3,
+    "seconds": [
+      60,
+      90,
+      120
+    ],
+    "notes": "These are general settings for a Chinese green. Lower the temperature for bud-heavy lots."
+  },
+  "caffeine_level": "medium",
+  "vintage_note": "As is usual for green tea, it is best bought as the current year's spring harvest and drunk within about a year. The county also makes other tea types, so check that the packet says green tea and shows a harvest date.",
+  "description": "Xixiang tea is not one specific recipe. It simply means tea from Xixiang county in the Hanzhong area of southern Shaanxi, one of the biggest tea counties in the northwest, near the northern edge of China's tea country.\n\nMost of what the name suggests is green tea. Because it covers so many makers, little can be said about one fixed method, and the leaf can range from fine buds to plain everyday grades.\n\nExpect what is typical of the Qinba greens: a good aroma and a full taste that survives a few steeps. Brew it as you would any Chinese green and adjust to the leaf in front of you.\n\nFor something more defined, look for Wuzi Xianhao, Xixiang's own famous tea, or the Hanzhong Xianhao regional name. County producers have also branched out into black, dark, white and yellow teas.",
+  "history": "Little is documented about Xixiang tea as a named product. The county's modern industry is better recorded: it holds about 360,000 mu of tea gardens and is the main producing area of Hanzhong Xianhao. In June 2007 the academician Chen Zongmao and a group of tea researchers came to the county for a Shaanxi tea development conference.",
+  "liquor_hex": "#DADB98",
+  "leaf_hex": "#74884E",
+  "sources": [
+    "https://milulu.com.cn/techan/31703.html",
+    "https://milulu.com.cn/techan/31704.html",
+    "https://zh.wikipedia.org/wiki/%E8%A5%BF%E4%B9%A1%E5%8E%BF",
+    "https://www.news.cn/fortune/20260412/4a5f3735a77b490586c21f70464757a9/c.html"
+  ],
+  "confidence": "low",
+  "wikipedia_title": null,
+  "wikipedia_scope": "none",
+  "popularity": 2,
+  "images": []
+}

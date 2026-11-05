@@ -1,0 +1,89 @@
+{
+  "slug": "nepal-black-tea",
+  "name_en": "Nepal Black Tea",
+  "name_native": "नेपाली चिया",
+  "name_romanized": "Nepālī ciyā",
+  "name_zh": "尼泊尔红茶",
+  "name_ru": "Непальский чёрный чай",
+  "aliases": [
+    "Nepal Black",
+    "Nepal tea",
+    "Nepali Tea",
+    "Nepali Chai",
+    "Непальский"
+  ],
+  "category": "black",
+  "origin_country": "Nepal",
+  "origin_region": "Eastern Nepal · Ilam",
+  "cultivar": "Chinese-type sinensis in the hills; assamica for lowland CTC",
+  "processing": "Two very different products: orthodox tea from the Chinese variety, rolled by hand or machine in the hills, and crush-tear-curl tea from the Assam variety in the lowlands.",
+  "form": "loose",
+  "harvest_season": "Orthodox tea has four flushes: first (late March to end of April), second (mid May to late July), monsoon (late July to end of September) and autumn (October to November).",
+  "appearance_dry": "Orthodox leaf is wiry and mixed in tone, as with Darjeeling; CTC is small dark granules.",
+  "appearance_liquor": "From light yellow-green in first flush to amber and dark in later flushes; CTC brews strongly coloured.",
+  "appearance_wet": "Orthodox leaf opens into recognisable leaf pieces; CTC stays as dark fine fragments.",
+  "taste_profile": "Orthodox teas resemble Darjeeling, moving from delicate in spring to full-bodied in the monsoon and musky, tangy in autumn. CTC is strong in colour and subtle in aroma.",
+  "taste_tags": [
+    "floral",
+    "fruity",
+    "malty",
+    "brisk"
+  ],
+  "brewing": {
+    "grams": 3,
+    "water_ml": 250,
+    "temp_c": 90,
+    "steeps": 2,
+    "seconds": [
+      180,
+      240
+    ],
+    "notes": "Starting point for orthodox leaf, brewed as you would Darjeeling. Use cooler water for first flush and boiling water for autumn tea. CTC is usually boiled with milk."
+  },
+  "caffeine_level": "medium",
+  "vintage_note": "Orthodox tea is sold by year and flush, like Darjeeling; first flush costs more because little is made and demand outruns supply. Drink it within a year or so, as is usual for delicate black teas. CTC is everyday tea, sold without flush names, and makes up almost all domestic drinking.",
+  "description": "Nepal grows its tea right across the border from Darjeeling, and the orthodox leaf has a lot in common with it. Production is much smaller, which is why the name is less well known. The label still covers two separate teas, so check which one you are buying.\n\nThe orthodox teas come from the hills, at about 3,000 to 7,000 feet, chiefly in the eastern districts of Ilam, Panchthar, Dhankuta and Terhathum, along with Sindhulpalchok and Kaski. They use the Chinese variety. CTC comes from Assam bushes in the hot lowlands, mostly Jhapa, and accounts for almost 95% of what Nepal drinks at home.\n\nIn the cup, the flush matters most. First flush is pale and delicate, second has more strength, monsoon is dark and full, and autumn turns amber and musky. Treat these teas as you would Darjeeling and go easy on leaf and time until you know the lot.\n\nWhen buying, look for the flush, the year and the estate or district. 'Nepal tea' with none of those details is likely a generic blend.",
+  "history": "Tea in Nepal goes back to the Rana era. It is said that the first bushes grew from seed given by a Chinese emperor to Prime Minister Jung Bahadur Rana, which is best read as tradition. Around 1863, about a decade after Darjeeling's first plantation, the Ilam Tea Estate was set up at 4,500 to 5,000 feet, followed two years later by Soktim in the same district.\n\nThe young industry then stalled. Under the Ranas, Nepal stayed isolated while Darjeeling boomed under British rule, and into the 1900s Nepali growers were supplying leaf to Darjeeling factories when bushes there aged and yields fell.",
+  "liquor_hex": "#B9772F",
+  "leaf_hex": "#57452E",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Nepali_tea",
+    "https://ko.wikipedia.org/wiki/%EB%84%A4%ED%8C%94_%ED%99%8D%EC%B0%A8"
+  ],
+  "confidence": "medium",
+  "wikipedia_title": "Nepali tea",
+  "wikipedia_scope": "exact",
+  "popularity": 3,
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f8/Nepal-dhankuta.jpg/1280px-Nepal-dhankuta.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f8/Nepal-dhankuta.jpg/330px-Nepal-dhankuta.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Nepal-dhankuta.jpg",
+      "author": "Oraola",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "kind": "dry_leaf",
+      "alt": "Dark wiry dry leaf of Dhankuta tea from Nepal on foil"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bf/Nepal-kanchanjangha.jpg/1280px-Nepal-kanchanjangha.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bf/Nepal-kanchanjangha.jpg/330px-Nepal-kanchanjangha.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Nepal-kanchanjangha.jpg",
+      "author": "Oraola",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "kind": "dry_leaf",
+      "alt": "Dark dry leaf of Kanchanjangha tea from Nepal on foil"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/b/ba/Ilam%2C_Nepal.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/ba/Ilam%2C_Nepal.jpg/330px-Ilam%2C_Nepal.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Ilam,_Nepal.jpg",
+      "author": "Timryal",
+      "license": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0",
+      "kind": "plantation",
+      "alt": "Tea gardens on a hillside above forest in Ilam, Nepal"
+    }
+  ]
+}

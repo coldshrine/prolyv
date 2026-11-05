@@ -3,7 +3,15 @@
   "name_en": "Tie Guan Yin (Chen Xiang, aged)",
   "name_native": "陈香铁观音",
   "name_romanized": "Chénxiāng Tiě Guānyīn",
-  "aliases": ["Aged Tieguanyin", "Lao Tie Guan Yin", "老铁观音", "Chen Nian Tieguanyin", "Lao Tie", "老铁", "Aged Iron Goddess"],
+  "aliases": [
+    "Aged Tieguanyin",
+    "Lao Tie Guan Yin",
+    "老铁观音",
+    "Chen Nian Tieguanyin",
+    "Lao Tie",
+    "老铁",
+    "Aged Iron Goddess"
+  ],
   "category": "oolong",
   "origin_country": "China",
   "origin_region": "Fujian · Anxi",
@@ -15,13 +23,47 @@
   "appearance_liquor": "Deep amber to reddish-brown, clear.",
   "appearance_wet": "Dark brown, stiff leaves that open only partly.",
   "taste_profile": "Dried plum, jujube and raisin, old wood and a touch of plum-skin sourness in younger lots; the oldest are smooth, sweet and faintly medicinal, with a cooling, almost camphor-like note and none of the original florals.",
-  "taste_tags": ["dried-fruit", "woody", "sweet", "medicinal", "tart"],
-  "brewing": {"grams": 7, "water_ml": 110, "temp_c": 100, "steeps": 8, "seconds": [10, 10, 15, 20, 30, 45, 60, 120], "notes": "Rinse once with boiling water; the pellets are stiff and need waking. A zisha pot suits it. When the gongfu session is over, boil the spent leaves for a few minutes: aged Tieguanyin makes an excellent simmered tea."},
+  "taste_tags": [
+    "dried-fruit",
+    "woody",
+    "sweet",
+    "medicinal",
+    "tart"
+  ],
+  "brewing": {
+    "grams": 7,
+    "water_ml": 110,
+    "temp_c": 100,
+    "steeps": 8,
+    "seconds": [
+      10,
+      10,
+      15,
+      20,
+      30,
+      45,
+      60,
+      120
+    ],
+    "notes": "Rinse once with boiling water; the pellets are stiff and need waking. A zisha pot suits it. When the gongfu session is over, boil the spent leaves for a few minutes: aged Tieguanyin makes an excellent simmered tea."
+  },
   "caffeine_level": "medium",
-  "vintage_note": "Sold by age with the vintage year stated: five years is the usual minimum for the name (and the threshold the Anxi standard category uses), ten to twenty years is the serious market, and lots claimed to be from the 1980s or 1990s are rare and best bought only from sellers with a track record. Ask when it was last re-roasted; a tea re-roasted last year tastes different from one left sealed for a decade.",
-  "description": "Chen xiang, aged fragrance, is Tieguanyin that has been put away for years, and it is the Anxi tea that least resembles the green pellets most people know: dark, smooth, fruity and faintly medicinal, closer in spirit to an aged yancha or even a light pu-erh than to fresh Tieguanyin.\n\nAnxi families have kept old roasted Tieguanyin for a long time, partly as a household remedy for stomach upsets (folklore, but the habit is real) and partly because roasted tea that did not sell could be re-roasted and kept. The traditional method is to store a well-roasted tea in sealed jars and re-roast it lightly every few years to drive out moisture. Modern sellers also age tea sealed without re-roasting, and some age green-style tea and roast it once before sale; the results differ, and a seller who knows the history of a lot is worth more than one with a big number on the label.\n\nThe taste changes in stages. Young aged tea, three to seven years, often has a plum-skin sourness that Chinese drinkers call chen suan and either prize or wait out; by ten years it has usually turned into dried plum, jujube and raisin with a woody depth; beyond fifteen or twenty the best lots are smooth, sweet and cooling, with a camphor-like note and no trace of the original orchid.\n\nBrew it hot with a rinse and keep going, since the leaves open slowly, and finish by boiling the spent leaves. It is a tea for winter evenings and for after heavy food.\n\nThe name is regulated loosely: the Anxi standard recognises chen xiang as a type with a five-year minimum, but age cannot be checked from a package. Over-roasted fresh tea is the usual fake and tastes burnt and hollow; genuine aged tea tastes smooth even when the pellets are black. Buy small samples, favour the five-to-fifteen-year range for value, and compare with a fresh nong xiang from the same house to taste what time actually does.",
+  "vintage_note": "Sold by age with the vintage year stated: five years is the usual minimum for the name, ten to twenty years is the serious market, and lots claimed to be from the 1980s or 1990s are rare and best bought only from sellers with a track record. Ask when it was last re-roasted; a tea re-roasted last year tastes different from one left sealed for a decade.",
+  "description": "Chen xiang, aged fragrance, is Tieguanyin that has been put away for years, and it is the Anxi tea that least resembles the green pellets most people know: dark, smooth, fruity and faintly medicinal, closer in spirit to an aged yancha or even a light pu-erh than to fresh Tieguanyin.\n\nHouseholds in tea-growing areas have kept old tea for a long time, partly as a household remedy for internal heat and greasy food (folklore, but the habit is real) and partly because roasted tea that did not sell could be re-roasted and kept. The traditional method is to store a well-roasted tea in sealed jars and re-roast it lightly every few years to drive out moisture. Modern sellers also age tea sealed without re-roasting, and some age green-style tea and roast it once before sale; the results differ, and a seller who knows the history of a lot is worth more than one with a big number on the label.\n\nThe taste changes in stages. Young aged tea, three to seven years, often has a plum-skin sourness that Chinese drinkers call chen suan and either prize or wait out; by ten years it has usually turned into dried plum, jujube and raisin with a woody depth; beyond fifteen or twenty the best lots are smooth, sweet and cooling, with a camphor-like note and no trace of the original orchid.\n\nBrew it hot with a rinse and keep going, since the leaves open slowly, and finish by boiling the spent leaves. It is a tea for winter evenings and for after heavy food.\n\nThe name is loosely policed: chen xiang is usually defined by at least five years of storage, but age cannot be checked from a package. Over-roasted fresh tea is the usual fake and tastes burnt and hollow; genuine aged tea tastes smooth even when the pellets are black. Buy small samples, favour the five-to-fifteen-year range for value, and compare with a fresh nong xiang from the same house to taste what time actually does.",
   "wikipedia_title": "Tieguanyin",
   "wikipedia_scope": "exact",
   "popularity": 3,
-  "sources_note": "The chen xiang type with a five-year minimum was added to the Anxi Tieguanyin national standard in the mid-2010s (2016 is the year usually cited); worth confirming. The stomach-remedy use is folklore."
+  "sources_note": "The chen xiang type with a five-year minimum was added to the Anxi Tieguanyin national standard in the mid-2010s (2016 is the year usually cited); worth confirming. The stomach-remedy use is folklore.",
+  "name_zh": "陈香铁观音",
+  "name_ru": "Чэнь Сян Те Гуань Инь",
+  "history": "Tieguanyin itself goes back to Anxi in the Qing dynasty, with two rival origin legends, and its traditional form was a well-oxidised, roasted tea. Keeping such tea for years has a long folk background: people in tea-growing areas held on to old tea for its supposed use against internal heat and greasy food.\n\nToday chen xiang is described as a style alongside the fresh (qing xiang) and strong (nong xiang) types: Tieguanyin stored for at least five years, also called lao tie, and compared to aged pu-erh and white tea. Research on its health effects was publicised in 2016, which should not be read as settled medicine.",
+  "liquor_hex": "#9A4E20",
+  "leaf_hex": "#2F2118",
+  "sources": [
+    "https://www.jiemian.com/article/1206047.html",
+    "https://zh.wikipedia.org/wiki/%E9%93%81%E8%A7%82%E9%9F%B3",
+    "https://en.wikipedia.org/wiki/Tieguanyin"
+  ],
+  "confidence": "medium",
+  "images": []
 }

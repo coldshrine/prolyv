@@ -1,0 +1,55 @@
+{
+  "slug": "fuling-white",
+  "name_en": "Fuling White Tea",
+  "name_native": "涪陵白茶",
+  "name_romanized": "Fúlíng Báichá",
+  "name_zh": "涪陵白茶",
+  "name_ru": "Фулин Бай Ча",
+  "aliases": [
+    "Fulingbaicha"
+  ],
+  "category": "white",
+  "origin_country": "China",
+  "origin_region": "Chongqing · Fuling",
+  "cultivar": null,
+  "processing": "The method is not clearly documented. The leaf described, with green veins and a milky blade, resembles albino-leaf 'white' teas, which elsewhere are usually made by green tea methods, so the name may refer to the leaf rather than to white tea craft.",
+  "form": "loose",
+  "harvest_season": "Little is documented for this tea. Tender, high-amino teas of this kind are usually spring pickings.",
+  "appearance_dry": "Glossy golden leaf that naturally forks into small shoots.",
+  "appearance_liquor": "Clear and bright.",
+  "appearance_wet": "Opens like an orchid flower, with green veins on a milky white blade.",
+  "taste_profile": "A tender, lasting aroma with a floral edge and a fresh, rounded savouriness locally compared to chicken broth.",
+  "taste_tags": [
+    "umami",
+    "floral",
+    "sweet"
+  ],
+  "brewing": {
+    "grams": 3,
+    "water_ml": 150,
+    "temp_c": 80,
+    "steeps": 3,
+    "seconds": [
+      60,
+      90,
+      120
+    ],
+    "notes": "A cautious starting point borrowed from delicate albino-leaf teas rather than a documented local method: cooler water protects the savoury character. A glass shows off the pale leaves."
+  },
+  "caffeine_level": "medium",
+  "vintage_note": "Specific sale practice is not well documented, and the quantities described locally were small. Teas prized for freshness and amino acids are usually bought as the current year's spring lot and drunk soon, not aged; ask the seller for the picking date.",
+  "description": "Fuling White Tea is a local speciality of Fuling District in Chongqing, listed among the better-known teas of the municipality. It is a small regional tea and rarely travels far.\n\nHow it is made is not clearly recorded. Its look, with green veins on a milky leaf, points to the albino-leaf family, so do not assume it is sun-withered like a Fujian white. Treat the white in the name as a possible description of the leaf until a producer tells you otherwise.\n\nLocal descriptions praise a clear, bright cup, a lasting tender and floral scent and a fresh savouriness compared to chicken broth. They also credit it with two to three times the amino acids of ordinary premium teas, which would fit that brothy taste. Start gently, because a high-amino leaf is easy to flatten with very hot water.\n\nWhen buying, ask for the picking date and the method. Anything more specific than the district name is hard to check, so a seller's clear answer matters more here than a grade label.",
+  "history": "Little is documented about the origin of this tea. It appears in local product write-ups as a recent speciality of Fuling, sold in small quantities when first described, with district plans to concentrate production in three to five townships and reach about 20,000 mu. Whether those plans were met is not established.",
+  "liquor_hex": "#E3DFA0",
+  "leaf_hex": "#C9B45E",
+  "sources": [
+    "https://milulu.com.cn/techan/16553.html",
+    "https://www.maigoo.com/top/392073.html"
+  ],
+  "confidence": "low",
+  "images": [],
+  "wikipedia_title": null,
+  "wikipedia_scope": "none",
+  "popularity": 2,
+  "sources_note": "Category kept as white from the master list, but the description suggests an albino-leaf green-processed tea; processing unverified."
+}

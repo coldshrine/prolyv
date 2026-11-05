@@ -1,0 +1,60 @@
+{
+  "slug": "salep",
+  "name_en": "Salep",
+  "name_native": "Salep",
+  "name_romanized": null,
+  "name_zh": "兰茎粉",
+  "name_ru": "Салеп",
+  "aliases": [
+    "Sahlep",
+    "Saloop",
+    "Salop",
+    "Sahlab",
+    "Salepi",
+    "Sahleb"
+  ],
+  "category": "tisane",
+  "origin_country": "Turkey",
+  "origin_region": "Turkey · Kahramanmaraş",
+  "cultivar": "Orchis mascula, Orchis militaris and related orchids",
+  "processing": "Orchid tubers rich in the thickening polysaccharide glucomannan are ground into flour, which is cooked in milk or water until thick. Most commercial mixes now replace it with corn starch or rice flour plus flavouring.",
+  "form": "powder",
+  "harvest_season": "Drunk mostly in the cold months; wild tubers are the raw material and have no recognised prized picking.",
+  "appearance_dry": "Fine off-white flour.",
+  "appearance_liquor": "Opaque milky white, thick, usually dusted with cinnamon.",
+  "appearance_wet": "Not applicable: the powder dissolves into a thick drink.",
+  "taste_profile": "Creamy, thick and sweet, with warmth from cinnamon on top and often orange flower, rose or vanilla in the background.",
+  "taste_tags": [
+    "creamy",
+    "sweet",
+    "spicy"
+  ],
+  "brewing": {
+    "grams": 5,
+    "water_ml": 200,
+    "temp_c": 90,
+    "steeps": 1,
+    "seconds": [
+      300
+    ],
+    "notes": "Whisk the powder into cold milk first, then heat slowly, stirring constantly, until it thickens. Sugar goes in during cooking; dust with cinnamon at the end."
+  },
+  "caffeine_level": "none",
+  "vintage_note": "Has no vintages and is a winter street drink rather than a seasonal release. Instant mixes dominate and usually hold little or no orchid at all, since wild orchids are under pressure and exporting true salep from Turkey is banned. Read the label, and think twice about paying for the real flour.",
+  "description": "Salep is a thick, hot winter drink made from flour ground from orchid tubers. It is sold on the street in Turkey, Greece and Albania and, under names like sahlab, across the Middle East.\n\nThe orchid tubers contain glucomannan, a starchy substance that thickens liquid. The same thing helps give Turkish dondurma ice cream its stretch.\n\nOn the street it now comes made with hot milk, sweetened and topped with cinnamon. At home, the trick is to stir without pause, as it can go lumpy or catch on the bottom of the pan.\n\nTrue salep is scarce. It takes 1,000 to 4,000 tubers to make one kilogram of flour, and harvesting has wiped out orchids locally in parts of Greece, Turkey and Iran. Most packets contain starch and flavouring instead, and that is perfectly pleasant and a better choice for the plants.",
+  "history": "The ancient Greeks and Romans made drinks from ground orchid bulbs and thought them aphrodisiac. Salep later became a popular drink in the Ottoman lands, where it was also thought to plump up young women before marriage.\n\nIt reached England and Germany before coffee and tea spread. As saloop it was sold in England in the 17th to 19th centuries, sometimes with local orchid roots or later sassafras in place of Turkish salep, until coffee stalls replaced the saloop stalls of London.\n\nModern demand brought a crisis: an estimated 30 tons of tubers from 38 species are harvested yearly in Turkey, and traders have moved on to wild orchids in Iran.",
+  "liquor_hex": "#EFE6D2",
+  "leaf_hex": "#E8DFC8",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Salep",
+    "https://ru.wikipedia.org/wiki/%D0%A1%D0%B0%D0%BB%D0%B5%D0%BF",
+    "https://zh.wikipedia.org/wiki/%E5%85%B0%E8%8C%8E%E7%B2%89",
+    "https://ja.wikipedia.org/wiki/%E3%82%B5%E3%83%AC%E3%83%83%E3%83%97",
+    "https://www.wikidata.org/wiki/Q693187"
+  ],
+  "confidence": "high",
+  "wikipedia_title": "Salep",
+  "wikipedia_scope": "exact",
+  "popularity": 3,
+  "images": []
+}

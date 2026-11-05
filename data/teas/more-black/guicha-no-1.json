@@ -1,0 +1,53 @@
+{
+  "slug": "guicha-no-1",
+  "name_en": "Guicha No. 1",
+  "name_native": "贵茶1号",
+  "name_romanized": "Guìchá Yī Hào",
+  "aliases": [
+    "貴茶1號"
+  ],
+  "category": "black",
+  "origin_country": "China",
+  "origin_region": "Guizhou · Pu'an, Qianxinan",
+  "cultivar": "Guicha No. 1",
+  "form": "loose",
+  "caffeine_level": "high",
+  "brewing": {
+    "grams": 3,
+    "water_ml": 200,
+    "temp_c": 95,
+    "steeps": 2,
+    "seconds": [
+      180,
+      240
+    ],
+    "notes": "A safe starting point for black tea: Western style, water just off the boil."
+  },
+  "taste_tags": [
+    "sweet",
+    "fruity",
+    "honey"
+  ],
+  "description": "A tea plant cultivar bred by a Guizhou University team in Pu'an county from the old genes of wild plants in the tea family.\n\nThis is a tea plant cultivar rather than a finished tea, so you are more likely to meet its name in a grower's notes than on a packet. If you find tea made from it, brew it like any other black tea and taste what the plant brings.",
+  "wikipedia_title": null,
+  "wikipedia_scope": "none",
+  "popularity": 1,
+  "name_zh": "贵茶1号",
+  "name_ru": "Гуй Ча № 1",
+  "history": "It belongs to a series of four new cultivars, with Guicha No. 2, Guihong No. 1 and Guihong No. 2, from about fifteen years of work on Pu'an's ancient four-ball tea trees led by Niu Suzhen. The university has licensed the four to a Pu'an tea company for growing and processing. Little more is documented about this cultivar alone.",
+  "liquor_hex": "#C4762A",
+  "leaf_hex": "#3A2A1E",
+  "sources": [
+    "https://www.gzu.edu.cn/2026/0422/c22305a271488/page.htm"
+  ],
+  "confidence": "low",
+  "images": [],
+  "stub": true,
+  "processing": "A plant cultivar, not a processing style: it is usually made into black tea, and the method is up to the grower.",
+  "harvest_season": "Depends on the place and the grower.",
+  "appearance_dry": "Depends on how the leaf is processed.",
+  "appearance_liquor": "Depends on how the leaf is processed.",
+  "appearance_wet": "Depends on how the leaf is processed.",
+  "taste_profile": "Depends on how the leaf is processed; tea from it usually falls within what black teas give.",
+  "vintage_note": "A cultivar is not sold by vintage. Tea made from it follows the usual pattern for black tea, so ask for the harvest year and the grower."
+}

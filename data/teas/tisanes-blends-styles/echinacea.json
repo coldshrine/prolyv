@@ -3,10 +3,17 @@
   "name_en": "Echinacea",
   "name_native": null,
   "name_romanized": null,
-  "aliases": ["Echinacea tea", "Purple coneflower tea", "Coneflower", "Echinacea purpurea", "Echinacea angustifolia", "Sonnenhut"],
+  "aliases": [
+    "Echinacea tea",
+    "Purple coneflower tea",
+    "Coneflower",
+    "Echinacea purpurea",
+    "Echinacea angustifolia",
+    "Sonnenhut"
+  ],
   "category": "tisane",
   "origin_country": "United States",
-  "origin_region": "Great Plains and the Midwest (native prairie); now grown for tea in the US, Germany and Eastern Europe",
+  "origin_region": "Great Plains",
   "cultivar": "Echinacea purpurea (purple coneflower) for most tea, aerial parts and root; Echinacea angustifolia root in some products",
   "processing": "Leaves, stems and flowers are cut at flowering and dried in shade; roots are dug in autumn, washed, cut and dried. Teas use the aerial parts, the root, or both, and most commercial bags blend echinacea with other herbs.",
   "form": "loose",
@@ -15,12 +22,67 @@
   "appearance_liquor": "Pale yellow-green from the aerial parts, light amber from root.",
   "appearance_wet": "Soft green and purple shreds.",
   "taste_profile": "Mildly grassy and floral with a faint bitterness and an odd, characteristic tingling or numbing on the tongue from the root; plain on its own, which is why it is nearly always blended with mint, lemongrass or elderberry.",
-  "taste_tags": ["herbal", "grassy", "bitter"],
-  "brewing": {"grams": 3, "water_ml": 250, "temp_c": 95, "steeps": 1, "seconds": [600], "notes": "Just-boiled water, 8–10 minutes with a lid for the leaf and flower; root chips are better simmered for 10 minutes. Honey and lemon help, and a mint or lemongrass blend is more pleasant than echinacea alone."},
+  "taste_tags": [
+    "herbal",
+    "grassy",
+    "bitter"
+  ],
+  "brewing": {
+    "grams": 3,
+    "water_ml": 250,
+    "temp_c": 95,
+    "steeps": 1,
+    "seconds": [
+      600
+    ],
+    "notes": "Just-boiled water, 8–10 minutes with a lid for the leaf and flower; root chips are better simmered for 10 minutes. Honey and lemon help, and a mint or lemongrass blend is more pleasant than echinacea alone."
+  },
   "caffeine_level": "none",
   "vintage_note": "Sold year-round with no harvest date and a two-year best-before, as cut aerial parts, root, or (most commonly) tea bags that blend it with other herbs and fruit; the species and the plant part are stated on serious packs and missing on cheap ones. Most of what is labelled 'echinacea tea' in supermarkets contains a modest amount of echinacea in a base of lemongrass, hibiscus or elderberry, so read the ingredient list. Fresh leaf is green and smells of hay; old leaf is brown.",
-  "description": "Echinacea is the purple coneflower of the North American prairie, a garden plant across Europe and a herbal shop staple, and as a tea it is the one people reach for at the first sign of a cold. Nobody drinks it for the taste, and that is worth knowing before you buy a bag of the pure herb.\n\nThe aerial parts, leaf, stem and petals, are cut at flowering and dried, and the roots are dug in autumn from mature plants; the root is where the strange tingling, numbing quality comes from, and a root tea has it clearly, while a leaf-and-flower tea is mild and grassy. Most commercial bags are blends built around something more pleasant, with echinacea as a supporting act.\n\nBrewed long, eight to ten minutes for the herb or a short simmer for the root, it is pale, slightly bitter, faintly floral and a little numbing on the tongue. Honey and lemon are almost compulsory, and blending it with peppermint, lemongrass or elderberry turns it into a decent winter cup; the mistake is a short steep of the pure leaf, which tastes of warm hay water.\n\nThere is no vintage. Look for the species and the plant part on the label, and if you want a real echinacea tea rather than a fruit tea with a sprinkle, buy the cut herb or root from a herbalist and blend it yourself.\n\nIt has been used traditionally, in North America and then in Europe, as a cold and flu herb; whatever you make of that, think of it as an ingredient rather than a drink in its own right.",
+  "description": "Echinacea is the purple coneflower of the North American prairie, a garden plant across Europe and a herbal shop staple, and as a tea it is the one people reach for at the first sign of a cold. Nobody drinks it for the taste, and that is worth knowing before you buy a bag of the pure herb.\n\nThe aerial parts, leaf, stem and petals, are cut at flowering and dried, and the roots are dug in autumn from mature plants; the root is where the strange tingling, numbing quality comes from, and a root tea has it clearly, while a leaf-and-flower tea is mild and grassy. Most commercial bags are blends built around something more pleasant, with echinacea as a supporting act.\n\nBrewed long, eight to ten minutes for the herb or a short simmer for the root, it is pale, slightly bitter, faintly floral and a little numbing on the tongue. Honey and lemon are almost compulsory, and blending it with peppermint, lemongrass or elderberry turns it into a decent winter cup; the mistake is a short steep of the pure leaf, which tastes of warm hay water.\n\nThere is no vintage. Look for the species and the plant part on the label, and if you want a real echinacea tea rather than a fruit tea with a sprinkle, buy the cut herb or root from a herbalist and blend it yourself.\n\nPlains peoples used it for coughs and other complaints, and Europe and America later took it up as a cold remedy, though the evidence that it works is weak; think of it as an ingredient rather than a drink in its own right.",
   "wikipedia_title": "Echinacea",
   "wikipedia_scope": "umbrella",
-  "popularity": 3
+  "popularity": 3,
+  "name_zh": "紫锥菊茶",
+  "name_ru": "Эхинацея",
+  "history": "Echinacea is native only to eastern and central North America, and Plains peoples used E. angustifolia as medicine, the Kiowa among them for coughs. From the mid-19th century into the early 20th it was a staple of American eclectic medicine, and by the 1930s it was popular as a herbal remedy in both Europe and America.\n\nIts reputation as a cold preventive is younger than it sounds. By one physician's account, Wallace Sampson's, it began when a Swiss supplement maker was wrongly told that South Dakota tribes used it that way. Modern research gives weak or inconclusive support, and regulators have not approved it for medical use. As a tea it remains a herb-shop item, with no documented tradition of its own apart from these medicinal infusions.",
+  "liquor_hex": "#D4C77E",
+  "leaf_hex": "#6E7A4A",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Echinacea",
+    "https://en.wikipedia.org/wiki/Native_American_ethnobotany"
+  ],
+  "confidence": "medium",
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8d/.00_1682_Purpur-Sonnenhut_%28Echinacea_purpurea%29.jpg/1280px-.00_1682_Purpur-Sonnenhut_%28Echinacea_purpurea%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8d/.00_1682_Purpur-Sonnenhut_%28Echinacea_purpurea%29.jpg/330px-.00_1682_Purpur-Sonnenhut_%28Echinacea_purpurea%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source_page": "https://commons.wikimedia.org/wiki/File:.00_1682_Purpur-Sonnenhut_(Echinacea_purpurea).jpg",
+      "author": "W. Bulach",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "kind": "plant",
+      "alt": "Close view of a purple coneflower head with its spiky orange cone and pink petals, with a bee"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/b/b4/EchinaceaPurpureaMaxima1a.UME.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b4/EchinaceaPurpureaMaxima1a.UME.JPG/330px-EchinaceaPurpureaMaxima1a.UME.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source_page": "https://commons.wikimedia.org/wiki/File:EchinaceaPurpureaMaxima1a.UME.JPG",
+      "author": "Ulf Eliasson",
+      "license": "CC BY 2.5",
+      "license_url": "https://creativecommons.org/licenses/by/2.5",
+      "kind": "plant",
+      "alt": "Echinacea purpurea 'Maxima' flower with drooping pink petals"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5d/Echinacea_purpurea_Feldanbau.jpg/1280px-Echinacea_purpurea_Feldanbau.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5d/Echinacea_purpurea_Feldanbau.jpg/330px-Echinacea_purpurea_Feldanbau.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Echinacea_purpurea_Feldanbau.jpg",
+      "author": "Burkhard Mücke",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "kind": "plantation",
+      "alt": "Field of flowering Echinacea purpurea under cultivation"
+    }
+  ]
 }

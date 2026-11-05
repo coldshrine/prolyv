@@ -1,0 +1,50 @@
+{
+  "slug": "teh-tubruk",
+  "name_en": "Teh Tubruk",
+  "name_native": "Teh tubruk",
+  "name_romanized": null,
+  "aliases": [],
+  "category": "black",
+  "origin_country": "Indonesia",
+  "origin_region": "Java",
+  "cultivar": null,
+  "processing": "A way of serving: dry leaf is brewed directly in the pot and poured without filtering. The tea itself is whatever the household uses.",
+  "form": "loose",
+  "harvest_season": "Not tied to a season; it uses everyday tea available all year.",
+  "appearance_dry": "Loose everyday tea leaf, typically dark and fine.",
+  "appearance_liquor": "Typically dark and strong, with leaf particles left in it because nothing is strained.",
+  "appearance_wet": "Soft, dark leaf that stays in the pot and settles in the cup.",
+  "taste_profile": "Strong and plain when sipped alone, softened by the coconut sugar that is bitten just before each sip.",
+  "taste_tags": [
+    "brisk",
+    "bitter",
+    "sweet"
+  ],
+  "brewing": {
+    "grams": 5,
+    "water_ml": 300,
+    "temp_c": 98,
+    "steeps": 1,
+    "seconds": [
+      240
+    ],
+    "notes": "Amounts and time are a suggestion. Put the leaves directly in the pot, do not strain, and let them settle before drinking. Bite coconut sugar, then sip."
+  },
+  "caffeine_level": "medium",
+  "vintage_note": "Teh tubruk has no vintages or harvest labels, because it is a preparation and not a named leaf. It is made from ordinary packaged tea, usually bought for daily use and drunk fresh.",
+  "description": "Teh tubruk is unfiltered tea: dry leaves brewed straight in the pot, with no strainer between you and the leaf. It is known from Java, and it is the tea served in the Betawi afternoon tradition called nyahi.\n\nThe method is the whole point. Nothing is removed, so the tea keeps getting stronger while it sits, and the last of the cup is the most intense. Betawi households use a canned or brass teapot for it.\n\nThe sweetener arrives separately. You bite coconut sugar first, then sip the hot tea over it, so the bitterness and sweetness meet in the mouth rather than in the cup. Snacks such as kue ape, kue apem, wajik, boiled peanuts and boiled banana round it out.\n\nThere is no special tea to shop for. An everyday strong tea works, and it helps to pour slowly and leave the last mouthful behind.",
+  "history": "Its best-described setting is nyahi, a Betawi custom of drinking tea with family or friends in the afternoon, a few hours after lunch. The word is said to come from Arabic syay, meaning tea. Little is documented about when the unfiltered method itself began.",
+  "liquor_hex": "#6A2E12",
+  "leaf_hex": "#2F2118",
+  "name_zh": "印尼不滤茶",
+  "name_ru": "Тэ-тубрук",
+  "images": [],
+  "sources": [
+    "https://en.wikipedia.org/wiki/Tea_culture",
+    "https://www.alveus.eu/blog/indonesian-tea/"
+  ],
+  "confidence": "low",
+  "wikipedia_title": "Tea culture",
+  "wikipedia_scope": "umbrella",
+  "popularity": 2
+}

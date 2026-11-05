@@ -3,11 +3,18 @@
   "name_en": "Yunnan Wild-Tree Black (Ye Sheng Hong Cha)",
   "name_native": "野生红茶",
   "name_romanized": "Yěshēng Hóngchá",
-  "aliases": ["Wild Tree Black Tea", "Ye Sheng Hong Cha", "Wild Arbor Black", "Yunnan Wild Black", "Taliensis black tea", "野生古树红茶"],
+  "aliases": [
+    "Wild Tree Black Tea",
+    "Ye Sheng Hong Cha",
+    "Wild Arbor Black",
+    "Yunnan Wild Black",
+    "Taliensis black tea",
+    "野生古树红茶"
+  ],
   "category": "black",
   "origin_country": "China",
-  "origin_region": "Yunnan · Lincang, Baoshan and Dehong",
-  "cultivar": "Wild tea-tree populations, largely Camellia taliensis and related forms rather than cultivated assamica",
+  "origin_region": "Yunnan · Lincang",
+  "cultivar": "Wild or long-untended Yunnan tea trees: Camellia taliensis, its hybrids or feral tea; the identity varies by lot",
   "processing": "Standard black-tea steps on wild-tree leaf: withered, rolled, oxidised and dried; many makers sun-dry or use a low-temperature finish, and oxidation is often kept a little short to protect the fruit aroma.",
   "form": "loose",
   "harvest_season": "Spring (March–April), when the purplish buds are fattest; autumn pickings exist but are thinner.",
@@ -15,13 +22,46 @@
   "appearance_liquor": "Clear orange-red with a slight purple cast.",
   "appearance_wet": "Thick, leathery leaves with a purple-bronze tint and long stems.",
   "taste_profile": "Wild honey and apricot with a faint tartness, a cooling, almost minty finish and very little astringency; some lots carry a gentle bitterness in the late steeps.",
-  "taste_tags": ["honey", "stone-fruit", "tart", "camphor", "sweet"],
-  "brewing": {"grams": 5, "water_ml": 110, "temp_c": 95, "steeps": 8, "seconds": [10, 10, 15, 20, 30, 45, 60, 90], "notes": "Water near the boil, short steeps; it has a long tail, so keep going past the point where plantation tea would be done. A rinse is optional for loose leaf, useful for pressed balls."},
-  "caffeine_level": "low",
+  "taste_tags": [
+    "honey",
+    "stone-fruit",
+    "tart",
+    "camphor",
+    "sweet"
+  ],
+  "brewing": {
+    "grams": 5,
+    "water_ml": 110,
+    "temp_c": 95,
+    "steeps": 8,
+    "seconds": [
+      10,
+      10,
+      15,
+      20,
+      30,
+      45,
+      60,
+      90
+    ],
+    "notes": "Water near the boil, short steeps; it has a long tail, so keep going past the point where plantation tea would be done. A rinse is optional for loose leaf, useful for pressed balls."
+  },
+  "caffeine_level": "medium",
   "vintage_note": "Sold by spring harvest year, loose or pressed into small cakes and dragon balls; most on offer is the current or previous year, but the sun-dried lots are kept and sold with vintages up to five or six years old. Quantities are small because wild trees cannot be picked hard.",
-  "description": "Wild-tree black is the odd one out among Yunnan blacks because it is often not made from the tea plant most tea comes from. The 'wild' trees of Lincang, Baoshan and Dehong are largely Camellia taliensis and related forms that grow in forest and on abandoned hillsides, with purplish buds, thick leaves and a chemistry of their own – typically less caffeine and a different balance of bitter compounds. Processed as black tea, that chemistry turns into a cup that tastes of honey and apricot rather than malt.\n\nThe leaf gets the normal black-tea treatment – withering, rolling, oxidation, drying – but makers tend to stop oxidation a little early and finish gently, sometimes in the sun, to keep the fruit. The dry leaf tells you what it is: big, loosely twisted, purplish-brown with grey-pink rather than golden tips.\n\nExpect wild honey and dried apricot, a faint tart edge, a cooling finish that sits somewhere between mint and camphor, and almost no astringency. Some populations carry bitterness, which shows in the late steeps; good lots stay sweet to the end. Brew it hot and short in a gaiwan and give it eight steeps before you judge it; it also makes a lovely cold brew.\n\nIt is sold by spring harvest year, loose or pressed, and the word 'wild' is doing a lot of work on labels. Truly wild trees are limited and in some areas harvesting is regulated, so much of what is sold is semi-wild leaf from abandoned gardens, which can be excellent and should be priced accordingly. Judge by the purple-tinged leaf and the taste, not the story, and avoid any lot that is harshly bitter or sour.\n\nIf you like it, the same wild material is made into white and sheng-style teas, and tasting all three side by side is the fastest way to understand what the plant itself brings.",
+  "description": "Wild-tree black is the odd one out among Yunnan blacks because it may not be made from the plant most tea comes from. The 'wild' trees of Lincang, Baoshan and Dehong include Camellia taliensis, its hybrids and feral tea, growing in forest and on abandoned hillsides, often with purplish buds and thick leaves. Processed as black tea, the leaf tends to give a cup that tastes of honey and apricot rather than malt. Its caffeine varies by lot, so do not assume it is a low-caffeine tea.\n\nThe leaf gets the normal black-tea treatment – withering, rolling, oxidation, drying – but makers tend to stop oxidation a little early and finish gently, sometimes in the sun, to keep the fruit. The dry leaf tells you what it is: big, loosely twisted, purplish-brown with grey-pink rather than golden tips.\n\nExpect wild honey and dried apricot, a faint tart edge, a cooling finish that sits somewhere between mint and camphor, and almost no astringency. Some populations carry bitterness, which shows in the late steeps; good lots stay sweet to the end. Brew it hot and short in a gaiwan and give it eight steeps before you judge it; it also makes a lovely cold brew.\n\nIt is sold by spring harvest year, loose or pressed, and the word 'wild' is doing a lot of work on labels. Truly wild trees are limited, and wild C. taliensis stands have been shrinking, so much of what is sold is likely semi-wild leaf from abandoned gardens, which can be excellent and should be priced accordingly. Judge by the purple-tinged leaf and the taste, not the story, and avoid any lot that is harshly bitter or sour.\n\nIf you like it, the same wild material is made into white and sheng-style teas, and tasting all three side by side is the fastest way to understand what the plant itself brings.",
   "wikipedia_title": "Camellia taliensis",
   "wikipedia_scope": "umbrella",
   "popularity": 2,
-  "sources_note": "Botanical identity of 'wild' trees varies by area (C. taliensis, hybrids, feral sinensis); the card hedges accordingly. Lower caffeine in taliensis is reported in the literature but varies."
+  "sources_note": "Botanical identity of 'wild' trees varies by area (C. taliensis, hybrids, feral sinensis); the card hedges accordingly. Lower caffeine in taliensis is reported in the literature but varies.",
+  "name_zh": "野生红茶",
+  "name_ru": "Е Шэн Хун Ча",
+  "history": "Wild-tree black is a market description rather than a historic named tea, and little is documented about when it first appeared. It is a recent style, applying black-tea processing to leaf from wild or long-untended Yunnan trees, and the plant behind it varies, with Camellia taliensis and its hybrids among the candidates.\n\nThe botany is better recorded than the tea. C. taliensis is a wild relative of cultivated tea that also contains caffeine and theanine, and it is cultivated in Yunnan while its wild stands have declined through habitat loss and heavy leaf picking. Geneticists also see it as a genetic source for the domestication of Yunnan's big-leaf tea, and it crosses readily with tea, so what is in a given bag can be hard to pin down.",
+  "liquor_hex": "#B55A2B",
+  "leaf_hex": "#40302E",
+  "sources": [
+    "https://pmc.ncbi.nlm.nih.gov/articles/PMC3495649",
+    "https://wikipedia.com/wiki/Camellia_taliensis"
+  ],
+  "confidence": "low",
+  "images": []
 }

@@ -3,7 +3,12 @@
   "name_en": "Ali Shan High Mountain Oolong",
   "name_native": "阿里山高山茶",
   "name_romanized": "Ālǐshān Gāoshān Chá",
-  "aliases": ["Alishan oolong", "Alishan high mountain tea", "Ali Shan oolong", "Alishan gaoshan cha"],
+  "aliases": [
+    "Alishan oolong",
+    "Alishan high mountain tea",
+    "Ali Shan oolong",
+    "Alishan gaoshan cha"
+  ],
   "category": "oolong",
   "origin_country": "Taiwan",
   "origin_region": "Chiayi · Alishan",
@@ -15,13 +20,81 @@
   "appearance_liquor": "Pale, bright yellow-green and very clear.",
   "appearance_wet": "Whole, thick leaves open to a soft bright green with only a thin reddish rim.",
   "taste_profile": "Gardenia and lily florals over a milky, sugary body, a light lemon-peel brightness early on and a sweet, cooling finish that lingers after the cup is empty.",
-  "taste_tags": ["floral", "creamy", "sweet", "vegetal"],
-  "brewing": {"grams": 6, "water_ml": 110, "temp_c": 95, "steeps": 7, "seconds": [30, 20, 25, 35, 50, 70, 100], "notes": "Water just off the boil, short early steeps; cooler water makes it thin and grassy. Excellent cold-brewed overnight at about 1 g per 100 ml."},
+  "taste_tags": [
+    "floral",
+    "creamy",
+    "sweet",
+    "vegetal"
+  ],
+  "brewing": {
+    "grams": 6,
+    "water_ml": 110,
+    "temp_c": 95,
+    "steeps": 7,
+    "seconds": [
+      30,
+      20,
+      25,
+      35,
+      50,
+      70,
+      100
+    ],
+    "notes": "Water just off the boil, short early steeps; cooler water makes it thin and grassy. Excellent cold-brewed overnight at about 1 g per 100 ml."
+  },
   "caffeine_level": "medium",
   "vintage_note": "Sold by harvest: the spring and winter crops of the current year, in vacuum-sealed 150 g packs, with spring usually the most aromatic and winter the thickest; summer and autumn Alishan is sold cheaper and often without a season stated. The Meishan and Alishan township farmers' associations run competitions after the main harvests and sell graded lots in sealed boxes. It is a fresh tea meant for drinking within about a year of picking, kept sealed and cool.",
-  "description": "Alishan is the name on more Taiwanese tea packets than any other, and the tea that earned it is a lightly oxidised, ball-rolled oolong from the mountains of Chiayi County, grown between roughly 1,000 and 1,700 metres in villages such as Shizhuo, Zhangshuhu, Ruili, Taihe and Fenqihu. It is the approachable face of Taiwanese high-mountain tea: soft, floral and creamy, without the austerity of the very highest gardens and without the roast of Dong Ding.\n\nMost of it is Qing Xin oolong, though a lot of Jin Xuan grows here too and is sold honestly as Alishan Jin Xuan. The leaf is sun-withered, tossed and rested indoors overnight until the edges just begin to redden, pan-fired, rolled into tight balls in cloth and dried with only enough heat to set the leaf. Fog, cool nights and slow growth at this altitude give the leaf its thickness and sweetness, and the light processing keeps that intact.\n\nExpect gardenia and lily florals over a milky, almost sugary body, a light citrus-peel brightness in the first steeps and a sweet, cooling finish. It softens rather than fades through five or six steeps. Brew it with water just off the boil and short early steeps; cool water makes it thin and grassy, and an overlong first steep can bring out a sharp greenness. Unlike many oolongs it is also excellent cold-brewed.\n\nIt is sold by season: spring and winter are the premium harvests, and summer and autumn pickings from lower gardens are noticeably cheaper. Because the name sells, a great deal of 'Alishan' is lowland Taiwanese or imported tea; look for the Chiayi County certification mark, a named village, a stated harvest date and a price that makes sense for hand-picked mountain tea. Vacuum-sealed 150 g packs are the standard unit.\n\nKeep it sealed and away from heat, and drink it within a year of the harvest; it is a fresh tea, not an ageing one. If you want the same style with more edge, move up to Shan Lin Xi or Li Shan.",
+  "description": "Alishan is one of the commonest names on Taiwanese tea packets, and the tea that earned it is a lightly oxidised, ball-rolled oolong from the mountains of Chiayi County, grown between roughly 1,000 and 1,700 metres in villages such as Shizhuo, Zhangshuhu, Ruili, Taihe and Fenqihu. It is the approachable face of Taiwanese high-mountain tea: soft, floral and creamy, without the austerity of the very highest gardens and without the roast of Dong Ding.\n\nMost of it is Qing Xin oolong, though a lot of Jin Xuan grows here too and is sold honestly as Alishan Jin Xuan. The leaf is sun-withered, tossed and rested indoors overnight until the edges just begin to redden, pan-fired, rolled into tight balls in cloth and dried with only enough heat to set the leaf. Fog, cool nights and slow growth at this altitude give the leaf its thickness and sweetness, and the light processing keeps that intact.\n\nExpect gardenia and lily florals over a milky, almost sugary body, a light citrus-peel brightness in the first steeps and a sweet, cooling finish. It softens rather than fades through five or six steeps. Brew it with water just off the boil and short early steeps; cool water makes it thin and grassy, and an overlong first steep can bring out a sharp greenness. Unlike many oolongs it is also excellent cold-brewed.\n\nIt is sold by season: spring and winter are the premium harvests, and summer and autumn pickings from lower gardens are noticeably cheaper. Because the name sells, a great deal of 'Alishan' is lowland Taiwanese or imported tea; look for the Chiayi County certification mark, a named village, a stated harvest date and a price that makes sense for hand-picked mountain tea. Vacuum-sealed 150 g packs are the standard unit.\n\nKeep it sealed and away from heat, and drink it within a year of the harvest; it is a fresh tea, not an ageing one. If you want the same style with more edge, move up to Shan Lin Xi or Li Shan.",
   "wikipedia_title": "Taiwanese tea",
   "wikipedia_scope": "umbrella",
   "popularity": 5,
-  "sources_note": "The Chiayi County 'Alishan high mountain tea' certification mark exists but I am not certain of its launch year, so no date is given."
+  "sources_note": "The Chiayi County 'Alishan high mountain tea' certification mark exists but I am not certain of its launch year, so no date is given.",
+  "name_zh": "阿里山高山茶",
+  "name_ru": "Высокогорный улун Али Шань",
+  "history": "Alishan is young as tea regions go, though the exact start of planting could not be confirmed here. Shizhuo shows how recent this is: villagers there struggled to make a living from bamboo and lilies, and a road to the village was only built in 1983. Tea from Shizhuo became known as Zhulu, mostly made from Qing Xin, Zhangshuhu built its reputation in competitions, and Ruili has become a more popular source in recent years.\n\nToday demand runs ahead of supply, so tea grown elsewhere in Asia is sold under the name. A government certification mark for Alishan high mountain tea now exists.",
+  "liquor_hex": "#DDD98E",
+  "leaf_hex": "#4F6B3A",
+  "sources": [
+    "https://www.nickkembel.com/alishan-high-mountain-tea/",
+    "https://zh.wikipedia.org/wiki/%E8%87%BA%E7%81%A3%E8%8C%B6"
+  ],
+  "confidence": "low",
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/69/Picture_of_Alishan_High_Mountain_Tea_.jpg/1280px-Picture_of_Alishan_High_Mountain_Tea_.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/69/Picture_of_Alishan_High_Mountain_Tea_.jpg/330px-Picture_of_Alishan_High_Mountain_Tea_.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Picture_of_Alishan_High_Mountain_Tea_.jpg",
+      "author": "Lenaakong",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "kind": "plantation",
+      "alt": "Rows of tea bushes on a high mountain slope in Alishan under a clear blue sky"
+    }
+  ],
+  "i18n": {
+    "ru": {
+      "processing": "Лёгкое окисление (примерно 15–25%), скручивание в шарики в ткани и сушка ровно на таком огне, чтобы закрепить лист; в стандартном «зелёном» высокогорном стиле настоящей обжарки нет.",
+      "harvest_season": "Лучшие сборы — весенний (конец апреля — май) и зимний (конец октября — ноябрь); летний и осенний чай с садов пониже дешевле и проще.",
+      "appearance_dry": "Плотные глянцевые шарики от нефритового до тёмно-зелёного цвета с короткими черешками, чуть крупнее и зеленее, чем у Дун Дина.",
+      "appearance_liquor": "Бледный, яркий жёлто-зелёный настой, очень прозрачный.",
+      "appearance_wet": "Целые плотные листья раскрываются в мягкий яркий зелёный цвет лишь с тонкой красноватой каймой.",
+      "taste_profile": "Цветы гардении и лилии поверх молочного, сахаристого тела, вначале лёгкая свежесть лимонной цедры, а в конце сладкое, охлаждающее послевкусие, которое держится и после того, как чашка опустела.",
+      "vintage_note": "Продаётся по сборам: весенний и зимний урожай текущего года в вакуумных упаковках по 150 г, причём весенний обычно самый ароматный, а зимний самый плотный; летний и осенний Алишань стоит дешевле, и сезон на нём часто не указан. Фермерские ассоциации волостей Мэйшань и Алишань после основных сборов проводят конкурсы и продают сортовые партии в запечатанных коробках. Это свежий чай: его пьют примерно в течение года после сбора, храня запечатанным и в прохладе.",
+      "history": "По меркам чайных регионов Алишань молод, хотя точное начало посадок здесь подтвердить не удалось. Насколько всё это недавно, видно по Шичжо: жители деревни с трудом кормились бамбуком и лилиями, а дорогу к ней проложили только в 1983 году. Чай из Шичжо стал известен как Чжулу и делается в основном из Цин Синя, Чжаншуху сделала себе имя на конкурсах, а Жуйли в последние годы стала более популярным источником.\n\nСегодня спрос опережает предложение, поэтому под этим названием продают чай, выращенный в других странах Азии. Теперь существует и государственный сертификационный знак для высокогорного чая Алишаня.",
+      "description": "Алишань — одно из самых частых названий на упаковках тайваньского чая, а прославил его слабоокисленный улун, скрученный в шарики, с гор уезда Цзяи. Растёт он примерно на высоте от 1000 до 1700 метров, в таких деревнях, как Шичжо, Чжаншуху, Жуйли, Тайхэ и Фэньциху. Это самое доступное лицо тайваньского высокогорного чая: мягкое, цветочное и сливочное, без суровости самых верхних садов и без обжарки Дун Дина.\n\nВ основном это улун из Цин Синя, хотя здесь растёт и много Цзинь Сюаня, который честно продают как алишаньский Цзинь Сюань. Лист вялят на солнце, встряхивают и оставляют на ночь в помещении, пока края лишь начнут краснеть, затем прогревают в котле, скручивают в ткани в плотные шарики и сушат ровно настолько, чтобы закрепить лист. Туман, прохладные ночи и медленный рост на этой высоте дают листу плотность и сладость, а лёгкая обработка их сохраняет.\n\nЖдите цветов гардении и лилии поверх молочного, почти сахаристого тела, лёгкой свежести цитрусовой цедры в первых проливах и сладкого, охлаждающего послевкусия. За пять-шесть проливов чай скорее смягчается, чем выдыхается. Заваривайте водой, только что снятой с кипения, и начинайте с коротких проливов: холодноватая вода делает настой жидким и травянистым, а слишком долгий первый пролив может дать резкую зелёную ноту. В отличие от многих улунов, он ещё и превосходен при холодном заваривании.\n\nПродаётся по сезонам: весна и зима — лучшие сборы, а летний и осенний чай с садов пониже заметно дешевле. Поскольку название продаёт, очень многое из «Алишаня» — это равнинный тайваньский или привозной чай; ищите сертификационный знак уезда Цзяи, название деревни, указанную дату сбора и цену, имеющую смысл для горного чая ручного сбора. Стандартная единица — вакуумная упаковка на 150 г.\n\nХраните запечатанным и вдали от тепла и выпейте в течение года после сбора: это свежий чай, а не для выдержки. Если хочется того же стиля, но поострее, поднимайтесь к Шань Линь Си или Ли Шаню.",
+      "brewing_notes": "Вода, только что снятая с кипения, короткие первые проливы; с более прохладной водой настой выходит жидким и травянистым. Превосходен при холодном заваривании в течение ночи: примерно 1 г на 100 мл."
+    },
+    "zh": {
+      "processing": "轻度氧化(约15–25%),布包揉成球状,干燥时的火候只求定型;标准的“清香型”高山茶并不真正焙火。",
+      "harvest_season": "春茶(4月下旬至5月)和冬茶(10月下旬至11月)是上品;低海拔茶园的夏秋茶更便宜,也更平淡。",
+      "appearance_dry": "紧结油亮的球状,色泽由翠绿到墨绿,带短梗,比冻顶略大也略绿。",
+      "appearance_liquor": "汤色浅亮,黄中带绿,十分清透。",
+      "appearance_wet": "叶底完整肥厚,舒展后呈柔和的鲜绿色,只有一圈细细的红边。",
+      "taste_profile": "栀子与百合的花香浮在奶香、糖甜的茶汤之上,前段有一丝柠檬皮的清亮,收尾甘甜清凉,杯子空了仍久久不散。",
+      "vintage_note": "按茶季销售:当年春茶和冬茶,150克真空包装,通常春茶最香、冬茶最厚;夏秋季的阿里山茶卖得便宜,且往往不标明季节。梅山乡和阿里山乡农会在主要茶季后举办比赛,并以密封礼盒出售分级茶。这是一款鲜饮的茶,宜在采摘后约一年内喝完,并密封阴凉保存。",
+      "history": "就产茶区而言,阿里山还很年轻,不过究竟何时开始种茶,这里未能查证。石桌就能说明这段历史有多短:当地村民靠竹子和百合难以维生,通往村子的公路直到1983年才修通。石桌茶以“珠露”闻名,主要用青心制作;樟树湖靠比赛打响名号;瑞里则是近年越来越受欢迎的产地。\n\n如今供不应求,于是亚洲其他地方种的茶也打着这个名字出售。现在已有官方的阿里山高山茶认证标章。",
+      "description": "阿里山是台湾茶包装上最常见的名字之一,而让它成名的,是嘉义县山区的轻氧化球形乌龙,产于约1000至1700米的石桌、樟树湖、瑞里、太和、奋起湖等村落。它是台湾高山茶中最平易近人的一面:柔和、花香、奶润,没有最高海拔茶园的那种清冷,也没有冻顶的焙火味。\n\n它大多是青心乌龙,不过这里也种了不少金萱,都老实地以阿里山金萱的名义出售。茶青经日光萎凋,再摇青并在室内静置一夜,直到叶缘刚刚泛红,随后炒青,用布包揉成紧结的球状,干燥时的火候只求定型。这个海拔的云雾、凉夜和缓慢生长赋予茶叶厚度和甜度,轻工艺则把它们完整保留下来。\n\n可以期待栀子和百合花香浮在奶香、近乎糖甜的茶汤上,头几泡有一丝柑橘皮的清亮,收尾甘甜清凉。泡上五六泡,它是变得柔和,而不是变淡。用刚离沸的水冲泡,前几泡要短;水温不够会让茶汤单薄、发青草气,第一泡闷得过久则可能带出尖锐的青味。和许多乌龙不同,它冷泡也非常出色。\n\n它按茶季销售:春茶和冬茶是上品,低海拔茶园的夏秋茶明显便宜。因为这个名字好卖,大量“阿里山”其实是台湾平地茶或进口茶;要认准嘉义县认证标章、具体的村名、标明的采摘日期,以及与手采高山茶相称的价格。150克真空包装是标准规格。\n\n请密封保存,远离热源,并在采摘后一年内喝完;它是鲜饮的茶,不是用来陈放的。如果想要同样的风格而多几分锐度,可以往上试试杉林溪或梨山。",
+      "brewing_notes": "用刚离沸的水,前几泡要短;水温偏低会让茶汤单薄、发青草气。冷泡一夜也非常出色,约每100毫升用1克茶。"
+    }
+  }
 }

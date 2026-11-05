@@ -1,0 +1,61 @@
+{
+  "slug": "xue-cha",
+  "name_en": "Xue Cha (Snow Tea, Thamnolia)",
+  "name_native": "雪茶",
+  "name_romanized": "Xuě Chá",
+  "name_zh": "雪茶",
+  "name_ru": "Сюэ Ча",
+  "aliases": [
+    "Xue cha",
+    "Xuecha",
+    "地茶",
+    "Thamnolia vermicularis",
+    "Thamnolia subuliformis",
+    "Снежный чай",
+    "Whiteworm lichen"
+  ],
+  "category": "tisane",
+  "origin_country": "China",
+  "origin_region": "Yunnan · Northwest",
+  "cultivar": "Thamnolia vermicularis, T. subuliformis",
+  "processing": "A lichen gathered from high mountain ground and dried, with no further processing well documented.",
+  "form": "other",
+  "harvest_season": "Gathered wild; no prized season is well documented.",
+  "appearance_dry": "Slender, hollow-looking white, worm-like branches up to about 5 cm long.",
+  "appearance_liquor": "Typically pale and clear; little is documented on its exact colour.",
+  "appearance_wet": "Soft, pale, worm-like strands.",
+  "taste_profile": "Few reliable tasting notes exist. As a dried lichen used as a cooling folk tea, expect a light, plain herbal cup rather than anything like leaf tea.",
+  "taste_tags": [
+    "herbal",
+    "mineral"
+  ],
+  "brewing": {
+    "grams": 1,
+    "water_ml": 250,
+    "temp_c": 95,
+    "steeps": 1,
+    "seconds": [
+      300
+    ],
+    "notes": "A cautious starting point, not a documented traditional method. Keep it occasional and weak: Japanese cases of suspected liver damage followed months of drinking it for slimming."
+  },
+  "caffeine_level": "none",
+  "vintage_note": "Not sold by year or season. It is a wild-gathered dried lichen, sold through herbal channels, and it has no ageing tradition. Choose clean, white, unbroken pieces.",
+  "description": "Xue cha is a lichen, not a tea plant at all. The white, worm-like Thamnolia grows on arctic and alpine tundra, and in China it is recorded from the northeast down through Sichuan, Yunnan and Tibet. The northwest Yunnan high country is the name most linked to it in trade.\n\nThere is almost nothing to the making: it is gathered and dried. Do not confuse it with red snow tea, which is a different lichen from the genus Lethariella.\n\nFlavour is poorly recorded, so expect something light and herbal and judge for yourself. Keep amounts small and use it occasionally.\n\nBe careful with this one. In Japan it was sold as a slimming drink, and in 2003 the health ministry reported two cases from Fukuoka, a mother and daughter, of suspected liver damage after drinking it, which improved once they stopped. The cause was not established. There is no good evidence for slimming, so skip it if that is why it is offered.",
+  "history": "Chinese herbal medicine lists xue cha as a material drawn from these two lichens, traditionally used to clear heat and quench thirst. These are traditional uses, not clinically proven effects. Little is documented on when it was first drunk.\n\nIt later travelled beyond China, reaching Japan as a diet drink, followed by the 2003 health ministry report of suspected liver damage. A 2013 Chinese study also used it as the base of a herbal drink with honeysuckle, chrysanthemum and liquorice.",
+  "liquor_hex": "#E3D9A8",
+  "leaf_hex": "#E6E1D3",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Thamnolia_vermicularis",
+    "https://shennongalpha.westlake.edu.cn/knowledge/nmm-05ru",
+    "https://h-crisis.niph.go.jp/?p=83857",
+    "https://www.spgykj.com/article/doi/10.13386/j.issn1002-0306.2013.16.049",
+    "https://en.wikipedia.org/wiki/Lethariella_cladonioides",
+    "https://www.mhlw.go.jp/houdou/2003/12/h1222-3.html"
+  ],
+  "confidence": "medium",
+  "wikipedia_title": "Thamnolia vermicularis",
+  "wikipedia_scope": "exact",
+  "popularity": 2,
+  "images": []
+}

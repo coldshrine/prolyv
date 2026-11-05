@@ -1,0 +1,57 @@
+{
+  "slug": "purple-bud-black-tea",
+  "name_en": "Purple Bud Black Tea (Zi Ya Hong Cha)",
+  "name_native": "紫芽红茶",
+  "name_romanized": "Zǐyá Hóngchá",
+  "name_zh": "紫芽红茶",
+  "name_ru": "Цзы Я Хун Ча",
+  "aliases": [
+    "Purple Bud Zi Ya Black Tea",
+    "Zi Ya Hong Cha",
+    "Цзы я хунча"
+  ],
+  "category": "black",
+  "origin_country": "China",
+  "origin_region": "Yunnan",
+  "cultivar": "Purple-budded tea plants",
+  "processing": "Black tea made from purple-tinted shoots, which hold unusually high levels of anthocyanin. Otherwise it follows ordinary black tea steps of withering, rolling, oxidation and drying.",
+  "form": "loose",
+  "harvest_season": "Not documented for a set season; purple colouring in shoots depends on the plant and growing conditions.",
+  "appearance_dry": "Dark strands, often with a purplish-black cast and few golden tips.",
+  "appearance_liquor": "Clear red, with the anthocyanin adding to the colour.",
+  "appearance_wet": "Typically dark coppery leaf, sometimes with a purple tinge.",
+  "taste_profile": "Little is recorded for a specific Yunnan style. Expect a black tea character with its own plant's traits, and taste before assuming sweetness or astringency.",
+  "taste_tags": [
+    "fruity",
+    "sweet",
+    "brisk"
+  ],
+  "brewing": {
+    "grams": 5,
+    "water_ml": 110,
+    "temp_c": 90,
+    "steeps": 5,
+    "seconds": [
+      15,
+      15,
+      20,
+      30,
+      45
+    ],
+    "notes": "General black tea guidance. Start short and adjust, since purple-bud leaf can vary a lot from one maker to another."
+  },
+  "caffeine_level": "medium",
+  "vintage_note": "No selling convention is documented specifically. It is usually treated like other Yunnan black tea, sold by harvest year and drunk within a couple of years.",
+  "description": "Purple bud black tea is exactly what it says: black tea from tea plants whose new shoots come out purple. The plants are known for their high anthocyanin, the same family of pigments that colours berries.\n\nThe method is that of an ordinary black tea. Research on a concentrate made from purple-leaf black tea found far more anthocyanin than in one made from green-budded leaf, and a red colour that held up well in acidic conditions and with heat.\n\nLittle is documented about how a Yunnan purple-bud black tea should taste, so treat seller notes with some care. Brew it as you would other Yunnan black tea, and compare it with a standard Dian Hong to find out what the plant changes.\n\nThe name does not tell you which cultivar or county you are getting. Ask for both, since purple-bud plants are grown in more than one province.",
+  "history": "Little is documented about this tea as a named product. Purple-budded tea plants are studied for their anthocyanin, including a study on purple-leaf black tea concentrate. When black tea from them was first sold in Yunnan is not recorded.",
+  "liquor_hex": "#94301F",
+  "leaf_hex": "#33232A",
+  "sources": [
+    "https://aminer.org/pub/53e99e21b7602d97026e5c3c/preparation-of-black-tea-condensed-solution-from-purple-tea-leaves-and-research"
+  ],
+  "confidence": "low",
+  "wikipedia_title": null,
+  "wikipedia_scope": "none",
+  "popularity": 2,
+  "images": []
+}

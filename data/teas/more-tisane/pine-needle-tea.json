@@ -1,0 +1,62 @@
+{
+  "slug": "pine-needle-tea",
+  "name_en": "Pine Needle Tea (Sollip-cha)",
+  "name_native": "솔잎차",
+  "name_romanized": "Sollip-cha",
+  "name_zh": "松叶茶",
+  "name_ru": "Чай из сосновой хвои (соллип-ча)",
+  "aliases": [
+    "Pine leaf tea",
+    "Sollip-cha",
+    "Jannip-cha",
+    "Baegyeop-cha",
+    "Matsuba-cha",
+    "松葉茶",
+    "Солип-ча",
+    "Чай из сосновых иголок"
+  ],
+  "category": "tisane",
+  "origin_country": "South Korea",
+  "origin_region": "Korea",
+  "cultivar": "Korean red pine or Manchurian red pine; Korean pine for jannip-cha",
+  "processing": "Needles are soaked, rinsed, trimmed of their sharp tips and cut, then used fresh or shade-dried and infused over low heat. A second style ferments the needles in sugar water for a week or more.",
+  "form": "loose",
+  "harvest_season": "Usually around December, preferably before midday, from 10- to 20-year-old trees in sunny mid-mountain spots.",
+  "appearance_dry": "Short cut lengths of needle, a dull dark green when dried.",
+  "appearance_liquor": "Typically pale yellow-green and clear; the fermented style is filtered through cloth.",
+  "appearance_wet": "Soft green needle pieces, normally strained off before drinking.",
+  "taste_profile": "Astringent enough that honey or sugar is the usual addition, with the resinous, foresty note you would expect from pine oils.",
+  "taste_tags": [
+    "herbal",
+    "woody",
+    "bitter"
+  ],
+  "brewing": {
+    "grams": 12,
+    "water_ml": 60,
+    "temp_c": 90,
+    "steeps": 1,
+    "seconds": [
+      600
+    ],
+    "notes": "The traditional proportion is strong: 10 to 15 g dried or 20 to 30 g fresh needles to 60 ml water, over low heat. The time is a starting point. Add honey or sugar, and always identify the tree: not every conifer is safe."
+  },
+  "caffeine_level": "none",
+  "vintage_note": "No vintages. It is mostly made at home or bought as a small-batch herbal product, from needles traditionally gathered in winter. The fermented style is a fresh cold drink, ready after about a week in summer and longer in other seasons.",
+  "description": "Pine needle tea is what it sounds like: an infusion of pine needles. In Korea sollip-cha comes mostly from Korean red pine or Manchurian red pine, while jannip-cha comes from Korean pine. Japan makes matsuba-cha, mainly from red or black pine, and North Americans use local species.\n\nThere are two sollip-cha paths. In the first, needles are soaked for a day, cleaned, trimmed of their tips and cut, then infused fresh or after shade-drying. In the second, trimmed needles sit in sugar water in a sunny spot until fermented, then get filtered and served cold. Jannip-cha is simpler: fresh needles boiled, then simmered and drunk without the leaves.\n\nThe hot version is astringent, which is why honey or sugar is normal rather than a cheat. The proportions are generous, so if it is too much, dilute it.\n\nWhen buying, or especially when foraging, know exactly which tree you have. Packaged needles should name the species; if a label does not, move on.\n\nThe fermented cold version is a very different drink, and worth trying if the hot one feels too medicinal.",
+  "history": "In East Asia pine needles were associated with the diet of immortals, so they were also regarded as a longevity food; that belongs to legend rather than evidence. Korean tradition carries details of its own, such as harvesting jannip-cha needles from branches growing eastward.\n\nIn North America, an often repeated account says Indigenous people taught European settlers to make the tea against scurvy, since the needles hold vitamin C.",
+  "liquor_hex": "#D4CE8E",
+  "leaf_hex": "#4A5F32",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Pine_needle_tea",
+    "https://ko.wikipedia.org/wiki/%EC%86%94%EC%9E%8E%EC%B0%A8",
+    "https://ja.wikipedia.org/wiki/%E6%9D%BE%E8%91%89%E8%8C%B6",
+    "https://ru.wikipedia.org/wiki/%D0%A7%D0%B0%D0%B9_%D0%B8%D0%B7_%D1%81%D0%BE%D1%81%D0%BD%D0%BE%D0%B2%D1%8B%D1%85_%D0%B8%D0%B3%D0%BE%D0%BB%D0%BE%D0%BA",
+    "https://en.wikipedia.org/wiki/Tea_culture"
+  ],
+  "confidence": "high",
+  "wikipedia_title": "Pine needle tea",
+  "wikipedia_scope": "exact",
+  "popularity": 2,
+  "images": []
+}

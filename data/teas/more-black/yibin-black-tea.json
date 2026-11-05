@@ -1,0 +1,52 @@
+{
+  "slug": "yibin-black-tea",
+  "name_en": "Yibin Black Tea",
+  "name_native": "宜宾红茶",
+  "name_romanized": "Yíbīn Hóngchá",
+  "aliases": [
+    "Yibinhongcha"
+  ],
+  "category": "black",
+  "origin_country": "China",
+  "origin_region": "Sichuan · Yibin",
+  "cultivar": null,
+  "form": "loose",
+  "caffeine_level": "high",
+  "brewing": {
+    "grams": 3,
+    "water_ml": 200,
+    "temp_c": 95,
+    "steeps": 2,
+    "seconds": [
+      180,
+      240
+    ],
+    "notes": "A safe starting point for black tea: Western style, water just off the boil."
+  },
+  "taste_tags": [
+    "malty",
+    "sweet"
+  ],
+  "description": "A Sichuan black tea from the Cuiping district of Yibin, made in two forms: a finely picked gongfu tea and a broken-leaf tea rolled and cut into even granules.\n\nTreat it as you would any black tea: water just off the boil, a few minutes in the pot, and a seller who can say where it was grown.",
+  "wikipedia_title": null,
+  "wikipedia_scope": "none",
+  "popularity": 1,
+  "name_zh": "宜宾红茶",
+  "name_ru": "И Бинь Хун Ча",
+  "history": "Local accounts say the gongfu tea was well regarded in London and other markets by the 1950s and took a gold medal at a world food award in 1985, while the broken tea took a silver at the same contest in 1986. They also describe it as the largest and steadiest export among Yibin's goods from 1952 to 1985. These claims come from a single regional account.",
+  "liquor_hex": "#B23E1A",
+  "leaf_hex": "#2E2118",
+  "sources": [
+    "https://milulu.com.cn/techan/35232.html"
+  ],
+  "confidence": "medium",
+  "images": [],
+  "stub": true,
+  "processing": "Typical of black tea: withered, rolled, fully oxidised and dried.",
+  "harvest_season": "The gongfu tea is picked early in the season and very tender.",
+  "appearance_dry": "Gongfu: tight, fine, glossy dark strips. Broken: tight, even granules.",
+  "appearance_liquor": "Vivid red.",
+  "appearance_wet": "Evenly red leaf.",
+  "taste_profile": "Fresh aroma and a mellow, thick taste.",
+  "vintage_note": "Black teas are normally sold by harvest year and are best within a couple of years."
+}

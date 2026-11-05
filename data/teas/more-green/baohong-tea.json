@@ -1,0 +1,58 @@
+{
+  "slug": "baohong-tea",
+  "name_en": "Baohong Tea",
+  "name_native": "宝洪茶",
+  "name_romanized": "Bǎohóng Chá",
+  "name_zh": "宝洪茶",
+  "name_ru": "Бао Хун Ча",
+  "aliases": [
+    "Baohong Green Tea",
+    "Baohongcha",
+    "Yiliang Baohong"
+  ],
+  "category": "green",
+  "origin_country": "China",
+  "origin_region": "Yunnan · Kunming · Yiliang",
+  "cultivar": "Local small-leaf",
+  "processing": "Pan-fired in three stages: fixing, spreading to rest, and a final firing, with hand motions that press and flatten the leaf.",
+  "form": "loose",
+  "harvest_season": "Exact dates are little documented; as with other Chinese greens, spring pickings are the prized ones.",
+  "appearance_dry": "Flat, straight and smooth, like fir needles, in bright green with very little visible down.",
+  "appearance_liquor": "Clear yellow-green.",
+  "appearance_wet": "Plump, tender leaves that open into whole sets.",
+  "taste_profile": "High, sharp fragrance with a strong, fresh taste and a clean finish that lingers on the lips.",
+  "taste_tags": [
+    "floral",
+    "vegetal",
+    "brisk",
+    "sweet"
+  ],
+  "brewing": {
+    "grams": 3,
+    "water_ml": 150,
+    "temp_c": 80,
+    "steeps": 3,
+    "seconds": [
+      45,
+      75,
+      110
+    ],
+    "notes": "Flat pan-fired leaf gives up flavour quickly, so keep the first steep short and the water cool."
+  },
+  "caffeine_level": "medium",
+  "vintage_note": "Sold by harvest year, normally as the current spring tea; western shops list it as a dated spring green. Store it sealed, cool and away from odours, and drink it within the year for the fragrance.",
+  "description": "Baohong Tea comes from Baohong Mountain, near Baohong Temple just outside Yiliang County, close to Kunming. Its claim to fame is that it is described as Yunnan's only small-leaf tea, which makes it an outlier in a province built on large-leaf plants.\n\nThe method is closer to a flat pan-fired green from the east than to anything else in Yunnan. It takes three stages of firing with hands-on pressing and pushing, and the finished leaf ends up flat and straight like a fir needle.\n\nThe smell is the point: high and sharp, with a fresh, strong cup and a clean finish. Use cooler water and a short first steep, as flat leaf extracts fast and small-leaf tea gets bitter if pushed.\n\nFew shops outside China carry it, usually in small lots with the spring year on the label. Stories about its age and rank grow easily, so judge the tea by the picking date and the cup. Store it sealed and drink it fresh.",
+  "history": "Local accounts say that monks at Baohong Temple introduced the tea in the Tang period and that it flourished in the Ming and Qing. These accounts trace today's plants back to very old temple trees, but this early history is tradition more than firm record, and the origin is not established.\n\nAltitude of the gardens is given as above 1,850 metres. Grand claims of imperial tribute and famous literary praise circulate under its name, but they look borrowed from other teas and should not be relied on.",
+  "liquor_hex": "#D8D484",
+  "leaf_hex": "#6E8A42",
+  "sources": [
+    "https://milulu.com.cn/techan/26741.html",
+    "https://www.chawangshop.com/36-other-tea"
+  ],
+  "confidence": "low",
+  "wikipedia_title": null,
+  "wikipedia_scope": "none",
+  "popularity": 2,
+  "images": [],
+  "sources_note": "The milulu page contains Ming-era tribute history, Xu Guangqi and Li Dongyang quotes that clearly belong to Lu'an Guapian with the name swapped; these and its 2011 award claim were left out."
+}

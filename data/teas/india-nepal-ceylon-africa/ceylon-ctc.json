@@ -3,10 +3,16 @@
   "name_en": "Ceylon CTC",
   "name_native": null,
   "name_romanized": null,
-  "aliases": ["Sri Lankan CTC", "Ceylon tea bags", "Ceylon BP1", "Ceylon PF1", "Ceylon CTC black tea"],
+  "aliases": [
+    "Sri Lankan CTC",
+    "Ceylon tea bags",
+    "Ceylon BP1",
+    "Ceylon PF1",
+    "Ceylon CTC black tea"
+  ],
   "category": "black",
   "origin_country": "Sri Lanka",
-  "origin_region": "Sri Lanka · mainly low- and mid-grown districts",
+  "origin_region": "Southern Province",
   "cultivar": "Assam-type seedling bushes and TRI clones",
   "processing": "CTC manufacture: withered leaf cut, torn and curled into granules, fully oxidised and fired; a minority of Sri Lanka's output (most of the island's tea is orthodox), made for tea bags and strong milk tea.",
   "form": "loose",
@@ -15,12 +21,38 @@
   "appearance_liquor": "Dark red-brown, quick to colour.",
   "appearance_wet": "Fine dark grains.",
   "taste_profile": "Strong, brisk and colourful with a clean, slightly sweet Ceylon edge; less malty than Assam CTC, less coppery than Kenyan.",
-  "taste_tags": ["brisk", "malty", "sweet"],
-  "brewing": {"grams": 3, "water_ml": 200, "temp_c": 100, "steeps": 1, "seconds": [180], "notes": "Boiling water, two to three minutes, milk and sugar if you like; no second steep."},
+  "taste_tags": [
+    "brisk",
+    "malty",
+    "sweet"
+  ],
+  "brewing": {
+    "grams": 3,
+    "water_ml": 200,
+    "temp_c": 100,
+    "steeps": 1,
+    "seconds": [
+      180
+    ],
+    "notes": "Boiling water, two to three minutes, milk and sugar if you like; no second steep."
+  },
   "caffeine_level": "high",
-  "vintage_note": "Sold by grade through the Colombo auction and mostly packed into Ceylon-branded tea bags and strong-tea packs for the Gulf; look for the Lion logo and a pack date. No vintage: buy fresh and finish it within a year.",
-  "description": "Ceylon CTC is the minority of Sri Lanka's tea that is made by the crush-tear-curl method rather than orthodox rolling: granular black tea for tea bags and strong milk tea. Sri Lanka is unusual among the big producers in that most of its crop is still orthodox, so CTC is a deliberate choice by factories supplying the bag and Middle Eastern strong-tea markets rather than the default.\n\nWithered leaf is cut, torn and curled into granules, oxidised quickly and fired, then sorted by size into grades such as BP1, PF1, PD and Dust. Most of it comes from low- and mid-grown districts where the leaf is big and the cup naturally dark.\n\nThe cup is dark red-brown, strong and brisk, with a clean, slightly sweet Ceylon edge; it is less malty than Assam CTC and less coppery than Kenyan. Boiling water, two to three minutes, milk and sugar if you like; it will not re-steep.\n\nIt is sold by grade through the Colombo auction and mostly packed into Ceylon-branded tea bags and strong-tea packs for the Gulf; look for the Lion logo and a pack date. No vintage: buy fresh and finish it within a year.\n\nGood to know about so that you can tell, from the granules in a Ceylon tea bag, what you are getting.",
+  "vintage_note": "Sold by grade through the Colombo auction and mostly packed into Ceylon-branded tea bags and strong-tea packs; look for the Lion logo and a pack date. No vintage: buy fresh and finish it within a year.",
+  "description": "Ceylon CTC is the minority of Sri Lanka's tea that is made by the crush-tear-curl method rather than orthodox rolling: granular black tea for tea bags and strong milk tea. Sri Lanka is unusual among the big producers in that most of its crop is still orthodox, so CTC is a deliberate choice by factories supplying the bag and strong-tea markets rather than the default.\n\nWithered leaf is cut, torn and curled into granules, oxidised quickly and fired, then sorted by size into grades such as BP1, PF1, PD and Dust. Most of it comes from low-grown districts where the leaf is big and the cup naturally dark.\n\nThe cup is dark red-brown, strong and brisk, with a clean, slightly sweet Ceylon edge; it is less malty than Assam CTC and less coppery than Kenyan. Boiling water, two to three minutes, milk and sugar if you like; it will not re-steep.\n\nIt is sold by grade through the Colombo auction and mostly packed into Ceylon-branded tea bags and strong-tea packs; look for the Lion logo and a pack date. No vintage: buy fresh and finish it within a year.\n\nGood to know about so that you can tell, from the granules in a Ceylon tea bag, what you are getting.",
   "wikipedia_title": "Ceylon tea",
   "wikipedia_scope": "umbrella",
-  "popularity": 3
+  "popularity": 3,
+  "name_zh": "锡兰CTC红茶",
+  "name_ru": "Цейлон CTC",
+  "history": "Sri Lanka built its name on orthodox tea and has been described as the world's largest exporter of it, so CTC has stayed a minority here. Published figures put it at about 22.4 million kg of a 340 million kg crop in 2013, and almost 9 percent of the total in 2022.\n\nMost of it is low-grown. The Kalubowitiyana factory in the south, which began CTC production in 1994, is described as a pioneer of it.",
+  "liquor_hex": "#8E3A16",
+  "leaf_hex": "#2F1F15",
+  "sources": [
+    "https://dailymirror.lk/breaking_news/Sri-Lankas-tea-production-hits-26-year-low-in-2022/108-252794",
+    "https://themorning.lk/kalubowitiyana-tea",
+    "https://www.sundaytimes.lk/230108/business-times/famed-ceylon-tea-losing-global-market-share-507363.html",
+    "https://www.ft.lk/agriculture/record-tea-crop-of-340-m-kilos-in-2013/31-248348"
+  ],
+  "confidence": "medium",
+  "images": []
 }

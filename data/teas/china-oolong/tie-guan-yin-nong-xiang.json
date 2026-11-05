@@ -3,25 +3,91 @@
   "name_en": "Tie Guan Yin (Nong Xiang)",
   "name_native": "浓香铁观音",
   "name_romanized": "Nóngxiāng Tiě Guānyīn",
-  "aliases": ["Roasted Tieguanyin", "Traditional Tieguanyin", "Nong Xiang TGY", "Tan Bei Tieguanyin", "Charcoal-roasted Iron Goddess", "炭焙铁观音", "Strong-aroma Tieguanyin"],
+  "aliases": [
+    "Roasted Tieguanyin",
+    "Traditional Tieguanyin",
+    "Nong Xiang TGY",
+    "Tan Bei Tieguanyin",
+    "Charcoal-roasted Iron Goddess",
+    "炭焙铁观音",
+    "Strong-aroma Tieguanyin",
+    "濃香鐵觀音",
+    "浓香型铁观音"
+  ],
   "category": "oolong",
   "origin_country": "China",
   "origin_region": "Fujian · Anxi",
   "cultivar": "Tieguanyin",
-  "processing": "Oxidised further than the green style (traditionally around 30–40%), ball-rolled, then roasted: at best over charcoal (tan bei) in several passes with rests between them, more often in electric ovens. Some commercial lots are simply green-style tea given a roast afterwards.",
+  "processing": "Oxidised further than the green style (traditionally around 40%, up to 50% by some reckonings), ball-rolled, then roasted: at best over charcoal (tan bei) in several passes with rests between them, more often in electric ovens. Some commercial lots are simply green-style tea given a roast afterwards.",
   "form": "loose",
-  "harvest_season": "Spring (late April to May) and autumn (October); spring leaf is often preferred for roasting because of its thicker body.",
+  "harvest_season": "Spring (mid-to-late April to early May) and autumn (late September to early October); opinions differ on which leaf suits roasting best, with autumn tea prized for aroma and spring tea for its body.",
   "appearance_dry": "Tight, dark olive-brown to chestnut pellets, duller than the green style, with a toasty caramel smell.",
   "appearance_liquor": "Golden-orange to amber, bright and clear.",
   "appearance_wet": "Dark olive leaves with reddish edges, thicker and less vivid than the green style, unfurling fully.",
   "taste_profile": "Roasted nuts and caramel, cooked fruit and honey, with the memory of orchid underneath and a smooth, warm, faintly drying finish that turns sweet in the throat.",
-  "taste_tags": ["roasted", "honey", "nutty", "sweet", "floral"],
-  "brewing": {"grams": 7, "water_ml": 110, "temp_c": 100, "steeps": 7, "seconds": [15, 10, 15, 20, 30, 45, 60], "notes": "Boiling water; a zisha pot rounds the roast, a gaiwan keeps it crisp. Rinse once to open the pellets. Unlike the green style it does not need the fridge and does not mind a slightly long steep."},
+  "taste_tags": [
+    "roasted",
+    "honey",
+    "nutty",
+    "sweet",
+    "floral"
+  ],
+  "brewing": {
+    "grams": 7,
+    "water_ml": 110,
+    "temp_c": 100,
+    "steeps": 7,
+    "seconds": [
+      15,
+      10,
+      15,
+      20,
+      30,
+      45,
+      60
+    ],
+    "notes": "Boiling water; a zisha pot rounds the roast, a gaiwan keeps it crisp. Rinse once to open the pellets. Unlike the green style it does not need the fridge and does not mind a slightly long steep."
+  },
   "caffeine_level": "medium",
   "vintage_note": "Sold by season like the green style, spring and autumn of the current year, but the roast changes the clock: charcoal-roasted lots are usually rested one to three months before sale and then keep for two to three years at room temperature, often improving in the first year. Anything older is sold as chen xiang (aged) Tieguanyin with the years stated.",
   "description": "Nong xiang, strong fragrance, is the roasted Tieguanyin, and it is the older of the two styles: before the green, fridge-kept version swept the market in the 1990s and 2000s, this is what Anxi Tieguanyin meant. It is the version to try if the green style seems thin or if you want a tea that behaves at room temperature.\n\nThe leaf is the same Tieguanyin cultivar from the hills of Anxi, but it is withered and shaken longer so that the oxidation goes further, then ball-rolled and roasted. The roast is the craft. Done traditionally over charcoal in several short passes with rests in between, it turns the orchid aroma into honey, caramel and roasted nuts without scorching; done quickly in an electric oven on a tea that was made green in the first place, it produces something flat and toasty that smells better than it tastes. The Anxi standard recognises both qing xiang and nong xiang as official types, which has not stopped the second from being used loosely.\n\nIn the cup a good one is warm and layered: roasted grain and caramel first, cooked peach and honey in the middle steeps, a soft floral memory and a long sweet aftertaste. It is smoother and more forgiving than the green style, takes boiling water happily and holds seven or eight infusions.\n\nBrew it in a gaiwan or a small zisha pot with a quick rinse and short early steeps; a slightly longer steep makes it richer rather than bitter, which is a relief after the green style.\n\nIt is sold by season with the harvest and roast stated, and the thing to ask is how it was roasted. Charcoal-roasted (tan bei) lots cost more and are worth it; look for a dark but not black pellet, a sweet rather than acrid smell, and a liquor that is amber and clear. Rested for a few months it improves, and sealed it keeps two or three years. If you fall for it, chen xiang, the aged version, is the obvious next step.",
   "wikipedia_title": "Tieguanyin",
   "wikipedia_scope": "exact",
   "popularity": 4,
-  "sources_note": "Oxidation figures are trade approximations. The qing xiang / nong xiang split in the Anxi Tieguanyin standard (GB/T 19598) is as generally reported; the timeline of the green style's dominance (1990s–2000s) is approximate."
+  "sources_note": "Oxidation figures are trade approximations. The qing xiang / nong xiang split in the Anxi Tieguanyin standard (GB/T 19598) is as generally reported; the timeline of the green style's dominance (1990s–2000s) is approximate.",
+  "name_zh": "浓香铁观音",
+  "name_ru": "Нун Сян Те Гуань Инь",
+  "history": "This is the older face of Tieguanyin. The cultivar and tea come from Xiping in Anxi county, southern Fujian, and both date to the Qing dynasty. Two legends compete for the origin, and neither can be verified. In one, the farmer Wei Yin, devoted to Guanyin, is led by a dream to a bush among the rocks in the Yongzheng era. In the other, a scholar named Wang finds it near his home in 1736 and it reaches the Qianlong emperor, who gives it the name.\n\nFor most of its history Anxi Tieguanyin was a well-oxidised, heavily roasted tea, around 40 to 50 percent by the traditional reckoning. That is the tea Anxi merchants carried to Hong Kong, Taiwan and Southeast Asia, where shops run by people from Xiping's Yaoyang area numbered more than 130 and brands won prizes in Singapore in 1945 and Siam in 1950. It is also the kind that Taiwan's Muzha growers took up and still keep close to.\n\nThe label nong xiang only became necessary once lighter, greener Tieguanyin took over the mainstream market. The roasted style now survives as the deliberate choice of those who prefer it, sometimes made properly over charcoal and sometimes simply a green tea given a roast afterwards.",
+  "liquor_hex": "#C9892F",
+  "leaf_hex": "#4F4026",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Tieguanyin",
+    "https://zh.wikipedia.org/wiki/%E9%93%81%E8%A7%82%E9%9F%B3",
+    "https://ja.wikipedia.org/wiki/%E9%89%84%E8%A6%B3%E9%9F%B3",
+    "https://vi.wikipedia.org/wiki/Tr%C3%A0_Thi%E1%BA%BFt_Quan_%C3%82m",
+    "https://www.wikidata.org/wiki/Q1328947"
+  ],
+  "confidence": "high",
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/59/Fulles_de_Tieguanyin.jpg/1280px-Fulles_de_Tieguanyin.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/59/Fulles_de_Tieguanyin.jpg/330px-Fulles_de_Tieguanyin.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Fulles_de_Tieguanyin.jpg",
+      "author": "Francesc Fort",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "kind": "dry_leaf",
+      "alt": "Dark olive rolled Tieguanyin oolong pellets spread out"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/54/HK_SSP_%E9%95%B7%E6%B2%99%E7%81%A3%E5%BB%A3%E5%A0%B4_Cheung_Sha_Wan_Plaza_mall_shop_%E7%9B%88%E6%9A%89%E6%B5%B7%E9%AE%AE%E9%85%92%E5%AE%B6_Glorious_Seafood_Restaurant_hot_tea_glass_cup_%E9%90%B5%E8%A7%80%E9%9F%B3_Tienguanyin_December_2019_SS2.jpg/1280px-thumbnail.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/54/HK_SSP_%E9%95%B7%E6%B2%99%E7%81%A3%E5%BB%A3%E5%A0%B4_Cheung_Sha_Wan_Plaza_mall_shop_%E7%9B%88%E6%9A%89%E6%B5%B7%E9%AE%AE%E9%85%92%E5%AE%B6_Glorious_Seafood_Restaurant_hot_tea_glass_cup_%E9%90%B5%E8%A7%80%E9%9F%B3_Tienguanyin_December_2019_SS2.jpg/330px-thumbnail.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source_page": "https://commons.wikimedia.org/wiki/File:HK_SSP_%E9%95%B7%E6%B2%99%E7%81%A3%E5%BB%A3%E5%A0%B4_Cheung_Sha_Wan_Plaza_mall_shop_%E7%9B%88%E6%9A%89%E6%B5%B7%E9%AE%AE%E9%85%92%E5%AE%B6_Glorious_Seafood_Restaurant_hot_tea_glass_cup_%E9%90%B5%E8%A7%80%E9%9F%B3_Tienguanyin_December_2019_SS2.jpg",
+      "author": "LNAM Haoi",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "kind": "liquor",
+      "alt": "Amber Tieguanyin tea in a glass beside a white teapot"
+    }
+  ]
 }

@@ -1,0 +1,55 @@
+{
+  "slug": "tsuchiyama-cha",
+  "name_en": "Tsuchiyama-cha",
+  "name_native": "土山茶",
+  "name_romanized": "Tsuchiyama-cha",
+  "name_zh": "土山茶",
+  "name_ru": "Цутияма-тя",
+  "aliases": [
+    "Omi Tsuchiyama-cha",
+    "近江土山茶",
+    "Tsuchiyama tea"
+  ],
+  "category": "green",
+  "origin_country": "Japan",
+  "origin_region": "Shiga · Koka · Tsuchiyama",
+  "cultivar": null,
+  "processing": "Mainly steamed green tea, as is usual in Japan, with a local roasted line, Tsuchiyama Hitoban Hoji, developed more recently.",
+  "form": "loose",
+  "harvest_season": "Typically spring for the most valued first flush, as is usual for Japanese greens.",
+  "appearance_dry": "Typically dark green needles, from a long and thick-fleshed leaf.",
+  "appearance_liquor": "Typically fairly full yellow-green, in keeping with its strong flavour.",
+  "appearance_wet": "Long, thick, soft leaves.",
+  "taste_profile": "Strong in flavour and aroma thanks to thick leaf, and it holds up well for a good second steep.",
+  "taste_tags": [
+    "vegetal",
+    "umami"
+  ],
+  "brewing": {
+    "grams": 5,
+    "water_ml": 180,
+    "temp_c": 75,
+    "steeps": 3,
+    "seconds": [
+      60,
+      20,
+      40
+    ],
+    "notes": "The thick leaf gives a good second infusion, so do not discard it after the first. Measures are a general starting point for sencha."
+  },
+  "caffeine_level": "medium",
+  "vintage_note": "Sold as the current year's crop as usual for Japanese greens, with the first flush most valued. The recent roasted Hitoban Hoji is a separate product and not tied to the fresh-season appeal.",
+  "description": "Tsuchiyama, in Koka city, is Shiga's biggest tea area by both acreage and output, so this is the Omi tea you are most likely to find. It grows in gentle hills with long sunshine and clean water.\n\nThe leaf comes out long and fleshy, and it is that thickness that gives a strong flavour and aroma. A distinct feature for the everyday drinker is how well a second steep holds up.\n\nBrew it like sencha, and do not throw away the leaf too soon. It has weight, which makes it an easy daily tea, and a good contrast with the more delicate mountain teas from Asamiya.\n\nLook for local makers and for the roasted Hitoban Hoji if you want something different. The town also turns its tea into gelato, jam and baked goods.",
+  "history": "Tsuchiyama's tea is said to begin in 1356, when the monk 鈍翁 of the temple 常明寺 brought seed from Daitoku-ji in Kyoto. In the Edo period, the monk 天嶺 of 永雲寺 spread cultivation and gave tea to villagers and travellers, and it became known on the Tokaido road as Akebono-cha.\n\nAfter the ports opened, an 1880 Shiga survey showed it as the prefecture's largest producer. In 1881 local tea men founded a company here to improve black tea for export and sell refined tea directly abroad.\n\nWith ageing farmers and pandemic-era sales losses, the roasted Hitoban Hoji brand was developed over four years from 2018.",
+  "liquor_hex": "#C5C266",
+  "leaf_hex": "#435A2C",
+  "sources": [
+    "https://ja.wikipedia.org/wiki/%E5%9C%9F%E5%B1%B1%E8%8C%B6",
+    "https://ja.wikipedia.org/wiki/%E8%BF%91%E6%B1%9F%E3%81%AE%E8%8C%B6"
+  ],
+  "confidence": "medium",
+  "wikipedia_title": "土山茶",
+  "wikipedia_scope": "exact",
+  "popularity": 3,
+  "images": []
+}

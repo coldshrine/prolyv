@@ -1,0 +1,59 @@
+{
+  "slug": "yay-nway-gyan",
+  "name_en": "Yay nway gyan (Burmese plain green tea)",
+  "name_zh": "缅甸清茶",
+  "name_ru": "Е нве джан",
+  "name_native": "ရေနွေးကြမ်း",
+  "name_romanized": "Yay nway gyan",
+  "aliases": [
+    "Yay nway gyan",
+    "Yei-nway gyan",
+    "Yay-Nway-Kyan",
+    "Lahpet-yei gyan",
+    "လက်ဖက်ရည်ကြမ်း",
+    "Е нуэ джан"
+  ],
+  "category": "green",
+  "origin_country": "Myanmar",
+  "origin_region": "Shan State",
+  "cultivar": null,
+  "processing": "A plain brew of lahpet chauk, the dried tea leaves of Myanmar, unsweetened and without milk. The leaf itself is simply dried green tea, and the drink is what matters here.",
+  "form": "loose",
+  "harvest_season": "Grown in Shan and Kachin States. The earliest pickings of the year, called shwephi, are the most valued grades of Burmese tea.",
+  "appearance_dry": "Typical of rustic Southeast Asian dried tea: coarse, dark green to brownish leaf with some stem.",
+  "appearance_liquor": "Pale yellow to light amber, depending on the leaf and how long the pot has stood.",
+  "appearance_wet": "Large, dull green leaves, as is usual for coarse everyday tea.",
+  "taste_profile": "Plain, light and slightly bitter, with a mild vegetal edge; a table drink rather than a tea to study.",
+  "taste_tags": [
+    "vegetal",
+    "bitter",
+    "woody"
+  ],
+  "brewing": {
+    "grams": 3,
+    "water_ml": 500,
+    "temp_c": 95,
+    "steeps": 1,
+    "seconds": [
+      300
+    ],
+    "notes": "Made by the pot and kept on the table. A long steep is usual, and the cup gets stronger as it stands, so top up with hot water."
+  },
+  "caffeine_level": "medium",
+  "vintage_note": "Not sold by vintage or season in any formal way: the dried leaf is bought as everyday tea by grade. Fresher is better, and the first pickings of the year fetch the most.",
+  "description": "Yay nway gyan is the plain tea of Myanmar, the pot left on the table at every tea shop and in many homes. The name means something like crude hot water, and that is the spirit of it: no milk, no sugar, no ceremony.\n\nThe drink is made from dried leaf, grown mostly in Shan and Kachin States, and it sits next to the country's two other tea forms: sweet milk tea made with black tea, and pickled leaf eaten as food.\n\nIt is light and a little bitter, there to wash down fried snacks and to keep you sitting and talking. The usual way is one big pot with a long steep, watered down as it goes.\n\nIn tea shops it usually comes free with whatever you order, and refills are free too. The term is looser than the English label: some writers from Myanmar point out it covers plain tea of any kind, and that black tea often goes in the pot at home or in restaurants. So what you get depends on the shop.",
+  "history": "Plain tea belongs to the long Burmese tea tradition, which folklore traces to King Alaungsithu in the 1100s, though the dates are legendary. Green tea is often described as Myanmar's national drink.\n\nThe free pot took its current everyday form with the tea shop, which spread through cities like Rangoon in the colonial era and through the rest of the country in the 1970s.",
+  "wikipedia_title": "Lahpet",
+  "wikipedia_scope": "umbrella",
+  "popularity": 2,
+  "liquor_hex": "#D6B868",
+  "leaf_hex": "#4C4A2A",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Burmese_cuisine",
+    "https://en.wikipedia.org/wiki/Lahpet",
+    "https://foodism.co.uk/columns/lahpet-burmese-tea-leaves/",
+    "https://yeemonthant.medium.com/burmese-milk-tea-what-it-is-how-it-is-different-from-others-and-cultural-aspects-dd263ba9997d"
+  ],
+  "confidence": "medium",
+  "images": []
+}

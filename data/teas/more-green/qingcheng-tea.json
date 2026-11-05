@@ -1,0 +1,59 @@
+{
+  "slug": "qingcheng-tea",
+  "name_en": "Qingcheng Tea",
+  "name_native": "青城茶",
+  "name_romanized": "Qīngchéng Chá",
+  "name_zh": "青城茶",
+  "name_ru": "Цин Чэн Ча",
+  "aliases": [
+    "Qingchengcha",
+    "Qingchengshancha",
+    "青城山茶",
+    "Qingcheng Mountain tea"
+  ],
+  "category": "green",
+  "origin_country": "China",
+  "origin_region": "Sichuan · Dujiangyan · Qingcheng Shan",
+  "cultivar": null,
+  "processing": "A place name more than a recipe. Today it mostly means pan-fired green made from early spring shoots, of which Qingcheng Xueya is the best known.",
+  "form": "loose",
+  "harvest_season": "Early spring, with one bud and one leaf the standard for the modern fine grades.",
+  "appearance_dry": "The modern fine style is sturdy and even with visible white down and glossy, tender green leaf.",
+  "appearance_liquor": "Bright yellow-green.",
+  "appearance_wet": "Tender green; little else is documented beyond the Xueya style.",
+  "taste_profile": "The modern style has a fresh, lasting aroma and a full taste with a sweet return.",
+  "taste_tags": [
+    "vegetal",
+    "sweet",
+    "grassy"
+  ],
+  "brewing": {
+    "grams": 3,
+    "water_ml": 150,
+    "temp_c": 82,
+    "steeps": 3,
+    "seconds": [
+      60,
+      90,
+      120
+    ],
+    "notes": "General advice for a downy spring green: cooled water, open vessel, and do not worry about a little haze from the down."
+  },
+  "caffeine_level": "medium",
+  "vintage_note": "Sold as current-year spring tea, as usual for Chinese greens. The name is loose, so ask whether you are getting Xueya or another style, and check the harvest year.",
+  "description": "Qingcheng tea is simply tea from Qingcheng Shan, the mountain near Dujiangyan west of Chengdu. It is an old regional name rather than one defined tea, and today it is often used interchangeably with Qingcheng Xueya.\n\nThe modern fine style is pan-fired from early spring shoots, usually one bud and one leaf, with several rounds of firing and rolling before a final bake. It gives sturdy, downy leaf and a bright yellow-green cup.\n\nExpect a fresh lasting aroma and a full, sweet finish. Treat it like any tender downy green, with water off the boil and short steeps.\n\nIf you want a definite tea rather than a place, buy Qingcheng Xueya by name. Under the broader label, ask about the producer and the season.",
+  "history": "Qingcheng is an old name in tea writing. It is recorded in Lu Yu's Classic of Tea, and the Five Dynasties writer Mao Wenxi named types from there in his Chapu, among them Hengyuan, Queshe, Niaozui and Maike, all made from tender buds. Tea farms were set up on the mountain in the Song dynasty.\n\nThe trade later declined, attributed to heavy taxes, merchants' buying and war, and recovered after 1949. In the late 1950s Qingcheng Xueya was created as an improved tea on this base, and it has largely defined the name since.",
+  "liquor_hex": "#D4D184",
+  "leaf_hex": "#74884A",
+  "sources": [
+    "https://zh.wikipedia.org/wiki/%E9%9D%92%E5%9F%8E%E9%9B%AA%E8%8A%BD",
+    "https://milulu.com.cn/techan/27478.html",
+    "https://www.maigoo.com/top/423323.html",
+    "https://milulu.com.cn/techan/29091.html"
+  ],
+  "confidence": "medium",
+  "wikipedia_title": "青城雪芽",
+  "wikipedia_scope": "umbrella",
+  "popularity": 2,
+  "images": []
+}

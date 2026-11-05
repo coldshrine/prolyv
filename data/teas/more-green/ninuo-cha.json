@@ -1,0 +1,54 @@
+{
+  "slug": "ninuo-cha",
+  "name_en": "Ninuo Tea",
+  "name_native": "尼诺茶",
+  "name_romanized": "Nínuò Chá",
+  "aliases": [
+    "Ninuo Cha",
+    "Ninuocha"
+  ],
+  "category": "green",
+  "origin_country": "China",
+  "origin_region": "Yunnan · Mount Ninuo, Changning, Baoshan",
+  "cultivar": "Yunnan large-leaf",
+  "form": "loose",
+  "caffeine_level": "medium",
+  "brewing": {
+    "grams": 3,
+    "water_ml": 150,
+    "temp_c": 80,
+    "steeps": 3,
+    "seconds": [
+      60,
+      75,
+      105
+    ],
+    "notes": "A safe starting point for green tea: cooler water, short steeps, then adjust by taste."
+  },
+  "taste_tags": [
+    "brisk",
+    "floral"
+  ],
+  "description": "A green tea made from large-leaf bushes on Mount Ninuo in Changning County, Baoshan, and named after the mountain.\n\nTreat it as you would any green tea: cooler water, short steeps, and a seller who can say where and when it was picked.",
+  "wikipedia_title": null,
+  "wikipedia_scope": "none",
+  "popularity": 1,
+  "name_zh": "尼诺茶",
+  "name_ru": "Ни Но Ча",
+  "history": "The mountain is a misty, low-latitude upland with sandy yellow soil. Accounts record praise from a visiting FAO expert in 1987 and from a Sri Lankan tea specialist in 1988. Little else is documented about its past.",
+  "liquor_hex": "#D9D583",
+  "leaf_hex": "#74863A",
+  "sources": [
+    "https://milulu.com.cn/techan/25318.html"
+  ],
+  "confidence": "medium",
+  "images": [],
+  "stub": true,
+  "processing": "Fixed, rolled, dried, sieved and hand-sorted.",
+  "harvest_season": "Spring, one bud and two leaves.",
+  "appearance_dry": "Tight, rolled strands with visible down, a glossy green.",
+  "appearance_liquor": "Clear and bright.",
+  "appearance_wet": "Tender, even and bright.",
+  "taste_profile": "Clean, fresh aroma with a brisk, lively taste.",
+  "vintage_note": "Green teas like this are normally sold as the current year's harvest and are best within a year of picking. It is not an ageing tea."
+}

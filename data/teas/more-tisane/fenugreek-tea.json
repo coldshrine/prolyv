@@ -1,0 +1,60 @@
+{
+  "slug": "fenugreek-tea",
+  "name_en": "Fenugreek Tea (Helba)",
+  "name_native": "حلبة",
+  "name_romanized": "Ḥilba",
+  "name_zh": "葫芦巴茶",
+  "name_ru": "Хельба (чай из пажитника)",
+  "aliases": [
+    "Helba",
+    "Hilba",
+    "Egyptian yellow tea",
+    "Fenugreek seed tea",
+    "Чай из пажитника",
+    "Желтый египетский чай"
+  ],
+  "category": "tisane",
+  "origin_country": "Egypt",
+  "origin_region": "Egypt",
+  "cultivar": "Trigonella foenum-graecum",
+  "processing": "Dried fenugreek seeds, usually rinsed and then boiled in water as a decoction rather than steeped. Roasting is common for fenugreek in cooking but is not a confirmed step for this drink.",
+  "form": "other",
+  "harvest_season": "A seed crop, so there is no prized picking; the drink is made from dried seed all year.",
+  "appearance_dry": "Small, hard, angular seeds of yellow-brown.",
+  "appearance_liquor": "Cloudy-to-clear yellow.",
+  "appearance_wet": "Swollen, softened seeds, usually strained out.",
+  "taste_profile": "A distinct fenugreek character with real bitterness if overdone; usually softened with sugar, honey or molasses.",
+  "taste_tags": [
+    "bitter",
+    "spicy",
+    "herbal"
+  ],
+  "brewing": {
+    "grams": 5,
+    "water_ml": 250,
+    "temp_c": 100,
+    "steeps": 1,
+    "seconds": [
+      300
+    ],
+    "notes": "About one teaspoon of seeds to a glass of water, rinsed, brought to the boil, simmered 3 to 5 minutes and strained. Too many seeds make it bitter."
+  },
+  "caffeine_level": "none",
+  "vintage_note": "Not sold by year or season. It is a pantry seed, sold whole in bulk or in packets, sometimes marketed to travellers as Egyptian yellow tea. Buy whole seed and judge by clean smell rather than by a label.",
+  "description": "Helba is what Egypt calls fenugreek, and the drink is simply the seeds boiled in water. It is not tea in any strict sense, more a decoction, which is a large part of its charm: a yellow glass of something savoury-sweet.\n\nThere is little to the making. Rinse a teaspoon of seed, bring it to the boil in a glass of water, simmer for 3 to 5 minutes and strain.\n\nThe mistake is using too much: helba turns very bitter fast. Sugar, honey or molasses all go in, and that is normal rather than a cheat.\n\nBuying is easy: whole seed from a spice seller is the same thing as a tourist packet of yellow tea. Fenugreek is a strong plant with a big reputation, so take the health stories on the packet lightly. Those who are pregnant or breastfeeding should ask a doctor first.",
+  "history": "Little is documented about the drink itself, even though fenugreek is an old crop in the region. Tourist writing likes to call it the drink of the pharaohs, but that is a story without a clear source.\n\nIn modern times it has become known to travellers as a cafe drink in Egypt, and through packets of yellow tea brought home from resorts, a trade that is especially visible in Russian-language tea blogs.",
+  "liquor_hex": "#D9B44A",
+  "leaf_hex": "#B8924A",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Fenugreek",
+    "https://www.inside-egypt.com/health-in-a-cup.html",
+    "https://miychay.com/en/blog/egipetskiy-chay-khelba-ili-napitok-faraonov",
+    "https://miychay.com/en/blog/zheltyy-egipetskiy-chay-kak-zavarivat",
+    "https://blog.thenibble.com/2024/07/30/try-a-new-but-ancient-spice-hilba-a-k-a-fenugreek/"
+  ],
+  "confidence": "low",
+  "wikipedia_title": "Fenugreek",
+  "wikipedia_scope": "umbrella",
+  "popularity": 2,
+  "images": []
+}

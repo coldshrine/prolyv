@@ -3,7 +3,12 @@
   "name_en": "Darjeeling Autumn Flush",
   "name_native": "दार्जिलिङ चिया",
   "name_romanized": "Dārjiliṅ chiyā",
-  "aliases": ["Autumnal Darjeeling", "Darjeeling autumnal", "Third flush Darjeeling", "Darjeeling autumn tea"],
+  "aliases": [
+    "Autumnal Darjeeling",
+    "Darjeeling autumnal",
+    "Third flush Darjeeling",
+    "Darjeeling autumn tea"
+  ],
   "category": "black",
   "origin_country": "India",
   "origin_region": "West Bengal · Darjeeling",
@@ -15,12 +20,49 @@
   "appearance_liquor": "Deep amber-copper, clear.",
   "appearance_wet": "Even coppery-brown leaf.",
   "taste_profile": "Mellow and rounded: dried fruit, a nutty toasted-grain note and a soft honeyed sweetness, with far less sharpness than the spring or summer teas.",
-  "taste_tags": ["dried-fruit", "nutty", "honey", "sweet"],
-  "brewing": {"grams": 3, "water_ml": 200, "temp_c": 90, "steeps": 2, "seconds": [240, 300], "notes": "Tolerates hotter water and a longer steep than the first flush; the Darjeeling that works with a splash of milk if that is your habit."},
+  "taste_tags": [
+    "dried-fruit",
+    "nutty",
+    "honey",
+    "sweet"
+  ],
+  "brewing": {
+    "grams": 3,
+    "water_ml": 200,
+    "temp_c": 90,
+    "steeps": 2,
+    "seconds": [
+      240,
+      300
+    ],
+    "notes": "Tolerates hotter water and a longer steep than the first flush; the Darjeeling that works with a splash of milk if that is your habit."
+  },
   "caffeine_level": "medium",
   "vintage_note": "Sold as 'Autumn Flush' or 'Autumnal' with the year and the garden, reaching shops from November and priced clearly below the first and second flush of the same estate. It drinks well for a year or two in a sealed pack. Because it is cheaper, autumnal leaf is also the flush most often used in branded 'Darjeeling' blends.",
   "description": "Darjeeling autumn flush, usually sold as 'autumnal', is the last harvest of the year, picked in October and the first half of November once the monsoon has cleared and before the bushes shut down for winter. It is the quiet, mellow Darjeeling: less perfume than spring, less muscatel drama than summer, but round, easy and usually the best value of the three named flushes.\n\nCool, dry autumn air lets the factories wither the leaf properly again after the humid rains, and the teas are oxidised fully. The leaf comes out dark and even with a scattering of golden tips, and the cup is a deeper amber-copper than the spring or summer teas.\n\nThe taste is soft and rounded: dried fruit, a nutty, toasted-grain note and a gentle honey sweetness with low astringency. It can take a slightly longer steep and hotter water than the spring tea without turning harsh, and it is the Darjeeling that stands up best to a little milk.\n\nIt is sold by garden and year like the other flushes and reaches shops from November; prices are noticeably lower than spring and summer lots from the same estate, which is why autumnal leaf also ends up in many branded 'Darjeeling' blends. It keeps for a year or two in a sealed pack.\n\nA good autumnal is the Darjeeling to drink on a cold afternoon, or to pour for people who find the first flush too sharp.",
   "wikipedia_title": "Darjeeling tea",
   "wikipedia_scope": "umbrella",
-  "popularity": 3
+  "popularity": 3,
+  "name_zh": "大吉岭秋茶",
+  "name_ru": "Дарджилинг осеннего сбора",
+  "history": "The autumn flush closes the Darjeeling season, which runs from March through November. Picking comes in October and November, once the monsoon has ended.\n\nHow the names of the flushes settled is not well documented. The tea's own reputation is odd: a 2016 report called autumn the favourite of many Indian tasters, yet hard to find abroad, noting that Mariage Frères, with over 100 Darjeelings on its list, carried just three from this flush.",
+  "liquor_hex": "#B0601F",
+  "leaf_hex": "#4A3320",
+  "sources": [
+    "https://www.kpbs.org/news/2016/10/04/autumn-flush-the-best-darjeeling-tea-youll-likely",
+    "https://happyearthtea.com/blogs/tea-101/darjeeling-tea-flushes"
+  ],
+  "confidence": "medium",
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9c/Darjeeling%2C_India%2C_Darjeeling_tea_leaves.jpg/1280px-Darjeeling%2C_India%2C_Darjeeling_tea_leaves.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9c/Darjeeling%2C_India%2C_Darjeeling_tea_leaves.jpg/330px-Darjeeling%2C_India%2C_Darjeeling_tea_leaves.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Darjeeling,_India,_Darjeeling_tea_leaves.jpg",
+      "author": "Vyacheslav Argenberg",
+      "license": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0",
+      "kind": "plant",
+      "alt": "Close view of glossy green tea bush foliage in Darjeeling, West Bengal"
+    }
+  ]
 }

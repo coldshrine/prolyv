@@ -3,7 +3,14 @@
   "name_en": "Qi Dan (Pure Da Hong Pao)",
   "name_native": "奇丹",
   "name_romanized": "Qídān",
-  "aliases": ["Qidan", "Pure Da Hong Pao", "Chunzhong Da Hong Pao", "纯种大红袍", "Qi Dan Da Hong Pao", "Single-cultivar Da Hong Pao"],
+  "aliases": [
+    "Qidan",
+    "Pure Da Hong Pao",
+    "Chunzhong Da Hong Pao",
+    "纯种大红袍",
+    "Qi Dan Da Hong Pao",
+    "Single-cultivar Da Hong Pao"
+  ],
   "category": "oolong",
   "origin_country": "China",
   "origin_region": "Fujian · Wuyi Mountains",
@@ -15,13 +22,46 @@
   "appearance_liquor": "Orange-amber, bright and clear.",
   "appearance_wet": "Thick olive-green leaves with clean red rims, even in size and slow to open.",
   "taste_profile": "Restrained and elegant: orchid and a touch of cinnamon-like spice, honey and dried fruit on a medium body, with a long, cool mineral aftertaste and less roast on the surface than blended Da Hong Pao.",
-  "taste_tags": ["floral", "mineral", "sweet", "roasted", "spicy"],
-  "brewing": {"grams": 8, "water_ml": 110, "temp_c": 100, "steeps": 8, "seconds": [10, 10, 15, 20, 30, 45, 60, 90], "notes": "Boiling water, porcelain gaiwan, short steeps. It is a subtle tea: drink it before anything heavier, and pay attention to the aftertaste rather than the first impression."},
+  "taste_tags": [
+    "floral",
+    "mineral",
+    "sweet",
+    "roasted",
+    "spicy"
+  ],
+  "brewing": {
+    "grams": 8,
+    "water_ml": 110,
+    "temp_c": 100,
+    "steeps": 8,
+    "seconds": [
+      10,
+      10,
+      15,
+      20,
+      30,
+      45,
+      60,
+      90
+    ],
+    "notes": "Boiling water, porcelain gaiwan, short steeps. It is a subtle tea: drink it before anything heavier, and pay attention to the aftertaste rather than the first impression."
+  },
   "caffeine_level": "medium",
   "vintage_note": "Spring harvest of the current year, roasted over the summer and sold from autumn with the year stated. Medium-roasted Qi Dan drinks well on release and improves for a year; it keeps two to four years sealed and dry, and older lots are occasionally sold as aged pure Da Hong Pao with the vintage stated.",
   "description": "Qi Dan is what pure Da Hong Pao means today: the cultivar that genetic work in the 2000s matched to the famous mother trees on the Jiulongke cliff, grown from cuttings in gardens around Wuyi and sold under its own name or as chunzhong (pure-bred) Da Hong Pao. It is the single-cultivar answer to a tea that is otherwise nearly always a blend.\n\nThe six mother trees are not all one plant, and for decades there was argument over which propagated bushes, Bei Dou or Qi Dan, were the real descendants. Testing settled the question in Qi Dan's favour for at least part of the group, and since then Qi Dan has been planted more widely and labelled honestly, though old habits mean plenty of it is still simply sold as Da Hong Pao. A blended Da Hong Pao, built from Shui Xian, Rou Gui and others, is not a fake; it is a different product, usually bolder and more roasted than this.\n\nQi Dan itself is a mid-to-late sprouting bush with medium-sized leaves, processed in the usual Wuyi way and generally roasted a shade lighter than a blend, because its character is quiet and a heavy roast would bury it. In the cup it gives orchid, a faint cinnamon-like spice, honey and dried fruit on a medium body, and the thing people prize is the aftertaste: long, cool and mineral, arriving after the sip rather than during it.\n\nBrew it hot and quick in a gaiwan, before any Rou Gui or heavy Shui Xian, because after a loud tea it will seem to have nothing to say. Around the third and fourth steeps the body fills out and the aftertaste settles in; it lasts eight infusions.\n\nIt is sold by the current spring harvest, with plenty of ordinary outer-mountain Qi Dan at fair prices and small amounts of core-area tea at famous-bush prices. Buy from a seller who says where it grew and in which year it was roasted, and taste it next to Bei Dou and next to a well-made blend from the same house: that comparison is the fastest way to understand what Da Hong Pao the name does and does not promise.",
   "wikipedia_title": "Da Hong Pao",
   "wikipedia_scope": "umbrella",
   "popularity": 2,
-  "sources_note": "The DNA-matching claim is widely reported in Chinese tea media; the number of distinct genotypes among the six mother trees is given variously (often three or four)."
+  "sources_note": "The DNA-matching claim is widely reported in Chinese tea media; the number of distinct genotypes among the six mother trees is given variously (often three or four).",
+  "name_zh": "奇丹",
+  "name_ru": "Ци Дань",
+  "history": "Qi Dan is the cutting-grown line of Da Hong Pao, and its modern standing rests on recent work. Chinese tea writers report that the Fujian tea institute took material from the Jiulongke mother trees in 1964 and that a plot of layered plants from trees No. 1 and No. 2 was set up there in 1980.\n\nThe same account says a 2009 analysis by Fujian Agriculture and Forestry University found Qi Dan genetically identical to mother trees No. 2 and No. 6, with Bei Dou at a distance from them, and that Qi Dan passed Fujian's cultivar approval as pure Da Hong Pao in 2012. These details come from the tea press; other writers still count Bei Dou as a Da Hong Pao descendant.\n\nThe mother trees have not been picked since 2006, so Qi Dan is the nearest most drinkers can get to them.",
+  "liquor_hex": "#BE7430",
+  "leaf_hex": "#3B2B1E",
+  "sources": [
+    "https://m.sohu.com/n/470612327/",
+    "https://www.maigoo.com/goomai/233798.html"
+  ],
+  "confidence": "medium",
+  "images": []
 }

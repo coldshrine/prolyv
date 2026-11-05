@@ -1,0 +1,62 @@
+{
+  "slug": "bitter-melon-tea",
+  "name_en": "Bitter Melon Tea (Goya-cha, Cerasee)",
+  "name_native": "ゴーヤー茶",
+  "name_romanized": "Gōyā-cha",
+  "name_zh": "苦瓜茶",
+  "name_ru": "Чай из горькой дыни (гоя-тя, серасе)",
+  "aliases": [
+    "Bitter melon tea",
+    "Cerasee",
+    "Cerasse",
+    "Gohyah tea",
+    "Goya-cha",
+    "Kuguacha",
+    "trà khổ qua",
+    "thé de courge amère",
+    "Момордика харанция"
+  ],
+  "category": "tisane",
+  "origin_country": "Japan",
+  "origin_region": "Okinawa",
+  "cultivar": null,
+  "processing": "Made from the bitter melon plant, Momordica charantia. Depending on the tradition, the fruit or the leaves are dried, a fermented version is reported from Okinawa, and Caribbean cerasee is boiled from fresh leaves and stems.",
+  "form": "loose",
+  "harvest_season": "No fixed picking season is recorded for the drink; it follows the local growing of the plant, and cerasee is often gathered fresh.",
+  "appearance_dry": "Dried bitter melon material, either pieces of fruit or crumpled dull green leaf and stem depending on the style.",
+  "appearance_liquor": "Usually a clear yellow-green to amber, deeper the longer it is boiled.",
+  "appearance_wet": "Soft, dark olive leaf and stem or softened pieces of fruit.",
+  "taste_profile": "Plainly and strongly bitter, with a green, herbal edge. Young leaves steeped briefly are noticeably gentler than a long-stewed vine.",
+  "taste_tags": [
+    "bitter",
+    "herbal",
+    "vegetal"
+  ],
+  "brewing": {
+    "grams": 3,
+    "water_ml": 300,
+    "temp_c": 100,
+    "steeps": 1,
+    "seconds": [
+      300
+    ],
+    "notes": "Start with a small amount and a short steep, since bitterness climbs quickly. Boiling is the usual cerasee method; steeping a few young leaves makes a milder cup."
+  },
+  "caffeine_level": "none",
+  "vintage_note": "Sold without a year or a named harvest, as dried herb or in tea bags, and in the Caribbean also as fresh bundles. As with other dried herbs, buy the most recently packed stock and use it while it still smells green.",
+  "description": "Bitter melon tea is less one tea than a family of drinks made from the same plant, Momordica charantia. Goya-cha takes its name from the Okinawan word for the fruit, gohyah tea is a herbal drink in Chinese cooking, Vietnam dries the fruit or the leaves, and in Jamaica the plant and the tea made from it are called cerasee.\n\nThe method changes with the place. In Vietnam the dried fruit or leaf is simply steeped, hot or cold. Okinawa has a reported fermented version, though little is documented about how it is made. Cerasee is generally boiled from fresh leaves and stems of a wild form of the plant, and is also sold in tea bags.\n\nExpect bitterness first and last. The drink is not trying to be pleasant in the way a flower tisane is, so the useful control is quantity: a few young leaves give something drinkable, while a long-boiled vine is a serious test.\n\nHealth claims follow this tea everywhere, but human research on it is limited, and it is advised against during pregnancy, when trying to conceive and while breastfeeding. Treat it as a traditional bitter drink, not as a treatment.",
+  "history": "Little is documented about when any of these drinks began. What can be said is that the plant is used across Asia and the Caribbean, with a fermented tea reported from Okinawa and dried fruit or leaf tea from Vietnam.\n\nIn the Caribbean, cerasee is a common bush tea, taken as a morning cleansing drink and used in folk practice for complaints including fevers, colds and stomach trouble.",
+  "liquor_hex": "#B9A84E",
+  "leaf_hex": "#5F6B3A",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Momordica_charantia",
+    "https://zh.wikipedia.org/wiki/%E8%8B%A6%E7%93%9C",
+    "https://www.healthline.com/nutrition/cerasee-tea-benefits",
+    "https://healthiersteps.com/cerasee-tea"
+  ],
+  "confidence": "low",
+  "wikipedia_title": "Momordica charantia",
+  "wikipedia_scope": "umbrella",
+  "popularity": 2,
+  "images": []
+}

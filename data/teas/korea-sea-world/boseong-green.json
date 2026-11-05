@@ -3,25 +3,99 @@
   "name_en": "Boseong Green Tea",
   "name_native": "보성 녹차",
   "name_romanized": "Boseong nokcha",
-  "aliases": ["Boseong nokcha", "Bosung green tea", "Boseong tea", "Daehan Dawon tea"],
+  "aliases": [
+    "Boseong nokcha",
+    "Bosung green tea",
+    "Boseong tea",
+    "Daehan Dawon tea"
+  ],
   "category": "green",
   "origin_country": "South Korea",
   "origin_region": "Jeollanam-do · Boseong",
-  "cultivar": "A mix of seed-grown native bushes (jaeraejong) and Japanese-origin cultivars such as Yabukita, planted in clipped rows",
-  "processing": "Machine- or hand-picked leaf either steamed Japanese-style or pan-fired, then rolled and dried; the large plantations lean towards steaming, the small farms towards the cauldron.",
+  "cultivar": "Mainly Japanese-origin Yabukita by one importer's account, with some seed-grown native bushes (jaeraejong), planted in clipped rows",
+  "processing": "Machine- or hand-picked leaf fixed by steaming or in a heated wok, then rolled and dried; practice varies by producer, and one importer reports wok-fixing at the Boseong farms it visited.",
   "form": "loose",
   "harvest_season": "Late April to June, sold by the Korean grades (ujeon, sejak, jungjak, daejak); the Boseong Green Tea Festival in May marks the start of the new-season sales.",
   "appearance_dry": "Even, fine, tightly twisted needles of a bright deep green, more uniform than Hadong tea, with a fresh green-and-nori aroma in steamed lots.",
   "appearance_liquor": "Pale green to light yellow-green, bright and clear, slightly cloudy in steamed lots.",
-  "appearance_wet": "Uniform small leaves of a single cultivar, vivid green.",
+  "appearance_wet": "Uniform small leaves, vivid green.",
   "taste_profile": "Fresh, clean and mild: cut grass, young spinach and a gentle marine note in the steamed versions, toasted grain in the pan-fired ones, with a light sweetness and a soft finish.",
-  "taste_tags": ["grassy", "vegetal", "sweet", "marine"],
-  "brewing": {"grams": 3, "water_ml": 120, "temp_c": 70, "steeps": 3, "seconds": [60, 45, 75], "notes": "Treat the steamed style like a light sencha: cooled water and a short first steep. Pan-fired lots take a little more heat. Good cold-brewed."},
+  "taste_tags": [
+    "grassy",
+    "vegetal",
+    "sweet",
+    "marine"
+  ],
+  "brewing": {
+    "grams": 3,
+    "water_ml": 120,
+    "temp_c": 70,
+    "steeps": 3,
+    "seconds": [
+      60,
+      45,
+      75
+    ],
+    "notes": "Treat the steamed style like a light sencha: cooled water and a short first steep. Pan-fired lots take a little more heat. Good cold-brewed."
+  },
   "caffeine_level": "medium",
   "vintage_note": "Sold as the current year's spring harvest under the grade names, with the year on the pack; the big Boseong brands keep sejak and jungjak in stock all year, while ujeon sells out by early summer. It is a fresh green tea, best within a year of harvest, and never aged.",
-  "description": "Boseong, on the south coast of Jeollanam-do, is the place most Koreans picture when they think of tea: terraced hillsides of clipped bushes in curving rows, the postcard fields of Daehan Dawon that appear in every drama and advert. It is also one of the country's two big tea-growing counties, with Hadong, and Boseong green tea was the first product registered under Korea's agricultural geographical-indication system.\n\nThe modern plantations here were laid out from the Japanese colonial period onwards and expanded after the war, which is why the fields look Japanese: rows of clonal cultivars, machine plucking, and a strong tradition of steaming the leaf. Hand-picked, pan-fired tea exists too, especially from the smaller farms, but the typical Boseong cup is greener, fresher and milder than the toasty hand-rolled teas of Hadong.\n\nIt tastes of cut grass and young greens with a soft sweetness and, in steamed lots, a light seaweed note. It is an easy tea to drink and an easy one to brew, provided the water is cooled; it also makes one of the better Korean cold brews. The main way to spoil it is to use boiling water and a long steep.\n\nBoseong tea is graded like all Korean green tea, and the big local brands sell every grade with the year printed on the pack. The fields are also a tourist attraction, so the county sells a great deal of green tea ice cream, green tea noodles and bagged tea; for the loose leaf, buy from a named producer and check the grade rather than the picture of the hills.\n\nIf you want to taste what steaming does, compare a Boseong sejak with a Hadong sejak from the same year: same grade, same country, two different ideas of green tea.",
+  "description": "Boseong, on the south coast of Jeollanam-do, is the place most Koreans picture when they think of tea: terraced hillsides of clipped bushes in curving rows, the postcard fields of Daehan Dawon that appear in every drama and advert. It is also one of the country's two big tea-growing counties, with Hadong, and Boseong green tea was the first product registered under Korea's agricultural geographical-indication system.\n\nThe modern plantations here were laid out from the Japanese colonial period onwards and expanded after the war, which is why the fields look Japanese: rows of clonal cultivars, machine plucking, and a clear Japanese influence, though the leaf may be steamed or fixed in a heated wok depending on the maker. The typical Boseong cup is greener, fresher and milder than the toasty hand-rolled teas of Hadong.\n\nIt tastes of cut grass and young greens with a soft sweetness and, in steamed lots, a light seaweed note. It is an easy tea to drink and an easy one to brew, provided the water is cooled; it also makes one of the better Korean cold brews. The main way to spoil it is to use boiling water and a long steep.\n\nBoseong tea is graded like all Korean green tea, and the big local brands sell every grade with the year printed on the pack. The fields are also a tourist attraction, so the county sells a great deal of green tea ice cream, green tea noodles and bagged tea; for the loose leaf, buy from a named producer and check the grade rather than the picture of the hills.\n\nIf you want to taste the difference between the regions, compare a Boseong sejak with a Hadong sejak from the same year: same grade, same country, two different ideas of green tea.",
   "wikipedia_title": "Boseong County",
   "wikipedia_scope": "umbrella",
   "popularity": 3,
-  "sources_note": "Boseong green tea as Korea's first registered geographical indication (2002) is from memory. 'Largest tea-growing county' is widely stated; the exact share of national output varies by source."
+  "sources_note": "Boseong green tea as Korea's first registered geographical indication (2002) is from memory. 'Largest tea-growing county' is widely stated; the exact share of national output varies by source.",
+  "name_zh": "宝城绿茶",
+  "name_ru": "Посон, зелёный чай",
+  "history": "Boseong is a county on the south coast of Jeollanam-do, long known for green tea and today the Korean tea landscape most people picture, thanks to the rows of bushes at the Daehan Dawon plantation. Its look owes much to Japanese-style planting, with Yabukita the main cultivar by one importer's account.\n\nThe county marks the new tea each May with the Boseong Green Tea Festival, timed to the haetcha, the first tea of the year, with picking, tea making and tea ceremony for visitors. Local promotion also likes to mention that the tea passed a Russian laboratory's inspection for use in astronauts' diets.",
+  "liquor_hex": "#D3D68A",
+  "leaf_hex": "#3F5A2C",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Boseong_County",
+    "https://en.wikipedia.org/wiki/Food_festivals_in_South_Korea",
+    "https://spirittea.co/blogs/news/singular-craft-korean-tea"
+  ],
+  "confidence": "medium",
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/60/Boseong_tea_field.jpg/1280px-Boseong_tea_field.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/60/Boseong_tea_field.jpg/330px-Boseong_tea_field.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Boseong_tea_field.jpg",
+      "author": "revi",
+      "license": "CC BY 2.0 kr",
+      "license_url": "https://creativecommons.org/licenses/by/2.0/kr/deed.en",
+      "kind": "plantation",
+      "alt": "Curved terraced rows of green tea bushes on a hillside in Boseong, South Korea"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cf/%EB%8C%80%ED%95%9C%EB%8B%A4%EC%9B%90_%EC%B0%A8%EB%B0%AD.JPG/1280px-%EB%8C%80%ED%95%9C%EB%8B%A4%EC%9B%90_%EC%B0%A8%EB%B0%AD.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cf/%EB%8C%80%ED%95%9C%EB%8B%A4%EC%9B%90_%EC%B0%A8%EB%B0%AD.JPG/330px-%EB%8C%80%ED%95%9C%EB%8B%A4%EC%9B%90_%EC%B0%A8%EB%B0%AD.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source_page": "https://commons.wikimedia.org/wiki/File:%EB%8C%80%ED%95%9C%EB%8B%A4%EC%9B%90_%EC%B0%A8%EB%B0%AD.JPG",
+      "author": "Jocelyndurrey",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "kind": "plantation",
+      "alt": "Terraced tea rows on a sunny hillside at the Daehan Dawon estate in Boseong"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1f/%EB%8C%80%ED%95%9C%EB%8B%A4%EC%9B%90_%EC%B0%A8%EB%B0%AD_%288%29.JPG/1280px-%EB%8C%80%ED%95%9C%EB%8B%A4%EC%9B%90_%EC%B0%A8%EB%B0%AD_%288%29.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1f/%EB%8C%80%ED%95%9C%EB%8B%A4%EC%9B%90_%EC%B0%A8%EB%B0%AD_%288%29.JPG/330px-%EB%8C%80%ED%95%9C%EB%8B%A4%EC%9B%90_%EC%B0%A8%EB%B0%AD_%288%29.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source_page": "https://commons.wikimedia.org/wiki/File:%EB%8C%80%ED%95%9C%EB%8B%A4%EC%9B%90_%EC%B0%A8%EB%B0%AD_(8).JPG",
+      "author": "Jocelyndurrey",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "kind": "plantation",
+      "alt": "Clipped tea hedges and terraced slopes under a blue sky at Daehan Dawon, Boseong"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e3/%EB%8C%80%ED%95%9C%EB%8B%A4%EC%9B%90_%EC%B0%A8%EB%B0%AD_%285%29.jpg/1280px-%EB%8C%80%ED%95%9C%EB%8B%A4%EC%9B%90_%EC%B0%A8%EB%B0%AD_%285%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e3/%EB%8C%80%ED%95%9C%EB%8B%A4%EC%9B%90_%EC%B0%A8%EB%B0%AD_%285%29.jpg/330px-%EB%8C%80%ED%95%9C%EB%8B%A4%EC%9B%90_%EC%B0%A8%EB%B0%AD_%285%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source_page": "https://commons.wikimedia.org/wiki/File:%EB%8C%80%ED%95%9C%EB%8B%A4%EC%9B%90_%EC%B0%A8%EB%B0%AD_(5).jpg",
+      "author": "Jocelyndurrey",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "kind": "plantation",
+      "alt": "Tea fields below a cedar forest beside a wooden walkway at Daehan Dawon, Boseong"
+    }
+  ]
 }

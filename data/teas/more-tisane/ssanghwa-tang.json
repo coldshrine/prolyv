@@ -1,0 +1,60 @@
+{
+  "slug": "ssanghwa-tang",
+  "name_en": "Ssanghwa-cha (Ssanghwa-tang)",
+  "name_native": "쌍화차",
+  "name_romanized": "Ssanghwa-cha",
+  "name_zh": "双和汤",
+  "name_ru": "Ссанхва-ча",
+  "aliases": [
+    "Ssanghwa-tang",
+    "双和茶",
+    "雙和湯",
+    "雙和茶",
+    "쌍화탕",
+    "Ссанхва-тан"
+  ],
+  "category": "tisane",
+  "origin_country": "South Korea",
+  "origin_region": "Korea",
+  "cultivar": null,
+  "processing": "A long decoction of medicinal herbs, among them white peony root, processed rehmannia, milkvetch, Korean angelica, lovage, cinnamon bark and liquorice. Many people now buy it ready-made.",
+  "form": "other",
+  "harvest_season": "A herbal formula with no harvest of its own, drunk all year.",
+  "appearance_dry": "A mix of sliced roots and bark when loose; most often a ready-made liquid in a small bottle or sachet.",
+  "appearance_liquor": "Deep brown and dense.",
+  "appearance_wet": "Soft dark root and bark pieces, strained out before serving.",
+  "taste_profile": "Slightly bitter and medicinal, with warmth from the cinnamon and sweetness from the liquorice.",
+  "taste_tags": [
+    "medicinal",
+    "bitter",
+    "spicy",
+    "sweet"
+  ],
+  "brewing": {
+    "grams": 30,
+    "water_ml": 600,
+    "temp_c": 100,
+    "steeps": 1,
+    "seconds": [
+      3600
+    ],
+    "notes": "A home starting point for the loose herbs: simmer down slowly, then strain. Ready-made bottles only need warming. People with hypertension, heart failure, kidney disorders or oedema should ask a doctor first."
+  },
+  "caffeine_level": "none",
+  "vintage_note": "No vintages. It is a formula rather than a crop, sold as ready-made drinks with a use-by date or as herb mixes, and it is drunk all year. In Korea it is unusual for being sold in pharmacies as well as served in traditional tea rooms.",
+  "description": "Ssanghwa-cha, also called ssanghwa-tang, is a dark Korean medicinal tea, boiled down from a set of roots and barks. Along with sipjeondaebotang it is among the most popular medical teas in the country, and it has nothing to do with the tea plant.\n\nThe recipe draws on white peony root, processed rehmannia, milkvetch, Korean angelica, lovage, cinnamon bark and liquorice, with ginger and jujube in some versions. Peony is the largest share in the classic proportions, and boiling it down gives the deep brown colour.\n\nThe flavour is slightly bitter, and more like a warming tonic than a casual cup. Sipping it slowly works better than treating it as a thirst-quencher.\n\nMost people buy it pre-made, often from a pharmacy. Read the label for the actual herbs, since recipes differ. Anyone with blood pressure, heart or kidney trouble should check with a professional first.\n\nFor something gentler from the same tradition, try ginseng or jujube tea.",
+  "history": "The formula is traced to the Song-dynasty Chinese compendium Taiping Huimin Heji Jufang, compiled by Chen Shiwen and others under imperial order. In Korean herbal medicine it became a standard prescription for fatigue and for weakness after illness.\n\nIts move into everyday life came with the 20th century dabang, the Korean tea and coffee houses, where ssanghwa-cha was served alongside coffee and black tea.",
+  "liquor_hex": "#4A2612",
+  "leaf_hex": "#4E3020",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Ssanghwa-tang",
+    "https://ko.wikipedia.org/wiki/%EC%8C%8D%ED%99%94%ED%83%95",
+    "https://ko.wikipedia.org/wiki/%EC%A0%84%ED%86%B5%EC%B0%A8",
+    "https://www.wikidata.org/wiki/Q12605048"
+  ],
+  "confidence": "medium",
+  "wikipedia_title": "Ssanghwa-tang",
+  "wikipedia_scope": "exact",
+  "popularity": 3,
+  "images": []
+}

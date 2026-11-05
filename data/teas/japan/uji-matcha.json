@@ -3,10 +3,19 @@
   "name_en": "Uji Matcha",
   "name_native": "宇治抹茶",
   "name_romanized": "Uji matcha",
-  "aliases": ["Uji tea", "Ujicha", "Uji sencha", "Uji gyokuro", "Kyoto matcha", "Uji-cha"],
+  "aliases": [
+    "Uji tea",
+    "Ujicha",
+    "Uji sencha",
+    "Uji gyokuro",
+    "Kyoto matcha",
+    "Uji-cha",
+    "宇治茶",
+    "Удзи матча"
+  ],
   "category": "green",
   "origin_country": "Japan",
-  "origin_region": "Kyoto · Uji and the Yamashiro region (Ujitawara, Wazuka, Minamiyamashiro)",
+  "origin_region": "Kyoto · Uji",
   "cultivar": "Samidori, Asahi, Uji-hikari, Gokou, Okumidori",
   "processing": "Spring leaf shaded for 20–30 days, traditionally under reed screens with straw laid over them (honzu), made into tencha and stone-milled; the Uji trade definition covers leaf grown in Kyoto and the neighbouring prefectures as long as it is processed and finished in Kyoto by Kyoto firms.",
   "form": "powder",
@@ -15,13 +24,39 @@
   "appearance_liquor": "Opaque jade with a fine, even foam as usucha; dense and glossy as koicha.",
   "appearance_wet": "Not applicable: the powder is drunk.",
   "taste_profile": "Deep, rounded umami and sweetness with a soft, almost milky texture and a long finish, generally more mellow and less sharply green than matcha from the newer producing regions.",
-  "taste_tags": ["umami", "sweet", "creamy", "marine"],
-  "brewing": {"grams": 2, "water_ml": 70, "temp_c": 75, "steeps": 1, "seconds": [20], "notes": "Sift, make a paste, then whisk briskly for 15–20 seconds for usucha; the top Uji grades are the ones to knead into koicha (about 4 g to 40 ml). Uji sencha and gyokuro are brewed like their general cards: cool water, kyusu, short steeps."},
+  "taste_tags": [
+    "umami",
+    "sweet",
+    "creamy",
+    "marine"
+  ],
+  "brewing": {
+    "grams": 2,
+    "water_ml": 70,
+    "temp_c": 75,
+    "steeps": 1,
+    "seconds": [
+      20
+    ],
+    "notes": "Sift, make a paste, then whisk briskly for 15–20 seconds for usucha; the top Uji grades are the ones to knead into koicha (about 4 g to 40 ml). Uji sencha and gyokuro are brewed like their general cards: cool water, kyusu, short steeps."
+  },
   "caffeine_level": "high",
   "vintage_note": "Sold by house grade rather than year: the spring tencha is kept cold and milled through the year, so look for a milling or packing date and drink within weeks of opening. The old Kyoto calendar still shows: new matcha is traditionally first opened in November (kuchikiri) after a summer rest, and Uji sencha and gyokuro follow the usual pattern of ichibancha in spring and gyokuro released in autumn. Much of what is sold as 'Uji matcha' in sweets and lattes is a lower culinary grade finished in Kyoto, not the drinking grade.",
-  "description": "Uji, just south of Kyoto, is the historical centre of Japanese tea, the place where shading and tencha were worked out centuries ago and where the steamed sencha method is credited to Nagatani Sōen of Ujitawara in the 1730s. Uji matcha is the reference matcha: mellow, deep and rounded rather than sharply green, and still the benchmark against which the newer producing regions are measured.\n\nThe traditional method survives in the top grades: old bushes of Uji-selected cultivars such as Samidori, Asahi, Uji-hikari and Gokou are shaded for three to four weeks under reed screens with straw laid on top (honzu), hand-picked in May, made into tencha and stone-milled. One thing to understand is the trade definition: 'Uji tea' means tea grown in Kyoto, Nara, Shiga or Mie and processed and finished in Kyoto by Kyoto firms, so most 'Uji matcha' is grown in the Yamashiro hills (Wazuka, Minamiyamashiro, Ujitawara) and beyond, not in the small town of Uji itself. The same houses sell outstanding sencha and gyokuro from those hills under the Uji name.\n\nAs usucha, 2 g sifted into a bowl with 70 ml of water at 70–80 °C and whisked briskly for 15–20 seconds, a good Uji grade is thick and creamy with a long umami, a natural sweetness and a soft, almost milky texture; the top grades are the ones to knead into koicha, where that mellowness is the whole point. For the leaf teas, brew Uji sencha at 70–75 °C with a one-minute first steep and Uji gyokuro at around 50 °C with lots of leaf and little water. The usual mistakes apply: boiling water, no sieve, too much powder, and judging the style by a culinary tin.\n\nThe old Uji houses sell matcha by house grade names rather than by year, in 20–40 g tins, and the thing to look for is a milling or packing date, because the spring tencha is milled through the year and matcha fades fast once opened. Prices climb steeply through the koicha grades. Be aware that 'Uji matcha' on sweets, lattes and ice cream is almost always a culinary grade that was merely finished in Kyoto. The leaf teas follow the usual calendar: Uji shincha in May, gyokuro released after a summer rest.\n\nFor contrast, whisk a Nishio or Kagoshima matcha of the same price next to it: brighter, greener and sharper, which tells you exactly what Uji's mellowness is.",
+  "description": "Uji, just south of Kyoto, is the historical centre of Japanese tea, the place where shading and tencha were worked out centuries ago and where the steamed sencha method is credited to Nagatani Sōen of Ujitawara in the 1730s. Uji matcha is the reference matcha: mellow, deep and rounded rather than sharply green, and still the benchmark against which the newer producing regions are measured.\n\nThe traditional method survives in the top grades: old bushes of Uji-selected cultivars such as Samidori, Asahi, Uji-hikari and Gokou are shaded for three to four weeks under reed screens with straw laid on top (honzu), hand-picked in May, made into tencha and stone-milled. One thing to understand is the trade definition: 'Uji tea' means tea grown in Kyoto, Nara, Shiga or Mie and processed and finished in Kyoto by Kyoto firms, so most 'Uji matcha' is grown in the Yamashiro hills (Wazuka, Minamiyamashiro, Ujitawara) and beyond, not in the city of Uji itself. The same houses sell outstanding sencha and gyokuro from those hills under the Uji name.\n\nAs usucha, 2 g sifted into a bowl with 70 ml of water at 70–80 °C and whisked briskly for 15–20 seconds, a good Uji grade is thick and creamy with a long umami, a natural sweetness and a soft, almost milky texture; the top grades are the ones to knead into koicha, where that mellowness is the whole point. For the leaf teas, brew Uji sencha at 70–75 °C with a one-minute first steep and Uji gyokuro at around 50 °C with lots of leaf and little water. The usual mistakes apply: boiling water, no sieve, too much powder, and judging the style by a culinary tin.\n\nThe old Uji houses sell matcha by house grade names rather than by year, in 20–40 g tins, and the thing to look for is a milling or packing date, because the spring tencha is milled through the year and matcha fades fast once opened. Prices climb steeply through the koicha grades. Be aware that 'Uji matcha' on sweets, lattes and ice cream is usually a culinary grade that was merely finished in Kyoto. The leaf teas follow the usual calendar: Uji shincha in May, gyokuro released after a summer rest.\n\nFor contrast, whisk a Nishio or Kagoshima matcha of the same price next to it: brighter, greener and sharper, which tells you exactly what Uji's mellowness is.",
   "wikipedia_title": "Uji tea",
   "wikipedia_scope": "umbrella",
   "popularity": 5,
-  "sources_note": "Card covers the brief's 'Uji sencha / Uji matcha' as one region card centred on matcha, with sencha and gyokuro as aliases. English Wikipedia title assumed to be 'Uji tea'."
+  "sources_note": "Card covers the brief's 'Uji sencha / Uji matcha' as one region card centred on matcha, with sencha and gyokuro as aliases. English Wikipedia title assumed to be 'Uji tea'.",
+  "name_zh": "宇治抹茶",
+  "name_ru": "Удзи маття",
+  "history": "Tea reached Uji from Toganoo, the garden at Kōzan-ji near Kyoto. The priest Myōe, who received seeds that Eisai brought from Song China, is credited with planting there and then at Uji. A later legend has him riding into a field in 1207 and telling villagers to sow in the hoofprints. Regular cultivation seems to date from the mid-13th century, when gardens were opened after a visit by Emperor Go-Saga. The name 'Uji tea' first appears in a record of 1374.\n\nFor a long time Uji ranked behind Toganoo, whose tea alone counted as honcha, 'real tea'. Backing from Ashikaga Yoshimitsu and his circle raised it through the 15th century, and by the end of the 1500s it had taken first place. Three things helped: a dispute over the Toganoo fields, the growth of the tea ceremony under Murata Jukō, Takeno Jōō and Sen Rikyū, and the invention at Uji of ōishita, roofing the bushes with reeds or straw before picking. That shading, dated to the 15th or 16th century, is what made tencha and modern matcha possible.\n\nThe rulers followed. Oda Nobunaga watched the picking at Uji in 1574, Toyotomi Hideyoshi banned sellers from elsewhere from using the Uji name in 1584, and under the Tokugawa a procession of tea jars carried tribute from Uji to Edo. Today the name is a defined one: leaf from Kyoto, Nara, Shiga and Mie, with Kyoto's given priority, finished in Kyoto by Kyoto firms.",
+  "liquor_hex": "#6FAA55",
+  "leaf_hex": "#55A055",
+  "sources": [
+    "https://ja.wikipedia.org/wiki/%E5%AE%87%E6%B2%BB%E8%8C%B6",
+    "https://en.wikipedia.org/wiki/Uji_tea",
+    "https://zh.wikipedia.org/wiki/%E5%AE%87%E6%B2%BB%E8%8C%B6"
+  ],
+  "confidence": "high",
+  "images": []
 }

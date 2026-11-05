@@ -1,0 +1,54 @@
+{
+  "slug": "five-flower-tea",
+  "name_en": "Wu Hua Cha (Five Flower Tea)",
+  "name_native": "五花茶",
+  "name_romanized": "Wǔhuā Chá",
+  "name_zh": "五花茶",
+  "name_ru": "У Хуа Ча",
+  "aliases": [
+    "Five flower tea",
+    "Wu hua cha"
+  ],
+  "category": "tisane",
+  "origin_country": "China",
+  "origin_region": "Guangdong",
+  "cultivar": null,
+  "processing": "A blend of dried flowers, usually honeysuckle, chrysanthemum, pagoda tree flower, kapok flower and frangipani, simmered or steeped in hot water. No leaf processing is involved.",
+  "form": "other",
+  "harvest_season": "Not tied to one harvest: a blend of flowers picked in their own seasons. It is drunk above all in summer.",
+  "appearance_dry": "A loose mix of dried whole flowers in pale yellow, tan and brown.",
+  "appearance_liquor": "As is typical of flower-based liangcha, an amber-yellow to light brown, depending on the mix and the boil.",
+  "appearance_wet": "Soft, rehydrated flowers of mixed shapes, dull yellow to brown.",
+  "taste_profile": "Sweet in the traditional description, and among Cantonese herbal teas a gentle one, with a light floral and herbal character.",
+  "taste_tags": [
+    "sweet",
+    "floral",
+    "herbal"
+  ],
+  "brewing": {
+    "grams": 15,
+    "water_ml": 1000,
+    "temp_c": 100,
+    "steeps": 1,
+    "seconds": [
+      1200
+    ],
+    "notes": "A practical starting point, not a fixed recipe: simmer gently, strain, and drink warm or cooled. Sachets from herbal shops come with their own directions."
+  },
+  "caffeine_level": "none",
+  "vintage_note": "No vintages or harvest years: it is sold by the cup in liangcha shops, as pre-mixed herb packs and as sachets. Buy packs that list their flowers, because the mix varies, and use dried flowers while they still smell fresh.",
+  "description": "Five flower tea is one of the everyday Cantonese liangcha, the herbal drinks sold in southern Chinese herbal tea shops. There is no tea leaf in it, despite the name.\n\nThe usual five are honeysuckle, chrysanthemum, pagoda tree flower, kapok flower and frangipani, but no single recipe rules: coltsfoot, rose or magnolia bud may be swapped in to suit the drinker. The name counts flowers, and the flowers change.\n\nExpect something mild and sweet, not the hard bitterness of stronger herbal teas like 24 Flavors. As with other flower blends, a gentle simmer works better than a hard boil.\n\nBuy it as a mixed pack and read the label. Chinese medicine describes it as slightly cold and uses it for summer heat, so treat it as a traditional seasonal drink, not a treatment.",
+  "history": "Five flower tea has no fixed classical formula; it grew up as a folk drink in Guangdong. Later it also gained an official form: Chinese Ministry of Health drug standards record a standard five flower tea preparation, and Chinese regulators have approved a standard version.",
+  "liquor_hex": "#C9963F",
+  "leaf_hex": "#A98B55",
+  "sources": [
+    "https://zh.wikipedia.org/wiki/%E4%BA%94%E8%8A%B1%E8%8C%B6",
+    "https://zh.wikipedia.org/wiki/%E6%B6%BC%E8%8C%B6",
+    "https://www.wikidata.org/wiki/Q4503765"
+  ],
+  "confidence": "medium",
+  "wikipedia_title": null,
+  "wikipedia_scope": "none",
+  "popularity": 2,
+  "images": []
+}

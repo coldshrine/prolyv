@@ -1,0 +1,53 @@
+{
+  "slug": "maoting-cha",
+  "name_en": "Maoting Cha",
+  "name_native": "茅亭茶",
+  "name_romanized": "Máotíng Chá",
+  "aliases": [
+    "Maotingcha"
+  ],
+  "category": "green",
+  "origin_country": "China",
+  "origin_region": "Sichuan · Dujiangyan, Longchi",
+  "cultivar": null,
+  "form": "loose",
+  "caffeine_level": "medium",
+  "brewing": {
+    "grams": 3,
+    "water_ml": 150,
+    "temp_c": 80,
+    "steeps": 3,
+    "seconds": [
+      60,
+      75,
+      105
+    ],
+    "notes": "A safe starting point for green tea: cooler water, short steeps, then adjust by taste."
+  },
+  "taste_tags": [
+    "vegetal",
+    "sweet"
+  ],
+  "description": "A green tea from Longchi township in Dujiangyan, named after the Maoting pavilion site at the foot of the Min Mountains.\n\nTreat it as you would any green tea: cooler water, short steeps, and a seller who can say where and when it was picked.",
+  "wikipedia_title": null,
+  "wikipedia_scope": "none",
+  "popularity": 1,
+  "name_zh": "茅亭茶",
+  "name_ru": "Мао Тин Ча",
+  "history": "Local gazetteers place the pavilion in Maoting village; by legend a king of Shu built it as a summer retreat. Tea planted around a later pavilion was prized in the Qing and sent as tribute. Longchi had 1,905 mu of tea gardens in 1981, at roughly 800 to 1,600 metres on acidic yellow sandy soil.",
+  "liquor_hex": "#D2D07C",
+  "leaf_hex": "#7E8B3E",
+  "sources": [
+    "https://milulu.com.cn/techan/27485.html"
+  ],
+  "confidence": "medium",
+  "images": [],
+  "stub": true,
+  "processing": "Typical of green tea: picked, heated soon after picking to stop oxidation, then shaped and dried.",
+  "harvest_season": "Usually picked in spring, with the earliest pickings prized, as with most green teas.",
+  "appearance_dry": "Green leaf whose shape depends on the maker, as is usual for regional green teas.",
+  "appearance_liquor": "Blue-green with a slight green cast.",
+  "appearance_wet": "Long, broad buds and leaves stand upright in the bowl, with drumstick-shaped stems and fine down.",
+  "taste_profile": "Clean aroma that holds for four or five infusions.",
+  "vintage_note": "Green teas like this are normally sold as the current year's harvest and are best within a year of picking. It is not an ageing tea."
+}

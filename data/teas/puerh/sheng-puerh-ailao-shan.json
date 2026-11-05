@@ -3,7 +3,13 @@
   "name_en": "Ailao Shan Sheng Pu-erh",
   "name_native": "哀牢山生普洱",
   "name_romanized": "Āiláo Shān Shēng Pǔ'ěr",
-  "aliases": ["Ailao Mountain sheng", "Ai Lao Shan", "Ailaoshan", "Ailao wild tea", "哀牢山"],
+  "aliases": [
+    "Ailao Mountain sheng",
+    "Ai Lao Shan",
+    "Ailaoshan",
+    "Ailao wild tea",
+    "哀牢山"
+  ],
   "category": "sheng",
   "origin_country": "China",
   "origin_region": "Yunnan · Pu'er · Zhenyuan · Ailao Shan",
@@ -15,13 +21,46 @@
   "appearance_liquor": "Pale gold to light amber, clear.",
   "appearance_wet": "Soft, tender leaves of mixed sizes, yellow-green, with the longer thinner leaf of forest trees mixed in.",
   "taste_profile": "Cool, clean and lightly sweet, with mountain flowers, a honey-and-herb undertone, very low bitterness and a fresh, almost minty finish; thin rather than heavy, and distinctly 'wild' in character.",
-  "taste_tags": ["floral", "sweet", "herbal", "honey"],
-  "brewing": {"grams": 7, "water_ml": 110, "temp_c": 95, "steeps": 10, "seconds": [10, 8, 12, 15, 20, 30, 45, 60, 90, 150], "notes": "Rinse once. Light tea; use a full 7–8 g and normal steeps, porcelain rather than clay so the cool floral top notes survive."},
+  "taste_tags": [
+    "floral",
+    "sweet",
+    "herbal",
+    "honey"
+  ],
+  "brewing": {
+    "grams": 7,
+    "water_ml": 110,
+    "temp_c": 95,
+    "steeps": 10,
+    "seconds": [
+      10,
+      8,
+      12,
+      15,
+      20,
+      30,
+      45,
+      60,
+      90,
+      150
+    ],
+    "notes": "Rinse once. Light tea; use a full 7–8 g and normal steeps, porcelain rather than clay so the cool floral top notes survive."
+  },
   "caffeine_level": "high",
   "vintage_note": "Sold by spring harvest year and county (Zhenyuan with its Qianjiazhai forest, Jingdong's eastern slopes, Xinping, Shuangbai), as cakes and very often as loose maocha from small producers, with 'wild tree' (yesheng) as the usual headline. It is drunk young (1–5 years) and mellows into honey across 5–12 years; nobody is sitting on aged Ailao Shan cakes, so what exists is 2008–2025 tea in dry storage. The year tells you less than the garden: 'wild' Ailao tea picked from true forest trees is scarce and sold in small lots, while most 'Ailao Shan gushu' is from old village gardens.",
   "description": "The Ailao mountains run north-west to south-east along the line between Pu'er, Yuxi and Chuxiong prefectures, with a large national nature reserve on the crest, and they are one of the main sources of 'wild' pu-erh. Ailao Shan tea is the cool, high, lightly sweet style: more flowers and herbs than bitterness, and a fresh finish that drinkers from the Menghai side sometimes find thin and others find elegant.\n\nThe gardens and forest tea sit between about 1,800 and 2,500 m, with Zhenyuan's Qianjiazhai forest the most famous spot. Much of the tea is from seed-grown village trees of mixed age; the truly wild lots come from forest trees, some of which are not even the cultivated assamica type but related wild Camellia species, which is why they can taste faintly sour or herbal. Processing is standard sheng, but small producers here often press loosely or sell loose.\n\nIn the cup, Ailao Shan is clean and cool: mountain flowers, a honey-and-herb middle, almost no bitterness and a minty, lingering finish. The body is light, so it rewards gentle brewing in porcelain and a palate that is not hunting for weight. It is a lovely afternoon sheng and a poor choice if you want the heavy returning sweetness of a Bulang.\n\nSold by spring year, county and, when the vendor is careful, by garden. The word 'wild' is the thing to be sceptical about: real forest tea is picked in tiny quantities, is mostly loose, and is sold by people who can tell you which trees it came from. The ordinary old-garden tea sold as Ailao Shan is still honest and reasonably priced.\n\nIf you like this style, Wuliang Shan across the valley is the natural next cup, and Qianjiazhai is the Ailao name worth paying extra for.",
   "wikipedia_title": "Pu'er tea",
   "wikipedia_scope": "umbrella",
   "popularity": 2,
-  "sources_note": "The remark that some 'wild' Ailao lots include non-assamica Camellia species (taliensis-type trees) is widely reported by botanists and vendors but is not universally true of every lot."
+  "sources_note": "The remark that some 'wild' Ailao lots include non-assamica Camellia species (taliensis-type trees) is widely reported by botanists and vendors but is not universally true of every lot.",
+  "name_zh": "哀牢山生普洱",
+  "name_ru": "Шэн Пуэр с гор Ай Лао",
+  "history": "This is raw pu-erh named after the Ailao mountains of central Yunnan, and it is known above all for tea sold as wild or forest-grown. As a named style it belongs to the modern market for single-mountain tea.\n\nLittle is documented about the history of this tea as a distinct product, and claims about wild trees vary from lot to lot, so they are best judged one seller at a time.",
+  "liquor_hex": "#DDBB62",
+  "leaf_hex": "#4F4E32",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Pu%27er_tea"
+  ],
+  "confidence": "low",
+  "images": []
 }

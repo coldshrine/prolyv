@@ -1,0 +1,69 @@
+{
+  "slug": "ise-cha",
+  "name_en": "Ise-cha",
+  "name_native": "伊勢茶",
+  "name_zh": "伊势茶",
+  "name_ru": "Исэ-тя",
+  "name_romanized": "Ise-cha",
+  "aliases": [
+    "Ise Sencha",
+    "伊勢煎茶",
+    "Ise tea",
+    "Mie tea"
+  ],
+  "category": "green",
+  "origin_country": "Japan",
+  "origin_region": "Mie",
+  "cultivar": null,
+  "processing": "Mostly steamed sencha. The north, below the Suzuka hills, is known for shaded kabuse, and the south, in the Daiko range, for deep-steamed fukamushi.",
+  "form": "loose",
+  "harvest_season": "New tea starts in late April in the earliest places, with the spring first flush as the prized picking, as usual for Japanese greens.",
+  "appearance_dry": "As with other sencha, fine dark-green needles; deep-steamed lots look shorter and more broken.",
+  "appearance_liquor": "Clear yellow-green, deeper and cloudier in fukamushi.",
+  "appearance_wet": "Soft green leaf, more broken when deep-steamed.",
+  "taste_profile": "As is typical of the styles: kabuse leans sweet and savoury, while fukamushi is fuller and softer with less sharpness.",
+  "taste_tags": [
+    "vegetal",
+    "umami",
+    "sweet"
+  ],
+  "brewing": {
+    "grams": 5,
+    "water_ml": 150,
+    "temp_c": 70,
+    "steeps": 3,
+    "seconds": [
+      60,
+      15,
+      45
+    ],
+    "notes": "A standard sencha approach. Shorten the first steep for fukamushi, and go a little cooler and longer for kabuse to bring out the sweetness."
+  },
+  "caffeine_level": "medium",
+  "vintage_note": "Sold as new-crop tea of the current year, from late April on. Look for a district name such as Suizawa, Suzuka, Kameyama, Odai, Watarai or Iinan, since the prefectural name covers quite different teas. Ise black tea is sold separately, made from black-tea cultivars.",
+  "description": "Ise tea is the green tea of Mie Prefecture, mostly in the old Ise province. Mie ranks third in Japan by area and crude output, yet few drinkers know the name. Much of its leaf historically went into better-known Shizuoka and Uji products.\n\nThere are really two teas under the label. Northern hills around Yokkaichi's Suizawa, Suzuka and Kameyama lean to shaded kabuse, and the southern river valleys of Matsusaka, Watarai, Odai and Taki lean to deep-steamed sencha.\n\nThe usual sencha rules apply. Kabuse rewards cooler water and a little more time, which gives the sweetness room, and fukamushi wants a short first steep. Trying one of each is the quickest way to see the range.\n\nPrices for crude tea run lower than those of Shizuoka or Kagoshima, so good Ise tea can be a fair buy, though that says nothing about any given lot. Go by the district on the label. Cheaper grades also supply food manufacturers, a market where Mie has a strong share.",
+  "history": "A legend credits a monk, Gen'an, with planting tea in the Heian period and passing on a method from Kukai. Historians treat this as later invention, since cultivation only reached Japan around the start of the Kamakura shogunate.\n\nFirmer records come later: a 1594 land survey shows tea paid as tax in what is now Odai. Oshi pilgrim guides and Ise merchants spread the tea from the Muromachi to the Edo period. Takegawa Chikusai promoted growing and began exports at the end of the Edo period, and from 1884 Suzuka tea shipped to North America from Yokkaichi.\n\nField area peaked in 1892, having exceeded 4,000 hectares in early Meiji, more than Shizuoka at that time. After the war, slow rebuilding left it as a supplier to other brands. A push for safer, traceable tea and a stronger brand began in 2000.",
+  "liquor_hex": "#C8CE7C",
+  "leaf_hex": "#3E5A2F",
+  "sources": [
+    "https://ja.wikipedia.org/wiki/%E4%BC%8A%E5%8B%A2%E8%8C%B6",
+    "https://ja.wikipedia.org/wiki/%E6%97%A5%E6%9C%AC%E8%8C%B6",
+    "https://www.wikidata.org/wiki/Q11379123"
+  ],
+  "confidence": "medium",
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/59/Ise_Tea_in_Yunomi.jpg/1280px-Ise_Tea_in_Yunomi.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/59/Ise_Tea_in_Yunomi.jpg/330px-Ise_Tea_in_Yunomi.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Ise_Tea_in_Yunomi.jpg",
+      "author": "Miyuki Meinaka",
+      "license": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "kind": "liquor",
+      "alt": "Blue-and-white yunomi of clear yellow-green Ise tea on a wooden table"
+    }
+  ],
+  "wikipedia_title": null,
+  "wikipedia_scope": "none",
+  "popularity": 3
+}

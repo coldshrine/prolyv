@@ -1,0 +1,63 @@
+{
+  "slug": "java-tea",
+  "name_en": "Java Tea (Misai Kucing, Nekonohige-cha)",
+  "name_native": "ネコノヒゲ茶",
+  "name_romanized": "Nekonohige-cha",
+  "name_zh": "猫须草",
+  "name_ru": "Яванский чай (мисай кучинг, ортосифон)",
+  "aliases": [
+    "Java tea",
+    "Misai kucing",
+    "Kumis kucing",
+    "Kumis kucing tea",
+    "Cat's whiskers",
+    "Nekonohige-cha",
+    "Kumisukuchin-cha",
+    "肾茶",
+    "貓鬚草",
+    "Ортосифон"
+  ],
+  "category": "tisane",
+  "origin_country": "Malaysia",
+  "origin_region": "Southeast Asia",
+  "cultivar": "Orthosiphon aristatus",
+  "processing": "An infusion of the dried leaf of Orthosiphon aristatus, a plant of the mint family. As with most leaf herbal teas, it is simply dried, with no tea-style oxidation or rolling.",
+  "form": "loose",
+  "harvest_season": "No prized picking is recorded. The plant is a tropical perennial, and in Japan, where it does not survive cold, it is often grown as an annual.",
+  "appearance_dry": "Crumbled dull green leaf and fragments of square stem.",
+  "appearance_liquor": "Typically a clear pale yellow to light amber, as with other dried leaf herbal teas.",
+  "appearance_wet": "Soft olive-green pieces of narrow, coarsely toothed leaf.",
+  "taste_profile": "Few reliable tasting accounts exist; expect a mild, green herbal cup, typical of a dried mint-family leaf rather than a strongly aromatic one.",
+  "taste_tags": [
+    "herbal",
+    "vegetal"
+  ],
+  "brewing": {
+    "grams": 3,
+    "water_ml": 300,
+    "temp_c": 100,
+    "steeps": 1,
+    "seconds": [
+      420
+    ],
+    "notes": "Brewed Western-style like most dried leaf herbal teas: boiling water and several minutes under a lid."
+  },
+  "caffeine_level": "none",
+  "vintage_note": "Sold as a health tea without years or harvest grades, loose or in bags. As is usual for dried herbs, freshness of the packing is all that matters; pick the most recent stock and finish it within about a year.",
+  "description": "This is the leaf of Orthosiphon aristatus, the plant whose long, curving stamens gave it its names: misai kucing in Malaysia and kumis kucing in Indonesia both mean cat's whiskers, as does Nekonohige in Japanese. In China the same plant is called 肾茶, literally kidney tea, which tells you what people drink it for.\n\nThe plant grows across southern China, the Indian subcontinent, Southeast Asia and tropical Queensland. It is an upright herb with square stems and white or pale pink flowers, and gardeners grow it for the flowers as much as the leaf, since they draw bees and butterflies.\n\nThe drink itself is plain: dried leaf, hot water, a few minutes. Treat the flavor as you would other mild leaf tisanes, and do not expect the perfume of its mint-family relatives.\n\nIts reputation rests on traditional use for the kidneys and urine flow, along with a long list of other claimed effects. Those are reasons people buy it, not settled medicine, so anyone with a kidney condition should talk to a doctor rather than rely on a cup.",
+  "history": "The plant has long been part of herbal medicine in Southeast Asia, and in Indonesia it counts as a native medicinal plant with many local names, including remujung in Java and songot koceng in Madura.\n\nIn Japan it is sold as kumisukuchin tea, a name drawn from the Malay. It reached Okinawa around 1963, when Inamine Ichiro brought it from Indonesia, and cultivation spread from there.",
+  "liquor_hex": "#C9B26A",
+  "leaf_hex": "#66703F",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Orthosiphon_aristatus",
+    "https://ja.wikipedia.org/wiki/%E3%82%AF%E3%83%9F%E3%82%B9%E3%82%AF%E3%83%81%E3%83%B3",
+    "https://zh.wikipedia.org/wiki/%E8%B2%93%E9%AC%9A%E8%8D%89",
+    "https://id.wikipedia.org/wiki/Kumis_kucing",
+    "https://www.wikidata.org/wiki/Q2673246"
+  ],
+  "confidence": "medium",
+  "wikipedia_title": "Orthosiphon aristatus",
+  "wikipedia_scope": "umbrella",
+  "popularity": 2,
+  "images": []
+}

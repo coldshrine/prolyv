@@ -1,0 +1,55 @@
+{
+  "slug": "matcha-latte",
+  "name_en": "Matcha Latte",
+  "name_native": "抹茶ラテ",
+  "name_romanized": "Matcha Rate",
+  "name_zh": "抹茶拿铁",
+  "name_ru": "Маття латте",
+  "aliases": [
+    "Green tea latte",
+    "Матча латте"
+  ],
+  "category": "green",
+  "origin_country": "Japan",
+  "origin_region": "Japan",
+  "cultivar": null,
+  "processing": "A drink, not a tea: matcha or green tea powder is whisked with a little hot water into a concentrate, then topped with milk or a plant milk, often sweetened.",
+  "form": "powder",
+  "harvest_season": "Not relevant to the drink; culinary powders are usually from later, cheaper pickings, as is typical, while ceremonial-grade lattes use spring leaf.",
+  "appearance_dry": "Fine green powder, ranging from vivid in good matcha to dull olive in cheap blends.",
+  "appearance_liquor": "Opaque pale jade green, milky and smooth.",
+  "appearance_wet": "No leaf remains; the powder is suspended in the drink.",
+  "taste_profile": "Creamy and sweet with a soft green, lightly bitter tea edge; better matcha adds umami and a seaweed note.",
+  "taste_tags": [
+    "creamy",
+    "sweet",
+    "umami",
+    "bitter"
+  ],
+  "brewing": {
+    "grams": 2,
+    "water_ml": 30,
+    "temp_c": 80,
+    "steeps": 1,
+    "seconds": [
+      20
+    ],
+    "notes": "Sift the powder, whisk with the water until smooth, then add about 150 to 200 ml of steamed or cold milk. Oat milk tends to sit well with the tea; sweeten to taste."
+  },
+  "caffeine_level": "medium",
+  "vintage_note": "Has no vintage: what matters is the powder. Cafe and supermarket mixes are often pre-sweetened or coloured, and may be hunmatsucha (ground unshaded tea) rather than true matcha. Buy recent powder in a sealed tin, and use it within weeks of opening.",
+  "description": "A matcha latte is matcha with milk: a modern cafe drink built on an old powdered tea. It is served hot or iced and sits about as far from the tea ceremony as tea gets, which is exactly why it brought so many people to matcha.\n\nThe method is simple. Whisk powder with a splash of hot water into a smooth concentrate, then add milk or a plant milk, plus sugar, syrup, honey or vanilla if you like. Skipping the concentrate step is why home versions come out lumpy.\n\nMilk softens bitterness and flattens delicate aroma, so you do not need the top ceremonial grades. You do need something fresh and properly green: dull, cheap powder tastes like hay under the milk, and water that is too hot makes it harsher.\n\nWatch the labels. A lot of what is sold for lattes is sweetened mix or plain ground green tea rather than shaded matcha, and some foods get their colour from additives. Check that the ingredients list only tea.",
+  "history": "The drink is a Western cafe adaptation of matcha that appeared in the late twentieth and early twenty-first centuries. Starbucks launched its version in 2006, and Dunkin' followed in 2020, bringing it to a much younger audience.\n\nIn the 2020s it became an international fashion, carried by social media and wellness culture, while rising global demand for matcha led China to promote mass production in Guizhou, under way since 2018.",
+  "liquor_hex": "#BCCF8A",
+  "leaf_hex": "#7FA32F",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Matcha_latte",
+    "https://en.wikipedia.org/wiki/Matcha",
+    "https://www.wikidata.org/wiki/Q124434035"
+  ],
+  "confidence": "high",
+  "wikipedia_title": "Matcha latte",
+  "wikipedia_scope": "exact",
+  "popularity": 3,
+  "images": []
+}

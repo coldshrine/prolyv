@@ -3,7 +3,12 @@
   "name_en": "Darjeeling Monsoon Flush",
   "name_native": "दार्जिलिङ चिया",
   "name_romanized": "Dārjiliṅ chiyā",
-  "aliases": ["Rains tea", "Darjeeling rain flush", "Monsoon Darjeeling", "Darjeeling rains flush"],
+  "aliases": [
+    "Rains tea",
+    "Darjeeling rain flush",
+    "Monsoon Darjeeling",
+    "Darjeeling rains flush"
+  ],
   "category": "black",
   "origin_country": "India",
   "origin_region": "West Bengal · Darjeeling",
@@ -15,12 +20,37 @@
   "appearance_liquor": "Dark amber to reddish-brown.",
   "appearance_wet": "Brown, even, fairly large leaf.",
   "taste_profile": "Plain, full and somewhat flat: woody, lightly malty, with a bit of tannin and little of the florals or fruit of spring and summer.",
-  "taste_tags": ["woody", "malty", "brisk"],
-  "brewing": {"grams": 3, "water_ml": 200, "temp_c": 95, "steeps": 2, "seconds": [240, 300], "notes": "Hotter and longer than the spring teas; takes milk, and in the hills this is the flush that goes into chai."},
+  "taste_tags": [
+    "woody",
+    "malty",
+    "brisk"
+  ],
+  "brewing": {
+    "grams": 3,
+    "water_ml": 200,
+    "temp_c": 95,
+    "steeps": 2,
+    "seconds": [
+      240,
+      300
+    ],
+    "notes": "Hotter and longer than the spring teas; takes milk, and in the hills this is the flush that goes into chai."
+  },
   "caffeine_level": "medium",
   "vintage_note": "Rarely sold under its own name abroad: monsoon lots mostly go to Indian blenders, tea-bag packers and the gardens' cheap lines, or appear as the unspecified 'Darjeeling' in supermarket blends. When a shop does list it by flush and year it is the cheapest Darjeeling of the season, and it does not improve with keeping, so use it within the year.",
-  "description": "Monsoon flush, or 'rains tea', is the Darjeeling picked from July to September while the monsoon is pouring over the hills. The bushes grow fastest then, the leaf is big and watery, and the resulting tea is the plainest of the year. It is the flush the trade rarely talks about and yet produces in the largest volume.\n\nHumidity makes a proper wither almost impossible, so the leaf is processed quickly and oxidised fully, giving a dark, fairly coarse tea with few tips and a dark amber cup.\n\nThe taste is full but flat: woody, lightly malty, a bit of tannin, and little of the florals or fruit of spring and summer. Brew it hotter and longer than the spring tea and add milk if you like; it is honest, everyday tea rather than a tea to sit and contemplate.\n\nMonsoon lots mostly go to Indian blenders, tea-bag packers and the gardens' own budget lines, or appear as the unspecified 'Darjeeling' in supermarket blends. If a shop lists it by name it will be the cheapest flush of the year; buy it for chai or iced tea rather than for sipping, and do not expect it to improve with age.\n\nIts one real use for a curious drinker is comparison: taste it next to a first flush from the same garden and you will understand why season matters so much in these hills.",
+  "description": "Monsoon flush, or 'rains tea', is the Darjeeling picked from July to September while the monsoon is pouring over the hills. The bushes grow fastest then, the leaf is big and watery, and the resulting tea is the plainest of the year. It is the flush the trade rarely talks about.\n\nHumidity makes a proper wither almost impossible, so the leaf is processed quickly and oxidised fully, giving a dark, fairly coarse tea with few tips and a dark amber cup.\n\nThe taste is full but flat: woody, lightly malty, a bit of tannin, and little of the florals or fruit of spring and summer. Brew it hotter and longer than the spring tea and add milk if you like; it is honest, everyday tea rather than a tea to sit and contemplate.\n\nMonsoon lots mostly go to Indian blenders, tea-bag packers and the gardens' own budget lines, or appear as the unspecified 'Darjeeling' in supermarket blends. If a shop lists it by name it will be the cheapest flush of the year; buy it for chai or iced tea rather than for sipping, and do not expect it to improve with age.\n\nIts one real use for a curious drinker is comparison: taste it next to a first flush from the same garden and you will understand why season matters so much in these hills.",
   "wikipedia_title": "Darjeeling tea",
   "wikipedia_scope": "umbrella",
-  "popularity": 2
+  "popularity": 2,
+  "name_zh": "大吉岭雨季茶",
+  "name_ru": "Дарджилинг муссонного сбора",
+  "history": "The rains tea is picked from about July to September, when leaf grows quickly but with less flavour, and it is used mostly in blends. It gets little attention in print.\n\nHow much of the crop it makes is not clear. An industry report gives the first and second flush together about 45 percent of annual production, which leaves the rest to the rains and autumn together, and says monsoon teas generally sell near or below the cost of production. No clean recent figure for the flush itself seems to be available.",
+  "liquor_hex": "#94481C",
+  "leaf_hex": "#3D2A1B",
+  "sources": [
+    "https://www.millenniumpost.in/kolkata/kolkata-248584",
+    "https://happyearthtea.com/blogs/tea-101/darjeeling-tea-flushes"
+  ],
+  "confidence": "low",
+  "images": []
 }

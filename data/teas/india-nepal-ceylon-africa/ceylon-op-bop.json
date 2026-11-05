@@ -3,24 +3,94 @@
   "name_en": "Ceylon OP / BOP (Leaf and Broken Grades)",
   "name_native": null,
   "name_romanized": null,
-  "aliases": ["Ceylon Orange Pekoe", "Ceylon BOP", "Ceylon OP1", "Ceylon FBOP", "Ceylon Pekoe", "Ceylon BOPF", "Ceylon black tea"],
+  "aliases": [
+    "Ceylon Orange Pekoe",
+    "Ceylon BOP",
+    "Ceylon OP1",
+    "Ceylon FBOP",
+    "Ceylon Pekoe",
+    "Ceylon BOPF",
+    "Ceylon black tea"
+  ],
   "category": "black",
   "origin_country": "Sri Lanka",
-  "origin_region": "Sri Lanka · all districts (grades, not places)",
+  "origin_region": "Sri Lanka",
   "cultivar": "Assam-type seedling bushes and TRI clones",
-  "processing": "Orthodox black tea sorted by sieve and winnowing into leaf grades (OP1, OP, Pekoe, FBOP, FBOPF Extra Special) and broken grades (BOP, BOP1, BOPF, Fannings, Dust); the grade describes leaf size and shape, never quality.",
+  "processing": "Orthodox black tea sorted by sieve and winnowing into leaf grades (OP1, OP, Pekoe) and broken grades (FBOP, BOP, BOP1), with fannings such as BOPF and FBOPF and dust below them in size; the grade describes leaf size and shape, never quality.",
   "form": "loose",
   "harvest_season": "Year-round; each district has its own quality season.",
   "appearance_dry": "From long, wiry black OP1 strands to fine, even BOPF particles.",
   "appearance_liquor": "Copper to deep red-brown; the smaller the grade, the darker and faster it brews.",
   "appearance_wet": "Whole twisted leaf (OP) or small, even coppery fragments (BOP).",
   "taste_profile": "Brisk, bright and clean with citrus and light malt; OP grades are lighter and smoother, BOP grades stronger and more astringent.",
-  "taste_tags": ["brisk", "citrus", "malty"],
-  "brewing": {"grams": 3, "water_ml": 200, "temp_c": 95, "steeps": 2, "seconds": [180, 240], "notes": "BOP: about three minutes; OP: four to five. Leaf grades re-steep once. Brewing a BOP as long as an OP gives a harsh cup."},
+  "taste_tags": [
+    "brisk",
+    "citrus",
+    "malty"
+  ],
+  "brewing": {
+    "grams": 3,
+    "water_ml": 200,
+    "temp_c": 95,
+    "steeps": 2,
+    "seconds": [
+      180,
+      240
+    ],
+    "notes": "BOP: about three minutes; OP: four to five. Leaf grades re-steep once. Brewing a BOP as long as an OP gives a harsh cup."
+  },
   "caffeine_level": "high",
   "vintage_note": "Grades are the language of the weekly Colombo auction: every invoice is sold as a factory name plus grade, and retailers often label tea simply 'Ceylon OP' (usually a blend of low-grown leaf) or 'Ceylon BOP' (usually high- and mid-grown) without a district. Look for the Sri Lanka Tea Board's Lion logo (pure Ceylon tea packed in Sri Lanka), the district if given, and a pack date; use within a year.",
-  "description": "'Ceylon OP' and 'Ceylon BOP' are the two labels you will see most often on Sri Lankan tea, and they describe the size and shape of the leaf, not where it grew or how good it is. OP, 'Orange Pekoe', is a whole-leaf grade of long, wiry leaf; BOP, 'Broken Orange Pekoe', is the same kind of tea cut into smaller pieces that brew faster and stronger. The word 'orange' has nothing to do with the fruit or the flavour; it is a trade term of uncertain origin that has stuck for well over a century.\n\nSri Lanka's orthodox factories sort every batch by sieve and winnowing into a ladder of grades: leaf grades such as OP1, OP, Pekoe, FBOP and FBOPF Extra Special at the top, broken grades such as BOP, BOP1 and BOPF below, and fannings and dust at the bottom for tea bags. High-grown districts tend to make broken grades, low-grown districts leaf grades, and the Colombo auction sells every invoice as factory name plus grade.\n\nOP grades brew a lighter, smoother, more aromatic cup and need four to five minutes; BOP grades brew darker, brisker and more astringent in about three. Both are clean, bright, citrusy and lightly malty when the tea is good, and both take milk. The common mistake is brewing a BOP as long as an OP and getting a harsh cup.\n\nWhen buying, look for the Sri Lanka Tea Board's Lion logo (pure Ceylon tea packed in Sri Lanka), a district if the packer names one, and a pack date; tea labelled just 'Ceylon OP' is usually a blend of low-grown leaf, and 'Ceylon BOP' a blend of high- and mid-grown. Use it within a year.\n\nOnce you know the grades, the same codes will make sense on Indian, African and Indonesian teas too.",
+  "description": "'Ceylon OP' and 'Ceylon BOP' are the two labels you will see most often on Sri Lankan tea, and they describe the size and shape of the leaf, not where it grew or how good it is. OP, 'Orange Pekoe', is a whole-leaf grade of long, wiry leaf; BOP, 'Broken Orange Pekoe', is the same kind of tea cut into smaller pieces that brew faster and stronger. The word 'orange' has nothing to do with the fruit or the flavour; it is a trade term of uncertain origin that has stuck for well over a century.\n\nSri Lanka's orthodox factories sort every batch by sieve and winnowing into a ladder of sizes: leaf grades such as OP1, OP and Pekoe, broken grades such as FBOP, BOP and BOP1, and fannings (BOPF, FBOPF) and dust, the smallest of which go into tea bags. High-grown districts tend to make broken grades, low-grown districts leaf grades, and the Colombo auction sells every invoice as factory name plus grade.\n\nOP grades brew a lighter, smoother, more aromatic cup and need four to five minutes; BOP grades brew darker, brisker and more astringent in about three. Both are clean, bright, citrusy and lightly malty when the tea is good, and both take milk. The common mistake is brewing a BOP as long as an OP and getting a harsh cup.\n\nWhen buying, look for the Sri Lanka Tea Board's Lion logo (pure Ceylon tea packed in Sri Lanka), a district if the packer names one, and a pack date; tea labelled just 'Ceylon OP' is usually a blend of low-grown leaf, and 'Ceylon BOP' a blend of high- and mid-grown. Use it within a year.\n\nOnce you know the grades, the same codes will make sense on Indian, African and Indonesian teas too.",
   "wikipedia_title": "Tea leaf grading",
   "wikipedia_scope": "umbrella",
-  "popularity": 4
+  "popularity": 4,
+  "name_zh": "锡兰红茶OP与BOP等级",
+  "name_ru": "Цейлон OP / BOP",
+  "history": "These are grades, not a place or a single tea, so there is no origin story in the usual sense. OP and BOP are part of the leaf-size language that the orthodox tea trade uses across Sri Lanka, India and beyond, and in Sri Lanka they became the everyday words of the auction and the label.\n\nThe 'orange' in the name has nothing to do with the fruit or its flavour. How the exact ladder of Ceylon grades settled into its present form is poorly documented.\n\nThe point that matters is that a grade describes size and appearance, not quality. Fannings came from the small pieces left over when making larger leaf, and they gained a market in the last century as tea drinking spread.",
+  "liquor_hex": "#B0561F",
+  "leaf_hex": "#2E2119",
+  "sources": [
+    "https://www.halpetea.com/blog/articles/grading-of-ceylon-tea",
+    "https://srilanka.com/ceylon-tea-grades"
+  ],
+  "confidence": "medium",
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a9/Glass_of_Iced_Tea.jpg/1280px-Glass_of_Iced_Tea.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a9/Glass_of_Iced_Tea.jpg/330px-Glass_of_Iced_Tea.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Glass_of_Iced_Tea.jpg",
+      "author": "No machine-readable author provided. Zantastik~commonswiki assumed (based on copyright claims).",
+      "license": "CC BY-SA 3.0",
+      "license_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+      "kind": "liquor",
+      "alt": "Tall glass of iced Ceylon Orange Pekoe tea with a clear copper-red colour and ice cubes"
+    }
+  ],
+  "i18n": {
+    "ru": {
+      "processing": "Ортодоксальный чёрный чай, который с помощью сит и веяния разделяют на листовые сорта (OP1, OP, Pekoe) и ломаные (FBOP, BOP, BOP1), а ниже по размеру идут высевки, такие как BOPF и FBOPF, и пыль; сорт описывает размер и форму листа, но никогда не качество.",
+      "harvest_season": "Круглый год; у каждого района свой сезон лучшего качества.",
+      "appearance_dry": "От длинных проволочных чёрных нитей OP1 до мелких ровных частиц BOPF.",
+      "appearance_liquor": "От медного до густого красно-коричневого; чем мельче сорт, тем темнее настой и тем быстрее он заваривается.",
+      "appearance_wet": "Целый скрученный лист (OP) или мелкие ровные медные кусочки (BOP).",
+      "taste_profile": "Бодрый, яркий и чистый, с цитрусом и лёгкой солодовостью; сорта OP легче и мягче, сорта BOP крепче и терпче.",
+      "vintage_note": "Сорта — это язык еженедельного аукциона в Коломбо: каждая партия продаётся как название фабрики плюс сорт, а розничные продавцы часто пишут просто «Ceylon OP» (обычно купаж листа низких высот) или «Ceylon BOP» (обычно высоких и средних высот) без указания района. Ищите логотип со львом Совета по чаю Шри-Ланки (чистый цейлонский чай, расфасованный на Шри-Ланке), район, если он указан, и дату фасовки; выпить стоит в течение года.",
+      "history": "Это сорта, а не место и не отдельный чай, так что истории происхождения в обычном смысле у них нет. OP и BOP — часть языка размеров листа, которым ортодоксальная чайная торговля пользуется на Шри-Ланке, в Индии и за их пределами, а на Шри-Ланке эти слова стали повседневными на аукционе и на этикетке.\n\nСлово «оранж» в названии не имеет отношения ни к фрукту, ни к его вкусу. Как именно сложилась нынешняя лестница цейлонских сортов, задокументировано плохо.\n\nГлавное здесь то, что сорт описывает размер и внешний вид, а не качество. Высевки появились из мелких кусочков, остававшихся при производстве более крупного листа, и нашли свой рынок в прошлом веке, когда чаепитие распространилось шире.",
+      "description": "«Ceylon OP» и «Ceylon BOP» — две этикетки, которые чаще всего встречаются на шри-ланкийском чае, и говорят они о размере и форме листа, а не о том, где он вырос и насколько он хорош. OP, Orange Pekoe, — целолистовой сорт из длинного проволочного листа; BOP, Broken Orange Pekoe, — такой же чай, но нарезанный на кусочки помельче, которые завариваются быстрее и крепче. Слово orange не имеет отношения ни к фрукту, ни к вкусу: это торговый термин неясного происхождения, который держится уже больше века.\n\nОртодоксальные фабрики Шри-Ланки сортируют каждую партию ситами и веянием по лестнице размеров: листовые сорта вроде OP1, OP и Pekoe, ломаные вроде FBOP, BOP и BOP1, а также высевки (BOPF, FBOPF) и пыль, самые мелкие из которых идут в чайные пакетики. Районы высокогорья обычно делают ломаные сорта, районы низких высот — листовые, а аукцион в Коломбо продаёт каждую партию как название фабрики плюс сорт.\n\nСорта OP дают более лёгкую, мягкую и ароматную чашку, им нужно четыре-пять минут; сорта BOP завариваются темнее, бодрее и терпче примерно за три. Хороший чай в обоих случаях чистый, яркий, цитрусовый, с лёгкой солодовостью, и оба хорошо идут с молоком. Частая ошибка — заваривать BOP так же долго, как OP, и получать резкую чашку.\n\nПри покупке ищите логотип со львом Совета по чаю Шри-Ланки (чистый цейлонский чай, расфасованный на Шри-Ланке), район, если фасовщик его называет, и дату фасовки; чай с надписью просто «Ceylon OP» обычно купаж листа низких высот, а «Ceylon BOP» — купаж высоких и средних высот. Выпить его стоит в течение года.\n\nКогда разберётесь в сортах, те же коды станут понятны и на индийских, африканских и индонезийских чаях.",
+      "brewing_notes": "BOP: около трёх минут; OP: четыре-пять. Листовые сорта можно заварить ещё раз. Если заваривать BOP так же долго, как OP, чашка выйдет резкой."
+    },
+    "zh": {
+      "processing": "传统工艺红茶,经筛分和风选分为叶茶等级(OP1、OP、Pekoe)和碎茶等级(FBOP、BOP、BOP1),更细的还有BOPF、FBOPF等片茶和茶末;等级只说明叶片大小和形状,绝不代表品质。",
+      "harvest_season": "全年采摘,各产区有各自的品质季。",
+      "appearance_dry": "从细长条索状的黑色OP1,到细小均匀的BOPF颗粒。",
+      "appearance_liquor": "从铜色到深红褐色;等级越细,汤色越深,出汤也越快。",
+      "appearance_wet": "完整的卷曲叶片(OP)或细小均匀的铜色碎片(BOP)。",
+      "taste_profile": "鲜爽明亮、干净,带柑橘和淡淡麦芽香;OP等级较清淡顺滑,BOP等级较浓强、涩感更重。",
+      "vintage_note": "等级是科伦坡每周拍卖的通用语言:每批货都以“茶厂名加等级”出售,零售商则常常只标“Ceylon OP”(通常是低地茶拼配)或“Ceylon BOP”(通常是高地和中海拔茶拼配),不写产区。购买时认准斯里兰卡茶叶局的狮子标志(在斯里兰卡包装的纯锡兰茶)、标明的产区(如有)和包装日期;一年内喝完。",
+      "history": "这些是等级,不是产地,也不是某一款茶,所以没有通常意义上的起源故事。OP和BOP属于传统茶叶贸易在斯里兰卡、印度等地通用的叶片大小术语,在斯里兰卡,它们成了拍卖场和标签上的日常用语。\n\n名字里的“orange”与橙子及其风味毫无关系。锡兰茶这套等级阶梯究竟如何形成现在的样子,记载很少。\n\n关键在于,等级说明的是大小和外观,而不是品质。片茶来自制作大叶茶时剩下的碎小部分,随着饮茶之风传播,在上个世纪有了自己的市场。",
+      "description": "“Ceylon OP”和“Ceylon BOP”是斯里兰卡茶上最常见的两个标签,它们说的是叶片的大小和形状,而不是产自哪里、品质如何。OP即Orange Pekoe,是长条索状的整叶等级;BOP即Broken Orange Pekoe,是同类茶切成更小的碎片,出汤更快、更浓。“orange”与橙子和风味都没有关系,这是一个来源不明的贸易术语,已经沿用了一个多世纪。\n\n斯里兰卡的传统工艺茶厂把每批茶经筛分和风选分成一级级大小:OP1、OP、Pekoe等叶茶等级,FBOP、BOP、BOP1等碎茶等级,以及片茶(BOPF、FBOPF)和茶末,其中最细的用来做茶包。高地产区多做碎茶等级,低地产区多做叶茶等级,科伦坡拍卖会则把每批货都按“茶厂名加等级”出售。\n\nOP等级茶汤更清淡、顺滑、香气更好,需要泡四到五分钟;BOP等级汤色更深,更鲜爽也更涩,约三分钟即可。好茶两者都干净明亮,带柑橘和淡淡麦芽香,也都适合加奶。常见的错误是把BOP泡得和OP一样久,结果茶汤粗涩。\n\n购买时认准斯里兰卡茶叶局的狮子标志(在斯里兰卡包装的纯锡兰茶)、包装商标明的产区(如有)和包装日期;只标“Ceylon OP”的茶通常是低地茶拼配,“Ceylon BOP”则是高地和中海拔茶拼配。一年内喝完。\n\n弄懂这些等级之后,印度、非洲和印度尼西亚茶上的同样代码也就看得懂了。",
+      "brewing_notes": "BOP约三分钟;OP四到五分钟。叶茶等级可再泡一次。BOP泡得和OP一样久,茶汤会粗涩。"
+    }
+  }
 }

@@ -1,0 +1,58 @@
+{
+  "slug": "usucha",
+  "name_en": "Usucha",
+  "name_native": "薄茶",
+  "name_romanized": "Usucha",
+  "name_zh": "薄茶",
+  "name_ru": "Усутя",
+  "aliases": [
+    "Thin tea",
+    "Thin matcha",
+    "Usu-cha"
+  ],
+  "category": "green",
+  "origin_country": "Japan",
+  "origin_region": "Kyoto · Uji",
+  "cultivar": null,
+  "processing": "Matcha whisked with a relatively large amount of hot water into a light, frothy bowl. The powder is tencha: leaf shaded for two to three weeks, steamed, dried without rolling and finely ground.",
+  "form": "powder",
+  "harvest_season": "Matcha leaf is picked in spring after shading. The bowl itself is made to order.",
+  "appearance_dry": "Fine, bright green powder.",
+  "appearance_liquor": "Opaque jade green with a pale layer of fine foam.",
+  "appearance_wet": "No leaf remains; the powder stays suspended in the bowl.",
+  "taste_profile": "Lighter and brisker than thick koicha, with a seaweed-like aroma, umami and a touch of pleasant bitterness that the froth softens.",
+  "taste_tags": [
+    "umami",
+    "vegetal",
+    "marine",
+    "bitter"
+  ],
+  "brewing": {
+    "grams": 2,
+    "water_ml": 60,
+    "temp_c": 80,
+    "steeps": 1,
+    "seconds": [
+      20
+    ],
+    "notes": "Sift the powder, add a few millilitres of water to make a paste, add the rest, then whisk with a chasen in a W or M motion until frothy. Water temperature is a usual starting point."
+  },
+  "caffeine_level": "high",
+  "vintage_note": "Usucha is not sold by year: it is a way of preparing matcha, and shops sell tins graded as suitable for it. Matcha has no vintage value and fades after grinding, so look for a recent packing date and keep it sealed and cool.",
+  "description": "Usucha means thin tea, and if you have had a bowl of matcha, this is almost certainly what you drank. It is not a separate plant or leaf, but a way of preparing matcha with more water than its thick sibling koicha.\n\nA common measure is about 2 g of powder to 60 ml of water, against about double the powder for koicha. Usucha is whisked until it foams, and that foam takes the edge off any astringency. Koicha is kneaded, not frothed, and asks for pricier, less astringent powder.\n\nExpect a green, savoury bowl with a seaweed-like aroma and a clean finish. The mistakes are usually lumps from unsifted powder and scalding water. Drink it right away, before the foam collapses and the powder settles.\n\nBe careful when buying. Much of what is sold as matcha is really powdered unshaded green tea and does not meet the Japanese or ISO definitions. Dull colour and a harsh taste are the warning signs.\n\nA sweet alongside the bowl is traditional and works, since the sugar makes the umami stand out.",
+  "history": "Whisking powdered tea goes back to Song dynasty China and reached Japan with Zen monks; the monk Eisai is usually credited with bringing the practice around 1191. By the sixteenth century at the latest, Uji growers had developed shade cultivation, which gave matcha its modern colour and umami.\n\nIn the Japanese tea gathering, usucha has its own place: after the meal and the thick koicha, a second service of thin tea comes with a sweet.",
+  "liquor_hex": "#9CBF4D",
+  "leaf_hex": "#86AD35",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Matcha",
+    "https://ja.wikipedia.org/wiki/%E6%8A%B9%E8%8C%B6",
+    "https://zh.wikipedia.org/wiki/%E6%8A%B9%E8%8C%B6",
+    "https://en.wikipedia.org/wiki/Tea_culture_in_Japan",
+    "https://www.denstea.com/"
+  ],
+  "confidence": "high",
+  "wikipedia_title": "Matcha",
+  "wikipedia_scope": "umbrella",
+  "popularity": 3,
+  "images": []
+}

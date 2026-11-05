@@ -1,0 +1,57 @@
+{
+  "slug": "kanayamidori",
+  "name_en": "Kanayamidori",
+  "name_native": "かなやみどり",
+  "name_romanized": "Kanayamidori",
+  "name_zh": "日本茶树品种 Kanayamidori",
+  "name_ru": "Канаямидори",
+  "aliases": [
+    "Kanaya Midori"
+  ],
+  "category": "green",
+  "origin_country": "Japan",
+  "origin_region": "Shizuoka",
+  "cultivar": "Kanayamidori",
+  "processing": "Mostly made into steamed sencha, as with most Japanese cultivars; some small gardens also turn it into black tea.",
+  "form": "loose",
+  "harvest_season": "Spring first flush is the usual sencha picking. At Makinohara in Shizuoka its first flush falls around the same date as Harumidori.",
+  "appearance_dry": "Glossy deep green needles when made as sencha, typical of the style.",
+  "appearance_liquor": "Clear yellow-green as sencha.",
+  "appearance_wet": "Soft bright green leaf, as is usual for sencha.",
+  "taste_profile": "Black tea versions are noted for a sweet aroma and a milky mouthfeel. As sencha, expect the balance of umami and light astringency usual for the style.",
+  "taste_tags": [
+    "sweet",
+    "creamy",
+    "vegetal"
+  ],
+  "brewing": {
+    "grams": 4,
+    "water_ml": 120,
+    "temp_c": 70,
+    "steeps": 3,
+    "seconds": [
+      60,
+      15,
+      45
+    ],
+    "notes": "Standard sencha parameters. For a black tea from this cultivar, use near-boiling water and about three minutes."
+  },
+  "caffeine_level": "medium",
+  "vintage_note": "Sold as the current year's spring sencha, like other Japanese greens, and usually drunk within a year. Single-cultivar lots name it on the label, while much of the crop likely goes unnamed into blends, as is common in Japan. Black tea versions are small-garden lots sold by season, such as spring picking.",
+  "description": "Kanayamidori is a Japanese tea cultivar you will meet mostly as a line on a single-cultivar label. It grows in Shizuoka and also in Fukuoka's Yame district, where it is among the more common cultivars after Yabukita, at about 4% of introduced plantings.\n\nLike most Japanese cultivars it is mainly used for steamed sencha, and processing follows the usual pattern. What sets it apart is that small growers have also had good results making black tea from it.\n\nThe most specific notes describe such a black tea from Yame: a sweet aroma and a milky feel on the palate. For its sencha, little is recorded beyond what is typical of the style, so brew it as you would any good sencha and judge for yourself.\n\nLook for gardens that name the cultivar and the harvest. Trying it next to a Yabukita from the same area is the easiest way to learn what the cultivar itself contributes.",
+  "history": "Little is widely documented about its breeding. Its place in modern Japanese tea is clearer: Shizuoka uses it as a benchmark for picking dates, Kagoshima as a quality comparison for newer cultivars, and it appears in the pedigree of the newer cultivar Kanaemaru.",
+  "liquor_hex": "#CFCF72",
+  "leaf_hex": "#3F5A2C",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Yamecha",
+    "https://www.pref.shizuoka.jp/_res/projects/default_project/_page_/001/025/684/522harumidori.pdf",
+    "https://www.naro.go.jp/smart-nogyo/midori/files/cha_03.pdf",
+    "https://yunomi.life/products/chiyonoen-tea-garden-21a-mountain-grown-yame-black-tea-single-cultivar-kanaya-midori-spring",
+    "https://it.yunomi.life/products/zenkouen-tea-garden-daichi-no-meicha-single-cultivar-kanaya-midori-shizuoka-sencha-jas-organic"
+  ],
+  "confidence": "low",
+  "wikipedia_title": "Yamecha",
+  "wikipedia_scope": "umbrella",
+  "popularity": 2,
+  "images": []
+}

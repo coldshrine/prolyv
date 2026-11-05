@@ -1,0 +1,65 @@
+{
+  "slug": "lao-shou-mei",
+  "name_en": "Lao Shou Mei (Aged Shou Mei)",
+  "name_native": "老寿眉",
+  "name_romanized": "Lǎo Shòuméi",
+  "name_zh": "老寿眉",
+  "name_ru": "Лао Шоу Мэй",
+  "aliases": [
+    "Aged Shou Mei",
+    "Chen Nian Shou Mei",
+    "陈年寿眉",
+    "Old Shou Mei"
+  ],
+  "category": "white",
+  "origin_country": "China",
+  "origin_region": "Fujian · Fuding",
+  "cultivar": "Fuding Dabai, Fuding Dahao (typical)",
+  "processing": "Ordinary shou mei, loose or pressed, is stored dry for years. The change comes slowly in storage: aroma fades, the liquor reddens and the taste mellows.",
+  "form": "cake",
+  "harvest_season": "The original picking is late, mature shou mei; the harvest year matters more than the season, since that sets the claimed age.",
+  "appearance_dry": "Dark olive-brown to reddish-brown leaf and stem, loose or as a cake.",
+  "appearance_liquor": "Clear amber to reddish orange, deepening with age.",
+  "appearance_wet": "Soft, thick-feeling brown leaves that should keep some spring.",
+  "taste_profile": "Date, aged wood and lotus-leaf notes, and in good old lots a medicinal or honeyed note, in a thick, mellow cup.",
+  "taste_tags": [
+    "dried-fruit",
+    "medicinal",
+    "woody",
+    "sweet"
+  ],
+  "brewing": {
+    "grams": 5,
+    "water_ml": 120,
+    "temp_c": 100,
+    "steeps": 8,
+    "seconds": [
+      10,
+      10,
+      15,
+      20,
+      30,
+      45,
+      60,
+      90
+    ],
+    "notes": "Boiling water, with a brief rinse if the cake is dusty. Older tea also simmers well in a kettle once the gongfu steeps fade."
+  },
+  "caffeine_level": "low",
+  "vintage_note": "Sold with a stated year, but there is no firm line for old. Sellers and writers often start at about 3 years, some hold 7 to 10 to be best, and one state news account speaks of keeping within about 10 to 20 years. Year claims are the big risk: a stated age is often hard to prove.",
+  "description": "Lao shou mei is simply shou mei that has been kept, and it is the main reason people put away a cake of this humble grade. Its coarse leaf and stem are thought to leave more room for change, which is why it ages more interestingly than its price suggests.\n\nNothing dramatic is done to it. Over years in dry, cool, dark storage the aroma fades and shifts, the liquor goes red and the taste rounds out. Moisture is the enemy, and storage matters as much as the year on the label.\n\nThe notes people look for are date, aged wood and lotus leaf, with a medicinal or honeyed tone in better lots. Brew it with boiling water and do not rush it off the leaf too early: later steeps are often the sweetest, and it takes well to simmering.\n\nBe careful buying it. Real old white tea is scarce, and tea sold as older than it is has been reported for years. Ask to sample, and judge by clean smell, a clear liquor and leaf with some life left in it. If you cannot verify the year, pay for what the tea tastes like, not what the label says.",
+  "history": "Aged white tea as a named market category is fairly recent. Chinese press reports already noted in 2014 that truly old white tea was rare and that traders were passing off younger tea as older. Aged shou mei developed within that market, and the phrase has no fixed legal age in the sources available, so the name describes a practice more than a defined product.",
+  "liquor_hex": "#A85E26",
+  "leaf_hex": "#4F3B26",
+  "sources": [
+    "https://www.news.cn/science/2021-08/06/c_1310111971.htm",
+    "https://www.rmzxw.com.cn/scjb/zx/2014/10/28/398649.shtml",
+    "https://yiqinteahouse.com/zh/collections/shou-mei",
+    "https://redblossomtea.com/"
+  ],
+  "confidence": "medium",
+  "images": [],
+  "wikipedia_title": null,
+  "wikipedia_scope": "none",
+  "popularity": 3
+}

@@ -1,0 +1,58 @@
+{
+  "slug": "gokase-cha",
+  "name_en": "Gokase-cha",
+  "name_native": "五ヶ瀬茶",
+  "name_romanized": "Gokase-cha",
+  "name_zh": "五濑茶",
+  "name_ru": "Гокасэ-тя",
+  "aliases": [
+    "Gokase Kamairicha",
+    "五ヶ瀬釜炒り茶",
+    "Гокасэ камайритя",
+    "五瀨茶"
+  ],
+  "category": "green",
+  "origin_country": "Japan",
+  "origin_region": "Miyazaki · Gokase",
+  "cultivar": null,
+  "processing": "Pan-fired rather than steamed: the fresh leaf is heated and turned in a flat pan, which stops oxidation and gives the roasty kama-ka aroma, then rolled and dried.",
+  "form": "loose",
+  "harvest_season": "Little is documented for Gokase alone; as with other Japanese green teas, the spring picking is the main one.",
+  "appearance_dry": "Curled, rounded olive-green leaf, as is typical of kamairicha.",
+  "appearance_liquor": "Clear, pale golden.",
+  "appearance_wet": "Open olive-green leaf, as is typical of pan-fired tea.",
+  "taste_profile": "Clean and refreshing with a toasty pan-fired aroma. These are the traits of kamairicha generally; few detailed notes exist for Gokase alone.",
+  "taste_tags": [
+    "roasted",
+    "grassy",
+    "sweet"
+  ],
+  "brewing": {
+    "grams": 4,
+    "water_ml": 150,
+    "temp_c": 85,
+    "steeps": 3,
+    "seconds": [
+      60,
+      20,
+      45
+    ],
+    "notes": "Typical settings for kamairicha, which takes slightly hotter water than most Japanese greens. Heat lifts the pan-fired aroma."
+  },
+  "caffeine_level": "medium",
+  "vintage_note": "Usual for Japanese green tea: sold as the current year's harvest and best drunk fresh, within about a year. Labels tend to name the farm rather than a vintage.",
+  "description": "Gokase-cha is the tea of Gokase, a mountain town in northern Miyazaki next to Takachiho, and it is known above all for pan-firing. Nearly all Japanese green tea is steamed, so a pan-fired one from this corner of Kyushu is a genuine regional oddity.\n\nOne local producer, Miyazaki Saboh, describes its fields as lying at about 500 to 800 metres. The leaf goes into a flat pan rather than a steamer, which gives the toasty aroma Japanese call kama-ka and a clear golden liquor instead of the cloudy green of deep-steamed sencha.\n\nExpect something closer in spirit to a Chinese green than to sencha: lighter in colour, clean, fragrant. Slightly hotter water suits it, and short second steeps keep it fresh. Detailed tasting records for Gokase specifically are scarce, so this is what is typical of kamairicha.\n\nYou will mostly find it from small named producers. Ask for the harvest year, as you would with any green tea. If you enjoy it, Takachiho kamairicha from next door is the natural comparison.",
+  "history": "Little is documented about Gokase's own tea history. The town appears in Japanese reference lists as a pan-fired tea area, and the wider Nishiusuki district has long made tea this way, but no dated account for Gokase itself could be confirmed.",
+  "liquor_hex": "#DCC56E",
+  "leaf_hex": "#5F6B38",
+  "sources": [
+    "https://ja.wikipedia.org/wiki/%E6%97%A5%E6%9C%AC%E8%8C%B6",
+    "https://www.mlit.go.jp/tagengo-db/en/H30-01363.html",
+    "https://kyodonewsprwire.jp/prwfile/release/M104157/202101149767/_prw_OR1fl_N1D5kNx3.pdf"
+  ],
+  "confidence": "low",
+  "wikipedia_title": "Japanese tea",
+  "wikipedia_scope": "umbrella",
+  "popularity": 2,
+  "images": []
+}

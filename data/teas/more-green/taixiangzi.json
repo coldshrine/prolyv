@@ -1,0 +1,55 @@
+{
+  "slug": "taixiangzi",
+  "name_en": "Taixiangzi",
+  "name_native": "苔香紫",
+  "name_romanized": "Tái Xiāng Zǐ",
+  "name_zh": "苔香紫",
+  "name_ru": "Тай Сян Цзы",
+  "aliases": [
+    "Tai Xiang Zi",
+    "Camellia sinensis cv. Taixiangzi",
+    "Тайсянцзы"
+  ],
+  "category": "green",
+  "origin_country": "China",
+  "origin_region": "Zhejiang",
+  "cultivar": "Taixiangzi",
+  "processing": "Little is documented about how this cultivar is usually processed. It is listed here as a green tea, which would mean fixing, rolling and drying without oxidation.",
+  "form": "loose",
+  "harvest_season": "Not documented for this cultivar. Zhejiang green teas are typically picked in spring.",
+  "appearance_dry": "Not well documented; purple-bud cultivars typically give a darker leaf than ordinary green tea.",
+  "appearance_liquor": "Not well documented; purple-bud green teas are usually a little deeper or duller in colour than standard greens.",
+  "appearance_wet": "Not well documented; a purple or reddish tone in the young leaf would be expected from its group.",
+  "taste_profile": "No reliable tasting record exists for this cultivar. Green teas from purple-budded plants are often described as more astringent than ordinary ones, but that is a general remark about the group.",
+  "taste_tags": [
+    "vegetal",
+    "bitter"
+  ],
+  "brewing": {
+    "grams": 3,
+    "water_ml": 150,
+    "temp_c": 80,
+    "steeps": 3,
+    "seconds": [
+      45,
+      60,
+      90
+    ],
+    "notes": "A cautious general green tea method, not one specific to this cultivar. Start cool and short and adjust to taste."
+  },
+  "caffeine_level": "medium",
+  "vintage_note": "Little is documented about how it is sold. If you find it as a green tea, the usual rule for the class applies: buy the current spring harvest and drink it within about a year, and ask the seller to state the cultivar and garden.",
+  "description": "Taixiangzi is a tea cultivar from Zhejiang, named in passing among China's purple-leaf teas, a group better known through Yunnan cultivars such as Zijuan. The name is about all that is widely recorded, and few people outside specialist circles will meet it.\n\nThe interesting thing about this group is pigment: purple buds carry anthocyanins, which change both the leaf colour and the taste. That is a general trait of the group rather than a measured fact about this cultivar.\n\nGreen tea from such plants tends to have more grip than an ordinary spring green, so a cool, short first steep is a sensible start. Beyond that, trust your own cup, because there is little reliable tasting record to compare it with.\n\nIf a shop offers it, ask where it was grown and how it was made. For a purple-leaf tea with far more of a record, try Zijuan.",
+  "history": "Little is documented. The cultivar is recorded under the botanical name Camellia sinensis cv. Taixiangzi and is mentioned in passing as a purple-leaf tea from Zhejiang. Its breeder, date of selection and any official registration are not on record in accessible sources.",
+  "liquor_hex": "#C9BE78",
+  "leaf_hex": "#4F4A3C",
+  "sources": [
+    "https://www.wikidata.org/wiki/Q137826345",
+    "https://reimagined-octo-computing-machine.pages.dev/en/purple-tea-anthocyanins"
+  ],
+  "confidence": "low",
+  "wikipedia_title": null,
+  "wikipedia_scope": "none",
+  "popularity": 2,
+  "images": []
+}

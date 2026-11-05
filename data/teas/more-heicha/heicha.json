@@ -1,0 +1,100 @@
+{
+  "slug": "heicha",
+  "name_en": "Heicha",
+  "name_native": "黑茶",
+  "name_romanized": "Hēichá",
+  "name_zh": "黑茶",
+  "name_ru": "Хэй Ча",
+  "aliases": [
+    "Dark Tea",
+    "Fermented tea",
+    "Fermented teas",
+    "Ja Nak",
+    "Tibetan black tea",
+    "post fermented tea",
+    "ཇ་ནག",
+    "Постферментированный чай",
+    "thé sombre"
+  ],
+  "category": "heicha",
+  "origin_country": "China",
+  "origin_region": "Hunan · Guangxi · Hubei · Sichuan · Yunnan",
+  "cultivar": null,
+  "processing": "Leaf is fixed, rolled, piled so that microbes (mainly moulds) can ferment it, rolled again and dried. Many are then steamed and pressed, and fermentation can run from months to years.",
+  "form": "brick",
+  "harvest_season": "Varies by type. Unlike most teas, heicha is often made from mature leaf, sometimes with stems, so early spring picking matters less.",
+  "appearance_dry": "Brown to black leaf, usually pressed into bricks, cakes, bowls or baskets, and also sold loose.",
+  "appearance_liquor": "Mostly deep orange to dark red or brown; a few types are lighter.",
+  "appearance_wet": "Dark brown, mature leaf, often with stems.",
+  "taste_profile": "Mellow and low in astringency, with an aged, woody, earthy aroma that the piling creates. Fu brick adds a distinctive fungal fragrance.",
+  "taste_tags": [
+    "earthy",
+    "woody",
+    "sweet"
+  ],
+  "brewing": {
+    "grams": 7,
+    "water_ml": 120,
+    "temp_c": 100,
+    "steeps": 7,
+    "seconds": [
+      10,
+      10,
+      15,
+      20,
+      30,
+      45,
+      60
+    ],
+    "notes": "A guide only, since this is a whole class. Use boiling water and rinse once or twice. Coarse bricks and baskets are also often boiled on the stove."
+  },
+  "caffeine_level": "medium",
+  "vintage_note": "Generally sold with a production year and bought to keep. Unlike green tea, it is valued more as it ages, because bitterness and astringency fade while flavour grows. Age claims on old bricks are hard to check, so buy from someone who can show where the tea came from.",
+  "description": "Heicha, or dark tea, is the one Chinese tea class defined by microbes. Oxidation drives oolong and red tea, but here moulds work on damp, piled leaf over months or years. The name means black tea in Chinese, which trips people up, since what English calls black tea is hong cha, red tea.\n\nThe class is broad. Pu-erh from Yunnan is the famous member, and this site gives it its own categories. The others include Anhua's Fu brick and Qianliang from Hunan, Liu Bao from Guangxi, Qing Zhuan from Hubei, and Sichuan's border and Tibetan teas. Shaanxi's Jingyang also makes Fu brick, and Anhui has Lu'an basket tea.\n\nThe process works in its own order. The leaf is fixed and rolled, then piled, then rolled and dried, with variations by type. Fermentation lowers polyphenols and amino acids and raises soluble sugars, which is why these teas taste smooth, not sharp. Boiling water and short steeps suit most, and coarser bricks can be simmered.\n\nDon't shop for 'heicha' in general. Pick one type, read its year and pressing date, and expect an aged, sometimes musty smell, which airs out. Fu brick is deliberately inoculated with a fragrant mould in a step called fahua, so visible growth there is part of the tea.\n\nOutside China there are relatives: Japan's Awa bancha and Goishicha, and Myanmar's lahpet, which is eaten, not drunk.",
+  "history": "The early history is unclear. A well-known legend has caravan tea soaked by rain, abandoned, then drunk by villagers with dysentery who recovered. It is a story only. More sober accounts point to the Ming dynasty, in the 15th and 16th centuries, and to trade across the Han and Tibetan borderlands, possibly earlier.\n\nThe border trade shaped the tea: compressed leaf travelled well and became a daily necessity in Xinjiang, Inner Mongolia and Gansu. Dating it precisely is harder than the many claims of great age suggest. Modern science has since revised the microbiology too, with Aspergillus luchuensis now proposed in place of A. niger as the main organism in pu-erh.",
+  "liquor_hex": "#7A3D16",
+  "leaf_hex": "#33261A",
+  "wikipedia_title": "Fermented tea",
+  "wikipedia_scope": "exact",
+  "popularity": 4,
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8f/Lotus_scented_Fuzhuan_2012_Heicha_-_WikiTea.jpg/1280px-Lotus_scented_Fuzhuan_2012_Heicha_-_WikiTea.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8f/Lotus_scented_Fuzhuan_2012_Heicha_-_WikiTea.jpg/330px-Lotus_scented_Fuzhuan_2012_Heicha_-_WikiTea.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Lotus_scented_Fuzhuan_2012_Heicha_-_WikiTea.jpg",
+      "author": "Ash Crow",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "kind": "dry_leaf",
+      "alt": "Dark loose leaves of lotus-scented Fuzhuan heicha in a white tea scoop"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/45/Anhua_Fuzhuan_Fermented_Tea.jpg/1280px-Anhua_Fuzhuan_Fermented_Tea.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/45/Anhua_Fuzhuan_Fermented_Tea.jpg/330px-Anhua_Fuzhuan_Fermented_Tea.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Anhua_Fuzhuan_Fermented_Tea.jpg",
+      "author": "Kasuga",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "kind": "cake",
+      "alt": "Broken piece of pressed Anhua Fuzhuan heicha with specks of golden flower fungus on a white plate"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2d/JinHua_%22golden_flower%22_from_Liu_Bao.jpg/1280px-JinHua_%22golden_flower%22_from_Liu_Bao.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2d/JinHua_%22golden_flower%22_from_Liu_Bao.jpg/330px-JinHua_%22golden_flower%22_from_Liu_Bao.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source_page": "https://commons.wikimedia.org/wiki/File:JinHua_%22golden_flower%22_from_Liu_Bao.jpg",
+      "author": "Cosmin Dordea",
+      "license": "CC BY-SA 2.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+      "kind": "cake",
+      "alt": "Dark pressed Liu Bao heicha with golden flower specks and stems in a white cup"
+    }
+  ],
+  "sources": [
+    "https://en.wikipedia.org/wiki/Fermented_tea",
+    "https://zh.wikipedia.org/wiki/%E9%BB%91%E8%8C%B6",
+    "https://ja.wikipedia.org/wiki/%E9%BB%92%E8%8C%B6",
+    "https://ru.wikipedia.org/wiki/%D0%9F%D0%BE%D1%81%D1%82%D1%84%D0%B5%D1%80%D0%BC%D0%B5%D0%BD%D1%82%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%BD%D1%8B%D0%B9_%D1%87%D0%B0%D0%B9",
+    "https://www.wikidata.org/wiki/Q2542583"
+  ],
+  "confidence": "high"
+}

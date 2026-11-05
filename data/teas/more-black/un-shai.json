@@ -1,0 +1,52 @@
+{
+  "slug": "un-shai",
+  "name_en": "Un Shai",
+  "name_native": "Ұн шай",
+  "name_romanized": null,
+  "aliases": [
+    "Flour tea"
+  ],
+  "category": "black",
+  "origin_country": "Kazakhstan",
+  "origin_region": "Kazakhstan",
+  "cultivar": null,
+  "form": "loose",
+  "caffeine_level": "high",
+  "brewing": {
+    "grams": 3,
+    "water_ml": 200,
+    "temp_c": 95,
+    "steeps": 2,
+    "seconds": [
+      180,
+      240
+    ],
+    "notes": "A safe starting point for black tea: Western style, water just off the boil."
+  },
+  "taste_tags": [
+    "malty",
+    "sweet"
+  ],
+  "description": "A Kazakh tea preparation whose name means flour tea.\n\nThis is a way of preparing tea more than a tea you buy under one name, so the recipe and the base tea change from one maker to the next.",
+  "wikipedia_title": null,
+  "wikipedia_scope": "none",
+  "popularity": 1,
+  "name_zh": "哈萨克面粉茶",
+  "name_ru": "Ун шай",
+  "history": "It is named among the varieties of the Kazakh tea tradition, alongside millet, stone and clove teas. Little more is documented about it.",
+  "liquor_hex": "#B9814E",
+  "leaf_hex": "#3A2A1E",
+  "sources": [
+    "https://ru.wikipedia.org/wiki/%D0%A7%D0%B0%D0%B9"
+  ],
+  "confidence": "low",
+  "images": [],
+  "stub": true,
+  "processing": "Made from a black base tea according to the recipe; the method varies.",
+  "harvest_season": "Not tied to a harvest: it depends on the base tea.",
+  "appearance_dry": "Usually dark twisted leaf, sometimes with golden tips.",
+  "appearance_liquor": "Usually a clear red-brown.",
+  "appearance_wet": "Usually coppery brown leaf.",
+  "taste_profile": "Expect what black teas usually give: malty, sweet and brisk.",
+  "vintage_note": "Not sold by vintage: it is made from whatever base tea the maker keeps, so freshness of the base matters more than the year."
+}

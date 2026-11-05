@@ -1,0 +1,63 @@
+{
+  "slug": "wuyi-jin-fo",
+  "name_en": "Jin Fo",
+  "name_native": "金佛",
+  "name_romanized": "Jīn Fó",
+  "name_zh": "金佛",
+  "name_ru": "Цзинь Фо",
+  "aliases": [
+    "Golden Buddha",
+    "Jin Fo tea",
+    "金佛茶"
+  ],
+  "category": "oolong",
+  "origin_country": "China",
+  "origin_region": "Fujian · Wuyi",
+  "cultivar": "Jin Fo",
+  "processing": "Developed as a medium Wuyi oolong: partly oxidised, rolled and finished with a moderate roast that varies by maker.",
+  "form": "loose",
+  "harvest_season": "As with other Wuyi oolongs, a spring picking; no specific timing is claimed here.",
+  "appearance_dry": "Fairly uniform leaves, emerald-tinged in lighter lots and darker when roasted harder.",
+  "appearance_liquor": "Golden amber, clear.",
+  "appearance_wet": "As with other Wuyi oolongs, open leaves with darkened edges.",
+  "taste_profile": "Creamy with a floral aftertaste in lighter makes; roasted lots are described as thick and honey-sweet.",
+  "taste_tags": [
+    "creamy",
+    "floral",
+    "honey",
+    "roasted"
+  ],
+  "brewing": {
+    "grams": 7,
+    "water_ml": 110,
+    "temp_c": 95,
+    "steeps": 7,
+    "seconds": [
+      10,
+      10,
+      15,
+      20,
+      30,
+      45,
+      60
+    ],
+    "notes": "Use hot water and short steeps; go a little cooler for a light roast so the cream stays soft."
+  },
+  "caffeine_level": "medium",
+  "vintage_note": "Usually sold by the year of the spring harvest and the level of roast, like other newer Wuyi cultivars. Lighter lots are best fresh; heavier roasts tend to benefit from a rest. Check the roast before buying, because descriptions vary a lot.",
+  "description": "Jin Fo, or Golden Buddha, is a comparatively new Wuyi oolong developed at a tea research centre on Wuyi Shan rather than selected from an old named bush.\n\nIt was shaped as a medium oolong, and the roast decides a great deal. Light lots keep a green tint in the leaf, while others are handled more like full rock teas.\n\nThat is why descriptions disagree. One account gives cream and floral aftertaste, another a thick, honey-sweet roasted body. Both may be fair to the tea they describe, so brew a small amount first, hot and short.\n\nAsk for year and roast level, and do not confuse the name with any statement of age or status: it is a modern cultivar, not one of the old famous bushes.",
+  "history": "Jin Fo was developed at the Wuyi Shan tea research centre in Fujian. Its date is less settled; one specialist retailer places the work in the 1990s, and that account has not been confirmed from the institute itself.",
+  "liquor_hex": "#C58F3F",
+  "leaf_hex": "#4F5A36",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Jin_Fo_tea",
+    "https://www.wikidata.org/wiki/Q3179181",
+    "https://tea-lab.pages.dev/types/oolong/",
+    "https://redblossomtea.com/products/heritage-golden-buddha"
+  ],
+  "confidence": "medium",
+  "wikipedia_title": "Jin Fo tea",
+  "wikipedia_scope": "exact",
+  "popularity": 3,
+  "images": []
+}

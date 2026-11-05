@@ -1,0 +1,57 @@
+{
+  "slug": "sonogi-cha",
+  "name_en": "Sonogi-cha",
+  "name_native": "そのぎ茶",
+  "name_romanized": "Sonogi-cha",
+  "name_zh": "彼杵茶",
+  "name_ru": "Соноги-тя",
+  "aliases": [
+    "彼杵茶",
+    "Higashi-Sonogi tea",
+    "東彼杵茶"
+  ],
+  "category": "green",
+  "origin_country": "Japan",
+  "origin_region": "Nagasaki · Higashisonogi",
+  "cultivar": null,
+  "processing": "Mainly steamed tamaryokucha: steamed like sencha but finished without the final needle-shaping step, so the leaf dries into rounded, comma-like curls.",
+  "form": "loose",
+  "harvest_season": "Little is documented on its calendar in detail; as with other Japanese green teas, spring first flush is the prized picking.",
+  "appearance_dry": "Rounded, comma-shaped curls of deep green.",
+  "appearance_liquor": "Clear yellow-green, as is typical of steamed green tea.",
+  "appearance_wet": "Soft green leaf that relaxes from its curled shape.",
+  "taste_profile": "Round in the mouth, sweet and full in aroma, with less edge than a needle-shaped sencha.",
+  "taste_tags": [
+    "sweet",
+    "umami",
+    "vegetal"
+  ],
+  "brewing": {
+    "grams": 5,
+    "water_ml": 120,
+    "temp_c": 70,
+    "steeps": 3,
+    "seconds": [
+      60,
+      15,
+      40
+    ],
+    "notes": "Typical settings for a good steamed green. The curled leaf opens more slowly than needles, so do not rush the first steep."
+  },
+  "caffeine_level": "medium",
+  "vintage_note": "Usual for Japanese green tea: sold as the current year's harvest, with spring first flush leading, and best drunk within about a year. Competition-winning lots from named farms are the top of the range, and labels often say the style (tamaryokucha) rather than a year.",
+  "description": "Sonogi-cha comes from Higashisonogi, a town in Nagasaki Prefecture. Its distinction is shape: most of it is tamaryokucha, a rounded and uncommon style.\n\nThe leaf is steamed, but it skips the final shaping that pulls sencha into straight needles. It dries instead into plump curls, and producers say the roundness carries through to the mouthfeel.\n\nExpect a sweet, generous aroma and a soft body. Treat it like a good sencha with moderate water, but allow the curled leaf a little longer on the first steep to open up.\n\nThe area does well in competition: it has taken the top award in the steamed tamaryokucha class of the national tea fair repeatedly since 2017, though sources differ on the exact years. So look for named farms, a recent harvest, and the word tamaryokucha on the pack, which tells you the style you are getting.",
+  "history": "Little is documented in detail about when tea growing began around Sonogi.\n\nThe modern reputation rests on steamed tamaryokucha and on the run of national competition results since 2017.",
+  "liquor_hex": "#CAD27A",
+  "leaf_hex": "#3E5F33",
+  "sources": [
+    "https://ja.wikipedia.org/wiki/%E6%97%A5%E6%9C%AC%E8%8C%B6",
+    "https://www.pref.nagasaki.jp/shared/uploads/2021/06/1622504798.pdf",
+    "https://www.furusato-tax.jp/product/detail/42321/6610992"
+  ],
+  "confidence": "medium",
+  "wikipedia_title": "Japanese tea",
+  "wikipedia_scope": "umbrella",
+  "popularity": 2,
+  "images": []
+}

@@ -1,0 +1,61 @@
+{
+  "slug": "omija-cha",
+  "name_en": "Omija-cha (Schisandra Tea)",
+  "name_native": "오미자차",
+  "name_romanized": "Omija-cha",
+  "name_zh": "五味子茶",
+  "name_ru": "Омиджа-ча (чай из лимонника)",
+  "aliases": [
+    "Magnolia berry tea",
+    "Schisandra tea",
+    "Omija tea",
+    "омиджача",
+    "Чай из лимонника",
+    "五味子"
+  ],
+  "category": "tisane",
+  "origin_country": "South Korea",
+  "origin_region": "Korea",
+  "cultivar": null,
+  "processing": "No tea leaf: dried Schisandra berries are simmered gently in water and usually sweetened with honey. A second method adds ground berry seeds to cold water.",
+  "form": "loose",
+  "harvest_season": "The dried berries are a pantry ingredient, so the drink has no picking season of its own, and it is served hot or cold all year.",
+  "appearance_dry": "Small, wrinkled dried berries, typically dark red.",
+  "appearance_liquor": "Typically a clear pinkish red, deeper the longer the berries are in the water.",
+  "appearance_wet": "Swollen, soft red berries with visible seeds.",
+  "taste_profile": "The name promises five flavours: sweet, sour, bitter, salty and pungent. The berry itself carries a sweet skin, sour pulp and bitter seeds, so expect tartness first, with honey rounding it off.",
+  "taste_tags": [
+    "tart",
+    "fruity",
+    "bitter",
+    "sweet"
+  ],
+  "brewing": {
+    "grams": 10,
+    "water_ml": 500,
+    "temp_c": 90,
+    "steeps": 1,
+    "seconds": [
+      600
+    ],
+    "notes": "A home starting point, not a fixed recipe: keep the heat low, since the seeds add bitterness. Sweeten with honey to taste and serve hot or chilled."
+  },
+  "caffeine_level": "none",
+  "vintage_note": "Not sold by year or vintage. Dried berries are bought as a dried good, and the fresher the better, as is usual for dried fruit. Ready-made versions are not tied to a season either.",
+  "description": "Omija-cha is a Korean drink made from dried Schisandra berries, with no tea plant involved. Omija means five flavours, and that is the whole hook: sweet, sour, bitter, salty and pungent are all said to be in the one berry.\n\nThe usual method is simple: dried berries go into water over low heat, then honey goes in at the end. There is also a colder route, where ground seeds are stirred into cold water. Either way the seeds are where the bitterness lives, so gentleness matters.\n\nIn the cup it leads with sourness, with the other flavours arriving behind it. If yours tastes harsh, the usual fix is less heat, less time or more honey, rather than more berries.\n\nThere are no grades or harvest years to chase here. Buy the dried berries as you would any dried fruit, check they look intact and have been stored well, and taste before you sweeten.\n\nServed cold it also becomes the base of omija-hwachae, a Korean fruit punch, which is a good way to try it if a hot sour drink sounds odd.",
+  "history": "Omija-cha belongs to the Korean family of traditional non-leaf teas, and it has long been drunk partly as a home remedy, said to help circulation and the kidneys; those are traditional claims, not established effects. No precise date of origin is well documented.\n\nThe same plant has a wider history: in Mandarin the berry is wuweizi, also named for its five flavours, and it grows across China, Japan and Korea as well as the Russian Far East, where it is known as limonnik.",
+  "liquor_hex": "#C2404A",
+  "leaf_hex": "#7A2230",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Omija-cha",
+    "https://ko.wikipedia.org/wiki/%EC%98%A4%EB%AF%B8%EC%9E%90%EC%B0%A8",
+    "https://en.wikipedia.org/wiki/Schisandra_chinensis",
+    "https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D0%BC%D0%BE%D0%BD%D0%BD%D0%B8%D0%BA_%D0%BA%D0%B8%D1%82%D0%B0%D0%B9%D1%81%D0%BA%D0%B8%D0%B9",
+    "https://www.wikidata.org/wiki/Q28533123"
+  ],
+  "confidence": "high",
+  "wikipedia_title": "Omija-cha",
+  "wikipedia_scope": "exact",
+  "popularity": 3,
+  "images": []
+}

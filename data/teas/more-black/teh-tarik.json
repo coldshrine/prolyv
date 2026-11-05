@@ -1,0 +1,98 @@
+{
+  "slug": "teh-tarik",
+  "name_en": "Teh Tarik",
+  "name_native": "Teh tarik",
+  "name_romanized": "teh tarik",
+  "name_zh": "拉茶",
+  "name_ru": "Тех тарик",
+  "aliases": [
+    "Pulled tea",
+    "Те тарик",
+    "印度拉茶"
+  ],
+  "category": "black",
+  "origin_country": "Malaysia",
+  "origin_region": "Peninsular Malaysia",
+  "cultivar": null,
+  "processing": "Not a leaf style but a drink: strong black tea, often from leaves or dust, is boiled or steeped, strained and mixed with condensed and sometimes evaporated milk, then poured repeatedly between two vessels from a height.",
+  "form": "other",
+  "harvest_season": "Not tied to a harvest; made all year from ordinary commercial black tea, and lower grades are traditional.",
+  "appearance_dry": "The base is usually plain dark tea dust or small broken leaf.",
+  "appearance_liquor": "Opaque caramel-tan milk tea under a thick pale froth.",
+  "appearance_wet": "Spent leaf is strained away and plays no part in serving; it is dark and fine.",
+  "taste_profile": "Sweet and milky, with the bitterness of strong tea cutting through the condensed milk and a soft, airy foam on top.",
+  "taste_tags": [
+    "sweet",
+    "creamy",
+    "malty",
+    "bitter"
+  ],
+  "brewing": {
+    "grams": 8,
+    "water_ml": 250,
+    "temp_c": 100,
+    "steeps": 1,
+    "seconds": [
+      300
+    ],
+    "notes": "A home starting point rather than a fixed recipe: brew very strong, strain, stir in condensed milk to taste, then pour back and forth between two jugs until frothy and drinkable."
+  },
+  "caffeine_level": "medium",
+  "vintage_note": "Sold by the glass, made to order at stalls and mamak restaurants, so there is no year or season to look for. The tea behind it is a cheap everyday black, and its age is not stated. Instant packets exist as well, but the fresh pour is the thing itself.",
+  "description": "Teh tarik means 'pulled tea' in Malay, and the name describes the pour: the drink is thrown in a long stream between two containers with arms stretched wide. It is sold at outdoor stalls, kopitiams and mamak restaurants in Malaysia, and also in Brunei, Indonesia, Singapore and Thailand.\n\nThe pull does three jobs: it cools the tea to drinking temperature, mixes in the condensed milk thoroughly, and builds a frothy head. The base is deliberately strong and usually modest; lower grades are considered right for it, because their bitterness stands up to all that sugar.\n\nExpect something sweet, thick and warming, with tea bitterness underneath. If it is too sweet, ask for kurang manis, 'less sweet'. At home the mistake is brewing too weakly, since the milk then swamps the tea.\n\nThe usual partner is roti canai or prata at breakfast. Close relatives are worth trying too: teh halia with ginger, teh-C with evaporated milk, and teh-O with no dairy at all.",
+  "history": "Most accounts trace the drink to Indian Muslim immigrants in the Malay Peninsula who ran drink stalls at the entrances of rubber plantations. One version has them selling masala chai there as early as the 1870s, then switching after the Second World War to bitter tea dust softened with condensed milk, which gave the modern recipe. Other accounts simply date its arrival to after the war.\n\nSingapore and Malaysia both claim it. Malaysia treats it as a national drink, and in 2024 UNESCO inscribed Malaysian breakfast culture, including teh tarik, on its Representative List of intangible heritage. Pulling has also become a show, with competitions between vendors.",
+  "liquor_hex": "#B98A5A",
+  "leaf_hex": "#3A2616",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Teh_tarik",
+    "https://zh.wikipedia.org/wiki/%E6%8B%89%E8%8C%B6",
+    "https://en.wikipedia.org/wiki/Tea_culture",
+    "https://12go.asia/en/malaysia/tea-culture"
+  ],
+  "confidence": "high",
+  "wikipedia_title": "Teh tarik",
+  "wikipedia_scope": "exact",
+  "popularity": 3,
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/26/Teh_Tarik.jpg/1280px-Teh_Tarik.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/26/Teh_Tarik.jpg/330px-Teh_Tarik.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Teh_Tarik.jpg",
+      "author": "Jonathan Lin",
+      "license": "CC BY-SA 2.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+      "kind": "liquor",
+      "alt": "Glass mug of caramel-tan teh tarik under a thick pale froth"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/69/RotiPrata-Teh.JPG/1280px-RotiPrata-Teh.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/69/RotiPrata-Teh.JPG/330px-RotiPrata-Teh.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source_page": "https://commons.wikimedia.org/wiki/File:RotiPrata-Teh.JPG",
+      "author": "mailer_diablo",
+      "license": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "kind": "serving",
+      "alt": "Mug of frothy teh tarik served with roti canai and curry"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d8/Roti_Telur_and_Teh_Tarik.jpg/1280px-Roti_Telur_and_Teh_Tarik.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d8/Roti_Telur_and_Teh_Tarik.jpg/330px-Roti_Telur_and_Teh_Tarik.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Roti_Telur_and_Teh_Tarik.jpg",
+      "author": "Azreey",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "kind": "serving",
+      "alt": "Glass mug of teh tarik beside a steel tray of roti telur at a mamak stall"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7d/Roti_kosong%2C_teh_tarik_and_chicken_curry_at_KK_Koya_restaurant_in_Kampong_Lumut%2C_Brunei.jpg/1280px-Roti_kosong%2C_teh_tarik_and_chicken_curry_at_KK_Koya_restaurant_in_Kampong_Lumut%2C_Brunei.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7d/Roti_kosong%2C_teh_tarik_and_chicken_curry_at_KK_Koya_restaurant_in_Kampong_Lumut%2C_Brunei.jpg/330px-Roti_kosong%2C_teh_tarik_and_chicken_curry_at_KK_Koya_restaurant_in_Kampong_Lumut%2C_Brunei.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Roti_kosong,_teh_tarik_and_chicken_curry_at_KK_Koya_restaurant_in_Kampong_Lumut,_Brunei.jpg",
+      "author": "Yu Chu Chin",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "kind": "serving",
+      "alt": "Mug of frothy teh tarik with roti kosong and chicken curry"
+    }
+  ]
+}

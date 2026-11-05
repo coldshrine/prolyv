@@ -3,10 +3,18 @@
   "name_en": "Wakoucha (Japanese Black Tea)",
   "name_native": "和紅茶",
   "name_romanized": "Wakōcha",
-  "aliases": ["Wakocha", "Kokusan kōcha", "Japanese black tea", "Nihon kōcha", "Wa-koucha", "Jikoku kōcha"],
+  "aliases": [
+    "Wakocha",
+    "Kokusan kōcha",
+    "Japanese black tea",
+    "Nihon kōcha",
+    "Wa-koucha",
+    "Ji-kōcha",
+    "地紅茶"
+  ],
   "category": "black",
   "origin_country": "Japan",
-  "origin_region": "Nationwide · Shizuoka, Kagoshima, Miyazaki, Mie, Saga, Kyoto · Wazuka",
+  "origin_region": "Shizuoka",
   "cultivar": "Benifuuki, Benihomare, Benihikari (black-tea cultivars); also Yabukita and other green-tea cultivars",
   "processing": "Withered, rolled, fully (or nearly fully) oxidised and dried in the orthodox way, usually in small batches by green-tea farms; many producers stop oxidation a little early, so the cup is softer and lighter than a Western black tea.",
   "form": "loose",
@@ -15,12 +23,50 @@
   "appearance_liquor": "Clear orange-red to light amber, bright.",
   "appearance_wet": "Coppery brown, whole or lightly broken leaves.",
   "taste_profile": "Soft, sweet and low in tannin, with honey, cooked fruit or rose notes depending on cultivar, and a gentle, clean finish that wants no milk.",
-  "taste_tags": ["honey", "sweet", "fruity", "floral", "malty"],
-  "brewing": {"grams": 4, "water_ml": 200, "temp_c": 95, "steeps": 3, "seconds": [90, 60, 120], "notes": "Brew Western-style or in a kyusu with near-boiling water; most lots are better straight than with milk. Gongfu-style short steeps also work well with the softer, lightly oxidised lots."},
+  "taste_tags": [
+    "honey",
+    "sweet",
+    "fruity",
+    "floral",
+    "malty"
+  ],
+  "brewing": {
+    "grams": 4,
+    "water_ml": 200,
+    "temp_c": 95,
+    "steeps": 3,
+    "seconds": [
+      90,
+      60,
+      120
+    ],
+    "notes": "Brew Western-style or in a kyusu with near-boiling water; most lots are better straight than with milk. Gongfu-style short steeps also work well with the softer, lightly oxidised lots."
+  },
   "caffeine_level": "medium",
   "vintage_note": "Sold by producer and year, often with the cultivar and the flush on the label (second-flush summer lots are most common); small-farm production means each year's batch is limited and some sell out, and the new season's tea appears from late summer. Most wakōcha is best within a year or two, although fully oxidised lots keep well and a few producers deliberately rest theirs for a year before release.",
-  "description": "Wakōcha is black tea made in Japan, a small category that has grown fast in the last twenty years as green-tea farms looked for something to do with their summer leaf and found that customers liked the result. It is softer, sweeter and lower in tannin than the black teas of India or Sri Lanka, and most of it is meant to be drunk without milk.\n\nJapan tried to be a black-tea exporter in the nineteenth century, sending the official Tada Motokichi to India and China to learn the trade, and the 'beni' series of black-tea cultivars (Benihomare, Benihikari, Benifuuki) came out of that effort; the industry never competed with the colonies and collapsed when imports were liberalised in the 1970s. The revival since the 2000s is a craft movement of small farms making a few hundred kilos at a time, by the orthodox route of withering, rolling, oxidising and drying, often with green-tea machinery and often stopping oxidation a little early. Cultivar is the biggest variable: the beni cultivars give fuller, more Assam-like teas, while Yabukita and other green cultivars give gentle, honeyed, lightly oxidised cups that can feel almost like a dark oolong.\n\nBrew it Western-style or in a kyusu with water just off the boil, 4 g for 200 ml and a minute and a half, then two more steeps; gongfu-style short steeps work well for the lighter lots. Expect honey, cooked fruit, sometimes rose or muscatel, a soft body and a clean finish; expect no malt bomb and no need for milk, and do not judge it as a failed Assam. Second-flush lots are the norm, because summer leaf carries the catechins that oxidation turns into flavour and colour.\n\nIt is sold by farm, year and usually cultivar in small bags, from late summer on, at prices that reflect small batches rather than commodity tea. Shizuoka, Kagoshima, Miyazaki, Mie and the Wazuka hills of Kyoto are the main sources, and there are now competitions and a summer festival devoted to it. The producer's name tells you more than any grade, and a year of rest after production often improves the fully oxidised lots.\n\nStart with a Benifuuki black tea for the full-bodied style and a Yabukita black for the gentle one, and you will have seen both ends of the category.",
+  "description": "Wakōcha is black tea made in Japan, a small category that has grown since the 1990s as green-tea farms looked for something to do with their summer leaf and found that customers liked the result. It is softer, sweeter and lower in tannin than the black teas of India or Sri Lanka, and most of it is meant to be drunk without milk.\n\nJapan tried to be a black-tea exporter in the nineteenth century, sending the official Tada Motokichi to China and India to learn the trade. Later breeding produced the 'beni' black-tea cultivars (Benihomare, Benihikari, Benifuuki). The industry was nearly wiped out when imports were fully liberalised in 1971. The revival since the 1990s is largely a matter of small farms and small batches, by the orthodox route of withering, rolling, oxidising and drying, often with green-tea machinery and often stopping oxidation a little early. Cultivar is the biggest variable: the beni cultivars give fuller, more Assam-like teas, while Yabukita and other green cultivars give gentle, honeyed, lightly oxidised cups that can feel almost like a dark oolong.\n\nBrew it Western-style or in a kyusu with water just off the boil, 4 g for 200 ml and a minute and a half, then two more steeps; gongfu-style short steeps work well for the lighter lots. Expect honey, cooked fruit, sometimes rose or muscatel, a soft body and a clean finish; expect no malt bomb and no need for milk, and do not judge it as a failed Assam. Second-flush lots are the norm, because summer leaf carries the catechins that oxidation turns into flavour and colour.\n\nIt is sold by farm, year and usually cultivar in small bags, from late summer on, at prices that reflect small batches rather than commodity tea. Shizuoka, Kagoshima, Miyazaki, Mie and the Wazuka hills of Kyoto are among the sources, and makers now have their own national gatherings and an auction at the Shizuoka market. The producer's name tells you more than any grade, and a period of rest after production can improve the fully oxidised lots.\n\nStart with a Benifuuki black tea for the full-bodied style and a Yabukita black for the gentle one, and you will have seen both ends of the category.",
   "wikipedia_title": "Japanese tea",
   "wikipedia_scope": "umbrella",
-  "popularity": 3
+  "popularity": 3,
+  "name_zh": "和红茶",
+  "name_ru": "Вакотя",
+  "history": "Japanese black tea began as state policy. In 1874 the Meiji government sent a black-tea manual to the prefectures, hoping to earn foreign currency. It sent the former shogunate retainer Tada Motokichi to China in 1875, and in 1876 he and his colleagues brought Assam seed back from India. Kochi made about 3 tonnes of Indian-style tea in 1877, Mitsui began serious exports in 1878, and 1927 brought the first domestic brand, later known as Nitto Tea.\n\nFull import liberalisation in 1971 nearly ended the industry. It came back in the 1990s, when green-tea growers around the country began making black tea, and Benifuuki was registered as a new black-tea cultivar in 1993. A first national summit of local black-tea makers met at Nawa in Tottori in 2002.\n\nIt remains small: output passed an estimated 100 tonnes around 2010 and was put at 100 to 200 tonnes in 2023, about 1 percent of the black tea Japan drinks. Recognition has still grown. A summer-picked Benifuuki from Kumamoto won Best in Show at a UK Tea Academy competition in London in 2022, and Shizuoka's tea market held its first domestic black-tea auction in May 2023.",
+  "liquor_hex": "#C9742E",
+  "leaf_hex": "#3D2A1C",
+  "sources": [
+    "https://www.nippon.com/ja/japan-topics/g02323/"
+  ],
+  "confidence": "medium",
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5a/%E3%81%8A%E4%BC%8A%E5%8B%A2%E3%81%95%E3%82%93%E3%81%AE%E5%92%8C%E7%B4%85%E8%8C%B6%E3%80%8C%E7%91%9E%E3%80%8D%28%E3%83%9B%E3%83%83%E3%83%88%29%E3%81%A8%E7%8F%88%E7%90%B2%E6%89%80%E3%81%AE%E3%83%97%E3%83%AA%E3%83%B3.jpg/1280px-%E3%81%8A%E4%BC%8A%E5%8B%A2%E3%81%95%E3%82%93%E3%81%AE%E5%92%8C%E7%B4%85%E8%8C%B6%E3%80%8C%E7%91%9E%E3%80%8D%28%E3%83%9B%E3%83%83%E3%83%88%29%E3%81%A8%E7%8F%88%E7%90%B2%E6%89%80%E3%81%AE%E3%83%97%E3%83%AA%E3%83%B3.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5a/%E3%81%8A%E4%BC%8A%E5%8B%A2%E3%81%95%E3%82%93%E3%81%AE%E5%92%8C%E7%B4%85%E8%8C%B6%E3%80%8C%E7%91%9E%E3%80%8D%28%E3%83%9B%E3%83%83%E3%83%88%29%E3%81%A8%E7%8F%88%E7%90%B2%E6%89%80%E3%81%AE%E3%83%97%E3%83%AA%E3%83%B3.jpg/330px-%E3%81%8A%E4%BC%8A%E5%8B%A2%E3%81%95%E3%82%93%E3%81%AE%E5%92%8C%E7%B4%85%E8%8C%B6%E3%80%8C%E7%91%9E%E3%80%8D%28%E3%83%9B%E3%83%83%E3%83%88%29%E3%81%A8%E7%8F%88%E7%90%B2%E6%89%80%E3%81%AE%E3%83%97%E3%83%AA%E3%83%B3.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source_page": "https://commons.wikimedia.org/wiki/File:%E3%81%8A%E4%BC%8A%E5%8B%A2%E3%81%95%E3%82%93%E3%81%AE%E5%92%8C%E7%B4%85%E8%8C%B6%E3%80%8C%E7%91%9E%E3%80%8D(%E3%83%9B%E3%83%83%E3%83%88)%E3%81%A8%E7%8F%88%E7%90%B2%E6%89%80%E3%81%AE%E3%83%97%E3%83%AA%E3%83%B3.jpg",
+      "author": "おやすみうやむや三原則",
+      "license": "CC0",
+      "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "kind": "liquor",
+      "alt": "Cup of amber Japanese black tea with a white teapot and a pudding dessert on a wooden table"
+    }
+  ]
 }

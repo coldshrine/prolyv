@@ -1,0 +1,52 @@
+{
+  "slug": "yuchi-black-tea",
+  "name_en": "Yuchi Black Tea",
+  "name_native": "鱼池红茶",
+  "name_romanized": "Yúchí Hóngchá",
+  "aliases": [
+    "魚池紅茶"
+  ],
+  "category": "black",
+  "origin_country": "Taiwan",
+  "origin_region": "Nantou · Yuchi",
+  "cultivar": null,
+  "form": "loose",
+  "caffeine_level": "high",
+  "brewing": {
+    "grams": 3,
+    "water_ml": 200,
+    "temp_c": 95,
+    "steeps": 2,
+    "seconds": [
+      180,
+      240
+    ],
+    "notes": "A safe starting point for black tea: Western style, water just off the boil."
+  },
+  "taste_tags": [
+    "malty",
+    "sweet"
+  ],
+  "description": "Black tea from Yuchi Township in Nantou County, Taiwan, where Indian tea varieties were planted under Japanese rule.\n\nTreat it as you would any black tea: water just off the boil, a few minutes in the pot, and a seller who can say where it was grown.",
+  "wikipedia_title": null,
+  "wikipedia_scope": "none",
+  "popularity": 1,
+  "name_zh": "鱼池红茶",
+  "name_ru": "Юй Чи Хун Ча",
+  "history": "Japan began formal efforts at Taiwanese black tea in 1906, aiming for exports, but the north proved a poor fit for Assam and Sri Lankan varieties. Plantations of Indian varieties followed in Yuchi in the 1920s, and a black tea research institute opened there in 1926 to cross commercial varieties with indigenous Taiwanese ones. Its head, Kokichiro Arai, stayed on after the war under the Kuomintang, and the industry grew until the 1960s before declining.",
+  "liquor_hex": "#A8431C",
+  "leaf_hex": "#3A2A1E",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Taiwanese_tea"
+  ],
+  "confidence": "medium",
+  "images": [],
+  "stub": true,
+  "processing": "Typical of black tea: withered, rolled, fully oxidised and dried.",
+  "harvest_season": "Picked through the growing season, as with most black teas.",
+  "appearance_dry": "Usually dark twisted leaf, sometimes with golden tips.",
+  "appearance_liquor": "Usually a clear red-brown.",
+  "appearance_wet": "Usually coppery brown leaf.",
+  "taste_profile": "Expect what black teas usually give: malty, sweet and brisk.",
+  "vintage_note": "Black teas are normally sold by harvest year and are best within a couple of years."
+}

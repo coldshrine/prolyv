@@ -3,10 +3,20 @@
   "name_en": "CTC vs Orthodox (how black tea is made)",
   "name_native": null,
   "name_romanized": null,
-  "aliases": ["CTC tea", "Crush tear curl", "Cut tear curl", "Orthodox tea", "Granular tea", "Tea-bag tea", "Leaf grades"],
+  "aliases": [
+    "CTC tea",
+    "Crush tear curl",
+    "Cut tear curl",
+    "Orthodox tea",
+    "Granular tea",
+    "Tea-bag tea",
+    "Leaf grades",
+    "Mamri tea",
+    "Гранулированный чай"
+  ],
   "category": "black",
   "origin_country": "India",
-  "origin_region": "Assam (where CTC was developed in the 1930s and dominates); CTC is also the norm in Kenya and in most tea-bag black tea worldwide, while Darjeeling, China and Sri Lanka's high grades stay orthodox",
+  "origin_region": "Assam",
   "cultivar": "Assamica for most CTC; any for orthodox",
   "processing": "CTC: withered leaf is fed through pairs of serrated rollers turning at different speeds that crush, tear and curl it into small, uniform granules, which oxidise fast and are dried. Orthodox: withered leaf is rolled whole, by hand or in rolling machines, so it twists rather than shreds, then oxidised and dried and sorted into leaf grades (whole leaf, broken, fannings, dust). Each method gives a different cup from the same leaf.",
   "form": "loose",
@@ -15,12 +25,68 @@
   "appearance_liquor": "CTC: dark red-brown, fast and nearly opaque. Orthodox: brighter and more varied, from gold to copper to deep red.",
   "appearance_wet": "CTC: a uniform sludge of brown granules. Orthodox: whole or broken leaf that unfurls.",
   "taste_profile": "CTC is strong, brisk, uniform and tannic, made to give colour and body in two minutes and to carry milk and sugar; orthodox is more aromatic and layered, with the maltiness, fruit or florals of its origin, and gentler tannin.",
-  "taste_tags": ["brisk", "malty", "woody"],
-  "brewing": {"grams": 3, "water_ml": 250, "temp_c": 100, "steeps": 1, "seconds": [180], "notes": "CTC: boiling water, 2–3 minutes, milk; it is also the right tea for boiling with milk and spices as chai. Orthodox: 3 g per 250 ml at 90–95 °C for 3–4 minutes, or gongfu with short steeps for whole-leaf Chinese and Taiwanese blacks."},
+  "taste_tags": [
+    "brisk",
+    "malty",
+    "woody"
+  ],
+  "brewing": {
+    "grams": 3,
+    "water_ml": 250,
+    "temp_c": 100,
+    "steeps": 1,
+    "seconds": [
+      180
+    ],
+    "notes": "CTC: boiling water, 2–3 minutes, milk; it is also the right tea for boiling with milk and spices as chai. Orthodox: 3 g per 250 ml at 90–95 °C for 3–4 minutes, or gongfu with short steeps for whole-leaf Chinese and Taiwanese blacks."
+  },
   "caffeine_level": "high",
   "vintage_note": "CTC is sold year-round with no harvest year, by granule grade (BP, PF, PD, dust) and origin, as a commodity in bags and loose; consistency, not vintage, is the point. Orthodox black tea is sold by season and leaf grade, Darjeeling and Assam by flush and garden, Ceylon by district and grade (OP, BOP, FBOP and so on), Chinese blacks by spring harvest. Both keep two to three years sealed. Most black tea in the world is CTC; nearly all the black tea in a specialist shop is orthodox.",
-  "description": "Every black tea is made one of two ways, and the choice shapes the cup more than the origin does. Orthodox is the old method: withered leaf rolled whole so it twists and bruises, then oxidised and dried, producing the twisted, tippy leaf of a Darjeeling or a Keemun. CTC, for crush, tear, curl, was developed in Assam in the 1930s: the leaf goes through serrated rollers that shred it into tiny granules, which oxidise in minutes and dry into something like coarse coffee grounds.\n\nThe difference is about surface area and speed. Granules give up colour, strength and tannin in two minutes, brew the same every time, fit in tea bags and stand up to milk and sugar, which is why CTC became the basis of the tea-bag industry, of Indian chai and of most of the black tea drunk on earth. Whole and broken orthodox leaf extracts slowly and unevenly and keeps the aromatic compounds that shredding destroys, which is why every tea with a reputation for flavour, from first flush Darjeeling to Dian Hong, is orthodox.\n\nIn the cup, CTC is brisk, strong, uniform and a little rough, and it is at its best boiled with milk or drunk strong with milk and sugar. Orthodox black is where the malt, fruit, florals and honey live, and it is wasted on a bag and a splash of milk. The mistake is to judge one by the other's standards: a delicate orthodox tea brewed like a bag tastes thin, and a CTC brewed gently tastes of nothing.\n\nOn the shelf, CTC comes by granule grade and is a commodity; orthodox comes by season, garden and leaf grade and is a craft product. Read the leaf: granules mean CTC, twists mean orthodox, and a 'leaf tea' that is actually fine broken orthodox grades sits in between.\n\nTo taste the difference directly, brew a CTC Assam and an orthodox second-flush Assam from the same season side by side, first plain, then with milk. Each wins one of those rounds.",
+  "description": "Every black tea is made one of two ways, and the choice shapes the cup more than the origin does. Orthodox is the old method: withered leaf rolled whole so it twists and bruises, then oxidised and dried, producing the twisted, tippy leaf of a Darjeeling or a Keemun. CTC, for crush, tear, curl, was developed in Assam in the 1930s: the leaf goes through serrated rollers that shred it into tiny granules, which oxidise quickly and dry into something like coarse coffee grounds.\n\nThe difference is about surface area and speed. Granules give up colour, strength and tannin in two minutes, brew the same every time, fit in tea bags and stand up to milk and sugar, which is why CTC became the basis of the tea-bag industry, of Indian chai and of most of the black tea drunk on earth. Whole and broken orthodox leaf extracts slowly and unevenly and keeps the aromatic compounds that shredding destroys, which is why every tea with a reputation for flavour, from first flush Darjeeling to Dian Hong, is orthodox.\n\nIn the cup, CTC is brisk, strong, uniform and a little rough, and it is at its best boiled with milk or drunk strong with milk and sugar. Orthodox black is where the malt, fruit, florals and honey live, and it is wasted on a bag and a splash of milk. The mistake is to judge one by the other's standards: a delicate orthodox tea brewed like a bag tastes thin, and a CTC brewed gently tastes of nothing.\n\nOn the shelf, CTC comes by granule grade and is a commodity; orthodox comes by season, garden and leaf grade and is a craft product. Read the leaf: granules mean CTC, twists mean orthodox, and a 'leaf tea' that is actually fine broken orthodox grades sits in between.\n\nTo taste the difference directly, brew a CTC Assam and an orthodox second-flush Assam from the same season side by side, first plain, then with milk. Each wins one of those rounds.",
   "wikipedia_title": "Crush, tear, curl",
   "wikipedia_scope": "exact",
-  "popularity": 3
+  "popularity": 3,
+  "name_zh": "CTC红茶与传统工艺红茶",
+  "name_ru": "Гранулированный чай (CTC) и ортодоксальный чай",
+  "history": "Orthodox rolling is the older way of making black tea, and CTC was built to replace its last stage: instead of being rolled into strips, the leaf passes through toothed rollers that crush, tear and curl it into small, hard pellets. The first CTC machine went into service in 1930 at the Amgoorie Tea Garden in Assam, under the supervision of Sir William McKercher.\n\nThe method took off later. It spread over about three decades from 1950, fastest in India and Africa, because it was cheap, gave a strong dark brew quickly and suited tea bags. Today more than 80% of Indian tea is CTC, and it stays in high demand in the CIS, the Middle East, the UK and Ireland. One common estimate puts it at about two thirds of the world's black tea.\n\nThe price of that success is sameness. CTC teas from different places look and smell much alike, which makes them easier to adulterate than orthodox leaf, whose grades and origins are visibly different.",
+  "liquor_hex": "#8E3F18",
+  "leaf_hex": "#4A2F1E",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Crush%2C_tear%2C_curl",
+    "https://ja.wikipedia.org/wiki/Crush%2C_Tear_and_Curl",
+    "https://ru.wikipedia.org/wiki/%D0%93%D1%80%D0%B0%D0%BD%D1%83%D0%BB%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%BD%D1%8B%D0%B9_%D1%87%D0%B0%D0%B9"
+  ],
+  "confidence": "high",
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/46/Assam_CTC_Hanamizuki_2009.JPG/1280px-Assam_CTC_Hanamizuki_2009.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/46/Assam_CTC_Hanamizuki_2009.JPG/330px-Assam_CTC_Hanamizuki_2009.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Assam_CTC_Hanamizuki_2009.JPG",
+      "author": "USAGI-WRP",
+      "license": "CC BY 3.0",
+      "license_url": "https://creativecommons.org/licenses/by/3.0",
+      "kind": "dry_leaf",
+      "alt": "Close view of dark, granular Assam CTC black tea in a white bowl"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/3/3b/CTC_tea.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3b/CTC_tea.jpg/330px-CTC_tea.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source_page": "https://commons.wikimedia.org/wiki/File:CTC_tea.jpg",
+      "author": "Naresh.limbu at English Wikipedia",
+      "license": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "kind": "dry_leaf",
+      "alt": "Small dark CTC tea granules spread on white cloth"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f6/English_Five_O_Clock_Tea.jpg/1280px-English_Five_O_Clock_Tea.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f6/English_Five_O_Clock_Tea.jpg/330px-English_Five_O_Clock_Tea.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source_page": "https://commons.wikimedia.org/wiki/File:English_Five_O_Clock_Tea.jpg",
+      "author": "Selena N. B. H. from Fayetteville, USA",
+      "license": "CC BY 2.0",
+      "license_url": "https://creativecommons.org/licenses/by/2.0",
+      "kind": "dry_leaf",
+      "alt": "Fine CTC black tea granules in a metal scoop"
+    }
+  ]
 }

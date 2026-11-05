@@ -1,0 +1,51 @@
+{
+  "slug": "benihomare",
+  "name_en": "Benihomare",
+  "name_native": "べにほまれ",
+  "name_romanized": "Benihomare",
+  "aliases": [],
+  "category": "black",
+  "origin_country": "Japan",
+  "origin_region": "Japan",
+  "cultivar": "Benihomare",
+  "processing": "Used for fully oxidised black tea (wakocha): withered, rolled, oxidised and dried.",
+  "form": "loose",
+  "harvest_season": "Not documented here; Japanese black tea is typically made from spring and summer flushes.",
+  "appearance_dry": "Dark, twisted leaf, as is typical of Japanese black tea.",
+  "appearance_liquor": "Reddish amber and clear.",
+  "appearance_wet": "Brown to coppery whole and broken leaf.",
+  "taste_profile": "Black tea from an Assam-type hybrid typically gives a full, malty cup with noticeable astringency; specific notes vary by maker.",
+  "taste_tags": [
+    "malty",
+    "brisk",
+    "woody"
+  ],
+  "brewing": {
+    "grams": 4,
+    "water_ml": 200,
+    "temp_c": 95,
+    "steeps": 3,
+    "seconds": [
+      180,
+      180,
+      240
+    ],
+    "notes": "Western style in a pot; add milk if it is too firm."
+  },
+  "caffeine_level": "medium",
+  "vintage_note": "Sold as the current year's harvest in small lots from individual growers; it is not usually aged. Check the label, since cultivar-named wakocha is made in small amounts and not every year.",
+  "description": "Benihomare is a Japanese tea cultivar developed for black tea. It is chiefly known today as the mother plant of Benifuuki, a better-known cultivar, rather than for its own cups.\n\nIt is described as an Assam-type hybrid, which in the cup usually means a fuller, stronger and more astringent tea than the usual Japanese green-tea cultivars give.\n\nBecause it is rarely sold under its own name, details of its flavour are patchy. Treat the notes here as typical of an Assam-type black tea and trust the maker's description of the actual lot.\n\nIf you see it on a label from a small Japanese grower, it is worth trying beside a Benifuuki black tea to taste the family resemblance.",
+  "history": "Benihomare was a black tea cultivar of the Assam-hybrid type. It was chosen as the seed parent when Benifuuki was bred, in a cross begun in 1965, with the Darjeeling-type line Makura Cd86 as the pollen parent, because it ferments well and makes good black tea.\n\nIts own breeding date and history are not confirmed here.",
+  "liquor_hex": "#B04A1C",
+  "leaf_hex": "#3B2616",
+  "sources": [
+    "https://www.affrc.maff.go.jp/docs/hinsyu/pdf/cha9_benihuuki.pdf"
+  ],
+  "confidence": "low",
+  "wikipedia_title": null,
+  "wikipedia_scope": "none",
+  "popularity": 2,
+  "images": [],
+  "name_zh": "贝尼霍马雷",
+  "name_ru": "Бэнихомарэ"
+}

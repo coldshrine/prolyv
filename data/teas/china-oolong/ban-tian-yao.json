@@ -65,5 +65,27 @@
     "https://www.sohu.com/a/333399743_100100765",
     "https://www.cnpp.cn/focus/3521173.html"
   ],
-  "confidence": "medium"
+  "confidence": "medium",
+  "images": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/1/1b/Ban_Tian_Yao_Oolong_tea_leaf.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1b/Ban_Tian_Yao_Oolong_tea_leaf.jpg/330px-Ban_Tian_Yao_Oolong_tea_leaf.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Ban_Tian_Yao_Oolong_tea_leaf.jpg",
+      "author": "User Iateasquirrel on en.wikipedia",
+      "license": "CC BY-SA 3.0",
+      "license_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+      "kind": "dry_leaf",
+      "alt": "Pile of dry Ban Tian Yao oolong leaves on a white background"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/2/2f/Ban_Tian_Yao_Oolong_tea_leaf_close.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2f/Ban_Tian_Yao_Oolong_tea_leaf_close.jpg/330px-Ban_Tian_Yao_Oolong_tea_leaf_close.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Ban_Tian_Yao_Oolong_tea_leaf_close.jpg",
+      "author": "User Iateasquirrel on en.wikipedia",
+      "license": "CC BY-SA 3.0",
+      "license_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+      "kind": "dry_leaf",
+      "alt": "Close-up of dry, twisted Ban Tian Yao oolong leaves"
+    }
+  ]
 }

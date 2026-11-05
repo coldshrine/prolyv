@@ -1,0 +1,59 @@
+{
+  "slug": "irimushicha",
+  "name_en": "Irimushicha",
+  "name_native": "炒り蒸し茶",
+  "name_romanized": "Irimushicha",
+  "name_zh": "炒蒸茶",
+  "name_ru": "Иримуситя",
+  "aliases": [
+    "Irimushi",
+    "Irimushi Cha",
+    "Irimushi-Cha",
+    "炒り蒸し"
+  ],
+  "category": "green",
+  "origin_country": "Japan",
+  "origin_region": "Kagoshima",
+  "cultivar": null,
+  "processing": "Fresh leaves are heated in a special facility at about 300 °C with very little steam, which still reaches the leaf evenly and stops oxidation. Rolling and drying follow, as for other Japanese green teas.",
+  "form": "loose",
+  "harvest_season": "Used across pickings, and especially helpful for coarser leaf from later harvests.",
+  "appearance_dry": "Typically dark green needles, with the improved colour the method is credited with.",
+  "appearance_liquor": "Typically a clear yellow-green, as with other steamed Japanese greens.",
+  "appearance_wet": "Soft green leaf, typical of a Japanese steamed green tea.",
+  "taste_profile": "Little is recorded for the style as a whole beyond a stronger aroma; expect a steamed green character, as with other Japanese greens, with aroma more forward.",
+  "taste_tags": [
+    "vegetal",
+    "sweet",
+    "roasted"
+  ],
+  "brewing": {
+    "grams": 5,
+    "water_ml": 120,
+    "temp_c": 75,
+    "steeps": 3,
+    "seconds": [
+      60,
+      15,
+      40
+    ],
+    "notes": "Start as you would with an everyday sencha and adjust to the base leaf, since bancha can take hotter water."
+  },
+  "caffeine_level": "medium",
+  "vintage_note": "Sold by the specific tea and not as a class, mostly sencha, bancha and Benifuuki, and the method is rarely a headline on the label. As usual for Japanese greens, look for the current year's harvest and drink it within about a year.",
+  "description": "Irimushi is a method rather than a named tea: a way of halting oxidation with intense heat and very little steam. Irimushicha is green tea made that way, and the term is rarely seen outside specialist shops.\n\nThe heating unit runs at about 300 °C, and although there is very little steam, the leaves are still treated evenly. It sits somewhere between ordinary steaming and pan-firing, but it should not be confused with kamairicha, which is fired in a pan and not steamed.\n\nThe method is credited with strengthening aroma and improving colour, which helps coarser leaves from later harvests and cultivars with less fine leaf. Taste notes for the whole class are hard to pin down, since the base leaf matters more. Brew as you would a comparable sencha or bancha.\n\nThe German seller Keiko uses it with its Japanese partner Shimodozono for Benifuuki, sencha and bancha, and says so on the boxes. If a tea does not state the method, you have no way of telling from the leaf alone.\n\nConsider this one a curiosity to compare, not a style to chase: try it beside a standard sencha from a similar harvest.",
+  "history": "Little is documented about the origin of this method, and no dates or inventors are on record. Its main public account comes from the German importer Keiko, which says its Japanese partner Shimodozono developed and refined its steaming methods over the years, and that a related Benifuuki process was worked out with the Kagoshima tea research institute.\n\nThe word itself is not clearly standardised. Similar terms such as 炒蒸し appear in Japanese technical writing, including a Kagoshima report on a steamed and fired tencha.",
+  "liquor_hex": "#CFC672",
+  "leaf_hex": "#3F5230",
+  "sources": [
+    "https://www.keiko.de/tee-lexikon/irimushi/",
+    "https://www.wikidata.org/wiki/Q124606580",
+    "https://www.pref.kagoshima.jp/ag11/pop-tech/nenndo/documents/70049_20201106160348-1.pdf"
+  ],
+  "confidence": "low",
+  "wikipedia_title": null,
+  "wikipedia_scope": "none",
+  "popularity": 2,
+  "sources_note": "Process rests almost entirely on one importer's account; region reflects that producer only. name_zh is a plain rendering.",
+  "images": []
+}

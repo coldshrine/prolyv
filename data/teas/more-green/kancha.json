@@ -1,0 +1,55 @@
+{
+  "slug": "kancha",
+  "name_en": "Kancha",
+  "name_native": "寒茶",
+  "name_romanized": "Kancha",
+  "name_zh": "寒茶",
+  "name_ru": "Кантя",
+  "aliases": [
+    "Winter bancha",
+    "Asuke kancha",
+    "足助寒茶",
+    "Shishikui kancha",
+    "宍喰寒茶"
+  ],
+  "category": "green",
+  "origin_country": "Japan",
+  "origin_region": "Aichi · Asuke",
+  "cultivar": null,
+  "processing": "Leaves and some branch are picked by hand, steamed, separated from the twigs and sun-dried. In Shishikui, Tokushima, the leaf is also rolled by hand.",
+  "form": "loose",
+  "harvest_season": "Winter only, the cold-season picking that gives the tea its name.",
+  "appearance_dry": "Large, flat brownish leaves that look more like houjicha than green tea.",
+  "appearance_liquor": "Golden and clear.",
+  "appearance_wet": "Large, soft, dull brown-green leaves, with the occasional bit of stem.",
+  "taste_profile": "Mild and gently sweet with a slight sourness, and very little bite.",
+  "taste_tags": [
+    "sweet",
+    "tart",
+    "woody"
+  ],
+  "brewing": {
+    "grams": 3,
+    "water_ml": 120,
+    "temp_c": 100,
+    "steeps": 1,
+    "seconds": [
+      300
+    ],
+    "notes": "Use boiling water for about five minutes. Traditional practice can go further and simmer the leaf in a pot for up to 15 minutes."
+  },
+  "caffeine_level": "low",
+  "vintage_note": "Made once a year in winter in tiny quantities and sold locally as the latest harvest, with no vintage culture around it. It is a rustic everyday tea valued for rarity rather than refinement, and it is rarely seen outside its home areas.",
+  "description": "Kancha means cold-season tea: a bancha picked in the depth of winter, when tea plants are dormant and almost nobody else in Japan is harvesting. It comes from two small places, Asuke in Aichi and Shishikui in Tokushima, and each one's tea carries the local name.\n\nThe leaf often comes from semi-wild trees rather than clipped rows, and it is picked by hand with a fair amount of branch. It is steamed, stripped from the twigs and dried in the sun. Shishikui makers add hand rolling.\n\nWinter leaf has lower catechins and caffeine than regular bancha, and you can taste it: the cup is mild and slightly sweet with a hint of sourness. It is hard to spoil. Boil it, or give it five minutes in boiling water, and do not expect any delicate aromatics.\n\nThis is a tea to seek out for curiosity and its low caffeine, not for complexity. If you find it, it is worth tasting next to a roasted houjicha, which it resembles in looks but not in flavour.",
+  "history": "Kancha is a village tradition, and little is documented about when either place began making it. It survives as a local product made by people working in traditional ways, without a commercial tea-field system behind it.",
+  "liquor_hex": "#C9A04A",
+  "leaf_hex": "#6B5A3A",
+  "sources": [
+    "https://myjapanesegreentea.com/kancha"
+  ],
+  "confidence": "low",
+  "wikipedia_title": null,
+  "wikipedia_scope": "none",
+  "popularity": 2,
+  "images": []
+}

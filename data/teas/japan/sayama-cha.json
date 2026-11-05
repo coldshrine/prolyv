@@ -3,25 +3,93 @@
   "name_en": "Sayama Tea",
   "name_native": "狭山茶",
   "name_romanized": "Sayamacha",
-  "aliases": ["Sayama-cha", "Sayama sencha", "Saitama tea", "Iruma tea", "Sayama green tea"],
+  "aliases": [
+    "Sayama-cha",
+    "Sayama sencha",
+    "Saitama tea",
+    "Iruma tea",
+    "Sayama green tea",
+    "狹山茶",
+    "Kawagoe tea",
+    "Tokyo Sayama tea"
+  ],
   "category": "green",
   "origin_country": "Japan",
-  "origin_region": "Saitama · Iruma, Sayama and Tokorozawa (Musashino plateau)",
+  "origin_region": "Saitama · Sayama",
   "cultivar": "Yabukita, Sayamakaori, Musashikaori, Fukumidori, Hokumei",
   "processing": "Steamed sencha, typically normal to deep steaming, finished with the strong final firing known as 'Sayama hi-ire', which gives the tea its toasty depth; most farms grow, process and sell their own tea.",
   "form": "loose",
-  "harvest_season": "First flush in May (late because of the cold winters) and a second flush in late June or July; many farms pick only these two.",
+  "harvest_season": "First flush shipped in April and May (late because of the cold winters) and a second flush in late June or July; many farms pick only these two.",
   "appearance_dry": "Dark green, slightly thick needles with a matte finish and a faintly roasted smell.",
   "appearance_liquor": "Bright yellow-green, slightly cloudy.",
   "appearance_wet": "Thick, soft, deep green leaves.",
   "taste_profile": "Full-bodied and sweet with a toasty, warm firing note over the green, more weight and less delicacy than Shizuoka tea, and a long finish.",
-  "taste_tags": ["sweet", "roasted", "umami", "vegetal"],
-  "brewing": {"grams": 5, "water_ml": 150, "temp_c": 80, "steeps": 3, "seconds": [60, 20, 60], "notes": "Takes slightly hotter water than other sencha without turning bitter, and the roasted firing note comes out with it."},
+  "taste_tags": [
+    "sweet",
+    "roasted",
+    "umami",
+    "vegetal"
+  ],
+  "brewing": {
+    "grams": 5,
+    "water_ml": 150,
+    "temp_c": 80,
+    "steeps": 3,
+    "seconds": [
+      60,
+      20,
+      60
+    ],
+    "notes": "Takes slightly hotter water than other sencha without turning bitter, and the roasted firing note comes out with it."
+  },
   "caffeine_level": "medium",
-  "vintage_note": "Sold as the current year's harvest by family farms and their shops around Iruma, with shincha in May and the year's ichibancha after; the second flush is sold as a cheaper summer tea rather than blended away. Because the region sells mostly direct, you usually get a named farm and often a cultivar. Drink within the year.",
-  "description": "Sayama tea comes from the Musashino plateau in Saitama, an hour from central Tokyo, and it is the northernmost of Japan's historic tea regions and the smallest of the famous three. An old tea-picking song ranks Shizuoka for colour, Uji for aroma and Sayama for taste, and the taste it means is a full, sweet, toasty depth that comes from cold winters and a hard final firing.\n\nThe winters are the key: the bushes grow slowly and make thick, sturdy leaves with plenty of substance, and the region finishes its tea with a strong firing known as Sayama hi-ire that gives a warm, lightly roasted note under the green. Most Sayama farms grow, process and sell their own tea, which is unusual in Japan, and many pick only a first flush in May and a second in early summer. Yabukita is still the main cultivar, with locally bred Sayamakaori, Musashikaori, Fukumidori and Hokumei giving the region some of its own character.\n\nIt takes a little hotter water than most sencha, 80 °C, with a one-minute first steep, and the firing note comes through alongside the umami and a long, sweet finish; it is more body than delicacy, and it is hard to brew badly. The second steep is quick, the third can go hotter still.\n\nBecause the region sells mostly direct, you usually get a named farm, often a cultivar, and sometimes a note on the firing level; the shops are clustered around Iruma and Sayama, and Tokyo department stores carry it. Output is small, so it is rarely exported and is priced like a specialist tea. The year's shincha arrives in May, a little later than Shizuoka, and the second flush is sold honestly as a cheaper summer tea rather than blended away.\n\nIt is a tea that suits sweets: drink it with wagashi or anything with red bean, and if you are in Tokyo, the farms around Iruma are an easy day out.",
+  "vintage_note": "Sold as the current year's harvest by family farms and their shops around Iruma, with shincha in May and the year's ichibancha after; the second flush follows in June and July as a cheaper summer tea. Because the region sells mostly direct, you usually get a named farm and often a cultivar. Drink within the year.",
+  "description": "Sayama tea comes from the Musashino plateau in Saitama, an hour from central Tokyo, and it is the northernmost of Japan's historic tea regions and the smallest of the famous three. An old tea-picking song ranks Shizuoka for colour, Uji for aroma and Sayama for taste, and the taste it means is a full, sweet, toasty depth that comes from cold winters and a hard final firing.\n\nThe winters are the key: the bushes grow slowly and make thick, sturdy leaves with plenty of substance, and the region finishes its tea with a strong firing known as Sayama hi-ire that gives a warm, lightly roasted note under the green. Most Sayama farms grow, process and sell their own tea, which is unusual in Japan, and many pick only a first flush in May and a second in early summer. Yabukita is still the main cultivar, with locally bred Sayamakaori, Musashikaori, Fukumidori and Hokumei giving the region some of its own character.\n\nIt takes a little hotter water than most sencha, 80 °C, with a one-minute first steep, and the firing note comes through alongside the umami and a long, sweet finish; it is more body than delicacy, and it is hard to brew badly. The second steep is quick, the third can go hotter still.\n\nBecause the region sells mostly direct, you usually get a named farm, often a cultivar, and sometimes a note on the firing level; the shops are clustered around Iruma and Sayama, and Tokyo department stores carry it. Output is small, so it is rarely exported and is priced like a specialist tea. The year's shincha arrives in May, a little later than Shizuoka, and the second flush follows in June and July as a cheaper summer tea.\n\nIt is a tea that suits sweets: drink it with wagashi or anything with red bean, and if you are in Tokyo, the farms around Iruma are an easy day out.",
   "wikipedia_title": "Sayama tea",
   "wikipedia_scope": "exact",
   "popularity": 3,
-  "sources_note": "English Wikipedia title assumed to be 'Sayama tea'; if absent, use 'Japanese tea' as umbrella."
+  "sources_note": "English Wikipedia title assumed to be 'Sayama tea'; if absent, use 'Japanese tea' as umbrella.",
+  "name_zh": "狭山茶",
+  "name_ru": "Саяма-тя",
+  "history": "Tradition starts Sayama tea in the Kamakura period, and one temple, Naka-in in Kawagoe, marks itself as the birthplace, crediting the monk Ennin with planting there; neither claim is firmly documented. Firmer ground is a Nanboku-cho era text naming Musashi's Kawagoe among the good tea districts, after which war interrupted production in the Sengoku period. For much of the Edo period the tea went by the name Kawagoe tea.\n\nThe revival came in 1802, when Yoshikawa Yoshizumi, Murano Morimasa and Sashida Han'emon worked out a method based on Uji's, steaming the leaf and then rolling it dry on washi over a roasting pan. From 1819 it went to Edo in quantity. After the Meiji Restoration it was exported through Yokohama, and in 1875 a company formed by local growers, the Sayama Company, began shipping directly to New York; the Sayama name settled around this time.\n\nProduction peaked in the 1960s and 1970s and has since fallen to about half as the district became commuter land for Tokyo. Iruma now makes about 60% of it, and the fields on the Tokyo side are sometimes called Tokyo Sayama tea.",
+  "liquor_hex": "#CFCB5E",
+  "leaf_hex": "#3A4F2C",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Sayama_tea",
+    "https://ja.wikipedia.org/wiki/%E7%8B%AD%E5%B1%B1%E8%8C%B6",
+    "https://en.wikipedia.org/wiki/Naka-in"
+  ],
+  "confidence": "high",
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d3/Iruma_Sayama_Tea_Field_3.JPG/1280px-Iruma_Sayama_Tea_Field_3.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d3/Iruma_Sayama_Tea_Field_3.JPG/330px-Iruma_Sayama_Tea_Field_3.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Iruma_Sayama_Tea_Field_3.JPG",
+      "author": "京浜にけ",
+      "license": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "kind": "plantation",
+      "alt": "Rounded rows of Sayama tea bushes in a field in Iruma, Saitama"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2d/Iruma_Sayama_Tea_Field_1.JPG/1280px-Iruma_Sayama_Tea_Field_1.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2d/Iruma_Sayama_Tea_Field_1.JPG/330px-Iruma_Sayama_Tea_Field_1.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Iruma_Sayama_Tea_Field_1.JPG",
+      "author": "京浜にけ",
+      "license": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "kind": "plantation",
+      "alt": "Wide Sayama tea field under a blue sky in Iruma, Saitama"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6d/Iruma_Takakura_Elementary_School_2013-09.JPG/1280px-Iruma_Takakura_Elementary_School_2013-09.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6d/Iruma_Takakura_Elementary_School_2013-09.JPG/330px-Iruma_Takakura_Elementary_School_2013-09.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Iruma_Takakura_Elementary_School_2013-09.JPG",
+      "author": "At by At",
+      "license": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "kind": "plantation",
+      "alt": "Sayama tea field with a school building in the distance in Iruma, Saitama"
+    }
+  ]
 }

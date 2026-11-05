@@ -1,0 +1,55 @@
+{
+  "slug": "rizhao-black-tea",
+  "name_en": "Rizhao Black Tea",
+  "name_native": "日照红茶",
+  "name_romanized": "Rìzhào Hóngchá",
+  "name_zh": "日照红茶",
+  "name_ru": "Жи Чжао Хун Ча",
+  "aliases": [
+    "Rizhao Hongcha",
+    "日照紅茶"
+  ],
+  "category": "black",
+  "origin_country": "China",
+  "origin_region": "Shandong · Rizhao",
+  "cultivar": null,
+  "processing": "Little is published about a local method; as with Chinese black teas generally, the leaf is withered, rolled, oxidised and dried.",
+  "form": "loose",
+  "harvest_season": "Not specifically documented. Rizhao's long, cold winters and springs give a late season; spring leaf is usually the most valued, as elsewhere in China.",
+  "appearance_dry": "Typical of Chinese black teas of its kind: dark, twisted strips.",
+  "appearance_liquor": "Typically a clear reddish amber.",
+  "appearance_wet": "Typically soft, reddish-brown leaf.",
+  "taste_profile": "Few tasting accounts exist; Rizhao's greens are known for thick leaf and strong flavour, and a sturdy, sweet black tea is what its class would suggest.",
+  "taste_tags": [
+    "sweet",
+    "malty"
+  ],
+  "brewing": {
+    "grams": 5,
+    "water_ml": 110,
+    "temp_c": 90,
+    "steeps": 5,
+    "seconds": [
+      10,
+      15,
+      20,
+      30,
+      45
+    ],
+    "notes": "A general starting point for Chinese black tea; shorten the steeps if a thick-leaf lot brews too strong."
+  },
+  "caffeine_level": "medium",
+  "vintage_note": "As with most regional Chinese black tea, it is normally sold as the current year's harvest, and it is best within a year or two. No ageing market is recorded.",
+  "description": "Rizhao Black Tea comes from the coastal city of Rizhao in southern Shandong, a far-northern place for tea. Rizhao is famous for green tea, with Lanshan district a main growing area, and the black tea is a side branch of that industry.\n\nThe method follows the usual Chinese pattern of withering, rolling, oxidising and drying. Nothing specific to Rizhao is well recorded, so expect differences between makers.\n\nLocal promotion praises Rizhao leaf as thick and strong, a claim made about the green tea. If that carries over, it should stand up to several steeps, but taste before you believe it. Start short.\n\nAsk for the harvest year and season. The name points to a place, not to a defined style.",
+  "history": "Tea came to Rizhao through the programme to move tea north, begun in the mid-1950s. Accounts differ on the milestones, but by the 1960s bushes had survived in the county, with specialists from the national tea institute helping.\n\nThe industry that followed was built on green tea. Little is documented about when black tea production began.",
+  "liquor_hex": "#AC5A27",
+  "leaf_hex": "#42291A",
+  "sources": [
+    "https://news.qq.com/rain/a/20260724A06YAM00"
+  ],
+  "confidence": "low",
+  "wikipedia_title": null,
+  "wikipedia_scope": "none",
+  "popularity": 2,
+  "images": []
+}

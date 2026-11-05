@@ -3,10 +3,16 @@
   "name_en": "Nanjing Yu Hua (Rain Flower Tea)",
   "name_native": "南京雨花茶",
   "name_romanized": "Nánjīng Yǔhuā Chá",
-  "aliases": ["Yu Hua Cha", "Rain Flower tea", "Yuhua tea", "Nanjing Yuhua", "Rain Flower Needle"],
+  "aliases": [
+    "Yu Hua Cha",
+    "Rain Flower tea",
+    "Yuhua tea",
+    "Nanjing Yuhua",
+    "Rain Flower Needle"
+  ],
   "category": "green",
   "origin_country": "China",
-  "origin_region": "Jiangsu · Nanjing (Zhongshan, Jiangning, Lishui, Gaochun)",
+  "origin_region": "Jiangsu · Nanjing",
   "cultivar": "Local Jiangsu landrace, Fuding Dabai and Longjing 43",
   "processing": "Pan-fired green shaped into straight needles: shoots are fired, rolled, then rubbed and straightened in a warm pan until the leaf is round, tight and straight, and finished with a low-heat drying.",
   "form": "loose",
@@ -15,13 +21,39 @@
   "appearance_liquor": "Pale green, bright and clear.",
   "appearance_wet": "Slim bud-and-leaf sets, bright green and tender.",
   "taste_profile": "Light and fresh with a chestnut-bean sweetness, a faint floral note and a clean, soft finish.",
-  "taste_tags": ["nutty", "sweet", "vegetal", "floral"],
-  "brewing": {"grams": 3, "water_ml": 150, "temp_c": 80, "steeps": 3, "seconds": [45, 45, 70], "notes": "Tall glass at 80 °C, water first; the needles drop straight down and stand on end, which is half the pleasure."},
+  "taste_tags": [
+    "nutty",
+    "sweet",
+    "vegetal",
+    "floral"
+  ],
+  "brewing": {
+    "grams": 3,
+    "water_ml": 150,
+    "temp_c": 80,
+    "steeps": 3,
+    "seconds": [
+      45,
+      45,
+      70
+    ],
+    "notes": "Tall glass at 80 °C, water first; the needles drop straight down and stand on end, which is half the pleasure."
+  },
   "caffeine_level": "medium",
   "vintage_note": "Sold as the current year's spring harvest, graded special grade and grades 1 to 2 by picking date and bud ratio; nearly all of it is sold in Nanjing and Jiangsu, often in gift tins. Drink within the year, kept cold and sealed.",
   "description": "Nanjing Yu Hua, 'rain flower tea', is a modern green: it was created in Nanjing in the late 1950s, named after Yuhuatai, the Rain Flower Terrace on the south side of the city, and shaped deliberately as a straight, round needle, like a pine needle, to be a civic tea in the way Longjing is Hangzhou's. The gardens are in the hills around the city: Purple Mountain, Jiangning, Lishui and Gaochun.\n\nMaking a round, straight needle out of a soft spring shoot takes a particular kind of pan work: after firing and rolling, the leaf is rubbed and rolled lengthwise in a warm pan with the palms until it tightens and straightens, then dried gently so it stays green. It is close in method to Xinyang Mao Jian but finer and less downy.\n\nIt drinks light and fresh, bean and chestnut sweetness with a faint floral note and a clean, soft finish, a little less savoury than Longjing and less fruity than Biluochun. In a tall glass at 80 °C the needles sink and stand upright, and three steeps is its range. It does not want strength or heat.\n\nIt is sold as the spring crop of the current year, in special grade and grades 1 and 2 by picking date, and almost all of it is sold in and around Nanjing, often in gift tins. Elsewhere in China it is a curiosity; abroad it is rare. If you find it, look for straight, even needles with a bit of silver and a sweet smell, and a picking date in late March or early April.\n\nIt is a nice tea to carry home as a souvenir because it says where it is from; it is not a tea to chase at a high price.",
   "wikipedia_title": "Green tea",
   "wikipedia_scope": "umbrella",
   "popularity": 2,
-  "sources_note": "No dedicated English Wikipedia article found. Creation date 'late 1950s' follows Chinese sources (1958–59 is commonly cited)."
+  "sources_note": "No dedicated English Wikipedia article found. Creation date 'late 1950s' follows Chinese sources (1958–59 is commonly cited).",
+  "name_zh": "雨花茶",
+  "name_ru": "Нань Цзин Юй Хуа",
+  "history": "The ground was laid in 1907, when the Qing official Zheng Shihuang set up the Jiangnan tea planting institute near Zhongshan, a state research body regarded as a starting point for modern Chinese tea science. By the 1950s only 47 mu of those old gardens remained to be restored.\n\nThe tea itself is a planned creation. In 1958 Nanjing proposed a new famous tea to honour revolutionary martyrs and mark the tenth National Day. A provincial committee settled on the pine-needle shape and the name, both chosen with commemoration in mind, after Yuhuatai, and the first batch was fired on 20 April 1959.\n\nIt became a geographical indication product in 2004, with a national standard published in 2006 that fixes the permitted districts of Nanjing. Handwork has given way: by 2010 about 90 percent of output was machine-made.",
+  "liquor_hex": "#DBD994",
+  "leaf_hex": "#4F6B3A",
+  "sources": [
+    "https://zh.wikipedia.org/wiki/%E9%9B%A8%E8%8A%B1%E8%8C%B6"
+  ],
+  "confidence": "medium",
+  "images": []
 }

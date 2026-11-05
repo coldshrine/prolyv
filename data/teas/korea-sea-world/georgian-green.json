@@ -3,10 +3,17 @@
   "name_en": "Georgian Green Tea",
   "name_native": "ქართული მწვანე ჩაი",
   "name_romanized": "Kartuli mts'vane chai",
-  "aliases": ["Georgian green", "Gruzinsky zelyony chai", "Guria green tea", "Georgian No. 95", "Caucasus green tea", "Georgian wild green tea"],
+  "aliases": [
+    "Georgian green",
+    "Gruzinsky zelyony chai",
+    "Guria green tea",
+    "Georgian No. 95",
+    "Caucasus green tea",
+    "Georgian wild green tea"
+  ],
   "category": "green",
   "origin_country": "Georgia",
-  "origin_region": "Guria, Samegrelo, Adjara and Imereti, western Georgia",
+  "origin_region": "Guria",
   "cultivar": "Seed-grown bushes of Chinese origin and Soviet-bred selections, many on revived old plantations",
   "processing": "Pan-fired or steamed to fix the leaf, then rolled and dried; the small producers mostly pan-fire in the Chinese manner, and some make a lightly sun-withered, slightly yellowed style. Soviet-era green tea was a coarse, heavily rolled industrial product.",
   "form": "loose",
@@ -15,13 +22,40 @@
   "appearance_liquor": "Pale yellow to light gold, clear.",
   "appearance_wet": "Medium-sized olive leaves, soft, with visible stems.",
   "taste_profile": "Mild and sweet with hay, dried herbs and a honeyed note, low in bitterness and with little of the grassy sharpness of East Asian greens; the May tea is the most delicate, later picks rounder and toastier.",
-  "taste_tags": ["sweet", "herbal", "honey", "grassy"],
-  "brewing": {"grams": 3, "water_ml": 150, "temp_c": 80, "steeps": 3, "seconds": [90, 60, 120], "notes": "A little more heat than for a Chinese or Japanese green suits it; in Central Asia the old Georgian green was brewed in a teapot, strong and plain, and drunk with meals. Also a soft, easy cold brew."},
+  "taste_tags": [
+    "sweet",
+    "herbal",
+    "honey",
+    "grassy"
+  ],
+  "brewing": {
+    "grams": 3,
+    "water_ml": 150,
+    "temp_c": 80,
+    "steeps": 3,
+    "seconds": [
+      90,
+      60,
+      120
+    ],
+    "notes": "A little more heat than for a Chinese or Japanese green suits it; in Central Asia the old Georgian green was brewed in a teapot, strong and plain, and drunk with meals. Also a soft, easy cold brew."
+  },
   "caffeine_level": "medium",
-  "vintage_note": "Sold as the current year's harvest by small producers, usually with the month and village stated and the May lot priced highest; drink it within the year. The old Soviet numbered grades (No. 95 and so on) are a thing of the past, and the 'Georgian green' now sold in Central Asian markets under those numbers is mostly made elsewhere.",
-  "description": "Green tea was the other half of the Soviet Georgian tea industry. The Central Asian republics drank green tea rather than black, and Georgian factories supplied them with coarse, strongly rolled green tea sold by numbered grades, No. 95 being the one everyone remembers. That trade has largely moved on; the 'No. 95' sold in Uzbek bazaars today is mostly packed from leaf grown elsewhere. The Georgian green tea worth talking about now is the small-batch tea of the revival.\n\nThe producers who have brought the old plantations of Guria and Samegrelo back into use make green tea alongside black, from the same seed-grown bushes, picked by hand from May to September. Most pan-fire in the Chinese manner and roll by hand; a few experiment with sun-withered and lightly yellowed styles. The climate, humid and warm in summer and genuinely cold in winter, gives a leaf that is sweeter and lower in bitterness than most Asian green tea.\n\nThe cup is gentle: hay, dried herbs, a honeyed sweetness and a soft finish, without the grassy bite of a sencha or the toasted nuttiness of a longjing. It is forgiving of hot water and long steeps, makes an easy cold brew, and suits people who find East Asian greens too sharp. The May tea is the most delicate; later summer lots are rounder.\n\nBuy it as you would the black: from a named small producer, with month and village on the pack, as the current year's tea. Supermarket 'Georgian green' is usually industrial or imported leaf. Quantities are small and prices fair, and the same makers often sell a white tea and an oolong-style tea from the same bushes.\n\nIt is a good tea to drink with the walnut-and-herb dishes of western Georgia, and a sensible first stop if you want to understand what the Caucasus does with the tea plant.",
+  "vintage_note": "Sold as the current year's harvest by small producers, usually with the month and village stated and the May lot priced highest; drink it within the year. The old Soviet numbered grades (No. 95 and so on) are a thing of the past, and the 'Georgian green' now sold in Central Asian markets under those numbers is often said to be made elsewhere.",
+  "description": "Green tea was the other half of the Soviet Georgian tea industry. The Central Asian republics drank green tea rather than black, and Georgian factories supplied them with coarse, strongly rolled green tea sold by numbered grades, No. 95 being the one everyone remembers. That trade has largely moved on; the 'No. 95' sold in Uzbek bazaars today is often said to be packed from leaf grown elsewhere. The Georgian green tea worth talking about now is the small-batch tea of the revival.\n\nThe producers who have brought the old plantations of Guria and Samegrelo back into use make green tea alongside black, from the same seed-grown bushes, picked by hand from May to September. Most pan-fire in the Chinese manner and roll by hand; a few experiment with sun-withered and lightly yellowed styles. The climate, humid and warm in summer and genuinely cold in winter, gives a leaf that is sweeter and lower in bitterness than most Asian green tea.\n\nThe cup is gentle: hay, dried herbs, a honeyed sweetness and a soft finish, without the grassy bite of a sencha or the toasted nuttiness of a longjing. It is forgiving of hot water and long steeps, makes an easy cold brew, and suits people who find East Asian greens too sharp. The May tea is the most delicate; later summer lots are rounder.\n\nBuy it as you would the black: from a named small producer, with month and village on the pack, as the current year's tea. Supermarket 'Georgian green' is usually industrial or imported leaf. Quantities are small and prices fair, and the same makers often sell a white tea and an oolong-style tea from the same bushes.\n\nIt is a good tea to drink with the walnut-and-herb dishes of western Georgia, and a sensible first stop if you want to understand what the Caucasus does with the tea plant.",
   "wikipedia_title": "Green tea",
   "wikipedia_scope": "umbrella",
   "popularity": 1,
-  "sources_note": "No dedicated Georgian tea article on English Wikipedia; 'Green tea' used as the umbrella. The history of the numbered Soviet green grades and the claim that modern 'No. 95' is largely non-Georgian are from trade knowledge and should be checked."
+  "sources_note": "No dedicated Georgian tea article on English Wikipedia; 'Green tea' used as the umbrella. The history of the numbered Soviet green grades and the claim that modern 'No. 95' is largely non-Georgian are from trade knowledge and should be checked.",
+  "name_zh": "格鲁吉亚绿茶",
+  "name_ru": "Грузинский зелёный чай",
+  "history": "Georgia's tea belt lies in the wet west of the country, in Guria, Samegrelo, Adjara and Imereti. In the Soviet period green tea was made here as a coarse, heavily rolled industrial product, and the usual account says much of it went to Central Asia, where people drink green rather than black.\n\nToday's interesting Georgian green comes from small producers working revived old plantations by hand. The details of the Soviet numbered grades, including the much-remembered No. 95, are poorly pinned down, so treat them as tea-trade memory more than settled history.",
+  "liquor_hex": "#DCC97A",
+  "leaf_hex": "#6F7240",
+  "sources": [
+    "https://www.journalofnomads.com/georgia-tea-guide/",
+    "https://www.investor.ge/2020/07/26/a-georgian-cuppa-reviving-a-faded-world-giant-in-the-tea-industry/"
+  ],
+  "confidence": "low",
+  "images": []
 }

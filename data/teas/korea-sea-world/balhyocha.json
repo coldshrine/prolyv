@@ -3,11 +3,17 @@
   "name_en": "Balhyocha (Korean Oxidised Tea)",
   "name_native": "발효차",
   "name_romanized": "Balhyocha",
-  "aliases": ["Balhyo cha", "Korean fermented tea", "Korean oxidised tea", "發酵茶", "Korean dark hwangcha"],
+  "aliases": [
+    "Balhyo cha",
+    "Korean fermented tea",
+    "Korean oxidised tea",
+    "發酵茶",
+    "Korean dark hwangcha"
+  ],
   "category": "black",
   "origin_country": "South Korea",
-  "origin_region": "Gyeongsangnam-do · Hadong (also Jeju)",
-  "cultivar": "Seed-grown native bushes (jaeraejong) in Hadong; plantation cultivars on Jeju",
+  "origin_region": "Gyeongsangnam-do · Hadong",
+  "cultivar": "Seed-grown heirloom bushes (jaeraejong) in Hadong; Yabukita in Boseong; plantation cultivars on Jeju",
   "processing": "Leaf withered (often in the sun), hand-rolled, piled under cloth to oxidise for many hours until deeply browned, then dried and finished with a roast; more oxidised than hwangcha, but typically stopped short of the full oxidation of Western black tea.",
   "form": "loose",
   "harvest_season": "Spring, from leaf picked after the top green grades (May), with some makers using early-summer leaf for the heavier lots.",
@@ -15,13 +21,44 @@
   "appearance_liquor": "Deep amber to reddish brown, clear.",
   "appearance_wet": "Soft brown leaves with dark red edges, more uniformly browned than hwangcha.",
   "taste_profile": "Dried persimmon, dark honey and cocoa with a baked-grain roastiness, a thick smooth body and a gentle sweetness that lasts; little bitterness and only a light tannic grip.",
-  "taste_tags": ["dried-fruit", "honey", "cocoa", "roasted"],
-  "brewing": {"grams": 4, "water_ml": 120, "temp_c": 95, "steeps": 6, "seconds": [20, 15, 20, 30, 45, 60], "notes": "Water just off the boil; it holds up to long steeps without turning harsh. Also good brewed strong and served cool in summer."},
+  "taste_tags": [
+    "dried-fruit",
+    "honey",
+    "cocoa",
+    "roasted"
+  ],
+  "brewing": {
+    "grams": 4,
+    "water_ml": 120,
+    "temp_c": 95,
+    "steeps": 6,
+    "seconds": [
+      20,
+      15,
+      20,
+      30,
+      45,
+      60
+    ],
+    "notes": "Water just off the boil; it holds up to long steeps without turning harsh. Also good brewed strong and served cool in summer."
+  },
   "caffeine_level": "medium",
   "vintage_note": "Sold as the current year's production in small packs from the maker, usually from early summer onwards, with the year stated. It keeps well and is often thought better after six months to a year or two of rest, so one- to three-year-old lots are normal to find; it is not aged for decades.",
   "description": "Balhyocha literally means 'fermented tea', the Korean word for oxidised tea in general, but in practice it is what producers call the darker, more fully oxidised cousin of hwangcha. Where hwangcha stops somewhere around oolong territory, balhyocha is pushed close to a black tea, and many shops abroad simply file it as Korean black. Hadong is the centre, with a few Jeju producers making their own versions.\n\nThe leaf is withered, rolled by hand and then piled under cloth in a warm room to oxidise until it is deeply browned, before being dried and given a roast that sets the sweet, toasty character. There is no single recipe: oxidation and roasting levels vary from maker to maker, and the same workshop may sell a lighter lot as hwangcha and a heavier one as balhyocha.\n\nIn the cup it is thick and gentle: dried persimmon, dark honey and cocoa with a baked-grain warmth and almost no bitterness. It takes boiling water and long steeps without complaint, which makes it one of the easiest Korean teas to brew, and it is good both gongfu style and in a Western pot. It also keeps: unlike the greens it does not fade within the year, and many people think it improves with a little rest.\n\nIt is sold loose by the maker and the year, in small packs, and the names are not standardised: balhyocha, hwangcha, 'Korean black tea' and 'hongcha' overlap. Read the description, look at the leaf colour (the darker, the more oxidised) and judge by the maker rather than the label.\n\nPair it with Korean rice cakes or anything with roasted nuts; it is also a good introduction to Korean tea for people who do not like grassy greens.",
   "wikipedia_title": "Korean tea",
   "wikipedia_scope": "umbrella",
   "popularity": 2,
-  "sources_note": "Category set to 'black' because balhyocha is usually sold as a near-fully-oxidised tea; some catalogues file it under 'yellow' together with hwangcha. The hwangcha/balhyocha distinction is a producer convention, not a regulated one."
+  "sources_note": "Category set to 'black' because balhyocha is usually sold as a near-fully-oxidised tea; some catalogues file it under 'yellow' together with hwangcha. The hwangcha/balhyocha distinction is a producer convention, not a regulated one.",
+  "name_zh": "韩国发酵茶",
+  "name_ru": "Бальхёча",
+  "history": "Balhyocha is less a named tea than a Korean word: tea here is commonly sorted into nokcha, green, and balhyocha, fermented, where fermented really means oxidised. Hwangcha is usually treated as its lighter end, and how far a given maker goes varies, so the two names overlap.\n\nThe Hadong area has the best-recorded background. A Korean study built on local testimony about early twentieth-century tea making there describes several kinds of oxidised tea, including black teas oxidised at low and at high temperature, one of them dried on a heated ondol floor, and its author reconstructed some of them. Today small Hadong makers produce balhyocha from heirloom bushes alongside their green teas, at around 70% oxidation by one importer's account, while Boseong versions use Yabukita. Beyond that, little is documented about when the modern style took shape.",
+  "liquor_hex": "#9A4F1E",
+  "leaf_hex": "#3D2A1C",
+  "sources": [
+    "https://scholar.kyobobook.co.kr/article/detail/4010022748129",
+    "https://spirittea.co/blogs/news/singular-craft-korean-tea",
+    "https://en.wikipedia.org/wiki/Yellow_tea"
+  ],
+  "confidence": "medium",
+  "images": []
 }

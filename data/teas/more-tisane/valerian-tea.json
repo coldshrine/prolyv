@@ -1,0 +1,60 @@
+{
+  "slug": "valerian-tea",
+  "name_en": "Valerian Tea",
+  "name_native": null,
+  "name_romanized": null,
+  "name_zh": "缬草茶",
+  "name_ru": "Валериана",
+  "aliases": [
+    "Valerian",
+    "Valerian root tea",
+    "Valeriana officinalis",
+    "All-heal",
+    "Валериана лекарственная",
+    "纈草茶"
+  ],
+  "category": "tisane",
+  "origin_country": "Germany",
+  "origin_region": "Europe",
+  "cultivar": null,
+  "processing": "The root is dug, cleaned, dried and cut; its famous smell is typically stronger in the dried root.",
+  "form": "loose",
+  "harvest_season": "A root crop with no prized season on the label; sold dried all year.",
+  "appearance_dry": "Cut pieces of light brown to grey-brown root with a strong pungent smell.",
+  "appearance_liquor": "Clear yellowish-brown, darker with a longer steep.",
+  "appearance_wet": "Swollen, soft brown root pieces.",
+  "taste_profile": "Woody and earthy with a persistent bitterness, and a strong, sweaty aroma that many people find harder than the taste.",
+  "taste_tags": [
+    "earthy",
+    "woody",
+    "bitter",
+    "medicinal"
+  ],
+  "brewing": {
+    "grams": 3,
+    "water_ml": 240,
+    "temp_c": 90,
+    "steeps": 1,
+    "seconds": [
+      600
+    ],
+    "notes": "Use 1 to 2 teaspoons per cup in hot, not boiling, water and steep 5 to 15 minutes, covered. Honey, or blending with mint or chamomile, masks the smell."
+  },
+  "caffeine_level": "none",
+  "vintage_note": "Sold without vintages as cut dried root, in teabags or blended into bedtime teas. As with other dried roots, it keeps fairly well if tightly sealed, and a strong smell is normal rather than a defect.",
+  "description": "Valerian tea is a brew of the dried root of Valeriana officinalis, a tall perennial native to Europe and southwestern Asia. It is drunk for one reason: as a bedtime herb, not for pleasure.\n\nThe leaves and flowers play no part. The root is simply dried and cut, and the dried root has a famously strong smell. Cats love it, which is why one of its old names is cat's love.\n\nThe cup is woody and earthy with a lingering bitterness, and the aroma is often compared to dirty socks. Longer steeps make everything stronger, so start short. Honey helps, and blends are easier to live with than the plain root.\n\nDo not buy into big promises. Valerian has a long record of use for insomnia and anxiety, but clinical evidence that it works is weak or inconclusive. Keep the pack sealed or the whole cupboard will smell of it.",
+  "history": "The plant has been known by names such as all-heal and setwall. The name itself is derived from the personal name Valeria and the Latin valere, to be strong or healthy.\n\nIts place as a sleep and calming herb became its main identity in European herbal practice, though how far back the simple household tea goes is little documented.",
+  "liquor_hex": "#A97F3F",
+  "leaf_hex": "#8A6B4A",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Valerian_%28herb%29",
+    "https://es.wikipedia.org/wiki/Valeriana_officinalis",
+    "https://zh.wikipedia.org/wiki/%E8%8D%89%E6%9C%AC%E8%8C%B6",
+    "https://www.medicalnewstoday.com/articles/valerian-tea"
+  ],
+  "confidence": "medium",
+  "wikipedia_title": "Valerian (herb)",
+  "wikipedia_scope": "umbrella",
+  "popularity": 3,
+  "images": []
+}

@@ -1,0 +1,58 @@
+{
+  "slug": "oregano-tea",
+  "name_en": "Oregano Tea (Dushitsa)",
+  "name_native": "ρίγανη",
+  "name_romanized": "rígani",
+  "name_zh": "牛至茶",
+  "name_ru": "Душица",
+  "aliases": [
+    "Oregano herbal tea",
+    "Oregano Tea",
+    "Rigani tea",
+    "чай из душицы"
+  ],
+  "category": "tisane",
+  "origin_country": "Greece",
+  "origin_region": "Greece",
+  "cultivar": "Origanum vulgare",
+  "processing": "Stems, leaves and flowers of oregano are simply air-dried, with no oxidation or roasting.",
+  "form": "loose",
+  "harvest_season": "Usually gathered around flowering in summer, as with most aromatic herbs of the mint family. The plant blooms after the lime trees finish in Russia.",
+  "appearance_dry": "Crumbled grey-green leaf, often with small flower heads and bits of stem.",
+  "appearance_liquor": "Clear yellow to light amber, as with most dried aromatic herbs.",
+  "appearance_wet": "Soft, dark green leaf fragments and flower heads.",
+  "taste_profile": "Savoury and sharply aromatic, the smell of the kitchen herb in a thinner, warmer form; turns bitter if steeped long.",
+  "taste_tags": [
+    "herbal",
+    "spicy",
+    "bitter"
+  ],
+  "brewing": {
+    "grams": 2,
+    "water_ml": 250,
+    "temp_c": 100,
+    "steeps": 1,
+    "seconds": [
+      300
+    ],
+    "notes": "Western-style: about a tablespoon of whole dried leaf per cup, steeped 5 minutes, up to 10 for strength. Whole leaf gives a cleaner cup than ground oregano. Honey and lemon both suit it."
+  },
+  "caffeine_level": "none",
+  "vintage_note": "Sold as a dried herb, not by year; the same dried oregano often serves both kitchen and teapot. As with other dried aromatic herbs, the current season's picking smells strongest. Keep it sealed and away from light.",
+  "description": "Oregano tea is a plain infusion of the dried herb, known as rigani in Greek and dushitsa in Russian. The same plant serves as a spice and a medicinal herb.\n\nThere is no real craft in the making: the plant is dried and crumbled. The flavour comes from its essential oil, which is sharp, with thymol and carvacrol among its main components. That oil is why a small amount goes a long way.\n\nExpect something savoury and warming rather than sweet. Five minutes in just-boiled water is a good start, and longer pushes it towards bitter. Ground oregano is the common mistake: it is too fine and makes a gritty, harsh cup.\n\nWhen buying, look for whole sprigs or coarse leaf with a strong smell when rubbed between your fingers. Avoid it during pregnancy, as is commonly advised. For something related but rarer, try Dittany of Crete, a cousin from the same genus.",
+  "history": "Little is documented about oregano tea as a distinct drink. The plant itself is recorded as a medicinal herb and a spice, and in Russia also as a good honey plant.",
+  "liquor_hex": "#C9A84E",
+  "leaf_hex": "#6F7A4F",
+  "sources": [
+    "https://ru.wikipedia.org/wiki/%D0%94%D1%83%D1%88%D0%B8%D1%86%D0%B0_%D0%BE%D0%B1%D1%8B%D0%BA%D0%BD%D0%BE%D0%B2%D0%B5%D0%BD%D0%BD%D0%B0%D1%8F",
+    "https://www.tuasaude.com/en/oregano-tea",
+    "https://homespunseasonalliving.com/how-to-make-oregano-tea/",
+    "https://lelextea.com/en/oregano-origanum-vulgare/"
+  ],
+  "confidence": "low",
+  "wikipedia_title": null,
+  "wikipedia_scope": "none",
+  "popularity": 2,
+  "images": [],
+  "sources_note": "Harvest and colour notes are typical of the herb class, not specific reports."
+}

@@ -1,0 +1,54 @@
+{
+  "slug": "wufeng-tea",
+  "name_en": "Wufeng Tea",
+  "name_native": "五峰茶",
+  "name_romanized": "Wǔfēng Chá",
+  "aliases": [],
+  "category": "oolong",
+  "origin_country": "Taiwan",
+  "origin_region": "Taiwan",
+  "cultivar": null,
+  "form": "loose",
+  "caffeine_level": "medium",
+  "brewing": {
+    "grams": 6,
+    "water_ml": 110,
+    "temp_c": 95,
+    "steeps": 6,
+    "seconds": [
+      20,
+      15,
+      20,
+      30,
+      45,
+      60
+    ],
+    "notes": "A safe starting point for oolong: gongfu style with water just off the boil."
+  },
+  "taste_tags": [
+    "floral",
+    "roasted"
+  ],
+  "description": "Wufeng Tea is a named Taiwanese tea of local origin.\n\nTreat it as you would any oolong of its region: hot water, short steeps in a small pot, and a seller who can say which season it comes from.",
+  "wikipedia_title": null,
+  "wikipedia_scope": "none",
+  "popularity": 1,
+  "name_zh": "五峰茶",
+  "name_ru": "У Фэн Ча",
+  "history": null,
+  "liquor_hex": "#C98F3A",
+  "leaf_hex": "#4A4A2C",
+  "sources": [
+    "https://zh.wikipedia.org/wiki/臺灣茶"
+  ],
+  "confidence": "low",
+  "images": [],
+  "stub": true,
+  "processing": "Typical of oolong: withered, tossed to bruise the leaf edges, partly oxidised, then fixed, rolled and dried, sometimes roasted.",
+  "harvest_season": "Usually picked in spring or autumn, as with most oolongs.",
+  "appearance_dry": "Usually twisted strips or rolled balls, from green to dark brown depending on the roast.",
+  "appearance_liquor": "Usually from golden to amber, depending on oxidation and roast.",
+  "appearance_wet": "Usually whole leaves that open up, often with darker edges.",
+  "taste_profile": "Expect what oolongs usually give: floral or fruity notes, more roasted when the leaf is roasted.",
+  "vintage_note": "Oolongs are normally sold by season and year: light styles are best fresh, roasted styles are often rested for a year or more after roasting."
+}

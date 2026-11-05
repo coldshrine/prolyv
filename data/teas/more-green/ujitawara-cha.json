@@ -1,0 +1,55 @@
+{
+  "slug": "ujitawara-cha",
+  "name_en": "Ujitawara-cha",
+  "name_native": "宇治田原茶",
+  "name_romanized": "Ujitawara-cha",
+  "name_zh": "宇治田原茶",
+  "name_ru": "Удзитавара-тя",
+  "aliases": [
+    "Ujitawara tea"
+  ],
+  "category": "green",
+  "origin_country": "Japan",
+  "origin_region": "Kyoto · Ujitawara",
+  "cultivar": null,
+  "processing": "Mostly steamed and rolled in the sencha manner, with gyokuro also grown under shade in the town. The rolling-before-drying step is the one local tradition credits to Nagatani Sōen.",
+  "form": "loose",
+  "harvest_season": "As with other Uji-area teas, the spring first flush is the prized picking.",
+  "appearance_dry": "Typically dark green, needle-like rolled leaf, as with other Uji sencha.",
+  "appearance_liquor": "Clear yellow-green, typical of Kyoto sencha.",
+  "appearance_wet": "Soft green leaf pieces, typical of sencha.",
+  "taste_profile": "No taste is documented as specific to the town; as with other Uji sencha, expect a green sweetness and savoury depth with moderate astringency.",
+  "taste_tags": [
+    "vegetal",
+    "umami",
+    "sweet"
+  ],
+  "brewing": {
+    "grams": 5,
+    "water_ml": 150,
+    "temp_c": 75,
+    "steeps": 3,
+    "seconds": [
+      60,
+      15,
+      40
+    ],
+    "notes": "Standard sencha approach at about 75°C. For a gyokuro from the town, drop to 50–60°C and use more leaf."
+  },
+  "caffeine_level": "medium",
+  "vintage_note": "Sold by the current year's spring crop, like other Japanese greens, and best within about a year. Much of it reaches the market blended and labelled simply as Uji tea; the town's name on a packet usually signals a producer selling on origin.",
+  "description": "Ujitawara is a small town in southern Kyoto Prefecture, close to Uji, and its name counts as one of the sub-labels within Uji tea. It would be a footnote if not for one person: Nagatani Sōen, the man credited with developing the aosei method behind modern sencha, came from its Yuyadani district.\n\nThe method is said to have added rolling before drying to the older routine of steaming or boiling and then drying, and that step is much of what makes sencha look and taste the way it does. The town grows sencha and also has a notable gyokuro tradition.\n\nThere is not much on record about a house flavour, so treat it as you would good Uji sencha: moderate water, about a minute for the first steep, and a quick second one.\n\nWhen shopping, check whether the place is stated as the actual growing area or just part of a blend, and look for the harvest year. If you enjoy history in the cup, this is the place-name to try next to a Wazuka tea from over the hills.",
+  "history": "Tea growing in the town is said to have begun in the Okuyamada area in the early Kamakura period, a claim that rests on local tradition. Its best-known chapter comes later with Nagatani Sōen of Yuyadani, whose birthplace survives along with Chasō Myōjin, a shrine honouring his work.\n\nYuyadani was registered as a Kyoto Prefecture scenic asset on 12 June 2015 for its place in the history of Uji tea production.",
+  "liquor_hex": "#D0CE78",
+  "leaf_hex": "#435C2C",
+  "sources": [
+    "https://ja.wikipedia.org/wiki/%E6%97%A5%E6%9C%AC%E8%8C%B6",
+    "https://www.pref.kyoto.jp/toshi/shisan024.html",
+    "https://www.pref.kyoto.jp/keikan-sisan/sisan024k.html"
+  ],
+  "confidence": "medium",
+  "wikipedia_title": "日本茶",
+  "wikipedia_scope": "umbrella",
+  "popularity": 2,
+  "images": []
+}

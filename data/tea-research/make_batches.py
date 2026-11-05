@@ -46,7 +46,7 @@ def new_batches(tiers, size, prefix):
     rows = json.load(open(os.path.join(HERE, 'logs', 'new-cards.json'), encoding='utf-8'))
     have = {os.path.basename(f)[:-5] for f in glob.glob(os.path.join(ROOT, '*', '*.json'))}
     planned = set()
-    for f in glob.glob(os.path.join(BATCH, 'n-*.slugs')):
+    for f in glob.glob(os.path.join(BATCH, '*.slugs')):
         planned |= set(open(f, encoding='utf-8').read().split())
     todo = [x for x in rows if x.get('tier') in tiers and x['slug'] not in have and x['slug'] not in planned and os.path.exists(os.path.join(HERE, 'dossier', x['slug'] + '.json'))]
     todo.sort(key=lambda x: (x.get('category') or '', x.get('country') or '', x.get('region') or '', x['slug']))
@@ -58,6 +58,8 @@ def new_batches(tiers, size, prefix):
         blocks = []
         for x in chunk:
             row = {k: x.get(k) for k in ('slug', 'en', 'zh', 'ru', 'native', 'aliases', 'category', 'country', 'region', 'kind', 'tier')}
+            if x.get('tier') == 3:
+                row['seen_at'] = (x.get('evidence') or [])[:2]
             blocks.append(f"## TEA {x['slug']}\n" + json.dumps(row, ensure_ascii=False) + "\n\n### DOSSIER\n" + (dossier_text(x['slug']) or '(no dossier)') + "\n")
         with open(os.path.join(BATCH, bid + '.md'), 'w', encoding='utf-8') as out:
             out.write('\n\n'.join(blocks))
@@ -70,7 +72,12 @@ def main():
     if sys.argv[1] == 'new':  # make_batches.py new 1,2 8 n-t12
         return new_batches({int(t) for t in sys.argv[2].split(',')}, int(sys.argv[3]), sys.argv[4])
     size = int(sys.argv[2]) if len(sys.argv) > 2 else 8
+    lo, hi = int(sys.argv[3]) if len(sys.argv) > 3 else 1, int(sys.argv[4]) if len(sys.argv) > 4 else 5
+    prefix = sys.argv[5] if len(sys.argv) > 5 else 'e'
     ids = []
+    taken = set()
+    for f in glob.glob(os.path.join(BATCH, 'e*.md')):
+        taken |= set(re.findall(r'^## CARD (\S+)', open(f, encoding='utf-8').read(), re.M))
     for group in sorted(os.listdir(ROOT)):
         d = os.path.join(ROOT, group)
         if not os.path.isdir(d):
@@ -81,10 +88,10 @@ def main():
             if os.path.basename(f).startswith('_'):
                 continue
             c = json.load(open(f, encoding='utf-8'))
-            if not c.get('history') and os.path.exists(os.path.join(HERE, 'dossier', c['slug'] + '.json')):
+            if lo <= (c.get('popularity') or 1) <= hi and c['slug'] not in taken and not c.get('history') and os.path.exists(os.path.join(HERE, 'dossier', c['slug'] + '.json')):
                 todo.append(f)
         for i in range(0, len(todo), size):
-            bid = f"e-{group}-{i // size:02d}"
+            bid = f"{prefix}-{group}-{i // size:02d}"
             with open(os.path.join(BATCH, bid + '.md'), 'w', encoding='utf-8') as out:
                 out.write('\n\n'.join(card_block(f, notes) for f in todo[i:i + size]))
             ids.append(bid)

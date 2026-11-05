@@ -3,7 +3,14 @@
   "name_en": "Young Sheng Pu-erh (New Tea)",
   "name_native": "新生茶",
   "name_romanized": "Xīn Shēngchá",
-  "aliases": ["New sheng", "Fresh raw pu-erh", "Xin cha", "Xin sheng", "Young raw pu-erh", "Current-year sheng"],
+  "aliases": [
+    "New sheng",
+    "Fresh raw pu-erh",
+    "Xin cha",
+    "Xin sheng",
+    "Young raw pu-erh",
+    "Current-year sheng"
+  ],
   "category": "sheng",
   "origin_country": "China",
   "origin_region": "Yunnan",
@@ -15,12 +22,46 @@
   "appearance_liquor": "Pale green-gold, bright, occasionally a little hazy from fine down in the first steeps.",
   "appearance_wet": "Bright yellow-green, supple leaves with a fresh, grassy smell.",
   "taste_profile": "Bright, grassy and floral, with honey, a frank bitterness and a drying astringency that fade into a cooling sweetness; lively rather than deep, and sometimes a bit raw.",
-  "taste_tags": ["grassy", "floral", "bitter", "honey", "sweet"],
-  "brewing": {"grams": 6, "water_ml": 110, "temp_c": 92, "steeps": 10, "seconds": [8, 6, 8, 12, 15, 20, 30, 45, 60, 90], "notes": "Rinse once, briefly. Go a touch lighter on leaf and a touch cooler on water (90–95 °C) than for older sheng; flash the first steeps. Freshly pressed cakes benefit from a month or two of airing to lose the 'heat' of pressing."},
+  "taste_tags": [
+    "grassy",
+    "floral",
+    "bitter",
+    "honey",
+    "sweet"
+  ],
+  "brewing": {
+    "grams": 6,
+    "water_ml": 110,
+    "temp_c": 92,
+    "steeps": 10,
+    "seconds": [
+      8,
+      6,
+      8,
+      12,
+      15,
+      20,
+      30,
+      45,
+      60,
+      90
+    ],
+    "notes": "Rinse once, briefly. Go a touch lighter on leaf and a touch cooler on water (90–95 °C) than for older sheng; flash the first steeps. Freshly pressed cakes benefit from a month or two of airing to lose the 'heat' of pressing."
+  },
   "caffeine_level": "high",
   "vintage_note": "Young means roughly 0–3 years from harvest; the first year is usually called 'new tea' (xin cha) and brands release their spring cakes with the harvest year printed on the wrapper or the inner ticket. For boutique and famous-village tea the price is highest when it is new, because the maocha market sets it each April; for factory tea the new year's batch is the cheapest it will ever be. Most of what is drunk as young sheng in any given year is the last three harvests, and storage barely matters yet, though a cake left in Kunming-dry air will stay green and sharp noticeably longer than one in Guangdong humidity.",
   "description": "Young sheng is raw pu-erh drunk in its first few years, before storage has done much to it, and it is a category in its own right: a large share of the pu-erh sold today, especially boutique single-village tea, is bought to drink now rather than to cellar. It tastes like what it is, a sun-dried large-leaf green tea with ambitions: bright, grassy, floral, bitter and sweet in quick succession.\n\nThe leaf is processed the normal sheng way, and the point is that nothing else has happened to it yet. A freshly pressed cake even carries a transient 'pressing heat' from the steam and drying, a slightly flat or stuffy note that airs out in a month or two; the greenness and the sharp edges then soften gradually over the first couple of years.\n\nIn the cup, young sheng opens with flowers and hay, a definite bitterness and some astringency, then a cooling sweetness in the throat; good material has thickness and a long finish under the bite, cheap material has only the bite. It is easy to over-brew. Use a little less leaf than for older tea, water a few degrees off the boil and very short early steeps; a gaiwan rather than a thick clay pot. Traditional advice in Yunnan is not to drink a lot of very new sheng on an empty stomach, and most people who have tried find it sound.\n\nIt is sold by spring (or autumn) harvest year and by origin, with the year on the wrapper, usually within months of picking. Buy it to learn origins, because nothing shows the difference between Yiwu and Bulang like two fresh cakes side by side, and buy the better one twice if you want to watch it age. Marketing to watch: 'drink now' tea that is really just thin, and fancy villages priced as if the cake were already twenty years old.\n\nIf a young cake is too harsh for you, let it sit sealed for two or three years before deciding it is bad; many of them are just early.",
   "wikipedia_title": "Pu'er tea",
   "wikipedia_scope": "umbrella",
-  "popularity": 3
+  "popularity": 3,
+  "name_zh": "新生茶",
+  "name_ru": "Синь Шэн Ча",
+  "history": "Young sheng is a stage rather than a separate tea: raw pu-erh in its first few years, before storage has changed it much. Raw pu-erh was long valued for what it became with age, and drinking it fresh as a matter of choice is the more recent habit, helped along by single-village tea sold by harvest year.\n\nThere is no one origin to trace and little is documented about when the preference took hold, so the term is best read as a description of age on the wrapper.",
+  "liquor_hex": "#DDD181",
+  "leaf_hex": "#6B7350",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Pu%27er_tea"
+  ],
+  "confidence": "low",
+  "images": []
 }

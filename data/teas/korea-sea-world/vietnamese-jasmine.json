@@ -3,25 +3,58 @@
   "name_en": "Vietnamese Jasmine Tea (Trà Lài)",
   "name_native": "Trà lài / Trà nhài",
   "name_romanized": "Trà lài / Trà nhài",
-  "aliases": ["Tra lai", "Tra nhai", "Chè nhài", "Trà hoa lài", "Vietnamese jasmine green tea", "Bao Loc jasmine tea"],
+  "aliases": [
+    "Tra lai",
+    "Tra nhai",
+    "Chè nhài",
+    "Trà hoa lài",
+    "Vietnamese jasmine green tea",
+    "Bao Loc jasmine tea"
+  ],
   "category": "green",
   "origin_country": "Vietnam",
-  "origin_region": "Lâm Đồng · Bảo Lộc for scenting (leaf from Lâm Đồng and Thái Nguyên); also Hanoi and Hồ Chí Minh City workshops",
+  "origin_region": "Lam Dong · Bao Loc",
   "cultivar": "Mixed green-tea cultivars (trung du, LDP1, Kim Tuyên and others); Jasminum sambac blossoms for the scenting",
-  "processing": "Finished green tea is layered with fresh jasmine buds that open overnight, the flowers are removed and the tea re-dried, usually two to four rounds; some southern makers also scent with wintersweet (sói) or aglaia (ngâu) flowers in the same way.",
+  "processing": "Finished green tea is layered with fresh jasmine buds that open overnight, the flowers are removed and the tea re-dried, repeated over several rounds with more rounds for better grades; some makers also scent with chloranthus (sói) or aglaia (ngâu) flowers in the same way.",
   "form": "loose",
   "harvest_season": "Scented through the long southern jasmine season from spring to autumn, on base tea from the current year's spring and summer flushes.",
   "appearance_dry": "Twisted dark green leaves, sometimes with a few dried white blossoms left in, with a bright jasmine scent.",
   "appearance_liquor": "Pale yellow, clear.",
   "appearance_wet": "Opened green leaves, fairly uniform, with a sweet floral smell.",
   "taste_profile": "Bright jasmine over a mild, slightly astringent green tea, lighter and more straightforward than Fujian jasmine tea, with a clean sweet finish and a touch of the Vietnamese 'bitter then sweet' profile.",
-  "taste_tags": ["floral", "sweet", "grassy", "vegetal"],
-  "brewing": {"grams": 3, "water_ml": 150, "temp_c": 80, "steeps": 3, "seconds": [45, 30, 60], "notes": "Cooler water than for plain Vietnamese green keeps the flower fresh rather than soapy. In the south it is often brewed light in a big pot and drunk over ice with meals."},
+  "taste_tags": [
+    "floral",
+    "sweet",
+    "grassy",
+    "vegetal"
+  ],
+  "brewing": {
+    "grams": 3,
+    "water_ml": 150,
+    "temp_c": 80,
+    "steeps": 3,
+    "seconds": [
+      45,
+      30,
+      60
+    ],
+    "notes": "Cooler water than for plain Vietnamese green keeps the flower fresh rather than soapy. In the south it is often brewed light in a big pot and drunk over ice with meals."
+  },
   "caffeine_level": "medium",
   "vintage_note": "Sold year-round by brand and grade rather than by vintage, in foil packs and tins of 100–500 g; scenting happens in several rounds through the warm season on the current year's leaf. Best within a year of packing; the scent fades before the tea does.",
-  "description": "Jasmine tea is the everyday scented tea of Vietnam, especially in the south, where it is called trà lài (the northern word is trà nhài). It is the tea that arrives unasked at a restaurant table in Saigon, poured over ice, and the one most Vietnamese households keep in the cupboard. It is made the same way as Chinese jasmine tea, but it tends to be lighter, cheaper and simpler.\n\nBảo Lộc in Lâm Đồng province, the hill town that is also the centre of Vietnamese oolong, is the main scenting centre: it has the climate for jasmine and the tea gardens next door. The base is ordinary green tea; the flowers are picked in the afternoon as buds, mixed with the leaf as they open overnight, then sieved out and the tea re-dried, with the number of rounds deciding the grade. The same workshops scent tea with wintersweet and aglaia flowers, local specialities worth trying if you see them.\n\nIn the cup it is jasmine first, bright and a little green, on a mild base tea that carries the usual Vietnamese bite-then-sweetness in a gentler form. It is a tea for drinking by the pot rather than the gaiwan, hot or iced, and it is forgiving as long as the water is not boiling; very hot water turns the flower soapy.\n\nIt is sold by brand, by grade (more scenting rounds, whole leaf and fewer flowers left in mean a higher grade) and in big packs, not by vintage. The cheapest versions are sprayed with jasmine flavouring instead of scented with flowers and smell artificial and loud; a naturally scented tea smells softer and keeps its fragrance through three steeps.\n\nIf you like it, the Fujian jasmine pearls and silver-needle jasmine are the richer end of the same idea, and Vietnamese lotus tea is the northern, grander cousin.",
+  "description": "Jasmine tea is the everyday scented tea of Vietnam, especially in the south, where it is called trà lài (the northern word is trà nhài). It is the tea that arrives unasked at a restaurant table in Saigon, poured over ice, and the one most Vietnamese households keep in the cupboard. It is made the same way as Chinese jasmine tea, but it tends to be lighter, cheaper and simpler.\n\nBảo Lộc in Lâm Đồng province, the hill town also known for Vietnamese oolong, is one of the places it is scented, with tea gardens next door; workshops in Hanoi and Hồ Chí Minh City make it too. The base is ordinary green tea; the flowers are picked in the afternoon as buds, mixed with the leaf as they open overnight, then sieved out and the tea re-dried, with the number of rounds deciding the grade. Some workshops also scent tea with chloranthus (sói) and aglaia (ngâu) flowers, local specialities worth trying if you see them.\n\nIn the cup it is jasmine first, bright and a little green, on a mild base tea that carries the usual Vietnamese bite-then-sweetness in a gentler form. It is a tea for drinking by the pot rather than the gaiwan, hot or iced, and it is forgiving as long as the water is not boiling; very hot water turns the flower soapy.\n\nIt is sold by brand, by grade (more scenting rounds, whole leaf and fewer flowers left in mean a higher grade) and in big packs, not by vintage. The cheapest versions are sprayed with jasmine flavouring instead of scented with flowers and smell artificial and loud; a naturally scented tea smells softer and keeps its fragrance through three steeps.\n\nIf you like it, the Fujian jasmine pearls and silver-needle jasmine are the richer end of the same idea, and Vietnamese lotus tea is the northern, grander cousin.",
   "wikipedia_title": "Jasmine tea",
   "wikipedia_scope": "umbrella",
   "popularity": 3,
-  "sources_note": "Bảo Lộc as the main scenting centre is from trade knowledge; northern makers also scent jasmine tea. Trà lài vs trà nhài is a regional naming difference rather than two products."
+  "sources_note": "Bảo Lộc as the main scenting centre is from trade knowledge; northern makers also scent jasmine tea. Trà lài vs trà nhài is a regional naming difference rather than two products.",
+  "name_zh": "越南茉莉花茶",
+  "name_ru": "Вьетнамский жасминовый чай (Ча Лай)",
+  "history": "Jasmine tea is called trà lài in the south of Vietnam and trà nhài in the north. It is one of several flower-scented teas made in the country, alongside lotus, aglaia (ngâu) and sói, and in city coffee shops it is often served after iced coffee. The method is the one used for jasmine tea in China: green tea is layered with fresh blossoms as they open, and the scenting and re-drying are repeated.\n\nLittle is documented about when jasmine tea took hold in Vietnam or who first made it there. It has come down as an everyday drink rather than a tea with a recorded origin.",
+  "liquor_hex": "#E6DC9A",
+  "leaf_hex": "#4F5A33",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Vietnamese_tea"
+  ],
+  "confidence": "low",
+  "images": []
 }

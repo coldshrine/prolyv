@@ -3,10 +3,16 @@
   "name_en": "Gong Mei (Tribute Eyebrow)",
   "name_native": "贡眉",
   "name_romanized": "Gòngméi",
-  "aliases": ["Tribute Eyebrow", "Gongmei", "Kung Mei", "Xiao Bai Gong Mei", "Cai Cha white"],
+  "aliases": [
+    "Tribute Eyebrow",
+    "Gongmei",
+    "Kung Mei",
+    "Xiao Bai Gong Mei",
+    "Cai Cha white"
+  ],
   "category": "white",
   "origin_country": "China",
-  "origin_region": "Fujian · Fuding, Zhenghe and Jianyang",
+  "origin_region": "Fujian · Fuding",
   "cultivar": "Traditionally the small-leaf Cai Cha (Xiao Bai) landrace; in trade often Dabai bushes",
   "processing": "A bud with two or three leaves withered slowly for one to three days and dried at low temperature; no rolling or firing. Traditionally made from the seed-grown Cai Cha bushes, which give smaller, less downy shoots.",
   "form": "loose",
@@ -15,13 +21,45 @@
   "appearance_liquor": "Gold to light amber, clear.",
   "appearance_wet": "Small bud with two or three soft olive-green leaves, some reddish edges.",
   "taste_profile": "Sweet and nutty with hay, apricot and a light honey note, a fuller body than Mudan and a mellow, rounded finish.",
-  "taste_tags": ["sweet", "honey", "nutty", "dried-fruit"],
-  "brewing": {"grams": 5, "water_ml": 120, "temp_c": 95, "steeps": 6, "seconds": [30, 25, 35, 50, 75, 120], "notes": "Gaiwan at 90–95 °C; this is a leaf tea and wants near-boiling water. Aged lots are good simmered in a pot for a few minutes."},
+  "taste_tags": [
+    "sweet",
+    "honey",
+    "nutty",
+    "dried-fruit"
+  ],
+  "brewing": {
+    "grams": 5,
+    "water_ml": 120,
+    "temp_c": 95,
+    "steeps": 6,
+    "seconds": [
+      30,
+      25,
+      35,
+      50,
+      75,
+      120
+    ],
+    "notes": "Gaiwan at 90–95 °C; this is a leaf tea and wants near-boiling water. Aged lots are good simmered in a pot for a few minutes."
+  },
   "caffeine_level": "low",
   "vintage_note": "Sold fresh as the current year's spring (and autumn) harvest and, more often, pressed into cakes and sold with the year stated; 3–10 years is the common range and it ages well. In the trade Gong Mei can mean a grade between Mudan and Shou Mei or, under the current Chinese standard, white tea from the small-leaf Cai Cha bushes; ask which is meant. Prices are moderate.",
   "description": "Gong Mei, 'tribute eyebrow', is the white tea whose name has shifted under it. Historically it was the better grade of the leafy white tea made from Fujian's small-leaf, seed-grown Cai Cha bushes (also called Xiao Bai, 'small white'), with Shou Mei as the coarser grade below it. In the modern trade, Gong Mei often just means a leaf-heavy white tea a step above Shou Mei, whatever the bush; and the current Chinese standard defines it specifically as Cai Cha white tea. All three meanings are in use at once.\n\nIt is made like all Fujian whites, by withering the plucked shoots slowly and drying them, with no firing or rolling. The traditional Cai Cha shoots are small, less downy and higher in flavour than the big Dabai buds, which gives the tea a nutty, fruity character rather than Mudan's florals; it is also picked later, as a bud with two or three leaves.\n\nIn the cup it is sweet, nutty and rounded, hay and apricot with a light honey, more body than Mudan and less perfume. It wants hot water, 90–95 °C, and gives six steeps in a gaiwan; aged, it simmers beautifully. Because it is leafy and later-picked, the caffeine is on the low side.\n\nBuying: it is sold fresh, as the spring or autumn harvest of the year, but most of it is pressed into cakes and sold with a year, three to ten years being the common range, because it ages well and is cheap enough to buy by the cake. When a seller says Gong Mei, ask whether they mean the grade or the Cai Cha bush; true small-leaf Gong Mei is a distinct, more characterful tea and worth seeking out. Look for whole shoots with some bud and a sweet, nutty smell; stemmy, bud-free lots are Shou Mei by another name.\n\nIf you want to taste what the old landrace bushes do, a Cai Cha Gong Mei from Jianyang or Zhenghe is the place to start.",
   "wikipedia_title": "White tea",
   "wikipedia_scope": "umbrella",
   "popularity": 3,
-  "sources_note": "No dedicated English Wikipedia article ('Gong Mei' redirects to an unrelated Song-dynasty official). The cultivar-based definition follows the 2017 revision of the Chinese white tea standard GB/T 22291."
+  "sources_note": "No dedicated English Wikipedia article ('Gong Mei' redirects to an unrelated Song-dynasty official). The cultivar-based definition follows the 2017 revision of the Chinese white tea standard GB/T 22291.",
+  "name_zh": "贡眉",
+  "name_ru": "Гун Мэй",
+  "history": "Gong Mei is tied to Fujian's small-leaf Cai Cha bushes, and Jianyang is the area most often linked with it. Firm early dates are hard to find.\n\nToday it is one of the four classes in the Chinese white tea standard GB/T 22291-2017, in force since May 2018, alongside Bai Hao Yin Zhen, Bai Mu Dan and Shou Mei. In the common ranking it sits third: similar to Bai Mu Dan but with three or four leaves to the bud, above the leafier Shou Mei.",
+  "liquor_hex": "#D9AE5C",
+  "leaf_hex": "#7F7F52",
+  "sources": [
+    "https://en.wikipedia.org/wiki/White_tea",
+    "https://www.chinesestandard.net/PDF/English_MS.aspx/GBT22291-2017",
+    "https://m.thepaper.cn/baijiahao_13313919",
+    "https://www.ihchina.cn/project_details/14724.html"
+  ],
+  "confidence": "medium",
+  "images": []
 }

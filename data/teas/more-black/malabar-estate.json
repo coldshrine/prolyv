@@ -1,0 +1,57 @@
+{
+  "slug": "malabar-estate",
+  "name_en": "Malabar",
+  "name_native": null,
+  "name_romanized": null,
+  "name_zh": "马拉巴尔茶园红茶",
+  "name_ru": "Малабар",
+  "aliases": [
+    "Java Malabar",
+    "Malabar Tea Estate",
+    "Perkebunan Teh Malabar"
+  ],
+  "category": "black",
+  "origin_country": "Indonesia",
+  "origin_region": "West Java · Pangalengan",
+  "cultivar": null,
+  "processing": "Black tea, fully oxidised and dried in the estate's factory system. The details of leaf style and method at Malabar are little documented.",
+  "form": "loose",
+  "harvest_season": "Little is documented about prized pickings here; as with other tea in highland West Java, plucking is not tied to one short spring season.",
+  "appearance_dry": "Typical of a Java black tea: dark brown, fairly small twisted leaf.",
+  "appearance_liquor": "Clear reddish amber, as is usual for a Java black tea.",
+  "appearance_wet": "Even coppery-brown leaf, as expected of a fully oxidised tea.",
+  "taste_profile": "Few reliable tasting accounts exist for this garden; expect the smooth, medium-bodied, gently malty cup usual for Java black teas rather than a heavy Assam style.",
+  "taste_tags": [
+    "malty",
+    "woody",
+    "sweet"
+  ],
+  "brewing": {
+    "grams": 3,
+    "water_ml": 250,
+    "temp_c": 95,
+    "steeps": 2,
+    "seconds": [
+      210,
+      270
+    ],
+    "notes": "A general Western-style starting point for a black tea of this kind. Shorten the steep if the cup turns sharp."
+  },
+  "caffeine_level": "medium",
+  "vintage_note": "Sold as a garden-named black tea without a vintage, usually with no harvest year on the pack. As with most black teas of its class, buy the freshest lot available and drink it within a year or two.",
+  "description": "Malabar is a tea garden south of Bandung in West Java, near Pangalengan and the volcano Mount Malabar. It is one of the few Indonesian gardens whose name reaches Western tea shelves, alongside Jolotigo.\n\nThe estate's fame owes more to its history and its landscape than to any documented house style. The processing is simply that of a black tea, and little has been published about the specifics at this garden.\n\nTasting accounts are scarce too, so treat the usual Java description as a guide: smooth, medium-bodied and gently malty. Brew it Western-style and judge by your own cup first, then adjust the time.\n\nLook for packs that name the plantation; plain 'Java tea' tells you much less. Visitors can stay on the estate and walk the tea tracks, which is the best way to see where it grows.",
+  "history": "Malabar was for decades run by Karel Albert Rudolf Bosscha, who stayed in charge until his death in 1928 and was active in developing the region. His start is usually given as 1896, though 1886 also appears.\n\nThe area was known as a hill station during the Dutch period. The estate still operates, now under the state company PT Perkebunan Nusantara VIII, and also receives tourists.",
+  "liquor_hex": "#A65A24",
+  "leaf_hex": "#3F2C1D",
+  "wikipedia_title": "Malabar, Indonesia",
+  "wikipedia_scope": "umbrella",
+  "popularity": 2,
+  "images": [],
+  "sources": [
+    "https://en.wikipedia.org/wiki/Malabar%2C_Indonesia",
+    "https://ratetea.com/region/west-java/135/",
+    "https://en.wikipedia.org/wiki/Karel_Albert_Rudolf_Bosscha",
+    "https://digilib.uinsgd.ac.id/98576/"
+  ],
+  "confidence": "medium"
+}

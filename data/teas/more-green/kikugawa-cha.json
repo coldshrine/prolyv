@@ -1,0 +1,59 @@
+{
+  "slug": "kikugawa-cha",
+  "name_en": "Kikugawa-cha",
+  "name_native": "菊川茶",
+  "name_romanized": "Kikugawa-cha",
+  "name_zh": "菊川茶",
+  "name_ru": "Кикугава-тя",
+  "aliases": [
+    "Kikugawa tea",
+    "Fukamushi Kikugawa-cha",
+    "深蒸し菊川茶",
+    "Deep steamed Kikugawa tea"
+  ],
+  "category": "green",
+  "origin_country": "Japan",
+  "origin_region": "Shizuoka · Kikugawa",
+  "cultivar": null,
+  "processing": "Sencha steamed for a long time, more than twice the usual length, which softens astringency and shifts leaf and cup from green toward yellow-green. Much of the leaf is grown with chagusaba farming, using cut grass in the rows.",
+  "form": "loose",
+  "harvest_season": "Spring, as with other Shizuoka senchas, with the first picking prized.",
+  "appearance_dry": "Short, fine, dark green leaf, as is usual for deep-steamed sencha.",
+  "appearance_liquor": "A rich yellow-green, slightly cloudy.",
+  "appearance_wet": "Soft, fine yellow-green fragments.",
+  "taste_profile": "Mild and full, valued for a deep aroma, umami and body, with the astringency largely steamed away.",
+  "taste_tags": [
+    "umami",
+    "vegetal",
+    "sweet"
+  ],
+  "brewing": {
+    "grams": 5,
+    "water_ml": 150,
+    "temp_c": 75,
+    "steeps": 3,
+    "seconds": [
+      40,
+      10,
+      30
+    ],
+    "notes": "Short steeps; the fine leaf releases fast. Use a pot with a fine mesh, and pour out every drop."
+  },
+  "caffeine_level": "medium",
+  "vintage_note": "Normally sold as the current year's spring tea and best drunk fresh. Look for the registered name Fukamushi Kikugawa-cha, which marks the Geographical Indication; it covers a style and place, not a vintage, so check the harvest year on the bag.",
+  "description": "Kikugawa-cha is green tea from Kikugawa City in Shizuoka, and its name is tied to one idea: fukamushi, or deep steaming. Kikugawa is known as the birthplace of the style, though other accounts exist.\n\nLong steaming is the whole trick. The local leaf grows thick in long sunshine and used to be thought strongly astringent. Steaming it more than twice as long as usual softens that, and the cup turns yellow-green, rich and mild.\n\nThe result is full-bodied and savoury. Because the leaf is fine, it brews fast: short steeps and a good mesh matter more than anything else, and long steeps lose the softness that is the point.\n\nFor buying, 'Fukamushi Kikugawa-cha' is a registered Geographical Indication, so that wording means more than a generic Kikugawa label. Compare a light-steamed Shizuoka mountain tea with it to taste what the process changes.",
+  "history": "The local account starts around 1952, when work on longer steaming began as a response to the tea's strong astringency. Tea cooperatives here were also early in organising production, which let them make good tea at scale. That helped deep-steamed tea win a place at the National Tea Fair and spread across Japan.\n\nThe surrounding chagusaba grass farming was recognised in 2013 as part of a Globally Important Agricultural Heritage System. Fukamushi Kikugawa-cha was registered as a Geographical Indication, number 130, on 31 March 2023.",
+  "liquor_hex": "#A8B03E",
+  "leaf_hex": "#546E2C",
+  "sources": [
+    "https://www.maff.go.jp/e/policies/intel/gi_act/register/s130.html",
+    "https://www.maff.go.jp/j/shokusan/gi_act/register/0130/index.html",
+    "https://www.at-s.com/life/article/ats/1500793.html",
+    "https://ja.wikipedia.org/wiki/%E6%97%A5%E6%9C%AC%E8%8C%B6"
+  ],
+  "confidence": "high",
+  "images": [],
+  "wikipedia_title": "日本茶",
+  "wikipedia_scope": "umbrella",
+  "popularity": 3
+}

@@ -3,25 +3,62 @@
   "name_en": "Yixing Hong Cha",
   "name_native": "宜兴红茶",
   "name_romanized": "Yíxīng Hóngchá",
-  "aliases": ["Yixing black tea", "Yangxian black tea", "Su Hong", "Jiangsu black tea", "Yixing Red", "阳羡红茶"],
+  "aliases": [
+    "Yixing black tea",
+    "Yangxian black tea",
+    "Su Hong",
+    "Jiangsu black tea",
+    "Yixing Red",
+    "阳羡红茶",
+    "宜兴红"
+  ],
   "category": "black",
   "origin_country": "China",
   "origin_region": "Jiangsu · Wuxi · Yixing",
   "cultivar": "Local Yixing small-leaf population bushes, with introduced cultivars such as Fuding Dabai in newer gardens",
-  "processing": "Fully oxidised small-leaf black: a bud with one or two spring leaves is withered, rolled, oxidised and dried gently, then lightly sorted.",
+  "processing": "Fully oxidised small-leaf black: tender spring buds and young leaves are withered, rolled, oxidised and dried gently, then lightly sorted.",
   "form": "loose",
-  "harvest_season": "Spring, from around Qingming to Guyu (April); a smaller autumn picking is made in some gardens.",
+  "harvest_season": "Spring, with the top lots picked before Qingming; the 'Yixing Hong' mark is a spring-only tea.",
   "appearance_dry": "Small, tight, slightly curled dark strands with a scattering of golden tips.",
-  "appearance_liquor": "Amber-red and clear.",
+  "appearance_liquor": "Bright orange-red and clear.",
   "appearance_wet": "Small, tender copper-red leaves, even and soft.",
   "taste_profile": "Mild and honey-sweet with caramel and a light fruitiness, low tannin and a soft, clean finish; a gentle tea rather than a bold one.",
-  "taste_tags": ["honey", "sweet", "fruity", "creamy"],
-  "brewing": {"grams": 5, "water_ml": 120, "temp_c": 90, "steeps": 6, "seconds": [10, 12, 15, 20, 30, 45], "notes": "Locals brew it in a zisha pot, which suits its softness; 90 °C and short steeps. Western-style: 3 g per 250 ml, 2.5–3 minutes, neat."},
+  "taste_tags": [
+    "honey",
+    "sweet",
+    "fruity",
+    "creamy"
+  ],
+  "brewing": {
+    "grams": 5,
+    "water_ml": 120,
+    "temp_c": 90,
+    "steeps": 6,
+    "seconds": [
+      10,
+      12,
+      15,
+      20,
+      30,
+      45
+    ],
+    "notes": "Locals brew it in a zisha pot, which suits its softness; 90 °C and short steeps. Western-style: 3 g per 250 ml, 2.5–3 minutes, neat."
+  },
   "caffeine_level": "medium",
-  "vintage_note": "Sold as the current year's spring harvest, mostly within Jiangsu and through zisha-teapot sellers; drink within a year. There is no grading ladder to speak of and no vintage market.",
-  "description": "Yixing is famous for its purple-clay teapots, and Yixing Hong Cha is the tea the potters drink from them. The town on the shore of Lake Tai in southern Jiangsu has grown tea since at least the Tang dynasty under the old name Yangxian, and today its hills are Jiangsu's main tea district; the black tea is a modern, modest product made for the domestic market, often sold under the broader name Su Hong, 'Jiangsu red'.\n\nIt is made from small-leaf local bushes – and increasingly from introduced cultivars such as Fuding Dabai – picked in spring as a bud with one or two leaves, then withered, rolled, oxidised and dried gently. The small leaf and gentle finish make it a soft tea: low in tannin, sweet, with none of the malt and muscle of a big-leaf black.\n\nExpect honey and caramel, a light fruit note and a clean, mild finish over five or six short steeps; it is easy to drink and easy to over-steep into blandness rather than bitterness, so keep infusions short. It is often brewed in a small zisha pot, and because a clay pot rounds off edges a tea this soft loses little in one.\n\nIt is sold as the current spring, mostly in Jiangsu and from teapot sellers who throw a packet in with a pot, and it rarely travels abroad. There are no formal grades; buy by picking date and look for small, even, tippy leaf with a sweet dry aroma. A fair number of 'Yixing' blacks are made from leaf bought in from Zhejiang or Fujian, so a named garden is worth something.\n\nIf you have just bought a zisha pot, this is the tea the locals would season it with: forgiving, sweet and unlikely to leave a flavour you regret.",
+  "vintage_note": "Sold as the current year's spring harvest, with pre-Qingming lots at the top, mostly within Jiangsu and through zisha-teapot sellers; drink within a year. There is no vintage market.",
+  "description": "Yixing is famous for its purple-clay teapots, and Yixing Hong Cha is the black tea grown alongside them. The town on the shore of Lake Tai in southern Jiangsu has grown tea since at least the Tang dynasty under the old name Yangxian, and its hills are among Jiangsu's main tea districts; black tea has been made there since the late Qing, and since 2018 'Yixing Hong' has been a registered geographical indication mark.\n\nIt is made from small-leaf bushes picked in spring, the best before Qingming, then withered, rolled, oxidised and dried gently. The small leaf and gentle finish make it a soft tea: low in tannin, sweet, with none of the malt and muscle of a big-leaf black.\n\nExpect honey and caramel, a light fruit note and a clean, mild finish over five or six short steeps; it is easy to drink and easy to over-steep into blandness rather than bitterness, so keep infusions short. It is often brewed in a small zisha pot, and because a clay pot rounds off edges a tea this soft loses little in one.\n\nIt is sold as the current spring, mostly in Jiangsu and from teapot sellers, and it rarely travels abroad. Buy by picking date and look for small, even, tippy leaf with a sweet dry aroma.\n\nIf you have just bought a zisha pot, this is an obvious tea to try in it: forgiving, sweet and unlikely to leave a flavour you regret.",
   "wikipedia_title": "Black tea",
   "wikipedia_scope": "umbrella",
   "popularity": 1,
-  "sources_note": "A minor regional tea with thin documentation; cultivar mix and the Zhejiang/Fujian sourcing remark are generalised from Jiangsu vendor descriptions. Tang-era tea history refers to the Yangxian tribute tea, not to black tea."
+  "sources_note": "A minor regional tea with thin documentation; cultivar mix and the Zhejiang/Fujian sourcing remark are generalised from Jiangsu vendor descriptions. Tang-era tea history refers to the Yangxian tribute tea, not to black tea.",
+  "name_zh": "宜兴红茶",
+  "name_ru": "И Син Хун Ча",
+  "history": "Yixing, the old Yangxian, is known for tea far older than its black tea: Yangxian was a tribute tea in the Tang dynasty, praised by Lu Yu and later in verse by Su Dongpo. That fame belongs to the earlier teas of the area.\n\nBlack tea here is reported from the Guangxu era of the Qing dynasty. The modern name came much later: Yixing Hong was registered as a geographical indication certification mark in April 2018, and local promotion now presents it as a spring-only tea from buds picked before Qingming. Little has been written on the years between.",
+  "liquor_hex": "#BF6A28",
+  "leaf_hex": "#3B2A20",
+  "sources": [
+    "https://m.thepaper.cn/newsDetail_forward_23077696"
+  ],
+  "confidence": "medium",
+  "images": []
 }

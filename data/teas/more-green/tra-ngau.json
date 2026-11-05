@@ -1,0 +1,58 @@
+{
+  "slug": "tra-ngau",
+  "name_en": "Trà Ngâu (Aglaia Tea)",
+  "name_native": "Trà ngâu",
+  "name_romanized": "Trà ngâu",
+  "name_zh": "越南米兰花茶",
+  "name_ru": "Ча Нгау",
+  "aliases": [
+    "Aglaia tea",
+    "Tra ngau",
+    "Trà hoa ngâu",
+    "Чай с аглаей"
+  ],
+  "category": "green",
+  "origin_country": "Vietnam",
+  "origin_region": "Vietnam",
+  "cultivar": null,
+  "processing": "Green tea scented with fresh flowers of Aglaia duperreana, laid in layers with the tea, closed up until the scent is absorbed, then dried, and repeated as needed.",
+  "form": "loose",
+  "harvest_season": "Depends on the base green tea and on when the aglaia blooms; no standard season is recorded for this tea.",
+  "appearance_dry": "Dark green twisted leaf, as is usual for Vietnamese scented greens, sometimes with tiny yellow flower beads left in.",
+  "appearance_liquor": "Clear yellow-green, as with other scented green teas.",
+  "appearance_wet": "Mid-green leaf in the manner of its base tea, with any flower beads loose among it.",
+  "taste_profile": "A green tea base carrying the sweet floral perfume of aglaia; exact notes vary with the base and little has been written about the cup itself.",
+  "taste_tags": [
+    "floral",
+    "sweet",
+    "vegetal"
+  ],
+  "brewing": {
+    "grams": 5,
+    "water_ml": 150,
+    "temp_c": 80,
+    "steeps": 3,
+    "seconds": [
+      30,
+      45,
+      75
+    ],
+    "notes": "Treat it as any scented green: cooler water and short steeps keep the flower scent clean."
+  },
+  "caffeine_level": "medium",
+  "vintage_note": "Sold undated or by the year of scenting, usually in small lots or by local makers rather than as a graded product. Like other scented greens it is best within about a year, since flower scent fades before the tea does.",
+  "description": "Trà ngâu is Vietnamese green tea scented with the tiny yellow flowers of Aglaia duperreana, the shrub called hoa ngâu. It sits in the same family of flower teas as lotus and jasmine, though it is far less known abroad.\n\nThe method follows the general scheme of Vietnamese flower scenting: tea and fresh blossom go in alternating layers, are shut up together until the leaf takes the aroma, then the tea is dried and can be scented again. Vietnamese press warns that an inexperienced scenter can let flower sap get into the tea and cause allergic reactions, so the flowers are prepared first.\n\nAs with other scented greens, the aim is a floral top note over a plain green cup. Very little is written specifically about how this one changes across steeps, so go by your nose and keep the water cool.\n\nIt is a small-maker tea, and the name is not protected. Ask what the base tea is and whether real flowers were used, since a flavoured tea is much cheaper to make.",
+  "history": "Little is documented about the origin of aglaia scenting in Vietnam. Hoa ngâu is regularly listed among the flowers traditionally used for Vietnamese scented tea, alongside jasmine, chloranthus, pomelo blossom and lotus, but no date or maker is credited with it.",
+  "liquor_hex": "#D9CC7E",
+  "leaf_hex": "#4E5A36",
+  "wikipedia_title": "Vietnamese tea",
+  "wikipedia_scope": "umbrella",
+  "popularity": 2,
+  "sources": [
+    "https://en.wikipedia.org/wiki/Vietnamese_tea",
+    "https://nhathuoclongchau.com.vn/bai-viet/tra-hoa-ngau-la-gi-loi-ich-suc-khoe-tu-tra-hoa-ngau.html",
+    "https://daidoanket.vn/tra-huong-ngay-tet-10242158.html"
+  ],
+  "confidence": "low",
+  "images": []
+}

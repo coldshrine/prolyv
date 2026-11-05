@@ -1,0 +1,67 @@
+{
+  "slug": "teng-cha",
+  "name_en": "Teng Cha (Vine Tea)",
+  "name_native": "藤茶",
+  "name_romanized": "Téng Chá",
+  "name_zh": "藤茶",
+  "name_ru": "Тэн Ча (лиановый чай)",
+  "aliases": [
+    "Vine tea",
+    "Tengcha",
+    "Moyeam",
+    "茅岩莓",
+    "Mao Yan Mei",
+    "Chè dây",
+    "显齿蛇葡萄",
+    "Ampelopsis grossedentata",
+    "Nekemias grossedentata",
+    "神仙茶",
+    "龙须茶"
+  ],
+  "category": "tisane",
+  "origin_country": "China",
+  "origin_region": "Hunan · Zhangjiajie",
+  "cultivar": "Nekemias grossedentata (syn. Ampelopsis grossedentata)",
+  "processing": "Leaves and stems are plucked, withered, rolled and fermented in the traditional method; rolling brings out a distinctive white frost. An unoxidised white style is also made, in a way similar to green tea.",
+  "form": "loose",
+  "harvest_season": "Growth is heaviest in early summer, with a smaller flush in autumn. No single picking is universally prized.",
+  "appearance_dry": "Twisted grey-green leaf and stem coated in a powdery white frost.",
+  "appearance_liquor": "Clear and light yellow-green, as is usual for frosted vine tea.",
+  "appearance_wet": "Thin, narrow, coarsely toothed leaves on slim stems.",
+  "taste_profile": "Slightly bitter and a little grassy at first, followed by a strong sweet aftertaste.",
+  "taste_tags": [
+    "sweet",
+    "grassy",
+    "bitter",
+    "herbal"
+  ],
+  "brewing": {
+    "grams": 3,
+    "water_ml": 250,
+    "temp_c": 90,
+    "steeps": 4,
+    "seconds": [
+      30,
+      45,
+      60,
+      90
+    ],
+    "notes": "The Tujia prepare it much as they would a green tea. Do not mistake the white frost for mould: it is a normal crystalline bloom on the leaf."
+  },
+  "caffeine_level": "none",
+  "vintage_note": "Not usually sold by vintage: bought as recent production, from the early-summer or autumn flush, with the plain traditional style cheaper than the more demanding white style. Keep it dry and drink it within a year or two.",
+  "description": "Teng cha is a tisane from a climbing vine in the grape family, not from the tea plant. It is found across central and southern China and into Indochina, and the bulk of it grows in the mountains of Zhangjiajie in Hunan. Its look gives it away: a bloom of white frost on the leaf.\n\nThe traditional process runs through plucking, withering, rolling and fermenting, and the leaves need withering soon after picking. The frost comes out in rolling. A pricier white style is made with less oxidation, closer to how green tea is made.\n\nExpect a little bitterness and a grassy note up front, then a surprisingly strong sweetness that lingers. Brew it like a green tea with hot water and short-to-medium steeps; it is drunk straight in Tujia homes because it is naturally sweet.\n\nThe leaf is rich in flavonoids, chiefly dihydromyricetin, and contains none of green tea's EGCG. That chemistry is why it is sold hard as a health drink, but the lab results are not a promise. The local Zhangjiajie version has its own trade name, mei cha, and is worth trying beside other vine teas.",
+  "history": "Accounts credit the Tujia people with developing its processing some 600 years ago. One story has it presented to a Tujia king in 1385 as heaven tea and to the Qing emperor in 1837; treat these as tradition rather than firm record.\n\nChinese accounts of folk use reach back to the Eastern Jin, especially among Hakka in Jiangxi and Tujia in western Hunan, as a cooling drink and folk remedy. Cultivation has since turned it into a large-scale crop, and the leaf of this species has been recognised as a food ingredient by China's health authority.",
+  "liquor_hex": "#D3CC7E",
+  "leaf_hex": "#8F9A83",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Nekemias_grossedentata",
+    "https://zh.wikipedia.org/wiki/%E8%97%A4%E8%8C%B6",
+    "https://www.wikidata.org/wiki/Q11089168"
+  ],
+  "confidence": "medium",
+  "wikipedia_title": "Nekemias grossedentata",
+  "wikipedia_scope": "exact",
+  "popularity": 3,
+  "images": []
+}

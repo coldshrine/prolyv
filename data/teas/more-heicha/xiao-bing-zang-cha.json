@@ -1,0 +1,59 @@
+{
+  "slug": "xiao-bing-zang-cha",
+  "name_en": "Xiao Bing Zang Cha",
+  "name_native": "小饼藏茶",
+  "name_romanized": "Xiǎo Bǐng Zàng Chá",
+  "aliases": [
+    "雅安小饼藏茶",
+    "Tibetan Tea Xiao Bing"
+  ],
+  "category": "heicha",
+  "origin_country": "China",
+  "origin_region": "Sichuan · Ya'an",
+  "cultivar": null,
+  "form": "cake",
+  "caffeine_level": "medium",
+  "brewing": {
+    "grams": 6,
+    "water_ml": 120,
+    "temp_c": 100,
+    "steeps": 6,
+    "seconds": [
+      15,
+      15,
+      20,
+      30,
+      45,
+      60
+    ],
+    "notes": "A safe starting point for dark tea: rinse once, boiling water, or simmer it the traditional way."
+  },
+  "taste_tags": [
+    "dried-fruit",
+    "woody",
+    "spicy"
+  ],
+  "description": "Tibetan-style dark tea from the mountains by Ya'an in Sichuan, made of fermented leaves and stalks pressed into small cakes.\n\nTreat it as you would any dark tea: rinse it, use boiling water, and buy from someone who can say who pressed it and when.",
+  "wikipedia_title": null,
+  "wikipedia_scope": "none",
+  "popularity": 1,
+  "name_zh": "小饼藏茶",
+  "name_ru": "Сяо Бин Цзан Ча",
+  "history": "Ya'an sits just below the Tibetan Plateau and was long a trading gateway to Tibet, with a long record of compressed tea drunk as butter tea and traded as currency. The small cake is a convenient variation on the usual brick; little more is documented about it.",
+  "liquor_hex": "#6E3312",
+  "leaf_hex": "#2A1E16",
+  "sources": [
+    "https://www.curioustea.com/?p=26014",
+    "https://pathofcha.com/products/yaan-zang-cha-tibetan-hei-cha"
+  ],
+  "confidence": "low",
+  "images": [],
+  "stub": true,
+  "processing": "Typical of dark tea: green leaf is piled so that microbes ferment it, then dried and often pressed.",
+  "harvest_season": "Often made from coarser, later leaf, as with most dark teas.",
+  "appearance_dry": "Mini cakes of pressed fermented leaves and stalks.",
+  "appearance_liquor": "Usually orange-red to dark brown.",
+  "appearance_wet": "Usually coarse dark leaf with some stem.",
+  "taste_profile": "Smooth and warming, with stewed fruit and wood, and a lingering spicy aftertaste.",
+  "vintage_note": "Dark teas are sold by production year and many improve with several years of dry storage."
+}

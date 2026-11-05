@@ -3,10 +3,17 @@
   "name_en": "Shai Hong (Sun-Dried Yunnan Black)",
   "name_native": "晒红",
   "name_romanized": "Shàihóng",
-  "aliases": ["Sun-dried black tea", "Shaihong", "Yunnan sun-dried red", "Shai Hong Cha", "Sun-dried Dian Hong", "晒红茶"],
+  "aliases": [
+    "Sun-dried black tea",
+    "Shaihong",
+    "Yunnan sun-dried red",
+    "Shai Hong Cha",
+    "Sun-dried Dian Hong",
+    "晒红茶"
+  ],
   "category": "black",
   "origin_country": "China",
-  "origin_region": "Yunnan · Lincang and Pu'er",
+  "origin_region": "Yunnan · Lincang",
   "cultivar": "Yunnan large-leaf (assamica) populations, often old-tree or wild-arbor material",
   "processing": "Withered, rolled and oxidised like a black tea, but dried in the sun (sometimes finished at low heat) instead of being baked at high temperature, so the leaf keeps a little enzyme activity and can change with storage.",
   "form": "loose",
@@ -15,13 +22,46 @@
   "appearance_liquor": "Amber to orange-red, a shade lighter than baked black tea, clear and thick.",
   "appearance_wet": "Big, pliable red-brown leaves, often with a greenish tint at the stem in young tea.",
   "taste_profile": "Plum, dried apricot and honey with a faint sun-dried-hay freshness and sometimes a trace of tartness when young; rounder and more raisin-like after a couple of years.",
-  "taste_tags": ["fruity", "dried-fruit", "honey", "tart", "sweet"],
-  "brewing": {"grams": 5, "water_ml": 110, "temp_c": 95, "steeps": 8, "seconds": [10, 10, 15, 20, 30, 45, 60, 90], "notes": "Use water near the boil; it has a sheng-like structure and goes flat with cool water. Pressed cakes need a 10-second rinse first. Good brewed grandpa-style in a big mug too."},
+  "taste_tags": [
+    "fruity",
+    "dried-fruit",
+    "honey",
+    "tart",
+    "sweet"
+  ],
+  "brewing": {
+    "grams": 5,
+    "water_ml": 110,
+    "temp_c": 95,
+    "steeps": 8,
+    "seconds": [
+      10,
+      10,
+      15,
+      20,
+      30,
+      45,
+      60,
+      90
+    ],
+    "notes": "Use water near the boil; it has a sheng-like structure and goes flat with cool water. Pressed cakes need a 10-second rinse first. Good brewed grandpa-style in a big mug too."
+  },
   "caffeine_level": "medium",
-  "vintage_note": "The one Yunnan black that is sold by vintage: shops list the pressing or picking year, and lots from roughly 2015 to the current spring are on the market, loose or pressed into 100–357 g cakes and dragon balls. Young (0–1 year) it can show a green or sour edge; 2–5 years is where most people like it, and makers claim it keeps improving for a decade.",
-  "description": "Shai hong is Yunnan black tea finished in the sun. Instead of baking the oxidised leaf dry at high temperature, the way every other black tea is made, farmers spread it out to dry under the sun the way they dry pu-erh maocha. Yunnan villagers made it like this for home use long before it had a market name; around 2013–2015 it became a product in its own right, and now most Yunnan black-tea makers offer one.\n\nThe low drying temperature is the whole point. It leaves a little enzyme activity in the leaf, so the tea is not 'finished' when it is packed: it keeps changing, and it can be stored and aged like a pu-erh cake rather than drunk fast like a Dian Hong. It also means the sweet-potato and caramel notes that baking creates never fully form, which is why shai hong tastes fruitier and brighter than baked Yunnan black.\n\nYoung, it is plum and dried apricot with honey, a hay-like freshness and sometimes a faint sourness that puts some people off. Give a cake two or three years and the sour edge goes, the fruit turns to raisin and the texture thickens. Brew it with water near the boil in a gaiwan or just steep it loose in a big mug; cool water makes it taste thin. Expect eight or more steeps from good material.\n\nIt is sold by year, loose or pressed into small cakes and dragon balls, often from old-tree or 'wild' arbor leaf in Lincang, Pu'er and Baoshan. Because the market is young there is no grading system; buy from makers who state the year, the area and whether the leaf is plantation or arbor, and taste before buying several years' worth. Lots that smell musty or vinegary were stored badly, not aged well.\n\nIt pairs naturally with a pu-erh habit: if you already keep cakes, a couple of shai hong bings in the same box cost little and give you something to compare against your sheng as the years pass.",
+  "vintage_note": "The one Yunnan black commonly sold by vintage: shops list the pressing or picking year, loose or pressed into 100–357 g cakes and dragon balls. Young (0–1 year) it can show a green or sour edge; 2–5 years is where most people like it, and makers claim it keeps improving for longer, which is not well tested.",
+  "description": "Shai hong is Yunnan black tea finished in the sun. Instead of baking the oxidised leaf dry at high temperature, as is usual for black tea, makers spread it out to dry under the sun the way they dry pu-erh maocha. Sellers say Yunnan villagers made it like this for home use before it had a market name and that it became a product in its own right only in recent years, but little is documented on either point.\n\nThe low drying temperature is the whole point. Makers say it leaves a little enzyme activity in the leaf, so the tea is not 'finished' when it is packed: it keeps changing, and it can be stored like a pu-erh cake rather than drunk fast like a Dian Hong. It also tastes fruitier and brighter than baked Yunnan black, with less of the sweet-potato and caramel that baking brings.\n\nYoung, it is plum and dried apricot with honey, a hay-like freshness and sometimes a faint sourness that puts some people off. Give a cake two or three years and the sour edge goes, the fruit turns to raisin and the texture thickens. Brew it with water near the boil in a gaiwan or just steep it loose in a big mug; cool water makes it taste thin. Expect eight or more steeps from good material.\n\nIt is sold by year, loose or pressed into small cakes and dragon balls, often from old-tree or 'wild' arbor leaf in Lincang, Pu'er and Baoshan. Because the market is young there is no grading system; buy from makers who state the year, the area and whether the leaf is plantation or arbor, and taste before buying several years' worth. Lots that smell musty or vinegary were stored badly, not aged well.\n\nIt pairs naturally with a pu-erh habit: if you already keep cakes, a couple of shai hong bings in the same box cost little and give you something to compare against your sheng as the years pass.",
   "wikipedia_title": "Dianhong",
   "wikipedia_scope": "umbrella",
   "popularity": 2,
-  "sources_note": "Commercial emergence dated to roughly 2013–2015 from vendor and trade accounts; no formal origin year exists. Ageing claims beyond ~5 years are maker claims."
+  "sources_note": "Commercial emergence dated to roughly 2013–2015 from vendor and trade accounts; no formal origin year exists. Ageing claims beyond ~5 years are maker claims.",
+  "name_zh": "晒红",
+  "name_ru": "Шай Хун",
+  "history": "Shai hong is a Yunnan black tea dried in the sun instead of being baked, and little is documented about where it began. It has no recorded inventor or origin date, and the standard history of Yunnan black tea starts elsewhere, with baked Dian Hong.\n\nWhat circulates is mostly trade talk: that villagers dried black tea this way for their own use, and that it became a named product only in recent years. Treat both as plausible but unproven, along with the claims that it improves over many years of storage.",
+  "liquor_hex": "#C4722C",
+  "leaf_hex": "#5E3A26",
+  "sources": [
+    "https://thetea-main-en.pages.dev/article/shaihong",
+    "https://www.spkx.net.cn/CN/Y2026/V47/I4/180"
+  ],
+  "confidence": "low",
+  "images": []
 }

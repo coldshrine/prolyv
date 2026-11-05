@@ -1,0 +1,62 @@
+{
+  "slug": "gang-kou-cha",
+  "name_en": "Gang Kou Cha",
+  "name_native": "港口茶",
+  "name_romanized": "Gǎngkǒu Chá",
+  "name_zh": "港口茶",
+  "name_ru": "Ган Коу Ча",
+  "aliases": [
+    "GangKou Cha",
+    "Gangkou Tea",
+    "Seaport Tea",
+    "Port Tea"
+  ],
+  "category": "oolong",
+  "origin_country": "Taiwan",
+  "origin_region": "Pingtung · Manzhou · Gangkou",
+  "cultivar": "Wuyi seedlings; Jin Xuan (TTES No. 12)",
+  "processing": "A partly oxidised tea, hand-picked and left to oxidise for about eight to ten hours, then pan-fired at length until the leaf takes on a whitish bloom and rolled tightly.",
+  "form": "loose",
+  "harvest_season": "Mainly winter and spring; bushes are not picked in summer so they can recover, though accounts of the number of pickings differ.",
+  "appearance_dry": "Thick, tightly rolled leaf, dull dark green.",
+  "appearance_liquor": "Golden yellow and clear.",
+  "appearance_wet": "Thick, sturdy leaves of uneven size, reflecting bushes raised from seed.",
+  "taste_profile": "Strong and rather wild, with dry grass, wood and a gentle saline edge, and a sweetness compared to roasted sugar cane.",
+  "taste_tags": [
+    "woody",
+    "grassy",
+    "marine",
+    "sweet"
+  ],
+  "brewing": {
+    "grams": 6,
+    "water_ml": 110,
+    "temp_c": 95,
+    "steeps": 7,
+    "seconds": [
+      15,
+      15,
+      20,
+      25,
+      35,
+      45,
+      60
+    ],
+    "notes": "Typical gongfu settings for a rolled oolong. It is strong, so keep early steeps short; it holds up to many re-steeps."
+  },
+  "caffeine_level": "medium",
+  "vintage_note": "Sold by harvest, mostly winter and spring tea of the current year, in very small quantities and largely from the village itself. Plantings are under about 10 hectares, so supply is limited. No aged market is documented.",
+  "description": "Gang Kou Cha comes from Gangkou, a village in Manzhou Township on the Hengchun Peninsula. It is Taiwan's southernmost tea and its lowest in altitude, the opposite of the high mountain oolongs the island is known for. The name refers to the place, not a cultivar.\n\nThe bushes are unusual: many are raised from seed rather than cuttings, which gives deep roots and hardiness, along with plants that grow at different rates and make picking slower. Everything is hand-picked. The leaf is oxidised for several hours and then fried for a long time until it shows a pale bloom.\n\nThe sea is what people come for. Salty wind settles on the leaves, and the tea has a dry-grass, woody character with a light saline note and a sweetness some compare to roasted sugar cane. It is a strong tea that stands up to repeated steeps, so short infusions work better than long ones.\n\nBuy it for curiosity and character rather than refinement. Traditional seed-grown Wuyi stock and Jin Xuan are both planted here, so ask which one you are getting. The contrast with a Lishan oolong makes an instructive side-by-side.",
+  "history": "Accounts agree that the tea began with Wuyi stock brought from Fujian but differ on when: one says more than a hundred years ago, another two centuries. The exact date is not established.\n\nGrowers still save seed from their best plants each year. Jin Xuan, released by Taiwan's Tea Research and Extension Station in 1981, was later added alongside the old stock. The whole area remains tiny, at under 10 hectares by recent reports.",
+  "liquor_hex": "#CFA24A",
+  "leaf_hex": "#3F4630",
+  "wikipedia_title": null,
+  "wikipedia_scope": "none",
+  "popularity": 2,
+  "sources": [
+    "https://www.twreporter.org/a/mini-reporter-port-tea",
+    "https://tecompanytea.com/blogs/tea-atelier/taiwanese-tea"
+  ],
+  "confidence": "medium",
+  "images": []
+}

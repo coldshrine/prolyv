@@ -3,10 +3,17 @@
   "name_en": "Dong Pian (Winter Sprout Oolong)",
   "name_native": "冬片",
   "name_romanized": "Dōngpiàn",
-  "aliases": ["Dong Pian Zai", "Winter sprout tea", "Winter tips oolong", "Dongpian", "Late-winter oolong", "Winter slice tea"],
+  "aliases": [
+    "Dong Pian Zai",
+    "Winter sprout tea",
+    "Winter tips oolong",
+    "Dongpian",
+    "Late-winter oolong",
+    "Winter slice tea"
+  ],
   "category": "oolong",
   "origin_country": "Taiwan",
-  "origin_region": "Nantou · Mingjian, Lugu and Zhushan; lower Chiayi · Alishan slopes",
+  "origin_region": "Nantou · Mingjian",
   "cultivar": "Qingxin, Jin Xuan or Si Ji Chun",
   "processing": "A small late-winter flush made as a lightly oxidised, ball-rolled oolong in small batches, usually unroasted or with the lightest touch of fire.",
   "form": "loose",
@@ -15,12 +22,41 @@
   "appearance_liquor": "Pale yellow with a green tint, bright.",
   "appearance_wet": "Small, thick, slow-grown leaves in deep green with little red at the edge.",
   "taste_profile": "Very sweet and clean, with a soft cool floral note, hardly any bitterness and a thick, smooth texture from the slow cold growth; quieter in aroma than spring tea but longer in the finish.",
-  "taste_tags": ["sweet", "floral", "creamy", "vegetal"],
-  "brewing": {"grams": 6, "water_ml": 110, "temp_c": 95, "steeps": 6, "seconds": [30, 25, 30, 40, 55, 80], "notes": "Brew like any rolled oolong, water just off the boil and a slightly longer first steep; six or seven infusions. Best in the weeks and months right after it is made."},
+  "taste_tags": [
+    "sweet",
+    "floral",
+    "creamy",
+    "vegetal"
+  ],
+  "brewing": {
+    "grams": 6,
+    "water_ml": 110,
+    "temp_c": 95,
+    "steeps": 6,
+    "seconds": [
+      30,
+      25,
+      30,
+      40,
+      55,
+      80
+    ],
+    "notes": "Brew like any rolled oolong, water just off the boil and a slightly longer first steep; six or seven infusions. Best in the weeks and months right after it is made."
+  },
   "caffeine_level": "medium",
   "vintage_note": "Sold as the Dong Pian of a named winter (for example 'winter 2024 dong pian'), in small quantities and at a premium over the regular winter tea, and only in years when the weather produced one; the picking date should fall in December or January. A shop that has it every year in bulk is probably selling ordinary winter tea under the name. It is drunk fresh in the months after picking.",
   "description": "Dong Pian, 'winter slice', is a small bonus harvest that happens only when the weather allows: after the regular winter picking in October and November, a warm spell in December or January sometimes coaxes the bushes into pushing one more small flush, and if a grower picks and processes it before the cold returns, that is Dong Pian. It is mostly a lowland and mid-elevation tea, from Mingjian, Lugu, Zhushan and the lower Alishan slopes, because high gardens are simply too cold by then.\n\nThe leaf is Qing Xin, Jin Xuan or Si Ji Chun, grown very slowly in cold, short days, which gives small, thick, sugar-rich leaves with little of the bitterness that quick growth brings. It is made as a lightly oxidised, ball-rolled oolong in small batches, usually unroasted or with the lightest touch of fire, because the whole point is the leaf's own sweetness.\n\nIn the cup, expect a very clean, very sweet tea with a soft, cool floral note, a thick, smooth texture and a long finish; the aroma is quieter than spring tea, the sweetness deeper. Brew it like any rolled oolong, water just off the boil and a slightly longer first steep, and it will give six or seven infusions. It is at its best in the weeks and months right after it is made.\n\nIt is sold as the Dong Pian of a named winter, in small quantities and at a premium over the regular winter tea, and only in years when the weather produced one; a shop that has it every year in bulk is probably selling ordinary winter tea under the name. Ask for the picking date, which should fall in December or January, and expect smaller, denser balls than the main-season lot.\n\nIt is a tea to drink in its own winter, with nothing else on the table.",
   "wikipedia_title": "Taiwanese tea",
   "wikipedia_scope": "umbrella",
-  "popularity": 2
+  "popularity": 2,
+  "name_zh": "冬片",
+  "name_ru": "Дун Пянь",
+  "history": "Dong Pian is the name growers give to a small extra flush picked after the regular winter harvest, when a warm spell wakes the bushes. It is a matter of season and weather rather than of one place or cultivar, and little is documented about when the name came into use.\n\nBecause the crop depends on the year, availability and the use of the name vary from garden to garden.",
+  "liquor_hex": "#DFD68F",
+  "leaf_hex": "#3D5A3C",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Taiwanese_tea"
+  ],
+  "confidence": "low",
+  "images": []
 }

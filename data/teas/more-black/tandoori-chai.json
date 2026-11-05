@@ -1,0 +1,78 @@
+{
+  "slug": "tandoori-chai",
+  "name_en": "Tandoori Chai",
+  "name_native": "तंदूरी चाय",
+  "name_romanized": "Tandūrī chāy",
+  "name_zh": "坦杜里奶茶",
+  "name_ru": "Тандури-чай",
+  "aliases": [
+    "Tandoor chai",
+    "Tandoori tea",
+    "Kulhad chai"
+  ],
+  "category": "black",
+  "origin_country": "India",
+  "origin_region": "Maharashtra · Pune",
+  "cultivar": null,
+  "processing": "An empty clay kulhad is heated in a tandoor, then sweet milky chai is poured in so that it froths and spills over; the tea then moves to a fresh kulhad for serving.",
+  "form": "other",
+  "harvest_season": "Not relevant: it is a prepared drink from everyday black tea.",
+  "appearance_dry": "Not sold as a distinct dry tea; it starts from the ordinary black tea used for chai.",
+  "appearance_liquor": "Thick, opaque milky brown, frothy from the hot clay.",
+  "appearance_wet": "Not applicable: the chai is prepared and strained before the clay stage.",
+  "taste_profile": "Thick and milky, with smoke and earth from the heated clay and a note of bay leaf and other spices.",
+  "taste_tags": [
+    "smoky",
+    "earthy",
+    "creamy",
+    "spicy"
+  ],
+  "brewing": {
+    "grams": 6,
+    "water_ml": 300,
+    "temp_c": 100,
+    "steeps": 1,
+    "seconds": [
+      300
+    ],
+    "notes": "Make milky chai on the stove first. Heat a clay kulhad over a flame with tongs, set it in a heatproof pot and pour; it will sizzle and foam. Take great care, then serve in a second kulhad."
+  },
+  "caffeine_level": "medium",
+  "vintage_note": "A freshly made cafe and stall drink, not sold by year or season. The defining element is the hot clay, so packaged 'tandoori' flavoured products are a different thing.",
+  "description": "Tandoori chai is milky chai finished in a clay cup straight from a tandoor. It is a modern Pune invention and a variation on masala chai, with the fire as the main new ingredient.\n\nThe hot kulhad is lifted out with iron tongs and chai is poured in. It sizzles, foams over, picks up the taste of scorched clay, and gets moved to a new kulhad for serving. Some stalls repeat the pouring.\n\nThe smokiness is the point, sitting over a thick, generously milky tea with bay leaf and other spices in place of masala chai's dominant cardamom. It is a sweet, heavy drink for one small serving.\n\nDrink it where it is done live, since the effect does not last long. For a safer version at home, use a thick, unglazed kulhad and be careful with the heat: hot clay and boiling milk are genuinely dangerous together.",
+  "history": "This is a recent recipe with a named originator. Amol Rajdeo of the Chai La tea shop in Pune is credited with it, inspired by his grandmother warming turmeric milk in a kulhad at the edge of a bonfire. Accounts vary on some details of the shop's founders. Coverage dates at least to 2018.\n\nThe method then spread to other Pune-area vendors and further to places including Hyderabad and Kochi.",
+  "liquor_hex": "#9C6B45",
+  "leaf_hex": "#3A2518",
+  "sources": [
+    "https://slurrp.com/article/all-about-tandoori-chai-masala-chais-rustic-cousin-1653639943652",
+    "https://www.localsamosa.com/2020/05/28/local-chai-of-india",
+    "https://www.lonelyplanet.com/articles/guide-to-tea-chai-india",
+    "https://www.business-standard.com/article/news-ani/pune-men-reforming-tea-game-with-tandoori-tadka-chai-118052400922_1.html"
+  ],
+  "confidence": "medium",
+  "wikipedia_title": "Masala chai",
+  "wikipedia_scope": "umbrella",
+  "popularity": 2,
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d1/Tandoori_Chai_Cup.jpg/1280px-Tandoori_Chai_Cup.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d1/Tandoori_Chai_Cup.jpg/330px-Tandoori_Chai_Cup.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Tandoori_Chai_Cup.jpg",
+      "author": "Gaurav Dhwaj Khadka",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "kind": "liquor",
+      "alt": "Frothy milky brown tandoori chai in a rough clay cup on a wooden table"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/98/45594461-abaa8400-b9b8-11e8-8868-56f57f37c6cd.jpg/1280px-45594461-abaa8400-b9b8-11e8-8868-56f57f37c6cd.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/98/45594461-abaa8400-b9b8-11e8-8868-56f57f37c6cd.jpg/330px-45594461-abaa8400-b9b8-11e8-8868-56f57f37c6cd.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source_page": "https://commons.wikimedia.org/wiki/File:45594461-abaa8400-b9b8-11e8-8868-56f57f37c6cd.jpg",
+      "author": "Rooyyash",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "kind": "serving",
+      "alt": "Heated clay cup resting in a brass vessel of foaming milky tandoori chai"
+    }
+  ]
+}

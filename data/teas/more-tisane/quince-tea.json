@@ -1,0 +1,56 @@
+{
+  "slug": "quince-tea",
+  "name_en": "Quince Tea (Mogwa-cha)",
+  "name_native": "모과차",
+  "name_romanized": "Mogwa-cha",
+  "name_zh": "木瓜茶",
+  "name_ru": "Чай из айвы (могва-ча)",
+  "aliases": [
+    "Mogwa-cha",
+    "Quince tea",
+    "Чай из айвы"
+  ],
+  "category": "tisane",
+  "origin_country": "South Korea",
+  "origin_region": "Korea",
+  "cultivar": "Chinese quince",
+  "processing": "Most often Chinese quince is preserved in honey or sugar as mogwa-cheong and stirred into hot water. It can also be made by boiling dried quince or mixing powdered dried quince with hot water.",
+  "form": "other",
+  "harvest_season": "Made from the autumn fruit, as is usual for quince, and drunk through the cold months.",
+  "appearance_dry": "Usually a jar of syrupy preserve with thin slices of quince; also sold as dried slices or powder.",
+  "appearance_liquor": "Typically a clear to slightly cloudy golden yellow.",
+  "appearance_wet": "Soft translucent slices of fruit floating in the cup.",
+  "taste_profile": "Sweet from the preserve, with the fragrant, gently tart character typical of quince.",
+  "taste_tags": [
+    "fruity",
+    "sweet",
+    "tart",
+    "honey"
+  ],
+  "brewing": {
+    "grams": 20,
+    "water_ml": 200,
+    "temp_c": 95,
+    "steeps": 1,
+    "seconds": [
+      60
+    ],
+    "notes": "Stir a generous spoonful of preserve into hot water, wait a minute and taste; adjust the amount to your jar's sweetness. The fruit can be eaten at the end."
+  },
+  "caffeine_level": "none",
+  "vintage_note": "No vintages. It is sold as a preserve, in dried slices or as a powder, and home batches are typically made from the autumn fruit. A preserve should be judged by its date and smell, since quince preserves ferment fairly readily.",
+  "description": "Mogwa-cha is a Korean fruit tea made from Chinese quince, and in its most common form it is closer to a spoonful of jam in hot water than to anything steeped. No tea plant is involved.\n\nThe preserve, mogwa-cheong, is made by keeping the fruit in honey or sugar, much as yuja-cha is made from citron. Dried quince can be boiled instead, and powdered quince simply stirred in; these give a less sweet cup.\n\nExpect sweetness first and the fragrant tartness typical of quince behind it. The common mistake is too much preserve, which leaves you with hot syrup, so start small.\n\nWhen buying a jar, read the ingredients for the share of fruit against sugar. At home, keep it cold and watch it, since quince preserve tends to turn alcoholic like plum preserve does.\n\nIf you like it, yuja-cha is the obvious next cup: same idea, sharper citrus.",
+  "history": "Mogwa-cha is recorded as a traditional Korean tea, but little is documented about when it first appeared or who made it known. Its method closely follows that of yuja-cha, and today the preserve form is the most usual one.",
+  "liquor_hex": "#D9A83C",
+  "leaf_hex": "#B98A2E",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Mogwa-cha",
+    "https://ko.wikipedia.org/wiki/%EB%AA%A8%EA%B3%BC%EC%B0%A8",
+    "https://www.wikidata.org/wiki/Q5358446"
+  ],
+  "confidence": "medium",
+  "wikipedia_title": "Mogwa-cha",
+  "wikipedia_scope": "exact",
+  "popularity": 2,
+  "images": []
+}

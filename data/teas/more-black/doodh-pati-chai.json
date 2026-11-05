@@ -1,0 +1,66 @@
+{
+  "slug": "doodh-pati-chai",
+  "name_en": "Doodh Pati Chai",
+  "name_native": "دودھ پتی چائے",
+  "name_romanized": "doodh pati chai",
+  "name_zh": "纯奶煮茶",
+  "name_ru": "Дудх пати чай",
+  "aliases": [
+    "Dudh pati cha",
+    "Doodh patti",
+    "Milk leaf tea",
+    "दूध पत्ती चाय"
+  ],
+  "category": "black",
+  "origin_country": "Pakistan",
+  "origin_region": "South Asia",
+  "cultivar": null,
+  "processing": "A boiled drink: tea is cooked directly in milk, without water, usually with sugar and often whole spices, then strained.",
+  "form": "other",
+  "harvest_season": "Not tied to a harvest; made all year from everyday black tea.",
+  "appearance_dry": "The base is plain everyday black tea, as is usual for South Asian milk teas.",
+  "appearance_liquor": "Opaque, deep milky tan.",
+  "appearance_wet": "Leaf and spices are strained out before serving.",
+  "taste_profile": "Thick and rich from whole milk, sweetened to taste and warm with cardamom and ginger when spiced.",
+  "taste_tags": [
+    "creamy",
+    "sweet",
+    "spicy",
+    "malty"
+  ],
+  "brewing": {
+    "grams": 5,
+    "water_ml": 250,
+    "temp_c": 100,
+    "steeps": 1,
+    "seconds": [
+      300
+    ],
+    "notes": "The volume here is full-cream milk, not water. Bring milk and any spices to the boil, add tea, simmer gently, then sweeten and strain."
+  },
+  "caffeine_level": "medium",
+  "vintage_note": "Made fresh at home, at dhabas and by chaiwalas, so it has no year or season. Any everyday black tea will do. It costs slightly more than water-based chai because it uses only milk.",
+  "description": "Doodh pati means 'milk leaf', which is the whole idea: the tea is boiled in milk alone. That is what separates it from saada chai, the water-based everyday cup. It is drunk across South Asia and most of all in northern India and Pakistan.\n\nFull-cream milk goes in the pot, usually with spices such as green or black cardamom, ginger, cinnamon, peppercorns, cloves or fennel, and saffron in better-off households. When it boils, the tea goes in, and it cooks gently before sugar and a strainer finish the job.\n\nThe result is heavy and sweet, with little water to thin it. Spices are optional and the tea stays recognisable underneath. Watch the pot, because milk can boil over quickly.\n\nThere is nothing to look out for on the packet; any strong black tea does the work. Try it in a cup or, the old way, from the edge of a saucer.",
+  "history": "The drink comes from the Indian subcontinent, but little is documented about when it took shape, and no inventor is recorded. The name joins the Hindi and Urdu words for milk and leaf with chai, a word that reached these languages through Persian from Chinese.\n\nIt is sold at roadside dhabas and by chaiwalas, though it is most often made at home. It has also spread to the Middle East.",
+  "liquor_hex": "#BE9468",
+  "leaf_hex": "#33241A",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Doodh_pati_chai"
+  ],
+  "confidence": "medium",
+  "wikipedia_title": "Doodh pati chai",
+  "wikipedia_scope": "exact",
+  "popularity": 3,
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2d/Doodh_patti_chai.jpeg/1280px-Doodh_patti_chai.jpeg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2d/Doodh_patti_chai.jpeg/330px-Doodh_patti_chai.jpeg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Doodh_patti_chai.jpeg",
+      "author": "Jobanpreet.kaur.thind19",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "kind": "liquor",
+      "alt": "Milky tan doodh patti chai in a steel pot"
+    }
+  ]
+}

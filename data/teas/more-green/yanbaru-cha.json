@@ -1,0 +1,53 @@
+{
+  "slug": "yanbaru-cha",
+  "name_en": "Yanbaru-cha",
+  "name_native": "やんばる茶",
+  "name_romanized": "Yanbaru-cha",
+  "name_zh": "山原茶",
+  "name_ru": "Ямбару-тя",
+  "aliases": [
+    "Yanbaru tea"
+  ],
+  "category": "green",
+  "origin_country": "Japan",
+  "origin_region": "Okinawa · Nago, Kunigami",
+  "cultivar": null,
+  "processing": "Little is documented for this tea specifically; as with most Japanese green tea, the leaf would be steamed, rolled and dried.",
+  "form": "loose",
+  "harvest_season": "Very early: the first flush in Kunigami's Oku hamlet starts ahead of other Japanese tea regions.",
+  "appearance_dry": "Typically dark green needles or fragments, as with ordinary Japanese steamed greens.",
+  "appearance_liquor": "Typically yellow-green, as with Japanese steamed greens.",
+  "appearance_wet": "Typically soft green leaf pieces, as with Japanese steamed greens.",
+  "taste_profile": "Little is documented about its taste; expect the fresh, vegetal character typical of Japanese steamed green tea.",
+  "taste_tags": [
+    "vegetal",
+    "grassy"
+  ],
+  "brewing": {
+    "grams": 5,
+    "water_ml": 200,
+    "temp_c": 75,
+    "steeps": 3,
+    "seconds": [
+      60,
+      20,
+      40
+    ],
+    "notes": "Standard starting point for a Japanese steamed green; adjust by taste, since no local brewing advice is documented."
+  },
+  "caffeine_level": "medium",
+  "vintage_note": "As is usual for Japanese green tea, expect it to be sold as the current year's crop, with first-flush lots the most sought after. Okinawa's early start means new tea can appear before mainland shincha.",
+  "description": "Yanbaru-cha is green tea from the forested north of Okinawa's main island, grown around Nago and Kunigami village. Yanbaru is the everyday name for that northern area, and the tea is a rare example of Japanese tea from the subtropics.\n\nLittle is written about how it is made, so assume the usual Japanese steamed-green approach unless the seller says otherwise. Kunigami's Oku hamlet is the best-known local name, and its tea is sold under the label Oku Midori.\n\nBrew it like an ordinary sencha to begin with: cooler water, about a minute, then short follow-up steeps. Taste notes for it are scarce, so your own diary entry may be more useful than anything printed.\n\nOn a label, look for the place, such as Nago, Kunigami or Oku, and the season. The name itself is more a regional description than a graded style.",
+  "history": "Little is documented about this tea's history. The label Yanbaru-cha is used in the reference book 日本茶の図鑑 for the tea of Nago and Kunigami, which suggests a regional grouping and not an old brand.\n\nOku in Kunigami has its own established identity as a tea village. In 2025 its first flush was reported as starting before those of other Japanese producing regions.",
+  "liquor_hex": "#C9CB78",
+  "leaf_hex": "#4F6332",
+  "sources": [
+    "https://ja.wikipedia.org/wiki/%E6%97%A5%E6%9C%AC%E8%8C%B6",
+    "https://ryukyushimpo.jp/news/region/entry-4148154.html"
+  ],
+  "confidence": "low",
+  "wikipedia_title": "日本茶",
+  "wikipedia_scope": "umbrella",
+  "popularity": 2,
+  "images": []
+}

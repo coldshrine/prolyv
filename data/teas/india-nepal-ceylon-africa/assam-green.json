@@ -3,7 +3,11 @@
   "name_en": "Assam Green Tea",
   "name_native": "অসম চাহ",
   "name_romanized": "Oxom sāh",
-  "aliases": ["Green Assam", "Assam green", "Assam organic green tea"],
+  "aliases": [
+    "Green Assam",
+    "Assam green",
+    "Assam organic green tea"
+  ],
   "category": "green",
   "origin_country": "India",
   "origin_region": "Assam · Brahmaputra Valley",
@@ -15,12 +19,58 @@
   "appearance_liquor": "Yellow-green to amber-yellow.",
   "appearance_wet": "Olive-green, large, leathery leaf.",
   "taste_profile": "Bold for a green tea: vegetal and lightly malty with a brisk, drying finish and a touch of honey when brewed cool.",
-  "taste_tags": ["vegetal", "malty", "brisk"],
-  "brewing": {"grams": 3, "water_ml": 200, "temp_c": 80, "steeps": 2, "seconds": [120, 180], "notes": "Cool water and short steeps; assamica leaf is rich in catechins and turns bitter fast."},
+  "taste_tags": [
+    "vegetal",
+    "malty",
+    "brisk"
+  ],
+  "brewing": {
+    "grams": 3,
+    "water_ml": 200,
+    "temp_c": 80,
+    "steeps": 2,
+    "seconds": [
+      120,
+      180
+    ],
+    "notes": "Cool water and short steeps; assamica leaf is rich in catechins and turns bitter fast."
+  },
   "caffeine_level": "medium",
-  "vintage_note": "Sold by garden and year, often with an organic certificate, and increasingly by small-grower cooperatives; drink within the year of harvest. Most Assam green goes to the Indian domestic health-tea market, so it is cheap at home and a curiosity abroad, with no vintage or aged market.",
-  "description": "Assam green tea is the odd one out in a valley built on strong black tea: the same big-leaved assamica bushes, but fired before the leaf can oxidise. It has been made in small quantities for decades and has grown with India's domestic green-tea boom, mostly from organic small growers and a few orthodox estates.\n\nFresh leaf is steamed or pan-fired to stop oxidation, rolled and dried. Because assamica leaf is large and rich in catechins, the result is a bolder, more astringent green than Chinary leaf gives, with a dark olive look and a yellow-amber cup.\n\nBrewed cool it shows a mild honeyed sweetness and a faint malty note under the vegetal character, with a brisk, drying finish; brewed hot it turns bitter very quickly. Keep the water at around 80 °C and the steeps short, and treat it more like a hearty Chinese green than a Japanese one.\n\nIt is sold by garden and year, often with an organic certificate, and the first flush in March and April is the gentlest. Most of it is sold within India as a health tea, so abroad it is a curiosity found at a few importers rather than a staple. Buy the current year's lot and use it within the year.\n\nWorth a try if you like strong greens, or if you want to taste the raw material of Assam black tea before oxidation.",
+  "vintage_note": "Sold by garden and year, often with an organic certificate, and by some small growers; drink within the year of harvest. Abroad it is a curiosity from a few importers, and there is no vintage or aged market.",
+  "description": "Assam green tea is the odd one out in a valley built on strong black tea: the same big-leaved assamica bushes, but fired before the leaf can oxidise. It is a small and fairly recent line, made by organic small growers and a few orthodox estates, at least one with machinery built for Japanese-style green tea.\n\nFresh leaf is steamed or pan-fired to stop oxidation, rolled and dried. Because assamica leaf is large and rich in catechins, the result is a bolder, more astringent green than Chinary leaf gives, with a dark olive look and a yellow-amber cup.\n\nBrewed cool it shows a mild honeyed sweetness and a faint malty note under the vegetal character, with a brisk, drying finish; brewed hot it turns bitter very quickly. Keep the water at around 80 °C and the steeps short, and treat it more like a hearty Chinese green than a Japanese one.\n\nIt is sold by garden and year, often with an organic certificate, and the first flush in March and April is the gentlest. Abroad it is a curiosity found at a few importers rather than a staple. Buy the current year's lot and use it within the year.\n\nWorth a try if you like strong greens, or if you want to taste the raw material of Assam black tea before oxidation.",
   "wikipedia_title": "Assam tea",
   "wikipedia_scope": "umbrella",
-  "popularity": 1
+  "popularity": 1,
+  "name_zh": "阿萨姆绿茶",
+  "name_ru": "Ассам зелёный",
+  "history": "Assam's fame rests on black tea, orthodox and CTC, and green tea is a small addition to it. Trade writing around the state's tea bicentenary in 2023 calls green teas an emerging trend, and names one garden, Chota Tingrai, that has installed machines to make green tea in the Japanese style.\n\nSmall growers, who set up plantations a few decades back and now produce nearly half the state's tea, are part of the wider setting. Little is documented about who first made green tea here or how much is produced, and no reliable volume figures seem to exist.",
+  "liquor_hex": "#C9B45A",
+  "leaf_hex": "#4F5A2C",
+  "sources": [
+    "https://www.worldteanews.com/origins/assam-celebrates-200-year-tea-history-and-its-impact-economy-culture-and-people",
+    "https://stir-tea-coffee.com/features/indian-origin-update-assam-readies-for-another-200-years-in-"
+  ],
+  "confidence": "low",
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/be/Assamgreentea.jpg/1280px-Assamgreentea.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/be/Assamgreentea.jpg/330px-Assamgreentea.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Assamgreentea.jpg",
+      "author": "Badagnani",
+      "license": "CC BY 3.0",
+      "license_url": "https://creativecommons.org/licenses/by/3.0",
+      "kind": "dry_leaf",
+      "alt": "Dried Assam green tea, loosely twisted olive-brown leaves on a white background"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/69/Assam_Green_tea.jpg/1280px-Assam_Green_tea.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/69/Assam_Green_tea.jpg/330px-Assam_Green_tea.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Assam_Green_tea.jpg",
+      "author": "Chiring chandan",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "kind": "wet_leaf",
+      "alt": "Infused Assam green tea leaves in a white cup"
+    }
+  ]
 }

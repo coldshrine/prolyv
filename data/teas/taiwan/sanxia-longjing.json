@@ -3,7 +3,13 @@
   "name_en": "Sanxia Longjing (Taiwanese Dragon Well)",
   "name_native": "三峽龍井",
   "name_romanized": "Sānxiá Lóngjǐng",
-  "aliases": ["Taiwan Longjing", "Taiwanese Dragon Well", "Sanxia Lung Ching", "Formosa Longjing", "Sanhsia Longjing"],
+  "aliases": [
+    "Taiwan Longjing",
+    "Taiwanese Dragon Well",
+    "Sanxia Lung Ching",
+    "Formosa Longjing",
+    "Sanhsia Longjing"
+  ],
   "category": "green",
   "origin_country": "Taiwan",
   "origin_region": "New Taipei · Sanxia",
@@ -15,13 +21,39 @@
   "appearance_liquor": "Pale yellow-green, clear.",
   "appearance_wet": "Flat, tender bud-and-leaf sets that stand upright in the glass before sinking.",
   "taste_profile": "Toasted bean and chestnut first, then fresh pea-shoot greenness and a soft sweet finish, lighter and gentler than Hangzhou Longjing with less bite.",
-  "taste_tags": ["nutty", "vegetal", "sweet", "grassy"],
-  "brewing": {"grams": 3, "water_ml": 150, "temp_c": 80, "steeps": 3, "seconds": [60, 45, 75], "notes": "A tall glass or a gaiwan at about 80 °C; two or three infusions. Hot water makes it bitter."},
+  "taste_tags": [
+    "nutty",
+    "vegetal",
+    "sweet",
+    "grassy"
+  ],
+  "brewing": {
+    "grams": 3,
+    "water_ml": 150,
+    "temp_c": 80,
+    "steeps": 3,
+    "seconds": [
+      60,
+      45,
+      75
+    ],
+    "notes": "A tall glass or a gaiwan at about 80 °C; two or three infusions. Hot water makes it bitter."
+  },
   "caffeine_level": "medium",
   "vintage_note": "Sold as the current spring harvest, with the earliest pre-Qingming picking the most expensive and later spring and winter lots cheaper, in small quantities from Sanxia growers and the farmers' association. Keep it sealed and cold and drink it within a few months; it is not aged.",
-  "description": "Sanxia Longjing is the flat-pressed green tea of Sanxia District in New Taipei, made from the same Qing Xin Gan Zai leaf as the district's Bi Luo Chun but finished in the Dragon Well manner, pressed against the hot wok until the leaves are smooth, flat blades. It is a Taiwanese tea in the style of Hangzhou's famous green, not an imitation sold as the real thing, and it is almost unknown outside Taiwan.\n\nSanxia has made green tea for generations; in the mid-twentieth century the area supplied green tea for export, and when that market faded the farmers kept the craft for the local market, in the two shapes. The spring shoots are pan-fired to stop oxidation and then pressed and stroked flat by hand or machine in the wok, which gives a drier, more toasted character than the curly Bi Luo Chun from the same picking.\n\nIn the cup it is toasted bean and chestnut first, then fresh pea-shoot greenness and a soft sweet finish, lighter and gentler than Hangzhou Longjing and with less of its bite. Brew it in a tall glass or a gaiwan at around 80 degrees, three grams to 150 millilitres, and watch the blades stand up and sink; two or three infusions is its range, and hot water will make it bitter.\n\nIt is sold as the current spring harvest, with the earliest pre-Qingming picking the most expensive and later spring and winter lots cheaper, in small quantities from Sanxia growers and the farmers' association. It is not aged and should be kept sealed and cold and drunk within a few months. It costs far less than genuine West Lake Longjing and is a more honest buy than most 'Longjing' sold abroad.\n\nTaste it beside the Bi Luo Chun from the same garden to see how much the pan work changes one leaf.",
+  "description": "Sanxia Longjing is the flat-pressed green tea of Sanxia District in New Taipei, made from the same Qing Xin Gan Zai leaf as the district's Bi Luo Chun but finished in the Dragon Well manner, pressed against the hot wok until the leaves are smooth, flat blades. It is a Taiwanese tea in the style of Hangzhou's famous green, not an imitation sold as the real thing, and it is almost unknown outside Taiwan.\n\nThe spring shoots are pan-fired to stop oxidation and then pressed and stroked flat by hand or machine in the wok, which gives a drier, more toasted character than the curly Bi Luo Chun from the same picking.\n\nIn the cup it is toasted bean and chestnut first, then fresh pea-shoot greenness and a soft sweet finish, lighter and gentler than Hangzhou Longjing and with less of its bite. Brew it in a tall glass or a gaiwan at around 80 degrees, three grams to 150 millilitres, and watch the blades stand up and sink; two or three infusions is its range, and hot water will make it bitter.\n\nIt is sold as the current spring harvest, with the earliest pre-Qingming picking the most expensive and later spring and winter lots cheaper, in small quantities from Sanxia growers and the farmers' association. It is not aged and should be kept sealed and cold and drunk within a few months. It costs far less than genuine West Lake Longjing and is a more honest buy than most 'Longjing' sold abroad.\n\nTaste it beside the Bi Luo Chun from the same garden to see how much the pan work changes one leaf.",
   "wikipedia_title": "Longjing tea",
   "wikipedia_scope": "umbrella",
   "popularity": 2,
-  "sources_note": "Sanxia's mid-20th-century export green tea history is from memory; whether the farmers' association grades Longjing separately from Bi Luo Chun is not certain."
+  "sources_note": "Sanxia's mid-20th-century export green tea history is from memory; whether the farmers' association grades Longjing separately from Bi Luo Chun is not certain.",
+  "name_zh": "三峡龙井",
+  "name_ru": "Сань Ся Лун Цзин",
+  "history": "Sanxia, in New Taipei, is a known green tea district, and the Ganzai (Qing Xin Gan Zai) cultivar is used there mainly for green teas such as Bi Luo Chun and Longjing. The flat shape is borrowed from Hangzhou's Longjing. Little is documented about when it was first adopted here, so no firm timeline can be given.",
+  "liquor_hex": "#DDD78E",
+  "leaf_hex": "#8A9148",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Taiwanese_tea"
+  ],
+  "confidence": "low",
+  "images": []
 }

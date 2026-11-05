@@ -1,0 +1,54 @@
+{
+  "slug": "shingu-cha",
+  "name_en": "Shingu-cha",
+  "name_native": "新宮茶",
+  "name_romanized": "Shingū-cha",
+  "aliases": [
+    "新宮茶"
+  ],
+  "category": "green",
+  "origin_country": "Japan",
+  "origin_region": "Ehime · Shikokuchuo, Shingu",
+  "cultivar": null,
+  "form": "loose",
+  "caffeine_level": "medium",
+  "brewing": {
+    "grams": 3,
+    "water_ml": 150,
+    "temp_c": 80,
+    "steeps": 3,
+    "seconds": [
+      60,
+      75,
+      105
+    ],
+    "notes": "A safe starting point for green tea: cooler water, short steeps, then adjust by taste."
+  },
+  "taste_tags": [
+    "vegetal",
+    "sweet"
+  ],
+  "description": "Shingu-cha is a pesticide-free, organically grown Japanese green tea from Shingu in Shikokuchuo, Ehime Prefecture, and a leading name in the prefecture.\n\nTreat it as you would any green tea: cooler water, short steeps, and a seller who can say where and when it was picked.",
+  "wikipedia_title": null,
+  "wikipedia_scope": "none",
+  "popularity": 1,
+  "name_zh": "新宫茶",
+  "name_ru": "Сингу-тя",
+  "history": "Serious planting began in 1951, when the village of Shingu sought a local specialty and brought in seed and seedlings from Shizuoka; its first tea garden was finished in 1955. By 1986 every household in the village grew without pesticides, ahead of other districts. It has won an honorary prize at the 55th Agriculture Contest and gold at the 2nd International Fine Tea Competition. Since the merger into Shikokuchuo, tea from nearby Togo is also shipped under the name.",
+  "liquor_hex": "#D6D27A",
+  "leaf_hex": "#7E8B3E",
+  "sources": [
+    "https://ja.wikipedia.org/wiki/新宮茶",
+    "https://www.wikidata.org/wiki/Q11501752"
+  ],
+  "confidence": "medium",
+  "images": [],
+  "stub": true,
+  "processing": "Grown organically without pesticides.",
+  "harvest_season": "Usually picked in spring, with the earliest pickings prized, as with most green teas.",
+  "appearance_dry": "Green leaf whose shape depends on the maker, as is usual for regional green teas.",
+  "appearance_liquor": "Usually a clear, pale yellow-green.",
+  "appearance_wet": "Usually soft green leaf that opens up in the water.",
+  "taste_profile": "Expect what green teas usually give: fresh, vegetal and lightly sweet.",
+  "vintage_note": "Green teas like this are normally sold as the current year's harvest and are best within a year of picking. It is not an ageing tea."
+}

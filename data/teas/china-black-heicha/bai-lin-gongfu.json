@@ -3,7 +3,13 @@
   "name_en": "Bai Lin Gongfu",
   "name_native": "白琳工夫",
   "name_romanized": "Báilín Gōngfu",
-  "aliases": ["Bailin Gongfu", "Bai Lin Gong Fu", "Bailin Congou", "Fuding black tea", "Pak Lin Congou"],
+  "aliases": [
+    "Bailin Gongfu",
+    "Bai Lin Gong Fu",
+    "Bailin Congou",
+    "Fuding black tea",
+    "Pak Lin Congou"
+  ],
   "category": "black",
   "origin_country": "China",
   "origin_region": "Fujian · Ningde · Fuding",
@@ -15,13 +21,47 @@
   "appearance_liquor": "Bright orange-red, lighter than Tanyang or Zhenghe.",
   "appearance_wet": "Small copper-red leaves with pale golden buds.",
   "taste_profile": "Soft and honey-sweet with a light fruitiness, a hint of citrus peel and a smooth, low-tannin finish; the delicate one of the three Fujian gongfu teas.",
-  "taste_tags": ["honey", "sweet", "fruity", "citrus", "creamy"],
-  "brewing": {"grams": 5, "water_ml": 110, "temp_c": 90, "steeps": 7, "seconds": [10, 10, 15, 20, 30, 45, 60], "notes": "Cooler water (88–90 °C) and short steeps protect the down's sweetness. Western-style: 3 g per 250 ml, 2.5 minutes, drunk neat."},
+  "taste_tags": [
+    "honey",
+    "sweet",
+    "fruity",
+    "citrus",
+    "creamy"
+  ],
+  "brewing": {
+    "grams": 5,
+    "water_ml": 110,
+    "temp_c": 90,
+    "steeps": 7,
+    "seconds": [
+      10,
+      10,
+      15,
+      20,
+      30,
+      45,
+      60
+    ],
+    "notes": "Cooler water (88–90 °C) and short steeps protect the down's sweetness. Western-style: 3 g per 250 ml, 2.5 minutes, drunk neat."
+  },
   "caffeine_level": "medium",
   "vintage_note": "Sold by the current year's spring harvest; the downy buds lose their fragrance faster than coarser leaf, so drink within a year. Not an ageing tea; production is small, so most lots sell out by autumn.",
-  "description": "Bai Lin Gongfu comes from Bailin, a town in Fuding at the northern tip of Fujian, which is better known today as the capital of white tea. That is no coincidence: Bai Lin Gongfu is made from the same Fuding Dabai and Dahao bushes that give Silver Needle its fur, and the thick golden down on the buds is what defines it. It is the third of the great Fujian gongfu blacks and has been made since the mid-nineteenth century; a famously tippy grade called Ju Hong, 'tangerine red', made its name in the 1930s.\n\nThe leaf – a bud with one or two leaves – is withered for a long time, rolled gently so the downy buds survive, oxidised and dried, then sorted to keep the tips whole. Because the cultivars were selected for buds rather than for the leaf, the tea has less tannin and less body than a Tanyang or Zhenghe made from leafier material, and much more of the honeyed softness that bud tea brings.\n\nIn the cup it is honey and light fruit, a suggestion of citrus peel, a creamy texture and a gentle finish that never grips. It is the easiest of the three gongfu teas to drink neat and the easiest to spoil: boiling water and long steeps turn it flat and papery. Keep the water around 90 °C and the steeps short, and it gives six or seven infusions.\n\nIt is sold by the current spring harvest, often in small lots directly from Fuding makers who mainly produce white tea, and the tippiness of the dry leaf is the quality marker. Because the same cultivars are used for white tea, you will also see 'Fuding hong cha' and 'Dabai black' that are essentially the same thing under a plainer name; what you want to avoid is dull, tipless leaf sold on the Bailin name alone.\n\nTaste it next to a Fuding white peony from the same year: same bushes, and the oxidation shows you exactly what black-tea making does.",
+  "description": "Bai Lin Gongfu comes from Bailin, a town in Fuding at the northern tip of Fujian, which is better known today as the capital of white tea. That is no coincidence: Bai Lin Gongfu is made from the same Fuding Dabai and Dahao bushes that give Silver Needle its fur, and the thick golden down on the buds is what defines it. It is the third of the great Fujian gongfu blacks and has been made since about the mid-nineteenth century; its fine, tippy grade is known as Ju Hong, 'tangerine red', though when that name first appeared is unclear.\n\nThe leaf – a bud with one or two leaves – is withered for a long time, rolled gently so the downy buds survive, oxidised and dried, then sorted to keep the tips whole. Because the cultivars were selected for buds rather than for the leaf, the tea has less tannin and less body than a Tanyang or Zhenghe made from leafier material, and much more of the honeyed softness that bud tea brings.\n\nIn the cup it is honey and light fruit, a suggestion of citrus peel, a creamy texture and a gentle finish that never grips. It is the easiest of the three gongfu teas to drink neat and the easiest to spoil: boiling water and long steeps turn it flat and papery. Keep the water around 90 °C and the steeps short, and it gives six or seven infusions.\n\nIt is sold by the current spring harvest, often in small lots directly from Fuding makers who mainly produce white tea, and the tippiness of the dry leaf is the quality marker. Because the same cultivars are used for white tea, you will also see 'Fuding hong cha' and 'Dabai black' that are essentially the same thing under a plainer name; what you want to avoid is dull, tipless leaf sold on the Bailin name alone.\n\nTaste it next to a Fuding white peony from the same year: same bushes, and the oxidation shows you exactly what black-tea making does.",
   "wikipedia_title": "Congou",
   "wikipedia_scope": "umbrella",
   "popularity": 2,
-  "sources_note": "The 'Ju Hong' (橘红) high grade is described in Chinese tea literature as a 1930s-era Bailin specialty; details are thin and it is mentioned only in passing."
+  "sources_note": "The 'Ju Hong' (橘红) high grade is described in Chinese tea literature as a 1930s-era Bailin specialty; details are thin and it is mentioned only in passing.",
+  "name_zh": "白琳工夫",
+  "name_ru": "Бай Линь Гун Фу",
+  "history": "Bai Lin Gongfu grew out of merchant trade. Around the 1850s, by the usual Chinese account, Fujian and Guangdong tea dealers working in Fuding bought semi-finished black leaf from Bailin and neighbouring villages, and from Pingyang and Taishun over the Zhejiang border, and finished it at Bailin. That puts the tea's age at over 150 years, and it counts as one of the three great Fujian gongfu blacks with Tanyang and Zhenghe.\n\nThe fine grade came later, when makers picked tender Fuding Dabai leaf and called the result Ju Hong, 'tangerine red', for its bright colour. Exactly when this happened and who did it is poorly documented. The Fuding tea man Mei Bozhen (1875 to 1947) is remembered for work on both white tea and Bai Lin processing.",
+  "liquor_hex": "#C4692A",
+  "leaf_hex": "#5A3F22",
+  "sources": [
+    "https://m.maigoo.com/citiao/277883.html",
+    "https://www.viconyteas.com/directory/tea-encyclopedia/bai-lin-congou.html",
+    "https://www.ihchina.cn/project_details/26422.html",
+    "https://www.curioustea.com/tea/black-tea/bai-lin-gong-fu/"
+  ],
+  "confidence": "medium",
+  "images": []
 }

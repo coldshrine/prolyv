@@ -1,0 +1,54 @@
+{
+  "slug": "mandokoro-cha",
+  "name_en": "Mandokoro-cha",
+  "name_native": "政所茶",
+  "name_romanized": "Mandokoro-cha",
+  "name_zh": "政所茶",
+  "name_ru": "Мандокоро-тя",
+  "aliases": [
+    "Mandokoro tea"
+  ],
+  "category": "green",
+  "origin_country": "Japan",
+  "origin_region": "Shiga · Higashiomi · Mandokoro",
+  "cultivar": null,
+  "processing": "Hand-picked leaf, made as green tea; details of the steps are little documented, though Japanese steaming is the usual approach for the class.",
+  "form": "loose",
+  "harvest_season": "Hand-picked, typically in spring, with the first flush usually most valued as with other Japanese greens.",
+  "appearance_dry": "Typically dark green twisted leaf, as with Japanese mountain greens.",
+  "appearance_liquor": "Typically clear yellow-green, as with Japanese mountain greens.",
+  "appearance_wet": "Typically whole, soft green leaf, as befits hand-picking.",
+  "taste_profile": "Fragrant, with bitterness at the front and a soft sweetness inside it.",
+  "taste_tags": [
+    "bitter",
+    "sweet",
+    "vegetal"
+  ],
+  "brewing": {
+    "grams": 5,
+    "water_ml": 180,
+    "temp_c": 75,
+    "steeps": 3,
+    "seconds": [
+      60,
+      25,
+      40
+    ],
+    "notes": "Start cool to keep the bitterness in balance; raise the temperature if you want more grip. Measures are a general starting point."
+  },
+  "caffeine_level": "medium",
+  "vintage_note": "Usually sold as the current year's crop, as with most Japanese green tea. Output is tiny and made by a few dozen households, so expect small lots from named makers, not a steady year-round stock.",
+  "description": "Mandokoro is a mountain community in the Suzuka range in eastern Shiga, and its tea is one of Japan's small heritage crops. Around 30 farming households still make it.\n\nThe fields sit where the seasons are sharply marked, and the leaf is picked by hand. Those two facts are the usual explanation for its fragrance.\n\nIn the cup, the point is the balance: bitterness with a quiet sweetness inside it. Don't rush to remove all the bitterness with very cool water, because that is part of its character; just keep the steeps short.\n\nBecause so few people make it, little is written about grades. Buy from a producer or a shop that names the household, and think of it as supporting a village's tea as much as buying a product.",
+  "history": "Tradition credits 越渓秀格, the fifth head of the Zen temple Eigen-ji, with encouraging villagers to plant tea in the Muromachi period, after judging the water and soil suitable. A tea-picking song paired it with Uji, and the scholar Motoori Norinaga noted in Tamakatsuma that Mandokoro people sent large quantities of summer tea to Akita. It was also offered to the imperial court and the Hikone domain.\n\nAfter the Second World War, depopulation and an ageing community cut output steadily, and it is now a rare tea.",
+  "liquor_hex": "#C9C673",
+  "leaf_hex": "#475530",
+  "sources": [
+    "https://ja.wikipedia.org/wiki/%E6%94%BF%E6%89%80%E8%8C%B6",
+    "https://ja.wikipedia.org/wiki/%E8%BF%91%E6%B1%9F%E3%81%AE%E8%8C%B6"
+  ],
+  "confidence": "medium",
+  "wikipedia_title": "政所茶",
+  "wikipedia_scope": "exact",
+  "popularity": 2,
+  "images": []
+}

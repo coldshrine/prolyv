@@ -1,0 +1,64 @@
+{
+  "slug": "lanyin-blue-mark",
+  "name_en": "Lanyin (Blue Mark)",
+  "name_native": "蓝印",
+  "name_romanized": "Lán Yìn",
+  "name_zh": "蓝印",
+  "name_ru": "Лань Инь",
+  "aliases": [
+    "Blue Mark",
+    "藍印",
+    "蓝印圆茶",
+    "蓝印铁饼",
+    "Blue Mark Iron Cake",
+    "Ланьинь"
+  ],
+  "category": "sheng",
+  "origin_country": "China",
+  "origin_region": "Yunnan · Menghai",
+  "cultivar": null,
+  "processing": "Raw pu-erh pressed into cakes at a state factory. Versions include regular green cakes, listed as grade A and grade B, and iron cakes pressed hard with a metal mould.",
+  "form": "cake",
+  "harvest_season": "Not recorded. Spring leaf is generally the most prized in pu-erh.",
+  "appearance_dry": "Aged dark brown cakes in the Eight Zhong wrapper with blue printing; iron cakes are especially tight.",
+  "appearance_liquor": "Deep chestnut amber, as is usual for raw pu-erh of this age.",
+  "appearance_wet": "Dark brown, softened leaf, typical of raw pu-erh of this age.",
+  "taste_profile": "Few dependable tasting notes exist. Raw pu-erh of this age typically shows wood and earth with a soft sweetness.",
+  "taste_tags": [
+    "woody",
+    "earthy",
+    "sweet"
+  ],
+  "brewing": {
+    "grams": 5,
+    "water_ml": 100,
+    "temp_c": 95,
+    "steeps": 7,
+    "seconds": [
+      10,
+      10,
+      15,
+      20,
+      25,
+      35,
+      50
+    ],
+    "notes": "General advice for old raw pu-erh. Modern cakes using the name should be brewed according to their actual age."
+  },
+  "caffeine_level": "medium",
+  "vintage_note": "Originals are dated to the 1950s and trade at auction by version, such as grade A, grade B or iron cake. Many modern cakes called Lanyin have no real link to them, so treat the name as a label and check the year and factory.",
+  "description": "Blue Mark is one of the classic mark teas, the state-factory raw pu-erh known by the colour on its wrapper. It comes from the same early period as Red Mark.\n\nThe name covers several products. Auction catalogues separate grade A and grade B green cakes from the iron cake, which was pressed in a metal mould and is very tight.\n\nIt is rare to taste an original, so little can be said about its cup with confidence. Expect the general character of old raw pu-erh, and brew it with hot water and short steeps.\n\nFor most drinkers the useful advice concerns modern teas with this name, since many have nothing in common with the old cakes. A recreation may still be good, but it should earn that on its own leaf.",
+  "history": "Blue Mark belongs to the wave of state-made pu-erh after the private firms were absorbed. The cakes carry the Eight Zhong design introduced after the China Tea Company registered its trademark in 1951, and they are catalogued as 1950s production.\n\nAn auction lot of the 1950s iron cake attributes it to Menghai Tea Factory. What separated grade A from grade B is not clearly documented.",
+  "liquor_hex": "#7E4019",
+  "leaf_hex": "#3D2C1E",
+  "sources": [
+    "https://teadb.org/old-school-puerh-categories-ji-haoji/",
+    "https://lhauction.com.hk/tc/web/getMedia?id=381",
+    "https://lhauction.com.hk/en/web/getMedia?id=320"
+  ],
+  "confidence": "medium",
+  "wikipedia_title": "Pu'er tea",
+  "wikipedia_scope": "umbrella",
+  "popularity": 3,
+  "images": []
+}

@@ -3,10 +3,21 @@
   "name_en": "Spearmint",
   "name_native": "نعناع (naʿnāʿ) / Nana",
   "name_romanized": null,
-  "aliases": ["Nana mint", "Moroccan mint (herb)", "Garden mint", "Mentha spicata", "Spearmint tea"],
+  "aliases": [
+    "Nana mint",
+    "Moroccan mint (herb)",
+    "Garden mint",
+    "Mentha spicata",
+    "Spearmint tea",
+    "绿薄荷",
+    "留蘭香",
+    "綠薄荷",
+    "Мята садовая",
+    "Мята нана"
+  ],
   "category": "tisane",
   "origin_country": "Morocco",
-  "origin_region": "Fès–Meknès region (nana mint); the plant is native across Europe and Asia and is also farmed in Egypt, Turkey and the US",
+  "origin_region": "Morocco",
   "cultivar": "Mentha spicata; the Moroccan 'nana' type is a particularly sweet, low-menthol strain",
   "processing": "Stems are cut before flowering and dried in shade or warm-air dryers; the leaves are then stripped and cut. In Morocco and the Levant it is just as often used fresh, bunch and all, straight into the pot.",
   "form": "loose",
@@ -15,12 +26,81 @@
   "appearance_liquor": "Pale yellow-green, clear.",
   "appearance_wet": "Softened pale-green leaves with a round, sweet aroma and none of peppermint's sharpness.",
   "taste_profile": "Sweet, soft and rounded, the flavour of mint sweets rather than menthol, with a grassy freshness and no cooling bite; it stays gentle even when steeped long.",
-  "taste_tags": ["sweet", "herbal", "grassy"],
-  "brewing": {"grams": 2, "water_ml": 250, "temp_c": 95, "steeps": 2, "seconds": [300, 420], "notes": "Just-boiled water, 5 minutes, covered. Fresh spearmint: a generous handful of sprigs per pot, boiling water, 5 minutes. It is the mint to use with green tea for Moroccan-style tea and the one to add to cold brews."},
+  "taste_tags": [
+    "sweet",
+    "herbal",
+    "grassy"
+  ],
+  "brewing": {
+    "grams": 2,
+    "water_ml": 250,
+    "temp_c": 95,
+    "steeps": 2,
+    "seconds": [
+      300,
+      420
+    ],
+    "notes": "Just-boiled water, 5 minutes, covered. Fresh spearmint: a generous handful of sprigs per pot, boiling water, 5 minutes. It is the mint to use with green tea for Moroccan-style tea and the one to add to cold brews."
+  },
   "caffeine_level": "none",
-  "vintage_note": "Sold year-round with no crop year, as the latest season's dried cut; aroma fades noticeably within a year even though the best-before says two, so buy small packs. Labels rarely say 'spearmint' outside specialist shops: look for 'nana', 'Moroccan mint' or just 'mint', and check that no green tea is listed if you want the herb on its own. Egyptian and Moroccan origin is common; Moroccan nana is the sweetest.",
+  "vintage_note": "Sold year-round with no crop year, as the latest season's dried cut; aroma fades noticeably within a year even though the best-before says two, so buy small packs. Labels may say 'spearmint', 'nana', 'Moroccan mint' or just 'mint': check the species if it matters to you, and check that no green tea is listed if you want the herb on its own. Egyptian and Moroccan origin is common; Moroccan nana is often considered the sweetest.",
   "description": "Spearmint is the gentle mint: the sweet, candy-like one in Moroccan tea glasses and Levantine kitchens, as opposed to the sharp menthol of peppermint. The cultivated Moroccan strain known as nana is the reference point, and much of the dried 'mint' in European tea ranges is spearmint from Morocco or Egypt.\n\nThe flavour comes mainly from carvone rather than menthol, which is why it tastes of chewing-gum mint with no cooling burn. The plant is cut before flowering and dried, but in its home countries it is more often used fresh, and dried spearmint should be judged by how close it gets to that: it should smell sweet and green, not like hay.\n\nAs an infusion on its own it is soft, sweet and grassy, and it cannot really be over-brewed; five minutes with just-boiled water under a lid is about right. It is also the natural partner for green tea (the classic Moroccan combination with gunpowder), for black tea in the Middle Eastern way, and for cold brews, where it reads as fresher than peppermint.\n\nThe label is the trap: 'mint tea' in a supermarket range may be peppermint, spearmint or a blend with green tea, and the only way to know is the ingredient list. Buy cut leaf rather than fine dust, and from somewhere that sells it fast; the previous summer's crop is what you should be getting.\n\nTry it with a spoon of honey and a few drops of orange-blossom water the way it is served in Morocco, or paired with hibiscus for a tart iced tea.",
   "wikipedia_title": "Spearmint",
   "wikipedia_scope": "exact",
-  "popularity": 4
+  "popularity": 4,
+  "name_zh": "留兰香",
+  "name_ru": "Мята колосистая",
+  "history": "Spearmint is native to Europe and southern temperate Asia, from Ireland to southern China, and it is one of the older recorded herbs: Pliny mentions it in the 1st century AD. The Romans are said to have brought it to England by the 5th century. Linnaeus described it scientifically in 1753, and John Gerard's Herbal of 1597 records it as a strewing herb for feast rooms and a remedy for assorted ailments.\n\nAs a drink it comes up in a few distinct places. In Connecticut around the American Revolution it was an important cash crop, and mint tea was popular partly because it was not taxed. The bigger story is North Africa: the nana type became the standard mint of Maghrebi tea prepared with gunpowder green tea, while little is documented about how it began as a plain herbal infusion on its own.",
+  "liquor_hex": "#DDD68C",
+  "leaf_hex": "#8FA463",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Spearmint",
+    "https://zh.wikipedia.org/wiki/%E7%95%99%E8%98%AD%E9%A6%99",
+    "https://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%9A%E3%82%A2%E3%83%9F%E3%83%B3%E3%83%88",
+    "https://en.wikipedia.org/wiki/Maghrebi_mint_tea",
+    "https://www.wikidata.org/wiki/Q160114"
+  ],
+  "confidence": "medium",
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/74/20140727Mentha_spicata6.jpg/1280px-20140727Mentha_spicata6.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/74/20140727Mentha_spicata6.jpg/330px-20140727Mentha_spicata6.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source_page": "https://commons.wikimedia.org/wiki/File:20140727Mentha_spicata6.jpg",
+      "author": "AnRo0002",
+      "license": "CC0",
+      "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "kind": "plant",
+      "alt": "Spearmint plant with serrated green leaves and a pale pink flower spike"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/87/20140727Mentha_spicata4.jpg/1280px-20140727Mentha_spicata4.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/87/20140727Mentha_spicata4.jpg/330px-20140727Mentha_spicata4.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source_page": "https://commons.wikimedia.org/wiki/File:20140727Mentha_spicata4.jpg",
+      "author": "AnRo0002",
+      "license": "CC0",
+      "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "kind": "plant",
+      "alt": "Spearmint stem with green leaves and a pink flower spike among grass"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b7/20160813Mentha_spicata4.jpg/1280px-20160813Mentha_spicata4.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b7/20160813Mentha_spicata4.jpg/330px-20160813Mentha_spicata4.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source_page": "https://commons.wikimedia.org/wiki/File:20160813Mentha_spicata4.jpg",
+      "author": "AnRo0002",
+      "license": "CC0",
+      "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "kind": "plant",
+      "alt": "Pale flower spikes of spearmint in close-up above green grass"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f3/20140809Mentha_spicata1.jpg/1280px-20140809Mentha_spicata1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f3/20140809Mentha_spicata1.jpg/330px-20140809Mentha_spicata1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source_page": "https://commons.wikimedia.org/wiki/File:20140809Mentha_spicata1.jpg",
+      "author": "AnRo0002",
+      "license": "CC0",
+      "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "kind": "plant",
+      "alt": "Flowering spearmint stems with lilac spikes in an open field"
+    }
+  ]
 }

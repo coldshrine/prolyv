@@ -3,10 +3,16 @@
   "name_en": "Nannuo Shan Sheng Pu-erh",
   "name_native": "南糯山生普洱",
   "name_romanized": "Nánnuò Shān Shēng Pǔ'ěr",
-  "aliases": ["Nannuo Mountain sheng", "Nan Nuo sheng", "Nannuoshan", "Banpo Laozhai", "南糯山"],
+  "aliases": [
+    "Nannuo Mountain sheng",
+    "Nan Nuo sheng",
+    "Nannuoshan",
+    "Banpo Laozhai",
+    "南糯山"
+  ],
   "category": "sheng",
   "origin_country": "China",
-  "origin_region": "Yunnan · Xishuangbanna · Menghai · Nannuo Shan",
+  "origin_region": "Yunnan · Xishuangbanna · Nannuo Shan",
   "cultivar": "Yunnan large-leaf (Camellia sinensis var. assamica), old seed-grown Nannuo gardens",
   "processing": "Raw pu-erh: pan-fired, rolled and sun-dried maocha, pressed into cakes; Nannuo leaf is relatively tender, and careful producers keep the kill-green light to protect its fragrance.",
   "form": "cake",
@@ -15,12 +21,45 @@
   "appearance_liquor": "Clear pale gold, turning honey-coloured with a few years of age.",
   "appearance_wet": "Even, tender olive-green leaves with intact buds; thinner than Bulang leaf.",
   "taste_profile": "Bright honey and orchid aroma, a light clean bitterness that fades quickly into sweetness, a medium body and a cooling, fresh finish; the balanced middle of the Menghai spectrum.",
-  "taste_tags": ["honey", "floral", "sweet", "grassy"],
-  "brewing": {"grams": 7, "water_ml": 110, "temp_c": 95, "steeps": 10, "seconds": [10, 8, 10, 15, 20, 30, 45, 60, 90, 150], "notes": "Rinse once. Porcelain gaiwan to keep the aroma; a slightly lower temperature (90–92 °C) on very young tea tames the grassy edge without losing the honey."},
+  "taste_tags": [
+    "honey",
+    "floral",
+    "sweet",
+    "grassy"
+  ],
+  "brewing": {
+    "grams": 7,
+    "water_ml": 110,
+    "temp_c": 95,
+    "steeps": 10,
+    "seconds": [
+      10,
+      8,
+      10,
+      15,
+      20,
+      30,
+      45,
+      60,
+      90,
+      150
+    ],
+    "notes": "Rinse once. Porcelain gaiwan to keep the aroma; a slightly lower temperature (90–92 °C) on very young tea tames the grassy edge without losing the honey."
+  },
   "caffeine_level": "high",
   "vintage_note": "Sold by spring harvest year and village (Banpo Laozhai, Duoyizhai, Yakou, Guniang Zhai, Shitou Zhai), nearly always as cakes from 2005 onwards; older Nannuo mostly exists inside factory blends rather than as named cakes. It drinks well young (1–3 years) because the bitterness is low, and it develops honey and dried-fruit depth through the mid-aged window of 5–12 years; it is not a tea that needs twenty years. Most of the supply is recent, dry-stored in Kunming or Menghai, which suits its aromatic style better than humid storage.",
   "description": "Nannuo Shan rises between Menghai and Jinghong, and it is one of the biggest and oldest continuously farmed tea mountains in Xishuangbanna, with several Hani (Aini) villages spread between about 1,200 and 1,700 m. Nannuo is famous for being easy to like: it has the fragrance and sweetness of a good Menghai tea without the heavy bitterness of Bulang.\n\nThe old gardens are seed-grown trees of varying age under light shade, and much of the mountain's tea is honest 'big tree' material rather than the few true ancients the wrappers like to claim. Processing follows the normal sheng route, pan-firing, rolling and sun-drying, and the better producers keep the firing gentle so the orchid and honey notes survive pressing.\n\nYoung Nannuo opens with a clean honey and flower aroma, a mild bitterness that converts quickly and a fresh, slightly cooling finish; it is lighter in body than Bulang or Lao Ban Zhang, which is why people call it balanced rather than powerful. It brews forgivingly and is a good first gushu for someone used to green or oolong tea. The only real mistake is treating it as a bruiser and overleafing, which brings out grassiness rather than depth.\n\nIt is sold by village and spring year, and Banpo Laozhai is the name that carries the premium; 'Nannuo gushu' at a bargain price is usually younger-tree tea from the lower slopes, which is still pleasant. Because the mountain is close to the Menghai factories, its leaf also goes into many well-known blends, so you may have drunk it without knowing.\n\nTry it next to a Jingmai of the same year: both are fragrant, but Jingmai is sharper and more floral while Nannuo is rounder and honeyed.",
   "wikipedia_title": "Pu'er tea",
   "wikipedia_scope": "umbrella",
-  "popularity": 3
+  "popularity": 3,
+  "name_zh": "南糯山生普洱",
+  "name_ru": "Нань Но Шань Шэн Пуэр",
+  "history": "Nannuo Shan is a tea mountain in Menghai County, Xishuangbanna, home to Hani villages and long-standing old gardens. Its leaf has fed the county's tea trade as well as cakes sold under the mountain's own name.\n\nThe ages claimed for individual old trees and gardens here are often repeated and hard to check, so they are best taken as local tradition. Selling by village, with Banpo Laozhai as the best-known name, belongs to the recent boutique market.",
+  "liquor_hex": "#E0C25A",
+  "leaf_hex": "#596048",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Pu%27er_tea"
+  ],
+  "confidence": "low",
+  "images": []
 }

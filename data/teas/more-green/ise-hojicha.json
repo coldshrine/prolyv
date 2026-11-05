@@ -1,0 +1,51 @@
+{
+  "slug": "ise-hojicha",
+  "name_en": "Ise Hojicha",
+  "name_native": "伊勢ほうじ茶",
+  "name_romanized": "Ise hōjicha",
+  "aliases": [],
+  "category": "green",
+  "origin_country": "Japan",
+  "origin_region": "Mie · Ise",
+  "cultivar": null,
+  "form": "loose",
+  "caffeine_level": "medium",
+  "brewing": {
+    "grams": 3,
+    "water_ml": 150,
+    "temp_c": 80,
+    "steeps": 3,
+    "seconds": [
+      60,
+      75,
+      105
+    ],
+    "notes": "A safe starting point for green tea: cooler water, short steeps, then adjust by taste."
+  },
+  "taste_tags": [
+    "vegetal",
+    "sweet"
+  ],
+  "description": "A hojicha, roasted Japanese green tea, from the Ise tea district of Mie.\n\nTreat it as you would any green tea: cooler water, short steeps, and a seller who can say where and when it was picked.",
+  "wikipedia_title": null,
+  "wikipedia_scope": "none",
+  "popularity": 1,
+  "name_zh": "伊势焙茶",
+  "name_ru": "Исэ-ходзитя",
+  "history": null,
+  "liquor_hex": "#B5742E",
+  "leaf_hex": "#7A4E2A",
+  "sources": [
+    "https://www.sazentea.com/en/products/c55-japanese-tea"
+  ],
+  "confidence": "low",
+  "images": [],
+  "stub": true,
+  "processing": "Typical of green tea: picked, heated soon after picking to stop oxidation, then shaped and dried.",
+  "harvest_season": "Usually picked in spring, with the earliest pickings prized, as with most green teas.",
+  "appearance_dry": "Green leaf whose shape depends on the maker, as is usual for regional green teas.",
+  "appearance_liquor": "Usually a clear, pale yellow-green.",
+  "appearance_wet": "Usually soft green leaf that opens up in the water.",
+  "taste_profile": "Expect what green teas usually give: fresh, vegetal and lightly sweet.",
+  "vintage_note": "Green teas like this are normally sold as the current year's harvest and are best within a year of picking. It is not an ageing tea."
+}

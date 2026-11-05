@@ -3,10 +3,20 @@
   "name_en": "Zhengyan Rou Gui (Niu Lan Keng, Ma Tou Yan and other named pits)",
   "name_native": "正岩肉桂",
   "name_romanized": "Zhèngyán Ròuguì",
-  "aliases": ["Niu Rou", "Ma Rou", "Hui Rou", "Niulankeng Rou Gui", "Matouyan Rou Gui", "Huiyuankeng Rou Gui", "Core-area Rou Gui", "牛肉", "马肉"],
+  "aliases": [
+    "Niu Rou",
+    "Ma Rou",
+    "Hui Rou",
+    "Niulankeng Rou Gui",
+    "Matouyan Rou Gui",
+    "Huiyuankeng Rou Gui",
+    "Core-area Rou Gui",
+    "牛肉",
+    "马肉"
+  ],
   "category": "oolong",
   "origin_country": "China",
-  "origin_region": "Fujian · Wuyi Mountains · Wuyi scenic core (zhengyan)",
+  "origin_region": "Fujian · Wuyi Mountains",
   "cultivar": "Rou Gui",
   "processing": "Standard Rou Gui processing from core-area leaf: medium oxidation with hard shaking, strip rolling and charcoal roasting; top lots are often roasted a little lighter and in more passes, so the terroir rather than the fire leads.",
   "form": "loose",
@@ -15,13 +25,47 @@
   "appearance_liquor": "Bright orange-amber with an oily sheen, deepening slightly in later steeps.",
   "appearance_wet": "Thick, leathery yellow-green leaves with clean red rims that stay springy after ten infusions.",
   "taste_profile": "Cassia spice and ripe peach over a thick, oily body, with a wet-stone minerality and a cooling aftertaste that lasts far longer than in ordinary Rou Gui; the roast sits underneath rather than on top.",
-  "taste_tags": ["spicy", "mineral", "stone-fruit", "roasted", "sweet"],
-  "brewing": {"grams": 8, "water_ml": 110, "temp_c": 100, "steeps": 10, "seconds": [8, 8, 10, 15, 20, 30, 45, 60, 90, 150], "notes": "Boiling water, a thin porcelain gaiwan and very fast pours for the first three steeps. Use good soft water; hard tap water flattens exactly the mineral finish you paid for. Taste the cooled cup too."},
+  "taste_tags": [
+    "spicy",
+    "mineral",
+    "stone-fruit",
+    "roasted",
+    "sweet"
+  ],
+  "brewing": {
+    "grams": 8,
+    "water_ml": 110,
+    "temp_c": 100,
+    "steeps": 10,
+    "seconds": [
+      8,
+      8,
+      10,
+      15,
+      20,
+      30,
+      45,
+      60,
+      90,
+      150
+    ],
+    "notes": "Boiling water, a thin porcelain gaiwan and very fast pours for the first three steeps. Use good soft water; hard tap water flattens exactly the mineral finish you paid for. Taste the cooled cup too."
+  },
   "caffeine_level": "medium",
   "vintage_note": "Sold by spring harvest year and usually released later than ordinary yancha, in October or November, because the best lots get two or three roasts with rests between them. It drinks well from release, is often better the following spring, and keeps three to five years sealed and dry; well-known pit names from older years are traded as aged tea with the vintage stated.",
   "description": "Zhengyan Rou Gui is Rou Gui grown inside the core of the Wuyi scenic area, and it is where the rock-tea price list goes vertical. The cultivar is the same as everyday Rou Gui; what changes is the ground, and the names of the gorges and cliffs it grew in are the selling point.\n\nThe Wuyi trade divides its land into tiers. Zhengyan (true rock) is the core scenic zone, a few dozen square kilometres of weathered volcanic cliffs and narrow gullies with thin, gravelly soil and shade for much of the day. Banyan (half rock) is the margin of that zone, Zhoucha (river-bank tea) is the flat land along the streams, and Wai Shan (outer mountain) is everything beyond. Inside zhengyan, the prized micro-sites are the three pits and two gullies: Hui Yuan Keng, Niu Lan Keng, Dao Shui Keng, Liu Xiang Jian and Wu Yuan Jian, plus cliffs like Ma Tou Yan, Jiu Long Ke, Tian Xin Yan and Zhu Ke. Rou Gui from these is sold under meat-pun nicknames: Niu Rou (beef) for Niu Lan Keng, Ma Rou (horse) for Ma Tou Yan, Hui Rou for Hui Yuan Keng, and so on.\n\nWhat the terroir does is subtle on the first sip and obvious by the fifth. Core-area Rou Gui is thicker and more oily, the spice is wrapped in ripe fruit rather than sticking out, there is a wet-stone minerality, and the aftertaste cools the throat for minutes. The leaf is also tougher, so it runs ten or more infusions, and makers tend to roast it a touch lighter, in several passes, so the ground shows through the fire.\n\nBrew with boiling water, a thin gaiwan, very short early steeps and soft water. Do not judge it on steep one; it is a tea for the middle and the end of a session, and the cooled cup tells you most.\n\nBuying is the hard part. Niu Lan Keng is a gully you can walk in minutes and cannot possibly supply what is labelled Niu Rou, so a pit name on a package from an unknown source is decoration. Buy from sellers who can say which maker and which plot, expect to pay a lot, start with small samples, and compare with an honest banyan Rou Gui from the same maker: if you cannot taste the difference, keep your money and keep drinking the banyan.",
   "wikipedia_title": "Rougui tea",
   "wikipedia_scope": "umbrella",
   "popularity": 3,
-  "sources_note": "The zhengyan / banyan / zhoucha / wai shan tiers are trade conventions, not regulated grades; the national Wuyi rock tea standard defines a much broader geographic area. The list of three pits and two gullies is the standard one."
+  "sources_note": "The zhengyan / banyan / zhoucha / wai shan tiers are trade conventions, not regulated grades; the national Wuyi rock tea standard defines a much broader geographic area. The list of three pits and two gullies is the standard one.",
+  "name_zh": "正岩肉桂",
+  "name_ru": "Чжэн Янь Жоу Гуй",
+  "history": "Zhengyan is a trade term and not a separate tea: Rou Gui from the inner core of the Wuyi scenic area, with Niu Lan Keng among the three pits and two gullies at its centre. Prices climbed sharply with the fashion for site nicknames such as Niu Rou, beef, for Niu Lan Keng.\n\nA 2018 Xinhua investigation put the core of Niu Lan Keng at only twenty or thirty mu and some 500 kg a year, while online listings ran from over 10,000 to more than 200,000 yuan per kilo. One tea maker said a Rou Gui he sold at 1,000 yuan a kilo was relabelled and resold at nearly 30,000.\n\nThe same report quotes national heritage masters who say the core sites differ little in landform, soil and climate, and that the maker and the roast count for more. So the premium for a pit name is itself disputed among Wuyi's own craftsmen.",
+  "liquor_hex": "#B9661F",
+  "leaf_hex": "#35261B",
+  "sources": [
+    "https://www.thepaper.cn/newsDetail_forward_2072301"
+  ],
+  "confidence": "medium",
+  "images": []
 }

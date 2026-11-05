@@ -3,10 +3,18 @@
   "name_en": "Shan Tuyet White Tea (Bach Tra)",
   "name_native": "Bạch trà Shan Tuyết",
   "name_romanized": "Bạch trà Shan Tuyết",
-  "aliases": ["Bach tra", "Vietnamese white tea", "Snow bud tea", "Trà tuyết", "Ha Giang white tea", "Ancient tree white tea", "Trà búp tuyết"],
+  "aliases": [
+    "Bach tra",
+    "Vietnamese white tea",
+    "Snow bud tea",
+    "Trà tuyết",
+    "Ha Giang white tea",
+    "Ancient tree white tea",
+    "Trà búp tuyết"
+  ],
   "category": "white",
   "origin_country": "Vietnam",
-  "origin_region": "Hà Giang (Hoàng Su Phì, Vị Xuyên) and Yên Bái (Suối Giàng)",
+  "origin_region": "Ha Giang",
   "cultivar": "Shan tea, large-leaf assamica-type old trees",
   "processing": "Fat downy buds, or bud with one leaf, are withered slowly in the shade or in a warm room and dried gently without firing or rolling, white-tea style; some lots are sun-dried and pressed into cakes.",
   "form": "loose",
@@ -15,13 +23,42 @@
   "appearance_liquor": "Pale gold, clear and slightly oily, deepening to amber with age.",
   "appearance_wet": "Thick, soft, downy buds in pale green and grey, much bigger than Fujian silver needle.",
   "taste_profile": "Soft and sweet: honey, hay and dried apricot with a cooling, almost minty freshness in young lots, a thick texture and a gentle sweetness that lasts; aged cakes turn towards dates and wood.",
-  "taste_tags": ["honey", "sweet", "dried-fruit", "floral"],
-  "brewing": {"grams": 4, "water_ml": 120, "temp_c": 85, "steeps": 6, "seconds": [30, 25, 30, 45, 60, 90], "notes": "Patient steeps, as with silver needle; it also makes an excellent cold brew and can be simmered gently once the gongfu steeps are done. Boiling water works for aged cakes."},
+  "taste_tags": [
+    "honey",
+    "sweet",
+    "dried-fruit",
+    "floral"
+  ],
+  "brewing": {
+    "grams": 4,
+    "water_ml": 120,
+    "temp_c": 85,
+    "steeps": 6,
+    "seconds": [
+      30,
+      25,
+      30,
+      45,
+      60,
+      90
+    ],
+    "notes": "Patient steeps, as with silver needle; it also makes an excellent cold brew and can be simmered gently once the gongfu steeps are done. Boiling water works for aged cakes."
+  },
   "caffeine_level": "medium",
-  "vintage_note": "Sold loose as the current year's spring buds, and increasingly as pressed cakes labelled by year, which are kept and aged like Fujian white tea; lots from three to eight years old are sold at a premium as 'aged bạch trà'. Young loose tea is best within one or two years unless stored for ageing.",
-  "description": "Bạch trà, white tea, is the gentlest thing made from Vietnam's old Shan Tuyết trees. The same fat, downy buds that give the pan-fired green its 'snow' look are simply withered and dried, with no firing and no rolling, and the result is a tea that sits between Fujian silver needle and Yunnan moonlight white: bigger, thicker and sweeter than the first, cleaner than the second.\n\nIt is a recent product in commercial terms. The hill villages of Hà Giang and Yên Bái made green tea for the local market for generations; white tea arrived with the cooperatives and the specialty trade over the last decade or two, as buyers who knew Chinese white tea asked for the same thing from these trees. Processing is slow and weather-dependent, and makers who rush the wither produce a grassy, flat tea, so the good lots come from a handful of careful producers.\n\nThe cup is soft and honeyed, with hay and dried apricot and a cooling freshness in young tea, and a thick, almost oily texture from the large-leaf buds. It wants patience: longer steeps than a green, water a little below the boil, and it keeps giving for many rounds. Aged cakes turn darker and more date-like and can take boiling water or a gentle simmer.\n\nIt is sold loose by the year and the district, and as pressed cakes that follow the Fujian habit of ageing: one-year cakes are fresh and floral, three- to eight-year cakes are richer and pricier. Bud size and down are the quality markers; a bạch trà with thin, greyish buds and a hay smell without sweetness has been picked late or withered badly.\n\nIf you like silver needle but find it thin, this is the tea to try next; and if you want the same trees at their boldest, the sun-dried sheng-style cakes from Hà Giang are the other end of the spectrum.",
+  "vintage_note": "Sold loose as the current year's spring buds, and increasingly as pressed cakes labelled by year, which are kept and aged like Fujian white tea; older lots may be sold at a premium as 'aged bạch trà'. Young loose tea is best within one or two years unless stored for ageing.",
+  "description": "Bạch trà, white tea, is the gentlest thing made from Vietnam's old Shan Tuyết trees. The same fat, downy buds that give the pan-fired green its 'snow' look are simply withered and dried, with no firing and no rolling, and the result is a tea that sits between Fujian silver needle and Yunnan moonlight white: bigger, thicker and sweeter than the first, cleaner than the second.\n\nIt appears to be a recent product in commercial terms, said to have arrived with the cooperatives and the specialty trade, though no firm date is documented. Processing is slow and weather-dependent, and makers who rush the wither produce a grassy, flat tea, so the good lots come from a handful of careful producers.\n\nThe cup is soft and honeyed, with hay and dried apricot and a cooling freshness in young tea, and a thick, almost oily texture from the large-leaf buds. It wants patience: longer steeps than a green, water a little below the boil, and it keeps giving for many rounds. Aged cakes turn darker and more date-like and can take boiling water or a gentle simmer.\n\nIt is sold loose by the year and the district, and as pressed cakes that follow the Fujian habit of ageing: young cakes are fresh and floral, older cakes richer and pricier. Bud size and down are the quality markers; a bạch trà with thin, greyish buds and a hay smell without sweetness has been picked late or withered badly.\n\nIf you like silver needle but find it thin, this is the tea to try next; and if you want the same trees at their boldest, the sun-dried sheng-style cakes from Hà Giang are the other end of the spectrum.",
   "wikipedia_title": "Vietnamese tea",
   "wikipedia_scope": "umbrella",
   "popularity": 1,
-  "sources_note": "Vietnamese white tea is a small, young category; descriptions reflect typical specialty lots from Hà Giang and Yên Bái cooperatives rather than a standardised product. Ageing practice follows the Chinese white-tea model and is a trade habit, not a regulation."
+  "sources_note": "Vietnamese white tea is a small, young category; descriptions reflect typical specialty lots from Hà Giang and Yên Bái cooperatives rather than a standardised product. Ageing practice follows the Chinese white-tea model and is a trade habit, not a regulation.",
+  "name_zh": "越南雪山白茶",
+  "name_ru": "Шан Туйет белый",
+  "history": "White tea from Vietnam's old Shan Tuyết trees appears to be a recent product. These trees grow in the northern provinces, and little is documented about when makers there began withering and drying the buds in the white tea manner. It seems to have come with the specialty trade rather than from village habit, so treat it as a modern style on old trees.",
+  "liquor_hex": "#E3C877",
+  "leaf_hex": "#C4C4A6",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Vietnamese_tea"
+  ],
+  "confidence": "low",
+  "images": []
 }

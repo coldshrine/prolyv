@@ -3,10 +3,20 @@
   "name_en": "Wudong Dancong (Lao Cong and Dan Zhu grades)",
   "name_native": "乌岽老丛单丛 / 单株",
   "name_romanized": "Wūdōng Lǎocóng Dāncóng",
-  "aliases": ["Wudong Dancong", "Wu Dong Dancong", "Lao Cong Dancong", "Dan Zhu Dancong", "Single Tree Dancong", "Old Bush Phoenix oolong", "乌岽单丛", "单株", "Wudong single tree"],
+  "aliases": [
+    "Wudong Dancong",
+    "Wu Dong Dancong",
+    "Lao Cong Dancong",
+    "Dan Zhu Dancong",
+    "Single Tree Dancong",
+    "Old Bush Phoenix oolong",
+    "乌岽单丛",
+    "单株",
+    "Wudong single tree"
+  ],
   "category": "oolong",
   "origin_country": "China",
-  "origin_region": "Guangdong · Chaozhou · Fenghuang Mountains · Wudong",
+  "origin_region": "Guangdong · Fenghuang Mountains · Wudong",
   "cultivar": "Fenghuang Shui Xian, various old-tree strains (Mi Lan Xiang, Huang Zhi Xiang, Zhi Lan Xiang, Song Zhong lines and others)",
   "processing": "Classic Wudong dancong processing with old-tree leaf kept separate by garden or by individual tree: sun-withering, overnight shaking to a medium-light oxidation, strip rolling and a light-to-medium charcoal roast in several passes with long rests.",
   "form": "loose",
@@ -15,13 +25,49 @@
   "appearance_liquor": "Deep gold to orange, oily and bright.",
   "appearance_wet": "Big, thick, leathery leaves with red edges, slow to open and still springy after many steeps.",
   "taste_profile": "Whatever the aroma type, the signature is depth: a thick, oily body, honey and dried fruit under the florals, a woody old-tree note, and a long, cold, mineral aftertaste (shan yun) that returns after the sip.",
-  "taste_tags": ["honey", "floral", "woody", "mineral", "dried-fruit"],
-  "brewing": {"grams": 8, "water_ml": 110, "temp_c": 100, "steeps": 10, "seconds": [5, 5, 8, 10, 15, 20, 30, 45, 60, 90], "notes": "Boiling water, a thin gaiwan, flash steeps and soft water. Judge it from the fourth steep on and from the cooled cup; old-tree dancong is about texture and aftertaste, not the first sniff."},
+  "taste_tags": [
+    "honey",
+    "floral",
+    "woody",
+    "mineral",
+    "dried-fruit"
+  ],
+  "brewing": {
+    "grams": 8,
+    "water_ml": 110,
+    "temp_c": 100,
+    "steeps": 10,
+    "seconds": [
+      5,
+      5,
+      8,
+      10,
+      15,
+      20,
+      30,
+      45,
+      60,
+      90
+    ],
+    "notes": "Boiling water, a thin gaiwan, flash steeps and soft water. Judge it from the fourth steep on and from the cooled cup; old-tree dancong is about texture and aftertaste, not the first sniff."
+  },
   "caffeine_level": "medium",
-  "vintage_note": "Sold by harvest year with the tree or garden named and often photographed: lao cong (old bush, usually quoted as 60–100+ years) and dan zhu (single tree) lots are released in autumn after two or three roasts and rests, are frequently sold a year or two after harvest once the fire has settled, and are the dancongs most often aged with the vintage stated. Prices run from serious to absurd, and a single old tree yields only a few kilograms.",
-  "description": "Wudong is the top of the Phoenix dancong world: a village of scattered hamlets on the upper slopes of Fenghuang Mountain, above a thousand metres, cool and often in cloud, where the oldest tea trees in Chaozhou grow as small, mossy, single-trunked trees rather than bushes. Tea from here is sold under three overlapping labels, Wudong, lao cong and dan zhu, and they mean different things.\n\nWudong on a label means the leaf grew in the village, which already puts it above the gao shan (high mountain) tier of the surrounding slopes and far above lowland and Raoping tea. Lao cong, old bush, means the trees are genuinely old, usually quoted as sixty years and up, often over a hundred. Dan zhu, single tree, is the strictest grade: one tree, picked and processed on its own, sold by the tree's name or number with a photograph and a weight that fits in a shoebox. The famous named trees, the Song Zhong at Li Zai Ping, Tong Tian Xiang at Zhong Ping, Dong Fang Hong and others, are dan zhu that have become brands.\n\nAll of this is made the classic way, sun-withered, shaken through the night to a medium-light oxidation, rolled into strips and charcoal roasted lightly in several passes with weeks of rest between, because old-tree leaf is too valuable to rush and too thick to need force. The aroma type varies with the tree, Mi Lan Xiang, Huang Zhi Xiang, Zhi Lan Xiang and so on, but the shared signature is depth: an oily, thick body, honey and dried fruit under the flowers, a woody, resinous old-tree note, and the long, cold, mineral aftertaste that Chaozhou drinkers call shan yun, mountain rhyme.\n\nBrew it with boiling water, a thin gaiwan, flash steeps and soft water, and judge it late: the first two steeps are only aroma, and the point arrives around the fourth and stays through the tenth. Taste the cooled cup; the aftertaste shows there.\n\nBuying is where the trouble is. Wudong produces little, old trees produce less, and single trees produce a few kilograms each, while the labels appear on a great deal of tea. Buy from Chaozhou specialists with a track record, start with small samples, expect the price to hurt, and compare each lot with a good high-mountain tea of the same aroma type from the same seller. If the old-tree lot is not plainly thicker, longer and colder in the finish, the label is doing the work.",
+  "vintage_note": "Sold by harvest year with the tree or garden named and often photographed: lao cong (old bush, with no fixed age; thirty to over a hundred years are all quoted) and dan zhu (single tree) lots are released in autumn after two or three roasts and rests, are frequently sold a year or two after harvest once the fire has settled, and are the dancongs most often aged with the vintage stated. Prices run from serious to absurd, and a single old tree yields only a small amount.",
+  "description": "Wudong is the top of the Phoenix dancong world: a village of scattered hamlets on the upper slopes of Fenghuang Mountain, above a thousand metres, cool and often in cloud, where the oldest tea trees in Chaozhou grow as small, mossy, single-trunked trees rather than bushes. Tea from here is sold under three overlapping labels, Wudong, lao cong and dan zhu, and they mean different things.\n\nWudong on a label means the leaf is claimed to have grown in the village, which already puts it above the gao shan (high mountain) tier of the surrounding slopes and far above lowland and Raoping tea. Lao cong, old bush, means the trees are old, but there is no fixed line: sellers quote anything from thirty years to over a century. Dan zhu, single tree, is the strictest grade: one tree, picked and processed on its own, sold by the tree's name or number with a photograph and a very small weight. Famous named trees such as the Song Zhong at Li Zai Ping, which is reported to have died in 2016 and lives on through cuttings, have become brands.\n\nAll of this is made the classic way, sun-withered, shaken through the night to a medium-light oxidation, rolled into strips and charcoal roasted lightly in several passes with weeks of rest between, because old-tree leaf is too valuable to rush and too thick to need force. The aroma type varies with the tree, Mi Lan Xiang, Huang Zhi Xiang, Zhi Lan Xiang and so on, but the shared signature is depth: an oily, thick body, honey and dried fruit under the flowers, a woody, resinous old-tree note, and the long, cold, mineral aftertaste that Chaozhou drinkers call shan yun, mountain rhyme.\n\nBrew it with boiling water, a thin gaiwan, flash steeps and soft water, and judge it late: the first two steeps are only aroma, and the point arrives around the fourth and stays through the tenth. Taste the cooled cup; the aftertaste shows there.\n\nBuying is where the trouble is. Wudong produces little, old trees produce less, and single trees produce very little each, while the labels appear on a great deal of tea. Buy from Chaozhou specialists with a track record, start with small samples, expect the price to hurt, and compare each lot with a good high-mountain tea of the same aroma type from the same seller. If the old-tree lot is not plainly thicker, longer and colder in the finish, the label is doing the work.",
   "wikipedia_title": "Oolong",
   "wikipedia_scope": "umbrella",
   "popularity": 3,
-  "sources_note": "Age thresholds for lao cong vary between sellers (50, 60, 80 or 100 years are all quoted); there is no regulated definition. Elevation figures for Wudong (roughly 1,000–1,400 m) are approximate."
+  "sources_note": "Age thresholds for lao cong vary between sellers (50, 60, 80 or 100 years are all quoted); there is no regulated definition. Elevation figures for Wudong (roughly 1,000–1,400 m) are approximate.",
+  "name_zh": "乌岽老丛单丛",
+  "name_ru": "У Дун Лао Цун Дань Цун",
+  "history": "Wu Dong, in Fenghuang town near Chaozhou, is widely regarded as the home of Phoenix tea, with many trees said to be over a hundred years old. Its famous Li Zai Ping garden lies at about 1,150 metres.\n\nThese labels are about place, age and method more than a single recipe. Lao cong has no fixed definition: sellers quote anything from thirty years to over a century. Dan zhu means one tree picked and made alone, a practice in line with the local idea of one bush, one name, and with cuttings taken from valued trees since at least the 1960s. The best documented example is the Song Zhong tree at Li Zai Ping, whose names and changing fortunes can be followed through the twentieth century.",
+  "liquor_hex": "#CC8B2C",
+  "leaf_hex": "#3B2B1C",
+  "sources": [
+    "https://news.ifeng.com/c/8iSnm6tXzAJ",
+    "https://www.163.com/dy/article/JGS3TDSV051281TV.html",
+    "https://m.sohu.com/a/970628952_122589196/"
+  ],
+  "confidence": "medium",
+  "images": []
 }

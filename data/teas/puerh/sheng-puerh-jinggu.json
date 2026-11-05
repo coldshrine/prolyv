@@ -3,7 +3,13 @@
   "name_en": "Jinggu Sheng Pu-erh",
   "name_native": "景谷生普洱",
   "name_romanized": "Jǐnggǔ Shēng Pǔ'ěr",
-  "aliases": ["Jing Gu sheng", "Jinggu Da Bai Cha", "Yangta Da Bai", "Jinggu big white bud", "景谷大白茶"],
+  "aliases": [
+    "Jing Gu sheng",
+    "Jinggu Da Bai Cha",
+    "Yangta Da Bai",
+    "Jinggu big white bud",
+    "景谷大白茶"
+  ],
   "category": "sheng",
   "origin_country": "China",
   "origin_region": "Yunnan · Pu'er · Jinggu",
@@ -15,12 +21,46 @@
   "appearance_liquor": "Pale yellow-gold, very clear, with a soft sheen from the bud down.",
   "appearance_wet": "Big tender leaves and thick buds, pale yellow-green and soft.",
   "taste_profile": "Soft, sweet and fragrant: honeysuckle, melon and honey, low bitterness, a smooth light-to-medium body and a clean cooling finish; one of the gentlest sheng styles.",
-  "taste_tags": ["sweet", "honey", "floral", "fruity"],
-  "brewing": {"grams": 7, "water_ml": 110, "temp_c": 95, "steeps": 10, "seconds": [10, 8, 12, 15, 20, 30, 45, 60, 90, 150], "notes": "Rinse once. Bud-heavy cakes can take 90–92 °C water when young to keep the honey in front; normal leaf lots take full heat. Do not expect bite; judge it on sweetness and length."},
+  "taste_tags": [
+    "sweet",
+    "honey",
+    "floral",
+    "fruity"
+  ],
+  "brewing": {
+    "grams": 7,
+    "water_ml": 110,
+    "temp_c": 95,
+    "steeps": 10,
+    "seconds": [
+      10,
+      8,
+      12,
+      15,
+      20,
+      30,
+      45,
+      60,
+      90,
+      150
+    ],
+    "notes": "Rinse once. Bud-heavy cakes can take 90–92 °C water when young to keep the honey in front; normal leaf lots take full heat. Do not expect bite; judge it on sweetness and length."
+  },
   "caffeine_level": "high",
   "vintage_note": "Sold by spring harvest year and by township or village (Yangta, Kuzhushan, Wenshan, Huangcaoba), usually as cakes and often as bud-heavy 'Da Bai' pressings, with a lot of the county's leaf also sold loose or as moonlight white. It drinks well young (1–3 years) and rounds out in the 5–10-year window into honey and dried fruit; it is rarely aged on purpose and old Jinggu mostly exists as anonymous 2000s cakes. Supply is 2005–2025, dry-stored, and prices are moderate because the county is better known for its white-bud teas than for pu-erh.",
   "description": "Jinggu is a county in Pu'er prefecture, north-west of Pu'er city, and its calling card is a tea plant rather than a hillside: the Jinggu Da Bai Cha, the 'big white tea' from Yangta village, with enormous silver buds that also give the region its moonlight white. As sheng, Jinggu is soft, sweet and fragrant, the gentle Pu'er-prefecture answer to Yiwu.\n\nThe leaf grows at roughly 1,400–1,800 m on the county's hill townships and is processed as ordinary sheng: pan-fired, rolled, sun-dried and pressed. When the big-bud type is used, the cakes come out frosted with white down and the maocha looks almost like a white tea. Jinggu also has scattered purple-bud trees, and some producers press those separately.\n\nIn the cup it is honeysuckle, melon and honey with very little bitterness, a smooth body and a cooling finish; the bud-heavy lots are the softest and most perfumed, the leafier lots have more structure. It is an easy tea to brew and a poor tea to judge by power, because it has none to offer. Where it shines is the long clean sweetness in the mid-steeps.\n\nSold by spring year and township, mostly at fair prices. 'Jinggu gushu' is a common and loosely used label, and a lot of county leaf travels to be pressed under grander names; the white-bud cakes are the one thing you cannot easily fake, since the bud itself is the signature. If you want depth, look for leafier Kuzhushan or Wenshan material rather than the pure bud pressings.\n\nIt pairs well with an afternoon rather than a meal, and it is a kind introduction to sheng for people who find the Menghai teas too bitter.",
   "wikipedia_title": "Pu'er tea",
   "wikipedia_scope": "umbrella",
-  "popularity": 2
+  "popularity": 2,
+  "name_zh": "景谷生普洱",
+  "name_ru": "Цзин Гу Шэн Пуэр",
+  "history": "Jinggu is a county in Pu'er prefecture, known in the tea trade mainly for its big white tea plant, associated with Yangta, whose fat downy buds also go into white-style teas. Its raw pu-erh is a regional style rather than a famous mark, and little is documented about its history as sheng. Most of what circulates describes the plant and recent production, not an old named tradition.",
+  "liquor_hex": "#E3CB7C",
+  "leaf_hex": "#6E7158",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Jinggu_Dai_and_Yi_Autonomous_County",
+    "https://en.wikipedia.org/wiki/Pu%27er_tea"
+  ],
+  "confidence": "low",
+  "images": []
 }

@@ -3,11 +3,17 @@
   "name_en": "Dhankuta Black Tea",
   "name_native": "धनकुटा चिया",
   "name_romanized": "Dhankuṭā chiyā",
-  "aliases": ["Dhankuta tea", "Hile tea", "Jun Chiyabari", "Guranse tea", "Dhankuta orthodox"],
+  "aliases": [
+    "Dhankuta tea",
+    "Hile tea",
+    "Jun Chiyabari",
+    "Guranse tea",
+    "Dhankuta orthodox"
+  ],
   "category": "black",
   "origin_country": "Nepal",
-  "origin_region": "Koshi Province · Dhankuta (Hile)",
-  "cultivar": "Clonal and Chinary bushes grown at 1,500–2,000 m",
+  "origin_region": "Koshi Province · Dhankuta",
+  "cultivar": "Clonal and Chinary bushes grown at roughly 1,000–2,200 m",
   "processing": "Hand-plucked orthodox black tea from high gardens around Hile, made in small batches with a long, slow wither, gentle rolling, light oxidation in spring and fuller oxidation later, and a great deal of hand-sorting.",
   "form": "loose",
   "harvest_season": "April to November; the spring and autumn flushes are the standouts.",
@@ -15,12 +21,40 @@
   "appearance_liquor": "Gold to bright amber.",
   "appearance_wet": "Whole olive-copper leaf.",
   "taste_profile": "Refined and aromatic: honeysuckle, ripe fruit and honey over a soft, creamy body with gentle tannin.",
-  "taste_tags": ["floral", "fruity", "honey", "creamy"],
-  "brewing": {"grams": 3, "water_ml": 200, "temp_c": 90, "steeps": 2, "seconds": [210, 300], "notes": "No milk; spring lots like slightly cooler water (85 °C)."},
+  "taste_tags": [
+    "floral",
+    "fruity",
+    "honey",
+    "creamy"
+  ],
+  "brewing": {
+    "grams": 3,
+    "water_ml": 200,
+    "temp_c": 90,
+    "steeps": 2,
+    "seconds": [
+      210,
+      300
+    ],
+    "notes": "No milk; spring lots like slightly cooler water (85 °C)."
+  },
   "caffeine_level": "medium",
   "vintage_note": "Sold by garden, season and year through direct importers and the gardens' own shops; Jun Chiyabari and Guranse are the names most drinkers meet, and Jun Chiyabari lots usually carry a batch number. The best spring and autumn lots sell out within months of harvest; drink within a year or two.",
-  "description": "Dhankuta is a hill district in eastern Nepal, west of Ilam, where a few high gardens around the town of Hile at roughly 1,500 to 2,000 metres make some of the country's most refined orthodox tea. It is the home of Jun Chiyabari and Guranse, two names that did more than anyone to put Nepali tea on speciality menus, and its teas tend to be more delicate and more carefully sorted than the bigger Ilam factories' lots.\n\nManufacture is hand-plucked orthodox black tea in small batches: a long, slow wither, gentle rolling, light oxidation in spring and fuller oxidation later, and a lot of hand-sorting. The gardens also make oolong, white and green teas, and some lots blur the line between styles.\n\nThe cup is gold to bright amber, refined and aromatic: honeysuckle, ripe fruit and honey over a soft, creamy body with gentle tannin. Brew it at around 90 °C for three to four minutes without milk, and expect a second steep; spring lots like slightly cooler water.\n\nIt is sold by garden, season and year through direct importers and the gardens' own shops, with the best spring and autumn lots selling out within months of harvest; Jun Chiyabari lots are usually coded by batch number. Drink within a year or two.\n\nTry a Dhankuta spring tea next to a Darjeeling first flush from the same year and decide for yourself which side of the border makes the better tea.",
+  "description": "Dhankuta is a hill district in eastern Nepal, west of Ilam, where a few high gardens, some around the town of Hile, at roughly 1,000 to 2,200 metres make some of the country's most refined orthodox tea. It is the home of Jun Chiyabari and Guranse, two names that did more than anyone to put Nepali tea on speciality menus, and its teas tend to be more delicate and more carefully sorted than the bigger Ilam factories' lots.\n\nManufacture is hand-plucked orthodox black tea in small batches: a long, slow wither, gentle rolling, light oxidation in spring and fuller oxidation later, and a lot of hand-sorting. The gardens also make oolong, white and green teas, and some lots blur the line between styles.\n\nThe cup is gold to bright amber, refined and aromatic: honeysuckle, ripe fruit and honey over a soft, creamy body with gentle tannin. Brew it at around 90 °C for three to four minutes without milk, and expect a second steep; spring lots like slightly cooler water.\n\nIt is sold by garden, season and year through direct importers and the gardens' own shops, with the best spring and autumn lots selling out within months of harvest; Jun Chiyabari lots are usually coded by batch number. Drink within a year or two.\n\nTry a Dhankuta spring tea next to a Darjeeling first flush from the same year and decide for yourself which side of the border makes the better tea.",
   "wikipedia_title": "Nepali tea",
   "wikipedia_scope": "umbrella",
-  "popularity": 2
+  "popularity": 2,
+  "name_zh": "丹库塔红茶",
+  "name_ru": "Дханкута чёрный",
+  "history": "Tea in Dhankuta as a speciality name is recent. Guranse was established in 1999 by the Vaidya family, industrialists, and its eastern Dhankuta gardens are described as spanning about 290 hectares.\n\nJun Chiyabari followed near Hile in 2001, started from scratch by the brothers Lochan and Bachan Gyawali. Jun means moon in Nepali, so the name means moonlit tea garden.\n\nA regional overview names these two and Kuwapani as the district's best-known gardens. Jun Chiyabari received organic certification in 2012.",
+  "liquor_hex": "#C98A2E",
+  "leaf_hex": "#5A4A30",
+  "sources": [
+    "https://www.wipo.int/ipadvantage/en/details.jsp?id=3472",
+    "https://www.rareteacompany.com/blogs/rare-tea-journal/the-moonlit-tea-garden-jun-chiyabari",
+    "https://happyearthtea.com/blogs/blog/15448493-nepal-tea-and-jun-chiyabari",
+    "https://stir-tea-coffee.com/features/teas-from-the-hills-of-nepal"
+  ],
+  "confidence": "medium",
+  "images": []
 }

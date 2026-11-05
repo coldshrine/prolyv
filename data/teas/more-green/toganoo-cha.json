@@ -1,0 +1,53 @@
+{
+  "slug": "toganoo-cha",
+  "name_en": "Toganoo-cha",
+  "name_native": "栂尾茶",
+  "name_romanized": "Toganoo-cha",
+  "name_zh": "栂尾茶",
+  "name_ru": "Тоганоо-тя",
+  "aliases": [
+    "Togano'o tea",
+    "Honcha",
+    "本茶"
+  ],
+  "category": "green",
+  "origin_country": "Japan",
+  "origin_region": "Kyoto · Toganoo",
+  "cultivar": null,
+  "processing": "How the medieval tea was made is not recorded in detail here; tea of that period is generally understood as an ancestor of powdered matcha. Modern processing of the small temple crop is not well documented.",
+  "form": "other",
+  "harvest_season": "Spring, in small quantity.",
+  "appearance_dry": "Not documented for today's tea; no standard appearance can be given.",
+  "appearance_liquor": "Not documented; a green colour is what a Japanese green tea would normally give.",
+  "appearance_wet": "Not documented for this tea.",
+  "taste_profile": "No reliable tasting record exists for this tea. Its reputation is historical rather than a flavour you can compare in the cup.",
+  "taste_tags": [
+    "vegetal",
+    "grassy"
+  ],
+  "brewing": {
+    "grams": 5,
+    "water_ml": 150,
+    "temp_c": 75,
+    "steeps": 2,
+    "seconds": [
+      60,
+      20
+    ],
+    "notes": "Generic advice for a Japanese green tea, since no established brewing method exists for it. Follow the seller's own instructions if you find any."
+  },
+  "caffeine_level": "medium",
+  "vintage_note": "Not an ordinary market tea. Growing in Toganoo declined long ago and the surviving crop is tiny, so if you see the name in shops, ask whether it means leaf from Toganoo itself or only a historic name.",
+  "description": "Toganoo, in the hills north-west of Kyoto, is where medieval Japan placed its best tea. Tea from here was called honcha, genuine tea, and everything grown elsewhere counted as lesser by comparison.\n\nThat reputation is the story now, more than the leaf. Kōzan-ji temple keeps a small tea field, but the crop is very small and there is no recognised modern style or tasting profile to describe.\n\nSo treat this as a tea to know about rather than one to shop for. If you do come across leaf from here, brew it gently like any Japanese green tea and be curious rather than expecting a set flavour.\n\nThe idea of honcha is the part worth keeping. It is an early example of Japanese drinkers ranking tea by place, long before Uji took over the top spot.",
+  "history": "The legend runs that the monk Myōe planted seeds given to him by Eisai and so created Japan's first tea plantation. It is best read as legend: tea growing in Japan already goes back to the Heian period.\n\nWhatever its origins, Toganoo tea was ranked the finest in Japan in the medieval period and carried the name honcha. In the 14th and 15th centuries Uji became the main growing centre, and cultivation in Toganoo declined.",
+  "liquor_hex": "#CFCF80",
+  "leaf_hex": "#55683A",
+  "sources": [
+    "https://geicha.geidai.ac.jp/?p=1161"
+  ],
+  "confidence": "medium",
+  "wikipedia_title": null,
+  "wikipedia_scope": "none",
+  "popularity": 2,
+  "images": []
+}

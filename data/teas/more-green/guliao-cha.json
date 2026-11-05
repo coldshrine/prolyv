@@ -1,0 +1,53 @@
+{
+  "slug": "guliao-cha",
+  "name_en": "Guliao Cha",
+  "name_native": "姑辽茶",
+  "name_romanized": "Gūliáo Chá",
+  "aliases": [
+    "姑遼茶"
+  ],
+  "category": "green",
+  "origin_country": "China",
+  "origin_region": "Guangxi · Chongzuo Fusui",
+  "cultivar": null,
+  "form": "loose",
+  "caffeine_level": "medium",
+  "brewing": {
+    "grams": 3,
+    "water_ml": 150,
+    "temp_c": 80,
+    "steeps": 3,
+    "seconds": [
+      60,
+      75,
+      105
+    ],
+    "notes": "A safe starting point for green tea: cooler water, short steeps, then adjust by taste."
+  },
+  "taste_tags": [
+    "vegetal",
+    "sweet"
+  ],
+  "description": "A protected geographical-indication tea from Liutou village in Fusui County, Guangxi, picked from tree-form plants on misty slopes averaging over 600 metres.\n\nTreat it as you would any green tea: cooler water, short steeps, and a seller who can say where and when it was picked.",
+  "wikipedia_title": null,
+  "wikipedia_scope": "none",
+  "popularity": 1,
+  "name_zh": "姑辽茶",
+  "name_ru": "Гу Ляо Ча",
+  "history": "It comes mainly from three hamlets, Guliao, Gubu and Gubiao, with over 2000 mu of gardens, and Guliao hamlet is held to give the best. That hamlet's hill has more than 5520 wild trees, of which over 100 are reported above 500 years old and 7 above 1000. Villagers once sold it sun-dried, dark and rough; since 2016 county training, and village cooperatives from 2017, have standardised processing and raised the price from about 60 to over 600 yuan a jin. Plants moved elsewhere are said to lose its character.",
+  "liquor_hex": "#D9C860",
+  "leaf_hex": "#5F6B34",
+  "sources": [
+    "https://news.sina.cn/2020-08-13/detail-iivhuipn8336145.d.html?vt=4"
+  ],
+  "confidence": "medium",
+  "images": [],
+  "stub": true,
+  "processing": "Typical of green tea: picked, heated soon after picking to stop oxidation, then shaped and dried.",
+  "harvest_season": "Usually picked in spring, with the earliest pickings prized, as with most green teas.",
+  "appearance_dry": "Green leaf whose shape depends on the maker, as is usual for regional green teas.",
+  "appearance_liquor": "Tea from the oldest trees is described as full-coloured and bright.",
+  "appearance_wet": "Usually soft green leaf that opens up in the water.",
+  "taste_profile": "Expect what green teas usually give: fresh, vegetal and lightly sweet.",
+  "vintage_note": "Leaf from the oldest trees is said to hold colour and flavour through more than 20 infusions."
+}

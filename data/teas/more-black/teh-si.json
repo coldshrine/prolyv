@@ -1,0 +1,53 @@
+{
+  "slug": "teh-si",
+  "name_en": "Teh Si",
+  "name_native": null,
+  "name_romanized": null,
+  "aliases": [
+    "Teh-C",
+    "Teh C"
+  ],
+  "category": "black",
+  "origin_country": "Malaysia",
+  "origin_region": "Malaysia",
+  "cultivar": null,
+  "form": "loose",
+  "caffeine_level": "high",
+  "brewing": {
+    "grams": 3,
+    "water_ml": 200,
+    "temp_c": 95,
+    "steeps": 2,
+    "seconds": [
+      180,
+      240
+    ],
+    "notes": "A safe starting point for black tea: Western style, water just off the boil."
+  },
+  "taste_tags": [
+    "malty",
+    "sweet"
+  ],
+  "description": "Malaysian black tea made with unsweetened evaporated milk rather than the condensed milk of teh tarik.\n\nThis is a way of preparing tea more than a tea you buy under one name, so the recipe and the base tea change from one maker to the next.",
+  "wikipedia_title": null,
+  "wikipedia_scope": "none",
+  "popularity": 1,
+  "name_zh": "淡奶红茶",
+  "name_ru": "Тех си",
+  "history": "The C in its other name, Teh-C, stands for Carnation, a popular evaporated milk brand. Sellers add sugar unless told kosong, meaning none. Sarawak coffee shops sell a three-layered form, Teh-C Peng Special, of black tea, milk and palm sugar syrup, and teh-C ais is the version with ice.",
+  "liquor_hex": "#B9794A",
+  "leaf_hex": "#3A2A1E",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Teh_tarik"
+  ],
+  "confidence": "low",
+  "images": [],
+  "stub": true,
+  "processing": "Black tea with evaporated milk; sugar is added by default unless declined.",
+  "harvest_season": "Not tied to a harvest: it depends on the base tea.",
+  "appearance_dry": "Usually dark twisted leaf, sometimes with golden tips.",
+  "appearance_liquor": "Usually a clear red-brown.",
+  "appearance_wet": "Usually coppery brown leaf.",
+  "taste_profile": "Expect what black teas usually give: malty, sweet and brisk.",
+  "vintage_note": "Not sold by vintage: it is made from whatever base tea the maker keeps, so freshness of the base matters more than the year."
+}

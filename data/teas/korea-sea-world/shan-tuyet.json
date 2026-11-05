@@ -3,10 +3,19 @@
   "name_en": "Shan Tuyet (Vietnamese Snow Tea)",
   "name_native": "Trà Shan Tuyết",
   "name_romanized": "Trà Shan Tuyết",
-  "aliases": ["Shan Tuyet", "Chè Shan Tuyết", "Snow tea", "Snow mountain tea", "Suoi Giang tea", "Ha Giang ancient tree tea", "Trà cổ thụ", "Vietnamese ancient tree green tea"],
+  "aliases": [
+    "Shan Tuyet",
+    "Chè Shan Tuyết",
+    "Snow tea",
+    "Snow mountain tea",
+    "Suoi Giang tea",
+    "Ha Giang ancient tree tea",
+    "Trà cổ thụ",
+    "Vietnamese ancient tree green tea"
+  ],
   "category": "green",
   "origin_country": "Vietnam",
-  "origin_region": "Hà Giang (Hoàng Su Phì, Vị Xuyên, Tây Côn Lĩnh), Yên Bái (Suối Giàng) and Sơn La (Tà Xùa)",
+  "origin_region": "Ha Giang",
   "cultivar": "Shan tea, a large-leaf assamica-type population growing as tall seed-grown trees, many of them a century or more old",
   "processing": "Leaf from old trees is withered briefly, wok- or drum-fired to kill green, rolled, then fired and dried in several passes over wood or charcoal heat; the heavy down on the buds stays white, giving the 'snow' look, and traditional lots carry a light smokiness from the firing.",
   "form": "loose",
@@ -15,13 +24,64 @@
   "appearance_liquor": "Pale gold to light amber, clear, darker than a typical green tea.",
   "appearance_wet": "Big, thick, leathery leaves and downy buds, olive to yellow-green, clearly from a large-leaf tree.",
   "taste_profile": "Thick and honeyed with a floral, apricot-like sweetness, a gentle smokiness in traditionally fired lots, a clean bitterness that turns to a long sweet aftertaste, and far more body than a lowland green tea.",
-  "taste_tags": ["honey", "smoky", "floral", "sweet", "bitter"],
-  "brewing": {"grams": 5, "water_ml": 120, "temp_c": 90, "steeps": 6, "seconds": [15, 10, 15, 20, 30, 45], "notes": "It takes hotter water than most green teas and rewards gongfu brewing: rinse quickly, keep the first steeps short, and it will run six or more rounds. A long Western steep brings out bitterness and smoke."},
+  "taste_tags": [
+    "honey",
+    "smoky",
+    "floral",
+    "sweet",
+    "bitter"
+  ],
+  "brewing": {
+    "grams": 5,
+    "water_ml": 120,
+    "temp_c": 90,
+    "steeps": 6,
+    "seconds": [
+      15,
+      10,
+      15,
+      20,
+      30,
+      45
+    ],
+    "notes": "It takes hotter water than most green teas and rewards gongfu brewing: rinse quickly, keep the first steeps short, and it will run six or more rounds. A long Western steep brings out bitterness and smoke."
+  },
   "caffeine_level": "high",
   "vintage_note": "Sold as the current year's spring or autumn pick, by village or district (Suối Giàng, Hoàng Su Phì, Tà Xùa) and often with the trees' claimed age on the label; it is drunk young by Vietnamese buyers but the leaf is sturdy and keeps well, and lots a year or two old are normal. Pressed and sun-dried versions of the same leaf are sold by year and aged like sheng pu-erh.",
-  "description": "Shan Tuyết means 'snow mountain tea': 'shan' for the high hills where it grows and 'tuyết' for the white down that covers the buds like frost. It comes from old tea trees, not bushes, growing at 1,000 to 1,800 metres in the far north of Vietnam, in Hà Giang, Yên Bái and Sơn La, tended mostly by Hmong and Dao families. Some of the trees are tall enough to need a ladder, and their age, often claimed in centuries, is the main selling point.\n\nThe trees are a large-leaf assamica-type population closely related to the ancient tea of neighbouring Yunnan, and the processing is similar in spirit: wither, fire in a wok or drum, roll, and dry in several passes over heat. Traditional village lots are fired over wood and carry a trace of smoke; newer cooperatives fire cleaner. The same leaf is also made into white, black and sun-dried pressed teas, but the pan-fired green is the classic form and the one most Vietnamese drinkers mean by the name.\n\nThe cup does not behave like a lowland green tea. It is thick, honeyed and floral, with apricot sweetness, a clean bitterness that resolves into a long sweet aftertaste, and body enough to run six or seven steeps in a gaiwan. Hot water is fine; what hurts it is a long Western-style steep, which pulls out the smoke and bitterness and none of the sweetness.\n\nIt is sold by region and pick, with spring lots on top, and increasingly by named cooperative or village; Suối Giàng in Yên Bái and the communes of Hoàng Su Phì in Hà Giang are the famous names, and Hà Giang's old-tree tea has protected status. Claims about tree age are unverifiable, so judge by the leaf: big, thick, downy buds and a honey-and-wood smell are the real markers. A fair amount of this leaf crosses the border into Yunnan and is sold as Chinese tea.\n\nIf you want to go further, try the white and pressed versions from the same trees, or compare it with a young Yunnan sheng: same family, different hands.",
+  "description": "Shan Tuyết means 'snow mountain tea': 'shan' for the high hills where it grows and 'tuyết' for the white down that covers the buds like frost. It comes from old tea trees, not bushes, growing high in the hills of the far north of Vietnam, in Hà Giang, Yên Bái, Lào Cai and Sơn La, tended mostly by Hmong and Dao families. Some of the trees are tall enough to need a ladder, and their age, often claimed in centuries, is the main selling point.\n\nThe trees are a large-leaf assamica-type population closely related to the ancient tea of neighbouring Yunnan, and the processing is similar in spirit: wither, fire in a wok or drum, roll, and dry in several passes over heat. Traditional village lots are fired over wood and carry a trace of smoke; newer cooperatives fire cleaner. The same leaf is also made into white, black and sun-dried pressed teas, but the pan-fired green is the classic form and the one most Vietnamese drinkers mean by the name.\n\nThe cup does not behave like a lowland green tea. It is thick, honeyed and floral, with apricot sweetness, a clean bitterness that resolves into a long sweet aftertaste, and body enough to run six or seven steeps in a gaiwan. Hot water is fine; what hurts it is a long Western-style steep, which pulls out the smoke and bitterness and none of the sweetness.\n\nIt is sold by region and pick, with spring lots on top, and increasingly by named cooperative or village; Suối Giàng in Yên Bái and the communes of Hoàng Su Phì in Hà Giang are the famous names. Claims about tree age are unverifiable, so judge by the leaf: big, thick, downy buds and a honey-and-wood smell are the real markers. Some of this leaf is said to cross the border into Yunnan and be sold as Chinese tea.\n\nIf you want to go further, try the white and pressed versions from the same trees, or compare it with a young Yunnan sheng: same family, different hands.",
   "wikipedia_title": "Vietnamese tea",
   "wikipedia_scope": "umbrella",
   "popularity": 2,
-  "sources_note": "Tree ages and altitudes are as commonly claimed by producers; the 'Hà Giang Shan Tuyết' geographical indication is from memory. The cross-border trade of Vietnamese old-tree leaf into Yunnan is widely reported in the tea trade but hard to quantify."
+  "sources_note": "Tree ages and altitudes are as commonly claimed by producers; the 'Hà Giang Shan Tuyết' geographical indication is from memory. The cross-border trade of Vietnamese old-tree leaf into Yunnan is widely reported in the tea trade but hard to quantify.",
+  "name_zh": "越南雪山茶",
+  "name_ru": "Шан Туйет",
+  "history": "Shan Tuyết tea comes from ancient tea trees in the northern Vietnamese provinces of Lào Cai, Yên Bái and Hà Giang. The age of these trees is the heart of its reputation, but the figures on labels are claims and little is documented about them.\n\nThe pan-fired green is the form most often meant by the name. Other styles from the same trees appear to be more recent additions.",
+  "liquor_hex": "#DDBB62",
+  "leaf_hex": "#66694A",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Vietnamese_tea"
+  ],
+  "confidence": "low",
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/05/Che_Shan_tuyet.JPG/1280px-Che_Shan_tuyet.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/05/Che_Shan_tuyet.JPG/330px-Che_Shan_tuyet.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Che_Shan_tuyet.JPG",
+      "author": "VuThiAnh",
+      "license": "Public domain",
+      "license_url": null,
+      "kind": "dry_leaf",
+      "alt": "Loosely twisted grey-green dry Shan Tuyet tea leaves on a pale background"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/54/C%C3%A2y_ch%C3%A8_shan_tuy%E1%BA%BFt_tr%C3%AAn_khu_v%E1%BB%B1c_Th%C3%A1c_Th%C3%AD%2C_B%E1%BA%AFc_Quang.jpg/1280px-C%C3%A2y_ch%C3%A8_shan_tuy%E1%BA%BFt_tr%C3%AAn_khu_v%E1%BB%B1c_Th%C3%A1c_Th%C3%AD%2C_B%E1%BA%AFc_Quang.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/54/C%C3%A2y_ch%C3%A8_shan_tuy%E1%BA%BFt_tr%C3%AAn_khu_v%E1%BB%B1c_Th%C3%A1c_Th%C3%AD%2C_B%E1%BA%AFc_Quang.jpg/330px-C%C3%A2y_ch%C3%A8_shan_tuy%E1%BA%BFt_tr%C3%AAn_khu_v%E1%BB%B1c_Th%C3%A1c_Th%C3%AD%2C_B%E1%BA%AFc_Quang.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source_page": "https://commons.wikimedia.org/wiki/File:C%C3%A2y_ch%C3%A8_shan_tuy%E1%BA%BFt_tr%C3%AAn_khu_v%E1%BB%B1c_Th%C3%A1c_Th%C3%AD,_B%E1%BA%AFc_Quang.jpg",
+      "author": "Motbit",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "kind": "plant",
+      "alt": "Old Shan Tuyet tea trees with broad spreading crowns in Bac Quang, Ha Giang, Vietnam"
+    }
+  ]
 }

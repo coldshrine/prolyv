@@ -1,0 +1,56 @@
+{
+  "slug": "lhasa-sweet-tea",
+  "name_en": "Lhasa Sweet Tea",
+  "name_native": "ཇ་མངར་མོ།",
+  "name_romanized": "cha ngarmo",
+  "name_zh": "拉萨甜茶",
+  "name_ru": "Лхасский сладкий чай",
+  "aliases": [
+    "Lasatiancha",
+    "Cha Ngarmo",
+    "Tibetan Sweet Tea",
+    "甜茶"
+  ],
+  "category": "black",
+  "origin_country": "China",
+  "origin_region": "Tibet · Lhasa",
+  "cultivar": null,
+  "processing": "A drink rather than a leaf: black tea is simmered with fresh milk and white sugar until the flavours blend.",
+  "form": "other",
+  "harvest_season": "Not applicable; it is made year-round from ordinary black tea.",
+  "appearance_dry": "No leaf of its own: any plain dark black tea serves as the base.",
+  "appearance_liquor": "Opaque, creamy tan.",
+  "appearance_wet": "Strained off before serving; boiled black tea leaf, dark and soft.",
+  "taste_profile": "Sweet and milky with a soft tea backbone, a gentle, warming cup with none of the salt of butter tea.",
+  "taste_tags": [
+    "sweet",
+    "creamy",
+    "malty"
+  ],
+  "brewing": {
+    "grams": 10,
+    "water_ml": 500,
+    "temp_c": 100,
+    "steeps": 1,
+    "seconds": [
+      600
+    ],
+    "notes": "A home starting point, as no fixed recipe exists: simmer the tea about 10 minutes, strain, add milk and sugar to taste, and return to a slow simmer."
+  },
+  "caffeine_level": "medium",
+  "vintage_note": "Not sold by year or season: it is poured by the glass in Lhasa teahouses, made fresh from whatever black tea the house uses. Age and vintage play no part, and packaged instant versions are a different thing.",
+  "description": "Lhasa sweet tea is what the city drinks in its teahouses: black tea simmered with milk and white sugar. It is the sweet, gentle counterpart to salty butter tea, and it has a Tibetan name of its own, cha ngarmo.\n\nThe method is simple. Black tea, fresh milk and sugar simmer together until the flavours merge, and no ratio is fixed.\n\nThe pleasure is as much in the place as in the drink. Teahouses are busy, and you help yourself to an empty cup, find a seat, and the tea comes round.\n\nTo make it at home, use a cheap, sturdy black tea and don't be shy with the boiling; a delicate tea disappears under the milk. It is sold by the cup rather than the bag, so the real buying advice is to go and sit in a teahouse.",
+  "history": "Little is documented about how or when sweet milk tea took hold in Lhasa, and its origin should be treated as an open question. What is clear is its place in daily life today, in teahouses across the city, including one run by the nuns of Ani Tsankhung nunnery.",
+  "liquor_hex": "#C49A6C",
+  "leaf_hex": "#3A2A1E",
+  "sources": [
+    "https://zh.wikipedia.org/wiki/%E9%98%BF%E5%B0%BC%E4%BB%93%E7%A9%BA%E5%AF%BA",
+    "https://milulu.com.cn/techan/32142.html",
+    "https://cn.chinadaily.com.cn/a/202508/20/WS68a5cfd8a3104ba1353fdebf.html"
+  ],
+  "confidence": "low",
+  "wikipedia_title": null,
+  "wikipedia_scope": "none",
+  "popularity": 3,
+  "images": []
+}

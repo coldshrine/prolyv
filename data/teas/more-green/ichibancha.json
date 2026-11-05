@@ -1,0 +1,58 @@
+{
+  "slug": "ichibancha",
+  "name_en": "Ichibancha",
+  "name_native": "一番茶",
+  "name_romanized": "Ichibancha",
+  "name_zh": "一番茶",
+  "name_ru": "Итибантя",
+  "aliases": [
+    "Ichabancha",
+    "First flush Japanese tea",
+    "First-picked tea",
+    "Shincha"
+  ],
+  "category": "green",
+  "origin_country": "Japan",
+  "origin_region": "Nationwide",
+  "cultivar": null,
+  "processing": "A term for the picking, not a process: the first spring shoots of the year, most often made into sencha by the usual steaming, rolling and drying.",
+  "form": "loose",
+  "harvest_season": "The first picking of the year in spring, ahead of nibancha (second) and sanbancha (third).",
+  "appearance_dry": "As sencha, typically fine, glossy deep-green needles from young shoots.",
+  "appearance_liquor": "As sencha, typically a clear, bright yellow-green.",
+  "appearance_wet": "Tender young green leaves, typical of an early spring picking.",
+  "taste_profile": "Fresh aroma and sweetness, the qualities the first picking is valued for, typically with more softness than later pickings of the same bushes.",
+  "taste_tags": [
+    "sweet",
+    "umami",
+    "grassy",
+    "vegetal"
+  ],
+  "brewing": {
+    "grams": 5,
+    "water_ml": 120,
+    "temp_c": 70,
+    "steeps": 3,
+    "seconds": [
+      60,
+      15,
+      40
+    ],
+    "notes": "Use cooler water to keep the sweetness forward. The second steep should be very short."
+  },
+  "caffeine_level": "medium",
+  "vintage_note": "By definition from this year's spring, so the harvest year is the whole point. The earliest portion is sold as shincha (new tea) soon after picking. Most ichibancha is sold through the following year, and first-picking lots cost more than second and third pickings.",
+  "description": "Ichibancha means first tea: leaves from the first shoots of spring, made into tea. It is a word for when a tea was picked and not a type, so it can apply to many Japanese teas, though most often you see it on sencha.\n\nLater pickings get their own names, nibancha and sanbancha. There is no special method here. The usual sencha process just works with younger, more tender material, and the difference starts on the bush.\n\nFirst picking generally means better quality and a higher price, with a fresh aroma and clear sweetness. Treat it gently: cool water, a short second steep, and don't let it sit in the pot.\n\nThe term overlaps with shincha, new tea, and people often use them almost interchangeably. Shincha puts the stress on being the very first and freshest of the year, while ichibancha simply ranks the picking. Check the harvest year on the bag, because a first flush from two years ago is not what you want.\n\nA simple way to learn what the word means is to buy an ichibancha and a nibancha from the same farm and compare them.",
+  "history": "The word comes from ordinary Japanese trade usage, counting the pickings of a season in order. Little is documented about when it first came into use; it is a plain description and not the invention of any one person. Today it remains the standard name for the top-valued spring picking.",
+  "liquor_hex": "#D6D27E",
+  "leaf_hex": "#4A6A30",
+  "sources": [
+    "https://ja.wikipedia.org/wiki/%E4%B8%80%E7%95%AA%E8%8C%B6",
+    "https://en.wikipedia.org/wiki/Sencha"
+  ],
+  "confidence": "medium",
+  "wikipedia_title": "一番茶",
+  "wikipedia_scope": "exact",
+  "popularity": 3,
+  "images": []
+}

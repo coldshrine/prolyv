@@ -1,0 +1,87 @@
+{
+  "slug": "yuanyang",
+  "name_en": "Yuanyang (Coffee with Tea)",
+  "name_native": "鴛鴦",
+  "name_romanized": "Yuānyāng",
+  "name_zh": "鸳鸯",
+  "name_ru": "Юаньян",
+  "aliases": [
+    "Yuenyeung",
+    "Yuanyang",
+    "yinyeung",
+    "yinyong",
+    "coffee with tea",
+    "milk coffee",
+    "Kopi cham",
+    "鸳鸯奶茶",
+    "鴛鴦奶茶",
+    "鴛鴦",
+    "咖啡茶",
+    "Юань Ян"
+  ],
+  "category": "black",
+  "origin_country": "Hong Kong",
+  "origin_region": "Hong Kong",
+  "cultivar": null,
+  "processing": "Brewed coffee mixed with Hong Kong-style milk tea, commonly three parts coffee to seven parts milk tea, though the ratio varies by vendor.",
+  "form": "other",
+  "harvest_season": "Not relevant: it is a mixed drink, and no harvest is prized.",
+  "appearance_dry": "Not sold as loose leaf; instant sachets of powdered coffee, tea, sugar and milk exist.",
+  "appearance_liquor": "Opaque reddish-brown.",
+  "appearance_wet": "Not applicable: it is served strained.",
+  "taste_profile": "Coffee's roast and bitterness folded into smooth, strong milk tea, with a sweet return after the bitter edge.",
+  "taste_tags": [
+    "roasted",
+    "creamy",
+    "bitter",
+    "sweet"
+  ],
+  "brewing": {
+    "grams": 10,
+    "water_ml": 300,
+    "temp_c": 100,
+    "steeps": 1,
+    "seconds": [
+      300
+    ],
+    "notes": "Brew strong black tea and coffee separately, then mix about seven parts milk tea with three parts coffee. Serve hot or iced, with sugar to taste."
+  },
+  "caffeine_level": "high",
+  "vintage_note": "Sold by the glass, with no year or season. The tea base is commonly Ceylon black tea, bought as an ordinary blend, so freshness matters more than any vintage.",
+  "description": "Yuanyang, usually spelled yuenyeung in Hong Kong, is milk tea and coffee in one glass. It began at the city's dai pai dong and cha chaan teng and now turns up in many kinds of restaurant. The name means mandarin ducks, birds that keep together though male and female look nothing alike.\n\nThe usual proportion is three parts coffee to seven parts Hong Kong-style milk tea, typically Ceylon black tea and evaporated milk. Vendors vary it, and some mix the two liquids while others brew grounds and leaves together or in stages.\n\nThe tea should still be noticeable: it brings grip and smoothness while coffee brings roast and bitterness. If the coffee takes over, the mix is off or the tea was too weak. Hot or iced both work.\n\nOrder yeung jau for the condensed-milk version, which needs no added sugar. Children's yuenyeung drops coffee and tea entirely, mixing Horlicks and Ovaltine. In Malaysia, look for the same idea as kopi cham.",
+  "history": "Its origin is unknown. One story credits dock labourers mixing coffee and tea for energy; another places it at dai pai dong. The Hong Kong restaurant Lan Fong Yuen claims its owner, Lum Muk-ho, invented it in 1952, a claim that remains unverified.\n\nFrom working-class stalls it became a Hong Kong emblem, often used as a figure for the city's mix of Chinese and Western cultures. It is listed with Hong Kong milk tea as local intangible cultural heritage, and a typhoon name contributed by Hong Kong comes from it. Starbucks sold a frappuccino version in Hong Kong and Macau in summer 2010.",
+  "liquor_hex": "#8A5A38",
+  "leaf_hex": "#3A2518",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Yuenyeung",
+    "https://zh.wikipedia.org/wiki/%E9%B4%9B%E9%B4%A6_%28%E9%A3%B2%E6%96%99%29",
+    "https://ja.wikipedia.org/wiki/%E9%B4%9B%E9%B4%A6%E8%8C%B6",
+    "https://www.wikidata.org/wiki/Q2748300"
+  ],
+  "confidence": "high",
+  "wikipedia_title": "Yuenyeung",
+  "wikipedia_scope": "exact",
+  "popularity": 3,
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ed/J%C3%BCan-jang%2C_Yau_Ma_Tei%2C_Hongkong.jpg/1280px-J%C3%BCan-jang%2C_Yau_Ma_Tei%2C_Hongkong.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ed/J%C3%BCan-jang%2C_Yau_Ma_Tei%2C_Hongkong.jpg/330px-J%C3%BCan-jang%2C_Yau_Ma_Tei%2C_Hongkong.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source_page": "https://commons.wikimedia.org/wiki/File:J%C3%BCan-jang,_Yau_Ma_Tei,_Hongkong.jpg",
+      "author": "Ondřej Žváček",
+      "license": "CC BY 2.5",
+      "license_url": "https://creativecommons.org/licenses/by/2.5",
+      "kind": "liquor",
+      "alt": "Hot yuanyang in a white cup with a spoon on a cha chaan teng table in Hong Kong"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a3/Yuanyang_%28drink%29.jpg/1280px-Yuanyang_%28drink%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a3/Yuanyang_%28drink%29.jpg/330px-Yuanyang_%28drink%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Yuanyang_(drink).jpg",
+      "author": "OhanaUnited Talk page",
+      "license": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "kind": "liquor",
+      "alt": "Iced yuanyang in a tall glass with a straw at a Hong Kong cha chaan teng"
+    }
+  ]
+}

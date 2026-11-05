@@ -1,0 +1,54 @@
+{
+  "slug": "gilan-tea",
+  "name_en": "Gilan Tea",
+  "name_native": "چای گیلان",
+  "name_romanized": "Chāy-e Gilān",
+  "aliases": [
+    "Iranian black tea",
+    "Gilan black tea"
+  ],
+  "category": "black",
+  "origin_country": "Iran",
+  "origin_region": "Gilan",
+  "cultivar": null,
+  "processing": "Typical of black tea: withered, rolled, fully oxidised and dried. Details of the local method are not well documented here.",
+  "form": "loose",
+  "harvest_season": "Not documented here; black tea in a temperate region is typically picked from spring into early autumn.",
+  "appearance_dry": "Dark brown to black, fairly fine broken or twisted leaf, as is typical of black tea sold for everyday brewing.",
+  "appearance_liquor": "Clear amber-red to deep red, the colour Iranian tea drinkers look for in a glass.",
+  "appearance_wet": "Coppery brown, small broken pieces.",
+  "taste_profile": "Typically brisk and clean with a gentle malty sweetness and some astringency, built to stand up to sugar or a sugar lump held in the mouth.",
+  "taste_tags": [
+    "malty",
+    "brisk",
+    "woody"
+  ],
+  "brewing": {
+    "grams": 3,
+    "water_ml": 200,
+    "temp_c": 95,
+    "steeps": 3,
+    "seconds": [
+      180,
+      180,
+      240
+    ],
+    "notes": "Iranian style is a strong brew diluted with hot water from a samovar; brew it stronger than usual and top up in the glass."
+  },
+  "caffeine_level": "medium",
+  "vintage_note": "Black tea of this kind is sold as the current year's harvest and is drunk within a year or so; it is not an ageing tea. Labels rarely give a pick date, so freshness is judged by aroma and by how recently the pack was opened.",
+  "description": "Gilan is the Caspian province of northern Iran, and it is where tea growing in the country began. Gilan leaf is the part of Iranian tea that Iranians themselves talk about as the good stuff.\n\nLittle is documented about the exact methods used on individual Gilan estates, so what follows is what is typical of black tea. The leaf is withered, rolled, fully oxidised and dried, giving a dark, fairly fine leaf that makes a strong red cup.\n\nIn the cup, expect a brisk, clean tea with malty sweetness and a firm grip. In Iran tea is usually brewed strong and diluted with hot water in a glass, so a strong brew is the point rather than a mistake.\n\nWhen buying outside Iran, check that the pack really names Gilan as the origin.\n\nIf you like it, compare it with Ceylon or Assam black teas.",
+  "history": "Tea drinking in Iran as a refined drink is recorded from the seventeenth century, and the province of Gilan is regarded as the original home of tea cultivation in the country. Iran today accounts for a notable share of the world's tea consumption, and the quality of Gilan tea is widely praised domestically.\n\nExact dates for the start of planting, the people involved and how the industry changed are not given here, because they could not be confirmed.",
+  "liquor_hex": "#B5521F",
+  "leaf_hex": "#3A2418",
+  "sources": [
+    "https://fa.wikipedia.org/wiki/%DA%86%D8%A7%DB%8C_%D8%AF%D8%B1_%D8%A7%DB%8C%D8%B1%D8%A7%D9%86"
+  ],
+  "confidence": "low",
+  "wikipedia_title": null,
+  "wikipedia_scope": "none",
+  "popularity": 2,
+  "images": [],
+  "name_zh": "伊朗吉兰红茶",
+  "name_ru": "Гилянский чай"
+}

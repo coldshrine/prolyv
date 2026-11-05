@@ -1,0 +1,58 @@
+{
+  "slug": "kaiyang-selenium-tea",
+  "name_en": "Kaiyang Selenium Tea",
+  "name_native": "开阳富硒茶",
+  "name_romanized": "Kāiyáng Fùxī Chá",
+  "name_zh": "开阳富硒茶",
+  "name_ru": "Кайян Фу Си Ча",
+  "aliases": [
+    "Kaiyangfuxicha",
+    "Kaiyang Fuxi Cha",
+    "開陽富硒茶"
+  ],
+  "category": "green",
+  "origin_country": "China",
+  "origin_region": "Guizhou · Guiyang · Kaiyang",
+  "cultivar": null,
+  "processing": "An unoxidised green tea. Its specific steps are little documented; bud-style lots are the signature form.",
+  "form": "loose",
+  "harvest_season": "Exact dates are little documented; as with other Guizhou greens, spring is the prized picking.",
+  "appearance_dry": "Bud-shaped leaf with abundant white down.",
+  "appearance_liquor": "Pale green and bright.",
+  "appearance_wet": "Buds stand upright in the water, compared locally to spring shoots after rain.",
+  "taste_profile": "Clear fragrance and a mellow, clean, refreshing taste.",
+  "taste_tags": [
+    "vegetal",
+    "sweet",
+    "brisk"
+  ],
+  "brewing": {
+    "grams": 3,
+    "water_ml": 150,
+    "temp_c": 82,
+    "steeps": 3,
+    "seconds": [
+      60,
+      80,
+      110
+    ],
+    "notes": "General guidance for bud-style greens. Use a glass to watch the buds stand up, and take care not to scald them."
+  },
+  "caffeine_level": "medium",
+  "vintage_note": "Usual for Chinese greens: sold as the current year's spring harvest and best drunk within about a year. Selenium content varies, so a producer's test result says more than the word on the label.",
+  "description": "Kaiyang Selenium Tea is a protected green from Kaiyang County, in the north of Guiyang municipality. The name makes its selenium the headline, as the county promotes its soils as selenium-rich. In practice it is a downy, bud-forward Guizhou green.\n\nLittle has been published about the exact method, beyond the fact that it is not oxidised. The nicest thing about the look of it is in the glass, where the buds rise and stand upright.\n\nThe liquor is pale green and bright, with a clear scent and a mellow, clean taste. Keep the water under boiling and watch the time, as with any bud-heavy green.\n\nDo not buy it for the selenium alone. A county agriculture document notes that natural levels in tea are unstable and promotes foliar feeding with selenium to reach the national threshold of at least 0.25 mg/kg. That is useful context for a label that sounds entirely natural, and any health promise deserves scepticism. Buy it as a green tea you enjoy.",
+  "history": "Little is documented about its early development. The clear date is 10 December 2013, when the national quality inspection authority approved geographical indication protection, with the production area set as all of Kaiyang County.\n\nThe county has since built a regional brand image on the tea's single-bud shape.",
+  "liquor_hex": "#DBDE9C",
+  "leaf_hex": "#8FA268",
+  "sources": [
+    "https://milulu.com.cn/techan/17341.html",
+    "https://zh.wikipedia.org/wiki/%E5%BC%80%E9%98%B3%E5%8E%BF",
+    "https://www.kaiyang.gov.cn/zfbm/xnyncj/zfxxgk_5777351/fdzdgknr/nyncgl/202403/P020240320420528537764.docx",
+    "https://cn.chinadaily.com.cn/a/202506/26/WS685cd8e8a31009d21e5bea85.html"
+  ],
+  "confidence": "medium",
+  "wikipedia_title": null,
+  "wikipedia_scope": "none",
+  "popularity": 2,
+  "images": []
+}

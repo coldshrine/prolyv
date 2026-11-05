@@ -1,0 +1,63 @@
+{
+  "slug": "qishr",
+  "name_en": "Qishr",
+  "name_native": "قشر",
+  "name_romanized": "qishr",
+  "name_zh": "也门咖啡果壳姜茶",
+  "name_ru": "Кишр",
+  "aliases": [
+    "Coffee tea",
+    "Geshir",
+    "Gishr",
+    "Kishr",
+    "Ginger coffee",
+    "Qahwa qishriyya",
+    "キシル",
+    "Гишр",
+    "Гешир"
+  ],
+  "category": "tisane",
+  "origin_country": "Yemen",
+  "origin_region": "Yemen",
+  "cultivar": null,
+  "processing": "Coffee husks, roasted in Yemen's warmer regions and unroasted in its colder ones, are simmered in water with ginger and often cinnamon or clove.",
+  "form": "other",
+  "harvest_season": "Follows the coffee harvest, since it uses the husks left after the beans are removed; the drink itself is made all year.",
+  "appearance_dry": "A mix of dark, papery coffee husks with pieces of ginger and spice.",
+  "appearance_liquor": "Typically a warm, slightly cloudy amber-brown from simmering with spice.",
+  "appearance_wet": "Softened brown husks with spent ginger and spice at the bottom of the pot.",
+  "taste_profile": "Warm ginger heat over the sweet, faintly tart fruit of the coffee cherry, with cinnamon or clove when used. Traditionally it is unsweetened.",
+  "taste_tags": [
+    "spicy",
+    "fruity",
+    "sweet",
+    "tart"
+  ],
+  "brewing": {
+    "grams": 15,
+    "water_ml": 400,
+    "temp_c": 100,
+    "steeps": 1,
+    "seconds": [
+      600
+    ],
+    "notes": "Proportions vary by household; this is a starting point. Simmer the husks with sliced or ground ginger and any spice, then strain. Usually drunk without sugar."
+  },
+  "caffeine_level": "low",
+  "vintage_note": "Not a vintage product. It is made fresh at home or in cafes from husks of recent crops, or bought as husks or a spiced mix. Choose husks that still smell fruity, and buy ginger and spice fresh.",
+  "description": "Qishr is Yemen's spiced hot drink of coffee husks, ginger and often cinnamon or clove. It uses the fruit around the bean and not the bean itself, so it sits somewhere between a coffee-culture drink and a herbal infusion. In Yemen it has long been an inexpensive alternative to coffee.\n\nThe husks are simmered rather than briefly steeped, and regional habit decides how they are treated: roasted in warmer parts of the country, unroasted in colder ones. Ginger gives the drink its main character, which is why English writers have sometimes called it ginger coffee.\n\nThe ripe cherry's pulp is described as melon-sweet with a light acidity, and that sits beneath the spice. Traditionally no sugar goes in. Too much ginger will flatten the fruit, so start lightly and taste before adding more.\n\nThe word is also the Arabic name for the husk itself, so the same word can mean the plain product sold elsewhere as cascara. Plain cascara is the easiest base to find outside Yemen; simmer it with ginger and you have a fair home approximation.",
+  "history": "Coffee reached what is now Yemen from across the Red Sea, and by one account dervishes cultivated it in their gardens. Early on, the name qishr is said to have applied to a fermented wine-like drink from the pulp used in religious ceremonies, a claim that is hard to date with confidence.\n\nTravellers later recorded the husk infusion as a daily hospitality drink, one noting with surprise that in the heart of coffee country people offered husk rather than bean. It stayed largely local for a long time. Saudis living in Yemen took the habit home, demand grew and export began, with Jordan later following Saudi Arabia as a market. It has also served as a traditional remedy, though the reputed diuretic and kidney-stone effects are traditional claims.",
+  "liquor_hex": "#A8682E",
+  "leaf_hex": "#4A2A1A",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Qishr",
+    "https://ja.wikipedia.org/wiki/%E3%82%AD%E3%82%B7%E3%83%AB",
+    "https://ru.wikipedia.org/wiki/%D0%9A%D0%B8%D1%88%D1%80",
+    "https://www.wikidata.org/wiki/Q7267922"
+  ],
+  "confidence": "medium",
+  "wikipedia_title": "Qishr",
+  "wikipedia_scope": "exact",
+  "popularity": 2,
+  "images": []
+}

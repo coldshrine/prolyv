@@ -3,7 +3,13 @@
   "name_en": "Dayi 8582 Sheng Cake",
   "name_native": "大益8582",
   "name_romanized": "Dàyì Bā Wǔ Bā Èr",
-  "aliases": ["8582", "Menghai 8582", "TAETEA 8582", "Nam Kee 8582", "Thick paper 8582", "大益8582青饼"],
+  "aliases": [
+    "8582",
+    "Menghai 8582",
+    "TAETEA 8582",
+    "Thick paper 8582",
+    "大益8582青饼"
+  ],
   "category": "sheng",
   "origin_country": "China",
   "origin_region": "Yunnan · Xishuangbanna · Menghai",
@@ -15,13 +21,47 @@
   "appearance_liquor": "Golden-orange when young, deep red-amber with age, clear.",
   "appearance_wet": "Large, broad, mature leaves and stems, noticeably coarser than 7542's.",
   "taste_profile": "Broader and rounder than 7542: less sharp bitterness, more honey, wood and dried fruit, a fuller body and a sweetness that arrives sooner in the cake's life; with age, plum, camphor and old wood.",
-  "taste_tags": ["honey", "woody", "dried-fruit", "sweet", "camphor"],
-  "brewing": {"grams": 8, "water_ml": 120, "temp_c": 100, "steeps": 10, "seconds": [15, 10, 12, 15, 20, 30, 45, 60, 90, 150], "notes": "Rinse twice. The large leaf separates easily from the looser cake; boiling water, and a clay pot suits it from about five years onward."},
+  "taste_tags": [
+    "honey",
+    "woody",
+    "dried-fruit",
+    "sweet",
+    "camphor"
+  ],
+  "brewing": {
+    "grams": 8,
+    "water_ml": 120,
+    "temp_c": 100,
+    "steeps": 10,
+    "seconds": [
+      15,
+      10,
+      12,
+      15,
+      20,
+      30,
+      45,
+      60,
+      90,
+      150
+    ],
+    "notes": "Rinse twice. The large leaf separates easily from the looser cake; boiling water, and a clay pot suits it from about five years onward."
+  },
   "caffeine_level": "high",
-  "vintage_note": "Sold by production year and batch, and historically by wrapper variant: the first 1985–1980s batches were made for the Hong Kong trader Nam Kee and the 'thick paper' and 'thin paper' wrappers of the late 1980s are collector shorthand, with 1990s batches the next tier down. Because the coarser leaf and looser press age faster, an 8582 is considered drinkable earlier than a 7542 of the same year, roughly from 8–10 years in Guangdong storage; batches from 2003–2015 are the practical mid-aged buys and current batches are cheap. Humid Hong Kong or Guangdong storage is what the recipe was designed for, and dry-stored examples need longer.",
-  "description": "8582 is the other classic raw recipe from the Menghai Tea Factory, created in 1985 at the request of the Hong Kong trader Nam Kee, who wanted a cake built on bigger, coarser leaf that would age faster in Hong Kong's humid warehouses than the finer 7542. The code reads 85 for the year, 8 for the leaf grade and 2 for the factory, and the recipe has been pressed by Dayi ever since.\n\nThe blend uses broad mature leaves and long stems with a share of younger leaf for structure, steamed and pressed more loosely than 7542 so that air can move through the cake. The difference is visible: an 8582 looks rougher and darker on the face, with fewer buds and more stem, and it pries apart easily.\n\nIn the cup, young 8582 is rounder than 7542: less sharp bitterness, more honey, wood and dried fruit, a fuller body and a sweetness that shows up earlier. With ten to twenty years it goes to plum, camphor and old wood, the same destination as 7542 but reached sooner and with a softer texture. Boiling water, two rinses and a clay pot once it has some age.\n\nIt is sold by production year and batch, with the late-1980s 'thick paper' and 'thin paper' Nam Kee batches the expensive legends and the 1990s not far behind; 2003–2015 batches are the sensible mid-aged buys and new batches are cheap. The ripe counterpart is 8592. As with every Dayi classic, fakes track the fame, so the famous old batches are a specialist purchase.\n\nIf you find young 7542 too harsh, 8582 is the gentler route into factory sheng, and a pair of the same year makes the point about leaf grade better than any explanation.",
+  "vintage_note": "Sold by production year and batch, and historically by wrapper variant: the first batches are said to have been made for a Hong Kong client, and the 'thick paper' and 'thin paper' wrappers of the late 1980s are collector shorthand, with 1990s batches the next tier down. Because the coarser leaf and looser press age faster, an 8582 is considered drinkable earlier than a 7542 of the same year, roughly from 8–10 years in Guangdong storage; batches from 2003–2015 are the practical mid-aged buys and current batches are cheap. Humid Hong Kong or Guangdong storage is what the recipe was designed for, and dry-stored examples need longer.",
+  "description": "8582 is the other classic raw recipe from the Menghai Tea Factory, by trade accounts made for a Hong Kong client who wanted a cake built on bigger, coarser leaf that would age faster in Hong Kong's humid warehouses than the finer 7542. The code reads 85 for the year, 8 for the leaf grade and 2 for the factory, and the recipe has been pressed by Dayi ever since.\n\nThe blend uses broad mature leaves and long stems with a share of younger leaf for structure, steamed and pressed more loosely than 7542 so that air can move through the cake. The difference is visible: an 8582 looks rougher and darker on the face, with fewer buds and more stem, and it pries apart easily.\n\nIn the cup, young 8582 is rounder than 7542: less sharp bitterness, more honey, wood and dried fruit, a fuller body and a sweetness that shows up earlier. With ten to twenty years it goes to plum, camphor and old wood, the same destination as 7542 but reached sooner and with a softer texture. Boiling water, two rinses and a clay pot once it has some age.\n\nIt is sold by production year and batch, with the late-1980s 'thick paper' and 'thin paper' batches the expensive legends and the 1990s not far behind; 2003–2015 batches are the sensible mid-aged buys and new batches are cheap. The ripe counterpart is 8592. As with every Dayi classic, fakes track the fame, so the famous old batches are a specialist purchase.\n\nIf you find young 7542 too harsh, 8582 is the gentler route into factory sheng, and a pair of the same year makes the point about leaf grade better than any explanation.",
   "wikipedia_title": "Pu'er tea",
   "wikipedia_scope": "umbrella",
   "popularity": 3,
-  "sources_note": "The Nam Kee (Hong Kong) origin of the 8582 recipe in 1985 is standard trade history; details of the thick/thin paper variants are collector lore and dates vary slightly by source."
+  "sources_note": "The Nam Kee (Hong Kong) origin of the 8582 recipe in 1985 is standard trade history; details of the thick/thin paper variants are collector lore and dates vary slightly by source.",
+  "name_zh": "大益8582",
+  "name_ru": "Да И 8582",
+  "history": "8582 is a numbered raw recipe from the Menghai Tea Factory, the maker behind the Dayi brand, and it is usually discussed as the coarser-leaf companion to 7542. The trade tells its origin as a recipe made for a Hong Kong client, though the details of that story and of the early wrapper variants are collector lore and little is firmly documented.\n\nWhat is clear is its place in the market: it is sold by production year and batch, and old batches are bought with care because famous factory cakes attract fakes.",
+  "liquor_hex": "#C98A2E",
+  "leaf_hex": "#4A4228",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Pu%27er_tea"
+  ],
+  "confidence": "low",
+  "images": []
 }

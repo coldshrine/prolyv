@@ -1,0 +1,54 @@
+{
+  "slug": "algerian-mint-tea",
+  "name_en": "Algerian Mint Tea",
+  "name_native": null,
+  "name_romanized": null,
+  "aliases": [
+    "Maghrebi mint tea",
+    "Atay"
+  ],
+  "category": "green",
+  "origin_country": "Algeria",
+  "origin_region": "Algeria",
+  "cultivar": null,
+  "form": "loose",
+  "caffeine_level": "medium",
+  "brewing": {
+    "grams": 3,
+    "water_ml": 150,
+    "temp_c": 80,
+    "steeps": 3,
+    "seconds": [
+      60,
+      75,
+      105
+    ],
+    "notes": "A safe starting point for green tea: cooler water, short steeps, then adjust by taste."
+  },
+  "taste_tags": [
+    "herbal",
+    "sweet"
+  ],
+  "description": "The Algerian name for the North African drink of gunpowder green tea with spearmint and sugar.\n\nThis is a way of preparing tea more than a tea you buy under one name, so the recipe and the base tea change from one maker to the next.",
+  "wikipedia_title": null,
+  "wikipedia_scope": "none",
+  "popularity": 1,
+  "name_zh": "阿尔及利亚薄荷茶",
+  "name_ru": "Алжирский мятный чай",
+  "history": "It is one local name for a preparation shared across the Maghreb, also called Tunisian or Moroccan mint tea. Little more is documented about an Algerian form in particular.",
+  "liquor_hex": "#C9B85A",
+  "leaf_hex": "#7E8B3E",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Maghrebi_mint_tea"
+  ],
+  "confidence": "low",
+  "images": [],
+  "stub": true,
+  "processing": "Made from a green base tea according to the recipe; the method varies.",
+  "harvest_season": "Not tied to a harvest: it depends on the base tea.",
+  "appearance_dry": "Green leaf whose shape depends on the maker, as is usual for regional green teas.",
+  "appearance_liquor": "Usually a clear, pale yellow-green.",
+  "appearance_wet": "Usually soft green leaf that opens up in the water.",
+  "taste_profile": "Expect what green teas usually give: fresh, vegetal and lightly sweet.",
+  "vintage_note": "Not sold by vintage: it is made from whatever base tea the maker keeps, so freshness of the base matters more than the year."
+}

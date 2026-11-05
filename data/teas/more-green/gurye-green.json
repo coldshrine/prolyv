@@ -1,0 +1,57 @@
+{
+  "slug": "gurye-green",
+  "name_en": "Gurye Green Tea",
+  "name_native": "구례 녹차",
+  "name_romanized": "Gurye nokcha",
+  "name_zh": "求礼绿茶",
+  "name_ru": "Курье нокча",
+  "aliases": [
+    "求禮綠茶",
+    "Hwaeomsa tea",
+    "Jirisan green tea"
+  ],
+  "category": "green",
+  "origin_country": "South Korea",
+  "origin_region": "Jeollanam-do · Gurye",
+  "cultivar": null,
+  "processing": "Little is documented on a local method. As with most Korean leaf tea, it is typically pan-fired, rolled and dried.",
+  "form": "loose",
+  "harvest_season": "Local dates are not well documented. As elsewhere in Korea, spring pickings around grain rain in April are the ones prized.",
+  "appearance_dry": "Typically slim, dark green twisted leaves, as with other Korean pan-fired teas.",
+  "appearance_liquor": "Usually clear pale yellow-green.",
+  "appearance_wet": "Soft green leaves, size depending on the picking.",
+  "taste_profile": "No detailed tasting record exists; as with other Jirisan-area greens, expect a sweet, gently nutty, vegetal cup.",
+  "taste_tags": [
+    "vegetal",
+    "sweet",
+    "nutty"
+  ],
+  "brewing": {
+    "grams": 3,
+    "water_ml": 120,
+    "temp_c": 70,
+    "steeps": 3,
+    "seconds": [
+      60,
+      45,
+      75
+    ],
+    "notes": "Typical of Korean green tea: cooled water and a small pot."
+  },
+  "caffeine_level": "medium",
+  "vintage_note": "Sold as a current-year spring tea, as is usual for Korean green tea, with earlier pickings costing more. Check the harvest year and buy small amounts.",
+  "description": "Gurye sits on the Jeolla side of Jirisan mountain, and its tea story centres on Hwaeomsa temple. Near the temple entrance lies Jangjukjeon, a bamboo grove locals call Jindaebat, promoted as a first planting site for Korean tea.\n\nThat claim is the main thing that sets the area apart. Hadong, over the other side of the mountain, makes the same claim with a monument of its own, and the question is not settled.\n\nLittle is recorded about the taste of Gurye tea specifically. Brew it like other Korean greens, with cooled water, and expect the soft, gently nutty profile typical of Jirisan-area tea.\n\nIt is a small local name. Ask who picked it and in which flush.",
+  "history": "The commonly told account says the envoy Kim Daeryeom brought tea seeds from Tang China in 828 and that they were planted on Jirisan. Gurye holds that one site was Jangjukjeon, while Hadong points to Hwagae near Ssanggyesa temple.\n\nA temple record carries an older tradition, that the monk Yeongi planted tea seeds when founding Hwaeomsa, which is traditionally dated to 544. Treat this as temple tradition rather than established fact.",
+  "liquor_hex": "#D5CF86",
+  "leaf_hex": "#4D5B35",
+  "sources": [
+    "https://www.ktriptips.com/kor/tourspot/3008544",
+    "https://www.jjan.kr/article/20130801478505"
+  ],
+  "confidence": "low",
+  "wikipedia_title": "Korean tea",
+  "wikipedia_scope": "umbrella",
+  "popularity": 2,
+  "images": [],
+  "sources_note": "The Hwaeomsa record and 544 date come from search snippets only."
+}

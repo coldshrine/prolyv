@@ -1,0 +1,51 @@
+{
+  "slug": "shay-bi-l-nanaa",
+  "name_en": "Shay bi-l-Na'naa' (Mint Tea)",
+  "name_native": "شاي بالنعناع",
+  "name_romanized": "šāy bi-l-naʿnāʿ",
+  "aliases": [
+    "Arabic mint tea"
+  ],
+  "category": "black",
+  "origin_country": "Egypt",
+  "origin_region": "Egypt",
+  "cultivar": null,
+  "form": "other",
+  "caffeine_level": "high",
+  "brewing": {
+    "grams": 3,
+    "water_ml": 200,
+    "temp_c": 95,
+    "steeps": 2,
+    "seconds": [
+      180,
+      240
+    ],
+    "notes": "A safe starting point for black tea: Western style, water just off the boil."
+  },
+  "taste_tags": [
+    "herbal"
+  ],
+  "description": "Mint tea as drunk in parts of the Arab world, where it is especially popular.\n\nThis is a way of preparing tea more than a tea you buy under one name, so the recipe and the base tea change from one maker to the next.",
+  "wikipedia_title": null,
+  "wikipedia_scope": "none",
+  "popularity": 1,
+  "name_zh": "阿拉伯薄荷茶",
+  "name_ru": "Шай би-н-наана",
+  "history": "It is a common home remedy for colds, sore throats, sinus congestion and stomach ulcers. Little more is documented.",
+  "liquor_hex": "#B5702C",
+  "leaf_hex": "#3A3A1E",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Arabic_tea"
+  ],
+  "confidence": "low",
+  "images": [],
+  "stub": true,
+  "processing": "Made from a black base tea according to the recipe; the method varies.",
+  "harvest_season": "Not tied to a harvest: it depends on the base tea.",
+  "appearance_dry": "Usually dark twisted leaf, sometimes with golden tips.",
+  "appearance_liquor": "Usually a clear red-brown.",
+  "appearance_wet": "Usually coppery brown leaf.",
+  "taste_profile": "Expect what black teas usually give: malty, sweet and brisk.",
+  "vintage_note": "Not sold by vintage: it is made from whatever base tea the maker keeps, so freshness of the base matters more than the year."
+}

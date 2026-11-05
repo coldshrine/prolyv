@@ -3,24 +3,64 @@
   "name_en": "Yunnan Golden Needle (Jin Zhen)",
   "name_native": "滇红金针",
   "name_romanized": "Diānhóng Jīnzhēn",
-  "aliases": ["Golden Needle", "Jin Zhen", "Dian Hong Jin Zhen", "Yunnan Gold Needle", "Fengqing Golden Needle"],
+  "aliases": [
+    "Golden Needle",
+    "Jin Zhen",
+    "Dian Hong Jin Zhen",
+    "Yunnan Gold Needle",
+    "Fengqing Golden Needle"
+  ],
   "category": "black",
   "origin_country": "China",
   "origin_region": "Yunnan · Lincang · Fengqing",
   "cultivar": "Fengqing large-leaf and other Yunnan big-leaf (assamica) cultivars",
-  "processing": "Fully oxidised bud tea shaped straight: early-spring buds are withered, rolled lightly, then pressed and rolled lengthwise by hand or in a grooved machine so they dry as rigid needles, before oxidation and drying.",
+  "processing": "Fully oxidised bud tea shaped straight: early-spring buds are withered, rolled lightly and oxidised, and at some stage straightened by hand or machine so they dry as rigid needles. The order and method vary by maker.",
   "form": "loose",
   "harvest_season": "Early spring (March to early April); the straight shape needs fat, intact buds, which only the first flush gives.",
   "appearance_dry": "Slim, straight, even golden needles with darker tips, looking almost like a bundle of matches.",
   "appearance_liquor": "Golden-orange, clear and bright.",
   "appearance_wet": "Straight copper-gold buds that stand upright in the cup before softening.",
   "taste_profile": "Honey and caramel first, then sweet potato and malt, with a cleaner, slightly mineral finish than loose Golden Buds and a touch more briskness.",
-  "taste_tags": ["honey", "sweet", "malty", "mineral", "creamy"],
-  "brewing": {"grams": 4, "water_ml": 110, "temp_c": 90, "steeps": 8, "seconds": [10, 12, 15, 20, 25, 35, 50, 70], "notes": "The needles sink slowly, so give the second steep a little longer than expected. A glass pitcher or gaiwan shows the needles standing up. Western-style: 2.5 g per 250 ml, 2.5–3 minutes."},
+  "taste_tags": [
+    "honey",
+    "sweet",
+    "malty",
+    "mineral",
+    "creamy"
+  ],
+  "brewing": {
+    "grams": 4,
+    "water_ml": 110,
+    "temp_c": 90,
+    "steeps": 8,
+    "seconds": [
+      10,
+      12,
+      15,
+      20,
+      25,
+      35,
+      50,
+      70
+    ],
+    "notes": "The needles sink slowly, so give the second steep a little longer than expected. A glass pitcher or gaiwan shows the needles standing up. Western-style: 2.5 g per 250 ml, 2.5–3 minutes."
+  },
   "caffeine_level": "high",
-  "vintage_note": "Sold as the current year's spring harvest, usually with the county named. The compacted needle keeps its fragrance a few months longer than loose Golden Buds, but it is still a drink-within-a-year tea, not one to age.",
-  "description": "Yunnan Golden Needle, Dian Hong Jin Zhen, is the straightened, tidied cousin of Golden Buds: the same early-spring buds from Yunnan's big-leaf bushes, shaped into slim, straight, golden needles instead of being left loose and curly. Most of it comes from Fengqing in Lincang, where the shaping is a point of craft pride.\n\nAfter withering and a light roll, the buds are 'straightened' – pressed and rolled lengthwise, by hand or in a grooved machine, so they dry rigid and uniform – then oxidised and dried. The shaping compacts the bud slightly, which is why Jin Zhen often brews a touch darker and brisker than loose Jin Ya from the same garden, and why it keeps for a few more months without losing its fuzz.\n\nIn the cup it is honey and caramel first, then sweet potato and malt, with a cleaner, slightly more mineral finish than Golden Buds and a lovely golden-orange colour. Keep the water around 90 °C and the first steeps short; the needles sink slowly, so give the second steep a bit longer than you would expect. It is a tea that rewards a glass pitcher: watching the needles stand up is half the fun.\n\nIt is sold by the current spring, usually with the county named. The straight shape makes it easy to judge: needles should be even, plump and gold with a few darker tips, not a mix of gold and broken brown bits. 'Golden Needle' from Guangxi or Sichuan exists and can be fine, just cheaper, and it should be labelled as such.\n\nIf you like it, the Pine Needle style (Song Zhen) is the leafier, more robust version from the same makers.",
+  "vintage_note": "Sold as the current year's spring harvest, usually with the county named. It is a drink-within-a-year tea, not one to age.",
+  "description": "Yunnan Golden Needle, Dian Hong Jin Zhen, is the straightened, tidied cousin of Golden Buds: the same early-spring buds from Yunnan's big-leaf bushes, shaped into slim, straight, golden needles instead of being left loose and curly. Fengqing in Lincang, the home of Dian Hong, is the place most often named for it.\n\nBeyond withering, a light roll, oxidation and drying, the buds are straightened by hand or machine so they dry rigid and uniform; methods vary by maker. Many drinkers find Jin Zhen brews a touch darker and brisker than loose Jin Ya.\n\nIn the cup it is honey and caramel first, then sweet potato and malt, with a cleaner, slightly more mineral finish than Golden Buds and a lovely golden-orange colour. Keep the water around 90 °C and the first steeps short; the needles sink slowly, so give the second steep a bit longer than you would expect. It is a tea that rewards a glass pitcher: watching the needles stand up is half the fun.\n\nIt is sold by the current spring, usually with the county named. The straight shape makes it easy to judge: needles should be even, plump and gold with a few darker tips, not a mix of gold and broken brown bits. 'Golden Needle' from Guangxi or Sichuan exists and can be fine, just cheaper, and it should be labelled as such.\n\nIf you like it, the Pine Needle style (Song Zhen) is the leafier, more robust straight-leaf Dian Hong.",
   "wikipedia_title": "Dianhong",
   "wikipedia_scope": "exact",
-  "popularity": 3
+  "popularity": 3,
+  "name_zh": "滇红金针",
+  "name_ru": "Дянь Хун Цзинь Чжэнь",
+  "history": "Golden Needle belongs to the family of Dian Hong, Yunnan's black tea, which itself is young. Wartime pushed the tea trade to the southwest in 1938, when Feng Shaoqiu set up a Yunnan tea company. The Shunning factory (now Fengqing) followed in March 1939 and trials began there, and the first 15 tonnes went out through Hong Kong to Britain that same year.\n\nThe needle shape came later and its date is not well documented. The Yunnan Academy of Agricultural Sciences tea institute lists Dian Hong Jin Zhen among the new products it developed, which suggests a modern research-era style rather than an old craft. Today the name describes a look, straight golden bud needles, more than one defined recipe.",
+  "liquor_hex": "#C97F2E",
+  "leaf_hex": "#B98A35",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Dianhong",
+    "https://zh.wikipedia.org/wiki/%E6%BB%87%E7%BA%A2",
+    "https://zh.wikipedia.org/wiki/%E4%BA%91%E5%8D%97%E7%9C%81%E5%86%9C%E4%B8%9A%E7%A7%91%E5%AD%A6%E9%99%A2%E8%8C%B6%E5%8F%B6%E7%A0%94%E7%A9%B6%E6%89%80"
+  ],
+  "confidence": "medium",
+  "images": []
 }

@@ -1,0 +1,55 @@
+{
+  "slug": "adrak-wali-chai",
+  "name_en": "Adrak Wali Chai",
+  "name_native": "अदरक वाली चाय",
+  "name_romanized": "Adrak vālī chāy",
+  "name_zh": "印度姜茶",
+  "name_ru": "Адрак вали чай",
+  "aliases": [
+    "Ginger chai",
+    "Indian ginger tea",
+    "Имбирный чай по-индийски"
+  ],
+  "category": "black",
+  "origin_country": "India",
+  "origin_region": "India and Pakistan",
+  "cultivar": null,
+  "processing": "Typically, black tea boiled with fresh ginger in water, then simmered briefly with milk, strained and sweetened.",
+  "form": "other",
+  "harvest_season": "Not relevant to the drink; it is especially associated with winter.",
+  "appearance_dry": "Not sold as a distinct dry tea; everyday chai usually starts from small granular black tea.",
+  "appearance_liquor": "Milky orange-brown, as is typical of boiled chai.",
+  "appearance_wet": "Not applicable: the tea and ginger are strained out.",
+  "taste_profile": "Typically strong, sweet milky tea with the clean heat of fresh ginger at the back of the throat.",
+  "taste_tags": [
+    "spicy",
+    "brisk",
+    "sweet",
+    "creamy"
+  ],
+  "brewing": {
+    "grams": 4,
+    "water_ml": 250,
+    "temp_c": 100,
+    "steeps": 1,
+    "seconds": [
+      300
+    ],
+    "notes": "A typical home method: boil ginger in the water first, add tea and boil until dark, then add milk and simmer briefly."
+  },
+  "caffeine_level": "medium",
+  "vintage_note": "Not sold by year or season: it is made fresh from whatever everyday black tea is at hand. Packaged black tea for chai is simply bought for current use.",
+  "description": "Adrak wali chai simply means tea with ginger. It is the everyday spiced milk tea of India and Pakistan, simpler than a full masala chai because ginger is the only spice that has to be there.\n\nEverything happens in one pan. Ginger boils in water, the tea goes in until the liquid turns dark, and milk joins last for a short simmer. Boiling is what draws out the ginger heat and gives the tea its strength.\n\nIt tastes of strong tea and warm spice, softened by milk and sugar. Too little tea leaves you with sweet ginger milk.\n\nThere is nothing special to buy. A strong, inexpensive black tea works well, and fresh ginger matters more than the brand.\n\nDrink it in cold weather or when you have a cough, which is when people in the region usually reach for it.",
+  "history": "Little is documented about when or where this recipe first took shape. It belongs to ordinary household and street practice in India and Pakistan, not to a named maker, and no reliable date attaches to it.",
+  "liquor_hex": "#B5804E",
+  "leaf_hex": "#3B2619",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Ginger_tea",
+    "https://thebetterindia.com/393519/chai-map-of-india-unique-popular-teas-parsi-choi-ronga-saah-sulaimani-lebu-cha-cutting"
+  ],
+  "confidence": "low",
+  "wikipedia_title": "Ginger tea",
+  "wikipedia_scope": "umbrella",
+  "popularity": 3,
+  "images": []
+}

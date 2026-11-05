@@ -3,7 +3,13 @@
   "name_en": "Mid-Aged Sheng Pu-erh",
   "name_native": "中期生茶",
   "name_romanized": "Zhōngqī Shēngchá",
-  "aliases": ["Zhongqi cha", "Middle-aged sheng", "Semi-aged raw pu-erh", "Mid-aged raw pu-erh", "中期茶"],
+  "aliases": [
+    "Zhongqi cha",
+    "Middle-aged sheng",
+    "Semi-aged raw pu-erh",
+    "Mid-aged raw pu-erh",
+    "中期茶"
+  ],
   "category": "sheng",
   "origin_country": "China",
   "origin_region": "Yunnan",
@@ -15,12 +21,46 @@
   "appearance_liquor": "Orange to amber, deeper the more humid the storage, usually clear and glossy.",
   "appearance_wet": "Supple brown-olive leaves; humid-stored examples are darker and softer, dry-stored ones still show green at the core.",
   "taste_profile": "The bitterness has stepped back and the florals have turned into honey, dried apricot and wood, with a rounder body, less astringency and the first hints of camphor or herbs in humid-stored cakes; somewhere between the brightness of new tea and the depth of old tea.",
-  "taste_tags": ["honey", "dried-fruit", "woody", "sweet"],
-  "brewing": {"grams": 8, "water_ml": 120, "temp_c": 98, "steeps": 11, "seconds": [12, 10, 12, 15, 20, 30, 45, 60, 90, 120, 180], "notes": "Rinse once, or twice for a humid-stored cake, and let the wet leaf sit a minute before the first steep. Full-boil water and a clay pot suit this stage; break the cake into intact layers a week ahead and let it breathe."},
+  "taste_tags": [
+    "honey",
+    "dried-fruit",
+    "woody",
+    "sweet"
+  ],
+  "brewing": {
+    "grams": 8,
+    "water_ml": 120,
+    "temp_c": 98,
+    "steeps": 11,
+    "seconds": [
+      12,
+      10,
+      12,
+      15,
+      20,
+      30,
+      45,
+      60,
+      90,
+      120,
+      180
+    ],
+    "notes": "Rinse once, or twice for a humid-stored cake, and let the wet leaf sit a minute before the first steep. Full-boil water and a clay pot suit this stage; break the cake into intact layers a week ahead and let it breathe."
+  },
   "caffeine_level": "high",
   "vintage_note": "Mid-aged generally means 5–15 years after pressing in Western usage; in the Chinese trade 'zhongqi cha' usually refers to cakes from the 2000s and early 2010s, so today that means production years of roughly 2004–2018. It is sold by brand, production year and batch, and by storage history, with Dongguan and Guangzhou humid-stored stock from the 2007 boom years making up a huge part of the supply and Kunming- or Taiwan-dry examples of the same cakes priced higher for their clarity. The years 3–7 are the famous 'awkward phase' when the florals have gone and the depth has not arrived; 8–15 years is where the category gets interesting and prices start climbing toward 'aged' territory.",
   "description": "Mid-aged sheng is the stretch of a cake's life between the fresh tea you bought and the old tea you hoped it would become, and it is where most ageing actually gets drunk. The Chinese trade has a name for it, zhongqi cha, and a whole secondary market in Guangdong built on cakes from the 2000s that were pressed in huge quantities during the pu-erh boom and have now had a decade or more in warehouses.\n\nNothing is done to the tea; time and the air around it do the work. Over five to fifteen years the green leaf oxidises to brown, bitterness and astringency fall away, and the florals turn into honey, dried fruit and wood. Humid storage in Guangdong or Hong Kong speeds everything up and adds a soft, earthy, camphor direction; dry storage in Kunming or northern Taiwan keeps the cake brighter and slower.\n\nIn the cup a good mid-aged cake is rounder and sweeter than new tea, with dried apricot and honey in front, wood behind and a long smooth finish. It takes boiling water and a clay pot well, and it rewards being broken apart and aired for a few days before brewing. The one thing to know is the 'awkward phase' at roughly three to seven years, when a cake can taste flat and muted; it comes back.\n\nIt is sold by brand, production year, batch and storage story, and the storage is the thing to ask about: 'natural storage' and 'dry storage' are vague terms, a sniff of the cake tells you more. A faint mustiness that blows off after a rinse is normal for Guangdong stock; a sharp mouldy smell is not. The 2003–2008 factory cakes are the classic mid-aged buys, and the big brands' standard recipes are easy to compare across years.\n\nIf you are deciding whether to age tea yourself, buy a mid-aged cake of a recipe you also own young; tasting them together tells you more than any article.",
   "wikipedia_title": "Pu'er tea",
   "wikipedia_scope": "umbrella",
-  "popularity": 3
+  "popularity": 3,
+  "name_zh": "中期生茶",
+  "name_ru": "Чжун Ци Шэн Ча",
+  "history": "Mid-aged sheng is a stage of storage rather than a tea from one place, and the term is trade usage with no fixed definition. Its limits shift with the speaker and the calendar, since a cake moves through the category as it ages.\n\nThe idea is recent, shaped by a market that began to sort raw pu-erh by age and storage as well as by origin. Little is documented about when the term first came into use.",
+  "liquor_hex": "#B9702A",
+  "leaf_hex": "#4A3722",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Pu%27er_tea"
+  ],
+  "confidence": "low",
+  "images": []
 }

@@ -1,0 +1,60 @@
+{
+  "slug": "tuan-cha",
+  "name_en": "Tuan Cha",
+  "name_native": "团茶",
+  "name_romanized": "Tuánchá",
+  "name_zh": "团茶",
+  "name_ru": "Туань Ча",
+  "aliases": [
+    "團茶",
+    "Lump Tea",
+    "Tuancha",
+    "团饼茶",
+    "饼茶",
+    "片茶",
+    "Cake tea"
+  ],
+  "category": "green",
+  "origin_country": "China",
+  "origin_region": "Zhejiang and Fujian · tribute tea sites",
+  "cultivar": null,
+  "processing": "Leaf was steamed, pounded, pressed into a round or square lump or cake and then baked dry.",
+  "form": "cake",
+  "harvest_season": "Not tied to a single season in what is recorded; the historic tribute cakes were made for the court, and little is known of their picking calendars.",
+  "appearance_dry": "Round or square cakes of varying size; Tang cakes were plain or simply patterned, and Song tribute cakes carried elaborate dragon and phoenix designs.",
+  "appearance_liquor": "Not reliably known for the historic cakes; modern steamed and pressed recreations are typically a yellow-green.",
+  "appearance_wet": "Compressed, pounded leaf breaks into fragments rather than opening into whole leaves.",
+  "taste_profile": "No one can taste the Tang and Song originals. Modern re-creations of steamed, pressed green cake are generally vegetal and toasty, but that says little about what the court drank.",
+  "taste_tags": [
+    "vegetal",
+    "roasted"
+  ],
+  "brewing": {
+    "grams": 5,
+    "water_ml": 150,
+    "temp_c": 85,
+    "steeps": 3,
+    "seconds": [
+      30,
+      30,
+      45
+    ],
+    "notes": "Historic cakes were prepared differently from modern leaf tea; this is only a general starting point for a modern re-creation. Break off a small piece and steep it gently."
+  },
+  "caffeine_level": "medium",
+  "vintage_note": "The historic tea is no longer on sale. Production faded after the Ming ban and had nearly stopped in the People's Republic. Anything sold under the name today is a modern product, so ask how it was made rather than trusting the word; it is not the same as modern dark tea cakes.",
+  "description": "Tuan cha, lump or cake tea, is less a single tea than the shape tea took in Tang and Song China. Leaf was pressed into rounds or squares, and this was the prestige form of tea long before loose leaf took over.\n\nThe method was steaming, pounding, pressing and baking. Pounding makes a dense block very unlike today's whole-leaf cakes, and that dense form suited storage and travel as well as lavish decoration.\n\nNo original survives to drink, so taste can only be guessed at. If you come across a modern re-creation, treat it as an experiment: steep a small broken piece gently, and expect a vegetal, toasty cup.\n\nDo not confuse it with pu-erh or other dark tea cakes. Those are pressed too, but what makes them distinctive is post-fermentation, which is not part of the recorded tuan cha method. If you are curious about pressed tea today, drink a good sheng cake next to a Japanese sencha and imagine something in between.",
+  "history": "Cake tea is the tea of the Tang and Song periods. The Gu Zhu tribute tea of the Tang and the Bei Yuan tribute tea of the Song were both made for the imperial household. Song cakes carried complex dragon and phoenix patterns and had names such as Wan Shou Long Ya, and the court often gave them to officials as gifts.\n\nIn 1391, the 24th year of Hongwu, Zhu Yuanzhang of the Ming ordered an end to tribute cakes, and production steadily declined. After the founding of the People's Republic it was for a time almost no longer made.",
+  "liquor_hex": "#C7BE6F",
+  "leaf_hex": "#5D5A35",
+  "sources": [
+    "https://zh.wikipedia.org/wiki/%E5%9B%A2%E8%8C%B6",
+    "https://www.wikidata.org/wiki/Q116471157"
+  ],
+  "confidence": "medium",
+  "wikipedia_title": "团茶",
+  "wikipedia_scope": "exact",
+  "popularity": 2,
+  "images": [],
+  "sources_note": "Category changed from heicha to green: the recorded method has no post-fermentation. Colours are estimates from modern re-creations. Wikipedia title is the Chinese page."
+}

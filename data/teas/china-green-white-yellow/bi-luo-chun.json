@@ -3,24 +3,100 @@
   "name_en": "Bi Luo Chun (Green Snail Spring)",
   "name_native": "碧螺春",
   "name_romanized": "Bìluóchūn",
-  "aliases": ["Biluochun", "Pi Lo Chun", "Dongting Biluochun", "Green Snail Spring", "Green Spiral", "Xia Sha Ren Xiang"],
+  "aliases": [
+    "Biluochun",
+    "Pi Lo Chun",
+    "Dongting Biluochun",
+    "Green Snail Spring",
+    "Green Spiral",
+    "Xia Sha Ren Xiang",
+    "吓煞人香",
+    "嚇煞人香",
+    "Билочунь"
+  ],
   "category": "green",
   "origin_country": "China",
-  "origin_region": "Jiangsu · Suzhou · Dongting Mountains on Lake Tai",
+  "origin_region": "Jiangsu · Suzhou · Dongting Mountains",
   "cultivar": "Dongting local small-leaf landrace (Dongting Qunti)",
   "processing": "Pan-fired green: tiny bud-and-leaf shoots are fired, then rolled and rubbed by hand in the cooling wok so they curl into spirals and the down is raised, and finally dried gently in the same pan; a batch takes well under an hour.",
   "form": "loose",
-  "harvest_season": "Spring only, from roughly mid-March to Grain Rain in late April; the earliest pre-Qingming pickings of one bud and one just-opened leaf are the top grades.",
+  "harvest_season": "Spring only, from around the spring equinox (about 21 March) to Grain Rain around 20 April; the earliest pre-Qingming pickings of one bud and one just-opened leaf are the top grades.",
   "appearance_dry": "Tiny, tightly curled spirals covered in silvery-white down, dark green showing through the fuzz.",
   "appearance_liquor": "Pale green-gold, slightly hazy from the down in the first steep.",
   "appearance_wet": "Minute buds with one small leaf, pale and tender, sinking quickly to the bottom of the glass.",
   "taste_profile": "Fresh and fruity-floral with hints of peach and loquat over a soft, sweet, slightly fuzzy body; brisk but not bitter.",
-  "taste_tags": ["floral", "fruity", "sweet", "vegetal"],
-  "brewing": {"grams": 3, "water_ml": 150, "temp_c": 78, "steeps": 3, "seconds": [40, 45, 70], "notes": "Use the top-down method: fill the glass with 75–80 °C water first, then drop the leaf on the surface and watch it sink. Pouring water onto the leaf scalds the down and turns it bitter."},
+  "taste_tags": [
+    "floral",
+    "fruity",
+    "sweet",
+    "vegetal"
+  ],
+  "brewing": {
+    "grams": 3,
+    "water_ml": 150,
+    "temp_c": 78,
+    "steeps": 3,
+    "seconds": [
+      40,
+      45,
+      70
+    ],
+    "notes": "Use the top-down method: fill the glass with 75–80 °C water first, then drop the leaf on the surface and watch it sink. Pouring water onto the leaf scalds the down and turns it bitter."
+  },
   "caffeine_level": "medium",
-  "vintage_note": "Sold only as the current year's spring harvest, graded by picking date and leaf size: pre-Qingming Dongting lots (sold as special grades 1 and 2) are tiny, downy and expensive; yu qian lots are larger-leafed and better value. Genuine Dongting Biluochun is a protected-origin tea in short supply, while 'Biluochun' from Sichuan, Yunnan, Guizhou and Zhejiang is picked weeks earlier, sold all year and is much cheaper. Keep it cold and sealed; drink within the year.",
-  "description": "Bi Luo Chun comes from the Dongting hills, Dongshan and Xishan, a peninsula and an island on Lake Tai near Suzhou, and it is the small, fuzzy, curly one. The bushes there grow interplanted with loquat, peach, plum and waxberry trees, and the local claim that the fruit blossom perfumes the tea becomes at least half believable once you smell a fresh batch.\n\nIt is picked absurdly small: one bud and a leaf barely unfolded, tens of thousands of shoots to a kilo. The shoots are pan-fired, then rubbed and rolled in the cooling wok by hand until they curl into tight spirals and their white down stands up, and dried in the same pan. The whole thing takes less than an hour, and the maker's hands decide whether it ends up fragrant and intact or broken and dusty.\n\nThe cup is light, fruity and floral (peach, loquat, fresh pea) with a sweet, slightly fuzzy texture and a brisk edge that should never tip into bitterness. It is a three-steep tea. The one rule that matters: pour the water first, then drop the leaf. These shoots are so tender that water poured over them cooks them on contact; dropped into 75–80 °C water they sink slowly and open without bruising.\n\nBuying: the Dongting origin is protected and production is small, so most 'Biluochun' in shops is the same spiral style made elsewhere, usually from larger, fuzzier leaf in Sichuan, Yunnan or Guizhou, picked a month earlier. It can be pleasant, but it is a different tea. Real Dongting leaf is tiny, the down is silvery rather than snow-white, and the first picking is not before mid-March. Ask whether it is from Dongshan or Xishan and when it was picked.\n\nThe older name 'Xia Sha Ren Xiang' ('scary fragrance') and the story of the Kangxi emperor renaming it are legends worth telling at the table, not facts to print on a label.",
+  "vintage_note": "Sold only as the current year's spring harvest, graded by picking date and leaf size: pre-Qingming Dongting lots (sold as special grades 1 and 2) are tiny, downy and expensive; yu qian lots are larger-leafed and better value. Genuine Dongting Biluochun is a protected-origin tea in short supply, while 'Biluochun' from Sichuan, Yunnan, Guizhou and Zhejiang is often picked earlier, sold all year and is much cheaper. Keep it cold and sealed; drink within the year.",
+  "description": "Bi Luo Chun comes from the Dongting hills, Dongshan and Xishan, a peninsula and an island on Lake Tai near Suzhou, and it is the small, fuzzy, curly one. The bushes there grow interplanted with loquat, peach, plum and waxberry trees, and the local claim that the fruit blossom perfumes the tea becomes at least half believable once you smell a fresh batch.\n\nIt is picked absurdly small: one bud and a leaf barely unfolded, a huge number of shoots to every kilo. The shoots are pan-fired, then rubbed and rolled in the cooling wok by hand until they curl into tight spirals and their white down stands up, and dried in the same pan. The whole thing takes less than an hour, and the maker's hands decide whether it ends up fragrant and intact or broken and dusty.\n\nThe cup is light, fruity and floral (peach, loquat, fresh pea) with a sweet, slightly fuzzy texture and a brisk edge that should never tip into bitterness. It is a three-steep tea. The one rule that matters: pour the water first, then drop the leaf. These shoots are so tender that water poured over them cooks them on contact; dropped into 75–80 °C water they sink slowly and open without bruising.\n\nBuying: the Dongting origin is protected and production is small, so most 'Biluochun' in shops is the same spiral style made elsewhere, usually from larger, fuzzier leaf in Sichuan, Yunnan or Guizhou, often picked earlier. It can be pleasant, but it is a different tea. Real Dongting leaf is tiny, the down is silvery rather than snow-white, and picking starts around the spring equinox. Ask whether it is from Dongshan or Xishan and when it was picked.\n\nThe older name 'Xia Sha Ren Xiang' ('scary fragrance') and the story of the Kangxi emperor renaming it are legends worth telling at the table, not facts to print on a label.",
   "wikipedia_title": "Biluochun",
   "wikipedia_scope": "exact",
-  "popularity": 5
+  "popularity": 5,
+  "name_zh": "碧螺春",
+  "name_ru": "Би Ло Чунь",
+  "history": "The tea belongs to the Dongting hills on Lake Tai near Suzhou, the East Mountain and West Mountain, and the story everyone tells is about its name. In the version recorded by the Qing writer Wang Yingkui in Liunan Suibi, wild bushes grew on the rocks of Biluo Peak, and one year a girl with a full basket tucked the extra leaves into her dress. Warmed by her body they gave off such a scent that she cried out 'xia sha ren xiang', roughly 'scary fragrance', and the tea was known by that name.\n\nThe second legend brings in the Kangxi emperor. The usual story says that on his southern tour of 1699 the governor Song Luo offered him the tea, and the emperor, finding the name vulgar, renamed it Bi Luo Chun, after which local officials sent it as tribute each year. Other retellings give a different year. A plainer explanation is that the name simply comes from Biluo Peak itself.\n\nWhat holds up is the place and the method: bushes grown among fruit trees, a one-bud-one-leaf picking between the spring equinox and Grain Rain, and firing, rolling and raising the down in a single pan, still largely by hand. A Ming origin is sometimes claimed but rests on local legend. Today the name has spread to spiral-rolled greens from Zhejiang, Sichuan and even Taiwan, which is why tea people specify Dongting.",
+  "liquor_hex": "#D9DC9A",
+  "leaf_hex": "#6F8560",
+  "sources": [
+    "https://zh.wikipedia.org/wiki/%E7%A2%A7%E8%9E%BA%E6%98%A5",
+    "https://en.wikipedia.org/wiki/Biluochun",
+    "https://ja.wikipedia.org/wiki/%E7%A2%A7%E8%9E%BA%E6%98%A5",
+    "https://ru.wikipedia.org/wiki/%D0%91%D0%B8_%D0%BB%D0%BE_%D1%87%D1%83%D0%BD%D1%8C"
+  ],
+  "confidence": "high",
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/28/Suzhou_Biluochun_%E8%8B%8F%E5%B7%9E%E7%A2%A7%E8%9E%BA%E6%98%A5.jpg/1280px-Suzhou_Biluochun_%E8%8B%8F%E5%B7%9E%E7%A2%A7%E8%9E%BA%E6%98%A5.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/28/Suzhou_Biluochun_%E8%8B%8F%E5%B7%9E%E7%A2%A7%E8%9E%BA%E6%98%A5.jpg/330px-Suzhou_Biluochun_%E8%8B%8F%E5%B7%9E%E7%A2%A7%E8%9E%BA%E6%98%A5.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Suzhou_Biluochun_%E8%8B%8F%E5%B7%9E%E7%A2%A7%E8%9E%BA%E6%98%A5.jpg",
+      "author": "Qirille",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "kind": "dry_leaf",
+      "alt": "Dry Biluochun green tea, small tightly curled green spirals on a white surface"
+    }
+  ],
+  "i18n": {
+    "ru": {
+      "processing": "Зелёный чай котловой обработки: крошечные побеги из почки и листа прогревают, затем руками скручивают и растирают в остывающем котле, чтобы они завились в спирали, а ворс поднялся, и наконец бережно досушивают в том же котле; партия занимает намного меньше часа.",
+      "harvest_season": "Только весной, примерно с весеннего равноденствия (около 21 марта) до Гуюй, около 20 апреля; высшие сорта — самые ранние сборы до Цинмина, почка с одним едва раскрывшимся листом.",
+      "appearance_dry": "Крошечные, плотно завитые спирали в серебристо-белом ворсе, сквозь который просвечивает тёмная зелень.",
+      "appearance_liquor": "Бледный зелено-золотистый, в первом проливе слегка мутноватый от ворса.",
+      "appearance_wet": "Мельчайшие почки с одним маленьким листом, бледные и нежные, быстро опускаются на дно стакана.",
+      "taste_profile": "Свежий, фруктово-цветочный, с оттенками персика и мушмулы поверх мягкого, сладкого, чуть бархатистого тела; бодрый, но не горький.",
+      "vintage_note": "Продаётся только как весенний сбор текущего года, с сортировкой по дате сбора и размеру листа: дунтинские партии до Цинмина (особые сорта 1 и 2) крошечные, ворсистые и дорогие; партии юй цянь крупнее по листу и выгоднее. Настоящий дунтинский Би Ло Чунь — чай с защищённым происхождением, и его мало, а «Би Ло Чунь» из Сычуани, Юньнани, Гуйчжоу и Чжэцзяна часто собирают раньше, продают круглый год и стоит он гораздо дешевле. Храните в холоде и запечатанным, выпейте в течение года.",
+      "history": "Этот чай принадлежит горам Дунтин на озере Тайху близ Сучжоу, Восточной и Западной горам, а история, которую рассказывают все, — про его название. В версии из «Лю нань суй би» цинского автора Ван Инкуя на скалах пика Билофэн росли дикие кусты, и однажды девушка с полной корзиной сунула лишние листья за пазуху. Согретые её телом, они дали такой запах, что она воскликнула «ся ша жэнь сян», примерно «пугающий аромат», и так чай и стали называть.\n\nВторая легенда приводит императора Канси. Обычно рассказывают, что во время его южной поездки 1699 года губернатор Сун Ло поднёс ему этот чай, а император, сочтя название вульгарным, переименовал его в Би Ло Чунь, после чего местные чиновники каждый год отправляли его в дань. В других пересказах год другой. Есть и более простое объяснение: название просто идёт от пика Билофэн.\n\nДостоверны место и метод: кусты, растущие среди фруктовых деревьев, сбор почки с листом между весенним равноденствием и Гуюй, а также прогрев, скручивание и поднятие ворса в одном котле, до сих пор в основном вручную. Иногда заявляют о минском происхождении, но оно держится на местной легенде. Сегодня название распространилось на спиральные зелёные чаи из Чжэцзяна, Сычуани и даже Тайваня, поэтому чайные люди уточняют: Дунтин.",
+      "description": "Би Ло Чунь родом из гор Дунтин, Дуншаня и Сишаня, полуострова и острова на озере Тайху близ Сучжоу, и это тот самый маленький, ворсистый, завитой чай. Кусты там растут вперемежку с мушмулой, персиками, сливами и восковницей, и местное утверждение, будто цветение плодовых деревьев ароматизирует чай, кажется хотя бы наполовину правдоподобным, стоит только понюхать свежую партию.\n\nСобирают его до нелепости мелким: почка и едва развернувшийся лист, огромное число побегов на каждый килограмм. Побеги прогревают в котле, затем руками растирают и скручивают в остывающем котле, пока они не завьются в тугие спирали, а белый ворс не встанет, и сушат там же. Всё занимает меньше часа, и именно от рук зависит, выйдет чай ароматным и целым или ломаным и пыльным.\n\nНастой лёгкий, фруктовый и цветочный (персик, мушмула, свежий горошек), со сладкой, чуть бархатистой текстурой и бодрой ноткой, которая никогда не должна переходить в горечь. Это чай на три пролива. Единственное важное правило: сначала вода, потом лист. Побеги настолько нежные, что вода, налитая на них сверху, сразу их обваривает; брошенные в воду 75–80 °C, они медленно тонут и раскрываются, не повреждаясь.\n\nО покупке: происхождение из Дунтина защищено, а производство невелико, поэтому большая часть «Билочуня» в магазинах — тот же спиральный стиль, сделанный в других местах, обычно из более крупного и ворсистого листа в Сычуани, Юньнани или Гуйчжоу, часто собранного раньше. Он может быть приятным, но это другой чай. Настоящий дунтинский лист крошечный, ворс скорее серебристый, чем белоснежный, а сбор начинается около весеннего равноденствия. Спросите, Дуншань это или Сишань и когда его собрали.\n\nСтарое название «Ся Ша Жэнь Сян» («пугающий аромат») и история о том, как его переименовал император Канси, — легенды, которые хорошо рассказывать за столом, но не факты, которые стоит печатать на этикетке.",
+      "brewing_notes": "Используйте верхний способ: сначала наполните стакан водой 75–80 °C, затем опустите лист на поверхность и смотрите, как он тонет. Вода, налитая на лист, обваривает ворс и делает чай горьким."
+    },
+    "zh": {
+      "processing": "炒青绿茶:细小的芽叶先杀青,再在渐凉的锅中手工揉搓,卷成螺形并搓出茸毛,最后在同一口锅里轻轻烘干;一锅茶远不到一小时。",
+      "harvest_season": "只采春茶,约从春分(3月21日前后)到4月20日前后的谷雨;最早的明前一芽一叶初展是最高等级。",
+      "appearance_dry": "细小紧卷的螺形,披满银白茸毛,毫下透出深绿。",
+      "appearance_liquor": "汤色浅绿泛金,头泡因茸毛略显浑浊。",
+      "appearance_wet": "极细嫩的芽带一片小叶,浅色柔嫩,很快沉到杯底。",
+      "taste_profile": "鲜爽的花果香,带桃子和枇杷的气息,茶汤柔和甘甜,略有毫感;爽利而不苦。",
+      "vintage_note": "只卖当年春茶,按采摘时间和叶片大小分级:洞庭明前茶(特一级、特二级)细小、多毫、价高;雨前茶叶片较大,更实惠。正宗洞庭碧螺春是原产地保护茶,供应稀少,而四川、云南、贵州和浙江的“碧螺春”往往采得更早,全年有售,也便宜得多。请低温密封保存,当年喝完。",
+      "history": "这款茶属于苏州附近太湖边的洞庭山,即东山和西山,而人人都讲的故事,说的是它的名字。清代王应奎《柳南随笔》记载的版本是:碧螺峰的石壁上长着野茶树,有一年一位姑娘茶篓装满了,便把多出来的茶叶揣进怀里。茶叶被体温一暖,香气大发,她不禁喊道“吓煞人香”,这茶便由此得名。\n\n第二个传说请出了康熙皇帝。通常的说法是,1699年康熙南巡时,巡抚宋荦献上此茶,皇帝嫌名字不雅,改名碧螺春,此后地方官每年进贡。其他版本的年份各有不同。更朴素的解释是,这个名字就来自碧螺峰。\n\n站得住脚的是产地和工艺:茶树与果树间作,在春分到谷雨之间采一芽一叶,杀青、揉捻、搓团显毫都在一口锅里完成,至今仍大多靠手工。有时也有始于明代的说法,但依据只是地方传说。如今这个名字已扩展到浙江、四川甚至台湾的螺形绿茶,所以懂茶的人会特别说明“洞庭”。",
+      "description": "碧螺春产自苏州附近太湖的洞庭山,东山是半岛,西山是岛屿,它就是那款细小、多毫、卷曲的茶。那里的茶树与枇杷、桃、李、杨梅间作,当地说果花的香气会沁入茶中,闻一闻新茶,至少能信一半。\n\n它采得小到离谱:一芽加一片刚刚展开的叶,每公斤要用海量芽叶。芽叶先杀青,再在渐凉的锅中手工搓揉,直到卷成紧螺、白毫显露,并在同一口锅里干燥。全程不到一小时,做出来是香气完整,还是碎如粉末,全看那双手。\n\n茶汤清淡,带花果香(桃子、枇杷、鲜豌豆),口感甘甜、略有毫感,有一丝爽利,却绝不该转成苦味。它只有三泡。唯一要紧的规矩是:先注水,后投茶。这些芽叶太嫩,水直接冲上去立刻就烫熟了;投入75–80 °C的水中,它们会慢慢下沉,舒展而不受损。\n\n选购时要知道:洞庭原产地受保护,产量又小,所以店里的“碧螺春”大多是别处做的同样螺形茶,通常来自四川、云南或贵州,叶片更大、茸毛更多,采得也往往更早。它也许不难喝,但已是另一种茶。真正的洞庭茶叶片细小,茸毛是银白而非雪白,采摘约从春分开始。不妨问问是东山还是西山,以及何时采摘。\n\n旧名“吓煞人香”和康熙改名的故事,是适合在茶桌上讲的传说,而不是该印在标签上的事实。",
+      "brewing_notes": "用上投法:先在玻璃杯中注入75–80 °C的水,再把茶叶投到水面,看它慢慢下沉。把水冲到茶叶上会烫伤茸毛,使茶变苦。"
+    }
+  }
 }

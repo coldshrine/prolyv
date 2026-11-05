@@ -1,0 +1,59 @@
+{
+  "slug": "janggun-cha",
+  "name_en": "Janggun-cha (General tea)",
+  "name_native": "장군차",
+  "name_romanized": "Janggun-cha",
+  "name_zh": "将军茶",
+  "name_ru": "Чангун-ча",
+  "aliases": [
+    "將軍茶",
+    "General tea",
+    "Gimhae Janggun tea",
+    "Gimhae tea"
+  ],
+  "category": "green",
+  "origin_country": "South Korea",
+  "origin_region": "South Gyeongsang · Gimhae",
+  "cultivar": "Local large-leaf Gimhae tea plant",
+  "processing": "Made from a large, thick-leaved local plant, sold in both unfermented and fermented forms. Little is documented on the exact method.",
+  "form": "loose",
+  "harvest_season": "Local picking dates are not well documented. As elsewhere in Korea, spring leaf is the usual focus.",
+  "appearance_dry": "Typically larger, darker green leaf than fine Korean small-leaf tea, reflecting its broad, thick leaves.",
+  "appearance_liquor": "Green versions are typically clear yellow-green with a golden tint; fermented versions run darker.",
+  "appearance_wet": "Broad, thick green leaves.",
+  "taste_profile": "Described locally as having a fresh wild-rose scent and a lingering sweet, savoury aftertaste.",
+  "taste_tags": [
+    "floral",
+    "sweet",
+    "umami",
+    "vegetal"
+  ],
+  "brewing": {
+    "grams": 3,
+    "water_ml": 150,
+    "temp_c": 85,
+    "steeps": 3,
+    "seconds": [
+      45,
+      45,
+      75
+    ],
+    "notes": "Gimhae's own guidance allows water up to 100 °C for this thick leaf. Start cooler for the green form, then raise the heat to taste."
+  },
+  "caffeine_level": "medium",
+  "vintage_note": "Sold in current-year green form and in fermented form, so check which you are buying. Green versions should be drunk fresh, as with Korean green tea generally. No system of aged vintages is documented.",
+  "description": "Janggun-cha is the tea of Gimhae, the old Gaya heartland in South Gyeongsang. Its identity comes from a local large-leaf plant with broad, thick leaves, an unusual thing in a country better known for small-leaf bushes.\n\nThe city describes it as made with advanced high-grade techniques and sold in both unfermented and fermented forms.\n\nLocal descriptions give it a wild-rose scent and a sweet, savoury finish. The thicker leaf takes hotter water than most Korean greens, and the city suggests going as high as boiling, though cooler water is a safer start for the green version.\n\nWhen buying, read the label for green or fermented. The name is firmly tied to Gimhae, so an origin elsewhere deserves a question.",
+  "history": "Legend says Princess Heo Hwang-ok brought tea seeds to Gimhae in AD 48 as part of her marriage to King Suro. The city repeats this date, but the marriage itself is not established as history. The Samguk Yusa does record tea in a rite for the Garak royal tombs in 661.\n\nThe name is traced to the Sinjeung Dongguk Yeoji Seungnam, which tells how King Chungnyeol stopped at Geumgangsa temple and called its tea tree a general. In the city's account, wild stands were found by local historians in 1987, and farm cultivation began in 1999, with about 62 hectares now grown by around 40 farms.",
+  "liquor_hex": "#D2C678",
+  "leaf_hex": "#47532F",
+  "sources": [
+    "https://www.gimhae.go.kr/00510/00513/03740.web",
+    "https://www.ajunews.com/view/20180423174623393"
+  ],
+  "confidence": "medium",
+  "wikipedia_title": "Korean tea",
+  "wikipedia_scope": "umbrella",
+  "popularity": 2,
+  "images": [],
+  "sources_note": "The 1990s cultivation date in another source differs from the city's 1999; the city's figure is attributed."
+}

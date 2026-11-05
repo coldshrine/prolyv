@@ -1,0 +1,63 @@
+{
+  "slug": "ginseng-oolong",
+  "name_en": "Ginseng Oolong",
+  "name_native": "人参乌龙",
+  "name_romanized": "Rénshēn Wūlóng",
+  "name_zh": "人参乌龙",
+  "name_ru": "Женьшеневый улун",
+  "aliases": [
+    "Ginseng Oolong Tea",
+    "Женьшень улун",
+    "兰贵人",
+    "Lan Gui Ren",
+    "人參烏龍"
+  ],
+  "category": "oolong",
+  "origin_country": "China",
+  "origin_region": "Fujian",
+  "cultivar": null,
+  "processing": "An ordinary rolled oolong is combined with ginseng or American ginseng, usually as a powder that coats the pellets. The base tea is made as any other oolong would be.",
+  "form": "loose",
+  "harvest_season": "Not tied to a prized season, since the blend is made from whatever base oolong the maker chooses.",
+  "appearance_dry": "Small tight pellets dulled to a grey-green by a dusty coating of ginseng.",
+  "appearance_liquor": "A clear yellow-gold, sometimes slightly cloudy from the powder.",
+  "appearance_wet": "The pellets open into green oolong leaves with little left of the coating.",
+  "taste_profile": "Sweetness and herbal ginseng come first, then a soft creamy oolong, and the sweet finish lingers in the throat.",
+  "taste_tags": [
+    "sweet",
+    "herbal",
+    "creamy",
+    "medicinal"
+  ],
+  "brewing": {
+    "grams": 5,
+    "water_ml": 120,
+    "temp_c": 90,
+    "steeps": 5,
+    "seconds": [
+      20,
+      20,
+      30,
+      45,
+      60
+    ],
+    "notes": "A general starting point for coated oolong. A long rinse would wash away the coating, so keep any rinse very quick."
+  },
+  "caffeine_level": "medium",
+  "vintage_note": "A flavoured blend sold without a meaningful vintage. Buy it fresh and drink it within a year or so, as is usual for lightly oxidised rolled oolong. The harvest of the base tea is seldom stated, so judge it by the shop and the smell.",
+  "description": "Ginseng oolong is a rolled oolong coated in ginseng, which makes it a flavoured tea, not a tea style from one place. It goes by the trade name lan gui ren in Chinese-speaking markets and is sold from Fujian, Taiwan and Vietnam, with Taiwan often claimed as its birthplace.\n\nThe base is an ordinary oolong. Ginseng or American ginseng is then added, most visibly as a powder clinging to the pellets, which gives them their dull, chalky look.\n\nThe first cups are all about the coating: sweetness, a herbal note and something almost medicinal. After a few steeps the ginseng fades and a plain creamy oolong is left. Keep any rinse very short, and use water a little below boiling.\n\nThe base tea is usually modest, and the coating hides a lot, so this is not the place to hunt for terroir. Prefer a seller who says what ginseng is used and whether anything else is added. Treat shop claims about vitamins or energy as sales talk.",
+  "history": "Little is documented about where and when ginseng oolong began. Merchants commonly give Taiwan as its origin, and one seller credits the name lan gui ren to a single firm that brought it to the mainland, though neither claim has independent support.\n\nToday Fujian-made versions are sold alongside Taiwanese ones, and some shops describe the Fujian kind as having a sweeter finish and the Taiwanese a milkier note.",
+  "liquor_hex": "#D2B24E",
+  "leaf_hex": "#6E7A58",
+  "sources": [
+    "https://teahouse.ua/ru/chaj-zhenshen-ulun/",
+    "https://winghopfung.com/products/taiwan-ginseng-oolong-tea-1106-4oz",
+    "https://ratetea.com/styles.php",
+    "https://en.traviet.com/c/tea/"
+  ],
+  "confidence": "low",
+  "wikipedia_title": null,
+  "wikipedia_scope": "none",
+  "popularity": 3,
+  "images": []
+}

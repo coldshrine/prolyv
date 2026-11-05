@@ -1,0 +1,69 @@
+{
+  "slug": "tianmuhu-baicha",
+  "name_en": "Tianmuhu Baicha",
+  "name_native": "天目湖白茶",
+  "name_romanized": "Tiānmùhú Báichá",
+  "name_zh": "天目湖白茶",
+  "name_ru": "Тянь Му Ху Бай Ча",
+  "aliases": [
+    "Tianmu Lake White Tea",
+    "Liyang Baicha",
+    "溧阳白茶"
+  ],
+  "category": "green",
+  "origin_country": "China",
+  "origin_region": "Jiangsu · Liyang",
+  "cultivar": "Albino tea plant introduced from Anji",
+  "processing": "Made as a green tea despite the name: the fresh leaf is heated to stop oxidation, then shaped and dried into slim, slightly flattened strands.",
+  "form": "loose",
+  "harvest_season": "Spring. As with other albino-leaf green teas, the pale young shoots of early spring are the prized picking.",
+  "appearance_dry": "Slender, slightly flattened and gently curved strands, moist green with a golden cast.",
+  "appearance_liquor": "Pale goose-yellow, clear and bright.",
+  "appearance_wet": "Tender jade-white leaves with green veins.",
+  "taste_profile": "Fresh and smooth, with a strong chestnut aroma and a brisk, savoury-sweet finish.",
+  "taste_tags": [
+    "nutty",
+    "umami",
+    "sweet",
+    "vegetal"
+  ],
+  "brewing": {
+    "grams": 3,
+    "water_ml": 150,
+    "temp_c": 80,
+    "steeps": 3,
+    "seconds": [
+      60,
+      80,
+      120
+    ],
+    "notes": "These are usual settings for a delicate spring green tea. Use a glass or an open cup, and keep the water well off the boil so the leaf stays sweet."
+  },
+  "caffeine_level": "medium",
+  "vintage_note": "Like most Chinese green teas, it is normally sold as the current spring harvest and is best drunk within about a year. Earlier spring lots usually cost more. It is not a tea for ageing.",
+  "description": "Tianmuhu Baicha is a green tea from Liyang in southern Jiangsu, named after Tianmu Lake. The word baicha, white tea, describes the pale young leaf of the plant and not the processing, so it belongs with green teas.\n\nThe plant is an albino-leaf type brought in from Anji. The finished tea is slim, long and slightly curved, somewhere between flat and round, which sets it apart from the flat or needle shapes many neighbouring teas take.\n\nIn the cup it is pale yellow with a pronounced chestnut note and a fresh, mellow taste. After brewing, the leaves show a jade-white blade with green veins, so a glass is a good way to serve it. Treat it as you would other delicate spring greens: cooler water, and no long stewing.\n\nThe name is also a registered geographical indication for Liyang, and you may see the broader label Liyang Baicha for the same local tea. Look for the harvest date, because freshness matters most here. If you like it, Anji Bai Cha is the obvious comparison.",
+  "history": "This is a modern tea. A Liyang grower, Yuzhiyuan, was the first to introduce the Anji white tea plant in the 1990s, and planting then spread with local government support, from the area around Nanshan Zhuhai by Tianmu Lake to several other towns in Liyang.\n\nIn 2010 it was registered as an agricultural geographical indication. In 2015 the Ministry of Agriculture named it a national model for such products.",
+  "wikipedia_title": "天目湖白茶",
+  "wikipedia_scope": "exact",
+  "popularity": 3,
+  "liquor_hex": "#E6DC9A",
+  "leaf_hex": "#8C9A55",
+  "sources": [
+    "https://zh.wikipedia.org/wiki/%E5%A4%A9%E7%9B%AE%E6%B9%96%E7%99%BD%E8%8C%B6",
+    "https://www.wikidata.org/wiki/Q65060694",
+    "https://m.maigoo.com/top/432970.html"
+  ],
+  "confidence": "medium",
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/04/%E5%A4%A9%E7%9B%AE%E6%B9%96%E7%99%BD%E8%8C%B6_%E6%BA%A7%E9%98%B3%E7%99%BD%E8%8C%B6.jpg/1280px-%E5%A4%A9%E7%9B%AE%E6%B9%96%E7%99%BD%E8%8C%B6_%E6%BA%A7%E9%98%B3%E7%99%BD%E8%8C%B6.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/04/%E5%A4%A9%E7%9B%AE%E6%B9%96%E7%99%BD%E8%8C%B6_%E6%BA%A7%E9%98%B3%E7%99%BD%E8%8C%B6.jpg/330px-%E5%A4%A9%E7%9B%AE%E6%B9%96%E7%99%BD%E8%8C%B6_%E6%BA%A7%E9%98%B3%E7%99%BD%E8%8C%B6.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source_page": "https://commons.wikimedia.org/wiki/File:%E5%A4%A9%E7%9B%AE%E6%B9%96%E7%99%BD%E8%8C%B6_%E6%BA%A7%E9%98%B3%E7%99%BD%E8%8C%B6.jpg",
+      "author": "Walter Grassroot",
+      "license": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "kind": "dry_leaf",
+      "alt": "Pile of slender, slightly flattened dry Tianmuhu Baicha green tea leaves"
+    }
+  ]
+}

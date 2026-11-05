@@ -1,0 +1,59 @@
+{
+  "slug": "jungno-cha",
+  "name_en": "Jungno-cha",
+  "name_native": "죽로차",
+  "name_romanized": "Jungno-cha",
+  "name_zh": "竹露茶",
+  "name_ru": "Чунно-ча",
+  "aliases": [
+    "Jukro-cha",
+    "Bamboo dew tea",
+    "竹露茶",
+    "Jirisan Jungno-cha"
+  ],
+  "category": "green",
+  "origin_country": "South Korea",
+  "origin_region": "South Gyeongsang · Hadong, Gimhae, Jinju",
+  "cultivar": null,
+  "processing": "A roasted (pan-fired) green tea made from leaves grown among bamboo.",
+  "form": "loose",
+  "harvest_season": "Picking dates are not well documented for this tea. It typically follows the Korean spring flushes, with earlier pickings prized.",
+  "appearance_dry": "Typically slim, dark green twisted leaves, as with other Korean pan-fired teas.",
+  "appearance_liquor": "Usually clear pale yellow-green with a light golden edge.",
+  "appearance_wet": "Soft green leaves, typically small to medium depending on the picking.",
+  "taste_profile": "Few detailed tasting records exist; as with other Korean pan-fired greens, expect a sweet green cup with a light toasted, nutty edge.",
+  "taste_tags": [
+    "vegetal",
+    "nutty",
+    "sweet",
+    "roasted"
+  ],
+  "brewing": {
+    "grams": 3,
+    "water_ml": 120,
+    "temp_c": 70,
+    "steeps": 3,
+    "seconds": [
+      60,
+      45,
+      75
+    ],
+    "notes": "Typical of Korean green tea: cool water and a small pot. Hotter water brings out bitterness."
+  },
+  "caffeine_level": "medium",
+  "vintage_note": "Sold as a current-year spring tea, as is usual for Korean green tea, with flush grades where stated. Check the harvest year and drink it within about a year of picking.",
+  "description": "Jungno-cha, bamboo dew tea, counts among the best known Korean green teas. The name comes from where it grows: tea bushes among bamboo in South Gyeongsang, around Gimhae, Hadong and Jinju.\n\nIt is a pan-fired tea, the mainstream Korean method, so you get the toasted edge that style brings. What the bamboo does to the leaf is a claim easier to repeat than to demonstrate, and little is documented on it.\n\nBrew it like other Korean greens, with cooled water and short steeps. Expect a sweet, gently nutty cup rather than a sharp one.\n\nThe name is more evocative than regulated, as far as is documented. Look for the growing area and picking on the label, and treat the words bamboo dew alone as no proof of quality.",
+  "history": "Written detail on this tea is thin. One local account from Gurye ties the name Jirisan jungno-cha to tea from Jangjukjeon, the bamboo grove near Hwaeomsa temple, which is outside the South Gyeongsang area usually named for it. Modern references simply list it with banya-cha as a renowned Korean tea.",
+  "liquor_hex": "#D6CE84",
+  "leaf_hex": "#4B5A33",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Green_tea",
+    "https://en.wikipedia.org/wiki/Korean_tea",
+    "https://www.ktriptips.com/kor/tourspot/3008544"
+  ],
+  "confidence": "low",
+  "wikipedia_title": "Korean tea",
+  "wikipedia_scope": "umbrella",
+  "popularity": 2,
+  "images": []
+}

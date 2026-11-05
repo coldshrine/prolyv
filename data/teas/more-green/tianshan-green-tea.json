@@ -1,0 +1,52 @@
+{
+  "slug": "tianshan-green-tea",
+  "name_en": "Tianshan Green Tea",
+  "name_native": "天山绿茶",
+  "name_romanized": "Tiānshān Lǜchá",
+  "aliases": [
+    "天山綠茶"
+  ],
+  "category": "green",
+  "origin_country": "China",
+  "origin_region": "Fujian · Ningde",
+  "cultivar": null,
+  "form": "loose",
+  "caffeine_level": "medium",
+  "brewing": {
+    "grams": 3,
+    "water_ml": 150,
+    "temp_c": 80,
+    "steeps": 3,
+    "seconds": [
+      60,
+      75,
+      105
+    ],
+    "notes": "A safe starting point for green tea: cooler water, short steeps, then adjust by taste."
+  },
+  "taste_tags": [
+    "sweet"
+  ],
+  "description": "A green tea from the Tianshan range in eastern Fujian, spanning Ningde, Gutian and Pingnan; Tianshan Maofeng, Tianshan Yinhao and Qingshui green are its best-known types.\n\nTreat it as you would any green tea: cooler water, short steeps, and a seller who can say where and when it was picked.",
+  "wikipedia_title": null,
+  "wikipedia_scope": "none",
+  "popularity": 1,
+  "name_zh": "天山绿茶",
+  "name_ru": "Тянь Шань Люй Ча",
+  "history": "Little is documented about it beyond its range and its types.",
+  "liquor_hex": "#CFD678",
+  "leaf_hex": "#6F8E3E",
+  "sources": [
+    "https://www.maigoo.com/top/430372.html"
+  ],
+  "confidence": "low",
+  "images": [],
+  "stub": true,
+  "processing": "Typical of green tea: picked, heated soon after picking to stop oxidation, then shaped and dried.",
+  "harvest_season": "Usually picked in spring, with the earliest pickings prized, as with most green teas.",
+  "appearance_dry": "Long, fine, even strands of emerald green with visible down.",
+  "appearance_liquor": "Emerald green.",
+  "appearance_wet": "Tender green.",
+  "taste_profile": "Strong, lasting, clear aroma with a sweet aftertaste, and it holds up over several infusions.",
+  "vintage_note": "Green teas like this are normally sold as the current year's harvest and are best within a year of picking. It is not an ageing tea."
+}

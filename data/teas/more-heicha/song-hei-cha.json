@@ -1,0 +1,57 @@
+{
+  "slug": "song-hei-cha",
+  "name_en": "Song Hei Cha",
+  "name_native": "松黑茶",
+  "name_romanized": "Sōng hēichá",
+  "aliases": [
+    "Loose Dark Tea",
+    "鬆黑茶"
+  ],
+  "category": "heicha",
+  "origin_country": "China",
+  "origin_region": "Guangxi",
+  "cultivar": null,
+  "form": "loose",
+  "caffeine_level": "medium",
+  "brewing": {
+    "grams": 6,
+    "water_ml": 120,
+    "temp_c": 100,
+    "steeps": 6,
+    "seconds": [
+      15,
+      15,
+      20,
+      30,
+      45,
+      60
+    ],
+    "notes": "A safe starting point for dark tea: rinse once, boiling water, or simmer it the traditional way."
+  },
+  "taste_tags": [
+    "earthy",
+    "woody"
+  ],
+  "description": "Loose dark tea, a trade name under which Guangxi's Liu Bao is often sold.\n\nTreat it as you would any dark tea: rinse it, use boiling water, and buy from someone who can say who pressed it and when.",
+  "wikipedia_title": null,
+  "wikipedia_scope": "none",
+  "popularity": 1,
+  "name_zh": "松黑茶",
+  "name_ru": "Сун Хэй Ча",
+  "history": null,
+  "liquor_hex": "#6A2F10",
+  "leaf_hex": "#2A1E16",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Fermented_tea"
+  ],
+  "confidence": "low",
+  "images": [],
+  "stub": true,
+  "processing": "Typical of dark tea: green leaf is piled so that microbes ferment it, then dried and often pressed.",
+  "harvest_season": "Often made from coarser, later leaf, as with most dark teas.",
+  "appearance_dry": "Usually dark leaf, loose or pressed into bricks or baskets.",
+  "appearance_liquor": "Usually orange-red to dark brown.",
+  "appearance_wet": "Usually coarse dark leaf with some stem.",
+  "taste_profile": "Expect what dark teas usually give: smooth, woody and earthy.",
+  "vintage_note": "Dark teas are sold by production year and many improve with several years of dry storage."
+}

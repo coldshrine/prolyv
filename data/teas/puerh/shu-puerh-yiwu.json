@@ -3,7 +3,12 @@
   "name_en": "Yiwu Shu Pu-erh",
   "name_native": "易武熟普洱",
   "name_romanized": "Yìwǔ Shú Pǔ'ěr",
-  "aliases": ["Yiwu ripe pu-erh", "Yi Wu shu", "Yiwu shu cha", "易武熟茶"],
+  "aliases": [
+    "Yiwu ripe pu-erh",
+    "Yi Wu shu",
+    "Yiwu shu cha",
+    "易武熟茶"
+  ],
   "category": "shu",
   "origin_country": "China",
   "origin_region": "Yunnan · Xishuangbanna · Mengla · Yiwu",
@@ -15,12 +20,45 @@
   "appearance_liquor": "Bright red-amber to red-brown, very clear.",
   "appearance_wet": "Long, supple, brown-olive leaves with stems, softer than Bulang shu leaf but still intact.",
   "taste_profile": "The gentlest ripe style: honey and dates, a soft creamy body, a faint floral sweetness that recalls the raw tea, little earthiness and no bitterness, with a returning sweetness in the throat and a clean, light finish.",
-  "taste_tags": ["honey", "sweet", "creamy", "dried-fruit"],
-  "brewing": {"grams": 8, "water_ml": 120, "temp_c": 100, "steeps": 10, "seconds": [10, 10, 12, 15, 20, 30, 45, 60, 90, 150], "notes": "Rinse twice with boiling water. Boiling water and short early steeps; porcelain keeps its lightness. Lightly fermented lots improve with a year or two of airing."},
+  "taste_tags": [
+    "honey",
+    "sweet",
+    "creamy",
+    "dried-fruit"
+  ],
+  "brewing": {
+    "grams": 8,
+    "water_ml": 120,
+    "temp_c": 100,
+    "steeps": 10,
+    "seconds": [
+      10,
+      10,
+      12,
+      15,
+      20,
+      30,
+      45,
+      60,
+      90,
+      150
+    ],
+    "notes": "Rinse twice with boiling water. Boiling water and short early steeps; porcelain keeps its lightness. Lightly fermented lots improve with a year or two of airing."
+  },
   "caffeine_level": "medium",
-  "vintage_note": "Sold by production year and, for the better cakes, by village and tree class, as 200–357 g cakes from boutique producers since roughly 2010, when fermenting Yiwu leaf stopped looking like a waste of good raw material; there is no older Yiwu shu to speak of. Lightly fermented lots need 2–3 years to lose their pile note and keep improving for a decade; most on sale is 2015–2025 and Kunming- or Yiwu-dry stored. It is bought for softness and sweetness rather than for depth, and because Yiwu maocha is expensive, cheap 'Yiwu shu' is usually plantation leaf from elsewhere.",
-  "description": "Yiwu shu is ripe pu-erh fermented from the honeyed, gentle leaf of Yiwu, the softest raw-tea origin in Yunnan, and it is the quiet alternative to the dark, heavy ripe teas of Menghai. It is a recent idea: for decades nobody fermented Yiwu leaf because it was worth more as raw tea, and the boutique Yiwu shu cakes that exist mostly date from the 2010s.\n\nProducers who do it usually ferment small batches to a light or medium degree, often off the ground in baskets or boxes, so that the area's sweetness and returning aftertaste survive the pile; a fully fermented Yiwu would taste like any other shu, which would defeat the purpose. The tea is dried, rested and pressed loosely, keeping the long whole leaves Yiwu is known for.\n\nIn the cup it is the gentlest shu there is: honey and dates, a soft creamy body, a floral sweetness that hints at the raw tea it came from, little earthiness, no bitterness and a sweetness that returns in the throat. It is light where Bulang shu is heavy, and it suits people who find ordinary ripe tea muddy. Boiling water, two rinses, short early steeps and porcelain.\n\nIt is sold by production year, village and tree class from boutique makers at prices well above factory ripe, because the maocha is expensive. 'Yiwu shu' at a factory price is a style name on plantation leaf from somewhere cheaper; the long whole leaves, the lightness of the liquor and that returning sweetness are the signs of the real thing. Lightly fermented lots deserve a couple of years before judgement.\n\nDrink it next to a Bulang shu of the same age to see how far the origin survives fermentation; the gap is bigger than most people expect.",
+  "vintage_note": "Sold by production year and, for the better cakes, by village and tree class, mostly as 200–357 g cakes from small producers; most of what is on sale is recent, though older lots such as a 2003 Yiwu ripe brick do turn up. Lightly fermented lots need 2–3 years to lose their pile note and keep improving for a decade; most is Kunming- or Yiwu-dry stored. It is bought for softness and sweetness rather than for depth, and because Yiwu maocha is expensive, cheap 'Yiwu shu' is often plantation leaf from elsewhere.",
+  "description": "Yiwu shu is ripe pu-erh fermented from the honeyed, gentle leaf of Yiwu, the softest raw-tea origin in Yunnan, and it is the quiet alternative to the dark, heavy ripe teas of Menghai. It is an uncommon idea: Yiwu leaf has generally been worth more as raw tea, so few makers fermented it, and most Yiwu shu cakes you will meet are recent, although older lots do exist.\n\nProducers who do it usually ferment small batches to a light or medium degree, sometimes off the ground in baskets or boxes, so that the area's sweetness and returning aftertaste survive the pile; a fully fermented Yiwu would taste like any other shu, which would defeat the purpose. The tea is dried, rested and pressed loosely, keeping the long whole leaves Yiwu is known for.\n\nIn the cup it is the gentlest shu there is: honey and dates, a soft creamy body, a floral sweetness that hints at the raw tea it came from, little earthiness, no bitterness and a sweetness that returns in the throat. It is light where Bulang shu is heavy, and it suits people who find ordinary ripe tea muddy. Boiling water, two rinses, short early steeps and porcelain.\n\nIt is sold by production year, village and tree class from boutique makers at prices well above factory ripe, because the maocha is expensive. 'Yiwu shu' at a factory price is often a style name on plantation leaf from somewhere cheaper; the long whole leaves, the lightness of the liquor and that returning sweetness are the signs of the real thing. Lightly fermented lots deserve a couple of years before judgement.\n\nDrink it next to a Bulang shu of the same age to see how far the origin survives fermentation; the gap is bigger than most people expect.",
   "wikipedia_title": "Pu'er tea",
   "wikipedia_scope": "umbrella",
-  "popularity": 2
+  "popularity": 2,
+  "name_zh": "易武熟普洱",
+  "name_ru": "И У Шу Пуэр",
+  "history": "Yiwu, in Mengla county in Xishuangbanna, is one of the old tea mountains of Yunnan and is known above all for raw tea. Ripe tea from its leaf is a side branch of that story, and little is documented about when or by whom it was first made. Pile fermentation grew up as a factory method, and Yiwu leaf has generally fetched more as raw tea, which is the usual explanation for why so few makers fermented it.\n\nThe name is mostly a label on individual products rather than a defined style with a history of its own. Most cakes seen today are recent small-maker lots, but it is not strictly a new idea: a 2003 Yiwu ripe brick is on the market, for one. How much of what is sold really comes from Yiwu is hard to check from the wrapper.",
+  "liquor_hex": "#8A3B18",
+  "leaf_hex": "#4A2F1C",
+  "sources": [
+    "https://winghopfung.com/products/yunnan-yiwu-2003-fermented-puer-brick-tea"
+  ],
+  "confidence": "low",
+  "images": []
 }

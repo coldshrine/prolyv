@@ -1,0 +1,57 @@
+{
+  "slug": "mimasaka-nikkan-bancha",
+  "name_en": "Mimasaka Nikkan Bancha",
+  "name_native": "美作の日干番茶",
+  "name_romanized": "Mimasaka Nikkan Bancha",
+  "name_zh": "美作日晒番茶",
+  "name_ru": "Мимасака никкан бантя",
+  "aliases": [
+    "Mimasaka Bancha",
+    "Sakushu Bancha",
+    "作州番茶",
+    "美作番茶"
+  ],
+  "category": "green",
+  "origin_country": "Japan",
+  "origin_region": "Okayama · Mimasaka",
+  "cultivar": null,
+  "processing": "Leaves grown on into summer are cut with their twigs, boiled in a large cauldron, then dried in the sun while the cooking liquid is poured back over them several times, which coats the leaf.",
+  "form": "loose",
+  "harvest_season": "Summer: the leaf is left to grow on, and the main work starts once the rainy season has ended.",
+  "appearance_dry": "Coarse leaves mixed with twig, with a glossy amber sheen from the repeated coating of cooking liquid.",
+  "appearance_liquor": "Typically a clear amber-brown, as expected from a sun-dried, boiled bancha.",
+  "appearance_wet": "Large, mature brown-green leaves and pieces of twig, as is usual for a bancha cut with its stems.",
+  "taste_profile": "Toasty and gentle, with little of the sharpness of a young green tea.",
+  "taste_tags": [
+    "roasted",
+    "sweet",
+    "woody"
+  ],
+  "brewing": {
+    "grams": 6,
+    "water_ml": 500,
+    "temp_c": 100,
+    "steeps": 2,
+    "seconds": [
+      300,
+      480
+    ],
+    "notes": "Boiling water and a long steep suit coarse country bancha like this; many households simmer such teas briefly in a kettle instead. Measures are a general starting point for the class."
+  },
+  "caffeine_level": "low",
+  "vintage_note": "Made once a year in summer and sold as the year's batch, usually in simple bags by the producer. Like other coarse bancha it is an everyday tea, not sold by vintage, and is best drunk within a year or so.",
+  "description": "This is a farmhouse tea from the hills of northeastern Okayama, centred on the 海田 district of Mimasaka. The thing that sets it apart is that it is boiled first and sun-dried afterwards, a method that is rare in Japan today.\n\nSummer leaf is cut with its twigs and cooked in a big cauldron. It then goes out into the sun, and as it dries the maker keeps pouring the cooking liquid back over it. That liquid dries onto the leaf and gives it a glossy amber look.\n\nThe cup is described as toasty and gentle. Treat it as you would other coarse bancha: boiling water, a generous steep, no fuss. There is little point in brewing it cool or short, because mature leaf and twig need heat to give anything up.\n\nWhen buying, look for the words 美作番茶 or 作州番茶 and a named local maker. Little is documented about grades, so judge it by the look of the leaf: the amber sheen is the sign of the traditional method.",
+  "history": "Tea in this part of Okayama is recorded as starting in 1862, with techniques learned from Uji, and some of the crop later went for export. The boiled and sun-dried bancha is described locally as an old tradition of the 海田 district, but no firm date for it is recorded.\n\nA popular local story says the swordsman Miyamoto Musashi grew up drinking it. That is a legend, not history.",
+  "liquor_hex": "#B9792F",
+  "leaf_hex": "#8A5F2C",
+  "sources": [
+    "https://www.okayama-kanko.jp/mimasaka/feature/mimasakabancha",
+    "https://www.okayama-kanko.jp/spot/detail_101556.html",
+    "https://ja.wikipedia.org/wiki/%E6%97%A5%E6%9C%AC%E8%8C%B6"
+  ],
+  "confidence": "medium",
+  "wikipedia_title": "日本茶",
+  "wikipedia_scope": "umbrella",
+  "popularity": 2,
+  "images": []
+}

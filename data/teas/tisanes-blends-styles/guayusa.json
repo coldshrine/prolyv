@@ -1,12 +1,20 @@
 {
   "slug": "guayusa",
   "name_en": "Guayusa",
-  "name_native": "Guayusa (Kichwa: wayusa)",
+  "name_native": "Guayusa (Kichwa: waisa)",
   "name_romanized": null,
-  "aliases": ["Wayusa", "Huayusa", "Ilex guayusa", "Amazon holly tea"],
+  "aliases": [
+    "Wayusa",
+    "Waisa",
+    "Huayusa",
+    "Ilex guayusa",
+    "Amazon holly tea",
+    "Wayus",
+    "Wais"
+  ],
   "category": "tisane",
   "origin_country": "Ecuador",
-  "origin_region": "Amazon basin · Napo and Pastaza provinces (also Peru and Colombia)",
+  "origin_region": "Napo",
   "cultivar": "Ilex guayusa (a holly related to yerba mate)",
   "processing": "Leaves are hand-picked from trees grown in forest gardens (chakras), withered briefly, then dried with warm air or in the sun; some producers lightly toast the leaf. Sold as cut leaf, whole dried leaves, or in tea bags.",
   "form": "loose",
@@ -15,12 +23,60 @@
   "appearance_liquor": "Clear golden-amber to light greenish-brown.",
   "appearance_wet": "Thick, rubbery whole leaves that barely soften, smelling of hay and green beans.",
   "taste_profile": "Smooth and mildly sweet, with hay, green beans and a soft earthy base; much less bitter than yerba mate and with almost no astringency, so long steeps stay drinkable.",
-  "taste_tags": ["sweet", "grassy", "earthy", "herbal"],
-  "brewing": {"grams": 4, "water_ml": 250, "temp_c": 95, "steeps": 2, "seconds": [360, 480], "notes": "Just-off-the-boil water, 5–7 minutes; it does not turn bitter, so a second long steep or a 15-minute pot simmer (the traditional way, in a large pot before dawn) both work. Cold brew is clean and sweet."},
+  "taste_tags": [
+    "sweet",
+    "grassy",
+    "earthy",
+    "herbal"
+  ],
+  "brewing": {
+    "grams": 4,
+    "water_ml": 250,
+    "temp_c": 95,
+    "steeps": 2,
+    "seconds": [
+      360,
+      480
+    ],
+    "notes": "Just-off-the-boil water, 5–7 minutes; it does not turn bitter, so a second long steep or a 15-minute pot simmer (the traditional way, in a large pot before dawn) both work. Cold brew is clean and sweet."
+  },
   "caffeine_level": "medium",
   "vintage_note": "Sold year-round with no harvest date, since the trees are picked continuously; packs carry a best-before of around two years and usually state organic or fair-trade certification and whether the leaf is whole, cut or bagged. Export guayusa only appeared in quantity in the 2010s, so most of what you see is from a handful of Ecuadorian cooperatives and brands. Freshly dried leaf is greener and sweeter; a brown, dusty cut is old stock.",
-  "description": "Guayusa is the caffeinated holly of the Ecuadorian Amazon, a cousin of yerba mate that the Kichwa people have long brewed in big pots before dawn and drunk together while planning the day. Outside Ecuador it was almost unknown until the 2010s, when it started appearing as loose leaf, tea bags and canned energy drinks.\n\nThe leaves are picked from trees grown in mixed forest gardens rather than plantations, then simply dried; there is no oxidation or long resting stage as with mate. That is why guayusa tastes so different from its relative: no smoke, little bitterness, just a smooth hay-sweet cup with a noticeable caffeine lift. The leaf is thick and leathery, so it gives up its flavour slowly and never turns harsh.\n\nBrew it like a forgiving black tea, hot water and five to seven minutes, and expect something between a mild green tea and a sweet herbal infusion, with an earthy base. The traditional preparation is a long boil in a pot, which produces a darker, stronger drink; a cold brew gives a clean iced tea that needs no sugar. The main thing people get wrong is under-brewing it because they fear bitterness that never comes.\n\nThere is nothing to know about vintages: trees are picked all year and the leaf is sold with a simple best-before. Look for cut or whole leaf that is still olive-green rather than brown, and for the producer or cooperative named on the pack.\n\nIt is the easiest entry to the caffeinated South American hollies: try it before yerba mate if bitterness puts you off, or after mate if you want the same lift with a gentler cup.",
+  "description": "Guayusa is the caffeinated holly of the Ecuadorian Amazon, a cousin of yerba mate that the Kichwa people have long boiled in big pots and drunk together from gourds over stories and dream-telling. Outside Ecuador it was almost unknown until the 2010s, when it started appearing as loose leaf, tea bags and canned energy drinks.\n\nThe leaves are picked from trees grown in mixed forest gardens rather than plantations, then simply dried; there is no oxidation or long resting stage as with mate. That is why guayusa tastes so different from its relative: no smoke, little bitterness, just a smooth hay-sweet cup with a noticeable caffeine lift. The leaf is thick and leathery, so it gives up its flavour slowly and never turns harsh.\n\nBrew it like a forgiving black tea, hot water and five to seven minutes, and expect something between a mild green tea and a sweet herbal infusion, with an earthy base. The traditional preparation is a long boil in a pot, which produces a darker, stronger drink; a cold brew gives a clean iced tea that needs no sugar. The main thing people get wrong is under-brewing it because they fear bitterness that never comes.\n\nThere is nothing to know about vintages: trees are picked all year and the leaf is sold with a simple best-before. Look for cut or whole leaf that is still olive-green rather than brown, and for the producer or cooperative named on the pack.\n\nIt is the easiest entry to the caffeinated South American hollies: try it before yerba mate if bitterness puts you off, or after mate if you want the same lift with a gentler cup.",
   "wikipedia_title": "Ilex guayusa",
   "wikipedia_scope": "exact",
-  "popularity": 2
+  "popularity": 2,
+  "name_zh": "瓜尤萨茶",
+  "name_ru": "Гуаюса",
+  "history": "Guayusa is known almost only as a cultivated tree, mainly in the Ecuadorian provinces of Napo and Pastaza. The oldest trace is a bundle of leaves about 1,500 years old from a medicine man's tomb in the Bolivian Andes, far outside the plant's natural range. In 1683 Father Juan Lorenzo Lucero reported daily drinking among Jivaroan peoples, and in the 18th century missionaries wrote about it while Jesuits traded it. In 1857 Richard Spruce found a grove near Baños, said to have been planted before Columbus.\n\nIts uses vary by people. The Kichwa grow it in chakras and boil it in a pot, drinking from gourds over stories and dream interpretation, while Jivaroan peoples and the Awajún drink it in large amounts in pre-dawn ceremonies that include vomiting.\n\nExport is recent. Runa, founded in 2008 by two Brown University graduates, began selling bagged guayusa in the eastern United States in October 2010, processing it at Archidona in Ecuador.",
+  "liquor_hex": "#C2A04E",
+  "leaf_hex": "#5A6638",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Ilex_guayusa",
+    "https://en.wikipedia.org/wiki/Runa_LLC",
+    "https://ru.wikipedia.org/wiki/Ilex_guayusa"
+  ],
+  "confidence": "medium",
+  "images": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/4/4d/Hoja_de_Ilex_guayusa.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4d/Hoja_de_Ilex_guayusa.jpg/330px-Hoja_de_Ilex_guayusa.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Hoja_de_Ilex_guayusa.jpg",
+      "author": "Pisofrix",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "kind": "plant",
+      "alt": "Single broad green guayusa leaf with toothed edge and prominent veins"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/de/Guayusa_Bl%C3%A4tter.jpg/1280px-Guayusa_Bl%C3%A4tter.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/de/Guayusa_Bl%C3%A4tter.jpg/330px-Guayusa_Bl%C3%A4tter.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Guayusa_Bl%C3%A4tter.jpg",
+      "author": "S.Freidank",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "kind": "plant",
+      "alt": "Leafy branch of a guayusa plant against forest greenery"
+    }
+  ]
 }

@@ -1,0 +1,51 @@
+{
+  "slug": "tra-bac",
+  "name_en": "Trà Bắc",
+  "name_native": "Trà Bắc",
+  "name_romanized": null,
+  "aliases": [],
+  "category": "green",
+  "origin_country": "Vietnam",
+  "origin_region": "Vietnam",
+  "cultivar": null,
+  "form": "loose",
+  "caffeine_level": "medium",
+  "brewing": {
+    "grams": 3,
+    "water_ml": 150,
+    "temp_c": 80,
+    "steeps": 3,
+    "seconds": [
+      60,
+      75,
+      105
+    ],
+    "notes": "A safe starting point for green tea: cooler water, short steeps, then adjust by taste."
+  },
+  "taste_tags": [
+    "brisk",
+    "sweet"
+  ],
+  "description": "The common Vietnamese name for pan-dried green tea, the standard drink for receiving guests and for ceremonies.\n\nTreat it as you would any green tea: cooler water, short steeps, and a seller who can say where and when it was picked.",
+  "wikipedia_title": null,
+  "wikipedia_scope": "none",
+  "popularity": 1,
+  "name_zh": "越南北茶",
+  "name_ru": "Ча Бак",
+  "history": "Connoisseurs tend to favour hook-shaped leaves and a green-gold liquor that is astringent first and sweet afterwards. Little more is documented about it.",
+  "liquor_hex": "#D9CF70",
+  "leaf_hex": "#5F6E34",
+  "sources": [
+    "https://vi.wikipedia.org/wiki/Trà"
+  ],
+  "confidence": "low",
+  "images": [],
+  "stub": true,
+  "processing": "Pan-dried.",
+  "harvest_season": "Usually picked in spring, with the earliest pickings prized, as with most green teas.",
+  "appearance_dry": "Connoisseurs favour hook-shaped leaves.",
+  "appearance_liquor": "Green-gold.",
+  "appearance_wet": "Usually soft green leaf that opens up in the water.",
+  "taste_profile": "Astringent at first, with a sweet finish.",
+  "vintage_note": "Green teas like this are normally sold as the current year's harvest and are best within a year of picking. It is not an ageing tea."
+}

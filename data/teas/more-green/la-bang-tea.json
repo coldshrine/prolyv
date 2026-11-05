@@ -1,0 +1,61 @@
+{
+  "slug": "la-bang-tea",
+  "name_en": "La Bằng Tea",
+  "name_native": "Chè La Bằng",
+  "name_romanized": "La Bằng",
+  "name_zh": "越南太原绿茶",
+  "name_ru": "Ла Банг",
+  "aliases": [
+    "La Bang tea",
+    "Chè La Bằng",
+    "Trà La Bằng"
+  ],
+  "category": "green",
+  "origin_country": "Vietnam",
+  "origin_region": "Thái Nguyên · Đại Từ · La Bằng",
+  "cultivar": null,
+  "processing": "Pan-fired green tea in the Thái Nguyên manner: fresh shoots are heated, rolled and dried into curled leaf. The best known styles are tôm nõn, from young shoots, and móc câu, the hook shape.",
+  "form": "loose",
+  "harvest_season": "Exact calendars are not well recorded. As elsewhere in Thái Nguyên, tea is picked over a long season from spring into autumn.",
+  "appearance_dry": "Typically small, dark green curled hooks, as with other Thái Nguyên móc câu; tôm nõn is made of finer young shoots.",
+  "appearance_liquor": "Typically clear yellow-green.",
+  "appearance_wet": "Typically small, tender green shoots.",
+  "taste_profile": "Few tasting notes are specific to La Bằng; expect the green, slightly nutty body and bracing edge with a sweet finish typical of Thái Nguyên teas.",
+  "taste_tags": [
+    "vegetal",
+    "nutty",
+    "brisk",
+    "sweet"
+  ],
+  "brewing": {
+    "grams": 5,
+    "water_ml": 150,
+    "temp_c": 80,
+    "steeps": 4,
+    "seconds": [
+      25,
+      20,
+      30,
+      45
+    ],
+    "notes": "General advice for Thái Nguyên hook-shaped greens: keep the water below boiling and the first steeps short, since these teas turn bitter quickly."
+  },
+  "caffeine_level": "medium",
+  "vintage_note": "Sold as current-season green tea, usually in cooperative packs with no vintage, as is usual for Vietnamese greens. Styles matter more than years: tôm nõn and móc câu are the names to look for. Drink it within a year.",
+  "description": "La Bằng is a commune in Đại Từ district of Thái Nguyên, Vietnam's best-known tea province, and it is counted alongside Tân Cương, Trại Cài and Khe Cốc among the province's specialty tea areas. The commune has more than 1,100 hectares of tea, at the foot of the Tam Đảo range.\n\nThe two styles most often named are tôm nõn and móc câu. Both are curled, pan-fired greens of the Thái Nguyên type; the difference shows mostly in how young the picking is and in the shape.\n\nLittle is written about its flavour on its own, so go by what is typical of the province: a green, slightly nutty cup with a bracing edge and a sweet finish. The usual error is boiling water and a long steep, which brings out the bitterness. Start cool and short.\n\nThe local cooperative's tôm nõn and móc câu carry a four-star OCOP rating, and that label is the easiest way to know you have tea from here. The village also runs homestays and tea-picking visits, should you ever want to taste it where it is made.",
+  "history": "La Bằng tea is described as part of a long local tea culture, but little is documented about when growing began or how the craft village formed.\n\nThe recent record is clearer. The tea has been recognised as a model rural industrial product, and the cooperative's tea was chosen as a gift for the 2017 APEC summit in Da Nang. Community tourism built around picking and pan-firing tea has grown alongside it.",
+  "liquor_hex": "#CBC46E",
+  "leaf_hex": "#37452A",
+  "sources": [
+    "https://vjol.info.vn/tnu/article/view/80834",
+    "https://vnbusiness.vn/chia-khoa-giup-che-la-bang-mo-cua-thi-truong.html",
+    "https://doanhnghiephoinhap.vn/xa-la-bang-dai-tu-thai-nguyen-tiem-nang-du-lich-lang-nghe-va-sinh-thai.html",
+    "https://baovanhoa.vn/du-lich/la-bang-thuc-giac-cung-du-lich-xanh-duoi-chan-tam-dao-232002.html"
+  ],
+  "confidence": "medium",
+  "wikipedia_title": "Vietnamese tea",
+  "wikipedia_scope": "umbrella",
+  "popularity": 2,
+  "images": [],
+  "sources_note": "name_zh is descriptive. Taste and leaf appearance are typical of Thái Nguyên teas. Facts come from search snippets, not read in full."
+}

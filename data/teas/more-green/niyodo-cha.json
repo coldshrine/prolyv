@@ -1,0 +1,58 @@
+{
+  "slug": "niyodo-cha",
+  "name_en": "Niyodo-cha",
+  "name_native": "仁淀茶",
+  "name_romanized": "Niyodo-cha",
+  "name_zh": "仁淀茶",
+  "name_ru": "Ниёдо-тя",
+  "aliases": [
+    "Niyodo tea",
+    "Niyodogawa tea",
+    "仁淀川茶",
+    "によど茶"
+  ],
+  "category": "green",
+  "origin_country": "Japan",
+  "origin_region": "Kochi · Niyodogawa",
+  "cultivar": null,
+  "processing": "Little is recorded specifically; typical of Kochi mountain green tea, it is mostly steamed sencha.",
+  "form": "loose",
+  "harvest_season": "Spring first flush is the most valued, as with other Japanese sencha; local dates are not well documented.",
+  "appearance_dry": "As is usual for sencha, dark green needles.",
+  "appearance_liquor": "Clear yellow-green, typical of mountain sencha.",
+  "appearance_wet": "Soft green leaf pieces, like other sencha.",
+  "taste_profile": "Few specific tasting notes exist for this name; sencha from the Niyodo valley is generally sold on fragrance from mist and cool nights.",
+  "taste_tags": [
+    "vegetal",
+    "floral",
+    "umami"
+  ],
+  "brewing": {
+    "grams": 5,
+    "water_ml": 150,
+    "temp_c": 70,
+    "steeps": 3,
+    "seconds": [
+      60,
+      15,
+      30
+    ],
+    "notes": "General sencha approach: cool water, small pot, short second steep."
+  },
+  "caffeine_level": "medium",
+  "vintage_note": "Usual for Japanese green tea: sold by the current year's harvest, with spring first flush at the top. It is a small local name, so stock can be limited, and it is not for ageing.",
+  "description": "Niyodo-cha is tea from the Niyodo district of Niyodogawa town, in the Kochi mountains along the Niyodo River. It sits inside the broader Tosa-cha family and is a very local name.\n\nThe town is about nine-tenths forest, formed in 2005 by merging Ikegawa, Agawa and Niyodo. Neighbouring tea from the same river system is praised for spring mist and strong day-night temperature swings, conditions that are likely to apply here too.\n\nLittle is written about the taste of this particular name. Brew it as sencha and judge the pack in front of you: a good lot should be fragrant, not just green.\n\nNames overlap on the shelf, so look for Niyodogawa-cha as well, and for the better-known Ikegawa and Sawatari producer groups in the same town if this one proves hard to find.",
+  "history": "Little is documented about when tea growing began in the Niyodo district or who developed it. Tea from the river basin as a whole is recorded as part of Kochi's mountain production, and producer groups in today's Niyodogawa town remain active, some running cafes to raise awareness of local tea.",
+  "liquor_hex": "#CFD080",
+  "leaf_hex": "#486632",
+  "sources": [
+    "https://ja.wikipedia.org/wiki/%E6%97%A5%E6%9C%AC%E8%8C%B6",
+    "https://www.maff.go.jp/chushi/nousei/kochi/toukei/attach/pdf/bunseki-4.pdf",
+    "https://yunomi.life/ja/products/ikegawa-tea-farm-coop-first-flush-sencha-kiri-no-zei"
+  ],
+  "confidence": "low",
+  "wikipedia_title": "日本茶",
+  "wikipedia_scope": "umbrella",
+  "popularity": 2,
+  "images": []
+}

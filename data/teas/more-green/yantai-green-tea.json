@@ -1,0 +1,50 @@
+{
+  "slug": "yantai-green-tea",
+  "name_en": "Yantai Green Tea",
+  "name_native": "烟台绿茶",
+  "name_romanized": "Yāntái Lǜchá",
+  "aliases": [],
+  "category": "green",
+  "origin_country": "China",
+  "origin_region": "Shandong · Yantai",
+  "cultivar": null,
+  "form": "loose",
+  "caffeine_level": "medium",
+  "brewing": {
+    "grams": 3,
+    "water_ml": 150,
+    "temp_c": 80,
+    "steeps": 3,
+    "seconds": [
+      60,
+      75,
+      105
+    ],
+    "notes": "A safe starting point for green tea: cooler water, short steeps, then adjust by taste."
+  },
+  "taste_tags": [
+    "sweet"
+  ],
+  "description": "A green tea from Yantai in Shandong, a national geographical indication made in flat, curled and needle shapes.\n\nTreat it as you would any green tea: cooler water, short steeps, and a seller who can say where and when it was picked.",
+  "wikipedia_title": null,
+  "wikipedia_scope": "none",
+  "popularity": 1,
+  "name_zh": "烟台绿茶",
+  "name_ru": "Янь Тай Люй Ча",
+  "history": "It is counted among Shandong's ten famous teas. Little is documented about how it developed.",
+  "liquor_hex": "#CFD678",
+  "leaf_hex": "#6F8A3E",
+  "sources": [
+    "https://www.maigoo.com/top/423316.html"
+  ],
+  "confidence": "medium",
+  "images": [],
+  "stub": true,
+  "processing": "Typical of green tea: picked, heated soon after picking to stop oxidation, then shaped and dried.",
+  "harvest_season": "Usually picked in spring, with the earliest pickings prized, as with most green teas.",
+  "appearance_dry": "Flat tea is straight, smooth and emerald; curled tea is tight and grey-green with a frosty bloom; needle tea is fine, round, straight and green.",
+  "appearance_liquor": "Clear, bright green.",
+  "appearance_wet": "Even and tender, thick in the curled style and plump in the needle style.",
+  "taste_profile": "Flat tea has a lasting aroma and a mellow body; curled tea is rich with a sweet return; needle tea is clean and gentle.",
+  "vintage_note": "Green teas like this are normally sold as the current year's harvest and are best within a year of picking. It is not an ageing tea."
+}

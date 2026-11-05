@@ -3,10 +3,18 @@
   "name_en": "Gu Zhu Zi Sun (Purple Bamboo Shoot)",
   "name_native": "顾渚紫笋",
   "name_romanized": "Gùzhǔ Zǐsǔn",
-  "aliases": ["Guzhu Zisun", "Purple Bamboo Shoot tea", "Zi Sun Cha", "Changxing Zisun", "Huzhou Zisun"],
+  "aliases": [
+    "Guzhu Zisun",
+    "Purple Bamboo Shoot tea",
+    "Zi Sun Cha",
+    "Changxing Zisun",
+    "Huzhou Zisun",
+    "顧渚紫筍",
+    "紫笋茶"
+  ],
   "category": "green",
   "origin_country": "China",
-  "origin_region": "Zhejiang · Huzhou · Changxing county · Guzhu Mountain",
+  "origin_region": "Zhejiang · Huzhou · Changxing",
   "cultivar": "Guzhu local landrace, including bushes with purplish buds",
   "processing": "Baked green: shoots are fired, lightly rolled and shaped into a slight curve, then dried gently with warm air so the colour and down are preserved.",
   "form": "loose",
@@ -15,13 +23,42 @@
   "appearance_liquor": "Pale, clear green-gold.",
   "appearance_wet": "Tender, even bud-and-leaf sets, bright green with hints of purple on some buds.",
   "taste_profile": "Fresh orchid and sweet pea with a light, clean body and a cool, lasting sweetness; gentle and bright.",
-  "taste_tags": ["floral", "sweet", "vegetal", "umami"],
-  "brewing": {"grams": 3, "water_ml": 150, "temp_c": 80, "steeps": 3, "seconds": [45, 45, 75], "notes": "Glass or gaiwan at 80 °C, light dose. A delicate tea, best within a few months of harvest."},
+  "taste_tags": [
+    "floral",
+    "sweet",
+    "vegetal",
+    "umami"
+  ],
+  "brewing": {
+    "grams": 3,
+    "water_ml": 150,
+    "temp_c": 80,
+    "steeps": 3,
+    "seconds": [
+      45,
+      45,
+      75
+    ],
+    "notes": "Glass or gaiwan at 80 °C, light dose. A delicate tea, best within a few months of harvest."
+  },
   "caffeine_level": "medium",
   "vintage_note": "Sold as the current year's spring harvest in pre-Qingming and yu qian grades, mostly within Zhejiang and Jiangsu; the Changxing origin is protected, and the Tang tribute story drives a lot of gift packaging. Drink within the year, kept cold and sealed.",
-  "description": "Gu Zhu Zi Sun, 'purple bamboo shoot of Guzhu', is a bud tea from Guzhu Mountain in Changxing, on the Zhejiang side of Lake Tai, with the best-documented pedigree of any Chinese green: Lu Yu wrote about the tea here in the eighth century, and the Tang court set up its first imperial tea workshop on this mountain to make the tribute cakes. The name came from the purplish tint on the new buds, which Lu Yu rated above green ones. That tea was a steamed, pressed cake; the modern Zi Sun is a loose, baked green, revived in the 1970s.\n\nToday's version is made gently: fired, lightly rolled into a slight curve, dried with warm air, with the aim of keeping the down and the bright colour. Some of the old landrace bushes still throw purplish buds, and a good lot shows that faint tint at the tips.\n\nIn the cup it is bright and gentle: fresh orchid and sweet pea on a light, clean body, with a cool sweetness that lasts. It is a three-steep glass tea at 80 °C with a light dose, and it is at its best in the first couple of months after harvest; it fades sooner than sturdier greens.\n\nIt is sold as the current spring's harvest in pre-Qingming and yu qian lots, mostly within Zhejiang and Jiangsu, and the tribute story means a lot of it comes in elaborate boxes. The Changxing origin is protected; neighbouring Yixing in Jiangsu makes a related tea under its own name. Buy for the leaf, not the box, and look for even, downy, purple-tinged shoots.\n\nThe site of the Tang tribute tea workshop and the spring Lu Yu drank from are both on the mountain and open to visitors; it is one of the few places where the history of Chinese tea is literally on the ground.",
+  "description": "Gu Zhu Zi Sun, 'purple bamboo shoot of Guzhu', is a bud tea from Guzhu Mountain in Changxing, on the Zhejiang side of Lake Tai, with one of the best-documented pedigrees of any Chinese green: Lu Yu wrote about the tea here in the eighth century, and the Tang court set up its first imperial tea workshop on this mountain to make the tribute cakes. The name came from the purplish tint on the new buds, which Lu Yu rated above green ones. That tea was a steamed, pressed cake; the modern Zi Sun is a loose, baked green, a modern revival.\n\nToday's version is made gently: fired, lightly rolled into a slight curve, dried with warm air, with the aim of keeping the down and the bright colour. Some of the old landrace bushes still throw purplish buds, and a good lot shows that faint tint at the tips.\n\nIn the cup it is bright and gentle: fresh orchid and sweet pea on a light, clean body, with a cool sweetness that lasts. It is a three-steep glass tea at 80 °C with a light dose, and it is at its best in the first couple of months after harvest; it fades sooner than sturdier greens.\n\nIt is sold as the current spring's harvest in pre-Qingming and yu qian lots, mostly within Zhejiang and Jiangsu, and the tribute story means a lot of it comes in elaborate boxes. The Changxing origin is protected; neighbouring Yixing in Jiangsu makes a related tea under its own name. Buy for the leaf, not the box, and look for even, downy, purple-tinged shoots.\n\nThe site of the Tang tribute tea workshop survives on the mountain, one of the few places where the history of Chinese tea is literally on the ground.",
   "wikipedia_title": "Green tea",
   "wikipedia_scope": "umbrella",
   "popularity": 2,
-  "sources_note": "No dedicated English Wikipedia article found. The Tang tribute-workshop history is well documented in Chinese sources; the 1970s revival date follows the usual account."
+  "sources_note": "No dedicated English Wikipedia article found. The Tang tribute-workshop history is well documented in Chinese sources; the 1970s revival date follows the usual account.",
+  "name_zh": "顾渚紫笋",
+  "name_ru": "Гу Чжу Цзы Сунь",
+  "history": "Gu Zhu Zi Sun belongs to Guzhu Mountain in Changxing, on the Zhejiang shore of Lake Tai, and it was already famous in the Tang dynasty. Li Zhao's Tang Guoshi Bu names the Zisun of Guzhu in Huzhou among the celebrated teas of the empire, and Lu Yu worked on these hills while writing about tea. The name describes the leaf: purple-tinted buds folded together like a bamboo shoot.\n\nIn 770 a tribute workshop was set up on the mountain, generally counted as the first in China, and each year cake tea was made before Qingming and sent to Chang'an. Accounts disagree on when the tribute ended, so treat any exact closing date with care.\n\nToday's loose baked green is a different thing from those cakes. The making of Zisun is now on China's national intangible heritage list.",
+  "liquor_hex": "#DAD78F",
+  "leaf_hex": "#77884A",
+  "sources": [
+    "https://zh.wikipedia.org/wiki/%E7%B4%AB%E7%AC%8B%E8%8C%B6",
+    "https://zh.wikipedia.org/wiki/%E9%95%BF%E5%85%B4%E5%8E%BF",
+    "https://tidenews.com.cn/news.html?id=3078733",
+    "https://www.ihchina.cn/search_result/keyword/%E9%95%BF%E5%85%B4%E5%8E%BF/p/2.html"
+  ],
+  "confidence": "medium",
+  "images": []
 }

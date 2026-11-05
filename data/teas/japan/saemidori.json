@@ -3,10 +3,15 @@
   "name_en": "Saemidori Sencha",
   "name_native": "さえみどり",
   "name_romanized": "Saemidori",
-  "aliases": ["Saemidori cultivar", "Sae Midori", "Saemidori single cultivar", "Saemidori green tea"],
+  "aliases": [
+    "Saemidori cultivar",
+    "Sae Midori",
+    "Saemidori single cultivar",
+    "Saemidori green tea"
+  ],
   "category": "green",
   "origin_country": "Japan",
-  "origin_region": "Kagoshima; Fukuoka · Yame; Saga; Miyazaki",
+  "origin_region": "Kagoshima",
   "cultivar": "Saemidori",
   "processing": "Usually made as sencha (often deep-steamed in Kagoshima), and widely used for gyokuro, kabusecha and tencha; a light final firing keeps its sweetness.",
   "form": "loose",
@@ -15,12 +20,61 @@
   "appearance_liquor": "Vivid, clear light green with a sheen; deeper and greener than most sencha.",
   "appearance_wet": "Small, tender, bright green leaves.",
   "taste_profile": "Sweet, smooth and rich in umami with very low astringency, a fresh, almost melon-like aroma and a clean finish; it tastes shaded even when it is not.",
-  "taste_tags": ["sweet", "umami", "vegetal", "creamy", "fruity"],
-  "brewing": {"grams": 5, "water_ml": 150, "temp_c": 70, "steeps": 3, "seconds": [60, 15, 45], "notes": "Keep the water cool (65–70 °C) to make the most of the sweetness; it has little bitterness to worry about and gives a lovely cold brew."},
+  "taste_tags": [
+    "sweet",
+    "umami",
+    "vegetal",
+    "creamy",
+    "fruity"
+  ],
+  "brewing": {
+    "grams": 5,
+    "water_ml": 150,
+    "temp_c": 70,
+    "steeps": 3,
+    "seconds": [
+      60,
+      15,
+      45
+    ],
+    "notes": "Keep the water cool (65–70 °C) to make the most of the sweetness; it has little bitterness to worry about and gives a lovely cold brew."
+  },
   "caffeine_level": "medium",
   "vintage_note": "Sold as a single-cultivar lot of the current year's first flush, often among the first shincha of the season from Kagoshima in April and from Yame slightly later; it also appears as the named cultivar in gyokuro and competition-grade teas. It carries a premium over Yabukita. Finish within the year, sealed and cold.",
-  "description": "Saemidori is the modern star among Japanese tea cultivars: a cross of Yabukita and Asatsuyu bred at the national tea research station in Kagoshima and registered in 1990, which kept Yabukita's vigour and took Asatsuyu's sweetness and vivid colour. The name means something like 'clear green', and that is what you get, a bright, sweet, umami-rich tea with almost no astringency, which tastes shaded even when it was not.\n\nIt buds early, about a week before Yabukita, which makes it a favourite for the first shincha of the year in Kagoshima and Yame and also leaves it vulnerable to late frost, one reason it is grown mainly in the warm south. It is made as sencha (often deep-steamed in Kagoshima), and it is the leading cultivar for Yame gyokuro and for a good deal of kabusecha and tencha, because its low catechin content responds so well to shading.\n\nBrew it cool, 65–70 °C, 5 g for 150 ml and a minute, and it gives a vivid, clear green cup that is sweet, smooth and thick with umami, with a fresh melon-like aroma and a clean finish; hotter water does not ruin it, it simply gives you a slightly brisker tea with less of the sweetness. Cold-brewed it is one of the best teas in Japan.\n\nIt is sold as a labelled single-cultivar sencha of the current year's first flush, and it carries a premium over Yabukita; it also appears by name in gyokuro and competition-grade teas from Yame and Kagoshima. Shincha lots arrive from mid-April in Kagoshima. Store it like sencha and finish it within the year.\n\nTaste it next to its parent Asatsuyu and next to Yabukita, and you can see what the breeders were aiming for.",
+  "description": "Saemidori is the modern star among Japanese tea cultivars: a cross of Yabukita and Asatsuyu registered in 1990, which kept Yabukita's vigour and took Asatsuyu's sweetness and vivid colour. The name means something like 'clear green', and that is what you get, a bright, sweet, umami-rich tea with almost no astringency, which tastes shaded even when it was not.\n\nIt buds early, 4 to 7 days before Yabukita, which makes it a favourite for the first shincha of the year in Kagoshima and Yame and also leaves it vulnerable to late frost, one reason it is grown mainly in the warm south. It is made as sencha (often deep-steamed in Kagoshima), and it is also used for gyokuro, where its high amino-acid content is an asset.\n\nBrew it cool, 65–70 °C, 5 g for 150 ml and a minute, and it gives a vivid, clear green cup that is sweet, smooth and thick with umami, with a fresh melon-like aroma and a clean finish; hotter water does not ruin it, it simply gives you a slightly brisker tea with less of the sweetness. Cold-brewed it is one of the best teas in Japan.\n\nIt is sold as a labelled single-cultivar sencha of the current year's first flush, and it carries a premium over Yabukita; it also appears by name in gyokuro and competition-grade teas from Yame and Kagoshima. Shincha lots arrive from mid-April in Kagoshima. Store it like sencha and finish it within the year.\n\nTaste it next to its parent Asatsuyu and next to Yabukita, and you can see what the breeders were aiming for.",
   "wikipedia_title": "Japanese tea",
   "wikipedia_scope": "umbrella",
-  "popularity": 3
+  "popularity": 3,
+  "name_zh": "冴绿",
+  "name_ru": "Саэмидори",
+  "history": "Saemidori comes from a 1969 cross of Asatsuyu and Yabukita and registered only in 1990 as cultivar number 40. The name is given as clear green.\n\nIt was intended for sencha and has since moved into deep-steamed tea and gyokuro as well. It can be picked 4 to 7 days before Yabukita but suffers from frost and recovers poorly, so it is grown mainly in Kyushu, Kagoshima above all.",
+  "liquor_hex": "#A8CC58",
+  "leaf_hex": "#3F7A35",
+  "sources": [
+    "https://myjapanesegreentea.com/the-saemidori-tea-cultivar",
+    "https://www.pref.kumamoto.jp/uploaded/attachment/5451.pdf"
+  ],
+  "confidence": "medium",
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a6/2017_Kagoshima_sencha.jpg/1280px-2017_Kagoshima_sencha.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a6/2017_Kagoshima_sencha.jpg/330px-2017_Kagoshima_sencha.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source_page": "https://commons.wikimedia.org/wiki/File:2017_Kagoshima_sencha.jpg",
+      "author": "Difference engine",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "kind": "dry_leaf",
+      "alt": "Pile of deep green, needle-shaped Sae Midori sencha leaves from Kagoshima on a white background"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/31/2017_Kagoshima_sencha_-_second_infusion.jpg/1280px-2017_Kagoshima_sencha_-_second_infusion.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/31/2017_Kagoshima_sencha_-_second_infusion.jpg/330px-2017_Kagoshima_sencha_-_second_infusion.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source_page": "https://commons.wikimedia.org/wiki/File:2017_Kagoshima_sencha_-_second_infusion.jpg",
+      "author": "Difference engine",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "kind": "liquor",
+      "alt": "Vivid yellow-green Kagoshima Sae Midori sencha infusion in a white bowl on a wooden table"
+    }
+  ]
 }

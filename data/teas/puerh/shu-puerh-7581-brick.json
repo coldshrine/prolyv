@@ -3,10 +3,17 @@
   "name_en": "7581 Shu Brick (Kunming Tea Factory)",
   "name_native": "7581熟砖",
   "name_romanized": "Qī Wǔ Bā Yī Shúzhuān",
-  "aliases": ["7581", "Kunming 7581", "Zhong Cha 7581", "CNNP 7581 brick", "7581 ripe brick", "中茶7581"],
+  "aliases": [
+    "7581",
+    "Kunming 7581",
+    "Zhong Cha 7581",
+    "CNNP 7581 brick",
+    "7581 ripe brick",
+    "中茶7581"
+  ],
   "category": "shu",
   "origin_country": "China",
-  "origin_region": "Yunnan · Kunming (leaf from Lincang, Pu'er and Xishuangbanna)",
+  "origin_region": "Yunnan · Kunming",
   "cultivar": "Blended Yunnan large-leaf plantation leaf from several prefectures",
   "processing": "Sun-dried maocha is wet-piled to a moderate rather than full degree of fermentation, dried, blended around coarse grade-8 leaf with a share of less-fermented leaf, then steamed and pressed into a 250 g rectangular brick.",
   "form": "brick",
@@ -15,13 +22,47 @@
   "appearance_liquor": "Red-brown and clear, a shade lighter and brighter than a fully fermented cake.",
   "appearance_wet": "Coarse brown leaves and stems with occasional olive-brown pieces that show the lighter fermentation.",
   "taste_profile": "Drier and woodier than a Menghai ripe: dates and dark wood, a faint tart, almost raw-tea edge, light camphor, a medium body and a clean dry finish; with fifteen years it turns smooth and herbal.",
-  "taste_tags": ["woody", "dried-fruit", "camphor", "tart", "earthy"],
-  "brewing": {"grams": 8, "water_ml": 120, "temp_c": 100, "steeps": 10, "seconds": [12, 10, 12, 15, 20, 30, 45, 60, 90, 150], "notes": "Rinse twice with boiling water; bricks are dense, so break them along the layers and give the first proper steep a little extra time. Boiling water and a clay pot suit it."},
+  "taste_tags": [
+    "woody",
+    "dried-fruit",
+    "camphor",
+    "tart",
+    "earthy"
+  ],
+  "brewing": {
+    "grams": 8,
+    "water_ml": 120,
+    "temp_c": 100,
+    "steeps": 10,
+    "seconds": [
+      12,
+      10,
+      12,
+      15,
+      20,
+      30,
+      45,
+      60,
+      90,
+      150
+    ],
+    "notes": "Rinse twice with boiling water; bricks are dense, so break them along the layers and give the first proper steep a little extra time. Boiling water and a clay pot suit it."
+  },
   "caffeine_level": "medium",
   "vintage_note": "Sold by production year under the Zhong Cha (China Tea) label, and the year is complicated: the Kunming Tea Factory made the brick from the 1970s until it closed in the 1990s, other plants pressed 7581 under the same label in the interim, and the re-established Kunming factory has made it again since 2006, so a '7581' can be any of these. Young bricks (1–5 years) are cheap and a little rough; 8–15-year-old bricks are the pleasant everyday aged ripe, and 1980s–1990s Kunming bricks are the collector's classic, with heavy counterfeiting. Guangdong or Hong Kong storage softens the brick's dry edge; Kunming-dry examples stay woody and tart for longer.",
-  "description": "7581 is the brick-shaped twin of 7572: the standard ripe pu-erh of the Kunming Tea Factory, with the code reading 75 for the recipe year, 8 for the leaf grade and 1 for the Kunming plant. Kunming is where the wet-piling method was worked out in the mid-1970s, and the 7581 brick is the oldest continuously named ripe tea there is.\n\nIt is made from coarse, stemmy grade-8 maocha blended from several prefectures and fermented to a moderate degree, so the brick traditionally carries a share of lighter, less-fermented leaf; that gives it a drier, woodier, slightly tart character than a fully fermented Menghai cake, and a reputation for ageing in a more interesting direction. The tea is steamed and pressed into a flat 250 g brick.\n\nIn the cup a 7581 with some age is dates and dark wood with a light camphor note and a dry, clean finish, less creamy than 7572 and a touch sharper; fifteen or twenty years of humid storage turn it smooth and herbal, which is why 1990s bricks are so loved. Boiling water, two rinses and a clay pot; break it along the layers rather than chipping it.\n\nIt is sold by production year under the Zhong Cha label, and the history is messy: the original factory stopped in the 1990s, the brick was pressed elsewhere under the same name, and the revived Kunming factory has made it since 2006. New bricks are cheap and honest everyday tea; old Kunming bricks are expensive and very widely faked, so buy old ones only with provenance. Anything described as a 1980s brick at a bargain price is a 2000s brick with a story.\n\nDrink a young 7581 next to a young 7572 to understand how fermentation degree and leaf grade shape ripe tea; the pair costs very little.",
+  "description": "7581 is the brick-shaped twin of 7572: the standard ripe pu-erh of the Kunming Tea Factory, with the code reading 75 for the recipe year, 8 for the leaf grade and 1 for the Kunming plant. Kunming is where the wet-piling method was worked out in the 1970s, and the 7581 brick is one of the oldest named ripe teas still in production.\n\nIt is made from coarse, stemmy grade-8 maocha blended from several prefectures and fermented to a moderate degree, so the brick traditionally carries a share of lighter, less-fermented leaf; that gives it a drier, woodier, slightly tart character than a fully fermented Menghai cake, and a reputation for ageing in a more interesting direction. The tea is steamed and pressed into a flat 250 g brick.\n\nIn the cup a 7581 with some age is dates and dark wood with a light camphor note and a dry, clean finish, less creamy than 7572 and a touch sharper; fifteen or twenty years of humid storage turn it smooth and herbal, which is why 1990s bricks are so loved. Boiling water, two rinses and a clay pot; break it along the layers rather than chipping it.\n\nIt is sold by production year under the Zhong Cha label, and the history is messy: the original factory stopped in the 1990s, the brick was pressed elsewhere under the same name, and the revived Kunming factory has made it since 2006. New bricks are cheap and honest everyday tea; old Kunming bricks are expensive and very widely faked, so buy old ones only with provenance. Anything described as a 1980s brick at a bargain price is a 2000s brick with a story.\n\nDrink a young 7581 next to a young 7572 to understand how fermentation degree and leaf grade shape ripe tea; the pair costs very little.",
   "wikipedia_title": "Pu'er tea",
   "wikipedia_scope": "umbrella",
   "popularity": 3,
-  "sources_note": "The closure of the original Kunming Tea Factory in the 1990s and its re-establishment in 2006 under China Tea (Zhong Cha) are from company history; the exact closure year varies by source (often given as 1994)."
+  "sources_note": "The closure of the original Kunming Tea Factory in the 1990s and its re-establishment in 2006 under China Tea (Zhong Cha) are from company history; the exact closure year varies by source (often given as 1994).",
+  "name_zh": "7581熟砖",
+  "name_ru": "Шу Пуэр 7581 (кирпич)",
+  "history": "7581 is a recipe number associated with the Kunming Tea Factory, the plant linked with the early development of wet-piled ripe pu-erh. By the usual reading of these codes, the digits give the recipe year, the leaf grade and the factory.\n\nThe brick's production history is tangled. The name has passed through the original factory, other plants and a later revived Kunming operation, all under the Zhong Cha label, so the number alone says little about who made a given brick. Exact dates vary in the telling, and old examples are widely faked.",
+  "liquor_hex": "#5A2612",
+  "leaf_hex": "#3A2616",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Pu%27er_tea"
+  ],
+  "confidence": "low",
+  "images": []
 }

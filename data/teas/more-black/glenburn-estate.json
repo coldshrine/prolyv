@@ -1,0 +1,53 @@
+{
+  "slug": "glenburn-estate",
+  "name_en": "Glenburn",
+  "name_native": null,
+  "name_romanized": null,
+  "name_zh": "格伦伯恩茶园红茶",
+  "name_ru": "Гленберн",
+  "aliases": [
+    "Glenburn Tea Estate",
+    "Glenburn Darjeeling"
+  ],
+  "category": "black",
+  "origin_country": "India",
+  "origin_region": "West Bengal · Darjeeling",
+  "cultivar": null,
+  "processing": "Mostly made as black tea, with other styles also produced. As is usual in Darjeeling, the leaf is withered, rolled, oxidised and dried, with oxidation lighter in spring than later in the year.",
+  "form": "loose",
+  "harvest_season": "As across Darjeeling, spring first flush, early-summer second flush and autumnal pickings; the estate's own lots are sold by flush.",
+  "appearance_dry": "Typical of Darjeeling whole-leaf black tea: wiry mixed leaf, greener in spring and darker brown in summer.",
+  "appearance_liquor": "Usually pale gold in spring lots and amber to copper in second flush and autumn lots.",
+  "appearance_wet": "Mixed green and coppery leaf, the brown share growing with later flushes.",
+  "taste_profile": "No single house taste is well documented. Expect the Darjeeling range: floral and brisk in spring, rounder and fruity in summer, mellow and woody in autumn.",
+  "taste_tags": [
+    "floral",
+    "fruity",
+    "brisk"
+  ],
+  "brewing": {
+    "grams": 3,
+    "water_ml": 250,
+    "temp_c": 90,
+    "steeps": 2,
+    "seconds": [
+      180,
+      240
+    ],
+    "notes": "Western style. Use cooler water and a shorter steep for first flush, closer to boiling for second flush and autumn lots."
+  },
+  "caffeine_level": "medium",
+  "vintage_note": "Sold as a named estate tea by flush and year, as with other Darjeeling gardens. Spring lots are best bought and drunk within about a year; second flush and autumn lots hold a little longer. Look for the flush and harvest year on the label rather than just the garden name.",
+  "description": "Glenburn is a Darjeeling garden in the Rangli Rangliot block, and what stands out on the map is how low it reaches: the estate runs from about 1,000 to 3,000 feet, well under the heights many people picture for Darjeeling. Its 750 hectares include a 350-hectare reserve forest, Simbong, and the Rangeet and Rungdung rivers run through or near the land.\n\nIt specialises in black tea, though it makes other kinds too. The usual Darjeeling method applies: withering, rolling, oxidising and drying, with the seasons changing the result more than any one step.\n\nLittle has been written about a fixed Glenburn taste, so judge each lot by its flush. As with Darjeeling generally, spring teas lean floral and sharp, while summer and autumn lots lean fruitier and softer. Brew spring leaf gently, since it turns astringent quickly in very hot water.\n\nWhen buying, ask for the flush and year, because a garden name alone tells you little about what is in the bag. Comparing a spring and a summer lot from the same garden is the quickest way to learn what the seasons do.",
+  "history": "Glenburn was established in 1859 by a Scottish tea company and has been run for four generations by the Prakash family of Kolkata.\n\nThe original planters' bungalow, the Burra Bungalow, was restored in 2001 and now hosts visitors, joined in 2008 by a second one, the Water Lily Bungalow.",
+  "liquor_hex": "#C98F3A",
+  "leaf_hex": "#5F5238",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Glenburn_Tea_Estate"
+  ],
+  "confidence": "medium",
+  "wikipedia_title": "Glenburn Tea Estate",
+  "wikipedia_scope": "exact",
+  "popularity": 3,
+  "images": []
+}

@@ -1,0 +1,56 @@
+{
+  "slug": "xishui-black-tea",
+  "name_en": "Xishui Black Tea",
+  "name_native": "习水红茶",
+  "name_romanized": "Xíshuǐ Hóngchá",
+  "aliases": [
+    "Xishuihongcha",
+    "習水紅茶"
+  ],
+  "category": "black",
+  "origin_country": "China",
+  "origin_region": "Guizhou · Xishui",
+  "cultivar": null,
+  "form": "loose",
+  "caffeine_level": "high",
+  "brewing": {
+    "grams": 3,
+    "water_ml": 200,
+    "temp_c": 95,
+    "steeps": 2,
+    "seconds": [
+      180,
+      240
+    ],
+    "notes": "A safe starting point for black tea: Western style, water just off the boil."
+  },
+  "taste_tags": [
+    "floral",
+    "fruity",
+    "honey",
+    "sweet"
+  ],
+  "description": "A geographical-indication black tea from Xishui county in Zunyi, Guizhou, where the Dalou mountains drop to the edge of the Sichuan basin.\n\nTreat it as you would any black tea: water just off the boil, a few minutes in the pot, and a seller who can say where it was grown.",
+  "wikipedia_title": null,
+  "wikipedia_scope": "none",
+  "popularity": 1,
+  "name_zh": "习水红茶",
+  "name_ru": "Си Шуй Хун Ча",
+  "history": "China's former quality inspection authority granted it geographical-indication protection in May 2017, covering the whole county. Little is documented about its earlier history.",
+  "liquor_hex": "#A8431C",
+  "leaf_hex": "#3A2A1E",
+  "sources": [
+    "https://milulu.com.cn/techan/17377.html",
+    "https://www.gzstv.com/a/c4d926044c5a4da6b22ac758139bcbc2"
+  ],
+  "confidence": "medium",
+  "images": [],
+  "stub": true,
+  "processing": "Typical of black tea: withered, rolled, fully oxidised and dried.",
+  "harvest_season": "Picked through the growing season, as with most black teas.",
+  "appearance_dry": "Fine, tight, slightly curled leaves with visible tips, oily black.",
+  "appearance_liquor": "Bright red.",
+  "appearance_wet": "Even, bright red and intact.",
+  "taste_profile": "Mellow with a sweet return, stands up to repeated steeping, with a rich floral-fruit or floral-honey aroma.",
+  "vintage_note": "Black teas are normally sold by harvest year and are best within a couple of years."
+}

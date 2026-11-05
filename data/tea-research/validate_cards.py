@@ -39,12 +39,26 @@ for f in files:
     if c.get('confidence') and c['confidence'] not in ('high', 'medium', 'low'): probs.append('bad confidence')
     if extended and not c.get('sources') and c.get('confidence') == 'low':
         probs = [p for p in probs if p != 'missing sources']
+    if c.get('stub'):
+        probs = [p for p in probs if p != 'missing history']
+    region = c.get('origin_region') or ''
+    if len(region) > 60 or ';' in region:
+        probs.append('origin_region must be a short place name, under 60 characters, no sentences')
     texts = [c.get(k) or '' for k in ('history', 'description', 'processing', 'harvest_season', 'appearance_dry', 'appearance_liquor', 'appearance_wet', 'taste_profile', 'vintage_note')]
     process = PROCESS.search(' '.join(texts))
     if process:
         probs.append(f'reader text mentions our research process: "{process.group(0)}"; say what is or is not documented instead')
     for u in c.get('sources') or []:
         if not str(u).startswith('http'): probs.append('bad source ' + str(u)[:40])
+    i18n = c.get('i18n') or {}
+    for lang, rx in (('ru', r'[А-Яа-яЁё]'), ('zh', r'[一-鿿]')):
+        block = i18n.get(lang)
+        if block:
+            for k in ('processing', 'harvest_season', 'appearance_dry', 'appearance_liquor', 'appearance_wet', 'taste_profile', 'vintage_note', 'description'):
+                if not re.search(rx, block.get(k) or ''):
+                    probs.append(f'i18n.{lang}.{k} missing or in the wrong language')
+            if c.get('history') and not re.search(rx, block.get('history') or ''):
+                probs.append(f'i18n.{lang}.history missing')
     if probs:
         bad += 1
         print(os.path.relpath(f, ROOT) + ': ' + '; '.join(probs))

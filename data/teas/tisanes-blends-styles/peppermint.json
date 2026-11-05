@@ -3,10 +3,17 @@
   "name_en": "Peppermint",
   "name_native": "Pfefferminze / М'ята перцева",
   "name_romanized": null,
-  "aliases": ["Peppermint tea", "Mint tea", "Mentha piperita", "Mitcham mint"],
+  "aliases": [
+    "Peppermint tea",
+    "Mint tea",
+    "Mentha piperita",
+    "Mitcham mint",
+    "欧薄荷",
+    "Перечная мята"
+  ],
   "category": "tisane",
   "origin_country": "United Kingdom",
-  "origin_region": "England · Mitcham, Surrey (historic home of the cultivated hybrid); today grown mainly in the US Pacific Northwest, Egypt, Germany and Bulgaria",
+  "origin_region": "England · Mitcham",
   "cultivar": "Mentha × piperita, a natural hybrid of watermint and spearmint; 'Mitcham' and 'Black Mitcham' are the classic strains",
   "processing": "The plant is cut just before flowering, when the oil content peaks, dried in shade or in low-heat dryers, then the leaves are stripped from the stems and cut to a loose-leaf or tea-bag size.",
   "form": "loose",
@@ -15,12 +22,48 @@
   "appearance_liquor": "Pale yellow-green to light amber, clear.",
   "appearance_wet": "Softened dark-green leaf that releases a sharp cooling aroma.",
   "taste_profile": "Cooling menthol over a sweet, slightly peppery base, finishing clean; long steeps add a faint tannic grip but never real bitterness.",
-  "taste_tags": ["herbal", "sweet", "spicy"],
-  "brewing": {"grams": 2, "water_ml": 250, "temp_c": 95, "steeps": 2, "seconds": [300, 420], "notes": "Just-boiled water, 5–7 minutes, lid on: the menthol is volatile and a covered cup is noticeably more intense. A second steep still gives plenty of flavour. Cold brew overnight for iced mint."},
+  "taste_tags": [
+    "herbal",
+    "sweet",
+    "spicy"
+  ],
+  "brewing": {
+    "grams": 2,
+    "water_ml": 250,
+    "temp_c": 95,
+    "steeps": 2,
+    "seconds": [
+      300,
+      420
+    ],
+    "notes": "Just-boiled water, 5–7 minutes, lid on: the menthol is volatile and a covered cup is noticeably more intense. A second steep still gives plenty of flavour. Cold brew overnight for iced mint."
+  },
   "caffeine_level": "none",
   "vintage_note": "Sold year-round without a harvest date; the previous summer's crop is what is on the shelf, with a best-before of around two years, but the aroma fades well inside that, so buy small amounts from a shop with turnover. Packs state the cut (whole or cut leaf versus tea-bag cut) and sometimes the origin: US (Oregon, Washington, Idaho) peppermint is the most intense, Egyptian is milder and cheaper. Make sure the label says peppermint rather than just 'mint', which is often spearmint.",
   "description": "Peppermint is the sharp, cooling mint, a hybrid of watermint and spearmint that was first grown commercially around Mitcham in England in the 1700s and is now farmed on a huge scale in the Pacific Northwest of the United States. As an infusion it is the straightforward one: dried leaf, hot water, a cup that tastes exactly as it smells.\n\nThe difference between a good and a dull peppermint is oil. The plant is cut just before it flowers, when the menthol content is highest, and dried gently; whole or coarsely cut leaf keeps the oil, while fine tea-bag cut loses it to the air within months. That is why loose peppermint from a fresh crop can be startlingly strong next to the same thing in a supermarket bag.\n\nBrewed for five to seven minutes with just-boiled water and a lid on, it is cooling, sweet and clean, with a mild peppery warmth that follows the menthol. Without the lid you lose a good part of the aroma to the steam. It does not go properly bitter, so a long steep or a second infusion is fine, and it makes a good cold brew.\n\nBuy cut leaf rather than dust, note the origin if the seller gives it, and check that the pack says peppermint: 'mint tea' in many ranges is spearmint, which is softer and sweeter without the menthol hit, and 'Moroccan mint' is spearmint with green tea.\n\nIt is traditionally used as an after-dinner digestive drink and pairs well with dark chocolate; blended half and half with chamomile it makes a gentler bedtime cup.",
   "wikipedia_title": "Peppermint",
   "wikipedia_scope": "exact",
-  "popularity": 5
+  "popularity": 5,
+  "name_zh": "胡椒薄荷",
+  "name_ru": "Мята перечная",
+  "history": "Peppermint is a hybrid of watermint and spearmint. It only came into general use around the middle of the 18th century, which is also when commercial growing began at Mitcham in Surrey, the place an 1875 pharmaceutical article calls the original seat of its cultivation.\n\nMitcham's business was mainly oil. In the early 19th century the district had no stills and sold the herb fresh, then distilleries went up at Mitcham and Wallington. Benjamin Slater, recalling the late 1840s in 1911, put the local crop at about 100 acres a year. Mitcham oil was judged the best at the 1855 Paris Exhibition.\n\nBy 1875 yields were falling and growers were moving to other crops, and Slater says the herbs eventually gave way to flowers, vegetables and glasshouses. No final year is recorded. Little is documented about when dried peppermint became an everyday infusion, as distinct from a medicine and flavouring oil.",
+  "liquor_hex": "#D8C468",
+  "leaf_hex": "#5F7346",
+  "sources": [
+    "https://mitchamhistorynotes.com/tag/peppermint/",
+    "https://gutenberg.org/files/76015/76015-h/76015-h.htm"
+  ],
+  "confidence": "medium",
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f1/Peppermint_Plant.jpg/1280px-Peppermint_Plant.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f1/Peppermint_Plant.jpg/330px-Peppermint_Plant.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Peppermint_Plant.jpg",
+      "author": "Joshua T Polito",
+      "license": "CC0",
+      "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "kind": "plant",
+      "alt": "Potted peppermint plant with dark green serrated leaves"
+    }
+  ]
 }

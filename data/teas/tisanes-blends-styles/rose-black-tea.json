@@ -3,10 +3,17 @@
   "name_en": "Rose Black Tea (Rose Congou)",
   "name_native": "玫瑰红茶",
   "name_romanized": "Méiguī hóngchá",
-  "aliases": ["Rose Congou", "Rose black", "Mei gui hong cha", "Rose scented black tea", "Rose Dian Hong", "Rose tea (black)"],
+  "aliases": [
+    "Rose Congou",
+    "Rose black",
+    "Mei gui hong cha",
+    "Rose scented black tea",
+    "Rose Dian Hong",
+    "Rose tea (black)"
+  ],
   "category": "black",
   "origin_country": "China",
-  "origin_region": "Guangdong and Fujian (Rose Congou, a classic export); also Yunnan (rose Dian Hong) and Western rose-flavoured blends",
+  "origin_region": "China",
   "cultivar": null,
   "processing": "A scented tea: finished black tea is layered with fresh rose petals or buds so it absorbs their perfume, then re-dried, often with petals left in. Western versions are black tea with dried rose petals and a rose flavouring added.",
   "form": "loose",
@@ -15,13 +22,38 @@
   "appearance_liquor": "Red-amber, clear.",
   "appearance_wet": "Brown leaf with faded, softened petals.",
   "taste_profile": "A clean Turkish-delight rose perfume over a smooth, mild, honey-sweet black tea; in a good version the rose lifts the tea rather than coating it, in a heavily flavoured one it tastes of soap.",
-  "taste_tags": ["floral", "sweet", "malty", "honey"],
-  "brewing": {"grams": 3, "water_ml": 250, "temp_c": 90, "steeps": 2, "seconds": [180, 240], "notes": "Water a little under the boil, 3 minutes; boiling water and long steeps turn the rose harsh. Gongfu: 5 g in 120 ml at 90 °C, steeps of 20–60 seconds. Good with a little honey or milk, and cold-brewed."},
+  "taste_tags": [
+    "floral",
+    "sweet",
+    "malty",
+    "honey"
+  ],
+  "brewing": {
+    "grams": 3,
+    "water_ml": 250,
+    "temp_c": 90,
+    "steeps": 2,
+    "seconds": [
+      180,
+      240
+    ],
+    "notes": "Water a little under the boil, 3 minutes; boiling water and long steeps turn the rose harsh. Gongfu: 5 g in 120 ml at 90 °C, steeps of 20–60 seconds. Good with a little honey or milk, and cold-brewed."
+  },
   "caffeine_level": "medium",
-  "vintage_note": "Sold year-round on the current year's base tea and best within a year, since the rose scent fades before the tea does. Chinese 'Rose Congou' is a long-established export style, usually on a Guangdong or Fujian black with petals left in; rose Dian Hong from Yunnan is the fuller, maltier version. The label's distinction between 'scented' (flowers) and 'flavoured' (added flavouring) is the thing to check, and a sticky perfume on opening the tin means the latter. Rose buds alone, without tea, are a separate caffeine-free product.",
-  "description": "Rose black tea is one of the oldest scented teas in the Chinese export trade, sold to the West for well over a century under the name Rose Congou: a smooth black tea scented with rose petals, with a few petals left in the leaf for show. Today it ranges from traditional petal-scented Chinese teas to Western blends built on rose flavouring, and the two can taste quite different.\n\nThe traditional method is scenting rather than flavouring. Finished black tea is mixed with freshly picked rose petals or buds, usually from the fragrant meigui roses grown for tea, left to absorb the perfume, then dried again. The base matters as much as the rose: a mild Guangdong or Fujian black gives the classic light congou style, a Yunnan black gives a maltier, more honeyed cup.\n\nBrewed with water a little under the boil for about three minutes, it is sweet, soft and clearly rosy, like a cup of Keemun with a Turkish delight on the saucer, and it takes honey or a splash of milk. Boiling water and long steeps bring out tannin and make the rose taste harsh; heavily flavoured versions taste of soap at any temperature, which is where most people's dislike of rose tea comes from.\n\nIt is sold year-round without a vintage; buy within a year of scenting, check whether the label says scented or flavoured, and prefer a tea where the rose is noticeable but not overwhelming when you open the tin. Rose buds on their own are a different product and caffeine-free.\n\nIt pairs with shortbread, pistachio and dark chocolate, and if you like it, a few dried rose buds dropped into a plain Keemun or Dian Hong will show you how the scent and the base work together.",
+  "vintage_note": "Sold year-round on the current year's base tea and best within a year, since the rose scent fades before the tea does. Chinese rose congou is usually sold with petals left in; rose Dian Hong from Yunnan is the fuller, maltier version. The label's distinction between 'scented' (flowers) and 'flavoured' (added flavouring) is the thing to check, and a sticky perfume on opening the tin means the latter. Rose buds alone, without tea, are a separate caffeine-free product.",
+  "description": "Rose black tea is a Chinese scented tea, known in English as Rose Congou: a smooth black tea scented with rose petals, with a few petals often left in the leaf for show. Today it ranges from traditional petal-scented Chinese teas to Western blends built on rose flavouring, and the two can taste quite different.\n\nThe traditional method is scenting rather than flavouring. Black tea is mixed with freshly picked rose petals or buds, left to absorb the perfume, then dried again. The base matters as much as the rose: a mild black gives the light congou style, a Yunnan black gives a maltier, more honeyed cup.\n\nBrewed with water a little under the boil for about three minutes, it is sweet, soft and clearly rosy, like a cup of Keemun with a Turkish delight on the saucer, and it takes honey or a splash of milk. Boiling water and long steeps bring out tannin and make the rose taste harsh; heavily flavoured versions taste of soap at any temperature, which is where most people's dislike of rose tea comes from.\n\nIt is sold year-round without a vintage; buy within a year of scenting, check whether the label says scented or flavoured, and prefer a tea where the rose is noticeable but not overwhelming when you open the tin. Rose buds on their own are a different product and caffeine-free.\n\nIt pairs with shortbread, pistachio and dark chocolate, and if you like it, a few dried rose buds dropped into a plain Keemun or Dian Hong will show you how the scent and the base work together.",
   "wikipedia_title": "Tea blending and additives",
   "wikipedia_scope": "umbrella",
   "popularity": 3,
-  "sources_note": "No dedicated English Wikipedia article for Rose Congou (title checked and missing)."
+  "sources_note": "No dedicated English Wikipedia article for Rose Congou (title checked and missing).",
+  "name_zh": "玫瑰红茶",
+  "name_ru": "Мэй Гуй Хун Ча",
+  "history": "In China, roses are usually paired with black tea, and the result is known in English as rose congou. The flowers can be spread through the leaf so it takes up their scent, and petals are sometimes left in as decoration.\n\nLittle is documented about when or where the style began. Western rose teas, built on dried petals and added flavouring, are a related but separate product.",
+  "liquor_hex": "#A9502A",
+  "leaf_hex": "#3B2620",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Tea_blending_and_additives"
+  ],
+  "confidence": "low",
+  "images": []
 }

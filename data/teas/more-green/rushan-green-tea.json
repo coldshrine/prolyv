@@ -1,0 +1,50 @@
+{
+  "slug": "rushan-green-tea",
+  "name_en": "Rushan Green Tea",
+  "name_native": "乳山绿茶",
+  "name_romanized": "Rǔshān Lǜchá",
+  "aliases": [],
+  "category": "green",
+  "origin_country": "China",
+  "origin_region": "Shandong · Rushan",
+  "cultivar": null,
+  "form": "loose",
+  "caffeine_level": "medium",
+  "brewing": {
+    "grams": 3,
+    "water_ml": 150,
+    "temp_c": 80,
+    "steeps": 3,
+    "seconds": [
+      60,
+      75,
+      105
+    ],
+    "notes": "A safe starting point for green tea: cooler water, short steeps, then adjust by taste."
+  },
+  "taste_tags": [
+    "nutty"
+  ],
+  "description": "A green tea from Rushan city in Shandong, registered nationally as a geographical indication for farm produce.\n\nTreat it as you would any green tea: cooler water, short steeps, and a seller who can say where and when it was picked.",
+  "wikipedia_title": null,
+  "wikipedia_scope": "none",
+  "popularity": 1,
+  "name_zh": "乳山绿茶",
+  "name_ru": "Жу Шань Люй Ча",
+  "history": "It entered the ranks of Shandong's known teas after standing out at a provincial competition in the 1970s. The district lies at high latitude, with cool temperatures, wide swings between day and night and a long growing period. The tea is well regarded in northern Chinese markets; little more is documented about its history.",
+  "liquor_hex": "#D2D678",
+  "leaf_hex": "#74903E",
+  "sources": [
+    "https://www.maigoo.com/top/423316.html"
+  ],
+  "confidence": "medium",
+  "images": [],
+  "stub": true,
+  "processing": "Typical of green tea: picked, heated soon after picking to stop oxidation, then shaped and dried.",
+  "harvest_season": "Usually picked in spring, with the earliest pickings prized, as with most green teas.",
+  "appearance_dry": "Thick leaves with a bright green colour.",
+  "appearance_liquor": "Bright, tender green.",
+  "appearance_wet": "Bright green.",
+  "taste_profile": "A high aroma with a distinctive chestnut note and a rich taste that stands up to repeated infusions.",
+  "vintage_note": "Green teas like this are normally sold as the current year's harvest and are best within a year of picking. It is not an ageing tea."
+}

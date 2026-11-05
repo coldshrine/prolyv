@@ -1,0 +1,61 @@
+{
+  "slug": "mushisei-tamaryokucha",
+  "name_en": "Mushisei Tamaryokucha",
+  "name_native": "蒸し製玉緑茶",
+  "name_romanized": "Mushisei Tamaryokucha",
+  "name_zh": "蒸制玉绿茶",
+  "name_ru": "Мусисэй тамарёкутя",
+  "aliases": [
+    "Steamed tamaryokucha",
+    "Guricha",
+    "Guri-cha",
+    "ぐり茶",
+    "グリ茶",
+    "Гуритя"
+  ],
+  "category": "green",
+  "origin_country": "Japan",
+  "origin_region": "Saga · Ureshino",
+  "cultivar": null,
+  "processing": "Steamed like sencha to stop the enzymes, then stirred and rolled under hot air, but without the final straightening step, so the leaf dries into a curled comma shape.",
+  "form": "loose",
+  "harvest_season": "Spring first flush is the usual prized picking, as with most Japanese green tea.",
+  "appearance_dry": "Small, curled, comma-like dark-green leaves, rounder than sencha needles.",
+  "appearance_liquor": "Clear yellow-green, as is typical of steamed Japanese green tea.",
+  "appearance_wet": "Soft green leaves that relax out of their curl.",
+  "taste_profile": "Gentle and rounded, with mellow savoury sweetness and less astringency than most sencha.",
+  "taste_tags": [
+    "umami",
+    "sweet",
+    "vegetal"
+  ],
+  "brewing": {
+    "grams": 5,
+    "water_ml": 150,
+    "temp_c": 75,
+    "steeps": 3,
+    "seconds": [
+      60,
+      20,
+      45
+    ],
+    "notes": "The curled leaf opens slowly, so give the first steep its full minute. Later steeps can be quick."
+  },
+  "caffeine_level": "medium",
+  "vintage_note": "Sold as the current year's spring harvest, like other Japanese green teas, and best drunk within about a year. Labels may say guricha or tamaryokucha, so check for steamed (mushisei) rather than pan-fired (kamairi) if the style matters to you.",
+  "description": "Mushisei tamaryokucha, usually called guricha, is steamed Japanese green tea in a curled shape. Japan's tea industry body lists it as its own type, separate from pan-fired tamaryokucha. Saga's Ureshino and neighbouring Nagasaki are the main homes of the style, and it is also made in Izu in Shizuoka.\n\nThe first stages look like sencha: steam, then stirring and rolling under hot air. The difference is what is left out. Without the shaping step that straightens sencha into needles, the leaf dries bent into a rounded comma, and that is where the name comes from.\n\nThe cup is softer than sencha, with low astringency and a gentle sweet savouriness. Many people steep it too briefly; the curled leaf needs a little time to open, so give it a full minute at about 75°C.\n\nTamaryokucha of all kinds is a small part of Japanese production, under 3% of the national green tea output by Nagasaki's reckoning, so it is rarely on general shelves. Buy from Ureshino or Nagasaki makers, and read the label, because guricha can also refer to the pan-fired style.",
+  "history": "The steamed style is closely tied to Kyushu, and Nagasaki describes it as the main tea its growers produce. Little is documented in English about when it first appeared or who developed it. Today it has formal standing as a category in the classification used by the Japan Tea Central Public Interest Incorporated Association and in Japan's food-labelling guidance.",
+  "liquor_hex": "#D9D48A",
+  "leaf_hex": "#4A6232",
+  "sources": [
+    "https://ja.wikipedia.org/wiki/%E8%8C%B6",
+    "https://www.pref.nagasaki.jp/shared/uploads/2024/10/1728435578.pdf",
+    "https://www.mlit.go.jp/tagengo-db/R2-01978.html",
+    "https://www.maff.go.jp/j/pr/aff/1704/spe1_01.html"
+  ],
+  "confidence": "high",
+  "wikipedia_title": "Tamaryokucha",
+  "wikipedia_scope": "umbrella",
+  "popularity": 2,
+  "images": []
+}

@@ -1,0 +1,102 @@
+{
+  "slug": "fenghuang-dancong",
+  "name_en": "Fenghuang Dancong",
+  "name_native": "凤凰单丛",
+  "name_romanized": "Fènghuáng Dāncóng",
+  "name_zh": "凤凰单丛",
+  "name_ru": "Фэн Хуан Дань Цун",
+  "aliases": [
+    "Phoenix Oolong",
+    "Dan Cong",
+    "Dancong",
+    "Feng Huang Dan Cong",
+    "Chaozhou Dancong",
+    "Fenghuang Tea",
+    "鳳凰單叢",
+    "凤凰单枞",
+    "单丛",
+    "凤凰茶",
+    "潮州单丛",
+    "Фэнхуан Дань Цун",
+    "Дань Цун",
+    "Фениксовый улун"
+  ],
+  "category": "oolong",
+  "origin_country": "China",
+  "origin_region": "Guangdong · Chaozhou · Fenghuang",
+  "cultivar": "Many Fenghuang selections, named by aroma such as Mi Lan Xiang, Huang Zhi Xiang and Ya Shi Xiang",
+  "processing": "Picked at one bud and two leaves, then made as a long strip-style oolong; the maker adjusts the method to each cultivar, which is why the aromas differ so much.",
+  "form": "loose",
+  "harvest_season": "Picked through the seasons, with early spring tea rated highest.",
+  "appearance_dry": "Long, thin, straight strips, dark brown with a faint reddish cast.",
+  "appearance_liquor": "Clear yellow with an orange tone.",
+  "appearance_wet": "Long, narrow leaves, green-brown with reddened edges.",
+  "taste_profile": "Intensely aromatic: flower and fruit notes that shift by cultivar, from gardenia and osmanthus to peach-like honey, over a sweet body with a slight astringent edge.",
+  "taste_tags": [
+    "floral",
+    "fruity",
+    "honey",
+    "stone-fruit",
+    "bitter"
+  ],
+  "brewing": {
+    "grams": 6,
+    "water_ml": 100,
+    "temp_c": 95,
+    "steeps": 7,
+    "seconds": [
+      5,
+      8,
+      10,
+      15,
+      20,
+      30,
+      45
+    ],
+    "notes": "Very short steeps. Dancong turns sharply bitter when left in the water, so pour off fast and add seconds slowly."
+  },
+  "caffeine_level": "medium",
+  "vintage_note": "Usually sold by harvest year and season, with spring lots priced highest, and labelled by aroma type. As with other roasted oolongs, sellers may offer lots of earlier years with the age stated. Real single-tree tea is now rare and is sold separately as dan zhu; the plain word dancong does not promise it.",
+  "description": "Fenghuang Dancong is the oolong of Phoenix Mountain, in Chaozhou's Chao'an district in eastern Guangdong. Its calling card is aroma: leaves from different selections can smell convincingly of gardenia, osmanthus, honeyed peach or almond with nothing added.\n\nDancong once meant what it says, a single bush picked and made on its own. Good trees have since been propagated, and now the same name usually covers several trees of one cultivar. Each cultivar gets a slightly different treatment, so the name alone tells you little until you know the aroma type.\n\nIn the cup it is bright and perfumed, with a sweetness that sits close to a slight bitter grip. That grip is the trap: use a light hand with time, and keep steeps to seconds early on.\n\nBuy by aroma type and ask about the season. Guangdong's standard lists ten main aroma types, and famous outsiders such as Ya Shi Xiang (duck-shit aroma, also called Yin Hua Xiang) sit beside them. Lingtou Dancong from Raoping uses the same method but is a separate cultivar, at least when it is labelled honestly.\n\nThe spelling 单枞 is everywhere, but Chaozhou's preferred form is 单丛.",
+  "history": "Chinese accounts say people on Phoenix Mountain grew a tea called niaozui, or bird's beak, around their homes in the Southern Song. By the Hongzhi reign of the Ming, tea from Daizhao Mountain was reportedly sent as tribute under the name Daizhao tea.\n\nFrom the late Qing to the first years of the People's Republic, makers kept one tree's leaves apart from all others. From the 1990s, cuttings and grafts spread the best selections, and tea from one tree alone came to be called dan zhu. Lingtou, a newer selection, has been made in Raoping county since 1961.\n\nIn August 2004 the Chaozhou government told the trade to write the name with 丛 on packaging and in advertising and treat 枞 as an error.",
+  "liquor_hex": "#D49A3C",
+  "leaf_hex": "#4A3324",
+  "wikipedia_title": "Oolong",
+  "wikipedia_scope": "umbrella",
+  "popularity": 4,
+  "sources": [
+    "https://zh.wikipedia.org/wiki/%E5%87%A4%E5%87%B0%E5%8D%95%E4%B8%9B",
+    "https://ja.wikipedia.org/wiki/%E9%B3%B3%E5%87%B0%E5%8D%98%E6%AC%89",
+    "https://ko.wikipedia.org/wiki/%EB%B4%89%ED%99%A9%EB%8B%A8%EC%B4%9D",
+    "https://en.wikipedia.org/wiki/Oolong",
+    "https://www.wikidata.org/wiki/Q10896081"
+  ],
+  "confidence": "high",
+  "images": [],
+  "i18n": {
+    "ru": {
+      "processing": "Собирают одну почку с двумя листьями и делают длинный полосковый улун; мастер подстраивает метод под каждый культивар, поэтому ароматы так сильно различаются.",
+      "harvest_season": "Собирают в течение всех сезонов, выше всего ценится ранневесенний чай.",
+      "appearance_dry": "Длинные тонкие прямые полоски, тёмно-коричневые с лёгким красноватым отливом.",
+      "appearance_liquor": "Прозрачный жёлтый с оранжевым оттенком.",
+      "appearance_wet": "Длинные узкие листья, зелёно-коричневые с покрасневшими краями.",
+      "taste_profile": "Очень ароматный: цветочные и фруктовые ноты меняются от культивара к культивару, от гардении и османтуса до медового, похожего на персик, на сладком теле с лёгкой терпкой гранью.",
+      "vintage_note": "Обычно продаётся по году и сезону сбора, причём весенние партии стоят дороже всего, а на этикетке указан тип аромата. Как и с другими обжаренными улунами, продавцы могут предлагать партии прежних лет с указанием возраста. Настоящий чай с одного дерева сегодня редкость и продаётся отдельно как дань чжу; само слово даньцун этого не обещает.",
+      "history": "Китайские источники рассказывают, что на горе Фениксов во времена Южной Сун вокруг домов выращивали чай под названием няоцзуй, «птичий клюв». К годам правления Хунчжи при династии Мин чай с горы Дайчжао, как сообщается, отправляли ко двору в качестве дани под названием «чай Дайчжао».\n\nС конца Цин до первых лет КНР мастера делали чай с одного дерева отдельно от всех остальных. С 1990-х годов черенки и прививки распространили лучшие селекции, а чай только с одного дерева стали называть дань чжу. Линтоу, более новая селекция, делается в уезде Жаопин с 1961 года.\n\nВ августе 2004 года власти Чаочжоу предписали торговле писать название на упаковке и в рекламе через 丛, а 枞 считать ошибкой.",
+      "description": "Фэн Хуан Дань Цун — улун с горы Фениксов в районе Чаоань города Чаочжоу, на востоке Гуандуна. Его визитная карточка — аромат: листья разных селекций могут убедительно пахнуть гарденией, османтусом, медовым персиком или миндалём безо всяких добавок.\n\nДаньцун когда-то означал буквально то, что сказано: один куст, собранный и обработанный отдельно. С тех пор хорошие деревья размножили, и теперь то же название обычно охватывает несколько деревьев одного культивара. К каждому культивару подход немного свой, так что само название мало что скажет, пока не знаешь тип аромата.\n\nВ чашке он яркий и парфюмерный, а его сладость соседствует с лёгкой горьковатой хваткой. Эта хватка и есть ловушка: не передерживайте и в начале ограничивайтесь проливами в считаные секунды.\n\nПокупайте по типу аромата и спрашивайте о сезоне. Гуандунский стандарт перечисляет десять основных типов аромата, а рядом с ними стоят знаменитые аутсайдеры вроде Я Ши Сян (аромат утиного помёта, он же Инь Хуа Сян). Линтоу Дань Цун из Жаопина делается тем же методом, но это отдельный культивар — по крайней мере, если этикетка честная.\n\nНаписание 单枞 встречается повсюду, но в Чаочжоу предпочитают форму 单丛.",
+      "brewing_notes": "Очень короткие проливы. Дань Цун становится резко горьким, если оставить его в воде, поэтому сливайте быстро и добавляйте по несколько секунд понемногу."
+    },
+    "zh": {
+      "processing": "采一芽二叶，制成长条形乌龙茶；制茶师会根据每个品种调整工艺，所以香气差异才如此之大。",
+      "harvest_season": "各季都有采摘，早春茶评价最高。",
+      "appearance_dry": "条索细长挺直，色深褐，隐约泛红。",
+      "appearance_liquor": "汤色清澈，黄中带橙。",
+      "appearance_wet": "叶片狭长，青褐色，叶缘泛红。",
+      "taste_profile": "香气极为浓郁：花果香因品种而异，从栀子、桂花到似桃的蜜香，茶汤甘甜，略带涩感。",
+      "vintage_note": "通常按采摘年份和季节销售，春茶价格最高，并标明香型。和其他焙火乌龙一样，卖家也可能提供标明年份的往年茶。真正的单株茶如今已很少见，另以单株之名销售；单说“单丛”并不保证是单株。",
+      "history": "据中国文献记载，南宋时凤凰山的人们在屋前屋后种一种叫鸟嘴的茶。到明代弘治年间，据说待诏山的茶以“待诏茶”之名上贡。\n\n从清末到新中国成立初期，制茶人把一棵树的叶子与其他树分开制作。1990年代起，扦插和嫁接让优良品系传播开来，只用一棵树制作的茶开始被称为单株。较新的品系岭头自1961年起在饶平县制作。\n\n2004年8月，潮州市政府要求茶行在包装和广告上写“丛”字，并把“枞”视为错字。",
+      "description": "凤凰单丛是凤凰山的乌龙茶，产于粤东潮州市潮安区。它的招牌是香气：不同品系的茶叶无需任何添加，就能散发出逼真的栀子、桂花、蜜桃或杏仁的香味。\n\n单丛过去就是字面意思：一丛茶树单独采摘、单独制作。后来好茶树被繁育开来，如今同一个名字通常涵盖同一品种的若干棵树。每个品种的工艺都略有不同，所以不知道香型的话，光看名字说明不了什么。\n\n茶汤明亮而香气馥郁，甜味紧贴着一丝苦涩的劲道。这股劲道正是陷阱：冲泡时间要拿捏得轻，头几泡只泡几秒钟。\n\n按香型购买，并问清季节。广东的标准列出十大主要香型，鸭屎香（又称银花香）这样的知名“局外者”也与之并列。饶平的岭头单丛工艺相同，但属于另一个品种，至少在标注诚实的情况下如此。\n\n“单枞”的写法随处可见，但潮州首选的写法是“单丛”。",
+      "brewing_notes": "冲泡时间要非常短。单丛在水中久泡会变得很苦，所以要快速出汤，再一点一点加几秒。"
+    }
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "slug": "zhongguo-haidao-hong-cha",
+  "name_en": "Zhongguo Haidao Hong Cha",
+  "name_native": "中国海岛红茶",
+  "name_romanized": "Zhōngguó Hǎidǎo Hóngchá",
+  "aliases": [
+    "中國海島紅茶"
+  ],
+  "category": "black",
+  "origin_country": "China",
+  "origin_region": "Hainan · Wuzhishan Shuiman",
+  "cultivar": null,
+  "form": "loose",
+  "caffeine_level": "high",
+  "brewing": {
+    "grams": 3,
+    "water_ml": 200,
+    "temp_c": 95,
+    "steeps": 2,
+    "seconds": [
+      180,
+      240
+    ],
+    "notes": "A safe starting point for black tea: Western style, water just off the boil."
+  },
+  "taste_tags": [
+    "brisk"
+  ],
+  "description": "A large-leaf black tea of limited output from Shuiman township in the Wuzhishan area of Hainan, made by combining traditional Li methods with modern ones.\n\nTreat it as you would any black tea: water just off the boil, a few minutes in the pot, and a seller who can say where it was grown.",
+  "wikipedia_title": null,
+  "wikipedia_scope": "none",
+  "popularity": 1,
+  "name_zh": "中国海岛红茶",
+  "name_ru": "Чжун Го Хай Дао Хун Ча",
+  "history": "It is said to have been sent as tribute in the Ming dynasty, a claim without further detail. Little more is documented.",
+  "liquor_hex": "#B5601F",
+  "leaf_hex": "#3A2A1E",
+  "sources": [
+    "https://www.maigoo.com/top/423774.html"
+  ],
+  "confidence": "low",
+  "images": [],
+  "stub": true,
+  "processing": "Traditional Li methods combined with modern ones.",
+  "harvest_season": "Picked through the growing season, as with most black teas.",
+  "appearance_dry": "Glossy dark leaf with visible golden tips.",
+  "appearance_liquor": "Amber with a bright red tone.",
+  "appearance_wet": "Usually coppery brown leaf.",
+  "taste_profile": "Fresh and mellow with a long finish and a rich, brisk aroma.",
+  "vintage_note": "Black teas are normally sold by harvest year and are best within a couple of years."
+}

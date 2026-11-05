@@ -1,0 +1,50 @@
+{
+  "slug": "changqing-cha",
+  "name_en": "Changqing Cha",
+  "name_native": "长清茶",
+  "name_romanized": "Chángqīng Chá",
+  "aliases": [],
+  "category": "green",
+  "origin_country": "China",
+  "origin_region": "Shandong · Jinan Changqing",
+  "cultivar": null,
+  "form": "loose",
+  "caffeine_level": "medium",
+  "brewing": {
+    "grams": 3,
+    "water_ml": 150,
+    "temp_c": 80,
+    "steeps": 3,
+    "seconds": [
+      60,
+      75,
+      105
+    ],
+    "notes": "A safe starting point for green tea: cooler water, short steeps, then adjust by taste."
+  },
+  "taste_tags": [
+    "nutty"
+  ],
+  "description": "A green tea from Changqing district of Jinan in Shandong, protected as a national agricultural geographical indication.\n\nTreat it as you would any green tea: cooler water, short steeps, and a seller who can say where and when it was picked.",
+  "wikipedia_title": null,
+  "wikipedia_scope": "none",
+  "popularity": 1,
+  "name_zh": "长清茶",
+  "name_ru": "Чан Цин Ча",
+  "history": "Its cultivation is traced to the Tang dynasty, on the strength of a stone inscription at Lingyan Temple whose mention of new tea is read as meaning this one. In 2009 it was named the designated green tea of China's 11th National Games, and it took a gold award at the 8th China International Agricultural Products Fair.",
+  "liquor_hex": "#DDC878",
+  "leaf_hex": "#6E8440",
+  "sources": [
+    "https://www.maigoo.com/top/423316.html"
+  ],
+  "confidence": "medium",
+  "images": [],
+  "stub": true,
+  "processing": "Typical of green tea: picked, heated soon after picking to stop oxidation, then shaped and dried.",
+  "harvest_season": "Usually picked in spring, with the earliest pickings prized, as with most green teas.",
+  "appearance_dry": "Tightly curled, firm strands with a moist green colour.",
+  "appearance_liquor": "The colour of millet broth.",
+  "appearance_wet": "Thick, fleshy leaves that stand up to repeated infusions.",
+  "taste_profile": "High aroma and a mellow taste, with a note of chestnut.",
+  "vintage_note": "Green teas like this are normally sold as the current year's harvest and are best within a year of picking. It is not an ageing tea."
+}

@@ -1,0 +1,54 @@
+{
+  "slug": "adeni-tea",
+  "name_en": "Adeni Tea",
+  "name_native": null,
+  "name_romanized": "Shai Adeni",
+  "name_zh": "亚丁奶茶",
+  "name_ru": "Аденский чай",
+  "aliases": [
+    "Shahi Adani",
+    "Yemeni milk tea",
+    "Шахи Адани"
+  ],
+  "category": "black",
+  "origin_country": "Yemen",
+  "origin_region": "Aden",
+  "cultivar": null,
+  "processing": "A prepared milk tea rather than a processed leaf. Recipes are thinly documented; as with other milk teas of the region, it typically means black tea cooked with milk and sugar, often with spice.",
+  "form": "other",
+  "harvest_season": "No harvest of its own: it is made year-round from everyday black tea.",
+  "appearance_dry": "Ordinary black tea, typically fine-cut for a strong boil.",
+  "appearance_liquor": "Opaque, warm milky tan, as is typical of boiled milk teas.",
+  "appearance_wet": "Not a feature of the drink: the leaf is strained out.",
+  "taste_profile": "Little is documented about its exact taste; expect what is typical of boiled milk tea, creamy, sweet and strong, with any spice depending on the maker.",
+  "taste_tags": [
+    "creamy",
+    "sweet",
+    "spicy"
+  ],
+  "brewing": {
+    "grams": 5,
+    "water_ml": 300,
+    "temp_c": 100,
+    "steeps": 1,
+    "seconds": [
+      300
+    ],
+    "notes": "A general method for boiled milk tea, not a fixed Adeni recipe: simmer black tea with water and milk, sweeten, strain and serve hot."
+  },
+  "caffeine_level": "medium",
+  "vintage_note": "Not sold by year or season: it is a drink prepared to order, in Yemeni cafes among other places, using ordinary black tea. No harvest or vintage applies.",
+  "description": "Adeni tea, or shahi adani, is a Yemeni milk tea named after the port city of Aden. Few details are documented in English, so treat what follows as a sketch rather than a recipe of record.\n\nAs with other milk teas of the region, the usual approach is to cook black tea with milk and sugar until strong, often with spice. How much spice, and which, depends on who is making it.\n\nThe cup you should expect is hot, creamy and sweet. The tea needs enough strength to hold up against milk, a general rule with boiled milk teas.\n\nThe easiest place to try it outside Yemen may be a Yemeni coffeehouse: such cafes have spread quickly across the United States, especially near large Arab American communities such as Dearborn, Michigan, and Adeni tea is on their menus.",
+  "history": "Little is firmly documented about its origin. Arab America's account says tea came to Aden with Indians in the 1800s, but this is not well evidenced.\n\nThe recent record is clearer. Yemeni coffeehouses became a trend in the United States in the 2010s and 2020s, serving Adeni tea among their signature items, with Bon Appétit reporting 30 Yemeni-owned cafe brands in 2025.",
+  "liquor_hex": "#B98A5E",
+  "leaf_hex": "#33261C",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Yemeni_cuisine",
+    "https://en.wikipedia.org/wiki/Milk_tea"
+  ],
+  "confidence": "low",
+  "wikipedia_title": "Milk tea",
+  "wikipedia_scope": "umbrella",
+  "popularity": 2,
+  "images": []
+}

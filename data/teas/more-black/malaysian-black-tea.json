@@ -1,0 +1,50 @@
+{
+  "slug": "malaysian-black-tea",
+  "name_en": "Malaysian Black Tea",
+  "name_native": null,
+  "name_romanized": null,
+  "aliases": [],
+  "category": "black",
+  "origin_country": "Malaysia",
+  "origin_region": "Malaysia",
+  "cultivar": null,
+  "form": "loose",
+  "caffeine_level": "high",
+  "brewing": {
+    "grams": 3,
+    "water_ml": 200,
+    "temp_c": 95,
+    "steeps": 2,
+    "seconds": [
+      180,
+      240
+    ],
+    "notes": "A safe starting point for black tea: Western style, water just off the boil."
+  },
+  "taste_tags": [
+    "malty",
+    "sweet"
+  ],
+  "description": "Black tea from Malaysia, usually made to be drunk with condensed milk or evaporated creamer rather than straight.\n\nTreat it as you would any black tea: water just off the boil, a few minutes in the pot, and a seller who can say where it was grown.",
+  "wikipedia_title": null,
+  "wikipedia_scope": "none",
+  "popularity": 1,
+  "name_zh": "马来西亚红茶",
+  "name_ru": "Малайзийский чёрный чай",
+  "history": "Little is documented about it beyond this pairing with milk.",
+  "liquor_hex": "#8E3A18",
+  "leaf_hex": "#33241A",
+  "sources": [
+    "https://bricknbarrell.substack.com/p/malaysian-tea"
+  ],
+  "confidence": "low",
+  "images": [],
+  "stub": true,
+  "processing": "Typically processed and roasted with condensed milk or evaporated creamer in mind.",
+  "harvest_season": "Picked through the growing season, as with most black teas.",
+  "appearance_dry": "Usually dark twisted leaf, sometimes with golden tips.",
+  "appearance_liquor": "Usually a clear red-brown.",
+  "appearance_wet": "Usually coppery brown leaf.",
+  "taste_profile": "Expect what black teas usually give: malty, sweet and brisk.",
+  "vintage_note": "Black teas are normally sold by harvest year and are best within a couple of years."
+}

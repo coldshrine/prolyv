@@ -1,0 +1,55 @@
+{
+  "slug": "emoliente",
+  "name_en": "Emoliente",
+  "name_native": "emoliente",
+  "name_romanized": null,
+  "name_zh": "秘鲁青草茶",
+  "name_ru": "Эмольенте",
+  "aliases": [
+    "Peruvian emoliente",
+    "秘鲁润肤茶"
+  ],
+  "category": "tisane",
+  "origin_country": "Peru",
+  "origin_region": "Lima",
+  "cultivar": null,
+  "processing": "A drink based on roasted barley grains with herbal extracts, finished with sugar and lemon juice. Common herbs are Andean horsetail, linseed, alfalfa, ribwort plantain and boldo.",
+  "form": "other",
+  "harvest_season": "No harvest applies, since it is a prepared mix; it is traditionally drunk in the morning or evening.",
+  "appearance_dry": "A mix of roasted barley grains, linseed and dried herbs rather than a single leaf.",
+  "appearance_liquor": "Typically a thick, slightly viscous amber to brown, from the barley and linseed.",
+  "appearance_wet": "Softened grains and seeds with dark, limp herbs, usually strained out before serving.",
+  "taste_profile": "Toasty barley and herbs under sugar and lemon, with a soft, slightly slippery body when linseed is included.",
+  "taste_tags": [
+    "roasted",
+    "herbal",
+    "sweet",
+    "citrus"
+  ],
+  "brewing": {
+    "grams": 40,
+    "water_ml": 1000,
+    "temp_c": 100,
+    "steeps": 1,
+    "seconds": [
+      1200
+    ],
+    "notes": "A home guide rather than a fixed recipe: simmer barley first, add linseed and herbs, strain, then finish with sugar and lemon to taste."
+  },
+  "caffeine_level": "none",
+  "vintage_note": "Not sold by year or season. It is made fresh and served hot from street carts in Peruvian cities; home versions are made from dried mixes. Vendors mix to their own recipes, so ask what is in the cup.",
+  "description": "Emoliente is the hot street drink of Peru, a roasted-barley base with herbs, sugar and lemon, ladled out by an emolientero from a cart. It is also found in Bolivia, Ecuador and Colombia, but Lima is where it became part of daily life.\n\nThe mix starts with roasted barley and adds herbs such as Andean horsetail, linseed, alfalfa, ribwort plantain and boldo. The name comes from the Spanish for an emollient, a reminder that this began as a medicine.\n\nThe cup tastes of toast, herbs and lemon, with a soft body, and it is sweeter than most people expect from a herbal drink. Ask for less sugar if you want to taste the herbs.\n\nStreet versions have grown more elaborate. Carts now add things like cat's claw, maca, aloe vera or dragon's blood, and specials may include pollen, honey, carob, corn silk, cinnamon, or fruit. The medicinal claims for digestion, breathing and circulation are traditional, not established.",
+  "history": "Emoliente came to Peru in the colonial era as a medicinal tisane. In Lima it caught on to the point that an emoliente seller stood on practically every street corner.\n\nIn recent years, vendors have added more medicinal plants to the basic recipe, chosen for their reputed properties, so the drink keeps changing cart by cart.",
+  "liquor_hex": "#A9743A",
+  "leaf_hex": "#7A5A34",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Emoliente",
+    "https://zh.wikipedia.org/wiki/%E7%A7%98%E9%B2%81%E9%9D%92%E8%8D%89%E8%8C%B6",
+    "https://www.wikidata.org/wiki/Q5831581"
+  ],
+  "confidence": "medium",
+  "wikipedia_title": "Emoliente",
+  "wikipedia_scope": "exact",
+  "popularity": 2,
+  "images": []
+}

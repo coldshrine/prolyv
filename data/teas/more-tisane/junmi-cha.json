@@ -1,0 +1,49 @@
+{
+  "slug": "junmi-cha",
+  "name_en": "Junmi Cha",
+  "name_native": "焌米茶",
+  "name_romanized": "Jùnmǐ Chá",
+  "aliases": [],
+  "category": "tisane",
+  "origin_country": "China",
+  "origin_region": "Hubei · Qianjiang",
+  "cultivar": null,
+  "form": "other",
+  "caffeine_level": "none",
+  "brewing": {
+    "grams": 2,
+    "water_ml": 200,
+    "temp_c": 100,
+    "steeps": 1,
+    "seconds": [
+      300
+    ],
+    "notes": "A common starting point for herbal infusions: boiling water, about five minutes."
+  },
+  "taste_tags": [
+    "herbal"
+  ],
+  "description": "A local speciality of Qianjiang in Hubei, made from brown rice rather than tea leaves. The rice is toasted golden in a wok, then simmered in water until the grains burst and left to cool.\n\nBrew it as you would other herbal infusions. If the plant is new to you, check that it is safe for you first, especially when pregnant or on medication.",
+  "wikipedia_title": null,
+  "wikipedia_scope": "none",
+  "popularity": 1,
+  "name_zh": "焌米茶",
+  "name_ru": "Цзюнь Ми Ча",
+  "history": "It is usually eaten with a local griddle cake called huoshaoba. Because the rice swells and fills the stomach while offering little nourishment, locals also call it 'slim waist tea'. Little more is documented about it.",
+  "liquor_hex": "#D9B66A",
+  "leaf_hex": "#C89B4A",
+  "sources": [
+    "https://zh.wikipedia.org/wiki/%E7%84%8C%E7%B1%B3%E8%8C%B6",
+    "https://www.wikidata.org/wiki/Q97347870"
+  ],
+  "confidence": "low",
+  "images": [],
+  "stub": true,
+  "processing": "Brown rice is toasted golden in a wok; a small amount is then simmered from cold water until the grains burst, and cooled before serving.",
+  "harvest_season": "Depends on the plant and the place.",
+  "appearance_dry": "Dried plant material.",
+  "appearance_liquor": "Depends on the plant; usually pale to amber.",
+  "appearance_wet": "Softened plant material.",
+  "taste_profile": "A herbal infusion; the taste depends on the plant.",
+  "vintage_note": "Herbal infusions are not sold by vintage: buy recent stock and use it within a year or so."
+}

@@ -1,0 +1,84 @@
+{
+  "slug": "east-frisian-tea",
+  "name_en": "East Frisian Tea (Ostfriesentee)",
+  "name_native": "Ostfriesentee",
+  "name_romanized": null,
+  "name_zh": "东弗里西亚混合茶",
+  "name_ru": "Восточнофризский чай",
+  "aliases": [
+    "East Friesland tea blend",
+    "East Frisian blend",
+    "East Frisian tea blend",
+    "East-Frisian Blend",
+    "East Frisian BOP",
+    "Ostfriesen Tea",
+    "Ostfriesische Mischung",
+    "Фризский чай"
+  ],
+  "category": "black",
+  "origin_country": "Germany",
+  "origin_region": "Lower Saxony · East Frisia",
+  "cultivar": null,
+  "processing": "A blend of finished black teas rather than a tea grown in Germany; Assam forms the backbone, with Ceylon and Java or Darjeeling depending on the blender.",
+  "form": "loose",
+  "harvest_season": "Not tied to one harvest, because the component teas come from several countries and are blended to a consistent taste.",
+  "appearance_dry": "Dark, small broken leaf, often of BOP grade.",
+  "appearance_liquor": "Deep reddish-brown and strong, clouded where the cream goes in.",
+  "appearance_wet": "Small, coppery-brown leaf fragments, typical of broken black tea.",
+  "taste_profile": "Strong and malty in the way of Assam-based blends. Drunk unstirred, the cup moves from cream to tea to the sweetness of the melted sugar.",
+  "taste_tags": [
+    "malty",
+    "brisk",
+    "creamy",
+    "sweet"
+  ],
+  "brewing": {
+    "grams": 5,
+    "water_ml": 400,
+    "temp_c": 98,
+    "steeps": 1,
+    "seconds": [
+      240
+    ],
+    "notes": "Put a piece of Kluntje rock sugar in the empty cup, pour the tea over it, then add a little heavy cream without stirring. Serve no spoon: the layers are the point."
+  },
+  "caffeine_level": "high",
+  "vintage_note": "Sold as a non-vintage blend with no harvest year, under a blender's name. Like other broken black blends it is best drunk fresh, within a year or two of packing, and is not an ageing tea.",
+  "description": "East Frisian tea is a strong black blend tied to one corner of north-west Germany, and to the way it is drunk there. None of the leaf is local: the character comes from Assam, supported by Ceylon and either Java or Darjeeling, and accounts of the recipe differ on that last part.\n\nBecause it is a blend, the craft lies in the mixing, not in a garden or a harvest. Blends built on Assam tend to be dark and malty, which suits a tea meant to stand up to cream.\n\nThe ritual decides the taste. Kluntje, a white rock sugar that melts slowly, goes into the empty cup and the tea is poured over it. Then comes a spoon of heavy cream, the Wölkje or little cloud. Nobody stirs, so you taste cream first, then tea, then sweetness at the bottom.\n\nBuy it as you would any breakfast blend: look for a stated East Frisian blend and a clear list of origins, and expect broken leaf. It is served to visitors and at gatherings, and also with breakfast, in mid-afternoon and in mid-evening, so it comes in everyday quantities rather than as a collector's tea.",
+  "history": "The traditional blend is dated to the 18th century, and the Frisians are said to have learned tea from their Dutch neighbours; a precise date for tea's arrival is not reliable.\n\nThe custom outlived the changes in the trade behind it. In 2016 the East Frisian tea tradition was recognised as cultural heritage.",
+  "liquor_hex": "#7A3414",
+  "leaf_hex": "#3A2618",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Tea_blending_and_additives",
+    "https://en.wikipedia.org/wiki/Tea_culture",
+    "https://www.wikidata.org/wiki/Q2035490",
+    "https://germangirlinamerica.com/east-frisian-tea-and-the-ostfriesentee-ceremony/",
+    "https://www.teegalerie.de/en/products/ostfriesisches-goldblatt-assam-blend"
+  ],
+  "confidence": "medium",
+  "wikipedia_title": "Tea culture",
+  "wikipedia_scope": "umbrella",
+  "popularity": 3,
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c3/Ostfriesentee.jpg/1280px-Ostfriesentee.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c3/Ostfriesentee.jpg/330px-Ostfriesentee.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Ostfriesentee.jpg",
+      "author": "Frank van Anken",
+      "license": "CC BY-SA 3.0",
+      "license_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+      "kind": "dry_leaf",
+      "alt": "Bowl of small dark broken East Frisian blend leaf with a spoon"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5a/Ostfriesentee_in_pot_2025-02-25_02.jpg/1280px-Ostfriesentee_in_pot_2025-02-25_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5a/Ostfriesentee_in_pot_2025-02-25_02.jpg/330px-Ostfriesentee_in_pot_2025-02-25_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Ostfriesentee_in_pot_2025-02-25_02.jpg",
+      "author": "Leonhard Lenz",
+      "license": "CC0",
+      "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "kind": "liquor",
+      "alt": "Porcelain cup of very dark East Frisian tea on a saucer"
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "slug": "chicory-root-tea",
+  "name_en": "Chicory Root Tea",
+  "name_native": null,
+  "name_romanized": null,
+  "name_zh": "菊苣茶",
+  "name_ru": "Цикорий",
+  "aliases": [
+    "Chicory",
+    "Chicory coffee",
+    "Roasted chicory",
+    "Цикориевый напиток"
+  ],
+  "category": "tisane",
+  "origin_country": "France",
+  "origin_region": "France",
+  "cultivar": null,
+  "processing": "The root is kiln-dried, roasted until dark and caramelised, then ground or granulated; roasting turns its raw bitterness sweeter.",
+  "form": "other",
+  "harvest_season": "A root crop, so there is no prized picking; it is sold roasted all year.",
+  "appearance_dry": "Dark brown roasted granules or coarse grounds, like a coffee grind.",
+  "appearance_liquor": "Opaque-looking deep brown, close to black coffee.",
+  "appearance_wet": "Soft, dark, muddy-looking grounds.",
+  "taste_profile": "Roasted and caramel-sweet with a clean bitter finish, coffee-like in its darkness but without coffee's aromatic oils.",
+  "taste_tags": [
+    "roasted",
+    "bitter",
+    "sweet",
+    "earthy"
+  ],
+  "brewing": {
+    "grams": 5,
+    "water_ml": 250,
+    "temp_c": 100,
+    "steeps": 1,
+    "seconds": [
+      240
+    ],
+    "notes": "Steep grounds in just-boiled water and strain, or use a French press. Instant granules only need stirring in. It goes well with milk."
+  },
+  "caffeine_level": "none",
+  "vintage_note": "Never sold by year or season. It comes as roasted grounds, instant granules or a blend with coffee; the roast and the blend ratio are what matter, so check whether a pack is pure chicory.",
+  "description": "Chicory root tea is the roasted root of the chicory plant brewed like coffee or a dark tisane. It has no caffeine, which is much of its appeal, and it is better known as a coffee stand-in than as a tea.\n\nThe root is dried, then roasted until it browns and caramelises. That step is the whole tea: it takes a harsh, bitter root and makes it sweeter and darker. A lightly processed version can be steeped as a tea, but most recipes roast it.\n\nExpect dark, toasty sweetness and a bitter edge without the perfume of real coffee. People often over-steep it hoping for coffee strength, which only makes it heavier, so try milk or a blend instead.\n\nIt is sold as grounds, instant granules and coffee blends, without vintages. The label tells you most of what you need to know: pure chicory has no caffeine, a coffee blend does.\n\nIf you like it, try a New Orleans chicory coffee blend for the same flavour with a coffee backbone.",
+  "history": "Roasted chicory as a coffee substitute is reported from 18th-century Prussia, when Frederick the Great restricted foreign coffee imports, ahead of its best-known chapter in France. Under Napoleon's Continental System, which lasted until 1814, coffee imports were restricted and the French turned to roasted chicory root.\n\nThe blockade left behind a French chicory industry that kept exporting through the following decades, and the taste also took root in New Orleans, where it came with French and Acadian settlers. Exact dates and personal credit for the idea vary between accounts.",
+  "liquor_hex": "#3A2115",
+  "leaf_hex": "#3F2717",
+  "sources": [
+    "https://www.wikidata.org/wiki/Q2963409",
+    "https://shop.pjscoffee.com/blogs/news/the-history-of-using-chicory",
+    "https://www.tastingtable.com/1136655/what-makes-chicory-coffee-unique/"
+  ],
+  "confidence": "medium",
+  "wikipedia_title": null,
+  "wikipedia_scope": "none",
+  "popularity": 3,
+  "images": []
+}

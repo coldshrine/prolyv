@@ -1,0 +1,51 @@
+{
+  "slug": "baoding-green-tea",
+  "name_en": "Baoding Green Tea",
+  "name_native": "宝顶绿茶",
+  "name_romanized": "Bǎodǐng Lǜchá",
+  "aliases": [],
+  "category": "green",
+  "origin_country": "China",
+  "origin_region": "Sichuan",
+  "cultivar": null,
+  "form": "loose",
+  "caffeine_level": "medium",
+  "brewing": {
+    "grams": 3,
+    "water_ml": 150,
+    "temp_c": 80,
+    "steeps": 3,
+    "seconds": [
+      60,
+      75,
+      105
+    ],
+    "notes": "A safe starting point for green tea: cooler water, short steeps, then adjust by taste."
+  },
+  "taste_tags": [
+    "vegetal",
+    "sweet"
+  ],
+  "description": "A pre-Qingming green tea from Sichuan, made from tender shoots of an early-budding, medium-leaf plant.\n\nTreat it as you would any green tea: cooler water, short steeps, and a seller who can say where and when it was picked.",
+  "wikipedia_title": null,
+  "wikipedia_scope": "none",
+  "popularity": 1,
+  "name_zh": "宝顶绿茶",
+  "name_ru": "Бао Дин Люй Ча",
+  "history": "It was created in 1983 and refined through repeated trials. About 40,000 young shoots go into each kilogram of dry tea. Little more is documented about it.",
+  "liquor_hex": "#D6D27A",
+  "leaf_hex": "#4F6236",
+  "sources": [
+    "https://milulu.com.cn/tea/3725.html"
+  ],
+  "confidence": "medium",
+  "images": [],
+  "stub": true,
+  "processing": "Fixed, rolled and dried; fixing and drying take place in far-infrared electric pans under close temperature control.",
+  "harvest_season": "Before Qingming.",
+  "appearance_dry": "Tight, fine strands showing down, with a glossy dark green colour.",
+  "appearance_liquor": "Usually a clear, pale yellow-green.",
+  "appearance_wet": "Usually soft green leaf that opens up in the water.",
+  "taste_profile": "Expect what green teas usually give: fresh, vegetal and lightly sweet.",
+  "vintage_note": "Green teas like this are normally sold as the current year's harvest and are best within a year of picking. It is not an ageing tea."
+}

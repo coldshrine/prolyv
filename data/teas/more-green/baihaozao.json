@@ -1,0 +1,55 @@
+{
+  "slug": "baihaozao",
+  "name_en": "Baihaozao",
+  "name_native": "白毫早",
+  "name_romanized": "Báiháozǎo",
+  "name_zh": "白毫早",
+  "name_ru": "Бай Хао Цзао",
+  "aliases": [
+    "Baihao Zao",
+    "Camellia sinensis cv. Baihaozao"
+  ],
+  "category": "green",
+  "origin_country": "China",
+  "origin_region": "Hunan",
+  "cultivar": "Baihaozao",
+  "processing": "A clonal tea plant cultivar rather than a finished tea, used chiefly for green tea, which is fixed and dried without oxidation.",
+  "form": "loose",
+  "harvest_season": "An early-season cultivar, picked in batches in spring. Young shoots can be hurt by late cold snaps.",
+  "appearance_dry": "As green tea, typical of downy early-spring leaf; little is documented for this cultivar's finished form.",
+  "appearance_liquor": "Pale yellow-green, as is typical of Chinese spring greens.",
+  "appearance_wet": "Tender green, as is typical of early-season shoots.",
+  "taste_profile": "Little tasting detail is recorded for this cultivar; as with other spring greens, expect a fresh, gently sweet cup.",
+  "taste_tags": [
+    "vegetal",
+    "sweet"
+  ],
+  "brewing": {
+    "grams": 3,
+    "water_ml": 150,
+    "temp_c": 85,
+    "steeps": 3,
+    "seconds": [
+      50,
+      70,
+      100
+    ],
+    "notes": "General green tea handling, since the cultivar is rarely sold under its own name."
+  },
+  "caffeine_level": "medium",
+  "vintage_note": "Rarely sold under its own name. Its leaf goes into Hunan and other Yangtze-area greens, sold as the current year's harvest as is usual for the class, with early spring lots valued most.",
+  "description": "Baihaozao, 'early white down', is a clonal shrub cultivar from the Hunan Tea Research Institute. The name describes it well enough: an early-season, medium-leaf plant, mostly used for green tea.\n\nGrowers value it for adapting well. It is grown mainly in Hunan and has been introduced to Jiangxi, Hubei, Henan, Anhui, Guangxi, Guizhou and Sichuan, and is reported as hardy against cold, drought and pests.\n\nFew detailed tasting notes exist for the cultivar on its own. Treat a green tea made from it like other spring greens, with water off the boil and fairly short steeps.\n\nIf a seller names it, ask where and when the lot was picked. Growing region and picking date will tell you more about the cup than the cultivar name alone.",
+  "history": "Baihaozao came out of the Hunan Tea Research Institute, though the year of its release is not stated in the accounts available. It has since been studied as an introduced variety in other regions, including trial plantings in southern Henan, where its leaf was judged reasonably suited to green tea. It has also been used as a parent in breeding, in a cross with Yabukita described in a Chinese patent.",
+  "liquor_hex": "#D9D792",
+  "leaf_hex": "#70884C",
+  "sources": [
+    "https://www.ichabaike.com/chashu/baihaozao/",
+    "https://agris.fao.org/search/en/records/6472510b53aa8c8963060d6f",
+    "https://patents.google.com/patent/CN110419440A/zh"
+  ],
+  "confidence": "low",
+  "wikipedia_title": null,
+  "wikipedia_scope": "none",
+  "popularity": 2,
+  "images": []
+}

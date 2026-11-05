@@ -1,0 +1,56 @@
+{
+  "slug": "ashigara-cha",
+  "name_en": "Ashigara-cha",
+  "name_native": "足柄茶",
+  "name_romanized": "Ashigara-cha",
+  "name_zh": "足柄茶",
+  "name_ru": "Асигара-тя",
+  "aliases": [
+    "Ashigara tea",
+    "あしがら茶"
+  ],
+  "category": "green",
+  "origin_country": "Japan",
+  "origin_region": "Kanagawa · Tanzawa and Hakone foothills",
+  "cultivar": null,
+  "processing": "Asamushi sencha, steamed for about 40 seconds. Crude tea from growers goes to a central tea centre, where it is fired according to leaf size and blended after sensory and chemical testing.",
+  "form": "loose",
+  "harvest_season": "Spring first flush is the most valued, as with other Japanese sencha; short mountain sunshine means the shoots grow slowly.",
+  "appearance_dry": "Like other light-steamed sencha, fine, fairly intact dark green needles.",
+  "appearance_liquor": "Pale, clear golden yellow.",
+  "appearance_wet": "Soft green leaf pieces that stay mostly whole, typical of a short steaming.",
+  "taste_profile": "Sweetness and astringency sit in balance, with a clear fragrance that is the tea's calling card.",
+  "taste_tags": [
+    "floral",
+    "sweet",
+    "umami",
+    "vegetal"
+  ],
+  "brewing": {
+    "grams": 5,
+    "water_ml": 150,
+    "temp_c": 75,
+    "steeps": 3,
+    "seconds": [
+      60,
+      15,
+      30
+    ],
+    "notes": "Fine for everyday brewing; a slightly cooler pot brings out more sweetness and less grip."
+  },
+  "caffeine_level": "medium",
+  "vintage_note": "Sold as current-year sencha, with new tea in spring and blended grades through the year. Because the cooperative system blends and fires centrally, it is sold more by grade than by single farm or village. Drink it within the year.",
+  "description": "Ashigara-cha is the regional sencha of western Kanagawa, grown in the foothills of Tanzawa and Hakone. It is a useful reminder that serious Japanese tea is made within reach of Tokyo, even though Kanagawa is a small producer.\n\nIts style is asamushi, steamed only about 40 seconds. The hills give short sunshine and slow growth, and morning mist during the new shoots is said to hold back tannin formation, while nitrogen-rich soil supports amino acids. The result is described as fragrant and balanced.\n\nWhat really sets it apart is the system. Growers belong to a cooperative that handles guidance, crude tea, blending, firing and sales together, so the tea is consistent and fairly priced rather than a collection of single-estate rarities.\n\nBrew it like any light sencha, and expect a pale golden cup. Buy by grade, and check the harvest year; the name is a registered regional collective trademark, so the label does mean something.",
+  "history": "Tea came to the area as a recovery measure after the Great Kanto Earthquake: it was introduced in 1925 in the old village of Shimizu, now Yamakita. Shared hand-rolled production began in 1927, and a village-run factory followed in 1928.\n\nThe tea won first class at the 17th national tea fair in 1963, and a tea centre for prefecture-wide collection was set up in 1964. A new factory opened in 1984, and the centre became a company in 1992.\n\nProduction has been shrinking: Kanagawa's crude tea output fell from 411 tonnes in fiscal 1975 to 146 tonnes in fiscal 2020, with ageing growers and abandoned fields among the causes. The centenary was marked in 2025.",
+  "liquor_hex": "#DCC87A",
+  "leaf_hex": "#536F36",
+  "sources": [
+    "https://ja.wikipedia.org/wiki/%E8%B6%B3%E6%9F%84%E8%8C%B6",
+    "https://www.wikidata.org/wiki/Q17191279"
+  ],
+  "confidence": "medium",
+  "wikipedia_title": "足柄茶",
+  "wikipedia_scope": "exact",
+  "popularity": 3,
+  "images": []
+}

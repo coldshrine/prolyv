@@ -1,0 +1,53 @@
+{
+  "slug": "lujian-cha",
+  "name_en": "Lüjian Cha",
+  "name_native": "绿剑茶",
+  "name_romanized": "Lǜjiàn Chá",
+  "aliases": [
+    "Zhuji Lüjian"
+  ],
+  "category": "green",
+  "origin_country": "China",
+  "origin_region": "Zhejiang · Zhuji",
+  "cultivar": null,
+  "form": "loose",
+  "caffeine_level": "medium",
+  "brewing": {
+    "grams": 3,
+    "water_ml": 150,
+    "temp_c": 80,
+    "steeps": 3,
+    "seconds": [
+      60,
+      75,
+      105
+    ],
+    "notes": "A safe starting point for green tea: cooler water, short steeps, then adjust by taste."
+  },
+  "taste_tags": [
+    "vegetal",
+    "sweet"
+  ],
+  "description": "Lüjian Cha, whose name means green sword, is a bud green tea from Zhuji in Zhejiang, grown mainly in the Longmen range to the west and around Dongbai Mountain to the southeast.\n\nTreat it as you would any green tea: cooler water, short steeps, and a seller who can say where and when it was picked.",
+  "wikipedia_title": null,
+  "wikipedia_scope": "none",
+  "popularity": 1,
+  "name_zh": "绿剑茶",
+  "name_ru": "Люй Цзянь Ча",
+  "history": "The Zhuji city government has chosen it as the city's representative gift tea. Little more is documented about its past.",
+  "liquor_hex": "#DCD98C",
+  "leaf_hex": "#84963F",
+  "sources": [
+    "https://www.maigoo.com/top/391498.html"
+  ],
+  "confidence": "medium",
+  "images": [],
+  "stub": true,
+  "processing": "Typical of green tea: picked, heated soon after picking to stop oxidation, then shaped and dried.",
+  "harvest_season": "Usually picked in spring, with the earliest pickings prized, as with most green teas.",
+  "appearance_dry": "Shaped like a green sword, with a tender green colour.",
+  "appearance_liquor": "Clear.",
+  "appearance_wet": "All buds, tender green and bright; the buds stand upright when steeped.",
+  "taste_profile": "Mellow, clean flavour with a clear, high aroma.",
+  "vintage_note": "Green teas like this are normally sold as the current year's harvest and are best within a year of picking. It is not an ageing tea."
+}

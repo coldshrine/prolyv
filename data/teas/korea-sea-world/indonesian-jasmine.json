@@ -3,10 +3,18 @@
   "name_en": "Indonesian Jasmine Tea (Teh Melati)",
   "name_native": "Teh melati",
   "name_romanized": "Teh melati",
-  "aliases": ["Teh melati", "Teh wangi", "Javanese jasmine tea", "Teh poci", "Tegal jasmine tea", "Indonesian scented tea", "Teh hijau melati"],
+  "aliases": [
+    "Teh melati",
+    "Teh wangi",
+    "Javanese jasmine tea",
+    "Teh poci",
+    "Tegal jasmine tea",
+    "Indonesian scented tea",
+    "Teh hijau melati"
+  ],
   "category": "green",
   "origin_country": "Indonesia",
-  "origin_region": "Central Java · Tegal, Slawi and Pekalongan (scenting); leaf from the West and Central Java highlands",
+  "origin_region": "Central Java · Tegal",
   "cultivar": "Assamica-type estate leaf, mostly coarser green-tea grades; Jasminum sambac blossoms for scenting",
   "processing": "Coarse, pan-fired or steamed green tea (occasionally a green-black mix) is layered with fresh jasmine buds overnight, the flowers removed or partly left in, and the tea re-dried; some brands scent repeatedly, while cheap lines add jasmine flavouring on top.",
   "form": "loose",
@@ -15,13 +23,39 @@
   "appearance_liquor": "Yellow to light amber, clear, darker than a Chinese jasmine tea.",
   "appearance_wet": "Large, rough, olive-brown leaves and stems.",
   "taste_profile": "A big, sweet jasmine fragrance over a robust, astringent, slightly toasty green tea; brewed strong and sweetened the Tegal way it is fragrant, hot, astringent, sweet and thick all at once.",
-  "taste_tags": ["floral", "sweet", "bitter", "roasted"],
-  "brewing": {"grams": 3, "water_ml": 200, "temp_c": 90, "steeps": 2, "seconds": [120, 180], "notes": "In Java it is brewed in a clay teapot (poci) with hot water and rock sugar in the pot, strong and sweet; unsweetened, use a little less leaf and cooler water. It is a pot tea, not a gaiwan tea, and is also drunk iced (es teh manis)."},
+  "taste_tags": [
+    "floral",
+    "sweet",
+    "bitter",
+    "roasted"
+  ],
+  "brewing": {
+    "grams": 3,
+    "water_ml": 200,
+    "temp_c": 90,
+    "steeps": 2,
+    "seconds": [
+      120,
+      180
+    ],
+    "notes": "In Java it is brewed in a clay teapot (poci) with hot water and rock sugar in the pot, strong and sweet; unsweetened, use a little less leaf and cooler water. It is a pot tea, not a gaiwan tea, and is also drunk iced (es teh manis)."
+  },
   "caffeine_level": "medium",
   "vintage_note": "Sold year-round by brand and grade in paper packets and tins (Tong Tji, Teh Poci, 2Tang, Cap Botol and many regional labels), never by harvest; the leaf is current-season estate tea scented continuously. Best within a year of packing, after which the jasmine fades; it is also the base of Indonesia's bottled teas.",
-  "description": "Ask for tea anywhere in Java and you will get teh melati: jasmine-scented tea, usually sweet, often iced, poured from a pot or a glass bottle. It is the national everyday tea in a country that grows a great deal of black tea for export and drinks hardly any of it. The scenting industry sits on the north coast of Central Java, around Tegal, Slawi and Pekalongan, where the old family firms blend, scent and pack it.\n\nThe base is coarse green tea from the Java estates, sometimes mixed with a little black. It is layered with fresh jasmine buds that open overnight, then re-dried, with some of the dried flowers left in for show; the better brands scent several times, the cheaper ones once and finish with flavouring. The style is loud by design: a strong, astringent, slightly toasty tea that can carry a lot of jasmine, a lot of sugar and a lot of ice.\n\nThe classic way to drink it is teh poci, from Tegal: tea brewed in a small unglazed clay pot with lumps of rock sugar dropped in, served in small glasses. Locals sum up the ideal with the acronym wasgitel, wangi, panas, sepet, legi, kentel, fragrant, hot, astringent, sweet, thick. Unsweetened it is a rougher, more bitter cup than Chinese jasmine tea; with sugar and ice, as es teh manis, it is the drink that goes with every plate of nasi goreng.\n\nIt is sold by brand, in paper packets by the hundred gram, year-round and never by harvest. Tong Tji, 2Tang, Teh Poci and Cap Botol are the household names, each with grades from cheap daily tea to 'super' lines with more scenting and fewer stems. Buy a mid or upper grade from one of them if you want the real thing; the bottled versions are sweet soft drinks on the same base.\n\nIf you like it, the comparison to make is with Vietnamese trà lài and Chinese jasmine tea: three ways of doing the same thing, from loud and sweet to quiet and delicate.",
+  "description": "Ask for tea anywhere in Java and you will get teh melati: jasmine-scented tea, usually sweet, often iced, poured from a pot or a glass bottle. It is the national everyday tea in a country that grows a great deal of black tea for export and drinks hardly any of it. The scenting industry sits on the north coast of Central Java, around Tegal, Slawi and Pekalongan, where the old family firms blend, scent and pack it.\n\nThe base is coarse green tea from the Java estates, sometimes mixed with a little black. It is layered with fresh jasmine buds that open overnight, then re-dried, with some of the dried flowers left in for show; the better brands scent several times, the cheaper ones once and finish with flavouring. The style is loud by design: a strong, astringent, slightly toasty tea that can carry a lot of jasmine, a lot of sugar and a lot of ice.\n\nThe classic way to drink it is teh poci, from Tegal: tea brewed in a small clay pot and poured over lumps of rock sugar in small cups. Locals sum up the ideal with the acronym wasgitel, wangi, panas, sepet, legi, kentel, fragrant, hot, astringent, sweet, thick. Unsweetened it is a rougher, more bitter cup than Chinese jasmine tea; with sugar and ice, as es teh manis, it is the drink that goes with every plate of nasi goreng.\n\nIt is sold by brand, in paper packets by the hundred gram, year-round and never by harvest. Tong Tji, 2Tang, Teh Poci and Cap Botol are the household names, each with grades from cheap daily tea to 'super' lines with more scenting and fewer stems. Buy a mid or upper grade from one of them if you want the real thing; the bottled versions are sweet soft drinks on the same base.\n\nIf you like it, the comparison to make is with Vietnamese trà lài and Chinese jasmine tea: three ways of doing the same thing, from loud and sweet to quiet and delicate.",
   "wikipedia_title": "Tea production in Indonesia",
   "wikipedia_scope": "umbrella",
   "popularity": 3,
-  "sources_note": "Brand names are given as examples of major Central Java jasmine tea producers; founding details are deliberately omitted. The 'wasgitel' acronym is a well-known Tegal saying about teh poci; its spelling varies between sources."
+  "sources_note": "Brand names are given as examples of major Central Java jasmine tea producers; founding details are deliberately omitted. The 'wasgitel' acronym is a well-known Tegal saying about teh poci; its spelling varies between sources.",
+  "name_zh": "印尼茉莉花茶",
+  "name_ru": "Индонезийский жасминовый чай",
+  "history": "Jasmine-scented tea is Java's everyday cup, associated above all with the north coast of Central Java around Tegal, Slawi and Pekalongan, where family firms scent and pack it. The local way of serving it is teh poci, brewed in a small clay pot and poured over rock sugar.\n\nLittle firm history of the trade is documented, and no founding story here should be taken as settled.",
+  "liquor_hex": "#C9A040",
+  "leaf_hex": "#4A4630",
+  "sources": [
+    "https://www.wikiwand.com/en/articles/Teh_poci",
+    "https://www.liputan6.com/jateng/read/4989856/asal-usul-tegal-jadi-produsen-teh-legendaris"
+  ],
+  "confidence": "low",
+  "images": []
 }

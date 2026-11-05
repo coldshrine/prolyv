@@ -1,0 +1,53 @@
+{
+  "slug": "teh-c-peng-special",
+  "name_en": "Teh-C Peng Special",
+  "name_native": null,
+  "name_romanized": null,
+  "name_zh": "砂拉越三层奶茶",
+  "name_ru": "Тех-си пенг спешл",
+  "aliases": [
+    "Teh C Peng Special",
+    "Three-layer tea"
+  ],
+  "category": "black",
+  "origin_country": "Malaysia",
+  "origin_region": "Sarawak · Kuching",
+  "cultivar": null,
+  "processing": "An iced layered drink rather than a leaf style: brewed black tea, evaporated milk and palm sugar syrup (gula apong) go into a glass with ice, unstirred, so they sit in visible bands.",
+  "form": "other",
+  "harvest_season": "Not tied to a harvest; made all year from everyday black tea.",
+  "appearance_dry": "The base tea is ordinary dark black tea; little is recorded about any particular grade.",
+  "appearance_liquor": "Three or more bands in a tall glass, with dark tea on top, pale milk in the middle and brown palm syrup below.",
+  "appearance_wet": "Leaf is strained away before the drink is assembled.",
+  "taste_profile": "Described by its parts rather than a fixed flavour: cold tea, creamy evaporated milk and the sweetness of palm sugar, shifting as the layers are stirred together.",
+  "taste_tags": [
+    "sweet",
+    "creamy",
+    "brisk"
+  ],
+  "brewing": {
+    "grams": 6,
+    "water_ml": 200,
+    "temp_c": 100,
+    "steeps": 1,
+    "seconds": [
+      300
+    ],
+    "notes": "A home starting point: add syrup first, then evaporated milk and ice, and pour cooled strong tea slowly over the top so that the layers hold. Stir before drinking."
+  },
+  "caffeine_level": "medium",
+  "vintage_note": "Sold by the glass in kopitiams, made to order, with no year or season attached. It depends on the syrup and the pour more than on any tea lot. The nearest thing to a quality check is gula apong, the nipah palm sugar that gives the drink its local identity.",
+  "description": "This is the showpiece of Sarawak's coffee shops: iced tea with evaporated milk and palm sugar syrup, served unstirred so the glass stands in stripes. The name is plain local shorthand, with teh for tea, C for evaporated milk and peng for iced.\n\nWhat sets it apart from ordinary teh-C is gula apong, a syrup made from nipah palm sugar. Very little is written about how the tea itself is chosen; as with other kopitiam milk teas, a strong everyday black is the likely base.\n\nThe layers are mostly for looking at first. Stir before you drink and you get something sweet and creamy; sip without stirring and the balance changes as you reach the syrup.\n\nOrder it at a kopitiam in Sarawak if you can. Elsewhere, ask whether the sugar layer is really gula apong.",
+  "history": "Little is documented about who created it or when. It is described as originally from Kuching, from where it spread to the rest of Sarawak and to neighbouring Sabah.",
+  "liquor_hex": "#A9744A",
+  "leaf_hex": "#33231A",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Sarawakian_cuisine",
+    "https://en.wikipedia.org/wiki/Teh_tarik"
+  ],
+  "confidence": "medium",
+  "wikipedia_title": "Teh tarik",
+  "wikipedia_scope": "umbrella",
+  "popularity": 2,
+  "images": []
+}

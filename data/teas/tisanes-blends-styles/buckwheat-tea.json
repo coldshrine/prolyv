@@ -3,24 +3,96 @@
   "name_en": "Buckwheat Tea (Sobacha)",
   "name_native": "そば茶 / 메밀차 / 苦荞茶",
   "name_romanized": "Sobacha / Memil-cha / Kǔqiáo chá",
-  "aliases": ["Sobacha", "Soba cha", "Memil-cha", "Tartary buckwheat tea", "Kuqiao cha", "Roasted buckwheat tea", "Black buckwheat tea"],
+  "aliases": [
+    "Sobacha",
+    "Soba cha",
+    "Memil-cha",
+    "Tartary buckwheat tea",
+    "Kuqiao cha",
+    "Roasted buckwheat tea",
+    "Black buckwheat tea",
+    "Dattan sobacha",
+    "蕎麥茶",
+    "苦荞茶",
+    "苦蕎茶",
+    "Соба-тя",
+    "Мемил-ча"
+  ],
   "category": "tisane",
   "origin_country": "Japan",
-  "origin_region": "Hokkaido and Nagano (soba country); also Korea (memil-cha) and the Tartary buckwheat tea of Sichuan and Yunnan",
-  "cultivar": "Roasted groats of common buckwheat (Fagopyrum esculentum) for sobacha and memil-cha; Tartary buckwheat (Fagopyrum tataricum) for the more bitter Chinese kuqiao cha",
-  "processing": "Hulled buckwheat groats are steamed or parboiled, dried and roasted until golden brown; Tartary buckwheat is roasted whole, sometimes with the dark husk partly left on, which gives the 'black' grades.",
+  "origin_region": "Hokkaido",
+  "cultivar": "Roasted groats of common buckwheat (Fagopyrum esculentum) or Tartary buckwheat (Fagopyrum tataricum); Japan sells both, Korea increasingly uses Tartary, and Chinese kuqiao cha is Tartary",
+  "processing": "Buckwheat is husked, cooked by steaming or boiling, dried and roasted without oil until golden brown.",
   "form": "other",
   "harvest_season": "Buckwheat is sown in summer and harvested in autumn (September to October); the roasted groats are sold all year.",
   "appearance_dry": "Small, angular golden-brown roasted groats that look like tiny toasted kernels; Tartary types are darker and more uniform.",
   "appearance_liquor": "Clear pale amber to golden.",
   "appearance_wet": "Soft, puffed, pale groats that are good to eat once the pot is finished.",
   "taste_profile": "Toasty, nutty and popcorn-like with a gentle sweetness and the faint flavour of soba noodles; Tartary buckwheat adds a light bitter edge and a deeper roast.",
-  "taste_tags": ["roasted", "nutty", "sweet"],
-  "brewing": {"grams": 8, "water_ml": 250, "temp_c": 95, "steeps": 2, "seconds": [240, 300], "notes": "A heaped tablespoon per cup, just-boiled water, 3–5 minutes; the groats give a second cup and then can be eaten or stirred into rice. Also good cold-brewed in a jug. Not a tea plant and not related to wheat, so it is gluten-free."},
+  "taste_tags": [
+    "roasted",
+    "nutty",
+    "sweet"
+  ],
+  "brewing": {
+    "grams": 8,
+    "water_ml": 250,
+    "temp_c": 95,
+    "steeps": 2,
+    "seconds": [
+      240,
+      300
+    ],
+    "notes": "A heaped tablespoon per cup, just-boiled water, 3–5 minutes; the groats give a second cup and then can be eaten or stirred into rice. Also good cold-brewed in a jug. Not a tea plant and not related to wheat, so it is gluten-free."
+  },
   "caffeine_level": "none",
-  "vintage_note": "No vintage: sold year-round as roasted groats in packs or in tea bags with a best-before of about a year, after which roasted grain tastes stale. Japanese packs may name the region (Hokkaido is the big grower) and Korean packs are often mixed grain teas; Chinese Tartary buckwheat tea is graded by form, with 'whole embryo' and 'black' (husk-on) grades at the top and plain hulled groats below. Buy small amounts and keep them sealed.",
-  "description": "Buckwheat tea is roasted buckwheat groats steeped in hot water: a nutty, toasty, sweet infusion that tastes a little of soba noodles and nothing of tea. It is an everyday caffeine-free drink in Japan, Korea and the buckwheat-growing highlands of southwest China, and it is what soba restaurants in Japan pour with the meal.\n\nThe groats are parboiled or steamed, dried and roasted, which gelatinises the starch and gives them the golden colour and the popcorn smell. In Japan and Korea this is done with common buckwheat; in Sichuan and Yunnan it is done with Tartary buckwheat, a hardier mountain crop that is naturally more bitter, and those teas are sold as 'kuqiao' with 'black' husk-on grades considered the best.\n\nIn the cup it is mellow and slightly sweet with a toasty depth, a bit like a lighter, cleaner barley tea. Hot water and a few minutes is all it needs, the groats take a second steep, and at the end you can eat them, which is exactly what people do. It is also a good cold brew and a natural partner for rice and noodle dishes.\n\nThere is no vintage and nothing to fake; the only quality question is freshness, because roasted grain goes flat within a year. Japanese packs may name Hokkaido or Nagano, and Chinese Tartary buckwheat is priced by grade.\n\nIf you like hojicha and barley tea, this is the third member of the family; it is gluten-free, caffeine-free and the easiest of the three to brew well.",
+  "vintage_note": "No vintage: sold year-round as roasted groats in packs or in tea bags with a best-before of about a year, after which roasted grain tastes stale. Japanese packs say whether the grain is common or Tartary buckwheat and may name the region (Hokkaido is the big grower), and Korean packs are often mixed grain teas; Chinese Tartary buckwheat tea is sold in several forms and grades, including whole-embryo and darker 'black' types. Buy small amounts and keep them sealed.",
+  "description": "Buckwheat tea is roasted buckwheat groats steeped in hot water: a nutty, toasty, sweet infusion that tastes a little of soba noodles and nothing of tea. It is an everyday caffeine-free drink in Japan, Korea and the buckwheat-growing highlands of southwest China, and it is what soba restaurants in Japan pour with the meal.\n\nThe groats are parboiled or steamed, dried and roasted, which gelatinises the starch and gives them the golden colour and the popcorn smell. Common buckwheat is the traditional grain in Japan and Korea, though Tartary buckwheat, a hardier mountain crop that is naturally more bitter, is used there too; in Sichuan and Yunnan it is the standard, and those teas are sold as 'kuqiao' in several grades.\n\nIn the cup it is mellow and slightly sweet with a toasty depth, a bit like a lighter, cleaner barley tea. Hot water and a few minutes is all it needs, the groats take a second steep, and at the end you can eat them, which is exactly what people do. It is also a good cold brew and a natural partner for rice and noodle dishes.\n\nThere is no vintage and nothing to fake; the only quality question is freshness, because roasted grain goes flat within a year. Japanese packs may name Hokkaido or Nagano, and Chinese Tartary buckwheat is priced by grade.\n\nIf you like hojicha and barley tea, this is the third member of the family; it is caffeine-free and the easiest of the three to brew well. Buckwheat is a listed allergen in Japan, so anyone sensitive to it should stay away.",
   "wikipedia_title": "Buckwheat tea",
   "wikipedia_scope": "exact",
-  "popularity": 3
+  "popularity": 3,
+  "name_zh": "荞麦茶",
+  "name_ru": "Гречишный чай",
+  "history": "Roasted buckwheat is drunk in three neighbouring traditions under three names: soba-cha in Japan, memil-cha in Korea and kuqiao-cha in China. Little is documented about when any of them began. The method is plain household cooking: the grain is husked, cooked, dried and pan-roasted without oil.\n\nJapan draws a line between tea from common buckwheat and dattan soba-cha from Tartary buckwheat, which is richer in rutin, and bottled Tartary versions from large drink makers are a recent arrival there. In Korea, Tartary buckwheat grown in Gangwon Province has lately become popular for memil-cha because it is nuttier.",
+  "liquor_hex": "#C99A4A",
+  "leaf_hex": "#A9743A",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Buckwheat_tea",
+    "https://ja.wikipedia.org/wiki/%E3%81%9D%E3%81%B0%E8%8C%B6",
+    "https://ko.wikipedia.org/wiki/%EB%A9%94%EB%B0%80%EC%B0%A8",
+    "https://ru.wikipedia.org/wiki/%D0%93%D1%80%D0%B5%D1%87%D0%B8%D1%88%D0%BD%D1%8B%D0%B9_%D1%87%D0%B0%D0%B9"
+  ],
+  "confidence": "medium",
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/16/Buckwheat_tea.jpg/1280px-Buckwheat_tea.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/16/Buckwheat_tea.jpg/330px-Buckwheat_tea.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Buckwheat_tea.jpg",
+      "author": "Fumikas Sagisavas",
+      "license": "CC0",
+      "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "kind": "dry_leaf",
+      "alt": "Close view of golden-brown roasted buckwheat groats"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/83/Dark_buckwheat_tea.jpg/1280px-Dark_buckwheat_tea.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/83/Dark_buckwheat_tea.jpg/330px-Dark_buckwheat_tea.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Dark_buckwheat_tea.jpg",
+      "author": "Fumikas Sagisavas",
+      "license": "CC0",
+      "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "kind": "dry_leaf",
+      "alt": "Close view of darker roasted tartary buckwheat grains"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/55/Buckwheat_tea_in_stainless_steel_cup.jpg/1280px-Buckwheat_tea_in_stainless_steel_cup.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/55/Buckwheat_tea_in_stainless_steel_cup.jpg/330px-Buckwheat_tea_in_stainless_steel_cup.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Buckwheat_tea_in_stainless_steel_cup.jpg",
+      "author": "Fumikas Sagisavas",
+      "license": "CC0",
+      "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "kind": "liquor",
+      "alt": "Clear golden buckwheat tea in a stainless steel cup"
+    }
+  ]
 }

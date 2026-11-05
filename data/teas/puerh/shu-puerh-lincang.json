@@ -3,7 +3,14 @@
   "name_en": "Lincang Shu Pu-erh",
   "name_native": "临沧熟普洱",
   "name_romanized": "Líncāng Shú Pǔ'ěr",
-  "aliases": ["Lincang ripe pu-erh", "Lin Cang shu", "Mengku shu", "Yongde shu", "Fengqing shu", "临沧熟茶"],
+  "aliases": [
+    "Lincang ripe pu-erh",
+    "Lin Cang shu",
+    "Mengku shu",
+    "Yongde shu",
+    "Fengqing shu",
+    "临沧熟茶"
+  ],
   "category": "shu",
   "origin_country": "China",
   "origin_region": "Yunnan · Lincang",
@@ -15,12 +22,45 @@
   "appearance_liquor": "Bright red-brown, clear and glossy.",
   "appearance_wet": "Soft, medium-large brown leaves with buds, evenly fermented.",
   "taste_profile": "Sweet and easy: caramel, red dates and a sweet-potato note, a medium body, a light clean earthiness, no bitterness and a soft, slightly fruity finish; lighter and sweeter than Menghai shu, fuller than Yiwu shu.",
-  "taste_tags": ["sweet", "dried-fruit", "fruity", "earthy"],
-  "brewing": {"grams": 8, "water_ml": 120, "temp_c": 100, "steeps": 10, "seconds": [10, 10, 12, 15, 20, 30, 45, 60, 90, 150], "notes": "Rinse twice with boiling water. Boiling water throughout; forgiving tea that works in a gaiwan, a pot or a thermos."},
+  "taste_tags": [
+    "sweet",
+    "dried-fruit",
+    "fruity",
+    "earthy"
+  ],
+  "brewing": {
+    "grams": 8,
+    "water_ml": 120,
+    "temp_c": 100,
+    "steeps": 10,
+    "seconds": [
+      10,
+      10,
+      12,
+      15,
+      20,
+      30,
+      45,
+      60,
+      90,
+      150
+    ],
+    "notes": "Rinse twice with boiling water. Boiling water throughout; forgiving tea that works in a gaiwan, a pot or a thermos."
+  },
   "caffeine_level": "medium",
   "vintage_note": "Sold by production year, as cakes and bricks from the Lincang factories (the Mengku and Fengqing plants among them), as the anonymous base of many budget and Western-vendor house shu, and as boutique cakes with a county or village stated; most of it is drunk at 1–10 years. Young lots clear their pile smell quickly because the leaf is bud-rich; 3–8 years is the comfortable window and aged Lincang shu mostly means 2000s factory cakes and tuo. Supply is 2005–2025, largely dry-stored, and prices are among the lowest for clean ripe tea, which is the point.",
   "description": "Lincang shu is ripe pu-erh fermented from the abundant, sweet, bud-rich leaf of Lincang prefecture, and it is probably the ripe tea most people outside China have drunk without knowing it: the base of countless budget cakes, house blends and Western vendors' own-label shu, as well as the named products of the Mengku and Fengqing factories.\n\nThe leaf comes from the big plantation areas of Mengku, Yongde, Fengqing and Yun County, with old-garden lots for boutique cakes, and is wet-piled either in Lincang or in Menghai, usually to a medium-full degree. Lincang material carries a lot of buds and natural sweetness, which fermentation turns into caramel and date flavours rather than the heavier wood and earth of Bulang leaf.\n\nIn the cup, Lincang shu is sweet and easy: caramel, red dates, a sweet-potato note, a medium body, a light earthiness that reads as clean rather than muddy, and a soft, faintly fruity finish. It is lighter than Menghai ripe and fuller than Yiwu ripe, and it is the style most people mean when they say they like shu because it is comforting. Boiling water, two rinses, and it tolerates any brewing method.\n\nIt is sold by production year from the Lincang factories, as unnamed base material in blends, and as boutique cakes with the county or village stated, generally at low prices. Because the leaf is cheap and plentiful, this is also where 'gushu shu' claims are most easily attached to plantation tea, so pay for cleanliness and sweetness rather than for tree stories. A Mengku-factory ripe cake with five years on it is a reliable, inexpensive benchmark.\n\nFor an everyday ripe tea, a Lincang shu is the sensible default; keep the Menghai and Bulang cakes for when you want weight.",
   "wikipedia_title": "Pu'er tea",
   "wikipedia_scope": "umbrella",
-  "popularity": 2
+  "popularity": 2,
+  "name_zh": "临沧熟普洱",
+  "name_ru": "Линьцан Шу Пуэр",
+  "history": "This is ripe pu-erh made from the leaf of Lincang prefecture, one of Yunnan's large tea-growing areas. It is an origin label rather than a historic named tea, and it covers everything from local factory cakes to anonymous blends sold under other names.\n\nLittle is documented about its history as a distinct style. The sweet, easy character attributed to it comes from tea drinkers' experience more than from any written record.",
+  "liquor_hex": "#622610",
+  "leaf_hex": "#3E2919",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Pu%27er_tea"
+  ],
+  "confidence": "low",
+  "images": []
 }

@@ -1,0 +1,60 @@
+{
+  "slug": "hatomugi-tea",
+  "name_en": "Job's Tears Tea (Hatomugi, Yulmu-cha)",
+  "name_native": "はと麦茶",
+  "name_romanized": "Hatomugi-cha",
+  "name_zh": "薏苡茶",
+  "name_ru": "Чай из коикса (хатомуги-тя, юльму-ча)",
+  "aliases": [
+    "Hatomugi tea",
+    "Hatomugi-cha",
+    "Job's tears tea",
+    "Yulmu-cha",
+    "Yulmu cha",
+    "율무차",
+    "ハトムギ茶",
+    "Юльму-ча",
+    "Иовлевы слёзы"
+  ],
+  "category": "tisane",
+  "origin_country": "Japan",
+  "origin_region": "Nationwide",
+  "cultivar": "Coix lacryma-jobi var. ma-yuen",
+  "processing": "In Japan the kernels are roasted and brewed; roasting grains that have first been germinated softens their strong smell. Korean yulmu-cha is a different format, a thick drink made from powdered grain.",
+  "form": "loose",
+  "harvest_season": "Grain of an annual that flowers from summer into autumn and is gathered after that; the tea is sold all year.",
+  "appearance_dry": "Plump roasted kernels in light to mid brown, or a pale powder for the Korean drink.",
+  "appearance_liquor": "Clear golden brown when roasted and brewed; yulmu-cha is thick, opaque and milky beige.",
+  "appearance_wet": "Swollen, soft-looking kernels.",
+  "taste_profile": "Toasty and grainy like other roasted grain teas, with a distinctive strong smell that plain roasted kernels keep and germinated ones largely lose.",
+  "taste_tags": [
+    "roasted",
+    "nutty",
+    "earthy"
+  ],
+  "brewing": {
+    "grams": 8,
+    "water_ml": 500,
+    "temp_c": 100,
+    "steeps": 1,
+    "seconds": [
+      420
+    ],
+    "notes": "Simmer or steep kernels in boiling water, as for barley tea. For yulmu-cha stir the powder into hot water instead."
+  },
+  "caffeine_level": "none",
+  "vintage_note": "Sold without a vintage, in tea bags, as roasted kernels or, for the Korean style, as a sweetened powder, all year. As with barley tea, a recent roast tastes best; check the label if you want pure hatomugi.",
+  "description": "Hatomugi is the cultivated form of Job's tears, a tall grass with a soft-shelled grain, and in Japan the roasted kernels are brewed the way barley is. Korea takes the same grain somewhere else entirely: yulmu-cha is a thick, spoonable drink made from powder.\n\nThe Japanese version is roasted, and the honest thing to say is that plain hatomugi tea has never been everybody's pleasure. It has a strong smell and has traditionally been drunk for its supposed benefits more than for the taste. Germinating the seed before roasting makes a noticeably easier cup.\n\nBrew it like barley tea: plenty of grain, boiling water, a few minutes on the heat, and serve it hot or cold. If the first cup seems odd, try a germinated version or a blend before giving up on it.\n\nIt is sold as tea bags and kernels. China has a cousin too, yi ren jiang, a thin, cloudy sweetened drink made by simmering the polished grain.",
+  "history": "When hatomugi reached Japan is unclear. Related grains turn up at a settlement site from the early 6th century, and one suggestion is that the cultivated form had arrived by the Nara period, with an unproven theory crediting the monk Ganjin. Firm evidence for the soft-shelled crop dates to the Kyōhō era of the Edo period, supported by a 1726 text by Matsuoka Gentatsu describing its soft husk.\n\nThe grain was also medicine: yokuinin is its name as a herbal drug, and the classic Chinese materia medica ranks it among the upper drugs. The tea grew up as a health drink, and the germinated style is a later refinement aimed at the smell.",
+  "liquor_hex": "#C2964F",
+  "leaf_hex": "#A67C4B",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Job%27s_tears",
+    "https://ja.wikipedia.org/wiki/%E3%83%8F%E3%83%88%E3%83%A0%E3%82%AE"
+  ],
+  "confidence": "medium",
+  "wikipedia_title": "Job's tears",
+  "wikipedia_scope": "umbrella",
+  "popularity": 3,
+  "images": []
+}

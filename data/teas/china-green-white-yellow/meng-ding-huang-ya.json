@@ -3,10 +3,16 @@
   "name_en": "Meng Ding Huang Ya (Mengding Yellow Bud)",
   "name_native": "蒙顶黄芽",
   "name_romanized": "Méngdǐng Huángyá",
-  "aliases": ["Mengding Huangya", "Meng Ding Yellow Bud", "Mengshan Huangya", "Sichuan yellow bud", "Mengding Yellow Sprout"],
+  "aliases": [
+    "Mengding Huangya",
+    "Meng Ding Yellow Bud",
+    "Mengshan Huangya",
+    "Sichuan yellow bud",
+    "Mengding Yellow Sprout"
+  ],
   "category": "yellow",
   "origin_country": "China",
-  "origin_region": "Sichuan · Ya'an · Mengding Mountain (Mingshan district)",
+  "origin_region": "Sichuan · Ya'an · Mengding Mountain",
   "cultivar": "Mengshan local landrace and Mingshan clones such as Mingshan Bai Hao 131",
   "processing": "Single buds or bud-with-one-leaf are pan-fired and pressed flat, then wrapped in paper to yellow for a day or two, re-fired and re-wrapped two or three times ('three firings, three wrappings'), and finished with a slow drying.",
   "form": "loose",
@@ -15,13 +21,43 @@
   "appearance_liquor": "Pale yellow, bright and clear.",
   "appearance_wet": "Plump yellow buds, tender and uniform.",
   "taste_profile": "Sweet corn, honey and a glutinous-rice softness with a round, mellow body and a lingering sweetness; the gentlest of the yellow bud teas.",
-  "taste_tags": ["sweet", "honey", "nutty", "creamy"],
-  "brewing": {"grams": 3, "water_ml": 150, "temp_c": 80, "steeps": 3, "seconds": [60, 60, 90], "notes": "Glass or gaiwan at 80 °C with longer steeps than a green; flat yellowed buds release slowly and reward patience."},
+  "taste_tags": [
+    "sweet",
+    "honey",
+    "nutty",
+    "creamy"
+  ],
+  "brewing": {
+    "grams": 3,
+    "water_ml": 150,
+    "temp_c": 80,
+    "steeps": 3,
+    "seconds": [
+      60,
+      60,
+      90
+    ],
+    "notes": "Glass or gaiwan at 80 °C with longer steeps than a green; flat yellowed buds release slowly and reward patience."
+  },
   "caffeine_level": "medium",
   "vintage_note": "Sold as the current year's early spring harvest, almost entirely pre-Qingming, in tiny quantities and at a high price; the Mengding name is protected. Much 'Mengding Huangya' is very lightly yellowed and close to a flat green bud tea, so ask how many wrapping rounds were done. Drink within the year, kept cold and sealed.",
-  "description": "Meng Ding Huang Ya is the yellow tea of Mengding Mountain in Ya'an, Sichuan, the same misty ridge that makes Mengding Gan Lu, and it is the gentlest of the yellow bud teas. It was reconstructed in the early 1980s from older local methods and is made in very small amounts, mostly for the Sichuan market and for gifts.\n\nThe buds are pan-fired and pressed flat, like a tiny Longjing, then wrapped in paper and left to yellow in a warm room for a day or two, fired again, wrapped again, through two or three rounds, and dried slowly. That repeated wrap-and-fire is what turns the buds golden and strips out the grassy edge; it is slow and expensive, which is why many makers cut it short.\n\nIn the cup it is soft and sweet: sweet corn, honey and a glutinous-rice note, a round mellow body and a long sweetness, with none of the bite of a green bud tea. Brew it at 80 °C in a glass or gaiwan with longer steeps than you would give a green, because flat yellowed buds release slowly. Three steeps is honest; it is a tea of texture and aftertaste rather than aroma.\n\nSichuan's early spring means it is picked from late February and is almost all pre-Qingming. It is sold as the current year's harvest in small, pricey lots, and the usual caveat applies: a lot of what is sold as Mengding Huangya is barely yellowed, essentially a flat green bud tea with a yellow name. Ask how many wrapping rounds were done, and expect the leaf to be visibly golden rather than green.\n\nTaste it beside Mengding Gan Lu from the same slopes: the clearest way to see what yellowing does to a Sichuan bud.",
+  "description": "Meng Ding Huang Ya is the yellow tea of Mengding Mountain in Ya'an, Sichuan, the same misty ridge that makes Mengding Gan Lu, and it is the gentlest of the yellow bud teas. It was the mountain's leading tea in the first half of the twentieth century, has since been overtaken by Gan Lu, and is now made in very small amounts, mostly for the Sichuan market and for gifts.\n\nThe buds are pan-fired and pressed flat, like a tiny Longjing, then wrapped in paper and left to yellow in a warm room for a day or two, fired again, wrapped again, through two or three rounds, and dried slowly. That repeated wrap-and-fire is what turns the buds golden and strips out the grassy edge; it is slow and expensive, which is why many makers cut it short.\n\nIn the cup it is soft and sweet: sweet corn, honey and a glutinous-rice note, a round mellow body and a long sweetness, with none of the bite of a green bud tea. Brew it at 80 °C in a glass or gaiwan with longer steeps than you would give a green, because flat yellowed buds release slowly. Three steeps is honest; it is a tea of texture and aftertaste rather than aroma.\n\nSichuan's early spring means it is picked from late February and is almost all pre-Qingming. It is sold as the current year's harvest in small, pricey lots, and the usual caveat applies: a lot of what is sold as Mengding Huangya is barely yellowed, essentially a flat green bud tea with a yellow name. Ask how many wrapping rounds were done, and expect the leaf to be visibly golden rather than green.\n\nTaste it beside Mengding Gan Lu from the same slopes: the clearest way to see what yellowing does to a Sichuan bud.",
   "wikipedia_title": "Yellow tea",
   "wikipedia_scope": "umbrella",
   "popularity": 2,
-  "sources_note": "No dedicated English Wikipedia article found. Reconstruction date 'early 1980s' follows Chinese sources."
+  "sources_note": "No dedicated English Wikipedia article found. Reconstruction date 'early 1980s' follows Chinese sources.",
+  "name_zh": "蒙顶黄芽",
+  "name_ru": "Мэн Дин Хуан Я",
+  "history": "Mengding Mountain has sent tea to the court for a very long time, with tribute running from the Tang to the Qing. Which tea that was is another matter: the Tang record that ranks Mengding first names Shihua, and claims that Huang Ya itself goes back that far are harder to pin down.\n\nThe firmer history is recent. By the early Republic the mountain was producing mainly yellow bud tea, and around 1950 Huang Ya was still the leading Mengding tea. Since then the green Gan Lu has taken over that position, leaving Huang Ya the smaller sibling.\n\nIt is classed among China's bud-type yellow teas, defined by the wrapped, heated yellowing step that gives it its soft taste.",
+  "liquor_hex": "#E6D88E",
+  "leaf_hex": "#C2A94E",
+  "sources": [
+    "https://www.wikidata.org/wiki/Q18658383",
+    "https://zh.wikipedia.org/wiki/%E8%92%99%E9%A1%B6%E9%BB%84%E8%8A%BD",
+    "https://ja.wikipedia.org/wiki/%E8%92%99%E9%A0%82%E9%BB%84%E8%8A%BD",
+    "https://zh.wikipedia.org/wiki/%E8%92%99%E5%B1%B1%E8%8C%B6",
+    "https://zh.wikipedia.org/wiki/%E9%BB%84%E8%8C%B6"
+  ],
+  "confidence": "high",
+  "images": []
 }

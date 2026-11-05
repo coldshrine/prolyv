@@ -3,10 +3,20 @@
   "name_en": "Hojicha",
   "name_native": "ほうじ茶",
   "name_romanized": "Hōjicha",
-  "aliases": ["Houjicha", "Roasted green tea", "Hoji-cha", "Kuki hōjicha", "Bōcha", "Kaga bōcha"],
+  "aliases": [
+    "Houjicha",
+    "Roasted green tea",
+    "Hoji-cha",
+    "Kuki hōjicha",
+    "Bōcha",
+    "Kaga bōcha",
+    "焙じ茶",
+    "烘焙茶",
+    "Ходзича"
+  ],
   "category": "green",
   "origin_country": "Japan",
-  "origin_region": "Kyoto (home of the style); made nationwide, with Ishikawa · Kaga known for stem hōjicha",
+  "origin_region": "Kyoto",
   "cultivar": null,
   "processing": "Finished green tea, usually bancha, lower-grade sencha or stems, is roasted at around 160–200 °C for a few minutes in a rotating drum until the leaf turns reddish-brown and the aroma becomes nutty and caramel-like; the roast drives off most of the grassy notes and some of the caffeine.",
   "form": "loose",
@@ -15,13 +25,52 @@
   "appearance_liquor": "Clear amber to reddish-brown.",
   "appearance_wet": "Soft brown leaves and stems with a baked, toasted smell.",
   "taste_profile": "Toasted grain, caramel and a light woody smokiness with very little bitterness and a soft, comforting body.",
-  "taste_tags": ["roasted", "nutty", "sweet", "woody"],
-  "brewing": {"grams": 4, "water_ml": 200, "temp_c": 95, "steeps": 3, "seconds": [30, 20, 45], "notes": "The one Japanese tea that likes hot water: just off the boil, short steeps, a big pot. The leaf is bulky, so do not overfill a small kyusu. Takes milk well and cold-brews cleanly."},
+  "taste_tags": [
+    "roasted",
+    "nutty",
+    "sweet",
+    "woody"
+  ],
+  "brewing": {
+    "grams": 4,
+    "water_ml": 200,
+    "temp_c": 95,
+    "steeps": 3,
+    "seconds": [
+      30,
+      20,
+      45
+    ],
+    "notes": "The one Japanese tea that likes hot water: just off the boil, short steeps, a big pot. The leaf is bulky, so do not overfill a small kyusu. Takes milk well and cold-brews cleanly."
+  },
   "caffeine_level": "low",
   "vintage_note": "A year-round product with no harvest or vintage meaning: it is roasted in batches from stored bancha, sencha or stems and sold by base material and roast level (light, medium, dark) rather than by season. Freshly roasted lots smell best, so a good shop roasts often and sells in small bags; it keeps a few months at room temperature and does not need the fridge.",
   "description": "Hōjicha is Japanese green tea that has been roasted brown. The leaf is finished green tea, not black, and the roast happens at the end, turning a grassy sencha, bancha or stem tea into something that smells of toast, caramel and warm wood. The usual story is that a Kyoto tea merchant began roasting surplus leaf in the 1920s to make it sellable, and whether or not that is exactly right, Kyoto is where the style is most at home; today it is made everywhere and served in restaurants, hospitals and homes as the tea that will not keep you awake.\n\nThe leaf is roasted in a rotating drum at around 160–200 °C for a few minutes, and the browning reactions do the work: the catechins that make green tea astringent are largely broken down, the fresh green aromatics are driven off, and roasted, nutty compounds take their place. Because the base is usually mature leaf or stems and the roast removes a little of the caffeine on top, the cup is one of the lightest in caffeine among real teas. The base material shapes the result: stem hōjicha (kuki hōjicha or bōcha, with Kaga bōcha from Ishikawa as the famous example) is the sweetest and lightest, bancha gives a deeper, slightly smoky tea, and sencha gives more body.\n\nIt is the one Japanese tea that likes hot water. Use water just off the boil, a generous 4 g for 200 ml and steeps of about 30 seconds; it takes two or three good infusions and never gets bitter. Cold-brewed overnight it makes a clean, nutty iced tea, and it takes milk well, which is why hōjicha lattes have travelled so far. The only way to get it wrong is to treat it like sencha with cool water and a long wait, which gives a flat cup.\n\nIt is cheap and sold year-round in 100–200 g bags, so freshness is the thing to buy for: the roast aroma is at its best in the weeks after roasting, and a good shop roasts often. Labels tell you the base (leaf, stem or a mix) and sometimes the roast level, from light and sweet to dark and smoky. There is no vintage or grade hierarchy worth worrying about, and a bag kept in a cupboard for a few months is fine.\n\nDrink it after dinner, with anything fried or rich, or as the last tea of the evening; and if you ever have stale sencha, ten minutes in a dry pan over medium heat will turn it into perfectly good hōjicha.",
   "wikipedia_title": "Hōjicha",
   "wikipedia_scope": "exact",
   "popularity": 5,
-  "sources_note": "The 1920s Kyoto origin is the commonly repeated trade story, presented as such."
+  "sources_note": "The 1920s Kyoto origin is the commonly repeated trade story, presented as such.",
+  "name_zh": "焙茶",
+  "name_ru": "Ходзитя",
+  "history": "Hōjicha started as thrift, a way to rescue hard leaf, stems and tea gone stale. The usual story says a Kyoto merchant stuck with unsold bancha around 1920 roasted it and found he had something new. The more careful version is that commercial methods took shape between the Meiji period and the early Shōwa years, both in Kyoto's leaf style and in the stem tea (bōcha) of Ishikawa, and that today's method was fixed in Kyoto in the 1920s.\n\nThe tool changed along the way, from the hand-held clay or porcelain roaster called a hōroku to automatic drum roasters. The word comes from hōzuru, to roast. Japan's tea labelling standard defines it plainly as sencha, bancha or similar tea roasted over strong heat. Most is third- or fourth-flush leaf, but Ishikawa's bōcha sometimes uses first flush, so low grade is not a rule.\n\nIt was long a modest kitchen and restaurant tea. It now also comes in bottles, and in recent years café lattes have made the word Hojicha known across Asia and the West.",
+  "liquor_hex": "#A8602A",
+  "leaf_hex": "#6E3F22",
+  "sources": [
+    "https://ja.wikipedia.org/wiki/%E3%81%BB%E3%81%86%E3%81%98%E8%8C%B6",
+    "https://en.wikipedia.org/wiki/H%C5%8Djicha",
+    "https://ru.wikipedia.org/wiki/%D0%A5%D0%BE%D0%B4%D0%B7%D0%B8%D1%82%D1%8F"
+  ],
+  "confidence": "high",
+  "images": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/9/91/Hojicha.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/91/Hojicha.jpg/330px-Hojicha.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Hojicha.jpg",
+      "author": "Francois Mathieu",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "kind": "dry_leaf",
+      "alt": "Small pile of dry hojicha, roasted reddish-brown leaves and stems"
+    }
+  ]
 }

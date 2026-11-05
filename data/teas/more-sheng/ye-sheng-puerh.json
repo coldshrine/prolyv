@@ -1,0 +1,67 @@
+{
+  "slug": "ye-sheng-puerh",
+  "name_en": "Ye Sheng Cha",
+  "name_native": "野生茶",
+  "name_romanized": "Yěshēng Chá",
+  "name_zh": "野生茶",
+  "name_ru": "Е Шэн Ча",
+  "aliases": [
+    "Ye Sheng (Wild Green)",
+    "Ye Sheng Cha (Wild Tree Purple)",
+    "Wild Tree Ye Sheng Pu-erh",
+    "野生普洱",
+    "野茶",
+    "Е-Шен",
+    "Ешэнча",
+    "Wild Tree Tea"
+  ],
+  "category": "sheng",
+  "origin_country": "China",
+  "origin_region": "Yunnan",
+  "cultivar": null,
+  "processing": "Varies, because the word describes the tree and not a method. Leaf is often made like sun-dried sheng and sometimes pressed, while some wild-tree purple leaf is sold as lightly processed white tea.",
+  "form": "loose",
+  "harvest_season": "Mostly spring, as is usual for Yunnan tree tea, though wild trees are scattered and picking is small and irregular.",
+  "appearance_dry": "Varies widely, from long dark green leaf to purple-tinged, near-black leaf on purple types.",
+  "appearance_liquor": "Usually a clear pale gold to amber, depending on the tree and the processing.",
+  "appearance_wet": "Often thick, leathery leaves, more uneven than plantation leaf; purple types may stay dark.",
+  "taste_profile": "There is no single profile. A wild-tree purple white tea from Yunnan is sold on rose-like florals and melon sweetness; expect sheng versions to differ by tree and to often be less bitter, but this varies.",
+  "taste_tags": [
+    "floral",
+    "sweet",
+    "herbal"
+  ],
+  "brewing": {
+    "grams": 5,
+    "water_ml": 100,
+    "temp_c": 90,
+    "steeps": 6,
+    "seconds": [
+      10,
+      15,
+      20,
+      30,
+      45,
+      60
+    ],
+    "notes": "Start cooler and lighter than with ordinary sheng, because the leaf is unpredictable and a first pot tells you more than a label does."
+  },
+  "caffeine_level": "medium",
+  "vintage_note": "Sold in small lots by harvest year, usually young, as loose leaf or small pressed cakes. Because the label covers everything from truly wild trees to abandoned gardens, ask which it is and in which village it was picked. Evidence for how these teas age is scarce.",
+  "description": "Ye sheng simply means wild-growing, and in Yunnan it is used for tea from tall, unmanaged trees rather than for a defined style. That makes it a slippery label: useful when a seller can explain it, nearly meaningless when not.\n\nChinese usage separates two kinds. Natural wild tea grows scattered in forest and mountains with varied traits. The other kind comes from once-cultivated gardens left untended for decades and then picked again. Both are low in output, and both may be called wild.\n\nBotany adds another twist. Some Yunnan wild-type leaf comes from Camellia taliensis, a close relative of the ordinary tea plant in the same section of the genus, which contains both theanine and caffeine and is used locally for white tea, black tea and pu-erh. So a wild tea may taste quite unlike Camellia sinensis.\n\nIn the cup, go by the specific tea. One purple wild-tree bud tea is sold on rose florals and watermelon-like sweetness, a long way from a bitter young sheng. Brew a small amount first, and start cool.\n\nWhen buying, ask about the tree, the place and the year. The Russian shop name Е-Шен can refer to a green tea, so check what the listing means.",
+  "history": "Chinese writing on wild tea presents it as the starting point of tea drinking, with early use in the Ba and Shu region, though such early claims are hard to pin down. No single maker or date marks its arrival as a commercial category.\n\nDemand for the leaves is one pressure on wild populations of Camellia taliensis, which are shrinking through habitat fragmentation and overpicking.",
+  "liquor_hex": "#C99A45",
+  "leaf_hex": "#4A4238",
+  "sources": [
+    "https://zh.wikipedia.org/wiki/%E9%87%8E%E8%8C%B6",
+    "https://www.wikidata.org/wiki/Q131405252",
+    "https://yunnansourcing.com/collections/purple-tea/products.json?limit=250",
+    "https://wikipedia.com/wiki/Camellia_taliensis",
+    "https://chay.by/product/chaj-zelenyj-e-shen-100-g-vesovoj/"
+  ],
+  "confidence": "low",
+  "wikipedia_title": null,
+  "wikipedia_scope": "none",
+  "popularity": 2,
+  "images": []
+}

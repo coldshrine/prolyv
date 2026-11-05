@@ -1,0 +1,56 @@
+{
+  "slug": "green-earl-grey",
+  "name_en": "Green Earl Grey",
+  "name_native": null,
+  "name_romanized": null,
+  "name_zh": "绿伯爵茶",
+  "name_ru": "Эрл Грей зелёный",
+  "aliases": [
+    "Earl Grey Green Tea",
+    "Earl Grey Green"
+  ],
+  "category": "green",
+  "origin_country": "Various",
+  "origin_region": "Blended, base varies by maker",
+  "cultivar": null,
+  "processing": "A finished green tea scented with bergamot, as oil or essence. The base depends on the blender: one documented example uses Chinese gunpowder.",
+  "form": "loose",
+  "harvest_season": "Not tied to a season: it depends on the base tea, and blenders rarely state the picking.",
+  "appearance_dry": "Green leaf of whatever style the base is, from rolled pellets to flat or twisted pieces, sometimes with peel or petals mixed in.",
+  "appearance_liquor": "Pale yellow-green to light gold, as is usual for the green teas used as a base.",
+  "appearance_wet": "Ordinary green tea leaf, its size and shape set by the base.",
+  "taste_profile": "Bergamot citrus up front over a light green tea body; the second layer shifts with the base, from grassy to more toasty or earthy.",
+  "taste_tags": [
+    "citrus",
+    "floral",
+    "grassy",
+    "vegetal"
+  ],
+  "brewing": {
+    "grams": 3,
+    "water_ml": 250,
+    "temp_c": 80,
+    "steeps": 2,
+    "seconds": [
+      150,
+      180
+    ],
+    "notes": "Usually brewed Western style. Treat it as a green tea rather than a black Earl Grey: cooler water and a shorter steep keep the base from turning bitter under the oil."
+  },
+  "caffeine_level": "medium",
+  "vintage_note": "Sold as a year-round blend with a best-before date, not by harvest or vintage. As with other scented greens, freshness is what counts: both the base and the bergamot fade, so buy small amounts and finish them within months of opening.",
+  "description": "Green Earl Grey is the familiar bergamot idea moved from a black tea base to a green one. It belongs to no place: it is a blender's recipe, and two packets with this name can hold quite different teas.\n\nThe method is simple. Finished green tea is scented with bergamot. One documented blend uses Chinese gunpowder, others use another green, and that choice decides everything under the citrus.\n\nExpect the bergamot first and the green tea second. Boiling water, the habit carried over from black Earl Grey, is hard on a green base; start around 80 °C.\n\nWhen buying, read the ingredient list. It tells you the base, any added botanicals and how the bergamot is described. The name is loose, and some teas sold as bergamot greens turn out to have a lightly oxidised oolong base, so a similar name is no promise of a similar cup.",
+  "history": "Little is documented about who first put bergamot on green tea. The drink is a later variation on black Earl Grey, and today various blenders sell their own versions, each with its own base.\n\nThe name can also stretch: at least one tea marketed in this family, Rishi's Earl Green, has a pouchong base rather than a true green.",
+  "liquor_hex": "#D9CF86",
+  "leaf_hex": "#6F7A45",
+  "sources": [
+    "https://ratetea.com/styles.php",
+    "https://taooftea.com/product/green-earl-grey/",
+    "https://ratetea.com/review/2180/"
+  ],
+  "confidence": "low",
+  "wikipedia_title": null,
+  "wikipedia_scope": "none",
+  "popularity": 3,
+  "images": []
+}

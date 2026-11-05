@@ -1,0 +1,52 @@
+{
+  "slug": "okumikawa-cha",
+  "name_en": "Okumikawa-cha",
+  "name_native": "奥三河茶",
+  "name_romanized": "Okumikawa-cha",
+  "name_zh": "奥三河茶",
+  "name_ru": "Окумикава-тя",
+  "aliases": [
+    "Okumikawa tea"
+  ],
+  "category": "green",
+  "origin_country": "Japan",
+  "origin_region": "Aichi · Shinshiro · Tsukude",
+  "cultivar": null,
+  "processing": "Little is documented for this tea specifically. Japanese regional green tea is typically steamed, rolled and dried in the sencha manner.",
+  "form": "loose",
+  "harvest_season": "Little is documented locally; Japanese green tea is typically picked from spring, and the first flush is the prized one.",
+  "appearance_dry": "As is typical of sencha, dark green rolled needles.",
+  "appearance_liquor": "As is typical of sencha, a clear yellow-green.",
+  "appearance_wet": "As is typical of sencha, soft green leaf fragments.",
+  "taste_profile": "No well-described profile exists for this tea. Expect the fresh, vegetal balance of ordinary regional sencha rather than a known house character.",
+  "taste_tags": [
+    "vegetal",
+    "grassy"
+  ],
+  "brewing": {
+    "grams": 5,
+    "water_ml": 150,
+    "temp_c": 75,
+    "steeps": 3,
+    "seconds": [
+      60,
+      20,
+      40
+    ],
+    "notes": "General sencha guidance, since no local brewing tradition is recorded. Taste and adjust."
+  },
+  "caffeine_level": "medium",
+  "vintage_note": "Details of how it is sold are scarce. Regional Japanese green tea is usually sold as the current year's harvest, with first-flush lots marked and best drunk within a year.",
+  "description": "Okumikawa-cha is a local tea name from the mountainous northeast of Aichi, tied to the Tsukude area of Shinshiro city. It is listed among Japan's regional teas, but little else about it is recorded.\n\nNo detailed account of its processing or cultivars is available. If it follows the common pattern of Japanese regional tea, it is a steamed green tea of the sencha family, though that is an assumption from its class and not a documented fact about this tea.\n\nIf you come across it, brew it as sencha to start with, and treat the first cup as finding out what it is.\n\nAsk the seller who grew it, in which year and in what style. Those three answers will tell you more than the name does.",
+  "history": "Little is documented. The name appears in Japanese listings of regional teas, placed at Tsukude in Shinshiro, but its beginnings and the people behind it are not on record in any accessible account.",
+  "liquor_hex": "#CCCB72",
+  "leaf_hex": "#4A5A2A",
+  "sources": [
+    "https://ja.wikipedia.org/wiki/%E6%97%A5%E6%9C%AC%E8%8C%B6"
+  ],
+  "confidence": "low",
+  "wikipedia_title": "日本茶",
+  "wikipedia_scope": "umbrella",
+  "popularity": 2,
+  "images": []
+}

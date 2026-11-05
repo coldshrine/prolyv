@@ -1,0 +1,63 @@
+{
+  "slug": "wet-storage-puerh",
+  "name_en": "Wet-Storage Pu-erh",
+  "name_native": "湿仓普洱",
+  "name_romanized": "Shīcāng Pǔ'ěr",
+  "name_zh": "湿仓普洱",
+  "name_ru": "Пуэр влажного хранения",
+  "aliases": [
+    "Wet Storage Pu'er",
+    "Wet-stored Puerh",
+    "湿仓",
+    "濕倉",
+    "Hong Kong storage",
+    "Traditional storage",
+    "Ши Цан"
+  ],
+  "category": "sheng",
+  "origin_country": "China",
+  "origin_region": "Yunnan",
+  "cultivar": null,
+  "processing": "Not a separate way of making tea but a way of keeping it: finished pu-erh is aged in warm, humid conditions, which speeds its change, and is then aired out to lose the warehouse smell.",
+  "form": "other",
+  "harvest_season": "Any harvest; the character comes from the years in storage, not from the picking season.",
+  "appearance_dry": "Dark, often reddish-brown leaf, sometimes with a dull or dusty look on the cake surface.",
+  "appearance_liquor": "Deep reddish brown, darker than a dry-stored tea of the same age.",
+  "appearance_wet": "Dark brown, soft leaf; it should not look slimy or show any mould.",
+  "taste_profile": "Soft, smooth and full in the mouth with a heavy, earthy aroma, and little of the sharp astringency of dry-stored tea. A musty note that will not rinse away means it was aired out badly.",
+  "taste_tags": [
+    "earthy",
+    "woody",
+    "medicinal"
+  ],
+  "brewing": {
+    "grams": 6,
+    "water_ml": 100,
+    "temp_c": 98,
+    "steeps": 7,
+    "seconds": [
+      10,
+      10,
+      15,
+      20,
+      30,
+      45,
+      60
+    ],
+    "notes": "Give it one or two quick rinses and leave the leaf to breathe for a minute. Clay suits it. Smell the wet leaf: mould or a sour cellar smell means do not drink it."
+  },
+  "caffeine_level": "medium",
+  "vintage_note": "Sold by production year and storage place rather than by season, and the storage is often part of the description: Hong Kong, Guangdong or Malaysian, as opposed to dry Kunming storage. It usually appears as older tea, since the point is accelerated age, so ask how long it has been aired out. The label is used loosely.",
+  "description": "Wet storage is a word for what happened to a pu-erh after it was made. The tea spends its years somewhere warm and humid, and it changes faster and further than the same cake kept in a dry place. Mention it among pu-erh drinkers and you will get opinions, because the line between wet and dry is drawn loosely.\n\nHumidity softens the tea. Compared with Kunming dry storage, a Guangdong-style humid store tends to give a redder liquor, a heavier aroma and a rounder, smoother mouthfeel, while the dry-stored tea keeps a high aroma and more grip. The trade-off is risk: poor control of heat and damp brings mould and a strong warehouse smell.\n\nA well-kept one brews thick and calm, with earth, old wood and a herbal edge, and it can take long steeps without turning harsh. Start with quick rinses, and let the leaf rest. People often judge these teas on the first cup, when the storage smell is at its strongest; the later steeps tell you more.\n\nWhen buying, go by smell and by what the seller can tell you about where the tea was kept and for how long. Airing out is the crucial stage: a tea that has aired cleanly can be very good, and one that has not may never recover. Any visible mould or a persistent sour, musty smell is a reason to pass, however old the wrapper says it is.",
+  "history": "Hong Kong is usually named as the first place where a recognisable pu-erh storage culture grew up, followed by Guangdong stores such as those in Zhaoqing, where one warehouse was built in a former air-raid shelter. Early Hong Kong storage is remembered as often too damp, as methods were still crude.\n\nThe dry versus wet argument gained force as dry storage was promoted as the safer choice, a position associated with Taiwanese promoters. Others answer that a humid-stored tea is not bad in itself if it airs out cleanly. The two terms are used loosely.",
+  "liquor_hex": "#4A1F10",
+  "leaf_hex": "#33221A",
+  "sources": [
+    "https://www.jiemian.com/article/2473352.html"
+  ],
+  "confidence": "medium",
+  "wikipedia_title": "Pu'er tea",
+  "wikipedia_scope": "umbrella",
+  "popularity": 3,
+  "images": []
+}

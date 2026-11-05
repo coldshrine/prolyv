@@ -1,0 +1,54 @@
+{
+  "slug": "fuxi-cha",
+  "name_en": "Yanhe Selenium-Rich Tea",
+  "name_native": "富硒茶",
+  "name_romanized": "Fùxī Chá",
+  "aliases": [
+    "Fuxi Cha",
+    "Fuxicha"
+  ],
+  "category": "green",
+  "origin_country": "China",
+  "origin_region": "Guizhou · Yanhe, Tongren",
+  "cultivar": null,
+  "form": "loose",
+  "caffeine_level": "medium",
+  "brewing": {
+    "grams": 3,
+    "water_ml": 150,
+    "temp_c": 80,
+    "steeps": 3,
+    "seconds": [
+      60,
+      75,
+      105
+    ],
+    "notes": "A safe starting point for green tea: cooler water, short steeps, then adjust by taste."
+  },
+  "taste_tags": [
+    "vegetal",
+    "sweet"
+  ],
+  "description": "A green tea from selenium-rich soils in Yanhe county, Tongren, Guizhou province; the name itself means any tea unusually high in selenium.\n\nTreat it as you would any green tea: cooler water, short steeps, and a seller who can say where and when it was picked.",
+  "wikipedia_title": null,
+  "wikipedia_scope": "none",
+  "popularity": 1,
+  "name_zh": "富硒茶",
+  "name_ru": "Фу Си Ча",
+  "history": "A local analysis gives 0.57 ppm selenium, and the tea took a gold award for health products in 1993. Little else is documented about it.",
+  "liquor_hex": "#D3D47A",
+  "leaf_hex": "#7E8B3E",
+  "sources": [
+    "https://milulu.com.cn/techan/34040.html"
+  ],
+  "confidence": "low",
+  "images": [],
+  "stub": true,
+  "processing": "Typical of green tea: picked, heated soon after picking to stop oxidation, then shaped and dried.",
+  "harvest_season": "Usually picked in spring, with the earliest pickings prized, as with most green teas.",
+  "appearance_dry": "Green leaf whose shape depends on the maker, as is usual for regional green teas.",
+  "appearance_liquor": "Bright green.",
+  "appearance_wet": "Usually soft green leaf that opens up in the water.",
+  "taste_profile": "Fresh and mellow with a lasting clean aroma.",
+  "vintage_note": "Green teas like this are normally sold as the current year's harvest and are best within a year of picking. It is not an ageing tea."
+}

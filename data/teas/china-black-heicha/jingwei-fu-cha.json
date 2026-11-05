@@ -3,7 +3,14 @@
   "name_en": "Jingwei Fu Cha (Shaanxi Fu Brick)",
   "name_native": "泾渭茯茶",
   "name_romanized": "Jīngwèi Fúchá",
-  "aliases": ["Jingyang Fu brick", "Shaanxi Fu tea", "Jingyang Fuzhuan", "Jingwei Fu brick", "Xianyang Fu Cha", "泾阳茯砖茶"],
+  "aliases": [
+    "Jingyang Fu brick",
+    "Shaanxi Fu tea",
+    "Jingyang Fuzhuan",
+    "Jingwei Fu brick",
+    "Xianyang Fu Cha",
+    "泾阳茯砖茶"
+  ],
   "category": "heicha",
   "origin_country": "China",
   "origin_region": "Shaanxi · Xianyang · Jingyang",
@@ -15,13 +22,48 @@
   "appearance_liquor": "Amber to orange-red, clear.",
   "appearance_wet": "Dark brown leaves and stems smelling of mushroom and dried grass.",
   "taste_profile": "Mellow and sweet with a clean mushroom-like golden-flower aroma, hay and light wood, with less pine smoke than Hunan Fu brick and a soft, cooling finish.",
-  "taste_tags": ["sweet", "earthy", "herbal", "woody"],
-  "brewing": {"grams": 7, "water_ml": 110, "temp_c": 100, "steeps": 9, "seconds": [10, 10, 15, 20, 30, 45, 60, 90, 120], "notes": "Break along the grain, rinse once, boiling water; or simmer 8 g per litre for 5 minutes. The small pressed 'Fu' pieces sold for cups go straight into a mug of boiling water."},
+  "taste_tags": [
+    "sweet",
+    "earthy",
+    "herbal",
+    "woody"
+  ],
+  "brewing": {
+    "grams": 7,
+    "water_ml": 110,
+    "temp_c": 100,
+    "steeps": 9,
+    "seconds": [
+      10,
+      10,
+      15,
+      20,
+      30,
+      45,
+      60,
+      90,
+      120
+    ],
+    "notes": "Break along the grain, rinse once, boiling water; or simmer 8 g per litre for 5 minutes. The small pressed 'Fu' pieces sold for cups go straight into a mug of boiling water."
+  },
   "caffeine_level": "low",
   "vintage_note": "Sold by pressing year and maker in 300 g to 1 kg bricks and small pressed pieces; the Shaanxi revival dates from the late 2000s, so almost everything on the market is 1–10 years old, drinkable immediately and generally preferred at 2–5 years when the flowers have settled into the tea.",
   "description": "Jingwei Fu Cha is the Shaanxi revival of the Fu brick, and the name is a brand that became a category. Fu bricks were pressed in Jingyang, north of Xi'an, for centuries from Hunan leaf carried up the rivers, and the local saying held that the tea could not be made without Jingyang's water, the Guanzhong climate and Shaanxi hands; in the 1950s production was moved to Hunan anyway and Jingyang stopped. In the late 2000s a Xianyang company relaunched Jingyang Fu brick under the Jingwei name, after the two rivers that meet nearby, and a cluster of Jingyang makers now press 'Jingyang Fu' again.\n\nThe method is the Fu brick method: dark-tea raw material, today sourced from southern Shaanxi (Hanzhong, Ankang) as well as Hunan and Sichuan, is steamed, pressed loosely and held in warm, humid flowering rooms for about two weeks until the golden-flower fungus spreads through the brick, then dried slowly. Shaanxi makers press smaller retail bricks and hand-built pieces alongside the traditional kilo brick, and because much of the leaf is not pine-dried the tea tends to be cleaner and less smoky than Anhua Fu Zhuan.\n\nIn the cup it is mellow and sweet with the mushroom-like golden-flower aroma, hay and light wood, a soft texture and a cooling finish; it gives eight or nine steeps after a rinse with boiling water and simmers well. It is the Fu brick most likely to please someone who found the Hunan version too smoky.\n\nIt is sold by pressing year and maker, and the flowering is what to check: even, bright yellow speckling through the cut face, no off-colour mould, a sweet dry smell. The Jingyang origin is now protected, and the revival makers are proud of their water and climate; whether that beats Hunan is a matter of taste, and the two are worth comparing side by side.\n\nIf you visit Xi'an, this is the local tea to bring back, and a small brick in a hotel kettle is a better introduction to golden flowers than anything you can read.",
   "wikipedia_title": "Fermented tea",
   "wikipedia_scope": "umbrella",
   "popularity": 2,
-  "sources_note": "The late-2000s relaunch under the Jingwei Fu Cha brand by a Xianyang company and the protected 'Jingyang Fu brick' origin follow Chinese trade reports; the 1950s halt of Jingyang production is the standard account. Raw-material sourcing varies by maker."
+  "sources_note": "The late-2000s relaunch under the Jingwei Fu Cha brand by a Xianyang company and the protected 'Jingyang Fu brick' origin follow Chinese trade reports; the 1950s halt of Jingyang production is the standard account. Raw-material sourcing varies by maker.",
+  "name_zh": "泾渭茯茶",
+  "name_ru": "Цзин Вэй Фу Ча",
+  "history": "Fu brick was a Jingyang tea until 1958, when production was shifted to Hunan. The Shaanxi line then lay largely dormant for about half a century, apart from a failed attempt to resume in 1981.\n\nThe company behind this name says it registered in 2009, growing out of a tea firm formed in 1997; those details are its own account, and accounts of when the craft was restored differ. Jingyang makers rebuilt their process around the same time. So the tradition is old but this tea, as sold, is recent.",
+  "liquor_hex": "#AE6426",
+  "leaf_hex": "#43321E",
+  "sources": [
+    "https://www.peopleapp.com/rmharticle/30016969093",
+    "https://paper.people.com.cn/rmrbhwb/html/2015-10/30/content_1627220.htm",
+    "https://m.tech.china.com/redian/2026/0514/052026_1868682.html",
+    "https://gs.ctrip.com/html5/you/travels/37/4040085.html"
+  ],
+  "confidence": "medium",
+  "images": []
 }

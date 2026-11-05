@@ -3,25 +3,84 @@
   "name_en": "Hong Kong Milk Tea",
   "name_native": "港式奶茶 / 絲襪奶茶",
   "name_romanized": "Gong sik naai caa / Si mat naai caa",
-  "aliases": ["Silk stocking milk tea", "Hong Kong-style milk tea", "Cha chaan teng milk tea", "Nai cha", "Pantyhose milk tea"],
+  "aliases": [
+    "Silk stocking milk tea",
+    "Hong Kong-style milk tea",
+    "Cha chaan teng milk tea",
+    "Nai cha",
+    "Pantyhose milk tea",
+    "丝袜奶茶",
+    "絲襪奶茶",
+    "Гонконгский чай с молоком",
+    "Чай «шёлковый чулок»"
+  ],
   "category": "black",
   "origin_country": "Hong Kong",
-  "origin_region": "Hong Kong's cha chaan teng cafés; the leaf is a blend of several Ceylon black tea grades, sometimes with a little Chinese black or pu-erh",
+  "origin_region": "Hong Kong",
   "cultivar": null,
-  "processing": "A preparation rather than a tea: a house blend of coarse, medium and fine broken Ceylon black teas is boiled hard, poured repeatedly through a long cloth filter bag (the 'silk stocking', stained tea-brown with use) to extract and smooth it, simmered again, then mixed with evaporated milk and sugar.",
+  "processing": "A preparation rather than a tea: a house blend of coarse, medium and fine broken Ceylon black teas is steeped in near-boiling water in a long cloth filter bag (the 'silk stocking', stained tea-brown with use) and poured repeatedly through it to extract and smooth it, kept hot, then mixed with evaporated milk; sugar is usually left to the customer.",
   "form": "loose",
   "harvest_season": "Not a harvest: the Ceylon blends are shipped year-round and the drink is made fresh all day, every day.",
   "appearance_dry": "A dark, dust-like mix of small broken Ceylon leaf grades, from coarse bits to fine fannings.",
   "appearance_liquor": "Opaque, dark red-brown tea that turns a smooth, glossy caramel-tan once the evaporated milk is stirred in.",
   "appearance_wet": "A thick dark sludge of spent fannings in the filter bag.",
   "taste_profile": "Very strong, tannic black tea with a bitter backbone, softened into something rich, creamy and sweet by evaporated milk; thick and smooth with a long astringent finish that keeps it from being cloying.",
-  "taste_tags": ["malty", "creamy", "brisk", "sweet", "bitter"],
-  "brewing": {"grams": 30, "water_ml": 1000, "temp_c": 100, "steeps": 1, "seconds": [600], "notes": "Boil 30 g of a Ceylon-based blend in a litre of water for 3–5 minutes, pour it through a cloth filter into a second pot and back again four or five times, then simmer another few minutes. Fill a cup about a third with evaporated milk, top with hot tea, sweeten to taste. Over ice it becomes the café's 'dung naai caa'."},
+  "taste_tags": [
+    "malty",
+    "creamy",
+    "brisk",
+    "sweet",
+    "bitter"
+  ],
+  "brewing": {
+    "grams": 30,
+    "water_ml": 1000,
+    "temp_c": 100,
+    "steeps": 1,
+    "seconds": [
+      600
+    ],
+    "notes": "Boil 30 g of a Ceylon-based blend in a litre of water for 3–5 minutes, pour it through a cloth filter into a second pot and back again four or five times, then simmer another few minutes. Fill a cup about a third with evaporated milk, top with hot tea, sweeten to taste. Over ice it becomes the café's 'dung naai caa'."
+  },
   "caffeine_level": "high",
-  "vintage_note": "No vintage. Every café guards its own blend, usually three to five Ceylon broken grades in proportions nobody will tell you, bought year-round from Hong Kong tea merchants; the same merchants sell ready-made 'milk tea blends' in bags and tins for home use, and instant 3-in-1 sachets exist for the desperate. The evaporated milk is as important as the tea and the Dutch 'Black & White' brand is the traditional one. The technique of making it was added to Hong Kong's list of intangible cultural heritage in the 2010s.",
-  "description": "Hong Kong milk tea is the drink of the cha chaan teng, the city's fast, cheap, all-day cafés: black tea brewed brutally strong, pulled through a cloth filter until it is smooth as silk, then cut with evaporated milk and sugar. It is a colonial leftover (British tea with milk) remade into something entirely Hong Kong, and locals judge a café by it the way Italians judge a bar by its espresso.\n\nThe tea is a blend of several Ceylon broken grades, coarse leaf for aroma, fine fannings for colour and strength, and each café has its own recipe. The method is the real craft: the tea is boiled, then poured through a long cloth bag on a metal ring, back and forth between two pots, which extracts the leaf fully and takes the rough edges off, and it is kept hot and strong on the stove through the day. The bag, stained brown with use, looks like a stocking, hence the nickname.\n\nThe cup is thick, strong and bitter underneath, creamy and sweet on top, with a lingering astringency that makes a second cup inevitable; evaporated milk, not fresh, gives the body, and condensed milk makes the sweeter variant called cha chow. Iced it is one of the best cold drinks in the city. The mistake at home is using a mild tea or fresh milk: the whole balance depends on an over-brewed, tannic base meeting a rich milk.\n\nThere is nothing to know about vintage, only about blends and technique. Hong Kong tea merchants sell milk-tea blends for home use; failing that, strong Ceylon fannings or a CTC breakfast tea boiled hard and strained through a cloth will get you most of the way.\n\nDrink it with a pineapple bun or buttered toast, the classic café order, and if you want to see the tradition recognised, it was listed as part of Hong Kong's intangible cultural heritage.",
+  "vintage_note": "No vintage. Every café guards its own blend, usually several Ceylon broken grades in proportions nobody will tell you, bought year-round from Hong Kong tea merchants; the same merchants sell ready-made 'milk tea blends' in bags and tins for home use, and instant 3-in-1 sachets exist for the desperate. The evaporated milk is as important as the tea. The technique of making it was added to Hong Kong's list of intangible cultural heritage in 2017.",
+  "description": "Hong Kong milk tea is the drink of the cha chaan teng, the city's fast, cheap, all-day cafés: black tea brewed brutally strong, pulled through a cloth filter until it is smooth as silk, then cut with evaporated milk and sugar. It is a colonial leftover (British tea with milk) remade into something entirely Hong Kong, and locals judge a café by it the way Italians judge a bar by its espresso.\n\nThe tea is a blend of several Ceylon broken grades, coarse leaf for aroma, fine fannings for colour and strength, and each café has its own recipe. The method is the real craft: the tea is steeped just off the boil, then poured through a long cloth bag on a metal ring, back and forth between two pots, which extracts the leaf fully and takes the rough edges off, and it is kept hot and strong on the stove until served. The bag, stained brown with use, looks like a stocking, hence the nickname.\n\nThe cup is thick, strong and bitter underneath, creamy and sweet on top, with a lingering astringency that makes a second cup inevitable; evaporated milk, not fresh, gives the body, and condensed milk makes the sweeter variant called cha chow. Iced it is one of the best cold drinks in the city. The mistake at home is using a mild tea or fresh milk: the whole balance depends on an over-brewed, tannic base meeting a rich milk.\n\nThere is nothing to know about vintage, only about blends and technique. Hong Kong tea merchants sell milk-tea blends for home use; failing that, strong Ceylon fannings or a CTC breakfast tea boiled hard and strained through a cloth will get you most of the way.\n\nDrink it with a pineapple bun or buttered toast, the classic café order, and if you want to see the tradition recognised, it was listed as part of Hong Kong's intangible cultural heritage.",
   "wikipedia_title": "Hong Kong–style milk tea",
   "wikipedia_scope": "exact",
   "popularity": 4,
-  "sources_note": "Wikipedia title uses an en dash (Hong Kong–style milk tea), verified via the API. The intangible-heritage listing date (2017 is the usual citation) given loosely as 'the 2010s'."
+  "sources_note": "Wikipedia title uses an en dash (Hong Kong–style milk tea), verified via the API. The intangible-heritage listing date (2017 is the usual citation) given loosely as 'the 2010s'.",
+  "name_zh": "港式奶茶",
+  "name_ru": "Гонконгский молочный чай",
+  "history": "The drink came out of British rule. Afternoon tea with milk and sugar reached Hong Kong with the colonists, but for decades it was served in hotels and Western restaurants that ordinary people did not use. Cheap diners, the bing sutt and the dai pai dong, made their own version, and canned evaporated milk stood in for fresh, being cheaper, easier to store and more concentrated. Ceylon tea was the natural choice, since it was affordable and came through British trade.\n\nThe first versions were very strong and sold to labourers in the 1940s who wanted the caffeine. The cloth-bag method is credited to Lum Muk-ho, owner of Lan Fong Yuen, who the restaurant says invented silk-stocking milk tea in 1952. That claim is generally accepted, while its parallel claim to yuenyeung is unverified. From the 1960s the drink spread through cha chaan teng, office workers came in, and the brew softened into today's version.\n\nSince the 1990s it has become a marker of Hong Kong identity. In 2017 the making technique was added to the city's intangible cultural heritage list, and industry estimates put consumption at about 2.5 million cups a day. A 2016 Consumer Council test found some cups held up to 220 mg of caffeine, more than the local coffee chains. Emigration in the early 2020s has carried the drink to Hong Kong-style restaurants overseas.",
+  "liquor_hex": "#B47A44",
+  "leaf_hex": "#2C1E16",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Hong_Kong%E2%80%93style_milk_tea",
+    "https://zh.wikipedia.org/wiki/%E6%B8%AF%E5%BC%8F%E5%A5%B6%E8%8C%B6",
+    "https://ja.wikipedia.org/wiki/%E9%A6%99%E6%B8%AF%E5%BC%8F%E3%83%9F%E3%83%AB%E3%82%AF%E3%83%86%E3%82%A3%E3%83%BC",
+    "https://ko.wikipedia.org/wiki/%ED%99%8D%EC%BD%A9_%EB%B0%80%ED%81%AC%ED%8B%B0"
+  ],
+  "confidence": "high",
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f2/HK_Cafe_de_Coral_Tea_time_Milk_Tea_Jan-2012.jpg/1280px-HK_Cafe_de_Coral_Tea_time_Milk_Tea_Jan-2012.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f2/HK_Cafe_de_Coral_Tea_time_Milk_Tea_Jan-2012.jpg/330px-HK_Cafe_de_Coral_Tea_time_Milk_Tea_Jan-2012.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source_page": "https://commons.wikimedia.org/wiki/File:HK_Cafe_de_Coral_Tea_time_Milk_Tea_Jan-2012.jpg",
+      "author": "Gloumetcadao",
+      "license": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "kind": "liquor",
+      "alt": "A cup of Hong Kong milk tea in front of a pork chop bun"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9e/HK_Caine_Road_%E6%96%B0%E8%97%8D%E5%A1%98%E9%A4%90%E5%BB%B3_New_Blue_Pool_Restaurant_%E5%87%8D%E5%A5%B6%E8%8C%B6_Iced_Milk_Tea_Oct-2011.jpg/1280px-HK_Caine_Road_%E6%96%B0%E8%97%8D%E5%A1%98%E9%A4%90%E5%BB%B3_New_Blue_Pool_Restaurant_%E5%87%8D%E5%A5%B6%E8%8C%B6_Iced_Milk_Tea_Oct-2011.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9e/HK_Caine_Road_%E6%96%B0%E8%97%8D%E5%A1%98%E9%A4%90%E5%BB%B3_New_Blue_Pool_Restaurant_%E5%87%8D%E5%A5%B6%E8%8C%B6_Iced_Milk_Tea_Oct-2011.jpg/330px-HK_Caine_Road_%E6%96%B0%E8%97%8D%E5%A1%98%E9%A4%90%E5%BB%B3_New_Blue_Pool_Restaurant_%E5%87%8D%E5%A5%B6%E8%8C%B6_Iced_Milk_Tea_Oct-2011.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source_page": "https://commons.wikimedia.org/wiki/File:HK_Caine_Road_%E6%96%B0%E8%97%8D%E5%A1%98%E9%A4%90%E5%BB%B3_New_Blue_Pool_Restaurant_%E5%87%8D%E5%A5%B6%E8%8C%B6_Iced_Milk_Tea_Oct-2011.jpg",
+      "author": "Saesuns80",
+      "license": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "kind": "liquor",
+      "alt": "Glass of iced Hong Kong milk tea with a straw and tea ice cubes"
+    }
+  ]
 }

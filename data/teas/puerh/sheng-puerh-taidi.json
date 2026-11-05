@@ -3,7 +3,13 @@
   "name_en": "Taidi (Plantation) Sheng Pu-erh",
   "name_native": "台地生普洱",
   "name_romanized": "Táidì Shēng Pǔ'ěr",
-  "aliases": ["Plantation sheng", "Terrace tea", "Tai di cha", "Bush pu-erh", "Shengtai cha", "台地茶"],
+  "aliases": [
+    "Plantation sheng",
+    "Terrace tea",
+    "Tai di cha",
+    "Bush pu-erh",
+    "台地茶"
+  ],
   "category": "sheng",
   "origin_country": "China",
   "origin_region": "Yunnan",
@@ -15,12 +21,43 @@
   "appearance_liquor": "Pale yellow when young, orange-gold with age, clear.",
   "appearance_wet": "Even, smallish, yellow-green leaves of uniform size, thinner and less elastic than old-tree leaf.",
   "taste_profile": "Sharper and thinner than old-tree tea: a direct bitterness and a drying astringency, grassy and lightly floral, a short sweetness and a session that fades after six or seven steeps; honest, affordable and the backbone of factory cakes.",
-  "taste_tags": ["bitter", "grassy", "brisk", "sweet"],
-  "brewing": {"grams": 7, "water_ml": 120, "temp_c": 95, "steeps": 8, "seconds": [10, 8, 10, 15, 25, 40, 60, 120], "notes": "Rinse twice for tightly pressed factory cakes. Keep steeps short and the leaf ratio moderate; plantation tea turns harsh quickly. Clay pots and a few years of age both help."},
+  "taste_tags": [
+    "bitter",
+    "grassy",
+    "brisk",
+    "sweet"
+  ],
+  "brewing": {
+    "grams": 7,
+    "water_ml": 120,
+    "temp_c": 95,
+    "steeps": 8,
+    "seconds": [
+      10,
+      8,
+      10,
+      15,
+      25,
+      40,
+      60,
+      120
+    ],
+    "notes": "Rinse twice for tightly pressed factory cakes. Keep steeps short and the leaf ratio moderate; plantation tea turns harsh quickly. Clay pots and a few years of age both help."
+  },
   "caffeine_level": "high",
   "vintage_note": "Sold by production year as factory cakes, bricks and tuo, and by harvest season as cheap loose maocha; plantation leaf is the material of nearly every numbered recipe and every budget cake, including most of the famous aged cakes of the 1980s and 1990s, which were pressed before the old-tree market existed. Young (1–3 years) it is rough and best used for learning; it ages well in humid storage, and 10–20-year-old factory plantation cakes are the affordable face of aged sheng. Supply is unlimited across 2000–2025; the word 'shengtai' (ecological) on a wrapper describes a better-spaced, lower-input plantation and sits between taidi and old-tree in both price and cup.",
   "description": "Taidi, 'terrace' tea, is pu-erh from the dense, pruned bush plantations that were planted across Yunnan from the 1960s onwards to make tea a crop rather than a forest product. It is the unglamorous majority of all pu-erh ever made, the raw material of the numbered factory recipes and the budget cakes, and it deserves a card because understanding it is how you understand what 'gushu' is being compared with.\n\nThe bushes are clonal or seedling large-leaf cultivars kept at waist height in rows, picked many times a year and often fertilised; processing is the same raw-pu-erh sequence done at scale, with drum pan-firing, machine rolling, solar drying and hard hydraulic pressing. Higher yields and younger, denser plants give a thinner leaf with more direct bitterness and astringency.\n\nIn the cup, young plantation sheng is sharp: grassy, lightly floral, bitter and drying, with a short sweetness and a session that runs out of steam around steep seven. That is not a flaw so much as a style, and it is why factory cakes are built to be aged: a decade of humid storage turns that sharpness into the sweet, woody, camphor profile of classic aged pu-erh. Brew it with short steeps and a rinse or two, and do not expect the texture of old-tree leaf.\n\nIt is sold by production year as cakes, bricks and tuo from the big factories and by season as cheap maocha, and the honest price is low. The dishonest version is plantation leaf labelled gushu, which is a large fraction of the market; the uniform small leaf, thin body and quick fade are the tells. 'Shengtai' (ecological) tea is the respectable middle ground, from better-spaced gardens with fewer inputs.\n\nIf you want to age tea on a budget, well-made plantation cakes from a known factory are the traditional answer, and the 1990s cakes people pay fortunes for were nothing grander.",
   "wikipedia_title": "Pu'er tea",
   "wikipedia_scope": "umbrella",
-  "popularity": 2
+  "popularity": 2,
+  "name_zh": "台地生普洱",
+  "name_ru": "Тай Ди Шэн Пуэр",
+  "history": "Taidi is less a named tea than a way of growing it: pruned bushes in dense rows on terraced plantations, as opposed to old trees in village gardens or forest. Plantation planting spread across Yunnan in the twentieth century as tea became an organised crop, and this leaf went into the factory cakes that made modern pu-erh familiar.\n\nThe word gained weight when old-tree tea became fashionable and buyers wanted a term for everything else. Terrace leaf passed off as forest tea is a common form of pu-erh counterfeiting, which is why the distinction matters when buying. Little is documented about taidi as a style in its own right.",
+  "liquor_hex": "#D9BE62",
+  "leaf_hex": "#55573A",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Pu%27er_tea"
+  ],
+  "confidence": "low",
+  "images": []
 }

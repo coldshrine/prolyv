@@ -3,10 +3,19 @@
   "name_en": "GABA Tea (style)",
   "name_native": "佳葉龍茶 / ギャバロン茶",
   "name_romanized": "Jiā yè lóng chá / Gabaron-cha",
-  "aliases": ["GABA oolong", "Gabaron", "Gabaron tea", "Jia Ye Long", "Anaerobic tea", "GABA black tea"],
+  "aliases": [
+    "GABA oolong",
+    "Gabaron",
+    "Gabaron tea",
+    "Jia Ye Long",
+    "Anaerobic tea",
+    "GABA black tea",
+    "佳叶龙茶",
+    "Габа"
+  ],
   "category": "oolong",
   "origin_country": "Taiwan",
-  "origin_region": "Nantou and Taoyuan (most GABA oolong); the technique was developed in Japan in the 1980s and Japanese GABA green tea (Gabaron) still exists",
+  "origin_region": "Taiwan",
   "cultivar": "Typically Jin Xuan, Si Ji Chun or Qing Xin in Taiwan; Yabukita for Japanese Gabaron green",
   "processing": "Fresh leaf is sealed in a nitrogen-flushed, oxygen-free chamber for several hours, often in repeated cycles, during which the leaf's glutamic acid converts into gamma-aminobutyric acid (GABA); it is then processed normally, in Taiwan as a rolled, moderately oxidised and often lightly roasted oolong, in Japan as a steamed green tea.",
   "form": "loose",
@@ -15,12 +24,63 @@
   "appearance_liquor": "Amber-orange to reddish, clear.",
   "appearance_wet": "Brown-red unfurled leaves smelling of baked apple and sour plum.",
   "taste_profile": "Unmistakably fruity and tangy, like baked or overripe apple, sour plum and dried fig, with a sweet, slightly yeasty depth and very little astringency; the anaerobic step gives a flavour no other processing produces.",
-  "taste_tags": ["fruity", "sweet", "dried-fruit", "tart"],
-  "brewing": {"grams": 6, "water_ml": 120, "temp_c": 95, "steeps": 6, "seconds": [25, 20, 30, 40, 60, 90], "notes": "Gaiwan or small pot, water just off the boil; it is forgiving and does not go bitter. Western style: 3 g per 250 ml, 3–4 minutes, two steeps. Roasted GABA oolongs are good brewed strong and taken with a little milk."},
+  "taste_tags": [
+    "fruity",
+    "sweet",
+    "dried-fruit",
+    "tart"
+  ],
+  "brewing": {
+    "grams": 6,
+    "water_ml": 120,
+    "temp_c": 95,
+    "steeps": 6,
+    "seconds": [
+      25,
+      20,
+      30,
+      40,
+      60,
+      90
+    ],
+    "notes": "Gaiwan or small pot, water just off the boil; it is forgiving and does not go bitter. Western style: 3 g per 250 ml, 3–4 minutes, two steeps. Roasted GABA oolongs are good brewed strong and taken with a little milk."
+  },
   "caffeine_level": "medium",
-  "vintage_note": "Sold by the season of the base harvest in the current year, like any Taiwanese oolong, with the GABA content stated in milligrams per 100 g on serious packs (a figure around 150 mg/100 g or more is the usual benchmark). Roasted GABA oolongs keep for several years and some are sold deliberately aged with the year stated. Prices sit above an equivalent plain oolong because of the extra processing, and GABA black and green versions are sold the same way.",
+  "vintage_note": "Sold by the season of the base harvest in the current year, like any Taiwanese oolong, often with the GABA content stated in milligrams per 100 g on the pack (around 150 mg/100 g is a figure often quoted as a benchmark). Roasted GABA oolongs keep for several years and some are sold deliberately aged with the year stated. Prices sit above an equivalent plain oolong because of the extra processing, and GABA black and green versions are sold the same way.",
   "description": "GABA tea is not a plant or a place but a process: tea leaf held in an oxygen-free atmosphere before it is made, which converts an amino acid in the leaf into GABA, a compound marketed for relaxation, and incidentally gives the finished tea a taste unlike anything else. It was developed in Japan in the 1980s as a green tea and has become most popular in Taiwan as an oolong.\n\nThe leaf is sealed in a chamber flushed with nitrogen for several hours, sometimes in a few cycles with air in between, and only then withered, rolled and oxidised in the usual way. The lack of oxygen changes the chemistry of the leaf in ways that show up in the cup as a fruity, slightly sour, almost fermented character, which is why GABA oolong tastes of baked apple and plum even when the base is a mild Jin Xuan.\n\nThe cup is amber, soft and tangy, with dried-fruit sweetness and almost no bitterness, and it is one of the easiest oolongs to brew: hot water, short steeps, many infusions, and it will not punish a long one. Some people find the sourness odd at first; a lightly roasted version is the gentler introduction. Treat the health marketing as marketing and judge it as a tea.\n\nIt is sold like any Taiwanese oolong, by season and current year, with the GABA figure on the pack as a quality claim; roasted versions age well and are sometimes sold with a year. GABA black tea and Japanese GABA green exist and are worth trying for the same fruity signature on a different base.\n\nIf you like the sour-fruit character, a lightly oxidised Taiwanese black tea or an aged roasted oolong are the natural neighbours.",
   "wikipedia_title": "GABA tea",
   "wikipedia_scope": "exact",
-  "popularity": 2
+  "popularity": 2,
+  "name_zh": "佳叶龙茶",
+  "name_ru": "Габа чай",
+  "history": "GABA tea began as a laboratory project. In 1984 Dr. Tsushida and colleagues at Japan's MAFF National Research Institute of Tea started work on tea rich in gamma-aminobutyric acid. They found that leaf held for six to ten hours in an oxygen-free chamber filled with nitrogen built up large amounts of it, with almost all the glutamic acid converted and catechins and caffeine unchanged. One account dates the finished technique to 1987. Later tests showed the same effect in oolong and black tea.\n\nIn the late 1980s it went on sale in Japan as a product aimed at people with high blood pressure. Taiwanese makers then took up the process widely, and GABA oolong from Taiwan is now one of its most common forms. It remains a modern style, defined by a processing step and not by a place.",
+  "liquor_hex": "#C4752B",
+  "leaf_hex": "#4B3A25",
+  "sources": [
+    "https://en.wikipedia.org/wiki/GABA_tea",
+    "https://ru.wikipedia.org/wiki/%D0%93%D0%B0%D0%B1%D0%B0_%28%D1%87%D0%B0%D0%B9%29"
+  ],
+  "confidence": "medium",
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f8/GABA_tea_01.jpg/1280px-GABA_tea_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f8/GABA_tea_01.jpg/330px-GABA_tea_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source_page": "https://commons.wikimedia.org/wiki/File:GABA_tea_01.jpg",
+      "author": "Pannet",
+      "license": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0",
+      "kind": "dry_leaf",
+      "alt": "Dark reddish-brown rolled GABA oolong pellets in a small pile on a white background"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b2/GABA_tea_03.jpg/1280px-GABA_tea_03.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b2/GABA_tea_03.jpg/330px-GABA_tea_03.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source_page": "https://commons.wikimedia.org/wiki/File:GABA_tea_03.jpg",
+      "author": "Pannet",
+      "license": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0",
+      "kind": "dry_leaf",
+      "alt": "Loosely scattered reddish-brown rolled GABA oolong leaves on a white background"
+    }
+  ]
 }

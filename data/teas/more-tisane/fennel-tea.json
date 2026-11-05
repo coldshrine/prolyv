@@ -1,0 +1,63 @@
+{
+  "slug": "fennel-tea",
+  "name_en": "Fennel Tea",
+  "name_native": "Fencheltee",
+  "name_romanized": null,
+  "name_zh": "茴香茶",
+  "name_ru": "Фенхелевый чай",
+  "aliases": [
+    "Fennel",
+    "茴香",
+    "Фенхель",
+    "Funcho",
+    "Erva-doce",
+    "Fennel seed tea",
+    "Fencheltee",
+    "Bitter fennel tea"
+  ],
+  "category": "tisane",
+  "origin_country": "Germany",
+  "origin_region": "Central Europe",
+  "cultivar": "Foeniculum vulgare",
+  "processing": "Dried fennel fruits, the 'seeds', are crushed just before or at packing, then infused in boiling water.",
+  "form": "loose",
+  "harvest_season": "A seed crop with no prized picking; the tea is sold year-round.",
+  "appearance_dry": "Small ribbed oval seeds of greenish to yellow-brown, whole or crushed.",
+  "appearance_liquor": "Pale, clear yellow.",
+  "appearance_wet": "Crushed, swollen seed fragments.",
+  "taste_profile": "Sweet liquorice and aniseed from anethole, with a slightly camphor-like, minty edge.",
+  "taste_tags": [
+    "spicy",
+    "sweet",
+    "camphor",
+    "herbal"
+  ],
+  "brewing": {
+    "grams": 2.5,
+    "water_ml": 150,
+    "temp_c": 100,
+    "steeps": 1,
+    "seconds": [
+      600
+    ],
+    "notes": "A German medicinal tea label gives about 2.5 g crushed seed in 150 ml boiling water for 10 to 15 minutes, then strained. Crushing is what releases the oil."
+  },
+  "caffeine_level": "none",
+  "vintage_note": "Not sold by vintage. It is a pharmacy and supermarket staple, sold in sachets or as loose seed all year, with a best-before date instead of a harvest. Whole seed crushed at home keeps its aroma better than ready-crushed bags.",
+  "description": "Fennel tea is an infusion of crushed fennel seeds, a Mediterranean herb now grown widely. In Germany it is an everyday pharmacy tea, including versions packaged for children, and in Brazil it is a home drink known as erva-doce or funcho.\n\nThe key is crushing. The aroma lives in the oils of the seed, so whole seeds in hot water give less. Crush them, pour boiling water over them and cover the cup while it steeps.\n\nIt tastes like soft liquorice and aniseed with a cool, faintly camphor edge. It needs a long steep, 10 to 15 minutes on the German packets, which is far longer than leaf tea.\n\nBuy whole seed that smells strong, or sealed sachets within date. Bitter and sweet fennel are both sold, and packets may name which. Be cautious about giving it to babies, despite the tradition: anethole in the oil is reported to be neurotoxic, so ask a paediatrician. The idea that it raises breast milk supply is also unsupported.",
+  "history": "Fennel is native to the shores of the Mediterranean and has been grown for food and medicine for a very long time. Little is documented about when the tea form began.\n\nThe modern story is a pharmaceutical one. Crushed fruit is sold as a medicinal tea in German-speaking countries, with dose instructions on the packet and uses such as diluting a baby's milk or porridge, a practice that sits alongside recent toxicology concerns about anethole and estragole in the oil.",
+  "liquor_hex": "#E2D48C",
+  "leaf_hex": "#8F8F52",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Fennel",
+    "https://ru.wikipedia.org/wiki/%D0%A4%D0%B5%D0%BD%D1%85%D0%B5%D0%BB%D1%8C",
+    "https://en.wikipedia.org/wiki/Brazilian_tea_culture",
+    "https://www.violey.com/en/salus-medicinal-tea-fennel_p_14477.html",
+    "https://www.onlineapo.at/en/Sidroga-Organic-Children-s-Fennel-Tea/RA3628325"
+  ],
+  "confidence": "medium",
+  "wikipedia_title": "Fennel",
+  "wikipedia_scope": "umbrella",
+  "popularity": 3,
+  "images": []
+}

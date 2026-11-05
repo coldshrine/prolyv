@@ -3,7 +3,16 @@
   "name_en": "Mi Lan Xiang Dancong",
   "name_native": "蜜兰香单丛",
   "name_romanized": "Mìlánxiāng Dāncóng",
-  "aliases": ["Honey Orchid Dancong", "Mi Lan Xiang", "Milanxiang", "Honey Orchid Phoenix oolong", "Fenghuang Mi Lan Xiang", "Phoenix Dan Cong Honey Orchid"],
+  "aliases": [
+    "Honey Orchid Dancong",
+    "Mi Lan Xiang",
+    "Milanxiang",
+    "Honey Orchid Phoenix oolong",
+    "Fenghuang Mi Lan Xiang",
+    "Phoenix Dan Cong Honey Orchid",
+    "蜜蘭香單叢",
+    "蜜兰香单枞"
+  ],
   "category": "oolong",
   "origin_country": "China",
   "origin_region": "Guangdong · Chaozhou · Fenghuang Mountains",
@@ -15,13 +24,56 @@
   "appearance_liquor": "Bright golden-orange, clear.",
   "appearance_wet": "Long, thick olive leaves with distinct red edges, unfurling almost flat.",
   "taste_profile": "Honey and lychee with an orchid aroma on top, a round, medium body, a touch of roasted sweetness and a long, cooling, slightly astringent finish.",
-  "taste_tags": ["honey", "floral", "fruity", "sweet", "roasted"],
-  "brewing": {"grams": 8, "water_ml": 110, "temp_c": 100, "steeps": 8, "seconds": [5, 5, 8, 10, 15, 25, 40, 60], "notes": "Chaozhou style: fill a thin gaiwan half to two-thirds with dry leaf, boiling water, pour the moment the lid is on for the first steeps and decant completely. Dancong goes bitter if it sits even ten seconds too long; a fast wrist matters more than anything else."},
+  "taste_tags": [
+    "honey",
+    "floral",
+    "fruity",
+    "sweet",
+    "roasted"
+  ],
+  "brewing": {
+    "grams": 8,
+    "water_ml": 110,
+    "temp_c": 100,
+    "steeps": 8,
+    "seconds": [
+      5,
+      5,
+      8,
+      10,
+      15,
+      25,
+      40,
+      60
+    ],
+    "notes": "Chaozhou style: fill a thin gaiwan half to two-thirds with dry leaf, boiling water, pour the moment the lid is on for the first steeps and decant completely. Dancong goes bitter if it sits even ten seconds too long; a fast wrist matters more than anything else."
+  },
   "caffeine_level": "medium",
   "vintage_note": "Sold by harvest year: spring tea is roasted and rested over the summer and on sale from roughly June, with heavier-roasted lots released in autumn; a winter xue pian lot is sold fresh in December. Lightly roasted Mi Lan Xiang is best within a year or two, medium-roasted high-mountain lots keep three to five years, and some Wudong tea is deliberately sold two or three years after harvest once the roast has settled.",
-  "description": "Mi Lan Xiang, honey orchid, is the Phoenix dancong that most people drink and the one that defines the type for newcomers: honey, lychee and orchid in a single long-leaf oolong from the Fenghuang Mountains above Chaozhou in eastern Guangdong. It is the most planted of all the dancong strains, so it exists at every price from supermarket to single-tree.\n\nDancong means single bush. The Fenghuang Shui Xian landrace throws up individual trees with distinct aromas, and for a couple of centuries farmers have selected those trees, propagated them by cuttings and sold the tea by its aroma type. Mi Lan Xiang is one of those types, by the usual account selected from a mother tree on Wudong, and it was chosen for the market because it grows well, yields reliably and carries its honey note at any elevation.\n\nThe leaf is withered in the sun, shaken repeatedly overnight to bruise and oxidise the edges, fixed, rolled into long strips and charcoal roasted. Mi Lan Xiang takes a medium roast better than most dancong, which is why the commercial grades are often darker and more caramelised; Wudong lots are roasted lighter so the fruit shows.\n\nIn the cup the first steeps are honey and ripe lychee with an orchid lift, then the body rounds out and a cooling, slightly astringent finish settles in. The classic beginner's error is steeping too long: Chaozhou drinkers use a lot of leaf and pour almost instantly, and a tea that tastes bitter and sour is nearly always a tea that sat in the gaiwan. Use boiling water, a thin gaiwan, and flash steeps for the first four or five infusions.\n\nIt is sold by year and by elevation. Low-mountain and Raoping Mi Lan Xiang is cheap and often heavily roasted; high-mountain (gao shan) lots are more fragrant; Wudong lots from old trees cost many times more. Much cheap tea labelled Mi Lan Xiang is really the Bai Ye strain, which is honeyed but simpler. Buy from sellers who state the village and the harvest, and once you know this tea, Ya Shi Xiang and Song Zhong are the next doors to open.",
+  "description": "Mi Lan Xiang, honey orchid, is the Phoenix dancong that most people drink and the one that defines the type for newcomers: honey, lychee and orchid in a single long-leaf oolong from the Fenghuang Mountains above Chaozhou in eastern Guangdong. It has the largest output of all the dancong groups, so it exists at every price from supermarket to single-tree.\n\nDancong means single bush. The Fenghuang Shui Xian landrace throws up individual trees with distinct aromas, and farmers have long selected those trees, propagated them by cuttings and sold the tea by its aroma type. Mi Lan Xiang is one of those types, by the usual account selected from a mother tree on Wudong, though that origin is not firmly documented. It grows well, yields reliably and carries its honey note at any elevation.\n\nThe leaf is withered in the sun, shaken repeatedly overnight to bruise and oxidise the edges, fixed, rolled into long strips and charcoal roasted. Mi Lan Xiang takes a medium roast better than most dancong, which is why the commercial grades are often darker and more caramelised; Wudong lots are roasted lighter so the fruit shows.\n\nIn the cup the first steeps are honey and ripe lychee with an orchid lift, then the body rounds out and a cooling, slightly astringent finish settles in. The classic beginner's error is steeping too long: Chaozhou drinkers use a lot of leaf and pour almost instantly, and a tea that tastes bitter and sour is nearly always a tea that sat in the gaiwan. Use boiling water, a thin gaiwan, and flash steeps for the first four or five infusions.\n\nIt is sold by year and by elevation. Low-mountain and Raoping Mi Lan Xiang is cheap and often heavily roasted; high-mountain (gao shan) lots are more fragrant; Wudong lots from old trees cost many times more. The name also covers more than one line, including Song Zhong Mi Lan Xiang and Huang Jin Ye (also called Bai Ye Wang), so two teas with the same label can differ a good deal. Buy from sellers who state the village and the harvest, and once you know this tea, Ya Shi Xiang and Song Zhong are the next doors to open.",
   "wikipedia_title": "Oolong",
   "wikipedia_scope": "umbrella",
   "popularity": 4,
-  "sources_note": "English Wikipedia has no dancong article (Dancong redirects to Oolong). The Wudong origin of the Mi Lan Xiang mother tree follows Chaozhou tea sources."
+  "sources_note": "English Wikipedia has no dancong article (Dancong redirects to Oolong). The Wudong origin of the Mi Lan Xiang mother tree follows Chaozhou tea sources.",
+  "name_zh": "蜜兰香单丛",
+  "name_ru": "Ми Лань Сян Дань Цун",
+  "history": "Mi Lan Xiang is counted among the traditional named teas of Fenghuang town in the Phoenix Mountains of Chaozhou, and today it has the largest and steadiest output of the ten main dancong aroma groups. The name, honey orchid, describes the finished tea: a honeyed taste with an orchid scent.\n\nIt is less a single bush than a family. Chaozhou classifications place several lines under it, among them Song Zhong Mi Lan Xiang, once called Fan Shu Xiang because the brew smells like sweet potato, Huang Jin Ye, also called Bai Ye Wang, and She Men. Beyond that, little is firmly documented: neither a date of selection nor a reliably identified mother tree is on record, and the Wudong origin rests on tradition.",
+  "liquor_hex": "#D9962F",
+  "leaf_hex": "#4A3A22",
+  "sources": [
+    "https://www.jiemian.com/article/1174385.html"
+  ],
+  "confidence": "medium",
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c0/Mi_Lan_Xiang_Oolong_Tea.jpg/1280px-Mi_Lan_Xiang_Oolong_Tea.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c0/Mi_Lan_Xiang_Oolong_Tea.jpg/330px-Mi_Lan_Xiang_Oolong_Tea.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Mi_Lan_Xiang_Oolong_Tea.jpg",
+      "author": "Difference engine",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "kind": "dry_leaf",
+      "alt": "Small pile of long, dark, curled Mi Lan Xiang dancong oolong leaves on a white surface"
+    }
+  ]
 }

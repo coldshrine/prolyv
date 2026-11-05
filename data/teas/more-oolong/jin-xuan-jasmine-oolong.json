@@ -1,0 +1,54 @@
+{
+  "slug": "jin-xuan-jasmine-oolong",
+  "name_en": "Jin Xuan Jasmine Oolong",
+  "name_native": "金萱茉莉",
+  "name_romanized": "Jīn Xuān Mòlì",
+  "aliases": [],
+  "category": "oolong",
+  "origin_country": "Taiwan",
+  "origin_region": "Taiwan",
+  "cultivar": "Jin Xuan",
+  "form": "loose",
+  "caffeine_level": "medium",
+  "brewing": {
+    "grams": 6,
+    "water_ml": 110,
+    "temp_c": 95,
+    "steeps": 6,
+    "seconds": [
+      20,
+      15,
+      20,
+      30,
+      45,
+      60
+    ],
+    "notes": "A safe starting point for oolong: gongfu style with water just off the boil."
+  },
+  "taste_tags": [
+    "floral",
+    "roasted"
+  ],
+  "description": "A Taiwanese oolong of the Jin Xuan cultivar scented with jasmine.\n\nRecipes for a flavoured or scented tea vary from one maker to the next, so read the ingredient list and brew it like its base tea.",
+  "wikipedia_title": null,
+  "wikipedia_scope": "none",
+  "popularity": 1,
+  "name_zh": "金萱茉莉",
+  "name_ru": "Жасминовый Цзинь Сюань",
+  "history": null,
+  "liquor_hex": "#D2A650",
+  "leaf_hex": "#55552F",
+  "sources": [
+    "https://what-cha.com/collections/oolong-tea"
+  ],
+  "confidence": "low",
+  "images": [],
+  "stub": true,
+  "processing": "A oolong base tea flavoured or scented by the maker; the recipe varies.",
+  "harvest_season": "The base tea can come from any picking, so the season matters less than the recipe.",
+  "appearance_dry": "Usually twisted strips or rolled balls, from green to dark brown depending on the roast.",
+  "appearance_liquor": "Usually from golden to amber, depending on oxidation and roast.",
+  "appearance_wet": "Usually whole leaves that open up, often with darker edges.",
+  "taste_profile": "Expect what oolongs usually give: floral or fruity notes, more roasted when the leaf is roasted.",
+  "vintage_note": "Flavoured and scented teas are not sold by vintage. Buy recent stock and drink it within a year or so, since the aroma fades."
+}

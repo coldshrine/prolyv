@@ -1,0 +1,101 @@
+{
+  "slug": "milk-tea",
+  "name_en": "Milk Tea",
+  "name_native": null,
+  "name_romanized": "Nǎichá",
+  "name_zh": "奶茶",
+  "name_ru": "Чай с молоком",
+  "aliases": [
+    "Молочный чай",
+    "Tea with milk",
+    "乳茶",
+    "Trà sữa",
+    "밀크티",
+    "ミルクティー"
+  ],
+  "category": "black",
+  "origin_country": "Multiple",
+  "origin_region": "Worldwide",
+  "cultivar": null,
+  "processing": "Tea, usually black or brick, combined with milk in the cup or boiled together, with sugar, salt or spices depending on the tradition.",
+  "form": "other",
+  "harvest_season": "Not tied to a harvest; strong everyday black or brick teas are used all year.",
+  "appearance_dry": "Depends on the tradition: dark broken black tea for British and Hong Kong styles, compressed brick tea on the steppe.",
+  "appearance_liquor": "Opaque, from pale beige to a deep caramel tan depending on tea strength and the amount of milk.",
+  "appearance_wet": "Usually strained away; dark, soft broken leaf where it can be seen.",
+  "taste_profile": "Malty tea softened by milk fat, sweet in most city styles, savoury and salted in steppe styles, and silky and strong in the Hong Kong cup.",
+  "taste_tags": [
+    "creamy",
+    "malty",
+    "sweet",
+    "brisk"
+  ],
+  "brewing": {
+    "grams": 5,
+    "water_ml": 250,
+    "temp_c": 98,
+    "steeps": 1,
+    "seconds": [
+      300
+    ],
+    "notes": "Use a strong tea, such as Assam, and brew it longer than you would for drinking plain. Delicate Darjeeling tends to get lost. Add milk to taste, and boil it with the tea only for stewed styles."
+  },
+  "caffeine_level": "medium",
+  "vintage_note": "Milk tea has no vintages: the drink is made fresh or sold ready-made. What matters is the base, usually current stock of strong black tea or a pressed brick tea, which keeps well. Shop-made and bottled versions vary widely, from tea powder and creamer to fresh milk and named leaf, and the ingredient list is the thing to check.",
+  "description": "Milk tea is a whole family rather than one drink: any meeting of tea and milk, hot or cold, sweet or salted. It is the default tea across much of South Asia, an everyday drink in Britain, and a youth-culture staple through Asia and beyond.\n\nThe styles differ most in how the two meet. British tea takes a little milk in a brewed cup. Mongolian tea boils brick tea with milk and butter, then salts it. Hong Kong tea is strong black tea strained through a cotton bag and mixed with evaporated milk, and Malaysia and Singapore pour theirs back and forth between vessels to make teh tarik.\n\nThe tea must be strong enough to stand up to the fat, which is why Assam is the classic choice and delicate Darjeeling is usually thought a poor fit. Weak tea is the common failure: you end up tasting warm milk.\n\nFor shop drinks, ingredients tell you more than names. Cheap versions use tea powder and creamer, which can carry trans fats; better ones use fresh milk and brewed leaf. Sugar and caffeine can both run high in large cups: tests in Shanghai in 2017 and Shenzhen in 2019 reported averages above 250 mg of caffeine per product.\n\nFrom here it is worth trying the extremes side by side, a salted steppe bowl and a Hong Kong cup, to see how wide the family really is.",
+  "history": "Nomads of inner Eurasia, including Mongols and Tibetans, have long added milk or butter to tea traded from China. In Europe the habit is much younger, beginning from the 17th century. George Orwell argued in 1946 for pouring the tea first, and the Royal Society of Chemistry replied light-heartedly in 2003 in favour of milk first.\n\nColonial and local tastes produced later branches. Hong Kong's cotton-strained tea grew out of the British habit, Japan's Royal Milk Tea is thought to date from a 1965 tearoom menu, and bubble tea came out of Taichung in Taiwan in the 1980s. Taiwanese-style shops began spreading through mainland China around 2000, and from 2018 brands there turned to influencer marketing.",
+  "liquor_hex": "#BE8F62",
+  "leaf_hex": "#3B2A1D",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Milk_tea",
+    "https://zh.wikipedia.org/wiki/%E5%A5%B6%E8%8C%B6",
+    "https://ja.wikipedia.org/wiki/%E3%83%9F%E3%83%AB%E3%82%AF%E3%83%86%E3%82%A3%E3%83%BC",
+    "https://www.wikidata.org/wiki/Q1884224"
+  ],
+  "confidence": "high",
+  "wikipedia_title": "Milk tea",
+  "wikipedia_scope": "exact",
+  "popularity": 3,
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e5/Cups_full_of_milk_tea%2C_in_West_Bengal%2C_India.jpg/1280px-Cups_full_of_milk_tea%2C_in_West_Bengal%2C_India.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e5/Cups_full_of_milk_tea%2C_in_West_Bengal%2C_India.jpg/330px-Cups_full_of_milk_tea%2C_in_West_Bengal%2C_India.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Cups_full_of_milk_tea,_in_West_Bengal,_India.jpg",
+      "author": "Billjones94",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "kind": "liquor",
+      "alt": "Cups and glasses of milk tea on a steel tray, West Bengal, India"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f2/A_cup_of_milk_tea_%28%E0%A6%8F%E0%A6%95_%E0%A6%95%E0%A6%BE%E0%A6%AA_%E0%A6%A6%E0%A7%81%E0%A6%A7_%E0%A6%9A%E0%A6%BE%29.jpg/1280px-A_cup_of_milk_tea_%28%E0%A6%8F%E0%A6%95_%E0%A6%95%E0%A6%BE%E0%A6%AA_%E0%A6%A6%E0%A7%81%E0%A6%A7_%E0%A6%9A%E0%A6%BE%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f2/A_cup_of_milk_tea_%28%E0%A6%8F%E0%A6%95_%E0%A6%95%E0%A6%BE%E0%A6%AA_%E0%A6%A6%E0%A7%81%E0%A6%A7_%E0%A6%9A%E0%A6%BE%29.jpg/330px-A_cup_of_milk_tea_%28%E0%A6%8F%E0%A6%95_%E0%A6%95%E0%A6%BE%E0%A6%AA_%E0%A6%A6%E0%A7%81%E0%A6%A7_%E0%A6%9A%E0%A6%BE%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source_page": "https://commons.wikimedia.org/wiki/File:A_cup_of_milk_tea_(%E0%A6%8F%E0%A6%95_%E0%A6%95%E0%A6%BE%E0%A6%AA_%E0%A6%A6%E0%A7%81%E0%A6%A7_%E0%A6%9A%E0%A6%BE).jpg",
+      "author": "HridoyKundu",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "kind": "liquor",
+      "alt": "Cup of milk tea on a patterned saucer, seen from above"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9b/Fresh_Milk_Tea_1.jpg/1280px-Fresh_Milk_Tea_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9b/Fresh_Milk_Tea_1.jpg/330px-Fresh_Milk_Tea_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Fresh_Milk_Tea_1.jpg",
+      "author": "Gaurav Dhwaj Khadka",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "kind": "liquor",
+      "alt": "Frothy fresh milk tea in a white cup, seen from above"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/62/Fresh_Milk_Tea_3.jpg/1280px-Fresh_Milk_Tea_3.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/62/Fresh_Milk_Tea_3.jpg/330px-Fresh_Milk_Tea_3.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Fresh_Milk_Tea_3.jpg",
+      "author": "Gaurav Dhwaj Khadka",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "kind": "liquor",
+      "alt": "Glass of fresh milk tea with foam on a cafe table"
+    }
+  ]
+}

@@ -3,24 +3,102 @@
   "name_en": "Sencha",
   "name_native": "煎茶",
   "name_romanized": "Sencha",
-  "aliases": ["Japanese green tea", "Futsumushi sencha", "Chūmushi sencha", "Steamed green tea", "Sen-cha"],
+  "aliases": [
+    "Japanese green tea",
+    "Futsumushi sencha",
+    "Chūmushi sencha",
+    "Steamed green tea",
+    "Sen-cha",
+    "Сэнтя"
+  ],
   "category": "green",
   "origin_country": "Japan",
-  "origin_region": "Nationwide · Shizuoka, Kagoshima, Mie, Kyoto, Fukuoka",
+  "origin_region": "Shizuoka",
   "cultivar": "Yabukita in most lots; also Saemidori, Okumidori, Yutaka Midori, Kanayamidori",
-  "processing": "Freshly picked leaf is steamed for roughly 30–40 seconds (futsumushi, 'normal steaming') to stop oxidation, then kneaded, rolled and dried in stages until it forms a flat needle; the resulting aracha is later sorted, blended and given a final firing (hi-ire) by the wholesaler or shop.",
+  "processing": "Freshly picked leaf is steamed to stop oxidation, commonly for under a minute (figures vary, from 15–20 seconds to 30–90 seconds for middle steaming), then kneaded, rolled and dried in stages until it forms a flat needle; the resulting aracha is later sorted, blended and given a final firing (hi-ire) by the wholesaler or shop.",
   "form": "loose",
   "harvest_season": "First flush (ichibancha) from mid-April in Kagoshima to late May in the north is the prized picking; second flush (nibancha) in June–July and later pickings are cheaper and go into everyday grades, blends and bancha.",
   "appearance_dry": "Slim, flat, dark-green needles with a glossy surface, mixed with some shorter broken pieces.",
   "appearance_liquor": "Bright yellow-green, clear to slightly hazy depending on how long it was steamed.",
   "appearance_wet": "Dark green leaf fragments that soften into a loose mass at the bottom of the pot.",
   "taste_profile": "Fresh-cut grass and steamed greens over a savoury umami base, with a sweet finish and a clean astringency that grows quickly if the water is too hot.",
-  "taste_tags": ["grassy", "umami", "vegetal", "sweet", "brisk"],
-  "brewing": {"grams": 5, "water_ml": 150, "temp_c": 75, "steeps": 3, "seconds": [60, 15, 45], "notes": "Kyusu with a fine mesh. Cool the water in the cups first, and pour out every last drop so the leaf does not keep steeping between infusions. The second steep is nearly instant; the third can go hotter."},
+  "taste_tags": [
+    "grassy",
+    "umami",
+    "vegetal",
+    "sweet",
+    "brisk"
+  ],
+  "brewing": {
+    "grams": 5,
+    "water_ml": 150,
+    "temp_c": 75,
+    "steeps": 3,
+    "seconds": [
+      60,
+      15,
+      45
+    ],
+    "notes": "Kyusu with a fine mesh. Cool the water in the cups first, and pour out every last drop so the leaf does not keep steeping between infusions. The second steep is nearly instant; the third can go hotter."
+  },
   "caffeine_level": "medium",
   "vintage_note": "Sold as the current year's harvest and labelled by flush: ichibancha (first flush, picked late April to May) is the standard for any good sencha, while nibancha (second flush, June–July) is cheaper and coarser and mostly goes into blends, teabags and bottled tea. The first weeks of ichibancha are sold as shincha; the rest of the year's aracha is kept refrigerated and refined and fired in small batches, so a good shop's sencha tastes fresh until the next spring. It is never aged, and a bag more than a year old has usually lost most of its aroma.",
-  "description": "Sencha is the everyday green tea of Japan and the bulk of what the country grows: loose leaf that is steamed rather than pan-fired, which is the one step that separates Japanese green tea from almost every Chinese one. If you drink a single Japanese tea, this is it, and most of the other cards in this group are variations on it: steamed longer or shorter, shaded, roasted, or sorted into stems and dust.\n\nWithin hours of picking, the leaf goes into a steamer. The heat kills the enzymes before any oxidation can start and fixes the bright green colour and the fresh, slightly marine aroma. The leaf is then dried while being kneaded and rolled in a series of machines, each one pressing it a little flatter, until it ends up as a dark needle. Steaming time is the main lever: a normal 30–40 seconds (futsumushi) keeps the leaf whole and the cup clear and aromatic; longer steaming makes fukamushi, cloudy, sweeter and softer. What leaves the farm is aracha, 'rough tea'; a wholesaler or shop then sorts it, blends it and gives it a final firing (hi-ire) that decides how toasty or how green it ends up.\n\nA good sencha tastes of fresh greens and steamed spinach, with a seaweed-like savoury depth and a sweetness that arrives after you swallow; astringency should be the frame, not the picture. The first steep at 70–75 °C for about a minute is the sweetest and most savoury, the second is a near-instant pour and comes out brighter and grassier, and a third with hotter water collects what is left. Two mistakes account for most bad sencha: boiling water, which turns it into bitter spinach broth, and leaving liquid in the pot between steeps, which stews the leaf.\n\nShops sell sencha by harvest and grade rather than by estate. Ichibancha, the first flush, is the one worth paying for, and its first weeks are marketed as shincha; nibancha from early summer is coarser and cheaper. Regional names tell you roughly what to expect: Shizuoka's coast and Kagoshima lean deep-steamed and thick, while Uji, Yame and the Shizuoka mountains lean lighter and more aromatic. The cultivar is Yabukita unless the label says otherwise, and single-cultivar lots (Saemidori, Okumidori, Asatsuyu) are the quickest way to learn how much the plant matters.\n\nKeep it sealed, cold and away from light, and finish an opened 100 g bag within a month or two. If your sencha tastes flat and bitter, try cooler water and a shorter steep before you blame the leaf.",
+  "description": "Sencha is the everyday green tea of Japan and the bulk of what the country grows: loose leaf that is steamed rather than pan-fired, which is the one step that separates Japanese green tea from almost every Chinese one. If you drink a single Japanese tea, this is it, and most other Japanese green teas are variations on it: steamed longer or shorter, shaded, roasted, or sorted into stems and dust.\n\nWithin hours of picking, the leaf goes into a steamer. The heat kills the enzymes before any oxidation can start and fixes the bright green colour and the fresh, slightly marine aroma. The leaf is then dried while being kneaded and rolled in a series of machines, each one pressing it a little flatter, until it ends up as a dark needle. Steaming time is the main lever: a normal steam, commonly under a minute (futsumushi), keeps the leaf whole and the cup clear and aromatic; longer steaming makes fukamushi, cloudy, sweeter and softer. What leaves the farm is aracha, 'rough tea'; a wholesaler or shop then sorts it, blends it and gives it a final firing (hi-ire) that decides how toasty or how green it ends up.\n\nA good sencha tastes of fresh greens and steamed spinach, with a seaweed-like savoury depth and a sweetness that arrives after you swallow; astringency should be the frame, not the picture. The first steep at 70–75 °C for about a minute is the sweetest and most savoury, the second is a near-instant pour and comes out brighter and grassier, and a third with hotter water collects what is left. Two mistakes account for most bad sencha: boiling water, which turns it into bitter spinach broth, and leaving liquid in the pot between steeps, which stews the leaf.\n\nShops sell sencha by harvest and grade rather than by estate. Ichibancha, the first flush, is the one worth paying for, and its first weeks are marketed as shincha; nibancha from early summer is coarser and cheaper. Regional names tell you roughly what to expect: Shizuoka's coast and Kagoshima lean deep-steamed and thick, while Uji, Yame and the Shizuoka mountains lean lighter and more aromatic. The cultivar is usually Yabukita unless the label says otherwise, and single-cultivar lots (Saemidori, Okumidori, Asatsuyu) are the quickest way to learn how much the plant matters.\n\nKeep it sealed, cold and away from light, and finish an opened 100 g bag within a month or two. If your sencha tastes flat and bitter, try cooler water and a shorter steep before you blame the leaf.",
   "wikipedia_title": "Sencha",
   "wikipedia_scope": "exact",
-  "popularity": 5
+  "popularity": 5,
+  "name_zh": "煎茶",
+  "name_ru": "Сенча",
+  "history": "The word is older than the tea. When tea first reached Japan in the early Heian period it was boiled, and 煎茶 meant just that, 'simmered tea'. Steeping leaf in hot water came over from Ming China in the early Edo period, and the name stayed on a drink that is no longer simmered at all.\n\nThe tea we know took shape in the 18th century around Uji. Nagatani Sōen spent some 15 years refining a method of steaming and rolling the leaf, finishing around 1738. The former monk Baisao (1675–1763), who took up selling tea at about 60, visited his garden in 1742 and became its loudest advocate. Yamamoto Kahei, founder of the Yamamotoyama house, then made it a commercial success in Edo. A looser ritual, senchadō, grew up around it by the early 19th century, and a public demonstration at the 1970 Osaka Expo marked its recognition as a traditional art.\n\nFrom the Meiji period machines replaced hand-rolling, and today's six stages of steaming, rolling and drying are the machine version of the old work. Selective breeding followed; the Yabukita cultivar, registered in the early 1950s, came to dominate the fields. Sencha now makes up about 80 percent of Japanese tea.",
+  "liquor_hex": "#C9CF6A",
+  "leaf_hex": "#2F4A26",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Sencha",
+    "https://ja.wikipedia.org/wiki/%E7%85%8E%E8%8C%B6",
+    "https://ru.wikipedia.org/wiki/%D0%A1%D1%8D%D0%BD%D1%82%D1%8F",
+    "https://zh.wikipedia.org/wiki/%E7%85%8E%E8%8C%B6_%28%E6%97%A5%E6%9C%AC%E8%8C%B6%29"
+  ],
+  "confidence": "high",
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a6/2017_Kagoshima_sencha.jpg/1280px-2017_Kagoshima_sencha.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a6/2017_Kagoshima_sencha.jpg/330px-2017_Kagoshima_sencha.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source_page": "https://commons.wikimedia.org/wiki/File:2017_Kagoshima_sencha.jpg",
+      "author": "Difference engine",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "kind": "dry_leaf",
+      "alt": "Deep steamed Kagoshima sencha: dark green needle-shaped leaves on white"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/31/2017_Kagoshima_sencha_-_second_infusion.jpg/1280px-2017_Kagoshima_sencha_-_second_infusion.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/31/2017_Kagoshima_sencha_-_second_infusion.jpg/330px-2017_Kagoshima_sencha_-_second_infusion.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source_page": "https://commons.wikimedia.org/wiki/File:2017_Kagoshima_sencha_-_second_infusion.jpg",
+      "author": "Difference engine",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "kind": "liquor",
+      "alt": "Bright yellow-green sencha liquor in a white bowl on a wooden table"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6a/2018_Uji_lightly_steamed_sencha.jpg/1280px-2018_Uji_lightly_steamed_sencha.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6a/2018_Uji_lightly_steamed_sencha.jpg/330px-2018_Uji_lightly_steamed_sencha.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source_page": "https://commons.wikimedia.org/wiki/File:2018_Uji_lightly_steamed_sencha.jpg",
+      "author": "Difference engine",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "kind": "dry_leaf",
+      "alt": "Lightly steamed Uji sencha: slim dark green needles on white"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bd/2018_Uji_lightly_steamed_sencha_-_first_infusion.jpg/1280px-2018_Uji_lightly_steamed_sencha_-_first_infusion.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bd/2018_Uji_lightly_steamed_sencha_-_first_infusion.jpg/330px-2018_Uji_lightly_steamed_sencha_-_first_infusion.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source_page": "https://commons.wikimedia.org/wiki/File:2018_Uji_lightly_steamed_sencha_-_first_infusion.jpg",
+      "author": "Difference engine",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "kind": "liquor",
+      "alt": "Pale yellow-green Uji sencha liquor in a white bowl on a wooden table"
+    }
+  ]
 }

@@ -1,0 +1,54 @@
+{
+  "slug": "blackcurrant-tea",
+  "name_en": "Blackcurrant Tea",
+  "name_native": null,
+  "name_romanized": null,
+  "name_zh": "黑加仑红茶",
+  "name_ru": "Чай с чёрной смородиной",
+  "aliases": [
+    "Black currant tea",
+    "Cassis tea",
+    "Чай со смородиной"
+  ],
+  "category": "black",
+  "origin_country": "United Kingdom",
+  "origin_region": "United Kingdom",
+  "cultivar": null,
+  "processing": "A flavoured tea: finished black tea is scented with blackcurrant flavouring and often mixed with dried fruit or leaves, as is usual for fruit-flavoured blends.",
+  "form": "loose",
+  "harvest_season": "Not tied to a harvest, since it is blended from finished tea all year.",
+  "appearance_dry": "Dark black tea leaf, often with bits of dried fruit, as is typical of flavoured blends.",
+  "appearance_liquor": "Clear reddish amber, typical of a black tea base.",
+  "appearance_wet": "Soft brown leaf, with swollen fruit pieces if the blend contains any.",
+  "taste_profile": "As the name suggests, tart and jammy dark berry over an ordinary black tea, with sweetness depending on the blend.",
+  "taste_tags": [
+    "fruity",
+    "tart",
+    "brisk"
+  ],
+  "brewing": {
+    "grams": 3,
+    "water_ml": 250,
+    "temp_c": 95,
+    "steeps": 1,
+    "seconds": [
+      210
+    ],
+    "notes": "Western-style, as with most flavoured black teas. It also works iced, brewed a little stronger."
+  },
+  "caffeine_level": "medium",
+  "vintage_note": "Sold as a current blend with no harvest year or vintage, in loose form or teabags. As with other flavoured teas, the aroma fades first, so check the best-before date and finish an opened pack within months.",
+  "description": "Blackcurrant tea is black tea flavoured with blackcurrant: a simple, widely sold blend rather than a tea from any one place. It is listed here under the UK, though it is made by blenders in many countries.\n\nAs with other fruit-flavoured teas, the leaf is finished first and the flavour added afterwards. Blends differ in whether they use flavouring alone or add pieces of fruit, and the ingredient list will tell you which.\n\nExpect dark, tart berry over a plain black tea. Near-boiling water and three to four minutes will do, and a longer steep brings out tannin rather than more fruit.\n\nThere are no grades to learn here. Read the label, smell it if you can, and buy small amounts, since the scent is what you are paying for.\n\nDo not confuse it with a blackcurrant infusion, which is a caffeine-free fruit drink with no tea in it.",
+  "history": "Little is documented about who first made blackcurrant tea or when. It belongs to the wider family of fruit-flavoured black blends and has no single known origin.",
+  "liquor_hex": "#A3482C",
+  "leaf_hex": "#33241F",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Tea_blending_and_additives"
+  ],
+  "confidence": "low",
+  "wikipedia_title": null,
+  "wikipedia_scope": "none",
+  "popularity": 2,
+  "images": [],
+  "sources_note": "No source read; the search budget ran out. Text keeps to class-typical description."
+}

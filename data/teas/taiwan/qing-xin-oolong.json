@@ -3,10 +3,22 @@
   "name_en": "Qing Xin Oolong (cultivar)",
   "name_native": "青心烏龍",
   "name_romanized": "Qīngxīn Wūlóng",
-  "aliases": ["Qingxin", "Ruan Zhi", "Soft Stem oolong", "Chin Shin oolong", "Qing Xin Wulong", "Zhong Zai", "Green Heart oolong"],
+  "aliases": [
+    "Qingxin",
+    "Ruan Zhi",
+    "Soft Stem oolong",
+    "Chin Shin oolong",
+    "Qing Xin Wulong",
+    "Zhong Zai",
+    "Green Heart oolong",
+    "軟枝",
+    "軟枝烏龍",
+    "種仔",
+    "玉叢"
+  ],
   "category": "oolong",
   "origin_country": "Taiwan",
-  "origin_region": "Nantou · Chiayi · Taichung · New Taipei (island-wide)",
+  "origin_region": "Nantou",
   "cultivar": "Qingxin (Qing Xin oolong)",
   "processing": "Depends on the region: lightly oxidised, ball-rolled and unroasted for high-mountain tea; moderately oxidised and roasted for Dong Ding and Hong Shui; strip-shaped and barely oxidised for Wenshan Bao Zhong. The better grades are always hand-picked.",
   "form": "loose",
@@ -15,13 +27,46 @@
   "appearance_liquor": "Pale yellow-green when green-processed, gold to amber when roasted, always bright and clear.",
   "appearance_wet": "Small, oval, thick leaves with a fine serrated edge, dark green with a thin red rim in the green styles and brown-edged in roasted ones.",
   "taste_profile": "A clean orchid-and-lily fragrance, a sweet and slightly oily body, a gentle citrus-peel brightness and a cooling finish that keeps returning; roasting turns the florals into honey, ripe fruit and toasted grain.",
-  "taste_tags": ["floral", "sweet", "creamy", "citrus"],
-  "brewing": {"grams": 6, "water_ml": 110, "temp_c": 95, "steeps": 7, "seconds": [30, 20, 25, 35, 50, 70, 100], "notes": "Water at or just off the boil in every style; the cultivar is more forgiving of heat than of cool water, which makes it thin and grassy. Lengthen the first steep for rolled leaf, shorten it for Bao Zhong."},
+  "taste_tags": [
+    "floral",
+    "sweet",
+    "creamy",
+    "citrus"
+  ],
+  "brewing": {
+    "grams": 6,
+    "water_ml": 110,
+    "temp_c": 95,
+    "steeps": 7,
+    "seconds": [
+      30,
+      20,
+      25,
+      35,
+      50,
+      70,
+      100
+    ],
+    "notes": "Water at or just off the boil in every style; the cultivar is more forgiving of heat than of cool water, which makes it thin and grassy. Lengthen the first steep for rolled leaf, shorten it for Bao Zhong."
+  },
   "caffeine_level": "medium",
   "vintage_note": "You rarely buy 'Qing Xin' as such: it is sold under the regional name (Alishan, Li Shan, Dong Ding, Bao Zhong) by season, spring and winter of the current year for the mountains and year-round from the lowlands, and the cultivar name on the packet is mainly a quality signal because cheaper Jin Xuan and Si Ji Chun are often passed off under the same regional names. Green styles are drunk within a year; roasted Qing Xin keeps for years and is the leaf most Taiwanese aged oolong is made from.",
   "description": "Qing Xin oolong, the 'green heart' cultivar, is the bush behind most of the Taiwanese oolongs people fall in love with: Dong Ding, the high-mountain teas of Alishan, Shan Lin Xi and Li Shan, and Wenshan Bao Zhong are all, in their best versions, made from it. Growers also call it Ruan Zhi, 'soft stem', and old farmers simply 'zhong zai'; Taiwanese growers have also planted it in northern Thailand and the Vietnamese highlands, which is where a lot of cheap 'Taiwanese oolong' actually comes from.\n\nIt is thought to have arrived from Fujian in the 1800s, and it is a difficult plant: low-yielding, slow to recover after picking, prone to disease and fussy about soil, which is exactly why the Tea Research and Extension Station spent decades breeding higher-yielding alternatives such as Jin Xuan and Cui Yu. Farmers keep planting it anyway because nothing else gives the same aroma and the same long, cool aftertaste. The leaves are small, oval and dark, the bush stays low, and at altitude it grows slowly and makes thick, sweet leaf.\n\nWhat the cultivar itself brings to the cup, before region and roast get a say, is a clean orchid-and-lily fragrance, a sweet, slightly oily body, a gentle citrus-peel brightness and a finish that cools the throat and keeps returning. Processed green and rolled it is all florals and cream; oxidised and roasted it turns to honey, ripe fruit and toasted grain; made as strip-shaped Bao Zhong it is the lightest and most perfumed. Brew it with water at or just off the boil in all of those styles; it is more forgiving of heat than of cold water.\n\nYou rarely buy 'Qing Xin' as such. It is sold under the regional name, by season, and the cultivar name on the packet is mostly a quality signal, because the cheaper Jin Xuan and Si Ji Chun are often passed off under the same regional names. Ask; a good seller will tell you which cultivar is in the bag.\n\nDo not confuse it with its namesakes: Qing Xin Da Mou is a different bush, grown for Oriental Beauty, and Qing Xin Gan Zai is the small-leaf cultivar behind Sanxia's green teas.",
   "wikipedia_title": "Taiwanese tea",
   "wikipedia_scope": "umbrella",
   "popularity": 3,
-  "sources_note": "The Fujian origin in the 1800s is the usual account but not documented precisely; 'zhong zai' as a farmers' nickname is from memory."
+  "sources_note": "The Fujian origin in the 1800s is the usual account but not documented precisely; 'zhong zai' as a farmers' nickname is from memory.",
+  "name_zh": "青心乌龙",
+  "name_ru": "Цин Синь У Лун",
+  "history": "Qing Xin is Taiwan's traditional oolong bush and its most common cultivar, about 60 percent of plantings by one account. It came from Fujian with settlers in the 1700s and 1800s. Accounts differ on the exact source: some point to Anxi and the dwarf oolong bush there, while another names the Wuyi Mountains.\n\nThe usual story says Lin Fengchi brought plants over in 1855 and set them out on Dong Ding in Lugu, which is also told as the beginning of Dong Ding tea. During the Japanese period, technicians brought further bushes from Fujian and bred the line now grown. The Pingzhen tea station counted it among four main cultivars promoted across the island, alongside Qing Xin Da Mou, Da Ye oolong and Ying Zhi Hong Xin.\n\nIt is a late-sprouting bush with thick, dark, glossy leaves, and it can be made into high-mountain oolong, Bao Zhong, Taiwanese Tieguanyin or Oriental Beauty. It is also a parent of newer cultivars such as Taiwan Tea No. 20, Ying Xiang.",
+  "liquor_hex": "#DCCB72",
+  "leaf_hex": "#3F5A34",
+  "sources": [
+    "https://zh.wikipedia.org/wiki/%E9%9D%92%E5%BF%83%E7%83%8F%E9%BE%8D",
+    "https://en.wikipedia.org/wiki/Ruan_zhi",
+    "https://en.wikipedia.org/wiki/Taiwanese_tea",
+    "https://www.wikidata.org/wiki/Q7375720"
+  ],
+  "confidence": "high",
+  "images": []
 }

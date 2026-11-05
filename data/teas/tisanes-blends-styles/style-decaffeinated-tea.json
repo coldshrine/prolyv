@@ -3,25 +3,54 @@
   "name_en": "Decaffeinated Tea (style)",
   "name_native": null,
   "name_romanized": null,
-  "aliases": ["Decaf tea", "Decaffeinated black tea", "Decaf green tea", "CO2 decaffeinated", "Low-caffeine tea"],
+  "aliases": [
+    "Decaf tea",
+    "Decaffeinated black tea",
+    "Decaf green tea",
+    "CO2 decaffeinated",
+    "Low-caffeine tea"
+  ],
   "category": "black",
   "origin_country": "Germany",
-  "origin_region": "Processed mainly in specialist decaffeination plants in Germany and the United States; the leaf itself comes from Sri Lanka, India, Kenya and China",
+  "origin_region": "Germany",
   "cultivar": null,
-  "processing": "Finished tea is treated after manufacture to pull out most of its caffeine: with supercritical carbon dioxide (the gentlest method, keeping most flavour), with ethyl acetate (often labelled 'naturally decaffeinated' because the solvent occurs in fruit), or with methylene chloride (effective, cheap, permitted with residue limits in most markets); a water process is rare for tea. Typically 97–98 % of the caffeine is removed, leaving a few milligrams per cup. Decaffeinated is not caffeine-free: herbal infusions are.",
+  "processing": "Finished tea is treated after manufacture to pull out most of its caffeine: with supercritical carbon dioxide (generally described as the gentlest method, keeping most flavour), with ethyl acetate (often labelled 'naturally decaffeinated' because the solvent occurs in fruit), or with methylene chloride (effective, cheap, permitted with residue limits in many markets); a water process is rare for tea. Most of the caffeine goes, leaving a few milligrams per cup. Decaffeinated is not caffeine-free: herbal infusions are.",
   "form": "loose",
   "harvest_season": "Not a harvest: made year-round from stock teas, mostly broken and CTC grades.",
   "appearance_dry": "Looks like the original tea, usually a little duller and more uniform.",
   "appearance_liquor": "Slightly paler and flatter than the same tea with caffeine.",
   "appearance_wet": "As the base tea.",
   "taste_profile": "Close to the base tea but softer and flatter, with less briskness and some loss of the top aromas; CO2-decaffeinated teas keep the most, solvent-decaffeinated ones can carry a faint chemical or stale edge.",
-  "taste_tags": ["malty", "woody", "sweet"],
-  "brewing": {"grams": 3, "water_ml": 250, "temp_c": 100, "steeps": 1, "seconds": [240], "notes": "Brew a little stronger and longer than the caffeinated version, 4 minutes with boiling water for black, since the process takes some body with it. The popular home trick of a 30-second rinse to 'decaffeinate' tea does not work: it removes only a small fraction of the caffeine."},
+  "taste_tags": [
+    "malty",
+    "woody",
+    "sweet"
+  ],
+  "brewing": {
+    "grams": 3,
+    "water_ml": 250,
+    "temp_c": 100,
+    "steeps": 1,
+    "seconds": [
+      240
+    ],
+    "notes": "Brew a little stronger and longer than the caffeinated version, 4 minutes with boiling water for black, since the process takes some body with it. The popular home trick of a 30-second rinse to 'decaffeinate' tea does not work: it removes only a small fraction of the caffeine."
+  },
   "caffeine_level": "low",
   "vintage_note": "Sold year-round, mostly in bags, with no harvest year and a two- to three-year best-before; the method is the thing worth looking for on the pack, with 'CO2' or 'carbon dioxide' the premium claim and 'naturally decaffeinated' usually meaning ethyl acetate. Decaf versions exist of black tea, green tea, Earl Grey and breakfast blends; loose decaffeinated tea of quality is rare because the process is done on bulk commodity grades. A pack labelled 'caffeine-free' is a herbal infusion, not a decaffeinated tea, and the two are regulated differently.",
-  "description": "Decaffeinated tea is ordinary tea that has had most of its caffeine pulled out after manufacture. It is not the same as a caffeine-free infusion such as rooibos or chamomile: a cup of decaf black tea still carries a few milligrams of caffeine, roughly a fiftieth of the original, which matters to some people and not to others.\n\nThere are three main methods and they taste different. Supercritical carbon dioxide, pressurised CO2 passed through the moist leaf, is the gentlest and keeps most of the flavour; it is also the most expensive and is what the better brands use and advertise. Ethyl acetate, a solvent that occurs naturally in fruit, is cheaper and is what 'naturally decaffeinated' on a label usually means. Methylene chloride is effective and widely used, permitted with strict residue limits in most countries, and the least loved. All three take some of the tea's aromatic compounds along with the caffeine.\n\nThe result is a softer, flatter version of the original, less brisk and less fragrant, which is why decaf is usually a strong base such as a breakfast blend or an Earl Grey, where the loss is least noticed. Brew it a bit stronger than you would the caffeinated tea, and expect it to be pleasant rather than exciting. The kitchen myth that a short rinse removes most of a tea's caffeine is not true; it removes a small fraction.\n\nThere is no vintage and little choice of leaf quality, since decaffeination is done on bulk grades; look for the method on the pack, prefer CO2, and remember that 'caffeine-free' is a different claim. If what you want is an evening cup with no caffeine at all, a good tisane is the honest answer.\n\nFor low-caffeine rather than decaffeinated options, roasted teas such as hojicha and very lightly dosed, cool-brewed teas have less caffeine than a strong black, but the only truly caffeine-free cups are the herbal ones.",
+  "description": "Decaffeinated tea is ordinary tea that has had most of its caffeine pulled out after manufacture. It is not the same as a caffeine-free infusion such as rooibos or chamomile: a cup of decaf black tea still carries a few milligrams of caffeine, a small fraction of the original, which matters to some people and not to others.\n\nThere are three main methods and they taste different. Supercritical carbon dioxide, pressurised CO2 passed through the moist leaf, is the gentlest and keeps most of the flavour; it is also the most expensive and is what the better brands use and advertise. Ethyl acetate, a solvent that occurs naturally in fruit, is cheaper and is what 'naturally decaffeinated' on a label usually means. Methylene chloride is effective and widely used, permitted with strict residue limits in many countries, and the least loved. All three take some of the tea's aromatic compounds along with the caffeine.\n\nThe result is a softer, flatter version of the original, less brisk and less fragrant, which is why decaf is usually a strong base such as a breakfast blend or an Earl Grey, where the loss is least noticed. Brew it a bit stronger than you would the caffeinated tea, and expect it to be pleasant rather than exciting. The kitchen myth that a short rinse removes most of a tea's caffeine is not true; it removes a small fraction.\n\nThere is no vintage and little choice of leaf quality, since decaffeination is done on bulk grades; look for the method on the pack, prefer CO2, and remember that 'caffeine-free' is a different claim. If what you want is an evening cup with no caffeine at all, a good tisane is the honest answer.\n\nFor low-caffeine rather than decaffeinated options, roasted teas such as hojicha and very lightly dosed, cool-brewed teas have less caffeine than a strong black, but the only truly caffeine-free cups are the herbal ones.",
   "wikipedia_title": "Decaffeination",
   "wikipedia_scope": "umbrella",
   "popularity": 3,
-  "sources_note": "origin_country is a judgement call; the methods and the approximate 97–98 % removal figure are from general knowledge and worth a fact-check."
+  "sources_note": "origin_country is a judgement call; the methods and the approximate 97–98 % removal figure are from general knowledge and worth a fact-check.",
+  "name_zh": "脱咖啡因茶",
+  "name_ru": "Декофеинизированный чай",
+  "history": "Decaffeinated tea is an industrial product, not a traditional one: finished tea is treated in a plant to remove most of its caffeine, and the method used, more than the origin of the leaf, tends to define what is sold. Little is documented about how the process first came to tea, so no firm date or inventor is given here.",
+  "liquor_hex": "#A9662C",
+  "leaf_hex": "#4B3626",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Decaffeination"
+  ],
+  "confidence": "low",
+  "images": []
 }

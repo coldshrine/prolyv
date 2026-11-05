@@ -1,0 +1,62 @@
+{
+  "slug": "mugwort-tea",
+  "name_en": "Mugwort Tea (Ssuk-cha, Yomogi-cha)",
+  "name_native": "쑥차",
+  "name_romanized": "ssukcha",
+  "name_zh": "艾草茶",
+  "name_ru": "Полынный чай",
+  "aliases": [
+    "Mugwort tea",
+    "Fuchiba-cha",
+    "フーチバー茶",
+    "Ssuk-cha",
+    "Ssukcha",
+    "Wormwood tea",
+    "Yomogi-cha",
+    "蓬茶",
+    "Ссук-ча",
+    "Ёмоги-тя"
+  ],
+  "category": "tisane",
+  "origin_country": "South Korea",
+  "origin_region": "Korean Peninsula",
+  "cultivar": "Korean mugwort",
+  "processing": "Leaves are washed, drained, chopped and shade-dried for 3 to 10 days, then roasted in a round-bottomed cauldron.",
+  "form": "loose",
+  "harvest_season": "Picked around Dano, the 5th day of the 5th lunar month, usually May to June.",
+  "appearance_dry": "Chopped, crumbly dull grey-green leaf, darkened in places by roasting.",
+  "appearance_liquor": "Typically a clear yellow-green to olive gold.",
+  "appearance_wet": "Soft, dark olive pieces of chopped leaf.",
+  "taste_profile": "Little is written about its flavour; as with other roasted mugwort, expect a herbal, slightly bitter and medicinal cup with a toasty edge.",
+  "taste_tags": [
+    "herbal",
+    "bitter",
+    "roasted"
+  ],
+  "brewing": {
+    "grams": 5,
+    "water_ml": 250,
+    "temp_c": 100,
+    "steeps": 1,
+    "seconds": [
+      420
+    ],
+    "notes": "The traditional way is a handful of leaf and a cup of water boiled in the pot for 5–10 minutes. Shorten the boil if bitterness is too strong."
+  },
+  "caffeine_level": "none",
+  "vintage_note": "Tied to one annual picking around Dano in May and June, but not sold by vintage. Dried leaf is available year-round, and as with other dried herbs the most recent season is the one to look for.",
+  "description": "Ssukcha is a traditional Korean tea of dried, roasted mugwort leaf, drunk in both North and South Korea. Related mugwort teas also exist in Japan, as yomogi-cha, so you may meet it under either name.\n\nThe timing is the distinctive part: leaves are picked around Dano, in early summer. They are chopped, dried in the shade for several days, then roasted in a deokkeum-sot, the round-bottomed cauldron used for roasting tea.\n\nBoil a handful with a cup of water for five to ten minutes. Mugwort is assertive by nature, so expect a herbal, somewhat bitter cup; if it is too much, use less leaf or boil it for less time.\n\nThe tea was once believed to help with colds, fever, inflammation, pain and blood pressure. Those are folk beliefs and not established treatment. Buy dried leaf with a clean herbal smell, and treat anything dusty or scentless as old.",
+  "history": "The tea was once believed to help prevent and treat colds and fever. Its making is tied to the seasonal calendar through the Dano harvest. Little is documented about when the tea was first recorded or who made it known.",
+  "liquor_hex": "#B9A84F",
+  "leaf_hex": "#66704A",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Ssukcha",
+    "https://ko.wikipedia.org/wiki/%EC%91%A5%EC%B0%A8",
+    "https://www.wikidata.org/wiki/Q30043962"
+  ],
+  "confidence": "medium",
+  "wikipedia_title": "Ssukcha",
+  "wikipedia_scope": "exact",
+  "popularity": 2,
+  "images": []
+}

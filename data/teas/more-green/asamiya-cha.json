@@ -1,0 +1,56 @@
+{
+  "slug": "asamiya-cha",
+  "name_en": "Asamiya-cha",
+  "name_native": "朝宮茶",
+  "name_romanized": "Asamiya-cha",
+  "name_zh": "朝宫茶",
+  "name_ru": "Асамия-тя",
+  "aliases": [
+    "Asamiya Sencha",
+    "朝宮煎茶",
+    "Asamiya tea"
+  ],
+  "category": "green",
+  "origin_country": "Japan",
+  "origin_region": "Shiga · Koka · Shigaraki",
+  "cultivar": null,
+  "processing": "Mostly sold as steamed green tea in the sencha style; the area's tea is also ground into matcha for sweets.",
+  "form": "loose",
+  "harvest_season": "Typically spring, with first-flush tea most valued, as with other Japanese high-grown greens.",
+  "appearance_dry": "Typically fine, deep green needles, as with good sencha.",
+  "appearance_liquor": "Typically clear, pale yellow-green, as with mountain sencha.",
+  "appearance_wet": "Typically soft, bright green leaf, as with good sencha.",
+  "taste_profile": "Known for a distinctive aroma and deep savoury flavour, attributed to the wide temperature swings of its mountain fields.",
+  "taste_tags": [
+    "umami",
+    "vegetal",
+    "floral"
+  ],
+  "brewing": {
+    "grams": 5,
+    "water_ml": 150,
+    "temp_c": 70,
+    "steeps": 3,
+    "seconds": [
+      60,
+      20,
+      40
+    ],
+    "notes": "Cooler water keeps the aroma and savoury depth forward. Measures are a general starting point for fine sencha."
+  },
+  "caffeine_level": "medium",
+  "vintage_note": "Sold as the current year's spring crop, as is usual for Japanese sencha, and at its best within the year. Look for the first flush and a named maker from Asamiya.",
+  "description": "Asamiya is a small tea area in the Shigaraki district of Koka, in southern Shiga, the same Shigaraki known for its pottery. It is counted among Japan's five famous teas, along with Uji, Kawane, Honyama and Sayama.\n\nThe fields lie in mountain country with big swings between day and night temperature, and that is the usual explanation for its aroma and depth. Most of what you will meet is sencha.\n\nDrink it with cool water and short follow-up steeps, as with other fine sencha. Hot water is the common way to waste it, flattening the fragrance that people buy this tea for.\n\nLook for spring lots and a maker's name, because small mountain areas make small amounts. Locally the matcha also turns up in cakes, puddings and ice cream, a fun side trip if you visit.\n\nIf you can, serve it in Shigaraki ware: Koka passed a 2015 ordinance encouraging exactly that hospitality.",
+  "history": "Asamiya claims a place among Japan's oldest tea areas. Tradition has it that the monk Saicho brought seed from Tang China in 805 and planted it on Iwaya-san here, with tea offered to the court in 815; that is a tradition, not a record.\n\nThe oldest actual document dates from the Bunmei era (1469–1487), when a local steward and landholders presented tea to the Konoe family, lords of the estate. The poet Basho visited, and a stone carries his verse about tea pickers.\n\nAfter Japan's ports opened, tea became an export second only to raw silk, and an 1880 Shiga survey placed the area just behind Tsuchiyama in output.",
+  "liquor_hex": "#CFD088",
+  "leaf_hex": "#46602F",
+  "sources": [
+    "https://ja.wikipedia.org/wiki/%E6%9C%9D%E5%AE%AE%E8%8C%B6",
+    "https://ja.wikipedia.org/wiki/%E8%BF%91%E6%B1%9F%E3%81%AE%E8%8C%B6"
+  ],
+  "confidence": "medium",
+  "wikipedia_title": "朝宮茶",
+  "wikipedia_scope": "exact",
+  "popularity": 3,
+  "images": []
+}

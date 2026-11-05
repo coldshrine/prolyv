@@ -3,11 +3,20 @@
   "name_en": "Kuding (Bitter Nail Tea)",
   "name_native": "苦丁茶",
   "name_romanized": "Kǔdīng chá",
-  "aliases": ["Ku ding cha", "Kuding tea", "Bitter tea", "Bitter nail tea", "Ilex kudingcha", "Large-leaf kuding", "Small-leaf kuding"],
+  "aliases": [
+    "Ku ding cha",
+    "Kuding tea",
+    "Bitter tea",
+    "Bitter nail tea",
+    "Ilex kudingcha",
+    "Large-leaf kuding",
+    "Small-leaf kuding",
+    "Кудин"
+  ],
   "category": "tisane",
   "origin_country": "China",
-  "origin_region": "Hainan and Guangxi (large-leaf holly type); Sichuan and Guizhou (small-leaf privet type)",
-  "cultivar": "Ilex kudingcha, a broad-leaved holly, for the large-leaf spikes; Ligustrum robustum, a privet, for the small-leaf type",
+  "origin_region": "Hainan",
+  "cultivar": "Ilex kaushue (synonym Ilex kudingcha), a broad-leaved holly, for the large-leaf spikes; Ligustrum robustum, a privet, for the small-leaf type",
   "processing": "Large-leaf kuding: thick holly leaves are withered, rolled tightly into long twisted spikes or single-leaf 'nails' and dried hard. Small-leaf kuding is processed more like a green tea, pan-fired and rolled into small dark curls.",
   "form": "loose",
   "harvest_season": "Spring (March to May) for the best lots, with further pickings through summer and autumn.",
@@ -15,13 +24,83 @@
   "appearance_liquor": "Pale yellow-green to light amber, clear.",
   "appearance_wet": "Large, thick, glossy holly leaves that unroll whole; the small-leaf type shows small oval leaves.",
   "taste_profile": "Intensely bitter on the first sip, then a cooling, lingering sweetness in the throat that is the whole point; herbal and slightly medicinal, with a green, almost olive-leaf note.",
-  "taste_tags": ["bitter", "herbal", "medicinal", "sweet"],
-  "brewing": {"grams": 1, "water_ml": 250, "temp_c": 95, "steeps": 3, "seconds": [120, 180, 240], "notes": "One or two spikes per cup, not a spoonful: 1 g is plenty. Just-boiled water, 2–3 minutes, and the same spikes re-steep two or three times. Overdosing or steeping long makes it undrinkably bitter; brewed correctly the bitterness is short and the sweet finish long."},
+  "taste_tags": [
+    "bitter",
+    "herbal",
+    "medicinal",
+    "sweet"
+  ],
+  "brewing": {
+    "grams": 1,
+    "water_ml": 250,
+    "temp_c": 95,
+    "steeps": 3,
+    "seconds": [
+      120,
+      180,
+      240
+    ],
+    "notes": "One or two spikes per cup, not a spoonful: 1 g is plenty. Just-boiled water, 2–3 minutes, and the same spikes re-steep two or three times. Overdosing or steeping long makes it undrinkably bitter; brewed correctly the bitterness is short and the sweet finish long."
+  },
   "caffeine_level": "none",
   "vintage_note": "Sold year-round by type and grade rather than by year: large-leaf spikes are graded by length and tightness, with single-leaf 'one nail' rolls at the top, and small-leaf Sichuan kuding is sold like a green tea with the spring harvest preferred. The dried spikes keep for years without much loss, so a stated harvest date is rare. Expect to see it sold by the spike in small packs; 100 g lasts a long time.",
   "description": "Kuding is the famously bitter one: long, dark twisted spikes that look like nails, each enough for a whole cup, from a holly tree grown in Hainan and Guangxi. The name means 'bitter nail', and the first sip lives up to it, but what Chinese drinkers value is what comes after, a cool sweetness that spreads through the throat and lasts for minutes.\n\nIt is not a tea plant. The large-leaf type is Ilex kudingcha, a relative of yerba mate and guayusa but, unlike them, without any real caffeine; the thick leaves are rolled tight and dried into hard spikes. A second product sold under the same name, the small-leaf kuding of Sichuan and Guizhou, comes from a privet and is made like a green tea, with smaller curled leaves and a softer bitterness.\n\nDosage is everything. One or two spikes per cup with hot water for two or three minutes gives a pale, clear infusion with a sharp bitter attack and a long sweet finish; a spoonful of spikes gives something undrinkable, and that is how most people are put off. The same spikes take several refills, each one gentler. Some drinkers drop a single spike into a pot of green tea or oolong to add a bitter-sweet edge.\n\nIt is sold by type and grade, large-leaf spikes graded by size and single-leaf rolls at the top, and it keeps for years, so there is no vintage to chase. Buy a small pack: it goes a long way.\n\nTraditionally it is drunk as a cooling tea in hot weather and after heavy food. If you like the bitter-then-sweet pattern, Chinese bitter melon tea and the small-leaf Sichuan kuding are the next things to try.",
   "wikipedia_title": "Kuding",
   "wikipedia_scope": "exact",
   "popularity": 2,
-  "sources_note": "Caffeine set to none: Ilex kudingcha is generally reported as caffeine-free or containing only traces, unlike its relatives yerba mate and guayusa; Ligustrum robustum contains none. Worth a fact-check."
+  "sources_note": "Caffeine set to none: Ilex kudingcha is generally reported as caffeine-free or containing only traces, unlike its relatives yerba mate and guayusa; Ligustrum robustum contains none. Worth a fact-check.",
+  "name_zh": "苦丁茶",
+  "name_ru": "Ку Дин",
+  "history": "Kuding is a name shared by several plants rather than one tea. Today the two main ones are a broad-leaved holly and a privet, Ligustrum robustum, and holly leaf is generally regarded in China as the better. Young leaves of another holly, gougu, were once sold under the name too and now count as a counterfeit.\n\nThe early history is uncertain. The Tang-era Classic of Tea quotes an older text on a bitter leaf called gaolu, sometimes taken to be kuding, while others read it as ordinary ancient tea. On the first reading it was already drunk in the Han period, and in the Tang in Guangdong and Hainan. The Ming Compendium of Materia Medica lists it under gaolu.\n\nThe privet type reached the Japanese market from the late 1990s as a milder alternative. Both types are generally described as caffeine-free, though some accounts mention a small amount.",
+  "liquor_hex": "#CFC878",
+  "leaf_hex": "#2F3A26",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Kuding",
+    "https://zh.wikipedia.org/wiki/%E8%8B%A6%E4%B8%81%E8%8C%B6",
+    "https://ja.wikipedia.org/wiki/%E8%8B%A6%E4%B8%81%E8%8C%B6",
+    "https://ru.wikipedia.org/wiki/%D0%9A%D1%83%D0%B4%D0%B8%D0%BD"
+  ],
+  "confidence": "medium",
+  "images": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/b/bb/Kudingcha.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bb/Kudingcha.jpg/330px-Kudingcha.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Kudingcha.jpg",
+      "author": "Sjschen ( Sjschen )",
+      "license": "CC BY 2.5",
+      "license_url": "https://creativecommons.org/licenses/by/2.5",
+      "kind": "dry_leaf",
+      "alt": "Long, dark, twisted dry kuding leaves on a white background"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e5/Kuding_tea.jpg/1280px-Kuding_tea.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e5/Kuding_tea.jpg/330px-Kuding_tea.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Kuding_tea.jpg",
+      "author": "Fumikas Sagisavas",
+      "license": "CC0",
+      "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "kind": "dry_leaf",
+      "alt": "Pile of long, rolled, dark kuding spikes"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c4/Ku_Ding_tea.jpg/1280px-Ku_Ding_tea.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c4/Ku_Ding_tea.jpg/330px-Ku_Ding_tea.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Ku_Ding_tea.jpg",
+      "author": "François Nguyen",
+      "license": "CC BY 2.0",
+      "license_url": "https://creativecommons.org/licenses/by/2.0",
+      "kind": "dry_leaf",
+      "alt": "Close view of dark green twisted kuding leaves"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/4/4b/Ichi_you_cha.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4b/Ichi_you_cha.jpg/330px-Ichi_you_cha.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Ichi_you_cha.jpg",
+      "author": "Shizuha ( talk )",
+      "license": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "kind": "liquor",
+      "alt": "Kuding leaves steeping in a white bowl beside a dish of dry spikes"
+    }
+  ]
 }

@@ -1,0 +1,64 @@
+{
+  "slug": "mi-zhuan",
+  "name_en": "Mi Zhuan",
+  "name_native": "米砖茶",
+  "name_romanized": "Mǐ Zhuānchá",
+  "name_zh": "米砖茶",
+  "name_ru": "Ми Чжуань",
+  "aliases": [
+    "Rice Brick",
+    "Mi Zhuan Cha",
+    "Mizhuan Tea",
+    "米磚茶"
+  ],
+  "category": "heicha",
+  "origin_country": "China",
+  "origin_region": "Hubei · Chibi",
+  "cultivar": null,
+  "processing": "Pressed under steam into a hard, finely patterned brick and then dried. Heritage accounts of the Zhaoliqiao craft group it with green brick tea: fixing, rolling, pile fermentation, pressing and drying.",
+  "form": "brick",
+  "harvest_season": "Not sold by picking date. As with other border brick teas, the material is mature leaf gathered through the growing season and blended before pressing.",
+  "appearance_dry": "A crisp-edged, glossy dark brick with a sharp moulded pattern on its face.",
+  "appearance_liquor": "Deep red and bright.",
+  "appearance_wet": "Fine, dark brown particles and fragments, typical of a densely pressed brick.",
+  "taste_profile": "A mellow aroma and a full, rounded flavour. Expect weight and warmth more than any delicate top note.",
+  "taste_tags": [
+    "malty",
+    "woody",
+    "earthy",
+    "sweet"
+  ],
+  "brewing": {
+    "grams": 6,
+    "water_ml": 150,
+    "temp_c": 100,
+    "steeps": 5,
+    "seconds": [
+      20,
+      20,
+      30,
+      45,
+      60
+    ],
+    "notes": "Break the brick with a tea knife and rinse once. It also takes well to simmering in a pot, the way brick teas are usually handled, and to milk."
+  },
+  "caffeine_level": "medium",
+  "vintage_note": "Sold as a pressed brick, usually with its production year on the wrapper, and not as a fresh seasonal tea. Like other brick teas it keeps for years if stored dry and aired, but there is no established grading by age. A well-moulded brick can also be kept as a display piece, and some are framed for that.",
+  "description": "Mi Zhuan, the rice brick, is one of the classic pressed teas of Chibi in southern Hubei, the town best known for brick tea from Yangloudong and Zhaoliqiao. Chibi carries the title of China's home of mi zhuan as well as of green brick tea. It is also listed among the standard Chinese brick types alongside black, flower, Fu, green and Kang bricks.\n\nWhat sets it apart in the hand is the moulding: clean edges, a dark shine and a detailed pattern pressed into the face. The Zhaoliqiao heritage description puts it through fixing, rolling, pile fermentation, pressing and drying, and the result is dense enough that you need a knife to get into it.\n\nIn the cup it is deep red and clear, with a gentle aroma and a full body. Little has been written about how it changes over several steeps, so treat it as you would other border brick teas: boiling water, short early infusions, or a few minutes on the stove. Too much leaf or too long a steep makes it heavy.\n\nWhen buying, look for the factory, the production year and an intact, sharply moulded brick that smells clean. Zhaoliqiao is the name most associated with it. A musty or sour smell means poor storage, whatever the wrapper says.",
+  "history": "The rice brick grew out of the Yangloudong tea trade. Shanxi merchants working there in the Qianlong period made cap-shaped bundled tea, later reshaped into rectangular bricks, and green and rice bricks came out of that change. Later in the Qing, foreign and Chinese traders also set up factories in the town.\n\nAfter 1949 the local factories were merged into one state brick tea plant, which moved to Zhaoliqiao in 1953. That plant, the Zhaoliqiao Tea Factory, remains the best-known maker and took part in drafting national standards for brick tea.",
+  "liquor_hex": "#8E3A1C",
+  "leaf_hex": "#2F2219",
+  "sources": [
+    "https://zh.wikipedia.org/wiki/%E5%92%8C%E5%B8%83%E5%85%8B%E8%B5%9B%E5%B0%94%E8%92%99%E5%8F%A4%E8%87%AA%E6%B2%BB%E5%8E%BF",
+    "https://www.maigoo.com/citiao/51480.html",
+    "https://www.qianzhan.com/cluster/detail/178/140303-3081e6c2.html",
+    "https://www.sohu.com/a/39489664_184010",
+    "https://www.ihchina.cn/news_1_details/26312.html"
+  ],
+  "confidence": "medium",
+  "wikipedia_title": null,
+  "wikipedia_scope": "none",
+  "popularity": 2,
+  "sources_note": "Raw material unconfirmed: I recall mi zhuan being pressed from fine black tea dust, but nothing read supports it and the heritage description differs, so the text leaves it out. Some classifications may place it under black tea rather than heicha.",
+  "images": []
+}

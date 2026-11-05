@@ -1,0 +1,60 @@
+{
+  "slug": "wuyi-cai-cha",
+  "name_en": "Wuyi Cai Cha",
+  "name_native": "武夷菜茶",
+  "name_romanized": "Wǔyí Càichá",
+  "name_zh": "武夷菜茶",
+  "name_ru": "Уи Цай Ча",
+  "aliases": [
+    "Wuyi Caicha",
+    "Cai Cha",
+    "菜茶",
+    "Qi Zhong"
+  ],
+  "category": "oolong",
+  "origin_country": "China",
+  "origin_region": "Fujian · Wuyi",
+  "cultivar": "Wuyi Caicha (seed-grown population)",
+  "processing": "Leaf from these seed-grown bushes is made into the finished tea called Qi Zhong, in the general rock-oolong way: partial oxidation, rolling and a roast.",
+  "form": "loose",
+  "harvest_season": "As with other Wuyi rock teas, a spring picking.",
+  "appearance_dry": "Fairly small dark twisted strips, in keeping with its small to medium leaf.",
+  "appearance_liquor": "Orange-amber, typical of a roasted Wuyi oolong.",
+  "appearance_wet": "Small to medium leaves of uneven size and shape, as you would expect from a mixed seedling population.",
+  "taste_profile": "Varies by bush and lot because the plants are not genetically uniform; expect Wuyi roast and mineral character rather than one fixed aroma.",
+  "taste_tags": [
+    "mineral",
+    "roasted",
+    "woody"
+  ],
+  "brewing": {
+    "grams": 7,
+    "water_ml": 110,
+    "temp_c": 98,
+    "steeps": 7,
+    "seconds": [
+      10,
+      10,
+      15,
+      20,
+      30,
+      45,
+      60
+    ],
+    "notes": "Standard rock-tea brewing: near-boiling water and short steeps. Expect some difference between lots."
+  },
+  "caffeine_level": "medium",
+  "vintage_note": "Usually sold like other Wuyi rock teas by the year of the spring harvest, after roasting, often under the name Qi Zhong. Historic grades by area include Zhengyan Qi Zhong and Banyan Qi Zhong, so ask where the bushes actually grow.",
+  "description": "Cai Cha is the old seed-grown tea of the Wuyi Mountains: not a single cloned cultivar but a mixed population of small to medium-leaved bushes. Many famous named bushes were selected from it.\n\nThe tea made from this leaf is called Qi Zhong, so the plant and the product go by different names. It is made in the rock-oolong way.\n\nBecause each seedling differs, one lot will not taste exactly like another. That variation is the point, and it is why this tea makes an interesting contrast with a uniform clone such as Rou Gui.\n\nHistorically Qi Zhong was divided by growing area, including rock-core and half-rock categories. Those area names matter more than the word Cai Cha, which is also a general term for local bushes in other parts of China.",
+  "history": "Cai Cha is described as native to Wuyi and as the main tea grown there for centuries. It was still more than 85 percent of the planted area in a 1943 count.\n\nOver time, growers selected outstanding individual plants from this population, and the named bushes and later clones took over much of the planting.",
+  "liquor_hex": "#B4702E",
+  "leaf_hex": "#3D2E20",
+  "sources": [
+    "https://blog.sina.com.cn/s/blog_6692147f0100psxi.html"
+  ],
+  "confidence": "medium",
+  "wikipedia_title": "Wuyi tea",
+  "wikipedia_scope": "umbrella",
+  "popularity": 2,
+  "images": []
+}

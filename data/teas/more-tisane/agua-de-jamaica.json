@@ -1,0 +1,57 @@
+{
+  "slug": "agua-de-jamaica",
+  "name_en": "Agua de Jamaica",
+  "name_native": "agua de Jamaica",
+  "name_romanized": null,
+  "name_zh": "墨西哥洛神花冷饮",
+  "name_ru": "Агуа де Хамайка",
+  "aliases": [
+    "Agua de flor de Jamaica",
+    "Rosa de Jamaica",
+    "Jamaica iced tea",
+    "Хамайка"
+  ],
+  "category": "tisane",
+  "origin_country": "Mexico",
+  "origin_region": "Mexico · Central America",
+  "cultivar": "Hibiscus sabdariffa",
+  "processing": "Dried roselle calyces are steeped in boiling water, strained and pressed to get all the liquid out, then sweetened with sugar and chilled.",
+  "form": "loose",
+  "harvest_season": "The drink is made year-round from dried calyces; no season or prized picking applies to it.",
+  "appearance_dry": "Leathery, curled, deep crimson calyces.",
+  "appearance_liquor": "Ruby red to dark purple-red and clear, served over ice.",
+  "appearance_wet": "Swollen, soft, dark magenta calyces.",
+  "taste_profile": "Sharp and tart like cranberry, rounded by plenty of sugar, and very refreshing cold.",
+  "taste_tags": [
+    "tart",
+    "fruity",
+    "sweet"
+  ],
+  "brewing": {
+    "grams": 30,
+    "water_ml": 1000,
+    "temp_c": 100,
+    "steeps": 1,
+    "seconds": [
+      900
+    ],
+    "notes": "A home guide rather than a fixed recipe: steep, strain, press the calyces, sweeten while warm, then chill. Taste before adding all the sugar."
+  },
+  "caffeine_level": "none",
+  "vintage_note": "Not a vintage product. It is made fresh and sold by the glass at restaurants and street stalls, while the dried flowers are sold by weight with no year stated. Choose whole, deep red calyces over dusty broken ones.",
+  "description": "Agua de Jamaica is Mexico's cold hibiscus drink, one of the aguas frescas sold cheaply alongside fruit waters in taquerias, restaurants and on the street. The name means water of Jamaica, and the flower itself is flor de Jamaica, the sepals of roselle, Hibiscus sabdariffa. There is no connection to camellia tea.\n\nThe method is short. Steep the calyces in boiling water, strain, press them to get every last drop, and stir in sugar. The anthocyanins in the plant give the deep red color.\n\nIt tastes like a sharp cranberry drink, and the sugar is doing real work. Too little and it pinches; too much and it turns into syrup. Serve it very cold with a lot of ice.\n\nThe same plant makes karkade in Egypt and Sudan, bissap in Senegal and sorrel in the English-speaking Caribbean, where it is spiced for Christmas. If you like this, try one of those next for the same base with different spices.",
+  "history": "Roselle was domesticated in Africa, and the drink is thought to have reached the Americas with enslaved Africans. It was likely first cultivated in Brazil, and it is now drunk in Mexico, Central America and parts of South America and the Caribbean.\n\nIn Mexico it settled into the agua fresca tradition, which is why it is usually cold, sweet and sold as an everyday drink rather than brewed as a hot herbal tea.",
+  "liquor_hex": "#8E1730",
+  "leaf_hex": "#5E1224",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Hibiscus_tea",
+    "https://en.wikipedia.org/wiki/Mexican_tea_culture",
+    "https://es.wikipedia.org/wiki/Agua_de_Jamaica",
+    "https://ja.wikipedia.org/wiki/%E3%83%8F%E3%82%A4%E3%83%93%E3%82%B9%E3%82%AB%E3%82%B9%E3%83%86%E3%82%A3%E3%83%BC"
+  ],
+  "confidence": "high",
+  "wikipedia_title": "Hibiscus tea",
+  "wikipedia_scope": "umbrella",
+  "popularity": 3,
+  "images": []
+}

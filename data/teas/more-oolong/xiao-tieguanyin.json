@@ -1,0 +1,58 @@
+{
+  "slug": "xiao-tieguanyin",
+  "name_en": "Xiao Tieguanyin",
+  "name_native": "小铁观音",
+  "name_romanized": "Xiǎo Tiěguānyīn",
+  "aliases": [
+    "小鐵觀音",
+    "Benshan",
+    "本山"
+  ],
+  "category": "oolong",
+  "origin_country": "China",
+  "origin_region": "Fujian · Anxi",
+  "cultivar": "Benshan",
+  "form": "loose",
+  "caffeine_level": "medium",
+  "brewing": {
+    "grams": 6,
+    "water_ml": 110,
+    "temp_c": 95,
+    "steeps": 6,
+    "seconds": [
+      20,
+      15,
+      20,
+      30,
+      45,
+      60
+    ],
+    "notes": "A safe starting point for oolong: gongfu style with water just off the boil."
+  },
+  "taste_tags": [
+    "floral",
+    "roasted"
+  ],
+  "description": "Xiao Tieguanyin, \"little Tieguanyin\", is a nickname for Benshan, one of the four famous teas of Anxi in Fujian. It resembles Tieguanyin in shape, which also earned it the nickname of that tea's younger brother.\n\nTreat it as you would any oolong of its region: hot water, short steeps in a small pot, and a seller who can say which season it comes from.",
+  "wikipedia_title": null,
+  "wikipedia_scope": "none",
+  "popularity": 1,
+  "name_zh": "小铁观音",
+  "name_ru": "Сяо Те Гуань Инь",
+  "history": "The nickname rests on the likeness between the two teas. Benshan is counted among the four famous Anxi teas but is rated below Anxi Tieguanyin for taste and aroma. Little more is documented about the name.",
+  "liquor_hex": "#D0A548",
+  "leaf_hex": "#4A4A2C",
+  "sources": [
+    "https://www.163.com/dy/article/H4GN4A9V0532FT1L.html"
+  ],
+  "confidence": "low",
+  "images": [],
+  "stub": true,
+  "processing": "Typical of oolong: withered, tossed to bruise the leaf edges, partly oxidised, then fixed, rolled and dried, sometimes roasted.",
+  "harvest_season": "Usually picked in spring or autumn, as with most oolongs.",
+  "appearance_dry": "Plump leaves, similar in shape to Tieguanyin.",
+  "appearance_liquor": "Leans yellow.",
+  "appearance_wet": "Usually whole leaves that open up, often with darker edges.",
+  "taste_profile": "Taste and aroma are considered less fine than those of Anxi Tieguanyin.",
+  "vintage_note": "Oolongs are normally sold by season and year: light styles are best fresh, roasted styles are often rested for a year or more after roasting."
+}

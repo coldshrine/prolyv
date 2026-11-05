@@ -1,0 +1,58 @@
+{
+  "slug": "chakvi-tea",
+  "name_en": "Chakvi Tea",
+  "name_native": "ჩაქვი",
+  "name_romanized": "Chakvi",
+  "name_zh": "查克维茶",
+  "name_ru": "Чаквинский чай",
+  "aliases": [
+    "Chakva tea",
+    "Chakva tea (Popov plantation)",
+    "Чаквинская плантация",
+    "Чакви"
+  ],
+  "category": "black",
+  "origin_country": "Georgia",
+  "origin_region": "Adjara · Chakvi",
+  "cultivar": "Chinese tea varieties (historic plantings)",
+  "processing": "Black tea in the Chinese-derived Georgian manner. Popov's factory at Chakvi used English machinery from 1899.",
+  "form": "loose",
+  "harvest_season": "Not documented for Chakvi specifically; Georgian tea is generally picked in the warm months, with the youngest upper leaves giving the best grades.",
+  "appearance_dry": "Dark twisted leaf, with tips in the better lots, as is usual for good Georgian black.",
+  "appearance_liquor": "Clear amber, less deeply coloured than Indian or Ceylon black, as is general for Georgian tea.",
+  "appearance_wet": "Soft coppery brown leaf, as is usual for Georgian black tea.",
+  "taste_profile": "Nothing specific to Chakvi is well recorded; good Georgian black is generally fragrant and soft rather than sharp.",
+  "taste_tags": [
+    "sweet",
+    "malty"
+  ],
+  "brewing": {
+    "grams": 4,
+    "water_ml": 250,
+    "temp_c": 95,
+    "steeps": 1,
+    "seconds": [
+      150
+    ],
+    "notes": "Georgian tea extracts quickly and colours lightly, so use more leaf, 1.5 to 2 teaspoons per cup, rather than a longer steep."
+  },
+  "caffeine_level": "medium",
+  "vintage_note": "Little current Chakvi tea reaches the market, as production in the hills above the town is limited, and no standard vintage system is documented. For any lot, ask the producer for the harvest year and drink it within a couple of years, as is usual for black tea.",
+  "description": "Chakvi is a small resort town on the Black Sea coast of Adjara, and Georgians know it as the birthplace of their tea industry. The tea here matters more as history than as a brand you will find on shelves.\n\nThe story is one of Chinese plants and Chinese know-how moved to the Caucasus. Tea from Chakvi was made under a Chinese specialist first, then in a factory with English machines, and later in Soviet state factories.\n\nThere is little reliable tasting record for Chakvi as such. Expect what is typical of Georgian black tea: fragrant, soft, quick to extract and paler than an Assam. Brew with a generous hand and a short steep.\n\nWild tea plants can still be found in the hills above town, and some limited production continues. If a seller offers Chakvi tea, ask where exactly it was grown.",
+  "history": "In 1885 the engineer-colonel Alexander Solovtsov brought seed and seedlings from China and planted 1.5 hectares near Chakvi. In 1893 the tea merchant Konstantin Semyonovich Popov bought plots here and invited the Chinese tea specialist Lau Jon Jau with several Chinese workers. The first tea from his plantations came in 1896, a factory followed in 1899, and in 1900 Popov's plantation tea took a gold medal at the Paris exhibition.\n\nIn Soviet times Chakvi had three tea factories, a tea-pressing factory, a state tea farm and a branch of the all-Union tea research institute. The noted tea breeder Ksenia Bakhtadze worked here. Production has since shrunk to a small scale.",
+  "wikipedia_title": "Chakvi",
+  "wikipedia_scope": "umbrella",
+  "popularity": 2,
+  "liquor_hex": "#B56E2E",
+  "leaf_hex": "#3B2A1D",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Chakvi",
+    "https://ru.wikipedia.org/wiki/%D0%A7%D0%B0%D0%BA%D0%B2%D0%B8",
+    "https://ja.wikipedia.org/wiki/%E3%83%81%E3%83%A3%E3%82%AF%E3%83%B4%E3%82%A3",
+    "https://ka.wikipedia.org/wiki/%E1%83%A5%E1%83%90%E1%83%A0%E1%83%97%E1%83%A3%E1%83%9A%E1%83%98_%E1%83%A9%E1%83%90%E1%83%98",
+    "https://ru.wikipedia.org/wiki/%D0%93%D1%80%D1%83%D0%B7%D0%B8%D0%BD%D1%81%D0%BA%D0%B8%D0%B9_%D1%87%D0%B0%D0%B9"
+  ],
+  "confidence": "medium",
+  "images": [],
+  "sources_note": "Sources differ on detail: Popov's start is given as the 1890s or 1893. Lau Jon Jau's name is a transliteration from Russian. name_zh is a descriptive rendering."
+}

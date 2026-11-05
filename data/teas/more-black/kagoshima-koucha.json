@@ -1,0 +1,52 @@
+{
+  "slug": "kagoshima-koucha",
+  "name_en": "Kagoshima Koucha",
+  "name_native": "鹿児島紅茶",
+  "name_romanized": "Kagoshima Kōcha",
+  "name_zh": "鹿儿岛红茶",
+  "name_ru": "Кагосима котя",
+  "aliases": [
+    "Kagoshima black tea",
+    "Kagoshima wakoucha"
+  ],
+  "category": "black",
+  "origin_country": "Japan",
+  "origin_region": "Kagoshima",
+  "cultivar": null,
+  "processing": "Made as a fully oxidised black tea, as with other Japanese wakoucha: withered, rolled, oxidised and dried. Details vary by grower and little is recorded for the regional name as a whole.",
+  "form": "loose",
+  "harvest_season": "Not fixed for the region as a whole; Japanese black tea is usually made from the same seasonal flushes as the local green tea, and each maker states its own picking.",
+  "appearance_dry": "Typical of Japanese black tea, dark twisted leaf with a reddish-brown cast.",
+  "appearance_liquor": "Typically a clear reddish amber.",
+  "appearance_wet": "Typically coppery-brown open leaf.",
+  "taste_profile": "No single taste is established for the region; Japanese black teas in general tend to be gentler and less astringent than Assam-style teas, with a soft sweetness.",
+  "taste_tags": [
+    "sweet",
+    "malty"
+  ],
+  "brewing": {
+    "grams": 3,
+    "water_ml": 200,
+    "temp_c": 95,
+    "steeps": 2,
+    "seconds": [
+      150,
+      210
+    ],
+    "notes": "A usual Western-style starting point for Japanese black tea; shorten the steep if a given lot turns sharp."
+  },
+  "caffeine_level": "medium",
+  "vintage_note": "Usual for its class, it is sold by small makers as a recent-harvest tea, not an aged one, and is best drunk within a year or two. Look for the maker, the town and the cultivar on the label, since the regional name alone says little.",
+  "description": "Kagoshima koucha simply means black tea from Kagoshima, the prefecture at the southern end of Kyushu. It is a regional label and not a defined style, and it sits alongside more local names such as Makurazaki and Akune black tea.\n\nThe method is the ordinary one for black tea: wither, roll, oxidise, dry. What changes from one bag to the next is the maker and the cultivar, so treat each as its own tea.\n\nAs with other Japanese black teas, expect something gentle and fairly low in astringency. Brew it Western-style first, and drink it without milk until you know what it does.\n\nBuy it by producer. A label that names a town and a cultivar tells you much more than the prefecture does.",
+  "history": "Little is documented about black tea in Kagoshima as a distinct regional tea. It appears in Japanese listings of domestic black teas together with Makurazaki and Akune, but when production began and who made it known are not well recorded.",
+  "liquor_hex": "#B5652B",
+  "leaf_hex": "#4A2F20",
+  "sources": [
+    "https://ja.wikipedia.org/wiki/%E7%B4%85%E8%8C%B6"
+  ],
+  "confidence": "low",
+  "wikipedia_title": null,
+  "wikipedia_scope": "none",
+  "popularity": 2,
+  "images": []
+}

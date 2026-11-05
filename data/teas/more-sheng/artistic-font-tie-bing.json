@@ -1,0 +1,57 @@
+{
+  "slug": "artistic-font-tie-bing",
+  "name_en": "Artistic Font Discus Tea Cake",
+  "name_native": "美术字铁饼",
+  "name_romanized": "Měishùzì Tiěbǐng",
+  "aliases": [
+    "美術字鐵餅"
+  ],
+  "category": "sheng",
+  "origin_country": "China",
+  "origin_region": "Yunnan",
+  "cultivar": null,
+  "form": "cake",
+  "caffeine_level": "high",
+  "brewing": {
+    "grams": 6,
+    "water_ml": 110,
+    "temp_c": 95,
+    "steeps": 7,
+    "seconds": [
+      10,
+      10,
+      15,
+      20,
+      25,
+      35,
+      50
+    ],
+    "notes": "A safe starting point for raw pu-erh: rinse once, gongfu style, short early steeps."
+  },
+  "taste_tags": [
+    "bitter",
+    "sweet"
+  ],
+  "description": "A vintage discus-shaped raw pu-erh from Yunnan, named for the calligraphic characters on its wrapper.\n\nThis is a way of preparing tea more than a tea you buy under one name, so the recipe and the base tea change from one maker to the next.",
+  "wikipedia_title": null,
+  "wikipedia_scope": "none",
+  "popularity": 1,
+  "name_zh": "美术字铁饼",
+  "name_ru": "Тебин с художественным шрифтом",
+  "history": "It shares its lettering style with the Artistic Font Green Mark round cakes, which belong to the Blue Mark family of vintage pu-erh. Little more is documented about the discus itself.",
+  "liquor_hex": "#B98A32",
+  "leaf_hex": "#4E4A30",
+  "sources": [
+    "https://www.umiteasets.com/blog/vintage-puerh-a-simple-tour-through-the-greatest-vintages-of-puerh-blue-mark-series-by-chen-chih-tung.html"
+  ],
+  "confidence": "low",
+  "images": [],
+  "stub": true,
+  "processing": "Made from a raw pu-erh base tea according to the recipe; the method varies.",
+  "harvest_season": "Not tied to a harvest: it depends on the base tea.",
+  "appearance_dry": "Usually a pressed cake of silvery-green to brown leaf, darkening with age.",
+  "appearance_liquor": "Usually pale gold when young, deepening to amber with age.",
+  "appearance_wet": "Usually thick, large leaf.",
+  "taste_profile": "Expect what young raw pu-erh usually gives: bright, bitter-sweet and full, mellowing with age.",
+  "vintage_note": "Not sold by vintage: it is made from whatever base tea the maker keeps, so freshness of the base matters more than the year."
+}

@@ -3,25 +3,65 @@
   "name_en": "Tteokcha / Doncha (Korean Coin Tea)",
   "name_native": "떡차 / 돈차",
   "name_romanized": "Tteokcha / Doncha",
-  "aliases": ["Ddokcha", "Ddok cha", "Doncha", "Don cha", "Jeoncha", "Cheongtaejeon", "Korean coin tea", "Korean cake tea", "Jangheung coin tea"],
+  "aliases": [
+    "Ddokcha",
+    "Ddok cha",
+    "Doncha",
+    "Don cha",
+    "Jeoncha",
+    "Cheongtaejeon",
+    "Korean coin tea",
+    "Korean cake tea",
+    "Jangheung coin tea",
+    "錢茶",
+    "靑苔錢",
+    "Money tea"
+  ],
   "category": "heicha",
   "origin_country": "South Korea",
-  "origin_region": "Jeollanam-do · Jangheung (also Hadong and other parts of the south-west)",
+  "origin_region": "Jeollanam-do · Jangheung",
   "cultivar": "Seed-grown native bushes (jaeraejong), often semi-wild",
   "processing": "Fresh leaf is steamed, pounded in a mortar into a paste, pressed into small discs (coins with a hole, or larger cakes), dried, strung on cords and stored; during months to years of storage it darkens and develops a light microbial fermentation, and the coins are traditionally toasted over a flame before brewing.",
   "form": "cake",
-  "harvest_season": "Late spring to early summer leaf, usually larger picks after the fine green grades; the coins are then stored for at least several months before sale.",
+  "harvest_season": "Hand-picked in May; the coins are then fermented in storage for at least six months before drinking, sometimes for more than twenty years.",
   "appearance_dry": "Small hard discs the size of a large coin, dark brown to greyish, often with a hole in the middle and sometimes a faint whitish bloom from ageing.",
   "appearance_liquor": "Amber to reddish brown, clear, darker with age and with a longer boil.",
   "appearance_wet": "Broken, soft dark-brown leaf fragments that fall apart after boiling.",
   "taste_profile": "Mild and mellow: woody and faintly earthy with a toasted-grain sweetness, a slight medicinal edge in aged coins and a smooth finish with very little bitterness.",
-  "taste_tags": ["woody", "earthy", "sweet", "medicinal"],
-  "brewing": {"grams": 4, "water_ml": 500, "temp_c": 100, "steeps": 2, "seconds": [300, 420], "notes": "Traditionally one coin is toasted briefly over a flame, then simmered in a kettle for five minutes or so and drunk like a decoction; a second boil is normal. It can also be broken up and steeped gongfu-style, but boiling is what it was made for."},
+  "taste_tags": [
+    "woody",
+    "earthy",
+    "sweet",
+    "medicinal"
+  ],
+  "brewing": {
+    "grams": 4,
+    "water_ml": 500,
+    "temp_c": 100,
+    "steeps": 2,
+    "seconds": [
+      300,
+      420
+    ],
+    "notes": "Traditionally one coin is toasted briefly over a flame, then simmered in a kettle for five minutes or so and drunk like a decoction; a second boil is normal. It can also be broken up and steeped gongfu-style, but boiling is what it was made for."
+  },
   "caffeine_level": "medium",
-  "vintage_note": "Sold by the year of pressing, usually in strings or small boxes of coins, and rarely sold fresh: most lots on the market are one to five years old, and some makers release older coins with the age stated. It is one of the few Korean teas meant to be kept rather than drunk within the year.",
-  "description": "Tteokcha, 'rice-cake tea', and its coin-shaped form doncha, 'money tea', are the Korean survivors of the old East Asian habit of pressing tea into cakes. The best known version is cheongtaejeon, 'green moss coin', from Jangheung in Jeollanam-do, a small pressed disc with a hole through the middle so the coins can be strung together and hung to dry. It was an everyday rural tea for centuries, nearly died out in the twentieth century, and was revived by Jangheung producers in recent decades.\n\nThe method is unlike anything else in Korea: the leaf is steamed, pounded to a paste, pressed into coins or cakes, dried and stored. In storage the coins darken and pick up a gentle fermentation, sometimes with the pale bloom that gave cheongtaejeon its name, which is why it belongs with the post-fermented teas rather than with green tea. Before drinking, the coin is toasted over a flame, which wakes up the aroma and takes off any mustiness, then boiled rather than steeped.\n\nThe result is a mild, soothing drink: woody and faintly earthy, with a sweet toasted-grain note and, in older coins, a hint of something medicinal, never bitter. It was drunk as much for comfort and digestion as for flavour, and it still works best that way, boiled in a kettle and poured through a meal or an evening.\n\nIt is sold by the year of pressing, usually with a few years of age already on it, in strings or boxes of coins from a handful of Jangheung and Hadong makers. It is a niche product even in Korea, so expect small quantities and variable quality; a coin that smells sour or mouldy rather than woody should be passed over.\n\nIf you like it, it opens the door to the other decoction teas of the region, Japanese goishi-cha and the fermented teas of Southeast Asia, which share the same logic of pressing, storing and boiling.",
+  "vintage_note": "Sold by the year of pressing, usually in strings or small boxes of coins. It needs at least six months of ageing, and some coins are kept for over twenty years. It is one of the few Korean teas meant to be kept rather than drunk within the year.",
+  "description": "Tteokcha, 'rice-cake tea', and its coin-shaped form doncha, 'money tea', are the Korean survivors of the old East Asian habit of pressing tea into cakes. The best known version is cheongtaejeon, 'green moss coin', from Jangheung in Jeollanam-do, a small pressed disc with a hole through the middle so the coins can be strung together and hung to dry. Its roots in the Jangheung area go back to the Later Silla temple of Borimsa.\n\nThe method is unlike anything else in Korea: the leaf is steamed, pounded to a paste, pressed into coins or cakes, dried and stored. In storage the coins darken and pick up a gentle fermentation, sometimes with the pale bloom that gave cheongtaejeon its name, which is why it belongs with the post-fermented teas rather than with green tea. Before drinking, the coin is toasted over a flame, which wakes up the aroma and takes off any mustiness, then steeped for five to ten minutes in very hot water, or boiled.\n\nThe result is a mild, soothing drink: woody and faintly earthy, with a sweet toasted-grain note and, in older coins, a hint of something medicinal, never bitter. It was drunk as much for comfort and digestion as for flavour, and it still works best that way, boiled in a kettle and poured through a meal or an evening.\n\nIt is sold by the year of pressing, with at least six months of age on it, in strings or boxes of coins from a handful of makers, Jangheung above all. It is a niche product even in Korea, so expect small quantities and variable quality; a coin that smells sour or mouldy rather than woody should be passed over.\n\nIf you like it, it opens the door to the other decoction teas of the region, Japanese goishi-cha and the fermented teas of Southeast Asia, which share the same logic of pressing, storing and boiling.",
   "wikipedia_title": "Doncha",
   "wikipedia_scope": "exact",
   "popularity": 1,
-  "sources_note": "Form set to 'cake' for pressed coins; 'other' would also fit. The 'green moss' bloom and microbial ageing are the traditional account; modern commercial cheongtaejeon is sometimes dried more quickly and may show little fermentation. Tteokcha is also used by some producers for larger pressed cakes, hence the combined name."
+  "sources_note": "Form set to 'cake' for pressed coins; 'other' would also fit. The 'green moss' bloom and microbial ageing are the traditional account; modern commercial cheongtaejeon is sometimes dried more quickly and may show little fermentation. Tteokcha is also used by some producers for larger pressed cakes, hence the combined name.",
+  "name_zh": "钱茶",
+  "name_ru": "Ттокча / Донча",
+  "history": "Doncha, money tea, is a coin-shaped post-fermented tea, and in the Jangheung region of South Jeolla it goes by cheongtaejeon, green moss coin. Its history is tied to Borimsa, a temple founded in the Later Silla period. Old records including the Sejong Sillok geography place 13 of the country's 19 tea-producing places in the Jangheung area.\n\nThe method sets it apart from Korea's usual roasted green teas. Leaf hand-picked in May is steamed, pounded in a mortar or millstone, shaped into lumps, sun-dried and pierced, then fermented for at least six months and sometimes more than twenty years.\n\nIt was valued in traditional medicine for mild complaints such as stomach ache and colds. Jangheung's doncha is listed on the Ark of Taste.",
+  "liquor_hex": "#A8622A",
+  "leaf_hex": "#4A3626",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Doncha",
+    "https://ko.wikipedia.org/wiki/%EB%8F%88%EC%B0%A8",
+    "https://www.wikidata.org/wiki/Q30043860"
+  ],
+  "confidence": "medium",
+  "images": []
 }

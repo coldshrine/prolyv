@@ -3,25 +3,68 @@
   "name_en": "Sage Tea (Faskomilo)",
   "name_native": "Φασκόμηλο / Salbei / Шавлія",
   "name_romanized": "Faskomilo",
-  "aliases": ["Faskomilo", "Greek sage tea", "Salvia tea", "Salbeitee", "Adaçayı", "Salvia officinalis", "Salvia fruticosa"],
+  "aliases": [
+    "Faskomilo",
+    "Greek sage tea",
+    "Salvia tea",
+    "Salbeitee",
+    "Adaçayı",
+    "Salvia officinalis",
+    "Salvia fruticosa"
+  ],
   "category": "tisane",
   "origin_country": "Greece",
-  "origin_region": "Crete, the Peloponnese and the Aegean islands (faskomilo); common sage tea is drunk across the Mediterranean, Turkey and Central Europe",
+  "origin_region": "Crete",
   "cultivar": "Salvia fruticosa (Greek sage) for faskomilo; Salvia officinalis (common sage) in most Western tea ranges",
   "processing": "Leafy stems are cut just before or at flowering, dried in shade in bunches or on racks, then the leaves are rubbed from the stems and lightly cut; no fermentation.",
   "form": "loose",
-  "harvest_season": "May to June at flowering; on Crete much of it is still gathered wild on the hillsides in late spring.",
+  "harvest_season": "May to June, around flowering; in Greece some of it is gathered wild on the hillsides in late spring.",
   "appearance_dry": "Grey-green, velvety, slightly woolly leaf pieces with thin stems and a strong camphor-herb smell.",
   "appearance_liquor": "Pale gold-green, clear.",
   "appearance_wet": "Soft, felted grey-green leaves that smell like a roast dinner.",
   "taste_profile": "Savoury and camphorous with a eucalyptus-like coolness, a gentle bitterness and a warming finish; Greek sage is softer and more lemony than common sage, and honey rounds both.",
-  "taste_tags": ["herbal", "medicinal", "camphor", "bitter"],
-  "brewing": {"grams": 2, "water_ml": 250, "temp_c": 95, "steeps": 1, "seconds": [240], "notes": "A level tablespoon per cup, just-boiled water, 3–5 minutes only; longer brings out bitterness and a soapy edge. The Greek serve is with honey and a squeeze of lemon. A Greek grocery bunch of whole stems can go straight into a small pot, one stem per cup."},
+  "taste_tags": [
+    "herbal",
+    "medicinal",
+    "camphor",
+    "bitter"
+  ],
+  "brewing": {
+    "grams": 2,
+    "water_ml": 250,
+    "temp_c": 95,
+    "steeps": 1,
+    "seconds": [
+      240
+    ],
+    "notes": "A level tablespoon per cup, just-boiled water, 3–5 minutes only; longer brings out bitterness and a soapy edge. The Greek serve is with honey and a squeeze of lemon. A Greek grocery bunch of whole stems can go straight into a small pot, one stem per cup."
+  },
   "caffeine_level": "none",
   "vintage_note": "Sold as the current year's spring harvest and best within a year, when the leaf is still grey-green and strongly aromatic rather than brown and dusty. In Greece it is sold as whole dried bunches on the stem at markets and groceries, sometimes labelled by island or mountain; Western tea merchants sell cut leaf of common sage, which is sharper. The species is rarely stated, so if the pack says faskomilo or Greek sage it is Salvia fruticosa, and if it just says sage it is almost certainly Salvia officinalis.",
   "description": "Sage tea is the savoury one: the same herb that goes with roast meat, dried and steeped into a pale, camphor-scented cup that tastes of the Mediterranean hillside. In Greece, where it is called faskomilo, it is as common as mountain tea and is sold in bunches of whole dried stems; the Greek plant is a slightly different species from the garden sage of Western Europe, softer and more lemony.\n\nThe leaves are picked around flowering in late spring and shade-dried, and that is all; the quality lies in the species, the season and the freshness of the oils, which are what give the cup its character and are the first thing to go.\n\nBrewed short, three to five minutes, it is aromatic, warming and gently bitter with a cooling, eucalyptus-like edge, and a spoon of honey and a squeeze of lemon turn it into something close to a Greek winter cold remedy. Brewed long it becomes bitter and soapy, which is the usual mistake. A single dried stem in a small pot, Greek-style, is the easiest way to get it right.\n\nBuy grey-green leaf or whole bunches from the latest harvest; a Greek or Turkish grocery is the best source. Expect no vintage and little labelling beyond the name, and know that 'sage' in a Western range means common sage, which is noticeably sharper.\n\nIt has traditionally been drunk for sore throats and after heavy meals; whatever you make of that, it is a cheap, distinctive cup and a good one to blend with lemon balm, thyme or honey.",
   "wikipedia_title": "Salvia officinalis",
   "wikipedia_scope": "umbrella",
   "popularity": 3,
-  "sources_note": "Card covers both Greek sage (Salvia fruticosa) and common sage (Salvia officinalis); the Wikipedia link points at the more recognisable common sage."
+  "sources_note": "Card covers both Greek sage (Salvia fruticosa) and common sage (Salvia officinalis); the Wikipedia link points at the more recognisable common sage.",
+  "name_zh": "鼠尾草茶",
+  "name_ru": "Шалфейный чай",
+  "history": "Common sage is native to the Mediterranean and has been grown in the Old World for centuries for food and healing; its species name, officinalis, points to the monastery storeroom where medicinal herbs were kept. Old herbals credit it with many remarkable properties.\n\nThe infusion itself has no well-documented starting point. Greek faskomilo, usually attributed to a separate species, Salvia fruticosa, is known mainly as a living household habit, and little is written about its history.",
+  "liquor_hex": "#D4C77E",
+  "leaf_hex": "#8A9682",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Salvia_officinalis"
+  ],
+  "confidence": "low",
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1b/Sage_tisane.jpg/1280px-Sage_tisane.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1b/Sage_tisane.jpg/330px-Sage_tisane.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Sage_tisane.jpg",
+      "author": "Quinn Dombrowski from Berkeley, USA",
+      "license": "CC BY-SA 2.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+      "kind": "liquor",
+      "alt": "Pale golden sage tea in a white cup with a sprig of grey-green sage leaves"
+    }
+  ]
 }

@@ -1,0 +1,64 @@
+{
+  "slug": "kombu-cha",
+  "name_en": "Kelp Tea (Kombu-cha)",
+  "name_native": "昆布茶",
+  "name_romanized": "Kobu-cha / Konbu-cha",
+  "name_zh": "昆布茶",
+  "name_ru": "Кобу-тя (чай из ламинарии)",
+  "aliases": [
+    "Kelp tea",
+    "Konbu-cha",
+    "Kobu-cha",
+    "Kombu tea",
+    "Dasima-cha",
+    "다시마차",
+    "Haidai-cha",
+    "海带茶",
+    "Кобутя",
+    "Комбутя",
+    "Тасима-чха"
+  ],
+  "category": "tisane",
+  "origin_country": "Japan",
+  "origin_region": "Nationwide",
+  "cultivar": null,
+  "processing": "Dried kombu is chopped or ground to powder and infused or dissolved in hot water. Instant powders are usually seasoned with salt and often sugar.",
+  "form": "powder",
+  "harvest_season": "Made from dried kelp and sold all year; no picking season matters to the buyer.",
+  "appearance_dry": "Fine pale green-beige powder, or small squares and threads of dark kelp in some styles.",
+  "appearance_liquor": "Pale, slightly cloudy yellow-green with fine sediment from the powder.",
+  "appearance_wet": "Powder dissolves; cut kelp softens into dark, slippery strips that can be eaten.",
+  "taste_profile": "Savoury and salty like a light seaweed broth, with deep umami and a little sweetness in seasoned powders.",
+  "taste_tags": [
+    "umami",
+    "marine",
+    "sweet"
+  ],
+  "brewing": {
+    "grams": 2,
+    "water_ml": 150,
+    "temp_c": 90,
+    "steeps": 1,
+    "seconds": [
+      30
+    ],
+    "notes": "Stir powder into hot water and drink. With chopped kelp, pour on boiling water, let it steep, then eat the softened kelp afterwards."
+  },
+  "caffeine_level": "none",
+  "vintage_note": "Sold with no year or season: tins, sticks and sachets of instant powder from a handful of Japanese makers, on sale all year with a best-before date. Pick by style: plain, ume-flavoured or with cut kelp pieces.",
+  "description": "Kombu-cha is a cup of seaweed broth called tea. Kelp is chopped or powdered and met with hot water, and there is no tea plant in it. It has nothing to do with kombucha, the fermented drink; the English name for that seems to come from a mix-up, and in Japan the fermented one is called kōcha kinoko.\n\nToday's standard form is an instant powder of dried kombu with salt and often sugar. Some brands add cut kelp squares, others freeze-dried umeboshi to make ume-kobu-cha, and there is even a chilli version.\n\nIt tastes savoury first, with a salty, marine depth. Use less powder than you would think, and taste before adding more. Japanese cooks also keep a tin for seasoning, using it in place of salt or soy sauce.\n\nBuy by reading the ingredients, since salt and sweetener vary from one brand to the next. Its cheerful place at the table comes from a pun: kobu echoes yorokobu, to rejoice, which is why it appears at New Year and at weddings.",
+  "history": "Tea with kelp existed by the Edo period at the latest, when people poured boiling water over chopped kombu and then ate the kelp. A much older story, a legend-like account, says the monk Kūya handed out ōbuku-cha to the sick during a Kyoto epidemic in 951; that drink was tea with kombu and pickled plum, a true tea, still drunk in the Kansai region at New Year.\n\nThe powdered kind has a named inventor: Umazō Fujita, founder of the maker Gyokuroen, in 1918. Korea has its own dasima-cha, from kelp powder or julienned kelp.",
+  "liquor_hex": "#C9C48A",
+  "leaf_hex": "#A7A67A",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Kelp_tea",
+    "https://ja.wikipedia.org/wiki/%E6%98%86%E5%B8%83%E8%8C%B6",
+    "https://ru.wikipedia.org/wiki/%D0%9A%D0%BE%D0%B1%D1%83%D1%82%D1%8F",
+    "https://ko.wikipedia.org/wiki/%EB%8B%A4%EC%8B%9C%EB%A7%88%EC%B0%A8"
+  ],
+  "confidence": "high",
+  "wikipedia_title": "Kelp tea",
+  "wikipedia_scope": "exact",
+  "popularity": 3,
+  "images": []
+}

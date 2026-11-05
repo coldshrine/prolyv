@@ -3,7 +3,15 @@
   "name_en": "Dian Hong Golden Buds (Jin Ya)",
   "name_native": "滇红金芽",
   "name_romanized": "Diānhóng Jīnyá",
-  "aliases": ["Yunnan Golden Buds", "Yunnan Gold", "Golden Yunnan", "Jin Ya", "Dian Hong Jin Hao", "Yunnan Golden Tips"],
+  "aliases": [
+    "Yunnan Golden Buds",
+    "Yunnan Pure Gold",
+    "Jin Ya",
+    "Dian Hong Jin Hao",
+    "Yunnan Golden Tips",
+    "金芽滇红",
+    "金芽滇紅"
+  ],
   "category": "black",
   "origin_country": "China",
   "origin_region": "Yunnan · Lincang · Fengqing",
@@ -12,15 +20,85 @@
   "form": "loose",
   "harvest_season": "Early spring (March to early April) when the buds are fattest; later pickings give thinner, less downy buds.",
   "appearance_dry": "Plump, slightly curved buds covered in golden fur, with few or no dark leaves among them.",
-  "appearance_liquor": "Orange-amber rather than red, bright and slightly viscous.",
+  "appearance_liquor": "Bright and slightly viscous, from orange-amber to clear red depending on the lot.",
   "appearance_wet": "Uniform fat copper-gold buds that stay whole.",
   "taste_profile": "Honey, sweet potato, caramel and soft malt with a faint peppery finish, thick in texture and almost without astringency.",
-  "taste_tags": ["honey", "sweet", "malty", "creamy", "spicy"],
-  "brewing": {"grams": 4, "water_ml": 110, "temp_c": 88, "steeps": 8, "seconds": [10, 10, 15, 20, 25, 35, 50, 70], "notes": "Keep the water around 85–90 °C; boiling water plus a long steep turns the honey into a flat, cooked taste. Western-style: 2.5 g per 250 ml, 2.5 minutes."},
+  "taste_tags": [
+    "honey",
+    "sweet",
+    "malty",
+    "creamy",
+    "spicy"
+  ],
+  "brewing": {
+    "grams": 4,
+    "water_ml": 110,
+    "temp_c": 88,
+    "steeps": 8,
+    "seconds": [
+      10,
+      10,
+      15,
+      20,
+      25,
+      35,
+      50,
+      70
+    ],
+    "notes": "Keep the water around 85–90 °C; boiling water plus a long steep turns the honey into a flat, cooked taste. Western-style: 2.5 g per 250 ml, 2.5 minutes."
+  },
   "caffeine_level": "high",
   "vintage_note": "Sold strictly as the current year's spring harvest; the downy buds lose their aroma within about a year and old Jin Ya tastes of cardboard-sweet nothing. Not an ageing tea. Autumn 'golden bud' lots exist and are cheaper and thinner.",
-  "description": "Golden Buds, Dian Hong Jin Ya, is the luxury end of Yunnan black: nothing but fat, downy buds picked in early spring, which after full oxidation come out looking like a heap of golden fur. It is the tea that made 'Yunnan Gold' a Western shop staple, and it is the easiest Chinese black to love on first sip because it is almost all sweetness.\n\nThe buds are withered gently, rolled lightly (hard rolling would crush them), oxidised and dried; there are few leaf edges to release tannin, so the cup gets its colour and body from the bud's own sugars and pigments. The result is an orange-amber liquor rather than the red of a leafier Dian Hong, and a texture that feels thick for a black tea.\n\nFlavour runs honey, sweet potato, caramel and malt, with a faint pepperiness on the finish and almost no astringency. It gives eight or more gongfu steeps if you keep the water around 85–90 °C; the common mistake is boiling water plus a long steep, which turns the honey into a flat, cooked taste. In a pot, go light – 2.5 g per 250 ml, two and a half minutes.\n\nBuy the current spring harvest, because the down loses its aroma within a year. Check the origin: Fengqing and the rest of Lincang are the classic source, but a lot of golden-bud tea from Guangxi, Sichuan and Guizhou is sold as 'Yunnan' or passed off as Jin Jun Mei. Genuine Yunnan buds are fat, slightly curved and uniformly golden; thin, needle-straight ones belong to the Golden Needle style, which is a separate product.\n\nIt is a good breakfast black for people who think they dislike black tea, and it is worth tasting next to a leafier Dian Hong gongfu to see what the leaves add.",
+  "description": "Golden Buds, Dian Hong Jin Ya, is the luxury end of Yunnan black: nothing but fat, downy buds picked in early spring, which after full oxidation come out looking like a heap of golden fur. Labels can mislead here, because 'Yunnan Gold' also covers leafier gongfu grades; the all-bud tea is sometimes called Yunnan Pure Gold, so look at the leaf. It is the easiest Chinese black to love on first sip because it is almost all sweetness.\n\nThe buds are withered gently, rolled lightly (hard rolling would crush them), oxidised and dried; there are few leaf edges to release tannin. The result is a bright liquor, orange-amber to clear red depending on the lot, and a texture that feels thick for a black tea.\n\nFlavour runs honey, sweet potato, caramel and malt, with a faint pepperiness on the finish and almost no astringency. It gives eight or more gongfu steeps if you keep the water around 85–90 °C; the common mistake is boiling water plus a long steep, which turns the honey into a flat, cooked taste. In a pot, go light – 2.5 g per 250 ml, two and a half minutes.\n\nBuy the current spring harvest, because the down loses its aroma within a year. Check the origin: Fengqing and the rest of Lincang are the classic source, but golden-bud tea is also made in other provinces, and some of it is reportedly sold as Yunnan tea or as Jin Jun Mei. Typical Yunnan buds are fat, slightly curved and uniformly golden; thin, needle-straight ones belong to the Golden Needle style, which is a separate product.\n\nIt is a good breakfast black for people who think they dislike black tea, and it is worth tasting next to a leafier Dian Hong gongfu to see what the leaves add.",
   "wikipedia_title": "Dianhong",
   "wikipedia_scope": "exact",
-  "popularity": 4
+  "popularity": 4,
+  "name_zh": "滇红金芽",
+  "name_ru": "Дянь Хун Цзинь Я",
+  "history": "Golden Buds has no documented birthday of its own. It is the all-bud top of Dian Hong, the Yunnan black tea first made at Shunning, now Fengqing, in 1939, and it is listed with the highest Dian Hong grades, from TGFOP to SFTGFOP.\n\nThe golden tip has been the mark of quality in Dian Hong generally, and this tea simply takes that idea to its end: buds only, with no dark leaf. Little is documented about when bud-only lots became a separate product or who first sold them that way, so treat any exact founding story with caution.",
+  "liquor_hex": "#C4702A",
+  "leaf_hex": "#C08A3E",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Dianhong",
+    "https://zh.wikipedia.org/wiki/%E6%BB%87%E7%BA%A2"
+  ],
+  "confidence": "medium",
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/07/GoldenDianHong.jpg/1280px-GoldenDianHong.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/07/GoldenDianHong.jpg/330px-GoldenDianHong.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source_page": "https://commons.wikimedia.org/wiki/File:GoldenDianHong.jpg",
+      "author": "Sjschen",
+      "license": "CC BY 3.0",
+      "license_url": "https://creativecommons.org/licenses/by/3.0",
+      "kind": "dry_leaf",
+      "alt": "Loose pile of curved golden Dian Hong buds on a white plate"
+    }
+  ],
+  "i18n": {
+    "ru": {
+      "processing": "Полностью окисленный красный чай только из почек: отдельные ранневесенние почки бережно завяливают, слегка скручивают, окисляют и сушат, сохраняя густой золотистый пушок нетронутым.",
+      "harvest_season": "Ранняя весна (с марта до начала апреля), когда почки самые крупные; поздние сборы дают более тонкие и менее пушистые почки.",
+      "appearance_dry": "Пухлые, слегка изогнутые почки в золотистом пуху, тёмных листьев среди них мало или нет совсем.",
+      "appearance_liquor": "Яркий, слегка вязкий настой, от оранжево-янтарного до прозрачно-красного в зависимости от партии.",
+      "appearance_wet": "Одинаковые крупные медно-золотистые почки, остающиеся целыми.",
+      "taste_profile": "Мёд, батат, карамель и мягкий солод с лёгким перечным финалом, плотная текстура и почти никакой терпкости.",
+      "vintage_note": "Продаётся строго как весенний сбор текущего года; пушистые почки теряют аромат примерно за год, и старый Цзинь Я на вкус — сладковатая картонная пустота. Для выдержки не подходит. Бывают и осенние партии «золотых почек», они дешевле и тоньше.",
+      "history": "Собственной задокументированной даты рождения у Золотых почек нет. Это вершина Дянь Хуна из одних почек — юньнаньского красного чая, впервые сделанного в 1939 году в Шуньнине, нынешнем Фэнцине, — и значится он среди высших сортов Дянь Хуна, от TGFOP до SFTGFOP.\n\nЗолотистый типс вообще считался признаком качества Дянь Хуна, и этот чай просто доводит идею до конца: только почки, без тёмного листа. О том, когда партии из одних почек стали отдельным продуктом и кто первым начал так их продавать, известно мало, поэтому к любой точной истории основания стоит относиться осторожно.",
+      "description": "Золотые почки, Дянь Хун Цзинь Я, — люксовый край юньнаньского красного: только крупные пушистые почки раннего весеннего сбора, которые после полного окисления похожи на горку золотистого меха. Этикетки здесь могут ввести в заблуждение, потому что названием Yunnan Gold обозначают и более листовые сорта гунфу; чисто почечный чай иногда называют Yunnan Pure Gold, так что смотрите на лист. Из китайских красных его проще всего полюбить с первого глотка, потому что он почти весь состоит из сладости.\n\nПочки бережно завяливают, слегка скручивают (сильная скрутка их раздавила бы), окисляют и сушат; краёв листа, отдающих танины, тут немного. В итоге получается яркий настой, от оранжево-янтарного до прозрачно-красного в зависимости от партии, с текстурой, плотной для красного чая.\n\nВо вкусе мёд, батат, карамель и солод, лёгкая перечность в финале и почти никакой терпкости. Он выдерживает восемь и более проливов гунфу, если держать воду около 85–90 °C; обычная ошибка — кипяток плюс долгий пролив, от которых мёд превращается в плоский варёный вкус. В чайнике заваривайте легко: 2,5 г на 250 мл, две с половиной минуты.\n\nПокупайте весенний сбор текущего года, потому что пушок теряет аромат в течение года. Проверяйте происхождение: Фэнцин и весь Линьцан — классический источник, но чай из золотых почек делают и в других провинциях, и часть его, как сообщается, продают как юньнаньский или как Цзинь Цзюнь Мэй. Типичные юньнаньские почки крупные, слегка изогнутые и равномерно золотистые; тонкие, прямые как игла относятся к стилю Золотая игла, а это отдельный продукт.\n\nЭто хороший красный чай на завтрак для тех, кто думает, что не любит красный чай, и его стоит попробовать рядом с более листовым Дянь Хуном гунфу, чтобы понять, что добавляют листья.",
+      "brewing_notes": "Держите воду около 85–90 °C; кипяток плюс долгий пролив превращают мёд в плоский варёный вкус. По-европейски: 2,5 г на 250 мл, 2,5 минуты."
+    },
+    "zh": {
+      "processing": "全芽全发酵红茶：早春单芽经轻柔萎凋、轻揉、发酵和干燥，厚厚的金毫得以完整保留。",
+      "harvest_season": "早春（3月至4月初）芽头最肥壮；采得越晚，芽头越瘦，毫也越少。",
+      "appearance_dry": "芽头肥壮，略带弯曲，满披金毫，其间很少或没有深色叶片。",
+      "appearance_liquor": "汤色明亮，略带黏稠感，因批次不同从橙琥珀色到清澈的红色。",
+      "appearance_wet": "肥壮的铜金色芽头整齐划一，保持完整。",
+      "taste_profile": "蜂蜜、红薯、焦糖和柔和的麦芽，收尾略带胡椒感，口感厚实，几乎没有涩感。",
+      "vintage_note": "只按当年春茶销售；茸毛芽头的香气大约一年就会散失，陈放的金芽喝起来是一种纸板般的甜淡，什么味道都没有。不适合存放。也有秋季的“金芽”批次，更便宜，也更单薄。",
+      "history": "金芽本身没有可考的诞生日期。它是滇红中的全芽顶端，而滇红1939年首创于顺宁（今凤庆）；金芽列在滇红的最高等级之中，从TGFOP到SFTGFOP。\n\n金毫一直是滇红整体的品质标志，这款茶只是把这个思路做到了极致：只有芽头，没有深色叶片。全芽批次何时成为独立产品、谁最先这样销售，记载很少，所以任何确切的起源故事都要谨慎看待。",
+      "description": "金芽（滇红金芽）是云南红茶的奢华一端：全是早春采摘的肥壮茸毛芽头，全发酵后看起来就像一堆金色的绒毛。这里标签容易误导人，因为“Yunnan Gold”也涵盖叶子更多的工夫等级；全芽茶有时叫“Yunnan Pure Gold”，所以要看茶叶本身。它是最容易让人一口就爱上的中国红茶，因为几乎全是甜味。\n\n芽头经轻柔萎凋、轻揉（重揉会把芽压碎）、发酵和干燥；能释放单宁的叶缘很少。成茶汤色明亮，因批次不同从橙琥珀色到清澈的红色，对红茶来说口感算是厚实的。\n\n风味是蜂蜜、红薯、焦糖和麦芽，收尾略带胡椒感，几乎没有涩感。水温保持在85–90 °C左右，工夫泡法能泡八泡甚至更多；常见的错误是沸水加长时间浸泡，会把蜂蜜味变成平淡的熟味。用壶泡要投茶少一些：2.5克配250毫升，两分半钟。\n\n请买当年春茶，因为茸毛的香气一年内就会散失。要查产地：凤庆和临沧其他地方是传统产区，但其他省份也产金芽茶，据说其中一些被当作云南茶或金骏眉出售。典型的云南芽头肥壮、略弯、通体金黄；细瘦笔直如针的属于金针一路，那是另一种产品。\n\n对那些以为自己不喜欢红茶的人来说，它是很好的早餐红茶；也值得和叶子更多的滇红工夫对照着喝，看看叶子带来了什么。",
+      "brewing_notes": "水温保持在85–90 °C左右；沸水加长时间浸泡会把蜂蜜味变成平淡的熟味。西式冲泡：2.5克配250毫升，2.5分钟。"
+    }
+  }
 }

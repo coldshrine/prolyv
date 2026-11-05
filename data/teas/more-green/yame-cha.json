@@ -1,0 +1,100 @@
+{
+  "slug": "yame-cha",
+  "name_en": "Yame-cha",
+  "name_native": "八女茶",
+  "name_zh": "八女茶",
+  "name_ru": "Ямэ-тя",
+  "name_romanized": "Yame-cha",
+  "aliases": [
+    "Yamecha",
+    "Yame tea",
+    "Yame gyokuro"
+  ],
+  "category": "green",
+  "origin_country": "Japan",
+  "origin_region": "Fukuoka · Yame",
+  "cultivar": "Yabukita (about 77%), Kanayamidori, Okumidori, Saemidori, Yamakai",
+  "processing": "Mostly steamed Japanese green tea. The area's fame rests on traditional shaded gyokuro, with shade cover cutting the sun before picking; hill fog gives some fields a natural version of the same effect.",
+  "form": "loose",
+  "harvest_season": "Spring first flush is the prized picking, as with Japanese greens generally, and top gyokuro comes from it.",
+  "appearance_dry": "For gyokuro, as is typical of the style, fine dark-green needles with a glossy surface.",
+  "appearance_liquor": "A clear pale green-gold, thicker in feel in the gyokuro.",
+  "appearance_wet": "Soft, deep-green leaf, typical of shaded tea.",
+  "taste_profile": "Rich and sweet with a full body, and deep umami in the gyokuro, the character that hill mist and alluvial soil are credited with.",
+  "taste_tags": [
+    "umami",
+    "sweet",
+    "vegetal",
+    "marine"
+  ],
+  "brewing": {
+    "grams": 5,
+    "water_ml": 60,
+    "temp_c": 55,
+    "steeps": 3,
+    "seconds": [
+      120,
+      30,
+      60
+    ],
+    "notes": "For gyokuro, as here, use very cool water and a small pot. For Yame sencha use about 70 °C and a larger water volume. Hot water loses the point of paying for shaded leaf."
+  },
+  "caffeine_level": "high",
+  "vintage_note": "Sold as new-crop tea from the current year's spring, with shincha coming first and gyokuro priced by grade and origin. Kurogi, Hoshino and Joyo in the hills are the names to look for in gyokuro. Drink within about a year and keep it cold once sealed.",
+  "description": "Yame tea comes from Fukuoka Prefecture, mostly Yame city with Chikugo, Hirokawa, Ukiha and Asakura around it. It is only about 3% of Japan's green tea but around 45% of its traditional gyokuro, and that is why the average price is the highest in the country.\n\nThe fields sit on gentle hill slopes over river-borne alluvial soil, with warm days, cold nights and frequent morning fog. The fog softens the sun, which is why this tea has long been called natural gyokuro. Deliberately shaded leaf takes that further.\n\nExpect sweetness and body first. Gyokuro brings deep savoury umami and needs far cooler water than people expect, and its second steep is shorter than the first.\n\nYame also makes plenty of sencha, mostly from Yabukita, so check what you are buying. Gyokuro from Kurogi, Hoshino and Joyo is what wins the awards. If you want to understand shading, drink a Yame gyokuro beside a Yame sencha.",
+  "history": "Tea came to the area with the Zen priest Eirin Shuzui, back from Ming China, who founded Reiganji temple at Kasahara in Kurogi and taught pan-fired tea growing to a local headman. Accounts differ on the date: 1423 in Japanese accounts, 1406 in another.\n\nIn the mid 18th century, pan-fired teas from here sold well in the Kyoto and Osaka area, though output from seed-grown hillside bushes was unsteady. Foreign buyers in Nagasaki lifted demand from 1863, and tighter US import rules hit sales from 1887.\n\nThe modern reputation rests on gyokuro. It won the agriculture minister's prize at the national tea fair for 12 straight years from 2001 to 2012, and in 2007 took the top 26 places in its section.",
+  "liquor_hex": "#C9CF7E",
+  "leaf_hex": "#2F4F2A",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Yamecha",
+    "https://ja.wikipedia.org/wiki/%E5%85%AB%E5%A5%B3%E8%8C%B6",
+    "https://ja.wikipedia.org/wiki/%E6%97%A5%E6%9C%AC%E8%8C%B6",
+    "https://www.wikidata.org/wiki/Q11390756"
+  ],
+  "confidence": "high",
+  "images": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/a/af/Green_tea_-_%E7%B7%91%E8%8C%B6_-_Flickr_-_Kanko.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/af/Green_tea_-_%E7%B7%91%E8%8C%B6_-_Flickr_-_Kanko.jpg/330px-Green_tea_-_%E7%B7%91%E8%8C%B6_-_Flickr_-_Kanko.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Green_tea_-_%E7%B7%91%E8%8C%B6_-_Flickr_-_Kanko.jpg",
+      "author": "Kanko* from Nagasaki, Japan",
+      "license": "CC BY 2.0",
+      "license_url": "https://creativecommons.org/licenses/by/2.0",
+      "kind": "liquor",
+      "alt": "Pale green Yame tea in white porcelain cups on a dark blue patterned cloth"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/ba/Yame_Tea_Plantation_01.jpg/1280px-Yame_Tea_Plantation_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/ba/Yame_Tea_Plantation_01.jpg/330px-Yame_Tea_Plantation_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Yame_Tea_Plantation_01.jpg",
+      "author": "STA3816",
+      "license": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "kind": "plantation",
+      "alt": "Rolling rows of tea bushes at a plantation in Yame, Fukuoka"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/08/Yame_Tea_Plantation_03.jpg/1280px-Yame_Tea_Plantation_03.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/08/Yame_Tea_Plantation_03.jpg/330px-Yame_Tea_Plantation_03.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Yame_Tea_Plantation_03.jpg",
+      "author": "STA3816",
+      "license": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "kind": "plantation",
+      "alt": "Neat tea fields divided by paths in Yame, with hills on the horizon"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/64/Yame_Tea_Plantation_02.jpg/1280px-Yame_Tea_Plantation_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/64/Yame_Tea_Plantation_02.jpg/330px-Yame_Tea_Plantation_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Yame_Tea_Plantation_02.jpg",
+      "author": "STA3816",
+      "license": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "kind": "plantation",
+      "alt": "Curving rows of tea bushes under a blue sky in Yame, Fukuoka"
+    }
+  ],
+  "wikipedia_title": "Yamecha",
+  "wikipedia_scope": "exact",
+  "popularity": 4
+}

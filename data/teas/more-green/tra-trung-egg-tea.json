@@ -1,0 +1,54 @@
+{
+  "slug": "tra-trung-egg-tea",
+  "name_en": "Trà Trứng (Egg Tea)",
+  "name_native": "Trà Trứng",
+  "name_romanized": null,
+  "aliases": [
+    "Egg tea",
+    "Ча чынг"
+  ],
+  "category": "green",
+  "origin_country": "Vietnam",
+  "origin_region": "Vietnam",
+  "cultivar": null,
+  "form": "other",
+  "caffeine_level": "medium",
+  "brewing": {
+    "grams": 3,
+    "water_ml": 150,
+    "temp_c": 80,
+    "steeps": 3,
+    "seconds": [
+      60,
+      75,
+      105
+    ],
+    "notes": "A safe starting point for green tea: cooler water, short steeps, then adjust by taste."
+  },
+  "taste_tags": [
+    "vegetal",
+    "sweet"
+  ],
+  "description": "A Vietnamese tea drink known as egg tea.\n\nThis is a way of preparing tea more than a tea you buy under one name, so the recipe and the base tea change from one maker to the next.",
+  "wikipedia_title": null,
+  "wikipedia_scope": "none",
+  "popularity": 1,
+  "name_zh": "越南蛋茶",
+  "name_ru": "Яичный чай",
+  "history": null,
+  "liquor_hex": "#D9B96A",
+  "leaf_hex": "#6E7A3A",
+  "sources": [
+    "https://localvietnam.com/culture/cuisine/vietnamese-tea/"
+  ],
+  "confidence": "low",
+  "images": [],
+  "stub": true,
+  "processing": "Made from a green base tea according to the recipe; the method varies.",
+  "harvest_season": "Not tied to a harvest: it depends on the base tea.",
+  "appearance_dry": "Green leaf whose shape depends on the maker, as is usual for regional green teas.",
+  "appearance_liquor": "Usually a clear, pale yellow-green.",
+  "appearance_wet": "Usually soft green leaf that opens up in the water.",
+  "taste_profile": "Expect what green teas usually give: fresh, vegetal and lightly sweet.",
+  "vintage_note": "Not sold by vintage: it is made from whatever base tea the maker keeps, so freshness of the base matters more than the year."
+}

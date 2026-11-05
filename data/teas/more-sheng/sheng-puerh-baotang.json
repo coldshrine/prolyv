@@ -1,0 +1,63 @@
+{
+  "slug": "sheng-puerh-baotang",
+  "name_en": "Baotang",
+  "name_native": "保塘",
+  "name_romanized": "Bǎotáng",
+  "name_zh": "保塘",
+  "name_ru": "Бао Тан",
+  "aliases": [
+    "保塘茶",
+    "Baotang Laozhai",
+    "保塘老寨",
+    "Baotang Xinzhai",
+    "保塘新寨"
+  ],
+  "category": "sheng",
+  "origin_country": "China",
+  "origin_region": "Yunnan · Menghai · Mengsong",
+  "cultivar": null,
+  "processing": "Typical of raw pu-erh from Menghai: sun-dried green leaf (maocha), sold loose or pressed, with no ripe-style piling.",
+  "form": "cake",
+  "harvest_season": "As usual across Menghai, spring picking is the prized one, with cheaper summer and autumn lots after it.",
+  "appearance_dry": "As with other Menghai raw pu-erh, dark olive leaves with paler buds, usually pressed.",
+  "appearance_liquor": "Typically clear pale gold when young, as with young raw pu-erh.",
+  "appearance_wet": "Typical of raw pu-erh, olive-green whole leaves and stems, softening as it steeps.",
+  "taste_profile": "Little is documented about Baotang's own taste. Mengsong teas in general are described by sellers as floral and aromatic, with stone-fruit notes and a lighter returning sweetness.",
+  "taste_tags": [
+    "floral",
+    "stone-fruit",
+    "sweet"
+  ],
+  "brewing": {
+    "grams": 7,
+    "water_ml": 110,
+    "temp_c": 95,
+    "steeps": 7,
+    "seconds": [
+      10,
+      10,
+      15,
+      20,
+      30,
+      45,
+      60
+    ],
+    "notes": "Standard young raw pu-erh approach: a quick rinse, then short first steeps, and adjust once you know how bitter your cake is."
+  },
+  "caffeine_level": "high",
+  "vintage_note": "Like other raw pu-erh, it is sold by harvest year, usually as spring material pressed the same year, and drunk young or stored. Single-village Baotang is a small-maker product rather than a market category, so the year and the claim about tree age rest on the producer.",
+  "description": "Baotang is a tea-growing area in Mengsong, in Menghai County, covering the villages of Baotang Laozhai and Baotang Xinzhai. It is among the less famous names in Menghai, but it is valued for its old gardens.\n\nThe old trees grow mixed in with forest and other species, not in clean terraced rows. The village's old garden is described as the most representative in Mengsong for the size and age of its trees, a claim that comes from the tea trade.\n\nLittle is documented about how Baotang tea itself tastes. Mengsong teas in general get described as floral and aromatic, with stone fruit and a lighter returning sweetness, so treat that as a starting expectation and not a promise.\n\nBuy it from someone who can tell you the village and the year. A rare name is no protection: old-tree labels on Menghai teas are often blended with younger plantation leaf.",
+  "history": "Little is documented about when tea was first grown at Baotang or who made it known. Mengsong is described as one of the oldest tea areas in Menghai, and Baotang's name reaches drinkers mostly through single-village pressings and lists of the county's tea villages.",
+  "liquor_hex": "#DDBE62",
+  "leaf_hex": "#57583A",
+  "sources": [
+    "https://www.yunnanexploration.com/?p=11214",
+    "https://m.ipucha.com/mtag-laotongzhi-11.html",
+    "https://www.chinanews.com.cn/cj/2019/10-23/8986824.shtml"
+  ],
+  "confidence": "low",
+  "wikipedia_title": null,
+  "wikipedia_scope": "none",
+  "popularity": 2,
+  "images": []
+}

@@ -1,0 +1,56 @@
+{
+  "slug": "teh-o",
+  "name_en": "Teh-O",
+  "name_native": null,
+  "name_romanized": null,
+  "name_zh": "茶O",
+  "name_ru": "Тех-о",
+  "aliases": [
+    "Teh O",
+    "Teh kosong",
+    "Teh-O kosong",
+    "Teh O ais",
+    "茶乌"
+  ],
+  "category": "black",
+  "origin_country": "Malaysia",
+  "origin_region": "Malay Peninsula",
+  "cultivar": null,
+  "processing": "A strong black tea brew served without dairy or creamer. Sugar is usually added unless you ask for none.",
+  "form": "loose",
+  "harvest_season": "Not applicable; it is made with whatever strong black tea the stall uses.",
+  "appearance_dry": "Often fine tea dust or small broken leaf, as with other kopitiam tea.",
+  "appearance_liquor": "Clear, dark reddish brown.",
+  "appearance_wet": "Fine dark tea dust, strained out before serving.",
+  "taste_profile": "Strong, plain and slightly bitter black tea, usually rounded out with sugar; with ice and lime it turns sharp and refreshing.",
+  "taste_tags": [
+    "brisk",
+    "bitter",
+    "sweet"
+  ],
+  "brewing": {
+    "grams": 5,
+    "water_ml": 250,
+    "temp_c": 100,
+    "steeps": 1,
+    "seconds": [
+      240
+    ],
+    "notes": "Brew strong and strain. Add sugar to taste, or serve over ice with lime for teh O ais limau."
+  },
+  "caffeine_level": "medium",
+  "vintage_note": "It has no vintages or seasons. It is a made-to-order drink from everyday strong black tea, ordered by modifier rather than by leaf.",
+  "description": "Teh-O is the plain member of the Malaysian kopitiam family: black tea with no milk or creamer. It is the base from which teh-C and teh tarik differ.\n\nWithout dairy, nothing softens the brew, and tea made for milk can taste quite bitter. That is why sugar is the default.\n\nThe order is the fun part. Teh O kosong means no sugar, teh O ais comes with ice, and teh O ais limau adds lime.\n\nAt home, use a sturdy black tea and don't over-steep it, since there is no milk to hide the bitterness.",
+  "history": "Teh-O belongs to the same stall and kopitiam culture as teh tarik, which took shape on the Malay Peninsula. As a plain tea it has no recorded origin of its own, and its name is best understood as part of the local ordering vocabulary.",
+  "liquor_hex": "#7A2E12",
+  "leaf_hex": "#3A261A",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Teh_tarik",
+    "https://malaysia4u.com/tea-guide"
+  ],
+  "confidence": "medium",
+  "wikipedia_title": "Teh tarik",
+  "wikipedia_scope": "umbrella",
+  "popularity": 2,
+  "images": []
+}

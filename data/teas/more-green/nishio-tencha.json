@@ -1,0 +1,57 @@
+{
+  "slug": "nishio-tencha",
+  "name_en": "Nishio Tencha",
+  "name_native": "西尾碾茶",
+  "name_romanized": "Nishio Tencha",
+  "name_zh": "西尾碾茶",
+  "name_ru": "Нисио тэнтя",
+  "aliases": [
+    "Nishio tea",
+    "Nishio-cha",
+    "西尾茶"
+  ],
+  "category": "green",
+  "origin_country": "Japan",
+  "origin_region": "Aichi · Nishio",
+  "cultivar": null,
+  "processing": "Bushes are shaded under black netting for about 20 days, cutting roughly 97% of the sunlight. The steamed leaf is dried unrolled and stripped of stems and veins, ready to be ground into matcha.",
+  "form": "loose",
+  "harvest_season": "Spring flush, as usual for shaded tea destined for matcha.",
+  "appearance_dry": "Soft, flat, deep green flakes, not needles, since the leaf is never rolled.",
+  "appearance_liquor": "When steeped whole, a pale, clear yellow-green.",
+  "appearance_wet": "Tender, thin, vivid green leaf pieces.",
+  "taste_profile": "Refined aroma with gentle umami and body, which is how this tea's character is usually described; astringency is low, as is typical of shaded tea.",
+  "taste_tags": [
+    "umami",
+    "vegetal",
+    "sweet"
+  ],
+  "brewing": {
+    "grams": 4,
+    "water_ml": 100,
+    "temp_c": 60,
+    "steeps": 3,
+    "seconds": [
+      90,
+      30,
+      60
+    ],
+    "notes": "Tencha is meant for grinding, and steeping the flakes is a side path. Keep the water cool, as for other shaded Japanese teas."
+  },
+  "caffeine_level": "high",
+  "vintage_note": "Tencha is mainly sold within the trade by harvest year, then milled into matcha; retail buyers rarely see it unground. Like other shaded Japanese tea it is best fresh and sealed, within about a year of picking. Over 90% of Nishio's output goes to food processing, so grade varies widely.",
+  "description": "Nishio in Aichi is one of Japan's big matcha bases, and tencha is the unground leaf behind it. Nishio and neighbouring Anjō grow about 400 tonnes a year on some 150 hectares, around a fifth of the national total and some 70% of Aichi's. Most fields spread around Inariyama, a hill northwest of the city with well-drained sandy loam.\n\nThe bushes spend about 20 days under black netting before picking. That shade gives the deep green colour and the soft umami. After steaming, the leaf is dried flat, then stripped of stem and vein, leaving thin flakes that grind cleanly.\n\nThe flavour is usually described as elegant and mellow rather than loud. If you find whole tencha, try it with cool water for a soft, brothy cup, but its real life is in the mill.\n\nMost Nishio tencha ends up in ice cream, sweets and lattes, which is why the name is less known than Uji despite the volume. For drinking, ask what the lot is meant for, since a food-grade powder and a tea-ceremony one are different things.",
+  "history": "Local tradition traces Nishio tea to 1271, when Shōichi Kokushi, founder of Jissō-ji temple, is said to have sown seed brought from Song China in the temple grounds. Firmer ground comes in 1872, when the priest Adachi Jundō brought seed and technique from Uji to Kōju-in temple, and in 1884, when new gardens were cleared around Inariyama.\n\nA tunnel-type tencha machine designed in the Mikawa style appeared in the Showa 10s (1935 to 1944) and helped the trade grow fast. Around 1960 a national glut hit the area, and producers answered by selling matcha as a food ingredient. Output nearly doubled over the 30 years to 2009.",
+  "liquor_hex": "#D4D68A",
+  "leaf_hex": "#3F6B2E",
+  "sources": [
+    "https://ja.wikipedia.org/wiki/%E8%A5%BF%E5%B0%BE%E8%8C%B6",
+    "https://www.wikidata.org/wiki/Q11627781",
+    "https://ja.wikipedia.org/wiki/%E6%97%A5%E6%9C%AC%E8%8C%B6"
+  ],
+  "confidence": "medium",
+  "wikipedia_title": "西尾茶",
+  "wikipedia_scope": "umbrella",
+  "popularity": 3,
+  "images": []
+}

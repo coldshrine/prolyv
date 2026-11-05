@@ -1,0 +1,86 @@
+{
+  "slug": "darjeeling",
+  "name_en": "Darjeeling",
+  "name_native": null,
+  "name_romanized": null,
+  "name_zh": "大吉岭红茶",
+  "name_ru": "Дарджилинг",
+  "aliases": [
+    "Darjeeling tea",
+    "Darjeeling Black Tea",
+    "大吉岭",
+    "大吉岭茶",
+    "大吉嶺茶"
+  ],
+  "category": "black",
+  "origin_country": "India",
+  "origin_region": "West Bengal · Darjeeling",
+  "cultivar": "China-type bushes and clones such as AV2, P312 and B157",
+  "processing": "Mostly made as black tea from hand-plucked Camellia sinensis var. sinensis, usually two leaves and a bud; some estates also make green, white and oolong. Oxidation is usually lighter in spring than in summer.",
+  "form": "loose",
+  "harvest_season": "Four cultivation periods shape the year, usually named first flush (spring), second flush (summer), monsoon and autumn. First and second flush are the most prized.",
+  "appearance_dry": "Twisted leaf in mixed green and brown with some pale tips, greener in spring and browner in summer.",
+  "appearance_liquor": "Clear, from pale gold in first flush to amber or light copper in second flush.",
+  "appearance_wet": "Mixed green and coppery leaf, greener in spring pickings.",
+  "taste_profile": "Spring tea is light, floral and a little astringent; summer tea is rounder, with the fruit and spice known as muscatel. Both finish dry rather than malty.",
+  "taste_tags": [
+    "floral",
+    "fruity",
+    "brisk",
+    "spicy"
+  ],
+  "brewing": {
+    "grams": 3,
+    "water_ml": 250,
+    "temp_c": 90,
+    "steeps": 2,
+    "seconds": [
+      180,
+      240
+    ],
+    "notes": "Western-style suits it. Use cooler water and a shorter steep for first flush; second flush takes hotter water. Skip the milk, especially in spring."
+  },
+  "caffeine_level": "medium",
+  "vintage_note": "Sold by estate, flush and harvest year, so a good label reads like '2026 first flush, estate name'. First flush is drunk as fresh as possible, ideally within the year, while second flush holds a little longer. Monsoon and autumn lots are generally cheaper, and monsoon tea often goes into blends. Undated 'Darjeeling' on a supermarket box is usually a blend.",
+  "description": "Darjeeling is the tea of the hill district in northern West Bengal, in the Eastern Himalayas, and the name is legally protected: since 2004 it has been a registered geographical indication covering certain estates in Darjeeling and Kalimpong. Unlike most Indian black tea it comes largely from the small-leaved China-type plant, which liked the slopes, cool winters and cloud here.\n\nPlucking is by hand every five to ten days, most often two leaves and a bud. Though usually called black tea, spring lots can look and taste half-green, because many estates keep their oxidation light. Later pickings are fuller and browner.\n\nFirst flush is floral and brisk, and it scolds you if you overbrew it. Second flush brings the fruit and spice people call muscatel, and more body. Most mistakes come from treating it like a breakfast tea: boiling water, long steeps and milk flatten it.\n\nBuy by estate, flush and year. Fakes are a long-running problem, with far more tea traditionally sold under the name than the district is said to grow, so an unnamed bargain deserves suspicion. Grading letters like FTGFOP describe leaf and tips rather than guaranteeing flavour.\n\nTo understand the range, taste a first and a second flush from the same estate and year side by side. They hardly seem like the same tea.",
+  "history": "Tea reached the district in the mid-1800s, when the British were looking for a supply apart from China. Arthur Campbell, a Scottish doctor serving as local superintendent, is credited with a trial garden at his home in 1841 from China seed brought from Kumaon. Commercial cultivation is usually dated to 1856, and estates spread quickly, worked largely by labourers from Nepal and Sikkim. Darjeeling's railway later carried the tea down to the plains for export.\n\nBoth assamica and sinensis were tried, and sinensis suited the conditions better. After independence in 1947 the estates passed to Indian owners, and the Soviet Union replaced Britain as the main buyer. Later the trade turned towards Western Europe, and many gardens took on organic, biodynamic and fair-trade certification.\n\nNewer plantings come mostly from cuttings of selected cultivars rather than the original seed, which has changed the taste of many modern lots.",
+  "liquor_hex": "#C98F3A",
+  "leaf_hex": "#6B5B3A",
+  "wikipedia_title": "Darjeeling tea",
+  "wikipedia_scope": "exact",
+  "popularity": 4,
+  "sources": [
+    "https://en.wikipedia.org/wiki/Darjeeling_tea",
+    "https://zh.wikipedia.org/wiki/%E5%A4%A7%E5%90%89%E5%B6%BA%E8%8C%B6",
+    "https://en.wikipedia.org/wiki/Darjeeling",
+    "https://ru.wikipedia.org/wiki/%D0%94%D0%B0%D1%80%D0%B4%D0%B6%D0%B8%D0%BB%D0%B8%D0%BD%D0%B3_%28%D0%B3%D0%BE%D1%80%D0%BE%D0%B4%29"
+  ],
+  "confidence": "high",
+  "images": [],
+  "i18n": {
+    "ru": {
+      "processing": "В основном чёрный чай из собранного вручную Camellia sinensis var. sinensis, обычно два листа и почка; некоторые плантации делают также зелёный, белый чай и улун. Весной окисление обычно легче, чем летом.",
+      "harvest_season": "Год делится на четыре периода, обычно их называют первым сбором (весна), вторым сбором (лето), муссонным и осенним. Больше всего ценятся первый и второй сборы.",
+      "appearance_dry": "Скрученный лист смешанного зелёного и коричневого цвета с бледными типсами, весной зеленее, летом коричневее.",
+      "appearance_liquor": "Прозрачный настой, от бледно-золотого в первом сборе до янтарного или светло-медного во втором.",
+      "appearance_wet": "Лист смешанного зелёного и медного цвета, у весенних сборов зеленее.",
+      "taste_profile": "Весенний чай лёгкий, цветочный, немного терпкий; летний круглее, с фруктами и пряностью, которые называют мускатными. Оба заканчиваются сухо, а не солодово.",
+      "vintage_note": "Продаётся по плантации, сбору и году урожая, так что хорошая этикетка выглядит как «первый сбор 2026, название плантации». Первый сбор пьют как можно свежее, в идеале в течение года, второй держится чуть дольше. Муссонные и осенние партии обычно дешевле, а муссонный чай часто идёт в купажи. «Дарджилинг» без даты на супермаркетной коробке — это обычно купаж.",
+      "history": "Чай попал в этот район в середине 1800-х, когда британцы искали источник поставок помимо Китая. Считается, что Артур Кэмпбелл, шотландский врач, служивший местным суперинтендантом, в 1841 году заложил у себя дома пробный сад из китайских семян, привезённых из Кумаона. Коммерческое выращивание обычно датируют 1856 годом, плантации быстро разрослись, работали на них в основном выходцы из Непала и Сиккима. Позже Дарджилингская железная дорога стала возить чай на равнины для экспорта.\n\nПробовали и ассамику, и синенсис, и синенсис подошёл здешним условиям лучше. После независимости в 1947 году плантации перешли к индийским владельцам, а главным покупателем вместо Британии стал Советский Союз. Позже торговля повернула к Западной Европе, и многие сады получили органические, биодинамические и fair-trade сертификаты.\n\nНовые посадки делают в основном черенками отобранных культиваров, а не исходными семенами, и это изменило вкус многих современных партий.",
+      "description": "Дарджилинг — чай горного округа на севере Западной Бенгалии, в Восточных Гималаях, и его название защищено законом: с 2004 года это зарегистрированное географическое указание, охватывающее определённые плантации в Дарджилинге и Калимпонге. В отличие от большинства индийских чёрных чаёв он делается в основном из мелколистного китайского растения, которому пришлись по душе здешние склоны, прохладные зимы и облака.\n\nСобирают вручную каждые пять-десять дней, чаще всего два листа и почку. Хотя его обычно называют чёрным чаем, весенние партии могут выглядеть и ощущаться полузелёными, потому что многие плантации оставляют окисление лёгким. Более поздние сборы полнее и коричневее.\n\nПервый сбор цветочный и бодрый и наказывает за передержку. Второй приносит фрукты и пряность, которые называют мускатными, и больше тела. Большинство ошибок происходит от обращения с ним как с чаем для завтрака: кипяток, долгое заваривание и молоко делают его плоским.\n\nПокупайте по плантации, сбору и году. Подделки — давняя проблема: под этим названием традиционно продаётся намного больше чая, чем, как говорят, выращивает округ, так что безымянная дешёвая находка должна настораживать. Буквенные обозначения вроде FTGFOP описывают лист и типсы, а не гарантируют вкус.\n\nЧтобы понять диапазон, попробуйте рядом первый и второй сбор одной плантации и одного года. Они едва похожи на один и тот же чай.",
+      "brewing_notes": "Подходит заваривание по-европейски. Для первого сбора берите воду похолоднее и настаивайте короче; второй выдерживает воду погорячее. Обойдитесь без молока, особенно весной."
+    },
+    "zh": {
+      "processing": "多制成红茶,原料是手工采摘的中国种茶树(Camellia sinensis var. sinensis),通常一芽二叶;部分茶园也做绿茶、白茶和乌龙茶。春茶的氧化程度通常比夏茶轻。",
+      "harvest_season": "一年分四个时期,通常称为头采(春)、次采(夏)、雨季茶和秋茶。头采和次采最受推崇。",
+      "appearance_dry": "卷曲的叶片绿褐相间,带一些浅色芽尖,春茶偏绿,夏茶偏褐。",
+      "appearance_liquor": "汤色清澈,头采淡金色,次采琥珀色或浅铜色。",
+      "appearance_wet": "叶底绿色与铜色相间,春茶更绿。",
+      "taste_profile": "春茶清淡,有花香,略带涩感;夏茶更圆润,有人称为麝香葡萄风味的果香和香料感。两者收尾都偏干爽,而非麦芽感。",
+      "vintage_note": "按茶园、采次和采收年份出售,好的标签写法类似“2026年头采,茶园名称”。头采要尽量喝新鲜,最好当年喝完,次采能放得稍久。雨季茶和秋茶批次一般更便宜,雨季茶常用于拼配。超市盒装、没有日期的“大吉岭”通常是拼配茶。",
+      "history": "茶在19世纪中叶传入这一地区,当时英国人正在寻找中国以外的货源。苏格兰医生亚瑟·坎贝尔时任当地主管,一般认为他在1841年用从库马盎带来的中国茶籽,在自家开辟了一个试验茶园。商业种植通常以1856年为起点,茶园迅速扩张,劳工大多来自尼泊尔和锡金。后来,大吉岭铁路把茶运到平原地区出口。\n\n当时阿萨姆种和中国种都试过,中国种更适应这里的条件。1947年独立后,茶园转到印度人手中,苏联取代英国成为主要买家。后来贸易转向西欧,许多茶园获得了有机、生物动力和公平贸易认证。\n\n较新的种植多用选育品种的扦插苗,而不是原来的种子,这改变了许多现代批次的风味。",
+      "description": "大吉岭是印度西孟加拉邦北部、东喜马拉雅山区这个山地县的茶,名称受法律保护:自2004年起,它成为注册地理标志,涵盖大吉岭和葛伦堡的特定茶园。与多数印度红茶不同,它主要来自小叶的中国种茶树,这种茶树喜欢这里的山坡、凉爽的冬天和云雾。\n\n每五到十天手工采摘一次,最常见的是一芽二叶。虽然通常叫红茶,但春茶看起来、喝起来都可能半带绿茶感,因为许多茶园把氧化控制得很轻。后面的采次则更饱满、颜色更褐。\n\n头采花香明显、口感鲜爽,泡过头就会让你吃苦头。次采带来人们称为麝香葡萄风味的果香和香料感,茶汤也更厚。大多数错误都来自把它当早餐茶对待:沸水、长泡和加奶都会让它变得平淡。\n\n按茶园、采次和年份购买。假货是长期问题,历来以此名出售的茶远多于据说该地区的产量,所以来路不明的便宜货值得怀疑。FTGFOP这类等级字母描述的是叶片和芽尖,并不保证风味。\n\n想了解它的跨度,就把同一茶园同一年的头采和次采并排品尝。它们简直不像同一种茶。",
+      "brewing_notes": "适合西式冲泡。头采用较低水温、短泡;次采可用更高水温。不要加奶,春茶尤其如此。"
+    }
+  }
+}

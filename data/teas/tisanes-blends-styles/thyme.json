@@ -3,24 +3,79 @@
   "name_en": "Thyme (Chebrets)",
   "name_native": "Чебрець / Чабрец / Tymianek",
   "name_romanized": "Chebrets",
-  "aliases": ["Wild thyme tea", "Chebrets", "Chabrets", "Creeping thyme", "Thymus serpyllum", "Thyme tea", "Bogorodska trava"],
+  "aliases": [
+    "Wild thyme tea",
+    "Chebrets",
+    "Chabrets",
+    "Creeping thyme",
+    "Thymus serpyllum",
+    "Thyme tea",
+    "Bogorodska trava",
+    "Чабрец",
+    "Чебрец",
+    "Богородская трава"
+  ],
   "category": "tisane",
   "origin_country": "Ukraine",
-  "origin_region": "Carpathians and the steppe (wild thyme grows across Ukraine); garden thyme tea is equally traditional in Greece, Turkey and the Levant",
+  "origin_region": "Carpathians",
   "cultivar": "Thymus serpyllum (wild or creeping thyme, chebrets) for the Eastern European tea; Thymus vulgaris (garden thyme) around the Mediterranean",
   "processing": "Flowering tops are cut in early summer, dried in shade in bunches or on racks, then rubbed from the woody stems and lightly cut; no fermentation.",
   "form": "loose",
-  "harvest_season": "June to July, at full flowering, picked in dry weather; the first flowering is the most aromatic.",
+  "harvest_season": "June to July, at full flowering, picked in dry weather.",
   "appearance_dry": "Tiny grey-green leaves and pink-purple florets on thin wiry stems, intensely aromatic.",
   "appearance_liquor": "Pale gold to light amber, clear.",
   "appearance_wet": "Softened flecks of leaf and flower with a warm, resinous smell.",
   "taste_profile": "Warm, resinous and savoury with thyme's medicinal, slightly peppery edge and a sweet honey-like finish; a pinch lifts a pot of black tea, a lot on its own is sharp and a little bitter.",
-  "taste_tags": ["herbal", "medicinal", "spicy"],
-  "brewing": {"grams": 2, "water_ml": 250, "temp_c": 95, "steeps": 1, "seconds": [360], "notes": "A level tablespoon per cup, just-boiled water, 5–7 minutes under a lid; longer turns it bitter. With honey it is the classic Ukrainian winter cup. The more common use is a pinch in a pot of black tea, 'chai z chebretsem'."},
+  "taste_tags": [
+    "herbal",
+    "medicinal",
+    "spicy"
+  ],
+  "brewing": {
+    "grams": 2,
+    "water_ml": 250,
+    "temp_c": 95,
+    "steeps": 1,
+    "seconds": [
+      360
+    ],
+    "notes": "A level tablespoon per cup, just-boiled water, 5–7 minutes under a lid; longer turns it bitter. With honey it is the classic Ukrainian winter cup. The more common use is a pinch in a pot of black tea, 'chai z chebretsem'."
+  },
   "caffeine_level": "none",
   "vintage_note": "Sold as the current summer's harvest and good for about a year, after which the oils have gone; look for visible purple florets and a strong smell. In Ukraine it comes from pharmacies with a harvest year on the box, from market stalls, and above all as a flavouring in black tea blends, which are everywhere; those blends contain caffeine and should be read as black tea first. Wild-gathered Carpathian chebrets is sold by small producers in summer and autumn.",
   "description": "Thyme tea, chebrets in Ukrainian, is the savoury, resinous herb of the steppe and the mountain meadow, dried at flowering and drunk through the winter, usually with honey and very often as a pinch in a pot of black tea. 'Tea with chebrets' is one of the most common flavoured black teas in Ukraine, and in Greece and the Levant garden thyme is brewed the same way.\n\nThe Eastern European herb is wild creeping thyme rather than the garden kind, a low mat-forming plant with pink flowers that smells slightly sweeter and less sharp than cooking thyme. It is picked in flower in June and July, dried in shade and rubbed from the stems; a good pack is full of purple florets and smells strongly the moment you open it.\n\nOn its own it brews a pale gold cup that is warm, aromatic and a little medicinal, with a honey-like sweetness behind the resin; keep the steep to five or seven minutes or it turns bitter. The classic use is as a seasoning rather than a tea: a teaspoon in a pot of strong black tea gives the Ukrainian cold-weather cup, and it pairs with linden, mint and oregano in mountain blends.\n\nBuy the current year's harvest, from a pharmacy box with a date or from a mountain producer, and check for flowers in the mix. If a pack says 'tea with thyme', it is black tea and will keep you awake; pure chebrets has no caffeine.\n\nIt has traditionally been drunk for coughs and colds with honey; whatever you make of that, it is one of the most characterful herbs in the cupboard, and the quickest way to improve a cheap black tea.",
   "wikipedia_title": "Thyme",
   "wikipedia_scope": "umbrella",
-  "popularity": 3
+  "popularity": 3,
+  "name_zh": "百里香茶",
+  "name_ru": "Чабрец",
+  "history": "Wild thyme has long been gathered across Eastern Europe and brewed at home, alone or as a pinch in black tea, and garden thyme is brewed in a similar way around the Mediterranean. This is a household habit and not a named product, and little is documented about when or where it began, so no date can be given with any confidence.",
+  "liquor_hex": "#D9B96A",
+  "leaf_hex": "#7C8468",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Thyme"
+  ],
+  "confidence": "low",
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/be/Thymian_-_541b.jpg/1280px-Thymian_-_541b.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/be/Thymian_-_541b.jpg/330px-Thymian_-_541b.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Thymian_-_541b.jpg",
+      "author": "Martinus KE",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "kind": "dry_leaf",
+      "alt": "Dried rubbed thyme leaves in a pile beside a few separated woody stems"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ea/Thyme-Bundle.jpg/1280px-Thyme-Bundle.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ea/Thyme-Bundle.jpg/330px-Thyme-Bundle.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Thyme-Bundle.jpg",
+      "author": "Evan-Amos",
+      "license": "CC0",
+      "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "kind": "plant",
+      "alt": "Tied bundle of fresh thyme sprigs on a white background"
+    }
+  ]
 }

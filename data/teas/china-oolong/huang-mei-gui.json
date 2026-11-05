@@ -3,7 +3,14 @@
   "name_en": "Huang Mei Gui",
   "name_native": "黄玫瑰",
   "name_romanized": "Huáng Méiguī",
-  "aliases": ["Huang Meigui", "Yellow Rose", "Golden Rose", "Huang Mei Gui yancha"],
+  "aliases": [
+    "Huang Meigui",
+    "Yellow Rose",
+    "Golden Rose",
+    "Huang Mei Gui yancha",
+    "黃玫瑰",
+    "黄玫瑰茶"
+  ],
   "category": "oolong",
   "origin_country": "China",
   "origin_region": "Fujian · Wuyi Mountains",
@@ -15,13 +22,44 @@
   "appearance_liquor": "Pale gold to light amber, bright and clear.",
   "appearance_wet": "Soft, thin yellow-green leaves with faint red edges, among the greenest wet leaves in Wuyi.",
   "taste_profile": "Rose and sweet pea florals with honey and a creamy, light body, a soft toasty note from the light roast and a clean, short cooling finish.",
-  "taste_tags": ["floral", "honey", "sweet", "creamy"],
-  "brewing": {"grams": 7, "water_ml": 110, "temp_c": 95, "steeps": 7, "seconds": [10, 10, 15, 20, 30, 45, 70], "notes": "Water just off the boil, porcelain gaiwan, quick pours. Treat it more like a lightly roasted Tieguanyin than a heavy yancha; long steeps make it thin and slightly sour rather than stronger."},
+  "taste_tags": [
+    "floral",
+    "honey",
+    "sweet",
+    "creamy"
+  ],
+  "brewing": {
+    "grams": 7,
+    "water_ml": 110,
+    "temp_c": 95,
+    "steeps": 7,
+    "seconds": [
+      10,
+      10,
+      15,
+      20,
+      30,
+      45,
+      70
+    ],
+    "notes": "Water just off the boil, porcelain gaiwan, quick pours. Treat it more like a lightly roasted Tieguanyin than a heavy yancha; long steeps make it thin and slightly sour rather than stronger."
+  },
   "caffeine_level": "medium",
   "vintage_note": "Spring harvest of the current year, lightly roasted and typically sold from summer with the year stated. The light roast and green leaf mean it should be drunk within a year of harvest, kept sealed and cool; it is not aged and loses its aroma quickly in a half-empty bag.",
   "description": "Huang Mei Gui, the yellow rose, is the greenest and most delicate tea that Wuyi makers put on the yancha shelf: a newer cultivar whose light oxidation and light roast give a rose-scented, honeyed cup that looks and drinks halfway between rock tea and a southern Fujian oolong.\n\nIt is a second-generation institute cross. The Fujian Tea Research Institute took Huang Guan Yin, itself a Tieguanyin and Huang Dan hybrid, and crossed it back with Huang Dan, selecting a plant that sprouts very early, grows vigorously and carries an even more floral aroma than its parent. It was released in the early 2000s and has been planted in Wuyi and across Fujian since then as an aromatic, high-yielding cultivar.\n\nBecause the leaf is thin and the appeal is perfume, makers oxidise it only lightly and roast it gently, sometimes barely beyond drying. The dry leaf stays olive-green, the liquor is pale gold, and the wet leaf is noticeably greener than any Rou Gui or Shui Xian. The taste follows: rose and sweet-pea florals, honey, a creamy lightness, a touch of toast, and a short, clean finish without the mineral weight of classic yancha.\n\nBrew it with water just off the boil in a porcelain gaiwan and keep the steeps short; it gives five or six fragrant infusions and then fades. It is a good tea to open a session, to drink with pastries, or to hand to someone who has decided they dislike roasted oolong.\n\nIt is sold by the current spring harvest, usually on sale early in the summer, and should be drunk within the year. Like its relatives Huang Guan Yin and Jin Guan Yin it is cheap and goes into aromatic entry-level blends, so do not pay famous-bush prices for it. For the same style with more structure, step up to a lightly roasted Qi Lan or a Bai Ji Guan.",
   "wikipedia_title": "Huang Meigui tea",
   "wikipedia_scope": "exact",
   "popularity": 2,
-  "sources_note": "Parentage (Huang Guan Yin × Huang Dan) and the early-2000s release are from Chinese cultivar lists and the Wikipedia stub; the trade number sometimes quoted for it (506) is not confirmed here."
+  "sources_note": "Parentage (Huang Guan Yin × Huang Dan) and the early-2000s release are from Chinese cultivar lists and the Wikipedia stub; the trade number sometimes quoted for it (506) is not confirmed here.",
+  "name_zh": "黄玫瑰",
+  "name_ru": "Хуан Мэй Гуй",
+  "history": "Huang Mei Gui is one of the new Wuyi-area cultivars, dated to about 2002 in one account and to 2005 in a trade list of Fujian Tea Research Institute varieties. That list gives its parents as Huang Guan Yin and Huang Jin Gui, which makes it a second-generation cross, though the trade numbers quoted for it vary.\n\nIts history is short and little more is documented. Its light floral taste and unusually green wet leaf set it apart from older Wuyi teas.",
+  "liquor_hex": "#E3CB7A",
+  "leaf_hex": "#7D7A45",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Huang_Meigui_tea",
+    "https://hongchinatea.com/post/rock-tea-code/"
+  ],
+  "confidence": "medium",
+  "images": []
 }

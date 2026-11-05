@@ -1,0 +1,50 @@
+{
+  "slug": "upasi-2-cultivar",
+  "name_en": "UPASI 2",
+  "name_native": null,
+  "name_romanized": null,
+  "aliases": [],
+  "category": "black",
+  "origin_country": "India",
+  "origin_region": "South India · UPASI",
+  "cultivar": "UPASI 2",
+  "form": "loose",
+  "caffeine_level": "high",
+  "brewing": {
+    "grams": 3,
+    "water_ml": 200,
+    "temp_c": 95,
+    "steeps": 2,
+    "seconds": [
+      180,
+      240
+    ],
+    "notes": "A safe starting point for black tea: Western style, water just off the boil."
+  },
+  "taste_tags": [
+    "malty",
+    "sweet"
+  ],
+  "description": "UPASI 2 is a tea plant cultivar from South India, rather than a finished tea.\n\nThis is a tea plant cultivar rather than a finished tea, so you are more likely to meet its name in a grower's notes than on a packet. If you find tea made from it, brew it like any other black tea and taste what the plant brings.",
+  "wikipedia_title": null,
+  "wikipedia_scope": "none",
+  "popularity": 1,
+  "name_zh": "UPASI 2茶树品种",
+  "name_ru": "Сорт UPASI 2",
+  "history": "The Tea Board of India names it among its approved planting materials. Little is documented about it.",
+  "liquor_hex": "#A8431C",
+  "leaf_hex": "#3A2A1E",
+  "sources": [
+    "https://www.teaboard.gov.in/pdf/LIST_OF_APPROVED_PLANTING_MATERIALS_AND_SOIL_TESTING_LABORATORIES_pdf5072.pdf"
+  ],
+  "confidence": "low",
+  "images": [],
+  "stub": true,
+  "processing": "A plant cultivar, not a processing style: it is usually made into black tea, and the method is up to the grower.",
+  "harvest_season": "Depends on the place and the grower.",
+  "appearance_dry": "Depends on how the leaf is processed.",
+  "appearance_liquor": "Depends on how the leaf is processed.",
+  "appearance_wet": "Depends on how the leaf is processed.",
+  "taste_profile": "Depends on how the leaf is processed; tea from it usually falls within what black teas give.",
+  "vintage_note": "A cultivar is not sold by vintage. Tea made from it follows the usual pattern for black tea, so ask for the harvest year and the grower."
+}

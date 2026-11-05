@@ -1,0 +1,69 @@
+{
+  "slug": "chimarrao",
+  "name_en": "Chimarrão",
+  "name_native": "chimarrão",
+  "name_romanized": null,
+  "name_zh": "喜马红",
+  "name_ru": "Шимаррау",
+  "aliases": [
+    "Чимаррао",
+    "Шимарран",
+    "Cimarrón",
+    "Ka'ay",
+    "马黛茶"
+  ],
+  "category": "tisane",
+  "origin_country": "Brazil",
+  "origin_region": "Rio Grande do Sul",
+  "cultivar": null,
+  "processing": "Yerba mate leaves and twigs are heat-treated to stop enzyme activity, dried and milled. Brazilian chimarrão yerba is usually milled fine and kept green.",
+  "form": "loose",
+  "harvest_season": "Young leaves and tips are gathered in autumn and winter; the finished yerba sells year-round.",
+  "appearance_dry": "Fine, bright green yerba, close to a coarse powder.",
+  "appearance_liquor": "Cloudy, vivid green-yellow in the gourd.",
+  "appearance_wet": "A wet, bright green paste packed against one side of the gourd.",
+  "taste_profile": "Grassy and strongly bitter, with a fresh, green character that softens as the gourd is refilled.",
+  "taste_tags": [
+    "bitter",
+    "grassy",
+    "vegetal",
+    "herbal"
+  ],
+  "brewing": {
+    "grams": 50,
+    "water_ml": 500,
+    "temp_c": 70,
+    "steeps": 10,
+    "seconds": [
+      10,
+      10,
+      10,
+      10,
+      10,
+      10,
+      10,
+      10,
+      10,
+      10
+    ],
+    "notes": "Fill the gourd half to three-quarters, add water at 60 to 80 C, and sip through the bombilla until it gurgles before refilling. Above about 90 C the metal straw burns the lips. Do not stir the bombilla."
+  },
+  "caffeine_level": "medium",
+  "vintage_note": "Not sold by year. Chimarrão yerba is bought in bags with a packing date, and its green colour fades with time, so regional drinkers tend to prefer it fresh. No vintage market exists.",
+  "description": "Chimarrão is the Brazilian name for bitter mate from a gourd, drunk with a metal straw called a bomba or bombilla. The word comes from Spanish cimarrón, meaning wild. It is mainly a habit of southern Brazil.\n\nThe plant is Ilex paraguariensis, the same as all mate. The usual Brazilian yerba is finer and greener than Argentine cuts, which gives a bright colour and a raw, grassy edge.\n\nExpect strong bitterness at the first gourd, then a softer, greener drink as you refill. The two common mistakes are water that is too hot and moving the straw, which clogs the filter and changes the strength.\n\nIt is often shared: the host prepares the gourd, drinks the first fill, then refills it for each guest in turn. Saying thank you when you hand it back means you have had enough, as in other mate-drinking countries.\n\nWhen buying, look for yerba labelled for chimarrão, which has the right fine cut. A wide or badly filtered bombilla will let powder through.",
+  "history": "Mate was first drunk by Guaraní and Tupí peoples, and spread with Spanish colonisation from the late 16th century. Jesuits grew it on plantations in the mid-17th century until their expulsion in the 1770s.\n\nBrazil became the largest producer after the Paraguayan War of 1864 to 1870, and plantations were re-established there and in Argentina in the late 19th and early 20th centuries. Argentina took the lead when Brazilian investors turned to coffee in the 1930s. As of 2018, Argentina made 56 to 62% of world output and Brazil 34 to 36%.",
+  "liquor_hex": "#8E9A2E",
+  "leaf_hex": "#7FA03C",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Mate_%28drink%29",
+    "https://ja.wikipedia.org/wiki/%E3%83%9E%E3%83%86%E8%8C%B6",
+    "https://ko.wikipedia.org/wiki/%EB%A7%88%ED%85%8C_%28%EC%9D%8C%EB%A3%8C%29",
+    "https://zh.wikipedia.org/wiki/%E7%91%AA%E9%BB%9B%E8%8C%B6",
+    "https://www.wikidata.org/wiki/Q203540"
+  ],
+  "confidence": "medium",
+  "wikipedia_title": "Mate (drink)",
+  "wikipedia_scope": "umbrella",
+  "popularity": 3,
+  "images": []
+}

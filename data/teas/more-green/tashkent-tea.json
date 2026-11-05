@@ -1,0 +1,58 @@
+{
+  "slug": "tashkent-tea",
+  "name_en": "Tashkent Tea",
+  "name_native": "Ташкентский чай",
+  "name_romanized": "Tashkentskiy chay",
+  "name_zh": "塔什干茶",
+  "name_ru": "Ташкентский чай",
+  "aliases": [
+    "Ташкентский",
+    "Shymkent Tea",
+    "Шымкентский чай",
+    "Mahabbat Shai",
+    "Махаббат шайы"
+  ],
+  "category": "green",
+  "origin_country": "Kazakhstan",
+  "origin_region": "Turkistan Region · Shymkent",
+  "cultivar": null,
+  "processing": "A mixed drink rather than a processed leaf: green and black tea brewed together with lemon, mint or thyme and navat (grape sugar), sometimes honey and orange peel.",
+  "form": "other",
+  "harvest_season": "Not tied to a harvest. It is made to order all year from ordinary green and black tea.",
+  "appearance_dry": "A mix of green and black tea leaf, usually with herbs and lemon added at brewing.",
+  "appearance_liquor": "Clear amber, darker than plain green tea because of the black tea, with lemon slices and herbs in the pot.",
+  "appearance_wet": "A mix of olive and dark leaf with soft herbs and lemon.",
+  "taste_profile": "Sweet and citrusy with cooling mint or savoury thyme over a soft tea base; the lemon and navat round off the astringency of the green tea.",
+  "taste_tags": [
+    "citrus",
+    "sweet",
+    "herbal",
+    "brisk"
+  ],
+  "brewing": {
+    "grams": 6,
+    "water_ml": 700,
+    "temp_c": 95,
+    "steeps": 1,
+    "seconds": [
+      300
+    ],
+    "notes": "There is no fixed recipe. Steep green and black tea together in a large pot with mint or thyme, then add lemon and navat to taste; the proportions here are only a starting point."
+  },
+  "caffeine_level": "medium",
+  "vintage_note": "It has no vintage or season: it is a recipe served in cafes all year, and each place adjusts it. Some shops sell a dry black and green mix under the name, usually for adding your own lemon and sweetener.",
+  "description": "Despite the name, Tashkent tea belongs mainly to Kazakhstan, where it is a fixture of cafes and restaurants. It is a pot of green and black tea with lemon, mint and navat, and the recipe shifts from one kitchen to the next.\n\nThe idea underneath is an old household trick from Central Asia: mixing the two teas softens the bite of cheap green tea while the black tea keeps the colour rich. Lemon adds to that, and navat or honey brings the sweetness.\n\nThe result drinks more like a warm, tart-sweet soft drink than a tea to study. Add thyme in place of mint and it turns more savoury; orange peel makes it rounder. People usually go wrong by leaving lemon in a long, hot steep, which can make it harsh, so taste as you go and add the sweetener last.\n\nYou will rarely find it sold as a real product worth seeking out. It is easiest to make at home: any ordinary loose green and black tea will do, and navat can be replaced by honey without shame.",
+  "history": "The modern version is credited to Marat Umarzakov, a Kazakh living in the 1990s in the village of Kyzyl Tu in Bostanlyk district, Tashkent region. He is said to have worked on the recipe between 1992 and 1998, starting from the common Central Asian mix of green and black tea with lemon.\n\nIt was first served in 1998 at a cafe in the central market of Zhetysai, in Kazakhstan's Turkistan Region. Around 2009 to 2010 a Shymkent cafe was serving it under the Tashkent name, which is where the story of a Shymkent origin comes from.\n\nOne explanation ties the name to the author's home region, another to the appeal of the nearest big city. The drink became most popular in Kazakhstan and is less known in Uzbekistan, and it is also called Mahabbat shai, 'love tea'.",
+  "liquor_hex": "#B9782C",
+  "leaf_hex": "#3F3F26",
+  "sources": [
+    "https://ru.wikipedia.org/wiki/%D0%A2%D0%B0%D1%88%D0%BA%D0%B5%D0%BD%D1%82%D1%81%D0%BA%D0%B8%D0%B9_%D1%87%D0%B0%D0%B9",
+    "https://chay.by/product/chaj-cherno-zelenyj-pch-tashkentskij-100-g-vesovoj/"
+  ],
+  "confidence": "medium",
+  "wikipedia_title": "Ташкентский чай",
+  "wikipedia_scope": "exact",
+  "popularity": 3,
+  "images": [],
+  "sources_note": "Origin country changed from Uzbekistan to Kazakhstan; origin account rests on one page. Wikipedia title is the Russian page. Taste and brewing ratios are general."
+}

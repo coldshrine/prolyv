@@ -1,0 +1,54 @@
+{
+  "slug": "ashachu",
+  "name_en": "Ashachu",
+  "name_native": "아샷추",
+  "name_romanized": "asyatchu",
+  "aliases": [
+    "アシャッチュ",
+    "Асятю"
+  ],
+  "category": "black",
+  "origin_country": "South Korea",
+  "origin_region": "South Korea",
+  "cultivar": null,
+  "form": "other",
+  "caffeine_level": "high",
+  "brewing": {
+    "grams": 3,
+    "water_ml": 200,
+    "temp_c": 95,
+    "steeps": 2,
+    "seconds": [
+      180,
+      240
+    ],
+    "notes": "A safe starting point for black tea: Western style, water just off the boil."
+  },
+  "taste_tags": [
+    "fruity",
+    "sweet",
+    "bitter"
+  ],
+  "description": "A South Korean café drink of iced tea with an added espresso shot, usually peach iced tea; the name shortens the Korean phrase for that order.\n\nThis is a way of preparing tea more than a tea you buy under one name, so the recipe and the base tea change from one maker to the next.",
+  "wikipedia_title": null,
+  "wikipedia_scope": "none",
+  "popularity": 1,
+  "name_zh": "冰茶加浓缩咖啡",
+  "name_ru": "Ашатчу",
+  "history": "It spread on Korean social media from around 2018 as a customer customisation, then became a regular menu item at chains. Paik's Coffee listed it in 2021 and reportedly sold over ten million cups in 2023. In 2026 Seven-Eleven Japan released peach and mango versions under the Georgia name.",
+  "liquor_hex": "#5C3016",
+  "leaf_hex": "#3A2A1E",
+  "sources": [
+    "https://ja.wikipedia.org/wiki/%E3%82%A2%E3%82%B7%E3%83%A3%E3%83%83%E3%83%81%E3%83%A5"
+  ],
+  "confidence": "medium",
+  "images": [],
+  "stub": true,
+  "processing": "Made from a black base tea according to the recipe; the method varies.",
+  "harvest_season": "Not tied to a harvest: it depends on the base tea.",
+  "appearance_dry": "Usually dark twisted leaf, sometimes with golden tips.",
+  "appearance_liquor": "Usually a clear red-brown.",
+  "appearance_wet": "Usually coppery brown leaf.",
+  "taste_profile": "Tannic grip from black tea, fruity sweetness and coffee bitterness together.",
+  "vintage_note": "Not sold by vintage: it is made from whatever base tea the maker keeps, so freshness of the base matters more than the year."
+}

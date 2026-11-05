@@ -1,0 +1,57 @@
+{
+  "slug": "makinohara-cha",
+  "name_en": "Makinohara-cha",
+  "name_zh": "牧之原茶",
+  "name_ru": "Макинохара-тя",
+  "name_native": "静岡牧之原茶",
+  "name_romanized": "Makinohara-cha",
+  "aliases": [
+    "Makinohara tea",
+    "Shizuoka Makinohara tea",
+    "牧之原茶"
+  ],
+  "category": "green",
+  "origin_country": "Japan",
+  "origin_region": "Shizuoka · Makinohara",
+  "cultivar": null,
+  "processing": "Associated above all with fukamushi, sencha steamed for longer than usual, which softens and breaks up the leaf and gives a thicker, darker cup.",
+  "form": "loose",
+  "harvest_season": "Spring first flush is the prized picking, as elsewhere in Shizuoka.",
+  "appearance_dry": "Typical of deep-steamed sencha: short, fine, deep green fragments rather than long needles.",
+  "appearance_liquor": "Deep, slightly cloudy green, as is usual for fukamushi.",
+  "appearance_wet": "Soft, broken green leaf that settles into a dense mass in the pot.",
+  "taste_profile": "As with other deep-steamed sencha, full-bodied and rounded with little astringency, a thick mouthfeel and a sweet, vegetal finish.",
+  "taste_tags": [
+    "vegetal",
+    "umami",
+    "sweet",
+    "creamy"
+  ],
+  "brewing": {
+    "grams": 5,
+    "water_ml": 150,
+    "temp_c": 75,
+    "steeps": 3,
+    "seconds": [
+      40,
+      5,
+      20
+    ],
+    "notes": "Deep-steamed leaf gives up its flavour fast, so keep steeps short and use a pot with a fine mesh."
+  },
+  "caffeine_level": "medium",
+  "vintage_note": "Sold as the current year's spring harvest, with later pickings going into cheaper everyday tea. Like other sencha it is best within about a year, and fine fukamushi fades quickly once opened.",
+  "description": "Makinohara-cha grows on the broad plateau above the Oi River in central Shizuoka, one of the leading tea areas in Japan. The plateau is claimed as the birthplace of fukamushi, deep-steamed sencha, and that is the style to look for.\n\nDeep steaming breaks down the leaf much further than regular sencha. The cup turns darker and cloudier, and astringency drops away, which suits sun-grown plateau leaf.\n\nExpect a rounded, soft and fairly thick tea, typical of fukamushi rather than a claim about one garden. The common mistake is treating it like regular sencha: long steeps turn it muddy, so pour early and completely.\n\nA cloudy cup and fine particles in the bottom are normal here. Look for the harvest year and the area name; if you want to compare, try a regular-steamed sencha from the mountains next to it.",
+  "history": "Tea on the plateau is tied to the opening of Japan's ports, when tea and silk became major exports. In 1869 former retainers of the last shogun, Tokugawa Yoshinobu, began clearing the land, and in 1870 river porters put out of work by the end of the Oi River crossing system joined them.\n\nMany of those settlers left by the mid-Meiji period and local farmers carried on, with most of the plateau cleared by the early Taisho years. Water was the lasting problem, and a national irrigation project ran from 1978 to 1997.",
+  "wikipedia_title": "静岡茶",
+  "wikipedia_scope": "umbrella",
+  "popularity": 3,
+  "liquor_hex": "#A9B84A",
+  "leaf_hex": "#3F5F2B",
+  "sources": [
+    "https://ja.wikipedia.org/wiki/%E9%9D%99%E5%B2%A1%E8%8C%B6",
+    "https://www.maff.go.jp/kanto/nouson/sekkei/kokuei/nishikan/makinohara/rekishi.html"
+  ],
+  "confidence": "medium",
+  "images": []
+}

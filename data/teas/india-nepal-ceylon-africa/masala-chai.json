@@ -3,24 +3,73 @@
   "name_en": "Masala Chai",
   "name_native": "मसाला चाय",
   "name_romanized": "Masālā chāy",
-  "aliases": ["Chai", "Spiced tea", "Indian chai", "Masala tea", "Chai latte", "Indian spiced milk tea"],
+  "aliases": [
+    "Chai",
+    "Spiced tea",
+    "Indian chai",
+    "Masala tea",
+    "Chai latte",
+    "Indian spiced milk tea",
+    "印度奶茶",
+    "印度香料茶",
+    "馬薩拉茶",
+    "Чай масала"
+  ],
   "category": "black",
   "origin_country": "India",
-  "origin_region": "Pan-India · chai stalls and home kitchens",
+  "origin_region": "India",
   "cultivar": null,
-  "processing": "A preparation rather than a leaf type: strong CTC black tea (usually Assam or an Assam, Dooars and South Indian blend) simmered with milk, sugar and spices such as green cardamom, ginger, cinnamon, cloves and black pepper, in endless local variations.",
+  "processing": "A preparation rather than a leaf type: strong black tea, usually CTC and most often Assam or a blend of Indian teas, simmered with milk, sugar and spices such as green cardamom, ginger, cinnamon, cloves and black pepper, in endless local variations.",
   "form": "loose",
   "harvest_season": "Not seasonal; made from year-round CTC production.",
   "appearance_dry": "Dark CTC granules, either plain or mixed with crushed cardamom pods, dried ginger, cinnamon bark and cloves.",
   "appearance_liquor": "Opaque tan to caramel-brown once the milk is in.",
   "appearance_wet": "Spent dark granules and spice fragments.",
   "taste_profile": "Sweet, creamy and warming: cardamom and ginger up front, a malty tea backbone and a peppery, clove-spiced finish.",
-  "taste_tags": ["spicy", "malty", "creamy", "sweet"],
-  "brewing": {"grams": 5, "water_ml": 250, "temp_c": 100, "steeps": 1, "seconds": [300], "notes": "Simmer the tea and crushed spices in about 150 ml water for 3–4 minutes, add roughly 100 ml milk and sugar to taste, bring back to the boil once or twice, strain. Steeping tea bags in hot milk gives a thin, flat cup."},
+  "taste_tags": [
+    "spicy",
+    "malty",
+    "creamy",
+    "sweet"
+  ],
+  "brewing": {
+    "grams": 5,
+    "water_ml": 250,
+    "temp_c": 100,
+    "steeps": 1,
+    "seconds": [
+      300
+    ],
+    "notes": "Simmer the tea and crushed spices in about 150 ml water for 3–4 minutes, add roughly 100 ml milk and sugar to taste, bring back to the boil once or twice, strain. Steeping tea bags in hot milk gives a thin, flat cup."
+  },
   "caffeine_level": "medium",
   "vintage_note": "No vintage: masala chai is made from year-round CTC tea and sold as ready-mixed spiced loose tea or tea bags, as a spice blend to add to your own tea, and as sweetened chai concentrates and powders. Pre-mixed packs lose their spice aroma within months, so buy small and check the pack date; fresh CTC and whole spices crushed at the stove taste far better.",
-  "description": "Masala chai is India's everyday spiced tea: strong black tea boiled with milk, sugar and spices until the kitchen smells of cardamom. It is not a type of tea leaf but a way of making tea, and it is how most of India's enormous tea crop is actually drunk, at home and at the roadside stalls of the chai wallahs.\n\nThe tea underneath is almost always CTC, the granular black tea that India makes in huge volume, because only something that strong will cut through milk and sugar. The spice mix (the 'masala') changes from house to house: green cardamom and fresh ginger are nearly universal, cinnamon, cloves and black pepper are common, and fennel, star anise or nutmeg turn up regionally. Tea drinking on this scale is a twentieth-century habit in India, pushed hard by the tea industry in the early twentieth century, and the spices came from the vendors who adapted it to local taste.\n\nThe method matters more than the recipe. Simmer the spices and tea in water for a few minutes, add milk (roughly equal parts, or more milk for a richer cup), sweeten, bring it back to the boil once or twice and strain into small cups. Steeping tea bags in hot milk gives a thin, flat drink; so does using a delicate orthodox leaf. Mumbai 'cutting chai' is a half-glass of the same thing, extra strong.\n\nIn shops it comes as pre-mixed spiced loose tea or tea bags, as a spice blend to add to your own CTC, and as sweet 'chai latte' concentrates and powders that are mostly sugar; the Western chai latte is a cousin at best. Pre-mixed packs lose their aroma within months, so buy small, check the pack date and prefer whole spices.\n\nFor the best result at home, buy a good Assam CTC (BOP or PF grade) and whole green cardamom, and crush the pods just before they go in the pan.",
+  "description": "Masala chai is India's everyday spiced tea: strong black tea boiled with milk, sugar and spices until the kitchen smells of cardamom. It is not a type of tea leaf but a way of making tea, and it is one of the most familiar ways tea is drunk in India, at home and at the roadside stalls of the chai wallahs.\n\nThe tea underneath is usually CTC, the granular black tea that India makes in huge volume, because something that strong cuts through milk and sugar. The spice mix (the 'masala') changes from house to house: green cardamom and fresh ginger are nearly universal, cinnamon, cloves and black pepper are common, and fennel, star anise or nutmeg turn up regionally. Tea drinking on this scale is a twentieth-century habit in India, pushed hard by the tea industry in the early twentieth century, and the spices came from the vendors who adapted it to local taste.\n\nThe method matters more than the recipe. Simmer the spices and tea in water for a few minutes, add milk (roughly equal parts, or more milk for a richer cup), sweeten, bring it back to the boil once or twice and strain into small cups. Steeping tea bags in hot milk gives a thin, flat drink; so does using a delicate orthodox leaf. Mumbai 'cutting chai' is a half-glass of the same thing, extra strong.\n\nIn shops it comes as pre-mixed spiced loose tea or tea bags, as a spice blend to add to your own CTC, and as sweet 'chai latte' concentrates and powders that are mostly sugar; the Western chai latte is a cousin at best. Pre-mixed packs lose their aroma within months, so buy small, check the pack date and prefer whole spices.\n\nFor the best result at home, buy a good Assam CTC (BOP or PF grade) and whole green cardamom, and crush the pods just before they go in the pan.",
   "wikipedia_title": "Masala chai",
   "wikipedia_scope": "exact",
-  "popularity": 5
+  "popularity": 5,
+  "name_zh": "马萨拉茶",
+  "name_ru": "Масала чай",
+  "history": "Tea plants grew wild in Assam long before anyone there drank tea for pleasure; locally the leaf was treated as a medicine. British plantations began after the East India Company grew worried about China's monopoly in the 1830s, and for decades nearly all of the crop went abroad. By 1900 India supplied about half of the tea drunk in Britain, while Indians themselves still drank little of it.\n\nThat changed with the Indian Tea Association's promotion in the early twentieth century, which pushed tea breaks at factories, mines and textile mills and backed independent vendors along the growing railways. The Association wanted tea served with a little milk and sugar. The chaiwalas added spices and much more milk and sugar, which meant less leaf per cup, and the Association at first disapproved. Their version won anyway.\n\nA popular story traces the drink to a royal court thousands of years ago, but that is legend; the spiced milk tea sold today is documented as a twentieth-century street habit. It has never had one fixed recipe. Western India often leaves out cloves and pepper, Bhopal adds a pinch of salt, and Kashmir has its own version made with green tea. Cafes abroad later turned it into the chai latte, usually steamed milk with a spiced concentrate.",
+  "liquor_hex": "#B98A5E",
+  "leaf_hex": "#33241A",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Masala_chai",
+    "https://zh.wikipedia.org/wiki/%E9%A6%AC%E8%96%A9%E6%8B%89%E8%8C%B6",
+    "https://ja.wikipedia.org/wiki/%E3%83%81%E3%83%A3%E3%82%A4",
+    "https://ru.wikipedia.org/wiki/%D0%9C%D0%B0%D1%81%D0%B0%D0%BB%D0%B0_%28%D1%87%D0%B0%D0%B9%29"
+  ],
+  "confidence": "high",
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/04/Masala_Chai.JPG/1280px-Masala_Chai.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/04/Masala_Chai.JPG/330px-Masala_Chai.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Masala_Chai.JPG",
+      "author": "Miansari66",
+      "license": "Public domain",
+      "license_url": null,
+      "kind": "liquor",
+      "alt": "Cup of milky masala tea on a saucer with biscuits and whole spices"
+    }
+  ]
 }

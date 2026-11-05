@@ -1,0 +1,52 @@
+{
+  "slug": "tengchong-black-tea",
+  "name_en": "Tengchong Black Tea",
+  "name_native": "腾冲红茶",
+  "name_romanized": "Téngchōng Hóngchá",
+  "aliases": [
+    "Tengchonghongcha"
+  ],
+  "category": "black",
+  "origin_country": "China",
+  "origin_region": "Yunnan · Tengchong",
+  "cultivar": null,
+  "form": "loose",
+  "caffeine_level": "high",
+  "brewing": {
+    "grams": 3,
+    "water_ml": 200,
+    "temp_c": 95,
+    "steeps": 2,
+    "seconds": [
+      180,
+      240
+    ],
+    "notes": "A safe starting point for black tea: Western style, water just off the boil."
+  },
+  "taste_tags": [
+    "malty",
+    "sweet"
+  ],
+  "description": "A black tea of Tengchong in Yunnan province, protected as a geographical indication certification mark.\n\nTreat it as you would any black tea: water just off the boil, a few minutes in the pot, and a seller who can say where it was grown.",
+  "wikipedia_title": null,
+  "wikipedia_scope": "none",
+  "popularity": 1,
+  "name_zh": "腾冲红茶",
+  "name_ru": "Тэн Чун Хун Ча",
+  "history": "Tea in Tengchong first appears in a local gazetteer of the Hongwu reign of the Ming dynasty, and by the Daoguang reign it was planted at scale and traded. In the 1920s and 1930s, local entrepreneurs brought in the Assam variety and tea widely replaced opium poppy, becoming one of the area's main cash crops.",
+  "liquor_hex": "#A8431C",
+  "leaf_hex": "#3A2A1E",
+  "sources": [
+    "https://milulu.com.cn/techan/23295.html"
+  ],
+  "confidence": "medium",
+  "images": [],
+  "stub": true,
+  "processing": "Typical of black tea: withered, rolled, fully oxidised and dried.",
+  "harvest_season": "Picked through the growing season, as with most black teas.",
+  "appearance_dry": "Usually dark twisted leaf, sometimes with golden tips.",
+  "appearance_liquor": "Usually a clear red-brown.",
+  "appearance_wet": "Usually coppery brown leaf.",
+  "taste_profile": "Expect what black teas usually give: malty, sweet and brisk.",
+  "vintage_note": "Black teas are normally sold by harvest year and are best within a couple of years."
+}

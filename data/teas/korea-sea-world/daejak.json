@@ -3,10 +3,16 @@
   "name_en": "Daejak (Korean Green Tea, Late Pick)",
   "name_native": "대작",
   "name_romanized": "Daejak",
-  "aliases": ["Daejak-cha", "Nemul-cha", "大雀", "Korean late-season green tea", "Korean large-leaf green tea"],
+  "aliases": [
+    "Daejak-cha",
+    "Nemul-cha",
+    "大雀",
+    "Korean late-season green tea",
+    "Korean large-leaf green tea"
+  ],
   "category": "green",
   "origin_country": "South Korea",
-  "origin_region": "Jeollanam-do · Boseong and Gyeongsangnam-do · Hadong (also Jeju)",
+  "origin_region": "Jeollanam-do · Boseong",
   "cultivar": "Mixed: seed-grown native bushes in Hadong, Yabukita and other clonal cultivars on the plantations",
   "processing": "Large, fully opened leaves and some stem, machine- or hand-rolled after pan-firing or steaming, with a firm final firing; often used as the base for roasted, blended and bagged teas.",
   "form": "loose",
@@ -15,13 +21,39 @@
   "appearance_liquor": "Yellow to light amber, clear, noticeably darker than the spring grades.",
   "appearance_wet": "Large, coarse, fully grown leaves, dark green with brown stems.",
   "taste_profile": "Bold and toasty: roasted grain, hay and cooked spinach, with a firm astringency and a plain sweetness that make it better with food or iced than sipped on its own.",
-  "taste_tags": ["roasted", "grassy", "bitter", "vegetal"],
-  "brewing": {"grams": 3, "water_ml": 100, "temp_c": 80, "steeps": 3, "seconds": [45, 30, 60], "notes": "Takes hotter water than any other Korean grade without complaint. Also good cold-brewed or boiled briefly and served chilled with meals, the way large-leaf tea is often used in Korea."},
+  "taste_tags": [
+    "roasted",
+    "grassy",
+    "bitter",
+    "vegetal"
+  ],
+  "brewing": {
+    "grams": 3,
+    "water_ml": 100,
+    "temp_c": 80,
+    "steeps": 3,
+    "seconds": [
+      45,
+      30,
+      60
+    ],
+    "notes": "Takes hotter water than any other Korean grade without complaint. Also good cold-brewed or boiled briefly and served chilled with meals, the way large-leaf tea is often used in Korea."
+  },
   "caffeine_level": "medium",
   "vintage_note": "Sold as the current year's late-spring harvest, by grade name, and most of it never reaches the shelf as loose leaf at all: it goes into tea bags, roasted blends and food use. Loose daejak is cheap, sold in larger packs, and best drunk within the year; it is not something anyone ages or collects.",
   "description": "Daejak, 'big sparrow', is the last of the spring grades, picked from late May when the leaves have grown large and the bushes are plucked more roughly. It is the everyday and industrial end of Korean green tea: the grade behind tea bags, roasted blends, bottled green tea and the green tea that goes into ice cream and noodles.\n\nBecause the leaf is big and sturdy, it is fired harder and rolled by machine on the plantations, and the resulting tea is dark, toasty and strong. Hadong makers who sell daejak as loose leaf give it the same cauldron treatment as the fine grades, just with less fuss, and the result can be surprisingly pleasant, a sort of Korean answer to a rustic Chinese pan-fired green.\n\nIn the cup it is roasted grain and hay over cooked greens, with real astringency and a plain, honest sweetness. It wants hotter water and shorter patience than the delicate grades, and it is excellent cold: brewed strong and chilled, or steeped overnight in the fridge, the bitterness falls away and the toasty sweetness is what you taste.\n\nIt is cheap and sold in big packs, often without much ceremony, under its grade name or just as 'nokcha'. Do not pay sejak prices for it; do buy it if you want a green tea to drink by the litre, to cook with, or to blend with roasted brown rice at home.\n\nIf you like its roasted side, look for Korean teas sold as roasted or 'hwangcha' made from the same late leaf, which push that toastiness further.",
   "wikipedia_title": "Korean tea",
   "wikipedia_scope": "umbrella",
   "popularity": 2,
-  "sources_note": "Daejak is sometimes described as the May pick and jungjak as the June pick depending on the source; I follow the common ordering ujeon → sejak → jungjak → daejak with daejak being the latest and coarsest. The claim that late leaf goes mostly into bags/blends is general industry practice rather than a documented statistic."
+  "sources_note": "Daejak is sometimes described as the May pick and jungjak as the June pick depending on the source; I follow the common ordering ujeon → sejak → jungjak → daejak with daejak being the latest and coarsest. The claim that late leaf goes mostly into bags/blends is general industry practice rather than a documented statistic.",
+  "name_zh": "大雀",
+  "name_ru": "Тэджак",
+  "history": "Daejak is a grade, not a place or a recipe: the last and coarsest of the four spring pickings in the Korean order of ujeon, sejak, jungjak and daejak. The name means large sparrow and belongs with the old comparison of tea leaves to sparrow tongues.\n\nDates shift by year and region, and sources disagree: tea sellers often put it in late May or June, while one importer's list gives a much earlier date in May. Little is documented about the grade's own past, and it has low standing: the same importer reports that many farmers do not bother to sell this final harvest as tea.",
+  "liquor_hex": "#C9A848",
+  "leaf_hex": "#4B4A2A",
+  "sources": [
+    "https://spirittea.co/blogs/news/singular-craft-korean-tea"
+  ],
+  "confidence": "low",
+  "images": []
 }

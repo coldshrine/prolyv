@@ -1,0 +1,63 @@
+{
+  "slug": "voi-tea",
+  "name_en": "Trà Vối (Vối Tea)",
+  "name_native": "Trà Vối",
+  "name_romanized": "Trà Vối",
+  "name_zh": "水翁茶",
+  "name_ru": "Чай вой",
+  "aliases": [
+    "Chè vối",
+    "Trà Vối (Voi Tea)",
+    "Vối tea",
+    "水翁",
+    "Vối",
+    "nước vối",
+    "Nụ vối",
+    "Lá vối",
+    "Cleistocalyx operculatus",
+    "Syzygium nervosum"
+  ],
+  "category": "tisane",
+  "origin_country": "Vietnam",
+  "origin_region": "Vietnam",
+  "cultivar": null,
+  "processing": "Leaves and flower buds of the vối tree are washed and used fresh, or dried, or fermented by piling before drying. They are then steeped or simmered.",
+  "form": "loose",
+  "harvest_season": "Buds are usually gathered around the third and fourth lunar months; leaves are picked as needed.",
+  "appearance_dry": "Either dark, crumpled pieces of leaf or small round buds, brown to almost black after fermenting.",
+  "appearance_liquor": "Typically a clear amber to mid-brown, deeper after simmering or with fermented leaf.",
+  "appearance_wet": "Broad softened leaves or swollen buds, dull brown once brewed.",
+  "taste_profile": "Few careful tasting descriptions exist. Fresh leaf is known for a raw green smell that people often reduce by warming the leaf over a flame before steeping.",
+  "taste_tags": [
+    "herbal",
+    "vegetal"
+  ],
+  "brewing": {
+    "grams": 5,
+    "water_ml": 500,
+    "temp_c": 100,
+    "steeps": 1,
+    "seconds": [
+      600
+    ],
+    "notes": "A home drink, usually made by the pot rather than by precise recipe. Steep or simmer, then drink hot or cold. Fresh leaf is commonly measured by hand, about four to six leaves a pot."
+  },
+  "caffeine_level": "none",
+  "vintage_note": "No vintages or formal grades are known. It is sold simply as dried leaf or dried bud, and much of it is made at home or locally. Buy the most recently dried lot, as is usual for herbal infusions.",
+  "description": "Trà vối, or nước vối, is a Vietnamese herbal infusion made from the leaves and buds of the vối tree, Syzygium nervosum, also listed as Cleistocalyx operculatus. It is not made from the tea plant, and it is more a household drink than a connoisseur's product.\n\nThe making is simple and varies by household. Leaves and buds can be used fresh, dried or fermented first; the last gives a darker result. A common trick with fresh leaf is to pass it over a flame before steeping, to take the raw edge off the smell.\n\nThere is no fixed gongfu way to brew it. Make it by the pot, steep or simmer it, and drink it hot or cold. It is traditionally valued as a stomach-settling drink, though many of the stronger health claims attached to it online are promotional and should not replace medical advice.\n\nWhen buying, the first choice is leaf or bud, since they are sold separately. There is no grading system to lean on, so look for clean material and a recent drying date.",
+  "history": "Little is documented about the origins of the drink. It is recorded as a traditional Vietnamese infusion of the leaves and buds, valued for settling the stomach, but no reliable account dates it or credits anyone with making it known.",
+  "liquor_hex": "#B07F35",
+  "leaf_hex": "#4F3A28",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Vietnamese_tea",
+    "https://en.wikipedia.org/wiki/Syzygium_nervosum",
+    "https://www.pharmacity.vn/nu-voi.htm",
+    "https://nhathuoclongchau.com.vn/bai-viet/uong-tra-nu-voi-co-tac-dung-gi.html",
+    "https://nhathuoclongchau.com.vn/bai-viet/cach-su-dung-la-voi-tuoi-an-toan-va-tot-cho-suc-khoe-moi-ngay.html"
+  ],
+  "confidence": "low",
+  "wikipedia_title": "Vietnamese tea",
+  "wikipedia_scope": "umbrella",
+  "popularity": 2,
+  "images": []
+}

@@ -1,0 +1,57 @@
+{
+  "slug": "mulberry-leaf-tea",
+  "name_en": "Mulberry Leaf Tea",
+  "name_native": "뽕잎차",
+  "name_romanized": "ppongnip-cha",
+  "name_zh": "桑叶茶",
+  "name_ru": "Чай из листьев шелковицы",
+  "aliases": [
+    "Kuwa-cha",
+    "桑茶",
+    "Kuwacha",
+    "Ppongnip-cha",
+    "Mulberry tea"
+  ],
+  "category": "tisane",
+  "origin_country": "South Korea",
+  "origin_region": "Korean Peninsula",
+  "cultivar": null,
+  "processing": "Dried mulberry leaves can be made in the manner of green tea: withered, fixed with heat, rolled and dried. A Chinese patent adds pile fermentation to remove the raw green taste.",
+  "form": "loose",
+  "harvest_season": "Little is documented on a prized picking; one Japanese seller says its stems are cut in summer.",
+  "appearance_dry": "Crumbled or rolled dull green leaf, typically matt rather than glossy.",
+  "appearance_liquor": "Typically a clear yellow-green; fermented versions run darker and remain bright.",
+  "appearance_wet": "Soft, broad green leaf fragments.",
+  "taste_profile": "Fresh and green with a natural sweetness and a light fruity note in one Japanese version; leaf made like green tea can taste strongly grassy.",
+  "taste_tags": [
+    "grassy",
+    "sweet",
+    "fruity"
+  ],
+  "brewing": {
+    "grams": 8,
+    "water_ml": 200,
+    "temp_c": 90,
+    "steeps": 1,
+    "seconds": [
+      90
+    ],
+    "notes": "One Japanese seller suggests 8 g per 200 ml at 85–90°C for 90 seconds. Adjust to taste."
+  },
+  "caffeine_level": "none",
+  "vintage_note": "Not sold by vintage in any established way. It is on sale year-round as loose leaf, bags or powder, and as with other green herbal teas a recent season and a fresh green smell matter most.",
+  "description": "Mulberry leaf tea is an infusion of dried mulberry leaves, the same leaf that feeds silkworms. It is listed among traditional Korean teas as ppongnip-cha, and it is also sold in Japan as kuwacha and in China as sangye cha.\n\nIt can be made like green tea, but one Chinese patent says that method leaves a strong grassy taste many people find hard to accept, and it proposes fermenting the leaf. The stated aim is a bright, sweet cup with no grassy smell.\n\nOne Japanese seller describes its kuwacha as fresh, naturally sweet and fruity, with green, leafy tones.\n\nThere is little reliable writing on grades or terroir, so judge what is in front of you: a clean smell and no staleness.",
+  "history": "Little is documented about the history of mulberry leaf tea as a drink. It appears in lists of Korean traditional teas, and it is sold under separate names in Japan and China. A Chinese patent on fermenting the leaf shows that its grassy taste is still being worked on.",
+  "liquor_hex": "#C7BE6B",
+  "leaf_hex": "#6F7F45",
+  "sources": [
+    "https://zh.wikipedia.org/wiki/%E6%9C%9D%E9%AE%AE%E5%82%B3%E7%B5%B1%E8%8C%B6",
+    "https://patents.google.com/patent/CN103053760B/en",
+    "https://sazentea.com/content/products/p1516-kuwacha.html"
+  ],
+  "confidence": "low",
+  "wikipedia_title": null,
+  "wikipedia_scope": "none",
+  "popularity": 2,
+  "images": []
+}

@@ -1,0 +1,52 @@
+{
+  "slug": "ikawa-cha",
+  "name_en": "Ikawa-cha",
+  "name_native": "井川茶",
+  "name_romanized": "Ikawa-cha",
+  "name_zh": "井川茶",
+  "name_ru": "Икава-тя",
+  "aliases": [
+    "Ikawa tea"
+  ],
+  "category": "green",
+  "origin_country": "Japan",
+  "origin_region": "Shizuoka · Ikawa",
+  "cultivar": null,
+  "processing": "Little is documented about local methods. As with other Shizuoka mountain teas, it is expected to be steamed and rolled sencha.",
+  "form": "loose",
+  "harvest_season": "Little is documented. Mountain gardens in Shizuoka are typically picked in spring, later than the lowlands.",
+  "appearance_dry": "Typically slim, dark green sencha needles.",
+  "appearance_liquor": "Typically a clear, pale yellow-green.",
+  "appearance_wet": "Typically soft, mostly whole green leaf.",
+  "taste_profile": "No specific notes are documented. Shizuoka mountain teas in general are known for clean aroma and a fresh, lightly brisk sweetness.",
+  "taste_tags": [
+    "vegetal",
+    "brisk"
+  ],
+  "brewing": {
+    "grams": 5,
+    "water_ml": 150,
+    "temp_c": 75,
+    "steeps": 3,
+    "seconds": [
+      60,
+      20,
+      40
+    ],
+    "notes": "General guidance for a Shizuoka mountain sencha; start cool and keep the first steep short."
+  },
+  "caffeine_level": "medium",
+  "vintage_note": "No special practice is documented. As with other Shizuoka mountain senchas, expect the current year's spring tea, drunk fresh, usually in very small quantities from a place like this.",
+  "description": "Ikawa-cha comes from Ikawa, at the headwaters of the Oi river in the far north of Shizuoka City. It is about as deep into the mountains as Shizuoka tea goes, and it is listed among the prefecture's many local names.\n\nTea here shares the local economy with forestry, shiitake and wasabi. Little is documented about how it is made or which plants are grown, so the fair assumption is steamed sencha like its neighbours.\n\nThe upper reaches of Shizuoka's rivers are generally thought to give good tea, with day and night temperature swings and frequent fog. Brew it as you would a mountain sencha, with water around 75 C.\n\nYou are unlikely to meet it often. If you do, ask who made it and which harvest it is, since the name alone carries no grade.",
+  "history": "Little is documented about when tea began at Ikawa or how the name came about. It is recorded as one of the named teas of Shizuoka, and the wider City of Shizuoka traces its tea to the tradition of the monk Shoichi Kokushi, which is about the Abe valley rather than Ikawa itself.",
+  "liquor_hex": "#D2CE7E",
+  "leaf_hex": "#44592E",
+  "sources": [
+    "https://ja.wikipedia.org/wiki/%E6%97%A5%E6%9C%AC%E8%8C%B6"
+  ],
+  "confidence": "low",
+  "images": [],
+  "wikipedia_title": "日本茶",
+  "wikipedia_scope": "umbrella",
+  "popularity": 2
+}

@@ -3,10 +3,16 @@
   "name_en": "Nepal White Tea",
   "name_native": "नेपाली सेतो चिया",
   "name_romanized": "Nepālī seto chiyā",
-  "aliases": ["Nepal silver tips", "Himalayan white tea", "Nepali white tea", "Nepal Silver Needle", "Nepal white tips"],
+  "aliases": [
+    "Nepal silver tips",
+    "Himalayan white tea",
+    "Nepali white tea",
+    "Nepal Silver Needle",
+    "Nepal white tips"
+  ],
   "category": "white",
   "origin_country": "Nepal",
-  "origin_region": "Koshi Province · Ilam, Dhankuta and Panchthar",
+  "origin_region": "Koshi Province · Ilam",
   "cultivar": "Clonal bushes with large downy buds (AV2 and local selections)",
   "processing": "Buds, or buds with a single small leaf, withered slowly (sometimes briefly in the sun) and dried at low heat with no rolling; oxidation is minimal and incidental.",
   "form": "loose",
@@ -15,12 +21,41 @@
   "appearance_liquor": "Pale straw-gold.",
   "appearance_wet": "Soft pale-green buds.",
   "taste_profile": "Gentle honey and hay sweetness with a floral note and a surprisingly rich, soft body; fruitier and rounder than most Fujian white teas.",
-  "taste_tags": ["honey", "floral", "sweet", "fruity"],
-  "brewing": {"grams": 3, "water_ml": 200, "temp_c": 85, "steeps": 3, "seconds": [240, 300, 360], "notes": "Measure by weight; four minutes or more at 85 °C, and the later steeps are often the best. It will not turn bitter."},
+  "taste_tags": [
+    "honey",
+    "floral",
+    "sweet",
+    "fruity"
+  ],
+  "brewing": {
+    "grams": 3,
+    "water_ml": 200,
+    "temp_c": 85,
+    "steeps": 3,
+    "seconds": [
+      240,
+      300,
+      360
+    ],
+    "notes": "Measure by weight; four minutes or more at 85 °C, and the later steeps are often the best. It will not turn bitter."
+  },
   "caffeine_level": "medium",
   "vintage_note": "Sold by factory, season and year, usually as 'Silver Tips' or 'White Tips' spring lots at the top of a producer's price list, shipping from April; occasional autumn lots too. Most is drunk within one to two years, and it is not yet sold as an aged tea.",
-  "description": "Nepal white tea is a young product of the eastern hills, made at factories in Ilam, Dhankuta and Panchthar from the silvery spring buds of clonal bushes. In recent years it has gone from novelty to one of the region's calling cards, because the Himalayan buds are big, downy and sweet and the price is still well below comparable Darjeeling whites.\n\nBuds, or buds with a single small leaf, are plucked in early spring, withered slowly, sometimes briefly in the sun, and dried at low heat with no rolling. Oxidation is minimal and incidental, as in Fujian white tea. The bulky, feather-light leaf should be measured by weight.\n\nThe cup is pale straw-gold with a gentle honey and hay sweetness, a floral note and a surprisingly rich, soft body; it is fruitier and rounder than most Chinese white teas. Brew it at around 85 °C for four minutes or more and re-steep two or three times; it will not turn bitter, and the later steeps are often the best.\n\nIt is sold by factory, season and year, usually as 'Silver Tips' or 'White Tips' at the top of a producer's price list, shipping from April; a few factories also make an autumn white. Most of it is drunk within one to two years, and it is not yet sold as an aged tea.\n\nA good buy if you like white tea and have been priced out of the Chinese and Indian versions.",
+  "description": "Nepal white tea is a young product of the eastern hills, made at factories in Ilam, Dhankuta and Panchthar from the silvery spring buds of clonal bushes. In recent years it has gone from novelty to one of the region's calling cards, because the Himalayan buds are big, downy and sweet.\n\nBuds, or buds with a single small leaf, are plucked in early spring, withered slowly, sometimes briefly in the sun, and dried at low heat with no rolling. Oxidation is minimal and incidental, as in Fujian white tea. The bulky, feather-light leaf should be measured by weight.\n\nThe cup is pale straw-gold with a gentle honey and hay sweetness, a floral note and a surprisingly rich, soft body; it is fruitier and rounder than most Chinese white teas. Brew it at around 85 °C for four minutes or more and re-steep two or three times; it will not turn bitter, and the later steeps are often the best.\n\nIt is sold by factory, season and year, usually as 'Silver Tips' or 'White Tips' at the top of a producer's price list, shipping from April; a few factories also make an autumn white. Most of it is drunk within one to two years, and it is not yet sold as an aged tea.\n\nA good buy if you like white tea and have been priced out of the Chinese and Indian versions.",
   "wikipedia_title": "Nepali tea",
   "wikipedia_scope": "umbrella",
-  "popularity": 2
+  "popularity": 2,
+  "name_zh": "尼泊尔白茶",
+  "name_ru": "Непальский белый чай",
+  "history": "White tea is among the newer products of Nepal's eastern hills, and little is documented about when it was first made. It sits on top of an industry that took shape late: Ilam, Panchthar, Dhankuta and two other districts became tea zones in 1982.\n\nThe usual form is silver tips: unopened spring buds with a fine silvery down, hand-picked and lightly dried, made in small amounts. Dhankuta gardens are among those selling it.",
+  "liquor_hex": "#E7D8A2",
+  "leaf_hex": "#C6C7AE",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Nepali_tea",
+    "https://danfetea.com/blogs/tea-blog/discover-silver-tips-white-teas",
+    "https://tea-and-coffee.com/nepal-silver-tip-white-tea",
+    "https://murchies.com/blog/tea-of-nepal/"
+  ],
+  "confidence": "low",
+  "images": []
 }

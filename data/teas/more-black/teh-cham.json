@@ -1,0 +1,51 @@
+{
+  "slug": "teh-cham",
+  "name_en": "Teh Cham",
+  "name_native": null,
+  "name_romanized": null,
+  "name_zh": "茶咖混饮",
+  "name_ru": "Тех чам",
+  "aliases": [
+    "Cham"
+  ],
+  "category": "black",
+  "origin_country": "Malaysia",
+  "origin_region": "Malaysia",
+  "cultivar": null,
+  "processing": "Understood to be a stall drink mixing strong black tea with coffee, usually with milk and sugar. Little is documented about a standard recipe.",
+  "form": "other",
+  "harvest_season": "Not applicable; it uses whatever tea and coffee the stall has.",
+  "appearance_dry": "Not sold as a dry tea; the base is the fine, dark tea typical of kopitiam brews.",
+  "appearance_liquor": "Typically an opaque mid-brown when milk is added.",
+  "appearance_wet": "Not applicable, since the tea is strained before mixing.",
+  "taste_profile": "Expect strong tea and roasted coffee together, with sweetness and body from any milk; the balance varies by stall.",
+  "taste_tags": [
+    "roasted",
+    "bitter",
+    "sweet"
+  ],
+  "brewing": {
+    "grams": 6,
+    "water_ml": 250,
+    "temp_c": 100,
+    "steeps": 1,
+    "seconds": [
+      300
+    ],
+    "notes": "A home approximation: combine strong strained black tea with coffee, then add milk and sugar to taste. No standard ratio is documented."
+  },
+  "caffeine_level": "high",
+  "vintage_note": "It has no vintages or seasons. It is mixed to order from everyday tea and coffee.",
+  "description": "Teh cham is understood to be a Malaysian stall drink that combines tea and coffee, with cham meaning a mix. Treat this as a working description, because little is documented about it.\n\nIt is not a tea you buy as leaf. As with other kopitiam drinks, the base is a strong brew, which is strained before anything else goes in.\n\nExpect a heavy, roasty, sweet glass, and ask how the stall makes it, since ratios are not fixed.\n\nIf you like the idea, compare it with Hong Kong yuenyeung, another drink that mixes tea and coffee.",
+  "history": "Little is documented about where or when teh cham began. No reliable date or originator is known.",
+  "liquor_hex": "#7A4A28",
+  "leaf_hex": "#33231A",
+  "sources": [
+    "https://malaysia4u.com/tea-guide"
+  ],
+  "confidence": "low",
+  "wikipedia_title": null,
+  "wikipedia_scope": "none",
+  "popularity": 2,
+  "images": []
+}

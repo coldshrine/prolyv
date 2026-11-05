@@ -1,0 +1,58 @@
+{
+  "slug": "tokyo-sayama-cha",
+  "name_en": "Tokyo Sayama-cha",
+  "name_zh": "东京狭山茶",
+  "name_ru": "Токио Саяма-тя",
+  "name_native": "東京狭山茶",
+  "name_romanized": "Tōkyō Sayama-cha",
+  "aliases": [
+    "Tokyo Sayama tea",
+    "東京狹山茶",
+    "Tokyo Ryokucha",
+    "東京緑茶"
+  ],
+  "category": "green",
+  "origin_country": "Japan",
+  "origin_region": "Tokyo · Mizuho",
+  "cultivar": "Yabukita, Sayamakaori",
+  "processing": "Steamed green tea made in the usual Japanese way, as with Sayama tea generally; much of it is processed by the farm that grew it.",
+  "form": "loose",
+  "harvest_season": "Two productions a year, spring and summer; as elsewhere, spring is the prized picking.",
+  "appearance_dry": "Typical of sencha: dark green, slender rolled needles.",
+  "appearance_liquor": "Clear yellow-green, typical of sencha.",
+  "appearance_wet": "Soft green leaf, mostly whole, as with other sencha.",
+  "taste_profile": "As with Sayama tea in general, a fuller-bodied sencha with fresh grassy notes and some savoury depth; little is recorded specifically for the Tokyo side.",
+  "taste_tags": [
+    "grassy",
+    "umami",
+    "vegetal"
+  ],
+  "brewing": {
+    "grams": 5,
+    "water_ml": 150,
+    "temp_c": 75,
+    "steeps": 3,
+    "seconds": [
+      60,
+      15,
+      45
+    ],
+    "notes": "Usual sencha guidance: water around 70 to 80 C and pour out completely between steeps."
+  },
+  "caffeine_level": "medium",
+  "vintage_note": "Sold from the current year's spring and summer production, often straight from the farm. Spring is the one to look for, and like other sencha it is best within about a year. Tokyo-grown black tea and matcha are separate, newer products.",
+  "description": "Tokyo Sayama-cha is Sayama tea grown on the Tokyo side of the prefectural line, in Mizuho, Musashimurayama, Higashiyamato, Higashimurayama and Ome. The fields are minutes from the Saitama heartland in Iruma and Tokorozawa and the conditions are the same; the name exists to mark the address.\n\nFarmers work mainly with Yabukita and Sayamakaori, making tea in spring and summer. Most sell what they make directly, which suits a farm sitting next to a giant city.\n\nThere is no separate tasting tradition to speak of, so expect what is typical of Sayama sencha. Brew it as any sencha, and judge it side by side with a Saitama Sayama to see if the name means anything to you.\n\nThe nicest way to buy is at the farm or through a local shop that names the grower. You will also see the brand Tokyo Ryokucha (Tokyo green tea) and, more recently, Tokyo black tea.",
+  "history": "The name dates only from the mid-Showa period, when it was coined to separate Tokyo's tea from Saitama-grown Sayama. The Sayama Hills themselves run across the border, so the split is administrative rather than natural.\n\nFrom September 2008 a non-profit in Higashiyamato sold Tokyo Kocha, a black tea from local leaf meant to support farming squeezed by housing development. From fiscal 2026 the Tokyo government has also been subsidising farmers who move from sencha to matcha, with shading and contract processing support.",
+  "wikipedia_title": "東京狭山茶",
+  "wikipedia_scope": "exact",
+  "popularity": 2,
+  "liquor_hex": "#D2D07E",
+  "leaf_hex": "#3B5730",
+  "sources": [
+    "https://ja.wikipedia.org/wiki/%E6%9D%B1%E4%BA%AC%E7%8B%AD%E5%B1%B1%E8%8C%B6",
+    "https://ja.wikipedia.org/wiki/%E7%8B%AD%E5%B1%B1%E8%8C%B6",
+    "https://www.wikidata.org/wiki/Q11525024"
+  ],
+  "confidence": "medium",
+  "images": []
+}

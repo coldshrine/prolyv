@@ -3,10 +3,17 @@
   "name_en": "Ruhuna",
   "name_native": "රුහුණ තේ",
   "name_romanized": "Ruhuṇa tē",
-  "aliases": ["Ruhunu", "Low-grown Ceylon", "Ruhuna OP", "Galle tea", "Southern Ceylon", "Ruhuna tea"],
+  "aliases": [
+    "Ruhunu",
+    "Low-grown Ceylon",
+    "Ruhuna OP",
+    "Galle tea",
+    "Southern Ceylon",
+    "Ruhuna tea"
+  ],
   "category": "black",
   "origin_country": "Sri Lanka",
-  "origin_region": "Southern Province · Galle, Matara and Deniyaya (sea level to 600 m)",
+  "origin_region": "Southern Province · Galle, Matara and Deniyaya (up to 600 m)",
   "cultivar": "Assam-type seedling bushes and TRI clones",
   "processing": "Fully oxidised orthodox black tea; the warm, wet south grows big, fast leaf that is rolled heavily into long, wiry leaf grades (OP, OP1, FBOP, Pekoe) and extra-tippy grades rather than the broken grades of the hills.",
   "form": "loose",
@@ -15,12 +22,38 @@
   "appearance_liquor": "Dark red-brown to deep copper, strong-looking.",
   "appearance_wet": "Dark, large coppery-brown leaf.",
   "taste_profile": "Strong, thick and sweet: malt, dark caramel and a faint smoky or honey note, low in briskness, built for milk or for the Middle Eastern strong-tea market.",
-  "taste_tags": ["malty", "sweet", "honey", "woody"],
-  "brewing": {"grams": 3, "water_ml": 200, "temp_c": 100, "steeps": 2, "seconds": [240, 300], "notes": "Boiling water, four minutes, milk or sugar optional; leaf grades stand a second steep."},
+  "taste_tags": [
+    "malty",
+    "sweet",
+    "honey",
+    "woody"
+  ],
+  "brewing": {
+    "grams": 3,
+    "water_ml": 200,
+    "temp_c": 100,
+    "steeps": 2,
+    "seconds": [
+      240,
+      300
+    ],
+    "notes": "Boiling water, four minutes, milk or sugar optional; leaf grades stand a second steep."
+  },
   "caffeine_level": "high",
   "vintage_note": "Sold weekly through the Colombo auction by factory and leaf grade; 'low-grown' is the trade's shorthand for the style, and OP1, FBOP and Pekoe from southern factories are the grades to look for, much of it packed for export to the Gulf, Iran and Russia. Quality is even through the year and the tea keeps a year or two sealed.",
-  "description": "Ruhuna is the low country of southern Sri Lanka, the wet, warm hills behind Galle, Matara and Deniyaya that rise from near sea level to about 600 metres. It is the newest of the island's big tea districts, mostly smallholder land feeding private factories, and it makes a style of Ceylon tea that is the opposite of the pale high-grown cups: dark, strong, sweet and built for the strong-tea markets of the Middle East and Russia.\n\nThe warm, humid climate grows large leaf fast, and the factories make the most of it with heavy orthodox rolling into long, wiry, black leaf grades (OP1, Pekoe, FBOP) and extra-tippy grades, rather than the broken grades of the hills. Low-grown leaf also has a different balance of polyphenols, which gives the dark, thick, low-astringency cup.\n\nExpect a deep red-brown liquor with malt, dark caramel and honey, a faint smoky or sweet-tobacco edge in some lots, and surprisingly little briskness for a tea this strong. Brew it with boiling water for four minutes, with milk or sugar if you like; the leaf grades will stand a second steep.\n\nIt is sold weekly through the Colombo auction by factory and leaf grade, and 'low-grown' is the trade's shorthand for the style; OP1, FBOP and Pekoe grades from southern factories are what to look for, often packed for export to Dubai, Tehran and Moscow. Quality is even through the year, and the tea keeps for a year or two sealed.\n\nIf you find the hill Ceylons thin, this is the district for you; it is also the base of most Ceylon teas sold in the Gulf.",
+  "description": "Ruhuna is the low country of southern Sri Lanka, the wet, warm hills behind Galle, Matara and Deniyaya, at elevations up to 600 metres. It came to tea later than the hill districts, is mostly smallholder land feeding private factories, and makes a style of Ceylon tea that is the opposite of the pale high-grown cups: dark, strong, sweet and built for the strong-tea markets of the Middle East and Russia.\n\nThe warm, humid climate grows large leaf fast, and the factories make the most of it with heavy orthodox rolling into long, wiry, black leaf grades (OP1, Pekoe, FBOP) and extra-tippy grades, rather than the broken grades of the hills.\n\nExpect a deep red-brown liquor with malt, dark caramel and honey, a faint smoky or sweet-tobacco edge in some lots, and surprisingly little briskness for a tea this strong. Brew it with boiling water for four minutes, with milk or sugar if you like; the leaf grades will stand a second steep.\n\nIt is sold weekly through the Colombo auction by factory and leaf grade, and 'low-grown' is the trade's shorthand for the style; OP1, FBOP and Pekoe grades from southern factories are what to look for, often packed for export to Dubai, Tehran and Moscow. Quality is even through the year, and the tea keeps for a year or two sealed.\n\nIf you find the hill Ceylons thin, this is the district for you.",
   "wikipedia_title": "Ceylon tea",
   "wikipedia_scope": "umbrella",
-  "popularity": 3
+  "popularity": 3,
+  "name_zh": "鲁胡纳红茶",
+  "name_ru": "Рухуна",
+  "history": "Ruhuna is one of the seven tea districts of Sri Lanka, a low-grown region below 600 metres that runs from the coastal plains to the southern edge of the Sinharaja rainforest.\n\nLittle could be confirmed about when tea began here or who started it. It is known today for a full-flavoured black tea and a wide range of leaf styles, including tips.",
+  "liquor_hex": "#7A2E12",
+  "leaf_hex": "#1F1A16",
+  "sources": [
+    "https://www.timeout.com/sri-lanka/things-to-do/sri-lankas-tea-districts",
+    "https://teasrilanka.org/growing-regions"
+  ],
+  "confidence": "medium",
+  "images": []
 }

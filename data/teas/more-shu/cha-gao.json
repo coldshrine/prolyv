@@ -1,0 +1,61 @@
+{
+  "slug": "cha-gao",
+  "name_en": "Cha Gao (Pu-erh Resin)",
+  "name_native": "茶膏",
+  "name_romanized": "Chágāo",
+  "name_zh": "茶膏",
+  "name_ru": "Ча Гао",
+  "aliases": [
+    "Sheng Cha Gao",
+    "Shu Cha Gao (Puerh Resin)",
+    "Ча Гао (смола шу пуэра)",
+    "Ча Гао Шен",
+    "普洱茶膏",
+    "Tea paste",
+    "Puerh resin",
+    "Смола пуэра"
+  ],
+  "category": "shu",
+  "origin_country": "China",
+  "origin_region": "Yunnan",
+  "cultivar": null,
+  "processing": "Pu-erh is extracted in water and the extract is dried down to a solid paste. Modern makers use low-temperature or room-temperature extraction, and both ripe and raw versions are sold.",
+  "form": "other",
+  "harvest_season": "Not relevant to the buyer: the paste is made from finished tea, not from a particular picking.",
+  "appearance_dry": "Small, hard, glossy dark brown to black pieces or squares, like resin.",
+  "appearance_liquor": "Clear amber to dark red-brown, according to strength and base tea.",
+  "appearance_wet": "There is no leaf: the piece dissolves completely.",
+  "taste_profile": "A smooth, concentrated version of its base tea: earthy and rounded from ripe pu-erh, and sharper from raw, with no leaf texture and little aroma development.",
+  "taste_tags": [
+    "earthy",
+    "woody",
+    "sweet"
+  ],
+  "brewing": {
+    "grams": 1,
+    "water_ml": 200,
+    "temp_c": 100,
+    "steeps": 1,
+    "seconds": [
+      60
+    ],
+    "notes": "Dissolve a small piece in hot water, or simmer it for about a minute. Start with less than you think: it is easy to make it too strong."
+  },
+  "caffeine_level": "medium",
+  "vintage_note": "Sold by the piece or small packet and rarely by harvest, and it usually carries a production date rather than a season. It is bought for use, not for ageing in the way cakes are. Base tea and maker are what matter, and the raw or ripe base should be stated.",
+  "description": "Cha gao is pu-erh with the leaf taken out: tea extract dried into hard, dark pieces that melt in hot water. Russian shops often call it pu-erh resin, which describes the look, though it is a water extract and not a tree resin.\n\nMaking it comes down to extraction and drying. Modern makers keep temperatures low to preserve flavour, while cheap paste can taste flat or burnt. Both ripe and raw versions are sold, with ripe more common in the shops that carry it.\n\nA small piece in a big cup gives a thick, smooth, earthy drink, with a sharper edge from raw paste. There are no steeps to manage, so its appeal is convenience, not the slow change of a session. The common mistake is overdosing, since a tiny piece goes a long way.\n\nWhen buying, ask what tea went in and who made it. Health and purity claims are mostly the seller's own, so ignore them and judge by taste: it should dissolve cleanly and not taste scorched or sour.",
+  "history": "Tea paste is an old idea. A 2013 Global People magazine article cites the Ten Kingdoms chronicle Shiguo Chunqiu for tribute paste from Jianzhou in 937, and it claims this was a Yunnan folk boiling method that reached Tibet along the Tea Horse Road, although Jianzhou lies in Fujian. It credits Qing court workshops with a refined low-temperature pressing process, lost after the dynasty fell. That article profiles a modern maker, so its older claims should be read with some care.\n\nPu-erh tea itself was listed as Qing tribute, which is the better documented context. Companies began reviving paste around 2002, and the same article describes a room-temperature extraction method developed by one team from 2005.",
+  "liquor_hex": "#5C2A12",
+  "leaf_hex": "#1F120C",
+  "sources": [
+    "https://paper.people.com.cn/hqrw/html/2013-04/26/content_1233786.htm",
+    "https://www.ihchina.cn/project_details/14621.html",
+    "https://chay.by/product/smola-shu-puera-cha-gao-43-1-g/",
+    "https://chay.by/product/smola-shen-puera-cha-gao-shen-1-g/"
+  ],
+  "confidence": "medium",
+  "wikipedia_title": null,
+  "wikipedia_scope": "none",
+  "popularity": 3,
+  "images": []
+}

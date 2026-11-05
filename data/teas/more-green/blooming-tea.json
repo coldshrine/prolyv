@@ -1,0 +1,103 @@
+{
+  "slug": "blooming-tea",
+  "name_en": "Blooming Tea (Gongyi Cha)",
+  "name_native": "工艺茶",
+  "name_romanized": "Gōngyì Chá",
+  "name_zh": "工艺茶",
+  "name_ru": "Связанный чай",
+  "aliases": [
+    "Blossoming Tea",
+    "Flowering Tea",
+    "Gongyi cha",
+    "Hand-Made Blooming Tea",
+    "开花茶",
+    "工艺花茶",
+    "工芸茶",
+    "Гун И Ча",
+    "Гунъи Ча"
+  ],
+  "category": "green",
+  "origin_country": "China",
+  "origin_region": "Yunnan",
+  "cultivar": null,
+  "processing": "Dried tea leaves are bound by hand around one or more dried flowers into a bulb, then dried again so the bundle holds its shape until it meets hot water.",
+  "form": "ball",
+  "harvest_season": "No fixed picking defines it: the bulb is a way of assembling leaf and flowers, and the base tea can come from different harvests.",
+  "appearance_dry": "A compact, hand-tied bulb of dried leaf, usually with no flower visible from the outside.",
+  "appearance_liquor": "Usually pale yellow to light gold when green tea is the base, clear enough to watch the bulb open, and tinted by whichever flowers are inside.",
+  "appearance_wet": "The leaves fan out as the bundle unfurls, and the flowers tied inside emerge as a centrepiece.",
+  "taste_profile": "Usually a light green tea carrying the scent of its flowers, jasmine and osmanthus being the sweeter and more perfumed options; the taste varies with each bulb and is rarely the point.",
+  "taste_tags": [
+    "floral",
+    "sweet",
+    "vegetal"
+  ],
+  "brewing": {
+    "grams": 5,
+    "water_ml": 350,
+    "temp_c": 85,
+    "steeps": 3,
+    "seconds": [
+      180,
+      240,
+      300
+    ],
+    "notes": "One bulb in a glass pot or tall glass, so you can see it open. Water that is too cool may stop it opening fully, while too long a steep turns a green base flat. The bundle usually gives two or three infusions."
+  },
+  "caffeine_level": "low",
+  "vintage_note": "Not sold by vintage or harvest year: it is sold by the piece or the box, under design names that differ from maker to maker. Like other scented greens it is best drunk fresh, usually within a year or two, because the flower aroma fades.",
+  "description": "Blooming tea is a bundle of dried tea leaves tied around dried flowers. Drop it in hot water and it slowly opens, with the flowers rising out of the middle. It is a tea you watch first and drink second.\n\nThe craft is in the binding. Leaves and flowers are tied together into a bulb and dried in that shape. Globe amaranth, chrysanthemum, jasmine, lily, hibiscus and osmanthus are the usual flowers, and most bulbs come from Yunnan.\n\nThe cup depends on what went in, but it is usually gentle, with the flowers doing most of the talking. Use glass, or the whole show is lost. Pour hot rather than boiling water if the base is green, and do not walk away, since an overlong steep is what makes it dull. A bulb can usually be steeped two or three times without turning bitter.\n\nDesigns have invented names and those names tell you little, so shop by the flowers listed and by how intact the bulb is. A bulb can look good and still hold poor leaf; if taste matters to you, a plain jasmine green will usually give more for the money.\n\nThis is a good tea for guests who do not usually drink tea, and it is worth keeping for that moment.",
+  "history": "Blooming tea in its present form was developed in China in the 1980s and caught on in Western countries in the early 2000s. Some accounts say the general idea of bundling tea leaves is several centuries older, though that earlier history is much less clear than the modern one.",
+  "liquor_hex": "#DCCB7E",
+  "leaf_hex": "#6F7344",
+  "wikipedia_title": "Flowering tea",
+  "wikipedia_scope": "exact",
+  "popularity": 3,
+  "sources": [
+    "https://en.wikipedia.org/wiki/Flowering_tea",
+    "https://en.wikipedia.org/wiki/Teavana"
+  ],
+  "confidence": "medium",
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/40/Kougeicha_02.jpg/1280px-Kougeicha_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/40/Kougeicha_02.jpg/330px-Kougeicha_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Kougeicha_02.jpg",
+      "author": "Shizuha",
+      "license": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "kind": "dry_leaf",
+      "alt": "Three hand-tied dry tea bulbs in a white dish beside one opened in a glass gaiwan"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/46/Flowering-tea-1.jpg/1280px-Flowering-tea-1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/46/Flowering-tea-1.jpg/330px-Flowering-tea-1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Flowering-tea-1.jpg",
+      "author": "Vassia Atanassova - Spiritia",
+      "license": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "kind": "liquor",
+      "alt": "Flowering tea opened in a cup of amber tea, surrounded by dry tea bundles and rock candy sticks"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a5/Numi_flowering_tea%2C_after.jpg/1280px-Numi_flowering_tea%2C_after.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a5/Numi_flowering_tea%2C_after.jpg/330px-Numi_flowering_tea%2C_after.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Numi_flowering_tea,_after.jpg",
+      "author": "Heather Katsoulis",
+      "license": "CC BY-SA 2.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+      "kind": "liquor",
+      "alt": "Flowering tea bundle opened in a round glass teapot of golden tea"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/00/Sun_flower_flowering_tea.JPG/1280px-Sun_flower_flowering_tea.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/00/Sun_flower_flowering_tea.JPG/330px-Sun_flower_flowering_tea.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Sun_flower_flowering_tea.JPG",
+      "author": "Chahtea",
+      "license": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "kind": "liquor",
+      "alt": "Orange flower opening from a tied tea bundle in a clear glass of water"
+    }
+  ]
+}

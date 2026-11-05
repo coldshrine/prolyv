@@ -1,0 +1,65 @@
+{
+  "slug": "laoying-cha",
+  "name_en": "Laoying Cha (Eagle Tea)",
+  "name_native": "老鹰茶",
+  "name_romanized": "Lǎoyīng Chá",
+  "name_zh": "老鹰茶",
+  "name_ru": "Лао Ин Ча",
+  "aliases": [
+    "Eagle Tea",
+    "Lao Ying Cha",
+    "Eagle Tree Tea",
+    "Laoying Tea",
+    "Laoyingcha",
+    "老阴茶",
+    "捞阴茶",
+    "毛豹皮樟",
+    "Litsea coreana var. lanuginosa",
+    "Лаоин ча"
+  ],
+  "category": "tisane",
+  "origin_country": "China",
+  "origin_region": "Sichuan · Ya'an · Shimian",
+  "cultivar": "Litsea coreana var. lanuginosa",
+  "processing": "Young shoots and leaves are sun-dried, or in an older local method dipped in boiling water and then dried in the shade. It stays a simple dried leaf with no tea-style oxidation.",
+  "form": "loose",
+  "harvest_season": "Tender shoots and young leaves are the prized material; a fixed picking calendar is little recorded.",
+  "appearance_dry": "Plump, rounded, downy buds or thick leaf in brownish red.",
+  "appearance_liquor": "Bright yellow and clear; stronger brews sold as a cold street drink run darker.",
+  "appearance_wet": "Thick oval leaves, green on top and pale beneath.",
+  "taste_profile": "Thick and punchy with a strong camphor aroma, astringent first and then sweet. Newcomers can find the smell odd, and regular drinkers like the bite.",
+  "taste_tags": [
+    "camphor",
+    "sweet",
+    "herbal",
+    "woody"
+  ],
+  "brewing": {
+    "grams": 5,
+    "water_ml": 500,
+    "temp_c": 100,
+    "steeps": 2,
+    "seconds": [
+      300,
+      480
+    ],
+    "notes": "It is a big-pot drink, usually brewed strong and often served cool in summer. Reduce the leaf if the camphor note is too much at first."
+  },
+  "caffeine_level": "none",
+  "vintage_note": "Not sold by vintage. It is a cheap everyday leaf bought as recent stock, with finer bud-heavy lots costing more; simply keep it dry. The protected name applies to product from six townships in Shimian County.",
+  "description": "Laoying cha is a Sichuan summer drink made not from tea but from a Litsea tree in the laurel family. It grows wild and semi-wild across the mountains of Sichuan, and rural households have long gathered their own. In Chengdu and Chongqing it has also been the cheap big-pot cooler of towns and docks.\n\nThe process is modest: tender twigs and leaves are sun-dried, and an older method dips them in boiling water and dries them in the shade. One story behind the name comes from this, turning lao yin, scooped and shade-dried, into lao ying, eagle. Another says that only eagles could reach the trees. Both are folk etymology.\n\nThe cup is thick and strong: astringent first and then sweet, with a heavy camphor scent. First-timers may not like the smell, and repeat drinkers come back for exactly that kick. Brew it strong in a large pot, and try it cool on a hot day.\n\nThe Shimian version is the protected one, and it is praised for full, downy brownish-red buds. Everyday leaf is much coarser. Health promises are common on this tea, so treat them as sales talk.",
+  "history": "Chinese accounts link the name to the Compendium of Materia Medica and trace use back as far as the Warring States, with tribute status under the Tang; these local claims are hard to verify. County gazetteers are firmer, with a Republic-era Hanyuan gazetteer naming places around today's Shimian that grew it. Shimian's memorial on the Red Army's 1935 crossing of the Dadu River also displays a copper pot used for it.\n\nOn 31 July 2012, Shimian's laoying cha received national geographical indication protection, covering six townships in the county.",
+  "liquor_hex": "#C99A34",
+  "leaf_hex": "#7A4A2C",
+  "sources": [
+    "https://zh.wikipedia.org/wiki/%E6%AF%9B%E8%B1%B9%E7%9A%AE%E6%A8%9F",
+    "https://milulu.com.cn/techan/17197.html",
+    "https://www.wikidata.org/wiki/Q11128431",
+    "https://sevencups.com/shop-category/herbal-tea/"
+  ],
+  "confidence": "medium",
+  "wikipedia_title": null,
+  "wikipedia_scope": "none",
+  "popularity": 2,
+  "images": []
+}

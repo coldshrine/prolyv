@@ -1,0 +1,81 @@
+{
+  "slug": "noon-chai",
+  "name_en": "Noon Chai (Kashmiri pink tea)",
+  "name_native": "نون چائے",
+  "name_zh": "克什米尔粉红茶",
+  "name_ru": "Нун-чай",
+  "name_romanized": "Noon chai",
+  "aliases": [
+    "Noon Chai",
+    "Kashmiri Tea",
+    "Namkeen chai",
+    "Pink tea",
+    "Gulabi chai",
+    "Sheer chai",
+    "Кашмирский чай",
+    "Розовый чай"
+  ],
+  "category": "green",
+  "origin_country": "India",
+  "origin_region": "Jammu and Kashmir · Kashmir",
+  "cultivar": null,
+  "processing": "A prepared drink rather than a leaf style: green tea, usually gunpowder, is boiled for about an hour with baking soda until burgundy, quenched with cold water, aerated by ladling, then finished with milk and salt.",
+  "form": "loose",
+  "harvest_season": "Not tied to a harvest; it is cooked all year from ordinary green tea leaf.",
+  "appearance_dry": "Usually gunpowder green tea, small grey-green rolled pellets.",
+  "appearance_liquor": "An opaque, frothy pink once milk goes into the burgundy concentrate.",
+  "appearance_wet": "Long-boiled leaf turns dark and soft and is strained out.",
+  "taste_profile": "Salty and milky with a soft foam on top, closer to a savoury broth than to a sweet milk tea; commercial versions may be sweet with nuts.",
+  "taste_tags": [
+    "creamy",
+    "nutty",
+    "vegetal"
+  ],
+  "brewing": {
+    "grams": 10,
+    "water_ml": 500,
+    "temp_c": 100,
+    "steeps": 1,
+    "seconds": [
+      3600
+    ],
+    "notes": "A rough starting point. Boil the leaf with a pinch of baking soda for about an hour, add cold water to hold the colour, ladle and pour back repeatedly for froth, then add milk and salt. The aeration takes patience and makes the colour."
+  },
+  "caffeine_level": "low",
+  "vintage_note": "Not sold by year or season: it is cooked to order at home or at stalls from whatever green tea is on hand, usually gunpowder. Pre-mixed versions exist, but ordinary, fresh gunpowder leaf is all it needs.",
+  "description": "Noon chai is the salted pink tea of Kashmir, drunk several times a day there with breads such as kulcha and girda. The word noon means salt. Kashmiri Hindus call it sheer chai, from the Persian for milk, and outside Kashmir it often goes by pink tea or gulabi chai.\n\nThe colour comes from chemistry. Long boiling pulls polyphenols out of green tea, and baking soda turns them deep red in the alkaline water. Cold water holds that burgundy, and milk turns it pink. Ladling it up and pouring it back builds the froth, which by hand may take hours.\n\nIt tastes salty, milky and soft. If you only know the sweet pink versions from restaurants, the original may surprise you, since Kashmiri recipes traditionally skip sugar. In Pakistan it is often served with sugar and nuts, and sliced almonds and pistachios are a common garnish.\n\nYou are buying a recipe, not a tea: plain gunpowder is the usual base. Bakarwal herders also make it on their seasonal routes between pastures, which tells you how forgiving it is. Too little soda or too little aeration is the usual reason for a dull brown cup.",
+  "history": "Origin stories say the tea reached Kashmir along the Silk Road from Yarkand. It belongs with other Central Asian salted milk teas, such as Uyghur etkanchay and Mongolian suutei tsai, and salt was valued in the Himalayas against dehydration at altitude.\n\nThe use of soda has a traceable path. Natural soda darkened po cha on the Tibetan Plateau, and in Ladakh hot-spring soda went into butter tea. Kashmir Valley residents took the practice from Ladakh, importing soda and Lhasa brick tea, and replaced yak butter with milk and cream.\n\nToday it is sold in tea stalls and restaurants across parts of North India and Pakistan, often in sweeter versions.",
+  "liquor_hex": "#DE9AA6",
+  "leaf_hex": "#56654A",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Noon_chai",
+    "https://ru.wikipedia.org/wiki/%D0%9A%D0%B0%D1%88%D0%BC%D0%B8%D1%80%D1%81%D0%BA%D0%B8%D0%B9_%D1%87%D0%B0%D0%B9",
+    "https://www.wikidata.org/wiki/Q170883"
+  ],
+  "confidence": "high",
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ed/Kashmiri_Chai.JPG/1280px-Kashmiri_Chai.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ed/Kashmiri_Chai.JPG/330px-Kashmiri_Chai.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Kashmiri_Chai.JPG",
+      "author": "Miansari66",
+      "license": "CC0",
+      "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "kind": "liquor",
+      "alt": "Pink Kashmiri chai in a floral china cup and saucer"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/45/Kashmiri_Tea.jpg/1280px-Kashmiri_Tea.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/45/Kashmiri_Tea.jpg/330px-Kashmiri_Tea.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Kashmiri_Tea.jpg",
+      "author": "Sachindubey4",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "kind": "liquor",
+      "alt": "Pale pink Kashmiri salt tea in a dark cup held in a hand"
+    }
+  ],
+  "wikipedia_title": "Noon chai",
+  "wikipedia_scope": "exact",
+  "popularity": 3
+}

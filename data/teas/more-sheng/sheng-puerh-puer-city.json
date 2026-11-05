@@ -1,0 +1,66 @@
+{
+  "slug": "sheng-puerh-puer-city",
+  "name_en": "Pu'er City Pu-erh",
+  "name_native": "普洱市普洱茶",
+  "name_romanized": "Pǔ'ěr Shì Pǔ'ěr Chá",
+  "name_zh": "普洱市普洱茶",
+  "name_ru": "Пуэр из города Пуэр",
+  "aliases": [
+    "Pu'er City",
+    "Pu'er City Pu'er Tea",
+    "Pu'er Tea Area",
+    "Simao",
+    "普洱",
+    "普洱茶区",
+    "思茅"
+  ],
+  "category": "sheng",
+  "origin_country": "China",
+  "origin_region": "Yunnan · Pu'er",
+  "cultivar": null,
+  "processing": "Yunnan large-leaf tea is sun-dried into maocha, then sold loose or pressed; the raw style has no ripening pile.",
+  "form": "cake",
+  "harvest_season": "Spring is the prized picking, as usual for pu-erh, with lesser summer and autumn lots.",
+  "appearance_dry": "Varies widely across the prefecture; generally dark-green large leaves, loose or pressed.",
+  "appearance_liquor": "Clear yellow to golden when young, as with raw pu-erh in general.",
+  "appearance_wet": "Supple olive-green large leaves, varying by mountain.",
+  "taste_profile": "No single flavour for so large an area; Jingmai, its best-known mountain, is praised for aroma and lasting florals with a gentle, comforting feel.",
+  "taste_tags": [
+    "floral",
+    "sweet",
+    "bitter"
+  ],
+  "brewing": {
+    "grams": 7,
+    "water_ml": 110,
+    "temp_c": 95,
+    "steeps": 7,
+    "seconds": [
+      10,
+      10,
+      12,
+      15,
+      20,
+      30,
+      45
+    ],
+    "notes": "Adjust for the specific tea: gentler aromatic teas like Jingmai take short steeps, and sharper young cakes take fewer grams."
+  },
+  "caffeine_level": "high",
+  "vintage_note": "Sold by harvest year as raw pu-erh usually is, young at 1 to 3 years and mid-aged at 5 to 10. The city name alone says little, so most serious cakes name a place such as Jingmai, Jinggu or Bangwei.",
+  "description": "This is a regional label, not a single recipe: raw pu-erh from Pu'er prefecture in southern Yunnan, the city that shares the tea's name. The city was called Simao until 2007, and took back the old name after its most famous product.\n\nThe method is standard pu-erh, with large-leaf tea sun-dried and then pressed or left loose. Differences come from the many mountains within the prefecture, among them Jingmai, Bangwei, Qianjiazhai, Jinggu and Wuliang.\n\nJingmai is the best way to understand the region's appeal: aroma and balance more than force. Other parts of the prefecture taste quite different, so brew by the tea in your hand rather than by the label.\n\nBe aware that \"Pu'er\" on a wrapper mostly tells you the type of tea, not that it came from this city. Most pu-erh of this kind is sold with a mountain name, and that is the detail to ask for.",
+  "history": "Under the Ming and Qing, the town of Pu'er was a collecting point for tea from southwestern Yunnan, and the tea took its name from the place. The name itself was settled as 普洱 under the Wanli emperor, and a Pu'er prefecture was set up in 1729.\n\nThe area became Simao after 1950 and was renamed Pu'er in 2007, with the old county becoming Ning'er; the change affected the official production area. A tea-price collapse in 2007 hit the local economy hard before prices recovered. The old tea forests of Jingmai Mountain in Lancang County are now a UNESCO World Heritage site.",
+  "liquor_hex": "#D9B350",
+  "leaf_hex": "#52593A",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Pu%27er_City",
+    "https://zh.wikipedia.org/wiki/%E6%99%AE%E6%B4%B1%E5%B8%82",
+    "https://orientaleaf.com/blogs/tea-101/pu-erh-tea-regions-yunnan-guide",
+    "https://www.maigoo.com/top/442566.html"
+  ],
+  "confidence": "medium",
+  "wikipedia_title": "Pu'er City",
+  "wikipedia_scope": "umbrella",
+  "popularity": 3,
+  "images": []
+}

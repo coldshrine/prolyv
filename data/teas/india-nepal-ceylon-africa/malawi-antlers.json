@@ -3,25 +3,59 @@
   "name_en": "Malawi Antlers (White Stem Tea)",
   "name_native": null,
   "name_romanized": null,
-  "aliases": ["Satemwa Antlers", "Malawi White Antlers", "Antler tea", "Stem white tea", "Malawi Antlers white tea"],
+  "aliases": [
+    "Satemwa Antlers",
+    "Malawi White Antlers",
+    "Antler tea",
+    "Stem white tea",
+    "Malawi Antlers white tea"
+  ],
   "category": "white",
   "origin_country": "Malawi",
-  "origin_region": "Southern Region · Thyolo (Satemwa estate)",
+  "origin_region": "Southern Region · Thyolo",
   "cultivar": "Malawian clones (Satemwa selections)",
-  "processing": "An unusual white tea made from the young, forked stems of the tea shoot rather than the leaf: the stems are plucked, stripped of leaf, withered slowly and dried at low heat with no rolling and minimal oxidation.",
+  "processing": "An unusual white tea made from the young, forked stems of the tea shoot rather than the leaf: the stems are plucked, stripped of leaf, hand-sorted and dried, in the sun by one seller's account, with no rolling and minimal oxidation.",
   "form": "loose",
-  "harvest_season": "Rainy-season flushes (roughly November–April), when the shoots grow fast and the stems are tender.",
+  "harvest_season": "Not well documented; one seller says production halts in the rainy season because the stems are dried in the sun, another speaks of spring shoots.",
   "appearance_dry": "Pale, forked, antler-shaped stems, cream to light brown, with no leaf at all.",
   "appearance_liquor": "Pale gold.",
   "appearance_wet": "Softened pale stems.",
   "taste_profile": "Surprisingly rich and sweet: honey, dried apricot and a soft, almost syrupy body with a cooling finish and no astringency at all.",
-  "taste_tags": ["honey", "sweet", "dried-fruit"],
-  "brewing": {"grams": 3, "water_ml": 200, "temp_c": 85, "steeps": 3, "seconds": [300, 360, 420], "notes": "Stems give up flavour slowly: five minutes or more, and it re-steeps generously, four or five times."},
+  "taste_tags": [
+    "honey",
+    "sweet",
+    "dried-fruit"
+  ],
+  "brewing": {
+    "grams": 3,
+    "water_ml": 200,
+    "temp_c": 85,
+    "steeps": 3,
+    "seconds": [
+      300,
+      360,
+      420
+    ],
+    "notes": "Stems give up flavour slowly: five minutes or more, and it re-steeps generously, four or five times."
+  },
   "caffeine_level": "low",
   "vintage_note": "A single-estate speciality from Satemwa in Thyolo, sold by harvest year through a few speciality shops in small batches that sell out; buy the current year and drink within two years. Some drinkers age it, but it is not sold as an aged product.",
-  "description": "Antlers is a white tea with no leaf in it at all: just the young, forked stems of the tea shoot, plucked from the bushes of the Satemwa estate in Thyolo, Malawi, withered slowly and dried. The stems look like tiny pale antlers, hence the name, and the idea, pioneered at Satemwa, has since been copied by a few makers elsewhere but remains most closely associated with this one estate.\n\nThe shoots are plucked during the fast-growing rainy season when the stems are tender, the leaves are stripped off for other teas, and the stems are withered for a long time and dried at low heat with no rolling. Oxidation is minimal. Stems carry less caffeine and fewer tannins than leaf but plenty of sugars, which is what makes the cup so unusual.\n\nThe liquor is pale gold and tastes surprisingly rich: honey, dried apricot and a soft, almost syrupy sweetness with a cooling finish and no astringency whatsoever. Stems give up their flavour slowly, so brew at around 85 °C for five minutes or more and re-steep generously; it can go on for four or five infusions.\n\nIt is a single-estate speciality sold by harvest year through a few speciality retailers, in small batches that sell out. Buy the current year and drink it within two years; some people age it, but it is not sold as an aged product.\n\nOne of the few teas worth buying purely for the story, which then turns out to be good as well.",
+  "description": "Antlers is a white tea with no leaf in it at all: just the young, forked stems of the tea shoot, plucked from the bushes of the Satemwa estate in Thyolo, Malawi, withered slowly and dried. The stems look like tiny pale antlers, hence the name, and the tea remains closely associated with this one estate.\n\nThe leaves are stripped off for other teas, and the stems are dried with no rolling, in the sun by one seller's account. Oxidation is minimal. Stems carry less caffeine and fewer tannins than leaf but plenty of sugars, which is what makes the cup so unusual.\n\nThe liquor is pale gold and tastes surprisingly rich: honey, dried apricot and a soft, almost syrupy sweetness with a cooling finish and no astringency whatsoever. Stems give up their flavour slowly, so brew at around 85 °C for five minutes or more and re-steep generously; it can go on for four or five infusions.\n\nIt is a single-estate speciality sold by harvest year through a few speciality retailers, in small batches that sell out. Buy the current year and drink it within two years; some people age it, but it is not sold as an aged product.\n\nOne of the few teas worth buying purely for the story, which then turns out to be good as well.",
   "wikipedia_title": "White tea",
   "wikipedia_scope": "umbrella",
   "popularity": 2,
-  "sources_note": "Satemwa-specific product; retailer names and the claim that Satemwa pioneered the style are from memory."
+  "sources_note": "Satemwa-specific product; retailer names and the claim that Satemwa pioneered the style are from memory.",
+  "name_zh": "马拉维鹿角白茶",
+  "name_ru": "Малави Антлерс",
+  "history": "Antlers belongs to Satemwa, the family-run estate near Thyolo in Malawi's Shire Highlands, in the same family since 1923. It is made from the velvety stems of the shoot rather than the leaf, which are dried without rolling and sold as a white tea. The date it was first made is not well documented.\n\nThe tea is tied to a very small area: one seller says it began in one particular Satemwa field and puts that field's output at about sixty kilograms of finished tea a year. Those figures come from the trade, as does the claim that no other garden makes anything quite like it. Shops sell it under slightly different names, such as Malawi Antlers and Lapansi Antlers.",
+  "liquor_hex": "#E3CB8C",
+  "leaf_hex": "#CDB78E",
+  "sources": [
+    "https://rareteacompany.com/products/malawi-antlers-white-tea",
+    "https://leafhopper.substack.com/p/malawi-satemwa-antlers-tea-advice",
+    "https://www.paperandtea.com/products/lapansi-antlers-n-114?country=PT",
+    "https://drunk-on-tea.blogspot.com/2015/11/what-chas-malawi-satemwa-antlers-white.html"
+  ],
+  "confidence": "low",
+  "images": []
 }

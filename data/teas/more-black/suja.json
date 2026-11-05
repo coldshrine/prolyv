@@ -1,0 +1,56 @@
+{
+  "slug": "suja",
+  "name_en": "Suja (Bhutanese Butter Tea)",
+  "name_native": "སུ་ཇ",
+  "name_romanized": "Suja",
+  "name_zh": "不丹酥油茶",
+  "name_ru": "Суджа",
+  "aliases": [
+    "Su ja",
+    "Suja",
+    "Bhutanese butter tea",
+    "Бутанский чай с маслом"
+  ],
+  "category": "black",
+  "origin_country": "Bhutan",
+  "origin_region": "Bhutan",
+  "cultivar": null,
+  "processing": "Tea is boiled long and dark, strained, then churned with butter and salt, until the fat is suspended.",
+  "form": "other",
+  "harvest_season": "Not tied to a harvest; made all year from whatever dark tea the household keeps.",
+  "appearance_dry": "Dark loose or compressed tea leaf, depending on the household; butter and salt are added later.",
+  "appearance_liquor": "Opaque milky tan with a glossy, slightly oily surface from the emulsified butter.",
+  "appearance_wet": "Soft dark boiled leaf, strained out before churning.",
+  "taste_profile": "Savoury and rich, more like a thin salted broth than a sweet milk tea, with butter fat coating the mouth and dark tea underneath.",
+  "taste_tags": [
+    "creamy",
+    "earthy"
+  ],
+  "brewing": {
+    "grams": 6,
+    "water_ml": 500,
+    "temp_c": 100,
+    "steeps": 1,
+    "seconds": [
+      480
+    ],
+    "notes": "Simmer the tea well (a few minutes at least; traditional simmering may run longer), strain, then churn with unsalted butter and a pinch of salt. Without churning, the butter just floats on top."
+  },
+  "caffeine_level": "medium",
+  "vintage_note": "Suja is made fresh and drunk hot, so it has no vintages or seasons. The tea used for it is a working ingredient, chosen for strength and not for harvest date. Ratios of butter and salt are a household matter.",
+  "description": "Suja is Bhutan's butter tea, the local member of the salted tea family that runs across the Himalaya and Central Asia. The name is usually glossed as churned tea, and churning is what defines it.\n\nDark tea is boiled well past any normal steep, strained, and worked together with butter and salt until the fat is suspended in the liquid. Yak butter is traditional, while cow butter has become common as it is cheaper and easier to get.\n\nDrink it as if it were soup, not tea, and it makes more sense. It is salty, rich and warming, and the common shock comes from expecting something sweet. Guests are typically given it with zao, puffed rice roasted with butter and sugar.\n\nThere is nothing to buy as suja itself, and at home the ingredients are simple. Start with less salt than you think, and adjust from there.\n\nFor comparison, the related po cha of Tibet and the salted teas of the steppe are natural next tastes.",
+  "history": "Suja belongs to a wider butter-tea tradition spread across the Himalaya, and no specific origin or date is documented for the Bhutanese form. In Bhutan it remains the customary drink for hospitality and is served at weddings and Losar.\n\nThe main documented change is practical: cow's butter is increasingly used in place of yak butter.",
+  "liquor_hex": "#BE9A6C",
+  "leaf_hex": "#3A2B1E",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Butter_tea",
+    "https://en.wikipedia.org/wiki/Bhutanese_cuisine",
+    "https://dailybhutan.com/article/how-to-make-your-own-bhutanese-suja-butter-tea-at-home",
+    "https://blog.mybhutan.com/suja-the-quiet-ritual-of-the-bhutanese-highlands/"
+  ],
+  "confidence": "medium",
+  "wikipedia_title": "Butter tea",
+  "wikipedia_scope": "umbrella",
+  "popularity": 2,
+  "images": []
+}

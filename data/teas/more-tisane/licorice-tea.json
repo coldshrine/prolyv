@@ -1,0 +1,63 @@
+{
+  "slug": "licorice-tea",
+  "name_en": "Licorice Root Tea",
+  "name_native": "Meyan kökü çayı",
+  "name_romanized": null,
+  "name_zh": "甘草茶",
+  "name_ru": "Чай из корня солодки",
+  "aliases": [
+    "Licorice",
+    "Liquorice tea",
+    "Licorice root",
+    "Liquorice root tea",
+    "Glycyrrhiza glabra",
+    "Erq sous",
+    "光果甘草",
+    "Лакрица",
+    "Солодка"
+  ],
+  "category": "tisane",
+  "origin_country": "Turkey",
+  "origin_region": "Turkey · no single area",
+  "cultivar": "Glycyrrhiza glabra",
+  "processing": "The root of Glycyrrhiza glabra is dried and cut, then steeped or boiled in hot water. No oxidation or fermentation is involved.",
+  "form": "other",
+  "harvest_season": "No prized picking is recorded for the tea; it is made from stored dried root all year.",
+  "appearance_dry": "Pale yellow, fibrous cut pieces or slices of root.",
+  "appearance_liquor": "Clear yellow to golden amber.",
+  "appearance_wet": "Swollen, soft yellow root pieces.",
+  "taste_profile": "Strongly and lingeringly sweet with an anise-like, black-licorice flavour, and a sweetness that lingers.",
+  "taste_tags": [
+    "sweet",
+    "spicy",
+    "herbal"
+  ],
+  "brewing": {
+    "grams": 2,
+    "water_ml": 200,
+    "temp_c": 100,
+    "steeps": 1,
+    "seconds": [
+      300
+    ],
+    "notes": "Keep it light and short the first time. It is sweet enough without sugar, and it works well blended with other herbs."
+  },
+  "caffeine_level": "none",
+  "vintage_note": "Sold with no vintage, as cut root, tea bags or an ingredient in blends. Check the species and the ingredient list, since glycyrrhizin content varies by product. DGL licorice is a different product, a supplement with the glycyrrhizin taken out, so do not confuse it with this tea.",
+  "description": "Licorice root tea is simply dried root of Glycyrrhiza glabra steeped in hot water. The plant name comes from the Greek for sweet root, and the cup lives up to that: no sugar needed, and the sweetness stays in your mouth long after you swallow.\n\nThere is no real processing beyond drying and cutting. That sweetness comes mainly from glycyrrhizin, which is far sweeter than table sugar, so a small amount of root goes a long way.\n\nIt tastes much like black licorice candy with anise notes. Many people find it too much alone, which is why it so often turns up as a sweetener in herbal blends. Steep it short, and try a low dose first.\n\nTreat it as an occasional cup. Glycyrrhizin in quantity can raise blood pressure, lower potassium and cause fluid retention, and licorice root is best avoided during pregnancy. People with blood-pressure or potassium problems should skip it.",
+  "history": "Little is documented about the plain tea as such, and it is not tied to any one country. The closest documented tradition is erq sous, a cold drink made in Egypt and the Levant from dried licorice roots with baking soda and water, especially popular during Ramadan.",
+  "liquor_hex": "#C9963F",
+  "leaf_hex": "#C8A45C",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Liquorice",
+    "https://en.wikipedia.org/wiki/Herbal_tea",
+    "https://yenra.com/licorice-root/",
+    "https://senchateabar.com/blogs/blog/licorice-root-tea"
+  ],
+  "confidence": "medium",
+  "wikipedia_title": "Liquorice",
+  "wikipedia_scope": "umbrella",
+  "popularity": 2,
+  "images": [],
+  "sources_note": "Turkey as origin kept from the master list; the tea is not specific to Turkey."
+}

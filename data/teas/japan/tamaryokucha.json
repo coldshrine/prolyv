@@ -3,10 +3,17 @@
   "name_en": "Tamaryokucha (Guricha)",
   "name_native": "玉緑茶",
   "name_romanized": "Tamaryokucha",
-  "aliases": ["Guricha", "Mushi-guri", "Curly green tea", "Ureshino tea", "Sonogi tea", "Ureshino-cha"],
+  "aliases": [
+    "Guricha",
+    "Mushi-guri",
+    "Curly green tea",
+    "Ureshino tea",
+    "Sonogi tea",
+    "Ureshino-cha"
+  ],
   "category": "green",
   "origin_country": "Japan",
-  "origin_region": "Saga · Ureshino; Nagasaki · Sonogi; Kumamoto; some Shizuoka",
+  "origin_region": "Saga · Ureshino",
   "cultivar": "Yabukita, Saemidori, Okumidori; Yutaka Midori in Kyushu lots",
   "processing": "Steamed like sencha but the final straightening roll is skipped, so the leaf is dried in a rotating drum and ends up curled into a comma shape; a pan-fired version (kama-guri) is made the same way with a hot pan in place of the steamer.",
   "form": "loose",
@@ -15,13 +22,52 @@
   "appearance_liquor": "Golden-green and clear.",
   "appearance_wet": "Curled leaves that open into small whole pieces.",
   "taste_profile": "Round, smooth and sweet with less astringency than sencha, a gentle umami and a clean, slightly fruity aroma.",
-  "taste_tags": ["sweet", "umami", "vegetal", "fruity"],
-  "brewing": {"grams": 5, "water_ml": 150, "temp_c": 75, "steeps": 3, "seconds": [60, 20, 50], "notes": "Brew like sencha; the curled leaf is a little slower to open, so give the first steep a full minute. Forgiving with hotter water, which brings out a nuttier side."},
+  "taste_tags": [
+    "sweet",
+    "umami",
+    "vegetal",
+    "fruity"
+  ],
+  "brewing": {
+    "grams": 5,
+    "water_ml": 150,
+    "temp_c": 75,
+    "steeps": 3,
+    "seconds": [
+      60,
+      20,
+      50
+    ],
+    "notes": "Brew like sencha; the curled leaf is a little slower to open, so give the first steep a full minute. Forgiving with hotter water, which brings out a nuttier side."
+  },
   "caffeine_level": "medium",
   "vintage_note": "Sold as the current year's harvest by Kyushu producers, mostly first flush (ichibancha), with the first lots appearing as shincha in late April; Ureshino-cha and Sonogi-cha are the regional labels to look for. It is treated exactly like sencha for storage: sealed, cold, finished within the year.",
-  "description": "Tamaryokucha, usually called guricha, is the curly green tea of Kyushu: Ureshino in Saga, Sonogi in Nagasaki and parts of Kumamoto make most of it, with a little from Shizuoka. Instead of a sencha's straight needle the leaf is a short comma, and the cup is rounder and softer, which is why people who find sencha sharp often end up here.\n\nThe difference is one missing step. Steamed tamaryokucha (mushi-guri) is steamed and rolled like sencha but skips the final straightening roll; the leaf is finished in a rotating drum instead, where it curls up as it dries. The pan-fired version (kama-guri) does the same thing with a hot pan in place of the steamer and is really a kamairicha. Less pressure on the leaf means less cell damage and a milder, less astringent cup with a gentle umami and a clean, lightly fruity aroma. The steamed style was developed in the early twentieth century, originally with export markets in mind, and became the signature of the Ureshino and Sonogi districts.\n\nBrew it as you would sencha, 5 g for 150 ml at 70–75 °C; give the first steep a full minute because the curled leaf takes a moment to open, then a short second and a longer third. It is forgiving of hotter water, which brings out a more roasted, nutty side, and it cold-brews well. It rarely turns bitter, so it is a safe tea to serve to guests who do not know Japanese tea.\n\nLook for Ureshino-cha or Sonogi-cha on the label, which almost always means guricha, and for first flush; the first lots are sold as shincha from late April. Yabukita, Saemidori and Okumidori are the usual cultivars. Prices are modest for the quality, because the district has less name recognition than Uji or Shizuoka, and that is an opportunity. It is stored and drunk like sencha, within the year.\n\nTry it against a sencha from the same cultivar to see what the final rolling step does to the taste.",
+  "description": "Tamaryokucha, usually called guricha, is the curly green tea of Kyushu: Ureshino in Saga, Sonogi in Nagasaki and parts of Kumamoto make most of it, with a little from Shizuoka. Instead of a sencha's straight needle the leaf is a short comma, and the cup is rounder and softer, which is why people who find sencha sharp often end up here.\n\nThe difference is one missing step. Steamed tamaryokucha (mushi-guri) is steamed and rolled like sencha but skips the final straightening roll; the leaf is finished in a rotating drum instead, where it curls up as it dries. The pan-fired version (kama-guri) does the same thing with a hot pan in place of the steamer and is really a kamairicha. Less pressure on the leaf means less cell damage and a milder, less astringent cup with a gentle umami and a clean, lightly fruity aroma. The steamed style was developed between the late Taisho and early Showa years for export to the Soviet Union, and later became the signature of the Ureshino and Sonogi districts.\n\nBrew it as you would sencha, 5 g for 150 ml at 70–75 °C; give the first steep a full minute because the curled leaf takes a moment to open, then a short second and a longer third. It is forgiving of hotter water, which brings out a more roasted, nutty side, and it cold-brews well. It rarely turns bitter, so it is a safe tea to serve to guests who do not know Japanese tea.\n\nLook for Ureshino-cha or Sonogi-cha on the label, which often means guricha, though check the leaf shape, and for first flush; the first lots are sold as shincha from late April. Yabukita, Saemidori and Okumidori are the usual cultivars. Prices are modest for the quality, because the district has less name recognition than Uji or Shizuoka, and that is an opportunity. It is stored and drunk like sencha, within the year.\n\nTry it against a sencha from the same cultivar to see what the final rolling step does to the taste.",
   "wikipedia_title": "Tamaryokucha",
   "wikipedia_scope": "exact",
   "popularity": 3,
-  "sources_note": "The export-origin story of steamed guricha (early 20th century, Russian/Soviet market) is widely repeated in the trade; stated vaguely here."
+  "sources_note": "The export-origin story of steamed guricha (early 20th century, Russian/Soviet market) is widely repeated in the trade; stated vaguely here.",
+  "name_zh": "玉绿茶",
+  "name_ru": "Тамарёкутя",
+  "history": "Tamaryokucha is a tea of central and northern Kyushu, with Ureshino in Saga as its best-known district. Its older form is pan-fired: the method came to Kyushu from China, and in the Edo period pan-firing is thought to have stood alongside matcha as one of the main ways of making Japanese tea. Ureshino tilts its iron pans at 45 to 50 degrees, while Aoyagi tea from Kumamoto and Miyazaki uses level pans.\n\nThe steamed version is much younger. It was developed between the late Taisho and early Showa years to look like Chinese pan-fired tea, because the Soviet Union, which liked Chinese tea, was a market Japan wanted to grow. After the war it also went in quantity to North Africa and elsewhere. Since steaming is the more efficient method, many pan-firing districts switched, and true pan-fired lots are now few.\n\nThe name itself came from the trade: as exports surged in 1932, the industry chose tamaryokucha through a public call, after the leaf's curved magatama shape. Guricha is the everyday word, and its origin is disputed. It may describe the round shape, it may be a corruption of green tea from the export years, or it may come from guri, a scroll pattern seen in temples and Buddhist painting.",
+  "liquor_hex": "#D8C86A",
+  "leaf_hex": "#3F5230",
+  "sources": [
+    "https://ja.wikipedia.org/wiki/%E7%8E%89%E7%B7%91%E8%8C%B6",
+    "https://en.wikipedia.org/wiki/Tamaryokucha",
+    "https://www.wikidata.org/wiki/Q2596949"
+  ],
+  "confidence": "medium",
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/31/Tamaryokucha.jpg/1280px-Tamaryokucha.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/31/Tamaryokucha.jpg/330px-Tamaryokucha.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Tamaryokucha.jpg",
+      "author": "Fanny Schertzer",
+      "license": "CC BY-SA 3.0",
+      "license_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+      "kind": "dry_leaf",
+      "alt": "Pile of dark green, curled dry Tamaryokucha leaves on white"
+    }
+  ]
 }

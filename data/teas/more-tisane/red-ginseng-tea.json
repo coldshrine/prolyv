@@ -1,0 +1,58 @@
+{
+  "slug": "red-ginseng-tea",
+  "name_en": "Red Ginseng Tea (Hongsam-cha)",
+  "name_native": "홍삼차",
+  "name_romanized": "Hongsam-cha",
+  "name_zh": "红参茶",
+  "name_ru": "Чай из красного женьшеня",
+  "aliases": [
+    "Hongsam-cha",
+    "红蔘茶",
+    "紅蔘茶",
+    "Red ginseng tea",
+    "Korean ginseng tea"
+  ],
+  "category": "tisane",
+  "origin_country": "South Korea",
+  "origin_region": "Korea",
+  "cultivar": "Panax ginseng",
+  "processing": "Fresh ginseng root, which takes four to six years to be ready, is steamed and dried into red ginseng, then decocted for a long time or ground into powder for instant use.",
+  "form": "other",
+  "harvest_season": "Roots are lifted after four to six years of growth; the finished tea is drunk all year.",
+  "appearance_dry": "Reddish-brown hard root slices, or a fine powder or dark extract in packets.",
+  "appearance_liquor": "Typically a clear amber to reddish brown.",
+  "appearance_wet": "Softened reddish-brown root slices.",
+  "taste_profile": "As is typical of ginseng, earthy and bitter-sweet with a medicinal root character; jujube and honey in the traditional recipe soften it.",
+  "taste_tags": [
+    "earthy",
+    "medicinal",
+    "bitter",
+    "sweet"
+  ],
+  "brewing": {
+    "grams": 5,
+    "water_ml": 500,
+    "temp_c": 100,
+    "steeps": 1,
+    "seconds": [
+      3600
+    ],
+    "notes": "Traditionally simmered on low heat for several hours with jujubes and chestnuts, sweetened with honey and topped with pine nuts; an hour is a modest home version. Powder just needs hot water. Check with a doctor if you take blood thinners or diabetes medicine."
+  },
+  "caffeine_level": "none",
+  "vintage_note": "Not sold by harvest year in the tea sense. What is usually stated is the form, such as root, powder, liquid or sachets. Treat it as a dried herbal product and go by the packing date.",
+  "description": "Red ginseng tea is a Korean herbal drink made from the root of Panax ginseng after it has been steamed and dried; that step is what makes the root red rather than the white of simply air-dried ginseng. It contains no tea leaf.\n\nThe traditional cup takes time. Root, jujubes and dried chestnuts simmer for hours on low heat, then get honey and a few floating pine nuts. Most people today use a powder, grated root or sachet instead.\n\nExpect the earthy, bitter-sweet root flavour typical of ginseng. Too strong usually means too much root, not too long on the stove, so scale it down and let the sweet ingredients do their work.\n\nCheck that a product actually says red ginseng, and read the ingredient list to see how much root you are paying for.\n\nGinseng can interact with blood thinners, anti-inflammatory drugs, blood pressure medicines and diabetes treatment, and it is not advised for children and adolescents. Claims about energy, immunity and memory still lack extensive research.",
+  "history": "Ginseng tea has a long record in East Asia. Li Shizhen wrote about Korean ginseng tea in his Ming-era Compendium of Materia Medica, and Korea's King Yeongjo is reported to have drunk a ginseng-infused preparation called Geongongtang for his health.\n\nThe term red ginseng itself appears in the Annals of King Jeongjo, whose reign ran from 1776 to 1800. Today red ginseng is a major Korean health product, sold as liquids, capsules, powders, whole roots and even sweets.",
+  "liquor_hex": "#A8682C",
+  "leaf_hex": "#7A3E22",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Ginseng_tea",
+    "https://ko.wikipedia.org/wiki/%EC%9D%B8%EC%82%BC%EC%B0%A8",
+    "https://www.wikidata.org/wiki/Q6037041"
+  ],
+  "confidence": "medium",
+  "wikipedia_title": "Ginseng tea",
+  "wikipedia_scope": "umbrella",
+  "popularity": 3,
+  "images": []
+}

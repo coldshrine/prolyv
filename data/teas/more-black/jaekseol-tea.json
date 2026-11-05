@@ -1,0 +1,79 @@
+{
+  "slug": "jaekseol-tea",
+  "name_en": "Jaekseol Tea",
+  "name_native": "잭살차",
+  "name_romanized": "Jaeksal-cha",
+  "name_zh": "河东雀舌红茶",
+  "name_ru": "Чэксоль-ча",
+  "aliases": [
+    "Jaekseol-cha",
+    "잭설차",
+    "Чэксаль-ча"
+  ],
+  "category": "black",
+  "origin_country": "South Korea",
+  "origin_region": "South Gyeongsang · Hadong",
+  "cultivar": "Small-leaf tea bushes",
+  "processing": "A traditional Korean black tea, fully oxidised and made from small-leaf bushes, not the large-leaf types common in black tea. Finer details vary and are not well documented.",
+  "form": "loose",
+  "harvest_season": "Specific picking dates are not well documented.",
+  "appearance_dry": "As with other small-leaf black teas, expect dark, fine, twisted leaf.",
+  "appearance_liquor": "Typical of a lighter black tea, clear amber to reddish amber.",
+  "appearance_wet": "Typical of small-leaf black tea, soft coppery-brown leaf.",
+  "taste_profile": "Less bitter than many black teas because of its small leaf. Food writer Hwang Gyo-ik placed it between green and black tea, with sweetness, a savoury nutty quality and a sharp aroma.",
+  "taste_tags": [
+    "sweet",
+    "nutty",
+    "roasted"
+  ],
+  "brewing": {
+    "grams": 3,
+    "water_ml": 200,
+    "temp_c": 90,
+    "steeps": 3,
+    "seconds": [
+      120,
+      180,
+      240
+    ],
+    "notes": "These are moderate black tea settings and a starting point, nothing traditional or fixed."
+  },
+  "caffeine_level": "medium",
+  "vintage_note": "Usually sold by small producers in Hadong rather than as an aged or vintage tea. As with other black teas, buy recent stock and drink it within a couple of years. Specific grades and seasons are not well documented.",
+  "description": "Jaekseol-cha is a traditional black tea from Hadong County in South Gyeongsang, in the south of Korea. Its name is the local Hadong dialect form of jakseol, the same root as a well-known Korean green tea name, though this one is black.\n\nThe leaf source sets it apart. Black tea usually relies on large-leaf bushes, while this one comes from small-leaf plants, which makes the cup less bitter.\n\nFood columnist Hwang Gyo-ik described it as tasting between green and black tea, with sweetness, a savoury nuttiness and a sharp aroma. Brew it gently at first, then lengthen the steep if you want more weight.\n\nLook for tea identified as coming from Hadong. The name appears with two Korean spellings, 잭살 and 잭설, so search for both.",
+  "history": "The tea is rooted in Hadong, where it was also kept as a household stand-by remedy. Its age is not firmly dated. It is listed in the Ark of Taste, a catalogue of traditional foods at risk of being forgotten.",
+  "liquor_hex": "#B87A34",
+  "leaf_hex": "#4A3322",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Jaekseol_tea",
+    "https://ko.wikipedia.org/wiki/%EC%9E%AD%EC%82%B4%EC%B0%A8",
+    "https://en.wikipedia.org/wiki/Korean_tea",
+    "https://www.wikidata.org/wiki/Q30344027"
+  ],
+  "confidence": "medium",
+  "wikipedia_title": "Jaekseol tea",
+  "wikipedia_scope": "exact",
+  "popularity": 2,
+  "images": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/b/b6/Jaekseol-cha.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b6/Jaekseol-cha.jpg/330px-Jaekseol-cha.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Jaekseol-cha.jpg",
+      "author": "TV하동OBN열린방송",
+      "license": "CC BY 2.0 kr",
+      "license_url": "https://creativecommons.org/licenses/by/2.0/kr/deed.en",
+      "kind": "dry_leaf",
+      "alt": "Dry Hadong jaekseol-cha, thin twisted reddish-brown leaves on a white plate"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/0/0d/Jaekseol-cha_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0d/Jaekseol-cha_2.jpg/330px-Jaekseol-cha_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Jaekseol-cha_2.jpg",
+      "author": "TV하동OBN열린방송",
+      "license": "CC BY 2.0 kr",
+      "license_url": "https://creativecommons.org/licenses/by/2.0/kr/deed.en",
+      "kind": "liquor",
+      "alt": "Clear reddish-amber Hadong jaekseol-cha liquor in a white bowl seen from above"
+    }
+  ]
+}

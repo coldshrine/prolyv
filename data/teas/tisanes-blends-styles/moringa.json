@@ -3,10 +3,17 @@
   "name_en": "Moringa",
   "name_native": "मुनगा / முருங்கை / Malunggay",
   "name_romanized": "Munga / Murungai",
-  "aliases": ["Moringa tea", "Moringa leaf tea", "Drumstick tree leaf", "Malunggay", "Moringa oleifera", "Horseradish tree"],
+  "aliases": [
+    "Moringa tea",
+    "Moringa leaf tea",
+    "Drumstick tree leaf",
+    "Malunggay",
+    "Moringa oleifera",
+    "Horseradish tree"
+  ],
   "category": "tisane",
   "origin_country": "India",
-  "origin_region": "Tamil Nadu and Andhra Pradesh (the main growing states); also the Philippines, Ghana, Kenya and Hawaii",
+  "origin_region": "Tamil Nadu",
   "cultivar": "Moringa oleifera, the leaflets of the drumstick tree; the pods and seeds are vegetables, not tea",
   "processing": "Leaflets are stripped from the stems and dried at low temperature in shade to keep the green colour, then cut for loose tea or milled into a fine powder; no fermentation.",
   "form": "loose",
@@ -15,12 +22,70 @@
   "appearance_liquor": "Pale green-yellow and clear from leaf; cloudy green from powder.",
   "appearance_wet": "Soft dark-green leaflets like cooked spinach.",
   "taste_profile": "Green and spinach-like with a slight bitterness, a radish or horseradish sharpness and a savoury, pea-pod finish; more vegetable than tea, and it softens with lemon and honey.",
-  "taste_tags": ["grassy", "vegetal", "bitter", "umami"],
-  "brewing": {"grams": 2, "water_ml": 250, "temp_c": 85, "steeps": 2, "seconds": [240, 300], "notes": "Leaf: water at 80–90 °C, 3–5 minutes; hotter water brings out bitterness. Powder: whisk half a teaspoon into warm water or a smoothie like a thin matcha. Lemon, ginger or honey help, and a 50/50 blend with green rooibos or lemongrass is more pleasant than moringa alone."},
+  "taste_tags": [
+    "grassy",
+    "vegetal",
+    "bitter",
+    "umami"
+  ],
+  "brewing": {
+    "grams": 2,
+    "water_ml": 250,
+    "temp_c": 85,
+    "steeps": 2,
+    "seconds": [
+      240,
+      300
+    ],
+    "notes": "Leaf: water at 80–90 °C, 3–5 minutes; hotter water brings out bitterness. Powder: whisk half a teaspoon into warm water or a smoothie like a thin matcha. Lemon, ginger or honey help, and a 50/50 blend with green rooibos or lemongrass is more pleasant than moringa alone."
+  },
   "caffeine_level": "none",
   "vintage_note": "Sold year-round with no harvest date, as loose leaf, tea bags and powder, with a best-before of one to two years; the colour is the freshness marker, bright green when well dried and recent, olive-brown when old or badly dried. Most of the trade is certified organic and labelled by country, with India, the Philippines and West Africa the usual sources. 'Moringa tea' bags are often blends with green tea (which adds caffeine) or with mint and lemongrass, so check the list.",
-  "description": "Moringa is the leaf of the drumstick tree, a fast-growing tropical tree whose pods are a vegetable across South India and whose leaves, dried and steeped, became a 'superfood' tea in the 2010s. It is grown on a large scale in Tamil Nadu and Andhra Pradesh, in the Philippines as malunggay, and in several African countries.\n\nThe leaflets are stripped, shade-dried at low heat and either cut or milled; the whole point of careful drying is to keep the chlorophyll, so colour tells you most of what you need to know about a pack. There is no oxidation or roasting, and the leaf tastes much as the fresh vegetable does.\n\nIn the cup it is green and savoury, like spinach water with a radish-like bite and a mild bitterness that grows if the water is too hot or the steep too long. Keep the water under 90 °C and the steep to a few minutes, add lemon or honey, and it is a perfectly pleasant green cup; whisk the powder into warm water and it is a thin, grassy, matcha-like drink. The usual mistake is brewing it like black tea.\n\nThere is no vintage and little grading; buy bright-green leaf or powder in small amounts, check the country and the certification, and read the ingredient list, since many 'moringa teas' are blends with green tea or lemongrass.\n\nIt is marketed heavily for its nutrient content; treat that as marketing and judge it as a drink, where it works best as a caffeine-free green base to blend with mint, ginger or lemongrass.",
+  "description": "Moringa is the leaf of the drumstick tree, a fast-growing tropical tree whose pods are a vegetable across South India and whose leaves, dried and steeped, have become a 'superfood' tea in recent times. It is grown on a large scale in Tamil Nadu and Andhra Pradesh, in the Philippines as malunggay, and in several African countries.\n\nThe leaflets are stripped, shade-dried at low heat and either cut or milled; the whole point of careful drying is to keep the chlorophyll, so colour tells you most of what you need to know about a pack. There is no oxidation or roasting, and the leaf tastes much as the fresh vegetable does.\n\nIn the cup it is green and savoury, like spinach water with a radish-like bite and a mild bitterness that grows if the water is too hot or the steep too long. Keep the water under 90 °C and the steep to a few minutes, add lemon or honey, and it is a perfectly pleasant green cup; whisk the powder into warm water and it is a thin, grassy, matcha-like drink. The usual mistake is brewing it like black tea.\n\nThere is no vintage and little grading; buy bright-green leaf or powder in small amounts, check the country and the certification, and read the ingredient list, since many 'moringa teas' are blends with green tea or lemongrass.\n\nIt is marketed heavily for its nutrient content; treat that as marketing and judge it as a drink, where it works best as a caffeine-free green base to blend with mint, ginger or lemongrass.",
   "wikipedia_title": "Moringa oleifera",
   "wikipedia_scope": "umbrella",
-  "popularity": 2
+  "popularity": 2,
+  "name_zh": "辣木茶",
+  "name_ru": "Моринга",
+  "history": "Moringa is a fast-growing, drought-resistant tree native to the Himalayan foothills of northwestern India and used widely across South and Southeast Asia. Its name comes from the Tamil murungai. For most of its history people have eaten it, the pods as a vegetable and the leaves in dishes as far away as Niger.\n\nThe leaf as a tea is much less documented, and it looks like a recent turn in the plant's story, tied to its marketing as a dietary supplement and health food. Leaves are now commonly used for tea, and they are also milled to powder.",
+  "liquor_hex": "#C8CC7C",
+  "leaf_hex": "#6F7F3A",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Moringa_oleifera",
+    "https://en.wikipedia.org/wiki/Moringa_%28genus%29",
+    "https://en.wikipedia.org/wiki/Cuisine_of_Niger"
+  ],
+  "confidence": "low",
+  "images": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/2/2e/DrumstickFlower.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2e/DrumstickFlower.jpg/330px-DrumstickFlower.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source_page": "https://commons.wikimedia.org/wiki/File:DrumstickFlower.jpg",
+      "author": "Venkatx5",
+      "license": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "kind": "plant",
+      "alt": "White flowers and small leaflets on a drumstick tree branch"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1a/Jardin_de_Moringa_%C3%A0_Jaja_02.jpg/1280px-Jardin_de_Moringa_%C3%A0_Jaja_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1a/Jardin_de_Moringa_%C3%A0_Jaja_02.jpg/330px-Jardin_de_Moringa_%C3%A0_Jaja_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Jardin_de_Moringa_%C3%A0_Jaja_02.jpg",
+      "author": "Ibrahimassoumane",
+      "license": "CC0",
+      "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "kind": "plantation",
+      "alt": "Rows of young moringa plants in a sandy garden"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d9/Jardin_de_Moringa_%C3%A0_Jaja_28.jpg/1280px-Jardin_de_Moringa_%C3%A0_Jaja_28.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d9/Jardin_de_Moringa_%C3%A0_Jaja_28.jpg/330px-Jardin_de_Moringa_%C3%A0_Jaja_28.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Jardin_de_Moringa_%C3%A0_Jaja_28.jpg",
+      "author": "Ibrahimassoumane",
+      "license": "CC0",
+      "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "kind": "plantation",
+      "alt": "Young moringa saplings growing in sandy soil"
+    }
+  ]
 }

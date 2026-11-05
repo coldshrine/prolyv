@@ -3,7 +3,14 @@
   "name_en": "Li Shan High Mountain Oolong",
   "name_native": "梨山高山茶",
   "name_romanized": "Líshān Gāoshān Chá",
-  "aliases": ["Lishan oolong", "Pear Mountain oolong", "Li Shan oolong", "Lishan gaoshan cha", "Hua Gang oolong", "Cui Luan oolong"],
+  "aliases": [
+    "Lishan oolong",
+    "Pear Mountain oolong",
+    "Li Shan oolong",
+    "Lishan gaoshan cha",
+    "Hua Gang oolong",
+    "Cui Luan oolong"
+  ],
   "category": "oolong",
   "origin_country": "Taiwan",
   "origin_region": "Taichung · Heping · Lishan",
@@ -15,12 +22,46 @@
   "appearance_liquor": "Pale gold with a green tint, thick-looking and perfectly clear.",
   "appearance_wet": "Big, thick, almost leathery whole leaves, deep green with a faint red edge, on sturdy stems.",
   "taste_profile": "Dense, cold sweetness like pear and white flowers over an oily, almost syrupy body, with very little bitterness and a cooling aftertaste that keeps returning for minutes.",
-  "taste_tags": ["sweet", "creamy", "floral", "fruity", "mineral"],
-  "brewing": {"grams": 7, "water_ml": 110, "temp_c": 100, "steeps": 8, "seconds": [35, 25, 30, 40, 55, 75, 100, 150], "notes": "Easy to under-leaf: use a full dose and boiling water, and let the balls open fully in the first steep. Tolerates long steeps better than Alishan and rewards patience over eight or more infusions."},
+  "taste_tags": [
+    "sweet",
+    "creamy",
+    "floral",
+    "fruity",
+    "mineral"
+  ],
+  "brewing": {
+    "grams": 7,
+    "water_ml": 110,
+    "temp_c": 100,
+    "steeps": 8,
+    "seconds": [
+      35,
+      25,
+      30,
+      40,
+      55,
+      75,
+      100,
+      150
+    ],
+    "notes": "Easy to under-leaf: use a full dose and boiling water, and let the balls open fully in the first steep. Tolerates long steeps better than Alishan and rewards patience over eight or more infusions."
+  },
   "caffeine_level": "medium",
   "vintage_note": "Sold by harvest and sub-area: the late-spring (June) and winter (October) picks of the current year, usually in vacuum-sealed 75 g or 150 g packs, and priced by altitude with Hua Gang, Cui Luan and Fushoushan lots at the top. Winter lots are often considered thicker and spring lots more aromatic; both are meant to be drunk within a year and are not aged.",
   "description": "Li Shan, 'Pear Mountain', is the collective name for the high-altitude tea gardens around the village of Lishan in Heping District, Taichung, strung along the Central Cross-Island Highway at roughly 1,800 to 2,500 metres among apple, pear and peach orchards. Together with Da Yu Ling it sits at the top of Taiwan's high-mountain hierarchy, and the sub-areas, Hua Gang, Cui Luan, Wuling, Fushoushan, Tianfu and Songmao, are often named on the packet because buyers pay by altitude.\n\nThe cultivar is almost always Qing Xin oolong. At this height the bushes grow slowly through cold nights and thin air, which builds thick, waxy leaves rich in amino acids and sugars; the makers do as little as possible to them, a very light oxidation, careful ball-rolling and a gentle drying with no roast, so the cup is about the leaf, not the processing.\n\nWhat you get is weight and cold sweetness: a dense, oily liquor that feels almost as if it had sugar in it, with pear, white flowers and cool mountain air rather than the loud florals of lower tea, and an aftertaste that keeps returning for minutes. It is easy to under-leaf. Use a proper dose, water right off the boil, and give the balls a slightly longer first steep to open; the tea tolerates long steeps better than Alishan does and rewards patience over eight or more infusions.\n\nBecause of the altitude there are usually only two harvests, a late spring crop picked from late May into June and a winter crop in October, and both are expensive; the highest sub-areas may give only one pick a year. The name is heavily faked, so a specific garden or sub-area, a harvest date and a vacuum-sealed pack from a seller who can say which farm the tea came from matter more than the words 'Li Shan' on the label.\n\nDrink it within a year while the cold, sweet character is fresh; it does not improve with time. Brew it alone and with attention; this is a tea that gets lost next to food.",
   "wikipedia_title": "Taiwanese tea",
   "wikipedia_scope": "umbrella",
-  "popularity": 4
+  "popularity": 4,
+  "name_zh": "梨山高山茶",
+  "name_ru": "Высокогорный улун Ли Шань",
+  "history": "Li Shan's tea story runs through the Central Cross-Island Highway. Little is documented here about exactly when the first bushes went in.\n\nThe rise of the tea belongs to the broader high-mountain boom, when buyers began to pay by altitude and the upper limit of Taiwanese tea climbed from about 700 metres to 2,500. A 2016 National Taiwan University thesis ties Li Shan's rise to domestic tea promotion, the highway and the opening of Taiwan's market to imported apples.\n\nThe same study makes a less romantic point. The cold, wet, misty climate favours the leaf but hinders the oxidation oolong relies on, which pushes the tea toward a greener style, and competitions and marketing then established this as the mark of quality. Fushoushan's tea is described in the press as the highest-grown in Taiwan.",
+  "liquor_hex": "#E0D285",
+  "leaf_hex": "#3A5636",
+  "sources": [
+    "https://tdr.lib.ntu.edu.tw/handle/123456789/18901",
+    "https://udn.com/news/story/7266/9348737",
+    "https://en.wikipedia.org/wiki/Taiwanese_tea"
+  ],
+  "confidence": "medium",
+  "images": []
 }

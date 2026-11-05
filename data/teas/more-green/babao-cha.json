@@ -1,0 +1,78 @@
+{
+  "slug": "babao-cha",
+  "name_en": "Babao Cha",
+  "name_native": "八宝茶",
+  "name_romanized": "Bābǎo Chá",
+  "name_zh": "八宝茶",
+  "name_ru": "Ба Бао Ча",
+  "aliases": [
+    "Babao Tea",
+    "Babaocha",
+    "Eight Treasures Tea",
+    "eight treasure tea",
+    "八寶茶",
+    "盖碗茶",
+    "Gaiwan Tea",
+    "Sanpaotai",
+    "三炮台",
+    "Бабао Ча"
+  ],
+  "category": "green",
+  "origin_country": "China",
+  "origin_region": "Gansu · Linxia",
+  "cultivar": null,
+  "processing": "A blend rather than a processed leaf: tea, usually green, is mixed with dried fruit, nuts, flowers and rock sugar. Recipes vary by region and by household.",
+  "form": "other",
+  "harvest_season": "No harvest of its own; it is assembled year-round from dried ingredients.",
+  "appearance_dry": "A colourful mix of tea leaf, red dates, longan, goji, walnut, sesame and rock sugar.",
+  "appearance_liquor": "Golden to light amber, turning deeper and sweeter as the fruit softens.",
+  "appearance_wet": "Plumped fruit and nuts floating among opened tea leaves.",
+  "taste_profile": "Sweet and fruity with date and longan, softened by rock sugar, and changing from steep to steep as different ingredients open.",
+  "taste_tags": [
+    "sweet",
+    "dried-fruit",
+    "nutty",
+    "floral"
+  ],
+  "brewing": {
+    "grams": 12,
+    "water_ml": 200,
+    "temp_c": 90,
+    "steeps": 4,
+    "seconds": [
+      180,
+      240,
+      300,
+      300
+    ],
+    "notes": "Use a lidded bowl and top up with hot water as you drink. About 90 C for three to four minutes is a common guide; there is no need to pour off the leaf between refills."
+  },
+  "caffeine_level": "low",
+  "vintage_note": "Not sold by year or season. It is sold as a ready-mixed packet or made at home from fresh dried ingredients, so simply check the date and buy recent stock, since the nuts can go rancid.",
+  "description": "Babao cha, 'eight treasures tea', is a sweet lidded-bowl drink linked above all with Hui Muslim communities in northwest China, and it is also found in Sichuan, Ningxia and Qinghai. In Linxia in Gansu it is a basic part of hospitality, served to guests alongside dishes like hand-pulled mutton.\n\nThe 'eight' is more of a spirit than a count. A typical Linxia set is tea, red dates, longan, goji, oleaster fruit, walnut, sesame and rock sugar, but others add chrysanthemum, rose, raisins or dried apple. Each family and region does its own version.\n\nThe fun is in how it moves. Different ingredients open at different speeds, so one bowl tastes different on each refill, usually getting fruitier and sweeter. It is traditionally drunk from a three-part lidded bowl, and the lid is used to push the floating pieces aside.\n\nWhen buying, look at the ingredients themselves: whole recognisable fruit, fresh-smelling nuts and real leaf. Many packets are sold with health claims, which are best taken lightly. It is a pleasant drink and a good introduction to a regional custom, not a remedy.",
+  "history": "The drink is rooted in Hui tradition, and it is also called gaiwan tea after its lidded bowl, an old form of vessel with a lid and no handle. There is no single documented origin, and accounts differ on its age. One explanation holds that it arose where tea was scarce, with fruits and flowers stretching or replacing it.\n\nReady-mixed versions have become common on the market in recent years, usually pitched toward modern tastes. The drink also reached Japan among the Chinese teas that became familiar there after the oolong boom of the 1970s.",
+  "liquor_hex": "#C99A4A",
+  "leaf_hex": "#8A5A3A",
+  "wikipedia_title": null,
+  "wikipedia_scope": "none",
+  "popularity": 3,
+  "sources": [
+    "https://zh.wikipedia.org/wiki/%E5%85%AB%E5%AE%9D%E8%8C%B6",
+    "https://ja.wikipedia.org/wiki/%E5%85%AB%E5%AE%9D%E8%8C%B6",
+    "https://www.wikidata.org/wiki/Q74185161",
+    "https://www.chinanews.com.cn/sh/2024/05-21/10220658.shtml"
+  ],
+  "confidence": "high",
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b3/San_pao_tai.jpg/1280px-San_pao_tai.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b3/San_pao_tai.jpg/330px-San_pao_tai.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source_page": "https://commons.wikimedia.org/wiki/File:San_pao_tai.jpg",
+      "author": "Brücke-Osteuropa",
+      "license": "CC0",
+      "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "kind": "serving",
+      "alt": "Lidded gaiwan of san pao tai tea with tea leaves, red dates, goji berries and longan"
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "slug": "beichuan-chaye",
+  "name_en": "Beichuan Tea",
+  "name_native": "北川茶叶",
+  "name_romanized": "Běichuān Cháyè",
+  "aliases": [
+    "Beichuan Chaye",
+    "Beichuanchaye"
+  ],
+  "category": "green",
+  "origin_country": "China",
+  "origin_region": "Sichuan · Beichuan",
+  "cultivar": null,
+  "form": "loose",
+  "caffeine_level": "medium",
+  "brewing": {
+    "grams": 3,
+    "water_ml": 150,
+    "temp_c": 80,
+    "steeps": 3,
+    "seconds": [
+      60,
+      75,
+      105
+    ],
+    "notes": "A safe starting point for green tea: cooler water, short steeps, then adjust by taste."
+  },
+  "taste_tags": [
+    "bitter",
+    "sweet"
+  ],
+  "description": "Tea from Beichuan county in Mianyang, Sichuan, protected by a geographical indication certification mark and made as roasted-style green tea.\n\nTreat it as you would any green tea: cooler water, short steeps, and a seller who can say where and when it was picked.",
+  "wikipedia_title": null,
+  "wikipedia_scope": "none",
+  "popularity": 1,
+  "name_zh": "北川茶叶",
+  "name_ru": "Бэй Чуань Ча Е",
+  "history": "The local Beichuan Taizi tea plant is singled out as a hardy, high-yielding variety with plump buds. Little more is documented about the tea's history.",
+  "liquor_hex": "#CFD274",
+  "leaf_hex": "#7E8B3E",
+  "sources": [
+    "https://milulu.com.cn/techan/17014.html"
+  ],
+  "confidence": "low",
+  "images": [],
+  "stub": true,
+  "processing": "Typical of green tea: picked, heated soon after picking to stop oxidation, then shaped and dried.",
+  "harvest_season": "Usually picked in spring, with the earliest pickings prized, as with most green teas.",
+  "appearance_dry": "Green leaf whose shape depends on the maker, as is usual for regional green teas.",
+  "appearance_liquor": "Emerald green.",
+  "appearance_wet": "Usually soft green leaf that opens up in the water.",
+  "taste_profile": "Delicately fragrant, bitter at first and then turning sweet, keeping colour and taste over long steeping.",
+  "vintage_note": "Green teas like this are normally sold as the current year's harvest and are best within a year of picking. It is not an ageing tea."
+}

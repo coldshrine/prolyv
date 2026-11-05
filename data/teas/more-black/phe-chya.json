@@ -1,0 +1,53 @@
+{
+  "slug": "phe-chya",
+  "name_en": "Phe Chya",
+  "name_native": null,
+  "name_romanized": "phe chya",
+  "aliases": [
+    "su chya",
+    "butter tea"
+  ],
+  "category": "black",
+  "origin_country": "Nepal",
+  "origin_region": "Himalayan Nepal",
+  "cultivar": null,
+  "form": "other",
+  "caffeine_level": "high",
+  "brewing": {
+    "grams": 3,
+    "water_ml": 200,
+    "temp_c": 95,
+    "steeps": 2,
+    "seconds": [
+      180,
+      240
+    ],
+    "notes": "A safe starting point for black tea: Western style, water just off the boil."
+  },
+  "taste_tags": [
+    "malty",
+    "sweet"
+  ],
+  "description": "The Sherpa name, alongside su chya, for butter tea, a drink of the Himalayan peoples. It is traditionally made from tea leaves, yak butter, water, tsampa and salt.\n\nThis is a way of preparing tea more than a tea you buy under one name, so the recipe and the base tea change from one maker to the next.",
+  "wikipedia_title": null,
+  "wikipedia_scope": "none",
+  "popularity": 1,
+  "name_zh": "酥油茶",
+  "name_ru": "Пхе-чья",
+  "history": "Butter tea is drunk across the Himalaya and parts of Central Asia under many local names, and cow's butter increasingly replaces yak butter because it is cheaper and easier to find. Little is documented about the Sherpa version in particular.",
+  "liquor_hex": "#C8A47A",
+  "leaf_hex": "#3A2A1E",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Butter_tea"
+  ],
+  "confidence": "low",
+  "images": [],
+  "stub": true,
+  "processing": "Tea leaves, yak or cow butter, water, tsampa (roasted barley flour) and salt are combined into a drink.",
+  "harvest_season": "Not tied to a harvest: it depends on the base tea.",
+  "appearance_dry": "Usually dark twisted leaf, sometimes with golden tips.",
+  "appearance_liquor": "Usually a clear red-brown.",
+  "appearance_wet": "Usually coppery brown leaf.",
+  "taste_profile": "Expect what black teas usually give: malty, sweet and brisk.",
+  "vintage_note": "Not sold by vintage: it is made from whatever base tea the maker keeps, so freshness of the base matters more than the year."
+}

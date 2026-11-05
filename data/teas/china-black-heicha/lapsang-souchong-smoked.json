@@ -3,25 +3,114 @@
   "name_en": "Lapsang Souchong (Pine-Smoked)",
   "name_native": "烟熏正山小种",
   "name_romanized": "Yānxūn Zhèngshān Xiǎozhǒng",
-  "aliases": ["Lapsang", "Smoked Souchong", "Zheng Shan Xiao Zhong (smoked)", "Yan Xiao Zhong", "Tarry Souchong", "Bohea", "Tongmu smoked black"],
+  "aliases": [
+    "Lapsang",
+    "Smoked Souchong",
+    "Zheng Shan Xiao Zhong (smoked)",
+    "Yan Xiao Zhong",
+    "Tarry Souchong",
+    "Tongmu smoked black",
+    "正山小种",
+    "正山小種",
+    "立山小种",
+    "Чжэн Шань Сяо Чжун",
+    "Лапсан Сушонг"
+  ],
   "category": "black",
   "origin_country": "China",
   "origin_region": "Fujian · Wuyi Mountains · Tongmu",
   "cultivar": "Wuyi cai cha (local small-leaf population bushes); export-grade versions use assorted Fujian leaf",
   "processing": "Fully oxidised and pine-smoked: the leaf is withered over pine fires in a multi-storey wooden drying house, rolled, oxidised, briefly pan-fired to stop oxidation (the 'guo hong guo' step), rolled again and dried over resinous pine so the smoke sets into the leaf.",
   "form": "loose",
-  "harvest_season": "Spring, late April to late May, from the coarser pickings of a bud with two or three leaves; a single harvest a year inside the reserve.",
+  "harvest_season": "Spring is the main harvest, roughly late April to late May, usually from larger, more mature leaves.",
   "appearance_dry": "Loose, slightly flat, dark brown-black strands, larger than most Fujian blacks, with a resinous smoky smell.",
   "appearance_liquor": "Deep red-brown to mahogany, clear.",
   "appearance_wet": "Broad, dark copper leaves, slightly leathery, with the pine smell softening to longan.",
   "taste_profile": "Pine resin and woodsmoke wrapped around dried longan, smoked plum and a honeyed sweetness; the traditional Tongmu tea is gentle and sweet, the export style tarry and bacon-like.",
-  "taste_tags": ["smoky", "dried-fruit", "woody", "sweet", "roasted"],
-  "brewing": {"grams": 5, "water_ml": 110, "temp_c": 98, "seconds": [10, 10, 15, 20, 30, 45, 60], "steeps": 7, "notes": "Water near the boil in a gaiwan; the smoke drops back after two steeps and the longan comes forward. Western-style: 3 g per 250 ml, 3–4 minutes, takes milk and even a little sugar. Keep it in a separate tin, it perfumes everything."},
+  "taste_tags": [
+    "smoky",
+    "dried-fruit",
+    "woody",
+    "sweet",
+    "roasted"
+  ],
+  "brewing": {
+    "grams": 5,
+    "water_ml": 110,
+    "temp_c": 98,
+    "seconds": [
+      10,
+      10,
+      15,
+      20,
+      30,
+      45,
+      60
+    ],
+    "steeps": 7,
+    "notes": "Water near the boil in a gaiwan; the smoke drops back after two steeps and the longan comes forward. Western-style: 3 g per 250 ml, 3–4 minutes, takes milk and even a little sugar. Keep it in a separate tin, it perfumes everything."
+  },
   "caffeine_level": "medium",
-  "vintage_note": "Sold by the current year's spring harvest, but it is the one Fujian black that is kept on purpose: smoke mellows with time and two- to five-year-old lots are sold as such, sometimes dearer than fresh. Genuine Tongmu smoked tea is made in shrinking quantities because pine use in the reserve is restricted; most 'Lapsang' in Western shops is export-style tea from outside the reserve, made every year in volume.",
-  "description": "Lapsang souchong is the smoked black tea of Tongmu in the Wuyi mountains, and the original of the whole style: the tea the West learned to call 'Lapsang' is Zheng Shan Xiao Zhong dried over pine fires. Its reputation as an acquired taste comes mostly from the heavily smoked export versions; the traditional Tongmu tea is far gentler, with the smoke acting as a frame around dried longan and honey rather than the whole picture.\n\nThe process is unusual in several ways. The leaf is withered in a multi-storey wooden house with pine fires on the ground floor, so smoke and warmth rise through the floors; after rolling and oxidation it is briefly pan-fired to halt oxidation, a step no other black tea uses, then rolled again and dried over resinous pine. Masson pine from the surrounding forest is the traditional fuel, and its resin is what gives the tea its longan-like sweetness rather than a flat ashtray smell.\n\nBrewed hot and short, the first steep is all pine and resin, the smoke steps back by the third and the sweet, fruity body shows through; it is still going at seven steeps. Western-style it makes a strong pot that takes milk, and it is a classic cooking tea for smoked eggs, marinades and broths. The mistake people make is judging it on a single long steep of the export grade.\n\nBuying is a question of which tea you want. Tongmu smoked Xiao Zhong is sold by the current spring, in small quantities, from named makers, and it has become scarcer since restrictions on pine use inside the nature reserve; it is also kept and sold at two to five years old, when the smoke has softened. Export-style Lapsang is made in volume from leaf outside the reserve, smoked harder, sometimes with added smoke flavouring, and sells for very little; it is a different product under the same name. Price and a tarry, bacon-fat nose tell you which you have.\n\nIf the smoke puts you off, the unsmoked Zheng Shan Xiao Zhong from the same village is the same leaf with the fire taken away.",
+  "vintage_note": "Sold by the current year's spring harvest, but it is also kept on purpose: smoke mellows with time, fruit and sweetness come forward after about three years, and older lots are also sold. Genuine Tongmu smoked tea is made in shrinking quantities because, makers report, pine use in the reserve is restricted; most 'Lapsang' in Western shops is export-style tea from outside the reserve, made every year in volume.",
+  "description": "Lapsang souchong is the smoked black tea of Tongmu in the Wuyi mountains, and the original of the whole style: the tea the West learned to call 'Lapsang' is Zheng Shan Xiao Zhong dried over pine fires. Its reputation as an acquired taste comes mostly from the heavily smoked export versions; the traditional Tongmu tea is far gentler, with the smoke acting as a frame around dried longan and honey rather than the whole picture.\n\nThe process is unusual in several ways. The leaf is withered in a multi-storey wooden house with pine fires on the ground floor, so smoke and warmth rise through the floors; after rolling and oxidation it is briefly pan-fired to halt oxidation, a step most black teas skip, then rolled again and dried over resinous pine. Local pine from the surrounding forest is the traditional fuel, named in different accounts as Masson pine or Taiwan red pine, and it gives the pine-resin and dried-longan notes rather than a flat ashtray smell.\n\nBrewed hot and short, the first steep is all pine and resin, the smoke steps back by the third and the sweet, fruity body shows through; it is still going at seven steeps. Western-style it makes a strong pot that takes milk, and it is a classic cooking tea for smoked eggs, marinades and broths. The mistake people make is judging it on a single long steep of the export grade.\n\nBuying is a question of which tea you want. Tongmu smoked Xiao Zhong is sold by the current spring, in small quantities, from named makers, and makers say it has become scarcer since restrictions on pine use inside the nature reserve; it is also kept and sold older, when the smoke has softened. Export-style Lapsang is made in volume from leaf outside the reserve, smoked harder, sometimes with added smoke flavouring, and sells for very little; it is a different product under the same name. Price and a tarry, bacon-fat nose tell you which you have.\n\nIf the smoke puts you off, the unsmoked Zheng Shan Xiao Zhong from the same village is the same leaf with the fire taken away.",
   "wikipedia_title": "Lapsang souchong",
   "wikipedia_scope": "exact",
   "popularity": 5,
-  "sources_note": "The origin of the English word 'Lapsang' is uncertain and deliberately not explained. Restrictions on pine-wood use in the Wuyi reserve are widely reported by Tongmu makers; exact rules and dates vary by account. Use of smoke flavouring in cheap export grades is reported by traders rather than documented officially."
+  "sources_note": "The origin of the English word 'Lapsang' is uncertain and deliberately not explained. Restrictions on pine-wood use in the Wuyi reserve are widely reported by Tongmu makers; exact rules and dates vary by account. Use of smoke flavouring in cheap export grades is reported by traders rather than documented officially.",
+  "name_zh": "烟熏正山小种",
+  "name_ru": "Лапсанг Сушонг",
+  "history": "Lapsang souchong comes from Tongmu in the Wuyi Mountains and dates to the turn of the Ming and Qing dynasties, though nobody can pin down the year. The name Zheng Shan Xiao Zhong is traced to before 1640, and accounts of early production give 1610 or around 1650.\n\nThe usual story says soldiers passing through Tongmu slept on or disturbed the freshly picked leaf, and farmers saved the spoiled batch by drying it over pine. One version sets this in 1646 with Qing troops, another in the Taiping years, and the tale is told as legend rather than record. It adds that the Dutch bought the smoky result and came back for more.\n\nThe word itself is murky. One explanation reads it as Fuzhou dialect for pine wood, others link it to 立山 or 'inner mountain', and on language grounds most of them are doubtful. What is clearer is the trade: Wuyi tea was first sold in the West as bohea, souchong was a grade, and 'smoky souchong' came before 'lapsang'. Souchong was among the teas the East India Company shipped to America, and 35 chests of it were destroyed at the Boston Tea Party.\n\nThe Chinese standard now limits Zheng Shan Xiao Zhong to Tongmu and the Wuyi reserve; the same method elsewhere is called Wai Shan Xiao Zhong, sold as tarry souchong. In the early 21st century Tongmu also began making an unsmoked version, which has grown popular in China.",
+  "liquor_hex": "#6E2A12",
+  "leaf_hex": "#2F2119",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Lapsang_souchong",
+    "https://ja.wikipedia.org/wiki/%E6%AD%A3%E5%B1%B1%E5%B0%8F%E7%A8%AE",
+    "https://zh.wikipedia.org/wiki/%E6%AD%A3%E5%B1%B1%E5%B0%8F%E7%A7%8D",
+    "https://ru.wikipedia.org/wiki/%D0%9B%D0%B0%D0%BF%D1%81%D0%B0%D0%BD%D0%B3_%D1%81%D1%83%D1%88%D0%BE%D0%BD%D0%B3",
+    "https://ko.wikipedia.org/wiki/%EC%A0%95%EC%82%B0%EC%86%8C%EC%A2%85",
+    "https://www.wikidata.org/wiki/Q634871"
+  ],
+  "confidence": "high",
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bb/Lapsang_Souchong.jpg/1280px-Lapsang_Souchong.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bb/Lapsang_Souchong.jpg/330px-Lapsang_Souchong.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Lapsang_Souchong.jpg",
+      "author": "Difference engine",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "kind": "dry_leaf",
+      "alt": "Pile of dark, loose Lapsang Souchong leaves from Fujian"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3e/Lapsang_souchong_tea.jpg/1280px-Lapsang_souchong_tea.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3e/Lapsang_souchong_tea.jpg/330px-Lapsang_souchong_tea.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Lapsang_souchong_tea.jpg",
+      "author": "No machine-readable author provided. Deltabeignet assumed (based on copyright claims).",
+      "license": "CC BY-SA 3.0",
+      "license_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+      "kind": "liquor",
+      "alt": "Glass of deep red-brown Lapsang Souchong liquor"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/86/JacksonsLapsangSouchong_low.jpg/1280px-JacksonsLapsangSouchong_low.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/86/JacksonsLapsangSouchong_low.jpg/330px-JacksonsLapsangSouchong_low.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source_page": "https://commons.wikimedia.org/wiki/File:JacksonsLapsangSouchong_low.jpg",
+      "author": "No machine-readable author provided. Sjhan81 assumed (based on copyright claims).",
+      "license": "CC BY-SA 3.0",
+      "license_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+      "kind": "dry_leaf",
+      "alt": "Large dark twisted dry leaves of Lapsang Souchong"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9e/Lapsang_souchong_dsc07639.jpg/1280px-Lapsang_souchong_dsc07639.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9e/Lapsang_souchong_dsc07639.jpg/330px-Lapsang_souchong_dsc07639.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Lapsang_souchong_dsc07639.jpg",
+      "author": "David Monniaux",
+      "license": "CC BY-SA 3.0",
+      "license_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+      "kind": "dry_leaf",
+      "alt": "Scattered dry Lapsang Souchong leaves on a white background"
+    }
+  ]
 }

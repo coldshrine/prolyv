@@ -1,0 +1,58 @@
+{
+  "slug": "sbiten",
+  "name_en": "Sbiten",
+  "name_native": "Сбитень",
+  "name_romanized": "Sbiten",
+  "name_zh": "热蜜饮",
+  "name_ru": "Сбитень",
+  "aliases": [
+    "Збитень",
+    "Перевар",
+    "Взвар",
+    "Vzvar"
+  ],
+  "category": "tisane",
+  "origin_country": "Russia",
+  "origin_region": "Eastern Slavic lands",
+  "cultivar": null,
+  "processing": "Honey, sometimes with molasses or sugar, is boiled in water with herbs and spices, then left to stand and strained. Some recipes boil honey and flavourings separately before combining them; it is usually non-alcoholic, though wine versions and lightly fermented ones exist.",
+  "form": "other",
+  "harvest_season": "Not a harvested tea: it is cooked to order, traditionally as a winter drink, and modern versions may be served cold in summer.",
+  "appearance_dry": "No dry leaf in the usual sense: sold as a thick syrup or as a dry mix of herbs and spices.",
+  "appearance_liquor": "Dark, purplish to deep amber depending on the recipe, and usually a little cloudy from honey and spices.",
+  "appearance_wet": "Strained before serving, sometimes garnished with mint leaves or a cinnamon stick.",
+  "taste_profile": "Sweet honey and warm spice, and depending on the cook very sweet, very spicy or both; ginger, clove, pepper and mint are common notes.",
+  "taste_tags": [
+    "honey",
+    "sweet",
+    "spicy",
+    "herbal"
+  ],
+  "brewing": {
+    "grams": 40,
+    "water_ml": 500,
+    "temp_c": 100,
+    "steeps": 1,
+    "seconds": [
+      900
+    ],
+    "notes": "Cooked, not steeped. Dissolve honey in boiling water, add herbs and spices, simmer, let it stand and strain. Serve hot; amounts here are a starting point, since recipes vary freely."
+  },
+  "caffeine_level": "none",
+  "vintage_note": "Has no vintage or season of sale. Today it comes as bottled syrup, widely through monastery shops, or as a dry herbal mix sold by weight, and it is made fresh at home in winter. Check whether a syrup is honey-based, since old sellers also stretched it with molasses.",
+  "description": "Sbiten is the hot honey drink Eastern Slavs drank before tea arrived: water, honey, herbs and spices boiled together. It holds a place here not because it contains tea leaves but because it is what tea eventually replaced.\n\nHoney is the only fixed ingredient. The rest shifts by recipe, from St John's wort and sage to bay, ginger, hops, cinnamon, clove and cardamom. Old sellers kept their own secret mixtures.\n\nExpect a sweet, spiced cup, drunk hot with pastries or gingerbread much as you would drink tea. Foreigners called it Russian mulled wine, yet it normally has no alcohol, though red wine versions exist and fermenting can turn it into something like mild mead.\n\nThe post-Soviet revival is mostly a very sweet syrup. If that is all you have tried, make it once from honey and whole spices; it is simple work, and you can dial back the sugar.",
+  "history": "The dates vary. One line of reference works gives a first chronicle mention in 1128, while the culinary writer Pokhlebkin says it was known by the early 15th century. A recipe appears in the 16th-century Domostroy. Peter the Great is reported to have had it given to the workers building his new capital, and sailors in the 18th and 19th centuries drank it against scurvy.\n\nStreet vendors, the sbitenshchiki, carried it in a kettle called a sbitennik, with a charcoal tube at its centre, which is regarded as a forerunner of the samovar. Yakov Knyazhnin's comic opera Sbitenshchik of 1783 was popular on the Russian stage around the turn of the 19th century.\n\nTea pushed it aside, but the timing is disputed: Pokhlebkin points to everyday eating after the late 17th century, while the Tula samovar museum describes street sale giving way in the second half of the 19th century. It came back after the Soviet breakup, largely as bottled syrup.",
+  "liquor_hex": "#5E2A3A",
+  "leaf_hex": "#7A4A22",
+  "wikipedia_title": "Sbiten",
+  "wikipedia_scope": "exact",
+  "popularity": 3,
+  "sources": [
+    "https://en.wikipedia.org/wiki/Sbiten",
+    "https://ru.wikipedia.org/wiki/%D0%A1%D0%B1%D0%B8%D1%82%D0%B5%D0%BD%D1%8C",
+    "https://zh.wikipedia.org/wiki/%E7%83%AD%E8%9C%9C%E9%A5%AE",
+    "https://www.wikidata.org/wiki/Q2092285"
+  ],
+  "confidence": "high",
+  "images": []
+}

@@ -1,0 +1,60 @@
+{
+  "slug": "kamairisei-tamaryokucha",
+  "name_en": "Kamairisei Tamaryokucha",
+  "name_native": "釜炒り製玉緑茶",
+  "name_romanized": "Kamairisei Tamaryokucha",
+  "name_zh": "釜炒玉绿茶",
+  "name_ru": "Камаирисэй тамарёкутя",
+  "aliases": [
+    "Kamairicha",
+    "Kamairi-cha",
+    "釜炒り茶",
+    "Pan-fired tamaryokucha",
+    "Камаири-тя"
+  ],
+  "category": "green",
+  "origin_country": "Japan",
+  "origin_region": "Kyushu",
+  "cultivar": null,
+  "processing": "Fresh leaf is fixed in a hot iron pan rather than steamed, then rolled and dried into curled shapes. Ureshino uses a tilted pan, while Kumamoto and Miyazaki traditionally used the level Aoyagi-style pan.",
+  "form": "loose",
+  "harvest_season": "Spring is typical, as with most Japanese green teas; first picking is the usual premium lot.",
+  "appearance_dry": "Curled, comma-like dark green leaf, typically duller and less needle-like than steamed sencha.",
+  "appearance_liquor": "Clear pale yellow to golden, typically lighter than steamed Japanese greens.",
+  "appearance_wet": "Opened whole leaf in a muted olive green, as is usual for pan-fired tea.",
+  "taste_profile": "Typically clean and lightly toasty from the pan, with less of the marine depth found in steamed Japanese greens.",
+  "taste_tags": [
+    "roasted",
+    "nutty",
+    "vegetal"
+  ],
+  "brewing": {
+    "grams": 4,
+    "water_ml": 120,
+    "temp_c": 85,
+    "steeps": 3,
+    "seconds": [
+      60,
+      30,
+      60
+    ],
+    "notes": "Typical of pan-fired green tea: slightly hotter water than for sencha is fine, and the first steep can run a full minute while the curled leaf opens."
+  },
+  "caffeine_level": "medium",
+  "vintage_note": "Sold like other Japanese greens, as the current year's spring harvest and best drunk within a year. It is a small niche beside steamed tea: Ureshino's own output is overwhelmingly steamed, so look for 釜炒り on the label and a named maker.",
+  "description": "This is the long formal name for what most drinkers call kamairicha: Japanese green tea fixed in a hot pan instead of steamed. The Japan Tea Central Association lists it as its own category among Japanese green teas, next to its steamed cousin. It belongs to Kyushu, above all Ureshino in Saga and the mountain areas of Kumamoto and Miyazaki.\n\nThe pan is the whole story. Heat from iron rather than steam stops oxidation differently, which is why this tea sits closer to Chinese green tea than to sencha. Two equipment traditions are remembered: the tilted Ureshino pan and the level Aoyagi pan.\n\nAs is typical of pan-fired greens, expect a clean cup with a toasty edge rather than sencha's deep green savouriness. It forgives slightly hotter water, but it fades quickly, so two or three steeps are the usual limit.\n\nBuy from a named producer and check for the 釜炒り wording, because plain tamaryokucha from Ureshino is usually the steamed kind. It makes a good bridge for anyone moving from Chinese greens to Japanese ones.",
+  "history": "A tradition in Ureshino holds that in 1504 a Ming potter named Hong Lingmin (紅令民) brought a Nanjing pan and taught pan-firing there. It is a tradition, not an established fact, but it reflects how closely this tea is tied to Chinese methods.\n\nSteamed tea later took over most of Japanese production, and even in Ureshino the pan-fired style is now a small share. Pan-fired tamaryokucha also became an export product: the Izumi cultivar was bred for it to serve North African buyers.",
+  "liquor_hex": "#D9C76F",
+  "leaf_hex": "#55603A",
+  "sources": [
+    "https://www.bunka.go.jp/seisaku/bunkazai/joseishien/syokubunka_story/pdf/94414901_32.pdf",
+    "https://ja.wikipedia.org/wiki/%E8%8C%B6",
+    "https://furunavi.jp/product_detail.aspx?pid=194951",
+    "https://myjapanesegreentea.com/the-izumi-tea-cultivar"
+  ],
+  "confidence": "medium",
+  "wikipedia_title": null,
+  "wikipedia_scope": "none",
+  "popularity": 3,
+  "images": []
+}

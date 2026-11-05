@@ -3,10 +3,20 @@
   "name_en": "Earl Grey",
   "name_native": null,
   "name_romanized": null,
-  "aliases": ["Earl Grey tea", "Bergamot tea", "Lady Grey (Twinings variant)", "Earl Gray", "Grey's tea"],
+  "aliases": [
+    "Earl Grey tea",
+    "Bergamot tea",
+    "Lady Grey (Twinings variant)",
+    "Earl Gray",
+    "Grey's tea",
+    "伯爵茶",
+    "伯爵红茶",
+    "Граф Грей",
+    "Седой граф"
+  ],
   "category": "black",
   "origin_country": "United Kingdom",
-  "origin_region": "Blended in Britain; the base tea is usually Chinese (Keemun), Ceylon or Indian black, and the bergamot comes almost entirely from Calabria in southern Italy",
+  "origin_region": "United Kingdom",
   "cultivar": null,
   "processing": "A finished black tea is sprayed or tumbled with bergamot oil (or a bergamot flavouring) and re-dried; some blends add dried bergamot peel or blue cornflower petals. Traditionally the base was a Chinese black tea; most supermarket versions now use Ceylon or Kenyan leaf.",
   "form": "loose",
@@ -15,12 +25,108 @@
   "appearance_liquor": "Bright amber to deep copper, clear.",
   "appearance_wet": "Brown-copper leaf that still smells of bergamot.",
   "taste_profile": "Bergamot's bitter-orange, floral, slightly resinous perfume over a brisk, malty black tea; the best are balanced and bright, the worst are perfumed and soapy with a thin tea underneath.",
-  "taste_tags": ["citrus", "floral", "brisk", "malty"],
-  "brewing": {"grams": 3, "water_ml": 250, "temp_c": 95, "steeps": 1, "seconds": [210], "notes": "Just-boiled water, 3–4 minutes; longer makes the tea tannic without adding bergamot. A slice of lemon is the traditional serve and milk works if the base is sturdy enough. A second, longer steep is drinkable but thin. It is the base for a London Fog (Earl Grey, steamed milk, vanilla)."},
+  "taste_tags": [
+    "citrus",
+    "floral",
+    "brisk",
+    "malty"
+  ],
+  "brewing": {
+    "grams": 3,
+    "water_ml": 250,
+    "temp_c": 95,
+    "steeps": 1,
+    "seconds": [
+      210
+    ],
+    "notes": "Just-boiled water, 3–4 minutes; longer makes the tea tannic without adding bergamot. A slice of lemon is the traditional serve and milk works if the base is sturdy enough. A second, longer steep is drinkable but thin. It is the base for a London Fog (Earl Grey, steamed milk, vanilla)."
+  },
   "caffeine_level": "medium",
   "vintage_note": "A blend made to taste the same all year, with no harvest year and a best-before of two to three years, though the bergamot aroma fades well within a year of opening, so buy small tins. What differs between brands is the base (a Chinese black is softer, Ceylon brighter, Kenyan CTC in bags harsher), whether the label says bergamot oil or just 'flavouring', and whether cornflowers are added for looks. The name is not protected, so 'Earl Grey' can be anything from a scented Keemun to a flavoured dust.",
-  "description": "Earl Grey is the most famous flavoured tea in the world: black tea scented with the oil of bergamot, a bitter citrus grown almost exclusively on the Calabrian coast of Italy. The name honours Charles Grey, the British prime minister of the 1830s, but the story that the blend was a gift to him from a Chinese mandarin is a legend, and which London tea house first sold it is still argued over.\n\nThe making is simple: a finished black tea is misted with bergamot oil or a bergamot flavouring and dried again. The quality lives in two choices, the base and the scent. A soft Chinese black such as Keemun carries bergamot gracefully; a bright Ceylon makes a brisker, lemonier cup; a tea-bag dust just provides tannin. Real cold-pressed oil tastes floral and slightly bitter, while cheap flavouring tastes of lemon sweets and lingers on the tongue.\n\nBrewed three to four minutes with just-boiled water it is bright, aromatic and brisk, and it takes a slice of lemon better than milk, although milk is common in Britain. The usual mistakes are over-steeping, which adds tannin but no more perfume, and buying a blend so heavily scented it tastes like a bathroom. A good Earl Grey should still taste of tea underneath.\n\nThere is no vintage and no season; buy a small tin, check whether the label says bergamot oil, and try two or three bases to find the one you like. Lady Grey, with orange and lemon peel, is a Twinings trademark rather than a general style; 'Earl Grey green' and 'Earl Grey rooibos' are the same idea on other bases.\n\nIt pairs with lemon desserts, shortbread and strong cheese, and if you like the bergamot note, a cup of plain Keemun alongside shows you what the base is doing.",
+  "description": "Earl Grey is the most famous flavoured tea in the world: black tea scented with the oil of bergamot, a bitter citrus whose oil comes mostly from Calabria in southern Italy. The name is usually tied to Charles Grey, the British prime minister of the 1830s, but that link is doubtful: the story that the blend was a gift to him from a Chinese mandarin is a legend, the first known advertisements for an 'Earl Grey' tea date from the 1880s, and which London tea house first sold it is still argued over.\n\nThe making is simple: a finished black tea is misted with bergamot oil or a bergamot flavouring and dried again. The quality lives in two choices, the base and the scent. A soft Chinese black such as Keemun carries bergamot gracefully; a bright Ceylon makes a brisker, lemonier cup; a tea-bag dust just provides tannin. Real cold-pressed oil tastes floral and slightly bitter, while cheap flavouring tastes of lemon sweets and lingers on the tongue.\n\nBrewed three to four minutes with just-boiled water it is bright, aromatic and brisk, and it takes a slice of lemon better than milk, although milk is common in Britain. The usual mistakes are over-steeping, which adds tannin but no more perfume, and buying a blend so heavily scented it tastes like a bathroom. A good Earl Grey should still taste of tea underneath.\n\nThere is no vintage and no season; buy a small tin, check whether the label says bergamot oil, and try two or three bases to find the one you like. Lady Grey, with orange and lemon peel, is a Twinings trademark rather than a general style; 'Earl Grey green' and 'Earl Grey rooibos' are the same idea on other bases.\n\nIt pairs with lemon desserts, shortbread and strong cheese, and if you like the bergamot note, a cup of plain Keemun alongside shows you what the base is doing.",
   "wikipedia_title": "Earl Grey tea",
   "wikipedia_scope": "exact",
-  "popularity": 5
+  "popularity": 5,
+  "name_zh": "格雷伯爵茶",
+  "name_ru": "Эрл Грей",
+  "history": "Tea scented with bergamot is older than the name. The earliest known mention dates to 1824, and in 1837 a merchant, Brocksop & Co., was charged with secretly adding bergamot to pass off poor tea as something better. Scenting with bergamot was then a way of imitating expensive Chinese teas, not a mark of luxury.\n\nThe name came later. Advertisements for 'Grey's Tea' or 'Grey's mixture' appear in the 1850s and 1860s, the earliest credited to a merchant called William Grey in 1852. The first known printed 'Earl Grey' is from Charlton & Co. of Jermyn Street in the 1880s. The title may have been added for polish, or may point to Henry, the 3rd Earl, who was alive at the time.\n\nThe usual story credits Charles, the 2nd Earl and prime minister in the 1830s, who is said to have received the recipe from a grateful Chinese mandarin in 1803. It is a legend: he never went to China, and bergamot scenting was unknown there. The Grey family tell a version with a mandarin blending it to suit the limey water at Howick Hall. Jacksons of Piccadilly say Lord Grey gave the recipe to their partner George Charlton in 1830, and Twinings has its own claim.\n\nThe name was never trademarked, so every tea company makes one, and many use flavourings rather than real bergamot oil. Twinings added Lady Grey, with extra lemon and orange peel, in the early 1990s; it went on sale in Norway in 1994 and in Britain in 1996.",
+  "liquor_hex": "#B2642A",
+  "leaf_hex": "#2E2823",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Earl_Grey_tea",
+    "https://ja.wikipedia.org/wiki/%E3%82%A2%E3%83%BC%E3%83%AB%E3%82%B0%E3%83%AC%E3%82%A4",
+    "https://ko.wikipedia.org/wiki/%EC%96%BC_%EA%B7%B8%EB%A0%88%EC%9D%B4%EC%B0%A8",
+    "https://ru.wikipedia.org/wiki/%D0%AD%D1%80%D0%BB_%D0%93%D1%80%D0%B5%D0%B9",
+    "https://zh.wikipedia.org/wiki/%E6%A0%BC%E9%9B%B7%E4%BC%AF%E7%88%B5%E8%8C%B6",
+    "https://en.wikipedia.org/wiki/Lady_Grey_%28tea%29"
+  ],
+  "confidence": "high",
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5f/EarlGrey_mit_Bergamotte_aromatisierter_Schwarzer_Tee.jpg/1280px-EarlGrey_mit_Bergamotte_aromatisierter_Schwarzer_Tee.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5f/EarlGrey_mit_Bergamotte_aromatisierter_Schwarzer_Tee.jpg/330px-EarlGrey_mit_Bergamotte_aromatisierter_Schwarzer_Tee.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source_page": "https://commons.wikimedia.org/wiki/File:EarlGrey_mit_Bergamotte_aromatisierter_Schwarzer_Tee.jpg",
+      "author": "soultea.de /André Helbig",
+      "license": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "kind": "dry_leaf",
+      "alt": "Pile of dark twisted Earl Grey leaves on white"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1d/Earl_Grey_Tea.jpg/1280px-Earl_Grey_Tea.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1d/Earl_Grey_Tea.jpg/330px-Earl_Grey_Tea.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Earl_Grey_Tea.jpg",
+      "author": "Sebastian Stabinger",
+      "license": "CC BY 3.0",
+      "license_url": "https://creativecommons.org/licenses/by/3.0",
+      "kind": "dry_leaf",
+      "alt": "Dark Earl Grey leaves dotted with yellow petals on white"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1d/Earl_Grey_FBOP-Wilson_Ceylon_Teas.jpg/1280px-Earl_Grey_FBOP-Wilson_Ceylon_Teas.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1d/Earl_Grey_FBOP-Wilson_Ceylon_Teas.jpg/330px-Earl_Grey_FBOP-Wilson_Ceylon_Teas.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Earl_Grey_FBOP-Wilson_Ceylon_Teas.jpg",
+      "author": "WJ Houtman",
+      "license": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "kind": "dry_leaf",
+      "alt": "Pile of brown broken-leaf Earl Grey from Sri Lanka on white"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/22/Cup_of_Earl_Gray.jpg/1280px-Cup_of_Earl_Gray.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/22/Cup_of_Earl_Gray.jpg/330px-Cup_of_Earl_Gray.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Cup_of_Earl_Gray.jpg",
+      "author": "David Wilmot (daramot) from Wimbledon, United Kingdom",
+      "license": "CC BY 2.0",
+      "license_url": "https://creativecommons.org/licenses/by/2.0",
+      "kind": "liquor",
+      "alt": "Blue-rimmed cup of deep copper Earl Grey tea"
+    }
+  ],
+  "i18n": {
+    "ru": {
+      "processing": "Готовый чёрный чай опрыскивают или перемешивают с маслом бергамота (или бергамотовым ароматизатором) и снова сушат; в некоторых купажах добавляют сушёную цедру бергамота или лепестки синего василька. Традиционно основой был китайский чёрный чай; большинство супермаркетных версий сейчас делают на цейлонском или кенийском листе.",
+      "harvest_season": "Это не сбор: купаж делают круглый год из запасов чая. Урожай бергамота в Калабрии отжимают примерно с ноября по март, так что купажи на натуральном масле делают из масла этого года.",
+      "appearance_dry": "Тёмный скрученный или ломаный чёрный лист с сильным цитрусово-цветочным запахом, иногда с вкраплениями синих лепестков василька.",
+      "appearance_liquor": "От яркого янтарного до насыщенно-медного, прозрачный.",
+      "appearance_wet": "Коричнево-медный лист, который всё ещё пахнет бергамотом.",
+      "taste_profile": "Парфюм бергамота — горький апельсин, цветы, лёгкая смолистость — поверх бодрого солодового чёрного чая; лучшие образцы сбалансированны и ярки, худшие отдают духами и мылом при жидком чае.",
+      "vintage_note": "Купаж, который должен быть на вкус одинаковым круглый год: без года сбора и со сроком годности два-три года, хотя аромат бергамота выветривается намного раньше, чем за год после вскрытия, поэтому берите маленькие банки. Бренды различаются основой (китайский чёрный мягче, цейлонский ярче, кенийский CTC в пакетиках резче), тем, написано ли на этикетке масло бергамота или просто «ароматизатор», и тем, добавлены ли васильки для красоты. Название не защищено, так что «Эрл Грей» может быть чем угодно, от ароматизированного Цимэня до ароматизированной пыли.",
+      "history": "Чай с ароматом бергамота старше самого названия. Самое раннее известное упоминание относится к 1824 году, а в 1837-м торговца Brocksop & Co. обвинили в том, что он тайно добавлял бергамот, выдавая плохой чай за что-то получше. Тогда ароматизация бергамотом была способом имитировать дорогие китайские чаи, а не признаком роскоши.\n\nНазвание пришло позже. Реклама Grey's Tea или Grey's mixture появляется в 1850-х и 1860-х, самую раннюю приписывают торговцу по имени Уильям Грей в 1852 году. Первое известное печатное «Earl Grey» — от Charlton & Co. с Джермин-стрит в 1880-х. Титул могли добавить для блеска, а может быть, он указывает на Генри, 3-го графа, который тогда был жив.\n\nОбычная история приписывает чай Чарльзу, 2-му графу и премьер-министру в 1830-х, который якобы получил рецепт от благодарного китайского мандарина в 1803 году. Это легенда: в Китае он никогда не был, а ароматизация бергамотом там была неизвестна. В семье Греев рассказывают версию о мандарине, который составил купаж под известковую воду в Хауик-холле. Jacksons of Piccadilly утверждают, что лорд Грей передал рецепт их партнёру Джорджу Чарльтону в 1830 году, а у Twinings есть собственные притязания.\n\nНазвание так и не стало товарным знаком, поэтому его делает каждая чайная компания, и многие используют ароматизаторы вместо настоящего масла бергамота. Twinings добавила Lady Grey с дополнительной цедрой лимона и апельсина в начале 1990-х; в продажу она поступила в Норвегии в 1994 году и в Британии в 1996-м.",
+      "description": "Эрл Грей — самый известный ароматизированный чай в мире: чёрный чай с ароматом масла бергамота, горького цитруса, масло которого в основном поступает из Калабрии на юге Италии. Название обычно связывают с Чарльзом Греем, британским премьер-министром 1830-х, но эта связь сомнительна: история о том, что купаж ему подарил китайский мандарин, — легенда, первая известная реклама чая Earl Grey датируется 1880-ми, а о том, какой лондонский чайный дом первым его продавал, спорят до сих пор.\n\nДелается он просто: готовый чёрный чай сбрызгивают маслом бергамота или ароматизатором и снова сушат. Качество держится на двух решениях: основа и аромат. Мягкий китайский чёрный вроде Цимэня изящно несёт бергамот; яркий цейлонский даёт более бодрую, лимонную чашку; пыль из пакетика просто поставляет танин. Настоящее масло холодного отжима на вкус цветочное и слегка горькое, а дешёвый ароматизатор отдаёт лимонными леденцами и застревает на языке.\n\nЗаваренный три-четыре минуты только что вскипевшей водой, он яркий, ароматный и бодрый, и ломтик лимона переносит лучше молока, хотя молоко в Британии обычное дело. Обычные ошибки — перезаваривание, которое добавляет танин, но не аромат, и покупка купажа с таким сильным ароматом, что на вкус это ванная комната. Хороший Эрл Грей должен под всем этим оставаться чаем.\n\nНи года, ни сезона здесь нет; купите маленькую банку, проверьте, указано ли на этикетке масло бергамота, и попробуйте две-три основы, чтобы найти свою. Lady Grey с апельсиновой и лимонной цедрой — товарный знак Twinings, а не общий стиль; Earl Grey green и Earl Grey rooibos — та же идея на других основах.\n\nОн хорошо сочетается с лимонными десертами, песочным печеньем и выдержанным сыром, а если вам нравится нота бергамота, чашка чистого Цимэня рядом покажет, что делает основа.",
+      "brewing_notes": "Только что вскипевшая вода, 3–4 минуты; дольше — чай становится танинным, а бергамота не прибавляется. Ломтик лимона — традиционная подача, молоко подойдёт, если основа достаточно крепкая. Второй, более долгий пролив пить можно, но он жидкий. Это основа для London Fog (Эрл Грей, вспененное горячее молоко, ваниль)."
+    },
+    "zh": {
+      "processing": "把成品红茶喷上或拌入佛手柑油(或佛手柑香精)后再次烘干;有些配方还加入干佛手柑皮或蓝色矢车菊花瓣。传统上以中国红茶为底,如今超市款多用锡兰或肯尼亚茶叶。",
+      "harvest_season": "没有采摘季:全年用库存茶拼配。卡拉布里亚的佛手柑约在11月至次年3月压榨,所以天然油款用的是当年的油。",
+      "appearance_dry": "深色扭曲或碎形的红茶叶,柑橘花香浓烈,有时点缀蓝色矢车菊花瓣。",
+      "appearance_liquor": "明亮的琥珀色至深铜色,清澈。",
+      "appearance_wet": "褐铜色叶底,仍带佛手柑香。",
+      "taste_profile": "苦橙、花香、略带树脂感的佛手柑芬芳,覆在爽利带麦芽感的红茶之上;好的平衡明亮,差的则一股香水和肥皂味,底下茶味单薄。",
+      "vintage_note": "这是一款全年味道不变的拼配茶,没有采摘年份,保质期两到三年,不过佛手柑香气开封后远不到一年就会散去,所以要买小罐。品牌之间的差别在于茶底(中国红茶较柔,锡兰较亮,袋泡的肯尼亚CTC较冲)、标签写的是佛手柑油还是只写“香精”,以及是否为了好看加矢车菊。这个名字不受保护,所以“格雷伯爵”既可能是窨香的祁门,也可能是调味茶末。",
+      "history": "用佛手柑增香的茶比这个名字更古老。已知最早的记载见于1824年,1837年,商人Brocksop & Co.被控暗中添加佛手柑,把劣茶冒充好茶。当时佛手柑增香是模仿昂贵中国茶的手段,而不是奢华的标志。\n\n名字来得更晚。“Grey's Tea”或“Grey's mixture”的广告出现在1850和1860年代,最早的一则出自1852年一位名叫William Grey的商人。已知最早印刷的“Earl Grey”出自1880年代杰明街的Charlton & Co.。这个头衔也许是为了添点体面,也可能指当时仍在世的第三代伯爵亨利。\n\n通常的故事把它归于第二代伯爵查尔斯,1830年代的首相,据说他在1803年从一位心怀感激的中国官员那里得到了配方。这只是传说:他从未到过中国,而佛手柑增香在中国也闻所未闻。格雷家族讲的版本是一位中国官员为配合豪伊克庄园(Howick Hall)的石灰质水质调配了这款茶。Jacksons of Piccadilly称格雷勋爵在1830年把配方交给了他们的合伙人George Charlton,川宁也有自己的说法。\n\n这个名字从未注册为商标,所以每家茶企都做一款,而且很多用香精而非真正的佛手柑油。川宁在1990年代初推出了Lady Grey,额外加入柠檬皮和橙皮;它于1994年在挪威上市,1996年在英国上市。",
+      "description": "格雷伯爵茶是世界上最著名的调味茶:用佛手柑油增香的红茶,佛手柑是一种苦味柑橘,其油主要来自意大利南部的卡拉布里亚。这个名字通常与1830年代的英国首相查尔斯·格雷联系在一起,但这种联系很可疑:配方是中国官员所赠的故事只是传说,已知最早的“Earl Grey”茶广告出现在1880年代,而究竟哪家伦敦茶行最先销售,至今仍有争论。\n\n做法很简单:把成品红茶喷上佛手柑油或香精,再次烘干。品质取决于两个选择:茶底和香气。祁门这样柔和的中国红茶能优雅地承载佛手柑;明亮的锡兰茶杯中更爽利、更有柠檬感;袋泡茶末只提供单宁。真正的冷榨油尝起来有花香且微苦,而廉价香精则是柠檬糖味,还会赖在舌头上。\n\n用刚烧开的水泡三到四分钟,它明亮、芳香而爽利;配一片柠檬比加奶更合适,不过在英国加奶很常见。常见的错误是泡得太久,只添单宁不添香;以及买了香味太重、喝起来像卫生间的产品。好的格雷伯爵,底下应该仍然喝得出茶味。\n\n它没有年份,也没有季节;买一小罐,看看标签上是否写佛手柑油,试两三种茶底,找到自己喜欢的。添了橙皮和柠檬皮的Lady Grey是川宁的商标,而不是通用风格;“Earl Grey green”和“Earl Grey rooibos”则是把同样的思路用在其他茶底上。\n\n它很配柠檬甜点、黄油酥饼和味重的奶酪;如果你喜欢佛手柑的气息,旁边放一杯纯祁门红茶,就能看出茶底的作用。",
+      "brewing_notes": "刚烧开的水,3–4分钟;再久只会让茶变涩,佛手柑并不会增加。配一片柠檬是传统喝法,茶底够结实的话加奶也可以。时间更长的第二泡能喝,但味薄。它也是伦敦雾(London Fog,格雷伯爵茶、蒸奶、香草)的基底。"
+    }
+  }
 }

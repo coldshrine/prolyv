@@ -3,24 +3,78 @@
   "name_en": "Jasmine Green Tea (Mo Li Hua Cha)",
   "name_native": "茉莉花茶",
   "name_romanized": "Mòlì Huāchá",
-  "aliases": ["Jasmine tea", "Mo Li Hua Cha", "Fuzhou Jasmine", "Hengxian Jasmine", "Jasmine Yin Hao", "Mo Li Xiang Pian", "Scented green tea"],
+  "aliases": [
+    "Jasmine tea",
+    "Mo Li Hua Cha",
+    "Fuzhou Jasmine",
+    "Hengxian Jasmine",
+    "Jasmine Yin Hao",
+    "Mo Li Xiang Pian",
+    "Scented green tea",
+    "茉莉香片",
+    "香片",
+    "Жасминовый чай",
+    "Чай с жасмином"
+  ],
   "category": "green",
   "origin_country": "China",
-  "origin_region": "Fujian · Fuzhou and Guangxi · Hengzhou (Hengxian)",
+  "origin_region": "Fujian · Fuzhou",
   "cultivar": "Base tea usually from Fuding Dabai, Fu'an Dabai or local greens; jasmine is Jasminum sambac",
-  "processing": "A spring-made baked green (the 'tea blank') is scented in summer: fresh jasmine buds picked at midday are layered with the tea overnight as they open, the spent flowers are sifted out, the tea is re-dried, and the cycle is repeated from three to nine times, sometimes with a final light flower layer left in.",
+  "processing": "A spring-made baked green (the 'tea blank') is scented in summer: fresh jasmine buds picked at midday are layered with the tea overnight as they open, the spent flowers are sifted out, the tea is re-dried, and the cycle is repeated several times, commonly three to seven, with some makers selling nine-round teas, sometimes with a final light flower layer left in.",
   "form": "loose",
   "harvest_season": "The green base is picked in spring (March–April); scenting happens in the jasmine season from June to September, with July–August flowers considered best. New-season jasmine tea appears in autumn.",
   "appearance_dry": "Slim, slightly twisted dark-green leaves with silvery tips, sometimes with a scattering of dried white jasmine buds.",
   "appearance_liquor": "Pale golden yellow, clear.",
   "appearance_wet": "Bud-and-leaf shoots in soft olive green, with a strong jasmine scent rising off them.",
   "taste_profile": "Fresh jasmine blossom over a sweet, smooth green base, with a cool floral finish and, in good lots, no perfume-like harshness.",
-  "taste_tags": ["floral", "sweet", "vegetal"],
-  "brewing": {"grams": 4, "water_ml": 150, "temp_c": 82, "steeps": 4, "seconds": [30, 30, 45, 70], "notes": "Gaiwan or glass at 80–85 °C. Hotter water brings out bitterness and makes the florals shrill; shorter, cooler steeps keep it fresh. It gives four steeps, the first two carrying most of the flower."},
+  "taste_tags": [
+    "floral",
+    "sweet",
+    "vegetal"
+  ],
+  "brewing": {
+    "grams": 4,
+    "water_ml": 150,
+    "temp_c": 82,
+    "steeps": 4,
+    "seconds": [
+      30,
+      30,
+      45,
+      70
+    ],
+    "notes": "Gaiwan or glass at 80–85 °C. Hotter water brings out bitterness and makes the florals shrill; shorter, cooler steeps keep it fresh. It gives four steeps, the first two carrying most of the flower."
+  },
   "caffeine_level": "medium",
   "vintage_note": "Sold by scenting count and base grade rather than by harvest date: the base is spring green tea and the scenting is done in summer, so the new season's jasmine tea arrives from late summer and autumn and is best within a year. More scenting rounds (five, seven, nine 'yin') and a downy bud-rich base mean a higher grade; the cheapest grades have flowers left in for show. Fuzhou is the traditional source, Hengzhou in Guangxi now makes most of China's jasmine tea.",
-  "description": "Jasmine green tea is the scented tea the world knows, and the one most Chinese restaurants pour by default, which has given it an undeserved reputation as cheap tea. At its best it is a serious craft: a good green tea, made in spring and stored, then scented over and over with fresh jasmine in high summer until the flower's aroma sits inside the leaf rather than on it. Fuzhou in Fujian is the historic home; Hengzhou in Guangxi now produces most of it.\n\nThe method is the interesting part. Jasmine buds are picked at midday while still closed, and they open in the evening; the tea is layered with the flowers in a warm room overnight, breathing in the scent as they bloom, then the spent flowers are sifted out and the tea is dried again. That is one round of 'yin', and a good tea goes through five to nine of them. The flowers you sometimes see in the finished tea are mostly decoration; the scent came from flowers that were removed.\n\nThe cup should taste of fresh blossom, not perfume: jasmine over a sweet, smooth green with a cool finish. Brew it at 80–85 °C, no hotter, in a gaiwan or glass, and it gives four steeps with the flower strongest in the first two. If it smells sickly or tastes bitter at the first sip, it was either flavoured rather than scented or brewed too hot.\n\nGrades go by the number of scentings and the quality of the base: a downy, bud-rich base from Fuding or Fu'an bushes with seven or nine rounds is top; a few rounds on a plain leaf is daily tea; broken leaf with lots of petals is the restaurant grade. New-season tea arrives in autumn and is at its best within a year. Look for whole silvery-tipped leaf and very few flowers, and ask how many rounds.\n\nFrom here the natural next steps are Jasmine Dragon Pearls, which are the same idea rolled into beads, and jasmine silver needle, which scents a bud tea.",
+  "description": "Jasmine green tea is the scented tea the world knows, and the one most Chinese restaurants pour by default, which has given it an undeserved reputation as cheap tea. At its best it is a serious craft: a good green tea, made in spring and stored, then scented over and over with fresh jasmine in high summer until the flower's aroma sits inside the leaf rather than on it. Fuzhou in Fujian is the historic home; Hengzhou in Guangxi now produces most of it.\n\nThe method is the interesting part. Jasmine buds are picked at midday while still closed, and they open in the evening; the tea is layered with the flowers in a warm room overnight, breathing in the scent as they bloom, then the spent flowers are sifted out and the tea is dried again. That is one round of 'yin', and top grades usually go through six or seven of them, with some makers selling nine. The flowers you sometimes see in the finished tea are mostly decoration; the scent came from flowers that were removed.\n\nThe cup should taste of fresh blossom, not perfume: jasmine over a sweet, smooth green with a cool finish. Brew it at 80–85 °C, no hotter, in a gaiwan or glass, and it gives four steeps with the flower strongest in the first two. If it smells sickly or tastes bitter at the first sip, it was either flavoured rather than scented or brewed too hot.\n\nGrades go by the number of scentings and the quality of the base: a downy, bud-rich base from Fuding or Fu'an bushes with six or more rounds is top; a few rounds on a plain leaf is daily tea; broken leaf with lots of petals is the restaurant grade. New-season tea arrives in autumn and is at its best within a year. Look for whole silvery-tipped leaf and very few flowers, and ask how many rounds.\n\nFrom here the natural next steps are Jasmine Dragon Pearls, which are the same idea rolled into beads, and jasmine silver needle, which scents a bud tea.",
   "wikipedia_title": "Jasmine tea",
   "wikipedia_scope": "exact",
-  "popularity": 5
+  "popularity": 5,
+  "name_zh": "茉莉花茶",
+  "name_ru": "Мо Ли Хуа Ча",
+  "history": "When jasmine scenting began is not settled, and the accounts disagree by more than a thousand years. The plant came to China from the west or south, at a date given anywhere from the Han to the fifth century; scented tea is variously placed in the fifth century, the Song or the Ming. Scenting loose leaf makes most sense once loose tea had replaced cakes in the Ming, and jasmine tea only became widespread in the Qing, when tea was being exported to the West in quantity.\n\nFuzhou is generally counted as its home. Suzhou once had a high reputation for jasmine tea, reaching back to the Southern Song by local tradition, but its fussy, costly work could not compete with the cheaper, large-scale scenting of Hengxian in Guangxi and it has nearly vanished from the market. In the north the tea became an everyday drink: Beijing houses such as Zhang Yi Yuan, founded in 1900, and Wu Yu Tai built their trade on it, and it was popular there partly because ordinary people could not afford the famous teas.\n\nThe Fuzhou tradition has since picked up formal recognition: a place on the FAO list of globally important agricultural heritage in 2014, national intangible heritage for its scenting craft, and inclusion in the UNESCO listing of Chinese tea-making in 2022. The Zhang Yi Yuan and Wu Yu Tai methods are on the national list as well. The base is usually green tea, as here, but white, oolong and black bases are also scented.",
+  "liquor_hex": "#E3CF85",
+  "leaf_hex": "#5C6642",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Jasmine_tea",
+    "https://zh.wikipedia.org/wiki/%E8%8C%89%E8%8E%89%E8%8A%B1%E8%8C%B6",
+    "https://ja.wikipedia.org/wiki/%E3%82%B8%E3%83%A3%E3%82%B9%E3%83%9F%E3%83%B3%E8%8C%B6",
+    "https://ru.wikipedia.org/wiki/%D0%A7%D0%B0%D0%B9_%D1%81_%D0%B6%D0%B0%D1%81%D0%BC%D0%B8%D0%BD%D0%BE%D0%BC",
+    "https://zh.wikipedia.org/wiki/%E5%90%B3%E8%A3%95%E6%B3%B0%E8%8C%B6%E8%8E%8A",
+    "https://zh.wikipedia.org/wiki/%E5%BC%B5%E4%B8%80%E5%85%83"
+  ],
+  "confidence": "high",
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/96/China_Royal_Jasmine_Curls_tea.jpg/1280px-China_Royal_Jasmine_Curls_tea.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/96/China_Royal_Jasmine_Curls_tea.jpg/330px-China_Royal_Jasmine_Curls_tea.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source_page": "https://commons.wikimedia.org/wiki/File:China_Royal_Jasmine_Curls_tea.jpg",
+      "author": "Selena N. B. H. from Fayetteville, USA",
+      "license": "CC BY 2.0",
+      "license_url": "https://creativecommons.org/licenses/by/2.0",
+      "kind": "dry_leaf",
+      "alt": "Scoop of hand-rolled jasmine-scented green tea curls with silvery tips"
+    }
+  ]
 }

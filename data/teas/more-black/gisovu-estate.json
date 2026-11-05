@@ -1,0 +1,56 @@
+{
+  "slug": "gisovu-estate",
+  "name_en": "Gisovu Tea Factory",
+  "name_native": null,
+  "name_romanized": null,
+  "name_zh": "吉索武茶厂红茶",
+  "name_ru": "Гисову",
+  "aliases": [
+    "Gisovu",
+    "Gisovu Estate",
+    "Gisovu Silverback"
+  ],
+  "category": "black",
+  "origin_country": "Rwanda",
+  "origin_region": "Western Province · Karongi",
+  "cultivar": null,
+  "processing": "Black tea; CTC, the most common style in Rwanda, is sold from this estate, and an orthodox-style leaf tea is sold under the Silverback name.",
+  "form": "loose",
+  "harvest_season": "Prized pickings are not documented for this estate.",
+  "appearance_dry": "Small dark granules in the CTC grades; twisted leaf in the orthodox lots.",
+  "appearance_liquor": "Bright reddish copper, as is usual for high-grown Rwandan black tea.",
+  "appearance_wet": "Coppery brown, fine in the CTC grades and larger in leaf lots.",
+  "taste_profile": "Sellers describe the leaf tea as bright and crisp, with green apple, caramel, currant and rose over a peppery warmth and a slightly tart finish.",
+  "taste_tags": [
+    "brisk",
+    "fruity",
+    "floral",
+    "tart"
+  ],
+  "brewing": {
+    "grams": 3,
+    "water_ml": 250,
+    "temp_c": 95,
+    "steeps": 1,
+    "seconds": [
+      180
+    ],
+    "notes": "A general starting point. CTC grades need far less time, around two minutes, and take milk well."
+  },
+  "caffeine_level": "medium",
+  "vintage_note": "Mostly sold in bulk for blending by the crop, with no vintage; small importers offer named lots. As with other East African black teas, freshness matters more than age, so buy recent lots and drink them within a year or two.",
+  "description": "Gisovu is a tea estate and factory in Rwanda's Karongi area, at the edge of Nyungwe National Park, where the tea fields run up against old forest. It is high-altitude country, and that is its main selling point.\n\nMost Rwandan tea is CTC, and Gisovu sells that style, but orthodox-style leaf is sold from here too. How the output divides between the two is not clearly documented.\n\nThe leaf tea is described in bright terms: green apple, caramel, currant and rose, with a crisp tart end. Keep CTC steeps short and take it with milk if you like; give the leaf tea longer and drink it plain.\n\nYou will mostly meet Gisovu in blends. A named lot is worth seeking out, since few Rwandan gardens reach shoppers under their own name.",
+  "history": "Little is documented about the factory's founding or ownership. Rwanda's tea industry as a whole dates from the colonial period, and the national export board now describes it as made up of 18 factories, with black CTC tea the main product.\n\nThe estate receives visitors for tours and tastings.",
+  "liquor_hex": "#AE4E1C",
+  "leaf_hex": "#2F2118",
+  "wikipedia_title": null,
+  "wikipedia_scope": "none",
+  "popularity": 2,
+  "images": [],
+  "sources": [
+    "https://www.wikidata.org/wiki/Q124336361",
+    "https://imperialteas.co.uk/rwanda-gisovu-silverback-black-tea-182v",
+    "https://www.naeb.gov.rw/rwanda-tea/for-buyers"
+  ],
+  "confidence": "low"
+}

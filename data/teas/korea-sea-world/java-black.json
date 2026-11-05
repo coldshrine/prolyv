@@ -3,10 +3,18 @@
   "name_en": "Java Black Tea",
   "name_native": "Teh hitam Jawa",
   "name_romanized": "Teh hitam Jawa",
-  "aliases": ["Java OP", "Java tea", "West Java black tea", "Malabar tea", "Indonesian black tea", "Java BOP", "Pangalengan tea"],
+  "aliases": [
+    "Java OP",
+    "Java tea",
+    "West Java black tea",
+    "Malabar tea",
+    "Indonesian black tea",
+    "Java BOP",
+    "Pangalengan tea"
+  ],
   "category": "black",
   "origin_country": "Indonesia",
-  "origin_region": "West Java · Bandung highlands (Pangalengan, Ciwidey, Malabar) and Bogor (Puncak)",
+  "origin_region": "West Java · Bandung",
   "cultivar": "Assamica-type clones (TRI and Indonesian GMB series) planted on the old Dutch estates",
   "processing": "Orthodox black tea on the estates that sell whole-leaf grades: withered, rolled, fully oxidised, fired and sorted into OP, BOP and fannings; a growing share is CTC for tea bags, and the big state and private estates run both lines.",
   "form": "loose",
@@ -15,13 +23,39 @@
   "appearance_liquor": "Bright reddish amber, clear, lighter than Assam.",
   "appearance_wet": "Even copper-brown leaves, medium size.",
   "taste_profile": "Light, bright and clean: a mild maltiness, a fresh, almost fruity brightness, modest tannin and a smooth finish; closer to a light Ceylon than to Assam, which is why blenders have always liked it.",
-  "taste_tags": ["brisk", "malty", "fruity", "sweet"],
-  "brewing": {"grams": 3, "water_ml": 200, "temp_c": 95, "steeps": 2, "seconds": [180, 240], "notes": "A Western-style tea: three minutes in a pot, good with or without milk, and a clean, bright iced tea. Whole-leaf OP lots can be steeped shorter for a lighter cup."},
+  "taste_tags": [
+    "brisk",
+    "malty",
+    "fruity",
+    "sweet"
+  ],
+  "brewing": {
+    "grams": 3,
+    "water_ml": 200,
+    "temp_c": 95,
+    "steeps": 2,
+    "seconds": [
+      180,
+      240
+    ],
+    "notes": "A Western-style tea: three minutes in a pot, good with or without milk, and a clean, bright iced tea. Whole-leaf OP lots can be steeped shorter for a lighter cup."
+  },
   "caffeine_level": "medium",
   "vintage_note": "Sold by grade (OP, BOP, BOPF, fannings) and estate rather than by vintage, in bulk to blenders and in boxes to the Indonesian market all year; a few estates such as Malabar sell single-estate orthodox tea under their own name. Buy the current year's dry-season production where the seller knows it; it keeps well for two to three years.",
-  "description": "Java was one of the great tea islands of the colonial era. The Dutch planted tea in the West Java highlands in the nineteenth century, switched to Assam-type bushes in the 1870s, and by the early twentieth century the estates around Bandung and Bogor were shipping 'Java' tea to Amsterdam and London by the shipload. The industry shrank after independence, but the plantations are still there, run by the state company PTPN and by private estates, and the tea is still made the orthodox way.\n\nThe classic estates are on the high plateau south of Bandung, at Pangalengan and Ciwidey, with Malabar, founded by the Dutch planter K.A.R. Bosscha in the 1890s, the best-known name; the Puncak pass estates near Bogor are the ones tourists see. Altitudes of 1,000 to 1,800 metres and a tropical climate give year-round plucking, with the dry months from June to September producing the cleanest leaf.\n\nJava tea is a light black tea: bright, mildly malty, a little fruity, with modest tannin and a smooth finish, more in the style of a mid-grown Ceylon than an Assam. That is why it has always been a blender's tea, used to add brightness and body to breakfast blends without dominating them. On its own, in a pot, it is an easy, clean morning cup that takes milk gracefully and makes a good iced tea.\n\nMost of it is sold by grade and estate in bulk, and in Indonesia itself black tea is a minority taste beside jasmine-scented green. Single-estate Java OP from Malabar or another named garden is the thing to look for if you want to taste it on its own; a 'Java' line in a Western blender's catalogue is usually a blend of several estates. Dry-season lots are the better ones.\n\nFor contrast, try it against a Sumatra black from the north of the archipelago: the Sumatran tea is heavier and darker, the Javanese lighter and brighter.",
+  "description": "Java was one of the great tea islands of the colonial era. The Dutch planted tea in the West Java highlands in the nineteenth century, later switched to Assam-type bushes, and in time the estates around Bandung and Bogor were shipping 'Java' tea to Amsterdam and London by the shipload. The industry shrank after independence, but the plantations are still there, run by the state company PTPN and by private estates, and the tea is still made the orthodox way.\n\nThe classic estates are on the high plateau south of Bandung, at Pangalengan and Ciwidey, with Malabar, long associated with the planter K.A.R. Bosscha, the best-known name; the Puncak pass estates near Bogor are the ones tourists see. Altitudes of 1,000 to 1,800 metres and a tropical climate give year-round plucking, with the dry months from June to September producing the cleanest leaf.\n\nJava tea is a light black tea: bright, mildly malty, a little fruity, with modest tannin and a smooth finish, more in the style of a mid-grown Ceylon than an Assam. That is why it has always been a blender's tea, used to add brightness and body to breakfast blends without dominating them. On its own, in a pot, it is an easy, clean morning cup that takes milk gracefully and makes a good iced tea.\n\nMost of it is sold by grade and estate in bulk, and in Indonesia itself black tea is a minority taste beside jasmine-scented green. Single-estate Java OP from Malabar or another named garden is the thing to look for if you want to taste it on its own; a 'Java' line in a Western blender's catalogue is usually a blend of several estates. Dry-season lots are the better ones.\n\nFor contrast, try it against a Sumatra black from the north of the archipelago: the Sumatran tea is heavier and darker, the Javanese lighter and brighter.",
   "wikipedia_title": "Tea production in Indonesia",
   "wikipedia_scope": "umbrella",
   "popularity": 2,
-  "sources_note": "Dates (Assam seed in the 1870s, Malabar founded by Bosscha in the 1890s) are from memory and approximate. Clone series names (GMB, TRI) are given generally; the dominant clones vary by estate."
+  "sources_note": "Dates (Assam seed in the 1870s, Malabar founded by Bosscha in the 1890s) are from memory and approximate. Clone series names (GMB, TRI) are given generally; the dominant clones vary by estate.",
+  "name_zh": "爪哇红茶",
+  "name_ru": "Яванский чёрный чай",
+  "history": "Black tea from the West Java highlands is a product of the Dutch colonial estates, which later moved to Assam-type bushes. The plantations around Bandung and Bogor still operate, under state and private owners, and sell mainly in bulk to blenders.\n\nDates for individual estates vary in the telling and are not given here. Malabar, near Pangalengan, is the name most often met on single-estate packs.",
+  "liquor_hex": "#B0562A",
+  "leaf_hex": "#33261C",
+  "sources": [
+    "https://www.o-cha.net/english/association/information/documents/20211019-CurrentstatusofIndonesianteaindustry.pdf",
+    "https://svtea.com/products/java-malabar-plantation-black"
+  ],
+  "confidence": "low",
+  "images": []
 }

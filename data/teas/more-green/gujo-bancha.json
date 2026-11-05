@@ -1,0 +1,49 @@
+{
+  "slug": "gujo-bancha",
+  "name_en": "Gujo Bancha",
+  "name_native": "郡上番茶",
+  "name_romanized": "Gujō Bancha",
+  "name_zh": "郡上番茶",
+  "name_ru": "Гудзё бантя",
+  "aliases": [],
+  "category": "green",
+  "origin_country": "Japan",
+  "origin_region": "Gifu · Gujo · Shirotori",
+  "cultivar": null,
+  "processing": "The local method is poorly documented. Bancha in general is made from larger, later-picked leaf rather than young spring buds.",
+  "form": "loose",
+  "harvest_season": "Not documented for this tea; bancha in general comes from later, larger leaf.",
+  "appearance_dry": "Larger, coarser leaf than sencha, as with bancha generally.",
+  "appearance_liquor": "Light yellow to pale amber, as is usual for a plain bancha.",
+  "appearance_wet": "Big open leaf pieces, typical of bancha.",
+  "taste_profile": "No reliable tasting description exists for this tea; bancha as a class is light, plain and low in astringency.",
+  "taste_tags": [
+    "vegetal",
+    "woody"
+  ],
+  "brewing": {
+    "grams": 5,
+    "water_ml": 300,
+    "temp_c": 90,
+    "steeps": 2,
+    "seconds": [
+      60,
+      90
+    ],
+    "notes": "General bancha advice: use hotter water and a bigger pot than for sencha. Adjust once you know how your lot behaves."
+  },
+  "caffeine_level": "low",
+  "vintage_note": "Little is documented about how this tea is sold. Bancha is usually an everyday tea bought from the recent harvest without any vintage claim, and that is the sensible assumption here.",
+  "description": "Gujo bancha is a local everyday tea from the Gujo area of Gifu, listed among the teas of the Shirotori district, formerly Shirotori town. Beyond the name and the place, very little is written down about it.\n\nWhat can be said comes from its class: bancha means coarser, later leaf and a plain, unfussy cup. Whether this one is steamed, pan-fired or otherwise treated in a local way is not something to assume, as Japanese regional banchas differ widely.\n\nFor brewing, treat it as a general bancha: hot water, a roomy pot, no great ceremony. Taste first and adjust.\n\nIt counts as one of Gifu's minor local names alongside Ena and Gero teas, under the larger Mino tea umbrella. If you meet it, ask the seller how it was made; that answer would tell you more than the label.",
+  "history": "Little is documented. The tea is recorded as a named local product of Gujo city's former Shirotori town, among Gifu's smaller tea districts, but its beginnings and makers are not on record in any accessible account.",
+  "liquor_hex": "#C9A85A",
+  "leaf_hex": "#5E5A34",
+  "wikipedia_title": "日本茶",
+  "wikipedia_scope": "umbrella",
+  "popularity": 2,
+  "sources": [
+    "https://ja.wikipedia.org/wiki/%E6%97%A5%E6%9C%AC%E8%8C%B6"
+  ],
+  "confidence": "low",
+  "images": []
+}

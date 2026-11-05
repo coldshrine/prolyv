@@ -1,0 +1,79 @@
+{
+  "slug": "lady-grey",
+  "name_en": "Lady Grey",
+  "name_native": null,
+  "name_romanized": null,
+  "name_zh": "格雷仕女茶",
+  "name_ru": "Леди Грей",
+  "aliases": [
+    "仕女红茶",
+    "仕女伯爵茶"
+  ],
+  "category": "black",
+  "origin_country": "United Kingdom",
+  "origin_region": "England",
+  "cultivar": null,
+  "processing": "A flavoured black tea blend from Twinings: citrus flavouring with added lemon and orange peel, in some versions with cornflower petals.",
+  "form": "loose",
+  "harvest_season": "Not tied to a harvest: it is a branded blend, made to taste the same year-round.",
+  "appearance_dry": "Dark black leaf with flecks of citrus peel, and in some versions blue cornflower petals.",
+  "appearance_liquor": "Clear, bright amber-red, typical of a medium black tea.",
+  "appearance_wet": "Dark brown leaf with softened pieces of peel.",
+  "taste_profile": "A gentler citrus cup than Earl Grey, with orange and lemon peel to the fore; it can turn bitter and astringent when steeped too long.",
+  "taste_tags": [
+    "citrus",
+    "floral",
+    "sweet",
+    "brisk"
+  ],
+  "brewing": {
+    "grams": 2.5,
+    "water_ml": 250,
+    "temp_c": 95,
+    "steeps": 1,
+    "seconds": [
+      180
+    ],
+    "notes": "Steep in hot water rather than boiling it on the stove, and watch the time: over-steeping brings out bitterness."
+  },
+  "caffeine_level": "medium",
+  "vintage_note": "Sold year-round as a consistent branded blend with a best-before date, not by harvest year or season. As with other flavoured teas, citrus aroma fades, so fresher is better. Since the name is a Twinings trademark, similar teas from others appear under names such as Madame Grey or Empress Grey.",
+  "description": "Lady Grey is the softer sibling of Earl Grey: a black tea with citrus character and added lemon and orange peel. It is a modern commercial creation and a Twinings trademark, not a traditional style that anyone can make under that name.\n\nThe difference from Earl Grey lies in the peel. Twinings' blend adds lemon and orange peel, and some versions include cornflower petals. Published ingredient lists differ by version and market: some name bergamot, and at least one lists citrus flavouring instead, so check your own box.\n\nIn the cup it is mild, citrusy and easy, which was the point. It is also easy to overdo: left too long it goes bitter. Three minutes in hot water is a sensible start, and it is pleasant without milk.\n\nWhen buying, the Twinings box is the reference. Other brands sell close relatives under names such as Madame Grey or Empress Grey, sometimes with lavender or bitter orange in the mix, so read the label to see what you are getting.",
+  "history": "Twinings created Lady Grey in the early 1990s for Northern European markets, where some drinkers apparently found Earl Grey too strong. The name honours Mary Elizabeth Grey, wife of Charles Grey, the 2nd Earl Grey, though she has no documented part in the tea itself.\n\nIt first went on sale in Norway in 1994, reached Britain in 1996 and began full distribution in Japan in 2001.",
+  "liquor_hex": "#BC7433",
+  "leaf_hex": "#3D2C20",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Lady_Grey_%28tea%29",
+    "https://zh.wikipedia.org/wiki/%E6%A0%BC%E9%9B%B7%E4%BB%95%E5%A5%B3%E8%8C%B6",
+    "https://ja.wikipedia.org/wiki/%E3%83%AC%E3%83%87%E3%82%A3%E3%82%B0%E3%83%AC%E3%82%A4",
+    "https://ko.wikipedia.org/wiki/%EB%A0%88%EC%9D%B4%EB%94%94_%EA%B7%B8%EB%A0%88%EC%9D%B4",
+    "https://ru.wikipedia.org/wiki/%D0%AD%D1%80%D0%BB_%D0%93%D1%80%D0%B5%D0%B9",
+    "https://www.wikidata.org/wiki/Q1156522"
+  ],
+  "confidence": "high",
+  "wikipedia_title": "Lady Grey (tea)",
+  "wikipedia_scope": "exact",
+  "popularity": 4,
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7a/TwiningsLadyGrey_low.jpg/1280px-TwiningsLadyGrey_low.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7a/TwiningsLadyGrey_low.jpg/330px-TwiningsLadyGrey_low.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source_page": "https://commons.wikimedia.org/wiki/File:TwiningsLadyGrey_low.jpg",
+      "author": "Sjhan81",
+      "license": "CC BY-SA 3.0",
+      "license_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+      "kind": "dry_leaf",
+      "alt": "Dry Lady Grey blend of black tea leaf with citrus peel and blue cornflower petals on white"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/c/c9/TwiningsLadyGrey.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c9/TwiningsLadyGrey.jpg/330px-TwiningsLadyGrey.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source_page": "https://commons.wikimedia.org/wiki/File:TwiningsLadyGrey.jpg",
+      "author": "Jan Dvorak",
+      "license": "CC BY-SA 3.0",
+      "license_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+      "kind": "dry_leaf",
+      "alt": "Close-up of dry Lady Grey black leaf with pieces of citrus peel and blue cornflower petals"
+    }
+  ]
+}

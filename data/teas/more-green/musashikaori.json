@@ -1,0 +1,56 @@
+{
+  "slug": "musashikaori",
+  "name_en": "Musashikaori",
+  "name_native": "むさしかおり",
+  "name_romanized": "Musashikaori",
+  "name_zh": "武藏香",
+  "name_ru": "Мусасикаори",
+  "aliases": [
+    "Musashi Kaori"
+  ],
+  "category": "green",
+  "origin_country": "Japan",
+  "origin_region": "Saitama",
+  "cultivar": "Musashikaori",
+  "processing": "Steamed, rolled and dried as sencha; Saitama guidance finds that steaming for about 60 seconds gives a bright, clear liquor and the best overall quality.",
+  "form": "loose",
+  "harvest_season": "Spring, mid-to-late season, about two to three days after Yabukita in Saitama; later still in a Kumamoto trial.",
+  "appearance_dry": "As with other sencha, dark-green needles.",
+  "appearance_liquor": "Bright and clear, a light yellow-green when steamed for about a minute.",
+  "appearance_wet": "Soft green leaf pieces, as is usual for sencha.",
+  "taste_profile": "Sold as a rich-tasting tea with a sweet aroma that one seller links to oolong cultivars in its background; little independent tasting has been published.",
+  "taste_tags": [
+    "sweet",
+    "floral",
+    "vegetal"
+  ],
+  "brewing": {
+    "grams": 5,
+    "water_ml": 150,
+    "temp_c": 70,
+    "steeps": 3,
+    "seconds": [
+      60,
+      15,
+      45
+    ],
+    "notes": "Standard sencha settings. Keep the water cool at first so the sweet aroma comes through without bitterness."
+  },
+  "caffeine_level": "medium",
+  "vintage_note": "As is usual for Japanese green tea, it is sold as the current year's spring harvest and best drunk within about a year. It is a Saitama cultivar, so expect it mainly from Sayama-area makers, usually in small lots.",
+  "description": "Musashikaori is a sencha cultivar bred in Saitama, the prefecture behind Sayama tea. Its parents are Yabukita and a selection called 27F1-73, and its appeal is a sweet fragrance alongside a fuller taste.\n\nIt is processed as ordinary sencha, but one detail matters: Saitama's guidance is to steam it for around 60 seconds, which gives a brighter, clearer cup and better quality overall.\n\nIts sellers describe a rich flavour and sweet aroma. A Kumamoto trial was less flattering, rating the crude tea equal to Yabukita in looks but equal or slightly below in the cup, so where it is grown may matter.\n\nLook for it from Saitama makers who name the cultivar, and try it next to a Sayamakaori from the same region.",
+  "history": "The Saitama prefectural tea research station made the cross in 1967, and selection from those seedlings took three decades. It was registered in 1997 as Norin 46. Saitama lists it among its recommended tea cultivars, while a Kumamoto trial recorded a harvest about eight days after Yabukita, with yields on a par.",
+  "liquor_hex": "#D4D184",
+  "leaf_hex": "#46622F",
+  "sources": [
+    "https://www.jstage.jst.go.jp/article/cha1953/2000/89/2000_89_45/_article/-char/ja/",
+    "https://www.pref.saitama.lg.jp/a0904/shoureihinshu.html",
+    "https://www.pref.kumamoto.jp/uploaded/attachment/4970.pdf",
+    "https://www.pref.saitama.lg.jp/documents/21113/381837.pdf"
+  ],
+  "confidence": "medium",
+  "wikipedia_title": null,
+  "wikipedia_scope": "none",
+  "popularity": 2,
+  "images": []
+}

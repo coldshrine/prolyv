@@ -3,7 +3,12 @@
   "name_en": "Yongde Sheng Pu-erh",
   "name_native": "永德生普洱",
   "name_romanized": "Yǒngdé Shēng Pǔ'ěr",
-  "aliases": ["Yong De sheng", "Yongde Daxueshan", "Mangfei", "永德大雪山"],
+  "aliases": [
+    "Yong De sheng",
+    "Yongde Daxueshan",
+    "Mangfei",
+    "永德大雪山"
+  ],
   "category": "sheng",
   "origin_country": "China",
   "origin_region": "Yunnan · Lincang · Yongde",
@@ -15,12 +20,45 @@
   "appearance_liquor": "Pale gold, clear and bright.",
   "appearance_wet": "Even, soft, yellow-green leaves of medium thickness.",
   "taste_profile": "Gentle and sweet: floral and light fruit aromas, mild bitterness, soft astringency, a medium body and a clean honeyed finish; an easy, friendly Lincang tea.",
-  "taste_tags": ["sweet", "floral", "fruity", "honey"],
-  "brewing": {"grams": 7, "water_ml": 110, "temp_c": 95, "steeps": 10, "seconds": [10, 8, 12, 15, 20, 30, 45, 60, 90, 150], "notes": "Rinse once. It is mild, so a full 7–8 g and normal steeps are fine; it does not punish small mistakes."},
+  "taste_tags": [
+    "sweet",
+    "floral",
+    "fruity",
+    "honey"
+  ],
+  "brewing": {
+    "grams": 7,
+    "water_ml": 110,
+    "temp_c": 95,
+    "steeps": 10,
+    "seconds": [
+      10,
+      8,
+      12,
+      15,
+      20,
+      30,
+      45,
+      60,
+      90,
+      150
+    ],
+    "notes": "Rinse once. It is mild, so a full 7–8 g and normal steeps are fine; it does not punish small mistakes."
+  },
   "caffeine_level": "high",
   "vintage_note": "Sold by spring harvest year with the area named on the better cakes (Mangfei, Daxueshan, Wumulong), often as loose maocha or inexpensive 200–357 g cakes, and frequently blended without being named at all. Young (1–3 years) it is soft and fragrant, mid-aged (5–12 years) it turns honeyed; there is no real collector market for aged Yongde, so what you find is 2008–2025 tea, dry-stored. Because it is cheap and plentiful, Yongde leaf is also one of the usual bases for 'Lincang gushu' blends and for Lincang ripe tea.",
   "description": "Yongde is a county in western Lincang whose tea is better known to blenders than to drinkers: it grows a lot of good, affordable large-leaf material that ends up in cakes labelled Lincang or in ripe tea. Under its own name, Yongde is a soft, sweet, floral sheng, and the areas worth knowing are Mangfei, with its old village gardens, and the Yongde Daxueshan nature reserve with its wild tea stands.\n\nThe gardens sit high, mostly between about 1,500 and 2,000 m, and the leaf is tender rather than thick. Processing is standard sheng, pan-fired, lightly rolled, sun-dried and pressed, and because the leaf is gentle it rarely carries the smokiness or harshness that heavier material can pick up.\n\nIn the cup Yongde is friendly: a flowery, lightly fruity aroma, low bitterness, a soft touch of astringency and a sweet honey finish that is clean rather than deep. It lacks the weight of Mengku or the sugar of Bingdao, so it is judged on its balance and aroma. It brews easily and tolerates a heavier hand; it is the sheng to give someone who finds the famous mountains too intense.\n\nSold by spring year, usually at modest prices, and often as maocha or 200 g cakes from small producers. 'Yongde Daxueshan wild tea' is a popular label and is sometimes genuine forest tea and sometimes just ordinary mountain leaf; the wild material tends to be darker, longer and more sharply aromatic. Because so much of the county's crop is sold anonymously, a named Yongde cake from a vendor who visits the gardens is usually good value.\n\nTry it as an everyday young sheng, and keep the Mengku and Bangdong money for special occasions.",
   "wikipedia_title": "Pu'er tea",
   "wikipedia_scope": "umbrella",
-  "popularity": 2
+  "popularity": 2,
+  "name_zh": "永德生普洱",
+  "name_ru": "Юн Дэ Шэн Пуэр",
+  "history": "Yongde is a county in Lincang, and much of its tea has reached drinkers without its name, inside Lincang blends and ripe tea. Sold on its own, it is usually labelled by a local area such as Mangfei or Daxueshan, the mountain reserve known for wild tea.\n\nLittle is documented about the tea's own history. Yongde as a label on a cake seems to be a fairly recent product of the interest in single-origin pu-erh.",
+  "liquor_hex": "#E1CB78",
+  "leaf_hex": "#5A5E44",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Pu%27er_tea"
+  ],
+  "confidence": "low",
+  "images": []
 }

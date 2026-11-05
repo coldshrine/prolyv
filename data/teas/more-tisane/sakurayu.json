@@ -1,0 +1,56 @@
+{
+  "slug": "sakurayu",
+  "name_en": "Sakurayu (Salted Cherry Blossom Tea)",
+  "name_native": "桜湯",
+  "name_romanized": "Sakurayu",
+  "name_zh": "樱花茶",
+  "name_ru": "Сакураю (сакура-тя)",
+  "aliases": [
+    "Sakura-cha",
+    "桜茶",
+    "櫻花茶",
+    "桜漬け",
+    "Cherry blossom tea"
+  ],
+  "category": "tisane",
+  "origin_country": "Japan",
+  "origin_region": "Kanagawa · Hadano",
+  "cultivar": "Kanzan (Sekiyama) double cherry",
+  "processing": "Cherry flowers, calyx removed, are pickled in plum vinegar and salt and then dried or packed in salt. A few blossoms are dropped into a cup of hot water.",
+  "form": "other",
+  "harvest_season": "Mid to late spring; in Hadano the half-open Kanzan blossoms are processed from about mid-April.",
+  "appearance_dry": "Curled, salt-crusted pink blossoms with the stem showing.",
+  "appearance_liquor": "Nearly colourless to the faintest pink, with blossoms floating open on the surface.",
+  "appearance_wet": "Full double flowers in soft pink that unfurl and float.",
+  "taste_profile": "Lightly salty and faintly sweet, with the scent of coumarin, more a fragrance than a flavour.",
+  "taste_tags": [
+    "floral",
+    "sweet",
+    "herbal"
+  ],
+  "brewing": {
+    "grams": 2,
+    "water_ml": 150,
+    "temp_c": 90,
+    "steeps": 1,
+    "seconds": [
+      120
+    ],
+    "notes": "Put one or two blossoms in a cup and add hot water. Shake off some salt first, or rinse them if you prefer less salty, and let the flower open before you serve it."
+  },
+  "caffeine_level": "none",
+  "vintage_note": "Made each spring from that year's blossoms and sold in small packs or jars as salted flowers, with no vintage on the market. Salt keeps them well, though the colour and scent are best within the year or so after spring.",
+  "description": "Sakurayu is less a drink than a small ceremony: a salted cherry blossom in hot water, opening as you watch. It is what you may be handed at a Japanese wedding or betrothal meeting in place of green tea.\n\nThe blossoms are pickled in plum vinegar and salt, usually double-flowered late cherries picked before they fully open. Most of Japan's supply is credited to the Chimura area of Hadano in Kanagawa, which has made them since the end of the Edo period.\n\nThe cup is pale and delicate: some salt, a whisper of sweetness, and that distinctive coumarin scent. Too many flowers just make it brine, so one or two per cup is plenty.\n\nBuy salted blossoms from a spring batch and look for intact flowers with good pink colour. The same blossoms go into sakura anpan and rice, so a jar is never wasted.",
+  "history": "The reason for its ceremonial role is a turn of phrase. Ocha o nigosu, to cloud the tea, means to be evasive, so at occasions that settle a life, such as marriage meetings and weddings, tea is avoided and sakurayu served instead.\n\nThe hub of production is Chimura in Hadano, which began making salted blossoms at the end of the Edo period and now accounts for about 80 percent of the national output. How much older the drink itself is remains unclear.",
+  "liquor_hex": "#F3E3DC",
+  "leaf_hex": "#D98FA0",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Sakurayu",
+    "https://ja.wikipedia.org/wiki/%E6%A1%9C%E6%B9%AF"
+  ],
+  "confidence": "high",
+  "wikipedia_title": "Sakurayu",
+  "wikipedia_scope": "exact",
+  "popularity": 3,
+  "images": []
+}

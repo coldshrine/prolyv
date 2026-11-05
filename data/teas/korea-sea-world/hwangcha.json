@@ -3,10 +3,16 @@
   "name_en": "Hwangcha (Korean Yellow Tea)",
   "name_native": "황차",
   "name_romanized": "Hwangcha",
-  "aliases": ["Hwang cha", "Korean yellow tea", "Korean partially oxidised tea", "黃茶", "Hadong hwangcha"],
+  "aliases": [
+    "Hwang cha",
+    "Korean yellow tea",
+    "Korean partially oxidised tea",
+    "黃茶",
+    "Hadong hwangcha"
+  ],
   "category": "yellow",
   "origin_country": "South Korea",
-  "origin_region": "Gyeongsangnam-do · Hadong (also Jeollanam-do · Boseong and Jeju)",
+  "origin_region": "Gyeongsangnam-do · Hadong",
   "cultivar": "Seed-grown native bushes (jaeraejong) in Hadong; plantation cultivars elsewhere",
   "processing": "Withered leaf is rolled, then left to oxidise partially in a warm, humid room or under cloth (some makers sun it) before being dried and lightly roasted; oxidation is well short of black tea and there is no yellowing-by-smothering step as in Chinese yellow tea.",
   "form": "loose",
@@ -15,13 +21,53 @@
   "appearance_liquor": "Golden amber to light orange, clear.",
   "appearance_wet": "Soft olive-brown leaves with red-brown edges, somewhere between an oolong and a light black tea.",
   "taste_profile": "Honey and dried jujube over a mellow, slightly roasted body, with a sweet-potato softness, almost no astringency and a long warm finish.",
-  "taste_tags": ["honey", "dried-fruit", "sweet", "roasted"],
-  "brewing": {"grams": 4, "water_ml": 120, "temp_c": 90, "steeps": 6, "seconds": [20, 15, 20, 30, 45, 60], "notes": "Hot water is fine here, unlike Korean green tea. A gaiwan or small pot gives six easy steeps; Western style, 3 g per 250 ml for three minutes also works."},
+  "taste_tags": [
+    "honey",
+    "dried-fruit",
+    "sweet",
+    "roasted"
+  ],
+  "brewing": {
+    "grams": 4,
+    "water_ml": 120,
+    "temp_c": 90,
+    "steeps": 6,
+    "seconds": [
+      20,
+      15,
+      20,
+      30,
+      45,
+      60
+    ],
+    "notes": "Hot water is fine here, unlike Korean green tea. A gaiwan or small pot gives six easy steeps; Western style, 3 g per 250 ml for three minutes also works."
+  },
   "caffeine_level": "medium",
   "vintage_note": "Sold as the current year's spring production, usually from May or June onwards, with the year on the pack. It is fine fresh but many makers and drinkers think it rounds out after six to twelve months, and a few producers sell lots that are one to three years old; it is not a long-ageing tea in the pu-erh sense.",
   "description": "Hwangcha means 'yellow tea', but the Korean tea that carries the name has little to do with the smothered yellow teas of Hunan or Sichuan. It is a partially oxidised leaf tea, sitting somewhere between an oolong and a light black tea, and it is the most distinctive thing Korea makes after its green teas. Hadong is its heartland, with versions from Boseong and Jeju.\n\nThe method is simple on paper: the leaf is withered, rolled by hand, left to oxidise in a warm damp room or under cloth, sometimes with a spell in the sun, and then dried with a light roast. In practice every maker does it slightly differently, and the degree of oxidation varies from barely more than green to nearly black, which is why hwangcha from two workshops can taste like two different categories. The word balhyocha ('fermented tea') is used for the same family, usually for the darker end.\n\nThe cup is warm and sweet: honey, dried jujube and baked sweet potato over a soft, low-tannin body, with a comforting roasted edge in some lots. It is forgiving to brew, takes hot water happily, and gives several steeps in a small pot; it also makes a kind, gentle Western-style cup for people who find black tea harsh.\n\nIt is sold loose, by the current year, in small packs from the same makers who sell Korean green tea, and it is far easier to store than the greens. There is no grading system equivalent to the green-tea picks; names like 'hwangcha' and 'balhyocha' are used loosely, so read the description and, if you can, ask how oxidised the lot is.\n\nIf you enjoy honey-sweet, low-bitterness teas, hwangcha is one of the most comforting cups in East Asia; try it alongside a Taiwanese red oolong or a Keemun for context.",
   "wikipedia_title": "Yellow tea",
   "wikipedia_scope": "umbrella",
   "popularity": 2,
-  "sources_note": "The English Wikipedia 'Hwangcha' title redirects to 'Yellow tea', which has a Korean section; 'Korean tea' would be the alternative umbrella. Category 'yellow' follows the Korean name; by process it is closer to oolong/black and some catalogues file it under oolong. Hwangcha vs balhyocha terminology is not standardised among producers."
+  "sources_note": "The English Wikipedia 'Hwangcha' title redirects to 'Yellow tea', which has a Korean section; 'Korean tea' would be the alternative umbrella. Category 'yellow' follows the Korean name; by process it is closer to oolong/black and some catalogues file it under oolong. Hwangcha vs balhyocha terminology is not standardised among producers.",
+  "name_zh": "韩国黄茶",
+  "name_ru": "Хванча",
+  "history": "Hwangcha shares its name and its characters, 黃茶, with Chinese yellow tea, but not its method. Korean tea terms split domestic tea mainly into green (nokcha) and fermented (balhyocha, in practice meaning oxidised), and hwangcha is the lightly oxidised end of balhyocha.\n\nIt is made much like an oolong or a light black tea, depending on the maker. The name points to the yellow liquor that low oxidation leaves, not to the sweltering step that defines the Chinese category.",
+  "liquor_hex": "#C98F3A",
+  "leaf_hex": "#5A4628",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Yellow_tea"
+  ],
+  "confidence": "medium",
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/88/Korean_tea_hwangcha_Naju_South_Korea_2015-01-17%281%29.jpg/1280px-Korean_tea_hwangcha_Naju_South_Korea_2015-01-17%281%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/88/Korean_tea_hwangcha_Naju_South_Korea_2015-01-17%281%29.jpg/330px-Korean_tea_hwangcha_Naju_South_Korea_2015-01-17%281%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Korean_tea_hwangcha_Naju_South_Korea_2015-01-17(1).jpg",
+      "author": "Mar del Este",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "kind": "liquor",
+      "alt": "Amber Korean hwangcha liquor in a glass teapot on a lace cloth"
+    }
+  ]
 }

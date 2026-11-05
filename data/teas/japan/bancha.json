@@ -3,10 +3,18 @@
   "name_en": "Bancha",
   "name_native": "番茶",
   "name_romanized": "Bancha",
-  "aliases": ["Coarse tea", "Common tea", "Late-harvest green tea", "Ban-cha", "Shūtō bancha"],
+  "aliases": [
+    "Coarse tea",
+    "Common tea",
+    "Late-harvest green tea",
+    "Ban-cha",
+    "Shūtō bancha",
+    "晩茶",
+    "Банча"
+  ],
   "category": "green",
   "origin_country": "Japan",
-  "origin_region": "Nationwide; regional styles in Kyoto, Okayama, Tokushima and elsewhere",
+  "origin_region": "Japan",
   "cultivar": null,
   "processing": "Mature leaves from the second, third or autumn pickings, and larger leaves sorted out of sencha, are steamed, rolled and dried like sencha; some regional banchas are instead dried flat, roasted, sun-dried or fermented.",
   "form": "loose",
@@ -15,12 +23,60 @@
   "appearance_liquor": "Yellow to light amber, clear.",
   "appearance_wet": "Broad, leathery, tough-looking green leaves.",
   "taste_profile": "Mild, straw-like and lightly grassy with a plain, dry finish and little of sencha's umami; easy and unfussy.",
-  "taste_tags": ["grassy", "vegetal", "woody", "brisk"],
-  "brewing": {"grams": 5, "water_ml": 200, "temp_c": 90, "steeps": 2, "seconds": [40, 40], "notes": "Hot water is fine and even preferred; it has little to lose. Big pot, short steeps, or simmer a handful in a kettle for a day's worth of tea, hot or chilled."},
+  "taste_tags": [
+    "grassy",
+    "vegetal",
+    "woody",
+    "brisk"
+  ],
+  "brewing": {
+    "grams": 5,
+    "water_ml": 200,
+    "temp_c": 90,
+    "steeps": 2,
+    "seconds": [
+      40,
+      40
+    ],
+    "notes": "Hot water is fine and even preferred; it has little to lose. Big pot, short steeps, or simmer a handful in a kettle for a day's worth of tea, hot or chilled."
+  },
   "caffeine_level": "low",
   "vintage_note": "An everyday tea sold year-round in large, cheap bags with a best-before date; the flush is sometimes stated (nibancha, 'autumn bancha') but rarely the year. Autumn-winter bancha from the last pickings is the softest and lowest in caffeine. It does not age in any meaningful way, though its roasted and regional cousins keep well for a year or more.",
-  "description": "Bancha is the catch-all name for Japan's ordinary tea: the coarser leaf from the second, third and autumn pickings, and the larger, older leaves sorted out when first-flush sencha is refined. The name is usually read as 'ordinary' or 'late' tea depending on who explains it, and both fit. It is the tea in the big bag in a Japanese kitchen, the tea you drink by the litre with meals, and the raw material for hōjicha and genmaicha.\n\nMost bancha is made like sencha, steamed, rolled and dried, just from leaf that is thicker, tougher and lower in the amino acids that give spring tea its sweetness; caffeine is lower too, which is why it is the tea for children and evenings. The leaves are bigger and flatter, the colour duller, and the cup is light, straw-like and dry rather than savoury. Autumn-winter bancha (shūtō bancha) from the last pickings of the year is the softest and mildest of all.\n\nIt wants hot water and no fuss: 5 g for 200 ml at 90 °C for 40 seconds, or a handful simmered in a kettle for a day's supply, hot or chilled. There is almost no way to brew it badly, which is its charm; use a bit more leaf than you would for sencha and do not expect a second steep to be as good as the first. It cold-brews cleanly for summer.\n\nSupermarket bancha is cheap, sold year-round in large bags with a best-before date and sometimes the flush on the label. The word also covers a whole family of regional teas that have nothing to do with steamed sencha: Kyoto's smoky, roasted kyōbancha, Tokushima's lactic-fermented awabancha, Okayama's Mimasaka bancha, boiled and sun-dried with its own liquor poured over it, and the roasted, aged twig 'three-year bancha' of the macrobiotic world. Each has its own card or its own story; the supermarket kind is what this one is about.\n\nTwo useful tricks: ten minutes in a dry frying pan turns bancha into fresh hōjicha, and a litre of cold-brewed bancha in the fridge is the easiest everyday tea there is.",
+  "description": "Bancha is the catch-all name for Japan's ordinary tea: the coarser leaf from the second, third and autumn pickings, and the larger, older leaves sorted out when first-flush sencha is refined. The name is usually read as 'ordinary' or 'late' tea depending on who explains it, and both fit. It is the tea in the big bag in a Japanese kitchen, the tea you drink by the litre with meals, and the raw material for hōjicha and genmaicha.\n\nMost bancha is made like sencha, steamed, rolled and dried, just from leaf that is thicker, tougher and lower in the amino acids that give spring tea its sweetness; caffeine is lower too, which is why it is the tea for children and evenings. The leaves are bigger and flatter, the colour duller, and the cup is light, straw-like and dry rather than savoury. Autumn-winter bancha (shūtō bancha) from the last pickings of the year is the softest and mildest of all.\n\nIt wants hot water and no fuss: 5 g for 200 ml at 90 °C for 40 seconds, or a handful simmered in a kettle for a day's supply, hot or chilled. There is almost no way to brew it badly, which is its charm; use a bit more leaf than you would for sencha and do not expect a second steep to be as good as the first. It cold-brews cleanly for summer.\n\nSupermarket bancha is cheap, sold year-round in large bags with a best-before date and sometimes the flush on the label. The word also covers a whole family of regional teas that have nothing to do with steamed sencha: Kyoto's smoky, roasted kyōbancha, Tokushima's lactic-fermented awabancha, Okayama's Mimasaka bancha, boiled and sun-dried with its own liquor poured over it, and the roasted, aged twig 'three-year bancha' of the macrobiotic world. Each is its own tea with its own story; the supermarket kind is what is described here.\n\nTwo useful tricks: ten minutes in a dry frying pan turns bancha into fresh hōjicha, and a litre of cold-brewed bancha in the fridge is the easiest everyday tea there is.",
   "wikipedia_title": "Bancha",
   "wikipedia_scope": "exact",
-  "popularity": 4
+  "popularity": 4,
+  "name_zh": "番茶",
+  "name_ru": "Бантя",
+  "history": "The word appears in Japanese records from around the 15th century, and documents from the late 1300s write it 晩茶, with the character for 'late', which set this leaf apart from young shoots picked and made with care. The meaning has stayed loose ever since. It can be a low-grade sencha from hardened shoots and stems, which is the definition in Japanese tea statistics; it can be whatever a household drinks every day; or it can be a tea a district makes in its own way for its own use.\n\nThat last sense explains the variety. Tea bushes were widely planted as boundary markers, so people far from the commercial tea regions made tea at home. Yoshino in Nara steams the leaf, dries it in the sun and then roasts it. Mimasaka in Okayama boils cut branches in a big iron pot in the hottest days of summer and dries the leaf in the sun with its own liquor poured over it. Katsuyama in Fukui hangs autumn branches under the eaves. Ask for bancha in Tokyo or Shizuoka and you get a green tea; in Hokkaido or Kyoto it will be brown and roasted.\n\nThe sencha-style bancha of today may date from the Meiji period, when fine sencha was pushed for export and the lower grades stayed at home, though that is a guess rather than a documented fact. The word became shorthand for cheap tea, as in the old proverb saying even coarse bancha is good when freshly poured. Large mature leaf turns out to extract well, and a growing share now goes to industry as raw material rather than into the teapot.",
+  "liquor_hex": "#D9B967",
+  "leaf_hex": "#6B6B3A",
+  "sources": [
+    "https://ja.wikipedia.org/wiki/%E7%95%AA%E8%8C%B6",
+    "https://en.wikipedia.org/wiki/Bancha",
+    "https://ru.wikipedia.org/wiki/%D0%91%D0%B0%D0%BD%D1%82%D1%8F"
+  ],
+  "confidence": "high",
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c4/Bancha_img_0594.jpg/1280px-Bancha_img_0594.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c4/Bancha_img_0594.jpg/330px-Bancha_img_0594.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Bancha_img_0594.jpg",
+      "author": "Rama",
+      "license": "CC BY-SA 2.0 fr",
+      "license_url": "https://creativecommons.org/licenses/by-sa/2.0/fr/deed.en",
+      "kind": "dry_leaf",
+      "alt": "Small pile of dry olive-green Bancha leaf pieces and stems on a white background"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/5/50/Bancha_tea_yoshino-nikkan.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/50/Bancha_tea_yoshino-nikkan.jpg/330px-Bancha_tea_yoshino-nikkan.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Bancha_tea_yoshino-nikkan.jpg",
+      "author": "No machine-readable author provided. Green assumed (based on copyright claims).",
+      "license": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "kind": "dry_leaf",
+      "alt": "Large, flat brown dry leaves of sun-dried Yoshino nikkan-bancha on a white background"
+    }
+  ]
 }

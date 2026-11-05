@@ -1,0 +1,56 @@
+{
+  "slug": "kalmyk-tea",
+  "name_en": "Kalmyk Tea",
+  "name_native": "Хальмг цә",
+  "name_romanized": null,
+  "name_zh": "卡尔梅克茶",
+  "name_ru": "Калмыцкий чай",
+  "aliases": [
+    "Jomba",
+    "Җомба",
+    "Джомба",
+    "Kalmyk milk tea"
+  ],
+  "category": "heicha",
+  "origin_country": "Russia",
+  "origin_region": "Kalmykia",
+  "cultivar": null,
+  "processing": "A drink rather than a leaf style: low-grade Chinese brick tea is cut from the slab, boiled for five or six minutes, then finished with milk and salt and strained through a hair sieve.",
+  "form": "brick",
+  "harvest_season": "Not tied to a harvest. The brick is made in China from coarse leaf, and the drink is cooked at home all year round.",
+  "appearance_dry": "A dense, dark slab of coarse pressed leaf, cut into pieces rather than scooped.",
+  "appearance_liquor": "Opaque and milky, a pale beige to tan once the milk goes in.",
+  "appearance_wet": "A sodden mass of coarse dark leaf and stems, strained out before serving.",
+  "taste_profile": "Salty and milky first, with the plain woody depth of boiled brick tea underneath; a little butter or a pinch of spice makes it richer. It drinks closer to a thin soup than to a cup of tea.",
+  "taste_tags": [
+    "creamy",
+    "woody",
+    "earthy",
+    "spicy"
+  ],
+  "brewing": {
+    "grams": 10,
+    "water_ml": 1000,
+    "temp_c": 100,
+    "steeps": 1,
+    "seconds": [
+      330
+    ],
+    "notes": "The amounts are a home starting point, not a fixed recipe. Boil the broken brick for 5 to 6 minutes, add milk and salt to taste, return to the boil and strain."
+  },
+  "caffeine_level": "medium",
+  "vintage_note": "Not sold by year or season. What you buy is ordinary pressed brick tea with no vintage to speak of, and the drink itself is made fresh in the pot. Age matters little here, since the milk, salt and long boil set the character.",
+  "description": "Kalmyk tea, or jomba, is milk tea cooked in a pot with salt, the everyday drink of the Kalmyks on the lower Volga. It is a recipe more than a tea, built on cheap Chinese brick tea, and that base is why it sits with the dark teas here.\n\nThe method is simple. A piece is cut from the slab and boiled for five or six minutes, then milk and salt go in and the whole thing is strained. Traditionally the spent leaf was pressed out in a small wooden vice and added to the next pot, which saved tea and was also held to soften the drink. Any milk would do, cow's or sheep's, and camel's milk among the wealthiest.\n\nExpect salt and milk before anything else, with a plain woody tea flavour behind them. A little butter sometimes went in, and well-off families added bay leaf, nutmeg and cloves. If you come to it expecting sweet milk tea it will surprise you; think of it as something between a drink and a light broth.\n\nTo make it at home, look for any plain Chinese brick tea rather than a fine aged one, because subtlety is lost in the pot. Salt it gradually, as tastes vary widely.",
+  "history": "The Kalmyks brought the recipe with them from Dzungaria in the seventeenth century, and brick tea reached their settlements from northern China. Travellers and officials recorded it repeatedly: Jan Potocki wrote in 1797 that the Kalmyks boiled it with milk and butter and that the Tatars had taken up the habit, and a nineteenth-century official noted that it was drunk twice a day in good quantity.\n\nThe recipe shifted somewhat in the nineteenth century under the influence of neighbouring peoples. Today it is drunk well beyond Kalmykia, among North Caucasian groups, in Dagestan and Astrakhan, and by Russians in the Volgograd and Rostov regions.",
+  "liquor_hex": "#BFA27C",
+  "leaf_hex": "#3D2C1E",
+  "sources": [
+    "https://ru.wikipedia.org/wiki/%D0%9A%D0%B0%D0%BB%D0%BC%D1%8B%D1%86%D0%BA%D0%B8%D0%B9_%D1%87%D0%B0%D0%B9",
+    "https://www.wikidata.org/wiki/Q60851303"
+  ],
+  "confidence": "medium",
+  "wikipedia_title": "Калмыцкий чай",
+  "wikipedia_scope": "exact",
+  "popularity": 3,
+  "images": []
+}

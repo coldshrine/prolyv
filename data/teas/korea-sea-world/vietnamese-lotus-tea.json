@@ -3,25 +3,72 @@
   "name_en": "Vietnamese Lotus Tea (Trà Sen)",
   "name_native": "Trà sen",
   "name_romanized": "Trà sen",
-  "aliases": ["Tra sen", "Chè sen", "Trà sen Tây Hồ", "West Lake lotus tea", "Lotus scented green tea", "Trà ướp sen", "Trà sen xổi"],
+  "aliases": [
+    "Tra sen",
+    "Chè sen",
+    "Trà sen Tây Hồ",
+    "West Lake lotus tea",
+    "Lotus scented green tea",
+    "Trà ướp sen",
+    "Trà sen xổi"
+  ],
   "category": "green",
   "origin_country": "Vietnam",
-  "origin_region": "Hanoi · West Lake (Hồ Tây, Quảng An) for the scenting; leaf mostly from Thái Nguyên",
+  "origin_region": "Hanoi · West Lake",
   "cultivar": "Thái Nguyên green tea (trung du and newer clones) as the base; Bách Diệp 'hundred-petal' lotus of West Lake for the scenting",
-  "processing": "Finished green tea is layered with freshly separated lotus stamens ('lotus rice', gạo sen) and left to absorb the scent for a day or two, then dried and re-scented with fresh stamens, repeated five to seven times over several weeks; the quick version seals tea inside a living lotus bloom overnight.",
+  "processing": "Finished green tea is layered with freshly separated lotus stamens ('lotus rice', gạo sen) and left to absorb the scent for a day or more, then dried and re-scented with fresh stamens, repeated five to eight times over several weeks; the quick version seals tea inside a whole lotus bloom for a day or two.",
   "form": "loose",
   "harvest_season": "Scented during the lotus season from June to August; the base tea is the spring harvest of the same year.",
   "appearance_dry": "Curled dark green Thái Nguyên-style leaves, sometimes with a few pale yellow stamens left in, smelling strongly of lotus pollen and faint anise.",
   "appearance_liquor": "Pale yellow-green, clear.",
   "appearance_wet": "Small green bud-and-leaf sets with the lotus scent rising off them.",
   "taste_profile": "Sweet, cool lotus fragrance with a hint of anise and vanilla over a firm, slightly astringent green tea, finishing long and sweet; the aroma sits in the throat more than on the tongue.",
-  "taste_tags": ["floral", "sweet", "vegetal", "herbal"],
-  "brewing": {"grams": 4, "water_ml": 150, "temp_c": 85, "steeps": 4, "seconds": [45, 30, 45, 60], "notes": "Slightly cooler water and shorter steeps than plain Thái Nguyên tea, so the scent is not boiled off. The flower-sealed version is brewed straight from the thawed bloom, tea and stamens together."},
+  "taste_tags": [
+    "floral",
+    "sweet",
+    "vegetal",
+    "herbal"
+  ],
+  "brewing": {
+    "grams": 4,
+    "water_ml": 150,
+    "temp_c": 85,
+    "steeps": 4,
+    "seconds": [
+      45,
+      30,
+      45,
+      60
+    ],
+    "notes": "Slightly cooler water and shorter steeps than plain Thái Nguyên tea, so the scent is not boiled off. The flower-sealed version is brewed straight from the thawed bloom, tea and stamens together."
+  },
   "caffeine_level": "medium",
-  "vintage_note": "Made each summer and sold as that year's scenting, in small 50–100 g tins; traditionally scented lotus tea is expensive and best within a year, while the flower-sealed 'xổi' version is sold frozen, bloom by bloom, in season. Cheap lotus tea sold all year in large packs is almost always artificially flavoured.",
-  "description": "Lotus tea is Hanoi's signature: green tea scented with the stamens of the lotus flowers that fill West Lake in summer. It is to Vietnam what jasmine tea is to Fujian, a tea defined by the flower rather than the leaf, and the traditional method is one of the slowest scenting processes in the tea world.\n\nThe tea makers of Quảng An on the lake buy lotus blooms picked before dawn, strip out the tiny yellow stamens by hand, and layer them with good Thái Nguyên green tea. After a day or two the spent stamens are sieved out, the tea is dried, and the whole thing is repeated with fresh flowers, five, six, seven times, over the better part of a month. A kilogram of finished tea is said to use many hundreds of flowers, which is why the real thing costs what it costs. The quick version, trà sen xổi, puts a handful of tea inside a living bloom, ties it shut overnight, and sells the whole flower frozen.\n\nA good lotus tea smells of pollen, cool and sweet with a touch of anise, and the scent sits at the back of the throat rather than on the tongue; underneath it is the firm, faintly bitter Thái Nguyên leaf with its long sweet aftertaste. It wants slightly cooler water than plain green tea so the aroma is not driven off, and it gives three or four good steeps before the flower fades.\n\nThe market is full of imitations. Lotus 'flavour' tea, sold cheaply all year, uses synthetic scent; some mid-range teas are scented once with stamens and topped up with flavouring. The traditional product is seasonal, sold in small tins by named makers, and expensive. Look for the year, the number of scenting rounds if the seller knows it, and a scent that is soft and pollen-like rather than perfumed.\n\nIt is a tea for a quiet hour rather than a work desk; the Vietnamese often serve it to guests and at Tết, and it pairs well with mildly sweet things like candied lotus seeds.",
+  "vintage_note": "Made each summer and sold as that year's scenting, in small 50–100 g tins; traditionally scented lotus tea is expensive and best within a year, while the flower-sealed 'xổi' version is sold bloom by bloom in season, fresh or frozen. Cheap lotus tea sold all year in large packs is almost always artificially flavoured.",
+  "description": "Lotus tea is Hanoi's signature: green tea scented with the stamens of the lotus flowers that fill West Lake in summer. It is to Vietnam what jasmine tea is to Fujian, a tea defined by the flower rather than the leaf, and the traditional method is one of the slowest scenting processes in the tea world.\n\nThe tea makers of Quảng An on the lake buy lotus blooms picked early in the morning, strip out the tiny yellow stamens by hand, and layer them with good Thái Nguyên green tea. After a day or more the spent stamens are sieved out, the tea is dried, and the whole thing is repeated with fresh flowers, five to eight times, over several weeks. A kilogram of finished tea is estimated to use about a thousand flowers, which is why the real thing costs what it costs. The quick version, trà sen xổi, puts a handful of tea inside a whole bloom, ties it shut for a day or two, and sells the whole flower, sometimes frozen.\n\nA good lotus tea smells of pollen, cool and sweet with a touch of anise, and the scent sits at the back of the throat rather than on the tongue; underneath it is the firm, faintly bitter Thái Nguyên leaf with its long sweet aftertaste. It wants slightly cooler water than plain green tea so the aroma is not driven off, and it gives three or four good steeps before the flower fades.\n\nThe market is full of imitations. Lotus 'flavour' tea, sold cheaply all year, uses synthetic scent; some mid-range teas are scented once with stamens and topped up with flavouring. The traditional product is seasonal, sold in small tins by named makers, and expensive. Look for the year, the number of scenting rounds if the seller knows it, and a scent that is soft and pollen-like rather than perfumed.\n\nIt is a tea for a quiet hour rather than a work desk; the Vietnamese often serve it to guests and at Tết, and it pairs well with mildly sweet things like candied lotus seeds.",
   "wikipedia_title": "Lotus tea",
   "wikipedia_scope": "exact",
   "popularity": 3,
-  "sources_note": "Flower counts per kilogram (often quoted as around 1,000) vary by source and are given only as 'many hundreds'. The number of scenting rounds (5–7) is the commonly described traditional range."
+  "sources_note": "Flower counts per kilogram (often quoted as around 1,000) vary by source and are given only as 'many hundreds'. The number of scenting rounds (5–7) is the commonly described traditional range.",
+  "name_zh": "越南莲花茶",
+  "name_ru": "Вьетнамский лотосовый чай (Ча Сен)",
+  "history": "Trà sen is green tea scented with lotus, and its best-known form comes from Hanoi. West Lake lotus tea is made around Quảng An with the hundred-petal Bách Diệp lotus native to the lake, a flower that turns up often in Hanoi's poetry, songs and literature. The tea is remembered as a refined drink of northern scholars, nobles and poets and is praised at home as the 'first tea under heaven', though no firm date or founder has come down with it.\n\nTwo methods survive. The slow one layers tea with gạo sen, the 'lotus rice' of anthers, then dries it and repeats with fresh flowers five to eight times over several weeks; estimates for good tea run to about a thousand flowers per kilogram. The quick one, ướp sen xổi, leaves the tea inside a whole flower for a day or two. The slow craft is still in the hands of a small number of Hanoi families and depends entirely on the summer bloom.",
+  "liquor_hex": "#DCD98F",
+  "leaf_hex": "#3F4A2A",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Lotus_tea",
+    "https://en.wikipedia.org/wiki/Vietnamese_lotus_tea"
+  ],
+  "confidence": "medium",
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b4/Tra_sen_-_Vietnamese_Lotus_Tea.JPG/1280px-Tra_sen_-_Vietnamese_Lotus_Tea.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b4/Tra_sen_-_Vietnamese_Lotus_Tea.JPG/330px-Tra_sen_-_Vietnamese_Lotus_Tea.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Tra_sen_-_Vietnamese_Lotus_Tea.JPG",
+      "author": "VuThiAnh",
+      "license": "Public domain",
+      "license_url": null,
+      "kind": "dry_leaf",
+      "alt": "Curled dark green dry leaves of Vietnamese lotus tea spread on a white background"
+    }
+  ]
 }

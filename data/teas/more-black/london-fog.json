@@ -1,0 +1,69 @@
+{
+  "slug": "london-fog",
+  "name_en": "London Fog",
+  "name_native": null,
+  "name_romanized": null,
+  "name_zh": "伦敦雾",
+  "name_ru": "Лондонский туман",
+  "aliases": [
+    "Earl Grey latte",
+    "Earl Grey tea latte",
+    "London Fog latte"
+  ],
+  "category": "black",
+  "origin_country": "Canada",
+  "origin_region": "British Columbia · Vancouver",
+  "cultivar": null,
+  "processing": "A café drink: Earl Grey is brewed strong, then combined with steamed milk and a sweetener, usually vanilla syrup.",
+  "form": "other",
+  "harvest_season": "Not tied to a harvest; made all year from Earl Grey blends.",
+  "appearance_dry": "Black Earl Grey blend leaf or teabag, sometimes with flecks of peel or petals.",
+  "appearance_liquor": "Creamy pale tan, with a foam cap of steamed milk.",
+  "appearance_wet": "Dark, soft leaf, removed before the milk goes in.",
+  "taste_profile": "Soft and milky, with bergamot citrus and vanilla sweetness over a quiet black tea base.",
+  "taste_tags": [
+    "creamy",
+    "citrus",
+    "sweet",
+    "floral"
+  ],
+  "brewing": {
+    "grams": 3,
+    "water_ml": 120,
+    "temp_c": 95,
+    "steeps": 1,
+    "seconds": [
+      240
+    ],
+    "notes": "Brew Earl Grey strong in a small amount of water, sweeten, then top with steamed milk. Weak tea is the usual error, as the milk flattens the bergamot."
+  },
+  "caffeine_level": "medium",
+  "vintage_note": "Made to order at cafes and at home, so there are no years or seasons. The one thing that ages is the Earl Grey itself, whose bergamot scent fades, so use a recent pack.",
+  "description": "A London Fog is an Earl Grey latte: tea, steamed milk and a sweetener, usually vanilla. Despite the name it has nothing to do with London. It is popular on Canada's West Coast and in the Pacific Northwest.\n\nThe method is cafe-simple. Brew Earl Grey stronger than you would to drink it plain, sweeten it, and add steamed milk. Honey or maple syrup can replace vanilla, and a final dusting of cinnamon, nutmeg or lavender is common.\n\nIt should taste of bergamot and vanilla first and tea second, with a soft and rounded body. The usual failure is a thin base, so give it enough leaf and a full steep. Milk alternatives are a common variation.\n\nThe tea is what to choose carefully. Earl Grey varies widely in how much bergamot it carries, and milk mutes it further, so a boldly scented one gives a better Fog. Swapping the tea is a common variation if you want to try something else.",
+  "history": "The usual origin story places the drink at the Buckwheat Cafe in Vancouver in the 1990s. A pregnant regular, Mary Loria, wanted something gentle on her stomach and asked for Earl Grey with steamed milk, sweetening it with vanilla sugar. Loria does not know who gave the drink its name.",
+  "liquor_hex": "#C9A47C",
+  "leaf_hex": "#3D2E23",
+  "sources": [
+    "https://en.wikipedia.org/wiki/London_fog_(drink)",
+    "https://imbibemagazine.com/?p=100601",
+    "https://www.richmond-news.com/living/the-london-fog-was-invented-in-vancouver-and-we-spoke-to-the-woman-who-invented-it-3529023",
+    "https://www.foodrepublic.com/1521487/origin-london-fog-latte-drink/",
+    "https://en.wikipedia.org/wiki/Earl_Grey_tea"
+  ],
+  "confidence": "medium",
+  "wikipedia_title": "London fog (drink)",
+  "wikipedia_scope": "exact",
+  "popularity": 3,
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/eb/London_fog_latte_-_Jolliffes_Coffee_Shop_2024-01-07.jpg/1280px-London_fog_latte_-_Jolliffes_Coffee_Shop_2024-01-07.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/eb/London_fog_latte_-_Jolliffes_Coffee_Shop_2024-01-07.jpg/330px-London_fog_latte_-_Jolliffes_Coffee_Shop_2024-01-07.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source_page": "https://commons.wikimedia.org/wiki/File:London_fog_latte_-_Jolliffes_Coffee_Shop_2024-01-07.jpg",
+      "author": "Andy Li",
+      "license": "CC0",
+      "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "kind": "liquor",
+      "alt": "Cup of London fog latte with pale milk foam on a saucer with a spoon, cake plates nearby"
+    }
+  ]
+}

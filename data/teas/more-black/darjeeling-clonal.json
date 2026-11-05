@@ -1,0 +1,55 @@
+{
+  "slug": "darjeeling-clonal",
+  "name_en": "Darjeeling Clonal",
+  "name_native": null,
+  "name_romanized": null,
+  "name_zh": "大吉岭无性系红茶",
+  "name_ru": "Дарджилинг клональный",
+  "aliases": [
+    "Clonal Darjeeling"
+  ],
+  "category": "black",
+  "origin_country": "India",
+  "origin_region": "West Bengal · Darjeeling",
+  "cultivar": "Clones such as AV2, P312 and B157",
+  "processing": "Leaf from vegetatively propagated bushes, made in the Darjeeling way, mostly as black tea. Spring lots are usually very lightly oxidised and often look quite green.",
+  "form": "loose",
+  "harvest_season": "Through the Darjeeling flushes; first-flush clonal lots get much of the attention.",
+  "appearance_dry": "Twisted leaf, often bright green with pale tips in spring, browner in summer.",
+  "appearance_liquor": "Pale gold to light amber, clear.",
+  "appearance_wet": "Fairly even green leaf in spring, with more copper later in the year.",
+  "taste_profile": "Varies by clone: sellers commonly describe spring lots as floral or fruity and summer lots as richer. Typically aromatic and less brisk than a heavy black tea.",
+  "taste_tags": [
+    "floral",
+    "fruity",
+    "sweet"
+  ],
+  "brewing": {
+    "grams": 3,
+    "water_ml": 250,
+    "temp_c": 85,
+    "steeps": 2,
+    "seconds": [
+      150,
+      210
+    ],
+    "notes": "Green-looking spring lots do better with cooler water and a short steep. Raise the temperature for summer lots."
+  },
+  "caffeine_level": "medium",
+  "vintage_note": "Sold by estate, flush and harvest year, often as a small named lot, with the word clonal or the clone on the label. Spring lots are at their best fresh within the year; summer tea keeps somewhat longer. Fancy names are estate marketing: Sungma, for instance, has sold lines such as Clonal Delight.",
+  "description": "Clonal Darjeeling is tea from bushes grown from cuttings of selected plants rather than from seed. It is a label about the plant, not a separate appellation, and it covers everything from AV2 to P312 and B157.\n\nBecause every bush in a block is genetically the same, a clonal field gives more predictable leaf than a seed-grown one. Processing is still ordinary Darjeeling work, and the green, fragrant look of many spring clonal teas comes from light oxidation as much as from the plant.\n\nThe flavour depends on the clone, the garden and the season, so it is hard to generalise. Sellers tend to promise perfume and fruit, and Gopaldhara describes AV2 as golden and sweet, P312 as floral and B157 as herbal. Brew spring lots gently or they turn sharp.\n\nFor buying, ask for the clone by name along with the estate, flush and year. 'Clonal' on its own doesn't promise quality, though it is often used as if it did. Whether clones or old China bushes make the better cup remains an argument among Darjeeling fans, which is a good excuse to taste them side by side.",
+  "history": "Darjeeling was planted first from China seed. Newer plantings have come mainly from saplings of a few cultivars adapted to the district, such as Bannockburn 157, Phoobsering 312 and Ambari Vegetative 2. Exact dates for this shift are poorly documented.",
+  "liquor_hex": "#D8B255",
+  "leaf_hex": "#7A7A48",
+  "wikipedia_title": "Darjeeling tea",
+  "wikipedia_scope": "umbrella",
+  "popularity": 3,
+  "sources": [
+    "https://en.wikipedia.org/wiki/Darjeeling_tea",
+    "https://en.wikipedia.org/wiki/Sungma_Tea_Garden",
+    "https://gopaldharaindia.com/tea-cultivars/",
+    "https://www.terrytheise.com/post/better-than-wine-part-two"
+  ],
+  "confidence": "medium",
+  "images": []
+}

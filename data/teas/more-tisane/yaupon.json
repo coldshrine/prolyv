@@ -1,0 +1,66 @@
+{
+  "slug": "yaupon",
+  "name_en": "Yaupon",
+  "name_native": null,
+  "name_romanized": null,
+  "name_zh": "代茶冬青茶",
+  "name_ru": "Яупон",
+  "aliases": [
+    "Yaupon tea",
+    "Carolina tea",
+    "Cassena",
+    "Cassina",
+    "South Seas tea",
+    "Black drink",
+    "White drink",
+    "Beloved drink",
+    "Indian tea",
+    "Чай яупон",
+    "Падуб рвотный",
+    "Ilex vomitoria",
+    "印第安茶"
+  ],
+  "category": "tisane",
+  "origin_country": "United States",
+  "origin_region": "Southeastern United States",
+  "cultivar": null,
+  "processing": "Leaves, and historically stems too, are dried and steeped. Historic ceremonial versions were brewed very strong and dark.",
+  "form": "loose",
+  "harvest_season": "The holly is evergreen, so the leaf is not tied to one short picking season; little is documented about a prized harvest.",
+  "appearance_dry": "Dried pieces of small, rounded holly leaf, typically a muted olive green.",
+  "appearance_liquor": "Usually a clear yellow-brown when brewed for everyday drinking, turning very dark when made strong.",
+  "appearance_wet": "Small oval leaves with scalloped edges, dark green and fairly leathery, as expected of a holly.",
+  "taste_profile": "Little reliable tasting literature exists, but as a close relative of yerba mate and guayusa it is typically herbal and leafy, with a gentle stimulating lift.",
+  "taste_tags": [
+    "herbal",
+    "vegetal",
+    "earthy"
+  ],
+  "brewing": {
+    "grams": 3,
+    "water_ml": 250,
+    "temp_c": 90,
+    "steeps": 1,
+    "seconds": [
+      300
+    ],
+    "notes": "A general herbal-tea starting point rather than a fixed tradition: steep Western-style, then adjust. Longer steeps give the darker, stronger cup."
+  },
+  "caffeine_level": "medium",
+  "vintage_note": "Sold as a dried herbal product without vintages, like most tisanes. Commercial harvesting in the United States has returned only in the 21st century, so buy what is recently packed and check the producer's date.",
+  "description": "Yaupon is a holly native to the southeastern United States, with a further range reaching Cuba and a separate population in Chiapas, Mexico. It matters to tea drinkers for one reason: it makes its own caffeine, along with theobromine, which is rare among plants native to North America. Only one other is known, the dahoon holly, and it holds far less.\n\nThe drink is simple: dried leaves in hot water. Its relatives yerba mate and guayusa are the closest reference points, and the same chemistry puts it in that family of everyday stimulating infusions rather than among caffeine-free herbals.\n\nThe Latin name vomitoria is misleading. European observers saw purification rituals in which people vomited and blamed the plant, but the likelier cause was drinking very large volumes while fasting as part of the ceremony. Yaupon is not known as an emetic in ordinary drinking.\n\nWhen buying, look for a named producer and a recent pack date. Brew it like a general herbal tea first, then steep it longer if you want the stronger, darker cup. If you already like mate, this is the obvious next thing to try.",
+  "history": "Yaupon drinks were brewed across the Southeastern Woodlands by peoples including the Yuchi, Caddo, Chickasaw, Cherokee, Choctaw, Muscogee and Timucua. Groups outside its natural range traded for it or planted it, and its use is confirmed at the Mississippian city of Cahokia. It served as a council and guest drink and an everyday energiser, while a highly concentrated form was used in purification rituals. Names such as white drink and beloved drink reflect those meanings; black drink was mostly a European name, after the colour of the strong brew.\n\nColonists in the Carolinas are documented using it for tea and medicine by the early 18th century, calling it Carolina tea, South Seas tea or Indian tea. Commercial harvesting for tea has resumed in the United States in the 21st century, and the plant is also widely grown as a landscape shrub.",
+  "liquor_hex": "#A9823A",
+  "leaf_hex": "#6B7040",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Ilex_vomitoria",
+    "https://en.wikipedia.org/wiki/Yaupon_tea",
+    "https://zh.wikipedia.org/wiki/%E4%BB%A3%E8%8C%B6%E5%86%AC%E9%9D%92",
+    "https://www.wikidata.org/wiki/Q1010694"
+  ],
+  "confidence": "medium",
+  "wikipedia_title": "Yaupon tea",
+  "wikipedia_scope": "exact",
+  "popularity": 2,
+  "images": []
+}

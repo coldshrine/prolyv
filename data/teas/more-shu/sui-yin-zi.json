@@ -1,0 +1,67 @@
+{
+  "slug": "sui-yin-zi",
+  "name_en": "Sui Yin Zi (Fossilized Tea)",
+  "name_native": "碎银子",
+  "name_romanized": "Suì Yínzi",
+  "name_zh": "碎银子",
+  "name_ru": "Суй Инь Цзы",
+  "aliases": [
+    "Suiyinzi (Nuggets)",
+    "Fossilized Tea",
+    "茶化石",
+    "Чайные самородки",
+    "Tea Fossil",
+    "Broken Silver",
+    "Ча Хуа Ши"
+  ],
+  "category": "shu",
+  "origin_country": "China",
+  "origin_region": "Yunnan",
+  "cultivar": null,
+  "processing": "Hard nuggets of ripe pu-erh. Some are reworked from clumps that form during wet piling (lao cha tou); others are pressed from tea fragments, and the cheapest are accused of relying on binders.",
+  "form": "other",
+  "harvest_season": "No defined season; it is a product of ripe pu-erh processing, not of a particular picking.",
+  "appearance_dry": "Small, hard, irregular dark nuggets with a polished look, like bits of stone or broken silver.",
+  "appearance_liquor": "Very dark red-brown and thick-looking, as is typical of ripe pu-erh.",
+  "appearance_wet": "Genuine nuggets soften and start to loosen after long steeping, showing leaf fragments.",
+  "taste_profile": "Typically dense and smooth, with earth, wood and a syrupy sweetness and little bitterness; many are also sold with a sticky-rice or date aroma, which is worth checking for.",
+  "taste_tags": [
+    "earthy",
+    "sweet",
+    "woody"
+  ],
+  "brewing": {
+    "grams": 6,
+    "water_ml": 110,
+    "temp_c": 100,
+    "steeps": 8,
+    "seconds": [
+      20,
+      20,
+      30,
+      40,
+      60,
+      90,
+      120,
+      180
+    ],
+    "notes": "Rinse well. Use boiling water and be patient, as the nuggets open slowly; they also take well to simmering in a pot."
+  },
+  "caffeine_level": "medium",
+  "vintage_note": "Sold loose by weight, often with no vintage at all or a recent production year, and it is not normally collected as an ageing tea. Judge it by the maker and the stated material rather than the year. Very cheap, glossy nuggets are the ones to question.",
+  "description": "Sui yin zi means broken silver, for the nuggets' resemblance to old pieces of silver money. It is also sold as tea fossil. Either way it is a small, hard lump of ripe pu-erh that looks nothing like leaf.\n\nThe name is a commercial one, not a strict term of the trade, and it covers different things. Some nuggets start from the clumps that form naturally in the wet pile, the same origin as lao cha tou, then get further processing. Others are pressed from fine fragments. Critics of the cheap end describe tea dust, flavouring and binders pressed under high pressure.\n\nBrewed well it is dark, heavy and smooth, and it lasts through many long steeps. The commonest mistake is judging it too early, because the first couple of rounds are mostly the surface of each nugget. Boiling water helps.\n\nA test people suggest is simmering a few pieces: real tea softens and opens, while a piece that stays rock hard after an hour is suspicious. This is folk advice, not a laboratory method. Buy from a seller who says what the nuggets are made of, and pay attention to any strong added sticky-rice scent.",
+  "history": "Sui yin zi is a recent market name, and no firm date for it is documented. It descends from lao cha tou, the clumps that form during ripe pu-erh piling, a material that only became possible after wet piling was developed.\n\nThe term is contested: tea writers in China have argued that it is a selling concept, and that flattering claims about it were written by the companies that sell it.",
+  "wikipedia_title": "Pu'er tea",
+  "wikipedia_scope": "umbrella",
+  "popularity": 3,
+  "liquor_hex": "#361808",
+  "leaf_hex": "#2F2015",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Pu%27er_tea",
+    "https://post.smzdm.com/p/axz4v473/",
+    "https://post.smzdm.com/p/arlx8nqq/",
+    "https://www.jiemian.com/article/1803139.html"
+  ],
+  "confidence": "medium",
+  "images": []
+}

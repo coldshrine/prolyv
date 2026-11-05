@@ -3,24 +3,78 @@
   "name_en": "Wenshan Bao Zhong (Pouchong)",
   "name_native": "文山包種茶",
   "name_romanized": "Wénshān Bāozhǒng Chá",
-  "aliases": ["Pouchong", "Baozhong", "Pinglin Baozhong", "Wen Shan Pao Chung", "Bao Zhong oolong", "Wrapped tea"],
+  "aliases": [
+    "Pouchong",
+    "Baozhong",
+    "Pinglin Baozhong",
+    "Wen Shan Pao Chung",
+    "Bao Zhong oolong",
+    "Wrapped tea",
+    "文山包種茶",
+    "包種茶",
+    "包种茶",
+    "Вэньшань Баочжун"
+  ],
   "category": "oolong",
   "origin_country": "Taiwan",
-  "origin_region": "New Taipei · Pinglin, Shiding and Xindian (Wenshan area)",
+  "origin_region": "New Taipei · Pinglin",
   "cultivar": "Qingxin (Qing Xin oolong); some Cui Yu and newer TRES cultivars",
-  "processing": "The lightest oxidation of any oolong, roughly 8–18%, with the leaf gently twisted into loose strips rather than rolled into balls, then dried at low heat with no roast.",
+  "processing": "The lightest oxidation of any oolong, roughly 7 to 13%, with the leaf gently twisted into loose strips rather than rolled into balls, then dried at low heat with no roast.",
   "form": "loose",
-  "harvest_season": "Spring (April to early May) is the prized harvest and winter (October–November) the second; summer and autumn lots are cheaper. Gardens sit at 400–800 m.",
+  "harvest_season": "Spring, with picking from around the end of March, is the prized harvest and winter (October–November) the second; summer and autumn lots are cheaper, and Pinglin gets about five flushes a year. Gardens sit above 400 m.",
   "appearance_dry": "Long, loosely twisted, slightly crumpled dark-green strips with a glossy surface.",
   "appearance_liquor": "Pale greenish gold, very clear.",
   "appearance_wet": "Whole green leaves with a faint reddish edge, soft and fragrant.",
   "taste_profile": "Lily, orchid and fresh-cut flowers over a light, sweet, almost green-tea body with a clean finish and a faint cooling note; no roast at all.",
-  "taste_tags": ["floral", "sweet", "grassy", "vegetal"],
-  "brewing": {"grams": 5, "water_ml": 120, "temp_c": 90, "steeps": 6, "seconds": [35, 30, 40, 50, 70, 100], "notes": "Water a little below the boil, porcelain, and fill the gaiwan generously because the leaf is bulky and light; boiling water and long steeps turn it grassy. A superb cold brew."},
+  "taste_tags": [
+    "floral",
+    "sweet",
+    "grassy",
+    "vegetal"
+  ],
+  "brewing": {
+    "grams": 5,
+    "water_ml": 120,
+    "temp_c": 90,
+    "steeps": 6,
+    "seconds": [
+      35,
+      30,
+      40,
+      50,
+      70,
+      100
+    ],
+    "notes": "Water a little below the boil, porcelain, and fill the gaiwan generously because the leaf is bulky and light; boiling water and long steeps turn it grassy. A superb cold brew."
+  },
   "caffeine_level": "medium",
-  "vintage_note": "Sold as the current year's spring harvest first and winter harvest second, with the Pinglin Farmers' Association spring competition grading and sealing the best lots. Keep it in the fridge, sealed, and drink it within a year; the aroma is the first thing to go. Older lots are re-roasted and sold as roasted or aged Bao Zhong, which is a separate product.",
-  "description": "Wenshan Bao Zhong, usually spelled Pouchong on older labels, is the lightest oolong Taiwan makes and the signature tea of the hills south-east of Taipei: Pinglin, Shiding and Xindian in New Taipei City, at 400 to 800 metres. Where the rest of the island rolls its oolong into balls, Pinglin leaves the leaf as loose, twisted strips and barely oxidises it, so the cup lands somewhere between a green tea and a high-mountain oolong, all lily and orchid.\n\nThe name means 'wrapped kind' and comes from the old practice of selling it in paper parcels of four taels. The leaf, nearly always Qing Xin oolong, is withered briefly in the sun and then indoors with gentle tossing, oxidised to only about 8 to 18 percent, pan-fired, lightly twisted and dried at low heat with no roast. Pinglin's cool, misty valleys and the restraint of the processing are what keep the florals intact; this is a tea that is easy to ruin with heat.\n\nIn the cup it is fresh-cut flowers, lily and gardenia, over a light, sweet, almost green-tea body with a clean finish and a faint cooling note. Brew it with water a little below the boil, in porcelain, with the gaiwan filled generously because the leaf is bulky and light; boiling water and long steeps turn it grassy and harsh. It gives five or six steeps and is also a superb cold brew.\n\nIt is sold as the current year's spring harvest first and winter harvest second, and the Pinglin Farmers' Association competition in spring grades and seals the best lots. Drink it within a year and keep it in the fridge, sealed; the aroma that makes it special is the first thing to go. Cheaper 'Bao Zhong' from elsewhere is often just lightly processed Si Ji Chun; look for Pinglin or Shiding on the label.\n\nIf you want to taste the other side of this tea, the roasted Shu Xiang Bao Zhong and the aged Bao Zhong that Pinglin shops keep in jars are the same leaf grown old and warm.",
+  "vintage_note": "Sold as the current year's spring harvest first and winter harvest second, with New Taipei's Wenshan Bao Zhong evaluation in spring judging the best lots. Keep it in the fridge, sealed, and drink it within a year; the aroma is the first thing to go. Older lots are re-roasted and sold as roasted or aged Bao Zhong, which is a separate product.",
+  "description": "Wenshan Bao Zhong, usually spelled Pouchong on older labels, is the lightest oolong Taiwan makes and the signature tea of the hills south-east of Taipei: above all Pinglin in New Taipei City, at 400 metres and up. Where most Taiwanese oolong is rolled into balls, Pinglin leaves the leaf as loose, twisted strips and barely oxidises it, so the cup lands somewhere between a green tea and a high-mountain oolong, all lily and orchid.\n\nThe name means 'wrapped kind' and comes from the old practice of selling it in paper parcels of four taels. The leaf, nearly always Qing Xin oolong, is withered briefly in the sun and then indoors with gentle tossing, oxidised to only about 7 to 13 percent, pan-fired, lightly twisted and dried at low heat with no roast. Pinglin's cool, misty valleys and the restraint of the processing are what keep the florals intact; this is a tea that is easy to ruin with heat.\n\nIn the cup it is fresh-cut flowers, lily and gardenia, over a light, sweet, almost green-tea body with a clean finish and a faint cooling note. Brew it with water a little below the boil, in porcelain, with the gaiwan filled generously because the leaf is bulky and light; boiling water and long steeps turn it grassy and harsh. It gives five or six steeps and is also a superb cold brew.\n\nIt is sold as the current year's spring harvest first and winter harvest second, and New Taipei's Wenshan Bao Zhong evaluation in spring judges the best lots. Drink it within a year and keep it in the fridge, sealed; the aroma that makes it special is the first thing to go. Cheaper 'Bao Zhong' from elsewhere may be just lightly processed Si Ji Chun; look for Pinglin or Shiding on the label.\n\nIf you want to taste the other side of this tea, the roasted Shu Xiang Bao Zhong and the aged Bao Zhong that Pinglin shops keep in jars are the same leaf grown old and warm.",
   "wikipedia_title": "Pouchong",
   "wikipedia_scope": "exact",
-  "popularity": 4
+  "popularity": 4,
+  "name_zh": "文山包种茶",
+  "name_ru": "Вэнь Шань Бао Чжун",
+  "history": "The name is older than the Taiwanese tea. The usual story credits Wang Yicheng, a tea merchant in Anxi, Fujian, about 150 years ago: he made tea in the manner of Wuyi rock tea and sold it as four taels of leaf in a square parcel of two sheets of coarse paper, printed with the tea's name and his shop's. Wrapped kind, bao zhong, stuck as the name long after the paper stopped mattering.\n\nThe tea reached northern Taiwan with Fujian know-how in the nineteenth century. Farmers brought over plants and methods. Production on the island is often dated from about 1885, around Nangang and Wenshan. One account says that after an oolong slump around 1873, tea firms moved production from Taiwan to Fuzhou and began making baozhong there.\n\nToday the name covers a wide belt of hills in Taipei and New Taipei, from Wenshan and Nangang to Xindian, Shenkeng and Xizhi, but Pinglin is the heart of it. Pinglin alone was reported at about 487 tonnes a year in 2020, roughly 60 percent of New Taipei's output, and the New Taipei Wenshan Bao Zhong evaluation is the city's largest tea contest. Taiwanese tea people sum up the island as northern baozhong and southern oolong, and much of Pinglin lies in a protected water catchment, which keeps fertiliser and pesticide use to a minimum.",
+  "liquor_hex": "#E2D98C",
+  "leaf_hex": "#4F6238",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Baozhong_tea",
+    "https://zh.wikipedia.org/wiki/%E6%96%87%E5%B1%B1%E5%8C%85%E7%A8%AE%E8%8C%B6",
+    "https://newtalk.tw/news/view/2020-05-02/400780",
+    "https://www.news.cn/tw/20250409/d101d8f0476c48ac91b83a4eb4654993/c.html"
+  ],
+  "confidence": "medium",
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d2/Spring_pouchong_tea_leaves_on_plate.jpg/1280px-Spring_pouchong_tea_leaves_on_plate.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d2/Spring_pouchong_tea_leaves_on_plate.jpg/330px-Spring_pouchong_tea_leaves_on_plate.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Spring_pouchong_tea_leaves_on_plate.jpg",
+      "author": "Richard Corner",
+      "license": "CC BY-SA 3.0",
+      "license_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+      "kind": "dry_leaf",
+      "alt": "Long, loosely twisted dark spring Pouchong leaves on a plate"
+    }
+  ]
 }

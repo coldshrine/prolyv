@@ -1,0 +1,49 @@
+{
+  "slug": "himalayan-gold",
+  "name_en": "Himalayan Gold",
+  "name_native": null,
+  "name_romanized": null,
+  "aliases": [],
+  "category": "black",
+  "origin_country": "Nepal",
+  "origin_region": "Sandakphu",
+  "cultivar": null,
+  "form": "loose",
+  "caffeine_level": "high",
+  "brewing": {
+    "grams": 3,
+    "water_ml": 200,
+    "temp_c": 95,
+    "steeps": 2,
+    "seconds": [
+      180,
+      240
+    ],
+    "notes": "A safe starting point for black tea: Western style, water just off the boil."
+  },
+  "taste_tags": [
+    "honey"
+  ],
+  "description": "A monsoon-picked black tea from the Sandakphu factory in Nepal.\n\nTreat it as you would any black tea: water just off the boil, a few minutes in the pot, and a seller who can say where it was grown.",
+  "wikipedia_title": null,
+  "wikipedia_scope": "none",
+  "popularity": 1,
+  "name_zh": "喜马拉雅金红茶",
+  "name_ru": "Гималайское золото",
+  "history": "It was sold by Nepali Tea Traders and named best black tea at the North American Tea Championships in April 2015. Little more is documented about it.",
+  "liquor_hex": "#A8501F",
+  "leaf_hex": "#3F2E1E",
+  "sources": [
+    "https://stir-tea-coffee.com/features/teas-from-the-hills-of-nepal"
+  ],
+  "confidence": "medium",
+  "images": [],
+  "stub": true,
+  "processing": "Oxidized slowly over several hours, then wood fired.",
+  "harvest_season": "Picked during the monsoon, a season that tends to give plainer teas.",
+  "appearance_dry": "Usually dark twisted leaf, sometimes with golden tips.",
+  "appearance_liquor": "Usually a clear red-brown.",
+  "appearance_wet": "Usually coppery brown leaf.",
+  "taste_profile": "Complex, with a wild honey character.",
+  "vintage_note": "Black teas are normally sold by harvest year and are best within a couple of years."
+}

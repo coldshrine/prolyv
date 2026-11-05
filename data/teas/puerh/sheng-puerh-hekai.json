@@ -3,10 +3,16 @@
   "name_en": "Hekai Sheng Pu-erh",
   "name_native": "贺开生普洱",
   "name_romanized": "Hèkāi Shēng Pǔ'ěr",
-  "aliases": ["He Kai sheng", "Hekai Laozhai", "Mannong Laozhai", "Ban Pen", "贺开古茶园"],
+  "aliases": [
+    "He Kai sheng",
+    "Hekai Laozhai",
+    "Mannong Laozhai",
+    "Ban Pen",
+    "贺开古茶园"
+  ],
   "category": "sheng",
   "origin_country": "China",
-  "origin_region": "Yunnan · Xishuangbanna · Menghai · Menghun · Hekai",
+  "origin_region": "Yunnan · Xishuangbanna · Menghun · Hekai",
   "cultivar": "Yunnan large-leaf (Camellia sinensis var. assamica), old seed-grown Lahu village gardens",
   "processing": "Raw pu-erh: pan-fired, rolled and sun-dried maocha pressed into cakes; traditional wood-fired kill-green in some households gives a light smokiness that fades with a year or two.",
   "form": "cake",
@@ -15,12 +21,47 @@
   "appearance_liquor": "Gold to orange-gold, clear.",
   "appearance_wet": "Broad, thick, leathery olive-green leaves; sturdy Bulang-side material.",
   "taste_profile": "A rounder Bulang: honey and dried flowers, a clear bitterness with moderate grip that turns to sweetness quickly, a full body, a long warm finish and sometimes a wisp of smoke in young tea.",
-  "taste_tags": ["honey", "bitter", "sweet", "floral", "smoky"],
-  "brewing": {"grams": 7, "water_ml": 110, "temp_c": 95, "steeps": 11, "seconds": [8, 6, 8, 10, 15, 20, 30, 45, 60, 90, 150], "notes": "Rinse once. Short early steeps; this leaf is strong and opens fast. A clay pot softens any smokiness in young tea."},
+  "taste_tags": [
+    "honey",
+    "bitter",
+    "sweet",
+    "floral",
+    "smoky"
+  ],
+  "brewing": {
+    "grams": 7,
+    "water_ml": 110,
+    "temp_c": 95,
+    "steeps": 11,
+    "seconds": [
+      8,
+      6,
+      8,
+      10,
+      15,
+      20,
+      30,
+      45,
+      60,
+      90,
+      150
+    ],
+    "notes": "Rinse once. Short early steeps; this leaf is strong and opens fast. A clay pot softens any smokiness in young tea."
+  },
   "caffeine_level": "high",
   "vintage_note": "Sold by spring harvest year and village (Mannong Laozhai, Manmai, Hekai Laozhai, Ban Pen), as cakes from both boutique producers and the larger company that holds a garden base here, so some Hekai cakes carry factory-style production years. Young (1–3 years) it is bitter and bright; the 5–15-year window brings honey and a Bulang-like depth, and because Hekai leaf has gone into Menghai blends for decades, aged Hekai mostly exists unlabelled inside old factory cakes. Supply is 2005–2025, mostly dry-stored, and prices are fair for old-tree Menghai tea, with Ban Pen the pricey exception because it borders Lao Ban Zhang.",
   "description": "Hekai is a Lahu area in Menghun township, Menghai County, on the slopes that lead up to Bulang Mountain, and it holds what is usually described as the largest continuous old tea garden in Xishuangbanna, thousands of seed-grown trees spread through villages such as Mannong Laozhai and Manmai at around 1,400–1,700 m. Its tea is the friendly face of the Bulang style: full, bitter-sweet and honeyed, without quite the ferocity of Lao Ban Zhang.\n\nThe leaf is thick and oily and is processed as standard sheng. Some households still kill-green in wood-fired woks, so young Hekai can carry a light smokiness that disappears with a year or two of storage; a larger tea company also runs a garden base here and presses more standardised cakes.\n\nIn the cup Hekai opens with honey and dried flowers, then a clear bitterness with moderate grip that converts to sweetness within a few seconds, a full body and a long warm finish. It is rounder than Bulang proper and more robust than Nannuo. Flash the early steeps; it has the stamina for a long session and improves markedly after five or six years in storage.\n\nSold by spring year and village. Ban Pen, which lies administratively in Hekai but borders Lao Ban Zhang, is the premium and is often sold as a Ban Zhang substitute; the rest of Hekai is reasonably priced for genuine old-tree Menghai tea. Thick leathery leaves and a bitterness that really does turn sweet are what to look for; a thin, drying tea labelled Hekai gushu is plantation leaf from the lower slopes.\n\nIf Lao Ban Zhang is out of reach, Hekai or Ban Pen is the honest way to drink the same mountain.",
   "wikipedia_title": "Pu'er tea",
   "wikipedia_scope": "umbrella",
-  "popularity": 2
+  "popularity": 2,
+  "name_zh": "贺开生普洱",
+  "name_ru": "Хэ Кай Шэн Пуэр",
+  "history": "Hekai is a Lahu area in Menghun township, Menghai County, on the approach to Bulang Mountain, and is known for its extensive old seed-grown gardens around villages such as Mannong Laozhai. Its tea came to be sold under its own name as drinkers began seeking out single villages; before that, leaf from the area is said to have gone anonymously into Menghai blends. Little beyond this is well documented, and claims about the size of the gardens vary.",
+  "liquor_hex": "#D5A043",
+  "leaf_hex": "#3A3D26",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Pu%27er_tea"
+  ],
+  "confidence": "low",
+  "images": []
 }

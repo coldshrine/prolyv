@@ -3,7 +3,13 @@
   "name_en": "Jin Suo Chi",
   "name_native": "金锁匙",
   "name_romanized": "Jīn Suǒchí",
-  "aliases": ["Golden Key", "Jin Suo Chi tea", "Jinsuochi", "Jin Suo Shi"],
+  "aliases": [
+    "Golden Key",
+    "Jin Suo Chi tea",
+    "Jinsuochi",
+    "Jin Suo Shi",
+    "金鎖匙"
+  ],
   "category": "oolong",
   "origin_country": "China",
   "origin_region": "Fujian · Wuyi Mountains",
@@ -15,13 +21,45 @@
   "appearance_liquor": "Golden-orange, bright and clear.",
   "appearance_wet": "Medium-sized, soft olive leaves with thin red rims.",
   "taste_profile": "Soft and sweet: sugar-cane sweetness, a light orchid-and-honey aroma, a gentle body and a clean, cooling mineral finish, lighter and quieter than the famous bushes.",
-  "taste_tags": ["sweet", "floral", "honey", "mineral"],
-  "brewing": {"grams": 8, "water_ml": 110, "temp_c": 100, "steeps": 7, "seconds": [10, 10, 15, 20, 30, 45, 70], "notes": "Boiling water, porcelain gaiwan, short steeps. Drink it early in a session and on its own; after a Rou Gui its quiet sweetness disappears."},
+  "taste_tags": [
+    "sweet",
+    "floral",
+    "honey",
+    "mineral"
+  ],
+  "brewing": {
+    "grams": 8,
+    "water_ml": 110,
+    "temp_c": 100,
+    "steeps": 7,
+    "seconds": [
+      10,
+      10,
+      15,
+      20,
+      30,
+      45,
+      70
+    ],
+    "notes": "Boiling water, porcelain gaiwan, short steeps. Drink it early in a session and on its own; after a Rou Gui its quiet sweetness disappears."
+  },
   "caffeine_level": "medium",
   "vintage_note": "Spring harvest of the current year, roasted in early summer and sold from late summer or autumn with the year stated, in small quantities. With its light to medium roast it is best within one to two years of harvest and is not an ageing tea.",
-  "description": "Jin Suo Chi, the golden key, is one of the traditional named bushes (mingcong) of the Wuyi Mountains, a rock tea that trades power for a clean, sugar-cane sweetness. It is a connoisseur's curiosity rather than a staple, grown in small plots and sold in small bags.\n\nWuyi has hundreds of historic mingcong, individual bushes that were noticed for their character, named and propagated, and most of them never reached the market in quantity. Jin Suo Chi is one of the ones that did, just about: it is traditionally placed in the core scenic area and is now grown by a handful of makers inside and outside it. The name is poetic rather than descriptive, and like most mingcong names it comes with stories that are best enjoyed as stories.\n\nIt is made like any yancha, mature leaf, overnight shaking to a medium oxidation, strip rolling and a charcoal roast, but makers keep the roast light to medium because the tea's virtue is delicacy. The cup is golden, the aroma is a soft orchid-and-honey, and the taste is sweet in a particular way, like the water from boiled sugar cane, with a gentle body and a cooling mineral finish that is short but clean.\n\nBrew it with boiling water in a gaiwan and quick steeps, and give it the first slot of a session; it has six or seven good infusions in it and nothing to prove. It is a tea for paying attention rather than for impressing guests.\n\nIt is sold by the current spring harvest and should be drunk within a year or two. Because it is rare, the name occasionally gets borrowed for ordinary light-roast yancha, so buy from a Wuyi specialist who states the year and the garden. If you like it, the other soft mingcong worth seeking out are Bai Rui Xiang and Bai Ji Guan.",
+  "description": "Jin Suo Chi, the golden key, is one of the traditional named bushes (mingcong) of the Wuyi Mountains, a rock tea that trades power for a clean, sugar-cane sweetness. It is a connoisseur's curiosity rather than a staple, grown in small plots and sold in small bags.\n\nWuyi has hundreds of historic mingcong, individual bushes that were noticed for their character, named and propagated, and most of them never reached the market in quantity. Jin Suo Chi is one of the ones that did, just about, and it is now grown by a handful of makers. Chinese accounts class its name among those taken from the place where the bush grows, though the original site itself is told differently from one account to the next.\n\nIt is made like any yancha, mature leaf, overnight shaking to a medium oxidation, strip rolling and a charcoal roast, but makers keep the roast light to medium because the tea's virtue is delicacy. The cup is golden, the aroma is a soft orchid-and-honey, and the taste is sweet in a particular way, like the water from boiled sugar cane, with a gentle body and a cooling mineral finish that is short but clean.\n\nBrew it with boiling water in a gaiwan and quick steeps, and give it the first slot of a session; it has six or seven good infusions in it and nothing to prove. It is a tea for paying attention rather than for impressing guests.\n\nIt is sold by the current spring harvest and should be drunk within a year or two. Because it is rare, the name occasionally gets borrowed for ordinary light-roast yancha, so buy from a Wuyi specialist who states the year and the garden. If you like it, the other soft mingcong worth seeking out are Bai Rui Xiang and Bai Ji Guan.",
   "wikipedia_title": "Jin Suo Chi tea",
   "wikipedia_scope": "exact",
   "popularity": 1,
-  "sources_note": "The original cliff site of the Jin Suo Chi mother bushes is given differently in different Chinese sources, so no site is named here."
+  "sources_note": "The original cliff site of the Jin Suo Chi mother bushes is given differently in different Chinese sources, so no site is named here.",
+  "name_zh": "金锁匙",
+  "name_ru": "Цзинь Со Чи",
+  "history": "Jin Suo Chi is a rare Wuyi oolong known for a light taste, and little is documented about it. Chinese accounts of Wuyi tea mention it in one line, among the bushes named after the place where they grow, alongside Bu Jian Tian. They list Jin Yao Shi, also a golden key by meaning, as a separate plant, so the two names should not be taken as one tea.\n\nNo reliable date, discoverer or original site is on record, and accounts of where the first bushes stood disagree.",
+  "liquor_hex": "#D79A3C",
+  "leaf_hex": "#3F3B28",
+  "sources": [
+    "https://zh.wikipedia.org/wiki/%E6%AD%A6%E5%A4%B7%E5%B2%A9%E8%8C%B6",
+    "https://zh.wikipedia.org/wiki/%E5%A4%A7%E7%BA%A2%E8%A2%8D",
+    "https://en.wikipedia.org/wiki/Jin_Suo_Chi_tea"
+  ],
+  "confidence": "low",
+  "images": []
 }

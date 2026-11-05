@@ -3,10 +3,17 @@
   "name_en": "Jin Xuan Black Tea",
   "name_native": "金萱紅茶",
   "name_romanized": "Jīnxuān Hóngchá",
-  "aliases": ["Jinxuan black", "Milk black tea", "TTES #12 black", "Jin Xuan Hong Cha", "Taiwan small-leaf black", "Alishan Jin Xuan black"],
+  "aliases": [
+    "Jinxuan black",
+    "Milk black tea",
+    "TTES #12 black",
+    "Jin Xuan Hong Cha",
+    "Taiwan small-leaf black",
+    "Alishan Jin Xuan black"
+  ],
   "category": "black",
   "origin_country": "Taiwan",
-  "origin_region": "Nantou · Mingjian; Chiayi · Alishan; Taitung · Luye (various)",
+  "origin_region": "Nantou · Mingjian",
   "cultivar": "Jin Xuan (TTES #12)",
   "processing": "Fully oxidised small-leaf black: withered, rolled (commonly into tight balls, sometimes twisted strips), oxidised and dried; no roast and nothing added.",
   "form": "loose",
@@ -15,12 +22,39 @@
   "appearance_liquor": "Bright orange-red, clear.",
   "appearance_wet": "Broad, soft, copper-coloured leaves.",
   "taste_profile": "Caramel, cooked sweet potato and a creamy, custard-like softness with light malt and no bitterness; a gentle, dessert-like black.",
-  "taste_tags": ["sweet", "creamy", "malty", "honey"],
-  "brewing": {"grams": 5, "water_ml": 120, "temp_c": 90, "steeps": 6, "seconds": [20, 20, 30, 40, 60, 90], "notes": "Forgiving: 90 °C, three minutes Western-style or short gongfu steeps, and it does not punish longer steeps. Lovely cold-brewed and the base of the better 'Jin Xuan milk tea'."},
+  "taste_tags": [
+    "sweet",
+    "creamy",
+    "malty",
+    "honey"
+  ],
+  "brewing": {
+    "grams": 5,
+    "water_ml": 120,
+    "temp_c": 90,
+    "steeps": 6,
+    "seconds": [
+      20,
+      20,
+      30,
+      40,
+      60,
+      90
+    ],
+    "notes": "Forgiving: 90 °C, three minutes Western-style or short gongfu steeps, and it does not punish longer steeps. Lovely cold-brewed and the base of the better 'Jin Xuan milk tea'."
+  },
   "caffeine_level": "medium",
   "vintage_note": "Sold by cultivar name and harvest year, with Alishan spring and winter lots at the top and lowland summer tea at easy prices; it is rarely faked because it is cheap to make honestly, though flavoured 'milk black tea' exists. Drink it within two years.",
   "description": "Jin Xuan black is what happens when Taiwan's creamy 'milk oolong' cultivar is fully oxidised instead of being made into rolled oolong: a soft, sweet, small-leaf black tea that tastes of caramel and custard. It became common in the 2000s and 2010s as Taiwanese small-leaf blacks took off, and because Jin Xuan grows everywhere from the Mingjian lowlands to Alishan and Taitung, it is now one of the easiest Taiwanese blacks to find.\n\nThe leaf, Taiwan Tea Experiment Station cultivar number 12, is withered, rolled, typically into tight balls in the Taiwanese manner, though some makers twist it into strips, fully oxidised and dried, with no roast and nothing added. Much of it is made from summer leaf, when oolong prices are low and the heat suits black tea, but Alishan growers also make spring and winter lots that are finer and more fragrant.\n\nThe cup is bright orange-red and gentle: caramel, cooked sweet potato and a creamy, custard-like softness with light malt and no bitterness. It is the Taiwanese black for people who find Assam harsh. Brew it at around 90 degrees, three minutes Western-style or short gongfu steeps, and it will not punish you if you go longer; it makes a lovely cold brew and is the base of the better 'Jin Xuan milk tea' in drink shops.\n\nIt is sold by cultivar name and harvest year, with Alishan spring and winter lots at the top and lowland summer tea at easy prices, and it is rarely faked because it is cheap to make honestly. Flavoured 'milk black tea' exists; if the aroma is a loud condensed-milk smell rather than a soft creaminess, something has been added. Drink it within two years.\n\nTry it next to Ruby 18 to feel the gap between Taiwan's gentlest and boldest black teas.",
   "wikipedia_title": "Jin Xuan tea",
   "wikipedia_scope": "umbrella",
-  "popularity": 2
+  "popularity": 2,
+  "name_zh": "金萱红茶",
+  "name_ru": "Цзинь Сюань Хун Ча",
+  "history": "This is a recent idea rather than an old tradition: the Jin Xuan bush, bred in Taiwan and best known for creamy rolled oolong, made as a fully oxidised black tea instead. It belongs to the wider turn of Taiwanese growers towards small-leaf black teas, and it is made in several districts rather than one home region. Little is documented about who made it first or when.",
+  "liquor_hex": "#BF6A2C",
+  "leaf_hex": "#3F2A1E",
+  "sources": [],
+  "confidence": "low",
+  "images": []
 }

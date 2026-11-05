@@ -1,0 +1,58 @@
+{
+  "slug": "persimmon-leaf-tea",
+  "name_en": "Persimmon Leaf Tea (Gamnip-cha)",
+  "name_native": "감잎차",
+  "name_romanized": "Gamnip-cha",
+  "name_zh": "柿叶茶",
+  "name_ru": "Чай из листьев хурмы (камнип-ча)",
+  "aliases": [
+    "Gamnip-cha",
+    "Shiyecha",
+    "Kakinoha-cha",
+    "柿葉茶",
+    "柿子叶茶",
+    "柿の葉茶",
+    "Чай из листьев хурмы"
+  ],
+  "category": "tisane",
+  "origin_country": "South Korea",
+  "origin_region": "Korea",
+  "cultivar": null,
+  "processing": "Young persimmon leaves are washed and dried in shade for two to three days, usually cut small, steamed, then dried again.",
+  "form": "loose",
+  "harvest_season": "Young leaves are picked in May or June.",
+  "appearance_dry": "Cut pieces of dried leaf, typically a dull olive green.",
+  "appearance_liquor": "Typically a light yellow-green to pale gold, as with other lightly dried leaf infusions.",
+  "appearance_wet": "Soft cut leaf pieces, a muted green.",
+  "taste_profile": "Little is documented about its flavour; as with other dried-leaf infusions, expect something mild, herbal and lightly vegetal rather than sharp.",
+  "taste_tags": [
+    "herbal",
+    "vegetal"
+  ],
+  "brewing": {
+    "grams": 3,
+    "water_ml": 100,
+    "temp_c": 70,
+    "steeps": 1,
+    "seconds": [
+      900
+    ],
+    "notes": "Use 2 to 3 g per 100 ml of water that has boiled and cooled to 70 °C, and give it a long 15 minutes. A drop of maesil-ju or a little yuja-cheong is a traditional finish."
+  },
+  "caffeine_level": "none",
+  "vintage_note": "Not sold by vintage. The leaf is picked in early summer and sold as a dried herbal product, so it is best bought recent and drunk within about a year, as is usual for dried herbs.",
+  "description": "Persimmon leaf tea is an infusion of dried leaves from the persimmon tree, drunk across East Asia: gamnip-cha in Korea, shiyecha in China, kakinoha-cha in Japan. It has no tea plant in it.\n\nThe making is modest but specific. Young leaves are picked in May or June, washed, dried for a few days in shade, cut small, steamed and dried again.\n\nBrewing is the surprising part: the water should be cooled to about 70 °C but the steep runs a full 15 minutes, far longer than you would give a green tea. Flavour notes are scarce, so taste it plain first; expect the gentle, herbal character typical of leaf infusions.\n\nThere is no grading system to learn. Look for clearly labelled persimmon leaf with nothing added, and treat it like any dried herb when storing it.\n\nIf you want it dressed up, a drop of plum liquor or a spoon of yuja marmalade is the Korean way to serve it.",
+  "history": "Korean accounts describe gamnip-cha as a traditional tea and report that the Donguibogam and the Chinese Bencao Gangmu record persimmon leaf uses related to blood and the heart. Such medicinal claims come from tradition and early research, and little is documented about when the leaf first became an everyday drink.",
+  "liquor_hex": "#C9B868",
+  "leaf_hex": "#66703A",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Persimmon_leaf_tea",
+    "https://ko.wikipedia.org/wiki/%EA%B0%90%EC%9E%8E%EC%B0%A8",
+    "https://www.wikidata.org/wiki/Q29944733"
+  ],
+  "confidence": "medium",
+  "wikipedia_title": "Persimmon leaf tea",
+  "wikipedia_scope": "exact",
+  "popularity": 2,
+  "images": []
+}

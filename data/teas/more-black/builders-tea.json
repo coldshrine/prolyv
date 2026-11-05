@@ -1,0 +1,55 @@
+{
+  "slug": "builders-tea",
+  "name_en": "Builder's Tea",
+  "name_native": null,
+  "name_romanized": null,
+  "name_zh": "建筑工人茶",
+  "name_ru": "Строительский чай",
+  "aliases": [
+    "Builder's brew",
+    "Gaffer's tea",
+    "Чай строителя"
+  ],
+  "category": "black",
+  "origin_country": "United Kingdom",
+  "origin_region": "Great Britain",
+  "cultivar": null,
+  "processing": "Not a processed tea of its own but a way of making one: inexpensive black tea, usually a teabag, brewed strong in a mug, then finished with milk and often sugar.",
+  "form": "other",
+  "harvest_season": "No harvest to speak of: the teabags are ordinary everyday black blends, available all year.",
+  "appearance_dry": "Usually just a teabag of fine, dark, chopped black tea, as is typical of everyday British blends.",
+  "appearance_liquor": "Robust and opaque with milk, a rich dark beige.",
+  "appearance_wet": "Dark, fine leaf inside the spent bag.",
+  "taste_profile": "Strong and brisk, with the tannic bite rounded off by milk and, for many drinkers, a sweet edge from a spoon or two of sugar.",
+  "taste_tags": [
+    "brisk",
+    "malty",
+    "creamy",
+    "sweet"
+  ],
+  "brewing": {
+    "grams": 2.5,
+    "water_ml": 300,
+    "temp_c": 100,
+    "steeps": 1,
+    "seconds": [
+      240
+    ],
+    "notes": "One bag in a mug with freshly boiled water, left until properly dark. Add milk after stirring or steeping, then sugar to taste."
+  },
+  "caffeine_level": "high",
+  "vintage_note": "Never sold by year or season, and not usually under this name at all: it is a term for how the cup is made. Everyday black teabags are sold year-round as a consistent blend, and fresher simply tastes better.",
+  "description": "Builder's tea is British slang rather than a tea you can trace to a garden: a strong mug of cheap black tea, named after the labourers who take it on their breaks. You will also hear it called builder's brew or gaffer's tea, in Ireland as well as Britain.\n\nThe method is the whole identity. A teabag goes into a mug, not loose leaf into a pot, and it stays there long enough to turn the water really dark. Milk goes in after stirring or steeping, and often one or two teaspoons of white sugar follow.\n\nThe cup should be a dark beige, solid and bracing. The usual mistake is pulling the bag too early and ending up with weak, milky water; this one needs strength to stand up to the milk.\n\nThere is nothing to hunt for when buying. Any everyday British-style black teabag does the job, and no grade or vintage applies. If you enjoy it, a loose breakfast blend made just as strong is a natural next step.",
+  "history": "The name comes from the building trade, where workers typically get through many cups during the day, and it spread into general use across Great Britain and Ireland. No inventor or date of coinage is known.\n\nIt belongs to a wider British habit in which a mug of milky tea is an everyday working drink, and the tea break a fixture of the working day, rather than a refined ritual. Research by the Social Issues Research Centre reported that people doing construction work found tea both soothing and stimulating.",
+  "liquor_hex": "#A9744A",
+  "leaf_hex": "#33231A",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Builder%27s_tea",
+    "https://en.wikipedia.org/wiki/Tea_culture"
+  ],
+  "confidence": "medium",
+  "wikipedia_title": "Builder's tea",
+  "wikipedia_scope": "exact",
+  "popularity": 3,
+  "images": []
+}

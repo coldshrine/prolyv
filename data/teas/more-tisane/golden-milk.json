@@ -1,0 +1,60 @@
+{
+  "slug": "golden-milk",
+  "name_en": "Golden Milk (Haldi Doodh)",
+  "name_native": "हल्दी दूध",
+  "name_romanized": "Haldī Dūdh",
+  "name_zh": "姜黄奶",
+  "name_ru": "Золотое молоко (халди дудх)",
+  "aliases": [
+    "Golden milk",
+    "Haldi doodh",
+    "Golden latte",
+    "Turmeric latte",
+    "Turmeric milk",
+    "Haldi ka doodh",
+    "黄金奶"
+  ],
+  "category": "tisane",
+  "origin_country": "India",
+  "origin_region": "Indian subcontinent",
+  "cultivar": null,
+  "processing": "Turmeric juice or dried powder is simmered in hot cow or plant milk, often with black pepper, ghee and other spices, and sweetened to taste.",
+  "form": "powder",
+  "harvest_season": "A recipe rather than a crop, made all year.",
+  "appearance_dry": "Bright orange-yellow turmeric powder, alone or in a spice mix.",
+  "appearance_liquor": "Opaque, creamy golden yellow.",
+  "appearance_wet": "No leaf remains; a fine sediment of spice settles at the bottom of the cup.",
+  "taste_profile": "Warm and creamy, with earthy turmeric and a peppery edge, softened by whatever sweetener goes in.",
+  "taste_tags": [
+    "creamy",
+    "earthy",
+    "spicy",
+    "sweet"
+  ],
+  "brewing": {
+    "grams": 2,
+    "water_ml": 250,
+    "temp_c": 90,
+    "steeps": 1,
+    "seconds": [
+      300
+    ],
+    "notes": "Simmer gently in the milk rather than steeping, about half a teaspoon of turmeric per cup, and stir well before drinking. Adjust spices to taste."
+  },
+  "caffeine_level": "none",
+  "vintage_note": "Has no vintage or season of sale: it is made at home from pantry spices, or sold as a turmeric latte mix or a cafe drink. Check the date on ready mixes, as ground spice fades. Make it fresh when you can.",
+  "description": "Haldi doodh is hot milk with turmeric, a home drink from the Indian subcontinent, traditionally taken for colds and coughs. Golden milk and turmeric latte are its cafe names.\n\nThe method is plain. Turmeric goes into hot milk, along with black pepper and ghee in many homes, and sometimes other spices and a sweetener like honey or jaggery. Plant milk is common in the cafe versions.\n\nIt tastes warm, earthy and a bit peppery, and the fat in the milk rounds it out. Simmer it gently and keep stirring, since turmeric settles to the bottom and stains everything it touches.\n\nThere is nothing to grade when buying, only ground turmeric that still smells strong. Health claims around it are largely traditional or promotional, so drink it because it is comforting rather than as a cure.",
+  "history": "This is a household remedy from the Indian subcontinent, tied to Ayurvedic practice, and turmeric itself has a long record there. Popular writing dates medicinal use of turmeric to about 4,500 years ago, but no firm date exists for the drink.\n\nMore recently it moved to Western cafes and the wellness industry as the golden or turmeric latte, often on plant milk and far from its role in Indian homes as a drink for colds.",
+  "liquor_hex": "#E3A92B",
+  "leaf_hex": "#D98E1F",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Turmeric",
+    "https://sukhis.com/golden-milk-or-turmeric-milk-or-haldi-doodh/",
+    "https://www.countryandtownhouse.com/food-and-drink/golden-milk-benefits-recipe"
+  ],
+  "confidence": "medium",
+  "wikipedia_title": "Turmeric",
+  "wikipedia_scope": "umbrella",
+  "popularity": 3,
+  "images": []
+}

@@ -1,0 +1,64 @@
+{
+  "slug": "bai-sandao-cha",
+  "name_en": "Bai Sandao Cha (Three-Course Tea)",
+  "name_native": "白族三道茶",
+  "name_romanized": "Báizú Sāndào Chá",
+  "name_zh": "白族三道茶",
+  "name_ru": "Бай Цзу Сань Дао Ча",
+  "aliases": [
+    "Bai Sandao Tea",
+    "Baizusandaocha",
+    "Three-course tea",
+    "Sandao cha",
+    "Sandaocha",
+    "三道茶",
+    "Shao Dao Zhao"
+  ],
+  "category": "green",
+  "origin_country": "China",
+  "origin_region": "Yunnan · Dali",
+  "cultivar": null,
+  "processing": "Sun-dried green tea is roasted in a heated clay pot until yellowed and fragrant, then boiling water is added with a crackle. The second and third cups add sweet and spicy ingredients to that tea.",
+  "form": "loose",
+  "harvest_season": "Not tied to a harvest: it is a way of serving tea, made year-round from local green tea.",
+  "appearance_dry": "Ordinary sun-dried green leaf, plus sides of brown sugar, sesame, walnut, rushan cheese, Sichuan pepper, ginger, cinnamon and honey.",
+  "appearance_liquor": "Orange-yellow and clear in the first cup, brownish in the second, chrysanthemum-yellow in the third.",
+  "appearance_wet": "Roasted, darkened leaf from the clay pot, usually not looked at closely.",
+  "taste_profile": "First bitter and mellow from the roast, then sweet and nutty with brown sugar and milk fan, then a numbing, spicy, honeyed finish.",
+  "taste_tags": [
+    "roasted",
+    "bitter",
+    "sweet",
+    "spicy",
+    "nutty"
+  ],
+  "brewing": {
+    "grams": 5,
+    "water_ml": 200,
+    "temp_c": 100,
+    "steeps": 3,
+    "seconds": [
+      120,
+      120,
+      120
+    ],
+    "notes": "Roast the leaf in a preheated clay pot, shaking it until fragrant, then add boiling water. Fill each cup about 80%; the three steeps stand for three cups, each with its own additions."
+  },
+  "caffeine_level": "medium",
+  "vintage_note": "Not sold by year because it is a serving custom, not a product. Any tea used is ordinary local green leaf, best fresh. Tourist performances in Dali are the usual way to meet it.",
+  "description": "Three-Course Tea is how the Bai people of Dali, in Yunnan, receive guests: three cups in a set order, summed up as one bitter, two sweet, three aftertaste. It is a ritual and a recipe, not a type of leaf, which is why it differs from everything else in a tea catalogue.\n\nThe base is a sun-dried green tea roasted in a heated clay pot until it smells toasty, then doused with boiling water so that it crackles; this gives it the name thunder tea. The second cup gets brown sugar, sesame, walnut and flakes of rushan, the local milk fan cheese. The third gets honey, Sichuan pepper, ginger and cinnamon.\n\nThe first cup is genuinely bitter, so resist adding sugar. The second is sweet without being heavy, and the third tingles more than it burns, in a way that stays with you. Serving custom says to fill cups about 80% and raise them to eyebrow height when offering them.\n\nIn Dali you will mostly meet it with song and dance as a tourist performance, with its own local service standard. For the home version, all you need is a small clay pot, a good sun-dried green and some patience with the roast.",
+  "history": "The custom is believed to go back to the Nanzhao kingdom, in the Tang period, as a palace ritual that later passed to temples and then to ordinary households. That early history rests on tradition more than on firm documents. Other accounts simply say that it was an established Bai hosting custom by the Ming. There is also a legend of a Cangshan carpenter who taught his apprentice bitter first, sweet later, using tea, sugar and honey.\n\nFrom the 1980s, tourism in Dali paired it with Bai song and dance. It joined China's national intangible heritage list in 2014 and was included on UNESCO's representative list in 2022.",
+  "liquor_hex": "#C98A2E",
+  "leaf_hex": "#5E5A34",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Three-course_tea_%28Bai_people%29",
+    "https://zh.wikipedia.org/wiki/%E7%99%BD%E6%97%8F%E4%B8%89%E9%81%93%E8%8C%B6",
+    "https://www.wikidata.org/wiki/Q15904311",
+    "https://milulu.com.cn/techan/32467.html"
+  ],
+  "confidence": "high",
+  "wikipedia_title": "Three-course tea (Bai people)",
+  "wikipedia_scope": "exact",
+  "popularity": 3,
+  "images": []
+}

@@ -1,0 +1,60 @@
+{
+  "slug": "meicha",
+  "name_en": "Meicha",
+  "name_native": "眉茶",
+  "name_romanized": "Méichá",
+  "name_zh": "眉茶",
+  "name_ru": "Мэй Ча",
+  "aliases": [
+    "Mee tea",
+    "Eyebrow tea",
+    "Long chaoqing",
+    "长炒青",
+    "眉茶"
+  ],
+  "category": "green",
+  "origin_country": "China",
+  "origin_region": "Anhui, Zhejiang and Jiangxi",
+  "cultivar": null,
+  "processing": "Long pan-fired green tea (chang chaoqing) is refined by sieving, cutting, winnowing, picking, polishing and blending into uniform grades.",
+  "form": "loose",
+  "harvest_season": "Across the season rather than one picking; earlier leaf goes into the higher grades.",
+  "appearance_dry": "Long curved strands, glossy green with a frosty white bloom, shaped like a fine eyebrow.",
+  "appearance_liquor": "Yellow-green and clear, deeper in the stronger grades.",
+  "appearance_wet": "Green strands and leaf pieces, more broken in the lower grades.",
+  "taste_profile": "Tight, pan-fired green tea with a high lasting aroma and a strong, full taste that turns brisk if overbrewed.",
+  "taste_tags": [
+    "roasted",
+    "vegetal",
+    "brisk",
+    "bitter"
+  ],
+  "brewing": {
+    "grams": 3,
+    "water_ml": 200,
+    "temp_c": 85,
+    "steeps": 3,
+    "seconds": [
+      45,
+      60,
+      90
+    ],
+    "notes": "Short steeps and water below boiling."
+  },
+  "caffeine_level": "medium",
+  "vintage_note": "Sold by grade and blend rather than by vintage, year-round, from the latest production: zhenmei, yucha, xiumei and gongxi are the usual export grades. Drink it within a year or two; it is a green tea and does not improve with age.",
+  "description": "Meicha, eyebrow tea, is the great commercial form of Chinese green tea: long pan-fired leaf sorted and polished until the curved, frosted strands really do look like a slender eyebrow. Rather than one place's speciality, it is the backbone of a whole export trade.\n\nIt starts as chang chaoqing, long pan-fired green tea, and is then refined by sieving, cutting, winnowing, picking, polishing and blending. That refining is the difference between a farm's green tea and a uniform grade a buyer can reorder.\n\nThe cup is strong by green tea standards, with a high aroma and a full taste. It punishes long steeps and hot water with bitterness, so pour early. If you want more body, add leaf instead of time.\n\nBuy by grade. Zhenmei, known abroad as Chun Mee, sits at the top, followed by yucha, xiumei and gongxi, though labelling varies by exporter. Regional names such as Tunlü, Wulü, Suilü, Hanglü and Raolü tell you which district shaped the lot.\n\nFor a side-by-side, try it beside gunpowder pearls, the round pan-fired sibling with its own trade history.",
+  "history": "Meicha grew out of the pan-fired green tea tradition, which spread widely from the Ming dynasty. The districts of Zhejiang, Anhui and Jiangxi gave it its regional names.\n\nIts modern form is defined by factory refining and national standards, with fixed grades for trade. Accounts disagree over how individual regional names such as Tunlü are classed today.",
+  "liquor_hex": "#CFC56F",
+  "leaf_hex": "#55663A",
+  "sources": [
+    "https://m.bjnews.com.cn/detail/174761218819726.html",
+    "https://m.thepaper.cn/newsDetail_forward_13190935",
+    "https://www.ttbz.org.cn/upload/file/20250401/6387910006025609053718509.doc"
+  ],
+  "confidence": "medium",
+  "wikipedia_title": "Green tea",
+  "wikipedia_scope": "umbrella",
+  "popularity": 3,
+  "images": []
+}

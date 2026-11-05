@@ -1,0 +1,56 @@
+{
+  "slug": "tengu-kurocha",
+  "name_en": "Tengu Kurocha",
+  "name_native": "天狗黒茶",
+  "name_romanized": "Tengu kurocha",
+  "aliases": [
+    "天狗黑茶"
+  ],
+  "category": "heicha",
+  "origin_country": "Japan",
+  "origin_region": "Ehime · Saijo",
+  "cultivar": null,
+  "form": "loose",
+  "caffeine_level": "medium",
+  "brewing": {
+    "grams": 6,
+    "water_ml": 120,
+    "temp_c": 100,
+    "steeps": 6,
+    "seconds": [
+      15,
+      15,
+      20,
+      30,
+      45,
+      60
+    ],
+    "notes": "A safe starting point for dark tea: rinse once, boiling water, or simmer it the traditional way."
+  },
+  "taste_tags": [
+    "earthy",
+    "woody"
+  ],
+  "description": "A dark tea from Ehime Prefecture, developed from the local Ishizuchi kurocha tradition.\n\nTreat it as you would any dark tea: rinse it, use boiling water, and buy from someone who can say who pressed it and when.",
+  "wikipedia_title": null,
+  "wikipedia_scope": "none",
+  "popularity": 1,
+  "name_zh": "天狗黑茶",
+  "name_ru": "Тэнгу куротя",
+  "history": "When Ishizuchi kurocha was down to a single producer, a local livelihood-study group took up the technique and turned it into a product under the name Tengu kurocha. Little more is documented about it.",
+  "liquor_hex": "#A8772E",
+  "leaf_hex": "#3A2E1C",
+  "sources": [
+    "https://ja.wikipedia.org/wiki/黒茶"
+  ],
+  "confidence": "low",
+  "images": [],
+  "stub": true,
+  "processing": "Typical of dark tea: green leaf is piled so that microbes ferment it, then dried and often pressed.",
+  "harvest_season": "Often made from coarser, later leaf, as with most dark teas.",
+  "appearance_dry": "Usually dark leaf, loose or pressed into bricks or baskets.",
+  "appearance_liquor": "Usually orange-red to dark brown.",
+  "appearance_wet": "Usually coarse dark leaf with some stem.",
+  "taste_profile": "Expect what dark teas usually give: smooth, woody and earthy.",
+  "vintage_note": "Dark teas are sold by production year and many improve with several years of dry storage."
+}

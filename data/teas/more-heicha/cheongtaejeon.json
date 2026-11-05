@@ -1,0 +1,65 @@
+{
+  "slug": "cheongtaejeon",
+  "name_en": "Cheongtaejeon",
+  "name_native": "청태전",
+  "name_romanized": "Cheongtaejeon",
+  "name_zh": "青苔钱",
+  "name_ru": "Чхонтхэджон",
+  "aliases": [
+    "Doncha",
+    "돈차",
+    "Jeoncha",
+    "錢茶",
+    "Money tea",
+    "Coin tea",
+    "靑苔錢",
+    "Green moss coin"
+  ],
+  "category": "heicha",
+  "origin_country": "South Korea",
+  "origin_region": "Jeollanam-do · Jangheung",
+  "cultivar": null,
+  "processing": "Leaves are steamed about twelve hours after picking, pounded in a mortar or ground in a millstone, shaped into round lumps, sun-dried and holed like an old coin. They then ferment for at least six months, sometimes for over twenty years.",
+  "form": "cake",
+  "harvest_season": "Hand-picked in May from plants growing wild on the southern coast of Korea.",
+  "appearance_dry": "Small dark coins with a hole in the middle, sometimes with the mossy look that gave the tea its name.",
+  "appearance_liquor": "A clear amber-brown, as is usual for aged steamed cake tea.",
+  "appearance_wet": "The coin softens and comes apart into a pulpy brown mass of pounded leaf.",
+  "taste_profile": "Exact tasting notes are rarely recorded. As with other aged cake teas expect a soft woody, earthy cup, and toasting the coin first adds a roasted edge.",
+  "taste_tags": [
+    "woody",
+    "earthy",
+    "roasted"
+  ],
+  "brewing": {
+    "grams": 8,
+    "water_ml": 550,
+    "temp_c": 90,
+    "steeps": 4,
+    "seconds": [
+      300,
+      360,
+      480,
+      600
+    ],
+    "notes": "One coin of 7 to 9 g in 500 to 600 ml of water at 85 to 95°C for 5 to 10 minutes. Warm it on both sides over low heat first; it holds up for three or four steeps."
+  },
+  "caffeine_level": "low",
+  "vintage_note": "Sold as aged coins, with six months of fermentation as the minimum and some kept for over twenty years. The May picking counts for less than the time spent resting, so ask for the year it was made.",
+  "description": "Cheongtaejeon, green moss coin, is the Jangheung name for doncha: Korean post-fermented tea shaped like a holed coin. The name comes from the look of the aged tea, like an old coin that has grown moss.\n\nIt starts unlike most Korean tea, which is roasted. The leaves wait about twelve hours, then go into a cauldron to steam, then into a mortar or millstone. The paste is rolled into lumps, dried in the sun and pierced, then left to ferment for six months or much longer. That pounding is why a coin falls apart in the pot rather than unfurling into leaves.\n\nBrew it like a small stew rather than a gaiwan session. Toast the coin on both sides over low heat first, then give it five to ten minutes in a large pot of hot water. Good tasting descriptions are rare, but expect what aged cake teas usually offer: soft wood and earth, with toast from the pan. Short steeps simply give you weak tea.\n\nBuy by maker and year. You may also see it labelled doncha or jeoncha, which are the wider names for the same coin form.",
+  "history": "Records including the Sejong Sillok geography place the first coin tea at Borimsa, the Jangheung temple, in late Silla. That geography also lists 13 of the 19 tea-producing places of its day in the Jangheung area, which shows how central the region was. Tea of this kind went on being made in the villages around the temple, with monks and residents passing down the method.\n\nThe tea has since been listed on the Ark of Taste, the catalogue of endangered foods. Korean press reports credit Jangheung cheongtaejeon with a top prize at a green tea contest in Shizuoka in 2008.",
+  "liquor_hex": "#9C5F2A",
+  "leaf_hex": "#3B3A28",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Doncha",
+    "https://ko.wikipedia.org/wiki/%EB%8F%88%EC%B0%A8",
+    "https://www.wikidata.org/wiki/Q30043860",
+    "https://bizhankook.com/articles/21234.html",
+    "https://www.sidae.com/article/2010032610388070564"
+  ],
+  "confidence": "medium",
+  "wikipedia_title": "Doncha",
+  "wikipedia_scope": "exact",
+  "popularity": 3,
+  "images": []
+}

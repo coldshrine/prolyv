@@ -3,10 +3,16 @@
   "name_en": "Dian Lü (Yunnan Green)",
   "name_native": "滇绿",
   "name_romanized": "Diānlǜ",
-  "aliases": ["Yunnan green tea", "Dian Lu", "Yunnan Mao Feng", "Yunnan Biluochun", "Yunnan Silver Tips green", "Hong Qing"],
+  "aliases": [
+    "Yunnan green tea",
+    "Dian Lu",
+    "Yunnan Mao Feng",
+    "Yunnan Biluochun",
+    "Yunnan Silver Tips green"
+  ],
   "category": "green",
   "origin_country": "China",
-  "origin_region": "Yunnan · Lincang, Pu'er, Baoshan and Xishuangbanna",
+  "origin_region": "Yunnan · Lincang",
   "cultivar": "Yunnan large-leaf (Dayezhong) assamica landraces and clones such as Yunkang 10",
   "processing": "Pan-fired or baked green from large-leaf material: the shoots are killed thoroughly in a wok or machine, rolled, and dried with hot air (hong qing) or in a pan (chao qing), unlike sheng pu-erh maocha, which is sun-dried.",
   "form": "loose",
@@ -15,13 +21,43 @@
   "appearance_liquor": "Bright yellow to gold, clear.",
   "appearance_wet": "Large, thick, sturdy leaves and fat buds, olive green.",
   "taste_profile": "Big and thick with honey, apricot, a raw-nut sweetness and a marked bitterness that converts quickly; far heavier than Jiangnan greens.",
-  "taste_tags": ["honey", "fruity", "bitter", "sweet", "vegetal"],
-  "brewing": {"grams": 5, "water_ml": 120, "temp_c": 85, "steeps": 6, "seconds": [15, 15, 20, 30, 45, 60], "notes": "Gaiwan with short steeps, as you would brew young sheng. The large leaf turns bitter if steeped long; keep infusions quick and it rewards six or more."},
+  "taste_tags": [
+    "honey",
+    "fruity",
+    "bitter",
+    "sweet",
+    "vegetal"
+  ],
+  "brewing": {
+    "grams": 5,
+    "water_ml": 120,
+    "temp_c": 85,
+    "steeps": 6,
+    "seconds": [
+      15,
+      15,
+      20,
+      30,
+      45,
+      60
+    ],
+    "notes": "Gaiwan with short steeps, as you would brew young sheng. The large leaf turns bitter if steeped long; keep infusions quick and it rewards six or more."
+  },
   "caffeine_level": "high",
   "vintage_note": "Sold as the current year's spring harvest (plus cheaper autumn lots), usually by county or mountain rather than by grade name. It is not an ageing tea: the hot drying that separates it from sheng maocha also stops the slow transformation, so drink it within a year or two. Beware 'green pu-erh' labels, which mean sheng, a different product.",
   "description": "Dian Lü is simply green tea from Yunnan, made from the same big-leaf assamica bushes that give the province its pu-erh, but finished as a green rather than as sun-dried maocha. That one difference in drying changes everything: a Yunnan green is a drink-now tea with a huge, honeyed body and real bite, not something to press and age.\n\nThe shoots are large, fat and downy, picked in spring on the tea mountains of Lincang, Pu'er and Banna, fired thoroughly, rolled and then dried with hot air or in the pan. Hot drying kills the enzymes completely, which is exactly what sun-drying for pu-erh does not do. The same leaf is sold in several shapes: a twisted Yunnan Mao Feng, a chunky fuzzy spiral sold as Yunnan Biluochun, and tippy 'silver tips' greens.\n\nIn the cup it is thick and bold: honey, apricot, a raw-nut sweetness and a clear bitterness that turns sweet in the throat, the familiar bitter-sweet swing of young sheng without the sun-dried hay note. Brew it like sheng, in a gaiwan with short steeps at 85 °C, and it runs six or more infusions; steep it like a Longjing in a glass and it will be harsh. It is the green tea for people who find greens weak.\n\nIt is sold as the spring harvest of the current year, usually by county or mountain, and it is cheap for the quality because Yunnan's prestige is all in pu-erh. The confusions to avoid: 'green pu-erh' means sheng, not this; and some sellers describe young sheng maocha as Yunnan green tea, which it is not. If it was dried with heat and is meant to be drunk fresh, it is Dian Lü. Drink within a year or two.\n\nA side-by-side with a young sheng from the same area is one of the most instructive tastings in Chinese tea: same leaf, two futures.",
   "wikipedia_title": "Green tea",
   "wikipedia_scope": "umbrella",
   "popularity": 2,
-  "sources_note": "No dedicated English Wikipedia article found. Caffeine marked high because large-leaf assamica is generally higher in caffeine than sinensis greens."
+  "sources_note": "No dedicated English Wikipedia article found. Caffeine marked high because large-leaf assamica is generally higher in caffeine than sinensis greens.",
+  "name_zh": "滇绿",
+  "name_ru": "Дянь Люй",
+  "history": "Dian Lü is a loose term for green tea made in Yunnan from the province's large-leaf bushes, rather than one tea with a documented origin. Little is documented about when or by whom this style took shape, and it is not the mainstream of Yunnan tea.",
+  "liquor_hex": "#DCC04E",
+  "leaf_hex": "#4F5A2E",
+  "sources": [
+    "https://www.yunnanexploration.com/?p=64773"
+  ],
+  "confidence": "low",
+  "images": []
 }

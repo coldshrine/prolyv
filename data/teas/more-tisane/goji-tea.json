@@ -1,0 +1,64 @@
+{
+  "slug": "goji-tea",
+  "name_en": "Goji Berry Tea",
+  "name_native": "枸杞茶",
+  "name_romanized": "Gǒuqǐ Chá",
+  "name_zh": "枸杞茶",
+  "name_ru": "Чай из годжи",
+  "aliases": [
+    "Goji tea",
+    "Goji Berries",
+    "Wolfberry tea",
+    "枸杞",
+    "枸杞子茶",
+    "구기차",
+    "구기자차",
+    "Gugi-cha",
+    "Gugija-cha",
+    "Gugiyeop-cha",
+    "Чай из ягод годжи"
+  ],
+  "category": "tisane",
+  "origin_country": "China",
+  "origin_region": "Ningxia",
+  "cultivar": null,
+  "processing": "Dried goji berries are simmered or steeped in hot water; the leaf version is simply dried goji leaf. Flavourings or sweeteners are optional.",
+  "form": "other",
+  "harvest_season": "Dried berries are the usual base and are bought year-round, while the traditional form used young leaves. Harvest detail depends on the grower.",
+  "appearance_dry": "Shrivelled, oblong, orange-red berries, or dull green dried leaf in the leaf version.",
+  "appearance_liquor": "Pale golden-orange from berries, clear to slightly hazy.",
+  "appearance_wet": "Berries plump up into soft, bright red-orange ovals, and can be eaten.",
+  "taste_profile": "Gently sweet and fruity with a soft dried-fruit note and a slight herbal finish; the leaf version is lighter and greener.",
+  "taste_tags": [
+    "sweet",
+    "dried-fruit",
+    "fruity",
+    "herbal"
+  ],
+  "brewing": {
+    "grams": 20,
+    "water_ml": 500,
+    "temp_c": 100,
+    "steeps": 1,
+    "seconds": [
+      600
+    ],
+    "notes": "The Korean-style berry tea simmers 20 to 25 g of berries in two cups of water. For leaf, infuse 2 to 3 g in a cup of hot water. A smaller handful of berries steeped in a mug also works."
+  },
+  "caffeine_level": "none",
+  "vintage_note": "Not sold by vintage. Berries are sold as dried fruit, so choose the most recent crop and keep it cool and dry; leaf is rarer and sold as simple dried stock. Buy for a clean look and smell, not a bright artificial colour.",
+  "description": "Goji tea is a traditional Chinese and Korean drink made from dried goji berries, also called wolfberries, or from the plant's leaves. It comes in two versions: gugija-cha from berries and gugiyeop-cha from leaves in Korean usage. Ningxia in China is the name most often attached to the berries on sale.\n\nThere is almost no processing to it. Berries are dried and then either simmered or steeped, and leaves are dried and infused much like any leaf tisane.\n\nThe berry cup is sweet and softly fruity. Simmering gives a fuller, more orange liquor than a quick steep, and the swollen berries are good to eat at the end. Sweeteners and other flavourings are common but not needed, while leaf tea tastes lighter and more herbal.\n\nBuy clean, supple berries and avoid any with an unnaturally vivid colour or a sulphurous smell. If you want to try something different, look for the leaf version, which is harder to find but closer to the older form of the drink.",
+  "history": "Goji tea has been traditional in both China and Korea. Young leaves were the original base, and mature leaves or, far more commonly, the berries took over later.\n\nIn Korea, goji berry tea is named among the fruit teas that were in wider use than true tea during the Samhan era. It remains a familiar traditional drink there today.",
+  "liquor_hex": "#E0A04A",
+  "leaf_hex": "#B5391F",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Goji_tea",
+    "https://en.wikipedia.org/wiki/Korean_tea",
+    "https://www.teasenz.com/chinese-herbal-teas"
+  ],
+  "confidence": "medium",
+  "wikipedia_title": "Goji tea",
+  "wikipedia_scope": "exact",
+  "popularity": 3,
+  "images": []
+}

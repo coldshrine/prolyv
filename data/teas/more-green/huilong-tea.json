@@ -1,0 +1,60 @@
+{
+  "slug": "huilong-tea",
+  "name_en": "Huilong Tea",
+  "name_native": "回龙茶",
+  "name_romanized": "Huílóng Chá",
+  "name_zh": "回龙茶",
+  "name_ru": "Хуэй Лун Ча",
+  "aliases": [
+    "Hui Long Green Tea",
+    "Lianghehuilongcha",
+    "回龙",
+    "梁河回龙茶",
+    "Lianghe Huilong Tea"
+  ],
+  "category": "green",
+  "origin_country": "China",
+  "origin_region": "Yunnan · Dehong · Lianghe",
+  "cultivar": "Local large-leaf bushes",
+  "processing": "A green tea of large-leaf shoots, fixed, rolled and dried into tight, curled strips. The fine details of its method are not widely published.",
+  "form": "loose",
+  "harvest_season": "Not spelled out in local records; as with other Yunnan greens, the spring picking is the prized one.",
+  "appearance_dry": "Firm, tight and curled strips, glossy dark green with prominent down.",
+  "appearance_liquor": "Bright, clear yellow-green.",
+  "appearance_wet": "Even, bright leaves.",
+  "taste_profile": "A strong aroma and a lingering aftertaste, and it stands up to repeated steeping.",
+  "taste_tags": [
+    "vegetal",
+    "sweet",
+    "brisk"
+  ],
+  "brewing": {
+    "grams": 3,
+    "water_ml": 150,
+    "temp_c": 85,
+    "steeps": 4,
+    "seconds": [
+      40,
+      60,
+      90,
+      120
+    ],
+    "notes": "General advice for Yunnan large-leaf greens. It holds up to several steeps, so start short."
+  },
+  "caffeine_level": "medium",
+  "vintage_note": "Sold as a green tea of the current year, as is usual for its class. Product lines have included Huilong Chunming, Chunqu, Chunxue, special grade and first grade. The geographical indication covers Lianghe county, so check for it on the packet.",
+  "description": "Huilong tea comes from Lianghe county in Dehong, near the Myanmar border, and is named after Huilong village in Dachang township. It is counted among the well-known teas of Yunnan and holds a national agricultural geographical indication.\n\nThe bushes are large-leaf with plump, downy yellow-green shoots that stay tender for a long time. Finished, the leaf is firm and curled with lots of visible down.\n\nThe cup is bright yellow-green with a strong aroma and a lingering finish, and it lasts through several steeps. It has more presence than a delicate eastern green, so cooler water and short early steeps keep it pleasant.\n\nLook for the producer and grade. Several named lines exist, and the protected area is wider than the original village, so Huilong on the label does not mean it grew in Huilong itself.",
+  "history": "When the tea began cannot be established; before 1949 it was mostly a tea for local elites. Modern planting took off in the 1940s. In 1941 a Dachang farmer, Sun Chaoqin, brought back large-leaf seed from a tea course run by Li Genyuan in Tengchong. In 1945 the local administrator Feng Weide promoted tea in place of opium and set up a large-leaf mother garden near Huilong village.\n\nThe usual story of the name comes from December 1956. At a China and Myanmar border gathering, Premier Zhou Enlai served the tea to Myanmar's prime minister Ba Swe and praised it, and locals then adopted the name Huilong tea. Local accounts also say simply that it takes its name from the village.\n\nIn November 2012 Lianghe Huilong tea became a protected agricultural geographical indication, on an application from the county tea extension station.",
+  "liquor_hex": "#D1CC6E",
+  "leaf_hex": "#3F5433",
+  "wikipedia_title": null,
+  "wikipedia_scope": "none",
+  "popularity": 3,
+  "images": [],
+  "sources": [
+    "https://zh.wikipedia.org/wiki/%E5%A4%A7%E5%8E%82%E4%B9%A1",
+    "https://milulu.com.cn/techan/17424.html",
+    "https://www.maigoo.com/top/423324.html"
+  ],
+  "confidence": "high"
+}

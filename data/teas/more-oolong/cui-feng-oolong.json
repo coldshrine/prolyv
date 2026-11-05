@@ -1,0 +1,61 @@
+{
+  "slug": "cui-feng-oolong",
+  "name_en": "Cui Feng High Mountain Oolong",
+  "name_native": "翠峰高山茶",
+  "name_romanized": "Cuìfēng Gāoshān Chá",
+  "name_zh": "翠峰高山茶",
+  "name_ru": "Цуй Фэн",
+  "aliases": [
+    "Cui Feng High Mountain Tea",
+    "Cuifeng",
+    "Tsui Feng Oolong",
+    "翠峰"
+  ],
+  "category": "oolong",
+  "origin_country": "Taiwan",
+  "origin_region": "Nantou · Ren'ai · Cuifeng",
+  "cultivar": "Mostly Qing Xin Oolong, as across Ren'ai",
+  "processing": "Light oxidation and semi-ball rolling with little or no roast, typical of Ren'ai high-mountain tea.",
+  "form": "loose",
+  "harvest_season": "Sold by harvest year; spring is the usual main picking for Ren'ai high-mountain tea, with winter lots also made in the region.",
+  "appearance_dry": "Tight, deep-green semi-rolled balls, typical of Taiwanese high-mountain oolong.",
+  "appearance_liquor": "Pale clear yellow-green, typical of high-mountain oolong.",
+  "appearance_wet": "Thick, supple green leaves that open fully, typical of the class.",
+  "taste_profile": "No detailed tasting record exists for Cui Feng alone. High-mountain oolongs of this kind are typically floral and sweet with low bitterness.",
+  "taste_tags": [
+    "floral",
+    "sweet",
+    "vegetal"
+  ],
+  "brewing": {
+    "grams": 6,
+    "water_ml": 110,
+    "temp_c": 95,
+    "steeps": 6,
+    "seconds": [
+      45,
+      25,
+      30,
+      40,
+      55,
+      75
+    ],
+    "notes": "As for other high-mountain oolongs: hot water, a long first steep to open the balls, shorter ones after."
+  },
+  "caffeine_level": "medium",
+  "vintage_note": "Sold by harvest year, like the 2026 lots on the market. As with other unroasted high-mountain oolongs it is best fresh, usually within a year or so of picking, kept sealed and cool.",
+  "description": "Cui Feng is a tea area in Ren'ai Township, Nantou. Tea from here is sold under its place name as a high-mountain oolong.\n\nRen'ai is planted mostly with Qing Xin Oolong and makes lightly oxidised semi-rolled tea. Cool weather, cloud and wide swings between day and night are the usual explanation for the low bitterness and sweetness of teas from this altitude.\n\nThere is little specific writing on how Cui Feng differs from its neighbours, so expect the general high-mountain pattern: florals, sweetness, a thick soft texture. Brew hot and give the first steep time.\n\nThe harvest and the seller's account of the garden are what to ask about, since Ren'ai's scattered gardens are often sold simply as high-mountain tea. A side-by-side with a Lishan or Shan Lin Xi is the best way to judge it for yourself.",
+  "history": "Little is documented about Cui Feng itself. Commercial tea growing in Ren'ai began with planting promoted by the Tenren company around Wushe and Gaofeng, and the township has grown to about 800 hectares, with Cuifeng listed among its tea villages and Qing Xin Oolong and Jin Xuan as main cultivars.",
+  "liquor_hex": "#DDD48F",
+  "leaf_hex": "#3F6236",
+  "sources": [
+    "https://zh.wikipedia.org/wiki/%E8%87%BA%E7%81%A3%E9%AB%98%E5%B1%B1%E8%8C%B6",
+    "https://www.foodnext.net/science/knowledge/paper/5098626822",
+    "https://www.sazentea.com/en/products/c56-taiwanese-tea"
+  ],
+  "confidence": "low",
+  "wikipedia_title": "臺灣高山茶",
+  "wikipedia_scope": "umbrella",
+  "popularity": 2,
+  "images": []
+}

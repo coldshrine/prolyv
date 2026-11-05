@@ -1,0 +1,56 @@
+{
+  "slug": "soder-tea",
+  "name_en": "Söder Tea",
+  "name_native": "Söderblandning",
+  "name_romanized": null,
+  "name_zh": "瑟德混合红茶",
+  "name_ru": "Сёдер (шведский купаж)",
+  "aliases": [
+    "Soder Tea",
+    "Söderblandning",
+    "Södermalm blend",
+    "Чай сёдер"
+  ],
+  "category": "black",
+  "origin_country": "Sweden",
+  "origin_region": "Stockholm · Södermalm",
+  "cultivar": null,
+  "processing": "A blend rather than a way of processing leaf: finished black tea is mixed with tropical fruit and flowers.",
+  "form": "loose",
+  "harvest_season": "Not tied to a harvest, since it is blended from finished tea all year.",
+  "appearance_dry": "Dark black tea leaf, flecked with the colours of dried fruit and petals, as is usual for fruit-and-flower blends.",
+  "appearance_liquor": "A clear reddish amber, typical of a black tea base.",
+  "appearance_wet": "Soft brown leaf mixed with swollen fruit pieces and petals.",
+  "taste_profile": "A black tea base carrying tropical fruit and floral notes, so scented and gently sweet rather than brisk. The exact recipe is not public.",
+  "taste_tags": [
+    "fruity",
+    "floral",
+    "sweet"
+  ],
+  "brewing": {
+    "grams": 3,
+    "water_ml": 250,
+    "temp_c": 95,
+    "steeps": 1,
+    "seconds": [
+      210
+    ],
+    "notes": "Western-style, as with most flavoured black blends. Steep too long and the black tea covers the fruit."
+  },
+  "caffeine_level": "medium",
+  "vintage_note": "Sold as a current blend with no harvest year or vintage. As with other flavoured teas, the aroma is the first thing to go, so buy small amounts and finish them within months rather than years.",
+  "description": "Söder tea is a Swedish blend of black tea, tropical fruit and flowers, named after Södermalm, the Stockholm district where its creator keeps his shop. Swedes also call it Söderblandning, the Södermalm blend.\n\nNothing unusual happens to the leaf itself. The character comes from what goes in with it, so this is a tea you judge by its balance of base and scent rather than by garden or season.\n\nExpect fruit and flowers first and a soft black tea underneath. Brew it like any flavoured black tea, in near-boiling water for three or four minutes, and try it iced if the fruit appeals.\n\nFor the original recipe, look to the Södermalm shop that created it.",
+  "history": "Vernon Mauris created the blend in 1979 and named it after the Södermalm neighbourhood where his shop stands.\n\nIt became popular at home and found a second audience in Japan, where he has been reported to ship almost 4,000 kg a year.",
+  "liquor_hex": "#B4622C",
+  "leaf_hex": "#3F2C22",
+  "sources": [
+    "https://en.wikipedia.org/wiki/S%C3%B6der_tea",
+    "https://ru.wikipedia.org/wiki/%D0%A7%D0%B0%D0%B9"
+  ],
+  "confidence": "medium",
+  "wikipedia_title": "Söder tea",
+  "wikipedia_scope": "exact",
+  "popularity": 2,
+  "images": [],
+  "sources_note": "name_zh is a descriptive rendering, not an established name."
+}

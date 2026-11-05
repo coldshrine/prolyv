@@ -3,10 +3,14 @@
   "name_en": "Scottish Breakfast",
   "name_native": null,
   "name_romanized": null,
-  "aliases": ["Scottish breakfast tea", "Scottish blend", "Scots breakfast"],
+  "aliases": [
+    "Scottish breakfast tea",
+    "Scottish blend",
+    "Scots breakfast"
+  ],
   "category": "black",
   "origin_country": "United Kingdom",
-  "origin_region": "Blended in Scotland (Edinburgh and Glasgow blenders) from Assam, Kenyan, Ceylon and sometimes Chinese black teas",
+  "origin_region": "Scotland",
   "cultivar": null,
   "processing": "A strong blend of fully oxidised black teas, usually the maltiest Assam and darkest African teas available, in broken and CTC grades; some versions add a little Keemun or a smoky Chinese black for depth. Blended to a fixed house taste.",
   "form": "loose",
@@ -15,13 +19,36 @@
   "appearance_liquor": "Very dark red-brown, nearly opaque.",
   "appearance_wet": "Dark copper-brown broken leaf.",
   "taste_profile": "The strongest of the breakfast family: dense, malty and woody with a dark, slightly smoky or cocoa-like depth and a heavy tannic finish that needs milk.",
-  "taste_tags": ["malty", "brisk", "woody"],
-  "brewing": {"grams": 3, "water_ml": 250, "temp_c": 100, "steeps": 1, "seconds": [270], "notes": "Boiling water, 4–5 minutes, milk. Sellers say it was blended for Scotland's soft water, and it does come out gentler with soft or filtered water and harsher with hard; if your water is hard, cut the steep to 3 minutes."},
+  "taste_tags": [
+    "malty",
+    "brisk",
+    "woody"
+  ],
+  "brewing": {
+    "grams": 3,
+    "water_ml": 250,
+    "temp_c": 100,
+    "steeps": 1,
+    "seconds": [
+      270
+    ],
+    "notes": "Boiling water, 4–5 minutes, milk. Sellers say it was blended for Scotland's soft water, and it does come out gentler with soft or filtered water and harsher with hard; if your water is hard, cut the steep to 3 minutes."
+  },
   "caffeine_level": "high",
-  "vintage_note": "No vintage and no harvest year: a year-round blend with a two- to three-year best-before, sold loose by Scottish blenders and in bags by a few supermarket brands. Recipes vary more than for English Breakfast, since there is no settled definition; some lean on Assam and Kenya alone, others add Ceylon for brightness or a touch of Chinese black for smoke. Read the origin list, and expect the loose blends from Edinburgh houses to be noticeably rounder than the bags.",
-  "description": "Scottish Breakfast is the heavyweight of the breakfast blends: darker and maltier than English Breakfast, usually stronger even than Irish, built on the heaviest Assam and African teas and sometimes finished with a little Chinese black for a smoky undertone. The story that it was blended to suit Scotland's soft water is repeated by every seller, and whatever its origin, the blend does behave better in soft water.\n\nLike all breakfast teas it is a recipe rather than a tea, mixed by blenders in Edinburgh and Glasgow to a constant house taste and adjusted with every season's crop. It comes in loose orthodox form from the old Scottish tea houses and in CTC bags from supermarket brands, and the two are quite different in weight and roughness.\n\nBrewed hard, four or five minutes with boiling water, it gives a nearly black cup that is thick, malty, woody and tannic, and it is made to carry milk and a heavy breakfast. In hard water it can turn harsh and dull, which is where the soft-water story earns its keep; filtered water and a slightly shorter steep bring it back into balance.\n\nThere is no vintage and no fixed definition, so blends differ more than the English and Irish versions; the back of the pack tells you whether it is Assam and Kenya alone or something with Ceylon and China in it. Buy loose from a Scottish blender for the rounder version, bags for speed.\n\nIf you want to taste the parts, a plain Assam and a plain Kenyan black side by side show the backbone, and a drop of Lapsang Souchong in a pot of English Breakfast gets you close to the smokier Scottish style.",
+  "vintage_note": "No vintage and no harvest year: a year-round blend with a two- to three-year best-before, sold loose by tea merchants and in bags by a few supermarket brands. Recipes vary, since there is no settled definition; some lean on Assam and Kenya alone, others add Ceylon for brightness or a touch of Chinese black for smoke. Read the origin list, and expect loose blends to be noticeably rounder than the bags.",
+  "description": "Scottish Breakfast is a heavyweight among the breakfast blends: usually darker and maltier than English Breakfast, built on strong Assam and African teas and sometimes finished with a little Chinese black for a smoky undertone. The story that it was blended to suit Scotland's soft water is repeated by many sellers, but its origin is not documented.\n\nLike all breakfast teas it is a recipe rather than a tea, mixed to a constant house taste and adjusted with every season's crop. It comes in loose orthodox form and in CTC bags, and the two are quite different in weight and roughness.\n\nBrewed hard, four or five minutes with boiling water, it gives a nearly black cup that is thick, malty, woody and tannic, and it is made to carry milk and a heavy breakfast. In hard water it can turn harsh and dull; filtered water and a slightly shorter steep bring it back into balance.\n\nThere is no vintage and no fixed definition, so blends differ widely; the back of the pack tells you whether it is Assam and Kenya alone or something with Ceylon and China in it. Buy loose for the rounder version, bags for speed.\n\nIf you want to taste the parts, a plain Assam and a plain Kenyan black side by side show the backbone, and a drop of Lapsang Souchong in a pot of English Breakfast gets you close to the smokier style.",
   "wikipedia_title": "Tea blending and additives",
   "wikipedia_scope": "umbrella",
   "popularity": 3,
-  "sources_note": "No dedicated English Wikipedia article for Scottish breakfast tea (the title does not exist); the soft-water origin claim is a widely repeated seller's story, not a documented fact."
+  "sources_note": "No dedicated English Wikipedia article for Scottish breakfast tea (the title does not exist); the soft-water origin claim is a widely repeated seller's story, not a documented fact.",
+  "name_zh": "苏格兰早餐茶",
+  "name_ru": "Шотландский завтрак",
+  "history": "Scottish Breakfast is one of the common breakfast blends, alongside English and Irish: robust, full-bodied black teas often drunk with milk. Little is documented about who first sold it or when.\n\nSellers often say it was blended to suit Scotland's soft water, but that remains a trade story rather than an established fact. With no fixed recipe, it is defined mainly by each blender's idea of a stronger breakfast tea.",
+  "liquor_hex": "#5E2A12",
+  "leaf_hex": "#2B1E16",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Tea_blending_and_additives"
+  ],
+  "confidence": "low",
+  "images": []
 }

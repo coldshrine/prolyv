@@ -1,0 +1,68 @@
+{
+  "slug": "jinhua-cha",
+  "name_en": "Jinhua Cha (Golden Camellia)",
+  "name_native": "金花茶",
+  "name_romanized": "Jīnhuā Chá",
+  "name_zh": "金花茶",
+  "name_ru": "Цзинь Хуа Ча (золотая камелия)",
+  "aliases": [
+    "Golden Camellia Tea",
+    "Golden Flower Tea",
+    "Trà hoa vàng",
+    "Chè hoa vàng",
+    "Kim hoa trà",
+    "Camellia petelotii",
+    "Camellia chrysantha",
+    "Camellia nitidissima",
+    "金花茶叶",
+    "金花茶花",
+    "Чай из золотой камелии"
+  ],
+  "category": "tisane",
+  "origin_country": "China",
+  "origin_region": "Guangxi · Fangchenggang",
+  "cultivar": "Camellia petelotii (syn. C. chrysantha, C. nitidissima)",
+  "processing": "Flowers or leaves of the golden camellia are picked and dried, without the set processing of a classic tea class. Methods vary by producer, and leaf tea is covered by its own Guangxi food standard.",
+  "form": "other",
+  "harvest_season": "Flowers open from October to December, so dried-flower lots follow that window. Leaf picking has no widely recorded prized season.",
+  "appearance_dry": "Dried flowers are whole, waxy-petalled and golden yellow, shrinking into small cups; leaf tea is olive green and coarse.",
+  "appearance_liquor": "A flower infusion is usually described as pale golden and clear, though exact colour varies by lot and little is recorded on it.",
+  "appearance_wet": "Flowers soften and reopen into yellow cups with many stamens; leaves are long, narrow and fine-toothed.",
+  "taste_profile": "Little reliable tasting description exists. Expect a mild, gently floral and vegetal infusion rather than the grip of a true tea.",
+  "taste_tags": [
+    "floral",
+    "vegetal",
+    "sweet"
+  ],
+  "brewing": {
+    "grams": 3,
+    "water_ml": 300,
+    "temp_c": 90,
+    "steeps": 3,
+    "seconds": [
+      180,
+      240,
+      300
+    ],
+    "notes": "Usually steeped in a glass pot or mug so the flower can be seen. One or two flowers go a long way; treat these numbers as a starting point."
+  },
+  "caffeine_level": "low",
+  "vintage_note": "Not sold by vintage. Flowers are a yearly late-autumn crop and leaf tea is sold as ordinary dried stock; as with most dried flowers, the most recent harvest is the one to buy. Ask whether the pack holds flower or leaf, since they are different products at different prices.",
+  "description": "Jinhua cha is an infusion from the golden camellia, a rare yellow-flowered relative of the tea plant. It grows wild in Guangxi and northern Vietnam, and in Vietnam the drink is called trà hoa vàng. The striking thing is the flower: true yellow, thick-petalled and waxy, in a family better known for pinks and whites.\n\nGuangxi treats this as its home crop, and the southern slopes of the Shiwan Dashan around Fangchenggang and Dongxing are considered the centre of its range. Both flowers and leaves are dried for drinking, and the plant is also grown in Vietnam, including in a dedicated conservation park in Ninh Binh.\n\nIt is a tisane in practice, so it is drunk for its gentle flavour and its looks rather than for body. Use a glass vessel, a small amount and hot but not boiling water, and let it steep for minutes. Little is written about how it tastes, so trust your own cup over a seller's adjectives.\n\nMuch of the selling leans on health claims about blood pressure, diabetes and tumours. Research on the plant's compounds exists, but that is not proof of a cure, and it is best bought for what is in the cup. Wild stands are under threat from habitat loss and over-collecting, so cultivated stock is the better choice.",
+  "history": "The Japanese account of the plant places its discovery in 1965, when it caused a stir as the elusive yellow camellia. China protected it and barred its export for a time; after that was lifted, it reached Japan around 1980.\n\nWhen people first began to drink it is poorly recorded. Today it is a regulated product in Guangxi, where a food safety standard for golden camellia leaf tea, DBS 45/033-2025, took effect in September 2025 and replaced a 2016 version.",
+  "liquor_hex": "#E3CF7A",
+  "leaf_hex": "#C9A234",
+  "sources": [
+    "https://zh.wikipedia.org/wiki/%E9%87%91%E8%8A%B1%E8%8C%B6",
+    "https://ja.wikipedia.org/wiki/%E9%87%91%E8%8A%B1%E8%8C%B6",
+    "https://vi.wikipedia.org/wiki/Ch%C3%A8_hoa_v%C3%A0ng",
+    "https://www.wikidata.org/wiki/Q126077",
+    "https://wsjkw.gxzf.gov.cn/xxgk_49493/fdzdgk/wsjszh/spaq_49614/P020250702610864690518.pdf",
+    "https://en.wikipedia.org/wiki/Vietnamese_tea"
+  ],
+  "confidence": "medium",
+  "wikipedia_title": "Vietnamese tea",
+  "wikipedia_scope": "umbrella",
+  "popularity": 2,
+  "images": []
+}

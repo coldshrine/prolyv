@@ -3,7 +3,13 @@
   "name_en": "Wuliang Shan Sheng Pu-erh",
   "name_native": "无量山生普洱",
   "name_romanized": "Wúliàng Shān Shēng Pǔ'ěr",
-  "aliases": ["Wuliang Mountain sheng", "Wu Liang Shan", "Jingdong sheng", "Wuliangshan", "无量山"],
+  "aliases": [
+    "Wuliang Mountain sheng",
+    "Wu Liang Shan",
+    "Jingdong sheng",
+    "Wuliangshan",
+    "无量山"
+  ],
   "category": "sheng",
   "origin_country": "China",
   "origin_region": "Yunnan · Pu'er · Jingdong · Wuliang Shan",
@@ -15,12 +21,45 @@
   "appearance_liquor": "Pale, clear gold.",
   "appearance_wet": "Smallish, soft, yellow-green leaves with a slightly uneven look from mixed-age trees.",
   "taste_profile": "Light and elegant: fresh flowers and honey, a mild clean bitterness, little astringency, a medium-light body and a cool, lingering sweetness that reads as 'wild'.",
-  "taste_tags": ["floral", "honey", "sweet", "herbal"],
-  "brewing": {"grams": 7, "water_ml": 110, "temp_c": 95, "steeps": 10, "seconds": [10, 8, 12, 15, 20, 30, 45, 60, 90, 150], "notes": "Rinse once. Porcelain, short steeps and a light hand; this is a tea of aroma and finish, and heavy leafing just makes it taste thin and green."},
+  "taste_tags": [
+    "floral",
+    "honey",
+    "sweet",
+    "herbal"
+  ],
+  "brewing": {
+    "grams": 7,
+    "water_ml": 110,
+    "temp_c": 95,
+    "steeps": 10,
+    "seconds": [
+      10,
+      8,
+      12,
+      15,
+      20,
+      30,
+      45,
+      60,
+      90,
+      150
+    ],
+    "notes": "Rinse once. Porcelain, short steeps and a light hand; this is a tea of aroma and finish, and heavy leafing just makes it taste thin and green."
+  },
   "caffeine_level": "high",
   "vintage_note": "Sold by spring harvest year and county or township (Jingdong townships such as Anding and Manwan, Nanjian, Zhenyuan's Wuliang side), as cakes from small producers and as tuo from the Nanjian factories, which carry production years like any factory product. It is drunk young (1–5 years) and gets honeyed in the 5–12-year window; genuinely old Wuliang mostly means 1990s–2000s Nanjian tuo, since named Wuliang cakes only became common after about 2005. Supply is 2005–2025 and dry-stored, and because old trees here are plentiful and cheap it is one of the honest bargains of the gushu market.",
   "description": "The Wuliang mountains run from Nanjian in Dali prefecture down through Jingdong, Zhenyuan and Jinggu in Pu'er prefecture, and they are the big, cool, forested range on the west of the Ailao valley. Tea here grows high, often above 1,800 m, among forest, and the result is a light, elegant sheng that people describe as wild even when it comes from planted gardens.\n\nThe leaf is on the small side for Yunnan and comes from mixed-age trees, a lot of them genuinely old because the mountain was never fully turned into plantations. Processing is standard sheng, pan-fired, rolled and sun-dried, and the northern end of the range has a long tuo tradition through the Nanjian factories, whose Tulin Phoenix tuo are a Wuliang tea in nest form.\n\nIn the cup Wuliang is fresh flowers and honey with a mild bitterness, barely any astringency and a cool sweetness that hangs around; the body is lighter than Menghai or Mengku tea, so it is judged on finesse. It is forgiving and brews well with short steeps, and it is the kind of sheng that makes sense of the phrase 'high mountain' when you taste it next to a flatland plantation tea.\n\nSold by spring year and township, mostly at modest prices, and 'Wuliang Shan gushu' is one of the cheapest genuine old-tree labels in Yunnan, precisely because the area is less famous. The things to watch are thinness (the lower gardens make pleasant but watery tea) and wrappers that upgrade it to Jingmai or Yiwu. The Nanjian tuo are a cheap way to taste the mountain with some age on it.\n\nFor contrast, drink it next to an Ailao Shan tea from the other side of the valley: close cousins, with Ailao a little wilder and cooler.",
   "wikipedia_title": "Pu'er tea",
   "wikipedia_scope": "umbrella",
-  "popularity": 2
+  "popularity": 2,
+  "name_zh": "无量山生普洱",
+  "name_ru": "У Лян Шань Шэн Пуэр",
+  "history": "Wuliang Shan is a long mountain range in western Yunnan, and tea from it is sold under several county names, among them Jingdong and Nanjian. The name on a wrapper therefore points to a broad region rather than to one village.\n\nFor a long time the area was better known through factory tuo from Nanjian than through tea sold under the mountain's own name. Named Wuliang cakes appear to be the more recent habit, and little is documented about when they began.",
+  "liquor_hex": "#E0C873",
+  "leaf_hex": "#45482F",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Pu%27er_tea"
+  ],
+  "confidence": "low",
+  "images": []
 }

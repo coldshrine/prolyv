@@ -3,10 +3,17 @@
   "name_en": "Aged Sheng Pu-erh",
   "name_native": "老生茶",
   "name_romanized": "Lǎo Shēngchá",
-  "aliases": ["Lao sheng", "Lao cha", "Old raw pu-erh", "Chen nian sheng pu", "Vintage pu-erh", "陈年生普"],
+  "aliases": [
+    "Lao sheng",
+    "Lao cha",
+    "Old raw pu-erh",
+    "Chen nian sheng pu",
+    "Vintage pu-erh",
+    "陈年生普"
+  ],
   "category": "sheng",
   "origin_country": "China",
-  "origin_region": "Yunnan (stored in Hong Kong, Guangdong, Taiwan, Malaysia or Kunming)",
+  "origin_region": "Yunnan",
   "cultivar": "Yunnan large-leaf (Camellia sinensis var. assamica), mostly factory blends of plantation and old-garden leaf",
   "processing": "Raw pu-erh pressed decades ago and transformed by long storage: slow oxidation, and in traditional Hong Kong or Guangdong storage a period of deliberate humidity that encourages microbial change, followed by years of drier 'resting'.",
   "form": "cake",
@@ -15,13 +22,51 @@
   "appearance_liquor": "Deep red-brown to mahogany, clear and glossy in a well-stored cake, dull or murky in a badly stored one.",
   "appearance_wet": "Dark brown, soft but still intact leaves that smell of old wood and dried fruit rather than anything green.",
   "taste_profile": "Smooth, sweet and deep: dried jujube, old wood, camphor and Chinese herbal notes, a thick soft body, no bitterness or astringency to speak of, and a long warming finish that settles in the chest.",
-  "taste_tags": ["camphor", "woody", "dried-fruit", "medicinal", "sweet"],
-  "brewing": {"grams": 8, "water_ml": 120, "temp_c": 100, "steeps": 14, "seconds": [15, 10, 10, 15, 20, 25, 30, 40, 60, 90, 120, 180, 240, 300], "notes": "Rinse twice with boiling water and let the leaf rest a minute or two after the second rinse. Full-boil water and a clay pot or a Yixing-style pot; preheat everything. Air the tea for a couple of weeks after breaking the cake. The late steeps can be simmered."},
+  "taste_tags": [
+    "camphor",
+    "woody",
+    "dried-fruit",
+    "medicinal",
+    "sweet"
+  ],
+  "brewing": {
+    "grams": 8,
+    "water_ml": 120,
+    "temp_c": 100,
+    "steeps": 14,
+    "seconds": [
+      15,
+      10,
+      10,
+      15,
+      20,
+      25,
+      30,
+      40,
+      60,
+      90,
+      120,
+      180,
+      240,
+      300
+    ],
+    "notes": "Rinse twice with boiling water and let the leaf rest a minute or two after the second rinse. Full-boil water and a clay pot or a Yixing-style pot; preheat everything. Air the tea for a couple of weeks after breaking the cake. The late steeps can be simmered."
+  },
   "caffeine_level": "medium",
   "vintage_note": "Aged in the real sense means pressed before about 2005, and the trade divides it into eras: the pre-1950s private 'hao' cakes (Song Pin Hao, Tong Qing Hao and others) that are museum pieces; the 1950s–1960s 'yin' (mark) cakes such as Red Mark and Blue Mark; the 'seven sons' factory cakes from the 1970s to 1990s, with late-1980s to early-1990s 7542 ('88 Qing Bing') and Xiaguan iron cakes as the benchmarks; and the early-2000s cakes that are now crossing twenty years. Storage defines the price: Hong Kong traditional storage made most of the famous old teas and gives the dark, camphor profile, dry Taiwan or Kunming storage keeps more sharpness and sells at a premium for clarity, and heavily wet-stored stock is sold cheaply and often passed off as older than it is. For every genuine 1990s cake there are many relabelled 2000s cakes, so buy by provenance, not by wrapper.",
   "description": "Aged sheng is the reason pu-erh has the reputation it has: raw cakes pressed twenty, thirty or fifty years ago that have turned, with time and the right air, into something dark, smooth and deep that tastes nothing like the green, bitter tea they started as. It is also the corner of the tea world with the most money, the most fakes and the most stories.\n\nNothing was done to these teas except storing them, but the storage was not passive. The famous old cakes mostly spent years in Hong Kong godowns, often in deliberately humid conditions that pushed the tea along, then years of drier rest; that 'traditional storage' is what produces the camphor, old-wood and herbal character, and a faint earthiness that drinkers of old tea accept and drinkers of young tea call mould. Dry-stored tea of the same age is brighter, sharper and rarer.\n\nIn the cup a well-kept aged sheng is sweet, thick and gentle: dried jujube, old wood, camphor, a herbal note like a Chinese pharmacy, no bitterness, no astringency, and a long warming finish. It wants boiling water, a preheated clay pot, two rinses and patience; it will go fifteen or more steeps and the last ones can be simmered. The leaf is also lower in bite and most people find it kinder than young tea at night.\n\nIt is sold by era, factory, recipe and storage, through dealers in Hong Kong, Taiwan, Malaysia and Guangdong and increasingly at auction, with the cake's wrapper, inner ticket and neifei scrutinised like a passport. The problems are proportional to the prices: wrappers are reprinted, 2000s cakes are wet-stored and sold as 1980s, and 'aged' is used for anything brown. Buy from people who can show the storage history, taste before paying, and treat any bargain as a mid-aged cake in a costume.\n\nFor most drinkers the sensible way into the category is a known factory recipe from the early 2000s with clean Guangdong storage; it costs a fraction of a 1990s cake and teaches you the vocabulary.",
   "wikipedia_title": "Pu'er tea",
   "wikipedia_scope": "umbrella",
   "popularity": 3,
-  "sources_note": "Era names (hao, yin, seven-sons) and the examples given are standard trade history; the '88 Qing Bing' designation refers to 7542 batches from roughly 1988–1992. Caffeine marked medium because aged tea is generally reported as gentler, though caffeine does not disappear with age."
+  "sources_note": "Era names (hao, yin, seven-sons) and the examples given are standard trade history; the '88 Qing Bing' designation refers to 7542 batches from roughly 1988–1992. Caffeine marked medium because aged tea is generally reported as gentler, though caffeine does not disappear with age.",
+  "name_zh": "老生茶",
+  "name_ru": "Лао Шэн Ча",
+  "history": "Aged sheng is a state rather than a place: raw pu-erh that has spent decades in storage. The trade sorts the old cakes into eras, from private-house cakes through mark cakes to later numbered factory cakes, and the storage cities, above all Hong Kong, are as much part of the story as the factories.\n\nMuch of this history is carried by dealers and collectors rather than written records, and little is firmly documented for individual cakes. That is why provenance, not the wrapper, decides how far a given tea's story can be trusted.",
+  "liquor_hex": "#6B2A12",
+  "leaf_hex": "#33241A",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Pu%27er_tea"
+  ],
+  "confidence": "low",
+  "images": []
 }

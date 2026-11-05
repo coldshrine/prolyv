@@ -1,0 +1,52 @@
+{
+  "slug": "ise-koucha",
+  "name_en": "Ise Koucha",
+  "name_native": "伊勢紅茶",
+  "name_romanized": "Ise kōcha",
+  "aliases": [
+    "伊勢紅茶"
+  ],
+  "category": "black",
+  "origin_country": "Japan",
+  "origin_region": "Mie · Suzuka Mountains",
+  "cultivar": "Benihomare, Benifuuki, Yabukita",
+  "form": "loose",
+  "caffeine_level": "high",
+  "brewing": {
+    "grams": 3,
+    "water_ml": 200,
+    "temp_c": 95,
+    "steeps": 2,
+    "seconds": [
+      180,
+      240
+    ],
+    "notes": "A safe starting point for black tea: Western style, water just off the boil."
+  },
+  "taste_tags": [
+    "brisk"
+  ],
+  "description": "A brand of black tea grown and made in Mie Prefecture from cultivars such as Benihomare, Benifuuki and Yabukita.\n\nTreat it as you would any black tea: water just off the boil, a few minutes in the pot, and a seller who can say where it was grown.",
+  "wikipedia_title": null,
+  "wikipedia_scope": "none",
+  "popularity": 1,
+  "name_zh": "伊势红茶",
+  "name_ru": "Исэ-котя",
+  "history": "It is kept apart from Ise-cha, the prefecture's Japanese tea, and uses cultivars chosen for black tea, with growing along the Suzuka Mountains among other places. Little more is documented about it.",
+  "liquor_hex": "#A8431C",
+  "leaf_hex": "#3A2A1E",
+  "sources": [
+    "https://ja.wikipedia.org/wiki/%E4%BC%8A%E5%8B%A2%E7%B4%85%E8%8C%B6",
+    "https://www.wikidata.org/wiki/Q11379117"
+  ],
+  "confidence": "medium",
+  "images": [],
+  "stub": true,
+  "processing": "Typical of black tea: withered, rolled, fully oxidised and dried.",
+  "harvest_season": "Picked through the growing season, as with most black teas.",
+  "appearance_dry": "Usually dark twisted leaf, sometimes with golden tips.",
+  "appearance_liquor": "Usually a clear red-brown.",
+  "appearance_wet": "Usually coppery brown leaf.",
+  "taste_profile": "Unusually astringent for a Japanese black tea and strong enough to take milk; some compare it to Ceylon tea.",
+  "vintage_note": "Black teas are normally sold by harvest year and are best within a couple of years."
+}

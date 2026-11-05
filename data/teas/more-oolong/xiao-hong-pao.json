@@ -1,0 +1,57 @@
+{
+  "slug": "xiao-hong-pao",
+  "name_en": "Xiao Hong Pao",
+  "name_native": "小红袍",
+  "name_romanized": "Xiǎo Hóngpáo",
+  "name_zh": "小红袍",
+  "name_ru": "Сяо Хун Пао",
+  "aliases": [
+    "Little Red Robe"
+  ],
+  "category": "oolong",
+  "origin_country": "China",
+  "origin_region": "Fujian · Wuyi",
+  "cultivar": null,
+  "processing": "As with other Wuyi rock teas: withered, shaken, partly oxidised, rolled and roasted.",
+  "form": "loose",
+  "harvest_season": "Spring, as is usual for Wuyi rock teas.",
+  "appearance_dry": "Typical of Wuyi rock teas: dark, twisted strips.",
+  "appearance_liquor": "Typical of roasted Wuyi oolongs: clear orange to amber.",
+  "appearance_wet": "Typical of the class: green-brown leaves with darker edges.",
+  "taste_profile": "No settled description exists. Expect what is typical of the class: roast, mineral weight and floral sweetness.",
+  "taste_tags": [
+    "roasted",
+    "mineral",
+    "floral"
+  ],
+  "brewing": {
+    "grams": 7,
+    "water_ml": 110,
+    "temp_c": 98,
+    "steeps": 6,
+    "seconds": [
+      10,
+      10,
+      15,
+      20,
+      30,
+      45
+    ],
+    "notes": "The usual approach for Wuyi rock teas: water near the boil and short steeps."
+  },
+  "caffeine_level": "medium",
+  "vintage_note": "Sold by harvest year: at least one specialist Chinese tea shop lists a 2026 lot under this name. Beyond that, expect the normal Wuyi pattern of spring harvest and a roast finished some months later.",
+  "description": "Xiao Hong Pao, Little Red Robe, is a name found on the oolong lists of specialist shops. It clearly plays on Da Hong Pao, Big Red Robe, but the name alone does not prove any relation.\n\nIts making is not documented in detail, so assume the method of the class: shaking, partial oxidation and roasting.\n\nExpect the general pattern of a Wuyi rock tea and brew it the same way, hot and short.\n\nWhen buying, ask whether the seller means a specific cultivar or a house name, and which year and growing area the lot comes from.",
+  "history": "Little is documented about its origin, including who named it, when, or how it relates to Da Hong Pao. Today it appears mainly in shop catalogues and general lists of oolongs.",
+  "liquor_hex": "#B9702C",
+  "leaf_hex": "#3B2B1F",
+  "sources": [
+    "https://sevencups.com/shop-category/wulong-tea",
+    "https://tea-lab.pages.dev/types/oolong/"
+  ],
+  "confidence": "low",
+  "wikipedia_title": null,
+  "wikipedia_scope": "none",
+  "popularity": 2,
+  "images": []
+}

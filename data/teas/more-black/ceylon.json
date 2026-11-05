@@ -1,0 +1,126 @@
+{
+  "slug": "ceylon",
+  "name_en": "Ceylon",
+  "name_native": null,
+  "name_romanized": null,
+  "name_zh": "锡兰红茶",
+  "name_ru": "Цейлонский чай",
+  "aliases": [
+    "Ceylon Tea",
+    "Ceylon Black Tea",
+    "西冷红茶",
+    "錫蘭紅茶"
+  ],
+  "category": "black",
+  "origin_country": "Sri Lanka",
+  "origin_region": "Sri Lanka · Central Highlands and lowlands",
+  "cultivar": "Mostly Camellia sinensis var. assamica, also var. sinensis",
+  "processing": "Primarily orthodox black tea, with some CTC. Sri Lanka also makes smaller amounts of green and white tea.",
+  "form": "loose",
+  "harvest_season": "Varies by region and elevation. Teas are usually identified by district and elevation, not by one national picking.",
+  "appearance_dry": "Dark, wiry or broken black leaf, with the size depending on the grade.",
+  "appearance_liquor": "Clear, bright reddish amber, deeper in low-grown teas.",
+  "appearance_wet": "Coppery-brown leaf, typical of orthodox black tea.",
+  "taste_profile": "Generally brisk with a light citrus scent. High-grown teas are fresher and rose-scented with stronger astringency, while low-grown teas are heavier and less aromatic.",
+  "taste_tags": [
+    "citrus",
+    "brisk",
+    "malty"
+  ],
+  "brewing": {
+    "grams": 3,
+    "water_ml": 250,
+    "temp_c": 95,
+    "steeps": 2,
+    "seconds": [
+      180,
+      270
+    ],
+    "notes": "Normally brewed Western style. Strong low-grown lots take milk well; lighter high-grown lots are better without it."
+  },
+  "caffeine_level": "high",
+  "vintage_note": "Ceylon is usually sold by district, elevation and leaf grade, not by vintage year. Most black lots are meant for drinking within a couple of years. For single-origin tea, look for names like Uva, Dimbula, Nuwara Eliya, Kandy or Ruhuna.",
+  "description": "Ceylon is the name for tea from Sri Lanka, the island's name until 1972. It is both a geographic label and a brand, and most people mean black tea when they use it. It is used in blends and as single-origin tea.\n\nElevation does most of the sorting. High-grown districts such as Uva, Dimbula and Nuwara Eliya give fragrant, brisk teas. Mid-grown Kandy is scented with moderate astringency, and low-grown Ruhuna is heavy and dark, popular in the Middle East.\n\nStart with a short Western steep, because the briskness builds quickly. Lengthen it for milk, or use a low-grown tea if you like a sturdy cup.\n\nOn a pack, the Lion Logo is the thing to read. It can only appear on consumer packs of 100% Ceylon tea packed in Sri Lanka, from brands that meet the Sri Lanka Tea Board's quality standards. A district name tells you far more about flavour than the word Ceylon alone.",
+  "history": "British-era Ceylon was a coffee island until a fungal disease, Hemileia vastatrix, destroyed plantations after 1869. Tea was already under way: the planter James Taylor is credited with introducing commercial tea planting in 1867, and the industry grew quickly after the coffee collapse.\n\nThomas Lipton bought estates around the start of the 1890s and sold the tea cheaply and directly in his shops, which helped make it widely known. Smallholder tea planting became popular in the 1970s, and the Tea Research Institute was founded after a 1925 ordinance. Sri Lanka was the world's leading tea exporter in 1995, with 23% of global exports, and later lost share to rivals such as Kenya.",
+  "liquor_hex": "#B5602A",
+  "leaf_hex": "#33241A",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Ceylon_tea",
+    "https://en.wikipedia.org/wiki/Tea_production_in_Sri_Lanka",
+    "https://ru.wikipedia.org/wiki/%D0%A6%D0%B5%D0%B9%D0%BB%D0%BE%D0%BD%D1%81%D0%BA%D0%B8%D0%B9_%D1%87%D0%B0%D0%B9",
+    "https://ja.wikipedia.org/wiki/%E3%82%BB%E3%82%A4%E3%83%AD%E3%83%B3%E3%83%86%E3%82%A3%E3%83%BC",
+    "https://zh.wikipedia.org/wiki/%E9%94%A1%E5%85%B0%E9%AB%98%E5%9C%B0%E7%BA%A2%E8%8C%B6"
+  ],
+  "confidence": "high",
+  "wikipedia_title": "Ceylon tea",
+  "wikipedia_scope": "exact",
+  "popularity": 4,
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/64/Uruwala_OP1.jpg/1280px-Uruwala_OP1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/64/Uruwala_OP1.jpg/330px-Uruwala_OP1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Uruwala_OP1.jpg",
+      "author": "WJ Houtman",
+      "license": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "kind": "dry_leaf",
+      "alt": "Pile of long, wiry black Ceylon OP1 dry leaf on a white background"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cc/Ceylon_Pettiagalla_Tea.jpg/1280px-Ceylon_Pettiagalla_Tea.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cc/Ceylon_Pettiagalla_Tea.jpg/330px-Ceylon_Pettiagalla_Tea.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Ceylon_Pettiagalla_Tea.jpg",
+      "author": "Brigade Piron",
+      "license": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "kind": "dry_leaf",
+      "alt": "Sample of dark, twisted dry leaf from Ceylon Pettiagalla tea"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7a/Ceylon_black_tea_leaves.jpg/1280px-Ceylon_black_tea_leaves.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7a/Ceylon_black_tea_leaves.jpg/330px-Ceylon_black_tea_leaves.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Ceylon_black_tea_leaves.jpg",
+      "author": "Patrick Kolencherry",
+      "license": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "kind": "dry_leaf",
+      "alt": "Small mound of dark broken Ceylon black tea leaf on a white background"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e2/Sri_Lanka_030.jpg/1280px-Sri_Lanka_030.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e2/Sri_Lanka_030.jpg/330px-Sri_Lanka_030.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Sri_Lanka_030.jpg",
+      "author": "Pulasti ( talk ) ( Uploads )",
+      "license": "Public domain",
+      "license_url": null,
+      "kind": "plant",
+      "alt": "Fresh green shoots and leaves of a tea plant in Sri Lanka"
+    }
+  ],
+  "i18n": {
+    "ru": {
+      "processing": "В основном ортодоксальный чёрный чай, отчасти CTC. В небольших количествах на Шри-Ланке делают также зелёный и белый чай.",
+      "harvest_season": "Зависит от района и высоты. Чаи обычно различают по району и высоте, единого общенационального сбора нет.",
+      "appearance_dry": "Тёмный чёрный лист, скрученный в проволочку или ломаный; размер зависит от сорта.",
+      "appearance_liquor": "Прозрачный, яркий красновато-янтарный настой; у чаёв низких высот он гуще.",
+      "appearance_wet": "Спитой лист медно-коричневый, типичный для ортодоксального чёрного чая.",
+      "taste_profile": "Обычно бодрый, с лёгким цитрусовым ароматом. Высокогорные чаи свежее, пахнут розой и вяжут сильнее, а чаи низких высот плотнее и менее ароматны.",
+      "vintage_note": "Цейлон обычно продают по району, высоте и сорту листа, а не по году урожая. Большинство чёрных партий стоит выпить в течение пары лет. Если нужен чай одного происхождения, ищите названия вроде Ува, Димбула, Нувара-Элия, Канди или Рухуна.",
+      "history": "Британский Цейлон был кофейным островом, пока грибковая болезнь Hemileia vastatrix не начала после 1869 года уничтожать плантации. Чай к тому времени уже появился: считается, что коммерческие чайные посадки ввёл в 1867 году плантатор Джеймс Тейлор, а после краха кофе отрасль быстро пошла в рост.\n\nТомас Липтон купил плантации примерно в начале 1890-х и стал продавать чай дёшево и напрямую в своих магазинах, что помогло ему стать широко известным. В 1970-е распространились мелкие чайные хозяйства, а Институт исследования чая был основан после указа 1925 года. В 1995 году Шри-Ланка была ведущим мировым экспортёром чая с 23% мирового экспорта, а позже уступила часть рынка конкурентам, таким как Кения.",
+      "description": "Цейлоном называют чай со Шри-Ланки: так остров назывался до 1972 года. Это одновременно географическое обозначение и бренд, и чаще всего под ним подразумевают чёрный чай. Его используют и в купажах, и как чай одного происхождения.\n\nГлавное разделение задаёт высота. Высокогорные районы, такие как Ува, Димбула и Нувара-Элия, дают ароматные бодрые чаи. Канди со средних высот душистый и умеренно терпкий, а низинная Рухуна плотная и тёмная, её любят на Ближнем Востоке.\n\nНачните с короткого заваривания по-европейски: терпкость нарастает быстро. Для чая с молоком заваривайте дольше, а если любите крепкую чашку, берите чай низких высот.\n\nНа упаковке прежде всего смотрите на логотип со львом. Он может стоять только на потребительских упаковках 100% цейлонского чая, расфасованного на Шри-Ланке, у брендов, отвечающих стандартам качества Совета по чаю Шри-Ланки. Название района скажет о вкусе гораздо больше, чем одно слово «Цейлон».",
+      "brewing_notes": "Обычно заваривают по-европейски. Крепкие партии низких высот хорошо принимают молоко, более лёгкие высокогорные лучше пить без него."
+    },
+    "zh": {
+      "processing": "以传统工艺红茶为主,也有部分CTC红茶。斯里兰卡还少量出产绿茶和白茶。",
+      "harvest_season": "因产区和海拔而异。茶叶通常按产区和海拔来区分,全国并没有统一的采摘季。",
+      "appearance_dry": "深色条索状或碎形红茶,大小取决于等级。",
+      "appearance_liquor": "汤色清澈明亮,呈红琥珀色,低地茶更深。",
+      "appearance_wet": "叶底铜褐色,是传统工艺红茶的典型样子。",
+      "taste_profile": "通常鲜爽,带淡淡的柑橘香。高地茶更清新,有玫瑰香,涩感更强;低地茶则更厚重,香气较弱。",
+      "vintage_note": "锡兰茶通常按产区、海拔和叶片等级出售,而不是按年份。多数红茶批次宜在两年左右喝完。想买单一产地的茶,可以认准乌瓦、汀布拉、努沃勒埃利耶、康提或鲁哈纳这些名字。",
+      "history": "英国统治时期的锡兰原本是咖啡岛,直到1869年以后,真菌病害咖啡驼孢锈菌(Hemileia vastatrix)摧毁了种植园。那时茶已经起步:一般认为种植园主詹姆斯·泰勒在1867年引入了商业化茶叶种植,咖啡业崩溃后,茶产业迅速发展起来。\n\n托马斯·立顿在1890年代初前后买下茶园,在自家店里低价直销,让锡兰茶广为人知。1970年代小农种茶开始流行,茶叶研究所则是在1925年的一项法令之后成立的。1995年,斯里兰卡是世界头号茶叶出口国,占全球出口的23%,后来份额被肯尼亚等对手抢走。",
+      "description": "锡兰是斯里兰卡茶的名称,这也是该岛在1972年以前的国名。它既是地理标识,也是一个品牌,人们说起它时多半指红茶。锡兰茶既用于拼配,也作为单一产地茶出售。\n\n茶的风格主要由海拔决定。乌瓦、汀布拉、努沃勒埃利耶等高地产区出产香气好、口感鲜爽的茶。中海拔的康提有香气,涩度适中;低地的鲁哈纳厚重色深,在中东很受欢迎。\n\n先用西式短泡,因为涩感上来得很快。加奶的话就泡久一点;喜欢浓厚的茶汤,可以选低地茶。\n\n看包装时,最该留意的是狮子标志。只有在斯里兰卡包装的100%锡兰茶消费包装才能使用它,而且品牌要符合斯里兰卡茶叶局的质量标准。产区名称比单单“锡兰”二字更能说明风味。",
+      "brewing_notes": "通常用西式冲泡。浓强的低地茶很适合加奶,较清淡的高地茶不加奶更好。"
+    }
+  }
+}

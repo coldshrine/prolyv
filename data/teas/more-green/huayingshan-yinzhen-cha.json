@@ -1,0 +1,53 @@
+{
+  "slug": "huayingshan-yinzhen-cha",
+  "name_en": "Huayingshan Yinzhen",
+  "name_native": "华蓥山银针茶",
+  "name_romanized": "Huáyíngshān Yínzhēn Chá",
+  "aliases": [
+    "Huayingshan Yinzhen Cha"
+  ],
+  "category": "green",
+  "origin_country": "China",
+  "origin_region": "Sichuan · Huaying",
+  "cultivar": null,
+  "form": "loose",
+  "caffeine_level": "medium",
+  "brewing": {
+    "grams": 3,
+    "water_ml": 150,
+    "temp_c": 80,
+    "steeps": 3,
+    "seconds": [
+      60,
+      75,
+      105
+    ],
+    "notes": "A safe starting point for green tea: cooler water, short steeps, then adjust by taste."
+  },
+  "taste_tags": [
+    "vegetal",
+    "sweet"
+  ],
+  "description": "A green tea from Huaying in Sichuan, made from tender early-spring buds picked before Qingming.\n\nTreat it as you would any green tea: cooler water, short steeps, and a seller who can say where and when it was picked.",
+  "wikipedia_title": null,
+  "wikipedia_scope": "none",
+  "popularity": 1,
+  "name_zh": "华蓥山银针茶",
+  "name_ru": "Хуа Ин Шань Инь Чжэнь Ча",
+  "history": "Little is documented about it beyond its bud material and its green leaf and clear liquor.",
+  "liquor_hex": "#DAD68A",
+  "leaf_hex": "#8A9650",
+  "sources": [
+    "https://milulu.com.cn/techan/35372.html"
+  ],
+  "confidence": "low",
+  "images": [],
+  "stub": true,
+  "processing": "Typical of green tea: picked, heated soon after picking to stop oxidation, then shaped and dried.",
+  "harvest_season": "Early spring, before Qingming.",
+  "appearance_dry": "Green leaf whose shape depends on the maker, as is usual for regional green teas.",
+  "appearance_liquor": "Clear, with green leaf.",
+  "appearance_wet": "Usually soft green leaf that opens up in the water.",
+  "taste_profile": "Expect what green teas usually give: fresh, vegetal and lightly sweet.",
+  "vintage_note": "Green teas like this are normally sold as the current year's harvest and are best within a year of picking. It is not an ageing tea."
+}

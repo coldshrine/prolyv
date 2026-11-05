@@ -3,7 +3,11 @@
   "name_en": "Darjeeling Green Tea",
   "name_native": "दार्जिलिङ चिया",
   "name_romanized": "Dārjiliṅ chiyā",
-  "aliases": ["Darjeeling green", "Green Darjeeling", "Darjeeling green leaf tea"],
+  "aliases": [
+    "Darjeeling green",
+    "Green Darjeeling",
+    "Darjeeling green leaf tea"
+  ],
   "category": "green",
   "origin_country": "India",
   "origin_region": "West Bengal · Darjeeling",
@@ -15,12 +19,39 @@
   "appearance_liquor": "Pale yellow-green, clear.",
   "appearance_wet": "Soft olive-green leaf, sometimes with slightly browned edges.",
   "taste_profile": "Fresh and mildly vegetal with a floral lift, light grassy notes and the brisk, slightly dry finish typical of Darjeeling leaf; gentler and less umami than Japanese greens.",
-  "taste_tags": ["vegetal", "floral", "grassy", "brisk"],
-  "brewing": {"grams": 3, "water_ml": 200, "temp_c": 80, "steeps": 3, "seconds": [120, 150, 180], "notes": "Keep the water well under the boil; Darjeeling leaf turns bitter fast. Short steeps, no milk."},
+  "taste_tags": [
+    "vegetal",
+    "floral",
+    "grassy",
+    "brisk"
+  ],
+  "brewing": {
+    "grams": 3,
+    "water_ml": 200,
+    "temp_c": 80,
+    "steeps": 3,
+    "seconds": [
+      120,
+      150,
+      180
+    ],
+    "notes": "Keep the water well under the boil; Darjeeling leaf turns bitter fast. Short steeps, no milk."
+  },
   "caffeine_level": "medium",
-  "vintage_note": "Sold by garden and year, almost always as a spring (first-flush) green; drink within the year of harvest, kept sealed and away from light. Volumes are tiny next to the black teas, so it is a speciality-shop item rather than a supermarket one, and there is no aged or vintage market for it.",
+  "vintage_note": "Sold by garden and year, usually as a spring (first-flush) green, though a few gardens make later lots; drink within the year of harvest, kept sealed and away from light. Volumes are tiny next to the black teas, so it is a speciality-shop item rather than a supermarket one, and there is no aged or vintage market for it.",
   "description": "Darjeeling green tea is a side line of the famous black-tea gardens: the same high-altitude Chinary and clonal leaf, but fixed with heat before it can oxidise. It has none of the fame of the flushes, yet a well-made spring green from a good estate is one of the more interesting green teas produced outside East Asia.\n\nThe leaf is withered briefly, then steamed or pan-fired to stop oxidation, rolled and dried. Most gardens make it from first-flush leaf in March and April, when the shoots are small and aromatic; a few make it through the season for the domestic health-tea market, and those later lots are coarser and plainer.\n\nThe cup is pale yellow-green and tastes fresh and lightly vegetal with a floral lift and a touch of grassy briskness; it is gentler and less umami than Japanese greens and less toasty than most Chinese ones, with the characteristic Darjeeling dryness at the end. It is unforgiving of hot water, so keep it at about 80 °C with short steeps.\n\nIt is sold by garden and year, usually as a spring lot, and volumes are tiny compared with the black teas, so it is a speciality-shop item rather than something you will find on a supermarket shelf. Buy the current year's harvest, keep it sealed and away from light, and finish it within the year.\n\nTry it alongside a first flush from the same garden: the green shows you what the leaf itself contributes before oxidation adds its layer.",
   "wikipedia_title": "Darjeeling tea",
   "wikipedia_scope": "umbrella",
-  "popularity": 2
+  "popularity": 2,
+  "name_zh": "大吉岭绿茶",
+  "name_ru": "Дарджилинг зелёный",
+  "history": "Green tea is a side line in the Darjeeling hills, and little is documented about when gardens took it up. What can be seen is who makes it today: Makaibari sells an organic estate green, and Turzum has offered a 2025 lot that combines steaming with pan-firing.",
+  "liquor_hex": "#D3CB86",
+  "leaf_hex": "#737A52",
+  "sources": [
+    "https://arborteas.com/organic-makaibari-estate-green-tea.html",
+    "https://jayshreetea.com/products/turzum-panned-and-steamed-green-tea-2025"
+  ],
+  "confidence": "low",
+  "images": []
 }

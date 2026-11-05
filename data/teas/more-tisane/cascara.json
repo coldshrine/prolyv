@@ -1,0 +1,61 @@
+{
+  "slug": "cascara",
+  "name_en": "Cascara (Coffee Cherry Tea, Sultana)",
+  "name_native": "cáscara",
+  "name_romanized": null,
+  "name_zh": "咖啡果皮茶",
+  "name_ru": "Каскара",
+  "aliases": [
+    "Cascara",
+    "Cascara (Aufguss)",
+    "Coffee cherry tea",
+    "Coffee cherry tea (cascara)",
+    "Sultana",
+    "Sultana té",
+    "Coffee tea",
+    "Кофейная каскара"
+  ],
+  "category": "tisane",
+  "origin_country": "Yemen",
+  "origin_region": "Yemen",
+  "cultivar": null,
+  "processing": "The skins and pulp of the coffee cherry are separated from the beans during milling and dried, either flaked or in raisin-like pieces.",
+  "form": "loose",
+  "harvest_season": "Follows the coffee harvest of the producing farm, since it is a by-product of milling ripe cherries.",
+  "appearance_dry": "Leathery, curled, raisin-like husks or flakes in dark reddish brown.",
+  "appearance_liquor": "Clear and amber.",
+  "appearance_wet": "Plump, soft pieces of fruit skin in reddish brown.",
+  "taste_profile": "A fruit infusion more than anything resembling coffee or tea, with floral aroma and the sweet, faintly tart character of the cherry's flesh.",
+  "taste_tags": [
+    "fruity",
+    "floral",
+    "sweet",
+    "tart"
+  ],
+  "brewing": {
+    "grams": 15,
+    "water_ml": 325,
+    "temp_c": 95,
+    "steeps": 1,
+    "seconds": [
+      240
+    ],
+    "notes": "Use about three tablespoons of flakes for 300 to 350 ml, four minutes in hot water. Or cold-brew for 12 to 16 hours. Good hot, iced or lightly sweetened."
+  },
+  "caffeine_level": "low",
+  "vintage_note": "Sold like a coffee farm's product: by origin, farm and crop year where stated, rather than as an aged tea. There is no ageing tradition, so choose the most recent crop and keep it sealed and dry.",
+  "description": "Cascara is the dried skin and pulp of the coffee cherry, the part usually thrown away once the beans are out. Steeped in water it makes a fruit infusion that tastes nothing like a cup of roasted coffee. It has been drunk in Yemen and Ethiopia for a long time, and the modern specialty version spread from coffee farms in Latin America.\n\nAfter milling, the husks are dried and sold as flakes or as raisin-like pieces. There is no roasting of the bean and no tea leaf, so everything in the cup comes from the fruit itself, and it varies with the farm.\n\nBrewing is forgiving. A short hot steep gives an amber, floral, fruity drink, and a long cold brew is softer and rounder. It takes honey and ginger well, which is how it is often served in Bolivia and Panama.\n\nBuy it like coffee, from a roaster or farm that names its origin and crop. Keep it apart from cascara sagrada, the laxative bark of Frangula purshiana, which shares the name but is a different plant entirely. If you like this, try qishr, the spiced Yemeni drink made from the same husks.",
+  "history": "Coffee farmers in Yemen drew on the husks long before the export trade existed, and qishr, a spiced husk drink, is the older tradition. Infusions also became customary in Bolivia, Panama and Nicaragua, where the name sultana is used.\n\nThe modern specialty product has its own origin. Around 2005 the Salvadoran coffee farmer Aida Batlle noticed the floral smell of discarded husks, tried brewing them, and promoted the dried skins as cascara, Spanish for husk or peel. By 2009 it was on offer in US coffee shops, and other growers soon followed. It has since appeared iced, carbonated, bottled and in beer.",
+  "liquor_hex": "#B5651D",
+  "leaf_hex": "#5A2A1C",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Coffee_cherry_tea",
+    "https://de.wikipedia.org/wiki/Cascara_%28Aufguss%29",
+    "https://ru.wikipedia.org/wiki/%D0%9A%D0%B8%D1%88%D1%80"
+  ],
+  "confidence": "medium",
+  "wikipedia_title": "Coffee cherry tea",
+  "wikipedia_scope": "exact",
+  "popularity": 3,
+  "images": []
+}

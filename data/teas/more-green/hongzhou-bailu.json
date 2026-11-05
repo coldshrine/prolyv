@@ -1,0 +1,56 @@
+{
+  "slug": "hongzhou-bailu",
+  "name_en": "Hongzhou Bailu",
+  "name_native": "洪州白露",
+  "name_romanized": "Hóngzhōu Báilù",
+  "name_zh": "洪州白露",
+  "name_ru": "Хун Чжоу Бай Лу",
+  "aliases": [
+    "Xishan Bailu",
+    "西山白露",
+    "Си Шань Бай Лу"
+  ],
+  "category": "green",
+  "origin_country": "China",
+  "origin_region": "Jiangxi · Nanchang · Xishan",
+  "cultivar": null,
+  "processing": "Modern production details are scarce. It is a green tea, so the leaf is heated to stop oxidation, then shaped and dried.",
+  "form": "loose",
+  "harvest_season": "The name is tied to the time of picking, though the exact present-day season is not well recorded.",
+  "appearance_dry": "Not well recorded; expect the fine green leaf typical of a Jiangxi green.",
+  "appearance_liquor": "Typically a clear yellow-green, as with other Jiangxi greens.",
+  "appearance_wet": "Not well recorded; expect soft green leaf, as is usual for the class.",
+  "taste_profile": "No detailed tasting record exists; as with other Chinese greens of its kind, expect a fresh, lightly vegetal cup with some sweetness.",
+  "taste_tags": [
+    "vegetal",
+    "sweet"
+  ],
+  "brewing": {
+    "grams": 3,
+    "water_ml": 150,
+    "temp_c": 85,
+    "steeps": 3,
+    "seconds": [
+      60,
+      90,
+      120
+    ],
+    "notes": "General advice for a Chinese green: water off the boil, and a lid left off between steeps."
+  },
+  "caffeine_level": "medium",
+  "vintage_note": "Specific sales practice is not recorded. As is usual for Chinese green teas, expect the current year's harvest, best drunk within the year.",
+  "description": "Hongzhou Bailu, also called Xishan Bailu, is a green tea from Jiangxi. The name joins the old place name Hongzhou, today's Nanchang, with the time of picking. It grows in the Xishan hills in Nanchang's Wanli district.\n\nIts reputation is mostly literary. Exact modern processing is hard to pin down, so what can be said is what applies to green tea in general: fix the leaf with heat, shape it and dry it.\n\nThere is no solid tasting record to pass on. Brew it as you would another Chinese green, with water at around 85°C and short steeps, and note what you find.\n\nFinding it outside China may be hard. Ask for Xishan as the source and for the harvest date, since a Tang-era name on a label says nothing about the leaf in the bag.",
+  "history": "This was a famous tea of the Tang dynasty: Li Zhao's Guoshi Bu names the white dew of Xishan in Hongzhou among the notable teas of its day. Later tea writers kept noticing it, and in the Ming dynasty Zhu Quan, Prince of Ning, called it a supreme tea in his Cha Pu.\n\nHow closely today's tea resembles the one those writers drank is not known.",
+  "liquor_hex": "#D9D592",
+  "leaf_hex": "#74814A",
+  "wikipedia_title": "洪州白露",
+  "wikipedia_scope": "exact",
+  "popularity": 2,
+  "sources": [
+    "https://zh.wikipedia.org/wiki/%E6%B4%AA%E5%B7%9E%E7%99%BD%E9%9C%B2",
+    "https://zh.wikipedia.org/wiki/%E8%92%99%E5%B1%B1%E8%8C%B6",
+    "https://www.wikidata.org/wiki/Q15900690"
+  ],
+  "confidence": "medium",
+  "images": []
+}

@@ -1,0 +1,56 @@
+{
+  "slug": "kuromoji-cha",
+  "name_en": "Kuromoji-cha",
+  "name_native": "クロモジ茶",
+  "name_romanized": "Kuromoji-cha",
+  "name_zh": "黑文字茶",
+  "name_ru": "Куромодзи-тя",
+  "aliases": [
+    "Kuromoji tea",
+    "黒文字茶",
+    "くろもじ茶",
+    "Lindera umbellata tea"
+  ],
+  "category": "tisane",
+  "origin_country": "Japan",
+  "origin_region": "Shikoku",
+  "cultivar": "Lindera umbellata",
+  "processing": "Branches and leaves of the kuromoji shrub are chopped and dried, in some products also roasted.",
+  "form": "loose",
+  "harvest_season": "No fixed tea season is documented; for the related essential oil, branches and leaves are cut from August to October.",
+  "appearance_dry": "Chopped woody twigs and leaf bits, brown with greenish flecks.",
+  "appearance_liquor": "Pale, clear golden yellow.",
+  "appearance_wet": "Softened twig pieces and dull olive leaf fragments.",
+  "taste_profile": "More aroma than taste: fresh, woody and citrus-like, with a faint sweetness and a smooth, light body.",
+  "taste_tags": [
+    "woody",
+    "citrus",
+    "sweet"
+  ],
+  "brewing": {
+    "grams": 3,
+    "water_ml": 300,
+    "temp_c": 100,
+    "steeps": 2,
+    "seconds": [
+      180,
+      300
+    ],
+    "notes": "Boiling water, a lidded pot, three minutes or more. If it seems thin, simmer the twigs for a few minutes to draw out more sweetness."
+  },
+  "caffeine_level": "none",
+  "vintage_note": "Sold without a vintage, as chopped twigs or tea bags, usually labelled by prefecture such as Tokushima or Kochi. With an aroma tea like this, buy recent stock and keep it tightly sealed.",
+  "description": "If you know the fragrant wooden toothpicks served with Japanese sweets, you already know this smell: kuromoji is the shrub they come from, and here its twigs and leaves go into a pot. No tea plant is involved.\n\nProcessing is simple, chopping and drying, with some makers roasting the wood for a rounder scent. Branches matter as much as the leaf, which is why the bag can look more like kindling than tea.\n\nThe pleasure is mostly in the nose: fresh wood, something close to citrus, and only a faint sweetness on the tongue. Brewed by the packet instructions it can taste weak, so try a longer steep or a gentle simmer.\n\nIt comes as tea bags or loose twigs, mostly from Shikoku. Health claims crowd the labels, and they are traditional or marketing claims rather than settled fact. Buy for the scent, and check the prefecture of origin.",
+  "history": "Kuromoji has long been a Japanese fragrance and folk medicine plant. Its oil was once exported to Europe as a Japanese speciality, with the Izu peninsula as the main producing area, but by the 1970s almost no one was distilling it.\n\nThe tea belongs to a more recent revival: this century, regional development projects have put kuromoji tea, oils and cosmetics back into wide circulation. When people first brewed the twigs is not recorded with any precision.",
+  "liquor_hex": "#DDBF74",
+  "leaf_hex": "#8A6A45",
+  "sources": [
+    "https://ja.wikipedia.org/wiki/%E3%82%AF%E3%83%AD%E3%83%A2%E3%82%B8",
+    "https://digitalpr.jp/r/130931"
+  ],
+  "confidence": "low",
+  "wikipedia_title": null,
+  "wikipedia_scope": "none",
+  "popularity": 2,
+  "images": []
+}

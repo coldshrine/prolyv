@@ -3,24 +3,98 @@
   "name_en": "Ilam Black Tea (Nepal Orthodox)",
   "name_native": "इलाम चिया",
   "name_romanized": "Ilām chiyā",
-  "aliases": ["Nepal orthodox", "Nepali black tea", "Ilam tea", "Himalayan orthodox tea", "Nepal Darjeeling-style tea", "Nepal black tea"],
+  "aliases": [
+    "Nepal orthodox",
+    "Nepali black tea",
+    "Ilam tea",
+    "Himalayan orthodox tea",
+    "Nepal Darjeeling-style tea",
+    "Nepal black tea"
+  ],
   "category": "black",
   "origin_country": "Nepal",
-  "origin_region": "Koshi Province · Ilam (with Panchthar and Dhankuta)",
+  "origin_region": "Koshi Province · Ilam",
   "cultivar": "Chinary bushes and Darjeeling-origin clonals (AV2, B157, T78) plus local Nepali selections",
   "processing": "Orthodox black tea made in flushes like Darjeeling: a long wither, gentle rolling, light oxidation for the spring first flush, fuller oxidation for the second flush, then plainer monsoon and autumn teas; whole-leaf sorting into tippy grades.",
   "form": "loose",
-  "harvest_season": "March to November in four flushes; first flush (late March–April) and second flush (May–June) are prized, autumn lots (October–November) are mellow and good value.",
+  "harvest_season": "March to November in four flushes; first flush (late March–April) and second flush (May–July) are prized, autumn lots (October–November) are mellow and good value.",
   "appearance_dry": "Twisted, tippy leaf in mixed olive, brown and silver; spring lots look green, summer lots darker.",
   "appearance_liquor": "Pale gold for first flush to bright amber for second flush.",
   "appearance_wet": "Olive to copper leaf, whole and supple.",
   "taste_profile": "Floral, fruity and honeyed with a smooth body and less sharp astringency than Darjeeling; second flush adds muscatel and stone fruit.",
-  "taste_tags": ["floral", "fruity", "honey", "brisk"],
-  "brewing": {"grams": 3, "water_ml": 200, "temp_c": 90, "steeps": 2, "seconds": [180, 240], "notes": "Brew like a Darjeeling: around 90 °C, three to four minutes, no milk, and a second steep."},
+  "taste_tags": [
+    "floral",
+    "fruity",
+    "honey",
+    "brisk"
+  ],
+  "brewing": {
+    "grams": 3,
+    "water_ml": 200,
+    "temp_c": 90,
+    "steeps": 2,
+    "seconds": [
+      180,
+      240
+    ],
+    "notes": "Brew like a Darjeeling: around 90 °C, three to four minutes, no milk, and a second steep."
+  },
   "caffeine_level": "medium",
   "vintage_note": "Sold by flush and year from named factories, gardens and smallholder cooperatives in Ilam and the neighbouring districts, mostly through direct importers and the producers' own shops rather than an auction; Nepal's collective 'Nepal Tea' mark certifies Nepali orthodox tea. Spring teas ship from April, second flush from July, autumn from November. Drink first flush within the year and later flushes within two.",
   "description": "Ilam, in the far east of Nepal just over the ridge from Darjeeling, is the heart of Nepal's orthodox tea industry. The gardens sit between roughly 1,000 and 2,000 metres on the same Himalayan slopes as the famous Indian district, grow the same Chinary and clonal bushes and work in the same flushes, so a good Ilam black tea is, to most palates, a Darjeeling by another name, often at a friendlier price and with a softer, fruitier cup.\n\nOrthodox manufacture follows the Darjeeling pattern: a long wither, gentle rolling, light oxidation for the spring first flush, fuller oxidation for the second flush in late spring and early summer, then plainer monsoon and autumn teas. Nepal's factories are younger and smaller, and many buy leaf from smallholder cooperatives, which means more variation between lots but also some genuinely individual teas.\n\nThe cup runs from pale gold and floral in spring to amber, honeyed and lightly muscatel in summer, with a smooth body and less sharp astringency than Darjeeling. Brew it like a Darjeeling, around 90 °C for three to four minutes, no milk, and expect a second steep. Autumn lots are mellow and good value.\n\nIt is sold by flush and year from named factories and gardens, mostly through direct importers and the producers' own shops rather than an auction; Nepal's collective 'Nepal Tea' mark identifies certified Nepali orthodox tea. Spring teas ship from April, second flush from July, autumn from November. Drink first flush within the year and later flushes within two.\n\nNepal's teas were long sold unlabelled as Darjeeling; today the best producers put their own names forward, and that is what you should look for on the pack.",
   "wikipedia_title": "Nepali tea",
   "wikipedia_scope": "exact",
-  "popularity": 3
+  "popularity": 3,
+  "name_zh": "伊拉姆红茶",
+  "name_ru": "Илам чёрный",
+  "history": "The usual story says Nepal's first bushes grew from seed the Chinese Emperor gave to Prime Minister Jung Bahadur Rana. The documented start is around 1863, when Ilam Tea Estate was planted at about 4,500 to 5,000 feet, with Soktim following two years later.\n\nThe industry stayed small under the Rana regime's isolation, and in the 1900s Nepali growers supplied Darjeeling factories when bushes there aged and yields fell. Because the gardens lie along the Darjeeling border, Nepali tea is still sometimes mistaken for Darjeeling.\n\nOrthodox tea now comes from six main districts, with Ilam among them, in four flushes much like its neighbour's.",
+  "liquor_hex": "#CF9A3A",
+  "leaf_hex": "#5F5636",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Nepali_tea",
+    "https://ko.wikipedia.org/wiki/%EB%84%A4%ED%8C%94_%ED%99%8D%EC%B0%A8"
+  ],
+  "confidence": "medium",
+  "images": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/7/78/Ilam_Tea_Garden_%2818%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/78/Ilam_Tea_Garden_%2818%29.jpg/330px-Ilam_Tea_Garden_%2818%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Ilam_Tea_Garden_(18).jpg",
+      "author": "Navina Dulal",
+      "license": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "kind": "plantation",
+      "alt": "Rounded rows of tea bushes on steep green hillsides at an Ilam tea garden in Nepal"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/0/01/Ilam_Tea_Garden_%2830%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/01/Ilam_Tea_Garden_%2830%29.jpg/330px-Ilam_Tea_Garden_%2830%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Ilam_Tea_Garden_(30).jpg",
+      "author": "Navina Dulal",
+      "license": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "kind": "plantation",
+      "alt": "Close view of glossy tea bushes covering a slope at an Ilam tea garden in Nepal"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/c/c2/Ilam_Tea_Garden_%2812%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c2/Ilam_Tea_Garden_%2812%29.jpg/330px-Ilam_Tea_Garden_%2812%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Ilam_Tea_Garden_(12).jpg",
+      "author": "Navina Dulal",
+      "license": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "kind": "plantation",
+      "alt": "Tea-covered hillside crossed by a footpath, with misty mountains behind, in Ilam, Nepal"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/8/8b/Ilam_Tea_Garden_%2828%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8b/Ilam_Tea_Garden_%2828%29.jpg/330px-Ilam_Tea_Garden_%2828%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Ilam_Tea_Garden_(28).jpg",
+      "author": "Navina Dulal",
+      "license": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "kind": "plantation",
+      "alt": "Low rolling tea fields under a misty sky at an Ilam tea garden in Nepal"
+    }
+  ]
 }

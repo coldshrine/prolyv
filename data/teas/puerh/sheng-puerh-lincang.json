@@ -3,7 +3,12 @@
   "name_en": "Lincang Sheng Pu-erh",
   "name_native": "临沧生普洱",
   "name_romanized": "Líncāng Shēng Pǔ'ěr",
-  "aliases": ["Lin Cang sheng", "Lincang raw pu-erh", "Lincang blend", "临沧"],
+  "aliases": [
+    "Lin Cang sheng",
+    "Lincang raw pu-erh",
+    "Lincang blend",
+    "临沧"
+  ],
   "category": "sheng",
   "origin_country": "China",
   "origin_region": "Yunnan · Lincang",
@@ -15,12 +20,47 @@
   "appearance_liquor": "Bright pale gold, very clear, with a lifted aroma.",
   "appearance_wet": "Big, thick, bright yellow-green leaves, generally larger and fresher-looking than Menghai leaf.",
   "taste_profile": "Fragrant and fresh: floral and grassy aromatics, a sharp but short bitterness, obvious astringency when very young, honey sweetness and a cooling finish; lighter in body than Menghai tea.",
-  "taste_tags": ["floral", "grassy", "sweet", "bitter", "honey"],
-  "brewing": {"grams": 7, "water_ml": 110, "temp_c": 95, "steeps": 10, "seconds": [10, 8, 10, 15, 20, 30, 45, 60, 90, 150], "notes": "Rinse once. Lincang tea can be brewed a little cooler (90–92 °C) when very young to soften the astringency; use porcelain to show the aroma."},
+  "taste_tags": [
+    "floral",
+    "grassy",
+    "sweet",
+    "bitter",
+    "honey"
+  ],
+  "brewing": {
+    "grams": 7,
+    "water_ml": 110,
+    "temp_c": 95,
+    "steeps": 10,
+    "seconds": [
+      10,
+      8,
+      10,
+      15,
+      20,
+      30,
+      45,
+      60,
+      90,
+      150
+    ],
+    "notes": "Rinse once. Lincang tea can be brewed a little cooler (90–92 °C) when very young to soften the astringency; use porcelain to show the aroma."
+  },
   "caffeine_level": "high",
   "vintage_note": "Sold by spring or autumn harvest year, with county or village stated on the better cakes, and very often as loose maocha; the prefecture is the biggest source of leaf for Western-market and boutique cakes. Young Lincang (1–3 years) is bright, fragrant and sometimes astringent; it ages faster and lighter than Menghai tea, with the 5–12-year window turning it honeyed and floral, and old Lincang (pre-2005) exists mainly in the form of Fengqing and Mengku factory cakes and tuo. Supply is overwhelmingly 2005–2025 and dry-stored; the tea's reputation for 'not ageing' is really a reputation for ageing into fragrance rather than into the dark, camphor-heavy profile of humid-stored Menghai tea.",
   "description": "Lincang is the prefecture in south-western Yunnan, along the Myanmar border, that grows more tea than any other, and it is the second great school of raw pu-erh after Menghai. Mengku, Bingdao, Xigui, Bangdong, Yongde and Fengqing are all Lincang names, and when a cake simply says Lincang it usually means a blend across the prefecture's counties.\n\nThe leaf is large and bud-heavy, from the Mengku, Fengqing and Bangdong large-leaf populations, and processing is standard sheng. Because Lincang also supplies the Dianhong black tea industry and a great deal of plantation leaf, there is a vast spread of quality under one name, from wild-forest old trees to dense terrace gardens.\n\nThe Lincang style is fragrance first: flowers and fresh grass on the nose, a bitterness that comes and goes quickly, a noticeable astringency in the first year or two, honey sweetness and a cooling finish. The body is lighter than Menghai tea's, which makes young Lincang more approachable but also easier to dismiss as thin. Brewed with short steeps, slightly cooler water and a porcelain vessel, a good one is bright and long.\n\nSold by harvest year and, on honest wrappers, by county and village. Lincang has become the default source for many Western vendors' house cakes and for loose maocha because the material is plentiful and the price-to-quality ratio is strong; the famous villages, Bingdao and Xigui above all, play in a different league. 'Lincang gushu' at a modest price is usually mixed-age tree material, pleasant but not ancient.\n\nFor learning the region, a Mengku blend, a Yongde and a Bangdong from the same year make a cheap and revealing flight.",
   "wikipedia_title": "Pu'er tea",
   "wikipedia_scope": "umbrella",
-  "popularity": 3
+  "popularity": 3,
+  "name_zh": "临沧生普洱",
+  "name_ru": "Линь Цан Шэн Пуэр",
+  "history": "Lincang is a prefecture in south-western Yunnan on the Myanmar border, and a major source of pu-erh leaf, with Mengku, Bingdao, Bangdong, Yongde and Fengqing among its tea names. A cake labelled only Lincang is normally a blend from around the prefecture, so this is a regional style and not a single documented tea. Its standing among drinkers grew as buyers looked beyond Menghai and the old Yiwu names, though the region's history as a named pu-erh origin is thinly documented.",
+  "liquor_hex": "#E1C56A",
+  "leaf_hex": "#3E4529",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Lincang",
+    "https://en.wikipedia.org/wiki/Pu%27er_tea"
+  ],
+  "confidence": "low",
+  "images": []
 }

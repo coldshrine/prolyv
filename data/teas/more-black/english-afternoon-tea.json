@@ -1,0 +1,54 @@
+{
+  "slug": "english-afternoon-tea",
+  "name_en": "English Afternoon Tea",
+  "name_native": null,
+  "name_romanized": null,
+  "name_zh": "英式下午茶拼配红茶",
+  "name_ru": "Английский послеобеденный чай",
+  "aliases": [
+    "Afternoon Blend",
+    "Afternoon tea blend",
+    "下午拼配茶",
+    "English Afternoon"
+  ],
+  "category": "black",
+  "origin_country": "United Kingdom",
+  "origin_region": "Great Britain",
+  "cultivar": null,
+  "processing": "A blend of finished black teas chosen for a lighter cup than a breakfast blend. The recipe is up to each blender.",
+  "form": "loose",
+  "harvest_season": "Not tied to a harvest: as with other blends, teas from different lots are combined to keep the taste steady year-round.",
+  "appearance_dry": "Dark, small to medium black leaf, as is usual for a British blend; often sold in teabags too.",
+  "appearance_liquor": "Clear amber-red, generally lighter than a breakfast blend.",
+  "appearance_wet": "Soft brown, evenly dark leaf.",
+  "taste_profile": "A lighter, gentler black tea than a breakfast blend, with less of its heavy grip; the exact character depends on which teas the blender chose.",
+  "taste_tags": [
+    "brisk",
+    "malty",
+    "sweet"
+  ],
+  "brewing": {
+    "grams": 3,
+    "water_ml": 250,
+    "temp_c": 95,
+    "steeps": 1,
+    "seconds": [
+      210
+    ],
+    "notes": "Brew Western-style in a pot. Try it plain first; a little milk is fine, but a lighter blend does not need as much as a breakfast tea."
+  },
+  "caffeine_level": "medium",
+  "vintage_note": "Sold as a consistent house blend all year, without a harvest year or season on the label, as is usual for blended black tea. Best drunk fresh, within a year or so of buying.",
+  "description": "English Afternoon is a blender's category rather than a place or a leaf: a black tea mix meant to be lighter than the morning's breakfast tea. Blends of both kinds are popular in the British Isles.\n\nThere is no fixed recipe, and each company picks its own teas. What matters is the aim of keeping the taste consistent from one tin to the next, which is why blends carry no garden or season.\n\nExpect something softer than a breakfast tea, good plain or with a little milk. People often brew it as hard as a breakfast blend and lose the lighter character, so start with a moderate steep.\n\nWhen buying, look for a blender that tells you what is in the tin, since the name alone guarantees very little. A side-by-side with an English Breakfast from the same company shows quickly what the label means there.",
+  "history": "Little is documented about this particular name. No creator or date is on record; it belongs with the broader British habit of selling blends by time of day, in which afternoon teas are generally the lighter ones. The Prince of Wales blend is one familiar example of an afternoon style.",
+  "liquor_hex": "#B4652B",
+  "leaf_hex": "#35271D",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Tea_blending_and_additives"
+  ],
+  "confidence": "low",
+  "wikipedia_title": "Tea blending and additives",
+  "wikipedia_scope": "umbrella",
+  "popularity": 2,
+  "images": []
+}

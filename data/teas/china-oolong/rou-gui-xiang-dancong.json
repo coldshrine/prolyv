@@ -3,7 +3,13 @@
   "name_en": "Rou Gui Xiang Dancong (Cinnamon)",
   "name_native": "肉桂香单丛",
   "name_romanized": "Ròuguìxiāng Dāncóng",
-  "aliases": ["Cinnamon Fragrance Dancong", "Cassia Dancong", "Rou Gui Xiang", "Rouguixiang", "Cinnamon Phoenix oolong"],
+  "aliases": [
+    "Cinnamon Fragrance Dancong",
+    "Cassia Dancong",
+    "Rou Gui Xiang",
+    "Rouguixiang",
+    "Cinnamon Phoenix oolong"
+  ],
   "category": "oolong",
   "origin_country": "China",
   "origin_region": "Guangdong · Chaozhou · Fenghuang Mountains",
@@ -15,13 +21,46 @@
   "appearance_liquor": "Orange-amber, bright.",
   "appearance_wet": "Long, thick olive-brown leaves with strong red edges.",
   "taste_profile": "A warm cassia-cinnamon aroma with dried fruit and honey, a medium-full body with a faint peppery warmth, a toasty sweetness and a long, cooling finish.",
-  "taste_tags": ["spicy", "honey", "dried-fruit", "roasted", "sweet"],
-  "brewing": {"grams": 8, "water_ml": 110, "temp_c": 100, "steeps": 8, "seconds": [5, 5, 8, 10, 15, 25, 40, 60], "notes": "Boiling water, thin gaiwan, flash steeps. The spice shows best from the third steep and in the cooled cup; a zisha pot kept for roasted oolong also suits this strain."},
+  "taste_tags": [
+    "spicy",
+    "honey",
+    "dried-fruit",
+    "roasted",
+    "sweet"
+  ],
+  "brewing": {
+    "grams": 8,
+    "water_ml": 110,
+    "temp_c": 100,
+    "steeps": 8,
+    "seconds": [
+      5,
+      5,
+      8,
+      10,
+      15,
+      25,
+      40,
+      60
+    ],
+    "notes": "Boiling water, thin gaiwan, flash steeps. The spice shows best from the third steep and in the cooled cup; a zisha pot kept for roasted oolong also suits this strain."
+  },
   "caffeine_level": "medium",
   "vintage_note": "Sold by harvest year, usually released in autumn after a medium roast and a rest of a few months; the spice integrates with time, and lots from the previous year are common and often better. Keeps three to four years sealed and dry.",
-  "description": "Rou Gui Xiang, cinnamon fragrance, is the Phoenix dancong that drinkers of Wuyi tea recognise at once: a cassia-like warmth over honey and dried fruit, in the long-leaf Chaozhou style rather than the roasted Wuyi one. It shares a name with the Wuyi Rou Gui cultivar but is a different plant; the resemblance is in the aroma, which is why both got called cinnamon.\n\nIt is one of the ten classic Fenghuang aroma types and descends from a single selected tree of the Fenghuang Shui Xian population, propagated by cuttings and grown mainly in the mid and high gardens of the range. It is a strain that needs a bit of roast, so it is seldom made in the very light style that suits Ya Shi Xiang.\n\nThe leaf is withered, shaken firmly overnight to a medium oxidation, rolled into strips and given a medium charcoal roast, often in two passes, which turns the strain's natural spiciness into something like cassia bark and dried longan. In the cup the aroma is warm spice, the body is medium-full with honey and dried fruit, there is a faint peppery warmth on the tongue, and the finish is long and cooling.\n\nBrew it with the Chaozhou method, plenty of leaf, boiling water, instant pours, and give it time: the spice comes forward from the third steep, and the cooled cup shows it best. It takes a zisha pot well, unusual for dancong, and runs eight infusions.\n\nIt is sold by year, mostly from autumn, and it rests well, so last year's tea is a fair buy and often a better one. It is a mid-priced strain and a good bridge for people coming to dancong from yancha. The obvious tasting is to put it next to a Wuyi Rou Gui and notice how the same word describes two very different teas; the other is Jiang Hua Xiang, the dancong family's other spicy aroma.",
+  "description": "Rou Gui Xiang, cinnamon fragrance, is the Phoenix dancong that drinkers of Wuyi tea recognise at once: a cassia-like warmth over honey and dried fruit, in the long-leaf Chaozhou style rather than the roasted Wuyi one. It shares a name with the Wuyi Rou Gui cultivar but is a different plant; the resemblance is in the aroma, which is why both got called cinnamon.\n\nIt is one of the ten commonly listed Fenghuang aroma types, a popular scheme rather than a formal standard. Its mother tree and the details of its selection are not well documented. It is a strain that needs a bit of roast, so it is seldom made in the very light style that suits Ya Shi Xiang.\n\nThe leaf is withered, shaken firmly overnight to a medium oxidation, rolled into strips and given a medium charcoal roast, often in two passes, which turns the strain's natural spiciness into something like cassia bark and dried longan. In the cup the aroma is warm spice, the body is medium-full with honey and dried fruit, there is a faint peppery warmth on the tongue, and the finish is long and cooling.\n\nBrew it with the Chaozhou method, plenty of leaf, boiling water, instant pours, and give it time: the spice comes forward from the third steep, and the cooled cup shows it best. It takes a zisha pot well, unusual for dancong, and runs eight infusions.\n\nIt is sold by year, mostly from autumn, and it rests well, so last year's tea is a fair buy and often a better one. It is a mid-priced strain and a good bridge for people coming to dancong from yancha. The obvious tasting is to put it next to a Wuyi Rou Gui and notice how the same word describes two very different teas; the other is Jiang Hua Xiang, the dancong family's other spicy aroma.",
   "wikipedia_title": "Oolong",
   "wikipedia_scope": "umbrella",
   "popularity": 2,
-  "sources_note": "Listed among the ten classic aroma types; the mother-tree site is not stated because sources differ."
+  "sources_note": "Listed among the ten classic aroma types; the mother-tree site is not stated because sources differ.",
+  "name_zh": "肉桂香单丛",
+  "name_ru": "Жоу Гуй Сян Дань Цун",
+  "history": "Rou Gui Xiang is known mainly as a name on the list of ten aroma types used to sort Phoenix dancong, and lists of that kind are a modern way of organising more than eighty named strains. People in the trade point out that the scheme is common usage and not a standard.\n\nLittle is documented about this strain itself: no reliable account names a mother tree, a place of selection or a date. What can be said is that it takes its name from its cinnamon-like aroma, and that it is a Chaozhou plant with no relation to the Wuyi Rou Gui cultivar beyond the word.",
+  "liquor_hex": "#C4802F",
+  "leaf_hex": "#43301F",
+  "sources": [
+    "https://www.rmzxw.com.cn/c/2017-03-22/1431637.shtml?n2m=1",
+    "https://post.smzdm.com/p/a4p2g0xx/"
+  ],
+  "confidence": "low",
+  "images": []
 }

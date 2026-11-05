@@ -3,25 +3,63 @@
   "name_en": "Vietnamese Oolong (Lam Dong)",
   "name_native": "Trà ô long Lâm Đồng",
   "name_romanized": "Trà ô long Lâm Đồng",
-  "aliases": ["Tra o long", "Bao Loc oolong", "Cau Dat oolong", "Da Lat oolong", "Vietnamese milk oolong", "Kim Tuyen oolong", "Trà ô long Cầu Đất"],
+  "aliases": [
+    "Tra o long",
+    "Bao Loc oolong",
+    "Cau Dat oolong",
+    "Da Lat oolong",
+    "Vietnamese milk oolong",
+    "Kim Tuyen oolong",
+    "Trà ô long Cầu Đất"
+  ],
   "category": "oolong",
   "origin_country": "Vietnam",
-  "origin_region": "Lâm Đồng · Bảo Lộc, Di Linh and Cầu Đất (Đà Lạt)",
+  "origin_region": "Lam Dong · Bao Loc",
   "cultivar": "Taiwanese cultivars: Kim Tuyên (Jin Xuan, TTES No. 12), Tứ Quý (Si Ji Chun), Thúy Ngọc (Cui Yu, TTES No. 13) and Thanh Tâm (Qing Xin)",
   "processing": "Taiwanese-style ball-rolled oolong: sun-withered, indoor-withered and tumbled to bruise the edges, lightly oxidised (roughly 15–30%), kill-green, repeatedly wrapped in cloth and rolled into tight balls, then dried; most lots are unroasted, a few are given a light charcoal or electric roast.",
   "form": "loose",
-  "harvest_season": "Three to five harvests a year on the Lâm Đồng plateau; the spring (March to April) and winter (November to December) picks are the best, summer lots the cheapest.",
+  "harvest_season": "Several harvests a year on the Lâm Đồng plateau; the spring and winter picks are usually rated best, summer lots are the cheapest.",
   "appearance_dry": "Tight, glossy, dark jade-green balls with a stem attached, uniform in size, with a buttery, floral smell.",
   "appearance_liquor": "Pale yellow-green to light gold, bright and clear.",
   "appearance_wet": "Whole, thick leaves with intact stems unfurl fully, bright green with faint red edges.",
   "taste_profile": "Creamy and floral: a natural milky-buttery note from the Kim Tuyên bushes, gardenia and light orchid, a smooth soft body and a clean sweet finish that is a little lighter and simpler than the Taiwanese originals.",
-  "taste_tags": ["creamy", "floral", "sweet", "vegetal"],
-  "brewing": {"grams": 6, "water_ml": 110, "temp_c": 95, "steeps": 6, "seconds": [20, 15, 20, 30, 45, 60], "notes": "Rinse once to open the balls, then short steeps with water just off the boil. Also brews well Western-style at 3 g per 250 ml for 2–3 minutes, and makes a clean cold brew."},
+  "taste_tags": [
+    "creamy",
+    "floral",
+    "sweet",
+    "vegetal"
+  ],
+  "brewing": {
+    "grams": 6,
+    "water_ml": 110,
+    "temp_c": 95,
+    "steeps": 6,
+    "seconds": [
+      20,
+      15,
+      20,
+      30,
+      45,
+      60
+    ],
+    "notes": "Rinse once to open the balls, then short steeps with water just off the boil. Also brews well Western-style at 3 g per 250 ml for 2–3 minutes, and makes a clean cold brew."
+  },
   "caffeine_level": "medium",
   "vintage_note": "Sold as the current year's harvest in vacuum-packed foil or tins, usually by cultivar (Kim Tuyên, Tứ Quý, Thanh Tâm) and sometimes by season; it is meant to be drunk within a year or so of picking, and a lot of it reaches the market with no harvest date at all. Roasted lots keep longer; green-style lots should be kept sealed and cool.",
-  "description": "Vietnam's oolong is a Taiwanese transplant. From the early 1990s Taiwanese companies planted Taiwanese cultivars on the cool, high Lâm Đồng plateau around Bảo Lộc and Đà Lạt, brought their own processing equipment and know-how, and set up production of the ball-rolled green oolong that Taiwan drinks at home. Thirty years on, Lâm Đồng produces a great deal of it, and the area's own companies now make it alongside the Taiwanese-owned ones.\n\nThe bushes are the familiar Taiwanese names under Vietnamese spellings: Kim Tuyên is Jin Xuan, the 'milk oolong' cultivar, Tứ Quý is Si Ji Chun, Thanh Tâm is Qing Xin. Processing follows the Taiwanese routine of withering, bruising, light oxidation and the long cloth-wrapped rolling that turns the leaf into tight balls. The plateau's altitude of around 800 to 1,500 metres gives a long, mild season and several harvests a year.\n\nThe cup is the one you would expect from the cultivar: Kim Tuyên lots are buttery and gardenia-scented, Thanh Tâm lots lighter and more orchid-like, all of them smooth and sweet with modest depth. The honest comparison is with Taiwanese tea of the same cultivar: Vietnamese lots are usually a little lighter and simpler, and usually much cheaper. Brew it like any ball-rolled oolong, with a rinse and hot, short steeps.\n\nMuch of this tea is exported to Taiwan, where it has long been reported to end up blended into or sold as Taiwanese oolong, which is one reason to be cautious with cheap 'Taiwan high mountain' tea and one reason Vietnamese oolong gets less credit than it deserves. Buy it under its own name: by cultivar, from a Lâm Đồng producer, vacuum-packed, and ask for spring or winter leaf. Beware 'milk oolong' with an obvious sweet dairy smell, which is flavoured.\n\nIt is a good everyday oolong and a sensible place to start if Taiwanese prices put you off; try a Kim Tuyên from Lâm Đồng next to a Taiwanese Jin Xuan and a Thai No. 12 to taste the same cultivar in three countries.",
+  "description": "Vietnam's oolong is a Taiwanese transplant. From the late 1980s and through the 1990s Taiwanese companies planted Taiwanese cultivars on the cool, high Lâm Đồng plateau around Bảo Lộc and Đà Lạt, brought their own processing equipment and know-how, and set up production of the ball-rolled green oolong that Taiwan drinks at home. Some thirty years on, Lâm Đồng produces a great deal of it, and the area's own companies now make it alongside the Taiwanese-owned ones.\n\nThe bushes are the familiar Taiwanese names under Vietnamese spellings: Kim Tuyên is Jin Xuan, the 'milk oolong' cultivar, Tứ Quý is Si Ji Chun, Thanh Tâm is Qing Xin. Processing follows the Taiwanese routine of withering, bruising, light oxidation and the long cloth-wrapped rolling that turns the leaf into tight balls. The plateau, lower around Bảo Lộc and higher around Đà Lạt, gives a long, mild season and several harvests a year.\n\nThe cup is the one you would expect from the cultivar: Kim Tuyên lots are buttery and gardenia-scented, Thanh Tâm lots lighter and more orchid-like, all of them smooth and sweet with modest depth. The honest comparison is with Taiwanese tea of the same cultivar: Vietnamese lots are usually a little lighter and simpler, and usually much cheaper. Brew it like any ball-rolled oolong, with a rinse and hot, short steeps.\n\nA good deal of Vietnamese leaf goes to Taiwan, and the trade has a long-standing reputation for some of it being blended into or sold as Taiwanese oolong, though how much is hard to pin down and Taiwan does require origin labels. It is one reason to be cautious with cheap 'Taiwan high mountain' tea and one reason Vietnamese oolong gets less credit than it deserves. Buy it under its own name: by cultivar, from a Lâm Đồng producer, vacuum-packed, and ask for spring or winter leaf. Beware 'milk oolong' with an obvious sweet dairy smell, which is flavoured.\n\nIt is a good everyday oolong and a sensible place to start if Taiwanese prices put you off; try a Kim Tuyên from Lâm Đồng next to a Taiwanese Jin Xuan and a Thai No. 12 to taste the same cultivar in three countries.",
   "wikipedia_title": "Vietnamese tea",
   "wikipedia_scope": "umbrella",
   "popularity": 2,
-  "sources_note": "The reported practice of Vietnamese oolong being sold as Taiwanese is widely covered in trade press and Taiwanese media but not quantified here. Altitude range and harvest counts are approximate."
+  "sources_note": "The reported practice of Vietnamese oolong being sold as Taiwanese is widely covered in trade press and Taiwanese media but not quantified here. Altitude range and harvest counts are approximate.",
+  "name_zh": "越南乌龙茶",
+  "name_ru": "Вьетнамский улун (Ламдонг)",
+  "history": "Oolong in Vietnam began as a Taiwanese venture. Land became easier to acquire after the Đổi Mới reforms of 1986, and between then and 1995 Taiwanese investors first came in. They tried dragon fruit, passion fruit, orchids, chrysanthemums and several teas, and only oolong succeeded.\n\nFor a long time seedlings, equipment and other inputs were controlled from Taiwan. After 2003 Vietnamese began running oolong companies of their own.\n\nThe market has since shifted. Vietnamese leaf now makes up a large share of Taiwan's tea imports, much of the demand there being for leaf for bubble tea and other tea drinks. How much Vietnamese tea has ended up sold as Taiwanese is hard to pin down, though Taiwan requires origin labels and inspects imports more strictly.",
+  "liquor_hex": "#DDD68A",
+  "leaf_hex": "#3D5A36",
+  "sources": [
+    "https://jisedai.asafas.kyoto-u.ac.jp/fw_report/2520/oolong-industry-in-vietnam-focusing-on-its-linkage-with-taiwan",
+    "https://taiwaninsight.org/2022/08/16/taking-a-leaf-out-of-taiwan-and-vietnam-how-taiwanese-is-taiwanese-bubble-tea/"
+  ],
+  "confidence": "medium",
+  "images": []
 }

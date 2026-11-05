@@ -1,0 +1,62 @@
+{
+  "slug": "lao-qing-cha",
+  "name_en": "Lao Qing Cha",
+  "name_native": "老青茶",
+  "name_romanized": "Lǎoqīngchá",
+  "name_zh": "老青茶",
+  "name_ru": "Лао Цин Ча",
+  "aliases": [
+    "Laoqing Tea",
+    "Hubei Lao Qing Cha",
+    "湖北老青茶",
+    "Old green tea"
+  ],
+  "category": "heicha",
+  "origin_country": "China",
+  "origin_region": "Hubei · Xianning",
+  "cultivar": null,
+  "processing": "Picked, fixed, rolled, fermented and pressed, with a longer fermentation and storage than many dark teas; some lots are stored for years or decades.",
+  "form": "brick",
+  "harvest_season": "Little is recorded about a prized picking; it is judged by storage age rather than season.",
+  "appearance_dry": "Dense, even dark brown to black-brown, usually pressed into hard bricks.",
+  "appearance_liquor": "Red-brown to deep red.",
+  "appearance_wet": "Dark brown, coarse, broken leaf.",
+  "taste_profile": "Thick, soft and mellow, with an aged aroma and touches of old wood, earth and sometimes honey that grow with storage.",
+  "taste_tags": [
+    "woody",
+    "earthy",
+    "honey",
+    "sweet"
+  ],
+  "brewing": {
+    "grams": 6,
+    "water_ml": 120,
+    "temp_c": 98,
+    "steeps": 6,
+    "seconds": [
+      20,
+      25,
+      30,
+      40,
+      50,
+      60
+    ],
+    "notes": "Clay or porcelain; water at 95 to 100 °C and about 20 to 30 seconds to begin, lengthening each steep."
+  },
+  "caffeine_level": "medium",
+  "vintage_note": "Sold by storage age, and the value lies in years: some lots are kept for decades, and collectors seek out older bricks. Younger bricks are for everyday drinking and for keeping. Ask for the production year, as age is the main thing you are paying for and hard to verify.",
+  "description": "Lao qing cha, literally 'old green tea', is the name used in southern Hubei for the dark tea of Chibi, Xianning, Tongshan, Chongyang and Tongcheng. The name overlaps with qing zhuan and chuan zi cha, and Chinese tea references often treat them as one family.\n\nWhat it stresses is time. Fermentation runs long and storage longer, so the aged character becomes the point, and it behaves very differently from what the word 'qing' might suggest to someone who knows green tea.\n\nThe cup pours red-brown, soft and thick, with old wood and earth and a little honey in good lots. Boil the water, begin with 20 to 30 seconds, and lengthen as you go; aged notes come forward over several steeps.\n\nThe usual tea-shop health claims for it, from weight loss to fighting cancer, should be taken lightly. Buy it for the flavour, and buy an inexpensive young brick alongside an older one to see what storage really does.",
+  "history": "Little is documented about the name itself as distinct from Hubei brick tea generally. The growing counties named above are the same area that produced the region's green bricks, and its wider history belongs with Hubei dark tea and Yangloudong brick tea.\n\nChinese tea references list it under dark teas alongside Fu brick, Liubao and others; a detailed history under this exact name is thin.",
+  "liquor_hex": "#7E3A1E",
+  "leaf_hex": "#30231A",
+  "sources": [
+    "https://www.ichabaike.com/heicha/laoqingcha/",
+    "https://aboxtik.com/dark-tea/"
+  ],
+  "confidence": "low",
+  "wikipedia_title": "Dark tea",
+  "wikipedia_scope": "umbrella",
+  "popularity": 2,
+  "images": [],
+  "sources_note": "Only one substantive page, a tea encyclopedia site, and it equates this name with qing zhuan and chuan zi cha."
+}

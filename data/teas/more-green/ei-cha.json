@@ -1,0 +1,54 @@
+{
+  "slug": "ei-cha",
+  "name_en": "Ei-cha",
+  "name_native": "頴娃茶",
+  "name_romanized": "Ei-cha",
+  "name_zh": "颖娃茶",
+  "name_ru": "Эй-тя",
+  "aliases": [
+    "えい茶",
+    "頴娃茶"
+  ],
+  "category": "green",
+  "origin_country": "Japan",
+  "origin_region": "Kagoshima · Minamikyushu · Ei",
+  "cultivar": null,
+  "processing": "Steamed Japanese green tea, typically of the sencha kind as elsewhere in Kagoshima; many different cultivars are grown.",
+  "form": "loose",
+  "harvest_season": "Spring first flush is the most valued, and southern Kyushu generally picks earlier than the rest of Japan.",
+  "appearance_dry": "Deep green needles, typical of Kagoshima sencha.",
+  "appearance_liquor": "Clear yellow-green.",
+  "appearance_wet": "Soft, bright green leaf pieces.",
+  "taste_profile": "No distinct tasting record exists for Ei alone; Kagoshima greens are usually rounded and sweet with fresh vegetal notes.",
+  "taste_tags": [
+    "vegetal",
+    "sweet",
+    "umami"
+  ],
+  "brewing": {
+    "grams": 5,
+    "water_ml": 150,
+    "temp_c": 70,
+    "steeps": 3,
+    "seconds": [
+      60,
+      15,
+      30
+    ],
+    "notes": "General sencha approach. Cultivar matters here, so try cool water first and adjust."
+  },
+  "caffeine_level": "medium",
+  "vintage_note": "Since April 2017 tea from Minamikyushu, Ei included, has gone to market under the Chiran-cha name, so the old name is now rare on labels. Like other sencha it is sold as the current year's harvest and drunk fresh.",
+  "description": "Ei-cha is the former name of tea from the old Ei town on the south coast of Kagoshima's Satsuma Peninsula. It is now part of Minamikyushu city, Japan's largest tea-producing municipality, and has been sold as Chiran tea since 2017.\n\nThe district grows many cultivars, and the leaf goes through the usual Japanese steamed green process. Its own style is not well recorded because so much of it was made to order for others.\n\nBrew it as you would a Kagoshima sencha: cool water to start, and let the cultivar guide you, since a named variety tells you more than the place does.\n\nTo find it today, look for Chiran tea that names Ei as its growing area, or an individual Ei grower. The old name alone will rarely appear on a current bag.",
+  "history": "Tea in Ei is recorded from the Tenpo era of the 1830s and 40s, making it an old district, but large-scale growing came only around 1965. It became the prefecture's largest producing town while remaining little known, because unlike neighbouring Chiran it mostly filled orders for other tea regions.\n\nA branding effort followed, but in April 2017 the name was merged, along with Kawanabe tea, into Chiran tea for all of Minamikyushu.",
+  "liquor_hex": "#CDCB6C",
+  "leaf_hex": "#3C5729",
+  "wikipedia_title": "日本茶",
+  "wikipedia_scope": "umbrella",
+  "popularity": 2,
+  "sources": [
+    "https://ja.wikipedia.org/wiki/%E6%97%A5%E6%9C%AC%E8%8C%B6"
+  ],
+  "confidence": "low",
+  "images": []
+}

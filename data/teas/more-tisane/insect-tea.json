@@ -1,0 +1,63 @@
+{
+  "slug": "insect-tea",
+  "name_en": "Chong Cha (Insect Tea)",
+  "name_native": "虫茶",
+  "name_romanized": "Chóng Chá",
+  "name_zh": "虫茶",
+  "name_ru": "Чун Ча (чай из помёта насекомых)",
+  "aliases": [
+    "Insect tea",
+    "Chong shi cha",
+    "Chongshi cha",
+    "Chongfen cha",
+    "虫屎茶",
+    "虫粪茶",
+    "虫糞茶",
+    "Thé de vers",
+    "Chūfun-cha"
+  ],
+  "category": "tisane",
+  "origin_country": "China",
+  "origin_region": "Guizhou · Chishui",
+  "cultivar": null,
+  "processing": "Insect larvae feed on prepared leaves of a chosen plant; their tiny droppings are collected, dried and cleaned. In Chishui the leaves are first steamed, sun-dried, piled and fermented to draw the moths; some regional versions are mixed with honey and tea.",
+  "form": "other",
+  "harvest_season": "No single picking season: droppings are gathered after the larvae have fed, and timing depends on the local insect and host plant.",
+  "appearance_dry": "Very small dark pellets, like coarse black grains, rather than leaf.",
+  "appearance_liquor": "A clear red, colouring very quickly once water hits the pellets.",
+  "appearance_wet": "The pellets mostly dissolve or slump into a fine dark sediment, with no leaf to see.",
+  "taste_profile": "The Chishui version is described as cool and distinctive in the mouth, with a red liquor. Other details vary so much by insect and plant that no single profile fits.",
+  "taste_tags": [
+    "earthy",
+    "medicinal",
+    "sweet"
+  ],
+  "brewing": {
+    "grams": 1,
+    "water_ml": 200,
+    "temp_c": 95,
+    "steeps": 2,
+    "seconds": [
+      60,
+      120
+    ],
+    "notes": "A pinch is plenty: the pellets colour the water almost at once. Use a fine strainer or let the sediment settle; these numbers are a starting point rather than a tradition."
+  },
+  "caffeine_level": "low",
+  "vintage_note": "Sold without vintage or harvest year as a small-batch regional speciality, by place and host plant. Since little is standardised, ask which insect and plant it came from. Any claim about ageing should be treated with caution, as there is no established market for aged lots.",
+  "description": "Insect tea is exactly what it sounds like: a drink brewed from the droppings of insects fed on particular leaves. It is a mountain speciality of minority communities in Guangxi, Guizhou and Hunan, and it is more a family of products than one tea. The insect's gut does the work that a tea maker's hands do elsewhere.\n\nThe best-described version comes from Chishui in Guizhou. There, leaves of Litsea, known locally as white tea tree, are steamed, sun-dried, piled and fermented, and the smell draws a pyralid moth called mi gao ming. Its larvae eat the leaves and leave behind pellets, which are collected, dehydrated and cleaned in several steps. Elsewhere the host may be the hua xiang tree, Malus sieboldii, uncaria or honeysuckle.\n\nA tiny amount brews a fast, red cup. Chishui makers describe a cool, unusual taste, and the rest of the profile shifts with the insect and plant. Go in with a small pinch and a strainer, and treat it as a curiosity to try with friends rather than a daily tea.\n\nBuy from someone who can name the insect, the plant and the place, since no common standard ties these products together. Lab work on extracts has looked at antibacterial and metabolic effects, but insect teas remain little studied, so medical promises should not sway you.",
+  "history": "Written records are thin and most history is local. Chishui makers say their practice goes back more than a century, and the craft of making it was added to Guizhou's provincial intangible heritage list in June 2019.\n\nIts modern revival there owes much to Zhang Honglai, who met the tea in Chishui in 1990, settled there in 1999 and has since worked on planting the host tree in low-growing plantations, since harvesting wild trees on cliffs was dangerous. A first plantation in 2004 failed because of heavy metals in the soil.",
+  "liquor_hex": "#8E2E1A",
+  "leaf_hex": "#231712",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Insect_tea",
+    "https://tidenews.com.cn/news.html?id=3153419",
+    "https://www.spkx.net.cn/CN/Y2002/V23/I6/104",
+    "https://ja.wikipedia.org/wiki/%E8%8C%B6%E5%A4%96%E8%8C%B6"
+  ],
+  "confidence": "medium",
+  "wikipedia_title": "Insect tea",
+  "wikipedia_scope": "exact",
+  "popularity": 2,
+  "images": []
+}

@@ -3,10 +3,19 @@
   "name_en": "Ivan Chai (Fermented Fireweed)",
   "name_native": "Іван-чай / Иван-чай",
   "name_romanized": "Ivan-chai",
-  "aliases": ["Fireweed tea", "Koporye tea", "Koporsky chai", "Kapor tea", "Willowherb tea", "Rosebay willowherb tea", "Kiprey", "Chamaenerion angustifolium"],
+  "aliases": [
+    "Fireweed tea",
+    "Koporye tea",
+    "Koporsky chai",
+    "Kapor tea",
+    "Willowherb tea",
+    "Rosebay willowherb tea",
+    "Kiprey",
+    "Chamaenerion angustifolium"
+  ],
   "category": "tisane",
   "origin_country": "Russia",
-  "origin_region": "Leningrad Oblast · Koporye (the historic centre); today made by small producers across Russia, Ukraine, Belarus and the Baltic states",
+  "origin_region": "Leningrad Oblast · Koporye",
   "cultivar": "Chamaenerion angustifolium (fireweed, rosebay willowherb), a tall pink-flowered wild plant of clearings and roadsides",
   "processing": "Leaves are picked in summer, withered for half a day, then rolled or twisted by hand or machine to break the cells and left in a warm, humid place to oxidise ('ferment') for several hours to a day or more, until the smell turns fruity; they are then dried in an oven at moderate heat. Light, medium and deeply fermented grades are made, and dried flowers are sometimes mixed in.",
   "form": "loose",
@@ -15,13 +24,69 @@
   "appearance_liquor": "Amber to deep red-brown, clear.",
   "appearance_wet": "Dark brown leaf pieces smelling of dried pear, hay and honey.",
   "taste_profile": "Smooth and mildly sweet with dried pear, plum and hay, a soft sourness and a gentle body like a very mild black tea without the tannin; deeper fermentation gives darker, more fruity cups, lighter ones stay greener and hay-like.",
-  "taste_tags": ["sweet", "dried-fruit", "herbal"],
-  "brewing": {"grams": 3, "water_ml": 250, "temp_c": 90, "steeps": 3, "seconds": [420, 480, 600], "notes": "Water at 85–95 °C, 7–10 minutes; it does not go bitter, so a long steep or an hour in a thermos is traditional, and the leaf takes two or three infusions. Good with honey, and it cold-brews into something like a fruit tea."},
+  "taste_tags": [
+    "sweet",
+    "dried-fruit",
+    "herbal"
+  ],
+  "brewing": {
+    "grams": 3,
+    "water_ml": 250,
+    "temp_c": 90,
+    "steeps": 3,
+    "seconds": [
+      420,
+      480,
+      600
+    ],
+    "notes": "Water at 85–95 °C, 7–10 minutes; it does not go bitter, so a long steep or an hour in a thermos is traditional, and the leaf takes two or three infusions. Good with honey, and it cold-brews into something like a fruit tea."
+  },
   "caffeine_level": "none",
   "vintage_note": "Sold by harvest year from the summer picking, almost always by small producers, and labelled by fermentation level (light, medium, strong or 'black'), by form (loose twisted leaf, granulated, with flowers, and sometimes pressed into small cakes or bricks) and often by region. Makers say it settles and improves for a few months after drying and keeps well for one to two years; a stated year and a named producer are the marks of a serious lot. Quality varies enormously, from fragrant leaf to dusty hay, so buy small amounts until you find a maker you trust.",
-  "description": "Ivan chai is the fermented leaf of fireweed, the tall pink wildflower that takes over clearings and roadsides across the north, processed like a black tea and drunk like one. It was a well-known Russian export in the nineteenth century under the name Koporye tea, named for the village near St Petersburg where it was made, and it has had a revival since the 2010s with small producers across Russia, Ukraine, Belarus and the Baltics.\n\nThe process is what makes it interesting. Fresh fireweed leaf is grassy and dull; rolled and left to oxidise in a warm room it develops a fruity smell of dried pear and plum, and the oven-drying fixes that. Makers choose how far to take it, from light and green to deeply fermented and black, and whether to twist the leaf, granulate it or mix in the dried flowers, so two packets labelled ivan chai can be quite different drinks.\n\nIn the cup it is soft and gently sweet, with dried fruit, hay and a faint sourness, and it is the closest thing to black tea that contains no caffeine at all. Brew it hot and long, up to ten minutes or in a thermos, and resteep; the only way to ruin it is to treat it like a delicate green tea and pull it after two minutes. Honey suits it, and a slice of lemon or a few dried berries are the traditional additions.\n\nIt is sold by harvest year and fermentation level, mostly by small makers at markets, fairs and online, and the range in quality is huge. Look for whole twisted leaf with a fruity smell, a stated harvest year and a named producer; avoid anything that smells of hay or dust, and treat extravagant health claims on the label as a warning sign rather than a selling point.\n\nIf you like it, try the same leaf at different fermentation levels side by side, and then compare it with a mild Chinese black tea such as a Dian Hong to see what the caffeine-free version is reaching for.",
+  "description": "Ivan chai is the fermented leaf of fireweed, the tall pink wildflower that takes over clearings and roadsides across the north, processed like a black tea and drunk like one. In Russia it is also known as Koporye tea, after the town near St Petersburg long associated with it, and today small producers make it in Russia and neighbouring countries.\n\nThe process is what makes it interesting. Fresh fireweed leaf is grassy and dull; rolled and left to oxidise in a warm room it develops a fruity smell of dried pear and plum, and the oven-drying fixes that. Makers choose how far to take it, from light and green to deeply fermented and black, and whether to twist the leaf, granulate it or mix in the dried flowers, so two packets labelled ivan chai can be quite different drinks.\n\nIn the cup it is soft and gently sweet, with dried fruit, hay and a faint sourness, and it is the closest thing to black tea that contains no caffeine at all. Brew it hot and long, up to ten minutes or in a thermos, and resteep; the only way to ruin it is to treat it like a delicate green tea and pull it after two minutes. Honey suits it, and a slice of lemon or a few dried berries are the traditional additions.\n\nIt is sold by harvest year and fermentation level, mostly by small makers at markets, fairs and online, and the range in quality is huge. Look for whole twisted leaf with a fruity smell, a stated harvest year and a named producer; avoid anything that smells of hay or dust, and treat extravagant health claims on the label as a warning sign rather than a selling point.\n\nIf you like it, try the same leaf at different fermentation levels side by side, and then compare it with a mild Chinese black tea such as a Dian Hong to see what the caffeine-free version is reaching for.",
   "wikipedia_title": "Chamaenerion angustifolium",
   "wikipedia_scope": "umbrella",
   "popularity": 3,
-  "sources_note": "No dedicated English Wikipedia article for the drink; 'Kapor tea' redirects to the plant article. Origin given as Russia for the historic Koporye trade; Ukrainian and Belarusian production is now significant."
+  "sources_note": "No dedicated English Wikipedia article for the drink; 'Kapor tea' redirects to the plant article. Origin given as Russia for the historic Koporye trade; Ukrainian and Belarusian production is now significant.",
+  "name_zh": "柳兰茶",
+  "name_ru": "Иван-чай",
+  "history": "Ivan chai is made from fireweed, a plant native across the temperate Northern Hemisphere, but the drink belongs above all to Russia, where it is also called Koporye tea after the town of Koporye. An often repeated claim dates production there to the 13th century; treat that as a tradition rather than a settled fact, because the early record is thin.\n\nIts appeal has always been how closely the method follows black tea, which gives a dark, full-flavoured cup with no caffeine. Today it is also sold blended with mint or thyme.",
+  "liquor_hex": "#9A5A25",
+  "leaf_hex": "#3A2A1F",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Chamaenerion_angustifolium"
+  ],
+  "confidence": "low",
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fd/Kapor_tea.JPG/1280px-Kapor_tea.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fd/Kapor_tea.JPG/330px-Kapor_tea.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Kapor_tea.JPG",
+      "author": "uploader",
+      "license": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0",
+      "kind": "dry_leaf",
+      "alt": "Small pile of dark twisted fermented fireweed leaves on a light surface"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c9/Fermented_fireweed.JPG/1280px-Fermented_fireweed.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c9/Fermented_fireweed.JPG/330px-Fermented_fireweed.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Fermented_fireweed.JPG",
+      "author": "uploader",
+      "license": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0",
+      "kind": "dry_leaf",
+      "alt": "Dark green fermented fireweed leaves in a clear plastic tub"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c0/Ivan_Chai_herb%2C_Zehnova_village%2C_Kenozero.jpg/1280px-Ivan_Chai_herb%2C_Zehnova_village%2C_Kenozero.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c0/Ivan_Chai_herb%2C_Zehnova_village%2C_Kenozero.jpg/330px-Ivan_Chai_herb%2C_Zehnova_village%2C_Kenozero.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Ivan_Chai_herb,_Zehnova_village,_Kenozero.jpg",
+      "author": "AnnAkilova",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "kind": "plant",
+      "alt": "Flowering pink fireweed stems beside a lake at Kenozero, Russia"
+    }
+  ]
 }

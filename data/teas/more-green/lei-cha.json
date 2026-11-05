@@ -1,0 +1,91 @@
+{
+  "slug": "lei-cha",
+  "name_en": "Lei Cha",
+  "name_native": "擂茶",
+  "name_romanized": "Léi Chá",
+  "name_zh": "擂茶",
+  "name_ru": "Лэй Ча",
+  "aliases": [
+    "Ground tea",
+    "Pounded tea",
+    "Thunder tea",
+    "lui cha",
+    "lûi-chhâ",
+    "客家擂茶"
+  ],
+  "category": "green",
+  "origin_country": "China",
+  "origin_region": "Southern China · Hakka regions and northern Hunan",
+  "cultivar": null,
+  "processing": "Tea leaves, most often green or oolong and sometimes matcha, are ground with roasted nuts, seeds, grains and flavourings such as ginger and salt, then hot water is stirred in to make a thin soup or gruel.",
+  "form": "powder",
+  "harvest_season": "Not tied to a harvest: it is usually pounded just before eating, from whatever tea and seasonal ingredients are at hand.",
+  "appearance_dry": "Before water goes in, a coarse, cornmeal-like paste or powder of tea, seeds and grains, speckled green and beige.",
+  "appearance_liquor": "An opaque, thin soup, from pale green to milky khaki depending on the tea and the seeds.",
+  "appearance_wet": "There is no leaf left to look at: everything is ground into a fine suspension, often topped with puffed or toasted rice.",
+  "taste_profile": "Savoury and toasty rather than tea-like, with sesame and peanut richness, a green herbal edge, and a slight saltiness in the Hakka versions.",
+  "taste_tags": [
+    "nutty",
+    "roasted",
+    "herbal",
+    "vegetal",
+    "umami"
+  ],
+  "brewing": {
+    "grams": 30,
+    "water_ml": 300,
+    "temp_c": 95,
+    "steeps": 1,
+    "seconds": [
+      30
+    ],
+    "notes": "Not a steeped tea. Grind the tea, seeds and grains to a fine paste in a mortar or ribbed basin, pour on hot water and stir until smooth, then drink at once or pour it over rice."
+  },
+  "caffeine_level": "low",
+  "vintage_note": "Has no vintages or harvest years: traditionally it is made fresh just before it is eaten. Prepackaged powders are also sold, and those are best used while fresh because the ground nuts and seeds go stale.",
+  "description": "Lei cha means pounded tea, and it sits somewhere between a drink and a meal. Tea leaves are ground up with roasted nuts, seeds and grains, then loosened with hot water. It belongs above all to Hakka cooking, and northern Hunan has its own traditions too.\n\nThe method matters more than any recipe. Peanuts, sesame and mung beans are the common additions, with ginger and salt for flavour and sometimes medicinal herbs. In Jiangle in Fujian, sesame and tea lead, with a little cinnamon and citrus peel; Hunan versions use rice, peanuts, sesame, mung beans and ginger, and the local styles there differ from one another.\n\nExpect something savoury, nutty and filling, more soup than tea. Grind it finer than seems necessary, because a gritty bowl is the usual disappointment. In Malaysia and Singapore it often anchors thunder tea rice: a bowl of rice with greens, long beans, peanuts, tofu and anchovies, with the soup drunk alongside or poured over.\n\nYou can buy it ready-mixed, but it is usually made from scratch. For a packaged mix, read the ingredient list, since the proportion of tea to filler varies widely.\n\nIf you want to try it at home, start with green tea, toasted sesame, peanuts and a pinch of salt, and adjust from there.",
+  "history": "Hakka tradition places the custom in the Three Kingdoms period or even the Han dynasty, which is hard to prove. Firmer ground comes from the Southern Song: the Hangzhou city record Ducheng Jisheng, dated to 1235, mentions tea houses selling lei cha in winter, including a seven-treasure version.\n\nHakka migrants carried it abroad to Malaysia and Indonesia. In Taiwan it spread after the Second World War, arriving with Hakka settlers from Hepo in Jiexi, Guangdong, and it was once used in lean years as a substitute food for infants. Today it is also a tourist speciality on Taiwan's Hakka old streets, while the Perak town of Ipoh in Malaysia is known locally as a home of lei cha.",
+  "liquor_hex": "#B3AE7A",
+  "leaf_hex": "#8C8A5A",
+  "wikipedia_title": "Lei cha",
+  "wikipedia_scope": "exact",
+  "popularity": 3,
+  "sources": [
+    "https://en.wikipedia.org/wiki/Lei_cha",
+    "https://zh.wikipedia.org/wiki/%E6%93%82%E8%8C%B6",
+    "https://www.wikidata.org/wiki/Q3972344"
+  ],
+  "confidence": "high",
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/35/Lei_Cha_in_Vegeterian_Restaurant.jpg/1280px-Lei_Cha_in_Vegeterian_Restaurant.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/35/Lei_Cha_in_Vegeterian_Restaurant.jpg/330px-Lei_Cha_in_Vegeterian_Restaurant.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Lei_Cha_in_Vegeterian_Restaurant.jpg",
+      "author": "Encik Tekateki",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "kind": "liquor",
+      "alt": "Bowl of opaque green lei cha soup beside a bowl of rice with greens and peanuts"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ca/Thunder_tea.jpg/1280px-Thunder_tea.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ca/Thunder_tea.jpg/330px-Thunder_tea.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Thunder_tea.jpg",
+      "author": "ProjectManhattan",
+      "license": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "kind": "serving",
+      "alt": "Thunder tea meal: bowl of green tea soup next to a plate of rice with vegetables and toppings"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c3/Lei_cha_at_Beipu%2C_Taiwan_2023-04-09.jpg/1280px-Lei_cha_at_Beipu%2C_Taiwan_2023-04-09.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c3/Lei_cha_at_Beipu%2C_Taiwan_2023-04-09.jpg/330px-Lei_cha_at_Beipu%2C_Taiwan_2023-04-09.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Lei_cha_at_Beipu,_Taiwan_2023-04-09.jpg",
+      "author": "總統府",
+      "license": "CC BY 2.0",
+      "license_url": "https://creativecommons.org/licenses/by/2.0",
+      "kind": "serving",
+      "alt": "Lei cha set in Beipu, Taiwan: mortar and pestle with small bowls of seeds, grains and tea on a tray"
+    }
+  ]
+}

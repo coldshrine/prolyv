@@ -3,10 +3,17 @@
   "name_en": "Lao Ban Zhang Sheng Pu-erh",
   "name_native": "老班章生普洱",
   "name_romanized": "Lǎo Bānzhāng Shēng Pǔ'ěr",
-  "aliases": ["LBZ", "Lao Banzhang", "Laobanzhang", "Ban Zhang", "Banzhang", "老班章"],
+  "aliases": [
+    "LBZ",
+    "Lao Banzhang",
+    "Laobanzhang",
+    "Ban Zhang",
+    "Banzhang",
+    "老班章"
+  ],
   "category": "sheng",
   "origin_country": "China",
-  "origin_region": "Yunnan · Xishuangbanna · Menghai · Bulang Shan · Lao Ban Zhang",
+  "origin_region": "Yunnan · Xishuangbanna · Lao Ban Zhang",
   "cultivar": "Yunnan large-leaf (Camellia sinensis var. assamica), old seed-grown Bulang Shan trees",
   "processing": "Classic raw pu-erh: hand-picked, pan-fired, hand-rolled, sun-dried into maocha and then steamed and pressed into cakes; the best lots are single-village, single-spring pressings of old-tree leaf.",
   "form": "cake",
@@ -15,13 +22,62 @@
   "appearance_liquor": "Bright yellow-gold when young, thick-looking, with a slight oily sheen; amber once it has a decade behind it.",
   "appearance_wet": "Large, thick, elastic leaves and chunky stems, deep olive-green and very even.",
   "taste_profile": "A strong, clean bitterness that turns to sweetness within seconds, a thick and oily body, honey and wild herb notes, and a warming, noticeably physical energy (cha qi) that lasts well past the last steep.",
-  "taste_tags": ["bitter", "sweet", "honey", "herbal", "floral"],
-  "brewing": {"grams": 7, "water_ml": 110, "temp_c": 95, "steeps": 12, "seconds": [8, 6, 8, 10, 15, 20, 30, 45, 60, 90, 120, 180], "notes": "Rinse once, quickly. It is powerful enough that most people go lighter on the leaf than usual (6–7 g); short flash steeps early, then stretch out. Do not drink it on an empty stomach."},
+  "taste_tags": [
+    "bitter",
+    "sweet",
+    "honey",
+    "herbal",
+    "floral"
+  ],
+  "brewing": {
+    "grams": 7,
+    "water_ml": 110,
+    "temp_c": 95,
+    "steeps": 12,
+    "seconds": [
+      8,
+      6,
+      8,
+      10,
+      15,
+      20,
+      30,
+      45,
+      60,
+      90,
+      120,
+      180
+    ],
+    "notes": "Rinse once, quickly. It is powerful enough that most people go lighter on the leaf than usual (6–7 g); short flash steeps early, then stretch out. Do not drink it on an empty stomach."
+  },
   "caffeine_level": "high",
-  "vintage_note": "Sold by spring harvest year and by tree class (gushu, da shu, small tree), as cakes or as loose maocha, and the year on the wrapper is a price multiplier because the village became the most expensive in Yunnan from around 2007–2008 onwards. Young (1–3 years) is the bulk of what is sold; mid-aged lots (roughly 2008–2018) from named brands fetch collector prices; anything claiming to be pre-2005 Lao Ban Zhang should be treated as a blend from the wider Bulang area unless there is a very good story behind it, because the village simply did not produce much single-origin tea then. Dry Kunming or Menghai storage is the norm for this tea; humid storage softens the bitterness faster but blurs the clarity people pay for.",
-  "description": "Lao Ban Zhang is a small Hani village sitting at roughly 1,700–1,900 m on Bulang Mountain in Menghai County, and it is the most famous and most faked name in pu-erh. Its tea is the opposite of Yiwu: assertive, bitter up front, thick, and with a physical warmth that drinkers call cha qi, followed by a sweetness that rolls back up the throat for minutes.\n\nThe gardens are old seed-grown trees under a thin forest cover, and processing is deliberately simple: pan-firing, hand rolling and sun drying, with the maocha either sold loose or pressed into cakes by whichever brand has bought it. Since around 2008 one large producer has held a long-term purchasing agreement with the village, and a checkpoint at the entrance controls who drives in, which tells you how much the raw leaf is worth.\n\nIn the cup, young Lao Ban Zhang gives a sharp but clean bitterness that does not linger as astringency, then honey, dried herbs and a cooling sensation at the back of the mouth. The body is heavy and oily. It brews for a very long session, and the usual mistake is overleafing: it needs less leaf and shorter early steeps than milder teas, and it is not a tea for an empty stomach.\n\nBuying it is the hard part. Real spring gushu from the village is a small quantity bought up each year by a handful of brands and private buyers, so the vast majority of cakes with 'Ban Zhang' on the wrapper are tea from neighbouring villages (Xin Ban Zhang, Ban Pen, Lao Man E, Hekai) or plain Bulang plantation leaf. 'Ban Zhang' with no 'Lao' in front is a hint rather than a lie, since it is also a general style name. Expect to pay a lot or to be drinking a blend; both are fine as long as you know which.\n\nFor the character without the premium, Lao Man E (more bitter) and Hekai or Ban Pen (close in profile, friendlier price) are the sensible next cups.",
+  "vintage_note": "Sold by spring harvest year and by tree class (gushu, da shu, small tree), as cakes or as loose maocha, and the year on the wrapper is a price multiplier because the village's leaf price jumped sharply around 2007 and has climbed far higher since, to around 10,000 yuan a kilo by 2015. Young (1–3 years) is the bulk of what is sold; mid-aged lots (roughly 2008–2018) from named brands fetch collector prices; anything claiming to be pre-2005 Lao Ban Zhang should be treated as a blend from the wider Bulang area unless there is a very good story behind it, because the village simply did not produce much single-origin tea then. Dry Kunming or Menghai storage is the norm for this tea; humid storage softens the bitterness faster but blurs the clarity people pay for.",
+  "description": "Lao Ban Zhang is a small Hani village sitting at roughly 1,600–1,900 m on Bulang Mountain in Menghai County, and it is the most famous and most faked name in pu-erh. Its tea is the opposite of Yiwu: assertive, bitter up front, thick, and with a physical warmth that drinkers call cha qi, followed by a sweetness that rolls back up the throat for minutes.\n\nThe gardens are old seed-grown trees under a thin forest cover, and processing is deliberately simple: pan-firing, hand rolling and sun drying, with the maocha either sold loose or pressed into cakes by whichever brand has bought it. Dozens of households have contracts with one large producer, Chen Sheng Hao, and the rest sell to other brands or directly to visitors, which tells you how much the raw leaf is worth.\n\nIn the cup, young Lao Ban Zhang gives a sharp but clean bitterness that does not linger as astringency, then honey, dried herbs and a cooling sensation at the back of the mouth. The body is heavy and oily. It brews for a very long session, and the usual mistake is overleafing: it needs less leaf and shorter early steeps than milder teas, and it is not a tea for an empty stomach.\n\nBuying it is the hard part. Real spring gushu from the village is a small quantity bought up each year by a handful of brands and private buyers, so the vast majority of cakes with 'Ban Zhang' on the wrapper are tea from neighbouring villages (Xin Ban Zhang, Ban Pen, Lao Man E, Hekai) or plain Bulang plantation leaf. 'Ban Zhang' with no 'Lao' in front is a hint rather than a lie, since it is also a general style name. Expect to pay a lot or to be drinking a blend; both are fine as long as you know which.\n\nFor the character without the premium, Lao Man E (more bitter) and Hekai or Ban Pen (close in profile, friendlier price) are the sensible next cups.",
   "wikipedia_title": "Pu'er tea",
   "wikipedia_scope": "umbrella",
   "popularity": 4,
-  "sources_note": "Elevation and the c. 2008 purchasing agreement (Chen Sheng Hao) are from general tea-trade reporting; the household count was dropped as unverifiable; the exact year the price boom began is usually given as 2007 or 2008."
+  "sources_note": "Elevation and the c. 2008 purchasing agreement (Chen Sheng Hao) are from general tea-trade reporting; the household count was dropped as unverifiable; the exact year the price boom began is usually given as 2007 or 2008.",
+  "name_zh": "老班章生普洱",
+  "name_ru": "Лао Бань Чжан Шэн Пуэр",
+  "history": "Lao Ban Zhang is a mainly Hani village on Bulang Mountain in Menghai County. For a long time nothing marked its leaf as special. In 2000 the Menghai Tea Factory was buying it at about 8 yuan a kilo, paying less than for other tea because the buds were too big and the colour was thought poor, and in 2001 the factory took only part of the crop at 11 to 12 yuan before it stopped buying.\n\nThe climb that followed is the story of modern pu-erh in one village. Accounts of the early years differ, but prices were rising through the first half of the 2000s, spring tea reached well over 1,000 yuan a kilo in 2007, then fell back to 400 to 600 in 2008 and 2009. Around 2015 it was close to 10,000, and by 2018 the leaf from near the so-called king tree was quoted at 12,000 to 15,000.\n\nThat money reshaped how the tea is sold. Dozens of households have contracts with Chen Sheng Hao, which markets graded lines in which the lower ones draw on other Bulang leaf. Other families sell maocha directly, and copies under the village name are everywhere.",
+  "liquor_hex": "#D8AE3C",
+  "leaf_hex": "#4F4D2E",
+  "sources": [
+    "https://m.jiemian.com/article/2012067.html",
+    "https://www.businesstoday.com.tw/article/category/80730/post/201702130007/",
+    "https://en.wikipedia.org/wiki/Pu%27er_tea"
+  ],
+  "confidence": "medium",
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/80/Laobanzhang.jpg/1280px-Laobanzhang.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/80/Laobanzhang.jpg/330px-Laobanzhang.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Laobanzhang.jpg",
+      "author": "Teamaniajp",
+      "license": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0",
+      "kind": "plant",
+      "alt": "Tall old tea tree known as the Tea King of Lao Ban Zhang, standing in green undergrowth beside a wooden sign and fence"
+    }
+  ]
 }

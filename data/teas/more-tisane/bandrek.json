@@ -1,0 +1,54 @@
+{
+  "slug": "bandrek",
+  "name_en": "Bandrek",
+  "name_native": "bandrek",
+  "name_romanized": null,
+  "name_zh": "西爪哇姜味香料热饮",
+  "name_ru": "Бандрек",
+  "aliases": [
+    "Bandrek susu"
+  ],
+  "category": "tisane",
+  "origin_country": "Indonesia",
+  "origin_region": "West Java",
+  "cultivar": null,
+  "processing": "Ginger is simmered with palm sugar and spices such as cinnamon, lemongrass, pepper or cloves, then strained. Condensed milk or coconut milk is optional.",
+  "form": "other",
+  "harvest_season": "Not seasonal. Made from ginger and spices throughout the year, and drunk especially at night and in cold weather.",
+  "appearance_dry": "A mix of fresh ginger, palm sugar and whole spices rather than a leaf; instant sachets are also sold.",
+  "appearance_liquor": "Deep amber-brown when plain, turning milky tan with condensed milk.",
+  "appearance_wet": "Strained before serving; pieces of young coconut are sometimes added to the glass.",
+  "taste_profile": "Hot with ginger and rounded by the caramel sweetness of palm sugar, with cinnamon and other spices behind it.",
+  "taste_tags": [
+    "spicy",
+    "sweet",
+    "herbal"
+  ],
+  "brewing": {
+    "grams": 40,
+    "water_ml": 500,
+    "temp_c": 100,
+    "steeps": 1,
+    "seconds": [
+      900
+    ],
+    "notes": "A rough guide for bruised fresh ginger and spices, as recipes vary. Simmer, sweeten with palm sugar and strain. Add condensed milk at the end if you like it creamy."
+  },
+  "caffeine_level": "none",
+  "vintage_note": "There is no vintage or harvest year. It is made fresh and drunk hot, while instant versions are shelf products where freshness matters more than date of origin.",
+  "description": "Bandrek is the warming drink of the Sundanese in West Java: hot, sweet and sharply gingery. People in the cool highlands drink it at night and when the weather turns cold.\n\nIt is a simmered spice drink, with no tea in it. Ginger and palm sugar are the constants. Cinnamon, lemongrass, pepper, cloves and pandan appear depending on the cook.\n\nThe cup should burn pleasantly at the back of the throat and finish like caramel. If it tastes only sweet, use more ginger and bruise it well before simmering.\n\nVersions with milk are called bandrek susu, usually with condensed milk, and coconut milk is used as well. Some servings add pieces of young coconut, and a newer variant adds durian. It is also believed to ease minor complaints such as a sore throat, though that belief is folk tradition.",
+  "history": "Bandrek belongs to Sundanese food culture in the West Java highlands, where its role as a cold-weather drink is well attested. Its early history is thinly documented; one popular account places it in the Dutch colonial era as a way to warm plantation workers, but that claim is unconfirmed.\n\nThe recipe is still changing, with milk and durian variants now sold alongside the plain drink.",
+  "wikipedia_title": "Bandrek",
+  "wikipedia_scope": "exact",
+  "popularity": 2,
+  "liquor_hex": "#8A4F1E",
+  "leaf_hex": "#7A4A22",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Bandrek",
+    "https://www.cookmeindonesian.com/bandrek-traditional-sundanese-herbal-ginger-drink-vegan/",
+    "https://whattocooktoday.com/wprm_print/25900",
+    "https://rri.co.id/en/culinary/2223832/faq.html"
+  ],
+  "confidence": "medium",
+  "images": []
+}

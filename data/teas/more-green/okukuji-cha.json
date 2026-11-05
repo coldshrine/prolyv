@@ -1,0 +1,56 @@
+{
+  "slug": "okukuji-cha",
+  "name_en": "Okukuji-cha",
+  "name_native": "奥久慈茶",
+  "name_romanized": "Okukuji-cha",
+  "name_zh": "奥久慈茶",
+  "name_ru": "Окукудзи-тя",
+  "aliases": [
+    "Honai-cha",
+    "保内茶",
+    "Honaigo-cha",
+    "保内郷茶"
+  ],
+  "category": "green",
+  "origin_country": "Japan",
+  "origin_region": "Ibaraki · Daigo",
+  "cultivar": null,
+  "processing": "Japanese steamed green tea of the sencha kind; Ibaraki tea generally tends towards longer steaming, which deepens colour and softens the cup.",
+  "form": "loose",
+  "harvest_season": "Spring, as with other Japanese green teas; being so far north, the season comes later than in the south of Japan.",
+  "appearance_dry": "Dark green, fine needles, typical of steamed Japanese green tea.",
+  "appearance_liquor": "Fairly deep yellow-green.",
+  "appearance_wet": "Soft green leaf pieces.",
+  "taste_profile": "Promoted as aromatic and full, with a sweet, mellow side typical of longer-steamed teas; independent tasting notes are few.",
+  "taste_tags": [
+    "vegetal",
+    "sweet",
+    "umami"
+  ],
+  "brewing": {
+    "grams": 5,
+    "water_ml": 150,
+    "temp_c": 75,
+    "steeps": 3,
+    "seconds": [
+      50,
+      15,
+      30
+    ],
+    "notes": "If the lot is long-steamed, shorten the first steep; fine leaf clouds and turns bitter quickly."
+  },
+  "caffeine_level": "medium",
+  "vintage_note": "Sold as current-year green tea, with spring tea the main offering. As with other Japanese greens it is best fresh and has no ageing tradition, so check the harvest year.",
+  "description": "Okukuji-cha is the mountain tea of northern Ibaraki, one of the prefecture's three named teas along with Sashima and Furuuchi. Its claim to fame is latitude: together with Murakami in Niigata, it is known as a northern limit of tea sold through normal trade.\n\nIt is a steamed green tea, and details specific to its making are thin on the ground. Teas from the region are often steamed longer than standard, which gives a darker, softer cup, but check the lot rather than assuming it.\n\nExpect a fuller green tea with some sweetness. Brew as a sencha, with a slightly shorter first steep if the leaf looks fine.\n\nIt is a small regional tea, usually bought near where it is grown. Harvest year and the producer's name are the useful details on the bag.",
+  "history": "The tea was once known as Honai or Honaigo tea. Tradition holds that it began about 400 years ago, when tea plants brought from Uji were planted in the grounds of Saifuku-ji temple.\n\nToday it is counted among Ibaraki's three famous teas, in a prefecture that is the second-largest producer in the Kanto after Saitama. Little else about its early development is well documented.",
+  "liquor_hex": "#C4C463",
+  "leaf_hex": "#37502A",
+  "wikipedia_title": "日本茶",
+  "wikipedia_scope": "umbrella",
+  "popularity": 2,
+  "sources": [
+    "https://ja.wikipedia.org/wiki/%E6%97%A5%E6%9C%AC%E8%8C%B6"
+  ],
+  "confidence": "low",
+  "images": []
+}

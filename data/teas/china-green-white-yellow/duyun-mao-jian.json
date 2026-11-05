@@ -3,7 +3,14 @@
   "name_en": "Duyun Mao Jian",
   "name_native": "都匀毛尖",
   "name_romanized": "Dūyún Máojiān",
-  "aliases": ["Du Yun Mao Jian", "Duyun Maojian", "Fish Hook tea", "Yu Gou Cha", "Guizhou Mao Jian", "Bai Mao Jian"],
+  "aliases": [
+    "Du Yun Mao Jian",
+    "Duyun Maojian",
+    "Fish Hook tea",
+    "Yu Gou Cha",
+    "Guizhou Mao Jian",
+    "Bai Mao Jian"
+  ],
   "category": "green",
   "origin_country": "China",
   "origin_region": "Guizhou · Qiannan · Duyun",
@@ -15,12 +22,40 @@
   "appearance_liquor": "Bright yellow-green, slightly hazy from the down.",
   "appearance_wet": "Tender bud-and-leaf sets in an even yellow-green.",
   "taste_profile": "Sweet and fresh with a fuzzy, slightly thick texture, chestnut and fresh pea, and a long clean sweetness in the finish.",
-  "taste_tags": ["sweet", "nutty", "vegetal", "umami"],
-  "brewing": {"grams": 4, "water_ml": 150, "temp_c": 80, "steeps": 3, "seconds": [40, 40, 60], "notes": "Glass or gaiwan at 80 °C. Like other downy teas it is happiest with water poured first or down the side of the glass."},
+  "taste_tags": [
+    "sweet",
+    "nutty",
+    "vegetal",
+    "umami"
+  ],
+  "brewing": {
+    "grams": 4,
+    "water_ml": 150,
+    "temp_c": 80,
+    "steeps": 3,
+    "seconds": [
+      40,
+      40,
+      60
+    ],
+    "notes": "Glass or gaiwan at 80 °C. Like other downy teas it is happiest with water poured first or down the side of the glass."
+  },
   "caffeine_level": "medium",
   "vintage_note": "Sold as the current year's spring harvest, graded by picking date (pre-Qingming, then yu qian) and by bud ratio; the hooked tip and heavy down are the look of the top grades. Guizhou now has enormous tea acreage, so plenty of 'Duyun Mao Jian' is plateau tea from well outside the Duyun core; the local name is a protected origin. Drink within the year, kept cold.",
   "description": "Duyun Mao Jian is Guizhou's famous green, from the hills around Duyun in the south of the province, and it is known locally as 'fish hook tea' for the way the downy tips curl into a little hook. The mountain plateau is high, wet and cool, which gives the leaf an unusual combination: delicate and tender, but with real sweetness and body in the cup.\n\nThe making is pan-firing with an emphasis on fuzz. The shoots are fired, rolled, fired again and then rubbed in the warm wok to raise the down and set the curl, with the heat kept low at the end so the colour stays yellow-green rather than going toasty. The classic description of the finished leaf is 'three greens with yellow showing through': green with a golden cast, in the dry leaf, the liquor and the wet leaf.\n\nIt drinks sweet and fresh, with chestnut and fresh pea, a slightly thick, fuzzy mouthfeel from the down and a long, clean sweetness after the swallow. It is gentler than Xinyang Mao Jian, the other great 'mao jian', and easier to brew: 80 °C in a glass, water first, three steeps. The story that Mao Zedong named it in the 1950s is a local anecdote often repeated; treat it as colour.\n\nGuizhou has become one of China's biggest tea provinces in the last two decades, so the name now covers a lot of tea. The protected origin is the Duyun area; tea from elsewhere on the plateau is often sold as Guizhou Mao Jian or under the Duyun name anyway. Look for the hooked, heavily downy tips and a sweet rather than grassy smell, ask for the picking date, and expect top lots to be pre-Qingming thanks to the early plateau spring.\n\nIt makes a good pair with Meitan Cuiya, Guizhou's flat bud tea: same province, very different shape and mood.",
   "wikipedia_title": "Duyun Maojian",
   "wikipedia_scope": "exact",
-  "popularity": 3
+  "popularity": 3,
+  "name_zh": "都匀毛尖",
+  "name_ru": "Ду Юнь Мао Цзянь",
+  "history": "Duyun Mao Jian comes from Duyun in Guizhou, with the core area around Tuanshan, Huanghe, Shaojiao and Dacao in the Xiaoweizhai quarter. Its older name is fish hook tea, and it is also called que she, 'sparrow's tongue'. It is recorded as a tribute tea under the Ming and Qing dynasties, and it is credited with a gold medal at the 1915 Panama-Pacific International Exposition.\n\nThe usual story says Mao Zedong gave the tea its present name in 1956, but that may well be a legend. It is also often called a favourite of his. It now appears on most lists of China's famous teas, including the 2017 Ministry of Agriculture selection of ten regional tea brands. Its making has been part of the UNESCO listing of Chinese traditional tea processing since 2022.",
+  "liquor_hex": "#D8D07A",
+  "leaf_hex": "#8E9A5C",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Duyun_Maojian",
+    "https://zh.wikipedia.org/wiki/%E9%83%BD%E5%8C%80%E6%AF%9B%E5%B0%96",
+    "https://zh.wikipedia.org/wiki/%E4%B8%AD%E5%9B%BD%E5%8D%81%E5%A4%A7%E5%90%8D%E8%8C%B6"
+  ],
+  "confidence": "high",
+  "images": []
 }

@@ -1,0 +1,60 @@
+{
+  "slug": "cassia-seed-tea",
+  "name_en": "Cassia Seed Tea (Gyeolmyeongja-cha)",
+  "name_native": "결명자차",
+  "name_romanized": "gyeolmyeongja-cha",
+  "name_zh": "决明子茶",
+  "name_ru": "Чай из семян кассии",
+  "aliases": [
+    "Cassia seed tea",
+    "Gyeolmyeongja-cha",
+    "Sicklepod tea",
+    "Senna seed tea",
+    "Sicklepod seed tea",
+    "決明子茶",
+    "キョルミョンジャ茶",
+    "Кёльмёнджа-ча"
+  ],
+  "category": "tisane",
+  "origin_country": "South Korea",
+  "origin_region": "Korean Peninsula",
+  "cultivar": "Senna obtusifolia, Senna tora",
+  "processing": "Whole seeds are washed, drained and dry-roasted over low heat until golden, without grinding, then kept dry and simmered in water.",
+  "form": "other",
+  "harvest_season": "A seed crop, used dried all year; no prized picking is recorded.",
+  "appearance_dry": "Small, hard, angular roasted seeds, typically glossy dark brown.",
+  "appearance_liquor": "Typically a clear reddish amber to brown, darker the longer it simmers.",
+  "appearance_wet": "Swollen, softened brown seeds that stay whole.",
+  "taste_profile": "Little is written about its flavour; as with other roasted seed infusions, expect a toasty, nutty cup with a soft bitter edge and no astringency from tea leaf.",
+  "taste_tags": [
+    "roasted",
+    "nutty",
+    "bitter"
+  ],
+  "brewing": {
+    "grams": 25,
+    "water_ml": 600,
+    "temp_c": 100,
+    "steeps": 1,
+    "seconds": [
+      600
+    ],
+    "notes": "Simmer rather than steep, and drink it without sugar or honey. Home recipes vary widely, some using as little as 20 g for 2 litres as an everyday pot, so adjust to taste."
+  },
+  "caffeine_level": "none",
+  "vintage_note": "No vintages or seasons here: it is sold year-round as bags of roasted seeds, and many people roast raw seeds at home. As with any roasted seed, freshness of the roast matters more than the year, so store it sealed with a desiccant and use it reasonably soon.",
+  "description": "Gyeolmyeongja-cha is a Korean infusion of roasted sicklepod seeds, not a tea in the Camellia sinensis sense. The plants are Senna obtusifolia and Senna tora, formerly placed in the genus Cassia, which is why the English name wanders between cassia, senna and sicklepod.\n\nThe making is simple: wash the seeds, dry them, roast them gently in a pan until golden and leave them whole. Roasting without grinding is the point that separates it from the ground cassia-seed coffee substitutes once known in India.\n\nIt is simmered, not flash-steeped. A low flame for a good while pulls out the colour and a toasty flavour, as you would expect from a roasted seed; it is taken plain, with no sugar or honey.\n\nThe name means seed that brightens the eyes, and it is used in herbal medicine with a long list of claimed benefits that should not be read as proven. It is said to lower blood pressure, so people with low blood pressure, or anyone prone to diarrhoea, should go carefully.\n\nIf you like it, compare Japanese habu-cha, a close relative that today is usually made from the same Senna obtusifolia.",
+  "history": "The seeds are known across East Asia under related names: jué míng zǐ in Chinese, ketsumeishi in Japanese, gyeolmyeongja in Korean. Little is documented about when the Korean drink itself took shape.\n\nSimilar roasted-seed drinks exist in Japan and Thailand. In Japan, habu-cha originally meant a brew of Senna occidentalis seeds, while the commercial product has since moved largely to S. obtusifolia.",
+  "liquor_hex": "#8A4B1F",
+  "leaf_hex": "#4A2E18",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Sicklepod_tea",
+    "https://ko.wikipedia.org/wiki/%EA%B2%B0%EB%AA%85%EC%9E%90%EC%B0%A8",
+    "https://www.wikidata.org/wiki/Q12583504"
+  ],
+  "confidence": "medium",
+  "wikipedia_title": "Sicklepod tea",
+  "wikipedia_scope": "exact",
+  "popularity": 2,
+  "images": []
+}

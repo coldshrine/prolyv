@@ -1,0 +1,61 @@
+{
+  "slug": "blended-da-hong-pao",
+  "name_en": "Blended Da Hong Pao",
+  "name_native": "拼配大红袍",
+  "name_romanized": "Pīnpèi Dà Hóng Páo",
+  "name_zh": "拼配大红袍",
+  "name_ru": "Купажированный Да Хун Пао",
+  "aliases": [
+    "Pinpei Da Hong Pao (blended)",
+    "Commercial Da Hong Pao",
+    "商品大红袍"
+  ],
+  "category": "oolong",
+  "origin_country": "China",
+  "origin_region": "Fujian · Wuyi",
+  "cultivar": "Blend, often Shuixian or Rougui with other Wuyi plants",
+  "processing": "Several separately made Wuyi rock teas are combined by a blender for balance, then roasted as is usual for the class.",
+  "form": "loose",
+  "harvest_season": "Components are spring-picked, as with other Wuyi rock teas; the blend is assembled later.",
+  "appearance_dry": "Dark, twisted strips with some variation between components.",
+  "appearance_liquor": "Orange to reddish amber and clear.",
+  "appearance_wet": "Dark, mixed leaves with reddened edges.",
+  "taste_profile": "Balanced and roasted, with Shuixian's woody softness or Rou Gui's spice underneath floral notes; poor blends taste uneven.",
+  "taste_tags": [
+    "roasted",
+    "woody",
+    "floral",
+    "mineral"
+  ],
+  "brewing": {
+    "grams": 7,
+    "water_ml": 110,
+    "temp_c": 100,
+    "steeps": 7,
+    "seconds": [
+      10,
+      10,
+      15,
+      20,
+      30,
+      45,
+      60
+    ],
+    "notes": "Boiling water and short steeps. A strong roast needs a light hand in the first cups."
+  },
+  "caffeine_level": "medium",
+  "vintage_note": "Sold by year, usually the current spring's leaf after roasting or a year or two later, across a wide range from entry-level to premium. Blenders rarely publish the recipe, so ask what is in it and whether the leaf is core area or half-rock.",
+  "description": "This is the Da Hong Pao most people actually drink. The tea from the famous mother bushes is out of reach, so the market name mainly belongs to blends of several Wuyi rock teas made to a house style.\n\nA blender typically starts from a base of Shuixian or Rou Gui and adds plants such as Bai Ji Guan, Tie Luo Han or Bei Dou. The aim is a rounded cup with no single plant dominant, which makes the blender's skill as important as the leaf.\n\nExpect roast first, then woody and floral notes and some mineral finish. Use boiling water and short steeps, and judge whether the cup stays together over several infusions; bad blends come apart.\n\nThere is nothing fake about a blend, as long as it is sold as one. The word to watch is pure: Qi Dan and Que She are single-plant teas tied to the mother bushes, and a blend should not claim to be them.",
+  "history": "The name comes from the famous bushes at Jiulongke, and a legend ties it to a red robe sent by an emperor in thanks. Blending arose because those bushes could never supply a market.\n\nOne tea seller dates the wide introduction of commercial blends to around 1985. Commercial Da Hong Pao is made under China's national standard for Wuyi rock tea, and blending plants is the common route to a consistent product.",
+  "liquor_hex": "#B8682A",
+  "leaf_hex": "#3A2A1E",
+  "sources": [
+    "https://iteaworld.com/blogs/guide/authentic-da-hong-pao",
+    "https://iteaworld.com/pages/wuyi-rock-tea"
+  ],
+  "confidence": "medium",
+  "images": [],
+  "wikipedia_title": "Da Hong Pao",
+  "wikipedia_scope": "umbrella",
+  "popularity": 3
+}

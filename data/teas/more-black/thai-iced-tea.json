@@ -1,0 +1,110 @@
+{
+  "slug": "thai-iced-tea",
+  "name_en": "Thai Iced Tea (Cha Yen)",
+  "name_native": "ชาเย็น",
+  "name_romanized": "cha yen",
+  "name_zh": "泰式奶茶",
+  "name_ru": "Тайский чай со льдом (Ча Йен)",
+  "aliases": [
+    "Cha yen",
+    "Cha yen (Thai iced tea)",
+    "Thai Iced Tea",
+    "Thai Tea",
+    "Thai milk tea",
+    "Thai tea (Cha thai)",
+    "Te tailandès",
+    "泰式冰茶",
+    "泰奶",
+    "ชาไทย",
+    "Ча йен",
+    "Тайский холодный чай (Ча-йен)",
+    "Тайский чай"
+  ],
+  "category": "black",
+  "origin_country": "Thailand",
+  "origin_region": "Thailand",
+  "cultivar": "Ceylon tea or local Assam-type bai miang",
+  "processing": "A drink, not a leaf style: very strong black tea is sweetened with sugar and condensed milk, then poured over ice and finished with evaporated or whole milk.",
+  "form": "other",
+  "harvest_season": "Not relevant to the drink; it is made all year from blended dry tea.",
+  "appearance_dry": "The dry mix is fine, dark, broken black tea, and some commercial mixes contain colouring.",
+  "appearance_liquor": "Opaque, vivid orange to terracotta, with paler milk swirling through it over crushed ice.",
+  "appearance_wet": "No leaf reaches the glass, since the tea is strained before serving.",
+  "taste_profile": "Very sweet and creamy, with a strong tannic tea underneath. In some versions you also get vanilla-like or anise spice notes, though the plain Thai version often has no spice at all.",
+  "taste_tags": [
+    "sweet",
+    "creamy",
+    "malty",
+    "spicy"
+  ],
+  "brewing": {
+    "grams": 10,
+    "water_ml": 250,
+    "temp_c": 98,
+    "steeps": 1,
+    "seconds": [
+      300
+    ],
+    "notes": "Brew far stronger than you would for a cup of hot tea and strain well. Stir in sugar and condensed milk while hot, pour over plenty of ice, and float the evaporated milk on top last."
+  },
+  "caffeine_level": "medium",
+  "vintage_note": "There are no vintages: it is sold as a shelf-stable dry mix under brand names, with ChaTraMue the dominant one, or poured fresh by vendors. Check the mix's ingredient list if you want to avoid colouring or added flavouring, and use it while it still smells strong.",
+  "description": "Thai iced tea, cha yen, literally 'cold tea', is the bright orange milk tea sold across Thailand and in Thai restaurants worldwide. It is sweet, strong and built to stand up to heat and ice.\n\nThe base is strongly brewed Ceylon tea or a local Assam-type leaf called bai miang. Sugar and condensed milk go in, and evaporated or whole milk is poured over ice just before serving. The famous colour usually owes something to food dye in the dry mix, though not always.\n\nIt is a rich, sugary drink, so think of it almost as dessert. The common mistake at home is weak tea, which simply disappears behind the milk. Many recipes outside Thailand add star anise or cardamom, but the drink as usually made in Thailand often has no spice.\n\nOn the street it comes in a plastic bag or tall cup over crushed ice, while restaurants use a tall glass. Thai speakers also have names for its relatives: cha dam yen is the milkless iced version, cha ron is hot with milk, and hot tea is often drunk with fried dough in the morning.\n\nIf this is too heavy, try cha manao, the same strong tea with lime instead of milk.",
+  "history": "The history of cha yen is poorly recorded. One explanation is that condensed milk won out over fresh milk because of Thailand's heat and the difficulty of keeping dairy, and that the milky style owes something to the South Asian tea tradition, but this is conjecture rather than settled fact.\n\nCeylon tea was the original base, and when it became expensive, locally grown bai miang came into use. ChaTraMue has done the most to carry the drink abroad, and today it also appears as a frappé or with tapioca pearls.",
+  "liquor_hex": "#D9792B",
+  "leaf_hex": "#2C1A12",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Thai_tea",
+    "https://zh.wikipedia.org/wiki/%E6%B3%B0%E5%BC%8F%E5%A5%B6%E8%8C%B6",
+    "https://ja.wikipedia.org/wiki/%E3%83%81%E3%83%A3%E3%83%BC%E3%82%A4%E3%82%A7%E3%83%B3",
+    "https://ko.wikipedia.org/wiki/%EC%B0%A8_%EC%98%8C",
+    "https://vi.wikipedia.org/wiki/Tr%C3%A0_Th%C3%A1i"
+  ],
+  "confidence": "high",
+  "wikipedia_title": "Thai tea",
+  "wikipedia_scope": "exact",
+  "popularity": 4,
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/42/Cha_yen.JPG/1280px-Cha_yen.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/42/Cha_yen.JPG/330px-Cha_yen.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Cha_yen.JPG",
+      "author": "Takeaway",
+      "license": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "kind": "liquor",
+      "alt": "Glass mug of bright orange cha yen topped with crushed ice"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/79/Cha-Yen_%28Thai_iced_tea%29_-_Namo_2026-07-30.jpg/1280px-Cha-Yen_%28Thai_iced_tea%29_-_Namo_2026-07-30.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/79/Cha-Yen_%28Thai_iced_tea%29_-_Namo_2026-07-30.jpg/330px-Cha-Yen_%28Thai_iced_tea%29_-_Namo_2026-07-30.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Cha-Yen_(Thai_iced_tea)_-_Namo_2026-07-30.jpg",
+      "author": "Andy Li",
+      "license": "CC0",
+      "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "kind": "liquor",
+      "alt": "Tall glass of orange Thai iced tea with milk and ice"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7e/Home-made_Thai_iced_milk_tea.jpg/1280px-Home-made_Thai_iced_milk_tea.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7e/Home-made_Thai_iced_milk_tea.jpg/330px-Home-made_Thai_iced_milk_tea.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Home-made_Thai_iced_milk_tea.jpg",
+      "author": "Vee Satayamas",
+      "license": "CC BY 2.0",
+      "license_url": "https://creativecommons.org/licenses/by/2.0",
+      "kind": "liquor",
+      "alt": "Cup of home-made Thai iced milk tea with ice cubes, seen from above"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/81/E-saan_thai_house_-_Sarah_Stierch_-_May_2019.jpg/1280px-E-saan_thai_house_-_Sarah_Stierch_-_May_2019.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/81/E-saan_thai_house_-_Sarah_Stierch_-_May_2019.jpg/330px-E-saan_thai_house_-_Sarah_Stierch_-_May_2019.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source_page": "https://commons.wikimedia.org/wiki/File:E-saan_thai_house_-_Sarah_Stierch_-_May_2019.jpg",
+      "author": "Missvain",
+      "license": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0",
+      "kind": "serving",
+      "alt": "Paper cup of orange Thai iced tea over ice with a paper straw"
+    }
+  ],
+  "sources_note": "Spice content conflicts between pages: en says not typically spiced in Thailand, while ja, ko and ru list anise and others. The card reports the disagreement."
+}

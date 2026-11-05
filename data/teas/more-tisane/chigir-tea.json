@@ -1,0 +1,56 @@
+{
+  "slug": "chigir-tea",
+  "name_en": "Chigir Tea (Bergenia)",
+  "name_native": "Чигирский чай",
+  "name_romanized": "Chigirsky chay",
+  "name_zh": "厚叶岩白菜茶",
+  "name_ru": "Чигирский чай (бадан)",
+  "aliases": [
+    "Бадан толстолистный",
+    "Монгольский чай",
+    "Mongolian tea",
+    "Bergenia tea",
+    "Bergenia crassifolia",
+    "Saxifrage tea"
+  ],
+  "category": "tisane",
+  "origin_country": "Russia",
+  "origin_region": "Altai · Siberia",
+  "cultivar": null,
+  "processing": "Leaves of Bergenia crassifolia that have overwintered on the plant and turned dark are gathered and dried, so natural weathering does the work that processing does in other teas.",
+  "form": "loose",
+  "harvest_season": "The overwintered, darkened leaves are the ones used, rather than fresh green growth.",
+  "appearance_dry": "Large, dark brown, leathery leaf pieces.",
+  "appearance_liquor": "Little is recorded; as with other dark tannin-rich leaves, expect a reddish-brown cup.",
+  "appearance_wet": "Thick, dark brown, leathery pieces.",
+  "taste_profile": "The tea is described as aromatic, but detailed tasting notes are scarce; expect woody, astringent notes, as is common with dark tannin-rich leaves.",
+  "taste_tags": [
+    "woody",
+    "earthy",
+    "herbal"
+  ],
+  "brewing": {
+    "grams": 3,
+    "water_ml": 300,
+    "temp_c": 100,
+    "steeps": 1,
+    "seconds": [
+      600
+    ],
+    "notes": "A general starting point for tough dried leaves, not an established recipe. Use boiling water and a longer steep, and reduce the time if it turns too astringent."
+  },
+  "caffeine_level": "none",
+  "vintage_note": "Sold without vintage, in small lots by weight, usually by regional herb sellers. The defining feature is the overwintered, dark leaf, not a year; a pack of green leaf is a different product.",
+  "description": "Chigir tea is made from Bergenia crassifolia, a Siberian plant of the saxifrage family, and it also goes by the name Mongolian tea. What sets it apart is the leaf: not fresh growth but the leaves that have sat through a winter on the plant and gone dark.\n\nWinter does much of the work, leaving a dark leaf that is then simply dried. The same plant's rhizomes are rich in tannins and were eaten only after soaking and washing, which hints at the astringency in the family.\n\nFew reliable tasting notes exist beyond calling it aromatic. Treat it as you would other tough dark leaves: boiling water and a long steep, adjusted to taste.\n\nWhen buying, ask whether the leaves are overwintered, since that is the traditional material. The names бадан, чигирский чай and монгольский чай all point to the same plant.",
+  "history": "Little is documented about the origin of the tea. The names chigir tea and Mongolian tea are recorded for the drink, along with the use of overwintered leaves, but no reliable date or person can be attached to it.",
+  "liquor_hex": "#8A4B22",
+  "leaf_hex": "#4A3120",
+  "wikipedia_title": null,
+  "wikipedia_scope": "none",
+  "popularity": 2,
+  "sources": [
+    "https://ru.wikipedia.org/wiki/%D0%91%D0%B0%D0%B4%D0%B0%D0%BD_%D1%82%D0%BE%D0%BB%D1%81%D1%82%D0%BE%D0%BB%D0%B8%D1%81%D1%82%D0%BD%D1%8B%D0%B9"
+  ],
+  "confidence": "low",
+  "images": []
+}

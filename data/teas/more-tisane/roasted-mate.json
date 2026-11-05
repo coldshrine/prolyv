@@ -1,0 +1,59 @@
+{
+  "slug": "roasted-mate",
+  "name_en": "Roasted Mate (Chá-mate)",
+  "name_native": "chá-mate",
+  "name_romanized": null,
+  "name_zh": "烘焙马黛茶",
+  "name_ru": "Обжаренный мате",
+  "aliases": [
+    "Chá mate",
+    "Roasted mate",
+    "Mate tostado",
+    "Toasted mate"
+  ],
+  "category": "tisane",
+  "origin_country": "Brazil",
+  "origin_region": "Paraná · Curitiba",
+  "cultivar": null,
+  "processing": "Dried yerba mate leaves are roasted, which removes the raw grassy note and adds a toasty one, then sold loose or in tea bags.",
+  "form": "loose",
+  "harvest_season": "Not a seasonal product; it is an all-year shelf tea.",
+  "appearance_dry": "Chopped dark brown leaf, far from the green of ordinary yerba.",
+  "appearance_liquor": "Clear reddish amber-brown, much like black tea.",
+  "appearance_wet": "Soft, dark brown leaf fragments.",
+  "taste_profile": "Toasty and rounded with little of green mate's grassiness and a mild bitterness, very good cold with lemon and sugar.",
+  "taste_tags": [
+    "roasted",
+    "woody",
+    "bitter"
+  ],
+  "brewing": {
+    "grams": 3,
+    "water_ml": 250,
+    "temp_c": 95,
+    "steeps": 1,
+    "seconds": [
+      300
+    ],
+    "notes": "Brew like black tea. For the Rio style, make it strong, chill it, and add lemon and sugar. Cold brewing also suits roasted leaf."
+  },
+  "caffeine_level": "medium",
+  "vintage_note": "Not sold by year. It is a brand product in boxes of tea bags or loose leaf, with a best-before date. Toasty aroma is the point, so fresher stock is better; there is no ageing market.",
+  "description": "Roasted mate is yerba treated more like a black tea than a gourd drink. In Brazil it is what most people mean by chá mate, and it is the base of Rio's iced mate.\n\nThe roast changes the leaf completely. Green mate has a raw grassy bitterness, while roasting removes that and adds a toasty aroma, turning the liquor reddish brown.\n\nHot, it tastes roughly like a soft, toasty black tea with herbal depth. Cold is where it shines: strong, with lemon and sugar, in the style sold on Rio's beaches. People often make it too weak for icing, so brew it stronger than you plan to drink it.\n\nBuying is straightforward: plain roasted mate in a box, or ready-to-drink versions, where you should check the sugar. It is a good introduction for anyone put off by green mate.",
+  "history": "Matte Leão was founded in Paraná in 1901, when Agostinho Ermelino de Leão Junior began processing and selling yerba. Accounts differ on when its roasted mate began: one places it in the 1930s, one gives 1938, and the company's owner links its sachets to the Second World War, when English tea became harder to import.\n\nThe brand became a fixture in Rio de Janeiro, at the beaches and at Maracanã stadium, where iced mate is still a habit. Matte Leão joined Coca-Cola Brasil in 2007 after 106 years under family control.",
+  "liquor_hex": "#8A4B1C",
+  "leaf_hex": "#4A3220",
+  "sources": [
+    "https://www.coca-cola.com/br/pt/social/marcas-que-a-gente-ama/chas-leao",
+    "https://ja.wikipedia.org/wiki/%E3%83%9E%E3%83%86%E8%8C%B6",
+    "https://en.wikipedia.org/wiki/Mate_%28drink%29",
+    "https://www.delicias-uk.com/?p=136553",
+    "https://en.wikipedia.org/wiki/Matte_Le%C3%A3o"
+  ],
+  "confidence": "medium",
+  "wikipedia_title": "Mate (drink)",
+  "wikipedia_scope": "umbrella",
+  "popularity": 3,
+  "images": [],
+  "sources_note": "Start date of Leão's roasted mate varies between accounts, so the text gives the range."
+}

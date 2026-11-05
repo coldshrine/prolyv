@@ -1,0 +1,56 @@
+{
+  "slug": "fangzhuang-cha",
+  "name_en": "Fangzhuang Cha",
+  "name_native": "仿庄茶",
+  "name_romanized": "Fǎngzhuāng chá",
+  "aliases": [
+    "倣庄茶"
+  ],
+  "category": "heicha",
+  "origin_country": "China",
+  "origin_region": "China",
+  "cultivar": null,
+  "form": "loose",
+  "caffeine_level": "medium",
+  "brewing": {
+    "grams": 6,
+    "water_ml": 120,
+    "temp_c": 100,
+    "steeps": 6,
+    "seconds": [
+      15,
+      15,
+      20,
+      30,
+      45,
+      60
+    ],
+    "notes": "A safe starting point for dark tea: rinse once, boiling water, or simmer it the traditional way."
+  },
+  "taste_tags": [
+    "earthy",
+    "woody"
+  ],
+  "description": "A loose Chinese dark tea, named alongside Lao Qing Cha for sharing the same order of processing steps.\n\nTreat it as you would any dark tea: rinse it, use boiling water, and buy from someone who can say who pressed it and when.",
+  "wikipedia_title": null,
+  "wikipedia_scope": "none",
+  "popularity": 1,
+  "name_zh": "仿庄茶",
+  "name_ru": "Фан Чжуан Ча",
+  "history": "It is known mainly as a processing example among loose dark teas. Little more is documented about it.",
+  "liquor_hex": "#7A3A14",
+  "leaf_hex": "#2A1E16",
+  "sources": [
+    "https://ja.wikipedia.org/wiki/黒茶"
+  ],
+  "confidence": "low",
+  "images": [],
+  "stub": true,
+  "processing": "Typical of dark tea: green leaf is piled so that microbes ferment it, then dried and often pressed.",
+  "harvest_season": "Often made from coarser, later leaf, as with most dark teas.",
+  "appearance_dry": "Usually dark leaf, loose or pressed into bricks or baskets.",
+  "appearance_liquor": "Usually orange-red to dark brown.",
+  "appearance_wet": "Usually coarse dark leaf with some stem.",
+  "taste_profile": "Expect what dark teas usually give: smooth, woody and earthy.",
+  "vintage_note": "Dark teas are sold by production year and many improve with several years of dry storage."
+}

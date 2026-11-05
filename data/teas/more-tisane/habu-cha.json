@@ -1,0 +1,58 @@
+{
+  "slug": "habu-cha",
+  "name_en": "Habu-cha",
+  "name_native": "ハブ茶",
+  "name_romanized": "Habu-cha",
+  "name_zh": "决明子茶",
+  "name_ru": "Хабу-тя",
+  "aliases": [
+    "Habu tea",
+    "Cassia seed tea",
+    "Sicklepod tea",
+    "決明子茶",
+    "钝叶决明茶",
+    "エビスグサ",
+    "ハブソウ"
+  ],
+  "category": "tisane",
+  "origin_country": "Japan",
+  "origin_region": "Nationwide",
+  "cultivar": "Senna obtusifolia (formerly Senna occidentalis)",
+  "processing": "The seeds are roasted and then infused. Today's habu-cha uses sicklepod seed, Senna obtusifolia, in place of the original Senna occidentalis.",
+  "form": "loose",
+  "harvest_season": "Seeds of an annual plant, gathered after the pods form in late summer or autumn; the finished tea is sold all year.",
+  "appearance_dry": "Small, hard, glossy roasted seeds in dark brown.",
+  "appearance_liquor": "Clear reddish-brown, as with other roasted seed teas.",
+  "appearance_wet": "Slightly swollen dark seeds that stay whole.",
+  "taste_profile": "Toasty and rounded, as is usual for roasted seed teas, with a light bitter edge when it is brewed hard.",
+  "taste_tags": [
+    "roasted",
+    "nutty",
+    "bitter"
+  ],
+  "brewing": {
+    "grams": 5,
+    "water_ml": 500,
+    "temp_c": 100,
+    "steeps": 1,
+    "seconds": [
+      300
+    ],
+    "notes": "Simmer the seeds in a kettle for a few minutes or steep in boiling water, the usual method for hard roasted seeds. Good chilled."
+  },
+  "caffeine_level": "none",
+  "vintage_note": "Sold without a vintage, as roasted seed or tea bags, all year. As with other roasted seed teas, the roast fades in time, so a recent, well-sealed pack is what matters.",
+  "description": "Habu-cha is a roasted seed tea whose name no longer quite matches what is in the bag. It was first brewed from habusō, Senna occidentalis; what is sold now is nearly always the seed of a close relative, ebisugusa or sicklepod.\n\nThe swap is practical: sicklepod yields more. In Chinese herbal terms the seed is juemingzi, so Chinese speakers will know the drink as juemingzi tea. Either way, the seeds are roasted, which gives the tea its colour and most of its flavour.\n\nExpect what roasted seed teas generally deliver, a toasty cup with some bitterness if pushed. Seeds this hard give up slowly, so a short simmer works better than a quick dip.\n\nIt is sold as a health food, so read the label to see which species you are buying. It contains no tea leaf and no caffeine from tea.",
+  "history": "Habusō came to Japan from the Americas during the Edo period as a folk remedy for bites from insects and venomous snakes, the habu viper above all, and that is where the name comes from. It has since naturalised in the Nansei and Ogasawara islands.\n\nRoasted, its seeds gave the original habu-cha. The modern market moved to sicklepod because it crops better, and the old name stayed behind on the packet. No dated account of when that change took place is available.",
+  "liquor_hex": "#8E4F22",
+  "leaf_hex": "#4A2F1B",
+  "sources": [
+    "https://ja.wikipedia.org/wiki/%E3%83%8F%E3%83%96%E3%82%BD%E3%82%A6",
+    "https://en.wikipedia.org/wiki/Senna_obtusifolia"
+  ],
+  "confidence": "medium",
+  "wikipedia_title": "Senna obtusifolia",
+  "wikipedia_scope": "umbrella",
+  "popularity": 2,
+  "images": []
+}

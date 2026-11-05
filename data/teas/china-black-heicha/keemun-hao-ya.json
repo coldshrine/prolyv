@@ -1,9 +1,17 @@
 {
   "slug": "keemun-hao-ya",
   "name_en": "Keemun Hao Ya",
-  "name_native": "祁红毫芽",
-  "name_romanized": "Qíhóng Háoyá",
-  "aliases": ["Keemun Hao Ya A", "Keemun Hao Ya B", "Qimen Hao Ya", "Keemun Downy Bud", "Keemun Imperial"],
+  "name_native": "祁门毫芽",
+  "name_romanized": "Qímén Háoyá",
+  "aliases": [
+    "Keemun Hao Ya A",
+    "Keemun Hao Ya B",
+    "Qimen Hao Ya",
+    "Keemun Downy Bud",
+    "Keemun Imperial",
+    "祁門毫芽",
+    "祁红毫芽"
+  ],
   "category": "black",
   "origin_country": "China",
   "origin_region": "Anhui · Huangshan · Qimen",
@@ -15,13 +23,56 @@
   "appearance_liquor": "Deep orange-red, bright, with a pronounced golden ring.",
   "appearance_wet": "Small, tender copper-coloured buds and leaf fragments, very even.",
   "taste_profile": "Cocoa and honey with rose and a hint of pine resin, a smooth, almost syrupy texture and far less bite than lower Keemun grades.",
-  "taste_tags": ["cocoa", "honey", "floral", "sweet", "brisk"],
-  "brewing": {"grams": 4, "water_ml": 110, "temp_c": 88, "steeps": 6, "seconds": [8, 10, 15, 20, 30, 45], "notes": "Cut, tippy leaf extracts fast: water a little under 90 °C and very short early steeps. Western-style: 2.5 g per 250 ml, 2.5 minutes, drunk neat."},
+  "taste_tags": [
+    "cocoa",
+    "honey",
+    "floral",
+    "sweet",
+    "brisk"
+  ],
+  "brewing": {
+    "grams": 4,
+    "water_ml": 110,
+    "temp_c": 88,
+    "steeps": 6,
+    "seconds": [
+      8,
+      10,
+      15,
+      20,
+      30,
+      45
+    ],
+    "notes": "Cut, tippy leaf extracts fast: water a little under 90 °C and very short early steeps. Western-style: 2.5 g per 250 ml, 2.5 minutes, drunk neat."
+  },
   "caffeine_level": "medium",
   "vintage_note": "Sold as the current year's spring harvest, mostly through Western and Hong Kong merchants who use the Hao Ya A/B labels. Best within a year of picking; the downy buds lose their fragrance faster than coarser leaf, so old stock is a real risk with this grade.",
   "description": "Keemun Hao Ya is the top of the Keemun export ladder: a refined gongfu-style Keemun in which a large share of the cut leaf is fine, downy bud. The name (hao ya, 'downy bud') is used mostly by exporters and Western retailers rather than in Qimen itself, where the same tea would simply sit at the top of the gongfu grades, but it has stuck and it is the label to look for if you want the most aromatic refined Keemun.\n\nHao Ya starts as the earliest, finest spring pickings from Qimen's small-leaf bushes. After full oxidation and drying, the tea goes through the usual gongfu refining – cutting, sieving, sorting and re-firing – but the fractions kept are the smallest and tippiest. 'Hao Ya A' is the finer, more bud-heavy selection and 'Hao Ya B' a step below with slightly larger leaf; both sit well above standard grades.\n\nIn the cup the extra bud shows as weight and sweetness: cocoa and honey first, then rose and a hint of pine resin, with a smooth, almost syrupy texture and much less of the brisk bite of lower grades. It still extracts quickly because the leaf is cut, so keep gongfu steeps short and the water a little under 90 °C; in a pot, two and a half minutes is plenty.\n\nIt is sold by the current spring harvest, and because it is an export name you will usually find it with Western and Hong Kong merchants rather than Chinese online shops. Price it against a Chinese Te Ji or Li Cha grade from the same year; if a 'Hao Ya A' looks dull, coarse and tipless, it is simply a mid-grade with a better label.\n\nDrink it neat – milk flattens exactly the part you paid for.",
   "wikipedia_title": "Keemun",
   "wikipedia_scope": "exact",
   "popularity": 3,
-  "sources_note": "Hao Ya A/B is an export-trade grade designation rather than an official Qimen grade; mapped here to the top gongfu grades. The Chinese name 祁红毫芽 is a back-translation used by some vendors, not a traditional grade name."
+  "sources_note": "Hao Ya A/B is an export-trade grade designation rather than an official Qimen grade; mapped here to the top gongfu grades. The Chinese name 祁红毫芽 is a back-translation used by some vendors, not a traditional grade name.",
+  "name_zh": "祁门毫芽",
+  "name_ru": "Кимун Хао Я",
+  "history": "Keemun itself is young for a famous Chinese tea. Qimen County in southern Anhui made green tea until the mid 1870s, when black tea methods adapted from Fujian and other gongfu regions took hold; 1875 is the date usually given, and more than one man is credited, with Hu Yuanlong the local favourite.\n\nHao Ya belongs to the export trade rather than to that founding story. It is a high grade of Keemun, sorted for Western markets into Hao Ya A and the slightly lesser Hao Ya B. Accounts of it are thin and do not fully agree: some stress its tips, others its stronger leaf and intense taste. When the name first appeared is not well documented.",
+  "liquor_hex": "#A9471C",
+  "leaf_hex": "#2F2219",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Keemun",
+    "https://ja.wikipedia.org/wiki/%E7%A5%81%E9%96%80%E7%B4%85%E8%8C%B6",
+    "https://ru.wikipedia.org/wiki/%D0%9A%D0%B8%D0%BC%D1%83%D0%BD"
+  ],
+  "confidence": "medium",
+  "images": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/a/a5/Qimen_Hao_Ya.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a5/Qimen_Hao_Ya.jpg/330px-Qimen_Hao_Ya.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Qimen_Hao_Ya.jpg",
+      "author": "Laubrau",
+      "license": "CC BY-SA 3.0",
+      "license_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+      "kind": "dry_leaf",
+      "alt": "Dish of fine dark Keemun Hao Ya leaf above a white cup of bright orange-red liquor"
+    }
+  ]
 }

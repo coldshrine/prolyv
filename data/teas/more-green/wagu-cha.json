@@ -1,0 +1,53 @@
+{
+  "slug": "wagu-cha",
+  "name_en": "Wagu Tea",
+  "name_native": "瓦姑茶",
+  "name_romanized": "Wāgū Chá",
+  "aliases": [
+    "Wagu Cha",
+    "Wagucha"
+  ],
+  "category": "green",
+  "origin_country": "China",
+  "origin_region": "Yunnan · Wagu, Liuku, Lushui, Nujiang",
+  "cultivar": "Yunnan large-leaf",
+  "form": "loose",
+  "caffeine_level": "medium",
+  "brewing": {
+    "grams": 3,
+    "water_ml": 150,
+    "temp_c": 80,
+    "steeps": 3,
+    "seconds": [
+      60,
+      75,
+      105
+    ],
+    "notes": "A safe starting point for green tea: cooler water, short steeps, then adjust by taste."
+  },
+  "taste_tags": [
+    "sweet"
+  ],
+  "description": "A large-leaf green tea from Wagu village at the foot of the Biluo Snow Mountains in Lushui, Nujiang.\n\nTreat it as you would any green tea: cooler water, short steeps, and a seller who can say where and when it was picked.",
+  "wikipedia_title": null,
+  "wikipedia_scope": "none",
+  "popularity": 1,
+  "name_zh": "瓦姑茶",
+  "name_ru": "Ва Гу Ча",
+  "history": "It was once locally praised as the 'Longjing of Yunnan', and in 1967 it was sent to Zhongnanhai in Beijing. A cooperative formed in 2006 expanded growing, and nearly every household in the village now has a tea plot.",
+  "liquor_hex": "#D2D678",
+  "leaf_hex": "#7E8B3E",
+  "sources": [
+    "https://milulu.com.cn/techan/17526.html"
+  ],
+  "confidence": "low",
+  "images": [],
+  "stub": true,
+  "processing": "Typical of green tea: picked, heated soon after picking to stop oxidation, then shaped and dried.",
+  "harvest_season": "Usually picked in spring, with the earliest pickings prized, as with most green teas.",
+  "appearance_dry": "Green leaf whose shape depends on the maker, as is usual for regional green teas.",
+  "appearance_liquor": "Fresh green.",
+  "appearance_wet": "Usually soft green leaf that opens up in the water.",
+  "taste_profile": "Sweet, clean and mellow, and holds up over many infusions.",
+  "vintage_note": "Green teas like this are normally sold as the current year's harvest and are best within a year of picking. It is not an ageing tea."
+}

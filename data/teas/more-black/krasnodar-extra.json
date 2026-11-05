@@ -1,0 +1,51 @@
+{
+  "slug": "krasnodar-extra",
+  "name_en": "Krasnodar Extra",
+  "name_native": "Чай Экстра",
+  "name_romanized": "Chai Ekstra",
+  "name_zh": "克拉斯诺达尔特级红茶",
+  "name_ru": "Краснодарский экстра",
+  "aliases": [
+    "Krasnodar Extra tea",
+    "Чай Экстра"
+  ],
+  "category": "black",
+  "origin_country": "Russia",
+  "origin_region": "Krasnodar Krai",
+  "cultivar": null,
+  "processing": "Defined by its blend, not by a special method: the 2019 regional standard proposed 75% local Krasnodar leaf. Black versions follow the usual withering, rolling, oxidation and drying.",
+  "form": "loose",
+  "harvest_season": "Not specified for this tier; the blend matters more than a particular picking.",
+  "appearance_dry": "As with other blended orthodox black teas, expect dark, twisted, fairly even leaf.",
+  "appearance_liquor": "Typical of the class, a clear reddish amber.",
+  "appearance_wet": "Typical of black tea, mixed coppery-brown leaf.",
+  "taste_profile": "Little is recorded about this tier in the cup. Expect an everyday black tea blend: moderate body, mild malt and some briskness.",
+  "taste_tags": [
+    "malty",
+    "brisk"
+  ],
+  "brewing": {
+    "grams": 3,
+    "water_ml": 250,
+    "temp_c": 95,
+    "steeps": 1,
+    "seconds": [
+      240
+    ],
+    "notes": "These are usual Western-style black tea settings, nothing specific to this tea."
+  },
+  "caffeine_level": "medium",
+  "vintage_note": "Sold as a packaged grade, not by harvest year. What separates it from other tiers is the local leaf share, not the season. As with other blended black teas, buy recent stock and finish it within a couple of years.",
+  "description": "Extra is a tier in the Krasnodar tea standard, not a distinct way of making tea. In the scheme proposed in 2019 it sits just below the top: 75% Krasnodar leaf, compared with 100% for Kuban Bouquet, 60% for Highest Grade and from 40% for First Grade.\n\nThat makes the blend the main point of the name. The remaining quarter need not be local, and the standard exists largely to make that share explicit.\n\nThere is little reliable description of its flavour. Brew it like an everyday black tea, then add time or leaf to taste.\n\nWhen buying, check how a given maker uses the word, because a word like extra can also be used loosely on a pack. Look for the stated local content if it appears.",
+  "history": "The standard for Krasnodar tea was approved by a regional association in January 2019, and it was then proposed for approval at federal level. The tier system, including Extra at 75% local leaf, comes from that proposal. Little is documented about earlier use of the name.",
+  "liquor_hex": "#A65524",
+  "leaf_hex": "#38281B",
+  "sources": [
+    "https://ru.wikipedia.org/wiki/%D0%9A%D1%80%D0%B0%D1%81%D0%BD%D0%BE%D0%B4%D0%B0%D1%80%D1%81%D0%BA%D0%B8%D0%B9_%D1%87%D0%B0%D0%B9"
+  ],
+  "confidence": "low",
+  "wikipedia_title": "Краснодарский чай",
+  "wikipedia_scope": "umbrella",
+  "popularity": 2,
+  "images": []
+}

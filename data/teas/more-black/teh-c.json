@@ -1,0 +1,54 @@
+{
+  "slug": "teh-c",
+  "name_en": "Teh-C",
+  "name_native": null,
+  "name_romanized": null,
+  "name_zh": "茶C",
+  "name_ru": "Тех-си",
+  "aliases": [
+    "Teh C",
+    "Teh si",
+    "Teh-C ais"
+  ],
+  "category": "black",
+  "origin_country": "Malaysia",
+  "origin_region": "Malay Peninsula",
+  "cultivar": null,
+  "processing": "A strong black tea brew mixed with evaporated milk instead of the condensed milk of teh tarik. Sugar is usually added unless you ask otherwise.",
+  "form": "loose",
+  "harvest_season": "Not applicable; it is made with whatever strong black tea the stall uses.",
+  "appearance_dry": "Often fine tea dust or small broken leaf, as with other kopitiam tea.",
+  "appearance_liquor": "An opaque caramel brown from the evaporated milk.",
+  "appearance_wet": "Fine dark tea dust, strained out before serving.",
+  "taste_profile": "Strong, slightly bitter tea softened by the rounded milkiness of evaporated milk, with sweetness to order.",
+  "taste_tags": [
+    "creamy",
+    "sweet",
+    "malty"
+  ],
+  "brewing": {
+    "grams": 6,
+    "water_ml": 250,
+    "temp_c": 100,
+    "steeps": 1,
+    "seconds": [
+      300
+    ],
+    "notes": "Brew very strong, strain, then add evaporated milk and sugar to taste. Kurang manis means less sweet; kosong means no sugar."
+  },
+  "caffeine_level": "medium",
+  "vintage_note": "It has no vintages or seasons. It is a made-to-order drink at kopitiams and stalls, with a glass made from cheap strong tea, so judge it by the stall and not by the leaf.",
+  "description": "Teh-C is the kopitiam milk tea made with evaporated milk, a close relative of teh tarik without the condensed milk. The C stands for Carnation, a popular brand of evaporated milk.\n\nA very strong brew of black tea, often from dust, is strained and mixed with the milk. Evaporated milk gives body with little sweetness of its own, so the sugar is a separate decision.\n\nThe order matters. Sugar goes in unless you say otherwise: ask for kurang manis for less, kosong for none, and ais for ice.\n\nIn Sarawak look for Teh-C Peng Special, a three-layered iced version of tea, milk and palm sugar syrup. To try one at home, use a strong, cheap black tea rather than a fine one.",
+  "history": "Teh-C grew out of the same milk tea culture as teh tarik, in which Indian Muslim vendors on the Malay Peninsula played a central part. Its own origin date is not recorded.\n\nThe name itself ties the drink to canned evaporated milk, through the Carnation brand.",
+  "liquor_hex": "#B5804A",
+  "leaf_hex": "#3A261A",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Teh_tarik",
+    "https://malaysia4u.com/tea-guide"
+  ],
+  "confidence": "medium",
+  "wikipedia_title": "Teh tarik",
+  "wikipedia_scope": "umbrella",
+  "popularity": 2,
+  "images": []
+}

@@ -1,0 +1,52 @@
+{
+  "slug": "xiangwo-hong-cha",
+  "name_en": "Xiangwo Hong Cha",
+  "name_native": "象窝红茶",
+  "name_romanized": "Xiàngwō Hóngchá",
+  "aliases": [
+    "象窩紅茶"
+  ],
+  "category": "black",
+  "origin_country": "China",
+  "origin_region": "Guangdong · Yunfu Xinxing",
+  "cultivar": null,
+  "form": "loose",
+  "caffeine_level": "high",
+  "brewing": {
+    "grams": 3,
+    "water_ml": 200,
+    "temp_c": 95,
+    "steeps": 2,
+    "seconds": [
+      180,
+      240
+    ],
+    "notes": "A safe starting point for black tea: Western style, water just off the boil."
+  },
+  "taste_tags": [
+    "sweet",
+    "brisk"
+  ],
+  "description": "The black version of Xiangwo tea, a geographical-indication product of Xinxing county in Guangdong.\n\nTreat it as you would any black tea: water just off the boil, a few minutes in the pot, and a seller who can say where it was grown.",
+  "wikipedia_title": null,
+  "wikipedia_scope": "none",
+  "popularity": 1,
+  "name_zh": "象窝红茶",
+  "name_ru": "Сян Во Хун Ча",
+  "history": "It won the top prize at the third Guoyin Cup, held by the China Tea Science Society in August 2014, and in June 2015 the Nanfang Daily named it among Guangdong's ten famous teas. Little more is documented.",
+  "liquor_hex": "#B23A1C",
+  "leaf_hex": "#3A2A1E",
+  "sources": [
+    "https://www.maigoo.com/top/423321.html"
+  ],
+  "confidence": "low",
+  "images": [],
+  "stub": true,
+  "processing": "Typical of black tea: withered, rolled, fully oxidised and dried.",
+  "harvest_season": "Picked through the growing season, as with most black teas.",
+  "appearance_dry": "Tight, plump, even strips.",
+  "appearance_liquor": "Vivid, bright red.",
+  "appearance_wet": "Usually coppery brown leaf.",
+  "taste_profile": "Brisk and fresh-sweet, with a rich sweet aroma.",
+  "vintage_note": "Black teas are normally sold by harvest year and are best within a couple of years."
+}

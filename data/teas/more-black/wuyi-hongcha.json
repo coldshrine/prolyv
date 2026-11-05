@@ -1,0 +1,60 @@
+{
+  "slug": "wuyi-hongcha",
+  "name_en": "Wuyi Hongcha",
+  "name_native": "武夷红茶",
+  "name_romanized": "Wǔyí Hóngchá",
+  "name_zh": "武夷红茶",
+  "name_ru": "У И Хун Ча",
+  "aliases": [
+    "Wuyi Black Tea",
+    "Wuyi Mountain Black Tea"
+  ],
+  "category": "black",
+  "origin_country": "China",
+  "origin_region": "Fujian · Wuyishan",
+  "cultivar": null,
+  "processing": "An umbrella for fully oxidised black teas of the Wuyi area, with or without pine smoke depending on the style.",
+  "form": "loose",
+  "harvest_season": "Mostly spring, as is usual for the area's black teas.",
+  "appearance_dry": "Dark twisted strips; finer and more golden in bud-picked styles.",
+  "appearance_liquor": "Clear amber to orange-red.",
+  "appearance_wet": "Soft coppery-brown leaf.",
+  "taste_profile": "Generally sweet and mellow, ranging from pine-smoked Lapsang Souchong to soft unsmoked modern styles, so the exact style matters more than the label.",
+  "taste_tags": [
+    "sweet",
+    "malty",
+    "smoky"
+  ],
+  "brewing": {
+    "grams": 5,
+    "water_ml": 110,
+    "temp_c": 92,
+    "steeps": 6,
+    "seconds": [
+      10,
+      10,
+      15,
+      20,
+      30,
+      45
+    ],
+    "notes": "A starting point only: lower the temperature for bud-heavy teas, and keep steeps short for smoked ones."
+  },
+  "caffeine_level": "medium",
+  "vintage_note": "Sold by harvest year, generally the latest spring or the one before, under a specific style name where the seller is careful. A bag marked only 'Wuyi black tea' tells you the region and little else, so ask which style and which village.",
+  "description": "Wuyi Hongcha is simply 'black tea from Wuyi': a regional label, not a single recipe. It covers the Lapsang Souchong tradition from the Tongmu area and modern teas such as Jin Jun Mei, both from the same mountains in northern Fujian better known abroad for rock oolong.\n\nMethods vary by style. The old version is dried over pine; many newer ones are unsmoked, and some use only young buds.\n\nSo the taste ranges widely, though sweetness is the common thread. Start with a short steep and adjust to what is in front of you rather than following a single rule.\n\nFor buying, the specific name is the useful part. Generic 'Wuyi black' is often an inexpensive everyday tea, which can be pleasant, but it should not be priced like Tongmu leaf.",
+  "history": "The area has a long black tea record, usually traced to the late Ming through Lapsang Souchong, though that date rests largely on trade writing. In early Western sources Wuyi tea appears as 'Bohea', and historians still disagree about what exactly that word covered.\n\nThe American merchant ship Empress of China bought Wuyi black tea at Canton on its voyage to China. Modern reinventions came this century with Jin Jun Mei, and Tongmu village now runs a contest under the Wuyi black tea name.",
+  "liquor_hex": "#AD5F24",
+  "leaf_hex": "#35261B",
+  "sources": [
+    "https://zh.wikipedia.org/wiki/%E4%B8%AD%E5%9C%8B%E7%9A%87%E5%90%8E%E8%99%9F",
+    "http://news.cnhnb.com/mzhuanti/detail/412634/",
+    "https://www.thepaper.cn/newsDetail_forward_10285497",
+    "https://www.news.cn/photo/20251020/b317348d9f734b4399468d2e101694b8/c.html"
+  ],
+  "confidence": "medium",
+  "wikipedia_title": null,
+  "wikipedia_scope": "none",
+  "popularity": 2,
+  "images": []
+}

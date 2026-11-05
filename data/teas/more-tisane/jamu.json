@@ -1,0 +1,58 @@
+{
+  "slug": "jamu",
+  "name_en": "Jamu",
+  "name_native": "ꦗꦩꦸ",
+  "name_romanized": "Jamu",
+  "name_zh": "印尼传统草药饮",
+  "name_ru": "Джаму",
+  "aliases": [
+    "Djamu",
+    "Kunyit asam",
+    "Beras kencur"
+  ],
+  "category": "tisane",
+  "origin_country": "Indonesia",
+  "origin_region": "Java",
+  "cultivar": null,
+  "processing": "Roots, bark, flowers, seeds, leaves and fruits are boiled or pressed into a drink, often strained and sweetened with honey or palm sugar. Factory versions are dried into sachets to dissolve in hot water.",
+  "form": "other",
+  "harvest_season": "Not seasonal. Made from fresh or dried ingredients throughout the year.",
+  "appearance_dry": "Fresh rhizomes and spices at home, or a fine dried powder in factory sachets.",
+  "appearance_liquor": "Varies by recipe; turmeric-based kunyit asam is a cloudy orange-yellow.",
+  "appearance_wet": "Strained out before serving, leaving no leaf in the glass.",
+  "taste_profile": "Usually bitter and rooty beneath the added sweetness; kunyit asam is tart with turmeric and tamarind, while beras kencur is earthy and mildly spicy.",
+  "taste_tags": [
+    "earthy",
+    "bitter",
+    "tart",
+    "spicy",
+    "herbal"
+  ],
+  "brewing": {
+    "grams": 30,
+    "water_ml": 500,
+    "temp_c": 100,
+    "steeps": 1,
+    "seconds": [
+      900
+    ],
+    "notes": "A rough guide for a home decoction of sliced rhizomes, since recipes differ widely. Strain, then sweeten with palm sugar or honey. For sachets, simply dissolve in hot water."
+  },
+  "caffeine_level": "none",
+  "vintage_note": "There are no vintages. Street and home jamu is made fresh and drunk soon after; sachets, tablets and capsules are sold as shelf products with a best-before date.",
+  "description": "Jamu is Indonesia's traditional herbal medicine, and it is really a family of recipes more than one drink. Most of it is plant-based, though honey, royal jelly, milk or egg can go in too. It is found across the country and is most at home on Java.\n\nThe usual route is to boil or press rhizomes and spices, strain the liquid and sweeten it. Two well-known recipes are kunyit asam, built on turmeric and tamarind, and beras kencur, made with rice and aromatic ginger.\n\nThe flavour runs from bracing to quite pleasant. Bitterness is normal, and the honey or palm sugar is there to make it drinkable, so adjust the sweetness before you judge a recipe.\n\nYou can buy it from street sellers, jamu shops or drug stores, where large companies sell sachets, tablets and capsules. Start with kunyit asam, which many people drink as an everyday refreshment. Treat medicinal claims with caution, as they are traditional and not a substitute for medical care.",
+  "history": "Java's best-known image of jamu is the mbok jamu, a woman in kain kebaya carrying bottles in a bamboo basket on her back through villages and town alleys. Hawkers still sell it on city streets.\n\nFactory production by companies such as Air Mancur, Djamu Djago and Sido Muncul brought sachets to drug stores, and later tablets and capsules. Producers belong to an association known as GP Jamu.\n\nIndonesia's Ministry of Education and Culture recognised jamu as intangible heritage in 2019. UNESCO inscribed jamu wellness culture on its Representative List in December 2023.",
+  "wikipedia_title": "Jamu",
+  "wikipedia_scope": "exact",
+  "popularity": 3,
+  "liquor_hex": "#D08A1E",
+  "leaf_hex": "#B9772A",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Jamu",
+    "https://www.djkn.kemenkeu.go.id/kpknl-palu/baca-artikel/16779/Jadi-Warisan-Budaya-Unesco-Jamu-Dengan-Sejuta-Manfaat-Dukung-Keseharian-Kerjamu.html",
+    "https://visitingjogja.jogjaprov.go.id/en/?p=18443",
+    "https://bali.live/p/tea-in-indonesia-tea-plantations-varieties-and-stores"
+  ],
+  "confidence": "high",
+  "images": []
+}

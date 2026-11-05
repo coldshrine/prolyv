@@ -1,0 +1,54 @@
+{
+  "slug": "honey-oolong",
+  "name_en": "Honey Oolong",
+  "name_native": null,
+  "name_romanized": null,
+  "aliases": [],
+  "category": "oolong",
+  "origin_country": "Various",
+  "origin_region": "Various",
+  "cultivar": null,
+  "form": "loose",
+  "caffeine_level": "medium",
+  "brewing": {
+    "grams": 6,
+    "water_ml": 110,
+    "temp_c": 95,
+    "steeps": 6,
+    "seconds": [
+      20,
+      15,
+      20,
+      30,
+      45,
+      60
+    ],
+    "notes": "A safe starting point for oolong: gongfu style with water just off the boil."
+  },
+  "taste_tags": [
+    "floral",
+    "roasted"
+  ],
+  "description": "An oolong blend with a honey character, not tied to any one place.\n\nRecipes for a flavoured or scented tea vary from one maker to the next, so read the ingredient list and brew it like its base tea.",
+  "wikipedia_title": null,
+  "wikipedia_scope": "none",
+  "popularity": 1,
+  "name_zh": "蜂蜜乌龙",
+  "name_ru": "Медовый улун",
+  "history": null,
+  "liquor_hex": "#CF9A42",
+  "leaf_hex": "#4A4A2C",
+  "sources": [
+    "https://www.uptontea.com/collections/tea-blends"
+  ],
+  "confidence": "low",
+  "images": [],
+  "stub": true,
+  "processing": "A oolong base tea flavoured or scented by the maker; the recipe varies.",
+  "harvest_season": "The base tea can come from any picking, so the season matters less than the recipe.",
+  "appearance_dry": "Usually twisted strips or rolled balls, from green to dark brown depending on the roast.",
+  "appearance_liquor": "Usually from golden to amber, depending on oxidation and roast.",
+  "appearance_wet": "Usually whole leaves that open up, often with darker edges.",
+  "taste_profile": "Expect what oolongs usually give: floral or fruity notes, more roasted when the leaf is roasted.",
+  "vintage_note": "Flavoured and scented teas are not sold by vintage. Buy recent stock and drink it within a year or so, since the aroma fades."
+}

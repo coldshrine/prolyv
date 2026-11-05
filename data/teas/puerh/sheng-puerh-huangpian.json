@@ -3,7 +3,14 @@
   "name_en": "Huangpian (Yellow Leaf) Sheng Pu-erh",
   "name_native": "黄片",
   "name_romanized": "Huángpiàn",
-  "aliases": ["Huang pian", "Yellow flakes", "Lao huangpian", "Yellow leaf pu-erh", "Gushu huangpian", "老黄片"],
+  "aliases": [
+    "Huang pian",
+    "Yellow flakes",
+    "Lao huangpian",
+    "Yellow leaf pu-erh",
+    "Gushu huangpian",
+    "老黄片"
+  ],
   "category": "sheng",
   "origin_country": "China",
   "origin_region": "Yunnan",
@@ -15,12 +22,43 @@
   "appearance_liquor": "Clear yellow-gold, turning honey-amber with age.",
   "appearance_wet": "Big, tough, mature leaves, yellow-green and irregular, that stay stiff after brewing.",
   "taste_profile": "Mellow and sweet with almost no bitterness or astringency: honey, hay, a soft woody note and a gentle sugary finish; thin in texture but long and comforting.",
-  "taste_tags": ["sweet", "honey", "woody", "herbal"],
-  "brewing": {"grams": 8, "water_ml": 120, "temp_c": 100, "steeps": 8, "seconds": [20, 15, 20, 30, 45, 60, 120, 240], "notes": "Rinse once. Use more leaf, boiling water and longer steeps than for normal sheng; it is hard to over-brew. Excellent simmered in a pot or brewed grandpa-style in a big mug, and the spent leaves can be boiled for a last sweet pot."},
+  "taste_tags": [
+    "sweet",
+    "honey",
+    "woody",
+    "herbal"
+  ],
+  "brewing": {
+    "grams": 8,
+    "water_ml": 120,
+    "temp_c": 100,
+    "steeps": 8,
+    "seconds": [
+      20,
+      15,
+      20,
+      30,
+      45,
+      60,
+      120,
+      240
+    ],
+    "notes": "Rinse once. Use more leaf, boiling water and longer steeps than for normal sheng; it is hard to over-brew. Excellent simmered in a pot or brewed grandpa-style in a big mug, and the spent leaves can be boiled for a last sweet pot."
+  },
   "caffeine_level": "medium",
   "vintage_note": "Sold by the harvest year and village of the maocha it was sorted from, as cheap loose leaf or loosely pressed cakes and bricks, and increasingly with a famous name attached (Yiwu gushu huangpian, Lao Ban Zhang huangpian) at a small fraction of the price of the village's proper tea. It drinks well immediately because it has no bitterness, and it ages into honeyed, dried-fruit sweetness over 5–15 years; 'lao huangpian' (old yellow leaf) is sold with a decade or more of age at still modest prices. Supply is 2005–2025, mostly dry-stored, and it is one of the few pu-erh categories where a famous village's name on the wrapper is likely to be true, because nobody bothers to fake it.",
   "description": "Huangpian, 'yellow flakes', are the mature, coarse leaves that get sorted out of raw pu-erh maocha because they are too stiff to roll and too yellow to look good on a cake face. Farmers traditionally kept them for their own pots, and for the last fifteen years or so they have been sold on purpose, often under the name of a famous village, as the cheapest honest way to drink that village's trees.\n\nThere is no separate processing: the leaves went through the same wok and sun as the rest of the batch and were simply picked out afterwards, by hand or by sieve. Because they are stiff and flat they press badly, so huangpian cakes and bricks are loose and flaky, and much of it is sold as loose leaf.\n\nOlder leaves carry less caffeine and far fewer of the bitter and astringent compounds than buds and young leaves, so huangpian brews mellow and sweet from day one: honey, hay, a soft woody note and a sugary finish, with a thin texture and a surprisingly long aftertaste. It is nearly impossible to over-brew, which makes it the ideal grandpa-style or simmering tea, and the spent leaves will give one last sweet pot if boiled.\n\nIt is sold by the year and village of the maocha it came from, loose or pressed, at low prices, and 'gushu huangpian' from Yiwu or Bulang is a real bargain because the trees are genuinely the same. Old huangpian with ten or more years is also cheap and tastes of dried fruit and honey. The only caution is that it is thin by nature; if you want body and bite, this is not the tea.\n\nIt is also a kind evening pu-erh, lower in caffeine and easy on the stomach, and a sensible thing to keep for guests who say pu-erh is too strong.",
   "wikipedia_title": "Pu'er tea",
   "wikipedia_scope": "umbrella",
-  "popularity": 2
+  "popularity": 2,
+  "name_zh": "黄片",
+  "name_ru": "Хуан Пянь",
+  "history": "Huangpian is not a place or a recipe but a by-product: the coarse, yellowed leaves sorted out of raw maocha because they roll badly and spoil the look of a cake. The usual story says farmers kept them for their own pots, and that selling them on purpose is fairly recent. Little is documented about when that trade began.",
+  "liquor_hex": "#D8AE4E",
+  "leaf_hex": "#9A8446",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Pu%27er_tea"
+  ],
+  "confidence": "low",
+  "images": []
 }

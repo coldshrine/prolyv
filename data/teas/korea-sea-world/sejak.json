@@ -3,10 +3,17 @@
   "name_en": "Sejak (Korean Green Tea, Second Pick)",
   "name_native": "세작",
   "name_romanized": "Sejak",
-  "aliases": ["Saejak", "Sejak-cha", "Dumul-cha", "Jakseol-cha", "Sparrow's tongue tea", "細雀"],
+  "aliases": [
+    "Saejak",
+    "Sejak-cha",
+    "Dumul-cha",
+    "Jakseol-cha",
+    "Sparrow's tongue tea",
+    "細雀"
+  ],
   "category": "green",
   "origin_country": "South Korea",
-  "origin_region": "Gyeongsangnam-do · Hadong · Jirisan (also Jeollanam-do · Boseong and Jeju)",
+  "origin_region": "Gyeongsangnam-do · Hadong · Jirisan",
   "cultivar": "Seed-grown native bushes (jaeraejong) in Hadong; Yabukita and other clonal cultivars on the plantations",
   "processing": "A bud with one or two small leaves, pan-fired in an iron cauldron and hand-rolled over several cycles until dry, then given a final low-heat drying that sets the toasty aroma; plantation sejak is sometimes steamed.",
   "form": "loose",
@@ -15,12 +22,52 @@
   "appearance_liquor": "Pale greenish yellow, bright and clear.",
   "appearance_wet": "Even bud-and-leaf sets, soft green with a slight sheen.",
   "taste_profile": "Toasted grain and roasted chestnut over a sweet, lightly savoury body, with a touch more structure and a longer, slightly grassy finish than ujeon.",
-  "taste_tags": ["nutty", "sweet", "umami", "grassy"],
-  "brewing": {"grams": 3, "water_ml": 100, "temp_c": 70, "steeps": 4, "seconds": [45, 30, 45, 75], "notes": "Cool the water first and keep the pot small. It takes a few degrees more heat than ujeon, but at 80°C and above it starts to turn bitter."},
+  "taste_tags": [
+    "nutty",
+    "sweet",
+    "umami",
+    "grassy"
+  ],
+  "brewing": {
+    "grams": 3,
+    "water_ml": 100,
+    "temp_c": 70,
+    "steeps": 4,
+    "seconds": [
+      45,
+      30,
+      45,
+      75
+    ],
+    "notes": "Cool the water first and keep the pot small. It takes a few degrees more heat than ujeon, but at 80°C and above it starts to turn bitter."
+  },
   "caffeine_level": "medium",
   "vintage_note": "Sold as the current year's spring harvest, labelled by grade ('sejak') rather than by date, and it comes on sale in May. It is the flagship grade of most Korean brands, so it is available all year from the big plantations, but it is still a fresh green tea: buy the current spring, keep it sealed and cool, and finish it within twelve months.",
   "description": "Sejak is the second picking of the Korean spring, taken after the Gogu 'grain rain' day in late April and before Ipha, the start of summer in early May. The name means 'thin sparrow', a reference to the old term jakseol, 'sparrow's tongue', for leaves still small enough to look like one. It is the grade most Korean tea people actually drink: more flavour than ujeon, far cheaper, and still clearly a spring tea.\n\nThe leaf is a bud with one or two young leaves. In Hadong it is fired by hand in a heated iron cauldron, rolled on a mat while hot, and fired and rolled again until it is dry; the last slow drying is what gives Korean green tea its roasted-chestnut nose. The big plantations in Boseong and on Jeju pick by machine and often steam the leaf instead, which gives a brighter, greener and more Japanese-leaning cup under the same grade name.\n\nIn the cup, expect toasted grain and chestnut first, a sweet savoury middle and a clean, faintly grassy finish. Brewed Korean style (small pot, cooled water, short steeps) it gives four easy infusions. Hotter water makes it taste like an anonymous pan-fired green with a bitter edge, which is how a lot of people meet it and decide Korean tea is not for them.\n\nWhen buying, look for the harvest year and the word sejak on the packet, and for a producer or region rather than just a brand. Hadong hand-made teas cost more and vary more from maker to maker; Boseong and Jeju teas are consistent and easy to find. Vacuum packs or nitrogen-flushed foil bags are a good sign.\n\nIf you want to compare grades, buy sejak and jungjak from the same maker and brew them side by side: the difference in leaf size, body and astringency is the clearest lesson in how Korean green tea is graded.",
   "wikipedia_title": "Sejak",
   "wikipedia_scope": "exact",
-  "popularity": 3
+  "popularity": 3,
+  "name_zh": "细雀茶",
+  "name_ru": "Седжак",
+  "history": "Sejak takes its name from the calendar as much as from the leaf. It is the green tea plucked after gogu, the grain rain of 20 or 21 April, and before ipha, the start of summer on 5 or 6 May. That is why it is also called dumul-cha, second flush tea.\n\nThe written name 細雀 means thin sparrow, and the older word jakseol, sparrow's tongue, describes leaves picked at about that size. The tea is usually brewed cool, at 60 to 70 °C.",
+  "liquor_hex": "#D8D48E",
+  "leaf_hex": "#5F6E3A",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Sejak",
+    "https://ko.wikipedia.org/wiki/%EB%91%90%EB%AC%BC%EC%B0%A8",
+    "https://www.wikidata.org/wiki/Q30043950"
+  ],
+  "confidence": "medium",
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e6/Jirisan_sejak.jpg/1280px-Jirisan_sejak.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e6/Jirisan_sejak.jpg/330px-Jirisan_sejak.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Jirisan_sejak.jpg",
+      "author": "youngki son",
+      "license": "CC0",
+      "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "kind": "other",
+      "alt": "Workers sorting freshly picked green sejak leaves in round baskets at Jirisan"
+    }
+  ]
 }

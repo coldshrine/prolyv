@@ -1,0 +1,61 @@
+{
+  "slug": "ichoucha",
+  "name_en": "Ichoucha",
+  "name_native": "萎凋茶",
+  "name_romanized": "Ichōcha",
+  "name_zh": "萎凋绿茶",
+  "name_ru": "Итётя",
+  "aliases": [
+    "Ichoucha (Withered Green Tea)",
+    "Withered sencha",
+    "Ichou sencha",
+    "Bihakkou",
+    "微発酵",
+    "萎凋茶"
+  ],
+  "category": "green",
+  "origin_country": "Japan",
+  "origin_region": "Saitama · Sayama",
+  "cultivar": null,
+  "processing": "Leaves are withered after picking and before steaming, for anything from a few hours to as long as a day, in sun or shade. This allows very slight oxidation, a technique borrowed from oolong making; the rest follows the sencha route.",
+  "form": "loose",
+  "harvest_season": "Depends on the producer; made mostly from spring leaf, as is typical of Japanese specialty sencha.",
+  "appearance_dry": "Typically dark green sencha-style needles, sometimes with slightly browner tones than a standard sencha.",
+  "appearance_liquor": "Typically yellow to light gold, a little warmer than standard sencha.",
+  "appearance_wet": "Soft green leaf, sometimes with slightly darker edges from the withering.",
+  "taste_profile": "Sencha's base with added floral and sweet aromas, the signature of withering.",
+  "taste_tags": [
+    "floral",
+    "sweet",
+    "vegetal"
+  ],
+  "brewing": {
+    "grams": 5,
+    "water_ml": 120,
+    "temp_c": 75,
+    "steeps": 3,
+    "seconds": [
+      60,
+      20,
+      40
+    ],
+    "notes": "Slightly hotter water than a delicate sencha helps lift the floral aroma; a shallow wide cup lets you smell it."
+  },
+  "caffeine_level": "medium",
+  "vintage_note": "Sold in small lots from individual farms, typically by year and cultivar, and often as a single-cultivar withered sencha. As with other Japanese green teas it is best within about a year of picking. Availability changes from year to year because few producers make it.",
+  "description": "Ichoucha is withered Japanese green tea. Where ordinary sencha is steamed almost as soon as it is picked to keep it green, here the leaf is allowed to rest first, and that one change gives it a floral perfume.\n\nWithering lets a very slight oxidation start, the same process that oolong and black tea depend on, before steaming stops it. Some makers wither for just a few hours, others for up to a day, in the sun or in shade. The effect varies accordingly.\n\nThe cup is still recognisably sencha but smells of flowers and sweetness. Under the classic Japanese tasting standard those aromas would actually mark a green tea down, which tells you how far it strays from tradition. Many drinkers now enjoy exactly that.\n\nYou buy it by farm and cultivar. Okutomi Tea Garden in Sayama, Saitama, sells several, including Fukumidori, Yume Wakaba, Okuharuka and Hokumei. The label may say ichou or bihakkou, the second a related term for the same idea.\n\nTry one next to a regular sencha of the same cultivar if you can. It is the clearest way to taste what withering does.",
+  "history": "Little is documented about who first made ichoucha or when. Withering was long seen as a fault in Japanese green tea, since aromas of this kind lowered a tea's score under the traditional tasting standard.\n\nThe style has gained a following among specialty producers and drinkers in recent times, and small farms now sell it as a deliberate choice.",
+  "liquor_hex": "#D8C670",
+  "leaf_hex": "#4C5A30",
+  "sources": [
+    "https://teajourney.pub/withered-tea-brings-out-the-floral-in-japanese-teas/",
+    "https://www.myjapanesegreentea.com/?p=16675",
+    "https://yunomi.life/collections/ichoucha-withered-green-tea",
+    "https://yunomi.life/products/withered-sencha-green-tea-yume-wakaba-single-cultivar-by-okutomi-tea-garden"
+  ],
+  "confidence": "medium",
+  "wikipedia_title": null,
+  "wikipedia_scope": "none",
+  "popularity": 2,
+  "images": []
+}

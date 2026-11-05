@@ -1,0 +1,78 @@
+{
+  "slug": "que-she-green",
+  "name_en": "Que She (Sparrow's Tongue, green)",
+  "name_native": "雀舌",
+  "name_romanized": "Quèshé",
+  "name_zh": "雀舌",
+  "name_ru": "Цюэ Шэ",
+  "aliases": [
+    "Que She (Sparrow's Tongue)",
+    "Queshe (Sparrow Tongue)",
+    "Sparrow Tongue",
+    "Sparrow's Tongue"
+  ],
+  "category": "green",
+  "origin_country": "China",
+  "origin_region": "Sichuan, Jiangsu, Zhejiang, Fujian, Guizhou",
+  "cultivar": null,
+  "processing": "Tender buds are fixed, shaped and dried without oxidation; the method varies by region, but the point is to keep the small bud whole.",
+  "form": "loose",
+  "harvest_season": "Spring, picked as tender buds; as with other bud greens, the earliest pickings are the most prized.",
+  "appearance_dry": "Small, slim, slightly pointed buds shaped like a sparrow's tongue, green with some regional variation.",
+  "appearance_liquor": "As with other bud greens, pale yellow-green and clear.",
+  "appearance_wet": "Small, plump, intact buds in tender green.",
+  "taste_profile": "Strongly and distinctively fragrant for its size, with a fresh, sweet, lightly vegetal cup typical of bud greens; details shift by region.",
+  "taste_tags": [
+    "sweet",
+    "vegetal",
+    "floral"
+  ],
+  "brewing": {
+    "grams": 3,
+    "water_ml": 150,
+    "temp_c": 80,
+    "steeps": 3,
+    "seconds": [
+      60,
+      90,
+      120
+    ],
+    "notes": "A glass lets you watch the buds stand up. Cooler water protects the aroma, since buds scald easily."
+  },
+  "caffeine_level": "medium",
+  "vintage_note": "Sold as the current year's spring harvest, labelled by place, such as Mengshan, Emeishan or Jintan. The earliest bud pickings cost the most, and output is small. Drink within the year; it does not improve with age.",
+  "description": "Que She means sparrow's tongue, and that is the whole definition: a green tea made from tender buds small enough to look like one. It is a shape and a grade rather than one tea from one place, which is why you see the name attached to so many regions.\n\nNames you will meet include Mengshan, Bashan, Emeishan and Pujiang in Sichuan, Jintan in Jiangsu, Wuyi in Fujian, and versions from Zhejiang and Guizhou, where Meitan Cuiya belongs. Duyun Maojian is sometimes grouped here as well. Each follows its local green tea method, so only the bud-picking standard holds them together.\n\nExpect a strong, particular fragrance from a small dose of leaf, and a fresh, sweet cup. Most mistakes come from water that is too hot; buds this young turn flat and bitter fast. Use cooler water and do not leave the leaves soaking between steeps.\n\nBecause output is small, prices run high, so buy by region and picking date instead of by the words Que She alone. Trying a Sichuan and a Jiangsu version side by side shows how little the name by itself promises.",
+  "history": "Today sparrow's tongue works as a family name for bud-grade greens, named for the shape of the small bud. No single origin or inventor is established for the style.\n\nThe modern picture is regional: Sichuan, Jiangsu, Zhejiang, Fujian and Guizhou all sell their own versions, each treated as a local specialty.",
+  "liquor_hex": "#DDD98E",
+  "leaf_hex": "#7F9245",
+  "sources": [
+    "https://zh.wikipedia.org/wiki/%E9%9B%80%E8%88%8C",
+    "https://www.wikidata.org/wiki/Q85885176"
+  ],
+  "confidence": "medium",
+  "wikipedia_title": "雀舌",
+  "wikipedia_scope": "exact",
+  "popularity": 3,
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e0/Jin_Tan_Que_She_02.jpg/1280px-Jin_Tan_Que_She_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e0/Jin_Tan_Que_She_02.jpg/330px-Jin_Tan_Que_She_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Jin_Tan_Que_She_02.jpg",
+      "author": "Pannet",
+      "license": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0",
+      "kind": "wet_leaf",
+      "alt": "Slim green Jin Tan Que She buds infusing in a white bowl of pale liquor"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c0/Jin_Tan_Que_She_03.jpg/1280px-Jin_Tan_Que_She_03.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c0/Jin_Tan_Que_She_03.jpg/330px-Jin_Tan_Que_She_03.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Jin_Tan_Que_She_03.jpg",
+      "author": "Pannet",
+      "license": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0",
+      "kind": "wet_leaf",
+      "alt": "Slender green Que She buds in pale yellow-green liquor in a white bowl"
+    }
+  ]
+}

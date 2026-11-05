@@ -1,0 +1,63 @@
+{
+  "slug": "malotira",
+  "name_en": "Malotira (Cretan Mountain Tea)",
+  "name_native": "Μαλοτήρα",
+  "name_romanized": "Malotíra",
+  "name_zh": "克里特毒马草茶",
+  "name_ru": "Малотира",
+  "aliases": [
+    "Malotira",
+    "Malotiras",
+    "Cretan mountain tea",
+    "Greek mountain tea",
+    "Sideritis syriaca",
+    "Критский горный чай"
+  ],
+  "category": "tisane",
+  "origin_country": "Greece",
+  "origin_region": "Crete",
+  "cultivar": "Sideritis syriaca",
+  "processing": "Flowering stems are cut by hand and dried naturally, then sold as whole stems with leaves and flowers.",
+  "form": "other",
+  "harvest_season": "Early summer, cut with a sickle around June when the plant is in flower.",
+  "appearance_dry": "Long, pale silvery-green woolly stems with leaves and yellowish flower spikes, often sold in bundles.",
+  "appearance_liquor": "Clear pale gold, as is usual for mountain teas of this genus.",
+  "appearance_wet": "Soft, downy grey-green stems and leaves with limp flower spikes.",
+  "taste_profile": "Light, slightly floral and gently earthy, with lemony and sage-like notes and a honeyed edge; some batches are quite mild.",
+  "taste_tags": [
+    "herbal",
+    "floral",
+    "citrus",
+    "earthy"
+  ],
+  "brewing": {
+    "grams": 3,
+    "water_ml": 250,
+    "temp_c": 100,
+    "steeps": 2,
+    "seconds": [
+      420,
+      600
+    ],
+    "notes": "Western-style. A tablespoon of broken stem per cup, simmered gently for 5 to 10 minutes or infused in just-boiled water. It can take a second round. Honey and lemon are the usual additions."
+  },
+  "caffeine_level": "none",
+  "vintage_note": "Sold by summer harvest as dried bundles or cut herb, usually the most recent year's crop and not vintage-dated. It does not improve with age, so choose stems that still look silvery and smell of herbs. Some lots labelled mountain tea are other Sideritis species, so check the Latin name if you want the Cretan one.",
+  "description": "Malotira is the Cretan member of the family of Greek mountain teas, made from Sideritis syriaca and related species known collectively by that name. It grows at height, often with very little soil, and comes covered in a fine woolly down.\n\nThe making is just cutting and drying, and the whole flowering stem goes in the pot. Cretan practice is closer to a short simmer than an infusion, which suits the tough stems. Plain infusion also works and gives a lighter cup.\n\nThe flavour is soft: faintly floral and earthy, with lemon and sage in the background. Reports differ in strength from batch to batch, and some people find it bland beside other Sideritis species, so a stronger brew or a longer simmer can help.\n\nWild plants recover slowly and are often left for about two years between harvests, so ask whether yours is cultivated or responsibly gathered. A bundle should be intact and fragrant, not dusty.",
+  "history": "Plants called sideritis were known to Dioscorides and Theophrastus, though only one of the three that Dioscorides describes is thought to belong to the modern genus. The name may refer to healing wounds from iron weapons, or to a spear-shaped sepal; both explanations are told.\n\nLittle is documented about when malotira itself became a daily drink on Crete. It remains a home and village tea there, and it now reaches export markets as a Greek mountain tea.",
+  "liquor_hex": "#DCC777",
+  "leaf_hex": "#A3AC8C",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Sideritis",
+    "https://www.argophilia.com/news/cretan-mountain-tea/247879/",
+    "https://www.rishi-tea.com/collections/all/products/greek-mountain-tea-malotiras",
+    "https://www.yoshien.com/en/greek-mountain-tea-crete-organic-sideritis-syriaca.html",
+    "https://specialtyproduce.com/produce/Malotira_25437.php"
+  ],
+  "confidence": "medium",
+  "wikipedia_title": "Sideritis",
+  "wikipedia_scope": "umbrella",
+  "popularity": 3,
+  "images": [],
+  "sources_note": "Colours are typical of Sideritis teas. The zh name is a descriptive rendering built on the genus name 毒马草属."
+}

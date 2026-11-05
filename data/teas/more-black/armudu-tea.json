@@ -1,0 +1,55 @@
+{
+  "slug": "armudu-tea",
+  "name_en": "Armudu Tea",
+  "name_native": null,
+  "name_romanized": null,
+  "aliases": [
+    "Армуду",
+    "ормуд",
+    "армуд",
+    "армуда"
+  ],
+  "category": "black",
+  "origin_country": "Azerbaijan",
+  "origin_region": "Azerbaijan",
+  "cultivar": null,
+  "form": "loose",
+  "caffeine_level": "high",
+  "brewing": {
+    "grams": 3,
+    "water_ml": 200,
+    "temp_c": 95,
+    "steeps": 2,
+    "seconds": [
+      180,
+      240
+    ],
+    "notes": "A safe starting point for black tea: Western style, water just off the boil."
+  },
+  "taste_tags": [
+    "malty",
+    "sweet"
+  ],
+  "description": "Black tea, brewed medium or strong, drunk from a small waisted glass called an armudu, a custom of Iran and neighbouring parts of Azerbaijan, Afghanistan and Iraq.\n\nThis is a way of preparing tea more than a tea you buy under one name, so the recipe and the base tea change from one maker to the next.",
+  "wikipedia_title": null,
+  "wikipedia_scope": "none",
+  "popularity": 1,
+  "name_zh": "梨形杯红茶",
+  "name_ru": "Чай в армуду",
+  "history": "The glass lets the drinker judge the colour of the tea. It is sipped with lumps of sugar, often with ginger or cinnamon added to the glass, and raisins, dried apricots, figs or dates may be served alongside. Little more is documented about it.",
+  "liquor_hex": "#A83A1C",
+  "leaf_hex": "#3A2A1E",
+  "sources": [
+    "https://ru.wikipedia.org/wiki/Чай"
+  ],
+  "confidence": "low",
+  "images": [],
+  "stub": true,
+  "processing": "Made from a black base tea according to the recipe; the method varies.",
+  "harvest_season": "Not tied to a harvest: it depends on the base tea.",
+  "appearance_dry": "Usually dark twisted leaf, sometimes with golden tips.",
+  "appearance_liquor": "Clear, a bright cognac colour with a reddish or crimson tint, which is the shade prized in the glass.",
+  "appearance_wet": "Usually coppery brown leaf.",
+  "taste_profile": "Expect what black teas usually give: malty, sweet and brisk.",
+  "vintage_note": "Not sold by vintage: it is made from whatever base tea the maker keeps, so freshness of the base matters more than the year."
+}

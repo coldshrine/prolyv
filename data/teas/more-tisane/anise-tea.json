@@ -1,0 +1,61 @@
+{
+  "slug": "anise-tea",
+  "name_en": "Anise Tea",
+  "name_native": "يانسون",
+  "name_romanized": "Yānsūn",
+  "name_zh": "茴芹茶",
+  "name_ru": "Анисовый чай",
+  "aliases": [
+    "茴芹",
+    "Анис",
+    "Anís",
+    "Erva-doce",
+    "Yansoon (anise tea)",
+    "Yansoon",
+    "Anason",
+    "Aniseed tea"
+  ],
+  "category": "tisane",
+  "origin_country": "Egypt",
+  "origin_region": "Eastern Mediterranean",
+  "cultivar": "Pimpinella anisum",
+  "processing": "Dried anise fruits, the 'seeds', are infused whole or crushed in hot water. There is no other processing.",
+  "form": "loose",
+  "harvest_season": "A seed crop with no prized picking; sold year-round.",
+  "appearance_dry": "Tiny ribbed grey-green to brown seeds, often with a bit of stem.",
+  "appearance_liquor": "Pale, clear yellow.",
+  "appearance_wet": "Swollen small seeds that sink.",
+  "taste_profile": "Sweet and liquorice-like from anethole, warm and soft, with a similar flavour to fennel or star anise.",
+  "taste_tags": [
+    "spicy",
+    "sweet",
+    "herbal"
+  ],
+  "brewing": {
+    "grams": 3,
+    "water_ml": 250,
+    "temp_c": 95,
+    "steeps": 1,
+    "seconds": [
+      420
+    ],
+    "notes": "One to two teaspoons of seed per cup is the usual suggestion. Water just off the boil and a covered cup keep the aroma in."
+  },
+  "caffeine_level": "none",
+  "vintage_note": "Not sold by vintage. It is a spice-shelf staple sold as whole seed or sachets all year, so there is no harvest year to chase. Buy whole seed that smells strong and use it within about a year, as is usual for spice seeds.",
+  "description": "Anise tea is the seeds of Pimpinella anisum steeped in hot water, a plant native to the eastern Mediterranean and southwest Asia. In Egypt and the Arabic-speaking world it goes by yansoon, and it is especially popular in Ramadan as a soothing drink.\n\nThere is nothing to make beyond drying the seed. Do not confuse it with star anise, an unrelated Chinese spice that shares the same main aroma compound, anethole.\n\nExpect sweet, soft liquorice and a warm finish. It suits a long covered steep; a loose seed brewed well tends to beat a bag. Honey is common but not needed.\n\nGreece is more famous for anise in spirits than in the cup, since ouzo is flavoured with it. If you already like fennel tea, this is the softer, sweeter cousin.",
+  "history": "Anise is an old crop of the eastern Mediterranean. Popular accounts place its first cultivation in Egypt about 4,000 years ago; that figure comes from secondary writing, not from documents checked directly.\n\nLittle is documented about the tea as a separate custom. It lives on as a home drink in Egypt and the wider region, while in Europe the same seed went mainly into liqueurs such as ouzo, pastis and sambuca.",
+  "liquor_hex": "#E4D592",
+  "leaf_hex": "#8C8660",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Anise",
+    "https://es.wikipedia.org/wiki/Pimpinella_anisum",
+    "https://mesc.osu.edu/anise",
+    "https://en.wikipedia.org/wiki/Brazilian_tea_culture"
+  ],
+  "confidence": "medium",
+  "wikipedia_title": "Anise",
+  "wikipedia_scope": "umbrella",
+  "popularity": 2,
+  "images": []
+}

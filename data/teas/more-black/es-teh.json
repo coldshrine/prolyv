@@ -1,0 +1,75 @@
+{
+  "slug": "es-teh",
+  "name_en": "Es Teh",
+  "name_native": "es teh",
+  "name_romanized": null,
+  "name_zh": "印尼冰茶",
+  "name_ru": "Эс-тех",
+  "aliases": [
+    "Холодный чай",
+    "Es Teh Manis",
+    "Indonesian iced tea"
+  ],
+  "category": "black",
+  "origin_country": "Indonesia",
+  "origin_region": "Java",
+  "cultivar": null,
+  "processing": "A drink rather than a leaf style: strong tea, often scented with jasmine and sometimes a stall's own blend of several teas, poured over ice and in the es teh manis version sweetened.",
+  "form": "loose",
+  "harvest_season": "None of its own: made all year from whatever packaged tea the seller uses.",
+  "appearance_dry": "Depends on the tea used, commonly dark, finely broken leaf, sometimes with jasmine scent.",
+  "appearance_liquor": "Deep reddish-amber, clear when fresh, poured over plenty of ice.",
+  "appearance_wet": "Dark, small broken leaf, strained out before serving.",
+  "taste_profile": "Cold, very sweet in the manis version, and strong enough to survive the ice, often with a jasmine perfume over a brisk tea base.",
+  "taste_tags": [
+    "sweet",
+    "floral",
+    "brisk"
+  ],
+  "brewing": {
+    "grams": 6,
+    "water_ml": 250,
+    "temp_c": 100,
+    "steeps": 1,
+    "seconds": [
+      300
+    ],
+    "notes": "Brew double strength, dissolve the sugar while hot, then pour over a full glass of ice so dilution brings it right. Sugar is to taste."
+  },
+  "caffeine_level": "medium",
+  "vintage_note": "No vintages or seasons: es teh is sold by the glass from street sellers and restaurants all year. The tea base is normally a cheap everyday packaged tea, and sellers' blends are kept to themselves. Make it fresh, since it does not improve by standing.",
+  "description": "Es teh simply means iced tea, and in Indonesia it is everywhere. Es teh manis, the sweet version, is among the most popular drinks in the country, sold on practically every street corner.\n\nThe method is plain: strong tea, sugar if wanted, a lot of ice. What sets it apart is the base. Jasmine-scented tea is common, and some sellers mix several teas, up to four or more, and keep the mix to themselves.\n\nExpect something cold, sweet and bracing, more refreshment than tasting exercise. For home brewing, the main thing people get wrong is making it at normal strength, which leaves the glass watery after the ice melts. Brew double strength.\n\nThere is nothing to buy under this name beyond the everyday packaged tea of your choice; an Indonesian jasmine tea gets you closest. Try the regional twists too: es teh serai with lemongrass, or es teh krampul from Central Java with local orange.",
+  "history": "Little is documented about how es teh became a national habit. It rests on tea grown in Indonesia since the colonial era and on the country's everyday packaged brands, and iced drinks of this kind are a natural fit for the climate, but no reliable account dates it or credits anyone with it. Its local variations show that it is still changing from place to place.",
+  "liquor_hex": "#A4501C",
+  "leaf_hex": "#2F2118",
+  "wikipedia_title": "Iced tea",
+  "wikipedia_scope": "umbrella",
+  "popularity": 3,
+  "sources": [
+    "https://en.wikipedia.org/wiki/Iced_tea",
+    "https://bali.live/p/tea-in-indonesia-tea-plantations-varieties-and-stores"
+  ],
+  "confidence": "medium",
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/64/Es_teh_manis.jpg/1280px-Es_teh_manis.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/64/Es_teh_manis.jpg/330px-Es_teh_manis.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Es_teh_manis.jpg",
+      "author": "Cendy00",
+      "license": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0",
+      "kind": "liquor",
+      "alt": "Plastic cup of amber es teh manis packed with ice"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6b/ES_TEH_MANIS.jpg/1280px-ES_TEH_MANIS.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6b/ES_TEH_MANIS.jpg/330px-ES_TEH_MANIS.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source_page": "https://commons.wikimedia.org/wiki/File:ES_TEH_MANIS.jpg",
+      "author": "Muhammad Reyhand",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "kind": "liquor",
+      "alt": "Patterned glass of iced es teh manis garnished with mint leaves"
+    }
+  ]
+}

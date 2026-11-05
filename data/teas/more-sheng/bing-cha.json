@@ -1,0 +1,81 @@
+{
+  "slug": "bing-cha",
+  "name_en": "Bing Cha",
+  "name_native": "饼茶",
+  "name_romanized": "Bǐngchá",
+  "name_zh": "饼茶",
+  "name_ru": "Бин Ча",
+  "aliases": [
+    "Bingcha",
+    "Bing cha",
+    "Bing Cha (Cake Tea)",
+    "Cake tea",
+    "Tea cake",
+    "餅茶",
+    "圆茶",
+    "Бинча",
+    "Бин ча"
+  ],
+  "category": "sheng",
+  "origin_country": "China",
+  "origin_region": "Yunnan",
+  "cultivar": "Usually Yunnan large-leaf for pu-erh",
+  "processing": "Finished loose tea is weighed, lightly steamed to soften, gathered in a cloth bag and pressed into a disc, then dried. The bag's knot leaves the dimple on the back.",
+  "form": "cake",
+  "harvest_season": "Set by the tea inside, not the shape. For pu-erh, spring picking is the most valued and autumn is also used.",
+  "appearance_dry": "A round flat disc, gently domed on top with a dimple underneath; colour depends on the tea and its age.",
+  "appearance_liquor": "Depends on the tea: gold to orange for young raw pu-erh, deepening with age, and dark red-brown for ripe.",
+  "appearance_wet": "Whole or broken leaves that separate slowly from flakes prised off the cake.",
+  "taste_profile": "The shape has no flavour of its own. In young raw pu-erh, the commonest bing, expect a bright, bitter-sweet, vegetal cup; age brings it towards wood and dried fruit.",
+  "taste_tags": [
+    "bitter",
+    "vegetal",
+    "sweet",
+    "woody"
+  ],
+  "brewing": {
+    "grams": 6,
+    "water_ml": 100,
+    "temp_c": 95,
+    "steeps": 8,
+    "seconds": [
+      10,
+      10,
+      15,
+      20,
+      25,
+      35,
+      45,
+      60
+    ],
+    "notes": "Prise flakes off from the edge with a pu-erh knife, sampling through the thickness of the cake, and rinse once. Timings are for raw pu-erh; adjust for what the cake contains."
+  },
+  "caffeine_level": "medium",
+  "vintage_note": "Pu-erh cakes are labelled with year and region, so you buy a specific year's pressing and can keep it. The cake form suits ageing: more exposed surface means it matures faster than denser shapes such as tuocha. Larger cakes age more slowly than small ones, and small cakes are also made today.",
+  "description": "Bing cha simply means cake tea: leaf pressed into a flat round. It is a shape, not a type, though today the word mostly points to pu-erh, and the classic size runs around 357 grams and about 20 centimetres across.\n\nTo make one, loose tea is steamed until tacky, bagged in cloth and pressed. Hydraulic presses have largely replaced hand-lever ones, and very tight pressings made in a metal mould without a bag are called tie bing, or iron cakes.\n\nThe pressing changes how you brew. Work a flake off with a knife rather than snapping chunks, so the leaves stay whole, and allow one quick rinse to loosen them. A cake's outer leaves can differ from its centre, so take your sample through the whole thickness.\n\nWhen buying, read the wrapper for year and region, and check for the small ticket pressed into the leaf, the nei fei. Then ask what is actually inside: a cake can be raw or ripe, and sellers should say which.\n\nIf you want to know how shape affects ageing, keep a cake and a tuocha from the same year and compare them after a while.",
+  "history": "Pressing tea was the normal way to make it in China before the Ming dynasty, since cakes and bricks travelled better than loose leaf, including by caravan along the Tea Horse Road. Early Ming court rules favouring loose leaf sent most of China elsewhere, but pressed pu-erh survived in Yunnan.\n\nThe modern standard comes from Qing packing rules, which bundled round cakes in sevens, and Yunnan's 20th-century factories, which called them yuan cha until 'bing' came into use on export tea around 1970.",
+  "liquor_hex": "#D9A94A",
+  "leaf_hex": "#5D5A36",
+  "wikipedia_title": "Compressed tea",
+  "wikipedia_scope": "umbrella",
+  "popularity": 3,
+  "sources": [
+    "https://en.wikipedia.org/wiki/Compressed_tea",
+    "https://en.wikipedia.org/wiki/Pu%27er_tea",
+    "https://zh.wikipedia.org/wiki/%E4%B8%83%E5%AD%90%E9%A5%BC%E8%8C%B6",
+    "https://ja.wikipedia.org/wiki/%E7%B7%8A%E5%9C%A7%E8%8C%B6"
+  ],
+  "confidence": "medium",
+  "images": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/c/c6/Haiwan_bingcha.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c6/Haiwan_bingcha.jpg/330px-Haiwan_bingcha.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Haiwan_bingcha.jpg",
+      "author": "Jason Fasi.",
+      "license": "CC BY 2.5",
+      "license_url": "https://creativecommons.org/licenses/by/2.5",
+      "kind": "cake",
+      "alt": "Round pressed raw pu-erh bingcha from Haiwan, 2005, with a paper leaf label, on a bamboo mat"
+    }
+  ]
+}

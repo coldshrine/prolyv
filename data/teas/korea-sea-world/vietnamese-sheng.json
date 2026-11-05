@@ -3,10 +3,18 @@
   "name_en": "Vietnamese Sheng-Style Ancient Tree Tea (Ha Giang)",
   "name_native": "Trà Shan Tuyết ép bánh",
   "name_romanized": "Trà Shan Tuyết ép bánh",
-  "aliases": ["Vietnamese pu-erh", "Trà phổ nhĩ Việt Nam", "Ha Giang sheng", "Vietnamese raw pu-erh", "Shan Tuyet cake", "Ancient tree sun-dried tea", "Hoang Su Phi cake"],
+  "aliases": [
+    "Vietnamese pu-erh",
+    "Trà phổ nhĩ Việt Nam",
+    "Ha Giang sheng",
+    "Vietnamese raw pu-erh",
+    "Shan Tuyet cake",
+    "Ancient tree sun-dried tea",
+    "Hoang Su Phi cake"
+  ],
   "category": "sheng",
   "origin_country": "Vietnam",
-  "origin_region": "Hà Giang · Hoàng Su Phì, Vị Xuyên (Cao Bồ) and Tây Côn Lĩnh; also Yên Bái · Suối Giàng",
+  "origin_region": "Ha Giang · Hoang Su Phi",
   "cultivar": "Shan tea, large-leaf assamica-type old trees, many over a century old",
   "processing": "Made like raw pu-erh: leaf from old trees is withered, wok-fired to kill green, rolled, sun-dried into maocha, then steamed and pressed into cakes (usually 100–357 g) and air-dried; some lots are sold loose as maocha.",
   "form": "cake",
@@ -15,13 +23,47 @@
   "appearance_liquor": "Bright pale gold when young, deepening to orange and amber with age, clear.",
   "appearance_wet": "Large, thick, leathery leaves and whole buds, yellow-green in young tea and olive-brown in aged.",
   "taste_profile": "Young: honey, apricot and wildflowers, a thick sweet body, a moderate bitterness and sometimes a wisp of wood smoke, with a long cooling aftertaste; aged: darker honey, dried fruit and wood with the bitterness gone.",
-  "taste_tags": ["honey", "floral", "stone-fruit", "bitter", "sweet"],
-  "brewing": {"grams": 6, "water_ml": 110, "temp_c": 95, "steeps": 8, "seconds": [10, 8, 10, 15, 20, 30, 45, 60], "notes": "Rinse once, then short steeps with just-boiled water; it is usually softer and less aggressive than young Yunnan sheng, so you can push the leaf a little harder. Flash steeps keep the bitterness in check."},
+  "taste_tags": [
+    "honey",
+    "floral",
+    "stone-fruit",
+    "bitter",
+    "sweet"
+  ],
+  "brewing": {
+    "grams": 6,
+    "water_ml": 110,
+    "temp_c": 95,
+    "steeps": 8,
+    "seconds": [
+      10,
+      8,
+      10,
+      15,
+      20,
+      30,
+      45,
+      60
+    ],
+    "notes": "Rinse once, then short steeps with just-boiled water; it is usually softer and less aggressive than young Yunnan sheng, so you can push the leaf a little harder. Flash steeps keep the bitterness in check."
+  },
   "caffeine_level": "high",
-  "vintage_note": "Sold by harvest year like sheng pu-erh, almost entirely as young cakes from the last few years because commercial pressing in Vietnam is recent; Western vendors and Vietnamese cooperatives list the year, district and sometimes the tree age on the wrapper. Cakes are bought to drink young or to age at home; genuinely old Vietnamese cakes (10+ years) are rare and mostly came from Chinese-owned pressings.",
-  "description": "The old Shan Tuyết trees of Hà Giang grow in the same hills as the ancient tea of Yunnan, just across the border, and for years their leaf quietly went north to be pressed and sold as Chinese pu-erh. Over the last decade Vietnamese cooperatives and a handful of foreign specialists started pressing it at home, under its own name, and the result is a sheng-style tea that is one of the better-value old-tree teas anywhere.\n\nThe method is the pu-erh method: wok kill-green, rolling, sun-drying into maocha, then steaming and pressing into cakes. The trees are seed-grown, tall and old, tended by Hmong and Dao families at 1,000 to 1,800 metres, and the leaf is big, thick and downy. Processing is less standardised than in Yunnan, so you will find cakes with a trace of wood smoke from traditional firing next to very clean modern ones.\n\nYoung, the tea is honeyed and floral with apricot sweetness, a thick texture and a moderate bitterness that turns into a long cool aftertaste; it is generally softer and more immediately pleasant than young Yunnan sheng, which is both its charm and the reason purists sometimes rate it lower. With a few years of storage it darkens towards dried fruit and wood. Brew it gongfu style, with a rinse and short steeps, and expect eight or more rounds.\n\nIt is sold by year, district and producer, usually as 100 to 357 g cakes, and almost everything on the market is young because the category is young. Prices are well below comparable Yunnan old-tree cakes. Check that the wrapper names a district (Hoàng Su Phì, Cao Bồ, Tây Côn Lĩnh) and a year; vague 'Vietnam ancient tree' cakes with no provenance are often blended leaf. Cao Bồ in Vị Xuyên is known for its certified organic old-tree gardens.\n\nIf you collect sheng, it is worth putting a few Vietnamese cakes away alongside your Yunnan ones and comparing them in five years; nobody yet knows exactly how they age, which is part of the fun.",
+  "vintage_note": "Sold by harvest year like sheng pu-erh, almost entirely as young cakes from the last few years because commercial pressing in Vietnam is recent; Western vendors and Vietnamese cooperatives list the year, district and sometimes the tree age on the wrapper. Cakes are bought to drink young or to age at home; genuinely old Vietnamese cakes (10+ years) are rare.",
+  "description": "The old Shan Tuyết trees of Hà Giang grow in the same broad region as the ancient tea of Yunnan, just across the border, and the trade often says that their leaf long went north to be pressed and sold as Chinese pu-erh, though that is hard to confirm. In recent years Vietnamese cooperatives and a handful of foreign specialists started pressing it at home, under its own name, and the result is a sheng-style tea that is one of the better-value old-tree teas anywhere.\n\nThe method is the pu-erh method: wok kill-green, rolling, sun-drying into maocha, then steaming and pressing into cakes. The trees are seed-grown, tall and old, tended by Hmong and Dao families high in the hills, in places above 1,500 metres, and the leaf is big, thick and downy. Processing is less standardised than in Yunnan, so you will find cakes with a trace of wood smoke from traditional firing next to very clean modern ones.\n\nYoung, the tea is honeyed and floral with apricot sweetness, a thick texture and a moderate bitterness that turns into a long cool aftertaste; it is generally softer and more immediately pleasant than young Yunnan sheng, which is both its charm and the reason purists sometimes rate it lower. With a few years of storage it darkens towards dried fruit and wood. Brew it gongfu style, with a rinse and short steeps, and expect eight or more rounds.\n\nIt is sold by year, district and producer, usually as 100 to 357 g cakes, and almost everything on the market is young because the category is young. Prices are well below comparable Yunnan old-tree cakes. Check that the wrapper names a district (Hoàng Su Phì, Cao Bồ, Tây Côn Lĩnh) and a year; vague 'Vietnam ancient tree' cakes with no provenance are often blended leaf. Cao Bồ in Vị Xuyên is one of the better-known old-tree areas.\n\nIf you collect sheng, it is worth putting a few Vietnamese cakes away alongside your Yunnan ones and comparing them in five years; nobody yet knows exactly how they age, which is part of the fun.",
   "wikipedia_title": "Vietnamese tea",
   "wikipedia_scope": "umbrella",
   "popularity": 1,
-  "sources_note": "Cross-border sale of Vietnamese leaf as Yunnan pu-erh is widely reported in the trade but not quantified. Cao Bồ's organic certification is from memory. Ageing behaviour of Vietnamese cakes is genuinely not well documented; the card says so."
+  "sources_note": "Cross-border sale of Vietnamese leaf as Yunnan pu-erh is widely reported in the trade but not quantified. Cao Bồ's organic certification is from memory. Ageing behaviour of Vietnamese cakes is genuinely not well documented; the card says so.",
+  "name_zh": "越南河江古树生茶",
+  "name_ru": "Вьетнамский Шэн с древних деревьев (Хазянг)",
+  "history": "The trees are far better documented than the cakes. Hà Giang's Shan Tuyết trees have been listed as Vietnamese heritage trees, and Hoàng Su Phì district alone is said to have about three million old trees on more than 2,000 hectares, some over 200 years old. Tea from 44 communes across six districts and cities of the province carries a geographical indication. Dao and Hmong communities live among these forests.\n\nPressing this leaf into sheng-style cakes is a recent and poorly documented practice. It appears mainly through small cooperatives and specialist sellers, and little has been recorded about when it began, who started it, or how the cakes age. Talk of Hà Giang leaf crossing into Yunnan to be sold as pu-erh is common in the tea trade but hard to confirm.",
+  "liquor_hex": "#E0C36A",
+  "leaf_hex": "#6B6E4A",
+  "sources": [
+    "https://vietnamnews.vn/life-style/534893/ancient-tea-trees-get-top-recognition-and-protection.html",
+    "https://vietcetera.com/en/in-ha-giang-300-year-old-tea-trees-have-been-waiting-to-be-seen",
+    "https://en.vietnamplus.vn/ancient-shan-tuyet-tea-trees-recognized-as-vietnamese-heritage-tree/239307.vnp"
+  ],
+  "confidence": "low",
+  "images": []
 }

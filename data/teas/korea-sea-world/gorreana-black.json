@@ -3,25 +3,59 @@
   "name_en": "Gorreana Black Tea (Azores)",
   "name_native": "Chá preto Gorreana",
   "name_romanized": "Chá preto Gorreana",
-  "aliases": ["Chá Gorreana", "Azores black tea", "Gorreana Orange Pekoe", "Gorreana Pekoe", "Gorreana Broken Leaf", "São Miguel tea", "Portuguese tea", "Azorean tea"],
+  "aliases": [
+    "Chá Gorreana",
+    "Azores black tea",
+    "Gorreana Orange Pekoe",
+    "Gorreana Pekoe",
+    "Gorreana Broken Leaf",
+    "São Miguel tea",
+    "Portuguese tea",
+    "Azorean tea"
+  ],
   "category": "black",
   "origin_country": "Portugal",
-  "origin_region": "Azores · São Miguel · Maia (Gorreana estate, also the nearby Porto Formoso estate)",
+  "origin_region": "Azores · São Miguel · Maia",
   "cultivar": "Seed-grown bushes of Chinese origin planted in the nineteenth century, with later additions, growing without irrigation on volcanic soil",
-  "processing": "Orthodox black tea made on nineteenth-century British machinery still in use: withered, rolled on vintage Marshall rollers, oxidised, dried and sorted into three grades, Orange Pekoe (top leaf and bud), Pekoe (second leaf) and Broken Leaf (third leaf and broken pieces). No pesticides or herbicides are used, the Atlantic climate making them unnecessary.",
+  "processing": "Orthodox black tea made on nineteenth-century British machinery still in use: withered, rolled on vintage Marshall rollers, oxidised, dried and sorted into grades including Orange Pekoe (top leaf and bud), Pekoe (second leaf) and Broken Leaf (third leaf and broken pieces); the range also lists Moinha, Ponta Branca and an oolong. No pesticides or herbicides are used, the Atlantic climate making them unnecessary.",
   "form": "loose",
   "harvest_season": "April to September, with the first spring picks going into the Orange Pekoe grade; the bushes rest in the mild Atlantic winter.",
   "appearance_dry": "Orange Pekoe: long, dark, twisted whole leaves with some tip; Pekoe: slightly smaller leaf; Broken Leaf: short dark pieces.",
   "appearance_liquor": "Clear amber to light red, pale for a black tea in the Orange Pekoe grade, deeper in Broken Leaf.",
   "appearance_wet": "Copper-brown whole leaves, soft and fairly thin.",
   "taste_profile": "Light, smooth and faintly salty-mineral from the ocean air, with a mild maltiness, a dried-fruit sweetness and low astringency; the Orange Pekoe is the most delicate, the Broken Leaf the strongest and best for milk.",
-  "taste_tags": ["sweet", "mineral", "malty", "dried-fruit"],
-  "brewing": {"grams": 3, "water_ml": 200, "temp_c": 95, "steeps": 2, "seconds": [180, 240], "notes": "A Western pot tea: three to four minutes, no milk needed for Orange Pekoe and Pekoe, milk welcome with Broken Leaf. It is soft enough to oversteep without much penalty."},
+  "taste_tags": [
+    "sweet",
+    "mineral",
+    "malty",
+    "dried-fruit"
+  ],
+  "brewing": {
+    "grams": 3,
+    "water_ml": 200,
+    "temp_c": 95,
+    "steeps": 2,
+    "seconds": [
+      180,
+      240
+    ],
+    "notes": "A Western pot tea: three to four minutes, no milk needed for Orange Pekoe and Pekoe, milk welcome with Broken Leaf. It is soft enough to oversteep without much penalty."
+  },
   "caffeine_level": "medium",
   "vintage_note": "Sold year-round by grade (Orange Pekoe, Pekoe, Broken Leaf) in boxes and tins from the estate shop, Azorean groceries and online, blended across the season and not dated by harvest. It keeps well for two or three years; there is no vintage culture, though the first spring Orange Pekoe is the best of each year if you can get it from the factory.",
-  "description": "Gorreana is Europe's oldest working tea plantation, on the wet green north coast of São Miguel in the Azores, in the middle of the Atlantic. The Gago da Câmara family planted tea here in 1883, when the islands were looking for a crop to replace oranges, and the same family still runs it, in the same factory, with rollers and sorters from the 1840s to 1920s that still do the work. For most of the twentieth century it was one of several Azorean tea estates; today it and the smaller Porto Formoso estate next door are all that remain.\n\nThe tea is made the orthodox way from Chinese-origin bushes that have grown here for well over a century on volcanic soil, in a mild oceanic climate with no frost and no need for irrigation or sprays. The estate makes three black grades by leaf position, Orange Pekoe from the top leaf and bud, Pekoe from the second leaf and Broken Leaf from the third and the breakages, plus a green tea. Harvest runs from April to September.\n\nIn the cup, Gorreana black is light and smooth, with a mild maltiness, a dried-fruit sweetness and a faintly saline, mineral edge that people happily attribute to the sea air; it is low in tannin and never harsh. Orange Pekoe is the delicate one to drink plain, Broken Leaf the stronger one for milk and breakfast, and all three are easy, forgiving pot teas.\n\nIt is sold by grade, not by date, in boxes and tins, and is cheap for a hand-made single-estate European tea; the factory shop and café on the estate are the obvious place to buy it, but Portuguese groceries and online sellers carry it too. There are no fakes to worry about, only the question of which grade suits you.\n\nIf you want the other Azorean tea, Porto Formoso's black and green are made a few kilometres away in a revived nineteenth-century factory; and Gorreana's own green 'Hysson' shows the same leaf unoxidised.",
+  "description": "Gorreana is Europe's oldest working tea plantation, on the wet green north coast of São Miguel in the Azores, in the middle of the Atlantic. The Gago da Câmara family planted tea here in 1883, when the islands were looking for a crop to replace oranges, and the same family still runs it, in the same factory, with old rollers and sorters that still do the work. For most of the twentieth century it was one of several Azorean tea estates; today it and the smaller Porto Formoso estate next door are all that remain.\n\nThe tea is made the orthodox way from Chinese-origin bushes that have grown here for well over a century on volcanic soil, in a mild oceanic climate with no frost and no need for irrigation or sprays. The main black grades go by leaf position, Orange Pekoe from the top leaf and bud, Pekoe from the second leaf and Broken Leaf from the third and the breakages; the range also lists Moinha, Ponta Branca and an oolong, plus green teas. Harvest runs from April to September.\n\nIn the cup, Gorreana black is light and smooth, with a mild maltiness, a dried-fruit sweetness and a faintly saline, mineral edge that people happily attribute to the sea air; it is low in tannin and never harsh. Orange Pekoe is the delicate one to drink plain, Broken Leaf the stronger one for milk and breakfast, and all three are easy, forgiving pot teas.\n\nIt is sold by grade, not by date, in boxes and tins, and is cheap for a hand-made single-estate European tea; the factory shop and café on the estate are the obvious place to buy it, but Portuguese groceries and online sellers carry it too. There are no fakes to worry about, only the question of which grade suits you.\n\nIf you want the other Azorean tea, Porto Formoso's black and green are made a few kilometres away in a revived nineteenth-century factory; and Gorreana's own green 'Hysson' shows the same leaf unoxidised.",
   "wikipedia_title": "Gorreana",
   "wikipedia_scope": "umbrella",
   "popularity": 2,
-  "sources_note": "Founding year 1883 and the Gago da Câmara family are from the estate's own history; the ages of the machinery are as stated by the estate (nineteenth-century Marshall equipment). The 'no pesticides' claim is the estate's and is credible given the climate but is not a third-party certification."
+  "sources_note": "Founding year 1883 and the Gago da Câmara family are from the estate's own history; the ages of the machinery are as stated by the estate (nineteenth-century Marshall equipment). The 'no pesticides' claim is the estate's and is credible given the climate but is not a third-party certification.",
+  "name_zh": "戈雷亚纳红茶",
+  "name_ru": "Горреана, чёрный чай",
+  "history": "Gorreana is a working tea estate at Maia on the north coast of São Miguel in the Azores. As of 2021 it was still running much as it had in earlier times and producing 30 to 40 tons of tea a year.\n\nIts black teas cover several grades, among them Orange Pekoe, Pekoe and Broken Leaf, along with Moinha, Ponta Branca and an oolong. The estate grows without pesticides, which is put down to a relatively dry climate and the islands' isolation from parasites.",
+  "liquor_hex": "#B5622B",
+  "leaf_hex": "#3B2A1E",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Gorreana"
+  ],
+  "confidence": "medium",
+  "images": []
 }

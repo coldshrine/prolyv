@@ -3,10 +3,20 @@
   "name_en": "Greek Mountain Tea (Sideritis)",
   "name_native": "Τσάι του βουνού",
   "name_romanized": "Tsai tou vounou",
-  "aliases": ["Mountain tea", "Sideritis", "Ironwort", "Shepherd's tea", "Malotira", "Olympus tea", "Tsai tou vounou", "Planinski čaj", "Dağ çayı"],
+  "aliases": [
+    "Mountain tea",
+    "Sideritis",
+    "Ironwort",
+    "Shepherd's tea",
+    "Malotira",
+    "Olympus tea",
+    "Tsai tou vounou",
+    "Planinski čaj",
+    "Dağ çayı"
+  ],
   "category": "tisane",
   "origin_country": "Greece",
-  "origin_region": "Mountains across Greece: Olympus, Parnassos, Taygetos, Evia and Crete (malotira); also the Balkans and western Turkey",
+  "origin_region": "Greece",
   "cultivar": "Sideritis species: S. scardica (Olympus tea), S. raeseri (Parnassos), S. syriaca (Cretan malotira), S. clandestina (Taygetos), S. euboea",
   "processing": "Whole flowering stems with their woolly grey leaves and flower spikes are cut in summer and dried in bunches in the shade; they are sold whole, stems and all, with nothing else done to them.",
   "form": "loose",
@@ -15,12 +25,59 @@
   "appearance_liquor": "Pale gold-green, clear.",
   "appearance_wet": "Softened woolly stems and flower heads with a sweet hay-and-sage smell.",
   "taste_profile": "Soft, honeyed and lightly floral with a hint of sage and citrus and a dry, faintly resinous finish; mild, clean and comforting.",
-  "taste_tags": ["honey", "floral", "herbal", "sweet"],
-  "brewing": {"grams": 3, "water_ml": 500, "temp_c": 100, "steeps": 1, "seconds": [600], "notes": "Break one or two whole stems into a small pot with 500 ml of water and either simmer gently for 5 minutes or pour boiling water over and steep for 10; the stems are too coarse for a short steep. Serve with honey and lemon, the Greek way, or chilled in summer."},
+  "taste_tags": [
+    "honey",
+    "floral",
+    "herbal",
+    "sweet"
+  ],
+  "brewing": {
+    "grams": 3,
+    "water_ml": 500,
+    "temp_c": 100,
+    "steeps": 1,
+    "seconds": [
+      600
+    ],
+    "notes": "Break one or two whole stems into a small pot with 500 ml of water and either simmer gently for 5 minutes or pour boiling water over and steep for 10; the stems are too coarse for a short steep. Serve with honey and lemon, the Greek way, or chilled in summer."
+  },
   "caffeine_level": "none",
   "vintage_note": "Sold as whole dried bunches from the current summer's harvest, in Greek and Balkan groceries, at markets and online, usually labelled by mountain or region rather than by species: Olympus (S. scardica) is the most prized, Parnassos and Cretan malotira are the other famous names. Cultivated mountain tea is now common and more consistent; wild-gathered lots are smaller and pricier, and wild picking is restricted in some areas. Buy pale green-grey bunches with intact flower spikes and use them within a year, since old stems go yellow and taste of nothing.",
   "description": "Greek mountain tea is the drink of the Greek highlands: whole dried stems of Sideritis, a woolly grey-green plant that grows on rocky slopes above a thousand metres, simmered in a pot and drunk with honey and lemon through the winter. Every mountain has its own species and its own reputation, with Olympus tea the most famous, and shepherds and villagers have gathered it for as long as anyone remembers.\n\nThere is no processing at all. The flowering stems are cut in high summer and hung in the shade to dry, and that is what you buy: a bunch of stems with the flower spikes still on, nothing cut, nothing rubbed. The plant's felted leaves and the dry mountain air do the rest.\n\nIn the cup it is mild, honeyed and softly floral, with a whisper of sage and citrus and a clean, slightly resinous finish, and it is one of the most soothing hot drinks there is. Because the stems are coarse it needs a simmer or a long steep; a tea-bag-style three minutes gives pale water, which is the common mistake. Honey is traditional and suits it; so does a slice of lemon, and it is good cold in summer.\n\nBuy whole bunches, pale and intact, labelled by mountain, from a Greek grocery or a specialist; cultivated lots are consistent and reasonably priced, and wild Olympus tea is the one to try if you see it. There is no vintage, only the summer harvest and the year it stays fresh.\n\nIt has traditionally been drunk for colds and as a winter tonic; whatever you make of that, it is the gentlest herbal tea in this group and a good one for people who find chamomile too flowery and sage too sharp.",
   "wikipedia_title": "Sideritis",
   "wikipedia_scope": "exact",
-  "popularity": 3
+  "popularity": 3,
+  "name_zh": "希腊高山茶",
+  "name_ru": "Греческий горный чай",
+  "history": "The name sideritis is ancient: Theophrastus and Dioscorides both knew a plant by it, though the word then covered several herbs thought to heal wounds from iron weapons, and only one of Dioscorides' three is thought to belong to the modern genus. Another reading ties the name to a sepal shaped like a spear tip.\n\nThe species most linked to the tea, S. scardica, was described in 1844 and grows from the Sharr Mountains through Albania, Bulgaria and North Macedonia to Greece, around Mount Olympus in particular. Across this region the stems, leaves and flowers are boiled in a pot and served with honey and lemon. Gathering from the wild has now been joined by cultivation, with S. raeseri the most commonly farmed.",
+  "liquor_hex": "#D9CF8C",
+  "leaf_hex": "#A3A88A",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Sideritis",
+    "https://en.wikipedia.org/wiki/Sideritis_scardica",
+    "https://ru.wikipedia.org/wiki/%D0%96%D0%B5%D0%BB%D0%B5%D0%B7%D0%BD%D0%B8%D1%86%D0%B0_%28%D1%80%D0%B0%D1%81%D1%82%D0%B5%D0%BD%D0%B8%D0%B5%29"
+  ],
+  "confidence": "medium",
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/dc/Sideritis_scardica_IMG_4653.jpg/1280px-Sideritis_scardica_IMG_4653.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/dc/Sideritis_scardica_IMG_4653.jpg/330px-Sideritis_scardica_IMG_4653.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Sideritis_scardica_IMG_4653.jpg",
+      "author": "Deyan Vasilev ( Dido3 )",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "kind": "dry_leaf",
+      "alt": "Tied bunches of pale grey-green Sideritis scardica stems with flower spikes on wood"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/ba/Sideritis_scardica_-_Botanischer_Garten_M%C3%BCnchen-Nymphenburg_-_DSC07698.JPG/1280px-Sideritis_scardica_-_Botanischer_Garten_M%C3%BCnchen-Nymphenburg_-_DSC07698.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/ba/Sideritis_scardica_-_Botanischer_Garten_M%C3%BCnchen-Nymphenburg_-_DSC07698.JPG/330px-Sideritis_scardica_-_Botanischer_Garten_M%C3%BCnchen-Nymphenburg_-_DSC07698.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Sideritis_scardica_-_Botanischer_Garten_M%C3%BCnchen-Nymphenburg_-_DSC07698.JPG",
+      "author": "Daderot",
+      "license": "Public domain",
+      "license_url": null,
+      "kind": "plant",
+      "alt": "Silvery Sideritis scardica plant growing in a botanical garden"
+    }
+  ]
 }

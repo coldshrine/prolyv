@@ -1,0 +1,54 @@
+{
+  "slug": "gunfire",
+  "name_en": "Gunfire",
+  "name_native": null,
+  "name_romanized": null,
+  "aliases": [
+    "炮火",
+    "Gun-fire"
+  ],
+  "category": "black",
+  "origin_country": "United Kingdom",
+  "origin_region": "United Kingdom",
+  "cultivar": null,
+  "form": "other",
+  "caffeine_level": "high",
+  "brewing": {
+    "grams": 3,
+    "water_ml": 200,
+    "temp_c": 95,
+    "steeps": 2,
+    "seconds": [
+      180,
+      240
+    ],
+    "notes": "A safe starting point for black tea: Western style, water just off the boil."
+  },
+  "taste_tags": [
+    "malty",
+    "sweet"
+  ],
+  "description": "A British Army drink of black tea and rum; the name is also used for early morning tea.\n\nThis is a way of preparing tea more than a tea you buy under one name, so the recipe and the base tea change from one maker to the next.",
+  "wikipedia_title": null,
+  "wikipedia_scope": "none",
+  "popularity": 1,
+  "name_zh": "炮火茶",
+  "name_ru": "Ганфайр",
+  "history": "When it was first mixed is unknown, but British soldiers were making it in the 1890s. Officers and NCOs serve it to lower ranks before a morning attack or a passing out parade, and to soldiers in bed on Christmas Day when deployed. Some regiments keep their own days, such as Cambrai Day in the Royal Tank Regiment.",
+  "liquor_hex": "#8A3A18",
+  "leaf_hex": "#3A2A1E",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Gunfire_(drink)",
+    "https://www.wikidata.org/wiki/Q13516760"
+  ],
+  "confidence": "medium",
+  "images": [],
+  "stub": true,
+  "processing": "Made from a black base tea according to the recipe; the method varies.",
+  "harvest_season": "Not tied to a harvest: it depends on the base tea.",
+  "appearance_dry": "Usually dark twisted leaf, sometimes with golden tips.",
+  "appearance_liquor": "Usually a clear red-brown.",
+  "appearance_wet": "Usually coppery brown leaf.",
+  "taste_profile": "Expect what black teas usually give: malty, sweet and brisk.",
+  "vintage_note": "Not sold by vintage: it is made from whatever base tea the maker keeps, so freshness of the base matters more than the year."
+}

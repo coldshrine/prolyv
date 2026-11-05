@@ -3,10 +3,17 @@
   "name_en": "Fuding vs Zhenghe White Tea",
   "name_native": "福鼎白茶 / 政和白茶",
   "name_romanized": "Fúdǐng Báichá / Zhènghé Báichá",
-  "aliases": ["Fuding white tea", "Zhenghe white tea", "Fuding Bai Cha", "Zhenghe Bai Cha", "Taimu Mountain white", "Jianyang white"],
+  "aliases": [
+    "Fuding white tea",
+    "Zhenghe white tea",
+    "Fuding Bai Cha",
+    "Zhenghe Bai Cha",
+    "Taimu Mountain white",
+    "Jianyang white"
+  ],
   "category": "white",
   "origin_country": "China",
-  "origin_region": "Fujian · Fuding and Zhenghe (with Jianyang as the third origin)",
+  "origin_region": "Fujian · Fuding",
   "cultivar": "Fuding Dabai and Fuding Dahao (Fuding); Zhenghe Dabai and Fu'an Dabai (Zhenghe); Shui Xian and Cai Cha (Jianyang)",
   "processing": "Both are wither-and-dry white teas; Fuding leans on sun-withering over a shorter time, giving a lighter, sweeter tea, while Zhenghe traditionally withers longer indoors in airy lofts, giving a darker, deeper one.",
   "form": "loose",
@@ -15,13 +22,44 @@
   "appearance_liquor": "Fuding pale gold; Zhenghe a shade deeper, toward apricot.",
   "appearance_wet": "Fuding leaves stay pale green; Zhenghe leaves show more olive and reddish tones from the longer wither.",
   "taste_profile": "Fuding is light, sweet and fresh with melon and hay; Zhenghe is fuller, more floral and savoury with a longer, deeper finish.",
-  "taste_tags": ["sweet", "floral", "honey", "fruity"],
-  "brewing": {"grams": 5, "water_ml": 120, "temp_c": 90, "steeps": 6, "seconds": [30, 25, 35, 50, 75, 120], "notes": "Brew both identically to taste the origin: 90 °C in matching gaiwans. Zhenghe tea tends to want one more steep."},
+  "taste_tags": [
+    "sweet",
+    "floral",
+    "honey",
+    "fruity"
+  ],
+  "brewing": {
+    "grams": 5,
+    "water_ml": 120,
+    "temp_c": 90,
+    "steeps": 6,
+    "seconds": [
+      30,
+      25,
+      35,
+      50,
+      75,
+      120
+    ],
+    "notes": "Brew both identically to taste the origin: 90 °C in matching gaiwans. Zhenghe tea tends to want one more steep."
+  },
   "caffeine_level": "medium",
   "vintage_note": "Both are sold fresh as the current spring (and autumn) harvest and aged as loose tea or cakes with the year stated. Fuding dominates the market and the marketing, so 'Fuding white tea' is a protected name applied very loosely; Zhenghe is less famous, usually cheaper for the same grade and prized by people who like depth. Jianyang's Shui Xian Bai and Cai Cha whites are a third, smaller tradition.",
   "description": "Almost all classic Chinese white tea comes from two neighbouring counties in northern Fujian, Fuding on the coast under Taimu Mountain and Zhenghe inland and higher up, and once you can tell them apart you understand white tea much better. Both make the same grades, Silver Needle, Mudan, Gong Mei and Shou Mei; they make them from different bushes, in different weather, with different withering habits, and the cups are recognisably different.\n\nFuding grows the Fuding Dabai and Dahao cultivars, early-budding and heavily downy, and its lower, warmer, sunnier hills allow a short wither with plenty of sun. The result is the white tea of the posters: plump silver buds, pale gold liquor, a light, sweet, melon-and-hay cup. Zhenghe grows Zhenghe Dabai, slimmer and later by about two weeks, in cooler, mistier hills, and its tradition is a long wither indoors in airy wooden lofts, sometimes two or three days. The tea comes out greyer and darker, and the cup is fuller, more floral, more savoury, with a longer finish.\n\nTaste them side by side at 90 °C in matching gaiwans and the difference is obvious by the second steep: Fuding is prettier and sweeter up front, Zhenghe has more going on underneath and usually gives one more infusion. Neither is better; they suit different moods, and many drinkers keep Fuding for fresh tea and Zhenghe for ageing, since the deeper tea develops more.\n\nIn the market, Fuding has the fame, the protected name and the prices; 'Fuding white tea' is also the label put on a great deal of tea from elsewhere. Zhenghe, less famous, is often better value grade for grade and is worth asking for by name. Jianyang, the third county, makes smaller quantities from the Shui Xian bush and from the small-leaf Cai Cha, both darker and more rustic. Whichever you buy, the useful questions are the same: which county, which cultivar, which year.\n\nThe simplest education in white tea is a Fuding Mudan and a Zhenghe Mudan from the same spring, brewed together.",
   "wikipedia_title": "White tea",
   "wikipedia_scope": "umbrella",
   "popularity": 3,
-  "sources_note": "Comparison card rather than a single tea. The 'two weeks later' budding gap for Zhenghe Dabai is a typical figure and varies by year."
+  "sources_note": "Comparison card rather than a single tea. The 'two weeks later' budding gap for Zhenghe Dabai is a typical figure and varies by year.",
+  "name_zh": "福鼎白茶与政和白茶",
+  "name_ru": "Белый чай Фу Дин и Чжэн Хэ",
+  "history": "Modern white tea making is usually traced first to Fuding, with Jianyang and Zhenghe following within a few decades in the late Qing, though that order rests on popular accounts. The firmer dates are Fuding's own: propagation of the bushes at Bailiu in 1857, and their spread to Huanggang in 1875. Fuding white tea making joined China's national heritage list in 2011.\n\nThe differences people quote today are bushes and habits. Fuding works mainly with Fuding Dabai and Dahao, with short plump buds; Zhenghe with Zhenghe Dabai, with longer greyer buds. Zhenghe is often described as withering more indoors, but that contrast comes from trade writing and is thinly documented. Fujian as a whole, including Songxi as well, produces most of China's white tea.",
+  "liquor_hex": "#E2C98A",
+  "leaf_hex": "#B9BCA2",
+  "sources": [
+    "https://www.ihchina.cn/project_details/14724.html",
+    "https://news.cnhnb.com/mrdzx/detail/439263",
+    "https://m.thepaper.cn/baijiahao_13313919"
+  ],
+  "confidence": "medium",
+  "images": []
 }

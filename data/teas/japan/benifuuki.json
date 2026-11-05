@@ -3,10 +3,17 @@
   "name_en": "Benifuuki (Green)",
   "name_native": "べにふうき",
   "name_romanized": "Benifūki",
-  "aliases": ["Benifuki", "Beni Fuuki green tea", "Methylated catechin tea", "Benifuuki ryokucha", "Hay-fever tea"],
+  "aliases": [
+    "Benifuki",
+    "Beni Fuuki green tea",
+    "Methylated catechin tea",
+    "Benifuuki ryokucha",
+    "Hay-fever tea",
+    "紅富貴"
+  ],
   "category": "green",
   "origin_country": "Japan",
-  "origin_region": "Kagoshima; Shizuoka; Miyazaki",
+  "origin_region": "Kagoshima",
   "cultivar": "Benifuuki",
   "processing": "A cultivar bred for black tea but processed here as steamed green tea (sencha-style leaf or a fine powder) so that its methylated catechins survive; often sold in teabags or powder sachets for a strong, functional infusion.",
   "form": "loose",
@@ -15,13 +22,51 @@
   "appearance_liquor": "Yellow-green and clear from the leaf, or opaque green from the powder.",
   "appearance_wet": "Large, tough, olive-green leaves.",
   "taste_profile": "Noticeably bitter and astringent with a bold green, almost medicinal edge and a faint sweetness underneath; it is drunk for effect more than pleasure, though a light brew is quite drinkable.",
-  "taste_tags": ["bitter", "brisk", "grassy", "medicinal"],
-  "brewing": {"grams": 3, "water_ml": 200, "temp_c": 100, "steeps": 2, "seconds": [180, 180], "notes": "For the functional purpose it is brewed hot and long (boiling water, 3–5 minutes, or simmered) to pull out the catechins, then drunk daily through the pollen season; for a pleasant cup brew the leaf like sencha at 75 °C for a minute."},
+  "taste_tags": [
+    "bitter",
+    "brisk",
+    "grassy",
+    "medicinal"
+  ],
+  "brewing": {
+    "grams": 3,
+    "water_ml": 200,
+    "temp_c": 100,
+    "steeps": 2,
+    "seconds": [
+      180,
+      180
+    ],
+    "notes": "For the functional purpose it is brewed hot and long (boiling water, 3–5 minutes, or simmered) to pull out the catechins, then drunk daily through the pollen season; for a pleasant cup brew the leaf like sencha at 75 °C for a minute."
+  },
   "caffeine_level": "medium",
   "vintage_note": "Sold year-round as a functional tea in teabags, powder sachets, loose leaf and bottles, with the current year's second flush as the usual base and a best-before date rather than a vintage; the leaf and powder keep for a year or more because flavour is not the point. Shops start pushing it from late winter, ahead of the cedar-pollen season.",
-  "description": "Benifuuki is a cultivar with a double life. It was bred as a black-tea cultivar, a cross of Benihomare and an Assam-derived line, and registered in 1993, but it became famous in Japan as a green tea after researchers found that its leaf is unusually rich in a methylated catechin that survives green processing and is largely lost when the leaf is oxidised. Processed as steamed green tea, it is sold as the hay-fever tea, drunk daily through the cedar-pollen season, and it is a functional product rather than a pleasure tea.\n\nThe leaf is big and sturdy, so green Benifuuki is coarse, dark and strong, and much of it is sold ground into a fine powder or in teabags so that the whole leaf, catechins and all, ends up in the cup. Second-flush summer leaf carries more of the methylated catechin than first flush, which is the opposite of the usual Japanese preference for spring tea. Brewed, it is markedly bitter and astringent with a bold green, almost medicinal edge and a faint sweetness underneath; the powder stirred into hot water is stronger still.\n\nFor the functional purpose it is brewed hot and long, boiling water for three to five minutes or even simmered, to extract as much catechin as possible, and then drunk regularly; the powder is simply stirred into hot water or milk. For a cup you might actually enjoy, brew the leaf like sencha at 75 °C for a minute and accept a brisk, bracing tea. It helps to know what you are getting into: judged as a sencha it is harsh.\n\nIt is sold year-round in teabags, powder sachets, loose leaf and bottles, usually labelled 'Benifuuki ryokucha' with a best-before date rather than a harvest, and shops push it from late winter before the pollen season; Kagoshima and Shizuoka are the main sources. Look for 100 percent Benifuuki and the green (not black or oolong) version if you want the catechin-rich one. It is sold as a food, not a medicine, so read the research rather than the marketing.\n\nThe same leaf made as black tea is a different and far more delicious thing, and that is the card to read next.",
+  "description": "Benifuuki is a cultivar with a double life. It was bred as a black-tea cultivar, a cross of Benihomare, an Assam seedling selection, and Makura Cd86, a Darjeeling line, and registered in 1993, but it became famous in Japan as a green tea after researchers found that its leaf is unusually rich in a methylated catechin that survives green processing and is largely lost when the leaf is oxidised. Processed as steamed green tea, it is sold as the hay-fever tea, drunk daily through the cedar-pollen season, and it is a functional product rather than a pleasure tea.\n\nThe leaf is big and sturdy, so green Benifuuki is coarse, dark and strong, and much of it is sold ground into a fine powder or in teabags so that the whole leaf, catechins and all, ends up in the cup. Second-flush summer leaf carries more of the methylated catechin than first flush, which is the opposite of the usual Japanese preference for spring tea. Brewed, it is markedly bitter and astringent with a bold green, almost medicinal edge and a faint sweetness underneath; the powder stirred into hot water is stronger still.\n\nFor the functional purpose it is brewed hot and long, boiling water for three to five minutes or even simmered, to extract as much catechin as possible, and then drunk regularly; the powder is simply stirred into hot water or milk. For a cup you might actually enjoy, brew the leaf like sencha at 75 °C for a minute and accept a brisk, bracing tea. It helps to know what you are getting into: judged as a sencha it is harsh.\n\nIt is sold year-round in teabags, powder sachets, loose leaf and bottles, usually labelled 'Benifuuki ryokucha' with a best-before date rather than a harvest, and shops push it from late winter before the pollen season; Kagoshima and Shizuoka are the main sources. Look for 100 percent Benifuuki and the green (not black or oolong) version if you want the catechin-rich one. It is sold as a food, not a medicine, so read the research rather than the marketing.\n\nThe same leaf made as black tea is a different and far more delicious thing, and that is the one to try next.",
   "wikipedia_title": "Benifuuki",
   "wikipedia_scope": "exact",
   "popularity": 2,
-  "sources_note": "English Wikipedia title assumed to be 'Benifuuki'; if absent, use 'Japanese tea' as umbrella. Parentage (Benihomare x an Assam-derived line) and 1993 registration are the usual published details; no health claims are made beyond 'studied'."
+  "sources_note": "English Wikipedia title assumed to be 'Benifuuki'; if absent, use 'Japanese tea' as umbrella. Parentage (Benihomare x an Assam-derived line) and 1993 registration are the usual published details; no health claims are made beyond 'studied'.",
+  "name_zh": "红富贵",
+  "name_ru": "Бэнифуки",
+  "history": "Benifuuki began as a black tea cultivar: Benihomare, from Assam seedlings, crossed with the Darjeeling line Makura Cd86, and registered in 1993 as Tea Norin No. 44. Its later fame came from chemistry. The leaf is rich in a methylated catechin, epigallocatechin-3-O-(3-O-methyl)gallate, which disappears when the leaf is made into black tea, so it has to be processed as green tea to keep it.\n\nResearch suggesting this compound may ease allergic reactions, by restraining histamine release from mast cells, turned the cultivar into a commercial green tea drunk around the pollen season. It is a suggestive body of work rather than a cure. Growing settled mainly in Kagoshima, where a growers' association formed in 2003.",
+  "liquor_hex": "#C3C766",
+  "leaf_hex": "#46592F",
+  "sources": [
+    "https://ja.wikipedia.org/wiki/%E3%81%B9%E3%81%AB%E3%81%B5%E3%81%86%E3%81%8D",
+    "https://www.affrc.maff.go.jp/docs/hinsyu/pdf/cha9_benihuuki.pdf",
+    "https://www.naro.go.jp/publicity_report/press/files/vegetea051209-1-7.pdf"
+  ],
+  "confidence": "medium",
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/30/Mariko_Tea_Plantation_135309311_org.jpg/1280px-Mariko_Tea_Plantation_135309311_org.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/30/Mariko_Tea_Plantation_135309311_org.jpg/330px-Mariko_Tea_Plantation_135309311_org.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Mariko_Tea_Plantation_135309311_org.jpg",
+      "author": "no",
+      "license": "CC BY 2.1 jp",
+      "license_url": "https://creativecommons.org/licenses/by/2.1/jp/deed.en",
+      "kind": "plantation",
+      "alt": "Rows of green tea bushes at the Mariko garden where Benifuuki was first planted"
+    }
+  ]
 }

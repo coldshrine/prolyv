@@ -3,24 +3,55 @@
   "name_en": "Hojicha Powder",
   "name_native": "粉末ほうじ茶",
   "name_romanized": "Funmatsu hōjicha",
-  "aliases": ["Hojicha latte powder", "Houjicha powder", "Ground hōjicha", "Hōjicha paudā", "Roasted green tea powder"],
+  "aliases": [
+    "Hojicha latte powder",
+    "Houjicha powder",
+    "Ground hōjicha",
+    "Hōjicha paudā",
+    "Roasted green tea powder"
+  ],
   "category": "green",
   "origin_country": "Japan",
-  "origin_region": "Nationwide · Kyoto, Shizuoka, Kagoshima",
+  "origin_region": "Kyoto",
   "cultivar": null,
-  "processing": "Roasted green tea (hōjicha, usually a blend of leaf and stems) ground to a fine powder by stone mill or, more often, by air-jet or ball mill; the finer the grind, the smoother the latte.",
+  "processing": "Roasted green tea (hōjicha, usually a blend of leaf and stems) ground to a fine powder, by stone mill or other mills; the finer the grind, the smoother the latte.",
   "form": "powder",
   "harvest_season": "Made from stored bancha, sencha and stems of any flush, roasted and ground to order; no harvest relevance.",
   "appearance_dry": "A fine, dry, cinnamon-brown powder.",
   "appearance_liquor": "Opaque, milky brown when whisked, with a light tan foam.",
   "appearance_wet": "Not applicable: the powder is consumed with the drink.",
   "taste_profile": "Toasted, caramel and cocoa-like with a soft, rounded body and a slightly dusty roast finish; without milk it can be thin and a little bitter.",
-  "taste_tags": ["roasted", "nutty", "sweet", "cocoa"],
-  "brewing": {"grams": 2, "water_ml": 150, "temp_c": 90, "steeps": 1, "seconds": [20], "notes": "Whisk or shake 2 g with 30 ml of hot water to a paste, then add hot milk for a latte or more hot water for a straight bowl; it clumps less than matcha but still benefits from sifting. Dissolves fine in cold milk for an iced version."},
+  "taste_tags": [
+    "roasted",
+    "nutty",
+    "sweet",
+    "cocoa"
+  ],
+  "brewing": {
+    "grams": 2,
+    "water_ml": 150,
+    "temp_c": 90,
+    "steeps": 1,
+    "seconds": [
+      20
+    ],
+    "notes": "Whisk or shake 2 g with 30 ml of hot water to a paste, then add hot milk for a latte or more hot water for a straight bowl; it clumps less than matcha but still benefits from sifting. Dissolves fine in cold milk for an iced version."
+  },
   "caffeine_level": "low",
   "vintage_note": "A shelf product sold year-round in 30–100 g pouches with a best-before date; the roast aroma is at its best within a few months of grinding and fades noticeably after a bag has been open for a couple of months. No harvest or vintage dimension.",
-  "description": "Hōjicha powder is roasted green tea ground fine enough to whisk or stir into a drink, built for the hōjicha latte that cafés have taken around the world over the past decade. Because you consume the whole leaf, the toasted, caramel character of hōjicha comes through thick and rich, with a cocoa-like depth that suits milk and sugar even better than the brewed tea does.\n\nIt starts as ordinary hōjicha, usually a blend of leaf and stems roasted brown, which is then milled; most producers use an air-jet or ball mill, a few use stone mills for a finer, smoother powder. Roasting has already removed most of the astringency and some of the caffeine, so the powder is one of the gentlest ways to drink a whole tea leaf. It is not shaded and has none of the umami of matcha; the pleasure is roast, not savoury depth.\n\nFor a latte, whisk or shake 2 g with about 30 ml of hot water to a smooth paste, then add 150 ml of hot milk and sweeten if you like; for an iced version it dissolves well in cold milk, and it works in a straight bowl with 150 ml of hot water as a thin, toasty drink that some people find a little dusty without milk. Sifting helps, although it clumps less than matcha. It also goes into ice cream, custard, cookies and chocolate, where it behaves like a mild roasted-grain flavour.\n\nIt is a shelf product sold year-round in 30–100 g pouches with a best-before date, by tea shops, matcha mills and café suppliers; the thing to check is whether it is 100 percent hōjicha or a 'latte mix' with sugar and milk powder, which is a different product. Fineness is the quality marker, and the roast aroma fades after a bag has been open for a couple of months, so buy small.\n\nIt is the easy win for anyone who loves roasted flavours and wants a late-evening latte without the caffeine of matcha.",
+  "description": "Hōjicha powder is roasted green tea ground fine enough to whisk or stir into a drink, built for the hōjicha latte that cafés have taken around the world over the past decade. Because you consume the whole leaf, the toasted, caramel character of hōjicha comes through thick and rich, with a cocoa-like depth that suits milk and sugar even better than the brewed tea does.\n\nIt starts as ordinary hōjicha, usually a blend of leaf and stems roasted brown, which is then milled; some producers use stone mills, and the finer the powder the smoother the drink. Roasting has already removed most of the astringency and some of the caffeine, so the powder is one of the gentlest ways to drink a whole tea leaf. It is not shaded and has none of the umami of matcha; the pleasure is roast, not savoury depth.\n\nFor a latte, whisk or shake 2 g with about 30 ml of hot water to a smooth paste, then add 150 ml of hot milk and sweeten if you like; for an iced version it dissolves well in cold milk, and it works in a straight bowl with 150 ml of hot water as a thin, toasty drink that some people find a little dusty without milk. Sifting helps, although it clumps less than matcha. It also goes into ice cream, custard, cookies and chocolate, where it behaves like a mild roasted-grain flavour.\n\nIt is a shelf product sold year-round in 30–100 g pouches with a best-before date, by tea shops, matcha mills and café suppliers; the thing to check is whether it is 100 percent hōjicha or a 'latte mix' with sugar and milk powder, which is a different product. Fineness is the quality marker, and the roast aroma fades after a bag has been open for a couple of months, so buy small.\n\nIt is the easy win for anyone who loves roasted flavours and wants a late-evening latte without the caffeine of matcha.",
   "wikipedia_title": "Hōjicha",
   "wikipedia_scope": "umbrella",
-  "popularity": 3
+  "popularity": 3,
+  "name_zh": "焙茶粉",
+  "name_ru": "Порошковая Ходзитя",
+  "history": "Hojicha powder is a recent product with little documented history. Roasted tea itself is older, but grinding it for lattes belongs to modern cafe culture. One brand, Hojicha Co., launched in 2018 and announced in 2019 that it would bring the powder to North American tea shops and cafes on the back of matcha's popularity, and it is often credited with spreading the idea outside Japan.\n\nWho first milled hojicha is not recorded, and it would be surprising if anyone could say, since grinding tea is an ordinary thing for a Japanese tea maker to do.",
+  "liquor_hex": "#A0683A",
+  "leaf_hex": "#8A5A34",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Hojicha_Co.",
+    "https://www.tavalon.com.au/blogs/blog/ultimate-guide-to-hojicha-latte-a-roasted-green-tea-elixir"
+  ],
+  "confidence": "low",
+  "images": []
 }

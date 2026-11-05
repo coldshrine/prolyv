@@ -1,0 +1,60 @@
+{
+  "slug": "huangcha-xiang-dancong",
+  "name_en": "Huangcha Xiang",
+  "name_native": "黄茶香",
+  "name_romanized": "Huángchá Xiāng",
+  "name_zh": "黄茶香",
+  "name_ru": "Хуан Ча Сян",
+  "aliases": [
+    "Song Zhong Huangcha Xiang",
+    "Huangcha Xiang Dancong",
+    "宋种黄茶香"
+  ],
+  "category": "oolong",
+  "origin_country": "China",
+  "origin_region": "Guangdong · Fenghuang · Wudong",
+  "cultivar": "Song Zhong Huangcha Xiang",
+  "processing": "Typical of Fenghuang Dancong: sun-withered, shaken and rested to partial oxidation, fired, rolled and dried or lightly roasted.",
+  "form": "loose",
+  "harvest_season": "As with most Fenghuang Dancong, spring is the main picking.",
+  "appearance_dry": "Tightly curled, heavy strips, grey-brown with an oily sheen.",
+  "appearance_liquor": "Golden yellow.",
+  "appearance_wet": "Typically long leaves, green with reddened edges, as with other Dancong.",
+  "taste_profile": "A clean, pure aroma and taste said to resemble yellow tea, with a distinct mountain character.",
+  "taste_tags": [
+    "floral",
+    "sweet",
+    "mineral"
+  ],
+  "brewing": {
+    "grams": 5,
+    "water_ml": 100,
+    "temp_c": 95,
+    "steeps": 6,
+    "seconds": [
+      5,
+      5,
+      10,
+      15,
+      20,
+      30
+    ],
+    "notes": "As with other Dancong, keep steeps short."
+  },
+  "caffeine_level": "medium",
+  "vintage_note": "Rarely listed. As is usual for Dancong, it is sold by spring harvest of the current year, often with some months of rest after roasting. Be careful with the similar names: Huangzhi Xiang (gardenia) is a different and far more common aroma type.",
+  "description": "Don't let the name mislead you: this is a Fenghuang oolong and not a yellow tea. Huangcha Xiang means 'yellow tea aroma', and the name comes from an aroma and taste said to resemble yellow tea.\n\nThe tree behind the name, Song Zhong Huangcha Xiang, is recorded in the Wudong area, in the gardens of Lizaiping village at about 1,160 metres, and is seed-grown. Another listing files it in the gardenia aroma group, which also includes better-known teas.\n\nThe finished leaf is described as tight, heavy and grey-brown, with golden liquor, a pure aroma and a distinct mountain character. Brew it like other Dancong, with hot water and fast pours.\n\nHuangcha Xiang and Huangzhi Xiang look and sound alike in pinyin, and they are different teas. Check the characters: 茶 here, 枝 or 栀 for gardenia.",
+  "history": "Little is documented about this tea's past. Its 'Song Zhong' label ties it to the old-tree lines of Wudong, but no date for the tree itself is recorded in anything readily available, and that label should not be read as proof of a Song dynasty age.",
+  "liquor_hex": "#D9A63A",
+  "leaf_hex": "#5A4E3E",
+  "wikipedia_title": "Dancong",
+  "wikipedia_scope": "umbrella",
+  "popularity": 2,
+  "sources": [
+    "https://www.yinchaba.com/fenlei/wulongcha/1580.html",
+    "https://www.jiemian.com/article/1174385.html",
+    "https://www.pinminghui.com/fhdanco/6915.html"
+  ],
+  "confidence": "low",
+  "images": []
+}

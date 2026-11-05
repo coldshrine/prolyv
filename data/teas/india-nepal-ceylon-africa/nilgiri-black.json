@@ -3,24 +3,69 @@
   "name_en": "Nilgiri Black Tea",
   "name_native": "நீலகிரி தேயிலை",
   "name_romanized": "Nīlakiri tēyilai",
-  "aliases": ["Nilgiri tea", "Blue Mountain tea", "Nilgiri orthodox", "South Indian black tea", "Nilgiris tea"],
+  "aliases": [
+    "Nilgiri tea",
+    "Blue Mountain tea",
+    "Nilgiri orthodox",
+    "South Indian black tea",
+    "Nilgiris tea",
+    "尼爾吉里紅茶",
+    "Нилгирийский чай"
+  ],
   "category": "black",
   "origin_country": "India",
-  "origin_region": "Tamil Nadu · Nilgiri Hills (Ooty, Coonoor, Kotagiri)",
+  "origin_region": "Tamil Nadu · Nilgiri Hills",
   "cultivar": "Chinary and hybrid seedling bushes plus UPASI clones",
   "processing": "Fully oxidised black tea made both orthodox (whole-leaf grades) and CTC; the orthodox leaf teas are what reach speciality shops.",
   "form": "loose",
-  "harvest_season": "Picked all year thanks to the mild climate; the cool, dry months from December to February give the most aromatic teas.",
+  "harvest_season": "Picked all year; output peaks in April and May and again from September to December, while the cool, dry months from December to February give the most aromatic teas.",
   "appearance_dry": "Dark brown to black, neatly twisted leaf, often with a few lighter tips.",
   "appearance_liquor": "Bright golden-orange, unusually clear.",
   "appearance_wet": "Even coppery-brown leaf.",
   "taste_profile": "Clean, fragrant and smooth: a light citrus and floral note over medium body with little astringency, which is why it stays clear when iced.",
-  "taste_tags": ["citrus", "floral", "brisk", "sweet"],
-  "brewing": {"grams": 3, "water_ml": 200, "temp_c": 95, "steeps": 2, "seconds": [210, 300], "notes": "Just under the boil, 3–4 minutes, milk optional. The classic iced-tea leaf: it does not cloud when chilled."},
+  "taste_tags": [
+    "citrus",
+    "floral",
+    "brisk",
+    "sweet"
+  ],
+  "brewing": {
+    "grams": 3,
+    "water_ml": 200,
+    "temp_c": 95,
+    "steeps": 2,
+    "seconds": [
+      210,
+      300
+    ],
+    "notes": "Just under the boil, 3–4 minutes, milk optional. The classic iced-tea leaf: it does not cloud when chilled."
+  },
   "caffeine_level": "medium",
   "vintage_note": "Sold year-round through the Coonoor and Coimbatore auctions, mostly as CTC and broken grades, with orthodox leaf grades (OP, FOP, TGFOP) from estates such as Glendale, Havukal, Chamraj, Kodanad and Craigmore going to export. Winter lots (December–February) are the ones to look for; buy the current season and use within a year or two. Nilgiri orthodox carries a geographical indication and the Tea Board's Nilgiri logo.",
-  "description": "Nilgiri tea comes from the Nilgiri Hills, the 'Blue Mountains' of Tamil Nadu in southern India, where tea grows between roughly 1,000 and 2,500 metres on steep slopes around Ooty, Coonoor and Kotagiri. It is India's third great black tea after Assam and Darjeeling and the least known of the three, partly because so much of it has disappeared into blends and tea bags.\n\nThe hills have a mild climate without a real winter, so the bushes are plucked all year. Most of the crop is CTC for the Indian market and for export, but the orthodox leaf teas made by estates such as Glendale, Havukal, Chamraj, Kodanad and Craigmore are what interest speciality drinkers. They are fully oxidised, neatly twisted and bright.\n\nThe cup is clean, fragrant and smooth: a light citrus and floral note over medium body, with far less astringency than Assam and none of Darjeeling's sharpness. That low tannin is why Nilgiri is the classic iced-tea leaf: it stays clear when it cools instead of turning cloudy. Brew it with water just under the boil for three to four minutes, with or without milk.\n\nIt is sold year-round through the Coonoor and Coimbatore auctions, mostly in broken and CTC grades, with orthodox leaf grades (OP, FOP, TGFOP) from named estates going to export. The cool, dry months from December to February give the most aromatic teas, sold as winter or 'frost' lots; buy the current season and use it within a year or two. Nilgiri orthodox has a geographical indication and the Tea Board's Nilgiri logo.\n\nIt is also one of the best-value black teas around: a single-estate Nilgiri often costs less than a comparable Ceylon.",
+  "description": "Nilgiri tea comes from the Nilgiri Hills, the 'Blue Mountains' of Tamil Nadu in southern India, where tea grows between roughly 1,000 and 2,500 metres on steep slopes around Ooty, Coonoor and Kotagiri. It is India's third great black tea after Assam and Darjeeling and the least known of the three, partly because so much of it has disappeared into blends and tea bags.\n\nThe hills stay mild enough for the bushes to be plucked all year. Most of the crop is CTC for the Indian market and for export, but the orthodox leaf teas made by estates such as Glendale, Havukal, Chamraj, Kodanad and Craigmore are what interest speciality drinkers. They are fully oxidised, neatly twisted and bright.\n\nThe cup is clean, fragrant and smooth: a light citrus and floral note over medium body, with far less astringency than Assam and none of Darjeeling's sharpness. That low tannin is why Nilgiri is the classic iced-tea leaf: it stays clear when it cools instead of turning cloudy. Brew it with water just under the boil for three to four minutes, with or without milk.\n\nIt is sold year-round through the Coonoor and Coimbatore auctions, mostly in broken and CTC grades, with orthodox leaf grades (OP, FOP, TGFOP) from named estates going to export. The cool, dry months from December to February give the most aromatic teas, sold as winter or 'frost' lots; buy the current season and use it within a year or two. Nilgiri orthodox has a geographical indication and the Tea Board's Nilgiri logo.",
   "wikipedia_title": "Nilgiri tea",
   "wikipedia_scope": "exact",
-  "popularity": 4
+  "popularity": 4,
+  "name_zh": "尼尔吉里红茶",
+  "name_ru": "Нилгири",
+  "history": "Tea reached the Nilgiri Hills in 1835, when seed shipped from China was planted by the botanist George Samuel Perrottet in the governor's garden at Ketti. The plants were neglected but survived. Thiashola, set up in 1859, was among the first estates, and commercial production dates from the early 1860s. Many of the first plantations, run by retired European officers and civil servants with little tea knowledge, failed; Chinese tea makers brought in by the British helped the industry find its feet.\n\nCoonoor got its own auction in 1963. From the 1970s to the 1990s the Soviet bloc took about 80% of the region's tea, and the hills shifted toward CTC and instant tea to suit that cheap, high-volume demand. Over the same years Tamils repatriated from Sri Lanka under the Sirima-Shastri Pact arrived to work on the new government-run plantations, and many small growers, most of them Badagas, moved into tea.\n\nWhen the Soviet market weakened in the late 1980s, planters began turning toward Western buyers with new clones, orthodox rolling, white teas and single-estate marketing. Most of the crop still goes into blends, but the Tea Board's Nilgiri trademark and a geographical indication granted in 2008 give the region's own name some standing.",
+  "liquor_hex": "#D98A3A",
+  "leaf_hex": "#3F2C20",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Nilgiri_tea",
+    "https://ja.wikipedia.org/wiki/%E3%83%8B%E3%83%AB%E3%82%AE%E3%83%AA"
+  ],
+  "confidence": "medium",
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/46/Glendale_Tea_Fields_Kattery_Jul25_A7CR_06095.jpg/1280px-Glendale_Tea_Fields_Kattery_Jul25_A7CR_06095.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/46/Glendale_Tea_Fields_Kattery_Jul25_A7CR_06095.jpg/330px-Glendale_Tea_Fields_Kattery_Jul25_A7CR_06095.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Glendale_Tea_Fields_Kattery_Jul25_A7CR_06095.jpg",
+      "author": "Timothy A. Gonsalves",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "kind": "plantation",
+      "alt": "Glendale tea estate hillsides with silver oak shade trees in the Nilgiris, Tamil Nadu"
+    }
+  ]
 }

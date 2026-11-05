@@ -1,0 +1,54 @@
+{
+  "slug": "bangladeshi-tea",
+  "name_en": "Bangladeshi Tea",
+  "name_native": "বাংলাদেশের চা",
+  "name_romanized": "Bangladesher Cha",
+  "name_zh": "孟加拉国茶",
+  "name_ru": "Бангладешский чай",
+  "aliases": [
+    "Bangladesh tea"
+  ],
+  "category": "black",
+  "origin_country": "Bangladesh",
+  "origin_region": "Sylhet Division",
+  "cultivar": null,
+  "processing": "Black tea made both as CTC, cut into small granules for a quick, strong brew, and as orthodox whole leaf, the style associated with fine Sylhet tea.",
+  "form": "loose",
+  "harvest_season": "Plucked in the country's growing season at estate level; the exact timing and prized pickings are not widely documented, and buyers do not usually shop by flush.",
+  "appearance_dry": "Typically small dark CTC granules; orthodox lots show longer twisted leaf.",
+  "appearance_liquor": "A deep, reddish brown in the CTC style usual for strong everyday tea.",
+  "appearance_wet": "Fine dark brown leaf in CTC grades, with larger pieces in orthodox lots.",
+  "taste_profile": "As with most CTC black teas, expect a strong, brisk and malty cup made to take milk and sugar; specific lots vary by estate.",
+  "taste_tags": [
+    "brisk",
+    "malty"
+  ],
+  "brewing": {
+    "grams": 3,
+    "water_ml": 250,
+    "temp_c": 98,
+    "steeps": 1,
+    "seconds": [
+      180
+    ],
+    "notes": "Brew Western-style, or boil with milk and sugar as many Bangladeshi tea stalls do. CTC extracts fast, so shorten the steep if drinking it plain."
+  },
+  "caffeine_level": "high",
+  "vintage_note": "Everyday packs carry no vintage. Like other everyday blacks, it is best within a year or two of production. Single-garden orthodox lots from Sylhet are the place to look for a garden name and a season.",
+  "description": "Bangladesh is a tea-producing country whose crop most outsiders never meet by name, because the bulk of it is drunk at home. Around three-quarters of output stays in the country, and the country is now described as a net importer of tea.\n\nThe core product is CTC black tea from large estates, concentrated in Sylhet Division. That style suits how the tea is drunk: fast, strong and ready for milk and sugar. Green, oolong, organic and orthodox teas are newer and much smaller lines.\n\nIn the cup you can expect what is typical of everyday CTC tea, with colour and briskness ahead of aroma. Tea-stall culture is the real showcase, with milk tea, lemon tea, malai chai and the layered seven-colour tea of Sreemangal.\n\nAbroad, look for a named estate if you can find one, and treat broad claims of orthodox craftsmanship with some care, since most production is not in that style.\n\nThe estates also carry a hard labour history. More than 300,000 people work in the gardens, most of them women and many descended from labourers brought from central India in the British period, and pay remains among the lowest in the country.",
+  "history": "Commercial tea in what is now Bangladesh starts at Malnicherra in Sylhet. Accounts differ on the year: some give 1849 and the Tea Board gives 1854, with commercial production from 1857. The Surma Valley became the centre of cultivation in eastern Bengal, and rail carried the crop to the port of Chittagong for export.\n\nProduction reached 97.08 million kg in 2019, from 166 estates. In August 2022, workers staged a nationwide movement demanding a daily wage of 300 taka, up from 120; the outcome was a raise to 170 taka.",
+  "liquor_hex": "#8F3F1B",
+  "leaf_hex": "#3E2A1C",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Tea_production_in_Bangladesh",
+    "https://en.wikipedia.org/wiki/Tea_culture",
+    "https://en.wikipedia.org/wiki/Malnicherra_Tea_Estate",
+    "https://en.wikipedia.org/wiki/Sreemangal_Tea_Auction_Center",
+    "https://tea-lab.pages.dev/teas/sylhet-tea/"
+  ],
+  "confidence": "medium",
+  "wikipedia_title": "Tea production in Bangladesh",
+  "wikipedia_scope": "exact",
+  "popularity": 2,
+  "images": []
+}

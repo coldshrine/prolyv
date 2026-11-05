@@ -3,10 +3,16 @@
   "name_en": "Carpathian Herbal Tea",
   "name_native": "Карпатський чай",
   "name_romanized": "Karpatskyi chai",
-  "aliases": ["Carpathian tea", "Karpatsky chai", "Hutsul herbal tea", "Carpathian mountain herbs", "Ukrainian mountain tea"],
+  "aliases": [
+    "Carpathian tea",
+    "Karpatsky chai",
+    "Hutsul herbal tea",
+    "Carpathian mountain herbs",
+    "Ukrainian mountain tea"
+  ],
   "category": "tisane",
   "origin_country": "Ukraine",
-  "origin_region": "Zakarpattia and Ivano-Frankivsk · Ukrainian Carpathians (Hutsul highlands)",
+  "origin_region": "Zakarpattia · Carpathians",
   "cultivar": null,
   "processing": "Wild meadow and forest herbs are gathered by hand in summer, dried in shade in airy lofts, then blended; typical components are wild thyme, oregano, mint, linden blossom, St John's wort, raspberry and wild strawberry leaf, bilberry leaf, rosehip and meadowsweet. Some makers add fermented fireweed or raspberry leaf for body.",
   "form": "loose",
@@ -15,13 +21,36 @@
   "appearance_liquor": "Golden to amber, clear.",
   "appearance_wet": "A soft mass of mixed leaves and flowers with a strong hay-meadow smell.",
   "taste_profile": "Thyme-led and resinous over sweet linden and hay, with mint freshness, a tart fruit note from rosehip and a slightly bitter herbal finish; it tastes like a mountain meadow smells.",
-  "taste_tags": ["herbal", "floral", "honey", "sweet"],
-  "brewing": {"grams": 3, "water_ml": 250, "temp_c": 95, "steeps": 2, "seconds": [480, 600], "notes": "Just-boiled water, 8–10 minutes with a lid, or 20 minutes in a thermos; a second steep is weaker but fine. Honey, not sugar, is the traditional sweetener, and in the mountains it is often brewed in a pot with a few dried apples or pears."},
+  "taste_tags": [
+    "herbal",
+    "floral",
+    "honey",
+    "sweet"
+  ],
+  "brewing": {
+    "grams": 3,
+    "water_ml": 250,
+    "temp_c": 95,
+    "steeps": 2,
+    "seconds": [
+      480,
+      600
+    ],
+    "notes": "Just-boiled water, 8–10 minutes with a lid, or 20 minutes in a thermos; a second steep is weaker but fine. Honey, not sugar, is the traditional sweetener, and in the mountains it is often brewed in a pot with a few dried apples or pears."
+  },
   "caffeine_level": "none",
   "vintage_note": "Sold as the current summer's gathering, mostly by small producers, cooperatives and market stalls in western Ukraine and online, in paper bags or boxes with the herb list and sometimes the harvest year printed; the composition varies from maker to maker and 'Carpathian tea' is a style, not a recipe. Dried herbs keep their aroma for about a year, so a pack from last summer is right and an older one is not. Some blends are sold with black tea added; check the ingredients if you want a caffeine-free cup.",
-  "description": "Carpathian herbal tea is the mountain meadow in a cup: a blend of wild herbs gathered on the high pastures and forest edges of western Ukraine, dried in the loft and brewed through the winter. There is no fixed recipe; every village and every maker has a version, but wild thyme, oregano, mint, linden blossom, St John's wort and raspberry or strawberry leaf turn up in nearly all of them, with rosehip or bilberry for fruit.\n\nThe herbs are picked at flowering, each at its own time through the summer, and dried in the shade, which keeps the colour and the oils. Blending is the craft: thyme and oregano give the warm, resinous backbone, linden and meadowsweet the honey sweetness, mint the lift, and the leaf of forest berries a soft, tannic body that makes it feel more like tea than a pharmacy infusion.\n\nIt wants a hot, long steep, eight to ten minutes under a lid or longer in a thermos, and it comes out golden and fragrant, savoury-sweet with a faint bitterness at the end that honey rounds off. A short steep gives a thin, grassy cup, which is the usual disappointment. It is a winter drink first, and in the mountains it is often cooked up with dried fruit.\n\nYou buy it from the people who make it, in paper bags at markets, in small shops in Yaremche or Kosiv, or online, and the pack should list the herbs; the better makers also print the gathering year and the area. Treat 'Carpathian tea' as a style like 'breakfast blend' and expect each one to be different.\n\nIt is the natural next step after single herbs such as linden, thyme or mint, and a good base to build on: a spoon of fermented fireweed adds body, a few dried apple slices add sweetness.",
+  "description": "Carpathian herbal tea is the mountain meadow in a cup: a blend of wild herbs gathered on the high pastures and forest edges of western Ukraine, dried in the loft and brewed through the winter. There is no fixed recipe; every maker has a version, but wild thyme, oregano, mint, linden blossom, St John's wort and raspberry or strawberry leaf are typical, with rosehip or bilberry for fruit.\n\nThe herbs are picked at flowering, each at its own time through the summer, and dried in the shade, which keeps the colour and the oils. Blending is the craft: thyme and oregano give the warm, resinous backbone, linden and meadowsweet the honey sweetness, mint the lift, and the leaf of forest berries a soft, tannic body that makes it feel more like tea than a pharmacy infusion.\n\nIt wants a hot, long steep, eight to ten minutes under a lid or longer in a thermos, and it comes out golden and fragrant, savoury-sweet with a faint bitterness at the end that honey rounds off. A short steep gives a thin, grassy cup, which is the usual disappointment. It is a winter drink first.\n\nYou buy it from the people who make it, in paper bags at markets, in small shops in the mountain towns, or online, and the pack should list the herbs; the better makers also print the gathering year and the area. Treat 'Carpathian tea' as a style like 'breakfast blend' and expect each one to be different.\n\nIt is the natural next step after single herbs such as linden, thyme or mint, and a good base to build on: a spoon of fermented fireweed adds body, a few dried apple slices add sweetness.",
   "wikipedia_title": "Herbal tea",
   "wikipedia_scope": "umbrella",
   "popularity": 2,
-  "sources_note": "A traditional style rather than a defined product; the component list is representative of commercial and homemade blends, not a standard."
+  "sources_note": "A traditional style rather than a defined product; the component list is representative of commercial and homemade blends, not a standard.",
+  "name_zh": "喀尔巴阡草本茶",
+  "name_ru": "Карпатский травяной чай",
+  "history": "Little is documented about Carpathian herbal tea as a named drink. It is best understood as a loose regional style: mixtures of wild and garden herbs gathered in the Ukrainian Carpathians and dried at home, now also sold under the Carpathian name by small makers. There is no standard recipe, no known origin date and no protected definition, and the herb lists vary from one pack to the next.",
+  "liquor_hex": "#C9963F",
+  "leaf_hex": "#7C7A4E",
+  "sources": [],
+  "confidence": "low",
+  "images": []
 }

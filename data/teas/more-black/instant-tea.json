@@ -1,0 +1,53 @@
+{
+  "slug": "instant-tea",
+  "name_en": "Instant Tea",
+  "name_native": null,
+  "name_romanized": null,
+  "aliases": [
+    "速溶茶粉"
+  ],
+  "category": "black",
+  "origin_country": "Various",
+  "origin_region": "Various",
+  "cultivar": null,
+  "form": "powder",
+  "caffeine_level": "high",
+  "brewing": {
+    "grams": 3,
+    "water_ml": 200,
+    "temp_c": 95,
+    "steeps": 2,
+    "seconds": [
+      180,
+      240
+    ],
+    "notes": "A safe starting point for black tea: Western style, water just off the boil."
+  },
+  "taste_tags": [
+    "malty",
+    "sweet"
+  ],
+  "description": "A powder of dehydrated tea flavour, aroma and colour compounds that turns into a cup of tea when water is added. Sugar, citric acid or flavours such as lemon or raspberry are often included.\n\nTreat it as you would any black tea: water just off the boil, a few minutes in the pot, and a seller who can say where it was grown.",
+  "wikipedia_title": null,
+  "wikipedia_scope": "none",
+  "popularity": 1,
+  "name_zh": "速溶茶",
+  "name_ru": "Растворимый чай",
+  "history": "The earliest form dates to 1885 in the United Kingdom, when a patent covered a paste of concentrated tea extract, sugar and evaporated milk. Little progress followed until spray drying made it possible to dry tea concentrate without harming its flavour.",
+  "liquor_hex": "#B5602A",
+  "leaf_hex": "#6B3F22",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Instant_tea",
+    "https://www.wikidata.org/wiki/Q11287400"
+  ],
+  "confidence": "medium",
+  "images": [],
+  "stub": true,
+  "processing": "Tea concentrate is dried to a powder, typically by spray drying, at a temperature that spares its flavour.",
+  "harvest_season": "Picked through the growing season, as with most black teas.",
+  "appearance_dry": "Usually dark twisted leaf, sometimes with golden tips.",
+  "appearance_liquor": "Usually a clear red-brown.",
+  "appearance_wet": "Usually coppery brown leaf.",
+  "taste_profile": "Expect what black teas usually give: malty, sweet and brisk.",
+  "vintage_note": "Black teas are normally sold by harvest year and are best within a couple of years."
+}

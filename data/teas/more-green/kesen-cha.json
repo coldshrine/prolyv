@@ -1,0 +1,52 @@
+{
+  "slug": "kesen-cha",
+  "name_en": "Kesen-cha",
+  "name_native": "気仙茶",
+  "name_romanized": "Kesen-cha",
+  "name_zh": "气仙茶",
+  "name_ru": "Кэсэн-тя",
+  "aliases": [
+    "けせん茶"
+  ],
+  "category": "green",
+  "origin_country": "Japan",
+  "origin_region": "Iwate · Kesen",
+  "cultivar": null,
+  "processing": "The local method is little documented; it is listed as a Japanese green tea, and steaming, rolling and drying is the usual route.",
+  "form": "loose",
+  "harvest_season": "Not documented in detail; given the northern location, picking is likely in late spring.",
+  "appearance_dry": "Green needles or twisted leaf, as is usual for Japanese green tea.",
+  "appearance_liquor": "Light yellow-green, as is usual for Japanese green tea.",
+  "appearance_wet": "Soft green leaf.",
+  "taste_profile": "No reliable tasting description exists; expect a general Japanese green tea character rather than a known house style.",
+  "taste_tags": [
+    "vegetal",
+    "grassy"
+  ],
+  "brewing": {
+    "grams": 5,
+    "water_ml": 150,
+    "temp_c": 75,
+    "steeps": 3,
+    "seconds": [
+      60,
+      20,
+      30
+    ],
+    "notes": "General Japanese green tea settings. Start here and adjust to the lot."
+  },
+  "caffeine_level": "medium",
+  "vintage_note": "How it is sold is little documented. Green tea of this kind is normally bought as the current year's harvest and drunk fresh, and that is the safest assumption.",
+  "description": "Kesen-cha is a local green tea of the old Kesen district on the Pacific coast of Iwate: Ofunato, Rikuzentakata and Sumita. Iwate is well to the north of most Japanese tea country, which makes it a curiosity even before you taste it.\n\nHow it is grown and made is little recorded. What applies is the general pattern of Japanese green tea, so treat any specific claim with care.\n\nThe same goes for taste. Brew it as an ordinary sencha-type green tea and see what the lot gives you.\n\nIf you find it, it will most likely be a small local product. Ask who grew it and when; that is more useful than the regional name.",
+  "history": "Little is documented. The tea is recorded as a named product of Ofunato, Rikuzentakata and Sumita in Iwate, but its beginnings and development are not well recorded in accessible accounts.",
+  "liquor_hex": "#D3D184",
+  "leaf_hex": "#4D6238",
+  "wikipedia_title": "日本茶",
+  "wikipedia_scope": "umbrella",
+  "popularity": 2,
+  "sources": [
+    "https://ja.wikipedia.org/wiki/%E6%97%A5%E6%9C%AC%E8%8C%B6"
+  ],
+  "confidence": "low",
+  "images": []
+}

@@ -1,0 +1,54 @@
+{
+  "slug": "cha-jau",
+  "name_en": "Cha Jau",
+  "name_native": "茶走",
+  "name_romanized": "Chá Zǒu (Cantonese: cha jau)",
+  "name_zh": "茶走",
+  "name_ru": "Ча Цзоу",
+  "aliases": [
+    "Чацзоу",
+    "Hong Kong milk tea with condensed milk"
+  ],
+  "category": "black",
+  "origin_country": "Hong Kong",
+  "origin_region": "Hong Kong",
+  "cultivar": null,
+  "processing": "Hong Kong-style milk tea, a strained strong black tea, made with sweetened condensed milk in place of the evaporated milk and sugar.",
+  "form": "other",
+  "harvest_season": "Not relevant: it is a cafe drink made to order, and no particular harvest is prized.",
+  "appearance_dry": "Not sold as a dry tea; the base is the dark broken black tea usual for Hong Kong milk tea.",
+  "appearance_liquor": "Opaque, milky tan-brown.",
+  "appearance_wet": "Not applicable: the leaves stay behind in the strainer.",
+  "taste_profile": "Richer, sweeter and smoother than ordinary Hong Kong milk tea, with a heavy condensed-milk creaminess over strong tea.",
+  "taste_tags": [
+    "creamy",
+    "sweet",
+    "brisk"
+  ],
+  "brewing": {
+    "grams": 10,
+    "water_ml": 300,
+    "temp_c": 100,
+    "steeps": 1,
+    "seconds": [
+      300
+    ],
+    "notes": "Make strong strained black tea, then stir in condensed milk to taste. No extra sugar is needed."
+  },
+  "caffeine_level": "medium",
+  "vintage_note": "Sold as a drink, not by year or season: you order it at a cha chaan teng. Any home version simply uses a current black tea blend.",
+  "description": "Cha jau is Hong Kong milk tea made with condensed milk instead of evaporated milk and sugar. You order it by name in a cha chaan teng, and most staff know the word at once.\n\nThe base is the same strong strained tea as ordinary silk stocking milk tea. Condensed milk brings both the sweetness and the milkiness, so the cup comes out thicker and fuller, and since condensed milk blends more readily than sugar, the last sip is no sweeter than the first.\n\nExpect strong tea with a heavy, smooth, toffee-like sweetness. Making it at home, people usually underbrew the tea; it has to be strong enough not to vanish under the milk.\n\nThere is nothing to buy as such. If you like it, try it elsewhere as a coffee version or with the other drinks that have borrowed the same treatment.",
+  "history": "The drink grew out of Hong Kong's dai pai dong and their milk tea. Early stalls mixed sugar in before serving; later cafes put sugar on the table, and the condensed-milk version made added sugar unnecessary.\n\nThe name is explained in two ways. In one, 'jau' means leaving out the sugar; in the other, it means replacing evaporated milk with condensed. The first fits the wider habit of naming what a drink goes without. No inventor or date is recorded.",
+  "liquor_hex": "#B98A5E",
+  "leaf_hex": "#3A2518",
+  "sources": [
+    "https://zh.wikipedia.org/wiki/%E8%8C%B6%E8%B5%B0",
+    "https://en.wikipedia.org/wiki/Hong_Kong%E2%80%93style_milk_tea",
+    "https://www.wikidata.org/wiki/Q16391891"
+  ],
+  "confidence": "medium",
+  "wikipedia_title": "Hong Kong–style milk tea",
+  "wikipedia_scope": "umbrella",
+  "popularity": 2,
+  "images": []
+}

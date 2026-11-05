@@ -1,0 +1,52 @@
+{
+  "slug": "manipuri-tea",
+  "name_en": "Manipuri Tea (Kanglei)",
+  "name_native": null,
+  "name_romanized": null,
+  "aliases": [
+    "Kanglei tea",
+    "Manipuri tea"
+  ],
+  "category": "black",
+  "origin_country": "India",
+  "origin_region": "Manipur",
+  "cultivar": null,
+  "form": "loose",
+  "caffeine_level": "high",
+  "brewing": {
+    "grams": 3,
+    "water_ml": 200,
+    "temp_c": 95,
+    "steeps": 2,
+    "seconds": [
+      180,
+      240
+    ],
+    "notes": "A safe starting point for black tea: Western style, water just off the boil."
+  },
+  "taste_tags": [
+    "floral"
+  ],
+  "description": "Manipuri tea, also called Kanglei tea, is a black tea grown in the northeastern Indian state of Manipur. Its leaves are reportedly twisted and curled by hand.\n\nTreat it as you would any black tea: water just off the boil, a few minutes in the pot, and a seller who can say where it was grown.",
+  "wikipedia_title": null,
+  "wikipedia_scope": "none",
+  "popularity": 1,
+  "name_zh": "曼尼普尔茶",
+  "name_ru": "Манипурский чай",
+  "history": "The tea industry in Manipur remains small, and state support for small growers has made the tea easier to find in recent years. Little more is documented about it.",
+  "liquor_hex": "#A8431C",
+  "leaf_hex": "#3A2A1E",
+  "sources": [
+    "https://slurrp.com/article/from-assam-to-nagaland-a-journey-through-north-eastern-tea-1682077639655"
+  ],
+  "confidence": "low",
+  "images": [],
+  "stub": true,
+  "processing": "Described as an orthodox black tea whose leaves are twisted and curled by hand after withering rather than rolled in the usual way.",
+  "harvest_season": "Picked through the growing season, as with most black teas.",
+  "appearance_dry": "Hand-twisted, curled leaves.",
+  "appearance_liquor": "Usually a clear red-brown.",
+  "appearance_wet": "Usually coppery brown leaf.",
+  "taste_profile": "A slightly floral aroma is reported.",
+  "vintage_note": "Black teas are normally sold by harvest year and are best within a couple of years."
+}

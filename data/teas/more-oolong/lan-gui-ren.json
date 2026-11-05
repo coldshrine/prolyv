@@ -1,0 +1,59 @@
+{
+  "slug": "lan-gui-ren",
+  "name_en": "Lan Gui Ren",
+  "name_native": "兰贵人",
+  "name_romanized": "Lán Guìrén",
+  "name_zh": "兰贵人",
+  "name_ru": "Лань Гуй Жэнь",
+  "aliases": [
+    "Ginseng Oolong",
+    "人参乌龙",
+    "人参乌龙茶",
+    "蘭貴人",
+    "Женьшеневый улун"
+  ],
+  "category": "oolong",
+  "origin_country": "China",
+  "origin_region": "Hainan",
+  "cultivar": null,
+  "processing": "Tea leaf coated with ginseng powder and rolled into tight pellets, sometimes with an edible binder. In Hainan versions, Wuzhishan tea is combined with American ginseng and a local vanilla-scented herb.",
+  "form": "ball",
+  "harvest_season": "Not tied to a season; it is a blended product and the base tea is rarely specified.",
+  "appearance_dry": "Tight small pellets with a dusty grey-green coating of ginseng powder.",
+  "appearance_liquor": "Typically yellow-green to pale gold, slightly cloudy from the coating.",
+  "appearance_wet": "Pellets open slowly; poor versions held by binder may stay as pellets after several steeps.",
+  "taste_profile": "Sweet and strongly aromatic, with ginseng running through the cup and a lingering sweetness rather than much tea character.",
+  "taste_tags": [
+    "sweet",
+    "herbal",
+    "medicinal"
+  ],
+  "brewing": {
+    "grams": 5,
+    "water_ml": 150,
+    "temp_c": 95,
+    "steeps": 5,
+    "seconds": [
+      30,
+      30,
+      45,
+      60,
+      90
+    ],
+    "notes": "Give the pellets time to open. If they stay shut after several steeps, a binder is probably holding them together."
+  },
+  "caffeine_level": "medium",
+  "vintage_note": "Sold as a flavoured product, not by harvest or vintage, and the base tea's year is rarely stated. Buy recent stock, since the added aroma is what you are paying for, and read the ingredient list.",
+  "description": "Lan Gui Ren is the Chinese trade name for ginseng oolong, little pellets of tea coated in ginseng. It is one of the best-known tea souvenirs of Hainan, though the name is used as a generic term in southern China rather than for a single appellation.\n\nThe recipe is loose. Some accounts describe oolong with ginseng powder; Hainan versions are described as Wuzhishan tea with American ginseng and a local vanilla-scented herb, which is not strictly oolong at all. Check the packet to see what you are actually getting.\n\nThe taste is sweet and fragrant, with ginseng dominating. Think of it as a flavoured drink more than a tea to study: it will not teach you much about the leaf, but plenty of people enjoy it.\n\nA practical test is whether the pellets open. Good ones unfurl over a few steeps; ones still sitting as beads after several infusions were likely held together with binder. Health claims from sellers, of which there are many, should be taken with caution.",
+  "history": "Lan Gui Ren is reported to have come from Taiwan and spread to the mainland, with the name adopted across the trade because it sounded refined. Hainan has since become strongly associated with it.\n\nSellers often describe it as an imperial tribute tea with centuries of history. That is a marketing story with no good evidence behind it, and it sits badly with the account of a modern product from Taiwan.",
+  "liquor_hex": "#D6C777",
+  "leaf_hex": "#7E8468",
+  "sources": [
+    "https://blog.sina.com.cn/s/blog_15f21dd7f0102xdhq.html"
+  ],
+  "confidence": "low",
+  "wikipedia_title": null,
+  "wikipedia_scope": "none",
+  "popularity": 2,
+  "images": []
+}

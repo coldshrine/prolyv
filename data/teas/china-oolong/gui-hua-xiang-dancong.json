@@ -3,7 +3,13 @@
   "name_en": "Gui Hua Xiang Dancong (Osmanthus)",
   "name_native": "桂花香单丛",
   "name_romanized": "Guìhuāxiāng Dāncóng",
-  "aliases": ["Osmanthus Fragrance Dancong", "Gui Hua Xiang", "Guihuaxiang", "Osmanthus Phoenix oolong", "Cassia Flower Dancong"],
+  "aliases": [
+    "Osmanthus Fragrance Dancong",
+    "Gui Hua Xiang",
+    "Guihuaxiang",
+    "Osmanthus Phoenix oolong",
+    "Cassia Flower Dancong"
+  ],
   "category": "oolong",
   "origin_country": "China",
   "origin_region": "Guangdong · Chaozhou · Fenghuang Mountains",
@@ -15,13 +21,46 @@
   "appearance_liquor": "Golden-orange, bright and clear.",
   "appearance_wet": "Long, medium-thick yellow-green leaves with red edges.",
   "taste_profile": "Osmanthus and dried apricot aroma, a honeyed, medium body with a juicy sweetness, a gentle roast underneath and a cool, clean finish.",
-  "taste_tags": ["floral", "stone-fruit", "honey", "sweet", "roasted"],
-  "brewing": {"grams": 8, "water_ml": 110, "temp_c": 100, "steeps": 8, "seconds": [5, 5, 8, 10, 15, 25, 40, 60], "notes": "Boiling water, thin gaiwan, flash steeps and full decanting. The osmanthus note is at its clearest in steeps two to four; a slightly cooler kettle (95 °C) softens it if the roast is on the lighter side."},
+  "taste_tags": [
+    "floral",
+    "stone-fruit",
+    "honey",
+    "sweet",
+    "roasted"
+  ],
+  "brewing": {
+    "grams": 8,
+    "water_ml": 110,
+    "temp_c": 100,
+    "steeps": 8,
+    "seconds": [
+      5,
+      5,
+      8,
+      10,
+      15,
+      25,
+      40,
+      60
+    ],
+    "notes": "Boiling water, thin gaiwan, flash steeps and full decanting. The osmanthus note is at its clearest in steeps two to four; a slightly cooler kettle (95 °C) softens it if the roast is on the lighter side."
+  },
   "caffeine_level": "medium",
   "vintage_note": "Sold by harvest year, spring tea roasted and rested over the summer and on sale from around June, with medium-roasted and high-mountain lots released in autumn. Best within one to two years for lighter roasts; medium-roasted lots keep three years sealed and dry.",
   "description": "Gui Hua Xiang, osmanthus fragrance, is one of the ten classic Phoenix dancong aroma types and the one that tastes most like fruit: the small, sweet osmanthus flower that Chinese kitchens use in syrups and cakes smells of apricot, and so does this tea. It is a friendly, honeyed dancong that works for beginners and keeps experienced drinkers happy.\n\nLike the other named strains it descends from a single selected tree of the Fenghuang Shui Xian population in the mountains above Chaozhou, propagated by cuttings and now grown at all elevations across the range. It is a mid-season strain with a medium-sized leaf, neither as delicate as Yu Lan Xiang nor as thick as Ba Xian.\n\nThe making follows the dancong pattern, sun-withering, overnight shaking to a medium-light oxidation, strip rolling and charcoal roasting, and makers aim for a light-to-medium roast: enough to bring out the apricot sweetness, not so much that the flowers turn to toast. In the cup the aroma is osmanthus and dried apricot, the body is medium and honeyed with a juicy quality, and the finish is cool and clean with a light grip.\n\nBrew it in the Chaozhou way, a thin gaiwan well filled, boiling water, instant pours for the first few steeps, and expect eight infusions with the second to fourth the most aromatic. It takes a slightly cooler kettle well if the roast is light, and it is a lovely tea alongside anything with almonds or stone fruit.\n\nIt is sold by year with elevation and village named by serious sellers, and it should be drunk within a year or two for light roasts. It sits at the middle of the dancong price range; high-mountain and Wudong lots are worth the extra for their length. If you enjoy the fruit here, Xing Ren Xiang takes the same warmth toward nuts, and Mi Lan Xiang toward honey and lychee.",
   "wikipedia_title": "Oolong",
   "wikipedia_scope": "umbrella",
   "popularity": 3,
-  "sources_note": "Listed among the ten classic aroma types in Chaozhou sources; no specific mother-tree site is given because sources differ."
+  "sources_note": "Listed among the ten classic aroma types in Chaozhou sources; no specific mother-tree site is given because sources differ.",
+  "name_zh": "桂花香单丛",
+  "name_ru": "Гуй Хуа Сян Дань Цун",
+  "history": "Gui Hua Xiang is one of the ten aroma types usually listed for Phoenix dancong. Its mother tree is placed on Wudong, in Liziping village at about 1000 metres. One account dates it to the early Qing, while another gives it an age of about 200 years, and neither is firmly documented.\n\nFrom there it was spread by cuttings into a group of bushes. Osmanthus-type bushes are also recorded at Qipan and Da'an.",
+  "liquor_hex": "#D19A3A",
+  "leaf_hex": "#5C4A2A",
+  "sources": [
+    "https://www.jiemian.com/article/1174385.html",
+    "https://www.jingteashop.com/pages/dancong-oolong-tea-registry"
+  ],
+  "confidence": "medium",
+  "images": []
 }

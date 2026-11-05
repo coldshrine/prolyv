@@ -1,0 +1,66 @@
+{
+  "slug": "wuxi-haocha",
+  "name_en": "Wuxi Haocha",
+  "name_native": "无锡毫茶",
+  "name_romanized": "Wúxī Háochá",
+  "name_zh": "无锡毫茶",
+  "name_ru": "У Си Хао Ча",
+  "aliases": [
+    "Wuxi Hao Cha"
+  ],
+  "category": "green",
+  "origin_country": "China",
+  "origin_region": "Jiangsu · Wuxi",
+  "cultivar": "Clonal improved cultivars",
+  "processing": "A fully pan-fired green tea made from young shoots of high-yielding clonal cultivars, shaped into plump curls that keep their down.",
+  "form": "loose",
+  "harvest_season": "Spring, as with other tender-shoot Jiangsu greens; the earliest pickings are normally the most prized.",
+  "appearance_dry": "Plump, curled strands thickly covered in downy hairs.",
+  "appearance_liquor": "Typically a clear, pale yellow-green, sometimes faintly hazy from the down.",
+  "appearance_wet": "Tender, even green shoots, as is typical of downy pan-fired greens.",
+  "taste_profile": "A high, lasting aroma and a fresh, mellow taste.",
+  "taste_tags": [
+    "sweet",
+    "umami",
+    "vegetal"
+  ],
+  "brewing": {
+    "grams": 3,
+    "water_ml": 150,
+    "temp_c": 80,
+    "steeps": 3,
+    "seconds": [
+      50,
+      70,
+      100
+    ],
+    "notes": "These are usual settings for downy green tea. A little haze from the hairs is normal and is not a fault."
+  },
+  "caffeine_level": "medium",
+  "vintage_note": "Sold as the current year's spring tea, like other Jiangsu famous greens, and best within a year. Keep it sealed and cool. It does not improve with age.",
+  "description": "Wuxi Haocha comes from the outskirts of Wuxi, on the shore of Lake Tai. Hao means down, and it is the first thing you notice: plump curled strands wrapped in fine hairs.\n\nIt is a developed tea, not an old folk one, worked out by the local tea cultivar institute and partner units using young shoots from improved clonal plants. It is fully pan-fired, and the shaping keeps the down on the leaf.\n\nThe cup has a high, long-lasting aroma and a fresh, mellow taste. Treat it as a downy spring green, with water around 80 °C. If it clouds a little, that is usually the hairs.\n\nThe tea is less widely exported than its Lake Tai neighbour Bi Luo Chun,, so buy from a seller who can state the origin and harvest date.",
+  "history": "Wuxi has a long record of tea drinking and growing. A Ming painting by Wang Fu shows tea being boiled on a bamboo stove at Huishan Temple, but that belongs to the local background and is not evidence for this particular tea.\n\nWuxi Haocha itself was developed by the Wuxi tea cultivar institute with other units, and it won provincial and city science awards. In 1986 the Ministry of Commerce listed it among China's famous teas.",
+  "wikipedia_title": "无锡毫茶",
+  "wikipedia_scope": "exact",
+  "popularity": 2,
+  "liquor_hex": "#DBD68F",
+  "leaf_hex": "#8F9A6A",
+  "sources": [
+    "https://zh.wikipedia.org/wiki/%E6%97%A0%E9%94%A1%E6%AF%AB%E8%8C%B6",
+    "https://www.wikidata.org/wiki/Q60992033",
+    "https://m.maigoo.com/top/432970.html"
+  ],
+  "confidence": "medium",
+  "images": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/0/07/%E6%97%A0%E9%94%A1%E6%AF%AB%E8%8C%B6.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/07/%E6%97%A0%E9%94%A1%E6%AF%AB%E8%8C%B6.jpg/330px-%E6%97%A0%E9%94%A1%E6%AF%AB%E8%8C%B6.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source_page": "https://commons.wikimedia.org/wiki/File:%E6%97%A0%E9%94%A1%E6%AF%AB%E8%8C%B6.jpg",
+      "author": "Walter Grassroot",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "kind": "dry_leaf",
+      "alt": "Dry Wuxi Haocha leaf: curled strands thickly covered in white down"
+    }
+  ]
+}

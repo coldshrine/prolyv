@@ -1,0 +1,56 @@
+{
+  "slug": "jiaen-cha",
+  "name_en": "Jia'en Tea",
+  "name_native": "甲恩茶",
+  "name_romanized": "Jiǎ'ēn Chá",
+  "aliases": [
+    "Jiaen Cha"
+  ],
+  "category": "heicha",
+  "origin_country": "China",
+  "origin_region": "Sichuan · Garzê County",
+  "cultivar": null,
+  "form": "other",
+  "caffeine_level": "medium",
+  "brewing": {
+    "grams": 6,
+    "water_ml": 120,
+    "temp_c": 100,
+    "steeps": 6,
+    "seconds": [
+      15,
+      15,
+      20,
+      30,
+      45,
+      60
+    ],
+    "notes": "A safe starting point for dark tea: rinse once, boiling water, or simmer it the traditional way."
+  },
+  "taste_tags": [
+    "earthy",
+    "woody"
+  ],
+  "description": "A boiled, dried everyday tea of Garzê County in the Tibetan highlands of Sichuan, drunk plain, which is unusual among Tibetan areas.\n\nTreat it as you would any dark tea: rinse it, use boiling water, and buy from someone who can say who pressed it and when.",
+  "wikipedia_title": null,
+  "wikipedia_scope": "none",
+  "popularity": 1,
+  "name_zh": "甲恩茶",
+  "name_ru": "Цзя Энь Ча",
+  "history": "It is traced to the Republican period in Tangmai village, Sexidi township, when poor farmers used leaves of the wild 'ese' tree. After 1949 they switched to Jinjian dark tea, boiled with white alkali or soda.",
+  "liquor_hex": "#6A2F12",
+  "leaf_hex": "#1E1712",
+  "sources": [
+    "https://milulu.com.cn/techan/35829.html"
+  ],
+  "confidence": "medium",
+  "images": [],
+  "stub": true,
+  "processing": "Originally, ese leaves picked in July or August were left in sacks to turn yellow, washed, boiled dry with a local alkali until black, then sun-dried. Later versions boil Jinjian tea with white alkali or soda.",
+  "harvest_season": "July to August for the original wild leaf.",
+  "appearance_dry": "Black after boiling down.",
+  "appearance_liquor": "Usually orange-red to dark brown.",
+  "appearance_wet": "Usually coarse dark leaf with some stem.",
+  "taste_profile": "Expect what dark teas usually give: smooth, woody and earthy.",
+  "vintage_note": "Dark teas are sold by production year and many improve with several years of dry storage."
+}

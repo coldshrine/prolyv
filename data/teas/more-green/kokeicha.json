@@ -1,0 +1,53 @@
+{
+  "slug": "kokeicha",
+  "name_en": "Kokeicha",
+  "name_native": "固形茶",
+  "name_romanized": "Kokeicha",
+  "name_zh": "固形茶",
+  "name_ru": "Кокэйтя",
+  "aliases": [
+    "Solidified Tea"
+  ],
+  "category": "green",
+  "origin_country": "Japan",
+  "origin_region": "Japan",
+  "cultivar": null,
+  "processing": "Tea is ground to a fine powder, mixed with a plant starch and protein binder and water into a paste, extruded through a perforated plate into thin strands, then dried with hot air and sorted.",
+  "form": "stick",
+  "harvest_season": "Made from already processed tea rather than a particular picking, so season plays little part.",
+  "appearance_dry": "Short noodle-like strands 1 to 2 cm long and 1 to 1.5 mm across, round or triangular in section.",
+  "appearance_liquor": "Green to yellow-green, typically slightly cloudy because of the fine powder, as is usual for a tea made this way.",
+  "appearance_wet": "Softened green strands that keep some of their shape.",
+  "taste_profile": "Little is recorded about its flavour; as a reworked ground green tea, expect a simple vegetal cup.",
+  "taste_tags": [
+    "vegetal",
+    "grassy"
+  ],
+  "brewing": {
+    "grams": 3,
+    "water_ml": 150,
+    "temp_c": 75,
+    "steeps": 2,
+    "seconds": [
+      60,
+      60
+    ],
+    "notes": "No traditional method is recorded; these are ordinary green tea numbers as a starting point. Pour gently, since strands can soften and break."
+  },
+  "caffeine_level": "medium",
+  "vintage_note": "A processed product with no vintage culture, sold as a packaged tea by best-before date rather than harvest. As with other green teas, fresher is better. Note that 固形茶 can also loosely mean any compressed tea, so check which form you are getting.",
+  "description": "Kokeicha is an engineered tea: ground green tea bound with a little starch and protein and pushed through a die into tiny noodle-like strands. It appears as its own category, solid tea, in the Japan Tea Central Association's list of green teas.\n\nThe process is more food technology than tea craft. The leaf is milled very fine, made into a paste with 35 to 40% water, extruded under pressure, dried with hot air to about 10% moisture, finished at low heat, and then sieved to a uniform size.\n\nLittle is recorded about how it tastes. As with other green teas built from powder, expect something straightforward and vegetal, and brew it gently like an ordinary green tea rather than giving it long hot steeps.\n\nThe name causes confusion: in Japanese and Chinese usage 固形茶 can loosely overlap with pressed cakes and bricks, which are made quite differently. The strand description here comes from a Chinese source, and what the Japanese category covers in practice is not confirmed.",
+  "history": "The strand form is documented in China: the process was introduced to Hangzhou in Zhejiang in 1980. Beyond that and its inclusion in Japan's tea classification, little is documented about who developed it or how widely it is made today.",
+  "liquor_hex": "#BDBE6A",
+  "leaf_hex": "#5F7A3A",
+  "sources": [
+    "https://zh.wikipedia.org/wiki/%E5%9B%BA%E5%BD%A2%E8%8C%B6",
+    "https://ja.wikipedia.org/wiki/%E8%8C%B6",
+    "https://ja.wikipedia.org/wiki/%E7%B7%8A%E5%9C%A7%E8%8C%B6"
+  ],
+  "confidence": "low",
+  "wikipedia_title": null,
+  "wikipedia_scope": "none",
+  "popularity": 2,
+  "images": []
+}

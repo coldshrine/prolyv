@@ -1,0 +1,62 @@
+{
+  "slug": "bazhong-cha",
+  "name_en": "Bazhong Cha",
+  "name_native": "八中茶",
+  "name_romanized": "Bāzhōng Chá",
+  "name_zh": "八中茶",
+  "name_ru": "Ба Чжун Ча",
+  "aliases": [
+    "8-Zhong Tea (Bazhong)",
+    "Bazhong Tea",
+    "Ba Zhong Cha",
+    "Бачжун ча"
+  ],
+  "category": "sheng",
+  "origin_country": "China",
+  "origin_region": "Yunnan",
+  "cultivar": "Yunnan large-leaf (typical of pu-erh)",
+  "processing": "Pu-erh pressed from sun-dried large-leaf tea, as is typical of the class. The name refers to the label and era of production, not to a particular way of making it.",
+  "form": "cake",
+  "harvest_season": "Not defined by harvest; the name marks the 1950s production and its trademark, not a picking season.",
+  "appearance_dry": "Dark, aged pressed tea, wrapped with a mark of eight red 中 characters around a green 茶, the surviving examples being old.",
+  "appearance_liquor": "Deep amber to reddish brown, as expected of long-aged pu-erh.",
+  "appearance_wet": "Dark brown aged leaf, as is typical of old pressed pu-erh.",
+  "taste_profile": "Few people have tasted genuine examples and no single profile is documented; aged pu-erh of this era is generally described as woody and deep.",
+  "taste_tags": [
+    "woody",
+    "earthy",
+    "camphor"
+  ],
+  "brewing": {
+    "grams": 6,
+    "water_ml": 100,
+    "temp_c": 98,
+    "steeps": 8,
+    "seconds": [
+      10,
+      10,
+      12,
+      15,
+      20,
+      30,
+      45,
+      60
+    ],
+    "notes": "Typical gongfu settings for aged pu-erh. A brief rinse wakes up old tea; keep steeps short and do not rush."
+  },
+  "caffeine_level": "medium",
+  "vintage_note": "Genuine Bazhong tea means 1950s production, sold only at collector level and rarely in full cakes. Later teas may use the same eight-zhong logo, which became a long-lived mark, so the logo alone does not date a tea. Fakes are a real concern, and provenance matters more than the wrapper.",
+  "description": "Bazhong Cha, eight-zhong tea, names a class of pu-erh made, packed and sold in the 1950s under the China Tea Company in Yunnan. It is defined by its label, eight red 中 characters ringing a green 茶, rather than by a mountain or a recipe.\n\nThe period's print-grade teas can be identified by packaging details: wrappers with Chinese text only and no parallel English, the seller given as the Yunnan branch of China Tea Company, an inner label with the single eight-zhong mark and no producer named, and no inner ticket.\n\nFew drinkers will ever taste a real one. As with other long-aged pu-erh, expect depth and wood rather than the sharpness of young sheng, and brew with care, with short steeps at very hot water.\n\nFor most of us this is a tea to know about rather than buy. Treat any offer of a 1950s cake with deep suspicion, and read modern teas with the logo simply as modern teas.",
+  "history": "The China Tea Company registered its Zhongcha trademark, number 8071, on 14 September 1951, and that year told its directly managed branches across the country to use it. The design had eight red 中 around a green 茶, and the trade came to call it eight-zhong, with a popular reading that Chinese tea was reaching all directions.\n\nThe name came to refer to the 1950s Yunnan production under that mark, the same group of teas collectors discuss as print-grade.",
+  "liquor_hex": "#6E2F14",
+  "leaf_hex": "#2F2118",
+  "wikipedia_title": "八中茶",
+  "wikipedia_scope": "exact",
+  "popularity": 3,
+  "sources": [
+    "https://zh.wikipedia.org/wiki/%E5%85%AB%E4%B8%AD%E8%8C%B6",
+    "https://www.wikidata.org/wiki/Q65058696"
+  ],
+  "confidence": "medium",
+  "images": []
+}

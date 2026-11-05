@@ -1,0 +1,53 @@
+{
+  "slug": "huaqiu-gongcha",
+  "name_en": "Huaqiu Gongcha",
+  "name_native": "花楸贡茶",
+  "name_romanized": "Huāqiū Gòngchá",
+  "aliases": [
+    "Huaqiugongcha"
+  ],
+  "category": "green",
+  "origin_country": "China",
+  "origin_region": "Sichuan · Qionglai",
+  "cultivar": null,
+  "form": "loose",
+  "caffeine_level": "medium",
+  "brewing": {
+    "grams": 3,
+    "water_ml": 150,
+    "temp_c": 80,
+    "steeps": 3,
+    "seconds": [
+      60,
+      75,
+      105
+    ],
+    "notes": "A safe starting point for green tea: cooler water, short steeps, then adjust by taste."
+  },
+  "taste_tags": [
+    "vegetal",
+    "sweet"
+  ],
+  "description": "A tribute-named tea from Huaqiu Mountain in Qionglai, near Chengdu.\n\nTreat it as you would any green tea: cooler water, short steeps, and a seller who can say where and when it was picked.",
+  "wikipedia_title": null,
+  "wikipedia_scope": "none",
+  "popularity": 1,
+  "name_zh": "花楸贡茶",
+  "name_ru": "Хуа Цю Гун Ча",
+  "history": "Local tradition holds that the Qiongzhou prefect Liu Jianguo brought it to court and that the Kangxi Emperor praised it as the finest garden under heaven, which is said to explain the name. A Song-era geography is cited for tribute tea from the Huojing tea ground in this area, pressed into small gilded cakes stamped with dragon and phoenix. The older claims of a Qin and Han pedigree rest on local accounts.",
+  "liquor_hex": "#D6D27A",
+  "leaf_hex": "#7E8B3E",
+  "sources": [
+    "https://milulu.com.cn/techan/26585.html"
+  ],
+  "confidence": "medium",
+  "images": [],
+  "stub": true,
+  "processing": "Typical of green tea: picked, heated soon after picking to stop oxidation, then shaped and dried.",
+  "harvest_season": "Usually picked in spring, with the earliest pickings prized, as with most green teas.",
+  "appearance_dry": "Green leaf whose shape depends on the maker, as is usual for regional green teas.",
+  "appearance_liquor": "Usually a clear, pale yellow-green.",
+  "appearance_wet": "Usually soft green leaf that opens up in the water.",
+  "taste_profile": "Expect what green teas usually give: fresh, vegetal and lightly sweet.",
+  "vintage_note": "Green teas like this are normally sold as the current year's harvest and are best within a year of picking. It is not an ageing tea."
+}

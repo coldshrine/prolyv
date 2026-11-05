@@ -3,7 +3,15 @@
   "name_en": "Loose Shu Pu-erh",
   "name_native": "熟普散茶",
   "name_romanized": "Shúpǔ Sǎnchá",
-  "aliases": ["Loose ripe pu-erh", "San cha", "Loose leaf shu", "Po lei", "Bo lei", "Restaurant pu-erh", "散熟茶"],
+  "aliases": [
+    "Loose ripe pu-erh",
+    "San cha",
+    "Loose leaf shu",
+    "Po lei",
+    "Bo lei",
+    "Restaurant pu-erh",
+    "散熟茶"
+  ],
   "category": "shu",
   "origin_country": "China",
   "origin_region": "Yunnan",
@@ -15,12 +23,44 @@
   "appearance_liquor": "Deep red-brown, clear after the rinse.",
   "appearance_wet": "Soft, relaxed brown leaves, uniform in size within a grade.",
   "taste_profile": "Depends on grade: the fine grades are rich, creamy and date-sweet with a quick fade, the coarse grades are lighter, woodier and sweeter with a longer session; all are smooth, earthy-sweet and easy.",
-  "taste_tags": ["earthy", "sweet", "dried-fruit", "woody"],
-  "brewing": {"grams": 7, "water_ml": 120, "temp_c": 100, "steeps": 9, "seconds": [8, 8, 10, 15, 20, 30, 45, 60, 120], "notes": "Rinse twice with boiling water, briefly; loose leaf opens at once, so keep early steeps short. Works equally well in a gaiwan, a big pot for the table, or a thermos with a few grams left in all day."},
+  "taste_tags": [
+    "earthy",
+    "sweet",
+    "dried-fruit",
+    "woody"
+  ],
+  "brewing": {
+    "grams": 7,
+    "water_ml": 120,
+    "temp_c": 100,
+    "steeps": 9,
+    "seconds": [
+      8,
+      8,
+      10,
+      15,
+      20,
+      30,
+      45,
+      60,
+      120
+    ],
+    "notes": "Rinse twice with boiling water, briefly; loose leaf opens at once, so keep early steeps short. Works equally well in a gaiwan, a big pot for the table, or a thermos with a few grams left in all day."
+  },
   "caffeine_level": "medium",
   "vintage_note": "Sold by grade and production year, by weight, from the big factories' standard grades to boutique single-origin loose lots, and it is drunk mostly at 1–10 years because loose tea airs out its pile smell fast and does not need pressing to be good. The grade number is the main price axis: smaller numbers mean finer, bud-richer, more aromatic and more expensive tea, larger numbers mean coarser, sweeter and cheaper. Hong Kong-stored loose ripe with ten or more years is a category of its own, sold by the catty through Cantonese dealers, and a 'year' on loose shu is often an estimate rather than a pressing date.",
   "description": "Loose shu is ripe pu-erh sold unpressed, straight from the sorting sieves, and it is the form in which most of the world actually drinks pu-erh: by the pot in Cantonese restaurants, by the mug in offices, by the kilo in the markets of Guangzhou. The Cantonese name, po lei or bo lei, is what you will see on a dim sum menu.\n\nAfter the pile is finished and dried, the tea is sieved into numbered grades by leaf size, from the tiny gong ting buds down to grade 9 leaves and stems, and sold by grade and weight. Loose tea airs out faster than a cake, so the pile smell leaves sooner and the tea is pleasant young; it also ages faster in humid air, which is how Hong Kong restaurant stocks end up tasting old within a decade.\n\nIn the cup the grade decides the style: fine grades are rich, creamy and date-sweet but give out in five or six steeps, coarse grades are lighter, woodier and sweeter and last all afternoon. All of it is smooth and easy, which is the point. Two quick boiling rinses and short early steeps; it is also the ideal tea for a big pot at the table or a thermos.\n\nIt is sold by grade and production year, from the standard grades of the big factories to single-origin loose lots from boutique makers, usually at the lowest prices in pu-erh. Buy a grade that suits how you drink: fine grades for a gaiwan session, grade 5–7 for a pot, coarse grades for all-day brewing. Smell before buying, as with all ripe tea: sweet and woody is right, sour or fishy is a pile fault.\n\nA bag of decent loose shu is the pu-erh to keep at work; it forgives being forgotten in the pot in a way no other tea here does.",
   "wikipedia_title": "Pu'er tea",
   "wikipedia_scope": "umbrella",
-  "popularity": 3
+  "popularity": 3,
+  "name_zh": "熟普散茶",
+  "name_ru": "Рассыпной Шу Пуэр",
+  "history": "Loose shu is ripe pu-erh that was never pressed, sold after fermentation and sorting by grade. It is the everyday form of the tea, and in Cantonese restaurants it is the pot known as po lei or bo lei.\n\nLittle is documented about any single beginning, because it is a form and not a specific product. Its story is really that of ripe pu-erh and of Cantonese tea-house drinking.",
+  "liquor_hex": "#4C1E0E",
+  "leaf_hex": "#352217",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Pu%27er_tea"
+  ],
+  "confidence": "low",
+  "images": []
 }

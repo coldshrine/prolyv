@@ -1,0 +1,80 @@
+{
+  "slug": "iced-tea",
+  "name_en": "Iced Tea",
+  "name_native": null,
+  "name_romanized": null,
+  "name_zh": "冰茶",
+  "name_ru": "Холодный чай",
+  "aliases": [
+    "ice tea",
+    "Айс-ти",
+    "Чай со льдом",
+    "冰红茶"
+  ],
+  "category": "black",
+  "origin_country": "United States",
+  "origin_region": "Southern United States",
+  "cultivar": null,
+  "processing": "Any tea chilled or cooled, usually served over ice, sweetened or not. Black is the Western default, but green, oolong, white and herbal versions are all common.",
+  "form": "other",
+  "harvest_season": "No harvest of its own: it depends on the tea used, and drinking it peaks in hot weather.",
+  "appearance_dry": "Whatever tea it starts from; in the classic American style, ordinary black tea or teabags.",
+  "appearance_liquor": "Clear reddish amber over ice in the black version, though it can cloud when chilled.",
+  "appearance_wet": "Depends on the tea used; the leaf is removed before serving.",
+  "taste_profile": "Cold, brisk and refreshing, with the tea's tannin in front; sugar, lemon, peach or mint are common and change it considerably.",
+  "taste_tags": [
+    "brisk",
+    "citrus",
+    "sweet"
+  ],
+  "brewing": {
+    "grams": 6,
+    "water_ml": 500,
+    "temp_c": 95,
+    "steeps": 1,
+    "seconds": [
+      300
+    ],
+    "notes": "Brew strong and cool it, or pour a small amount of strong hot tea over plenty of ice so dilution brings it into balance. Sun tea uses a long, low-temperature steep instead."
+  },
+  "caffeine_level": "medium",
+  "vintage_note": "Not sold by vintage: ready-to-drink bottles and cans carry a best-before date, and home iced tea should be drunk within a short time. Consumption is seasonal in many countries, mostly in summer, and year-round in hot regions.",
+  "description": "Iced tea is any tea served chilled, usually over ice, with or without sweetening. It is a way of serving tea rather than a tea, and the bottled version has become a major soft drink in its own right.\n\nThe method is simple: brew strong and cool it down fast, or pour hot tea directly over ice. Sun tea takes the slow route, steeping for an hour in the sun. Herbal infusions get the same treatment and often the same name.\n\nThe flavour depends on where you are. The southern United States likes it heavily sweetened as sweet tea, and New England more moderately, often with mint. Indonesia drinks es teh manis, Vietnam has trà đá at street stalls, and in Brazil and Paraguay iced mate is the local form. The common mistake is brewing at normal strength, which melting ice then waters down.\n\nFor buying, the choice is really between homemade and ready-to-drink. Brands such as Lipton, Nestea and Fuze Tea dominate many shelves, and flavoured syrups do much of the work there. For the clearest taste, brew it yourself from a tea you already enjoy.",
+  "history": "Marguerite, Countess of Blessington, wrote of sipping iced tea in Naples as early as 1823, and the oldest printed recipes date to the 1870s. It became a signature drink of the American South in the nineteenth century.\n\nRichard Blechynden is credited with popularising it at the 1904 St. Louis World's Fair, when hot weather made hot tea a hard sell; that is the widely told story, though the drink was not new by then. Bottling came later: in 1983 the Swiss company Bischofszell became the first industrial-scale producer of bottled iced tea.\n\nThe habit has since spread and localised. In China it took off from the late 1980s, in Russia after 2000, and in Turkey in the 2000s through Lipton.",
+  "liquor_hex": "#B5602A",
+  "leaf_hex": "#33261C",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Iced_tea",
+    "https://zh.wikipedia.org/wiki/%E5%86%B0%E8%8C%B6",
+    "https://ru.wikipedia.org/wiki/%D0%A5%D0%BE%D0%BB%D0%BE%D0%B4%D0%BD%D1%8B%D0%B9_%D1%87%D0%B0%D0%B9",
+    "https://ko.wikipedia.org/wiki/%EB%83%89%EC%B0%A8",
+    "https://vi.wikipedia.org/wiki/Tr%C3%A0_%C4%91%C3%A1",
+    "https://www.wikidata.org/wiki/Q348958"
+  ],
+  "confidence": "high",
+  "wikipedia_title": "Iced tea",
+  "wikipedia_scope": "exact",
+  "popularity": 3,
+  "images": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/e/e1/NCI_iced_tea.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e1/NCI_iced_tea.jpg/330px-NCI_iced_tea.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source_page": "https://commons.wikimedia.org/wiki/File:NCI_iced_tea.jpg",
+      "author": "Renee Comet (photographer)",
+      "license": "Public domain",
+      "license_url": null,
+      "kind": "liquor",
+      "alt": "Tall glass of reddish-amber iced tea with ice and a lemon slice on a white background"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/f/f3/Glass_of_iced_tea_-_Evan_Swigart.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f3/Glass_of_iced_tea_-_Evan_Swigart.jpg/330px-Glass_of_iced_tea_-_Evan_Swigart.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Glass_of_iced_tea_-_Evan_Swigart.jpg",
+      "author": "Evan Swigart from Chicago, USA",
+      "license": "CC BY 2.0",
+      "license_url": "https://creativecommons.org/licenses/by/2.0",
+      "kind": "liquor",
+      "alt": "Glass of golden iced tea with ice cubes, a lemon wedge and a spoon"
+    }
+  ]
+}

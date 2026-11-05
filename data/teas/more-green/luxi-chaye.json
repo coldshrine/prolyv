@@ -1,0 +1,54 @@
+{
+  "slug": "luxi-chaye",
+  "name_en": "Luxi Tea",
+  "name_native": "潞西茶叶",
+  "name_romanized": "Lùxī Cháyè",
+  "aliases": [
+    "Luxi Chaye",
+    "Luxichaye"
+  ],
+  "category": "green",
+  "origin_country": "China",
+  "origin_region": "Yunnan · Mangshi (Luxi), Dehong",
+  "cultivar": null,
+  "form": "loose",
+  "caffeine_level": "medium",
+  "brewing": {
+    "grams": 3,
+    "water_ml": 150,
+    "temp_c": 80,
+    "steeps": 3,
+    "seconds": [
+      60,
+      75,
+      105
+    ],
+    "notes": "A safe starting point for green tea: cooler water, short steeps, then adjust by taste."
+  },
+  "taste_tags": [
+    "vegetal",
+    "sweet"
+  ],
+  "description": "Tea from the hill country of Mangshi, formerly Luxi, in Dehong, Yunnan, grown at about 1200 to 1800 metres.\n\nTreat it as you would any green tea: cooler water, short steeps, and a seller who can say where and when it was picked.",
+  "wikipedia_title": null,
+  "wikipedia_scope": "none",
+  "popularity": 1,
+  "name_zh": "潞西茶叶",
+  "name_ru": "Лу Си Ча Е",
+  "history": "The area keeps old cultivated tea stands, including a Guanzhai village tree said to be over 600 years old and a Sanjiaoyan tree over 300. Researchers from the Tea Research Institute of the Chinese Academy of Agricultural Sciences surveyed the district and agreed an ecological tea garden base with the local government. Little is documented about the finished tea itself.",
+  "liquor_hex": "#D6D27A",
+  "leaf_hex": "#7E8B3E",
+  "sources": [
+    "https://milulu.com.cn/techan/23321.html"
+  ],
+  "confidence": "low",
+  "images": [],
+  "stub": true,
+  "processing": "Typical of green tea: picked, heated soon after picking to stop oxidation, then shaped and dried.",
+  "harvest_season": "Usually picked in spring, with the earliest pickings prized, as with most green teas.",
+  "appearance_dry": "Green leaf whose shape depends on the maker, as is usual for regional green teas.",
+  "appearance_liquor": "Usually a clear, pale yellow-green.",
+  "appearance_wet": "Usually soft green leaf that opens up in the water.",
+  "taste_profile": "Expect what green teas usually give: fresh, vegetal and lightly sweet.",
+  "vintage_note": "Green teas like this are normally sold as the current year's harvest and are best within a year of picking. It is not an ageing tea."
+}

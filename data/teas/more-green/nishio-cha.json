@@ -1,0 +1,76 @@
+{
+  "slug": "nishio-cha",
+  "name_en": "Nishio-cha",
+  "name_native": "西尾茶",
+  "name_zh": "西尾茶",
+  "name_ru": "Нисио-тя",
+  "name_romanized": "Nishio-cha",
+  "aliases": [
+    "Nishio Tea",
+    "Nishio matcha",
+    "西尾の抹茶"
+  ],
+  "category": "green",
+  "origin_country": "Japan",
+  "origin_region": "Aichi · Nishio",
+  "cultivar": null,
+  "processing": "Bushes are covered with black netting for about 20 days, cutting some 97% of sunlight. The leaf is made into tencha and ground, in the branded product on a stone mill, into matcha.",
+  "form": "powder",
+  "harvest_season": "As is usual for tencha, the spring first flush gives the top grades. Later pickings typically go to food use.",
+  "appearance_dry": "A fine powder of deep green, the colour the area is known for.",
+  "appearance_liquor": "An opaque, bright green suspension with a fine foam when whisked.",
+  "appearance_wet": "No whole leaf is seen: the powder is drunk with the water.",
+  "taste_profile": "Mild umami and a rounded richness with a refined aroma, rather than a sharp or very bitter cup.",
+  "taste_tags": [
+    "umami",
+    "vegetal",
+    "creamy",
+    "sweet"
+  ],
+  "brewing": {
+    "grams": 2,
+    "water_ml": 70,
+    "temp_c": 80,
+    "steeps": 1,
+    "seconds": [
+      20
+    ],
+    "notes": "Sift, add water around 80 °C and whisk until foamy. Culinary grades are made for baking and lattes, so buy a drinking grade for a plain bowl."
+  },
+  "caffeine_level": "high",
+  "vintage_note": "Like other matcha, it is sold by grade rather than by vintage, and is best used soon after grinding and opening. Check the milling date if given and keep it sealed and cold. Most of what Nishio produces goes to manufacturers, so the label decides whether you have a ceremonial or a food grade.",
+  "description": "Nishio tea comes from Nishio and neighbouring Anjo in Aichi, and it is nearly all matcha. The two cities grow around 400 tonnes of tencha a year on about 150 hectares, roughly a fifth of Japan's total. The heart of it is Inariyama, a hill of well-drained sandy loam.\n\nThe bushes spend about 20 days under black netting, losing 97% of their sunlight, which gives the deep green leaf. Good granite for tea mills came from neighbouring Okazaki, one of the reasons a powder industry grew here.\n\nThe flavour is gentle: soft umami and body with a refined aroma. Whisk it with water that is not boiling and sift first. In a latte a food grade works fine, but in a plain bowl the difference shows.\n\nOver 90% of Nishio tea goes into food manufacturing, including ice cream, chocolate and drinks, so you may have eaten it without knowing. The registered mark is Nishio no Matcha, limited to leaf from Nishio and Anjo that is refined there and ground on a stone mill. Look for it if you want the real regional product.",
+  "history": "The origin is traditionally placed in 1271, when Shoichi Kokushi, founder of Jissoji temple, is said to have sown seed brought from Song China on temple grounds. Firmer ground comes in 1872, when the priest Adachi Jundo of Koju-in brought seed and technique from Uji, and in 1884, when fields were opened around Inariyama.\n\nA tunnel tencha machine, the Mikawa type, was devised in the 1930s and the local industry grew sharply. Around 1960 a national boom in tea production put Nishio in trouble. Its answer was matcha as a food ingredient, and output nearly doubled over the 30 years to 2009.\n\nBecause the name stayed little known, growers sought regional-brand status from 2005 and received it in February 2009, the first such brand limited to matcha in Japan. In 2006 a mass tea gathering of 14,718 people on the main street entered the Guinness records.",
+  "liquor_hex": "#86AD3A",
+  "leaf_hex": "#5F8A2B",
+  "sources": [
+    "https://ja.wikipedia.org/wiki/%E8%A5%BF%E5%B0%BE%E8%8C%B6",
+    "https://www.wikidata.org/wiki/Q11627781"
+  ],
+  "confidence": "medium",
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c8/Nishio-Tea-3.jpg/1280px-Nishio-Tea-3.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c8/Nishio-Tea-3.jpg/330px-Nishio-Tea-3.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Nishio-Tea-3.jpg",
+      "author": "Evelyn-rose",
+      "license": "CC0",
+      "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "kind": "plantation",
+      "alt": "Rows of clipped tea bushes in a field in Kamimachi, Nishio, Aichi"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ab/Nishio-Tea-5.jpg/1280px-Nishio-Tea-5.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ab/Nishio-Tea-5.jpg/330px-Nishio-Tea-5.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Nishio-Tea-5.jpg",
+      "author": "Evelyn-rose",
+      "license": "CC0",
+      "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "kind": "plantation",
+      "alt": "Tea bushes under blue shade cover in Nishio, with a worker alongside"
+    }
+  ],
+  "wikipedia_title": null,
+  "wikipedia_scope": "none",
+  "popularity": 3
+}

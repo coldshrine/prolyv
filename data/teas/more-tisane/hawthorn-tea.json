@@ -1,0 +1,58 @@
+{
+  "slug": "hawthorn-tea",
+  "name_en": "Hawthorn Tea",
+  "name_native": "山楂茶",
+  "name_romanized": "Shānzhā Chá",
+  "name_zh": "山楂茶",
+  "name_ru": "Чай из боярышника",
+  "aliases": [
+    "Hawthorn",
+    "Hawthorn berry tea",
+    "Shan Zha Cha",
+    "Шань Чжа Ча"
+  ],
+  "category": "tisane",
+  "origin_country": "China",
+  "origin_region": "Northern China · Shandong",
+  "cultivar": null,
+  "processing": "Hawthorn fruit is sliced and dried, then steeped on its own or alongside green tea or chrysanthemum. No tea leaf is needed and nothing is fermented.",
+  "form": "other",
+  "harvest_season": "Made from the ripe fruit, which as a rule is picked in autumn; little is documented about harvest for tea specifically.",
+  "appearance_dry": "Hard, curled slices of dried fruit with a reddish skin and pale tan flesh.",
+  "appearance_liquor": "Clear, light amber with a faint pink-orange cast, deepening with more fruit.",
+  "appearance_wet": "Softened, swollen fruit slices with a dull red rim.",
+  "taste_profile": "Sharply sour and fruity with a soft sweetness behind it; too many slices make it plainly tart.",
+  "taste_tags": [
+    "tart",
+    "fruity",
+    "sweet"
+  ],
+  "brewing": {
+    "grams": 5,
+    "water_ml": 300,
+    "temp_c": 100,
+    "steeps": 2,
+    "seconds": [
+      300,
+      480
+    ],
+    "notes": "Four or five slices in a mug are plenty. Start with fewer if you dislike sourness; a little rock sugar or a few chrysanthemum flowers softens it."
+  },
+  "caffeine_level": "none",
+  "vintage_note": "Sold as dried slices with no vintage, usually by weight or in small packs. As with other dried fruit, look for a recent packing date and choose fresh-smelling slices; ageing brings nothing. Blends with green tea do contain caffeine, so check the label.",
+  "description": "Hawthorn tea is not tea in the botanical sense: it is dried slices of hawthorn fruit steeped in hot water. It is an everyday Chinese drink, and its one distinctive feature is honest sourness.\n\nThe fruit is cut and dried, so the slices stay hard and hold up well in hot water. Some recipes add a bag of green tea to two or three slices, which brings astringency and caffeine to the fruit.\n\nThe cup is sour first and gently sweet second. The usual mistake is using too much fruit, which gives a drink that is simply acidic. Begin with four or five slices in a mug and adjust from there.\n\nBuying is simple. Shandong, Shanxi, Liaoning, Henan and Hebei are named as the main hawthorn regions, with Linyi in Shandong known for the tea, though that comes from trade writing rather than any formal standard. Slices sold as naturally dried look duller than the bright ones, and some drinkers prefer them for that reason.\n\nBecause of the acidity, people with acid reflux should go carefully, and diabetics should watch any added sugar. Weight-loss claims often attached to this drink are folk marketing and should not be taken as fact.",
+  "history": "Little is documented about hawthorn tea as a named drink. It appears in modern Chinese lists of slimming teas and in herbal shops, and those lists are popular claims rather than evidence. No clear date or originator for the drink is on record.",
+  "wikipedia_title": null,
+  "wikipedia_scope": "none",
+  "popularity": 3,
+  "liquor_hex": "#C98A4E",
+  "leaf_hex": "#A8603F",
+  "sources": [
+    "https://www.maigoo.com/goomai/317698.html",
+    "https://pulsetcm.sg/?p=6439",
+    "https://www.rmzxw.com.cn/xywy/jkst/2015/04/23/488609.shtml",
+    "https://zh.wikipedia.org/wiki/%E5%87%8F%E8%82%A5%E8%8C%B6"
+  ],
+  "confidence": "low",
+  "images": []
+}

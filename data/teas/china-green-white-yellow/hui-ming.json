@@ -3,10 +3,17 @@
   "name_en": "Hui Ming (Jingning Huiming)",
   "name_native": "惠明茶",
   "name_romanized": "Huìmíng Chá",
-  "aliases": ["Huiming tea", "Jingning Huiming", "Jingning Hui Ming", "Huiming Mao Feng", "She tea"],
+  "aliases": [
+    "Huiming tea",
+    "Jingning Huiming",
+    "Jingning Hui Ming",
+    "Huiming Mao Feng",
+    "She tea",
+    "金奖惠明"
+  ],
   "category": "green",
   "origin_country": "China",
-  "origin_region": "Zhejiang · Lishui · Jingning She Autonomous County",
+  "origin_region": "Zhejiang · Lishui · Jingning",
   "cultivar": "Jingning local landrace (Huiming group) with some Fuding Dabai and Longjing 43",
   "processing": "Pan-fired then baked green: shoots are fired, lightly rolled into a slight curve, rubbed to raise the down and dried gently, keeping a bright green leaf with visible fuzz.",
   "form": "loose",
@@ -15,13 +22,43 @@
   "appearance_liquor": "Pale, clear green-gold.",
   "appearance_wet": "Tender, even bud-and-leaf sets, bright green.",
   "taste_profile": "Orchid and fresh chestnut with a soft, sweet, slightly thick body and a lingering cool sweetness.",
-  "taste_tags": ["floral", "nutty", "sweet", "umami"],
-  "brewing": {"grams": 4, "water_ml": 120, "temp_c": 80, "steeps": 4, "seconds": [30, 30, 45, 70], "notes": "Gaiwan or glass at 80 °C. Gentle leaf with a surprising fourth steep; keep the water off the boil."},
+  "taste_tags": [
+    "floral",
+    "nutty",
+    "sweet",
+    "umami"
+  ],
+  "brewing": {
+    "grams": 4,
+    "water_ml": 120,
+    "temp_c": 80,
+    "steeps": 4,
+    "seconds": [
+      30,
+      30,
+      45,
+      70
+    ],
+    "notes": "Gaiwan or glass at 80 °C. Gentle leaf with a surprising fourth steep; keep the water off the boil."
+  },
   "caffeine_level": "medium",
   "vintage_note": "Sold as the current year's spring harvest in pre-Qingming and yu qian grades, mostly within Zhejiang; the Jingning origin is a protected label. Drink within the year, kept cold and sealed.",
   "description": "Hui Ming is the green tea of Jingning, a She ethnic autonomous county in the mountains of southern Zhejiang, and it takes its name from the Huiming Temple whose monks are said to have planted the first bushes on the slopes behind it. It is a modest-production mountain green with a long local reputation; the gold award it is said to have received at the 1915 Panama-Pacific exposition in San Francisco is the fact every local will tell you first.\n\nThe style sits between Zhejiang's bud teas and Anhui's Mao Feng: pan-fired, lightly rolled into a gentle curve, rubbed to raise the down, then dried softly, so the leaf stays bright green and fuzzy and the aroma fresh.\n\nIn the cup it is orchid and fresh chestnut over a soft, sweet, slightly thick body, with a cool sweetness that lingers; the mountain gardens give it more staying power than its delicate look suggests, and a gaiwan at 80 °C will get four steeps. It rewards calm brewing: off-the-boil water and a light hand.\n\nIt is sold as the spring crop of the current year in pre-Qingming and yu qian lots, and most of it is sold within Zhejiang, where it has a loyal following in Lishui and Wenzhou. The Jingning name is protected; tea from the surrounding Lishui hills is sometimes sold under it. Look for bright, even, downy shoots with a sweet floral smell and a picking date no earlier than late March.\n\nIf you reach Jingning, the She villages above the temple are worth the trip for the tea and the scenery alike.",
   "wikipedia_title": "Green tea",
   "wikipedia_scope": "umbrella",
   "popularity": 2,
-  "sources_note": "No dedicated English Wikipedia article found. The 1915 Panama-Pacific gold award is widely repeated in Chinese sources and is given here as a claim, not verified."
+  "sources_note": "No dedicated English Wikipedia article found. The 1915 Panama-Pacific gold award is widely repeated in Chinese sources and is given here as a claim, not verified.",
+  "name_zh": "惠明茶",
+  "name_ru": "Хуэй Мин",
+  "history": "Hui Ming comes from Jingning in the hills of southern Zhejiang and takes its name from Huiming Temple. The usual story credits a Tang-dynasty Chan monk named Huiming with finding or planting tea on the mountain, though local accounts disagree on his dates and movements, so it is best read as a legend.\n\nThe firmest early-modern fact is the award at the 1915 Panama-Pacific exposition in San Francisco: the lists of first-class gold medals include Huiming tea, recorded under Yunhe in Zhejiang. Secondary accounts citing the Chuzhou prefecture gazetteer say it became a Ming tribute tea in 1482, a date not checked against the gazetteer itself. It now holds a geographical indication.",
+  "liquor_hex": "#DCD88F",
+  "leaf_hex": "#8A9A55",
+  "sources": [
+    "https://zh.wikipedia.org/wiki/%E4%B8%AD%E5%9B%BD%E5%8D%81%E5%A4%A7%E5%90%8D%E8%8C%B6",
+    "https://tidenews.com.cn/news.html?id=3256626",
+    "https://www.sohu.com/a/762593201_424926",
+    "https://www.maigoo.com/citiao/49998.html"
+  ],
+  "confidence": "medium",
+  "images": []
 }

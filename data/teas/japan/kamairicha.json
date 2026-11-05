@@ -3,10 +3,17 @@
   "name_en": "Kamairicha",
   "name_native": "釜炒り茶",
   "name_romanized": "Kamairicha",
-  "aliases": ["Pan-fired green tea", "Kamairi-cha", "Kama-guri", "Takachiho tea", "Gokase tea", "Kamairi tamaryokucha"],
+  "aliases": [
+    "Pan-fired green tea",
+    "Kamairi-cha",
+    "Kama-guri",
+    "Takachiho tea",
+    "Gokase tea",
+    "Kamairi tamaryokucha"
+  ],
   "category": "green",
   "origin_country": "Japan",
-  "origin_region": "Miyazaki · Takachiho and Gokase; Kumamoto; Saga · Ureshino",
+  "origin_region": "Miyazaki · Takachiho",
   "cultivar": "Yabukita, Minekaori, Takachiho (a local cultivar), seed-grown zairai bushes",
   "processing": "Fresh leaf is fired in a hot pan or heated rotating drum (traditionally starting around 300 °C) instead of being steamed, then rolled and dried, with a final pan roast that gives the toasty 'kama-ka' aroma; the leaf ends up curled rather than needle-shaped.",
   "form": "loose",
@@ -15,12 +22,62 @@
   "appearance_liquor": "Clear, bright gold-yellow rather than green.",
   "appearance_wet": "Whole, supple, olive-green leaves.",
   "taste_profile": "Toasty, nutty pan aroma with a light, clean body, sweet chestnut notes and a crisp finish; little of the seaweed umami of steamed tea.",
-  "taste_tags": ["nutty", "roasted", "sweet", "grassy", "floral"],
-  "brewing": {"grams": 5, "water_ml": 150, "temp_c": 85, "steeps": 3, "seconds": [60, 20, 60], "notes": "Hotter than sencha (80–90 °C) to lift the roasted aroma; it is far more forgiving of timing and heat. A kyusu or a gaiwan both work, and it cold-brews bright and clean."},
+  "taste_tags": [
+    "nutty",
+    "roasted",
+    "sweet",
+    "grassy",
+    "floral"
+  ],
+  "brewing": {
+    "grams": 5,
+    "water_ml": 150,
+    "temp_c": 85,
+    "steeps": 3,
+    "seconds": [
+      60,
+      20,
+      60
+    ],
+    "notes": "Hotter than sencha (80–90 °C) to lift the roasted aroma; it is far more forgiving of timing and heat. A kyusu or a gaiwan both work, and it cold-brews bright and clean."
+  },
   "caffeine_level": "medium",
   "vintage_note": "A small-production tea sold by the current year's harvest, almost always first flush, by family farms in Miyazaki, Kumamoto and Saga, often labelled with the village (Takachiho, Gokase) and sometimes the cultivar. Fresh lots appear in May; it holds its aroma a little better than steamed tea but is still best within the year.",
-  "description": "Kamairicha is Japan's pan-fired green tea, the rare exception to steaming. It is made in the mountains of Miyazaki (Takachiho and Gokase above all), in Kumamoto and around Ureshino in Saga, and it accounts for only a small fraction of the country's output. The pan-firing method came to Kyushu from China long before the steamed sencha process was developed in the eighteenth century, so in a sense this is the older Japanese green tea.\n\nFresh leaf goes into a hot pan or a heated rotating drum, traditionally at around 300 °C to begin with, where it is tossed until the enzymes are killed and the leaf goes limp; it is then rolled and dried, and finished with a further pan roast. No steam means a clear, golden cup rather than a green one, and the hot metal gives the toasty 'kama-ka' aroma that is the whole point. The leaf stays curled and twisted, closer in look to a Chinese green than to sencha.\n\nIt is the easiest Japanese green tea to brew. Water at 80–90 °C, 5 g for 150 ml, a minute for the first steep and shorter for the second, and it gives a light, clean cup with toasted nut, a sweet chestnut note, a little grass and a crisp finish, with almost none of the seaweed umami of steamed tea. It shrugs off slightly hot water and slightly long steeps, and a gaiwan works as well as a kyusu. Cold-brewed it is bright and refreshing.\n\nIt comes from small family farms and is sold by the current year's first flush, often with the village on the label and sometimes the cultivar; Takachiho and Gokase are the names to look for, and 'kama-guri' on a Saga tea means the same pan-fired, curly style. It costs a little more than lowland sencha because the mountain yields are low and the work is still partly by hand. Store it like any green tea, although it holds its aroma a little longer than steamed sencha does.\n\nIt is the natural bridge for anyone who drinks Chinese greens such as Longjing and wants to try Japan without the steamed flavour.",
+  "description": "Kamairicha is Japan's pan-fired green tea, the rare exception to steaming. It is made in the mountains of Miyazaki (Takachiho and Gokase above all), in Kumamoto, in Nagasaki and around Ureshino in Saga, and it accounts for only a small fraction of the country's output. The pan-firing method came from China, though when it reached Kyushu is undocumented; it is usually placed in the 15th or 16th century, on tradition rather than records.\n\nFresh leaf goes into a hot pan or a heated rotating drum, traditionally at around 300 °C to begin with, where it is tossed until the enzymes are killed and the leaf goes limp; it is then rolled and dried, and finished with a further pan roast. No steam means a clear, golden cup rather than a green one, and the hot metal gives the toasty 'kama-ka' aroma that is the whole point. The leaf stays curled and twisted, closer in look to a Chinese green than to sencha.\n\nIt is the easiest Japanese green tea to brew. Water at 80–90 °C, 5 g for 150 ml, a minute for the first steep and shorter for the second, and it gives a light, clean cup with toasted nut, a sweet chestnut note, a little grass and a crisp finish, with almost none of the seaweed umami of steamed tea. It shrugs off slightly hot water and slightly long steeps, and a gaiwan works as well as a kyusu. Cold-brewed it is bright and refreshing.\n\nIt comes from small family farms and is sold by the current year's first flush, often with the village on the label and sometimes the cultivar; Takachiho and Gokase are the names to look for, and 'kama-guri' on a Saga tea means the same pan-fired, curly style. It costs a little more than lowland sencha because the mountain yields are low and the work is still partly by hand. Store it like any green tea, although it holds its aroma a little longer than steamed sencha does.\n\nIt is the natural bridge for anyone who drinks Chinese greens such as Longjing and wants to try Japan without the steamed flavour.",
   "wikipedia_title": "Kamairicha",
   "wikipedia_scope": "exact",
-  "popularity": 2
+  "popularity": 2,
+  "name_zh": "釜炒茶",
+  "name_ru": "Камаиритя",
+  "history": "Pan-firing is a Chinese method, and Japanese kamairicha is its Kyushu branch. When it arrived is not settled: it is often said to have come in the Ming period, but no primary record backs this. Ureshino has its own story, a tradition that a Chinese potter who came in the mid 15th century brought it.\n\nThe tea is said to have spread widely in the Edo period, and before modern sencha took over it may have stood beside matcha as a leading Japanese tea. Today it is a small Kyushu speciality from Saga, Nagasaki, Kumamoto, Oita and Miyazaki, with Ureshino and Sechibaru held in particular respect. Its leaf is comma-shaped, hence the other name tamaryokucha. A steamed tea of similar shape, made in Izu from the 1930s for export after the look of Chinese tea, shares the name, so the pan-fired kind is often specified.",
+  "liquor_hex": "#DDBF5A",
+  "leaf_hex": "#6E7340",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Kamairicha",
+    "https://ja.wikipedia.org/wiki/%E9%87%9C%E7%82%92%E3%82%8A%E8%8C%B6",
+    "https://ru.wikipedia.org/wiki/%D0%9A%D0%B0%D0%BC%D0%B0%D0%B8%D1%80%D0%B8%D1%82%D1%8F"
+  ],
+  "confidence": "high",
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7c/Kamairicha.jpg/1280px-Kamairicha.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7c/Kamairicha.jpg/330px-Kamairicha.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Kamairicha.jpg",
+      "author": "Difference engine",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "kind": "dry_leaf",
+      "alt": "Pile of twisted olive-green dry kamairicha leaves on a white background"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cb/Two_small_tasting_cups_of_kamairicha.jpg/1280px-Two_small_tasting_cups_of_kamairicha.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cb/Two_small_tasting_cups_of_kamairicha.jpg/330px-Two_small_tasting_cups_of_kamairicha.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Two_small_tasting_cups_of_kamairicha.jpg",
+      "author": "Difference engine",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "kind": "liquor",
+      "alt": "Two small white tasting cups of pale yellow-green kamairicha"
+    }
+  ]
 }

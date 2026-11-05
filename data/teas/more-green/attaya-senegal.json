@@ -1,0 +1,60 @@
+{
+  "slug": "attaya-senegal",
+  "name_en": "Attaya (Senegalese green tea)",
+  "name_native": "ataaya",
+  "name_romanized": "Ataaya",
+  "name_zh": "塞内加尔阿塔雅茶",
+  "name_ru": "Аттая",
+  "aliases": [
+    "Attaya",
+    "Сенегальский чай (Attaya)",
+    "Ataaya",
+    "Ataya",
+    "Senegalese tea"
+  ],
+  "category": "green",
+  "origin_country": "Senegal",
+  "origin_region": "Senegal",
+  "cultivar": null,
+  "processing": "A way of preparing tea: Chinese green tea, often gunpowder, is boiled with water and sometimes mint in a small metal pot over charcoal, heavily sugared and poured repeatedly between pot and glasses to raise foam.",
+  "form": "loose",
+  "harvest_season": "Not relevant: the leaf is imported Chinese green tea, not tied to a local picking.",
+  "appearance_dry": "Usually gunpowder-style green tea, small dark grey-green rolled pellets.",
+  "appearance_liquor": "Dark amber-green and strong, topped in the small glass with a thick pale foam.",
+  "appearance_wet": "Well-boiled, opened dull leaves, often mixed with soft mint.",
+  "taste_profile": "The first glass is intense, very sweet and tannic; the second sweeter, the third very sweet, minty and much less bitter, since the same leaves are reused.",
+  "taste_tags": [
+    "sweet",
+    "bitter",
+    "herbal"
+  ],
+  "brewing": {
+    "grams": 10,
+    "water_ml": 300,
+    "temp_c": 100,
+    "steeps": 3,
+    "seconds": [
+      300,
+      300,
+      300
+    ],
+    "notes": "A starting point, not a fixed recipe. Boil on the stove, add sugar generously, pour from high up into small glasses and back several times to build foam. Reuse the leaves for all three rounds, adding more mint and sugar each time."
+  },
+  "caffeine_level": "high",
+  "vintage_note": "The ritual has no vintage. The tea behind it is sold as ordinary imported Chinese green tea without much emphasis on year or season, and it is sometimes made with black tea; ready-to-drink cold cans also exist.",
+  "description": "Attaya is less a kind of leaf than a social event. In Wolof it names the tea and the ritual around it in Senegal, and much the same custom exists in Mali, Guinea, Gambia and Mauritania. Friends sit, talk and wait, because it is meant to take a long time.\n\nChinese green tea, usually gunpowder, goes into a small metal pot with water and sometimes mint, and boils on charcoal. Sugar is added, and the tea is poured from a height into small glasses and back, again and again. The goal is foam, and the thicker it is, the better the round is thought to be.\n\nThere are three rounds from the same leaves. The first is fierce, both sweet and tannic. The second is softer, and the third is the sweetest and gentlest. It is strong stuff, so small glasses are not an affectation.\n\nDetails vary by place: some make only one round, and black tea sometimes stands in for green. For home, a plain inexpensive gunpowder works fine. Do not try this with a delicate green, because boiling would wreck it.",
+  "history": "The words used for the tea, the small pot and the mint in the region's languages are mostly borrowed from Arabic, which points to a Moorish origin for the custom. No firm date for its arrival is documented.\n\nToday the habit is very widespread: over 80% of Senegalese aged 15 to 60 are reported to drink tea. Its cultural weight shows in Ismaël Lô's song Ataya, on his 1986 album Natt.\n\nThe three rounds have also picked up a popular reading, in which they stand for different kinds of love or stages of life.",
+  "liquor_hex": "#8F6A24",
+  "leaf_hex": "#4D5436",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Senegalese_tea_culture",
+    "https://zh.wikipedia.org/wiki/%E5%A1%9E%E5%86%85%E5%8A%A0%E7%88%BE%E8%8C%B6%E6%96%87%E5%8C%96",
+    "https://ru.wikipedia.org/wiki/%D0%A7%D0%B0%D0%B9",
+    "https://de.wikipedia.org/wiki/Ataya"
+  ],
+  "confidence": "high",
+  "wikipedia_title": "Senegalese tea culture",
+  "wikipedia_scope": "umbrella",
+  "popularity": 3,
+  "images": []
+}

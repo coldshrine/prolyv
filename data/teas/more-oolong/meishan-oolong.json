@@ -1,0 +1,60 @@
+{
+  "slug": "meishan-oolong",
+  "name_en": "Meishan Oolong",
+  "name_native": "梅山烏龍茶",
+  "name_romanized": "Méishān Wūlóng",
+  "name_zh": "梅山乌龙茶",
+  "name_ru": "Мэй Шань Улун",
+  "aliases": [
+    "Meishan",
+    "梅山乌龙",
+    "梅山",
+    "Mei Shan Oolong"
+  ],
+  "category": "oolong",
+  "origin_country": "Taiwan",
+  "origin_region": "Chiayi · Meishan",
+  "cultivar": "Oolong varieties and newer cultivars, varying by garden",
+  "processing": "Light oxidation and semi-ball rolling with little or no roast, typical of Taiwanese high-mountain oolong.",
+  "form": "loose",
+  "harvest_season": "Mainly spring and winter, the two seasons of Meishan's local high-mountain tea competitions.",
+  "appearance_dry": "Tight, bright fresh-green semi-rolled balls.",
+  "appearance_liquor": "Clear green-tinged yellow.",
+  "appearance_wet": "Soft, thick green leaves that open fully, as with other Taiwanese mountain oolongs.",
+  "taste_profile": "Mellow, soft and rather full in the mouth, with a light, elegant aroma, more sweetness than bitterness, and good staying power over repeated steeps.",
+  "taste_tags": [
+    "floral",
+    "sweet",
+    "creamy"
+  ],
+  "brewing": {
+    "grams": 6,
+    "water_ml": 110,
+    "temp_c": 95,
+    "steeps": 6,
+    "seconds": [
+      45,
+      25,
+      30,
+      40,
+      55,
+      75
+    ],
+    "notes": "Long first steep to open the balls, then shorter ones. It rewards many short steeps."
+  },
+  "caffeine_level": "medium",
+  "vintage_note": "Sold by year and season, spring and winter being the two main lots, and usually drunk fresh within about a year as with other light Taiwanese oolongs. Competition lots from the township's spring and winter contests carry their own labels and prices.",
+  "description": "Meishan oolong comes from Meishan Township in Chiayi, on the western side of the Alishan range. The tea area covers seven villages, Taiping, Longyan, Bihu, Taixing, Ruifeng, Ruili and Taihe, at about 800 to 1,300 metres. Cool air, wide day-night swings and regular mist are what growers credit for its character.\n\nIt is made in the familiar Taiwanese high-mountain way, with light oxidation and rolled balls, so the difference comes mostly from the place. Agricultural officials describe it as lower in bitter compounds and higher in sweet, savoury ones, which fits a soft, smooth cup.\n\nExpect gentle florals over a rounded body, in a clear yellow-green liquor. Use near-boiling water and small amounts of time after the first steep; it lasts well, and the texture is the part worth paying attention to.\n\nBuying is the tricky part, because Meishan is often sold simply as Alishan tea, and villages such as Ruili and Taihe may be named on the bag. Ask for the village and the harvest, and treat a generic mountain-tea label with some caution.",
+  "history": "Meishan is young as a tea area. Provincial officials surveyed it for new tea planting in 1977, and demonstration gardens followed around 1980 and 1981, while the township's farmers' association began promoting cultivation in 1979. By the early 2000s tea covered about 1,200 hectares, roughly half of Chiayi County's total, though other official figures for different years are lower.\n\nThe township now runs spring and winter high-mountain tea competitions.",
+  "liquor_hex": "#D9CF84",
+  "leaf_hex": "#4F7238",
+  "sources": [
+    "https://www.moa.gov.tw/ws.php?id=7560",
+    "https://kmweb.moa.gov.tw/redirect_files.php?id=160821"
+  ],
+  "confidence": "medium",
+  "wikipedia_title": null,
+  "wikipedia_scope": "none",
+  "popularity": 2,
+  "images": []
+}

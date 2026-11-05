@@ -1,0 +1,60 @@
+{
+  "slug": "coca-tea",
+  "name_en": "Coca Tea (Mate de Coca)",
+  "name_native": "mate de coca",
+  "name_romanized": null,
+  "name_zh": "古柯茶",
+  "name_ru": "Мате де кока",
+  "aliases": [
+    "Coca tea",
+    "Чай из коки",
+    "Чай из листьев коки",
+    "Tisana de coca",
+    "Kuka mat'i"
+  ],
+  "category": "tisane",
+  "origin_country": "Peru",
+  "origin_region": "Andes",
+  "cultivar": "Coca plant",
+  "processing": "Raw or dried coca leaves are steeped as they are, whole in a teapot or cut in tea bags. Decocainized versions also exist and keep a small amount of alkaloid.",
+  "form": "loose",
+  "harvest_season": "Not sold by season; dried leaf and tea bags are available year-round in the Andean countries.",
+  "appearance_dry": "Whole, oval green leaves, or finely cut green leaf in tea bags.",
+  "appearance_liquor": "Greenish yellow and clear.",
+  "appearance_wet": "Soft, whole mid-green leaves when made in a pot.",
+  "taste_profile": "Mildly bitter, close to green tea, with a rounder and more vegetal sweetness.",
+  "taste_tags": [
+    "vegetal",
+    "bitter",
+    "sweet",
+    "grassy"
+  ],
+  "brewing": {
+    "grams": 1,
+    "water_ml": 250,
+    "temp_c": 95,
+    "steeps": 1,
+    "seconds": [
+      300
+    ],
+    "notes": "Western-style: one gram, the usual tea bag, or a few whole leaves in a cup of hot water. In Cuzco and La Paz it is served from a pot of whole leaves."
+  },
+  "caffeine_level": "none",
+  "vintage_note": "Sold without vintage, as tea bags or loose leaf in shops, markets and hotels in the Andes. It is legal in Colombia, Peru, Bolivia, Argentina and Ecuador, and illegal in the United States unless decocainized. Check the law before carrying it home, since one cup can turn a drug test positive.",
+  "description": "Mate de coca is an infusion of leaves of the coca plant, drunk across the Andes and above all in Peru. Despite the name, it has nothing to do with yerba mate, which is a different plant altogether.\n\nThere is hardly any processing: leaves are dried and steeped, either whole or in tea bags. A one-gram bag gives about 4.2 mg of coca alkaloids in the cup, far below a typical 20 to 30 mg line of cocaine. It acts as a mild stimulant, often compared to a moderately strong cup of coffee or tea, though it contains its own alkaloids and not the caffeine of those drinks.\n\nThe colour is greenish yellow, and the taste is a gently bitter one that reminds many people of green tea with a little more sweetness. Five minutes in hot water is plenty.\n\nTravellers meet it at altitude. Cuzco and La Paz greet new arrivals with it for altitude sickness, a use that has never been properly studied. One practical warning matters more than taste: even a single cup can produce a positive result in a cocaine drug test, and there is no evidence of it causing dependence.",
+  "history": "Andean indigenous peoples have used the infusion in traditional medicine, and it became a standard welcome for visitors arriving in high Andean cities. Little is documented about when the tea bag format appeared.\n\nIts modern history is largely legal. The Single Convention on Narcotic Drugs discourages its use even where it is permitted, and outside the Andes it is mostly restricted, which keeps it a drink you travel for.",
+  "liquor_hex": "#D3CC6E",
+  "leaf_hex": "#5E7B3C",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Coca_tea",
+    "https://zh.wikipedia.org/wiki/%E5%8F%A4%E6%9F%AF%E8%8C%B6",
+    "https://ru.wikipedia.org/wiki/%D0%A7%D0%B0%D0%B9_%D0%B8%D0%B7_%D0%BB%D0%B8%D1%81%D1%82%D1%8C%D0%B5%D0%B2_%D0%BA%D0%BE%D0%BA%D0%B8",
+    "https://www.wikidata.org/wiki/Q969567"
+  ],
+  "confidence": "high",
+  "wikipedia_title": "Coca tea",
+  "wikipedia_scope": "exact",
+  "popularity": 3,
+  "images": [],
+  "sources_note": "Caffeine field is none as a plain-class judgement; the stimulant effect comes from coca alkaloids. Legal lists differ slightly between language versions."
+}

@@ -1,0 +1,67 @@
+{
+  "slug": "jasmine-xiantao",
+  "name_en": "Jasmine Xiantao",
+  "name_native": "茉莉仙桃",
+  "name_romanized": "Mòlì Xiāntáo",
+  "name_zh": "茉莉仙桃",
+  "name_ru": "Мо Ли Сянь Тао",
+  "aliases": [
+    "Jasmine Immortal Peach",
+    "Xian Tao Jasmine"
+  ],
+  "category": "green",
+  "origin_country": "China",
+  "origin_region": "Fujian",
+  "cultivar": null,
+  "processing": "Hand-tied around flowers, usually jasmine and globe amaranth, and scented with jasmine to make a green tea ball that opens in hot water. The source does not give the order of the steps.",
+  "form": "ball",
+  "harvest_season": "No fixed picking is documented for this tea. As with other jasmine teas, the base is spring green tea and scenting follows when jasmine is in flower in summer.",
+  "appearance_dry": "A firm, hand-tied, round ball of green leaf.",
+  "appearance_liquor": "Pale, clear yellow-green, as is usual for jasmine-scented green tea.",
+  "appearance_wet": "The ball opens slowly into a flower-like shape, with the tied blossoms showing among the leaves.",
+  "taste_profile": "Expect what is typical of jasmine green tea: sweet jasmine perfume over a light green tea body, with a little bitterness if left too long in the glass.",
+  "taste_tags": [
+    "floral",
+    "sweet",
+    "vegetal"
+  ],
+  "brewing": {
+    "grams": 5,
+    "water_ml": 300,
+    "temp_c": 85,
+    "steeps": 3,
+    "seconds": [
+      180,
+      240,
+      300
+    ],
+    "notes": "Use a clear glass so you can watch it open. Water that is too cool may not open the ball; once it has opened, pour off into a cup so the leaf does not turn bitter."
+  },
+  "caffeine_level": "medium",
+  "vintage_note": "Usually sold without a stated year, by the ball or in gift boxes. As with other scented greens, the perfume is the point and it fades, so look for recent stock and drink it within a year or so. It is not an ageing tea.",
+  "description": "Jasmine Xiantao is a blooming tea: a round, hand-tied ball from Fujian that slowly opens in the glass. The name means 'immortal peach', and it sits at the meeting point of two traditions, jasmine scented tea and display tea.\n\nThe usual materials are green tea, jasmine and globe amaranth, tied by hand and scented. The tying is what you are paying for here, since it turns the leaf into something to watch.\n\nThe cup itself should taste like a jasmine green tea, typically sweet and perfumed with a light body. Judge it as a small event rather than a connoisseur tea. A tall clear glass and hot water matter more than precise timing, but do not leave it sitting for an hour unless you like bitterness.\n\nBlooming balls vary a lot in the leaf inside, and the look of the ball says little about the taste. If the aroma matters to you more than the show, jasmine pearls or a good loose jasmine will usually serve you better.",
+  "history": "Little is documented about who first made this particular ball or when. It is described as originating in Fujian and is counted among China's handcrafted flowering teas, valued for looks and convenience.",
+  "liquor_hex": "#E2DB9A",
+  "leaf_hex": "#77833F",
+  "sources": [
+    "https://zh.wikipedia.org/wiki/%E8%8C%89%E8%8E%89%E4%BB%99%E6%A1%83",
+    "https://www.wikidata.org/wiki/Q18384033",
+    "https://zh.wikipedia.org/wiki/%E8%8C%89%E8%8E%89%E8%8A%B1%E8%8C%B6"
+  ],
+  "confidence": "medium",
+  "wikipedia_title": "茉莉仙桃",
+  "wikipedia_scope": "exact",
+  "popularity": 3,
+  "images": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/6/6a/Jasminetea1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6a/Jasminetea1.jpg/330px-Jasminetea1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Jasminetea1.jpg",
+      "author": "Commonsenses at Japanese Wikipedia",
+      "license": "CC BY-SA 3.0",
+      "license_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+      "kind": "dry_leaf",
+      "alt": "Three round hand-tied balls of jasmine green tea on pale paper"
+    }
+  ]
+}

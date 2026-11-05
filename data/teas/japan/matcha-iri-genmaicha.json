@@ -3,25 +3,62 @@
   "name_en": "Matcha-iri Genmaicha",
   "name_native": "抹茶入り玄米茶",
   "name_romanized": "Matcha-iri genmaicha",
-  "aliases": ["Genmai matcha", "Genmai-matcha", "Matcha genmaicha", "Genmaicha with matcha", "Green genmaicha"],
+  "aliases": [
+    "Genmai matcha",
+    "Genmai-matcha",
+    "Matcha genmaicha",
+    "Genmaicha with matcha",
+    "Green genmaicha",
+    "Маття-ири гэммайтя",
+    "Генмайча с матчей"
+  ],
   "category": "green",
   "origin_country": "Japan",
-  "origin_region": "Nationwide; blended mostly in Shizuoka, Kyoto and Kagoshima",
+  "origin_region": "Japan",
   "cultivar": null,
   "processing": "Standard genmaicha (green tea plus roasted rice) tumbled with a small share of matcha or powdered green tea so that each leaf and grain is coated in green powder.",
   "form": "loose",
-  "harvest_season": "Blended year-round from stored leaf; the matcha used is usually a culinary grade from the second flush.",
+  "harvest_season": "Blended year-round from stored leaf; the matcha used is often a culinary grade, though some premium blends use a better one.",
   "appearance_dry": "Roasted rice and tea needles dusted with vivid green powder that comes off on your fingers.",
-  "appearance_liquor": "Opaque, bright green, with fine sediment that settles if left standing.",
+  "appearance_liquor": "Cloudy, bright pale green, with fine sediment that settles if left standing.",
   "appearance_wet": "Green-stained rice grains and leaf with a layer of green silt.",
   "taste_profile": "The toasted-rice warmth of genmaicha with a thicker, greener, more umami-rich cup and a touch of matcha bitterness in the finish.",
-  "taste_tags": ["roasted", "nutty", "umami", "vegetal", "sweet"],
-  "brewing": {"grams": 5, "water_ml": 200, "temp_c": 80, "steeps": 2, "seconds": [30, 30], "notes": "A little cooler than plain genmaicha so the matcha does not turn bitter. Swirl the pot before pouring, pour it all out and drink promptly while the powder is still suspended."},
-  "caffeine_level": "low",
+  "taste_tags": [
+    "roasted",
+    "nutty",
+    "umami",
+    "vegetal",
+    "sweet"
+  ],
+  "brewing": {
+    "grams": 5,
+    "water_ml": 200,
+    "temp_c": 80,
+    "steeps": 2,
+    "seconds": [
+      30,
+      30
+    ],
+    "notes": "A little cooler than plain genmaicha so the matcha does not turn bitter. Swirl the pot before pouring, pour it all out and drink promptly while the powder is still suspended."
+  },
+  "caffeine_level": "medium",
   "vintage_note": "Blended to order and sold year-round in small foil bags and teabags with a best-before date, never by harvest. The matcha coating fades and browns faster than the rice goes stale, so an opened bag should be finished within a couple of months and kept in the fridge; a dull, brownish-green powder means the bag is old.",
-  "description": "Matcha-iri genmaicha is genmaicha with a dusting of matcha, the bright green, cloudy version served in countless Japanese restaurants and sold abroad as 'genmai matcha'. The matcha coats every leaf and grain, so the cup goes from pale gold to opaque green and gains a thicker body and a hit of umami on top of the roasted-rice sweetness.\n\nIt is a blended product rather than a farm tea: a finished genmaicha, usually bancha or mid-grade sencha with roasted mochi rice, is tumbled with a small proportion of matcha or powdered green tea, typically a culinary grade from the second flush. The powder is what you taste first, so freshness matters more than with plain genmaicha: a bag that has sat open for a few months turns from vivid green to a tired olive, and the matcha bitterness comes forward while the rice aroma fades.\n\nBrew it a little cooler than plain genmaicha, around 80 °C, for about 30 seconds, and pour out every drop; the powder settles fast, so swirl the pot before pouring and drink promptly. It is good for a second steep and no more. Shaken in a bottle with cold water it makes an unexpectedly good iced tea. The common mistake is leaving it to stand in a cup, where it separates and turns bitter at the bottom.\n\nLook for the base tea on the label, a pack date, and matcha rather than just 'green tea powder' if you want the real thing; teabags of it are everywhere and are fine for what they are. Some shops sell a premium version with first-flush sencha and a drinking-grade matcha, which is worth trying once. It is sold year-round with a best-before date, never by harvest, and belongs in the fridge once opened.\n\nIt pairs with the same food as plain genmaicha, rice and salty things, and is the better of the two for anyone who likes the body of matcha but not its price.",
+  "description": "Matcha-iri genmaicha is genmaicha with a dusting of matcha, the bright green, cloudy version sold abroad as 'genmai matcha'. The matcha coats every leaf and grain, so the cup goes from pale gold to cloudy green and gains a thicker body and a hit of umami on top of the roasted-rice sweetness.\n\nIt is a blended product rather than a farm tea: a finished genmaicha, usually bancha or mid-grade sencha with roasted mochi rice, is tumbled with a small proportion of matcha or powdered green tea, often a culinary grade. The powder is what you taste first, so freshness matters more than with plain genmaicha: a bag that has sat open for a few months turns from vivid green to a tired olive, and the matcha bitterness comes forward while the rice aroma fades.\n\nBrew it a little cooler than plain genmaicha, around 80 °C, for about 30 seconds, and pour out every drop; the powder settles fast, so swirl the pot before pouring and drink promptly. Most of the matcha goes in the first steep, so it is good for a second and no more. Shaken in a bottle with cold water it makes an unexpectedly good iced tea. The common mistake is leaving it to stand in a cup, where it separates and turns bitter at the bottom.\n\nLook for the base tea on the label, a pack date, and matcha rather than just 'green tea powder' if you want the real thing; teabags of it are everywhere and are fine for what they are. Some shops sell a premium version with fine sencha and a better matcha, which is worth trying once. It is sold year-round with a best-before date, never by harvest, and belongs in the fridge once opened.\n\nIt pairs with the same food as plain genmaicha, rice and salty things, and is the better of the two for anyone who likes the body of matcha but not its price.",
   "wikipedia_title": "Genmaicha",
   "wikipedia_scope": "umbrella",
   "popularity": 4,
-  "sources_note": "'Genmai-matcha' from the brief is treated as the same product as matcha-iri genmaicha and merged into this card as an alias."
+  "sources_note": "'Genmai-matcha' from the brief is treated as the same product as matcha-iri genmaicha and merged into this card as an alias.",
+  "name_zh": "抹茶玄米茶",
+  "name_ru": "Генмайча с маття",
+  "history": "Nobody seems to have recorded who first dusted genmaicha with matcha or when, and little is documented about it beyond the product itself. It is a later variation on genmaicha, which Yamamotoyama, one of the old Japanese tea houses, describes as gaining popularity among younger drinkers.\n\nGenmaicha's own beginnings are told in several versions. One theory places it in early Shōwa Kyoto, with a tea merchant roasting leftover mochi from a ceremony and mixing it into tea; another credits the Kansai region with using the rice to lift the aroma of lower-grade leaf. Either way the rice stretched costly leaf, which is why it is often called a tea for ordinary people. The matcha version works against that thrift a little, adding a green powder that thickens the cup and turns it from light yellow to green.",
+  "liquor_hex": "#A9BC57",
+  "leaf_hex": "#7E9440",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Genmaicha",
+    "https://en.wikipedia.org/wiki/Matcha",
+    "https://ec.yamamotoyama.co.jp/en/blogs/column/reading092",
+    "https://www.curioustea.com/tea/green-tea/matcha-genmaicha/"
+  ],
+  "confidence": "medium",
+  "images": []
 }

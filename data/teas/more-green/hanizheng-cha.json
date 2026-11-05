@@ -1,0 +1,54 @@
+{
+  "slug": "hanizheng-cha",
+  "name_en": "Hani Steamed Tea",
+  "name_native": "哈尼蒸茶",
+  "name_romanized": "Hāní Zhēngchá",
+  "aliases": [
+    "Hanizheng Cha",
+    "Hanizhengcha"
+  ],
+  "category": "green",
+  "origin_country": "China",
+  "origin_region": "Yunnan · Lüchun, Honghe",
+  "cultivar": null,
+  "form": "loose",
+  "caffeine_level": "medium",
+  "brewing": {
+    "grams": 3,
+    "water_ml": 150,
+    "temp_c": 80,
+    "steeps": 3,
+    "seconds": [
+      60,
+      75,
+      105
+    ],
+    "notes": "A safe starting point for green tea: cooler water, short steeps, then adjust by taste."
+  },
+  "taste_tags": [
+    "vegetal",
+    "sweet"
+  ],
+  "description": "A tea of the Hani people in Lüchun County, Honghe, made from mature leaves rather than young buds.\n\nTreat it as you would any green tea: cooler water, short steeps, and a seller who can say where and when it was picked.",
+  "wikipedia_title": null,
+  "wikipedia_scope": "none",
+  "popularity": 1,
+  "name_zh": "哈尼蒸茶",
+  "name_ru": "Ха Ни Чжэн Ча",
+  "history": "It is a household tradition, stored in earthen jars or dry bamboo tubes and steeped in boiling water when wanted. Little more is documented about it.",
+  "liquor_hex": "#CDB25C",
+  "leaf_hex": "#6B6238",
+  "sources": [
+    "https://milulu.com.cn/techan/32988.html"
+  ],
+  "confidence": "low",
+  "images": [],
+  "stub": true,
+  "processing": "Fresh mature leaves are gently steamed in a wooden steamer, then sun-dried.",
+  "harvest_season": "Usually picked in spring, with the earliest pickings prized, as with most green teas.",
+  "appearance_dry": "Green leaf whose shape depends on the maker, as is usual for regional green teas.",
+  "appearance_liquor": "Usually a clear, pale yellow-green.",
+  "appearance_wet": "Usually soft green leaf that opens up in the water.",
+  "taste_profile": "Clean aroma and a mild, smooth taste with a sticky-rice fragrance afterwards.",
+  "vintage_note": "Green teas like this are normally sold as the current year's harvest and are best within a year of picking. It is not an ageing tea."
+}

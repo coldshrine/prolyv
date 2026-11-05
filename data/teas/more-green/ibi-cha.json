@@ -1,0 +1,57 @@
+{
+  "slug": "ibi-cha",
+  "name_en": "Ibi-cha",
+  "name_native": "揖斐茶",
+  "name_romanized": "Ibi-cha",
+  "name_zh": "揖斐茶",
+  "name_ru": "Иби-тя",
+  "aliases": [
+    "Mino-Ibi-cha",
+    "美濃いび茶",
+    "Mino Ibi tea"
+  ],
+  "category": "green",
+  "origin_country": "Japan",
+  "origin_region": "Gifu · Ibi District",
+  "cultivar": null,
+  "processing": "Steamed Japanese green tea; the sencha-style method of steaming, rolling and drying is what is usual for the area.",
+  "form": "loose",
+  "harvest_season": "Spring first flush is the main event; the first auction of the year is held for first-flush tea through the Mino tea distribution centre.",
+  "appearance_dry": "Dark green needles, typical of Japanese steamed green tea.",
+  "appearance_liquor": "Clear yellow-green.",
+  "appearance_wet": "Soft green leaf pieces.",
+  "taste_profile": "Described by its home district as a balance of umami, aroma and astringency, leaning mellow in the better grades.",
+  "taste_tags": [
+    "umami",
+    "vegetal",
+    "sweet"
+  ],
+  "brewing": {
+    "grams": 5,
+    "water_ml": 150,
+    "temp_c": 75,
+    "steeps": 3,
+    "seconds": [
+      60,
+      15,
+      30
+    ],
+    "notes": "Usual sencha approach. Go cooler for more sweetness, hotter if you like the astringent edge."
+  },
+  "caffeine_level": "medium",
+  "vintage_note": "Sold as the current year's tea, with new first-flush lots coming to market each spring. As with other Japanese green teas it is not for keeping; buy by harvest year and drink within the year.",
+  "description": "Ibi-cha is the green tea of Ibi District in western Gifu, grown mainly in Ikeda town and Ibigawa town. Under the Mino-Ibi-cha label it is one of the two main brands of Gifu tea, the other being Shirakawa.\n\nThe gardens lie on the sloping land at the foot of Mt Ikeda and on the well-drained fan of the Ibi River. The making follows the general Japanese steamed green tea pattern, so what sets it apart is place rather than method.\n\nIn the cup, expect the middle of the road in a good sense: umami, aroma and some astringency without any one taking over. Brew it as you would a sencha and keep the water off the boil.\n\nLabelling is regulated by origin share: tea called Mino-Ibi must come from the district, and a mix with less than the full share has to say it is a blend. Check the label if you want the pure thing.\n\nOne pleasant bit of trivia: when Ivica Osim became Japan's football manager in 2006, the mayor of Ibigawa sent him Ibi tea his first name sounding just like the tea in Japanese, and the press picked it up.",
+  "history": "Tea gardens in Ikeda are recorded from the Muromachi period, with full-scale production starting towards the end of the Edo period. After Japan opened its ports, exports in the early Meiji years expanded the planted area, and the name Mino-Ibi tea spread with them.\n\nLater it became part of Gifu's Mino tea branding, set up from 2004, with Ibi as one of its two main named districts.",
+  "liquor_hex": "#D2CF78",
+  "leaf_hex": "#42592C",
+  "wikipedia_title": "揖斐茶",
+  "wikipedia_scope": "exact",
+  "popularity": 2,
+  "sources": [
+    "https://ja.wikipedia.org/wiki/%E6%8F%96%E6%96%90%E8%8C%B6",
+    "https://furunavi.jp/discovery/?p=3354",
+    "https://ja.wikipedia.org/wiki/%E7%BE%8E%E6%BF%83%E8%8C%B6"
+  ],
+  "confidence": "medium",
+  "images": []
+}

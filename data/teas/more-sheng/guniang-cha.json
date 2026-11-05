@@ -1,0 +1,60 @@
+{
+  "slug": "guniang-cha",
+  "name_en": "Guniang Cha",
+  "name_native": "姑娘茶",
+  "name_romanized": "Gūniang Chá",
+  "name_zh": "姑娘茶",
+  "name_ru": "Гу Нян Ча",
+  "aliases": [
+    "Girl Tea (Jinggu)",
+    "Guniang",
+    "Guniang Tea",
+    "Guniangcha",
+    "Girl Tea"
+  ],
+  "category": "sheng",
+  "origin_country": "China",
+  "origin_region": "Yunnan · Pu'er · Jinggu",
+  "cultivar": null,
+  "processing": "Details are poorly documented; it is linked to the sun-dried, pressed large-leaf teas of Yunnan, the raw material of tuocha.",
+  "form": "other",
+  "harvest_season": "Not documented for this tea; in Yunnan generally, spring is the prized picking.",
+  "appearance_dry": "Not reliably described; pressed large-leaf Yunnan tea is typically dark green to brown.",
+  "appearance_liquor": "Not reliably described; young raw Yunnan tea is typically golden yellow.",
+  "appearance_wet": "Not reliably described; large-leaf raw tea typically opens olive green.",
+  "taste_profile": "No reliable tasting notes exist; raw large-leaf Yunnan tea in general is strong and bittersweet.",
+  "taste_tags": [
+    "bitter",
+    "sweet"
+  ],
+  "brewing": {
+    "grams": 6,
+    "water_ml": 110,
+    "temp_c": 95,
+    "steeps": 6,
+    "seconds": [
+      10,
+      12,
+      15,
+      20,
+      30,
+      45
+    ],
+    "notes": "With no settled recipe, brew it as you would a young raw tuocha, and loosen it gently if pressed."
+  },
+  "caffeine_level": "high",
+  "vintage_note": "Not an established commercial category with a known pattern of years or seasons. Anything sold under this name should be judged like other raw Yunnan tea, by harvest year and place, and the seller should explain what they mean by the name.",
+  "description": "Guniang Cha, girl tea, also called private tea, is an old tea of Jinggu County in Yunnan, remembered mostly as a forerunner of the modern tuocha.\n\nHow it was made is poorly recorded. What can be said is class-level: it belongs to the family of large-leaf Yunnan teas that are sun-dried and pressed.\n\nNo dependable taste notes exist, so expect the broad character of young raw Yunnan tea and brew cautiously.\n\nThe same name is used elsewhere for different things: in Guangnan County, bamboo-tube tea is also called girl tea. Check which one a seller means.",
+  "history": "Accounts of Xiaguan tuocha say its bowl-like shape was developed in 1902 from Jinggu's girl tea, refined by Dali merchants of the Yongchangxiang firm. Beyond that link, little is documented about the origin of the tea or the reason for its name.",
+  "liquor_hex": "#CFA244",
+  "leaf_hex": "#4A4A2E",
+  "sources": [
+    "https://www.yunnanexploration.com/?p=51737",
+    "https://www.yunnanexploration.com/?p=48585"
+  ],
+  "confidence": "low",
+  "wikipedia_title": null,
+  "wikipedia_scope": "none",
+  "popularity": 2,
+  "images": []
+}

@@ -1,0 +1,59 @@
+{
+  "slug": "uji-karigane",
+  "name_en": "Uji Karigane",
+  "name_native": "宇治雁ヶ音",
+  "name_romanized": "Uji Karigane",
+  "name_zh": "宇治雁金茶",
+  "name_ru": "Удзи кариганэ",
+  "aliases": [
+    "宇治かりがね",
+    "Uji kukicha",
+    "Uji stem tea"
+  ],
+  "category": "green",
+  "origin_country": "Japan",
+  "origin_region": "Kyoto · Uji",
+  "cultivar": null,
+  "processing": "Stems sorted out during refining of Uji-area tea are blended with green tea leaf. Depending on the merchant the base is sencha, gyokuro or both.",
+  "form": "loose",
+  "harvest_season": "Follows the spring harvest of the base tea; the stems are separated during refining.",
+  "appearance_dry": "Pale green stem pieces mixed with darker sencha-like leaf.",
+  "appearance_liquor": "Clear pale yellow-green.",
+  "appearance_wet": "Light green soft stems among darker pieces of leaf.",
+  "taste_profile": "Refreshing and lightly sweet with a clean green aftertaste; gyokuro-based lots are richer and more savoury than sencha-based ones.",
+  "taste_tags": [
+    "vegetal",
+    "sweet",
+    "umami"
+  ],
+  "brewing": {
+    "grams": 5,
+    "water_ml": 150,
+    "temp_c": 70,
+    "steeps": 3,
+    "seconds": [
+      60,
+      15,
+      40
+    ],
+    "notes": "Around 70°C. Start cooler if the base is gyokuro. Very hot water pulls bitterness from the leaf pieces."
+  },
+  "caffeine_level": "low",
+  "vintage_note": "Sold undated by season like other Uji merchant blends: each house keeps its own named grades, such as Sazen's Wakatake or Chikiriya's Shirasagi, and refreshes them from the current crop. Best within a year; compare grades inside one merchant's range.",
+  "description": "Uji karigane is stem tea from the Uji growing area of southern Kyoto, sold by Kyoto merchants under their own grade names. It is a practical everyday tea: stems and leaf left from refining good tea, blended into something light and sweet.\n\nThe base varies, and this is the thing to check. Sazen describes its version as sencha-based and from the Yamashiro area; other sellers define karigane by gyokuro stems, or both. So the word alone does not tell you how rich a cup you will get.\n\nExpect a clean, refreshing green flavour with some sweetness and little grip. Use cooler water than you would for a black tea or a roasted one, about 70°C, and short later steeps.\n\nIf you want the richer version, look for gyokuro karigane by name. Otherwise, buy by the merchant's grade and treat this as a good weekday tea.",
+  "history": "Little is documented about this as a distinct tea. The word karigane is written 雁金 or 雁ヶ音, and it is linked to wild geese in merchant accounts, which disagree on the details. In Kyoto the same class of tea is also commonly known as kukicha.",
+  "liquor_hex": "#DBD88C",
+  "leaf_hex": "#7F9A50",
+  "sources": [
+    "https://www.sazentea.com/en/products/c55-japanese-tea",
+    "https://sazentea.com/en/products/p19-uji-karigane.html",
+    "https://www.curioustea.com/?p=37182",
+    "https://kyo-chikiriya.shop/products/uji_karigane_shirasagi",
+    "https://www.tezumi.com/products/issei-uji-karigane"
+  ],
+  "confidence": "medium",
+  "wikipedia_title": "Kukicha",
+  "wikipedia_scope": "umbrella",
+  "popularity": 2,
+  "images": []
+}

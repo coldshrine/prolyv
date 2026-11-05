@@ -1,0 +1,63 @@
+{
+  "slug": "tom-non",
+  "name_en": "Tôm nõn (Prawn Bud Tea)",
+  "name_native": "Trà Nõn Tôm",
+  "name_romanized": "Trà Nõn Tôm",
+  "name_zh": "越南嫩芽绿茶",
+  "name_ru": "Том нон",
+  "aliases": [
+    "Tôm nõn",
+    "Trà tôm nõn",
+    "Trà Nõn Tôm (Prawn Bud Tea)",
+    "Trà Nõn Tôm Thái Nguyên (Top Bud Green Tea)",
+    "Trà Nõn Tôm Thái Nguyên",
+    "Prawn Bud Tea",
+    "Top Bud Green Tea"
+  ],
+  "category": "green",
+  "origin_country": "Vietnam",
+  "origin_region": "Thai Nguyen · Tan Cuong",
+  "cultivar": null,
+  "processing": "A green tea made from a bud with one young leaf, though some descriptions call it bud only. The shoots are heated to stop oxidation and dried until they twist into a bud shape.",
+  "form": "loose",
+  "harvest_season": "Picked as the youngest shoots, a bud with one leaf. Little is documented about a prized season for this grade in particular.",
+  "appearance_dry": "Small, twisted shoots that keep the shape of the bud.",
+  "appearance_liquor": "Yellow and clear.",
+  "appearance_wet": "Tender shoots open to a bud, usually with one small leaf attached.",
+  "taste_profile": "A gentle aroma, an astringent start and a sweet aftertaste, softer in leaf weight than the more leafy Thai Nguyen grades.",
+  "taste_tags": [
+    "sweet",
+    "bitter",
+    "grassy",
+    "vegetal"
+  ],
+  "brewing": {
+    "grams": 3,
+    "water_ml": 150,
+    "temp_c": 75,
+    "steeps": 3,
+    "seconds": [
+      60,
+      90,
+      120
+    ],
+    "notes": "General guidance for delicate green tea: keep the water well below boiling, or the young shoots turn bitter."
+  },
+  "caffeine_level": "medium",
+  "vintage_note": "Sold as a premium grade of Thai Nguyen green tea, not by vintage. As is usual for green tea, buy the latest harvest and drink it fresh. Fakes and poor copies are common enough to be worth a warning, so buy from a producer you can identify.",
+  "description": "Tôm nõn is an upper grade of green tea from Thai Nguyen, especially the Tan Cuong area. In Vietnamese tea talk, tôm is the unopened bud, so the name tells you to expect the tender tip of the shoot.\n\nThe usual standard is one bud and one leaf, although some writers use the name for bud alone. That small difference matters when comparing prices. Drying twists the shoot back into its bud shape, and little else is documented about steps particular to this grade.\n\nThe cup is yellow with a gentle aroma, and it follows the local pattern: some astringency up front, then a sweet finish. Young shoots are easy to scald, so stay around 75 to 80°C, as you would for other delicate green teas.\n\nIt sits above móc câu, which adds a second leaf, and near dinh non at the top of the ladder. Counterfeit and low-grade tea is a known problem in this market, so look for small, even shoots and a seller who can name the producer.",
+  "history": "Little is documented about when tôm nõn became a named grade. It is recorded as one of the grades of Tan Cuong tea, with the name describing the picking standard rather than a person or a village.\n\nDefinitions still vary, with one bud and one leaf the most common and bud only in some accounts.",
+  "liquor_hex": "#D9C873",
+  "leaf_hex": "#59633C",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Vietnamese_tea",
+    "https://vi.wikipedia.org/wiki/Tr%C3%A0",
+    "https://baolaocai.vn/tra-non-tom-thai-nguyen-tuy-tra-thai-nguyen-thuong-hang-post346481.html",
+    "https://nhathuoclongchau.com.vn/bai-viet/tra-non-tom-la-gi-cong-dung-va-nhung-luu-y-khi-su-dung.html"
+  ],
+  "confidence": "medium",
+  "wikipedia_title": "Vietnamese tea",
+  "wikipedia_scope": "umbrella",
+  "popularity": 2,
+  "images": []
+}

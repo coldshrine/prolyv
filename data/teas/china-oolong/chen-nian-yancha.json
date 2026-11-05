@@ -3,7 +3,15 @@
   "name_en": "Aged Yancha (Chen Nian Yancha)",
   "name_native": "陈年岩茶",
   "name_romanized": "Chénnián Yánchá",
-  "aliases": ["Aged Yancha", "Aged Wuyi Rock Tea", "Lao Yancha", "老岩茶", "Chen Cha", "Aged Da Hong Pao", "Aged Shui Xian"],
+  "aliases": [
+    "Aged Yancha",
+    "Aged Wuyi Rock Tea",
+    "Lao Yancha",
+    "老岩茶",
+    "Chen Cha",
+    "Aged Da Hong Pao",
+    "Aged Shui Xian"
+  ],
   "category": "oolong",
   "origin_country": "China",
   "origin_region": "Fujian · Wuyi Mountains",
@@ -15,13 +23,47 @@
   "appearance_liquor": "Deep reddish-brown to mahogany, clear and glossy.",
   "appearance_wet": "Dark brown, stiff leaves that open only partly, with almost no green left.",
   "taste_profile": "Dried plum and jujube, old wood and a faint pleasant sourness in younger aged lots, turning to camphor, medicinal herbs and a smooth, sweet, cooling body in older ones; the roast has melted into the tea.",
-  "taste_tags": ["dried-fruit", "woody", "medicinal", "sweet", "camphor"],
-  "brewing": {"grams": 8, "water_ml": 110, "temp_c": 100, "steeps": 9, "seconds": [10, 10, 15, 20, 30, 45, 60, 90, 180], "notes": "Rinse once with boiling water to wake the leaf. A zisha pot suits it. After the gongfu session, simmer the spent leaves in a small pot of water for a few minutes: aged yancha boils beautifully."},
+  "taste_tags": [
+    "dried-fruit",
+    "woody",
+    "medicinal",
+    "sweet",
+    "camphor"
+  ],
+  "brewing": {
+    "grams": 8,
+    "water_ml": 110,
+    "temp_c": 100,
+    "steeps": 9,
+    "seconds": [
+      10,
+      10,
+      15,
+      20,
+      30,
+      45,
+      60,
+      90,
+      180
+    ],
+    "notes": "Rinse once with boiling water to wake the leaf. A zisha pot suits it. After the gongfu session, simmer the spent leaves in a small pot of water for a few minutes: aged yancha boils beautifully."
+  },
   "caffeine_level": "medium",
-  "vintage_note": "Sold by vintage year, and age is the whole proposition: three to five years is merely rested, five to ten is where the sour note gives way to dried fruit, ten to twenty is the serious market, and lots over twenty or thirty years are rare and expensive. Most of what is sold today dates from the late 1990s to the mid-2010s; always ask whether and when the tea was re-roasted.",
+  "vintage_note": "Sold by vintage year, and age is the whole proposition. Trade usage is loose: three to five years is merely rested, five to ten is where the sour note gives way to dried fruit, ten to twenty is the serious market, and lots over twenty or thirty years are rare and expensive. The group standard for aged Wuyi rock tea sets four years for chen yancha and twenty-one for lao yancha. Always ask whether and when the tea was re-roasted.",
   "description": "Aged yancha is Wuyi rock tea that has been put away for years, usually a Shui Xian, a Rou Gui or a Da Hong Pao blend with a solid roast, and taken out when the fire has gone and something darker and smoother has replaced it. Wuyi has a saying that three-year-old rock tea is medicine and ten-year-old is treasure; that is folklore, but it tells you the direction of travel.\n\nThe practice is old and practical. Heavily roasted tea keeps, and tea that did not sell was stored and re-roasted every few years to drive out the moisture it had absorbed, which is how older aged lots were made. Modern sellers mostly seal a well-roasted tea in jars or foil and leave it alone, re-roasting only if it has gone damp. Either way the tea needs a proper roast to begin with: lightly roasted yancha does not age, it just goes stale.\n\nThe taste moves in stages. In the first two to five years the charcoal softens and a slightly sour, plum-skin note appears, which Chinese drinkers call chen suan and either love or wait out. Between five and ten years the sourness fades into dried plum, jujube and old wood, and the body turns thick and smooth. Beyond ten years the better lots pick up camphor, medicinal herbs and a cool, sweet, almost pu-erh-like depth, with the roast no longer identifiable as such.\n\nBrew it hot, with a rinse, and keep going: aged leaf is stiff and opens slowly, and the later steeps are the point. Boiling the spent leaves is the traditional finish and often the best cup of the session.\n\nBuying needs care. Age is easy to claim and impossible to prove from a label, and some sellers fake it by over-roasting fresh tea until it is black, which tastes burnt and hollow rather than smooth and deep. Favour sellers who name the cultivar, the harvest year and the roasting history, start with small samples, and judge by the wet leaf (stiff, dark, intact) and by whether the sourness, if any, is clean. Prices rise steeply after ten years; the five-to-ten-year range is where the value usually sits.",
   "wikipedia_title": "Wuyi tea",
   "wikipedia_scope": "umbrella",
   "popularity": 2,
-  "sources_note": "The three-years-medicine saying is folklore. Age brackets and the chen suan description reflect common trade usage rather than any standard."
+  "sources_note": "The three-years-medicine saying is folklore. Age brackets and the chen suan description reflect common trade usage rather than any standard.",
+  "name_zh": "陈年岩茶",
+  "name_ru": "Чэнь Нянь Янь Ча",
+  "history": "Aged yancha is a way of keeping Wuyi rock tea rather than a single named tea, and no founding date or maker attaches to it. It rests on a practical fact: a well-roasted tea holds up in storage, and the fire in a fresh roast fades as it sits.\n\nThe category has been given firmer edges only recently. A Chinese group standard for aged Wuyi rock tea, T/CSTEA 00015-2021, was issued in January 2021 and covers its classes, requirements and storage. As usually summarised, four years or more makes a chen yancha and twenty-one years or more a lao yancha.\n\nNot every rock tea suits the treatment: long ageing depends on enough roast and dryness at the start.",
+  "liquor_hex": "#6E2E14",
+  "leaf_hex": "#2A1F18",
+  "sources": [
+    "https://www.ttbz.org.cn/Home/PdfFileStreamGet/c3QsNDI4NDU(eq)",
+    "https://www.cnpp.cn/focus/3517749.html"
+  ],
+  "confidence": "low",
+  "images": []
 }

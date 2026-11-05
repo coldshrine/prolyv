@@ -3,7 +3,15 @@
   "name_en": "Fu Zhuan (Anhua Fu Brick)",
   "name_native": "茯砖茶",
   "name_romanized": "Fúzhuān Chá",
-  "aliases": ["Fu brick tea", "Fuzhuan", "Golden Flower tea", "Jin Hua Fu Cha", "Fu Cha", "Hunan Fu brick", "Fucha"],
+  "aliases": [
+    "Fu brick tea",
+    "Fuzhuan",
+    "Golden Flower tea",
+    "Jin Hua Fu Cha",
+    "Fu Cha",
+    "Hunan Fu brick",
+    "Fucha"
+  ],
   "category": "heicha",
   "origin_country": "China",
   "origin_region": "Hunan · Yiyang · Anhua",
@@ -15,13 +23,70 @@
   "appearance_liquor": "Orange-red to amber, clear.",
   "appearance_wet": "Coarse dark-brown leaves and stems smelling of mushroom and dried grass.",
   "taste_profile": "Mellow and sweet with a mushroom-like 'fungal floral' aroma, hay, light wood and a trace of pine smoke; no bitterness and a cooling finish.",
-  "taste_tags": ["sweet", "earthy", "woody", "herbal", "smoky"],
-  "brewing": {"grams": 7, "water_ml": 110, "temp_c": 100, "steeps": 9, "seconds": [10, 10, 15, 20, 30, 45, 60, 90, 120], "notes": "Break a chunk off along the grain, rinse once, boiling water. Traditionally it is boiled: 8 g per litre simmered for 5 minutes, with milk and a pinch of salt in the north-west."},
+  "taste_tags": [
+    "sweet",
+    "earthy",
+    "woody",
+    "herbal",
+    "smoky"
+  ],
+  "brewing": {
+    "grams": 7,
+    "water_ml": 110,
+    "temp_c": 100,
+    "steeps": 9,
+    "seconds": [
+      10,
+      10,
+      15,
+      20,
+      30,
+      45,
+      60,
+      90,
+      120
+    ],
+    "notes": "Break a chunk off along the grain, rinse once, boiling water. Traditionally it is boiled: 8 g per litre simmered for 5 minutes, with milk and a pinch of salt in the north-west."
+  },
   "caffeine_level": "low",
   "vintage_note": "Sold by pressing year with the factory and the brick weight (300 g to 2 kg), hand-built (shou zhu) bricks above machine-pressed. Market lots run 1–10 years: it is drinkable the year it is made, the flowers are brightest in the first few years, and 3–5 years is where most drinkers settle. Bricks from the 1980s–90s exist as collectables rather than daily tea.",
   "description": "Fu Zhuan is the Hunan brick with the golden mould in it, and the mould is the point. 'Golden flowers' (jin hua) are colonies of a fungus, Eurotium cristatum, that are deliberately grown through the pressed brick; they give it a mushroomy, sweet-hay aroma that nothing else in tea has, and the Chinese standard for the tea actually requires them. For centuries Fu bricks were pressed in Jingyang in Shaanxi from Hunan leaf and sent west to Xinjiang, Qinghai, Gansu and Mongolia, where milk-and-tea diets needed something to cut the fat; in the 1950s production moved to Hunan itself, and Anhua and Yiyang have been the heartland since.\n\nThe raw material is Anhua hei mao cha – coarse leaf that has been pan-fired, rolled, briefly piled and dried over pine wood. It is steamed, pressed only loosely so air can move inside, and then kept for a couple of weeks in a warm, humid 'fa hua' (flowering) room where the fungus spreads; a slow drying finishes it. Hand-built bricks, packed by hand into paper moulds, flower more evenly and are the premium line.\n\nIn the cup it is mellow, sweet and soft, with that fungal-floral note over hay, light wood and a hint of pine smoke, no bitterness at all and a cooling finish; it gives eight or nine steeps with boiling water after a rinse, and it is even better simmered. In Xinjiang and Inner Mongolia it is boiled with milk and salt, which is worth trying once. The mistake is treating it like a delicate tea: it wants heat and a bit of patience.\n\nIt is sold by pressing year, factory and weight, and the flowers are the first thing to check: a good brick is evenly speckled with bright yellow dots through the cut face, not just on the surface, with no black, green or white mould and no sour smell. The big Hunan factories (Baishaxi and the Yiyang tea factory are the names you will see most) and the Shaanxi revival makers all state the year. Prices are low for what you get; most of the market is 1–10 years old and three to five is a sweet spot.\n\nIf you have only had ripe pu-erh as a dark tea, Fu Zhuan is the next one to try: lighter, stranger and, once the mushroom note clicks, hard to give up.",
   "wikipedia_title": "Fermented tea",
   "wikipedia_scope": "umbrella",
   "popularity": 3,
-  "sources_note": "No English Wikipedia article for Fu brick tea exists at time of writing ('Fuzhuan tea', 'Fu brick tea' and variants are all missing). The fungus is Eurotium cristatum, now also classified as Aspergillus cristatus. Move of production from Jingyang to Hunan in the 1950s and the roughly two-week fa hua period follow Chinese industry sources."
+  "sources_note": "No English Wikipedia article for Fu brick tea exists at time of writing ('Fuzhuan tea', 'Fu brick tea' and variants are all missing). The fungus is Eurotium cristatum, now also classified as Aspergillus cristatus. Move of production from Jingyang to Hunan in the 1950s and the roughly two-week fa hua period follow Chinese industry sources.",
+  "name_zh": "茯砖茶",
+  "name_ru": "Фу Чжуань",
+  "history": "Fu brick began in Jingyang, Shaanxi, not in Hunan. Traditions place its roots anywhere from the Northern Song, around 1068, to the start of the Ming in 1368, and these dates rest on later retelling. For a long time the belief held that the golden flowers could not be raised away from Jingyang.\n\nThat ended in the 1950s. The Anhua brick factory, now Baishaxi, worked for three years with tea workers and a Wuhan University biologist and made a Fu brick in Hunan in 1953. In 1958 production was shifted from Shaanxi to Hunan; the Yiyang factory, founded that year, became a second major producer. The flowers are now known to be the fungus Eurotium cristatum.",
+  "liquor_hex": "#A65A22",
+  "leaf_hex": "#40301C",
+  "sources": [
+    "https://zh.wikipedia.org/wiki/%E7%A0%96%E8%8C%B6",
+    "https://paper.people.com.cn/rmrbhwb/html/2015-10/30/content_1627220.htm",
+    "https://gs.ctrip.com/html5/you/travels/37/4040085.html",
+    "https://m.voc.com.cn/xhn/news/202609/33724740.html"
+  ],
+  "confidence": "medium",
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/45/Anhua_Fuzhuan_Fermented_Tea.jpg/1280px-Anhua_Fuzhuan_Fermented_Tea.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/45/Anhua_Fuzhuan_Fermented_Tea.jpg/330px-Anhua_Fuzhuan_Fermented_Tea.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Anhua_Fuzhuan_Fermented_Tea.jpg",
+      "author": "Kasuga",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "kind": "dry_leaf",
+      "alt": "Broken piece of dark Anhua Fu brick with stems and yellow golden flower flecks"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a1/Brewed_Anhua_Fuzhuan_Fermented_Tea.jpg/1280px-Brewed_Anhua_Fuzhuan_Fermented_Tea.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a1/Brewed_Anhua_Fuzhuan_Fermented_Tea.jpg/330px-Brewed_Anhua_Fuzhuan_Fermented_Tea.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Brewed_Anhua_Fuzhuan_Fermented_Tea.jpg",
+      "author": "Kasuga",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "kind": "liquor",
+      "alt": "Orange-red brewed Anhua Fuzhuan tea seen from above with leaf and stem pieces"
+    }
+  ]
 }

@@ -3,7 +3,13 @@
   "name_en": "Pre-Qingming Longjing (Mingqian Dragon Well)",
   "name_native": "明前龙井",
   "name_romanized": "Míngqián Lóngjǐng",
-  "aliases": ["Mingqian Longjing", "Ming Qian Dragon Well", "Pre-Qingming Dragon Well", "Yuqian Longjing", "Tou Cai Longjing", "First-pick Longjing"],
+  "aliases": [
+    "Mingqian Longjing",
+    "Ming Qian Dragon Well",
+    "Pre-Qingming Dragon Well",
+    "Tou Cai Longjing",
+    "First-pick Longjing"
+  ],
   "category": "green",
   "origin_country": "China",
   "origin_region": "Zhejiang · Hangzhou",
@@ -15,13 +21,43 @@
   "appearance_liquor": "Very pale, almost colourless green-gold, crystal clear.",
   "appearance_wet": "Tiny, plump buds with one leaf, soft and uniform, standing upright.",
   "taste_profile": "Soft, sweet chestnut and fresh bean with a creamy texture and almost no bitterness; delicate rather than powerful.",
-  "taste_tags": ["sweet", "nutty", "umami", "creamy"],
-  "brewing": {"grams": 3, "water_ml": 150, "temp_c": 78, "steeps": 3, "seconds": [40, 45, 70], "notes": "Glass or thin porcelain, 75–80 °C, less leaf than you think. Boiling water flattens this leaf instantly; a short first steep shows what you paid for."},
+  "taste_tags": [
+    "sweet",
+    "nutty",
+    "umami",
+    "creamy"
+  ],
+  "brewing": {
+    "grams": 3,
+    "water_ml": 150,
+    "temp_c": 78,
+    "steeps": 3,
+    "seconds": [
+      40,
+      45,
+      70
+    ],
+    "notes": "Glass or thin porcelain, 75–80 °C, less leaf than you think. Boiling water flattens this leaf instantly; a short first steep shows what you paid for."
+  },
   "caffeine_level": "medium",
   "vintage_note": "This is a grade of the current year's spring Longjing, defined purely by picking date: before Qingming is ming qian, between Qingming and Grain Rain is yu qian, after that it is simply spring Longjing. Ming qian lots are the most expensive and sell out in April; the first day's picking (tou cai) is a marketing tier above that. Buy within weeks of harvest, keep it cold, drink within the year.",
   "description": "'Mingqian' is not a place or a cultivar: it is a calendar. Longjing picked before the Qingming festival in early April is sold as pre-Qingming tea, and it is the most expensive green tea most people will ever buy. The logic is simple: the earliest shoots are the smallest, the most tender and the fewest, and in the cool weather of March they build sugars and amino acids slowly, which is where the sweetness and the savoury depth come from.\n\nThe leaf is tiny, a bud with one barely opened leaf, so the firing is gentler, the colour paler and the tea more fragile. It gives a pale, sweet, chestnut-and-bean cup with very low bitterness and a soft, almost creamy texture. What it does not give is power: a yu qian lot picked two weeks later has more body, more aroma and usually stands an extra infusion, which is why many experienced drinkers buy yu qian for daily drinking and keep ming qian for showing off.\n\nBrewing: the leaf is delicate, so 75–80 °C, little leaf, a short first steep, and a glass or thin porcelain so you can watch it. Boiling water flattens it immediately and you will never know what it could have been.\n\nThe catch is supply. The real West Lake zone produces a small amount of pre-Qingming tea and the market sells many times more, so the date on the tin is the most-faked fact in Chinese tea. Early-budding clones (Wuniuzao from the Wenzhou area, Longjing 43 grown on warm lowland) and flat greens from Sichuan and Guizhou can be in shops by early March, long before Hangzhou has anything, and a lot of them are sold as 'mingqian Longjing'. If a tea is very cheap, very green and very early, it is probably one of those. Ask for the village, the cultivar and the picking date, and expect the price to match the scarcity.\n\nOne more thing: the first week's tea is not automatically better than the third week's. In many years the best balance of sweetness and aroma arrives in the days just before Qingming, not on the first morning of picking.",
   "wikipedia_title": "Longjing tea",
   "wikipedia_scope": "umbrella",
   "popularity": 3,
-  "sources_note": "Grade card rather than a distinct tea; overlaps with xihu-longjing by design. Exact Qingming and Grain Rain dates shift by a day or two each year."
+  "sources_note": "Grade card rather than a distinct tea; overlaps with xihu-longjing by design. Exact Qingming and Grain Rain dates shift by a day or two each year.",
+  "name_zh": "明前龙井",
+  "name_ru": "Мин Цянь Лун Цзин",
+  "history": "Mingqian is a picking date and not a separate tea. The Chinese habit of grading green tea by the calendar divides spring into tea picked before Qingming, tea picked before Grain Rain (yu qian), and so on, with the earliest shoots valued most.\n\nFor Longjing, what fills the mingqian window has changed with the cultivars. Longjing 43, selected in 1960 and recognised nationally in 1987, is picked 7 to 10 days ahead of the old Qunti bushes, and so supplies most of the early tea. West Lake's opening date moves with the weather: 43 opened on 13 March in 2023 and was set for 19 March in 2026, with Qunti following in late March.",
+  "liquor_hex": "#E2E0A6",
+  "leaf_hex": "#A3A85C",
+  "sources": [
+    "https://zh.wikipedia.org/wiki/%E7%B6%A0%E8%8C%B6",
+    "https://m.thepaper.cn/baijiahao_6814648",
+    "https://news.ycwb.com/2023-03/13/content_51815421.htm",
+    "https://hznews.hangzhou.com.cn/chengshi/content/2019-03/13/content_7161136_2.htm",
+    "https://news.qq.com/rain/a/20260313A03RO400"
+  ],
+  "confidence": "medium",
+  "images": []
 }

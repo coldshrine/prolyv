@@ -1,0 +1,63 @@
+{
+  "slug": "yinji-cha",
+  "name_en": "Yinji Cha",
+  "name_native": "印级茶",
+  "name_romanized": "Yìnjí Chá",
+  "name_zh": "印级茶",
+  "name_ru": "Инь Цзи Ча",
+  "aliases": [
+    "Yinji Pu'er",
+    "Yinji Tea",
+    "印級茶",
+    "Mark-grade tea"
+  ],
+  "category": "sheng",
+  "origin_country": "China",
+  "origin_region": "Yunnan",
+  "cultivar": "Menghai large-leaf",
+  "processing": "Sun-dried large-leaf tea blended by state factories and steam-pressed into cakes, then aged for decades. The name refers to the coloured 茶 character on the wrapper, not to a special method.",
+  "form": "cake",
+  "harvest_season": "Not recorded by season; the teas are known by batch and wrapper.",
+  "appearance_dry": "Old, dark chestnut-brown cakes; some early wrappers were removed in Hong Kong, so surviving cakes may be unwrapped.",
+  "appearance_liquor": "Deep, clear reddish amber, as is usual for very old pu-erh.",
+  "appearance_wet": "Dark brown, fragile aged leaf.",
+  "taste_profile": "Old-tea character of wood, herbs and camphor is what aged raw pu-erh of this age usually gives; the top of the group, Red Mark, is known for a heavy, full flavour, and the blue marks are considered lighter.",
+  "taste_tags": [
+    "woody",
+    "camphor",
+    "medicinal"
+  ],
+  "brewing": {
+    "grams": 5,
+    "water_ml": 100,
+    "temp_c": 98,
+    "steeps": 8,
+    "seconds": [
+      10,
+      10,
+      15,
+      15,
+      20,
+      30,
+      45,
+      60
+    ],
+    "notes": "Typical handling for very old raw pu-erh: a quick rinse, an old clay pot or a gaiwan, and short steeps. Few people will ever get to brew an authentic one, so treat any sample with caution about where it came from."
+  },
+  "caffeine_level": "medium",
+  "vintage_note": "Authentic production ran from 1956 to 1972 and is long over, so these teas appear only as rare antiques at auction and through specialist dealers. New cakes named Hongyin or Lanyin are tributes, not Yinji tea. Wrapper paper is part of the dating: thin oiled paper for the late 1950s Red Mark, while a matte rough paper indicates a later rewrap or a later tea.",
+  "description": "Yinji cha, 'mark-grade tea', is a collective name for Yunnan pu-erh cakes made between 1956 and 1972. The tea takes its name from the 茶 character on the wrapper, printed or stamped in different colours by hand. It is a family of old factory cakes that differ in quality and price, not one recipe.\n\nThe family includes the first Eight-Character cakes from the China Tea Company's Yunnan branch, such as Red Mark and the Grade A and B Blue Marks, along with cakes from Menghai after 1957. The 1970s yellow-mark Seven Sons cakes, 73 Qingbing and Snow Mark belong here too. Red Mark used mainly Menghai large-leaf material from old trees, and the Blue Marks used finer leaf, considered less impressive in the cup and priced lower.\n\nThe taste depends on the cake and on decades of storage, and many of these teas spent years in Hong Kong warehouses. Expect what very old raw pu-erh typically gives, wood and herbal depth rather than anything fresh. Red Mark is known for a heavy, full flavour. Short steeps make the most of a precious sample.\n\nBuying one is mostly a question of proof. Red Mark is the most expensive of the group, and the Blue Mark iron cakes exist in more than ten versions that vary widely and are disputed. If an offer looks approachable, it is likely to be something else or a tribute. Unwrapped 'no-paper' Red Mark is a genuine variant that arose from Hong Kong storage and selling habits.",
+  "history": "The period opens in the 1950s, when big state factories dominated production and much of the material from the famous mountains went to them as maocha. It closes in 1972, when the China Tea Company's Yunnan branch was renamed under the China National Native Produce and Animal By-products corporation and the Zhongcha round tea was renamed Yunnan Seven Sons cake, ending production of Yinji tea proper.\n\nAfter 1990, as pu-erh culture rose in Taiwan, dealers bought old tea in Hong Kong. Loose bags of mixed old stock, sold as 'hong san', reached Taiwan in this way. Zhou Yu made his own Hongyin and Lanyin in 2007 in homage to the originals.",
+  "liquor_hex": "#6E2E14",
+  "leaf_hex": "#3D2A1C",
+  "sources": [
+    "https://zh.wikipedia.org/wiki/%E5%8D%B0%E7%BA%A7%E8%8C%B6",
+    "https://teadb.org/old-school-puerh-categories-ji-haoji/",
+    "https://www.wikidata.org/wiki/Q65058704"
+  ],
+  "confidence": "medium",
+  "wikipedia_title": "印级茶",
+  "wikipedia_scope": "exact",
+  "popularity": 3,
+  "images": []
+}

@@ -1,0 +1,58 @@
+{
+  "slug": "horchata-lojana",
+  "name_en": "Horchata Lojana",
+  "name_native": "horchata lojana",
+  "name_romanized": null,
+  "name_zh": "洛哈草本茶",
+  "name_ru": "Орчата Лохана",
+  "aliases": [
+    "Agua que cura",
+    "Agua de remedio",
+    "Agua de montes",
+    "Ecuadorian horchata",
+    "Орчата лохана"
+  ],
+  "category": "tisane",
+  "origin_country": "Ecuador",
+  "origin_region": "Loja Province",
+  "cultivar": null,
+  "processing": "A mixed bundle of fresh or dried herbs and flowers is infused in hot water, then usually sweetened and finished with lemon.",
+  "form": "other",
+  "harvest_season": "Made all year, with the mix shifting according to which plants are in season.",
+  "appearance_dry": "A bundle or cut mix of many leaves, stems and flowers, varied in colour, with reddish leaves among the greens.",
+  "appearance_liquor": "Clear pink to deep red, coloured mainly by red-leaved plants.",
+  "appearance_wet": "A tangle of soft mixed herbs and petals in muted greens and purplish reds.",
+  "taste_profile": "Lemony and minty with a soft floral lift from chamomile and rose geranium, usually served sweet.",
+  "taste_tags": [
+    "herbal",
+    "citrus",
+    "floral",
+    "sweet"
+  ],
+  "brewing": {
+    "grams": 10,
+    "water_ml": 1000,
+    "temp_c": 100,
+    "steeps": 1,
+    "seconds": [
+      600
+    ],
+    "notes": "Steep a mixed bundle like a pot of herbal tea, then add sugar, honey or raw cane sugar and a squeeze of lemon. Good warm or chilled."
+  },
+  "caffeine_level": "none",
+  "vintage_note": "No vintages or grades: it is sold as bundles of herbs in Loja's traditional markets, by the glass, and as packaged dried mixes. Fresh bundles depend on the season, so two vendors rarely sell the same recipe.",
+  "description": "Horchata lojana has nothing to do with the rice or tiger nut drinks that share its name. It is a red herbal infusion from Loja province in southern Ecuador, also known as agua que cura, healing water.\n\nThe drink is a recipe rather than a plant. A market bundle holds many medicinal plants, some there for colour, others for scent or flavour. Ataco (red amaranth) and escancel (bloodleaf) give the red tone.\n\nMost of the taste comes from familiar herbs such as lemon verbena, lemongrass, mint, chamomile, lemon balm and rose geranium. It drinks like a bright, sweet lemon-herb tea, and it works both hot and cold.\n\nBuying it outside Ecuador usually means a dried mix, so read the ingredient list and look for the red-leaved plants. People in Loja value it for digestion and general wellbeing, but those benefits are traditional beliefs rather than clinically established effects.",
+  "history": "The drink is a living market tradition of southern Ecuador, and its early history is little documented.\n\nRecords of it register as many as 71 plant species used in the drink, of which only 16 are considered essential, which explains why recipes vary so much while still being recognised as the same drink.",
+  "liquor_hex": "#B5364F",
+  "leaf_hex": "#6B5A48",
+  "sources": [
+    "https://es.wikipedia.org/wiki/Horchata_lojana",
+    "https://www.laylita.com/recipes/horchata-lojana",
+    "https://www.wikidata.org/wiki/Q1628047"
+  ],
+  "confidence": "medium",
+  "wikipedia_title": null,
+  "wikipedia_scope": "none",
+  "popularity": 2,
+  "images": []
+}

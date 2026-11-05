@@ -1,0 +1,56 @@
+{
+  "slug": "burmese-tea",
+  "name_en": "Burmese Tea",
+  "name_native": "လက်ဖက်",
+  "name_romanized": "Lahpet",
+  "name_zh": "缅甸茶",
+  "name_ru": "Бирманский чай",
+  "aliases": [
+    "Myanmar tea",
+    "Shan tea"
+  ],
+  "category": "green",
+  "origin_country": "Myanmar",
+  "origin_region": "Shan State · Namhsan",
+  "cultivar": null,
+  "processing": "A national umbrella: Burmese leaf goes three main ways, sold as dried green tea, fermented into pickled lahpet, or made into black tea, and the trade sorts it into seven quality grades.",
+  "form": "loose",
+  "harvest_season": "Varies by area; little is recorded on picking calendars in English, though seasonal labour for the harvest is a long-standing feature in Shan State.",
+  "appearance_dry": "Dried green tea, the everyday form, is usually dull olive and rather coarse; black and pickled forms look entirely different.",
+  "appearance_liquor": "Pale yellow-green to olive for the plain green tea served at tea shops.",
+  "appearance_wet": "Fairly large olive leaves in the plain green style.",
+  "taste_profile": "The plain green tea of Burmese tea shops is generally light, slightly bitter and vegetal, though little has been written on its taste by region.",
+  "taste_tags": [
+    "vegetal",
+    "bitter",
+    "grassy"
+  ],
+  "brewing": {
+    "grams": 4,
+    "water_ml": 300,
+    "temp_c": 85,
+    "steeps": 2,
+    "seconds": [
+      120,
+      180
+    ],
+    "notes": "Treat as a simple pot tea, the way plain green tea comes at a Burmese tea shop. Lots vary widely, so start cooler and shorter."
+  },
+  "caffeine_level": "medium",
+  "vintage_note": "Mostly sold locally by type and grade, without a harvest year. As with other plain green teas, the current season tastes best. Export lots are few and may name a Shan State area or a season, and the armed conflict in growing areas has made supply less steady.",
+  "description": "Burma has an old tea culture that the rest of the world rarely sees, because so much of the crop is drunk or eaten at home. Burmese tea is a wide label here, not one tea, and it takes in dried green tea, black tea and the famous pickled leaf, lahpet.\n\nThe heart of production is northern Shan State, especially Namhsan in the old Palaung territory of Tawngpeng. Mogok in Mandalay Region and Kengtung in eastern Shan State are also growing areas. Both sinensis and assamica types are grown.\n\nIn daily life you meet it as a free pot of light green tea on a tea-shop table, as strong black tea in milk tea, or as lahpet in a salad. The green is plain and refreshing and not much of a sipping tea by connoisseur standards, so brew it gently and without fuss.\n\nOutside Myanmar it is hard to find. If you see a Shan State tea, ask what form it is and which area it comes from, since those two facts tell you much more than the country alone.\n\nFor the Burmese way with leaf at its most distinctive, try lahpet thoke, the pickled tea salad.",
+  "history": "Tea growing in what is now Upper Myanmar goes back a long way, and before colonial rule people mostly drank green tea. Pickled tea held a ceremonial place at the royal court, and the poet U Ponnya wrote verses praising the prized shwephi grade.\n\nBritish commercial interest came in the 19th century: the Bombay Burmah Trading Corporation, formed in 1863, was set up in part around the Burmese tea trade. Since the late 2010s, fighting in the growing areas, the COVID-19 pandemic and labour shortages have badly hit the trade.",
+  "liquor_hex": "#C9BE7A",
+  "leaf_hex": "#5F6238",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Lahpet",
+    "https://en.wikipedia.org/wiki/Bombay_Burmah_Trading_Corporation",
+    "https://en.wikipedia.org/wiki/Burmese_milk_tea",
+    "https://en.wikipedia.org/wiki/Tawngpeng_State"
+  ],
+  "confidence": "medium",
+  "wikipedia_title": "Lahpet",
+  "wikipedia_scope": "umbrella",
+  "popularity": 2,
+  "images": []
+}

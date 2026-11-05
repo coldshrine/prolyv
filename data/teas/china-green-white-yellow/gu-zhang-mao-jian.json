@@ -3,10 +3,15 @@
   "name_en": "Gu Zhang Mao Jian",
   "name_native": "古丈毛尖",
   "name_romanized": "Gǔzhàng Máojiān",
-  "aliases": ["Guzhang Mao Jian", "Guzhang Maojian", "Hunan Mao Jian", "Xiangxi Mao Jian"],
+  "aliases": [
+    "Guzhang Mao Jian",
+    "Guzhang Maojian",
+    "Hunan Mao Jian",
+    "Xiangxi Mao Jian"
+  ],
   "category": "green",
   "origin_country": "China",
-  "origin_region": "Hunan · Xiangxi Tujia and Miao Autonomous Prefecture · Guzhang county",
+  "origin_region": "Hunan · Xiangxi · Guzhang",
   "cultivar": "Guzhang local landrace with some Fuding Dabai",
   "processing": "Pan-fired green: shoots are fired, rolled, re-fired and rubbed to raise the down, then finished slowly in the pan so the leaf tightens into slim, slightly curved needles with a faint roast.",
   "form": "loose",
@@ -15,13 +20,43 @@
   "appearance_liquor": "Bright yellow-green, clear.",
   "appearance_wet": "Whole bud-and-leaf sets, thick and bright green.",
   "taste_profile": "Full and sweet with a distinct roasted-chestnut aroma, a brisk savoury middle and a long sweet finish; sturdier than most tip teas.",
-  "taste_tags": ["nutty", "roasted", "sweet", "umami"],
-  "brewing": {"grams": 4, "water_ml": 120, "temp_c": 85, "steeps": 4, "seconds": [30, 30, 45, 70], "notes": "Gaiwan at 85 °C; this leaf has the body to take it. Four steeps, and the chestnut note peaks in the second."},
+  "taste_tags": [
+    "nutty",
+    "roasted",
+    "sweet",
+    "umami"
+  ],
+  "brewing": {
+    "grams": 4,
+    "water_ml": 120,
+    "temp_c": 85,
+    "steeps": 4,
+    "seconds": [
+      30,
+      30,
+      45,
+      70
+    ],
+    "notes": "Gaiwan at 85 °C; this leaf has the body to take it. Four steeps, and the chestnut note peaks in the second."
+  },
   "caffeine_level": "medium",
   "vintage_note": "Sold as the current year's spring harvest in pre-Qingming and yu qian grades, mostly within Hunan and through a few specialist sellers abroad; production in the mountain county is modest. The protected name covers Guzhang county; tea from the surrounding Wuling hills is sold as Xiangxi or Hunan Mao Jian. Drink within the year, kept cold and sealed.",
   "description": "Gu Zhang Mao Jian comes from Guzhang county in the Wuling mountains of western Hunan, Tujia and Miao country, a steep, forested, thinly populated corner where tea has been grown on terraces for a very long time. It is the least known of China's 'mao jian' (furry tip) greens outside its province, and arguably the most robust.\n\nIt is pan-fired, with the leaf rolled and rubbed between firings so the down shows and the shoot tightens into a slim needle, and the final drying is done slowly in the pan rather than by baking. That last step gives it a gentle roast, and the local landrace bushes give it thickness. The dry leaf is darker and sleeker than Xinyang's, with a chestnut smell straight from the bag.\n\nIn the cup it is full, sweet and savoury, with roasted chestnut leading, a brisk middle and a long sweetness in the throat. It stands 85 °C and four steeps from a gaiwan without complaint, which makes it a good green for people who find spring teas too fragile. Brewed timidly it is just pleasant; brewed with intent it is excellent.\n\nIt is sold as the spring harvest of the current year, in pre-Qingming and yu qian lots, and most of it is drunk in Hunan. The Guzhang name is protected, and tea from the neighbouring counties of Xiangxi is sold under broader names. The claim of tribute-tea status is part of the county's self-image; the useful facts are the picking date and the elevation. Look for whole, tight needles with down and a clean roast smell.\n\nGood with food, and a sensible choice if you want one Chinese green that will not fall apart in an office mug.",
   "wikipedia_title": "Green tea",
   "wikipedia_scope": "umbrella",
   "popularity": 2,
-  "sources_note": "No dedicated English Wikipedia article found."
+  "sources_note": "No dedicated English Wikipedia article found.",
+  "name_zh": "古丈毛尖",
+  "name_ru": "Гу Чжан Мао Цзянь",
+  "history": "Gu Zhang Mao Jian comes from Guzhang county in Xiangxi, western Hunan, and is the county's best-known product. Local accounts trace tea growing here to the Eastern Han dynasty and tribute tea to the Tang, claims that come from local promotion and are not well verified.\n\nThe modern record is more concrete. Tea-encyclopedia accounts mention a prize at an international exhibition in France in 1929 and a gold medal at Leipzig in 1957, both resting on limited evidence. The tea gained national geographical indication protection in 2007, and its eight-step making is listed as provincial intangible heritage.",
+  "liquor_hex": "#D2CE72",
+  "leaf_hex": "#4C5F34",
+  "sources": [
+    "https://zh.wikipedia.org/wiki/%E5%8F%A4%E4%B8%88%E5%8E%BF",
+    "https://zh.wikipedia.org/wiki/%E6%B9%98%E8%A5%BF%E5%9C%9F%E5%AE%B6%E6%97%8F%E8%8B%97%E6%97%8F%E8%87%AA%E6%B2%BB%E5%B7%9E",
+    "https://m.voc.com.cn/xhn/news/202609/33707465.html",
+    "https://m.maigoo.com/citiao/53116.html"
+  ],
+  "confidence": "medium",
+  "images": []
 }

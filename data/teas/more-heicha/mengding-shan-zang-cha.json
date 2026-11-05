@@ -1,0 +1,59 @@
+{
+  "slug": "mengding-shan-zang-cha",
+  "name_en": "Mengding Shan Zang Cha",
+  "name_native": "蒙顶山藏茶",
+  "name_romanized": "Méngdǐngshān Zàng Chá",
+  "aliases": [
+    "Mengdingshancangcha",
+    "Mengdingshanheicha",
+    "蒙顶山黑茶"
+  ],
+  "category": "heicha",
+  "origin_country": "China",
+  "origin_region": "Sichuan · Ya'an Mingshan",
+  "cultivar": null,
+  "form": "other",
+  "caffeine_level": "medium",
+  "brewing": {
+    "grams": 6,
+    "water_ml": 120,
+    "temp_c": 100,
+    "steeps": 6,
+    "seconds": [
+      15,
+      15,
+      20,
+      30,
+      45,
+      60
+    ],
+    "notes": "A safe starting point for dark tea: rinse once, boiling water, or simmer it the traditional way."
+  },
+  "taste_tags": [
+    "earthy",
+    "woody"
+  ],
+  "description": "A Tibetan-style dark tea from Mingshan district in Ya'an, Sichuan, protected by a geographical indication certification mark.\n\nTreat it as you would any dark tea: rinse it, use boiling water, and buy from someone who can say who pressed it and when.",
+  "wikipedia_title": null,
+  "wikipedia_scope": "none",
+  "popularity": 1,
+  "name_zh": "蒙顶山藏茶",
+  "name_ru": "Мэн Дин Шань Цзан Ча",
+  "history": "Its status as a local specialty and a registered mark is on record, also under the name Mengding Shan Heicha. Little more is documented about it.",
+  "liquor_hex": "#7A3A14",
+  "leaf_hex": "#2A1E16",
+  "sources": [
+    "https://milulu.com.cn/techan/17190.html",
+    "https://milulu.com.cn/techan/35563.html"
+  ],
+  "confidence": "low",
+  "images": [],
+  "stub": true,
+  "processing": "Typical of dark tea: green leaf is piled so that microbes ferment it, then dried and often pressed.",
+  "harvest_season": "Often made from coarser, later leaf, as with most dark teas.",
+  "appearance_dry": "Usually dark leaf, loose or pressed into bricks or baskets.",
+  "appearance_liquor": "Usually orange-red to dark brown.",
+  "appearance_wet": "Usually coarse dark leaf with some stem.",
+  "taste_profile": "Expect what dark teas usually give: smooth, woody and earthy.",
+  "vintage_note": "Dark teas are sold by production year and many improve with several years of dry storage."
+}

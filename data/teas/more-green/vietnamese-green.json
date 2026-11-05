@@ -1,0 +1,62 @@
+{
+  "slug": "vietnamese-green",
+  "name_en": "Trà Xanh (Vietnamese Green Tea)",
+  "name_native": "Trà Xanh",
+  "name_romanized": "Trà xanh",
+  "name_zh": "越南绿茶",
+  "name_ru": "Вьетнамский зелёный чай",
+  "aliases": [
+    "Vietnamese Tea",
+    "Вьетнамский чай",
+    "Ча Сань",
+    "Che xanh",
+    "Thai Nguyen green tea"
+  ],
+  "category": "green",
+  "origin_country": "Vietnam",
+  "origin_region": "Thái Nguyên · Tân Cương",
+  "cultivar": null,
+  "processing": "Unoxidised: the leaf is heated to stop oxidation, then rolled and dried, commonly into dark twisted strips in the northern style.",
+  "form": "loose",
+  "harvest_season": "Picked through the warm months across several flushes; as with other greens, the early spring picking is usually the most sought after.",
+  "appearance_dry": "Thin, dark green, tightly twisted strips, often hook-shaped.",
+  "appearance_liquor": "Bright yellow-green and clear.",
+  "appearance_wet": "Small, deep green leaves and buds.",
+  "taste_profile": "Brisk and vegetal, with real grip and a sweet aftertaste in better northern lots; much of the appeal is this firmness rather than delicacy.",
+  "taste_tags": [
+    "vegetal",
+    "brisk",
+    "bitter",
+    "sweet"
+  ],
+  "brewing": {
+    "grams": 5,
+    "water_ml": 150,
+    "temp_c": 85,
+    "steeps": 4,
+    "seconds": [
+      20,
+      30,
+      45,
+      70
+    ],
+    "notes": "Often brewed strong in a small pot at home. If it bites too hard, cool the water or shorten the steep rather than using less leaf."
+  },
+  "caffeine_level": "medium",
+  "vintage_note": "Sold as the current year's harvest, with Thái Nguyên and Tân Cương the names most often used to sell quality. Drink within about a year. Tân Cương is a place name that gets borrowed, so buy from a seller who can say who made the tea.",
+  "description": "Trà xanh simply means green tea, and in Vietnam it is the default cup, drunk strong at home and offered to guests. This is a broad category; the best-known source is Thái Nguyên province in the north, above all the Tân Cương area.\n\nThe usual northern style heats the leaf, then rolls it into dark twisted strips. Other regions make their own versions, including Lâm Đồng in the south.\n\nThe character is firmer than most Chinese or Japanese greens people know: more astringency, more grip, then sweetness at the back of the mouth. People who find it harsh are usually brewing it too hot or too long.\n\nBuy by region and by season, and do not expect a precise grade system to help much abroad. Plain green is also the base for Vietnam's flower teas, so if you like it, lotus or jasmine versions are the natural next step.",
+  "history": "The best-documented chapter of this style is modern. Vietnamese reports describe the first small-leaf tea plants arriving in Tân Cương in 1921, a few trees that grew into the fields there now.\n\nThái Nguyên province today reports more than 22,000 hectares of tea, and the cultivation and processing knowledge of Tân Cương has been promoted as living heritage, with a local cultural space collecting documents from its history.",
+  "liquor_hex": "#CFCB6C",
+  "leaf_hex": "#3F4F2C",
+  "wikipedia_title": "Vietnamese tea",
+  "wikipedia_scope": "umbrella",
+  "popularity": 3,
+  "sources": [
+    "https://en.wikipedia.org/wiki/Tea_culture",
+    "https://localvietnam.com/culture/cuisine/vietnamese-tea/",
+    "https://vietnamnews.vn/sunday/1658374/tan-cuong-tea-cultivation-a-living-heritage.html",
+    "https://vietnamnews.vn/sunday/1655364/tea-and-tourism-a-perfect-brew-for-tha-i-nguyen.html"
+  ],
+  "confidence": "medium",
+  "images": []
+}

@@ -1,0 +1,56 @@
+{
+  "slug": "tawngpeng-tea",
+  "name_en": "Tawngpeng Tea",
+  "name_native": null,
+  "name_romanized": "Tawngpeng",
+  "name_zh": "掸邦东彭茶",
+  "name_ru": "Таунпэн",
+  "aliases": [
+    "Taungpeng tea",
+    "Tawng Peng tea"
+  ],
+  "category": "green",
+  "origin_country": "Myanmar",
+  "origin_region": "Shan State · Tawngpeng",
+  "cultivar": null,
+  "processing": "Tawngpeng is a district name, not one method. As with other Shan hill leaf, drinking tea is typically heated and dried, while part of the region's leaf goes into fermented lahpet.",
+  "form": "loose",
+  "harvest_season": "Little is documented about picking dates. Spring leaf is generally the most prized in hill green teas.",
+  "appearance_dry": "Typically dark, twisted, uneven leaf, as is usual for Shan hill green tea.",
+  "appearance_liquor": "Usually clear yellow to pale gold, by the standard of hill green teas.",
+  "appearance_wet": "Mid-sized olive leaves with mixed picking, as is typical of rustic hill tea.",
+  "taste_profile": "No detailed tasting record exists; expect what is typical of rustic hill green tea, woody and vegetal with some astringency.",
+  "taste_tags": [
+    "woody",
+    "vegetal",
+    "bitter"
+  ],
+  "brewing": {
+    "grams": 3,
+    "water_ml": 250,
+    "temp_c": 85,
+    "steeps": 2,
+    "seconds": [
+      120,
+      180
+    ],
+    "notes": "A generic starting point for rustic green tea rather than a local rule."
+  },
+  "caffeine_level": "medium",
+  "vintage_note": "The name has a historical ring and no documented vintage system. As with most green tea, drink the latest harvest. Fermented lahpet from the region is a separate product, eaten fresh rather than aged.",
+  "description": "Tawngpeng was a Palaung principality in the northern Shan hills, and its main industry was tea. As a tea name it points to a historic district rather than a defined style, so think of it as the wider region around the town of Namhsan.\n\nGrowers here have long supplied both drinking tea and the leaf for lahpet, the fermented tea of Burmese cooking. Palaung and Shan farmers worked the lower hillsides.\n\nLittle is recorded about the cup itself. Brew it as you would other rustic hill green teas, and expect something plainer and woodier than a fine picked Chinese green.\n\nThe name rarely shows up on labels now. If a seller uses it, ask which township the tea really comes from and when it was picked.",
+  "history": "Tawngpeng's early past survives mostly as legend, and little is known before the 19th century. Sources disagree on the date its dynasty began. By the late 1700s tea had become a significant Burmese export alongside cotton.\n\nUnder the British, Tawngpeng was the main tea-producing area of the Federated Shan States, with its capital at Namhsan. The state ended in the mid-20th century; sources give 1959 for the last ruler's abdication.",
+  "liquor_hex": "#C4AE5C",
+  "leaf_hex": "#4A4A2E",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Tawngpeng_State",
+    "https://www.burmalibrary.org/en/tea-production-on-the-periphery-of-the-british-empire",
+    "https://en.wikipedia.org/wiki/Lahpet"
+  ],
+  "confidence": "low",
+  "wikipedia_title": "Tawngpeng State",
+  "wikipedia_scope": "umbrella",
+  "popularity": 2,
+  "images": [],
+  "sources_note": "name_zh is a descriptive rendering; no established Chinese name was confirmed."
+}

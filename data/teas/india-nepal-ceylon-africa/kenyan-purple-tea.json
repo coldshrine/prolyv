@@ -3,10 +3,16 @@
   "name_en": "Kenyan Purple Tea",
   "name_native": null,
   "name_romanized": null,
-  "aliases": ["Purple tea", "TRFK 306", "Purple leaf tea", "Kenya purple", "Purple tea Kenya"],
+  "aliases": [
+    "Purple tea",
+    "TRFK 306",
+    "Purple leaf tea",
+    "Kenya purple",
+    "Purple tea Kenya"
+  ],
   "category": "green",
   "origin_country": "Kenya",
-  "origin_region": "Nandi Hills, Kericho and Kirinyaga highlands",
+  "origin_region": "Rift Valley · Nandi Hills",
   "cultivar": "TRFK 306, the purple-leaved clone released by the Tea Research Foundation of Kenya in 2011",
   "processing": "Leaf from the anthocyanin-rich TRFK 306 clone, usually steamed or pan-fired and rolled like a green tea so the purple pigments survive; some factories make lightly oxidised, oolong-like versions and a few make a fully oxidised black.",
   "form": "loose",
@@ -15,13 +21,52 @@
   "appearance_liquor": "Pale pinkish-amber to reddish-violet, shifting to bright pink with a squeeze of lemon.",
   "appearance_wet": "Purple-tinged olive leaf.",
   "taste_profile": "Light and smooth: mildly fruity and woody with a soft tartness and very little bitterness; more about colour and novelty than depth of flavour.",
-  "taste_tags": ["fruity", "woody", "tart"],
-  "brewing": {"grams": 3, "water_ml": 200, "temp_c": 85, "steeps": 3, "seconds": [180, 240, 300], "notes": "A squeeze of lemon turns the cup pink, because the anthocyanins change colour with acidity."},
+  "taste_tags": [
+    "fruity",
+    "woody",
+    "tart"
+  ],
+  "brewing": {
+    "grams": 3,
+    "water_ml": 200,
+    "temp_c": 85,
+    "steeps": 3,
+    "seconds": [
+      180,
+      240,
+      300
+    ],
+    "notes": "A squeeze of lemon turns the cup pink, because the anthocyanins change colour with acidity."
+  },
   "caffeine_level": "medium",
   "vintage_note": "Sold by factory and year through direct importers and a handful of Kenyan brands, as loose leaf, tea bags and powder; no vintage, so buy within a year. Plenty of online sellers overstate its health claims; buy it for the novelty and the taste.",
-  "description": "Purple tea is Kenya's own invention: a tea bush with purple leaves, selected over two decades by the Tea Research Foundation of Kenya and released to farmers in 2011 as clone TRFK 306. The colour comes from anthocyanins, the same pigments that make blueberries and red cabbage purple, and the tea made from it is marketed on those antioxidants as much as on taste.\n\nThe leaf is usually processed like a green tea, steamed or pan-fired and rolled, so that the pigments survive; some factories make lightly oxidised, oolong-like versions and a few make a fully oxidised black purple tea. It is grown mainly in the Nandi Hills and around Kericho and Kirinyaga, plucked year-round, with the dry-season leaf most intensely coloured.\n\nThe cup is pale pinkish-amber to reddish-violet and tastes light, smooth and mildly fruity with a woody note, a soft tartness and very little bitterness; it is more about colour and novelty than depth. A squeeze of lemon turns the liquor bright pink, because anthocyanins change colour with acidity. Brew it at around 85 °C for three minutes and re-steep twice.\n\nIt is sold by factory and year through direct importers and a handful of Kenyan brands, as loose leaf, tea bags and powder; there is no vintage, so buy within a year. Plenty of online sellers overstate the health claims; buy it for the novelty and the taste rather than as medicine.\n\nIf you like it, the same clone is sometimes made as a hand-rolled black tea, which has more body and keeps the pink trick.",
+  "description": "Purple tea is Kenya's own invention: a tea bush with purple leaves, developed over about 25 years by the Tea Research Foundation of Kenya and released to farmers around 2011 as clone TRFK 306. The colour comes from anthocyanins, the same pigments that make blueberries and red cabbage purple, and the tea made from it is marketed on those antioxidants as much as on taste.\n\nThe leaf is usually processed like a green tea, steamed or pan-fired and rolled, so that the pigments survive; some factories make lightly oxidised, oolong-like versions and a few make a fully oxidised black purple tea. It is grown mainly in the Nandi Hills and around Kericho and Kirinyaga, plucked year-round, with the dry-season leaf most intensely coloured.\n\nThe cup is pale pinkish-amber to reddish-violet and tastes light, smooth and mildly fruity with a woody note, a soft tartness and very little bitterness; it is more about colour and novelty than depth. A squeeze of lemon turns the liquor bright pink, because anthocyanins change colour with acidity. Brew it at around 85 °C for three minutes and re-steep twice.\n\nIt is sold by factory and year through direct importers and a handful of Kenyan brands, as loose leaf, tea bags and powder; there is no vintage, so buy within a year. Plenty of online sellers overstate the health claims; buy it for the novelty and the taste rather than as medicine.\n\nIf you like it, the same clone is sometimes made as a hand-rolled black tea, which has more body and keeps the pink trick.",
   "wikipedia_title": "Tea production in Kenya",
   "wikipedia_scope": "umbrella",
   "popularity": 3,
-  "sources_note": "No 'Purple tea' article on English Wikipedia (checked), so the Kenya production article is used as umbrella. Category set to green because most purple tea is green-style, though oolong- and black-style versions exist. Caffeine is often marketed as lower than regular tea; set to medium pending a check."
+  "sources_note": "No 'Purple tea' article on English Wikipedia (checked), so the Kenya production article is used as umbrella. Category set to green because most purple tea is green-style, though oolong- and black-style versions exist. Caffeine is often marketed as lower than regular tea; set to medium pending a check.",
+  "name_zh": "肯尼亚紫茶",
+  "name_ru": "Кенийский фиолетовый чай",
+  "history": "Purple tea comes out of Kenyan plant breeding rather than old tradition. The Tea Research Foundation of Kenya developed a purple-leaved assamica clone, TRFK 306, over about 25 years by its breeder's account. Its own paper describes the clone as pre-released for commercial use as an anthocyanin-rich tea, with yields comparable to the standard clone TRFK 31/8 and strong resistance to the main pests and diseases. A cultivar database and the trade press give 2011 as the release year.\n\nIt is not a separate type of tea: the leaf can be made into green or black tea like any other cultivar. Kenyan producers make it to order alongside their far larger black tea output, and much of the selling rests on health claims that go further than the evidence for this tea.",
+  "liquor_hex": "#B9707E",
+  "leaf_hex": "#4A3440",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Tea_production_in_Kenya",
+    "https://repository.seku.ac.ke/handle/123456789/3075",
+    "https://www.businessdailyafrica.com/bd/corporate/enterprise/new-purple-tea-variety-promises-greater-returns-2023282",
+    "https://teaepicure.com/trfk-306"
+  ],
+  "confidence": "medium",
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/41/Purple_Tea_Harvest.jpg/1280px-Purple_Tea_Harvest.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/41/Purple_Tea_Harvest.jpg/330px-Purple_Tea_Harvest.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Purple_Tea_Harvest.jpg",
+      "author": "Maliqbhai",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "kind": "plantation",
+      "alt": "Freshly picked purple tea shoots being dropped into a woven basket during harvest in a Kenyan tea garden"
+    }
+  ]
 }

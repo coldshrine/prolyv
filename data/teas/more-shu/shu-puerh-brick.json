@@ -1,0 +1,64 @@
+{
+  "slug": "shu-puerh-brick",
+  "name_en": "Shu Pu-erh Brick (Cha Zhuan)",
+  "name_native": "普洱熟茶砖",
+  "name_romanized": "Pǔ'ěr Shú Cházhuān",
+  "name_zh": "普洱熟茶砖",
+  "name_ru": "Шу Пуэр Ча Чжуань",
+  "aliases": [
+    "Cha Zhuan (Puerh Brick)",
+    "Чажуань",
+    "Ча Чжуань",
+    "茶砖",
+    "茶磚",
+    "Ripe pu-erh brick"
+  ],
+  "category": "shu",
+  "origin_country": "China",
+  "origin_region": "Yunnan",
+  "cultivar": null,
+  "processing": "Ripe pu-erh, fermented in piles (wodui) and then steamed and pressed into a rectangular brick. Bricks such as 7581 use coarser, mature grades.",
+  "form": "brick",
+  "harvest_season": "No prized picking: factory bricks usually use mature leaf grades rather than early spring buds.",
+  "appearance_dry": "A dense, dark brown rectangular brick with visible coarse leaf and some stem.",
+  "appearance_liquor": "Very dark, clear red-brown.",
+  "appearance_wet": "Broad dark brown leaf pieces with some stem.",
+  "taste_profile": "Earthy, woody and smooth with little bitterness.",
+  "taste_tags": [
+    "earthy",
+    "woody",
+    "sweet"
+  ],
+  "brewing": {
+    "grams": 6,
+    "water_ml": 120,
+    "temp_c": 100,
+    "steeps": 6,
+    "seconds": [
+      10,
+      15,
+      20,
+      30,
+      45,
+      60
+    ],
+    "notes": "Pry off chunks along the side with a pick and let them rest. Rinse once or twice to clear any pile smell; bricks hold up well to long steeps."
+  },
+  "caffeine_level": "medium",
+  "vintage_note": "Sold by production year and by factory or recipe, and ready to drink from the start, as ripe pu-erh usually is. Lots from the 1980s and 1990s are sought after, so ask for proof of age and storage.",
+  "description": "A shu pu-erh brick is ripe pu-erh pressed into a rectangle, the dependable daily workhorse of the pu-erh shelf. Russian shops often sell it simply as chazhuan, a word that just means tea brick, so the name alone tells you little about its maker or quality.\n\nThe tea goes through pile fermentation, which turns it dark and smooth, and then it is pressed firmly. Factory bricks tend to use mature, coarser leaf. That gives less finesse than a fine-leaf cake, but plenty of body and a long brew.\n\nExpect earth, wood and a soft sweetness with hardly any bitterness. The classic mistake is not rinsing a young brick, where the pile smell is strongest. It forgives long steeps and suits a big pot as well as a gaiwan.\n\nThe best-known reference is 7581, associated with the Kunming factory and now sold under the Zhongcha brand. When buying, look for a stated factory and year. Unnamed bricks are fine for daily drinking, but do not pay extra for vague claims of age.",
+  "history": "Ripe bricks belong to the modern era of pile-fermented pu-erh. Sellers date the 7581 recipe to 1975, reading '75' as the year, '8' as the leaf grade and '1' as the Kunming factory; that reading comes from the trade rather than from factory records.\n\nSellers also describe 7581 as an early large-scale ripe brick, with 1980s and 1990s lots now sought after. One account has production paused between 1996 and 2005 before the Zhongcha brand revived it, though lots dated to the late 1990s are also sold, so that detail is doubtful.",
+  "liquor_hex": "#3F1A0C",
+  "leaf_hex": "#2F2016",
+  "sources": [
+    "https://chay.by/product/chaj-puer-chazhuan-100g/",
+    "https://teasenz.eu/zh/products/zhongcha-7581",
+    "https://post.smzdm.com/p/alloe390/",
+    "https://yunnansourcing.us/products/1998-cnnp-7581-exported-ripe-pu-erh-tea-brick"
+  ],
+  "confidence": "medium",
+  "wikipedia_title": "Pu'er tea",
+  "wikipedia_scope": "umbrella",
+  "popularity": 3,
+  "images": []
+}

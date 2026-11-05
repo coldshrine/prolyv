@@ -1,0 +1,53 @@
+{
+  "slug": "dujiangyan-tea",
+  "name_en": "Dujiangyan Tea",
+  "name_native": "都江堰茶叶",
+  "name_romanized": "Dūjiāngyàn Cháyè",
+  "aliases": [
+    "Dujiangyanchaye"
+  ],
+  "category": "green",
+  "origin_country": "China",
+  "origin_region": "Sichuan · Dujiangyan",
+  "cultivar": null,
+  "form": "loose",
+  "caffeine_level": "medium",
+  "brewing": {
+    "grams": 3,
+    "water_ml": 150,
+    "temp_c": 80,
+    "steeps": 3,
+    "seconds": [
+      60,
+      75,
+      105
+    ],
+    "notes": "A safe starting point for green tea: cooler water, short steeps, then adjust by taste."
+  },
+  "taste_tags": [
+    "nutty",
+    "sweet"
+  ],
+  "description": "A protected regional tea from twelve towns of Dujiangyan in Sichuan, where the Longmen Mountains meet the Chengdu Plain. Its gardens lie on yellow mountain soils at about 700 to 1200 metres.\n\nTreat it as you would any green tea: cooler water, short steeps, and a seller who can say where and when it was picked.",
+  "wikipedia_title": null,
+  "wikipedia_scope": "none",
+  "popularity": 1,
+  "name_zh": "都江堰茶叶",
+  "name_ru": "Ду Цзян Янь Ча Е",
+  "history": "The agriculture ministry registered it as a geographical indication on 31 March 2016. Qingcheng Xueya, one of its teas, was sold in Hong Kong, Macau and Japan by 1981, and Qingcheng Daocha won a first prize at the 2013 Zhongcha Cup.",
+  "liquor_hex": "#D9CF74",
+  "leaf_hex": "#8A8F45",
+  "sources": [
+    "https://milulu.com.cn/techan/27475.html"
+  ],
+  "confidence": "medium",
+  "images": [],
+  "stub": true,
+  "processing": "Typical of green tea: picked, heated soon after picking to stop oxidation, then shaped and dried.",
+  "harvest_season": "Usually picked in spring, with the earliest pickings prized, as with most green teas.",
+  "appearance_dry": "Naturally slightly curled strands, yellow-green with down.",
+  "appearance_liquor": "Bright yellow-green.",
+  "appearance_wet": "Even, bright yellow-green leaf.",
+  "taste_profile": "Clean aroma with a lasting chestnut note; fresh, brisk and mellow.",
+  "vintage_note": "Green teas like this are normally sold as the current year's harvest and are best within a year of picking. It is not an ageing tea."
+}

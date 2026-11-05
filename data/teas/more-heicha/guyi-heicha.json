@@ -1,0 +1,60 @@
+{
+  "slug": "guyi-heicha",
+  "name_en": "Guyi Heicha",
+  "name_native": "古黟黑茶",
+  "name_romanized": "Gǔyī hēichá",
+  "aliases": [
+    "Guyi Dark Tea",
+    "An Cha",
+    "安茶"
+  ],
+  "category": "heicha",
+  "origin_country": "China",
+  "origin_region": "Anhui · Huangshan Yixian",
+  "cultivar": null,
+  "form": "loose",
+  "caffeine_level": "medium",
+  "brewing": {
+    "grams": 6,
+    "water_ml": 120,
+    "temp_c": 100,
+    "steeps": 6,
+    "seconds": [
+      15,
+      15,
+      20,
+      30,
+      45,
+      60
+    ],
+    "notes": "A safe starting point for dark tea: rinse once, boiling water, or simmer it the traditional way."
+  },
+  "taste_tags": [
+    "spicy",
+    "herbal",
+    "bitter",
+    "sweet"
+  ],
+  "description": "A dark tea from Yi County in Huangshan, Anhui, also called An Cha.\n\nTreat it as you would any dark tea: rinse it, use boiling water, and buy from someone who can say who pressed it and when.",
+  "wikipedia_title": null,
+  "wikipedia_scope": "none",
+  "popularity": 1,
+  "name_zh": "古黟黑茶",
+  "name_ru": "Гу И Хэй Ча",
+  "history": "It appears in Chinese rankings of well-known dark teas, where it is described as made by a traditional fermenting method. Little more is documented about it.",
+  "liquor_hex": "#8A3F16",
+  "leaf_hex": "#2A1E16",
+  "sources": [
+    "https://www.cnpp.cn/focus/235769.html"
+  ],
+  "confidence": "low",
+  "images": [],
+  "stub": true,
+  "processing": "Typical of dark tea: green leaf is piled so that microbes ferment it, then dried and often pressed.",
+  "harvest_season": "Often made from coarser, later leaf, as with most dark teas.",
+  "appearance_dry": "Glossy black leaf.",
+  "appearance_liquor": "Deep with a slight red tone.",
+  "appearance_wet": "Usually coarse dark leaf with some stem.",
+  "taste_profile": "Aroma of dried ginger and grass; soft and mellow, slightly bitter and astringent, with a quick sweet return.",
+  "vintage_note": "Dark teas are sold by production year and many improve with several years of dry storage."
+}

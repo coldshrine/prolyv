@@ -1,0 +1,53 @@
+{
+  "slug": "gantong-cha",
+  "name_en": "Gantong Tea",
+  "name_native": "感通茶",
+  "name_romanized": "Gǎntōng Chá",
+  "aliases": [
+    "Gantong Cha",
+    "Gantongcha"
+  ],
+  "category": "green",
+  "origin_country": "China",
+  "origin_region": "Yunnan · Gantong Temple, Dali",
+  "cultivar": null,
+  "form": "loose",
+  "caffeine_level": "medium",
+  "brewing": {
+    "grams": 3,
+    "water_ml": 150,
+    "temp_c": 80,
+    "steeps": 3,
+    "seconds": [
+      60,
+      75,
+      105
+    ],
+    "notes": "A safe starting point for green tea: cooler water, short steeps, then adjust by taste."
+  },
+  "taste_tags": [
+    "sweet"
+  ],
+  "description": "A green tea from the area around Gantong Temple near Dali, Yunnan, grown at the foot of Shengying and Malong peaks.\n\nTreat it as you would any green tea: cooler water, short steeps, and a seller who can say where and when it was picked.",
+  "wikipedia_title": null,
+  "wikipedia_scope": "none",
+  "popularity": 1,
+  "name_zh": "感通茶",
+  "name_ru": "Гань Тун Ча",
+  "history": "It is described as a long-standing local tea served to guests and as the main tea in the Bai people's three-course tea. Gantong Biyu is named as its finest grade. Little more is documented about it.",
+  "liquor_hex": "#D3D67C",
+  "leaf_hex": "#7E8B3E",
+  "sources": [
+    "https://milulu.com.cn/techan/23530.html"
+  ],
+  "confidence": "low",
+  "images": [],
+  "stub": true,
+  "processing": "Typical of green tea: picked, heated soon after picking to stop oxidation, then shaped and dried.",
+  "harvest_season": "Usually picked in spring, with the earliest pickings prized, as with most green teas.",
+  "appearance_dry": "Green leaf whose shape depends on the maker, as is usual for regional green teas.",
+  "appearance_liquor": "Tender green and clean.",
+  "appearance_wet": "Usually soft green leaf that opens up in the water.",
+  "taste_profile": "Rich aroma with a mellow, sweet taste that holds up over many infusions.",
+  "vintage_note": "Green teas like this are normally sold as the current year's harvest and are best within a year of picking. It is not an ageing tea."
+}

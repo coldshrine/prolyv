@@ -1,0 +1,59 @@
+{
+  "slug": "raspberry-leaf-tea",
+  "name_en": "Raspberry Leaf Tea",
+  "name_native": null,
+  "name_romanized": null,
+  "name_zh": "覆盆子叶茶",
+  "name_ru": "Чай из листьев малины",
+  "aliases": [
+    "Чай из малины",
+    "Red raspberry leaf",
+    "Red raspberry leaf tea",
+    "Лист малины",
+    "Rubi idaei folium",
+    "Garden raspberry leaf"
+  ],
+  "category": "tisane",
+  "origin_country": "United Kingdom",
+  "origin_region": "Britain",
+  "cultivar": null,
+  "processing": "Leaves of the garden raspberry, Rubus idaeus, are dried and cut with no further processing.",
+  "form": "loose",
+  "harvest_season": "Not tied to a prized picking; sold dried year round.",
+  "appearance_dry": "Crumbly cut leaf, dull green with paler, slightly downy undersides.",
+  "appearance_liquor": "Clear greenish gold to light amber as it strengthens.",
+  "appearance_wet": "Soft, dark green leaf fragments.",
+  "taste_profile": "Nothing like raspberries: a mild cup often compared to a light black tea, with some fruitiness and a tannic grip that grows the longer it steeps.",
+  "taste_tags": [
+    "herbal",
+    "brisk",
+    "fruity"
+  ],
+  "brewing": {
+    "grams": 3,
+    "water_ml": 240,
+    "temp_c": 95,
+    "steeps": 1,
+    "seconds": [
+      360
+    ],
+    "notes": "About a tablespoon per cup, steeped 5 to 10 minutes. Beyond 10 minutes the tannins turn drying."
+  },
+  "caffeine_level": "none",
+  "vintage_note": "Sold with no vintage, loose or in bags, under a best-before date. As with other dried leaf, the fresher pack is better. Packs can be marketed heavily at pregnant women, and that claim is not well supported.",
+  "description": "Raspberry leaf tea is made from the leaf of the garden raspberry and tastes nothing like the fruit. If you want raspberry flavour, this is the wrong bag; if you want something close to a soft black tea without caffeine, it is a good one.\n\nThe leaf is simply dried and cut, and its tannins set the character, giving the cup real structure for a herbal.\n\nWater just off the boil and 5 to 10 minutes works well, and steeping much longer than that dries the mouth. It is also good cold.\n\nIts fame comes from pregnancy lore: it has long been recommended as an aid to childbirth. Research has found little to no support, and a 2009 review called the recommendations questionable and raised concern over the missing safety evidence. Anyone pregnant should ask a midwife or doctor rather than go by the packet.",
+  "history": "Raspberry leaf belongs to folk medicine, and it is listed as a herbal drug under the name Rubi idaei folium. Russian herbal tradition uses raspberry tea as a remedy for sweating out a cold, and English-speaking lore connects the leaf with childbirth.\n\nThe evidence for the childbirth use is largely anecdotal, and how far back the custom goes is not reliably dated. A 2009 review pointed out the absence of good evidence on safety or efficacy.",
+  "liquor_hex": "#BFA24C",
+  "leaf_hex": "#6E7A52",
+  "wikipedia_title": "Red raspberry leaf",
+  "wikipedia_scope": "exact",
+  "popularity": 3,
+  "sources": [
+    "https://en.wikipedia.org/wiki/Red_raspberry_leaf",
+    "https://ru.wikipedia.org/wiki/%D0%A2%D1%80%D0%B0%D0%B2%D1%8F%D0%BD%D0%BE%D0%B9_%D1%87%D0%B0%D0%B9",
+    "https://simplelooseleaf.com/?p=3298",
+    "https://www.wikidata.org/wiki/Q7305370"
+  ],
+  "confidence": "medium",
+  "images": []
+}

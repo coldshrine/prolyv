@@ -1,0 +1,53 @@
+{
+  "slug": "saiidi-tea",
+  "name_en": "Saiidi Tea",
+  "name_native": "شاي صعيدي",
+  "name_romanized": "Shāy Ṣaʿīdī",
+  "name_zh": "埃及赛义迪红茶",
+  "name_ru": "Чай саиди",
+  "aliases": [
+    "Dark saiidi tea",
+    "Saidi tea",
+    "Shai Saidi"
+  ],
+  "category": "black",
+  "origin_country": "Egypt",
+  "origin_region": "Upper Egypt",
+  "cultivar": null,
+  "processing": "Not a kind of leaf but a way of making the drink: black tea is boiled hard in water for about five minutes and sweetened heavily with cane sugar.",
+  "form": "loose",
+  "harvest_season": "Not tied to a harvest; it is a preparation made from ordinary black tea all year.",
+  "appearance_dry": "Ordinary dark black tea, with no special leaf associated with the style.",
+  "appearance_liquor": "Very dark, close to black in the glass.",
+  "appearance_wet": "Dark, fully stewed leaf left over from the boil.",
+  "taste_profile": "Extremely strong and bitter from the long boil, with the heavy cane sugar pushing back against it.",
+  "taste_tags": [
+    "bitter",
+    "sweet",
+    "brisk"
+  ],
+  "brewing": {
+    "grams": 5,
+    "water_ml": 150,
+    "temp_c": 100,
+    "steeps": 1,
+    "seconds": [
+      300
+    ],
+    "notes": "Two teaspoons per cup, boiled over a strong flame for five minutes, then sweetened generously with cane sugar. Without the sugar it is very bitter."
+  },
+  "caffeine_level": "high",
+  "vintage_note": "Saiidi tea is not sold by year or season, since it is a home and cafe preparation rather than a product. Any fresh, inexpensive black tea serves, and freshness matters little after a five-minute boil.",
+  "description": "Saiidi tea is the strong black tea of Upper Egypt, the southern part of the country. It is a recipe rather than a variety, and what defines it is the boil.\n\nThe tea goes into water over an intense flame and stays there for about five minutes, at around two teaspoons per cup. Most tea advice warns against exactly this. Here the extraction is the point, and it pulls out a great deal of bitterness and colour.\n\nThe result can look nearly black even as a liquid. It really needs plenty of cane sugar, since the method makes a very bitter drink, and the sweetness is part of the recipe rather than an optional extra.\n\nThere is nothing special to shop for. Use plain black tea, and do not waste a fine one, because the boil will flatten anything delicate.",
+  "history": "Saiidi tea is documented as the typical tea of Upper Egypt, but little is recorded about when the custom took shape or who spread it. Its name points to the region rather than to a maker or a plantation.",
+  "wikipedia_title": "Tea culture",
+  "wikipedia_scope": "umbrella",
+  "popularity": 2,
+  "liquor_hex": "#2B1209",
+  "leaf_hex": "#2C1D14",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Tea_culture"
+  ],
+  "confidence": "low",
+  "images": []
+}

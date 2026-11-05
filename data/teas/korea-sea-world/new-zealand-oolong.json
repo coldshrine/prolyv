@@ -3,11 +3,20 @@
   "name_en": "New Zealand Oolong (Zealong)",
   "name_native": null,
   "name_romanized": null,
-  "aliases": ["Zealong", "Zealong Pure", "Zealong Aromatic", "Zealong Dark", "Waikato oolong", "Gordonton tea", "NZ oolong", "New Zealand tea"],
+  "aliases": [
+    "Zealong",
+    "Zealong Pure",
+    "Zealong Aromatic",
+    "Zealong Dark",
+    "Waikato oolong",
+    "Gordonton tea",
+    "NZ oolong",
+    "New Zealand tea"
+  ],
   "category": "oolong",
   "origin_country": "New Zealand",
   "origin_region": "Waikato · Gordonton, near Hamilton",
-  "cultivar": "Taiwanese cultivars raised from cuttings imported in the 1990s, with Qingxin (Chin Shin) the mainstay",
+  "cultivar": "Taiwanese cultivars raised from imported cuttings, with Qingxin (Chin Shin) the mainstay",
   "processing": "Taiwanese-style ball-rolled oolong in three levels: 'Pure' is very lightly oxidised and unroasted, 'Aromatic' is a little more oxidised, and 'Dark' is more oxidised and roasted; withered, bruised, pan-fired, cloth-rolled and dried on the estate, which also makes black and green tea.",
   "form": "loose",
   "harvest_season": "Southern-hemisphere spring and summer, from about November to April, with the first spring pick in November and December the most prized; one or two further picks follow before the autumn.",
@@ -15,13 +24,43 @@
   "appearance_liquor": "Pale greenish gold (Pure) through gold (Aromatic) to amber (Dark), all bright and clear.",
   "appearance_wet": "Thick, whole, intact leaves with stems, bright green in the lighter grades and olive-brown in Dark.",
   "taste_profile": "Clean and fresh: the Pure is grassy-floral and buttery with a cool sweet finish, the Aromatic adds orchid and honey, and the Dark brings toasted grain, caramel and dried fruit; all are smooth and low in bitterness.",
-  "taste_tags": ["floral", "creamy", "sweet", "roasted"],
-  "brewing": {"grams": 6, "water_ml": 110, "temp_c": 95, "steeps": 7, "seconds": [25, 15, 20, 30, 45, 60, 90], "notes": "Rinse once, then just-boiled water and short steeps; the Pure prefers a touch cooler. The estate's own guidance is similar and all three take a Western pot at 3 g per 250 ml happily."},
+  "taste_tags": [
+    "floral",
+    "creamy",
+    "sweet",
+    "roasted"
+  ],
+  "brewing": {
+    "grams": 6,
+    "water_ml": 110,
+    "temp_c": 95,
+    "steeps": 7,
+    "seconds": [
+      25,
+      15,
+      20,
+      30,
+      45,
+      60,
+      90
+    ],
+    "notes": "Rinse once, then just-boiled water and short steeps; the Pure prefers a touch cooler. The estate's own guidance is similar and all three take a Western pot at 3 g per 250 ml happily."
+  },
   "caffeine_level": "medium",
   "vintage_note": "Sold by the estate as the current season's harvest, usually with the harvest year, in tins and foil of 50–100 g through its own shop, New Zealand retailers and export partners; it is premium-priced. The lighter grades are best within a year or so; the Dark keeps longer. There is no secondary vintage market.",
-  "description": "Zealong is New Zealand's tea estate, a single farm of neat rolled hedges at Gordonton in the Waikato, just outside Hamilton on the North Island. It was started by a Taiwanese family, the Chens, who imported Taiwanese tea cuttings in the 1990s, found that the mild, frost-light Waikato climate suited them, and released their first commercial tea around 2009. It is the only New Zealand tea of any scale, and it is run and marketed as a luxury product.\n\nThe tea is made the Taiwanese way, with Taiwanese cultivars and Taiwanese technique, in three oolong styles that map onto the Taiwanese spectrum: the barely oxidised, unroasted Pure, the slightly more oxidised Aromatic, and the roasted Dark, with black and green teas alongside. The estate is certified organic and does everything on site, from picking to packing, with a visitor centre and tea house attached.\n\nThe cups are clean and precise: buttery and grassy-floral with a cool sweetness in the Pure, orchid and honey in the Aromatic, toasted grain and caramel in the Dark, all of them smooth and well made. The honest comparison is with the Taiwanese teas they are modelled on, against which Zealong is a little simpler and considerably dearer; the attraction is the place, the organic certification and the cleanliness of the tea rather than great depth. Brew it gongfu style with a rinse and short steeps.\n\nIt is sold by the estate itself and through a limited set of retailers, by harvest year, in small tins, at prices close to top Taiwanese high-mountain tea. There is nothing to fake and nothing to age; choose the style, check the season, and drink it within the year for the lighter grades.\n\nIf you like it and want the originals, a Taiwanese Qingxin oolong from Alishan or Shan Lin Xi is the reference; and if the idea of new-world tea appeals, Hawaii-grown oolong is the other side of the same story.",
+  "description": "Zealong is New Zealand's tea estate, a single farm of neat rolled hedges at Gordonton in the Waikato, just outside Hamilton on the North Island. It grew from imported Taiwanese tea cuttings that took to the mild, frost-light Waikato climate, and it was on national television by 2009. It was the country's first commercial tea plantation, and it is run and marketed as a luxury product.\n\nThe tea is made the Taiwanese way, with Taiwanese cultivars and Taiwanese technique, in three oolong styles that map onto the Taiwanese spectrum: the barely oxidised, unroasted Pure, the slightly more oxidised Aromatic, and the roasted Dark, with black and green teas alongside. The estate is certified organic or in organic conversion and does everything on site, from picking to packing, with a visitor centre and tea house attached.\n\nThe cups are clean and precise: buttery and grassy-floral with a cool sweetness in the Pure, orchid and honey in the Aromatic, toasted grain and caramel in the Dark, all of them smooth and well made. The honest comparison is with the Taiwanese teas they are modelled on, against which Zealong is a little simpler and considerably dearer; the attraction is the place, the organic certification and the cleanliness of the tea rather than great depth. Brew it gongfu style with a rinse and short steeps.\n\nIt is sold by the estate itself and through a limited set of retailers, by harvest year, in small tins, at prices close to top Taiwanese high-mountain tea. There is nothing to fake and nothing to age; choose the style, check the season, and drink it within the year for the lighter grades.\n\nIf you like it and want the originals, a Taiwanese Qingxin oolong from Alishan or Shan Lin Xi is the reference; and if the idea of new-world tea appeals, Hawaii-grown oolong is the other side of the same story.",
   "wikipedia_title": "Zealong",
   "wikipedia_scope": "umbrella",
   "popularity": 2,
-  "sources_note": "Founding details (Chen family, cuttings imported in the 1990s, first commercial release around 2009) are from memory of press coverage and the estate's own history. Cultivar makeup beyond Qingxin is not published in detail."
+  "sources_note": "Founding details (Chen family, cuttings imported in the 1990s, first commercial release around 2009) are from memory of press coverage and the estate's own history. Cultivar makeup beyond Qingxin is not published in detail.",
+  "name_zh": "新西兰乌龙茶",
+  "name_ru": "Новозеландский улун (Зилонг)",
+  "history": "Zealong, based in Hamilton in the Waikato, was New Zealand's first commercial tea plantation, making oolong along with green and black tea in a style that looks to Taiwan. It is a recent venture, not an old tradition.\n\nThe company drew attention in China and Taiwan as well as at home. A national television programme, Campbell Live, featured it in 2009, and in September 2016 it signed an export deal with the German tea retailer TeeGschwendner.",
+  "liquor_hex": "#D9C66E",
+  "leaf_hex": "#3F5A34",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Zealong"
+  ],
+  "confidence": "medium",
+  "images": []
 }

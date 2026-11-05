@@ -3,10 +3,16 @@
   "name_en": "Yongxi Huo Qing (Yongxi Fire Green)",
   "name_native": "涌溪火青",
   "name_romanized": "Yǒngxī Huǒqīng",
-  "aliases": ["Yong Xi Huo Qing", "Yongxi Huoqing", "Fire Green", "Jingxian Huoqing", "Chinese pearl green"],
+  "aliases": [
+    "Yong Xi Huo Qing",
+    "Yongxi Huoqing",
+    "Fire Green",
+    "Jingxian Huoqing",
+    "Chinese pearl green"
+  ],
   "category": "green",
   "origin_country": "China",
-  "origin_region": "Anhui · Xuancheng · Jing county · Yongxi village",
+  "origin_region": "Anhui · Xuancheng · Yongxi",
   "cultivar": "Yongxi local landrace",
   "processing": "Pan-fired green rolled into pellets by hand: shoots are fired, rolled, then worked for many hours in a low-heat wok with continuous hand or paddle motion until each shoot tightens into a glossy, rounded pellet; a far slower and gentler process than commercial gunpowder.",
   "form": "loose",
@@ -15,13 +21,42 @@
   "appearance_liquor": "Clear bright yellow-green.",
   "appearance_wet": "Pellets open into whole bud-and-two-leaf sets, bright green and thick.",
   "taste_profile": "Full, sweet and thick with orchid and cooked chestnut, a touch of roast, and a mild bitterness that turns sweet; the body is heavier than its spring-green looks suggest.",
-  "taste_tags": ["floral", "nutty", "sweet", "roasted"],
-  "brewing": {"grams": 4, "water_ml": 120, "temp_c": 85, "steeps": 5, "seconds": [40, 30, 45, 60, 90], "notes": "Gaiwan at 85 °C. The pellets sink and open slowly, so give the first steep a little longer than for loose greens; it keeps giving for five infusions."},
+  "taste_tags": [
+    "floral",
+    "nutty",
+    "sweet",
+    "roasted"
+  ],
+  "brewing": {
+    "grams": 4,
+    "water_ml": 120,
+    "temp_c": 85,
+    "steeps": 5,
+    "seconds": [
+      40,
+      30,
+      45,
+      60,
+      90
+    ],
+    "notes": "Gaiwan at 85 °C. The pellets sink and open slowly, so give the first steep a little longer than for loose greens; it keeps giving for five infusions."
+  },
   "caffeine_level": "medium",
   "vintage_note": "Sold as the current year's spring harvest from late April; production in the Yongxi valley is small and most of it sells within Anhui, so it reaches other markets in limited lots at a high price. Grades follow uniformity and gloss of the pellets. Drink within the year, kept cold and sealed; the tight roll helps it keep.",
   "description": "Yongxi Huo Qing is the aristocrat of pellet-rolled greens. It comes from the Yongxi valley in Jing county, Anhui, and from a distance it looks like gunpowder tea; up close the pellets are rounder, glossier and more even, and in the cup it is a different world. The name means 'fire green', after the long, slow wok work that makes it.\n\nThat wok work is the whole story. After firing and rolling, the leaf goes into a barely warm pan and is turned, pressed and rolled continuously for many hours, by hand in the traditional method, until each shoot of a bud and two leaves tightens into a small bead. It is slow, laborious and low-yield, which is why a kilo of it costs many times what a kilo of gunpowder does.\n\nBrewed, the pellets sink, then slowly unfurl into whole green shoots. The liquor is full, thick and sweet, with orchid, cooked chestnut and a light roasty warmth, and a mild bitterness that converts into a sweet aftertaste. It stands five steeps from a gaiwan at 85 °C, better than almost any other spring green, and it does not go thin or sour as it fades.\n\nIt is picked around Grain Rain, later than bud teas, and sold as the current year's spring harvest. Real Yongxi tea is a small production that mostly stays in Anhui, so if you find it abroad it will be from a specialist and it will not be cheap. Uniform, glossy, well-rounded pellets with a sweet smell are the sign of a good lot; dull, uneven balls that smell of hay are a sign of ordinary pearl tea dressed up.\n\nIf you like it, Lu'an Gua Pian from the same province has a similar thickness in a totally different shape.",
   "wikipedia_title": "Green tea",
   "wikipedia_scope": "umbrella",
   "popularity": 2,
-  "sources_note": "No dedicated English Wikipedia article. Hours-long hand rolling in a low-heat wok is the traditional description; modern lots may use machines for part of it."
+  "sources_note": "No dedicated English Wikipedia article. Hours-long hand rolling in a low-heat wok is the traditional description; modern lots may use machines for part of it.",
+  "name_zh": "涌溪火青",
+  "name_ru": "Юн Си Хо Цин",
+  "history": "Yongxi Huo Qing belongs to Jing county in Anhui, now part of Xuancheng, and Yongxi is the area where its gardens lie. The 'fire' in the name refers to the long, slow heated work that shapes it. Xuancheng counts it among the leading local green teas, alongside Jingting Lü Xue.\n\nIts early history is poorly documented.\n\nIt remains a working tea in the eyes of Chinese researchers: a 2013 paper tested an oolong-style treatment of part of the fresh leaf, finished by the traditional method, to raise its aroma.",
+  "liquor_hex": "#D6D86E",
+  "leaf_hex": "#2F4A2E",
+  "sources": [
+    "https://zh.wikipedia.org/wiki/%E5%AE%A3%E5%9F%8E%E5%B8%82",
+    "https://www.casb.org.cn/CN/Y2013/V29/I36/395"
+  ],
+  "confidence": "low",
+  "images": []
 }

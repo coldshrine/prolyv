@@ -3,25 +3,63 @@
   "name_en": "Keemun Mao Feng",
   "name_native": "祁红毛峰",
   "name_romanized": "Qíhóng Máofēng",
-  "aliases": ["Qimen Mao Feng", "Keemun Maofeng", "Qi Hong Mao Feng", "Keemun whole leaf", "祁门毛峰"],
+  "aliases": [
+    "Qimen Mao Feng",
+    "Keemun Maofeng",
+    "Qi Hong Mao Feng",
+    "Keemun whole leaf",
+    "祁门毛峰"
+  ],
   "category": "black",
   "origin_country": "China",
   "origin_region": "Anhui · Huangshan · Qimen",
   "cultivar": "Qimen Zhuye (local small-leaf population bush)",
-  "processing": "Fully oxidised whole-leaf style: a bud with one or two leaves is withered, rolled, oxidised and dried, then only lightly sorted; nothing is cut, so the strands stay intact and tippy.",
+  "processing": "Fully oxidised whole-leaf style: a bud with one or two leaves is withered, rolled and oxidised, shaped after oxidation so the strands stay complete, then dried and only lightly sorted; nothing is cut, so the strands stay intact and tippy.",
   "form": "loose",
   "harvest_season": "Early to mid spring, from around Qingming to Guyu (April); the earliest pickings are finest and dearest.",
   "appearance_dry": "Slim, wiry, slightly curved whole strands, dark with a soft sheen and visible golden tips.",
   "appearance_liquor": "Bright orange-red, clear and glossy.",
   "appearance_wet": "Whole copper-red leaves and buds, tender and even.",
   "taste_profile": "Apricot and dried plum over cocoa and honey, with the rosy 'Qimen fragrance' on the finish; sweeter and lighter in tannin than the cut gongfu style.",
-  "taste_tags": ["stone-fruit", "cocoa", "floral", "honey", "sweet"],
-  "brewing": {"grams": 5, "water_ml": 110, "temp_c": 92, "steeps": 6, "seconds": [10, 12, 15, 20, 30, 45], "notes": "Whole leaf tolerates water just under the boil; do not overfill the gaiwan or steep long, or the fruit turns to stewed tannin. Western-style: 3 g per 250 ml, 2.5–3 minutes."},
+  "taste_tags": [
+    "stone-fruit",
+    "cocoa",
+    "floral",
+    "honey",
+    "sweet"
+  ],
+  "brewing": {
+    "grams": 5,
+    "water_ml": 110,
+    "temp_c": 92,
+    "steeps": 6,
+    "seconds": [
+      10,
+      12,
+      15,
+      20,
+      30,
+      45
+    ],
+    "notes": "Whole leaf tolerates water just under the boil; do not overfill the gaiwan or steep long, or the fruit turns to stewed tannin. Western-style: 3 g per 250 ml, 2.5–3 minutes."
+  },
   "caffeine_level": "medium",
   "vintage_note": "Sold as the current year's spring harvest, usually with the picking window stated (pre-Guyu lots cost more). Drink within a year to eighteen months; the fruit and rose notes are the first to go and it is not meant for ageing.",
   "description": "Keemun Mao Feng is the whole-leaf face of Keemun: the same Qimen County leaf and the same rose-and-cocoa 'Qimen fragrance', but picked finer, left uncut and sold as a tippy spring tea rather than a refined, graded export black. It is the style most specialist shops now offer when they say 'Keemun', and it is the one that pulls the tea towards fruit and flowers.\n\nMao Feng is made from early spring pickings of a bud with one or two leaves. After withering, rolling, oxidation and drying, the leaf is only lightly sorted; nothing is cut, so the wiry, slightly curved strands stay intact and the golden tips show. Fewer broken edges means slower, gentler extraction than the gongfu style, and a cup that is sweeter and lighter in tannin.\n\nExpect apricot and dried plum up front, cocoa and honey underneath and that rosy lift on the finish, then a softer, maltier tail over five or six steeps. Because the leaf is whole it tolerates hotter water than cut Keemun; what ruins it is overloading the pot and steeping long, which turns the fruit into stewed tannin. Five grams in a gaiwan with water just under the boil and short steeps shows it best.\n\nIt is sold by the current spring, often with the picking date; earlier is finer and dearer. Look for a dark leaf with a slight sheen and visible golden tips, and a dry aroma of cocoa and roses rather than smoke. Big, flat, dull leaves or a thin, papery smell usually mean summer leaf or old stock. As with all Keemun, check that the origin says Qimen rather than a vaguer 'Anhui'.\n\nTry it side by side with a Keemun gongfu of the same year: identical leaf, and the cut alone changes the tea more than most people expect.",
   "wikipedia_title": "Keemun",
   "wikipedia_scope": "exact",
   "popularity": 3,
-  "sources_note": "Mao Feng as a Keemun style became common from roughly the 1990s onward; exact origin year not stated on purpose."
+  "sources_note": "Mao Feng as a Keemun style became common from roughly the 1990s onward; exact origin year not stated on purpose.",
+  "name_zh": "祁红毛峰",
+  "name_ru": "Кимун Мао Фэн",
+  "history": "Keemun began in Qimen County, Anhui, in the mid 1870s, when local makers turned from green tea to black using methods learned from older gongfu regions. For most of its life it was a cut, sieved and blended export tea, and it won a top award at the 1915 San Francisco exposition.\n\nMao Feng is a later line. It is counted among the newer Keemun crafts, keeping the usual first steps but adding a shaping stage after oxidation so the strands stay whole. It is picked earlier than other Keemun, a bud with two leaves in the usual description, and tastes lighter and sweeter. One press account places the whole-leaf series after Xiang Luo of 1997; the exact year is not documented.",
+  "liquor_hex": "#B4561F",
+  "leaf_hex": "#33261B",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Keemun",
+    "https://www.rmzxw.com.cn/c/2022-12-08/3263459.shtml",
+    "https://ja.wikipedia.org/wiki/%E7%A5%81%E9%96%80%E7%B4%85%E8%8C%B6"
+  ],
+  "confidence": "medium",
+  "images": []
 }

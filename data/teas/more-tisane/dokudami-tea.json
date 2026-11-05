@@ -1,0 +1,63 @@
+{
+  "slug": "dokudami-tea",
+  "name_en": "Dokudami-cha (Houttuynia)",
+  "name_native": "どくだみ茶",
+  "name_romanized": "Dokudami-cha",
+  "name_zh": "鱼腥草茶",
+  "name_ru": "Докудами-тя (хауттюйния)",
+  "aliases": [
+    "Dokudami tea",
+    "Houttuynia tea",
+    "Eoseongcho-cha",
+    "어성초차",
+    "鱼腥草",
+    "蕺菜",
+    "魚腥草",
+    "ドクダミ",
+    "Fish mint tea",
+    "Хауттюйния"
+  ],
+  "category": "tisane",
+  "origin_country": "Japan",
+  "origin_region": "Nationwide",
+  "cultivar": null,
+  "processing": "The aerial parts of Houttuynia cordata are picked and dried, in Korean practice in the shade at flowering time.",
+  "form": "loose",
+  "harvest_season": "Early summer around flowering, which runs from about May to August in Japan.",
+  "appearance_dry": "Crumbled dull green to brown-green leaf and stem, sometimes with bits of the small white-bracted flower heads.",
+  "appearance_liquor": "Clear yellow-brown, as with most dried-leaf herbal teas.",
+  "appearance_wet": "Soft, dark, heart-shaped leaf pieces with thin stems.",
+  "taste_profile": "Herbal and earthy, as is typical of dried-leaf infusions, and far tamer than the sharp fishy smell of the fresh plant.",
+  "taste_tags": [
+    "herbal",
+    "earthy",
+    "medicinal"
+  ],
+  "brewing": {
+    "grams": 3,
+    "water_ml": 400,
+    "temp_c": 100,
+    "steeps": 1,
+    "seconds": [
+      300
+    ],
+    "notes": "Steep in boiling water or simmer in a kettle, as is usual with Japanese herbal teas. Start weak if you are new to it."
+  },
+  "caffeine_level": "none",
+  "vintage_note": "Sold without a vintage, as loose dried herb or tea bags, all year. As with other dried herbs, the current or last summer's picking is what you want, and sealed storage matters more than any year on the pack.",
+  "description": "Dokudami is a common Japanese weed with heart-shaped leaves, white bracts that look like petals, and a smell that divides rooms. Dried and infused it becomes dokudami-cha in Japan and eoseongcho-cha in Korea. There is no tea plant in it.\n\nThe name sounds alarming because of the \"doku\" in it, which reads like poison, yet the plant is not toxic. Its strong smell comes from aldehydes in the whole plant, the same compounds behind the English nickname fish mint. Cooking is known to drive off the fishy note, and a hot infusion is far milder than the crushed fresh leaf.\n\nLittle is written about the cup in careful terms, so expect what dried-leaf herbal teas usually give: an earthy, green, slightly medicinal infusion. Boiling water and a few minutes is the normal routine, and it is better to begin weak than to judge the plant by one overbrewed mug.\n\nBuy it as a herbal tea, not a cure. It has a long folk-medicine reputation, but high-quality clinical evidence is lacking, and the serious reactions on record concern injectable preparations, not the tea. If you have fallen for zhe'ergen, the rhizome eaten in Guizhou and Sichuan, this is the same species in a very different mood.",
+  "history": "Dokudami has long been a Japanese household remedy, known in herbal medicine as jūyaku, and the tea grew out of that use. Korean practice likewise dries the plant at flowering time and drinks it as a decoction.\n\nWhen it became a packaged tea is not well documented. The plant itself ranges from the Himalaya to Japan, and in southwest China it is better known as food than as a drink.",
+  "liquor_hex": "#B99A4E",
+  "leaf_hex": "#5F6340",
+  "sources": [
+    "https://ja.wikipedia.org/wiki/%E3%83%89%E3%82%AF%E3%83%80%E3%83%9F",
+    "https://en.wikipedia.org/wiki/Houttuynia_cordata",
+    "https://ko.wikipedia.org/wiki/%EC%95%BD%EB%AA%A8%EB%B0%80",
+    "https://zh.wikipedia.org/wiki/%E9%B1%BC%E8%85%A5%E8%8D%89"
+  ],
+  "confidence": "medium",
+  "wikipedia_title": "Houttuynia cordata",
+  "wikipedia_scope": "umbrella",
+  "popularity": 2,
+  "images": []
+}

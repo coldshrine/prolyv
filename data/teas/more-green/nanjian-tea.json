@@ -1,0 +1,62 @@
+{
+  "slug": "nanjian-tea",
+  "name_en": "Nanjian Tea",
+  "name_native": "南涧茶叶",
+  "name_romanized": "Nánjiàn Cháyè",
+  "name_zh": "南涧茶叶",
+  "name_ru": "Наньцзянь Ча",
+  "aliases": [
+    "Nanjian",
+    "Nanjianchaye",
+    "Nanjian Green Tea",
+    "Nanjianlvcha",
+    "南涧",
+    "南涧绿茶",
+    "南澗"
+  ],
+  "category": "green",
+  "origin_country": "China",
+  "origin_region": "Yunnan · Dali · Nanjian",
+  "cultivar": null,
+  "processing": "A place name that covers several teas, so there is no single method. Green tea here would follow the usual fix, roll and dry; the county's better-known products are pressed pu-erh tuos and cakes.",
+  "form": "loose",
+  "harvest_season": "Not specified for the county as a whole; spring is the prized picking for green tea in Yunnan.",
+  "appearance_dry": "Varies by product; greens are typically dark green twisted strips, as elsewhere in Yunnan.",
+  "appearance_liquor": "For green tea, typically yellow-green, as elsewhere in Yunnan.",
+  "appearance_wet": "For green tea, typically sturdy green leaves, as is usual for large-leaf Yunnan bushes.",
+  "taste_profile": "The county's mountain teas are described as high in aroma with a sweet return, thanks to old trees and wide swings between day and night temperatures.",
+  "taste_tags": [
+    "floral",
+    "sweet",
+    "vegetal"
+  ],
+  "brewing": {
+    "grams": 3,
+    "water_ml": 150,
+    "temp_c": 85,
+    "steeps": 3,
+    "seconds": [
+      45,
+      75,
+      120
+    ],
+    "notes": "For a Nanjian green. A pressed Nanjian tuo is a different tea and wants boiling water and gongfu steeps."
+  },
+  "caffeine_level": "medium",
+  "vintage_note": "Greens follow the rule for their class: current-year spring picking, drunk within about a year. Pressed Nanjian tuos and cakes are sold by production year and recipe number, such as the Tulin 8501 tuo or 703 cake, and can be kept.",
+  "description": "Nanjian is a county in southern Dali prefecture on the slopes of the Wuliang Mountains, and on a packet the name works as a place of origin, not as a single defined tea.\n\nThe county promotes itself on old tea trees and wide day and night temperature swings, which it credits for the high aroma and sweet return of its mountain teas.\n\nLocal green tea is little described in print. Treat it as you would other Yunnan large-leaf greens: water off the boil, short steeps, expect more body than an eastern Chinese green.\n\nMost drinkers outside Yunnan know the county through Tulin Phoenix tuos, pressed pu-erh with recipe numbers. So check which tea you are actually buying, since Nanjian alone does not tell you.",
+  "history": "Tea has long been grown in Nanjian, though the well-documented part of the story is recent. The county tea factory created the Tulin Phoenix tuo in the mid-1980s and registered the Tulin trademark in that decade, the first in the county.\n\nThe factory became a state county tea company in 1991 and was reorganised as Yunnan Tulin Tea in 2007. These dates come from company histories, which differ slightly between versions.",
+  "liquor_hex": "#CFC874",
+  "leaf_hex": "#596B3E",
+  "wikipedia_title": null,
+  "wikipedia_scope": "none",
+  "popularity": 2,
+  "images": [],
+  "sources": [
+    "https://milulu.com.cn/techan/33377.html",
+    "https://babelcarp.org/babelcarp/babelcarp.cgi?phrase=Nanjian",
+    "https://www.tsinghua.edu.cn/info/1177/97020.htm",
+    "https://www.yunnanexploration.com/?p=40228"
+  ],
+  "confidence": "low"
+}

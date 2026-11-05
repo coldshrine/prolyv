@@ -1,0 +1,58 @@
+{
+  "slug": "funmatsucha",
+  "name_en": "Funmatsucha",
+  "name_native": "粉末茶",
+  "name_romanized": "Funmatsucha",
+  "name_zh": "粉末茶",
+  "name_ru": "Фуммацутя",
+  "aliases": [
+    "Powdered green tea",
+    "Powdered sencha",
+    "Tokeru ocha",
+    "溶けるお茶"
+  ],
+  "category": "green",
+  "origin_country": "Japan",
+  "origin_region": "Nationwide",
+  "cultivar": null,
+  "processing": "Finished green tea, usually sencha or bancha grown in full sun, is ground to powder in a mill. Unlike matcha it does not start from shaded, unrolled tencha.",
+  "form": "powder",
+  "harvest_season": "No harvest of its own: it takes the season of the sencha or bancha that is milled. Everyday powders typically use later, cheaper pickings.",
+  "appearance_dry": "A fine powder, typically a duller and more olive green than good matcha.",
+  "appearance_liquor": "Opaque, cloudy green with the suspended leaf left in the cup.",
+  "appearance_wet": "There is no wet leaf: the powder stays in the drink, with some settling at the bottom.",
+  "taste_profile": "Like a concentrated sencha: grassy and brisk, with more bite than the sweet, rounded taste of matcha.",
+  "taste_tags": [
+    "grassy",
+    "vegetal",
+    "bitter",
+    "brisk"
+  ],
+  "brewing": {
+    "grams": 1,
+    "water_ml": 150,
+    "temp_c": 70,
+    "steeps": 1,
+    "seconds": [
+      20
+    ],
+    "notes": "Stir or shake the powder into hot or cold water and drink it straight away. Cooler water tames the bitterness; stir again if it settles."
+  },
+  "caffeine_level": "medium",
+  "vintage_note": "Sold without a vintage as a pantry product, in bags, tins and sticks, and rarely with a harvest year on the label. As with other ground green teas, it fades fast once opened, so buy small amounts and use them within a few weeks.",
+  "description": "Funmatsucha simply means powdered tea, and in the Japanese trade it is a category of its own: tea reduced to powder in a mill. The Japan Tea Central Association keeps it apart from matcha, from konacha and from instant tea.\n\nThe difference from matcha lies in the leaf. Matcha is ground tencha, shaded before picking and dried without rolling. Funmatsucha is usually ordinary sencha or bancha grown in the sun, so it arrives at the mill with sencha's flavour and not matcha's sweetness.\n\nYou drink the whole leaf, which makes the cup strong and a little sharp, much like very concentrated sencha. The usual mistake is using it like matcha, with too much powder and very hot water. A small pinch in cooler water tastes far better.\n\nIt is also easy to confuse with its neighbours. Konacha is the fine, gritty fraction sieved out during finishing, and it is steeped and strained. Instant tea is dried extract and contains no ground leaf. If a label says powdered green tea and not matcha, this is most likely what you have.\n\nIt earns its place as a convenience tea and a kitchen ingredient. It colours and flavours sweets and processed foods, and it is a practical choice where a teapot is not.",
+  "history": "Drinking ground tea is old: in Tang China cake tea was ground and boiled, and in the Song dynasty fine powder was whisked in the bowl. Those methods are ancestors in a broad sense only, and the exact meaning of the old term 末茶 is still debated.\n\nThe modern product is a different thing, a milled finished tea defined in Japanese labelling standards alongside the other tea types. Little is documented about who first sold it.",
+  "liquor_hex": "#9CA848",
+  "leaf_hex": "#7D8C3C",
+  "sources": [
+    "https://ja.wikipedia.org/wiki/%E7%B2%89%E6%9C%AB%E8%8C%B6",
+    "https://en.wikipedia.org/wiki/Powdered_tea",
+    "https://ru.wikipedia.org/wiki/%D0%A4%D1%83%D0%BC%D0%BC%D0%B0%D1%86%D1%83%D1%82%D1%8F",
+    "https://ja.wikipedia.org/wiki/%E8%8C%B6"
+  ],
+  "confidence": "high",
+  "wikipedia_title": "Powdered tea",
+  "wikipedia_scope": "umbrella",
+  "popularity": 3,
+  "images": []
+}

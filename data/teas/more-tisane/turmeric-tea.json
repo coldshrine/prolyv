@@ -1,0 +1,56 @@
+{
+  "slug": "turmeric-tea",
+  "name_en": "Turmeric Tea (Ukon-cha)",
+  "name_native": "ウコン茶",
+  "name_romanized": "Ukon-cha",
+  "name_zh": "姜黄茶",
+  "name_ru": "Куркумовый чай (укон-тя)",
+  "aliases": [
+    "Turmeric tea",
+    "Ukoncha",
+    "Ucchin-cha",
+    "うっちん茶",
+    "Уконча"
+  ],
+  "category": "tisane",
+  "origin_country": "Japan",
+  "origin_region": "Okinawa",
+  "cultivar": null,
+  "processing": "Turmeric rhizomes are dried and cut or ground for infusing. Some packaged versions are fermented to soften the earthy bitterness, and others are lightly roasted.",
+  "form": "loose",
+  "harvest_season": "Little is documented for the tea itself. Many products specify autumn turmeric, the type usually promoted for its curcumin content.",
+  "appearance_dry": "Dull orange-yellow rhizome pieces or coarse powder, usually sold in tea bags.",
+  "appearance_liquor": "Clear to slightly cloudy golden yellow, with a colour strong enough to stain cloth.",
+  "appearance_wet": "Soft orange-yellow fragments of rhizome.",
+  "taste_profile": "Earthy and gently bitter with the warm, musty scent of turmeric; fermented versions are milder and cleaner.",
+  "taste_tags": [
+    "earthy",
+    "bitter",
+    "spicy"
+  ],
+  "brewing": {
+    "grams": 2,
+    "water_ml": 300,
+    "temp_c": 100,
+    "steeps": 1,
+    "seconds": [
+      300
+    ],
+    "notes": "A general guide for tea bags; follow the packet if it differs. It can be drunk hot or chilled. Watch light-coloured cloth, since the pigment stains."
+  },
+  "caffeine_level": "none",
+  "vintage_note": "Sold as a shelf-stable packaged product with a best-before date, not by harvest year or vintage. Fresher stock is simply the better buy, as with other dried root infusions.",
+  "description": "Ukon-cha is the Okinawan way of drinking turmeric: an infusion of the rhizome, with no tea leaf involved. Locally it is called ucchin-cha, from the Okinawan word for the plant.\n\nThe method varies by maker. Dried rhizome is the base, while some producers ferment it to take the edge off its soil-like smell and others give it a light roast. Those choices change the cup more than brewing does.\n\nExpect something earthy and slightly bitter, with the familiar scent of turmeric from the spice jar. Fermented versions drink softer. It works hot or cold, and a shorter steep helps if the bitterness bothers you.\n\nIt is mostly sold in bags, often naming autumn turmeric on the label. Health promises are common on the packaging and much firmer than the evidence behind them, so choose it for the taste. Check whether a product is pure turmeric or a blend.",
+  "history": "The drink is tied to Okinawa, in southern Japan, where turmeric goes by the name ucchin. Little is documented about when it became a packaged tea or who first sold it that way.\n\nToday's range includes fermented and roasted versions alongside plain dried rhizome.",
+  "wikipedia_title": "Turmeric tea",
+  "wikipedia_scope": "exact",
+  "popularity": 2,
+  "liquor_hex": "#D9A520",
+  "leaf_hex": "#C98A1E",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Turmeric_tea",
+    "https://www.wikidata.org/wiki/Q7878345"
+  ],
+  "confidence": "low",
+  "images": []
+}

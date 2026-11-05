@@ -1,0 +1,60 @@
+{
+  "slug": "doomni-estate",
+  "name_en": "Doomni",
+  "name_native": null,
+  "name_romanized": null,
+  "name_zh": "杜姆尼阿萨姆红茶",
+  "name_ru": "Ассам Думни",
+  "aliases": [
+    "Assam Dumni",
+    "Assam Doomni",
+    "Dumni",
+    "Dumuni"
+  ],
+  "category": "black",
+  "origin_country": "India",
+  "origin_region": "Assam · Baksa",
+  "cultivar": null,
+  "processing": "Orthodox black tea, rolled, fully oxidised and fired. Sellers report that orthodox is a small part of the garden's output, with most of the rest going to CTC.",
+  "form": "loose",
+  "harvest_season": "First and second flush lots both appear; the second flush, picked in June and July, is the one most prized.",
+  "appearance_dry": "Dark twisted leaf with golden tips in the higher grades.",
+  "appearance_liquor": "Bright, dark red-brown.",
+  "appearance_wet": "Coppery-brown leaf, soft and fairly even.",
+  "taste_profile": "Malty and mineral with fruity overtones, strong enough to take milk in the British way.",
+  "taste_tags": [
+    "malty",
+    "mineral",
+    "fruity",
+    "brisk"
+  ],
+  "brewing": {
+    "grams": 3,
+    "water_ml": 250,
+    "temp_c": 95,
+    "steeps": 2,
+    "seconds": [
+      180,
+      240
+    ],
+    "notes": "Western-style in water just off the boil. Add milk only after tasting it plain, since the mineral side disappears under it."
+  },
+  "caffeine_level": "high",
+  "vintage_note": "Sold by year, flush and grade, for example FTGFOP1 or TGFOP with an invoice number and year. Second flush of the latest season is the usual buy, and it keeps well for a year or two as other orthodox Assams do.",
+  "description": "Doomni is a large garden in Baksa district in western Assam, near Manas National Park, and the name also turns up as Dumni or Dumuni. That puts it well away from the upper Assam districts most people picture when they hear the word Assam.\n\nOnly part of its crop is orthodox: one French merchant puts it at about 10%, with CTC making up most of the rest. The orthodox share is the part that reaches single-estate lists as whole leaf with tip.\n\nA second flush from here brews bright dark red-brown and tastes of malt with a mineral edge and some fruit. Keep the water hot and the steep to three or four minutes. It is sturdy, so milk is fine, but it has more character on its own than you might expect.\n\nLots vary, and sellers disagree about basic details of the garden, so judge by the year, flush and grade of what is in front of you. The garden is also reported to make a white tea, which is a different thing altogether from the malty black it is known for.",
+  "history": "The garden lies in the village of Dumunibagan, which was once part of Nalbari district and is now in Baksa; that is why older descriptions name Nalbari. Its founding date and early owners are not well documented, and one seller's claim that it began as a sugar plantation has no support elsewhere.",
+  "liquor_hex": "#8F3F1A",
+  "leaf_hex": "#43301F",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Dumunibagan",
+    "https://www.curioustea.com/tea/archive/assam-doomni-second-flush/",
+    "https://www.dammann.fr/en/tea-from-india-assam-doomni-tgfop.html",
+    "https://www.capitaltea.com/assam-teas/",
+    "https://ratetea.com/tea/simpson-vail/assam-doomni/4225"
+  ],
+  "confidence": "medium",
+  "wikipedia_title": "Dumunibagan",
+  "wikipedia_scope": "umbrella",
+  "popularity": 2,
+  "images": []
+}

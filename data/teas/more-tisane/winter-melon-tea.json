@@ -1,0 +1,60 @@
+{
+  "slug": "winter-melon-tea",
+  "name_en": "Dong Gua Cha (Winter Melon Tea)",
+  "name_native": "冬瓜茶",
+  "name_romanized": "Dōngguā chá",
+  "name_zh": "冬瓜茶",
+  "name_ru": "Дун Гуа Ча",
+  "aliases": [
+    "Winter melon tea",
+    "Wintermelon tea",
+    "Winter melon punch",
+    "Wax gourd tea",
+    "Donga-cha",
+    "Dongguacha",
+    "Tang koe te"
+  ],
+  "category": "tisane",
+  "origin_country": "Taiwan",
+  "origin_region": "Taiwan · island-wide",
+  "cultivar": null,
+  "processing": "Peeled, seeded winter melon is boiled with sugar and caramel for hours, then strained into a concentrate. Boiled further, it sets into bricks or cubes that are later dissolved in water.",
+  "form": "brick",
+  "harvest_season": "Winter melon is grown across Taiwan through the year, with each county cropping in its own season; the drink itself has no prized picking.",
+  "appearance_dry": "Dark caramel-brown sugar bricks or cubes, or a thick brown syrup.",
+  "appearance_liquor": "Clear amber to caramel brown.",
+  "appearance_wet": "Nothing to see in the cup: the melon is strained out or fully dissolved.",
+  "taste_profile": "Sweet and cooling, with caramel in front and a soft vegetal melon note underneath, best served very cold.",
+  "taste_tags": [
+    "sweet",
+    "vegetal",
+    "roasted"
+  ],
+  "brewing": {
+    "grams": 120,
+    "water_ml": 1000,
+    "temp_c": 100,
+    "steeps": 1,
+    "seconds": [
+      1500
+    ],
+    "notes": "Simmer the brick gently until dissolved and a little beyond, about 20 to 30 minutes, then chill. Add water or ice if it is too sweet, and keep it refrigerated for no more than a few days."
+  },
+  "caffeine_level": "none",
+  "vintage_note": "Not sold by year or harvest. It comes as ready-to-drink cups and bottles, concentrate, or sugar bricks, made all year round. Bricks keep longer than the brewed drink, which should be drunk within days. Oolong or lemon versions contain added ingredients, and only the oolong version has real tea in it.",
+  "description": "Winter melon tea contains no tea leaf at all. It is winter melon cooked down with sugar, and in Taiwan it counts among the old-fashioned iced drinks alongside sugarcane juice and herbal grass tea.\n\nThe melon is peeled, seeded and cut up, then boiled with sugar and caramel for hours and strained. That gives a concentrate; cook it further and it sets into the bricks sold in markets and taken home as souvenirs. The caramel gives the drink most of its colour and much of its flavour.\n\nExpect something sweet, round and refreshing rather than complex. If you start from a brick, simmer it rather than just dissolving it, and taste before serving, because it can be very sweet. Ice or extra water fixes that.\n\nDrink stands also serve it with lemon or oolong, or with tapioca pearls, nata de coco or tangyuan. In winter it can be drunk warm with toppings such as red beans. A long-boiled version with no added sugar also exists, so read the label if sugar matters to you.",
+  "history": "The drink has been made in Taiwan for over a century. A 2013 Chinese television programme repeated the report that Taiwanese were already processing winter melon this way in the Qing Tongzhi era, but that dating is told as hearsay rather than documented.\n\nIt began as cheap street refreshment from an easily grown vegetable. Traditional shops still pride themselves on hand-cooked batches, while modern tea shops have folded it into mixed drinks.",
+  "liquor_hex": "#9A5A22",
+  "leaf_hex": "#6B3A1A",
+  "sources": [
+    "https://zh.wikipedia.org/wiki/%E5%86%AC%E7%93%9C%E8%8C%B6",
+    "https://en.wikipedia.org/wiki/Winter_melon_punch",
+    "https://ja.wikipedia.org/wiki/%E5%86%AC%E7%93%9C%E8%8C%B6",
+    "https://www.wikidata.org/wiki/Q8026397"
+  ],
+  "confidence": "medium",
+  "wikipedia_title": "Winter melon punch",
+  "wikipedia_scope": "exact",
+  "popularity": 3,
+  "images": []
+}

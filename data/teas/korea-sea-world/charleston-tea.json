@@ -3,10 +3,18 @@
   "name_en": "Charleston Tea Garden (American Classic Tea)",
   "name_native": null,
   "name_romanized": null,
-  "aliases": ["American Classic Tea", "Charleston Tea Plantation", "Wadmalaw Island tea", "South Carolina tea", "Bigelow Charleston tea", "American grown black tea", "Charleston black tea"],
+  "aliases": [
+    "American Classic Tea",
+    "Charleston Tea Plantation",
+    "Wadmalaw Island tea",
+    "South Carolina tea",
+    "Bigelow Charleston tea",
+    "American grown black tea",
+    "Charleston black tea"
+  ],
   "category": "black",
   "origin_country": "United States",
-  "origin_region": "South Carolina · Wadmalaw Island, near Charleston",
+  "origin_region": "South Carolina · Wadmalaw Island",
   "cultivar": "Hundreds of seedling plants descended from the nineteenth-century Pinehurst and Summerville tea trials and a mid-twentieth-century Lipton research farm, propagated by cuttings",
   "processing": "Machine-harvested leaf withered, cut and rolled, fully oxidised and fired on the farm's own line; the standard product is a fine-cut black tea for bags and loose use, with green tea and flavoured versions made from the same leaf.",
   "form": "loose",
@@ -15,13 +23,38 @@
   "appearance_liquor": "Bright red-amber, clear.",
   "appearance_wet": "Small, even, copper-brown leaf.",
   "taste_profile": "Mild, smooth and lightly malty with a faint sweetness and low tannin, built for American iced tea and an easy hot cup; the First Flush lot is a little more floral and brisk.",
-  "taste_tags": ["malty", "sweet", "brisk", "floral"],
-  "brewing": {"grams": 3, "water_ml": 200, "temp_c": 95, "steeps": 2, "seconds": [180, 240], "notes": "Three minutes hot, milk optional; for Southern iced tea brew it double strength, sweeten while hot and pour over ice. It will not go bitter if left a while."},
+  "taste_tags": [
+    "malty",
+    "sweet",
+    "brisk",
+    "floral"
+  ],
+  "brewing": {
+    "grams": 3,
+    "water_ml": 200,
+    "temp_c": 95,
+    "steeps": 2,
+    "seconds": [
+      180,
+      240
+    ],
+    "notes": "Three minutes hot, milk optional; for Southern iced tea brew it double strength, sweeten while hot and pour over ice. It will not go bitter if left a while."
+  },
   "caffeine_level": "medium",
   "vintage_note": "Sold year-round under the American Classic Tea label in bags and loose packs, blended across the season and undated, through the farm shop and Bigelow's distribution; the exception is the First Flush tea, a limited lot from the first May picking sold with the year and usually gone by summer. Use within a year or two.",
   "description": "The Charleston Tea Garden on Wadmalaw Island, a short drive from Charleston, is the only tea farm of real size in the mainland United States, and the source of the tea sold as American Classic Tea. Its plants descend from tea trials around Summerville in the late nineteenth century and from an experimental farm Lipton ran on the island in the 1960s; the tea man William Barclay Hall bought the site in 1987 and started commercial production, and the Bigelow family's tea company became his partner in 2003 and runs it today.\n\nThe farm is flat, low and humid, and it is harvested with a custom-built machine the farm calls the Green Giant, which trims the top of the hedges every few weeks from May to October. The leaf is processed on site into a fine-cut black tea, with green and flavoured teas from the same bushes. The first picking of the year is sold separately as First Flush; for years the farm marked it with a First Flush Festival, though that event has since been discontinued.\n\nThe tea is mild, smooth and lightly malty with a soft sweetness and low tannin; it is designed for the sweet iced tea of the American South and for an easy hot cup, and it does both without fuss. It is not a specialty tea in the Darjeeling sense and does not pretend to be; what you are buying is the only American-grown tea most people will ever meet, well made and honestly priced.\n\nIt is sold year-round by the farm, online and in Bigelow's distribution as American Classic Tea, undated, with the First Flush lot the one to seek if you want the farm at its best. Visitors can tour the factory and ride a trolley through the fields. Smaller American tea farms exist, in Hawaii above all but also in Mississippi, Oregon, Alabama and elsewhere, and their hand-made teas are a different, far more expensive proposition.\n\nBrew it as sweet tea once, the way it is meant to be drunk, and then plain; and compare it with an Argentine or Australian CTC to place it among the other machine-harvested teas of the world.",
   "wikipedia_title": "Charleston Tea Garden",
   "wikipedia_scope": "umbrella",
   "popularity": 2,
-  "sources_note": "Dates (Hall's purchase in 1987, Bigelow partnership in 2003, Lipton's 1960s farm) and the 'Green Giant' harvester are from memory of the farm's own history and press coverage. The farm was renamed from 'Charleston Tea Plantation' to 'Charleston Tea Garden' in 2020; the Wikipedia title reflects the current name."
+  "sources_note": "Dates (Hall's purchase in 1987, Bigelow partnership in 2003, Lipton's 1960s farm) and the 'Green Giant' harvester are from memory of the farm's own history and press coverage. The farm was renamed from 'Charleston Tea Plantation' to 'Charleston Tea Garden' in 2020; the Wikipedia title reflects the current name.",
+  "name_zh": "查尔斯顿茶园红茶",
+  "name_ru": "Чарльстон, чёрный чай",
+  "history": "Tea came to South Carolina in the late 1700s, when the French botanist André Michaux brought plants that were set out at Henry Middleton's plantation. Later ventures at Georgetown, Greenville and Summerville all failed, the longest lasting under twenty years.\n\nThe present farm grew out of a Lipton project. Worried about access to imported tea, the company bought the old Pinehurst plantation at Summerville in 1960 and in 1963 moved its research station to Wadmalaw Island, about twenty miles south of Charleston.\n\nThe garden is now owned by Bigelow and grows the tea sold as American Classic Tea and Charleston Tea Garden. Its First Flush Festival, once held each year at the start of harvest, no longer runs.",
+  "liquor_hex": "#AD5A24",
+  "leaf_hex": "#35261B",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Charleston_Tea_Garden"
+  ],
+  "confidence": "medium",
+  "images": []
 }

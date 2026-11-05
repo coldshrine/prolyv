@@ -1,0 +1,60 @@
+{
+  "slug": "suutei-tsai-green",
+  "name_en": "Suutei tsai",
+  "name_native": "сүүтэй цай",
+  "name_romanized": "Süütei tsai",
+  "name_zh": "蒙古奶茶",
+  "name_ru": "Сутэй цай",
+  "aliases": [
+    "Sutei tsai",
+    "süütei tsai",
+    "Mongolian salty tea",
+    "salt tea",
+    "Mongolian milk tea",
+    "монгольский чай"
+  ],
+  "category": "green",
+  "origin_country": "Mongolia",
+  "origin_region": "Mongolia",
+  "cultivar": null,
+  "processing": "Not a leaf style but a recipe: pieces chipped from a compressed tea brick are boiled in water, then milk and salt go in. It is stirred by scooping and pouring from a height, a step many now skip.",
+  "form": "brick",
+  "harvest_season": "Not relevant to the drink. The brick is made from coarse, low-grade leaves and stems, and it is not sold by picking.",
+  "appearance_dry": "A dense, dark brick of coarse leaf and stem, chipped off as needed.",
+  "appearance_liquor": "Opaque, milky beige to pale tan, sometimes with fat on the surface.",
+  "appearance_wet": "Soft broken bits of coarse leaf and stem, usually strained out or held in a cloth bag.",
+  "taste_profile": "Salty, creamy and savoury, more like a thin soup than a cup of tea, with a mild tea edge; butter or toasted millet make it richer and nuttier.",
+  "taste_tags": [
+    "creamy",
+    "roasted",
+    "nutty"
+  ],
+  "brewing": {
+    "grams": 10,
+    "water_ml": 500,
+    "temp_c": 100,
+    "steeps": 1,
+    "seconds": [
+      300
+    ],
+    "notes": "Boil chipped brick tea in water for about five minutes, add milk (from a fifth up to equal parts with the water) and salt to taste, and bring it back up. Scoop and pour from a height if you want the traditional texture."
+  },
+  "caffeine_level": "medium",
+  "vintage_note": "The drink is made fresh in the home and has no vintage. What is sold is brick tea, usually without an emphasis on year or season, since it keeps well, and instant packets of the finished mix are also available.",
+  "description": "Suutei tsai is the everyday tea of Mongolia, and its name simply means tea with milk. It is salted, milky and filling, offered to guests on arrival and drunk throughout the day, often with fried biscuits or dumplings.\n\nThe tea itself is coarse: a brick pressed from stems and lower-grade leaves, which stores easily. A piece is broken off and boiled, milk and salt are added, and the pot is stirred by scooping and pouring back from a height. Cow's milk is now the norm, though camel and other milks are also used.\n\nExactly which tea goes in varies. Accounts call it green brick, others black or dark brick. That is why it sits awkwardly in any category here, and it is best thought of as a dish. Butter, tail fat, toasted millet, rice or flour all appear, depending on household and region.\n\nThe salt is what catches outsiders. Taste it as a light broth rather than a milk tea, and it makes far more sense. If making it at home, add the salt slowly, and use whole milk.\n\nInstant packets also exist. For the real thing, look for pressed brick tea, and toast some millet to add at the end.",
+  "history": "Milk has long been central to the Mongolian diet. In the mid-13th century the Franciscan friar William of Rubruck noted how careful Mongols were to avoid drinking plain water, which fits the broader habit of drinking milk-based drinks.\n\nOne common account says that tea and milk came together after Kublai Khan founded the Yuan dynasty and herders met tea; this is a broad tradition rather than a dated event.\n\nThe drink remains among the most common in Mongolia today, and now also comes in instant form. A powdered version is also made by spray-drying milk and tea.",
+  "liquor_hex": "#CDB48F",
+  "leaf_hex": "#4A4029",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Suutei_tsai",
+    "https://ru.wikipedia.org/wiki/%D0%A1%D1%83%D1%82%D1%8D%D0%B9_%D1%86%D0%B0%D0%B9",
+    "https://zh.wikipedia.org/wiki/%E8%92%99%E5%8F%A4%E5%A5%B6%E8%8C%B6",
+    "https://ja.wikipedia.org/wiki/%E3%83%84%E3%82%A1%E3%82%A4",
+    "https://www.wikidata.org/wiki/Q3505826"
+  ],
+  "confidence": "high",
+  "wikipedia_title": "Suutei tsai",
+  "wikipedia_scope": "exact",
+  "popularity": 3,
+  "images": []
+}

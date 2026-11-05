@@ -3,10 +3,21 @@
   "name_en": "Myanmar Green Tea (Laphet Chauk)",
   "name_native": "လက်ဖက်ခြောက်",
   "name_romanized": "Lahpet chauk",
-  "aliases": ["Laphet chauk", "Burmese green tea", "Shan green tea", "Namhsan green tea", "Yay nway gyan tea", "Plain tea", "Palaung green tea", "Pindaya green tea"],
+  "aliases": [
+    "Laphet chauk",
+    "Burmese green tea",
+    "Shan green tea",
+    "Namhsan green tea",
+    "Yay nway gyan tea",
+    "Plain tea",
+    "Palaung green tea",
+    "Pindaya green tea",
+    "Yei-nway gyan",
+    "A-gyan gyauk"
+  ],
   "category": "green",
   "origin_country": "Myanmar",
-  "origin_region": "Shan State · Namhsan, Pindaya, Ywangan and Kalaw",
+  "origin_region": "Shan State · Namhsan",
   "cultivar": "Assamica-type bushes and old trees of the Shan hills, seed-grown",
   "processing": "Leaf is wilted, pan-fired in a wok or drum, hand-rolled and dried in the sun or over low heat in several passes; traditional lots are rustic and carry some smoke, while the newer cooperatives fire cleaner and roll more tightly.",
   "form": "loose",
@@ -15,13 +26,39 @@
   "appearance_liquor": "Pale yellow to light amber, clear.",
   "appearance_wet": "Large, thick, olive-green leaves, uneven in size, from assamica bushes.",
   "taste_profile": "Robust and rustic: toasted grain, hay and a honeyed sweetness with a light smokiness, a firm bitterness that is meant to be there, and a long dry finish; the best spring lots are sweeter and thicker.",
-  "taste_tags": ["roasted", "smoky", "bitter", "honey"],
-  "brewing": {"grams": 4, "water_ml": 150, "temp_c": 85, "steeps": 3, "seconds": [45, 30, 60], "notes": "In Myanmar it is brewed strong in a pot with near-boiling water and topped up all day, which suits its bitterness. For a gentler cup use cooler water and short steeps; the better old-tree lots can be brewed gongfu style."},
+  "taste_tags": [
+    "roasted",
+    "smoky",
+    "bitter",
+    "honey"
+  ],
+  "brewing": {
+    "grams": 4,
+    "water_ml": 150,
+    "temp_c": 85,
+    "steeps": 3,
+    "seconds": [
+      45,
+      30,
+      60
+    ],
+    "notes": "In Myanmar it is brewed strong in a pot with near-boiling water and topped up all day, which suits its bitterness. For a gentler cup use cooler water and short steeps; the better old-tree lots can be brewed gongfu style."
+  },
   "caffeine_level": "medium",
   "vintage_note": "Sold loose by the current season, by region and brand, in simple packs; the first spring pick is sold as new-season tea at a premium and the rest is blended and sold through the year without a date. It is drunk fresh within the year; there is no ageing tradition, although old-tree lots keep well.",
   "description": "The hills of Shan State grow tea for two purposes: pickling, as laphet, and drying for drinking, as laphet chauk, 'dry tea'. The drinking tea is the everyday green of Myanmar, the one that arrives free in a pot at every teashop as yay nway gyan, 'plain tea', to be sipped alongside the sweet condensed-milk tea that is the country's other passion. It is rustic, strong and cheap, and the best of it is very good.\n\nIt comes mostly from the Palaung hills around Namhsan and from the Pindaya and Ywangan areas of southern Shan State, from assamica bushes and old trees grown from seed on steep slopes. Processing is simple and largely by hand: wok firing, rolling, and drying in the sun or over a low fire, which is where the hay-and-smoke character comes from. Newer cooperatives, some of them helped by development projects, fire cleaner and sort better, and their spring teas have started to reach specialty shops abroad.\n\nThe cup is toasty and honeyed with a little smoke, a firm bitterness and a long dry finish; the first spring pick is noticeably sweeter and thicker. Brewed Burmese style, strong and topped up through the afternoon, it is a workhorse tea; brewed with care, cooler water and short steeps, a good Namhsan spring lot shows honey and dried fruit that put it closer to the old-tree teas of Yunnan than to a Japanese or Korean green.\n\nIt is sold by season and region rather than by vintage, in plain packs, with the new spring tea announced and priced accordingly; most of the year's leaf is blended and sold undated. In the country it is everywhere; abroad, look for Shan State or Namhsan on the label and a spring harvest. Much of Myanmar's dry tea is exported to China and resold without origin.\n\nIf you want to taste the whole Burmese tea table, drink laphet chauk plain alongside a plate of laphet thoke: the same leaf, dried in one and pickled in the other.",
   "wikipedia_title": "Lahpet",
   "wikipedia_scope": "umbrella",
   "popularity": 1,
-  "sources_note": "Burmese script for 'laphet chauk' and the teashop term 'yay nway gyan' are given from memory and should be checked for spelling. The 'Lahpet' article covers Burmese tea culture broadly and is used as the umbrella; no dedicated Myanmar green tea article exists. The export of Myanmar dry tea to China is widely reported but unquantified."
+  "sources_note": "Burmese script for 'laphet chauk' and the teashop term 'yay nway gyan' are given from memory and should be checked for spelling. The 'Lahpet' article covers Burmese tea culture broadly and is used as the umbrella; no dedicated Myanmar green tea article exists. The export of Myanmar dry tea to China is widely reported but unquantified.",
+  "name_zh": "缅甸绿茶",
+  "name_ru": "Мьянманский зелёный чай (Лапхет Чаук)",
+  "history": "Dried leaf is one of the main forms Burmese tea takes, alongside pickled laphet and the black tea used for sweet milk tea. Brewed green, it is yei-nway gyan, 'plain hot water', and it serves as the everyday drink of a mostly Buddhist country.\n\nDrinking tea is recorded in Burmese folklore from the reign of King Alaungsithu in the 1100s, and cultivation spread through the northern Shan States after 1500. Burmese poet U Ponnya praised shwephi, leaf from the earliest pick, as a court favourite. Since the late 2010s, armed conflict in tea-growing areas has unsettled these same hills.",
+  "liquor_hex": "#D2BE6A",
+  "leaf_hex": "#5C6238",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Lahpet"
+  ],
+  "confidence": "medium",
+  "images": []
 }

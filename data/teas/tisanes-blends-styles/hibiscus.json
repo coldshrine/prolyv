@@ -3,25 +3,87 @@
   "name_en": "Hibiscus (Karkade)",
   "name_native": "كركديه (karkadeh)",
   "name_romanized": null,
-  "aliases": ["Karkade", "Karkadeh", "Roselle", "Sorrel (Caribbean)", "Bissap", "Zobo", "Agua de jamaica", "Flor de Jamaica", "Hibiscus sabdariffa", "Hibiscus tea"],
+  "aliases": [
+    "Karkade",
+    "Karkadeh",
+    "Roselle",
+    "Sorrel (Caribbean)",
+    "Bissap",
+    "Zobo",
+    "Agua de jamaica",
+    "Flor de Jamaica",
+    "Hibiscus sabdariffa",
+    "Hibiscus tea",
+    "Sobolo",
+    "洛神茶",
+    "Каркадэ",
+    "Суданская роза"
+  ],
   "category": "tisane",
   "origin_country": "Egypt",
-  "origin_region": "Upper Egypt · Aswan (also grown on a large scale in Sudan, Nigeria, Senegal, Mexico and Thailand)",
+  "origin_region": "Upper Egypt · Aswan",
   "cultivar": "Hibiscus sabdariffa (roselle); it is the fleshy red calyx around the seed pod that is dried, not the flower petals",
   "processing": "After the flowers drop, the fleshy red calyces are picked, separated from the seed capsules and sun-dried; they are sold whole, as a cut-and-sifted grade, or ground for tea bags.",
   "form": "loose",
   "harvest_season": "Sown in summer and harvested after flowering in autumn and early winter, roughly October to December in Egypt and Sudan; one crop a year.",
   "appearance_dry": "Dark crimson to burgundy, leathery, curled calyx pieces that look like crumpled petals.",
-  "appearance_liquor": "Brilliant ruby red, clear and glossy, turning purplish with a drop of lemon.",
+  "appearance_liquor": "Brilliant ruby red, clear and glossy, turning a brighter red with a drop of lemon.",
   "appearance_wet": "Plump, soft red calyces that look like stewed fruit and taste edible (they are).",
   "taste_profile": "Sharply tart, like cranberry or redcurrant, with a fruity sweetness underneath and a drying, slightly astringent finish; it is a sour drink that wants sugar or dilution.",
-  "taste_tags": ["tart", "fruity", "brisk"],
-  "brewing": {"grams": 3, "water_ml": 250, "temp_c": 95, "steeps": 1, "seconds": [300], "notes": "3 g is about a tablespoon of cut calyces. Hot: just-boiled water, 5 minutes, then sweeten; longer gets sourer, not stronger. Cold: the Egyptian way is to soak it in cold water overnight, which gives a smoother, less astringent drink. Serve over ice with sugar and a squeeze of lime."},
+  "taste_tags": [
+    "tart",
+    "fruity",
+    "brisk"
+  ],
+  "brewing": {
+    "grams": 3,
+    "water_ml": 250,
+    "temp_c": 95,
+    "steeps": 1,
+    "seconds": [
+      300
+    ],
+    "notes": "3 g is about a tablespoon of cut calyces. Hot: just-boiled water, 5 minutes, then sweeten; longer gets sourer, not stronger. Cold: the Egyptian way is to soak it in cold water overnight, which gives a smoother, less astringent drink. Serve over ice with sugar and a squeeze of lime."
+  },
   "caffeine_level": "none",
-  "vintage_note": "Sold year-round without a crop year as a dried commodity with a two- to three-year best-before. What labels do state is the grade and origin: whole calyces (Egyptian and Sudanese lots tend to be large and bright), cut-and-sifted, or fine granules for bags; Nigerian 'zobo' calyces are darker and more intense, Mexican 'jamaica' is sold whole in bulk. Fresh stock is bright burgundy and smells sharply fruity; brown, dusty calyces are old and brew muddy.",
-  "description": "Hibiscus, karkade in Egypt and Sudan, is the sour red one: a deep ruby infusion made not from a flower petal but from the fleshy red calyx that wraps the seed pod of roselle, a tropical hibiscus. It is drunk hot or iced from Cairo to Dakar to Mexico City under different names, and in Europe it hides in nearly every 'red fruit' tea bag as the thing that gives the colour and the acidity.\n\nThere is almost no processing: the calyces are picked after the flowers fall, stripped from the seed pods and dried in the sun. The quality is in the raw material, large, intact, bright crimson calyces from a dry, sunny climate, and in how recently it was dried, since the colour and the fruitiness both fade.\n\nThe taste is tart first and last, cranberry-like with a juicy sweetness in the middle and a drying finish, and it needs either sugar or a long cold steep to be comfortable. Hot, five minutes is plenty; steeping longer adds sourness rather than depth. The traditional Egyptian method is a cold overnight soak, which is noticeably smoother, and iced karkade with plenty of sugar is the way most of the world drinks it. It also stains: cups, teeth, tablecloths.\n\nBuy whole or coarse-cut calyces rather than granules, which brew harsh and cloudy, and look for a bright colour. It is cheap, so there is little incentive to fake it, but very old stock is common in supermarket bags.\n\nIt blends naturally with rosehip (the classic Eastern European pairing), with mint or ginger for iced tea, and with a little cinnamon and clove in the Caribbean 'sorrel' style. Try it cold-brewed with spearmint first.",
+  "vintage_note": "Sold year-round without a crop year as a dried commodity with a two- to three-year best-before. What labels do state is the grade and origin: whole calyces, cut-and-sifted, or fine granules for bags, from Egypt and Sudan, from Nigeria as zobo, or sold whole in bulk in Mexico as jamaica. Fresh stock is bright burgundy and smells sharply fruity; brown, dusty calyces are old and brew muddy.",
+  "description": "Hibiscus, karkade in Egypt and Sudan, is the sour red one: a deep ruby infusion made not from a flower petal but from the fleshy red calyx that wraps the seed pod of roselle, a tropical hibiscus. It is drunk hot or iced from Cairo to Dakar to Mexico City under different names, and in Europe it hides in nearly every 'red fruit' tea bag as the thing that gives the colour and the acidity.\n\nThere is almost no processing: the calyces are picked after the flowers fall, stripped from the seed pods and dried in the sun. The quality is in the raw material, large, intact, bright crimson calyces from a dry, sunny climate, and in how recently it was dried, since the colour and the fruitiness both fade.\n\nThe taste is tart first and last, cranberry-like with a juicy sweetness in the middle and a drying finish, and it needs either sugar or a long cold steep to be comfortable. Hot, five minutes is plenty; steeping longer adds sourness rather than depth. A cold overnight soak is noticeably smoother, and iced karkade with plenty of sugar is the way most of the world drinks it. It also stains: cups, teeth, tablecloths.\n\nBuy whole or coarse-cut calyces rather than granules, which brew harsh and cloudy, and look for a bright colour. It is cheap, so there is little incentive to fake it, but very old stock is common in supermarket bags.\n\nIt blends naturally with rosehip (a usual pairing in European herbal mixes), with mint or ginger for iced tea, and with a little cinnamon and clove in the Caribbean 'sorrel' style. Try it cold-brewed with spearmint first.",
   "wikipedia_title": "Hibiscus tea",
   "wikipedia_scope": "exact",
   "popularity": 5,
-  "sources_note": "origin_country given as Egypt for the karkade tradition; Sudan grows much of the crop and West Africa, Mexico and Thailand are also major sources. Harvest window is approximate."
+  "sources_note": "origin_country given as Egypt for the karkade tradition; Sudan grows much of the crop and West Africa, Mexico and Thailand are also major sources. Harvest window is approximate.",
+  "name_zh": "洛神花茶",
+  "name_ru": "Каркаде",
+  "history": "Roselle, the plant behind the drink, was domesticated in West Africa, first for its seeds and later for its leaves and calyces, and the region still drinks it widely as bissap in Senegal, sobolo in Ghana and zobo in Nigeria. In Egypt and Sudan it is karkade, sold on Cairo streets and used to toast weddings. It is often called the tea of the pharaohs, but that nickname is better read as a popular story than a documented history.\n\nThe drink crossed the Atlantic with enslaved Africans. It became agua de Jamaica in Mexico and Central America and sorrel in the English-speaking Caribbean, where it belongs to Christmas, and in Panama it is spiced and drunk at Christmas and Chinese New Year. In American soul food it is one of the 'red drinks' tied to West Africa.\n\nEurope came late and by a side door. Italy took it up as carcade from Eritrea and used it as a substitute for tea when sanctions followed the invasion of Abyssinia. Elsewhere in Europe it became an ingredient, added to herbal mixes with mallow or rosehip mainly for colour. In Thailand it is sold heavily sweetened over ice.",
+  "liquor_hex": "#A3142F",
+  "leaf_hex": "#5C1425",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Hibiscus_tea",
+    "https://ja.wikipedia.org/wiki/%E3%83%8F%E3%82%A4%E3%83%93%E3%82%B9%E3%82%AB%E3%82%B9%E3%83%86%E3%82%A3%E3%83%BC",
+    "https://ru.wikipedia.org/wiki/%D0%9A%D0%B0%D1%80%D0%BA%D0%B0%D0%B4%D0%B5",
+    "https://ko.wikipedia.org/wiki/%ED%9E%88%EB%B9%84%EC%8A%A4%EC%BB%A4%EC%8A%A4%EC%B0%A8"
+  ],
+  "confidence": "high",
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d7/A_glass_of_hibiscus_tea_03_%28cropped%29.jpg/1280px-A_glass_of_hibiscus_tea_03_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d7/A_glass_of_hibiscus_tea_03_%28cropped%29.jpg/330px-A_glass_of_hibiscus_tea_03_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source_page": "https://commons.wikimedia.org/wiki/File:A_glass_of_hibiscus_tea_03_(cropped).jpg",
+      "author": "claralieu",
+      "license": "CC BY 2.0",
+      "license_url": "https://creativecommons.org/licenses/by/2.0",
+      "kind": "liquor",
+      "alt": "A glass of deep ruby hibiscus tea on a floral tablecloth"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/36/A_glass_of_hibiscus_tea_02.jpg/1280px-A_glass_of_hibiscus_tea_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/36/A_glass_of_hibiscus_tea_02.jpg/330px-A_glass_of_hibiscus_tea_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source_page": "https://commons.wikimedia.org/wiki/File:A_glass_of_hibiscus_tea_02.jpg",
+      "author": "claralieu",
+      "license": "CC BY 2.0",
+      "license_url": "https://creativecommons.org/licenses/by/2.0",
+      "kind": "liquor",
+      "alt": "A glass of hibiscus tea beside stacked patterned plates"
+    }
+  ]
 }

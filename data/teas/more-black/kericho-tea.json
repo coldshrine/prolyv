@@ -1,0 +1,71 @@
+{
+  "slug": "kericho-tea",
+  "name_en": "Kericho Tea",
+  "name_native": null,
+  "name_romanized": null,
+  "name_zh": "凯里乔红茶",
+  "name_ru": "Чай Керичо",
+  "aliases": [
+    "Kericho black tea"
+  ],
+  "category": "black",
+  "origin_country": "Kenya",
+  "origin_region": "Rift Valley · Kericho",
+  "cultivar": null,
+  "processing": "Typical of Kenyan black tea, most is machine-processed by the CTC (crush, tear, curl) method for a fast, strong brew.",
+  "form": "loose",
+  "harvest_season": "Kenyan highland tea is generally picked through most of the year, without the sharp seasons of northern tea regions.",
+  "appearance_dry": "Typical of CTC tea, small dark granules with a brownish cast.",
+  "appearance_liquor": "Typically a bright, deep reddish copper.",
+  "appearance_wet": "Typically fine coppery-brown particles.",
+  "taste_profile": "As with other Kenyan CTC teas, brisk and bright with solid malt, and strong enough to take milk.",
+  "taste_tags": [
+    "brisk",
+    "malty"
+  ],
+  "brewing": {
+    "grams": 3,
+    "water_ml": 250,
+    "temp_c": 100,
+    "steeps": 1,
+    "seconds": [
+      180
+    ],
+    "notes": "A usual Western-style steep for CTC tea; it brews quickly and turns harsh if left long. Good with milk."
+  },
+  "caffeine_level": "high",
+  "vintage_note": "Usual for Kenyan CTC tea, it is sold by grade and mostly goes into blends and tea bags, without vintages. Single-estate packs are less common; buy fresh and check the packing date.",
+  "description": "Kericho tea comes from the highlands around Kericho in western Kenya, an area commonly linked with Kenyan tea. It is a place name and not a tightly defined style.\n\nAs with other Kenyan black teas, much of it is made by CTC, which turns leaf into small granules that give up colour and strength quickly.\n\nExpect a brisk, bright cup. Keep the steep short, and use milk freely if you like, since this kind of tea is built for it.\n\nMost of it disappears anonymously into blends, so a pack naming Kericho and its estate or factory is the one to look for.",
+  "history": "Little is documented here about how tea in Kericho developed, and no dates or founders are given for that reason. The town's name is attached to Kenyan tea generally, as well as to local institutions such as Kericho Tea Boys School.",
+  "liquor_hex": "#A5451A",
+  "leaf_hex": "#3D2A1E",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Kericho"
+  ],
+  "confidence": "low",
+  "wikipedia_title": null,
+  "wikipedia_scope": "none",
+  "popularity": 2,
+  "images": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/d/d7/BREATHTAKING_VIEW_OF_KERICHO_TEA_FIELDS.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d7/BREATHTAKING_VIEW_OF_KERICHO_TEA_FIELDS.jpg/330px-BREATHTAKING_VIEW_OF_KERICHO_TEA_FIELDS.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source_page": "https://commons.wikimedia.org/wiki/File:BREATHTAKING_VIEW_OF_KERICHO_TEA_FIELDS.jpg",
+      "author": "Francis-makonjio",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "kind": "plantation",
+      "alt": "Tea fields in the foreground with a factory building and green hills beyond, Kericho, Kenya"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/e/e3/THE_GREEN_KERICHO_TEA_ESTATES.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e3/THE_GREEN_KERICHO_TEA_ESTATES.jpg/330px-THE_GREEN_KERICHO_TEA_ESTATES.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source_page": "https://commons.wikimedia.org/wiki/File:THE_GREEN_KERICHO_TEA_ESTATES.jpg",
+      "author": "Francis-makonjio",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "kind": "plantation",
+      "alt": "Aerial view of bright green tea estates divided by a winding strip of forest, Kericho, Kenya"
+    }
+  ]
+}

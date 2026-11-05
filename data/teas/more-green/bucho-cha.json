@@ -1,0 +1,59 @@
+{
+  "slug": "bucho-cha",
+  "name_en": "Bucho-cha",
+  "name_native": "부초차",
+  "name_romanized": "Bucho-cha",
+  "name_zh": "麸炒茶",
+  "name_ru": "Пучхо-ча",
+  "aliases": [
+    "Deokkeum-cha",
+    "덖음차",
+    "麩炒茶",
+    "Korean pan-fired green tea",
+    "Korean roasted green tea"
+  ],
+  "category": "green",
+  "origin_country": "South Korea",
+  "origin_region": "Southern tea regions",
+  "cultivar": null,
+  "processing": "Fresh leaf is pan-fired rather than steamed to stop oxidation. As with other hand-fired Korean greens, it is then typically rolled and dried.",
+  "form": "loose",
+  "harvest_season": "Follows the usual Korean flush names, from ujeon before grain rain in April through sejak and later pickings; earlier pickings are prized.",
+  "appearance_dry": "Typically slim, dark green twisted leaves, as is usual for Korean pan-fired tea.",
+  "appearance_liquor": "Usually clear pale yellow-green with a golden edge.",
+  "appearance_wet": "Soft green leaves and buds, size depending on the picking.",
+  "taste_profile": "Richer and rounder than steamed Korean tea, with the toasted nutty edge typical of pan-firing over a fresh green sweetness.",
+  "taste_tags": [
+    "roasted",
+    "nutty",
+    "vegetal",
+    "sweet"
+  ],
+  "brewing": {
+    "grams": 4,
+    "water_ml": 120,
+    "temp_c": 75,
+    "steeps": 3,
+    "seconds": [
+      60,
+      45,
+      75
+    ],
+    "notes": "Typical of Korean green tea: cooled water and a small pot. Hotter water brings out bitterness quickly."
+  },
+  "caffeine_level": "medium",
+  "vintage_note": "Sold as the current year's spring tea and labelled by flush rather than by a year of ageing. As with Korean green teas in general, the early pickings cost most and it is best drunk within a year.",
+  "description": "Bucho-cha, more often called deokkeum-cha, is less a single tea than the Korean way of making green tea in a hot pan. It is the most common and traditional method in the country, so a great deal of Korean green tea falls under this name.\n\nThe heat of the pan stops the leaf's enzymes and leaves a toasted note that steaming does not. That is why these teas are generally described as fuller-flavoured than steamed Korean teas.\n\nIn the cup, expect a green sweetness with a nutty, lightly toasted edge. Treat it gently: cool the water and keep the pot small, as is typical for Korean green tea.\n\nShops rarely sell it as bucho-cha. Look for deokkeum-cha or a place and flush on the label, such as a Hadong sejak, and check the harvest year.",
+  "history": "Little is documented about the term as a specific product. Pan-firing is described as Korea's traditional way of processing tea and is more popular there than steaming, which became the other main style. The word itself simply means roasted tea, written with the characters 麩炒茶.",
+  "liquor_hex": "#D3CB80",
+  "leaf_hex": "#4E5C34",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Green_tea",
+    "https://en.wikipedia.org/wiki/Korean_tea"
+  ],
+  "confidence": "low",
+  "wikipedia_title": "Green tea",
+  "wikipedia_scope": "umbrella",
+  "popularity": 2,
+  "images": []
+}

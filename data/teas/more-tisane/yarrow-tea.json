@@ -1,0 +1,57 @@
+{
+  "slug": "yarrow-tea",
+  "name_en": "Yarrow Tea",
+  "name_native": null,
+  "name_romanized": null,
+  "name_zh": "蓍草茶",
+  "name_ru": "Тысячелистник",
+  "aliases": [
+    "Yarrow",
+    "Achillea millefolium",
+    "Тысячелистник обыкновенный"
+  ],
+  "category": "tisane",
+  "origin_country": "Germany",
+  "origin_region": "Europe",
+  "cultivar": null,
+  "processing": "The flowering tops and feathery leaves are dried and cut, then infused; there is no other processing.",
+  "form": "loose",
+  "harvest_season": "Taken while the plant is in flower, typically in summer as with most flowering-top herbs.",
+  "appearance_dry": "Cut grey-green feathery leaf with small off-white flower clusters.",
+  "appearance_liquor": "Clear pale yellow to light gold.",
+  "appearance_wet": "Limp olive-green leaf fragments with soft pale flowers.",
+  "taste_profile": "Bitter and herbal with an earthy, slightly peppery edge and a pungent aroma.",
+  "taste_tags": [
+    "bitter",
+    "herbal",
+    "earthy",
+    "spicy"
+  ],
+  "brewing": {
+    "grams": 3,
+    "water_ml": 200,
+    "temp_c": 100,
+    "steeps": 1,
+    "seconds": [
+      420
+    ],
+    "notes": "Use 1 to 2 teaspoons per cup and steep 5 to 10 minutes, covered. Longer gets harshly bitter. Honey or lemon softens it."
+  },
+  "caffeine_level": "none",
+  "vintage_note": "Sold without vintages as cut flowering tops or in teabags from herbal suppliers. As with other dried herbs, recent stock with visible pale flowers is the thing to look for.",
+  "description": "Yarrow tea is made from Achillea millefolium, a pungent white-flowered plant found across the temperate Northern Hemisphere, with its fern-like leaves giving it the name millefolium. It is one of the classic bitter herbs.\n\nThe making is just drying the flowering tops. The same plant yields a dark blue essential oil rich in proazulenes, a hint of how strongly chemical this modest-looking plant is.\n\nThe bitterness is the point, and it is noticeable: earthy, herbal, a little peppery. Keep the steep to under 10 minutes, or add honey or lemon. If you find it too much, try it in a blend.\n\nOne warning for foragers: yarrow can look superficially like poisonous hemlock, so buy it unless you truly know the plant. It is in the daisy family, so people with related allergies should be careful, and those who are pregnant or on medication should ask a clinician first.",
+  "history": "Herbalists have long used yarrow as a digestive bitter, and it appears in many European folk traditions, though little is documented about the tea as a distinct drink. In Turkey, yarrow tea has medicinal use as an anti-inflammatory and antimicrobial, and a 2014 study there looked at the related species Achillea biebersteinii.\n\nIts chemistry has drawn scientific interest: the azulene chromophore was discovered in yarrow and wormwood and named in 1863 by Septimus Piesse.",
+  "liquor_hex": "#D7C777",
+  "leaf_hex": "#7E8460",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Achillea_millefolium",
+    "https://en.wikipedia.org/wiki/Tea_in_Turkey",
+    "https://scienceinsights.org/how-to-make-yarrow-tea-recipe-benefits-safety/",
+    "https://simplybeyondherbs.com/yarrow-tea"
+  ],
+  "confidence": "medium",
+  "wikipedia_title": "Achillea millefolium",
+  "wikipedia_scope": "umbrella",
+  "popularity": 2,
+  "images": []
+}

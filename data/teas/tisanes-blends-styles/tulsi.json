@@ -3,10 +3,21 @@
   "name_en": "Tulsi (Holy Basil)",
   "name_native": "तुलसी",
   "name_romanized": "Tulsī",
-  "aliases": ["Holy basil tea", "Tulsi tea", "Tulasi", "Rama tulsi", "Krishna tulsi", "Vana tulsi", "Ocimum tenuiflorum", "Ocimum sanctum"],
+  "aliases": [
+    "Holy basil tea",
+    "Tulsi tea",
+    "Tulasi",
+    "Rama tulsi",
+    "Krishna tulsi",
+    "Vana tulsi",
+    "Ocimum tenuiflorum",
+    "Ocimum sanctum",
+    "Туласи",
+    "Священный базилик"
+  ],
   "category": "tisane",
   "origin_country": "India",
-  "origin_region": "Grown across India; Rama (green), Krishna (purple) and Vana (wild, Ocimum gratissimum) types are often blended in commercial tea",
+  "origin_region": "India",
   "cultivar": "Ocimum tenuiflorum (Rama and Krishna tulsi) and Ocimum gratissimum (Vana tulsi)",
   "processing": "Leaves and flowering tops are cut, dried in shade or warm air to keep the oils, then cut for loose tea or bags; no fermentation. Many packs blend the three types.",
   "form": "loose",
@@ -15,12 +26,68 @@
   "appearance_liquor": "Pale gold to light amber, clear.",
   "appearance_wet": "Soft leaf pieces releasing a warm, spicy smell.",
   "taste_profile": "Clove, pepper and anise with a minty basil freshness, a soft sweetness and a faint bitterness; Krishna tulsi is the most pungent, Rama the mildest and Vana the most lemony.",
-  "taste_tags": ["spicy", "herbal", "sweet"],
-  "brewing": {"grams": 2, "water_ml": 250, "temp_c": 95, "steeps": 2, "seconds": [300, 420], "notes": "Just-boiled water, 5 minutes with a lid; a second steep is fine. It takes honey and lemon well and is a natural partner for ginger, black tea or green tea."},
+  "taste_tags": [
+    "spicy",
+    "herbal",
+    "sweet"
+  ],
+  "brewing": {
+    "grams": 2,
+    "water_ml": 250,
+    "temp_c": 95,
+    "steeps": 2,
+    "seconds": [
+      300,
+      420
+    ],
+    "notes": "Just-boiled water, 5 minutes with a lid; a second steep is fine. It takes honey and lemon well and is a natural partner for ginger, black tea or green tea."
+  },
   "caffeine_level": "none",
   "vintage_note": "Sold year-round with no harvest date, as cut leaf, tea bags and above all blends (tulsi-ginger, tulsi with green tea, tulsi sweet rose), with a best-before of about two years; the clove-like aroma is at its best within a year. Packs that state the type (Rama, Krishna, Vana) or a three-tulsi blend are the more serious ones, and organic certification is common since much of the export trade is organic. Note that tulsi-green-tea blends contain caffeine.",
   "description": "Tulsi, or holy basil, is a sacred plant in Hindu households, grown in a pot by the door and offered in worship, and its leaves make one of India's most popular caffeine-free infusions, warm and spicy with a clove-like aroma that is nothing like the sweet basil of Italian cooking.\n\nThere are three plants under the name. Rama tulsi has green leaves and a gentle, sweet-spicy taste; Krishna tulsi is purple-stemmed and pungent, with the strongest clove note; Vana tulsi is a wild, lemony relative. Commercial tea is usually a blend of all three, dried gently so the volatile oils survive and cut for the bag or the pot.\n\nThe cup is fragrant and warming, clove and pepper over a basil-mint freshness, with a little sweetness and a faint bitter edge; five minutes with just-boiled water under a lid is right, and the leaf takes a second steep. It pairs naturally with ginger and black pepper in the Indian way, with honey and lemon, and with black or green tea, and it makes a good evening substitute for masala chai.\n\nThere is no vintage; buy within the best-before, look for green rather than brown leaf and a strong clove smell, and prefer packs that name the types. Most Western 'tulsi tea' is in bags and often blended, which is fine, but a loose three-tulsi blend from an Indian grocery is cheaper and better.\n\nIt has traditionally been drunk as a daily tonic and for colds; whatever you make of that, it is a characterful, inexpensive herb and the obvious next step after mint if you want something warmer.",
   "wikipedia_title": "Ocimum tenuiflorum",
   "wikipedia_scope": "umbrella",
-  "popularity": 3
+  "popularity": 3,
+  "name_zh": "圣罗勒",
+  "name_ru": "Тулси",
+  "history": "Tulsi, or holy basil (Ocimum tenuiflorum), is native to tropical and subtropical Asia, Australia and the western Pacific, and is grown for religious use and traditional medicine as well as for its essential oil. It is widely drunk as a herbal tea and commonly used in Ayurveda.\n\nIts place in the home comes from religion more than from the tea trade. In the Vaishnava tradition devotees worship the plant or its leaves, it is planted in courtyards of Hindu houses and at temples to Hanuman, and lamps are lit for it each evening during Kartik. India and Nepal grow three main types: Ram tulsi with broad bright green leaves, the less common purplish Krishna or Shyama tulsi, and wild vana tulsi. Little is documented about when it became a packaged tea.",
+  "liquor_hex": "#D8B45C",
+  "leaf_hex": "#6E7350",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Ocimum_tenuiflorum",
+    "https://en.wikipedia.org/wiki/Ocimum"
+  ],
+  "confidence": "medium",
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/54/Thulasi2.jpg/1280px-Thulasi2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/54/Thulasi2.jpg/330px-Thulasi2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Thulasi2.jpg",
+      "author": "Challiyan at Malayalam Wikipedia",
+      "license": "CC BY-SA 2.5",
+      "license_url": "https://creativecommons.org/licenses/by-sa/2.5",
+      "kind": "plant",
+      "alt": "Holy basil stem with purple-tinged leaves and a flower spike"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1e/Ocimum_tenuiflorum_24_08_2012.JPG/1280px-Ocimum_tenuiflorum_24_08_2012.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1e/Ocimum_tenuiflorum_24_08_2012.JPG/330px-Ocimum_tenuiflorum_24_08_2012.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Ocimum_tenuiflorum_24_08_2012.JPG",
+      "author": "Joydeep",
+      "license": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "kind": "plant",
+      "alt": "Holy basil plant with green leaves and a flower spike"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/8/8b/Holy_Basil_edit2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8b/Holy_Basil_edit2.jpg/330px-Holy_Basil_edit2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Holy_Basil_edit2.jpg",
+      "author": "Muhammad Mahdi Karim",
+      "license": "CC BY-SA 2.5",
+      "license_url": "https://creativecommons.org/licenses/by-sa/2.5",
+      "kind": "plant",
+      "alt": "Close view of a holy basil flower spike against a dark background"
+    }
+  ]
 }

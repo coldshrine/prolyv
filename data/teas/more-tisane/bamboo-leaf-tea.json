@@ -1,0 +1,61 @@
+{
+  "slug": "bamboo-leaf-tea",
+  "name_en": "Bamboo Leaf Tea (Zhu Ye Cha)",
+  "name_native": "竹叶茶",
+  "name_romanized": "Zhúyè Chá",
+  "name_zh": "竹叶茶",
+  "name_ru": "Чай из листьев бамбука",
+  "aliases": [
+    "Bamboo leaf tea",
+    "Daennip-cha",
+    "댓잎차",
+    "Чжу Е Ча",
+    "Zhu ye cha (bamboo leaf)",
+    "Zhuye cha",
+    "Chikuyo-cha",
+    "竹葉茶",
+    "淡竹叶茶"
+  ],
+  "category": "tisane",
+  "origin_country": "China",
+  "origin_region": "Various provinces",
+  "cultivar": null,
+  "processing": "Bamboo or lophatherum leaves are dried, and sometimes processed in imitation of tea-making, then steeped in boiling water.",
+  "form": "loose",
+  "harvest_season": "Little is documented about a fixed season; there is no prized picking.",
+  "appearance_dry": "Dried, narrow green leaves, whole or cut.",
+  "appearance_liquor": "Pale yellow-green, typical of a leaf infusion of this kind.",
+  "appearance_wet": "Soft, flat green leaf pieces.",
+  "taste_profile": "Usually described in general terms only: light, grassy and herbal, as is typical of a simple leaf infusion.",
+  "taste_tags": [
+    "grassy",
+    "herbal",
+    "vegetal"
+  ],
+  "brewing": {
+    "grams": 3,
+    "water_ml": 250,
+    "temp_c": 100,
+    "steeps": 2,
+    "seconds": [
+      300,
+      420
+    ],
+    "notes": "Pour boiling water over the leaves and steep as a simple herbal infusion. Check which plant is on the label first."
+  },
+  "caffeine_level": "none",
+  "vintage_note": "Not sold by year. It is a herbal product sold by pack with a best-before date, sometimes alongside medicinal herbs. Like other dried leaf infusions, it is best used fresh rather than kept.",
+  "description": "Bamboo leaf tea is a caffeine-free infusion known under this name in China, and in Korea as daennip-cha. It is a loose name rather than one defined product.\n\nThe key trap is the plant. Dan zhu ye (Lophatherum gracile), a grass-like herb listed in the Chinese Pharmacopoeia, is easily confused with zhu ye, the leaf of true bamboo, which that pharmacopoeia does not list. Boxes do not always make this clear, so check the Latin name.\n\nDon't confuse any of it with Zhu Ye Qing, the green tea from Sichuan. That is real Camellia sinensis tea and only shares the bamboo-leaf name.\n\nThe simplest way to make it is to steep the leaves in boiling water and drink it plain, as is typical of herbal infusions. Claims about clearing heat come from herbal tradition and should be read as such.",
+  "history": "Little is documented about bamboo leaf tea as a named drink. Dan zhu ye has a place in Chinese herbal practice, and food researchers have made a tea from it by imitating tea processing.\n\nWhen a bamboo leaf drink first appeared, and how the Chinese and Korean versions relate, is not clearly recorded.",
+  "liquor_hex": "#C9C77A",
+  "leaf_hex": "#6F7F45",
+  "sources": [
+    "https://www.spgykj.com/cn/article/id/SPKJ201305082",
+    "https://www.cmro.gov.hk/files/gcmti/research/mmi/ech_search/061_HL_vs_FPH_sc.pdf"
+  ],
+  "confidence": "low",
+  "wikipedia_title": null,
+  "wikipedia_scope": "none",
+  "popularity": 2,
+  "images": []
+}

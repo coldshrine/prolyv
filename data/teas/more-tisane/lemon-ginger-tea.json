@@ -1,0 +1,56 @@
+{
+  "slug": "lemon-ginger-tea",
+  "name_en": "Lemon and Ginger Tea",
+  "name_native": null,
+  "name_romanized": null,
+  "name_zh": "柠檬姜茶",
+  "name_ru": "Лимонно-имбирный чай",
+  "aliases": [
+    "Lemon-Ginger Blend",
+    "Lemon & Ginger",
+    "Lemon ginger infusion"
+  ],
+  "category": "tisane",
+  "origin_country": "United Kingdom",
+  "origin_region": "Blended in the UK",
+  "cultivar": null,
+  "processing": "A blend of dried, cut ginger root, lemongrass and lemon peel, often with natural lemon flavouring, packed mostly in tea bags. There is no tea leaf and no fermentation.",
+  "form": "other",
+  "harvest_season": "Not seasonal: it is a blend of dried ingredients sold year round.",
+  "appearance_dry": "Pale yellow-tan chopped root and peel with straw-like lemongrass, mostly inside a bag.",
+  "appearance_liquor": "Clear pale gold, turning pinker in blends with hibiscus.",
+  "appearance_wet": "Soft fibrous bits of root and peel.",
+  "taste_profile": "Zesty citrus up front and a warm, peppery ginger kick behind it, with lemongrass keeping things fresh.",
+  "taste_tags": [
+    "citrus",
+    "spicy",
+    "herbal"
+  ],
+  "brewing": {
+    "grams": 2,
+    "water_ml": 250,
+    "temp_c": 100,
+    "steeps": 1,
+    "seconds": [
+      300
+    ],
+    "notes": "One bag per cup in boiling water for 2 to 5 minutes, depending on the brand. Also works iced."
+  },
+  "caffeine_level": "none",
+  "vintage_note": "A supermarket staple with no vintage or season, sold by best-before date. Recipes differ from brand to brand, so read the list: the ginger share and the presence of flavouring tell you most of what you need to know.",
+  "description": "Lemon and ginger is one of the standard herbal infusions on British supermarket shelves: caffeine-free, sharp and warming, and made with no tea leaf at all.\n\nThe usual base is ginger root, lemongrass and lemon peel, and the proportions vary a lot. One brand lists ginger at 65% with lemongrass and liquorice, another adds blackberry leaf and fennel, and another uses apple and hibiscus, which changes the colour and adds tartness.\n\nBrew it with boiling water; brands suggest anything from two to five minutes. Two minutes is bright and light, five is fuller.\n\nIf a bag tastes more of sweets than of ginger, flavouring is probably doing the work. Look for ginger high in the ingredient list, or make your own with fresh ginger slices and lemon.",
+  "history": "This is a modern commercial blend, and little is documented about who first sold it under this name. It is now carried by most large British tea brands, so it is better understood as a category than as a single tea with its own history.",
+  "liquor_hex": "#E2C766",
+  "leaf_hex": "#C9A968",
+  "wikipedia_title": "Herbal tea",
+  "wikipedia_scope": "umbrella",
+  "popularity": 3,
+  "sources": [
+    "https://twinings.co.uk/products/lemon-ginger-20-tea-bags",
+    "https://mcgrocer.com/products/teapigs-lemon-ginger-herbal-infusion-tea-bags-15-per-pack-664999",
+    "https://uk.ahmadtea.com/collections/fruit-herbal-teas/products/lemon-ginger-infusion-teabags",
+    "https://en.wikipedia.org/wiki/Herbal_tea"
+  ],
+  "confidence": "medium",
+  "images": []
+}

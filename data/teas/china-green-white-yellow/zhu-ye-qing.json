@@ -3,11 +3,18 @@
   "name_en": "Zhu Ye Qing (Bamboo Leaf Green)",
   "name_native": "竹叶青",
   "name_romanized": "Zhúyèqīng",
-  "aliases": ["Zhuyeqing", "Bamboo Leaf Green", "Emei Zhu Ye Qing", "Emeishan Zhuyeqing", "Bamboo Tip"],
+  "aliases": [
+    "Zhuyeqing",
+    "Bamboo Leaf Green",
+    "Emei Zhu Ye Qing",
+    "Emeishan Zhuyeqing",
+    "Bamboo Tip",
+    "竹葉青"
+  ],
   "category": "green",
   "origin_country": "China",
   "origin_region": "Sichuan · Leshan · Mount Emei",
-  "cultivar": "Emei local landrace and early-budding clones such as Fuding Dabai and Mingshan clones",
+  "cultivar": "Emei local landrace and early-budding improved clones",
   "processing": "Pan-fired flat green made from single buds: the buds are killed and pressed flat in heated pans, mostly by machine, then dried at low temperature so they come out straight, smooth and bright green, like tiny bamboo leaves.",
   "form": "loose",
   "harvest_season": "Very early spring, from late February to late March; nearly all of it is picked before Qingming, as single buds.",
@@ -15,13 +22,63 @@
   "appearance_liquor": "Pale green, bright and clear.",
   "appearance_wet": "Plump single buds standing upright in the glass like bamboo shoots.",
   "taste_profile": "Fresh chestnut and sweet pea with a clean, light body and a mild savoury edge; neat and polished rather than deep.",
-  "taste_tags": ["nutty", "sweet", "vegetal", "umami"],
-  "brewing": {"grams": 3, "water_ml": 150, "temp_c": 80, "steeps": 3, "seconds": [45, 45, 75], "notes": "Tall glass is the point here: the buds stand upright and slowly sink. 80 °C, modest leaf; it is a tea for looking at as much as drinking."},
+  "taste_tags": [
+    "nutty",
+    "sweet",
+    "vegetal",
+    "umami"
+  ],
+  "brewing": {
+    "grams": 3,
+    "water_ml": 150,
+    "temp_c": 80,
+    "steeps": 3,
+    "seconds": [
+      45,
+      45,
+      75
+    ],
+    "notes": "Tall glass is the point here: the buds stand upright and slowly sink. 80 °C, modest leaf; it is a tea for looking at as much as drinking."
+  },
   "caffeine_level": "medium",
   "vintage_note": "Sold as the current year's early spring harvest, almost all of it pre-Qingming because Sichuan picks from late February. The name is a registered trademark of one Emei company, which sells it in branded grades (roughly entry, mid and top tiers under names like Pinwei, Jingxin and Lundao); other producers sell the same style as Emei bud tea or Emei Mao Feng. Drink within the year, kept cold and sealed.",
   "description": "Zhu Ye Qing is the flat, bud-only green from the slopes of Mount Emei in Sichuan, and its distinct thing is looks: every bud is pressed flat, straight and uniform, bright green like a sliver of bamboo leaf, and when you drop them into a tall glass they stand upright and sink one by one. The name was coined in the 1960s and is now a registered trademark, which shapes how the tea is sold more than how it tastes.\n\nIt is made from single buds picked in late February and March, pressed flat in heated pans, mostly by machine these days, and dried gently to keep the bright colour. The processing is close to Longjing in idea but the material is smaller and the heat lower, so there is less toast and more fresh-bud sweetness.\n\nIn the cup it is clean and polished: fresh chestnut, sweet pea, a mild savoury note and a light body. It is not a tea of great depth or many steeps, and it is not trying to be; three infusions at 80 °C in a glass is the format. Too much leaf or hot water makes it flat and astringent quickly, since single buds have little to buffer the heat.\n\nBecause the name belongs to one company, 'Zhu Ye Qing' in a shop is either that brand, sold in sealed sticks and tins in tiered grades, or a lookalike labelled Emei bud tea, Emei Mao Feng or simply Sichuan flat green. The lookalikes can be perfectly good and far cheaper. Whatever the label, check for even bud size, a bright rather than dull green, and a picking date in March; the tea is at its best within a couple of months of harvest.\n\nIf you enjoy the format, try Meitan Cuiya from Guizhou or Mengding Gan Lu from the next mountain over; if you want more flavour from the same region, Mengding Huangya shows what a little yellowing does to similar buds.",
   "wikipedia_title": "Green tea",
   "wikipedia_scope": "umbrella",
   "popularity": 3,
-  "sources_note": "No dedicated English Wikipedia article found. Brand grade names (Pinwei, Jingxin, Lundao) are the trademark owner's tiers and may change."
+  "sources_note": "No dedicated English Wikipedia article found. Brand grade names (Pinwei, Jingxin, Lundao) are the trademark owner's tiers and may change.",
+  "name_zh": "竹叶青",
+  "name_ru": "Чжу Е Цин",
+  "history": "Tea on Mount Emei is old, and one account has the first Ming emperor granting Wannian Temple a tribute garden, but Zhu Ye Qing as a name is modern. The usual story places it on 20 April 1964, when Marshal Chen Yi, then a vice premier, stayed at Wannian Temple, was served an unnamed local tea by the monks, and named it after its flat green leaves.\n\nToday Zhu Ye Qing is a brand as well as a style. The Emeishan Zhuyeqing company is among the larger Sichuan tea firms, and its top Lundao line has become a well-known trademark in its own right.",
+  "liquor_hex": "#D8E0A0",
+  "leaf_hex": "#6E9A3C",
+  "sources": [
+    "https://zh.wikipedia.org/wiki/%E4%B8%87%E5%B9%B4%E5%AF%BA",
+    "https://zh.wikipedia.org/wiki/%E5%B7%9D%E8%8C%B6",
+    "https://paper.people.com.cn/rmrbhwb/html/2013-05/28/content_1246267.htm",
+    "https://www.nbd.com.cn/articles/2012-03-27/643570.html"
+  ],
+  "confidence": "medium",
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d2/Zhu-Ye-Qing-Tea-03.jpg/1280px-Zhu-Ye-Qing-Tea-03.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d2/Zhu-Ye-Qing-Tea-03.jpg/330px-Zhu-Ye-Qing-Tea-03.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Zhu-Ye-Qing-Tea-03.jpg",
+      "author": "CEphoto, Uwe Aranas",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "kind": "dry_leaf",
+      "alt": "Pile of flat, straight green Zhu Ye Qing dry buds on a grey background"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ed/Zhu-Ye-Qing-Tea-02.jpg/1280px-Zhu-Ye-Qing-Tea-02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ed/Zhu-Ye-Qing-Tea-02.jpg/330px-Zhu-Ye-Qing-Tea-02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Zhu-Ye-Qing-Tea-02.jpg",
+      "author": "CEphoto, Uwe Aranas",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "kind": "dry_leaf",
+      "alt": "Flat, slender green Zhu Ye Qing dry buds spread on a white plate"
+    }
+  ]
 }

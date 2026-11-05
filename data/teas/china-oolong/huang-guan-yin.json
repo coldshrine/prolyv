@@ -3,7 +3,14 @@
   "name_en": "Huang Guan Yin",
   "name_native": "黄观音",
   "name_romanized": "Huáng Guānyīn",
-  "aliases": ["Huangguanyin", "Yellow Guanyin", "Yellow Goddess", "Mingke No. 2", "Cultivar 105", "Huang Guan Yin yancha"],
+  "aliases": [
+    "Huangguanyin",
+    "Yellow Guanyin",
+    "Yellow Goddess",
+    "Mingke No. 2",
+    "Cultivar 105",
+    "Huang Guan Yin yancha"
+  ],
   "category": "oolong",
   "origin_country": "China",
   "origin_region": "Fujian · Wuyi Mountains",
@@ -15,13 +22,65 @@
   "appearance_liquor": "Bright golden-yellow to light amber.",
   "appearance_wet": "Soft, yellow-green leaves of medium size with thin red edges.",
   "taste_profile": "A piercing floral aroma (gardenia, orchid, a hint of osmanthus) with honey and light toast, sweet and smooth, lighter in body than classic yancha but with a clean cooling finish.",
-  "taste_tags": ["floral", "honey", "sweet", "roasted"],
-  "brewing": {"grams": 7, "water_ml": 110, "temp_c": 100, "steeps": 7, "seconds": [10, 10, 15, 20, 30, 45, 70], "notes": "Boiling water, porcelain gaiwan, short steeps. Smell the empty warmed cup after the first pour; the aroma that sticks to the porcelain is this tea's party trick."},
+  "taste_tags": [
+    "floral",
+    "honey",
+    "sweet",
+    "roasted"
+  ],
+  "brewing": {
+    "grams": 7,
+    "water_ml": 110,
+    "temp_c": 100,
+    "steeps": 7,
+    "seconds": [
+      10,
+      10,
+      15,
+      20,
+      30,
+      45,
+      70
+    ],
+    "notes": "Boiling water, porcelain gaiwan, short steeps. Smell the empty warmed cup after the first pour; the aroma that sticks to the porcelain is this tea's party trick."
+  },
   "caffeine_level": "medium",
   "vintage_note": "Spring harvest of the current year, roasted lightly in early summer and often on sale by late summer, earlier than the classic Wuyi cultivars, with the year stated. Best within a year or two of harvest; it is not an ageing tea and a light roast does not hold up for long in storage.",
-  "description": "Huang Guan Yin is the most perfumed of the modern Wuyi cultivars, a rock tea built around what Chinese drinkers call sky-piercing fragrance: a floral aroma so strong it seems to lift out of the cup. It is inexpensive, easy to like and one of the most planted of the new generation of bushes.\n\nIt comes from the same Fujian Tea Research Institute cross as Jin Guan Yin, Tieguanyin as mother and Huang Dan as father, and was registered nationally in 2002 as Mingke No. 2, trade number 105. From Huang Dan it inherits early sprouting, a yellowish leaf and that explosive aroma; from Tieguanyin a touch of body and an orchid note. In Wuyi it is made as strip-rolled, charcoal-roasted yancha; elsewhere in Fujian it is also rolled green-style and made into black tea.\n\nMakers oxidise it to a medium-light level and keep the roast light to medium, because a heavy roast flattens the florals that justify the tea. The cup is golden rather than amber, the aroma is gardenia, orchid and a little osmanthus, and the taste is honeyed and smooth. Body is moderate and the mineral finish is shorter than in Rou Gui or the famous bushes, but the aftertaste is cool and clean.\n\nIt peaks early, in the first three steeps, and is done after six or seven; brew hot in a gaiwan with quick pours and do not bother pushing it for long infusions. It is a tea for the start of a session, before something heavier, or for people who find classic yancha too roasted.\n\nSold by the current spring, often earlier than other Wuyi teas, and meant to be drunk within a year or two. Because it is cheap and aromatic it goes into a great deal of entry-level Da Hong Pao, so if a budget Da Hong Pao smells strongly of flowers you are probably tasting Huang Guan Yin. For a rounder cousin with the same parents, try Jin Guan Yin; for a rose-scented one, Huang Mei Gui.",
+  "description": "Huang Guan Yin is the most perfumed of the modern Wuyi cultivars, a rock tea built around what Chinese drinkers call sky-piercing fragrance: a floral aroma so strong it seems to lift out of the cup. It is inexpensive, easy to like and one of the most planted of the new generation of bushes.\n\nIt comes from the same Fujian Tea Research Institute cross as Jin Guan Yin, Tieguanyin as mother and Huang Dan as father, and is known as Mingke No. 2, trade number 105; one trade list dates its release to 1998. From Huang Dan it inherits early sprouting, a yellowish leaf and that explosive aroma; from Tieguanyin a touch of body and an orchid note. In Wuyi it is made as strip-rolled, charcoal-roasted yancha; elsewhere in Fujian it is also rolled green-style and made into black tea.\n\nMakers oxidise it to a medium-light level and keep the roast light to medium, because a heavy roast flattens the florals that justify the tea. The cup is golden rather than amber, the aroma is gardenia, orchid and a little osmanthus, and the taste is honeyed and smooth. Body is moderate and the mineral finish is shorter than in Rou Gui or the famous bushes, but the aftertaste is cool and clean.\n\nIt peaks early, in the first three steeps, and is done after six or seven; brew hot in a gaiwan with quick pours and do not bother pushing it for long infusions. It is a tea for the start of a session, before something heavier, or for people who find classic yancha too roasted.\n\nSold by the current spring, often earlier than other Wuyi teas, and meant to be drunk within a year or two. Because it is cheap and aromatic it goes into a great deal of entry-level Da Hong Pao, so if a budget Da Hong Pao smells strongly of flowers you are probably tasting Huang Guan Yin. For a rounder cousin with the same parents, try Jin Guan Yin; for a rose-scented one, Huang Mei Gui.",
   "wikipedia_title": "Huangguanyin",
   "wikipedia_scope": "exact",
   "popularity": 2,
-  "sources_note": "Parentage, Mingke No. 2 and number 105 from Chinese cultivar lists; often confused with Jin Guan Yin (Mingke No. 1 / 204) in vendor copy."
+  "sources_note": "Parentage, Mingke No. 2 and number 105 from Chinese cultivar lists; often confused with Jin Guan Yin (Mingke No. 1 / 204) in vendor copy.",
+  "name_zh": "黄观音",
+  "name_ru": "Хуан Гуань Инь",
+  "history": "Huang Guan Yin is a modern bred cultivar, not an old bush. It came out of the Fujian Tea Research Institute from a cross of Tieguanyin with Huang Jin Gui, also called Huang Dan, and is known in Wuyi by the number 105. One trade list gives 1998 as its release year.\n\nIt is very widely planted in the Wuyi area, where it is a staple for blending Da Hong Pao, and can be made either in Wuyi strips or tightly rolled in the Anxi manner.",
+  "liquor_hex": "#D9A646",
+  "leaf_hex": "#6A5A32",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Huangguanyin",
+    "https://hongchinatea.com/post/rock-tea-code/"
+  ],
+  "confidence": "medium",
+  "images": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/7/70/HGY_Oolong_tea_leaf.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/70/HGY_Oolong_tea_leaf.jpg/330px-HGY_Oolong_tea_leaf.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source_page": "https://commons.wikimedia.org/wiki/File:HGY_Oolong_tea_leaf.jpg",
+      "author": "",
+      "license": "CC BY-SA 3.0",
+      "license_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+      "kind": "dry_leaf",
+      "alt": "Pile of tightly twisted olive-green dry Huang Guan Yin oolong leaves on a white surface"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/e/ec/HGY_Oolong_tea_leaf_close.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ec/HGY_Oolong_tea_leaf_close.jpg/330px-HGY_Oolong_tea_leaf_close.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source_page": "https://commons.wikimedia.org/wiki/File:HGY_Oolong_tea_leaf_close.jpg",
+      "author": "Iateasquirrel at English Wikipedia",
+      "license": "CC BY-SA 3.0",
+      "license_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+      "kind": "dry_leaf",
+      "alt": "Close-up of twisted olive-green dry Huang Guan Yin oolong leaves with visible stems"
+    }
+  ]
 }

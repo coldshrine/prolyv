@@ -1,0 +1,54 @@
+{
+  "slug": "alubari-estate",
+  "name_en": "Alubari",
+  "name_native": null,
+  "name_romanized": null,
+  "aliases": [
+    "Aloobari",
+    "Alubari Tea Garden"
+  ],
+  "name_zh": "阿卢巴里茶园",
+  "name_ru": "Алубари",
+  "category": "black",
+  "origin_country": "India",
+  "origin_region": "West Bengal · Darjeeling",
+  "cultivar": null,
+  "processing": "Little is documented about current production here. Darjeeling black tea in general is withered, rolled, oxidised and dried in the orthodox way, often to a lighter oxidation than other Indian blacks.",
+  "form": "loose",
+  "harvest_season": "As with other Darjeeling gardens, first flush in early spring and second flush in early summer are the prized pickings.",
+  "appearance_dry": "As is typical of Darjeeling, a mix of greenish and brown twisted leaf, darker in later flushes.",
+  "appearance_liquor": "Typical of Darjeeling, pale gold in first flush to amber in second flush.",
+  "appearance_wet": "Mixed green and copper leaf, as is usual for Darjeeling.",
+  "taste_profile": "Nothing specific is recorded for this garden's cup. Darjeeling typically ranges from floral and brisk in spring to fruity and rounder in summer.",
+  "taste_tags": [
+    "floral",
+    "fruity",
+    "brisk"
+  ],
+  "brewing": {
+    "grams": 3,
+    "water_ml": 250,
+    "temp_c": 90,
+    "steeps": 2,
+    "seconds": [
+      150,
+      210
+    ],
+    "notes": "Western-style, as is usual for Darjeeling. Keep first flush teas cooler and shorter."
+  },
+  "caffeine_level": "medium",
+  "vintage_note": "Alubari lots rarely appear under their own name. As is usual in Darjeeling, any such tea would be sold by year and flush, and is best within a year or two of picking.",
+  "description": "Alubari is a name you meet in the history of Darjeeling more often than on a tin. It was one of the district's earliest tea gardens, and that is why it matters to anyone curious about how Darjeeling tea began.\n\nIt is small, listed at only 22.58 hectares, and lies near Darjeeling town. How its leaf is processed today is not well documented, so assume nothing beyond the normal Darjeeling method unless the seller can say more.\n\nIf you do find it, treat it like any Darjeeling: cooler water and shorter steeps for spring pickings, a little more for summer ones.\n\nThe spelling varies between Alubari and Aloobari. Do not confuse the tea with the board game that borrows the name.",
+  "history": "Experimental plantings by the East India Company at Tukvar, Steinthal and Alubari are usually dated to 1852, and most accounts have the commercial garden opening in 1856 under the Kurseong and Darjeeling Tea Company, with Captain Samler as its founder. Claims that it was the very first commercial garden in Darjeeling are disputed, as Tukvar is more often given that place.\n\nThe name is usually read as meaning potato field, though that is an inference from the word rather than a record of what grew there.",
+  "liquor_hex": "#C9963F",
+  "leaf_hex": "#5A4A30",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Darjeeling_tea",
+    "https://www.thestatesman.com/bengal/hill-tea-gardens-name-1502967721.html"
+  ],
+  "confidence": "low",
+  "wikipedia_title": "Darjeeling tea",
+  "wikipedia_scope": "umbrella",
+  "popularity": 2,
+  "images": []
+}

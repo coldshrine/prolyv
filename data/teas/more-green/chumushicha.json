@@ -1,0 +1,63 @@
+{
+  "slug": "chumushicha",
+  "name_en": "Chumushicha",
+  "name_native": "中蒸し茶",
+  "name_romanized": "Chūmushicha",
+  "name_zh": "中蒸茶",
+  "name_ru": "Тюмуситя",
+  "aliases": [
+    "Chumushi",
+    "Chūmushi",
+    "Chūmushi Cha",
+    "Chūmushi-Cha",
+    "Chūmushicha",
+    "Chumushi sencha",
+    "Medium-steamed sencha"
+  ],
+  "category": "green",
+  "origin_country": "Japan",
+  "origin_region": "Various tea regions",
+  "cultivar": null,
+  "processing": "Sencha steamed for a middle length of time, commonly given as about 30 to 90 seconds, between light and deep steaming, then rolled and dried.",
+  "form": "loose",
+  "harvest_season": "As with other sencha, spring first flush is the most prized, with later flushes cheaper.",
+  "appearance_dry": "Typical of sencha: deep green needles, somewhat more broken than light-steamed tea and less so than deep-steamed.",
+  "appearance_liquor": "Clear yellow-green with a little more depth than light-steamed sencha.",
+  "appearance_wet": "Soft green leaf, mostly whole with some breakage.",
+  "taste_profile": "The middle ground of sencha: brighter than deep-steamed tea and fuller than light-steamed, balancing freshness and body.",
+  "taste_tags": [
+    "vegetal",
+    "umami",
+    "grassy",
+    "sweet"
+  ],
+  "brewing": {
+    "grams": 5,
+    "water_ml": 150,
+    "temp_c": 72,
+    "steeps": 3,
+    "seconds": [
+      60,
+      15,
+      45
+    ],
+    "notes": "Water at 70-75 °C and about a minute for the first steep is a good start. Later steeps need only a short pour."
+  },
+  "caffeine_level": "medium",
+  "vintage_note": "Sold like any sencha: the current year's spring harvest first, with the shincha of the new season the freshest. It should be drunk within the year. The steaming level appears on the label as chumushi, or often is not mentioned at all.",
+  "description": "Chumushicha simply means medium-steamed tea. It is a sencha defined by the steaming step rather than by place or cultivar, sitting between light-steamed asamushi and deep-steamed fukamushi.\n\nThe steaming time is the whole point, though the exact window is a matter of convention: about 30 to 90 seconds is the common figure, and makers quote narrower ranges inside it. Longer steaming breaks down the leaf and deepens the colour, while shorter steaming keeps needles whole and flavours sharper.\n\nIn the cup it balances brightness and body. Brew with water around 70-75 °C for about a minute, then a quick second steep.\n\nThe label can mislead: many teas of this kind are just called sencha, and the word chumushi is not a strict grade. Rely on your own taste and compare it with a fukamushi and an asamushi from one shop to see what steaming does.",
+  "history": "Chumushi is a descriptive category in the vocabulary of Japanese sencha, not a tea with a founder or a date. It makes sense mainly in contrast to asamushi and fukamushi, and little is documented about when the term itself came into use.",
+  "wikipedia_title": "Sencha",
+  "wikipedia_scope": "umbrella",
+  "popularity": 2,
+  "liquor_hex": "#CDD172",
+  "leaf_hex": "#46662E",
+  "images": [],
+  "sources": [
+    "https://en.wikipedia.org/wiki/Sencha",
+    "https://camellia-sinensis.com/en/blog/asamushi-fukamushi-chumushi-whats-the-difference-b",
+    "https://myjapanesegreentea.com/steaming-time-of-sencha",
+    "https://www.wikidata.org/wiki/Q124606581"
+  ],
+  "confidence": "medium"
+}

@@ -1,0 +1,60 @@
+{
+  "slug": "teh-poci",
+  "name_en": "Teh Poci",
+  "name_native": "Teh poci",
+  "name_romanized": null,
+  "aliases": [],
+  "category": "green",
+  "origin_country": "Indonesia",
+  "origin_region": "Central Java · Tegal",
+  "cultivar": null,
+  "processing": "A way of serving rather than a way of making leaf: green or jasmine tea is brewed strong in a clay pot and poured over rock sugar in a clay cup.",
+  "form": "loose",
+  "harvest_season": "Not tied to a season; it is made from everyday green or jasmine tea available all year.",
+  "appearance_dry": "Everyday green or jasmine-scented tea.",
+  "appearance_liquor": "Dark and thick-looking, far deeper in colour than the green tea base suggests.",
+  "appearance_wet": "Soft, dark, spent leaf left in the clay pot.",
+  "taste_profile": "Hot, sweet, astringent and strong, with a clear jasmine perfume over the rock sugar.",
+  "taste_tags": [
+    "floral",
+    "sweet",
+    "bitter"
+  ],
+  "brewing": {
+    "grams": 6,
+    "water_ml": 300,
+    "temp_c": 95,
+    "steeps": 1,
+    "seconds": [
+      300
+    ],
+    "notes": "Amounts and time are a suggestion, as the tradition goes by eye. Put rock sugar in the clay cup, pour hot and do not stir too early."
+  },
+  "caffeine_level": "medium",
+  "vintage_note": "Teh poci has no vintages. It is served fresh at home and in food stalls, and the tea going into it is ordinary packaged green or jasmine tea, not sold by harvest year. The clay pot and cup are sold separately.",
+  "description": "Teh poci is the clay-pot tea of Tegal and its neighbours on the north coast of Central Java, including Slawi, Pemalang and Brebes. The name refers to the pot and the serving, not to a kind of leaf.\n\nThe tea is usually green or jasmine, brewed strong in a clay teapot and drunk hot from a clay cup with rock sugar. The pot's interior is traditionally not washed: only the old leaves are thrown out, because locals believe the residue improves taste and aroma.\n\nLocals sum it up with the Javanese acronym WASGITEL: wangi, panas, sepet, legi, kentel, meaning fragrant, hot, astringent, sweet and thick. That is a fair brewing guide too. Make it strong, serve it very hot and let the sugar do the softening.\n\nYou drink it in the morning, afternoon or evening with snacks. Outside its home area look for it at Warung Tegal food stalls, and for the equipment along the Pantura road on the north coast.",
+  "history": "Little is documented about when teh poci began. What is recorded is its place in daily life around Tegal and its spread beyond the area through Warung Tegal stalls, along with sellers of the clay sets on the Pantura road.",
+  "liquor_hex": "#6B3417",
+  "leaf_hex": "#3A3524",
+  "name_zh": "陶壶茶(印尼)",
+  "name_ru": "Тэ-почи",
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c3/Teh_Poci_Gula_Batu.jpg/1280px-Teh_Poci_Gula_Batu.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c3/Teh_Poci_Gula_Batu.jpg/330px-Teh_Poci_Gula_Batu.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Teh_Poci_Gula_Batu.jpg",
+      "author": "Gunawan Kartapranata",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "kind": "serving",
+      "alt": "Teh poci served in an earthenware pot and cups on a tray, with rock sugar and dark tea"
+    }
+  ],
+  "sources": [
+    "https://en.wikipedia.org/wiki/Teh_poci"
+  ],
+  "confidence": "medium",
+  "wikipedia_title": "Teh poci",
+  "wikipedia_scope": "exact",
+  "popularity": 2
+}

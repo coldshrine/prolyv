@@ -1,0 +1,59 @@
+{
+  "slug": "shizhuo-oolong",
+  "name_en": "Shizhuo",
+  "name_native": "石桌",
+  "name_romanized": "Shízhuō",
+  "aliases": [
+    "石棹",
+    "Shihjhuo",
+    "Shizhao"
+  ],
+  "category": "oolong",
+  "origin_country": "Taiwan",
+  "origin_region": "Chiayi · Zhuqi",
+  "cultivar": "Qingxin Oolong",
+  "form": "loose",
+  "caffeine_level": "medium",
+  "brewing": {
+    "grams": 6,
+    "water_ml": 110,
+    "temp_c": 95,
+    "steeps": 6,
+    "seconds": [
+      20,
+      15,
+      20,
+      30,
+      45,
+      60
+    ],
+    "notes": "A safe starting point for oolong: gongfu style with water just off the boil."
+  },
+  "taste_tags": [
+    "floral",
+    "roasted"
+  ],
+  "description": "Shizhuo is high-mountain oolong from a settlement of that name in Zhuqi township, Chiayi, close to the Alishan township line. Its tea gardens lie between about 1200 and 1600 metres on a saddle of land where fog often gathers after midday.\n\nTreat it as you would any oolong of its region: hot water, short steeps in a small pot, and a seller who can say which season it comes from.",
+  "wikipedia_title": null,
+  "wikipedia_scope": "none",
+  "popularity": 1,
+  "name_zh": "石桌",
+  "name_ru": "Ши Чжо",
+  "history": "Local farmers once lived on bamboo shoots, chayote and daylilies. Qingxin Oolong was brought in during 1980 and met reluctance at first; with backing from the Zhuqi farmers' association some residents began trying it in 1981. Planting spread quickly after Hsieh Tung-min gave the tea the name Zhulu, and by the late 1980s the farmland was nearly full, with tea shops and factories along the road. Little more is documented about the tea itself.",
+  "liquor_hex": "#D2AE55",
+  "leaf_hex": "#4A4A2C",
+  "sources": [
+    "https://zh.wikipedia.org/wiki/%E7%9F%B3%E6%A1%8C",
+    "https://zh.wikipedia.org/zh-cn/台灣高山茶"
+  ],
+  "confidence": "medium",
+  "images": [],
+  "stub": true,
+  "processing": "Typical of oolong: withered, tossed to bruise the leaf edges, partly oxidised, then fixed, rolled and dried, sometimes roasted.",
+  "harvest_season": "Usually picked in spring or autumn, as with most oolongs.",
+  "appearance_dry": "Usually twisted strips or rolled balls, from green to dark brown depending on the roast.",
+  "appearance_liquor": "Usually from golden to amber, depending on oxidation and roast.",
+  "appearance_wet": "Usually whole leaves that open up, often with darker edges.",
+  "taste_profile": "Expect what oolongs usually give: floral or fruity notes, more roasted when the leaf is roasted.",
+  "vintage_note": "Oolongs are normally sold by season and year: light styles are best fresh, roasted styles are often rested for a year or more after roasting."
+}

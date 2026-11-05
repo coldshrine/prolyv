@@ -1,0 +1,59 @@
+{
+  "slug": "beipu-pengfeng-oolong",
+  "name_en": "Beipu Pengfeng Tea",
+  "name_native": "北埔膨風茶",
+  "name_romanized": "Běipǔ Péngfēng Chá",
+  "name_zh": "北埔膨风茶",
+  "name_ru": "Бэй Пу Пэн Фэн Ча",
+  "aliases": [
+    "Beipu Oriental Beauty",
+    "Peng Feng Tea",
+    "Pengfeng"
+  ],
+  "category": "oolong",
+  "origin_country": "Taiwan",
+  "origin_region": "Hsinchu · Beipu",
+  "cultivar": null,
+  "processing": "Leaves bitten by tea leafhoppers develop a natural honey scent, then are made as a heavily oxidised oolong, as is typical of Oriental Beauty.",
+  "form": "loose",
+  "harvest_season": "Summer, as usual for Oriental Beauty, since the tea depends on leafhoppers being active in the garden.",
+  "appearance_dry": "Loose, twisted multicoloured leaves in brown, red and white, with visible downy tips, as with other Oriental Beauty.",
+  "appearance_liquor": "Clear bright amber-orange, typical of Oriental Beauty.",
+  "appearance_wet": "Small, tender leaves and buds in mixed red-brown and green, as with other Oriental Beauty.",
+  "taste_profile": "Honey is the defining note, from the insect-bitten leaf. Ripe fruit and a soft sweet finish are typical of the Oriental Beauty style.",
+  "taste_tags": [
+    "honey",
+    "fruity",
+    "sweet"
+  ],
+  "brewing": {
+    "grams": 5,
+    "water_ml": 110,
+    "temp_c": 85,
+    "steeps": 5,
+    "seconds": [
+      30,
+      25,
+      35,
+      50,
+      70
+    ],
+    "notes": "Advice typical for Oriental Beauty: slightly cooler water than most oolongs, because the fine downy leaf turns sharp in very hot water."
+  },
+  "caffeine_level": "medium",
+  "vintage_note": "Sold by summer harvest of the current year, usually through local shops and county competitions, where top lots can fetch very high prices. It tends to be drunk within a few years, though the heavier oxidation keeps better than light oolongs. Check that the label says Beipu, as Emei and other areas sell similar tea.",
+  "description": "Pengfeng tea is the local name for the honey-scented oolong of Beipu, a hill town in Hsinchu County, known more widely as Oriental Beauty. Beipu people call their town its home, and the name appears on Taiwan's government-certified regional tea marks.\n\nThe whole style turns on an insect. Tea leafhoppers bite the young leaf, and the plant's response gives the tea its natural honey scent. Heavy oxidation follows, as is typical of Oriental Beauty, which takes it well away from the green high-mountain teas of central Taiwan.\n\nThe cup should smell of honey first, with fruit and soft sweetness behind it. Do not use boiling water: the fine, downy leaf is happier a little cooler, and short steeps keep it from turning sharp.\n\nThe neighbouring township of Emei makes the same type of tea and a 2005 Hsinchu County contest top prize went to an Emei farmer, so the region matters as much as the town. Look for a stated harvest year and producer, and read the Beipu name as a place claim you can ask about.",
+  "history": "Beipu's reputation is tied to the Japanese-era tea business, particularly the entrepreneur Jiang A-xin, whose honey-scented tea helped make the town prosperous. A popular legend says British merchants presented the tea to Queen Victoria and that she gave it the name Oriental Beauty; it remains a story, not a documented fact.\n\nThe Beipu Pengfeng name is now listed among Taiwan's government-certified tea marks, and the town still trades on it, with tea shops lining its old street.",
+  "liquor_hex": "#C5782C",
+  "leaf_hex": "#7A5A3C",
+  "sources": [
+    "https://zh.wikipedia.org/wiki/%E8%87%BA%E7%81%A3%E8%8C%B6",
+    "https://smiletaiwan.cw.com.tw/article/2159",
+    "https://smiletaiwan.cw.com.tw/article/3132"
+  ],
+  "confidence": "medium",
+  "wikipedia_title": "臺灣茶",
+  "wikipedia_scope": "umbrella",
+  "popularity": 3,
+  "images": []
+}

@@ -3,24 +3,95 @@
   "name_en": "Moroccan Mint Tea",
   "name_native": "أتاي / الشاي بالنعناع",
   "name_romanized": "Atay bi nana",
-  "aliases": ["Maghrebi mint tea", "Atay", "Touareg tea", "Gunpowder mint tea", "Thé à la menthe", "Shai bil nana", "Moroccan tea"],
+  "aliases": [
+    "Maghrebi mint tea",
+    "Atay",
+    "Touareg tea",
+    "Gunpowder mint tea",
+    "Thé à la menthe",
+    "Shai bil nana",
+    "Moroccan tea",
+    "马格里布薄荷茶",
+    "馬格里布薄荷茶",
+    "Атай"
+  ],
   "category": "green",
   "origin_country": "Morocco",
-  "origin_region": "Nationwide, and across the Maghreb; the tea is Chinese gunpowder green (mainly from Zhejiang), the mint is Moroccan nana spearmint",
+  "origin_region": "Morocco",
   "cultivar": "Chinese gunpowder green tea (zhu cha), imported in bulk export grades, plus fresh or dried spearmint (Mentha spicata 'nana')",
   "processing": "Not a processed tea but a preparation: gunpowder green tea is rinsed, then brewed in a metal pot with a large bunch of fresh spearmint and a generous amount of sugar, often brought briefly to the boil, and poured from a height into small glasses to raise a foam. The gunpowder itself is a pan-fired, tightly rolled Chinese green.",
   "form": "loose",
-  "harvest_season": "The gunpowder is made from spring and summer leaf and shipped year-round; fresh mint is available all year in Morocco, with absinthe wormwood (chiba) sometimes replacing it in winter.",
+  "harvest_season": "The gunpowder is made from spring and summer leaf and shipped year-round; fresh mint is the norm in Morocco, with tree wormwood (chiba) sometimes replacing or joining it in winter when mint is scarce.",
   "appearance_dry": "Tight, shiny grey-green pellets of gunpowder tea alongside a bunch of fresh green spearmint sprigs.",
   "appearance_liquor": "Golden-yellow to amber, slightly cloudy, with a layer of foam in the glass.",
   "appearance_wet": "Unfurled green-brown leaf tangled with wilted mint.",
   "taste_profile": "Strong, slightly bitter and smoky-grassy green tea balanced by a lot of sugar and the sweet, cooling freshness of spearmint; sweet first, bitter-green underneath, and very refreshing despite being hot.",
-  "taste_tags": ["herbal", "sweet", "bitter", "grassy"],
-  "brewing": {"grams": 10, "water_ml": 500, "temp_c": 100, "steeps": 3, "seconds": [240, 300, 360], "notes": "Put 2 tablespoons of gunpowder in a pot, pour on a little boiling water, swirl and discard (the rinse). Add boiling water, a large bunch of fresh spearmint pushed in stems first, and 20–40 g of sugar; steep 3–5 minutes or set the pot on a low flame for a minute. Pour one glass and return it to the pot a few times to mix, then serve from a height for foam. The pot is refilled two or three times."},
+  "taste_tags": [
+    "herbal",
+    "sweet",
+    "bitter",
+    "grassy"
+  ],
+  "brewing": {
+    "grams": 10,
+    "water_ml": 500,
+    "temp_c": 100,
+    "steeps": 3,
+    "seconds": [
+      240,
+      300,
+      360
+    ],
+    "notes": "Put 2 tablespoons of gunpowder in a pot, pour on a little boiling water, swirl and discard (the rinse). Add boiling water, a large bunch of fresh spearmint pushed in stems first, and 20–40 g of sugar; steep 3–5 minutes or set the pot on a low flame for a minute. Pour one glass and return it to the pot a few times to mix, then serve from a height for foam. The pot is refilled two or three times."
+  },
   "caffeine_level": "medium",
   "vintage_note": "No vintage. Morocco imports Chinese gunpowder by the shipload under trade grade numbers (the finer, tighter grades are pricier), and the tea is sold year-round in boxes and loose; the mint is bought fresh by the bunch. Western 'Moroccan mint' tea bags are green tea with dried spearmint and are a distant cousin; to make the real thing buy a good gunpowder (a Chinese 'Temple of Heaven' style tin or a Moroccan brand) and fresh nana or spearmint, and use sugar.",
-  "description": "Moroccan mint tea is the national drink of Morocco and the whole Maghreb: Chinese gunpowder green tea brewed strong with a fistful of fresh spearmint and a startling amount of sugar, poured from a height into small glasses so it foams, and served to every guest within minutes of arrival. Refusing a glass is hard; refusing the second and third is harder.\n\nThe tea itself is not Moroccan. Gunpowder, a pan-fired Chinese green rolled into tight pellets that keep well on long journeys, arrived in Morocco through European traders in the nineteenth century and is now imported in enormous quantities, mostly from Zhejiang, under numbered export grades. The mint is the local spearmint called nana, sweet and low in menthol, and in winter some households use wormwood instead.\n\nThe preparation is a small ritual and the details matter: a quick rinse of the pellets to wash off the bitterest dust, boiling water, the mint pushed in stems first so it does not stew, sugar in the pot rather than the glass, then a glass poured and returned to the pot a few times to blend it. The result is sweet, grassy, faintly smoky and intensely fresh. The mistakes are steeping the mint too long (it goes grassy and bitter) and skimping on sugar; this is not a tea that works unsweetened, though you can scale it down.\n\nThere is nothing to know about vintages, only about buying a decent gunpowder and fresh mint. The dried-mint tea bags sold in the West as Moroccan mint are fine as a quick green tea but have nothing of the foam, the sweetness or the fresh-mint hit.\n\nServe it with almond pastries or after a tagine, and try the variations: a sprig of lemon verbena (louiza) or a few orange-blossom drops in the pot are both traditional.",
+  "description": "Moroccan mint tea is the national drink of Morocco and the whole Maghreb: Chinese gunpowder green tea brewed strong with a fistful of fresh spearmint and a startling amount of sugar, poured from a height into small glasses so it foams, and served to every guest within minutes of arrival. Refusing a glass is hard; refusing the second and third is harder.\n\nThe tea itself is not Moroccan. Gunpowder, a pan-fired Chinese green rolled into tight pellets that keep well on long journeys, reached North Africa through British trade in the eighteenth and nineteenth centuries and is now imported in enormous quantities, mostly from Zhejiang, under numbered export grades. The mint is the local spearmint called nana, sweet and low in menthol, and in winter some households use wormwood instead.\n\nThe preparation is a small ritual and the details matter: a quick rinse of the pellets to wash off the bitterest dust, boiling water, the mint pushed in stems first so it does not stew, sugar in the pot rather than the glass, then a glass poured and returned to the pot a few times to blend it. The result is sweet, grassy, faintly smoky and intensely fresh. The mistakes are steeping the mint too long (it goes grassy and bitter) and skimping on sugar; this is not a tea that works unsweetened, though you can scale it down.\n\nThere is nothing to know about vintages, only about buying a decent gunpowder and fresh mint. The dried-mint tea bags sold in the West as Moroccan mint are fine as a quick green tea but have nothing of the foam, the sweetness or the fresh-mint hit.\n\nServe it with almond pastries or after a tagine, and try the variations: a sprig of lemon verbena (louiza) or a few orange-blossom drops in the pot are both traditional.",
   "wikipedia_title": "Maghrebi mint tea",
   "wikipedia_scope": "exact",
-  "popularity": 5
+  "popularity": 5,
+  "name_zh": "摩洛哥薄荷茶",
+  "name_ru": "Марокканский мятный чай",
+  "history": "Tea reached Morocco as a courtly luxury. The earliest records, from around the 18th century, describe envoys bringing tea and sugar to Sultan Moulay Ismail while negotiating the release of European captives. Under Sultan Suleiman (r. 1792-1822), an officer named Ahmed Bin Mubarek became the first mul atay, or master of tea, at court. Gunpowder green tea came into North Africa through British trade in the 18th and 19th centuries.\n\nTea and sugar landed at Essaouira, and Jewish merchants handled their passage inland. James Richardson described a Moroccan tea ceremony in the 1840s and reported people drinking tea all day. Imports quadrupled in the twenty years after the Anglo-Moroccan Treaty of 1856, helped by tea diverted to Morocco during the Crimean War, though drinking it remained an urban mark of status.\n\nThe famines of the 1880s changed that. Sweet tea became an emergency source of calories and an appetite suppressant, and rural people arriving in the cities took up the habit. Not everyone approved: in the late 19th century, Sufi leaders such as Muhammad Bin Abdul-Kabir Al-Kattani told followers to boycott European-imported tea and sugar. By the early 20th century mint tea was well established, and from Morocco the custom spread to Algeria, Tunisia, Libya and Egypt and to Berber and Tuareg nomads in the Sahara.",
+  "liquor_hex": "#C99A3A",
+  "leaf_hex": "#5E6B4A",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Maghrebi_mint_tea",
+    "https://ja.wikipedia.org/wiki/%E3%82%A2%E3%83%83%E3%83%84%E3%82%A1%E3%82%A4",
+    "https://zh.wikipedia.org/wiki/%E9%A6%AC%E6%A0%BC%E9%87%8C%E5%B8%83%E8%96%84%E8%8D%B7%E8%8C%B6",
+    "https://ko.wikipedia.org/wiki/%EC%95%84%ED%83%80%EC%9D%B4"
+  ],
+  "confidence": "high",
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7b/Green_mint_tea_Touareg_Damann.jpg/1280px-Green_mint_tea_Touareg_Damann.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7b/Green_mint_tea_Touareg_Damann.jpg/330px-Green_mint_tea_Touareg_Damann.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Green_mint_tea_Touareg_Damann.jpg",
+      "author": "Marie-Lan Nguyen",
+      "license": "CC BY 2.5",
+      "license_url": "https://creativecommons.org/licenses/by/2.5",
+      "kind": "dry_leaf",
+      "alt": "Dry blend of gunpowder green tea pellets and mint leaves on a white surface"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/38/Mint_tea%2C_Marrakesh.jpg/1280px-Mint_tea%2C_Marrakesh.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/38/Mint_tea%2C_Marrakesh.jpg/330px-Mint_tea%2C_Marrakesh.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Mint_tea,_Marrakesh.jpg",
+      "author": "Adam Harangozó",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "kind": "liquor",
+      "alt": "Glass of amber mint tea with mint leaves on a woven mat in Marrakesh"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/27/Moroccan_Mint_Tea.jpg/1280px-Moroccan_Mint_Tea.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/27/Moroccan_Mint_Tea.jpg/330px-Moroccan_Mint_Tea.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Moroccan_Mint_Tea.jpg",
+      "author": "Tola Akindipe",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "kind": "liquor",
+      "alt": "Glasses of amber Moroccan mint tea packed with fresh mint leaves on a blue table"
+    }
+  ]
 }

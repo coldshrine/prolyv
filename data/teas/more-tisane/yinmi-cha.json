@@ -1,0 +1,51 @@
+{
+  "slug": "yinmi-cha",
+  "name_en": "Yinmi Cha",
+  "name_native": "阴米茶",
+  "name_romanized": "Yīnmǐ Chá",
+  "aliases": [
+    "Yinmicha",
+    "陰米茶"
+  ],
+  "category": "tisane",
+  "origin_country": "China",
+  "origin_region": "Chongqing · Shizhu",
+  "cultivar": null,
+  "form": "other",
+  "caffeine_level": "none",
+  "brewing": {
+    "grams": 2,
+    "water_ml": 200,
+    "temp_c": 100,
+    "steeps": 1,
+    "seconds": [
+      300
+    ],
+    "notes": "A common starting point for herbal infusions: boiling water, about five minutes."
+  },
+  "taste_tags": [
+    "herbal"
+  ],
+  "description": "A Tujia speciality of Shizhu county in Chongqing, made from glutinous rice rather than tea leaves and closer to a sweet snack than a brew.\n\nBrew it as you would other herbal infusions. If the plant is new to you, check that it is safe for you first, especially when pregnant or on medication.",
+  "wikipedia_title": null,
+  "wikipedia_scope": "none",
+  "popularity": 1,
+  "name_zh": "阴米茶",
+  "name_ru": "Инь Ми Ча",
+  "history": "It is recorded in the Qing-era local gazetteer of Shizhu. Each winter, households steam, sun-dry, rub and shade-dry the new glutinous rice, then fry it in lard and boil it with sweet fermented rice, often adding poached eggs. Little more is documented about it.",
+  "liquor_hex": "#E6D8B8",
+  "leaf_hex": "#EFE6D0",
+  "sources": [
+    "https://milulu.com.cn/techan/51430.html"
+  ],
+  "confidence": "low",
+  "images": [],
+  "stub": true,
+  "processing": "Glutinous rice is steamed, sun-dried, rubbed and shade-dried; to serve, it is fried in lard and boiled with sweet fermented rice.",
+  "harvest_season": "The rice is prepared each winter from that year's crop.",
+  "appearance_dry": "Dried plant material.",
+  "appearance_liquor": "Depends on the plant; usually pale to amber.",
+  "appearance_wet": "Softened plant material.",
+  "taste_profile": "A herbal infusion; the taste depends on the plant.",
+  "vintage_note": "Herbal infusions are not sold by vintage: buy recent stock and use it within a year or so."
+}

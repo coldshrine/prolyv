@@ -3,7 +3,14 @@
   "name_en": "Anhua Heicha (Hunan Dark Tea)",
   "name_native": "安化黑茶",
   "name_romanized": "Ānhuà Hēichá",
-  "aliases": ["Anhua dark tea", "Hunan dark tea", "Hunan hei cha", "Anhua black tea", "Hunan heicha", "Xiang Cha"],
+  "aliases": [
+    "Anhua dark tea",
+    "Hunan dark tea",
+    "Hunan hei cha",
+    "Anhua black tea",
+    "Hunan heicha",
+    "Xiang Cha"
+  ],
   "category": "heicha",
   "origin_country": "China",
   "origin_region": "Hunan · Yiyang · Anhua",
@@ -15,13 +22,60 @@
   "appearance_liquor": "Orange-yellow in young basket teas to deep red-brown in aged bricks and logs, always clear.",
   "appearance_wet": "Dark olive to brown leaf, tender in the Jian grades and coarse with stems in bricks.",
   "taste_profile": "A family built on pine smoke, sweetness and a cooling finish: delicate and longan-like in Tian Jian, mushroomy in Fu Zhuan, strong and woody in Hei Zhuan, thick and bamboo-fresh in the log.",
-  "taste_tags": ["smoky", "sweet", "woody", "earthy", "herbal"],
-  "brewing": {"grams": 7, "water_ml": 110, "temp_c": 100, "steeps": 9, "seconds": [10, 10, 15, 20, 30, 45, 60, 90, 120], "notes": "Boiling water always: rinse once or twice, short steeps for basket teas, longer for bricks, and simmer coarse grades 5–10 minutes. Milk and a pinch of salt are traditional in the north-west."},
+  "taste_tags": [
+    "smoky",
+    "sweet",
+    "woody",
+    "earthy",
+    "herbal"
+  ],
+  "brewing": {
+    "grams": 7,
+    "water_ml": 110,
+    "temp_c": 100,
+    "steeps": 9,
+    "seconds": [
+      10,
+      10,
+      15,
+      20,
+      30,
+      45,
+      60,
+      90,
+      120
+    ],
+    "notes": "Boiling water always: rinse once or twice, short steeps for basket teas, longer for bricks, and simmer coarse grades 5–10 minutes. Milk and a pinch of salt are traditional in the north-west."
+  },
   "caffeine_level": "low",
   "vintage_note": "Every Anhua tea is sold by its pressing or packing year and factory: the market runs from the current year to about twenty years back, with 3–10 years the common drinking window, and bricks and logs from the 1980s–90s traded as collectables since the dark-tea boom of the late 2000s. Young tea is drinkable but smoky; the smoke settles after three to five years.",
-  "description": "Anhua heicha is the dark tea of Hunan, from Anhua County in the hills west of Changsha, and it is a whole family rather than a single tea. Anhua was the engine of China's border-tea trade: for centuries its coarse, pine-dried leaf was pressed into bricks and logs and sent north-west to Xinjiang, Gansu, Qinghai and Mongolia, where it was boiled with milk. The county's name was almost forgotten outside that trade until the late 2000s, when a marketing push turned Hunan dark tea into a national fashion, with ageing, collecting and health claims to match.\n\nEverything starts with hei mao cha. Fresh leaf is pan-fired, rolled, piled briefly while still warm and damp so it darkens, rolled again and dried over pine wood on the 'seven-star stove', a long brick kiln that pushes smoke through the leaf; that smoke is Anhua's signature and the thing that separates it from Liu Bao and pu-erh. The mao cha is then steamed and finished one of three ways: packed loose into bamboo baskets as the three Jian grades (Tian, Gong and Sheng), pressed into the three bricks (Fu Zhuan with its golden flowers, dense Hei Zhuan and patterned Hua Zhuan), or compressed by hand into the thousand-tael log, Qian Liang Cha, and its smaller siblings.\n\nAcross the family the cup is built on pine smoke, sweetness and a cooling finish, and the forms spread out from there: Tian Jian is light and longan-like, Fu Zhuan mushroomy and soft, Hei Zhuan strong and woody, the log thick and bamboo-fresh. All of them want boiling water, a rinse and patience, and the coarser ones want a kettle; none of them wants to be brewed like a green tea and judged on the first cup.\n\nBuying is by year and factory. Baishaxi, the 1939 state factory, and the Yiyang tea factory are the historic names, and dozens of newer makers press under the protected Anhua origin. Prices are low for young tea and climb steeply with claimed age and with the showpiece formats; a disc of log or a kilo basket of Gong Jian from a known factory is the sensible way in. Check for a clean, sweet, smoky smell with no must, and remember that stems are part of the style, not a fault.\n\nIf you want one of each, buy a Tian Jian, a Fu Zhuan and a disc of Qian Liang from the same year and brew them in a row: it is the best single afternoon's education in what dark tea can be.",
+  "description": "Anhua heicha is the dark tea of Hunan, from Anhua County in the hills west of Changsha, and it is a whole family rather than a single tea. Anhua was the engine of China's border-tea trade: for centuries its coarse, pine-dried leaf was pressed into bricks and logs and sent north-west to Xinjiang, Gansu, Qinghai and Mongolia, where it was boiled with milk. The county's name was almost forgotten outside that trade until the late 2000s, when a marketing push turned Hunan dark tea into a national fashion, with ageing, collecting and health claims to match.\n\nEverything starts with hei mao cha. Fresh leaf is pan-fired, rolled, piled briefly while still warm and damp so it darkens, rolled again and dried over pine wood on the 'seven-star stove', a long brick kiln that pushes smoke through the leaf; that smoke is Anhua's signature and the thing that separates it from Liu Bao and pu-erh. The mao cha is then steamed and finished one of three ways: packed loose into bamboo baskets as the three Jian grades (Tian, Gong and Sheng), pressed into the three bricks (Fu Zhuan with its golden flowers, dense Hei Zhuan and patterned Hua Zhuan), or compressed by hand into the thousand-tael log, Qian Liang Cha, and its smaller siblings.\n\nAcross the family the cup is built on pine smoke, sweetness and a cooling finish, and the forms spread out from there: Tian Jian is light and longan-like, Fu Zhuan mushroomy and soft, Hei Zhuan strong and woody, the log thick and bamboo-fresh. All of them want boiling water, a rinse and patience, and the coarser ones want a kettle; none of them wants to be brewed like a green tea and judged on the first cup.\n\nBuying is by year and factory. Baishaxi, which grew out of a brick factory founded in 1939, and the Yiyang tea factory are the historic names, and dozens of newer makers press under the protected Anhua origin. Prices are low for young tea and climb steeply with claimed age and with the showpiece formats; a disc of log or a kilo basket of Gong Jian from a known factory is the sensible way in. Check for a clean, sweet, smoky smell with no must, and remember that stems are part of the style, not a fault.\n\nIf you want one of each, buy a Tian Jian, a Fu Zhuan and a disc of Qian Liang from the same year and brew them in a row: it is the best single afternoon's education in what dark tea can be.",
   "wikipedia_title": "Fermented tea",
   "wikipedia_scope": "umbrella",
   "popularity": 3,
-  "sources_note": "Overview card; no English Wikipedia article exists for Anhua dark tea at time of writing ('Anhua dark tea' and variants are missing). Individual teas have their own cards (tian-jian, gong-jian, sheng-jian, fu-zhuan, hei-zhuan, hua-zhuan, qian-liang-cha). The late-2000s dark-tea boom is a widely reported market phenomenon rather than a dated event."
+  "sources_note": "Overview card; no English Wikipedia article exists for Anhua dark tea at time of writing ('Anhua dark tea' and variants are missing). Individual teas have their own cards (tian-jian, gong-jian, sheng-jian, fu-zhuan, hei-zhuan, hua-zhuan, qian-liang-cha). The late-2000s dark-tea boom is a widely reported market phenomenon rather than a dated event.",
+  "name_zh": "安化黑茶",
+  "name_ru": "Аньхуа Хэй Ча",
+  "history": "Anhua dark tea is less one tea than the output of a county in Hunan: the three Jian basket teas, the three bricks (Hei, Hua and Fu) and the Qian Liang log all fall under it. Its coarse leaf long fed the supply of tea to China's north-west.\n\nThe modern brick industry starts in 1939, when the agronomist Peng Xianze set up a brick tea factory on behalf of Hunan's tea administration; today's Baishaxi factory descends from it. A first Hei brick sample followed in 1940, a Fu brick made in Hunan in 1953 and a machine-pressed rectangular Hua brick in 1958.\n\nThe name reached a national audience much later. A Ministry of Agriculture selection of ten regional tea brands, held 59 years after the 1958 list of famous teas, put Anhua dark tea beside West Lake Long Jing and Anxi Tie Guan Yin.",
+  "liquor_hex": "#9C4A1E",
+  "leaf_hex": "#3A2B1E",
+  "sources": [
+    "https://zh.wikipedia.org/wiki/%E9%BB%91%E8%8C%B6",
+    "https://zh.wikipedia.org/wiki/%E4%B8%AD%E5%9B%BD%E5%8D%81%E5%A4%A7%E5%90%8D%E8%8C%B6",
+    "https://thetea-main-en.pages.dev/article/anhua-heicha",
+    "https://www.cnpp.cn/focus/3524282.html"
+  ],
+  "confidence": "medium",
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/19/Anhua_Heicha_2._Aufguss.jpg/1280px-Anhua_Heicha_2._Aufguss.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/19/Anhua_Heicha_2._Aufguss.jpg/330px-Anhua_Heicha_2._Aufguss.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Anhua_Heicha_2._Aufguss.jpg",
+      "author": "Fritzober",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "kind": "liquor",
+      "alt": "Amber second infusion of Anhua dark tea with dark wet leaves in a blue-and-white rice-pattern bowl"
+    }
+  ]
 }

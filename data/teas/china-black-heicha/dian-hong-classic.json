@@ -3,7 +3,20 @@
   "name_en": "Dian Hong (Yunnan Black)",
   "name_native": "滇红工夫",
   "name_romanized": "Diānhóng Gōngfu",
-  "aliases": ["Dianhong", "Yunnan Black", "Yunnan Red", "Dian Hong Gongfu", "Yunnan Gongfu", "Fengqing black tea", "滇红"],
+  "aliases": [
+    "Dianhong",
+    "Yunnan Black",
+    "Yunnan Red",
+    "Dian Hong Gongfu",
+    "Yunnan Gongfu",
+    "Fengqing black tea",
+    "滇红",
+    "Yunnan Gold",
+    "Golden Yunnan",
+    "滇紅",
+    "滇紅工夫",
+    "Дянь Хун"
+  ],
   "category": "black",
   "origin_country": "China",
   "origin_region": "Yunnan · Lincang · Fengqing",
@@ -15,12 +28,93 @@
   "appearance_liquor": "Bright red-orange, clear, with a golden ring at the edge of the cup.",
   "appearance_wet": "Large, soft copper-red leaves and buds, very even in colour.",
   "taste_profile": "Malt and honey with a baked sweet-potato note, cocoa and a peppery brightness in the middle steeps, finishing soft and sugary with gentle grip.",
-  "taste_tags": ["malty", "honey", "sweet", "cocoa", "spicy"],
-  "brewing": {"grams": 5, "water_ml": 110, "temp_c": 92, "steeps": 7, "seconds": [10, 10, 15, 20, 30, 45, 60], "notes": "Forgiving tea: 90–95 °C keeps the sweetness ahead of the tannin, boiling water will not wreck it. Western-style: 3 g per 250 ml, 3 minutes, takes milk well."},
+  "taste_tags": [
+    "malty",
+    "honey",
+    "sweet",
+    "cocoa",
+    "spicy"
+  ],
+  "brewing": {
+    "grams": 5,
+    "water_ml": 110,
+    "temp_c": 92,
+    "steeps": 7,
+    "seconds": [
+      10,
+      10,
+      15,
+      20,
+      30,
+      45,
+      60
+    ],
+    "notes": "Forgiving tea: 90–95 °C keeps the sweetness ahead of the tannin, boiling water will not wreck it. Western-style: 3 g per 250 ml, 3 minutes, takes milk well."
+  },
   "caffeine_level": "medium",
-  "vintage_note": "Sold by the current year's harvest, usually spring (March–April) with autumn lots as a cheaper second choice. It is at its best within a year of picking, though decent Dian Hong stays pleasant for two or three years in a sealed bag. Sun-dried shai hong is the only Yunnan black sold by vintage and aged on purpose.",
+  "vintage_note": "Sold by the current year's harvest, usually spring (March–April) with autumn lots as a cheaper second choice. It is at its best within a year of picking, though decent Dian Hong stays pleasant for two or three years in a sealed bag. Sun-dried shai hong is the Yunnan black most often sold by vintage and aged on purpose.",
   "description": "Dian Hong is Yunnan's black tea, and the classic gongfu style is the one with twisted dark leaves threaded with golden tips. It is a young tea by Chinese standards: it was developed in 1938–39 in Shunning, today's Fengqing County in Lincang, when black-tea makers were sent to Yunnan to turn the province's big-leaf trees into an export black during the war. The big-leaf assamica plant is what makes it different from Keemun or a Fujian gongfu: more body, more malt, and a sweetness that tastes of baked sweet potato.\n\nThe leaf – a bud with one or two leaves from Fengqing large-leaf bushes and related Yunnan cultivars – is withered, rolled, oxidised in warm humid rooms and dried with hot air. Yunnan buds carry thick golden down that stays gold through oxidation, so the proportion of tips is both a grade marker and a sign of how early the picking was.\n\nBrewed gongfu it starts malty and honeyed with that sweet-potato note, picks up cocoa and a peppery brightness in the middle steeps, and fades to a soft, sugary finish. It is forgiving: boiling water will not wreck it the way it does a delicate Fujian black, though 90–95 °C keeps the sweetness ahead of the tannin. Western-style, 3 g per 250 ml for three minutes makes a rich cup that takes milk well.\n\nFengqing is the heart of production, but Lincang generally, Baoshan, Pu'er, Dehong and Xishuangbanna all make Dian Hong, and a good label names the county. Grades run from Te Ji (special) downward, with 'Jin Hao' (golden tip) lots above them; broken CTC Dian Hong for export is a different, cheaper product. Buy the current spring harvest; autumn lots are fragrant and cheaper, summer lots are the plain ones.\n\nIf you want to climb the ladder, the all-bud Golden Buds (Jin Ya) and Golden Needle are the sweet, pricy end; old-tree (gu shu) Dian Hong is the complex end.",
   "wikipedia_title": "Dianhong",
   "wikipedia_scope": "exact",
-  "popularity": 4
+  "popularity": 4,
+  "name_zh": "滇红工夫",
+  "name_ru": "Дянь Хун Гунфу",
+  "history": "Yunnan grew and pressed tea long before it made black tea, so Dian Hong is a latecomer. After war with Japan broke out, the tea districts of the southeast sat too close to the fighting, and in 1938 the China Tea Company was ordered to open up the southwest to keep China's export trade going. Feng Shaoqiu set up a Yunnan tea trading company that same year.\n\nThe Shunning tea factory, today's Fengqing factory, opened on 8 March 1939 and began trial batches. Feng found that the Fengqing large-leaf bushes made the best black tea, and the 1939 output of 15 tons went through a Hong Kong firm to Britain. Production grew from there.\n\nThe tea comes in two lines: gongfu, judged by tight strands and golden tips, and broken tea for blending. It is now made across Lincang, Baoshan, Xishuangbanna and Dehong as well as Fengqing, where there is a museum devoted to it.",
+  "liquor_hex": "#A8431C",
+  "leaf_hex": "#5B3A1E",
+  "sources": [
+    "https://zh.wikipedia.org/wiki/%E6%BB%87%E7%BA%A2",
+    "https://en.wikipedia.org/wiki/Dianhong",
+    "https://ru.wikipedia.org/wiki/%D0%94%D1%8F%D0%BD%D1%8C_%D1%85%D1%83%D0%BD",
+    "https://www.wikidata.org/wiki/Q2992098"
+  ],
+  "confidence": "medium",
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/af/Yunnan_Black_SFTGFOP_%281%29.JPG/1280px-Yunnan_Black_SFTGFOP_%281%29.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/af/Yunnan_Black_SFTGFOP_%281%29.JPG/330px-Yunnan_Black_SFTGFOP_%281%29.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Yunnan_Black_SFTGFOP_(1).JPG",
+      "author": "Whiteness",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "kind": "dry_leaf",
+      "alt": "Twisted dark and golden Yunnan black tea leaves on white"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d4/Yunnan_Black_SFTGFOP_%282%29.JPG/1280px-Yunnan_Black_SFTGFOP_%282%29.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d4/Yunnan_Black_SFTGFOP_%282%29.JPG/330px-Yunnan_Black_SFTGFOP_%282%29.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Yunnan_Black_SFTGFOP_(2).JPG",
+      "author": "Whiteness",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "kind": "dry_leaf",
+      "alt": "Pile of fine golden-tipped Yunnan black tea on white"
+    }
+  ],
+  "i18n": {
+    "ru": {
+      "processing": "Полное окисление: почку с одним-двумя листьями завяливают, скручивают, несколько часов окисляют в тёплых влажных помещениях и сушат горячим воздухом; густой золотистый пушок юньнаньских почек при окислении остаётся золотым.",
+      "harvest_season": "Весна (март–апрель) — основной и лучший сбор; осенние партии ароматны и дешевле, летние самые простые.",
+      "appearance_dry": "Крупные скрученные листья от тёмно-коричневых до чёрных, с золотистыми типсами; чем выше сорт, тем типсов больше.",
+      "appearance_liquor": "Яркий красно-оранжевый, прозрачный, с золотистым кольцом по краю чашки.",
+      "appearance_wet": "Крупные мягкие медно-красные листья и почки, очень ровного цвета.",
+      "taste_profile": "Солод и мёд с нотой печёного батата, какао и перечной живостью в средних проливах; финал мягкий, сахарный, с лёгкой терпкостью.",
+      "vintage_note": "Продаётся по урожаю текущего года, обычно весеннему (март–апрель), а осенние партии идут как более дешёвый второй вариант. Лучше всего он в течение года после сбора, хотя приличный Дянь Хун остаётся приятным два-три года в герметичном пакете. Красный чай солнечной сушки шай хун — тот юньнаньский красный, который чаще всего продают по году и выдерживают намеренно.",
+      "history": "В Юньнани чай выращивали и прессовали задолго до появления здесь красного чая, так что Дянь Хун — поздний пришелец. Когда началась война с Японией, чайные районы юго-востока оказались слишком близко к боям, и в 1938 году Китайской чайной компании поручили освоить юго-запад, чтобы сохранить китайский чайный экспорт. В том же году появилась юньнаньская чайная торговая компания, созданная Фэн Шаоцю.\n\nЧайная фабрика Шуньнин, нынешняя фабрика Фэнцин, открылась 8 марта 1939 года и начала выпускать пробные партии. По наблюдениям Фэн Шаоцю, лучший красный чай давали крупнолистовые кусты Фэнцина, и 15 тонн продукции 1939 года ушли через гонконгскую фирму в Британию. Дальше производство росло.\n\nЧай выпускают в двух линейках: гунфу, который оценивают по плотности скрутки и золотистым типсам, и ломаный чай для купажей. Сейчас его делают не только в Фэнцине, где ему посвящён музей, но и в Линьцане, Баошане, Сишуанбаньне и Дэхуне.",
+      "description": "Дянь Хун — красный чай Юньнани, а классический гунфу — это тот, что со скрученными тёмными листьями и золотистыми типсами. По китайским меркам чай молодой: его разработали в 1938–39 годах в Шуньнине, нынешнем уезде Фэнцин в Линьцане, когда мастеров красного чая отправили в Юньнань, чтобы сделать из крупнолистовых деревьев провинции экспортный красный чай в годы войны. Именно крупнолистовая ассамика отличает его от Кимуна или фуцзяньского гунфу: больше тела, больше солода и сладость со вкусом печёного батата.\n\nЛист — почку с одним-двумя листьями с крупнолистовых кустов Фэнцина и родственных юньнаньских культиваров — завяливают, скручивают, окисляют в тёплых влажных помещениях и сушат горячим воздухом. На юньнаньских почках густой золотистый пушок, который при окислении остаётся золотым, поэтому доля типсов служит и показателем сорта, и признаком того, насколько рано был сбор.\n\nПри заваривании гунфу он начинается солодом и мёдом с той самой нотой батата, в средних проливах набирает какао и перечную живость и угасает в мягком сахарном финале. Чай прощает ошибки: кипяток не испортит его так, как нежный фуцзяньский красный, хотя при 90–95 °C сладость остаётся впереди танинов. По-европейски 3 г на 250 мл на три минуты дают насыщенную чашку, которая хорошо принимает молоко.\n\nСердце производства — Фэнцин, но Дянь Хун делают по всему Линьцану, а также в Баошане, Пуэре, Дэхуне и Сишуанбаньне, и на хорошей этикетке указан уезд. Сорта идут от Тэ Цзи (особого) вниз, а над ними стоят партии Цзинь Хао (золотой типс); ломаный CTC Дянь Хун на экспорт — другой, более дешёвый продукт. Покупайте весенний сбор текущего года; осенние партии ароматны и дешевле, летние самые простые.\n\nЕсли хотите подняться по лестнице выше: цельнопочечные Золотые почки (Цзинь Я) и Золотая игла — сладкий и дорогой край, а Дянь Хун со старых деревьев (гу шу) — край сложный.",
+      "brewing_notes": "Чай прощает ошибки: при 90–95 °C сладость остаётся впереди танинов, но и кипяток его не испортит. По-европейски: 3 г на 250 мл, 3 минуты, хорошо принимает молоко."
+    },
+    "zh": {
+      "processing": "全发酵：一芽一二叶经萎凋、揉捻，在温暖潮湿的室内发酵数小时，再用热风干燥；云南芽头上厚厚的金毫经发酵后依然金黄。",
+      "harvest_season": "春茶（3–4月）是主要也是最好的一季；秋茶香气好且更便宜，夏茶较为普通。",
+      "appearance_dry": "条索肥壮卷曲，色深褐至乌黑，夹杂金毫，等级越高金毫越多。",
+      "appearance_liquor": "汤色红橙明亮，清澈，杯沿有一圈金圈。",
+      "appearance_wet": "叶底肥大柔软，叶芽铜红，色泽十分均匀。",
+      "taste_profile": "麦芽与蜂蜜，带烤红薯香，中段几泡有可可和明快的胡椒感，收尾柔和甜润，略有收敛。",
+      "vintage_note": "按当年采摘销售，通常是春茶（3–4月），秋茶是更便宜的次选。采后一年内最好喝，不过不错的滇红密封保存两三年依然怡人。晒红才是云南红茶中最常按年份销售并特意存放的品类。",
+      "history": "云南种茶、压茶的历史远早于制作红茶，所以滇红算是后来者。抗日战争爆发后，东南茶区离战火太近，1938年中国茶叶公司奉命开拓西南，以维持中国的茶叶出口。冯绍裘同年组建了云南的一家茶叶贸易公司。\n\n顺宁茶厂（今凤庆茶厂）于1939年3月8日成立并开始试制。冯绍裘发现凤庆大叶种最适合制红茶，1939年产出的15吨经一家香港商行销往英国，此后产量逐步增长。\n\n这种茶分两条线：工夫红茶，看重条索紧结和金毫；以及用于拼配的红碎茶。如今除凤庆外，临沧、保山、西双版纳和德宏也都有生产，凤庆还有一座专门的博物馆。",
+      "description": "滇红是云南的红茶，经典的工夫款就是那种深色卷曲条索夹杂金毫的茶。按中国茶的标准，它很年轻：1938–39年研制于顺宁，即今天临沧的凤庆县，当时战事正紧，红茶师傅被派到云南，要把当地的大叶种茶树做成出口红茶。大叶种（普洱茶种）正是它区别于祁门或福建工夫的地方：茶汤更厚，麦芽味更足，甜味带有烤红薯的味道。\n\n原料是凤庆大叶种及相关云南品种的一芽一二叶，经萎凋、揉捻，在温暖潮湿的室内发酵，再用热风干燥。云南芽头披着厚厚的金毫，发酵后依然金黄，所以金毫比例既是等级标志，也说明采摘有多早。\n\n工夫泡法下，它起初是麦芽和蜂蜜，带那股红薯香，中段几泡出现可可和明快的胡椒感，最后淡入柔和甜润的收尾。它很宽容：沸水不会像毁掉细嫩的福建红茶那样毁掉它，不过90–95 °C能让甜味压住单宁。西式冲泡，3克配250毫升泡三分钟，茶汤浓郁，很适合加奶。\n\n凤庆是主产区，但临沧全境以及保山、普洱、德宏和西双版纳都产滇红，好的标签会写明县名。等级从特级往下排，其上还有金毫批次；出口用的CTC红碎茶是另一种更便宜的产品。请买当年春茶；秋茶香气好且更便宜，夏茶较为普通。\n\n想再往上走的话，全芽的金芽和金针是甜美昂贵的一端，古树滇红则是复杂度高的一端。",
+      "brewing_notes": "这款茶很宽容：90–95 °C能让甜味压住单宁，用沸水也不会泡坏。西式冲泡：3克配250毫升，3分钟，很适合加奶。"
+    }
+  }
 }

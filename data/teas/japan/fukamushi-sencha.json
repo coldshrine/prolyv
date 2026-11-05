@@ -3,10 +3,17 @@
   "name_en": "Fukamushi Sencha",
   "name_native": "深蒸し煎茶",
   "name_romanized": "Fukamushi sencha",
-  "aliases": ["Deep-steamed sencha", "Fukamushicha", "Fukamushi", "Kakegawa-cha", "Deep steamed green tea"],
+  "aliases": [
+    "Deep-steamed sencha",
+    "Fukamushicha",
+    "Fukamushi",
+    "Deep steamed green tea",
+    "深蒸茶",
+    "Фукамуситя"
+  ],
   "category": "green",
   "origin_country": "Japan",
-  "origin_region": "Shizuoka · Makinohara and Kakegawa; also Kagoshima",
+  "origin_region": "Shizuoka · Makinohara",
   "cultivar": "Yabukita; Yutaka Midori and Saemidori in Kagoshima lots",
   "processing": "Steamed two to three times longer than standard sencha (roughly 60–120 seconds, sometimes more), then rolled and dried; the long steaming cooks the leaf through so it breaks into short needles and fine particles during rolling.",
   "form": "loose",
@@ -15,13 +22,108 @@
   "appearance_liquor": "Opaque, deep yellow-green, almost soup-like, with fine sediment that settles in the cup.",
   "appearance_wet": "A fine green mush with few recognisable leaf pieces.",
   "taste_profile": "Thick, sweet and rounded with low astringency, cooked greens and a mild umami; less high aroma than lighter-steamed teas but far more body.",
-  "taste_tags": ["sweet", "vegetal", "umami", "creamy"],
-  "brewing": {"grams": 5, "water_ml": 150, "temp_c": 75, "steeps": 3, "seconds": [30, 10, 30], "notes": "Use a kyusu with a very fine mesh or a filter-wall (sasame) pot, or it will clog and let sediment through. It extracts fast: keep the first steep to about 30 seconds and make the second a quick pour."},
+  "taste_tags": [
+    "sweet",
+    "vegetal",
+    "umami",
+    "creamy"
+  ],
+  "brewing": {
+    "grams": 5,
+    "water_ml": 150,
+    "temp_c": 75,
+    "steeps": 3,
+    "seconds": [
+      30,
+      10,
+      30
+    ],
+    "notes": "Use a kyusu with a very fine mesh or a filter-wall (sasame) pot, or it will clog and let sediment through. It extracts fast: keep the first steep to about 30 seconds and make the second a quick pour."
+  },
   "caffeine_level": "medium",
   "vintage_note": "Sold as this year's harvest: ichibancha (first flush) picked in late April–May is the premium grade and the first lots sell as shincha. The deep-steamed style is also the backbone of supermarket blends, which mix ichibancha with cheaper nibancha (second flush, June–July) and carry a best-before date rather than a harvest. Drink it within the year; the fine particles lose aroma faster than whole-leaf sencha, so buy small bags and keep them sealed and cold.",
   "description": "Fukamushi, 'deep-steamed', is sencha that spent two or three times longer in the steamer, and it is now the default style on the Makinohara plateau and around Kakegawa in Shizuoka and across most of Kagoshima. It was developed in Shizuoka in the decades after the war for flat, sunny lowland plantations whose thick leaves tasted harsh with normal steaming; the longer steam tamed them and produced a style people now seek out in its own right.\n\nThe extra minute of steam cooks the leaf right through, so the cell walls give way and the rolling machines shred it into short needles and fine particles. That is why there is so much green dust at the bottom of the bag and why the cup is cloudy: you are drinking suspended leaf, not just an infusion. The result is a thicker, sweeter, more mellow tea with less grassy bite and less high aroma, and a strong green colour that is the first thing many Japanese drinkers look for.\n\nThe first steep is round, savoury and almost soupy, the second is practically a free pour because the broken leaf has nothing left to protect, and a hotter third picks up the remaining body. People get it wrong by steeping a full minute as they would a regular sencha, which overextracts it into a bitter mush, and by using a pot with a coarse strainer that lets the sediment through. Short steeps, a very fine mesh (Japanese 'sasame' pots with a filter wall were built for this), and no complaints about the cloudiness, which is the point.\n\nThe bag will say fukamushi or fukamushi-cha. Kakegawa is the most famous name for the style, the Makinohara plateau produces an enormous amount of it, and Kagoshima's large flat fields are mostly deep-steamed too. First flush is still what matters: deep steaming is a style, not a grade, and a second-flush fukamushi tastes thin under the thickness. Because the leaf is broken, it is also the style most used in teabags and bottled tea, so expect the big supermarket blends to be deep-steamed. A little dust is normal; a bag that is mostly dust is not.\n\nIt cold-brews better than almost any other green tea: about 10 g to a litre of cold water, a few hours in the fridge, strained through a fine filter.",
   "wikipedia_title": "Sencha",
   "wikipedia_scope": "umbrella",
   "popularity": 4,
-  "sources_note": "History of the style (post-war Shizuoka, Makinohara/Kakegawa) is as commonly told in the Japanese trade; exact decade varies by source."
+  "sources_note": "History of the style (post-war Shizuoka, Makinohara/Kakegawa) is as commonly told in the Japanese trade; exact decade varies by source.",
+  "name_zh": "深蒸煎茶",
+  "name_ru": "Фукамуси Сенча",
+  "history": "Deep steaming is a postwar Shizuoka development. Most accounts place it around the Makinohara plateau between the mid-1950s and the 1960s, worked out step by step rather than invented at one moment; one account puts the first attempts in the early 1950s. Kikugawa, Makinohara, Kakegawa and Shimada each claim to be the birthplace, and with no written record from the time the question stays open.\n\nTwo reasons are given for it. Leaf from the sunny plateau grows thick, and with ordinary steaming it kept a raw green smell and gave little savouriness, unlike the mountain teas of Honyama and Kawane. And with exports weak, producers wanted something that would sell at home, and a rich, soft, low-bitterness cup did.\n\nNormal steaming takes 30 to 40 seconds. Sixty to 100 seconds counts as deep steaming, and up to 180 seconds is sometimes sold as tokumushi. The style has long since left Shizuoka and now makes up a large part of Japanese production, including shaded versions in Kyushu. Some tea sold under the name is simply leaf shredded by running the steamer very fast.",
+  "liquor_hex": "#8F9E2E",
+  "leaf_hex": "#3F5A26",
+  "sources": [
+    "https://ja.wikipedia.org/wiki/%E6%B7%B1%E8%92%B8%E3%81%97%E8%8C%B6",
+    "https://en.wikipedia.org/wiki/Fukamushicha",
+    "https://ru.wikipedia.org/wiki/%D0%A4%D1%83%D0%BA%D0%B0%D0%BC%D1%83%D1%81%D0%B8%D1%82%D1%8F"
+  ],
+  "confidence": "medium",
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a6/2017_Kagoshima_sencha.jpg/1280px-2017_Kagoshima_sencha.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a6/2017_Kagoshima_sencha.jpg/330px-2017_Kagoshima_sencha.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source_page": "https://commons.wikimedia.org/wiki/File:2017_Kagoshima_sencha.jpg",
+      "author": "Difference engine",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "kind": "dry_leaf",
+      "alt": "Pile of dry deep-steamed sencha from Kagoshima, dark green needles and fragments"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/31/2017_Kagoshima_sencha_-_second_infusion.jpg/1280px-2017_Kagoshima_sencha_-_second_infusion.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/31/2017_Kagoshima_sencha_-_second_infusion.jpg/330px-2017_Kagoshima_sencha_-_second_infusion.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source_page": "https://commons.wikimedia.org/wiki/File:2017_Kagoshima_sencha_-_second_infusion.jpg",
+      "author": "Difference engine",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "kind": "liquor",
+      "alt": "Bright yellow-green infusion of deep-steamed sencha in a white bowl"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e2/Fukamushi_Kakegawa_Cha_201812mid.jpg/1280px-Fukamushi_Kakegawa_Cha_201812mid.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e2/Fukamushi_Kakegawa_Cha_201812mid.jpg/330px-Fukamushi_Kakegawa_Cha_201812mid.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Fukamushi_Kakegawa_Cha_201812mid.jpg",
+      "author": "観光・CP課",
+      "license": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0",
+      "kind": "serving",
+      "alt": "Cup of Fukamushi Kakegawa tea with a black teapot and a dish of dry leaf"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b1/Fukamushi_Kakegawa_Cha_201803mid.jpg/1280px-Fukamushi_Kakegawa_Cha_201803mid.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b1/Fukamushi_Kakegawa_Cha_201803mid.jpg/330px-Fukamushi_Kakegawa_Cha_201803mid.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Fukamushi_Kakegawa_Cha_201803mid.jpg",
+      "author": "観光・CP課",
+      "license": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0",
+      "kind": "liquor",
+      "alt": "Yellow-green Fukamushi Kakegawa tea in a small cup on a saucer"
+    }
+  ],
+  "i18n": {
+    "ru": {
+      "processing": "Пропаривают в два-три раза дольше обычной сенчи (примерно 60–120 секунд, иногда больше), затем скручивают и сушат; долгое пропаривание проваривает лист насквозь, поэтому при скручивании он распадается на короткие иголочки и мелкие частицы.",
+      "harvest_season": "Первый сбор (конец апреля – май) для хороших сортов; партии второго сбора часто идут в супермаркетные купажи и бутилированный чай.",
+      "appearance_dry": "Короткие ломаные тёмно-зелёные иголочки с множеством мелких фрагментов и зелёной пылью на дне пакета.",
+      "appearance_liquor": "Непрозрачный, глубокий жёлто-зелёный, почти как суп, с мелким осадком, который оседает в чашке.",
+      "appearance_wet": "Мелкая зелёная кашица, в которой почти не узнать кусочков листа.",
+      "taste_profile": "Плотный, сладкий и округлый, с низкой терпкостью, нотой варёной зелени и мягким умами; верхнего аромата меньше, чем у чаёв лёгкого пропаривания, зато тела намного больше.",
+      "vintage_note": "Продаётся как урожай текущего года: итибантя (первый сбор) конца апреля – мая — премиальный сорт, а самые первые партии идут как синтя. Стиль глубокого пропаривания также составляет основу супермаркетных купажей, где итибантя смешивают с более дешёвой нибантя (второй сбор, июнь–июль) и указывают срок годности, а не сбор. Пейте в течение года; мелкие частицы теряют аромат быстрее цельнолистовой сенчи, так что покупайте маленькие пакеты и храните их запечатанными и в холоде.",
+      "history": "Глубокое пропаривание — послевоенная разработка Сидзуоки. Большинство источников относят её к плато Макинохара и периоду между серединой 1950-х и 1960-ми годами, причём метод складывался постепенно, а не был изобретён в один момент; один источник относит первые попытки к началу 1950-х. Кикугава, Макинохара, Какэгава и Симада — каждая претендует на звание родины, и при отсутствии письменных свидетельств того времени вопрос остаётся открытым.\n\nПричин называют две. Лист с солнечного плато вырастает толстым и при обычном пропаривании сохранял сырой зелёный запах и давал мало пикантности, в отличие от горных чаёв Хонъямы и Каванэ. А при слабом экспорте производителям требовалось что-то, что будет продаваться дома, и насыщенная, мягкая, малогорькая чашка продавалась.\n\nОбычное пропаривание занимает 30–40 секунд. Шестьдесят–100 секунд считаются глубоким пропариванием, а до 180 секунд иногда продают как токумуси. Стиль давно вышел за пределы Сидзуоки и теперь составляет большую часть японского производства, включая затенённые версии на Кюсю. Часть чая под этим названием — просто лист, измельчённый очень быстрой работой пропаривателя.",
+      "description": "Фукамуси, «глубоко пропаренная», — это сенча, которая провела в пропаривателе в два-три раза больше времени, и сегодня это стиль по умолчанию на плато Макинохара и вокруг Какэгавы в Сидзуоке и почти по всей Кагосиме. Его разработали в Сидзуоке в послевоенные десятилетия для плоских солнечных равнинных плантаций, чей толстый лист при обычном пропаривании давал резкий вкус; более долгий пар усмирил его и дал стиль, который теперь ищут ради него самого.\n\nЛишняя минута пара проваривает лист насквозь, клеточные стенки поддаются, и скручивающие машины измельчают его на короткие иголочки и мелкие частицы. Поэтому на дне пакета так много зелёной пыли и поэтому чашка мутная: вы пьёте взвесь листа, а не только настой. Получается более плотный, сладкий и мягкий чай с меньшей травянистой остротой и меньшим верхним ароматом и насыщенный зелёный цвет, на который многие японские любители смотрят в первую очередь.\n\nПервый пролив округлый, пикантный и почти супообразный, второй — практически сразу на слив, потому что ломаному листу уже нечем себя защитить, а более горячий третий забирает оставшееся тело. Ошибаются обычно двумя способами: заваривают целую минуту, как обычную сенчу, и получают горькую кашу, либо берут чайник с крупным ситечком, которое пропускает осадок. Короткие проливы, очень мелкая сетка (японские чайники сасамэ с фильтрующей стенкой созданы как раз для этого) и никаких жалоб на мутность — в ней весь смысл.\n\nНа пакете будет написано fukamushi или fukamushi-cha. Какэгава — самое известное для этого стиля имя, плато Макинохара производит его огромное количество, и большие равнинные поля Кагосимы тоже в основном глубокого пропаривания. Главным всё равно остаётся первый сбор: глубокое пропаривание — это стиль, а не сорт, и фукамуси второго сбора под всей своей плотностью на вкус жидкий. Поскольку лист ломаный, этот стиль чаще всего идёт и в пакетики, и в бутилированный чай, так что большие супермаркетные купажи, скорее всего, окажутся глубокого пропаривания. Немного пыли — это нормально; пакет, где почти одна пыль, — нет.\n\nХолодное заваривание удаётся ему лучше, чем почти любому другому зелёному чаю: около 10 г на литр холодной воды, несколько часов в холодильнике, процедить через мелкий фильтр.",
+      "brewing_notes": "Используйте кюсу с очень мелкой сеткой или чайник с фильтрующей стенкой (сасамэ), иначе он забьётся и пропустит осадок. Настаивается быстро: первый пролив держите около 30 секунд, второй сливайте сразу."
+    },
+    "zh": {
+      "processing": "蒸青时间是普通煎茶的两到三倍（约60–120秒，有时更长），然后揉捻、干燥；长时间蒸青把叶片蒸透，揉捻时便碎成短针和细末。",
+      "harvest_season": "好的等级用一番茶（4月下旬至5月）；超市拼配茶和瓶装茶常用二番茶。",
+      "appearance_dry": "短碎的深绿色茶针，夹杂大量细碎片，袋底有绿色茶末。",
+      "appearance_liquor": "汤色不透明，深黄绿，几乎如汤羹，细小沉淀会沉在杯底。",
+      "appearance_wet": "细碎的绿色茶泥，几乎看不出完整叶片。",
+      "taste_profile": "浓稠、甘甜、圆润，涩感低，带熟青菜味和柔和的鲜味；高香不及浅蒸茶，茶汤却厚得多。",
+      "vintage_note": "按当年新茶销售：4月下旬至5月采摘的一番茶是高档品，最早的批次作为新茶出售。深蒸也是超市拼配茶的主力，这类茶把一番茶和较便宜的二番茶（6–7月）拼在一起，只标保质期而不标采摘期。请在当年喝完；细末比完整叶片的煎茶更容易失香，所以买小袋装，密封冷藏。",
+      "history": "深蒸是战后静冈的发展成果。多数说法认为它出现在牧之原台地一带，时间在1950年代中期到1960年代之间，是逐步摸索出来的，而非一朝发明；另有一种说法把最初的尝试放在1950年代初。菊川、牧之原、挂川和岛田都自称发源地，由于没有当时的文字记录，这个问题至今悬而未决。\n\n一般给出两个原因。阳光充足的台地上茶叶长得厚，普通蒸青后仍留有生青味，鲜味也淡，不像本山、川根的山地茶。再者，出口疲软，生产者需要能在国内卖得动的茶，而浓郁、柔和、苦味低的茶汤确实卖得好。\n\n普通蒸青需30到40秒。60到100秒算深蒸，长达180秒的有时以“特蒸”销售。这种风格早已走出静冈，如今占日本茶产量的很大一部分，包括九州的遮阴版本。有些打着这个名号的茶，其实只是把蒸机开得很快、把叶子打碎而已。",
+      "description": "深蒸（Fukamushi）就是在蒸机里多待了两三倍时间的煎茶，如今是静冈牧之原台地和挂川一带以及鹿儿岛大部分地区的默认风格。它在战后几十年间诞生于静冈，为的是平坦向阳的低地茶园：那里的厚叶用普通蒸青味道粗涩，延长蒸青驯服了它，也造就了一种如今人们专门追寻的风格。\n\n多蒸的那一分钟把叶子彻底蒸透，细胞壁随之瓦解，揉捻机便把它打成短针和细末。所以袋底才有那么多绿色茶末，茶汤也才浑浊：你喝下的是悬浮的茶叶，而不只是浸出液。结果是一杯更浓稠、更甘甜、更醇和的茶，青草的锐气和高香都少了些，绿色却很浓，这正是许多日本茶客首先要看的。\n\n第一泡圆润、鲜美，几乎像汤；第二泡基本是即冲即出，因为碎叶已无所保留；水温更高的第三泡则把剩余的厚度带出来。常见的错误，一是像普通煎茶那样泡足一分钟，结果过度萃取成一团苦糊；二是用滤网粗的壶，让沉淀漏过去。短时间冲泡、用很细的滤网（日本带滤壁的笹目壶就是为此而造）、别抱怨浑浊，浑浊才是重点。\n\n袋子上会写着“深蒸”或“深蒸茶”。挂川是这种风格最有名的产地，牧之原台地产量巨大，鹿儿岛的大片平坦茶园也大多是深蒸。最关键的还是一番茶：深蒸是一种风格，不是一个等级，二番茶做的深蒸在那股浓稠之下味道单薄。因为叶子是碎的，它也是袋泡茶和瓶装茶最常用的风格，所以大型超市拼配茶多半是深蒸。有一点茶末很正常；一袋几乎全是茶末就不正常了。\n\n它比几乎任何绿茶都更适合冷泡：约10克配1升冷水，冰箱里放几小时，用细滤网过滤。",
+      "brewing_notes": "用滤网很细的急须或带滤壁的笹目壶，否则会堵塞并漏出沉淀。它出味很快：第一泡控制在30秒左右，第二泡快速出汤。"
+    }
+  }
 }

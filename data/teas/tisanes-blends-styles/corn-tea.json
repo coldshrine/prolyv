@@ -3,10 +3,19 @@
   "name_en": "Corn Tea (Oksusu-cha)",
   "name_native": "옥수수차 / 옥수수수염차",
   "name_romanized": "Oksusu-cha / Oksusu-suyeom-cha",
-  "aliases": ["Oksusu cha", "Roasted corn tea", "Corn silk tea", "Oksusu suyeom cha", "Corn kernel tea"],
+  "aliases": [
+    "Oksusu cha",
+    "Roasted corn tea",
+    "Corn silk tea",
+    "Oksusu suyeom cha",
+    "Corn kernel tea",
+    "Gangnaengi-cha",
+    "Оксусу чха",
+    "Оксусу-ча"
+  ],
   "category": "tisane",
-  "origin_country": "Korea",
-  "origin_region": "Gangwon-do (the corn-growing province); drunk nationwide",
+  "origin_country": "South Korea",
+  "origin_region": "Gangwon-do",
   "cultivar": "Roasted dried maize kernels; corn silk tea uses the dried, roasted silk threads from the cob",
   "processing": "Dried corn kernels are roasted until deep golden-brown with toasted spots, sometimes cracked, and packed whole or in large infusion bags; for corn silk tea the silk is dried and lightly roasted. Both are often blended with roasted barley.",
   "form": "other",
@@ -15,12 +24,79 @@
   "appearance_liquor": "Clear pale gold to light amber.",
   "appearance_wet": "Swollen, soft kernels that smell of popcorn; the silk turns into limp pale strands.",
   "taste_profile": "Sweet, soft and toasty, like popcorn or roasted sweetcorn, with no bitterness at all; corn silk tea is lighter, grassier and only faintly sweet.",
-  "taste_tags": ["sweet", "roasted", "nutty"],
-  "brewing": {"grams": 25, "water_ml": 1000, "temp_c": 100, "steeps": 1, "seconds": [600], "notes": "Simmer 20–30 g of roasted kernels in a litre of water for 10–15 minutes, or steep one large bag in boiling water for 10 minutes; chill for summer. Mixed half and half with barley tea it is the standard Korean table drink."},
+  "taste_tags": [
+    "sweet",
+    "roasted",
+    "nutty"
+  ],
+  "brewing": {
+    "grams": 25,
+    "water_ml": 1000,
+    "temp_c": 100,
+    "steeps": 1,
+    "seconds": [
+      600
+    ],
+    "notes": "Simmer 20–30 g of roasted kernels in a litre of water for 10–15 minutes, or steep one large bag in boiling water for 10 minutes; chill for summer. Mixed half and half with barley tea it is the standard Korean table drink."
+  },
   "caffeine_level": "none",
   "vintage_note": "No vintage: a roasted grain sold year-round in one-litre tea bags, as whole roasted kernels, and bottled, with a best-before of around a year. The label distinguishes kernel tea (oksusu-cha) from corn silk tea (oksusu-suyeom-cha), which is the one sold in bottles as a light diet drink, and many packs are barley-and-corn blends. Roasting date is not stated, so buy from a Korean grocery with turnover.",
-  "description": "Corn tea is the sweet, popcorn-scented cousin of barley tea and one of the standard free drinks on a Korean restaurant table, poured warm from a kettle in winter and cold from a jug in summer. It comes from Gangwon province in the mountainous northeast, where corn is a staple crop, and it is the kind of drink nobody thinks about and everybody drinks.\n\nThe kernels are dried and roasted until they are golden-brown and toasty, and that roast is the entire flavour: a long, slow roast gives a sweet, rounded cup, a quick dark one gives something more bitter. A second product, corn silk tea, uses the fine threads from inside the husk, dried and lightly roasted, and gives a paler, grassier drink that is sold in bottles everywhere in Korea.\n\nBrewed properly, which means simmered for a while rather than steeped like a tea bag, it is soft, sweet and slightly nutty with no bitterness or astringency, and it is probably the most child-friendly hot drink there is. Most households mix it with roasted barley, which adds body and a slight bitterness that keeps the sweetness in check.\n\nIt is sold as whole roasted kernels, as big infusion bags, and bottled; there is no vintage to think about, only freshness, since roasted corn goes stale within a year. Check whether a pack is kernel tea, corn silk tea or a barley blend, because they taste quite different.\n\nCorn silk tea has traditionally been drunk as a light, diuretic everyday drink; the kernel tea is simply comfort in a cup. Try it alongside barley tea and buckwheat tea to see how three roasted grains give three different drinks.",
+  "description": "Corn tea is the sweet, popcorn-scented cousin of barley tea and one of the standard free drinks on a Korean restaurant table, poured warm from a kettle in winter and cold from a jug in summer. It is most closely tied to Gangwon province in the mountainous northeast, where corn is a major crop, and it is the kind of drink nobody thinks about and everybody drinks.\n\nThe kernels are dried and roasted until they are golden-brown and toasty, and that roast is the entire flavour: a long, slow roast gives a sweet, rounded cup, a quick dark one gives something more bitter. A second product, corn silk tea, uses the fine threads from inside the husk, dried and lightly roasted, and gives a paler, grassier drink that is sold in bottles everywhere in Korea.\n\nBrewed properly, which means simmered for a while rather than steeped like a tea bag, it is soft, sweet and slightly nutty with no bitterness or astringency, and it is probably the most child-friendly hot drink there is. Most households mix it with roasted barley, which adds body and a slight bitterness that keeps the sweetness in check.\n\nIt is sold as whole roasted kernels, as big infusion bags, and bottled; there is no vintage to think about, only freshness, since roasted corn goes stale within a year. Check whether a pack is kernel tea, corn silk tea or a barley blend, because they taste quite different.\n\nCorn silk tea has traditionally been drunk as a light, diuretic everyday drink; the kernel tea is simply comfort in a cup. Try it alongside barley tea and buckwheat tea to see how three roasted grains give three different drinks.",
   "wikipedia_title": "Corn tea",
   "wikipedia_scope": "exact",
-  "popularity": 3
+  "popularity": 3,
+  "name_zh": "玉米茶",
+  "name_ru": "Кукурузный чай",
+  "history": "Oksusu-cha is one of the Korean traditional teas made from grain rather than tea leaf. Its home ground is Gangwon Province, where corn is called gangnaengi in dialect and the drink gangnaengi-cha, and where most households have boiled it through late autumn and winter. How old the habit is remains poorly documented.\n\nIn the 2000s bottled corn and corn silk teas took off in the Korean drinks market. Japan picked up the taste around the mid-2000s Korean wave, as tea bags and in PET bottles: Ito En launched a Hokkaido-only corn tea in 2012, Pokka Sapporo followed in 2021 and Suntory in 2025.",
+  "liquor_hex": "#D9B45B",
+  "leaf_hex": "#B07A2E",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Corn_tea",
+    "https://ja.wikipedia.org/wiki/%E3%83%88%E3%82%A6%E3%83%A2%E3%83%AD%E3%82%B3%E3%82%B7%E8%8C%B6",
+    "https://ko.wikipedia.org/wiki/%EC%98%A5%EC%88%98%EC%88%98%EC%B0%A8",
+    "https://ru.wikipedia.org/wiki/%D0%9E%D0%BA%D1%81%D1%83%D1%81%D1%83_%D1%87%D1%85%D0%B0"
+  ],
+  "confidence": "medium",
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3d/Corn_tea_cup.jpg/1280px-Corn_tea_cup.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3d/Corn_tea_cup.jpg/330px-Corn_tea_cup.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Corn_tea_cup.jpg",
+      "author": "KQuhen",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "kind": "liquor",
+      "alt": "Amber corn tea in a white cup with blue stripes on a saucer"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/56/Corn_tea_cup_teapot.jpg/1280px-Corn_tea_cup_teapot.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/56/Corn_tea_cup_teapot.jpg/330px-Corn_tea_cup_teapot.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Corn_tea_cup_teapot.jpg",
+      "author": "KQuhen",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "kind": "liquor",
+      "alt": "Cup of corn tea beside a small glass teapot"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/8/84/Boiling_oksusu-cha.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/84/Boiling_oksusu-cha.jpg/330px-Boiling_oksusu-cha.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Boiling_oksusu-cha.jpg",
+      "author": "연두씨네",
+      "license": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0",
+      "kind": "other",
+      "alt": "Roasted corn kernels boiling in a steel pot for oksusu-cha"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/9/9b/Oksusu-cha.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9b/Oksusu-cha.jpg/330px-Oksusu-cha.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Oksusu-cha.jpg",
+      "author": "연두씨네",
+      "license": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0",
+      "kind": "liquor",
+      "alt": "Golden oksusu-cha in a clear glass pitcher"
+    }
+  ]
 }

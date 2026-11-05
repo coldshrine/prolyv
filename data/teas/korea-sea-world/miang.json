@@ -3,25 +3,58 @@
   "name_en": "Miang (Thai Fermented Chewing Tea)",
   "name_native": "เมี่ยง",
   "name_romanized": "Miang",
-  "aliases": ["Mieng", "Miang tea", "Lanna fermented tea", "Northern Thai pickled tea", "Miang som", "Miang fad", "Chewing tea"],
+  "aliases": [
+    "Mieng",
+    "Miang tea",
+    "Lanna fermented tea",
+    "Northern Thai pickled tea",
+    "Miang som",
+    "Miang fad",
+    "Chewing tea"
+  ],
   "category": "heicha",
   "origin_country": "Thailand",
-  "origin_region": "Northern Thailand (Lanna) · Chiang Mai, Lampang, Phrae, Nan and Chiang Rai hill villages",
+  "origin_region": "Northern Thailand · Chiang Mai",
   "cultivar": "Assamica-type tea trees of the northern hill forests, often semi-wild and shade-grown under forest canopy",
-  "processing": "Whole leaves are steamed, bundled, packed tightly into baskets, jars or lined pits and weighted down to ferment without air, from a week or two for the astringent young style to several months for the sour aged style; the leaves are then sold wet, in small pressed bundles, and eaten rather than brewed.",
+  "processing": "Whole leaves are steamed, bundled, packed tightly into baskets, jars or lined pits and weighted down to ferment without air, from four to seven days for young leaves to about a year for mature leaves; the leaves are then sold wet, in small pressed bundles, and eaten rather than brewed.",
   "form": "other",
   "harvest_season": "Picked from the forest tea gardens through the growing season, roughly May to November, with each batch fermented and sold as it comes; there is no vintage in the usual sense.",
   "appearance_dry": "Not dried: moist, flattened bundles of whole olive-brown leaves, pressed into small blocks or wrapped in leaves, with a sour, pickled smell.",
   "appearance_liquor": "If steeped, a dull yellow-brown, slightly cloudy infusion.",
   "appearance_wet": "Whole, soft, pickled leaves, olive to brown, tough-textured.",
   "taste_profile": "Sour, salty and markedly astringent, with a lactic tang and a bitter tea backbone; the 'som' style is sourer and softer, the 'fad' style sharper and more tannic. Chewed with salt, ginger, roasted coconut or pork fat it turns savoury and moreish.",
-  "taste_tags": ["tart", "bitter", "earthy", "vegetal"],
-  "brewing": {"grams": 3, "water_ml": 150, "temp_c": 90, "steeps": 2, "seconds": [60, 90], "notes": "Miang is eaten, not brewed: a leaf bundle is chewed slowly, often with salt or a sweet-savoury filling. If you want to taste it as an infusion, rinse a few leaves and steep briefly; the result is sour and thin and only of curiosity value."},
+  "taste_tags": [
+    "tart",
+    "bitter",
+    "earthy",
+    "vegetal"
+  ],
+  "brewing": {
+    "grams": 3,
+    "water_ml": 150,
+    "temp_c": 90,
+    "steeps": 2,
+    "seconds": [
+      60,
+      90
+    ],
+    "notes": "Miang is eaten, not brewed: a leaf bundle is chewed slowly, often with salt or a sweet-savoury filling. If you want to taste it as an infusion, rinse a few leaves and steep briefly; the result is sour and thin and only of curiosity value."
+  },
   "caffeine_level": "medium",
   "vintage_note": "Sold fresh in northern Thai markets as wet bundles by weight, by style (young astringent 'fad' or aged sour 'som') rather than by year; it is a living, pickled product that keeps for months in its brine but is not aged or labelled by vintage. Outside northern Thailand it is rare and usually only found at Lanna restaurants or specialist shops.",
-  "description": "Before the northern Thai hills grew tea for drinking, they grew it for chewing. Miang is fermented tea leaf, steamed and packed airtight to sour over weeks or months, then eaten in small bundles with salt, ginger, roasted coconut or a bit of pork fat. It was the everyday stimulant and the ritual gift of the Lanna kingdom, offered to guests and at ceremonies, and the old forest tea gardens of Chiang Mai, Lampang, Phrae and Nan exist because of it.\n\nThe tea trees are assamica types growing under forest canopy, picked as whole mature leaves rather than tender buds. The leaves are steamed, tied into bundles and pressed into baskets, lined pits or jars with a weight on top, so that lactic bacteria rather than oxygen do the work. A short fermentation gives miang fad, astringent and sharp; a long one gives miang som, sour and mellow. It is the same family as Burmese lahpet and Japanese goishi-cha, and it belongs with the post-fermented teas.\n\nThe taste is sour, salty and puckering, with the bitterness of tea underneath and a lift from the caffeine, which is why truck drivers and farmers chewed it to stay awake. On its own it is a hard sell for most newcomers; wrapped in a leaf with a sweet-savoury filling, or served the way Lanna restaurants now do it with condiments, it starts to make sense. Brewed as a drink it is thin and sour and not the point.\n\nIt is sold wet, by weight, in markets across the north, and almost nowhere else; there is no vintage, only the style and the village. Demand has fallen as younger Thais switch to coffee and drinking tea, and many miang gardens have been converted to tea for drinking or to coffee, which makes the traditional product harder to find each year. The Thai snack miang kham, 'one-bite wrap', borrows the name but is usually served in wild betel leaves rather than tea.\n\nIf you find yourself in Chiang Mai, a market stall selling miang next to the pickled vegetables is the place to try it; and if the sourness suits you, lahpet from across the Burmese border is the richer, oilier cousin.",
+  "description": "Before the northern Thai hills grew tea for drinking, they grew it for chewing. Miang is fermented tea leaf, steamed and packed airtight to sour over days or, for mature leaf, about a year, then eaten in small bundles with salt, ginger, roasted coconut or a bit of pork fat. It was the everyday stimulant and the ritual gift of the Lanna kingdom, offered to guests and at ceremonies, and the old forest tea gardens of Chiang Mai, Lampang, Phrae and Nan exist because of it.\n\nThe tea trees are assamica types growing under forest canopy, picked as whole mature leaves rather than tender buds. The leaves are steamed, tied into bundles and pressed into baskets, lined pits or jars with a weight on top, so that lactic bacteria rather than oxygen do the work. A short fermentation gives miang fad, astringent and sharp; a long one gives miang som, sour and mellow. It is the same family as Burmese lahpet and Japanese goishi-cha, and it belongs with the post-fermented teas.\n\nThe taste is sour, salty and puckering, with the bitterness of tea underneath and a lift from the caffeine, which is why truck drivers and farmers chewed it to stay awake. On its own it is a hard sell for most newcomers; wrapped in a leaf with a sweet-savoury filling, or served the way Lanna restaurants now do it with condiments, it starts to make sense. Brewed as a drink it is thin and sour and not the point.\n\nIt is sold wet, by weight, in markets across the north, and almost nowhere else; there is no vintage, only the style and the village. Demand has fallen as younger Thais switch to coffee and drinking tea, and many miang gardens have been converted to tea for drinking or to coffee, which makes the traditional product harder to find each year. The Thai snack miang kham, 'one-bite wrap', borrows the name but is usually served in wild betel leaves rather than tea.\n\nIf you find yourself in Chiang Mai, a market stall selling miang next to the pickled vegetables is the place to try it; and if the sourness suits you, lahpet from across the Burmese border is the richer, oilier cousin.",
   "wikipedia_title": "Fermented tea",
   "wikipedia_scope": "umbrella",
   "popularity": 1,
-  "sources_note": "No dedicated English Wikipedia article for miang (the 'Miang' title redirects elsewhere), so 'Fermented tea' is the umbrella. The names 'miang fad' (astringent, short fermentation) and 'miang som' (sour, long fermentation) are given as commonly used; spellings vary. Category 'heicha' is the best fit for a post-fermented tea that is eaten; fermentation times are approximate."
+  "sources_note": "No dedicated English Wikipedia article for miang (the 'Miang' title redirects elsewhere), so 'Fermented tea' is the umbrella. The names 'miang fad' (astringent, short fermentation) and 'miang som' (sour, long fermentation) are given as commonly used; spellings vary. Category 'heicha' is the best fit for a post-fermented tea that is eaten; fermentation times are approximate.",
+  "name_zh": "泰国腌茶",
+  "name_ru": "Мианг",
+  "history": "Miang is the pickled tea of northern Thailand, chewed as a stimulant. Steamed leaves are pressed into sealed bamboo baskets and left to ferment without air, which takes days for young leaves and about a year for mature ones. The method belongs to a wider family of eaten fermented teas, Burmese laphet among them.\n\nThe Thai and Lao snack miang kham is related by name. Dated records of the tea itself are scarce, so its age and its early spread through the northern hills are hard to pin down.",
+  "liquor_hex": "#A58F4A",
+  "leaf_hex": "#5E5A30",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Fermented_tea"
+  ],
+  "confidence": "low",
+  "images": []
 }

@@ -3,25 +3,69 @@
   "name_en": "Kashmiri Kahwa",
   "name_native": "कहवा",
   "name_romanized": "Kahvā",
-  "aliases": ["Kahwah", "Kehwa", "Kashmiri green tea", "Kashmiri saffron tea", "Mogul chai", "Qahwa (Kashmir)"],
+  "aliases": [
+    "Kahwah",
+    "Kehwa",
+    "Kashmiri green tea",
+    "Kashmiri saffron tea",
+    "Mogul chai",
+    "Qahwa (Kashmir)"
+  ],
   "category": "green",
   "origin_country": "India",
-  "origin_region": "Jammu and Kashmir · Kashmir Valley",
+  "origin_region": "Kashmir",
   "cultivar": null,
-  "processing": "A preparation rather than a tea type: plain green tea (traditionally Kangra or local Kashmiri leaf, today any Indian green) simmered with saffron, green cardamom and cinnamon, lightly sweetened and served with slivered almonds.",
+  "processing": "A preparation rather than a tea type: plain green tea (traditionally from Kangra, today any Indian green) simmered with saffron, green cardamom and cinnamon, lightly sweetened and served with slivered almonds.",
   "form": "loose",
   "harvest_season": "Not seasonal; the saffron is Kashmir's autumn crop from Pampore, the tea whatever green leaf the house keeps.",
   "appearance_dry": "Loose green tea leaf, sold plain or pre-mixed with crushed cardamom, cinnamon bark, dried rose petals and a few saffron threads.",
   "appearance_liquor": "Clear gold to light amber, tinted by the saffron.",
   "appearance_wet": "Olive-green leaf with spice fragments.",
   "taste_profile": "Light, sweet and aromatic: cinnamon and cardamom warmth, the hay-and-honey note of saffron, a mild green tea base and the crunch of almonds.",
-  "taste_tags": ["spicy", "floral", "sweet", "herbal"],
-  "brewing": {"grams": 3, "water_ml": 250, "temp_c": 90, "steeps": 1, "seconds": [300], "notes": "Simmer crushed cardamom and a piece of cinnamon in water for a few minutes, take the pan off the heat, add the green tea and a pinch of saffron and steep 3–5 minutes; strain, sweeten lightly and top with almond slivers. Boiling the leaf itself makes it bitter."},
+  "taste_tags": [
+    "spicy",
+    "floral",
+    "sweet",
+    "herbal"
+  ],
+  "brewing": {
+    "grams": 3,
+    "water_ml": 250,
+    "temp_c": 90,
+    "steeps": 1,
+    "seconds": [
+      300
+    ],
+    "notes": "Simmer crushed cardamom and a piece of cinnamon in water for a few minutes, take the pan off the heat, add the green tea and a pinch of saffron and steep 3–5 minutes; strain, sweeten lightly and top with almond slivers. Boiling the leaf itself makes it bitter."
+  },
   "caffeine_level": "low",
   "vintage_note": "Sold as pre-mixed 'kahwa' packs (loose or tea bags, with widely varying amounts of real saffron) and as instant premixes; the traditional version is made at home from plain green tea plus spices. No vintage: buy a small pack with a recent date, since the saffron and cardamom aroma fades within months, or buy good green tea, saffron and spices separately.",
-  "description": "Kahwa is the green tea of the Kashmir valley: a light, saffron-tinted brew simmered with green cardamom and cinnamon, sweetened and served with slivered almonds. It is the warming drink of Kashmiri winters, weddings and feasts, traditionally poured from a brass samovar, and it is the one well-known Indian tea preparation built on green tea rather than black.\n\nLike masala chai it is a method, not a leaf. The tea has traditionally been a plain green from the Kangra valley or local Kashmiri leaf, and today any Indian green tea is used; the character comes from the spices and above all from saffron, which Kashmir grows at Pampore and uses with a generous hand on special occasions. Some houses add dried rose petals or a little clove.\n\nThe cup is clear gold, light and aromatic: cinnamon and cardamom warmth, the hay-and-honey note of saffron, a mild green tea underneath and the crunch of almonds at the bottom. The common mistake is boiling the tea leaf with the spices, which makes it bitter; simmer the spices in water, take the pan off the heat, add the leaf and saffron and steep for a few minutes before straining.\n\nIt is sold as pre-mixed 'kahwa' packs (loose or in tea bags, with widely varying amounts of real saffron) and as instant premixes, and it is made from scratch in Kashmiri homes. There is no vintage: buy a small pack with a recent date, because the saffron and cardamom aroma fades within months, or simply buy good green tea, saffron and spices separately.\n\nDo not confuse it with noon chai, the salty pink tea of Kashmir, or with Arabic qahwa, which is coffee; the name probably shares a root with the Arabic word, but the drinks are unrelated.",
+  "description": "Kahwa is the green tea of the Kashmir valley: a light, saffron-tinted brew simmered with green cardamom and cinnamon, sweetened and served with slivered almonds. It is the warming drink of Kashmiri winters, weddings and feasts, traditionally poured from a copper samovar, and it is the one well-known Indian tea preparation built on green tea rather than black.\n\nLike masala chai it is a method, not a leaf. The tea has traditionally been a plain green from the Kangra valley, and today any Indian green tea is used; the character comes from the spices and above all from saffron, which Kashmir grows at Pampore and uses with a generous hand on special occasions. Some houses add dried rose petals or a little clove.\n\nThe cup is clear gold, light and aromatic: cinnamon and cardamom warmth, the hay-and-honey note of saffron, a mild green tea underneath and the crunch of almonds at the bottom. The common mistake is boiling the tea leaf with the spices, which makes it bitter; simmer the spices in water, take the pan off the heat, add the leaf and saffron and steep for a few minutes before straining.\n\nIt is sold as pre-mixed 'kahwa' packs (loose or in tea bags, with widely varying amounts of real saffron) and as instant premixes, and it is made from scratch in Kashmiri homes. There is no vintage: buy a small pack with a recent date, because the saffron and cardamom aroma fades within months, or simply buy good green tea, saffron and spices separately.\n\nDo not confuse it with noon chai, the salty pink tea of Kashmir, or with Arabic qahwa, which is coffee; the name probably shares a root with the Arabic word, but the drinks are unrelated.",
   "wikipedia_title": "Kahwah",
   "wikipedia_scope": "exact",
   "popularity": 3,
-  "sources_note": "Native name given in Hindi/Devanagari; the Kashmiri Perso-Arabic spelling was not added because of uncertainty over the exact form."
+  "sources_note": "Native name given in Hindi/Devanagari; the Kashmiri Perso-Arabic spelling was not added because of uncertainty over the exact form.",
+  "name_zh": "克什米尔卡瓦茶",
+  "name_ru": "Кашмирская кахва",
+  "history": "Kahwah's origins are unclear. It is said to have reached Kashmir along the spice trade, and some place it as far back as the Kushan empire of the first and second centuries AD, a tradition rather than a documented fact.\n\nThe Kashmiri word kahwe means sweetened tea, and it may be related to the Turkish and Arabic words for coffee. The more solid record is the supply line: the green leaf comes from neighbouring Kangra, which has long exported to Kashmir, Afghanistan and Central Asia.\n\nToday it is a drink for guests and for after a wazwan, with saffron kept for special visitors. Peshawar has its own version made with jasmine tea and green cardamom.",
+  "liquor_hex": "#D9A93F",
+  "leaf_hex": "#6E7347",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Kahwah",
+    "https://ja.wikipedia.org/wiki/%E3%82%AB%E3%83%95%E3%83%AF",
+    "https://ko.wikipedia.org/wiki/%EC%B9%B4%ED%9D%90%EC%99%80"
+  ],
+  "confidence": "medium",
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ac/KASHMIRI_KAHWA.jpg/1280px-KASHMIRI_KAHWA.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ac/KASHMIRI_KAHWA.jpg/330px-KASHMIRI_KAHWA.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source_page": "https://commons.wikimedia.org/wiki/File:KASHMIRI_KAHWA.jpg",
+      "author": "Sani2272",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "kind": "serving",
+      "alt": "Small cups of Kashmiri kahwa on saucers served with Kashmiri bread"
+    }
+  ]
 }

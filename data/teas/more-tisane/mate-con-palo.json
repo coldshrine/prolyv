@@ -1,0 +1,64 @@
+{
+  "slug": "mate-con-palo",
+  "name_en": "Yerba Mate con Palo",
+  "name_native": "yerba mate con palo",
+  "name_romanized": null,
+  "name_zh": "带梗马黛茶",
+  "name_ru": "Мате с палочками (кон пало)",
+  "aliases": [
+    "Con palo",
+    "Yerba con palo",
+    "Мате кон пало"
+  ],
+  "category": "tisane",
+  "origin_country": "Argentina",
+  "origin_region": "Misiones",
+  "cultivar": null,
+  "processing": "Dried, milled yerba mate with stems left in. Argentina's food code requires at least 65% leaf and allows up to 35% stem.",
+  "form": "loose",
+  "harvest_season": "Sold year-round. Mate is generally harvested in autumn and winter, the usual season for the plant.",
+  "appearance_dry": "Olive-green chopped leaf and powder with pale stem pieces visible.",
+  "appearance_liquor": "Cloudy yellow-green, typical of gourd mate.",
+  "appearance_wet": "A dense green mass of soaked leaf with pale stems standing out.",
+  "taste_profile": "Softer and more balanced than stem-free yerba, with herbal bitterness that stays moderate.",
+  "taste_tags": [
+    "herbal",
+    "bitter",
+    "grassy"
+  ],
+  "brewing": {
+    "grams": 40,
+    "water_ml": 500,
+    "temp_c": 75,
+    "steeps": 10,
+    "seconds": [
+      10,
+      10,
+      10,
+      10,
+      10,
+      10,
+      10,
+      10,
+      10,
+      10
+    ],
+    "notes": "Fill the gourd about two-thirds, wet the yerba first, and top up a little at a time with water at 60 to 80 C. The gourd is sipped dry between refills."
+  },
+  "caffeine_level": "medium",
+  "vintage_note": "Not sold by year. This is a supermarket staple sold in bags with a packing or best-before date. Many producers age yerba before milling, so read the label, but no vintage market exists; buy it fresh and use it within the date.",
+  "description": "Con palo simply means with stems, and it is the standard Argentine everyday yerba. It is a cut defined by how much stem stays in, not a separate plant or region.\n\nIn Argentina the term has a legal meaning: the food code sets a minimum of 65% leaf and a stem ceiling of 35%. The stems dilute the leaf a little, and that is the whole point of the style.\n\nThe result is softer and less bitter than stem-free yerba, which suits drinking several gourds a day. Do not expect stems to make it last longer: opinions on how long it holds up differ, and water temperature and how you build the gourd matter more.\n\nBrands vary in cut and strength, so the stem label alone tells you only part of the story. Try the same brand with and without stems for the clearest comparison.",
+  "history": "Little is documented about when the con palo cut first took shape as a named category. Its context is the wider history of mate: first drunk by Guaraní and Tupí peoples, then taken up by Spanish settlers, and grown on plantations again in Argentina and Brazil from the late 19th century.\n\nToday the term is fixed in Argentina's food code alongside its counterpart, despalada or sin palo.",
+  "liquor_hex": "#B3A63F",
+  "leaf_hex": "#8C9147",
+  "sources": [
+    "https://www.cronista.com/informacion-gral/yerba-mate-con-palo-o-sin-palo-cual-es-la-diferencia-y-que-opcion-es-mejor-para-elegir/",
+    "https://www.diariouno.com.ar/sociedad/toma-aire-al-saber-la-diferencia-la-yerba-mate-palo-y-la-yerba-mate-despalada-n1328690",
+    "https://www.matemundo.co.uk/Yerba-mate-despalada-and-elaborada-discover-the-differences-and-choose-the-perfect-mate-tea-for-you-blog-eng-1736839530.html"
+  ],
+  "confidence": "medium",
+  "wikipedia_title": "Mate (drink)",
+  "wikipedia_scope": "umbrella",
+  "popularity": 3,
+  "images": []
+}

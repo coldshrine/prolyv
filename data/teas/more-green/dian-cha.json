@@ -1,0 +1,54 @@
+{
+  "slug": "dian-cha",
+  "name_en": "Dian cha",
+  "name_native": "点茶",
+  "name_romanized": "diǎn chá",
+  "aliases": [
+    "點茶",
+    "điểm trà"
+  ],
+  "category": "green",
+  "origin_country": "China",
+  "origin_region": "China",
+  "cultivar": null,
+  "form": "powder",
+  "caffeine_level": "medium",
+  "brewing": {
+    "grams": 3,
+    "water_ml": 150,
+    "temp_c": 80,
+    "steeps": 3,
+    "seconds": [
+      60,
+      75,
+      105
+    ],
+    "notes": "A safe starting point for green tea: cooler water, short steeps, then adjust by taste."
+  },
+  "taste_tags": [
+    "vegetal",
+    "sweet"
+  ],
+  "description": "A way of preparing and drinking tea that began in China and spread across the Sinosphere, including Japan and Vietnam. It later developed into the Japanese tea ceremony using matcha.\n\nTreat it as you would any green tea: cooler water, short steeps, and a seller who can say where and when it was picked.",
+  "wikipedia_title": null,
+  "wikipedia_scope": "none",
+  "popularity": 1,
+  "name_zh": "点茶",
+  "name_ru": "Дянь Ча",
+  "history": "Dian cha flourished in Song dynasty China, where it was one of the two main ways of making tea and counted among the four arts of the period, part of the refined life of scholars. It faded in China during the Ming dynasty. In Vietnam it was probably popular under the Trần and Lê dynasties, was recorded by Phạm Đình Hổ (1768-1839), and had been lost by the end of the Revival Lê period. It survives today in Japan.",
+  "liquor_hex": "#B8C76A",
+  "leaf_hex": "#7E9B3E",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Dian_cha"
+  ],
+  "confidence": "medium",
+  "images": [],
+  "stub": true,
+  "processing": "Typical of green tea: picked, heated soon after picking to stop oxidation, then shaped and dried.",
+  "harvest_season": "Usually picked in spring, with the earliest pickings prized, as with most green teas.",
+  "appearance_dry": "Green leaf whose shape depends on the maker, as is usual for regional green teas.",
+  "appearance_liquor": "Usually a clear, pale yellow-green.",
+  "appearance_wet": "Usually soft green leaf that opens up in the water.",
+  "taste_profile": "Expect what green teas usually give: fresh, vegetal and lightly sweet.",
+  "vintage_note": "Green teas like this are normally sold as the current year's harvest and are best within a year of picking. It is not an ageing tea."
+}

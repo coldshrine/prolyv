@@ -3,10 +3,15 @@
   "name_en": "Arunachal Black Tea",
   "name_native": null,
   "name_romanized": null,
-  "aliases": ["Arunachal Pradesh tea", "Arunachal orthodox", "Donyi Polo tea", "Arunachal tea"],
+  "aliases": [
+    "Arunachal Pradesh tea",
+    "Arunachal orthodox",
+    "Donyi Polo tea",
+    "Arunachal tea"
+  ],
   "category": "black",
   "origin_country": "India",
-  "origin_region": "Arunachal Pradesh · eastern Himalayan foothills",
+  "origin_region": "Arunachal Pradesh",
   "cultivar": "Assam-type seedling bushes and Tocklai clones, with some Chinary plantings at higher altitude",
   "processing": "Fully oxidised black tea from young estates and smallholders, made both CTC and orthodox; the orthodox spring and second-flush lots are the ones with character, and a few makers also produce green and white tea.",
   "form": "loose",
@@ -15,13 +20,39 @@
   "appearance_liquor": "Red-amber, bright.",
   "appearance_wet": "Coppery brown leaf.",
   "taste_profile": "Between Assam and the hill teas: malty and honeyed with a touch of fruit and a brisk but not heavy finish.",
-  "taste_tags": ["malty", "honey", "fruity", "brisk"],
-  "brewing": {"grams": 3, "water_ml": 200, "temp_c": 95, "steeps": 2, "seconds": [210, 300], "notes": "Just under the boil, 3–4 minutes, milk optional; orthodox leaf gives a second steep."},
+  "taste_tags": [
+    "malty",
+    "honey",
+    "fruity",
+    "brisk"
+  ],
+  "brewing": {
+    "grams": 3,
+    "water_ml": 200,
+    "temp_c": 95,
+    "steeps": 2,
+    "seconds": [
+      210,
+      300
+    ],
+    "notes": "Just under the boil, 3–4 minutes, milk optional; orthodox leaf gives a second steep."
+  },
   "caffeine_level": "high",
-  "vintage_note": "Sold mostly through the Guwahati auction as part of the north-eastern crop and, in small quantities, as single-garden lots by flush and year from speciality sellers (Donyi Polo Tea Estate, run by the state, is the name most often seen). Production is small and growing; buy the current season's lot and use within a year or two.",
+  "vintage_note": "Sold mostly through the Guwahati auction as part of the north-eastern crop and, in small quantities, as single-garden lots by flush and year from speciality sellers (Donyi Polo Tea Estate, privately owned, is the name most often seen). Production is small and growing; buy the current season's lot and use within a year or two.",
   "description": "Arunachal Pradesh, the big, thinly populated state in India's far north-east, is one of the country's youngest tea regions: a few estates were planted in the foothills in the closing decades of the twentieth century, and smallholder gardens have followed. Most of it is Assam-type bush grown at low altitude, so the teas sit between Assam and the hill teas, but a handful of makers have pushed into orthodox and speciality styles and started to get noticed.\n\nManufacture follows the Assam pattern, with both CTC and orthodox factories: wither, roll, full oxidation and firing. The orthodox lots, often from the spring and second flush, are the ones with character; some growers also make green and white tea in small amounts.\n\nThe cup is red-amber, malty and honeyed with a touch of fruit and a brisk but not heavy finish; think of a softer, slightly brighter Assam. Brew it with water just under the boil for three to four minutes, with or without milk, and expect a second steep from orthodox leaf.\n\nIt is sold mostly through the Guwahati auction as part of the north-eastern crop and, in small quantities, as single-garden lots by flush and year from speciality sellers; Donyi Polo Tea Estate is the garden you are most likely to see named. Production is small and growing. Buy the current season's lot and use within a year or two.\n\nAn interesting one to taste next to an Assam from the same year: same bush, different hills.",
   "wikipedia_title": "Black tea",
   "wikipedia_scope": "umbrella",
   "popularity": 1,
-  "sources_note": "Arunachal's tea industry is young and documentation is thin; planting dates and the Donyi Polo estate details are from memory. No Wikipedia article on Arunachal tea."
+  "sources_note": "Arunachal's tea industry is young and documentation is thin; planting dates and the Donyi Polo estate details are from memory. No Wikipedia article on Arunachal tea.",
+  "name_zh": "阿鲁纳恰尔红茶",
+  "name_ru": "Аруначал",
+  "history": "Commercial tea in Arunachal Pradesh is young, and its best-known story is that of one garden. Donyi Polo Tea Estate was started by Yadap Apang (also spelled Yatap), the mother of its present owner Omak Apang; accounts date it to 1985 or 1987. One profile gives it 420 hectares of tea.\n\nIts name spread in August 2018, when a Golden Needles lot, a style that originated in Yunnan, sold for Rs 40,000 a kilo at the Guwahati auction. Little is documented about the early plantings beyond this, and the region's orthodox teas are only starting to be known outside India.",
+  "liquor_hex": "#A9561F",
+  "leaf_hex": "#3F2B1B",
+  "sources": [
+    "https://www.ibef.org/news/golden-needles-tea-from-arunachal-sets-world-record-auctions-at-rs-40000-a-kilo",
+    "https://eastmojo.com/arunachal-pradesh/2024/10/13/golden-needles-purple-tea-women-led-estate-shines-in-arunachal/"
+  ],
+  "confidence": "low",
+  "images": []
 }

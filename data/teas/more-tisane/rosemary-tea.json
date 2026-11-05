@@ -1,0 +1,58 @@
+{
+  "slug": "rosemary-tea",
+  "name_en": "Rosemary Tea",
+  "name_native": null,
+  "name_romanized": null,
+  "name_zh": "迷迭香茶",
+  "name_ru": "Розмарин",
+  "aliases": [
+    "Rosemary",
+    "Rosemary infusion",
+    "Розмарин лекарственный",
+    "Чай из розмарина"
+  ],
+  "category": "tisane",
+  "origin_country": "Italy",
+  "origin_region": "Mediterranean",
+  "cultivar": "Salvia rosmarinus",
+  "processing": "Fresh sprigs are used directly, or the needle-like leaves are air-dried and stripped from the stem. No oxidation or roasting.",
+  "form": "loose",
+  "harvest_season": "Evergreen, so it can be cut much of the year; home growers pick fresh sprigs as needed.",
+  "appearance_dry": "Short, curved, needle-like leaves in dull grey-green.",
+  "appearance_liquor": "Pale yellow to light gold and clear, as with most dried herbs.",
+  "appearance_wet": "Dark green needles that stay firm, with white undersides on fresh sprigs.",
+  "taste_profile": "Piney, resinous and herbaceous, clean at first and turning bitter when steeped for long.",
+  "taste_tags": [
+    "herbal",
+    "camphor",
+    "bitter"
+  ],
+  "brewing": {
+    "grams": 1,
+    "water_ml": 250,
+    "temp_c": 100,
+    "steeps": 1,
+    "seconds": [
+      300
+    ],
+    "notes": "Western-style: a teaspoon of dried leaf or a fresh sprig per cup, covered, about 5 minutes. Cut the time if it comes out bitter. Honey and lemon both help, and a strong batch works over ice."
+  },
+  "caffeine_level": "none",
+  "vintage_note": "Not a vintage product: most people make it from a fresh sprig or from kitchen dried rosemary. Dried leaf should be used while it still smells strong, as with other herbs, usually within the year. Fresh and dried taste slightly different, and fresh is often brighter.",
+  "description": "Rosemary tea is a hot infusion of an evergreen Mediterranean shrub from the mint family. There is no tradition of grades or estates behind it: it is a kitchen herb in a mug, and it can be made from the plant on your windowsill.\n\nThe leaves are needle-like and full of aromatic oils, and that is all the processing it needs. Use them fresh or dried, and strain before drinking since the needles are not pleasant to swallow.\n\nThe flavour is what you expect from the roast-dinner herb, only cleaner and more resinous. The usual mistake is leaving it too long: five minutes covered gives a good cup, and after ten it starts to get bitter. Rosemary is hardy enough for fully boiling water, though slightly cooler water gives a milder result.\n\nThere is little to look out for when buying, beyond a strong smell and whole rather than dusty leaf. Try it with lemon, or cold on a hot day.",
+  "history": "Little is documented about rosemary tea as a drink of its own. The plant is native to the Mediterranean and has long been grown for its leaves as a flavouring, with many cultivars, and it can live for as long as 35 years.\n\nThe tea sits among the household herbal infusions of the region and has no known origin story or maker. Most of today's interest comes through home recipes.",
+  "liquor_hex": "#D8C67F",
+  "leaf_hex": "#66705A",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Rosemary",
+    "https://www.chowhound.com/1982461/best-way-brew-rosemary-tea/",
+    "https://bcliving.ca/health-fitness/nutrition/how-to-brew-rosemary-tea-with-fresh-or-dried-rosemary/",
+    "https://simplybeyondherbs.com/rosemary-tea-recipe"
+  ],
+  "confidence": "low",
+  "wikipedia_title": "Rosemary",
+  "wikipedia_scope": "umbrella",
+  "popularity": 2,
+  "images": [],
+  "sources_note": "Italy comes from the master list; the plant is Mediterranean-wide. Colour is typical of the class."
+}

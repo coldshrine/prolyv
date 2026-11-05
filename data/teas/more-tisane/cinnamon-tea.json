@@ -1,0 +1,55 @@
+{
+  "slug": "cinnamon-tea",
+  "name_en": "Cinnamon Tea (Gyepi-cha)",
+  "name_native": "계피차",
+  "name_romanized": "gyepi-cha",
+  "name_zh": "桂皮茶",
+  "name_ru": "Коричный чай",
+  "aliases": [
+    "Cinnamon tea",
+    "Gyepi-cha",
+    "Кепхи-ча"
+  ],
+  "category": "tisane",
+  "origin_country": "South Korea",
+  "origin_region": "Korean Peninsula",
+  "cultivar": "Cassia cinnamon",
+  "processing": "Dried cassia bark, whole or sliced, is simmered in water, often with a little ginger, then strained.",
+  "form": "other",
+  "harvest_season": "A dried bark, used all year; no prized picking is recorded.",
+  "appearance_dry": "Thick, curled sticks of bark, with a purplish-red cut face in the pieces chosen for this tea.",
+  "appearance_liquor": "Typically a clear reddish brown.",
+  "appearance_wet": "Softened brown bark, with slices of ginger when used.",
+  "taste_profile": "Strongly fragrant, warm and spicy from the bark, with ginger heat when it is added and sweetness only if sugar or honey goes in.",
+  "taste_tags": [
+    "spicy",
+    "woody",
+    "sweet"
+  ],
+  "brewing": {
+    "grams": 10,
+    "water_ml": 600,
+    "temp_c": 100,
+    "steeps": 1,
+    "seconds": [
+      900
+    ],
+    "notes": "Simmer rather than steep, with a little ginger if you like. Strain, sweeten if wanted and finish with minced jujube. Amounts are a starting point; cassia is strong."
+  },
+  "caffeine_level": "none",
+  "vintage_note": "There are no vintages or harvest seasons: it is made at home or in tea houses from dried bark bought year-round. Choose thick, fragrant sticks and use them while the smell is still strong, since aroma is the whole point.",
+  "description": "Gyepi-cha is the Korean version of cinnamon tea, made from cassia cinnamon bark rather than tea leaf. Cinnamon drinks turn up in many places, but this one has its own habits: thick bark, a little ginger and a garnish of jujube.\n\nThicker sticks with a purplish-red cross-section and a strong smell are the ones to use. They go into the pot whole or sliced, usually with a small amount of ginger, and simmer until the water takes on their colour.\n\nThe cup is intensely aromatic, warming and spicy, and it is usually drunk hot. Strain it first, then add sugar or honey if you want, and scatter minced jujube on top.\n\nDo not confuse it with Chilean té con canela, which is black tea steeped with a cinnamon stick and so contains caffeine, or with the Lebanese anise and cinnamon drink.",
+  "history": "Gyepi-cha is counted among traditional Korean teas, written with the same characters as the Chinese word for cassia bark, 桂皮. Little is documented about when it became a named drink or who popularised it.",
+  "liquor_hex": "#9C4F24",
+  "leaf_hex": "#7A4326",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Cinnamon_tea",
+    "https://ko.wikipedia.org/wiki/%EA%B3%84%ED%94%BC%EC%B0%A8",
+    "https://www.wikidata.org/wiki/Q30043882"
+  ],
+  "confidence": "medium",
+  "wikipedia_title": "Cinnamon tea",
+  "wikipedia_scope": "exact",
+  "popularity": 2,
+  "images": []
+}

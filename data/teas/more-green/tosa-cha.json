@@ -1,0 +1,57 @@
+{
+  "slug": "tosa-cha",
+  "name_en": "Tosa-cha",
+  "name_native": "土佐茶",
+  "name_romanized": "Tosa-cha",
+  "name_zh": "土佐茶",
+  "name_ru": "Тоса-тя",
+  "aliases": [
+    "Tosa tea",
+    "Kochi tea"
+  ],
+  "category": "green",
+  "origin_country": "Japan",
+  "origin_region": "Kochi",
+  "cultivar": null,
+  "processing": "An umbrella for Kochi-grown tea, mainly steamed green tea from mountain gardens. The post-fermented Goishicha of Otoyo is also made in the prefecture, but it is a separate tea.",
+  "form": "loose",
+  "harvest_season": "Spring first flush is the most valued, as with other Japanese green tea; the steep mountain gardens are worked by small growers.",
+  "appearance_dry": "For the usual sencha, dark green needles, varying by producer.",
+  "appearance_liquor": "Clear yellow-green, as with other mountain sencha.",
+  "appearance_wet": "Soft green leaf pieces, like other sencha.",
+  "taste_profile": "Sold on the clean fragrance credited to river mist and wide day-night temperature swings, though the name covers many producers and no single flavour.",
+  "taste_tags": [
+    "vegetal",
+    "floral",
+    "umami"
+  ],
+  "brewing": {
+    "grams": 5,
+    "water_ml": 150,
+    "temp_c": 70,
+    "steeps": 3,
+    "seconds": [
+      60,
+      15,
+      30
+    ],
+    "notes": "General sencha approach; for a roasted Kochi hojicha, use boiling water and a short steep."
+  },
+  "caffeine_level": "medium",
+  "vintage_note": "Sold by the current year's harvest, as Japanese green tea usually is, in sencha and roasted forms. The name means tea wholly from Kochi, so it tells you the prefecture, not the quality; look for the area and producer as well.",
+  "description": "Tosa-cha is the collective name and brand for tea grown in Kochi, the old province of Tosa on Shikoku. The rule is simple: 100 percent Kochi leaf, promoted by a local council.\n\nThe gardens are on steep mid-mountain land along the upper Niyodo and Shimanto rivers. Mist forms in the valleys, and nights are cool, which is why growers claim better fragrance. The largest area is along the Niyodo and its Doi tributary in Ikegawa, within Niyodogawa town.\n\nMost of what you will meet is sencha, brewed in the usual way. Do not expect one house flavour: a Shimanto headwater tea and a Niyodo tea from different farms can differ quite a lot.\n\nFor buying, prefer a pack naming its area. And if you enjoy oddities, try Goishicha from Otoyo, a post-fermented Kochi tea that has nothing in common with sencha except the plant.",
+  "history": "Tea has a long record here. Wild-looking yamacha bushes spring up on burnt-over mountain land, though whether these are native or descended from early introductions from China is unsettled. Land surveys under the warlord Chosokabe Motochika already record tea production across Tosa.\n\nThe modern name is more of a branding effort. Planted area has been falling and awareness remains low, and producers have answered with cafes and sweets, including ventures from Sawatari and Ikegawa growers in Niyodogawa town.",
+  "liquor_hex": "#CCCB78",
+  "leaf_hex": "#47622F",
+  "sources": [
+    "https://ja.wikipedia.org/wiki/%E5%9C%9F%E4%BD%90%E8%8C%B6",
+    "https://www.wikidata.org/wiki/Q24874647",
+    "https://www.maff.go.jp/chushi/nousei/kochi/toukei/attach/pdf/bunseki-4.pdf",
+    "https://www.pref.kochi.lg.jp/doc/2015112400226/file_contents/file_20151124221272_1.pdf"
+  ],
+  "confidence": "high",
+  "wikipedia_title": "土佐茶",
+  "wikipedia_scope": "exact",
+  "popularity": 3,
+  "images": []
+}

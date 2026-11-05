@@ -1,0 +1,63 @@
+{
+  "slug": "luo-han-guo-tea",
+  "name_en": "Luo Han Guo Tea",
+  "name_native": "罗汉果茶",
+  "name_romanized": "Luóhànguǒ Chá",
+  "name_zh": "罗汉果茶",
+  "name_ru": "Ло Хань Го Ча",
+  "aliases": [
+    "Luo han guo",
+    "Luohanguo",
+    "Luohanguo cha",
+    "羅漢果茶",
+    "罗汉果",
+    "羅漢果",
+    "Monk fruit tea",
+    "Лоханьго ча",
+    "Rakanka-cha"
+  ],
+  "category": "tisane",
+  "origin_country": "China",
+  "origin_region": "Guangxi · Guilin",
+  "cultivar": "Siraitia grosvenorii (types include Changtan, Qingpi, Dongguaguo, Lajiang)",
+  "processing": "Green fruits are dried slowly, traditionally in ovens, until brown and brittle. The dried fruit is crushed and boiled or steeped.",
+  "form": "other",
+  "harvest_season": "Fruit is harvested from September to November.",
+  "appearance_dry": "A round, light, brown fruit 4 to 8 cm across with a thin, brittle shell.",
+  "appearance_liquor": "Typically a clear amber to reddish brown.",
+  "appearance_wet": "Broken shell pieces and soft, dark pulp with pale seeds.",
+  "taste_profile": "Intensely sweet, plus some bitter, astringent notes that oven-drying can bring.",
+  "taste_tags": [
+    "sweet",
+    "herbal",
+    "bitter"
+  ],
+  "brewing": {
+    "grams": 10,
+    "water_ml": 1000,
+    "temp_c": 100,
+    "steeps": 1,
+    "seconds": [
+      900
+    ],
+    "notes": "Crack one fruit, about a third to a half for a litre if you want it lighter, and simmer. It is very sweet, and a little goes a long way."
+  },
+  "caffeine_level": "none",
+  "vintage_note": "Not sold by vintage. Dried whole fruits come from the autumn crop and are sold boxed at herbal shops; pick fruits that feel light, unbroken and dry, with no sign of mould. Concentrates and sweetener extracts are different products.",
+  "description": "Luo han guo, the monk fruit of sweetener packets, is a gourd-family vine from the mountains of southern China, and the drink is simply the dried fruit boiled in water. No tea leaf is involved. Chinese herbal shops sell it as a brown, hollow-feeling ball.\n\nGuangxi is the heartland, especially the mountains near Guilin. Yongfu, Lingui and Rong'an counties are the three leading areas. Its sweetness comes partly from ordinary sugars and largely from mogrosides, which are about 250 times sweeter than sucrose.\n\nSlow oven-drying keeps the fruit and drives off unwanted aromas, but can add bitterness and astringency, so very strong brews taste harsh. Most people use too much: a crushed fruit will sweeten a large pot of water. It also works as a sweetener in other herbal teas and in soups.\n\nIn traditional Chinese medicine it is used for coughs and sore throats. Large amounts may upset the stomach in some people.",
+  "history": "The fruit is said to first appear in 13th-century monastic records from the Guilin area of Guangxi, and written records of its cultivation there date to 1813. It stayed regional, because it is hard to grow and scarce for a herbal tradition built on easily found products.\n\nWestern botany reached it late. National Geographic Society president Gilbert Grosvenor, whose name the species carries, helped fund a 1930s expedition to find the living plant, and Walter Swingle published an English description in 1941. Research on its sweet compounds followed in the 1970s and 1980s, and modern products focus on concentrated extracts.",
+  "liquor_hex": "#A9652A",
+  "leaf_hex": "#7A5430",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Siraitia_grosvenorii",
+    "https://zh.wikipedia.org/wiki/%E7%BE%85%E6%BC%A2%E6%9E%9C",
+    "https://ja.wikipedia.org/wiki/%E3%83%A9%E3%82%AB%E3%83%B3%E3%82%AB",
+    "https://ko.wikipedia.org/wiki/%EB%82%98%ED%95%9C%EA%B3%BC",
+    "https://www.wikidata.org/wiki/Q1544966"
+  ],
+  "confidence": "high",
+  "wikipedia_title": "Siraitia grosvenorii",
+  "wikipedia_scope": "umbrella",
+  "popularity": 3,
+  "images": []
+}

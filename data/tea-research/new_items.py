@@ -25,13 +25,18 @@ for f in glob.glob(os.path.join(ROOT, '*', '*.json')):
     en_seen[(norm(c['name_en']), c.get('category'))] = c['slug']
 
 out, dropped, slugs = [], Counter(), set(cards)
+dropped_names = []
 order = {1: 0, 2: 1, 3: 2}
 rows = []
 for f in sorted(glob.glob(os.path.join(HERE, 'master', '*.json'))):
     rows += json.load(open(f, encoding='utf-8'))
 rows.sort(key=lambda x: (order.get(x.get('tier'), 3), 0 if x.get('kind') != 'estate' else 1))
+# Psychoactive or toxic plants: no brewing guides for these. The owner can overrule this.
+RISKY = re.compile(r'poppy|cannabis|hemp leaf|kratom|khat\b|\bqat\b|tobacco|pennyroyal|comfrey|ephedra|mormon tea|ma huang|kava|ayahuasca|datura|belladonna|foxglove|sassafras|coltsfoot|wormwood|absinth|opium|salvia divinorum|betel|areca', re.I)
 for x in rows:
     cat = x.get('category')
+    if RISKY.search(' '.join([x.get('en') or '', *(x.get('aliases') or [])])) and 'mugwort' not in (x.get('en') or '').lower():
+        dropped['risky plant'] += 1; dropped_names.append(x.get('en')); continue
     if x.get('existing_slug') and x['existing_slug'] in cards:
         dropped['has card'] += 1; continue
     if x.get('kind') == 'estate' and x.get('tier') == 3:
@@ -61,3 +66,4 @@ json.dump([item(x) for x in out if x.get('tier') in (1, 2)], open(os.path.join(H
 json.dump([item(x, True) for x in out if x.get('tier') == 3], open(os.path.join(HERE, 'logs', 'items-new-t3.json'), 'w', encoding='utf-8'), ensure_ascii=False)
 print('new cards', len(out), dict(Counter(x.get('tier') for x in out)), 'by cat', dict(Counter(x.get('category') for x in out)))
 print('dropped', dict(dropped))
+print('risky plants left out:', dropped_names)

@@ -1,0 +1,60 @@
+{
+  "slug": "osmanthus-green-tea",
+  "name_en": "Osmanthus Green Tea",
+  "name_native": "桂花绿茶",
+  "name_romanized": "Guìhuā Lǜchá",
+  "name_zh": "桂花绿茶",
+  "name_ru": "Гуй Хуа Люй Ча",
+  "aliases": [
+    "Chai s osmantusom",
+    "Чай с османтусом",
+    "桂花綠茶",
+    "Osmanthus tea"
+  ],
+  "category": "green",
+  "origin_country": "China",
+  "origin_region": "China",
+  "cultivar": null,
+  "processing": "Green tea is scented with fresh osmanthus blossoms, the two layered together so that the leaf absorbs the fragrance. Better lots are scented more than once.",
+  "form": "loose",
+  "harvest_season": "Base tea usually comes from spring; the scenting waits for the osmanthus bloom in autumn.",
+  "appearance_dry": "Green twisted leaf flecked with tiny golden-orange florets.",
+  "appearance_liquor": "Clear yellow-green, sometimes a little golden.",
+  "appearance_wet": "Soft green leaf with small pale-orange flowers floating or clinging to it.",
+  "taste_profile": "A sweet apricot-like osmanthus perfume on a light green tea base, gentle and honeyed rather than sharp.",
+  "taste_tags": [
+    "floral",
+    "stone-fruit",
+    "sweet",
+    "vegetal"
+  ],
+  "brewing": {
+    "grams": 3,
+    "water_ml": 150,
+    "temp_c": 85,
+    "steeps": 3,
+    "seconds": [
+      60,
+      90,
+      120
+    ],
+    "notes": "Keep the water below boiling, and use a lid to hold the aroma in."
+  },
+  "caffeine_level": "medium",
+  "vintage_note": "Usually sold as the latest scenting, after the autumn bloom, using that year's spring green tea as the base. Drink it within about a year, as both the flower aroma and the green base fade; it is no tea for ageing.",
+  "description": "Osmanthus green tea is what it says: green tea scented with sweet osmanthus, the small autumn flower with a smell often compared to ripe apricot. It belongs to the broad family of Chinese flower teas, where jasmine is the giant and osmanthus a popular second line.\n\nThe method is the classic one for flower teas, with fresh blossoms and tea leaves laid in layers so that the leaf takes on the scent. Osmanthus teas also come on black and oolong bases, so green is simply one option.\n\nExpect the flower first, then a soft green tea underneath. Water that is too hot brings out the leaf's bitterness and flattens the perfume, so stay around 85 C and pour short.\n\nGuilin in Guangxi and Xianning in Hubei are both known for osmanthus tea. Not every product states its place, so ask. Natural scenting smells soft and fades over steeps; a loud, lingering perfume can mean added flavouring.",
+  "history": "Osmanthus tea is one of the established Chinese scented types, but the green-based version has no documented founding story or date. Guilin and Xianning are among the places with visible modern production.",
+  "liquor_hex": "#DCCB78",
+  "leaf_hex": "#77803F",
+  "sources": [
+    "https://www.wikidata.org/wiki/Q16716163",
+    "https://zh.wikipedia.org/wiki/%E8%8A%B1%E8%8C%B6",
+    "https://winghopfung.com/zh-hans/products/osmanthus-green-tea-1188-4oz"
+  ],
+  "confidence": "low",
+  "wikipedia_title": null,
+  "wikipedia_scope": "none",
+  "popularity": 3,
+  "images": [],
+  "sources_note": "The osmanthus-black preference comes from a search summary; the journal URL was matched to it by title and was not opened."
+}

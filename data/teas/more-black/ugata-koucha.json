@@ -1,0 +1,51 @@
+{
+  "slug": "ugata-koucha",
+  "name_en": "Ugata Koucha",
+  "name_native": "鵜方紅茶",
+  "name_romanized": "Ugata Kōcha",
+  "aliases": [],
+  "category": "black",
+  "origin_country": "Japan",
+  "origin_region": "Mie · Shima, Ugata",
+  "cultivar": null,
+  "form": "loose",
+  "caffeine_level": "high",
+  "brewing": {
+    "grams": 3,
+    "water_ml": 200,
+    "temp_c": 95,
+    "steeps": 2,
+    "seconds": [
+      180,
+      240
+    ],
+    "notes": "A safe starting point for black tea: Western style, water just off the boil."
+  },
+  "taste_tags": [
+    "malty",
+    "sweet"
+  ],
+  "description": "A Japanese black tea from the Ugata district of Shima in Mie Prefecture.\n\nTreat it as you would any black tea: water just off the boil, a few minutes in the pot, and a seller who can say where it was grown.",
+  "wikipedia_title": null,
+  "wikipedia_scope": "none",
+  "popularity": 1,
+  "name_zh": "鹈方红茶",
+  "name_ru": "Угата-котя",
+  "history": null,
+  "liquor_hex": "#A8431C",
+  "leaf_hex": "#3A2A1E",
+  "sources": [
+    "https://ja.wikipedia.org/wiki/%E7%B4%85%E8%8C%B6",
+    "https://ja.wikipedia.org/wiki/%E5%92%8C%E7%B4%85%E8%8C%B6"
+  ],
+  "confidence": "low",
+  "images": [],
+  "stub": true,
+  "processing": "Typical of black tea: withered, rolled, fully oxidised and dried.",
+  "harvest_season": "Picked through the growing season, as with most black teas.",
+  "appearance_dry": "Usually dark twisted leaf, sometimes with golden tips.",
+  "appearance_liquor": "Usually a clear red-brown.",
+  "appearance_wet": "Usually coppery brown leaf.",
+  "taste_profile": "Expect what black teas usually give: malty, sweet and brisk.",
+  "vintage_note": "Black teas are normally sold by harvest year and are best within a couple of years."
+}

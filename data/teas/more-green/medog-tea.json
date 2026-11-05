@@ -1,0 +1,59 @@
+{
+  "slug": "medog-tea",
+  "name_en": "Medog Tea",
+  "name_native": "墨脱茶",
+  "name_romanized": "Mòtuō Chá",
+  "name_zh": "墨脱茶",
+  "name_ru": "Мото Ча",
+  "aliases": [
+    "Medog Green Tea",
+    "Medog Organic Tea",
+    "墨脱绿茶",
+    "墨脱有机茶",
+    "Мэдог"
+  ],
+  "category": "green",
+  "origin_country": "China",
+  "origin_region": "Tibet · Nyingchi · Medog",
+  "cultivar": null,
+  "processing": "Mainly green and black teas from organic mountain gardens; several cultivars are grown, and methods vary between producers.",
+  "form": "loose",
+  "harvest_season": "Spring and also autumn; the county's mild, wet climate allows later pickings, and autumn tea is traded in quantity.",
+  "appearance_dry": "Varies by producer; the green tea is typically fine twisted leaf in a mid green.",
+  "appearance_liquor": "Typical of Chinese greens, a clear yellow-green.",
+  "appearance_wet": "Typically fresh green leaf of mixed cultivars.",
+  "taste_profile": "No settled tasting profile is documented; the green can be expected to be fresh and lightly sweet, as with other Chinese mountain greens.",
+  "taste_tags": [
+    "vegetal",
+    "sweet"
+  ],
+  "brewing": {
+    "grams": 3,
+    "water_ml": 150,
+    "temp_c": 85,
+    "steeps": 3,
+    "seconds": [
+      50,
+      70,
+      90
+    ],
+    "notes": "General advice for a Chinese green; use boiling water if your Medog tea is the black kind."
+  },
+  "caffeine_level": "medium",
+  "vintage_note": "A young regional tea with no long sale tradition. Green tea is sold as the current year's pickings, spring or autumn, and it pays to ask which, since the season changes the leaf. Black teas keep longer.",
+  "description": "Medog Tea is a young regional tea from Medog county in southeastern Tibet, on the wet southern flank of the eastern Himalaya. It is remarkable less for an old style than for where it grows: a subtropical corner of Tibet that had no through road until 2013.\n\nThe gardens are newly planted, in organic mountain plots, and several cultivars grow side by side. A 2024 study of six cultivars there found that season shaped the leaf chemistry more than the cultivar did, and that summer leaf suited both green and black tea.\n\nThere is no settled flavour benchmark yet. Treat the green tea like a typical Chinese mountain green and adjust by taste.\n\nThe local industry itself admits the name is not yet widely known and is working on standards and branding, so quality will vary. Ask who made the tea and which season it comes from, and take the 'organic' and 'high mountain' wording as a starting point for questions.",
+  "history": "Before the road, locals made brick tea mainly for their own use. Commercial planting took off after the Medog road opened on 31 October 2013: county tea area went from about 90 mu to 19,200 mu in ten years, across 103 gardens, as companies from elsewhere partnered with villagers. An earlier count, partway through that growth, gave 21 gardens across five townships, including Beibeng.\n\nIn 2023 and 2024 the county drew up a tea standards system with help from Foshan in Guangdong, and it held its first tea culture tourism season in April 2024.",
+  "liquor_hex": "#D4CF80",
+  "leaf_hex": "#67783F",
+  "sources": [
+    "https://cn.chinadaily.com.cn/a/202404/30/WS6630c4e4a3109f7860ddbe58.html",
+    "https://www.thepaper.cn/newsDetail_forward_1906265",
+    "https://news.ifeng.com/c/8UKKNwmpBqQ",
+    "https://www.spkx.net.cn/CN/Y2024/V45/I10/167"
+  ],
+  "confidence": "medium",
+  "images": [],
+  "wikipedia_title": null,
+  "wikipedia_scope": "none",
+  "popularity": 2
+}

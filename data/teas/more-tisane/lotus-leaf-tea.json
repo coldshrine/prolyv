@@ -1,0 +1,59 @@
+{
+  "slug": "lotus-leaf-tea",
+  "name_en": "Lotus Leaf Tea",
+  "name_native": "荷叶茶",
+  "name_romanized": "Héyè Chá",
+  "name_zh": "荷叶茶",
+  "name_ru": "Чай из листьев лотоса",
+  "aliases": [
+    "Yeonnip-cha",
+    "연잎차",
+    "荷葉茶",
+    "Чай из листьев лотоса",
+    "Хэ Е Ча"
+  ],
+  "category": "tisane",
+  "origin_country": "China",
+  "origin_region": "China, Korea and Vietnam · widespread",
+  "cultivar": null,
+  "processing": "Young lotus leaves are usually steamed or roasted to fix them, then dried and cut. Fresh leaves are sometimes infused directly.",
+  "form": "other",
+  "harvest_season": "Young leaves are preferred, gathered while the plant is in leaf during the warm months; fresh use is seasonal, dried leaf sells all year.",
+  "appearance_dry": "Crumbled or cut flakes of dull olive-green leaf with visible pale veins.",
+  "appearance_liquor": "Clear, pale yellow-green to light gold.",
+  "appearance_wet": "Soft, olive-coloured leaf pieces, often fibrous along the veins.",
+  "taste_profile": "Herbal and vegetal with a bitter, slightly astringent edge, as Chinese herbal writing describes the leaf; roasted versions lean toastier.",
+  "taste_tags": [
+    "herbal",
+    "vegetal",
+    "bitter"
+  ],
+  "brewing": {
+    "grams": 6,
+    "water_ml": 600,
+    "temp_c": 90,
+    "steeps": 1,
+    "seconds": [
+      600
+    ],
+    "notes": "Korean practice simmers 6 to 12 g of dried leaf, or 15 to 20 g fresh, in 600 ml over low heat for two or three cups. Go gently, as hard boiling brings out bitterness."
+  },
+  "caffeine_level": "none",
+  "vintage_note": "Sold as dried cut leaf without a vintage, either alone or in herbal blends. As with other leaf infusions, recent stock tastes cleaner, and the green should not have gone to brown. Check the label: lotus tea can also mean green tea scented with lotus, which contains caffeine.",
+  "description": "Lotus leaf tea is an infusion of the lotus plant's own leaves, with no Camellia sinensis in it. It is drunk in China, Korea and Vietnam, and the Korean name yeonnip-cha is the one you will meet on many packets.\n\nThe young leaves usually get a burst of heat, either steam or a dry roast, before they are dried. That choice largely decides the cup: steamed leaf stays greener, while roasted leaf should come out toastier.\n\nExpect a herbal, vegetal drink with some bitterness, not a floral one, despite the name. The common mistake is treating it like a flower tea. In Korea it is gently simmered, and a lower flame keeps the bitterness polite.\n\nDo not confuse it with Vietnamese lotus tea, trà sen, which is green tea scented with lotus stamens, or with infusions of lotus flower, seed, plumule or root. These are separate drinks that share a name. Weight-loss promises are common on leaf-tea packets and are popular claims, not established fact.",
+  "history": "Lotus infusions are recorded as a broad family across East and Southeast Asia, made from nearly every part of the plant. The leaf version is best documented in Korean usage, with measures for simmering it, and in Chinese herbal tradition, which classes the leaf as bitter and astringent and uses it to clear summer heat. No clear date of origin for the drink is on record.",
+  "wikipedia_title": "Lotus tea",
+  "wikipedia_scope": "umbrella",
+  "popularity": 3,
+  "liquor_hex": "#D2C77A",
+  "leaf_hex": "#6F7A45",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Lotus_tea",
+    "https://zh.wikipedia.org/wiki/%E8%8D%B7%E8%91%89%E8%8C%B6",
+    "https://ja.wikipedia.org/wiki/%E8%93%AE%E8%8C%B6",
+    "https://ko.wikipedia.org/wiki/%EC%97%B0%EC%B0%A8_%28%EC%9D%8C%EC%8B%9D%29",
+    "https://www.wikidata.org/wiki/Q50304474"
+  ],
+  "confidence": "medium",
+  "images": []
+}

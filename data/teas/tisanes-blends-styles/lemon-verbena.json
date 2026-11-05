@@ -3,10 +3,20 @@
   "name_en": "Lemon Verbena",
   "name_native": "Cedrón / Verveine / Louiza",
   "name_romanized": null,
-  "aliases": ["Verveine", "Cedrón", "Luisa", "Hierba luisa", "Louiza", "Lemon beebrush", "Aloysia citrodora", "Lippia citriodora"],
+  "aliases": [
+    "Verveine",
+    "Cedrón",
+    "Luisa",
+    "Hierba luisa",
+    "Louiza",
+    "Lemon beebrush",
+    "Aloysia citrodora",
+    "Lippia citriodora",
+    "Вербена лимонная"
+  ],
   "category": "tisane",
   "origin_country": "Argentina",
-  "origin_region": "Northwest Argentina (cedrón); the shrub is native to Argentina, Chile and Peru, and the dried leaf is a French café staple as verveine and a Moroccan favourite as louiza",
+  "origin_region": "Northwest Argentina",
   "cultivar": "Aloysia citrodora, a lemon-scented shrub in the verbena family; unrelated to lemon balm or lemongrass",
   "processing": "Leaves are stripped from the stems before flowering and dried quickly in shade or warm air; the best grades are kept as whole leaves rather than cut, because the oil is in the leaf surface.",
   "form": "loose",
@@ -15,12 +25,79 @@
   "appearance_liquor": "Pale yellow-green, clear.",
   "appearance_wet": "Softened pale leaves that still smell strongly of lemon.",
   "taste_profile": "The most lemony of all the lemon herbs: an intense lemon-sherbet aroma without any sourness, a soft sweetness and a faint floral edge, light in body and clean on the finish.",
-  "taste_tags": ["citrus", "sweet", "floral", "herbal"],
-  "brewing": {"grams": 2, "water_ml": 250, "temp_c": 95, "steeps": 2, "seconds": [300, 420], "notes": "A heaped tablespoon of whole leaves per cup, just-boiled water, 5 minutes with a lid; the leaves take a second steep. Excellent cold-brewed, and in Argentina a few leaves go into the yerba mate gourd."},
+  "taste_tags": [
+    "citrus",
+    "sweet",
+    "floral",
+    "herbal"
+  ],
+  "brewing": {
+    "grams": 2,
+    "water_ml": 250,
+    "temp_c": 95,
+    "steeps": 2,
+    "seconds": [
+      300,
+      420
+    ],
+    "notes": "A heaped tablespoon of whole leaves per cup, just-boiled water, 5 minutes with a lid; the leaves take a second steep. Excellent cold-brewed, and in Argentina a few leaves go into the yerba mate gourd."
+  },
   "caffeine_level": "none",
   "vintage_note": "Sold as the current year's harvest, without a date on most packs but with a clear tell: fresh lemon verbena is pale green and smells of lemon the moment the bag opens, old stock is brown-yellow and smells of hay. Whole-leaf grades (France's 'verveine odorante', Moroccan louiza) are worth paying for over broken or cut leaf; the main commercial sources are Morocco, Paraguay, Chile and southern France. Use within a year.",
   "description": "Lemon verbena is the lemon herb that actually smells like lemons: a South American shrub whose rough, narrow leaves carry so much citral that a single dried leaf scents a whole cup. It is cedrón in Argentina and Chile, where it grows wild and goes into the mate gourd, verveine in France, where it is the standard after-dinner tisane, and louiza in Morocco, where it is brewed with or without green tea.\n\nThe leaves are picked before flowering and dried fast and in the shade, and whole leaves are the mark of a careful producer, because the aroma sits in the leaf surface and crushed or cut leaf loses it quickly. There is nothing else to the process; what you are paying for is intact leaf from a recent harvest.\n\nThe cup is pale, light and intensely lemony without any acidity, with a soft sweetness and a faint floral note, and it is almost impossible to over-brew. Five minutes under a lid is right; the same leaves give a second steep. Cold-brewed it makes the best lemon-flavoured iced tea there is, with no sugar needed, and it blends naturally with mint, lemon balm, green tea or a little honey.\n\nBuy whole pale-green leaves and sniff the bag: if the lemon does not jump out, it is old. Moroccan and French groceries are good sources, and the French 'verveine' label usually means the whole-leaf grade.\n\nIt is traditionally drunk after dinner as a digestive and bedtime cup; whatever you make of that, it is one of the finest single-herb infusions and the one to try if lemongrass seems thin and lemon balm too faint.",
   "wikipedia_title": "Aloysia citrodora",
   "wikipedia_scope": "umbrella",
-  "popularity": 3
+  "popularity": 3,
+  "name_zh": "柠檬马鞭草茶",
+  "name_ru": "Лимонная вербена",
+  "history": "Lemon verbena is a South American shrub that the Spanish and Portuguese brought to Europe in the 17th century, where it was cultivated for its oil. That oil went into perfume until its skin-irritating properties caught up with it, and the EU now prohibits it as a fragrance ingredient, apart from the absolute.\n\nIn Latin America the leaf is used in traditional medicine. It also flavours Inca Kola, the Peruvian soft drink launched in 1935. Note that hierba luisa can mean lemongrass as well in Spanish, so the name alone does not settle which plant is in the packet.",
+  "liquor_hex": "#E0DC96",
+  "leaf_hex": "#A3AE6E",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Aloysia_citrodora",
+    "https://en.wikipedia.org/wiki/Inca_Kola"
+  ],
+  "confidence": "low",
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ce/Leaves_of_Aloysia_citrodora.jpg/1280px-Leaves_of_Aloysia_citrodora.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ce/Leaves_of_Aloysia_citrodora.jpg/330px-Leaves_of_Aloysia_citrodora.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Leaves_of_Aloysia_citrodora.jpg",
+      "author": "ViajeroExtraviado",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "kind": "dry_leaf",
+      "alt": "Pile of dried lemon verbena leaves, long and curled"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/01/Aloysia_citrodora_-_leaf.JPG/1280px-Aloysia_citrodora_-_leaf.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/01/Aloysia_citrodora_-_leaf.JPG/330px-Aloysia_citrodora_-_leaf.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Aloysia_citrodora_-_leaf.JPG",
+      "author": "Metrónomo",
+      "license": "CC BY-SA 2.5 ar",
+      "license_url": "https://creativecommons.org/licenses/by-sa/2.5/ar/deed.en",
+      "kind": "plant",
+      "alt": "Single long, narrow lemon verbena leaf on the plant"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f9/Aloysia_citrodora_%28Verbenaceae%29%2C_hojas.jpg/1280px-Aloysia_citrodora_%28Verbenaceae%29%2C_hojas.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f9/Aloysia_citrodora_%28Verbenaceae%29%2C_hojas.jpg/330px-Aloysia_citrodora_%28Verbenaceae%29%2C_hojas.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Aloysia_citrodora_(Verbenaceae),_hojas.jpg",
+      "author": "Juan Carlos Fonseca Mata",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "kind": "plant",
+      "alt": "Lemon verbena branches with lance-shaped leaves and pale flower clusters"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/a/a6/Aloysia_citriodora_002.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a6/Aloysia_citriodora_002.jpg/330px-Aloysia_citriodora_002.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Aloysia_citriodora_002.jpg",
+      "author": "H. Zell",
+      "license": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "kind": "plant",
+      "alt": "Flowering lemon verbena stem with narrow green leaves"
+    }
+  ]
 }

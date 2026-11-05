@@ -1,0 +1,66 @@
+{
+  "slug": "chenpi-tea",
+  "name_en": "Chenpi Tea (Aged Citrus Peel)",
+  "name_native": "陈皮茶",
+  "name_romanized": "Chénpí Chá",
+  "name_zh": "陈皮茶",
+  "name_ru": "Чэнь Пи Ча",
+  "aliases": [
+    "Chenpi tea",
+    "陈皮",
+    "陳皮茶",
+    "Citrus peel tea",
+    "Gyulpi-cha",
+    "귤피차",
+    "橘皮茶",
+    "tangerine peel tea",
+    "Xinhui chenpi",
+    "新会陈皮",
+    "Чэньпи ча"
+  ],
+  "category": "tisane",
+  "origin_country": "China",
+  "origin_region": "Guangdong · Xinhui",
+  "cultivar": "Chazhi mandarin (茶枝柑), for Xinhui chenpi",
+  "processing": "Mandarin peel is opened, turned, dried, then stored to age and periodically re-sunned; it loses weight slowly in storage. Peel counts as chenpi only after at least three years of ageing, and is then infused or boiled.",
+  "form": "other",
+  "harvest_season": "Xinhui peel is classed by picking date: green peel in early November, second-red peel from late November to early December, and big-red peel in late December.",
+  "appearance_dry": "Curled, leathery pieces of peel, orange-red to dark brown depending on age and picking.",
+  "appearance_liquor": "Typically clear amber, deepening to reddish brown with older peel.",
+  "appearance_wet": "Softened peel strips, dark orange to brown.",
+  "taste_profile": "As is typical of aged citrus peel, a warm orange-oil aroma with mild sweetness and a bitter edge, growing rounder and less sharp with age.",
+  "taste_tags": [
+    "citrus",
+    "woody",
+    "sweet",
+    "bitter"
+  ],
+  "brewing": {
+    "grams": 3,
+    "water_ml": 300,
+    "temp_c": 100,
+    "steeps": 3,
+    "seconds": [
+      300,
+      420,
+      600
+    ],
+    "notes": "A practical starting point. Break off a small piece, rinse briefly, and give boiling water plenty of time, or simmer it for more depth."
+  },
+  "caffeine_level": "none",
+  "vintage_note": "Sold by age: three years is the minimum for Xinhui chenpi, with five- and ten-year peel priced far higher. Ages are often falsified and hard to verify, so buy from a seller with traceable records, and treat a low price on old peel with suspicion.",
+  "description": "Chenpi tea is a simple infusion of aged mandarin peel. The peel is the whole game, and the most prized comes from Xinhui in Guangdong, where it must be chazhi mandarin; the place holds a national geographical indication. In Korea a citrus peel tea goes by the name gyulpi-cha.\n\nThe work is mostly time. Peel is opened, dried, turned, stored and sunned again, and it keeps losing weight year after year. One industry estimate gets about 2.2 jin of three-year peel from 100 jin of fruit, which explains the price.\n\nPicking date matters too: early-November peel is green, December peel is red, and these are sold as different grades. Expect orange oil, a bit of bitterness and, in older peel, more roundness, as is usual with aged citrus peel. Don't be shy with steep time, but a small piece goes a long way.\n\nThe market has real fraud problems, with false ages, false origins and fast-aged peel. Xinhui's sub-areas such as Tianma, Chakeng and Meijiang have reputations of their own, so a seller who can name village and year is a better bet.\n\nIn Guangdong the same peel also goes into porridge, soups and seasoning, so a good piece has uses beyond the cup.",
+  "history": "Chenpi has a long record in Chinese medicine and in Guangdong cooking, and the drink is a domestic habit more than a named historic tea, so little is documented about chenpi tea itself.\n\nXinhui received national geographical indication protection for its peel in 2006. High prices have drawn fakes and false ages, prompting local standards and traceability systems.",
+  "liquor_hex": "#BE7E2C",
+  "leaf_hex": "#7A3F1E",
+  "sources": [
+    "https://www.cssn.cn/ztzl/fztd/hpzgfztddfz/202311/t20231113_5696405.shtml",
+    "https://www.jiemian.com/article/8918105.html"
+  ],
+  "confidence": "medium",
+  "wikipedia_title": null,
+  "wikipedia_scope": "none",
+  "popularity": 3,
+  "sources_note": "Brewing and taste are class-typical, not sourced for this tea specifically. Village name in the source was rendered inconsistently (茶坑 vs Chaping); Chakeng follows the characters.",
+  "images": []
+}

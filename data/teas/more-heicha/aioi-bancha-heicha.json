@@ -1,0 +1,56 @@
+{
+  "slug": "aioi-bancha-heicha",
+  "name_en": "Aioi Bancha",
+  "name_native": "相生晩茶",
+  "name_romanized": "Aioi bancha",
+  "aliases": [
+    "相生晩茶"
+  ],
+  "category": "heicha",
+  "origin_country": "Japan",
+  "origin_region": "Tokushima · Naka",
+  "cultivar": null,
+  "form": "loose",
+  "caffeine_level": "medium",
+  "brewing": {
+    "grams": 6,
+    "water_ml": 120,
+    "temp_c": 100,
+    "steeps": 6,
+    "seconds": [
+      15,
+      15,
+      20,
+      30,
+      45,
+      60
+    ],
+    "notes": "A safe starting point for dark tea: rinse once, boiling water, or simmer it the traditional way."
+  },
+  "taste_tags": [
+    "tart",
+    "sweet"
+  ],
+  "description": "The Awa bancha of Naka in Tokushima Prefecture, from the former town of Aioi: a tea fermented by lactic acid bacteria and sold under the local name.\n\nTreat it as you would any dark tea: rinse it, use boiling water, and buy from someone who can say who pressed it and when.",
+  "wikipedia_title": null,
+  "wikipedia_scope": "none",
+  "popularity": 1,
+  "name_zh": "相生晚茶",
+  "name_ru": "Аиои бантя",
+  "history": "Legends credit Awa bancha to Kobo Daishi or to a Heike fugitive named Yokoo Gon-no-kami, but no record before the early modern period confirms either. The making of Awa bancha was selected for documentation as intangible folk heritage in 2018 and designated an important intangible folk cultural property in 2021. Little is recorded about Aioi separately from the wider tea.",
+  "liquor_hex": "#C4A040",
+  "leaf_hex": "#4A3D22",
+  "sources": [
+    "https://ja.wikipedia.org/wiki/阿波晩茶"
+  ],
+  "confidence": "medium",
+  "images": [],
+  "stub": true,
+  "processing": "Mature leaves are stripped by hand, boiled, bruised, then packed into sealed weighted tubs under their cooking water, in Naka usually for one to two weeks, and finally dried.",
+  "harvest_season": "Midsummer, around July.",
+  "appearance_dry": "Usually dark leaf, loose or pressed into bricks or baskets.",
+  "appearance_liquor": "Usually orange-red to dark brown.",
+  "appearance_wet": "Usually coarse dark leaf with some stem.",
+  "taste_profile": "A pickle-like aroma from the tub fermentation, low in astringency, with a gentle sweetness.",
+  "vintage_note": "Dark teas are sold by production year and many improve with several years of dry storage."
+}

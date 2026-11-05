@@ -1,0 +1,58 @@
+{
+  "slug": "zhengmei-tea",
+  "name_en": "Zhengmei Tea",
+  "name_native": "蒸酶茶",
+  "name_romanized": "Zhēngméi Chá",
+  "name_zh": "蒸酶茶",
+  "name_ru": "Чжэн Мэй Ча",
+  "aliases": [
+    "Gengma Zhengmei",
+    "Gengmazhengmeicha",
+    "耿马蒸酶茶"
+  ],
+  "category": "green",
+  "origin_country": "China",
+  "origin_region": "Yunnan · Lincang · Gengma",
+  "cultivar": "Yunnan large-leaf",
+  "processing": "A steamed green tea: heat from steam stops oxidation, which is rare among Yunnan greens, and the leaf is then shaped and dried. It uses improved Yunnan large-leaf varieties.",
+  "form": "loose",
+  "harvest_season": "Little is recorded about picking dates for this tea. As with most Chinese greens, spring leaf is normally the most prized.",
+  "appearance_dry": "Tight, rounded, firmly made leaf with a faint frosty bloom on the surface.",
+  "appearance_liquor": "Fresh, bright green and clear.",
+  "appearance_wet": "As with other steamed large-leaf greens, expect soft green leaf, somewhat broader than that of small-leaf Chinese greens.",
+  "taste_profile": "Fresh and savoury-sweet with a clean finish, and an aroma sold in several styles: sweetcorn, chestnut or plain clean-green.",
+  "taste_tags": [
+    "vegetal",
+    "nutty",
+    "sweet",
+    "umami"
+  ],
+  "brewing": {
+    "grams": 3,
+    "water_ml": 150,
+    "temp_c": 80,
+    "steeps": 3,
+    "seconds": [
+      60,
+      75,
+      120
+    ],
+    "notes": "A starting point typical of steamed greens, not a documented recipe for this tea. Large-leaf material turns brisk fast in hotter water, so go cool and short first."
+  },
+  "caffeine_level": "medium",
+  "vintage_note": "Sold like other green teas, as a recent harvest meant to be drunk fresh rather than aged. Lots are not usually tracked by year in the way pu-erh is, so check the production date on the pack and pass on anything old.",
+  "description": "Zhengmei is a steamed green tea from Yunnan, best known from Gengma county in Lincang. Yunnan's greens are usually overshadowed by its pu-erh and black tea, and most Chinese greens are pan-fired or baked, so a steamed tea made from big-leaf bushes is an unusual thing.\n\nThe name points to the step that defines it: steam knocks out the leaf's enzymes and keeps the colour green. Large-leaf Yunnan varieties are the raw material, which is what separates it from the small-leaf steamed teas of Japan.\n\nIn the cup it should be bright green and fresh, with a savoury sweetness. Makers sell it in aroma styles described as sweetcorn, chestnut and clean-green. As with other steamed greens, water that is too hot is the usual mistake; keep it around 80 °C.\n\nMuch of what is on record comes from one Gengma producer group and its Huiwei brand, whose line runs from silver-needle grades to broken green tea. Treat its descriptions as a maker's account of its own tea, and look for a recent production date when buying.",
+  "history": "Gengma's steamed green tea is documented mostly through its local producer, Yunnan Gengma Zhengmei Tea Group, whose own account says its Huiwei brand became a Yunnan provincial famous trademark in October 2003. When the style began is not clearly recorded.\n\nLincang as a whole is described as a birthplace of Yunnan steamed large-leaf green tea. The producer also reports sales around China and to Japan and Myanmar.",
+  "wikipedia_title": null,
+  "wikipedia_scope": "none",
+  "popularity": 2,
+  "liquor_hex": "#C6CF78",
+  "leaf_hex": "#5F7040",
+  "images": [],
+  "sources": [
+    "https://www.maigoo.com/top/427013.html",
+    "https://milulu.com.cn/techan/32876.html"
+  ],
+  "confidence": "low",
+  "sources_note": "Both pages are aggregator or producer-derived; award claims left out except the dated trademark."
+}

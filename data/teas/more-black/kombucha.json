@@ -1,0 +1,60 @@
+{
+  "slug": "kombucha",
+  "name_en": "Kombucha",
+  "name_native": null,
+  "name_romanized": null,
+  "aliases": [
+    "康普茶",
+    "紅茶菌",
+    "海宝",
+    "Kombucha tea",
+    "Tea fungus",
+    "Чайный гриб",
+    "Чайный квас"
+  ],
+  "category": "black",
+  "origin_country": "China",
+  "origin_region": "Bohai Sea region",
+  "cultivar": null,
+  "form": "other",
+  "caffeine_level": "high",
+  "brewing": {
+    "grams": 3,
+    "water_ml": 200,
+    "temp_c": 95,
+    "steeps": 2,
+    "seconds": [
+      180,
+      240
+    ],
+    "notes": "A safe starting point for black tea: Western style, water just off the boil."
+  },
+  "taste_tags": [
+    "tart",
+    "sweet"
+  ],
+  "description": "A lightly sour, fizzy drink made by fermenting sweetened tea, usually black, with a symbiotic culture of bacteria and yeast. Its likely but unproven home is China; juice, fruit or spices are often added.\n\nThis is a way of preparing tea more than a tea you buy under one name, so the recipe and the base tea change from one maker to the next.",
+  "wikipedia_title": null,
+  "wikipedia_scope": "none",
+  "popularity": 1,
+  "name_zh": "红茶菌",
+  "name_ru": "Комбуча",
+  "history": "Its origin is uncertain. It may come from the Bohai Sea region, and tales of a Qin emperor or a Korean doctor named Kombu are unfounded legends. It appeared in Eastern Europe in an 1852 work, reached Japan from Russia and became a fad there after a 1974 bestseller, then swept China in the 1980s until worries over contamination and kojic acid ended the craze. Bottled kombucha appeared in the late 1990s. Claimed health benefits have little evidence behind them, and it is not recommended as therapy.",
+  "liquor_hex": "#C08A3E",
+  "leaf_hex": "#3A2A1E",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Kombucha",
+    "https://zh.wikipedia.org/wiki/%E7%BA%A2%E8%8C%B6%E8%8F%8C",
+    "https://www.wikidata.org/wiki/Q657032"
+  ],
+  "confidence": "medium",
+  "images": [],
+  "stub": true,
+  "processing": "Sugared tea is fermented with a culture of yeast and acetic acid bacteria, which forms a biofilm mat often miscalled a mushroom.",
+  "harvest_season": "Not tied to a harvest: it depends on the base tea.",
+  "appearance_dry": "Usually dark twisted leaf, sometimes with golden tips.",
+  "appearance_liquor": "Usually a clear red-brown.",
+  "appearance_wet": "Usually coppery brown leaf.",
+  "taste_profile": "Slightly sour and effervescent, with small amounts of alcohol.",
+  "vintage_note": "Not sold by vintage: it is made from whatever base tea the maker keeps, so freshness of the base matters more than the year."
+}

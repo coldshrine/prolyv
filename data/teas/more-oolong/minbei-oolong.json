@@ -1,0 +1,64 @@
+{
+  "slug": "minbei-oolong",
+  "name_en": "Minbei Oolong",
+  "name_native": "闽北乌龙",
+  "name_romanized": "Mǐnběi Wūlóng",
+  "name_zh": "闽北乌龙",
+  "name_ru": "Миньбэй улун",
+  "aliases": [
+    "Minbei Wulong",
+    "闽北乌龙茶",
+    "Миньбэй Улун",
+    "Минь Бэй улун",
+    "North Fujian oolong",
+    "閩北烏龍"
+  ],
+  "category": "oolong",
+  "origin_country": "China",
+  "origin_region": "Fujian · Minbei",
+  "cultivar": "Various, including Shuixian, Rougui and the Wuyi named bushes",
+  "processing": "Usually among the more oxidised oolongs, with twisted rather than ball-rolled leaf, and generally finished with a noticeable roast.",
+  "form": "loose",
+  "harvest_season": "Mainly spring. The roast follows over later months, so finished teas reach the market well after picking.",
+  "appearance_dry": "Long, twisted strips, usually dark brown to near black.",
+  "appearance_liquor": "Orange to deep amber, clear when well made.",
+  "appearance_wet": "Large, dark leaves with oxidised red edges, as is typical of the class.",
+  "taste_profile": "Full and rounded, with roast over flower and fruit notes and a firm mineral finish in the best Wuyi lots. It varies widely between plants and places.",
+  "taste_tags": [
+    "roasted",
+    "mineral",
+    "floral",
+    "woody"
+  ],
+  "brewing": {
+    "grams": 7,
+    "water_ml": 110,
+    "temp_c": 100,
+    "steeps": 7,
+    "seconds": [
+      10,
+      10,
+      15,
+      20,
+      30,
+      45,
+      60
+    ],
+    "notes": "A family of teas, so adjust by roast. Boiling water suits most of them; heavy roasts forgive less on long steeps."
+  },
+  "caffeine_level": "medium",
+  "vintage_note": "This is a regional family and not a single product. Its teas are usually sold by spring harvest year and by plant and place, roasted over the following months. Roasted lots are commonly rested before drinking, and older lots are sold with their age stated.",
+  "description": "Minbei oolong means oolong from northern Fujian. It is one half of the province's old split, with southern Minnan oolong as the other half. Wuyi rock tea is its famous face, and Da Hong Pao, Rou Gui and Shui Xian all belong here.\n\nWhat ties the group together is the making. Teas here are usually oxidised further than southern ones, twisted into long strips and roasted, which gives a deeper colour and a heavier body.\n\nTaste runs from woody, roasted Shuixian to spicy Rou Gui and flowery named bushes. Brew them with boiling water and short steeps, and pay attention to the first few cups, which show the roast most clearly.\n\nYou will rarely see Minbei oolong as a product name on a good tea. Buy by plant and place, such as Wuyi Rou Gui, and treat the regional label as a map, not a grade.",
+  "history": "The north and south split of Fujian oolong is a long-standing way of classing the province's teas, and Chinese references place Wuyi rock tea in the northern group.\n\nLittle is documented about when the term itself came into use. It works today as a classification, with the Wuyi Mountains at its centre and other northern Fujian Shuixian around them.",
+  "liquor_hex": "#B56A28",
+  "leaf_hex": "#3A2A1E",
+  "sources": [
+    "https://zh.wikipedia.org/wiki/%E6%AD%A6%E5%A4%B7%E5%B2%A9%E8%8C%B6",
+    "https://blog.sina.com.cn/s/blog_414dbdbf0102vc1x.html"
+  ],
+  "confidence": "medium",
+  "images": [],
+  "wikipedia_title": "Oolong",
+  "wikipedia_scope": "umbrella",
+  "popularity": 3
+}

@@ -1,0 +1,65 @@
+{
+  "slug": "butter-tea",
+  "name_en": "Butter Tea",
+  "name_native": "བོད་ཇ་",
+  "name_romanized": "bö ja",
+  "name_zh": "酥油茶",
+  "name_ru": "Часуйма",
+  "aliases": [
+    "Bho jha",
+    "Po cha",
+    "Тибетский чай",
+    "Cha su mar",
+    "Cha süma",
+    "ཇ་སྲུབ་མ་",
+    "Su chya",
+    "phe chya",
+    "Suyou cha",
+    "Su ja",
+    "Gur gur cha"
+  ],
+  "category": "heicha",
+  "origin_country": "China",
+  "origin_region": "Tibet",
+  "cultivar": null,
+  "processing": "Brick tea is boiled into a strong brew, then churned with butter and salt until it emulsifies. A traditional wooden churn does the work, though electric blenders are now common.",
+  "form": "other",
+  "harvest_season": "Not seasonal: it is made year-round from pressed dark tea, which keeps well.",
+  "appearance_dry": "The base is usually a dark pressed brick; there is no dry form of the drink itself.",
+  "appearance_liquor": "Opaque, milky tan with a sheen of fat on top.",
+  "appearance_wet": "Not applicable: the leaf is strained out before churning.",
+  "taste_profile": "Savoury and salty, rich with butter, closer to a thin broth than to a cup of tea. It divides visitors, who often compare it to soup.",
+  "taste_tags": [
+    "creamy",
+    "earthy",
+    "bitter"
+  ],
+  "brewing": {
+    "grams": 10,
+    "water_ml": 1000,
+    "temp_c": 100,
+    "steeps": 1,
+    "seconds": [
+      1800
+    ],
+    "notes": "Boil the tea long, strain, then churn or blend with about as much butter as tea by weight and a little salt, up to 0.4% by weight. Simmering time varies widely by household. Serve hot."
+  },
+  "caffeine_level": "medium",
+  "vintage_note": "Butter tea is a drink made at home or in monasteries, not sold by year. What you buy is the base tea, usually a pressed brick, plus butter. Any age statement applies to the tea alone, and fresh butter matters more to the cup than the vintage.",
+  "description": "Butter tea is the everyday drink of Tibet and much of the Himalayan region: strong tea churned with butter and salt. Traditionally the butter is yak, though cow's butter is now widely used because it is cheaper and easier to find. It is more a recipe than a tea type, so the category here reflects its usual brick-tea base.\n\nThe tea is boiled for a long time, sometimes kept as a concentrate for several days, then strained into a churn with butter and salt. That churning emulsifies the fat, and the wooden churn called a dongmo has often been replaced by a blender.\n\nIf you expect tea you may be surprised, because it tastes more like a salted broth. Drink it hot and slowly, and try it poured over tsampa, the roasted barley flour it is often eaten with. Getting the salt right matters most: Tibetan tasters studied in Sichuan and Yunnan preferred it at 0.4% by weight or less.\n\nEtiquette is simple. The host refills your bowl after each sip, so if you have had enough, leave it full and drain it just before you go. Regular heavy use of brick tea can bring a real fluoride load, and dental fluorosis has been linked to it in parts of Tibet, so it is worth knowing about if you drink litres a day.",
+  "history": "Tea reached Tibet from China by about the 7th century, with a legend crediting a Chinese princess's marriage to a Tibetan king for opening the trade. Common use came much later: butter tea is generally placed as spreading around the 13th to 14th century, under the Sakya or Phagmodrupa periods.\n\nIt also entered monastic life. Ganden Monastery in Lhasa has prepared it in huge cauldrons for its monks, and the drink remains part of hospitality today. Under the Dalai Lamas tea was a state monopoly until the early 19th century.",
+  "liquor_hex": "#C9A77C",
+  "leaf_hex": "#33241A",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Butter_tea",
+    "https://zh.wikipedia.org/wiki/%E9%85%A5%E6%B2%B9%E8%8C%B6",
+    "https://ja.wikipedia.org/wiki/%E3%83%90%E3%82%BF%E3%83%BC%E8%8C%B6",
+    "https://ru.wikipedia.org/wiki/%D0%A7%D0%B0%D1%81%D1%83%D0%B9%D0%BC%D0%B0",
+    "https://www.wikidata.org/wiki/Q989930"
+  ],
+  "confidence": "high",
+  "wikipedia_title": "Butter tea",
+  "wikipedia_scope": "exact",
+  "popularity": 3,
+  "images": []
+}

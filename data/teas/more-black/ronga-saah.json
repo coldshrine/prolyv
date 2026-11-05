@@ -1,0 +1,53 @@
+{
+  "slug": "ronga-saah",
+  "name_en": "Ronga Saah",
+  "name_native": null,
+  "name_romanized": null,
+  "aliases": [
+    "Ronga Sah"
+  ],
+  "category": "black",
+  "origin_country": "India",
+  "origin_region": "Assam",
+  "cultivar": null,
+  "form": "loose",
+  "caffeine_level": "high",
+  "brewing": {
+    "grams": 3,
+    "water_ml": 200,
+    "temp_c": 95,
+    "steeps": 2,
+    "seconds": [
+      180,
+      240
+    ],
+    "notes": "A safe starting point for black tea: Western style, water just off the boil."
+  },
+  "taste_tags": [
+    "malty",
+    "sweet"
+  ],
+  "description": "Ronga Saah is a way of drinking tea popular in Assam, India: red tea served without milk.\n\nThis is a way of preparing tea more than a tea you buy under one name, so the recipe and the base tea change from one maker to the next.",
+  "wikipedia_title": null,
+  "wikipedia_scope": "none",
+  "popularity": 1,
+  "name_zh": "阿萨姆清饮红茶",
+  "name_ru": "Ронга сах",
+  "history": "It is named alongside Gakhir Sah, the milk tea of the same region, among Assam's popular brews. Little more is documented about it.",
+  "liquor_hex": "#A8431C",
+  "leaf_hex": "#3A2A1E",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Indian_tea_culture",
+    "https://thebetterindia.com/393519/chai-map-of-india-unique-popular-teas-parsi-choi-ronga-saah-sulaimani-lebu-cha-cutting"
+  ],
+  "confidence": "low",
+  "images": [],
+  "stub": true,
+  "processing": "Made from a black base tea according to the recipe; the method varies.",
+  "harvest_season": "Not tied to a harvest: it depends on the base tea.",
+  "appearance_dry": "Usually dark twisted leaf, sometimes with golden tips.",
+  "appearance_liquor": "Red, drunk without milk.",
+  "appearance_wet": "Usually coppery brown leaf.",
+  "taste_profile": "Expect what black teas usually give: malty, sweet and brisk.",
+  "vintage_note": "Not sold by vintage: it is made from whatever base tea the maker keeps, so freshness of the base matters more than the year."
+}

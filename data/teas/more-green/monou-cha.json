@@ -1,0 +1,55 @@
+{
+  "slug": "monou-cha",
+  "name_en": "Monou-cha",
+  "name_native": "桃生茶",
+  "name_romanized": "Monou-cha",
+  "aliases": [
+    "Hyakuhachi-cha",
+    "百八茶"
+  ],
+  "category": "green",
+  "origin_country": "Japan",
+  "origin_region": "Miyagi · Ishinomaki",
+  "cultivar": null,
+  "form": "loose",
+  "caffeine_level": "medium",
+  "brewing": {
+    "grams": 3,
+    "water_ml": 150,
+    "temp_c": 80,
+    "steeps": 3,
+    "seconds": [
+      60,
+      75,
+      105
+    ],
+    "notes": "A safe starting point for green tea: cooler water, short steeps, then adjust by taste."
+  },
+  "taste_tags": [
+    "vegetal",
+    "sweet"
+  ],
+  "description": "A green tea from the former town of Monou, now part of Ishinomaki in Miyagi, once regarded as Japan's northernmost tea. It is also called Hyakuhachi-cha because it is picked on the 108th day after the start of spring rather than the usual 88th.\n\nTreat it as you would any green tea: cooler water, short steeps, and a seller who can say where and when it was picked.",
+  "wikipedia_title": null,
+  "wikipedia_scope": "none",
+  "popularity": 1,
+  "name_zh": "桃生茶",
+  "name_ru": "Моноу-тя",
+  "history": "When cultivation began along the Kitakami River is uncertain. The 1996 town history says Date Masamune brought seed from Uji in the early Edo period to encourage local industry, and the domain's output only met its own needs. Planted area shrank from the late 1960s, since Miyagi's climate allows two flushes at most and Shizuoka had raised its yields. In 2003 about ten households around Kashizaki worked roughly 2 hectares, mostly for themselves, and one sold it as a product. A black tea made from it, Kitaha, was served at a dinner of the 2019 G20 Osaka summit.",
+  "liquor_hex": "#D6D27A",
+  "leaf_hex": "#7E8B3E",
+  "sources": [
+    "https://ja.wikipedia.org/wiki/桃生茶",
+    "https://www.wikidata.org/wiki/Q131912245"
+  ],
+  "confidence": "medium",
+  "images": [],
+  "stub": true,
+  "processing": "Typical of green tea: picked, heated soon after picking to stop oxidation, then shaped and dried.",
+  "harvest_season": "Picked on the 108th day after the start of spring, later than the customary 88th.",
+  "appearance_dry": "Green leaf whose shape depends on the maker, as is usual for regional green teas.",
+  "appearance_liquor": "Usually a clear, pale yellow-green.",
+  "appearance_wet": "Usually soft green leaf that opens up in the water.",
+  "taste_profile": "Full aroma with little bitterness and a mellow taste.",
+  "vintage_note": "Green teas like this are normally sold as the current year's harvest and are best within a year of picking. It is not an ageing tea."
+}

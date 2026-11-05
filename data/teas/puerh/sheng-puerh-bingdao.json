@@ -3,10 +3,17 @@
   "name_en": "Bingdao Sheng Pu-erh",
   "name_native": "冰岛生普洱",
   "name_romanized": "Bīngdǎo Shēng Pǔ'ěr",
-  "aliases": ["Bing Dao", "Bingdao Laozhai", "Bingdao Lao Zhai", "Iceland pu-erh", "Bingdao Wuzhai", "冰岛老寨"],
+  "aliases": [
+    "Bing Dao",
+    "Bingdao Laozhai",
+    "Bingdao Lao Zhai",
+    "Iceland pu-erh",
+    "Bingdao Wuzhai",
+    "冰岛老寨"
+  ],
   "category": "sheng",
   "origin_country": "China",
-  "origin_region": "Yunnan · Lincang · Shuangjiang · Mengku · Bingdao",
+  "origin_region": "Yunnan · Lincang · Mengku · Bingdao",
   "cultivar": "Mengku large-leaf (Mengku dayezhong), old seed-grown trees",
   "processing": "Raw pu-erh: pan-fired, hand-rolled, sun-dried maocha, pressed lightly into cakes or sold loose; top lots are single-village, single-garden spring pressings made in tiny quantities.",
   "form": "cake",
@@ -15,13 +22,48 @@
   "appearance_liquor": "Pale, luminous gold with a thick, glossy look, staying clear through the session.",
   "appearance_wet": "Large, plump, elastic yellow-green leaves with intact buds, strikingly even in grade.",
   "taste_profile": "Almost no bitterness; a rock-sugar sweetness that fills the mouth, orchid and honey aromatics, a silky, heavy body and a cool, lingering sensation deep in the throat.",
-  "taste_tags": ["sweet", "honey", "floral", "creamy"],
-  "brewing": {"grams": 7, "water_ml": 110, "temp_c": 95, "steeps": 12, "seconds": [8, 6, 8, 10, 15, 20, 30, 40, 60, 90, 120, 180], "notes": "Rinse once, briefly, and smell the lid: real Bingdao announces itself on the nose. Use porcelain and short steeps; the sweetness is the whole point, and long steeps only add leafiness. It keeps going well past ten infusions."},
+  "taste_tags": [
+    "sweet",
+    "honey",
+    "floral",
+    "creamy"
+  ],
+  "brewing": {
+    "grams": 7,
+    "water_ml": 110,
+    "temp_c": 95,
+    "steeps": 12,
+    "seconds": [
+      8,
+      6,
+      8,
+      10,
+      15,
+      20,
+      30,
+      40,
+      60,
+      90,
+      120,
+      180
+    ],
+    "notes": "Rinse once, briefly, and smell the lid: real Bingdao announces itself on the nose. Use porcelain and short steeps; the sweetness is the whole point, and long steeps only add leafiness. It keeps going well past ten infusions."
+  },
   "caffeine_level": "high",
   "vintage_note": "Sold by spring harvest year, by village within the Bingdao committee (Laozhai, Nanpo, Dijie, Bawai, Nuowu) and by tree class, as loose maocha, small cakes and 357 g cakes. The name only became a luxury around 2012–2015, so there is very little genuinely mid-aged Bingdao and essentially no aged Bingdao sold as such; what you can buy is young (1–5 years) tea from 2015–2025, with the few well-documented lots from the late 2000s treated as collector items. It is bought to drink young for its sweetness, and dry Lincang or Kunming storage is the norm; humid storage would blur exactly the clarity the price is paying for.",
   "description": "Bingdao is a Lahu and Dai village high on a ridge above Mengku town in Shuangjiang County, Lincang, and over the past decade or so it has become the most expensive tea in the Lincang region and a rival to Lao Ban Zhang for the most expensive in Yunnan. Where Lao Ban Zhang is about power, Bingdao is about sweetness: a tea with almost no bitterness that tastes of rock sugar and orchids and leaves a cool feeling in the throat.\n\nLocal records credit the village with the first planting of what became the Mengku large-leaf variety, and the old trees around Bingdao Laozhai are the reference for the type: big plump buds and thick leaves. The processing is standard sheng (a careful wok firing, light rolling, sun drying), and because every kilo matters the leaf is handled gently and pressed lightly or sold loose.\n\nThe cup is unusually clean: honey and orchid on the nose, a sugary sweetness from the first steep, a silky and surprisingly heavy body, and the sensation Chinese drinkers call 'ice-sugar rhyme', a cooling sweetness that sits at the back of the throat long after the cup. There is a faint bitterness in the mid-steeps on a strong brew, and a very long session. The mistake people make is to brew it hard looking for impact; it is a tea of texture and finish, not of punch.\n\nThe Bingdao administrative village has five hamlets, and 'Bingdao' on a wrapper may mean any of them, the broader Mengku area, or simply a hopeful name. Bingdao Laozhai is the one that costs a fortune; Nanpo, Dijie, Bawai and Nuowu are closer in character than in price. Given how small the old-tree harvest is, treat any cheap 'Bingdao gushu' as a style name and judge it on the sweetness and throat feel instead.\n\nFor the Bingdao style without the bill, look at other Mengku villages such as Xiaohusai, Bawai or Nuowu, or at a good Mengku blend labelled honestly.",
   "wikipedia_title": "Pu'er tea",
   "wikipedia_scope": "umbrella",
   "popularity": 3,
-  "sources_note": "The account of Bingdao as the planting origin of the Mengku large-leaf type comes from local county records and trade lore; stated here as what records say, not as established fact. The year the price boom started is given variously as 2012–2015."
+  "sources_note": "The account of Bingdao as the planting origin of the Mengku large-leaf type comes from local county records and trade lore; stated here as what records say, not as established fact. The year the price boom started is given variously as 2012–2015.",
+  "name_zh": "冰岛生普洱",
+  "name_ru": "Шэн Пуэр Бин Дао",
+  "history": "Bingdao is a village area near Mengku in Shuangjiang County, Lincang, and its raw pu-erh is one of the most expensive names in modern Yunnan tea. The usual story credits the village as the source of the Mengku large-leaf type, an account that rests on local tradition.\n\nIts fame as a luxury name is recent, and the exact timing of the price rise is told differently from one account to the next. Little well-documented older tea exists under the name.",
+  "liquor_hex": "#E3C766",
+  "leaf_hex": "#6A6C4A",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Pu%27er_tea"
+  ],
+  "confidence": "low",
+  "images": []
 }

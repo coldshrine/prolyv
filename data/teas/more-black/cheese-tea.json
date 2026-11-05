@@ -1,0 +1,60 @@
+{
+  "slug": "cheese-tea",
+  "name_en": "Cheese Tea (Naigai Cha)",
+  "name_native": "奶盖茶",
+  "name_romanized": "Nǎigài Chá",
+  "name_zh": "奶盖茶",
+  "name_ru": "Чай с сырной пенкой (Най Гай Ча)",
+  "aliases": [
+    "Cheese tea",
+    "Naigai Cha",
+    "奶蓋茶",
+    "奶霜茶",
+    "芝士奶盖",
+    "Milk cap tea",
+    "Найгай ча"
+  ],
+  "category": "black",
+  "origin_country": "Taiwan",
+  "origin_region": "Taiwan",
+  "cultivar": null,
+  "processing": "A drink, not a leaf style: cold green or black tea, often fruited, is topped with whipped cream cheese, cream or milk, usually with a little salt.",
+  "form": "other",
+  "harvest_season": "Not relevant to the drink; it is made all year from ordinary base teas.",
+  "appearance_dry": "There is no dry form of the drink itself; the base is plain green or black tea.",
+  "appearance_liquor": "Clear amber or pale gold tea under a thick white cap of foam, looking rather like a pint of beer.",
+  "appearance_wet": "No leaf reaches the cup; only the foam settles slowly into the tea.",
+  "taste_profile": "Cold, clean tea under a velvety cap that is both sweet and slightly salty, closer to mascarpone than to any firm cheese. Fruit versions add a Creamsicle-like note.",
+  "taste_tags": [
+    "creamy",
+    "sweet",
+    "fruity",
+    "brisk"
+  ],
+  "brewing": {
+    "grams": 6,
+    "water_ml": 250,
+    "temp_c": 90,
+    "steeps": 1,
+    "seconds": [
+      240
+    ],
+    "notes": "Brew strong and chill over ice. Whip the cream cheese with cream or milk and a pinch of salt, then spoon it on top. Sip through the foam from the rim rather than through a straw."
+  },
+  "caffeine_level": "medium",
+  "vintage_note": "There are no vintages: it is made to order and drunk at once, since the foam will not hold for long. Quality comes down to the base tea and the cap, and real cream cheese and fresh milk taste different from the powdered mix.",
+  "description": "Cheese tea is a cold tea with a thick cap of whipped, slightly salted cream cheese on top. Chinese calls it 奶盖茶, 'milk cap tea', which describes it better: this is more salted cream than anything you would put on a cracker.\n\nThe tea underneath is green or black, often fruited and sometimes layered. The cap is cream cheese or a powder mix, whipped with cream, milk or condensed milk, and shops may finish it with a sprinkle of salt.\n\nThe fun is in the contrast between cold tea and rich foam, with the salt keeping the sweetness in check. Drink it at the rim so you get both at once. A straw takes the tea and leaves the cap behind.\n\nWhen choosing a shop, ask what is in the cap. A bright tea base also matters, because a dull one vanishes under all that dairy.",
+  "history": "Accounts of its beginnings differ. One dates the milk-foam cap to 2002 in Taiwan, inspired by the local fashion for latte art, and credits a chain called Gai Bu Tong as the first to sell it. Another places the cheese version in Taiwanese night markets around 2010, made with powdered cheese, salt, whipping cream and milk.\n\nBy 2012 it had reached Guangdong, where the founders of Hey Tea switched to real cream cheese and fresh milk. The chain then took it across Asia and on to Australia and the UK, and its Shanghai shop drew queues of up to three hours when it opened in 2017. Hey Tea opened its first New York location in December 2023.",
+  "liquor_hex": "#C88B3E",
+  "leaf_hex": "#4A3524",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Cheese_tea",
+    "https://zh.wikipedia.org/wiki/%E5%A5%B6%E7%9B%96%E8%8C%B6"
+  ],
+  "confidence": "medium",
+  "wikipedia_title": "Cheese tea",
+  "wikipedia_scope": "exact",
+  "popularity": 2,
+  "images": [],
+  "sources_note": "The origin date differs between the en (about 2010) and zh (2002) pages; both are reported. Romanised chain name 盖不同 as Gai Bu Tong is my own rendering."
+}

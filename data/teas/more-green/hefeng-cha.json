@@ -1,0 +1,56 @@
+{
+  "slug": "hefeng-cha",
+  "name_en": "Hefeng Cha",
+  "name_native": "鹤峰茶",
+  "name_romanized": "Hèfēng Chá",
+  "aliases": [
+    "Hefeng Lü Cha",
+    "Hefeng green tea",
+    "鹤峰绿茶"
+  ],
+  "category": "green",
+  "origin_country": "China",
+  "origin_region": "Hubei · Enshi · Hefeng",
+  "cultivar": null,
+  "processing": "Hefeng Cha is an umbrella for tea from the county rather than one recipe. The green side includes pan-fired tea, part of it finished into export styles such as mee cha and gunpowder.",
+  "form": "loose",
+  "harvest_season": "No picking calendar specific to Hefeng is recorded. As with other Hubei greens, spring picking is normally the most valued.",
+  "appearance_dry": "Varies by style; typical pan-fired green is dark green and twisted, while the export styles are fine curled strips or tight pellets.",
+  "appearance_liquor": "Typical of pan-fired green tea, a clear yellow-green.",
+  "appearance_wet": "Typical of pan-fired green tea, medium olive-green leaves.",
+  "taste_profile": "No reliable tasting description exists for the county's tea as a whole. Pan-fired mountain greens of this type are typically vegetal and toasty with a firm edge.",
+  "taste_tags": [
+    "vegetal",
+    "roasted",
+    "bitter"
+  ],
+  "brewing": {
+    "grams": 3,
+    "water_ml": 150,
+    "temp_c": 85,
+    "steeps": 3,
+    "seconds": [
+      45,
+      60,
+      90
+    ],
+    "notes": "A general starting point for pan-fired green tea. Gunpowder-style pellets can take a slightly longer first steep."
+  },
+  "caffeine_level": "medium",
+  "vintage_note": "As with other Chinese greens, the domestic product is sold as the current year's spring harvest. Export green goes out by grade and lot and is not sold by vintage. Ask for the picking date, since the county name alone covers very different teas.",
+  "description": "Hefeng Cha simply means tea from Hefeng, a mountain county in the Enshi Tujia and Miao prefecture of western Hubei. It is a place name on a packet and not one defined tea, and the county makes both green tea and black tea in the Yihong tradition.\n\nMuch of the green is pan-fired, and an industry standard describes it being finished in the county into export styles, mee cha and gunpowder. So a good deal of Hefeng tea leaves the country without its name attached.\n\nThe county also promotes organic-certified gardens and old large-bush plantings. Those are worth asking about but say little about the cup on their own.\n\nThere is no agreed tasting profile, so judge the individual tea. Brew it as you would another pan-fired green, watch the water temperature, and expect a sturdier, toastier cup than a delicate spring bud tea. Ask whether you are buying a domestic spring tea or an export-style grade, as they are different things.",
+  "history": "Writing on Hefeng's tea culture organises its past around three themes: Rongmei tribute tea, Hefeng Yihong black tea, and the county's place as a tea source for the Ten Thousand Li Tea Road. Details and dates are thinly documented in accessible records, so those labels are best read as local heritage claims.",
+  "liquor_hex": "#C4BC68",
+  "leaf_hex": "#4C5428",
+  "sources": [
+    "https://search.napstic.cn/literature/periodical/010zhonggcy202408013",
+    "https://www.ttbz.org.cn/upload/file/20250401/6387910006025609053718509.doc"
+  ],
+  "confidence": "low",
+  "name_zh": "鹤峰茶",
+  "name_ru": "Хэфэн Ча",
+  "wikipedia_title": null,
+  "wikipedia_scope": "none",
+  "popularity": 2,
+  "images": []
+}

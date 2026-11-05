@@ -3,10 +3,15 @@
   "name_en": "Sikkim Temi Tea",
   "name_native": "टेमी चिया",
   "name_romanized": "Ṭemī chiyā",
-  "aliases": ["Temi tea", "Sikkim tea", "Temi Tea Garden", "Sikkim organic tea"],
+  "aliases": [
+    "Temi tea",
+    "Sikkim tea",
+    "Temi Tea Garden",
+    "Sikkim organic tea"
+  ],
   "category": "black",
   "origin_country": "India",
-  "origin_region": "Sikkim · Namchi (Temi)",
+  "origin_region": "Sikkim · Temi",
   "cultivar": "Chinary and clonal bushes of the Darjeeling type",
   "processing": "Orthodox black tea made in flushes like Darjeeling: a long wither, gentle rolling, partial oxidation for the spring teas and fuller oxidation in summer and autumn, then firing; certified organic.",
   "form": "loose",
@@ -15,13 +20,50 @@
   "appearance_liquor": "Bright gold to amber.",
   "appearance_wet": "Olive to copper leaf.",
   "taste_profile": "Floral and fruity with a honeyed sweetness and a brisk finish; often a little softer and cleaner than a Darjeeling from the same season.",
-  "taste_tags": ["floral", "fruity", "honey", "brisk"],
-  "brewing": {"grams": 3, "water_ml": 200, "temp_c": 90, "steeps": 2, "seconds": [210, 300], "notes": "Brew like a Darjeeling: just under 90 °C, no milk, a second steep for a good lot."},
+  "taste_tags": [
+    "floral",
+    "fruity",
+    "honey",
+    "brisk"
+  ],
+  "brewing": {
+    "grams": 3,
+    "water_ml": 200,
+    "temp_c": 90,
+    "steeps": 2,
+    "seconds": [
+      210,
+      300
+    ],
+    "notes": "Brew like a Darjeeling: just under 90 °C, no milk, a second steep for a good lot."
+  },
   "caffeine_level": "medium",
   "vintage_note": "Sold by flush and year under the 'Temi Tea' name, through the garden's own outlets, Indian retailers and the auction system, with first flush on sale from April and second flush from July; grades follow the Darjeeling codes (FTGFOP1 and so on). A few speciality importers carry it abroad. Best within a year of picking.",
-  "description": "Temi is the single tea garden of Sikkim, the small Himalayan state between Darjeeling and Bhutan, and its tea is essentially a Darjeeling made just across the border: the same Chinary and clonal bushes, the same flush system, the same light spring style, grown on the slopes above Namchi. The garden was planted in 1969 under the last Chogyal (king) of Sikkim and is still run by the state government.\n\nManufacture is orthodox: a long wither, gentle rolling, partial oxidation for the spring teas and fuller oxidation in summer and autumn, then firing. The garden is certified organic and markets itself heavily on that.\n\nThe cup is bright gold to amber, floral and fruity with a honeyed sweetness and a brisk finish, often a little softer and cleaner than a Darjeeling from the same season. Brew it like a Darjeeling: water around 90 °C, three to four minutes, no milk, a second steep for a good lot.\n\nIt is sold by flush and year under the 'Temi Tea' name, both through the garden's own outlets and through the auction system, with first flush on sale from April and second flush from July; a few speciality importers carry it abroad. Grades follow the Darjeeling codes (FTGFOP1 and so on). Drink it within a year of picking.\n\nIt is a good choice if you want Darjeeling character at a slightly lower price, and a nice answer to the question of whether the Darjeeling name is about the place or the style.",
+  "description": "Temi is the first and largest tea garden of Sikkim, the small Himalayan state between Darjeeling and Bhutan, and its tea is close kin to Darjeeling made just across the border: Chinary and clonal bushes, the flush system, the light spring style, grown on Tendong Hill above Namchi. The garden was founded in 1969 under the last Chogyal (king) of Sikkim and is still run by the state government.\n\nManufacture is orthodox: a long wither, gentle rolling, partial oxidation for the spring teas and fuller oxidation in summer and autumn, then firing. The garden is certified organic and markets itself heavily on that.\n\nThe cup is bright gold to amber, floral and fruity with a honeyed sweetness and a brisk finish, often a little softer and cleaner than a Darjeeling from the same season. Brew it like a Darjeeling: water around 90 °C, three to four minutes, no milk, a second steep for a good lot.\n\nIt is sold by flush and year under the 'Temi Tea' name, much of it through the Kolkata auction and the rest packed for local sale, with first flush on sale from April and second flush from July; a few speciality importers carry it abroad. Grades follow the Darjeeling codes (FTGFOP1 and so on). Drink it within a year of picking.\n\nIt is a good choice if you want Darjeeling character from a different hillside, and a nice answer to the question of whether the Darjeeling name is about the place or the style.",
   "wikipedia_title": "Sikkim tea",
   "wikipedia_scope": "exact",
   "popularity": 2,
-  "sources_note": "Native name given in Nepali (the main language of Sikkim). The 'Temi Tea Garden' Wikipedia article also exists and could be used instead of 'Sikkim tea'."
+  "sources_note": "Native name given in Nepali (the main language of Sikkim). The 'Temi Tea Garden' Wikipedia article also exists and could be used instead of 'Sikkim tea'.",
+  "name_zh": "锡金特米红茶",
+  "name_ru": "Сикким Теми",
+  "history": "Tea in Sikkim is essentially the story of one garden. Temi was founded in 1969 by Palden Thondup Namgyal, the last king of Sikkim, as a source of work for the many Tibetan refugees living in the region. It remains the oldest and largest garden in the state, runs to about 440 acres on Tendong Hill and is owned by the state government.\n\nA few small growers have appeared since, such as the boutique Bermiok garden, founded in 2002. Organic certification, recognised for Temi in 2017, has helped raise the tea's profile. About three quarters of Sikkim's crop goes through the Kolkata auction, and first-flush Temi from 2023 sold at Rs 10,250 per kg to buyers in Italy and Korea. Unlike Darjeeling, Sikkim tea has no GI tag.",
+  "liquor_hex": "#D19A3C",
+  "leaf_hex": "#5A4C36",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Sikkim_tea",
+    "https://www.wikidata.org/wiki/Q96405680"
+  ],
+  "confidence": "medium",
+  "images": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/a/ad/The_Temi_Tea_Garden%2C_Sikkim.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ad/The_Temi_Tea_Garden%2C_Sikkim.jpg/330px-The_Temi_Tea_Garden%2C_Sikkim.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source_page": "https://commons.wikimedia.org/wiki/File:The_Temi_Tea_Garden,_Sikkim.jpg",
+      "author": "Madhumita Das",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "kind": "plantation",
+      "alt": "Temi Tea Garden in Sikkim, green tea bushes below trees with snow-capped Himalayan peaks behind"
+    }
+  ]
 }

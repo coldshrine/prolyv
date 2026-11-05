@@ -3,7 +3,13 @@
   "name_en": "Assam Golden Tips (Second Flush)",
   "name_native": "অসম চাহ",
   "name_romanized": "Oxom sāh",
-  "aliases": ["Assam Gold", "Golden tippy Assam", "Assam SFTGFOP1", "Assam Golden Bud", "Assam gold tips"],
+  "aliases": [
+    "Assam Gold",
+    "Golden tippy Assam",
+    "Assam SFTGFOP1",
+    "Assam Golden Bud",
+    "Assam gold tips"
+  ],
   "category": "black",
   "origin_country": "India",
   "origin_region": "Assam · Brahmaputra Valley",
@@ -15,12 +21,38 @@
   "appearance_liquor": "Bright copper-red, clear.",
   "appearance_wet": "Supple coppery leaf and reddish buds.",
   "taste_profile": "Sweet malt, caramel and cocoa with a honeyed, almost syrupy body and smooth, gentle tannin.",
-  "taste_tags": ["malty", "honey", "cocoa", "sweet"],
-  "brewing": {"grams": 3, "water_ml": 200, "temp_c": 90, "steeps": 2, "seconds": [210, 300], "notes": "A little cooler than everyday Assam; try it without milk at least once. Overbrewing makes it heavy rather than bitter."},
+  "taste_tags": [
+    "malty",
+    "honey",
+    "cocoa",
+    "sweet"
+  ],
+  "brewing": {
+    "grams": 3,
+    "water_ml": 200,
+    "temp_c": 90,
+    "steeps": 2,
+    "seconds": [
+      210,
+      300
+    ],
+    "notes": "A little cooler than everyday Assam; try it without milk at least once. Overbrewing makes it heavy rather than bitter."
+  },
   "caffeine_level": "high",
   "vintage_note": "Sold as the top second-flush grades of the current year under codes such as SFTGFOP1 and names such as 'Golden Tips', 'Gold' or 'Golden Bud', always with the garden (Halmari, Doomni, Mangalam, Dikom, Harmutty, Mokalbari); lots appear from July and the best are gone by the following spring. Priced well above standard orthodox, loosely in proportion to the amount of tip. Best within a year of harvest.",
-  "description": "Assam golden tips are the top second-flush grades from the Brahmaputra valley, plucked when the summer buds are fattest and sorted so that the downy, golden-orange tips dominate the leaf. They are the orthodox Assams that get photographed: twists of dark leaf shot through with gold, sometimes almost all bud, and a cup that is sweeter and softer than the standard grades.\n\nThe leaf is made the normal orthodox way, fully oxidised, but the pluck is finer and the sorting stricter; some gardens hand-roll the buds or sell 'gold bud' lots that are nothing but tip. Buds are low in tannin and high in sugars and aromatic compounds, so the more tip in the grade, the rounder the cup.\n\nExpect sweet malt, caramel and cocoa with a honeyed, almost syrupy body and smooth, gentle tannin. Brew it a little cooler than everyday Assam, around 90 °C, for three to four minutes, and drink it without milk at least once; it re-steeps well. Overbrewing makes it heavy rather than bitter.\n\nIt is sold as the current year's second flush under grade names such as SFTGFOP1 and marketing names such as 'Golden Tips', 'Gold' or 'Golden Bud', always with the garden: Halmari, Doomni, Mangalam, Dikom, Harmutty and Mokalbari are regulars. Lots appear from July and the best are gone by the following spring; the price sits well above standard orthodox and loosely tracks the proportion of tip. Drink within a year of harvest.\n\nIf you want to understand what 'tippy' means on a label, this is the tea to buy.",
+  "description": "Assam golden tips are the top second-flush grades from the Brahmaputra valley, plucked when the summer buds are fattest and sorted so that the downy, golden-orange tips dominate the leaf. They are the orthodox Assams that get photographed: twists of dark leaf shot through with gold, sometimes almost all bud, and a cup that is sweeter and softer than the standard grades.\n\nThe leaf is made the normal orthodox way, fully oxidised, but the pluck is finer and the sorting stricter; some gardens hand-roll the buds or sell 'gold bud' lots that are nothing but tip. As a rule of thumb, the more tip in the grade, the rounder the cup.\n\nExpect sweet malt, caramel and cocoa with a honeyed, almost syrupy body and smooth, gentle tannin. Brew it a little cooler than everyday Assam, around 90 °C, for three to four minutes, and drink it without milk at least once; it re-steeps well. Overbrewing makes it heavy rather than bitter.\n\nIt is sold as the current year's second flush under grade names such as SFTGFOP1 and marketing names such as 'Golden Tips', 'Gold' or 'Golden Bud', always with the garden: Halmari, Doomni, Mangalam, Dikom, Harmutty and Mokalbari are regulars. Lots appear from July and the best are gone by the following spring; the price sits well above standard orthodox and loosely tracks the proportion of tip. Drink within a year of harvest.\n\nIf you want to understand what 'tippy' means on a label, this is the tea to buy.",
   "wikipedia_title": "Assam tea",
   "wikipedia_scope": "umbrella",
-  "popularity": 3
+  "popularity": 3,
+  "name_zh": "阿萨姆金毫红茶",
+  "name_ru": "Ассам Голден Типс",
+  "history": "Assam tea as an industry is usually dated from 1823, when the Scottish trader Robert Bruce is said to have come across the local tea plant, though the date and details vary between accounts. Golden tips are not a separate tea with their own history but a way of selecting within that tradition.\n\nThe second flush, picked around May and June, became the prized 'tippy' Assam, named for the gold-coloured tips in the leaf. Grade codes such as TGFOP, Tippy Golden Flowery Orange Pekoe, grew up to signal how much of that tip a lot contains. Longer codes like SFTGFOP1 are trade usage and are not applied uniformly, so read them as a seller's claim. When the fashion for all-bud 'gold' lots began is not well documented.",
+  "liquor_hex": "#A84C1E",
+  "leaf_hex": "#5A3A1C",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Assam_tea",
+    "https://indianculture.gov.in/snippets/bruce-brothers-and-assam-tea"
+  ],
+  "confidence": "low",
+  "images": []
 }

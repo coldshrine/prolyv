@@ -1,0 +1,58 @@
+{
+  "slug": "ginseng-tea",
+  "name_en": "Ginseng Tea (Insam-cha)",
+  "name_native": "인삼차",
+  "name_romanized": "insam-cha",
+  "name_zh": "人参茶",
+  "name_ru": "Женьшеневый чай",
+  "aliases": [
+    "Ginseng tea",
+    "Insam-cha",
+    "Renshen cha",
+    "人蔘茶",
+    "Чай с женьшенем"
+  ],
+  "category": "tisane",
+  "origin_country": "South Korea",
+  "origin_region": "Korean Peninsula",
+  "cultivar": "Panax ginseng",
+  "processing": "Fresh ginseng or steamed and dried red ginseng is decocted for hours over low heat with jujubes and dried chestnuts, then sweetened with honey. Instant versions use fine powder or dried grated root.",
+  "form": "powder",
+  "harvest_season": "Roots are taken after four to six years of slow growth; packaged forms are drunk all year.",
+  "appearance_dry": "Fine pale powder or dried grated root in packets; red ginseng is darker than air-dried white ginseng.",
+  "appearance_liquor": "Typically a clear pale gold, turning deeper amber with red ginseng and long decoction.",
+  "appearance_wet": "Softened forked root pieces when made traditionally, with jujube and chestnut; nothing remains from instant powder.",
+  "taste_profile": "Typically earthy and root-bitter with a medicinal edge, softened by the sweetness of jujube and honey in the traditional pot.",
+  "taste_tags": [
+    "earthy",
+    "bitter",
+    "medicinal",
+    "sweet"
+  ],
+  "brewing": {
+    "grams": 10,
+    "water_ml": 600,
+    "temp_c": 100,
+    "steeps": 1,
+    "seconds": [
+      3600
+    ],
+    "notes": "For the traditional version, decoct root with jujubes and dried chestnuts on low heat for several hours, sweeten with honey and float pine nuts on top. Amounts are a starting point. For powder, follow the packet."
+  },
+  "caffeine_level": "none",
+  "vintage_note": "Not sold by harvest year as a drink. What is sold year-round is powder sachets, grated root and whole root, and the things to check are fresh versus red ginseng and the age of the root, typically four to six years at harvest.",
+  "description": "Insam-cha is a traditional Korean drink made from the root of Panax ginseng, with no tea leaf in it. The real choice is between a long-simmered pot and a sachet of powder, and they are very different experiences.\n\nThe traditional version is decocted for several hours over low heat with jujubes and dried chestnuts, then sweetened with honey and finished with pine nuts. It can start from fresh ginseng or from red ginseng, which has been steamed and dried; white ginseng is simply air-dried.\n\nExpect the earthy, slightly bitter root flavour typical of ginseng, rounded out by the fruit and honey. Instant versions are simpler and easier to find, and they dissolve straight into hot water.\n\nThe root grows slowly in cool, damp shade and takes four to six years to be ready. Research on its benefits remains limited. See a doctor first if you take blood thinners, anti-inflammatories, blood pressure drugs or diabetes medication, because ginseng can interact with them, and it is not recommended for children.",
+  "history": "Ginseng root has been used in East Asia for more than 2,000 years, and ginseng tea is linked to good health and high status as far back as the Warring States period in Chinese tradition. Under the Goryeo dynasty it is recorded as a tonic against stress-related illness.\n\nIn the Ming era, Li Shizhen wrote about Korean ginseng tea in his Great Compendium of Herbs. Joseon records go further: King Yeongjo, the 21st monarch, drank a ginseng infusion called Geongongtang for his health, and the term red ginseng appears in the Annals of King Jeongjo.",
+  "liquor_hex": "#D4A95A",
+  "leaf_hex": "#D8BE8E",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Ginseng_tea",
+    "https://ko.wikipedia.org/wiki/%EC%9D%B8%EC%82%BC%EC%B0%A8",
+    "https://www.wikidata.org/wiki/Q6037041"
+  ],
+  "confidence": "medium",
+  "wikipedia_title": "Ginseng tea",
+  "wikipedia_scope": "exact",
+  "popularity": 3,
+  "images": []
+}

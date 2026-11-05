@@ -1,0 +1,66 @@
+{
+  "slug": "zhegu-cha",
+  "name_en": "Zhegu Cha (Partridge Tea)",
+  "name_native": "鹧鸪茶",
+  "name_romanized": "Zhègū Chá",
+  "name_zh": "鹧鸪茶",
+  "name_ru": "Чжэ Гу Ча",
+  "aliases": [
+    "Partridge Tea",
+    "Francolin Tea",
+    "Wanning Zhegu Cha",
+    "万宁鹧鸪茶",
+    "山苦茶",
+    "Shan Ku Cha",
+    "Mallotus peltatus",
+    "Mallotus oblongifolius",
+    "Чжэгу ча"
+  ],
+  "category": "tisane",
+  "origin_country": "China",
+  "origin_region": "Hainan · Wanning",
+  "cultivar": "Mallotus peltatus (syn. M. oblongifolius)",
+  "processing": "Traditionally the wild leaves are picked, rinsed, rolled into balls and sun-dried, with no kill-green step. Newer lots are made with more care, but it stays a simple dried leaf.",
+  "form": "ball",
+  "harvest_season": "No prized picking is firmly recorded. It is drunk especially around the Duanwu festival, and the leaves are traditionally dried in the sun.",
+  "appearance_dry": "Round, rough balls of large olive-brown leaf, often strung up in farmhouses.",
+  "appearance_liquor": "Amber-yellow and clear, as is usual for sun-dried leaf of this kind.",
+  "appearance_wet": "The balls open into big whole leaves that look like ordinary tree leaves.",
+  "taste_profile": "Crisp and sweet with a pleasant medicinal aroma, drunk before food to cut through richness.",
+  "taste_tags": [
+    "medicinal",
+    "herbal",
+    "sweet",
+    "woody"
+  ],
+  "brewing": {
+    "grams": 3,
+    "water_ml": 500,
+    "temp_c": 100,
+    "steeps": 3,
+    "seconds": [
+      180,
+      240,
+      360
+    ],
+    "notes": "Hainan households brew it by the pot. One ball is usually enough; the leaf is large and takes time to open up in fully boiling water."
+  },
+  "caffeine_level": "none",
+  "vintage_note": "Not sold by vintage. It is a dried household leaf, bought as recent stock and used over the year; keep it dry. Wanning is the name to look for, and newer refined lots sell for more than simple farm balls.",
+  "description": "Zhegu cha is Hainan's table drink: not tea at all but the leaf of Mallotus peltatus, a wild shrub of the spurge family. It grows on hills and coastal slopes around the island, and the stands around Wanning are considered the best. In English the name appears as partridge or francolin tea.\n\nThe traditional method is almost no method. Leaves are picked wild, washed, squeezed into balls and left in the sun, and strings of these balls hang in many farmhouses. Because there is no kill-green or fine rolling, the leaf stays big and looks like a tree leaf once it opens.\n\nThe cup is crisp and sweet with a medicinal perfume. It often arrives in a pot before the meal in restaurants in Wenchang, Ding'an, Qionghai, Wanning and Lingshui, and is drunk with zongzi at Duanwu to cut the oil. Use boiling water and give it minutes rather than seconds.\n\nBuy it for the taste and the Hainan habit. Sellers claim much for blood pressure and digestion, but those are traditional uses rather than established effects. Newer, more carefully made lots cost more, and the balls are also blended into Wuzhishan's Li-style May tea with galangal fruit, grass root and honeysuckle.",
+  "history": "It is a long-standing household drink on Hainan rather than a tea with a documented origin. One popular account gives its drinking history as nearly 200 years, but that figure is hard to check.\n\nFor most of its life it counted as a cheap rough leaf. As demand for health drinks grew, processing became more refined and prices rose, and Wanning's zhegu cha is now promoted as one of the town's signature products.",
+  "liquor_hex": "#C2912F",
+  "leaf_hex": "#5E5230",
+  "sources": [
+    "https://zh.wikipedia.org/wiki/%E5%B1%B1%E8%8B%A6%E8%8C%B6",
+    "https://en.wikipedia.org/wiki/Mallotus_peltatus",
+    "https://www.hi.chinanews.com.cn/hnnew/2023-01-09/665896.html",
+    "https://www.maigoo.com/top/423774.html",
+    "https://www.wikidata.org/wiki/Q15361963"
+  ],
+  "confidence": "medium",
+  "wikipedia_title": "Mallotus peltatus",
+  "wikipedia_scope": "umbrella",
+  "popularity": 2,
+  "images": []
+}

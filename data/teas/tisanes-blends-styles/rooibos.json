@@ -3,10 +3,22 @@
   "name_en": "Rooibos",
   "name_native": "Rooibos",
   "name_romanized": null,
-  "aliases": ["Red bush tea", "Red tea", "Rooibos tea", "Rooibostee", "Bush tea", "Aspalathus linearis"],
+  "aliases": [
+    "Red bush tea",
+    "Red tea",
+    "Rooibos tea",
+    "Rooibostee",
+    "Bush tea",
+    "Aspalathus linearis",
+    "博士茶",
+    "南非国宝茶",
+    "南非茶",
+    "Ройбуш",
+    "Ройбош"
+  ],
   "category": "tisane",
   "origin_country": "South Africa",
-  "origin_region": "Western Cape · Cederberg (Clanwilliam, Citrusdal, Wupperthal)",
+  "origin_region": "Western Cape · Cederberg",
   "cultivar": "Aspalathus linearis (a legume shrub, not a tea plant)",
   "processing": "Needle-like leaves and fine stems are cut, bruised, moistened and left in heaps to oxidise for roughly 8–24 hours, which turns them from green to red-brown; they are then spread out to dry in the sun, sieved by cut length and steam-pasteurised.",
   "form": "loose",
@@ -14,13 +26,71 @@
   "appearance_dry": "Fine, brittle red-brown needles with a few paler stem pieces; longer cuts look like tiny twigs.",
   "appearance_liquor": "Clear, bright red-amber that deepens to mahogany with a long steep.",
   "appearance_wet": "Softened rust-coloured needles that smell of hay, wood and a little honey.",
-  "taste_profile": "Smooth and naturally sweet, with wood, hay, honey and a faint vanilla note; no astringency at all, which is why it takes milk and long steeps so well.",
-  "taste_tags": ["sweet", "woody", "honey"],
-  "brewing": {"grams": 3, "water_ml": 250, "temp_c": 100, "steeps": 1, "seconds": [420], "notes": "Fully boiling water, 5–8 minutes, lid on. It does not get bitter, so a 10-minute steep or a gentle simmer on the stove is fine. A second steep works but is noticeably thinner. Cold brew overnight at 10 g per litre."},
+  "taste_profile": "Smooth and naturally sweet, with wood, hay, honey and a faint vanilla note; very little astringency, thanks to its low tannin level, which is why it takes milk and long steeps so well.",
+  "taste_tags": [
+    "sweet",
+    "woody",
+    "honey"
+  ],
+  "brewing": {
+    "grams": 3,
+    "water_ml": 250,
+    "temp_c": 100,
+    "steeps": 1,
+    "seconds": [
+      420
+    ],
+    "notes": "Fully boiling water, 5–8 minutes, lid on. It does not get bitter, so a 10-minute steep or a gentle simmer on the stove is fine. A second steep works but is noticeably thinner. Cold brew overnight at 10 g per litre."
+  },
   "caffeine_level": "none",
   "vintage_note": "There is no vintage: rooibos is a blended, pasteurised commodity sold year-round with a best-before date of about two to three years, and the harvest year is almost never printed. What is stated is the grade and cut: 'long cut' (sometimes labelled superior or super grade, more leaf, fewer stems, slower but cleaner steep) versus 'short cut' or 'tea-bag cut', plus organic or wild-harvested claims. Buy the current year's pack and drink it within a year for the fullest aroma, since the honey top notes fade before the colour does.",
-  "description": "Rooibos is the one caffeine-free infusion that behaves like tea: it has body, colour and a backbone that stands up to milk. It is made from a legume shrub that grows commercially only in the Cederberg mountains north of Cape Town, in sandy, acidic soil that nothing else much likes, and the name is simply Afrikaans for 'red bush'.\n\nThe red colour is not natural to the plant. The fresh needles are green; after cutting they are bruised, wetted and heaped up so the plant's own enzymes oxidise them, much as a black tea is oxidised, and then they are spread out to dry under the fierce summer sun. That heap stage is where the honey and hay aromas develop. Skip it and dry the needles straight away and you get green rooibos, a different and lighter product.\n\nIn the cup it is soft, sweet and woody, with a vanilla-like finish, and it is almost impossible to brew badly. Use properly boiling water and give it at least five minutes; most weak, disappointing rooibos comes from treating it like a delicate green tea. It carries milk and honey well, and a strong brew with hot milk is a decent evening substitute for a chai. It also cold-brews into a clean iced tea without any bitterness.\n\nOn the shelf it is sold by cut rather than by year: longer cuts with more leaf and fewer stems brew slower and cleaner, while fine tea-bag cuts give fast colour but a rougher taste. South African 'wild' or 'Wupperthal' rooibos is harvested from unirrigated bushes and is usually sold as a small-batch product with its area stated; the term 'Rooibos' itself is protected in South Africa and in the European Union, so anything sold as rooibos should come from the Western or Northern Cape.\n\nA huge share of what is sold is flavoured (vanilla, caramel, 'red chai'), which is fine, but try a plain long-cut rooibos first to learn what the base tastes like. If you like it, honeybush is the sweeter, fruitier cousin, and green rooibos the lighter one.",
+  "description": "Rooibos is the one caffeine-free infusion that behaves like tea: it has body, colour and a backbone that stands up to milk. It is made from a legume shrub that grows commercially only in the Cederberg mountains north of Cape Town, in sandy, acidic soil that nothing else much likes, and the name is simply Afrikaans for 'red bush'.\n\nThe red colour is not natural to the plant. The fresh needles are green; after cutting they are bruised, wetted and heaped up so the plant's own enzymes oxidise them, much as a black tea is oxidised, and then they are spread out to dry under the fierce summer sun. That heap stage is where the honey and hay aromas develop. Skip it and dry the needles straight away and you get green rooibos, a different and lighter product.\n\nIn the cup it is soft, sweet and woody, with a vanilla-like finish, and it is almost impossible to brew badly. Use properly boiling water and give it at least five minutes; most weak, disappointing rooibos comes from treating it like a delicate green tea. It carries milk and honey well, and a strong brew with hot milk is a decent evening substitute for a chai. It also cold-brews into a clean iced tea without any bitterness.\n\nOn the shelf it is sold by cut rather than by year: longer cuts with more leaf and fewer stems brew slower and cleaner, while fine tea-bag cuts give fast colour but a rougher taste. 'Wild' or Wupperthal rooibos is usually sold as a small-batch product with its area stated; the term 'Rooibos' itself is protected in South Africa and in the European Union, so anything sold as rooibos should come from the Western or Northern Cape.\n\nA huge share of what is sold is flavoured (vanilla, caramel, 'red chai'), which is fine, but try a plain long-cut rooibos first to learn what the base tastes like. If you like it, honeybush is the sweeter, fruitier cousin, and green rooibos the lighter one.",
   "wikipedia_title": "Rooibos",
   "wikipedia_scope": "exact",
-  "popularity": 5
+  "popularity": 5,
+  "name_zh": "路易波士茶",
+  "name_ru": "Ройбос",
+  "history": "A popular account says the Khoisan people of the Cape knew rooibos as a medicinal plant long before settlers came, and archaeological records suggest Aspalathus linearis may have been used thousands of years ago. That does not show it was brewed as a tea. The 1772 note by Carl Peter Thunberg sometimes linked to rooibos actually concerns another species, A. cordata. The earliest records of rooibos tea itself date from the late 19th century, as a drink of Khoi-descended people in the Cederberg and of poor whites, who cut wild plants in the mountains, brought them down by donkey and beat the leaves on flat rocks.\n\nThe commercial story starts with Benjamin Ginsberg, a Russian-born trader who peddled through the valleys from about 1903, learned of the tea there and began buying it from harvesters. By 1912 he had a shop in Clanwilliam. When demand outran the wild supply in the late 1920s, the district surgeon Pieter Lefras Nortier, working with farmers Oloff Bergh and William Riordan, developed a cultivated variety, which became the mainstay of the industry.\n\nFor most of the 20th century it stayed largely a Southern African drink. It became much more widely known abroad from the early 2000s, Germany being a major buyer of high grades. Rooibos has been farmed only in the Cederberg region because attempts to grow it elsewhere have failed, and the name is now protected in South Africa and in the EU.",
+  "liquor_hex": "#B5502A",
+  "leaf_hex": "#8A3F22",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Rooibos",
+    "https://en.wikipedia.org/wiki/Benjamin_Ginsberg_%28businessman%29",
+    "https://ja.wikipedia.org/wiki/%E3%83%AB%E3%82%A4%E3%83%9C%E3%82%B9",
+    "https://ru.wikipedia.org/wiki/%D0%90%D1%81%D0%BF%D0%B0%D0%BB%D0%B0%D1%82%D1%83%D1%81_%D0%BB%D0%B8%D0%BD%D0%B5%D0%B9%D0%BD%D1%8B%D0%B9",
+    "https://zh.wikipedia.org/wiki/%E5%8D%9A%E5%A3%AB%E8%8C%B6"
+  ],
+  "confidence": "high",
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/36/Frisch_aufgebr%C3%BChter_Rooibos.jpg/1280px-Frisch_aufgebr%C3%BChter_Rooibos.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/36/Frisch_aufgebr%C3%BChter_Rooibos.jpg/330px-Frisch_aufgebr%C3%BChter_Rooibos.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Frisch_aufgebr%C3%BChter_Rooibos.jpg",
+      "author": "soultea.de /André Helbig",
+      "license": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "kind": "liquor",
+      "alt": "Freshly brewed red-amber rooibos in a glass cup and saucer with a glass teapot behind"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/42/Aspalathus_linearis_172911327.jpg/1280px-Aspalathus_linearis_172911327.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/42/Aspalathus_linearis_172911327.jpg/330px-Aspalathus_linearis_172911327.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Aspalathus_linearis_172911327.jpg",
+      "author": "Tony Rebelo",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "kind": "plant",
+      "alt": "Close view of the thin needle-like leaves of a rooibos plant"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b5/Aspalathus_linearis_171407970.jpg/1280px-Aspalathus_linearis_171407970.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b5/Aspalathus_linearis_171407970.jpg/330px-Aspalathus_linearis_171407970.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Aspalathus_linearis_171407970.jpg",
+      "author": "Dave Richardson",
+      "license": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0",
+      "kind": "plant",
+      "alt": "Rooibos shrub with needle-like leaves and yellow flowers"
+    }
+  ]
 }

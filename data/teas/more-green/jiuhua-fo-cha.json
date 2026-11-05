@@ -1,0 +1,59 @@
+{
+  "slug": "jiuhua-fo-cha",
+  "name_en": "Jiu Hua Fo Cha",
+  "name_native": "九华佛茶",
+  "name_romanized": "Jiǔhuá Fóchá",
+  "name_zh": "九华佛茶",
+  "name_ru": "Цзю Хуа Фо Ча",
+  "aliases": [
+    "Jiuhua Fo Cha",
+    "Jiuhua Buddha Tea",
+    "九華佛茶",
+    "九华茶",
+    "金地茶"
+  ],
+  "category": "green",
+  "origin_country": "China",
+  "origin_region": "Anhui · Jiuhua Shan",
+  "cultivar": null,
+  "processing": "A pan-worked green tea, de-enzymed and dried without oxidation. Little is documented about the exact steps, and leaf styles differ between lots.",
+  "form": "loose",
+  "harvest_season": "Spring, around Guyu in late April for at least some lots, usually one bud with two leaves. As with other Anhui greens, earlier pickings are the more prized.",
+  "appearance_dry": "Long, straight, flattish leaves in emerald green; the classic description compares the shape to a Buddha's hand.",
+  "appearance_liquor": "Light, clear yellow-green, as is typical of Anhui spring greens.",
+  "appearance_wet": "Whole buds and young leaves, soft and fresh green, as is usual for a spring green of this picking.",
+  "taste_profile": "Described as sweet and mellow with a high, floral fragrance. Roughly what you would expect from a mountain green that keeps its leaf whole.",
+  "taste_tags": [
+    "floral",
+    "sweet",
+    "vegetal"
+  ],
+  "brewing": {
+    "grams": 3,
+    "water_ml": 150,
+    "temp_c": 80,
+    "steeps": 3,
+    "seconds": [
+      60,
+      90,
+      120
+    ],
+    "notes": "Brew it in a glass or gaiwan with water well off the boil, as with other delicate Anhui greens, and leave some liquor in the vessel between steeps."
+  },
+  "caffeine_level": "medium",
+  "vintage_note": "As with other Chinese spring greens, it is sold as the current year's harvest and is best drunk within about a year. Lots are normally labelled by picking time, for example pre-Guyu; earlier picks usually cost more. It is not a tea to age.",
+  "description": "Jiu Hua Fo Cha, the Buddha tea of Jiuhua Shan, is a green tea from the mountain in Chizhou, southern Anhui, that Chinese Buddhists hold as the seat of the bodhisattva Dizang. The name does most of the work here: this is a tea defined by its place and its monastic associations more than by one strict recipe.\n\nThe classic description is a flat, straight leaf shaped like a Buddha's hand, emerald in colour, with a high aroma and a mellow taste. At least some of what reaches the market today is a plainer style: long, straight leaves of one bud and two leaves, picked around Guyu.\n\nExpect a sweet, floral cup. Treat it like other Anhui spring greens: cool water, a light hand with the leaf, and steeps that stay short enough to keep it from turning bitter.\n\nBuy the latest spring and ask when it was picked. Because the name is broad, style and quality vary from one seller to the next, so judge the leaf and not the word Buddha on the bag.",
+  "history": "Tea from Jiuhua is old enough to appear in Li Shizhen's Bencao Gangmu, which lists Jiuhua in Chizhou among the noted tea places, and the tea was well regarded in the Ming and Qing periods.\n\nThe rest is legend. One story has the monk Jin Dizang bringing the plant to China, from the Western Regions in one telling and from Silla in another. Another tells of a monk and a Taoist from Sichuan who fell ill on a diet of wild plants on the mountain and recovered after drinking this tea.",
+  "liquor_hex": "#D9D68C",
+  "leaf_hex": "#6F8A45",
+  "sources": [
+    "https://zh.wikipedia.org/wiki/%E4%B9%9D%E5%8D%8E%E4%BD%9B%E8%8C%B6",
+    "https://www.wikidata.org/wiki/Q10878695",
+    "https://www.parchmen.co/products/2022-jiuhua-buddha-tea"
+  ],
+  "confidence": "medium",
+  "wikipedia_title": "九华佛茶",
+  "wikipedia_scope": "exact",
+  "popularity": 2,
+  "images": []
+}

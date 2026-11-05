@@ -3,7 +3,13 @@
   "name_en": "Lu Shan Yun Wu (Mount Lu Cloud and Mist)",
   "name_native": "庐山云雾",
   "name_romanized": "Lúshān Yúnwù",
-  "aliases": ["Lushan Yunwu", "Lu Shan Cloud Mist", "Cloud and Mist tea", "Lushan Cloud Fog", "Yun Wu"],
+  "aliases": [
+    "Lushan Yunwu",
+    "Lu Shan Cloud Mist",
+    "Cloud and Mist tea",
+    "Lushan Cloud Fog",
+    "Yun Wu"
+  ],
   "category": "green",
   "origin_country": "China",
   "origin_region": "Jiangxi · Jiujiang · Mount Lu",
@@ -15,13 +21,43 @@
   "appearance_liquor": "Clear yellow-green with a touch of gold.",
   "appearance_wet": "Thick, soft bud-and-leaf sets, bright green and even.",
   "taste_profile": "Thick and sweet with cooked chestnut, a hint of orchid and a mellow, slightly mineral smoothness; more weight than most spring greens.",
-  "taste_tags": ["nutty", "sweet", "floral", "mineral"],
-  "brewing": {"grams": 4, "water_ml": 120, "temp_c": 85, "steeps": 4, "seconds": [30, 30, 45, 70], "notes": "Gaiwan or glass. Mountain leaf is sturdier than bud tea: 85 °C and a slightly heavier dose bring out the thickness without bitterness."},
+  "taste_tags": [
+    "nutty",
+    "sweet",
+    "floral",
+    "mineral"
+  ],
+  "brewing": {
+    "grams": 4,
+    "water_ml": 120,
+    "temp_c": 85,
+    "steeps": 4,
+    "seconds": [
+      30,
+      30,
+      45,
+      70
+    ],
+    "notes": "Gaiwan or glass. Mountain leaf is sturdier than bud tea: 85 °C and a slightly heavier dose bring out the thickness without bitterness."
+  },
   "caffeine_level": "medium",
   "vintage_note": "Sold as the current year's spring harvest, mostly from late April and May, so it is one of the later famous greens and genuine high-garden tea is never 'pre-Qingming'. Production on the mountain itself is small; a lot of 'Lushan Yunwu' comes from the lower hills around Jiujiang. Drink within the year, kept cold and sealed.",
   "description": "Lu Shan Yun Wu grows on Mount Lu above the Yangtze near Jiujiang in Jiangxi, a mountain famous for its fog, and the tea's name, 'cloud and mist', describes the growing conditions rather than the flavour. The high gardens sit in cloud for much of the year, which slows growth, keeps the leaf tender and builds the thickness that sets this tea apart from the lighter lowland greens.\n\nIt is a pan-fired, curled tea, rolled twice between firings so the leaf twists tight and the down shows, and the mature mountain leaf takes the heat well. The result is a dark, plump, fuzzy twist that looks a little like a heavier Biluochun.\n\nThe cup is where the altitude shows: thick, sweet and rounded, with cooked chestnut, a faint orchid lift and a smooth, almost mineral finish that lasts. It is less bright than Longjing and less delicate than Mao Feng, but it has more body than either and it steeps longer, four infusions in a gaiwan at 85 °C being normal. Underbrewed it seems dull; give it leaf and heat.\n\nBecause the mountain is high and cool, picking starts late, mid or late April, and runs into May. That is worth remembering when shopping: a 'Lushan Yunwu' offered in March is from the lowlands or from somewhere else entirely. True mountain-garden tea is a small production and priced accordingly; tea from the surrounding Jiujiang hills is sold under the same name and is often fine, just lighter. Ask the elevation and the picking date.\n\nPeople who like this thickness often go on to Guzhang Mao Jian or Laoshan green, two other sturdier greens that reward a proper dose of leaf.",
   "wikipedia_title": "Green tea",
   "wikipedia_scope": "umbrella",
   "popularity": 3,
-  "sources_note": "No dedicated English Wikipedia article; the 'Cloud tea' article is about the Nanyue (Hengshan, Hunan) yunwu tea, a different tea, so it was not used."
+  "sources_note": "No dedicated English Wikipedia article; the 'Cloud tea' article is about the Nanyue (Hengshan, Hunan) yunwu tea, a different tea, so it was not used.",
+  "name_zh": "庐山云雾",
+  "name_ru": "Лу Шань Юнь У",
+  "history": "Tea from Mount Lu is older than its present name. It was once called Wenlin tea and is recorded as a tribute tea in the Song dynasty. The name Lushan Yunwu dates from the Ming, and Li Shizhen's Compendium of Materia Medica has the earliest known mention of the mountain's 'cloud and mist' tea.\n\nThe name fits the place. The main gardens sit above about 800 metres, around Hanpokou, Wulao Peak and Xiaotianchi, where fog is counted on up to 195 days a year.\n\nToday it is a Chinese geographical indication and turns up on some of the popular lists of China's ten famous teas, though those lists disagree with each other. Not all of it comes from the mountain itself: tea from the surrounding area is sold under the same name, which is why the name is well known and yet cheap versions are common.",
+  "liquor_hex": "#D4CF82",
+  "leaf_hex": "#4A5F3A",
+  "sources": [
+    "https://www.wikidata.org/wiki/Q11062782",
+    "https://zh.wikipedia.org/wiki/%E5%BA%90%E5%B1%B1%E4%BA%91%E9%9B%BE%E8%8C%B6",
+    "https://ja.wikipedia.org/wiki/%E5%BB%AC%E5%B1%B1%E9%9B%B2%E9%9C%A7",
+    "https://zh.wikipedia.org/wiki/%E4%B8%AD%E5%9B%BD%E5%8D%81%E5%A4%A7%E5%90%8D%E8%8C%B6"
+  ],
+  "confidence": "high",
+  "images": []
 }

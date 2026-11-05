@@ -3,11 +3,19 @@
   "name_en": "Argentine Black Tea (Misiones)",
   "name_native": "Té negro de Misiones",
   "name_romanized": "Té negro de Misiones",
-  "aliases": ["Argentine tea", "Argentina CTC", "Misiones tea", "Té argentino", "Oberá tea", "Argentine iced tea base", "Té de Misiones"],
+  "aliases": [
+    "Argentine tea",
+    "Argentina CTC",
+    "Misiones tea",
+    "Té argentino",
+    "Oberá tea",
+    "Argentine iced tea base",
+    "Té de Misiones"
+  ],
   "category": "black",
   "origin_country": "Argentina",
-  "origin_region": "Misiones (Oberá, Campo Viera, Leandro N. Alem) and north-eastern Corrientes",
-  "cultivar": "Seed-grown bushes of mixed Chinese and Assam origin planted from the 1920s, with Argentine selections from the INTA research station at Cerro Azul",
+  "origin_region": "Misiones",
+  "cultivar": "Seed-grown bushes of mixed Chinese and Assam origin, with later local selections",
   "processing": "Almost entirely CTC black tea: machine-harvested leaf withered, cut, fully oxidised and fired into small granular grades for tea bags and iced tea; a few small producers now make orthodox whole-leaf black and green teas.",
   "form": "loose",
   "harvest_season": "Southern-hemisphere summer, from about October to April or May, harvested mechanically every couple of weeks; the bushes rest through the mild winter.",
@@ -15,13 +23,35 @@
   "appearance_liquor": "Bright, clear red-amber that stays clear when chilled, which is exactly what the iced-tea industry wants.",
   "appearance_wet": "Small, even, copper-brown particles.",
   "taste_profile": "Clean, mild and neutral with a light malt and little astringency, made to disappear gracefully behind lemon and sugar; plain hot, it is a soft, unremarkable breakfast tea.",
-  "taste_tags": ["malty", "sweet", "brisk", "fruity"],
-  "brewing": {"grams": 3, "water_ml": 200, "temp_c": 100, "steeps": 1, "seconds": [240], "notes": "Brew strong with boiling water and pour over ice, or cold-brew overnight at 10 g per litre; it stays clear and does not cloud. For a hot cup, three to four minutes, milk optional."},
+  "taste_tags": [
+    "malty",
+    "sweet"
+  ],
+  "brewing": {
+    "grams": 3,
+    "water_ml": 200,
+    "temp_c": 100,
+    "steeps": 1,
+    "seconds": [
+      240
+    ],
+    "notes": "Brew strong with boiling water and pour over ice, or cold-brew overnight at 10 g per litre; it stays clear and does not cloud. For a hot cup, three to four minutes, milk optional."
+  },
   "caffeine_level": "medium",
   "vintage_note": "A bulk commodity sold by grade to blenders and bottlers, with most of the crop exported to the United States for iced tea; it reaches consumers inside tea bags and bottles rather than under its own name. Argentine supermarket brands sell it year-round without a date. The few orthodox specialty lots are sold as the current season's harvest.",
-  "description": "Argentina is one of the world's bigger tea producers and almost nobody has knowingly drunk its tea. It grows in the red soil of Misiones, the subtropical province wedged between Paraguay and Brazil, and in neighbouring Corrientes, alongside the yerba mate the country actually drinks. Tea was planted in the 1920s from imported seed, took off in the 1950s, and became an export business built on one product: cheap, clean CTC black tea for American iced tea.\n\nThe farms are flat and the harvest is mechanical: tractor-mounted harvesters run over the hedges every couple of weeks from spring to autumn, and the factories turn the leaf into small granular grades. The tea is deliberately neutral. It brews bright and clear, stays clear when chilled, has little astringency, and takes sugar and lemon without arguing, which is why bottlers and blenders in the United States buy most of the crop.\n\nHot and plain it is a soft, mild, slightly malty tea without much to say, and it is fair to judge it on its intended job rather than on a tasting table. A small specialty movement has started in Misiones, with a few producers hand-picking and making orthodox black, green and even white teas, and these are a different and more interesting proposition, but they are tiny and mostly sold locally.\n\nYou are unlikely to see Argentine tea labelled as such outside the country; it is inside tea bags and iced-tea bottles. In Argentina, the supermarket brands are the local CTC, sold year-round and undated. If you want to taste it on purpose, buy an Argentine brand or look for a Misiones orthodox tea from a specialist, and brew it iced.\n\nFor context, taste it next to a Kenyan CTC and an Australian black: three machine-harvested teas built for strength and clarity, with the Argentine the mildest of the three.",
+  "description": "Argentina is one of the world's bigger tea producers and almost nobody has knowingly drunk its tea. It grows in the red soil of Misiones, the subtropical province wedged between Paraguay and Brazil, and in neighbouring Corrientes, alongside the yerba mate the country actually drinks. Tea was planted from imported seed in the twentieth century and became an export business built on one product: cheap, clean CTC black tea for American iced tea.\n\nThe farms are flat and the harvest is mechanical: tractor-mounted harvesters run over the hedges every couple of weeks from spring to autumn, and the factories turn the leaf into small granular grades. The tea is deliberately neutral. It brews bright and clear, stays clear when chilled, has little astringency, and takes sugar and lemon without arguing, which is why bottlers and blenders in the United States buy most of the crop.\n\nHot and plain it is a soft, mild, slightly malty tea without much to say, and it is fair to judge it on its intended job rather than on a tasting table. A small specialty movement has started in Misiones, with a few producers hand-picking and making orthodox black, green and even white teas, and these are a different and more interesting proposition, but they are tiny and mostly sold locally.\n\nYou are unlikely to see Argentine tea labelled as such outside the country; it is inside tea bags and iced-tea bottles. In Argentina, the supermarket brands are the local CTC, sold year-round and undated. If you want to taste it on purpose, buy an Argentine brand or look for a Misiones orthodox tea from a specialist, and brew it iced.\n\nFor context, taste it next to a Kenyan CTC and an Australian black: three machine-harvested teas built for strength and clarity, with the Argentine the mildest of the three.",
   "wikipedia_title": "Misiones Province",
   "wikipedia_scope": "umbrella",
   "popularity": 1,
-  "sources_note": "No dedicated Wikipedia article on Argentine tea was found; the province article is used as the umbrella. Planting history (1920s seed, 1950s expansion) and INTA's role at Cerro Azul are from memory. The United States as the main export destination for iced tea is well established in trade reporting."
+  "sources_note": "No dedicated Wikipedia article on Argentine tea was found; the province article is used as the umbrella. Planting history (1920s seed, 1950s expansion) and INTA's role at Cerro Azul are from memory. The United States as the main export destination for iced tea is well established in trade reporting.",
+  "name_zh": "阿根廷米西奥内斯红茶",
+  "name_ru": "Аргентинский чёрный чай (Мисьонес)",
+  "history": "Argentine tea comes from Misiones and neighbouring Corrientes in the subtropical north-east, the same country that grows yerba mate. It is known mainly as a bulk black tea for blending and iced tea rather than under its own name. Little about its early history can be stated with confidence here, including exactly when planting began and who led it.",
+  "liquor_hex": "#B0562A",
+  "leaf_hex": "#3A281C",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Misiones_Province"
+  ],
+  "confidence": "low",
+  "images": []
 }

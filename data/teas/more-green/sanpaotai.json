@@ -1,0 +1,77 @@
+{
+  "slug": "sanpaotai",
+  "name_en": "Sanpaotai",
+  "name_native": "三泡台",
+  "name_romanized": "Sānpàotái",
+  "name_zh": "三泡台",
+  "name_ru": "Сань Пао Тай",
+  "aliases": [
+    "San Pao Tai",
+    "Three Fort Tea",
+    "Gaiwan Tea",
+    "Eight Treasures Tea",
+    "Babao Tea",
+    "Sanpaotaigaiwancha",
+    "三炮台",
+    "三炮台盖碗茶",
+    "盖碗茶",
+    "八宝茶"
+  ],
+  "category": "green",
+  "origin_country": "China",
+  "origin_region": "Gansu · Lanzhou",
+  "cultivar": null,
+  "processing": "Not a processed leaf but an assembled drink: tea with rock sugar and dried fruit and nuts such as jujube, longan, goji, raisins or walnuts, steeped together in a lidded bowl. The mix varies by place and household.",
+  "form": "other",
+  "harvest_season": "No harvest of its own. It depends on the base tea, and the drink itself is served all year.",
+  "appearance_dry": "A loose mix of tea leaf, rock sugar crystals, red jujubes, longans, goji and other dried fruit.",
+  "appearance_liquor": "Clear, usually golden to amber, deepening as the fruit and sugar dissolve; the colour depends on the base tea.",
+  "appearance_wet": "Plumped fruit floating with opened tea leaves, which sink as the lid scrapes them down.",
+  "taste_profile": "Sweet from rock sugar and fruit, with the clean edge of tea underneath and a fragrance of dried fruit that grows across refills.",
+  "taste_tags": [
+    "sweet",
+    "dried-fruit",
+    "fruity",
+    "floral"
+  ],
+  "brewing": {
+    "grams": 3,
+    "water_ml": 200,
+    "temp_c": 100,
+    "steeps": 3,
+    "seconds": [
+      180,
+      240,
+      300
+    ],
+    "notes": "Use a three-part lidded bowl and water at a full boil, poured gently down the side so it does not foam. Scrape the lid across the surface to push down the leaves, and sip through the gap. Keep refilling, since the fruit and sugar need time. The timings are a rough guide, as most people simply sip and top up."
+  },
+  "caffeine_level": "low",
+  "vintage_note": "It has no vintage. It is usually mixed fresh at home or at the table, or sold as ready-made packets of tea, sugar and dried fruit, so what matters is that the fruit is fresh and the base tea is stated. The base varies: Yunnan spring-tip tea and tuo tea are the ones prized by the Dongxiang.",
+  "description": "Sanpaotai is the sweet lidded-bowl tea of China's northwest, drunk in Lanzhou, Linxia and well beyond. The name comes from the set itself, a saucer, a flared bowl and a lid, three pieces that make up the three of its name. You will also see it called gaiwan tea or eight treasures tea.\n\nIt is really a recipe. Tea goes in with rock sugar and dried things: jujube, longan, goji, raisins, walnuts, sesame, sometimes pear slices or rose. Eight ingredients is the ideal behind the eight treasures name, but every region and family changes the list.\n\nHandling is half the drink. Boiling water runs down the inside of the bowl, the lid scrapes the leaves down, and you sip through the gap with the lid still in place. The first sips are mostly tea, and the later refills turn sweeter and fruitier.\n\nIn the region it is simply what you serve guests, at home or in restaurants, with staff topping up the water. Buying a packet is fine, but choosing your own fruit and tea tends to taste better. Try less sugar than a shop mix gives you if you want to taste the tea.",
+  "history": "Sanpaotai is a traditional hospitality drink especially among the Hui, Dongxiang and Salar peoples. Its age is disputed: claims range from the Tang dynasty to arrival in the northwest in the Ming and Qing, and none rests on firm evidence.\n\nThe sociologist Fei Xiaotong argued it was brought in from Han areas, because the porcelain and longan had to come from the south. Officials in Linxia similarly read its mix of ingredients as a trace of Silk Road and tea-horse trade.",
+  "liquor_hex": "#C98F3C",
+  "leaf_hex": "#7A4A2E",
+  "sources": [
+    "https://www.chinanews.com.cn/sh/2024/05-21/10220658.shtml",
+    "https://milulu.com.cn/techan/30980.html",
+    "https://wikiwand.com/zh-hans/articles/%E4%B8%89%E7%82%AE%E5%8F%B0",
+    "https://ja.wikipedia.org/wiki/%E4%B8%AD%E5%9B%BD%E8%8C%B6"
+  ],
+  "confidence": "medium",
+  "wikipedia_title": null,
+  "wikipedia_scope": "none",
+  "popularity": 3,
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b3/San_pao_tai.jpg/1280px-San_pao_tai.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b3/San_pao_tai.jpg/330px-San_pao_tai.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source_page": "https://commons.wikimedia.org/wiki/File:San_pao_tai.jpg",
+      "author": "Brücke-Osteuropa",
+      "license": "CC0",
+      "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "kind": "serving",
+      "alt": "Gaiwan of Sanpaotai with tea leaves, red jujubes, goji berries and longans, its lid set to one side"
+    }
+  ]
+}

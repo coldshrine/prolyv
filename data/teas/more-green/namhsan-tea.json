@@ -1,0 +1,58 @@
+{
+  "slug": "namhsan-tea",
+  "name_en": "Namhsan Tea",
+  "name_native": null,
+  "name_romanized": "Namhsan",
+  "name_zh": "南散茶",
+  "name_ru": "Намсан",
+  "aliases": [
+    "Namshan tea",
+    "Namsan tea",
+    "Namhsan green tea"
+  ],
+  "category": "green",
+  "origin_country": "Myanmar",
+  "origin_region": "Shan State · Namhsan",
+  "cultivar": null,
+  "processing": "Little is documented about a single house method. As with other Shan hill leaf, it is typically fixed with heat and dried for drinking, and the same area's leaf also goes into lahpet, the fermented tea eaten as a salad.",
+  "form": "loose",
+  "harvest_season": "Little is documented about picking dates for this area. Spring leaf is generally the most prized in hill green teas.",
+  "appearance_dry": "Typically rustic, dark olive twisted leaf of mixed size, as is usual for Shan hill green tea.",
+  "appearance_liquor": "Usually a clear yellow-green to pale gold, by the standard of hill green teas.",
+  "appearance_wet": "Mid-sized olive leaves of uneven picking, typical of smallholder hill tea.",
+  "taste_profile": "No detailed tasting record exists for this area; expect what is typical of rustic hill green tea, vegetal and woody with a little bitterness.",
+  "taste_tags": [
+    "vegetal",
+    "woody",
+    "bitter"
+  ],
+  "brewing": {
+    "grams": 3,
+    "water_ml": 250,
+    "temp_c": 85,
+    "steeps": 2,
+    "seconds": [
+      120,
+      180
+    ],
+    "notes": "A generic starting point for rustic green tea rather than a local rule. Shorten the steep if it turns bitter."
+  },
+  "caffeine_level": "medium",
+  "vintage_note": "There is no well-documented vintage system for Namhsan tea. As with most green tea, drink it from the latest harvest, and ask the seller which season it comes from. Lahpet from the same hills is a separate food product, sold fresh rather than aged.",
+  "description": "Namhsan is a hill town in northern Shan State, the old capital of the Palaung state of Tawngpeng. Tea is the reason people know the name.\n\nThe name marks a place more than a fixed recipe. Palaung and Shan growers work the lower slopes, and the leaf can end up as drinking tea or as lahpet, the fermented tea of Burmese leaf salads. Namhsan is sometimes named as the possible birthplace of that dish.\n\nFor the cup, little is recorded specifically about this area. Treat it the way you would other rustic hill green teas: moderate water temperature, and a shorter steep if it bites.\n\nWhen buying, ask whether you have drinking tea or lahpet leaf, and which season it was picked. Conflict in Shan State has disrupted the tea supply chain, so availability outside Myanmar can be patchy.",
+  "history": "Namhsan was the capital of Tawngpeng, the only Palaung state among the Shan States under British rule. Before the 19th century the area's history survives mostly as legend.\n\nIn the 1920s and 1930s the town prospered on tea and silver mining. Tawngpeng was then the main tea district of the Federated Shan States. In December 2023 the town came under the control of the Ta'ang National Liberation Army after two weeks of fighting, and armed conflict has disrupted the domestic tea supply chain.",
+  "liquor_hex": "#C9B865",
+  "leaf_hex": "#4F5233",
+  "sources": [
+    "https://www.burmalibrary.org/en/tea-production-on-the-periphery-of-the-british-empire",
+    "https://en.wikipedia.org/wiki/Lahpet",
+    "https://en.wikipedia.org/wiki/Tawngpeng_State",
+    "https://en.wikipedia.org/wiki/Namhsan"
+  ],
+  "confidence": "low",
+  "wikipedia_title": "Lahpet",
+  "wikipedia_scope": "umbrella",
+  "popularity": 2,
+  "images": [],
+  "sources_note": "name_zh is a descriptive rendering; no established Chinese name was confirmed."
+}

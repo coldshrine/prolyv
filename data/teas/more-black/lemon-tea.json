@@ -1,0 +1,98 @@
+{
+  "slug": "lemon-tea",
+  "name_en": "Lemon Tea",
+  "name_native": null,
+  "name_romanized": "Níngméng Chá",
+  "name_zh": "柠檬茶",
+  "name_ru": "Чай с лимоном",
+  "aliases": [
+    "Lemon Black Tea",
+    "檸檬茶",
+    "港式柠檬茶"
+  ],
+  "category": "black",
+  "origin_country": "Multiple",
+  "origin_region": "Worldwide · best known in Hong Kong",
+  "cultivar": null,
+  "processing": "Regular black tea, brewed strong and served with fresh lemon slices, hot or iced, with sugar or syrup to taste. Packaged versions are ready-to-drink sweetened teas.",
+  "form": "other",
+  "harvest_season": "Not tied to a harvest; it is made from everyday black tea available all year.",
+  "appearance_dry": "Plain black tea leaf, typically a small dark grade, with lemon added only at serving.",
+  "appearance_liquor": "Bright reddish amber, turning lighter and clearer once the lemon's acid goes in.",
+  "appearance_wet": "Dark brown tea leaf, usually strained out, with pale lemon slices in the glass.",
+  "taste_profile": "Brisk black tea sharpened by fresh lemon acidity and rounded with sugar; the iced Hong Kong style is sweet, tart and cleanly tannic.",
+  "taste_tags": [
+    "citrus",
+    "tart",
+    "brisk",
+    "sweet"
+  ],
+  "brewing": {
+    "grams": 5,
+    "water_ml": 300,
+    "temp_c": 95,
+    "steeps": 1,
+    "seconds": [
+      240
+    ],
+    "notes": "Brew strong, add lemon after straining and press it lightly. For iced, sweeten with syrup while the tea is warm and chill quickly."
+  },
+  "caffeine_level": "medium",
+  "vintage_note": "Not a vintage product. Café lemon tea is made to order from everyday black tea, and packaged lemon tea is sold with a best-before date. The tea base only needs to be fresh and strong; some brands name a Ceylon base on the label.",
+  "description": "Lemon tea is about as plain as a tea drink gets: black tea with lemon. It is drunk in many countries, but Hong Kong made it a fixture, serving it in cafes and restaurants with several slices of fresh lemon, with sugar when hot and syrup when cold.\n\nNothing special happens to the leaf. The work happens in the glass, where acid brightens the tea and lightens its colour, so a brew that seems too strong alone often tastes right with lemon.\n\nA good one is tart first, then tannic, with enough sweetness to hold the two together. The common mistake is leaving the lemon to soak too long in hot tea, which can bring out bitterness from the peel. Press lightly and drink.\n\nPackaged lemon tea is a different experience: sweeter, smoother and built for a cold carton. Hong Kong brands such as Vita and Hi-C made it a daily habit there, and ingredient lists vary from one market to another, so read the label if you are comparing.",
+  "history": "Lemon in black tea has no single documented origin. Its best-recorded chapter is in Hong Kong, where the drink became a cafe standard and then a packaged product: the local brand Vita launched lemon tea in 1979, and Hi-C followed with carton drinks including lemon tea in 1984.\n\nThe packaged form has since gained ground in mainland China. Lemon tea is also a popular everyday variant in Bangladesh, alongside milk tea and plain black tea.",
+  "liquor_hex": "#C4702A",
+  "leaf_hex": "#3C2A1C",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Tea_culture",
+    "https://zh.wikipedia.org/wiki/%E7%B6%AD%E4%BB%96",
+    "https://zh.wikipedia.org/wiki/%E9%98%B3%E5%85%89_%28%E5%93%81%E7%89%8C%29",
+    "https://ratetea.com/styles.php"
+  ],
+  "confidence": "medium",
+  "wikipedia_title": "Tea culture",
+  "wikipedia_scope": "umbrella",
+  "popularity": 3,
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/38/Hong_Kong_Style_Lemon_Tea_from_Lan_Heung_Cha_Chaan_Teng_Tsuen_Wan.jpg/1280px-Hong_Kong_Style_Lemon_Tea_from_Lan_Heung_Cha_Chaan_Teng_Tsuen_Wan.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/38/Hong_Kong_Style_Lemon_Tea_from_Lan_Heung_Cha_Chaan_Teng_Tsuen_Wan.jpg/330px-Hong_Kong_Style_Lemon_Tea_from_Lan_Heung_Cha_Chaan_Teng_Tsuen_Wan.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Hong_Kong_Style_Lemon_Tea_from_Lan_Heung_Cha_Chaan_Teng_Tsuen_Wan.jpg",
+      "author": "Peachyeung316",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "kind": "liquor",
+      "alt": "Hong Kong style hot lemon tea with lemon slices in a white cup on a saucer"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ad/A_Hong_Kong_style_Hot_Lemon_Tea_in_Kowloon_Cafe_at_Tsuen_Wan.jpg/1280px-A_Hong_Kong_style_Hot_Lemon_Tea_in_Kowloon_Cafe_at_Tsuen_Wan.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ad/A_Hong_Kong_style_Hot_Lemon_Tea_in_Kowloon_Cafe_at_Tsuen_Wan.jpg/330px-A_Hong_Kong_style_Hot_Lemon_Tea_in_Kowloon_Cafe_at_Tsuen_Wan.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source_page": "https://commons.wikimedia.org/wiki/File:A_Hong_Kong_style_Hot_Lemon_Tea_in_Kowloon_Cafe_at_Tsuen_Wan.jpg",
+      "author": "Peachyeung316",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "kind": "liquor",
+      "alt": "Hot lemon black tea with lemon slices and a spoon in a metal mug"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/70/Hong_Kong_style_hot_Lemon_Tea_at_New_May_Kay_Hong_Kong_Style_Restuartant_in_Tuen_Mun.jpg/1280px-Hong_Kong_style_hot_Lemon_Tea_at_New_May_Kay_Hong_Kong_Style_Restuartant_in_Tuen_Mun.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/70/Hong_Kong_style_hot_Lemon_Tea_at_New_May_Kay_Hong_Kong_Style_Restuartant_in_Tuen_Mun.jpg/330px-Hong_Kong_style_hot_Lemon_Tea_at_New_May_Kay_Hong_Kong_Style_Restuartant_in_Tuen_Mun.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Hong_Kong_style_hot_Lemon_Tea_at_New_May_Kay_Hong_Kong_Style_Restuartant_in_Tuen_Mun.jpg",
+      "author": "Peachyeung316",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "kind": "liquor",
+      "alt": "Hot lemon black tea with lemon slices in a dark glass on a saucer with a spoon"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/63/A_lemon_tea_from_flower_years.jpg/1280px-A_lemon_tea_from_flower_years.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/63/A_lemon_tea_from_flower_years.jpg/330px-A_lemon_tea_from_flower_years.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source_page": "https://commons.wikimedia.org/wiki/File:A_lemon_tea_from_flower_years.jpg",
+      "author": "Peachyeung316",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "kind": "liquor",
+      "alt": "Tall glass of lemon tea with a lemon slice and a straw on a wooden counter"
+    }
+  ]
+}

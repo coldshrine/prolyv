@@ -1,0 +1,56 @@
+{
+  "slug": "sichuan-flat-bian-cha",
+  "name_en": "Bian Cha (Flat Tea)",
+  "name_native": "扁茶",
+  "name_romanized": "Biǎn Chá",
+  "aliases": [
+    "Flat Tea"
+  ],
+  "category": "heicha",
+  "origin_country": "China",
+  "origin_region": "Sichuan",
+  "cultivar": null,
+  "form": "other",
+  "caffeine_level": "medium",
+  "brewing": {
+    "grams": 6,
+    "water_ml": 120,
+    "temp_c": 100,
+    "steeps": 6,
+    "seconds": [
+      15,
+      15,
+      20,
+      30,
+      45,
+      60
+    ],
+    "notes": "A safe starting point for dark tea: rinse once, boiling water, or simmer it the traditional way."
+  },
+  "taste_tags": [
+    "earthy",
+    "woody"
+  ],
+  "description": "A flat-shaped dark tea attributed to Sichuan.\n\nTreat it as you would any dark tea: rinse it, use boiling water, and buy from someone who can say who pressed it and when.",
+  "wikipedia_title": null,
+  "wikipedia_scope": "none",
+  "popularity": 1,
+  "name_zh": "扁茶",
+  "name_ru": "Бянь Ча",
+  "history": null,
+  "liquor_hex": "#7A3A14",
+  "leaf_hex": "#2A1E16",
+  "sources": [
+    "https://m.51pot.com/tea/tea-detail-214.shtml"
+  ],
+  "confidence": "low",
+  "images": [],
+  "stub": true,
+  "processing": "Typical of dark tea: green leaf is piled so that microbes ferment it, then dried and often pressed.",
+  "harvest_season": "Often made from coarser, later leaf, as with most dark teas.",
+  "appearance_dry": "Usually dark leaf, loose or pressed into bricks or baskets.",
+  "appearance_liquor": "Usually orange-red to dark brown.",
+  "appearance_wet": "Usually coarse dark leaf with some stem.",
+  "taste_profile": "Expect what dark teas usually give: smooth, woody and earthy.",
+  "vintage_note": "Dark teas are sold by production year and many improve with several years of dry storage."
+}

@@ -1,0 +1,53 @@
+{
+  "slug": "georgian-extra-green",
+  "name_en": "Georgian Extra (green)",
+  "name_native": "ექსტრა",
+  "name_romanized": "Ekstra",
+  "name_zh": "格鲁吉亚特级绿茶",
+  "name_ru": "Грузинский зелёный «Экстра»",
+  "aliases": [
+    "Экстра",
+    "Ekstra"
+  ],
+  "category": "green",
+  "origin_country": "Georgia",
+  "origin_region": "Georgia",
+  "cultivar": null,
+  "processing": "Few details are recorded. It was a Soviet-era leaf green grade ranked above the numbered scale; the black grade of the same name used the top leaves of the bush with tips.",
+  "form": "loose",
+  "harvest_season": "Little is documented for this grade. Top Georgian grades relied on upper leaves rather than coarse machine picking.",
+  "appearance_dry": "Few descriptions survive; a top-grade leaf green would be expected to look clean and even.",
+  "appearance_liquor": "Not specifically described; typical of good leaf green tea, clear pale yellow-green.",
+  "appearance_wet": "Not specifically described; as with other fine-plucked greens, small tender leaves.",
+  "taste_profile": "No reliable tasting notes survive for this grade. Expect what is typical of a high-grade green tea: fresh, lightly vegetal and clean.",
+  "taste_tags": [
+    "vegetal",
+    "grassy"
+  ],
+  "brewing": {
+    "grams": 3,
+    "water_ml": 250,
+    "temp_c": 80,
+    "steeps": 2,
+    "seconds": [
+      120,
+      180
+    ],
+    "notes": "General advice for a leaf green tea, since no method specific to this grade is recorded."
+  },
+  "caffeine_level": "medium",
+  "vintage_note": "A Soviet-era grade name, not a vintage or a seasonal release. Little is documented about current sale; a modern pack with this name should be judged as any green tea, by a recent harvest date.",
+  "description": "Extra was one of the two green tea grades that stood above the Soviet Georgian numbering, the other being Bouquet. Numbers ran up to 125 and rose with quality, so Extra signalled the very top of the range.\n\nThe making of this green is not well recorded. Its black namesake was made from the top leaves of the bush and held tips, which suggests a similar selection of leaf, though that is an inference and not a recorded recipe.\n\nThere are no dependable tasting notes for it. Brew it like any fine green tea, with water around 80 °C, and judge by what is in the cup.\n\nThe word extra is also a common trade term, so seeing it on a Georgian packet tells you little by itself. Look for a maker and a harvest date.",
+  "history": "The grade belongs to the Soviet period of Georgian tea, when green teas were sold in a long list of grades. Accounts place Extra with Bouquet above the numbered scale and among the teas of the highest quality.\n\nWho set the standard and how long it stayed in production is not well documented.",
+  "liquor_hex": "#DDD690",
+  "leaf_hex": "#616D3E",
+  "sources": [
+    "https://ru.wikipedia.org/wiki/%D0%93%D1%80%D1%83%D0%B7%D0%B8%D0%BD%D1%81%D0%BA%D0%B8%D0%B9_%D1%87%D0%B0%D0%B9",
+    "https://ka.wikipedia.org/wiki/%E1%83%A5%E1%83%90%E1%83%A0%E1%83%97%E1%83%A3%E1%83%9A%E1%83%98_%E1%83%A9%E1%83%90%E1%83%98"
+  ],
+  "confidence": "low",
+  "wikipedia_title": "Грузинский чай",
+  "wikipedia_scope": "umbrella",
+  "popularity": 2,
+  "images": []
+}

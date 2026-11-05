@@ -1,0 +1,60 @@
+{
+  "slug": "bian-xiao-cha",
+  "name_en": "Bian Xiao Cha",
+  "name_native": "边销茶",
+  "name_romanized": "Biānxiāo chá",
+  "aliases": [
+    "Border-Sale Tea",
+    "Bianxiao brick tea",
+    "边销砖茶",
+    "邊銷茶"
+  ],
+  "category": "heicha",
+  "origin_country": "China",
+  "origin_region": "Hunan, Sichuan, Yunnan",
+  "cultivar": null,
+  "form": "brick",
+  "caffeine_level": "medium",
+  "brewing": {
+    "grams": 6,
+    "water_ml": 120,
+    "temp_c": 100,
+    "steeps": 6,
+    "seconds": [
+      15,
+      15,
+      20,
+      30,
+      45,
+      60
+    ],
+    "notes": "A safe starting point for dark tea: rinse once, boiling water, or simmer it the traditional way."
+  },
+  "taste_tags": [
+    "earthy",
+    "woody"
+  ],
+  "description": "Border-sale tea, an older name for Chinese dark teas sold into the minority regions of the west.\n\nTreat it as you would any dark tea: rinse it, use boiling water, and buy from someone who can say who pressed it and when.",
+  "wikipedia_title": null,
+  "wikipedia_scope": "none",
+  "popularity": 1,
+  "name_zh": "边销茶",
+  "name_ru": "Бянь Сяо Ча",
+  "history": "The name reflects a trade rather than one recipe: dark teas from several provinces went to western minority areas, and some remain favoured by Tibetan, Mongol and Central Asian drinkers. Little more is documented about the term itself.",
+  "liquor_hex": "#7A3A14",
+  "leaf_hex": "#2A1E16",
+  "sources": [
+    "https://chawangshop.com/hei-cha.html",
+    "https://en.wikipedia.org/wiki/Tea_brick"
+  ],
+  "confidence": "low",
+  "images": [],
+  "stub": true,
+  "processing": "Typical of dark tea: green leaf is piled so that microbes ferment it, then dried and often pressed.",
+  "harvest_season": "Often made from coarser, later leaf, as with most dark teas.",
+  "appearance_dry": "Usually dark leaf, loose or pressed into bricks or baskets.",
+  "appearance_liquor": "Usually orange-red to dark brown.",
+  "appearance_wet": "Usually coarse dark leaf with some stem.",
+  "taste_profile": "Expect what dark teas usually give: smooth, woody and earthy.",
+  "vintage_note": "Dark teas are sold by production year and many improve with several years of dry storage."
+}

@@ -3,10 +3,21 @@
   "name_en": "Lu'an Gua Pian (Melon Seed)",
   "name_native": "六安瓜片",
   "name_romanized": "Lù'ān Guāpiàn",
-  "aliases": ["Lu An Gua Pian", "Liu An Gua Pian", "Lu'an Melon Seed", "Melon Slice tea", "Gua Pian", "Qitoushan Guapian"],
+  "aliases": [
+    "Lu An Gua Pian",
+    "Liu An Gua Pian",
+    "Lu'an Melon Seed",
+    "Melon Slice tea",
+    "Gua Pian",
+    "Qitoushan Guapian",
+    "Lu'an Leaf",
+    "瓜片",
+    "Люань Гуапянь",
+    "Лю Ань Гуа Пянь"
+  ],
   "category": "green",
   "origin_country": "China",
-  "origin_region": "Anhui · Lu'an · Jinzhai county and Yu'an district (Qitou Mountain)",
+  "origin_region": "Anhui · Lu'an · Jinzhai",
   "cultivar": "Lu'an local landrace (Dabie Mountain population bushes)",
   "processing": "Pan-fired then charcoal-baked green made from single mature leaves: buds and stems are stripped off, the leaves are fired in two woks (a hot 'raw' wok and a cooler 'cooked' wok) with a bundle of twigs, then baked in three stages, the last being the 'pulling the old fire' pass where baskets of leaf are swung over a blazing charcoal fire dozens of times until a frosty bloom appears.",
   "form": "loose",
@@ -15,12 +26,64 @@
   "appearance_liquor": "Clear yellow-green, deeper than most greens.",
   "appearance_wet": "Whole, even, bud-free leaves of medium size, dark green and sturdy.",
   "taste_profile": "Full and smooth with toasted bean, cooked greens and a mellow sweetness, a faint orchid lift and almost no bitterness; more body than delicacy.",
-  "taste_tags": ["nutty", "roasted", "sweet", "vegetal"],
-  "brewing": {"grams": 4, "water_ml": 120, "temp_c": 85, "steeps": 4, "seconds": [30, 30, 45, 75], "notes": "Gaiwan. This is the sturdiest of the famous greens: it takes 85 °C comfortably and gives a solid fourth steep. Underbrewed it tastes thin, so do not be shy with the leaf."},
+  "taste_tags": [
+    "nutty",
+    "roasted",
+    "sweet",
+    "vegetal"
+  ],
+  "brewing": {
+    "grams": 4,
+    "water_ml": 120,
+    "temp_c": 85,
+    "steeps": 4,
+    "seconds": [
+      30,
+      30,
+      45,
+      75
+    ],
+    "notes": "Gaiwan. This is the sturdiest of the famous greens: it takes 85 °C comfortably and gives a solid fourth steep. Underbrewed it tastes thin, so do not be shy with the leaf."
+  },
   "caffeine_level": "medium",
   "vintage_note": "Sold as the current year's spring harvest in a late-April to May window, with three traditional tiers by picking time: ti pian (earliest, picked before Grain Rain), gua pian (the main crop) and mei pian (later, cheaper). Core-area tea from Qitou Mountain and the reservoir villages of Jinzhai is the premium; 'gua pian' from the wider Lu'an area is the everyday version. Drink within the year, kept cold and sealed.",
-  "description": "Lu'an Gua Pian is the odd one out among China's famous greens: it is made from leaves only. No buds, no stems, just the second or third leaf of the shoot, picked when it is fully grown and then stripped from the stalk by hand. It comes from the Dabie Mountains of western Anhui, around Qitou Mountain and the reservoir villages of Jinzhai county, and the name means 'melon seed' for the shape the curled leaves take.\n\nThe making is as unusual as the picking. The leaves go through two woks, a hot one to kill the green and a cooler one to shape them, worked with a brush of twigs rather than hands. Then come three bakings, the last of which is the famous 'pulling the old fire': two people swing a basket of leaf over a roaring charcoal fire, a few seconds at a time, well over a hundred passes, until the leaf develops a frosty bloom. That high, fast heat is what gives the tea its toasty depth without any smokiness.\n\nThe cup is full, smooth and comfortable, with toasted bean and cooked greens, a soft sweetness and a hint of orchid, and very little bitterness even if you push it. It is the green tea for people who find greens thin. It likes slightly hotter water than bud teas (85 °C is fine) and a proper dose of leaf, and it will give four decent steeps from a gaiwan.\n\nBuying: because the leaf must mature, it is picked late, from around Grain Rain into early May, and sold in three loose tiers by timing: ti pian first and priciest, gua pian as the main crop, mei pian later and cheaper. The core-area tea from the Qitou Mountain side is scarce; most of what is sold comes from the wider Lu'an area and is perfectly good daily tea. Leaf should be whole and even, with that faint bloom; dull, broken or stemmy leaf is a lower grade whatever the label says.\n\nIt pairs well with food in a way few greens do, and it is a sensible first green for a black-tea drinker.",
+  "description": "Lu'an Gua Pian is the odd one out among China's famous greens: it is made from leaves only. No buds, no stems, just the second or third leaf of the shoot, picked when it is fully grown and then stripped from the stalk by hand. It comes from the Dabie Mountains of western Anhui, around Qitou Mountain and the reservoir villages of Jinzhai county, and the name means 'melon seed' for the shape the curled leaves take.\n\nThe making is as unusual as the picking. The leaves go through two woks, a hot one to kill the green and a cooler one to shape them, worked with a brush of twigs rather than hands. Then come three bakings, the last of which is the famous 'pulling the old fire': two people swing a basket of leaf over a roaring charcoal fire, a few seconds at a time, dozens of passes, until the leaf develops a frosty bloom. That high, fast heat is what gives the tea its toasty depth without any smokiness.\n\nThe cup is full, smooth and comfortable, with toasted bean and cooked greens, a soft sweetness and a hint of orchid, and very little bitterness even if you push it. It is the green tea for people who find greens thin. It likes slightly hotter water than bud teas (85 °C is fine) and a proper dose of leaf, and it will give four decent steeps from a gaiwan.\n\nBuying: because the leaf must mature, it is picked late, from around Grain Rain into early May, and sold in three loose tiers by timing: ti pian first and priciest, gua pian as the main crop, mei pian later and cheaper. The core-area tea from the Qitou Mountain side is scarce; most of what is sold comes from the wider Lu'an area and is perfectly good daily tea. Leaf should be whole and even, with that faint bloom; dull, broken or stemmy leaf is a lower grade whatever the label says.\n\nIt pairs well with food in a way few greens do, and it is a sensible first green for a black-tea drinker.",
   "wikipedia_title": "Lu'an Melon Seed tea",
   "wikipedia_scope": "exact",
-  "popularity": 4
+  "popularity": 4,
+  "name_zh": "六安瓜片",
+  "name_ru": "Лу Ань Гуа Пянь",
+  "history": "Tea from the Lu'an area of western Anhui is old and well recorded, but Gua Pian as a named style is much younger than it is often said to be. Lu'an tea was going to the Ming court as tribute from the start of that dynasty, and a Ming tea book praised it as fine and good in medicine while complaining that local makers fired it badly, so it lacked aroma and tasted bitter. Claims that Gua Pian itself goes back to Lu Yu in the Tang tend to run the regional tea together with this one leaf-only style.\n\nThe name can only be pinned down to the end of the Qing and the first years of the Republic. Three stories compete, all placed around 1905 and none of them secure: a tea house at Houchong on Qitou Mountain sorted out a leaf that looked like sunflower seeds and called it 'guazi pian', later shortened; a relative of Yuan Shikai at Mabu had the first tender leaves picked to please him; or a daughter of the Zhu family at Laosongke began picking leaves only, and her tea reached Yuan through that same relative. Treat all three as legend.\n\nThe tea sits on most lists of China's famous teas and its making is now national intangible heritage. Most of what is sold today is machine-made: the leaves come out a paler green and straighter than the deep green, frosted leaf made by hand.",
+  "liquor_hex": "#C9C66A",
+  "leaf_hex": "#56683C",
+  "sources": [
+    "https://zh.wikipedia.org/wiki/%E5%85%AD%E5%AE%89%E7%93%9C%E7%89%87",
+    "https://en.wikipedia.org/wiki/Lu%27an_Melon_Seed_tea",
+    "https://ja.wikipedia.org/wiki/%E5%85%AD%E5%AE%89%E7%93%9C%E7%89%87",
+    "https://ru.wikipedia.org/wiki/%D0%9B%D1%8E%D0%B0%D0%BD%D1%8C_%D0%B3%D1%83%D0%B0%D0%BF%D1%8F%D0%BD%D1%8C",
+    "https://zh.wikipedia.org/wiki/%E4%B8%AD%E5%9B%BD%E5%8D%81%E5%A4%A7%E5%90%8D%E8%8C%B6"
+  ],
+  "confidence": "high",
+  "images": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/8/8c/Lu%27an_Melon_Seed_tea.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8c/Lu%27an_Melon_Seed_tea.jpg/330px-Lu%27an_Melon_Seed_tea.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Lu%27an_Melon_Seed_tea.jpg",
+      "author": "PanShiBo",
+      "license": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "kind": "dry_leaf",
+      "alt": "Dry Lu'an Melon Seed tea leaves, dark green and curled lengthwise, on a white surface"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/b/b9/Melon_Seed_tea.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b9/Melon_Seed_tea.jpg/330px-Melon_Seed_tea.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Melon_Seed_tea.jpg",
+      "author": "PanShiBo",
+      "license": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "kind": "wet_leaf",
+      "alt": "Melon Seed tea leaves steeping in a glass pitcher on a bamboo tray"
+    }
+  ]
 }

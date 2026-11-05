@@ -3,24 +3,90 @@
   "name_en": "Kabusecha",
   "name_native": "かぶせ茶",
   "name_romanized": "Kabusecha",
-  "aliases": ["Kabuse sencha", "Covered tea", "Shaded sencha", "Kabuse-cha", "Ise kabusecha"],
+  "aliases": [
+    "Kabuse sencha",
+    "Covered tea",
+    "Shaded sencha",
+    "Kabuse-cha",
+    "Ise kabusecha"
+  ],
   "category": "green",
   "origin_country": "Japan",
-  "origin_region": "Mie · Yokkaichi and Suzuka (Ise); also Kyoto, Nara, Fukuoka",
+  "origin_region": "Mie · Yokkaichi",
   "cultivar": "Yabukita, Saemidori, Okumidori",
-  "processing": "Bushes are covered with shade cloth for roughly 7–14 days before picking, often with the cloth draped directly over the rows, then the leaf is steamed, rolled and dried as sencha.",
+  "processing": "Bushes are covered with shade cloth for about a week before picking, commonly 3 to 10 days, often with the cloth draped directly over the rows, then the leaf is steamed, rolled and dried as sencha.",
   "form": "loose",
   "harvest_season": "First flush (late April–May); second-flush kabusecha exists for cheaper grades but is not the point.",
   "appearance_dry": "Dark green needles, finer and darker than ordinary sencha but not as black-green as gyokuro.",
   "appearance_liquor": "Clear, bright green-yellow.",
   "appearance_wet": "Deep green, soft leaves.",
   "taste_profile": "Rounder and more savoury than sencha, with a gentle seaweed umami, mild sweetness and softened astringency, while keeping some of sencha's freshness.",
-  "taste_tags": ["umami", "sweet", "vegetal", "marine"],
-  "brewing": {"grams": 6, "water_ml": 150, "temp_c": 65, "steeps": 3, "seconds": [90, 20, 60], "notes": "Between sencha and gyokuro: a little more leaf, cooler water (60–70 °C) and a longer first steep. Works beautifully cold-brewed overnight at about 1 g per 100 ml."},
+  "taste_tags": [
+    "umami",
+    "sweet",
+    "vegetal",
+    "marine"
+  ],
+  "brewing": {
+    "grams": 6,
+    "water_ml": 150,
+    "temp_c": 65,
+    "steeps": 3,
+    "seconds": [
+      90,
+      20,
+      60
+    ],
+    "notes": "Between sencha and gyokuro: a little more leaf, cooler water (60–70 °C) and a longer first steep. Works beautifully cold-brewed overnight at about 1 g per 100 ml."
+  },
   "caffeine_level": "medium",
   "vintage_note": "Sold as the current year's first flush, usually labelled kabusecha or 'kabuse sencha' with the prefecture; Mie lots are often sold under the Ise-cha name. It appears in shops from late spring and, like sencha, is meant to be finished within the year; a few producers rest it for a couple of months like gyokuro, but there is no tradition of ageing it.",
-  "description": "Kabusecha, 'covered tea', sits halfway between sencha and gyokuro: shaded for a week or two rather than three, usually with cloth draped straight over the bushes instead of hung on frames. Mie prefecture, whose tea is sold under the Ise-cha name, makes more of it than anywhere else, with Kyoto, Nara and Fukuoka behind.\n\nA shorter shade gives a partial version of the gyokuro effect. The leaf keeps more theanine and makes more chlorophyll than an unshaded one, so the needles are darker and the cup is rounder and more savoury, but it also keeps the freshness and lift of sencha. Processing is standard: steam, roll, dry, refine. In practice the boundary is blurry; some of the best 'sencha' from Kyoto and Kagoshima is shaded for a few days before picking, and whether a tea is sold as sencha or kabusecha is partly a labelling decision.\n\nBrewed at 60–70 °C with a slightly longer first steep it gives a sweet, seaweed-savoury cup with a soft texture and only a hint of grip; brewed hotter like sencha it is still perfectly good, just grassier and less umami. Cold-brewed overnight at about 1 g per 100 ml it is one of the best Japanese teas there is. For anyone who finds gyokuro too intense or too expensive, kabusecha is the sensible introduction to shaded tea.\n\nIt is labelled kabusecha or 'kabuse sencha' with the prefecture, and it is good value for the umami you get, typically priced a little above sencha and well below gyokuro. Watch for the two mislabels: 'gyokuro' that was shaded for only a week, and 'kabuse' used loosely for anything that saw a bit of shade. Mie's lots are often deep-steamed as well as shaded, which makes a thick, sweet, cloudy tea; Kyoto and Fukuoka lots tend to be lighter and clearer.\n\nIf you buy only one umami-style tea for everyday drinking, make it this one.",
+  "description": "Kabusecha, 'covered tea', sits halfway between sencha and gyokuro: shaded for about a week rather than about three, usually with cloth draped straight over the bushes instead of hung on frames. Mie prefecture, whose tea is sold under the Ise-cha name, makes more of it than anywhere else, with Fukuoka, Saga and Nara well behind.\n\nA shorter shade gives a partial version of the gyokuro effect. The leaf keeps more theanine and makes more chlorophyll than an unshaded one, so the needles are darker and the cup is rounder and more savoury, but it also keeps the freshness and lift of sencha. Processing is standard: steam, roll, dry, refine. In practice the boundary is blurry; some of the best 'sencha' from Kyoto and Kagoshima is shaded for a few days before picking, and whether a tea is sold as sencha or kabusecha is partly a labelling decision.\n\nBrewed at 60–70 °C, or up to about 85 °C for a brighter cup, with a slightly longer first steep it gives a sweet, seaweed-savoury cup with a soft texture and only a hint of grip; brewed hotter like sencha it is still perfectly good, just grassier and less umami. Cold-brewed overnight at about 1 g per 100 ml it is one of the best Japanese teas there is. For anyone who finds gyokuro too intense or too expensive, kabusecha is the sensible introduction to shaded tea.\n\nIt is labelled kabusecha or 'kabuse sencha' with the prefecture, and it is good value for the umami you get, typically priced a little above sencha and well below gyokuro. Watch for the two mislabels: 'gyokuro' that was shaded for only a week, and 'kabuse' used loosely for anything that saw a bit of shade. Mie's lots are often deep-steamed as well as shaded, which makes a thick, sweet, cloudy tea; Kyoto and Fukuoka lots tend to be lighter and clearer.\n\nIf you buy only one umami-style tea for everyday drinking, make it this one.",
   "wikipedia_title": "Kabusecha",
   "wikipedia_scope": "exact",
-  "popularity": 3
+  "popularity": 3,
+  "name_zh": "冠茶",
+  "name_ru": "Кабусэтя",
+  "history": "Kabusecha is defined by a farming step rather than a place: cloth or straw is laid directly over the bushes for a short spell before picking, which is where the name, from a word meaning to cover, comes from. It was developed to imitate the shading used for tencha, and the name also serves as a selling term for a better-than-average green tea.\n\nThe 2008 national figures put it at about 4,220 tonnes, roughly 4.4% of Japanese green tea, with Mie alone making 1,660 tonnes, more than a third of the total. The Ise area is the best known, Suizawa in Yokkaichi above all, and most of it is drunk in western Japan.\n\nThe line between kabusecha and gyokuro became a real argument in 2008, when Mie began counting some tea shaded directly for about 20 days as gyokuro and its reported gyokuro output jumped from 3 to 132 tonnes. Growers' bodies in Fukuoka, Kyoto and Shizuoka objected, since gyokuro sold for about three times as much. From 2009 the agriculture ministry stopped separating them and reports gyokuro, kabusecha and tencha together as covered tea.",
+  "liquor_hex": "#C9D06A",
+  "leaf_hex": "#2F4A2A",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Kabusecha",
+    "https://ja.wikipedia.org/wiki/%E3%81%8B%E3%81%B6%E3%81%9B%E8%8C%B6",
+    "https://ru.wikipedia.org/wiki/%D0%9A%D0%B0%D0%B1%D1%83%D1%81%D1%8D%D1%82%D1%8F",
+    "https://en.wikipedia.org/wiki/Sencha"
+  ],
+  "confidence": "high",
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7a/Green_tea_kabuse-cha.jpg/1280px-Green_tea_kabuse-cha.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7a/Green_tea_kabuse-cha.jpg/330px-Green_tea_kabuse-cha.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Green_tea_kabuse-cha.jpg",
+      "author": "Shizuha",
+      "license": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "kind": "liquor",
+      "alt": "Yellow-green kabusecha liquor in a white gaiwan beside a dish of dark needle leaves"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e5/Kabuse-cha_tea_0017.jpg/1280px-Kabuse-cha_tea_0017.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e5/Kabuse-cha_tea_0017.jpg/330px-Kabuse-cha_tea_0017.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Kabuse-cha_tea_0017.jpg",
+      "author": "",
+      "license": "CC BY-SA 2.0 fr",
+      "license_url": "https://creativecommons.org/licenses/by-sa/2.0/fr/deed.en",
+      "kind": "dry_leaf",
+      "alt": "Dark green kabusecha needles in an open tin beside its lid"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2b/Kabuse_tea.jpg/1280px-Kabuse_tea.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2b/Kabuse_tea.jpg/330px-Kabuse_tea.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Kabuse_tea.jpg",
+      "author": "Aaron Armstrong",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "kind": "plantation",
+      "alt": "Workers removing shade covers from tea rows for the kabuse harvest on a hillside"
+    }
+  ]
 }

@@ -1,0 +1,60 @@
+{
+  "slug": "ginkgo-tea",
+  "name_en": "Ginkgo Leaf Tea",
+  "name_native": "银杏茶",
+  "name_romanized": "Yínxìng Chá",
+  "name_zh": "银杏茶",
+  "name_ru": "Чай из листьев гинкго",
+  "aliases": [
+    "Ginkgo tea",
+    "Ginkgo biloba tea",
+    "Yinxing Tea",
+    "Yinxingcha",
+    "イチョウ葉茶",
+    "銀杏茶",
+    "Инь Син Ча"
+  ],
+  "category": "tisane",
+  "origin_country": "China",
+  "origin_region": "Shaanxi",
+  "cultivar": null,
+  "processing": "Ginkgo biloba leaves are dried for steeping. Little is documented about a standard method, and industrial leaf extracts are a separate product.",
+  "form": "loose",
+  "harvest_season": "One study of seasonal ginkgolic acid levels found September the best time to gather leaves.",
+  "appearance_dry": "Dried, fan-shaped leaf pieces in dull green, typical of ginkgo leaf.",
+  "appearance_liquor": "Clear yellow, typical of a dried-leaf infusion.",
+  "appearance_wet": "Soft, olive leaf pieces where the fan veins can still be seen.",
+  "taste_profile": "Little is documented about its flavour; expect a plain, herbal, somewhat bitter leaf infusion of this general type.",
+  "taste_tags": [
+    "herbal",
+    "bitter",
+    "vegetal"
+  ],
+  "brewing": {
+    "grams": 2,
+    "water_ml": 200,
+    "temp_c": 90,
+    "steeps": 2,
+    "seconds": [
+      180,
+      240
+    ],
+    "notes": "Use a made-for-tea product, not leaves picked from a street tree. If you take medicines, ask a doctor first."
+  },
+  "caffeine_level": "none",
+  "vintage_note": "Not sold by year. It is a pack product with a best-before date, and no vintage market exists. Since leaf processing and ginkgolic acid control differ, the maker and any test information matter more than freshness alone.",
+  "description": "Ginkgo tea is an infusion of the leaves of Ginkgo biloba, the living-fossil tree of East Asia. It contains no tea plant. In Shaanxi it is counted among the region's non-tea teas, next to jiaogulan and eucommia, and it is also known in Japan.\n\nThe important point is safety. Ginkgo leaves contain ginkgolic acids, which researchers describe as toxic, and their level changes through the season. One Chinese study measured them in leaf and in ginkgo tea, and pointed to September as the best month to gather leaf.\n\nLittle is documented about how the cup should taste or how it is best brewed. Treat it as a plain dried-leaf infusion, start with a light dose, and keep your expectations modest.\n\nDo not make this from leaves you gather yourself, and be careful with shop claims about the circulation or the brain. Those mostly borrow from research on purified extracts, which is not the same as a cup of leaf.",
+  "history": "Ginkgo was cultivated early in human history and is planted widely across East Asia. Little is documented, however, about when its leaves began to be drunk as a tea.\n\nThe tea appears in modern Chinese records as a regional substitute tea, and in food science work from the early 2000s that measured ginkgolic acid in it.",
+  "liquor_hex": "#D2BE5E",
+  "leaf_hex": "#7D8A46",
+  "sources": [
+    "https://www.spkx.net.cn/CN/Y2002/V23/I12/94",
+    "https://blog.sina.com.cn/s/blog_8513c2860102vvdm.html",
+    "https://en.wikipedia.org/wiki/Ginkgo_biloba"
+  ],
+  "confidence": "low",
+  "wikipedia_title": "Ginkgo biloba",
+  "wikipedia_scope": "umbrella",
+  "popularity": 2,
+  "images": []
+}

@@ -1,0 +1,53 @@
+{
+  "slug": "wuzi-green-tea",
+  "name_en": "Wuzi Green Tea",
+  "name_native": "午子绿茶",
+  "name_romanized": "Wǔzǐ Lǜchá",
+  "aliases": [
+    "午子綠茶"
+  ],
+  "category": "green",
+  "origin_country": "China",
+  "origin_region": "Shaanxi · Hanzhong Xixiang",
+  "cultivar": null,
+  "form": "loose",
+  "caffeine_level": "medium",
+  "brewing": {
+    "grams": 3,
+    "water_ml": 150,
+    "temp_c": 80,
+    "steeps": 3,
+    "seconds": [
+      60,
+      75,
+      105
+    ],
+    "notes": "A safe starting point for green tea: cooler water, short steeps, then adjust by taste."
+  },
+  "taste_tags": [
+    "vegetal",
+    "sweet"
+  ],
+  "description": "A half-baked, half-pan-fired green tea from Xixiang county in Hanzhong, Shaanxi.\n\nTreat it as you would any green tea: cooler water, short steeps, and a seller who can say where and when it was picked.",
+  "wikipedia_title": null,
+  "wikipedia_scope": "none",
+  "popularity": 1,
+  "name_zh": "午子绿茶",
+  "name_ru": "У Цзы Люй Ча",
+  "history": "It is described as made from leaf picked at one bud and one just-opening leaf, about 3 cm long, and has been certified as a green food and awarded at a Chinese international tea expo. A legend is attached to the tea, though its details are not at hand. Little more is documented about it.",
+  "liquor_hex": "#CFD37A",
+  "leaf_hex": "#7E8B3E",
+  "sources": [
+    "https://milulu.com.cn/tea/4075.html"
+  ],
+  "confidence": "low",
+  "images": [],
+  "stub": true,
+  "processing": "Spreading, pan-firing, cooling, light rolling, first baking, further pan-firing, low-temperature drying and final cooling.",
+  "harvest_season": "Usually picked in spring, with the earliest pickings prized, as with most green teas.",
+  "appearance_dry": "Green leaf whose shape depends on the maker, as is usual for regional green teas.",
+  "appearance_liquor": "Clear jade green.",
+  "appearance_wet": "Tender green leaves.",
+  "taste_profile": "Expect what green teas usually give: fresh, vegetal and lightly sweet.",
+  "vintage_note": "Green teas like this are normally sold as the current year's harvest and are best within a year of picking. It is not an ageing tea."
+}

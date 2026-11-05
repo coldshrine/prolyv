@@ -1,0 +1,59 @@
+{
+  "slug": "burdock-tea",
+  "name_en": "Burdock Root Tea",
+  "name_native": "ごぼう茶",
+  "name_romanized": "Gobō-cha",
+  "name_zh": "牛蒡茶",
+  "name_ru": "Чай из корня лопуха (гобо-тя)",
+  "aliases": [
+    "Burdock tea",
+    "Gobo-cha",
+    "Ueong-cha",
+    "우엉차",
+    "牛蒡",
+    "ゴボウ",
+    "Чай из лопуха"
+  ],
+  "category": "tisane",
+  "origin_country": "Japan",
+  "origin_region": "Nationwide",
+  "cultivar": null,
+  "processing": "Burdock root is shaved thin with its skin on, dried and then roasted. Commercial packs and home versions differ mainly in how dark the roast goes.",
+  "form": "loose",
+  "harvest_season": "Not a seasonal tea: it is made from a root vegetable and sold all year.",
+  "appearance_dry": "Thin, curled brown shavings of roasted root, often cut small for tea bags.",
+  "appearance_liquor": "Clear amber to light brown, darker with a heavier roast.",
+  "appearance_wet": "Soft brown root shavings that swell a little and stay intact.",
+  "taste_profile": "Toasty and gently sweet, with the earthy smell of the root behind the roast.",
+  "taste_tags": [
+    "roasted",
+    "earthy",
+    "sweet"
+  ],
+  "brewing": {
+    "grams": 3,
+    "water_ml": 300,
+    "temp_c": 100,
+    "steeps": 1,
+    "seconds": [
+      300
+    ],
+    "notes": "Western-style in boiling water, or simmer the shavings briefly in a small pot and strain. If it tastes too strong, roast less or blend it with barley tea."
+  },
+  "caffeine_level": "none",
+  "vintage_note": "Sold without a vintage or season, as tea bags or loose roasted shavings, all year round. As with other roasted infusions, freshness matters more than any date on the origin: buy small amounts and keep them sealed so the roast aroma holds.",
+  "description": "Burdock tea is what happens when a kitchen vegetable gets the hojicha treatment. Gobō is a long, thin root that Japan eats as a vegetable, and here it is shaved, dried and roasted into an infusion with no tea plant in it at all.\n\nThe skin usually stays on. Roasting then turns the raw earthiness into something more like toasted grain, and it is the roast level that decides how the cup ends up. It is easy to make at home with a frying pan, or a microwave to dry the shavings first.\n\nExpect a toasty, softly sweet cup with earth at the back. Boiling water and a few minutes will do, and simmering gives more body. There is nothing delicate here to scald, so the usual mistake is simply a roast or steep too heavy for your taste; a little barley tea softens it.\n\nIt is sold as a health tea, and packaging leans hard on that. Treat those promises with caution and buy on the plain facts: where the burdock was grown and how fresh the roast is.",
+  "history": "Burdock itself has a long record in East Asia. Chinese texts list it first as a medicine, in a work attributed to the 3rd or 4th century, while in Japan uncharred seeds of the cultivated plant turn up at Jōmon sites, and the plant is written about from the middle of the Heian period.\n\nThe tea has a much thinner paper trail. Little is documented about when roasted burdock became a drink in its own right; today it is an ordinary health tea on Japanese shelves.",
+  "liquor_hex": "#B5813F",
+  "leaf_hex": "#7A5430",
+  "sources": [
+    "https://ja.wikipedia.org/wiki/%E3%82%B4%E3%83%9C%E3%82%A6",
+    "https://en.wikipedia.org/wiki/Arctium_lappa",
+    "https://macaro-ni.jp/75399"
+  ],
+  "confidence": "low",
+  "wikipedia_title": "Arctium lappa",
+  "wikipedia_scope": "umbrella",
+  "popularity": 3,
+  "images": []
+}

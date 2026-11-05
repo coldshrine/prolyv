@@ -1,0 +1,80 @@
+{
+  "slug": "arnold-palmer",
+  "name_en": "Arnold Palmer",
+  "name_native": null,
+  "name_romanized": null,
+  "name_zh": "阿诺德·帕尔默冰茶",
+  "name_ru": "Арнольд Палмер",
+  "aliases": [
+    "Iced tea and lemonade",
+    "Iced tea lemonade",
+    "Lemonade iced tea",
+    "lemonade and iced tea",
+    "Half-and-half",
+    "阿诺庞马"
+  ],
+  "category": "black",
+  "origin_country": "United States",
+  "origin_region": "United States",
+  "cultivar": null,
+  "processing": "A mixed drink rather than a processed tea: brewed and chilled iced tea combined with lemonade.",
+  "form": "other",
+  "harvest_season": "No harvest involved: it is made or bought year-round from everyday tea.",
+  "appearance_dry": "No dry form of its own; home versions usually start from ordinary black tea.",
+  "appearance_liquor": "Hazy golden amber over ice, cloudy from the lemonade.",
+  "appearance_wet": "Not applicable: the leaf or bag is removed before mixing.",
+  "taste_profile": "Sweet and tart together, with lemon up front and tea tannin underneath; more tea makes it drier, a half-and-half mix makes it sweeter.",
+  "taste_tags": [
+    "citrus",
+    "tart",
+    "sweet",
+    "brisk"
+  ],
+  "brewing": {
+    "grams": 6,
+    "water_ml": 500,
+    "temp_c": 100,
+    "steeps": 1,
+    "seconds": [
+      300
+    ],
+    "notes": "Brew strong black tea, chill it, and mix over ice with lemonade. Three parts unsweetened tea to one part lemonade is the ratio credited to Palmer himself; half and half is the sweeter commercial style."
+  },
+  "caffeine_level": "low",
+  "vintage_note": "No vintage or season: it is mixed fresh at home or a bar, or sold ready to drink in cans and bottles year-round. Snapple, Nantucket Nectars and AriZona have all marketed versions, and AriZona licenses Palmer's name and image.",
+  "description": "An Arnold Palmer is iced tea mixed with lemonade, named after the American golfer who was known for ordering it. It is a drink rather than a tea type, and it also goes by half-and-half, though some credit the golfer with inventing the combination itself.\n\nThere is no tea-making trick to it. Brew the tea, chill it, add lemonade. The one real decision is the ratio, and that decides whether you get a tea drink or a lemon drink.\n\nPalmer's own preference is usually given as mostly unsweetened tea, three parts to one in his documentary telling and two to one in other accounts. The AriZona canned version advertises half and half, which is much sweeter. Making it strong enough matters, because weak tea disappears behind lemonade and ice.\n\nThe bottled versions are easy to find, but home mixing lets you control the sugar. Alcoholic relatives exist too: the John Daly with vodka, and the Lee Trevino or Juan Daly with tequila.",
+  "history": "The name is usually traced to the late 1960s. In the 2012 ESPN 30 for 30 short about the drink, Palmer says a woman overheard his order at lunch after a long day designing a golf course in Palm Springs, California, and asked for that Arnold Palmer drink too. Other accounts place the ordering in Palm Beach, Florida.\n\nThe drink then went commercial through Snapple, Nantucket Nectars and AriZona, the last with a licence for his name and image. In early 2018 MillerCoors began distributing a malt-based version called Arnold Palmer Spiked.",
+  "liquor_hex": "#C98F3C",
+  "leaf_hex": "#33261C",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Arnold_Palmer_%28drink%29",
+    "https://en.wikipedia.org/wiki/Iced_tea",
+    "https://www.wikidata.org/wiki/Q4795197"
+  ],
+  "confidence": "high",
+  "wikipedia_title": "Arnold Palmer (drink)",
+  "wikipedia_scope": "exact",
+  "popularity": 3,
+  "images": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/2/26/Arnold_Palmer_times_two_%285231748645%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/26/Arnold_Palmer_times_two_%285231748645%29.jpg/330px-Arnold_Palmer_times_two_%285231748645%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Arnold_Palmer_times_two_(5231748645).jpg",
+      "author": "David Burn from Austin, TX, USA",
+      "license": "CC BY-SA 2.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+      "kind": "liquor",
+      "alt": "Two tall glasses of Arnold Palmer on a checked tablecloth, iced tea layered over lemonade"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/24/Arnold_Palmer_%28923219061%29.jpg/1280px-Arnold_Palmer_%28923219061%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/24/Arnold_Palmer_%28923219061%29.jpg/330px-Arnold_Palmer_%28923219061%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Arnold_Palmer_(923219061).jpg",
+      "author": "rick from San Francisco, USA",
+      "license": "CC BY 2.0",
+      "license_url": "https://creativecommons.org/licenses/by/2.0",
+      "kind": "liquor",
+      "alt": "Tall glass of Arnold Palmer with a lemon slice and straw, amber iced tea layered over pale lemonade"
+    }
+  ]
+}

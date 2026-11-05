@@ -3,11 +3,17 @@
   "name_en": "Darjeeling Second Flush",
   "name_native": "दार्जिलिङ चिया",
   "name_romanized": "Dārjiliṅ chiyā",
-  "aliases": ["Muscatel Darjeeling", "Darjeeling SF", "Summer flush Darjeeling", "Darjeeling muscatel", "Darjeeling 2nd flush"],
+  "aliases": [
+    "Muscatel Darjeeling",
+    "Darjeeling SF",
+    "Summer flush Darjeeling",
+    "Darjeeling muscatel",
+    "Darjeeling 2nd flush"
+  ],
   "category": "black",
   "origin_country": "India",
   "origin_region": "West Bengal · Darjeeling",
-  "cultivar": "Chinary seedling bushes and clonals (AV2, B157, P312); the muscatel note is most reliable on older Chinary bushes",
+  "cultivar": "Chinary seedling bushes and clonals (AV2, B157, P312); many tasters find the muscatel note most reliable on older Chinary bushes",
   "processing": "Full wither, orthodox rolling and much fuller oxidation than the first flush (close to a conventional black tea), then firing; the larger summer leaf gives a darker, rounder cup.",
   "form": "loose",
   "harvest_season": "Late May through June, between the spring pluck and the monsoon; mid-June lots are often the most muscatel.",
@@ -15,12 +21,86 @@
   "appearance_liquor": "Bright amber to coppery orange, clear.",
   "appearance_wet": "Coppery brown leaf with some greenish patches, larger than first-flush leaf.",
   "taste_profile": "Ripe muscat grape and dried apricot over a rounder, honeyed body, with moderate tannin and a long, slightly woody finish.",
-  "taste_tags": ["fruity", "stone-fruit", "honey", "brisk"],
-  "brewing": {"grams": 3, "water_ml": 200, "temp_c": 90, "steeps": 2, "seconds": [210, 300], "notes": "Water just under the boil, 3–4 minutes. It takes a drop of milk better than the first flush, but the fruit shows best plain."},
+  "taste_tags": [
+    "fruity",
+    "stone-fruit",
+    "honey",
+    "brisk"
+  ],
+  "brewing": {
+    "grams": 3,
+    "water_ml": 200,
+    "temp_c": 90,
+    "steeps": 2,
+    "seconds": [
+      210,
+      300
+    ],
+    "notes": "Water just under the boil, 3–4 minutes. It takes a drop of milk better than the first flush, but the fruit shows best plain."
+  },
   "caffeine_level": "medium",
   "vintage_note": "Sold as 'Second Flush' with the harvest year and the estate (and often a grade such as FTGFOP1 and an invoice number); the best lots are marketed from July onward. Second flush keeps better than first flush because it is more oxidised: a sealed pack is good for 1–2 years and some drinkers prefer it after a few months of rest. 'Muscatel' on a label is a tasting claim, not a grade; only some lots in a good year really show it, so taste before buying a large bag.",
   "description": "Darjeeling second flush is the early-summer harvest, picked from late May into June once the bushes have recovered from the spring pluck and before the monsoon arrives. If the first flush is Darjeeling at its brightest, the second flush is Darjeeling at its ripest: fuller, darker and famous for the 'muscatel' note of sweet muscat grape that nothing else quite reproduces.\n\nThe summer leaf is larger and tougher, so it is withered and oxidised far more fully than the spring leaf and comes out looking like a conventional black tea, brown with golden tips. The muscatel character is widely credited to tiny green leafhoppers (jassids) nibbling the leaf, which pushes the plant to produce aromatic compounds that oxidation then turns into that grapey, honeyed note; the same mechanism is behind Taiwan's Oriental Beauty. Not every lot gets it, and makers prize the ones that do.\n\nIn the cup look for muscat grape, dried apricot and a honeyed, rounder body with moderate tannin and a long, slightly woody finish. It is more forgiving than the first flush: water just under the boil, three to four minutes, and a second steep. It can take a drop of milk, but you will lose the fruit; try it plain first.\n\nLabels read 'Second Flush' plus the year and the estate, usually with a grade such as FTGFOP1 and sometimes an invoice number. The word 'muscatel' is a tasting claim rather than a grade, and in a poor year even a famous garden may not show it strongly, so buy a sample before a big bag. Castleton, Jungpana, Margaret's Hope, Thurbo and Goomtee second flushes are the classic references.\n\nBecause it is more oxidised, second flush keeps better than first flush; a sealed pack is fine for a year or two, and some drinkers prefer it after a few months of rest. It is also the Darjeeling that pairs best with food, from scones to a mild cheese.",
   "wikipedia_title": "Darjeeling tea",
   "wikipedia_scope": "exact",
-  "popularity": 5
+  "popularity": 5,
+  "name_zh": "大吉岭夏摘红茶",
+  "name_ru": "Дарджилинг второго сбора",
+  "history": "Second flush belongs to the district's history as a whole: tea planted from 1841 by Archibald Campbell, experimental gardens in 1852, commercial gardens from 1856, and a hill region of 100 gardens by 1885, worked mainly by Gorkha and Lepcha migrants from Nepal and Sikkim.\n\nWhat sets this flush apart is an insect. The leaf is picked after leafhoppers and the camellia tortrix have attacked the bush, and that attack is credited with the muscatel aroma. Not every lot shows it. The nickname 'champagne of teas' belongs to Darjeeling in general.\n\nAfter 1947 the gardens were sold to Indian owners and the 1953 Tea Act put them under the Tea Board of India. Darjeeling has been a registered geographical indication since 2004.",
+  "liquor_hex": "#B96F2A",
+  "leaf_hex": "#4A3524",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Darjeeling_tea",
+    "https://ja.wikipedia.org/wiki/%E3%83%80%E3%83%BC%E3%82%B8%E3%83%AA%E3%83%B3%E3%83%BB%E3%83%86%E3%82%A3%E3%83%BC",
+    "https://ko.wikipedia.org/wiki/%EB%8B%A4%EB%A5%B4%EC%A7%88%EB%A7%81_%ED%99%8D%EC%B0%A8"
+  ],
+  "confidence": "high",
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/13/Schwarzer_Tee_Darjeeling_%28Second_Flush%29.jpg/1280px-Schwarzer_Tee_Darjeeling_%28Second_Flush%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/13/Schwarzer_Tee_Darjeeling_%28Second_Flush%29.jpg/330px-Schwarzer_Tee_Darjeeling_%28Second_Flush%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Schwarzer_Tee_Darjeeling_(Second_Flush).jpg",
+      "author": "soultea.de /André Helbig",
+      "license": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "kind": "dry_leaf",
+      "alt": "Pile of twisted dark brown Darjeeling second flush leaf on a white background"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/06/Frisch_aufgebr%C3%BChter_Schwarzer_Tee_Darjeeling_%28Second_Flush%29.jpg/1280px-Frisch_aufgebr%C3%BChter_Schwarzer_Tee_Darjeeling_%28Second_Flush%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/06/Frisch_aufgebr%C3%BChter_Schwarzer_Tee_Darjeeling_%28Second_Flush%29.jpg/330px-Frisch_aufgebr%C3%BChter_Schwarzer_Tee_Darjeeling_%28Second_Flush%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Frisch_aufgebr%C3%BChter_Schwarzer_Tee_Darjeeling_(Second_Flush).jpg",
+      "author": "soultea.de /André Helbig",
+      "license": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "kind": "liquor",
+      "alt": "Glass cup and teapot of freshly brewed amber Darjeeling second flush tea"
+    }
+  ],
+  "i18n": {
+    "ru": {
+      "processing": "Полное завяливание, ортодоксальная скрутка и намного более глубокое окисление, чем у первого сбора (близко к обычному чёрному чаю), затем сушка; более крупный летний лист даёт более тёмный и округлый настой.",
+      "harvest_season": "С конца мая по июнь, между весенним сбором и муссоном; партии середины июня часто самые мускатные.",
+      "appearance_dry": "Хорошо скрученный коричнево-чёрный лист с обилием золотистых типсов и несколькими более светлыми оливковыми прядями.",
+      "appearance_liquor": "От яркого янтарного до медно-оранжевого, прозрачный.",
+      "appearance_wet": "Медно-коричневый лист с зеленоватыми участками, крупнее, чем у первого сбора.",
+      "taste_profile": "Спелый мускатный виноград и курага поверх более округлого, медового тела, с умеренным танином и долгим, слегка древесным финишем.",
+      "vintage_note": "Продаётся как Second Flush с годом сбора и плантацией (часто с сортом вроде FTGFOP1 и номером инвойса); лучшие партии выходят в продажу с июля. Второй сбор хранится лучше первого, поскольку сильнее окислен: в герметичной упаковке он хорош 1–2 года, а некоторым больше нравится после нескольких месяцев отдыха. «Мускатель» на этикетке — вкусовое заявление, а не сорт; по-настоящему он проявляется лишь у некоторых партий в удачный год, так что попробуйте, прежде чем брать большой пакет.",
+      "history": "Второй сбор — часть общей истории района: чай, посаженный с 1841 года Арчибальдом Кэмпбеллом, экспериментальные сады в 1852-м, коммерческие плантации с 1856-го и к 1885 году горный край со 100 плантациями, где работали в основном мигранты-гуркхи и лепча из Непала и Сиккима.\n\nЭтот сбор отличает насекомое. Лист собирают после того, как на куст нападают цикадки и чайная листовёртка, и именно этой атаке приписывают мускатный аромат. Проявляется он не в каждой партии. Прозвище «шампанское среди чаёв» относится к Дарджилингу в целом.\n\nПосле 1947 года плантации были проданы индийским владельцам, а Закон о чае 1953 года передал их под надзор Чайного совета Индии. С 2004 года Дарджилинг — зарегистрированное географическое указание.",
+      "description": "Дарджилинг второго сбора — раннелетний урожай, который собирают с конца мая по июнь, когда кусты восстановились после весеннего сбора, а муссон ещё не пришёл. Если первый сбор — это Дарджилинг в самом ярком виде, то второй — в самом зрелом: полнее, темнее и знаменит «мускатной» нотой сладкого мускатного винограда, которую почти ничто не воспроизводит.\n\nЛетний лист крупнее и грубее, поэтому его завяливают и окисляют намного полнее весеннего, и выглядит он как обычный чёрный чай — коричневый с золотистыми типсами. Мускатный характер принято объяснять крошечными зелёными цикадками (джассидами), которые подъедают лист: растение начинает вырабатывать ароматические соединения, а окисление превращает их в ту самую виноградно-медовую ноту; тот же механизм стоит за тайваньской Восточной красавицей. Получается это не у каждой партии, и те, что удались, производители особенно ценят.\n\nВ чашке ищите мускатный виноград, курагу и медовое, более округлое тело с умеренным танином и долгим, слегка древесным финишем. Он снисходительнее первого сбора: вода чуть ниже кипения, три-четыре минуты и второй пролив. Каплю молока он выдержит, но фрукты вы потеряете; сначала попробуйте без него.\n\nНа этикетках — Second Flush с годом и плантацией, обычно с сортом вроде FTGFOP1 и иногда с номером инвойса. Слово «мускатель» — вкусовое заявление, а не сорт, и в плохой год даже у знаменитой плантации он может проявиться слабо, так что берите образец, прежде чем покупать большой пакет. Классические ориентиры — второй сбор Castleton, Jungpana, Margaret's Hope, Thurbo и Goomtee.\n\nБлагодаря большему окислению второй сбор хранится лучше первого: герметичная упаковка спокойно живёт год-два, а некоторым он больше нравится после нескольких месяцев отдыха. Кроме того, из всех Дарджилингов он лучше всего сочетается с едой, от сконов до мягкого сыра.",
+      "brewing_notes": "Вода чуть ниже кипения, 3–4 минуты. Каплю молока он переносит лучше первого сбора, но фрукты лучше всего раскрываются без добавок."
+    },
+    "zh": {
+      "processing": "充分萎凋,传统揉捻,氧化程度比春摘高得多(接近普通红茶),然后烘干;较大的夏季叶片带来更深、更圆润的茶汤。",
+      "harvest_season": "5月下旬至6月,在春摘与季风之间;6月中旬的批次往往麝香葡萄味最足。",
+      "appearance_dry": "条索紧结,褐黑色,金毫丰富,夹杂几条较浅的橄榄色茶条。",
+      "appearance_liquor": "明亮的琥珀色至铜橙色,清澈。",
+      "appearance_wet": "铜褐色叶底,略有泛绿之处,比春摘叶片大。",
+      "taste_profile": "熟透的麝香葡萄和杏干,茶体更圆润带蜜感,单宁适中,余韵悠长,略带木质感。",
+      "vintage_note": "以“Second Flush”加采摘年份和茶园名销售(常附FTGFOP1之类的等级和发票号);最好的批次从7月起上市。夏摘氧化更重,比春摘耐存:密封可存1–2年,也有人更喜欢放几个月之后的味道。标签上的“麝香葡萄味”(muscatel)只是风味宣称,不是等级;只有好年份的部分批次才真正具备,所以买大包之前先试喝。",
+      "history": "夏摘的历史就是这片产区的历史:1841年起阿奇博尔德·坎贝尔种下茶树,1852年建试验茶园,1856年起有商业茶园,到1885年山区已有100座茶园,劳力主要是来自尼泊尔和锡金的廓尔喀人和雷布查人移民。\n\n这一季的特别之处来自一种虫子。采摘的是遭小绿叶蝉和茶卷叶蛾侵袭之后的叶子,麝香葡萄香气就归功于这种侵袭。并非每批都有这种香。“茶中香槟”这个绰号指的是整个大吉岭。\n\n1947年后,茶园被卖给印度业主,1953年的《茶叶法》把它们置于印度茶叶局管理之下。大吉岭自2004年起是注册地理标志。",
+      "description": "大吉岭夏摘是初夏的收成,在5月下旬到6月采摘,此时茶树已从春采中恢复,季风尚未到来。如果说春摘是大吉岭最明亮的样子,那夏摘就是它最成熟的样子:更饱满、更深沉,以甜美的“麝香葡萄”韵味闻名,几乎无茶可以复制。\n\n夏季叶片更大更粗,萎凋和氧化都比春叶充分得多,成品看起来就像普通红茶,褐色带金毫。一般认为麝香葡萄风味要归功于啃食叶片的微小绿叶蝉,它促使茶树产生芳香物质,再经氧化变成那种葡萄与蜂蜜的气息;台湾东方美人背后也是同样的机制。并非每批都能如此,做到的批次尤受制茶人珍视。\n\n杯中可寻麝香葡萄、杏干和蜜感圆润的茶体,单宁适中,余韵悠长,略带木质感。它比春摘宽容:水温略低于沸点,三到四分钟,还能泡第二道。可以加一点奶,但果香就没了;先试试清饮。\n\n标签上写着“Second Flush”加年份和茶园,通常有FTGFOP1之类的等级,有时有发票号。“muscatel”一词是风味宣称,不是等级,年景差时连名园也未必明显,所以买大包前先买样品。Castleton、Jungpana、Margaret's Hope、Thurbo和Goomtee的夏摘是经典标杆。\n\n由于氧化更重,夏摘比春摘耐存;密封放上一两年没问题,也有人更喜欢放几个月后的味道。它也是最适合配餐的大吉岭,从司康到温和的奶酪都很相宜。",
+      "brewing_notes": "水温略低于沸点,3–4分钟。它比春摘更能接受加一点奶,但果香在清饮时最为突出。"
+    }
+  }
 }

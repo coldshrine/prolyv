@@ -1,0 +1,58 @@
+{
+  "slug": "cistus-tea",
+  "name_en": "Cistus Incanus Tea",
+  "name_native": null,
+  "name_romanized": null,
+  "name_zh": "岩蔷薇茶",
+  "name_ru": "Цистус (ладанник)",
+  "aliases": [
+    "Cistus tea",
+    "Cistus incanus infusion",
+    "Cistus creticus tea",
+    "Rockrose tea",
+    "Ладанник"
+  ],
+  "category": "tisane",
+  "origin_country": "Greece",
+  "origin_region": "Greece",
+  "cultivar": "Cistus incanus, Cistus creticus",
+  "processing": "The leaves of the shrub, usually wild-harvested, are gently dried and infused, with no other processing.",
+  "form": "loose",
+  "harvest_season": "No prized picking is established; little is documented about the season.",
+  "appearance_dry": "Cut grey-green dried leaves.",
+  "appearance_liquor": "Golden amber to reddish-brown, depending on strength.",
+  "appearance_wet": "Soft, dull olive leaves.",
+  "taste_profile": "Mild, herbal and earthy with a resinous, slightly spicy character, turning more intense and bitter with a long steep.",
+  "taste_tags": [
+    "herbal",
+    "earthy",
+    "woody",
+    "spicy"
+  ],
+  "brewing": {
+    "grams": 3,
+    "water_ml": 250,
+    "temp_c": 95,
+    "steeps": 1,
+    "seconds": [
+      300
+    ],
+    "notes": "Start around 5 minutes and extend only if you want more grip, since a long steep brings out bitterness."
+  },
+  "caffeine_level": "none",
+  "vintage_note": "Sold as dried leaf, without vintage or grades, mainly through herb and tea shops. As with other dried herbs, recent stock is best. Trade names are loose, and its legal status as a food in the EU has been questioned, so availability varies.",
+  "description": "Cistus tea is an infusion of a Mediterranean rockrose, a tough shrub of dry hillsides, and it is best known from Greece. The trade uses Cistus incanus and Cistus creticus almost interchangeably, so the name on the pack is not always precise.\n\nThe leaves are simply dried. They carry an aromatic resin, which is what gives the cup its character.\n\nExpect a herbal, earthy cup with something resinous and a little spicy in it. It runs from mild to quite bitter depending on the steep, so time it the first time and adjust.\n\nMarketing leans hard on health claims, and good evidence for them is still developing, so judge it as a drink. Sellers sometimes name mountain origins such as Mount Othrys, though these are shop descriptions rather than recognised grades.",
+  "history": "Rockrose has a long place in traditional herbal use across Greece and the Mediterranean, including topical use on wounds and skin problems.\n\nLittle is documented about the tea as a commercial product. It has run into questions about whether it counts as a novel food under EU rules.",
+  "liquor_hex": "#B9772E",
+  "leaf_hex": "#737A5C",
+  "sources": [
+    "https://www.paperandtea.com/blogs/glossary/cistus-tea",
+    "https://www.yoshien.com/en/cistus-tea-mountain-herbs.html",
+    "https://scienceinsights.org/what-are-the-health-benefits-of-rock-rose/"
+  ],
+  "confidence": "low",
+  "wikipedia_title": null,
+  "wikipedia_scope": "none",
+  "popularity": 2,
+  "images": []
+}

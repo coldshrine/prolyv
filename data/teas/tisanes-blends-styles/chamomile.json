@@ -3,25 +3,118 @@
   "name_en": "Chamomile",
   "name_native": "بابونج (babunaj) / Kamille / Ромашка",
   "name_romanized": null,
-  "aliases": ["Camomile", "German chamomile", "Chamomile tea", "Manzanilla", "Matricaria chamomilla", "Egyptian chamomile"],
+  "aliases": [
+    "Camomile",
+    "German chamomile",
+    "Chamomile tea",
+    "Manzanilla",
+    "Matricaria chamomilla",
+    "Egyptian chamomile",
+    "洋甘菊",
+    "西洋甘菊",
+    "Ромашка",
+    "Ромашка аптечная"
+  ],
   "category": "tisane",
   "origin_country": "Egypt",
-  "origin_region": "Fayoum and the Nile Valley (the plant itself is native to Europe and western Asia and is grown across Europe too)",
+  "origin_region": "Fayoum",
   "cultivar": "Matricaria chamomilla (German chamomile); Roman chamomile, Chamaemelum nobile, is a different, more bitter plant",
   "processing": "Open flower heads are combed or cut from the plant and dried gently at low temperature in shade or dryers to keep the apple-like aroma, then sieved into whole-flower grades and the finer 'pollen' or cut grade used in tea bags.",
   "form": "loose",
-  "harvest_season": "In Egypt the winter-sown crop is picked in several passes from about February to April; in Europe it flowers and is picked from May to July. The first picking of fully open heads gives the most aroma.",
+  "harvest_season": "In Egypt the winter-sown crop is picked in several passes from about February to April; in Europe it flowers and is picked from about May to July.",
   "appearance_dry": "Small daisy-like heads with a yellow domed centre and short white petals, many of which have fallen off, plus some fine yellow dust.",
   "appearance_liquor": "Pale gold, slightly hazy with fine pollen.",
   "appearance_wet": "Swollen yellow flower heads that smell of apple, honey and hay.",
   "taste_profile": "Soft, honeyed and apple-like with a hay note and a gentle bitterness in the finish that grows with long steeping; the texture is faintly oily and soothing.",
-  "taste_tags": ["floral", "honey", "sweet", "herbal"],
-  "brewing": {"grams": 2, "water_ml": 250, "temp_c": 95, "steeps": 1, "seconds": [300], "notes": "Chamomile is very light, so 2 g is a heaped tablespoon of whole flowers. Just-boiled water, 5 minutes, lid on so the aroma does not escape with the steam. Over 8 minutes it turns bitter. A second steep is weak but drinkable."},
+  "taste_tags": [
+    "floral",
+    "honey",
+    "sweet",
+    "herbal"
+  ],
+  "brewing": {
+    "grams": 2,
+    "water_ml": 250,
+    "temp_c": 95,
+    "steeps": 1,
+    "seconds": [
+      300
+    ],
+    "notes": "Chamomile is very light, so 2 g is a heaped tablespoon of whole flowers. Just-boiled water, 5 minutes, lid on so the aroma does not escape with the steam. Over 8 minutes it turns bitter. A second steep is weak but drinkable."
+  },
   "caffeine_level": "none",
-  "vintage_note": "Sold year-round as the previous winter or summer crop, with a best-before of 18–24 months and rarely a harvest year on the pack. The grade matters more than the date: whole flower heads (often sold as 'Egyptian chamomile') hold their aroma best, while tea bags use broken flowers and pollen that brew faster and fade sooner. Roman chamomile is a different plant and is sold separately, mostly in French and British ranges. Fresh chamomile smells strongly of apple when you open the bag; if it smells of dust, it is old.",
-  "description": "Chamomile is one of the most widely drunk herbal infusions in the world and the first thing most people reach for in the evening. The tea is made from the small daisy-like flowers of German chamomile, a plant that grows wild across Europe and western Asia; most of the chamomile in tea bags and tins today is grown in Egypt, which supplies whole flowers of a quality that is hard to match elsewhere.\n\nThe flower heads are harvested when fully open and dried slowly at low heat. The aroma is all in the volatile oils, so gentle drying and careful handling are the whole craft: whole, intact heads keep it, broken ones lose it, and the fine yellow 'pollen' left after sieving goes into tea bags, where it gives colour quickly but not much depth.\n\nThe cup is pale gold and tastes of apple, honey and hay, soft and slightly oily, with a bitterness that only shows up if you steep too long. Use just-boiled water, cover the cup, and pull the flowers after five minutes; the lid matters more here than with almost any other infusion because the aroma leaves with the steam. A spoon of honey is traditional, and a pinch of dried mint or lavender with it is a classic blend.\n\nBuy whole flowers rather than dust if you can, from a shop that sells enough of it to keep it fresh, and check the smell when you open the pack: real freshness is a wave of green apple. The label 'Egyptian chamomile' usually signals the whole-flower grade; 'Roman chamomile' is a different, more bitter species sold mostly in Britain and France.\n\nIt has been used traditionally as a calming bedtime drink and for an upset stomach; whatever you make of that, it is a pleasant, cheap, caffeine-free cup that goes with almost any dessert.",
+  "vintage_note": "Sold year-round as the previous winter or summer crop, with a best-before of 18–24 months and rarely a harvest year on the pack. The grade matters more than the date: whole flower heads hold their aroma best, while tea bags use broken flowers and pollen that brew faster and fade sooner. Roman chamomile is a different plant and is sold separately. Fresh chamomile smells strongly of apple when you open the bag; if it smells of dust, it is old.",
+  "description": "Chamomile is one of the most widely drunk herbal infusions in the world and the first thing most people reach for in the evening. The tea is made from the small daisy-like flowers of German chamomile, a plant native to Europe that now grows far beyond it; Egypt is one of the main sources of the whole flowers sold for tea today.\n\nThe flower heads are harvested when fully open and dried slowly at low heat. The aroma is all in the volatile oils, so gentle drying and careful handling are the whole craft: whole, intact heads keep it, broken ones lose it, and the fine yellow 'pollen' left after sieving goes into tea bags, where it gives colour quickly but not much depth.\n\nThe cup is pale gold and tastes of apple, honey and hay, soft and slightly oily, with a bitterness that only shows up if you steep too long. Use just-boiled water, cover the cup, and pull the flowers after five minutes; the lid matters more here than with almost any other infusion because the aroma leaves with the steam. A spoon of honey is traditional, and a pinch of dried mint or lavender with it is a classic blend.\n\nBuy whole flowers rather than dust if you can, from a shop that sells enough of it to keep it fresh, and check the smell when you open the pack: real freshness is a wave of green apple. 'Roman chamomile' is a different species and usually more bitter.\n\nIt has been used traditionally as a calming bedtime drink and for an upset stomach; whatever you make of that, it is a pleasant, cheap, caffeine-free cup that goes with almost any dessert.",
   "wikipedia_title": "Chamomile",
   "wikipedia_scope": "exact",
   "popularity": 5,
-  "sources_note": "origin_country set to Egypt because it is the dominant source of tea-grade chamomile; the plant is native to Europe and western Asia and chamomile tea is a pan-European tradition. Egyptian harvest window (Feb–Apr) given as approximate."
+  "sources_note": "origin_country set to Egypt because it is the dominant source of tea-grade chamomile; the plant is native to Europe and western Asia and chamomile tea is a pan-European tradition. Egyptian harvest window (Feb–Apr) given as approximate.",
+  "name_zh": "洋甘菊茶",
+  "name_ru": "Ромашковый чай",
+  "history": "Chamomile tea has no founding story. The plant behind most cups, German chamomile (Matricaria chamomilla), is native to southern and eastern Europe and now grows on every continent, and Roman chamomile (Chamaemelum nobile) is the second species used for infusions. The name itself goes back through French and Latin to the Greek for 'earth apple', and it appears in English from the 13th century.\n\nThe plant was used for more than the cup: as a bitter flavouring in beer, in cosmetics and soaps, and, in the Roman species, for chamomile lawns and seats. Little is documented about when drying the flowers for tea became an everyday habit, so it is best treated as an old household custom without a date.\n\nThe bedtime reputation is tradition rather than proven medicine: there is no clinical evidence that it treats any disease, and no good evidence that it helps insomnia. People allergic to daisies or ragweed may react to it, and Roman chamomile is advised against in pregnancy.",
+  "liquor_hex": "#E6CE72",
+  "leaf_hex": "#D8C468",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Chamomile",
+    "https://en.wikipedia.org/wiki/Matricaria_chamomilla"
+  ],
+  "confidence": "medium",
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/26/Camomile_tea%2C_High_Tea_at_the_Savoy_Hotel.jpg/1280px-Camomile_tea%2C_High_Tea_at_the_Savoy_Hotel.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/26/Camomile_tea%2C_High_Tea_at_the_Savoy_Hotel.jpg/330px-Camomile_tea%2C_High_Tea_at_the_Savoy_Hotel.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Camomile_tea,_High_Tea_at_the_Savoy_Hotel.jpg",
+      "author": "Payton Walton",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "kind": "serving",
+      "alt": "Camomile tea poured from a silver teapot through a strainer into a cup at the Savoy"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fb/D%C3%BClmen%2C_Brachliegendes_Feld_mit_Wildblumen_--_2021_--_9774.jpg/1280px-D%C3%BClmen%2C_Brachliegendes_Feld_mit_Wildblumen_--_2021_--_9774.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fb/D%C3%BClmen%2C_Brachliegendes_Feld_mit_Wildblumen_--_2021_--_9774.jpg/330px-D%C3%BClmen%2C_Brachliegendes_Feld_mit_Wildblumen_--_2021_--_9774.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source_page": "https://commons.wikimedia.org/wiki/File:D%C3%BClmen,_Brachliegendes_Feld_mit_Wildblumen_--_2021_--_9774.jpg",
+      "author": "Dietmar Rabich",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "kind": "plant",
+      "alt": "Matricaria chamomilla flowers with white petals and domed yellow centres in a field"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/44/2026-02-21_Chamomile_in_bloom%2C_Atouguia_da_Baleia_6.jpg/1280px-2026-02-21_Chamomile_in_bloom%2C_Atouguia_da_Baleia_6.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/44/2026-02-21_Chamomile_in_bloom%2C_Atouguia_da_Baleia_6.jpg/330px-2026-02-21_Chamomile_in_bloom%2C_Atouguia_da_Baleia_6.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source_page": "https://commons.wikimedia.org/wiki/File:2026-02-21_Chamomile_in_bloom,_Atouguia_da_Baleia_6.jpg",
+      "author": "Alexkom000",
+      "license": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0",
+      "kind": "plantation",
+      "alt": "Field of chamomile in bloom in rows under a clear sky in Portugal"
+    }
+  ],
+  "i18n": {
+    "ru": {
+      "processing": "Раскрытые соцветия вычёсывают или срезают с растения и бережно сушат при низкой температуре, в тени или в сушилках, чтобы сохранить яблочный аромат, а потом просеивают на сорта из целых цветков и более мелкую «пыльцу» или резаный сорт для чайных пакетиков.",
+      "harvest_season": "В Египте озимый посев собирают в несколько проходов примерно с февраля по апрель; в Европе ромашка цветёт и собирается примерно с мая по июль.",
+      "appearance_dry": "Мелкие соцветия вроде маргариток с жёлтой выпуклой серединкой и короткими белыми лепестками, многие из которых опали, плюс немного мелкой жёлтой пыли.",
+      "appearance_liquor": "Бледно-золотистый, слегка мутноватый от мелкой пыльцы.",
+      "appearance_wet": "Разбухшие жёлтые соцветия с запахом яблока, мёда и сена.",
+      "taste_profile": "Мягкий, медовый и яблочный, с нотой сена и лёгкой горчинкой в финале, которая растёт при долгом настаивании; текстура слегка маслянистая и успокаивающая.",
+      "vintage_note": "Продаётся круглый год как урожай прошлой зимы или лета, со сроком годности 18–24 месяца и редко с годом сбора на упаковке. Сорт важнее даты: целые соцветия лучше держат аромат, а в пакетиках ломаные цветки и пыльца, которые завариваются быстрее и быстрее выдыхаются. Римская ромашка — другое растение и продаётся отдельно. Свежая ромашка при вскрытии пакета сильно пахнет яблоком; если пахнет пылью, она старая.",
+      "history": "У ромашкового чая нет истории основания. Растение, стоящее за большинством чашек, ромашка аптечная (Matricaria chamomilla), родом из Южной и Восточной Европы и теперь растёт на всех континентах, а римская ромашка (Chamaemelum nobile) — второй вид, используемый для настоев. Само английское название восходит через французский и латынь к греческому «земляное яблоко» и встречается в английском с XIII века.\n\nРастение шло не только в чашку: как горькая добавка в пиво, в косметику и мыло, а римский вид — на ромашковые газоны и сиденья. О том, когда сушка цветков для чая стала повседневной привычкой, документов мало, так что лучше считать её старым домашним обычаем без даты.\n\nРепутация напитка на ночь — это традиция, а не доказанная медицина: нет клинических данных, что он лечит какую-либо болезнь, и нет хороших данных, что он помогает при бессоннице. У людей с аллергией на маргаритки или амброзию возможна реакция, а римскую ромашку не советуют при беременности.",
+      "description": "Ромашка — один из самых популярных травяных настоев в мире и первое, за чем большинство людей тянется вечером. Этот чай делают из мелких, похожих на маргаритки цветков ромашки аптечной, растения родом из Европы, которое теперь растёт далеко за её пределами; Египет — один из главных источников целых цветков, которые сегодня продают для чая.\n\nСоцветия собирают полностью раскрытыми и медленно сушат на слабом огне. Весь аромат — в летучих маслах, поэтому всё ремесло сводится к бережной сушке и аккуратному обращению: целые, неповреждённые соцветия его хранят, ломаные теряют, а мелкая жёлтая «пыльца», остающаяся после просеивания, идёт в чайные пакетики, где быстро даёт цвет, но не особую глубину.\n\nНастой бледно-золотистый, со вкусом яблока, мёда и сена, мягкий и чуть маслянистый, с горчинкой, которая появляется только при слишком долгом настаивании. Берите только что вскипевшую воду, накройте чашку и выньте цветки через пять минут; крышка здесь важнее, чем почти с любым другим настоем, потому что аромат уходит с паром. Традиционно добавляют ложку мёда, а щепотка сушёной мяты или лаванды с ней — классический купаж.\n\nПокупайте по возможности целые цветки, а не пыль, в магазине, где она достаточно расходится, чтобы оставаться свежей, и проверяйте запах при вскрытии упаковки: настоящая свежесть — это волна зелёного яблока. «Римская ромашка» — другой вид и обычно более горькая.\n\nТрадиционно её пьют как успокаивающий напиток на ночь и при расстройстве желудка; что бы вы об этом ни думали, это приятная, дешёвая чашка без кофеина, которая подходит почти к любому десерту.",
+      "brewing_notes": "Ромашка очень лёгкая, так что 2 г — это столовая ложка целых цветков с горкой. Только что вскипевшая вода, 5 минут, под крышкой, чтобы аромат не ушёл с паром. После 8 минут настой становится горьким. Второй пролив слабый, но пить можно."
+    },
+    "zh": {
+      "processing": "把完全开放的花头从植株上梳下或剪下,在阴凉处或烘干机中低温轻柔干燥,以保留苹果般的香气,再筛分成完整花头等级,以及茶包用的较细“花粉”或切碎等级。",
+      "harvest_season": "在埃及,冬播作物约从2月到4月分几轮采摘;在欧洲,约5月到7月开花采摘。",
+      "appearance_dry": "雏菊状的小花头,黄色圆顶花心,白色短花瓣,不少已经脱落,另有一些细碎的黄色粉末。",
+      "appearance_liquor": "汤色浅金,因细花粉略显浑浊。",
+      "appearance_wet": "膨胀的黄色花头,散发苹果、蜂蜜和干草的气味。",
+      "taste_profile": "柔和,带蜂蜜和苹果味,有干草气息,收尾微苦,泡得越久越明显;口感略带油润,令人舒缓。",
+      "vintage_note": "全年有售,卖的是上一个冬季或夏季的收成,保质期18–24个月,包装上很少标明采收年份。等级比日期更重要:完整花头最能保香,茶包用的碎花和花粉出味快,也散得快。罗马洋甘菊是另一种植物,单独销售。新鲜的洋甘菊一开袋就有浓郁的苹果香;如果闻起来是灰尘味,就已经陈了。",
+      "history": "洋甘菊茶没有什么起源故事。大多数茶杯里用的是德国洋甘菊(Matricaria chamomilla),原产于南欧和东欧,如今各大洲都有生长;罗马洋甘菊(Chamaemelum nobile)是用来冲泡的第二个品种。英文名称经由法语和拉丁语,可追溯到希腊语的“大地苹果”,并在13世纪出现在英语中。\n\n这种植物不只用来泡茶:还用作啤酒的苦味调料,用于化妆品和肥皂,罗马洋甘菊则用来铺草坪和座椅。至于干花泡茶何时成为日常习惯,记载很少,最好把它当作一种没有确切年代的古老家庭习俗。\n\n它助眠的名声只是传统,并非经过验证的医学:没有临床证据表明它能治疗任何疾病,也没有可靠证据表明它有助于改善失眠。对雏菊或豚草过敏的人可能会有反应,孕期也不建议使用罗马洋甘菊。",
+      "description": "洋甘菊是世界上饮用最广的花草茶之一,也是大多数人晚上最先想到的一杯。它用德国洋甘菊雏菊状的小花制成,这种植物原产欧洲,如今早已遍布欧洲以外;埃及是当今茶用完整花朵的主要来源之一。\n\n花头在完全开放时采收,再低温慢慢干燥。香气全在挥发油里,所以轻柔干燥和小心处理就是全部功夫:完整的花头能留住香气,破碎的就会失去,筛分后留下的细黄“花粉”进了茶包,上色快,却没什么层次。\n\n茶汤浅金,有苹果、蜂蜜和干草的味道,柔和而略带油润,只有泡得太久才会出现苦味。用刚烧开的水,盖上杯盖,五分钟后取出花朵;这里的盖子比几乎任何其他花草茶都重要,因为香气会随蒸汽跑掉。加一勺蜂蜜是传统喝法,再配一小撮干薄荷或薰衣草则是经典搭配。\n\n如果可以,买完整花朵而不是碎末,并选择销量足够、能保持新鲜的店家,开袋时闻一闻:真正的新鲜是扑面而来的青苹果香。“罗马洋甘菊”是另一个品种,通常更苦。\n\n传统上它被当作睡前舒缓的饮品,也用于肠胃不适;不管你怎么看,它都是一杯宜人、便宜、不含咖啡因的茶,几乎和任何甜点都相配。",
+      "brewing_notes": "洋甘菊很轻,2克就是满满一汤匙完整花朵。用刚烧开的水,泡5分钟,盖上盖子,以免香气随蒸汽跑掉。超过8分钟会变苦。第二泡较淡,但还能喝。"
+    }
+  }
 }

@@ -1,0 +1,54 @@
+{
+  "slug": "tsuyuhikari",
+  "name_en": "Tsuyuhikari",
+  "name_native": "つゆひかり",
+  "name_romanized": "Tsuyuhikari",
+  "name_zh": "露光",
+  "name_ru": "Цуюхикари",
+  "aliases": [
+    "Shizu 7132 x Asatsuyu"
+  ],
+  "category": "green",
+  "origin_country": "Japan",
+  "origin_region": "Shizuoka",
+  "cultivar": "Tsuyuhikari (Shizu 7132 × Asatsuyu)",
+  "processing": "Usually steamed and rolled as sencha, as is normal for a Japanese green cultivar. Cultivar is the plant, not a processing style, so the maker's choices still shape the cup.",
+  "form": "loose",
+  "harvest_season": "Early spring: it buds about two days ahead of Yabukita. First flush is the picking to look for.",
+  "appearance_dry": "Typical of sencha: dark green, thin, needle-like rolled leaves.",
+  "appearance_liquor": "Typical of sencha: clear yellow-green.",
+  "appearance_wet": "Soft green leaf pieces, as with other steamed greens.",
+  "taste_profile": "Few independent tasting notes exist; expect a clean, green sencha character with sweetness and umami, as is typical of Shizuoka single-cultivar greens.",
+  "taste_tags": [
+    "vegetal",
+    "umami",
+    "sweet"
+  ],
+  "brewing": {
+    "grams": 5,
+    "water_ml": 150,
+    "temp_c": 70,
+    "steeps": 3,
+    "seconds": [
+      60,
+      20,
+      40
+    ],
+    "notes": "Ordinary sencha settings are a good start. Lower the temperature if it turns sharp."
+  },
+  "caffeine_level": "medium",
+  "vintage_note": "As with Japanese sencha generally, it is sold as the current year's harvest, mainly first flush, and is best drunk within about a year. Single-cultivar lots usually name the cultivar and the grower.",
+  "description": "Tsuyuhikari is a Japanese green tea cultivar bred in Shizuoka, a cross between the breeding line Shizu 7132 and Asatsuyu. It is one of the newer alternatives growers can plant instead of the dominant Yabukita.\n\nThe agronomy is its clearest selling point. It buds about two days before Yabukita, and Shizuoka's figures put first-flush yield at 129% of Yabukita. It is rated strong against anthracnose and against the winter leaf damage called akagare.\n\nFew detailed tasting notes are on record, so treat any description with care. Brew it as you would any sencha, with water around 70°C, and compare it with a Yabukita from the same area if you can.\n\nWhen buying, look for a single-cultivar label with the grower and year. As with other green teas, freshness matters more than almost anything else.",
+  "history": "The cross was made in 1970 at Shizuoka's prefectural tea experiment station, with Shizu 7132 as the seed parent and Asatsuyu as the pollen parent. The cultivar was registered in 2003, more than thirty years later.\n\nIbaraki's prefectural tea advisers have also published guidance on it, which shows interest beyond its home prefecture.",
+  "liquor_hex": "#C9CF7C",
+  "leaf_hex": "#3E5A2C",
+  "sources": [
+    "https://www.pref.shizuoka.jp/_res/projects/default_project/_page_/001/044/307/h2505.pdf.pdf",
+    "https://www.pref.ibaraki.jp/nourinsuisan/santoku/documents/2015cyagijutsujohotsuyuhikari.pdf"
+  ],
+  "confidence": "medium",
+  "wikipedia_title": null,
+  "wikipedia_scope": "none",
+  "popularity": 2,
+  "images": []
+}

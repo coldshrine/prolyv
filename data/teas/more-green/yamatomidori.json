@@ -1,0 +1,55 @@
+{
+  "slug": "yamatomidori",
+  "name_en": "Yamatomidori",
+  "name_native": "やまとみどり",
+  "name_romanized": "Yamatomidori",
+  "name_zh": "大和绿",
+  "name_ru": "Яматомидори",
+  "aliases": [
+    "Yamato Midori Sencha",
+    "Yamatomidori (Nara)",
+    "Tea Norin No. 10"
+  ],
+  "category": "green",
+  "origin_country": "Japan",
+  "origin_region": "Nara",
+  "cultivar": "Yamatomidori",
+  "processing": "Made as steamed and rolled sencha, the use it is rated well for.",
+  "form": "loose",
+  "harvest_season": "Spring, on the late side since it is a late-budding cultivar.",
+  "appearance_dry": "Typical of sencha: dark green rolled needles.",
+  "appearance_liquor": "Typical of sencha: clear yellow-green.",
+  "appearance_wet": "Long-oval dark green leaves.",
+  "taste_profile": "Rated as good-quality sencha; detailed notes are scarce, so expect the fresh, grassy sweetness typical of a Japanese sencha.",
+  "taste_tags": [
+    "vegetal",
+    "grassy",
+    "sweet"
+  ],
+  "brewing": {
+    "grams": 5,
+    "water_ml": 150,
+    "temp_c": 70,
+    "steeps": 3,
+    "seconds": [
+      60,
+      20,
+      40
+    ],
+    "notes": "Ordinary sencha settings work; shorten the first steep if it comes out brisk."
+  },
+  "caffeine_level": "medium",
+  "vintage_note": "As with other Japanese senchas, it is sold from the current year's harvest and is best within about a year. As a Nara cultivar, it may appear under the broader Yamato tea name, so a named lot is the way to be sure.",
+  "description": "Yamatomidori is an old Nara cultivar, bred from the seedlings of local native tea plants. The name points home: Yamato is the old name of the Nara region, and Yamato tea is its regional label.\n\nIt is late to bud, upright in habit, with long oval dark green leaves. Its standout trait is very strong cold hardiness, with shoots set densely and a medium yield.\n\nThe cultivar is rated as good for sencha, though not much has been written about how it tastes. Brew it as a normal sencha and adjust from there.\n\nFinding it named can take effort, as it is not a mainstream plant. If you see a Nara grower selling it, ask for the year and how long it was steamed.",
+  "history": "Yamatomidori was bred at the tea branch of Nara's prefectural agricultural experiment station, selected from seedlings of Nara's native tea. It was registered in 1953 as Tea Norin No. 10.",
+  "liquor_hex": "#CDCE7A",
+  "leaf_hex": "#37502A",
+  "sources": [
+    "https://ja.wikipedia.org/wiki/%E5%A4%A7%E5%92%8C%E8%8C%B6"
+  ],
+  "confidence": "medium",
+  "wikipedia_title": "大和茶",
+  "wikipedia_scope": "umbrella",
+  "popularity": 2,
+  "images": []
+}

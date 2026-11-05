@@ -1,0 +1,59 @@
+{
+  "slug": "gudong-cha",
+  "name_en": "Gudong Cha",
+  "name_native": "古董茶",
+  "name_romanized": "Gǔdǒng chá",
+  "aliases": [
+    "号字茶",
+    "Hao Zi Cha",
+    "Antique tea"
+  ],
+  "category": "heicha",
+  "origin_country": "China",
+  "origin_region": "Yunnan",
+  "cultivar": null,
+  "form": "cake",
+  "caffeine_level": "medium",
+  "brewing": {
+    "grams": 6,
+    "water_ml": 120,
+    "temp_c": 100,
+    "steeps": 6,
+    "seconds": [
+      15,
+      15,
+      20,
+      30,
+      45,
+      60
+    ],
+    "notes": "A safe starting point for dark tea: rinse once, boiling water, or simmer it the traditional way."
+  },
+  "taste_tags": [
+    "earthy",
+    "woody"
+  ],
+  "description": "Antique tea: pu-erh made by private tea houses of Yunnan before 1957, including Tong Qing Hao, Tong Xing Hao and Song Pin Hao.\n\nTreat it as you would any dark tea: rinse it, use boiling water, and buy from someone who can say who pressed it and when.",
+  "wikipedia_title": null,
+  "wikipedia_scope": "none",
+  "popularity": 1,
+  "name_zh": "古董茶",
+  "name_ru": "Гу Дун Ча",
+  "history": "Private tea houses flourished after pu-erh became a tribute tea under the Qing. From 1954 the state bought and sold their tea, and in 1957 the remaining private factories were merged into state enterprises, ending the era. Judging by history and spent leaves, the material was not from one mountain and mixed large and small trees rather than purely old ones, drawn from Pu'er, Menghai and elsewhere.",
+  "liquor_hex": "#4A2210",
+  "leaf_hex": "#2E1D14",
+  "sources": [
+    "https://zh.wikipedia.org/wiki/%E5%8F%A4%E8%91%A3%E8%8C%B6",
+    "https://www.wikidata.org/wiki/Q65058690"
+  ],
+  "confidence": "medium",
+  "images": [],
+  "stub": true,
+  "processing": "Typical of dark tea: green leaf is piled so that microbes ferment it, then dried and often pressed.",
+  "harvest_season": "Often made from coarser, later leaf, as with most dark teas.",
+  "appearance_dry": "Usually dark leaf, loose or pressed into bricks or baskets.",
+  "appearance_liquor": "Usually orange-red to dark brown.",
+  "appearance_wet": "Usually coarse dark leaf with some stem.",
+  "taste_profile": "Expect what dark teas usually give: smooth, woody and earthy.",
+  "vintage_note": "Dark teas are sold by production year and many improve with several years of dry storage."
+}

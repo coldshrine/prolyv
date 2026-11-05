@@ -3,10 +3,18 @@
   "name_en": "Xinyang Mao Jian",
   "name_native": "信阳毛尖",
   "name_romanized": "Xìnyáng Máojiān",
-  "aliases": ["Xin Yang Mao Jian", "Xinyang Maojian", "Yu Mao Feng", "Henan Mao Jian", "Furry Tip"],
+  "aliases": [
+    "Xin Yang Mao Jian",
+    "Xinyang Maojian",
+    "Yu Mao Feng",
+    "Henan Mao Jian",
+    "Furry Tip",
+    "信陽毛尖",
+    "Синьян Маоцзянь"
+  ],
   "category": "green",
   "origin_country": "China",
-  "origin_region": "Henan · Xinyang · Shihe district and Luoshan county",
+  "origin_region": "Henan · Xinyang",
   "cultivar": "Xinyang local landrace, with some Fuding Dabai and other introduced bushes",
   "processing": "Pan-fired then baked: shoots are fired in a hot wok with a bundle of twigs, rolled and straightened in a second cooler wok so the leaf becomes thin, tight and straight, then dried in two stages over charcoal.",
   "form": "loose",
@@ -15,12 +23,53 @@
   "appearance_liquor": "Yellow-green, often slightly cloudy from bud down in the first steep.",
   "appearance_wet": "Slim buds and small leaves, bright yellow-green and tender.",
   "taste_profile": "Brisk and savoury with roasted chestnut and a cool floral note, a pleasant quick bitterness that turns into a lasting sweetness in the throat.",
-  "taste_tags": ["nutty", "umami", "bitter", "sweet", "floral"],
-  "brewing": {"grams": 4, "water_ml": 150, "temp_c": 80, "steeps": 3, "seconds": [40, 40, 60], "notes": "Glass or gaiwan, 80 °C. The tea has real bite, so keep the dose modest; let the first steep settle so the down sinks."},
+  "taste_tags": [
+    "nutty",
+    "umami",
+    "bitter",
+    "sweet",
+    "floral"
+  ],
+  "brewing": {
+    "grams": 4,
+    "water_ml": 150,
+    "temp_c": 80,
+    "steeps": 3,
+    "seconds": [
+      40,
+      40,
+      60
+    ],
+    "notes": "Glass or gaiwan, 80 °C. The tea has real bite, so keep the dose modest; let the first steep settle so the down sinks."
+  },
   "caffeine_level": "medium",
   "vintage_note": "Sold mainly as the current year's spring harvest, labelled pre-Qingming (bud-only, expensive and delicate) or yu qian (bud and leaf, fuller and better value); a cheaper summer and autumn tea is also sold locally. Local grading language such as 'big mountain' (high-elevation) versus 'small mountain' or 'field' tea matters more than grade numbers. Drink within the year; keep cold and sealed.",
   "description": "Xinyang Mao Jian is the famous green tea of Henan, grown in the hills around Xinyang on the border with Hubei, which makes it one of the northernmost of China's classic greens. The cool nights and late spring give it a particular character: more savoury and brisk than the soft Jiangnan greens, with a chestnut aroma and a bitterness that is part of the point, not a flaw.\n\nThe leaf is made thin, straight and tight, 'like a needle with fuzz', by firing the shoots in a hot wok with a twig brush and then rolling and straightening them in a cooler one before a charcoal bake. The amount of white down on the finished leaf is a point of pride, which is also why the first steep often comes out cloudy: fine hairs floating in the cup. A little haze from down is normal; a muddy, dull liquor is not.\n\nThe cup opens with roasted chestnut and a cool floral note, then a short, clean bitterness that converts into a sweet finish that sits in the throat. Three steeps at 80 °C in a glass is the local way. Overdose it or use boiling water and the bitterness takes over; brew it light and it tastes of nothing. Four grams to a large glass, and taste as you go.\n\nBuying is complicated by the local obsession with buds. Pre-Qingming Xinyang Mao Jian is often single buds only, which looks spectacular, costs a lot and tastes thin; the one-bud-one-leaf tea picked a couple of weeks later has far more flavour. Ask for 'big mountain' tea (higher gardens) rather than lowland field tea, and be sceptical of anything described as very early, since most of the good leaf comes in around mid-April.",
   "wikipedia_title": "Xinyang Maojian tea",
   "wikipedia_scope": "exact",
-  "popularity": 4
+  "popularity": 4,
+  "name_zh": "信阳毛尖",
+  "name_ru": "Синь Ян Мао Цзянь",
+  "history": "Xinyang is an old tea district, usually said to go back to the Eastern Zhou. Lu Yu's Classic of Tea counted the area within the Huainan tea region, Tang records list tea as tribute from Yiyang commandery, and Su Dongpo is quoted ranking Xinyang first among the teas of Huainan. None of that tea was today's Mao Jian, though, and claims of direct descent are disputed.\n\nThe style itself took shape in the early twentieth century. In the last years of the Guangxu reign (1905 to 1909) Cai Zhuxian promoted opening the hills for tea, and eight tea houses followed, among them Yuanzhen, Longtan and Hongji, gradually refining the firing into the thin, round, straight leaf known now. The famous gardens grew up in the hills south-west of the city, the 'five clouds' such as Cheyun and Jiyun, and the Black and White Dragon Pools. A gold medal at the 1915 Panama exposition made its name, and Longtan is the one early house that survived, as the root of today's Henan Xinyang Maojian Group.\n\nIt was named among China's top teas in 1959 and took national quality gold in 1990. The producing area has widened a good deal: from 1984 the method was taught across the region, the copies were at first called Henan Mao Jian, and from 1994 tea made to the standard across Xinyang's eight counties and districts could carry the Xinyang name. Bud-only top grades are a development of the late 1980s, and machine production began in the mid-1990s.",
+  "liquor_hex": "#CFCF6E",
+  "leaf_hex": "#4A5F34",
+  "sources": [
+    "https://zh.wikipedia.org/wiki/%E4%BF%A1%E9%98%B3%E6%AF%9B%E5%B0%96",
+    "https://en.wikipedia.org/wiki/Xinyang_Maojian_tea",
+    "https://ja.wikipedia.org/wiki/%E4%BF%A1%E9%99%BD%E6%AF%9B%E5%B0%96",
+    "https://zh.wikipedia.org/wiki/%E4%B8%AD%E5%9B%BD%E5%8D%81%E5%A4%A7%E5%90%8D%E8%8C%B6"
+  ],
+  "confidence": "high",
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0e/Xinyang_Maojian.jpg/1280px-Xinyang_Maojian.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0e/Xinyang_Maojian.jpg/330px-Xinyang_Maojian.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Xinyang_Maojian.jpg",
+      "author": "Francesc Fort",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "kind": "dry_leaf",
+      "alt": "Thin dark green twisted Xinyang Maojian leaves on a white plate"
+    }
+  ]
 }

@@ -3,25 +3,60 @@
   "name_en": "Thai Black Tea (Cha Thai Base)",
   "name_native": "ชาดำ / ชาไทย",
   "name_romanized": "Cha dam / Cha Thai",
-  "aliases": ["Cha Thai", "Thai tea base", "Cha yen tea", "Thai red tea", "Cha daeng", "Northern Thai black tea", "Thai Assam"],
+  "aliases": [
+    "Cha Thai",
+    "Thai tea base",
+    "Cha yen tea",
+    "Thai red tea",
+    "Cha daeng",
+    "Northern Thai black tea",
+    "Thai Assam"
+  ],
   "category": "black",
   "origin_country": "Thailand",
-  "origin_region": "Chiang Rai and Chiang Mai highlands (Mae Salong, Mae Chan, Doi Wawee, Mae Taeng)",
-  "cultivar": "Assamica-type bushes and semi-wild trees of the northern hills, plus some Taiwanese cultivars on the newer farms",
-  "processing": "Mostly strong broken-leaf and CTC-style black tea for the Thai milk-tea trade; the commercial 'Thai tea' mixes add spices and colouring to the tea. A smaller amount of orthodox whole-leaf black tea is made on the Mae Salong and Mae Chan farms, withered, rolled, fully oxidised and dried.",
+  "origin_region": "Chiang Rai",
+  "cultivar": "Assamica-type bushes and semi-wild trees of the northern hills, plus Taiwanese cultivars (Oolong No. 12 and No. 17) on the Mae Salong farms",
+  "processing": "Mostly strong broken-leaf and CTC-style black tea for the Thai milk-tea trade; the commercial 'Thai tea' mixes add colouring to the tea, and some add spices. A smaller amount of orthodox whole-leaf black tea is made on the Mae Salong and Mae Chan farms, withered, rolled, fully oxidised and dried.",
   "form": "loose",
   "harvest_season": "Picked through the year in the tropical hills, with the cool dry season (November to February) giving the best orthodox lots; the bulk tea is harvested whenever the bushes flush.",
   "appearance_dry": "Small, dark, broken leaf for the bulk tea; the commercial mixes are rust-orange from colouring. Orthodox lots are wiry black leaves with some golden tips.",
   "appearance_liquor": "Deep red-brown and strong; the coloured mixes brew an unmistakable bright orange. Orthodox lots are clear copper.",
   "appearance_wet": "Dark brown broken leaf; whole copper leaves in the orthodox lots.",
   "taste_profile": "The bulk tea is strong, malty and tannic, built to stand up to condensed milk and ice; the orthodox hill lots are softer, with malt, dried fruit and a honeyed, slightly earthy sweetness.",
-  "taste_tags": ["malty", "brisk", "spicy", "sweet"],
-  "brewing": {"grams": 3, "water_ml": 200, "temp_c": 95, "steeps": 2, "seconds": [180, 240], "notes": "For cha yen, brew much stronger (about 10 g per 300 ml, 5 minutes, or simmer briefly), strain, sweeten with sugar and condensed milk, pour over ice and top with evaporated milk. Orthodox hill lots can be brewed gongfu-style."},
+  "taste_tags": [
+    "malty",
+    "brisk",
+    "sweet"
+  ],
+  "brewing": {
+    "grams": 3,
+    "water_ml": 200,
+    "temp_c": 95,
+    "steeps": 2,
+    "seconds": [
+      180,
+      240
+    ],
+    "notes": "For cha yen, brew much stronger (about 10 g per 300 ml, 5 minutes, or simmer briefly), strain, sweeten with sugar and condensed milk, pour over ice and top with evaporated milk. Orthodox hill lots can be brewed gongfu-style."
+  },
   "caffeine_level": "high",
-  "vintage_note": "The milk-tea base is sold year-round by brand in bags and tins (the spiced, coloured mixes have no vintage and keep for a year or two); it is never sold by harvest. The small-farm orthodox black teas are sold as the current year's lot, vacuum-packed, and are best within a year or two of picking.",
-  "description": "Thailand's famous orange iced tea, cha yen, starts with black tea, and most of that tea is grown in the northern hills. The assamica-type bushes and semi-wild trees of Chiang Rai and Chiang Mai have been picked for centuries for miang, the fermented chewing tea, and in the twentieth century the same leaf was turned into strong black tea for the milk-tea trade. The commercial 'Thai tea' mixes that go into the drink add star anise, other spices and a food colouring that gives the brew its colour; the tea underneath is a robust broken-leaf black.\n\nThat bulk tea is designed to be brewed very strong, sweetened with sugar and condensed milk and poured over ice, and it is excellent at that job. Brewed plain, it is simply a big, tannic, malty black tea, not unlike a plain Assam. It is sold by brand rather than by garden or season, and the same leaf also goes into the less sweet 'cha dam yen' and the lime version.\n\nThe more interesting side is recent: the oolong farms around Mae Salong and Mae Chan now also make orthodox whole-leaf black tea, sometimes from the old assamica trees, sometimes from the Taiwanese cultivars they grow for oolong. These are softer teas, with malt, dried fruit and a honeyed, slightly earthy sweetness, and they can be brewed gongfu style. Thai shops often call them 'red tea', the Chinese way.\n\nWhen buying, decide which you want. For cha yen, buy a Thai brand mix and follow the strong-brew-and-condensed-milk method; a 'natural' version without colouring will taste the same and look brown. For a tea to drink on its own, look for an orthodox black from a named northern farm with a harvest year. Imported Ceylon and Assam leaf also goes into some Thai mixes, so 'Thai tea' on the label is not a guarantee of Thai-grown leaf.\n\nIf you like the spiced side, make cha yen from a good plain Thai black with a star anise in the pot and skip the colouring; it is the same drink without the orange.",
+  "vintage_note": "The milk-tea base is sold year-round by brand in bags and tins (the coloured mixes have no vintage and keep for a year or two); it is never sold by harvest. The small-farm orthodox black teas are sold as the current year's lot, vacuum-packed, and are best within a year or two of picking.",
+  "description": "Thailand's famous orange iced tea, cha yen, starts with strong black tea, generally described as Ceylon leaf, and how much of what goes into it is Thai-grown is hard to pin down. The assamica-type bushes and semi-wild trees of Chiang Rai and Chiang Mai have long been picked for miang, the fermented chewing tea, and the same leaf also makes a strong black tea. The commercial 'Thai tea' mixes add a food colouring that gives the brew its colour, and some add star anise or other spices, although the drink as made in Thailand is not typically spiced; the tea underneath is a robust broken-leaf black.\n\nThat bulk tea is designed to be brewed very strong, sweetened with sugar and condensed milk and poured over ice, and it is excellent at that job. Brewed plain, it is simply a big, tannic, malty black tea, not unlike a plain Assam. It is sold by brand rather than by garden or season, and the same leaf also goes into the less sweet 'cha dam yen' and the lime version.\n\nThe more interesting side is recent: the oolong farms around Mae Salong and Mae Chan now also make small batches of orthodox whole-leaf black tea, on Mae Salong from the Taiwanese cultivars they grow for oolong, and elsewhere in the north sometimes from old assamica trees. These are softer teas, with malt, dried fruit and a honeyed, slightly earthy sweetness, and they can be brewed gongfu style. Thai shops often call them 'red tea', the Chinese way.\n\nWhen buying, decide which you want. For cha yen, buy a Thai brand mix and follow the strong-brew-and-condensed-milk method; a 'natural' version without colouring will taste the same and look brown. For a tea to drink on its own, look for an orthodox black from a named northern farm with a harvest year. 'Thai tea' on the label is not a guarantee of Thai-grown leaf.\n\nIf you like the spiced side, make cha yen from a good plain Thai black with a star anise in the pot, as many recipes abroad do, and skip the colouring; it is the same drink without the orange.",
   "wikipedia_title": "Thai tea",
   "wikipedia_scope": "umbrella",
   "popularity": 4,
-  "sources_note": "The Wikipedia 'Thai tea' article is about the drink (cha yen) rather than the tea leaf; it is the closest umbrella. The claim that some commercial mixes use imported Ceylon/Assam leaf is based on ingredient lists and trade knowledge rather than a single source. Taste tag 'spicy' refers to the spiced commercial mixes."
+  "sources_note": "The Wikipedia 'Thai tea' article is about the drink (cha yen) rather than the tea leaf; it is the closest umbrella. The claim that some commercial mixes use imported Ceylon/Assam leaf is based on ingredient lists and trade knowledge rather than a single source. Taste tag 'spicy' refers to the spiced commercial mixes.",
+  "name_zh": "泰国红茶",
+  "name_ru": "Тайский чёрный чай",
+  "history": "Tea in northern Thailand is much older than the iced drink. The hill villages have long picked leaf for miang, the fermented chewing tea. The usual story credits King Mengrai, founder of Lanna, with ordering tea planted in the 13th century, and says Bulang (Palaung) migrants from Myanmar had planted trees there even earlier. That is tradition more than record.\n\nCha yen is another line of history. It is generally described as Ceylon black tea with milk and sugar, not typically spiced in Thailand itself, while star anise and cardamom turn up mostly in recipes abroad. When the orange commercial mixes appeared, and how much of their leaf is Thai-grown, is poorly documented.\n\nOrthodox black tea from the north is recent, and a by-product of the oolong boom. In the 1970s a planting programme with Taiwanese support began in the north as a measure against opium poppy; on Doi Mae Salong it is dated to 1973 or 1975 depending on the source, followed by a demonstration farm by 1978 and a Chiang Rai cooperative in 1982. The commercial bushes there are Taiwan's Oolong No. 12 and No. 17, and small batches of heavily oxidised red tea are made alongside the oolong.",
+  "liquor_hex": "#9A3F1A",
+  "leaf_hex": "#3A2618",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Thai_tea",
+    "https://stir-tea-coffee.com/features/doi-mae-salong-thailand%E2%80%99s-best-kept-tea-origin-secret/",
+    "https://rishi-tea.com/blogs/journal/chiang-rai-thailand",
+    "https://en.wikipedia.org/wiki/Doi_Mae_Salong"
+  ],
+  "confidence": "low",
+  "images": []
 }

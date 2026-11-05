@@ -1,0 +1,56 @@
+{
+  "slug": "kao-cha",
+  "name_en": "Kao Cha (Yunnan Pot-Roasted Tea)",
+  "name_native": "烤茶",
+  "name_romanized": "Kǎo Chá",
+  "name_zh": "烤茶",
+  "name_ru": "Као Ча",
+  "aliases": [
+    "Kaocha",
+    "Roasted tea",
+    "Pot-roasted tea"
+  ],
+  "category": "green",
+  "origin_country": "China",
+  "origin_region": "Yunnan · Dali · Yunlong",
+  "cultivar": null,
+  "processing": "A way of preparing tea rather than a kind of leaf: dry tea, typically sun-dried green, is roasted in a small clay pot over a fire until fragrant, then boiling water is added.",
+  "form": "loose",
+  "harvest_season": "No harvest of its own: it uses whatever everyday dry tea the household keeps.",
+  "appearance_dry": "Ordinary green tea strands before roasting, darkened and toasted once in the pot.",
+  "appearance_liquor": "Amber to deep gold, typical of pot-roasted tea, and darker than the same tea simply steeped.",
+  "appearance_wet": "Darkened, toasted leaf, often scorched at the edges.",
+  "taste_profile": "As with other pot-roasted Yunnan teas, toasty and strong with a clear bitterness; the longer the roast, the less green is left.",
+  "taste_tags": [
+    "roasted",
+    "bitter",
+    "smoky"
+  ],
+  "brewing": {
+    "grams": 4,
+    "water_ml": 120,
+    "temp_c": 100,
+    "steeps": 2,
+    "seconds": [
+      30,
+      60
+    ],
+    "notes": "Heat a small clay pot, add the leaf and keep it moving until fragrant, then pour in boiling water. These amounts are rough guides. Stir constantly: a moment too long and it just tastes burnt."
+  },
+  "caffeine_level": "medium",
+  "vintage_note": "Not sold by year or season as a product of its own. It is made at home from everyday dry tea, usually a recent sun-dried Yunnan green, roasted just before drinking.",
+  "description": "Kao cha simply means roasted tea: a household habit found in parts of Yunnan, where tea is toasted in a little clay pot just before being drunk. This entry is tied to Yunlong county in Dali, though little is documented about a Yunlong version in particular.\n\nThe method does the work. Dry leaf goes into a heated pot and is kept moving until it smells toasted, then boiling water goes in. What you get depends more on the roast than on the original tea.\n\nExpect a darker, stronger cup than the leaf would give otherwise, toasty and fairly bitter. Timing is everything, and most failures are simply burnt tea.\n\nThere is nothing to buy under this name in any meaningful sense; start with an inexpensive sun-dried Yunnan green and a small clay pot. The closest well-known relative is the first, bitter course of the Bai three-course tea, roasted in a clay pot in much the same way.",
+  "history": "Roasted tea is recognised as a distinctive drink of Yunnan's ethnic minority areas, and it has been studied among the Wa, for example. Little is documented about when it began or about its specific place in Yunlong.\n\nAmong the Bai of Dali, a similar pot-roasting step survives as the first course of the three-course tea ceremony.",
+  "liquor_hex": "#A9702C",
+  "leaf_hex": "#4A3A22",
+  "sources": [
+    "https://www.casb.org.cn/EN/Y2012/V28/I6/232",
+    "https://en.wikipedia.org/wiki/Three-course_tea_(Bai_people)"
+  ],
+  "confidence": "low",
+  "wikipedia_title": null,
+  "wikipedia_scope": "none",
+  "popularity": 2,
+  "images": [],
+  "sources_note": "No source specific to Yunlong kao cha was found; the method is described from related Yunnan roasted teas."
+}

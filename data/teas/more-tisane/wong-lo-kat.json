@@ -1,0 +1,59 @@
+{
+  "slug": "wong-lo-kat",
+  "name_en": "Wong Lo Kat Liangcha",
+  "name_native": "王老吉凉茶",
+  "name_romanized": "Wánglǎojí Liángchá",
+  "name_zh": "王老吉凉茶",
+  "name_ru": "Ван Лао Цзи",
+  "aliases": [
+    "Wong Lo Kat",
+    "Wanglaoji",
+    "王老吉",
+    "王老吉涼茶",
+    "Walovi",
+    "Ван Лаоцзи лян ча"
+  ],
+  "category": "tisane",
+  "origin_country": "China",
+  "origin_region": "Guangdong · Guangzhou",
+  "cultivar": null,
+  "processing": "A sweetened industrial decoction of herbs including mesona, frangipani, Microcos leaf, chrysanthemum, honeysuckle, prunella and liquorice, canned or boxed. Older forms were bowls in the shop and paper herb packs.",
+  "form": "other",
+  "harvest_season": "Not applicable: a formula made all year from dried herbs.",
+  "appearance_dry": "Sold mostly as a ready drink; herb packs hold chopped dried plant material in brown tones.",
+  "appearance_liquor": "Clear reddish brown in the can version.",
+  "appearance_wet": "Not applicable for the canned drink.",
+  "taste_profile": "As a canned drink, sweet first, thanks to added sugar, with a light herbal and liquorice background; far softer than shop-brewed bitter liangcha.",
+  "taste_tags": [
+    "sweet",
+    "herbal",
+    "medicinal"
+  ],
+  "brewing": {
+    "grams": 10,
+    "water_ml": 300,
+    "temp_c": 100,
+    "steeps": 1,
+    "seconds": [
+      300
+    ],
+    "notes": "The ready drink needs no brewing and is served chilled or at room temperature. For sachets and herb packs, follow the pack."
+  },
+  "caffeine_level": "none",
+  "vintage_note": "Not sold by harvest or year: it is a branded drink with a best-before date, in cans or cartons. Note that mainland China's red-can Wanglaoji and JDB are separate products of a split, and Hong Kong and overseas Wong Lo Kat is another line again.",
+  "description": "Wong Lo Kat is the most famous name in Cantonese herbal tea: a formula, a family business and a giant canned drink all at once. Wong Lo Kat is the Cantonese spelling, Wanglaoji the Mandarin one, and internationally it also appears as Walovi.\n\nThe canned product is a sweetened herbal infusion. Its listed ingredients include mesona, frangipani, Microcos leaf, chrysanthemum, honeysuckle, prunella and liquorice, along with water and sugar.\n\nIt tastes like a soft drink with some herbs behind it, so do not judge liangcha by it alone. Older Guangzhou shops poured it from big copper gourds, a different experience from a chilled can.\n\nWhen buying, check the producer rather than the colour of the can. The mainland trademark belongs to a Guangzhou state-owned group, while the family's descendants hold the mark in Hong Kong and overseas.",
+  "history": "Sources date the business to about 1828 and to Wong Chat Bong (Wang Zebang), from Heshan in Guangdong. Stories of a Taoist's formula, of the emperor calling him to court, and of a cure for Lin Zexu are legends; court records do not support the imperial claim.\n\nThe family spread to Hong Kong in the 1890s and registered its trademark there, and sachets and later concentrate carried the name overseas. After 1949 the mainland assets passed to the state, while descendants ran the Hong Kong side.\n\nIn modern times the red can became huge under a licence to Hung To Group and its JDB subsidiary. In 2012 an arbitration panel ruled the licence extensions invalid, after a Guangzhou Pharmaceutical executive was found to have taken a payment for them. JDB moved to its own name, and the state group started its own red can.",
+  "liquor_hex": "#6E3417",
+  "leaf_hex": "#6A4A2C",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Wong_Lo_Kat",
+    "https://zh.wikipedia.org/wiki/%E7%8E%8B%E8%80%81%E5%90%89%E6%B6%BC%E8%8C%B6",
+    "https://www.wikidata.org/wiki/Q701395"
+  ],
+  "confidence": "high",
+  "wikipedia_title": "Wong Lo Kat",
+  "wikipedia_scope": "exact",
+  "popularity": 3,
+  "sources_note": "A brand kept as a card because it is a historic formula with its own encyclopedia page. Canned liquor colour and taste are not stated in the sources read.",
+  "images": []
+}

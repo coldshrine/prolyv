@@ -3,10 +3,17 @@
   "name_en": "Matcha (Culinary Grade)",
   "name_native": "料理用抹茶",
   "name_romanized": "Ryōri-yō matcha",
-  "aliases": ["Cooking matcha", "Latte grade matcha", "Ingredient matcha", "Baking matcha", "Food-grade matcha"],
+  "aliases": [
+    "Cooking matcha",
+    "Latte grade matcha",
+    "Ingredient matcha",
+    "Baking matcha",
+    "Food-grade matcha",
+    "Кулинарная матча"
+  ],
   "category": "green",
   "origin_country": "Japan",
-  "origin_region": "Kagoshima; Aichi · Nishio; Shizuoka; Mie",
+  "origin_region": "Kagoshima",
   "cultivar": "Yabukita, Okumidori, Saemidori, Yutaka Midori",
   "processing": "Tencha from second-flush, autumn or more lightly shaded leaf, usually machine-harvested, ground to powder by ball mill, air-jet mill or stone mill; the result is a coarser, stronger powder meant to be tasted through milk, sugar or flour.",
   "form": "powder",
@@ -15,12 +22,49 @@
   "appearance_liquor": "Opaque dull green, foams less when whisked and settles faster.",
   "appearance_wet": "Not applicable: the powder is consumed with the drink or dish.",
   "taste_profile": "Strong, grassy and noticeably bitter with a leaner umami, which is exactly what lets it stand up to milk, sugar and cream.",
-  "taste_tags": ["vegetal", "bitter", "grassy", "umami"],
-  "brewing": {"grams": 2, "water_ml": 60, "temp_c": 80, "steeps": 1, "seconds": [30], "notes": "Make a smooth paste with a little hot water first (sift it, or use a small whisk or electric frother), then add 150–200 ml of hot or cold milk for a latte. If drinking it straight, use cooler water and less powder than you think."},
+  "taste_tags": [
+    "vegetal",
+    "bitter",
+    "grassy",
+    "umami"
+  ],
+  "brewing": {
+    "grams": 2,
+    "water_ml": 60,
+    "temp_c": 80,
+    "steeps": 1,
+    "seconds": [
+      30
+    ],
+    "notes": "Make a smooth paste with a little hot water first (sift it, or use a small whisk or electric frother), then add 150–200 ml of hot or cold milk for a latte. If drinking it straight, use cooler water and less powder than you think."
+  },
   "caffeine_level": "high",
-  "vintage_note": "Sold in 100 g to 1 kg bags by grade name (premium, latte, ingredient and so on) with a best-before date rather than a harvest, from the summer and autumn pickings of the current or previous year; it keeps longer than drinking grades because the flavour is already robust, but still dulls and browns after a few months open. There is no vintage or ageing dimension at all.",
-  "description": "Culinary matcha is matcha made to go into something: a latte, ice cream, a cake, chocolate, a smoothie. It is not simply bad ceremonial matcha; it is a different product with a different job, which is to deliver a strong green-tea flavour and a colour that survives milk, sugar and an oven. Most of the matcha drunk outside Japan is this.\n\nIt is made from tencha of later harvests, second flush and autumn, or from less deeply shaded first flush, usually machine-harvested, and more often ground in a ball mill or an air-jet mill than between stones. Less shading means more catechins and less theanine, so the powder is more bitter and astringent with a leaner umami, and the colour is a flatter, darker or more olive green. Within the category, 'premium' or 'latte' grades are lighter and closer to drinking matcha, while 'ingredient' or 'baking' grades are coarser and more assertive, which is what you want under flour and butter.\n\nWhisked plain it is harsh; this is where most people's 'I don't like matcha' comes from. Made into a latte it is right at home: 2 g pasted with 30 ml of water at about 80 °C, then 150–200 ml of hot or cold milk. For baking, one or two teaspoons per batch of cookies or cake batter is usually enough, and the colour will be a little duller after heating whatever the grade. Sift it; it clumps more than drinking grades because it is cheaper to leave slightly coarse.\n\nIt comes in 100 g to 1 kg bags with a grade name and a best-before date rather than a harvest. Look for the origin, 'matcha' rather than 'powdered green tea' (funmatsu-cha, ground unshaded sencha, is a legitimate product but a different one), and no added sugar or dextrin. Price and colour are honest guides: a dull khaki powder has either not been shaded much or has been sitting in a warehouse. Keep an opened bag sealed in the fridge; it dulls and browns in a few months.\n\nIf you only ever drink matcha with milk, this is the grade to buy; spending ceremonial money on a latte is a waste of both.",
+  "vintage_note": "Sold in 100 g to 1 kg bags by grade name (premium, latte, ingredient and so on) with a best-before date rather than a harvest, from the summer and autumn pickings of the current or previous year; its robust flavour hides age better than drinking grades do, but it still dulls and browns after a few months open. There is no vintage or ageing dimension at all.",
+  "description": "Culinary matcha is matcha made to go into something: a latte, ice cream, a cake, chocolate, a smoothie. It is not simply bad ceremonial matcha; it is a different product with a different job, which is to deliver a strong green-tea flavour and a colour that survives milk, sugar and an oven. Much of the matcha drunk outside Japan is this.\n\nIt is made from tencha of later harvests, second flush and autumn, or from less deeply shaded first flush, usually machine-harvested, and more often ground in a ball mill or an air-jet mill than between stones. Less shading means more catechins and less theanine, so the powder is more bitter and astringent with a leaner umami, and the colour is a flatter, darker or more olive green. Within the category, 'premium' or 'latte' grades are lighter and closer to drinking matcha, while 'ingredient' or 'baking' grades are coarser and more assertive, which is what you want under flour and butter. These are sellers' names, not a regulated scale, and they differ from one brand to the next.\n\nWhisked plain it is harsh; this is where most people's 'I don't like matcha' comes from. Made into a latte it is right at home: 2 g pasted with 30 ml of water at about 80 °C, then 150–200 ml of hot or cold milk. For baking, one or two teaspoons per batch of cookies or cake batter is usually enough, and the colour will be a little duller after heating whatever the grade. Sift it; like any fine tea powder it clumps.\n\nIt comes in 100 g to 1 kg bags with a grade name and a best-before date rather than a harvest. Look for the origin, 'matcha' rather than 'powdered green tea' (funmatsu-cha, ground unshaded sencha, is a legitimate product but a different one), and no added sugar or dextrin. Price and colour are honest guides: a dull khaki powder has either not been shaded much or has been sitting in a warehouse. Keep an opened bag sealed in the fridge; it dulls and browns in a few months.\n\nIf you only ever drink matcha with milk, this is the grade to buy; spending ceremonial money on a latte is a waste of both.",
   "wikipedia_title": "Matcha",
   "wikipedia_scope": "umbrella",
-  "popularity": 4
+  "popularity": 4,
+  "name_zh": "烹饪级抹茶",
+  "name_ru": "Кулинарная маття",
+  "history": "Culinary matcha is a selling category rather than a tea with its own history, and little is documented about when the label first appeared. Japan has no government-regulated grading scale for matcha. Producers there judge it by colour, aroma, freshness, fineness and the balance of umami, sweetness and astringency. The split into 'ceremonial' and 'culinary' was popularised by Western brands, so the words mean whatever the seller stands behind.\n\nThe use itself is broader than the label. In Japan matcha goes into castella, manjū and monaka, over shaved ice, into milk drinks, and with salt as a seasoning for tempura. It also flavours chocolate, cakes, cookies, ice cream and snacks. Powder sold for that work usually comes from more mature leaf and later harvests, with a stronger, more astringent taste that survives other ingredients.",
+  "liquor_hex": "#8A9A3E",
+  "leaf_hex": "#77873A",
+  "sources": [
+    "https://shop.ikkyu-tea.com/blogs/around-the-cup/ceremonial-vs-culinary-matcha",
+    "https://jingtea.com/blogs/matcha/matcha-grades-guide",
+    "https://en.wikipedia.org/wiki/Matcha"
+  ],
+  "confidence": "medium",
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d9/Matcha_Scoop.jpg/1280px-Matcha_Scoop.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d9/Matcha_Scoop.jpg/330px-Matcha_Scoop.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Matcha_Scoop.jpg",
+      "author": "Evanhoever",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "kind": "dry_leaf",
+      "alt": "Spoon heaped with green matcha powder, with powder scattered around it"
+    }
+  ]
 }

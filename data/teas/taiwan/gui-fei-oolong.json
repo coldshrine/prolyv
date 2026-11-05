@@ -3,7 +3,14 @@
   "name_en": "Gui Fei Oolong",
   "name_native": "貴妃烏龍",
   "name_romanized": "Guìfēi Wūlóng",
-  "aliases": ["Guei Fei", "Concubine oolong", "Gui Fei Cha", "Kuei Fei oolong", "Bug-bitten Dong Ding", "Guifei Wulong"],
+  "aliases": [
+    "Guei Fei",
+    "Concubine oolong",
+    "Gui Fei Cha",
+    "Kuei Fei oolong",
+    "Bug-bitten Dong Ding",
+    "Guifei Wulong"
+  ],
   "category": "oolong",
   "origin_country": "Taiwan",
   "origin_region": "Nantou · Lugu",
@@ -15,13 +22,56 @@
   "appearance_liquor": "Amber to orange-red, clear.",
   "appearance_wet": "Mottled brown and red leaves with ragged, yellowed, bitten edges.",
   "taste_profile": "Honey and ripe peach from the insect damage, caramel and toasted grain from the roast, a thick sweet body and a honeyed finish that stays on the tongue.",
-  "taste_tags": ["honey", "stone-fruit", "roasted", "sweet", "fruity"],
-  "brewing": {"grams": 6, "water_ml": 110, "temp_c": 100, "steeps": 7, "seconds": [25, 20, 25, 35, 50, 70, 100], "notes": "A robust tea: boiling water, a normal dose, seven or eight steeps with the roast fading and the fruit coming forward. A clay pot suits it, and it works after a meal."},
+  "taste_tags": [
+    "honey",
+    "stone-fruit",
+    "roasted",
+    "sweet",
+    "fruity"
+  ],
+  "brewing": {
+    "grams": 6,
+    "water_ml": 110,
+    "temp_c": 100,
+    "steeps": 7,
+    "seconds": [
+      25,
+      20,
+      25,
+      35,
+      50,
+      70,
+      100
+    ],
+    "notes": "A robust tea: boiling water, a normal dose, seven or eight steeps with the roast fading and the fruit coming forward. A clay pot suits it, and it works after a meal."
+  },
   "caffeine_level": "medium",
   "vintage_note": "Sold by summer harvest year, usually with the roast level stated, from Lugu producers and a few in Mingjian; good lots are also sold aged two to five years, when the roast softens into dried fruit. Price should sit between Dong Ding and Oriental Beauty; cheap 'Gui Fei' with no honey in the cup is roasted Si Ji Chun with no insect involved.",
   "description": "Gui Fei, 'imperial concubine', is a roasted, ball-rolled oolong from Lugu in Nantou made from summer leaf that the tea green leafhopper has been allowed to bite, so it combines the honey-and-peach character of Oriental Beauty with the craft and the roast of Dong Ding. The story told in Lugu is that after the September 1999 earthquake the gardens were left untended, the insects moved in, and the farmers who processed the damaged leaf found it had turned sweet; the name followed.\n\nThe insect is the key. When the leafhopper feeds, the plant's defence response produces the compounds behind the honey aroma, which is why these gardens cannot be sprayed and why the tea is a summer product, picked in June and July when the hoppers are active at low elevation. The bitten leaf is then withered and oxidised further than Dong Ding, around 40 to 60 percent, ball-rolled and given a medium roast that turns the honey into caramel without burying it.\n\nIn the cup it is honey and ripe peach first, then toasted grain and caramel from the roast, a thick, sweet body and a honeyed finish that stays on the tongue. It is a robust tea: boiling water, a normal dose and seven or eight steeps, with the roast fading and the fruit coming forward as you go. A clay pot suits it, and it is one of the few oolongs that works well after a meal.\n\nIt is sold by summer harvest year, usually with the roast level stated, from Lugu producers and a few in Mingjian, and good lots are sold aged two to five years, when the roast softens into dried fruit. Price should sit between Dong Ding and Oriental Beauty. Cheap 'Gui Fei' is usually roasted Si Ji Chun with no insect involved: if there is no obvious honey in the empty cup and no ragged, bitten edges on the wet leaf, it is just roasted oolong.\n\nTaste it next to an Oriental Beauty from the same summer to see what the roll and the roast do to the same bug-bitten leaf; then try Mi Xiang oolong, the lighter, unroasted version of the idea.",
   "wikipedia_title": "Taiwanese tea",
   "wikipedia_scope": "umbrella",
   "popularity": 3,
-  "sources_note": "The post-1999-earthquake origin story is the one Lugu producers tell and is presented as such, not as documented history."
+  "sources_note": "The post-1999-earthquake origin story is the one Lugu producers tell and is presented as such, not as documented history.",
+  "name_zh": "贵妃乌龙",
+  "name_ru": "Гуй Фэй",
+  "history": "Gui Fei is a young tea, developed in Lugu after the 1999 Jiji earthquake. The usual story says gardens left untended after the disaster filled with leafhoppers, and that the bitten leaf turned out sweet when processed. The insect part stands on firm ground: the honey note comes from the plant's defences against Jacobiasca formosana, the same mechanism behind Oriental Beauty.\n\nThe name is sometimes used loosely alongside red oolong, a heavily oxidised rolled style, so what a seller means by it is worth asking.",
+  "liquor_hex": "#B9702C",
+  "leaf_hex": "#4B2F1E",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Nantou_County",
+    "https://en.wikipedia.org/wiki/Taiwanese_tea"
+  ],
+  "confidence": "medium",
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6d/Tea_time_with_ILLUSEUM_Gui_Fei_Oolong_-_Flickr_-_Rojs_Rozent%C4%81ls.jpg/1280px-Tea_time_with_ILLUSEUM_Gui_Fei_Oolong_-_Flickr_-_Rojs_Rozent%C4%81ls.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6d/Tea_time_with_ILLUSEUM_Gui_Fei_Oolong_-_Flickr_-_Rojs_Rozent%C4%81ls.jpg/330px-Tea_time_with_ILLUSEUM_Gui_Fei_Oolong_-_Flickr_-_Rojs_Rozent%C4%81ls.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Tea_time_with_ILLUSEUM_Gui_Fei_Oolong_-_Flickr_-_Rojs_Rozent%C4%81ls.jpg",
+      "author": "Rojs Rozentāls from Riga, Latvia",
+      "license": "CC BY-SA 2.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+      "kind": "serving",
+      "alt": "Amber Gui Fei Oolong poured from a glass pitcher into a glass cup set in snow"
+    }
+  ]
 }

@@ -1,0 +1,56 @@
+{
+  "slug": "naxi-longhudou",
+  "name_en": "Naxi Longhudou",
+  "name_native": "纳西族龙虎斗",
+  "name_romanized": "Nàxīzú Lónghǔdòu",
+  "name_zh": "纳西族龙虎斗",
+  "name_ru": "Наси Лун Ху Доу",
+  "aliases": [
+    "Dragon Tiger Fight Tea",
+    "龙虎斗茶",
+    "阿吉勒烤",
+    "Long Hu Dou"
+  ],
+  "category": "green",
+  "origin_country": "China",
+  "origin_region": "Yunnan · Lijiang",
+  "cultivar": null,
+  "processing": "A way of drinking tea, not a factory style. Tea is roasted in a small clay pot, boiled with water into a strong brew, then poured into a cup holding baijiu, which makes a sharp crackle.",
+  "form": "loose",
+  "harvest_season": "Not tied to a harvest; it is made from whatever tea the household has.",
+  "appearance_dry": "Ordinary local tea, darkened by roasting in the pot.",
+  "appearance_liquor": "A dark amber brew, as expected from strong pot-roasted tea, cut with clear spirit.",
+  "appearance_wet": "Scorched, dark leaf left in the pot, as with other pot-roasted teas.",
+  "taste_profile": "No detailed tasting record exists. Expect strong roasted tea with bitterness and the heat of grain spirit.",
+  "taste_tags": [
+    "roasted",
+    "bitter",
+    "spicy"
+  ],
+  "brewing": {
+    "grams": 3,
+    "water_ml": 100,
+    "temp_c": 100,
+    "steeps": 1,
+    "seconds": [
+      120
+    ],
+    "notes": "Roast the leaf in a warm clay pot, add water and boil to a thick brew, then pour it into a cup with a small measure of baijiu. It contains alcohol, and the cup can spit."
+  },
+  "caffeine_level": "medium",
+  "vintage_note": "Never sold as a product or by year. It is made at home from everyday tea and baijiu. Any current tea does the job, and nothing is documented about a preferred season or age.",
+  "description": "Longhudou, dragon and tiger fight, is a Naxi way of drinking tea from around Jade Dragon Snow Mountain near Lijiang. In Naxi it is recorded as a-ji-le-kao (阿吉勒烤). The fight of the name is tea against strong spirit.\n\nTea is roasted in a small clay pot, then boiled with water into a strong brew. That hot brew is poured into a cup with baijiu in it, and the crackle it makes is taken as a good omen: the louder, the happier the company.\n\nExpect something strong, toasty and warming. Some households add a chilli, and folk belief says that sweating it out helps a cold. That is a folk belief and not a remedy worth relying on.\n\nIt is worth trying for the ritual, with a small measure of spirit. A related salted version replaces the baijiu with salt.",
+  "history": "Little is documented beyond popular accounts of Naxi customs, which place the practice around Jade Dragon Snow Mountain. No date or originator is on record.",
+  "liquor_hex": "#8A4E1E",
+  "leaf_hex": "#3A2E1C",
+  "wikipedia_title": null,
+  "wikipedia_scope": "none",
+  "popularity": 2,
+  "images": [],
+  "sources": [
+    "https://wanbao.xyxww.com.cn/html/16/2013-04/26/B8/20130426B8_pdf.pdf",
+    "https://wanbao.xyxww.com.cn/statics/10/2021-04/25/08/2021042508_pdf.pdf",
+    "https://www.hanbook.com/chinese-dictionary/words/cha2-zhong1-handleless-teacup"
+  ],
+  "confidence": "low"
+}

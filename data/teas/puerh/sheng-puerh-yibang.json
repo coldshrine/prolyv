@@ -3,10 +3,15 @@
   "name_en": "Yibang Sheng Pu-erh",
   "name_native": "倚邦生普洱",
   "name_romanized": "Yǐbāng Shēng Pǔ'ěr",
-  "aliases": ["Yi Bang sheng", "Yibang small leaf", "Yibang xiao ye zhong", "倚邦小叶种"],
+  "aliases": [
+    "Yi Bang sheng",
+    "Yibang small leaf",
+    "Yibang xiao ye zhong",
+    "倚邦小叶种"
+  ],
   "category": "sheng",
   "origin_country": "China",
-  "origin_region": "Yunnan · Xishuangbanna · Mengla · Xiangming · Yibang",
+  "origin_region": "Yunnan · Xishuangbanna · Yibang",
   "cultivar": "Yibang small-leaf population (xiaoyezhong), grown alongside ordinary Yunnan large-leaf trees",
   "processing": "Raw pu-erh: pan-fired, hand-rolled and sun-dried maocha pressed into cakes; the small, tender leaf is fired lightly and rolled gently to avoid breaking.",
   "form": "cake",
@@ -15,13 +20,46 @@
   "appearance_liquor": "Pale gold, limpid and bright.",
   "appearance_wet": "Small, neat, tender yellow-green leaves, much finer than typical pu-erh material.",
   "taste_profile": "Refined and aromatic: honey, orchid and a light fruitiness, a fine bitterness that fades quickly, some gentle astringency, a light-to-medium body and a long, clear, sweet aftertaste.",
-  "taste_tags": ["honey", "floral", "sweet", "fruity"],
-  "brewing": {"grams": 7, "water_ml": 110, "temp_c": 95, "steeps": 10, "seconds": [8, 6, 10, 15, 20, 30, 45, 60, 90, 150], "notes": "Rinse once, briefly. The small leaf gives up its flavour fast, so flash the first steeps; porcelain and water just off the boil keep the aroma clean."},
+  "taste_tags": [
+    "honey",
+    "floral",
+    "sweet",
+    "fruity"
+  ],
+  "brewing": {
+    "grams": 7,
+    "water_ml": 110,
+    "temp_c": 95,
+    "steeps": 10,
+    "seconds": [
+      8,
+      6,
+      10,
+      15,
+      20,
+      30,
+      45,
+      60,
+      90,
+      150
+    ],
+    "notes": "Rinse once, briefly. The small leaf gives up its flavour fast, so flash the first steeps; porcelain and water just off the boil keep the aroma clean."
+  },
   "caffeine_level": "high",
   "vintage_note": "Sold by spring harvest year and by sub-area (Mansong, Malishu, Daheishulin, Mangong, Yibang old street), mostly as small-run cakes and maocha from boutique producers since the mid-2000s, when the six ancient mountains came back into fashion. Young (1–3 years) Yibang is perfumed and fine; it fills out into honey over the 5–12-year window, and aged Yibang in the real sense is almost unobtainable because the mountain produced little under its own name before 2005. Supply is 2005–2025, dry-stored, and prices for old-tree small-leaf tea are high while the newer large-leaf plantings around the villages are much cheaper.",
   "description": "Yibang is one of the six ancient tea mountains of Xishuangbanna, in Xiangming township of Mengla County, and it was the administrative and trading centre of the Qing-era tea trade before Yiwu took over; the old cobbled street and the tea-merchant ruins are still there. Its tea is unusual in Yunnan because much of it comes from a small-leaf population, said locally to have been brought by Sichuan merchants, which gives a finer, more perfumed cup than big-leaf pu-erh.\n\nThe old gardens are scattered through forest at around 1,300–1,500 m, interplanted with ordinary large-leaf trees, and the tribute village of Mansong is part of the Yibang area. Processing is ordinary sheng, but the small, tender leaf has to be fired and rolled gently, and the pressed cakes look strikingly fine-grained.\n\nIn the cup, Yibang is honey and orchid with a light fruitiness, a quick fine bitterness, a little astringency and a long clear sweetness; the body is lighter than Yiwu's, but the aftertaste is persistent. It gives up its flavour quickly, so short early steeps matter more here than anywhere. People who brew it like a Bulang find it thin and sharp; people who brew it with care find it one of the most elegant teas in Yunnan.\n\nSold by spring year and sub-area, and the names carry real price differences, with Mansong at the top and old-street Yibang gushu not far behind. Because the mountain lost many old trees to fires and clearance in the twentieth century, genuine old-tree small-leaf tea is scarce, and much 'Yibang' is young planting or large-leaf material from the surrounding slopes. Small leaf size is the quickest visual check.\n\nIt is a good tea to drink alongside Yiwu: the same honeyed region expressed in a finer, higher key.",
   "wikipedia_title": "Pu'er tea",
   "wikipedia_scope": "umbrella",
   "popularity": 2,
-  "sources_note": "The Sichuan-merchant origin of the Yibang small-leaf population is local tradition, flagged as such; elevation figures are approximate."
+  "sources_note": "The Sichuan-merchant origin of the Yibang small-leaf population is local tradition, flagged as such; elevation figures are approximate.",
+  "name_zh": "倚邦生普洱",
+  "name_ru": "И Бан Шэн Пуэр",
+  "history": "Yibang is one of the six ancient tea mountains of Xishuangbanna, in Xiangming township of Mengla County. In the Qing period it was an important centre of the regional tea trade, and it is linked with the tribute tea of nearby Mansong.\n\nThe usual story says that Sichuan merchants brought the small-leaf tea plants that set Yibang apart, but that remains local tradition. The trade later shifted towards Yiwu, and the mountain's name returned to wide use with the revival of interest in the six ancient mountains.",
+  "liquor_hex": "#E2CC7C",
+  "leaf_hex": "#4A5233",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Pu%27er_tea"
+  ],
+  "confidence": "low",
+  "images": []
 }

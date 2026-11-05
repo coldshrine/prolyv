@@ -1,0 +1,64 @@
+{
+  "slug": "jakseol-cha",
+  "name_en": "Jakseol-cha",
+  "name_native": "작설차",
+  "name_romanized": "Jakseol-cha",
+  "name_zh": "雀舌茶",
+  "name_ru": "Чаксоль-ча",
+  "aliases": [
+    "Jakseol",
+    "Sejak",
+    "세작",
+    "細雀",
+    "雀舌",
+    "Dumul-cha",
+    "두물차",
+    "Sparrow tongue tea"
+  ],
+  "category": "green",
+  "origin_country": "South Korea",
+  "origin_region": "Southern tea regions",
+  "cultivar": null,
+  "processing": "Young leaves and buds are hand-plucked and made into nokcha. Most Korean green tea is pan-fired, though the name refers to the picking rather than one method.",
+  "form": "loose",
+  "harvest_season": "Hand-plucked after gogu (grain rain, 20 to 21 April) and before ipha (advent of summer, 5 to 6 May). This is the second flush, after ujeon.",
+  "appearance_dry": "Small, fine, dark green leaves and buds, about the size the name suggests.",
+  "appearance_liquor": "Typically clear pale yellow-green.",
+  "appearance_wet": "Tender small buds and young leaves, soft and bright green.",
+  "taste_profile": "As with other fine Korean greens, expect a soft, sweet, gently vegetal cup with a savoury edge and little bitterness at low temperature.",
+  "taste_tags": [
+    "sweet",
+    "vegetal",
+    "umami",
+    "nutty"
+  ],
+  "brewing": {
+    "grams": 3,
+    "water_ml": 120,
+    "temp_c": 65,
+    "steeps": 3,
+    "seconds": [
+      60,
+      45,
+      75
+    ],
+    "notes": "Best at 60 to 70 °C. Boiling water wastes the delicate young leaf."
+  },
+  "caffeine_level": "medium",
+  "vintage_note": "Sold each spring as that year's second flush, and placed between pricier ujeon and later jungjak and daejak. Treat it as a current-year tea, keep it sealed, and check the harvest date on the pack.",
+  "description": "Jakseol means sparrow's tongue, a picture of how small the leaves are when plucked. In today's trade the same tea is usually called sejak, the second flush of the Korean green tea year, picked by hand from late April to early May.\n\nThe flush defines it, not a method or a place. Grading Korean tea by picking date puts it after ujeon and ahead of jungjak and daejak, so you get young, tender material at a gentler price than the first pick.\n\nIt rewards cool water. At 60 to 70 °C the cup stays soft and sweet, as is typical of fine Korean greens. Hotter water brings out bitterness and blurs the tea.\n\nWhen shopping, look for sejak or 세작 with a producing area such as Hadong, Boseong or Jeju, and a harvest year. Jakseol can be used loosely, so ask what picking you are actually getting.",
+  "history": "Korean tea names and grades appear from the Goryeo period, when tea was collected as a tax and the burden on villagers prompted complaints from officials such as Yi Gyu-bo and Yi Je-hyeon. Jakseol appears as a word for tea in verse by Yi Je-hyeon and Won Cheon-seok, and green tea was long known widely by this name.\n\nToday the sense has narrowed, and jakseol mostly serves as another name for sejak in the modern system of flush grades.",
+  "liquor_hex": "#DAD48E",
+  "leaf_hex": "#4C5F32",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Sejak",
+    "https://ko.wikipedia.org/wiki/%EB%91%90%EB%AC%BC%EC%B0%A8",
+    "https://ko.wikipedia.org/wiki/%EC%B0%A8_%28%EC%9D%8C%EB%A3%8C%29",
+    "https://en.wikipedia.org/wiki/Korean_tea"
+  ],
+  "confidence": "medium",
+  "wikipedia_title": "Sejak",
+  "wikipedia_scope": "exact",
+  "popularity": 3,
+  "images": []
+}

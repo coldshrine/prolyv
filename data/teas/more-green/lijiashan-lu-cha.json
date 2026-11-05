@@ -1,0 +1,55 @@
+{
+  "slug": "lijiashan-lu-cha",
+  "name_en": "Lijiashan Green Tea",
+  "name_native": "李家山绿茶",
+  "name_romanized": "Lǐjiāshān Lǜchá",
+  "aliases": [
+    "Lijiashan Lü Cha",
+    "Lijiashanlvcha",
+    "隔夜香"
+  ],
+  "category": "green",
+  "origin_country": "China",
+  "origin_region": "Sichuan · Muchuan",
+  "cultivar": null,
+  "form": "loose",
+  "caffeine_level": "medium",
+  "brewing": {
+    "grams": 3,
+    "water_ml": 150,
+    "temp_c": 80,
+    "steeps": 3,
+    "seconds": [
+      60,
+      75,
+      105
+    ],
+    "notes": "A safe starting point for green tea: cooler water, short steeps, then adjust by taste."
+  },
+  "taste_tags": [
+    "vegetal",
+    "sweet"
+  ],
+  "description": "A green tea from Muchuan county in Leshan, Sichuan. Its nickname, overnight fragrance, refers to brewed tea that still smells strong the next day.\n\nTreat it as you would any green tea: cooler water, short steeps, and a seller who can say where and when it was picked.",
+  "wikipedia_title": null,
+  "wikipedia_scope": "none",
+  "popularity": 1,
+  "name_zh": "李家山绿茶",
+  "name_ru": "Ли Цзя Шань Люй Ча",
+  "history": null,
+  "liquor_hex": "#D6D27A",
+  "leaf_hex": "#6F7C38",
+  "sources": [
+    "https://milulu.com.cn/techan/29031.html"
+  ],
+  "confidence": "low",
+  "images": [],
+  "stub": true,
+  "processing": "Typical of green tea: picked, heated soon after picking to stop oxidation, then shaped and dried.",
+  "harvest_season": "Usually picked in spring, with the earliest pickings prized, as with most green teas.",
+  "appearance_dry": "Heavy and coarse-looking.",
+  "appearance_liquor": "Usually a clear, pale yellow-green.",
+  "appearance_wet": "Usually soft green leaf that opens up in the water.",
+  "taste_profile": "High, fresh and very lasting aroma.",
+  "vintage_note": "Green teas like this are normally sold as the current year's harvest and are best within a year of picking. It is not an ageing tea."
+}

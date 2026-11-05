@@ -1,0 +1,53 @@
+{
+  "slug": "qishe-tea",
+  "name_en": "Qishe Tea",
+  "name_native": "七舍茶",
+  "name_romanized": "Qīshè Chá",
+  "name_zh": "七舍茶",
+  "name_ru": "Ци Шэ Ча",
+  "aliases": [
+    "Qishecha"
+  ],
+  "category": "green",
+  "origin_country": "China",
+  "origin_region": "Guizhou · Xingyi · Qishe",
+  "cultivar": "Local small and medium-leaf population, Meizhan, Baiye 1, Qiancha 1, Qiancha 8, Fuding Dabai, Longjing 43",
+  "processing": "Traditionally fried hard in a wok, rolled briefly, then returned to a low heat for two or three more firings until dry and crisp.",
+  "form": "loose",
+  "harvest_season": "Spring and summer-autumn picking both reach the market, and spring tea has fetched the higher price.",
+  "appearance_dry": "Tight, even strips with a brownish green colour.",
+  "appearance_liquor": "Clear and bright; the old rustic style gave a redder yellow cup.",
+  "appearance_wet": "Not specifically described.",
+  "taste_profile": "A clean, fresh flavour and lasting aroma in the modern style. The traditional rustic version was slightly bitter with a scorched note.",
+  "taste_tags": [
+    "vegetal",
+    "roasted",
+    "bitter"
+  ],
+  "brewing": {
+    "grams": 3,
+    "water_ml": 150,
+    "temp_c": 85,
+    "steeps": 3,
+    "seconds": [
+      60,
+      90,
+      120
+    ],
+    "notes": "General guidance for a Guizhou green, not a recorded local method. Back off the temperature if a firmly fired lot tastes bitter."
+  },
+  "caffeine_level": "medium",
+  "vintage_note": "Sold by year and by season: spring tea commands more than summer and autumn lots. Like other greens it is at its best in the year of picking.",
+  "description": "Qishe Tea comes from Qishe and three neighbouring townships in Xingyi, in southwest Guizhou, where the average altitude at Qishe is over 1880 metres. The area keeps 165 tea trees said to be over a century old, and the plants are reported to stay green at around minus 7 or 8°C.\n\nThe old way of making it was simple and rough: a hot wok, a few rolls by hand, then more firing over low heat until the leaf was dry enough to crumble. That made a slightly bitter, scorched tea with a yellowish red cup. Today's protected tea, with its tight brownish green strips and clear cup, is a cleaner product, made from local plants and from named varieties such as Fuding Dabai and Longjing 43.\n\nExpect a clean, fresh flavour with a lasting aroma. Brew it around 85°C and adjust by taste.\n\nWhen buying, ask for the season, since spring and later pickings are priced apart, and ask about the variety, because the label can cover quite different plants. Buyers in Zhejiang have purchased this leaf for processing and resale, so the region's tea may appear under other names too.",
+  "history": "Qing-era works including the Xingyi prefecture gazetteer and Chen Ding's travel notes on Yunnan and Guizhou are cited as mentioning tea here. Farmers long sold it in scattered small lots, and it reached buyers in Zhejiang, Anhui and Beijing.\n\nA township tea association formed in 2016 and applied for a geographical indication. The tea won a first prize in the Qiancha Cup in 2013 and a special prize in 2016, and protection was approved on 8 December 2017.",
+  "liquor_hex": "#D0C278",
+  "leaf_hex": "#5D5F36",
+  "sources": [
+    "https://milulu.com.cn/techan/17276.html"
+  ],
+  "confidence": "medium",
+  "wikipedia_title": null,
+  "wikipedia_scope": "none",
+  "popularity": 2,
+  "images": []
+}

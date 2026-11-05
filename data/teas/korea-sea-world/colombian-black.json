@@ -3,25 +3,59 @@
   "name_en": "Colombian Black Tea (Bitaco)",
   "name_native": "Té negro de Bitaco",
   "name_romanized": "Té negro de Bitaco",
-  "aliases": ["Bitaco tea", "Té Bitaco", "Colombian tea", "Hindú tea", "Valle del Cauca tea", "Té colombiano", "Bitaco black"],
+  "aliases": [
+    "Bitaco tea",
+    "Té Bitaco",
+    "Colombian tea",
+    "Hindú tea",
+    "Valle del Cauca tea",
+    "Té colombiano",
+    "Bitaco black"
+  ],
   "category": "black",
   "origin_country": "Colombia",
   "origin_region": "Valle del Cauca · La Cumbre · Bitaco",
-  "cultivar": "Seed-grown and clonal bushes, reportedly of Indian and Sri Lankan origin, planted from the mid-twentieth century onwards",
-  "processing": "Orthodox and CTC black tea from a single high-altitude estate: hand-picked leaf withered, rolled or cut, fully oxidised and fired; the estate also makes green and a little white tea, and most of its output goes into the owner's domestic tea-bag brand.",
+  "cultivar": "Sinensis and assamica cultivars, the first plants reportedly from Sri Lanka, planted from the 1950s onwards",
+  "processing": "Orthodox tea from a single high-altitude estate: leaf withered, rolled, fully oxidised and fired. The estate gave up CTC around 2016; it also makes green, white, a little oolong and roasted green tea, the specialty line being certified organic.",
   "form": "loose",
   "harvest_season": "Plucked all year on the equator, on a cycle of a few weeks; the drier months (roughly December to March and July to August) give the brightest leaf, but there are no seasonal grades.",
-  "appearance_dry": "Dark, wiry, twisted leaves with a few golden tips in the specialty grade; small granular leaf in the tea-bag grade.",
+  "appearance_dry": "Dark, wiry, twisted leaves with a few golden tips in the specialty grade; small broken leaf in the tea-bag grade.",
   "appearance_liquor": "Bright red-amber, clear.",
   "appearance_wet": "Copper-brown, medium, even leaf.",
   "taste_profile": "Mild, soft and lightly floral with a gentle malt, a honeyed sweetness and low tannin; a clean, easy high-grown black tea that sits between a light Ceylon and a Darjeeling second flush in weight.",
-  "taste_tags": ["floral", "malty", "honey", "sweet"],
-  "brewing": {"grams": 3, "water_ml": 200, "temp_c": 95, "steeps": 2, "seconds": [180, 240], "notes": "Western style, three minutes, no milk needed; the whole-leaf specialty grade can be steeped shorter and resteeped once or twice."},
+  "taste_tags": [
+    "floral",
+    "malty",
+    "honey",
+    "sweet"
+  ],
+  "brewing": {
+    "grams": 3,
+    "water_ml": 200,
+    "temp_c": 95,
+    "steeps": 2,
+    "seconds": [
+      180,
+      240
+    ],
+    "notes": "Western style, three minutes, no milk needed; the whole-leaf specialty grade can be steeped shorter and resteeped once or twice."
+  },
   "caffeine_level": "medium",
   "vintage_note": "Sold year-round under the estate's domestic brand (Hindú) in tea bags across Colombia, and as 'Bitaco' specialty loose leaf in small packs from the estate and a few export partners; neither is dated by harvest, since the equatorial estate picks continuously. Buy the loose specialty grade and use it within a year or two.",
-  "description": "Colombia is coffee country, and its one tea estate is a curiosity most Colombians have never heard of, even though many of them drink its tea. Bitaco is a plantation in the cloud forest above La Cumbre in Valle del Cauca, at around 1,800 to 2,000 metres, owned by Agrícola Himalaya, the company behind the Hindú tea-bag brand that sits on supermarket shelves across the country. The gardens were planted around the middle of the twentieth century, reportedly with Indian and Sri Lankan material, and have been expanded and modernised since.\n\nThe estate picks by hand all year, as the equatorial climate allows, and makes orthodox and CTC black tea, plus green and a little white tea, in its own factory. Most of the volume goes into the domestic tea bags; a smaller specialty line, sold under the Bitaco name, is where the whole-leaf teas end up, and it is this line that has reached specialty shops abroad over the last decade.\n\nThe black tea is high-grown and tastes it: mild, soft and lightly floral, with gentle malt, honeyed sweetness and low tannin, nearer to a light Ceylon or a Darjeeling second flush than to anything heavy. It is clean and easy, brews well Western-style without milk, and the whole-leaf grade takes a second steep. It is not a tea of great depth, but it is a well-made one from a place nobody expects.\n\nIn Colombia you will meet it as Hindú tea bags; the thing to buy is the Bitaco loose leaf, from the estate's shop, Colombian specialty retailers or the few importers who carry it. There are no fakes and no vintages, only the choice between the bag grade and the specialty grade.\n\nIf you collect single-estate teas from unexpected places, Bitaco belongs on the shelf beside Gorreana from the Azores and Charleston from South Carolina; and the natural comparison in the cup is a mid-grown Ceylon.",
+  "description": "Colombia is coffee country, and its one tea estate is a curiosity most Colombians have never heard of, even though many of them drink its tea. Bitaco is a plantation in the cloud forest above La Cumbre in Valle del Cauca, at around 1,800 to 2,050 metres, owned by Agrícola Himalaya, the company behind the Hindú tea-bag brand that sits on supermarket shelves across the country. The gardens were planted from the 1950s, the first plants reportedly of Sri Lankan origin, and have been expanded and modernised since.\n\nThe estate makes orthodox black tea, plus green, white and a little oolong, in its own factory; it made CTC too until around 2016. The Hindú brand is the mass-market line; a specialty line, organic and sold under the Bitaco name, is where the whole-leaf teas end up, and it is this line that has reached specialty shops abroad over the last decade.\n\nThe black tea is high-grown and tastes it: mild, soft and lightly floral, with gentle malt, honeyed sweetness and low tannin, nearer to a light Ceylon or a Darjeeling second flush than to anything heavy. It is clean and easy, brews well Western-style without milk, and the whole-leaf grade takes a second steep. It is not a tea of great depth, but it is a well-made one from a place nobody expects.\n\nIn Colombia you will meet it as Hindú tea bags; the thing to buy is the Bitaco loose leaf, from the estate's shop, Colombian specialty retailers or the few importers who carry it. There are no fakes and no vintages, only the choice between the bag grade and the specialty grade.\n\nIf you collect single-estate teas from unexpected places, Bitaco belongs on the shelf beside Gorreana from the Azores and Charleston from South Carolina; and the natural comparison in the cup is a mid-grown Ceylon.",
   "wikipedia_title": "Black tea",
   "wikipedia_scope": "umbrella",
   "popularity": 1,
-  "sources_note": "No Wikipedia article for Bitaco or Colombian tea was found; 'Black tea' is used as the generic umbrella. Planting decade (1960s), altitude and the origin of the plant material are from the estate's own history and press coverage and should be checked. Ecuador's small tea industry (Sangay) was considered and omitted for lack of confidence."
+  "sources_note": "No Wikipedia article for Bitaco or Colombian tea was found; 'Black tea' is used as the generic umbrella. Planting decade (1960s), altitude and the origin of the plant material are from the estate's own history and press coverage and should be checked. Ecuador's small tea industry (Sangay) was considered and omitted for lack of confidence.",
+  "name_zh": "哥伦比亚比塔科红茶",
+  "name_ru": "Колумбийский чёрный чай Битако",
+  "history": "Colombian tea begins with a farm policy: in 1946 the agriculture office of Valle del Cauca brought in tea plants, reportedly the first from Sri Lanka. In the 1950s Joaquín Llano González and his son Alberto Llano Buenaventura became the first commercial growers, at their farms in Bitaco. Alberto studied tea processing in Peru, made his first finished tea in 1954 and sold it as Té La Sofía; the Hindú brand of broken-leaf tea bags followed in 1960.\n\nAfter his death in 1982 the family re-formed the business as Agrícola Himalaya in 1984, and Hindú became the leading tea brand in Colombia. Later came UTZ certification in 2011, a turn to organic, fine-plucked tea under the Bitaco name from 2013, and an end to CTC at the estate around 2016.\n\nThe farm is small, about 62 hectares at 1,800 to 2,050 metres, and black loose leaf is the bulk of what it makes.",
+  "liquor_hex": "#B4622A",
+  "leaf_hex": "#3A2A1E",
+  "sources": [
+    "https://teajourney.pub/cultivating-tea-in-colombia/",
+    "https://www.larepublica.co/empresas/agricola-himalaya-vendera-te-en-republica-checa-rusia-y-mexico-este-ano-2848470"
+  ],
+  "confidence": "medium",
+  "images": []
 }

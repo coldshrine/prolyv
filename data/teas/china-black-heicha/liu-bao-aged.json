@@ -3,7 +3,14 @@
   "name_en": "Aged Liu Bao",
   "name_native": "陈年六堡茶",
   "name_romanized": "Chénnián Liùbǎo Chá",
-  "aliases": ["Old Liu Bao", "Lao Liu Bao", "Vintage Liubao", "Malaysian Liu Bao", "Chen Nian Liu Bao", "Nanyang Liu Bao"],
+  "aliases": [
+    "Old Liu Bao",
+    "Lao Liu Bao",
+    "Vintage Liubao",
+    "Malaysian Liu Bao",
+    "Chen Nian Liu Bao",
+    "Nanyang Liu Bao"
+  ],
   "category": "heicha",
   "origin_country": "China",
   "origin_region": "Guangxi · Wuzhou · Cangwu",
@@ -15,13 +22,47 @@
   "appearance_liquor": "Deep ruby-brown, thick and clear, almost opaque in early steeps.",
   "appearance_wet": "Very dark, soft, slightly brittle leaves with no greenness at all.",
   "taste_profile": "Smooth and thick with aged wood, ginseng and camphor, dried tangerine peel and betel nut, a deep sweetness and a long, warming finish with no bitterness or pile taste.",
-  "taste_tags": ["woody", "medicinal", "camphor", "sweet", "earthy"],
-  "brewing": {"grams": 8, "water_ml": 120, "temp_c": 100, "steeps": 10, "seconds": [15, 10, 15, 20, 30, 45, 60, 90, 120, 180], "notes": "Two rinses, boiling water, a clay pot if you have one; aged leaf likes a longer first steep to wake up. Simmer the spent leaves for ten minutes for a final, very thick pot."},
+  "taste_tags": [
+    "woody",
+    "medicinal",
+    "camphor",
+    "sweet",
+    "earthy"
+  ],
+  "brewing": {
+    "grams": 8,
+    "water_ml": 120,
+    "temp_c": 100,
+    "steeps": 10,
+    "seconds": [
+      15,
+      10,
+      15,
+      20,
+      30,
+      45,
+      60,
+      90,
+      120,
+      180
+    ],
+    "notes": "Two rinses, boiling water, a clay pot if you have one; aged leaf likes a longer first steep to wake up. Simmer the spent leaves for ten minutes for a final, very thick pot."
+  },
   "caffeine_level": "low",
   "vintage_note": "Sold by stated age or production decade rather than exact year, usually with the storage location (Wuzhou warehouse, Guangdong, Hong Kong or Malaysia) named. 'Aged' in the trade means roughly ten years and up; most of what is realistically on sale is from the late 1990s to the 2000s, with 1980s and older baskets priced as collectables and often unverifiable.",
-  "description": "Aged Liu Bao is what the Guangxi dark tea turns into after a decade or more in a warehouse, and it is the reason people bother with the young stuff. The export trade left a lot of it lying around: baskets shipped to Malaysia and Hong Kong for the restaurant and mining-town trade, factory back stock in Wuzhou, and tea that Cantonese merchants sat on for years. From the 2000s, as pu-erh prices climbed, some of that old tea came back to the Chinese market and gave Liu Bao a vintage culture of its own.\n\nNothing is done to it except storage. The piling at the factory gives the tea its dark base; years in a breathing bamboo basket in a warm, humid place do the rest, slowly turning the woody, jujube-sweet young tea into something deeper. Southern storage (Malaysia, Hong Kong, Guangdong) moves it faster and softer; Wuzhou warehouse storage is a little slower and drier; both are legitimate, and a good seller will say which.\n\nIn the cup an aged Liu Bao is thick and smooth, with old wood, ginseng and camphor, dried tangerine peel, the betel-nut note turned mellow, and a sweetness that keeps coming back; there is no pile taste and no bitterness, and the liquor is nearly black. Brew it hot and generously after two rinses, give the first steep a little longer than usual, and finish by simmering the leaves. It is a winter tea and an after-dinner tea.\n\nBuying is where care is needed. Age claims are rarely provable, so judge the cup and the storage: clean, dry-smelling leaf and a sweet, clear liquor are good; mustiness, sourness or a flat, dusty taste mean bad storage, however old the basket is. Beware heavily piled young tea sold as 'aged' – it is dark but thin and has no length. Prices rise steeply with claimed age; a well-stored lot from the 2000s is the sensible buy, and anything claiming the 1970s should come with a very good story and a sample.\n\nIf you have had aged ripe pu-erh and found it heavy, this is the lighter, more herbal version of the same idea.",
+  "description": "Aged Liu Bao is what the Guangxi dark tea turns into after a decade or more in a warehouse, and it is the reason people bother with the young stuff. Liu Bao was an export tea for overseas Chinese, so old stock sits in many places: baskets and boxes shipped to Malaysia and Hong Kong, factory back stock in Wuzhou, and tea that merchants held for years. Collectors now chase named factory lots from the 1970s to the 1990s, and Liu Bao has a vintage culture of its own.\n\nNothing is done to it except storage. The piling at the factory gives the tea its dark base; years in a breathing bamboo basket do the rest, slowly turning the woody, jujube-sweet young tea into something deeper. Humidity and temperature set the pace. Warm, humid southern storage (Malaysia, Hong Kong, Guangdong) is generally said to move it faster and softer, and Wuzhou warehouse storage a little slower and drier. A good seller will say where the tea has been.\n\nIn the cup an aged Liu Bao is thick and smooth, with old wood, ginseng and camphor, dried tangerine peel, the betel-nut note turned mellow, and a sweetness that keeps coming back; there is no pile taste and no bitterness, and the liquor is nearly black. Brew it hot and generously after two rinses, give the first steep a little longer than usual, and finish by simmering the leaves. It is a winter tea and an after-dinner tea.\n\nBuying is where care is needed. Age claims are rarely provable, so judge the cup and the storage: clean, dry-smelling leaf and a sweet, clear liquor are good; mustiness, sourness or a flat, dusty taste mean bad storage, however old the basket is. Beware heavily piled young tea sold as 'aged': it is dark but thin and has no length. Prices rise steeply with claimed age; a well-stored lot from the 2000s is the sensible buy, and anything claiming the 1970s should come with a very good story and a sample.\n\nIf you have had aged ripe pu-erh and found it heavy, this is the lighter, more herbal version of the same idea.",
   "wikipedia_title": "Fermented tea",
   "wikipedia_scope": "umbrella",
   "popularity": 3,
-  "sources_note": "Storage-history generalisations (Malaysia, Hong Kong, Wuzhou) follow trade accounts; age claims on old Liu Bao are notoriously hard to verify and the card says so."
+  "sources_note": "Storage-history generalisations (Malaysia, Hong Kong, Wuzhou) follow trade accounts; age claims on old Liu Bao are notoriously hard to verify and the card says so.",
+  "name_zh": "陈年六堡茶",
+  "name_ru": "Выдержанный Лю Бао",
+  "history": "Liu Bao has long been an export tea, sold through Hong Kong to Southeast Asia, so old stock tends to surface far from Wuzhou. Factory packs made for the Malaysian market in the 1960s and 70s are among the lots collectors name.\n\nThe modern vintage market rests on factory tea: the cold-water pile dates from 1958, and named lots from the 1990s, such as a late 1990s batch known as 'Tea King', trade at very high prices. How old a given tea really is often cannot be proven, and little is documented about storage houses abroad.",
+  "liquor_hex": "#4A1A10",
+  "leaf_hex": "#2A1C14",
+  "sources": [
+    "https://www.jiemian.com/article/1594587.html"
+  ],
+  "confidence": "low",
+  "images": []
 }

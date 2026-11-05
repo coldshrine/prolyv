@@ -1,0 +1,55 @@
+{
+  "slug": "chikugo-cha",
+  "name_en": "Chikugo-cha",
+  "name_native": "筑後茶",
+  "name_romanized": "Chikugo-cha",
+  "name_zh": "筑后茶",
+  "name_ru": "Тикуго-тя",
+  "aliases": [
+    "Chikugo tea",
+    "筑後茶"
+  ],
+  "category": "green",
+  "origin_country": "Japan",
+  "origin_region": "Fukuoka · Chikugo",
+  "cultivar": null,
+  "processing": "A regional umbrella covering several styles: shaded gyokuro and kabusecha, sencha, and steamed tamaryokucha, all steamed green teas with different shading and rolling.",
+  "form": "loose",
+  "harvest_season": "Spring is the main picking, as usual for Japanese green tea; gyokuro is covered before its spring harvest.",
+  "appearance_dry": "Varies by style, from glossy deep green gyokuro needles to rounder, curled tamaryokucha.",
+  "appearance_liquor": "Pale yellow-green to deeper green-gold, depending on the style.",
+  "appearance_wet": "Tender green leaf, softer and more whole in the shaded and hand-picked lots.",
+  "taste_profile": "Depends on the style. The area's reputation rests on its shaded teas, which are rich in umami and mellow with little astringency.",
+  "taste_tags": [
+    "umami",
+    "vegetal",
+    "sweet"
+  ],
+  "brewing": {
+    "grams": 5,
+    "water_ml": 150,
+    "temp_c": 70,
+    "steeps": 3,
+    "seconds": [
+      60,
+      20,
+      40
+    ],
+    "notes": "A middle setting for sencha and kabusecha. Go much cooler for gyokuro, around 50 to 60 C, with less water."
+  },
+  "caffeine_level": "medium",
+  "vintage_note": "Sold by style and harvest year, as current-year tea; shaded and first-flush lots cost the most.",
+  "description": "Chikugo-cha is an old-province name more than a single tea: it is listed alongside Hoshino, Kurogi and Kasahara teas in the Fukuoka tea area now usually known as Yame.\n\nThe range is broad. The former Kurogi town and Hoshino village are among Japan's top gyokuro areas, while the wider region also makes sencha, kabusecha and steamed tamaryokucha. Shading, picking and rolling account for the difference in the cup.\n\nWarm weather, big swings between day and night, heavy rain and frequent fog are credited for suiting the plant here. Gyokuro and kabusecha bring umami and soft sweetness, and sencha is fresher and more vegetal. Brew according to the style, not the region.\n\nWhen buying, look for the village and the style. If you want the area's signature, try a Yame gyokuro first.",
+  "history": "By tradition, tea here began in 1423, when the monk Eirin Shūzui returned from Ming China with seed and settled at a village in Chikugo Province, today Kasahara in Kurogi. Reigan-ji temple, built with a local headman's help, is known as the birthplace of Yame tea.\n\nThe Meiji era brought a move from pan-fired to steamed green tea.",
+  "liquor_hex": "#D2CE7E",
+  "leaf_hex": "#3F5A2C",
+  "sources": [
+    "https://ja.wikipedia.org/wiki/%E6%97%A5%E6%9C%AC%E8%8C%B6",
+    "https://www.crossroadfukuoka.jp/feature/yame_tea"
+  ],
+  "confidence": "medium",
+  "wikipedia_title": "日本茶",
+  "wikipedia_scope": "umbrella",
+  "popularity": 2,
+  "images": []
+}

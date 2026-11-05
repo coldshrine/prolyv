@@ -3,11 +3,18 @@
   "name_en": "Jasmine Silver Needle (Mo Li Yin Zhen)",
   "name_native": "茉莉银针",
   "name_romanized": "Mòlì Yínzhēn",
-  "aliases": ["Jasmine Yin Zhen", "Mo Li Yin Zhen", "Jasmine Needle", "Jasmine White Needle", "Mo Li Zhen Wang", "Jasmine Yin Hao"],
+  "aliases": [
+    "Jasmine Yin Zhen",
+    "Mo Li Yin Zhen",
+    "Jasmine Needle",
+    "Jasmine White Needle",
+    "Mo Li Zhen Wang",
+    "Jasmine Yin Hao"
+  ],
   "category": "white",
   "origin_country": "China",
-  "origin_region": "Fujian · Fuding and Fuzhou (also Guangxi · Hengzhou)",
-  "cultivar": "Fuding Dabai and Fuding Dahao buds; Jasminum sambac for scenting",
+  "origin_region": "Fujian · Fuding",
+  "cultivar": "Fuding Dabai and Fuding Dahao buds, with some lots from Yunnan; Jasminum sambac for scenting",
   "processing": "Spring buds, either true withered-and-dried Silver Needle or a bud tea given a light firing and drying in the green manner, are scented in summer by layering with fresh jasmine overnight, sifting out the spent flowers and re-drying, repeated five to seven times or more.",
   "form": "loose",
   "harvest_season": "Buds picked in late March and April; scented in July and August; new-season tea from autumn.",
@@ -15,13 +22,42 @@
   "appearance_liquor": "Pale gold, clear.",
   "appearance_wet": "Fat pale buds, still downy, smelling intensely of jasmine.",
   "taste_profile": "Creamy, honeyed jasmine over a soft, sweet, melon-like bud base, with a velvety texture and a long cool floral finish; the most refined of the jasmine teas.",
-  "taste_tags": ["floral", "creamy", "sweet", "honey"],
-  "brewing": {"grams": 5, "water_ml": 120, "temp_c": 85, "steeps": 5, "seconds": [45, 30, 45, 60, 90], "notes": "Gaiwan at 80–85 °C with a longer first steep, as buds release slowly. No rinse. Also lovely in a tall glass topped up through the day."},
+  "taste_tags": [
+    "floral",
+    "creamy",
+    "sweet",
+    "honey"
+  ],
+  "brewing": {
+    "grams": 5,
+    "water_ml": 120,
+    "temp_c": 85,
+    "steeps": 5,
+    "seconds": [
+      45,
+      30,
+      45,
+      60,
+      90
+    ],
+    "notes": "Gaiwan at 80–85 °C with a longer first steep, as buds release slowly. No rinse. Also lovely in a tall glass topped up through the day."
+  },
   "caffeine_level": "medium",
   "vintage_note": "Sold from autumn as the new season's scenting, with the buds from the same spring; best within a year, acceptable for two in a sealed tin. Grades depend on bud size and the number of scenting rounds. The base can be a true white Silver Needle or a green-processed bud tea; both are sold under the name, so ask which. It is the most expensive of the jasmine teas.",
   "description": "Jasmine Silver Needle is the luxury end of jasmine tea: fat spring buds from the downy Dabai and Dahao bushes of Fuding, scented repeatedly with fresh jasmine in summer until the flower sits inside the bud. It is the tea to give someone who thinks jasmine tea is cheap restaurant tea.\n\nTwo kinds hide under the name, and it is worth knowing which you are buying. The classic Fuzhou-style version uses buds given a light firing and drying, a green-tea base in bud form, because a fired bud takes scent cleanly; the newer version uses true withered Silver Needle, a white tea, which gives a softer, more honeyed base. Either way the scenting is the same craft: the buds are layered with jasmine picked that day, left overnight as the flowers open, sifted, re-dried, and the cycle is repeated five to seven times or more. Good tea has almost no flowers left in it.\n\nIn the cup it is creamy, honeyed jasmine over a melon-sweet bud base, with the velvety texture that bud down gives and a long cool floral finish, and it is the jasmine tea that lasts: five steeps from a gaiwan at 80–85 °C, with a long first steep because buds float and release slowly. Do not rinse it, and do not use boiling water, which turns the flower harsh.\n\nIt is sold from autumn as the new season's scenting, best within a year, and it is priced like the Silver Needle it is made from plus the weeks of scenting on top. Grades go by bud size, down and scenting rounds; 'Zhen Wang' (needle king) is the usual top label. Ask whether the base is white or green, how many rounds, and whether any jasmine essence was used; a sprayed tea smells loud and dies in two cups.\n\nTaste it beside an unscented Silver Needle from the same spring to see exactly what the flower added, and what it covered.",
   "wikipedia_title": "Jasmine tea",
   "wikipedia_scope": "umbrella",
   "popularity": 3,
-  "sources_note": "Filed as white because that is how it is sold, but many lots use a green-processed bud base, as the card explains."
+  "sources_note": "Filed as white because that is how it is sold, but many lots use a green-processed bud base, as the card explains.",
+  "name_zh": "茉莉银针",
+  "name_ru": "Мо Ли Инь Чжэнь",
+  "history": "Jasmine Silver Needle has little documented history of its own. It is best understood as a luxury product of the Fuzhou scenting tradition applied to large downy buds, and there is no clear record of who first made it or when.\n\nThe tradition behind it is better recorded. Chinese heritage records describe jasmine tea in Fuzhou as appearing in the Northern Song, its scenting method settling in the Ming and the tea reaching the court in the Qing. Fuzhou scenting joined the national heritage list in 2014. Those records name a needle-grade jasmine, 'Zhen Wang', among the Fuzhou types.\n\nThe name covers different teas today: buds from Fuding bushes, some sellers using withered white needles, and at least one using Yunnan buds scented in Guangxi.",
+  "liquor_hex": "#EADB9E",
+  "leaf_hex": "#CFCDB0",
+  "sources": [
+    "https://www.ihchina.cn/project_details/14604.html",
+    "https://jingtea.com/jasmine-silver-needle"
+  ],
+  "confidence": "medium",
+  "images": []
 }

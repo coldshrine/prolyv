@@ -1,0 +1,60 @@
+{
+  "slug": "brown-rice-tea",
+  "name_en": "Brown Rice Tea (Hyeonmi-cha)",
+  "name_native": "현미차",
+  "name_romanized": "Hyeonmi-cha",
+  "name_zh": "糙米茶",
+  "name_ru": "Чай из бурого риса (хёнми-чха)",
+  "aliases": [
+    "Hyeonmi-cha",
+    "Хёнмичха",
+    "Хёнми-чха",
+    "Nước gạo lứt",
+    "Nước gạo rang",
+    "玄米茶"
+  ],
+  "category": "tisane",
+  "origin_country": "South Korea",
+  "origin_region": "South Korea",
+  "cultivar": null,
+  "processing": "Brown rice, typically japonica in Korea, is washed, soaked, roasted in a dry pan until yellow, cooled, then simmered or infused in boiling water.",
+  "form": "other",
+  "harvest_season": "Not seasonal: it is made year-round from stored rice, and pre-roasted rice is sold ready to use.",
+  "appearance_dry": "Whole roasted brown rice grains in tan to golden brown.",
+  "appearance_liquor": "Pale yellow to light golden brown and clear.",
+  "appearance_wet": "Swollen, soft tan grains, often strained out before serving.",
+  "taste_profile": "Toasty and gently nutty, with a grain sweetness typical of roasted rice drinks and no astringency.",
+  "taste_tags": [
+    "roasted",
+    "nutty",
+    "sweet"
+  ],
+  "brewing": {
+    "grams": 50,
+    "water_ml": 600,
+    "temp_c": 100,
+    "steeps": 1,
+    "seconds": [
+      420
+    ],
+    "notes": "Add the rice to boiling water and simmer 5 to 10 minutes, then strain if you like. Sugar or honey is optional."
+  },
+  "caffeine_level": "none",
+  "vintage_note": "Sold without years or harvest grades, as pre-roasted rice in Korean groceries, traditional markets and supermarkets, and in commercial blends. As usual for roasted grain, the freshest pack has the best aroma. Do not mistake it for genmaicha or hyeonmi-nokcha, which contain green tea and caffeine.",
+  "description": "Hyeonmi-cha is Korea's roasted brown rice infusion: rice, heat and water, with no tea plant involved. It sits with bori-cha, memil-cha and oksusu-cha, the same idea made with barley, buckwheat and corn.\n\nThe roast does everything. The grains are washed, soaked and dry-roasted until yellow, then cooled. Home cooks can do this in a dry pan, or buy the rice ready roasted.\n\nA proper cup comes from simmering rather than a quick steep: about 50 g of rice in 600 ml of boiling water for five to ten minutes. It comes out pale gold, nutty and comforting, and a little sugar or honey is common but optional.\n\nIn Korean shops it comes in several forms, including blends with scorched rice or green tea. Hyeonmi-nokcha, blended with green tea, is the Korean cousin of Japanese genmaicha, and the two names are cognates, so check the label if you want it caffeine-free.\n\nFor the same family with a softer texture, try sungnyung, where water goes straight onto the scorched crust left in the rice pot and the grains are eaten with the liquid.",
+  "history": "Little is documented about when the drink first appeared; it is counted among the traditional Korean grain teas, and Vietnam has a parallel drink called nước gạo lứt.\n\nCommercial production has widened the range in South Korea, where versions now come slightly altered or blended with scorched rice, green tea and other teas.",
+  "liquor_hex": "#D2A95A",
+  "leaf_hex": "#A97F45",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Brown_rice_tea",
+    "https://ko.wikipedia.org/wiki/%ED%98%84%EB%AF%B8%EC%B0%A8",
+    "https://ru.wikipedia.org/wiki/%D0%A5%D1%91%D0%BD%D0%BC%D0%B8%D1%87%D1%85%D0%B0",
+    "https://vi.wikipedia.org/wiki/N%C6%B0%E1%BB%9Bc_g%E1%BA%A1o_rang",
+    "https://www.wikidata.org/wiki/Q1074092"
+  ],
+  "confidence": "high",
+  "wikipedia_title": "Brown rice tea",
+  "wikipedia_scope": "exact",
+  "popularity": 3,
+  "images": []
+}

@@ -1,0 +1,56 @@
+{
+  "slug": "peach-oolong",
+  "name_en": "Peach Oolong",
+  "name_native": "蜜桃乌龙",
+  "name_romanized": "mì táo wū lóng",
+  "aliases": [],
+  "category": "oolong",
+  "origin_country": "China",
+  "origin_region": "China",
+  "cultivar": null,
+  "form": "ball",
+  "caffeine_level": "medium",
+  "brewing": {
+    "grams": 6,
+    "water_ml": 110,
+    "temp_c": 95,
+    "steeps": 6,
+    "seconds": [
+      20,
+      15,
+      20,
+      30,
+      45,
+      60
+    ],
+    "notes": "A safe starting point for oolong: gongfu style with water just off the boil."
+  },
+  "taste_tags": [
+    "fruity",
+    "floral",
+    "honey",
+    "sweet"
+  ],
+  "description": "A recently developed flavoured oolong, made of green rolled leaf blended with peach flavouring and flower petals.\n\nRecipes for a flavoured or scented tea vary from one maker to the next, so read the ingredient list and brew it like its base tea.",
+  "wikipedia_title": null,
+  "wikipedia_scope": "none",
+  "popularity": 1,
+  "name_zh": "蜜桃乌龙",
+  "name_ru": "Персиковый улун",
+  "history": "Peach is seldom used as a natural tea flavouring, since its leaves and flowers have little scent and its juicy fruit loses much of its taste on drying. Hibiscus and lilac petals are added to bring the fruit forward. Little more is documented about its origin.",
+  "liquor_hex": "#D9A441",
+  "leaf_hex": "#5E6B34",
+  "sources": [
+    "https://teahouse.ua/ru/persikovoe-ocharovanie/"
+  ],
+  "confidence": "low",
+  "images": [],
+  "stub": true,
+  "processing": "A oolong base tea flavoured or scented by the maker; the recipe varies.",
+  "harvest_season": "The base tea can come from any picking, so the season matters less than the recipe.",
+  "appearance_dry": "Irregular green rolled balls mixed with flower petals, with a scent carrying notes of lilac.",
+  "appearance_liquor": "Rich yellow, reaching amber.",
+  "appearance_wet": "Usually whole leaves that open up, often with darker edges.",
+  "taste_profile": "Full and sweetish, with honey and flowers, and a long fresh finish.",
+  "vintage_note": "Flavoured and scented teas are not sold by vintage. Buy recent stock and drink it within a year or so, since the aroma fades."
+}
