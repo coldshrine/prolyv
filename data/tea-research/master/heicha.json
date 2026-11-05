@@ -1,0 +1,2550 @@
+[
+ {
+  "slug": "heicha",
+  "en": "Heicha",
+  "zh": "黑茶",
+  "ru": "Хэй ча",
+  "native": null,
+  "aliases": [
+   "Dark Tea",
+   "Fermented tea",
+   "Fermented teas",
+   "Ja Nak",
+   "Tibetan black tea",
+   "post fermented tea",
+   "ཇ་ནག",
+   "Постферментированный чай",
+   "thé sombre"
+  ],
+  "category": "heicha",
+  "country": "China",
+  "region": null,
+  "kind": "style",
+  "tier": 1,
+  "existing_slug": null,
+  "evidence": [
+   "https://en.wikipedia.org/wiki/Fermented_tea",
+   "https://www.wikidata.org/wiki/Q115604898"
+  ]
+ },
+ {
+  "slug": "anhua-heicha",
+  "en": "Anhua Heicha",
+  "zh": "安化黑茶",
+  "ru": "Аньхуа хэй ча",
+  "native": null,
+  "aliases": [
+   "Anhua Dark Tea",
+   "Hunan Heicha",
+   "湖南黑茶"
+  ],
+  "category": "heicha",
+  "country": "China",
+  "region": "Hunan · Anhua",
+  "kind": "appellation",
+  "tier": 1,
+  "existing_slug": "anhua-heicha-overview",
+  "evidence": [
+   "https://zh.wikipedia.org/wiki/中国十大名茶",
+   "https://zh.wikipedia.org/zh-cn/黑茶",
+   "https://www.ryctea.com/newsinfo/42162.html"
+  ]
+ },
+ {
+  "slug": "hunan-hei-mao-cha",
+  "en": "Hei Mao Cha",
+  "zh": "黑毛茶",
+  "ru": "Хэй мао ча",
+  "native": null,
+  "aliases": [
+   "Hunan raw dark tea",
+   "Heimao Tea",
+   "Hunan Hei Mao Cha",
+   "湖南黑毛茶",
+   "湖南黒毛茶"
+  ],
+  "category": "heicha",
+  "country": "China",
+  "region": "Hunan · Anhua",
+  "kind": "style",
+  "tier": 2,
+  "existing_slug": null,
+  "evidence": [
+   "https://ja.wikipedia.org/wiki/黒茶",
+   "https://aboxtik.com/dark-tea/",
+   "https://m.jiemian.com/article/780057.html"
+  ]
+ },
+ {
+  "slug": "fu-zhuan",
+  "en": "Fu Zhuan",
+  "zh": "茯砖茶",
+  "ru": "Фу чжуань",
+  "native": null,
+  "aliases": [
+   "Fuzhuan",
+   "Fu Brick",
+   "Fu zhuan cha",
+   "Fuzhuan Cha",
+   "湖南茯砖茶",
+   "Hunan Fuzhuan",
+   "茯砖",
+   "Fu Cha",
+   "茯茶",
+   "Pu Tong Fu Zhuan",
+   "Ordinary Fu Brick",
+   "普通茯砖茶",
+   "Te Ji Fu Zhuan",
+   "特级茯砖茶"
+  ],
+  "category": "heicha",
+  "country": "China",
+  "region": "Hunan · Anhua",
+  "kind": "style",
+  "tier": 1,
+  "existing_slug": "fu-zhuan",
+  "evidence": [
+   "https://zh.wikipedia.org/zh-cn/黑茶",
+   "https://en.wikipedia.org/wiki/List_of_Chinese_teas",
+   "https://www.wikidata.org/wiki/Q56345482"
+  ]
+ },
+ {
+  "slug": "hand-built-fu-zhuan",
+  "en": "Hand-Built Fu Zhuan",
+  "zh": "手筑茯砖茶",
+  "ru": "Шоу чжу фу чжуань",
+  "native": null,
+  "aliases": [],
+  "category": "heicha",
+  "country": "China",
+  "region": "Hunan · Anhua",
+  "kind": "style",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://www.cnpp.cn/china/2026/list_12993.html"
+  ]
+ },
+ {
+  "slug": "tian-fu-cha",
+  "en": "Tian Fu Cha",
+  "zh": "天茯茶",
+  "ru": "Тянь фу ча",
+  "native": null,
+  "aliases": [
+   "Tianfu"
+  ],
+  "category": "heicha",
+  "country": "China",
+  "region": "Hunan · Anhua",
+  "kind": "variety",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://thetea.ua/ru/chay/chervonyy-chay/f/vyd-chervonyy-chay=khey-cha",
+   "https://www.cnpp.cn/china/2026/list_12993.html"
+  ]
+ },
+ {
+  "slug": "tian-jian-fu-zhuan",
+  "en": "Tian Jian Fu Brick",
+  "zh": null,
+  "ru": "Тянь цзянь фу чжуань",
+  "native": null,
+  "aliases": [],
+  "category": "heicha",
+  "country": "China",
+  "region": "Hunan · Anhua",
+  "kind": "style",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://yunnansourcing.com/collections/hei-cha/products.json?limit=250"
+  ]
+ },
+ {
+  "slug": "yu-pin-fu-cha",
+  "en": "Yu Pin Fu Cha",
+  "zh": null,
+  "ru": "Юй пинь фу ча",
+  "native": null,
+  "aliases": [],
+  "category": "heicha",
+  "country": "China",
+  "region": null,
+  "kind": "variety",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://thetea.ua/ru/chay/chervonyy-chay/f/vyd-chervonyy-chay=khey-cha"
+  ]
+ },
+ {
+  "slug": "hei-zhuan",
+  "en": "Hei Zhuan",
+  "zh": "黑砖茶",
+  "ru": "Хэй чжуань",
+  "native": null,
+  "aliases": [
+   "Black Brick",
+   "Hei Zhuan Cha",
+   "Hunan Hei Zhuan",
+   "黑砖",
+   "Ba Zi",
+   "八子"
+  ],
+  "category": "heicha",
+  "country": "China",
+  "region": "Hunan · Anhua",
+  "kind": "style",
+  "tier": 2,
+  "existing_slug": "hei-zhuan",
+  "evidence": [
+   "https://zh.wikipedia.org/zh-cn/黑茶",
+   "https://www.wyxgc.com/sj1/new1.asp?news_id=508",
+   "https://www.sohu.com/a/250505949_652366"
+  ]
+ },
+ {
+  "slug": "hua-zhuan",
+  "en": "Hua Zhuan",
+  "zh": "花砖茶",
+  "ru": "Хуа чжуань",
+  "native": null,
+  "aliases": [
+   "Flower Brick",
+   "Hua Zhuan Cha",
+   "Hunan Hua Zhuan",
+   "花砖"
+  ],
+  "category": "heicha",
+  "country": "China",
+  "region": "Hunan · Anhua",
+  "kind": "style",
+  "tier": 2,
+  "existing_slug": "hua-zhuan",
+  "evidence": [
+   "https://zh.wikipedia.org/zh-cn/黑茶",
+   "https://www.wyxgc.com/sj1/new1.asp?news_id=508",
+   "https://www.chawangshop.com/29-hunan-hei-cha"
+  ]
+ },
+ {
+  "slug": "qing-hua-zhuan",
+  "en": "Qing Hua Zhuan",
+  "zh": "青花砖",
+  "ru": "Цин хуа чжуань",
+  "native": null,
+  "aliases": [],
+  "category": "heicha",
+  "country": "China",
+  "region": "Hunan",
+  "kind": "variety",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://zh.wikipedia.org/zh-cn/砖茶"
+  ]
+ },
+ {
+  "slug": "qian-liang-cha",
+  "en": "Qian Liang Cha",
+  "zh": "千两茶",
+  "ru": "Цянь лян ча",
+  "native": null,
+  "aliases": [
+   "Hunan Qian Liang",
+   "Qianliang Cha",
+   "Thousand Tael Tea",
+   "Anhua Qianliang Cha",
+   "安化千两茶"
+  ],
+  "category": "heicha",
+  "country": "China",
+  "region": "Hunan · Anhua",
+  "kind": "style",
+  "tier": 1,
+  "existing_slug": "qian-liang-cha",
+  "evidence": [
+   "https://zh.wikipedia.org/zh-cn/黑茶",
+   "https://thetea.ua/ru/chay/chervonyy-chay/f/vyd-chervonyy-chay=khey-cha",
+   "https://www.ryctea.com/newsinfo/42162.html"
+  ]
+ },
+ {
+  "slug": "qian-liang-bing",
+  "en": "Qian Liang Bing",
+  "zh": "千两饼",
+  "ru": "Цянь лян бин",
+  "native": null,
+  "aliases": [
+   "Thousand Tael Cake"
+  ],
+  "category": "heicha",
+  "country": "China",
+  "region": "Hunan · Anhua",
+  "kind": "style",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://thetea.ua/ru/chay/chervonyy-chay/f/vyd-chervonyy-chay=khey-cha"
+  ]
+ },
+ {
+  "slug": "bai-liang-cha",
+  "en": "Bai Liang Cha",
+  "zh": "百两茶",
+  "ru": "Бай лян ча",
+  "native": null,
+  "aliases": [
+   "Hundred Tael"
+  ],
+  "category": "heicha",
+  "country": "China",
+  "region": "Hunan · Anhua",
+  "kind": "variety",
+  "tier": 2,
+  "existing_slug": null,
+  "evidence": [
+   "https://www.cnpp.cn/china/2026/list_12993.html"
+  ]
+ },
+ {
+  "slug": "shi-liang-cha",
+  "en": "Shi Liang Cha",
+  "zh": "十两茶",
+  "ru": "Ши лян ча",
+  "native": null,
+  "aliases": [
+   "Hunan Shi Liang",
+   "Shiliang Tea",
+   "Ten Tael"
+  ],
+  "category": "heicha",
+  "country": "China",
+  "region": "Hunan · Anhua",
+  "kind": "style",
+  "tier": 2,
+  "existing_slug": null,
+  "evidence": [
+   "https://aboxtik.com/dark-tea/",
+   "https://yunnansourcing.com/"
+  ]
+ },
+ {
+  "slug": "hua-juan-cha",
+  "en": "Hua Juan Cha",
+  "zh": "花卷茶",
+  "ru": "Хуа цзюань ча",
+  "native": null,
+  "aliases": [
+   "Hua Juan",
+   "Flower Roll",
+   "花卷"
+  ],
+  "category": "heicha",
+  "country": "China",
+  "region": "Hunan · Anhua",
+  "kind": "style",
+  "tier": 2,
+  "existing_slug": null,
+  "evidence": [
+   "https://www.sohu.com/a/250505949_652366"
+  ]
+ },
+ {
+  "slug": "tian-jian",
+  "en": "Tian Jian",
+  "zh": "天尖茶",
+  "ru": "Тянь цзянь",
+  "native": null,
+  "aliases": [
+   "Hunan Tian Jian",
+   "Hunan Tianjian",
+   "天尖",
+   "Basket Tian Jian"
+  ],
+  "category": "heicha",
+  "country": "China",
+  "region": "Hunan · Anhua",
+  "kind": "variety",
+  "tier": 2,
+  "existing_slug": "tian-jian",
+  "evidence": [
+   "https://zh.wikipedia.org/zh-cn/黑茶",
+   "https://thetea.ua/ru/chay/chervonyy-chay/f/vyd-chervonyy-chay=khey-cha",
+   "https://www.chawangshop.com/29-hunan-hei-cha"
+  ]
+ },
+ {
+  "slug": "gong-jian",
+  "en": "Gong Jian",
+  "zh": "贡尖茶",
+  "ru": "Гун цзянь",
+  "native": null,
+  "aliases": [
+   "贡尖"
+  ],
+  "category": "heicha",
+  "country": "China",
+  "region": "Hunan · Anhua",
+  "kind": "variety",
+  "tier": 2,
+  "existing_slug": "gong-jian",
+  "evidence": [
+   "https://zh.wikipedia.org/zh-cn/黑茶"
+  ]
+ },
+ {
+  "slug": "sheng-jian",
+  "en": "Sheng Jian",
+  "zh": "生尖茶",
+  "ru": "Шэн цзянь",
+  "native": null,
+  "aliases": [],
+  "category": "heicha",
+  "country": "China",
+  "region": "Hunan · Anhua",
+  "kind": "variety",
+  "tier": 2,
+  "existing_slug": "sheng-jian",
+  "evidence": [
+   "https://zh.wikipedia.org/zh-cn/黑茶"
+  ]
+ },
+ {
+  "slug": "anhua-san-jian",
+  "en": "San Jian",
+  "zh": "三尖茶",
+  "ru": "Сань цзянь",
+  "native": null,
+  "aliases": [
+   "Hunan Sanjian",
+   "Three Tips",
+   "三尖"
+  ],
+  "category": "heicha",
+  "country": "China",
+  "region": "Hunan · Anhua",
+  "kind": "style",
+  "tier": 2,
+  "existing_slug": null,
+  "evidence": [
+   "https://teaseek.blogspot.com/2026/01/do-you-know-about-chinas-seven-major.html"
+  ]
+ },
+ {
+  "slug": "bamboo-aroma-tian-jian",
+  "en": "Bamboo Aroma Tian Jian",
+  "zh": null,
+  "ru": "Тянь цзянь с ароматом бамбука",
+  "native": null,
+  "aliases": [],
+  "category": "heicha",
+  "country": "China",
+  "region": "Hunan · Anhua",
+  "kind": "style",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://www.yunnansourcing.com/products.json?limit=250&page=1"
+  ]
+ },
+ {
+  "slug": "tian-jian-dragon-ball",
+  "en": "Tian Jian Dragon Ball",
+  "zh": "天尖龙珠",
+  "ru": "Тянь цзянь лун чжу",
+  "native": null,
+  "aliases": [],
+  "category": "heicha",
+  "country": "China",
+  "region": "Hunan · Anhua",
+  "kind": "style",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://www.yunnansourcing.com/products.json?limit=250&page=1"
+  ]
+ },
+ {
+  "slug": "qujiang-bo-pian",
+  "en": "Qujiang Bo Pian",
+  "zh": "渠江薄片",
+  "ru": "Цюйцзян бо пянь",
+  "native": null,
+  "aliases": [
+   "Qu Jiang Bo Pian",
+   "Anhua Qujiang Thin Slice",
+   "Qujiang Bopian"
+  ],
+  "category": "heicha",
+  "country": "China",
+  "region": "Hunan · Anhua",
+  "kind": "variety",
+  "tier": 2,
+  "existing_slug": null,
+  "evidence": [
+   "https://m.jiemian.com/article/780057.html",
+   "https://www.wyxgc.com/sj1/new1.asp?news_id=508"
+  ]
+ },
+ {
+  "slug": "zhang-liang-bo-pian",
+  "en": "Zhang Liang Bo Pian",
+  "zh": "张良薄片",
+  "ru": "Чжан Лян бо пянь",
+  "native": null,
+  "aliases": [],
+  "category": "heicha",
+  "country": "China",
+  "region": "Hunan · Anhua",
+  "kind": "variety",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://m.jiemian.com/article/780057.html"
+  ]
+ },
+ {
+  "slug": "anhua-da-ye-zhong",
+  "en": "Anhua Da Ye Zhong",
+  "zh": "安化大叶种",
+  "ru": "Аньхуа да е чжун",
+  "native": null,
+  "aliases": [],
+  "category": "heicha",
+  "country": "China",
+  "region": "Hunan · Anhua",
+  "kind": "cultivar",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://www.ichabaike.com/chashu/anhuadayezhong/"
+  ]
+ },
+ {
+  "slug": "linxiang-heicha",
+  "en": "Linxiang Heicha",
+  "zh": "临湘黑茶",
+  "ru": "Линьсян хэй ча",
+  "native": null,
+  "aliases": [],
+  "category": "heicha",
+  "country": "China",
+  "region": "Hunan · Yueyang Linxiang",
+  "kind": "appellation",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://www.hunan.gov.cn/topic/2020hnjksc/jkscwzewm/202412/t20241223_33533711.html"
+  ]
+ },
+ {
+  "slug": "chaling-hei-shu-cha",
+  "en": "Chaling Hei Shu Cha",
+  "zh": null,
+  "ru": "Чалин хэй шу ча",
+  "native": null,
+  "aliases": [],
+  "category": "heicha",
+  "country": "China",
+  "region": "Hunan · Chaling",
+  "kind": "variety",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://moychay.nl/en-ch/collections/hei-cha"
+  ]
+ },
+ {
+  "slug": "hunan-qing-zhuan",
+  "en": "Hunan Qing Zhuan",
+  "zh": "湖南青砖",
+  "ru": "Хунань цин чжуань",
+  "native": null,
+  "aliases": [
+   "Bai Sha Xi 9101"
+  ],
+  "category": "heicha",
+  "country": "China",
+  "region": "Hunan · Anhua",
+  "kind": "style",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://yunnansourcing.com/collections/hei-cha/products.json?limit=250"
+  ]
+ },
+ {
+  "slug": "chong-shi-cha",
+  "en": "Chong Shi Cha",
+  "zh": "虫屎茶",
+  "ru": "Чун ши ча",
+  "native": null,
+  "aliases": [],
+  "category": "heicha",
+  "country": "China",
+  "region": null,
+  "kind": "variety",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://thetea.ua/ru/chay/chervonyy-chay/f/vyd-chervonyy-chay=khey-cha"
+  ]
+ },
+ {
+  "slug": "hubei-qing-zhuan",
+  "en": "Qing Zhuan",
+  "zh": "青砖茶",
+  "ru": "Цин чжуань",
+  "native": null,
+  "aliases": [
+   "Hubei Qing Zhuan",
+   "Green Brick",
+   "Qing Zhuan Cha",
+   "湖北青砖茶",
+   "Chibi Qing Zhuan Cha",
+   "赤壁青砖茶",
+   "Green Brick Tea",
+   "Зелёный кирпичный чай"
+  ],
+  "category": "heicha",
+  "country": "China",
+  "region": "Hubei · Xianning Chibi",
+  "kind": "style",
+  "tier": 1,
+  "existing_slug": "hubei-qing-zhuan",
+  "evidence": [
+   "https://zh.wikipedia.org/zh-cn/黑茶",
+   "https://ru.wikipedia.org/wiki/Чай_в_России",
+   "https://teacraft.net/product/chernyj-chaj-kitajskij-pressovannyj-chaj-hej-cha-chzhuan-krasnyj-chajnyj-kirpich-258-g/"
+  ]
+ },
+ {
+  "slug": "hubei-heicha",
+  "en": "Hubei Heicha",
+  "zh": "湖北黑茶",
+  "ru": "Хубэй хэй ча",
+  "native": null,
+  "aliases": [],
+  "category": "heicha",
+  "country": "China",
+  "region": "Hubei",
+  "kind": "appellation",
+  "tier": 2,
+  "existing_slug": null,
+  "evidence": [
+   "https://zh.wikipedia.org/zh-cn/黑茶"
+  ]
+ },
+ {
+  "slug": "lao-qing-cha",
+  "en": "Lao Qing Cha",
+  "zh": "老青茶",
+  "ru": "Лао цин ча",
+  "native": null,
+  "aliases": [
+   "Laoqing Tea",
+   "Hubei Lao Qing Cha",
+   "湖北老青茶"
+  ],
+  "category": "heicha",
+  "country": "China",
+  "region": "Hubei · Xianning",
+  "kind": "style",
+  "tier": 2,
+  "existing_slug": null,
+  "evidence": [
+   "https://zh.wikipedia.org/zh-cn/黑茶",
+   "https://aboxtik.com/dark-tea/",
+   "https://www.ichabaike.com/heicha/laoqingcha/"
+  ]
+ },
+ {
+  "slug": "mi-zhuan",
+  "en": "Mi Zhuan",
+  "zh": "米砖茶",
+  "ru": "Ми чжуань",
+  "native": null,
+  "aliases": [
+   "Rice Brick",
+   "Mi Zhuan Cha"
+  ],
+  "category": "heicha",
+  "country": "China",
+  "region": "Hubei · Xianning Chibi",
+  "kind": "style",
+  "tier": 2,
+  "existing_slug": null,
+  "evidence": [
+   "https://en.wikipedia.org/wiki/Tea_brick",
+   "https://www.jxmw.com/enshi_mcmj/211.html",
+   "https://www.sohu.com/a/250505949_652366"
+  ]
+ },
+ {
+  "slug": "chuan-zi-cha",
+  "en": "Chuan Zi Cha",
+  "zh": "川字茶",
+  "ru": "Чуань цзы ча",
+  "native": null,
+  "aliases": [
+   "川-character Brick"
+  ],
+  "category": "heicha",
+  "country": "China",
+  "region": "Hubei · Xianning Chibi",
+  "kind": "variety",
+  "tier": 2,
+  "existing_slug": null,
+  "evidence": [
+   "https://m.jiemian.com/article/780057.html"
+  ]
+ },
+ {
+  "slug": "zhao-li-qiao-zhuan-cha",
+  "en": "Zhao Li Qiao Brick Tea",
+  "zh": "赵李桥砖茶",
+  "ru": "Чжао ли цяо чжуань ча",
+  "native": null,
+  "aliases": [
+   "Zhao Li Qiao Qing Zhuan",
+   "赵李桥青砖",
+   "Hei Cha Zhuan",
+   "Red Tea Brick",
+   "Хэй Ча Чжуань"
+  ],
+  "category": "heicha",
+  "country": "China",
+  "region": "Hubei · Xianning Chibi",
+  "kind": "appellation",
+  "tier": 2,
+  "existing_slug": null,
+  "evidence": [
+   "https://zh.wikipedia.org/zh-cn/六堡茶",
+   "https://www.chawangshop.com/27-hubei-hei-cha",
+   "https://teacraft.net/product/chernyj-chaj-kitajskij-pressovannyj-chaj-hej-cha-chzhuan-krasnyj-chajnyj-kirpich-258-g/"
+  ]
+ },
+ {
+  "slug": "yangloudong-zhuan-cha",
+  "en": "Yangloudong Zhuan Cha",
+  "zh": "羊楼洞砖茶",
+  "ru": "Янлоудун чжуань ча",
+  "native": null,
+  "aliases": [
+   "Dong Cha",
+   "洞茶",
+   "Dong Zhuan",
+   "Yangloudong Brick",
+   "洞砖"
+  ],
+  "category": "heicha",
+  "country": "China",
+  "region": "Hubei · Xianning Chibi",
+  "kind": "appellation",
+  "tier": 2,
+  "existing_slug": null,
+  "evidence": [
+   "https://www.jxmw.com/enshi_mcmj/211.html",
+   "https://zscqj.hubei.gov.cn/bmdt/gxhlm/zcwd/xmrc/202201/t20220113_3963137.shtml",
+   "https://m.jiemian.com/article/780057.html"
+  ]
+ },
+ {
+  "slug": "chang-sheng-chuan-qing-zhuan",
+  "en": "Chang Sheng Chuan Qing Zhuan",
+  "zh": "长盛川青砖茶",
+  "ru": "Чан шэн чуань цин чжуань",
+  "native": null,
+  "aliases": [
+   "Changshengchuan Qing Zhuan Cha"
+  ],
+  "category": "heicha",
+  "country": "China",
+  "region": "Hubei · Yichang",
+  "kind": "variety",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://zh.wikipedia.org/zh-cn/六堡茶",
+   "https://www.xn--btrs6f400a.com/index.php/wap/jyxw/1037.html"
+  ]
+ },
+ {
+  "slug": "loose-qing-zhuan",
+  "en": "Loose Qing Zhuan",
+  "zh": "散装青砖茶",
+  "ru": "Рассыпной цин чжуань",
+  "native": null,
+  "aliases": [],
+  "category": "heicha",
+  "country": "China",
+  "region": "Hubei",
+  "kind": "style",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://zh.wikipedia.org/zh-cn/黑茶"
+  ]
+ },
+ {
+  "slug": "guihua-zhuan-cha",
+  "en": "Guihua Zhuan Cha",
+  "zh": "桂花砖茶",
+  "ru": "Гуйхуа чжуань ча",
+  "native": null,
+  "aliases": [],
+  "category": "heicha",
+  "country": "China",
+  "region": "Hubei",
+  "kind": "scented",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://www.xn--btrs6f400a.com/index.php/wap/jyxw/1037.html"
+  ]
+ },
+ {
+  "slug": "jingyang-fu-cha",
+  "en": "Jingyang Fu Cha",
+  "zh": "泾阳茯茶",
+  "ru": "Цзинъян фу ча",
+  "native": null,
+  "aliases": [
+   "Fuzhuan (Shaanxi)",
+   "Jingyang Fu Zhuan",
+   "Jingyang Fu zhuan cha",
+   "Jingyang Fuzhuan",
+   "Jingyangfuzhuancha",
+   "泾阳茯砖茶",
+   "陕西泾阳茯茶",
+   "Jingyang Fu Tea",
+   "Jingwei Fu Tea",
+   "Jingweifucha",
+   "Shaanxi Jingwei Fu Brick",
+   "泾渭茯茶",
+   "Shaanxi Fu Brick",
+   "泾阳茯砖",
+   "Shaanxi Fu Cha",
+   "陕西茯茶",
+   "Xianyang Fu Cha",
+   "Xianyang Fu Tea",
+   "Xianyangfucha",
+   "咸阳茯茶"
+  ],
+  "category": "heicha",
+  "country": "China",
+  "region": "Shaanxi · Xianyang Jingyang",
+  "kind": "appellation",
+  "tier": 2,
+  "existing_slug": "jingwei-fu-cha",
+  "evidence": [
+   "https://zh.wikipedia.org/zh-cn/六堡茶",
+   "https://milulu.com.cn/techan/17923.html",
+   "https://www.chinanews.com.cn/cj/2023/05-23/10012456.shtml"
+  ]
+ },
+ {
+  "slug": "lotus-leaf-fu-cha",
+  "en": "Lotus Leaf Fu Cha",
+  "zh": "荷叶茯茶",
+  "ru": "Хэ е фу ча",
+  "native": null,
+  "aliases": [],
+  "category": "heicha",
+  "country": "China",
+  "region": "Shaanxi",
+  "kind": "blend",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://yunnansourcing.com/collections/hei-cha/products.json?limit=250"
+  ]
+ },
+ {
+  "slug": "osmanthus-fu-cha",
+  "en": "Osmanthus Fu Cha",
+  "zh": "桂花茯茶",
+  "ru": "Гуйхуа фу ча",
+  "native": null,
+  "aliases": [],
+  "category": "heicha",
+  "country": "China",
+  "region": "Shaanxi",
+  "kind": "scented",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://yunnansourcing.com/collections/hei-cha/products.json?limit=250"
+  ]
+ },
+ {
+  "slug": "rose-fu-cha",
+  "en": "Rose Fu Cha",
+  "zh": "玫瑰茯茶",
+  "ru": "Мэйгуй фу ча",
+  "native": null,
+  "aliases": [],
+  "category": "heicha",
+  "country": "China",
+  "region": "Shaanxi",
+  "kind": "scented",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://yunnansourcing.com/collections/hei-cha/products.json?limit=250"
+  ]
+ },
+ {
+  "slug": "rose-heicha",
+  "en": "Dark Rose",
+  "zh": "玫瑰黑茶",
+  "ru": "Мэйгуй хэй ча",
+  "native": null,
+  "aliases": [],
+  "category": "heicha",
+  "country": "China",
+  "region": null,
+  "kind": "scented",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://www.teasource.com/"
+  ]
+ },
+ {
+  "slug": "laoshan-qing-zhuan",
+  "en": "Laoshan Qing Zhuan",
+  "zh": "老陕青砖",
+  "ru": "Лаошань цин чжуань",
+  "native": null,
+  "aliases": [
+   "Laoshanqingzhuancha",
+   "老陕青砖茶",
+   "Laoshan Qingzhuan"
+  ],
+  "category": "heicha",
+  "country": "China",
+  "region": "Shaanxi · Hanzhong Ningqiang",
+  "kind": "appellation",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://milulu.com.cn/techan/51972.html",
+   "https://blog.sina.com.cn/s/blog_8513c2860102vvdm.html"
+  ]
+ },
+ {
+  "slug": "liu-bao",
+  "en": "Liu Bao",
+  "zh": "六堡茶",
+  "ru": "Любао",
+  "native": null,
+  "aliases": [
+   "Лю бао ча",
+   "Guangxi Liu Bao",
+   "Guangxi Liubao Cha",
+   "Liu Bao Cha",
+   "Liu Bao Tea",
+   "Liubao",
+   "Liubao Cha",
+   "广西六堡茶",
+   "Wuzhou Liu Bao",
+   "Wuzhou Liubao Cha",
+   "梧州六堡茶",
+   "Cangwu Liubao Cha",
+   "苍梧六堡茶"
+  ],
+  "category": "heicha",
+  "country": "China",
+  "region": "Guangxi · Wuzhou Cangwu",
+  "kind": "appellation",
+  "tier": 1,
+  "existing_slug": "liu-bao",
+  "evidence": [
+   "https://teahouse.ua/ru/chaj-liubao-num005/",
+   "https://teajourney.pub/kuala-lumpur-tea/",
+   "https://www.chawangshop.com/23-hei-cha"
+  ]
+ },
+ {
+  "slug": "liu-bao-aged",
+  "en": "Aged Liu Bao",
+  "zh": "陈年六堡茶",
+  "ru": "Выдержанный Любао",
+  "native": null,
+  "aliases": [
+   "Liubao Aged Vintage",
+   "Chen Xiang Aged Liu Bao"
+  ],
+  "category": "heicha",
+  "country": "China",
+  "region": "Guangxi · Wuzhou",
+  "kind": "style",
+  "tier": 2,
+  "existing_slug": "liu-bao-aged",
+  "evidence": [
+   "https://tea-lab.pages.dev/types/dark/",
+   "https://yunnansourcing.com/collections/hei-cha/products.json?limit=250"
+  ]
+ },
+ {
+  "slug": "liu-bao-forms-and-grades",
+  "en": "Liu Bao Forms and Grades",
+  "zh": null,
+  "ru": "Формы и сорта Любао",
+  "native": null,
+  "aliases": [
+   "Compressed Liu Bao",
+   "紧压六堡茶",
+   "Loose Liu Bao",
+   "散装六堡茶",
+   "Farmer Smoked Raw Liu Bao"
+  ],
+  "category": "heicha",
+  "country": "China",
+  "region": "Guangxi · Wuzhou",
+  "kind": "style",
+  "tier": 2,
+  "existing_slug": "liu-bao-forms-and-grades",
+  "evidence": [
+   "https://zh.wikipedia.org/zh-cn/黑茶",
+   "https://yunnansourcing.com/collections/hei-cha/products.json?limit=250"
+  ]
+ },
+ {
+  "slug": "raw-liu-bao",
+  "en": "Qing Cha Liu Bao",
+  "zh": "青茶六堡",
+  "ru": "Цин ча любао",
+  "native": null,
+  "aliases": [
+   "Raw Liu Bao",
+   "Qingcha Liubao"
+  ],
+  "category": "heicha",
+  "country": "China",
+  "region": "Guangxi · Wuzhou",
+  "kind": "style",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://essenceoftea.com/products.json?limit=250"
+  ]
+ },
+ {
+  "slug": "golden-flower-liu-bao",
+  "en": "Golden Flower Liu Bao",
+  "zh": "金花六堡茶",
+  "ru": "Цзинь хуа любао",
+  "native": null,
+  "aliases": [
+   "Golden Flowers Liu Bao",
+   "Jin Hua Hei Cha",
+   "Golden Flower",
+   "金花"
+  ],
+  "category": "heicha",
+  "country": "China",
+  "region": "Guangxi · Wuzhou",
+  "kind": "style",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://www.yunnansourcing.com/products.json?limit=250&page=5",
+   "https://en.wikipedia.org/wiki/Dark_tea"
+  ]
+ },
+ {
+  "slug": "old-tree-liu-bao",
+  "en": "Old Tree Liu Bao",
+  "zh": null,
+  "ru": "Любао со старых кустов",
+  "native": null,
+  "aliases": [
+   "Old Bush Liu Bao",
+   "Old Tree Raw Liu Bao"
+  ],
+  "category": "heicha",
+  "country": "China",
+  "region": "Guangxi · Wuzhou",
+  "kind": "style",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://yunnansourcing.com/collections/hei-cha/products.json?limit=250"
+  ]
+ },
+ {
+  "slug": "ginseng-aroma-liu-bao",
+  "en": "Ginseng Aroma Liu Bao",
+  "zh": "参香六堡茶",
+  "ru": "Любао с ароматом женьшеня",
+  "native": null,
+  "aliases": [],
+  "category": "heicha",
+  "country": "China",
+  "region": "Guangxi · Wuzhou",
+  "kind": "style",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://yunnansourcing.com/collections/hei-cha/products.json?limit=250"
+  ]
+ },
+ {
+  "slug": "liubao-cha-shu",
+  "en": "Liubao Cha Shu",
+  "zh": "六堡茶树",
+  "ru": "Любао ча шу",
+  "native": null,
+  "aliases": [],
+  "category": "heicha",
+  "country": "China",
+  "region": "Guangxi · Wuzhou Cangwu",
+  "kind": "cultivar",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://www.ichabaike.com/chashu/liubaochashu/"
+  ]
+ },
+ {
+  "slug": "song-hei-cha",
+  "en": "Song Hei Cha",
+  "zh": "松黑茶",
+  "ru": "Сун хэй ча",
+  "native": null,
+  "aliases": [
+   "Loose Dark Tea"
+  ],
+  "category": "heicha",
+  "country": "China",
+  "region": "Guangxi",
+  "kind": "style",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://en.wikipedia.org/wiki/Dark_tea"
+  ]
+ },
+ {
+  "slug": "liu-an-lan-cha",
+  "en": "Liu An Lan Cha",
+  "zh": "六安篮茶",
+  "ru": "Лю ань лань ча",
+  "native": null,
+  "aliases": [
+   "An Cha",
+   "Anhui basket tea",
+   "Qimen compressed tea",
+   "安茶",
+   "Liu An Bamboo Basket Tea",
+   "Liu An Basket Tea",
+   "Lu'an Basket Tea",
+   "Lu'an Lancha",
+   "安徽六安篮茶",
+   "Liu'an Cha",
+   "Lu'an Cha",
+   "六安茶",
+   "육안차",
+   "Qimen Ancha",
+   "祁门安茶",
+   "Ruan Zhi Cha",
+   "软枝茶",
+   "Liu An Hei Cha",
+   "Лю Ань Хэй Ча",
+   "Liu An Gong Jian",
+   "六安贡尖",
+   "Liu An Mao Jian",
+   "六安毛尖"
+  ],
+  "category": "heicha",
+  "country": "China",
+  "region": "Anhui · Huangshan Qimen",
+  "kind": "appellation",
+  "tier": 2,
+  "existing_slug": "liu-an-lan-cha",
+  "evidence": [
+   "https://www.wikidata.org/wiki/Q15896874",
+   "https://zh.wikipedia.org/wiki/安茶",
+   "https://ko.wikipedia.org/wiki/후발효차"
+  ]
+ },
+ {
+  "slug": "guyi-heicha",
+  "en": "Guyi Heicha",
+  "zh": "古黟黑茶",
+  "ru": "Гуи хэй ча",
+  "native": null,
+  "aliases": [
+   "Guyi Dark Tea",
+   "An Cha"
+  ],
+  "category": "heicha",
+  "country": "China",
+  "region": "Anhui · Huangshan Yixian",
+  "kind": "appellation",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://www.cnpp.cn/focus/235769.html"
+  ]
+ },
+ {
+  "slug": "qimen-chu-ye-zhong",
+  "en": "Qimen Chuye",
+  "zh": "祁门槠叶种",
+  "ru": "Цимэнь чжу е чжун",
+  "native": null,
+  "aliases": [],
+  "category": "heicha",
+  "country": "China",
+  "region": "Anhui · Qimen",
+  "kind": "cultivar",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://zh.wikipedia.org/zh-cn/安茶"
+  ]
+ },
+ {
+  "slug": "ya-an-zang-cha",
+  "en": "Ya'an Zang Cha",
+  "zh": "雅安藏茶",
+  "ru": "Яань цзан ча",
+  "native": null,
+  "aliases": [
+   "Ya'an Tibetan Tea",
+   "Yaancangcha",
+   "Bö Ja",
+   "Tibetan Tea",
+   "Bo Ja",
+   "Zang Cha",
+   "藏茶",
+   "བོད་ཇ",
+   "Ya'an Dark Tea",
+   "雅安黑茶",
+   "Cu Cha",
+   "粗茶",
+   "Da Cha",
+   "大茶",
+   "Wu Cha",
+   "乌茶",
+   "Ma Cha",
+   "Horse Tea",
+   "马茶"
+  ],
+  "category": "heicha",
+  "country": "China",
+  "region": "Sichuan · Ya'an",
+  "kind": "appellation",
+  "tier": 1,
+  "existing_slug": "ya-an-zang-cha",
+  "evidence": [
+   "https://zh.wikipedia.org/wiki/川茶",
+   "https://en.wikipedia.org/wiki/Tibetan_tea",
+   "https://www.wikidata.org/wiki/Q7800426"
+  ]
+ },
+ {
+  "slug": "zang-zhuan-cha",
+  "en": "Zang Zhuan Cha",
+  "zh": "藏砖茶",
+  "ru": "Цзан чжуань ча",
+  "native": null,
+  "aliases": [
+   "Zhuan Zang Cha",
+   "Tibetan Brick",
+   "Ja Bak",
+   "Tibetan brick tea",
+   "Ja Sbag",
+   "ཇ་སྦག"
+  ],
+  "category": "heicha",
+  "country": "China",
+  "region": "Sichuan · Ya'an",
+  "kind": "style",
+  "tier": 2,
+  "existing_slug": null,
+  "evidence": [
+   "https://en.wikipedia.org/wiki/Tibetan_tea",
+   "https://en.wikipedia.org/wiki/Brick_tea",
+   "https://www.teaspring.com/pu-erh-tea.asp"
+  ]
+ },
+ {
+  "slug": "mengding-shan-zang-cha",
+  "en": "Mengding Shan Zang Cha",
+  "zh": "蒙顶山藏茶",
+  "ru": "Мэндиншань цзан ча",
+  "native": null,
+  "aliases": [
+   "Mengdingshancangcha",
+   "Mengdingshanheicha",
+   "蒙顶山黑茶"
+  ],
+  "category": "heicha",
+  "country": "China",
+  "region": "Sichuan · Ya'an Mingshan",
+  "kind": "appellation",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://milulu.com.cn/techan/17190.html",
+   "https://milulu.com.cn/techan/35563.html"
+  ]
+ },
+ {
+  "slug": "xiao-bing-zang-cha",
+  "en": "Xiao Bing Zang Cha",
+  "zh": "小饼藏茶",
+  "ru": "Сяо бин цзан ча",
+  "native": null,
+  "aliases": [
+   "雅安小饼藏茶"
+  ],
+  "category": "heicha",
+  "country": "China",
+  "region": "Sichuan · Ya'an",
+  "kind": "style",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://www.curioustea.com/?p=26014",
+   "https://pathofcha.com/products/yaan-zang-cha-tibetan-hei-cha"
+  ]
+ },
+ {
+  "slug": "gyepa-brick",
+  "en": "Brgyad-pa",
+  "zh": null,
+  "ru": "Гьепа",
+  "native": null,
+  "aliases": [
+   "Tibetan currency brick"
+  ],
+  "category": "heicha",
+  "country": "China",
+  "region": "Sichuan · Ya'an",
+  "kind": "style",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://en.wikipedia.org/wiki/Brick_tea"
+  ]
+ },
+ {
+  "slug": "tiao-cha",
+  "en": "Tiao Cha",
+  "zh": "条茶",
+  "ru": "Тяо ча",
+  "native": null,
+  "aliases": [
+   "Strip Tea"
+  ],
+  "category": "heicha",
+  "country": "China",
+  "region": "Sichuan · Ya'an",
+  "kind": "style",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://zh.wikipedia.org/zh-cn/藏茶"
+  ]
+ },
+ {
+  "slug": "sichuan-bian-cha",
+  "en": "Sichuan Bian Cha",
+  "zh": "四川边茶",
+  "ru": "Сычуань бянь ча",
+  "native": null,
+  "aliases": [
+   "Sichuan Border Tea",
+   "Sichuanbiancha",
+   "Bian Cha",
+   "边茶",
+   "Sichuan Dark Tea",
+   "四川黑茶",
+   "Lu Bian Cha",
+   "路边茶",
+   "四川路边茶"
+  ],
+  "category": "heicha",
+  "country": "China",
+  "region": "Sichuan",
+  "kind": "appellation",
+  "tier": 2,
+  "existing_slug": null,
+  "evidence": [
+   "https://zh.wikipedia.org/zh-cn/黑茶",
+   "https://milulu.com.cn/tea/3162.html",
+   "https://milulu.com.cn/techan/34681.html"
+  ]
+ },
+ {
+  "slug": "nan-lu-bian-cha",
+  "en": "Nan Lu Bian Cha",
+  "zh": "南路边茶",
+  "ru": "Нань лу бянь ча",
+  "native": null,
+  "aliases": [
+   "Southern Route Border Tea",
+   "Nanlu Biancha",
+   "South Road Border Tea",
+   "Yaanbiancha",
+   "雅安边茶"
+  ],
+  "category": "heicha",
+  "country": "China",
+  "region": "Sichuan · Ya'an",
+  "kind": "style",
+  "tier": 2,
+  "existing_slug": null,
+  "evidence": [
+   "https://m.51pot.com/tea/tea-detail-214.shtml",
+   "https://www.ihchina.cn/project_details/14625.html",
+   "https://milulu.com.cn/techan/35642.html"
+  ]
+ },
+ {
+  "slug": "xi-lu-bian-cha",
+  "en": "Xi Lu Bian Cha",
+  "zh": "西路边茶",
+  "ru": "Си лу бянь ча",
+  "native": null,
+  "aliases": [
+   "West Road Border Tea",
+   "Xi Bian Cha",
+   "Western Route Border Tea",
+   "Xilu Biancha"
+  ],
+  "category": "heicha",
+  "country": "China",
+  "region": "Sichuan · Dujiangyan",
+  "kind": "style",
+  "tier": 2,
+  "existing_slug": null,
+  "evidence": [
+   "https://m.51pot.com/tea/tea-detail-214.shtml",
+   "https://www.ihchina.cn/project_details/14625.html",
+   "https://www.cnpp.cn/focus/235769.html"
+  ]
+ },
+ {
+  "slug": "fangbao-cha",
+  "en": "Fangbao Cha",
+  "zh": "方包茶",
+  "ru": "Фан бао ча",
+  "native": null,
+  "aliases": [
+   "Fangbao Tea",
+   "Dujiangyan Fangbao",
+   "都江堰方包茶"
+  ],
+  "category": "heicha",
+  "country": "China",
+  "region": "Sichuan · Dujiangyan",
+  "kind": "variety",
+  "tier": 2,
+  "existing_slug": null,
+  "evidence": [
+   "https://milulu.com.cn/tea/3524.html",
+   "https://www.zisha.com/knowledge/33313.shtml"
+  ]
+ },
+ {
+  "slug": "sichuan-flat-bian-cha",
+  "en": "Bian Cha (Flat Tea)",
+  "zh": "扁茶",
+  "ru": "Бянь ча (плоский)",
+  "native": null,
+  "aliases": [
+   "Flat Tea"
+  ],
+  "category": "heicha",
+  "country": "China",
+  "region": "Sichuan",
+  "kind": "style",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://m.51pot.com/tea/tea-detail-214.shtml"
+  ]
+ },
+ {
+  "slug": "kang-zhuan",
+  "en": "Kang Zhuan",
+  "zh": "康砖茶",
+  "ru": "Кан чжуань",
+  "native": null,
+  "aliases": [
+   "Tibetan Brick",
+   "康砖",
+   "Kang Zhuan Cha",
+   "Kangzhuancha",
+   "Ya'an Kangzhuan",
+   "雅安康砖茶"
+  ],
+  "category": "heicha",
+  "country": "China",
+  "region": "Sichuan · Ya'an",
+  "kind": "style",
+  "tier": 2,
+  "existing_slug": "kang-zhuan",
+  "evidence": [
+   "https://zh.wikipedia.org/zh-cn/黑茶",
+   "https://www.chawangshop.com/24-sichuan-hei-cha",
+   "https://www.easternleaves.com/products/1992-tibetan-tea-kangzhuan-康砖"
+  ]
+ },
+ {
+  "slug": "yanjin-kang-zhuan",
+  "en": "Yanjin Kang Zhuan",
+  "zh": "盐津康砖茶",
+  "ru": "Яньцзинь кан чжуань",
+  "native": null,
+  "aliases": [
+   "Yanjinkangzhuancha"
+  ],
+  "category": "heicha",
+  "country": "China",
+  "region": "Yunnan · Zhaotong Yanjin",
+  "kind": "appellation",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://milulu.com.cn/techan/51907.html"
+  ]
+ },
+ {
+  "slug": "jin-jian",
+  "en": "Jin Jian",
+  "zh": "金尖",
+  "ru": "Цзинь цзянь",
+  "native": null,
+  "aliases": [
+   "Ya'an Jinjian",
+   "雅安金尖茶",
+   "Golden Tip Tea"
+  ],
+  "category": "heicha",
+  "country": "China",
+  "region": "Sichuan · Ya'an",
+  "kind": "style",
+  "tier": 2,
+  "existing_slug": null,
+  "evidence": [
+   "https://zh.wikipedia.org/zh-cn/黑茶",
+   "https://www.chawangshop.com/24-sichuan-hei-cha",
+   "https://www.easternleaves.com/products/70s-tibetan-tea-jinjian-金尖-zangcha"
+  ]
+ },
+ {
+  "slug": "sichuan-mao-jian",
+  "en": "Mao Jian (Sichuan Border Tea)",
+  "zh": "毛尖",
+  "ru": "Мао цзянь",
+  "native": null,
+  "aliases": [
+   "Maojian",
+   "Mao Jian"
+  ],
+  "category": "heicha",
+  "country": "China",
+  "region": "Sichuan · Ya'an",
+  "kind": "style",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://www.ihchina.cn/project_details/14625.html",
+   "https://www.sohu.com/a/250505949_652366"
+  ]
+ },
+ {
+  "slug": "sichuan-ya-xi",
+  "en": "Ya Xi",
+  "zh": "芽细",
+  "ru": "Я си",
+  "native": null,
+  "aliases": [
+   "Yaxi"
+  ],
+  "category": "heicha",
+  "country": "China",
+  "region": "Sichuan · Ya'an",
+  "kind": "style",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://www.ihchina.cn/project_details/14625.html",
+   "https://www.sohu.com/a/250505949_652366"
+  ]
+ },
+ {
+  "slug": "sichuan-jin-yu",
+  "en": "Jin Yu",
+  "zh": "金玉",
+  "ru": "Цзинь юй",
+  "native": null,
+  "aliases": [
+   "Jinyu"
+  ],
+  "category": "heicha",
+  "country": "China",
+  "region": "Sichuan · Ya'an",
+  "kind": "style",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://www.ihchina.cn/project_details/14625.html",
+   "https://www.sohu.com/a/250505949_652366"
+  ]
+ },
+ {
+  "slug": "sichuan-jin-cang",
+  "en": "Jin Cang",
+  "zh": "金仓",
+  "ru": "Цзинь цан",
+  "native": null,
+  "aliases": [
+   "Jincang"
+  ],
+  "category": "heicha",
+  "country": "China",
+  "region": "Sichuan · Ya'an",
+  "kind": "style",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://www.ihchina.cn/project_details/14625.html",
+   "https://www.sohu.com/a/250505949_652366"
+  ]
+ },
+ {
+  "slug": "qionglai-heicha",
+  "en": "Qionglai Heicha",
+  "zh": "邛崃黑茶",
+  "ru": "Цюнлай хэй ча",
+  "native": null,
+  "aliases": [
+   "Qionglai Dark Tea",
+   "Qionglaiheicha"
+  ],
+  "category": "heicha",
+  "country": "China",
+  "region": "Sichuan · Qionglai",
+  "kind": "appellation",
+  "tier": 2,
+  "existing_slug": null,
+  "evidence": [
+   "https://zh.wikipedia.org/wiki/川茶",
+   "https://milulu.com.cn/techan/26577.html",
+   "https://www.cnpp.cn/focus/235769.html"
+  ]
+ },
+ {
+  "slug": "mabian-cha",
+  "en": "Mabian Cha",
+  "zh": "马边茶叶",
+  "ru": "Мабянь ча",
+  "native": null,
+  "aliases": [
+   "Mabianchaye"
+  ],
+  "category": "heicha",
+  "country": "China",
+  "region": "Sichuan · Leshan Mabian",
+  "kind": "appellation",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://milulu.com.cn/techan/29081.html"
+  ]
+ },
+ {
+  "slug": "tang-zhuan-cha",
+  "en": "Tang Zhuan Cha",
+  "zh": "唐砖茶",
+  "ru": "Тан чжуань ча",
+  "native": null,
+  "aliases": [
+   "唐磚茶"
+  ],
+  "category": "heicha",
+  "country": "China",
+  "region": "Sichuan",
+  "kind": "variety",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://ja.wikipedia.org/wiki/黒茶"
+  ]
+ },
+ {
+  "slug": "yibin-tuo-cha",
+  "en": "Yibin Tuo Cha",
+  "zh": "宜宾沱茶",
+  "ru": "Ибинь то ча",
+  "native": null,
+  "aliases": [
+   "Sichuan Yibin Tuo Tea",
+   "Yibin Tuo Tea",
+   "Yibin Tuocha"
+  ],
+  "category": "heicha",
+  "country": "China",
+  "region": "Sichuan · Yibin",
+  "kind": "style",
+  "tier": 2,
+  "existing_slug": null,
+  "evidence": [
+   "https://www.chawangshop.com/24-sichuan-hei-cha",
+   "https://www.chawangshop.com/hei-cha/sichuan-hei-cha/1993-4-sichuan-ya-an-tf-jin-jian-tibetan-brick-100g.html",
+   "https://pathlesstaken.substack.com/p/sichuan-heicha"
+  ]
+ },
+ {
+  "slug": "chongqing-tuo-cha",
+  "en": "Chongqing Tuo Cha",
+  "zh": "重庆沱茶",
+  "ru": "Чунцин то ча",
+  "native": null,
+  "aliases": [
+   "Chongqing Tuocha"
+  ],
+  "category": "heicha",
+  "country": "China",
+  "region": "Chongqing",
+  "kind": "style",
+  "tier": 2,
+  "existing_slug": null,
+  "evidence": [
+   "https://pathlesstaken.substack.com/p/sichuan-heicha",
+   "https://www.maigoo.com/top/392073.html"
+  ]
+ },
+ {
+  "slug": "bian-xiao-cha",
+  "en": "Bian Xiao Cha",
+  "zh": "边销茶",
+  "ru": "Бянь сяо ча",
+  "native": null,
+  "aliases": [
+   "Border-Sale Tea",
+   "Bianxiao brick tea",
+   "边销砖茶"
+  ],
+  "category": "heicha",
+  "country": "China",
+  "region": null,
+  "kind": "style",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://en.wikipedia.org/wiki/Tea_brick",
+   "https://chawangshop.com/hei-cha.html"
+  ]
+ },
+ {
+  "slug": "brick-tea",
+  "en": "Brick Tea",
+  "zh": "砖茶",
+  "ru": "Чжуань ча",
+  "native": null,
+  "aliases": [
+   "Compressed Tea",
+   "Jinya Cha",
+   "Zhuan cha",
+   "Zhuancha",
+   "bricktea",
+   "紧压茶",
+   "Кирпичный чай",
+   "Прессованный чай",
+   "плиточный чай"
+  ],
+  "category": "heicha",
+  "country": "China",
+  "region": null,
+  "kind": "style",
+  "tier": 1,
+  "existing_slug": "style-compressed-teas",
+  "evidence": [
+   "https://en.wikipedia.org/wiki/Compressed_tea",
+   "https://en.wikipedia.org/wiki/Pu'er_tea"
+  ]
+ },
+ {
+  "slug": "tuan-cha",
+  "en": "Tuan Cha",
+  "zh": "团茶",
+  "ru": "Туань ча",
+  "native": null,
+  "aliases": [
+   "Lump Tea",
+   "Tuancha"
+  ],
+  "category": "heicha",
+  "country": "China",
+  "region": null,
+  "kind": "style",
+  "tier": 2,
+  "existing_slug": null,
+  "evidence": [
+   "https://en.wikipedia.org/wiki/Brick_tea",
+   "https://www.wikidata.org/wiki/Q116471157",
+   "https://zh.wikipedia.org/wiki/中國茶"
+  ]
+ },
+ {
+  "slug": "ding-cha",
+  "en": "Ding Cha",
+  "zh": "锭茶",
+  "ru": "Дин ча",
+  "native": null,
+  "aliases": [
+   "Dingcha"
+  ],
+  "category": "heicha",
+  "country": "China",
+  "region": null,
+  "kind": "style",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://zh.wikipedia.org/wiki/中國茶"
+  ]
+ },
+ {
+  "slug": "wan-cha",
+  "en": "Wan Cha",
+  "zh": "丸茶",
+  "ru": "Вань ча",
+  "native": null,
+  "aliases": [
+   "Wancha"
+  ],
+  "category": "heicha",
+  "country": "China",
+  "region": null,
+  "kind": "style",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://zh.wikipedia.org/wiki/中國茶"
+  ]
+ },
+ {
+  "slug": "fangzhuang-cha",
+  "en": "Fangzhuang Cha",
+  "zh": "仿庄茶",
+  "ru": "Фан чжуан ча",
+  "native": null,
+  "aliases": [
+   "倣庄茶"
+  ],
+  "category": "heicha",
+  "country": "China",
+  "region": null,
+  "kind": "style",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://ja.wikipedia.org/wiki/黒茶"
+  ]
+ },
+ {
+  "slug": "gudong-cha",
+  "en": "Gudong Cha",
+  "zh": "古董茶",
+  "ru": "Гудун ча",
+  "native": null,
+  "aliases": [],
+  "category": "heicha",
+  "country": "China",
+  "region": null,
+  "kind": "variety",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://www.wikidata.org/wiki/Q65058690"
+  ]
+ },
+ {
+  "slug": "deang-suan-cha",
+  "en": "De'ang Suan Cha",
+  "zh": "德昂族酸茶",
+  "ru": "Дэан суань ча",
+  "native": null,
+  "aliases": [
+   "De'ang Sour Tea"
+  ],
+  "category": "heicha",
+  "country": "China",
+  "region": "Yunnan · Dehong Mangshi",
+  "kind": "style",
+  "tier": 2,
+  "existing_slug": null,
+  "evidence": [
+   "https://zh.wikipedia.org/zh-cn/六堡茶",
+   "https://zh.wikipedia.org/zh-cn/藏茶",
+   "https://www.sohu.com/a/343930852_488249"
+  ]
+ },
+ {
+  "slug": "blang-suan-cha",
+  "en": "Blang Suan Cha",
+  "zh": "酸茶",
+  "ru": "Суань ча",
+  "native": null,
+  "aliases": [
+   "Suancha",
+   "Miam",
+   "Blang sour tea"
+  ],
+  "category": "heicha",
+  "country": "China",
+  "region": "Yunnan · Xishuangbanna",
+  "kind": "style",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://en.wikipedia.org/wiki/Dark_tea"
+  ]
+ },
+ {
+  "slug": "jin-gua-gong-cha",
+  "en": "Jin Gua Gong Cha",
+  "zh": "金瓜贡茶",
+  "ru": "Цзинь гуа гун ча",
+  "native": null,
+  "aliases": [
+   "Jingua Tribute Tea"
+  ],
+  "category": "heicha",
+  "country": "China",
+  "region": "Yunnan",
+  "kind": "variety",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://aboxtik.com/dark-tea/"
+  ]
+ },
+ {
+  "slug": "lao-paka",
+  "en": "Lao Paka",
+  "zh": "老帕卡",
+  "ru": "Лао пака",
+  "native": null,
+  "aliases": [],
+  "category": "heicha",
+  "country": "China",
+  "region": "Yunnan",
+  "kind": "variety",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://aboxtik.com/dark-tea/"
+  ]
+ },
+ {
+  "slug": "lao-huang-pian",
+  "en": "Lao Huang Pian",
+  "zh": "老黄片",
+  "ru": "Лао хуан пянь",
+  "native": null,
+  "aliases": [
+   "Laohuang Pian"
+  ],
+  "category": "heicha",
+  "country": "China",
+  "region": "Yunnan",
+  "kind": "variety",
+  "tier": 3,
+  "existing_slug": "sheng-puerh-huangpian",
+  "evidence": [
+   "https://aboxtik.com/dark-tea/"
+  ]
+ },
+ {
+  "slug": "qizi-bing-cha",
+  "en": "Qizi Bing Cha",
+  "zh": "七子饼茶",
+  "ru": "Ци цзы бин ча",
+  "native": null,
+  "aliases": [
+   "Qizi Cake Tea"
+  ],
+  "category": "heicha",
+  "country": "China",
+  "region": "Yunnan",
+  "kind": "style",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://aboxtik.com/dark-tea/"
+  ]
+ },
+ {
+  "slug": "xiao-tuo-cha",
+  "en": "Xiao Tuo Cha",
+  "zh": "小沱茶",
+  "ru": "Сяо то ча",
+  "native": null,
+  "aliases": [
+   "Mini Tuocha Sheng Puerh",
+   "Mini Tuocha Shu Puerh",
+   "Xiao Tuocha",
+   "Шен пуэр мини-точа",
+   "Шу пуэр мини-точа"
+  ],
+  "category": "heicha",
+  "country": "China",
+  "region": "Yunnan",
+  "kind": "style",
+  "tier": 3,
+  "existing_slug": "sheng-puerh-mini-tuo",
+  "evidence": [
+   "https://en.wikipedia.org/wiki/Brick_tea",
+   "https://teahouse.ua/ru/shen-pujer-mini-toucha/",
+   "https://teahouse.ua/ru/shu-pujer-mini-tou-cha/"
+  ]
+ },
+ {
+  "slug": "tengchong-heicha",
+  "en": "Tengchong Heicha",
+  "zh": "腾冲黑茶",
+  "ru": "Тэнчун хэй ча",
+  "native": null,
+  "aliases": [
+   "Tengchongheicha"
+  ],
+  "category": "heicha",
+  "country": "China",
+  "region": "Yunnan · Baoshan Tengchong",
+  "kind": "appellation",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://milulu.com.cn/techan/23296.html"
+  ]
+ },
+ {
+  "slug": "awabancha",
+  "en": "Awabancha",
+  "zh": "阿波番茶",
+  "ru": "Авабантя",
+  "native": "阿波晩茶",
+  "aliases": [
+   "Awa Bancha"
+  ],
+  "category": "heicha",
+  "country": "Japan",
+  "region": "Tokushima",
+  "kind": "style",
+  "tier": 2,
+  "existing_slug": "awabancha",
+  "evidence": [
+   "https://ru.wikipedia.org/wiki/Авабантя",
+   "https://www.wikidata.org/wiki/Q11657546",
+   "https://en.wikipedia.org/wiki/Dark_tea"
+  ]
+ },
+ {
+  "slug": "aioi-bancha",
+  "en": "Aioi Bancha",
+  "zh": null,
+  "ru": "Аиои бантя",
+  "native": "相生晩茶",
+  "aliases": [],
+  "category": "heicha",
+  "country": "Japan",
+  "region": "Tokushima · Naka",
+  "kind": "appellation",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://ja.wikipedia.org/wiki/阿波晩茶"
+  ]
+ },
+ {
+  "slug": "kamikatsu-awa-bancha",
+  "en": "Kamikatsu Awa Bancha",
+  "zh": null,
+  "ru": "Камикацу ава бантя",
+  "native": "上勝阿波晩茶",
+  "aliases": [],
+  "category": "heicha",
+  "country": "Japan",
+  "region": "Tokushima · Kamikatsu",
+  "kind": "appellation",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://ja.wikipedia.org/wiki/阿波晩茶"
+  ]
+ },
+ {
+  "slug": "goishicha",
+  "en": "Goishicha",
+  "zh": "碁石茶",
+  "ru": "Гоиситя",
+  "native": "碁石茶",
+  "aliases": [],
+  "category": "heicha",
+  "country": "Japan",
+  "region": "Kochi · Otoyo",
+  "kind": "style",
+  "tier": 2,
+  "existing_slug": "goishicha",
+  "evidence": [
+   "https://en.wikipedia.org/wiki/Goishicha",
+   "https://ru.wikipedia.org/wiki/Гоиситя",
+   "https://en.wikipedia.org/wiki/Dark_tea"
+  ]
+ },
+ {
+  "slug": "batabatacha",
+  "en": "Batabatacha",
+  "zh": null,
+  "ru": "Батабата-тя",
+  "native": "バタバタ茶",
+  "aliases": [
+   "Toyama Kurocha",
+   "Batabata-cha",
+   "batabata tea",
+   "ばたばた茶"
+  ],
+  "category": "heicha",
+  "country": "Japan",
+  "region": "Toyama · Asahi",
+  "kind": "style",
+  "tier": 2,
+  "existing_slug": "batabatacha",
+  "evidence": [
+   "https://www.wikidata.org/wiki/Q24872072",
+   "https://en.wikipedia.org/wiki/Dark_tea",
+   "https://en.wikipedia.org/wiki/Fermented_tea"
+  ]
+ },
+ {
+  "slug": "ishizuchi-kurocha",
+  "en": "Ishizuchi Kurocha",
+  "zh": null,
+  "ru": "Исидзути куротя",
+  "native": "石鎚黒茶",
+  "aliases": [],
+  "category": "heicha",
+  "country": "Japan",
+  "region": "Ehime · Saijo",
+  "kind": "style",
+  "tier": 2,
+  "existing_slug": "ishizuchi-kurocha",
+  "evidence": [
+   "https://www.wikidata.org/wiki/Q24872292",
+   "https://en.wikipedia.org/wiki/Dark_tea",
+   "https://en.wikipedia.org/wiki/Fermented_tea"
+  ]
+ },
+ {
+  "slug": "tengu-kurocha",
+  "en": "Tengu Kurocha",
+  "zh": null,
+  "ru": "Тэнгу куротя",
+  "native": "天狗黒茶",
+  "aliases": [],
+  "category": "heicha",
+  "country": "Japan",
+  "region": "Ehime · Saijo",
+  "kind": "variety",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://ja.wikipedia.org/wiki/黒茶"
+  ]
+ },
+ {
+  "slug": "mimasaka-bancha",
+  "en": "Mimasaka Bancha",
+  "zh": null,
+  "ru": "Мимасака бантя",
+  "native": "美作番茶",
+  "aliases": [],
+  "category": "heicha",
+  "country": "Japan",
+  "region": "Okayama · Mimasaka",
+  "kind": "style",
+  "tier": 2,
+  "existing_slug": null,
+  "evidence": [
+   "https://yunomi.life/blogs/japanese-tea-guide/list-of-japanese-teas",
+   "https://ja.wikipedia.org/wiki/日本茶"
+  ]
+ },
+ {
+  "slug": "hakko-bancha",
+  "en": "Hakko Bancha",
+  "zh": null,
+  "ru": "Хакко бантя",
+  "native": "発酵番茶",
+  "aliases": [
+   "fermented bancha",
+   "Japanese Dark Tea"
+  ],
+  "category": "heicha",
+  "country": "Japan",
+  "region": null,
+  "kind": "style",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://ja.wikipedia.org/wiki/番茶",
+   "https://yunomi.life/blogs/japanese-tea-guide/what-are-cultivars",
+   "https://yunomi.life/"
+  ]
+ },
+ {
+  "slug": "tteokcha",
+  "en": "Tteokcha",
+  "zh": null,
+  "ru": "Ттокча",
+  "native": "떡차",
+  "aliases": [
+   "Tteok-cha",
+   "Тток ча",
+   "Byeongcha",
+   "Doncha",
+   "돈차",
+   "Тонча",
+   "Jeoncha",
+   "钱茶",
+   "전차",
+   "Чонча",
+   "coin tea",
+   "money tea",
+   "Deongicha",
+   "Dancha",
+   "Korean lump tea",
+   "덩이차"
+  ],
+  "category": "heicha",
+  "country": "South Korea",
+  "region": null,
+  "kind": "style",
+  "tier": 2,
+  "existing_slug": "tteokcha",
+  "evidence": [
+   "https://en.wikipedia.org/wiki/Doncha",
+   "https://www.wikidata.org/wiki/Q30043860",
+   "https://en.wikipedia.org/wiki/Brick_tea"
+  ]
+ },
+ {
+  "slug": "cheongtaejeon",
+  "en": "Cheongtaejeon",
+  "zh": "青苔钱",
+  "ru": "Чхонтхэджон",
+  "native": "청태전",
+  "aliases": [],
+  "category": "heicha",
+  "country": "South Korea",
+  "region": "Jeollanam-do · Jangheung",
+  "kind": "appellation",
+  "tier": 2,
+  "existing_slug": null,
+  "evidence": [
+   "https://www.wikidata.org/wiki/Q30043860",
+   "https://en.wikipedia.org/wiki/Dark_tea",
+   "https://en.wikipedia.org/wiki/Fermented_tea"
+  ]
+ },
+ {
+  "slug": "borim-cha",
+  "en": "Borim-cha",
+  "zh": "宝林茶",
+  "ru": "Борим-ча",
+  "native": "보림차",
+  "aliases": [
+   "Borim-baengmo-cha",
+   "宝林白茅茶",
+   "보림백모차"
+  ],
+  "category": "heicha",
+  "country": "South Korea",
+  "region": "Jeollanam-do · Jangheung",
+  "kind": "appellation",
+  "tier": 2,
+  "existing_slug": null,
+  "evidence": [
+   "https://en.wikipedia.org/wiki/Fermented_tea",
+   "https://en.wikipedia.org/wiki/Korean_tea",
+   "https://en.wikipedia.org/wiki/Dark_tea"
+  ]
+ },
+ {
+  "slug": "byeokdolcha",
+  "en": "Byeokdolcha",
+  "zh": null,
+  "ru": "Пёктольча",
+  "native": "벽돌차",
+  "aliases": [
+   "Korean brick tea"
+  ],
+  "category": "heicha",
+  "country": "South Korea",
+  "region": null,
+  "kind": "style",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://en.wikipedia.org/wiki/Brick_tea"
+  ]
+ },
+ {
+  "slug": "laphet",
+  "en": "Laphet",
+  "zh": "缅甸腌茶",
+  "ru": "Лэпхэ",
+  "native": "လက်ဖက်",
+  "aliases": [
+   "Лэпхэ-тоу",
+   "Lahpet",
+   "Lahpet so",
+   "laphat",
+   "pickled tea",
+   "wet tea",
+   "茶叶沙拉",
+   "လက်ဖက်စို"
+  ],
+  "category": "heicha",
+  "country": "Myanmar",
+  "region": "Shan State",
+  "kind": "recipe",
+  "tier": 2,
+  "existing_slug": "laphet",
+  "evidence": [
+   "https://en.wikipedia.org/wiki/Lahpet",
+   "https://ru.wikipedia.org/wiki/Знаменитые_чаи_Китая",
+   "https://ru.wikipedia.org/wiki/Лэпхэ-тоу"
+  ]
+ },
+ {
+  "slug": "miang",
+  "en": "Miang",
+  "zh": null,
+  "ru": "Мианг",
+  "native": "เมี่ยง",
+  "aliases": [],
+  "category": "heicha",
+  "country": "Thailand",
+  "region": "Northern Thailand",
+  "kind": "style",
+  "tier": 2,
+  "existing_slug": "miang",
+  "evidence": [
+   "https://en.wikipedia.org/wiki/Lahpet",
+   "https://en.wikipedia.org/wiki/Dark_tea",
+   "https://en.wikipedia.org/wiki/Fermented_tea"
+  ]
+ },
+ {
+  "slug": "vietnamese-fermented-tea",
+  "en": "Vietnamese Fermented Tea",
+  "zh": null,
+  "ru": "Вьетнамский ферментированный чай",
+  "native": null,
+  "aliases": [],
+  "category": "heicha",
+  "country": "Vietnam",
+  "region": null,
+  "kind": "style",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://localvietnam.com/culture/cuisine/vietnamese-tea/"
+  ]
+ },
+ {
+  "slug": "butter-tea",
+  "en": "Butter Tea",
+  "zh": "酥油茶",
+  "ru": "Часуйма",
+  "native": "བོད་ཇ་",
+  "aliases": [
+   "Bho jha",
+   "Po cha",
+   "Тибетский чай",
+   "Cha su mar",
+   "Cha süma",
+   "ཇ་སྲུབ་མ་",
+   "Su chya",
+   "phe chya"
+  ],
+  "category": "heicha",
+  "country": "China",
+  "region": "Tibet",
+  "kind": "recipe",
+  "tier": 2,
+  "existing_slug": null,
+  "evidence": [
+   "https://en.wikipedia.org/wiki/Butter_tea",
+   "https://www.wikidata.org/wiki/Q989930",
+   "https://www.zdic.net/hant/酥油茶"
+  ]
+ },
+ {
+  "slug": "gur-gur-cha",
+  "en": "Gur Gur Cha",
+  "zh": null,
+  "ru": "Гур-гур ча",
+  "native": null,
+  "aliases": [
+   "Goor goor cha",
+   "Cha suskan"
+  ],
+  "category": "heicha",
+  "country": "India",
+  "region": "Ladakh",
+  "kind": "recipe",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://en.wikipedia.org/wiki/Butter_tea",
+   "https://en.wikipedia.org/wiki/Noon_chai"
+  ]
+ },
+ {
+  "slug": "kalmyk-tea",
+  "en": "Kalmyk Tea",
+  "zh": null,
+  "ru": "Калмыцкий чай",
+  "native": "Хальмг цә",
+  "aliases": [
+   "Jomba",
+   "Җомба",
+   "Джомба"
+  ],
+  "category": "heicha",
+  "country": "Russia",
+  "region": "Kalmykia",
+  "kind": "recipe",
+  "tier": 2,
+  "existing_slug": null,
+  "evidence": [
+   "https://ru.wikipedia.org/wiki/Калмыцкий_чай",
+   "https://ru.wikipedia.org/wiki/Краснодарский_чай",
+   "https://www.wikidata.org/wiki/Q60851303"
+  ]
+ },
+ {
+  "slug": "galmakh-chai",
+  "en": "Galmakh Chai",
+  "zh": null,
+  "ru": "Галмакх чай",
+  "native": null,
+  "aliases": [],
+  "category": "heicha",
+  "country": "Russia",
+  "region": "Chechnya",
+  "kind": "recipe",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://ru.wikipedia.org/wiki/Калмыцкий_чай"
+  ]
+ },
+ {
+  "slug": "etken-chay",
+  "en": "Etken Chay",
+  "zh": null,
+  "ru": "Эткен чай",
+  "native": "ئەتكەن چاي",
+  "aliases": [
+   "ئەتكەنچاي",
+   "Süt chay",
+   "شۈت چاي"
+  ],
+  "category": "heicha",
+  "country": "China",
+  "region": "Xinjiang",
+  "kind": "recipe",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://en.wikipedia.org/wiki/Butter_tea",
+   "https://en.wikipedia.org/wiki/Uyghur_cuisine"
+  ]
+ },
+ {
+  "slug": "grassland-milk-tea",
+  "en": "Grassland Milk Tea",
+  "zh": "草原奶茶",
+  "ru": "Цаоюань най ча",
+  "native": null,
+  "aliases": [],
+  "category": "heicha",
+  "country": "China",
+  "region": "Inner Mongolia",
+  "kind": "recipe",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://en.wikipedia.org/wiki/Milk_tea"
+  ]
+ },
+ {
+  "slug": "georgian-brick-tea",
+  "en": "Georgian Brick Tea",
+  "zh": null,
+  "ru": "Грузинский кирпичный чай",
+  "native": null,
+  "aliases": [],
+  "category": "heicha",
+  "country": "Georgia",
+  "region": null,
+  "kind": "style",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://ru.wikipedia.org/wiki/Грузинский_чай"
+  ]
+ },
+ {
+  "slug": "georgian-tile-tea",
+  "en": "Georgian Tile Tea",
+  "zh": null,
+  "ru": "Грузинский плиточный чай",
+  "native": null,
+  "aliases": [],
+  "category": "heicha",
+  "country": "Georgia",
+  "region": null,
+  "kind": "style",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://ru.wikipedia.org/wiki/Грузинский_чай"
+  ]
+ },
+ {
+  "slug": "nilgiri-puerh-style",
+  "en": "Nilgiri Puerh-Style Aged Tea",
+  "zh": null,
+  "ru": "Нилгири, выдержанный в стиле пуэра",
+  "native": null,
+  "aliases": [],
+  "category": "heicha",
+  "country": "India",
+  "region": "Tamil Nadu · Nilgiris",
+  "kind": "style",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://stir-tea-coffee.com/features/indian-origin-update-teas-of-nilgiris"
+  ]
+ }
+]

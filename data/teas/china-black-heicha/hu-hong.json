@@ -1,0 +1,67 @@
+{
+  "slug": "hu-hong",
+  "name_en": "Hu Hong (Hunan Black)",
+  "name_native": "湖红工夫",
+  "name_romanized": "Húhóng Gōngfu",
+  "aliases": [
+    "Hunan black tea",
+    "Huhong",
+    "Anhua Hong Cha",
+    "Anhua black tea",
+    "Hunan Congou",
+    "湖红",
+    "湖紅工夫"
+  ],
+  "category": "black",
+  "origin_country": "China",
+  "origin_region": "Hunan · Yiyang · Anhua (also Xinhua and nearby counties)",
+  "cultivar": "Anhua and other Hunan medium-leaf population bushes, with modern cultivars in newer gardens",
+  "processing": "Fully oxidised gongfu black: withered, rolled firmly, oxidised and dried; traditional lots were dried over pine wood, which leaves a light smoky note.",
+  "form": "loose",
+  "harvest_season": "Spring (April) for the best lots; summer pickings go into the plainer grades.",
+  "appearance_dry": "Tight, slightly coarse dark strands with a few golden tips.",
+  "appearance_liquor": "Deep red and bright.",
+  "appearance_wet": "Copper-brown leaves, slightly larger and firmer than Fujian gongfu leaf.",
+  "taste_profile": "Strong and mellow with malt and dried fruit, a hint of pine smoke in traditional lots and a firm, sweet finish.",
+  "taste_tags": [
+    "malty",
+    "dried-fruit",
+    "smoky",
+    "sweet",
+    "brisk"
+  ],
+  "brewing": {
+    "grams": 5,
+    "water_ml": 110,
+    "temp_c": 95,
+    "steeps": 7,
+    "seconds": [
+      10,
+      10,
+      15,
+      20,
+      30,
+      45,
+      60
+    ],
+    "notes": "Sturdy tea: water near the boil, short steeps. Western-style: 3 g per 250 ml, 3–4 minutes, takes milk."
+  },
+  "caffeine_level": "medium",
+  "vintage_note": "Sold as the current year's spring harvest, mostly within Hunan and often under the Anhua Hong Cha label, which gained national geographical indication status in 2025; drink within a year or two. Not aged – the ageing teas from Anhua are its heicha, not its black.",
+  "description": "Hu Hong is Hunan's gongfu black, and it is a tea with a bigger past than present. From the 1850s, Hunan black from Anhua and the counties around it was a major export tea; local accounts have it going down the Zi River and out through Guangzhou to Britain and Russia, and Anhua was so dominant that the tea was often just called Anhua gongfu. Today Anhua is the capital of Hunan dark tea, and the black is the county's sideline.\n\nIt is made in the standard gongfu way from Hunan medium-leaf bushes – withered, rolled firmly, oxidised and dried – and the traditional drying over pine wood, the same fuel Anhua uses for its dark tea, left a light smoky note that older descriptions treat as part of its character. Modern lots are mostly dried with hot air and are cleaner and sweeter.\n\nIn the cup it is strong, mellow and malty with dried fruit, sometimes a whisper of pine, and a firm finish; it stands up to water near the boil, gives six or seven steeps and makes a proper milk-tea pot. It is closer in weight to a Yingde or an Assam than to the delicate Fujian blacks.\n\nIt is sold as the current spring, mostly in Hunan and often under the label 'Anhua hong cha' or simply 'Hunan black tea'; there is little of it abroad. Look for tight, glossy leaf and a sweet, slightly smoky dry aroma; if a lot tastes thin and papery it is summer leaf. Do not confuse it with Anhua's dark teas, which share the county and the pine fires but are a different category entirely.\n\nIt is worth a try if you already drink Anhua heicha: the same hills and the same smoke, taken in a completely different direction.",
+  "wikipedia_title": "Congou",
+  "wikipedia_scope": "umbrella",
+  "popularity": 1,
+  "sources_note": "Historical export role is well documented; present-day production figures are not, and the pine-drying note is from older Chinese descriptions of the style.",
+  "name_zh": "湖红工夫",
+  "name_ru": "Ху Хун",
+  "history": "Hu Hong's documented story starts with Anhua in the 1850s. Hunan press puts the first shipments to Britain at 1854 and repeats the saying that London buyers would take only Anhua marks. A local report on Yanxi, one of the Anhua townships, says that in the early Xianfeng years its tea went down the Zi River and out through Guangzhou to Britain and Russia, at 200,000 chests a year. These are local accounts proud of their own county, so take the numbers as such. Claims reaching back to the Tang or to 1073 refer to tea in the region, not to this black tea.\n\nThe same press records a gold medal at the 1915 Panama exposition and another prize at the Milan Expo in 2015. Between those, tea acreage in the area peaked in the collective era and shrank when land went back to forest, and local firms are now rebuilding the trade. Anhua black was approved as a national geographical indication in August 2025. The Yanxi report also counts Feng Shaoqiu, who went on to start Dian Hong in Yunnan, as an Anhua tea maker.",
+  "liquor_hex": "#9C3317",
+  "leaf_hex": "#33241A",
+  "sources": [
+    "https://m.voc.com.cn/xhn/news/202605/32633100.html",
+    "https://m.voc.com.cn/xhn/news/202610/33963053.html",
+    "https://www.cnpp.cn/focus/39760.html"
+  ],
+  "confidence": "medium"
+}

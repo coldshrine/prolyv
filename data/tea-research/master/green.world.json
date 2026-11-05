@@ -1,0 +1,3716 @@
+[
+ {
+  "slug": "assam-green",
+  "en": "Assam Green Tea",
+  "zh": null,
+  "ru": "Ассамский зелёный чай",
+  "native": null,
+  "aliases": [
+   "Assam Green"
+  ],
+  "category": "green",
+  "country": "India",
+  "region": "Assam",
+  "kind": "style",
+  "tier": 2,
+  "existing_slug": "assam-green",
+  "evidence": [
+   "https://en.wikipedia.org/wiki/Assam_tea",
+   "https://ratetea.com/styles.php"
+  ]
+ },
+ {
+  "slug": "ceylon-green",
+  "en": "Ceylon Green Tea",
+  "zh": null,
+  "ru": "Цейлонский зелёный чай",
+  "native": null,
+  "aliases": [],
+  "category": "green",
+  "country": "Sri Lanka",
+  "region": null,
+  "kind": "style",
+  "tier": 2,
+  "existing_slug": "ceylon-green",
+  "evidence": [
+   "https://en.wikipedia.org/wiki/Tea_production_in_Sri_Lanka"
+  ]
+ },
+ {
+  "slug": "darjeeling-green",
+  "en": "Darjeeling Green Tea",
+  "zh": null,
+  "ru": "Дарджилинг зелёный",
+  "native": null,
+  "aliases": [
+   "Darjeeling green"
+  ],
+  "category": "green",
+  "country": "India",
+  "region": "West Bengal · Darjeeling",
+  "kind": "appellation",
+  "tier": 2,
+  "existing_slug": "darjeeling-green",
+  "evidence": [
+   "https://en.wikipedia.org/wiki/Darjeeling_tea",
+   "https://ratetea.com/styles.php"
+  ]
+ },
+ {
+  "slug": "kangra-green",
+  "en": "Kangra Green Tea",
+  "zh": null,
+  "ru": "Кангра зелёный чай",
+  "native": null,
+  "aliases": [],
+  "category": "green",
+  "country": "India",
+  "region": "Himachal Pradesh · Kangra",
+  "kind": "style",
+  "tier": 2,
+  "existing_slug": "kangra-green",
+  "evidence": [
+   "https://en.wikipedia.org/wiki/Kangra_tea"
+  ]
+ },
+ {
+  "slug": "kashmiri-kahwa",
+  "en": "Kashmiri Kahwa",
+  "zh": null,
+  "ru": "Кашмирская кахва",
+  "native": null,
+  "aliases": [
+   "Kehwa",
+   "Qehwa"
+  ],
+  "category": "green",
+  "country": "India",
+  "region": "Jammu and Kashmir · Kashmir",
+  "kind": "recipe",
+  "tier": 1,
+  "existing_slug": "kashmiri-kahwa",
+  "evidence": [
+   "https://www.localsamosa.com/2020/05/28/local-chai-of-india",
+   "https://www.wikidata.org/wiki/Q136549327",
+   "https://en.wikipedia.org/wiki/Kahwah"
+  ]
+ },
+ {
+  "slug": "nepal-green",
+  "en": "Nepal Green Tea",
+  "zh": null,
+  "ru": "Непальский зелёный чай",
+  "native": null,
+  "aliases": [
+   "Nepali green tea"
+  ],
+  "category": "green",
+  "country": "Nepal",
+  "region": null,
+  "kind": "style",
+  "tier": 2,
+  "existing_slug": "nepal-green",
+  "evidence": [
+   "https://en.wikipedia.org/wiki/Tea_production_in_Nepal",
+   "https://blog.englishteastore.com/2014/07/08/tea-gardens-in-nepal"
+  ]
+ },
+ {
+  "slug": "boseong-green",
+  "en": "Boseong Green Tea",
+  "zh": null,
+  "ru": "Посон нокча",
+  "native": "보성 녹차",
+  "aliases": [
+   "Посон",
+   "Boseong nokcha",
+   "보성녹차"
+  ],
+  "category": "green",
+  "country": "South Korea",
+  "region": "Jeollanam-do · Boseong",
+  "kind": "appellation",
+  "tier": 1,
+  "existing_slug": "boseong-green",
+  "evidence": [
+   "https://en.wikipedia.org/wiki/Korean_tea",
+   "https://ko.wikipedia.org/wiki/한국의_차"
+  ]
+ },
+ {
+  "slug": "hadong-green",
+  "en": "Hadong Green Tea",
+  "zh": null,
+  "ru": "Хадон нокча",
+  "native": "하동 녹차",
+  "aliases": [
+   "Хадон",
+   "Hadong nokcha",
+   "하동녹차"
+  ],
+  "category": "green",
+  "country": "South Korea",
+  "region": "Gyeongsangnam-do · Hadong",
+  "kind": "appellation",
+  "tier": 1,
+  "existing_slug": "hadong-green",
+  "evidence": [
+   "https://en.wikipedia.org/wiki/Korean_tea",
+   "https://ko.wikipedia.org/wiki/한국의_차"
+  ]
+ },
+ {
+  "slug": "jeju-green",
+  "en": "Jeju Green Tea",
+  "zh": null,
+  "ru": "Чеджу нокча",
+  "native": "제주 녹차",
+  "aliases": [
+   "Чеджу"
+  ],
+  "category": "green",
+  "country": "South Korea",
+  "region": "Jeju",
+  "kind": "appellation",
+  "tier": 1,
+  "existing_slug": "jeju-green",
+  "evidence": [
+   "https://en.wikipedia.org/wiki/Korean_tea"
+  ]
+ },
+ {
+  "slug": "daejak",
+  "en": "Daejak",
+  "zh": "大雀",
+  "ru": "Тэджак",
+  "native": "대작",
+  "aliases": [],
+  "category": "green",
+  "country": "South Korea",
+  "region": null,
+  "kind": "style",
+  "tier": 2,
+  "existing_slug": "daejak",
+  "evidence": [
+   "https://en.wikipedia.org/wiki/Green_tea",
+   "https://en.wikipedia.org/wiki/Korean_tea"
+  ]
+ },
+ {
+  "slug": "jungjak",
+  "en": "Jungjak",
+  "zh": "中雀",
+  "ru": "Чунджак",
+  "native": "중작",
+  "aliases": [],
+  "category": "green",
+  "country": "South Korea",
+  "region": null,
+  "kind": "style",
+  "tier": 2,
+  "existing_slug": "jungjak",
+  "evidence": [
+   "https://en.wikipedia.org/wiki/Green_tea",
+   "https://en.wikipedia.org/wiki/Korean_tea"
+  ]
+ },
+ {
+  "slug": "sejak",
+  "en": "Sejak",
+  "zh": "细雀",
+  "ru": "Седжак",
+  "native": "세작",
+  "aliases": [
+   "두물차",
+   "second flush tea"
+  ],
+  "category": "green",
+  "country": "South Korea",
+  "region": null,
+  "kind": "style",
+  "tier": 1,
+  "existing_slug": "sejak",
+  "evidence": [
+   "https://en.wikipedia.org/wiki/Korean_tea",
+   "https://en.wikipedia.org/wiki/Sejak",
+   "https://ratetea.com/styles.php"
+  ]
+ },
+ {
+  "slug": "ujeon",
+  "en": "Ujeon",
+  "zh": null,
+  "ru": "Уджон",
+  "native": "우전",
+  "aliases": [
+   "first flush tea",
+   "pre-rain"
+  ],
+  "category": "green",
+  "country": "South Korea",
+  "region": null,
+  "kind": "style",
+  "tier": 1,
+  "existing_slug": "ujeon",
+  "evidence": [
+   "https://www.wikidata.org/wiki/Q30043971"
+  ]
+ },
+ {
+  "slug": "malcha",
+  "en": "Garu-cha (Korean powdered tea)",
+  "zh": "粉茶",
+  "ru": "Гару-ча",
+  "native": "가루차",
+  "aliases": [
+   "Garu-cha",
+   "Garucha"
+  ],
+  "category": "green",
+  "country": "South Korea",
+  "region": null,
+  "kind": "style",
+  "tier": 2,
+  "existing_slug": "malcha",
+  "evidence": [
+   "https://en.wikipedia.org/wiki/Korean_tea",
+   "https://en.wikipedia.org/wiki/Green_tea"
+  ]
+ },
+ {
+  "slug": "gorreana-green",
+  "en": "Gorreana Green Tea (Hysson)",
+  "zh": null,
+  "ru": "Горреана зелёный",
+  "native": "Chá Gorreana",
+  "aliases": [
+   "Gorreana",
+   "Gorreana Hysson",
+   "Hysson"
+  ],
+  "category": "green",
+  "country": "Portugal",
+  "region": "Azores · São Miguel",
+  "kind": "style",
+  "tier": 2,
+  "existing_slug": "gorreana-green",
+  "evidence": [
+   "https://en.wikipedia.org/wiki/Gorreana",
+   "https://en.wikipedia.org/wiki/Tea_culture",
+   "https://www.wikidata.org/wiki/Q1090276"
+  ]
+ },
+ {
+  "slug": "laphet",
+  "en": "Lahpet (Laphet)",
+  "zh": "腌茶",
+  "ru": "Лахпет",
+  "native": "လက်ဖက်",
+  "aliases": [
+   "Lahpet-to",
+   "Лэпхэ-тоу",
+   "Lephet-so",
+   "Леппет-со"
+  ],
+  "category": "green",
+  "country": "Myanmar",
+  "region": "Shan State",
+  "kind": "style",
+  "tier": 1,
+  "existing_slug": "laphet",
+  "evidence": [
+   "https://en.wikipedia.org/wiki/Lahpet",
+   "https://ru.wikipedia.org/wiki/Категория:Чай",
+   "https://ru.wikipedia.org/wiki/Постферментированный_чай"
+  ]
+ },
+ {
+  "slug": "myanmar-green",
+  "en": "Lahpet chauk",
+  "zh": null,
+  "ru": "Лахпет чаук",
+  "native": "လက်ဖက်ခြောက်",
+  "aliases": [
+   "A-gyan gyauk",
+   "အကြမ်းခြောက်"
+  ],
+  "category": "green",
+  "country": "Myanmar",
+  "region": "Shan State",
+  "kind": "style",
+  "tier": 2,
+  "existing_slug": "myanmar-green",
+  "evidence": [
+   "https://en.wikipedia.org/wiki/Lahpet"
+  ]
+ },
+ {
+  "slug": "shan-tuyet",
+  "en": "Shan Tuyet",
+  "zh": null,
+  "ru": "Шань Тует",
+  "native": "Trà shan tuyết",
+  "aliases": [
+   "Shan Tuyet (Trà shan tuyết)",
+   "Shan Tuyet green tea"
+  ],
+  "category": "green",
+  "country": "Vietnam",
+  "region": "Hà Giang",
+  "kind": null,
+  "tier": 1,
+  "existing_slug": "shan-tuyet",
+  "evidence": [
+   "https://en.wikipedia.org/wiki/Vietnamese_tea",
+   "https://www.alveus.eu/?p=46560",
+   "https://www.wikidata.org/wiki/Q18460898"
+  ]
+ },
+ {
+  "slug": "thai-nguyen-green",
+  "en": "Thai Nguyen Green Tea",
+  "zh": "太原绿茶",
+  "ru": "Зелёный чай Тхайнгуен",
+  "native": "Chè Thái Nguyên",
+  "aliases": [],
+  "category": "green",
+  "country": "Vietnam",
+  "region": "Thái Nguyên",
+  "kind": "appellation",
+  "tier": 1,
+  "existing_slug": "thai-nguyen-green",
+  "evidence": [
+   "https://en.traviet.com/c/tea/"
+  ]
+ },
+ {
+  "slug": "vietnamese-jasmine",
+  "en": "Vietnamese Jasmine Tea (Trà lài)",
+  "zh": "越南茉莉花茶",
+  "ru": "Вьетнамский жасминовый чай",
+  "native": "Trà lài",
+  "aliases": [
+   "Trà lài (Jasmine tea)",
+   "Jasmine tea (Vietnam)"
+  ],
+  "category": "green",
+  "country": "Vietnam",
+  "region": null,
+  "kind": "scented",
+  "tier": 1,
+  "existing_slug": "vietnamese-jasmine",
+  "evidence": [
+   "https://en.wikipedia.org/wiki/Vietnamese_tea",
+   "https://en.wikipedia.org/wiki/Green_tea"
+  ]
+ },
+ {
+  "slug": "vietnamese-lotus-tea",
+  "en": "Vietnamese Lotus Tea (Trà sen)",
+  "zh": "越南莲花茶",
+  "ru": "Вьетнамский лотосовый чай",
+  "native": "Trà sen",
+  "aliases": [
+   "Trà sen (Lotus tea)",
+   "Vietnamese lotus tea",
+   "Lotus Green Tea"
+  ],
+  "category": "green",
+  "country": "Vietnam",
+  "region": null,
+  "kind": "scented",
+  "tier": 1,
+  "existing_slug": "vietnamese-lotus-tea",
+  "evidence": [
+   "https://en.wikipedia.org/wiki/Vietnamese_tea",
+   "https://en.wikipedia.org/wiki/Green_tea",
+   "https://en.wikipedia.org/wiki/Tea_blending_and_additives"
+  ]
+ },
+ {
+  "slug": "indonesian-jasmine",
+  "en": "Indonesian Jasmine Tea",
+  "zh": "印尼茉莉花茶",
+  "ru": "Индонезийский жасминовый чай",
+  "native": null,
+  "aliases": [
+   "Jasmine tea (Indonesian)",
+   "Индонезийский жасминовый"
+  ],
+  "category": "green",
+  "country": "Indonesia",
+  "region": "Java",
+  "kind": "scented",
+  "tier": 2,
+  "existing_slug": "indonesian-jasmine",
+  "evidence": [
+   "https://en.wikipedia.org/wiki/Tea_production_in_Indonesia"
+  ]
+ },
+ {
+  "slug": "moroccan-mint-tea",
+  "en": "Moroccan Mint Tea (Atay)",
+  "zh": "马格里布薄荷茶",
+  "ru": "Марокканский мятный чай",
+  "native": "أتاي",
+  "aliases": [
+   "Atay",
+   "Maghrebi Mint Tea",
+   "Moroccan mint tea",
+   "Touareg tea",
+   "Tunisian mint tea",
+   "Atay b'naanaa",
+   "الشاي بالنعناع",
+   "Latay",
+   "Moroccan Green Mint",
+   "Green Tea with Mint",
+   "Tuareg Mint Tea",
+   "Туарегский чай (мятный)"
+  ],
+  "category": "green",
+  "country": "Morocco",
+  "region": null,
+  "kind": "recipe",
+  "tier": 1,
+  "existing_slug": "moroccan-mint-tea",
+  "evidence": [
+   "https://en.wikipedia.org/wiki/Maghrebi_mint_tea",
+   "https://en.wikipedia.org/wiki/Tea_blending_and_additives",
+   "https://en.wikipedia.org/wiki/Tea_culture"
+  ]
+ },
+ {
+  "slug": "sanxia-bi-luo-chun",
+  "en": "Sanxia Bi Luo Chun",
+  "zh": "三峡碧螺春",
+  "ru": "Санься билочунь",
+  "native": null,
+  "aliases": [
+   "San Hsia Bi Luo Chun",
+   "San Xia Bi Luo Chun",
+   "Sanxia Biluochun",
+   "三峽碧螺春",
+   "Саньсяский Билочунь",
+   "Санья Билуочунь",
+   "Taiwan Biluochun",
+   "台湾碧螺春",
+   "Taiwanese Green Snail Spring"
+  ],
+  "category": "green",
+  "country": "Taiwan",
+  "region": "New Taipei · Sanxia",
+  "kind": "appellation",
+  "tier": 2,
+  "existing_slug": "sanxia-bi-luo-chun",
+  "evidence": [
+   "https://ru.wikipedia.org/wiki/Тайваньский_чай",
+   "https://wangfamilytea.com/",
+   "https://www.7teahouse.com/pages/blog-tea-cultivars-of-taiwan"
+  ]
+ },
+ {
+  "slug": "sanxia-longjing",
+  "en": "Sanxia Longjing (Taiwanese Dragon Well)",
+  "zh": "三峡龙井",
+  "ru": "Санься лунцзин",
+  "native": null,
+  "aliases": [
+   "Taiwan Longjing (Sanxia)",
+   "三峽龍井",
+   "Taiwan Longjing",
+   "台湾龙井茶",
+   "Taiwanese Dragon Well",
+   "Taiwanese Longjing",
+   "台湾龙井",
+   "Тайваньский лонгцзин"
+  ],
+  "category": "green",
+  "country": "Taiwan",
+  "region": "New Taipei · Sanxia",
+  "kind": "appellation",
+  "tier": 2,
+  "existing_slug": "sanxia-longjing",
+  "evidence": [
+   "https://en.wikipedia.org/wiki/Taiwanese_tea",
+   "https://zh.wikipedia.org/wiki/%E7%B6%A0%E8%8C%B6",
+   "https://ru.wikipedia.org/wiki/Тайваньский_чай"
+  ]
+ },
+ {
+  "slug": "jakseol-cha",
+  "en": "Jakseol-cha",
+  "zh": "雀舌茶",
+  "ru": "Чаксоль-ча",
+  "native": "작설차",
+  "aliases": [
+   "jakseol",
+   "세작"
+  ],
+  "category": "green",
+  "country": "South Korea",
+  "region": null,
+  "kind": "style",
+  "tier": 2,
+  "existing_slug": null,
+  "evidence": [
+   "https://ko.wikipedia.org/wiki/차_(음료)",
+   "https://www.wikidata.org/wiki/Q30043950"
+  ]
+ },
+ {
+  "slug": "banya-cha",
+  "en": "Banya-cha",
+  "zh": "般若茶",
+  "ru": "Панья-ча",
+  "native": "반야차",
+  "aliases": [],
+  "category": "green",
+  "country": "South Korea",
+  "region": "Gyeongsangnam-do · Hadong",
+  "kind": "style",
+  "tier": 2,
+  "existing_slug": null,
+  "evidence": [
+   "https://en.wikipedia.org/wiki/Green_tea",
+   "https://en.wikipedia.org/wiki/Korean_tea"
+  ]
+ },
+ {
+  "slug": "jungno-cha",
+  "en": "Jungno-cha",
+  "zh": "竹露茶",
+  "ru": "Чунно-ча",
+  "native": "죽로차",
+  "aliases": [],
+  "category": "green",
+  "country": "South Korea",
+  "region": null,
+  "kind": "style",
+  "tier": 2,
+  "existing_slug": null,
+  "evidence": [
+   "https://en.wikipedia.org/wiki/Green_tea",
+   "https://en.wikipedia.org/wiki/Korean_tea"
+  ]
+ },
+ {
+  "slug": "bucho-cha",
+  "en": "Bucho-cha",
+  "zh": null,
+  "ru": "Пучо-ча",
+  "native": "부초차",
+  "aliases": [],
+  "category": "green",
+  "country": "South Korea",
+  "region": null,
+  "kind": "style",
+  "tier": 2,
+  "existing_slug": null,
+  "evidence": [
+   "https://en.wikipedia.org/wiki/Green_tea",
+   "https://ko.wikipedia.org/wiki/차_(음료)"
+  ]
+ },
+ {
+  "slug": "janggun-cha",
+  "en": "Janggun-cha (General tea)",
+  "zh": null,
+  "ru": "Чангун-ча",
+  "native": "장군차",
+  "aliases": [],
+  "category": "green",
+  "country": "South Korea",
+  "region": "South Gyeongsang · Gimhae",
+  "kind": "appellation",
+  "tier": 2,
+  "existing_slug": null,
+  "evidence": [
+   "https://www.gimhae.go.kr/tour.web"
+  ]
+ },
+ {
+  "slug": "gurye-green",
+  "en": "Gurye Green Tea",
+  "zh": null,
+  "ru": "Курье нокча",
+  "native": "구례 녹차",
+  "aliases": [],
+  "category": "green",
+  "country": "South Korea",
+  "region": "Jeollanam-do · Gurye",
+  "kind": "appellation",
+  "tier": 2,
+  "existing_slug": null,
+  "evidence": [
+   "https://ko.wikipedia.org/wiki/녹차"
+  ]
+ },
+ {
+  "slug": "sacheon-green",
+  "en": "Sacheon Green Tea",
+  "zh": null,
+  "ru": null,
+  "native": "사천 녹차",
+  "aliases": [],
+  "category": "green",
+  "country": "South Korea",
+  "region": "Gyeongsangnam-do · Sacheon",
+  "kind": "appellation",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://ko.wikipedia.org/wiki/녹차"
+  ]
+ },
+ {
+  "slug": "hadong-yasaeng-nokcha",
+  "en": "Hadong Yasaeng Nokcha (wild green tea)",
+  "zh": null,
+  "ru": "Хадон ясэн нокча",
+  "native": "야생녹차",
+  "aliases": [],
+  "category": "green",
+  "country": "South Korea",
+  "region": "South Gyeongsang · Hwagae",
+  "kind": "appellation",
+  "tier": 2,
+  "existing_slug": null,
+  "evidence": [
+   "https://ko.wikipedia.org/wiki/화개면"
+  ]
+ },
+ {
+  "slug": "jeongeup-jasaeng-cha",
+  "en": "Jeongeup Jasaeng-cha (native tea)",
+  "zh": null,
+  "ru": null,
+  "native": "정읍자생차",
+  "aliases": [
+   "Jasaeng Nokcha (native wild green tea)",
+   "자생녹차"
+  ],
+  "category": "green",
+  "country": "South Korea",
+  "region": "North Jeolla · Jeongeup",
+  "kind": "appellation",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://ko.wikipedia.org/wiki/정읍시"
+  ]
+ },
+ {
+  "slug": "seollok-cha",
+  "en": "Seollok-cha",
+  "zh": null,
+  "ru": null,
+  "native": "설록차",
+  "aliases": [],
+  "category": "green",
+  "country": "South Korea",
+  "region": "Jeju",
+  "kind": "style",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://ko.wikipedia.org/wiki/오설록"
+  ]
+ },
+ {
+  "slug": "jeungje-cha",
+  "en": "Jeungje-cha",
+  "zh": "蒸制茶",
+  "ru": null,
+  "native": "증제차",
+  "aliases": [],
+  "category": "green",
+  "country": "South Korea",
+  "region": null,
+  "kind": "style",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://en.wikipedia.org/wiki/Green_tea",
+   "https://en.wikipedia.org/wiki/Korean_tea"
+  ]
+ },
+ {
+  "slug": "ipcha",
+  "en": "Ipcha (Yeopcha)",
+  "zh": "叶茶",
+  "ru": "Ипча",
+  "native": "잎차",
+  "aliases": [
+   "Ipcha",
+   "Yeopcha",
+   "엽차",
+   "Ёпча"
+  ],
+  "category": "green",
+  "country": "South Korea",
+  "region": null,
+  "kind": "style",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://en.wikipedia.org/wiki/Green_tea",
+   "https://en.wikipedia.org/wiki/Korean_tea"
+  ]
+ },
+ {
+  "slug": "gogu-korean-green",
+  "en": "Gogu",
+  "zh": "谷雨",
+  "ru": "Коку",
+  "native": "곡우",
+  "aliases": [],
+  "category": "green",
+  "country": "South Korea",
+  "region": null,
+  "kind": null,
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://ko.wikipedia.org/wiki/녹차"
+  ]
+ },
+ {
+  "slug": "cheotmul-cha",
+  "en": "Cheotmul-cha",
+  "zh": null,
+  "ru": null,
+  "native": "첫물차",
+  "aliases": [],
+  "category": "green",
+  "country": "South Korea",
+  "region": null,
+  "kind": "style",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://ko.wikipedia.org/wiki/차_(음료)"
+  ]
+ },
+ {
+  "slug": "dumul-cha",
+  "en": "Dumul-cha",
+  "zh": null,
+  "ru": null,
+  "native": "두물차",
+  "aliases": [],
+  "category": "green",
+  "country": "South Korea",
+  "region": null,
+  "kind": "style",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://ko.wikipedia.org/wiki/차_(음료)"
+  ]
+ },
+ {
+  "slug": "semul-cha",
+  "en": "Semul-cha",
+  "zh": null,
+  "ru": null,
+  "native": "세물차",
+  "aliases": [],
+  "category": "green",
+  "country": "South Korea",
+  "region": null,
+  "kind": "style",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://ko.wikipedia.org/wiki/차_(음료)"
+  ]
+ },
+ {
+  "slug": "nemul-cha",
+  "en": "Nemul-cha",
+  "zh": null,
+  "ru": null,
+  "native": "네물차",
+  "aliases": [],
+  "category": "green",
+  "country": "South Korea",
+  "region": null,
+  "kind": "style",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://ko.wikipedia.org/wiki/차_(음료)"
+  ]
+ },
+ {
+  "slug": "remon-nokcha",
+  "en": "Remon-nokcha (lemon green tea)",
+  "zh": null,
+  "ru": "Лимонный нокча",
+  "native": "레몬 녹차",
+  "aliases": [
+   "Remon-nokcha"
+  ],
+  "category": "green",
+  "country": "South Korea",
+  "region": null,
+  "kind": "blend",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://en.wikipedia.org/wiki/Green_tea",
+   "https://en.wikipedia.org/wiki/Korean_tea"
+  ]
+ },
+ {
+  "slug": "bohyang-korean-cultivar",
+  "en": "Bohyang",
+  "zh": "宝香",
+  "ru": null,
+  "native": "보향",
+  "aliases": [],
+  "category": "green",
+  "country": "South Korea",
+  "region": "South Jeolla · Suncheon",
+  "kind": "cultivar",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://ko.wikipedia.org/wiki/차나무"
+  ]
+ },
+ {
+  "slug": "chamnok-korean-cultivar",
+  "en": "Chamnok",
+  "zh": null,
+  "ru": null,
+  "native": "참녹",
+  "aliases": [],
+  "category": "green",
+  "country": "South Korea",
+  "region": "South Gyeongsang · Hadong",
+  "kind": "cultivar",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://ko.wikipedia.org/wiki/차나무"
+  ]
+ },
+ {
+  "slug": "mihyang-korean-cultivar",
+  "en": "Mihyang",
+  "zh": null,
+  "ru": null,
+  "native": "미향",
+  "aliases": [],
+  "category": "green",
+  "country": "South Korea",
+  "region": null,
+  "kind": "cultivar",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://ko.wikipedia.org/wiki/차나무"
+  ]
+ },
+ {
+  "slug": "myeongseon-korean-cultivar",
+  "en": "Myeongseon",
+  "zh": "茗禅",
+  "ru": null,
+  "native": "명선",
+  "aliases": [],
+  "category": "green",
+  "country": "South Korea",
+  "region": "South Jeolla · Yeosu",
+  "kind": "cultivar",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://ko.wikipedia.org/wiki/차나무"
+  ]
+ },
+ {
+  "slug": "seonhyang-korean-cultivar",
+  "en": "Seonhyang",
+  "zh": null,
+  "ru": null,
+  "native": "선향",
+  "aliases": [],
+  "category": "green",
+  "country": "South Korea",
+  "region": "South Jeolla · Gurye",
+  "kind": "cultivar",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://ko.wikipedia.org/wiki/차나무"
+  ]
+ },
+ {
+  "slug": "laphet-thoke",
+  "en": "Laphet thoke (tea leaf salad)",
+  "zh": null,
+  "ru": "Лахпет тхоук",
+  "native": "လက်ဖက်သုပ်",
+  "aliases": [
+   "Lahpet thoke",
+   "Laphet thoke",
+   "Laphet salad",
+   "Салат из чайных листьев"
+  ],
+  "category": "green",
+  "country": "Myanmar",
+  "region": "Shan State",
+  "kind": "recipe",
+  "tier": 2,
+  "existing_slug": null,
+  "evidence": [
+   "https://en.wikipedia.org/wiki/Lahpet",
+   "https://teakulture.be/en/myanmar/",
+   "https://blog.englishteastore.com/2013/10/16/teas-of-the-world-myanmar-teas/"
+  ]
+ },
+ {
+  "slug": "yay-nway-gyan",
+  "en": "Yay nway gyan (Burmese plain green tea)",
+  "zh": null,
+  "ru": "Е нуэ джан",
+  "native": "ရေနွေးကြမ်း",
+  "aliases": [
+   "Yay nway gyan",
+   "Yei-nway gyan",
+   "Lahpet-yei gyan",
+   "လက်ဖက်ရည်ကြမ်း"
+  ],
+  "category": "green",
+  "country": "Myanmar",
+  "region": "Shan State",
+  "kind": "style",
+  "tier": 2,
+  "existing_slug": null,
+  "evidence": [
+   "https://en.wikipedia.org/wiki/Burmese_cuisine",
+   "https://en.wikipedia.org/wiki/Lahpet"
+  ]
+ },
+ {
+  "slug": "a-nyunt-lahpet",
+  "en": "A Nyunt (pickled tea leaves)",
+  "zh": null,
+  "ru": null,
+  "native": null,
+  "aliases": [],
+  "category": "green",
+  "country": "Myanmar",
+  "region": "Shan State",
+  "kind": null,
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://mylocalpassion.com/posts/one-can-discover-the-different-styles-of-tea-leaf-salad-in-myanmar"
+  ]
+ },
+ {
+  "slug": "a-hlu-lahpet",
+  "en": "A-hlu lahpet (Mandalay lahpet)",
+  "zh": null,
+  "ru": null,
+  "native": "အလှူလက်ဖက်",
+  "aliases": [],
+  "category": "green",
+  "country": "Myanmar",
+  "region": "Shan State",
+  "kind": "recipe",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://en.wikipedia.org/wiki/Lahpet"
+  ]
+ },
+ {
+  "slug": "hnapyan-gyaw-lahpet",
+  "en": "Hna-pyan gyaw",
+  "zh": null,
+  "ru": null,
+  "native": null,
+  "aliases": [],
+  "category": "green",
+  "country": "Myanmar",
+  "region": "Shan State",
+  "kind": "recipe",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://en.wikipedia.org/wiki/Lahpet"
+  ]
+ },
+ {
+  "slug": "golden-bracelet-lahpet",
+  "en": "Golden bracelet lahpet",
+  "zh": null,
+  "ru": null,
+  "native": "ရွှေလက်ကောက်",
+  "aliases": [],
+  "category": "green",
+  "country": "Myanmar",
+  "region": "Shan State",
+  "kind": null,
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://en.wikipedia.org/wiki/Lahpet"
+  ]
+ },
+ {
+  "slug": "shwephi-lahpet",
+  "en": "Shwephi",
+  "zh": null,
+  "ru": null,
+  "native": "ရွှေဖီ",
+  "aliases": [],
+  "category": "green",
+  "country": "Myanmar",
+  "region": "Shan State",
+  "kind": null,
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://en.wikipedia.org/wiki/Lahpet"
+  ]
+ },
+ {
+  "slug": "nibbinda-laphet",
+  "en": "Nibbinda laphet",
+  "zh": null,
+  "ru": null,
+  "native": "နိဗ္ဗိန္ဒလက်ဖက်",
+  "aliases": [],
+  "category": "green",
+  "country": "Myanmar",
+  "region": "Bago · Pyay",
+  "kind": null,
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://en.wikipedia.org/wiki/Lahpet"
+  ]
+ },
+ {
+  "slug": "taw-laphet",
+  "en": "Taw laphet",
+  "zh": null,
+  "ru": null,
+  "native": "တောလက်ဖက်",
+  "aliases": [],
+  "category": "green",
+  "country": "Myanmar",
+  "region": "Bago · Pyay",
+  "kind": null,
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://en.wikipedia.org/wiki/Lahpet"
+  ]
+ },
+ {
+  "slug": "zayan-lahpet",
+  "en": "Zayan lahpet",
+  "zh": null,
+  "ru": null,
+  "native": null,
+  "aliases": [],
+  "category": "green",
+  "country": "Myanmar",
+  "region": "Shan State",
+  "kind": null,
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://en.wikipedia.org/wiki/Lahpet"
+  ]
+ },
+ {
+  "slug": "myitkyina-laphet",
+  "en": "Myitkyina-style laphet",
+  "zh": null,
+  "ru": null,
+  "native": null,
+  "aliases": [],
+  "category": "green",
+  "country": "Myanmar",
+  "region": "Kachin · Myitkyina",
+  "kind": "recipe",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://mylocalpassion.com/posts/one-can-discover-the-different-styles-of-tea-leaf-salad-in-myanmar"
+  ]
+ },
+ {
+  "slug": "mogok-lahpet",
+  "en": "Mogok lahpet",
+  "zh": null,
+  "ru": null,
+  "native": null,
+  "aliases": [],
+  "category": "green",
+  "country": "Myanmar",
+  "region": "Mandalay · Mogok",
+  "kind": null,
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://en.wikipedia.org/wiki/Lahpet"
+  ]
+ },
+ {
+  "slug": "mogok-green",
+  "en": "Mogok Tea",
+  "zh": null,
+  "ru": null,
+  "native": null,
+  "aliases": [],
+  "category": "green",
+  "country": "Myanmar",
+  "region": "Mandalay · Mogok",
+  "kind": "appellation",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://teakulture.be/en/myanmar/"
+  ]
+ },
+ {
+  "slug": "namhsan-tea",
+  "en": "Namhsan Tea",
+  "zh": null,
+  "ru": "Намсан",
+  "native": null,
+  "aliases": [],
+  "category": "green",
+  "country": "Myanmar",
+  "region": "Shan State · Namhsan",
+  "kind": "appellation",
+  "tier": 2,
+  "existing_slug": null,
+  "evidence": [
+   "https://en.wikipedia.org/wiki/Lahpet"
+  ]
+ },
+ {
+  "slug": "tawngpeng-tea",
+  "en": "Tawngpeng Tea",
+  "zh": null,
+  "ru": "Таунпэн",
+  "native": null,
+  "aliases": [],
+  "category": "green",
+  "country": "Myanmar",
+  "region": "Shan State · Tawngpeng",
+  "kind": "appellation",
+  "tier": 2,
+  "existing_slug": null,
+  "evidence": [
+   "https://en.wikipedia.org/wiki/Lahpet"
+  ]
+ },
+ {
+  "slug": "kengtung-tea",
+  "en": "Kengtung Tea",
+  "zh": null,
+  "ru": null,
+  "native": null,
+  "aliases": [],
+  "category": "green",
+  "country": "Myanmar",
+  "region": "Shan State · Kengtung",
+  "kind": "appellation",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://en.wikipedia.org/wiki/Lahpet"
+  ]
+ },
+ {
+  "slug": "pindaya-tea",
+  "en": "Pindaya Tea",
+  "zh": null,
+  "ru": null,
+  "native": null,
+  "aliases": [],
+  "category": "green",
+  "country": "Myanmar",
+  "region": "Shan State · Pindaya",
+  "kind": "appellation",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://teakulture.be/en/myanmar/"
+  ]
+ },
+ {
+  "slug": "pinlaung-tea",
+  "en": "Pinlaung Tea",
+  "zh": null,
+  "ru": null,
+  "native": null,
+  "aliases": [],
+  "category": "green",
+  "country": "Myanmar",
+  "region": "Shan State · Pinlaung",
+  "kind": "appellation",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://teakulture.be/en/myanmar/"
+  ]
+ },
+ {
+  "slug": "pyin-oo-lwin-tea",
+  "en": "Pyin Oo Lwin Tea",
+  "zh": null,
+  "ru": null,
+  "native": null,
+  "aliases": [],
+  "category": "green",
+  "country": "Myanmar",
+  "region": "Mandalay · Pyin Oo Lwin",
+  "kind": "appellation",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://teakulture.be/en/myanmar/"
+  ]
+ },
+ {
+  "slug": "sagaing-tea",
+  "en": "Sagaing Tea",
+  "zh": null,
+  "ru": null,
+  "native": null,
+  "aliases": [],
+  "category": "green",
+  "country": "Myanmar",
+  "region": "Sagaing",
+  "kind": "appellation",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://teakulture.be/en/myanmar/"
+  ]
+ },
+ {
+  "slug": "ywangan-tea",
+  "en": "Ywangan Tea",
+  "zh": null,
+  "ru": null,
+  "native": null,
+  "aliases": [],
+  "category": "green",
+  "country": "Myanmar",
+  "region": "Shan State · Ywangan",
+  "kind": "appellation",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://teakulture.be/en/myanmar/"
+  ]
+ },
+ {
+  "slug": "kokang-green",
+  "en": "Kokang Green Tea",
+  "zh": "果敢绿茶",
+  "ru": null,
+  "native": null,
+  "aliases": [],
+  "category": "green",
+  "country": "Myanmar",
+  "region": "Shan State · Kokang",
+  "kind": "appellation",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://ratetea.com/region/burma/124/"
+  ]
+ },
+ {
+  "slug": "burmese-first-flush-green",
+  "en": "Burmese First Flush Green Tea",
+  "zh": null,
+  "ru": null,
+  "native": null,
+  "aliases": [],
+  "category": "green",
+  "country": "Myanmar",
+  "region": "Shan State",
+  "kind": "style",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://blog.englishteastore.com/2013/10/16/teas-of-the-world-myanmar-teas/"
+  ]
+ },
+ {
+  "slug": "burmese-roasted-green",
+  "en": "Burmese Roasted Green Tea",
+  "zh": null,
+  "ru": null,
+  "native": null,
+  "aliases": [],
+  "category": "green",
+  "country": "Myanmar",
+  "region": "Shan State",
+  "kind": "style",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://blog.englishteastore.com/2013/10/16/teas-of-the-world-myanmar-teas/"
+  ]
+ },
+ {
+  "slug": "shan-valley-first-flush",
+  "en": "Shan Valley First Flush",
+  "zh": null,
+  "ru": null,
+  "native": null,
+  "aliases": [],
+  "category": "green",
+  "country": "Myanmar",
+  "region": "Shan State",
+  "kind": null,
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://ratetea.com/region/burma/124/"
+  ]
+ },
+ {
+  "slug": "mountain-roasted-green-myanmar",
+  "en": "Mountain Roasted Green Tea",
+  "zh": null,
+  "ru": null,
+  "native": null,
+  "aliases": [],
+  "category": "green",
+  "country": "Myanmar",
+  "region": "Shan State",
+  "kind": null,
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://ratetea.com/region/burma/124/"
+  ]
+ },
+ {
+  "slug": "pyin-green-myanmar",
+  "en": "Pyin Green Tea",
+  "zh": null,
+  "ru": null,
+  "native": null,
+  "aliases": [],
+  "category": "green",
+  "country": "Myanmar",
+  "region": "Shan State",
+  "kind": null,
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://ratetea.com/region/burma/124/"
+  ]
+ },
+ {
+  "slug": "sticky-rice-green-myanmar",
+  "en": "Sticky Rice Green Tea",
+  "zh": null,
+  "ru": null,
+  "native": null,
+  "aliases": [],
+  "category": "green",
+  "country": "Myanmar",
+  "region": null,
+  "kind": "scented",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://www.thesteepingroom.com/products.json?limit=250"
+  ]
+ },
+ {
+  "slug": "tiny-temple-myanmar",
+  "en": "Tiny Temple",
+  "zh": null,
+  "ru": null,
+  "native": null,
+  "aliases": [],
+  "category": "green",
+  "country": "Myanmar",
+  "region": "Mandalay · Mogok",
+  "kind": null,
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://teakulture.be/en/myanmar/"
+  ]
+ },
+ {
+  "slug": "doi-mae-salong-green",
+  "en": "Doi Mae Salong Green Tea",
+  "zh": null,
+  "ru": null,
+  "native": null,
+  "aliases": [],
+  "category": "green",
+  "country": "Thailand",
+  "region": "Chiang Rai · Doi Mae Salong",
+  "kind": "appellation",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://stir-tea-coffee.com/features/doi-mae-salong-thailand%E2%80%99s-best-kept-tea-origin-secret/"
+  ]
+ },
+ {
+  "slug": "doi-inthanon-green",
+  "en": "Doi Inthanon Green Tea",
+  "zh": null,
+  "ru": null,
+  "native": null,
+  "aliases": [],
+  "category": "green",
+  "country": "Thailand",
+  "region": "Chiang Mai · Doi Inthanon",
+  "kind": "appellation",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://teaintheancientworld.blogspot.com/2017/04/reviewing-two-doi-inthanon-thai-teas.html"
+  ]
+ },
+ {
+  "slug": "yam-miang",
+  "en": "Yam miang",
+  "zh": null,
+  "ru": null,
+  "native": "ยำเหมียง",
+  "aliases": [],
+  "category": "green",
+  "country": "Thailand",
+  "region": "Northern Thailand",
+  "kind": "recipe",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://en.wikipedia.org/wiki/Lahpet"
+  ]
+ },
+ {
+  "slug": "neng-yam",
+  "en": "Neng yam",
+  "zh": null,
+  "ru": null,
+  "native": "ၼဵင်ႈယမ်း",
+  "aliases": [],
+  "category": "green",
+  "country": "Thailand",
+  "region": "Northern Thailand",
+  "kind": "recipe",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://en.wikipedia.org/wiki/Lahpet"
+  ]
+ },
+ {
+  "slug": "java-green",
+  "en": "Java Green Tea",
+  "zh": "爪哇绿茶",
+  "ru": "Зелёный чай Ява",
+  "native": null,
+  "aliases": [],
+  "category": "green",
+  "country": "Indonesia",
+  "region": "Java",
+  "kind": "appellation",
+  "tier": 2,
+  "existing_slug": null,
+  "evidence": [
+   "https://www.alveus.eu/blog/indonesian-tea/"
+  ]
+ },
+ {
+  "slug": "bali-tea",
+  "en": "Bali Tea",
+  "zh": null,
+  "ru": null,
+  "native": null,
+  "aliases": [],
+  "category": "green",
+  "country": "Indonesia",
+  "region": "Bali",
+  "kind": "appellation",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://www.alveus.eu/blog/indonesian-tea/"
+  ]
+ },
+ {
+  "slug": "amerta-bali-green",
+  "en": "Amerta Bali Tea Plantation",
+  "zh": null,
+  "ru": null,
+  "native": null,
+  "aliases": [],
+  "category": "green",
+  "country": "Indonesia",
+  "region": "Bali · Tabanan",
+  "kind": "estate",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://bali.live/p/tea-in-indonesia-tea-plantations-varieties-and-stores"
+  ]
+ },
+ {
+  "slug": "indonesian-gunpowder",
+  "en": "Indonesian Gunpowder Green",
+  "zh": null,
+  "ru": null,
+  "native": null,
+  "aliases": [],
+  "category": "green",
+  "country": "Indonesia",
+  "region": "West Java",
+  "kind": "style",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://ratetea.com/region/west-java/135/"
+  ]
+ },
+ {
+  "slug": "indonesian-mountain-green",
+  "en": "Indonesian Mountain Green",
+  "zh": null,
+  "ru": null,
+  "native": null,
+  "aliases": [],
+  "category": "green",
+  "country": "Indonesia",
+  "region": "West Java",
+  "kind": null,
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://ratetea.com/region/west-java/135/"
+  ]
+ },
+ {
+  "slug": "miang-indonesian",
+  "en": "Miang (Indonesian)",
+  "zh": null,
+  "ru": null,
+  "native": null,
+  "aliases": [],
+  "category": "green",
+  "country": "Indonesia",
+  "region": "Java",
+  "kind": "style",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://www.alveus.eu/blog/indonesian-tea/"
+  ]
+ },
+ {
+  "slug": "teh-hijau-tarik",
+  "en": "Teh hijau tarik",
+  "zh": null,
+  "ru": null,
+  "native": null,
+  "aliases": [],
+  "category": "green",
+  "country": "Indonesia",
+  "region": "Aceh",
+  "kind": "recipe",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://en.wikipedia.org/wiki/Teh_tarik"
+  ]
+ },
+ {
+  "slug": "sabah-organic-green",
+  "en": "Sabah Organic Green Tea",
+  "zh": null,
+  "ru": null,
+  "native": null,
+  "aliases": [],
+  "category": "green",
+  "country": "Malaysia",
+  "region": "Sabah · Ranau",
+  "kind": "appellation",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://malaysia4u.com/tea-guide"
+  ]
+ },
+ {
+  "slug": "cambodian-jasmine",
+  "en": "Cambodian Jasmine Tea",
+  "zh": "柬埔寨茉莉花茶",
+  "ru": "Камбоджийский жасминовый чай",
+  "native": null,
+  "aliases": [],
+  "category": "green",
+  "country": "Cambodia",
+  "region": null,
+  "kind": "scented",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://vice.com/en/article/in-cambodia-coffee-and-tea-come-together-in-one-cup"
+  ]
+ },
+ {
+  "slug": "phongsali-green",
+  "en": "Phongsali Tea",
+  "zh": null,
+  "ru": "Чай Пхонгсали",
+  "native": null,
+  "aliases": [],
+  "category": "green",
+  "country": "Laos",
+  "region": "Phongsaly",
+  "kind": "appellation",
+  "tier": 2,
+  "existing_slug": null,
+  "evidence": [
+   "https://www.fondazioneslowfood.com/en/ark-of-taste-slow-food/phongsali-tea/"
+  ]
+ },
+ {
+  "slug": "laos-ancient-tree-green",
+  "en": "Laos Ancient Tree Green Tea",
+  "zh": null,
+  "ru": "Лаосские древние деревья",
+  "native": null,
+  "aliases": [
+   "Laos Ancient Tree"
+  ],
+  "category": "green",
+  "country": "Laos",
+  "region": "Phongsaly",
+  "kind": "appellation",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://tea-lab.pages.dev/origins/laos/"
+  ]
+ },
+ {
+  "slug": "ban-komen-tea",
+  "en": "Ban Komen Tea",
+  "zh": null,
+  "ru": null,
+  "native": null,
+  "aliases": [],
+  "category": "green",
+  "country": "Laos",
+  "region": "Phongsaly · Ban Komen",
+  "kind": "appellation",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://www.fondazioneslowfood.com/en/ark-of-taste-slow-food/phongsali-tea/"
+  ]
+ },
+ {
+  "slug": "bokeo-tea",
+  "en": "Bokeo Tea",
+  "zh": null,
+  "ru": null,
+  "native": null,
+  "aliases": [],
+  "category": "green",
+  "country": "Laos",
+  "region": "Bokeo",
+  "kind": "appellation",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://www.tourismlaos.org/2025/05/29/laos-celebrates-its-ancient-tea-legacy-on-international-tea-day/"
+  ]
+ },
+ {
+  "slug": "champasak-tea",
+  "en": "Champasak Tea",
+  "zh": null,
+  "ru": null,
+  "native": null,
+  "aliases": [],
+  "category": "green",
+  "country": "Laos",
+  "region": "Champasak",
+  "kind": "appellation",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://www.tourismlaos.org/2025/05/29/laos-celebrates-its-ancient-tea-legacy-on-international-tea-day/"
+  ]
+ },
+ {
+  "slug": "houaphanh-tea",
+  "en": "Houaphanh Tea",
+  "zh": null,
+  "ru": null,
+  "native": null,
+  "aliases": [],
+  "category": "green",
+  "country": "Laos",
+  "region": "Houaphanh",
+  "kind": "appellation",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://www.tourismlaos.org/2025/05/29/laos-celebrates-its-ancient-tea-legacy-on-international-tea-day/"
+  ]
+ },
+ {
+  "slug": "oudomxay-tea",
+  "en": "Oudomxay Tea",
+  "zh": null,
+  "ru": null,
+  "native": null,
+  "aliases": [],
+  "category": "green",
+  "country": "Laos",
+  "region": "Oudomxay",
+  "kind": "appellation",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://www.tourismlaos.org/2025/05/29/laos-celebrates-its-ancient-tea-legacy-on-international-tea-day/"
+  ]
+ },
+ {
+  "slug": "xayabouly-tea",
+  "en": "Xayabouly Tea",
+  "zh": null,
+  "ru": null,
+  "native": null,
+  "aliases": [],
+  "category": "green",
+  "country": "Laos",
+  "region": "Xayabouly",
+  "kind": "appellation",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://www.tourismlaos.org/2025/05/29/laos-celebrates-its-ancient-tea-legacy-on-international-tea-day/"
+  ]
+ },
+ {
+  "slug": "xekong-tea",
+  "en": "Xekong Tea",
+  "zh": null,
+  "ru": null,
+  "native": null,
+  "aliases": [],
+  "category": "green",
+  "country": "Laos",
+  "region": "Xekong",
+  "kind": "appellation",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://www.tourismlaos.org/2025/05/29/laos-celebrates-its-ancient-tea-legacy-on-international-tea-day/"
+  ]
+ },
+ {
+  "slug": "xiengkhouang-tea",
+  "en": "Xiengkhouang Tea",
+  "zh": null,
+  "ru": null,
+  "native": null,
+  "aliases": [],
+  "category": "green",
+  "country": "Laos",
+  "region": "Xiengkhouang",
+  "kind": "appellation",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://www.tourismlaos.org/2025/05/29/laos-celebrates-its-ancient-tea-legacy-on-international-tea-day/"
+  ]
+ },
+ {
+  "slug": "kinnari-tea-laos",
+  "en": "Kinnari Tea Laos",
+  "zh": null,
+  "ru": null,
+  "native": null,
+  "aliases": [],
+  "category": "green",
+  "country": "Laos",
+  "region": null,
+  "kind": "estate",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://teaintheancientworld.blogspot.com/2017/04/reviewing-two-doi-inthanon-thai-teas.html"
+  ]
+ },
+ {
+  "slug": "tan-cuong-tea",
+  "en": "Tân Cương Tea",
+  "zh": null,
+  "ru": "Тан Кыонг",
+  "native": null,
+  "aliases": [
+   "Tân Cương",
+   "Trà Tân Cương"
+  ],
+  "category": "green",
+  "country": "Vietnam",
+  "region": "Thái Nguyên · Tân Cương",
+  "kind": "appellation",
+  "tier": 2,
+  "existing_slug": null,
+  "evidence": [
+   "https://en.wikipedia.org/wiki/Vietnamese_tea",
+   "https://www.wikidata.org/wiki/Q10828547"
+  ]
+ },
+ {
+  "slug": "tra-sen-tay-ho",
+  "en": "Trà Sen Tây Hồ (West Lake Lotus Tea)",
+  "zh": "西湖莲花茶",
+  "ru": "Лотосовый чай Западного озера",
+  "native": "Trà Sen Tây Hồ",
+  "aliases": [
+   "Tra sen Tay Ho (West Lake lotus tea)"
+  ],
+  "category": "green",
+  "country": "Vietnam",
+  "region": "Hanoi · Tây Hồ",
+  "kind": "scented",
+  "tier": 2,
+  "existing_slug": null,
+  "evidence": [
+   "https://en.traviet.com/c/tea/",
+   "https://en.wikipedia.org/wiki/Lotus_tea",
+   "https://www.wikidata.org/wiki/Q114956542"
+  ]
+ },
+ {
+  "slug": "tra-ngau",
+  "en": "Trà ngâu (Aglaia tea)",
+  "zh": null,
+  "ru": "Ча нгау",
+  "native": "Trà ngâu",
+  "aliases": [
+   "Aglaia tea"
+  ],
+  "category": "green",
+  "country": "Vietnam",
+  "region": null,
+  "kind": "scented",
+  "tier": 2,
+  "existing_slug": null,
+  "evidence": [
+   "https://en.wikipedia.org/wiki/Vietnamese_tea",
+   "https://en.wikipedia.org/wiki/Green_tea"
+  ]
+ },
+ {
+  "slug": "tra-soi",
+  "en": "Trà sói",
+  "zh": null,
+  "ru": "Ча шой",
+  "native": "Trà sói",
+  "aliases": [
+   "Tra soi"
+  ],
+  "category": "green",
+  "country": "Vietnam",
+  "region": null,
+  "kind": "scented",
+  "tier": 2,
+  "existing_slug": null,
+  "evidence": [
+   "https://en.wikipedia.org/wiki/Green_tea",
+   "https://en.wikipedia.org/wiki/Vietnamese_tea"
+  ]
+ },
+ {
+  "slug": "tra-sam-dua",
+  "en": "Trà sâm dứa (pandan ginseng tea)",
+  "zh": null,
+  "ru": "Ча шам зыа",
+  "native": "Trà sâm dứa",
+  "aliases": [
+   "Tra sam dua",
+   "Trà Sam Dua",
+   "Trà Sam Dứa",
+   "Pineapple Ginseng Tea (Trà Sâm Dứa)",
+   "Pandan Ginseng Green Tea"
+  ],
+  "category": "green",
+  "country": "Vietnam",
+  "region": null,
+  "kind": "blend",
+  "tier": 2,
+  "existing_slug": null,
+  "evidence": [
+   "https://en.wikipedia.org/wiki/Green_tea",
+   "https://en.wikipedia.org/wiki/Vietnamese_tea",
+   "https://www.alveus.eu/?p=46560"
+  ]
+ },
+ {
+  "slug": "tom-non",
+  "en": "Tôm nõn (Prawn Bud Tea)",
+  "zh": null,
+  "ru": "Том нон",
+  "native": "Trà Nõn Tôm",
+  "aliases": [
+   "Tôm nõn",
+   "Trà tôm nõn",
+   "Trà Nõn Tôm (Prawn Bud Tea)",
+   "Trà Nõn Tôm Thái Nguyên (Top Bud Green Tea)",
+   "Trà Nõn Tôm Thái Nguyên"
+  ],
+  "category": "green",
+  "country": "Vietnam",
+  "region": "Thái Nguyên · Tân Cương",
+  "kind": "style",
+  "tier": 2,
+  "existing_slug": null,
+  "evidence": [
+   "https://en.wikipedia.org/wiki/Vietnamese_tea",
+   "https://vi.wikipedia.org/wiki/Trà",
+   "https://mytour.vn/en/blog/bai-viet/top-10-most-delicious-teas-to-try-in-vietnam-mytour.html"
+  ]
+ },
+ {
+  "slug": "moc-cau",
+  "en": "Móc câu",
+  "zh": null,
+  "ru": "Мок кау",
+  "native": "Móc câu",
+  "aliases": [],
+  "category": "green",
+  "country": "Vietnam",
+  "region": "Thái Nguyên · Tân Cương",
+  "kind": "style",
+  "tier": 2,
+  "existing_slug": null,
+  "evidence": [
+   "https://en.wikipedia.org/wiki/Vietnamese_tea"
+  ]
+ },
+ {
+  "slug": "shan-tuyet-co-thu",
+  "en": "Trà Shan Tuyết Cổ Thụ (ancient tree Snow Shan)",
+  "zh": null,
+  "ru": "Шань Тует ко ту",
+  "native": "Trà Shan Tuyết Cổ Thụ",
+  "aliases": [
+   "Trà Shan Tuyết Cổ Thụ (Snow Shan Tea)",
+   "Ancient Shan Snow Tea",
+   "Trà Shan Tuyết"
+  ],
+  "category": "green",
+  "country": "Vietnam",
+  "region": "Hà Giang",
+  "kind": null,
+  "tier": 2,
+  "existing_slug": null,
+  "evidence": [
+   "https://en.traviet.com/c/tea/",
+   "https://mytour.vn/en/blog/bai-viet/top-10-most-delicious-teas-to-try-in-vietnam-mytour.html"
+  ]
+ },
+ {
+  "slug": "trung-du-cultivar",
+  "en": "Trung Du",
+  "zh": null,
+  "ru": "Чунг Зу",
+  "native": "Chè Trung Du",
+  "aliases": [],
+  "category": "green",
+  "country": "Vietnam",
+  "region": "Thái Nguyên",
+  "kind": "cultivar",
+  "tier": 2,
+  "existing_slug": null,
+  "evidence": [
+   "https://parfumdautomne.fr/?p=9222"
+  ]
+ },
+ {
+  "slug": "vietnamese-green",
+  "en": "Trà Xanh (Vietnamese Green Tea)",
+  "zh": "越南绿茶",
+  "ru": "Вьетнамский зелёный чай",
+  "native": "Trà Xanh",
+  "aliases": [
+   "Vietnamese Tea",
+   "Вьетнамский чай"
+  ],
+  "category": "green",
+  "country": "Vietnam",
+  "region": null,
+  "kind": "style",
+  "tier": 2,
+  "existing_slug": null,
+  "evidence": [
+   "https://localvietnam.com/culture/cuisine/vietnamese-tea/",
+   "https://ru.wikipedia.org/wiki/Чай"
+  ]
+ },
+ {
+  "slug": "cau-dat-tea",
+  "en": "Cầu Đất Tea",
+  "zh": null,
+  "ru": "Кау Дат",
+  "native": null,
+  "aliases": [
+   "Cầu Đất"
+  ],
+  "category": "green",
+  "country": "Vietnam",
+  "region": "Lâm Đồng · Cầu Đất",
+  "kind": "appellation",
+  "tier": 2,
+  "existing_slug": null,
+  "evidence": [
+   "https://en.wikipedia.org/wiki/Vietnamese_tea"
+  ]
+ },
+ {
+  "slug": "hoang-su-phi-tea",
+  "en": "Hoàng Su Phì Tea",
+  "zh": null,
+  "ru": "Хоангшуфи",
+  "native": null,
+  "aliases": [
+   "Hoang Su Phi tea"
+  ],
+  "category": "green",
+  "country": "Vietnam",
+  "region": "Hà Giang · Hoàng Su Phì",
+  "kind": "appellation",
+  "tier": 2,
+  "existing_slug": null,
+  "evidence": [
+   "https://parfumdautomne.fr/?p=9222"
+  ]
+ },
+ {
+  "slug": "suoi-giang-tea",
+  "en": "Suối Giàng Tea",
+  "zh": null,
+  "ru": "Суой Зянг",
+  "native": null,
+  "aliases": [
+   "Suối Giàng"
+  ],
+  "category": "green",
+  "country": "Vietnam",
+  "region": "Yên Bái · Suối Giàng",
+  "kind": "appellation",
+  "tier": 2,
+  "existing_slug": null,
+  "evidence": [
+   "https://en.wikipedia.org/wiki/Vietnamese_tea"
+  ]
+ },
+ {
+  "slug": "ta-xua-tea",
+  "en": "Tà Xùa Tea",
+  "zh": null,
+  "ru": "Та Суа",
+  "native": null,
+  "aliases": [
+   "Tà Xùa"
+  ],
+  "category": "green",
+  "country": "Vietnam",
+  "region": "Sơn La · Tà Xùa",
+  "kind": "appellation",
+  "tier": 2,
+  "existing_slug": null,
+  "evidence": [
+   "https://en.wikipedia.org/wiki/Vietnamese_tea"
+  ]
+ },
+ {
+  "slug": "long-coc-tea",
+  "en": "Long Cốc Tea",
+  "zh": null,
+  "ru": "Лонг Кок",
+  "native": null,
+  "aliases": [
+   "Long Coc tea"
+  ],
+  "category": "green",
+  "country": "Vietnam",
+  "region": "Phú Thọ · Long Cốc",
+  "kind": "appellation",
+  "tier": 2,
+  "existing_slug": null,
+  "evidence": [
+   "https://parfumdautomne.fr/?p=9222"
+  ]
+ },
+ {
+  "slug": "la-bang-tea",
+  "en": "La Bằng Tea",
+  "zh": null,
+  "ru": "Ла Банг",
+  "native": null,
+  "aliases": [],
+  "category": "green",
+  "country": "Vietnam",
+  "region": "Thái Nguyên · La Bằng",
+  "kind": "appellation",
+  "tier": 2,
+  "existing_slug": null,
+  "evidence": [
+   "https://en.wikipedia.org/wiki/Vietnamese_tea"
+  ]
+ },
+ {
+  "slug": "tra-da-vietnamese-iced",
+  "en": "Trà Đá (Vietnamese Iced Tea)",
+  "zh": null,
+  "ru": "Вьетнамский холодный чай",
+  "native": "Trà đá",
+  "aliases": [],
+  "category": "green",
+  "country": "Vietnam",
+  "region": null,
+  "kind": "recipe",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://localvietnam.com/culture/cuisine/vietnamese-tea/"
+  ]
+ },
+ {
+  "slug": "tra-trung-egg-tea",
+  "en": "Trà Trứng (Egg Tea)",
+  "zh": null,
+  "ru": "Яичный чай",
+  "native": "Trà Trứng",
+  "aliases": [],
+  "category": "green",
+  "country": "Vietnam",
+  "region": null,
+  "kind": "recipe",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://localvietnam.com/culture/cuisine/vietnamese-tea/"
+  ]
+ },
+ {
+  "slug": "che-nu",
+  "en": "Chè nụ (Bud tea)",
+  "zh": null,
+  "ru": "Чай из бутонов",
+  "native": "Chè nụ",
+  "aliases": [],
+  "category": "green",
+  "country": "Vietnam",
+  "region": null,
+  "kind": "style",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://en.wikipedia.org/wiki/Vietnamese_tea"
+  ]
+ },
+ {
+  "slug": "batbao-tea",
+  "en": "Bát bảo lường sà (Eight-object sweet tea)",
+  "zh": null,
+  "ru": null,
+  "native": "Bát bảo lường sà",
+  "aliases": [
+   "Batbao tea",
+   "Eight-object sweet tea"
+  ],
+  "category": "green",
+  "country": "Vietnam",
+  "region": null,
+  "kind": null,
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://www.wikidata.org/wiki/Q135729484"
+  ]
+ },
+ {
+  "slug": "dien-bien-shan-tuyet",
+  "en": "Dien Bien Shan Tuyet",
+  "zh": null,
+  "ru": null,
+  "native": "Shan Tuyết Điện Biên",
+  "aliases": [],
+  "category": "green",
+  "country": "Vietnam",
+  "region": "Điện Biên",
+  "kind": "appellation",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://mytour.vn/en/blog/bai-viet/top-10-most-delicious-teas-to-try-in-vietnam-mytour.html"
+  ]
+ },
+ {
+  "slug": "lao-cai-shan-tuyet",
+  "en": "Lao Cai Shan Tuyet",
+  "zh": null,
+  "ru": null,
+  "native": "Shan Tuyết Lào Cai",
+  "aliases": [],
+  "category": "green",
+  "country": "Vietnam",
+  "region": "Lào Cai",
+  "kind": "appellation",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://mytour.vn/en/blog/bai-viet/top-10-most-delicious-teas-to-try-in-vietnam-mytour.html"
+  ]
+ },
+ {
+  "slug": "pomelo-flower-shan-green",
+  "en": "Pomelo Flower Snow Shan Green Tea",
+  "zh": null,
+  "ru": null,
+  "native": null,
+  "aliases": [],
+  "category": "green",
+  "country": "Vietnam",
+  "region": null,
+  "kind": "scented",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://www.thesteepingroom.com/products.json?limit=250"
+  ]
+ },
+ {
+  "slug": "tra-hoa-buoi",
+  "en": "Trà hoa bưởi",
+  "zh": null,
+  "ru": null,
+  "native": "Trà hoa bưởi",
+  "aliases": [],
+  "category": "green",
+  "country": "Vietnam",
+  "region": null,
+  "kind": "scented",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://vi.wikipedia.org/wiki/Trà"
+  ]
+ },
+ {
+  "slug": "ancient-green-vietnam",
+  "en": "Ancient Green Tea",
+  "zh": null,
+  "ru": null,
+  "native": null,
+  "aliases": [],
+  "category": "green",
+  "country": "Vietnam",
+  "region": null,
+  "kind": "style",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://en.traviet.com/c/tea/"
+  ]
+ },
+ {
+  "slug": "cao-bo-tea",
+  "en": "Cao Bồ Tea",
+  "zh": null,
+  "ru": null,
+  "native": null,
+  "aliases": [
+   "Cao Bo tea"
+  ],
+  "category": "green",
+  "country": "Vietnam",
+  "region": "Hà Giang · Cao Bồ",
+  "kind": "appellation",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://en.wikipedia.org/wiki/Vietnamese_tea"
+  ]
+ },
+ {
+  "slug": "ha-coi-tea",
+  "en": "Hà Cối Tea",
+  "zh": null,
+  "ru": null,
+  "native": null,
+  "aliases": [
+   "Hà Cối"
+  ],
+  "category": "green",
+  "country": "Vietnam",
+  "region": "Quảng Ninh · Hà Cối",
+  "kind": "appellation",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://en.wikipedia.org/wiki/Vietnamese_tea"
+  ]
+ },
+ {
+  "slug": "lai-chau-tea",
+  "en": "Lai Châu Tea",
+  "zh": null,
+  "ru": null,
+  "native": null,
+  "aliases": [
+   "Lai Chau tea"
+  ],
+  "category": "green",
+  "country": "Vietnam",
+  "region": "Lai Châu",
+  "kind": "appellation",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://parfumdautomne.fr/?p=9222"
+  ]
+ },
+ {
+  "slug": "ldp1-cultivar",
+  "en": "LDP1",
+  "zh": null,
+  "ru": null,
+  "native": null,
+  "aliases": [],
+  "category": "green",
+  "country": "Vietnam",
+  "region": null,
+  "kind": "cultivar",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://parfumdautomne.fr/?p=9222"
+  ]
+ },
+ {
+  "slug": "ldp2-cultivar",
+  "en": "LDP2",
+  "zh": null,
+  "ru": null,
+  "native": null,
+  "aliases": [],
+  "category": "green",
+  "country": "Vietnam",
+  "region": null,
+  "kind": "cultivar",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://parfumdautomne.fr/?p=9222"
+  ]
+ },
+ {
+  "slug": "thanh-chuong-tea",
+  "en": "Thanh Chương Tea",
+  "zh": null,
+  "ru": null,
+  "native": null,
+  "aliases": [],
+  "category": "green",
+  "country": "Vietnam",
+  "region": "Nghệ An · Thanh Chương",
+  "kind": "appellation",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://en.wikipedia.org/wiki/Vietnamese_tea"
+  ]
+ },
+ {
+  "slug": "tuyen-quang-tea",
+  "en": "Tuyên Quang Tea",
+  "zh": null,
+  "ru": null,
+  "native": null,
+  "aliases": [
+   "Tuyen Quang tea"
+  ],
+  "category": "green",
+  "country": "Vietnam",
+  "region": "Tuyên Quang",
+  "kind": "appellation",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://parfumdautomne.fr/?p=9222"
+  ]
+ },
+ {
+  "slug": "tan-son-tea",
+  "en": "Tân Sơn Tea",
+  "zh": null,
+  "ru": null,
+  "native": null,
+  "aliases": [],
+  "category": "green",
+  "country": "Vietnam",
+  "region": "Phú Thọ · Tân Sơn",
+  "kind": "appellation",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://en.wikipedia.org/wiki/Vietnamese_tea"
+  ]
+ },
+ {
+  "slug": "tay-con-linh-tea",
+  "en": "Tây Côn Lĩnh Tea",
+  "zh": null,
+  "ru": null,
+  "native": null,
+  "aliases": [
+   "Tây Côn Lĩnh"
+  ],
+  "category": "green",
+  "country": "Vietnam",
+  "region": "Hà Giang · Tây Côn Lĩnh",
+  "kind": "appellation",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://en.wikipedia.org/wiki/Vietnamese_tea"
+  ]
+ },
+ {
+  "slug": "dong-hy-tea",
+  "en": "Đồng Hỷ Tea",
+  "zh": null,
+  "ru": null,
+  "native": null,
+  "aliases": [],
+  "category": "green",
+  "country": "Vietnam",
+  "region": "Thái Nguyên · Đồng Hỷ",
+  "kind": "appellation",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://en.wikipedia.org/wiki/Vietnamese_tea"
+  ]
+ },
+ {
+  "slug": "tra-bup",
+  "en": "Trà búp",
+  "zh": null,
+  "ru": null,
+  "native": "Trà búp",
+  "aliases": [],
+  "category": "green",
+  "country": "Vietnam",
+  "region": null,
+  "kind": "style",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://vi.wikipedia.org/wiki/Trà"
+  ]
+ },
+ {
+  "slug": "tra-bac",
+  "en": "Trà Bắc",
+  "zh": null,
+  "ru": null,
+  "native": null,
+  "aliases": [],
+  "category": "green",
+  "country": "Vietnam",
+  "region": null,
+  "kind": null,
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://vi.wikipedia.org/wiki/Trà"
+  ]
+ },
+ {
+  "slug": "tra-loc-dinh",
+  "en": "Trà lộc đỉnh",
+  "zh": null,
+  "ru": null,
+  "native": "Trà lộc đỉnh",
+  "aliases": [],
+  "category": "green",
+  "country": "Vietnam",
+  "region": null,
+  "kind": "style",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://vi.wikipedia.org/wiki/Trà"
+  ]
+ },
+ {
+  "slug": "tra-man",
+  "en": "Trà mạn",
+  "zh": null,
+  "ru": null,
+  "native": null,
+  "aliases": [],
+  "category": "green",
+  "country": "Vietnam",
+  "region": null,
+  "kind": "style",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://en.wikipedia.org/wiki/Tea_culture"
+  ]
+ },
+ {
+  "slug": "tra-dinh-ngoc",
+  "en": "Trà đinh ngọc",
+  "zh": null,
+  "ru": null,
+  "native": "Trà đinh ngọc",
+  "aliases": [],
+  "category": "green",
+  "country": "Vietnam",
+  "region": null,
+  "kind": "style",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://vi.wikipedia.org/wiki/Trà"
+  ]
+ },
+ {
+  "slug": "dinh-non",
+  "en": "Đinh nõn",
+  "zh": null,
+  "ru": null,
+  "native": "Đinh nõn",
+  "aliases": [],
+  "category": "green",
+  "country": "Vietnam",
+  "region": "Thái Nguyên · Tân Cương",
+  "kind": "style",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://en.wikipedia.org/wiki/Vietnamese_tea"
+  ]
+ },
+ {
+  "slug": "noon-chai",
+  "en": "Noon Chai (Kashmiri pink tea)",
+  "zh": null,
+  "ru": "Нун-чай",
+  "native": "نون چائے",
+  "aliases": [
+   "Noon Chai",
+   "Kashmiri Tea",
+   "Namkeen chai",
+   "Pink tea",
+   "Gulabi chai",
+   "Sheer chai"
+  ],
+  "category": "green",
+  "country": "India",
+  "region": "Jammu and Kashmir · Kashmir",
+  "kind": "recipe",
+  "tier": 1,
+  "existing_slug": null,
+  "evidence": [
+   "https://en.wikipedia.org/wiki/Category:Blended_tea",
+   "https://en.wikipedia.org/wiki/Noon_chai",
+   "https://www.wikidata.org/wiki/Q170883"
+  ]
+ },
+ {
+  "slug": "peshawari-qehwa",
+  "en": "Peshawari Qehwa",
+  "zh": null,
+  "ru": "Пешаварская кахва",
+  "native": null,
+  "aliases": [],
+  "category": "green",
+  "country": "Pakistan",
+  "region": "Khyber Pakhtunkhwa · Peshawar",
+  "kind": "recipe",
+  "tier": 2,
+  "existing_slug": null,
+  "evidence": [
+   "https://en.wikipedia.org/wiki/Kahwah"
+  ]
+ },
+ {
+  "slug": "nilgiri-green",
+  "en": "Nilgiri Green Tea",
+  "zh": null,
+  "ru": "Нилгири зелёный",
+  "native": null,
+  "aliases": [
+   "Nilgiri green"
+  ],
+  "category": "green",
+  "country": "India",
+  "region": "Tamil Nadu · Nilgiris",
+  "kind": "style",
+  "tier": 2,
+  "existing_slug": null,
+  "evidence": [
+   "https://en.wikipedia.org/wiki/Nilgiri_tea"
+  ]
+ },
+ {
+  "slug": "korakundah-jasmine-green",
+  "en": "Korakundah Organic Jasmine Green Tea",
+  "zh": null,
+  "ru": null,
+  "native": null,
+  "aliases": [],
+  "category": "green",
+  "country": "India",
+  "region": "Tamil Nadu · Nilgiris",
+  "kind": "scented",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://thesecretoftea.com/pages/chamraj"
+  ]
+ },
+ {
+  "slug": "yabukita-darjeeling",
+  "en": "Yabukita (Darjeeling)",
+  "zh": null,
+  "ru": null,
+  "native": null,
+  "aliases": [],
+  "category": "green",
+  "country": "India",
+  "region": "West Bengal · Darjeeling",
+  "kind": "cultivar",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://gopaldharaindia.com/tea-cultivars/"
+  ]
+ },
+ {
+  "slug": "bangladesh-green",
+  "en": "Bangladesh Green Tea",
+  "zh": null,
+  "ru": null,
+  "native": null,
+  "aliases": [],
+  "category": "green",
+  "country": "Bangladesh",
+  "region": null,
+  "kind": "style",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://www.thedailystar.net/news/bangladesh/news/seven-unique-facts-about-tea-culture-bangladesh-3626521"
+  ]
+ },
+ {
+  "slug": "sheer-chai-afghan",
+  "en": "Sheer chai (Afghan)",
+  "zh": null,
+  "ru": null,
+  "native": null,
+  "aliases": [],
+  "category": "green",
+  "country": "Afghanistan",
+  "region": null,
+  "kind": "recipe",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://en.wikipedia.org/wiki/Afghan_cuisine"
+  ]
+ },
+ {
+  "slug": "ceylon-gunpowder",
+  "en": "Ceylon Gunpowder",
+  "zh": null,
+  "ru": "Цейлонский ганпаудер",
+  "native": null,
+  "aliases": [],
+  "category": "green",
+  "country": "Sri Lanka",
+  "region": null,
+  "kind": "style",
+  "tier": 2,
+  "existing_slug": null,
+  "evidence": [
+   "https://en.wikipedia.org/wiki/Tea_production_in_Sri_Lanka"
+  ]
+ },
+ {
+  "slug": "ceylon-sencha",
+  "en": "Ceylon Sencha",
+  "zh": null,
+  "ru": null,
+  "native": null,
+  "aliases": [],
+  "category": "green",
+  "country": "Sri Lanka",
+  "region": null,
+  "kind": "style",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://en.wikipedia.org/wiki/Tea_production_in_Sri_Lanka"
+  ]
+ },
+ {
+  "slug": "idulgashinna-green",
+  "en": "Idulgashinna Green",
+  "zh": null,
+  "ru": null,
+  "native": null,
+  "aliases": [],
+  "category": "green",
+  "country": "Sri Lanka",
+  "region": "Uva · Idulgashinna",
+  "kind": "estate",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://www.uptontea.com/collections/tea-blends"
+  ]
+ },
+ {
+  "slug": "kok-choy",
+  "en": "Kok choy",
+  "zh": null,
+  "ru": "Кок-чай",
+  "native": null,
+  "aliases": [
+   "Кук-чай",
+   "Central Asian tea",
+   "Среднеазиатский чай"
+  ],
+  "category": "green",
+  "country": "Uzbekistan",
+  "region": null,
+  "kind": "style",
+  "tier": 2,
+  "existing_slug": null,
+  "evidence": [
+   "https://en.wikipedia.org/wiki/Uzbek_cuisine",
+   "https://ru.wikipedia.org/wiki/Краснодарский_чай"
+  ]
+ },
+ {
+  "slug": "tashkent-tea",
+  "en": "Tashkent Tea",
+  "zh": null,
+  "ru": "Ташкентский чай",
+  "native": null,
+  "aliases": [
+   "Ташкентский",
+   "Tashkent Tea (Shymkent Tea, Mahabbat Shai)",
+   "Ташкентский чай (Шымкентский чай, Махаббат шайы)"
+  ],
+  "category": "green",
+  "country": "Uzbekistan",
+  "region": "Tashkent",
+  "kind": "recipe",
+  "tier": 2,
+  "existing_slug": null,
+  "evidence": [
+   "https://chay.by/product/chaj-cherno-zelenyj-pch-tashkentskij-100-g-vesovoj/",
+   "https://ru.wikipedia.org/wiki/Категория:Чай",
+   "https://ru.wikipedia.org/wiki/Ташкентский_чай"
+  ]
+ },
+ {
+  "slug": "shurchai",
+  "en": "Shurchai",
+  "zh": null,
+  "ru": "Шурчай",
+  "native": null,
+  "aliases": [
+   "Среднеазиатский чай (Шурчай)"
+  ],
+  "category": "green",
+  "country": "Uzbekistan",
+  "region": null,
+  "kind": "recipe",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://ru.wikipedia.org/wiki/Краснодарский_чай"
+  ]
+ },
+ {
+  "slug": "suutei-tsai-green",
+  "en": "Suutei tsai",
+  "zh": null,
+  "ru": "Сутэй цай",
+  "native": null,
+  "aliases": [
+   "Sutei tsai"
+  ],
+  "category": "green",
+  "country": "Mongolia",
+  "region": null,
+  "kind": "recipe",
+  "tier": 2,
+  "existing_slug": null,
+  "evidence": [
+   "https://ru.wikipedia.org/wiki/Монгольский_чай"
+  ]
+ },
+ {
+  "slug": "iranian-green",
+  "en": "Iranian Green Tea",
+  "zh": null,
+  "ru": "Иранский зелёный чай",
+  "native": null,
+  "aliases": [
+   "Иранский зелёный среднелистовой"
+  ],
+  "category": "green",
+  "country": "Iran",
+  "region": null,
+  "kind": null,
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://chay.by/product/chaj-zelenyj-srednelistovoj-iran-vop-100-g-vesovoj/"
+  ]
+ },
+ {
+  "slug": "adygea-green",
+  "en": "Adygea Green Tea",
+  "zh": null,
+  "ru": "Адыгейский зелёный чай",
+  "native": null,
+  "aliases": [],
+  "category": "green",
+  "country": "Russia",
+  "region": "Adygea · Maykop",
+  "kind": "style",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://ru.wikipedia.org/wiki/Адыгейский_чай"
+  ]
+ },
+ {
+  "slug": "georgian-green-no-95",
+  "en": "Georgian Green No. 95",
+  "zh": null,
+  "ru": "Грузинский зелёный чай № 95",
+  "native": null,
+  "aliases": [
+   "Georgian green leaf tea No. 95"
+  ],
+  "category": "green",
+  "country": "Georgia",
+  "region": null,
+  "kind": "style",
+  "tier": 2,
+  "existing_slug": null,
+  "evidence": [
+   "https://ka.wikipedia.org/wiki/ქართული_ჩაი",
+   "https://ru.wikipedia.org/wiki/Чай_в_России",
+   "https://ru.wikipedia.org/wiki/Грузинский_чай"
+  ]
+ },
+ {
+  "slug": "georgian-green-no-125",
+  "en": "Georgian Green No. 125",
+  "zh": null,
+  "ru": "Грузинский зелёный чай № 125",
+  "native": null,
+  "aliases": [],
+  "category": "green",
+  "country": "Georgia",
+  "region": null,
+  "kind": "style",
+  "tier": 2,
+  "existing_slug": null,
+  "evidence": [
+   "https://ka.wikipedia.org/wiki/ქართული_ჩაი"
+  ]
+ },
+ {
+  "slug": "georgian-extra-green",
+  "en": "Georgian Extra (green)",
+  "zh": null,
+  "ru": "Грузинский зелёный «Экстра»",
+  "native": "ექსტრა",
+  "aliases": [
+   "Экстра",
+   "Ekstra"
+  ],
+  "category": "green",
+  "country": "Georgia",
+  "region": null,
+  "kind": "style",
+  "tier": 2,
+  "existing_slug": null,
+  "evidence": [
+   "https://ru.wikipedia.org/wiki/Грузинский_чай",
+   "https://ka.wikipedia.org/wiki/ქართული_ჩაი"
+  ]
+ },
+ {
+  "slug": "georgian-bouquet",
+  "en": "Georgian Bouquet (Sakartvelos taiguli)",
+  "zh": null,
+  "ru": "Букет Грузии",
+  "native": "საქართველოს თაიგული",
+  "aliases": [
+   "Sakartvelos taiguli (Georgia's Bouquet)",
+   "Georgian Bouquet (green)"
+  ],
+  "category": "green",
+  "country": "Georgia",
+  "region": null,
+  "kind": "blend",
+  "tier": 2,
+  "existing_slug": null,
+  "evidence": [
+   "https://ka.wikipedia.org/wiki/ქართული_ჩაი",
+   "https://ru.wikipedia.org/wiki/Грузинский_чай"
+  ]
+ },
+ {
+  "slug": "gurieli-traditional-green",
+  "en": "Gurieli Traditional Green",
+  "zh": null,
+  "ru": null,
+  "native": null,
+  "aliases": [],
+  "category": "green",
+  "country": "Georgia",
+  "region": "Guria",
+  "kind": "estate",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://www.gurieli.ge/home.php"
+  ]
+ },
+ {
+  "slug": "caykur-yesil-cay",
+  "en": "Çaykur Yeşil Çay",
+  "zh": null,
+  "ru": "Чайкур зелёный чай",
+  "native": "Yeşil Çay",
+  "aliases": [],
+  "category": "green",
+  "country": "Turkey",
+  "region": "Rize",
+  "kind": "style",
+  "tier": 2,
+  "existing_slug": null,
+  "evidence": [
+   "https://www.caykur.gov.tr/"
+  ]
+ },
+ {
+  "slug": "attaya-senegal",
+  "en": "Attaya (Senegalese green tea)",
+  "zh": null,
+  "ru": "Аттая",
+  "native": null,
+  "aliases": [
+   "Attaya",
+   "Сенегальский чай (Attaya)",
+   "Ataaya",
+   "Ataya"
+  ],
+  "category": "green",
+  "country": "Senegal",
+  "region": null,
+  "kind": "recipe",
+  "tier": 2,
+  "existing_slug": null,
+  "evidence": [
+   "https://ru.wikipedia.org/wiki/Чай",
+   "https://de.wikipedia.org/wiki/Ataya"
+  ]
+ },
+ {
+  "slug": "algerian-mint-tea",
+  "en": "Algerian Mint Tea",
+  "zh": null,
+  "ru": null,
+  "native": null,
+  "aliases": [],
+  "category": "green",
+  "country": "Algeria",
+  "region": null,
+  "kind": "recipe",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://en.wikipedia.org/wiki/Maghrebi_mint_tea"
+  ]
+ },
+ {
+  "slug": "libyan-green-tea",
+  "en": "Libyan Green Tea",
+  "zh": null,
+  "ru": null,
+  "native": null,
+  "aliases": [],
+  "category": "green",
+  "country": "Libya",
+  "region": null,
+  "kind": "recipe",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://en.wikipedia.org/wiki/Libyan_tea"
+  ]
+ },
+ {
+  "slug": "libyan-tea-peanuts",
+  "en": "Libyan Tea with Peanuts",
+  "zh": null,
+  "ru": null,
+  "native": null,
+  "aliases": [],
+  "category": "green",
+  "country": "Libya",
+  "region": null,
+  "kind": "recipe",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://en.wikipedia.org/wiki/Libyan_tea"
+  ]
+ },
+ {
+  "slug": "saharawi-tea",
+  "en": "Saharawi Tea",
+  "zh": null,
+  "ru": null,
+  "native": null,
+  "aliases": [],
+  "category": "green",
+  "country": "Western Sahara",
+  "region": null,
+  "kind": "recipe",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://en.wikipedia.org/wiki/Maghrebi_mint_tea"
+  ]
+ },
+ {
+  "slug": "moroccan-orange-blossom-tea",
+  "en": "Thé à la fleur d'oranger",
+  "zh": null,
+  "ru": null,
+  "native": null,
+  "aliases": [],
+  "category": "green",
+  "country": "Morocco",
+  "region": null,
+  "kind": "scented",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://fr.wikipedia.org/wiki/Th%C3%A9_au_Maroc"
+  ]
+ },
+ {
+  "slug": "kenyan-green",
+  "en": "Kenyan Green Tea",
+  "zh": null,
+  "ru": "Кенийский зелёный чай",
+  "native": null,
+  "aliases": [
+   "Kenyan green orthodox"
+  ],
+  "category": "green",
+  "country": "Kenya",
+  "region": null,
+  "kind": "style",
+  "tier": 2,
+  "existing_slug": null,
+  "evidence": [
+   "https://en.wikipedia.org/wiki/Tea_production_in_Kenya",
+   "https://en.wikipedia.org/wiki/Kenya_Tea_Development_Agency"
+  ]
+ },
+ {
+  "slug": "kenyan-green-ctc",
+  "en": "Kenyan Green CTC",
+  "zh": null,
+  "ru": null,
+  "native": null,
+  "aliases": [],
+  "category": "green",
+  "country": "Kenya",
+  "region": null,
+  "kind": "style",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://en.wikipedia.org/wiki/Kenya_Tea_Development_Agency"
+  ]
+ },
+ {
+  "slug": "kiru-estate-green",
+  "en": "Kenya Kiru Estate Green OP1",
+  "zh": null,
+  "ru": "Кения сад Kiru зелёный",
+  "native": null,
+  "aliases": [],
+  "category": "green",
+  "country": "Kenya",
+  "region": "Kiru",
+  "kind": "estate",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://teahouse.ua/ru/chaj-zelenyj-keniya-sad-kiru-op1-129/"
+  ]
+ },
+ {
+  "slug": "ntingwe-green",
+  "en": "Ntingwe Low Caffeine Green Tea",
+  "zh": null,
+  "ru": null,
+  "native": null,
+  "aliases": [],
+  "category": "green",
+  "country": "South Africa",
+  "region": null,
+  "kind": "estate",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://www.ntingwetea.co.za/our-teas/"
+  ]
+ },
+ {
+  "slug": "satemwa-earl-grey-green",
+  "en": "Satemwa Earl Grey Green 723",
+  "zh": null,
+  "ru": null,
+  "native": null,
+  "aliases": [
+   "Earl Grey Green 723"
+  ],
+  "category": "green",
+  "country": "Malawi",
+  "region": "Thyolo · Satemwa",
+  "kind": "scented",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://www.satemwa.com/fusionteas-malawi"
+  ]
+ },
+ {
+  "slug": "satemwa-green-mint",
+  "en": "Satemwa Green Mint 621",
+  "zh": null,
+  "ru": null,
+  "native": null,
+  "aliases": [
+   "Green Mint 621"
+  ],
+  "category": "green",
+  "country": "Malawi",
+  "region": "Thyolo · Satemwa",
+  "kind": "blend",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://www.satemwa.com/fusionteas-malawi"
+  ]
+ },
+ {
+  "slug": "satemwa-green-peach-ginger",
+  "en": "Satemwa Green Peach Ginger 724",
+  "zh": null,
+  "ru": null,
+  "native": null,
+  "aliases": [
+   "Green Peach Ginger 724"
+  ],
+  "category": "green",
+  "country": "Malawi",
+  "region": "Thyolo · Satemwa",
+  "kind": "blend",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://www.satemwa.com/fusionteas-malawi"
+  ]
+ },
+ {
+  "slug": "satemwa-green-tsfbop1",
+  "en": "Satemwa Green TSFBOP1 212",
+  "zh": null,
+  "ru": null,
+  "native": null,
+  "aliases": [
+   "Green TSFBOP1 212"
+  ],
+  "category": "green",
+  "country": "Malawi",
+  "region": "Thyolo · Satemwa",
+  "kind": "estate",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://www.satemwa.com/greenandoolongtea"
+  ]
+ },
+ {
+  "slug": "satemwa-green-velvet",
+  "en": "Satemwa Green Velvet TSFOP 210",
+  "zh": null,
+  "ru": null,
+  "native": null,
+  "aliases": [
+   "Green Velvet TSFOP 210"
+  ],
+  "category": "green",
+  "country": "Malawi",
+  "region": "Thyolo · Satemwa",
+  "kind": "style",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://www.satemwa.com/greenandoolongtea"
+  ]
+ },
+ {
+  "slug": "satemwa-green-verbena",
+  "en": "Satemwa Green Verbena 623",
+  "zh": null,
+  "ru": null,
+  "native": null,
+  "aliases": [
+   "Green Verbena 623"
+  ],
+  "category": "green",
+  "country": "Malawi",
+  "region": "Thyolo · Satemwa",
+  "kind": "blend",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://www.satemwa.com/fusionteas-malawi"
+  ]
+ },
+ {
+  "slug": "satemwa-thyolo-op1-green",
+  "en": "Satemwa Thyolo OP1 211 Green",
+  "zh": null,
+  "ru": null,
+  "native": null,
+  "aliases": [
+   "Thyolo OP1 211 green"
+  ],
+  "category": "green",
+  "country": "Malawi",
+  "region": "Thyolo · Satemwa",
+  "kind": "estate",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://www.satemwa.com/greenandoolongtea"
+  ]
+ },
+ {
+  "slug": "gorreana-perola",
+  "en": "Pérola (Gorreana)",
+  "zh": null,
+  "ru": null,
+  "native": "Pérola",
+  "aliases": [],
+  "category": "green",
+  "country": "Portugal",
+  "region": "Azores · São Miguel",
+  "kind": "style",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://en.wikipedia.org/wiki/Gorreana"
+  ]
+ },
+ {
+  "slug": "encosta-de-bruma",
+  "en": "Encosta de Bruma",
+  "zh": null,
+  "ru": null,
+  "native": null,
+  "aliases": [],
+  "category": "green",
+  "country": "Portugal",
+  "region": "Azores · São Miguel",
+  "kind": "style",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://en.wikipedia.org/wiki/Gorreana"
+  ]
+ },
+ {
+  "slug": "cha-verde-hibisco",
+  "en": "Chá Verde & Hibisco",
+  "zh": null,
+  "ru": null,
+  "native": "Chá Verde & Hibisco",
+  "aliases": [],
+  "category": "green",
+  "country": "Portugal",
+  "region": "Azores · São Miguel",
+  "kind": "blend",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://gorreana.pt/"
+  ]
+ },
+ {
+  "slug": "grand-coude-green",
+  "en": "Grand Coude",
+  "zh": null,
+  "ru": null,
+  "native": null,
+  "aliases": [],
+  "category": "green",
+  "country": "France",
+  "region": "Réunion",
+  "kind": "estate",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://en.wikipedia.org/wiki/Tea_in_France"
+  ]
+ },
+ {
+  "slug": "alexandra-tea-australia",
+  "en": "Alexandra Tea",
+  "zh": null,
+  "ru": null,
+  "native": null,
+  "aliases": [],
+  "category": "green",
+  "country": "Australia",
+  "region": "Victoria · Alexandra",
+  "kind": "estate",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://en.wikipedia.org/wiki/Tea_in_Australia"
+  ]
+ },
+ {
+  "slug": "two-rivers-green",
+  "en": "Two Rivers Green Tea",
+  "zh": null,
+  "ru": null,
+  "native": null,
+  "aliases": [],
+  "category": "green",
+  "country": "Australia",
+  "region": "Victoria · Alpine Valleys",
+  "kind": "estate",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://en.wikipedia.org/wiki/Tea_in_Australia"
+  ]
+ },
+ {
+  "slug": "tinbeerwah-tea",
+  "en": "Tinbeerwah Tea",
+  "zh": null,
+  "ru": null,
+  "native": null,
+  "aliases": [],
+  "category": "green",
+  "country": "Australia",
+  "region": "Queensland · Noosa",
+  "kind": "estate",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://en.wikipedia.org/wiki/Tea_in_Australia"
+  ]
+ },
+ {
+  "slug": "madura-dragon-pearls",
+  "en": "Madura Dragon Pearls",
+  "zh": null,
+  "ru": null,
+  "native": null,
+  "aliases": [],
+  "category": "green",
+  "country": "Australia",
+  "region": "New South Wales · Murwillumbah",
+  "kind": "style",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://maduratea.com.au/"
+  ]
+ },
+ {
+  "slug": "madura-green-lemon-myrtle",
+  "en": "Green Tea & Australian Lemon Myrtle",
+  "zh": null,
+  "ru": null,
+  "native": null,
+  "aliases": [],
+  "category": "green",
+  "country": "Australia",
+  "region": "New South Wales · Murwillumbah",
+  "kind": "blend",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://maduratea.com.au/"
+  ]
+ },
+ {
+  "slug": "madura-green-papaya",
+  "en": "Green Tea & Papaya",
+  "zh": null,
+  "ru": null,
+  "native": null,
+  "aliases": [],
+  "category": "green",
+  "country": "Australia",
+  "region": "New South Wales · Murwillumbah",
+  "kind": "blend",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://maduratea.com.au/"
+  ]
+ },
+ {
+  "slug": "hawaii-grown-green",
+  "en": "Hawaii-Grown Green Tea",
+  "zh": null,
+  "ru": null,
+  "native": null,
+  "aliases": [
+   "Hawaii-grown tea"
+  ],
+  "category": "green",
+  "country": "United States",
+  "region": "Hawaii",
+  "kind": "appellation",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://en.wikipedia.org/wiki/Tea_production_in_the_United_States"
+  ]
+ },
+ {
+  "slug": "tea-hawaii-green",
+  "en": "Tea Hawaii",
+  "zh": null,
+  "ru": null,
+  "native": null,
+  "aliases": [],
+  "category": "green",
+  "country": "United States",
+  "region": "Hawaii · Volcano",
+  "kind": "estate",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://www.teahawaii.com/"
+  ]
+ },
+ {
+  "slug": "minto-island-green",
+  "en": "Minto Island Green",
+  "zh": null,
+  "ru": null,
+  "native": null,
+  "aliases": [
+   "Minto Island Tea Co."
+  ],
+  "category": "green",
+  "country": "United States",
+  "region": "Oregon · Salem",
+  "kind": "estate",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://www.mintoislandtea.com/",
+   "https://en.wikipedia.org/wiki/Tea_production_in_the_United_States"
+  ]
+ },
+ {
+  "slug": "monte-verita-green",
+  "en": "Monte Verità Tea Garden",
+  "zh": null,
+  "ru": null,
+  "native": null,
+  "aliases": [],
+  "category": "green",
+  "country": "Switzerland",
+  "region": "Ticino · Ascona",
+  "kind": "estate",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://en.wikipedia.org/wiki/Monte_Verit%C3%A0"
+  ]
+ },
+ {
+  "slug": "westholme-canadian-tea",
+  "en": "Westholme Canadian Tea",
+  "zh": null,
+  "ru": null,
+  "native": null,
+  "aliases": [],
+  "category": "green",
+  "country": "Canada",
+  "region": "British Columbia · Cowichan Valley",
+  "kind": "estate",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://www.westholmetea.com/"
+  ]
+ },
+ {
+  "slug": "bachuan-green",
+  "en": "Bachuan Green Tea",
+  "zh": "八川绿茶",
+  "ru": null,
+  "native": null,
+  "aliases": [],
+  "category": "green",
+  "country": "Taiwan",
+  "region": null,
+  "kind": "scented",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://zh.wikipedia.org/wiki/%E7%B6%A0%E8%8C%B6"
+  ]
+ },
+ {
+  "slug": "green-earl-grey",
+  "en": "Green Earl Grey",
+  "zh": null,
+  "ru": "Эрл Грей зелёный",
+  "native": null,
+  "aliases": [
+   "Earl Grey Green Tea"
+  ],
+  "category": "green",
+  "country": null,
+  "region": null,
+  "kind": "blend",
+  "tier": 2,
+  "existing_slug": null,
+  "evidence": [
+   "https://en.wikipedia.org/wiki/Earl_Grey_tea",
+   "https://ratetea.com/styles.php"
+  ]
+ },
+ {
+  "slug": "decaf-green",
+  "en": "Decaf Green Tea",
+  "zh": null,
+  "ru": null,
+  "native": null,
+  "aliases": [],
+  "category": "green",
+  "country": null,
+  "region": null,
+  "kind": "style",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://www.arborteas.com/"
+  ]
+ },
+ {
+  "slug": "barley-green",
+  "en": "Barley Green Tea",
+  "zh": null,
+  "ru": null,
+  "native": null,
+  "aliases": [],
+  "category": "green",
+  "country": null,
+  "region": null,
+  "kind": "blend",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://en.wikipedia.org/wiki/Tea_blending_and_additives"
+  ]
+ },
+ {
+  "slug": "ginseng-green",
+  "en": "Ginseng Green Tea",
+  "zh": null,
+  "ru": null,
+  "native": null,
+  "aliases": [],
+  "category": "green",
+  "country": null,
+  "region": null,
+  "kind": "blend",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://ratetea.com/styles.php"
+  ]
+ },
+ {
+  "slug": "green-tea-lemon",
+  "en": "Green Tea with Lemon",
+  "zh": null,
+  "ru": null,
+  "native": null,
+  "aliases": [],
+  "category": "green",
+  "country": null,
+  "region": null,
+  "kind": "blend",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://ratetea.com/styles.php"
+  ]
+ }
+]

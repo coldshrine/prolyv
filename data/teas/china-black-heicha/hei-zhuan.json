@@ -1,0 +1,71 @@
+{
+  "slug": "hei-zhuan",
+  "name_en": "Hei Zhuan (Anhua Black Brick)",
+  "name_native": "黑砖茶",
+  "name_romanized": "Hēizhuān Chá",
+  "aliases": [
+    "Black brick tea",
+    "Heizhuan",
+    "Anhua black brick",
+    "Hunan black brick",
+    "Hei Zhuan Cha",
+    "黑磚茶"
+  ],
+  "category": "heicha",
+  "origin_country": "China",
+  "origin_region": "Hunan · Yiyang · Anhua",
+  "cultivar": "Anhua and other Hunan medium- and large-leaf population bushes",
+  "processing": "Post-fermented and hard-pressed: grade-3 Anhua hei mao cha (pan-fired, rolled, pile-fermented and pine-fire dried) is steamed and pressed under heavy pressure into dense, smooth-faced bricks stamped with the factory mark, then slowly dried; no golden-flower step.",
+  "form": "brick",
+  "harvest_season": "Summer and early-autumn pickings of mature leaf with stems; season is secondary to grade.",
+  "appearance_dry": "A dense, dark, smooth-faced brick of about 2 kg (smaller sizes exist) with stamped characters, showing leaf and stems only on a broken edge.",
+  "appearance_liquor": "Deep orange-red to red-brown, clear.",
+  "appearance_wet": "Dark brown coarse leaves and stems, firm even after steeping.",
+  "taste_profile": "Strong and full with pine smoke, wood and a dark sweetness, a touch bitter when young and rounder and jujube-sweet after several years.",
+  "taste_tags": [
+    "smoky",
+    "woody",
+    "earthy",
+    "sweet",
+    "bitter"
+  ],
+  "brewing": {
+    "grams": 8,
+    "water_ml": 120,
+    "temp_c": 100,
+    "steeps": 9,
+    "seconds": [
+      15,
+      10,
+      15,
+      20,
+      30,
+      45,
+      60,
+      90,
+      150
+    ],
+    "notes": "Pry off a piece with a tea knife, rinse twice, boiling water, longer first steep to open the dense leaf. Best of all simmered: 10 g per litre for 5–8 minutes."
+  },
+  "caffeine_level": "low",
+  "vintage_note": "Sold by pressing year and factory, mostly as 2 kg bricks with smaller gift sizes; market lots run 1–15 years, and it is one Anhua tea that genuinely needs time – 5–10 years is the drinking window most people prefer, with 1980s–90s bricks traded as collectables.",
+  "description": "Hei Zhuan is the plainest and hardest of the Anhua bricks: dark tea pressed under heavy pressure into a dense, smooth block with the factory's mark stamped on the face. The Baishaxi factory in Anhua counts it as China's first black brick and dates it to 1939. The usual explanation is that the war had cut the old route by which Hunan leaf went to Shaanxi for pressing, and it became a staple of the border trade to the north-west.\n\nIt is made from grade-3 hei mao cha – mature leaf and stems that have been pan-fired, rolled, briefly piled and dried over pine fires – steamed and pressed so hard that the brick barely shows its leaf, then dried slowly. There is no golden-flower step, so it tastes of leaf, smoke and time rather than of mushroom, and the density means it ages slowly and keeps its pine note longer than Fu Zhuan does.\n\nYoung, it is strong, smoky and a little bitter, a tea for boiling with milk; after five years or so it rounds out into wood, dark sweetness and dried jujube with the smoke sitting quietly behind. Pry off a chunk, rinse twice and brew with boiling water, giving the first steep longer than usual to open the pressed leaf; or simmer it, which is how it was always meant to be drunk.\n\nIt is sold by pressing year and factory, usually as 2 kg bricks wrapped in paper, and it is cheap for the weight. Look for a clean, dry brick with a sweet, smoky smell and a tight, even face; crumbling edges or a musty smell mean poor storage. Older bricks are traded, and the stamp and wrapper tell you the factory and era, but the cup is the only proof of storage.\n\nIf you have a Fu Zhuan and a Hua Zhuan already, Hei Zhuan is the third brick to add to understand the Anhua set, and the one to keep longest.",
+  "wikipedia_title": "Fermented tea",
+  "wikipedia_scope": "umbrella",
+  "popularity": 2,
+  "sources_note": "First production at Baishaxi in 1939–40 (credited to Peng Xianze) follows Chinese tea-history sources; the wartime-route explanation is the usual account.",
+  "name_zh": "黑砖茶",
+  "name_ru": "Хэй Чжуань",
+  "history": "Black brick belongs to the wartime years in Anhua. The Baishaxi factory dates its founding to 1939 and counts a black brick made that year as China's first, which is the factory's own telling. Its account traces the factory to the Hunan brick tea works that Peng Xianze, an Anhua-born agronomist educated abroad, set up in 1939 in a rented workshop.\n\nBaishaxi later added Fu Zhuan in 1953 and Hua Zhuan in 1958, and Hei Zhuan, Fu Zhuan and Hua Zhuan are still named together as the Hunan bricks. One documented use is on the steppe: in Mongolian salt milk tea, a piece broken off a green or black brick is boiled and then milk and salt go in.",
+  "liquor_hex": "#8F4217",
+  "leaf_hex": "#2A1E16",
+  "sources": [
+    "https://zh.wikipedia.org/wiki/%E7%A0%96%E8%8C%B6",
+    "https://zh.wikipedia.org/wiki/%E9%BB%91%E8%8C%B6",
+    "https://zh.wikipedia.org/wiki/%E8%92%99%E5%8F%A4%E5%A5%B6%E8%8C%B6",
+    "https://m.voc.com.cn/xhn/news/202008/14534783.html",
+    "https://m.voc.com.cn/xhn/news/202409/20599927.html",
+    "https://m.voc.com.cn/xhn/news/202303/16072838.html"
+  ],
+  "confidence": "medium"
+}

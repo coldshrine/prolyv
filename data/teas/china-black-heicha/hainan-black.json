@@ -1,0 +1,63 @@
+{
+  "slug": "hainan-black",
+  "name_en": "Hainan Black Tea",
+  "name_native": "海南红茶",
+  "name_romanized": "Hǎinán Hóngchá",
+  "aliases": [
+    "Hainan Hong Cha",
+    "Wuzhishan black tea",
+    "Baisha black tea",
+    "Hainan Red",
+    "Hainan Da Ye black",
+    "海南紅茶",
+    "Хай Нань Хун Ча"
+  ],
+  "category": "black",
+  "origin_country": "China",
+  "origin_region": "Hainan · Wuzhishan and Baisha",
+  "cultivar": "Hainan Daye (native large-leaf) and Yunnan large-leaf (assamica) cultivars",
+  "processing": "Fully oxidised big-leaf black made both as whole-leaf gongfu and as CTC broken tea: withered, rolled or cut, oxidised in hot humid conditions and dried.",
+  "form": "loose",
+  "harvest_season": "Tropical: picked from February to November, with the spring flush (February–April) the most aromatic and the rainy-season flushes the heaviest.",
+  "appearance_dry": "Fat, dark twisted strands with some golden tips in the gongfu grades; CTC lots are uniform dark granules.",
+  "appearance_liquor": "Deep red, bright, with a strong cream-down as it cools.",
+  "appearance_wet": "Large, thick copper-brown leaves.",
+  "taste_profile": "Strong, malty and cocoa-rich with sweet potato and a firm tannin, more body than aroma; built for milk.",
+  "taste_tags": [
+    "malty",
+    "cocoa",
+    "brisk",
+    "sweet"
+  ],
+  "brewing": {
+    "grams": 5,
+    "water_ml": 110,
+    "temp_c": 95,
+    "steeps": 6,
+    "seconds": [
+      10,
+      10,
+      15,
+      20,
+      30,
+      45
+    ],
+    "notes": "Gongfu grades take water near the boil and short steeps. Western-style is the natural fit: 3 g per 250 ml, 3–4 minutes, with milk; CTC grades need only 2–3 minutes."
+  },
+  "caffeine_level": "high",
+  "vintage_note": "Sold by the current year's flush rather than by a single spring harvest, since the island picks for most of the year; spring lots cost more. Drink within a year; the broken grades fade faster. Not aged.",
+  "description": "Hainan black comes from China's tropical island, where tea grows at a latitude closer to Vietnam's than to Fujian's and the bushes never really stop. The industry was built in the late 1950s and 1960s on state farms in the central hills around Wuzhishan and Baisha, planted with Yunnan big-leaf seed and the island's own native large-leaf trees, and for a few decades 'Hainan black' was a sizeable export tea in the CTC mould. Today it is a small domestic specialty with a handful of farms trying the whole-leaf route.\n\nBoth kinds are made. CTC lots are withered, cut, oxidised fast in the island's heat and dried into granules; gongfu lots are withered and rolled whole. The hot, humid climate pushes oxidation hard, so Hainan black is dark, strong and heavy in body with a pronounced cream-down when it cools – the profile of a milk tea rather than a sipping tea.\n\nIn the cup it is malt, cocoa and sweet potato with a firm tannin and not much perfume; a gongfu grade gives five or six short steeps with water near the boil, and the CTC makes a fast, thick pot that wants milk. It is honest, strong breakfast tea, and judged as that it is good.\n\nIt is sold by flush – the island picks from February to November – with spring lots at the top and the heavy rainy-season leaf at the bottom; most of it stays in Hainan and Guangdong. Look for fat, glossy, well-twisted whole leaf from a named farm (Wuzhishan and Baisha carry the most weight) and a strong cocoa-like dry aroma; stale, dusty broken tea is the common failure.\n\nIf you drink Assam or Kenyan with milk and want a Chinese equivalent, this is the one that behaves the same way in the pot.",
+  "wikipedia_title": "Black tea",
+  "wikipedia_scope": "umbrella",
+  "popularity": 1,
+  "sources_note": "State-farm history (1950s–60s, Yunnan seed, CTC export) follows Chinese sources; current production is small and poorly documented. Cultivar name 'Hainan Daye' refers to the island's native large-leaf population.",
+  "name_zh": "海南红茶",
+  "name_ru": "Хайнаньский красный чай",
+  "history": "Hainan black tea is thinly documented, and its early years have no readily available record. Tea-trade accounts describe state farms around Wuzhishan and Baisha starting in the late 1950s and 1960s and making broken black tea for export. Their dates disagree, so read that as an outline and not a record.\n\nThe firm part is recent. China Daily's Hainan page, writing in 2019, says Wuzhishan black tea gained national geographical indication recognition in 2015, and counts more than 10 tea gardens in Wuzhishan with over 8,500 mu between them. That covers one city, not the whole island.",
+  "liquor_hex": "#8E2F14",
+  "leaf_hex": "#33221A",
+  "sources": [
+    "https://regional.chinadaily.com.cn/hainan/2019-09/10/c_406523.htm"
+  ],
+  "confidence": "low"
+}

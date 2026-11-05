@@ -1,0 +1,8303 @@
+[
+ {
+  "slug": "bancha",
+  "en": "Bancha",
+  "zh": "番茶",
+  "ru": "Бантя",
+  "native": "番茶",
+  "aliases": [],
+  "category": "green",
+  "country": "Japan",
+  "region": null,
+  "kind": "style",
+  "tier": 1,
+  "existing_slug": "bancha",
+  "evidence": [
+   "https://en.wikipedia.org/wiki/Bancha",
+   "https://ja.wikipedia.org/wiki/日本茶",
+   "https://ru.wikipedia.org/wiki/Зелёный_чай"
+  ]
+ },
+ {
+  "slug": "chiran-cha",
+  "en": "Chiran-cha",
+  "zh": null,
+  "ru": "Тиран-тя",
+  "native": "知覧茶",
+  "aliases": [
+   "Chiran tea",
+   "Chirancha",
+   "Kagoshima Chiran-cha",
+   "かごしま知覧茶"
+  ],
+  "category": "green",
+  "country": "Japan",
+  "region": "Kagoshima · Chiran",
+  "kind": "appellation",
+  "tier": 1,
+  "existing_slug": null,
+  "evidence": [
+   "https://en.wikipedia.org/wiki/Chiran_tea",
+   "https://ja.wikipedia.org/wiki/日本茶",
+   "https://www.wikidata.org/wiki/Q5101843"
+  ]
+ },
+ {
+  "slug": "fukamushi-sencha",
+  "en": "Fukamushi Sencha",
+  "zh": null,
+  "ru": "Фукамуси сэнтя",
+  "native": "深蒸し煎茶",
+  "aliases": [
+   "Сентя (Сенча) Фукамуси",
+   "Deep Steam Green Tea",
+   "Фукамуситя",
+   "深蒸し茶",
+   "Fukamushi",
+   "Fukamushi Cha",
+   "Fukamushi-Cha",
+   "Fukamushicha",
+   "Sencha Fukamushi"
+  ],
+  "category": "green",
+  "country": "Japan",
+  "region": null,
+  "kind": "style",
+  "tier": 1,
+  "existing_slug": "fukamushi-sencha",
+  "evidence": [
+   "https://en.wikipedia.org/wiki/Fukamushicha",
+   "https://ja.wikipedia.org/wiki/茶",
+   "https://www.wikidata.org/wiki/Q11560264"
+  ]
+ },
+ {
+  "slug": "genmaicha",
+  "en": "Genmaicha",
+  "zh": "玄米茶",
+  "ru": "Гэммайтя",
+  "native": "玄米茶",
+  "aliases": [
+   "Brown rice tea",
+   "genmai cha",
+   "Генмайтя (Генмайча)",
+   "коричневый рисовый чай",
+   "糙米茶"
+  ],
+  "category": "green",
+  "country": "Japan",
+  "region": null,
+  "kind": "blend",
+  "tier": 1,
+  "existing_slug": "genmaicha",
+  "evidence": [
+   "https://en.wikipedia.org/wiki/Genmaicha",
+   "https://en.wikipedia.org/wiki/Brown_rice_tea",
+   "https://en.wikipedia.org/wiki/Korean_tea"
+  ]
+ },
+ {
+  "slug": "gyokuro",
+  "en": "Gyokuro",
+  "zh": "玉露",
+  "ru": "Гёкуро",
+  "native": "玉露",
+  "aliases": [
+   "Jade Dew",
+   "jewel dew"
+  ],
+  "category": "green",
+  "country": "Japan",
+  "region": null,
+  "kind": "style",
+  "tier": 1,
+  "existing_slug": "gyokuro",
+  "evidence": [
+   "https://en.wikipedia.org/wiki/Gyokuro",
+   "https://chay.by/product/chaj-zelenyj-gyokuro-100-g-vesovoj/",
+   "https://ja.wikipedia.org/wiki/日本茶"
+  ]
+ },
+ {
+  "slug": "hojicha",
+  "en": "Hojicha",
+  "zh": "焙茶",
+  "ru": "Ходзитя",
+  "native": "ほうじ茶",
+  "aliases": [
+   "Houjicha",
+   "Hōjicha",
+   "Ходзича"
+  ],
+  "category": "green",
+  "country": "Japan",
+  "region": null,
+  "kind": "style",
+  "tier": 1,
+  "existing_slug": "hojicha",
+  "evidence": [
+   "https://en.wikipedia.org/wiki/H%C5%8Djicha",
+   "https://en.wikipedia.org/wiki/Hōjicha",
+   "https://ja.wikipedia.org/wiki/日本茶"
+  ]
+ },
+ {
+  "slug": "ise-cha",
+  "en": "Ise-cha",
+  "zh": null,
+  "ru": "Исэ-тя",
+  "native": "伊勢茶",
+  "aliases": [
+   "Ise Sencha",
+   "伊勢煎茶"
+  ],
+  "category": "green",
+  "country": "Japan",
+  "region": "Mie",
+  "kind": "appellation",
+  "tier": 1,
+  "existing_slug": null,
+  "evidence": [
+   "https://ja.wikipedia.org/wiki/日本茶",
+   "https://www.sazentea.com/en/products/c55-japanese-tea"
+  ]
+ },
+ {
+  "slug": "kabusecha",
+  "en": "Kabusecha",
+  "zh": null,
+  "ru": "Кабусэтя",
+  "native": "かぶせ茶",
+  "aliases": [
+   "Kabuse Cha",
+   "Kabuse Tea",
+   "Kabuse-Cha",
+   "Kabuse Sencha",
+   "Ooi-cha (covered tea, alias of kabusecha)",
+   "おおい茶"
+  ],
+  "category": "green",
+  "country": "Japan",
+  "region": null,
+  "kind": "style",
+  "tier": 1,
+  "existing_slug": "kabusecha",
+  "evidence": [
+   "https://en.wikipedia.org/wiki/Kabusecha",
+   "https://ja.wikipedia.org/wiki/茶",
+   "https://ru.wikipedia.org/wiki/Зелёный_чай"
+  ]
+ },
+ {
+  "slug": "kagoshima-sencha",
+  "en": "Kagoshima Sencha",
+  "zh": null,
+  "ru": "Кагосима сэнтя",
+  "native": "鹿児島茶",
+  "aliases": [
+   "鹿児島煎茶",
+   "Kagoshima green tea",
+   "Kagoshima-cha",
+   "Kagoshima-cha (kana)",
+   "かごしま茶"
+  ],
+  "category": "green",
+  "country": "Japan",
+  "region": "Kagoshima",
+  "kind": "appellation",
+  "tier": 1,
+  "existing_slug": "kagoshima-sencha",
+  "evidence": [
+   "https://en.wikipedia.org/wiki/Kagoshima_green_tea",
+   "https://www.wikidata.org/wiki/Q6346675",
+   "https://ja.wikipedia.org/wiki/日本茶"
+  ]
+ },
+ {
+  "slug": "kamairicha",
+  "en": "Kamairicha",
+  "zh": null,
+  "ru": "Камайритя",
+  "native": "釜炒り茶",
+  "aliases": [
+   "Kamairicha tea",
+   "Камаиритя"
+  ],
+  "category": "green",
+  "country": "Japan",
+  "region": "Kyushu",
+  "kind": "style",
+  "tier": 1,
+  "existing_slug": "kamairicha",
+  "evidence": [
+   "https://en.wikipedia.org/wiki/Kamairicha",
+   "https://ja.wikipedia.org/wiki/日本茶",
+   "https://ru.wikipedia.org/wiki/Зелёный_чай"
+  ]
+ },
+ {
+  "slug": "karigane",
+  "en": "Karigane",
+  "zh": null,
+  "ru": "Кариганэ",
+  "native": "雁ヶ音",
+  "aliases": [
+   "Karigane Kukicha",
+   "Каригане кукича"
+  ],
+  "category": "green",
+  "country": "Japan",
+  "region": null,
+  "kind": "style",
+  "tier": 1,
+  "existing_slug": "karigane",
+  "evidence": [
+   "https://teahouse.ua/ru/chaj-karigane-kukicha-126-100g/",
+   "https://en.wikipedia.org/wiki/Category:Japanese_tea"
+  ]
+ },
+ {
+  "slug": "kawane-cha",
+  "en": "Kawane-cha",
+  "zh": null,
+  "ru": "Каванэ-тя",
+  "native": "川根茶",
+  "aliases": [],
+  "category": "green",
+  "country": "Japan",
+  "region": "Shizuoka",
+  "kind": "appellation",
+  "tier": 1,
+  "existing_slug": null,
+  "evidence": [
+   "https://ja.wikipedia.org/wiki/日本茶"
+  ]
+ },
+ {
+  "slug": "konacha",
+  "en": "Konacha",
+  "zh": null,
+  "ru": "Конатя",
+  "native": "粉茶",
+  "aliases": [],
+  "category": "green",
+  "country": "Japan",
+  "region": null,
+  "kind": "style",
+  "tier": 1,
+  "existing_slug": "konacha",
+  "evidence": [
+   "https://en.wikipedia.org/wiki/Konacha",
+   "https://ja.wikipedia.org/wiki/日本茶",
+   "https://ru.wikipedia.org/wiki/Зелёный_чай"
+  ]
+ },
+ {
+  "slug": "kukicha",
+  "en": "Kukicha",
+  "zh": "茎茶",
+  "ru": "Кукитя",
+  "native": "茎茶",
+  "aliases": [
+   "Кукича",
+   "莖茶",
+   "Bocha",
+   "棒茶"
+  ],
+  "category": "green",
+  "country": "Japan",
+  "region": null,
+  "kind": "style",
+  "tier": 1,
+  "existing_slug": "kukicha",
+  "evidence": [
+   "https://en.wikipedia.org/wiki/Kukicha",
+   "https://chay.by/product/chaj-zelenyj-kukicha-100-g-vesovoj/",
+   "https://ja.wikipedia.org/wiki/日本茶"
+  ]
+ },
+ {
+  "slug": "kyobancha",
+  "en": "Kyobancha",
+  "zh": null,
+  "ru": "Кёбантя",
+  "native": "京番茶",
+  "aliases": [
+   "Kyōbancha",
+   "Iribancha",
+   "いり番茶"
+  ],
+  "category": "green",
+  "country": "Japan",
+  "region": "Kyoto",
+  "kind": "style",
+  "tier": 1,
+  "existing_slug": "kyobancha",
+  "evidence": [
+   "https://en.wikipedia.org/wiki/Tea_culture_in_Japan",
+   "https://ja.wikipedia.org/wiki/番茶",
+   "https://ratetea.com/styles.php"
+  ]
+ },
+ {
+  "slug": "matcha-ceremonial",
+  "en": "Matcha",
+  "zh": "抹茶",
+  "ru": "Маття",
+  "native": "抹茶",
+  "aliases": [
+   "Green Tea Powder",
+   "maccha",
+   "matcha powder",
+   "matcha tea",
+   "Матча (маття)",
+   "Ceremonial Grade Matcha",
+   "Stone-milled Matcha",
+   "石臼挽き抹茶"
+  ],
+  "category": "green",
+  "country": "Japan",
+  "region": null,
+  "kind": "style",
+  "tier": 1,
+  "existing_slug": "matcha-ceremonial",
+  "evidence": [
+   "https://en.wikipedia.org/wiki/Matcha",
+   "https://ja.wikipedia.org/wiki/日本茶",
+   "https://ru.wikipedia.org/wiki/Зелёный_чай"
+  ]
+ },
+ {
+  "slug": "matcha-culinary",
+  "en": "Culinary Matcha",
+  "zh": null,
+  "ru": "Кулинарная маття",
+  "native": "料理用抹茶",
+  "aliases": [
+   "Cooking Matcha"
+  ],
+  "category": "green",
+  "country": "Japan",
+  "region": null,
+  "kind": "style",
+  "tier": 1,
+  "existing_slug": "matcha-culinary",
+  "evidence": [
+   "https://www.uptontea.com/collections/japanese-tea",
+   "https://www.sazentea.com/en/products/c55-japanese-tea"
+  ]
+ },
+ {
+  "slug": "nishio-cha",
+  "en": "Nishio-cha",
+  "zh": null,
+  "ru": "Нисио-тя",
+  "native": "西尾茶",
+  "aliases": [
+   "Nishio Tea"
+  ],
+  "category": "green",
+  "country": "Japan",
+  "region": "Aichi",
+  "kind": "appellation",
+  "tier": 1,
+  "existing_slug": null,
+  "evidence": [
+   "https://ja.wikipedia.org/wiki/日本茶",
+   "https://www.wikidata.org/wiki/Q11627781"
+  ]
+ },
+ {
+  "slug": "sayama-cha",
+  "en": "Sayama-cha",
+  "zh": "狭山茶",
+  "ru": "Саяма-тя",
+  "native": "狭山茶",
+  "aliases": [
+   "Sayama tea",
+   "狹山茶"
+  ],
+  "category": "green",
+  "country": "Japan",
+  "region": "Saitama · Sayama",
+  "kind": "appellation",
+  "tier": 1,
+  "existing_slug": "sayama-cha",
+  "evidence": [
+   "https://en.wikipedia.org/wiki/Sayama_tea",
+   "https://ja.wikipedia.org/wiki/日本茶",
+   "https://www.wikidata.org/wiki/Q7429107"
+  ]
+ },
+ {
+  "slug": "sencha",
+  "en": "Sencha",
+  "zh": "煎茶",
+  "ru": "Сэнтя",
+  "native": "煎茶",
+  "aliases": [
+   "sencha tea",
+   "Сенча (Сентя)",
+   "сентя"
+  ],
+  "category": "green",
+  "country": "Japan",
+  "region": null,
+  "kind": "style",
+  "tier": 1,
+  "existing_slug": "sencha",
+  "evidence": [
+   "https://en.wikipedia.org/wiki/Sencha",
+   "https://en.wikipedia.org/wiki/Tea_culture",
+   "https://ja.wikipedia.org/wiki/日本茶"
+  ]
+ },
+ {
+  "slug": "shincha",
+  "en": "Shincha",
+  "zh": null,
+  "ru": "Синтя",
+  "native": "新茶",
+  "aliases": [
+   "Shin Cha",
+   "Shin-Cha"
+  ],
+  "category": "green",
+  "country": "Japan",
+  "region": null,
+  "kind": "style",
+  "tier": 1,
+  "existing_slug": "shincha",
+  "evidence": [
+   "https://www.wikidata.org/wiki/Q1471207",
+   "https://ja.wikipedia.org/wiki/日本茶",
+   "https://myjapanesegreentea.com/types-of-japanese-green-tea"
+  ]
+ },
+ {
+  "slug": "shizuoka-sencha",
+  "en": "Shizuoka-cha",
+  "zh": null,
+  "ru": "Сидзуока-тя",
+  "native": "静岡茶",
+  "aliases": [
+   "Shizuoka tea"
+  ],
+  "category": "green",
+  "country": "Japan",
+  "region": "Shizuoka",
+  "kind": "appellation",
+  "tier": 1,
+  "existing_slug": "shizuoka-sencha",
+  "evidence": [
+   "https://ja.wikipedia.org/wiki/日本茶",
+   "https://www.wikidata.org/wiki/Q11663583"
+  ]
+ },
+ {
+  "slug": "tamaryokucha",
+  "en": "Tamaryokucha",
+  "zh": null,
+  "ru": "Тамарёкутя",
+  "native": "玉緑茶",
+  "aliases": [
+   "Tamaryokucha (Guricha)",
+   "Guricha",
+   "ぐり茶"
+  ],
+  "category": "green",
+  "country": "Japan",
+  "region": null,
+  "kind": "style",
+  "tier": 1,
+  "existing_slug": "tamaryokucha",
+  "evidence": [
+   "https://en.wikipedia.org/wiki/Tamaryokucha",
+   "https://ja.wikipedia.org/wiki/日本茶",
+   "https://ru.wikipedia.org/wiki/Зелёный_чай"
+  ]
+ },
+ {
+  "slug": "tencha",
+  "en": "Tencha",
+  "zh": null,
+  "ru": "Тэнтя",
+  "native": "碾茶",
+  "aliases": [
+   "Ten Cha",
+   "Ten-Cha"
+  ],
+  "category": "green",
+  "country": "Japan",
+  "region": null,
+  "kind": "style",
+  "tier": 1,
+  "existing_slug": "tencha",
+  "evidence": [
+   "https://en.wikipedia.org/wiki/Tencha",
+   "https://ja.wikipedia.org/wiki/%E7%94%9C%E8%8C%B6",
+   "https://ja.wikipedia.org/wiki/Category:日本茶"
+  ]
+ },
+ {
+  "slug": "uji-cha",
+  "en": "Uji-cha",
+  "zh": "宇治茶",
+  "ru": "Удзи-тя",
+  "native": "宇治茶",
+  "aliases": [
+   "Uji Tea",
+   "Uji cha"
+  ],
+  "category": "green",
+  "country": "Japan",
+  "region": "Kyoto · Uji",
+  "kind": "appellation",
+  "tier": 1,
+  "existing_slug": null,
+  "evidence": [
+   "https://en.wikipedia.org/wiki/Uji_tea",
+   "https://ja.wikipedia.org/wiki/日本茶",
+   "https://www.wikidata.org/wiki/Q11449516"
+  ]
+ },
+ {
+  "slug": "uji-matcha",
+  "en": "Uji Matcha",
+  "zh": null,
+  "ru": "Удзи маття",
+  "native": "宇治抹茶",
+  "aliases": [],
+  "category": "green",
+  "country": "Japan",
+  "region": "Kyoto · Uji",
+  "kind": "appellation",
+  "tier": 1,
+  "existing_slug": "uji-matcha",
+  "evidence": [
+   "https://www.denstea.com/"
+  ]
+ },
+ {
+  "slug": "ureshino-cha",
+  "en": "Ureshino-cha",
+  "zh": null,
+  "ru": "Урэсино-тя",
+  "native": "嬉野茶",
+  "aliases": [
+   "Ureshino Tea"
+  ],
+  "category": "green",
+  "country": "Japan",
+  "region": "Saga",
+  "kind": "appellation",
+  "tier": 1,
+  "existing_slug": null,
+  "evidence": [
+   "https://ja.wikipedia.org/wiki/日本茶",
+   "https://www.wikidata.org/wiki/Q11447803"
+  ]
+ },
+ {
+  "slug": "yabukita",
+  "en": "Yabukita",
+  "zh": "薮北",
+  "ru": "Ябукита",
+  "native": "やぶきた",
+  "aliases": [
+   "藪北",
+   "Sencha Yabukita",
+   "Yabukita tea cultivar"
+  ],
+  "category": "green",
+  "country": "Japan",
+  "region": "Shizuoka",
+  "kind": "cultivar",
+  "tier": 1,
+  "existing_slug": "yabukita",
+  "evidence": [
+   "https://en.wikipedia.org/wiki/Tea_culture_in_Japan",
+   "https://www.wikidata.org/wiki/Q11280426",
+   "https://www.wikidata.org/wiki/Q133847923"
+  ]
+ },
+ {
+  "slug": "yame-cha",
+  "en": "Yame-cha",
+  "zh": null,
+  "ru": "Ямэ-тя",
+  "native": "八女茶",
+  "aliases": [
+   "Yamecha"
+  ],
+  "category": "green",
+  "country": "Japan",
+  "region": "Fukuoka",
+  "kind": "appellation",
+  "tier": 1,
+  "existing_slug": null,
+  "evidence": [
+   "https://en.wikipedia.org/wiki/Yamecha",
+   "https://ja.wikipedia.org/wiki/日本茶",
+   "https://www.wikidata.org/wiki/Q11390756"
+  ]
+ },
+ {
+  "slug": "yame-gyokuro",
+  "en": "Yame Gyokuro",
+  "zh": null,
+  "ru": "Ямэ гёкуро",
+  "native": "八女玉露",
+  "aliases": [],
+  "category": "green",
+  "country": "Japan",
+  "region": "Fukuoka · Yame",
+  "kind": "appellation",
+  "tier": 1,
+  "existing_slug": "yame-gyokuro",
+  "evidence": [
+   "https://www.sazentea.com/en/products/c55-japanese-tea"
+  ]
+ },
+ {
+  "slug": "aioi-bancha",
+  "en": "Aioi Bancha",
+  "zh": null,
+  "ru": "Аиой бантя",
+  "native": "相生番茶",
+  "aliases": [],
+  "category": "green",
+  "country": "Japan",
+  "region": "Tokushima · Naka",
+  "kind": "style",
+  "tier": 2,
+  "existing_slug": null,
+  "evidence": [
+   "https://ja.wikipedia.org/wiki/日本茶"
+  ]
+ },
+ {
+  "slug": "aoyagi-cha",
+  "en": "Aoyagi-cha",
+  "zh": null,
+  "ru": "Аояги-тя",
+  "native": "青柳茶",
+  "aliases": [],
+  "category": "green",
+  "country": "Japan",
+  "region": "Kumamoto / Miyazaki",
+  "kind": "style",
+  "tier": 2,
+  "existing_slug": null,
+  "evidence": [
+   "https://ja.wikipedia.org/wiki/釜炒り茶"
+  ]
+ },
+ {
+  "slug": "aracha",
+  "en": "Aracha",
+  "zh": null,
+  "ru": "Аратя",
+  "native": "荒茶",
+  "aliases": [],
+  "category": "green",
+  "country": "Japan",
+  "region": null,
+  "kind": "style",
+  "tier": 2,
+  "existing_slug": null,
+  "evidence": [
+   "https://en.wikipedia.org/wiki/Green_tea",
+   "https://ja.wikipedia.org/wiki/Category:茶",
+   "https://ru.wikipedia.org/wiki/Зелёный_чай"
+  ]
+ },
+ {
+  "slug": "asahina-gyokuro",
+  "en": "Asahina Gyokuro",
+  "zh": null,
+  "ru": "Асахина гёкуро",
+  "native": "朝比奈玉露",
+  "aliases": [],
+  "category": "green",
+  "country": "Japan",
+  "region": "Shizuoka",
+  "kind": "appellation",
+  "tier": 2,
+  "existing_slug": null,
+  "evidence": [
+   "https://ja.wikipedia.org/wiki/日本茶"
+  ]
+ },
+ {
+  "slug": "asamiya-cha",
+  "en": "Asamiya-cha",
+  "zh": null,
+  "ru": "Асамия-тя",
+  "native": "朝宮茶",
+  "aliases": [
+   "Asamiya Sencha",
+   "朝宮煎茶"
+  ],
+  "category": "green",
+  "country": "Japan",
+  "region": "Shiga",
+  "kind": "appellation",
+  "tier": 2,
+  "existing_slug": null,
+  "evidence": [
+   "https://ja.wikipedia.org/wiki/日本茶",
+   "https://www.wikidata.org/wiki/Q65270919",
+   "https://www.sazentea.com/en/products/c55-japanese-tea"
+  ]
+ },
+ {
+  "slug": "asamushi-sencha",
+  "en": "Asamushi Sencha",
+  "zh": null,
+  "ru": "Асамуси сэнтя",
+  "native": "浅蒸し煎茶",
+  "aliases": [
+   "Asamushi",
+   "Asamushi Cha",
+   "Asamushi-Cha",
+   "浅蒸し茶",
+   "Сентя (Сенча) Асамуси",
+   "Asamushicha"
+  ],
+  "category": "green",
+  "country": "Japan",
+  "region": null,
+  "kind": "style",
+  "tier": 2,
+  "existing_slug": "asamushi-sencha",
+  "evidence": [
+   "https://en.wikipedia.org/wiki/Sencha",
+   "https://www.wikidata.org/wiki/Q124606582",
+   "https://teahouse.ua/ru/sentja-sencha-asamusi/"
+  ]
+ },
+ {
+  "slug": "asanoka",
+  "en": "Asanoka",
+  "zh": null,
+  "ru": "Асанока",
+  "native": "あさのか",
+  "aliases": [
+   "Asanoka Sencha"
+  ],
+  "category": "green",
+  "country": "Japan",
+  "region": null,
+  "kind": "cultivar",
+  "tier": 2,
+  "existing_slug": null,
+  "evidence": [
+   "https://australianteamasters.com.au/japanese-tea-cultivars-listing/",
+   "https://www.sazentea.com/en/products/c55-japanese-tea"
+  ]
+ },
+ {
+  "slug": "asatsuyu",
+  "en": "Asatsuyu",
+  "zh": null,
+  "ru": "Асацую",
+  "native": "あさつゆ",
+  "aliases": [
+   "Tongu Asatsuyu Sencha"
+  ],
+  "category": "green",
+  "country": "Japan",
+  "region": null,
+  "kind": "cultivar",
+  "tier": 2,
+  "existing_slug": "asatsuyu",
+  "evidence": [
+   "https://australianteamasters.com.au/japanese-tea-cultivars-listing/",
+   "https://www.sazentea.com/en/products/c55-japanese-tea"
+  ]
+ },
+ {
+  "slug": "ashigara-cha",
+  "en": "Ashigara-cha",
+  "zh": null,
+  "ru": "Асигара-тя",
+  "native": "足柄茶",
+  "aliases": [],
+  "category": "green",
+  "country": "Japan",
+  "region": "Kanagawa",
+  "kind": "appellation",
+  "tier": 2,
+  "existing_slug": null,
+  "evidence": [
+   "https://ja.wikipedia.org/wiki/日本茶"
+  ]
+ },
+ {
+  "slug": "asuke-kancha",
+  "en": "Asuke Kancha",
+  "zh": null,
+  "ru": "Асукэ кантя",
+  "native": "足助寒茶",
+  "aliases": [],
+  "category": "green",
+  "country": "Japan",
+  "region": "Aichi",
+  "kind": "style",
+  "tier": 2,
+  "existing_slug": null,
+  "evidence": [
+   "https://ja.wikipedia.org/wiki/日本茶"
+  ]
+ },
+ {
+  "slug": "botebote-cha",
+  "en": "Botebote-cha",
+  "zh": null,
+  "ru": "Ботэботэ-тя",
+  "native": "ぼてぼて茶",
+  "aliases": [
+   "botebote tea"
+  ],
+  "category": "green",
+  "country": "Japan",
+  "region": "Shimane · Izumo",
+  "kind": "recipe",
+  "tier": 2,
+  "existing_slug": null,
+  "evidence": [
+   "https://ja.wikipedia.org/wiki/振り茶",
+   "https://www.wikidata.org/wiki/Q11278034"
+  ]
+ },
+ {
+  "slug": "bukubuku-cha",
+  "en": "Bukubuku-cha",
+  "zh": null,
+  "ru": "Букубуку-тя",
+  "native": "ブクブク茶",
+  "aliases": [
+   "bukubuku",
+   "bukubuku cha",
+   "bukubuku tea",
+   "泡泡茶"
+  ],
+  "category": "green",
+  "country": "Japan",
+  "region": "Okinawa · Naha",
+  "kind": "recipe",
+  "tier": 2,
+  "existing_slug": null,
+  "evidence": [
+   "https://ja.wikipedia.org/wiki/振り茶",
+   "https://www.wikidata.org/wiki/Q22124636"
+  ]
+ },
+ {
+  "slug": "chikugo-cha",
+  "en": "Chikugo-cha",
+  "zh": null,
+  "ru": "Тикуго-тя",
+  "native": "筑後茶",
+  "aliases": [],
+  "category": "green",
+  "country": "Japan",
+  "region": "Fukuoka",
+  "kind": "appellation",
+  "tier": 2,
+  "existing_slug": null,
+  "evidence": [
+   "https://ja.wikipedia.org/wiki/日本茶"
+  ]
+ },
+ {
+  "slug": "chumushicha",
+  "en": "Chumushicha",
+  "zh": null,
+  "ru": "Тюмуситя",
+  "native": "中蒸し茶",
+  "aliases": [
+   "Chumushi",
+   "Chūmushi",
+   "Chūmushi Cha",
+   "Chūmushi-Cha",
+   "Chūmushicha"
+  ],
+  "category": "green",
+  "country": "Japan",
+  "region": null,
+  "kind": "style",
+  "tier": 2,
+  "existing_slug": null,
+  "evidence": [
+   "https://en.wikipedia.org/wiki/Sencha",
+   "https://www.wikidata.org/wiki/Q124606581"
+  ]
+ },
+ {
+  "slug": "ei-cha",
+  "en": "Ei-cha",
+  "zh": null,
+  "ru": "Эй-тя",
+  "native": "頴娃茶",
+  "aliases": [],
+  "category": "green",
+  "country": "Japan",
+  "region": "Kagoshima",
+  "kind": "appellation",
+  "tier": 2,
+  "existing_slug": null,
+  "evidence": [
+   "https://ja.wikipedia.org/wiki/日本茶"
+  ]
+ },
+ {
+  "slug": "fujieda-cha",
+  "en": "Fujieda-cha",
+  "zh": null,
+  "ru": "Фудзиэда-тя",
+  "native": "藤枝茶",
+  "aliases": [],
+  "category": "green",
+  "country": "Japan",
+  "region": "Shizuoka",
+  "kind": "appellation",
+  "tier": 2,
+  "existing_slug": null,
+  "evidence": [
+   "https://ja.wikipedia.org/wiki/日本茶"
+  ]
+ },
+ {
+  "slug": "fujikaori",
+  "en": "Fujikaori",
+  "zh": null,
+  "ru": "Фудзикаори",
+  "native": "ふじかおり",
+  "aliases": [],
+  "category": "green",
+  "country": "Japan",
+  "region": null,
+  "kind": "cultivar",
+  "tier": 2,
+  "existing_slug": null,
+  "evidence": [
+   "https://australianteamasters.com.au/japanese-tea-cultivars-listing/"
+  ]
+ },
+ {
+  "slug": "fukumidori",
+  "en": "Fukumidori",
+  "zh": null,
+  "ru": "Фукумидори",
+  "native": "ふくみどり",
+  "aliases": [],
+  "category": "green",
+  "country": "Japan",
+  "region": null,
+  "kind": "cultivar",
+  "tier": 2,
+  "existing_slug": null,
+  "evidence": [
+   "https://australianteamasters.com.au/japanese-tea-cultivars-listing/"
+  ]
+ },
+ {
+  "slug": "funmatsucha",
+  "en": "Funmatsucha",
+  "zh": null,
+  "ru": "Фуммацутя",
+  "native": "粉末茶",
+  "aliases": [],
+  "category": "green",
+  "country": "Japan",
+  "region": null,
+  "kind": "style",
+  "tier": 2,
+  "existing_slug": null,
+  "evidence": [
+   "https://ja.wikipedia.org/wiki/茶",
+   "https://ru.wikipedia.org/wiki/Зелёный_чай",
+   "https://www.wikidata.org/wiki/Q10500143"
+  ]
+ },
+ {
+  "slug": "furicha",
+  "en": "Furicha",
+  "zh": null,
+  "ru": "Фуритя",
+  "native": "振り茶",
+  "aliases": [],
+  "category": "green",
+  "country": "Japan",
+  "region": null,
+  "kind": "recipe",
+  "tier": 2,
+  "existing_slug": null,
+  "evidence": [
+   "https://www.wikidata.org/wiki/Q22124782"
+  ]
+ },
+ {
+  "slug": "gabaroncha",
+  "en": "Gabaroncha",
+  "zh": null,
+  "ru": "Габарон-тя",
+  "native": "ギャバロン茶",
+  "aliases": [
+   "GABA Green Tea",
+   "ギャバ茶",
+   "Gabaron"
+  ],
+  "category": "green",
+  "country": "Japan",
+  "region": null,
+  "kind": "style",
+  "tier": 2,
+  "existing_slug": null,
+  "evidence": [
+   "https://en.wikipedia.org/wiki/GABA_tea",
+   "https://www.sazentea.com/en/products/c55-japanese-tea",
+   "https://www.denstea.com/"
+  ]
+ },
+ {
+  "slug": "genmaicha-powder",
+  "en": "Genmaicha Powder",
+  "zh": null,
+  "ru": "Порошковая гэммайтя",
+  "native": "玄米茶パウダー",
+  "aliases": [],
+  "category": "green",
+  "country": "Japan",
+  "region": null,
+  "kind": "style",
+  "tier": 2,
+  "existing_slug": null,
+  "evidence": [
+   "https://yunomi.life/",
+   "https://yunomi.life/blogs/japanese-tea-guide/what-are-cultivars"
+  ]
+ },
+ {
+  "slug": "gokase-cha",
+  "en": "Gokase-cha",
+  "zh": null,
+  "ru": "Гокасэ-тя",
+  "native": "五ヶ瀬茶",
+  "aliases": [],
+  "category": "green",
+  "country": "Japan",
+  "region": "Miyazaki",
+  "kind": "appellation",
+  "tier": 2,
+  "existing_slug": null,
+  "evidence": [
+   "https://ja.wikipedia.org/wiki/日本茶"
+  ]
+ },
+ {
+  "slug": "gokase-kamairicha",
+  "en": "Gokase Kamairicha",
+  "zh": null,
+  "ru": "Гокасэ камайритя",
+  "native": "五ヶ瀬釜炒り茶",
+  "aliases": [],
+  "category": "green",
+  "country": "Japan",
+  "region": "Miyazaki · Gokase",
+  "kind": "appellation",
+  "tier": 2,
+  "existing_slug": null,
+  "evidence": [
+   "https://ja.wikipedia.org/wiki/日本茶"
+  ]
+ },
+ {
+  "slug": "goko",
+  "en": "Goko",
+  "zh": null,
+  "ru": "Гоко",
+  "native": "五香",
+  "aliases": [
+   "Gokou",
+   "Goko Gyokuro",
+   "Goko Sencha"
+  ],
+  "category": "green",
+  "country": "Japan",
+  "region": null,
+  "kind": "cultivar",
+  "tier": 2,
+  "existing_slug": null,
+  "evidence": [
+   "https://myjapanesegreentea.com/?p=2299",
+   "https://www.sazentea.com/en/products/c55-japanese-tea"
+  ]
+ },
+ {
+  "slug": "gujo-bancha",
+  "en": "Gujo Bancha",
+  "zh": null,
+  "ru": "Гудзё бантя",
+  "native": "郡上番茶",
+  "aliases": [],
+  "category": "green",
+  "country": "Japan",
+  "region": "Gifu",
+  "kind": "style",
+  "tier": 2,
+  "existing_slug": null,
+  "evidence": [
+   "https://ja.wikipedia.org/wiki/日本茶"
+  ]
+ },
+ {
+  "slug": "gyokuro-karigane",
+  "en": "Gyokuro Karigane",
+  "zh": null,
+  "ru": "Гёкуро кариганэ",
+  "native": "玉露雁ヶ音",
+  "aliases": [],
+  "category": "green",
+  "country": "Japan",
+  "region": "Kyoto · Uji",
+  "kind": "style",
+  "tier": 2,
+  "existing_slug": null,
+  "evidence": [
+   "https://www.hibiki-an.com/index.php/cPath/21"
+  ]
+ },
+ {
+  "slug": "harumidori",
+  "en": "Harumidori",
+  "zh": null,
+  "ru": "Харумидори",
+  "native": "はるみどり",
+  "aliases": [],
+  "category": "green",
+  "country": "Japan",
+  "region": null,
+  "kind": "cultivar",
+  "tier": 2,
+  "existing_slug": null,
+  "evidence": [
+   "https://australianteamasters.com.au/japanese-tea-cultivars-listing/"
+  ]
+ },
+ {
+  "slug": "harumoegi",
+  "en": "Harumoegi",
+  "zh": null,
+  "ru": "Харумоэги",
+  "native": "はるもえぎ",
+  "aliases": [],
+  "category": "green",
+  "country": "Japan",
+  "region": null,
+  "kind": "cultivar",
+  "tier": 2,
+  "existing_slug": null,
+  "evidence": [
+   "https://australianteamasters.com.au/japanese-tea-cultivars-listing/"
+  ]
+ },
+ {
+  "slug": "hojicha-powder",
+  "en": "Hojicha Powder",
+  "zh": null,
+  "ru": "Порошковая ходзитя",
+  "native": "ほうじ茶パウダー",
+  "aliases": [],
+  "category": "green",
+  "country": "Japan",
+  "region": null,
+  "kind": "style",
+  "tier": 2,
+  "existing_slug": "hojicha-powder",
+  "evidence": [
+   "https://yunomi.life/",
+   "https://yunomi.life/blogs/japanese-tea-guide/what-are-cultivars"
+  ]
+ },
+ {
+  "slug": "honyama-cha",
+  "en": "Honyama-cha",
+  "zh": null,
+  "ru": "Хонъяма-тя",
+  "native": "本山茶",
+  "aliases": [
+   "Abe-cha (old name of Honyama tea)",
+   "安倍茶"
+  ],
+  "category": "green",
+  "country": "Japan",
+  "region": "Shizuoka",
+  "kind": "appellation",
+  "tier": 2,
+  "existing_slug": null,
+  "evidence": [
+   "https://ja.wikipedia.org/wiki/日本茶"
+  ]
+ },
+ {
+  "slug": "hoshino-cha",
+  "en": "Hoshino-cha",
+  "zh": null,
+  "ru": "Хосино-тя",
+  "native": "星野茶",
+  "aliases": [],
+  "category": "green",
+  "country": "Japan",
+  "region": "Fukuoka",
+  "kind": "appellation",
+  "tier": 2,
+  "existing_slug": null,
+  "evidence": [
+   "https://ja.wikipedia.org/wiki/日本茶"
+  ]
+ },
+ {
+  "slug": "hoshino-matcha",
+  "en": "Hoshino Matcha",
+  "zh": null,
+  "ru": "Хосино маття",
+  "native": "星野抹茶",
+  "aliases": [],
+  "category": "green",
+  "country": "Japan",
+  "region": "Fukuoka · Hoshino",
+  "kind": "appellation",
+  "tier": 2,
+  "existing_slug": null,
+  "evidence": [
+   "https://www.denstea.com/"
+  ]
+ },
+ {
+  "slug": "ibi-cha",
+  "en": "Ibi-cha",
+  "zh": null,
+  "ru": "Иби-тя",
+  "native": "揖斐茶",
+  "aliases": [
+   "Mino-Ibi-cha",
+   "美濃いび茶"
+  ],
+  "category": "green",
+  "country": "Japan",
+  "region": "Gifu",
+  "kind": "appellation",
+  "tier": 2,
+  "existing_slug": null,
+  "evidence": [
+   "https://ja.wikipedia.org/wiki/日本茶",
+   "https://www.wikidata.org/wiki/Q11498426",
+   "https://www.wikidata.org/wiki/Q30925932"
+  ]
+ },
+ {
+  "slug": "ichibancha",
+  "en": "Ichibancha",
+  "zh": null,
+  "ru": "Итибантя",
+  "native": "一番茶",
+  "aliases": [
+   "Ichabancha"
+  ],
+  "category": "green",
+  "country": "Japan",
+  "region": null,
+  "kind": "style",
+  "tier": 2,
+  "existing_slug": null,
+  "evidence": [
+   "https://en.wikipedia.org/wiki/Sencha",
+   "https://ja.wikipedia.org/wiki/Category:茶",
+   "https://myjapanesegreentea.com/types-of-japanese-green-tea"
+  ]
+ },
+ {
+  "slug": "ichoucha",
+  "en": "Ichoucha",
+  "zh": null,
+  "ru": "Итётя",
+  "native": "萎凋茶",
+  "aliases": [
+   "Ichoucha (Withered Green Tea)"
+  ],
+  "category": "green",
+  "country": "Japan",
+  "region": null,
+  "kind": "style",
+  "tier": 2,
+  "existing_slug": null,
+  "evidence": [
+   "https://yunomi.life/",
+   "https://yunomi.life/blogs/japanese-tea-guide/what-are-cultivars"
+  ]
+ },
+ {
+  "slug": "ikawa-cha",
+  "en": "Ikawa-cha",
+  "zh": null,
+  "ru": "Икава-тя",
+  "native": "井川茶",
+  "aliases": [],
+  "category": "green",
+  "country": "Japan",
+  "region": "Shizuoka",
+  "kind": "appellation",
+  "tier": 2,
+  "existing_slug": null,
+  "evidence": [
+   "https://ja.wikipedia.org/wiki/日本茶"
+  ]
+ },
+ {
+  "slug": "irimushicha",
+  "en": "Irimushicha",
+  "zh": null,
+  "ru": "Иримуситя",
+  "native": "炒り蒸し茶",
+  "aliases": [
+   "Irimushi",
+   "Irimushi Cha",
+   "Irimushi-Cha"
+  ],
+  "category": "green",
+  "country": "Japan",
+  "region": null,
+  "kind": "style",
+  "tier": 2,
+  "existing_slug": null,
+  "evidence": [
+   "https://www.wikidata.org/wiki/Q124606580"
+  ]
+ },
+ {
+  "slug": "ise-kabusecha",
+  "en": "Ise Kabusecha",
+  "zh": null,
+  "ru": "Исэ кабусэтя",
+  "native": "伊勢かぶせ茶",
+  "aliases": [
+   "Ise Hon-Kabusecha",
+   "伊勢本かぶせ茶"
+  ],
+  "category": "green",
+  "country": "Japan",
+  "region": "Mie · Ise",
+  "kind": "appellation",
+  "tier": 2,
+  "existing_slug": null,
+  "evidence": [
+   "https://ja.wikipedia.org/wiki/伊勢茶",
+   "https://www.sazentea.com/en/products/c55-japanese-tea"
+  ]
+ },
+ {
+  "slug": "izumi",
+  "en": "Izumi",
+  "zh": null,
+  "ru": "Идзуми",
+  "native": "いずみ",
+  "aliases": [],
+  "category": "green",
+  "country": "Japan",
+  "region": null,
+  "kind": "cultivar",
+  "tier": 2,
+  "existing_slug": null,
+  "evidence": [
+   "https://australianteamasters.com.au/japanese-tea-cultivars-listing/"
+  ]
+ },
+ {
+  "slug": "izumo-cha",
+  "en": "Izumo-cha",
+  "zh": null,
+  "ru": "Идзумо-тя",
+  "native": "出雲茶",
+  "aliases": [],
+  "category": "green",
+  "country": "Japan",
+  "region": "Shimane",
+  "kind": "appellation",
+  "tier": 2,
+  "existing_slug": null,
+  "evidence": [
+   "https://ja.wikipedia.org/wiki/日本茶"
+  ]
+ },
+ {
+  "slug": "kaga-bocha",
+  "en": "Kaga Bocha",
+  "zh": null,
+  "ru": "Кага ботя",
+  "native": "加賀棒茶",
+  "aliases": [],
+  "category": "green",
+  "country": "Japan",
+  "region": "Ishikawa",
+  "kind": "style",
+  "tier": 2,
+  "existing_slug": null,
+  "evidence": [
+   "https://ja.wikipedia.org/wiki/日本茶"
+  ]
+ },
+ {
+  "slug": "kakegawa-cha",
+  "en": "Kakegawa-cha",
+  "zh": null,
+  "ru": "Какэгава-тя",
+  "native": "掛川茶",
+  "aliases": [
+   "Kakegawa cha",
+   "Kakegawa tea"
+  ],
+  "category": "green",
+  "country": "Japan",
+  "region": "Shizuoka",
+  "kind": "appellation",
+  "tier": 2,
+  "existing_slug": null,
+  "evidence": [
+   "https://ja.wikipedia.org/wiki/日本茶",
+   "https://www.wikidata.org/wiki/Q109325576"
+  ]
+ },
+ {
+  "slug": "kamairisei-tamaryokucha",
+  "en": "Kamairisei Tamaryokucha",
+  "zh": null,
+  "ru": "Камайрисэй тамарёкутя",
+  "native": "釜炒り製玉緑茶",
+  "aliases": [],
+  "category": "green",
+  "country": "Japan",
+  "region": null,
+  "kind": "style",
+  "tier": 2,
+  "existing_slug": null,
+  "evidence": [
+   "https://ja.wikipedia.org/wiki/茶"
+  ]
+ },
+ {
+  "slug": "kanaya-cha",
+  "en": "Kanaya-cha",
+  "zh": null,
+  "ru": "Каная-тя",
+  "native": "金谷茶",
+  "aliases": [],
+  "category": "green",
+  "country": "Japan",
+  "region": "Shizuoka",
+  "kind": "appellation",
+  "tier": 2,
+  "existing_slug": null,
+  "evidence": [
+   "https://ja.wikipedia.org/wiki/日本茶"
+  ]
+ },
+ {
+  "slug": "kanayamidori",
+  "en": "Kanayamidori",
+  "zh": null,
+  "ru": "Канаямидори",
+  "native": "かなやみどり",
+  "aliases": [],
+  "category": "green",
+  "country": "Japan",
+  "region": null,
+  "kind": "cultivar",
+  "tier": 2,
+  "existing_slug": null,
+  "evidence": [
+   "https://australianteamasters.com.au/japanese-tea-cultivars-listing/"
+  ]
+ },
+ {
+  "slug": "kancha",
+  "en": "Kancha",
+  "zh": null,
+  "ru": "Кантя",
+  "native": "寒茶",
+  "aliases": [],
+  "category": "green",
+  "country": "Japan",
+  "region": null,
+  "kind": "style",
+  "tier": 2,
+  "existing_slug": null,
+  "evidence": [
+   "https://myjapanesegreentea.com/types-of-japanese-green-tea"
+  ]
+ },
+ {
+  "slug": "karigane-hojicha",
+  "en": "Karigane Hojicha",
+  "zh": null,
+  "ru": "Кариганэ ходзитя",
+  "native": "雁ヶ音ほうじ茶",
+  "aliases": [
+   "Houjicha Karigane",
+   "ほうじ雁ヶ音"
+  ],
+  "category": "green",
+  "country": "Japan",
+  "region": "Kyoto · Uji",
+  "kind": "style",
+  "tier": 2,
+  "existing_slug": null,
+  "evidence": [
+   "https://www.sazentea.com/en/products/c55-japanese-tea",
+   "https://www.hibiki-an.com/index.php/cPath/36"
+  ]
+ },
+ {
+  "slug": "kashmiri-kahwa",
+  "en": "Kahwah",
+  "zh": null,
+  "ru": "Кахва",
+  "native": "قہوہ",
+  "aliases": [
+   "カフワ",
+   "kahwa"
+  ],
+  "category": "green",
+  "country": "India",
+  "region": "Jammu and Kashmir · Kashmir",
+  "kind": "recipe",
+  "tier": 2,
+  "existing_slug": "kashmiri-kahwa",
+  "evidence": [
+   "https://en.wikipedia.org/wiki/Kahwah",
+   "https://en.wikipedia.org/wiki/Tea_blending_and_additives",
+   "https://www.wikidata.org/wiki/Q3191910"
+  ]
+ },
+ {
+  "slug": "kawagoe-cha",
+  "en": "Kawagoe-cha",
+  "zh": null,
+  "ru": "Кавагоэ-тя",
+  "native": "川越茶",
+  "aliases": [
+   "Kawagoe-cha (Kawagoe tea, historic Sayama)",
+   "河越茶"
+  ],
+  "category": "green",
+  "country": "Japan",
+  "region": "Saitama · Kawagoe",
+  "kind": "appellation",
+  "tier": 2,
+  "existing_slug": null,
+  "evidence": [
+   "https://ja.wikipedia.org/wiki/狭山茶"
+  ]
+ },
+ {
+  "slug": "kesen-cha",
+  "en": "Kesen-cha",
+  "zh": null,
+  "ru": "Кэсэн-тя",
+  "native": "気仙茶",
+  "aliases": [],
+  "category": "green",
+  "country": "Japan",
+  "region": "Iwate",
+  "kind": "appellation",
+  "tier": 2,
+  "existing_slug": null,
+  "evidence": [
+   "https://ja.wikipedia.org/wiki/日本茶"
+  ]
+ },
+ {
+  "slug": "kikugawa-cha",
+  "en": "Kikugawa-cha",
+  "zh": null,
+  "ru": "Кикугава-тя",
+  "native": "菊川茶",
+  "aliases": [],
+  "category": "green",
+  "country": "Japan",
+  "region": "Shizuoka",
+  "kind": "appellation",
+  "tier": 2,
+  "existing_slug": null,
+  "evidence": [
+   "https://ja.wikipedia.org/wiki/日本茶"
+  ]
+ },
+ {
+  "slug": "kirari31",
+  "en": "Kirari31",
+  "zh": null,
+  "ru": "Кирари 31",
+  "native": "きらり31",
+  "aliases": [],
+  "category": "green",
+  "country": "Japan",
+  "region": null,
+  "kind": "cultivar",
+  "tier": 2,
+  "existing_slug": null,
+  "evidence": [
+   "https://australianteamasters.com.au/japanese-tea-cultivars-listing/"
+  ]
+ },
+ {
+  "slug": "kirishima-cha",
+  "en": "Kirishima-cha",
+  "zh": null,
+  "ru": "Кирисима-тя",
+  "native": "霧島茶",
+  "aliases": [],
+  "category": "green",
+  "country": "Japan",
+  "region": "Kagoshima",
+  "kind": "appellation",
+  "tier": 2,
+  "existing_slug": null,
+  "evidence": [
+   "https://ja.wikipedia.org/wiki/日本茶"
+  ]
+ },
+ {
+  "slug": "kito-kancha",
+  "en": "Kito Kancha",
+  "zh": null,
+  "ru": "Кито кантя",
+  "native": "木頭寒茶",
+  "aliases": [],
+  "category": "green",
+  "country": "Japan",
+  "region": "Tokushima",
+  "kind": "style",
+  "tier": 2,
+  "existing_slug": null,
+  "evidence": [
+   "https://ja.wikipedia.org/wiki/日本茶"
+  ]
+ },
+ {
+  "slug": "kogane-midori-sencha",
+  "en": "Kogane Midori Sencha",
+  "zh": null,
+  "ru": "Коганэ мидори сэнтя",
+  "native": "黄金みどり",
+  "aliases": [],
+  "category": "green",
+  "country": "Japan",
+  "region": "Shizuoka",
+  "kind": "cultivar",
+  "tier": 2,
+  "existing_slug": null,
+  "evidence": [
+   "https://www.sazentea.com/en/products/c55-japanese-tea"
+  ]
+ },
+ {
+  "slug": "koicha",
+  "en": "Koicha",
+  "zh": null,
+  "ru": "Койтя",
+  "native": "濃茶",
+  "aliases": [],
+  "category": "green",
+  "country": "Japan",
+  "region": null,
+  "kind": "recipe",
+  "tier": 2,
+  "existing_slug": null,
+  "evidence": [
+   "https://en.wikipedia.org/wiki/Tea_culture_in_Japan",
+   "https://www.wikidata.org/wiki/Q122961540",
+   "https://www.denstea.com/"
+  ]
+ },
+ {
+  "slug": "kokeicha",
+  "en": "Kokeicha",
+  "zh": "固形茶",
+  "ru": "Кокэйтя",
+  "native": "固形茶",
+  "aliases": [
+   "Solidified Tea"
+  ],
+  "category": "green",
+  "country": "Japan",
+  "region": null,
+  "kind": "style",
+  "tier": 2,
+  "existing_slug": null,
+  "evidence": [
+   "https://ratetea.com/styles.php"
+  ]
+ },
+ {
+  "slug": "komakage",
+  "en": "Komakage",
+  "zh": null,
+  "ru": "Комакагэ",
+  "native": null,
+  "aliases": [],
+  "category": "green",
+  "country": "Japan",
+  "region": null,
+  "kind": "cultivar",
+  "tier": 2,
+  "existing_slug": null,
+  "evidence": [
+   "https://myjapanesegreentea.com/?p=2299"
+  ]
+ },
+ {
+  "slug": "kuki-hojicha",
+  "en": "Kuki Hojicha",
+  "zh": null,
+  "ru": "Куки ходзитя",
+  "native": "茎ほうじ茶",
+  "aliases": [
+   "Kukicha hojicha"
+  ],
+  "category": "green",
+  "country": "Japan",
+  "region": "Kyoto",
+  "kind": "style",
+  "tier": 2,
+  "existing_slug": null,
+  "evidence": [
+   "https://en.wikipedia.org/wiki/Hōjicha",
+   "https://www.ippodotea.com/"
+  ]
+ },
+ {
+  "slug": "kuma-cha",
+  "en": "Kuma-cha",
+  "zh": null,
+  "ru": "Кума-тя",
+  "native": "久万茶",
+  "aliases": [],
+  "category": "green",
+  "country": "Japan",
+  "region": "Ehime",
+  "kind": "appellation",
+  "tier": 2,
+  "existing_slug": null,
+  "evidence": [
+   "https://ja.wikipedia.org/wiki/日本茶"
+  ]
+ },
+ {
+  "slug": "kumamoto-cha",
+  "en": "Kumamoto-cha",
+  "zh": null,
+  "ru": "Кумамото-тя",
+  "native": "くまもと茶",
+  "aliases": [],
+  "category": "green",
+  "country": "Japan",
+  "region": "Kumamoto",
+  "kind": "appellation",
+  "tier": 2,
+  "existing_slug": null,
+  "evidence": [
+   "https://ja.wikipedia.org/wiki/日本茶"
+  ]
+ },
+ {
+  "slug": "kuradashi-sencha",
+  "en": "Kuradashi Sencha",
+  "zh": null,
+  "ru": "Курадаси сэнтя",
+  "native": "蔵出し煎茶",
+  "aliases": [],
+  "category": "green",
+  "country": "Japan",
+  "region": "Kyoto · Uji",
+  "kind": "style",
+  "tier": 2,
+  "existing_slug": null,
+  "evidence": [
+   "https://www.hibiki-an.com/"
+  ]
+ },
+ {
+  "slug": "kuritawase",
+  "en": "Kuritawase",
+  "zh": null,
+  "ru": "Куритавасэ",
+  "native": null,
+  "aliases": [],
+  "category": "green",
+  "country": "Japan",
+  "region": null,
+  "kind": "cultivar",
+  "tier": 2,
+  "existing_slug": null,
+  "evidence": [
+   "https://myjapanesegreentea.com/?p=2299"
+  ]
+ },
+ {
+  "slug": "kyotanabe-tezumi-gyokuro",
+  "en": "Kyotanabe Tezumi Gyokuro",
+  "zh": null,
+  "ru": "Кётанабэ тэдзуми гёкуро",
+  "native": "京田辺手摘み玉露",
+  "aliases": [],
+  "category": "green",
+  "country": "Japan",
+  "region": "Kyoto · Kyotanabe",
+  "kind": "appellation",
+  "tier": 2,
+  "existing_slug": null,
+  "evidence": [
+   "https://www.sazentea.com/en/products/c55-japanese-tea"
+  ]
+ },
+ {
+  "slug": "makinohara-cha",
+  "en": "Makinohara-cha",
+  "zh": null,
+  "ru": "Макинохара-тя",
+  "native": "静岡牧之原茶",
+  "aliases": [],
+  "category": "green",
+  "country": "Japan",
+  "region": "Shizuoka · Makinohara",
+  "kind": "appellation",
+  "tier": 2,
+  "existing_slug": null,
+  "evidence": [
+   "https://ja.wikipedia.org/wiki/静岡茶"
+  ]
+ },
+ {
+  "slug": "mandokoro-cha",
+  "en": "Mandokoro-cha",
+  "zh": null,
+  "ru": "Мандокоро-тя",
+  "native": "政所茶",
+  "aliases": [],
+  "category": "green",
+  "country": "Japan",
+  "region": "Shiga",
+  "kind": "appellation",
+  "tier": 2,
+  "existing_slug": null,
+  "evidence": [
+   "https://ja.wikipedia.org/wiki/日本茶"
+  ]
+ },
+ {
+  "slug": "matcha-iri-genmaicha",
+  "en": "Matcha-iri Genmaicha",
+  "zh": null,
+  "ru": "Маття-ири гэммайтя",
+  "native": "抹茶入り玄米茶",
+  "aliases": [
+   "Genmaicha Matcha-iri",
+   "Matcha Genmaicha"
+  ],
+  "category": "green",
+  "country": "Japan",
+  "region": "Kyoto · Uji",
+  "kind": "blend",
+  "tier": 2,
+  "existing_slug": "matcha-iri-genmaicha",
+  "evidence": [
+   "https://www.hibiki-an.com/",
+   "https://www.uptontea.com/collections/tea-blends"
+  ]
+ },
+ {
+  "slug": "matcha-iri-sencha",
+  "en": "Matcha Iri Sencha",
+  "zh": null,
+  "ru": "Маття ири сэнтя",
+  "native": "抹茶入り煎茶",
+  "aliases": [
+   "Matcha sencha"
+  ],
+  "category": "green",
+  "country": "Japan",
+  "region": "Kyoto · Uji",
+  "kind": "blend",
+  "tier": 2,
+  "existing_slug": null,
+  "evidence": [
+   "https://en.wikipedia.org/wiki/Sencha",
+   "https://www.sazentea.com/en/products/c55-japanese-tea"
+  ]
+ },
+ {
+  "slug": "matcha-latte",
+  "en": "Matcha Latte",
+  "zh": "抹茶拿铁",
+  "ru": "Маття латте",
+  "native": "抹茶ラテ",
+  "aliases": [
+   "green tea latte",
+   "Матча латте"
+  ],
+  "category": "green",
+  "country": "Japan",
+  "region": null,
+  "kind": "recipe",
+  "tier": 2,
+  "existing_slug": null,
+  "evidence": [
+   "https://en.wikipedia.org/wiki/Matcha_latte",
+   "https://en.wikipedia.org/wiki/Category:Japanese_green_tea",
+   "https://www.wikidata.org/wiki/Q124434035"
+  ]
+ },
+ {
+  "slug": "mecha",
+  "en": "Mecha",
+  "zh": "芽茶",
+  "ru": "Мэтя",
+  "native": "芽茶",
+  "aliases": [
+   "Bud Tea",
+   "Mecha tea"
+  ],
+  "category": "green",
+  "country": "Japan",
+  "region": null,
+  "kind": "style",
+  "tier": 2,
+  "existing_slug": "mecha",
+  "evidence": [
+   "https://en.wikipedia.org/wiki/Mecha_(tea)",
+   "https://ja.wikipedia.org/wiki/日本茶",
+   "https://ru.wikipedia.org/wiki/Зелёный_чай"
+  ]
+ },
+ {
+  "slug": "meiryoku",
+  "en": "Meiryoku",
+  "zh": null,
+  "ru": "Мэйрёку",
+  "native": "めいりょく",
+  "aliases": [],
+  "category": "green",
+  "country": "Japan",
+  "region": null,
+  "kind": "cultivar",
+  "tier": 2,
+  "existing_slug": null,
+  "evidence": [
+   "https://australianteamasters.com.au/japanese-tea-cultivars-listing/"
+  ]
+ },
+ {
+  "slug": "mimasaka-nikkan-bancha",
+  "en": "Mimasaka Nikkan Bancha",
+  "zh": null,
+  "ru": "Мимасака никкан бантя",
+  "native": "美作の日干番茶",
+  "aliases": [
+   "Sakushu Bancha",
+   "作州番茶"
+  ],
+  "category": "green",
+  "country": "Japan",
+  "region": "Okayama · Mimasaka",
+  "kind": "style",
+  "tier": 2,
+  "existing_slug": null,
+  "evidence": [
+   "https://ja.wikipedia.org/wiki/番茶",
+   "https://ja.wikipedia.org/wiki/日本茶"
+  ]
+ },
+ {
+  "slug": "minamisayaka",
+  "en": "Minamisayaka",
+  "zh": null,
+  "ru": "Минамисаяка",
+  "native": "みなみさやか",
+  "aliases": [],
+  "category": "green",
+  "country": "Japan",
+  "region": null,
+  "kind": "cultivar",
+  "tier": 2,
+  "existing_slug": null,
+  "evidence": [
+   "https://australianteamasters.com.au/japanese-tea-cultivars-listing/"
+  ]
+ },
+ {
+  "slug": "minamiyamashiro-cha",
+  "en": "Minamiyamashiro-cha",
+  "zh": null,
+  "ru": "Минамиямасиро-тя",
+  "native": "南山城茶",
+  "aliases": [
+   "Minami Yamashiro Sencha",
+   "南山城煎茶"
+  ],
+  "category": "green",
+  "country": "Japan",
+  "region": "Kyoto",
+  "kind": "appellation",
+  "tier": 2,
+  "existing_slug": null,
+  "evidence": [
+   "https://ja.wikipedia.org/wiki/日本茶",
+   "https://www.sazentea.com/en/products/c55-japanese-tea"
+  ]
+ },
+ {
+  "slug": "minekaori",
+  "en": "Minekaori",
+  "zh": null,
+  "ru": "Минэкаори",
+  "native": "みねかおり",
+  "aliases": [],
+  "category": "green",
+  "country": "Japan",
+  "region": null,
+  "kind": "cultivar",
+  "tier": 2,
+  "existing_slug": null,
+  "evidence": [
+   "https://australianteamasters.com.au/japanese-tea-cultivars-listing/"
+  ]
+ },
+ {
+  "slug": "mino-cha",
+  "en": "Mino-cha",
+  "zh": null,
+  "ru": "Мино-тя",
+  "native": "美濃茶",
+  "aliases": [],
+  "category": "green",
+  "country": "Japan",
+  "region": "Gifu",
+  "kind": "appellation",
+  "tier": 2,
+  "existing_slug": null,
+  "evidence": [
+   "https://ja.wikipedia.org/wiki/日本茶",
+   "https://www.wikidata.org/wiki/Q131903446"
+  ]
+ },
+ {
+  "slug": "miyazaki-cha",
+  "en": "Miyazaki-cha",
+  "zh": null,
+  "ru": "Миядзаки-тя",
+  "native": "宮崎茶",
+  "aliases": [],
+  "category": "green",
+  "country": "Japan",
+  "region": "Miyazaki",
+  "kind": "appellation",
+  "tier": 2,
+  "existing_slug": null,
+  "evidence": [
+   "https://www.maff.go.jp/j/pr/aff/1704/spe1_02.html"
+  ]
+ },
+ {
+  "slug": "mizobe-cha",
+  "en": "Mizobe-cha",
+  "zh": null,
+  "ru": "Мидзобэ-тя",
+  "native": "溝辺茶",
+  "aliases": [
+   "Kirishima Mizobe-cha",
+   "霧島溝辺茶"
+  ],
+  "category": "green",
+  "country": "Japan",
+  "region": "Kagoshima",
+  "kind": "appellation",
+  "tier": 2,
+  "existing_slug": null,
+  "evidence": [
+   "https://ja.wikipedia.org/wiki/日本茶",
+   "https://ja.wikipedia.org/wiki/鹿児島茶"
+  ]
+ },
+ {
+  "slug": "murakami-cha",
+  "en": "Murakami-cha",
+  "zh": null,
+  "ru": "Мураками-тя",
+  "native": "村上茶",
+  "aliases": [],
+  "category": "green",
+  "country": "Japan",
+  "region": "Niigata",
+  "kind": "appellation",
+  "tier": 2,
+  "existing_slug": null,
+  "evidence": [
+   "https://ja.wikipedia.org/wiki/日本茶"
+  ]
+ },
+ {
+  "slug": "musashikaori",
+  "en": "Musashikaori",
+  "zh": null,
+  "ru": "Мусасикаори",
+  "native": "むさしかおり",
+  "aliases": [],
+  "category": "green",
+  "country": "Japan",
+  "region": null,
+  "kind": "cultivar",
+  "tier": 2,
+  "existing_slug": null,
+  "evidence": [
+   "https://australianteamasters.com.au/japanese-tea-cultivars-listing/"
+  ]
+ },
+ {
+  "slug": "mushisei-tamaryokucha",
+  "en": "Mushisei Tamaryokucha",
+  "zh": null,
+  "ru": "Мусисэй тамарёкутя",
+  "native": "蒸し製玉緑茶",
+  "aliases": [],
+  "category": "green",
+  "country": "Japan",
+  "region": null,
+  "kind": "style",
+  "tier": 2,
+  "existing_slug": null,
+  "evidence": [
+   "https://ja.wikipedia.org/wiki/茶"
+  ]
+ },
+ {
+  "slug": "nanbu-cha",
+  "en": "Nanbu-cha",
+  "zh": null,
+  "ru": "Намбу-тя",
+  "native": "南部茶",
+  "aliases": [],
+  "category": "green",
+  "country": "Japan",
+  "region": "Yamanashi",
+  "kind": "appellation",
+  "tier": 2,
+  "existing_slug": null,
+  "evidence": [
+   "https://ja.wikipedia.org/wiki/日本茶",
+   "https://www.wikidata.org/wiki/Q11408611"
+  ]
+ },
+ {
+  "slug": "nishio-no-matcha",
+  "en": "Nishio no Matcha",
+  "zh": null,
+  "ru": "Нисио но маття",
+  "native": "西尾の抹茶",
+  "aliases": [],
+  "category": "green",
+  "country": "Japan",
+  "region": "Aichi · Nishio",
+  "kind": "appellation",
+  "tier": 2,
+  "existing_slug": null,
+  "evidence": [
+   "https://www.wikidata.org/wiki/Q28687780",
+   "https://www.maff.go.jp/j/pr/aff/1704/spe1_02.html"
+  ]
+ },
+ {
+  "slug": "nishio-tencha",
+  "en": "Nishio Tencha",
+  "zh": null,
+  "ru": "Нисио тэнтя",
+  "native": "西尾碾茶",
+  "aliases": [],
+  "category": "green",
+  "country": "Japan",
+  "region": "Aichi",
+  "kind": "appellation",
+  "tier": 2,
+  "existing_slug": null,
+  "evidence": [
+   "https://ja.wikipedia.org/wiki/日本茶"
+  ]
+ },
+ {
+  "slug": "niyodo-cha",
+  "en": "Niyodo-cha",
+  "zh": null,
+  "ru": "Ниёдо-тя",
+  "native": "仁淀茶",
+  "aliases": [],
+  "category": "green",
+  "country": "Japan",
+  "region": "Kochi",
+  "kind": "appellation",
+  "tier": 2,
+  "existing_slug": null,
+  "evidence": [
+   "https://ja.wikipedia.org/wiki/日本茶"
+  ]
+ },
+ {
+  "slug": "okabe-cha",
+  "en": "Okabe-cha",
+  "zh": null,
+  "ru": "Окабэ-тя",
+  "native": "岡部茶",
+  "aliases": [],
+  "category": "green",
+  "country": "Japan",
+  "region": "Shizuoka",
+  "kind": "appellation",
+  "tier": 2,
+  "existing_slug": null,
+  "evidence": [
+   "https://ja.wikipedia.org/wiki/日本茶"
+  ]
+ },
+ {
+  "slug": "okuhikari",
+  "en": "Okuhikari",
+  "zh": null,
+  "ru": "Окухикари",
+  "native": "おくひかり",
+  "aliases": [],
+  "category": "green",
+  "country": "Japan",
+  "region": null,
+  "kind": "cultivar",
+  "tier": 2,
+  "existing_slug": null,
+  "evidence": [
+   "https://australianteamasters.com.au/japanese-tea-cultivars-listing/"
+  ]
+ },
+ {
+  "slug": "okukuji-cha",
+  "en": "Okukuji-cha",
+  "zh": null,
+  "ru": "Окукудзи-тя",
+  "native": "奥久慈茶",
+  "aliases": [
+   "Honai-cha (old name of Okukuji tea)",
+   "保内茶"
+  ],
+  "category": "green",
+  "country": "Japan",
+  "region": "Ibaraki",
+  "kind": "appellation",
+  "tier": 2,
+  "existing_slug": null,
+  "evidence": [
+   "https://ja.wikipedia.org/wiki/日本茶"
+  ]
+ },
+ {
+  "slug": "okumidori",
+  "en": "Okumidori",
+  "zh": null,
+  "ru": "Окумидори",
+  "native": "おくみどり",
+  "aliases": [
+   "Okumidori Matcha",
+   "Okumidori Sencha"
+  ],
+  "category": "green",
+  "country": "Japan",
+  "region": null,
+  "kind": "cultivar",
+  "tier": 2,
+  "existing_slug": "okumidori",
+  "evidence": [
+   "https://australianteamasters.com.au/japanese-tea-cultivars-listing/",
+   "https://what-cha.com/collections/matcha",
+   "https://www.sazentea.com/en/products/c55-japanese-tea"
+  ]
+ },
+ {
+  "slug": "okumikawa-cha",
+  "en": "Okumikawa-cha",
+  "zh": null,
+  "ru": "Окумикава-тя",
+  "native": "奥三河茶",
+  "aliases": [],
+  "category": "green",
+  "country": "Japan",
+  "region": "Aichi",
+  "kind": "appellation",
+  "tier": 2,
+  "existing_slug": null,
+  "evidence": [
+   "https://ja.wikipedia.org/wiki/日本茶"
+  ]
+ },
+ {
+  "slug": "okumusashi",
+  "en": "Okumusashi",
+  "zh": null,
+  "ru": "Окумусаси",
+  "native": "おくむさし",
+  "aliases": [],
+  "category": "green",
+  "country": "Japan",
+  "region": null,
+  "kind": "cultivar",
+  "tier": 2,
+  "existing_slug": null,
+  "evidence": [
+   "https://australianteamasters.com.au/japanese-tea-cultivars-listing/"
+  ]
+ },
+ {
+  "slug": "okuyutaka",
+  "en": "Okuyutaka",
+  "zh": null,
+  "ru": "Окуютака",
+  "native": "おくゆたか",
+  "aliases": [],
+  "category": "green",
+  "country": "Japan",
+  "region": null,
+  "kind": "cultivar",
+  "tier": 2,
+  "existing_slug": null,
+  "evidence": [
+   "https://australianteamasters.com.au/japanese-tea-cultivars-listing/"
+  ]
+ },
+ {
+  "slug": "omi-cha",
+  "en": "Omi-cha",
+  "zh": null,
+  "ru": "Оми-тя",
+  "native": "近江の茶",
+  "aliases": [
+   "Ōmi tea"
+  ],
+  "category": "green",
+  "country": "Japan",
+  "region": "Shiga",
+  "kind": "appellation",
+  "tier": 2,
+  "existing_slug": null,
+  "evidence": [
+   "https://ja.wikipedia.org/wiki/Category:日本茶の産地",
+   "https://www.wikidata.org/wiki/Q65284030"
+  ]
+ },
+ {
+  "slug": "saemidori",
+  "en": "Saemidori",
+  "zh": null,
+  "ru": "Саэмидори",
+  "native": "さえみどり",
+  "aliases": [
+   "Saemidori Gyokuro",
+   "Saemidori Matcha"
+  ],
+  "category": "green",
+  "country": "Japan",
+  "region": null,
+  "kind": "cultivar",
+  "tier": 2,
+  "existing_slug": "saemidori",
+  "evidence": [
+   "https://australianteamasters.com.au/japanese-tea-cultivars-listing/",
+   "https://www.sazentea.com/en/products/c55-japanese-tea",
+   "https://what-cha.com/collections/matcha"
+  ]
+ },
+ {
+  "slug": "sainomidori",
+  "en": "Sainomidori",
+  "zh": null,
+  "ru": "Сайномидори",
+  "native": "さいのみどり",
+  "aliases": [],
+  "category": "green",
+  "country": "Japan",
+  "region": null,
+  "kind": "cultivar",
+  "tier": 2,
+  "existing_slug": null,
+  "evidence": [
+   "https://australianteamasters.com.au/japanese-tea-cultivars-listing/"
+  ]
+ },
+ {
+  "slug": "sakimidori",
+  "en": "Sakimidori",
+  "zh": null,
+  "ru": "Сакимидори",
+  "native": "さきみどり",
+  "aliases": [],
+  "category": "green",
+  "country": "Japan",
+  "region": null,
+  "kind": "cultivar",
+  "tier": 2,
+  "existing_slug": null,
+  "evidence": [
+   "https://australianteamasters.com.au/japanese-tea-cultivars-listing/"
+  ]
+ },
+ {
+  "slug": "sakura-sencha",
+  "en": "Sakura Sencha",
+  "zh": null,
+  "ru": "Сакура сэнтя",
+  "native": "桜煎茶",
+  "aliases": [],
+  "category": "green",
+  "country": "Japan",
+  "region": null,
+  "kind": "blend",
+  "tier": 2,
+  "existing_slug": null,
+  "evidence": [
+   "https://www.sazentea.com/en/products/c55-japanese-tea"
+  ]
+ },
+ {
+  "slug": "samidori",
+  "en": "Samidori",
+  "zh": null,
+  "ru": "Самидори",
+  "native": "さみどり",
+  "aliases": [
+   "Samidori Matcha"
+  ],
+  "category": "green",
+  "country": "Japan",
+  "region": null,
+  "kind": "cultivar",
+  "tier": 2,
+  "existing_slug": null,
+  "evidence": [
+   "https://what-cha.com/collections/matcha",
+   "https://myjapanesegreentea.com/?p=2299"
+  ]
+ },
+ {
+  "slug": "sanpin-cha",
+  "en": "Sanpin-cha",
+  "zh": null,
+  "ru": "Сампин-тя",
+  "native": "さんぴん茶",
+  "aliases": [
+   "Sanpin-cha (Okinawan Jasmine Tea)",
+   "Japanese jasmine tea"
+  ],
+  "category": "green",
+  "country": "Japan",
+  "region": "Okinawa",
+  "kind": "scented",
+  "tier": 2,
+  "existing_slug": null,
+  "evidence": [
+   "https://en.wikipedia.org/wiki/Jasmine_tea",
+   "https://yunomi.life/"
+  ]
+ },
+ {
+  "slug": "sashima-cha",
+  "en": "Sashima-cha",
+  "zh": null,
+  "ru": "Сасима-тя",
+  "native": "さしま茶",
+  "aliases": [
+   "猿島茶"
+  ],
+  "category": "green",
+  "country": "Japan",
+  "region": "Ibaraki",
+  "kind": "appellation",
+  "tier": 2,
+  "existing_slug": null,
+  "evidence": [
+   "https://ja.wikipedia.org/wiki/日本茶",
+   "https://www.wikidata.org/wiki/Q11267938"
+  ]
+ },
+ {
+  "slug": "sayamakaori",
+  "en": "Sayamakaori",
+  "zh": null,
+  "ru": "Саямакаори",
+  "native": "さやまかおり",
+  "aliases": [],
+  "category": "green",
+  "country": "Japan",
+  "region": null,
+  "kind": "cultivar",
+  "tier": 2,
+  "existing_slug": null,
+  "evidence": [
+   "https://australianteamasters.com.au/japanese-tea-cultivars-listing/"
+  ]
+ },
+ {
+  "slug": "seimei",
+  "en": "Seimei",
+  "zh": null,
+  "ru": "Сэймэй",
+  "native": "せいめい",
+  "aliases": [],
+  "category": "green",
+  "country": "Japan",
+  "region": null,
+  "kind": "cultivar",
+  "tier": 2,
+  "existing_slug": null,
+  "evidence": [
+   "https://australianteamasters.com.au/japanese-tea-cultivars-listing/"
+  ]
+ },
+ {
+  "slug": "shirakawa-cha",
+  "en": "Shirakawa-cha",
+  "zh": null,
+  "ru": "Сиракава-тя",
+  "native": "白川茶",
+  "aliases": [
+   "Mino-Shirakawa-cha",
+   "美濃白川茶"
+  ],
+  "category": "green",
+  "country": "Japan",
+  "region": "Gifu",
+  "kind": "appellation",
+  "tier": 2,
+  "existing_slug": null,
+  "evidence": [
+   "https://ja.wikipedia.org/wiki/日本茶",
+   "https://www.wikidata.org/wiki/Q11579742",
+   "https://www.wikidata.org/wiki/Q141885165"
+  ]
+ },
+ {
+  "slug": "shiraore",
+  "en": "Shiraore",
+  "zh": null,
+  "ru": "Сираорэ",
+  "native": "白折",
+  "aliases": [],
+  "category": "green",
+  "country": "Japan",
+  "region": null,
+  "kind": "style",
+  "tier": 2,
+  "existing_slug": "shiraore",
+  "evidence": [
+   "https://ja.wikipedia.org/wiki/Category:日本茶"
+  ]
+ },
+ {
+  "slug": "shizu-7132",
+  "en": "Shizu-7132",
+  "zh": null,
+  "ru": "Сидзу-7132",
+  "native": "静7132",
+  "aliases": [],
+  "category": "green",
+  "country": "Japan",
+  "region": null,
+  "kind": "cultivar",
+  "tier": 2,
+  "existing_slug": null,
+  "evidence": [
+   "https://australianteamasters.com.au/japanese-tea-cultivars-listing/"
+  ]
+ },
+ {
+  "slug": "shouju",
+  "en": "Shouju",
+  "zh": null,
+  "ru": "Сёдзю",
+  "native": "しょうじゅ",
+  "aliases": [
+   "Shoju (First Shincha Harvest)"
+  ],
+  "category": "green",
+  "country": "Japan",
+  "region": null,
+  "kind": "cultivar",
+  "tier": 2,
+  "existing_slug": null,
+  "evidence": [
+   "https://australianteamasters.com.au/japanese-tea-cultivars-listing/",
+   "https://yunomi.life/"
+  ]
+ },
+ {
+  "slug": "shunmei",
+  "en": "Shunmei",
+  "zh": null,
+  "ru": "Сюммэй",
+  "native": "しゅんめい",
+  "aliases": [
+   "Shunmei Kabusecha",
+   "春明"
+  ],
+  "category": "green",
+  "country": "Japan",
+  "region": null,
+  "kind": "cultivar",
+  "tier": 2,
+  "existing_slug": null,
+  "evidence": [
+   "https://australianteamasters.com.au/japanese-tea-cultivars-listing/",
+   "https://www.sazentea.com/en/products/c55-japanese-tea"
+  ]
+ },
+ {
+  "slug": "shuntarou",
+  "en": "Shuntarou",
+  "zh": null,
+  "ru": "Сюнтаро",
+  "native": "しゅんたろう",
+  "aliases": [],
+  "category": "green",
+  "country": "Japan",
+  "region": null,
+  "kind": "cultivar",
+  "tier": 2,
+  "existing_slug": null,
+  "evidence": [
+   "https://australianteamasters.com.au/japanese-tea-cultivars-listing/"
+  ]
+ },
+ {
+  "slug": "sonogi-cha",
+  "en": "Sonogi-cha",
+  "zh": null,
+  "ru": "Соноги-тя",
+  "native": "そのぎ茶",
+  "aliases": [
+   "Sonogi-cha (kanji spelling)",
+   "彼杵茶"
+  ],
+  "category": "green",
+  "country": "Japan",
+  "region": "Nagasaki",
+  "kind": "appellation",
+  "tier": 2,
+  "existing_slug": null,
+  "evidence": [
+   "https://ja.wikipedia.org/wiki/日本茶"
+  ]
+ },
+ {
+  "slug": "soufuu",
+  "en": "Soufuu",
+  "zh": null,
+  "ru": "Софу",
+  "native": "そうふう",
+  "aliases": [],
+  "category": "green",
+  "country": "Japan",
+  "region": null,
+  "kind": "cultivar",
+  "tier": 2,
+  "existing_slug": null,
+  "evidence": [
+   "https://australianteamasters.com.au/japanese-tea-cultivars-listing/"
+  ]
+ },
+ {
+  "slug": "sunrouge",
+  "en": "Sunrouge",
+  "zh": null,
+  "ru": "Санруж",
+  "native": "サンルージュ",
+  "aliases": [],
+  "category": "green",
+  "country": "Japan",
+  "region": null,
+  "kind": "cultivar",
+  "tier": 2,
+  "existing_slug": null,
+  "evidence": [
+   "https://australianteamasters.com.au/japanese-tea-cultivars-listing/"
+  ]
+ },
+ {
+  "slug": "takachiho-cha",
+  "en": "Takachiho-cha",
+  "zh": null,
+  "ru": "Такатихо-тя",
+  "native": "高千穂茶",
+  "aliases": [
+   "Takachiho",
+   "たかちほ"
+  ],
+  "category": "green",
+  "country": "Japan",
+  "region": "Miyazaki",
+  "kind": "appellation",
+  "tier": 2,
+  "existing_slug": null,
+  "evidence": [
+   "https://ja.wikipedia.org/wiki/日本茶",
+   "https://australianteamasters.com.au/japanese-tea-cultivars-listing/"
+  ]
+ },
+ {
+  "slug": "tanegashima-cha",
+  "en": "Tanegashima-cha",
+  "zh": null,
+  "ru": "Танэгасима-тя",
+  "native": "種子島茶",
+  "aliases": [],
+  "category": "green",
+  "country": "Japan",
+  "region": "Kagoshima",
+  "kind": "appellation",
+  "tier": 2,
+  "existing_slug": null,
+  "evidence": [
+   "https://ja.wikipedia.org/wiki/日本茶"
+  ]
+ },
+ {
+  "slug": "temomicha",
+  "en": "Temomicha",
+  "zh": null,
+  "ru": "Тэмомитя",
+  "native": "手揉み茶",
+  "aliases": [],
+  "category": "green",
+  "country": "Japan",
+  "region": null,
+  "kind": "style",
+  "tier": 2,
+  "existing_slug": null,
+  "evidence": [
+   "https://ja.wikipedia.org/wiki/Category:日本茶",
+   "https://www.wikidata.org/wiki/Q11497063"
+  ]
+ },
+ {
+  "slug": "tenryu-cha",
+  "en": "Tenryu-cha",
+  "zh": null,
+  "ru": "Тэнрю-тя",
+  "native": "天竜茶",
+  "aliases": [],
+  "category": "green",
+  "country": "Japan",
+  "region": "Shizuoka",
+  "kind": "appellation",
+  "tier": 2,
+  "existing_slug": null,
+  "evidence": [
+   "https://ja.wikipedia.org/wiki/日本茶"
+  ]
+ },
+ {
+  "slug": "toganoo-cha",
+  "en": "Toganoo-cha",
+  "zh": null,
+  "ru": "Тоганоо-тя",
+  "native": "栂尾茶",
+  "aliases": [],
+  "category": "green",
+  "country": "Japan",
+  "region": "Kyoto · Toganoo",
+  "kind": "appellation",
+  "tier": 2,
+  "existing_slug": null,
+  "evidence": [
+   "https://en.wikipedia.org/wiki/Japanese_tea"
+  ]
+ },
+ {
+  "slug": "tokyo-sayama-cha",
+  "en": "Tokyo Sayama-cha",
+  "zh": "东京狭山茶",
+  "ru": "Токё саяма-тя",
+  "native": "東京狭山茶",
+  "aliases": [
+   "Tokyo Sayama tea",
+   "东京狹山茶",
+   "Tokyo Ryokucha (Tokyo green tea)",
+   "東京緑茶"
+  ],
+  "category": "green",
+  "country": "Japan",
+  "region": "Tokyo",
+  "kind": "appellation",
+  "tier": 2,
+  "existing_slug": null,
+  "evidence": [
+   "https://ja.wikipedia.org/wiki/日本茶",
+   "https://www.wikidata.org/wiki/Q11525024",
+   "https://ja.wikipedia.org/wiki/狭山茶"
+  ]
+ },
+ {
+  "slug": "tosa-cha",
+  "en": "Tosa-cha",
+  "zh": null,
+  "ru": "Тоса-тя",
+  "native": "土佐茶",
+  "aliases": [],
+  "category": "green",
+  "country": "Japan",
+  "region": "Kochi",
+  "kind": "appellation",
+  "tier": 2,
+  "existing_slug": null,
+  "evidence": [
+   "https://ja.wikipedia.org/wiki/日本茶"
+  ]
+ },
+ {
+  "slug": "tsuchiyama-cha",
+  "en": "Tsuchiyama-cha",
+  "zh": null,
+  "ru": "Цутияма-тя",
+  "native": "土山茶",
+  "aliases": [
+   "Omi Tsuchiyama-cha",
+   "近江土山茶"
+  ],
+  "category": "green",
+  "country": "Japan",
+  "region": "Shiga",
+  "kind": "appellation",
+  "tier": 2,
+  "existing_slug": null,
+  "evidence": [
+   "https://ja.wikipedia.org/wiki/日本茶",
+   "https://www.wikidata.org/wiki/Q65255577"
+  ]
+ },
+ {
+  "slug": "tsukigase-cha",
+  "en": "Tsukigase-cha",
+  "zh": null,
+  "ru": "Цукигасэ-тя",
+  "native": "月ヶ瀬茶",
+  "aliases": [],
+  "category": "green",
+  "country": "Japan",
+  "region": "Nara · Tsukigase",
+  "kind": "appellation",
+  "tier": 2,
+  "existing_slug": null,
+  "evidence": [
+   "https://ja.wikipedia.org/wiki/大和茶"
+  ]
+ },
+ {
+  "slug": "tsunoyama-cha",
+  "en": "Tsunoyama-cha",
+  "zh": null,
+  "ru": "Цунояма-тя",
+  "native": "津野山茶",
+  "aliases": [],
+  "category": "green",
+  "country": "Japan",
+  "region": "Kochi",
+  "kind": "appellation",
+  "tier": 2,
+  "existing_slug": null,
+  "evidence": [
+   "https://ja.wikipedia.org/wiki/日本茶"
+  ]
+ },
+ {
+  "slug": "tsuyuhikari",
+  "en": "Tsuyuhikari",
+  "zh": null,
+  "ru": "Цуюхикари",
+  "native": "つゆひかり",
+  "aliases": [],
+  "category": "green",
+  "country": "Japan",
+  "region": null,
+  "kind": "cultivar",
+  "tier": 2,
+  "existing_slug": null,
+  "evidence": [
+   "https://australianteamasters.com.au/japanese-tea-cultivars-listing/"
+  ]
+ },
+ {
+  "slug": "uji-karigane",
+  "en": "Uji Karigane",
+  "zh": null,
+  "ru": "Удзи кариганэ",
+  "native": "宇治雁ヶ音",
+  "aliases": [],
+  "category": "green",
+  "country": "Japan",
+  "region": "Kyoto · Uji",
+  "kind": "appellation",
+  "tier": 2,
+  "existing_slug": null,
+  "evidence": [
+   "https://www.sazentea.com/en/products/c55-japanese-tea"
+  ]
+ },
+ {
+  "slug": "ujihikari",
+  "en": "Ujihikari",
+  "zh": null,
+  "ru": "Удзихикари",
+  "native": "うじひかり",
+  "aliases": [],
+  "category": "green",
+  "country": "Japan",
+  "region": null,
+  "kind": "cultivar",
+  "tier": 2,
+  "existing_slug": null,
+  "evidence": [
+   "https://australianteamasters.com.au/japanese-tea-cultivars-listing/"
+  ]
+ },
+ {
+  "slug": "ujimidori",
+  "en": "Ujimidori",
+  "zh": null,
+  "ru": "Удзимидори",
+  "native": null,
+  "aliases": [],
+  "category": "green",
+  "country": "Japan",
+  "region": null,
+  "kind": "cultivar",
+  "tier": 2,
+  "existing_slug": null,
+  "evidence": [
+   "https://myjapanesegreentea.com/?p=2299"
+  ]
+ },
+ {
+  "slug": "ujitawara-cha",
+  "en": "Ujitawara-cha",
+  "zh": null,
+  "ru": "Удзитавара-тя",
+  "native": "宇治田原茶",
+  "aliases": [],
+  "category": "green",
+  "country": "Japan",
+  "region": "Kyoto",
+  "kind": "appellation",
+  "tier": 2,
+  "existing_slug": null,
+  "evidence": [
+   "https://ja.wikipedia.org/wiki/日本茶"
+  ]
+ },
+ {
+  "slug": "ureshino-kamairicha",
+  "en": "Ureshino Kamairicha",
+  "zh": null,
+  "ru": "Урэсино камайритя",
+  "native": "嬉野釜炒り茶",
+  "aliases": [],
+  "category": "green",
+  "country": "Japan",
+  "region": "Saga · Ureshino",
+  "kind": "appellation",
+  "tier": 2,
+  "existing_slug": null,
+  "evidence": [
+   "https://www.sazentea.com/en/products/c55-japanese-tea"
+  ]
+ },
+ {
+  "slug": "usucha",
+  "en": "Usucha",
+  "zh": null,
+  "ru": "Усутя",
+  "native": "薄茶",
+  "aliases": [],
+  "category": "green",
+  "country": "Japan",
+  "region": null,
+  "kind": "recipe",
+  "tier": 2,
+  "existing_slug": null,
+  "evidence": [
+   "https://en.wikipedia.org/wiki/Tea_culture_in_Japan",
+   "https://www.wikidata.org/wiki/Q122961542",
+   "https://www.denstea.com/"
+  ]
+ },
+ {
+  "slug": "wazuka-cha",
+  "en": "Wazuka-cha",
+  "zh": null,
+  "ru": "Вадзука-тя",
+  "native": "和束茶",
+  "aliases": [
+   "Wazuka Sencha",
+   "和束煎茶"
+  ],
+  "category": "green",
+  "country": "Japan",
+  "region": "Kyoto",
+  "kind": "appellation",
+  "tier": 2,
+  "existing_slug": null,
+  "evidence": [
+   "https://ja.wikipedia.org/wiki/日本茶",
+   "https://www.sazentea.com/en/products/c55-japanese-tea"
+  ]
+ },
+ {
+  "slug": "yabukita-misho",
+  "en": "Yabukita Misho",
+  "zh": null,
+  "ru": "Ябукита мисё",
+  "native": "やぶきたみしょう",
+  "aliases": [],
+  "category": "green",
+  "country": "Japan",
+  "region": null,
+  "kind": "cultivar",
+  "tier": 2,
+  "existing_slug": null,
+  "evidence": [
+   "https://yunomi.life/pages/list-of-japanese-tea-cultivars"
+  ]
+ },
+ {
+  "slug": "yamakai",
+  "en": "Yamakai",
+  "zh": null,
+  "ru": "Ямакай",
+  "native": "やまかい",
+  "aliases": [],
+  "category": "green",
+  "country": "Japan",
+  "region": null,
+  "kind": "cultivar",
+  "tier": 2,
+  "existing_slug": null,
+  "evidence": [
+   "https://australianteamasters.com.au/japanese-tea-cultivars-listing/"
+  ]
+ },
+ {
+  "slug": "yamato-cha",
+  "en": "Yamato-cha",
+  "zh": null,
+  "ru": "Ямато-тя",
+  "native": "大和茶",
+  "aliases": [
+   "Yamato cha",
+   "Yamato tea",
+   "Sencha Yamato",
+   "大和煎茶"
+  ],
+  "category": "green",
+  "country": "Japan",
+  "region": "Nara",
+  "kind": "appellation",
+  "tier": 2,
+  "existing_slug": null,
+  "evidence": [
+   "https://ja.wikipedia.org/wiki/日本茶",
+   "https://www.wikidata.org/wiki/Q11433557",
+   "https://www.uptontea.com/collections/tea-blends"
+  ]
+ },
+ {
+  "slug": "yamatomidori",
+  "en": "Yamatomidori",
+  "zh": null,
+  "ru": "Яматомидори",
+  "native": "やまとみどり",
+  "aliases": [
+   "Yamato Midori Sencha",
+   "Yamatomidori (Nara)"
+  ],
+  "category": "green",
+  "country": "Japan",
+  "region": null,
+  "kind": "cultivar",
+  "tier": 2,
+  "existing_slug": null,
+  "evidence": [
+   "https://ja.wikipedia.org/wiki/大和茶",
+   "https://australianteamasters.com.au/japanese-tea-cultivars-listing/",
+   "https://www.sazentea.com/en/products/c55-japanese-tea"
+  ]
+ },
+ {
+  "slug": "yame-dento-hon-gyokuro",
+  "en": "Yame Dento Hon Gyokuro",
+  "zh": null,
+  "ru": "Ямэ дэнто хон гёкуро",
+  "native": "八女伝統本玉露",
+  "aliases": [],
+  "category": "green",
+  "country": "Japan",
+  "region": "Fukuoka · Yame",
+  "kind": "appellation",
+  "tier": 2,
+  "existing_slug": null,
+  "evidence": [
+   "https://ja.wikipedia.org/wiki/Category:日本茶"
+  ]
+ },
+ {
+  "slug": "yame-sencha",
+  "en": "Yame Sencha",
+  "zh": null,
+  "ru": "Ямэ сэнтя",
+  "native": "八女煎茶",
+  "aliases": [],
+  "category": "green",
+  "country": "Japan",
+  "region": "Fukuoka · Yame",
+  "kind": "appellation",
+  "tier": 2,
+  "existing_slug": null,
+  "evidence": [
+   "https://www.sazentea.com/en/products/c55-japanese-tea"
+  ]
+ },
+ {
+  "slug": "yanbaru-cha",
+  "en": "Yanbaru-cha",
+  "zh": null,
+  "ru": "Ямбару-тя",
+  "native": "やんばる茶",
+  "aliases": [],
+  "category": "green",
+  "country": "Japan",
+  "region": "Okinawa",
+  "kind": "appellation",
+  "tier": 2,
+  "existing_slug": null,
+  "evidence": [
+   "https://ja.wikipedia.org/wiki/日本茶"
+  ]
+ },
+ {
+  "slug": "yoshino-nikkan-bancha",
+  "en": "Yoshino Nikkan Bancha",
+  "zh": null,
+  "ru": "Ёсино никкан бантя",
+  "native": "吉野の日干番茶",
+  "aliases": [
+   "Tenpi-boshi Bancha (sun-dried bancha)",
+   "天日干し番茶"
+  ],
+  "category": "green",
+  "country": "Japan",
+  "region": "Nara · Yoshino",
+  "kind": "style",
+  "tier": 2,
+  "existing_slug": null,
+  "evidence": [
+   "https://ja.wikipedia.org/wiki/番茶"
+  ]
+ },
+ {
+  "slug": "yumekaori",
+  "en": "Yumekaori",
+  "zh": null,
+  "ru": "Юмэкаори",
+  "native": "ゆめかおり",
+  "aliases": [],
+  "category": "green",
+  "country": "Japan",
+  "region": null,
+  "kind": "cultivar",
+  "tier": 2,
+  "existing_slug": null,
+  "evidence": [
+   "https://australianteamasters.com.au/japanese-tea-cultivars-listing/"
+  ]
+ },
+ {
+  "slug": "yutakamidori",
+  "en": "Yutakamidori",
+  "zh": null,
+  "ru": "Ютакамидори",
+  "native": "ゆたかみどり",
+  "aliases": [],
+  "category": "green",
+  "country": "Japan",
+  "region": null,
+  "kind": "cultivar",
+  "tier": 2,
+  "existing_slug": null,
+  "evidence": [
+   "https://australianteamasters.com.au/japanese-tea-cultivars-listing/"
+  ]
+ },
+ {
+  "slug": "zairai",
+  "en": "Zairai",
+  "zh": null,
+  "ru": "Дзайрай",
+  "native": "ざいらい",
+  "aliases": [],
+  "category": "green",
+  "country": "Japan",
+  "region": null,
+  "kind": "cultivar",
+  "tier": 2,
+  "existing_slug": null,
+  "evidence": [
+   "https://yunomi.life/pages/list-of-japanese-tea-cultivars"
+  ]
+ },
+ {
+  "slug": "aichi-matcha",
+  "en": "Aichi Matcha",
+  "zh": null,
+  "ru": null,
+  "native": "愛知抹茶",
+  "aliases": [],
+  "category": "green",
+  "country": "Japan",
+  "region": "Aichi",
+  "kind": "appellation",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://www.uptontea.com/collections/japanese-tea"
+  ]
+ },
+ {
+  "slug": "aioi-cha",
+  "en": "Aioi-cha",
+  "zh": null,
+  "ru": null,
+  "native": "相生茶",
+  "aliases": [
+   "Aioi Sencha",
+   "相生煎茶"
+  ],
+  "category": "green",
+  "country": "Japan",
+  "region": "Tokushima",
+  "kind": "appellation",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://ja.wikipedia.org/wiki/日本茶"
+  ]
+ },
+ {
+  "slug": "ajimano-cha",
+  "en": "Ajimano-cha",
+  "zh": null,
+  "ru": null,
+  "native": "味真野茶",
+  "aliases": [],
+  "category": "green",
+  "country": "Japan",
+  "region": "Fukui",
+  "kind": "appellation",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://ja.wikipedia.org/wiki/日本茶"
+  ]
+ },
+ {
+  "slug": "akaishi-meicha",
+  "en": "Akaishi Meicha",
+  "zh": null,
+  "ru": null,
+  "native": "赤石銘茶",
+  "aliases": [],
+  "category": "green",
+  "country": "Japan",
+  "region": "Nagano",
+  "kind": "appellation",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://ja.wikipedia.org/wiki/日本茶"
+  ]
+ },
+ {
+  "slug": "aki-bancha",
+  "en": "Aki Bancha",
+  "zh": null,
+  "ru": null,
+  "native": "秋番茶",
+  "aliases": [
+   "Aki Bancha (autumn bancha)"
+  ],
+  "category": "green",
+  "country": "Japan",
+  "region": null,
+  "kind": "style",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://ja.wikipedia.org/wiki/抹茶"
+  ]
+ },
+ {
+  "slug": "amagi-cha",
+  "en": "Amagi-cha",
+  "zh": null,
+  "ru": null,
+  "native": "天城茶",
+  "aliases": [],
+  "category": "green",
+  "country": "Japan",
+  "region": "Shizuoka · Amagi",
+  "kind": "appellation",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://ja.wikipedia.org/wiki/静岡茶"
+  ]
+ },
+ {
+  "slug": "aosei-sencha",
+  "en": "Aosei Sencha",
+  "zh": null,
+  "ru": null,
+  "native": "青製煎茶",
+  "aliases": [],
+  "category": "green",
+  "country": "Japan",
+  "region": null,
+  "kind": "style",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://ja.wikipedia.org/wiki/Category:日本茶"
+  ]
+ },
+ {
+  "slug": "ariake-cha",
+  "en": "Ariake-cha",
+  "zh": null,
+  "ru": null,
+  "native": "有明茶",
+  "aliases": [],
+  "category": "green",
+  "country": "Japan",
+  "region": "Kagoshima",
+  "kind": "appellation",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://ja.wikipedia.org/wiki/日本茶"
+  ]
+ },
+ {
+  "slug": "asagiri",
+  "en": "Asagiri",
+  "zh": null,
+  "ru": null,
+  "native": "あさぎり",
+  "aliases": [],
+  "category": "green",
+  "country": "Japan",
+  "region": null,
+  "kind": "cultivar",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://australianteamasters.com.au/japanese-tea-cultivars-listing/"
+  ]
+ },
+ {
+  "slug": "asago-midori",
+  "en": "Asago Midori",
+  "zh": null,
+  "ru": null,
+  "native": "朝来みどり",
+  "aliases": [],
+  "category": "green",
+  "country": "Japan",
+  "region": "Hyogo",
+  "kind": "appellation",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://ja.wikipedia.org/wiki/日本茶"
+  ]
+ },
+ {
+  "slug": "asahi",
+  "en": "Asahi",
+  "zh": null,
+  "ru": null,
+  "native": "あさひ",
+  "aliases": [],
+  "category": "green",
+  "country": "Japan",
+  "region": null,
+  "kind": "cultivar",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://australianteamasters.com.au/japanese-tea-cultivars-listing/"
+  ]
+ },
+ {
+  "slug": "asamiya-gyokuro",
+  "en": "Asamiya Gyokuro",
+  "zh": null,
+  "ru": null,
+  "native": "朝宮玉露",
+  "aliases": [],
+  "category": "green",
+  "country": "Japan",
+  "region": "Shiga · Asamiya",
+  "kind": "appellation",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://www.sazentea.com/en/products/c55-japanese-tea"
+  ]
+ },
+ {
+  "slug": "ashikubo-cha",
+  "en": "Ashikubo-cha",
+  "zh": null,
+  "ru": null,
+  "native": "足久保茶",
+  "aliases": [],
+  "category": "green",
+  "country": "Japan",
+  "region": "Shizuoka",
+  "kind": "appellation",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://ja.wikipedia.org/wiki/日本茶"
+  ]
+ },
+ {
+  "slug": "atomukashi",
+  "en": "Atomukashi",
+  "zh": null,
+  "ru": null,
+  "native": "後昔",
+  "aliases": [],
+  "category": "green",
+  "country": "Japan",
+  "region": "Kyoto · Uji",
+  "kind": "style",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://ja.wikipedia.org/wiki/宇治茶"
+  ]
+ },
+ {
+  "slug": "ayabe-cha",
+  "en": "Ayabe-cha",
+  "zh": null,
+  "ru": null,
+  "native": "綾部茶",
+  "aliases": [],
+  "category": "green",
+  "country": "Japan",
+  "region": "Kyoto · Ayabe",
+  "kind": "appellation",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://ja.wikipedia.org/wiki/綾部市"
+  ]
+ },
+ {
+  "slug": "bocho-cha",
+  "en": "Bocho-cha",
+  "zh": null,
+  "ru": null,
+  "native": "防長茶",
+  "aliases": [],
+  "category": "green",
+  "country": "Japan",
+  "region": "Yamaguchi",
+  "kind": "appellation",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://ja.wikipedia.org/wiki/日本茶"
+  ]
+ },
+ {
+  "slug": "boke-bancha",
+  "en": "Boke Bancha",
+  "zh": null,
+  "ru": null,
+  "native": null,
+  "aliases": [],
+  "category": "green",
+  "country": "Japan",
+  "region": "Tokushima",
+  "kind": "style",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://myjapanesegreentea.com/types-of-japanese-green-tea"
+  ]
+ },
+ {
+  "slug": "boke-meicha",
+  "en": "Boke Meicha",
+  "zh": null,
+  "ru": null,
+  "native": "歩危銘茶",
+  "aliases": [],
+  "category": "green",
+  "country": "Japan",
+  "region": "Tokushima",
+  "kind": "appellation",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://ja.wikipedia.org/wiki/日本茶"
+  ]
+ },
+ {
+  "slug": "chamomile-kamairicha",
+  "en": "Chamomile Kamairicha",
+  "zh": null,
+  "ru": null,
+  "native": "カモミール釜炒り茶",
+  "aliases": [],
+  "category": "green",
+  "country": "Japan",
+  "region": null,
+  "kind": "blend",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://www.sazentea.com/en/products/c55-japanese-tea"
+  ]
+ },
+ {
+  "slug": "chichibu-cha",
+  "en": "Chichibu-cha",
+  "zh": null,
+  "ru": null,
+  "native": "秩父茶",
+  "aliases": [],
+  "category": "green",
+  "country": "Japan",
+  "region": "Saitama · Chichibu",
+  "kind": "appellation",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://ja.wikipedia.org/wiki/狭山茶"
+  ]
+ },
+ {
+  "slug": "chiran-fukamushicha",
+  "en": "Chiran Fukamushicha",
+  "zh": null,
+  "ru": null,
+  "native": "知覧深蒸し茶",
+  "aliases": [],
+  "category": "green",
+  "country": "Japan",
+  "region": "Kagoshima · Chiran",
+  "kind": "appellation",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://www.sazentea.com/en/products/c55-japanese-tea"
+  ]
+ },
+ {
+  "slug": "chizu-cha",
+  "en": "Chizu-cha",
+  "zh": null,
+  "ru": null,
+  "native": "智頭茶",
+  "aliases": [],
+  "category": "green",
+  "country": "Japan",
+  "region": "Tottori · Chizu",
+  "kind": "appellation",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://ja.wikipedia.org/wiki/日本茶"
+  ]
+ },
+ {
+  "slug": "daisen-cha",
+  "en": "Daisen-cha",
+  "zh": null,
+  "ru": null,
+  "native": "大山茶",
+  "aliases": [],
+  "category": "green",
+  "country": "Japan",
+  "region": "Tottori",
+  "kind": "appellation",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://ja.wikipedia.org/wiki/日本茶"
+  ]
+ },
+ {
+  "slug": "daito-cha",
+  "en": "Daito-cha",
+  "zh": null,
+  "ru": null,
+  "native": "大東茶",
+  "aliases": [],
+  "category": "green",
+  "country": "Japan",
+  "region": "Shimane",
+  "kind": "appellation",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://ja.wikipedia.org/wiki/日本茶"
+  ]
+ },
+ {
+  "slug": "dancha",
+  "en": "Dancha",
+  "zh": null,
+  "ru": null,
+  "native": "団茶",
+  "aliases": [],
+  "category": "green",
+  "country": "Japan",
+  "region": null,
+  "kind": "style",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://en.wikipedia.org/wiki/Tea_culture_in_Japan",
+   "https://ja.wikipedia.org/wiki/Category:茶"
+  ]
+ },
+ {
+  "slug": "danmine-cha",
+  "en": "Danmine-cha",
+  "zh": null,
+  "ru": null,
+  "native": "田峯茶",
+  "aliases": [
+   "Damine Tea"
+  ],
+  "category": "green",
+  "country": "Japan",
+  "region": "Aichi",
+  "kind": "appellation",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://ja.wikipedia.org/wiki/Category:日本茶の産地",
+   "https://www.wikidata.org/wiki/Q60997803"
+  ]
+ },
+ {
+  "slug": "date-cha",
+  "en": "Date-cha",
+  "zh": null,
+  "ru": null,
+  "native": "伊達茶",
+  "aliases": [],
+  "category": "green",
+  "country": "Japan",
+  "region": "Miyagi · Shiogama",
+  "kind": "appellation",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://ja.wikipedia.org/wiki/日本茶"
+  ]
+ },
+ {
+  "slug": "daye-mo-cha",
+  "en": "Daye Mo Cha",
+  "zh": "抹茶",
+  "ru": "Дае мо ча",
+  "native": null,
+  "aliases": [
+   "Mo Cha (Daye)"
+  ],
+  "category": "green",
+  "country": "China",
+  "region": "Hubei · Huangshi Daye",
+  "kind": "style",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": []
+ },
+ {
+  "slug": "ena-cha",
+  "en": "Ena-cha",
+  "zh": null,
+  "ru": null,
+  "native": "恵那茶",
+  "aliases": [],
+  "category": "green",
+  "country": "Japan",
+  "region": "Gifu",
+  "kind": "appellation",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://ja.wikipedia.org/wiki/日本茶"
+  ]
+ },
+ {
+  "slug": "enshu-mori-cha",
+  "en": "Enshu Mori-cha",
+  "zh": null,
+  "ru": null,
+  "native": "遠州森の茶",
+  "aliases": [],
+  "category": "green",
+  "country": "Japan",
+  "region": "Shizuoka",
+  "kind": "appellation",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://ja.wikipedia.org/wiki/日本茶"
+  ]
+ },
+ {
+  "slug": "fuji-cha",
+  "en": "Fuji-cha",
+  "zh": null,
+  "ru": null,
+  "native": "富士茶",
+  "aliases": [],
+  "category": "green",
+  "country": "Japan",
+  "region": "Shizuoka",
+  "kind": "appellation",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://ja.wikipedia.org/wiki/日本茶"
+  ]
+ },
+ {
+  "slug": "fujimidori",
+  "en": "Fujimidori",
+  "zh": null,
+  "ru": null,
+  "native": null,
+  "aliases": [],
+  "category": "green",
+  "country": "Japan",
+  "region": null,
+  "kind": "cultivar",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://myjapanesegreentea.com/?p=2299"
+  ]
+ },
+ {
+  "slug": "fukamushi-kikugawa-cha",
+  "en": "Fukamushi Kikugawa-cha",
+  "zh": null,
+  "ru": null,
+  "native": "深蒸し菊川茶",
+  "aliases": [],
+  "category": "green",
+  "country": "Japan",
+  "region": "Shizuoka · Kikugawa",
+  "kind": "appellation",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://www.maff.go.jp/j/shokusan/gi_act/register/"
+  ]
+ },
+ {
+  "slug": "fukucha",
+  "en": "Fukucha",
+  "zh": null,
+  "ru": null,
+  "native": "福茶",
+  "aliases": [],
+  "category": "green",
+  "country": "Japan",
+  "region": null,
+  "kind": "recipe",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://ja.wikipedia.org/wiki/Category:日本茶",
+   "https://www.wikidata.org/wiki/Q22124487"
+  ]
+ },
+ {
+  "slug": "fukuroi-cha",
+  "en": "Fukuroi-cha",
+  "zh": null,
+  "ru": null,
+  "native": "袋井茶",
+  "aliases": [],
+  "category": "green",
+  "country": "Japan",
+  "region": "Shizuoka",
+  "kind": "appellation",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://ja.wikipedia.org/wiki/日本茶"
+  ]
+ },
+ {
+  "slug": "fukusumi-cha",
+  "en": "Fukusumi-cha",
+  "zh": null,
+  "ru": null,
+  "native": "福住茶",
+  "aliases": [],
+  "category": "green",
+  "country": "Japan",
+  "region": "Nara · Fukusumi",
+  "kind": "appellation",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://ja.wikipedia.org/wiki/大和茶"
+  ]
+ },
+ {
+  "slug": "furuuchi-cha",
+  "en": "Furuuchi-cha",
+  "zh": null,
+  "ru": null,
+  "native": "古内茶",
+  "aliases": [],
+  "category": "green",
+  "country": "Japan",
+  "region": "Ibaraki",
+  "kind": "appellation",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://ja.wikipedia.org/wiki/日本茶",
+   "https://www.wikidata.org/wiki/Q141886074"
+  ]
+ },
+ {
+  "slug": "fuushun",
+  "en": "Fuushun",
+  "zh": null,
+  "ru": null,
+  "native": "ふうしゅん",
+  "aliases": [],
+  "category": "green",
+  "country": "Japan",
+  "region": null,
+  "kind": "cultivar",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://australianteamasters.com.au/japanese-tea-cultivars-listing/"
+  ]
+ },
+ {
+  "slug": "geino-cha",
+  "en": "Geino-cha",
+  "zh": null,
+  "ru": null,
+  "native": "芸濃茶",
+  "aliases": [],
+  "category": "green",
+  "country": "Japan",
+  "region": "Mie",
+  "kind": "appellation",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://ja.wikipedia.org/wiki/日本茶"
+  ]
+ },
+ {
+  "slug": "genmai-hojicha",
+  "en": "Genmai Hojicha",
+  "zh": null,
+  "ru": null,
+  "native": "玄米ほうじ茶",
+  "aliases": [],
+  "category": "green",
+  "country": "Japan",
+  "region": null,
+  "kind": "blend",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://www.sazentea.com/en/products/c55-japanese-tea"
+  ]
+ },
+ {
+  "slug": "gentoku-cha",
+  "en": "Gentoku-cha",
+  "zh": null,
+  "ru": null,
+  "native": "玄徳茶",
+  "aliases": [],
+  "category": "green",
+  "country": "Japan",
+  "region": "Okayama",
+  "kind": "appellation",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://ja.wikipedia.org/wiki/日本茶"
+  ]
+ },
+ {
+  "slug": "gero-cha",
+  "en": "Gero-cha",
+  "zh": null,
+  "ru": null,
+  "native": "下呂茶",
+  "aliases": [],
+  "category": "green",
+  "country": "Japan",
+  "region": "Gifu",
+  "kind": "appellation",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://ja.wikipedia.org/wiki/日本茶"
+  ]
+ },
+ {
+  "slug": "goto-cha",
+  "en": "Goto-cha",
+  "zh": null,
+  "ru": null,
+  "native": "五島茶",
+  "aliases": [],
+  "category": "green",
+  "country": "Japan",
+  "region": "Nagasaki",
+  "kind": "appellation",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://ja.wikipedia.org/wiki/日本茶"
+  ]
+ },
+ {
+  "slug": "goto-tsubaki-cha",
+  "en": "Goto Tsubaki-cha",
+  "zh": null,
+  "ru": null,
+  "native": "五島つばき茶",
+  "aliases": [
+   "Goto Tsubaki-cha (camellia-leaf blend)"
+  ],
+  "category": "green",
+  "country": "Japan",
+  "region": "Nagasaki · Goto",
+  "kind": "blend",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://ja.wikipedia.org/wiki/日本茶"
+  ]
+ },
+ {
+  "slug": "gyokuro-konacha",
+  "en": "Gyokuro Konacha",
+  "zh": null,
+  "ru": null,
+  "native": "玉露粉茶",
+  "aliases": [],
+  "category": "green",
+  "country": "Japan",
+  "region": null,
+  "kind": "style",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://www.sazentea.com/en/products/c55-japanese-tea"
+  ]
+ },
+ {
+  "slug": "hachijuhachiya-sencha",
+  "en": "Hachijūhachiya Sencha",
+  "zh": null,
+  "ru": null,
+  "native": null,
+  "aliases": [],
+  "category": "green",
+  "country": "Japan",
+  "region": null,
+  "kind": "style",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://en.wikipedia.org/wiki/Sencha"
+  ]
+ },
+ {
+  "slug": "haibara-cha",
+  "en": "Haibara-cha",
+  "zh": null,
+  "ru": null,
+  "native": "榛原茶",
+  "aliases": [],
+  "category": "green",
+  "country": "Japan",
+  "region": "Shizuoka",
+  "kind": "appellation",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://ja.wikipedia.org/wiki/日本茶"
+  ]
+ },
+ {
+  "slug": "hakuta-bancha",
+  "en": "Hakuta Bancha",
+  "zh": null,
+  "ru": null,
+  "native": "伯太番茶",
+  "aliases": [],
+  "category": "green",
+  "country": "Japan",
+  "region": "Shimane",
+  "kind": "style",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://ja.wikipedia.org/wiki/日本茶"
+  ]
+ },
+ {
+  "slug": "hakuyo",
+  "en": "Hakuyo",
+  "zh": null,
+  "ru": null,
+  "native": null,
+  "aliases": [],
+  "category": "green",
+  "country": "Japan",
+  "region": null,
+  "kind": "cultivar",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://yunomi.life/pages/list-of-japanese-tea-cultivars"
+  ]
+ },
+ {
+  "slug": "hamamatsu-cha",
+  "en": "Hamamatsu-cha",
+  "zh": null,
+  "ru": null,
+  "native": "浜松茶",
+  "aliases": [],
+  "category": "green",
+  "country": "Japan",
+  "region": "Shizuoka",
+  "kind": "appellation",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://ja.wikipedia.org/wiki/日本茶"
+  ]
+ },
+ {
+  "slug": "harima-yashiro-cha",
+  "en": "Harima Yashiro-cha",
+  "zh": null,
+  "ru": null,
+  "native": "播磨やしろ茶",
+  "aliases": [],
+  "category": "green",
+  "country": "Japan",
+  "region": "Hyogo",
+  "kind": "appellation",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://ja.wikipedia.org/wiki/日本茶"
+  ]
+ },
+ {
+  "slug": "haruno-cha",
+  "en": "Haruno-cha",
+  "zh": null,
+  "ru": null,
+  "native": "春野茶",
+  "aliases": [],
+  "category": "green",
+  "country": "Japan",
+  "region": "Shizuoka",
+  "kind": "appellation",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://ja.wikipedia.org/wiki/日本茶"
+  ]
+ },
+ {
+  "slug": "harunonagori",
+  "en": "Harunonagori",
+  "zh": null,
+  "ru": null,
+  "native": "はるのなごり",
+  "aliases": [],
+  "category": "green",
+  "country": "Japan",
+  "region": null,
+  "kind": "cultivar",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://australianteamasters.com.au/japanese-tea-cultivars-listing/"
+  ]
+ },
+ {
+  "slug": "hatsumidori",
+  "en": "Hatsumidori",
+  "zh": null,
+  "ru": null,
+  "native": "はつみどり",
+  "aliases": [],
+  "category": "green",
+  "country": "Japan",
+  "region": null,
+  "kind": "cultivar",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://australianteamasters.com.au/japanese-tea-cultivars-listing/"
+  ]
+ },
+ {
+  "slug": "hatsumukashi",
+  "en": "Hatsumukashi",
+  "zh": null,
+  "ru": null,
+  "native": "初昔",
+  "aliases": [],
+  "category": "green",
+  "country": "Japan",
+  "region": "Kyoto · Uji",
+  "kind": "style",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://ja.wikipedia.org/wiki/宇治茶"
+  ]
+ },
+ {
+  "slug": "hatsune",
+  "en": "Hatsune",
+  "zh": null,
+  "ru": null,
+  "native": "初音",
+  "aliases": [],
+  "category": "green",
+  "country": "Japan",
+  "region": null,
+  "kind": "cultivar",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://ja.wikipedia.org/wiki/日本茶"
+  ]
+ },
+ {
+  "slug": "hatsutsumi-sencha",
+  "en": "Hatsutsumi Sencha",
+  "zh": null,
+  "ru": null,
+  "native": "初摘み煎茶",
+  "aliases": [],
+  "category": "green",
+  "country": "Japan",
+  "region": null,
+  "kind": "style",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://www.sazentea.com/en/products/c55-japanese-tea"
+  ]
+ },
+ {
+  "slug": "hiboshi-bancha",
+  "en": "Hiboshi Bancha",
+  "zh": null,
+  "ru": null,
+  "native": "日干し番茶",
+  "aliases": [
+   "Hiboshi Bancha (sun-dried bancha)"
+  ],
+  "category": "green",
+  "country": "Japan",
+  "region": "San'in region",
+  "kind": "style",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://ja.wikipedia.org/wiki/日本茶"
+  ]
+ },
+ {
+  "slug": "higashiyama-cha",
+  "en": "Higashiyama-cha",
+  "zh": null,
+  "ru": null,
+  "native": "東山茶",
+  "aliases": [],
+  "category": "green",
+  "country": "Japan",
+  "region": "Shizuoka · Kakegawa",
+  "kind": "appellation",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://www.maff.go.jp/j/pr/aff/1704/spe1_02.html"
+  ]
+ },
+ {
+  "slug": "hikicha",
+  "en": "Hikicha",
+  "zh": null,
+  "ru": null,
+  "native": "挽き茶",
+  "aliases": [],
+  "category": "green",
+  "country": "Japan",
+  "region": "Nara · Kashihara",
+  "kind": "style",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://ja.wikipedia.org/wiki/振り茶"
+  ]
+ },
+ {
+  "slug": "himemidori",
+  "en": "Himemidori",
+  "zh": null,
+  "ru": null,
+  "native": "ひめみどり",
+  "aliases": [
+   "Hime Midori"
+  ],
+  "category": "green",
+  "country": "Japan",
+  "region": null,
+  "kind": "cultivar",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://australianteamasters.com.au/japanese-tea-cultivars-listing/",
+   "https://yunomi.life/pages/list-of-japanese-tea-cultivars"
+  ]
+ },
+ {
+  "slug": "hino-kitayama-cha",
+  "en": "Hino Kitayama-cha",
+  "zh": null,
+  "ru": null,
+  "native": "日野北山茶",
+  "aliases": [],
+  "category": "green",
+  "country": "Japan",
+  "region": "Shiga",
+  "kind": "appellation",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://ja.wikipedia.org/wiki/日本茶"
+  ]
+ },
+ {
+  "slug": "hiyama-cha",
+  "en": "Hiyama-cha",
+  "zh": null,
+  "ru": null,
+  "native": "檜山茶",
+  "aliases": [],
+  "category": "green",
+  "country": "Japan",
+  "region": "Akita",
+  "kind": "appellation",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://ja.wikipedia.org/wiki/日本茶"
+  ]
+ },
+ {
+  "slug": "hobashira-cha",
+  "en": "Hobashira-cha",
+  "zh": null,
+  "ru": null,
+  "native": "帆柱茶",
+  "aliases": [],
+  "category": "green",
+  "country": "Japan",
+  "region": "Fukuoka",
+  "kind": "appellation",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://ja.wikipedia.org/wiki/日本茶"
+  ]
+ },
+ {
+  "slug": "hoji-bancha",
+  "en": "Hoji Bancha",
+  "zh": null,
+  "ru": null,
+  "native": "焙じ番茶",
+  "aliases": [
+   "Hoji Bancha (roasted bancha)"
+  ],
+  "category": "green",
+  "country": "Japan",
+  "region": null,
+  "kind": "style",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://ja.wikipedia.org/wiki/番茶"
+  ]
+ },
+ {
+  "slug": "hokumei",
+  "en": "Hokumei",
+  "zh": null,
+  "ru": null,
+  "native": "ほくめい",
+  "aliases": [],
+  "category": "green",
+  "country": "Japan",
+  "region": null,
+  "kind": "cultivar",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://australianteamasters.com.au/japanese-tea-cultivars-listing/"
+  ]
+ },
+ {
+  "slug": "honcha",
+  "en": "Honcha",
+  "zh": null,
+  "ru": null,
+  "native": "本茶",
+  "aliases": [],
+  "category": "green",
+  "country": "Japan",
+  "region": "Kyoto · Toganoo",
+  "kind": "style",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://ja.wikipedia.org/wiki/宇治茶"
+  ]
+ },
+ {
+  "slug": "honyama-matcha",
+  "en": "Honyama Matcha",
+  "zh": null,
+  "ru": null,
+  "native": "本山抹茶",
+  "aliases": [],
+  "category": "green",
+  "country": "Japan",
+  "region": "Shizuoka · Honyama",
+  "kind": "appellation",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://www.denstea.com/"
+  ]
+ },
+ {
+  "slug": "horai-kincha",
+  "en": "Horai Kincha",
+  "zh": null,
+  "ru": null,
+  "native": null,
+  "aliases": [],
+  "category": "green",
+  "country": "Japan",
+  "region": null,
+  "kind": "cultivar",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://yunomi.life/pages/list-of-japanese-tea-cultivars"
+  ]
+ },
+ {
+  "slug": "hoshinomidori",
+  "en": "Hoshinomidori",
+  "zh": null,
+  "ru": null,
+  "native": "ほしのみどり",
+  "aliases": [],
+  "category": "green",
+  "country": "Japan",
+  "region": null,
+  "kind": "cultivar",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://australianteamasters.com.au/japanese-tea-cultivars-listing/"
+  ]
+ },
+ {
+  "slug": "hourainishiki",
+  "en": "Hourainishiki",
+  "zh": null,
+  "ru": null,
+  "native": "ほうらいにしき",
+  "aliases": [],
+  "category": "green",
+  "country": "Japan",
+  "region": null,
+  "kind": "cultivar",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://australianteamasters.com.au/japanese-tea-cultivars-listing/"
+  ]
+ },
+ {
+  "slug": "houryoku",
+  "en": "Houryoku",
+  "zh": null,
+  "ru": null,
+  "native": null,
+  "aliases": [],
+  "category": "green",
+  "country": "Japan",
+  "region": null,
+  "kind": "cultivar",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://myjapanesegreentea.com/?p=2299"
+  ]
+ },
+ {
+  "slug": "houshun",
+  "en": "Houshun",
+  "zh": null,
+  "ru": null,
+  "native": "ほうしゅん",
+  "aliases": [],
+  "category": "green",
+  "country": "Japan",
+  "region": null,
+  "kind": "cultivar",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://australianteamasters.com.au/japanese-tea-cultivars-listing/"
+  ]
+ },
+ {
+  "slug": "hyakuhachi-cha",
+  "en": "Hyakuhachi-cha",
+  "zh": null,
+  "ru": null,
+  "native": "百八茶",
+  "aliases": [
+   "Hyakuhachi-cha (108th-night tea)"
+  ],
+  "category": "green",
+  "country": "Japan",
+  "region": "Miyagi · Monou",
+  "kind": "style",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://ja.wikipedia.org/wiki/日本茶"
+  ]
+ },
+ {
+  "slug": "iga-cha",
+  "en": "Iga-cha",
+  "zh": null,
+  "ru": null,
+  "native": "伊賀茶",
+  "aliases": [],
+  "category": "green",
+  "country": "Japan",
+  "region": "Mie",
+  "kind": "appellation",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://ja.wikipedia.org/wiki/日本茶"
+  ]
+ },
+ {
+  "slug": "ihara-cha",
+  "en": "Ihara-cha",
+  "zh": null,
+  "ru": null,
+  "native": "庵原茶",
+  "aliases": [],
+  "category": "green",
+  "country": "Japan",
+  "region": "Shizuoka",
+  "kind": "appellation",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://ja.wikipedia.org/wiki/日本茶"
+  ]
+ },
+ {
+  "slug": "iinan-cha",
+  "en": "Iinan-cha",
+  "zh": null,
+  "ru": null,
+  "native": "飯南茶",
+  "aliases": [],
+  "category": "green",
+  "country": "Japan",
+  "region": "Mie",
+  "kind": "appellation",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://ja.wikipedia.org/wiki/日本茶"
+  ]
+ },
+ {
+  "slug": "ijuin-cha",
+  "en": "Ijuin-cha",
+  "zh": null,
+  "ru": null,
+  "native": "伊集院茶",
+  "aliases": [],
+  "category": "green",
+  "country": "Japan",
+  "region": "Kagoshima",
+  "kind": "appellation",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://ja.wikipedia.org/wiki/日本茶"
+  ]
+ },
+ {
+  "slug": "ikegawa-cha",
+  "en": "Ikegawa-cha",
+  "zh": null,
+  "ru": null,
+  "native": "池川茶",
+  "aliases": [],
+  "category": "green",
+  "country": "Japan",
+  "region": "Kochi · Niyodogawa",
+  "kind": "appellation",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://ja.wikipedia.org/wiki/日本茶"
+  ]
+ },
+ {
+  "slug": "ina-cha",
+  "en": "Ina-cha",
+  "zh": null,
+  "ru": null,
+  "native": "伊那茶",
+  "aliases": [],
+  "category": "green",
+  "country": "Japan",
+  "region": "Nagano · Ina Valley",
+  "kind": "appellation",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://ja.wikipedia.org/wiki/日本茶"
+  ]
+ },
+ {
+  "slug": "inaguchi",
+  "en": "Inaguchi",
+  "zh": null,
+  "ru": null,
+  "native": "いなぐち",
+  "aliases": [],
+  "category": "green",
+  "country": "Japan",
+  "region": null,
+  "kind": "cultivar",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://australianteamasters.com.au/japanese-tea-cultivars-listing/"
+  ]
+ },
+ {
+  "slug": "inasa-cha",
+  "en": "Inasa-cha",
+  "zh": null,
+  "ru": null,
+  "native": "引佐茶",
+  "aliases": [],
+  "category": "green",
+  "country": "Japan",
+  "region": "Shizuoka · Inasa",
+  "kind": "appellation",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://ja.wikipedia.org/wiki/静岡茶"
+  ]
+ },
+ {
+  "slug": "inbi-cha",
+  "en": "Inbi-cha",
+  "zh": null,
+  "ru": null,
+  "native": "因尾茶",
+  "aliases": [],
+  "category": "green",
+  "country": "Japan",
+  "region": "Oita",
+  "kind": "appellation",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://ja.wikipedia.org/wiki/日本茶"
+  ]
+ },
+ {
+  "slug": "inzatsu-131",
+  "en": "Inzatsu 131",
+  "zh": null,
+  "ru": null,
+  "native": null,
+  "aliases": [],
+  "category": "green",
+  "country": "Japan",
+  "region": null,
+  "kind": "cultivar",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://yunomi.life/pages/list-of-japanese-tea-cultivars"
+  ]
+ },
+ {
+  "slug": "irokawa-cha",
+  "en": "Irokawa-cha",
+  "zh": null,
+  "ru": null,
+  "native": "色川茶",
+  "aliases": [],
+  "category": "green",
+  "country": "Japan",
+  "region": "Wakayama",
+  "kind": "appellation",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://ja.wikipedia.org/wiki/日本茶"
+  ]
+ },
+ {
+  "slug": "ise-bocha",
+  "en": "Ise Bocha",
+  "zh": null,
+  "ru": null,
+  "native": "伊勢棒茶",
+  "aliases": [],
+  "category": "green",
+  "country": "Japan",
+  "region": "Mie · Ise",
+  "kind": "style",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://www.sazentea.com/en/products/c55-japanese-tea"
+  ]
+ },
+ {
+  "slug": "ise-genmaicha",
+  "en": "Ise Genmaicha",
+  "zh": null,
+  "ru": null,
+  "native": "伊勢玄米茶",
+  "aliases": [],
+  "category": "green",
+  "country": "Japan",
+  "region": "Mie · Ise",
+  "kind": "appellation",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://www.sazentea.com/en/products/c55-japanese-tea"
+  ]
+ },
+ {
+  "slug": "ise-gyokuro",
+  "en": "Ise Gyokuro",
+  "zh": null,
+  "ru": null,
+  "native": "伊勢玉露",
+  "aliases": [],
+  "category": "green",
+  "country": "Japan",
+  "region": "Mie · Ise",
+  "kind": "appellation",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://www.sazentea.com/en/products/c55-japanese-tea"
+  ]
+ },
+ {
+  "slug": "ise-hojicha",
+  "en": "Ise Hojicha",
+  "zh": null,
+  "ru": null,
+  "native": "伊勢ほうじ茶",
+  "aliases": [],
+  "category": "green",
+  "country": "Japan",
+  "region": "Mie · Ise",
+  "kind": "appellation",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://www.sazentea.com/en/products/c55-japanese-tea"
+  ]
+ },
+ {
+  "slug": "ishigure-cha",
+  "en": "Ishigure-cha",
+  "zh": null,
+  "ru": null,
+  "native": "石榑茶",
+  "aliases": [],
+  "category": "green",
+  "country": "Japan",
+  "region": "Mie",
+  "kind": "appellation",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://ja.wikipedia.org/wiki/日本茶"
+  ]
+ },
+ {
+  "slug": "itaga-cha",
+  "en": "Itaga-cha",
+  "zh": null,
+  "ru": null,
+  "native": "板荷茶",
+  "aliases": [],
+  "category": "green",
+  "country": "Japan",
+  "region": "Tochigi",
+  "kind": "appellation",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://ja.wikipedia.org/wiki/日本茶"
+  ]
+ },
+ {
+  "slug": "itsuki-cha",
+  "en": "Itsuki-cha",
+  "zh": null,
+  "ru": null,
+  "native": "五木茶",
+  "aliases": [],
+  "category": "green",
+  "country": "Japan",
+  "region": "Kumamoto · Itsuki",
+  "kind": "appellation",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://ja.wikipedia.org/wiki/日本茶"
+  ]
+ },
+ {
+  "slug": "iwata-cha",
+  "en": "Iwata-cha",
+  "zh": null,
+  "ru": null,
+  "native": "磐田茶",
+  "aliases": [],
+  "category": "green",
+  "country": "Japan",
+  "region": "Shizuoka",
+  "kind": "appellation",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://ja.wikipedia.org/wiki/日本茶"
+  ]
+ },
+ {
+  "slug": "jiden-cha",
+  "en": "Jiden-cha",
+  "zh": null,
+  "ru": null,
+  "native": "神田茶",
+  "aliases": [],
+  "category": "green",
+  "country": "Japan",
+  "region": "Tokushima · Kamikatsu",
+  "kind": "appellation",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://ja.wikipedia.org/wiki/日本茶"
+  ]
+ },
+ {
+  "slug": "jingamae-cha",
+  "en": "Jingamae-cha",
+  "zh": null,
+  "ru": null,
+  "native": "陣構茶",
+  "aliases": [],
+  "category": "green",
+  "country": "Japan",
+  "region": "Tottori · Yonago",
+  "kind": "appellation",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://ja.wikipedia.org/wiki/日本茶"
+  ]
+ },
+ {
+  "slug": "jokisen",
+  "en": "Jokisen",
+  "zh": "上喜撰",
+  "ru": null,
+  "native": "上喜撰",
+  "aliases": [],
+  "category": "green",
+  "country": "Japan",
+  "region": null,
+  "kind": "style",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://ja.wikipedia.org/wiki/Category:日本茶",
+   "https://www.wikidata.org/wiki/Q11358678"
+  ]
+ },
+ {
+  "slug": "kabuse-karigane",
+  "en": "Kabuse Karigane",
+  "zh": null,
+  "ru": null,
+  "native": "かぶせ雁ヶ音",
+  "aliases": [],
+  "category": "green",
+  "country": "Japan",
+  "region": null,
+  "kind": "style",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://www.sazentea.com/en/products/c55-japanese-tea"
+  ]
+ },
+ {
+  "slug": "kabuse-konacha",
+  "en": "Kabuse Konacha",
+  "zh": null,
+  "ru": null,
+  "native": "かぶせ粉茶",
+  "aliases": [],
+  "category": "green",
+  "country": "Japan",
+  "region": null,
+  "kind": "style",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://www.sazentea.com/en/products/c55-japanese-tea"
+  ]
+ },
+ {
+  "slug": "kaerazu-cha",
+  "en": "Kaerazu-cha",
+  "zh": null,
+  "ru": null,
+  "native": "不帰茶",
+  "aliases": [],
+  "category": "green",
+  "country": "Japan",
+  "region": "Gifu",
+  "kind": "appellation",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://ja.wikipedia.org/wiki/日本茶",
+   "https://www.wikidata.org/wiki/Q30925934"
+  ]
+ },
+ {
+  "slug": "kageboshi-bancha",
+  "en": "Kageboshi Bancha",
+  "zh": null,
+  "ru": null,
+  "native": "陰干し番茶",
+  "aliases": [],
+  "category": "green",
+  "country": "Japan",
+  "region": "Fukui",
+  "kind": "style",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://ja.wikipedia.org/wiki/日本茶"
+  ]
+ },
+ {
+  "slug": "kagoshima-kabuse-sencha",
+  "en": "Kagoshima Kabuse Sencha",
+  "zh": null,
+  "ru": null,
+  "native": "鹿児島かぶせ茶",
+  "aliases": [],
+  "category": "green",
+  "country": "Japan",
+  "region": "Kagoshima",
+  "kind": "style",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://www.uptontea.com/collections/japanese-tea"
+  ]
+ },
+ {
+  "slug": "kagoshima-matcha",
+  "en": "Kagoshima Matcha",
+  "zh": null,
+  "ru": null,
+  "native": "鹿児島抹茶",
+  "aliases": [],
+  "category": "green",
+  "country": "Japan",
+  "region": "Kagoshima",
+  "kind": "appellation",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://www.denstea.com/"
+  ]
+ },
+ {
+  "slug": "kahada-cha",
+  "en": "Kahada-cha",
+  "zh": null,
+  "ru": null,
+  "native": "香肌茶",
+  "aliases": [],
+  "category": "green",
+  "country": "Japan",
+  "region": "Mie",
+  "kind": "appellation",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://ja.wikipedia.org/wiki/日本茶"
+  ]
+ },
+ {
+  "slug": "kahoku-cha",
+  "en": "Kahoku-cha",
+  "zh": null,
+  "ru": null,
+  "native": "鹿北茶",
+  "aliases": [],
+  "category": "green",
+  "country": "Japan",
+  "region": "Kumamoto · Kahoku",
+  "kind": "appellation",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://ja.wikipedia.org/wiki/日本茶"
+  ]
+ },
+ {
+  "slug": "kaita-cha",
+  "en": "Kaita-cha",
+  "zh": null,
+  "ru": null,
+  "native": "海田茶",
+  "aliases": [],
+  "category": "green",
+  "country": "Japan",
+  "region": "Okayama",
+  "kind": "appellation",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://ja.wikipedia.org/wiki/日本茶"
+  ]
+ },
+ {
+  "slug": "kamaguri-cha",
+  "en": "Kamaguri-cha",
+  "zh": null,
+  "ru": null,
+  "native": "釜ぐり茶",
+  "aliases": [],
+  "category": "green",
+  "country": "Japan",
+  "region": null,
+  "kind": "style",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://ja.wikipedia.org/wiki/釜炒り茶"
+  ]
+ },
+ {
+  "slug": "kamairi-bancha",
+  "en": "Kamairi Bancha",
+  "zh": null,
+  "ru": null,
+  "native": "釜炒り茶の番茶",
+  "aliases": [],
+  "category": "green",
+  "country": "Japan",
+  "region": null,
+  "kind": "style",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://ja.wikipedia.org/wiki/日本茶"
+  ]
+ },
+ {
+  "slug": "kamanobi-cha",
+  "en": "Kamanobi-cha",
+  "zh": null,
+  "ru": null,
+  "native": "釜伸び茶",
+  "aliases": [],
+  "category": "green",
+  "country": "Japan",
+  "region": null,
+  "kind": "style",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://ja.wikipedia.org/wiki/釜炒り茶"
+  ]
+ },
+ {
+  "slug": "kameyama-cha",
+  "en": "Kameyama-cha",
+  "zh": null,
+  "ru": null,
+  "native": "亀山茶",
+  "aliases": [],
+  "category": "green",
+  "country": "Japan",
+  "region": "Mie",
+  "kind": "appellation",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://ja.wikipedia.org/wiki/日本茶"
+  ]
+ },
+ {
+  "slug": "kanayahomare",
+  "en": "Kanayahomare",
+  "zh": null,
+  "ru": null,
+  "native": "かなやほまれ",
+  "aliases": [],
+  "category": "green",
+  "country": "Japan",
+  "region": null,
+  "kind": "cultivar",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://australianteamasters.com.au/japanese-tea-cultivars-listing/"
+  ]
+ },
+ {
+  "slug": "kanayaibuki",
+  "en": "Kanayaibuki",
+  "zh": null,
+  "ru": null,
+  "native": "かなやいぶき",
+  "aliases": [],
+  "category": "green",
+  "country": "Japan",
+  "region": null,
+  "kind": "cultivar",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://australianteamasters.com.au/japanese-tea-cultivars-listing/"
+  ]
+ },
+ {
+  "slug": "kanoo-cha",
+  "en": "Kanoo-cha",
+  "zh": null,
+  "ru": null,
+  "native": "鹿子尾茶",
+  "aliases": [
+   "Kanoo-cha (Hatsuhana pan-fired tea, historic)"
+  ],
+  "category": "green",
+  "country": "Japan",
+  "region": "Fukuoka · Yame",
+  "kind": "appellation",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://ja.wikipedia.org/wiki/八女茶"
+  ]
+ },
+ {
+  "slug": "kanuma-cha",
+  "en": "Kanuma-cha",
+  "zh": null,
+  "ru": null,
+  "native": "鹿沼茶",
+  "aliases": [],
+  "category": "green",
+  "country": "Japan",
+  "region": "Tochigi",
+  "kind": "appellation",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://ja.wikipedia.org/wiki/日本茶"
+  ]
+ },
+ {
+  "slug": "karakawa-bancha",
+  "en": "Karakawa Bancha",
+  "zh": null,
+  "ru": null,
+  "native": "唐川番茶",
+  "aliases": [],
+  "category": "green",
+  "country": "Japan",
+  "region": "Shimane",
+  "kind": "style",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://ja.wikipedia.org/wiki/日本茶"
+  ]
+ },
+ {
+  "slug": "karatsu-cha",
+  "en": "Karatsu-cha",
+  "zh": null,
+  "ru": null,
+  "native": "唐津茶",
+  "aliases": [
+   "Karatsu-cha (kanji spelling)",
+   "からつ茶"
+  ],
+  "category": "green",
+  "country": "Japan",
+  "region": "Saga · Karatsu",
+  "kind": "appellation",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://ja.wikipedia.org/wiki/日本茶"
+  ]
+ },
+ {
+  "slug": "karigane-sencha",
+  "en": "Karigane sencha",
+  "zh": null,
+  "ru": null,
+  "native": "煎茶雁ヶ音",
+  "aliases": [
+   "Sencha Karigane"
+  ],
+  "category": "green",
+  "country": "Japan",
+  "region": "Kyoto · Uji",
+  "kind": "style",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://en.wikipedia.org/wiki/Sencha",
+   "https://www.hibiki-an.com/index.php/cPath/36"
+  ]
+ },
+ {
+  "slug": "karigane-usu-hojicha",
+  "en": "Karigane Usu Hojicha",
+  "zh": null,
+  "ru": null,
+  "native": "雁ヶ音薄ほうじ茶",
+  "aliases": [],
+  "category": "green",
+  "country": "Japan",
+  "region": "Shiga",
+  "kind": "style",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://www.sazentea.com/en/products/c55-japanese-tea"
+  ]
+ },
+ {
+  "slug": "kasahara-cha",
+  "en": "Kasahara-cha",
+  "zh": null,
+  "ru": null,
+  "native": "笠原茶",
+  "aliases": [],
+  "category": "green",
+  "country": "Japan",
+  "region": "Fukuoka",
+  "kind": "appellation",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://ja.wikipedia.org/wiki/日本茶"
+  ]
+ },
+ {
+  "slug": "kawakami-cha",
+  "en": "Kawakami-cha",
+  "zh": null,
+  "ru": null,
+  "native": "川上茶",
+  "aliases": [],
+  "category": "green",
+  "country": "Japan",
+  "region": "Mie · Misugi",
+  "kind": "appellation",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://ja.wikipedia.org/wiki/伊勢茶"
+  ]
+ },
+ {
+  "slug": "kawamata-cha",
+  "en": "Kawamata-cha",
+  "zh": null,
+  "ru": null,
+  "native": "川俣茶",
+  "aliases": [],
+  "category": "green",
+  "country": "Japan",
+  "region": "Mie · Iitaka",
+  "kind": "appellation",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://ja.wikipedia.org/wiki/伊勢茶"
+  ]
+ },
+ {
+  "slug": "kawanabe-cha",
+  "en": "Kawanabe-cha",
+  "zh": null,
+  "ru": null,
+  "native": "川辺茶",
+  "aliases": [],
+  "category": "green",
+  "country": "Japan",
+  "region": "Kagoshima",
+  "kind": "appellation",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://ja.wikipedia.org/wiki/日本茶"
+  ]
+ },
+ {
+  "slug": "kawazoe-cha",
+  "en": "Kawazoe-cha",
+  "zh": null,
+  "ru": null,
+  "native": "川添茶",
+  "aliases": [],
+  "category": "green",
+  "country": "Japan",
+  "region": "Wakayama",
+  "kind": "appellation",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://ja.wikipedia.org/wiki/日本茶"
+  ]
+ },
+ {
+  "slug": "kibounome",
+  "en": "Kibounome",
+  "zh": null,
+  "ru": null,
+  "native": "きぼうのめ",
+  "aliases": [],
+  "category": "green",
+  "country": "Japan",
+  "region": null,
+  "kind": "cultivar",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://australianteamasters.com.au/japanese-tea-cultivars-listing/"
+  ]
+ },
+ {
+  "slug": "kihoku-cha",
+  "en": "Kihoku-cha",
+  "zh": null,
+  "ru": null,
+  "native": "鬼北茶",
+  "aliases": [],
+  "category": "green",
+  "country": "Japan",
+  "region": "Ehime",
+  "kind": "appellation",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://ja.wikipedia.org/wiki/日本茶"
+  ]
+ },
+ {
+  "slug": "kikuchi-suigen-cha",
+  "en": "Kikuchi Suigen-cha",
+  "zh": null,
+  "ru": null,
+  "native": "菊池水源茶",
+  "aliases": [],
+  "category": "green",
+  "country": "Japan",
+  "region": "Kumamoto · Kikuchi",
+  "kind": "appellation",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://ja.wikipedia.org/wiki/日本茶"
+  ]
+ },
+ {
+  "slug": "kiraka",
+  "en": "Kiraka",
+  "zh": null,
+  "ru": null,
+  "native": "きらか",
+  "aliases": [],
+  "category": "green",
+  "country": "Japan",
+  "region": null,
+  "kind": "cultivar",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://australianteamasters.com.au/japanese-tea-cultivars-listing/"
+  ]
+ },
+ {
+  "slug": "kitayama-cha",
+  "en": "Kitayama-cha",
+  "zh": null,
+  "ru": null,
+  "native": "北山茶",
+  "aliases": [],
+  "category": "green",
+  "country": "Japan",
+  "region": "Gifu",
+  "kind": "appellation",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://ja.wikipedia.org/wiki/日本茶"
+  ]
+ },
+ {
+  "slug": "kitsuki-cha",
+  "en": "Kitsuki-cha",
+  "zh": null,
+  "ru": null,
+  "native": "きつき茶",
+  "aliases": [],
+  "category": "green",
+  "country": "Japan",
+  "region": "Oita",
+  "kind": "appellation",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://ja.wikipedia.org/wiki/日本茶"
+  ]
+ },
+ {
+  "slug": "kodama-cha",
+  "en": "Kodama-cha",
+  "zh": null,
+  "ru": null,
+  "native": "児玉茶",
+  "aliases": [],
+  "category": "green",
+  "country": "Japan",
+  "region": "Saitama · Kodama",
+  "kind": "appellation",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://ja.wikipedia.org/wiki/狭山茶"
+  ]
+ },
+ {
+  "slug": "kogane-midori-hojicha",
+  "en": "Kogane Midori Hojicha",
+  "zh": null,
+  "ru": null,
+  "native": "黄金みどりほうじ茶",
+  "aliases": [],
+  "category": "green",
+  "country": "Japan",
+  "region": "Shizuoka",
+  "kind": "style",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://www.sazentea.com/en/products/c55-japanese-tea"
+  ]
+ },
+ {
+  "slug": "kokonoe-cha",
+  "en": "Kokonoe-cha",
+  "zh": null,
+  "ru": null,
+  "native": "九重茶",
+  "aliases": [],
+  "category": "green",
+  "country": "Japan",
+  "region": "Oita",
+  "kind": "appellation",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://ja.wikipedia.org/wiki/Category:日本茶の産地"
+  ]
+ },
+ {
+  "slug": "komochi-cha",
+  "en": "Komochi-cha",
+  "zh": null,
+  "ru": null,
+  "native": "子持茶",
+  "aliases": [],
+  "category": "green",
+  "country": "Japan",
+  "region": "Gunma",
+  "kind": "appellation",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://ja.wikipedia.org/wiki/日本茶"
+  ]
+ },
+ {
+  "slug": "komono-cha",
+  "en": "Komono-cha",
+  "zh": null,
+  "ru": null,
+  "native": "菰野茶",
+  "aliases": [],
+  "category": "green",
+  "country": "Japan",
+  "region": "Mie",
+  "kind": "appellation",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://ja.wikipedia.org/wiki/日本茶"
+  ]
+ },
+ {
+  "slug": "kondouwase",
+  "en": "Kondouwase",
+  "zh": null,
+  "ru": null,
+  "native": null,
+  "aliases": [],
+  "category": "green",
+  "country": "Japan",
+  "region": null,
+  "kind": "cultivar",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://yunomi.life/pages/list-of-japanese-tea-cultivars"
+  ]
+ },
+ {
+  "slug": "koshika-cha",
+  "en": "Koshika-cha",
+  "zh": null,
+  "ru": null,
+  "native": "越賀茶",
+  "aliases": [],
+  "category": "green",
+  "country": "Japan",
+  "region": "Mie",
+  "kind": "appellation",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://ja.wikipedia.org/wiki/伊勢茶"
+  ]
+ },
+ {
+  "slug": "koushun",
+  "en": "Koushun",
+  "zh": null,
+  "ru": null,
+  "native": "こうしゅん",
+  "aliases": [],
+  "category": "green",
+  "country": "Japan",
+  "region": null,
+  "kind": "cultivar",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://australianteamasters.com.au/japanese-tea-cultivars-listing/"
+  ]
+ },
+ {
+  "slug": "koyanishi",
+  "en": "Koyanishi",
+  "zh": null,
+  "ru": null,
+  "native": "こやにし",
+  "aliases": [],
+  "category": "green",
+  "country": "Japan",
+  "region": null,
+  "kind": "cultivar",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://australianteamasters.com.au/japanese-tea-cultivars-listing/"
+  ]
+ },
+ {
+  "slug": "kuchikiri-matcha",
+  "en": "Kuchikiri Matcha",
+  "zh": null,
+  "ru": null,
+  "native": "口切抹茶",
+  "aliases": [],
+  "category": "green",
+  "country": "Japan",
+  "region": "Kyoto · Uji",
+  "kind": "style",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://www.sazentea.com/en/products/c55-japanese-tea"
+  ]
+ },
+ {
+  "slug": "kuradashi-gyokuro",
+  "en": "Kuradashi Gyokuro",
+  "zh": null,
+  "ru": null,
+  "native": "蔵出し玉露",
+  "aliases": [],
+  "category": "green",
+  "country": "Japan",
+  "region": "Kyoto · Uji",
+  "kind": "style",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://www.hibiki-an.com/"
+  ]
+ },
+ {
+  "slug": "kuradashi-matcha",
+  "en": "Kuradashi Matcha",
+  "zh": null,
+  "ru": null,
+  "native": "蔵出し抹茶",
+  "aliases": [],
+  "category": "green",
+  "country": "Japan",
+  "region": "Kyoto · Uji",
+  "kind": "style",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://www.hibiki-an.com/"
+  ]
+ },
+ {
+  "slug": "kurasawa",
+  "en": "Kurasawa",
+  "zh": null,
+  "ru": null,
+  "native": null,
+  "aliases": [],
+  "category": "green",
+  "country": "Japan",
+  "region": null,
+  "kind": "cultivar",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://myjapanesegreentea.com/?p=2299"
+  ]
+ },
+ {
+  "slug": "kurobane-cha",
+  "en": "Kurobane-cha",
+  "zh": null,
+  "ru": null,
+  "native": "黒羽茶",
+  "aliases": [],
+  "category": "green",
+  "country": "Japan",
+  "region": "Tochigi",
+  "kind": "appellation",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://ja.wikipedia.org/wiki/日本茶"
+  ]
+ },
+ {
+  "slug": "kurogi-cha",
+  "en": "Kurogi-cha",
+  "zh": null,
+  "ru": null,
+  "native": "黒木茶",
+  "aliases": [],
+  "category": "green",
+  "country": "Japan",
+  "region": "Fukuoka",
+  "kind": "appellation",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://ja.wikipedia.org/wiki/日本茶"
+  ]
+ },
+ {
+  "slug": "kuroishi-cha",
+  "en": "Kuroishi-cha",
+  "zh": null,
+  "ru": null,
+  "native": "黒石茶",
+  "aliases": [],
+  "category": "green",
+  "country": "Japan",
+  "region": "Aomori",
+  "kind": "appellation",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://ja.wikipedia.org/wiki/日本茶"
+  ]
+ },
+ {
+  "slug": "kuromame-houjicha",
+  "en": "Kuromame Houjicha",
+  "zh": null,
+  "ru": null,
+  "native": "黒豆ほうじ茶",
+  "aliases": [],
+  "category": "green",
+  "country": "Japan",
+  "region": null,
+  "kind": "blend",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://www.sazentea.com/en/products/c55-japanese-tea"
+  ]
+ },
+ {
+  "slug": "kyoumidori",
+  "en": "Kyoumidori",
+  "zh": null,
+  "ru": null,
+  "native": "きょうみどり",
+  "aliases": [],
+  "category": "green",
+  "country": "Japan",
+  "region": null,
+  "kind": "cultivar",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://australianteamasters.com.au/japanese-tea-cultivars-listing/"
+  ]
+ },
+ {
+  "slug": "makinoharawase",
+  "en": "Makinoharawase",
+  "zh": null,
+  "ru": null,
+  "native": "まきのはらわせ",
+  "aliases": [],
+  "category": "green",
+  "country": "Japan",
+  "region": null,
+  "kind": "cultivar",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://australianteamasters.com.au/japanese-tea-cultivars-listing/"
+  ]
+ },
+ {
+  "slug": "makurazaki-cha",
+  "en": "Makurazaki-cha",
+  "zh": null,
+  "ru": null,
+  "native": "枕崎茶",
+  "aliases": [],
+  "category": "green",
+  "country": "Japan",
+  "region": "Kagoshima",
+  "kind": "appellation",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://ja.wikipedia.org/wiki/日本茶"
+  ]
+ },
+ {
+  "slug": "mantennokagayaki",
+  "en": "Mantennokagayaki",
+  "zh": null,
+  "ru": null,
+  "native": "まんてんのかがやき",
+  "aliases": [],
+  "category": "green",
+  "country": "Japan",
+  "region": null,
+  "kind": "cultivar",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://australianteamasters.com.au/japanese-tea-cultivars-listing/"
+  ]
+ },
+ {
+  "slug": "marishi",
+  "en": "Marishi",
+  "zh": null,
+  "ru": null,
+  "native": "まりし",
+  "aliases": [],
+  "category": "green",
+  "country": "Japan",
+  "region": null,
+  "kind": "cultivar",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://australianteamasters.com.au/japanese-tea-cultivars-listing/"
+  ]
+ },
+ {
+  "slug": "matcha-iri-kabusecha",
+  "en": "Matcha Iri Kabusecha",
+  "zh": null,
+  "ru": null,
+  "native": "抹茶入りかぶせ茶",
+  "aliases": [],
+  "category": "green",
+  "country": "Japan",
+  "region": "Kyoto · Uji",
+  "kind": "blend",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://www.sazentea.com/en/products/c55-japanese-tea"
+  ]
+ },
+ {
+  "slug": "matcha-iri-karigane",
+  "en": "Matcha Iri Karigane",
+  "zh": null,
+  "ru": null,
+  "native": "抹茶入り雁ヶ音",
+  "aliases": [],
+  "category": "green",
+  "country": "Japan",
+  "region": "Kyoto · Uji",
+  "kind": "blend",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://www.sazentea.com/en/products/c55-japanese-tea"
+  ]
+ },
+ {
+  "slug": "matcha-iri-karigane-genmaicha",
+  "en": "Matcha Iri Karigane Genmaicha",
+  "zh": null,
+  "ru": null,
+  "native": "抹茶入り雁ヶ音玄米茶",
+  "aliases": [],
+  "category": "green",
+  "country": "Japan",
+  "region": "Kyoto · Uji",
+  "kind": "blend",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://www.sazentea.com/en/products/c55-japanese-tea"
+  ]
+ },
+ {
+  "slug": "matsumoto-cha",
+  "en": "Matsumoto-cha",
+  "zh": null,
+  "ru": null,
+  "native": "松元茶",
+  "aliases": [],
+  "category": "green",
+  "country": "Japan",
+  "region": "Kagoshima",
+  "kind": "appellation",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://ja.wikipedia.org/wiki/日本茶"
+  ]
+ },
+ {
+  "slug": "matsuno-cha",
+  "en": "Matsuno-cha",
+  "zh": null,
+  "ru": null,
+  "native": "松野茶",
+  "aliases": [],
+  "category": "green",
+  "country": "Japan",
+  "region": "Ehime",
+  "kind": "appellation",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://ja.wikipedia.org/wiki/日本茶"
+  ]
+ },
+ {
+  "slug": "matsuura-cha",
+  "en": "Matsuura-cha",
+  "zh": null,
+  "ru": null,
+  "native": "松浦茶",
+  "aliases": [],
+  "category": "green",
+  "country": "Japan",
+  "region": "Nagasaki",
+  "kind": "appellation",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://ja.wikipedia.org/wiki/日本茶"
+  ]
+ },
+ {
+  "slug": "midorinohoshi",
+  "en": "Midorinohoshi",
+  "zh": null,
+  "ru": null,
+  "native": "みどりのほし",
+  "aliases": [],
+  "category": "green",
+  "country": "Japan",
+  "region": null,
+  "kind": "cultivar",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://australianteamasters.com.au/japanese-tea-cultivars-listing/"
+  ]
+ },
+ {
+  "slug": "mieuejima",
+  "en": "Mieuejima",
+  "zh": null,
+  "ru": null,
+  "native": "みえうえじま",
+  "aliases": [],
+  "category": "green",
+  "country": "Japan",
+  "region": null,
+  "kind": "cultivar",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://australianteamasters.com.au/japanese-tea-cultivars-listing/"
+  ]
+ },
+ {
+  "slug": "mikuriya-cha",
+  "en": "Mikuriya-cha",
+  "zh": null,
+  "ru": null,
+  "native": "みくりや茶",
+  "aliases": [],
+  "category": "green",
+  "country": "Japan",
+  "region": "Shizuoka",
+  "kind": "appellation",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://ja.wikipedia.org/wiki/日本茶"
+  ]
+ },
+ {
+  "slug": "minamata-cha",
+  "en": "Minamata-cha",
+  "zh": null,
+  "ru": null,
+  "native": "水俣茶",
+  "aliases": [],
+  "category": "green",
+  "country": "Japan",
+  "region": "Kumamoto · Minamata",
+  "kind": "appellation",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://ja.wikipedia.org/wiki/日本茶"
+  ]
+ },
+ {
+  "slug": "minamikaori",
+  "en": "Minamikaori",
+  "zh": null,
+  "ru": null,
+  "native": "みなみかおり",
+  "aliases": [],
+  "category": "green",
+  "country": "Japan",
+  "region": null,
+  "kind": "cultivar",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://australianteamasters.com.au/japanese-tea-cultivars-listing/"
+  ]
+ },
+ {
+  "slug": "mineyutaka",
+  "en": "Mineyutaka",
+  "zh": null,
+  "ru": null,
+  "native": "みねゆたか",
+  "aliases": [],
+  "category": "green",
+  "country": "Japan",
+  "region": null,
+  "kind": "cultivar",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://australianteamasters.com.au/japanese-tea-cultivars-listing/"
+  ]
+ },
+ {
+  "slug": "mino-kasuga-cha",
+  "en": "Mino-Kasuga-cha",
+  "zh": null,
+  "ru": null,
+  "native": "美濃春日茶",
+  "aliases": [],
+  "category": "green",
+  "country": "Japan",
+  "region": "Gifu",
+  "kind": "appellation",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://ja.wikipedia.org/wiki/日本茶"
+  ]
+ },
+ {
+  "slug": "misaki",
+  "en": "Misaki",
+  "zh": null,
+  "ru": null,
+  "native": null,
+  "aliases": [],
+  "category": "green",
+  "country": "Japan",
+  "region": null,
+  "kind": "cultivar",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://myjapanesegreentea.com/?p=2299"
+  ]
+ },
+ {
+  "slug": "misakubo-cha",
+  "en": "Misakubo-cha",
+  "zh": null,
+  "ru": null,
+  "native": "水窪茶",
+  "aliases": [],
+  "category": "green",
+  "country": "Japan",
+  "region": "Shizuoka",
+  "kind": "appellation",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://ja.wikipedia.org/wiki/日本茶"
+  ]
+ },
+ {
+  "slug": "misugi-cha",
+  "en": "Misugi-cha",
+  "zh": null,
+  "ru": null,
+  "native": "美杉茶",
+  "aliases": [],
+  "category": "green",
+  "country": "Japan",
+  "region": "Mie",
+  "kind": "appellation",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://ja.wikipedia.org/wiki/日本茶"
+  ]
+ },
+ {
+  "slug": "miyakonojo-cha",
+  "en": "Miyakonojo-cha",
+  "zh": null,
+  "ru": null,
+  "native": "都城茶",
+  "aliases": [],
+  "category": "green",
+  "country": "Japan",
+  "region": "Miyazaki",
+  "kind": "appellation",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://ja.wikipedia.org/wiki/日本茶"
+  ]
+ },
+ {
+  "slug": "miyamakaori",
+  "en": "Miyamakaori",
+  "zh": null,
+  "ru": null,
+  "native": "みやまかおり",
+  "aliases": [],
+  "category": "green",
+  "country": "Japan",
+  "region": null,
+  "kind": "cultivar",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://australianteamasters.com.au/japanese-tea-cultivars-listing/"
+  ]
+ },
+ {
+  "slug": "miyanojo-cha",
+  "en": "Miyanojo-cha",
+  "zh": null,
+  "ru": null,
+  "native": "宮之城茶",
+  "aliases": [],
+  "category": "green",
+  "country": "Japan",
+  "region": "Kagoshima",
+  "kind": "appellation",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://ja.wikipedia.org/wiki/日本茶"
+  ]
+ },
+ {
+  "slug": "miyazaki-bancha",
+  "en": "Miyazaki Bancha",
+  "zh": null,
+  "ru": null,
+  "native": "宮崎番茶",
+  "aliases": [
+   "Miyazaki Bancha (Aichi)"
+  ],
+  "category": "green",
+  "country": "Japan",
+  "region": "Aichi",
+  "kind": "style",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://ja.wikipedia.org/wiki/日本茶"
+  ]
+ },
+ {
+  "slug": "miyoshi",
+  "en": "Miyoshi",
+  "zh": null,
+  "ru": null,
+  "native": "みよし",
+  "aliases": [],
+  "category": "green",
+  "country": "Japan",
+  "region": null,
+  "kind": "cultivar",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://australianteamasters.com.au/japanese-tea-cultivars-listing/"
+  ]
+ },
+ {
+  "slug": "mochigase-cha",
+  "en": "Mochigase-cha",
+  "zh": null,
+  "ru": null,
+  "native": "用瀬茶",
+  "aliases": [],
+  "category": "green",
+  "country": "Japan",
+  "region": "Tottori",
+  "kind": "appellation",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://ja.wikipedia.org/wiki/日本茶"
+  ]
+ },
+ {
+  "slug": "monou-cha",
+  "en": "Monou-cha",
+  "zh": null,
+  "ru": null,
+  "native": "桃生茶",
+  "aliases": [],
+  "category": "green",
+  "country": "Japan",
+  "region": "Miyagi",
+  "kind": "appellation",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://ja.wikipedia.org/wiki/日本茶",
+   "https://www.wikidata.org/wiki/Q131912245"
+  ]
+ },
+ {
+  "slug": "moshi-cha",
+  "en": "Moshi-cha",
+  "zh": null,
+  "ru": null,
+  "native": "母子茶",
+  "aliases": [],
+  "category": "green",
+  "country": "Japan",
+  "region": "Hyogo",
+  "kind": "appellation",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://ja.wikipedia.org/wiki/日本茶"
+  ]
+ },
+ {
+  "slug": "muro-cha",
+  "en": "Muro-cha",
+  "zh": null,
+  "ru": null,
+  "native": "室生茶",
+  "aliases": [],
+  "category": "green",
+  "country": "Japan",
+  "region": "Nara · Muro",
+  "kind": "appellation",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://ja.wikipedia.org/wiki/大和茶"
+  ]
+ },
+ {
+  "slug": "nagomiyutaka",
+  "en": "Nagomiyutaka",
+  "zh": null,
+  "ru": null,
+  "native": "なごみゆたか",
+  "aliases": [],
+  "category": "green",
+  "country": "Japan",
+  "region": null,
+  "kind": "cultivar",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://australianteamasters.com.au/japanese-tea-cultivars-listing/"
+  ]
+ },
+ {
+  "slug": "nakai-cha",
+  "en": "Nakai-cha",
+  "zh": null,
+  "ru": null,
+  "native": "中居茶",
+  "aliases": [],
+  "category": "green",
+  "country": "Japan",
+  "region": "Ishikawa",
+  "kind": "appellation",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://ja.wikipedia.org/wiki/日本茶"
+  ]
+ },
+ {
+  "slug": "nanayama-cha",
+  "en": "Nanayama-cha",
+  "zh": null,
+  "ru": null,
+  "native": "七山茶",
+  "aliases": [],
+  "category": "green",
+  "country": "Japan",
+  "region": "Saga",
+  "kind": "appellation",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://ja.wikipedia.org/wiki/日本茶"
+  ]
+ },
+ {
+  "slug": "narino",
+  "en": "Narino",
+  "zh": null,
+  "ru": null,
+  "native": "なりの",
+  "aliases": [],
+  "category": "green",
+  "country": "Japan",
+  "region": null,
+  "kind": "cultivar",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://australianteamasters.com.au/japanese-tea-cultivars-listing/"
+  ]
+ },
+ {
+  "slug": "natsumidori",
+  "en": "Natsumidori",
+  "zh": null,
+  "ru": null,
+  "native": "なつみどり",
+  "aliases": [],
+  "category": "green",
+  "country": "Japan",
+  "region": null,
+  "kind": "cultivar",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://australianteamasters.com.au/japanese-tea-cultivars-listing/"
+  ]
+ },
+ {
+  "slug": "nibancha",
+  "en": "Nibancha",
+  "zh": null,
+  "ru": null,
+  "native": "二番茶",
+  "aliases": [],
+  "category": "green",
+  "country": "Japan",
+  "region": null,
+  "kind": "style",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://en.wikipedia.org/wiki/Tea_culture_in_Japan",
+   "https://ja.wikipedia.org/wiki/日本茶"
+  ]
+ },
+ {
+  "slug": "niiyama-cha",
+  "en": "Niiyama-cha",
+  "zh": null,
+  "ru": null,
+  "native": "新山茶",
+  "aliases": [],
+  "category": "green",
+  "country": "Japan",
+  "region": "Shizuoka",
+  "kind": "appellation",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://ja.wikipedia.org/wiki/日本茶"
+  ]
+ },
+ {
+  "slug": "nishiki-cha",
+  "en": "Nishiki-cha",
+  "zh": null,
+  "ru": null,
+  "native": "錦茶",
+  "aliases": [],
+  "category": "green",
+  "country": "Japan",
+  "region": "Kumamoto · Nishiki",
+  "kind": "appellation",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://ja.wikipedia.org/wiki/日本茶"
+  ]
+ },
+ {
+  "slug": "nobeoka-cha",
+  "en": "Nobeoka-cha",
+  "zh": null,
+  "ru": null,
+  "native": "延岡茶",
+  "aliases": [],
+  "category": "green",
+  "country": "Japan",
+  "region": "Miyazaki",
+  "kind": "appellation",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://ja.wikipedia.org/wiki/日本茶"
+  ]
+ },
+ {
+  "slug": "nocha-wild",
+  "en": "Nocha",
+  "zh": "野茶",
+  "ru": null,
+  "native": null,
+  "aliases": [],
+  "category": "green",
+  "country": "Japan",
+  "region": null,
+  "kind": "style",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://www.wikidata.org/wiki/Q131405252"
+  ]
+ },
+ {
+  "slug": "notsu-cha",
+  "en": "Notsu-cha",
+  "zh": null,
+  "ru": null,
+  "native": "野津茶",
+  "aliases": [],
+  "category": "green",
+  "country": "Japan",
+  "region": "Oita",
+  "kind": "appellation",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://ja.wikipedia.org/wiki/日本茶"
+  ]
+ },
+ {
+  "slug": "numazu-cha",
+  "en": "Numazu-cha",
+  "zh": null,
+  "ru": null,
+  "native": "沼津茶",
+  "aliases": [],
+  "category": "green",
+  "country": "Japan",
+  "region": "Shizuoka",
+  "kind": "appellation",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://ja.wikipedia.org/wiki/日本茶"
+  ]
+ },
+ {
+  "slug": "odai-cha",
+  "en": "Odai-cha",
+  "zh": null,
+  "ru": null,
+  "native": "大台茶",
+  "aliases": [],
+  "category": "green",
+  "country": "Japan",
+  "region": "Mie",
+  "kind": "appellation",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://ja.wikipedia.org/wiki/日本茶"
+  ]
+ },
+ {
+  "slug": "ogasa-cha",
+  "en": "Ogasa-cha",
+  "zh": null,
+  "ru": null,
+  "native": "小笠茶",
+  "aliases": [],
+  "category": "green",
+  "country": "Japan",
+  "region": "Shizuoka",
+  "kind": "appellation",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://ja.wikipedia.org/wiki/日本茶"
+  ]
+ },
+ {
+  "slug": "oguramidori",
+  "en": "Oguramidori",
+  "zh": null,
+  "ru": null,
+  "native": null,
+  "aliases": [],
+  "category": "green",
+  "country": "Japan",
+  "region": null,
+  "kind": "cultivar",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://myjapanesegreentea.com/?p=2299"
+  ]
+ },
+ {
+  "slug": "ohmi-inakabancha",
+  "en": "Ohmi Inakabancha",
+  "zh": null,
+  "ru": null,
+  "native": "近江田舎番茶",
+  "aliases": [],
+  "category": "green",
+  "country": "Japan",
+  "region": "Shiga",
+  "kind": "style",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://www.sazentea.com/en/products/c55-japanese-tea"
+  ]
+ },
+ {
+  "slug": "ohmi-kabusecha",
+  "en": "Ohmi Kabusecha",
+  "zh": null,
+  "ru": null,
+  "native": "近江かぶせ茶",
+  "aliases": [],
+  "category": "green",
+  "country": "Japan",
+  "region": "Shiga",
+  "kind": "appellation",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://www.sazentea.com/en/products/c55-japanese-tea"
+  ]
+ },
+ {
+  "slug": "oishita-cha",
+  "en": "Oishita-cha",
+  "zh": null,
+  "ru": null,
+  "native": "覆下茶",
+  "aliases": [
+   "Oishita-cha (shade-grown tea)"
+  ],
+  "category": "green",
+  "country": "Japan",
+  "region": "Kyoto · Uji",
+  "kind": "style",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://ja.wikipedia.org/wiki/宇治茶"
+  ]
+ },
+ {
+  "slug": "okuharuka",
+  "en": "Okuharuka",
+  "zh": null,
+  "ru": null,
+  "native": "おくはるか",
+  "aliases": [],
+  "category": "green",
+  "country": "Japan",
+  "region": null,
+  "kind": "cultivar",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://australianteamasters.com.au/japanese-tea-cultivars-listing/"
+  ]
+ },
+ {
+  "slug": "okumukashi",
+  "en": "Okumukashi",
+  "zh": null,
+  "ru": null,
+  "native": "おくむかし",
+  "aliases": [],
+  "category": "green",
+  "country": "Japan",
+  "region": null,
+  "kind": "cultivar",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://yunomi.life/pages/list-of-japanese-tea-cultivars"
+  ]
+ },
+ {
+  "slug": "okunoyama",
+  "en": "Okunoyama",
+  "zh": null,
+  "ru": null,
+  "native": "おくのやま",
+  "aliases": [],
+  "category": "green",
+  "country": "Japan",
+  "region": null,
+  "kind": "cultivar",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://australianteamasters.com.au/japanese-tea-cultivars-listing/"
+  ]
+ },
+ {
+  "slug": "omaezaki-cha",
+  "en": "Omaezaki-cha",
+  "zh": null,
+  "ru": null,
+  "native": "御前崎茶",
+  "aliases": [],
+  "category": "green",
+  "country": "Japan",
+  "region": "Shizuoka",
+  "kind": "appellation",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://ja.wikipedia.org/wiki/日本茶"
+  ]
+ },
+ {
+  "slug": "ono-cha",
+  "en": "Ono-cha",
+  "zh": null,
+  "ru": null,
+  "native": "小野茶",
+  "aliases": [
+   "Yamaguchi Ono-cha",
+   "やまぐち小野茶"
+  ],
+  "category": "green",
+  "country": "Japan",
+  "region": "Yamaguchi",
+  "kind": "appellation",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://ja.wikipedia.org/wiki/日本茶"
+  ]
+ },
+ {
+  "slug": "ooiwase",
+  "en": "Ooiwase",
+  "zh": null,
+  "ru": null,
+  "native": null,
+  "aliases": [],
+  "category": "green",
+  "country": "Japan",
+  "region": null,
+  "kind": "cultivar",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://myjapanesegreentea.com/?p=2299"
+  ]
+ },
+ {
+  "slug": "oshiro-cha",
+  "en": "Oshiro-cha",
+  "zh": null,
+  "ru": null,
+  "native": "大城茶",
+  "aliases": [],
+  "category": "green",
+  "country": "Japan",
+  "region": "Shizuoka · Kakegawa",
+  "kind": "appellation",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://ja.wikipedia.org/wiki/静岡茶"
+  ]
+ },
+ {
+  "slug": "otonashi-cha",
+  "en": "Otonashi-cha",
+  "zh": null,
+  "ru": null,
+  "native": "音無茶",
+  "aliases": [],
+  "category": "green",
+  "country": "Japan",
+  "region": "Wakayama",
+  "kind": "appellation",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://ja.wikipedia.org/wiki/日本茶"
+  ]
+ },
+ {
+  "slug": "oyako-hojicha",
+  "en": "Oyako Hojicha",
+  "zh": null,
+  "ru": null,
+  "native": "親子ほうじ茶",
+  "aliases": [],
+  "category": "green",
+  "country": "Japan",
+  "region": "Shiga · Asamiya",
+  "kind": "style",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://www.sazentea.com/en/products/c55-japanese-tea"
+  ]
+ },
+ {
+  "slug": "oyodo-cha",
+  "en": "Oyodo-cha",
+  "zh": null,
+  "ru": null,
+  "native": "大淀茶",
+  "aliases": [],
+  "category": "green",
+  "country": "Japan",
+  "region": "Nara · Oyodo",
+  "kind": "appellation",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://ja.wikipedia.org/wiki/大和茶"
+  ]
+ },
+ {
+  "slug": "rokurou",
+  "en": "Rokurou",
+  "zh": null,
+  "ru": null,
+  "native": "ろくろう",
+  "aliases": [],
+  "category": "green",
+  "country": "Japan",
+  "region": null,
+  "kind": "cultivar",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://australianteamasters.com.au/japanese-tea-cultivars-listing/"
+  ]
+ },
+ {
+  "slug": "ryogochi-cha",
+  "en": "Ryogochi-cha",
+  "zh": null,
+  "ru": null,
+  "native": "両河内茶",
+  "aliases": [],
+  "category": "green",
+  "country": "Japan",
+  "region": "Shizuoka",
+  "kind": "appellation",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://ja.wikipedia.org/wiki/日本茶"
+  ]
+ },
+ {
+  "slug": "ryokufuu",
+  "en": "Ryokufuu",
+  "zh": null,
+  "ru": null,
+  "native": "りょくふう",
+  "aliases": [],
+  "category": "green",
+  "country": "Japan",
+  "region": null,
+  "kind": "cultivar",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://australianteamasters.com.au/japanese-tea-cultivars-listing/"
+  ]
+ },
+ {
+  "slug": "ryoufuu",
+  "en": "Ryoufuu",
+  "zh": null,
+  "ru": null,
+  "native": "りょうふう",
+  "aliases": [],
+  "category": "green",
+  "country": "Japan",
+  "region": null,
+  "kind": "cultivar",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://australianteamasters.com.au/japanese-tea-cultivars-listing/"
+  ]
+ },
+ {
+  "slug": "saeakari",
+  "en": "Saeakari",
+  "zh": null,
+  "ru": null,
+  "native": "さえあかり",
+  "aliases": [
+   "Saeakari tea cultivar"
+  ],
+  "category": "green",
+  "country": "Japan",
+  "region": null,
+  "kind": "cultivar",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://www.wikidata.org/wiki/Q133847906",
+   "https://australianteamasters.com.au/japanese-tea-cultivars-listing/"
+  ]
+ },
+ {
+  "slug": "sagara-cha",
+  "en": "Sagara-cha",
+  "zh": null,
+  "ru": null,
+  "native": "相良茶",
+  "aliases": [],
+  "category": "green",
+  "country": "Japan",
+  "region": "Kumamoto · Sagara",
+  "kind": "appellation",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://ja.wikipedia.org/wiki/日本茶"
+  ]
+ },
+ {
+  "slug": "sagarahikari",
+  "en": "Sagarahikari",
+  "zh": null,
+  "ru": null,
+  "native": "さがらひかり",
+  "aliases": [],
+  "category": "green",
+  "country": "Japan",
+  "region": null,
+  "kind": "cultivar",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://australianteamasters.com.au/japanese-tea-cultivars-listing/"
+  ]
+ },
+ {
+  "slug": "sagarakaori",
+  "en": "Sagarakaori",
+  "zh": null,
+  "ru": null,
+  "native": "さがらかおり",
+  "aliases": [],
+  "category": "green",
+  "country": "Japan",
+  "region": null,
+  "kind": "cultivar",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://australianteamasters.com.au/japanese-tea-cultivars-listing/"
+  ]
+ },
+ {
+  "slug": "sagaramidori",
+  "en": "Sagaramidori",
+  "zh": null,
+  "ru": null,
+  "native": "さがらみどり",
+  "aliases": [],
+  "category": "green",
+  "country": "Japan",
+  "region": null,
+  "kind": "cultivar",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://australianteamasters.com.au/japanese-tea-cultivars-listing/"
+  ]
+ },
+ {
+  "slug": "sagarawase",
+  "en": "Sagarawase",
+  "zh": null,
+  "ru": null,
+  "native": "さがらわせ",
+  "aliases": [],
+  "category": "green",
+  "country": "Japan",
+  "region": null,
+  "kind": "cultivar",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://australianteamasters.com.au/japanese-tea-cultivars-listing/"
+  ]
+ },
+ {
+  "slug": "sakawa-cha",
+  "en": "Sakawa-cha",
+  "zh": null,
+  "ru": null,
+  "native": "佐川茶",
+  "aliases": [],
+  "category": "green",
+  "country": "Japan",
+  "region": "Kochi · Sakawa",
+  "kind": "appellation",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://ja.wikipedia.org/wiki/日本茶"
+  ]
+ },
+ {
+  "slug": "sakura-scented-kukicha",
+  "en": "Sakura Scented Kukicha",
+  "zh": null,
+  "ru": null,
+  "native": "桜茎茶",
+  "aliases": [],
+  "category": "green",
+  "country": "Japan",
+  "region": null,
+  "kind": "scented",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://www.uptontea.com/collections/japanese-tea"
+  ]
+ },
+ {
+  "slug": "sanbancha",
+  "en": "Sanbancha",
+  "zh": null,
+  "ru": null,
+  "native": "三番茶",
+  "aliases": [],
+  "category": "green",
+  "country": "Japan",
+  "region": null,
+  "kind": "style",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://en.wikipedia.org/wiki/Tea_culture_in_Japan",
+   "https://ja.wikipedia.org/wiki/日本茶"
+  ]
+ },
+ {
+  "slug": "satouwase",
+  "en": "Satouwase",
+  "zh": null,
+  "ru": null,
+  "native": "さとうわせ",
+  "aliases": [],
+  "category": "green",
+  "country": "Japan",
+  "region": null,
+  "kind": "cultivar",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://australianteamasters.com.au/japanese-tea-cultivars-listing/"
+  ]
+ },
+ {
+  "slug": "sawamizuka",
+  "en": "Sawamizuka",
+  "zh": null,
+  "ru": null,
+  "native": "さわみずか",
+  "aliases": [],
+  "category": "green",
+  "country": "Japan",
+  "region": null,
+  "kind": "cultivar",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://australianteamasters.com.au/japanese-tea-cultivars-listing/"
+  ]
+ },
+ {
+  "slug": "sayamamidori",
+  "en": "Sayamamidori",
+  "zh": null,
+  "ru": null,
+  "native": "さやまみどり",
+  "aliases": [],
+  "category": "green",
+  "country": "Japan",
+  "region": null,
+  "kind": "cultivar",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://australianteamasters.com.au/japanese-tea-cultivars-listing/"
+  ]
+ },
+ {
+  "slug": "sayo-asagiri-cha",
+  "en": "Sayo Asagiri-cha",
+  "zh": null,
+  "ru": null,
+  "native": "佐用あさぎり茶",
+  "aliases": [],
+  "category": "green",
+  "country": "Japan",
+  "region": "Hyogo",
+  "kind": "appellation",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://ja.wikipedia.org/wiki/日本茶"
+  ]
+ },
+ {
+  "slug": "sechibaru-cha",
+  "en": "Sechibaru-cha",
+  "zh": null,
+  "ru": null,
+  "native": "世知原茶",
+  "aliases": [],
+  "category": "green",
+  "country": "Japan",
+  "region": "Nagasaki",
+  "kind": "appellation",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://ja.wikipedia.org/wiki/日本茶"
+  ]
+ },
+ {
+  "slug": "sencha-genmaicha",
+  "en": "Sencha Genmaicha",
+  "zh": null,
+  "ru": null,
+  "native": "煎茶玄米茶",
+  "aliases": [],
+  "category": "green",
+  "country": "Japan",
+  "region": null,
+  "kind": "blend",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://www.sazentea.com/en/products/c55-japanese-tea"
+  ]
+ },
+ {
+  "slug": "sencha-hojicha",
+  "en": "Sencha Hojicha",
+  "zh": null,
+  "ru": null,
+  "native": "煎茶ほうじ茶",
+  "aliases": [],
+  "category": "green",
+  "country": "Japan",
+  "region": null,
+  "kind": "style",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://en.wikipedia.org/wiki/Hōjicha",
+   "https://www.sazentea.com/en/products/c55-japanese-tea"
+  ]
+ },
+ {
+  "slug": "senrei-cha",
+  "en": "Senrei-cha",
+  "zh": null,
+  "ru": null,
+  "native": "仙霊茶",
+  "aliases": [],
+  "category": "green",
+  "country": "Japan",
+  "region": "Hyogo",
+  "kind": "appellation",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://ja.wikipedia.org/wiki/日本茶"
+  ]
+ },
+ {
+  "slug": "senryu",
+  "en": "Senryu",
+  "zh": null,
+  "ru": null,
+  "native": "川柳",
+  "aliases": [],
+  "category": "green",
+  "country": "Japan",
+  "region": null,
+  "kind": "style",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://ja.wikipedia.org/wiki/茶"
+  ]
+ },
+ {
+  "slug": "sera-cha",
+  "en": "Sera-cha",
+  "zh": null,
+  "ru": null,
+  "native": "世羅茶",
+  "aliases": [],
+  "category": "green",
+  "country": "Japan",
+  "region": "Hiroshima",
+  "kind": "appellation",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://ja.wikipedia.org/wiki/日本茶",
+   "https://www.wikidata.org/wiki/Q11362517"
+  ]
+ },
+ {
+  "slug": "shibukawa-cha",
+  "en": "Shibukawa-cha",
+  "zh": null,
+  "ru": null,
+  "native": "渋川茶",
+  "aliases": [],
+  "category": "green",
+  "country": "Japan",
+  "region": "Shizuoka",
+  "kind": "appellation",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://ja.wikipedia.org/wiki/日本茶"
+  ]
+ },
+ {
+  "slug": "shikano-cha",
+  "en": "Shikano-cha",
+  "zh": null,
+  "ru": null,
+  "native": "鹿野茶",
+  "aliases": [],
+  "category": "green",
+  "country": "Japan",
+  "region": "Tottori · Shikano",
+  "kind": "appellation",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://ja.wikipedia.org/wiki/日本茶"
+  ]
+ },
+ {
+  "slug": "shimada-cha",
+  "en": "Shimada-cha",
+  "zh": null,
+  "ru": null,
+  "native": "島田茶",
+  "aliases": [],
+  "category": "green",
+  "country": "Japan",
+  "region": "Shizuoka",
+  "kind": "appellation",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://ja.wikipedia.org/wiki/日本茶"
+  ]
+ },
+ {
+  "slug": "shimamidori",
+  "en": "Shimamidori",
+  "zh": null,
+  "ru": null,
+  "native": null,
+  "aliases": [],
+  "category": "green",
+  "country": "Japan",
+  "region": null,
+  "kind": "cultivar",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://yunomi.life/pages/list-of-japanese-tea-cultivars"
+  ]
+ },
+ {
+  "slug": "shimizu-cha",
+  "en": "Shimizu-cha",
+  "zh": null,
+  "ru": null,
+  "native": "清水茶",
+  "aliases": [],
+  "category": "green",
+  "country": "Japan",
+  "region": "Shizuoka · Shimizu",
+  "kind": "appellation",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://ja.wikipedia.org/wiki/静岡茶"
+  ]
+ },
+ {
+  "slug": "shingu-cha",
+  "en": "Shingu-cha",
+  "zh": null,
+  "ru": null,
+  "native": "新宮茶",
+  "aliases": [],
+  "category": "green",
+  "country": "Japan",
+  "region": "Ehime",
+  "kind": "appellation",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://ja.wikipedia.org/wiki/日本茶"
+  ]
+ },
+ {
+  "slug": "shinshiro-cha",
+  "en": "Shinshiro-cha",
+  "zh": null,
+  "ru": null,
+  "native": "新城茶",
+  "aliases": [],
+  "category": "green",
+  "country": "Japan",
+  "region": "Aichi",
+  "kind": "appellation",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://ja.wikipedia.org/wiki/日本茶"
+  ]
+ },
+ {
+  "slug": "shishikui-kancha",
+  "en": "Shishikui Kancha",
+  "zh": null,
+  "ru": null,
+  "native": "宍喰寒茶",
+  "aliases": [],
+  "category": "green",
+  "country": "Japan",
+  "region": "Tokushima",
+  "kind": "style",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://ja.wikipedia.org/wiki/日本茶"
+  ]
+ },
+ {
+  "slug": "shiso-sencha",
+  "en": "Shiso Sencha",
+  "zh": null,
+  "ru": null,
+  "native": "紫蘇煎茶",
+  "aliases": [],
+  "category": "green",
+  "country": "Japan",
+  "region": null,
+  "kind": "blend",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://ratetea.com/styles.php"
+  ]
+ },
+ {
+  "slug": "shizukaori",
+  "en": "Shizukaori",
+  "zh": null,
+  "ru": null,
+  "native": "しずかおり",
+  "aliases": [],
+  "category": "green",
+  "country": "Japan",
+  "region": null,
+  "kind": "cultivar",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://australianteamasters.com.au/japanese-tea-cultivars-listing/"
+  ]
+ },
+ {
+  "slug": "shonai-cha",
+  "en": "Shonai-cha",
+  "zh": null,
+  "ru": null,
+  "native": "庄内産茶",
+  "aliases": [],
+  "category": "green",
+  "country": "Japan",
+  "region": "Yamagata",
+  "kind": "appellation",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://ja.wikipedia.org/wiki/日本茶"
+  ]
+ },
+ {
+  "slug": "shoshun",
+  "en": "Shoshun",
+  "zh": null,
+  "ru": null,
+  "native": "春翔",
+  "aliases": [],
+  "category": "green",
+  "country": "Japan",
+  "region": null,
+  "kind": "cultivar",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://yunomi.life/pages/list-of-japanese-tea-cultivars"
+  ]
+ },
+ {
+  "slug": "shuto-bancha",
+  "en": "Shuto Bancha",
+  "zh": null,
+  "ru": null,
+  "native": "秋冬番茶",
+  "aliases": [],
+  "category": "green",
+  "country": "Japan",
+  "region": null,
+  "kind": "style",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://ja.wikipedia.org/wiki/日本茶"
+  ]
+ },
+ {
+  "slug": "so-cha",
+  "en": "So-cha",
+  "zh": null,
+  "ru": null,
+  "native": "曽於茶",
+  "aliases": [],
+  "category": "green",
+  "country": "Japan",
+  "region": "Kagoshima",
+  "kind": "appellation",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://ja.wikipedia.org/wiki/日本茶"
+  ]
+ },
+ {
+  "slug": "suizawa-cha",
+  "en": "Suizawa-cha",
+  "zh": null,
+  "ru": null,
+  "native": "水沢茶",
+  "aliases": [],
+  "category": "green",
+  "country": "Japan",
+  "region": "Mie",
+  "kind": "appellation",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://ja.wikipedia.org/wiki/日本茶"
+  ]
+ },
+ {
+  "slug": "sukagawa-cha",
+  "en": "Sukagawa-cha",
+  "zh": null,
+  "ru": null,
+  "native": "須賀川茶",
+  "aliases": [],
+  "category": "green",
+  "country": "Japan",
+  "region": "Tochigi",
+  "kind": "appellation",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://ja.wikipedia.org/wiki/日本茶"
+  ]
+ },
+ {
+  "slug": "surugawase",
+  "en": "Surugawase",
+  "zh": null,
+  "ru": null,
+  "native": null,
+  "aliases": [],
+  "category": "green",
+  "country": "Japan",
+  "region": null,
+  "kind": "cultivar",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://myjapanesegreentea.com/?p=2299"
+  ]
+ },
+ {
+  "slug": "suzuka-cha",
+  "en": "Suzuka-cha",
+  "zh": null,
+  "ru": null,
+  "native": "鈴鹿茶",
+  "aliases": [],
+  "category": "green",
+  "country": "Japan",
+  "region": "Mie",
+  "kind": "appellation",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://ja.wikipedia.org/wiki/日本茶"
+  ]
+ },
+ {
+  "slug": "tadanishiki",
+  "en": "Tadanishiki",
+  "zh": null,
+  "ru": null,
+  "native": null,
+  "aliases": [],
+  "category": "green",
+  "country": "Japan",
+  "region": null,
+  "kind": "cultivar",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://myjapanesegreentea.com/?p=2299"
+  ]
+ },
+ {
+  "slug": "takanewase",
+  "en": "Takanewase",
+  "zh": null,
+  "ru": null,
+  "native": "たかねわせ",
+  "aliases": [],
+  "category": "green",
+  "country": "Japan",
+  "region": null,
+  "kind": "cultivar",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://australianteamasters.com.au/japanese-tea-cultivars-listing/"
+  ]
+ },
+ {
+  "slug": "takarabe-cha",
+  "en": "Takarabe-cha",
+  "zh": null,
+  "ru": null,
+  "native": "財部茶",
+  "aliases": [],
+  "category": "green",
+  "country": "Japan",
+  "region": "Kagoshima",
+  "kind": "appellation",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://ja.wikipedia.org/wiki/日本茶"
+  ]
+ },
+ {
+  "slug": "takaragi",
+  "en": "Takaragi",
+  "zh": null,
+  "ru": null,
+  "native": "宝木",
+  "aliases": [],
+  "category": "green",
+  "country": "Japan",
+  "region": null,
+  "kind": "cultivar",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://ja.wikipedia.org/wiki/日本茶"
+  ]
+ },
+ {
+  "slug": "takase-cha-kagawa",
+  "en": "Takase-cha",
+  "zh": null,
+  "ru": null,
+  "native": "高瀬茶",
+  "aliases": [
+   "Takase-cha (Kagawa)"
+  ],
+  "category": "green",
+  "country": "Japan",
+  "region": "Kagawa",
+  "kind": "appellation",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://ja.wikipedia.org/wiki/日本茶"
+  ]
+ },
+ {
+  "slug": "takase-cha-yamaguchi",
+  "en": "Takase-cha",
+  "zh": null,
+  "ru": null,
+  "native": "高瀬茶",
+  "aliases": [
+   "Takase-cha (Yamaguchi)"
+  ],
+  "category": "green",
+  "country": "Japan",
+  "region": "Yamaguchi",
+  "kind": "appellation",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://ja.wikipedia.org/wiki/日本茶"
+  ]
+ },
+ {
+  "slug": "takema-cha",
+  "en": "Takema-cha",
+  "zh": null,
+  "ru": null,
+  "native": "岳間茶",
+  "aliases": [],
+  "category": "green",
+  "country": "Japan",
+  "region": "Kumamoto",
+  "kind": "appellation",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://ja.wikipedia.org/wiki/日本茶"
+  ]
+ },
+ {
+  "slug": "tamamidori",
+  "en": "Tamamidori",
+  "zh": null,
+  "ru": null,
+  "native": "たまみどり",
+  "aliases": [],
+  "category": "green",
+  "country": "Japan",
+  "region": null,
+  "kind": "cultivar",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://australianteamasters.com.au/japanese-tea-cultivars-listing/"
+  ]
+ },
+ {
+  "slug": "tanba-cha",
+  "en": "Tanba-cha",
+  "zh": null,
+  "ru": null,
+  "native": "丹波茶",
+  "aliases": [],
+  "category": "green",
+  "country": "Japan",
+  "region": "Hyogo",
+  "kind": "appellation",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://ja.wikipedia.org/wiki/日本茶"
+  ]
+ },
+ {
+  "slug": "tarumi-hojicha",
+  "en": "Tarumi Hojicha",
+  "zh": null,
+  "ru": null,
+  "native": "垂水ほうじ茶",
+  "aliases": [],
+  "category": "green",
+  "country": "Japan",
+  "region": "Shiga",
+  "kind": "style",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://www.sazentea.com/en/products/c55-japanese-tea"
+  ]
+ },
+ {
+  "slug": "tashiro-cha",
+  "en": "Tashiro-cha",
+  "zh": null,
+  "ru": null,
+  "native": "田代茶",
+  "aliases": [],
+  "category": "green",
+  "country": "Japan",
+  "region": "Kagoshima",
+  "kind": "appellation",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://ja.wikipedia.org/wiki/日本茶"
+  ]
+ },
+ {
+  "slug": "tawara-cha",
+  "en": "Tawara-cha",
+  "zh": null,
+  "ru": null,
+  "native": "田原茶",
+  "aliases": [],
+  "category": "green",
+  "country": "Japan",
+  "region": "Nara · Tawara",
+  "kind": "appellation",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://ja.wikipedia.org/wiki/大和茶"
+  ]
+ },
+ {
+  "slug": "tenmyou",
+  "en": "Tenmyou",
+  "zh": null,
+  "ru": null,
+  "native": "てんみょう",
+  "aliases": [],
+  "category": "green",
+  "country": "Japan",
+  "region": null,
+  "kind": "cultivar",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://australianteamasters.com.au/japanese-tea-cultivars-listing/"
+  ]
+ },
+ {
+  "slug": "tenryu-yamacha",
+  "en": "Tenryu Yamacha",
+  "zh": null,
+  "ru": null,
+  "native": "天竜山茶",
+  "aliases": [],
+  "category": "green",
+  "country": "Japan",
+  "region": "Shizuoka · Tenryu",
+  "kind": "appellation",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://www.sazentea.com/en/products/c55-japanese-tea"
+  ]
+ },
+ {
+  "slug": "terakawawase",
+  "en": "Terakawawase",
+  "zh": null,
+  "ru": null,
+  "native": "てらかわわせ",
+  "aliases": [],
+  "category": "green",
+  "country": "Japan",
+  "region": null,
+  "kind": "cultivar",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://australianteamasters.com.au/japanese-tea-cultivars-listing/"
+  ]
+ },
+ {
+  "slug": "tomihara-cha",
+  "en": "Tomihara-cha",
+  "zh": null,
+  "ru": null,
+  "native": "富原茶",
+  "aliases": [],
+  "category": "green",
+  "country": "Japan",
+  "region": "Okayama",
+  "kind": "appellation",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://ja.wikipedia.org/wiki/日本茶"
+  ]
+ },
+ {
+  "slug": "tomiya-cha",
+  "en": "Tomiya-cha",
+  "zh": null,
+  "ru": null,
+  "native": "富谷茶",
+  "aliases": [],
+  "category": "green",
+  "country": "Japan",
+  "region": "Miyagi",
+  "kind": "appellation",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://ja.wikipedia.org/wiki/日本茶",
+   "https://www.wikidata.org/wiki/Q131912244"
+  ]
+ },
+ {
+  "slug": "touka-bancha",
+  "en": "Touka Bancha",
+  "zh": null,
+  "ru": null,
+  "native": "冬春番茶",
+  "aliases": [],
+  "category": "green",
+  "country": "Japan",
+  "region": null,
+  "kind": "style",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://ja.wikipedia.org/wiki/日本茶"
+  ]
+ },
+ {
+  "slug": "toyohashi-cha",
+  "en": "Toyohashi-cha",
+  "zh": null,
+  "ru": null,
+  "native": "豊橋茶",
+  "aliases": [],
+  "category": "green",
+  "country": "Japan",
+  "region": "Aichi",
+  "kind": "appellation",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://ja.wikipedia.org/wiki/日本茶"
+  ]
+ },
+ {
+  "slug": "toyoka",
+  "en": "Toyoka",
+  "zh": null,
+  "ru": null,
+  "native": "とよか",
+  "aliases": [],
+  "category": "green",
+  "country": "Japan",
+  "region": null,
+  "kind": "cultivar",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://australianteamasters.com.au/japanese-tea-cultivars-listing/"
+  ]
+ },
+ {
+  "slug": "tsubo-cha",
+  "en": "Tsubo-cha",
+  "zh": null,
+  "ru": null,
+  "native": "津保茶",
+  "aliases": [],
+  "category": "green",
+  "country": "Japan",
+  "region": "Gifu",
+  "kind": "appellation",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://ja.wikipedia.org/wiki/日本茶"
+  ]
+ },
+ {
+  "slug": "tsubokiri-gyokuro",
+  "en": "Tsubokiri Gyokuro",
+  "zh": null,
+  "ru": null,
+  "native": "壺切玉露",
+  "aliases": [],
+  "category": "green",
+  "country": "Japan",
+  "region": "Kyoto · Uji",
+  "kind": "style",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://www.sazentea.com/en/products/c55-japanese-tea"
+  ]
+ },
+ {
+  "slug": "tsue-cha",
+  "en": "Tsue-cha",
+  "zh": null,
+  "ru": null,
+  "native": "津江茶",
+  "aliases": [],
+  "category": "green",
+  "country": "Japan",
+  "region": "Oita",
+  "kind": "appellation",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://ja.wikipedia.org/wiki/日本茶"
+  ]
+ },
+ {
+  "slug": "tsuge-cha",
+  "en": "Tsuge-cha",
+  "zh": null,
+  "ru": null,
+  "native": "都祁茶",
+  "aliases": [],
+  "category": "green",
+  "country": "Japan",
+  "region": "Nara · Tsuge",
+  "kind": "appellation",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://ja.wikipedia.org/wiki/大和茶"
+  ]
+ },
+ {
+  "slug": "tsukasamidori",
+  "en": "Tsukasamidori",
+  "zh": null,
+  "ru": null,
+  "native": "つかさみどり",
+  "aliases": [],
+  "category": "green",
+  "country": "Japan",
+  "region": null,
+  "kind": "cultivar",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://australianteamasters.com.au/japanese-tea-cultivars-listing/"
+  ]
+ },
+ {
+  "slug": "tsukemono-cha",
+  "en": "Tsukemono-cha",
+  "zh": null,
+  "ru": null,
+  "native": "漬物茶",
+  "aliases": [],
+  "category": "green",
+  "country": "Japan",
+  "region": null,
+  "kind": "style",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://ja.wikipedia.org/wiki/日本茶"
+  ]
+ },
+ {
+  "slug": "tsuyobi-sencha",
+  "en": "Tsuyobi Sencha",
+  "zh": null,
+  "ru": null,
+  "native": "強火煎茶",
+  "aliases": [],
+  "category": "green",
+  "country": "Japan",
+  "region": null,
+  "kind": "style",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://www.sazentea.com/en/products/c55-japanese-tea"
+  ]
+ },
+ {
+  "slug": "uji-shincha",
+  "en": "Uji Shincha",
+  "zh": null,
+  "ru": null,
+  "native": "宇治新茶",
+  "aliases": [],
+  "category": "green",
+  "country": "Japan",
+  "region": "Kyoto · Uji",
+  "kind": "style",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://www.hibiki-an.com/index.php/cPath/21"
+  ]
+ },
+ {
+  "slug": "umeda-cha",
+  "en": "Umeda-cha",
+  "zh": null,
+  "ru": null,
+  "native": "梅田茶",
+  "aliases": [],
+  "category": "green",
+  "country": "Japan",
+  "region": "Gunma",
+  "kind": "appellation",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://ja.wikipedia.org/wiki/日本茶"
+  ]
+ },
+ {
+  "slug": "umegashima-cha",
+  "en": "Umegashima-cha",
+  "zh": null,
+  "ru": null,
+  "native": "梅ヶ島茶",
+  "aliases": [],
+  "category": "green",
+  "country": "Japan",
+  "region": "Shizuoka",
+  "kind": "appellation",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://ja.wikipedia.org/wiki/日本茶"
+  ]
+ },
+ {
+  "slug": "unkai",
+  "en": "Unkai",
+  "zh": null,
+  "ru": null,
+  "native": "うんかい",
+  "aliases": [],
+  "category": "green",
+  "country": "Japan",
+  "region": null,
+  "kind": "cultivar",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://australianteamasters.com.au/japanese-tea-cultivars-listing/"
+  ]
+ },
+ {
+  "slug": "unzen-cha",
+  "en": "Unzen-cha",
+  "zh": null,
+  "ru": null,
+  "native": "雲仙茶",
+  "aliases": [],
+  "category": "green",
+  "country": "Japan",
+  "region": "Nagasaki",
+  "kind": "appellation",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://ja.wikipedia.org/wiki/日本茶"
+  ]
+ },
+ {
+  "slug": "uwa-cha",
+  "en": "Uwa-cha",
+  "zh": null,
+  "ru": null,
+  "native": "宇和茶",
+  "aliases": [],
+  "category": "green",
+  "country": "Japan",
+  "region": "Ehime",
+  "kind": "appellation",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://ja.wikipedia.org/wiki/日本茶"
+  ]
+ },
+ {
+  "slug": "watarai-cha",
+  "en": "Watarai-cha",
+  "zh": null,
+  "ru": null,
+  "native": "度会茶",
+  "aliases": [],
+  "category": "green",
+  "country": "Japan",
+  "region": "Mie",
+  "kind": "appellation",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://ja.wikipedia.org/wiki/日本茶"
+  ]
+ },
+ {
+  "slug": "yabakei-cha",
+  "en": "Yabakei-cha",
+  "zh": null,
+  "ru": null,
+  "native": "耶馬渓茶",
+  "aliases": [],
+  "category": "green",
+  "country": "Japan",
+  "region": "Oita",
+  "kind": "appellation",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://ja.wikipedia.org/wiki/日本茶"
+  ]
+ },
+ {
+  "slug": "yabe-cha",
+  "en": "Yabe-cha",
+  "zh": null,
+  "ru": null,
+  "native": "矢部茶",
+  "aliases": [],
+  "category": "green",
+  "country": "Japan",
+  "region": "Kumamoto",
+  "kind": "appellation",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://ja.wikipedia.org/wiki/日本茶"
+  ]
+ },
+ {
+  "slug": "yabuminami",
+  "en": "Yabuminami",
+  "zh": null,
+  "ru": null,
+  "native": "やぶみなみ",
+  "aliases": [],
+  "category": "green",
+  "country": "Japan",
+  "region": null,
+  "kind": "cultivar",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://ja.wikipedia.org/wiki/やぶきた"
+  ]
+ },
+ {
+  "slug": "yachimata-cha",
+  "en": "Yachimata-cha",
+  "zh": null,
+  "ru": null,
+  "native": "八街茶",
+  "aliases": [],
+  "category": "green",
+  "country": "Japan",
+  "region": "Chiba",
+  "kind": "appellation",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://ja.wikipedia.org/wiki/日本茶"
+  ]
+ },
+ {
+  "slug": "yaeho",
+  "en": "Yaeho",
+  "zh": null,
+  "ru": null,
+  "native": "やえほ",
+  "aliases": [],
+  "category": "green",
+  "country": "Japan",
+  "region": null,
+  "kind": "cultivar",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://australianteamasters.com.au/japanese-tea-cultivars-listing/"
+  ]
+ },
+ {
+  "slug": "yagyu-cha",
+  "en": "Yagyu-cha",
+  "zh": null,
+  "ru": null,
+  "native": "柳生茶",
+  "aliases": [],
+  "category": "green",
+  "country": "Japan",
+  "region": "Nara · Yagyu",
+  "kind": "appellation",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://ja.wikipedia.org/wiki/大和茶"
+  ]
+ },
+ {
+  "slug": "yamanami",
+  "en": "Yamanami",
+  "zh": null,
+  "ru": null,
+  "native": "やまなみ",
+  "aliases": [],
+  "category": "green",
+  "country": "Japan",
+  "region": null,
+  "kind": "cultivar",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://australianteamasters.com.au/japanese-tea-cultivars-listing/"
+  ]
+ },
+ {
+  "slug": "yamanoibuki",
+  "en": "Yamanoibuki",
+  "zh": null,
+  "ru": null,
+  "native": "やまのいぶき",
+  "aliases": [],
+  "category": "green",
+  "country": "Japan",
+  "region": null,
+  "kind": "cultivar",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://australianteamasters.com.au/japanese-tea-cultivars-listing/"
+  ]
+ },
+ {
+  "slug": "yamato-cha-kumamoto",
+  "en": "Yamato-cha",
+  "zh": null,
+  "ru": null,
+  "native": "山都茶",
+  "aliases": [
+   "Yamato-cha (Kumamoto)"
+  ],
+  "category": "green",
+  "country": "Japan",
+  "region": "Kumamoto",
+  "kind": "appellation",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://ja.wikipedia.org/wiki/日本茶"
+  ]
+ },
+ {
+  "slug": "yamazoe-cha",
+  "en": "Yamazoe-cha",
+  "zh": null,
+  "ru": null,
+  "native": "山添茶",
+  "aliases": [],
+  "category": "green",
+  "country": "Japan",
+  "region": "Nara · Yamazoe",
+  "kind": "appellation",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://ja.wikipedia.org/wiki/大和茶"
+  ]
+ },
+ {
+  "slug": "yonbancha",
+  "en": "Yonbancha",
+  "zh": null,
+  "ru": null,
+  "native": "四番茶",
+  "aliases": [],
+  "category": "green",
+  "country": "Japan",
+  "region": null,
+  "kind": "style",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://ja.wikipedia.org/wiki/日本茶"
+  ]
+ },
+ {
+  "slug": "yumesuruga",
+  "en": "Yumesuruga",
+  "zh": null,
+  "ru": null,
+  "native": "ゆめするが",
+  "aliases": [],
+  "category": "green",
+  "country": "Japan",
+  "region": null,
+  "kind": "cultivar",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://australianteamasters.com.au/japanese-tea-cultivars-listing/"
+  ]
+ },
+ {
+  "slug": "yumewakaba",
+  "en": "Yumewakaba",
+  "zh": null,
+  "ru": null,
+  "native": "ゆめわかば",
+  "aliases": [],
+  "category": "green",
+  "country": "Japan",
+  "region": null,
+  "kind": "cultivar",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://australianteamasters.com.au/japanese-tea-cultivars-listing/"
+  ]
+ },
+ {
+  "slug": "z1",
+  "en": "Z1",
+  "zh": null,
+  "ru": null,
+  "native": null,
+  "aliases": [],
+  "category": "green",
+  "country": "Japan",
+  "region": null,
+  "kind": "cultivar",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://yunomi.life/pages/list-of-japanese-tea-cultivars"
+  ]
+ },
+ {
+  "slug": "zhengqing-green",
+  "en": "Zhengqing Green Tea",
+  "zh": "蒸青茶",
+  "ru": "Чжэнцин",
+  "native": null,
+  "aliases": [],
+  "category": "green",
+  "country": "China",
+  "region": null,
+  "kind": "style",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://zh.wikipedia.org/wiki/%E7%B6%A0%E8%8C%B6"
+  ]
+ }
+]

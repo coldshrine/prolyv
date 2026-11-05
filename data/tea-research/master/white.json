@@ -1,0 +1,3218 @@
+[
+ {
+  "slug": "aged-white-tea-cake",
+  "en": "Lao Bai Cha (Aged White Tea)",
+  "zh": "老白茶",
+  "ru": "Лао Бай Ча",
+  "native": null,
+  "aliases": [
+   "Aged White Tea",
+   "Lao Baicha (aged white tea)",
+   "Compressed White Tea",
+   "白茶饼",
+   "Fuding White Tea Cake",
+   "福鼎白茶饼",
+   "Fuding Bai Mu Dan Cake",
+   "Shou Mei White Tea Cake",
+   "Lao Bai Cha Gong Mei"
+  ],
+  "category": "white",
+  "country": "China",
+  "region": "Fujian · Fuding",
+  "kind": "style",
+  "tier": 1,
+  "existing_slug": "aged-white-tea-cake",
+  "evidence": [
+   "https://post.smzdm.com/p/a4p9omdx/",
+   "https://www.meimeitea.com/blogs/latest-news/how-many-types-of-white-tea",
+   "https://www.teasenz.com/"
+  ]
+ },
+ {
+  "slug": "bai-hao-yin-zhen",
+  "en": "Bai Hao Yin Zhen (Silver Needle)",
+  "zh": "白毫银针",
+  "ru": "Бай Хао Инь Чжэнь",
+  "native": null,
+  "aliases": [
+   "Bai Hao Yin Zhen",
+   "Baihao Yinzhen",
+   "Baihao Yinzhen (Silver Needle)",
+   "Silver Needle",
+   "Silver Needle Tea",
+   "White Hair Silver Needle Tea",
+   "White Hair Tea",
+   "Yin Zhen Bai Hao",
+   "Байхао Иньчжэнь",
+   "Серебряные иглы (Байхао Иньчжэнь)",
+   "Chinese Silver Needle"
+  ],
+  "category": "white",
+  "country": "China",
+  "region": "Fujian · Fuding, Zhenghe",
+  "kind": "variety",
+  "tier": 1,
+  "existing_slug": "bai-hao-yin-zhen",
+  "evidence": [
+   "https://en.wikipedia.org/wiki/Baihao_Yinzhen",
+   "http://news.cnhnb.com/mzhuanti/detail/465490/",
+   "https://chay.by/product/belyj-chaj-baj-hao-in-chzhen-2013-100-g/"
+  ]
+ },
+ {
+  "slug": "bai-mu-dan",
+  "en": "Bai Mu Dan (White Peony)",
+  "zh": "白牡丹",
+  "ru": "Бай Му Дань",
+  "native": null,
+  "aliases": [
+   "Bai Mu Dan",
+   "Bai Mudan",
+   "Bai Mudan (Wuyi bush)",
+   "Bai Mudan tea",
+   "Baimudan tea",
+   "Mudan White tea",
+   "Pai Mu Dan King",
+   "Pai Mu Tan",
+   "Pai Mu Tan (Mudan White)",
+   "White Peony Tea",
+   "White peony",
+   "白牡丹茶",
+   "Бай Мудань",
+   "Баймудань",
+   "Белый пион",
+   "Mutan White",
+   "Pai Mu Tan Imperial",
+   "King of Bai Mudan",
+   "Te Ji Bai Mu Dan (White Peony King)",
+   "White Peony King (Te Ji Bai Mu Dan)"
+  ],
+  "category": "white",
+  "country": "China",
+  "region": "Fujian · Fuding, Zhenghe",
+  "kind": "variety",
+  "tier": 1,
+  "existing_slug": "bai-mu-dan",
+  "evidence": [
+   "https://en.wikipedia.org/wiki/Baimudan_tea",
+   "https://en.wikipedia.org/wiki/White_tea",
+   "http://news.cnhnb.com/mzhuanti/detail/465490/"
+  ]
+ },
+ {
+  "slug": "ceylon-silver-tips",
+  "en": "Ceylon Silver Tips",
+  "zh": null,
+  "ru": "Цейлонские серебряные типсы",
+  "native": null,
+  "aliases": [
+   "Ceylon Silver Needle",
+   "Ceylon Vintage Silver Tips",
+   "Ceylon Argent"
+  ],
+  "category": "white",
+  "country": "Sri Lanka",
+  "region": null,
+  "kind": "style",
+  "tier": 1,
+  "existing_slug": "ceylon-silver-tips",
+  "evidence": [
+   "https://www.srilankabusiness.com/tea/white-tea.html",
+   "https://www.uptontea.com/collections/white-teas",
+   "https://what-cha.com/collections/white-tea"
+  ]
+ },
+ {
+  "slug": "fuding-white-tea",
+  "en": "Fuding White Tea",
+  "zh": "福鼎白茶",
+  "ru": "Фудин Бай Ча",
+  "native": null,
+  "aliases": [],
+  "category": "white",
+  "country": "China",
+  "region": "Fujian · Fuding",
+  "kind": "appellation",
+  "tier": 1,
+  "existing_slug": "fuding-vs-zhenghe-white",
+  "evidence": [
+   "https://zh.wikipedia.org/zh-cn/白茶",
+   "https://post.smzdm.com/p/a4p9omdx/"
+  ]
+ },
+ {
+  "slug": "gong-mei",
+  "en": "Gong Mei (Tribute Eyebrow)",
+  "zh": "贡眉",
+  "ru": "Гун Мэй",
+  "native": null,
+  "aliases": [
+   "Gong Mei",
+   "Gongmei"
+  ],
+  "category": "white",
+  "country": "China",
+  "region": "Fujian · Fuding, Zhenghe",
+  "kind": "variety",
+  "tier": 1,
+  "existing_slug": "gong-mei",
+  "evidence": [
+   "https://ru.wikipedia.org/wiki/Белый_чай",
+   "http://news.cnhnb.com/mzhuanti/detail/465490/"
+  ]
+ },
+ {
+  "slug": "shou-mei",
+  "en": "Shou Mei (Longevity Eyebrow)",
+  "zh": "寿眉",
+  "ru": "Шоу Мэй",
+  "native": null,
+  "aliases": [
+   "Longevity Eyebrow",
+   "Shou Mei",
+   "Shou Mei White Tea",
+   "Shoumei",
+   "Shoumei tea",
+   "Sow Mee",
+   "寿眉茶",
+   "Шоу Мэй (Брови старца)",
+   "Sowmee White"
+  ],
+  "category": "white",
+  "country": "China",
+  "region": "Fujian · Fuding, Zhenghe",
+  "kind": "variety",
+  "tier": 1,
+  "existing_slug": "shou-mei",
+  "evidence": [
+   "https://en.wikipedia.org/wiki/Shoumei_tea",
+   "https://en.wikipedia.org/wiki/White_tea",
+   "http://news.cnhnb.com/mzhuanti/detail/465490/"
+  ]
+ },
+ {
+  "slug": "yue-guang-bai",
+  "en": "Yue Guang Bai (Moonlight White)",
+  "zh": "月光白",
+  "ru": "Юэ Гуан Бай",
+  "native": null,
+  "aliases": [
+   "Moonlight White",
+   "Yue Guang Bai",
+   "Yue guan bai"
+  ],
+  "category": "white",
+  "country": "China",
+  "region": "Yunnan",
+  "kind": "style",
+  "tier": 1,
+  "existing_slug": "yue-guang-bai",
+  "evidence": [
+   "https://en.wikipedia.org/wiki/White_tea",
+   "https://ru.wikipedia.org/wiki/Белый_чай",
+   "https://ratetea.com/styles.php"
+  ]
+ },
+ {
+  "slug": "baicha-fuzhuan",
+  "en": "Baicha Fuzhuan (Fu-brick White Tea)",
+  "zh": "白茶茯砖",
+  "ru": "Бай Ча Фу Чжуань",
+  "native": null,
+  "aliases": [
+   "Baicha Fuzhuan",
+   "Golden Flower White Tea"
+  ],
+  "category": "white",
+  "country": "China",
+  "region": "Fujian",
+  "kind": "style",
+  "tier": 2,
+  "existing_slug": null,
+  "evidence": [
+   "https://orientaleaf.com/blogs/tea-101/types-of-fuding-white-tea",
+   "https://white2tea.com/collections/white-tea/products.json?limit=250"
+  ]
+ },
+ {
+  "slug": "ceylon-golden-tips",
+  "en": "Ceylon Golden Tips",
+  "zh": null,
+  "ru": "Цейлонские золотые типсы",
+  "native": null,
+  "aliases": [],
+  "category": "white",
+  "country": "Sri Lanka",
+  "region": null,
+  "kind": "style",
+  "tier": 2,
+  "existing_slug": null,
+  "evidence": [
+   "https://www.srilankabusiness.com/tea/white-tea.html",
+   "https://what-cha.com/collections/white-tea"
+  ]
+ },
+ {
+  "slug": "ceylon-white",
+  "en": "Ceylon White Tea",
+  "zh": null,
+  "ru": "Цейлонский белый чай",
+  "native": null,
+  "aliases": [
+   "Ceylon White"
+  ],
+  "category": "white",
+  "country": "Sri Lanka",
+  "region": null,
+  "kind": "style",
+  "tier": 2,
+  "existing_slug": null,
+  "evidence": [
+   "https://en.wikipedia.org/wiki/Tea_production_in_Sri_Lanka",
+   "https://www.borntea.com/blogs/tea/complete-guide-to-white-tea"
+  ]
+ },
+ {
+  "slug": "da-bai-cultivar-white",
+  "en": "Da Bai Cultivar White Tea (Fuding Dabai, Dahao, Zhenghe Dabai)",
+  "zh": "大白茶",
+  "ru": "Да Бай",
+  "native": null,
+  "aliases": [
+   "Da Bai Hao (cultivar)",
+   "Да Бай Хао",
+   "Fuding Da Bai (Big White)",
+   "Fuding Dabai",
+   "Fuding-dabaicha",
+   "福鼎大白茶",
+   "Fuding Da Hao",
+   "Fuding Dahao",
+   "福鼎大毫茶",
+   "Zhenghe Big White",
+   "Zhenghe Dabai",
+   "政和大白茶"
+  ],
+  "category": "white",
+  "country": "China",
+  "region": "Fujian · Fuding, Zhenghe",
+  "kind": "cultivar",
+  "tier": 2,
+  "existing_slug": "da-bai-cultivar-white",
+  "evidence": [
+   "https://ru.wikipedia.org/wiki/Белый_чай",
+   "https://zh.wikipedia.org/zh-cn/白茶",
+   "https://www.casb.org.cn/EN/Y2020/V36/I4/76"
+  ]
+ },
+ {
+  "slug": "darjeeling-white",
+  "en": "Darjeeling White Tea",
+  "zh": null,
+  "ru": "Дарджилинг белый",
+  "native": null,
+  "aliases": [
+   "Darjeeling white",
+   "White Darjeeling",
+   "Darjeeling Silver Tips"
+  ],
+  "category": "white",
+  "country": "India",
+  "region": "West Bengal · Darjeeling",
+  "kind": "appellation",
+  "tier": 2,
+  "existing_slug": "darjeeling-white",
+  "evidence": [
+   "https://en.wikipedia.org/wiki/Darjeeling_tea",
+   "https://en.wikipedia.org/wiki/White_tea",
+   "https://ratetea.com/styles.php"
+  ]
+ },
+ {
+  "slug": "fuan-dabai",
+  "en": "Fu'an Dabai",
+  "zh": "福安大白茶",
+  "ru": "Фуань Дабай",
+  "native": null,
+  "aliases": [
+   "Fu'an Da Bai"
+  ],
+  "category": "white",
+  "country": "China",
+  "region": "Fujian · Fu'an",
+  "kind": "cultivar",
+  "tier": 2,
+  "existing_slug": null,
+  "evidence": [
+   "https://zh.wikipedia.org/zh-cn/白茶",
+   "https://www.milulu.com.cn/tea/3391.html",
+   "https://www.wikidata.org/wiki/Q67933866"
+  ]
+ },
+ {
+  "slug": "fuding-bai-hao-yin-zhen",
+  "en": "Fuding Bai Hao Yin Zhen",
+  "zh": "福鼎白毫银针",
+  "ru": "Фудин Бай Хао Инь Чжэнь",
+  "native": null,
+  "aliases": [
+   "Fuding Baihao Yinzhen",
+   "Taimu Silver Needle"
+  ],
+  "category": "white",
+  "country": "China",
+  "region": "Fujian · Fuding",
+  "kind": "appellation",
+  "tier": 2,
+  "existing_slug": null,
+  "evidence": [
+   "https://www.sazentea.com/en/products/c57-chinese-tea",
+   "https://www.wuyishantea.com/detail.asp?id=218",
+   "https://tea-lab.pages.dev/origins/china/fujian/"
+  ]
+ },
+ {
+  "slug": "fuding-bai-mu-dan",
+  "en": "Fuding Bai Mu Dan",
+  "zh": "福鼎白牡丹",
+  "ru": "Фудин Бай Му Дань",
+  "native": null,
+  "aliases": [
+   "Fuding Bai Mudan"
+  ],
+  "category": "white",
+  "country": "China",
+  "region": "Fujian · Fuding",
+  "kind": "appellation",
+  "tier": 2,
+  "existing_slug": null,
+  "evidence": [
+   "https://www.sazentea.com/en/products/c57-chinese-tea",
+   "https://www.wuyishantea.com/detail.asp?id=218"
+  ]
+ },
+ {
+  "slug": "fuding-shou-mei",
+  "en": "Fuding Shou Mei",
+  "zh": "福鼎寿眉",
+  "ru": "Фудин Шоу Мэй",
+  "native": null,
+  "aliases": [
+   "Fuding Shoumei"
+  ],
+  "category": "white",
+  "country": "China",
+  "region": "Fujian · Fuding",
+  "kind": "appellation",
+  "tier": 2,
+  "existing_slug": null,
+  "evidence": [
+   "https://post.smzdm.com/p/a4pzek0w/",
+   "https://www.bitterleafteas.com/"
+  ]
+ },
+ {
+  "slug": "fuling-white",
+  "en": "Fuling White Tea",
+  "zh": "涪陵白茶",
+  "ru": "Фулин Бай Ча",
+  "native": null,
+  "aliases": [
+   "Fulingbaicha"
+  ],
+  "category": "white",
+  "country": "China",
+  "region": "Chongqing · Fuling",
+  "kind": "appellation",
+  "tier": 2,
+  "existing_slug": null,
+  "evidence": [
+   "https://milulu.com.cn/techan/16553.html",
+   "https://www.maigoo.com/top/392073.html"
+  ]
+ },
+ {
+  "slug": "jasmine-silver-needle",
+  "en": "Jasmine Silver Needle (Mo Li Yin Zhen)",
+  "zh": "茉莉银针",
+  "ru": "Мо Ли Инь Чжэнь",
+  "native": null,
+  "aliases": [
+   "Jasmine Silver Needle",
+   "Jasmine Yin Zhen",
+   "Moli Baihao Yinzhen",
+   "Silver Tip Jasmine"
+  ],
+  "category": "white",
+  "country": "China",
+  "region": "Fujian",
+  "kind": "scented",
+  "tier": 2,
+  "existing_slug": "jasmine-silver-needle",
+  "evidence": [
+   "https://ellenskitchen.com/faqs/chinatea4.html",
+   "https://ratetea.com/styles.php",
+   "https://www.wikidata.org/wiki/Q115301128"
+  ]
+ },
+ {
+  "slug": "jianyang-white",
+  "en": "Jianyang White Tea",
+  "zh": "建阳白茶",
+  "ru": "Цзяньян Бай Ча",
+  "native": null,
+  "aliases": [
+   "Jianyang White"
+  ],
+  "category": "white",
+  "country": "China",
+  "region": "Fujian · Jianyang",
+  "kind": "appellation",
+  "tier": 2,
+  "existing_slug": null,
+  "evidence": [
+   "https://tea-lab.pages.dev/origins/china/fujian/",
+   "https://tea-lab.pages.dev/types/white/"
+  ]
+ },
+ {
+  "slug": "jianyang-xiao-bai-cha",
+  "en": "Jianyang Xiao Bai Cha",
+  "zh": "建阳小白茶",
+  "ru": "Цзяньян Сяо Бай Ча",
+  "native": null,
+  "aliases": [
+   "Jianyang Xiaobaicha"
+  ],
+  "category": "white",
+  "country": "China",
+  "region": "Fujian · Jianyang",
+  "kind": "variety",
+  "tier": 2,
+  "existing_slug": null,
+  "evidence": [
+   "https://www.xn--btrs6f400a.com/index.php/wap/jyxw/1217.html"
+  ]
+ },
+ {
+  "slug": "jinggu-dabai",
+  "en": "Jinggu Dabai",
+  "zh": "景谷大白茶",
+  "ru": "Цзингу Дабай",
+  "native": null,
+  "aliases": [
+   "Jinggu Big White (Jinggu Da Bai)",
+   "Gujing Dabai",
+   "谷景大白茶"
+  ],
+  "category": "white",
+  "country": "China",
+  "region": "Yunnan · Pu'er · Jinggu",
+  "kind": "cultivar",
+  "tier": 2,
+  "existing_slug": null,
+  "evidence": [
+   "https://zh.wikipedia.org/zh-cn/绿牡丹_(白茶)",
+   "https://www.borntea.com/blogs/tea/complete-guide-to-white-tea",
+   "https://milulu.com.cn/tea/3898.html"
+  ]
+ },
+ {
+  "slug": "kenyan-white",
+  "en": "Kenyan White Tea",
+  "zh": null,
+  "ru": "Кенийский белый чай",
+  "native": null,
+  "aliases": [
+   "Kenyan White",
+   "Kenya Premium White Tea",
+   "Kenya 'Rhino' Premium White Tea",
+   "KTDA white tea"
+  ],
+  "category": "white",
+  "country": "Kenya",
+  "region": "Central Highlands",
+  "kind": "style",
+  "tier": 2,
+  "existing_slug": "kenyan-white",
+  "evidence": [
+   "https://en.wikipedia.org/wiki/Tea_production_in_Kenya",
+   "https://en.wikipedia.org/wiki/Kenya_Tea_Development_Agency",
+   "https://tea-lab.pages.dev/types/white/"
+  ]
+ },
+ {
+  "slug": "lao-shou-mei",
+  "en": "Lao Shou Mei (Aged Shou Mei)",
+  "zh": "老寿眉",
+  "ru": "Лао Шоу Мэй",
+  "native": null,
+  "aliases": [
+   "Aged Shou Mei",
+   "Chen Nian Shou Mei"
+  ],
+  "category": "white",
+  "country": "China",
+  "region": "Fujian · Fuding",
+  "kind": "style",
+  "tier": 2,
+  "existing_slug": null,
+  "evidence": [
+   "https://redblossomtea.com/",
+   "https://yunnansourcing.com/collections/white-tea/products.json?limit=250"
+  ]
+ },
+ {
+  "slug": "lu-xue-ya",
+  "en": "Lü Xue Ya",
+  "zh": "绿雪芽",
+  "ru": "Люй Сюэ Я",
+  "native": null,
+  "aliases": [],
+  "category": "white",
+  "country": "China",
+  "region": "Fujian · Fuding",
+  "kind": "variety",
+  "tier": 2,
+  "existing_slug": null,
+  "evidence": [
+   "https://www.milulu.com.cn/tea/3391.html"
+  ]
+ },
+ {
+  "slug": "malawi-antlers",
+  "en": "Malawi Antlers",
+  "zh": null,
+  "ru": "Малавийские «оленьи рога»",
+  "native": null,
+  "aliases": [
+   "African Antlers (Malawi Antlers)",
+   "Malawi Antlers White Tea",
+   "Malawi Satemwa Antlers White Tea",
+   "Satemwa Antlers 108"
+  ],
+  "category": "white",
+  "country": "Malawi",
+  "region": "Thyolo · Satemwa",
+  "kind": "variety",
+  "tier": 2,
+  "existing_slug": "malawi-antlers",
+  "evidence": [
+   "https://www.harney.com/products/african-antlers",
+   "https://www.satemwa.com/whiteteamalawi",
+   "https://what-cha.com/collections/white-tea"
+  ]
+ },
+ {
+  "slug": "nepal-white",
+  "en": "Nepal White Tea",
+  "zh": null,
+  "ru": "Непальский белый чай",
+  "native": null,
+  "aliases": [
+   "Nepal White (Ilam)",
+   "Himalayan White",
+   "Nepali Himalayan First Flush White",
+   "Nepal Silver Needle"
+  ],
+  "category": "white",
+  "country": "Nepal",
+  "region": "Ilam",
+  "kind": "style",
+  "tier": 2,
+  "existing_slug": "nepal-white",
+  "evidence": [
+   "https://tea-lab.pages.dev/types/white/",
+   "https://blog.englishteastore.com/2014/07/08/tea-gardens-in-nepal",
+   "https://www.borntea.com/blogs/tea/complete-guide-to-white-tea"
+  ]
+ },
+ {
+  "slug": "okayti-imperial-white",
+  "en": "Okayti Imperial Darjeeling White",
+  "zh": null,
+  "ru": "Окайти Империал",
+  "native": null,
+  "aliases": [
+   "Okayti Imperial",
+   "Окайти Имперский"
+  ],
+  "category": "white",
+  "country": "India",
+  "region": "West Bengal · Darjeeling",
+  "kind": "estate",
+  "tier": 2,
+  "existing_slug": null,
+  "evidence": [
+   "https://ru.wikipedia.org/wiki/Белый_чай"
+  ]
+ },
+ {
+  "slug": "sangzhi-bai-cha",
+  "en": "Sangzhi Bai Cha",
+  "zh": "桑植白茶",
+  "ru": "Санчжи Бай Ча",
+  "native": null,
+  "aliases": [],
+  "category": "white",
+  "country": "China",
+  "region": "Hunan · Zhangjiajie · Sangzhi",
+  "kind": "appellation",
+  "tier": 2,
+  "existing_slug": null,
+  "evidence": [
+   "https://www.hunan.gov.cn/topic/2020hnjksc/jkscwzewm/202412/t20241223_33533711.html"
+  ]
+ },
+ {
+  "slug": "shan-tuyet-white",
+  "en": "Shan Tuyet White Tea (Bach Tra)",
+  "zh": null,
+  "ru": "Вьетнамский белый чай Шан Туйет",
+  "native": "Bạch trà Shan Tuyết",
+  "aliases": [
+   "Shan Tuyet white tea",
+   "Vietnamese White",
+   "Vietnamese white tea",
+   "越南白茶",
+   "Вьетнамский белый чай"
+  ],
+  "category": "white",
+  "country": "Vietnam",
+  "region": "Ha Giang",
+  "kind": "variety",
+  "tier": 2,
+  "existing_slug": "shan-tuyet-white",
+  "evidence": [
+   "https://en.wikipedia.org/wiki/Vietnamese_tea",
+   "https://www.alveus.eu/?p=46560",
+   "https://tea-lab.pages.dev/types/white/"
+  ]
+ },
+ {
+  "slug": "songxi-white",
+  "en": "Songxi White Tea",
+  "zh": "松溪白茶",
+  "ru": "Сунси Бай Ча",
+  "native": null,
+  "aliases": [
+   "Songxi Baicha",
+   "Songxi White"
+  ],
+  "category": "white",
+  "country": "China",
+  "region": "Fujian · Songxi",
+  "kind": "appellation",
+  "tier": 2,
+  "existing_slug": null,
+  "evidence": [
+   "https://zh.wikipedia.org/wiki/%E4%B8%AD%E5%9C%8B%E8%8C%B6",
+   "https://zh.wikipedia.org/wiki/中國茶",
+   "https://tea-lab.pages.dev/types/white/"
+  ]
+ },
+ {
+  "slug": "taiwanese-white-tea",
+  "en": "Taiwanese White Tea",
+  "zh": "台湾白茶",
+  "ru": "Тайваньский белый чай",
+  "native": null,
+  "aliases": [
+   "Taiwanese Silver Needle",
+   "台湾银针",
+   "Тайваньская серебряная игла"
+  ],
+  "category": "white",
+  "country": "Taiwan",
+  "region": null,
+  "kind": "style",
+  "tier": 2,
+  "existing_slug": "taiwanese-white-tea",
+  "evidence": [
+   "https://ru.wikipedia.org/wiki/Тайваньский_чай"
+  ]
+ },
+ {
+  "slug": "virgin-white-tea",
+  "en": "Virgin White Tea",
+  "zh": null,
+  "ru": "Вирджин Уайт",
+  "native": null,
+  "aliases": [
+   "Ceylon Virgin White Tea",
+   "Herman Virgin White"
+  ],
+  "category": "white",
+  "country": "Sri Lanka",
+  "region": "Southern Province · Handunugoda",
+  "kind": "style",
+  "tier": 2,
+  "existing_slug": null,
+  "evidence": [
+   "https://en.wikipedia.org/wiki/Virgin_white_tea",
+   "https://www.srilankabusiness.com/tea/white-tea.html",
+   "https://stir-tea-coffee.com/tea-report/virgin-white-teas/"
+  ]
+ },
+ {
+  "slug": "xin-gong-yi-bai-cha",
+  "en": "Xin Gong Yi Bai Cha (New-Process White Tea)",
+  "zh": "新工艺白茶",
+  "ru": "Синь Гун И Бай Ча",
+  "native": null,
+  "aliases": [
+   "Fujian New Craft White (Xin Gong Yi)",
+   "Xin Gong Yi (New Craft White)",
+   "Xin Bai Cha (New White Tea)",
+   "新白茶"
+  ],
+  "category": "white",
+  "country": "China",
+  "region": "Fujian · Fuding",
+  "kind": "style",
+  "tier": 2,
+  "existing_slug": "xin-gong-yi-bai-cha",
+  "evidence": [
+   "https://tea-lab.pages.dev/origins/china/fujian/",
+   "https://tea-lab.pages.dev/types/white/",
+   "https://www.cnpp.cn/focus/3517730.html"
+  ]
+ },
+ {
+  "slug": "xinyang-white",
+  "en": "Xinyang White Tea",
+  "zh": "信阳白茶",
+  "ru": "Синьян Бай Ча",
+  "native": null,
+  "aliases": [
+   "Xinyang Bai Cha"
+  ],
+  "category": "white",
+  "country": "China",
+  "region": "Henan · Xinyang",
+  "kind": "appellation",
+  "tier": 2,
+  "existing_slug": null,
+  "evidence": [
+   "https://www.cnpp.cn/focus/3517730.html",
+   "https://www.ichabaike.com/baicha/xinyangbaicha/"
+  ]
+ },
+ {
+  "slug": "ya-bao",
+  "en": "Ya Bao (Sun-Dried Buds)",
+  "zh": "芽苞",
+  "ru": "Я Бао",
+  "native": null,
+  "aliases": [
+   "Ya Bao",
+   "Yabao",
+   "Ябао",
+   "Ya Bao (Buds)"
+  ],
+  "category": "white",
+  "country": "China",
+  "region": "Yunnan",
+  "kind": "style",
+  "tier": 2,
+  "existing_slug": null,
+  "evidence": [
+   "https://en.wikipedia.org/wiki/White_tea",
+   "https://teahouse.ua/ru/jabao/",
+   "https://yunnansourcing.com/collections/purple-tea/products.json?limit=250"
+  ]
+ },
+ {
+  "slug": "yangta-dabai",
+  "en": "Yangta Dabai",
+  "zh": "秧塔大白茶",
+  "ru": "Янта Дабай",
+  "native": null,
+  "aliases": [
+   "Yangtadabaicha",
+   "Yangtabaicha",
+   "秧塔白茶"
+  ],
+  "category": "white",
+  "country": "China",
+  "region": "Yunnan · Pu'er · Jinggu",
+  "kind": "appellation",
+  "tier": 2,
+  "existing_slug": null,
+  "evidence": [
+   "https://milulu.com.cn/tea/4943.html",
+   "https://milulu.com.cn/techan/23475.html",
+   "https://milulu.com.cn/techan/23341.html"
+  ]
+ },
+ {
+  "slug": "ye-sheng-bai-cha",
+  "en": "Ye Sheng Bai Cha (Wild White Tea)",
+  "zh": "野生白茶",
+  "ru": "Е Шэн Бай Ча",
+  "native": null,
+  "aliases": [
+   "Wild Tree Ye Sheng White Tea",
+   "Yunnan Wild White Tea",
+   "云南荒野白茶",
+   "Wild White Tea Buds",
+   "Wild Tea Tree White Buds",
+   "Yesheng Bai Ya tea",
+   "Yesheng Gushu Baicha"
+  ],
+  "category": "white",
+  "country": "China",
+  "region": "Yunnan; Fujian",
+  "kind": "style",
+  "tier": 2,
+  "existing_slug": "ye-sheng-bai-cha",
+  "evidence": [
+   "https://yunnansourcing.com/",
+   "https://www.wikidata.org/wiki/Q115300807",
+   "https://tea.community/zh-CN/collections/geographical-indication"
+  ]
+ },
+ {
+  "slug": "yunnan-gu-shu-bai-cha",
+  "en": "Yunnan Gu Shu Bai Cha (Ancient Tree White)",
+  "zh": "云南古树白茶",
+  "ru": "Юньнань Гу Шу Бай Ча",
+  "native": null,
+  "aliases": [
+   "Gu Shu Bai Cha",
+   "Yunnan Ancient Tree White",
+   "Yunnan Gu Shu White Tea"
+  ],
+  "category": "white",
+  "country": "China",
+  "region": "Yunnan",
+  "kind": "style",
+  "tier": 2,
+  "existing_slug": null,
+  "evidence": [
+   "https://tea-lab.pages.dev/types/white/",
+   "https://www.sazentea.com/en/products/c57-chinese-tea",
+   "https://yunnansourcing.com/collections/yunnan-sourcing-brand-raw-pu-erh-tea/products.json?limit=250&page=2"
+  ]
+ },
+ {
+  "slug": "yunnan-silver-needle",
+  "en": "Yunnan Silver Needle",
+  "zh": "云南银针",
+  "ru": "Юньнань Инь Чжэнь",
+  "native": null,
+  "aliases": [],
+  "category": "white",
+  "country": "China",
+  "region": "Yunnan",
+  "kind": "style",
+  "tier": 2,
+  "existing_slug": null,
+  "evidence": [
+   "https://orientaleaf.com/blogs/tea-101/types-of-fuding-white-tea",
+   "https://what-cha.com/collections/white-tea",
+   "https://www.uptontea.com/collections/white-teas"
+  ]
+ },
+ {
+  "slug": "yunnan-white-tea",
+  "en": "Yunnan White Tea",
+  "zh": "云南白茶",
+  "ru": "Юньнань Бай Ча",
+  "native": null,
+  "aliases": [],
+  "category": "white",
+  "country": "China",
+  "region": "Yunnan · Baoshan, Lincang",
+  "kind": "variety",
+  "tier": 2,
+  "existing_slug": null,
+  "evidence": [
+   "http://news.cnhnb.com/mrdzx/detail/465591/"
+  ]
+ },
+ {
+  "slug": "zhengan-white",
+  "en": "Zheng'an White Tea",
+  "zh": "正安白茶",
+  "ru": "Чжэнъань Бай Ча",
+  "native": null,
+  "aliases": [
+   "Zhenganbaicha"
+  ],
+  "category": "white",
+  "country": "China",
+  "region": "Guizhou · Zunyi · Zheng'an",
+  "kind": "appellation",
+  "tier": 2,
+  "existing_slug": null,
+  "evidence": [
+   "https://milulu.com.cn/techan/17383.html",
+   "https://www.rmzxw.com.cn/c/2025-03-31/3702347.shtml"
+  ]
+ },
+ {
+  "slug": "zhenghe-bai-hao-yin-zhen",
+  "en": "Zhenghe Bai Hao Yin Zhen",
+  "zh": "政和白毫银针",
+  "ru": "Чжэнхэ Бай Хао Инь Чжэнь",
+  "native": null,
+  "aliases": [
+   "Zhenghe Baihao Yinzhen"
+  ],
+  "category": "white",
+  "country": "China",
+  "region": "Fujian · Zhenghe",
+  "kind": "appellation",
+  "tier": 2,
+  "existing_slug": null,
+  "evidence": [
+   "https://baike.lingyaai.cn/",
+   "https://www.cnpp.cn/focus/3517730.html"
+  ]
+ },
+ {
+  "slug": "zhenghe-bai-mu-dan",
+  "en": "Zhenghe Bai Mu Dan",
+  "zh": "政和白牡丹",
+  "ru": "Чжэнхэ Бай Му Дань",
+  "native": null,
+  "aliases": [
+   "Zhenghe Bai Mudan"
+  ],
+  "category": "white",
+  "country": "China",
+  "region": "Fujian · Zhenghe",
+  "kind": "appellation",
+  "tier": 2,
+  "existing_slug": null,
+  "evidence": [
+   "https://www.163.com/dy/article/K7DET74G0556G110.html"
+  ]
+ },
+ {
+  "slug": "zhenghe-white-tea",
+  "en": "Zhenghe White Tea",
+  "zh": "政和白茶",
+  "ru": "Чжэнхэ Бай Ча",
+  "native": null,
+  "aliases": [
+   "Zhenghe Baicha",
+   "Zhenghe White"
+  ],
+  "category": "white",
+  "country": "China",
+  "region": "Fujian · Zhenghe",
+  "kind": "appellation",
+  "tier": 2,
+  "existing_slug": "fuding-vs-zhenghe-white",
+  "evidence": [
+   "http://news.cnhnb.com/mzhuanti/detail/465490/",
+   "https://tea-lab.pages.dev/types/white/",
+   "https://www.wikidata.org/wiki/Q67934110"
+  ]
+ },
+ {
+  "slug": "adams-peak-white",
+  "en": "Adam's Peak White Tea",
+  "zh": null,
+  "ru": "Белый чай Пика Адама",
+  "native": null,
+  "aliases": [],
+  "category": "white",
+  "country": "Sri Lanka",
+  "region": "Central Province · Adam's Peak",
+  "kind": "style",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://ellenskitchen.com/faqs/chinatea4.html",
+   "https://stir-tea-coffee.com/tea-report/virgin-white-teas/"
+  ]
+ },
+ {
+  "slug": "aged-xiao-bai-cha",
+  "en": "Aged Xiao Bai Cha",
+  "zh": null,
+  "ru": "Лао Сяо Бай Ча",
+  "native": null,
+  "aliases": [],
+  "category": "white",
+  "country": "China",
+  "region": "Fujian",
+  "kind": "style",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://www.jingteashop.com/products.json?limit=250"
+  ]
+ },
+ {
+  "slug": "ailao-jade-needle",
+  "en": "Ailao Mountain Jade Needle",
+  "zh": null,
+  "ru": "Айлаошань Юй Чжэнь",
+  "native": null,
+  "aliases": [],
+  "category": "white",
+  "country": "China",
+  "region": "Yunnan · Ailao",
+  "kind": "variety",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://yunnansourcing.com/collections/white-tea/products.json?limit=250"
+  ]
+ },
+ {
+  "slug": "assam-white",
+  "en": "Assam White Tea",
+  "zh": null,
+  "ru": "Ассамский белый чай",
+  "native": null,
+  "aliases": [
+   "Assam white"
+  ],
+  "category": "white",
+  "country": "India",
+  "region": "Assam · Brahmaputra Valley",
+  "kind": "style",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://en.wikipedia.org/wiki/Assam_tea"
+  ]
+ },
+ {
+  "slug": "assamica-sun-dried-silver-needles",
+  "en": "Assamica Sun-Dried Silver Needles",
+  "zh": null,
+  "ru": "Серебряные иглы ассамика солнечной сушки",
+  "native": null,
+  "aliases": [],
+  "category": "white",
+  "country": "China",
+  "region": "Yunnan",
+  "kind": "style",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://yunnansourcing.com/collections/white-tea/products.json?limit=250"
+  ]
+ },
+ {
+  "slug": "bai-jian",
+  "en": "Bai Jian",
+  "zh": "白尖",
+  "ru": "Бай Цзянь",
+  "native": null,
+  "aliases": [],
+  "category": "white",
+  "country": "China",
+  "region": "Yunnan",
+  "kind": "variety",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://ru.wikipedia.org/wiki/Белый_чай"
+  ]
+ },
+ {
+  "slug": "bai-long-xu",
+  "en": "Bai Long Xu (White Dragon Whiskers)",
+  "zh": "白龙须",
+  "ru": "Бай Лун Сюй",
+  "native": null,
+  "aliases": [],
+  "category": "white",
+  "country": "China",
+  "region": "Yunnan",
+  "kind": "style",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://sevencups.com/shop-category/puer-tea/"
+  ]
+ },
+ {
+  "slug": "bai-yu-lian",
+  "en": "Bai Yu Lian (White Jade Lotus)",
+  "zh": "白玉莲",
+  "ru": "Бай Юй Лянь",
+  "native": null,
+  "aliases": [],
+  "category": "white",
+  "country": "China",
+  "region": "Fujian",
+  "kind": "style",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://chay.by/product/chaj-belyj-baj-juj-ljan-100-g-svjazannyj-vesovoj/"
+  ]
+ },
+ {
+  "slug": "baihao-zhu",
+  "en": "Baihao Zhu",
+  "zh": "白毫珠",
+  "ru": "Байхао Чжу",
+  "native": null,
+  "aliases": [],
+  "category": "white",
+  "country": "China",
+  "region": null,
+  "kind": "variety",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://ko.wikipedia.org/wiki/백차"
+  ]
+ },
+ {
+  "slug": "bangladesh-white",
+  "en": "Bangladesh White Tea",
+  "zh": null,
+  "ru": "Бангладешский белый чай",
+  "native": null,
+  "aliases": [],
+  "category": "white",
+  "country": "Bangladesh",
+  "region": null,
+  "kind": "style",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://www.thedailystar.net/news/bangladesh/news/seven-unique-facts-about-tea-culture-bangladesh-3626521"
+  ]
+ },
+ {
+  "slug": "bi-luo-chun-white",
+  "en": "Bi Luo Chun White Tea (Moonlight Pavilion)",
+  "zh": "碧螺春白茶",
+  "ru": "Би Ло Чунь Бай Ча",
+  "native": null,
+  "aliases": [],
+  "category": "white",
+  "country": "China",
+  "region": "Yunnan",
+  "kind": "style",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://yunnansourcing.com/collections/white-tea/products.json?limit=250"
+  ]
+ },
+ {
+  "slug": "bitaco-white",
+  "en": "Bitaco White Tea",
+  "zh": null,
+  "ru": "Белый чай Битако",
+  "native": "Té blanco de Bitaco",
+  "aliases": [
+   "Colombia Bitaco 'Especial' White Tea"
+  ],
+  "category": "white",
+  "country": "Colombia",
+  "region": "Valle del Cauca · Bitaco",
+  "kind": "style",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://what-cha.com/collections/white-tea"
+  ]
+ },
+ {
+  "slug": "brazilian-white",
+  "en": "Brazilian White Tea",
+  "zh": null,
+  "ru": "Бразильский белый чай",
+  "native": null,
+  "aliases": [
+   "Brazilian White"
+  ],
+  "category": "white",
+  "country": "Brazil",
+  "region": "São Paulo",
+  "kind": "style",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://tea-lab.pages.dev/types/white/"
+  ]
+ },
+ {
+  "slug": "chamraj-white",
+  "en": "Chamraj White Tea",
+  "zh": null,
+  "ru": null,
+  "native": null,
+  "aliases": [],
+  "category": "white",
+  "country": "India",
+  "region": "Tamil Nadu · Nilgiris",
+  "kind": "estate",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://thesecretoftea.com/pages/chamraj"
+  ]
+ },
+ {
+  "slug": "chen-pi-bai-cha",
+  "en": "Chen Pi Bai Cha (White Tea in Tangerine)",
+  "zh": "陈皮白茶",
+  "ru": "Чэнь Пи Бай Ча",
+  "native": null,
+  "aliases": [
+   "Shou Mei with Aged Tangerine Peel Dragon Balls",
+   "Shou Mei in King Orange",
+   "Three Treasure white tea in tangerine"
+  ],
+  "category": "white",
+  "country": "China",
+  "region": "Fujian · Fuding",
+  "kind": "blend",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://www.yunnansourcing.com/products.json?limit=250&page=5",
+   "https://yunnansourcing.com/collections/white-tea/products.json?limit=250"
+  ]
+ },
+ {
+  "slug": "chuan-zi-bai",
+  "en": "Chuan Zi Bai (Sichuan Purple White)",
+  "zh": null,
+  "ru": "Чуань Цзы Бай",
+  "native": null,
+  "aliases": [
+   "Chuan Zibai (Sichuan purple white)"
+  ],
+  "category": "white",
+  "country": "China",
+  "region": "Sichuan",
+  "kind": "variety",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://white2tea.com/collections/white-tea/products.json?limit=250"
+  ]
+ },
+ {
+  "slug": "curled-dragon-silver-tip",
+  "en": "Curled Dragon Silver Tip",
+  "zh": null,
+  "ru": "Серебряные типсы «Свернувшийся дракон»",
+  "native": null,
+  "aliases": [],
+  "category": "white",
+  "country": "China",
+  "region": null,
+  "kind": "style",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://ratetea.com/styles.php"
+  ]
+ },
+ {
+  "slug": "daolouzhai-bai-cha",
+  "en": "Daolouzhai Bai Cha",
+  "zh": "刀楼寨白茶",
+  "ru": "Даолоучжай Бай Ча",
+  "native": null,
+  "aliases": [],
+  "category": "white",
+  "country": "China",
+  "region": "Hubei · Wuhan · Xinzhou",
+  "kind": "appellation",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "http://zscqj.hubei.gov.cn/fbjd/xxgkml/tjxitb/tjxxxxlb/202206/t20220602_4159111.shtml"
+  ]
+ },
+ {
+  "slug": "daqing-bamboo-roasted-white",
+  "en": "Da Qing Bamboo-Roasted White Tea",
+  "zh": null,
+  "ru": "Дацин, белый чай обжаренный в бамбуке",
+  "native": null,
+  "aliases": [],
+  "category": "white",
+  "country": "China",
+  "region": "Yunnan · Daqing",
+  "kind": "style",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://yunnansourcing.com/collections/white-tea/products.json?limit=250"
+  ]
+ },
+ {
+  "slug": "darjeeling-moonlight-white",
+  "en": "Darjeeling Moonlight White",
+  "zh": null,
+  "ru": "Дарджилинг «Лунный белый»",
+  "native": null,
+  "aliases": [
+   "Castleton Darjeeling Moonlight White"
+  ],
+  "category": "white",
+  "country": "India",
+  "region": "West Bengal · Darjeeling",
+  "kind": "style",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://stir-tea-coffee.com/tea-report/virgin-white-teas/"
+  ]
+ },
+ {
+  "slug": "dehong-bai-mu-dan",
+  "en": "Dehong Bai Mu Dan",
+  "zh": "德宏白牡丹",
+  "ru": "Дэхун Бай Му Дань",
+  "native": null,
+  "aliases": [],
+  "category": "white",
+  "country": "China",
+  "region": "Yunnan · Dehong",
+  "kind": "variety",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://yunnansourcing.com/collections/white-tea/products.json?limit=250"
+  ]
+ },
+ {
+  "slug": "dhulagiri-white",
+  "en": "Dhulagiri White",
+  "zh": null,
+  "ru": null,
+  "native": null,
+  "aliases": [],
+  "category": "white",
+  "country": "Nepal",
+  "region": null,
+  "kind": "estate",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://stir-tea-coffee.com/features/teas-from-the-hills-of-nepal"
+  ]
+ },
+ {
+  "slug": "doi-mae-salong-white",
+  "en": "Doi Mae Salong White Tea",
+  "zh": null,
+  "ru": "Белый чай Дой Мэсалонг",
+  "native": null,
+  "aliases": [],
+  "category": "white",
+  "country": "Thailand",
+  "region": "Chiang Rai · Doi Mae Salong",
+  "kind": "appellation",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://stir-tea-coffee.com/features/doi-mae-salong-thailand%E2%80%99s-best-kept-tea-origin-secret/"
+  ]
+ },
+ {
+  "slug": "dragon-white-tea",
+  "en": "Dragon White Tea",
+  "zh": null,
+  "ru": "Драконий белый чай",
+  "native": null,
+  "aliases": [],
+  "category": "white",
+  "country": "China",
+  "region": null,
+  "kind": "style",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://www.thes-traditions.com/en/content/white-tea-complete-guide"
+  ]
+ },
+ {
+  "slug": "fengqing-silver-needles",
+  "en": "Feng Qing Silver Needles",
+  "zh": "凤庆银针",
+  "ru": "Фэнцин Инь Чжэнь",
+  "native": null,
+  "aliases": [],
+  "category": "white",
+  "country": "China",
+  "region": "Yunnan · Lincang · Fengqing",
+  "kind": "variety",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://yunnansourcing.com/collections/white-tea/products.json?limit=250"
+  ]
+ },
+ {
+  "slug": "fuding-gong-mei",
+  "en": "Fuding Gong Mei",
+  "zh": "福鼎贡眉",
+  "ru": "Фудин Гун Мэй",
+  "native": null,
+  "aliases": [],
+  "category": "white",
+  "country": "China",
+  "region": "Fujian · Fuding",
+  "kind": "variety",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://yunnansourcing.com/collections/white-tea/products.json?limit=250"
+  ]
+ },
+ {
+  "slug": "fujian-white",
+  "en": "Fujian White Tea",
+  "zh": "福建白茶",
+  "ru": "Фуцзянь Бай Ча",
+  "native": null,
+  "aliases": [
+   "Fujian White"
+  ],
+  "category": "white",
+  "country": "China",
+  "region": "Fujian",
+  "kind": "style",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://en.wikipedia.org/wiki/White_tea"
+  ]
+ },
+ {
+  "slug": "georgian-white",
+  "en": "Georgian White Tea",
+  "zh": null,
+  "ru": "Грузинский белый чай",
+  "native": "ქართული თეთრი ჩაი",
+  "aliases": [
+   "Georgian White"
+  ],
+  "category": "white",
+  "country": "Georgia",
+  "region": "Adjara",
+  "kind": "style",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://tea-lab.pages.dev/types/white/"
+  ]
+ },
+ {
+  "slug": "gu-shan-bai-yun",
+  "en": "Gu Shan Bai Yun (Drum Mountain White Cloud)",
+  "zh": "鼓山白云",
+  "ru": "Гушань Бай Юнь",
+  "native": null,
+  "aliases": [],
+  "category": "white",
+  "country": "China",
+  "region": "Fujian · Fuzhou · Gushan",
+  "kind": "variety",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://ellenskitchen.com/faqs/chinatea4.html"
+  ]
+ },
+ {
+  "slug": "guizhou-zigui-bai-cha",
+  "en": "Guizhou Bai Cha (Zigui)",
+  "zh": "归州白茶",
+  "ru": "Гуйчжоу Бай Ча",
+  "native": null,
+  "aliases": [
+   "Guizhou Bai Cha"
+  ],
+  "category": "white",
+  "country": "China",
+  "region": "Hubei · Yichang · Zigui",
+  "kind": "variety",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://www.wyxgc.com/sj1/new1.asp?news_id=508"
+  ]
+ },
+ {
+  "slug": "hainan-bai-cha",
+  "en": "Hainan Bai Cha",
+  "zh": "海南白茶",
+  "ru": "Хайнань Бай Ча",
+  "native": null,
+  "aliases": [],
+  "category": "white",
+  "country": "China",
+  "region": "Hainan · Wuzhishan, Baisha, Qiongzhong, Baoting",
+  "kind": "variety",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://www.hi.chinanews.com.cn/hnnew/2023-01-09/665896.html"
+  ]
+ },
+ {
+  "slug": "hongyu-white",
+  "en": "Hongyu White Tea",
+  "zh": "红玉白茶",
+  "ru": "Хун Юй Бай Ча",
+  "native": null,
+  "aliases": [
+   "紅玉白茶"
+  ],
+  "category": "white",
+  "country": "Taiwan",
+  "region": null,
+  "kind": "style",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://en.wikipedia.org/wiki/Taiwanese_tea"
+  ]
+ },
+ {
+  "slug": "huang-cao-ba-white",
+  "en": "Huang Cao Ba White Tea",
+  "zh": "黄草坝白茶",
+  "ru": "Хуанцаоба Бай Ча",
+  "native": null,
+  "aliases": [],
+  "category": "white",
+  "country": "China",
+  "region": "Yunnan · Huangcaoba",
+  "kind": "variety",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://yunnansourcing.com/collections/white-tea/products.json?limit=250"
+  ]
+ },
+ {
+  "slug": "jade-earrings-white",
+  "en": "Jade Earrings Hand-Rolled White",
+  "zh": null,
+  "ru": "Нефритовые серьги, белый чай ручной скрутки",
+  "native": null,
+  "aliases": [],
+  "category": "white",
+  "country": "China",
+  "region": "Yunnan",
+  "kind": "style",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://yunnansourcing.com/collections/white-tea/products.json?limit=250"
+  ]
+ },
+ {
+  "slug": "jade-pillar-white",
+  "en": "Jade Pillar Hand-Rolled White",
+  "zh": null,
+  "ru": "Нефритовый столб, белый чай ручной скрутки",
+  "native": null,
+  "aliases": [],
+  "category": "white",
+  "country": "China",
+  "region": "Yunnan",
+  "kind": "style",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://yunnansourcing.com/collections/white-tea/products.json?limit=250"
+  ]
+ },
+ {
+  "slug": "jasmine-bai-mu-dan",
+  "en": "Mo Li Bai Mu Dan",
+  "zh": "茉莉白牡丹",
+  "ru": "Мо Ли Бай Му Дань",
+  "native": null,
+  "aliases": [
+   "Mo Li Bai Mudan Tea Cake"
+  ],
+  "category": "white",
+  "country": "China",
+  "region": "Fujian",
+  "kind": "scented",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://www.sazentea.com/en/products/c57-chinese-tea"
+  ]
+ },
+ {
+  "slug": "jasmine-white-dragon-pearls",
+  "en": "Jasmine Dragon Pearls (white base)",
+  "zh": null,
+  "ru": "Мо Ли Бай Лун Чжу",
+  "native": null,
+  "aliases": [
+   "Jasmin Dragon Pearls (white base)"
+  ],
+  "category": "white",
+  "country": "China",
+  "region": null,
+  "kind": "scented",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://www.thes-traditions.com/en/content/white-tea-complete-guide"
+  ]
+ },
+ {
+  "slug": "jinggu-silver-needles",
+  "en": "Jing Gu White Pekoe Silver Needles",
+  "zh": "景谷银针",
+  "ru": "Цзингу Инь Чжэнь",
+  "native": null,
+  "aliases": [],
+  "category": "white",
+  "country": "China",
+  "region": "Yunnan · Pu'er · Jinggu",
+  "kind": "variety",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://yunnansourcing.com/collections/white-tea/products.json?limit=250"
+  ]
+ },
+ {
+  "slug": "jinggu-white",
+  "en": "Yunnan Jinggu White Tea",
+  "zh": "云南景谷白茶",
+  "ru": "Цзингу Бай Ча",
+  "native": null,
+  "aliases": [],
+  "category": "white",
+  "country": "China",
+  "region": "Yunnan · Pu'er · Jinggu",
+  "kind": "variety",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://www.maigoo.com/goomai/153126.html"
+  ]
+ },
+ {
+  "slug": "jinggu-yang-ta-bai-mu-dan",
+  "en": "Jing Gu Yang Ta Bai Mu Dan",
+  "zh": "景谷秧塔白牡丹",
+  "ru": "Цзингу Янта Бай Му Дань",
+  "native": null,
+  "aliases": [],
+  "category": "white",
+  "country": "China",
+  "region": "Yunnan · Pu'er · Jinggu",
+  "kind": "variety",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://yunnansourcing.com/collections/white-tea/products.json?limit=250"
+  ]
+ },
+ {
+  "slug": "jinggu-yang-ta-taliensis-white",
+  "en": "Jinggu Yang Ta Camellia Taliensis White",
+  "zh": null,
+  "ru": "Цзингу Янта, белый чай из Camellia taliensis",
+  "native": null,
+  "aliases": [],
+  "category": "white",
+  "country": "China",
+  "region": "Yunnan · Pu'er · Jinggu",
+  "kind": "variety",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://yunnansourcing.com/collections/white-tea/products.json?limit=250"
+  ]
+ },
+ {
+  "slug": "jingmai-bai-mu-dan",
+  "en": "Jingmai Bai Mu Dan",
+  "zh": "景迈白牡丹",
+  "ru": "Цзинмай Бай Му Дань",
+  "native": null,
+  "aliases": [],
+  "category": "white",
+  "country": "China",
+  "region": "Yunnan · Pu'er · Jingmai",
+  "kind": "variety",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://yunnansourcing.com/collections/white-tea/products.json?limit=250"
+  ]
+ },
+ {
+  "slug": "jinhai-nuershan-bai-cha",
+  "en": "Jinhai Nü'er Shan Bai Cha",
+  "zh": "金海女儿山白茶",
+  "ru": "Цзиньхай Нюйэршань Бай Ча",
+  "native": null,
+  "aliases": [],
+  "category": "white",
+  "country": "China",
+  "region": "Hubei · Huangshi",
+  "kind": "appellation",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "http://zscqj.hubei.gov.cn/fbjd/xxgkml/tjxitb/tjxxxxlb/202206/t20220602_4159111.shtml"
+  ]
+ },
+ {
+  "slug": "jiu-tai-po-bai-cha",
+  "en": "Jiu Tai Po Bai Cha",
+  "zh": "九台坡白茶",
+  "ru": "Цзютайпо Бай Ча",
+  "native": null,
+  "aliases": [],
+  "category": "white",
+  "country": "China",
+  "region": "Yunnan · Jiutaipo",
+  "kind": "variety",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://yunnansourcing.com/collections/white-tea/products.json?limit=250"
+  ]
+ },
+ {
+  "slug": "jiujie-bai-cha",
+  "en": "Jiujie Bai Cha",
+  "zh": "旧街白茶",
+  "ru": "Цзюцзе Бай Ча",
+  "native": null,
+  "aliases": [],
+  "category": "white",
+  "country": "China",
+  "region": "Hubei · Wuhan · Xinzhou",
+  "kind": "appellation",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "http://zscqj.hubei.gov.cn/fbjd/xxgkml/tjxitb/tjxxxxlb/202206/t20220602_4159111.shtml"
+  ]
+ },
+ {
+  "slug": "kandy-silver-tips",
+  "en": "Ceylon Kandy Silver Tips",
+  "zh": null,
+  "ru": "Серебряные типсы Канди",
+  "native": null,
+  "aliases": [
+   "Ceylon Kandy Silver Tip"
+  ],
+  "category": "white",
+  "country": "Sri Lanka",
+  "region": "Central Province · Kandy",
+  "kind": "style",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://www.uptontea.com/collections/tea-blends"
+  ]
+ },
+ {
+  "slug": "lu-ya-bao",
+  "en": "Lü Ya Bao",
+  "zh": "绿芽苞",
+  "ru": "Люй Я Бао",
+  "native": null,
+  "aliases": [],
+  "category": "white",
+  "country": "China",
+  "region": "Yunnan",
+  "kind": "variety",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://chay.by/product/chaj-belyj-ljuj-ja-bao-100-g-vesovoj/"
+  ]
+ },
+ {
+  "slug": "malawi-peony",
+  "en": "Malawi Peony White Tea",
+  "zh": null,
+  "ru": "Малавийский пион",
+  "native": null,
+  "aliases": [
+   "Malawi Bvumbwe Peony White Tea",
+   "Bvumbwe Peony 103",
+   "Thyolo Peony 101",
+   "Rare Malawi Peony"
+  ],
+  "category": "white",
+  "country": "Malawi",
+  "region": "Thyolo",
+  "kind": "style",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://www.satemwa.com/whiteteamalawi",
+   "https://what-cha.com/collections/white-tea",
+   "https://rareteacompany.com/en-nl/collections/white-tea.oembed"
+  ]
+ },
+ {
+  "slug": "malawi-white",
+  "en": "Malawi White Tea",
+  "zh": null,
+  "ru": "Малавийский белый чай",
+  "native": null,
+  "aliases": [
+   "Malawi White"
+  ],
+  "category": "white",
+  "country": "Malawi",
+  "region": null,
+  "kind": "style",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://www.borntea.com/blogs/tea/complete-guide-to-white-tea"
+  ]
+ },
+ {
+  "slug": "man-gang-gu-shu-bai-cha",
+  "en": "Man Gang Gu Shu Bai Cha",
+  "zh": null,
+  "ru": "Маньган Гу Шу Бай Ча",
+  "native": null,
+  "aliases": [],
+  "category": "white",
+  "country": "China",
+  "region": "Yunnan · Xishuangbanna · Bulang",
+  "kind": "variety",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://yunnansourcing.com/collections/white-tea/products.json?limit=250"
+  ]
+ },
+ {
+  "slug": "mang-fei-wild-arbor-white",
+  "en": "Mang Fei Wild Arbor White",
+  "zh": "忙肺野生白茶",
+  "ru": "Манфэй, дикий белый чай",
+  "native": null,
+  "aliases": [],
+  "category": "white",
+  "country": "China",
+  "region": "Yunnan · Lincang · Mangfei",
+  "kind": "variety",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://yunnansourcing.com/collections/white-tea/products.json?limit=250"
+  ]
+ },
+ {
+  "slug": "manipur-wild-white",
+  "en": "Wild White Tea (Manipur)",
+  "zh": null,
+  "ru": "Дикий белый чай Манипура",
+  "native": null,
+  "aliases": [
+   "Wild White Tea"
+  ],
+  "category": "white",
+  "country": "India",
+  "region": "Manipur",
+  "kind": "style",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://www.eastmojo.com/manipur/2022/12/04/assams-tea-startup-beyondarie-aims-to-popularise-wild-tea-in-northeast/"
+  ]
+ },
+ {
+  "slug": "meng-song-white",
+  "en": "Meng Song White Tea",
+  "zh": "勐宋白茶",
+  "ru": "Мэнсун Бай Ча",
+  "native": null,
+  "aliases": [],
+  "category": "white",
+  "country": "China",
+  "region": "Yunnan · Xishuangbanna · Mengsong",
+  "kind": "variety",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://yunnansourcing.com/collections/white-tea/products.json?limit=250"
+  ]
+ },
+ {
+  "slug": "menghai-lao-shu-bai-cha",
+  "en": "Menghai Lao Shu Bai Cha",
+  "zh": "勐海老树白茶",
+  "ru": "Мэнхай Лао Шу Бай Ча",
+  "native": null,
+  "aliases": [],
+  "category": "white",
+  "country": "China",
+  "region": "Yunnan · Xishuangbanna · Menghai",
+  "kind": "variety",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://yunnansourcing.com/collections/white-tea/products.json?limit=250"
+  ]
+ },
+ {
+  "slug": "mengku-gu-shu-bai-cha",
+  "en": "Mengku Gu Shu Bai Cha",
+  "zh": "勐库古树白茶",
+  "ru": "Мэнку Гу Шу Бай Ча",
+  "native": null,
+  "aliases": [],
+  "category": "white",
+  "country": "China",
+  "region": "Yunnan · Lincang · Mengku",
+  "kind": "variety",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://yunnansourcing.com/collections/white-tea/products.json?limit=250"
+  ]
+ },
+ {
+  "slug": "min-feng-mountain-white",
+  "en": "Min Feng Mountain White Tea",
+  "zh": null,
+  "ru": "Миньфэншань Бай Ча",
+  "native": null,
+  "aliases": [],
+  "category": "white",
+  "country": "China",
+  "region": "Yunnan",
+  "kind": "variety",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://yunnansourcing.com/collections/white-tea/products.json?limit=250"
+  ]
+ },
+ {
+  "slug": "minto-island-white",
+  "en": "Minto Island White",
+  "zh": null,
+  "ru": null,
+  "native": null,
+  "aliases": [],
+  "category": "white",
+  "country": "United States",
+  "region": "Oregon · Salem",
+  "kind": "estate",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://www.mintoislandtea.com/"
+  ]
+ },
+ {
+  "slug": "mogok-tree-spirit-white",
+  "en": "Mogok Tree Spirit White Tea",
+  "zh": null,
+  "ru": "Дух дерева, белый чай из Могока",
+  "native": null,
+  "aliases": [
+   "Tree Spirit"
+  ],
+  "category": "white",
+  "country": "Myanmar",
+  "region": "Mandalay · Mogok",
+  "kind": "style",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://teakulture.be/en/myanmar/",
+   "https://what-cha.com/collections/white-tea"
+  ]
+ },
+ {
+  "slug": "moonlight-white-dragon-ball",
+  "en": "Moonlight White Dragon Ball",
+  "zh": "月光白龙珠",
+  "ru": "Юэ Гуан Бай Лун Чжу",
+  "native": null,
+  "aliases": [],
+  "category": "white",
+  "country": "China",
+  "region": "Yunnan",
+  "kind": "style",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://www.yunnansourcing.com/products.json?limit=250&page=1"
+  ]
+ },
+ {
+  "slug": "nan-mei-white",
+  "en": "Nan Mei White Tea",
+  "zh": null,
+  "ru": "Наньмэй Бай Ча",
+  "native": null,
+  "aliases": [],
+  "category": "white",
+  "country": "China",
+  "region": "Yunnan",
+  "kind": "variety",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://happyearthtea.com/blogs/blog/types-of-white-tea"
+  ]
+ },
+ {
+  "slug": "nanben-white",
+  "en": "Nanben White Tea",
+  "zh": "南本白茶",
+  "ru": "Наньбэнь Бай Ча",
+  "native": null,
+  "aliases": [],
+  "category": "white",
+  "country": "China",
+  "region": "Yunnan · Pu'er · Jinggu",
+  "kind": "style",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://www.bitterleafteas.com/"
+  ]
+ },
+ {
+  "slug": "nannuo-assamica-white",
+  "en": "Nannuo Assamica White Tea",
+  "zh": "南糯白茶",
+  "ru": "Наньно Бай Ча",
+  "native": null,
+  "aliases": [],
+  "category": "white",
+  "country": "China",
+  "region": "Yunnan · Xishuangbanna · Nannuo",
+  "kind": "variety",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://yunnansourcing.com/collections/white-tea/products.json?limit=250"
+  ]
+ },
+ {
+  "slug": "nepal-anaerobic-white",
+  "en": "Anaerobically Oxidized White Tea",
+  "zh": null,
+  "ru": "Непальский белый чай анаэробного окисления",
+  "native": null,
+  "aliases": [],
+  "category": "white",
+  "country": "Nepal",
+  "region": null,
+  "kind": "style",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://www.thesteepingroom.com/products.json?limit=250"
+  ]
+ },
+ {
+  "slug": "nilgiri-silver-needles",
+  "en": "Nilgiri Silver Needles",
+  "zh": null,
+  "ru": "Серебряные иглы Нилгири",
+  "native": null,
+  "aliases": [],
+  "category": "white",
+  "country": "India",
+  "region": "Tamil Nadu · Nilgiris",
+  "kind": "style",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://stir-tea-coffee.com/features/indian-origin-update-teas-of-nilgiris"
+  ]
+ },
+ {
+  "slug": "nilgiri-white",
+  "en": "Nilgiri White Tea",
+  "zh": null,
+  "ru": "Нилгири белый",
+  "native": null,
+  "aliases": [
+   "Nilgiri white"
+  ],
+  "category": "white",
+  "country": "India",
+  "region": "Tamil Nadu · Nilgiris",
+  "kind": "style",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://en.wikipedia.org/wiki/Nilgiri_tea"
+  ]
+ },
+ {
+  "slug": "ningde-white-tea-brick",
+  "en": "Ningde White Tea Brick",
+  "zh": "宁德白茶砖",
+  "ru": "Ниндэ Бай Ча Чжуань",
+  "native": null,
+  "aliases": [],
+  "category": "white",
+  "country": "China",
+  "region": "Fujian · Ningde",
+  "kind": "style",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://www.chawangshop.com/36-other-tea"
+  ]
+ },
+ {
+  "slug": "nuwara-eliya-silver-tips",
+  "en": "Nuwara Eliya Silver Tips",
+  "zh": null,
+  "ru": "Серебряные типсы Нувара-Элия",
+  "native": null,
+  "aliases": [],
+  "category": "white",
+  "country": "Sri Lanka",
+  "region": "Central Province · Nuwara Eliya",
+  "kind": "variety",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://tea-lab.pages.dev/types/white/"
+  ]
+ },
+ {
+  "slug": "osmanthus-bai-mu-dan",
+  "en": "Bai Mu Dan with Osmanthus",
+  "zh": "桂花白牡丹",
+  "ru": "Бай Му Дань с османтусом",
+  "native": null,
+  "aliases": [],
+  "category": "white",
+  "country": "China",
+  "region": null,
+  "kind": "scented",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://chay.by/product/chaj-belyj-baj-mu-dan-s-osmantusom-to-cha-100-g-vesovoj/"
+  ]
+ },
+ {
+  "slug": "pine-smoked-white",
+  "en": "Pine Smoked White Tea",
+  "zh": null,
+  "ru": "Белый чай копчёный на сосне",
+  "native": null,
+  "aliases": [],
+  "category": "white",
+  "country": "Myanmar",
+  "region": null,
+  "kind": "style",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://www.thesteepingroom.com/products.json?limit=250"
+  ]
+ },
+ {
+  "slug": "purple-white-dragon-balls",
+  "en": "Dragon Balls Purple White Tea",
+  "zh": null,
+  "ru": "Драконьи шарики из пурпурного белого чая",
+  "native": null,
+  "aliases": [],
+  "category": "white",
+  "country": "China",
+  "region": "Yunnan · Lincang · Yongde",
+  "kind": "style",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://yunnansourcing.com/collections/purple-tea/products.json?limit=250"
+  ]
+ },
+ {
+  "slug": "purple-yue-guang-bai",
+  "en": "Purple Yue Guang Bai",
+  "zh": "紫月光白",
+  "ru": "Цзы Юэ Гуан Бай",
+  "native": null,
+  "aliases": [
+   "Dehong Purple Yue Guang Bai",
+   "Wild Tree Purple Moonlight White"
+  ],
+  "category": "white",
+  "country": "China",
+  "region": "Yunnan · Dehong",
+  "kind": "variety",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://yunnansourcing.com/collections/purple-tea/products.json?limit=250",
+   "https://yunnansourcing.com/collections/white-tea/products.json?limit=250"
+  ]
+ },
+ {
+  "slug": "qin-yu-white",
+  "en": "Qin Yu White Tea",
+  "zh": "沁玉白茶",
+  "ru": "Цинь Юй Бай Ча",
+  "native": null,
+  "aliases": [],
+  "category": "white",
+  "country": "Taiwan",
+  "region": null,
+  "kind": "style",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://wangfamilytea.com/"
+  ]
+ },
+ {
+  "slug": "sakuma-brothers-white",
+  "en": "Sakuma Brothers",
+  "zh": null,
+  "ru": null,
+  "native": null,
+  "aliases": [
+   "Sakuma Brothers tea"
+  ],
+  "category": "white",
+  "country": "United States",
+  "region": "Washington · Burlington",
+  "kind": "estate",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://en.wikipedia.org/wiki/Tea_production_in_the_United_States"
+  ]
+ },
+ {
+  "slug": "sanxia-white",
+  "en": "Sanxia White Tea",
+  "zh": "三峡白茶",
+  "ru": "Санься Бай Ча",
+  "native": null,
+  "aliases": [
+   "San Hsia White Tea"
+  ],
+  "category": "white",
+  "country": "Taiwan",
+  "region": "New Taipei · Sanxia",
+  "kind": "style",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://www.mountainstreamteas.com/",
+   "https://www.tea-masters.com/en/46-white-tea"
+  ]
+ },
+ {
+  "slug": "satemwa-needles",
+  "en": "Satemwa Needles",
+  "zh": null,
+  "ru": "Серебряные иглы Сатемва",
+  "native": null,
+  "aliases": [
+   "Satemwa Needles 109",
+   "Malawi White Silver Tip"
+  ],
+  "category": "white",
+  "country": "Malawi",
+  "region": "Thyolo · Satemwa",
+  "kind": "style",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://www.satemwa.com/whiteteamalawi",
+   "https://rareteacompany.com/en-nl/collections/white-tea.oembed"
+  ]
+ },
+ {
+  "slug": "shifang-hongbai",
+  "en": "Shifang Hongbai Tea",
+  "zh": "什邡红白茶",
+  "ru": "Шифан Хунбай Ча",
+  "native": null,
+  "aliases": [
+   "四川什邡红白茶"
+  ],
+  "category": "white",
+  "country": "China",
+  "region": "Sichuan · Deyang · Shifang",
+  "kind": "variety",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://www.maigoo.com/goomai/153126.html"
+  ]
+ },
+ {
+  "slug": "shou-mei-dragon-balls",
+  "en": "Shou Mei Dragon Balls",
+  "zh": "寿眉龙珠",
+  "ru": "Шоу Мэй Лун Чжу",
+  "native": null,
+  "aliases": [
+   "China Shou Mei White Tea Pearl"
+  ],
+  "category": "white",
+  "country": "China",
+  "region": "Fujian",
+  "kind": "style",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://www.uptontea.com/collections/white-teas"
+  ]
+ },
+ {
+  "slug": "shui-xian-bai-zhen",
+  "en": "Shui Xian Bai Zhen",
+  "zh": "水仙白针",
+  "ru": "Шуй Сянь Бай Чжэнь",
+  "native": null,
+  "aliases": [
+   "Shui Xiang (cultivar)",
+   "Шуй Сян"
+  ],
+  "category": "white",
+  "country": "China",
+  "region": "Fujian",
+  "kind": "style",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://ru.wikipedia.org/wiki/Белый_чай",
+   "https://www.teaspring.com/white-tea.asp"
+  ]
+ },
+ {
+  "slug": "silvery-tip-pekoe",
+  "en": "Silvery Tip Pekoe",
+  "zh": null,
+  "ru": "Серебряный типс пеко",
+  "native": null,
+  "aliases": [],
+  "category": "white",
+  "country": "China",
+  "region": null,
+  "kind": "style",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://en.wikipedia.org/wiki/White_tea"
+  ]
+ },
+ {
+  "slug": "snow-dragon-white",
+  "en": "Snow Dragon White Tea",
+  "zh": null,
+  "ru": "Сюэ Лун Бай Ча",
+  "native": null,
+  "aliases": [],
+  "category": "white",
+  "country": "China",
+  "region": null,
+  "kind": "variety",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://ellenskitchen.com/faqs/chinatea4.html"
+  ]
+ },
+ {
+  "slug": "songxi-xiao-bai-cha",
+  "en": "Songxi Xiao Bai Cha",
+  "zh": "松溪小白茶",
+  "ru": "Сунси Сяо Бай Ча",
+  "native": null,
+  "aliases": [],
+  "category": "white",
+  "country": "China",
+  "region": "Fujian · Songxi",
+  "kind": "variety",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://www.cnpp.cn/focus/3517730.html"
+  ]
+ },
+ {
+  "slug": "songyang-white",
+  "en": "Song Yang White",
+  "zh": "松阳白茶",
+  "ru": "Сунъян Бай Ча",
+  "native": null,
+  "aliases": [],
+  "category": "white",
+  "country": "China",
+  "region": "Zhejiang · Songyang",
+  "kind": "variety",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://ellenskitchen.com/faqs/chinatea4.html"
+  ]
+ },
+ {
+  "slug": "suan-zao-shu-old-arbor-white",
+  "en": "Suan Zao Shu Old Arbor White",
+  "zh": "酸枣树白茶",
+  "ru": "Суань Цзао Шу Бай Ча",
+  "native": null,
+  "aliases": [],
+  "category": "white",
+  "country": "China",
+  "region": "Yunnan",
+  "kind": "variety",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://yunnansourcing.com/collections/white-tea/products.json?limit=250"
+  ]
+ },
+ {
+  "slug": "taiwan-indigenous-white",
+  "en": "Taiwan Indigenous White Tea",
+  "zh": "台湾山茶白茶",
+  "ru": "Тайваньский белый чай из горной камелии",
+  "native": null,
+  "aliases": [
+   "台灣山茶白茶"
+  ],
+  "category": "white",
+  "country": "Taiwan",
+  "region": null,
+  "kind": "variety",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://en.wikipedia.org/wiki/Taiwanese_tea"
+  ]
+ },
+ {
+  "slug": "taiwan-wuyi-white",
+  "en": "Wuyi White Tea (Taiwan)",
+  "zh": "武夷白茶",
+  "ru": "Уи Бай Ча (Тайвань)",
+  "native": null,
+  "aliases": [
+   "Wuyi white tea"
+  ],
+  "category": "white",
+  "country": "Taiwan",
+  "region": null,
+  "kind": "variety",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://en.wikipedia.org/wiki/Taiwanese_tea"
+  ]
+ },
+ {
+  "slug": "teh-melati-white",
+  "en": "Teh Melati (Jasmine White Tea)",
+  "zh": null,
+  "ru": "Тех мелати (белый жасминовый)",
+  "native": "Teh melati",
+  "aliases": [
+   "Тех мелати"
+  ],
+  "category": "white",
+  "country": "Indonesia",
+  "region": "Java",
+  "kind": "scented",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://www.alveus.eu/blog/indonesian-tea/"
+  ]
+ },
+ {
+  "slug": "teh-putih",
+  "en": "Teh Putih (Indonesian White)",
+  "zh": null,
+  "ru": "Индонезийский белый чай",
+  "native": "Teh Putih",
+  "aliases": [
+   "Organic white tea East Java"
+  ],
+  "category": "white",
+  "country": "Indonesia",
+  "region": "Java",
+  "kind": "style",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://tea-lab.pages.dev/types/white/",
+   "https://bali.live/p/tea-in-indonesia-tea-plantations-varieties-and-stores"
+  ]
+ },
+ {
+  "slug": "tengchong-white",
+  "en": "Tengchong White Tea",
+  "zh": "腾冲白茶",
+  "ru": "Тэнчун Бай Ча",
+  "native": null,
+  "aliases": [
+   "Tengchongbaicha",
+   "Yunnan Tengchong White Tea",
+   "云南腾冲白茶"
+  ],
+  "category": "white",
+  "country": "China",
+  "region": "Yunnan · Baoshan · Tengchong",
+  "kind": "appellation",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://milulu.com.cn/techan/51743.html",
+   "https://www.maigoo.com/goomai/153126.html"
+  ]
+ },
+ {
+  "slug": "thai-bai-hao-silver-tips",
+  "en": "Bai Hao Silver Tips (Thai)",
+  "zh": "白毫",
+  "ru": "Бай Хао (Таиланд)",
+  "native": null,
+  "aliases": [],
+  "category": "white",
+  "country": "Thailand",
+  "region": "Chiang Rai",
+  "kind": "variety",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://rishi-tea.com/blogs/journal/chiang-rai-northern-thailand"
+  ]
+ },
+ {
+  "slug": "thai-wild-sun-dried-buds",
+  "en": "Sun-Dried Wild Tea Buds (Thai)",
+  "zh": null,
+  "ru": "Дикие почки солнечной сушки (Таиланд)",
+  "native": null,
+  "aliases": [],
+  "category": "white",
+  "country": "Thailand",
+  "region": "Chiang Rai",
+  "kind": "variety",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://rishi-tea.com/blogs/journal/chiang-rai-northern-thailand"
+  ]
+ },
+ {
+  "slug": "tieguanyin-bai-cha",
+  "en": "Tieguanyin Bai Cha (White Tieguanyin)",
+  "zh": "铁观音白茶",
+  "ru": "Те Гуань Инь Бай Ча",
+  "native": null,
+  "aliases": [
+   "Tieguanyin Baicha (White Tieguanyin)"
+  ],
+  "category": "white",
+  "country": "China",
+  "region": "Fujian",
+  "kind": "style",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://sevencups.com/shop-category/white-tea/"
+  ]
+ },
+ {
+  "slug": "turkish-white",
+  "en": "Turkish White Tea (Beyaz Çay)",
+  "zh": null,
+  "ru": "Турецкий белый чай",
+  "native": "Beyaz Çay",
+  "aliases": [
+   "Çaykur Beyaz Çay"
+  ],
+  "category": "white",
+  "country": "Turkey",
+  "region": "Rize",
+  "kind": "style",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://www.caykur.gov.tr/"
+  ]
+ },
+ {
+  "slug": "vietnam-mao-feng-white",
+  "en": "Vietnam Mao Feng White Tea",
+  "zh": null,
+  "ru": "Вьетнамский белый Мао Фэн",
+  "native": null,
+  "aliases": [],
+  "category": "white",
+  "country": "Vietnam",
+  "region": null,
+  "kind": "variety",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://www.thes-traditions.com/en/content/white-tea-complete-guide"
+  ]
+ },
+ {
+  "slug": "vietnam-silver-dew",
+  "en": "Vietnam Silver Dew",
+  "zh": null,
+  "ru": "Вьетнамская серебряная роса",
+  "native": null,
+  "aliases": [],
+  "category": "white",
+  "country": "Vietnam",
+  "region": null,
+  "kind": "style",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://what-cha.com/collections/white-tea"
+  ]
+ },
+ {
+  "slug": "white-earl-grey",
+  "en": "White Earl Grey",
+  "zh": null,
+  "ru": "Белый Эрл Грей",
+  "native": null,
+  "aliases": [],
+  "category": "white",
+  "country": "China",
+  "region": null,
+  "kind": "blend",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://www.harney.com/collections/white-tea/products.json?limit=250"
+  ]
+ },
+ {
+  "slug": "white-matcha",
+  "en": "White Matcha",
+  "zh": null,
+  "ru": "Белая матча",
+  "native": null,
+  "aliases": [],
+  "category": "white",
+  "country": "China",
+  "region": null,
+  "kind": "style",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://ratetea.com/styles.php"
+  ]
+ },
+ {
+  "slug": "white-moon",
+  "en": "White Moon",
+  "zh": null,
+  "ru": "Белая луна",
+  "native": null,
+  "aliases": [],
+  "category": "white",
+  "country": "China",
+  "region": null,
+  "kind": "style",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://chay.by/product/chaj-belyj-belaja-luna-100-g-vesovoj/"
+  ]
+ },
+ {
+  "slug": "white-orange-nepal",
+  "en": "White Orange",
+  "zh": null,
+  "ru": "Белый апельсин (Непал)",
+  "native": null,
+  "aliases": [],
+  "category": "white",
+  "country": "Nepal",
+  "region": null,
+  "kind": "style",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://stir-tea-coffee.com/features/teas-from-the-hills-of-nepal"
+  ]
+ },
+ {
+  "slug": "white-prakash",
+  "en": "White Prakash",
+  "zh": null,
+  "ru": "Уайт Пракаш",
+  "native": null,
+  "aliases": [],
+  "category": "white",
+  "country": "Nepal",
+  "region": null,
+  "kind": "style",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://teakulture.be/en/pages/nepal"
+  ]
+ },
+ {
+  "slug": "white-tea-dragon-pearls",
+  "en": "White Tea Dragon Pearls",
+  "zh": "白茶龙珠",
+  "ru": "Бай Ча Лун Чжу",
+  "native": null,
+  "aliases": [
+   "White Tea Dragon Ball",
+   "White Pearls (Panda Pearls)"
+  ],
+  "category": "white",
+  "country": "China",
+  "region": "Yunnan",
+  "kind": "style",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://ellenskitchen.com/faqs/chinatea4.html",
+   "https://www.chawangshop.com/36-other-tea",
+   "https://www.yunnansourcing.com/products.json?limit=250&page=1"
+  ]
+ },
+ {
+  "slug": "wild-purple-sweet-ya-bao",
+  "en": "Wild Purple Sweet Ya Bao",
+  "zh": null,
+  "ru": "Е Шэн Цзы Я Бао",
+  "native": null,
+  "aliases": [],
+  "category": "white",
+  "country": "China",
+  "region": "Yunnan",
+  "kind": "style",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://yunnansourcing.com/collections/purple-tea/products.json?limit=250"
+  ]
+ },
+ {
+  "slug": "wu-liang-bai-cha",
+  "en": "Wu Liang Bai Cha",
+  "zh": "无量白茶",
+  "ru": "Улян Бай Ча",
+  "native": null,
+  "aliases": [],
+  "category": "white",
+  "country": "China",
+  "region": "Yunnan · Wuliang",
+  "kind": "variety",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://yunnansourcing.com/collections/white-tea/products.json?limit=250"
+  ]
+ },
+ {
+  "slug": "xianfeng-bai-cha",
+  "en": "Xianfeng Bai Cha",
+  "zh": "咸丰白茶",
+  "ru": "Сяньфэн Бай Ча",
+  "native": null,
+  "aliases": [],
+  "category": "white",
+  "country": "China",
+  "region": "Hubei · Enshi · Xianfeng",
+  "kind": "variety",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://www.xn--btrs6f400a.com/index.php/wap/jyxw/1037.html"
+  ]
+ },
+ {
+  "slug": "ximeng-white",
+  "en": "Ximeng White Tea",
+  "zh": "西盟白茶",
+  "ru": "Симэн Бай Ча",
+  "native": null,
+  "aliases": [],
+  "category": "white",
+  "country": "China",
+  "region": "Yunnan · Ximeng",
+  "kind": "style",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://www.bitterleafteas.com/"
+  ]
+ },
+ {
+  "slug": "xingshan-bai-cha",
+  "en": "Xingshan Bai Cha",
+  "zh": "兴山白茶",
+  "ru": "Синшань Бай Ча",
+  "native": null,
+  "aliases": [],
+  "category": "white",
+  "country": "China",
+  "region": "Hubei · Yichang · Xingshan",
+  "kind": "variety",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://www.xn--btrs6f400a.com/index.php/wap/jyxw/1037.html"
+  ]
+ },
+ {
+  "slug": "xue-ya",
+  "en": "Xue Ya (Snowbud)",
+  "zh": "雪芽",
+  "ru": "Сюэ Я",
+  "native": null,
+  "aliases": [
+   "Snow Buds"
+  ],
+  "category": "white",
+  "country": "China",
+  "region": null,
+  "kind": "variety",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://ellenskitchen.com/faqs/chinatea4.html",
+   "https://ratetea.com/styles.php"
+  ]
+ },
+ {
+  "slug": "ye-fang-bai-mu-dan",
+  "en": "Ye Fang Bai Mu Dan",
+  "zh": "野放白牡丹",
+  "ru": "Е Фан Бай Му Дань",
+  "native": null,
+  "aliases": [
+   "Aged Ye Fang Bai Mu Dan"
+  ],
+  "category": "white",
+  "country": "China",
+  "region": "Fujian",
+  "kind": "style",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://www.jingteashop.com/products.json?limit=250"
+  ]
+ },
+ {
+  "slug": "ye-fang-shou-mei",
+  "en": "Ye Fang Shou Mei",
+  "zh": "野放寿眉",
+  "ru": "Е Фан Шоу Мэй",
+  "native": null,
+  "aliases": [],
+  "category": "white",
+  "country": "China",
+  "region": "Fujian · Fuding",
+  "kind": "style",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://yunnansourcing.com/collections/white-tea/products.json?limit=250"
+  ]
+ },
+ {
+  "slug": "yi-shan-white",
+  "en": "Yi Shan White Tea",
+  "zh": null,
+  "ru": "Ишань Бай Ча",
+  "native": null,
+  "aliases": [],
+  "category": "white",
+  "country": "China",
+  "region": "Yunnan · Yiwu",
+  "kind": "variety",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://yunnansourcing.com/collections/white-tea/products.json?limit=250"
+  ]
+ },
+ {
+  "slug": "yingjiang-dabaicha",
+  "en": "Yingjiang Dabaicha",
+  "zh": "盈江大白茶",
+  "ru": "Инцзян Дабай Ча",
+  "native": null,
+  "aliases": [
+   "Dabaicha",
+   "大白茶"
+  ],
+  "category": "white",
+  "country": "China",
+  "region": "Yunnan · Dehong · Yingjiang",
+  "kind": "appellation",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://milulu.com.cn/techan/33433.html"
+  ]
+ },
+ {
+  "slug": "yingzuiya-bai-cha",
+  "en": "Yingzuiya Bai Cha",
+  "zh": "鹰嘴芽白茶",
+  "ru": "Инцзуйя Бай Ча",
+  "native": null,
+  "aliases": [
+   "Yingzuiya Baicha"
+  ],
+  "category": "white",
+  "country": "China",
+  "region": "Sichuan",
+  "kind": "variety",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://zh.wikipedia.org/wiki/川茶"
+  ]
+ },
+ {
+  "slug": "yiwu-guoyoulin-white",
+  "en": "Yiwu Guoyoulin White Tea",
+  "zh": "易武国有林白茶",
+  "ru": "Иу Гоюлинь Бай Ча",
+  "native": null,
+  "aliases": [],
+  "category": "white",
+  "country": "China",
+  "region": "Yunnan · Yiwu",
+  "kind": "style",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://essenceoftea.com/products.json?limit=250"
+  ]
+ },
+ {
+  "slug": "yongde-purple-white",
+  "en": "Yongde Purple White Tea",
+  "zh": "永德紫白茶",
+  "ru": "Юндэ Цзы Бай Ча",
+  "native": null,
+  "aliases": [
+   "Big Snow Mountain Purple White Tea",
+   "Yong De Purple White Tea"
+  ],
+  "category": "white",
+  "country": "China",
+  "region": "Yunnan · Lincang · Yongde",
+  "kind": "variety",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://yunnansourcing.com/collections/white-tea/products.json?limit=250"
+  ]
+ },
+ {
+  "slug": "you-le-white",
+  "en": "You Le Mountain White Tea",
+  "zh": "攸乐白茶",
+  "ru": "Юлэ Бай Ча",
+  "native": null,
+  "aliases": [],
+  "category": "white",
+  "country": "China",
+  "region": "Yunnan · Xishuangbanna · Youle",
+  "kind": "variety",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://yunnansourcing.com/collections/white-tea/products.json?limit=250"
+  ]
+ },
+ {
+  "slug": "yue-guang-bai-cake",
+  "en": "Yue Guang Bai Cake",
+  "zh": "月光白饼",
+  "ru": "Юэ Гуан Бай Бин",
+  "native": null,
+  "aliases": [],
+  "category": "white",
+  "country": "China",
+  "region": "Yunnan",
+  "kind": "style",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://tea-lab.pages.dev/types/white/"
+  ]
+ },
+ {
+  "slug": "yue-guang-ya-bao",
+  "en": "Yue Guang Ya Bao",
+  "zh": "月光芽苞",
+  "ru": "Юэ Гуан Я Бао",
+  "native": null,
+  "aliases": [],
+  "category": "white",
+  "country": "China",
+  "region": "Yunnan · Dehong",
+  "kind": "style",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://yunnansourcing.com/collections/purple-tea/products.json?limit=250"
+  ]
+ },
+ {
+  "slug": "yunnan-gu-shu-moonlight",
+  "en": "Yunnan Gu Shu Moonlight",
+  "zh": "云南古树月光白",
+  "ru": "Юньнань Гу Шу Юэ Гуан Бай",
+  "native": null,
+  "aliases": [],
+  "category": "white",
+  "country": "China",
+  "region": "Yunnan",
+  "kind": "style",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://www.sazentea.com/en/products/c57-chinese-tea"
+  ]
+ },
+ {
+  "slug": "yunnan-jasmine-silver-needles",
+  "en": "Jasmine Silver Needles (Yunnan)",
+  "zh": "云南茉莉银针",
+  "ru": "Юньнань Мо Ли Инь Чжэнь",
+  "native": null,
+  "aliases": [],
+  "category": "white",
+  "country": "China",
+  "region": "Yunnan",
+  "kind": "scented",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://www.yunnansourcing.com/products.json?limit=250&page=9"
+  ]
+ },
+ {
+  "slug": "yunnan-shou-mei",
+  "en": "Yunnan Shou Mei",
+  "zh": "云南寿眉",
+  "ru": "Юньнань Шоу Мэй",
+  "native": null,
+  "aliases": [
+   "Yunnan Shoumei"
+  ],
+  "category": "white",
+  "country": "China",
+  "region": "Yunnan",
+  "kind": "variety",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://orientaleaf.com/blogs/tea-101/types-of-fuding-white-tea"
+  ]
+ },
+ {
+  "slug": "yunnan-zaochun-xiao-bai-hao",
+  "en": "Yunnan Zaochun Xiao Bai Hao",
+  "zh": "云南早春小白毫",
+  "ru": "Юньнань Цзао Чунь Сяо Бай Хао",
+  "native": null,
+  "aliases": [
+   "Yunnan Zaochun Xiaobaihao"
+  ],
+  "category": "white",
+  "country": "China",
+  "region": "Yunnan",
+  "kind": "variety",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://tea.community/zh-CN/collections/geographical-indication"
+  ]
+ },
+ {
+  "slug": "zhenghe-jasmine-yin-zhen",
+  "en": "Zhenghe Jasmine Yin Zhen",
+  "zh": "政和茉莉银针",
+  "ru": "Чжэнхэ Мо Ли Инь Чжэнь",
+  "native": null,
+  "aliases": [
+   "Zhenghe Jasmine Yinzhen"
+  ],
+  "category": "white",
+  "country": "China",
+  "region": "Fujian · Zhenghe",
+  "kind": "scented",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://blog.sina.com.cn/s/blog_414dbdbf0102vc1x.html"
+  ]
+ },
+ {
+  "slug": "zhenghe-shou-mei",
+  "en": "Zhenghe Shou Mei",
+  "zh": "政和寿眉",
+  "ru": "Чжэнхэ Шоу Мэй",
+  "native": null,
+  "aliases": [
+   "Zhenghe Shoumei"
+  ],
+  "category": "white",
+  "country": "China",
+  "region": "Fujian · Zhenghe",
+  "kind": "appellation",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://www.chawangshop.com/36-other-tea"
+  ]
+ },
+ {
+  "slug": "zomba-pearls",
+  "en": "Zomba Pearls",
+  "zh": null,
+  "ru": "Жемчужины Зомба",
+  "native": null,
+  "aliases": [
+   "Zomba Pearls 107"
+  ],
+  "category": "white",
+  "country": "Malawi",
+  "region": "Zomba",
+  "kind": "style",
+  "tier": 3,
+  "existing_slug": null,
+  "evidence": [
+   "https://www.satemwa.com/whiteteamalawi"
+  ]
+ }
+]
