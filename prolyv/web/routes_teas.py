@@ -5,11 +5,12 @@ from __future__ import annotations
 import json
 import uuid
 from datetime import datetime
-from urllib.parse import urlencode
+from urllib.parse import quote, urlencode
 
 from fastapi import APIRouter, Depends, Form, HTTPException, Request
 from fastapi.responses import RedirectResponse, Response
 from sqlalchemy import func, select
+from sqlalchemy.orm import load_only, selectinload
 
 from prolyv.handles import slugify
 from prolyv.models import (
@@ -23,6 +24,7 @@ from prolyv.models import (
     TeaStatus,
     fold_text,
     origin_key,
+    origin_levels,
     utcnow,
 )
 from prolyv.search import index_tea, remove
@@ -34,6 +36,7 @@ from prolyv.web.templating import render
 router = APIRouter()
 
 PAGE_SIZE = 24
+ORIGIN_CHIPS = 12
 SORTS = {
     "popular": lambda: (Tea.popularity.desc(), Tea.name_en.asc()),
     "name": lambda: (Tea.name_en.asc(),),
@@ -41,8 +44,18 @@ SORTS = {
 }
 
 
+# what a card in a list shows: its photos, and none of the long text a real card carries
+CARD_COLUMNS = (Tea.slug, Tea.name_en, Tea.name_native, Tea.name_zh, Tea.name_ru, Tea.category, Tea.origin_country,
+                Tea.origin_region, Tea.taste_tags, Tea.liquor_hex, Tea.status, Tea.locked)
+CARD_OPTIONS = (load_only(*CARD_COLUMNS), selectinload(Tea.images))
+
+
 def published() -> select:
     return select(Tea).where(Tea.status == TeaStatus.published)
+
+
+def count_of(db, stmt) -> int:  # noqa: ANN001
+    return db.scalar(stmt.with_only_columns(func.count(), maintain_column_froms=True).order_by(None)) or 0
 
 
 def apply_filters(stmt, q: str, category: str, origin: str, form: str):
@@ -69,6 +82,20 @@ def origin_label(db, key: str) -> str | None:  # noqa: ANN001
     return next((label for label, k in tea.origin_parts if k == key), None)
 
 
+def sub_origins(db, key: str, limit: int = 60) -> list[dict]:  # noqa: ANN001
+    """The regions inside a country or region, most teas first, for the chips on its page."""
+    rows = db.execute(select(Tea.origin_country, Tea.origin_region).where(Tea.status == TeaStatus.published, Tea.origin_keys.like(f"% {key} %"))).all()
+    found: dict[str, dict] = {}
+    for country, region in rows:
+        levels = origin_levels(region)
+        keys = [origin_key(level) for level in levels]
+        inside = levels if origin_key(country) == key else levels[keys.index(key) + 1:] if key in keys else []
+        for level in dict.fromkeys(inside):
+            entry = found.setdefault(origin_key(level), {"name": level, "key": origin_key(level), "count": 0})
+            entry["count"] += 1
+    return sorted(found.values(), key=lambda r: (-r["count"], r["name"]))[:limit]
+
+
 def list_page(request: Request, db, user, *, q="", category="", origin="", form="", sort="popular", page=1,  # noqa: ANN001
               title=None, intro=None, canonical=None):
     q = q.strip()[:80]
@@ -78,10 +105,10 @@ def list_page(request: Request, db, user, *, q="", category="", origin="", form=
     page = max(1, page)
 
     stmt = apply_filters(published(), q, category, origin, form)
-    total = db.scalar(select(func.count()).select_from(stmt.subquery())) or 0
+    total = count_of(db, stmt)
     pages = max(1, (total + PAGE_SIZE - 1) // PAGE_SIZE)
     page = min(page, pages)
-    teas = db.execute(stmt.order_by(*SORTS[sort]()).offset((page - 1) * PAGE_SIZE).limit(PAGE_SIZE)).scalars().all()
+    teas = db.execute(stmt.options(*CARD_OPTIONS).order_by(*SORTS[sort]()).offset((page - 1) * PAGE_SIZE).limit(PAGE_SIZE)).scalars().all()
 
     category_counts = dict(db.execute(select(Tea.category, func.count()).where(Tea.status == TeaStatus.published).group_by(Tea.category)).all())
     country_counts = db.execute(
@@ -99,7 +126,7 @@ def list_page(request: Request, db, user, *, q="", category="", origin="", form=
 
     context = {
         "teas": teas, "total": total, "page": page, "pages": pages, "q": q, "category": category, "origin": origin,
-        "form": form, "sort": sort, "page_url": page_url,
+        "form": form, "sort": sort, "page_url": page_url, "shown": min(page * PAGE_SIZE, total),
         "title": title or ("Teas" if not q else f"Teas matching “{q}”"),
         "intro": intro,
         "canonical": canonical or "/teas",
@@ -107,6 +134,7 @@ def list_page(request: Request, db, user, *, q="", category="", origin="", form=
         "countries": [(origin_key(name), name, count) for name, count in country_counts],
         "forms": [(f.value, FORM_LABELS[f], form_counts.get(f, 0)) for f in TeaForm if form_counts.get(f)],
         "origin_label": origin_label(db, origin) if origin else None,
+        "sub_origins": sub_origins(db, origin) if origin and (canonical or "").startswith("/teas/o/") else [],
     }
     return render(request, "teas/list.html", context)
 
@@ -282,25 +310,38 @@ def tea_origins(request: Request, db: DbDep, user: CurrentUser):
     for country, region in rows:
         entry = countries.setdefault(country, {"name": country, "key": origin_key(country), "count": 0, "regions": {}})
         entry["count"] += 1
-        for level in {part.strip() for part in (region or "").split("·") if part.strip()}:
+        for level in dict.fromkeys(origin_levels(region)):
             reg = entry["regions"].setdefault(origin_key(level), {"name": level, "key": origin_key(level), "count": 0})
             reg["count"] += 1
     ordered = sorted(countries.values(), key=lambda c: (-c["count"], c["name"]))
     for entry in ordered:
-        entry["regions"] = sorted(entry["regions"].values(), key=lambda r: (-r["count"], r["name"]))
+        regions = sorted(entry["regions"].values(), key=lambda r: (-r["count"], r["name"]))
+        entry["regions"], entry["region_count"] = regions[:ORIGIN_CHIPS], len(regions)
     return render(request, "teas/origins.html", {"countries": ordered})
 
 
-@router.get("/teas/a-z")
-def tea_a_to_z(request: Request, db: DbDep, user: CurrentUser):
-    rows = db.execute(
-        select(Tea.slug, Tea.name_en, Tea.name_zh, Tea.name_ru).where(Tea.status == TeaStatus.published).order_by(Tea.name_en)
-    ).all()
+def first_letter(name: str) -> str:
+    first = fold_text(name[:2])[:1].upper()
+    return first if "A" <= first <= "Z" else "#"
+
+
+def tea_letters(db) -> dict[str, list]:  # noqa: ANN001
+    rows = db.execute(select(Tea.slug, Tea.name_en, Tea.name_zh, Tea.name_ru).where(Tea.status == TeaStatus.published)).all()
     letters: dict[str, list] = {}
     for row in rows:
-        first = fold_text(row.name_en)[:1].upper()
-        letters.setdefault(first if first.isalpha() else "#", []).append(row)
-    return render(request, "teas/a_z.html", {"letters": letters, "total": len(rows)})
+        letters.setdefault(first_letter(row.name_en), []).append(row)
+    return dict(sorted(letters.items(), key=lambda item: (item[0] == "#", item[0])))
+
+
+@router.get("/teas/a-z")
+def tea_a_to_z(request: Request, db: DbDep, user: CurrentUser, letter: str = ""):
+    """One letter at a time: the whole base on one page would be megabytes of links."""
+    letters = tea_letters(db)
+    letter = letter.upper() if letter.upper() in letters else next(iter(letters), "")
+    rows = sorted(letters.get(letter, []), key=lambda row: fold_text(row.name_en))
+    context = {"letters": {key: len(value) for key, value in letters.items()}, "letter": letter, "rows": rows,
+               "total": sum(len(value) for value in letters.values())}
+    return render(request, "teas/a_z.html", context)
 
 
 def absolute_url(settings, url: str | None) -> str | None:  # noqa: ANN001
@@ -321,7 +362,7 @@ def tea_detail(request: Request, db: DbDep, settings: SettingsDep, user: Current
     lang = lang if lang in languages else "en"
     text = tea.localized(lang)
     related = db.execute(
-        published().where(Tea.category == tea.category, Tea.id != tea.id).order_by(Tea.popularity.desc(), Tea.name_en).limit(4)
+        published().options(*CARD_OPTIONS).where(Tea.category == tea.category, Tea.id != tea.id).order_by(Tea.popularity.desc(), Tea.name_en).limit(4)
     ).scalars().all()
     image = tea.primary_image
     page_url = f"{settings.base_url}/teas/{tea.slug}"
@@ -359,11 +400,11 @@ def tea_detail(request: Request, db: DbDep, settings: SettingsDep, user: Current
 def admin_teas(request: Request, db: DbDep, user: AdminUser, q: str = "", page: int = 1):
     q = q.strip()[:80]
     stmt = apply_filters(select(Tea), q, "", "", "")
-    total_found = db.scalar(select(func.count()).select_from(stmt.subquery())) or 0
+    total_found = count_of(db, stmt)
     pages = max(1, (total_found + 49) // 50)
     page = min(max(1, page), pages)
-    teas = db.execute(stmt.order_by(Tea.status.desc(), Tea.name_en).offset((page - 1) * 50).limit(50)).scalars().all()
-    total = db.scalar(select(func.count()).select_from(published().subquery())) or 0
+    teas = db.execute(stmt.options(*CARD_OPTIONS).order_by(Tea.status.desc(), Tea.name_en).offset((page - 1) * 50).limit(50)).scalars().all()
+    total = count_of(db, published())
     drafts = db.scalar(select(func.count()).select_from(Tea).where(Tea.status == TeaStatus.pending)) or 0
     with_photos = db.scalar(
         select(func.count(func.distinct(TeaImage.tea_id))).join(Tea, Tea.id == TeaImage.tea_id).where(Tea.status == TeaStatus.published)
@@ -464,6 +505,7 @@ def sitemap(db: DbDep, settings: SettingsDep):
     base = settings.base_url
     entries = [(f"{base}/", None), (f"{base}/teas", None), (f"{base}/login", None)]
     entries += [(f"{base}/teas/types", None), (f"{base}/teas/origins", None), (f"{base}/teas/a-z", None)]
+    entries += [(f"{base}/teas/a-z?letter={quote(letter)}", None) for letter in tea_letters(db)]
     entries += [(f"{base}/teas/c/{c.value}", None) for c in TeaCategory]
     origin_rows = db.execute(select(Tea.origin_keys).where(Tea.status == TeaStatus.published)).scalars().all()
     origins = sorted({key for row in origin_rows for key in row.split()})

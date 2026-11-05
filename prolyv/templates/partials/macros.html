@@ -6,6 +6,14 @@
 {% if user.avatar_url %}<img class="avatar" src="{{ user.avatar_url }}" alt="" width="{{ size }}" height="{{ size }}" style="--size:{{ size }}px" referrerpolicy="no-referrer" loading="lazy">{% else %}<span class="avatar avatar-initials" style="--size:{{ size }}px" aria-hidden="true">{{ user.initials }}</span>{% endif %}
 {%- endmacro %}
 
+{# Goes last inside a .more-list. The next page's items and its own button replace this block; without JS it is a plain link. #}
+{% macro show_more(url, note=None) -%}
+<div class="show-more">
+  <a class="btn btn-secondary btn-sm" href="{{ url }}" hx-get="{{ url }}" hx-target="closest .show-more" hx-swap="outerHTML" hx-select=".more-list > *" hx-push-url="false">Show more</a>
+  {% if note %}<span class="muted small">{{ note }}</span>{% endif %}
+</div>
+{%- endmacro %}
+
 {% macro tea_card(tea) -%}
 <a class="tea-card" href="/teas/{{ tea.slug }}">
   <span class="tea-card-media" data-category="{{ tea.category.value }}">

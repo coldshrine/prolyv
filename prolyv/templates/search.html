@@ -1,5 +1,5 @@
 {% extends "base.html" %}
-{% from "partials/macros.html" import tea_row, session_card, topic_card, post_card %}
+{% from "partials/macros.html" import tea_row, session_card, topic_card, post_card, show_more %}
 {% block title %}{% if q %}{{ q }} · {% endif %}Search · Prolyv{% endblock %}
 {% block head %}<meta name="robots" content="noindex">{% endblock %}
 {% block content %}
@@ -15,10 +15,11 @@
     {% for key, label in tabs %}<a class="chip{% if key == type %} chip-on{% endif %}" href="/search?q={{ q|urlencode }}{% if key != 'all' %}&type={{ key }}{% endif %}">{{ label }}</a>{% endfor %}
   </nav>
   {% if results %}
-  <div class="feed">
+  <div class="feed more-list">
     {% for r in results %}
     {% if r.kind == 'tea' %}{{ tea_row(r.obj) }}{% elif r.kind == 'topic' %}{{ topic_card(r.obj) }}{% elif r.kind == 'post' %}{{ post_card(r.obj) }}{% else %}{{ session_card(r.obj) }}{% endif %}
     {% endfor %}
+    {% if next_url %}{{ show_more(next_url) }}{% endif %}
   </div>
   {% else %}
   <div class="card empty"><p class="empty-title">Nothing matches “{{ q }}”</p><p class="muted">Try another spelling, or browse the <a href="/teas/a-z">tea base A–Z</a>.</p></div>

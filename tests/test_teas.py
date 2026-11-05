@@ -75,9 +75,75 @@ def test_pagination(client, db):
     for n in range(30):
         make_tea(db, f"tea-{n:02}", f"Tea {n:02}", popularity=1)
     first = client.get("/teas", params={"sort": "name"}).text
-    assert "Tea 00" in first and "Tea 25" not in first and "Page 1 of 2" in first
+    assert "Tea 00" in first and "Tea 25" not in first
+    assert "Show more" in first and "24 of 30" in first and "page=2" in first
+    assert 'hx-select=".more-list &gt; *"' in first or 'hx-select=".more-list > *"' in first
     second = client.get("/teas", params={"sort": "name", "page": 2}).text
     assert "Tea 25" in second and "Tea 00" not in second
+    assert "Show more" not in second and "Previous page" in second
+    assert "Tea 25" in client.get("/teas", params={"sort": "name", "page": 99}).text
+
+
+def test_lists_do_not_query_per_card(app, client, db):
+    from sqlalchemy import event
+
+    from prolyv.models import TeaImage
+
+    for n in range(40):
+        tea = make_tea(db, f"tea-{n:02}", f"Tea {n:02}", popularity=1)
+        db.add(TeaImage(tea_id=tea.id, url=f"https://upload.wikimedia.org/{n}.jpg", thumb_url=f"https://upload.wikimedia.org/{n}-t.jpg",
+                        author="x", license="CC0", is_primary=True))
+    db.commit()
+    seen = []
+    event.listen(app.state.engine, "before_cursor_execute", lambda _c, _cu, statement, *rest: seen.append(statement))
+    for url in ("/teas", "/teas/c/oolong", "/teas?q=tea", "/teas?page=2"):
+        seen.clear()
+        page = client.get(url)
+        assert page.status_code == 200 and "-t.jpg" in page.text
+        assert len(seen) < 12, (url, len(seen))
+
+
+def test_live_filter_also_refreshes_the_heading_and_count(client, db):
+    make_tea(db, "sencha", "Sencha", category="green", country="Japan")
+    make_tea(db, "rou-gui", "Rou Gui")
+    page = client.get("/teas", params={"q": "sencha"}).text
+    assert 'hx-select-oob="#tea-head"' in page and 'id="tea-head"' in page
+    head = page.split('id="tea-head"')[1].split("</div>")[0]
+    assert "1 tea" in head and "Teas matching" in head and "sencha" in head
+
+
+def test_origin_levels_cope_with_free_form_regions():
+    from prolyv.models import origin_levels
+
+    assert origin_levels("Nantou · Lugu; Taipei · Muzha") == ["Nantou", "Lugu", "Taipei", "Muzha"]
+    assert origin_levels("Central Province · Dimbula (Hatton, Talawakelle; 1,100 m)") == ["Central Province", "Dimbula"]
+    assert origin_levels("Nantou · Mingjian, Lugu and Zhushan") == ["Nantou", "Mingjian", "Lugu", "Zhushan"]
+    assert origin_levels("") == [] and origin_levels(None) == []
+    assert origin_levels("Darjeeling · Sandakphu") == ["Darjeeling", "Sandakphu"]
+
+
+def test_origin_pages_stay_small_and_link_to_every_region(client, db):
+    for n in range(20):
+        make_tea(db, f"tea-{n:02}", f"Tea {n:02}", country="China", region=f"Province{n:02}")
+    overview = client.get("/teas/origins").text
+    assert "All 20 regions" in overview and overview.count("/teas/o/province") == 12
+    country = client.get("/teas/o/china").text
+    assert country.count('href="/teas/o/province') == 20
+    assert client.get("/teas/o/province03").status_code == 200
+
+
+def test_a_to_z_shows_one_letter_at_a_time(client, db):
+    make_tea(db, "sencha", "Sencha", category="green", country="Japan")
+    make_tea(db, "bai-hao", "Bái Háo")
+    make_tea(db, "1000-peaks", "1000 Peaks")
+    first = client.get("/teas/a-z").text
+    assert "/teas/bai-hao" in first and "/teas/sencha" not in first and "letter=S" in first and "letter=%23" in first
+    s_page = client.get("/teas/a-z", params={"letter": "s"}).text
+    assert "/teas/sencha" in s_page and "/teas/bai-hao" not in s_page
+    assert "/teas/1000-peaks" in client.get("/teas/a-z", params={"letter": "#"}).text
+    assert "/teas/bai-hao" in client.get("/teas/a-z", params={"letter": "nope"}).text
+    sitemap = client.get("/sitemap.xml").text
+    assert "/teas/a-z?letter=S<" in sitemap and "/teas/a-z?letter=%23<" in sitemap
 
 
 def test_detail_page(client, db):
@@ -211,7 +277,9 @@ def test_index_pages_and_sitemap(client, db, settings):
     origins = client.get("/teas/origins").text
     assert "/teas/o/china" in origins and "/teas/o/wuyi-mountains" in origins and "/teas/o/japan" in origins
     az = client.get("/teas/a-z").text
-    assert 'id="letter-D"' in az and "大红袍" in az and "/teas/sencha" in az
+    assert "letter=D" in az and "letter=S" in az
+    az = client.get("/teas/a-z", params={"letter": "D"}).text
+    assert "大红袍" in az and "/teas/sencha" not in az
     sitemap = client.get("/sitemap.xml").text
     for path in ("/teas/types", "/teas/origins", "/teas/a-z", "/teas/o/wuyi-mountains", "/teas/c/oolong"):
         assert f"{settings.base_url}{path}<" in sitemap

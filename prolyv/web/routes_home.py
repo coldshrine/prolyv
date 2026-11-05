@@ -2,6 +2,8 @@
 
 from __future__ import annotations
 
+from urllib.parse import urlencode
+
 from fastapi import APIRouter, HTTPException, Request
 from fastapi.responses import JSONResponse, RedirectResponse
 from sqlalchemy import func, select
@@ -56,19 +58,27 @@ SEARCH_KINDS = {"all": ("tea", "topic", "reply", "post", "session"), "teas": ("t
                 "blog": ("post",), "sessions": ("session",)}
 
 
+SEARCH_PAGE = 30
+SEARCH_MAX_PAGES = 20
+
+
 @router.get("/search")
-def search_page(request: Request, db: DbDep, q: str = "", type: str = "all"):
+def search_page(request: Request, db: DbDep, q: str = "", type: str = "all", page: int = 1):
     from prolyv.models import Post, TeaSession, Topic
     from prolyv.web.routes_blog import published_posts
     from prolyv.web.routes_diary import public_sessions
     from prolyv.web.routes_forum import topic_query
+    from prolyv.web.routes_teas import CARD_OPTIONS
 
     q = q.strip()[:80]
     type = type if type in SEARCH_KINDS else "all"
-    hits = search_all(db, q, SEARCH_KINDS[type], limit=120) if q else []
+    page = min(max(1, page), SEARCH_MAX_PAGES)
+    matches = search_all(db, q, SEARCH_KINDS[type], limit=page * SEARCH_PAGE + 1) if q else []
+    hits = matches[(page - 1) * SEARCH_PAGE:page * SEARCH_PAGE]
+    more = len(matches) > page * SEARCH_PAGE and page < SEARCH_MAX_PAGES
     wanted = {kind: [ref for k, ref in hits if k == kind] for kind in ("tea", "topic", "post", "session")}
     found: dict[tuple, object] = {}
-    for obj in db.execute(select(Tea).where(Tea.id.in_(wanted["tea"]), Tea.status == TeaStatus.published)).scalars():
+    for obj in db.execute(select(Tea).options(*CARD_OPTIONS).where(Tea.id.in_(wanted["tea"]), Tea.status == TeaStatus.published)).scalars():
         found[("tea", obj.id)] = obj
     for obj in db.execute(topic_query().where(Topic.id.in_(wanted["topic"]), Topic.hidden.is_(False))).scalars():
         found[("topic", obj.id)] = obj
@@ -77,7 +87,8 @@ def search_page(request: Request, db: DbDep, q: str = "", type: str = "all"):
     for obj in db.execute(public_sessions().where(TeaSession.id.in_(wanted["session"]))).scalars():
         found[("session", obj.id)] = obj
     results = [{"kind": kind, "obj": found[(kind, ref)]} for kind, ref in hits if (kind, ref) in found]
-    return render(request, "search.html", {"q": q, "type": type, "tabs": SEARCH_TABS, "results": results})
+    next_url = f"/search?{urlencode({'q': q, **({'type': type} if type != 'all' else {}), 'page': page + 1})}" if more else None
+    return render(request, "search.html", {"q": q, "type": type, "tabs": SEARCH_TABS, "results": results, "next_url": next_url})
 
 
 @router.get("/healthz")

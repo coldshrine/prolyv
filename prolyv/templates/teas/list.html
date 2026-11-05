@@ -1,11 +1,11 @@
 {% extends "base.html" %}
-{% from "partials/macros.html" import tea_card %}
+{% from "partials/macros.html" import tea_card, show_more %}
 {% block title %}{{ title }} · Prolyv{% endblock %}
 {% block head %}<link rel="canonical" href="{{ settings.base_url }}{{ canonical }}">
 <meta name="description" content="Prolyv tea base: {{ total }} teas with photos, taste notes, brewing parameters and how each one is sold.">{% endblock %}
 {% block content %}
 <section class="container">
-  <div class="teas-head">
+  <div class="teas-head" id="tea-head">
     <div>
       <p class="eyebrow">Tea base · {{ total }} tea{{ '' if total == 1 else 's' }}</p>
       <h1 class="h1">{{ title }}</h1>
@@ -14,7 +14,7 @@
   </div>
 
   {% include "teas/_browse.html" %}
-  <form class="teas-filters" method="get" action="{{ canonical }}" hx-get="{{ canonical }}" hx-trigger="input delay:300ms, change" hx-target="#tea-results" hx-select="#tea-results" hx-swap="outerHTML" hx-push-url="true" role="search">
+  <form class="teas-filters" method="get" action="{{ canonical }}" hx-get="{{ canonical }}" hx-trigger="input delay:300ms, change" hx-target="#tea-results" hx-select="#tea-results" hx-select-oob="#tea-head" hx-swap="outerHTML" hx-push-url="true" hx-sync="this:replace" role="search">
     <input type="search" name="q" value="{{ q }}" placeholder="Search in English, 中文 or по-русски" autocomplete="off" aria-label="Search teas">
     <select name="origin" aria-label="Origin">
       <option value="">Any origin</option>
@@ -37,16 +37,22 @@
     {% for value, label, count in categories %}{% if count %}<a class="chip{% if value == category %} chip-on{% endif %}" href="/teas/c/{{ value }}">{{ label }} <span class="count">{{ count }}</span></a>{% endif %}{% endfor %}
   </nav>
 
+  {% if sub_origins %}
+  <nav class="chips origin-regions" aria-label="Regions">{% for r in sub_origins[:12] %}<a class="chip" href="/teas/o/{{ r.key }}">{{ r.name }} <span class="count">{{ r.count }}</span></a>{% endfor %}</nav>
+  {% if sub_origins|length > 12 %}
+  <details class="more-regions"><summary class="muted small">All {{ sub_origins|length }} regions</summary>
+    <nav class="chips origin-regions" aria-label="More regions">{% for r in sub_origins[12:] %}<a class="chip" href="/teas/o/{{ r.key }}">{{ r.name }} <span class="count">{{ r.count }}</span></a>{% endfor %}</nav>
+  </details>
+  {% endif %}
+  {% endif %}
+
   <div id="tea-results">
     {% if teas %}
-    <div class="tea-grid">{% for tea in teas %}{{ tea_card(tea) }}{% endfor %}</div>
-    {% if pages > 1 %}
-    <nav class="pagination" aria-label="Pages">
-      {% if page > 1 %}<a class="btn btn-secondary btn-sm" href="{{ page_url(page - 1) }}">← Previous</a>{% endif %}
-      <span class="muted">Page {{ page }} of {{ pages }}</span>
-      {% if page < pages %}<a class="btn btn-secondary btn-sm" href="{{ page_url(page + 1) }}">Next →</a>{% endif %}
-    </nav>
-    {% endif %}
+    {% if page > 1 %}<p class="previous-page"><a class="btn btn-ghost btn-sm" href="{{ page_url(page - 1) }}">← Previous page</a></p>{% endif %}
+    <div class="tea-grid more-list">
+      {% for tea in teas %}{{ tea_card(tea) }}{% endfor %}
+      {% if page < pages %}{{ show_more(page_url(page + 1), shown ~ " of " ~ total) }}{% endif %}
+    </div>
     {% else %}
     <div class="card empty">
       <p class="empty-title">Nothing found</p>

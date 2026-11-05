@@ -6,7 +6,7 @@ import enum
 import uuid
 from datetime import UTC, datetime
 
-from sqlalchemy import JSON, Boolean, DateTime, Enum, Float, ForeignKey, Integer, String, Text, UniqueConstraint, Uuid
+from sqlalchemy import JSON, Boolean, DateTime, Enum, Float, ForeignKey, Index, Integer, String, Text, UniqueConstraint, Uuid, desc
 from sqlalchemy.orm import DeclarativeBase, Mapped, mapped_column, relationship
 
 
@@ -220,6 +220,14 @@ class Tea(Base):
     aliases: Mapped[list[TeaAlias]] = relationship(back_populates="tea", cascade="all, delete-orphan")
     author: Mapped[User | None] = relationship()
 
+    # the base has thousands of cards: every list order reads straight from an index instead of sorting them all
+    __table_args__ = (
+        Index("ix_teas_status_popular", "status", desc("popularity"), "name_en"),
+        Index("ix_teas_status_category_popular", "status", "category", desc("popularity"), "name_en"),
+        Index("ix_teas_status_name", "status", "name_en"),
+        Index("ix_teas_status_created", "status", "created_at"),
+    )
+
     @property
     def category_label(self) -> str:
         return CATEGORY_LABELS[self.category]
@@ -236,10 +244,7 @@ class Tea(Base):
     def origin_parts(self) -> list[tuple[str, str]]:
         """[(label, key), ...] for country then each region level."""
         parts = [(self.origin_country, origin_key(self.origin_country))]
-        for level in (self.origin_region or "").split("·"):
-            level = level.strip()
-            if level:
-                parts.append((level, origin_key(level)))
+        parts += [(level, origin_key(level)) for level in origin_levels(self.origin_region)]
         return parts
 
     @property
@@ -283,6 +288,14 @@ def fold_text(text: str) -> str:
 
     decomposed = unicodedata.normalize("NFKD", text.lower())
     return "".join(ch for ch in decomposed if unicodedata.category(ch) != "Mn")
+
+
+def origin_levels(region: str | None) -> list[str]:
+    """Places named in a free-form region: 'Nantou · Lugu and Shuili; Taipei (Muzha, 400 m)' -> Nantou, Lugu, Shuili, Taipei."""
+    import re
+
+    plain = re.sub(r"\([^)]*\)", " ", region or "")
+    return [level.strip() for level in re.split(r"[·;,]|\band\b", plain) if origin_key(level)]
 
 
 def origin_key(label: str) -> str:

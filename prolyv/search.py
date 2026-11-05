@@ -135,7 +135,7 @@ def search_all(db: Session, raw: str, kinds: tuple[str, ...] = ("tea", "topic", 
     placeholders = ", ".join(f"'{k}'" for k in kinds)  # kinds are constants from this codebase
     rows = db.execute(
         text(f"SELECT kind, ref_id, topic_id, rank FROM search_fts WHERE search_fts MATCH :q AND kind IN ({placeholders}) ORDER BY rank LIMIT :limit"),
-        {"q": query, "limit": limit},
+        {"q": query, "limit": limit * 3},  # replies collapse into their topics below
     ).all()
     seen: set[tuple[str, str]] = set()
     results: list[tuple[str, uuid.UUID]] = []
@@ -144,7 +144,7 @@ def search_all(db: Session, raw: str, kinds: tuple[str, ...] = ("tea", "topic", 
         if key not in seen:
             seen.add(key)
             results.append((key[0], uuid.UUID(hex=key[1])))
-    return results
+    return results[:limit]
 
 
 def search_topics(db: Session, raw: str, limit: int = 50) -> list[uuid.UUID]:

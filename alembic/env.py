@@ -3,12 +3,17 @@
 from __future__ import annotations
 
 import os
+import warnings
 from logging.config import fileConfig
 
 from sqlalchemy import engine_from_config, pool
 
 from alembic import context
 from prolyv.models import Base
+
+# These sort popularity DESC, which autogenerate cannot compare on SQLite; the migration owns them.
+DESC_INDEXES = {"ix_teas_status_popular", "ix_teas_status_category_popular"}
+warnings.filterwarnings("ignore", message=".*expression-based index.*")
 
 config = context.config
 if config.config_file_name is not None:
@@ -20,6 +25,8 @@ target_metadata = Base.metadata
 def include_object(obj, name, type_, reflected, compare_to):  # noqa: ANN001
     """Skip the SQLite FTS5 virtual table and its shadow tables (created by raw SQL in the forum migration)."""
     if type_ == "table" and name.startswith(("forum_fts", "search_fts")):
+        return False
+    if type_ == "index" and name in DESC_INDEXES:
         return False
     return True
 

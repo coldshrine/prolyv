@@ -289,6 +289,11 @@ select option { color: #111; }
 .tea-card-origin { font-size: 13px; color: var(--muted); }
 .tags { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 6px; }
 .tag { display: inline-flex; align-items: center; padding: 3px 10px; border-radius: 999px; background: rgba(138, 63, 252, 0.22); color: #DCC8FF; font-size: 12px; font-weight: 800; }
+.show-more { grid-column: 1 / -1; display: flex; align-items: center; justify-content: center; gap: 12px; margin-top: 12px; padding: 4px 0; }
+.show-more.htmx-request { opacity: .55; }
+.more-regions { margin-top: 8px; }
+.more-regions summary { cursor: pointer; min-height: 32px; }
+.previous-page { margin: 16px 0 -6px; }
 .pagination { display: flex; align-items: center; justify-content: center; gap: 14px; margin-top: 24px; }
 
 /* category cup marks */
