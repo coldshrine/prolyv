@@ -17,6 +17,7 @@ from prolyv.ratelimit import RateLimiter, RateLimitMiddleware
 from prolyv.security import Signer
 from prolyv.web import routes_account, routes_auth, routes_home
 from prolyv.web.cookies import PendingCookiesMiddleware
+from prolyv.web.headmethod import HeadMethodMiddleware
 from prolyv.web.routes_auth import login_redirect
 from prolyv.web.templating import render
 
@@ -46,6 +47,7 @@ def create_app(settings: Settings | None = None, google_transport=None) -> FastA
     )
 
     app.add_middleware(PendingCookiesMiddleware)
+    app.add_middleware(HeadMethodMiddleware)
     app.add_middleware(RateLimitMiddleware, limiter=RateLimiter(settings.auth_rate_limit, settings.auth_rate_window))
 
     app.mount("/static", StaticFiles(directory=str(STATIC_DIR)), name="static")

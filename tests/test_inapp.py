@@ -38,3 +38,11 @@ def test_login_shows_google_in_a_regular_browser(client):
     assert "/auth/google/start" in page
     assert "Open in your browser to use Google" not in page
     assert "Read the feed without an account" in page
+
+
+def test_head_requests_are_answered_like_get_without_a_body(client):
+    response = client.head("/")
+    assert response.status_code == 200
+    assert response.content == b""
+    assert client.head("/healthz").status_code == 200
+    assert client.head("/no-such-page").status_code == 404
