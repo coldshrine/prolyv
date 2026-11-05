@@ -34,6 +34,7 @@ from prolyv.search import index_tea, remove
 from prolyv.web.cup import HEX_RE
 from prolyv.web.deps import AdminUser, CurrentUser, DbDep, SettingsDep, SignerDep, require_csrf
 from prolyv.web.flash import set_flash
+from prolyv.web.tea_labels import tea_labels
 from prolyv.web.templating import render
 
 router = APIRouter()
@@ -421,7 +422,8 @@ def tea_detail(request: Request, db: DbDep, settings: SettingsDep, user: Current
     image = tea.primary_image
     page_url = f"{settings.base_url}/teas/{tea.slug}"
     alternate = [a for a in [tea.name_zh, tea.name_ru, tea.name_native, tea.name_romanized, *[a.alias for a in tea.aliases]] if a]
-    summary = (text["taste_profile"] or (text["description_paragraphs"] or [tea.name_en])[0])[:300]
+    first_paragraph = (text["description_paragraphs"] or [tea.name_en])[0]
+    summary = (first_paragraph if tea.confidence == "low" else text["taste_profile"] or first_paragraph)[:300]
     jsonld = {
         "@context": "https://schema.org", "@type": "Article", "headline": tea.name_en, "about": {
             "@type": "Thing", "name": tea.name_en, "alternateName": alternate[:8], "description": summary},
@@ -439,7 +441,13 @@ def tea_detail(request: Request, db: DbDep, settings: SettingsDep, user: Current
     session_total, session_avg = db.execute(
         select(func.count(), func.avg(TeaSession.rating)).where(TeaSession.tea_id == tea.id, TeaSession.visibility == Visibility.public, TeaSession.hidden.is_(False))
     ).one()
+    t = tea_labels(lang)
+    local_name = {"ru": tea.name_ru, "zh": tea.name_zh}.get(lang) or tea.name_en
+    paragraphs = text["description_paragraphs"]
+    # on a short card the taste line is generic: lead with what the tea is, and don't repeat it below
+    thin_lead = paragraphs[0] if tea.confidence == "low" and paragraphs else None
     context = {
+        "t": t, "local_name": local_name, "thin_lead": thin_lead, "about_paragraphs": paragraphs[1:] if thin_lead else paragraphs,
         "session_total": session_total, "session_avg": round(session_avg, 1) if session_avg else None,
         "saved": is_saved(db, user, "tea", tea.id),
         "tea": tea, "text": text, "lang": lang, "languages": languages, "related": related, "image": image, "is_admin_view": is_admin,

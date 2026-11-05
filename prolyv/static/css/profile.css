@@ -1,6 +1,6 @@
 /* Profile (Profile.dc.html, MProfile.dc.html) and the small people pages. Phone first. */
 .pf-page .topbar { display: none; }
-.pf-topbar { position: sticky; top: 0; z-index: 10; height: 56px; padding: 0 8px; display: flex; align-items: center; gap: 2px; background: rgba(7, 8, 26, 0.85); backdrop-filter: blur(16px); -webkit-backdrop-filter: blur(16px); border-bottom: 1px solid rgba(255, 255, 255, 0.08); }
+.pf-topbar { position: sticky; top: 0; z-index: 10; height: 56px; padding: 0 8px; display: flex; align-items: center; gap: 2px; background: rgba(7, 8, 26, 0.95); backdrop-filter: blur(16px); -webkit-backdrop-filter: blur(16px); border-bottom: 1px solid rgba(255, 255, 255, 0.08); }
 .pf-topbar-btn { width: 44px; height: 44px; flex: none; display: inline-grid !important; place-items: center; border-radius: 999px; color: #FFFFFF; }
 .pf-topbar-title { margin: 0; flex: 1; min-width: 0; padding: 0 4px; font-family: var(--font-head); font-weight: 700; font-size: 17px; line-height: 1.2; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
 .pf-more summary { border-radius: 999px; }

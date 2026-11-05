@@ -95,7 +95,7 @@ h3 { font-size: 18px; font-weight: 700; }
 /* Top bar */
 .topbar {
   position: sticky; top: 0; z-index: 10;
-  background: rgba(7, 8, 26, 0.82); backdrop-filter: blur(18px); -webkit-backdrop-filter: blur(18px);
+  background: rgba(7, 8, 26, 0.95); backdrop-filter: blur(18px); -webkit-backdrop-filter: blur(18px);
   border-bottom: 1px solid rgba(255, 255, 255, 0.08);
 }
 .topbar-inner { max-width: 1240px; margin: 0 auto; padding: 12px 16px; display: flex; align-items: center; gap: 12px; }
@@ -128,7 +128,7 @@ h3 { font-size: 18px; font-weight: 700; }
   position: fixed; left: 0; right: 0; bottom: 0; z-index: 10;
   height: calc(var(--tabbar-h) + env(safe-area-inset-bottom)); padding: 6px 6px calc(16px + env(safe-area-inset-bottom));
   display: flex; align-items: center; justify-content: space-between;
-  background: rgba(7, 8, 26, 0.92); backdrop-filter: blur(18px); -webkit-backdrop-filter: blur(18px);
+  background: rgba(7, 8, 26, 0.95); backdrop-filter: blur(18px); -webkit-backdrop-filter: blur(18px);
   border-top: 1px solid rgba(255, 255, 255, 0.1);
 }
 .tabbar a { flex: 1; min-width: 0; min-height: 56px; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 3px; color: var(--muted-2); text-decoration: none; font-size: 11px; font-weight: 800; letter-spacing: 0.02em; }

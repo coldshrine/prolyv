@@ -337,7 +337,7 @@ def test_encyclopedia_fields_on_the_card(client, db):
     assert "background:#D8C86A" in page and "background:#3F6B3F" in page and "Sources" in page
     assert "thinly documented" in page and 'hreflang="ru"' in page and "?lang=ru" in page and "中文" not in page
     ru = client.get("/teas/tie-guan-yin", params={"lang": "ru"}).text
-    assert "Первый абзац." in ru and "История чая." in ru and "Орхидея." in ru and "First paragraph" not in ru
+    assert "Первый абзац." in ru and "История чая." in ru and "First paragraph" not in ru
     assert "First paragraph" in client.get("/teas/tie-guan-yin", params={"lang": "zh"}).text  # no translation: English
 
     make_tea(db, "plain", "Plain Tea")
@@ -415,3 +415,31 @@ def test_short_cards_have_no_history_section_and_one_thin_note(client, db):
     make_tea(db, "short", "Short", confidence="low", history="")
     page = client.get("/teas/short").text
     assert '<h2 class="h2">History</h2>' not in page and page.count("thinly documented") == 1
+
+
+def test_tea_page_labels_follow_the_cards_language(client, db):
+    make_tea(db, "dhp", "Da Hong Pao", name_ru="Да Хун Пао", name_zh="大红袍", i18n={"ru": {"description": "Описание чая."}, "zh": {"description": "茶的介绍。"}})
+    russian = client.get("/teas/dhp", params={"lang": "ru"}).text
+    assert ">Заваривание</h2>" in russian and ">Как продаётся</h2>" in russian and ">О чае Да Хун Пао</h2>" in russian and ">Происхождение</span>" in russian
+    assert ">Brewing</h2>" not in russian and "How it is sold" not in russian
+    chinese = client.get("/teas/dhp", params={"lang": "zh"}).text
+    assert ">冲泡</h2>" in chinese and ">关于大红袍</h2>" in chinese
+    english = client.get("/teas/dhp").text
+    assert ">Brewing</h2>" in english and ">About Da Hong Pao</h2>" in english and "Заваривание" not in english
+    assert client.get("/teas").text.count("Заваривание") == 0
+
+
+def test_every_translated_label_exists_in_both_languages():
+    from prolyv.web.tea_labels import LABELS
+
+    assert set(LABELS["ru"]) == set(LABELS["zh"])
+
+
+def test_a_short_card_leads_with_what_the_tea_is(client, db):
+    make_tea(db, "apricot", "Apricot Tea", confidence="low", taste_profile="Expect what black teas usually give.",
+             description="Black tea scented with apricot.\n\nSold in bags and loose.")
+    page = client.get("/teas/apricot").text
+    assert '<p class="lead" lang="en">Black tea scented with apricot.</p>' in page and "Expect what black teas" not in page.split("</main>")[0].split('class="lead"')[1].split("</p>")[0]
+    assert page.count("Black tea scented with apricot.") >= 1 and "<p>Black tea scented with apricot.</p>" not in page and "Sold in bags and loose." in page
+    make_tea(db, "known", "Known Tea", confidence="high", taste_profile="Plum and smoke.")
+    assert '<p class="lead" lang="en">Plum and smoke.</p>' in client.get("/teas/known").text

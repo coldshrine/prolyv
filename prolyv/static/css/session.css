@@ -6,7 +6,7 @@
 
 @media (max-width: 767.98px) {
   body.has-phonebar .topbar, body.has-phonebar .site-footer { display: none; }
-  .phonebar { position: sticky; top: 0; z-index: 20; height: 56px; padding: 0 8px; display: flex; align-items: center; gap: 2px; background: rgba(7,8,26,0.85); backdrop-filter: blur(16px); -webkit-backdrop-filter: blur(16px); border-bottom: 1px solid rgba(255,255,255,0.08); }
+  .phonebar { position: sticky; top: 0; z-index: 20; height: 56px; padding: 0 8px; display: flex; align-items: center; gap: 2px; background: rgba(7,8,26,0.95); backdrop-filter: blur(16px); -webkit-backdrop-filter: blur(16px); border-bottom: 1px solid rgba(255,255,255,0.08); }
   .phonebar-side { height: 44px; flex: none; display: inline-flex; align-items: center; padding: 0 8px; color: #D7D9F2; text-decoration: none; font-weight: 700; font-size: 15px; }
   .phonebar-title { margin: 0; flex: 1; min-width: 0; text-align: center; font-family: var(--font-head); font-weight: 700; font-size: 17px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
   .phonebar-title-left { padding: 0 4px; text-align: left; }
