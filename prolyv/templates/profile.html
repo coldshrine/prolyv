@@ -1,50 +1,187 @@
 {% extends "base.html" %}
-{% from "partials/macros.html" import avatar, session_card, topic_card, report_button, show_more %}
+{% from "partials/macros.html" import avatar, cup, report_button, show_more %}
 {% block title %}{{ profile.display_name }} (@{{ profile.handle }}) · Prolyv{% endblock %}
-{% block content %}
-<section class="hero hero-profile">
-  <div class="container profile-head">
-    <div class="profile-avatar">{{ avatar(profile, 160) }}</div>
-    <div class="profile-meta">
-      <p class="eyebrow">Public diary · since {{ joined }}</p>
-      <h1 class="display">{{ profile.display_name }}</h1>
-      <p class="profile-line"><span class="handle">@{{ profile.handle }}</span>{% if profile.bio %} · {{ profile.bio }}{% endif %}</p>
-      <div class="actions">
-        {% if is_me %}
-        <a class="btn btn-primary" href="/sessions/new">Log a tea</a>
-        <a class="btn btn-secondary" href="/diary">My diary</a>
-        <a class="btn btn-ghost" href="/settings">Edit profile</a>
-        {% else %}
-        {% if current_user %}
-        <form method="post" action="/u/{{ profile.handle }}/follow" class="inline-form"><input type="hidden" name="csrf_token" value="{{ csrf_token }}"><button class="btn {{ 'btn-secondary' if following else 'btn-primary' }}" type="submit" aria-pressed="{{ 'true' if following else 'false' }}">{{ 'Following ✓' if following else 'Follow' }}</button></form>
-        {% else %}<a class="btn btn-primary" href="/login?next=/u/{{ profile.handle }}">Follow</a>{% endif %}
-        <a class="btn btn-secondary" href="{% if current_user %}/discussions/new?ask={{ profile.handle }}{% else %}/login?next=/discussions/new%3Fask%3D{{ profile.handle }}{% endif %}">Ask {{ profile.display_name.split(' ')[0][:24] }} in the forum</a>
-        {% endif %}
-      </div>
+{% block body_class %}pf-page{% endblock %}
+{% block head %}
+<link rel="stylesheet" href="/static/css/profile.css?v={{ version }}">
+<script src="/static/profile.js?v={{ version }}" defer></script>
+{% endblock %}
+{% block topbar %}
+{{ super() }}
+{# Phone only (MProfile). It replaces the global header there, so the More menu has to carry what that header offers. #}
+<header class="pf-topbar">
+  <a class="pf-topbar-btn" href="/" aria-label="Back to the feed"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M15 5l-7 7 7 7"></path></svg></a>
+  <p class="pf-topbar-title">@{{ profile.handle }}</p>
+  <details class="account-menu pf-more">
+    <summary class="pf-topbar-btn" aria-label="More"><svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><circle cx="5" cy="12" r="2"></circle><circle cx="12" cy="12" r="2"></circle><circle cx="19" cy="12" r="2"></circle></svg></summary>
+    <div class="account-panel">
+      {% if current_user %}
+      {% if not is_me %}<a href="/u/{{ current_user.handle }}">Your profile</a>{% endif %}
+      <a href="/notifications">Notifications{% if unread %} ({{ unread if unread < 100 else '99+' }}){% endif %}</a>
+      <a href="/saved">Saved</a>
+      <a href="/settings">Settings</a>
+      <a href="/search">Search</a>
+      {% if is_admin %}<a href="/admin">Admin</a>{% endif %}
+      <form method="post" action="/logout"><input type="hidden" name="csrf_token" value="{{ csrf_token }}"><button type="submit">Log out</button></form>
+      {% else %}
+      <a href="/login?next=/u/{{ profile.handle }}">Log in</a>
+      <a href="/search">Search</a>
+      {% endif %}
     </div>
-    <ul class="stats">
-      <li><p class="stat-value grad-pink">{{ session_count }}</p><p class="stat-label">public sessions</p></li>
-      <li><p class="stat-value grad-mint">{{ helpful_count }}</p><p class="stat-label">helpful replies</p></li>
-      <li><p class="stat-value grad-pink">{{ follower_count }}</p><p class="stat-label">followers</p></li>
-      <li><p class="stat-value grad-mint">{{ following_count }}</p><p class="stat-label">following</p></li>
+  </details>
+</header>
+{% endblock %}
+{% block content %}
+<section class="pf-hero" aria-label="{{ profile.display_name }}">
+  <div class="pf-hero-inner">
+    <div class="pf-cup">{{ cup(diary.favourite_kind, 220, None, True) }}<span class="pf-face">{{ avatar(profile, 66) }}</span></div>
+    <div class="pf-meta">
+      <p class="pf-eyebrow">Public diary · since {{ joined }}</p>
+      <h1 class="pf-name">{{ profile.display_name }}</h1>
+      <p class="pf-bio"><span class="handle">@{{ profile.handle }}</span>{% if profile.bio %} · {{ profile.bio|linkify }}{% endif %}</p>
+      <a class="pf-following-link" href="/u/{{ profile.handle }}/following">{{ following_count }} following</a>
+    </div>
+    <ul class="pf-stats" aria-label="Profile stats">
+      {% for st in stats %}
+      <li><a href="{{ st.url }}"><p class="stat-value {{ st.grad }}">{{ st.value }}</p><p class="stat-label">{{ st.label }}</p></a></li>
+      {% endfor %}
     </ul>
+    <div class="pf-actions">
+      {% if is_me %}
+      <a class="btn btn-primary pf-act-main" href="/sessions/new">Log a tea</a>
+      <a class="btn btn-secondary" href="/diary">My diary</a>
+      <a class="btn btn-secondary" href="/settings">Edit profile</a>
+      {% else %}
+      {% if current_user %}
+      <form method="post" action="/u/{{ profile.handle }}/follow"><input type="hidden" name="csrf_token" value="{{ csrf_token }}"><button class="btn {{ 'pf-is-following' if following else 'btn-primary' }} pf-act-main" type="submit" aria-pressed="{{ 'true' if following else 'false' }}">{{ 'Following' if following else 'Follow' }}</button></form>
+      {% else %}<a class="btn btn-primary pf-act-main" href="/login?next=/u/{{ profile.handle }}">Follow</a>{% endif %}
+      <a class="btn btn-secondary" href="{% if current_user %}/discussions/new?ask={{ profile.handle }}{% else %}/login?next=/discussions/new%3Fask%3D{{ profile.handle }}{% endif %}">Ask {{ first_name }} in the forum</a>
+      {% if current_user %}<div class="pf-report">{{ report_button('user', profile.id, csrf_token, path) }}</div>{% endif %}
+      {% endif %}
+    </div>
   </div>
 </section>
-<section class="container">
-  {% if current_user and not is_me %}<div class="profile-report">{{ report_button('user', profile.id, csrf_token, path) }}</div>{% endif %}
-  <h2 class="h2">Sessions</h2>
-  <p class="muted">Private sessions stay private. Public ones will appear here.</p>
-  {% if sessions %}
-  <div class="session-list more-list">{% for s in sessions %}{{ session_card(s, show_author=False) }}{% endfor %}{% if next_sessions %}{{ show_more(next_sessions) }}{% endif %}</div>
-  {% else %}
-  <div class="card empty">
-    <p class="empty-title">No public sessions yet</p>
-    <p class="muted">{% if is_me %}Log a tea and switch it to public to show it here. <a href="/sessions/new">Log a tea</a>{% else %}When @{{ profile.handle }} shares a session, it will show up here.{% endif %}</p>
-  </div>
+
+<nav class="pf-tabs" id="sections" aria-label="Profile sections">
+  {% for key, label in tabs.items() %}
+  <a class="pf-tab" href="/u/{{ profile.handle }}{% if key != 'sessions' %}?tab={{ key }}{% endif %}#sections"{% if key == tab %} aria-current="page"{% endif %}>{{ label }}</a>
+  {% endfor %}
+</nav>
+
+<div class="pf-body">
+  <section class="pf-main">
+    {% if tab == 'sessions' %}
+    <h2 class="pf-h2">Public sessions</h2>
+    <p class="pf-sub">{% if logged_count is not none %}{{ logged_count }} logged · {% endif %}{{ shared_count }} shared. Private sessions stay private.</p>
+    {% if sessions %}
+    <ol class="pf-list more-list">
+      {% for s in sessions %}
+      <li class="pf-sess">
+        <a class="pf-sess-head" href="/sessions/{{ s.id }}">
+          {% if s.photos %}<img class="pf-thumb" src="{{ s.photos[0].thumb_url }}" alt="" loading="lazy">{% else %}{{ cup(s.category_key, 60, s.tea.liquor_hex if s.tea else None) }}{% endif %}
+          <span class="pf-sess-title"><span class="pf-date">{{ s.brewed_at|ago|upper }}</span><span class="pf-tea">{{ s.tea_name }}</span>{% if s.params_line %}<span class="pf-params">{{ s.params_line }}</span>{% endif %}</span>
+        </a>
+        {% if s.note %}<p class="pf-note">{{ s.note[:220] }}{% if s.note|length > 220 %}…{% endif %}</p>{% endif %}
+        <div class="pf-sess-foot">
+          {% if s.rating %}<span class="stars" aria-label="Rated {{ s.rating }} out of 5">{{ s.stars }}</span>{% else %}<span></span>{% endif %}
+          {% if s.comment_count or s.allow_comments %}<a class="pf-comments" href="/sessions/{{ s.id }}#comments"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 6a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2h-7l-5 4v-4H6a2 2 0 0 1-2-2z"></path></svg>{{ s.comment_count }} comment{{ '' if s.comment_count == 1 else 's' }}</a>{% endif %}
+        </div>
+      </li>
+      {% endfor %}
+      {% if next_sessions %}{{ show_more(next_sessions, tag="li") }}{% endif %}
+    </ol>
+    {% else %}
+    <div class="card empty">
+      <p class="empty-title">No public sessions yet</p>
+      <p class="muted">{% if is_me %}Log a tea and switch it to public to show it here. <a href="/sessions/new">Log a tea</a>{% else %}When @{{ profile.handle }} shares a session, it will show up here.{% endif %}</p>
+    </div>
+    {% endif %}
+
+    {% elif tab == 'topics' %}
+    <h2 class="pf-h2">Topics and replies</h2>
+    {% if activity %}
+    <ol class="pf-list more-topics">
+      {% for item in activity %}
+      <li class="pf-activity">
+        <div class="pf-activity-head"><span class="pf-kind pf-kind-{{ item.kind }}">{{ item.kind|upper }}</span><span class="pf-params">{{ item.section }} · {{ item.at|ago }}</span></div>
+        <a class="pf-activity-title" href="{{ item.url }}">{{ item.title }}</a>
+        {% if item.excerpt %}<p class="pf-activity-text">{{ item.excerpt|linkify }}</p>{% endif %}
+        {% if item.meta %}<p class="pf-activity-meta">{{ item.meta }}</p>{% endif %}
+      </li>
+      {% endfor %}
+      {% if next_topics %}{{ show_more(next_topics, list=".more-topics", tag="li") }}{% endif %}
+    </ol>
+    {% else %}
+    <div class="card empty"><p class="empty-title">Nothing in the forum yet</p><p class="muted">{% if is_me %}Topics you start and replies you write will show up here. <a href="/discussions">Open the forum</a>{% else %}Topics and replies by @{{ profile.handle }} will show up here.{% endif %}</p></div>
+    {% endif %}
+
+    {% elif tab == 'shelf' %}
+    <h2 class="pf-h2">Shelf</h2>
+    <p class="pf-sub">{% if is_me %}Teas from your public sessions.{% else %}Teas {{ first_name }} has logged in public sessions.{% endif %}</p>
+    {% if shelf %}
+    <div class="pf-shelf more-shelf">
+      {% for t in shelf %}
+      <a class="pf-shelf-item" href="{{ t.url }}">
+        {{ cup(t.kind, 56, t.hex) }}
+        <span class="pf-shelf-text"><span class="pf-shelf-name">{{ t.name }}</span><span class="pf-params">{{ t.count }} session{{ '' if t.count == 1 else 's' }}{% if t.rating %} · average {{ t.rating }} of 5{% endif %}</span></span>
+        <svg class="pf-chevron" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#9EA3CF" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 6l6 6-6 6"></path></svg>
+      </a>
+      {% endfor %}
+      {% if next_shelf %}{{ show_more(next_shelf, list=".more-shelf") }}{% endif %}
+    </div>
+    {% else %}
+    <div class="card empty"><p class="empty-title">The shelf is empty</p><p class="muted">Teas from public sessions will show up here.</p></div>
+    {% endif %}
+
+    {% else %}
+    <h2 class="pf-h2">Tea profile</h2>
+    <p class="pf-sub">From {{ shared_count }} public session{{ '' if shared_count == 1 else 's' }}. Private sessions are not counted.</p>
+    {% if diary.share or diary.notes %}
+    <div class="pf-panel pf-tea-profile">
+      {% if diary.share %}
+      <div class="pf-share-bar" aria-hidden="true">{% for sh in diary.share %}<span style="flex:{{ sh.count }} 1 0;background:{{ sh.grad }}"></span>{% endfor %}</div>
+      <ul class="pf-share" aria-label="Share by tea type">
+        {% for sh in diary.share %}<li><span class="pf-dot" aria-hidden="true" style="background:{{ sh.grad }}"></span><span class="pf-share-label">{{ sh.label }}</span><b>{{ sh.percent if sh.percent else '<1' }}%</b></li>{% endfor %}
+      </ul>
+      {% endif %}
+      {% if diary.notes %}
+      <p class="pf-notes-title">TOP NOTES</p>
+      <ul class="pf-notes" aria-label="Top notes">
+        {% for note in diary.notes %}<li class="pf-note-{{ loop.cycle(1, 2, 3, 4) }}">{{ note.label }} · {{ note.count }}</li>{% endfor %}
+      </ul>
+      {% endif %}
+    </div>
+    {% else %}
+    <div class="card empty"><p class="empty-title">No tea profile yet</p><p class="muted">Tea types and tasting notes from public sessions will show up here.</p></div>
+    {% endif %}
+    {% endif %}
+  </section>
+
+  {% if badges or best_reply or not current_user %}
+  <aside class="pf-aside">
+    {% if badges %}
+    <section class="pf-panel" aria-labelledby="pf-badges">
+      <h2 class="pf-side-title" id="pf-badges">Badges</h2>
+      <ul class="pf-badges">
+        {% for b in badges %}<li><span class="pf-badge-mark" aria-hidden="true" style="background:{{ b.grad }}"></span><span><b>{{ b.title }}</b><span class="pf-params">{{ b.rule }}</span></span></li>{% endfor %}
+      </ul>
+    </section>
+    {% endif %}
+    {% if best_reply %}
+    <section class="pf-panel" aria-labelledby="pf-helpful">
+      <h2 class="pf-side-title" id="pf-helpful">Most helpful reply</h2>
+      {% if best_reply_text %}<p class="pf-quote">“{{ best_reply_text|linkify }}”</p>{% endif %}
+      <a class="pf-quote-link" href="/discussions/{{ best_reply.topic_id }}#reply-{{ best_reply.id }}">In: {{ best_reply.topic.title }} →</a>
+    </section>
+    {% endif %}
+    {% if not current_user %}
+    <section class="pf-promo" aria-labelledby="pf-promo">
+      <h2 id="pf-promo">Your diary could look like this</h2>
+      <p>Public or private: you choose per session.</p>
+      <a href="/login">Start for free</a>
+    </section>
+    {% endif %}
+  </aside>
   {% endif %}
-  {% if topics %}
-  <h2 class="h2 profile-topics-title">Topics</h2>
-  <div class="topic-list more-topics">{% for t in topics %}{{ topic_card(t) }}{% endfor %}{% if next_topics %}{{ show_more(next_topics, list=".more-topics") }}{% endif %}</div>
-  {% endif %}
-</section>
+</div>
 {% endblock %}

@@ -1,6 +1,7 @@
 {% extends "base.html" %}
 {% from "partials/macros.html" import avatar, show_more %}
 {% block title %}Notifications · Prolyv{% endblock %}
+{% block head %}<link rel="stylesheet" href="/static/css/profile.css?v={{ version }}">{% endblock %}
 {% block content %}
 <div class="container narrow">
   <h1 class="h1">Notifications</h1>
@@ -8,10 +9,17 @@
   <ul class="notifications more-list">
     {% for n in notifications %}
     <li{% if n.id in had_unread %} class="unread"{% endif %}>
+      {% if n.url %}
       <a href="{{ n.url }}">
         {% if n.actor %}{{ avatar(n.actor, 36) }}{% endif %}
-        <span><span class="notification-text">{{ n.text }}</span><span class="muted small">{{ n.created_at.strftime('%-d %b, %H:%M') }}</span></span>
+        <span><span class="notification-text">{{ n.text }}</span><span class="muted small">{{ n.created_at|ago }}</span></span>
       </a>
+      {% else %}
+      <div class="pf-gone">
+        {% if n.actor %}{{ avatar(n.actor, 36) }}{% endif %}
+        <span><span class="notification-text">{{ n.text }}</span><span class="muted small">{{ n.created_at|ago }} · no longer available</span></span>
+      </div>
+      {% endif %}
     </li>
     {% endfor %}
     {% if next_url %}{{ show_more(next_url, tag="li") }}{% endif %}

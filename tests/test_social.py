@@ -4,7 +4,7 @@ import uuid
 from sqlalchemy import select
 from starlette.testclient import TestClient
 
-from prolyv.models import Follow, Notification, Report, Topic, User
+from prolyv.models import Follow, Notification, Reply, Report, TeaSession, Topic, User, Visibility
 from tests.conftest import build_app, csrf_token, make_settings, telegram_login
 from tests.test_diary import new_session, session_id_from
 from tests.test_forum import post_topic, topic_id_from
@@ -24,7 +24,7 @@ def test_follow_feed_and_notifications(client, db):
     token = login(client, 2, "mike")
     assert client.post("/u/olena_tea/follow", data={"csrf_token": token}, follow_redirects=False).status_code == 303
     page = client.get("/u/olena_tea").text
-    assert "Following ✓" in page and "1</p><p class=\"stat-label\">followers" in page.replace("\n", "")
+    assert ">Following</button>" in page and "1</p><p class=\"stat-label\">follower<" in page.replace("\n", "")
 
     token = login(client, 1, "olena_tea")
     assert 'class="bell-count">1<' in client.get("/").text
@@ -198,7 +198,7 @@ def test_long_lists_continue_with_show_more(client, db):
     assert len(set(walk("/u/olena_tea", r"Brew\d\dx", r'hx-get="(/u/olena_tea\?page=\d+)"'))) == 45
 
     # topics on a profile have their own button, which pulls only topics
-    profile = client.get("/u/olena_tea").text
+    profile = client.get("/u/olena_tea?tab=topics").text
     assert 'hx-select=".more-topics &gt; *"' in profile or 'hx-select=".more-topics > *"' in profile
     assert "/u/olena_tea?topics_page=2" in profile
     assert "Topic34x" in client.get("/u/olena_tea?topics_page=2").text
@@ -208,3 +208,159 @@ def test_long_lists_continue_with_show_more(client, db):
     db.expire_all()
     assert db.scalar(select(func.count()).select_from(Notification).where(Notification.read_at.is_(None))) == 0
     assert "Note10x" in client.get("/notifications?page=2").text
+
+
+# ---------------------------------------------------------------------------------------------- profile
+
+
+def _user(db, handle):
+    db.expire_all()
+    return db.execute(select(User).where(User.handle == handle)).scalar_one()
+
+
+def _diary(db, user, **kw):
+    fields = {"tea_name": "Da Hong Pao", "visibility": Visibility.public, "rating": 4, "taste_tags": ["roast"]} | kw
+    db.add(TeaSession(user_id=user.id, **fields))
+
+
+def test_profile_counts_only_public_non_hidden_sessions(client, db):
+    token = login(client, 1, "olena_tea")
+    user = _user(db, "olena_tea")
+    _diary(db, user, tea_name="Shared one", rating=5, taste_tags=["Cocoa", "dates"])
+    _diary(db, user, tea_name="Shared one", rating=4, taste_tags=["cocoa"])
+    _diary(db, user, tea_name="Secret tea", visibility=Visibility.private, taste_tags=["secretnote"])
+    _diary(db, user, tea_name="Taken down", hidden=True, taste_tags=["hiddennote"])
+    db.commit()
+
+    client.cookies.clear()
+    for tab in ("sessions", "shelf", "tea", "topics"):
+        page = client.get(f"/u/olena_tea?tab={tab}").text
+        for leak in ("Secret tea", "secretnote", "Secretnote", "Taken down", "hiddennote", "Hiddennote"):
+            assert leak not in page
+    page = client.get("/u/olena_tea").text.replace("\n", "")
+    assert '2</p><p class="stat-label">sessions logged' in page and '1</p><p class="stat-label">tea on the shelf' in page
+    assert "2 shared. Private sessions stay private." in page and "logged ·" not in page
+    assert "Your diary could look like this" in page and "First steep" in page and "At least 1 public session" in page
+    assert "Regular" not in page  # not earned, so not drawn
+
+    shelf = client.get("/u/olena_tea?tab=shelf").text
+    assert "2 sessions · average 4.5 of 5" in shelf
+    tea = client.get("/u/olena_tea?tab=tea").text
+    assert "Cocoa · 2" in tea and "Dates · 1" in tea
+
+    # the owner sees the total, and no sign-up pitch
+    login(client, 1, "olena_tea")
+    mine = client.get("/u/olena_tea").text
+    assert "4 logged · 2 shared." in mine and "Your diary could look like this" not in mine and token
+    assert 'action="/logout"' in mine and 'href="/saved"' in mine and 'href="/settings"' in mine
+
+
+def test_profile_lists_replies_and_shows_most_helpful(client, db):
+    token = login(client, 1, "olena_tea")
+    tid = topic_id_from(post_topic(client, token))
+    token = login(client, 2, "mike")
+    for body in ("Less leaf helps.", "Try a shorter first steep."):
+        client.post(f"/discussions/{tid}/replies", data={"csrf_token": token, "body": body}, follow_redirects=False)
+    mike = _user(db, "mike")
+    assert "Most helpful reply" not in client.get("/u/mike").text
+    replies = db.execute(select(Reply).where(Reply.user_id == mike.id).order_by(Reply.body)).scalars().all()
+    replies[1].helpful_count = 7
+    replies[0].helpful_count = 2
+    db.commit()
+
+    page = client.get("/u/mike").text.replace("\n", "")
+    assert "Most helpful reply" in page and "Try a shorter first steep." in page and f"#reply-{replies[1].id}" in page
+    assert '2</p><p class="stat-label">helpful replies' in page
+    topics = client.get("/u/mike?tab=topics").text
+    assert "REPLY" in topics and "Less leaf helps." in topics and "7 helpful" in topics
+
+    replies[1].hidden = True
+    db.commit()
+    page = client.get("/u/mike").text.replace("\n", "")
+    assert "Try a shorter first steep." not in page and '1</p><p class="stat-label">helpful reply' in page
+    assert "Try a shorter first steep." not in client.get("/u/mike?tab=topics").text
+
+
+def test_badge_rules_live_in_one_place():
+    from prolyv.social import earned_badges
+
+    titles = lambda **numbers: [b["title"] for b in earned_badges(numbers)]  # noqa: E731
+    assert titles() == []
+    assert titles(sessions=1) == ["First steep"]
+    assert titles(sessions=30, helpful=5) == ["First steep", "Regular", "Helpful"]
+    assert titles(sessions=29, helpful=4, teas=10, brew_alongs=3) == ["First steep", "Explorer", "Brewed along"]
+
+
+def test_followers_and_following_lists(client, db):
+    login(client, 1, "olena_tea")
+    token = login(client, 2, "mike")
+    client.post("/u/olena_tea/follow", data={"csrf_token": token}, follow_redirects=False)
+    profile = client.get("/u/olena_tea").text
+    assert 'href="/u/olena_tea/followers"' in profile and 'href="/u/olena_tea/following"' in profile
+
+    client.cookies.clear()
+    followers = client.get("/u/olena_tea/followers").text
+    assert "@mike" in followers and "1 follower<" in followers
+    assert "@olena_tea" in client.get("/u/mike/following").text
+    assert "No followers yet" in client.get("/u/mike/followers").text
+    assert client.get("/u/nobody_here/followers").status_code == 404
+
+    token = login(client, 2, "mike")
+    response = client.post("/u/olena_tea/follow", data={"csrf_token": token, "next": "/u/mike/following"}, follow_redirects=False)
+    assert response.headers["location"] == "/u/mike/following"
+
+
+def test_toggling_follow_notifies_once_and_counts_against_the_quota(tmp_path, google):
+    with TestClient(build_app(make_settings(tmp_path, post_rate_limit=3), google)) as client:
+        login(client, 1, "olena_tea")
+        token = login(client, 2, "mike")
+        codes = [client.post("/u/olena_tea/follow", data={"csrf_token": token}, follow_redirects=False).status_code for _ in range(4)]
+        assert codes == [303, 303, 303, 429]
+        # reports don't share that quota
+        assert client.post("/report", data={"csrf_token": token, "kind": "user", "ref_id": str(uuid.uuid4()), "reason": "spam"}, follow_redirects=False).status_code == 400
+        login(client, 1, "olena_tea")
+        assert client.get("/notifications").text.count("started following you") == 1
+
+
+def test_follow_after_login_lands_on_the_profile(client):
+    login(client, 1, "olena_tea")
+    response = client.get("/u/olena_tea/follow", follow_redirects=False)
+    assert response.status_code == 303 and response.headers["location"] == "/u/olena_tea"
+
+
+def test_notifications_follow_the_actor_and_drop_dead_links(client, db):
+    token = login(client, 1, "olena_tea")
+    tid = topic_id_from(post_topic(client, token))
+    token = login(client, 2, "mike")
+    client.post("/u/olena_tea/follow", data={"csrf_token": token}, follow_redirects=False)
+    client.post(f"/discussions/{tid}/replies", data={"csrf_token": token, "body": "Less leaf."}, follow_redirects=False)
+    client.post("/settings", data={"csrf_token": token, "display_name": "Mike", "handle": "mike_new", "bio": ""}, follow_redirects=False)
+
+    login(client, 1, "olena_tea")
+    assert 'class="bell-count"' in client.get("/").text
+    first = client.get("/notifications").text
+    assert 'class="bell-count"' not in first  # cleared on arrival
+    assert 'href="/u/mike_new"' in first and "@mike_new started following you" in first and "@mike " not in first
+    assert "ago" in first or "just now" in first
+
+    topic = db.get(Topic, uuid.UUID(tid))
+    topic.hidden = True
+    db.commit()
+    assert f'href="/discussions/{tid}' not in client.get("/notifications").text
+    assert "no longer available" in client.get("/notifications").text
+
+    token = login(client, 2, "mike_new")
+    client.post("/settings/delete", data={"csrf_token": token, "confirm": "mike_new"}, follow_redirects=False)
+    login(client, 1, "olena_tea")
+    page = client.get("/notifications").text
+    assert "mike_new" not in page and "Deleted account started following you" in page and "/u/deleted_" not in page
+
+
+def test_saved_cards_have_a_remove_control(client, db):
+    token = login(client, 1, "olena_tea")
+    tid = topic_id_from(post_topic(client, token))
+    client.post("/saved/toggle", data={"csrf_token": token, "kind": "topic", "ref_id": tid, "next": "/saved"}, follow_redirects=False)
+    page = client.get("/saved").text
+    assert ">Remove</button>" in page and f'name="ref_id" value="{tid}"' in page
+    client.post("/saved/toggle", data={"csrf_token": token, "kind": "topic", "ref_id": tid, "next": "/saved"}, follow_redirects=False)
+    assert "Nothing saved yet" in client.get("/saved").text

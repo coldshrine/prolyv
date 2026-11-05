@@ -6,7 +6,7 @@ import json
 
 from fastapi import APIRouter, Depends, Form, HTTPException, Request
 from fastapi.responses import RedirectResponse, Response
-from sqlalchemy import select
+from sqlalchemy import func, select
 from sqlalchemy.orm import selectinload
 
 from prolyv.auth.accounts import AccountError, get_user_by_handle, handle_taken, soft_delete, unlink
@@ -24,21 +24,39 @@ from prolyv.models import (
     utcnow,
 )
 from prolyv.security import INTENT_COOKIE, INTENT_COOKIE_MAX_AGE, SESSION_COOKIE
-from prolyv.social import follow_counts, is_following
+from prolyv.social import (
+    activity_page,
+    compact,
+    earned_badges,
+    follow_counts,
+    helpful_reply_total,
+    is_following,
+    most_helpful_reply,
+    public_diary,
+    reply_excerpt,
+)
 from prolyv.uploads import delete_session_media
 from prolyv.web.cookies import delete_cookie, set_cookie
 from prolyv.web.deps import CurrentUser, DbDep, RequiredUser, SettingsDep, SignerDep, require_csrf
 from prolyv.web.flash import set_flash
 from prolyv.web.routes_auth import PROVIDER_NAMES, new_intent
-from prolyv.web.routes_diary import public_session_count, public_sessions_for_user
-from prolyv.web.routes_forum import helpful_reply_count, topic_count_for_user, topics_for_user
+from prolyv.web.routes_diary import public_sessions_for_user
 from prolyv.web.templating import render
 
 router = APIRouter()
 
 PROFILE_SESSIONS = 20
-PROFILE_TOPICS = 10
+PROFILE_ACTIVITY = 10
+PROFILE_SHELF = 24
+PROFILE_TABS = {"sessions": "Sessions", "topics": "Topics & replies", "shelf": "Shelf", "tea": "Tea profile"}
 AVATAR_FIELD = {Provider.google: "picture", Provider.telegram: "photo_url"}
+
+
+# A failed unlink or delete comes back to the card it happened in: /settings?error=<key>#<card id>
+SETTINGS_ERRORS = {
+    "providers": "You need at least one way to sign in. Link another account before unlinking this one.",
+    "delete": "That doesn't match your handle, so nothing was deleted. Type your handle exactly to confirm.",
+}
 
 
 def normalize_handle(value: str) -> str:
@@ -68,8 +86,9 @@ def render_settings(request: Request, user: User, form: dict | None = None, erro
 
 
 @router.get("/settings")
-def settings_page(request: Request, user: RequiredUser):
-    return render_settings(request, user)
+def settings_page(request: Request, user: RequiredUser, error: str = ""):
+    message = SETTINGS_ERRORS.get(error)
+    return render_settings(request, user, errors={error: message} if message else None)
 
 
 @router.post("/settings", dependencies=[Depends(require_csrf)])
@@ -165,8 +184,7 @@ def settings_unlink(
     try:
         unlink(db, user, prov)
     except AccountError:
-        errors = {"providers": "You need at least one way to sign in. Link another account before unlinking this one."}
-        return render_settings(request, user, errors=errors, status_code=400)
+        return RedirectResponse("/settings?error=providers#linked-accounts", status_code=303)
     response = RedirectResponse("/settings", status_code=303)
     set_flash(response, settings, signer, "ok", f"{PROVIDER_NAMES[prov]} unlinked.")
     return response
@@ -210,8 +228,7 @@ def settings_delete(
     request: Request, db: DbDep, settings: SettingsDep, signer: SignerDep, user: RequiredUser, confirm: str = Form("")
 ):
     if normalize_handle(confirm) != user.handle:
-        errors = {"delete": "Type your handle exactly to confirm."}
-        return render_settings(request, user, errors=errors, status_code=400)
+        return RedirectResponse("/settings?error=delete#delete-account", status_code=303)
     for sess in db.execute(select(TeaSession.id).where(TeaSession.user_id == user.id)).scalars().all():
         delete_session_media(settings.media_dir, sess)
     soft_delete(db, user)
@@ -221,27 +238,64 @@ def settings_delete(
     return response
 
 
+def _plural(n: int, one: str, many: str) -> str:
+    return one if n == 1 else many
+
+
+def _pages(total: int, size: int) -> int:
+    return max(1, (total + size - 1) // size)
+
+
 @router.get("/u/{handle}")
-def profile_page(request: Request, db: DbDep, handle: str, current_user: CurrentUser, page: int = 1, topics_page: int = 1):
+def profile_page(
+    request: Request, db: DbDep, handle: str, current_user: CurrentUser, tab: str = "", page: int = 1, topics_page: int = 1, shelf_page: int = 1
+):
     user = get_user_by_handle(db, normalize_handle(handle))
     if user is None:
         raise HTTPException(status_code=404)
-    session_count = public_session_count(db, user.id)
-    topic_count = topic_count_for_user(db, user.id)
-    page = min(max(1, page), max(1, (session_count + PROFILE_SESSIONS - 1) // PROFILE_SESSIONS))
-    topics_page = min(max(1, topics_page), max(1, (topic_count + PROFILE_TOPICS - 1) // PROFILE_TOPICS))
+    if tab not in PROFILE_TABS:  # Show more links carry only their page number, so they also work as plain links
+        tab = "topics" if topics_page > 1 else "shelf" if shelf_page > 1 else "sessions"
+    is_me = current_user is not None and current_user.id == user.id
+    home = f"/u/{user.handle}"
+
+    diary = public_diary(db, user.id)
+    helpful = helpful_reply_total(db, user.id)
+    followers, following = follow_counts(db, user.id)
+    shared, teas = diary["sessions"], diary["teas"]
+    best = most_helpful_reply(db, user.id)
     context = {
         "profile": user,
-        "next_sessions": f"/u/{user.handle}?page={page + 1}" if session_count > page * PROFILE_SESSIONS else None,
-        "next_topics": f"/u/{user.handle}?topics_page={topics_page + 1}" if topic_count > topics_page * PROFILE_TOPICS else None,
-        "is_me": current_user is not None and current_user.id == user.id,
+        "is_me": is_me,
         "joined": user.created_at.strftime("%B %Y"),
-        "sessions": public_sessions_for_user(db, user.id, PROFILE_SESSIONS, (page - 1) * PROFILE_SESSIONS),
-        "session_count": session_count,
-        "topics": topics_for_user(db, user.id, PROFILE_TOPICS, (topics_page - 1) * PROFILE_TOPICS),
-        "helpful_count": helpful_reply_count(db, user.id),
+        "first_name": user.display_name.split(" ")[0][:24],
+        "tab": tab,
+        "tabs": PROFILE_TABS,
+        "diary": diary,
+        "shared_count": shared,
+        # how many are private is the owner's business: only they see the total
+        "logged_count": (db.scalar(select(func.count()).select_from(TeaSession).where(TeaSession.user_id == user.id)) or 0) if is_me else None,
+        "stats": [
+            {"value": compact(shared), "label": _plural(shared, "session logged", "sessions logged"), "grad": "grad-pink", "url": f"{home}#sections"},
+            {"value": compact(helpful), "label": _plural(helpful, "helpful reply", "helpful replies"), "grad": "grad-mint", "url": f"{home}?tab=topics#sections"},
+            {"value": compact(followers), "label": _plural(followers, "follower", "followers"), "grad": "pf-grad-purple", "url": f"{home}/followers"},
+            {"value": compact(len(teas)), "label": _plural(len(teas), "tea on the shelf", "teas on the shelf"), "grad": "pf-grad-gold", "url": f"{home}?tab=shelf#sections"},
+        ],
+        "following_count": following,
         "following": is_following(db, current_user, user.id),
-        "follower_count": follow_counts(db, user.id)[0],
-        "following_count": follow_counts(db, user.id)[1],
+        "badges": earned_badges({"sessions": shared, "helpful": helpful, "teas": len(teas), "brew_alongs": diary["brew_alongs"]}),
+        "best_reply": best,
+        "best_reply_text": reply_excerpt(best.body) if best else "",
     }
+    if tab == "sessions":
+        page = min(max(1, page), _pages(shared, PROFILE_SESSIONS))
+        context["sessions"] = public_sessions_for_user(db, user.id, PROFILE_SESSIONS, (page - 1) * PROFILE_SESSIONS)
+        context["next_sessions"] = f"{home}?page={page + 1}" if shared > page * PROFILE_SESSIONS else None
+    elif tab == "topics":
+        topics_page = max(1, topics_page)
+        context["activity"], total = activity_page(db, user.id, PROFILE_ACTIVITY, (topics_page - 1) * PROFILE_ACTIVITY)
+        context["next_topics"] = f"{home}?topics_page={topics_page + 1}" if total > topics_page * PROFILE_ACTIVITY else None
+    elif tab == "shelf":
+        shelf_page = min(max(1, shelf_page), _pages(len(teas), PROFILE_SHELF))
+        context["shelf"] = teas[(shelf_page - 1) * PROFILE_SHELF : shelf_page * PROFILE_SHELF]
+        context["next_shelf"] = f"{home}?shelf_page={shelf_page + 1}" if len(teas) > shelf_page * PROFILE_SHELF else None
     return render(request, "profile.html", context)

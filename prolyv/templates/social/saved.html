@@ -1,6 +1,10 @@
 {% extends "base.html" %}
 {% from "partials/macros.html" import tea_card, session_card, topic_card, post_card %}
+{% macro remove(kind, ref_id) -%}
+<form method="post" action="/saved/toggle" class="pf-remove"><input type="hidden" name="csrf_token" value="{{ csrf_token }}"><input type="hidden" name="kind" value="{{ kind }}"><input type="hidden" name="ref_id" value="{{ ref_id }}"><input type="hidden" name="next" value="/saved"><button class="btn btn-ghost btn-sm" type="submit">Remove</button></form>
+{%- endmacro %}
 {% block title %}Saved · Prolyv{% endblock %}
+{% block head %}<link rel="stylesheet" href="/static/css/profile.css?v={{ version }}">{% endblock %}
 {% block content %}
 <div class="container">
   <p class="eyebrow">Your bookmarks</p>
@@ -8,9 +12,9 @@
   {% if not (teas or sessions or topics or posts) %}
   <div class="card empty"><p class="empty-title">Nothing saved yet</p><p class="muted">Press Save on a tea, a session, a topic or a post to keep it here.</p></div>
   {% endif %}
-  {% if teas %}<h2 class="h2 saved-title">Teas</h2><div class="tea-grid">{% for t in teas %}{{ tea_card(t) }}{% endfor %}</div>{% endif %}
-  {% if sessions %}<h2 class="h2 saved-title">Sessions</h2><div class="session-list">{% for s in sessions %}{{ session_card(s) }}{% endfor %}</div>{% endif %}
-  {% if topics %}<h2 class="h2 saved-title">Topics</h2><div class="topic-list">{% for t in topics %}{{ topic_card(t) }}{% endfor %}</div>{% endif %}
-  {% if posts %}<h2 class="h2 saved-title">Blog</h2><div class="post-list">{% for p in posts %}{{ post_card(p) }}{% endfor %}</div>{% endif %}
+  {% if teas %}<h2 class="h2 saved-title">Teas</h2><div class="tea-grid pf-saved-teas">{% for t in teas %}<div class="pf-saved">{{ tea_card(t) }}{{ remove('tea', t.id) }}</div>{% endfor %}</div>{% endif %}
+  {% if sessions %}<h2 class="h2 saved-title">Sessions</h2><div class="session-list">{% for s in sessions %}<div class="pf-saved">{{ session_card(s) }}{{ remove('session', s.id) }}</div>{% endfor %}</div>{% endif %}
+  {% if topics %}<h2 class="h2 saved-title">Topics</h2><div class="topic-list">{% for t in topics %}<div class="pf-saved">{{ topic_card(t) }}{{ remove('topic', t.id) }}</div>{% endfor %}</div>{% endif %}
+  {% if posts %}<h2 class="h2 saved-title">Blog</h2><div class="post-list">{% for p in posts %}<div class="pf-saved">{{ post_card(p) }}{{ remove('post', p.id) }}</div>{% endfor %}</div>{% endif %}
 </div>
 {% endblock %}

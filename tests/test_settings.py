@@ -114,8 +114,9 @@ def test_csrf_token_is_required_and_bound_to_the_session(client, db):
 def test_unlinking_the_last_provider_is_refused(client, db):
     telegram_login(client)
     response = client.post("/settings/unlink", data={"csrf_token": csrf_token(client), "provider": "telegram"}, follow_redirects=False)
-    assert response.status_code == 400
-    assert "at least one way to sign in" in response.text
+    assert response.status_code == 303 and response.headers["location"].endswith("#linked-accounts")
+    assert "at least one way to sign in" in client.get(response.headers["location"]).text
+    assert "at least one way to sign in" not in client.get("/settings").text
     assert len(the_user(db).identities) == 1
 
 
@@ -188,8 +189,8 @@ def test_soft_delete_purges_sessions_frees_handle_and_hides_profile(client, db):
 def test_delete_requires_typing_the_handle(client, db):
     telegram_login(client, username="olena_tea")
     response = client.post("/settings/delete", data={"csrf_token": csrf_token(client), "confirm": "nope"}, follow_redirects=False)
-    assert response.status_code == 400
-    assert "Type your handle" in response.text
+    assert response.status_code == 303 and response.headers["location"].endswith("#delete-account")
+    assert "Type your handle exactly" in client.get(response.headers["location"]).text
     assert the_user(db).deleted_at is None
 
 

@@ -111,7 +111,7 @@ def test_replies_votes_and_marking_helpful(client, db):
     assert "Marked helpful by the author" in page and "Solved" in page
     assert "SOLVED" in client.get("/discussions").text
     client.cookies.clear()
-    assert "1</p><p class=\"stat-label\">helpful replies" in client.get("/u/mike").text.replace("\n", "")
+    assert "1</p><p class=\"stat-label\">helpful reply" in client.get("/u/mike").text.replace("\n", "")
 
     telegram_login(client, tg_id="2", username="mike")
     mike_token = csrf_token(client)

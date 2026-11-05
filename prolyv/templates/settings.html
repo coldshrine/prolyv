@@ -1,6 +1,7 @@
 {% extends "base.html" %}
 {% from "partials/macros.html" import avatar %}
 {% block title %}Settings · Prolyv{% endblock %}
+{% block head %}<link rel="stylesheet" href="/static/css/profile.css?v={{ version }}">{% endblock %}
 {% block content %}
 <div class="container narrow">
   <h1 class="h1">Settings</h1>
@@ -18,6 +19,7 @@
         <span class="label">Handle</span>
         <span class="handle-input"><span class="at">@</span><input name="handle" value="{{ form.handle }}" maxlength="24" autocapitalize="none" autocorrect="off" spellcheck="false" pattern="[a-z0-9_]{3,24}" hx-get="/settings/handle-check" hx-trigger="input changed delay:300ms" hx-target="#handle-hint" hx-swap="innerHTML"></span>
         <span class="hint" id="handle-hint">{% if errors.handle %}<span class="hint-bad">{{ errors.handle }}</span>{% else %}Your profile lives at /u/{{ user.handle }}{% endif %}</span>
+        <span class="hint">Changing your handle breaks old links to your profile, and the old handle can be taken by someone else.</span>
       </label>
       <label class="field">
         <span class="label">Bio <span class="muted">(up to 280 characters)</span></span>
@@ -44,12 +46,12 @@
         {% endif %}
       </div>
     </div>
-    <p class="muted small">Your avatar comes from the account you sign in with. Uploads arrive with the diary milestone.</p>
+    <p class="muted small">Your avatar is the photo from a linked Google or Telegram account, or your initials if there is none. You can't upload a photo of your own yet.</p>
   </section>
 
-  <section class="card">
+  <section class="card" id="linked-accounts">
     <h2 class="h2">Linked accounts</h2>
-    {% if errors.providers %}<p class="field-error">{{ errors.providers }}</p>{% endif %}
+    {% if errors.providers %}<p class="field-error" role="alert">{{ errors.providers }}</p>{% endif %}
     <ul class="providers">
       {% if google or settings.google_enabled %}
       <li>
@@ -95,20 +97,20 @@
     <div class="actions"><a class="btn btn-secondary btn-sm" href="/settings/export">Download my data</a></div>
   </section>
 
-  <section class="card card-danger">
+  <form method="post" action="/logout" class="logout">
+    <input type="hidden" name="csrf_token" value="{{ csrf_token }}">
+    <button class="btn btn-secondary" type="submit">Log out</button>
+  </form>
+
+  <section class="card card-danger" id="delete-account">
     <h2 class="h2">Delete account</h2>
     <p class="muted">This signs you out everywhere, removes your sign-in methods and hides your profile. Type your handle to confirm.</p>
-    {% if errors.delete %}<p class="field-error">{{ errors.delete }}</p>{% endif %}
+    {% if errors.delete %}<p class="field-error" role="alert">{{ errors.delete }}</p>{% endif %}
     <form method="post" action="/settings/delete" class="form-inline">
       <input type="hidden" name="csrf_token" value="{{ csrf_token }}">
       <input name="confirm" placeholder="@{{ user.handle }}" autocapitalize="none" autocomplete="off">
       <button class="btn btn-danger" type="submit">Delete my account</button>
     </form>
   </section>
-
-  <form method="post" action="/logout" class="logout">
-    <input type="hidden" name="csrf_token" value="{{ csrf_token }}">
-    <button class="btn btn-secondary" type="submit">Log out</button>
-  </form>
 </div>
 {% endblock %}

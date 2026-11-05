@@ -29,8 +29,8 @@ from prolyv.models import (
     Visibility,
     utcnow,
 )
-from prolyv.social import notify
-from prolyv.web.deps import AdminUser, DbDep, RequiredUser, SettingsDep, SignerDep, post_quota, require_csrf
+from prolyv.social import follow_counts, notification_views, notify_first_follow
+from prolyv.web.deps import AdminUser, CurrentUser, DbDep, RequiredUser, SettingsDep, SignerDep, post_quota, require_csrf
 from prolyv.web.flash import set_flash
 from prolyv.web.routes_auth import safe_next
 from prolyv.web.templating import render
@@ -41,8 +41,8 @@ router = APIRouter()
 # ---------------------------------------------------------------------------------------------- follow
 
 
-@router.post("/u/{handle}/follow", dependencies=[Depends(require_csrf)])
-def follow_toggle(request: Request, db: DbDep, user: RequiredUser, handle: str):
+@router.post("/u/{handle}/follow", dependencies=[Depends(require_csrf), Depends(post_quota)])
+def follow_toggle(request: Request, db: DbDep, user: RequiredUser, handle: str, next: str = Form("")):
     target = get_user_by_handle(db, handle.lower())
     if target is None:
         raise HTTPException(status_code=404)
@@ -50,10 +50,53 @@ def follow_toggle(request: Request, db: DbDep, user: RequiredUser, handle: str):
         row = db.execute(select(Follow).where(Follow.follower_id == user.id, Follow.followee_id == target.id)).scalar_one_or_none()
         if row is None:
             db.add(Follow(follower_id=user.id, followee_id=target.id))
-            notify(db, target.id, user, f"@{user.handle} started following you", f"/u/{user.handle}")
+            notify_first_follow(db, target, user)
         else:
             db.delete(row)
+    return RedirectResponse(safe_next(next) or f"/u/{target.handle}", status_code=303)
+
+
+@router.get("/u/{handle}/follow")
+def follow_landing(db: DbDep, handle: str):
+    """Pressing Follow with an expired session goes through login, which comes back here with a GET: land on the profile."""
+    target = get_user_by_handle(db, handle.lower())
+    if target is None:
+        raise HTTPException(status_code=404)
     return RedirectResponse(f"/u/{target.handle}", status_code=303)
+
+
+PEOPLE_PAGE = 30
+
+
+def people_page(request: Request, db, current_user: User | None, handle: str, which: str, page: int):  # noqa: ANN001
+    target = get_user_by_handle(db, handle.lower())
+    if target is None:
+        raise HTTPException(status_code=404)
+    page = max(1, page)
+    follower_list = which == "followers"
+    stmt = (select(User).join(Follow, (Follow.follower_id if follower_list else Follow.followee_id) == User.id)
+            .where((Follow.followee_id if follower_list else Follow.follower_id) == target.id, User.deleted_at.is_(None))
+            .order_by(Follow.created_at.desc(), User.id).offset((page - 1) * PEOPLE_PAGE).limit(PEOPLE_PAGE + 1))
+    rows = db.execute(stmt).scalars().all()
+    people = rows[:PEOPLE_PAGE]
+    i_follow: set[uuid.UUID] = set()
+    if current_user is not None and people:
+        i_follow = set(db.execute(select(Follow.followee_id).where(Follow.follower_id == current_user.id, Follow.followee_id.in_([p.id for p in people]))).scalars())
+    followers, following = follow_counts(db, target.id)
+    return render(request, "social/people.html", {
+        "profile": target, "which": which, "people": people, "i_follow": i_follow, "follower_count": followers, "following_count": following,
+        "next_url": f"/u/{target.handle}/{which}?page={page + 1}" if len(rows) > PEOPLE_PAGE else None,
+    })
+
+
+@router.get("/u/{handle}/followers")
+def followers_page(request: Request, db: DbDep, current_user: CurrentUser, handle: str, page: int = 1):
+    return people_page(request, db, current_user, handle, "followers", page)
+
+
+@router.get("/u/{handle}/following")
+def following_page(request: Request, db: DbDep, current_user: CurrentUser, handle: str, page: int = 1):
+    return people_page(request, db, current_user, handle, "following", page)
 
 
 # ---------------------------------------------------------------------------------------------- notifications
@@ -69,8 +112,10 @@ def notifications_page(request: Request, db: DbDep, user: RequiredUser, page: in
         select(Notification).options(selectinload(Notification.actor)).where(Notification.user_id == user.id)
         .order_by(Notification.created_at.desc(), Notification.id).offset((page - 1) * NOTIFICATION_PAGE).limit(NOTIFICATION_PAGE + 1)
     ).scalars().all()
-    context = {"notifications": rows[:NOTIFICATION_PAGE], "had_unread": {n.id for n in rows if n.read_at is None},
-               "next_url": f"/notifications?page={page + 1}" if len(rows) > NOTIFICATION_PAGE else None}
+    shown = rows[:NOTIFICATION_PAGE]
+    context = {"notifications": notification_views(db, user, shown, admin=request.state.is_admin), "had_unread": {n.id for n in rows if n.read_at is None},
+               "next_url": f"/notifications?page={page + 1}" if len(rows) > NOTIFICATION_PAGE else None,
+               "unread": 0}  # this page clears the badge, so the bell on it is already clear
     response = render(request, "social/notifications.html", context)
     # opening the page clears the badge, however long the list is
     db.execute(update(Notification).where(Notification.user_id == user.id, Notification.read_at.is_(None)).values(read_at=utcnow()))
@@ -140,7 +185,7 @@ def content_link(db, kind: str, ref_id: uuid.UUID) -> dict | None:  # noqa: ANN0
     return {"url": f"/u/{obj.handle}", "excerpt": obj.bio[:200] or obj.display_name, "hidden": None, "who": obj.handle}
 
 
-@router.post("/report", dependencies=[Depends(require_csrf), Depends(post_quota)])
+@router.post("/report", dependencies=[Depends(require_csrf)])
 def report_create(request: Request, db: DbDep, settings: SettingsDep, signer: SignerDep, user: RequiredUser,
                   kind: str = Form(""), ref_id: uuid.UUID = Form(...), reason: str = Form("other"), next: str = Form("/")):
     if kind not in REPORTABLE or reason not in REPORT_REASONS or db.get(REPORTABLE[kind], ref_id) is None:
@@ -196,6 +241,10 @@ def admin_hide(request: Request, db: DbDep, settings: SettingsDep, signer: Signe
     if obj is None:
         raise HTTPException(status_code=404)
     obj.hidden = hidden == "1"
+    if kind == "reply":
+        from prolyv.web.routes_forum import reply_visibility_changed
+
+        reply_visibility_changed(db, obj)
     response = RedirectResponse(safe_next(next) or "/admin/reports", status_code=303)
     set_flash(response, settings, signer, "ok", "Hidden from everyone except admins." if obj.hidden else "Visible again.")
     return response

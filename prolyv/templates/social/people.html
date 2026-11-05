@@ -1,0 +1,33 @@
+{% extends "base.html" %}
+{% from "partials/macros.html" import avatar, show_more %}
+{% block title %}{{ 'Followers of' if which == 'followers' else 'Followed by' }} {{ profile.display_name }} · Prolyv{% endblock %}
+{% block head %}<link rel="stylesheet" href="/static/css/profile.css?v={{ version }}">{% endblock %}
+{% block content %}
+<div class="container narrow">
+  <a class="pf-back" href="/u/{{ profile.handle }}">← {{ profile.display_name }}</a>
+  <h1 class="h1">{{ 'Followers' if which == 'followers' else 'Following' }}</h1>
+  <nav class="pf-tabs pf-tabs-plain" aria-label="Followers and following">
+    <a class="pf-tab" href="/u/{{ profile.handle }}/followers"{% if which == 'followers' %} aria-current="page"{% endif %}>{{ follower_count }} follower{{ '' if follower_count == 1 else 's' }}</a>
+    <a class="pf-tab" href="/u/{{ profile.handle }}/following"{% if which == 'following' %} aria-current="page"{% endif %}>{{ following_count }} following</a>
+  </nav>
+  {% if people %}
+  <ul class="pf-people more-list">
+    {% for p in people %}
+    <li class="pf-person">
+      <a class="pf-person-link" href="/u/{{ p.handle }}">{{ avatar(p, 48) }}<span class="pf-person-text"><b>{{ p.display_name }}</b><span class="pf-params">@{{ p.handle }}</span>{% if p.bio %}<span class="pf-person-bio">{{ p.bio }}</span>{% endif %}</span></a>
+      {% if not current_user %}
+      <a class="btn btn-secondary btn-sm" href="/login?next=/u/{{ p.handle }}">Follow</a>
+      {% elif p.id != current_user.id %}
+      <form method="post" action="/u/{{ p.handle }}/follow"><input type="hidden" name="csrf_token" value="{{ csrf_token }}"><input type="hidden" name="next" value="{{ path }}"><button class="btn btn-sm {{ 'pf-is-following' if p.id in i_follow else 'btn-primary' }}" type="submit" aria-pressed="{{ 'true' if p.id in i_follow else 'false' }}">{{ 'Following' if p.id in i_follow else 'Follow' }}</button></form>
+      {% endif %}
+    </li>
+    {% endfor %}
+    {% if next_url %}{{ show_more(next_url, tag="li") }}{% endif %}
+  </ul>
+  {% elif which == 'followers' %}
+  <div class="card empty"><p class="empty-title">No followers yet</p><p class="muted">People who follow @{{ profile.handle }} will show up here.</p></div>
+  {% else %}
+  <div class="card empty"><p class="empty-title">Not following anyone yet</p><p class="muted">People @{{ profile.handle }} follows will show up here.</p></div>
+  {% endif %}
+</div>
+{% endblock %}
