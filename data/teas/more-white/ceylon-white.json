@@ -14,17 +14,16 @@
   "origin_country": "Sri Lanka",
   "origin_region": "Sri Lanka · Nuwara Eliya, Adam's Peak",
   "cultivar": null,
-  "processing": "Fresh buds or young shoots are selected by hand, then withered and sun-dried, with no rolling.",
+  "processing": "Fresh buds or young shoots are selected by hand, then withered and sun-dried; sellers also describe light hand-rolling.",
   "form": "loose",
   "harvest_season": "Picked in small quantities; no single prized season is well documented across the island.",
   "appearance_dry": "Long, slender buds covered in silver hairs.",
-  "appearance_liquor": "Delicate pale gold to light copper, and clear.",
+  "appearance_liquor": "Delicate pale yellow to pale gold, and clear.",
   "appearance_wet": "Soft, plump, pale olive buds.",
-  "taste_profile": "Light, smooth and refined like Chinese silver needle; sellers most often name pine and honey, sometimes a sweet fruity note.",
+  "taste_profile": "Light, mild and delicate like Chinese silver needle; sellers name honey and a light fruity or citrus note.",
   "taste_tags": [
     "honey",
     "sweet",
-    "woody",
     "fruity"
   ],
   "brewing": {
@@ -36,12 +35,12 @@
       150,
       210
     ],
-    "notes": "Advice runs from about 65 to 85°C for one to four minutes. Start around 85°C and 2–3 minutes, then cool the water if it tastes sharp."
+    "notes": "General guidance for bud white tea. Start around 85°C and 2–3 minutes, then cool the water if it tastes sharp."
   },
   "caffeine_level": "low",
   "vintage_note": "Sold in small lots by estate, usually as silver tips or under the estate name, and rarely with a harvest date. Like other bud white teas, it is best bought recent; ask for the year.",
-  "description": "Ceylon white tea is the general name for white tea from Sri Lanka, an island better known for black tea. The classic form is silver tips, bud-only tea with a look close to Chinese silver needle. Nuwara Eliya and the Adam's Peak area are the names you see most.\n\nProduction is small and hands-on: selected shoots are withered and dried in the sun. That gentle treatment leaves a pale leaf and a light cup, so the differences come mostly from plant and place.\n\nExpect delicacy rather than the brisk snap of Ceylon black tea. Pine and honey are the notes sellers cite most consistently. Slightly cooled water and a few minutes in the pot work well, and it is easy to underbrew by being too timid with the leaf.\n\nTreat seller numbers with care. Altitude figures for similar teas range widely, and reported output differs from a few dozen kilos a week to a few hundred kilos a year. A named estate tells you more than a claim of rarity. Compare it with Ceylon Golden Tips or Virgin White Tea to see the range.",
-  "history": "Little is documented about when white tea production began on the island; it is usually described as a relatively recent addition to Sri Lanka's long black tea trade, and no firm start date or founder is established. Sri Lanka's Export Development Board now presents white tea as a specialty line, with products such as organic and virgin white tea made for export.",
+  "description": "Ceylon white tea is the general name for white tea from Sri Lanka, an island better known for black tea. The classic form is silver tips, bud-only tea with a look close to Chinese silver needle. Nuwara Eliya and the Adam's Peak area are the names you see most.\n\nProduction is small and hands-on: selected shoots are withered and dried in the sun, and sellers also describe light hand-rolling. That gentle treatment leaves a pale leaf and a light cup, so the differences come mostly from plant and place.\n\nExpect delicacy rather than the brisk snap of Ceylon black tea. Honey is the note sellers cite most consistently. Slightly cooled water and a few minutes in the pot work well, and it is easy to underbrew by being too timid with the leaf.\n\nTreat seller numbers with care. A single seller's page can give both 1,700 kilos and a few hundred kilos a year for output. A named estate tells you more than a claim of rarity. Compare it with Ceylon Golden Tips or Virgin White Tea to see the range.",
+  "history": "Little is documented about when white tea production began on the island; no firm start date or founder is established. Sri Lanka's Export Development Board now presents white tea as a specialty line, with products such as organic and virgin white tea made for export.",
   "liquor_hex": "#E5D08F",
   "leaf_hex": "#C9C8B0",
   "sources": [
@@ -50,7 +49,7 @@
     "https://exporterofsrilanka.blogspot.com/2021/04/white-tea-ceylon-silver-tips-about.html",
     "https://teakruthi.com/blogs/tea-break/what-is-ceylon-white-tea"
   ],
-  "confidence": "medium",
+  "confidence": "low",
   "wikipedia_title": null,
   "wikipedia_scope": "none",
   "popularity": 3,

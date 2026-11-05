@@ -6,9 +6,11 @@
   "name_zh": "红碎茶",
   "name_ru": "Хун Суй Ча",
   "aliases": [
+    "紅砕茶",
+    "紅碎茶",
     "Broken black tea",
-    "Dian Hong Sui Cha",
-    "紅碎茶"
+    "CTC black tea",
+    "Dian Hong Sui Cha"
   ],
   "category": "black",
   "origin_country": "China",
@@ -37,16 +39,17 @@
     "notes": "Normally brewed Western-style or in a bag. Small particles extract fast, so keep it to two or three minutes, or add milk if it goes long."
   },
   "caffeine_level": "high",
-  "vintage_note": "Sold by size grade and not by year: broken and fannings grades. Drink it fresh, ideally within a year or so, since the small particles lose aroma quickly.",
+  "vintage_note": "Typically sold by size grade rather than by vintage. As with other broken teas, there is no reason to age it; drink it within a year or two, while it still has its briskness.",
   "description": "Hong sui cha simply means broken black tea, the Chinese name for the small-particle grades that fill most of the world's tea bags. It is made in China too, though its best-known home is elsewhere, and in Yunnan it is the second face of Dian Hong beside the whole-leaf gongfu.\n\nThe breaking is the point. Chinese usage covers several methods: traditional rollers, whose output is lower but richer in taste, and machine routes, including rotorvane, LTP and CTC. Smaller pieces oxidise evenly and brew fast.\n\nThe cup is dark, strong and quick. Do not gongfu it: a couple of minutes in a mug is enough, and more just adds bitterness. It is made for milk, sugar or blending as much as for drinking plain.\n\nBroken does not mean bad here, but look for an even particle and a fresh smell.",
-  "history": "Broken grades grew up with machine rolling. The first CTC machine ran in 1930 at the Amgoorie garden in Assam, under the supervision of William McKercher.\n\nIn China, red broken tea is made in Yunnan as Dian Hong graded tea. When production began there is not something clear dates are available for.",
+  "history": "Chinese terminology splits broken black tea by method: traditional, and non-traditional, the latter covering rotor (Rotorvane), CTC and LTP machine-made teas. The machine methods are also used internationally.\n\nIn China the style has a place in Yunnan, where Dian Hong divides into gongfu and broken tea, and in Guangxi, which has its own CTC processing standard. Its history here is more industrial than storied, with little in the way of a single founder or origin account.",
   "liquor_hex": "#8F3414",
   "leaf_hex": "#3A2318",
   "sources": [
     "https://zh.wikipedia.org/wiki/%E6%AD%A3%E5%B1%B1%E5%B0%8F%E7%A7%8D",
     "https://zh.wikipedia.org/wiki/%E6%BB%87%E7%BA%A2",
     "https://en.wikipedia.org/wiki/Crush,_tear,_curl",
-    "https://www.paperandtea.com/blogs/glossary/ctc-tea"
+    "https://www.paperandtea.com/blogs/glossary/ctc-tea",
+    "https://www.ttbz.org.cn/upload/file/20250714/6388809061355424316880102.pdf"
   ],
   "confidence": "medium",
   "wikipedia_title": null,

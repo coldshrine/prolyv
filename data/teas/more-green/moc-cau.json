@@ -16,7 +16,7 @@
   "origin_country": "Vietnam",
   "origin_region": "Thai Nguyen · Tan Cuong",
   "cultivar": null,
-  "processing": "A green tea made from a young bud and the two leaves below it, rolled into a small curved hook and fired. Traditional firing is done by hand over a stove, where the fuel and heat strongly affect the flavour.",
+  "processing": "A green tea made from a young bud and the two leaves below it, rolled into a small curved hook and fired.",
   "form": "loose",
   "harvest_season": "Picked as young shoots of one bud and two leaves. Little is documented about a prized season for this grade in particular.",
   "appearance_dry": "Small, curled leaves bent like a fish hook, which is where the name comes from.",
@@ -39,17 +39,16 @@
       120,
       180
     ],
-    "notes": "Advice ranges from a 20-second steep to 2 or 3 minutes. Start short at about 80°C and lengthen only if the cup is thin."
+    "notes": "General guidance for Vietnamese green tea rather than a rule for this grade. Start short at about 80°C and lengthen only if the cup is thin."
   },
   "caffeine_level": "medium",
-  "vintage_note": "Sold as a grade of Thai Nguyen green tea rather than by vintage. As is usual for green tea, the most recent harvest is the one to buy, and it should be drunk fresh. Grade words are loosely used, and cheaper listings may allow three or four leaves per bud.",
-  "description": "Móc câu means fish hook, and it describes both the shape of this Vietnamese green tea and its place in the Thai Nguyen grading ladder. It is one of the grades of Tan Cuong tea, sitting below the bud-focused dinh and tom non.\n\nThe picking rule is what defines it: one young bud plus the two leaves beneath it. Those leaves are rolled into a small curve and fired, and traditional hand firing depends heavily on the fuel and the control of the flame.\n\nExpect the regional pattern of bitterness at the front of the tongue, followed by a sweetness that stays well after you swallow. More leaf means more body and grip than a pure bud grade, so hot water and long steeps are the usual mistakes.\n\nThe name alone guarantees little. Ask about the picking standard and where the tea was grown, since the grade is used loosely and some cheaper listings allow more leaves per bud. If you enjoy it, compare it with a tom non from the same area to taste what the extra leaf does.",
+  "vintage_note": "Sold as a grade of Thai Nguyen green tea rather than by vintage. As is usual for green tea, the most recent harvest is the one to buy, and it should be drunk fresh. Ask the seller what picking standard the name means here.",
+  "description": "Móc câu means fish hook, and it describes both the shape of this Vietnamese green tea and its place in the Thai Nguyen grading ladder. It is one of the grades of Tan Cuong tea, with more leaf than the bud-focused dinh and tom non.\n\nThe picking rule is what defines it: one young bud plus the two leaves beneath it. Those leaves are rolled into a small curve and fired.\n\nExpect the regional pattern of bitterness at the front of the tongue, followed by a sweetness that stays well after you swallow. More leaf generally means more body and grip than a pure bud grade, so hot water and long steeps are the usual mistakes.\n\nThe name alone guarantees little, so ask about the picking standard and where the tea was grown. If you enjoy it, compare it with a tom non from the same area to taste what the extra leaf does.",
   "history": "Little is documented about when móc câu became a named grade. It is recorded as one of the grades of Tan Cuong tea, alongside dinh non and tom non, and the name comes from the hooked shape of the rolled leaf.\n\nIts wider story is that of Thai Nguyen green tea, where grades are set by how much of the young shoot is picked.",
   "liquor_hex": "#CDBE62",
   "leaf_hex": "#3F4A2A",
   "sources": [
     "https://en.wikipedia.org/wiki/Vietnamese_tea",
-    "https://nhathuoclongchau.com.vn/bai-viet/tra-moc-cau-la-gi-tra-moc-cau-co-tac-dung-gi-doi-voi-suc-khoe.html",
     "https://en.thainguyen.gov.vn/thai-nguyen-tourist/the-flavor-of-tea-through-life-270941"
   ],
   "confidence": "medium",

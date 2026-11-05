@@ -14,18 +14,17 @@
   "origin_country": "China",
   "origin_region": "Fujian · Wuyi",
   "cultivar": "Rui Xiang (305)",
-  "processing": "Grown and made in Wuyi as a rock tea: shaken, partly oxidised, rolled and roasted. Roast level varies, and a lighter roast keeps more of the aroma.",
+  "processing": "Grown and made in Wuyi as a rock tea: shaken, partly oxidised, rolled and roasted. Roast level varies by maker.",
   "form": "loose",
   "harvest_season": "Spring, as is usual for Wuyi rock teas.",
   "appearance_dry": "Typical of Wuyi rock teas: dark, twisted strips.",
   "appearance_liquor": "Typical of roasted Wuyi oolongs: clear orange-gold to amber.",
   "appearance_wet": "Typical of the class: green-brown leaves with darker edges.",
-  "taste_profile": "A high-aroma tea with a floral and fruity lift, often compared to gardenia, over a fairly mellow body.",
+  "taste_profile": "Not well recorded in the sources checked. Its use as a named aroma cultivar points to a floral lift; expect that over the roast and mineral weight typical of the class.",
   "taste_tags": [
     "floral",
-    "fruity",
-    "sweet",
-    "roasted"
+    "roasted",
+    "mineral"
   ],
   "brewing": {
     "grams": 7,
@@ -43,17 +42,16 @@
     "notes": "The usual approach for Wuyi rock teas. Keep early steeps short and do not lift the lid too late, or the aroma flattens."
   },
   "caffeine_level": "medium",
-  "vintage_note": "Sold by spring harvest year and roast, like other Wuyi rock teas, and often as a modestly priced named cultivar. It also goes unnamed into blends, so a single-cultivar label is worth checking.",
-  "description": "Rui Xiang is a modern bred cultivar, known in the trade by its number, 305, and grown in Wuyi among other places. Its reason for being is aroma.\n\nIn Wuyi it is made as a rock tea. The roast has to be judged carefully, since the point of this leaf is its fragrance rather than heavy fire.\n\nExpect gardenia-like florals and some fruit over a mellow body. It is a good one to brew slightly less fiercely than a dark Rou Gui: short steeps, and attention to the lid as well as the cup.\n\nMakers also blend it with Da Hong Pao and Rou Gui to lift the aroma. If you want to know the cultivar itself, buy a lot sold as pure Rui Xiang, and ask where it grew.",
-  "history": "Rui Xiang is a recent cultivar, listed under code 305 with Huang Jin Gui (Huangdan) as parent and a publication year of 2003. A tea seller credits the Fujian Academy of Agricultural Sciences with breeding it.\n\nSince then it has spread beyond Fujian's Wuyi area: regional trials, including ones in Guangdong and Longyan, report good results for it.",
+  "vintage_note": "Sold by spring harvest year and roast, like other Wuyi rock teas. Look for the number 305 as well as the name.",
+  "description": "Rui Xiang is a modern bred cultivar, known in the trade by its number, 305, and grown in Wuyi.\n\nIn Wuyi it is made as a rock tea, with shaking, partial oxidation and a roast.\n\nThe tasting record checked here is thin, so expect the broad pattern of the class with some floral lift. Keep early steeps short.\n\nWhen buying, ask for the year, the roast and where it grew.",
+  "history": "Rui Xiang is a recent cultivar, listed under code 305 with Huang Jin Gui (Huangdan) as parent and a publication year of 2003. The same list traces this series of numbered varieties to the Fujian Tea Research Institute.",
   "liquor_hex": "#C98A3A",
   "leaf_hex": "#46362A",
   "sources": [
     "https://hongchinatea.com/post/rock-tea-code/",
-    "https://iteaworld.com/products/premium-wuyi-rock-tea-ruixiang-ban-yan",
     "https://iteaworld.com/pages/wuyi-rock-tea"
   ],
-  "confidence": "medium",
+  "confidence": "low",
   "wikipedia_title": null,
   "wikipedia_scope": "none",
   "popularity": 2,

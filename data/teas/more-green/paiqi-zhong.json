@@ -9,39 +9,39 @@
     "Paiqizhong",
     "Camellia sinensis cv. Paiqizhong"
   ],
-  "category": "green",
+  "category": "black",
   "origin_country": "China",
-  "origin_region": "Guangxi",
+  "origin_region": "Guangxi · Shanglin",
   "cultivar": "Paiqizhong",
-  "processing": "A tea plant variety rather than a finished tea. As with most green tea plants, the leaf would be fixed, rolled and dried.",
+  "processing": "A tea plant variety rather than a finished tea, best suited to black tea and especially broken black tea: as usual for the class, the leaf is withered, rolled or cut, oxidised and dried.",
   "form": "loose",
   "harvest_season": "An early-sprouting variety, so it comes in early in the spring; no picking standard is documented.",
-  "appearance_dry": "Not documented for the finished tea; expect a medium-sized green leaf typical of its class.",
-  "appearance_liquor": "Not documented; green tea of this kind is normally a clear yellow-green.",
-  "appearance_wet": "Medium-sized leaves, in line with its medium-leaf classification.",
-  "taste_profile": "No dedicated tasting notes are documented; a general green tea profile of vegetal freshness and light sweetness is the safest expectation.",
+  "appearance_dry": "Not documented; as is typical of black tea, dark leaf, broken in the case of broken grades.",
+  "appearance_liquor": "Not documented; as is typical of black tea, a clear reddish amber.",
+  "appearance_wet": "Medium-sized leaves, in line with its medium-leaf classification, turning coppery brown as is usual for black tea.",
+  "taste_profile": "Black tea from this variety is described as mellow with a high, lifting aroma; no fuller tasting notes are documented.",
   "taste_tags": [
-    "vegetal",
+    "malty",
     "sweet"
   ],
   "brewing": {
     "grams": 3,
     "water_ml": 150,
-    "temp_c": 85,
+    "temp_c": 95,
     "steeps": 3,
     "seconds": [
+      30,
       60,
-      90,
-      120
+      90
     ],
-    "notes": "General advice for green tea, not specific to this variety."
+    "notes": "General advice for black tea, not specific to this variety."
   },
   "caffeine_level": "medium",
-  "vintage_note": "This variety is not usually sold under its own name; it is grown as a companion plant within regional gardens. Tea made from it would, as is usual for green tea, be sold as the current spring harvest.",
-  "description": "Paiqi Zhong is a tea plant variety, known by the formal name Camellia sinensis cv. Paiqizhong. It is listed under Guangxi here, although its origin details are thin.\n\nBotanically it is a seed-propagated, small-tree type with medium leaves. It sprouts early, is diploid, and grows tall and upright with moderate branching.\n\nIt tends to be planted as a companion variety in tea gardens, which means you are more likely to drink it blended into a regional tea than to meet it on its own. No dedicated tasting notes are documented.\n\nIf a seller names it, ask what the leaf was made into and where it was grown.",
-  "history": "Little is documented about this variety beyond its botanical description: its first recording and any breeding or selection history remain unclear.",
-  "liquor_hex": "#D6D387",
-  "leaf_hex": "#68773F",
+  "vintage_note": "This variety is not usually sold under its own name; it is grown as a companion plant in Guangxi black tea and Liubao gardens.",
+  "description": "Paiqi Zhong is a tea plant variety, known by the formal name Camellia sinensis cv. Paiqizhong. It comes from Paiqi village in Shanglin county, Guangxi, and is grown mainly around Damingshan.\n\nBotanically it is a seed-propagated, small-tree type with medium leaves. It sprouts early, is diploid, and grows tall and upright with moderate branching.\n\nIts leaf suits black tea, especially broken grades, which are described as mellow with a high aroma. It tends to be planted as a companion variety for Guangxi black tea and Liubao, so you are more likely to drink it in a regional tea than on its own.\n\nIf a seller names it, ask what the leaf was made into and where it was grown.",
+  "history": "The variety takes its name from its recorded origin, Paiqi village in Dafeng township, Shanglin county, Guangxi. It is grown mainly in Shanglin and Binyang around Damingshan, and has been introduced to Guilin, Yulin and Liuzhou.\n\nWhen and by whom it was first selected is not recorded.",
+  "liquor_hex": "#A8622A",
+  "leaf_hex": "#4A3A28",
   "sources": [
     "https://www.ichabaike.com/chashu/paiqizhong/",
     "https://www.wikidata.org/wiki/Q137825906"

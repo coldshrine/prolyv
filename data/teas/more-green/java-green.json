@@ -19,11 +19,10 @@
   "appearance_dry": "Dark, twisted green leaf, varying a lot by estate.",
   "appearance_liquor": "Typically yellow-green to pale gold.",
   "appearance_wet": "Green leaf of medium size, varying by estate.",
-  "taste_profile": "Varies by estate; the highland tea from Ciwidey near Bandung is described as full-bodied and grassy.",
+  "taste_profile": "Varies by estate; generally described as fresh and light, with delicate herbal notes and a subtle astringency.",
   "taste_tags": [
-    "grassy",
     "vegetal",
-    "woody"
+    "grassy"
   ],
   "brewing": {
     "grams": 3,
@@ -38,8 +37,8 @@
   },
   "caffeine_level": "medium",
   "vintage_note": "There is no vintage culture around this tea. It is sold by estate and grade rather than by year, and as with any green tea, freshness is what counts, so look for a recent packing date.",
-  "description": "Java green tea means green tea grown on the Indonesian island of Java, nearly always in the western highlands. It is a place name rather than one defined style, which is the first thing to know before buying.\n\nIndonesia is mainly a black tea country, and green tea is the smaller side of it. West Java accounts for most of the national tea crop, around 69% in 2020 figures, so that is where the green tea comes from too.\n\nThe cups vary. A Ciwidey estate tea near Bandung is sold as full-bodied and grassy, while West Java's Chakra Dewata estate has reportedly moved past greens once thought too smoky. Brew in cooler water first, since the style of the estate decides what you will get.\n\nBuy by estate name and ask for a packing date. Part of Java's small-scale green tea has traditionally gone into local jasmine tea, so scented tea is often what you will meet in Indonesia itself.",
-  "history": "Tea in Indonesia is mainly a black tea story, with green tea made in smaller amounts for local drinking. Commercial green tea production in West Java is reported to date only from the 1980s, though this rests on limited evidence.\n\nIndonesian tea output has drifted down from around 160 thousand tons in 2000 to about 120 thousand in the 2020s, and some Java estates have since invested in improving their greens.",
+  "description": "Java green tea means green tea grown on the Indonesian island of Java, mostly in the western highlands. It is a place name rather than one defined style, which is the first thing to know before buying.\n\nIndonesia is mainly a black tea country, and green tea is the smaller side of it. West Java produces about two-thirds of the national tea crop, so much of the green tea comes from there too.\n\nThe cups vary. Java green is generally described as fresh and light with herbal notes, and West Java's Chakra Dewata estate has reportedly moved past greens once thought too smoky. Brew in cooler water first, since the style of the estate decides what you will get.\n\nBuy by estate name and ask for a packing date.",
+  "history": "Tea in Indonesia is mainly a black tea story, and green tea is a minor part of Java's output, put at 10 to 15% by one tea merchant's account. Tea came to the island under Dutch colonial rule, and production later shifted towards domestic drinking.\n\nIndonesian tea output has fallen from about 165 thousand tonnes in 2002 to about 125 thousand in 2022, and some Java estates have since invested in improving their greens.",
   "wikipedia_title": "Tea production in Indonesia",
   "wikipedia_scope": "umbrella",
   "popularity": 2,
@@ -49,8 +48,6 @@
   "sources": [
     "https://en.wikipedia.org/wiki/Tea_production_in_Indonesia",
     "https://ratetea.com/region/west-java/135/",
-    "https://databoks.katadata.co.id/en/agroindustry/statistics/7ff14c76cf1f552/in-2020-the-majority-of-indonesian-tea-production-originated-from-west-java",
-    "https://www.tea-and-coffee.com/java-green-tea-ps-sunda-purwa",
     "https://www.alveus.eu/blog/indonesian-tea/"
   ],
   "confidence": "low"

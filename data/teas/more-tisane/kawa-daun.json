@@ -15,14 +15,14 @@
   "category": "tisane",
   "origin_country": "Indonesia",
   "origin_region": "West Sumatra",
-  "cultivar": "Robusta or arabica coffee leaves (accounts differ)",
+  "cultivar": "Usually robusta coffee leaves",
   "processing": "Coffee leaves are dried over a cooking fire, smoked, or toasted in a handheld frame over low heat, sometimes for as long as 12 hours. The dark leaves are then steeped or boiled in water.",
   "form": "loose",
   "harvest_season": "No fixed season is documented. Leaves come from local coffee trees.",
   "appearance_dry": "Dark, brittle, smoke-browned whole coffee leaves.",
-  "appearance_liquor": "Dark and coffee-like when brewed strongly, ranging towards deep reddish brown.",
+  "appearance_liquor": "Dark when brewed strongly, ranging towards deep reddish brown.",
   "appearance_wet": "Large, leathery dark brown leaves.",
-  "taste_profile": "Coffee-like in aroma and appearance, with smoke from the fire-drying and a bitterness that depends on how the leaf was dried.",
+  "taste_profile": "Closer to tea than coffee, with a gentle aroma, smoke from the fire-drying and a bitterness that depends on how the leaf was dried.",
   "taste_tags": [
     "smoky",
     "roasted",
@@ -40,8 +40,8 @@
     "notes": "A rough guide, as traditional sellers brew strong batches by boiling. It is commonly served in a coconut shell."
   },
   "caffeine_level": "low",
-  "vintage_note": "There are no vintages or graded harvests. It is brewed and served at local stalls, with packaged and flavoured versions sold as souvenirs. Choose it for smoke and freshness, as with other fire-dried leaf drinks.",
-  "description": "Kawa daun is tea made from coffee leaves, a drink of West Sumatra and of Kerinci, where it is known as air kawo. It looks and smells close to coffee, but no bean is involved.\n\nThe leaves are dried over a kitchen fire, smoked, or toasted in a frame over low heat. One description has them roasted for 12 hours. That long contact with heat gives the leaf its colour and much of its smoky character. Accounts disagree on the raw material: some say robusta leaves, others arabica.\n\nThe cup is dark, smoky and somewhat bitter. Local stalls commonly serve it in a coconut shell, and it is usually drunk hot.\n\nIt is mainly something to drink where it is made. Packaged versions exist, including lemon-honey and ginger-cinnamon experiments from Tanah Datar. Claims about it as a health drink still need more research.",
+  "vintage_note": "There are no vintages or graded harvests. It is brewed and served at local stalls. Choose it for smoke and freshness, as with other fire-dried leaf drinks.",
+  "description": "Kawa daun is tea made from coffee leaves, a drink of West Sumatra and of Kerinci, where it is known as air kawo. No bean is involved, and it tastes closer to tea than to coffee.\n\nThe leaves are dried over a kitchen fire, smoked, or toasted in a frame over low heat. One description has them roasted for 12 hours. That long contact with heat gives the leaf its colour and much of its smoky character. The leaves are usually robusta.\n\nThe cup is dark, smoky and somewhat bitter. Local stalls commonly serve it in a coconut shell, and it is usually drunk hot.\n\nIt is mainly something to drink where it is made. Claims about it as a health drink still need more research.",
   "history": "A popular story holds that West Sumatrans turned to the leaves because Dutch colonial rules made them grow coffee for trade but kept the beans from them. Indonesian accounts dispute this, arguing that the leaf drink predates the VOC and that the bean habit came later. The novel Max Havelaar by Multatuli also mentions leaf coffee.\n\nIn 2018 a study in the Journal of Ethnic Foods recorded three production methods in the province. That same year, about 4,000 people drank it from coconut shells at a festival in Batusangkar.",
   "wikipedia_title": "Kopi daun",
   "wikipedia_scope": "exact",
@@ -51,12 +51,10 @@
   "sources": [
     "https://id.wikipedia.org/wiki/Kopi_daun",
     "https://doaj.org/article/a7514f9675a24d0c939daa0072d8d792",
-    "https://en.tempo.co/amp/628813/the-west-sumatran-leaf-coffee",
     "https://www.sbs.com.au/food/article/are-we-ready-for-tea-made-from-coffee-leaves/d5zdxnuli",
-    "https://www.thejakartapost.com/life/2018/12/01/heavily-caffeinated-indonesians-sip-4000-cups-of-java",
-    "https://repository.upi.edu/133558/"
+    "https://www.thejakartapost.com/life/2018/12/01/heavily-caffeinated-indonesians-sip-4000-cups-of-java"
   ],
-  "confidence": "high",
+  "confidence": "medium",
   "images": [
     {
       "url": "https://upload.wikimedia.org/wikipedia/commons/4/44/Kawa_Daun_dan_Pisang_Goreng.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",

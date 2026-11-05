@@ -18,16 +18,16 @@
   "origin_country": "China",
   "origin_region": "Jiangxi · Jingdezhen · Fuliang",
   "cultivar": null,
-  "processing": "Gongfu black tea: withered, rolled, fully oxidised and dried in the usual way for the class.",
+  "processing": "A gongfu black tea: as with others of its class, the leaf is withered, rolled, fully oxidised and dried into fine strands. Detailed steps are little published.",
   "form": "loose",
   "harvest_season": "Not well documented for this tea; as with other Chinese gongfu blacks, spring leaf makes the finest grades.",
   "appearance_dry": "Tight, fine, slender strands with a dark glossy colour.",
   "appearance_liquor": "Deep, rich red.",
-  "appearance_wet": "As is typical of the class, soft even coppery-red leaf.",
-  "taste_profile": "A fresh, lasting fragrance with clear sweetness, over a full red cup.",
+  "appearance_wet": "Typically copper-red leaf.",
+  "taste_profile": "Clean, with a persistent sugary, honey-like sweetness and a lasting fragrance.",
   "taste_tags": [
     "sweet",
-    "floral",
+    "honey",
     "malty"
   ],
   "brewing": {
@@ -47,14 +47,15 @@
   },
   "caffeine_level": "medium",
   "vintage_note": "Usually sold as recent-harvest tea, with no special ageing culture on record. As with other gongfu blacks, the aroma is at its best in the first year or two. Fuliang's geographical label also covers green tea, so check that you are buying the black.",
-  "description": "Fu Hong is the gongfu black tea of Fuliang, the county around Jingdezhen in northeast Jiangxi, mostly grown in its north and northeast. Yes, the porcelain city: Fuliang is its tea-growing neighbourhood, and its tea carries a protected agricultural label.\n\nIt is made in the usual gongfu way, by withering, rolling, oxidising and drying, then sorted into fine strands. Some writing lumps it together with Keemun (qi hong), so the two names are easy to confuse. Whether a given bag is a separate style or a neighbour selling on a famous name is worth asking.\n\nThe cup is a deep red with a fresh, lingering sweet fragrance. Short steeps in porcelain suit it, and it is gentle enough to try against a Keemun side by side, which is the most useful way to learn what it is.\n\nFuliang also makes green tea under the same county label, so check the type before you buy. Ask for the harvest year and the grower's area.",
-  "history": "Fuliang's fame as a tea market is older than black tea itself: Bai Juyi's Tang-dynasty poem Pipa Xing mentions a merchant going to Fuliang to buy tea. That says nothing about this particular style, which came much later.\n\nLocal accounts credit Fuliang gongfu black tea with a gold award at the 1915 Panama-Pacific exposition, a claim made for several Chinese teas. Today Fuliang tea is a national agricultural geographical indication.",
+  "description": "Fu Hong is the gongfu black tea of Fuliang county, now part of Jingdezhen in northeast Jiangxi. Fuliang is the old tea market in Bai Juyi's line about a merchant gone to buy tea, so its name carries weight well beyond this one tea.\n\nThe leaf is made in the classic gongfu way, into tight fine strands. The north and northeast of the county are the main source, and Fuliang black tea is sometimes spoken of together with Keemun.\n\nThe cup is a bright red with a lasting sugary sweetness and a clean aroma. Keep steeps short at first, and do not be surprised by similarities with Keemun.\n\nFuliang tea has a Chinese geographical indication, and the name is covered by the China-EU GI agreement. When you buy, look for that origin on the pack and a stated grade, as aroma claims on the label are easy to make.",
+  "history": "Local accounts credit Fuliang gongfu black tea with a gold award at the 1915 Panama-Pacific exposition, a claim made for several Chinese teas. Today Fuliang tea is a national agricultural geographical indication. Little else about the origin of this style is documented in the sources used here.",
   "liquor_hex": "#9F3F1D",
   "leaf_hex": "#3A2A1D",
   "sources": [
-    "https://www.maigoo.com/top/391402.html"
+    "https://www.maigoo.com/top/391402.html",
+    "https://www.news.cn/20260521/3dcd531e9f624189913a5dda5e37413d/c.html"
   ],
-  "confidence": "medium",
+  "confidence": "low",
   "wikipedia_title": null,
   "wikipedia_scope": "none",
   "popularity": 2,

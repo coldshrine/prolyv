@@ -21,12 +21,11 @@
   "form": "other",
   "harvest_season": "Little is documented about a prized picking. It is sold year-round as a shelf product.",
   "appearance_dry": "Chopped, dried plant material in muted brown and grey-green, often sold in tea bags.",
-  "appearance_liquor": "Golden-yellow for the flower style, much darker for the stem style.",
+  "appearance_liquor": "Varies by product, typically yellow-brown; a home brew boiled from whole artichokes can reach a dark olive.",
   "appearance_wet": "Soft, shapeless plant fibre in dull olive brown.",
-  "taste_profile": "The flower style is described as mild, gently sweet and nutty, the stem style as darker and bitter. Added sweetener can change the cup considerably.",
+  "taste_profile": "Slightly vegetal, likened by one home cook to barley tea, and sometimes described as a little bitter and woody. It is often lightly sweetened, and added sweetener can change the cup considerably.",
   "taste_tags": [
-    "nutty",
-    "sweet",
+    "vegetal",
     "herbal",
     "bitter"
   ],
@@ -42,9 +41,9 @@
   },
   "caffeine_level": "none",
   "vintage_note": "Sold without vintages, usually as packaged bags, cut plant material or extract. As is usual for herbal infusions, go by the packing date and drink it fresh rather than keeping it.",
-  "description": "Trà atisô is the artichoke infusion that Vietnam, and Đà Lạt in the Central Highlands above all, has made into a familiar commercial product. It contains no tea plant, so calling it tea is a matter of habit.\n\nIt reaches shops in several forms: bags of dried flower parts, cut plant material and extract. What goes in matters. Reports separate a yellow, sweeter style made from the flower from a dark, bitter one made from the stem, and some products include stevia.\n\nExpect something mild, with a nutty sweetness in the flower style. The stem style is a much sterner drink, so if a first cup tastes harshly bitter, a different product may suit you better before you give up on the idea.\n\nRead the ingredient list when buying: it tells you the plant part and whether a sweetener has been added. Artichoke infusions also exist outside Vietnam, including in Romania and Mexico, and those are separate traditions from the Đà Lạt product.",
+  "description": "Trà atisô is the artichoke infusion that Vietnam, and Đà Lạt in the Central Highlands above all, has made into a familiar commercial product. It contains no tea plant, so calling it tea is a matter of habit.\n\nIt reaches shops in several forms: bags of dried flower parts, cut plant material and extract. What goes in matters. Bags use dried flower parts, home versions are boiled from whole artichokes, and some products include stevia.\n\nExpect something lightly vegetal, which one home cook likens to barley tea, often sweetened a little. The aftertaste does not please everyone, so a different product may suit you better before you give up on the idea.\n\nRead the ingredient list when buying: it tells you the plant part used and whether a sweetener has been added. Artichoke infusions also exist outside Vietnam, including in Romania and Mexico, and those are separate traditions from the Đà Lạt product.",
   "history": "Little is documented about when artichoke infusion began in Vietnam. It is established today as a popular drink there, with commercial production in Đà Lạt, and it is valued locally for its reputed medicinal effects. Those claims are not well established, and no reliable account names who first made it.",
-  "liquor_hex": "#C9A646",
+  "liquor_hex": "#8F7F3A",
   "leaf_hex": "#6E5F3F",
   "sources": [
     "https://ru.wikipedia.org/wiki/%D0%A2%D1%80%D0%B0%D0%B2%D1%8F%D0%BD%D0%BE%D0%B9_%D1%87%D0%B0%D0%B9",
