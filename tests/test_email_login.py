@@ -155,3 +155,15 @@ def test_demo_login_only_with_flag_on_localhost(tmp_path, google):
         assert client.get("/settings").status_code == 200
     with pytest.raises(RuntimeError, match="DEV_LOGIN"):
         build_app(make_settings(tmp_path, base_url="https://prolyv.example", dev_login=True), google)
+
+
+def test_login_page_says_accounts_are_not_open_when_no_method_is_set_up(tmp_path, google):
+    settings = make_settings(tmp_path, base_url="https://prolyv.example", google_client_id="", google_client_secret="", telegram_bot_token="", telegram_bot_username="")
+    with TestClient(build_app(settings, google), base_url="https://prolyv.example") as client:
+        assert "Accounts open very soon" in client.get("/login").text
+
+
+def test_login_page_has_no_such_notice_once_a_method_works(tmp_path, google):
+    settings = make_settings(tmp_path, base_url="https://prolyv.example", google_client_id="", google_client_secret="")
+    with TestClient(build_app(settings, google), base_url="https://prolyv.example") as client:
+        assert "Accounts open very soon" not in client.get("/login").text

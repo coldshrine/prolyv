@@ -24,6 +24,13 @@
       <h1 class="h1">Log in to Prolyv</h1>
       <p class="lead">No passwords — use an account you already have. New here? We’ll create your diary automatically.</p>
 
+      {% if not (settings.dev_login_enabled or settings.telegram_usable or settings.google_enabled or settings.email_login_enabled or settings.is_local) %}
+        <div class="notice">
+          <strong>Accounts open very soon.</strong>
+          <span>Until then the tea base, the guides and the discussions are open to read.</span>
+        </div>
+      {% endif %}
+
       {% if settings.dev_login_enabled %}
         <a class="btn-auth btn-demo" href="/dev/login{% if next %}?next={{ next|urlencode }}{% endif %}">Continue as demo user</a>
       {% endif %}
