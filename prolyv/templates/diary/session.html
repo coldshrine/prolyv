@@ -129,10 +129,11 @@
     <h2 class="sp-h" id="comments-h">{{ comment_total }} comment{{ '' if comment_total == 1 else 's' }}</h2>
     {% if sess.allow_comments %}
       {% if current_user %}
-      <form method="post" action="/sessions/{{ sess.id }}/comments" class="sp-comment-form" id="comment-form">
+      <form method="post" action="/sessions/{{ sess.id }}/comments#comments" class="sp-comment-form" id="comment-form">
         <input type="hidden" name="csrf_token" value="{{ csrf_token }}">
+        {% if comment_error %}<p class="field-error" role="alert">{{ comment_error }}</p>{% endif %}
         <label for="comment-body">Add a comment</label>
-        <textarea id="comment-body" name="body" rows="3" maxlength="2000" placeholder="Ask about the parameters or share how it went for you" required>{% if reply_to %}@{{ reply_to }} {% endif %}</textarea>
+        <textarea id="comment-body" name="body" rows="3" maxlength="2000" placeholder="Ask about the parameters or share how it went for you" required>{% if comment_body %}{{ comment_body }}{% elif reply_to %}@{{ reply_to }} {% endif %}</textarea>
         <div class="sp-comment-btns"><button class="sp-post" type="submit">Post</button></div>
       </form>
       {% else %}<p class="sp-login"><a href="/login?next=/sessions/{{ sess.id }}">Log in</a> to comment.</p>{% endif %}

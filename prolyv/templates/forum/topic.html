@@ -175,7 +175,7 @@
         <li><a href="/sessions/{{ s.id }}">{{ cup(s.category_key, 44, s.tea.liquor_hex if s.tea else None) }}<span class="f-compare-text"><b>{% if s.user.deleted_at %}Deleted account{% else %}{{ s.user.display_name }}{% endif %}{% if s.user_id == topic.user_id %} (author){% endif %}</b><span>{% if not same_tea %}{{ s.tea_name }} · {% endif %}{{ session_bits(s, True) }}</span></span></a></li>
         {% endfor %}
       </ul>
-      {% if sessions|length >= 2 %}<a class="f-compare-btn" href="/sessions/compare?a={{ sessions[0].id }}&amp;b={{ sessions[1].id }}">Compare side by side</a>{% endif %}
+      {% if sessions|length >= 2 %}<a class="f-compare-btn" href="/sessions/{{ sessions[0].id }}/compare?with={{ sessions[1].id }}">Compare side by side</a>{% endif %}
     </section>
     {% endif %}
     {% if related %}

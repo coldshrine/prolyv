@@ -377,3 +377,11 @@ def test_many_cards_a_bad_one_and_a_second_run(tmp_path, monkeypatch):
     run_main(tmp_path, monkeypatch, transport, "--prune")
     with Session(engine) as db:
         assert db.execute(select(Tea).where(Tea.slug == "tea-11")).scalar_one().status.value == "pending"
+
+
+def test_import_accepts_an_empty_history(app, db):
+    card = dict(CARD, history="", confidence="low", images=[])
+    assert import_teas.validate(card) == []
+    tea, _ = import_teas.upsert(db, card, {"images": []})
+    db.commit()
+    assert not tea.localized("en")["history_paragraphs"]

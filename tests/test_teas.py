@@ -78,9 +78,13 @@ def test_pagination(client, db):
     assert "Tea 00" in first and "Tea 25" not in first
     assert "Show more" in first and "24 of 30" in first and "page=2" in first
     assert 'hx-select=".more-list &gt; *"' in first or 'hx-select=".more-list > *"' in first
+    # Show more fetches one page and pushes ?page=2; opening that URL, as Back does, shows everything so far
+    assert 'hx-push-url="/teas?sort=name&amp;page=2"' in first or 'hx-push-url="/teas?sort=name&page=2"' in first
+    more = client.get("/teas", params={"sort": "name", "page": 2}, headers={"hx-request": "true"}).text
+    assert "Tea 25" in more and "Tea 00" not in more
     second = client.get("/teas", params={"sort": "name", "page": 2}).text
-    assert "Tea 25" in second and "Tea 00" not in second
-    assert "Show more" not in second and "Previous page" in second
+    assert "Tea 25" in second and "Tea 00" in second and second.count('class="tea-card"') == 30
+    assert "Show more" not in second
     assert "Tea 25" in client.get("/teas", params={"sort": "name", "page": 99}).text
 
 
@@ -386,3 +390,28 @@ def test_sources_read_as_names_not_raw_addresses():
     assert source_label("https://zh.wikipedia.org/wiki/%E5%A4%A7%E7%BA%A2%E8%A2%8D") == "Wikipedia (zh): 大红袍"
     assert source_label("https://en.wikipedia.org/wiki/Da_Hong_Pao") == "Wikipedia (en): Da Hong Pao"
     assert source_label("https://www.example.com/a/very/long/path") == "example.com"
+
+
+def test_a_refused_tea_form_keeps_published(tmp_path, google):
+    client = admin_client(tmp_path, google)
+    admin_login(client)
+    form = {"csrf_token": csrf_token(client), "name_en": "Kept Tea", "category": "green", "form": "loose", "origin_country": "Japan",
+            "description": "A description long enough to pass the check for this card.", "published": "on", "brew_temp_c": "300"}
+    refused = client.post("/admin/teas/new", data=form, follow_redirects=False)
+    assert refused.status_code == 400 and 'name="published" checked' in refused.text
+
+
+def test_a_region_repeating_the_country_or_saying_nothing_is_not_shown(client, db):
+    make_tea(db, "same", "Same", country="China", region="China")
+    make_tea(db, "none", "None", country="Unknown", region="Unknown")
+    make_tea(db, "fine", "Fine", country="China", region="Fujian")
+    grid = client.get("/teas").text
+    assert "China · China" not in grid and "Unknown" not in grid.split("</select>")[-1] and "China · Fujian" in grid
+    assert "China · China" not in client.get("/teas/same").text
+    assert client.get("/teas/o/unknown").status_code == 404
+
+
+def test_short_cards_have_no_history_section_and_one_thin_note(client, db):
+    make_tea(db, "short", "Short", confidence="low", history="")
+    page = client.get("/teas/short").text
+    assert '<h2 class="h2">History</h2>' not in page and page.count("thinly documented") == 1

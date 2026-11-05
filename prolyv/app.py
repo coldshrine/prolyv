@@ -33,7 +33,7 @@ from prolyv.web import (
     routes_teas,
 )
 from prolyv.web.cookies import PendingCookiesMiddleware
-from prolyv.web.deps import get_current_user
+from prolyv.web.deps import get_current_user, on_this_machine
 from prolyv.web.headers import SecurityHeadersMiddleware
 from prolyv.web.headmethod import HeadMethodMiddleware
 from prolyv.web.routes_auth import login_redirect
@@ -119,7 +119,7 @@ def create_app(settings: Settings | None = None, google_transport=None) -> FastA
             db.commit()
             request.state.user = sess.user if sess else None
             if sess:
-                request.state.is_admin = is_admin_user(db, settings, sess.user)
+                request.state.is_admin = is_admin_user(db, settings, sess.user, on_this_machine(request))
         finally:
             db.close()
 

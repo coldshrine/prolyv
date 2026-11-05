@@ -349,13 +349,20 @@
     form.addEventListener("input", function () { refresh(); saveDraft(); });
     form.addEventListener("change", function () { refresh(); saveDraft(); });
     var submitting = false;
-    form.addEventListener("submit", function () {
+    form.addEventListener("submit", function (e) {
+      if (submitting) { e.preventDefault(); return; } // a double click saves once
+      form.querySelectorAll('[type="submit"]').forEach(function (b) { b.disabled = true; });
+      document.querySelectorAll('[form="session-form"]').forEach(function (b) { b.disabled = true; });
       if (running || banked) logSteep(); // the running steep counts
       submitting = true;
       saveDraft(); // the draft goes only after the save went through (app.js, on the next page)
       try { if (!editing) sessionStorage.setItem("prolyv:saved-draft", draftKey); } catch (e) {}
     });
     window.addEventListener("beforeunload", function () { if (running && !submitting) saveDraft(); });
+    window.addEventListener("pageshow", function () { // Back to this page: the buttons work again
+      submitting = false;
+      document.querySelectorAll('#session-form [type="submit"], [form="session-form"]').forEach(function (b) { b.disabled = false; });
+    });
     // Enter in a one-line field never saves the whole session.
     form.addEventListener("keydown", function (e) {
       if (e.key === "Enter" && e.target.tagName === "INPUT" && e.target.type !== "submit") e.preventDefault();

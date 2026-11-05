@@ -7,9 +7,9 @@
 {%- endmacro %}
 
 {# Goes last inside a .more-list. The next page's items and its own button replace this block; without JS it is a plain link. #}
-{% macro show_more(url, note=None, list=".more-list", tag="div") -%}
+{% macro show_more(url, note=None, list=".more-list", tag="div", push=False) -%}
 <{{ tag }} class="show-more">
-  <a class="btn btn-secondary btn-sm" href="{{ url }}" hx-get="{{ url }}" hx-target="closest .show-more" hx-swap="outerHTML" hx-select="{{ list }} > *" hx-push-url="false">Show more</a>
+  <a class="btn btn-secondary btn-sm" href="{{ url }}" hx-get="{{ url }}" hx-target="closest .show-more" hx-swap="outerHTML" hx-select="{{ list }} > *" hx-push-url="{{ url if push else 'false' }}">Show more</a>
   {% if note %}<span class="muted small">{{ note }}</span>{% endif %}
 </{{ tag }}>
 {%- endmacro %}
@@ -23,7 +23,7 @@
   <span class="tea-card-body">
     <span class="tea-card-name">{{ tea.name_en }}</span>
     {% if tea.name_zh or tea.name_ru or tea.name_native %}<span class="tea-card-native">{{ tea.name_zh or tea.name_native or '' }}{% if (tea.name_zh or tea.name_native) and tea.name_ru %} · {% endif %}{{ tea.name_ru or '' }}</span>{% endif %}
-    <span class="tea-card-origin">{{ tea.origin_country }}{% if tea.origin_region %} · {{ tea.origin_region }}{% endif %}</span>
+    {% if tea.origin_line %}<span class="tea-card-origin">{{ tea.origin_line }}</span>{% endif %}
     {% if tea.taste_tags %}<span class="tags">{% for t in tea.taste_tags[:3] %}<span class="tag">{{ t }}</span>{% endfor %}</span>{% endif %}
   </span>
 </a>
@@ -125,7 +125,7 @@
     <span class="session-date">Tea · {{ tea.category_label }}</span>
     <span class="tea-card-name">{{ tea.name_en }}</span>
     {% if tea.name_zh or tea.name_ru %}<span class="tea-card-native">{{ tea.name_zh or '' }}{% if tea.name_zh and tea.name_ru %} · {% endif %}{{ tea.name_ru or '' }}</span>{% endif %}
-    <span class="tea-card-origin">{{ tea.origin_country }}{% if tea.origin_region %} · {{ tea.origin_region }}{% endif %}</span>
+    {% if tea.origin_line %}<span class="tea-card-origin">{{ tea.origin_line }}</span>{% endif %}
   </span>
 </a>
 {%- endmacro %}

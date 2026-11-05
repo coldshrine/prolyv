@@ -74,7 +74,7 @@ def test_public_session_shows_on_profile_and_tea_card(client, db):
     assert "public session" in page and "Share" in page and "Tea card" in page
     assert 'property="og:title" content="Tie Guan Yin · Olena K.' in page
     assert "Tie Guan Yin" in client.get("/u/olena_tea").text
-    assert "1</p><p class=\"stat-label\">session logged" in client.get("/u/olena_tea").text.replace("\n", "")
+    assert "1</p><p class=\"stat-label\">public session" in client.get("/u/olena_tea").text.replace("\n", "")
     tea_page = client.get("/teas/tie-guan-yin").text
     assert "/u/olena_tea" in tea_page and "No public sessions yet" not in tea_page
 
@@ -570,3 +570,72 @@ def test_story_text_handles_crlf_long_words_and_paragraphs():
     font = _font("Manrope", 36, 500)
     lines = _wrap(draw, "x" * 400, font, 900, 3)
     assert len(lines) == 3 and all(draw.textlength(line, font=font) <= 900 for line in lines) and lines[-1].endswith("…")
+
+
+def test_a_double_submit_saves_one_session(client, db):
+    telegram_login(client, username="olena_tea")
+    token = csrf_token(client)
+    first = session_id_from(new_session(client, token, tea_name="Twice"))
+    second = session_id_from(new_session(client, token, tea_name="Twice"))
+    assert first == second
+    assert len(db.execute(select(TeaSession).where(TeaSession.tea_name == "Twice")).scalars().all()) == 1
+
+
+def test_compare_works_for_two_sessions_of_other_people_and_signed_out(app, client):
+    from fastapi.testclient import TestClient
+
+    from tests.conftest import DESKTOP_UA
+
+    telegram_login(client, tg_id="1", username="olena_tea")
+    a = session_id_from(new_session(client, csrf_token(client), tea_name="Tea A", visibility="public"))
+    other = TestClient(app, headers={"user-agent": DESKTOP_UA})
+    telegram_login(other, tg_id="2", username="tea_mike")
+    b = session_id_from(new_session(other, csrf_token(other), tea_name="Tea B", visibility="public"))
+    visitor = TestClient(app, headers={"user-agent": DESKTOP_UA})
+    page = visitor.get(f"/sessions/{a}/compare", params={"with": b})
+    assert page.status_code == 200 and "Tea A" in page.text and "Tea B" in page.text
+    assert visitor.get(f"/sessions/{a}/compare", follow_redirects=False).status_code == 303
+    third = TestClient(app, headers={"user-agent": DESKTOP_UA})
+    telegram_login(third, tg_id="3", username="third_person")
+    assert third.get(f"/sessions/{a}/compare", params={"with": b}).status_code == 200
+
+
+def test_brew_the_same_way_does_not_claim_their_taste_tags(client):
+    telegram_login(client, username="olena_tea")
+    sid = session_id_from(new_session(client, csrf_token(client), visibility="public"))
+    page = client.get("/sessions/new", params={"from": sid}).text
+    assert 'value="floral" checked' not in page and 'value="110"' in page
+
+
+def test_comment_over_the_limit_keeps_the_text(tmp_path, google):
+    from fastapi.testclient import TestClient
+
+    from tests.conftest import DESKTOP_UA, build_app, make_settings
+
+    app = build_app(make_settings(tmp_path, post_rate_limit=1), google)
+    client = TestClient(app, headers={"user-agent": DESKTOP_UA})
+    telegram_login(client, username="olena_tea")
+    token = csrf_token(client)
+    sid = session_id_from(new_session(client, token, visibility="public"))
+    refused = client.post(f"/sessions/{sid}/comments", data={"csrf_token": token, "body": "Please keep this text"})
+    assert refused.status_code == 429 and "Please keep this text" in refused.text and "posting very quickly" in refused.text
+    over = new_session(client, token, tea_name="Over the limit")
+    assert over.status_code == 429 and "Over the limit" in over.text and "nothing here is lost" in over.text
+
+
+def test_photos_that_would_blow_the_memory_limit_are_refused(tmp_path):
+    from io import BytesIO
+
+    import pytest as pt
+    from PIL import Image
+
+    from prolyv.uploads import PhotoError, save_session_photo
+
+    for kind, size, extra in (("WEBP", (4470, 4470), {"lossless": True}), ("PNG", (4470, 4470), {}), ("JPEG", (7700, 7700), {"progressive": True})):
+        buffer = BytesIO()
+        Image.new("RGB", size, "green").save(buffer, kind, **extra)
+        with pt.raises(PhotoError):
+            save_session_photo(str(tmp_path), uuid.uuid4(), buffer.getvalue())
+    buffer = BytesIO()
+    Image.new("RGB", (7700, 5000), "green").save(buffer, "JPEG", quality=30)
+    save_session_photo(str(tmp_path), uuid.uuid4(), buffer.getvalue())

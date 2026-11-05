@@ -289,3 +289,11 @@
   .bp-aside { flex: 1 1 300px; }
   .bp-aside .side-card, .bp-aside .side-diary, .bp-thread { padding: 24px; border-radius: 28px; }
 }
+
+/* Cups stay centred in their cover whatever else sits there */
+.blog-latest-cover .cup, .blog-cover .cup { position: absolute; left: 50%; top: 50%; transform: translate(-50%, -50%) scale(.58); }
+.blog-cover .cup { top: 42%; transform: translate(-50%, -50%) scale(.5); }
+@media (min-width: 768px) {
+  .blog-latest-cover .cup { transform: translate(-50%, -50%); }
+  .blog-cover .cup { top: 50%; transform: translate(-50%, -50%); }
+}

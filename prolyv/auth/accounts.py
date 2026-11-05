@@ -166,9 +166,9 @@ def delete_expired_sessions(db: Session) -> int:
     return len(expired)
 
 
-def is_admin_user(db: Session, settings: Settings, user: User) -> bool:
+def is_admin_user(db: Session, settings: Settings, user: User, on_local_host: bool = True) -> bool:
     """Admin follows a verified sign-in, never the handle string, which anyone can take once it is free."""
-    if settings.is_local and settings.is_admin_handle(user.handle):
+    if settings.is_local and on_local_host and settings.is_admin_handle(user.handle):
         return True
     emails, telegram_ids = settings.admin_email_set, settings.admin_telegram_id_set
     if not emails and not telegram_ids:

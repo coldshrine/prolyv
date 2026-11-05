@@ -76,7 +76,7 @@
   <div class="tea-main" lang="{{ lang }}">
     <ul class="facts" lang="en">
       <li><span class="fact-label">Category</span><span><a href="/teas/c/{{ tea.category.value }}">{{ tea.category_label }}</a></span></li>
-      <li><span class="fact-label">Origin</span><span>{{ tea.origin_country }}{% if tea.origin_region %} · {{ tea.origin_region }}{% endif %}</span></li>
+      {% if tea.origin_line %}<li><span class="fact-label">Origin</span><span>{{ tea.origin_line }}</span></li>{% endif %}
       <li><span class="fact-label">Form</span><span>{{ tea.form_label }}</span></li>
       {% if tea.cultivar %}<li><span class="fact-label">Cultivar</span><span>{{ tea.cultivar }}</span></li>{% endif %}
       {% if tea.caffeine_level %}<li><span class="fact-label">Caffeine</span><span>{{ tea.caffeine_level|capitalize }}</span></li>{% endif %}

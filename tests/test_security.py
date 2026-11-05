@@ -145,3 +145,12 @@ def test_local_only_helpers_refuse_a_real_domain_when_base_url_was_forgotten(tmp
     token = page.split('name="csrf_token" value="')[1].split('"')[0] if 'name="csrf_token"' in page else ""
     answer = real_domain.post("/auth/email/start", data={"email": "a@example.com", "csrf_token": token}, follow_redirects=False)
     assert answer.status_code == 404 and "token=" not in answer.text
+
+
+def test_a_handle_is_no_admin_on_a_real_host_even_if_base_url_was_forgotten(tmp_path, google):
+    app = build_app(make_settings(tmp_path, admin_handles="olena_tea"), google)
+    local = TestClient(app, base_url="http://localhost:8000", headers={"user-agent": DESKTOP_UA})
+    telegram_login(local, username="olena_tea")
+    assert local.get("/admin").status_code == 200
+    real = TestClient(app, base_url="https://prolyv.example.com", headers={"user-agent": DESKTOP_UA}, cookies=dict(local.cookies))
+    assert real.get("/admin").status_code == 403

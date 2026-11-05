@@ -40,6 +40,7 @@ router = APIRouter()
 
 PAGE_SIZE = 24
 ORIGIN_CHIPS = 12
+MAX_CUMULATIVE_PAGES = 20
 CATEGORY_TITLES = {"tisane": "Tisanes", "heicha": "Heicha: dark teas"}
 SORTS = {
     "popular": lambda: (Tea.popularity.desc(), Tea.name_en.asc()),
@@ -96,7 +97,7 @@ def sub_origins(db, key: str, limit: int = 60) -> list[dict]:  # noqa: ANN001
     rows = db.execute(select(Tea.origin_country, Tea.origin_region).where(*CATALOG, Tea.origin_keys.like(f"% {key} %"))).all()
     found: dict[str, dict] = {}
     for country, region in rows:
-        levels = origin_levels(region)
+        levels = [level for level in origin_levels(region) if origin_key(level) != origin_key(country)]
         keys = [origin_key(level) for level in levels]
         inside = levels if origin_key(country) == key else levels[keys.index(key) + 1:] if key in keys else []
         for level in dict.fromkeys(inside):
@@ -118,7 +119,10 @@ def list_page(request: Request, db, user, *, q="", category="", origin="", form=
     total = count_of(db, stmt)
     pages = max(1, (total + PAGE_SIZE - 1) // PAGE_SIZE)
     page = min(page, pages)
-    teas = db.execute(stmt.options(*CARD_OPTIONS).order_by(*SORTS[sort]()).offset((page - 1) * PAGE_SIZE).limit(PAGE_SIZE)).scalars().all()
+    # Show more asks for one page and pushes ?page=N. Opening that URL, as Back does, shows everything up to it.
+    one_page = request.headers.get("hx-request") and not request.headers.get("hx-history-restore-request")
+    span = 1 if one_page else min(page, MAX_CUMULATIVE_PAGES)
+    teas = db.execute(stmt.options(*CARD_OPTIONS).order_by(*SORTS[sort]()).offset((page - span) * PAGE_SIZE).limit(span * PAGE_SIZE)).scalars().all()
 
     # each menu counts what is left once the other filters apply
     def counts(column, *filters):  # noqa: ANN001, ANN202
@@ -222,6 +226,7 @@ def read_tea_form(data) -> tuple[dict, dict]:  # noqa: ANN001
         "taste_profile", "taste_tags", "vintage_note", "description", "wikipedia_url", "caffeine_level",
         "brew_grams", "brew_water_ml", "brew_temp_c", "brew_steeps", "brew_seconds", "brew_notes", "popularity",
     )}
+    form["published"] = bool(data.get("published"))  # a refused form must not quietly unpublish the tea
     errors: dict[str, str] = {}
     if not 2 <= len(form["name_en"]) <= 120:
         errors["name_en"] = "Give the tea a name (2–120 characters)."
@@ -359,7 +364,7 @@ def tea_origins(request: Request, db: DbDep, user: CurrentUser):
             continue
         entry = countries.setdefault(country, {"name": country, "key": origin_key(country), "count": 0, "regions": {}})
         entry["count"] += 1
-        for level in dict.fromkeys(origin_levels(region)):
+        for level in dict.fromkeys(level for level in origin_levels(region) if origin_key(level) != origin_key(country)):
             reg = entry["regions"].setdefault(origin_key(level), {"name": level, "key": origin_key(level), "count": 0})
             reg["count"] += 1
     ordered = sorted(countries.values(), key=lambda c: (-c["count"], c["name"]))

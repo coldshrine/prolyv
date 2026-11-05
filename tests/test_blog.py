@@ -76,7 +76,7 @@ def test_draft_publish_embed_and_feed(tmp_path, google):
     assert 'data-embed-src="https://www.tiktok.com/player/v1/7301234567890123456"' in page and "Open on TikTok" in page
     assert "<strong>rinse</strong>" in page and "<script>alert" not in page
     assert 'property="og:title" content="Why does shu turn bitter? · Prolyv blog"' in page
-    assert "Brew along" in page and "Nobody has brewed along yet" in page
+    assert "Nobody has brewed along yet" not in page and "brew-along" not in page  # a guide with no tea has nothing to brew along
     assert "Why does shu turn bitter?" in client.get("/blog").text
     assert "Why does shu turn bitter?" in client.get("/", params={"tab": "blog"}).text
     assert "Why does shu turn bitter?" in client.get("/").text
@@ -230,7 +230,7 @@ def test_post_blocks_come_from_real_data(tmp_path, google):
     page = post_page(client).text
     assert "The session from the video" in page and "8 g" in page and "100 °C" in page
     assert 'href="/sessions/new?post=why-does-shu-turn-bitter"' in page and "Copy to my diary" in page
-    assert "Steep by step" in page and "Steep 3 · 12 s" in page and "12 seconds" in page
+    assert "Steep by steep" in page and "Steep 3 · 12 s" in page and "12 seconds" in page
     assert "Discuss in the forum" in page and "FORUM THREAD" not in page
     plain = post_page(client, "a-guide-with-no-tea").text
     assert "The session" not in plain and "Steep by step" not in plain and "Copy to my diary" not in plain and "Play the video" not in plain

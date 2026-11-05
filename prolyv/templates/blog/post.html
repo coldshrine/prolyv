@@ -40,7 +40,7 @@
         {% else %}<a class="bp-author" href="/u/{{ post.author.handle }}">{{ avatar(post.author, 40) }}<span><b>{{ post.author.display_name }}</b> · @{{ post.author.handle }}</span></a>{% endif %}
       </div>
       <div class="bp-actions">
-        {% if post.is_published %}<a class="btn btn-primary bp-brew" href="#brew-along"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 4v6h6"></path><path d="M20 12a8 8 0 1 1-2.3-5.7L20 9"></path></svg>Brew along</a>{% endif %}
+        {% if post.is_published and post.tea %}<a class="btn btn-primary bp-brew" href="#brew-along"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 4v6h6"></path><path d="M20 12a8 8 0 1 1-2.3-5.7L20 9"></path></svg>Brew along</a>{% endif %}
         {% if params and post.is_published %}<a class="btn btn-secondary bp-copy-phone" href="{{ add_url }}">Copy to my diary</a>{% endif %}
         <button class="btn btn-secondary bp-share" type="button" data-share="{{ og.url }}" aria-label="Share">{{ share_icon(18) }}</button>
         {{ save_button('post', post.id, saved, current_user, csrf_token, post_url) }}
@@ -85,7 +85,7 @@
 
     {% if steeps %}
     <section class="bp-steeps" aria-labelledby="steeps-h" data-steeps>
-      <h2 id="steeps-h" class="bp-h2">Steep by step</h2>
+      <h2 id="steeps-h" class="bp-h2">Steep by steep</h2>
       <p class="bp-sub"><span class="bp-wide-only">Hover or tap a steep: the cup on the right shows that steep’s liquor.</span><span class="bp-phone-only">Tap a steep: the cup shows that steep’s liquor.</span></p>
       <div class="bp-steeps-grid">
         <ol class="bp-steep-list">
@@ -101,6 +101,7 @@
     </section>
     {% endif %}
 
+    {% if post.tea or brew.people %}
     <section class="bp-along" id="brew-along" aria-labelledby="along-h">
       <div class="bp-card-head">
         <h2 id="along-h" class="bp-along-h">{% if brew.people == 1 %}1 person brewed along{% elif brew.people %}{{ brew.people }} people brewed along{% else %}Nobody has brewed along yet{% endif %}</h2>
@@ -118,6 +119,7 @@
       <p class="bp-along-sum">Log your session from this post and make it public to show up here.</p>
       {% endif %}
     </section>
+    {% endif %}
 
     <section class="bp-comments-wrap" id="comments" aria-labelledby="comments-h">
       <h2 id="comments-h" class="bp-h2">{% if comment_total == 1 %}1 comment{% elif comment_total %}{{ comment_total }} comments{% else %}Comments{% endif %}</h2>
@@ -175,8 +177,8 @@
     {% if not current_user %}
     <section class="side-diary" aria-labelledby="diary-h">
       <h2 id="diary-h" class="h2">Start your own diary</h2>
-      <p>Log this session with one tap and see how your cup compares.</p>
-      <a class="side-diary-btn" href="/login?next={{ add_url|urlencode }}">Start for free</a>
+      <p>{% if post.tea %}Log this session with one tap and see how your cup compares.{% else %}Your first session takes 30 seconds. It stays private until you decide to share it.{% endif %}</p>
+      <a class="side-diary-btn" href="/login?next={{ (add_url if post.tea else '/sessions/new')|urlencode }}">Start for free</a>
     </section>
     {% endif %}
   </aside>

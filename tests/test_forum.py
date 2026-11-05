@@ -452,7 +452,7 @@ def test_topic_side_blocks_are_real(client, db):
     related = topic_id_from(post_topic(client, other, title="A neighbour in the same section"))
     other_section = topic_id_from(post_topic(client, other, section="oolong", title="Someone else entirely here"))
     page = client.get(f"/discussions/{tid}").text
-    assert f"/sessions/compare?a={first}&amp;b={second}" in page and "Same tea, 2 ways." in page and "Brew it the same way" in page
+    assert f"/sessions/{first}/compare?with={second}" in page and "Same tea, 2 ways." in page and "Brew it the same way" in page
     assert "Related topics" in page and f"/discussions/{related}" in page and f"/discussions/{other_section}" not in page
 
     # a session turned private leaves the block and the comparison

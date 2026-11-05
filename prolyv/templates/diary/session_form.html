@@ -33,6 +33,7 @@
     <nav class="crumbs" aria-label="Breadcrumbs"><a href="/diary">Diary</a> / {% if editing %}<a href="/sessions/{{ editing.id }}">{{ editing.tea_name }}</a> / <span aria-current="page">Edit</span>{% else %}<span aria-current="page">New session</span>{% endif %}</nav>
     <h1 class="ns-title">{% if editing %}Edit session{% else %}New session{% endif %}</h1>
     <p class="ns-lead">{% if editing %}Fix the numbers or the note. The date stays unless you change it.{% else %}Log as you brew. Your draft saves automatically.{% endif %}</p>
+    {% if errors.quota %}<div class="notice" role="alert">{{ errors.quota }}</div>{% endif %}
     <p class="ns-draft" id="draft-hint" hidden>Draft restored from this device · <a href="#" id="draft-discard">discard</a></p>
   </div>
 </section>

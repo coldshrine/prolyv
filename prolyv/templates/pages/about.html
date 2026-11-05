@@ -1,6 +1,6 @@
 {% extends "base.html" %}
 {% block title %}About · Prolyv{% endblock %}
-{% block head %}<meta name="description" content="Prolyv is a tea diary, a tea encyclopedia, a forum and a blog for people who brew tea at home.">{% endblock %}
+{% block head %}{% with og_title="About · Prolyv", og_desc="Prolyv is a tea diary, a tea encyclopedia, a forum and a blog for people who brew tea at home.", og_path="/about" %}{% include "partials/og.html" %}{% endwith %}{% endblock %}
 {% block content %}
 <article class="container narrow page-text">
   <p class="eyebrow">About</p>

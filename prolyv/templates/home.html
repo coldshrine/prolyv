@@ -1,5 +1,6 @@
 {% extends "base.html" %}
 {% from "partials/macros.html" import feed_item, cup, show_more, avatar %}
+{% block head %}{% with og_title="Prolyv: log your tea, talk through every steep", og_desc="A personal tea diary where any session can become a discussion. The home of our TikTok and Instagram.", og_path="/" %}{% include "partials/og.html" %}{% endwith %}{% endblock %}
 {% block content %}
 {% if not current_user %}
 <section class="home-hero">
@@ -8,7 +9,7 @@
       <p class="home-kicker">DIARY · FORUM · BLOG</p>
       <div class="home-cup home-cup-phone">{{ cup('shu', 200, spin=True) }}</div>
       <h1 class="home-title">Log your tea. Talk through every steep.</h1>
-      <p class="home-lead">A personal tea diary where any session can become a discussion.{% if settings.social_tiktok or settings.social_instagram %} The home of our TikTok and Instagram.{% endif %}</p>
+      <p class="home-lead">A personal tea diary where any session can become a discussion. The home of our TikTok and Instagram.</p>
       <div class="home-actions">
         <a class="btn btn-primary btn-lg" href="/login?next=/sessions/new">Start your diary</a>
         <a class="btn btn-secondary btn-lg" href="#how">How it works</a>

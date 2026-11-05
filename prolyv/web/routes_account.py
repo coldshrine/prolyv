@@ -275,7 +275,7 @@ def profile_page(
         # how many are private is the owner's business: only they see the total
         "logged_count": (db.scalar(select(func.count()).select_from(TeaSession).where(TeaSession.user_id == user.id)) or 0) if is_me else None,
         "stats": [
-            {"value": compact(shared), "label": _plural(shared, "session logged", "sessions logged"), "grad": "grad-pink", "url": f"{home}#sections"},
+            {"value": compact(shared), "label": _plural(shared, "public session", "public sessions"), "grad": "grad-pink", "url": f"{home}#sections"},
             {"value": compact(helpful), "label": _plural(helpful, "helpful reply", "helpful replies"), "grad": "grad-mint", "url": f"{home}?tab=topics#sections"},
             {"value": compact(followers), "label": _plural(followers, "follower", "followers"), "grad": "pf-grad-purple", "url": f"{home}/followers"},
             {"value": compact(len(teas)), "label": _plural(len(teas), "tea on the shelf", "teas on the shelf"), "grad": "pf-grad-gold", "url": f"{home}?tab=shelf#sections"},

@@ -45,6 +45,7 @@ from prolyv.web.text import mentions
 
 router = APIRouter()
 
+QUOTA_TEXT = "You're saving very quickly. Please wait a few minutes and try again: nothing here is lost."
 PHOTO_FILE = re.compile(r"[0-9a-f]{32}-(?:1200|400)\.webp")
 HANDLE_RE = re.compile(r"[a-z0-9_]{3,24}")
 COMMENT_PAGE = 20
@@ -137,13 +138,12 @@ def form_from_session(sess: TeaSession, as_copy: bool = False) -> dict:
         "tea_id": str(sess.tea_id) if sess.tea_id else "", "tea_name": sess.tea_name,
         "grams": "" if sess.grams is None else f"{sess.grams:g}", "water_ml": sess.water_ml or "",
         "temp_c": sess.temp_c or "", "vessel": sess.vessel or "", "rinse": sess.rinse,
-        "taste_tags": list(sess.taste_tags or []),
     })
     if as_copy:
         form["suggested_seconds"] = [s.seconds for s in sess.steeps]
     else:
         form.update({
-            "rating": sess.rating or "", "note": sess.note, "visibility": sess.visibility.value,
+            "rating": sess.rating or "", "note": sess.note, "visibility": sess.visibility.value, "taste_tags": list(sess.taste_tags or []),
             "allow_comments": sess.allow_comments, "brewed_at": sess.brewed_at.date().isoformat(),
             "post_id": str(sess.post_id) if sess.post_id else "",
             "steeps": [{"seconds": s.seconds, "note": s.note or ""} for s in sess.steeps],
@@ -330,12 +330,21 @@ def session_new_form(request: Request, db: DbDep, user: RequiredUser, tea: str =
     return render(request, "diary/session_form.html", form_context(form, tea=picked, from_tea=picked is not None and not source))
 
 
-@router.post("/sessions/new", dependencies=[Depends(require_csrf), Depends(post_quota)])
+@router.post("/sessions/new", dependencies=[Depends(require_csrf)])
 async def session_create(request: Request, db: DbDep, settings: SettingsDep, signer: SignerDep, user: RequiredUser):
     data = await request.form()
     form, errors = parse_session_form(data)
     if errors:
         return render(request, "diary/session_form.html", form_context(form, errors, tea=linked_tea(db, form)), status_code=400)
+    # the same form sent twice within seconds (a double tap, a retry on a slow network) is one session
+    repeat = db.execute(
+        select(TeaSession.id).where(TeaSession.user_id == user.id, TeaSession.tea_name == (form["tea_name"] or ""), TeaSession.note == form["note"], TeaSession.visibility == Visibility(form["visibility"]),
+                                    TeaSession.created_at >= utcnow() - timedelta(seconds=10)).limit(1)
+    ).scalar_one_or_none()
+    if repeat is not None:
+        return RedirectResponse(f"/sessions/{repeat}", status_code=303)
+    if not request.app.state.post_limiter.allow(str(user.id)):  # same quota as post_quota, but the entry stays in the form
+        return render(request, "diary/session_form.html", form_context(form, {"quota": QUOTA_TEXT}, tea=linked_tea(db, form)), status_code=429)
     sess = TeaSession(user=user, tea_name=form["tea_name"])
     db.add(sess)
     db.flush()
@@ -359,7 +368,7 @@ def session_edit_form(request: Request, db: DbDep, user: RequiredUser, session_i
     return render(request, "diary/session_form.html", form_context(form_from_session(sess), tea=sess.tea, editing=sess))
 
 
-@router.post("/sessions/{session_id}/edit", dependencies=[Depends(require_csrf), Depends(post_quota)])
+@router.post("/sessions/{session_id}/edit", dependencies=[Depends(require_csrf)])
 async def session_edit(request: Request, db: DbDep, settings: SettingsDep, signer: SignerDep, user: RequiredUser, session_id: SessionId):
     sess = get_session(db, session_id, user, getattr(request.state, "is_admin", False))
     require_owner(sess, user, getattr(request.state, "is_admin", False))
@@ -486,18 +495,21 @@ def session_page(request: Request, db: DbDep, settings: SettingsDep, user: Curre
         "brew_post": brew_post if brew_post is not None and brew_post.is_published else None,
         "category_label": CATEGORY_LABELS[sess.tea.category] if sess.tea else None,
         "reply_to": reply.lower() if HANDLE_RE.fullmatch(reply.lower()) else "",
+        "comment_body": getattr(request.state, "comment_body", ""), "comment_error": getattr(request.state, "comment_error", ""),
     }
     return render(request, "diary/session.html", context)
 
 
 @router.get("/sessions/{session_id}/compare")
-def session_compare(request: Request, db: DbDep, user: RequiredUser, session_id: SessionId, other: str = Query("", alias="with")):
-    """Two sessions side by side. Either one must be visible to the viewer, as on its own page."""
+def session_compare(request: Request, db: DbDep, user: CurrentUser, session_id: SessionId, other: str = Query("", alias="with")):
+    """Two sessions side by side. Each must be visible to the viewer, as on its own page. Picking from your own needs a login."""
     is_admin = getattr(request.state, "is_admin", False)
     sess = get_session(db, session_id, user, is_admin)
+    if user is None and not other:
+        raise HTTPException(status_code=401, detail="login_required")
     # the viewer's own sessions to compare with: the same tea first, then the newest
     same_tea = TeaSession.tea_id == sess.tea_id if sess.tea_id else TeaSession.tea_name == sess.tea_name
-    mine = db.execute(
+    mine = [] if user is None else db.execute(
         select(TeaSession).options(selectinload(TeaSession.steeps), selectinload(TeaSession.tea))
         .where(TeaSession.user_id == user.id, TeaSession.id != sess.id).order_by(same_tea.desc(), TeaSession.brewed_at.desc(), TeaSession.id).limit(20)
     ).scalars().all()
@@ -550,7 +562,7 @@ def session_story(request: Request, db: DbDep, settings: SettingsDep, user: Curr
     return Response(data, media_type="image/png", headers=headers)
 
 
-@router.post("/sessions/{session_id}/comments", dependencies=[Depends(require_csrf), Depends(post_quota)])
+@router.post("/sessions/{session_id}/comments", dependencies=[Depends(require_csrf)])
 def comment_create(request: Request, db: DbDep, settings: SettingsDep, signer: SignerDep, user: RequiredUser,
                    session_id: SessionId, body: str = Form("")):
     sess = get_session(db, session_id, user, getattr(request.state, "is_admin", False))
@@ -562,6 +574,12 @@ def comment_create(request: Request, db: DbDep, settings: SettingsDep, signer: S
     if len(body) < 2:
         set_flash(response, settings, signer, "error", "That comment is too short: write at least 2 characters." if body else "Write a comment first.")
         return response
+    if not request.app.state.post_limiter.allow(str(user.id)):  # same quota as post_quota, but the comment stays in the box
+        request.state.comment_body = body
+        request.state.comment_error = "You're posting very quickly. Please wait a few minutes and send it again."
+        page = session_page(request, db, settings, user, session_id)
+        page.status_code = 429
+        return page
     comment = SessionComment(session=sess, user=user, body=body)
     db.add(comment)
     db.flush()

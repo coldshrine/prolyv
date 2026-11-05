@@ -2,6 +2,7 @@
 {% from "partials/macros.html" import tea_card, show_more %}
 {% block title %}{{ title }} · Prolyv{% endblock %}
 {% block head %}<link rel="canonical" href="{{ settings.base_url }}{{ canonical }}">
+{% with og_title=title ~ " · Prolyv tea base", og_desc="Prolyv tea base: " ~ total ~ " teas with taste notes, brewing parameters and where each one comes from.", og_path=canonical %}{% include "partials/og.html" %}{% endwith %}
 <meta name="description" content="Prolyv tea base: {{ total }} teas with taste notes, brewing parameters and where each one comes from.">
 {% if thin_page %}<meta name="robots" content="noindex">{% endif %}{% endblock %}
 {% block content %}
@@ -49,10 +50,9 @@
 
   <div id="tea-results">
     {% if teas %}
-    {% if page > 1 %}<p class="previous-page"><a class="btn btn-ghost btn-sm" href="{{ page_url(page - 1) }}">← Previous page</a></p>{% endif %}
     <div class="tea-grid more-list">
       {% for tea in teas %}{{ tea_card(tea) }}{% endfor %}
-      {% if page < pages %}{{ show_more(page_url(page + 1), shown ~ " of " ~ total) }}{% endif %}
+      {% if page < pages %}{{ show_more(page_url(page + 1), shown ~ " of " ~ total, push=True) }}{% endif %}
     </div>
     {% else %}
     <div class="card empty">

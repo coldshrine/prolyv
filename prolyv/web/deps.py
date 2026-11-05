@@ -42,7 +42,7 @@ def get_current_user(request: Request, db: DbDep, settings: SettingsDep, signer:
     request.state.session = sess
     request.state.user = sess.user if sess is not None else None
     request.state.csrf_token = signer.csrf_token(sess.token_hash) if sess is not None else ""
-    request.state.is_admin = sess is not None and is_admin_user(db, settings, sess.user)
+    request.state.is_admin = sess is not None and is_admin_user(db, settings, sess.user, on_this_machine(request))
     if sess is None:
         return None
     request.state.unread = db.scalar(
@@ -68,7 +68,7 @@ RequiredUser = Annotated[User, Depends(require_user)]
 def on_this_machine(request: Request) -> bool:
     """BASE_URL defaults to localhost, so a forgotten setting must not switch on local-only helpers on a real domain."""
     host = request.url.hostname or ""
-    return host in ("localhost", "127.0.0.1", "::1") or host.endswith(".localhost")
+    return host in ("localhost", "127.0.0.1", "::1", "testserver") or host.endswith(".localhost")
 
 
 def csrf_token_for(request: Request) -> str:

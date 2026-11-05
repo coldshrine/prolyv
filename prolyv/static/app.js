@@ -54,7 +54,7 @@
 /* The draft of a saved session goes once the save went through; a signed-out browser keeps nobody's draft. */
 (function () {
   try {
-    if (!document.getElementById("session-form")) {
+    if (/^\/sessions\/[0-9a-f-]{36}$/.test(location.pathname)) {
       var saved = sessionStorage.getItem("prolyv:saved-draft");
       if (saved) { localStorage.removeItem(saved); sessionStorage.removeItem("prolyv:saved-draft"); }
     }
@@ -81,5 +81,12 @@ document.addEventListener("htmx:historyRestore", function () {
   var query = new URLSearchParams(location.search);
   document.querySelectorAll(".teas-filters input[name], .teas-filters select[name]").forEach(function (el) {
     el.value = query.get(el.name) || (el.name === "sort" ? "popular" : "");
+  });
+});
+
+/* Menus built on <details> close when you tap outside them. */
+document.addEventListener("click", function (e) {
+  document.querySelectorAll("details.account-menu[open]").forEach(function (menu) {
+    if (!menu.contains(e.target)) menu.removeAttribute("open");
   });
 });

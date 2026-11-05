@@ -238,7 +238,7 @@ def test_profile_counts_only_public_non_hidden_sessions(client, db):
         for leak in ("Secret tea", "secretnote", "Secretnote", "Taken down", "hiddennote", "Hiddennote"):
             assert leak not in page
     page = client.get("/u/olena_tea").text.replace("\n", "")
-    assert '2</p><p class="stat-label">sessions logged' in page and '1</p><p class="stat-label">tea on the shelf' in page
+    assert '2</p><p class="stat-label">public sessions' in page and '1</p><p class="stat-label">tea on the shelf' in page
     assert "2 shared. Private sessions stay private." in page and "logged ·" not in page
     assert "Your diary could look like this" in page and "First steep" in page and "At least 1 public session" in page
     assert "Regular" not in page  # not earned, so not drawn

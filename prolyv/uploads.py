@@ -11,7 +11,8 @@ from PIL import Image
 
 MAX_BYTES = 10 * 1024 * 1024
 MAX_PIXELS = 60_000_000  # JPEG: decoded at reduced scale, so a big phone photo costs little
-MAX_PIXELS_OTHER = 20_000_000  # PNG and WebP decode in full: about 80 MB of memory at this size, against a 300 MB service limit
+MAX_PIXELS_OTHER = 8_000_000  # PNG, WebP and CMYK decode in full; so does a progressive JPEG, whose buffers cost far more
+MAX_PIXELS_PROGRESSIVE = 12_000_000  # measured: 59 MP progressive reached 542 MB against a 300 MB service limit
 MAX_PHOTOS = 4
 ALLOWED_FORMATS = {"JPEG", "PNG", "WEBP"}
 
@@ -30,6 +31,8 @@ def save_session_photo(media_dir: str, session_id: uuid.UUID, data: bytes) -> tu
                 raise PhotoError("Use a JPEG, PNG or WebP photo.")
             plain = raw.mode in ("RGB", "L")
             limit = MAX_PIXELS if raw.format == "JPEG" and plain else MAX_PIXELS_OTHER
+            if raw.format == "JPEG" and plain and raw.info.get("progressive"):
+                limit = MAX_PIXELS_PROGRESSIVE
             if raw.width * raw.height > limit:
                 raise PhotoError("That photo is too large. Try a smaller one.")
             orientation = raw.getexif().get(0x0112)

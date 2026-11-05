@@ -247,8 +247,18 @@ class Tea(Base):
     def origin_parts(self) -> list[tuple[str, str]]:
         """[(label, key), ...] for country then each region level."""
         parts = [] if is_not_a_place(self.origin_country) else [(self.origin_country, origin_key(self.origin_country))]
-        parts += [(level, origin_key(level)) for level in origin_levels(self.origin_region)]
+        country = origin_key(self.origin_country)
+        parts += [(level, origin_key(level)) for level in origin_levels(self.origin_region) if origin_key(level) != country]
         return parts
+
+    @property
+    def origin_line(self) -> str:
+        """Country · region for cards. Empty values, non-places and a region that repeats the country are left out."""
+        bits = [] if is_not_a_place(self.origin_country) else [self.origin_country]
+        region = (self.origin_region or "").strip()
+        if region and not is_not_a_place(region) and origin_key(region) != origin_key(self.origin_country):
+            bits.append(region)
+        return " · ".join(bits)
 
     @property
     def paragraphs(self) -> list[str]:
@@ -324,7 +334,7 @@ def joined_names(names: list[str]) -> list[str]:
     return sorted(out)
 
 
-NOT_PLACES = {"various", "blended", "worldwide", "unknown", "multiple", "mixed", "global"}
+NOT_PLACES = {"various", "blended", "worldwide", "unknown", "multiple", "mixed", "global", "nationwide", "various-tea-regions", "upasi", "tocklai"}
 
 
 def is_not_a_place(label: str | None) -> bool:

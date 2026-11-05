@@ -24,7 +24,7 @@
     <h2 class="h2">Your choices</h2>
     <p>In <a href="/settings">Settings</a> you can edit your profile, download your data as a file, unlink sign-in methods and delete your account. Deleting signs you out everywhere, removes your sign-in details and erases your name, bio and avatar. Your diary sessions, photos, saved items and follows are deleted. Topics and replies stay in discussions under "Deleted account" so conversations still make sense, unless you ask us to remove them.</p>
     <h2 class="h2">Contact</h2>
-    <p>{% if settings.contact_email %}Questions or requests: <a href="mailto:{{ settings.contact_email }}">{{ settings.contact_email }}</a>.{% else %}Questions or requests: post in <a href="/discussions">Discussions</a> and an admin will follow up.{% endif %}</p>
+    <p>{% if settings.contact_email %}Questions or requests: <a href="mailto:{{ settings.contact_email }}">{{ settings.contact_email }}</a>.{% else %}You can download or delete your data yourself in <a href="/settings">Settings</a>. Please don't post personal requests in public discussions.{% endif %}</p>
   </div>
 </article>
 {% endblock %}

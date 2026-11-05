@@ -2,7 +2,7 @@
 {% from "partials/macros.html" import cup, show_more %}
 {% block title %}Blog · Prolyv{% endblock %}
 {% block head %}
-<meta name="description" content="Every video we post on TikTok and Instagram gets a page here: the full parameters, every steep, and a place to talk about it.">
+{% with og_title="Blog · Prolyv", og_desc="Every video we post on TikTok and Instagram gets a page here: the full parameters, every steep, and a place to talk about it.", og_path="/blog" %}{% include "partials/og.html" %}{% endwith %}
 <link rel="stylesheet" href="/static/css/blog.css?v={{ version }}">
 {% endblock %}
 {% macro short_date(d) %}{{ d.strftime('%b %-d') if d.year == year else d.strftime('%b %-d, %Y') }}{% endmacro %}

@@ -3,6 +3,7 @@
 {% from "forum/_topic_row.html" import topic_row %}
 {% block title %}{% if section %}{{ section.name }} · {% endif %}Discussions · Prolyv{% endblock %}
 {% block head %}
+{% with og_title=(section.name ~ " · " if section else "") ~ "Discussions · Prolyv", og_desc="Ask with your session attached and get answers that fit your cup: grams, temperature and steeps included.", og_path=(("/discussions/s/" ~ section.slug) if section else "/discussions") %}{% include "partials/og.html" %}{% endwith %}
 <link rel="stylesheet" href="/static/css/forum.css?v={{ version }}">
 <script src="/static/forum.js?v={{ version }}" defer></script>
 {% endblock %}

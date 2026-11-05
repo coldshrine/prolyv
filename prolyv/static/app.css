@@ -879,3 +879,8 @@ body { overflow-wrap: anywhere; }
   .topbar-actions { margin-left: auto; }
 }
 .origin-others { margin-top: 28px; margin-bottom: 12px; }
+
+/* Round 2: a photo fills its box in every engine; four-digit stats fit on a phone */
+.tea-card-media img { position: absolute; inset: 0; }
+.stats-inline li { min-width: 0; }
+@media (max-width: 767px) { .stats-inline .stat-value { font-size: 22px; } }
