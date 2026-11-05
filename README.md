@@ -55,9 +55,9 @@ uv run python scripts/seed_prod.py
 uv run python scripts/seed_demo.py
 ```
 
-`seed_prod.py` runs `scripts/import_teas.py`, which fills the tea base from `data/teas/**/*.json` and fetches links and
-free-licence photos from Wikimedia (slow the first time; responses are cached in `data/cache/`, photos in `media/`), and
-then adds the starter topics and guides written under the Prolyv name. `seed_demo.py` adds demo users and activity, and
+`seed_prod.py` runs `scripts/import_teas.py`, which fills the tea base from `data/teas/**/*.json`, fetches Wikipedia links
+and copies the photos listed in the card files (slow the first time; responses are cached in `data/cache/`, photos in
+`media/`), and then adds the starter topics and guides written under the Prolyv name. `seed_demo.py` adds demo users and activity, and
 only runs on localhost. With `DEV_LOGIN=1` and `ADMIN_HANDLES=karyna` in `.env`, press "Continue as demo user" on `/login` or
 open `/dev/login/<handle>` (`karyna` is the admin). Never set `DEV_LOGIN=1` on a server: the app refuses to start.
 
@@ -79,13 +79,22 @@ enums and the house voice. The cards are the source of truth for the text; `scri
 into the `teas` table and enriches each one:
 
 - the English Wikipedia article (`wikipedia_title`) gives the "Read more on Wikipedia" link and, for cards about
-  that exact tea, the Wikidata id, the lead photo (P18) and the Commons category;
-- photos come only from Wikimedia Commons with a free licence (CC BY, CC BY-SA, CC0, public domain) and are shown
-  with "Photo: author · licence" and a link to the source page — no shop photos;
+  that exact tea, the Wikidata id;
+- photos come only from the `images` list in the card file, with a free licence (CC BY, CC BY-SA, CC0, public domain),
+  and are shown with "Photo: author · licence" and a link to the source page. A card without the list has no photos, and
+  a photo taken off a card is deleted from `media/teas/`. The old automatic search found unchecked pictures, so it runs
+  only with `--autosearch-photos`, and never for a card that has the key, even empty;
 - a card without a photo gets a cup placeholder in the colour of its category.
 
-Re-running the importer is safe: cards edited by an admin in the UI are locked and keep their text. Options:
-`--group japan`, `--only sencha`, `--refresh` (ignore the cache), `--dry-run` (validate only), `--max-images 4`.
+Wikimedia allows 200 requests a minute to a client with a contact in its User-Agent and at most 3 at once, and
+Retry-After must be obeyed. The importer sends one request at a time at 180 a minute, so expect about one minute per
+180 photos on the first run. It obeys Retry-After; asked to wait more than 15 minutes it finishes without the network and exits 1.
+
+Stopping and re-running is safe. Each card is committed on its own, a bad card is reported and skipped, and a second run
+makes no requests for what it already has. Cards edited by an admin in the UI are locked and keep their text, photos and
+status. The search index rebuilds at the end in one transaction, about 15 seconds for 5000 cards, and writes on the live
+site wait for it, so run big imports when the site is quiet. Options: `--group japan`, `--only sencha`, `--refresh` (ignore
+the cache), `--dry-run` (validate only), `--no-network`, `--prune` (unpublish teas whose card file is gone).
 
 Teas are added only by the team: the card files plus the importer, or the admin form at `/admin/teas/new`. Users do
 not add teas. Admins (handles listed in `ADMIN_HANDLES`) can edit any card and manage its photos; blog posts are

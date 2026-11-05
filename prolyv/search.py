@@ -12,7 +12,7 @@ import uuid
 
 from sqlalchemy import select, text
 from sqlalchemy.engine import Engine
-from sqlalchemy.orm import Session
+from sqlalchemy.orm import Session, selectinload
 
 from prolyv.models import FORUM_SECTIONS, ForumSection, Post, Reply, Tea, TeaSession, TeaStatus, Topic
 
@@ -47,7 +47,8 @@ def ensure_fts(engine: Engine) -> None:
 
 
 def _put(db: Session, kind: str, ref_id: uuid.UUID, title: str | None, body: str | None, topic_id: uuid.UUID | None = None) -> None:
-    remove(db, kind, ref_id)
+    if not db.info.get("search_index_is_empty"):  # each delete scans the whole index
+        remove(db, kind, ref_id)
     db.execute(
         text("INSERT INTO search_fts (kind, ref_id, topic_id, title, body) VALUES (:kind, :ref, :topic, :title, :body)"),
         {"kind": kind, "ref": ref_id.hex, "topic": topic_id.hex if topic_id else "", "title": prep(title), "body": prep(body)},
@@ -99,8 +100,16 @@ def remove_reply(db: Session, reply_id: uuid.UUID) -> None:
 
 def rebuild(db: Session) -> int:
     db.execute(text("DELETE FROM search_fts"))
+    db.info["search_index_is_empty"] = True
+    try:
+        return _fill_index(db)
+    finally:
+        del db.info["search_index_is_empty"]
+
+
+def _fill_index(db: Session) -> int:
     count = 0
-    for tea in db.execute(select(Tea).where(Tea.status == TeaStatus.published)).scalars():
+    for tea in db.execute(select(Tea).options(selectinload(Tea.aliases)).where(Tea.status == TeaStatus.published)).scalars():
         index_tea(db, tea)
         count += 1
     for topic in db.execute(select(Topic)).scalars():

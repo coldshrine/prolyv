@@ -1,15 +1,24 @@
 #!/usr/bin/env python
-"""Import tea cards from data/teas/**/*.json into the database and enrich them from Wikimedia.
+"""Import tea cards from data/teas/**/*.json into the database.
 
-Idempotent: re-running updates the text from the card files (unless an admin locked the card in the UI),
-refreshes Wikipedia links and Commons photos, and leaves everything else alone. Every HTTP response is cached in
-data/cache/http/ so a second run is offline-fast; --refresh bypasses the cache.
+Photos come only from the `images` list in each card file: a card without one has no photos, and photos no longer
+listed are removed. The old automatic search of Wikimedia found unchecked pictures, so it runs only on request.
+
+Safe to stop and re-run: every card is committed on its own, a bad card is reported and skipped, responses are cached
+in data/cache/http/ and converted photos stay in media/teas/, so a second run makes no requests for them. Cards edited
+by an admin in the UI are locked and keep their text, photos and status.
+
+Wikimedia allows 200 requests a minute to a client whose User-Agent has a contact, at most 3 at once, and Retry-After
+must be obeyed. This runs one request at a time at 180 a minute. If Wikimedia asks to wait longer than LONGEST_WAIT the
+run finishes without the network and exits 1: run it again later and it carries on.
 
     uv run python scripts/import_teas.py                 # everything
     uv run python scripts/import_teas.py --group japan   # one folder
     uv run python scripts/import_teas.py --only sencha   # one card
     uv run python scripts/import_teas.py --no-network    # cards + cached data only
     uv run python scripts/import_teas.py --dry-run       # validate the JSON, touch nothing
+    uv run python scripts/import_teas.py --prune         # also unpublish teas whose card file is gone
+    uv run python scripts/import_teas.py --autosearch-photos   # the old search, for cards with no `images` key
 """
 
 from __future__ import annotations
@@ -18,10 +27,12 @@ import argparse
 import hashlib
 import html
 import json
+import os
 import re
 import sys
 import time
 from datetime import UTC, datetime
+from email.utils import parsedate_to_datetime
 from io import BytesIO
 from pathlib import Path
 from urllib.parse import quote, urlencode
@@ -43,7 +54,12 @@ CACHE_DIR = ROOT / "data" / "cache"
 HTTP_CACHE = CACHE_DIR / "http"
 WIKI_CACHE = CACHE_DIR / "wiki"
 
-USER_AGENT = "ProlyvTeaCatalog/0.1 (tea diary catalog importer; https://github.com/coldshrine/prolyv)"
+USER_AGENT = "ProlyvTeaCatalog/0.1 (tea diary catalog importer; https://github.com/coldshrine)"
+REQUESTS_PER_MINUTE = 180
+MAX_ATTEMPTS = 5
+BACKOFF_SECONDS = 5  # Wikimedia asks for at least this when a 429 or 503 comes without Retry-After
+LONGEST_WAIT = 900  # asked to wait longer than this, the run goes on without the network
+MAX_FAILURES_IN_A_ROW = 8  # the network is down: stop retrying for every remaining card
 WIKIPEDIA_API = "https://en.wikipedia.org/w/api.php"
 WIKIPEDIA_SUMMARY = "https://en.wikipedia.org/api/rest_v1/page/summary/"
 COMMONS_API = "https://commons.wikimedia.org/w/api.php"
@@ -80,76 +96,116 @@ BAD_IMAGE_WORDS = (
 
 
 class Http:
-    def __init__(self, enabled: bool, refresh: bool, pause: float = 0.12) -> None:
+    """One request at a time, paced, obeying Retry-After. Nothing here raises: a failed request returns None."""
+
+    def __init__(self, enabled: bool, refresh: bool, pause: float = 60 / REQUESTS_PER_MINUTE, transport=None,  # noqa: ANN001
+                 sleep=time.sleep, clock=time.monotonic) -> None:  # noqa: ANN001
         self.enabled, self.refresh, self.pause = enabled, refresh, pause
-        self.client = httpx.Client(headers={"User-Agent": USER_AGENT}, timeout=40, follow_redirects=True)
+        self.client = httpx.Client(headers={"User-Agent": USER_AGENT}, timeout=40, follow_redirects=True, transport=transport)
+        self.sleep, self.clock = sleep, clock
         self.requests = 0
         self.cache_hits = 0
-        self._last = 0.0
+        self.rate_limited = 0
+        self.stopped: str | None = None
+        self._failures = 0
+        self._last: float | None = None
 
     def get_json(self, url: str, params: dict | None = None) -> dict | None:
         full = f"{url}?{urlencode(params)}" if params else url
         path = HTTP_CACHE / f"{hashlib.sha1(full.encode()).hexdigest()}.json"
         if path.exists() and not self.refresh:
-            self.cache_hits += 1
-            return json.loads(path.read_text())["body"]
-        if not self.enabled:
-            return None
+            try:
+                body = json.loads(path.read_text())["body"]
+            except (ValueError, KeyError, TypeError):
+                path.unlink(missing_ok=True)  # cut short by an earlier crash
+            else:
+                self.cache_hits += 1
+                return body
         body = self._fetch(full)
         if body is not None:
             path.parent.mkdir(parents=True, exist_ok=True)
-            path.write_text(json.dumps({"url": full, "fetched_at": _now(), "body": body}, ensure_ascii=False))
+            temp = path.with_suffix(f".{os.getpid()}.tmp")
+            temp.write_text(json.dumps({"url": full, "fetched_at": _now(), "body": body}, ensure_ascii=False))
+            temp.replace(path)
         return body
 
     def get_bytes(self, url: str, limit: int = 40_000_000) -> bytes | None:
         """A file for the local media copy. Not cached here: the re-encoded files are the cache."""
-        if not self.enabled:
+        response = self._get(url)
+        if response is None or response.status_code != 200 or len(response.content) > limit:
             return None
-        for attempt in range(4):
-            wait = self.pause - (time.monotonic() - self._last)
-            if wait > 0:
-                time.sleep(wait)
-            self._last = time.monotonic()
-            try:
-                response = self.client.get(url)
-                self.requests += 1
-            except httpx.HTTPError:
-                time.sleep(1.5 * (attempt + 1))
-                continue
-            if response.status_code == 429 or response.status_code >= 500:
-                retry_after = response.headers.get("retry-after", "")
-                time.sleep(int(retry_after) if retry_after.isdigit() and int(retry_after) < 60 else 3.0 * (attempt + 1))
-                continue
-            if response.status_code != 200 or len(response.content) > limit:
-                return None
-            return response.content
-        return None
+        return response.content
 
     def _fetch(self, url: str) -> dict | None:
-        for attempt in range(4):
-            wait = self.pause - (time.monotonic() - self._last)
-            if wait > 0:
-                time.sleep(wait)
-            self._last = time.monotonic()
+        response = self._get(url)
+        if response is None:
+            return None
+        if response.status_code == 404:
+            return {"_missing": True}
+        if response.status_code != 200:
+            print(f"    HTTP {response.status_code} for {url}", file=sys.stderr)
+            return None
+        try:
+            return response.json()
+        except ValueError:
+            return None
+
+    def _get(self, url: str):  # noqa: ANN202
+        """The final response, or None after retries. Waits between all requests, and as long as the server asks."""
+        for attempt in range(MAX_ATTEMPTS):
+            if not self.enabled:
+                return None
+            self._pace()
             try:
                 response = self.client.get(url)
                 self.requests += 1
-            except httpx.HTTPError as exc:
-                print(f"    network error ({exc.__class__.__name__}), retry {attempt + 1}", file=sys.stderr)
-                time.sleep(1.5 * (attempt + 1))
+            except (httpx.HTTPError, httpx.InvalidURL, ValueError) as exc:
+                print(f"    network error ({exc.__class__.__name__}) for {url}, attempt {attempt + 1}", file=sys.stderr)
+                self._failed()
+                self.sleep(BACKOFF_SECONDS * 2 ** attempt)
                 continue
-            if response.status_code == 404:
-                return {"_missing": True}
             if response.status_code in (429, 500, 502, 503, 504):
-                time.sleep(2.0 * (attempt + 1))
+                self.rate_limited += response.status_code == 429
+                wait = retry_after(response) or BACKOFF_SECONDS * 2 ** attempt
+                if wait > LONGEST_WAIT:
+                    self._stop(f"Wikimedia asked to wait {int(wait)} seconds")
+                    return None
+                print(f"    HTTP {response.status_code}, waiting {int(wait)} s", file=sys.stderr)
+                self.sleep(wait)
                 continue
-            if response.status_code != 200:
-                print(f"    HTTP {response.status_code} for {url}", file=sys.stderr)
-                return None
-            try:
-                return response.json()
-            except ValueError:
-                return None
+            self._failures = 0
+            return response
+        self._failed()
+        return None
+
+    def _pace(self) -> None:
+        if self._last is not None:
+            wait = self.pause - (self.clock() - self._last)
+            if wait > 0:
+                self.sleep(wait)
+        self._last = self.clock()
+
+    def _failed(self) -> None:
+        self._failures += 1
+        if self._failures >= MAX_FAILURES_IN_A_ROW:
+            self._stop(f"{self._failures} requests failed in a row")
+
+    def _stop(self, reason: str) -> None:
+        self.enabled = False
+        self.stopped = reason
+        print(f"  ! going on without the network: {reason}. Run the importer again later to finish.", file=sys.stderr)
+
+
+def retry_after(response) -> float | None:  # noqa: ANN001
+    """Retry-After in seconds. It may be a number or an HTTP date."""
+    value = response.headers.get("retry-after", "").strip()
+    if not value:
+        return None
+    if value.isdigit():
+        return float(value)
+    try:
+        return max(0.0, (parsedate_to_datetime(value) - datetime.now(UTC)).total_seconds())
+    except (TypeError, ValueError):
         return None
 
 
@@ -184,13 +240,19 @@ def load_cards(group: str | None, only: str | None) -> tuple[list[dict], list[st
                 continue
             try:
                 card = json.loads(path.read_text(encoding="utf-8"))
-            except json.JSONDecodeError as exc:
+            except ValueError as exc:
                 errors.append(f"{rel(path)}: invalid JSON ({exc})")
+                continue
+            if not isinstance(card, dict):
+                errors.append(f"{rel(path)}: not a card")
                 continue
             card["_group"], card["_path"] = folder.name, rel(path)
             if only and card.get("slug") != only:
                 continue
-            problems = validate(card)
+            try:
+                problems = validate(card)
+            except (TypeError, AttributeError, KeyError, ValueError) as exc:
+                problems = [f"a field has the wrong type ({exc})"]
             if path.stem != card.get("slug"):
                 problems.append(f"file name {path.stem!r} does not match slug {card.get('slug')!r}")
             if problems:
@@ -236,6 +298,8 @@ def validate(card: dict) -> list[str]:
         problems.append("description needs at least two paragraphs")
     if not isinstance(card.get("aliases", []), list):
         problems.append("aliases must be a list")
+    if "images" in card and not isinstance(card["images"], list):
+        problems.append("images must be a list")
     return problems
 
 
@@ -412,36 +476,50 @@ def localize_image(http: Http, media_dir: Path, slug: str, image: dict) -> dict:
             folder.mkdir(parents=True, exist_ok=True)
             large = picture.copy()
             large.thumbnail((1200, 1200))
-            large.save(big, "WEBP", quality=82, method=4)
             picture.thumbnail((400, 400))
-            picture.save(small, "WEBP", quality=75, method=4)
-        except (OSError, ValueError, Image.DecompressionBombError) as exc:
+            # renamed into place only when complete, so a crash never leaves half a photo that looks done
+            for target, version, quality in ((big, large, 82), (small, picture, 75)):
+                temp = target.with_suffix(".tmp")
+                version.save(temp, "WEBP", quality=quality, method=4)
+                temp.replace(target)
+        except (OSError, ValueError, SyntaxError, Image.DecompressionBombError) as exc:
             print(f"    could not convert {source}: {exc.__class__.__name__}", file=sys.stderr)
             return image
     return {**image, "url": f"/media/teas/{slug}/{big.name}", "thumb_url": f"/media/teas/{slug}/{small.name}"}
 
 
-def enrich(http: Http, card: dict, max_images: int) -> dict:
-    """Links + photos for one card. Umbrella articles only contribute the link, never their photos.
+def remove_old_photos(media_dir: Path, slug: str, images: list[dict]) -> None:
+    """A photo taken off the card must also stop being served."""
+    folder = media_dir / "teas" / slug
+    if not folder.is_dir():
+        return
+    keep = {Path(url).name for image in images for url in (image["url"], image["thumb_url"]) if url and url.startswith("/media/")}
+    for path in folder.iterdir():
+        if path.name not in keep:
+            path.unlink(missing_ok=True)
 
-    A card with its own `images` list uses exactly those; the automatic photo search does not run for it."""
+
+def enrich(http: Http, card: dict, max_images: int, autosearch: bool = False) -> dict:
+    """The Wikipedia link and the photos for one card.
+
+    Photos are the card's `images` list, even an empty one. Only with `autosearch`, and only for a card with no such
+    key, does the old search of Wikimedia run. Umbrella articles contribute the link, never their photos."""
     out: dict = {"wikipedia_url": None, "wikidata_id": None, "images": [], "summary": None}
     title, scope = card.get("wikipedia_title"), card["wikipedia_scope"]
-    has_curated = "images" in card
+    search = autosearch and "images" not in card
     candidates: list[str] = []
     page = summary = entity = None
     if title and scope != "none":
         page = wikipedia_page(http, title)
-        summary = wikipedia_summary(http, title)
+        if search:
+            summary = wikipedia_summary(http, title)
         if page:
             out["wikipedia_url"] = page["url"]
             if scope == "exact":
                 out["wikidata_id"] = page.get("wikidata")
-                if page.get("wikidata"):
-                    entity = wikidata_entity(http, page["wikidata"])
-                if has_curated:
-                    pass
-                else:
+                if search:
+                    if page.get("wikidata"):
+                        entity = wikidata_entity(http, page["wikidata"])
                     if entity:
                         candidates += [f"File:{name}" for name in entity["images"]]
                     if page.get("pageimage"):
@@ -452,7 +530,7 @@ def enrich(http: Http, card: dict, max_images: int) -> dict:
                         candidates += [t for t in commons_category_files(http, entity["commons_category"]) if looks_like_photo(t)]
     if summary:
         out["summary"] = {"title": summary.get("title"), "description": summary.get("description"), "extract": summary.get("extract")}
-    if has_curated:
+    if not search:
         out["images"] = curated_images(card)
         return out
     # Commons search: the English name, the native name, then the first alias; results must look like tea photos.
@@ -475,7 +553,7 @@ def enrich(http: Http, card: dict, max_images: int) -> dict:
 # ------------------------------------------------------------------------------------------------ database
 
 
-def upsert(db, card: dict, extra: dict, network: bool) -> tuple[Tea, bool]:
+def upsert(db, card: dict, extra: dict, keep_photos_if_none: bool = False) -> tuple[Tea, bool]:
     tea = db.execute(select(Tea).where(Tea.slug == card["slug"])).scalar_one_or_none()
     created = tea is None
     if created:
@@ -515,16 +593,16 @@ def upsert(db, card: dict, extra: dict, network: bool) -> tuple[Tea, bool]:
         tea.aliases.clear()
         db.flush()  # delete the old aliases before inserting the new set (unique (tea_id, alias))
         tea.aliases = [TeaAlias(alias=a) for a in dict.fromkeys(wanted)]
-    tea.status = TeaStatus.published
+        tea.status = TeaStatus.published
     if extra.get("wikipedia_url"):
         tea.wikipedia_url = extra["wikipedia_url"]
     if extra.get("wikidata_id"):
         tea.wikidata_id = extra["wikidata_id"]
-    if extra.get("images") or (network and not tea.locked):
+    if (created or not tea.locked) and (extra.get("images") or not keep_photos_if_none):
         tea.images = [
             TeaImage(url=i["url"], thumb_url=i["thumb_url"], source_url=i.get("source_url"), kind=i.get("kind"),
-                     alt=i.get("alt") or card["name_en"], source_page=i["source_page"], author=i["author"],
-                     license=i["license"], license_url=i["license_url"], is_primary=(n == 0), sort=n)
+                     alt=i.get("alt") or card["name_en"], source_page=i.get("source_page"), author=i.get("author"),
+                     license=i.get("license"), license_url=i.get("license_url"), is_primary=(n == 0), sort=n)
             for n, i in enumerate(extra.get("images", []))
         ]
     tea.refresh_search_text()
@@ -551,10 +629,13 @@ def main(argv: list[str] | None = None) -> int:
     parser.add_argument("--only", help="one slug")
     parser.add_argument("--no-network", action="store_true")
     parser.add_argument("--refresh", action="store_true", help="ignore the HTTP cache")
-    parser.add_argument("--max-images", type=int, default=4)
+    parser.add_argument("--max-images", type=int, default=4, help="for --autosearch-photos")
+    parser.add_argument("--autosearch-photos", action="store_true", help="search Wikimedia for cards with no `images` key; these photos are unchecked")
     parser.add_argument("--no-media", action="store_true", help="keep remote image URLs instead of local WebP copies")
+    parser.add_argument("--prune", action="store_true", help="unpublish teas whose card file is gone (full runs only, locked cards stay)")
     parser.add_argument("--dry-run", action="store_true", help="validate cards only")
     parser.add_argument("--database-url", help="override DATABASE_URL")
+    parser.add_argument("--media-dir", help="override MEDIA_DIR")
     args = parser.parse_args(argv)
 
     cards, errors = load_cards(args.group, args.only)
@@ -568,35 +649,62 @@ def main(argv: list[str] | None = None) -> int:
     engine = make_engine(url)
     factory = make_session_factory(engine)
     http = Http(enabled=not args.no_network, refresh=args.refresh)
-    media_dir = Path(get_settings().media_dir)
+    media_dir = Path(args.media_dir or get_settings().media_dir)
     if not media_dir.is_absolute():
         media_dir = ROOT / media_dir
-    created = updated = with_images = 0
+    created = updated = with_images = remote_images = 0
     report = []
     with factory() as db:
         for n, card in enumerate(cards, 1):
-            extra = enrich(http, card, args.max_images)
-            if not args.no_media:
-                extra["images"] = [localize_image(http, media_dir, card["slug"], image) for image in extra["images"]]
-            write_wiki_digest(card, extra)
-            tea, is_new = upsert(db, card, extra, network=not args.no_network)
-            db.commit()
+            try:
+                extra = enrich(http, card, args.max_images, autosearch=args.autosearch_photos)
+                listed = len(card.get("images") or [])
+                if len(extra["images"]) < listed:
+                    print(f"  ! {card['slug']}: {listed - len(extra['images'])} photo(s) dropped, no free licence or no URL")
+                if not args.no_media:
+                    extra["images"] = [localize_image(http, media_dir, card["slug"], image) for image in extra["images"]]
+                if extra.get("summary"):
+                    write_wiki_digest(card, extra)
+                tea, is_new = upsert(db, card, extra, keep_photos_if_none=args.autosearch_photos)
+                db.commit()
+                if not args.no_media and http.enabled and not tea.locked:
+                    remove_old_photos(media_dir, tea.slug, extra["images"])
+            except Exception as exc:  # noqa: BLE001 - one bad card must not lose the other thousands
+                db.rollback()
+                errors.append(f"{card['_path']}: {exc.__class__.__name__}: {exc}")
+                print(f"  ! {card['slug']}: {exc.__class__.__name__}: {exc}")
+                continue
             created += is_new
             updated += not is_new
             with_images += bool(tea.images)
+            remote_images += sum(1 for image in tea.images if not image.url.startswith("/media/"))
             report.append({"slug": tea.slug, "images": len(tea.images), "wikipedia": bool(tea.wikipedia_url), "new": is_new})
-            print(f"  [{n:3}/{len(cards)}] {'new' if is_new else 'upd'} {tea.slug:40} photos={len(tea.images)} "
+            print(f"  [{n:4}/{len(cards)}] {'new' if is_new else 'upd'} {tea.slug:40} photos={len(tea.images)} "
                   f"wiki={'y' if tea.wikipedia_url else '-'}")
+        orphans = []
+        if not args.group and not args.only:
+            known = {card["slug"] for card in cards}
+            broken = {Path(line.split(":", 1)[0]).stem for line in errors}
+            live = db.execute(select(Tea).where(Tea.status == TeaStatus.published, Tea.locked.is_(False))).scalars().all()
+            orphans = [tea for tea in live if tea.slug not in known and tea.slug not in broken]
+            for tea in orphans:
+                print(f"  ? {tea.slug}: no card file{', unpublished' if args.prune else ''}")
+                if args.prune:
+                    tea.status = TeaStatus.pending
         ensure_fts(engine)
         rebuild(db)
         db.commit()
     CACHE_DIR.mkdir(parents=True, exist_ok=True)
     (CACHE_DIR / "import_report.json").write_text(json.dumps(
-        {"at": _now(), "created": created, "updated": updated, "with_images": with_images, "errors": errors,
-         "cards": report}, ensure_ascii=False, indent=1))
-    print(f"\ndone: {created} new, {updated} updated, {with_images}/{len(cards)} with photos, "
-          f"{http.requests} requests, {http.cache_hits} cache hits, {len(errors)} card errors")
-    return 1 if errors else 0
+        {"at": _now(), "created": created, "updated": updated, "with_images": with_images, "remote_images": remote_images,
+         "orphans": [tea.slug for tea in orphans], "network_stopped": http.stopped, "errors": errors, "cards": report},
+        ensure_ascii=False, indent=1))
+    print(f"\ndone: {created} new, {updated} updated, {with_images}/{len(cards)} with photos, {remote_images} photos not copied locally, "
+          f"{http.requests} requests, {http.rate_limited} rate limited, {http.cache_hits} cache hits, {len(errors)} card errors, "
+          f"{len(orphans)} teas without a card file{' unpublished' if args.prune else ''}")
+    if http.stopped:
+        print(f"stopped using the network: {http.stopped}. Run the importer again later to finish.")
+    return 1 if errors or http.stopped else 0
 
 
 if __name__ == "__main__":
