@@ -176,6 +176,7 @@ a.f-who-name:hover { color: var(--link); }
 .f-reply:target { border-color: rgba(255, 179, 240, 0.7); }
 .f-reply-head { display: flex; flex-wrap: wrap; align-items: center; gap: 10px; }
 .f-reply-head > .avatar { flex: none; width: 36px; height: 36px; }
+.f-reply-head .f-who { flex: 1 1 200px; }
 .f-best { display: inline-flex; align-items: center; gap: 6px; padding: 4px 12px; border-radius: 999px; background: rgba(34, 227, 166, 0.18); color: #9DF5D3; font-size: 11px; font-weight: 800; letter-spacing: 0.04em; }
 .f-best svg { flex: none; }
 .f-reply-session { display: flex; flex-direction: column; border-radius: 18px; background: rgba(255, 255, 255, 0.06); border: 1px solid rgba(255, 255, 255, 0.14); font-size: 13px; overflow: hidden; }
