@@ -270,12 +270,12 @@
   .bp-sub { margin-top: 6px; font-size: 16px; }
   .bp-wide-only { display: inline; }
   .bp-phone-only { display: none; }
-  .bp-steeps-grid { margin-top: 22px; flex-direction: row; flex-wrap: wrap; align-items: flex-start; gap: 24px; }
-  .bp-steep-list { order: 0; flex: 999 1 400px; min-width: 0; }
+  .bp-steeps-grid { margin-top: 22px; flex-direction: row; align-items: flex-start; gap: 24px; }
+  .bp-steep-list { order: 0; flex: 1 1 0; min-width: 0; }
   .bp-steep { padding: 14px 16px; }
   .bp-orb { width: 40px; height: 40px; }
   .bp-steep-s { font-size: 16px; }
-  .bp-steep-cup { order: 0; flex: 1 1 260px; position: sticky; top: 88px; gap: 12px; padding: 24px; border-radius: 28px; background: rgba(255,255,255,0.04); border-color: rgba(255,255,255,0.1); }
+  .bp-steep-cup { order: 0; flex: 0 0 260px; position: sticky; top: 88px; gap: 12px; padding: 24px; border-radius: 28px; background: rgba(255,255,255,0.04); border-color: rgba(255,255,255,0.1); }
   .bp-steep-cup .cup { margin: 0; transform: none; }
   .bp-steep-cup p { font-size: 16px; }
   .bp-along-h { font-family: var(--font-head); font-weight: 700; font-size: 24px; }
