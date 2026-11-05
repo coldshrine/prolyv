@@ -110,7 +110,7 @@
 
     {% if tea.sources %}
     <h2 class="h2">Sources</h2>
-    <ul class="sources">{% for url in tea.sources %}<li><a href="{{ url }}" target="_blank" rel="noopener nofollow">{{ url|replace('https://', '')|replace('http://', '')|truncate(70, True) }}</a></li>{% endfor %}</ul>
+    <ul class="sources">{% for url in tea.sources %}<li><a href="{{ url }}" target="_blank" rel="noopener nofollow">{{ url|source_label }}</a></li>{% endfor %}</ul>
     {% endif %}
 
     {% if not tea.is_explainer %}

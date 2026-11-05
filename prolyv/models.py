@@ -246,7 +246,7 @@ class Tea(Base):
     @property
     def origin_parts(self) -> list[tuple[str, str]]:
         """[(label, key), ...] for country then each region level."""
-        parts = [(self.origin_country, origin_key(self.origin_country))]
+        parts = [] if is_not_a_place(self.origin_country) else [(self.origin_country, origin_key(self.origin_country))]
         parts += [(level, origin_key(level)) for level in origin_levels(self.origin_region)]
         return parts
 
@@ -324,6 +324,14 @@ def joined_names(names: list[str]) -> list[str]:
     return sorted(out)
 
 
+NOT_PLACES = {"various", "blended", "worldwide", "unknown", "multiple", "mixed", "global"}
+
+
+def is_not_a_place(label: str | None) -> bool:
+    """Short cards on rare or blended teas may say 'Various' or 'Blended'. That is no country or region to browse."""
+    return origin_key(label or "") in NOT_PLACES
+
+
 def origin_levels(region: str | None) -> list[str]:
     """The leading place of a free-form region, as a path: 'Nantou · Lugu; Taipei · Muzha (400 m)' -> Nantou, Lugu.
 
@@ -331,7 +339,7 @@ def origin_levels(region: str | None) -> list[str]:
     import re
 
     leading = re.split(r"[;,(]|\band\b", region or "", maxsplit=1)[0]
-    return [level.strip() for level in leading.split("·") if origin_key(level)]
+    return [level.strip() for level in leading.split("·") if origin_key(level) and not is_not_a_place(level)]
 
 
 def origin_key(label: str) -> str:

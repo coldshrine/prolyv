@@ -4,6 +4,7 @@ from __future__ import annotations
 
 import re
 from datetime import datetime
+from urllib.parse import unquote, urlsplit
 
 from markupsafe import Markup, escape
 
@@ -30,6 +31,16 @@ def linkify(text: str | None) -> Markup:
         last = match.end()
     out.append(escape(raw[last:]))
     return Markup("").join(out)
+
+
+def source_label(url: str | None) -> str:
+    """'https://zh.wikipedia.org/wiki/%E5%A4%A7...' -> 'Wikipedia (zh): 大红袍'; anything else is just its domain."""
+    parts = urlsplit(url or "")
+    host = (parts.hostname or "").removeprefix("www.")
+    if host.endswith(".wikipedia.org") and parts.path.startswith("/wiki/"):
+        title = unquote(parts.path.removeprefix("/wiki/")).replace("_", " ")
+        return f"Wikipedia ({host.split('.')[0]}): {title}"
+    return host or (url or "")
 
 
 def time_ago(moment: datetime | None) -> str:

@@ -16,6 +16,7 @@ from prolyv.handles import slugify
 from prolyv.models import (
     CATEGORY_LABELS,
     EXPLAINER_SLUG,
+    NOT_PLACES,
     FORM_LABELS,
     Tea,
     TeaAlias,
@@ -24,6 +25,7 @@ from prolyv.models import (
     TeaImage,
     TeaStatus,
     fold_text,
+    is_not_a_place,
     origin_key,
     origin_levels,
     utcnow,
@@ -159,7 +161,7 @@ def list_page(request: Request, db, user, *, q="", category="", origin="", form=
         "intro": intro,
         "canonical": canonical or "/teas",
         "categories": [(c.value, CATEGORY_LABELS[c], category_counts.get(c, 0)) for c in TeaCategory],
-        "countries": [(origin_key(name), name, count) for name, count in country_counts],
+        "countries": [(origin_key(name), name, count) for name, count in country_counts if not is_not_a_place(name)],
         "forms": [(f.value, FORM_LABELS[f], form_counts.get(f, 0)) for f in TeaForm if form_counts.get(f)],
         "origin_label": origin_label(db, origin) if origin else None,
         "sub_origins": sub_origins(db, origin) if origin and on_origin_page else [],
@@ -353,6 +355,8 @@ def tea_origins(request: Request, db: DbDep, user: CurrentUser):
     rows = db.execute(select(Tea.origin_country, Tea.origin_region).where(*CATALOG)).all()
     countries: dict[str, dict] = {}
     for country, region in rows:
+        if is_not_a_place(country):
+            continue
         entry = countries.setdefault(country, {"name": country, "key": origin_key(country), "count": 0, "regions": {}})
         entry["count"] += 1
         for level in dict.fromkeys(origin_levels(region)):
@@ -565,7 +569,7 @@ def sitemap(db: DbDep, settings: SettingsDep):
     for row in db.execute(select(Tea.origin_keys).where(*CATALOG)).scalars():
         for key in row.split():
             origin_counts[key] = origin_counts.get(key, 0) + 1
-    entries += [(f"{base}/teas/o/{key}", None) for key, count in sorted(origin_counts.items()) if count >= MIN_REGION_TEAS]
+    entries += [(f"{base}/teas/o/{key}", None) for key, count in sorted(origin_counts.items()) if count >= MIN_REGION_TEAS and key not in NOT_PLACES]
     # thin cards on rare teas carry noindex, so they stay out of here too
     rows = db.execute(select(Tea.slug, Tea.updated_at).where(Tea.status == TeaStatus.published, Tea.confidence.is_distinct_from("low")).order_by(Tea.slug)).all()
     entries += [(f"{base}/teas/{slug}", updated) for slug, updated in rows]

@@ -365,3 +365,24 @@ def test_index_pages_and_sitemap(client, db, settings):
     sitemap = client.get("/sitemap.xml").text
     for path in ("/teas/types", "/teas/origins", "/teas/a-z", "/teas/c/oolong"):
         assert f"{settings.base_url}{path}<" in sitemap
+
+
+def test_various_and_blended_are_not_places_to_browse(client, db):
+    for n in range(4):
+        make_tea(db, f"blend-{n}", f"Blend {n}", country="Various", region="Blended")
+        make_tea(db, f"cn-{n}", f"Cn {n}", country="China", region="Yunnan")
+    origins = client.get("/teas/origins").text
+    assert "/teas/o/china" in origins and "/teas/o/various" not in origins and "/teas/o/blended" not in origins
+    assert client.get("/teas/o/various").status_code == 404 and client.get("/teas/o/blended").status_code == 404
+    assert 'value="various"' not in client.get("/teas").text
+    sitemap = client.get("/sitemap.xml").text
+    assert "/teas/o/various" not in sitemap and "/teas/o/blended" not in sitemap
+    assert "/teas/o/various" not in client.get("/teas/blend-0").text
+
+
+def test_sources_read_as_names_not_raw_addresses():
+    from prolyv.web.text import source_label
+
+    assert source_label("https://zh.wikipedia.org/wiki/%E5%A4%A7%E7%BA%A2%E8%A2%8D") == "Wikipedia (zh): 大红袍"
+    assert source_label("https://en.wikipedia.org/wiki/Da_Hong_Pao") == "Wikipedia (en): Da Hong Pao"
+    assert source_label("https://www.example.com/a/very/long/path") == "example.com"

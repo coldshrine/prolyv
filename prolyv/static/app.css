@@ -868,3 +868,13 @@ body { overflow-wrap: anywhere; }
   .chips:has(.chip .count) { flex-wrap: nowrap; overflow-x: auto; scrollbar-width: none; }
   .chips:has(.chip .count) .chip { flex: none; }
 }
+
+/* The full menu needs a wide window: between phone and desktop keep the tab bar, and never break a menu word. */
+.topnav a, .tabbar a { white-space: nowrap; overflow-wrap: normal; }
+@media (min-width: 768px) and (max-width: 1023px) {
+  .topnav { display: none; }
+  .hide-mobile { display: none; }
+  .tabbar { display: flex; }
+  body { padding-bottom: calc(var(--tabbar-h) + env(safe-area-inset-bottom)); }
+  .topbar-actions { margin-left: auto; }
+}
