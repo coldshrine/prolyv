@@ -51,7 +51,7 @@ def healthz():
     return JSONResponse({"ok": True})
 
 
-REDIRECTS = {"feed": "/", "discuss": "/discussions", "diary": "/diary", "new": "/sessions/new", "blog": "/blog"}
+REDIRECTS = {"feed": "/", "discuss": "/discussions", "new": "/sessions/new"}
 
 
 @router.get("/{section}")

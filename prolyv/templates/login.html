@@ -4,6 +4,7 @@
 {% block body_class %}login-body{% endblock %}
 {% block topbar %}{% endblock %}
 {% block tabbar %}{% endblock %}
+{% block footer %}{% endblock %}
 {% block content %}
 <div class="login">
   <section class="login-brand" aria-label="About Prolyv">
@@ -38,7 +39,7 @@
         <div class="notice" id="inapp-notice">
           <strong>Google sign-in is blocked inside the Instagram and TikTok browser.</strong>
           <span>Open in your browser to use Google{% if settings.telegram_usable %}, or continue with Telegram{% endif %}.</span>
-          <button type="button" class="btn btn-secondary btn-sm" id="copy-link">Copy link</button>
+          <button type="button" class="btn btn-secondary btn-sm" data-copy-location>Copy link</button>
         </div>
         {% endif %}
       {% elif settings.google_enabled %}
@@ -55,7 +56,7 @@
       <form method="post" action="/auth/email/start" class="email-login">
         <input type="hidden" name="csrf_token" value="{{ form_token }}">
         {% if next %}<input type="hidden" name="next" value="{{ next }}">{% endif %}
-        <input type="email" name="email" placeholder="you@example.com" autocomplete="email" required aria-label="Your e-mail">
+        <input type="email" name="email" placeholder="Your e-mail" autocomplete="email" required aria-label="Your e-mail">
         <button class="btn-auth btn-email" type="submit">Get a sign-in link by email</button>
       </form>
       {% endif %}
@@ -65,14 +66,4 @@
     </div>
   </section>
 </div>
-{% endblock %}
-{% block scripts %}
-{% if in_app_browser %}
-<script>
-document.getElementById("copy-link").addEventListener("click", function () {
-  var button = this;
-  navigator.clipboard.writeText(location.href).then(function () { button.textContent = "Link copied"; });
-});
-</script>
-{% endif %}
 {% endblock %}

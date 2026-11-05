@@ -14,7 +14,7 @@
       <p class="muted small">{% if post.is_published %}Published {{ post.published_at.strftime('%-d %b %Y') }}{% else %}<strong>Draft</strong>{% endif %} · /blog/{{ post.slug }}{% if post.tea %} · {{ post.tea.name_en }}{% endif %}</p>
       <div class="actions">
         <a class="btn btn-secondary btn-sm" href="/admin/posts/{{ post.id }}/edit">Edit</a>
-        <form method="post" action="/admin/posts/{{ post.id }}/delete" onsubmit="return confirm('Delete this post?')"><input type="hidden" name="csrf_token" value="{{ csrf_token }}"><button class="btn btn-ghost btn-sm" type="submit">Delete</button></form>
+        <form method="post" action="/admin/posts/{{ post.id }}/delete" data-confirm="Delete this post?"><input type="hidden" name="csrf_token" value="{{ csrf_token }}"><button class="btn btn-ghost btn-sm" type="submit">Delete</button></form>
       </div>
     </li>
     {% endfor %}

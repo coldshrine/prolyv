@@ -32,7 +32,7 @@
     {% else %}<p class="muted">No photos. Add them to the card file and re-run <code>scripts/import_teas.py --only {{ tea.slug }}</code>.</p>{% endif %}
   </section>
 
-  <form method="post" action="/admin/teas/{{ tea.slug }}/delete" class="actions" onsubmit="return confirm('Delete this card?')"><input type="hidden" name="csrf_token" value="{{ csrf_token }}"><button class="btn btn-danger" type="submit">Delete card</button></form>
+  <form method="post" action="/admin/teas/{{ tea.slug }}/delete" class="actions" data-confirm="Delete this card?"><input type="hidden" name="csrf_token" value="{{ csrf_token }}"><button class="btn btn-danger" type="submit">Delete card</button></form>
   {% endif %}
 </div>
 {% endblock %}

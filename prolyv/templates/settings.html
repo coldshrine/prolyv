@@ -82,7 +82,7 @@
           <span class="provider-detail">{{ email_identity.label }}</span>
           <form method="post" action="/settings/unlink"><input type="hidden" name="csrf_token" value="{{ csrf_token }}"><input type="hidden" name="provider" value="email"><button class="btn btn-ghost btn-sm" type="submit">Unlink</button></form>
         {% else %}
-          <form method="post" action="/auth/email/start" class="email-link-form"><input type="hidden" name="csrf_token" value="{{ csrf_token }}"><input type="hidden" name="next" value="/settings"><input type="email" name="email" placeholder="you@example.com" required aria-label="E-mail to link"><button class="btn btn-secondary btn-sm" type="submit">Link e-mail</button></form>
+          <form method="post" action="/auth/email/start" class="email-link-form"><input type="hidden" name="csrf_token" value="{{ csrf_token }}"><input type="hidden" name="next" value="/settings"><input type="email" name="email" placeholder="Your e-mail" required aria-label="E-mail to link"><button class="btn btn-secondary btn-sm" type="submit">Link e-mail</button></form>
         {% endif %}
       </li>
       {% endif %}

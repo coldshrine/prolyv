@@ -22,7 +22,7 @@
       {% if sess.taste_tags %}<div class="tags">{% for t in sess.taste_tags %}<span class="tag">{{ t }}</span>{% endfor %}</div>{% endif %}
       <div class="actions">
         <a class="btn btn-primary" href="{% if current_user %}/sessions/new?from={{ sess.id }}{% else %}/login?next=/sessions/new%3Ffrom%3D{{ sess.id }}{% endif %}">Brew it the same way</a>
-        {% if sess.is_public %}<button type="button" class="btn btn-secondary" id="share-btn" data-url="{{ og.url }}">Share</button>{% endif %}
+        {% if sess.is_public %}<button type="button" class="btn btn-secondary" data-share="{{ og.url }}">Share</button>{% endif %}
         {% if is_owner %}<a class="btn btn-secondary" href="/sessions/{{ sess.id }}/edit">Edit</a>{% endif %}
       </div>
     </div>
@@ -89,7 +89,7 @@
         <input type="hidden" name="visibility" value="{{ 'private' if sess.is_public else 'public' }}">
         <button class="btn btn-secondary" type="submit">{% if sess.is_public %}Make private{% else %}Make public{% endif %}</button>
       </form>
-      <form method="post" action="/sessions/{{ sess.id }}/delete" class="form" onsubmit="return confirm('Delete this session?')">
+      <form method="post" action="/sessions/{{ sess.id }}/delete" class="form" data-confirm="Delete this session?">
         <input type="hidden" name="csrf_token" value="{{ csrf_token }}">
         <button class="btn btn-ghost" type="submit">Delete</button>
       </form>
@@ -97,17 +97,4 @@
   </aside>
   {% endif %}
 </section>
-{% endblock %}
-{% block scripts %}
-<script>
-(function () {
-  var btn = document.getElementById("share-btn");
-  if (!btn) return;
-  btn.addEventListener("click", function () {
-    var url = btn.dataset.url;
-    if (navigator.share) { navigator.share({ title: document.title, url: url }).catch(function () {}); return; }
-    navigator.clipboard.writeText(url).then(function () { btn.textContent = "Link copied"; });
-  });
-})();
-</script>
 {% endblock %}

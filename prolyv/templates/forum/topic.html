@@ -20,7 +20,7 @@
   {% if is_author or is_admin_view %}
   <div class="actions topic-actions">
     {% if is_admin_view %}<form method="post" action="/discussions/{{ topic.id }}/pin"><input type="hidden" name="csrf_token" value="{{ csrf_token }}"><button class="btn btn-ghost btn-sm" type="submit">{{ 'Unpin' if topic.pinned else 'Pin' }}</button></form>{% endif %}
-    <form method="post" action="/discussions/{{ topic.id }}/delete" onsubmit="return confirm('Delete this topic and its replies?')"><input type="hidden" name="csrf_token" value="{{ csrf_token }}"><button class="btn btn-ghost btn-sm" type="submit">Delete topic</button></form>
+    <form method="post" action="/discussions/{{ topic.id }}/delete" data-confirm="Delete this topic and its replies?"><input type="hidden" name="csrf_token" value="{{ csrf_token }}"><button class="btn btn-ghost btn-sm" type="submit">Delete topic</button></form>
   </div>
   {% endif %}
 

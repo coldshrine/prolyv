@@ -45,6 +45,7 @@ class Settings(BaseSettings):
     # Shown in the footer when set; hidden otherwise.
     social_tiktok: str = ""
     social_instagram: str = ""
+    contact_email: str = ""  # shown on the legal pages when set
 
     admin_handles: str = ""  # comma-separated handles that may administer the site
     dev_login: bool = False  # "Continue as demo user"; the app refuses to start with it unless BASE_URL is localhost

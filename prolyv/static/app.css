@@ -594,3 +594,15 @@ input[type="email"]:focus { border-color: var(--pink); box-shadow: 0 0 0 3px rgb
   .type-grid { grid-template-columns: repeat(3, minmax(0, 1fr)); }
   .az-list { grid-template-columns: repeat(2, minmax(0, 1fr)); }
 }
+
+/* ---------------------------------------------------------------- Footer and text pages */
+.site-footer { margin-top: 48px; border-top: 1px solid rgba(255, 255, 255, 0.08); background: rgba(7, 8, 26, 0.6); }
+.site-footer-inner { max-width: 1240px; margin: 0 auto; padding: 28px 16px; display: flex; flex-direction: column; gap: 16px; }
+.site-footer nav { display: flex; flex-wrap: wrap; gap: 8px 18px; }
+.site-footer nav a { color: var(--muted); text-decoration: none; font-weight: 700; font-size: 14px; }
+.site-footer nav a:hover { color: var(--fg); }
+.page-text .prose { margin-top: 18px; }
+.page-text .prose .h2 { margin: 26px 0 8px; font-size: 19px; }
+.page-text .prose ul { padding-left: 20px; color: #E6E7FA; font-size: 17px; line-height: 1.6; }
+.page-text .prose li { margin-bottom: 8px; }
+@media (min-width: 768px) { .site-footer-inner { flex-direction: row; align-items: center; justify-content: space-between; padding: 28px 24px; } }
