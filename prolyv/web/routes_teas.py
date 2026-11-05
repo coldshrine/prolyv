@@ -38,6 +38,7 @@ router = APIRouter()
 
 PAGE_SIZE = 24
 ORIGIN_CHIPS = 12
+CATEGORY_TITLES = {"tisane": "Tisanes", "heicha": "Heicha: dark teas"}
 SORTS = {
     "popular": lambda: (Tea.popularity.desc(), Tea.name_en.asc()),
     "name": lambda: (Tea.name_en.asc(),),
@@ -179,7 +180,7 @@ def tea_category(request: Request, db: DbDep, user: CurrentUser, category: str, 
         raise HTTPException(status_code=404)
     label = CATEGORY_LABELS[TeaCategory(category)]
     return list_page(request, db, user, q=q, category=category, origin=origin, form=form, sort=sort, page=page,
-                     title=f"{label} teas", canonical=f"/teas/c/{category}")
+                     title=CATEGORY_TITLES.get(category, f"{label} teas"), canonical=f"/teas/c/{category}")
 
 
 @router.get("/teas/o/{origin}")
@@ -235,6 +236,19 @@ def read_tea_form(data) -> tuple[dict, dict]:  # noqa: ANN001
     for key in ("liquor_hex", "leaf_hex"):
         if form[key] and not HEX_RE.match(form[key]):
             errors[key] = "Use a colour like #C9963C."
+    limits = {"brew_grams": (0.1, 100, "Grams"), "brew_water_ml": (10, 5000, "Water"), "brew_temp_c": (30, 100, "Temperature"), "brew_steeps": (1, 40, "Steeps"), "popularity": (1, 5, "Popularity")}
+    for key, (low, high, label) in limits.items():
+        if form[key]:
+            try:
+                in_range = low <= float(form[key]) <= high
+            except ValueError:
+                in_range = False
+            if not in_range:
+                errors[key] = f"{label} must be a number from {low:g} to {high:g}."
+    if form["brew_seconds"] and not all(part.strip().isdigit() for part in form["brew_seconds"].split(",") if part.strip()):
+        errors["brew_seconds"] = "Use whole seconds separated by commas, like 15, 10, 15."
+    if any(line.strip() and not line.strip().startswith(("http://", "https://")) for line in form["sources"].splitlines()):
+        errors["sources"] = "One link per line, starting with https://."
     return form, errors
 
 
@@ -409,10 +423,15 @@ def tea_detail(request: Request, db: DbDep, settings: SettingsDep, user: Current
         jsonld["image"] = absolute_url(settings, image.url)
     if tea.wikipedia_url:
         jsonld["about"]["sameAs"] = tea.wikipedia_url
+    from prolyv.models import TeaSession, Visibility
     from prolyv.web.routes_diary import public_sessions_for_tea
     from prolyv.web.routes_social import is_saved
 
+    session_total, session_avg = db.execute(
+        select(func.count(), func.avg(TeaSession.rating)).where(TeaSession.tea_id == tea.id, TeaSession.visibility == Visibility.public, TeaSession.hidden.is_(False))
+    ).one()
     context = {
+        "session_total": session_total, "session_avg": round(session_avg, 1) if session_avg else None,
         "saved": is_saved(db, user, "tea", tea.id),
         "tea": tea, "text": text, "lang": lang, "languages": languages, "related": related, "image": image, "is_admin_view": is_admin,
         "sessions": public_sessions_for_tea(db, tea.id), "page_url": page_url,
@@ -428,13 +447,15 @@ def tea_detail(request: Request, db: DbDep, settings: SettingsDep, user: Current
 
 
 @router.get("/admin/teas")
-def admin_teas(request: Request, db: DbDep, user: AdminUser, q: str = "", page: int = 1):
+def admin_teas(request: Request, db: DbDep, user: AdminUser, q: str = "", page: int = 1, drafts: int = 0):
     q = q.strip()[:80]
     stmt = apply_filters(select(Tea), q, "", "", "")
+    if drafts:
+        stmt = stmt.where(Tea.status == TeaStatus.pending)
     total_found = count_of(db, stmt)
     pages = max(1, (total_found + 49) // 50)
     page = min(max(1, page), pages)
-    teas = db.execute(stmt.options(*CARD_OPTIONS).order_by(Tea.status.desc(), Tea.name_en).offset((page - 1) * 50).limit(50)).scalars().all()
+    teas = db.execute(stmt.options(*CARD_OPTIONS).order_by(Tea.status.asc(), Tea.name_en).offset((page - 1) * 50).limit(50)).scalars().all()
     total = count_of(db, published())
     drafts = db.scalar(select(func.count()).select_from(Tea).where(Tea.status == TeaStatus.pending)) or 0
     with_photos = db.scalar(

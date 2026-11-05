@@ -36,7 +36,18 @@
       <a class="icon-btn" href="/search" aria-label="Search"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="M20 20l-3.5-3.5"/></svg></a>
       {% if current_user %}
       <a class="icon-btn bell" href="/notifications" aria-label="Notifications{% if unread %}, {{ unread }} new{% endif %}"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 9a6 6 0 1 1 12 0c0 6 2 7 2 7H4s2-1 2-7"/><path d="M10 20a2 2 0 0 0 4 0"/></svg>{% if unread %}<span class="bell-count">{{ unread if unread < 100 else '99+' }}</span>{% endif %}</a>
-      <a class="avatar-link" href="/u/{{ current_user.handle }}" aria-label="Your profile">{{ avatar(current_user, 40) }}</a>
+      <details class="account-menu">
+        <summary aria-label="Your account">{{ avatar(current_user, 40) }}</summary>
+        <div class="account-panel">
+          <p class="account-who"><b>{{ current_user.display_name }}</b><span>@{{ current_user.handle }}</span></p>
+          <a href="/u/{{ current_user.handle }}">Profile</a>
+          <a href="/diary">My diary</a>
+          <a href="/saved">Saved</a>
+          <a href="/settings">Settings</a>
+          {% if is_admin %}<a href="/admin">Admin</a>{% endif %}
+          <form method="post" action="/logout"><input type="hidden" name="csrf_token" value="{{ csrf_token }}"><button type="submit">Log out</button></form>
+        </div>
+      </details>
       <a class="btn btn-primary btn-sm hide-mobile" href="/sessions/new"><span class="plus" aria-hidden="true">+</span> Log a tea</a>
       {% else %}
       <a class="btn btn-secondary btn-sm" href="/login">Log in</a>
@@ -105,7 +116,7 @@
   <a href="/discussions"{% if path.startswith('/discussions') %} aria-current="page"{% endif %}><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 6a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2h-7l-5 4v-4H6a2 2 0 0 1-2-2z"/></svg><span>Discuss</span><i class="dot"></i></a>
   <a class="tab-plus" href="{% if current_user %}/sessions/new{% else %}/login?next=/sessions/new{% endif %}" aria-label="Log a tea"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 5v14M5 12h14"/></svg></a>
   <a href="/blog"{% if path.startswith('/blog') %} aria-current="page"{% endif %}><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M8 5l12 7-12 7z"/></svg><span>Blog</span><i class="dot"></i></a>
-  <a href="/diary"{% if path == '/diary' %} aria-current="page"{% endif %}><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 4h11a2 2 0 0 1 2 2v14H8a2 2 0 0 1-2-2zM6 18a2 2 0 0 1 2-2h11"/></svg><span>Diary</span><i class="dot"></i></a>
+  <a href="/diary"{% if path == '/diary' or path.startswith('/sessions') %} aria-current="page"{% endif %}><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 4h11a2 2 0 0 1 2 2v14H8a2 2 0 0 1-2-2zM6 18a2 2 0 0 1 2-2h11"/></svg><span>Diary</span><i class="dot"></i></a>
 </nav>
 {% endblock %}
 {% block scripts %}{% endblock %}

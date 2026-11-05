@@ -132,3 +132,34 @@ def test_seed_demo_refuses_real_domains(monkeypatch):
     seed_demo = importlib.import_module("seed_demo")
     monkeypatch.setattr(seed_demo, "get_settings", lambda: Settings(_env_file=None, secret_key="x" * 40, base_url="https://prolyv.app"))
     assert seed_demo.main() == 1
+
+
+def test_error_pages_say_what_happened_and_send_people_home(client):
+    from tests.conftest import csrf_token
+
+    telegram_login(client, username="olena_tea")
+    denied = client.get("/admin")
+    assert denied.status_code == 403 and "don't have access" in denied.text and "Back to login" not in denied.text and "form has expired" not in denied.text
+    expired = client.post("/logout", data={"csrf_token": "wrong"})
+    assert expired.status_code == 403 and "form has expired" in expired.text
+    assert csrf_token(client)
+    missing = client.get("/nonexistent")
+    assert missing.status_code == 404 and 'href="/"' in missing.text and "Log in</a>" not in missing.text.split("</main>")[0]
+    assert client.get("/sessions/notauuid").status_code == 404
+    assert client.get("/discussions/abc").status_code == 404
+    bad_page = client.get("/teas?page=abc", follow_redirects=False)
+    assert bad_page.status_code == 303 and bad_page.headers["location"] == "/teas"
+
+
+def test_signed_in_pages_are_not_cached_and_public_ones_may_be(client):
+    assert "no-store" not in client.get("/teas").headers.get("cache-control", "")
+    telegram_login(client, username="olena_tea")
+    assert client.get("/diary").headers["cache-control"] == "no-store"
+    assert client.get("/settings").headers["cache-control"] == "no-store"
+
+
+def test_account_menu_reaches_saved_settings_and_log_out(client):
+    telegram_login(client, username="olena_tea")
+    page = client.get("/").text
+    for target in ('href="/saved"', 'href="/settings"', 'action="/logout"'):
+        assert target in page.split("</header>")[0]

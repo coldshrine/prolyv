@@ -18,6 +18,7 @@
 {% endblock %}
 {% block content %}
 <section class="hero">
+  <nav class="container tea-crumbs" aria-label="Breadcrumb"><a href="/teas">Tea base</a> / <a href="/teas/c/{{ tea.category.value }}">{{ tea.category_label }}</a></nav>
   <div class="container tea-hero">
     <div class="tea-gallery">
       {% if image %}
@@ -40,6 +41,7 @@
     <div class="tea-meta">
       <p class="eyebrow"><a href="/teas/c/{{ tea.category.value }}">{{ tea.category_label }}</a>{% for label, key in tea.origin_parts %} · <a href="/teas/o/{{ key }}">{{ label }}</a>{% endfor %}</p>
       <h1 class="display">{{ tea.name_en }}</h1>
+      {% if session_total %}<p class="tea-community"><a href="#sessions">{{ session_total }} session{{ '' if session_total == 1 else 's' }}</a>{% if session_avg %} · <span class="stars">★</span> {{ session_avg }}{% endif %}</p>{% endif %}
       <p class="tea-names">
         {% if tea.name_zh %}<span class="name-zh" lang="zh">{{ tea.name_zh }}</span>{% endif %}
         {% if tea.name_ru %}<span class="name-ru" lang="ru">{{ tea.name_ru }}</span>{% endif %}

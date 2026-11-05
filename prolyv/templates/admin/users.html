@@ -14,7 +14,7 @@
     <li>
       <a class="author-link" href="/u/{{ u.handle }}">{{ avatar(u, 28) }} <span>@{{ u.handle }}</span></a>
       <span class="muted small">{{ u.display_name }} · joined {{ u.created_at.strftime('%-d %b %Y') }}{% if u.banned_at %} · <strong>restricted</strong>{% endif %}</span>
-      <form method="post" action="/admin/users/{{ u.handle }}/ban"{% if not u.banned_at %} data-confirm="Restrict @{{ u.handle }} and sign them out?"{% endif %}><input type="hidden" name="csrf_token" value="{{ csrf_token }}"><input type="hidden" name="banned" value="{{ '0' if u.banned_at else '1' }}"><button class="btn btn-ghost btn-sm" type="submit">{{ 'Lift restriction' if u.banned_at else 'Restrict' }}</button></form>
+      {% if u.handle != 'prolyv' and u.id != current_user.id %}<form method="post" action="/admin/users/{{ u.handle }}/ban"{% if not u.banned_at %} data-confirm="Restrict @{{ u.handle }} and sign them out?"{% endif %}><input type="hidden" name="csrf_token" value="{{ csrf_token }}"><input type="hidden" name="banned" value="{{ '0' if u.banned_at else '1' }}"><button class="btn btn-ghost btn-sm" type="submit">{{ 'Lift restriction' if u.banned_at else 'Restrict' }}</button></form>{% endif %}
     </li>
     {% endfor %}
   </ul>

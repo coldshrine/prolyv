@@ -185,7 +185,7 @@ def complete_sign_in(
     if current_user is not None:
         target, kind, text = "/settings", "ok", f"{provider_name} is now linked to your account."
     elif created:
-        target, kind, text = "/settings", "ok", "Welcome to Prolyv! Check your name and handle, then start your diary."
+        target, kind, text = safe_next(next_url) or "/settings", "ok", "Welcome to Prolyv! You can change your name and handle in Settings."
     else:
         target, kind, text = safe_next(next_url) or "/", "ok", f"Welcome back, {user.display_name}."
 
@@ -211,7 +211,8 @@ def email_start(request: Request, db: DbDep, settings: SettingsDep, signer: Sign
 
     address = normalize_email(email)
     if address is None:
-        response = RedirectResponse("/settings" if user else "/login", status_code=303)
+        back = "/settings" if user else (f"/login?next={quote(safe_next(next))}" if safe_next(next) else "/login")
+        response = RedirectResponse(back, status_code=303)
         set_flash(response, settings, signer, "error", "That doesn't look like an e-mail address.")
         return response
 

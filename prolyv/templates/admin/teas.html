@@ -10,12 +10,13 @@
   <ul class="stats stats-inline">
     <li><p class="stat-value grad-pink">{{ total }}</p><p class="stat-label">published</p></li>
     <li><p class="stat-value grad-mint">{{ with_photos }}</p><p class="stat-label">with photos</p></li>
-    <li><p class="stat-value grad-pink">{{ drafts }}</p><p class="stat-label">drafts</p></li>
+    <li><a href="/admin/teas?drafts=1"><p class="stat-value grad-pink">{{ drafts }}</p><p class="stat-label">drafts</p></a></li>
   </ul>
   <form class="teas-filters forum-search" method="get" action="/admin/teas" role="search">
     <input type="search" name="q" value="{{ q }}" placeholder="Search by name, alias or region" aria-label="Search teas">
     <button class="btn btn-secondary btn-sm" type="submit">Search</button>
   </form>
+  {% if not teas %}<div class="card empty"><p class="empty-title">No teas match “{{ q }}”</p><p class="muted"><a href="/admin/teas">Clear the search</a></p></div>{% endif %}
   <ul class="admin-list">
     {% for tea in teas %}
     <li>

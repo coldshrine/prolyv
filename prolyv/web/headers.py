@@ -2,6 +2,8 @@
 
 from __future__ import annotations
 
+from prolyv.security import SESSION_COOKIE
+
 CSP = "; ".join([
     "default-src 'self'",
     "script-src 'self' https://telegram.org https://www.tiktok.com https://*.ttwstatic.com https://www.instagram.com",
@@ -35,9 +37,15 @@ class SecurityHeadersMiddleware:
             await self.app(scope, receive, send)
             return
 
+        signed_in = any(name == b"cookie" and SESSION_COOKIE.encode() in value for name, value in scope.get("headers", []))
+
         async def send_with_headers(message):  # noqa: ANN001
             if message["type"] == "http.response.start":
-                message = {**message, "headers": [*message.get("headers", []), *self.headers]}
+                headers = [*message.get("headers", []), *self.headers]
+                # a signed-in page must not come back from a shared cache or the next person's back button
+                if signed_in and not any(name.lower() == b"cache-control" for name, _ in headers):
+                    headers.append((b"cache-control", b"no-store"))
+                message = {**message, "headers": headers}
             await send(message)
 
         await self.app(scope, receive, send_with_headers)

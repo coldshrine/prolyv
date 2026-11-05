@@ -834,3 +834,37 @@ body { overflow-wrap: anywhere; }
   .site-footer-inner { flex-direction: row; align-items: flex-start; justify-content: flex-start; padding: 56px 24px 32px; }
   .site-footer-bottom { padding: 20px 24px 32px; }
 }
+
+/* Shell polish from QA */
+.flash { width: calc(100% - 32px); margin-inline: auto; }
+.flash-ok, .flash-error { margin-left: auto; margin-right: auto; }
+.admin-hub .promo-title { display: block; font-family: var(--font-head); font-weight: 700; font-size: 18px; }
+.account-menu { position: relative; }
+.account-menu summary { list-style: none; cursor: pointer; display: inline-flex; border-radius: 50%; }
+.account-menu summary::-webkit-details-marker { display: none; }
+.account-panel { position: absolute; right: 0; top: calc(100% + 8px); z-index: 60; min-width: 220px; padding: 8px; border-radius: 18px; background: #101230; border: 1px solid var(--card-line); box-shadow: 0 24px 48px -16px rgba(0, 0, 0, 0.8); display: flex; flex-direction: column; }
+.account-who { margin: 0; padding: 8px 12px 10px; display: flex; flex-direction: column; border-bottom: 1px solid rgba(255, 255, 255, 0.08); }
+.account-who span { font-size: 13px; color: var(--muted-2); }
+.account-panel a, .account-panel button { display: flex; align-items: center; min-height: 44px; padding: 0 12px; border: 0; border-radius: 12px; background: transparent; color: var(--fg); font: inherit; font-weight: 700; text-decoration: none; cursor: pointer; width: 100%; text-align: left; }
+.account-panel a:hover, .account-panel button:hover { background: rgba(255, 255, 255, 0.08); color: var(--fg); }
+.tea-crumbs { padding-top: 12px; padding-bottom: 0; font-size: 14px; color: var(--muted-2); }
+.tea-crumbs a { color: var(--muted); text-decoration: none; font-weight: 700; }
+.tea-community { margin: 8px 0 0; font-size: 15px; color: var(--muted); }
+.tea-community a { font-weight: 800; }
+.login-cup-wide { display: none; }
+@media (min-width: 900px) { .login-cup-phone { display: none; } .login-cup-wide { display: inline-flex; } }
+@media (max-width: 899px) {
+  .login-panel { position: relative; z-index: 1; margin-top: -24px; border-radius: 28px 28px 0 0; background: var(--bg); box-shadow: 0 -18px 40px -16px rgba(0, 0, 0, 0.6); }
+  .login-card .h1 { font-size: 22px; }
+  .login-tagline { font-size: 28px; }
+}
+@media (max-width: 767px) {
+  .tea-side { order: -1; display: flex; flex-direction: column; gap: 16px; }
+  .tea-side .card { margin-top: 0; }
+  .teas-filters { grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 6px; margin-top: 12px; }
+  .teas-filters input[type="search"] { grid-column: 1 / -1; }
+  .teas-filters select { font-size: 13px; padding-left: 10px; padding-right: 22px; min-width: 0; }
+  .teas-head .lead { font-size: 15px; }
+  .chips:has(.chip .count) { flex-wrap: nowrap; overflow-x: auto; scrollbar-width: none; }
+  .chips:has(.chip .count) .chip { flex: none; }
+}

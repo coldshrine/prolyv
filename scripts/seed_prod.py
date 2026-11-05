@@ -154,7 +154,7 @@ Loose fresh white tea can be stored like green tea. Pressed white tea is often k
 
 ## Pu-erh and other dark teas
 
-These are the teas people deliberately age. Keep them away from direct light and strong smells, with some air around them, and with moderate humidity. Damp conditions can cause mould, and it is safest to throw away tea that smells musty or shows fuzzy patches. Don't confuse mould with the yellow "golden flowers" that are a normal part of Fu brick, which are an intended part of how that tea is made.
+These are the teas people deliberately age. Keep them away from direct light and strong smells, with some air around them, and with moderate humidity. Damp conditions can cause mould, and it is safest to throw away tea that smells musty or shows fuzzy patches. Don't confuse mould with the yellow "golden flowers" that are an intended part of Fu brick.
 
 ## A simple rule
 

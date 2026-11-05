@@ -10,7 +10,7 @@
   <section class="login-brand" aria-label="About Prolyv">
     <a class="brand" href="/"><span class="brand-mark" aria-hidden="true"></span><span class="brand-name">Prolyv</span></a>
     <div class="login-brand-body">
-      <span class="login-cup">{{ cup('oolong', 220, spin=True) }}</span>
+      <span class="login-cup login-cup-phone">{{ cup('oolong', 200, spin=True) }}</span><span class="login-cup login-cup-wide">{{ cup('oolong', 380, spin=True) }}</span>
       <h2 class="login-tagline">Every steep, in your diary</h2>
       <ul class="login-points">
         <li>Log a session in 30 seconds</li>
@@ -25,7 +25,7 @@
       <p class="lead">No passwords — use an account you already have. New here? We’ll create your diary automatically.</p>
 
       {% if settings.dev_login_enabled %}
-        <a class="btn-auth btn-demo" href="/dev/login">Continue as demo user</a>
+        <a class="btn-auth btn-demo" href="/dev/login{% if next %}?next={{ next|urlencode }}{% endif %}">Continue as demo user</a>
       {% endif %}
 
       {% if settings.telegram_usable %}

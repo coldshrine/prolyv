@@ -4,10 +4,11 @@ from __future__ import annotations
 
 import logging
 from pathlib import Path
+from urllib.parse import urlencode, urlsplit
 
 from fastapi import Depends, FastAPI, Request
 from fastapi.exceptions import RequestValidationError
-from fastapi.responses import PlainTextResponse
+from fastapi.responses import PlainTextResponse, RedirectResponse
 from fastapi.staticfiles import StaticFiles
 from starlette.exceptions import HTTPException as StarletteHTTPException
 
@@ -41,12 +42,20 @@ from prolyv.web.templating import render
 STATIC_DIR = Path(__file__).resolve().parent / "static"
 
 ERROR_TEXT = {
-    403: ("That form has expired", "Reload the page and try again."),
-    404: ("Nothing steeping here", "The page you asked for does not exist, or the account was deleted."),
+    403: ("You don't have access to this page", "If you think you should, check that you are signed in to the right account."),
+    404: ("Nothing steeping here", "We couldn't find that page. It may have moved or been removed."),
     405: ("Wrong kind of request", "Please use the buttons on the page."),
     400: ("Something was off with that request", "Please go back and try again."),
     429: ("Slow down a little", "You're posting very quickly. Please wait a few minutes and try again."),
 }
+
+
+def same_site_referer(request: Request) -> str | None:
+    """Where the visitor was, when that is a page of this site: the way back from a refused form."""
+    referer = urlsplit(request.headers.get("referer", ""))
+    if referer.netloc == request.url.netloc and referer.path and referer.path != request.url.path:
+        return referer.path + (f"?{referer.query}" if referer.query else "")
+    return None
 
 
 def create_app(settings: Settings | None = None, google_transport=None) -> FastAPI:  # noqa: ANN001
@@ -69,9 +78,9 @@ def create_app(settings: Settings | None = None, google_transport=None) -> FastA
     )
 
     app.add_middleware(PendingCookiesMiddleware)
-    app.add_middleware(SecurityHeadersMiddleware, hsts=settings.cookie_secure)
     app.add_middleware(HeadMethodMiddleware)
     app.add_middleware(RateLimitMiddleware, limiter=RateLimiter(settings.auth_rate_limit, settings.auth_rate_window))
+    app.add_middleware(SecurityHeadersMiddleware, hsts=settings.cookie_secure)
 
     app.mount("/static", StaticFiles(directory=str(STATIC_DIR)), name="static")
     # Only tea photos are static. Session photos go through a route that checks who is asking, and stories are
@@ -97,9 +106,11 @@ def create_app(settings: Settings | None = None, google_transport=None) -> FastA
                 return PlainTextResponse("Please log in.", status_code=401)
             return login_redirect(request)
         title, text = ERROR_TEXT.get(exc.status_code, ("Something went wrong", "Please try again in a moment."))
+        if exc.detail == "csrf_failed":
+            title, text = "That form has expired", "Go back, reload the page and try again."
         if not hasattr(request.state, "user"):  # no route matched, so no dependency loaded the user
             remember_user(request)
-        return render(request, "error.html", {"title": title, "text": text, "status": exc.status_code}, exc.status_code)
+        return render(request, "error.html", {"title": title, "text": text, "status": exc.status_code, "back": same_site_referer(request)}, exc.status_code)
 
     def remember_user(request: Request) -> None:
         db = app.state.session_factory()
@@ -120,7 +131,17 @@ def create_app(settings: Settings | None = None, google_transport=None) -> FastA
 
     @app.exception_handler(RequestValidationError)
     def validation_error(request: Request, exc: RequestValidationError):
+        if not hasattr(request.state, "user"):
+            remember_user(request)
+        places = {error["loc"][0] for error in exc.errors() if error.get("loc")}
+        if "path" in places:  # /sessions/notauuid is simply a page that does not exist
+            title, text = ERROR_TEXT[404]
+            return render(request, "error.html", {"title": title, "text": text, "status": 404}, 404)
+        if places == {"query"} and request.method == "GET":  # ?page=abc: the same page without the bad value
+            bad = {error["loc"][1] for error in exc.errors() if len(error["loc"]) > 1}
+            kept = [(k, v) for k, v in request.query_params.multi_items() if k not in bad]
+            return RedirectResponse(f"{request.url.path}?{urlencode(kept)}" if kept else request.url.path, status_code=303)
         title, text = ERROR_TEXT[400]
-        return render(request, "error.html", {"title": title, "text": text, "status": 400}, 400)
+        return render(request, "error.html", {"title": title, "text": text, "status": 400, "back": same_site_referer(request)}, 400)
 
     return app

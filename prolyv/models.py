@@ -365,7 +365,8 @@ class TeaImage(Base):
 
     @property
     def credit(self) -> str:
-        bits = [f"Photo: {self.author}" if self.author else "Photo: Wikimedia Commons"]
+        author = (self.author or "").removeprefix("Photo:").strip()
+        bits = [f"Photo: {author}" if author else "Photo: author unknown"]
         if self.license:
             bits.append(self.license)
         return " · ".join(bits)
