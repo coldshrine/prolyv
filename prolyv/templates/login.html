@@ -22,29 +22,45 @@
       <h1 class="h1">Log in to Prolyv</h1>
       <p class="lead">No passwords — use an account you already have. New here? We’ll create your diary automatically.</p>
 
-      {% if settings.telegram_enabled %}
+      {% if settings.dev_login_enabled %}
+        <a class="btn-auth btn-demo" href="/dev/login">Continue as demo user</a>
+      {% endif %}
+
+      {% if settings.telegram_usable %}
         {% include "partials/telegram_button.html" %}
-      {% else %}
-        <p class="muted small">Telegram sign-in is not configured yet (set <code>TELEGRAM_BOT_TOKEN</code> and <code>TELEGRAM_BOT_USERNAME</code>).</p>
+      {% elif settings.is_local %}
+        <p class="muted small">Telegram sign-in needs a public domain, so it is off on localhost.</p>
       {% endif %}
 
       {% if in_app_browser %}
+        {% if settings.google_enabled %}
         <div class="notice" id="inapp-notice">
           <strong>Google sign-in is blocked inside the Instagram and TikTok browser.</strong>
-          <span>Open in your browser to use Google, or continue with Telegram.</span>
+          <span>Open in your browser to use Google{% if settings.telegram_usable %}, or continue with Telegram{% endif %}.</span>
           <button type="button" class="btn btn-secondary btn-sm" id="copy-link">Copy link</button>
         </div>
+        {% endif %}
       {% elif settings.google_enabled %}
         <a class="btn-auth btn-google" href="/auth/google/start{% if next %}?next={{ next|urlencode }}{% endif %}">
           <svg width="22" height="22" viewBox="0 0 24 24" aria-hidden="true"><path fill="#4285F4" d="M21.6 12.23c0-.68-.06-1.33-.17-1.96H12v3.7h5.38a4.6 4.6 0 0 1-2 3.02v2.5h3.24c1.9-1.75 2.98-4.32 2.98-7.26z"/><path fill="#34A853" d="M12 22c2.7 0 4.96-.9 6.62-2.42l-3.24-2.5c-.9.6-2.04.95-3.38.95-2.6 0-4.8-1.75-5.58-4.1H3.07v2.57A10 10 0 0 0 12 22z"/><path fill="#FBBC05" d="M6.42 13.92A6 6 0 0 1 6.1 12c0-.67.12-1.31.32-1.92V7.5H3.07A10 10 0 0 0 2 12c0 1.62.39 3.15 1.07 4.5l3.35-2.58z"/><path fill="#EA4335" d="M12 5.97c1.47 0 2.78.5 3.82 1.5l2.86-2.87A9.98 9.98 0 0 0 12 2a10 10 0 0 0-8.93 5.5l3.35 2.58C7.2 7.72 9.4 5.97 12 5.97z"/></svg>
           Continue with Google
         </a>
-      {% else %}
-        <p class="muted small">Google sign-in is not configured yet (set <code>GOOGLE_CLIENT_ID</code> and <code>GOOGLE_CLIENT_SECRET</code>).</p>
+      {% elif settings.is_local %}
+        <p class="muted small">Google sign-in appears here once its keys are set with <code>scripts/set_keys.py</code>.</p>
       {% endif %}
 
-      <p class="fineprint">By continuing you agree to the <a href="/discuss">Community rules</a> and <a href="/blog">Privacy policy</a>. We never post anything on your behalf.</p>
-      <p class="login-feed">Just looking? <a href="/feed">Read the feed without an account →</a></p>
+      {% if settings.email_login_enabled %}
+      <div class="auth-divider"><span></span>or<span></span></div>
+      <form method="post" action="/auth/email/start" class="email-login">
+        <input type="hidden" name="csrf_token" value="{{ form_token }}">
+        {% if next %}<input type="hidden" name="next" value="{{ next }}">{% endif %}
+        <input type="email" name="email" placeholder="you@example.com" autocomplete="email" required aria-label="Your e-mail">
+        <button class="btn-auth btn-email" type="submit">Get a sign-in link by email</button>
+      </form>
+      {% endif %}
+
+      <p class="fineprint">By continuing you agree to the <a href="/rules">Community rules</a> and <a href="/privacy">Privacy policy</a>. We never post anything on your behalf.</p>
+      <p class="login-feed">Just looking? <a href="/">Read the feed without an account →</a></p>
     </div>
   </section>
 </div>

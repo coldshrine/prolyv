@@ -533,3 +533,15 @@ select option { color: #111; }
   .post-list { grid-template-columns: repeat(2, minmax(0, 1fr)); }
   .post-hero { padding: 56px 24px; }
 }
+
+/* ---------------------------------------------------------------- E-mail sign-in */
+.btn-demo { background: rgba(34, 227, 166, 0.16); border: 1px solid rgba(34, 227, 166, 0.5); color: #9DF5D3; }
+.btn-demo:hover { color: #FFFFFF; }
+.btn-email { background: rgba(255, 255, 255, 0.06); border: 1px solid rgba(255, 255, 255, 0.18); color: var(--fg); height: 54px; }
+.auth-divider { display: flex; align-items: center; gap: 14px; color: var(--muted-2); font-size: 14px; }
+.auth-divider span { flex: 1; height: 1px; background: rgba(255, 255, 255, 0.14); }
+.email-login { display: flex; flex-direction: column; gap: 10px; }
+.email-login input, .email-link-form input { width: 100%; padding: 14px 16px; border-radius: var(--radius-input); background: rgba(255, 255, 255, 0.06); border: 1px solid rgba(255, 255, 255, 0.18); color: var(--fg); font: inherit; font-size: 16px; outline: none; }
+.email-link-form { display: flex; flex-wrap: wrap; gap: 8px; flex: 1; }
+.email-link-form input { flex: 1 1 200px; padding: 10px 14px; }
+input[type="email"]:focus { border-color: var(--pink); box-shadow: 0 0 0 3px rgba(255, 79, 216, 0.25); }

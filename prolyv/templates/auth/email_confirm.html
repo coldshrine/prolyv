@@ -1,0 +1,13 @@
+{% extends "base.html" %}
+{% block title %}Sign in · Prolyv{% endblock %}
+{% block content %}
+<section class="container narrow centered">
+  <p class="eyebrow">Sign-in link</p>
+  <h1 class="h1">Continue as {{ email }}</h1>
+  <form method="post" action="/auth/email/verify" class="actions">
+    <input type="hidden" name="token" value="{{ token }}">
+    {% if next %}<input type="hidden" name="next" value="{{ next }}">{% endif %}
+    <button class="btn btn-primary" type="submit">Sign in to Prolyv</button>
+  </form>
+</section>
+{% endblock %}

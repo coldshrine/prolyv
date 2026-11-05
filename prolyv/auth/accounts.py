@@ -50,11 +50,15 @@ def _find_identity(db: Session, provider: Provider, provider_user_id: str) -> Id
     ).scalar_one_or_none()
 
 
-def _find_google_by_email(db: Session, email: str) -> Identity | None:
+EMAIL_PROVIDERS = (Provider.google, Provider.email)
+
+
+def _find_by_verified_email(db: Session, email: str) -> Identity | None:
+    """A Google account and a magic-link sign-in with the same verified address are the same person."""
     return db.execute(
         select(Identity)
         .join(User)
-        .where(Identity.provider == Provider.google, Identity.email == email, User.deleted_at.is_(None))
+        .where(Identity.provider.in_(EMAIL_PROVIDERS), Identity.email == email, User.deleted_at.is_(None))
     ).scalars().first()
 
 
@@ -78,8 +82,8 @@ def sign_in(db: Session, profile: ExternalProfile, current_user: User | None = N
         db.add(identity)
     else:
         user = None
-        if profile.provider == Provider.google and profile.email:
-            match = _find_google_by_email(db, profile.email)
+        if profile.provider in EMAIL_PROVIDERS and profile.email:
+            match = _find_by_verified_email(db, profile.email)
             if match is not None:
                 user = match.user
         if user is None:

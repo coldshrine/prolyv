@@ -22,6 +22,7 @@ class Base(DeclarativeBase):
 class Provider(str, enum.Enum):
     google = "google"
     telegram = "telegram"
+    email = "email"
 
 
 class User(Base):
@@ -74,6 +75,20 @@ class Identity(Base):
         if self.provider == Provider.telegram:
             return f"@{p['username']}" if p.get("username") else (p.get("first_name") or f"id {self.provider_user_id}")
         return self.email or p.get("name") or f"id {self.provider_user_id}"
+
+
+class LoginToken(Base):
+    """One-time e-mail sign-in link: only the SHA-256 of the token is stored, valid for 15 minutes."""
+
+    __tablename__ = "login_tokens"
+
+    id: Mapped[uuid.UUID] = mapped_column(Uuid, primary_key=True, default=uuid.uuid4)
+    email: Mapped[str] = mapped_column(String(320), index=True)
+    token_hash: Mapped[str] = mapped_column(String(64), unique=True)
+    user_id: Mapped[uuid.UUID | None] = mapped_column(ForeignKey("users.id", ondelete="CASCADE"))  # link to this account
+    expires_at: Mapped[datetime] = mapped_column(DateTime, nullable=False)
+    used_at: Mapped[datetime | None] = mapped_column(DateTime)
+    created_at: Mapped[datetime] = mapped_column(DateTime, default=utcnow, nullable=False)
 
 
 class AuthSession(Base):

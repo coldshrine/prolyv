@@ -5,15 +5,19 @@ from __future__ import annotations
 import hmac
 from urllib.parse import quote
 
-from fastapi import APIRouter, Depends, HTTPException, Request
+import logging
+
+from fastapi import APIRouter, Depends, Form, HTTPException, Request
 from fastapi.responses import RedirectResponse, Response
 
 from prolyv.auth.accounts import AccountError, ExternalProfile, sign_in
+from prolyv.auth.email_links import TOKEN_MINUTES, create_login_token, email_profile, find_valid_token, normalize_email
 from prolyv.auth.google import GoogleAuthError
 from prolyv.auth.sessions import create_session, revoke_session
 from prolyv.auth.telegram import TelegramAuthError, verify_telegram_auth
 from prolyv.config import Settings
-from prolyv.models import Provider, User
+from prolyv.mail import send_mail
+from prolyv.models import Provider, User, utcnow
 from prolyv.security import (
     INTENT_COOKIE,
     INTENT_COOKIE_MAX_AGE,
@@ -21,6 +25,7 @@ from prolyv.security import (
     OAUTH_COOKIE_MAX_AGE,
     SESSION_COOKIE,
     Signer,
+    hash_token,
     random_state,
 )
 from prolyv.web.cookies import delete_cookie, set_cookie
@@ -29,8 +34,9 @@ from prolyv.web.flash import set_flash
 from prolyv.web.templating import render
 
 router = APIRouter()
+log = logging.getLogger("prolyv.auth")
 
-PROVIDER_NAMES = {Provider.google: "Google", Provider.telegram: "Telegram"}
+PROVIDER_NAMES = {Provider.google: "Google", Provider.telegram: "Telegram", Provider.email: "E-mail"}
 
 TELEGRAM_ERRORS = {
     "missing": "Telegram did not send a complete sign-in. Please try again.",
@@ -52,6 +58,11 @@ def set_telegram_intent(response: Response, settings: Settings, signer: Signer, 
     set_cookie(response, settings, INTENT_COOKIE, signer.dumps("tg_intent", {"next": next_url}), INTENT_COOKIE_MAX_AGE)
 
 
+def anon_form_token(request: Request, signer: Signer) -> str:
+    """CSRF for the anonymous e-mail form: an HMAC of the signed intent cookie (double submit)."""
+    return signer.csrf_token(hash_token(request.cookies.get(INTENT_COOKIE) or ""))
+
+
 def error_page(request: Request, title: str, text: str, status_code: int = 400):
     return render(request, "error.html", {"title": title, "text": text, "status": status_code}, status_code=status_code)
 
@@ -61,8 +72,10 @@ def login_page(request: Request, settings: SettingsDep, signer: SignerDep, user:
     next_url = safe_next(next)
     if user is not None:
         return RedirectResponse(next_url or "/", status_code=303)
-    response = render(request, "login.html", {"next": next_url})
-    set_telegram_intent(response, settings, signer, next_url)
+    intent = signer.dumps("tg_intent", {"next": next_url})
+    form_token = signer.csrf_token(hash_token(intent))
+    response = render(request, "login.html", {"next": next_url, "form_token": form_token})
+    set_cookie(response, settings, INTENT_COOKIE, intent, INTENT_COOKIE_MAX_AGE)
     return response
 
 
@@ -180,6 +193,68 @@ def complete_sign_in(
     for name in clear:
         delete_cookie(response, settings, name)
     return response
+
+
+@router.post("/auth/email/start")
+def email_start(request: Request, db: DbDep, settings: SettingsDep, signer: SignerDep, user: CurrentUser,
+                email: str = Form(""), next: str = Form(""), csrf_token: str = Form("")):
+    if not settings.email_login_enabled:
+        raise HTTPException(status_code=404)
+    if user is not None:
+        valid = signer.verify_csrf(request.state.session.token_hash, csrf_token)
+    else:
+        valid = bool(request.cookies.get(INTENT_COOKIE)) and csrf_token == anon_form_token(request, signer)
+    if not valid:
+        raise HTTPException(status_code=403, detail="csrf_failed")
+
+    address = normalize_email(email)
+    if address is None:
+        response = RedirectResponse("/settings" if user else "/login", status_code=303)
+        set_flash(response, settings, signer, "error", "That doesn't look like an e-mail address.")
+        return response
+
+    token = create_login_token(db, address, user.id if user else None)
+    link = None
+    if token is not None:
+        query = f"token={token}"
+        if safe_next(next):
+            query += f"&next={quote(safe_next(next))}"
+        link = f"{settings.base_url}/auth/email/verify?{query}"
+        if settings.smtp_enabled:
+            db.commit()
+            try:
+                send_mail(settings, address, "Your Prolyv sign-in link",
+                          f"Open this link to sign in to Prolyv:\n\n{link}\n\n"
+                          f"It works once and expires in {TOKEN_MINUTES} minutes. If you did not ask for it, ignore this e-mail.\n")
+            except OSError:
+                log.exception("could not send the sign-in e-mail")
+                return error_page(request, "We couldn't send the e-mail", "Please try again in a few minutes.", 503)
+            link = None
+        else:
+            log.warning("sign-in link for %s: %s", address, link)  # localhost only: no SMTP configured
+    return render(request, "auth/email_sent.html", {"email": address, "link": link, "minutes": TOKEN_MINUTES})
+
+
+@router.get("/auth/email/verify")
+def email_verify_page(request: Request, db: DbDep, user: CurrentUser, token: str = "", next: str = ""):
+    """Shows a button instead of signing in right away, so mail scanners that fetch links don't burn the token."""
+    row = find_valid_token(db, token)
+    if row is None:
+        return error_page(request, "This link has expired", "Sign-in links work once and last 15 minutes. Ask for a new one.")
+    return render(request, "auth/email_confirm.html", {"token": token, "next": safe_next(next), "email": row.email})
+
+
+@router.post("/auth/email/verify")
+def email_verify(request: Request, db: DbDep, settings: SettingsDep, signer: SignerDep, user: CurrentUser,
+                 token: str = Form(""), next: str = Form("")):
+    row = find_valid_token(db, token)
+    if row is None:
+        return error_page(request, "This link has expired", "Sign-in links work once and last 15 minutes. Ask for a new one.")
+    if row.user_id is not None and (user is None or user.id != row.user_id):
+        return error_page(request, "Open this link in the same browser",
+                          "This link adds an e-mail to an account. Open it in the browser where you are logged in.")
+    row.used_at = utcnow()
+    return complete_sign_in(request, db, settings, signer, email_profile(row.email), user if row.user_id else None, next)
 
 
 @router.post("/logout", dependencies=[Depends(require_csrf)])

@@ -132,4 +132,4 @@ def test_callback_404_when_telegram_not_configured(tmp_path, google):
     app = build_app(make_settings(tmp_path, telegram_bot_token="", telegram_bot_username=""), google)
     with TestClient(app) as client:
         assert client.get("/auth/telegram/callback", params=telegram_params()).status_code == 404
-        assert "Telegram sign-in is not configured" in client.get("/login").text
+        assert "telegram.org" not in client.get("/login").text

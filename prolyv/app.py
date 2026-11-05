@@ -43,6 +43,7 @@ ERROR_TEXT = {
 
 def create_app(settings: Settings | None = None, google_transport=None) -> FastAPI:  # noqa: ANN001
     settings = settings or get_settings()
+    settings.check_startup()
     app = FastAPI(title="Prolyv", docs_url=None, redoc_url=None, openapi_url=None)
 
     app.state.settings = settings

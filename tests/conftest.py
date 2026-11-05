@@ -18,7 +18,7 @@ from prolyv.config import Settings
 from prolyv.forum_search import ensure_forum_sections
 from prolyv.models import Base
 
-BOT_TOKEN = "123456:TEST-BOT-TOKEN"
+BOT_TOKEN = "123456:TEST-BOT-TOKEN-0123456789"
 GOOGLE_CLIENT_ID = "test-client-id.apps.googleusercontent.com"
 DESKTOP_UA = "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0 Safari/537.36"
 INSTAGRAM_UA = (

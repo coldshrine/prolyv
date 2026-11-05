@@ -142,4 +142,4 @@ def test_google_start_404_when_not_configured(tmp_path, google):
     app = build_app(make_settings(tmp_path, google_client_id="", google_client_secret=""), google)
     with TestClient(app) as client:
         assert client.get("/auth/google/start", follow_redirects=False).status_code == 404
-        assert "Google sign-in is not configured" in client.get("/login").text
+        assert "/auth/google/start" not in client.get("/login").text

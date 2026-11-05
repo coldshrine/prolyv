@@ -104,6 +104,7 @@ class GoogleOIDC:
     @staticmethod
     def profile_from_claims(claims: dict) -> ExternalProfile:
         email = claims.get("email") if claims.get("email_verified") is True else None
+        email = email.strip().lower() if email else None
         local_part = (email or "").split("@", 1)[0]
         name = (claims.get("name") or "").strip() or local_part or "Tea drinker"
         keep = ("sub", "email", "email_verified", "name", "given_name", "family_name", "picture", "locale", "hd")

@@ -91,33 +91,49 @@ Logged-in users can propose a tea at `/teas/new`; it stays `pending` and visible
 publishes it from `/admin/teas`. Admins (handles listed in `ADMIN_HANDLES`) can edit any card and manage its
 photos; blog posts are written at `/admin/posts`.
 
-## Secrets you have to create
+## Что сделать руками, 5 минут
 
-All secrets come from the environment only: `.env` locally, `/etc/prolyv.env` on the server. `.env` and every
-`*.db` file are git-ignored; only `.env.example` is committed.
+Сайт работает и без ключей: на localhost вход идёт по ссылке на e-mail (без SMTP ссылка показывается прямо на
+странице) или кнопкой «Continue as demo user» (`DEV_LOGIN=1`, только при localhost). Настоящие ключи создаёте вы;
+значения вводятся так, чтобы они нигде не отображались:
 
-### Google (OAuth client)
+```bash
+uv run python scripts/set_keys.py
+```
 
-1. [Google Cloud Console](https://console.cloud.google.com/) → create a project (or reuse one) → **APIs & Services →
-   OAuth consent screen**: External, app name "Prolyv", your support email, scopes `openid`, `email`, `profile`.
-   While the app is in "Testing" only the test users you list can sign in; click **Publish** when ready.
-2. **APIs & Services → Credentials → Create credentials → OAuth client ID → Web application.**
-   - Authorized JavaScript origins: `BASE_URL` (for example `https://prolyv.144.24.168.1.sslip.io`).
-   - Authorized redirect URIs: exactly `BASE_URL/auth/google/callback`.
-   Google accepts `http://localhost:8000/...` for local work, but any other origin must be `https`.
-3. Paste the client ID and secret into `GOOGLE_CLIENT_ID` / `GOOGLE_CLIENT_SECRET`.
+Секреты живут только в `.env` локально и в `/etc/prolyv.env` на сервере. `.env` и `*.db` в git не попадают.
+Пустые значения и значения с `placeholder` считаются «не настроено»: такая кнопка просто не показывается.
 
-### Telegram (bot for the Login Widget)
+### Google
 
-1. Open [@BotFather](https://t.me/BotFather) → `/newbot` → pick a name and a username ending in `bot`. BotFather
-   replies with the token (`123456789:AA...`).
-2. `/setdomain` → choose the bot → send the host part of `BASE_URL` (for example
-   `prolyv.144.24.168.1.sslip.io`, later your real domain). Without this the widget answers "Bot domain invalid".
-   One bot accepts one domain, so use a second bot for local experiments if you need them.
-3. Paste the token into `TELEGRAM_BOT_TOKEN` and the username (without `@`) into `TELEGRAM_BOT_USERNAME`.
+1. [Google Cloud Console](https://console.cloud.google.com/) → создать проект → **APIs & Services → OAuth consent
+   screen**: User type **External**, название Prolyv, ваш e-mail, scopes `openid`, `email`, `profile`.
+2. **Первым делом добавьте свой e-mail в Test users.** Пока статус Testing, войти могут только они; остальные получат
+   `403 access_denied`.
+3. **Credentials → Create credentials → OAuth client ID → Web application.** Authorized redirect URIs, ровно так:
+   - локально: `http://localhost:8000/auth/google/callback`
+   - прод: `https://<ваш-домен>/auth/google/callback`
+4. Client ID и secret введите через `set_keys.py` и перезапустите приложение. На localhost Google заработает сразу.
 
-The widget only works on a public domain, which is why the Telegram flow is exercised through the test suite
-locally (`sign_telegram_params` in `prolyv/auth/telegram.py` builds validly signed callbacks).
+Для статуса Production (вход для всех) Google требует домашнюю страницу, `/privacy` и `/terms` на подтверждённом домене.
+Эти страницы на сайте есть. Голый IP Google не примет. Примет ли `*.sslip.io`, не подтверждено (есть только
+противоречивые отчёты), поэтому не рассчитывайте на него. План Б: свой домен или Cloudflare Tunnel со своим доменом.
+
+### Telegram
+
+1. [@BotFather](https://t.me/BotFather) → `/newbot` → имя и username, заканчивающийся на `bot`. Получите токен.
+2. `/setdomain` → выбрать бота → хост из `BASE_URL`, например `prolyv.example.com`.
+3. Токен и username (без `@`) введите через `set_keys.py`.
+
+BotFather не принимает голый localhost, поэтому на localhost кнопки Telegram нет, вместо неё честная строка. Как
+проверить локально: алиас в `/etc/hosts` (`127.0.0.1 prolyv.test`) с `/setdomain prolyv.test` и `BASE_URL=http://prolyv.test:8000`,
+либо туннель (Cloudflare Tunnel, ngrok) с его доменом в `/setdomain`. При обходе с алиасом задайте порт 80, если
+виджет его потребует.
+
+### Письма со ссылкой для входа (на проде)
+
+Подойдёт любой SMTP-релей (Brevo, Postmark, Mailgun, пароль приложения Gmail): `SMTP_HOST`, `SMTP_PORT`, `SMTP_USER`,
+`SMTP_PASSWORD`, `SMTP_FROM`. На проде без SMTP вход по e-mail скрыт.
 
 ## How sign-in works
 
@@ -136,6 +152,10 @@ locally (`sign_telegram_params` in `prolyv/auth/telegram.py` builds validly sign
   provider links it to the same account. A Google login whose verified e-mail matches an existing Google identity
   joins that account. The handle is a slug of the Telegram username or Google name (`[a-z0-9_]`, 3–24 characters,
   Cyrillic transliterated) with a numeric suffix on collision.
+- **E-mail link.** `/auth/email/start` creates a one-time token (15 minutes, SHA-256 stored, at most 5 per address per
+  hour) and sends it by SMTP. The link opens a confirmation page with a button, so mail scanners that fetch links do
+  not burn it. A verified address joins the Google account with the same address. Without SMTP the link is shown on
+  the page and logged, on localhost only; in production the option is hidden.
 - **Sessions.** Cookie `prolyv_session` holds a random 256-bit token; the database stores its SHA-256 only.
   HttpOnly, SameSite=Lax, Secure whenever `BASE_URL` is https. 30-day expiry that slides on use (refreshed at most
   once an hour), rotated on every login, deleted on logout, purged on account deletion.

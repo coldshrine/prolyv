@@ -33,6 +33,7 @@ def settings_context(user: User, form: dict | None = None, errors: dict | None =
         "errors": errors or {},
         "google": user.identity_for(Provider.google),
         "telegram": user.identity_for(Provider.telegram),
+        "email_identity": user.identity_for(Provider.email),
     }
 
 
@@ -118,7 +119,7 @@ def settings_avatar(
     except ValueError:
         raise HTTPException(status_code=400, detail="unknown_provider") from None
     identity = user.identity_for(prov)
-    url = (identity.raw_profile or {}).get(AVATAR_FIELD[prov]) if identity else None
+    url = (identity.raw_profile or {}).get(AVATAR_FIELD.get(prov, "")) if identity else None
     if not url:
         set_flash(response, settings, signer, "error", f"Your {PROVIDER_NAMES[prov]} account has no photo we can use.")
         return response

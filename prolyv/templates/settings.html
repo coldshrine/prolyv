@@ -51,36 +51,47 @@
     <h2 class="h2">Linked accounts</h2>
     {% if errors.providers %}<p class="field-error">{{ errors.providers }}</p>{% endif %}
     <ul class="providers">
+      {% if google or settings.google_enabled %}
       <li>
         <span class="provider-name">Google</span>
         {% if google %}
           <span class="provider-detail">{{ google.label }}</span>
           <form method="post" action="/settings/unlink"><input type="hidden" name="csrf_token" value="{{ csrf_token }}"><input type="hidden" name="provider" value="google"><button class="btn btn-ghost btn-sm" type="submit">Unlink</button></form>
-        {% elif settings.google_enabled %}
+        {% else %}
           <span class="provider-detail muted">Not linked</span>
           <a class="btn btn-secondary btn-sm" href="/auth/google/start?next=/settings">Link Google</a>
-        {% else %}
-          <span class="provider-detail muted">Not configured</span>
         {% endif %}
       </li>
+      {% endif %}
+      {% if telegram or settings.telegram_usable %}
       <li>
         <span class="provider-name">Telegram</span>
         {% if telegram %}
           <span class="provider-detail">{{ telegram.label }}</span>
           <form method="post" action="/settings/unlink"><input type="hidden" name="csrf_token" value="{{ csrf_token }}"><input type="hidden" name="provider" value="telegram"><button class="btn btn-ghost btn-sm" type="submit">Unlink</button></form>
-        {% elif settings.telegram_enabled %}
+        {% else %}
           <span class="provider-detail muted">Not linked</span>
           <div class="tg-inline">{% set tg_label = "Link Telegram" %}{% include "partials/telegram_button.html" %}</div>
-        {% else %}
-          <span class="provider-detail muted">Not configured</span>
         {% endif %}
       </li>
+      {% endif %}
+      {% if email_identity or settings.email_login_enabled %}
+      <li>
+        <span class="provider-name">E-mail</span>
+        {% if email_identity %}
+          <span class="provider-detail">{{ email_identity.label }}</span>
+          <form method="post" action="/settings/unlink"><input type="hidden" name="csrf_token" value="{{ csrf_token }}"><input type="hidden" name="provider" value="email"><button class="btn btn-ghost btn-sm" type="submit">Unlink</button></form>
+        {% else %}
+          <form method="post" action="/auth/email/start" class="email-link-form"><input type="hidden" name="csrf_token" value="{{ csrf_token }}"><input type="hidden" name="next" value="/settings"><input type="email" name="email" placeholder="you@example.com" required aria-label="E-mail to link"><button class="btn btn-secondary btn-sm" type="submit">Link e-mail</button></form>
+        {% endif %}
+      </li>
+      {% endif %}
     </ul>
   </section>
 
   <section class="card card-danger">
     <h2 class="h2">Delete account</h2>
-    <p class="muted">This signs you out everywhere, unlinks Google and Telegram and hides your profile. Type your handle to confirm.</p>
+    <p class="muted">This signs you out everywhere, removes your sign-in methods and hides your profile. Type your handle to confirm.</p>
     {% if errors.delete %}<p class="field-error">{{ errors.delete }}</p>{% endif %}
     <form method="post" action="/settings/delete" class="form-inline">
       <input type="hidden" name="csrf_token" value="{{ csrf_token }}">

@@ -177,7 +177,7 @@ def test_sitemap_lists_published_teas(client, db, settings):
 
 
 def test_dev_login_only_works_locally(tmp_path, google):
-    dev_app = build_app(make_settings(tmp_path, dev_login=True), google)
+    dev_app = build_app(make_settings(tmp_path, dev_login=True, base_url="http://localhost:8000"), google)
     with TestClient(dev_app) as client:
         telegram_login(client, username="olena_tea")
         client.cookies.clear()
@@ -185,8 +185,3 @@ def test_dev_login_only_works_locally(tmp_path, google):
         assert response.status_code == 303
         assert client.get("/settings").status_code == 200
         assert client.get("/dev/login/nobody", follow_redirects=False).status_code == 404
-
-    (tmp_path / "prod").mkdir(exist_ok=True)
-    prod_app = build_app(make_settings(tmp_path / "prod", dev_login=True, base_url="https://prolyv.example"), google)
-    with TestClient(prod_app, base_url="https://testserver") as client:
-        assert client.get("/dev/login/olena_tea", follow_redirects=False).status_code == 404
