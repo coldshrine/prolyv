@@ -878,3 +878,4 @@ body { overflow-wrap: anywhere; }
   body { padding-bottom: calc(var(--tabbar-h) + env(safe-area-inset-bottom)); }
   .topbar-actions { margin-left: auto; }
 }
+.origin-others { margin-top: 28px; margin-bottom: 12px; }
