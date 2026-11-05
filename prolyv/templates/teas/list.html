@@ -1,0 +1,58 @@
+{% extends "base.html" %}
+{% from "partials/macros.html" import tea_card %}
+{% block title %}{{ title }} · Prolyv{% endblock %}
+{% block head %}<link rel="canonical" href="{{ settings.base_url }}{{ canonical }}">
+<meta name="description" content="Prolyv tea base: {{ total }} teas with photos, taste notes, brewing parameters and how each one is sold.">{% endblock %}
+{% block content %}
+<section class="container">
+  <div class="teas-head">
+    <div>
+      <p class="eyebrow">Tea base · {{ total }} tea{{ '' if total == 1 else 's' }}</p>
+      <h1 class="h1">{{ title }}</h1>
+      {% if origin_label %}<p class="lead">Everything in the base from {{ origin_label }}.</p>{% elif intro %}<p class="lead">{{ intro }}</p>{% endif %}
+    </div>
+    <a class="btn btn-secondary btn-sm" href="{% if current_user %}/teas/new{% else %}/login?next=/teas/new{% endif %}"><span class="plus" aria-hidden="true">+</span> Add a tea</a>
+  </div>
+
+  <form class="teas-filters" method="get" action="{{ canonical }}" hx-get="{{ canonical }}" hx-trigger="input delay:300ms, change" hx-target="#tea-results" hx-select="#tea-results" hx-swap="outerHTML" hx-push-url="true" role="search">
+    <input type="search" name="q" value="{{ q }}" placeholder="Search by name, alias or region…" autocomplete="off" aria-label="Search teas">
+    <select name="origin" aria-label="Origin">
+      <option value="">Any origin</option>
+      {% for key, name, count in countries %}<option value="{{ key }}"{% if key == origin %} selected{% endif %}>{{ name }} ({{ count }})</option>{% endfor %}
+    </select>
+    <select name="form" aria-label="Form">
+      <option value="">Any form</option>
+      {% for value, label, count in forms %}<option value="{{ value }}"{% if value == form %} selected{% endif %}>{{ label }} ({{ count }})</option>{% endfor %}
+    </select>
+    <select name="sort" aria-label="Sort">
+      <option value="popular"{% if sort == 'popular' %} selected{% endif %}>Most known first</option>
+      <option value="name"{% if sort == 'name' %} selected{% endif %}>A → Z</option>
+      <option value="newest"{% if sort == 'newest' %} selected{% endif %}>Newest</option>
+    </select>
+    <noscript><button class="btn btn-secondary btn-sm" type="submit">Apply</button></noscript>
+  </form>
+
+  <nav class="chips" aria-label="Categories">
+    <a class="chip{% if not category %} chip-on{% endif %}" href="/teas">All</a>
+    {% for value, label, count in categories %}{% if count %}<a class="chip{% if value == category %} chip-on{% endif %}" href="/teas/c/{{ value }}">{{ label }} <span class="count">{{ count }}</span></a>{% endif %}{% endfor %}
+  </nav>
+
+  <div id="tea-results">
+    {% if teas %}
+    <div class="tea-grid">{% for tea in teas %}{{ tea_card(tea) }}{% endfor %}</div>
+    {% if pages > 1 %}
+    <nav class="pagination" aria-label="Pages">
+      {% if page > 1 %}<a class="btn btn-secondary btn-sm" href="{{ page_url(page - 1) }}">← Previous</a>{% endif %}
+      <span class="muted">Page {{ page }} of {{ pages }}</span>
+      {% if page < pages %}<a class="btn btn-secondary btn-sm" href="{{ page_url(page + 1) }}">Next →</a>{% endif %}
+    </nav>
+    {% endif %}
+    {% else %}
+    <div class="card empty">
+      <p class="empty-title">Nothing found</p>
+      <p class="muted">Try another spelling, or <a href="{% if current_user %}/teas/new{% else %}/login?next=/teas/new{% endif %}">add this tea</a> to the base.</p>
+    </div>
+    {% endif %}
+  </div>
+</section>
+{% endblock %}

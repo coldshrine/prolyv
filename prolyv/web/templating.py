@@ -30,6 +30,7 @@ def render(request: Request, name: str, context: dict | None = None, status_code
         "settings": settings,
         "version": __version__,
         "current_user": getattr(request.state, "user", None),
+        "is_admin": getattr(request.state, "is_admin", False),
         "csrf_token": csrf_token_for(request),
         "flash": pop_flash(request, settings, signer),
         "in_app_browser": is_in_app_browser(request.headers.get("user-agent")),

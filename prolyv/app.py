@@ -15,7 +15,7 @@ from prolyv.config import Settings, get_settings
 from prolyv.db import make_engine, make_session_factory
 from prolyv.ratelimit import RateLimiter, RateLimitMiddleware
 from prolyv.security import Signer
-from prolyv.web import routes_account, routes_auth, routes_home
+from prolyv.web import routes_account, routes_auth, routes_dev, routes_home, routes_teas
 from prolyv.web.cookies import PendingCookiesMiddleware
 from prolyv.web.headmethod import HeadMethodMiddleware
 from prolyv.web.routes_auth import login_redirect
@@ -53,6 +53,8 @@ def create_app(settings: Settings | None = None, google_transport=None) -> FastA
     app.mount("/static", StaticFiles(directory=str(STATIC_DIR)), name="static")
     app.include_router(routes_auth.router)
     app.include_router(routes_account.router)
+    app.include_router(routes_teas.router)
+    app.include_router(routes_dev.router)
     app.include_router(routes_home.router)  # last: it owns the catch-all /{section}
 
     @app.exception_handler(StarletteHTTPException)

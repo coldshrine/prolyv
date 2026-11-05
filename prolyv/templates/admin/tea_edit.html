@@ -1,0 +1,40 @@
+{% extends "base.html" %}
+{% block title %}Edit {{ tea.name_en }} · Prolyv admin{% endblock %}
+{% block content %}
+<div class="container narrow">
+  <p class="eyebrow">Admin · <a href="/admin/teas">tea requests</a></p>
+  <h1 class="h1">Edit: {{ tea.name_en }}</h1>
+  <p class="muted">Status: {{ tea.status.value }} · <a href="/teas/{{ tea.slug }}">view card</a>. Saving locks the text so the importer keeps your edits.</p>
+  <form method="post" action="/admin/teas/{{ tea.slug }}/edit" class="card form" novalidate>
+    {% include "teas/_form_fields.html" %}
+    <div class="actions"><button class="btn btn-primary" type="submit">Save card</button></div>
+  </form>
+
+  <section class="card">
+    <h2 class="h2">Photos</h2>
+    {% if tea.images %}
+    <ul class="admin-images">
+      {% for im in tea.images %}
+      <li>
+        <img src="{{ im.thumb_url or im.url }}" alt="" loading="lazy" referrerpolicy="no-referrer">
+        <div>
+          <p class="small">{{ im.credit }}{% if im.is_primary %} · <strong>primary</strong>{% endif %}</p>
+          <div class="actions">
+            <form method="post" action="/admin/teas/{{ tea.slug }}/images/{{ im.id }}"><input type="hidden" name="csrf_token" value="{{ csrf_token }}"><input type="hidden" name="action" value="primary"><button class="btn btn-secondary btn-sm" type="submit">Make primary</button></form>
+            <form method="post" action="/admin/teas/{{ tea.slug }}/images/{{ im.id }}"><input type="hidden" name="csrf_token" value="{{ csrf_token }}"><input type="hidden" name="action" value="delete"><button class="btn btn-ghost btn-sm" type="submit">Remove</button></form>
+          </div>
+        </div>
+      </li>
+      {% endfor %}
+    </ul>
+    {% else %}<p class="muted">No photos. Re-run <code>scripts/import_teas.py --only {{ tea.slug }} --refresh</code> after adding a Wikipedia link, or wait for uploads in a later milestone.</p>{% endif %}
+  </section>
+
+  {% if tea.status.value == 'pending' %}
+  <div class="actions">
+    <form method="post" action="/admin/teas/{{ tea.slug }}/approve"><input type="hidden" name="csrf_token" value="{{ csrf_token }}"><button class="btn btn-primary" type="submit">Publish</button></form>
+    <form method="post" action="/admin/teas/{{ tea.slug }}/delete"><input type="hidden" name="csrf_token" value="{{ csrf_token }}"><button class="btn btn-danger" type="submit">Reject and delete</button></form>
+  </div>
+  {% endif %}
+</div>
+{% endblock %}

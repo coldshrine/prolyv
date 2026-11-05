@@ -20,6 +20,9 @@ class Settings(BaseSettings):
     telegram_bot_token: str = ""
     telegram_bot_username: str = ""
 
+    admin_handles: str = ""  # comma-separated handles that may moderate and edit the catalog
+    dev_login: bool = False  # GET /dev/login/{handle} without a provider; refused when BASE_URL is https
+
     session_days: int = 30
     auth_rate_limit: int = 30  # requests per window, per client IP, on /login and /auth/*
     auth_rate_window: int = 60  # seconds
@@ -39,6 +42,17 @@ class Settings(BaseSettings):
     @property
     def cookie_secure(self) -> bool:
         return self.base_url.startswith("https://")
+
+    @property
+    def admin_handle_set(self) -> frozenset[str]:
+        return frozenset(h.strip().lstrip("@").lower() for h in self.admin_handles.split(",") if h.strip())
+
+    def is_admin_handle(self, handle: str) -> bool:
+        return handle.lower() in self.admin_handle_set
+
+    @property
+    def dev_login_enabled(self) -> bool:
+        return self.dev_login and not self.cookie_secure
 
     @property
     def google_enabled(self) -> bool:

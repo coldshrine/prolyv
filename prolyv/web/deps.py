@@ -40,6 +40,7 @@ def get_current_user(request: Request, db: DbDep, settings: SettingsDep, signer:
     request.state.session = sess
     request.state.user = sess.user if sess is not None else None
     request.state.csrf_token = signer.csrf_token(sess.token_hash) if sess is not None else ""
+    request.state.is_admin = sess is not None and settings.is_admin_handle(sess.user.handle)
     if sess is None:
         return None
     if touch_session(db, sess, settings.session_days):
@@ -69,3 +70,12 @@ async def require_csrf(request: Request, user: RequiredUser, signer: SignerDep) 
     sess = request.state.session
     if not signer.verify_csrf(sess.token_hash, form.get("csrf_token")):
         raise HTTPException(status_code=403, detail="csrf_failed")
+
+
+def require_admin(request: Request, user: RequiredUser, settings: SettingsDep) -> User:
+    if not settings.is_admin_handle(user.handle):
+        raise HTTPException(status_code=403, detail="admin_only")
+    return user
+
+
+AdminUser = Annotated[User, Depends(require_admin)]

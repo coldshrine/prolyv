@@ -1,3 +1,18 @@
 {% macro avatar(user, size=40) -%}
 {% if user.avatar_url %}<img class="avatar" src="{{ user.avatar_url }}" alt="" width="{{ size }}" height="{{ size }}" style="--size:{{ size }}px" referrerpolicy="no-referrer" loading="lazy">{% else %}<span class="avatar avatar-initials" style="--size:{{ size }}px" aria-hidden="true">{{ user.initials }}</span>{% endif %}
 {%- endmacro %}
+
+{% macro tea_card(tea) -%}
+<a class="tea-card" href="/teas/{{ tea.slug }}">
+  <span class="tea-card-media" data-category="{{ tea.category.value }}">
+    {% if tea.primary_image %}<img src="{{ tea.primary_image.thumb_url or tea.primary_image.url }}" alt="" loading="lazy" referrerpolicy="no-referrer">{% else %}<span class="cup-mark cup-{{ tea.category.value }}" aria-hidden="true"></span>{% endif %}
+    <span class="chip chip-cat chip-{{ tea.category.value }}">{{ tea.category_label }}</span>
+  </span>
+  <span class="tea-card-body">
+    <span class="tea-card-name">{{ tea.name_en }}</span>
+    {% if tea.name_native %}<span class="tea-card-native">{{ tea.name_native }}</span>{% endif %}
+    <span class="tea-card-origin">{{ tea.origin_country }}{% if tea.origin_region %} · {{ tea.origin_region }}{% endif %}</span>
+    {% if tea.taste_tags %}<span class="tags">{% for t in tea.taste_tags[:3] %}<span class="tag">{{ t }}</span>{% endfor %}</span>{% endif %}
+  </span>
+</a>
+{%- endmacro %}
