@@ -39,7 +39,7 @@
   "caffeine_level": "medium",
   "vintage_note": "Sold as the current year's crop as usual for Japanese greens, with first-flush lots the most valued. The name is a prefecture-wide label, so lots with a named sub-region such as Asamiya or Tsuchiyama tell you more.",
   "description": "Omi is the old name for Shiga, and Omi tea is simply the collective term for the prefecture's green tea. Koka city makes the most of it.\n\nThe terrain does much of the work: many sites see strong day-night temperature swings and frequent fog, conditions associated with refined sencha.\n\nThink of it as a family and not a style. Some is sold simply as Omi tea, while smaller areas carry their own names: Asamiya, Tsuchiyama, Mandokoro and Kitayama. Brew it as sencha and adjust from there.\n\nFor a fun comparison, taste a mountain Asamiya next to a Tsuchiyama from gentler hills. It is an easy way to learn how much place matters in one prefecture.",
-  "history": "Shiga has a strong claim on the beginning of Japanese tea. Tradition says Saicho sowed seed from Tang China in 805 at Hiyoshi tea garden in Sakamoto at the foot of Mount Hiei.\n\nThe Nihon Koki records that in 815 the monk Eichu prepared and served tea to Emperor Saga on the way to present-day Otsu, which is regarded as the first written record of tea drinking in Japan.\n\nMuch later, the name became a prefectural umbrella over smaller local brands.",
+  "history": "Shiga has a strong claim on the beginning of Japanese tea. Tradition says Saicho sowed seed from Tang China in 805 at Hiyoshi tea garden in Sakamoto at the foot of Mount Hiei.\n\nThe Nihon Koki records that in 815 the monk Eichu prepared and served tea to Emperor Saga on the way to present-day Otsu, which is regarded as the first written record of tea drinking in Japan.\n\nToday the name is a prefectural umbrella over smaller local brands.",
   "liquor_hex": "#CBCB7A",
   "leaf_hex": "#4D6432",
   "sources": [
@@ -50,5 +50,26 @@
   "wikipedia_title": "近江の茶",
   "wikipedia_scope": "exact",
   "popularity": 3,
-  "images": []
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ca/%C5%8Cmi_Tea_garden%2C_Mushouno%2C_Minakuchi_02.jpg/1280px-%C5%8Cmi_Tea_garden%2C_Mushouno%2C_Minakuchi_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ca/%C5%8Cmi_Tea_garden%2C_Mushouno%2C_Minakuchi_02.jpg/330px-%C5%8Cmi_Tea_garden%2C_Mushouno%2C_Minakuchi_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source_page": "https://commons.wikimedia.org/wiki/File:%C5%8Cmi_Tea_garden,_Mushouno,_Minakuchi_02.jpg",
+      "author": "Motokoka",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "kind": "plantation",
+      "alt": "Rows of clipped tea bushes on a hillside at Mushouno, Minakuchi, Shiga"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a7/%C5%8Cmi_Tea_garden%2C_Mushouno%2C_Minakuchi_01.jpg/1280px-%C5%8Cmi_Tea_garden%2C_Mushouno%2C_Minakuchi_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a7/%C5%8Cmi_Tea_garden%2C_Mushouno%2C_Minakuchi_01.jpg/330px-%C5%8Cmi_Tea_garden%2C_Mushouno%2C_Minakuchi_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source_page": "https://commons.wikimedia.org/wiki/File:%C5%8Cmi_Tea_garden,_Mushouno,_Minakuchi_01.jpg",
+      "author": "Motokoka",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "kind": "plantation",
+      "alt": "Omi tea garden with rounded green rows and distant hills under a cloudy sky"
+    }
+  ]
 }

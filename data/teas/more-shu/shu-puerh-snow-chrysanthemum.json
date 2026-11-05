@@ -1,0 +1,57 @@
+{
+  "slug": "shu-puerh-snow-chrysanthemum",
+  "name_en": "Shu Pu-erh with Snow Chrysanthemum",
+  "name_native": "雪菊普洱",
+  "name_romanized": "Xuějú Pǔ'ěr",
+  "aliases": [
+    "Ripe Pu-erh and snow chrysanthemum mini cake"
+  ],
+  "category": "shu",
+  "origin_country": "China",
+  "origin_region": "Yunnan",
+  "cultivar": null,
+  "form": "cake",
+  "caffeine_level": "medium",
+  "brewing": {
+    "grams": 6,
+    "water_ml": 110,
+    "temp_c": 100,
+    "steeps": 7,
+    "seconds": [
+      10,
+      10,
+      15,
+      20,
+      30,
+      40,
+      60
+    ],
+    "notes": "A safe starting point for ripe pu-erh: rinse once or twice, boiling water."
+  },
+  "taste_tags": [
+    "earthy",
+    "sweet"
+  ],
+  "description": "A blend of ripe pu-erh and snow chrysanthemum, pressed into mini cakes.\n\nRecipes for a flavoured or scented tea vary from one maker to the next, so read the ingredient list and brew it like its base tea.",
+  "wikipedia_title": null,
+  "wikipedia_scope": "none",
+  "popularity": 1,
+  "name_zh": "雪菊普洱",
+  "name_ru": "Шу пуэр со снежной хризантемой",
+  "history": null,
+  "liquor_hex": "#5A2A10",
+  "leaf_hex": "#33241A",
+  "sources": [
+    "https://www.yunnansourcing.com/products.json?limit=250&page=1"
+  ],
+  "confidence": "low",
+  "images": [],
+  "stub": true,
+  "processing": "A ripe pu-erh base tea flavoured or scented by the maker; the recipe varies.",
+  "harvest_season": "The base tea can come from any picking, so the season matters less than the recipe.",
+  "appearance_dry": "Usually dark brown leaf, loose or pressed.",
+  "appearance_liquor": "Usually a dark red-brown.",
+  "appearance_wet": "Usually soft dark brown leaf.",
+  "taste_profile": "Expect what ripe pu-erh usually gives: smooth, earthy and sweet.",
+  "vintage_note": "Flavoured and scented teas are not sold by vintage. Buy recent stock and drink it within a year or so, since the aroma fades."
+}

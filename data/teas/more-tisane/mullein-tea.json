@@ -1,0 +1,54 @@
+{
+  "slug": "mullein-tea",
+  "name_en": "Mullein Tea (Gordolobo)",
+  "name_native": null,
+  "name_romanized": null,
+  "aliases": [
+    "Mullein",
+    "Mullein tea",
+    "Коровяк",
+    "Коровяк обыкновенный"
+  ],
+  "category": "tisane",
+  "origin_country": "Europe",
+  "origin_region": "Europe",
+  "cultivar": null,
+  "form": "loose",
+  "caffeine_level": "none",
+  "brewing": {
+    "grams": 2,
+    "water_ml": 200,
+    "temp_c": 100,
+    "steeps": 1,
+    "seconds": [
+      300
+    ],
+    "notes": "A common starting point for herbal infusions: boiling water, about five minutes."
+  },
+  "taste_tags": [
+    "herbal"
+  ],
+  "description": "A herbal infusion made with the dried flowers of mullein. Great mullein (Verbascum thapsus) is native to Europe, northern Africa and Asia, and has been introduced elsewhere.\n\nBrew it as you would other herbal infusions. If the plant is new to you, check that it is safe for you first, especially when pregnant or on medication.",
+  "wikipedia_title": null,
+  "wikipedia_scope": "none",
+  "popularity": 1,
+  "name_zh": "毛蕊花茶",
+  "name_ru": "Коровяк (гордолобо)",
+  "history": null,
+  "liquor_hex": "#E0C66A",
+  "leaf_hex": "#B9A24A",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Herbal_tea",
+    "https://en.wikipedia.org/wiki/Verbascum_thapsus"
+  ],
+  "confidence": "low",
+  "images": [],
+  "stub": true,
+  "processing": "Dried plant material, as with most herbal infusions.",
+  "harvest_season": "Depends on the plant and the place.",
+  "appearance_dry": "Dried plant material.",
+  "appearance_liquor": "Depends on the plant; usually pale to amber.",
+  "appearance_wet": "Softened plant material.",
+  "taste_profile": "A herbal infusion; the taste depends on the plant.",
+  "vintage_note": "Herbal infusions are not sold by vintage: buy recent stock and use it within a year or so."
+}

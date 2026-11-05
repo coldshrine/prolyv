@@ -10,7 +10,11 @@
     "Kamairi-cha",
     "釜炒り茶",
     "Pan-fired tamaryokucha",
-    "Камаири-тя"
+    "Камаири-тя",
+    "Kamaguri-cha",
+    "釜ぐり茶",
+    "Камагури-тя",
+    "Kamairi-sei tamaryokucha"
   ],
   "category": "green",
   "origin_country": "Japan",
@@ -50,11 +54,33 @@
     "https://www.bunka.go.jp/seisaku/bunkazai/joseishien/syokubunka_story/pdf/94414901_32.pdf",
     "https://ja.wikipedia.org/wiki/%E8%8C%B6",
     "https://furunavi.jp/product_detail.aspx?pid=194951",
-    "https://myjapanesegreentea.com/the-izumi-tea-cultivar"
+    "https://myjapanesegreentea.com/the-izumi-tea-cultivar",
+    "https://ja.wikipedia.org/wiki/釜炒り茶"
   ],
   "confidence": "medium",
   "wikipedia_title": null,
   "wikipedia_scope": "none",
   "popularity": 3,
-  "images": []
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7c/Kamairicha.jpg/1280px-Kamairicha.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7c/Kamairicha.jpg/330px-Kamairicha.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Kamairicha.jpg",
+      "author": "Difference engine",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "kind": "dry_leaf",
+      "alt": "Pile of curled dark green pan-fired kamairicha leaves on a white background"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cb/Two_small_tasting_cups_of_kamairicha.jpg/1280px-Two_small_tasting_cups_of_kamairicha.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cb/Two_small_tasting_cups_of_kamairicha.jpg/330px-Two_small_tasting_cups_of_kamairicha.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Two_small_tasting_cups_of_kamairicha.jpg",
+      "author": "Difference engine",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "kind": "liquor",
+      "alt": "Two small white tasting cups of pale yellow-green kamairicha"
+    }
+  ]
 }

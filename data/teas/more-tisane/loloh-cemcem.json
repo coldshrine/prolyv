@@ -1,0 +1,50 @@
+{
+  "slug": "loloh-cemcem",
+  "name_en": "Loloh Cemcem",
+  "name_native": null,
+  "name_romanized": null,
+  "aliases": [],
+  "category": "tisane",
+  "origin_country": "Indonesia",
+  "origin_region": "Bali · Penglipuran",
+  "cultivar": null,
+  "form": "other",
+  "caffeine_level": "none",
+  "brewing": {
+    "grams": 2,
+    "water_ml": 200,
+    "temp_c": 100,
+    "steeps": 1,
+    "seconds": [
+      300
+    ],
+    "notes": "A common starting point for herbal infusions: boiling water, about five minutes."
+  },
+  "taste_tags": [
+    "tart",
+    "sweet",
+    "spicy"
+  ],
+  "description": "A Balinese jamu made from the leaves of the forest kedondong (kecemcem), rather than the turmeric or temulawak of most jamu. Households in Penglipuran village make it and bottle it for sale across Bali.\n\nBrew it as you would other herbal infusions. If the plant is new to you, check that it is safe for you first, especially when pregnant or on medication.",
+  "wikipedia_title": null,
+  "wikipedia_scope": "none",
+  "popularity": 1,
+  "name_zh": "巴厘岛槟榔青叶饮",
+  "name_ru": "Лолох чемчем",
+  "history": "It is said to date from the colonial period, when it was taken for internal heat, and became widely known in Indonesia only in 2014-2015.",
+  "liquor_hex": "#8E9A3E",
+  "leaf_hex": "#4F6B2E",
+  "sources": [
+    "https://id.wikipedia.org/wiki/Loloh_Cemcem"
+  ],
+  "confidence": "medium",
+  "images": [],
+  "stub": true,
+  "processing": "Young and old kedondong leaves are pounded or blended and strained, then the juice is mixed with coconut water and boiled rujak seasoning.",
+  "harvest_season": "Depends on the plant and the place.",
+  "appearance_dry": "Dried plant material.",
+  "appearance_liquor": "Depends on the plant; usually pale to amber.",
+  "appearance_wet": "Softened plant material.",
+  "taste_profile": "An unusual mix of sour, sweet and hot, with a salty note from the coconut.",
+  "vintage_note": "Herbal infusions are not sold by vintage: buy recent stock and use it within a year or so."
+}

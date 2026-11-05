@@ -1,0 +1,51 @@
+{
+  "slug": "shuifu-kuding-cha",
+  "name_en": "Shuifu Kuding Cha",
+  "name_native": "水富苦丁茶",
+  "name_romanized": "Shuǐfù Kǔdīng Chá",
+  "aliases": [
+    "Shuifukudingcha"
+  ],
+  "category": "tisane",
+  "origin_country": "China",
+  "origin_region": "Yunnan · Zhaotong Shuifu",
+  "cultivar": null,
+  "form": "loose",
+  "caffeine_level": "none",
+  "brewing": {
+    "grams": 2,
+    "water_ml": 200,
+    "temp_c": 100,
+    "steeps": 1,
+    "seconds": [
+      300
+    ],
+    "notes": "A common starting point for herbal infusions: boiling water, about five minutes."
+  },
+  "taste_tags": [
+    "bitter",
+    "sweet"
+  ],
+  "description": "A large-leaf holly kuding from Shuifu in Zhaotong, Yunnan.\n\nBrew it as you would other herbal infusions. If the plant is new to you, check that it is safe for you first, especially when pregnant or on medication.",
+  "wikipedia_title": null,
+  "wikipedia_scope": "none",
+  "popularity": 1,
+  "name_zh": "水富苦丁茶",
+  "name_ru": "Шуй Фу Ку Дин Ча",
+  "history": "Its link to Shuifu is recorded. Little more is documented about it.",
+  "liquor_hex": "#B9C26A",
+  "leaf_hex": "#1F2A1C",
+  "sources": [
+    "https://milulu.com.cn/techan/32781.html"
+  ],
+  "confidence": "low",
+  "images": [],
+  "stub": true,
+  "processing": "Dried plant material, as with most herbal infusions.",
+  "harvest_season": "Depends on the plant and the place.",
+  "appearance_dry": "Dark, blackish single leaves.",
+  "appearance_liquor": "Depends on the plant; usually pale to amber.",
+  "appearance_wet": "Softened plant material.",
+  "taste_profile": "Bitter on entry, then sweet.",
+  "vintage_note": "Herbal infusions are not sold by vintage: buy recent stock and use it within a year or so."
+}

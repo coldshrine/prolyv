@@ -16,7 +16,7 @@
   "cultivar": null,
   "processing": "Handled in the usual Darjeeling way for black tea: withered, rolled, oxidised and dried, with oxidation rising from spring into summer and autumn.",
   "form": "loose",
-  "harvest_season": "As across Darjeeling, first flush in spring, second flush in early summer and an autumn picking; autumn lots of this garden are sold by Western retailers.",
+  "harvest_season": "As across Darjeeling, first flush in spring, second flush in early summer and an autumn picking.",
   "appearance_dry": "Typical of whole-leaf Darjeeling: wiry leaf in mixed greens and browns, darker in autumn.",
   "appearance_liquor": "Pale gold in spring, amber to copper in summer and autumn.",
   "appearance_wet": "Mixed green and copper leaf, browner in later flushes.",
@@ -38,15 +38,14 @@
     "notes": "Western style. Cooler and shorter for spring lots; autumn lots take water close to boiling."
   },
   "caffeine_level": "medium",
-  "vintage_note": "Sold by flush and year, often with a leaf grade such as SFTGFOP1. The grade describes leaf and not flavour, so choose by flush first. Drink spring lots within about a year.",
-  "description": "Margaret's Hope lies in the northern valley of Kurseong, near the Longview Highlands, and is one of the best-known names in Darjeeling, partly because of the sad story behind it. It is now part of the Goodricke Group, alongside Castleton and Thurbo.\n\nThe tea follows the normal Darjeeling route from withering to drying, with seasons shaping it most. You can find it from different flushes, including autumn lots sold by Western tea shops.\n\nLittle is documented about a distinct house flavour, so go by flush. Spring teas usually want gentler water, while autumn teas can take something close to boiling and stand up better to a long steep.\n\nLong grade strings like SFTGFOP1 are common here and tell you about the leaf, not the taste. The flush and year matter more.",
+  "vintage_note": "Sold by flush and year, as with other Darjeeling gardens, so choose by flush first. Drink spring lots within about a year.",
+  "description": "Margaret's Hope lies in the northern valley of Kurseong, near the Longview Highlands, and is one of the best-known names in Darjeeling, partly because of the sad story behind it. It is now part of the Goodricke Group, alongside Castleton and Thurbo.\n\nThe tea follows the normal Darjeeling route from withering to drying, with seasons shaping it most.\n\nLittle is documented about a distinct house flavour, so go by flush. Spring teas usually want gentler water, while autumn teas can take something close to boiling and stand up better to a long steep.\n\nWhen buying, the flush and year matter more than the garden name alone.",
   "history": "The garden began in the 1830s by one account and became commercially viable in 1864, when it was known as Bara Ringtong. It took its present name in the 1920s, and John Taylor built the current factory in 1930.\n\nThe name carries a story told as a family tragedy: an owner's youngest daughter, Margaret, loved the place and promised to come back, but died of a tropical illness on the voyage home, and her father renamed the estate for her. Accounts disagree on whether the owner was Cruickshank or Bagdon, so take the details lightly.",
   "liquor_hex": "#C48A3A",
   "leaf_hex": "#5A4C33",
   "sources": [
     "https://en.wikipedia.org/wiki/Margaret%27s_Hope_Tea_Estate",
     "https://en.wikipedia.org/wiki/Thurbo_Tea_Estate",
-    "https://www.elmwoodinn.com/products/darjeeling-autumnal-sftgfop1-margarets-hope-estate",
     "https://happyearthtea.com/blogs/tea-101/darjeeling-tea-gardens"
   ],
   "confidence": "medium",

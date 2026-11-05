@@ -41,15 +41,26 @@
   "caffeine_level": "medium",
   "vintage_note": "There is no documented regular market for it as a defined grade. A tea sold under this name is best treated like other Fuding whites, by harvest year, fresh or stored, and you should ask what the seller means by it.",
   "description": "Lü Xue Ya, Green Snow Bud, is one of the oldest names tied to Fuding white tea: both a historical tea of Taimu Shan and an old tree by Hongxue Cave. It matters more as a piece of history than as something you can reliably buy.\n\nThe old writing does not give a recipe. It praises colour and fragrance and rates the Hongxue Cave tea best. White tea from the area today is withered and dried without rolling, but that cannot simply be read back onto the historic tea.\n\nTasting notes for a tea under this name are not documented in any useful way. Expect a Fuding white in the general sweet and softly floral style, and judge the actual lot.\n\nIf you see the name for sale, ask whether it is a place, a cultivar or just a poetic label. For learning what Fuding can do, a named silver needle with a clear year is a more certain place to start.",
-  "history": "The name appears in Zhou Lianggong's Qing work Min Xiao Ji, in his Min tea songs, and the Republic-era gazetteer of Taimu Shan repeats that Lü Xue Ya is now called bai hao, with the Hongxue Cave tea the finest.\n\nBy local legend the old tree at the cave was planted by Taimu herself, and another legend has Chen Huan of Bailiu told in a dream to grow it. Records date his moving plants home to 1857, though some tellings set it in the Guangxu years. A tree at the cave is still shown as this mother plant, and that identification rests on local tradition.",
+  "history": "The name appears in Zhou Lianggong's Qing work Min Xiao Ji, in his Min tea songs, and the Republic-era gazetteer of Taimu Shan repeats that Lü Xue Ya is now called bai hao, with the Hongxue Cave tea the finest.\n\nLocal legends about the tree differ from telling to telling and are not history. Records date the moving of plants home by Chen Huan and Zhang Xiaqin of Bailiu to 1857. A tree at the cave is still shown as the mother plant, and that identification rests on local tradition.",
   "liquor_hex": "#E6D69A",
   "leaf_hex": "#C2C6AE",
   "sources": [
     "https://m.bjnews.com.cn/detail/1673493009168199.html",
     "https://www.ihchina.cn/project_details/14724.html"
   ],
-  "confidence": "medium",
-  "images": [],
+  "confidence": "low",
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d3/Luxueya%2C_White_tea_tree.jpg/1280px-Luxueya%2C_White_tea_tree.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d3/Luxueya%2C_White_tea_tree.jpg/330px-Luxueya%2C_White_tea_tree.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Luxueya,_White_tea_tree.jpg",
+      "author": "颐园居",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "kind": "plant",
+      "alt": "Lü Xue Ya tea bush growing among rocks at Taimu Shan, beside a carved inscription"
+    }
+  ],
   "wikipedia_title": null,
   "wikipedia_scope": "none",
   "popularity": 2

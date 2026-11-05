@@ -1,0 +1,57 @@
+{
+  "slug": "shu-puerh-lao-cha-tou-brick",
+  "name_en": "Lao Cha Tou Brick",
+  "name_native": "老茶头砖",
+  "name_romanized": "lǎo chá tóu zhuān",
+  "aliases": [
+    "Menghai Lao Cha Tou Brick"
+  ],
+  "category": "shu",
+  "origin_country": "China",
+  "origin_region": "Yunnan · Menghai",
+  "cultivar": null,
+  "form": "brick",
+  "caffeine_level": "medium",
+  "brewing": {
+    "grams": 6,
+    "water_ml": 110,
+    "temp_c": 100,
+    "steeps": 7,
+    "seconds": [
+      10,
+      10,
+      15,
+      20,
+      30,
+      40,
+      60
+    ],
+    "notes": "A safe starting point for ripe pu-erh: rinse once or twice, boiling water."
+  },
+  "taste_tags": [
+    "earthy",
+    "sweet"
+  ],
+  "description": "A brick of ripe pu-erh sold under the name lao cha tou, associated with Menghai in Yunnan.\n\nTreat it as you would any ripe pu-erh: rinse it, use boiling water, and let a young cake air out if it smells of the fermentation pile.",
+  "wikipedia_title": null,
+  "wikipedia_scope": "none",
+  "popularity": 1,
+  "name_zh": "老茶头砖",
+  "name_ru": "Лао Ча Тоу Чжуань",
+  "history": null,
+  "liquor_hex": "#3B1A0C",
+  "leaf_hex": "#2E1D14",
+  "sources": [
+    "https://yunnansourcing.com/collections/menghai-tea-factory-pu-erh/products.json?limit=250&page=1"
+  ],
+  "confidence": "low",
+  "images": [],
+  "stub": true,
+  "processing": "Typical of ripe pu-erh: mao cha is piled, kept damp and fermented for weeks, then dried and often pressed.",
+  "harvest_season": "Made from mao cha of various pickings; the season matters less than the fermentation.",
+  "appearance_dry": "Usually dark brown leaf, loose or pressed.",
+  "appearance_liquor": "Usually a dark red-brown.",
+  "appearance_wet": "Usually soft dark brown leaf.",
+  "taste_profile": "Expect what ripe pu-erh usually gives: smooth, earthy and sweet.",
+  "vintage_note": "Ripe pu-erh is sold by production year, usually drunk at 1 to 10 years; the first year or two often still carries a fermentation smell."
+}

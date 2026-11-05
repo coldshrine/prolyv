@@ -1,0 +1,59 @@
+{
+  "slug": "mauby",
+  "name_en": "Mauby",
+  "name_native": "Mauby",
+  "name_romanized": null,
+  "aliases": [
+    "Mabi",
+    "Maví",
+    "Mavi",
+    "Mobi",
+    "Maubi",
+    "Madi",
+    "Моби",
+    "Мави"
+  ],
+  "category": "tisane",
+  "origin_country": "Trinidad and Tobago",
+  "origin_region": "Caribbean",
+  "cultivar": null,
+  "form": "other",
+  "caffeine_level": "none",
+  "brewing": {
+    "grams": 2,
+    "water_ml": 200,
+    "temp_c": 100,
+    "steeps": 1,
+    "seconds": [
+      300
+    ],
+    "notes": "A common starting point for herbal infusions: boiling water, about five minutes."
+  },
+  "taste_tags": [
+    "sweet",
+    "bitter",
+    "spicy"
+  ],
+  "description": "A sweetened Caribbean drink made from the bark or fruit of Colubrina trees, usually spiced, often with aniseed. It goes by mauby in the English-speaking islands, mavi in the Spanish-speaking ones and mabi in the French-speaking ones.\n\nBrew it as you would other herbal infusions. If the plant is new to you, check that it is safe for you first, especially when pregnant or on medication.",
+  "wikipedia_title": null,
+  "wikipedia_scope": "none",
+  "popularity": 1,
+  "name_zh": "加勒比树皮饮",
+  "name_ru": "Мауби",
+  "history": "It began as a home-fermented drink made in small batches and is now mostly a commercial, unfermented soft drink, often sold as a syrup to dilute, though home and street versions persist. In Puerto Rico the fermented, foaming style is called mavi champán. It can have a laxative effect on first-time drinkers.",
+  "liquor_hex": "#6B3A1C",
+  "leaf_hex": "#6A4A30",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Mauby"
+  ],
+  "confidence": "medium",
+  "images": [],
+  "stub": true,
+  "processing": "Dried plant material, as with most herbal infusions.",
+  "harvest_season": "Depends on the plant and the place.",
+  "appearance_dry": "Dried plant material.",
+  "appearance_liquor": "Depends on the plant; usually pale to amber.",
+  "appearance_wet": "Softened plant material.",
+  "taste_profile": "Sweet at first, somewhat like root beer or sarsaparilla, turning into a long bitter finish without astringency.",
+  "vintage_note": "Herbal infusions are not sold by vintage: buy recent stock and use it within a year or so."
+}

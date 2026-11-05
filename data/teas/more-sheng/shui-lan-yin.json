@@ -1,0 +1,58 @@
+{
+  "slug": "shui-lan-yin",
+  "name_en": "Shui Lan Yin",
+  "name_native": "水蓝印",
+  "name_romanized": "Shuǐ Lán Yìn",
+  "aliases": [
+    "Water Blue Label",
+    "水藍印"
+  ],
+  "category": "sheng",
+  "origin_country": "China",
+  "origin_region": "Yunnan",
+  "cultivar": null,
+  "form": "cake",
+  "caffeine_level": "high",
+  "brewing": {
+    "grams": 6,
+    "water_ml": 110,
+    "temp_c": 95,
+    "steeps": 7,
+    "seconds": [
+      10,
+      10,
+      15,
+      20,
+      25,
+      35,
+      50
+    ],
+    "notes": "A safe starting point for raw pu-erh: rinse once, gongfu style, short early steeps."
+  },
+  "taste_tags": [
+    "bitter",
+    "sweet"
+  ],
+  "description": "The name, literally Water Blue Label, refers to pu-erh from factories in the 1990s.\n\nThis is a way of preparing tea more than a tea you buy under one name, so the recipe and the base tea change from one maker to the next.",
+  "wikipedia_title": null,
+  "wikipedia_scope": "none",
+  "popularity": 1,
+  "name_zh": "水蓝印",
+  "name_ru": "Шуй Лань Инь",
+  "history": "The term is tied to the 1990s factory era of pu-erh. Little more is documented about it.",
+  "liquor_hex": "#BE9536",
+  "leaf_hex": "#55523A",
+  "sources": [
+    "https://babelcarp.org/babelcarp/babelcarp.cgi?phrase=Shui%20Lan%20Yin"
+  ],
+  "confidence": "low",
+  "images": [],
+  "stub": true,
+  "processing": "Made from a raw pu-erh base tea according to the recipe; the method varies.",
+  "harvest_season": "Not tied to a harvest: it depends on the base tea.",
+  "appearance_dry": "Usually a pressed cake of silvery-green to brown leaf, darkening with age.",
+  "appearance_liquor": "Usually pale gold when young, deepening to amber with age.",
+  "appearance_wet": "Usually thick, large leaf.",
+  "taste_profile": "Expect what young raw pu-erh usually gives: bright, bitter-sweet and full, mellowing with age.",
+  "vintage_note": "Not sold by vintage: it is made from whatever base tea the maker keeps, so freshness of the base matters more than the year."
+}

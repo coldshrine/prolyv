@@ -1,0 +1,58 @@
+{
+  "slug": "chongqing-teji-tuocha",
+  "name_en": "Chongqing Teji Tuocha",
+  "name_native": "重庆特级沱茶",
+  "name_romanized": "Chóngqìng Tèjí Tuóchá",
+  "aliases": [
+    "Chongqing Te Ji Tuo Cha",
+    "重慶特級沱茶"
+  ],
+  "category": "sheng",
+  "origin_country": "China",
+  "origin_region": "Chongqing",
+  "cultivar": null,
+  "form": "tuo",
+  "caffeine_level": "high",
+  "brewing": {
+    "grams": 6,
+    "water_ml": 110,
+    "temp_c": 95,
+    "steeps": 7,
+    "seconds": [
+      10,
+      10,
+      15,
+      20,
+      25,
+      35,
+      50
+    ],
+    "notes": "A safe starting point for raw pu-erh: rinse once, gongfu style, short early steeps."
+  },
+  "taste_tags": [
+    "bitter",
+    "sweet"
+  ],
+  "description": "A raw tuocha carrying the name of Chongqing and the grade word teji.\n\nThis is a way of preparing tea more than a tea you buy under one name, so the recipe and the base tea change from one maker to the next.",
+  "wikipedia_title": null,
+  "wikipedia_scope": "none",
+  "popularity": 1,
+  "name_zh": "重庆特级沱茶",
+  "name_ru": "Чун Цин Тэ Цзи То Ча",
+  "history": "A 2002 raw pressing sold under this name is the one firm trace of it. Little more is documented.",
+  "liquor_hex": "#C29A3A",
+  "leaf_hex": "#57553A",
+  "sources": [
+    "https://yunnansourcing.com/collections/cnnp-china-national-native-products"
+  ],
+  "confidence": "low",
+  "images": [],
+  "stub": true,
+  "processing": "Made from a raw pu-erh base tea according to the recipe; the method varies.",
+  "harvest_season": "Not tied to a harvest: it depends on the base tea.",
+  "appearance_dry": "Usually a pressed cake of silvery-green to brown leaf, darkening with age.",
+  "appearance_liquor": "Usually pale gold when young, deepening to amber with age.",
+  "appearance_wet": "Usually thick, large leaf.",
+  "taste_profile": "Expect what young raw pu-erh usually gives: bright, bitter-sweet and full, mellowing with age.",
+  "vintage_note": "A 2002 raw pressing is known."
+}

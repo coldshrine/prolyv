@@ -1,0 +1,54 @@
+{
+  "slug": "snow-pear-tea",
+  "name_en": "Xue Li Cha (Snow Pear Tea)",
+  "name_native": "雪梨茶",
+  "name_romanized": "xuě lí chá",
+  "aliases": [
+    "Snow pear tea",
+    "Xueli cha (snow pear tea)"
+  ],
+  "category": "tisane",
+  "origin_country": "China",
+  "origin_region": "Guangdong",
+  "cultivar": null,
+  "form": "other",
+  "caffeine_level": "none",
+  "brewing": {
+    "grams": 2,
+    "water_ml": 200,
+    "temp_c": 100,
+    "steeps": 1,
+    "seconds": [
+      300
+    ],
+    "notes": "A common starting point for herbal infusions: boiling water, about five minutes."
+  },
+  "taste_tags": [
+    "fruity",
+    "sweet"
+  ],
+  "description": "A sweet drink of fresh snow pear slowly simmered with rock sugar, sold at ordinary liangcha shops and easily made at home. It is favoured in dry seasons as a throat soother.\n\nBrew it as you would other herbal infusions. If the plant is new to you, check that it is safe for you first, especially when pregnant or on medication.",
+  "wikipedia_title": null,
+  "wikipedia_scope": "none",
+  "popularity": 1,
+  "name_zh": "雪梨茶",
+  "name_ru": "Сюэ Ли Ча",
+  "history": null,
+  "liquor_hex": "#E6D49A",
+  "leaf_hex": "#D9C48A",
+  "sources": [
+    "https://zh.wikipedia.org/wiki/%E9%9B%AA%E6%A2%A8%E8%8C%B6",
+    "https://www.wikidata.org/wiki/Q4503760",
+    "https://zh.wikipedia.org/wiki/%E6%B6%BC%E8%8C%B6"
+  ],
+  "confidence": "low",
+  "images": [],
+  "stub": true,
+  "processing": "Fresh pear is slow-cooked with rock sugar and may be chilled afterwards.",
+  "harvest_season": "Depends on the plant and the place.",
+  "appearance_dry": "Dried plant material.",
+  "appearance_liquor": "Depends on the plant; usually pale to amber.",
+  "appearance_wet": "Softened plant material.",
+  "taste_profile": "Clean and sweet.",
+  "vintage_note": "Herbal infusions are not sold by vintage: buy recent stock and use it within a year or so."
+}

@@ -1,0 +1,53 @@
+{
+  "slug": "kashayam",
+  "name_en": "Kashayam",
+  "name_native": "कषायम्",
+  "name_romanized": "kaṣāyaṁ",
+  "aliases": [
+    "Kwath",
+    "Kadha"
+  ],
+  "category": "tisane",
+  "origin_country": "India",
+  "origin_region": "South India",
+  "cultivar": null,
+  "form": "other",
+  "caffeine_level": "none",
+  "brewing": {
+    "grams": 2,
+    "water_ml": 200,
+    "temp_c": 100,
+    "steeps": 1,
+    "seconds": [
+      300
+    ],
+    "notes": "A common starting point for herbal infusions: boiling water, about five minutes."
+  },
+  "taste_tags": [
+    "bitter",
+    "medicinal",
+    "spicy"
+  ],
+  "description": "An Ayurvedic term for a water decoction of one herb or several, not one particular remedy. It is used mainly in southern Indian states and West Bengal, and is known elsewhere in India as kwath or kadha.\n\nBrew it as you would other herbal infusions. If the plant is new to you, check that it is safe for you first, especially when pregnant or on medication.",
+  "wikipedia_title": null,
+  "wikipedia_scope": "none",
+  "popularity": 1,
+  "name_zh": "印度草药煎剂",
+  "name_ru": "Кашаям",
+  "history": "Described as an old form of Ayurvedic medicine, it is used for complaints such as indigestion, cough and colds. Common ingredients include tulsi, ginger, neem leaves, cinnamon, cloves and long pepper. No more precise history is documented.",
+  "liquor_hex": "#5A3216",
+  "leaf_hex": "#4A3A22",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Kashayam"
+  ],
+  "confidence": "low",
+  "images": [],
+  "stub": true,
+  "processing": "Herbs and spices are extracted in water as a decoction.",
+  "harvest_season": "Depends on the plant and the place.",
+  "appearance_dry": "Dried plant material.",
+  "appearance_liquor": "Dark.",
+  "appearance_wet": "Softened plant material.",
+  "taste_profile": "Many versions are very bitter.",
+  "vintage_note": "Herbal infusions are not sold by vintage: buy recent stock and use it within a year or so."
+}

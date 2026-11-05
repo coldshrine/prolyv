@@ -1,0 +1,55 @@
+{
+  "slug": "ume-kombu-cha",
+  "name_en": "Ume Kombu-cha",
+  "name_native": "梅昆布茶",
+  "name_romanized": "ume kobucha",
+  "aliases": [
+    "Ume kobucha",
+    "Ume konbucha",
+    "Plum kelp tea"
+  ],
+  "category": "tisane",
+  "origin_country": "Japan",
+  "origin_region": "Japan",
+  "cultivar": null,
+  "form": "powder",
+  "caffeine_level": "none",
+  "brewing": {
+    "grams": 2,
+    "water_ml": 200,
+    "temp_c": 100,
+    "steeps": 1,
+    "seconds": [
+      300
+    ],
+    "notes": "A common starting point for herbal infusions: boiling water, about five minutes."
+  },
+  "taste_tags": [
+    "umami",
+    "marine",
+    "tart"
+  ],
+  "description": "Japanese instant kelp tea mixed with dried or freeze-dried pickled plum, dissolved in hot water. It contains no leaf from the tea plant.\n\nBrew it as you would other herbal infusions. If the plant is new to you, check that it is safe for you first, especially when pregnant or on medication.",
+  "wikipedia_title": null,
+  "wikipedia_scope": "none",
+  "popularity": 1,
+  "name_zh": "梅昆布茶",
+  "name_ru": "Умэ-кобу-тя",
+  "history": "Kelp infusions go back at least to the Edo period, and powdered kelp tea was created in 1918 by Umazo Fujita, founder of Gyokuroen. The plum version is sometimes used for fuku-cha, the good-fortune drink of New Year and other festive occasions, and a variant with chili also exists. It has nothing to do with the fermented drink called kombucha in the West.",
+  "liquor_hex": "#C9B36A",
+  "leaf_hex": "#6E6A3C",
+  "sources": [
+    "https://ja.wikipedia.org/wiki/%E6%98%86%E5%B8%83%E8%8C%B6",
+    "https://en.wikipedia.org/wiki/Kelp_tea"
+  ],
+  "confidence": "medium",
+  "images": [],
+  "stub": true,
+  "processing": "Powdered or diced kelp tea combined with dried plum flesh or freeze-dried plum powder; seasonings such as salt and sugar may be added.",
+  "harvest_season": "Depends on the plant and the place.",
+  "appearance_dry": "Dried plant material.",
+  "appearance_liquor": "Depends on the plant; usually pale to amber.",
+  "appearance_wet": "Softened plant material.",
+  "taste_profile": "A herbal infusion; the taste depends on the plant.",
+  "vintage_note": "Herbal infusions are not sold by vintage: buy recent stock and use it within a year or so."
+}

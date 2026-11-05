@@ -1,0 +1,57 @@
+{
+  "slug": "shu-puerh-ma-guo-tou",
+  "name_en": "Ma Guo Tou",
+  "name_native": "马锅头",
+  "name_romanized": "Mǎ Guō Tóu",
+  "aliases": [
+    "Caravan Leader"
+  ],
+  "category": "shu",
+  "origin_country": "China",
+  "origin_region": "Yunnan",
+  "cultivar": null,
+  "form": "other",
+  "caffeine_level": "medium",
+  "brewing": {
+    "grams": 6,
+    "water_ml": 110,
+    "temp_c": 100,
+    "steeps": 7,
+    "seconds": [
+      10,
+      10,
+      15,
+      20,
+      30,
+      40,
+      60
+    ],
+    "notes": "A safe starting point for ripe pu-erh: rinse once or twice, boiling water."
+  },
+  "taste_tags": [
+    "earthy",
+    "sweet"
+  ],
+  "description": "A ripe pu-erh from Yunnan whose name means caravan leader.\n\nThis is a way of preparing tea more than a tea you buy under one name, so the recipe and the base tea change from one maker to the next.",
+  "wikipedia_title": null,
+  "wikipedia_scope": "none",
+  "popularity": 1,
+  "name_zh": "马锅头",
+  "name_ru": "Ма Го Тоу",
+  "history": "A 2012 production is known. Little more is documented about it.",
+  "liquor_hex": "#3B1A0C",
+  "leaf_hex": "#2E1D14",
+  "sources": [
+    "https://sevencups.com/shop-category/puer-tea/"
+  ],
+  "confidence": "low",
+  "images": [],
+  "stub": true,
+  "processing": "Made from a ripe pu-erh base tea according to the recipe; the method varies.",
+  "harvest_season": "Not tied to a harvest: it depends on the base tea.",
+  "appearance_dry": "Usually dark brown leaf, loose or pressed.",
+  "appearance_liquor": "Usually a dark red-brown.",
+  "appearance_wet": "Usually soft dark brown leaf.",
+  "taste_profile": "Expect what ripe pu-erh usually gives: smooth, earthy and sweet.",
+  "vintage_note": "A 2012 production is known."
+}

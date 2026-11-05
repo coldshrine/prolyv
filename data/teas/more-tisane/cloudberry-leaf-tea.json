@@ -1,0 +1,51 @@
+{
+  "slug": "cloudberry-leaf-tea",
+  "name_en": "Cloudberry Leaf Tea",
+  "name_native": "чай из листьев морошки",
+  "name_romanized": null,
+  "aliases": [
+    "морошка",
+    "Rubus chamaemorus"
+  ],
+  "category": "tisane",
+  "origin_country": "Russia",
+  "origin_region": "Russia",
+  "cultivar": null,
+  "form": "loose",
+  "caffeine_level": "none",
+  "brewing": {
+    "grams": 2,
+    "water_ml": 200,
+    "temp_c": 100,
+    "steeps": 1,
+    "seconds": [
+      300
+    ],
+    "notes": "A common starting point for herbal infusions: boiling water, about five minutes."
+  },
+  "taste_tags": [
+    "herbal"
+  ],
+  "description": "A herbal tea from the leaves of cloudberry (Rubus chamaemorus), a perennial of the rose family that grows across the far north of the Northern Hemisphere.\n\nBrew it as you would other herbal infusions. If the plant is new to you, check that it is safe for you first, especially when pregnant or on medication.",
+  "wikipedia_title": null,
+  "wikipedia_scope": "none",
+  "popularity": 1,
+  "name_zh": "云莓叶茶",
+  "name_ru": "Чай из листьев морошки",
+  "history": null,
+  "liquor_hex": "#CDB868",
+  "leaf_hex": "#5E7040",
+  "sources": [
+    "https://ru.wikipedia.org/wiki/%D0%9C%D0%BE%D1%80%D0%BE%D1%88%D0%BA%D0%B0_%D0%BF%D1%80%D0%B8%D0%B7%D0%B5%D0%BC%D0%B8%D1%81%D1%82%D0%B0%D1%8F"
+  ],
+  "confidence": "low",
+  "images": [],
+  "stub": true,
+  "processing": "Dried plant material, as with most herbal infusions.",
+  "harvest_season": "Depends on the plant and the place.",
+  "appearance_dry": "Dried plant material.",
+  "appearance_liquor": "Depends on the plant; usually pale to amber.",
+  "appearance_wet": "Softened plant material.",
+  "taste_profile": "A herbal infusion; the taste depends on the plant.",
+  "vintage_note": "Herbal infusions are not sold by vintage: buy recent stock and use it within a year or so."
+}

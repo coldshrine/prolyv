@@ -57,5 +57,36 @@
   "wikipedia_title": "Coffee cherry tea",
   "wikipedia_scope": "exact",
   "popularity": 3,
-  "images": []
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a2/Cascara%2C_Coffee_cherry_tea-6448.jpg/1280px-Cascara%2C_Coffee_cherry_tea-6448.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a2/Cascara%2C_Coffee_cherry_tea-6448.jpg/330px-Cascara%2C_Coffee_cherry_tea-6448.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Cascara,_Coffee_cherry_tea-6448.jpg",
+      "author": "Raimond Spekking",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "kind": "dry_leaf",
+      "alt": "Close view of dried dark reddish-brown coffee cherry skins"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/16/Cascara%2C_Coffee_cherry_tea-6467.jpg/1280px-Cascara%2C_Coffee_cherry_tea-6467.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/16/Cascara%2C_Coffee_cherry_tea-6467.jpg/330px-Cascara%2C_Coffee_cherry_tea-6467.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Cascara,_Coffee_cherry_tea-6467.jpg",
+      "author": "Raimond Spekking",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "kind": "liquor",
+      "alt": "Glass of clear amber cascara beside dried husks and a cast-iron teapot"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/dc/Cascara%2C_Coffee_cherry_tea-6464.jpg/1280px-Cascara%2C_Coffee_cherry_tea-6464.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/dc/Cascara%2C_Coffee_cherry_tea-6464.jpg/330px-Cascara%2C_Coffee_cherry_tea-6464.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Cascara,_Coffee_cherry_tea-6464.jpg",
+      "author": "Raimond Spekking",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "kind": "liquor",
+      "alt": "Close view of a glass of amber cascara among dried husks with a teapot"
+    }
+  ]
 }

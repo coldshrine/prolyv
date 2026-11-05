@@ -1,0 +1,53 @@
+{
+  "slug": "yaan-huang-cha",
+  "name_en": "Ya'an Yellow Tea",
+  "name_native": "雅安黄茶",
+  "name_romanized": "Yǎ'ān Huángchá",
+  "aliases": [
+    "雅安黃茶"
+  ],
+  "category": "yellow",
+  "origin_country": "China",
+  "origin_region": "Sichuan · Ya'an",
+  "cultivar": null,
+  "form": "loose",
+  "caffeine_level": "medium",
+  "brewing": {
+    "grams": 3,
+    "water_ml": 150,
+    "temp_c": 80,
+    "steeps": 3,
+    "seconds": [
+      60,
+      75,
+      105
+    ],
+    "notes": "A safe starting point for yellow tea: treat it like a delicate green tea."
+  },
+  "taste_tags": [
+    "sweet",
+    "floral"
+  ],
+  "description": "A yellow tea from the Ya'an area of Sichuan, the home of Mengding Mountain. The name covers three grades by raw material: yellow bud tea such as Mengding Huangya, small yellow tea and large yellow tea.\n\nTreat it as you would any yellow tea: cooler water, short steeps, and a seller who can say where and when it was picked.",
+  "wikipedia_title": null,
+  "wikipedia_scope": "none",
+  "popularity": 1,
+  "name_zh": "雅安黄茶",
+  "name_ru": "Я Ань Хуан Ча",
+  "history": "It is known as a regional grouping that includes Mengding Huangya, the best-known yellow tea of the area. Little more is documented about it as a tea in its own right.",
+  "liquor_hex": "#DDD07C",
+  "leaf_hex": "#A3A858",
+  "sources": [
+    "https://milulu.com.cn/tea/3771.html"
+  ],
+  "confidence": "low",
+  "images": [],
+  "stub": true,
+  "processing": "Typical of yellow tea: made like a green tea with an added slow 'smothering' step that mellows the leaf.",
+  "harvest_season": "Usually picked in early spring, as with most yellow teas.",
+  "appearance_dry": "Yellow-green dry leaf.",
+  "appearance_liquor": "Clear, bright yellow-green.",
+  "appearance_wet": "Bright yellow-green spent leaves.",
+  "taste_profile": "Sweet aroma with a floral edge, and a sweet, mellow cup.",
+  "vintage_note": "Yellow teas are normally sold as the current year's spring harvest and are best fresh."
+}

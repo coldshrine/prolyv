@@ -25,14 +25,13 @@
   "form": "other",
   "harvest_season": "Autumn, with the Shexian picking season running into November.",
   "appearance_dry": "Small whole flower heads with white petals, a yellow centre and a green calyx.",
-  "appearance_liquor": "Clear golden yellow; a long steep can turn it greenish because of the green calyx.",
+  "appearance_liquor": "Clear golden to orange-yellow.",
   "appearance_wet": "The flower heads swell and open in the cup, with soft pale petals around a yellow centre.",
-  "taste_profile": "Clean chrysanthemum fragrance with a hint of sweetness, then a slight bitterness that resolves into a lingering sweet aftertaste.",
+  "taste_profile": "Fragrant chrysanthemum with a hint of sweetness and a lingering aftertaste.",
   "taste_tags": [
     "floral",
     "sweet",
-    "herbal",
-    "bitter"
+    "herbal"
   ],
   "brewing": {
     "grams": 2,
@@ -44,12 +43,12 @@
       240,
       300
     ],
-    "notes": "A practical starting point: a small pinch in a glass or lidded mug. Long steeps bring out bitterness and can shift the colour toward green."
+    "notes": "A practical starting point: a small pinch in a glass or lidded mug."
   },
   "caffeine_level": "none",
-  "vintage_note": "Sold by the autumn harvest, usually in small jars or bags, and like other dried flowers it is best drunk fresh rather than aged. Check for a harvest date and avoid lots with a sharp sulphur smell or flowers that look unnaturally white.",
-  "description": "Gongju is the small chrysanthemum of Shexian county near Huangshan in southern Anhui, counted among the four famous Chinese chrysanthemums alongside Hangju, Chuju and Boju. It contains no tea leaf and no caffeine: the flower is the whole drink.\n\nThe flowers are picked in autumn and dried whole. Exact methods are thinly documented, but the look is the thing to know: white petals, yellow heart, green base.\n\nIn the cup it is fragrant and lightly sweet, with a little bitterness that turns into a sweet finish. Most people overdo it: a few flowers are enough, and if the liquor goes green it has simply been sitting a long time.\n\nWhen buying, trust your nose. A pungent sulphur smell is a warning sign, and so is a white that looks too bright. Golden, clear liquor is what a good medicinal-grade chrysanthemum should give.\n\nChinese tradition treats chrysanthemum as a cooling drink, which is why some people add a few goji berries in autumn and why those with weak digestion are advised not to drink large amounts every day.",
-  "history": "Accounts from Shexian give the plant more than 800 years of cultivation, and it is now a protected geographical indication of the county. Folk tradition says Huizhou merchants of the Song dynasty brought it from Deqing in Zhejiang as an ornamental flower, and that villagers around Jinzhuling took to drinking it during a year of drought and eye ailments. That story is a legend, not a record.\n\nThe variety is still being worked on: growers in Shexian have reported declining quality in the old stock, and a local research institute began a space-seed breeding trial in 2025.",
+  "vintage_note": "Sold by the autumn harvest, and like other dried flowers it is best drunk fresh rather than aged. Check for a harvest date and avoid lots with a sharp sulphur smell.",
+  "description": "Gongju is the small chrysanthemum of Shexian county near Huangshan in southern Anhui, counted among China's four famous chrysanthemums. It contains no tea leaf and no caffeine: the flower is the whole drink.\n\nThe flowers are picked in autumn and dried whole. Exact methods are thinly documented, but the look is the thing to know: white petals, yellow heart, green base.\n\nIn the cup it is fragrant and lightly sweet, with a lingering finish. A few flowers are enough.\n\nWhen buying, trust your nose. A pungent sulphur smell is a warning sign. Golden, clear liquor is what a good medicinal-grade chrysanthemum should give.\n\nChinese tradition treats chrysanthemum as a cooling drink, which is why some people add a few goji berries in autumn.",
+  "history": "Accounts from Shexian give the plant more than 800 years of cultivation, and it is now a protected geographical indication of the county. Folk tradition says Huizhou merchants of the Song dynasty brought it from Deqing in Zhejiang as an ornamental flower, and that villagers around Jinzhuling took to drinking it during a year of drought and eye ailments. That story is a legend, not a record.\n\nThe variety is still being worked on: growers in Shexian have reported declining quality in the old stock, and a space-seed breeding trial began there in 2025.",
   "liquor_hex": "#E3C766",
   "leaf_hex": "#DAD5A8",
   "sources": [
@@ -62,6 +61,5 @@
   "wikipedia_title": null,
   "wikipedia_scope": "none",
   "popularity": 3,
-  "sources_note": "White petal, green calyx detail comes from a search snippet not tied to one URL. A seller page claims spring picking; Chinese sources point to autumn. Botanical species is general knowledge, not from the sources read.",
   "images": []
 }

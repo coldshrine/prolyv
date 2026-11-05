@@ -57,5 +57,36 @@
   "wikipedia_title": null,
   "wikipedia_scope": "none",
   "popularity": 2,
-  "images": []
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d1/Bamboo_leaf_tea.jpg/1280px-Bamboo_leaf_tea.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d1/Bamboo_leaf_tea.jpg/330px-Bamboo_leaf_tea.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Bamboo_leaf_tea.jpg",
+      "author": "François Nguyen",
+      "license": "CC BY 2.0",
+      "license_url": "https://creativecommons.org/licenses/by/2.0",
+      "kind": "dry_leaf",
+      "alt": "Dried narrow green bamboo leaves spread in a layer"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c5/Bamboo_tea.jpg/1280px-Bamboo_tea.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c5/Bamboo_tea.jpg/330px-Bamboo_tea.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Bamboo_tea.jpg",
+      "author": "Kim Dae Jeung",
+      "license": "CC0",
+      "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "kind": "liquor",
+      "alt": "Glass teapot and two white cups of golden bamboo leaf tea on a wooden table"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cd/Bamboo_tea_2.jpg/1280px-Bamboo_tea_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cd/Bamboo_tea_2.jpg/330px-Bamboo_tea_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Bamboo_tea_2.jpg",
+      "author": "Kim Dae Jeung",
+      "license": "CC0",
+      "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "kind": "serving",
+      "alt": "Bamboo leaf tea served in a glass pot and two cups on an outdoor wooden table"
+    }
+  ]
 }

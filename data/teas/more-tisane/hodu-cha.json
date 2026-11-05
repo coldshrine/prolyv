@@ -1,0 +1,51 @@
+{
+  "slug": "hodu-cha",
+  "name_en": "Hodu-cha (Walnut Tea)",
+  "name_native": "호두차",
+  "name_romanized": "hodu-cha",
+  "aliases": [
+    "Walnut tea"
+  ],
+  "category": "tisane",
+  "origin_country": "South Korea",
+  "origin_region": "South Korea",
+  "cultivar": null,
+  "form": "powder",
+  "caffeine_level": "none",
+  "brewing": {
+    "grams": 2,
+    "water_ml": 200,
+    "temp_c": 100,
+    "steeps": 1,
+    "seconds": [
+      300
+    ],
+    "notes": "A common starting point for herbal infusions: boiling water, about five minutes."
+  },
+  "taste_tags": [
+    "nutty",
+    "sweet"
+  ],
+  "description": "A Korean drink made from walnuts, sometimes with pine nuts, almonds, job's tears or jujube. Packaged versions are mostly powders stirred into water or milk.\n\nBrew it as you would other herbal infusions. If the plant is new to you, check that it is safe for you first, especially when pregnant or on medication.",
+  "wikipedia_title": null,
+  "wikipedia_scope": "none",
+  "popularity": 1,
+  "name_zh": "胡桃茶",
+  "name_ru": "Ходу-ча (ореховый чай)",
+  "history": "Walnuts appear in records from the Silla period, and Goryeo-era records tell of seedlings and nuts brought from Yuan China. Little is documented about the drink itself.",
+  "liquor_hex": "#BFA27A",
+  "leaf_hex": "#9A7B52",
+  "sources": [
+    "https://ko.wikipedia.org/wiki/%ED%98%B8%EB%91%90%EC%B0%A8"
+  ],
+  "confidence": "low",
+  "images": [],
+  "stub": true,
+  "processing": "Usually drunk warm, though it can also be chilled and served iced.",
+  "harvest_season": "Depends on the plant and the place.",
+  "appearance_dry": "Dried plant material.",
+  "appearance_liquor": "Depends on the plant; usually pale to amber.",
+  "appearance_wet": "Softened plant material.",
+  "taste_profile": "Nutty; simmered with jujube it picks up that fruit's sweetness.",
+  "vintage_note": "Herbal infusions are not sold by vintage: buy recent stock and use it within a year or so."
+}

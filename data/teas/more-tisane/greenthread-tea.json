@@ -1,0 +1,54 @@
+{
+  "slug": "greenthread-tea",
+  "name_en": "Greenthread Tea (Navajo, Hopi, Cota)",
+  "name_native": "Cota",
+  "name_romanized": null,
+  "aliases": [
+    "Greenthread",
+    "Hopi tea",
+    "Navajo tea",
+    "Cota",
+    "Thelesperma megapotamicum"
+  ],
+  "category": "tisane",
+  "origin_country": "United States",
+  "origin_region": "Southwest",
+  "cultivar": null,
+  "form": "loose",
+  "caffeine_level": "none",
+  "brewing": {
+    "grams": 2,
+    "water_ml": 200,
+    "temp_c": 100,
+    "steeps": 1,
+    "seconds": [
+      300
+    ],
+    "notes": "A common starting point for herbal infusions: boiling water, about five minutes."
+  },
+  "taste_tags": [
+    "herbal"
+  ],
+  "description": "An infusion of Thelesperma megapotamicum, a perennial of the aster family native to parts of the Americas, known as Hopi tea, Navajo tea or cota.\n\nBrew it as you would other herbal infusions. If the plant is new to you, check that it is safe for you first, especially when pregnant or on medication.",
+  "wikipedia_title": null,
+  "wikipedia_scope": "none",
+  "popularity": 1,
+  "name_zh": "绿线菊茶",
+  "name_ru": "Чай из телесперма (навахо, хопи)",
+  "history": "The plant's common names tie it to Hopi and Navajo use. Little else is documented about it.",
+  "liquor_hex": "#C8853A",
+  "leaf_hex": "#6E7A42",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Thelesperma_megapotamicum"
+  ],
+  "confidence": "low",
+  "images": [],
+  "stub": true,
+  "processing": "Dried plant material, as with most herbal infusions.",
+  "harvest_season": "Depends on the plant and the place.",
+  "appearance_dry": "Dried plant material.",
+  "appearance_liquor": "Depends on the plant; usually pale to amber.",
+  "appearance_wet": "Softened plant material.",
+  "taste_profile": "A herbal infusion; the taste depends on the plant.",
+  "vintage_note": "Herbal infusions are not sold by vintage: buy recent stock and use it within a year or so."
+}

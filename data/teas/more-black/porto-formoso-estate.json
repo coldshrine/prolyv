@@ -36,7 +36,7 @@
   },
   "caffeine_level": "medium",
   "vintage_note": "Sold as current production without a harvest year, by grade, at the factory and through Azorean shops. There are no vintages to chase; buy fresh and drink within a year or two, as with other packaged black tea.",
-  "description": "Porto Formoso is one of only two tea factories working on São Miguel in the Azores, which gives Europe its only industrial tea plantations. The Pekoe is one of the grades of black tea it sells, alongside Orange Pekoe and Broken Leaf.\n\nThe grade names describe leaf size, not a different plant or a different method. That makes this row less a single recipe than a house style with three cuts, and little is published on the fine detail of how each is made.\n\nExpect a straightforward black tea rather than something exotic. Brew it with water just off the boil, and shorten the steep for smaller leaf, since the broken grade turns strong fast.\n\nThe label is easily confused with its larger neighbour Gorreana, which sells grades with the same names. Check the factory name on the pack. The best way in is a visit: the tour ends with a tasting of several teas.",
+  "description": "Porto Formoso is one of only two tea factories working on São Miguel in the Azores, a rare place for tea in Europe. The Pekoe is one of the grades of black tea it sells, alongside Orange Pekoe and Broken Leaf.\n\nThe grade names describe leaf size, not a different plant or a different method. That makes this row less a single recipe than a house style with three cuts, and little is published on the fine detail of how each is made.\n\nExpect a straightforward black tea rather than something exotic. Brew it with water just off the boil, and shorten the steep for smaller leaf, since the broken grade turns strong fast.\n\nThe label is easily confused with its larger neighbour Gorreana, which sells grades with the same names. Check the factory name on the pack. The best way in is a visit: the tour ends with a tasting of several teas.",
   "history": "Azorean tea has its roots in the 19th century. The Porto Formoso factory opened in the 1920s and closed in the 1980s, leaving Gorreana as the only one active.\n\nIt reopened in 2001 under new owners, and now combines production with a museum and guided visits. Some details of the timeline vary between accounts.",
   "liquor_hex": "#A9582A",
   "leaf_hex": "#3D2B20",
@@ -50,7 +50,48 @@
   "wikipedia_title": null,
   "wikipedia_scope": "none",
   "popularity": 2,
-  "images": [],
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f4/Ch%C3%A1_Porto_Formoso.jpg/1280px-Ch%C3%A1_Porto_Formoso.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f4/Ch%C3%A1_Porto_Formoso.jpg/330px-Ch%C3%A1_Porto_Formoso.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Ch%C3%A1_Porto_Formoso.jpg",
+      "author": "Schokifaktor",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "kind": "plantation",
+      "alt": "Rows of tea bushes at Cha Porto Formoso running towards the Atlantic coast on Sao Miguel"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/68/Tea_fields_of_Porto_Formoso_01.jpg/1280px-Tea_fields_of_Porto_Formoso_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/68/Tea_fields_of_Porto_Formoso_01.jpg/330px-Tea_fields_of_Porto_Formoso_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Tea_fields_of_Porto_Formoso_01.jpg",
+      "author": "This photo was taken by Anton Zelenov . Please credit this with : Photo : Anton Zelenov in the immediate vicinity of the image. If you use one of my photos, ple",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "kind": "plantation",
+      "alt": "Tea fields of Porto Formoso with the ocean and headland beyond under a cloudy sky"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f5/Tea_fields_of_Porto_Formoso_03.jpg/1280px-Tea_fields_of_Porto_Formoso_03.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f5/Tea_fields_of_Porto_Formoso_03.jpg/330px-Tea_fields_of_Porto_Formoso_03.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Tea_fields_of_Porto_Formoso_03.jpg",
+      "author": "This photo was taken by Anton Zelenov . Please credit this with : Photo : Anton Zelenov in the immediate vicinity of the image. If you use one of my photos, ple",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "kind": "plantation",
+      "alt": "Green tea rows on sloping fields at Porto Formoso with a coastal village behind"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/75/Cha_Porto_Formoso_Teefelder.jpg/1280px-Cha_Porto_Formoso_Teefelder.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/75/Cha_Porto_Formoso_Teefelder.jpg/330px-Cha_Porto_Formoso_Teefelder.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Cha_Porto_Formoso_Teefelder.jpg",
+      "author": "Ciru",
+      "license": "CC BY-SA 3.0 de",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0/de/deed.en",
+      "kind": "plantation",
+      "alt": "View over the tea fields of Cha Porto Formoso towards the sea, with a wooden railing in the corner"
+    }
+  ],
   "name_zh": "亚速尔波尔图福尔莫索红茶",
   "name_ru": "Порту Формозу Пекое"
 }

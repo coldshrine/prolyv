@@ -40,7 +40,7 @@
   },
   "caffeine_level": "none",
   "vintage_note": "Sold as dried cut leaf without a vintage, either alone or in herbal blends. As with other leaf infusions, recent stock tastes cleaner, and the green should not have gone to brown. Check the label: lotus tea can also mean green tea scented with lotus, which contains caffeine.",
-  "description": "Lotus leaf tea is an infusion of the lotus plant's own leaves, with no Camellia sinensis in it. It is drunk in China, Korea and Vietnam, and the Korean name yeonnip-cha is the one you will meet on many packets.\n\nThe young leaves usually get a burst of heat, either steam or a dry roast, before they are dried. That choice largely decides the cup: steamed leaf stays greener, while roasted leaf should come out toastier.\n\nExpect a herbal, vegetal drink with some bitterness, not a floral one, despite the name. The common mistake is treating it like a flower tea. In Korea it is gently simmered, and a lower flame keeps the bitterness polite.\n\nDo not confuse it with Vietnamese lotus tea, trà sen, which is green tea scented with lotus stamens, or with infusions of lotus flower, seed, plumule or root. These are separate drinks that share a name. Weight-loss promises are common on leaf-tea packets and are popular claims, not established fact.",
+  "description": "Lotus leaf tea is an infusion of the lotus plant's own leaves, with no Camellia sinensis in it. It is drunk in China, Korea and Vietnam, and the Korean name yeonnip-cha is the one you will meet on many packets.\n\nThe young leaves usually get a burst of heat, either steam or a dry roast, before they are dried. Steamed leaf can be expected to stay greener, and roasted leaf to come out toastier.\n\nExpect a herbal, vegetal drink with some bitterness, not a floral one, despite the name. The common mistake is treating it like a flower tea. In Korea it is gently simmered, and a lower flame keeps the bitterness polite.\n\nDo not confuse it with Vietnamese lotus tea, trà sen, which is green tea scented with lotus stamens, or with infusions of lotus flower, seed, plumule or root. These are separate drinks that share a name. Weight-loss promises are common on leaf-tea packets and are popular claims, not established fact.",
   "history": "Lotus infusions are recorded as a broad family across East and Southeast Asia, made from nearly every part of the plant. The leaf version is best documented in Korean usage, with measures for simmering it, and in Chinese herbal tradition, which classes the leaf as bitter and astringent and uses it to clear summer heat. No clear date of origin for the drink is on record.",
   "wikipedia_title": "Lotus tea",
   "wikipedia_scope": "umbrella",
@@ -55,5 +55,46 @@
     "https://www.wikidata.org/wiki/Q50304474"
   ],
   "confidence": "medium",
-  "images": []
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f4/Lotus_leaf_tea_%281%29.jpg/1280px-Lotus_leaf_tea_%281%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f4/Lotus_leaf_tea_%281%29.jpg/330px-Lotus_leaf_tea_%281%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Lotus_leaf_tea_(1).jpg",
+      "author": "François Nguyen",
+      "license": "CC BY 2.0",
+      "license_url": "https://creativecommons.org/licenses/by/2.0",
+      "kind": "dry_leaf",
+      "alt": "Crumbled flakes of dried lotus leaf tea with pale veins"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9b/Dried_lotus_leaf_tea.jpg/1280px-Dried_lotus_leaf_tea.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9b/Dried_lotus_leaf_tea.jpg/330px-Dried_lotus_leaf_tea.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Dried_lotus_leaf_tea.jpg",
+      "author": "Fumikas Sagisavas",
+      "license": "CC0",
+      "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "kind": "dry_leaf",
+      "alt": "Large torn pieces of dried olive-green lotus leaf"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/7/7c/Drying_steamed_lotus_leaves.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7c/Drying_steamed_lotus_leaves.jpg/330px-Drying_steamed_lotus_leaves.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Drying_steamed_lotus_leaves.jpg",
+      "author": "경빈마마",
+      "license": "CC BY 2.0 kr",
+      "license_url": "https://creativecommons.org/licenses/by/2.0/kr/deed.en",
+      "kind": "other",
+      "alt": "Strips of steamed lotus leaf drying on a mesh tray"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/5/58/Steamed_lotus_leaves.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/58/Steamed_lotus_leaves.jpg/330px-Steamed_lotus_leaves.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Steamed_lotus_leaves.jpg",
+      "author": "경빈마마",
+      "license": "CC BY 2.0 kr",
+      "license_url": "https://creativecommons.org/licenses/by/2.0/kr/deed.en",
+      "kind": "wet_leaf",
+      "alt": "Two whole steamed lotus leaves on a white surface"
+    }
+  ]
 }

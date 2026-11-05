@@ -45,7 +45,7 @@
   "caffeine_level": "none",
   "vintage_note": "Sold without a vintage, in tea bags, as roasted kernels or, for the Korean style, as a sweetened powder, all year. As with barley tea, a recent roast tastes best; check the label if you want pure hatomugi.",
   "description": "Hatomugi is the cultivated form of Job's tears, a tall grass with a soft-shelled grain, and in Japan the roasted kernels are brewed the way barley is. Korea takes the same grain somewhere else entirely: yulmu-cha is a thick, spoonable drink made from powder.\n\nThe Japanese version is roasted, and the honest thing to say is that plain hatomugi tea has never been everybody's pleasure. It has a strong smell and has traditionally been drunk for its supposed benefits more than for the taste. Germinating the seed before roasting makes a noticeably easier cup.\n\nBrew it like barley tea: plenty of grain, boiling water, a few minutes on the heat, and serve it hot or cold. If the first cup seems odd, try a germinated version or a blend before giving up on it.\n\nIt is sold as tea bags and kernels. China has a cousin too, yi ren jiang, a thin, cloudy sweetened drink made by simmering the polished grain.",
-  "history": "When hatomugi reached Japan is unclear. Related grains turn up at a settlement site from the early 6th century, and one suggestion is that the cultivated form had arrived by the Nara period, with an unproven theory crediting the monk Ganjin. Firm evidence for the soft-shelled crop dates to the Kyōhō era of the Edo period, supported by a 1726 text by Matsuoka Gentatsu describing its soft husk.\n\nThe grain was also medicine: yokuinin is its name as a herbal drug, and the classic Chinese materia medica ranks it among the upper drugs. The tea grew up as a health drink, and the germinated style is a later refinement aimed at the smell.",
+  "history": "When hatomugi reached Japan is unclear. Related grains turn up at a settlement site from the early 6th century, and one suggestion is that the cultivated form had arrived by the Nara period, with an unproven theory crediting the monk Ganjin. Firm evidence for the soft-shelled crop dates to the Kyōhō era of the Edo period, supported by a 1726 text by Matsuoka Gentatsu describing its soft husk.\n\nThe grain was also medicine: yokuinin is its name as a herbal drug, and the classic Chinese materia medica ranks it among the upper drugs. The tea is drunk largely as a health drink, and germinating the grain before roasting is a way to tame the smell.",
   "liquor_hex": "#C2964F",
   "leaf_hex": "#A67C4B",
   "sources": [
@@ -56,5 +56,16 @@
   "wikipedia_title": "Job's tears",
   "wikipedia_scope": "umbrella",
   "popularity": 3,
-  "images": []
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5e/Yulmucha_in_cup.jpg/1280px-Yulmucha_in_cup.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5e/Yulmucha_in_cup.jpg/330px-Yulmucha_in_cup.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Yulmucha_in_cup.jpg",
+      "author": "국립국어원",
+      "license": "CC BY-SA 2.0 kr",
+      "license_url": "https://creativecommons.org/licenses/by-sa/2.0/kr/deed.en",
+      "kind": "liquor",
+      "alt": "Milky beige yulmu-cha in a ceramic mug beside a dish of Job's tears kernels"
+    }
+  ]
 }

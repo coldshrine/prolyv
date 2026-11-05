@@ -1,0 +1,52 @@
+{
+  "slug": "azuki-cha",
+  "name_en": "Azuki-cha",
+  "name_native": "あずき茶",
+  "name_romanized": "azuki-cha",
+  "aliases": [
+    "小豆茶",
+    "あづき茶"
+  ],
+  "category": "tisane",
+  "origin_country": "Japan",
+  "origin_region": "Japan",
+  "cultivar": null,
+  "form": "loose",
+  "caffeine_level": "none",
+  "brewing": {
+    "grams": 2,
+    "water_ml": 200,
+    "temp_c": 100,
+    "steeps": 1,
+    "seconds": [
+      300
+    ],
+    "notes": "A common starting point for herbal infusions: boiling water, about five minutes."
+  },
+  "taste_tags": [
+    "roasted"
+  ],
+  "description": "A caffeine-free Japanese drink made from roasted azuki beans.\n\nBrew it as you would other herbal infusions. If the plant is new to you, check that it is safe for you first, especially when pregnant or on medication.",
+  "wikipedia_title": null,
+  "wikipedia_scope": "none",
+  "popularity": 1,
+  "name_zh": "红豆茶",
+  "name_ru": "Адзуки-тя",
+  "history": "There are two main kinds: roasted and ground beans simmered in hot water, and the cooking liquid left over from making bean paste. Health benefits are claimed for it, but little is documented about its history.",
+  "liquor_hex": "#9A4E36",
+  "leaf_hex": "#5A2626",
+  "sources": [
+    "https://ja.wikipedia.org/wiki/%E3%81%82%E3%81%9A%E3%81%8D%E8%8C%B6",
+    "https://www.wikidata.org/wiki/Q17191321"
+  ],
+  "confidence": "medium",
+  "images": [],
+  "stub": true,
+  "processing": "Either roasted, ground beans are simmered in hot water, or the cooking liquid from making bean paste is used.",
+  "harvest_season": "Depends on the plant and the place.",
+  "appearance_dry": "Dried plant material.",
+  "appearance_liquor": "Depends on the plant; usually pale to amber.",
+  "appearance_wet": "Softened plant material.",
+  "taste_profile": "The roasted kind is fragrant and toasty with less bean flavour; the paste-liquid kind tastes more strongly of azuki, with a beany harshness.",
+  "vintage_note": "Herbal infusions are not sold by vintage: buy recent stock and use it within a year or so."
+}

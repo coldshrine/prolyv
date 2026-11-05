@@ -1,0 +1,54 @@
+{
+  "slug": "jigucao-tea",
+  "name_en": "Jigucao Tea",
+  "name_native": "鸡骨草",
+  "name_romanized": "jī gǔ cǎo",
+  "aliases": [
+    "雞骨草",
+    "Abrus pulchellus subsp. cantoniensis"
+  ],
+  "category": "tisane",
+  "origin_country": "China",
+  "origin_region": "Guangdong · Guangxi",
+  "cultivar": null,
+  "form": "other",
+  "caffeine_level": "none",
+  "brewing": {
+    "grams": 2,
+    "water_ml": 200,
+    "temp_c": 100,
+    "steeps": 1,
+    "seconds": [
+      300
+    ],
+    "notes": "A common starting point for herbal infusions: boiling water, about five minutes."
+  },
+  "taste_tags": [
+    "bitter",
+    "herbal"
+  ],
+  "description": "A cooling herbal drink of South China made from the dried whole plant of a climbing legume, Abrus pulchellus subsp. cantoniensis. It is mainly produced in Guangdong and Guangxi and is used for soups as well as liangcha.\n\nBrew it as you would other herbal infusions. If the plant is new to you, check that it is safe for you first, especially when pregnant or on medication.",
+  "wikipedia_title": null,
+  "wikipedia_scope": "none",
+  "popularity": 1,
+  "name_zh": "鸡骨草",
+  "name_ru": "Цзи Гу Цао",
+  "history": "The herb first appears in the Lingnan Caiyao Lu and is listed in the 2005 Chinese Pharmacopoeia. The plant's seeds are poisonous, so the pods are removed before drying. Little more is documented about it as a drink.",
+  "liquor_hex": "#8A5A24",
+  "leaf_hex": "#6B4A32",
+  "sources": [
+    "https://zh.wikipedia.org/wiki/%E9%9B%9E%E9%AA%A8%E8%8D%89",
+    "https://www.wikidata.org/wiki/Q24877743",
+    "https://zh.wikipedia.org/wiki/%E6%B6%BC%E8%8C%B6"
+  ],
+  "confidence": "medium",
+  "images": [],
+  "stub": true,
+  "processing": "Harvested year-round; the pods and debris are removed and the whole plant is sun-dried, usually wound into bundles.",
+  "harvest_season": "Year-round.",
+  "appearance_dry": "Bundled long vines, grey-brown to purplish, with hard roots and small oblong leaflets.",
+  "appearance_liquor": "Depends on the plant; usually pale to amber.",
+  "appearance_wet": "Softened plant material.",
+  "taste_profile": "The dried herb has a faint smell and a slightly bitter taste.",
+  "vintage_note": "Herbal infusions are not sold by vintage: buy recent stock and use it within a year or so."
+}

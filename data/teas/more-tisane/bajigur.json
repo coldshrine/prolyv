@@ -1,0 +1,50 @@
+{
+  "slug": "bajigur",
+  "name_en": "Bajigur",
+  "name_native": "ᮘᮏᮤᮍᮥᮁ",
+  "name_romanized": "bajigur",
+  "aliases": [],
+  "category": "tisane",
+  "origin_country": "Indonesia",
+  "origin_region": "West Java",
+  "cultivar": null,
+  "form": "other",
+  "caffeine_level": "none",
+  "brewing": {
+    "grams": 2,
+    "water_ml": 200,
+    "temp_c": 100,
+    "steeps": 1,
+    "seconds": [
+      300
+    ],
+    "notes": "A common starting point for herbal infusions: boiling water, about five minutes."
+  },
+  "taste_tags": [
+    "sweet",
+    "creamy",
+    "spicy"
+  ],
+  "description": "A hot Sundanese drink from West Java made mainly of palm sugar and coconut milk, with a little ginger and salt.\n\nBrew it as you would other herbal infusions. If the plant is new to you, check that it is safe for you first, especially when pregnant or on medication.",
+  "wikipedia_title": null,
+  "wikipedia_scope": "none",
+  "popularity": 1,
+  "name_zh": "巴吉古尔椰奶姜饮",
+  "name_ru": "Баджигур",
+  "history": "Farmers once made it at home for themselves and it was not sold; later it went to pushcart vendors, who keep it hot on portable stoves, and on to cafes. Pandan leaf traditionally scents it, though artificial vanilla is now more common, and ground coffee is sometimes added. It is favoured in cool highlands and on cold or rainy nights, with steamed banana, boiled sweet potato or boiled peanuts.",
+  "liquor_hex": "#B08A5E",
+  "leaf_hex": "#6B4E2E",
+  "sources": [
+    "https://id.wikipedia.org/wiki/Bajigur"
+  ],
+  "confidence": "medium",
+  "images": [],
+  "stub": true,
+  "processing": "Palm sugar and coconut milk are heated with ginger and salt, often with pandan leaf or vanilla and sometimes ground coffee.",
+  "harvest_season": "Depends on the plant and the place.",
+  "appearance_dry": "Dried plant material.",
+  "appearance_liquor": "Depends on the plant; usually pale to amber.",
+  "appearance_wet": "Softened plant material.",
+  "taste_profile": "Sweet and creamy with warming ginger.",
+  "vintage_note": "Herbal infusions are not sold by vintage: buy recent stock and use it within a year or so."
+}

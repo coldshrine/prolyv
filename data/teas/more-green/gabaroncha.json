@@ -4,7 +4,7 @@
   "name_native": "ギャバロン茶",
   "name_romanized": "Gyabaroncha",
   "name_zh": "佳叶龙茶",
-  "name_ru": "Габарон-тя",
+  "name_ru": "Габаронтя",
   "aliases": [
     "Gabaron",
     "GABA Green Tea",
@@ -17,7 +17,7 @@
   "origin_country": "Japan",
   "origin_region": "Nationwide",
   "cultivar": null,
-  "processing": "Fresh leaves are held in an oxygen-free chamber, typically filled with nitrogen for six hours or more, so that GABA builds up in the leaf. They are then made into tea as usual; firing at 110 to 120 °C helps reduce the odour the treatment leaves behind.",
+  "processing": "Fresh leaves are held in an oxygen-free chamber, typically filled with nitrogen, so that GABA builds up in the leaf. They are then made into tea as usual; firing at 110 to 120 °C helps reduce the odour the treatment leaves behind.",
   "form": "loose",
   "harvest_season": "Not tied to one picking. Japanese green teas are typically made from spring to summer flushes, and sellers rarely state which one was used.",
   "appearance_dry": "As a sencha-style tea, typically dark green needles that look much like an ordinary steamed green tea.",
@@ -43,21 +43,19 @@
   },
   "caffeine_level": "medium",
   "vintage_note": "Sold by process and not by vintage, often as sencha or tea bags, with a harvest year seldom stated. Like other green teas it is best drunk within about a year. The same treatment is also applied to oolong and black teas, and those are sold as separate products.",
-  "description": "Gabaroncha is Japanese green tea treated to contain unusually high levels of GABA. It is defined by a single step in the factory and not by a place or cultivar, and the name comes from the compound itself.\n\nThe trick is to deprive fresh leaves of oxygen, typically in nitrogen, for some hours. The leaf's chemistry shifts: GABA and alanine rise as glutamic and aspartic acid fall. The tea is then finished in the normal way.\n\nIn the cup it is close to ordinary green tea, with one catch. The treatment can leave an unpleasant smell, which is why the firing matters. A well fired lot shows only a slight oddness, and a poorly fired one is easy to notice. Brew it as you would a plain sencha.\n\nJapanese shops sell it as Gabaron sencha and in tea bags, and it also exists made from named cultivars such as Kogane Midori. Be careful with the health talk. The early work showed lowered blood pressure in hypertensive rats, and later reviews call the effects in people unsettled, so buy it because you like it.\n\nIf you are curious about the same process with a warmer flavour, try a Taiwanese GABA oolong, now the style most people meet.",
-  "history": "The method came out of Japan's national tea research institute in the 1980s. Accounts differ on when the work began, giving 1984 or 1986, while publications by Tsushida and colleagues date from 1987.\n\nA 1990 review by Katsuhiro Hakamata in the journal JARQ set out the chemistry and the odour problem, and reported lower blood pressure in spontaneously hypertensive rats compared with common green tea and water.\n\nThe process later spread abroad, and Taiwanese producers took it up widely, mostly for oolong.",
+  "description": "Gabaroncha is Japanese green tea treated to contain unusually high levels of GABA. It is defined by a single step in the factory and not by a place or cultivar, and the name comes from the compound itself.\n\nThe trick is to deprive fresh leaves of oxygen, typically in nitrogen, for some hours. The leaf's chemistry shifts: GABA and alanine rise as glutamic and aspartic acid fall. The tea is then finished in the normal way.\n\nIn the cup it is close to ordinary green tea, with one catch. The treatment can leave an unpleasant smell, which is why the firing matters. A well fired lot shows only a slight oddness, and a poorly fired one is easy to notice. Brew it as you would a plain sencha.\n\nJapanese shops sell it as Gabaron sencha and in tea bags, and it also exists made from named cultivars such as Kogane Midori. Be careful with the health talk. The early work showed lowered blood pressure in hypertensive rats, which says little about people, so buy it because you like it.\n\nIf you are curious about the same process with a warmer flavour, try a Taiwanese GABA oolong.",
+  "history": "The method came out of Japanese tea research in the 1980s; accounts differ on exactly when the work began.\n\nA 1990 review by Katsuhiro Hakamata in the journal JARQ set out the chemistry and the odour problem, and reported lower blood pressure in spontaneously hypertensive rats compared with common green tea and water.\n\nThe process later spread abroad, and Taiwanese producers took it up widely, mostly for oolong.",
   "liquor_hex": "#C9BE6A",
   "leaf_hex": "#4F5A2C",
   "sources": [
     "https://en.wikipedia.org/wiki/GABA_tea",
     "https://www.jircas.go.jp/publication/jarq/24/2/105",
     "https://www.jircas.go.jp/sites/default/files/publication/jarq/24-2-105-110_0.pdf",
-    "https://www.teavivre.com/info/?p=29443",
     "https://www.sazentea.com/en/products/c55-japanese-tea"
   ],
-  "confidence": "high",
+  "confidence": "medium",
   "wikipedia_title": "GABA tea",
   "wikipedia_scope": "exact",
   "popularity": 2,
-  "sources_note": "Start date of the research differs by source (1984, 1986); the appearance fields are typical of the class, not specific descriptions.",
   "images": []
 }

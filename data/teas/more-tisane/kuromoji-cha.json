@@ -13,7 +13,7 @@
   ],
   "category": "tisane",
   "origin_country": "Japan",
-  "origin_region": "Shikoku",
+  "origin_region": "Nationwide",
   "cultivar": "Lindera umbellata",
   "processing": "Branches and leaves of the kuromoji shrub are chopped and dried, in some products also roasted.",
   "form": "loose",
@@ -40,17 +40,29 @@
   },
   "caffeine_level": "none",
   "vintage_note": "Sold without a vintage, as chopped twigs or tea bags, usually labelled by prefecture such as Tokushima or Kochi. With an aroma tea like this, buy recent stock and keep it tightly sealed.",
-  "description": "If you know the fragrant wooden toothpicks served with Japanese sweets, you already know this smell: kuromoji is the shrub they come from, and here its twigs and leaves go into a pot. No tea plant is involved.\n\nProcessing is simple, chopping and drying, with some makers roasting the wood for a rounder scent. Branches matter as much as the leaf, which is why the bag can look more like kindling than tea.\n\nThe pleasure is mostly in the nose: fresh wood, something close to citrus, and only a faint sweetness on the tongue. Brewed by the packet instructions it can taste weak, so try a longer steep or a gentle simmer.\n\nIt comes as tea bags or loose twigs, mostly from Shikoku. Health claims crowd the labels, and they are traditional or marketing claims rather than settled fact. Buy for the scent, and check the prefecture of origin.",
+  "description": "If you know the fragrant wooden toothpicks served with Japanese sweets, you already know this smell: kuromoji is the shrub they come from, and here its twigs and leaves go into a pot. No tea plant is involved.\n\nProcessing is simple, chopping and drying, with some makers roasting the wood for a rounder scent. Branches matter as much as the leaf, which is why the bag can look more like kindling than tea.\n\nThe pleasure is mostly in the nose: fresh wood, something close to citrus, and only a faint sweetness on the tongue. Brewed by the packet instructions it can taste weak, so try a longer steep or a gentle simmer.\n\nIt comes as tea bags or loose twigs from several regions, Tokushima and Kochi among them. Health claims crowd the labels, and they are traditional or marketing claims rather than settled fact. Buy for the scent, and check the prefecture of origin.",
   "history": "Kuromoji has long been a Japanese fragrance and folk medicine plant. Its oil was once exported to Europe as a Japanese speciality, with the Izu peninsula as the main producing area, but by the 1970s almost no one was distilling it.\n\nThe tea belongs to a more recent revival: this century, regional development projects have put kuromoji tea, oils and cosmetics back into wide circulation. When people first brewed the twigs is not recorded with any precision.",
   "liquor_hex": "#DDBF74",
   "leaf_hex": "#8A6A45",
   "sources": [
     "https://ja.wikipedia.org/wiki/%E3%82%AF%E3%83%AD%E3%83%A2%E3%82%B8",
-    "https://digitalpr.jp/r/130931"
+    "https://digitalpr.jp/r/130931",
+    "https://www.muji.com/jp/ja/store/cmdty/detail/4547315995455"
   ],
   "confidence": "low",
   "wikipedia_title": null,
   "wikipedia_scope": "none",
   "popularity": 2,
-  "images": []
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4f/Tea_made_from_Lindera_umbellata_-_kuromojicha_-_2024_Oct_13_10-15AM.jpeg/1280px-Tea_made_from_Lindera_umbellata_-_kuromojicha_-_2024_Oct_13_10-15AM.jpeg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4f/Tea_made_from_Lindera_umbellata_-_kuromojicha_-_2024_Oct_13_10-15AM.jpeg/330px-Tea_made_from_Lindera_umbellata_-_kuromojicha_-_2024_Oct_13_10-15AM.jpeg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Tea_made_from_Lindera_umbellata_-_kuromojicha_-_2024_Oct_13_10-15AM.jpeg",
+      "author": "Nesnad",
+      "license": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0",
+      "kind": "liquor",
+      "alt": "Kuromoji tea steeping with leaves in a glass pot with a metal strainer lid"
+    }
+  ]
 }

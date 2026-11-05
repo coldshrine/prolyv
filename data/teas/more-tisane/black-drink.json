@@ -1,0 +1,55 @@
+{
+  "slug": "black-drink",
+  "name_en": "Black Drink",
+  "name_native": null,
+  "name_romanized": null,
+  "aliases": [
+    "White drink",
+    "Beloved drink",
+    "Cassina",
+    "Big medicine"
+  ],
+  "category": "tisane",
+  "origin_country": "United States",
+  "origin_region": "Southeast US",
+  "cultivar": "Ilex vomitoria",
+  "form": "loose",
+  "caffeine_level": "none",
+  "brewing": {
+    "grams": 2,
+    "water_ml": 200,
+    "temp_c": 100,
+    "steeps": 1,
+    "seconds": [
+      300
+    ],
+    "notes": "A common starting point for herbal infusions: boiling water, about five minutes."
+  },
+  "taste_tags": [
+    "roasted"
+  ],
+  "description": "A strong, dark ritual brew of roasted yaupon holly leaves and stems, made by Indigenous peoples of the southeastern United States for purification ceremonies. Black drink was mostly the Europeans' name for it; white drink and beloved drink were names used for the yaupon drink more widely.\n\nBrew it as you would other herbal infusions. If the plant is new to you, check that it is safe for you first, especially when pregnant or on medication.",
+  "wikipedia_title": null,
+  "wikipedia_scope": "none",
+  "popularity": 1,
+  "name_zh": "黑饮",
+  "name_ru": "Чёрный напиток (ритуальный)",
+  "history": "Yuchi, Caddo, Chickasaw, Cherokee, Choctaw, Muscogee, Timucua, Chitimacha and Quapaw peoples, among others, used it, and its use at Cahokia is confirmed. Europeans saw drinkers vomit and blamed the plant, hence the name vomitoria, but fasting, large volumes and possibly added herbs are the likelier causes; analysis has found no emetic compounds in yaupon. Seminoles still make a black drink for the Green Corn Ceremony, though not always with yaupon.",
+  "liquor_hex": "#2E1A0E",
+  "leaf_hex": "#3E3020",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Yaupon_tea",
+    "https://en.wikipedia.org/wiki/Ilex_vomitoria",
+    "https://www.wikidata.org/wiki/Q2611017"
+  ],
+  "confidence": "medium",
+  "images": [],
+  "stub": true,
+  "processing": "Leaves and branches are picked close to use, lightly parched over fire in a ceramic pot, then boiled in large containers until the liquid turns dark brown or black.",
+  "harvest_season": "Depends on the plant and the place.",
+  "appearance_dry": "Dried plant material.",
+  "appearance_liquor": "Dark brown to black.",
+  "appearance_wet": "Softened plant material.",
+  "taste_profile": "A herbal infusion; the taste depends on the plant.",
+  "vintage_note": "Herbal infusions are not sold by vintage: buy recent stock and use it within a year or so."
+}

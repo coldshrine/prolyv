@@ -1,0 +1,49 @@
+{
+  "slug": "beras-kencur",
+  "name_en": "Beras Kencur",
+  "name_native": null,
+  "name_romanized": null,
+  "aliases": [],
+  "category": "tisane",
+  "origin_country": "Indonesia",
+  "origin_region": "Java",
+  "cultivar": null,
+  "form": "other",
+  "caffeine_level": "none",
+  "brewing": {
+    "grams": 2,
+    "water_ml": 200,
+    "temp_c": 100,
+    "steeps": 1,
+    "seconds": [
+      300
+    ],
+    "notes": "A common starting point for herbal infusions: boiling water, about five minutes."
+  },
+  "taste_tags": [
+    "sweet",
+    "spicy"
+  ],
+  "description": "A refreshing Javanese drink, also counted as a jamu, made from ground rice and kencur (aromatic ginger) with palm or coconut sugar. It is valued as an appetite stimulant.\n\nBrew it as you would other herbal infusions. If the plant is new to you, check that it is safe for you first, especially when pregnant or on medication.",
+  "wikipedia_title": null,
+  "wikipedia_scope": "none",
+  "popularity": 1,
+  "name_zh": "米山奈饮",
+  "name_ru": "Берас кенчур",
+  "history": "It was traditionally sold fresh in markets and by itinerant jamu sellers. Industry now also packs it as an instant powder or syrup. Little is documented about its early history.",
+  "liquor_hex": "#D8C48E",
+  "leaf_hex": "#B8A676",
+  "sources": [
+    "https://id.wikipedia.org/wiki/Beras_kencur"
+  ],
+  "confidence": "medium",
+  "images": [],
+  "stub": true,
+  "processing": "Dried plant material, as with most herbal infusions.",
+  "harvest_season": "Depends on the plant and the place.",
+  "appearance_dry": "Dried plant material.",
+  "appearance_liquor": "Depends on the plant; usually pale to amber.",
+  "appearance_wet": "Softened plant material.",
+  "taste_profile": "Sweet and fresh, with a slight heat from the kencur, sometimes raised with ginger.",
+  "vintage_note": "Herbal infusions are not sold by vintage: buy recent stock and use it within a year or so."
+}

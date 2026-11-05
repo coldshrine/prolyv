@@ -1,0 +1,57 @@
+{
+  "slug": "seven-color-tea",
+  "name_en": "Seven-Color Tea (Sylheti Rainbow Tea)",
+  "name_native": "সাত রং চা",
+  "name_romanized": null,
+  "aliases": [
+    "Seven-color tea",
+    "Sylheti rainbow tea",
+    "Seven-layer tea",
+    "七層茶"
+  ],
+  "category": "tisane",
+  "origin_country": "Bangladesh",
+  "origin_region": "Sylhet · Srimongol",
+  "cultivar": null,
+  "form": "other",
+  "caffeine_level": "none",
+  "brewing": {
+    "grams": 2,
+    "water_ml": 200,
+    "temp_c": 100,
+    "steeps": 1,
+    "seconds": [
+      300
+    ],
+    "notes": "A common starting point for herbal infusions: boiling water, about five minutes."
+  },
+  "taste_tags": [
+    "sweet",
+    "spicy",
+    "creamy"
+  ],
+  "description": "A Bangladeshi drink of stacked tea layers, each mixed to a different density from teas, milk, sugar and flavorings, so that it settles into dark and light bands.\n\nBrew it as you would other herbal infusions. If the plant is new to you, check that it is safe for you first, especially when pregnant or on medication.",
+  "wikipedia_title": null,
+  "wikipedia_scope": "none",
+  "popularity": 1,
+  "name_zh": "七色茶",
+  "name_ru": "Семицветный чай",
+  "history": "Romesh Ram Gour, who runs a tea shop in Srimongol, Moulvibazar, claims to have devised it and keeps his recipe secret. It has been widely imitated across Bangladesh with varying numbers of layers. Versions are reported using Srimongol tea, green tea and condensed milk, or several black teas with green tea, milk and spices.",
+  "liquor_hex": "#B5702F",
+  "leaf_hex": "#3A2A1E",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Seven-color_tea",
+    "https://zh.wikipedia.org/wiki/%E4%B8%83%E8%89%B2%E8%8C%B6",
+    "https://www.wikidata.org/wiki/Q43279967"
+  ],
+  "confidence": "medium",
+  "images": [],
+  "stub": true,
+  "processing": "Teas of different strength are combined with milk, sugar and flavorings and layered so that density keeps them apart.",
+  "harvest_season": "Depends on the plant and the place.",
+  "appearance_dry": "Dried plant material.",
+  "appearance_liquor": "Alternating dark and light bands through the glass.",
+  "appearance_wet": "Softened plant material.",
+  "taste_profile": "Each layer tastes different, ranging from syrupy sweet to spicy clove.",
+  "vintage_note": "Herbal infusions are not sold by vintage: buy recent stock and use it within a year or so."
+}

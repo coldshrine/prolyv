@@ -49,7 +49,18 @@
   "popularity": 3,
   "liquor_hex": "#A9B95A",
   "leaf_hex": "#3F5A2C",
-  "images": [],
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/71/Chakan_aracha_kesencha_yabukita_2009.jpg/1280px-Chakan_aracha_kesencha_yabukita_2009.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/71/Chakan_aracha_kesencha_yabukita_2009.jpg/330px-Chakan_aracha_kesencha_yabukita_2009.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Chakan_aracha_kesencha_yabukita_2009.jpg",
+      "author": "User:USAGI-WRP",
+      "license": "CC BY 3.0",
+      "license_url": "https://creativecommons.org/licenses/by/3.0",
+      "kind": "dry_leaf",
+      "alt": "Dry aracha green tea: uneven dark green leaf pieces mixed with pale stems"
+    }
+  ],
   "sources": [
     "https://en.wikipedia.org/wiki/Aracha",
     "https://ru.wikipedia.org/wiki/%D0%90%D1%80%D0%B0%D1%82%D1%8F",

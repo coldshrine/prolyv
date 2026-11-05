@@ -56,5 +56,36 @@
   "wikipedia_title": "Jujube tea",
   "wikipedia_scope": "exact",
   "popularity": 3,
-  "images": []
+  "images": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/d/d1/Daechu-cha_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d1/Daechu-cha_1.jpg/330px-Daechu-cha_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Daechu-cha_1.jpg",
+      "author": "가을들녁",
+      "license": "CC BY 2.0 kr",
+      "license_url": "https://creativecommons.org/licenses/by/2.0/kr/deed.en",
+      "kind": "liquor",
+      "alt": "Daechu-cha in a brown ceramic cup with jujube slices and pine nuts"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/6/61/Daechu-cha_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/61/Daechu-cha_2.jpg/330px-Daechu-cha_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Daechu-cha_2.jpg",
+      "author": "가을들녁",
+      "license": "CC BY 2.0 kr",
+      "license_url": "https://creativecommons.org/licenses/by/2.0/kr/deed.en",
+      "kind": "liquor",
+      "alt": "Close view of daechu-cha with floating jujube slices and pine nuts"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a5/Korean.tea-Daechucha-01.jpg/1280px-Korean.tea-Daechucha-01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a5/Korean.tea-Daechucha-01.jpg/330px-Korean.tea-Daechucha-01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Korean.tea-Daechucha-01.jpg",
+      "author": "by LWY",
+      "license": "CC BY 2.0",
+      "license_url": "https://creativecommons.org/licenses/by/2.0",
+      "kind": "serving",
+      "alt": "Two celadon cups of Korean jujube tea on a wooden tray"
+    }
+  ]
 }

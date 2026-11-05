@@ -1,0 +1,54 @@
+{
+  "slug": "tubho-tea",
+  "name_en": "Tubho Tea",
+  "name_native": "Tubho",
+  "name_romanized": null,
+  "aliases": [
+    "Tubha",
+    "Tubho fern tea",
+    "Odontosoria biflora"
+  ],
+  "category": "tisane",
+  "origin_country": "Philippines",
+  "origin_region": "Batanes",
+  "cultivar": null,
+  "form": "loose",
+  "caffeine_level": "none",
+  "brewing": {
+    "grams": 2,
+    "water_ml": 200,
+    "temp_c": 100,
+    "steeps": 1,
+    "seconds": [
+      300
+    ],
+    "notes": "A common starting point for herbal infusions: boiling water, about five minutes."
+  },
+  "taste_tags": [
+    "bitter",
+    "nutty"
+  ],
+  "description": "A traditional herbal tea of the Ivatan people of the Philippines, boiled from the dried fronds of the tubho fern, Odontosoria biflora.\n\nBrew it as you would other herbal infusions. If the plant is new to you, check that it is safe for you first, especially when pregnant or on medication.",
+  "wikipedia_title": null,
+  "wikipedia_scope": "none",
+  "popularity": 1,
+  "name_zh": "图博蕨茶",
+  "name_ru": "Чай тубхо",
+  "history": "Mature fronds that have wilted and dried on the plant are preferred because they are less bitter. The tea is traditionally sweetened with brown sugar, and modern versions may be iced or taken with cream, honey or lemon. The Department of Science and Technology has developed a powdered form, available in Sabtang town.",
+  "liquor_hex": "#5E3216",
+  "leaf_hex": "#6B5230",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Tubho_tea",
+    "https://steepdreams.substack.com/p/teas-of-the-philippines"
+  ],
+  "confidence": "medium",
+  "images": [],
+  "stub": true,
+  "processing": "Fronds wilt and dry while still on the plant, then are boiled until the water turns dark brown. The leaves may be reused as long as they still colour the water.",
+  "harvest_season": "Depends on the plant and the place.",
+  "appearance_dry": "Dried plant material.",
+  "appearance_liquor": "Dark brown.",
+  "appearance_wet": "Softened plant material.",
+  "taste_profile": "Slightly bitter and nutty.",
+  "vintage_note": "Herbal infusions are not sold by vintage: buy recent stock and use it within a year or so."
+}

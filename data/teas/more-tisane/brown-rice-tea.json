@@ -56,5 +56,26 @@
   "wikipedia_title": "Brown rice tea",
   "wikipedia_scope": "exact",
   "popularity": 3,
-  "images": []
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/53/Roasted_brown_rice.jpg/1280px-Roasted_brown_rice.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/53/Roasted_brown_rice.jpg/330px-Roasted_brown_rice.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Roasted_brown_rice.jpg",
+      "author": "Bebada",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "kind": "dry_leaf",
+      "alt": "Small heap of roasted brown rice grains on a white background"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/b/b3/Hyeonmicha.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b3/Hyeonmicha.jpg/330px-Hyeonmicha.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Hyeonmicha.jpg",
+      "author": "Badagnani",
+      "license": "CC BY 3.0",
+      "license_url": "https://creativecommons.org/licenses/by/3.0",
+      "kind": "liquor",
+      "alt": "Glass of pale yellow hyeonmi-cha with toasted rice settled at the bottom"
+    }
+  ]
 }

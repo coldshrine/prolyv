@@ -52,5 +52,16 @@
   "wikipedia_title": "Bancha",
   "wikipedia_scope": "umbrella",
   "popularity": 2,
-  "images": []
+  "images": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/5/50/Bancha_tea_yoshino-nikkan.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/50/Bancha_tea_yoshino-nikkan.jpg/330px-Bancha_tea_yoshino-nikkan.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Bancha_tea_yoshino-nikkan.jpg",
+      "author": "No machine-readable author provided. Green assumed (based on copyright claims).",
+      "license": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "kind": "dry_leaf",
+      "alt": "Pile of large, flat, whole brown dry leaves of Yoshino nikkan bancha with some stems on a white background"
+    }
+  ]
 }

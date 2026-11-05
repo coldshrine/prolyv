@@ -1,0 +1,54 @@
+{
+  "slug": "chay-e-kuhi",
+  "name_en": "Chay-e Kuhi",
+  "name_native": "چای کوهی",
+  "name_romanized": "chāy-e kuhi",
+  "aliases": [
+    "Chay-e Pashmi",
+    "چای پشمی",
+    "Chay-e Chupan",
+    "چای چوپان",
+    "Stachys lavandulifolia"
+  ],
+  "category": "tisane",
+  "origin_country": "Iran",
+  "origin_region": "Iran",
+  "cultivar": null,
+  "form": "loose",
+  "caffeine_level": "none",
+  "brewing": {
+    "grams": 2,
+    "water_ml": 200,
+    "temp_c": 100,
+    "steeps": 1,
+    "seconds": [
+      300
+    ],
+    "notes": "A common starting point for herbal infusions: boiling water, about five minutes."
+  },
+  "taste_tags": [
+    "herbal"
+  ],
+  "description": "Mountain tea of Iran, made from the perennial Stachys lavandulifolia, which grows at 1,900 to 3,300 metres, most often on gentle slopes and mountain ridges.\n\nBrew it as you would other herbal infusions. If the plant is new to you, check that it is safe for you first, especially when pregnant or on medication.",
+  "wikipedia_title": null,
+  "wikipedia_scope": "none",
+  "popularity": 1,
+  "name_zh": "伊朗山茶草茶",
+  "name_ru": "Чай-е кухи",
+  "history": "It has many regional names across Iran, among them shepherd's tea and woolly tea. It is used as a soothing remedy for digestive complaints, and traditional Iranian medicine classes it as hot and dry, with a warning that drinking too much can make urine bloody. Little is documented about its history as a drink.",
+  "liquor_hex": "#C9A94F",
+  "leaf_hex": "#7D8466",
+  "sources": [
+    "https://fa.wikipedia.org/wiki/%DA%86%D8%A7%DB%8C_%DA%A9%D9%88%D9%87%DB%8C"
+  ],
+  "confidence": "medium",
+  "images": [],
+  "stub": true,
+  "processing": "Dried plant material, as with most herbal infusions.",
+  "harvest_season": "Depends on the plant and the place.",
+  "appearance_dry": "Hairy green to greyish stems with narrow leaves and spiked flowers in pink, purple or rarely white or yellowish.",
+  "appearance_liquor": "Depends on the plant; usually pale to amber.",
+  "appearance_wet": "Softened plant material.",
+  "taste_profile": "A herbal infusion; the taste depends on the plant.",
+  "vintage_note": "Herbal infusions are not sold by vintage: buy recent stock and use it within a year or so."
+}

@@ -1,0 +1,58 @@
+{
+  "slug": "fulu-gongcha",
+  "name_en": "Fulu Gongcha",
+  "name_native": "福禄贡茶",
+  "name_romanized": "Fúlù Gòngchá",
+  "aliases": [
+    "福祿貢茶",
+    "Good Fortune Tribute Tea"
+  ],
+  "category": "sheng",
+  "origin_country": "China",
+  "origin_region": "Yunnan · Fengshan",
+  "cultivar": null,
+  "form": "cake",
+  "caffeine_level": "high",
+  "brewing": {
+    "grams": 6,
+    "water_ml": 110,
+    "temp_c": 95,
+    "steeps": 7,
+    "seconds": [
+      10,
+      10,
+      15,
+      20,
+      25,
+      35,
+      50
+    ],
+    "notes": "A safe starting point for raw pu-erh: rinse once, gongfu style, short early steeps."
+  },
+  "taste_tags": [
+    "bitter",
+    "sweet"
+  ],
+  "description": "A raw pu-erh from Fengshan in Yunnan whose name means Good Fortune Tribute Tea.\n\nThis is a way of preparing tea more than a tea you buy under one name, so the recipe and the base tea change from one maker to the next.",
+  "wikipedia_title": null,
+  "wikipedia_scope": "none",
+  "popularity": 1,
+  "name_zh": "福禄贡茶",
+  "name_ru": "Фу Лу Гун Ча",
+  "history": null,
+  "liquor_hex": "#C9A23C",
+  "leaf_hex": "#5A5A3A",
+  "sources": [
+    "https://babelcarp.org/babelcarp/babelcarp.cgi?phrase=Fulu%20Gongcha"
+  ],
+  "confidence": "low",
+  "images": [],
+  "stub": true,
+  "processing": "Made from a raw pu-erh base tea according to the recipe; the method varies.",
+  "harvest_season": "Not tied to a harvest: it depends on the base tea.",
+  "appearance_dry": "Usually a pressed cake of silvery-green to brown leaf, darkening with age.",
+  "appearance_liquor": "Usually pale gold when young, deepening to amber with age.",
+  "appearance_wet": "Usually thick, large leaf.",
+  "taste_profile": "Expect what young raw pu-erh usually gives: bright, bitter-sweet and full, mellowing with age.",
+  "vintage_note": "Not sold by vintage: it is made from whatever base tea the maker keeps, so freshness of the base matters more than the year."
+}

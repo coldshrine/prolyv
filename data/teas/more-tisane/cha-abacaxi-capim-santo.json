@@ -1,0 +1,52 @@
+{
+  "slug": "cha-abacaxi-capim-santo",
+  "name_en": "Chá de Abacaxi com Capim-santo",
+  "name_native": "chá de abacaxi com capim-santo",
+  "name_romanized": null,
+  "aliases": [
+    "Pineapple-and-lemongrass tea"
+  ],
+  "category": "tisane",
+  "origin_country": "Brazil",
+  "origin_region": "Brazil",
+  "cultivar": null,
+  "form": "other",
+  "caffeine_level": "none",
+  "brewing": {
+    "grams": 2,
+    "water_ml": 200,
+    "temp_c": 100,
+    "steeps": 1,
+    "seconds": [
+      300
+    ],
+    "notes": "A common starting point for herbal infusions: boiling water, about five minutes."
+  },
+  "taste_tags": [
+    "fruity",
+    "citrus",
+    "herbal"
+  ],
+  "description": "A Brazilian iced drink made from lemongrass and pineapple peelings.\n\nBrew it as you would other herbal infusions. If the plant is new to you, check that it is safe for you first, especially when pregnant or on medication.",
+  "wikipedia_title": null,
+  "wikipedia_scope": "none",
+  "popularity": 1,
+  "name_zh": "菠萝柠檬草茶",
+  "name_ru": "Ша де абакаши с капим-санту",
+  "history": "Lemongrass came to Brazil from Southeast Asia and is drunk there mainly in herbal teas and health drinks. Little is documented about this particular drink.",
+  "liquor_hex": "#D9C878",
+  "leaf_hex": "#8A9A4E",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Brazilian_tea_culture"
+  ],
+  "confidence": "low",
+  "images": [],
+  "stub": true,
+  "processing": "Made from lemongrass and pineapple peelings and served iced.",
+  "harvest_season": "Depends on the plant and the place.",
+  "appearance_dry": "Dried plant material.",
+  "appearance_liquor": "Depends on the plant; usually pale to amber.",
+  "appearance_wet": "Softened plant material.",
+  "taste_profile": "A herbal infusion; the taste depends on the plant.",
+  "vintage_note": "Herbal infusions are not sold by vintage: buy recent stock and use it within a year or so."
+}

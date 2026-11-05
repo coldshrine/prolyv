@@ -1,0 +1,54 @@
+{
+  "slug": "chancapiedra",
+  "name_en": "Chancapiedra (Quebra-pedra)",
+  "name_native": "chancapiedra",
+  "name_romanized": null,
+  "aliases": [
+    "Chancapiedra",
+    "Quebra-pedra",
+    "Quiebra piedra",
+    "Rompepiedra"
+  ],
+  "category": "tisane",
+  "origin_country": "Peru",
+  "origin_region": "Amazon basin",
+  "cultivar": null,
+  "form": "loose",
+  "caffeine_level": "none",
+  "brewing": {
+    "grams": 2,
+    "water_ml": 200,
+    "temp_c": 100,
+    "steeps": 1,
+    "seconds": [
+      300
+    ],
+    "notes": "A common starting point for herbal infusions: boiling water, about five minutes."
+  },
+  "taste_tags": [
+    "herbal"
+  ],
+  "description": "A home tea from small herbs of the genus Phyllanthus, above all Phyllanthus niruri, a wild American annual found in the Amazon basin and all across tropical Peru.\n\nBrew it as you would other herbal infusions. If the plant is new to you, check that it is safe for you first, especially when pregnant or on medication.",
+  "wikipedia_title": null,
+  "wikipedia_scope": "none",
+  "popularity": 1,
+  "name_zh": "珠子草茶",
+  "name_ru": "Чанкапьедра",
+  "history": "Its names, in Spanish and Portuguese, mean stone-breaker, and in Brazil it is brewed at home in the belief that it dissolves kidney and bladder stones. Traditional medicine in Brazil, Peru, the Caribbean and India knows the plant, which is also grown in India. Several species share the name in Brazil.",
+  "liquor_hex": "#C8C07A",
+  "leaf_hex": "#6D7D42",
+  "sources": [
+    "https://es.wikipedia.org/wiki/Phyllanthus_niruri",
+    "https://pt.wikipedia.org/wiki/Quebra-pedra"
+  ],
+  "confidence": "medium",
+  "images": [],
+  "stub": true,
+  "processing": "Dried plant material, as with most herbal infusions.",
+  "harvest_season": "Depends on the plant and the place.",
+  "appearance_dry": "Dried plant material.",
+  "appearance_liquor": "Depends on the plant; usually pale to amber.",
+  "appearance_wet": "Softened plant material.",
+  "taste_profile": "A herbal infusion; the taste depends on the plant.",
+  "vintage_note": "Herbal infusions are not sold by vintage: buy recent stock and use it within a year or so."
+}

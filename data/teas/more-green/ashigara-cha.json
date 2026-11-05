@@ -21,7 +21,6 @@
   "appearance_wet": "Soft green leaf pieces that stay mostly whole, typical of a short steaming.",
   "taste_profile": "Sweetness and astringency sit in balance, with a clear fragrance that is the tea's calling card.",
   "taste_tags": [
-    "floral",
     "sweet",
     "umami",
     "vegetal"
@@ -52,5 +51,26 @@
   "wikipedia_title": "足柄茶",
   "wikipedia_scope": "exact",
   "popularity": 3,
-  "images": []
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e1/AshigaraChaIce.jpg/1280px-AshigaraChaIce.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e1/AshigaraChaIce.jpg/330px-AshigaraChaIce.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source_page": "https://commons.wikimedia.org/wiki/File:AshigaraChaIce.jpg",
+      "author": "Azegamaru",
+      "license": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0",
+      "kind": "liquor",
+      "alt": "Iced Ashigara tea, clear golden yellow, in a stemmed glass with a green leaf"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0d/AshigaraTeaPlantation.jpg/1280px-AshigaraTeaPlantation.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0d/AshigaraTeaPlantation.jpg/330px-AshigaraTeaPlantation.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source_page": "https://commons.wikimedia.org/wiki/File:AshigaraTeaPlantation.jpg",
+      "author": "Azegamaru",
+      "license": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0",
+      "kind": "plantation",
+      "alt": "Rows of Ashigara tea bushes on a hillside with mountains behind"
+    }
+  ]
 }

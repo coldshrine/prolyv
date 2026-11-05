@@ -1,0 +1,55 @@
+{
+  "slug": "almond-tea",
+  "name_en": "Xing Ren Cha (Almond Tea)",
+  "name_native": "杏仁茶",
+  "name_romanized": "xìngrén chá",
+  "aliases": [
+    "Almond tea",
+    "杏仁露",
+    "杏酪",
+    "杏仁霜"
+  ],
+  "category": "tisane",
+  "origin_country": "China",
+  "origin_region": "China",
+  "cultivar": null,
+  "form": "powder",
+  "caffeine_level": "none",
+  "brewing": {
+    "grams": 2,
+    "water_ml": 200,
+    "temp_c": 100,
+    "steeps": 1,
+    "seconds": [
+      300
+    ],
+    "notes": "A common starting point for herbal infusions: boiling water, about five minutes."
+  },
+  "taste_tags": [
+    "nutty",
+    "sweet",
+    "creamy"
+  ],
+  "description": "A sweet almond drink from China containing no tea leaf. Beijing serves a version made with almond powder and many toppings, and Hong Kong has a thicker version called almond cream.\n\nBrew it as you would other herbal infusions. If the plant is new to you, check that it is safe for you first, especially when pregnant or on medication.",
+  "wikipedia_title": null,
+  "wikipedia_scope": "none",
+  "popularity": 1,
+  "name_zh": "杏仁茶",
+  "name_ru": "Син Жэнь Ча",
+  "history": "Qing-dynasty food writing records it as xingluo: Zhu Yizun's Shixian Hongmi describes soaking, skinning and grinding almonds much as for soy milk, and Yuan Mei's Suiyuan Shidan adds rice flour. By the late Qing and early Republic the name almond tea had taken over. It counts among the four great teas of old Beijing and is said to have reached the public from the palace.",
+  "liquor_hex": "#EFE3C8",
+  "leaf_hex": "#D9C49A",
+  "sources": [
+    "https://zh.wikipedia.org/wiki/%E6%9D%8F%E4%BB%81%E8%8C%B6"
+  ],
+  "confidence": "medium",
+  "images": [],
+  "stub": true,
+  "processing": "Almonds are ground into a milk or powder, then cooked or mixed with boiling water and sweetened.",
+  "harvest_season": "Depends on the plant and the place.",
+  "appearance_dry": "Dried plant material.",
+  "appearance_liquor": "Depends on the plant; usually pale to amber.",
+  "appearance_wet": "Softened plant material.",
+  "taste_profile": "A herbal infusion; the taste depends on the plant.",
+  "vintage_note": "Herbal infusions are not sold by vintage: buy recent stock and use it within a year or so."
+}

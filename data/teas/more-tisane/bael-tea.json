@@ -18,13 +18,13 @@
   "origin_country": "Thailand",
   "origin_region": "Thailand · nationwide",
   "cultivar": null,
-  "processing": "Young bael fruit (Aegle marmelos) is cut into thin slices, about 3 mm, and sun-dried. Slices are often lightly toasted before boiling to bring out the aroma.",
+  "processing": "Young bael fruit (Aegle marmelos) is cut into thin slices and dried. Slices are often lightly toasted before boiling to bring out the aroma.",
   "form": "other",
   "harvest_season": "No prized harvest is recorded for this drink; young fruit is the kind used for drying.",
   "appearance_dry": "Thin, round, brown hard slices of dried fruit.",
-  "appearance_liquor": "Clear golden to amber.",
+  "appearance_liquor": "Clear amber to brown.",
   "appearance_wet": "Softened brown fruit slices.",
-  "taste_profile": "Gently sweet and fragrant, sometimes likened to orange; unsweetened and weakly brewed, it can taste of very little.",
+  "taste_profile": "Fragrant and gently sweet, with a hint of bitterness; it tastes less sweet than it smells.",
   "taste_tags": [
     "fruity",
     "sweet",
@@ -36,15 +36,15 @@
     "temp_c": 100,
     "steeps": 1,
     "seconds": [
-      600
+      1200
     ],
-    "notes": "Toast 5 to 7 slices briefly until fragrant, then boil for 5 to 10 minutes. Sweeten if you like, and serve hot or iced."
+    "notes": "Toast 8 to 10 slices briefly until fragrant, then boil for 15 to 20 minutes in about 1.4 litres of water. Sweeten if you like, and serve hot or iced."
   },
   "caffeine_level": "none",
   "vintage_note": "Sold as dried slices, tea bags or sweetened powder, with no vintages or seasonal lots. Packages of dried slices are the honest form; powders may already contain sugar. Look for clean, unburnt slices and use them while they still smell of something.",
-  "description": "Bael tea, nam matum in Thai, is a drink of dried bael fruit, not of tea leaves. The tree is native to the Indian subcontinent and Southeast Asia, and in Thailand it is also planted as an auspicious tree.\n\nThe young fruit is sliced thin and sun-dried. Many cooks then toast the slices quickly under a flame, in a dry pan or an oven, since a bit of heat makes the drink smell much stronger.\n\nBoil it rather than just pouring water over it, and do not expect intensity. Descriptions range from sweet and tangy to hardly any taste at all, which probably reflects how much fruit and how much time went in. Be generous with the slices, and add sugar or honey if that is how you like it.\n\nIn Thailand it is common enough to be drunk both hot and iced. Buying dried slices lets you control strength and sweetness, unlike the ready-sweetened powders.",
+  "description": "Bael tea, nam matum in Thai, is a drink of dried bael fruit, not of tea leaves. The tree is native to the Indian subcontinent and Southeast Asia, and in Thailand it is also planted as an auspicious tree.\n\nThe young fruit is sliced thin and sun-dried. Many cooks then toast the slices quickly under a broiler or flame, or in a microwave, to bring out the aroma.\n\nBoil it rather than just pouring water over it, and do not expect intensity. Expect something sweet and aromatic with a hint of bitterness, less sweet than the smell promises. Add sugar if that is how you like it.\n\nIn Thailand it is common enough to be drunk both hot and iced. Buying dried slices lets you control strength and sweetness, unlike the ready-sweetened powders.",
   "history": "Little is documented about the history of the drink itself. The fruit has a long place in Thai and Indian life: boiled dried slices are a familiar Thai home drink, and in India the tree is sacred to Shiva and commonly found in temple gardens.",
-  "liquor_hex": "#C98A3C",
+  "liquor_hex": "#A9692E",
   "leaf_hex": "#A9743A",
   "sources": [
     "https://th.wikipedia.org/wiki/%E0%B8%A1%E0%B8%B0%E0%B8%95%E0%B8%B9%E0%B8%A1",
@@ -56,5 +56,26 @@
   "wikipedia_title": "Herbal tea",
   "wikipedia_scope": "umbrella",
   "popularity": 2,
-  "images": []
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/58/Bael03_FSPark_Asit.jpg/1280px-Bael03_FSPark_Asit.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/58/Bael03_FSPark_Asit.jpg/330px-Bael03_FSPark_Asit.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Bael03_FSPark_Asit.jpg",
+      "author": "Asit K. Ghosh Thaumaturgist",
+      "license": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "kind": "plant",
+      "alt": "Unripe green bael fruits hanging from a bael tree"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/16/Bael16_Mounts_Asit.jpg/1280px-Bael16_Mounts_Asit.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/16/Bael16_Mounts_Asit.jpg/330px-Bael16_Mounts_Asit.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Bael16_Mounts_Asit.jpg",
+      "author": "Asit K. Ghosh Thaumaturgist",
+      "license": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "kind": "plant",
+      "alt": "Halved ripe bael fruit showing orange pulp and pale rind"
+    }
+  ]
 }

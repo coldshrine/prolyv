@@ -1,0 +1,52 @@
+{
+  "slug": "mate-dulce",
+  "name_en": "Mate Dulce",
+  "name_native": "mate dulce",
+  "name_romanized": null,
+  "aliases": [
+    "Mate doce",
+    "Sweet mate"
+  ],
+  "category": "tisane",
+  "origin_country": "Argentina",
+  "origin_region": "Santiago del Estero · Córdoba · Buenos Aires",
+  "cultivar": null,
+  "form": "loose",
+  "caffeine_level": "none",
+  "brewing": {
+    "grams": 2,
+    "water_ml": 200,
+    "temp_c": 100,
+    "steeps": 1,
+    "seconds": [
+      300
+    ],
+    "notes": "A common starting point for herbal infusions: boiling water, about five minutes."
+  },
+  "taste_tags": [
+    "sweet",
+    "honey"
+  ],
+  "description": "Yerba mate sweetened with sugar or honey, the counterpart of unsweetened mate amargo. It is widespread in several Argentine regions and in rural Chile.\n\nBrew it as you would other herbal infusions. If the plant is new to you, check that it is safe for you first, especially when pregnant or on medication.",
+  "wikipedia_title": null,
+  "wikipedia_scope": "none",
+  "popularity": 1,
+  "name_zh": "甜马黛茶",
+  "name_ru": "Сладкий мате",
+  "history": "The sweetener goes on the edge of the hollow the straw makes in the yerba, sometimes only in the first serving to soften its bitterness. A Paraguayan variant replaces the water with milk heated with caramelized sugar. Traditionalists tend to reject additions to mate. Its origins are not documented.",
+  "liquor_hex": "#A9A24A",
+  "leaf_hex": "#6E7A3A",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Mate_%28drink%29"
+  ],
+  "confidence": "medium",
+  "images": [],
+  "stub": true,
+  "processing": "Sugar or honey is added to taste at each serving, placed at the edge of the straw's hollow rather than over the whole gourd.",
+  "harvest_season": "Depends on the plant and the place.",
+  "appearance_dry": "Dried plant material.",
+  "appearance_liquor": "Depends on the plant; usually pale to amber.",
+  "appearance_wet": "Softened plant material.",
+  "taste_profile": "A herbal infusion; the taste depends on the plant.",
+  "vintage_note": "Herbal infusions are not sold by vintage: buy recent stock and use it within a year or so."
+}

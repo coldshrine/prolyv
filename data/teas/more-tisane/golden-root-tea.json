@@ -52,5 +52,36 @@
     "https://ru.wikipedia.org/wiki/%D0%A0%D0%BE%D0%B4%D0%B8%D0%BE%D0%BB%D0%B0_%D1%80%D0%BE%D0%B7%D0%BE%D0%B2%D0%B0%D1%8F"
   ],
   "confidence": "low",
-  "images": []
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ef/Rhodiola_rosea_%28male_bud%29.jpg/1280px-Rhodiola_rosea_%28male_bud%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ef/Rhodiola_rosea_%28male_bud%29.jpg/330px-Rhodiola_rosea_%28male_bud%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Rhodiola_rosea_(male_bud).jpg",
+      "author": "Alpsdake",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "kind": "plant",
+      "alt": "Rhodiola rosea plant with yellow-green flower heads growing on rocky soil"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/24/Rhodiola_rosea_RF.jpg/1280px-Rhodiola_rosea_RF.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/24/Rhodiola_rosea_RF.jpg/330px-Rhodiola_rosea_RF.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Rhodiola_rosea_RF.jpg",
+      "author": "Robert Flogaus-Faust",
+      "license": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0",
+      "kind": "plant",
+      "alt": "Rhodiola rosea stems with narrow leaves and yellow-green flower heads"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e1/Rhodiola_rosea_%28female_and_male%29.jpg/1280px-Rhodiola_rosea_%28female_and_male%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e1/Rhodiola_rosea_%28female_and_male%29.jpg/330px-Rhodiola_rosea_%28female_and_male%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Rhodiola_rosea_(female_and_male).jpg",
+      "author": "Alpsdake",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "kind": "plant",
+      "alt": "Female and male Rhodiola rosea plants growing among rocks in the Hida Mountains, Japan"
+    }
+  ]
 }

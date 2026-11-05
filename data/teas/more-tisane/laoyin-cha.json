@@ -1,0 +1,52 @@
+{
+  "slug": "laoyin-cha",
+  "name_en": "Laoyin Cha",
+  "name_native": "老荫茶",
+  "name_romanized": "lǎo yīn chá",
+  "aliases": [
+    "Laoyincha",
+    "老蔭茶"
+  ],
+  "category": "tisane",
+  "origin_country": "China",
+  "origin_region": "Chongqing · Wulong",
+  "cultivar": null,
+  "form": "loose",
+  "caffeine_level": "none",
+  "brewing": {
+    "grams": 2,
+    "water_ml": 200,
+    "temp_c": 100,
+    "steeps": 1,
+    "seconds": [
+      300
+    ],
+    "notes": "A common starting point for herbal infusions: boiling water, about five minutes."
+  },
+  "taste_tags": [
+    "herbal",
+    "woody"
+  ],
+  "description": "A thirst-quenching everyday drink of Chongqing and Sichuan made from the thick, large leaves of a mountain forest tree rather than the tea plant.\n\nBrew it as you would other herbal infusions. If the plant is new to you, check that it is safe for you first, especially when pregnant or on medication.",
+  "wikipedia_title": null,
+  "wikipedia_scope": "none",
+  "popularity": 1,
+  "name_zh": "老荫茶",
+  "name_ru": "Лао Инь Ча",
+  "history": "It was sold by the bowl under the banyans on Chongqing's stepped streets, at one fen a bowl, and is still served alongside hotpot. It is the city's counterpart to Beijing's big-bowl tea. Little more is documented about its origins.",
+  "liquor_hex": "#9A4A1E",
+  "leaf_hex": "#4A3A22",
+  "sources": [
+    "https://milulu.com.cn/techan/51472.html"
+  ],
+  "confidence": "medium",
+  "images": [],
+  "stub": true,
+  "processing": "Traditionally boiled; leaves touched by tea insects are said to taste better.",
+  "harvest_season": "Depends on the plant and the place.",
+  "appearance_dry": "Dried plant material.",
+  "appearance_liquor": "Reddish brown.",
+  "appearance_wet": "Softened plant material.",
+  "taste_profile": "Lightly fragrant and full, cooling and thirst-quenching.",
+  "vintage_note": "Herbal infusions are not sold by vintage: buy recent stock and use it within a year or so."
+}

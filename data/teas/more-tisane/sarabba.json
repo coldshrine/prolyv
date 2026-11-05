@@ -1,0 +1,49 @@
+{
+  "slug": "sarabba",
+  "name_en": "Sarabba",
+  "name_native": null,
+  "name_romanized": null,
+  "aliases": [],
+  "category": "tisane",
+  "origin_country": "Indonesia",
+  "origin_region": "South Sulawesi · Makassar",
+  "cultivar": null,
+  "form": "other",
+  "caffeine_level": "none",
+  "brewing": {
+    "grams": 2,
+    "water_ml": 200,
+    "temp_c": 100,
+    "steeps": 1,
+    "seconds": [
+      300
+    ],
+    "notes": "A common starting point for herbal infusions: boiling water, about five minutes."
+  },
+  "taste_tags": [
+    "sweet",
+    "spicy"
+  ],
+  "description": "A traditional spiced drink of Makassar in South Sulawesi, based on egg and sugar with spices such as cinnamon and clove.\n\nBrew it as you would other herbal infusions. If the plant is new to you, check that it is safe for you first, especially when pregnant or on medication.",
+  "wikipedia_title": null,
+  "wikipedia_scope": "none",
+  "popularity": 1,
+  "name_zh": "望加锡萨拉巴香料饮",
+  "name_ru": "Сарабба",
+  "history": "It is prepared with a particular ritual and served in a glass without ice, and it is regarded as part of the local heritage of South Sulawesi. Little more is documented about its past.",
+  "liquor_hex": "#B98A4A",
+  "leaf_hex": "#6B4A2A",
+  "sources": [
+    "https://id.wikipedia.org/wiki/Sarabba"
+  ],
+  "confidence": "low",
+  "images": [],
+  "stub": true,
+  "processing": "Egg and sugar are combined with spices including cinnamon and clove.",
+  "harvest_season": "Depends on the plant and the place.",
+  "appearance_dry": "Dried plant material.",
+  "appearance_liquor": "Depends on the plant; usually pale to amber.",
+  "appearance_wet": "Softened plant material.",
+  "taste_profile": "Sweet and spiced.",
+  "vintage_note": "Herbal infusions are not sold by vintage: buy recent stock and use it within a year or so."
+}

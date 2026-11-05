@@ -1,71 +1,740 @@
 {
-"gu-shu-dian-hong": "The only page read covers Dian Hong in general, not old-tree black. Vendor pages for old-tree black could not be opened (rate limited), so the style is confirmed only through search snippets.",
-"gui-hong": "桂红 follows the pattern of 湖红 and 滇红 but no opened page uses it as a product name, and the 1960s start of production is unconfirmed. Needs a human check.",
-"hainan-black": "The early history still has no readable source; the card's own description (Yunnan seed, February to November picking) is also unconfirmed. Needs a human check.",
-"bai-ye-dancong": "Possible duplicate of lingtou-dancong: this card itself treats the two as one plant under two names, a link no source read here confirms or refutes. Needs a human decision on merging.",
-"thai-black": "This entry joins two different things under one name: the commercial milk-tea base, which may be imported leaf, and small-lot orthodox black tea from northern Thailand. No single product matches it; splitting into two entries may be cleaner.",
-"dian-hong-golden-buds": "Overlaps with the Golden Needle style and with the leafier Dian Hong grades; it is a real grade, not a separate origin.",
-"style-flavoured-teas": "A style explainer rather than a single tea; its origin_country and category are a convention, since flavoured teas are made worldwide on any base.",
-"style-scented-teas": "A method explainer rather than a single tea; overlaps with the individual jasmine and osmanthus entries.",
-"yunnan-wild-tree-black": "This is a loose market label covering differing plants and regions, not one defined tea.",
-"kagoshima-sencha": "Close overlap with any separate Chiran-cha or Kirishima-cha entry, if one exists; this describes a prefecture's sencha rather than a single tea.",
-"matcha-ceremonial": "Name in Chinese is plain 抹茶, shared with any general or culinary matcha entry; this one is the drinking grade of the same tea.",
-"da-bai-cultivar-white": "This is a group of cultivars rather than a product you can buy as such; it overlaps with the Fuding vs Zhenghe card.",
-"dian-lu-yunnan-green": "This is a broad regional category more than a single named tea.",
-"fuding-vs-zhenghe-white": "A comparison of two origins rather than one tea; it overlaps with the Da Bai cultivar card.",
-"tunlu": "Trade category rather than one product.",
-"ye-sheng-bai-cha": "A loose market label covering Fujian abandoned-garden tea and Yunnan wild-tree tea, not one defined product; it overlaps with other white teas from those regions.",
-"shu-puerh-yiwu": "This is a style label on scattered products rather than a documented regional tea; the evidence for it is merchant listings.",
-"shu-puerh-young": "An age class of ripe pu-erh rather than a distinct tea; it overlaps with every other shu card in its first years.",
-"longjing-43-vs-qunti": "Comparison entry rather than a single tea; overlaps with the Longjing entries by design.",
-"pre-qingming-longjing": "A picking grade of Longjing, not a separate tea; overlaps with the West Lake Longjing entry by design.",
-"ceylon-op-bop": "Not a single tea but a grade family; it overlaps every Ceylon district tea.",
-"indian-ctc-chai-base": "Overlaps assam-ctc in method and leaf; this card is the blended household product, that one the single-region tea.",
-"xiao-chi-gan": "The name is a picking grade inside unsmoked Tongmu black tea, and overlaps with Da Chi Gan and Tong Jun Mei; only seller sources define it.",
-"liu-bao-aged": "Not a separate tea but aged lots of liu-bao; kept as a useful companion card.",
-"liu-bao-forms-and-grades": "This is a guide to forms of liu-bao rather than a single tea, and its name_native is a descriptive composite.",
-"min-hong-overview": "An overview of a family rather than a single tea; overlaps tanyang-gongfu, bai-lin-gongfu and zhenghe-gongfu by design.",
-"que-she": "Name is shared with green teas, and zh Wikipedia's Que She page and Wikidata label describe the green tea, not this Wuyi oolong.",
-"raoping-dancong": "Regional umbrella label that overlaps with lingtou-dancong; not a separately defined tea.",
-"nepal-golden-tips": "A generic grade name used by several producers, not one specific product.",
-"tong-tian-xiang-dancong": "Overlaps with Jiang Hua Xiang: some sources treat the names as synonyms, others as a variety within the type. Worth reviewing whether it should remain a separate entry.",
-"style-compressed-teas": "This is a family of forms, not one tea: it spans pu-erh, dark, white and other categories, so category 'sheng' fits only part of it.",
-"hawaiian-oolong": "A loose category of small-farm teas, not a single product.",
-"jungjak": "A harvest grade of Korean green tea, not a distinct tea.",
-"shiraore": "Regional synonym of karigane, not a distinct product: Kyushu name for the same gyokuro or high-grade sencha stem tea. Consider cross-linking the two cards.",
-"thai-green": "A loose category across several farms rather than one defined product.",
-"doi-mae-salong-oolong-no-17": "The alias 'Bai Lu oolong' probably mislabels this tea, as the cultivar sold is Ruan Zhi/Qing Xin; the Bai Lu numbering itself could not be confirmed.",
-"sheng-puerh-young": "A stage in the life of any sheng, not a distinct product; it overlaps with every origin card.",
-"taiwanese-white-tea": "This is a loose category of small-producer teas rather than one defined product.",
-"mi-xiang-oolong": "Overlaps with Gui Fei, which is also sold as honey oolong; the line between the two may be a matter of trade naming rather than a separate style.",
-"osmanthus-oolong-taiwan": "Sources still empty: the dossier is thin and the web search budget ran out before any page could be confirmed. Needs a source in a follow-up pass.",
-"carpathian-herbal-tea": "sources is still empty: the dossier has no URL and web search was unavailable (budget used up), so no page about this tea could be confirmed. Needs a real source or removal of the card's specifics.",
-"style-bug-bitten-teas": "Web search unavailable in this pass; the page covers Oriental Beauty only, not the term 着蜒茶 or the wider style, and the name_zh is unconfirmed by a source.",
-"boseong-green": "Steamed versus pan-fired share at Boseong is unresolved: one importer against the card's earlier text.",
-"muzha-tie-guan-yin": "Zhang Naimiao in the base description comes from the writer's memory and is unconfirmed.",
-"luye-red-oolong": "The 2008 Taitung branch origin, altitude and Fulu brand in the base card are from memory and unconfirmed.",
-"hong-yun-black": "Sources still empty: the dossier is thin and the web search budget ran out before any page could be confirmed. Needs a source in a follow-up pass.",
-"jin-xuan-black": "Sources still empty: the dossier is thin and the web search budget ran out before any page could be confirmed. Needs a source in a follow-up pass.",
-"mi-xiang-black": "Sources still empty: the dossier is thin and the web search budget ran out before any page could be confirmed. Needs a source in a follow-up pass.",
-"roasted-bao-zhong": "Sources still empty: the dossier is thin and the web search budget ran out before any page could be confirmed. Needs a source in a follow-up pass.",
-"sanxia-bi-luo-chun": "Sources still empty: the dossier is thin and the web search budget ran out before any page could be confirmed. Needs a source in a follow-up pass.",
-"style-charcoal-roasting": "Web search unavailable in this pass; neither source mentions charcoal, so the technique details in the base card are unverified.",
-"hei-meiren": "Only a shop listing confirms the name; 黑美人 as a tea is unconfirmed, zh mentions are unrelated. Consider dropping.",
-"english-afternoon-tea": "No source at all: needs a URL about this blend before publishing. Not a doubt about the tea existing, but the card is unsupported.",
-"t78-cultivar": "Only dossier hit is an unrelated ICD code (T78) on Histamine intolerance. Sources empty and web search budget was exhausted during verification, so existence and details could not be confirmed; needs a source before publishing.",
-"benifuji": "Sources empty and web search budget was exhausted during verification, so existence and details could not be confirmed; needs a source before publishing.",
-"benihikari": "Sources empty and web search budget was exhausted during verification, so existence and details could not be confirmed; needs a source before publishing.",
-"benikaori": "Sources empty and web search budget was exhausted during verification, so existence and details could not be confirmed; needs a source before publishing.",
-"karabeni": "Sources empty and web search budget was exhausted during verification, so existence and details could not be confirmed; needs a source before publishing.",
-"yame-koucha": "Sources empty and web search budget was exhausted during verification, so existence and details could not be confirmed; needs a source before publishing.",
-"blackcurrant-tea": "sources is empty: the dossier has no page on this tea and web search budget was exhausted, so no URL could be verified. Needs a real source; the UK origin is unconfirmed.",
-"laoshan-black-tea": "No source URL could be confirmed for this card; web search budget was exhausted. sources is still empty and needs a real page.",
-"huoshan-cuiya": "Two searches found no page about 霍山翠芽 itself, only Huoshan Huangya. The name may be a rare local label or a mix-up; the only source is for the contrast with Huangya, not this tea.",
-"foxiang-2": "No page anywhere names 佛香2号; a targeted search returned only 佛香3号. Sources stay empty because no honest URL exists. Consider dropping this card.",
-"wenjun-nenlu": "Searches found no page on 文君嫩绿 as a product; 嫩绿 appears only as an old Linqiong tea term and Wenjun as a brand. Possibly not a real distinct tea or a duplicate of Wenjun green tea; sources empty.",
-"kuma-cha": "No page found using the name 久万茶; only 面河茶 is documented for Kumakogen. The tea may not exist under this name or may duplicate Omogo tea.",
-"dandelion-tea": "Duplicates more-tisane/dandelion-coffee: same Wikidata item Q3269640 and the same drink, and that card lists Dandelion tea and 민들레차 as aliases. Its origin is United States, this one South Korea. Decide whether to merge.",
-"xiao-chi-gan-puerh": "The name 小赤柑 was not found in a Chinese search or in the listed source, which covers tangerine pu-erh generally; only a shop listing supports it, possibly a seller's product name.",
-"jun-chiyabari": "Master category was oolong; card says black. The garden makes several styles, so one category is a judgement call.",
-"teen-ali-estate": "No source found by dossier, writer or a web search; the garden's existence is unconfirmed and sources stays empty. Consider removing this card."
+"gu-shu-dian-hong": {
+"doubt": "The only page read covers Dian Hong in general, not old-tree black. Vendor pages for old-tree black could not be opened (rate limited), so the style is confirmed only through search snippets.",
+"en": "Gu Shu Dian Hong (Ancient-Tree Yunnan Black)",
+"zh": "古树滇红",
+"conf": "low",
+"pop": 3,
+"sources": 1,
+"about": "Gu shu Dian Hong is Yunnan black made from old, seed-grown tea trees – the same 'ancient tree' material that raw pu-erh drinkers chase, processed as black tea instead. It is a recent market style rath"
+},
+"gui-hong": {
+"doubt": "桂红 follows the pattern of 湖红 and 滇红 but no opened page uses it as a product name, and the 1960s start of production is unconfirmed. Needs a human check.",
+"en": "Gui Hong (Guangxi Black)",
+"zh": "桂红",
+"conf": "low",
+"pop": 1,
+"sources": 1,
+"about": "Gui Hong is the black tea of Guangxi, the subtropical region south-west of Guangdong, and it has a split identity. Under its own name it is a modest regional gongfu black, reportedly made since the 19"
+},
+"hainan-black": {
+"doubt": "The early history still has no readable source; the card's own description (Yunnan seed, February to November picking) is also unconfirmed. Needs a human check.",
+"en": "Hainan Black Tea",
+"zh": "海南红茶",
+"conf": "low",
+"pop": 1,
+"sources": 1,
+"about": "Hainan black comes from China's tropical island, where tea grows at a latitude closer to Vietnam's than to Fujian's and the bushes never really stop. The industry was built in the late 1950s and 1960s"
+},
+"bai-ye-dancong": {
+"doubt": "Possible duplicate of lingtou-dancong: this card itself treats the two as one plant under two names, a link no source read here confirms or refutes. Needs a human decision on merging.",
+"en": "Bai Ye Dancong (White Leaf)",
+"zh": "白叶单丛",
+"conf": "low",
+"pop": 2,
+"sources": 1,
+"about": "Bai Ye, white leaf, is the dancong that pays the bills: an early, hardy, high-yielding strain with pale leaves and a straightforward honey-and-orchid cup, planted all over the Fenghuang range and the "
+},
+"thai-black": {
+"doubt": "This entry joins two different things under one name: the commercial milk-tea base, which may be imported leaf, and small-lot orthodox black tea from northern Thailand. No single product matches it; splitting into two entries may be cleaner.",
+"en": "Thai Black Tea (Cha Thai Base)",
+"zh": "泰国红茶",
+"conf": "low",
+"pop": 4,
+"sources": 4,
+"about": "Thailand's famous orange iced tea, cha yen, starts with strong black tea, generally described as Ceylon leaf, and how much of what goes into it is Thai-grown is hard to pin down. The assamica-type bus"
+},
+"dian-hong-golden-buds": {
+"doubt": "Overlaps with the Golden Needle style and with the leafier Dian Hong grades; it is a real grade, not a separate origin.",
+"en": "Dian Hong Golden Buds (Jin Ya)",
+"zh": "滇红金芽",
+"conf": "medium",
+"pop": 4,
+"sources": 2,
+"about": "Golden Buds, Dian Hong Jin Ya, is the luxury end of Yunnan black: nothing but fat, downy buds picked in early spring, which after full oxidation come out looking like a heap of golden fur. Labels can "
+},
+"style-flavoured-teas": {
+"doubt": "A style explainer rather than a single tea; its origin_country and category are a convention, since flavoured teas are made worldwide on any base.",
+"en": "Flavoured Teas (what 'flavouring' means on a label)",
+"zh": "调味茶",
+"conf": "medium",
+"pop": 4,
+"sources": 2,
+"about": "Flavoured tea is tea with an added aroma: a finished leaf sprayed with a concentrated flavouring and dressed with fruit pieces, petals or sprinkles. Earl Grey, scented with bergamot oil, is the grandf"
+},
+"style-scented-teas": {
+"doubt": "A method explainer rather than a single tea; overlaps with the individual jasmine and osmanthus entries.",
+"en": "Scented Teas (how scenting works)",
+"zh": "花茶",
+"conf": "medium",
+"pop": 4,
+"sources": 3,
+"about": "Scenting is the Chinese craft of getting a flower's aroma into tea without flavouring it: the tea and freshly picked flowers are layered together for hours while the blossoms open and breathe their sc"
+},
+"yunnan-wild-tree-black": {
+"doubt": "This is a loose market label covering differing plants and regions, not one defined tea.",
+"en": "Yunnan Wild-Tree Black (Ye Sheng Hong Cha)",
+"zh": "野生红茶",
+"conf": "low",
+"pop": 2,
+"sources": 2,
+"about": "Wild-tree black is the odd one out among Yunnan blacks because it may not be made from the plant most tea comes from. The 'wild' trees of Lincang, Baoshan and Dehong include Camellia taliensis, its hy"
+},
+"kagoshima-sencha": {
+"doubt": "Close overlap with any separate Chiran-cha or Kirishima-cha entry, if one exists; this describes a prefecture's sencha rather than a single tea.",
+"en": "Kagoshima Sencha (Chiran / Kirishima)",
+"zh": "鹿儿岛煎茶",
+"conf": "medium",
+"pop": 4,
+"sources": 2,
+"about": "Kagoshima, at the southern tip of Kyushu, is the new power in Japanese tea: warm, volcanic, flat enough for machines, and now neck and neck with Shizuoka for the top of the production tables, leading "
+},
+"matcha-ceremonial": {
+"doubt": "Name in Chinese is plain 抹茶, shared with any general or culinary matcha entry; this one is the drinking grade of the same tea.",
+"en": "Matcha (Ceremonial Grade)",
+"zh": "抹茶",
+"conf": "high",
+"pop": 5,
+"sources": 5,
+"about": "Ceremonial matcha is shaded green tea ground to a powder and whisked into water, at the quality meant for drinking straight as a thin usucha or a thick koicha, with no milk or sugar to hide behind. Uj"
+},
+"da-bai-cultivar-white": {
+"doubt": "This is a group of cultivars rather than a product you can buy as such; it overlaps with the Fuding vs Zhenghe card.",
+"en": "Da Bai Cultivar White Tea (Fuding Dabai, Dahao, Zhenghe Dabai)",
+"zh": "大白茶",
+"conf": "medium",
+"pop": 2,
+"sources": 2,
+"about": "The reason northern Fujian can make a tea out of nothing but buds is the bushes. Three cultivars, Fuding Dabai, Fuding Dahao and Zhenghe Dabai, were selected from local seedlings, propagated by cuttin"
+},
+"dian-lu-yunnan-green": {
+"doubt": "This is a broad regional category more than a single named tea.",
+"en": "Dian Lü (Yunnan Green)",
+"zh": "滇绿",
+"conf": "low",
+"pop": 2,
+"sources": 1,
+"about": "Dian Lü is simply green tea from Yunnan, made from the same big-leaf assamica bushes that give the province its pu-erh, but finished as a green rather than as sun-dried maocha. That one difference in "
+},
+"fuding-vs-zhenghe-white": {
+"doubt": "A comparison of two origins rather than one tea; it overlaps with the Da Bai cultivar card.",
+"en": "Fuding vs Zhenghe White Tea",
+"zh": "福鼎白茶与政和白茶",
+"conf": "medium",
+"pop": 3,
+"sources": 3,
+"about": "Almost all classic Chinese white tea comes from two neighbouring counties in northern Fujian, Fuding on the coast under Taimu Mountain and Zhenghe inland and higher up, and once you can tell them apar"
+},
+"tunlu": {
+"doubt": "Trade category rather than one product.",
+"en": "Tunlü (Tunxi Green)",
+"zh": "屯绿",
+"conf": "low",
+"pop": 2,
+"sources": 1,
+"about": "Tunlü, 'Tunxi green', is the collective name for the pan-fired greens of the old Huizhou tea counties in southern Anhui (Xiuning, Shexian, Yixian and the Tunxi district of Huangshan city), which were "
+},
+"ye-sheng-bai-cha": {
+"doubt": "A loose market label covering Fujian abandoned-garden tea and Yunnan wild-tree tea, not one defined product; it overlaps with other white teas from those regions.",
+"en": "Ye Sheng Bai Cha (Wild and Abandoned-Garden White)",
+"zh": "野生白茶",
+"conf": "low",
+"pop": 2,
+"sources": 1,
+"about": "'Wild white tea' is one of the most abused phrases in the trade and one of the most rewarding teas when it is real. In Fujian it almost always means huang ye, 'abandoned garden': tea bushes planted de"
+},
+"shu-puerh-yiwu": {
+"doubt": "This is a style label on scattered products rather than a documented regional tea; the evidence for it is merchant listings.",
+"en": "Yiwu Shu Pu-erh",
+"zh": "易武熟普洱",
+"conf": "low",
+"pop": 2,
+"sources": 1,
+"about": "Yiwu shu is ripe pu-erh fermented from the honeyed, gentle leaf of Yiwu, the softest raw-tea origin in Yunnan, and it is the quiet alternative to the dark, heavy ripe teas of Menghai. It is an uncommo"
+},
+"shu-puerh-young": {
+"doubt": "An age class of ripe pu-erh rather than a distinct tea; it overlaps with every other shu card in its first years.",
+"en": "Young Shu Pu-erh (1–3 Years)",
+"zh": "新熟茶",
+"conf": "low",
+"pop": 3,
+"sources": 1,
+"about": "Young shu is ripe pu-erh in its first few years after fermentation, and it is most of the ripe tea anyone drinks: cheap, comforting, nearly impossible to brew wrong, and occasionally smelling of the p"
+},
+"longjing-43-vs-qunti": {
+"doubt": "Comparison entry rather than a single tea; overlaps with the Longjing entries by design.",
+"en": "Longjing 43 vs Qunti (Dragon Well cultivars)",
+"zh": "龙井43与群体种",
+"conf": "high",
+"pop": 3,
+"sources": 6,
+"about": "Ask a Hangzhou tea seller what is in the bag and you will hear one of two answers: Longjing 43 or Qunti. They are the two cultivars behind almost all genuine Dragon Well, and the difference is bigger "
+},
+"pre-qingming-longjing": {
+"doubt": "A picking grade of Longjing, not a separate tea; overlaps with the West Lake Longjing entry by design.",
+"en": "Pre-Qingming Longjing (Mingqian Dragon Well)",
+"zh": "明前龙井",
+"conf": "medium",
+"pop": 3,
+"sources": 5,
+"about": "'Mingqian' is not a place or a cultivar: it is a calendar. Longjing picked before the Qingming festival in early April is sold as pre-Qingming tea, and it is the most expensive green tea most people w"
+},
+"ceylon-op-bop": {
+"doubt": "Not a single tea but a grade family; it overlaps every Ceylon district tea.",
+"en": "Ceylon OP / BOP (Leaf and Broken Grades)",
+"zh": "锡兰红茶OP与BOP等级",
+"conf": "medium",
+"pop": 4,
+"sources": 2,
+"about": "'Ceylon OP' and 'Ceylon BOP' are the two labels you will see most often on Sri Lankan tea, and they describe the size and shape of the leaf, not where it grew or how good it is. OP, 'Orange Pekoe', is"
+},
+"indian-ctc-chai-base": {
+"doubt": "Overlaps assam-ctc in method and leaf; this card is the blended household product, that one the single-region tea.",
+"en": "Indian CTC Chai Base",
+"zh": "印度CTC红茶",
+"conf": "medium",
+"pop": 4,
+"sources": 4,
+"about": "'Chai patti', literally 'tea leaves', is what Indian households buy by the kilo: strong CTC black tea, usually a blend of Assam, Dooars and South Indian leaf, sold loose from sacks or in branded packe"
+},
+"xiao-chi-gan": {
+"doubt": "The name is a picking grade inside unsmoked Tongmu black tea, and overlaps with Da Chi Gan and Tong Jun Mei; only seller sources define it.",
+"en": "Xiao Chi Gan (Wuyi Tongmu Black)",
+"zh": "小赤甘",
+"conf": "low",
+"pop": 2,
+"sources": 1,
+"about": "Xiao Chi Gan is an everyday black tea of Tongmu, the Wuyi village that gave the world Lapsang souchong and Jin Jun Mei. The name means something like 'small red-sweet', and it marks a picking standard"
+},
+"liu-bao-aged": {
+"doubt": "Not a separate tea but aged lots of liu-bao; kept as a useful companion card.",
+"en": "Aged Liu Bao",
+"zh": "陈年六堡茶",
+"conf": "low",
+"pop": 3,
+"sources": 1,
+"about": "Aged Liu Bao is what the Guangxi dark tea turns into after a decade or more in a warehouse, and it is the reason people bother with the young stuff. Liu Bao was an export tea for overseas Chinese, so "
+},
+"liu-bao-forms-and-grades": {
+"doubt": "This is a guide to forms of liu-bao rather than a single tea, and its name_native is a descriptive composite.",
+"en": "Liu Bao Forms and Grades (Baskets, Bricks, Lao Cha Po)",
+"zh": "六堡茶（箩装、砖、老茶婆）",
+"conf": "medium",
+"pop": 2,
+"sources": 3,
+"about": "Liu Bao is one tea sold in many shapes, and knowing the shapes saves money. The traditional unit is the big bamboo basket, which can hold around fifty kilos of lightly packed leaf and is how the Wuzho"
+},
+"min-hong-overview": {
+"doubt": "An overview of a family rather than a single tea; overlaps tanyang-gongfu, bai-lin-gongfu and zhenghe-gongfu by design.",
+"en": "Min Hong (Fujian Gongfu Black Teas)",
+"zh": "闽红",
+"conf": "medium",
+"pop": 2,
+"sources": 2,
+"about": "Min Hong is the collective name for Fujian's gongfu black teas, and Fujian is usually named as the place where black tea began. 'Min' is the old name of the province. Strictly the term means three tea"
+},
+"que-she": {
+"doubt": "Name is shared with green teas, and zh Wikipedia's Que She page and Wikidata label describe the green tea, not this Wuyi oolong.",
+"en": "Que She",
+"zh": "雀舌",
+"conf": "low",
+"pop": 2,
+"sources": 3,
+"about": "Que She, sparrow's tongue, is a small-leaved Wuyi cultivar with an outsized reputation: it is linked to the Da Hong Pao mother trees, yields little, sprouts late, and makes one of the most concentrate"
+},
+"raoping-dancong": {
+"doubt": "Regional umbrella label that overlaps with lingtou-dancong; not a separately defined tea.",
+"en": "Raoping Dancong",
+"zh": "饶平单丛",
+"conf": "low",
+"pop": 2,
+"sources": 1,
+"about": "Raoping is the other dancong county: the hills east of the Fenghuang Mountains, still in Chaozhou prefecture, where the same strains are grown at lower elevations and in far greater quantity. A large "
+},
+"nepal-golden-tips": {
+"doubt": "A generic grade name used by several producers, not one specific product.",
+"en": "Nepal Golden Tips",
+"zh": "尼泊尔金毫红茶",
+"conf": "low",
+"pop": 2,
+"sources": 4,
+"about": "Golden tips from Nepal are the bud-heavy black teas of the eastern hills: pluckings rich in fat, downy buds, fully oxidised so that the down turns golden-orange, and sorted so the buds dominate. They "
+},
+"tong-tian-xiang-dancong": {
+"doubt": "Overlaps with Jiang Hua Xiang: some sources treat the names as synonyms, others as a variety within the type. Worth reviewing whether it should remain a separate entry.",
+"en": "Tong Tian Xiang Dancong",
+"zh": "通天香单丛",
+"conf": "low",
+"pop": 2,
+"sources": 1,
+"about": "Tong Tian Xiang, the fragrance that reaches heaven, is a spicy, honeyed Phoenix dancong of the ginger-flower (Jiang Hua Xiang) type. Some sources use the two names for the same thing; others keep Tong"
+},
+"style-compressed-teas": {
+"doubt": "This is a family of forms, not one tea: it spans pu-erh, dark, white and other categories, so category 'sheng' fits only part of it.",
+"en": "Compressed Teas (cake, brick, tuo and ball forms)",
+"zh": "紧压茶",
+"conf": "high",
+"pop": 4,
+"sources": 6,
+"about": "Compressed tea is tea pressed into a shape: a disc, a brick, a bowl, a ball. It began as a way to move tea across China and along the caravan routes to Tibet, Mongolia and Russia without it crumbling "
+},
+"hawaiian-oolong": {
+"doubt": "A loose category of small-farm teas, not a single product.",
+"en": "Hawaii-Grown Oolong",
+"zh": "夏威夷乌龙茶",
+"conf": "low",
+"pop": 1,
+"sources": 2,
+"about": "Tea in Hawaii is a new crop with an old pedigree: plants were trialled on the islands in the nineteenth century, but commercial tea only began around 2000, when University of Hawaii trials and a USDA "
+},
+"jungjak": {
+"doubt": "A harvest grade of Korean green tea, not a distinct tea.",
+"en": "Jungjak (Korean Green Tea, Third Pick)",
+"zh": "中雀",
+"conf": "low",
+"pop": 2,
+"sources": 2,
+"about": "Jungjak, 'middle sparrow', is the third picking of the Korean spring, taken in mid May once the bushes are in full growth. The leaves are bigger and the yield is higher, so this is the grade that fill"
+},
+"shiraore": {
+"doubt": "Regional synonym of karigane, not a distinct product: Kyushu name for the same gyokuro or high-grade sencha stem tea. Consider cross-linking the two cards.",
+"en": "Shiraore",
+"zh": "白折",
+"conf": "medium",
+"pop": 2,
+"sources": 4,
+"about": "Shiraore is Kyushu's name for stem tea, the pale stalks and petioles sorted out of gyokuro and good sencha during refining, made in Yame, Kagoshima and Saga. The characters read 'white' and 'fold' or "
+},
+"thai-green": {
+"doubt": "A loose category across several farms rather than one defined product.",
+"en": "Thai Green Tea (Chiang Rai)",
+"zh": "泰国绿茶",
+"conf": "low",
+"pop": 1,
+"sources": 1,
+"about": "Green tea is a sideline in Thailand's northern tea country, which built its reputation on oolong, but the same farms around Mae Salong, Mae Chan and the Doi Tung royal project also fire some of their "
+},
+"doi-mae-salong-oolong-no-17": {
+"doubt": "The alias 'Bai Lu oolong' probably mislabels this tea, as the cultivar sold is Ruan Zhi/Qing Xin; the Bai Lu numbering itself could not be confirmed.",
+"en": "Doi Mae Salong Oolong No. 17 (Thai Ruan Zhi)",
+"zh": "美斯乐软枝乌龙",
+"conf": "medium",
+"pop": 2,
+"sources": 2,
+"about": "No. 17 is the other number on the shop signs of Doi Mae Salong, and the lighter, more floral of the village's two main oolongs. The Thai hills call the cultivar Ruan Zhi, 'soft stem', and sell it unde"
+},
+"sheng-puerh-young": {
+"doubt": "A stage in the life of any sheng, not a distinct product; it overlaps with every origin card.",
+"en": "Young Sheng Pu-erh (New Tea)",
+"zh": "新生茶",
+"conf": "low",
+"pop": 3,
+"sources": 1,
+"about": "Young sheng is raw pu-erh drunk in its first few years, before storage has done much to it, and it is a category in its own right: a large share of the pu-erh sold today, especially boutique single-vi"
+},
+"taiwanese-white-tea": {
+"doubt": "This is a loose category of small-producer teas rather than one defined product.",
+"en": "Taiwanese White Tea",
+"zh": "台湾白茶",
+"conf": "low",
+"pop": 2,
+"sources": 1,
+"about": "Taiwanese white tea is a new thing. It is produced in smaller quantities than Taiwan's other teas, by small producers looking for a new product, and it is made from oolong and black-tea cultivars rath"
+},
+"mi-xiang-oolong": {
+"doubt": "Overlaps with Gui Fei, which is also sold as honey oolong; the line between the two may be a matter of trade naming rather than a separate style.",
+"en": "Mi Xiang Oolong (Honey-Aroma Oolong)",
+"zh": "蜜香乌龙",
+"conf": "low",
+"pop": 2,
+"sources": 1,
+"about": "Mi Xiang oolong, 'honey-fragrance oolong', is the lightest member of Taiwan's family of leafhopper-bitten teas: rolled oolong made from summer leaf that the tea green leafhopper has fed on, oxidised a"
+},
+"osmanthus-oolong-taiwan": {
+"doubt": "Sources still empty: the dossier is thin and the web search budget ran out before any page could be confirmed. Needs a source in a follow-up pass.",
+"en": "Osmanthus Oolong (Gui Hua Wulong)",
+"zh": "桂花乌龙",
+"conf": "low",
+"pop": 3,
+"sources": 0,
+"about": "Osmanthus oolong is Taiwan's everyday scented tea: rolled oolong perfumed with the tiny golden flowers of the sweet olive tree, which blooms across the island in October and November and smells of apr"
+},
+"carpathian-herbal-tea": {
+"doubt": "sources is still empty: the dossier has no URL and web search was unavailable (budget used up), so no page about this tea could be confirmed. Needs a real source or removal of the card's specifics.",
+"en": "Carpathian Herbal Tea",
+"zh": "喀尔巴阡草本茶",
+"conf": "low",
+"pop": 2,
+"sources": 0,
+"about": "Carpathian herbal tea is the mountain meadow in a cup: a blend of wild herbs gathered on the high pastures and forest edges of western Ukraine, dried in the loft and brewed through the winter. There i"
+},
+"style-bug-bitten-teas": {
+"doubt": "Web search unavailable in this pass; the page covers Oriental Beauty only, not the term 着蜒茶 or the wider style, and the name_zh is unconfirmed by a source.",
+"en": "Bug-Bitten Teas (leafhopper honey aroma)",
+"zh": "着蜒茶",
+"conf": "low",
+"pop": 3,
+"sources": 1,
+"about": "Bug-bitten tea is the one case in which an insect improves a crop. In Taiwan's hot, humid summers a tiny green leafhopper feeds on the young tea shoots, and the plant fights back with aromatic compoun"
+},
+"boseong-green": {
+"doubt": "Steamed versus pan-fired share at Boseong is unresolved: one importer against the card's earlier text.",
+"en": "Boseong Green Tea",
+"zh": "宝城绿茶",
+"conf": "medium",
+"pop": 3,
+"sources": 3,
+"about": "Boseong, on the south coast of Jeollanam-do, is the place most Koreans picture when they think of tea: terraced hillsides of clipped bushes in curving rows, the postcard fields of Daehan Dawon that ap"
+},
+"muzha-tie-guan-yin": {
+"doubt": "Zhang Naimiao in the base description comes from the writer's memory and is unconfirmed.",
+"en": "Muzha Tie Guan Yin",
+"zh": "木栅铁观音",
+"conf": "low",
+"pop": 3,
+"sources": 1,
+"about": "Muzha Tie Guan Yin is Taipei's own tea, grown on the Maokong hills in Wenshan District, twenty minutes by gondola from the city, and it is the Taiwanese answer to Anxi's famous oolong: darker, more ox"
+},
+"luye-red-oolong": {
+"doubt": "The 2008 Taitung branch origin, altitude and Fulu brand in the base card are from memory and unconfirmed.",
+"en": "Luye Red Oolong (Hong Wulong)",
+"zh": "鹿野红乌龙",
+"conf": "low",
+"pop": 2,
+"sources": 1,
+"about": "Red oolong is the youngest of Taiwan's named tea styles and the signature of Luye Township in Taitung, on the terraces above the Beinan river at only 300 to 400 metres. The Tea Research and Extension "
+},
+"hong-yun-black": {
+"doubt": "Sources still empty: the dossier is thin and the web search budget ran out before any page could be confirmed. Needs a source in a follow-up pass.",
+"en": "Hong Yun Black (TTES #21)",
+"zh": "红韵红茶",
+"conf": "low",
+"pop": 2,
+"sources": 0,
+"about": "Hong Yun, 'red rhyme', is Taiwan Tea Experiment Station cultivar number 21, released in 2008 as the next black-tea cultivar after Ruby 18 and bred, like it, at the Yuchi branch by Sun Moon Lake. It is"
+},
+"jin-xuan-black": {
+"doubt": "Sources still empty: the dossier is thin and the web search budget ran out before any page could be confirmed. Needs a source in a follow-up pass.",
+"en": "Jin Xuan Black Tea",
+"zh": "金萱红茶",
+"conf": "low",
+"pop": 2,
+"sources": 0,
+"about": "Jin Xuan black is what happens when Taiwan's creamy 'milk oolong' cultivar is fully oxidised instead of being made into rolled oolong: a soft, sweet, small-leaf black tea that tastes of caramel and cu"
+},
+"mi-xiang-black": {
+"doubt": "Sources still empty: the dossier is thin and the web search budget ran out before any page could be confirmed. Needs a source in a follow-up pass.",
+"en": "Mi Xiang Black (Honey Black Tea)",
+"zh": "蜜香红茶",
+"conf": "low",
+"pop": 3,
+"sources": 0,
+"about": "Mi Xiang black, 'honey-fragrance black tea', is the signature tea of the east coast: a small-leaf black from the Wuhe terrace in Ruisui, Hualien, made from summer leaf that the tea green leafhopper ha"
+},
+"roasted-bao-zhong": {
+"doubt": "Sources still empty: the dossier is thin and the web search budget ran out before any page could be confirmed. Needs a source in a follow-up pass.",
+"en": "Roasted Bao Zhong (Shu Xiang)",
+"zh": "熟香包种茶",
+"conf": "low",
+"pop": 2,
+"sources": 0,
+"about": "Roasted Bao Zhong, called shu xiang ('ripe aroma') or bei huo ('fired') Bao Zhong in Pinglin, is the traditional way of finishing Wenshan's strip-shaped oolong before the fashion for green, unroasted "
+},
+"sanxia-bi-luo-chun": {
+"doubt": "Sources still empty: the dossier is thin and the web search budget ran out before any page could be confirmed. Needs a source in a follow-up pass.",
+"en": "Sanxia Bi Luo Chun",
+"zh": "三峡碧螺春",
+"conf": "low",
+"pop": 3,
+"sources": 0,
+"about": "Sanxia Bi Luo Chun is Taiwan's green tea, in a country that otherwise drinks oolong. It comes from Sanxia District in New Taipei City, the island's one real green-tea area, and from a cultivar you wil"
+},
+"style-charcoal-roasting": {
+"doubt": "Web search unavailable in this pass; neither source mentions charcoal, so the technique details in the base card are unverified.",
+"en": "Charcoal Roasting (style)",
+"zh": "炭焙",
+"conf": "low",
+"pop": 3,
+"sources": 2,
+"about": "Charcoal roasting is the finishing craft behind the great dark oolongs: Wuyi rock teas, traditional Anxi Tieguanyin, Taiwan's Dong Ding and Muzha Tie Guan Yin. After the tea is made, it is roasted slo"
+},
+"hei-meiren": {
+"doubt": "Only a shop listing confirms the name; 黑美人 as a tea is unconfirmed, zh mentions are unrelated. Consider dropping.",
+"en": "Hei Meiren (Black Beauty)",
+"zh": "黑美人",
+"conf": "low",
+"pop": 2,
+"sources": 1,
+"about": "Hei Meiren, Black Beauty, is a Chinese black tea name known to us only from a specialist seller's list. Little has been written about it in references, so it may be closer to a trade name than to an e"
+},
+"english-afternoon-tea": {
+"doubt": "No source at all: needs a URL about this blend before publishing. Not a doubt about the tea existing, but the card is unsupported.",
+"en": "English Afternoon Tea",
+"zh": "英式下午茶拼配红茶",
+"conf": "low",
+"pop": 2,
+"sources": 1,
+"about": "English Afternoon is a blender's category rather than a place or a leaf: a black tea mix meant to be lighter than the morning's breakfast tea. Blends of both kinds are popular in the British Isles.\n\nT"
+},
+"t78-cultivar": {
+"doubt": "Only dossier hit is an unrelated ICD code (T78) on Histamine intolerance. Sources empty and web search budget was exhausted during verification, so existence and details could not be confirmed; needs a source before publishing.",
+"en": "T78",
+"zh": "T78茶树品种",
+"conf": "low",
+"pop": 2,
+"sources": 1,
+"about": "T78 is the name of a tea cultivar listed for Darjeeling. Beyond the name, little is documented about it.\n\nWhat ends up in the cup depends on the usual Darjeeling variables: flush, garden and how the m"
+},
+"benifuji": {
+"doubt": "Sources empty and web search budget was exhausted during verification, so existence and details could not be confirmed; needs a source before publishing.",
+"en": "Benifuji",
+"zh": "日本红茶品种Benifuji",
+"conf": "low",
+"pop": 2,
+"sources": 1,
+"about": "Benifuji is a Japanese tea cultivar listed for black tea. Its name begins with beni, the Japanese word for crimson that also appears in several other black tea cultivar names. Little else is documente"
+},
+"benihikari": {
+"doubt": "Sources empty and web search budget was exhausted during verification, so existence and details could not be confirmed; needs a source before publishing.",
+"en": "Benihikari",
+"zh": "日本红茶品种Benihikari",
+"conf": "low",
+"pop": 2,
+"sources": 1,
+"about": "Benihikari is a Japanese cultivar listed for black tea. Its name contains beni, the word for crimson. Details about it are thin.\n\nAs with other Japanese black teas, the leaf is withered, rolled, oxidi"
+},
+"benikaori": {
+"doubt": "Sources empty and web search budget was exhausted during verification, so existence and details could not be confirmed; needs a source before publishing.",
+"en": "Benikaori",
+"zh": "日本红茶品种Benikaori",
+"conf": "low",
+"pop": 2,
+"sources": 1,
+"about": "Benikaori is a Japanese cultivar listed for black tea. The name reads as crimson plus fragrance, though that is only what the words mean, not a tasting note. Little else is documented about it.\n\nAs wi"
+},
+"karabeni": {
+"doubt": "Sources empty and web search budget was exhausted during verification, so existence and details could not be confirmed; needs a source before publishing.",
+"en": "Karabeni",
+"zh": "日本红茶品种Karabeni",
+"conf": "low",
+"pop": 2,
+"sources": 1,
+"about": "Karabeni is listed as a Japanese black tea cultivar. Little is documented about it, including its native spelling.\n\nAs with other Japanese black teas, the leaf is withered, rolled, oxidised and dried,"
+},
+"yame-koucha": {
+"doubt": "Sources empty and web search budget was exhausted during verification, so existence and details could not be confirmed; needs a source before publishing.",
+"en": "Yame Koucha",
+"zh": "八女红茶",
+"conf": "low",
+"pop": 2,
+"sources": 2,
+"about": "Yame Koucha simply means black tea from Yame, in Fukuoka Prefecture. It is a place name on a packet rather than a tightly defined style, and little is documented about it as a group.\n\nAs with other Ja"
+},
+"blackcurrant-tea": {
+"doubt": "sources is empty: the dossier has no page on this tea and web search budget was exhausted, so no URL could be verified. Needs a real source; the UK origin is unconfirmed.",
+"en": "Blackcurrant Tea",
+"zh": "黑加仑红茶",
+"conf": "low",
+"pop": 2,
+"sources": 1,
+"about": "Blackcurrant tea is black tea flavoured with blackcurrant: a simple, widely sold blend rather than a tea from any one place. It is listed here under the UK, though it is made by blenders in many count"
+},
+"laoshan-black-tea": {
+"doubt": "No source URL could be confirmed for this card; web search budget was exhausted. sources is still empty and needs a real page.",
+"en": "Laoshan Black Tea",
+"zh": "崂山红茶",
+"conf": "low",
+"pop": 2,
+"sources": 2,
+"about": "Laoshan Black is a black tea from the Laoshan area near Qingdao in Shandong, a northerly place to meet Chinese tea, beside the Yellow Sea.\n\nLaoshan's name was built on green tea, and the black version"
+},
+"huoshan-cuiya": {
+"doubt": "Two searches found no page about 霍山翠芽 itself, only Huoshan Huangya. The name may be a rare local label or a mix-up; the only source is for the contrast with Huangya, not this tea.",
+"en": "Huoshan Cuiya",
+"zh": "霍山翠芽",
+"conf": "low",
+"pop": 2,
+"sources": 1,
+"about": "Huoshan Cuiya is a green tea name from Huoshan county in Anhui, the same county that gives us the far more famous yellow tea Huoshan Huangya. Cuiya means emerald bud, which is about all the name promi"
+},
+"foxiang-2": {
+"doubt": "No page anywhere names 佛香2号; a targeted search returned only 佛香3号. Sources stay empty because no honest URL exists. Consider dropping this card.",
+"en": "Foxiang 2",
+"zh": "佛香2号",
+"conf": "low",
+"pop": 2,
+"sources": 1,
+"about": "Foxiang 2 is a name for a numbered Yunnan tea cultivar, meaning Buddha fragrance. No published description of this line is known, so treat even its status as unconfirmed.\n\nThere is no solid record of "
+},
+"wenjun-nenlu": {
+"doubt": "Searches found no page on 文君嫩绿 as a product; 嫩绿 appears only as an old Linqiong tea term and Wenjun as a brand. Possibly not a real distinct tea or a duplicate of Wenjun green tea; sources empty.",
+"en": "Wenjun Nenlü",
+"zh": "文君嫩绿",
+"conf": "low",
+"pop": 2,
+"sources": 1,
+"about": "Wenjun Nenlü is a name listed for a green tea from Qionglai in Sichuan, but no source describing it as a product could be found. Nenlü simply means tender green, and Wenjun is the local name also carr"
+},
+"kuma-cha": {
+"doubt": "No page found using the name 久万茶; only 面河茶 is documented for Kumakogen. The tea may not exist under this name or may duplicate Omogo tea.",
+"en": "Kuma-cha",
+"zh": "久万茶",
+"conf": "low",
+"pop": 2,
+"sources": 2,
+"about": "Kuma-cha appears to be a name for tea from the Kuma area of upland Ehime, on Shikoku, now part of Kumakogen town. A search found no page using this exact name, so treat it with caution.\n\nTea is listed"
+},
+"dandelion-tea": {
+"doubt": "Duplicates more-tisane/dandelion-coffee: same Wikidata item Q3269640 and the same drink, and that card lists Dandelion tea and 민들레차 as aliases. Its origin is United States, this one South Korea. Decide whether to merge.",
+"en": "Dandelion Tea",
+"zh": "蒲公英茶",
+"conf": "medium",
+"pop": 3,
+"sources": 4,
+"about": "Dandelion tea, called mindeulle-cha in Korean, is a tisane of dandelion root, usually roasted. The roasted version looks and tastes enough like coffee that it is often called dandelion coffee. It is m"
+},
+"xiao-chi-gan-puerh": {
+"doubt": "The name 小赤柑 was not found in a Chinese search or in the listed source, which covers tangerine pu-erh generally; only a shop listing supports it, possibly a seller's product name.",
+"en": "Xiao Chi Gan (Small Red Tangerine Pu-erh)",
+"zh": "小赤柑",
+"conf": "low",
+"pop": 2,
+"sources": 1,
+"about": "Xiao Chi Gan means 'small red tangerine': a little fruit, hollowed and stuffed with ripe pu-erh. The name is far less documented than its green cousin Xiao Qing Gan, and it seems to be used for a ripe"
+},
+"jun-chiyabari": {
+"doubt": "Master category was oolong; card says black. The garden makes several styles, so one category is a judgement call.",
+"en": "Jun Chiyabari",
+"zh": "尼泊尔君奇亚巴里茶园茶",
+"conf": "medium",
+"pop": 2,
+"sources": 4,
+"about": "Jun Chiyabari, the moonlit tea garden, sits near the small town of Hile in Dhankuta district in eastern Nepal. It is a young garden of about 96 hectares split into five divisions, planted between roug"
+},
+"teen-ali-estate": {
+"doubt": "No source found by dossier, writer or a web search; the garden's existence is unconfirmed and sources stays empty. Consider removing this card.",
+"en": "Teen Ali",
+"zh": "蒂恩阿里红茶",
+"conf": "low",
+"pop": 2,
+"sources": 1,
+"about": "Teen Ali is given as the name of an Assam tea garden, but no source documents it, and its district and owner are unknown.\n\nAny tea sold under this name would presumably follow the usual Assam black te"
+},
+"longjing-hong-cha": {
+"doubt": "Looks like a descriptive name more than a defined tea; only one old report found.",
+"en": "Longjing Hong Cha",
+"zh": "龙井红茶",
+"conf": "low",
+"pop": 2,
+"sources": 1,
+"about": "Longjing Hong Cha means simply 'Longjing black tea': black tea made in the Hangzhou area where Long Jing green tea grows. It is a trade description more than a defined tea with its own standard.\n\nThe "
+},
+"georgian-bouquet": {
+"doubt": "The only evidence places this name in the green tea grades; category black is unconfirmed.",
+"en": "Georgian Bouquet",
+"zh": "格鲁吉亚花束茶",
+"conf": "low",
+"pop": 2,
+"sources": 1,
+"about": "Georgian Bouquet, Buket Gruzii in Russian, was a top grade of Georgian tea. The name marks its place in the country's grading system more than any particular recipe.\n\nGeorgian green teas were numbered"
+},
+"fanjingshan-xueya": {
+"doubt": "No source found for 梵净山雪芽 as a tea; the dossier is empty and a search returned only other Fanjingshan teas. Possibly a product name only.",
+"en": "Fanjingshan Xueya",
+"zh": "梵净山雪芽",
+"conf": "low",
+"pop": 2,
+"sources": 1,
+"about": "Fanjingshan Xueya, 'Fanjing Mountain snow bud', is a green tea name from the Fanjing Mountain area of Tongren in Guizhou. Very little is documented about it, and it is not clear whether it is a distin"
+},
+"dian-hong-jin-si": {
+"doubt": "No page specifically describing this tea could be opened; the name was seen only in shop lists. May be a trade name overlapping Jin Ya.",
+"en": "Dian Hong Jin Si (Golden Silk)",
+"zh": "滇红金丝",
+"conf": "low",
+"pop": 2,
+"sources": 2,
+"about": "Jin Si, golden silk, is a Dian Hong name that describes looks: fine golden threads. It appears in sellers' lists alongside other grade names, including Jin Ya, the golden-bud grade, but no standard de"
+},
+"suichang-yinhou": {
+"doubt": "Only a single list mention; search found nothing else. May duplicate or overlap songyang-yinhou.",
+"en": "Suichang Yinhou",
+"zh": "遂昌银猴",
+"conf": "low",
+"pop": 2,
+"sources": 1,
+"about": "Suichang Yinhou is a green tea named for Suichang county in Lishui, southwest Zhejiang. Little is documented about it, and the same silver monkey name is much better known from neighbouring Songyang.\n"
+},
+"yunxuan-9": {
+"doubt": "No source names this cultivar: empty dossier, one web search found nothing, sources stay empty. Existence rests on the master list only; review or drop.",
+"en": "Yunxuan 9",
+"zh": "云选9号",
+"conf": "low",
+"pop": 2,
+"sources": 1,
+"about": "Yunxuan 9 is a name that appears for a Yunnan tea cultivar, and very little is documented about it. Its origin, its breeder and its traits are all unclear, so there is little to say with confidence.\n\n"
+},
+"baizhangyan-shuixian": {
+"doubt": "No page found about a tea or a Wuyi crag called Baizhangyan; the name may not be an established tea",
+"en": "Baizhangyan Shuixian",
+"zh": "百丈岩水仙",
+"conf": "low",
+"pop": 2,
+"sources": 1,
+"about": "Baizhangyan Shuixian is a Shuixian oolong carrying the name of a crag, Baizhangyan, and placed in northern Fujian. Very little is documented about it, including exactly where that crag lies and how fa"
+},
+"tuan-shu-ye-dancong": {
+"doubt": "May duplicate song-cha-dancong: 163.com and cnpp give Tuan Shu Ye as an early name of Song Zhong, while jiemian lists it as a separate strain.",
+"en": "Tuan Shu Ye Dancong",
+"zh": "团树叶单丛",
+"conf": "low",
+"pop": 2,
+"sources": 3,
+"about": "Tuan Shu Ye is a rarely seen Fenghuang Dancong strain from Guangdong, listed among the seven strains of the gardenia-aroma group that carry a natural gardenia scent.\n\nLittle is written about how this "
+},
+"sheng-puerh-banpen": {
+"doubt": "The name 班盆 is not in the dossier, which only has 邦盆老寨 (Bangpen Laozhai) in Hekai. The card treats them as one village and moved the region from Bulang to Hekai; a search could not confirm this.",
+"en": "Banpen",
+"zh": "班盆",
+"conf": "low",
+"pop": 2,
+"sources": 2,
+"about": "Banpen, also written Bangpen, is an old village among the Hekai tea villages near Menghun in Menghai County. It is listed with Guangbie, Manlong, Mannong and Manmai as part of the Hekai group.\n\nOne se"
+},
+"bai-zhen-jin-lian": {
+"doubt": "Only source is one glossary line, which does not state ripe or raw; category shu is unconfirmed and the name may be a variant of Jin Zhen Bai Lian.",
+"en": "Bai Zhen Jin Lian",
+"zh": "白针金莲",
+"conf": "low",
+"pop": 2,
+"sources": 1,
+"about": "Bai Zhen Jin Lian, literally White Needle Golden Lotus, is listed in the tea glossary Babelcarp as a high-grade pu-erh made by the Menghai company, at least. That is nearly all that can be said with c"
+},
+"xiaguan-pu-tuo": {
+"doubt": "No source documents \"Xiaguan Pu Tuo\" as a distinct product; may be just a shorthand for any Xiaguan ripe tuo.",
+"en": "Xiaguan Pu Tuo",
+"zh": "下关普沱",
+"conf": "low",
+"pop": 2,
+"sources": 2,
+"about": "Pu tuo reads as a shortened name for a pu-erh tuo from the Xiaguan factory in Dali, and it is usually taken to mean a ripe one. Little more is documented about it as a separate product, so take this a"
+},
+"dayi-hongyun-yuancha": {
+"doubt": "No page found confirming 红韵圆茶 as a Dayi ripe tea, or its type and form. Sources remain empty. A Dayi ripe cake called Hong Yu (Red Jade) exists, but its identity with this name is unconfirmed. Consider removing.",
+"en": "Dayi Hongyun Yuancha",
+"zh": "红韵圆茶",
+"conf": "low",
+"pop": 2,
+"sources": 1,
+"about": "Hongyun Yuancha, whose name means roughly 'red charm round tea', is a Dayi product name, listed here as a ripe pu-erh from Menghai. Beyond the name, very little is documented about it.\n\nIts recipe, le"
+},
+"dayi-pu-zhi-wei": {
+"doubt": "No page found confirming 普知味 as a Dayi tea, or its type and form. Sources remain empty. Consider removing.",
+"en": "Dayi Pu Zhi Wei",
+"zh": "普知味",
+"conf": "low",
+"pop": 2,
+"sources": 1,
+"about": "Pu Zhi Wei is a Dayi product name, listed here as a ripe pu-erh from Menghai. Little is documented about it beyond that.\n\nIts recipe and leaf grade are not publicly set out. Assume only what is typica"
+}
 }

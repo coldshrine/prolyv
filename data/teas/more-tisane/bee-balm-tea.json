@@ -1,0 +1,62 @@
+{
+  "slug": "bee-balm-tea",
+  "name_en": "Bee Balm Tea (Oswego Tea, Wild Bergamot)",
+  "name_native": null,
+  "name_romanized": null,
+  "aliases": [
+    "Bee balm",
+    "Bee balm tea",
+    "Oswego tea",
+    "Wild bergamot tea",
+    "Monarda didyma",
+    "美國薄荷",
+    "Монарда",
+    "Монарда двойчатая"
+  ],
+  "category": "tisane",
+  "origin_country": "United States",
+  "origin_region": "Eastern North America",
+  "cultivar": null,
+  "form": "loose",
+  "caffeine_level": "none",
+  "brewing": {
+    "grams": 2,
+    "water_ml": 200,
+    "temp_c": 100,
+    "steeps": 1,
+    "seconds": [
+      300
+    ],
+    "notes": "A common starting point for herbal infusions: boiling water, about five minutes."
+  },
+  "taste_tags": [
+    "citrus",
+    "spicy",
+    "bitter",
+    "herbal"
+  ],
+  "description": "An infusion of the leaves and flowers of Monarda, chiefly the scarlet beebalm Monarda didyma, an aromatic North American herb of the mint family. Its scent recalls bergamot orange, though the plants are unrelated.\n\nBrew it as you would other herbal infusions. If the plant is new to you, check that it is safe for you first, especially when pregnant or on medication.",
+  "wikipedia_title": null,
+  "wikipedia_scope": "none",
+  "popularity": 1,
+  "name_zh": "美国薄荷茶",
+  "name_ru": "Чай из монарды",
+  "history": "The name Oswego tea comes from Native Americans near Oswego, New York, who brewed the leaves and showed settlers how. After the Boston Tea Party of 1773 and the boycott of imported tea, colonists drank it as a substitute. Several Native American peoples also used Monarda medicinally.",
+  "liquor_hex": "#C9A04C",
+  "leaf_hex": "#5E7044",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Monarda_didyma",
+    "https://en.wikipedia.org/wiki/Monarda",
+    "https://en.wikipedia.org/wiki/Monarda_fistulosa"
+  ],
+  "confidence": "medium",
+  "images": [],
+  "stub": true,
+  "processing": "Dried plant material, as with most herbal infusions.",
+  "harvest_season": "Depends on the plant and the place.",
+  "appearance_dry": "Dried plant material.",
+  "appearance_liquor": "Depends on the plant; usually pale to amber.",
+  "appearance_wet": "Softened plant material.",
+  "taste_profile": "Lemon-like aroma with a slight pungency and bitterness.",
+  "vintage_note": "Herbal infusions are not sold by vintage: buy recent stock and use it within a year or so."
+}

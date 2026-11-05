@@ -1,0 +1,54 @@
+{
+  "slug": "cats-claw-tea",
+  "name_en": "Cat's Claw Tea (Uña de Gato)",
+  "name_native": "uña de gato",
+  "name_romanized": null,
+  "aliases": [
+    "Cat's claw",
+    "Cat's claw tea",
+    "Uncaria tomentosa"
+  ],
+  "category": "tisane",
+  "origin_country": "Peru",
+  "origin_region": "Amazon",
+  "cultivar": null,
+  "form": "loose",
+  "caffeine_level": "none",
+  "brewing": {
+    "grams": 2,
+    "water_ml": 200,
+    "temp_c": 100,
+    "steeps": 1,
+    "seconds": [
+      300
+    ],
+    "notes": "A common starting point for herbal infusions: boiling water, about five minutes."
+  },
+  "taste_tags": [
+    "herbal"
+  ],
+  "description": "A herbal tea from Uncaria tomentosa, a climbing plant of the Rubiaceae family native to Paraguay, Ecuador, Colombia, Panama, Peru and Bolivia.\n\nBrew it as you would other herbal infusions. If the plant is new to you, check that it is safe for you first, especially when pregnant or on medication.",
+  "wikipedia_title": null,
+  "wikipedia_scope": "none",
+  "popularity": 1,
+  "name_zh": "绒毛钩藤茶",
+  "name_ru": "Кошачий коготь (унья де гато)",
+  "history": "Peruvian street sellers of emoliente have lately added it to their drinks. Little more is documented about it.",
+  "liquor_hex": "#A8693A",
+  "leaf_hex": "#6A4A2E",
+  "sources": [
+    "https://es.wikipedia.org/wiki/Uncaria_tomentosa",
+    "https://en.wikipedia.org/wiki/Herbal_tea",
+    "https://en.wikipedia.org/wiki/Emoliente"
+  ],
+  "confidence": "low",
+  "images": [],
+  "stub": true,
+  "processing": "Dried plant material, as with most herbal infusions.",
+  "harvest_season": "Depends on the plant and the place.",
+  "appearance_dry": "Dried plant material.",
+  "appearance_liquor": "Depends on the plant; usually pale to amber.",
+  "appearance_wet": "Softened plant material.",
+  "taste_profile": "A herbal infusion; the taste depends on the plant.",
+  "vintage_note": "Herbal infusions are not sold by vintage: buy recent stock and use it within a year or so."
+}

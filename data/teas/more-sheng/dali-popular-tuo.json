@@ -1,0 +1,59 @@
+{
+  "slug": "dali-popular-tuo",
+  "name_en": "Dazhong Tuo",
+  "name_native": "大众沱茶",
+  "name_romanized": "Dàzhòng Tuóchá",
+  "aliases": [
+    "Popular Tuo Tea",
+    "大眾沱茶",
+    "Grade C Tuo Tea"
+  ],
+  "category": "sheng",
+  "origin_country": "China",
+  "origin_region": "Yunnan · Dali",
+  "cultivar": null,
+  "form": "tuo",
+  "caffeine_level": "high",
+  "brewing": {
+    "grams": 6,
+    "water_ml": 110,
+    "temp_c": 95,
+    "steeps": 7,
+    "seconds": [
+      10,
+      10,
+      15,
+      20,
+      25,
+      35,
+      50
+    ],
+    "notes": "A safe starting point for raw pu-erh: rinse once, gongfu style, short early steeps."
+  },
+  "taste_tags": [
+    "bitter",
+    "sweet"
+  ],
+  "description": "A 100-gram Xiaguan tuocha developed to use lower-grade tea stock.\n\nThis is a way of preparing tea more than a tea you buy under one name, so the recipe and the base tea change from one maker to the next.",
+  "wikipedia_title": null,
+  "wikipedia_scope": "none",
+  "popularity": 1,
+  "name_zh": "大众沱茶",
+  "name_ru": "Да Чжун То Ча",
+  "history": "It began in 1988 as Grade C Tuo Tea and was later renamed. It stands about 4.1 cm high and 8.2 cm across. Early packs bore the Zhongcha trademark, and after 1993 it moved to Songhe.",
+  "liquor_hex": "#BE9436",
+  "leaf_hex": "#55523A",
+  "sources": [
+    "https://www.yunnanexploration.com/?p=51737"
+  ],
+  "confidence": "medium",
+  "images": [],
+  "stub": true,
+  "processing": "Made from a raw pu-erh base tea according to the recipe; the method varies.",
+  "harvest_season": "Not tied to a harvest: it depends on the base tea.",
+  "appearance_dry": "Usually a pressed cake of silvery-green to brown leaf, darkening with age.",
+  "appearance_liquor": "Usually pale gold when young, deepening to amber with age.",
+  "appearance_wet": "Usually thick, large leaf.",
+  "taste_profile": "Expect what young raw pu-erh usually gives: bright, bitter-sweet and full, mellowing with age.",
+  "vintage_note": "Produced from 1988; Songhe trademark after 1993."
+}

@@ -60,5 +60,26 @@
   "wikipedia_title": "Goji tea",
   "wikipedia_scope": "exact",
   "popularity": 3,
-  "images": []
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/db/Goji.jpg/1280px-Goji.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/db/Goji.jpg/330px-Goji.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Goji.jpg",
+      "author": "Maukie",
+      "license": "Public domain",
+      "license_url": null,
+      "kind": "dry_leaf",
+      "alt": "Dark bowl filled with dried red goji berries"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/3/30/Goji_berry_Ningxia.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/30/Goji_berry_Ningxia.jpg/330px-Goji_berry_Ningxia.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Goji_berry_Ningxia.jpg",
+      "author": "avicmart",
+      "license": "CC0",
+      "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "kind": "plant",
+      "alt": "Goji shrub with ripe orange-red berries among green leaves"
+    }
+  ]
 }

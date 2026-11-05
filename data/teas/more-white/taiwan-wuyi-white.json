@@ -1,0 +1,54 @@
+{
+  "slug": "taiwan-wuyi-white",
+  "name_en": "Wuyi White Tea (Taiwan)",
+  "name_native": "武夷白茶",
+  "name_romanized": "Wǔyí báichá",
+  "aliases": [
+    "Wuyi white tea"
+  ],
+  "category": "white",
+  "origin_country": "Taiwan",
+  "origin_region": "Taiwan",
+  "cultivar": null,
+  "form": "loose",
+  "caffeine_level": "low",
+  "brewing": {
+    "grams": 4,
+    "water_ml": 120,
+    "temp_c": 85,
+    "steeps": 4,
+    "seconds": [
+      45,
+      60,
+      75,
+      90
+    ],
+    "notes": "A safe starting point for white tea: use hot but not boiling water and give it time."
+  },
+  "taste_tags": [
+    "sweet",
+    "floral"
+  ],
+  "description": "A white tea from Taiwan bearing the name Wuyi.\n\nTreat it as you would any white tea: hot but not boiling water, patient steeps, and a seller who can say where and when it was picked.",
+  "wikipedia_title": null,
+  "wikipedia_scope": "none",
+  "popularity": 1,
+  "name_zh": "武夷白茶",
+  "name_ru": "У И Бай Ча (Тайвань)",
+  "history": "White tea is made in Taiwan in smaller amounts than the island's other classes, and this is one of the kinds produced there. Little more is documented about it.",
+  "liquor_hex": "#E8D9A0",
+  "leaf_hex": "#C9CDB8",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Taiwanese_tea"
+  ],
+  "confidence": "low",
+  "images": [],
+  "stub": true,
+  "processing": "Typical of white tea: withered for a long time and dried with little handling.",
+  "harvest_season": "Usually picked in spring, as with most white teas.",
+  "appearance_dry": "Usually downy buds or soft, silvery-green leaves.",
+  "appearance_liquor": "Usually a pale straw to light amber.",
+  "appearance_wet": "Usually soft, intact leaf and bud.",
+  "taste_profile": "Expect what white teas usually give: gentle, sweet and lightly floral.",
+  "vintage_note": "White teas are normally sold either fresh, from the current year, or pressed and aged for several years, with the year stated."
+}

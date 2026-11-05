@@ -14,13 +14,13 @@
   "origin_country": "Greece",
   "origin_region": "Mediterranean basin",
   "cultivar": null,
-  "processing": "Leaves of the olive tree are picked by hand, dried, and usually cut; some producers dry them still attached to the twig and chop them afterwards. Nothing is oxidised or fermented on purpose.",
+  "processing": "Leaves of the olive tree are dried, fresh or cut, with nothing oxidised or fermented on purpose.",
   "form": "loose",
-  "harvest_season": "No fixed season across the region. One grower on Naxos picks in the days after 23 August; other producers set their own timing.",
+  "harvest_season": "Little is documented about a set season; timing is up to each producer.",
   "appearance_dry": "Cut, narrow leaf pieces, grey-green on one side and paler on the other.",
   "appearance_liquor": "Light yellow-green to pale gold, as is usual for a dried green-leaf infusion.",
   "appearance_wet": "Leathery olive-green leaf pieces that soften only a little in hot water.",
-  "taste_profile": "Mild and lightly bitter, often compared to green tea; a longer steep brings out the bitter edge familiar from olive oil.",
+  "taste_profile": "Mild and lightly bitter; a longer steep brings out the bitter edge familiar from olive oil.",
   "taste_tags": [
     "bitter",
     "herbal",
@@ -38,20 +38,18 @@
   },
   "caffeine_level": "none",
   "vintage_note": "Sold as a dried herb with no vintage culture: small growers offer the latest picking, usually in small bags. Like most dried herbs it is best drunk fresh, so look for a stated harvest or best-before date. Age adds nothing here.",
-  "description": "Olive leaf tea is exactly what it sounds like: an infusion of leaves from the olive tree, drunk mostly around the Mediterranean. It belongs to no tea class, has no Camellia sinensis in it and is naturally caffeine-free.\n\nThe making is simple. Leaves are picked, dried and cut, and producers differ mainly in when they pick and whether they dry the leaf on the twig. The result is a sturdy leaf that gives up its flavour slowly.\n\nThe cup is mild, a little like a soft green tea, with a bitterness that grows with time. That bitterness is the main thing you control: five minutes is gentle, ten or more starts to echo the peppery finish of olive oil. Boiling water is fine.\n\nGood examples come in whole or roughly cut leaf from a named grove, with a harvest date. Much of the marketing around this tea rests on health claims that are poorly verified, so buy it for the taste. It is reported to cause dizziness in people with low blood pressure and may interfere with chemotherapy, so ask a doctor first in either case.",
+  "description": "Olive leaf tea is exactly what it sounds like: an infusion of leaves from the olive tree, drunk mostly around the Mediterranean. It belongs to no tea class, has no Camellia sinensis in it and is naturally caffeine-free.\n\nThe making is simple. Leaves are dried and usually cut. The result is a sturdy leaf that gives up its flavour slowly.\n\nThe cup is mild, with a bitterness that grows with time. That bitterness is the main thing you control: five minutes is gentle, ten or more starts to echo the bitterness of olive oil. Boiling water is fine.\n\nGood examples come in whole or roughly cut leaf from a named grove, with a harvest date. Much of the marketing around this tea rests on health claims that are poorly verified, so buy it for the taste.",
   "history": "The use of olive leaves in Mediterranean folk medicine is old, though a tea as such is hard to date. Olive leaves are reported among the materials used in Egyptian mummification, and Hildegard of Bingen, the medieval German abbess, is credited with recommending the tea for stomach and digestive complaints.\n\nToday it survives as a home remedy and as a small niche product from Greek and other Mediterranean olive growers, who get a second crop from the same trees.",
   "liquor_hex": "#D9CC8A",
   "leaf_hex": "#7D8A62",
   "sources": [
     "https://de.wikipedia.org/wiki/Olivenbl%C3%A4ttertee",
     "https://en.wikipedia.org/wiki/Herbal_tea",
-    "https://www.nhc.com/blogs/articles/olive-leaf-tea",
-    "https://lelextea.com/en/greek-organic-herbs-herbal-teas-mountain-tea/organic-greek-dried-olive-leaves/"
+    "https://www.nhc.com/blogs/articles/olive-leaf-tea"
   ],
   "confidence": "medium",
   "wikipedia_title": "Herbal tea",
   "wikipedia_scope": "umbrella",
   "popularity": 2,
-  "images": [],
-  "sources_note": "Liquor and leaf appearance are inferred from the class of dried green-leaf infusions."
+  "images": []
 }

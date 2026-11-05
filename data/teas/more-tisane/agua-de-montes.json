@@ -1,0 +1,52 @@
+{
+  "slug": "agua-de-montes",
+  "name_en": "Agua de Montes",
+  "name_native": "agua de montes",
+  "name_romanized": null,
+  "aliases": [
+    "Horchata lojana",
+    "Agua de remedio",
+    "Agua que cura"
+  ],
+  "category": "tisane",
+  "origin_country": "Ecuador",
+  "origin_region": "Loja",
+  "cultivar": null,
+  "form": "other",
+  "caffeine_level": "none",
+  "brewing": {
+    "grams": 2,
+    "water_ml": 200,
+    "temp_c": 100,
+    "steeps": 1,
+    "seconds": [
+      300
+    ],
+    "notes": "A common starting point for herbal infusions: boiling water, about five minutes."
+  },
+  "taste_tags": [
+    "herbal"
+  ],
+  "description": "A red infusion of mixed medicinal herbs and flowers typical of Loja province in southern Ecuador, better known as horchata lojana. Ataco (Amaranthus hybridus) is its key plant and gives it the colour.\n\nBrew it as you would other herbal infusions. If the plant is new to you, check that it is safe for you first, especially when pregnant or on medication.",
+  "wikipedia_title": null,
+  "wikipedia_scope": "none",
+  "popularity": 1,
+  "name_zh": "洛哈草药茶",
+  "name_ru": "Агуа де монтес",
+  "history": "It is valued locally for the digestive, circulatory, energising and anti-inflammatory properties attributed to it. Little more is documented here.",
+  "liquor_hex": "#A8283A",
+  "leaf_hex": "#5A5A34",
+  "sources": [
+    "https://es.wikipedia.org/wiki/Horchata_lojana"
+  ],
+  "confidence": "low",
+  "images": [],
+  "stub": true,
+  "processing": "Dried plant material, as with most herbal infusions.",
+  "harvest_season": "Depends on the plant and the place.",
+  "appearance_dry": "Dried plant material.",
+  "appearance_liquor": "Red, from the ataco.",
+  "appearance_wet": "Softened plant material.",
+  "taste_profile": "A herbal infusion; the taste depends on the plant.",
+  "vintage_note": "Herbal infusions are not sold by vintage: buy recent stock and use it within a year or so."
+}

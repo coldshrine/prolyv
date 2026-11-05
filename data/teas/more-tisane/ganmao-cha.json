@@ -1,0 +1,51 @@
+{
+  "slug": "ganmao-cha",
+  "name_en": "Ganmao Cha (Cold Tea)",
+  "name_native": "感冒茶",
+  "name_romanized": "gǎn mào chá",
+  "aliases": [
+    "Cold tea"
+  ],
+  "category": "tisane",
+  "origin_country": "China",
+  "origin_region": "Guangdong",
+  "cultivar": null,
+  "form": "other",
+  "caffeine_level": "none",
+  "brewing": {
+    "grams": 2,
+    "water_ml": 200,
+    "temp_c": 100,
+    "steeps": 1,
+    "seconds": [
+      300
+    ],
+    "notes": "A common starting point for herbal infusions: boiling water, about five minutes."
+  },
+  "taste_tags": [
+    "medicinal",
+    "bitter"
+  ],
+  "description": "A family of Lingnan herbal teas for colds, defined by similar action rather than one fixed formula.\n\nBrew it as you would other herbal infusions. If the plant is new to you, check that it is safe for you first, especially when pregnant or on medication.",
+  "wikipedia_title": null,
+  "wikipedia_scope": "none",
+  "popularity": 1,
+  "name_zh": "感冒茶",
+  "name_ru": "Гань Мао Ча",
+  "history": "It arose in the hot, humid Lingnan region, where summer colds are common. Common ingredients include scutellaria, water banyan flower, Cherokee rose root and rough-leaved holly root, and ginger and scallion are added when it is brewed. Several related formulas appear in China's national drug standards.",
+  "liquor_hex": "#4A2412",
+  "leaf_hex": "#3A2A1C",
+  "sources": [
+    "https://zh.wikipedia.org/wiki/%E6%84%9F%E5%86%92%E8%8C%B6"
+  ],
+  "confidence": "medium",
+  "images": [],
+  "stub": true,
+  "processing": "Brewed or simmered from a packet, with ginger and scallion added.",
+  "harvest_season": "Depends on the plant and the place.",
+  "appearance_dry": "Dried plant material.",
+  "appearance_liquor": "Depends on the plant; usually pale to amber.",
+  "appearance_wet": "Softened plant material.",
+  "taste_profile": "A herbal infusion; the taste depends on the plant.",
+  "vintage_note": "Herbal infusions are not sold by vintage: buy recent stock and use it within a year or so."
+}

@@ -59,5 +59,26 @@
   "wikipedia_title": "Jin Fo tea",
   "wikipedia_scope": "exact",
   "popularity": 3,
-  "images": []
+  "images": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/3/3c/Jin_Fo_Oolong_tea_leaf.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3c/Jin_Fo_Oolong_tea_leaf.jpg/330px-Jin_Fo_Oolong_tea_leaf.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Jin_Fo_Oolong_tea_leaf.jpg",
+      "author": "User:Iateasquirrel",
+      "license": "CC BY-SA 3.0",
+      "license_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+      "kind": "dry_leaf",
+      "alt": "Loose pile of dark, olive-tinged Jin Fo oolong leaves on a white background"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/d/df/Jin_Fo_Oolong_tea_leaf_close.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/df/Jin_Fo_Oolong_tea_leaf_close.jpg/330px-Jin_Fo_Oolong_tea_leaf_close.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Jin_Fo_Oolong_tea_leaf_close.jpg",
+      "author": "",
+      "license": "CC BY-SA 3.0",
+      "license_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+      "kind": "dry_leaf",
+      "alt": "Close view of dry Jin Fo oolong leaves with olive and dark tones"
+    }
+  ]
 }

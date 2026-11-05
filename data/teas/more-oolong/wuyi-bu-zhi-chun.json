@@ -56,5 +56,26 @@
   "wikipedia_title": "Bu Zhi Chun tea",
   "wikipedia_scope": "exact",
   "popularity": 3,
-  "images": []
+  "images": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/f/f2/BZC_Oolong_tea_leaf.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f2/BZC_Oolong_tea_leaf.jpg/330px-BZC_Oolong_tea_leaf.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source_page": "https://commons.wikimedia.org/wiki/File:BZC_Oolong_tea_leaf.jpg",
+      "author": "User Iateasquirrel on en.wikipedia",
+      "license": "CC BY-SA 3.0",
+      "license_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+      "kind": "dry_leaf",
+      "alt": "Loose pile of long, twisted dark Bu Zhi Chun oolong leaves on a white background"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/a/a3/BZC_Oolong_tea_leaf_close.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a3/BZC_Oolong_tea_leaf_close.jpg/330px-BZC_Oolong_tea_leaf_close.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source_page": "https://commons.wikimedia.org/wiki/File:BZC_Oolong_tea_leaf_close.jpg",
+      "author": "User Iateasquirrel on en.wikipedia",
+      "license": "CC BY-SA 3.0",
+      "license_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+      "kind": "dry_leaf",
+      "alt": "Close view of twisted dark Bu Zhi Chun oolong leaves"
+    }
+  ]
 }

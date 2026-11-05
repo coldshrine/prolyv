@@ -21,7 +21,7 @@
   "cultivar": "Chamaemelum nobile; a double-flowered form is grown at scale in France",
   "processing": "Flower heads are picked and dried without further processing, then steeped whole.",
   "form": "loose",
-  "harvest_season": "Flowers appear in June and July in the Northern Hemisphere, which is when the crop is taken.",
+  "harvest_season": "Flowers appear in June and July in the Northern Hemisphere; flower crops are typically gathered then.",
   "appearance_dry": "Small dried daisy-like flower heads, creamy white around a yellow centre.",
   "appearance_liquor": "Clear pale yellow.",
   "appearance_wet": "Soft swollen flower heads with limp white rays.",
@@ -43,7 +43,7 @@
   },
   "caffeine_level": "none",
   "vintage_note": "Sold loose or bagged with no vintage, typically from a recent harvest. As with other dried flowers, aroma fades with storage, so whole heads with good scent and colour are the sign to look for. Many packets labelled just chamomile hold German chamomile, a different plant, so check the Latin name.",
-  "description": "Roman chamomile is a low, creeping perennial from Western Europe and northwest Africa, and its flowers are one of two plants sold as chamomile. Its name is misleading: it has nothing to do with Rome as a homeland. The other, German chamomile, belongs to another genus and differs in form and chemistry.\n\nThe tea is made from the dried flower heads, with no processing beyond drying. Its scent gave the family its name, from the Greek for earth apple.\n\nThe cup smells sweet, fruity and herbal, with apple running through it. Steep it covered and keep an eye on the time, in the way of most flower tisanes, where a longer steep brings a heavier cup.\n\nCheck the label for Chamaemelum nobile if you want this plant in particular. Avoid it if you are allergic to the daisy family, and take care during pregnancy or on anticoagulant drugs. No medicinal effect is established, despite its calming reputation.",
+  "description": "Roman chamomile is a low, creeping perennial from Western Europe and northwest Africa, and its flowers are one of two plants sold as chamomile. Its name is misleading: it has nothing to do with Rome as a homeland. The other, German chamomile, belongs to another genus and differs in form and chemistry.\n\nThe tea is made from the dried flower heads, with no processing beyond drying. Its scent gave chamomile its name, from the Greek for earth apple.\n\nThe cup smells sweet, fruity and herbal, with apple running through it. Steep it covered and keep an eye on the time, in the way of most flower tisanes, where a longer steep brings a heavier cup.\n\nCheck the label for Chamaemelum nobile if you want this plant in particular. Avoid it if you are allergic to the daisy family, and take care during pregnancy or on anticoagulant drugs. No medicinal effect is established, despite its calming reputation.",
   "history": "Roman chamomile has been used in European folk medicine since at least the Middle Ages. Its name is said to come from a 16th-century German writer who found it in Rome, not from any real origin there.\n\nIt also had a garden life: chamomile lawns were popular in Elizabethan England, and a chamomile seat can still be seen in the Queen's Garden at Kew. Wild populations in Britain are now declining with the loss of wet grassland and grazing.",
   "liquor_hex": "#E3D27A",
   "leaf_hex": "#D8C878",
@@ -56,5 +56,36 @@
   "wikipedia_title": "Chamaemelum nobile",
   "wikipedia_scope": "exact",
   "popularity": 3,
-  "images": []
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fa/Chamaemelum_nobile1.jpg/1280px-Chamaemelum_nobile1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fa/Chamaemelum_nobile1.jpg/330px-Chamaemelum_nobile1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Chamaemelum_nobile1.jpg",
+      "author": "KENPEI",
+      "license": "CC BY-SA 3.0",
+      "license_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+      "kind": "plant",
+      "alt": "Roman chamomile flower with white petals and a yellow centre"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6b/Anthemis_nobilis_prg_1.jpg/1280px-Anthemis_nobilis_prg_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6b/Anthemis_nobilis_prg_1.jpg/330px-Anthemis_nobilis_prg_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Anthemis_nobilis_prg_1.jpg",
+      "author": "Karelj",
+      "license": "Public domain",
+      "license_url": null,
+      "kind": "plant",
+      "alt": "Bed of Roman chamomile with many white daisy-like flowers and feathery leaves"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6e/Chamaemelum_nobile_001.JPG/1280px-Chamaemelum_nobile_001.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6e/Chamaemelum_nobile_001.JPG/330px-Chamaemelum_nobile_001.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Chamaemelum_nobile_001.JPG",
+      "author": "H. Zell",
+      "license": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "kind": "plant",
+      "alt": "Roman chamomile flowers with white petals and yellow button heads among fine green foliage"
+    }
+  ]
 }

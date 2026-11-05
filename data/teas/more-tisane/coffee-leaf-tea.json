@@ -58,5 +58,16 @@
   "wikipedia_title": "Coffee-leaf tea",
   "wikipedia_scope": "exact",
   "popularity": 2,
-  "images": []
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/66/Coffee_leaves.jpg/1280px-Coffee_leaves.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/66/Coffee_leaves.jpg/330px-Coffee_leaves.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Coffee_leaves.jpg",
+      "author": "Truehmer",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "kind": "plant",
+      "alt": "Glossy green leaves on a coffee plant"
+    }
+  ]
 }

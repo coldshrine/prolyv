@@ -1,0 +1,52 @@
+{
+  "slug": "xingpi-tea",
+  "name_en": "Xingpi Cha (Apricot Skin Tea)",
+  "name_native": "杏皮茶",
+  "name_romanized": "xìng pí chá",
+  "aliases": [
+    "Xingpi Tea (Apricot Skin Tea)"
+  ],
+  "category": "tisane",
+  "origin_country": "China",
+  "origin_region": "Gansu · Dunhuang",
+  "cultivar": null,
+  "form": "other",
+  "caffeine_level": "none",
+  "brewing": {
+    "grams": 2,
+    "water_ml": 200,
+    "temp_c": 100,
+    "steeps": 1,
+    "seconds": [
+      300
+    ],
+    "notes": "A common starting point for herbal infusions: boiling water, about five minutes."
+  },
+  "taste_tags": [
+    "tart",
+    "sweet",
+    "dried-fruit"
+  ],
+  "description": "A sweet-sour cooling drink of northwest China made mainly from dried apricot skin and red dates.\n\nBrew it as you would other herbal infusions. If the plant is new to you, check that it is safe for you first, especially when pregnant or on medication.",
+  "wikipedia_title": null,
+  "wikipedia_scope": "none",
+  "popularity": 1,
+  "name_zh": "杏皮茶",
+  "name_ru": "Син Пи Ча",
+  "history": "It is an everyday drink in Gansu, Qinghai and Shaanxi, valued against spicy and rich food, and is listed as intangible cultural heritage. Little more is documented.",
+  "liquor_hex": "#C4702C",
+  "leaf_hex": "#8A4A22",
+  "sources": [
+    "https://milulu.com.cn/tea/3896.html"
+  ],
+  "confidence": "low",
+  "images": [],
+  "stub": true,
+  "processing": "Dried plant material, as with most herbal infusions.",
+  "harvest_season": "Depends on the plant and the place.",
+  "appearance_dry": "Dried plant material.",
+  "appearance_liquor": "Depends on the plant; usually pale to amber.",
+  "appearance_wet": "Softened plant material.",
+  "taste_profile": "Sweet and sour, cutting spice and richness.",
+  "vintage_note": "Herbal infusions are not sold by vintage: buy recent stock and use it within a year or so."
+}

@@ -1,0 +1,55 @@
+{
+  "slug": "cocido-paraguayo",
+  "name_en": "Cocido Paraguayo",
+  "name_native": null,
+  "name_romanized": null,
+  "aliases": [
+    "Cocido negro",
+    "Cocido quemado",
+    "Mate cocido quemado",
+    "Kojói"
+  ],
+  "category": "tisane",
+  "origin_country": "Paraguay",
+  "origin_region": "Paraguay",
+  "cultivar": null,
+  "form": "loose",
+  "caffeine_level": "none",
+  "brewing": {
+    "grams": 2,
+    "water_ml": 200,
+    "temp_c": 100,
+    "steeps": 1,
+    "seconds": [
+      300
+    ],
+    "notes": "A common starting point for herbal infusions: boiling water, about five minutes."
+  },
+  "taste_tags": [
+    "roasted",
+    "bitter"
+  ],
+  "description": "Paraguay's boiled yerba mate drink, called simply cocido, or kojói in Guarani. Its best-known form scorches the yerba and sugar with a live coal before they go into boiling water.\n\nBrew it as you would other herbal infusions. If the plant is new to you, check that it is safe for you first, especially when pregnant or on medication.",
+  "wikipedia_title": null,
+  "wikipedia_scope": "none",
+  "popularity": 1,
+  "name_zh": "巴拉圭煮马黛茶",
+  "name_ru": "Косидо (парагвайский)",
+  "history": "Cocido negro means the plain drink without milk, while cocido quemado names the burnt version found across Paraguay. It is strained into cups, often taken with a little milk and served with chipa, mbeju or biscuits, especially in the countryside. Boiled mate more widely traces to the yerba cultivated by the Jesuits in the 17th century.",
+  "liquor_hex": "#6E3A16",
+  "leaf_hex": "#4E4A28",
+  "sources": [
+    "https://es.wikipedia.org/wiki/Mate_cocido",
+    "https://en.wikipedia.org/wiki/Mate_cocido"
+  ],
+  "confidence": "medium",
+  "images": [],
+  "stub": true,
+  "processing": "Yerba and sugar are set side by side on a plate and melted under a live coal, then added to boiling water, left to stand and strained. A version without the coal also exists.",
+  "harvest_season": "Depends on the plant and the place.",
+  "appearance_dry": "Dried plant material.",
+  "appearance_liquor": "Depends on the plant; usually pale to amber.",
+  "appearance_wet": "Softened plant material.",
+  "taste_profile": "A herbal infusion; the taste depends on the plant.",
+  "vintage_note": "Herbal infusions are not sold by vintage: buy recent stock and use it within a year or so."
+}

@@ -26,7 +26,7 @@
   "appearance_dry": "Dry, dark brown, papery spikes a few centimetres long.",
   "appearance_liquor": "Typically a clear amber to mid brown, darker with a longer boil.",
   "appearance_wet": "Softened brown spikes with overlapping bracts.",
-  "taste_profile": "Described in Chinese medicine as pungent and bitter, yet in Japan valued as an easy herbal tea with little strong character; shop versions are often sweetened.",
+  "taste_profile": "Described in Chinese medicine as pungent and bitter, yet in Japan valued as an easy herbal tea with little strong character.",
   "taste_tags": [
     "herbal",
     "bitter",
@@ -34,7 +34,7 @@
   ],
   "brewing": {
     "grams": 10,
-    "water_ml": 800,
+    "water_ml": 600,
     "temp_c": 100,
     "steeps": 1,
     "seconds": [
@@ -44,7 +44,7 @@
   },
   "caffeine_level": "none",
   "vintage_note": "Not sold by year: it is a dried herb from herbal shops, or a ready drink at liangcha counters. Buy the most recent crop you can find, with intact spikes and no musty smell.",
-  "description": "Xia ku cao is the Chinese name for self-heal, Prunella vulgaris, a small plant of the mint family that grows across Asia, Europe, Africa and North America. The name means summer-withered herb, because the plant dies back after the summer solstice.\n\nThe part used is the dried flower spike. Liangcha shops in southern China sell the drink ready-made, and it is an ingredient in Xia Sang Ju and in the Wong Lo Kat formula.\n\nOn its own it is plain and herbal with some bitterness; many shop versions are sweetened. Simmer rather than steep it, since these are tough, dry spikes.\n\nDo not drink it casually in quantity. Chinese medicine classes it as cold, and animal studies have linked extracts to immune suppression and raised liver enzymes. Those are not human trials, but they are reason for moderation, and for asking a doctor if you take medication or are pregnant.",
+  "description": "Xia ku cao is the Chinese name for self-heal, Prunella vulgaris, a small plant of the mint family that grows across Asia, Europe, Africa and North America. The name means summer-withered herb, because the plant dies back after the summer solstice.\n\nThe part used is the dried flower spike. Liangcha shops in southern China sell the drink ready-made, and it is an ingredient in Xia Sang Ju and in the Wong Lo Kat formula.\n\nOn its own it is plain and herbal with some bitterness. Simmer rather than steep it, since these are tough, dry spikes.\n\nDo not drink it casually in quantity. Chinese medicine classes it as cold, and animal studies have linked extracts to immune suppression and raised liver enzymes. Those are not human trials, but they are reason for moderation, and for asking a doctor if you take medication or are pregnant.",
   "history": "The herb appears in Li Shizhen's Compendium of Materia Medica under names such as tie se cao, nai dong and yan mian. It is also in the Japanese Pharmacopoeia as kagoso, and most of what Japan sells comes from China.\n\nOutside China, Indigenous peoples of North America had their own uses: the Nuxalk boiled the plant into a weak tea and the Nlaka'pamux drank a cold infusion. Its large role in modern drinks comes through southern Chinese herbal teas; adding it to the Wanglaoji formula was approved after animal testing in 2005.",
   "liquor_hex": "#9A6A32",
   "leaf_hex": "#5C4128",
@@ -59,5 +59,46 @@
   "wikipedia_title": "Prunella vulgaris",
   "wikipedia_scope": "umbrella",
   "popularity": 2,
-  "images": []
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cb/Prunella_vulgaris_-_harilik_k%C3%A4bihein.jpg/1280px-Prunella_vulgaris_-_harilik_k%C3%A4bihein.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cb/Prunella_vulgaris_-_harilik_k%C3%A4bihein.jpg/330px-Prunella_vulgaris_-_harilik_k%C3%A4bihein.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Prunella_vulgaris_-_harilik_k%C3%A4bihein.jpg",
+      "author": "Ivar Leidus",
+      "license": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "kind": "plant",
+      "alt": "Single Prunella vulgaris flower spike with purple blooms on a slender stem"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c2/20120714Prunella_vulgaris2.jpg/1280px-20120714Prunella_vulgaris2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c2/20120714Prunella_vulgaris2.jpg/330px-20120714Prunella_vulgaris2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source_page": "https://commons.wikimedia.org/wiki/File:20120714Prunella_vulgaris2.jpg",
+      "author": "AnRo0002",
+      "license": "CC0",
+      "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "kind": "plant",
+      "alt": "Prunella vulgaris spikes in dark red and purple among green leaves"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/33/20120714Prunella_vulgaris1.jpg/1280px-20120714Prunella_vulgaris1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/33/20120714Prunella_vulgaris1.jpg/330px-20120714Prunella_vulgaris1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source_page": "https://commons.wikimedia.org/wiki/File:20120714Prunella_vulgaris1.jpg",
+      "author": "AnRo0002",
+      "license": "CC0",
+      "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "kind": "plant",
+      "alt": "Group of Prunella vulgaris flower spikes growing in grass"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/96/20120716Prunella_vulgaris1.jpg/1280px-20120716Prunella_vulgaris1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/96/20120716Prunella_vulgaris1.jpg/330px-20120716Prunella_vulgaris1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source_page": "https://commons.wikimedia.org/wiki/File:20120716Prunella_vulgaris1.jpg",
+      "author": "AnRo0002",
+      "license": "CC0",
+      "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "kind": "plant",
+      "alt": "Brownish Prunella vulgaris spikes among broad green leaves"
+    }
+  ]
 }

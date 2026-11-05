@@ -1,0 +1,55 @@
+{
+  "slug": "cnnp-7561",
+  "name_en": "CNNP 7561",
+  "name_native": "中茶7561",
+  "name_romanized": "Zhōngchá 7561",
+  "aliases": [],
+  "category": "sheng",
+  "origin_country": "China",
+  "origin_region": "Yunnan · Kunming",
+  "cultivar": null,
+  "form": "brick",
+  "caffeine_level": "high",
+  "brewing": {
+    "grams": 6,
+    "water_ml": 110,
+    "temp_c": 95,
+    "steeps": 7,
+    "seconds": [
+      10,
+      10,
+      15,
+      20,
+      25,
+      35,
+      50
+    ],
+    "notes": "A safe starting point for raw pu-erh: rinse once, gongfu style, short early steeps."
+  },
+  "taste_tags": [
+    "bitter",
+    "sweet"
+  ],
+  "description": "A numbered raw pu-erh recipe from CNNP, China National Native Products, known as a pressed brick.\n\nThis is a way of preparing tea more than a tea you buy under one name, so the recipe and the base tea change from one maker to the next.",
+  "wikipedia_title": null,
+  "wikipedia_scope": "none",
+  "popularity": 1,
+  "name_zh": "中茶7561",
+  "name_ru": "Чжун Ча 7561",
+  "history": "An aged brick from 2000 is known under this number. Little is documented about it.",
+  "liquor_hex": "#B4802F",
+  "leaf_hex": "#4F4A32",
+  "sources": [
+    "https://yunnansourcing.com/collections/cnnp-china-national-native-products"
+  ],
+  "confidence": "low",
+  "images": [],
+  "stub": true,
+  "processing": "Made from a raw pu-erh base tea according to the recipe; the method varies.",
+  "harvest_season": "Not tied to a harvest: it depends on the base tea.",
+  "appearance_dry": "Usually a pressed cake of silvery-green to brown leaf, darkening with age.",
+  "appearance_liquor": "Usually pale gold when young, deepening to amber with age.",
+  "appearance_wet": "Usually thick, large leaf.",
+  "taste_profile": "Expect what young raw pu-erh usually gives: bright, bitter-sweet and full, mellowing with age.",
+  "vintage_note": "An aged brick dated 2000 exists under this number."
+}

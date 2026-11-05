@@ -16,7 +16,15 @@
     "phe chya",
     "Suyou cha",
     "Su ja",
-    "Gur gur cha"
+    "Gur gur cha",
+    "拉达克酥油茶",
+    "Гур-гур ча",
+    "Goor goor cha",
+    "Cha suskan",
+    "Cha su-kan",
+    "Ча су-кан",
+    "Пхе-чья",
+    "Су-чья"
   ],
   "category": "heicha",
   "origin_country": "China",
@@ -55,11 +63,33 @@
     "https://zh.wikipedia.org/wiki/%E9%85%A5%E6%B2%B9%E8%8C%B6",
     "https://ja.wikipedia.org/wiki/%E3%83%90%E3%82%BF%E3%83%BC%E8%8C%B6",
     "https://ru.wikipedia.org/wiki/%D0%A7%D0%B0%D1%81%D1%83%D0%B9%D0%BC%D0%B0",
-    "https://www.wikidata.org/wiki/Q989930"
+    "https://www.wikidata.org/wiki/Q989930",
+    "https://en.wikipedia.org/wiki/Noon_chai"
   ],
   "confidence": "high",
   "wikipedia_title": "Butter tea",
   "wikipedia_scope": "exact",
   "popularity": 3,
-  "images": []
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f3/Butter_tea_20120622.jpg/1280px-Butter_tea_20120622.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f3/Butter_tea_20120622.jpg/330px-Butter_tea_20120622.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Butter_tea_20120622.jpg",
+      "author": "Laura Blankenship",
+      "license": "CC BY-SA 2.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+      "kind": "liquor",
+      "alt": "Cup of opaque milky tan butter tea on a patterned saucer, Ladakh"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/54/Tibetan_butter_tea.jpg/1280px-Tibetan_butter_tea.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/54/Tibetan_butter_tea.jpg/330px-Tibetan_butter_tea.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Tibetan_butter_tea.jpg",
+      "author": "Yosomono",
+      "license": "CC BY 2.0",
+      "license_url": "https://creativecommons.org/licenses/by/2.0",
+      "kind": "liquor",
+      "alt": "Decorated bowl of Tibetan butter tea on a striped woven cloth"
+    }
+  ]
 }

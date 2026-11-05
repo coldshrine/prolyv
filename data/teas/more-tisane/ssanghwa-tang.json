@@ -43,7 +43,7 @@
   "caffeine_level": "none",
   "vintage_note": "No vintages. It is a formula rather than a crop, sold as ready-made drinks with a use-by date or as herb mixes, and it is drunk all year. In Korea it is unusual for being sold in pharmacies as well as served in traditional tea rooms.",
   "description": "Ssanghwa-cha, also called ssanghwa-tang, is a dark Korean medicinal tea, boiled down from a set of roots and barks. Along with sipjeondaebotang it is among the most popular medical teas in the country, and it has nothing to do with the tea plant.\n\nThe recipe draws on white peony root, processed rehmannia, milkvetch, Korean angelica, lovage, cinnamon bark and liquorice, with ginger and jujube in some versions. Peony is the largest share in the classic proportions, and boiling it down gives the deep brown colour.\n\nThe flavour is slightly bitter, and more like a warming tonic than a casual cup. Sipping it slowly works better than treating it as a thirst-quencher.\n\nMost people buy it pre-made, often from a pharmacy. Read the label for the actual herbs, since recipes differ. Anyone with blood pressure, heart or kidney trouble should check with a professional first.\n\nFor something gentler from the same tradition, try ginseng or jujube tea.",
-  "history": "The formula is traced to the Song-dynasty Chinese compendium Taiping Huimin Heji Jufang, compiled by Chen Shiwen and others under imperial order. In Korean herbal medicine it became a standard prescription for fatigue and for weakness after illness.\n\nIts move into everyday life came with the 20th century dabang, the Korean tea and coffee houses, where ssanghwa-cha was served alongside coffee and black tea.",
+  "history": "The formula is traced to the Song-dynasty Chinese compendium Taiping Huimin Heji Jufang, compiled by Chen Shiwen and others under imperial order. In Korean herbal medicine it became a standard prescription for fatigue and for weakness after illness.\n\nKorea's dabang, the tea and coffee houses that arose in the Japanese colonial period and after, served ssanghwa-cha alongside coffee and black tea.",
   "liquor_hex": "#4A2612",
   "leaf_hex": "#4E3020",
   "sources": [
@@ -56,5 +56,26 @@
   "wikipedia_title": "Ssanghwa-tang",
   "wikipedia_scope": "exact",
   "popularity": 3,
-  "images": []
+  "images": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/9/9a/Ssanghwacha.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9a/Ssanghwacha.jpg/330px-Ssanghwacha.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Ssanghwacha.jpg",
+      "author": "허수자",
+      "license": "CC BY 2.0 kr",
+      "license_url": "https://creativecommons.org/licenses/by/2.0/kr/deed.en",
+      "kind": "liquor",
+      "alt": "Dark ssanghwa-cha with nuts and sliced jujube in a ceramic cup on a saucer"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/d/d5/Ssanghwacha_with_an_egg_yolk.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d5/Ssanghwacha_with_an_egg_yolk.jpg/330px-Ssanghwacha_with_an_egg_yolk.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Ssanghwacha_with_an_egg_yolk.jpg",
+      "author": "허수자",
+      "license": "CC BY 2.0 kr",
+      "license_url": "https://creativecommons.org/licenses/by/2.0/kr/deed.en",
+      "kind": "liquor",
+      "alt": "Ssanghwa-cha in a ceramic cup with an egg yolk lifted on a spoon"
+    }
+  ]
 }

@@ -1,0 +1,55 @@
+{
+  "slug": "woodruff-tea",
+  "name_en": "Woodruff Tea",
+  "name_native": "Waldmeistertee",
+  "name_romanized": null,
+  "aliases": [
+    "Woodruff",
+    "Подмаренник душистый",
+    "Galium odoratum",
+    "Waldmeister"
+  ],
+  "category": "tisane",
+  "origin_country": "Germany",
+  "origin_region": "Germany",
+  "cultivar": null,
+  "form": "loose",
+  "caffeine_level": "none",
+  "brewing": {
+    "grams": 2,
+    "water_ml": 200,
+    "temp_c": 100,
+    "steeps": 1,
+    "seconds": [
+      300
+    ],
+    "notes": "A common starting point for herbal infusions: boiling water, about five minutes."
+  },
+  "taste_tags": [
+    "sweet",
+    "herbal"
+  ],
+  "description": "A herbal tea from sweet woodruff (Galium odoratum), a strongly scented perennial native to much of Europe. In Germany the plant is called Waldmeister.\n\nBrew it as you would other herbal infusions. If the plant is new to you, check that it is safe for you first, especially when pregnant or on medication.",
+  "wikipedia_title": null,
+  "wikipedia_scope": "none",
+  "popularity": 1,
+  "name_zh": "香车叶草茶",
+  "name_ru": "Ясменник душистый",
+  "history": "Its sweet scent comes from coumarin, and it strengthens as the plant wilts and lasts once dried. Germany banned the plant for industrial sweets in 1974 after coumarin proved toxic to rats and mice, though it has not been found harmful to humans. Little is documented about the tea itself, beyond its place among the plant's flavouring uses.",
+  "liquor_hex": "#D6C97E",
+  "leaf_hex": "#5E7A40",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Galium_odoratum",
+    "https://en.wikipedia.org/wiki/Herbal_tea"
+  ],
+  "confidence": "low",
+  "images": [],
+  "stub": true,
+  "processing": "Dried plant material, as with most herbal infusions.",
+  "harvest_season": "Depends on the plant and the place.",
+  "appearance_dry": "Dried plant material.",
+  "appearance_liquor": "Depends on the plant; usually pale to amber.",
+  "appearance_wet": "Softened plant material.",
+  "taste_profile": "A herbal infusion; the taste depends on the plant.",
+  "vintage_note": "Herbal infusions are not sold by vintage: buy recent stock and use it within a year or so."
+}

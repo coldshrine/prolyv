@@ -1,0 +1,56 @@
+{
+  "slug": "plum-blossom-tea",
+  "name_en": "Plum Blossom Tea (Maehwa-cha)",
+  "name_native": "매화차",
+  "name_romanized": "maehwa-cha",
+  "aliases": [
+    "Mei hua cha (plum blossom)",
+    "Meihua cha",
+    "Чай из цветков сливы",
+    "plum blossom tea",
+    "Plum flower tea"
+  ],
+  "category": "tisane",
+  "origin_country": "South Korea",
+  "origin_region": "Korea",
+  "cultivar": null,
+  "form": "loose",
+  "caffeine_level": "none",
+  "brewing": {
+    "grams": 2,
+    "water_ml": 200,
+    "temp_c": 100,
+    "steeps": 1,
+    "seconds": [
+      300
+    ],
+    "notes": "A common starting point for herbal infusions: boiling water, about five minutes."
+  },
+  "taste_tags": [
+    "floral",
+    "honey"
+  ],
+  "description": "A Korean infusion of dried Chinese plum blossoms, picked as half-open buds.\n\nBrew it as you would other herbal infusions. If the plant is new to you, check that it is safe for you first, especially when pregnant or on medication.",
+  "wikipedia_title": null,
+  "wikipedia_scope": "none",
+  "popularity": 1,
+  "name_zh": "梅花茶",
+  "name_ru": "Мэхва-ча",
+  "history": "Its preparation is recorded, but little is documented about its history.",
+  "liquor_hex": "#EADFB0",
+  "leaf_hex": "#C8A8A0",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Maehwa-cha",
+    "https://ko.wikipedia.org/wiki/%EB%A7%A4%ED%99%94%EC%B0%A8"
+  ],
+  "confidence": "low",
+  "images": [],
+  "stub": true,
+  "processing": "Half-open buds are dried and preserved in honey. Ten flowers go into a pot with 50 ml of hot water for one to two minutes.",
+  "harvest_season": "Early spring.",
+  "appearance_dry": "Dried plant material.",
+  "appearance_liquor": "Depends on the plant; usually pale to amber.",
+  "appearance_wet": "Softened plant material.",
+  "taste_profile": "A herbal infusion; the taste depends on the plant.",
+  "vintage_note": "Herbal infusions are not sold by vintage: buy recent stock and use it within a year or so."
+}

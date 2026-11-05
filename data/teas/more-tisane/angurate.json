@@ -1,0 +1,50 @@
+{
+  "slug": "angurate",
+  "name_en": "Anguraté",
+  "name_native": "Anguraté",
+  "name_romanized": null,
+  "aliases": [
+    "Anhuaraté"
+  ],
+  "category": "tisane",
+  "origin_country": "Peru",
+  "origin_region": "Peru",
+  "cultivar": null,
+  "form": "loose",
+  "caffeine_level": "none",
+  "brewing": {
+    "grams": 2,
+    "water_ml": 200,
+    "temp_c": 100,
+    "steeps": 1,
+    "seconds": [
+      300
+    ],
+    "notes": "A common starting point for herbal infusions: boiling water, about five minutes."
+  },
+  "taste_tags": [
+    "herbal"
+  ],
+  "description": "A Peruvian medicinal tea made from the stems, shoot tips and roots of Mentzelia plants, mainly subspecies of Mentzelia scabra.\n\nBrew it as you would other herbal infusions. If the plant is new to you, check that it is safe for you first, especially when pregnant or on medication.",
+  "wikipedia_title": null,
+  "wikipedia_scope": "none",
+  "popularity": 1,
+  "name_zh": "安古拉特茶",
+  "name_ru": "Ангурате",
+  "history": "Peruvian folk medicine has used it for centuries against stomach and bowel complaints, coughs, stones and liver disease. The plant was collected for a herbarium in 1895, but its narrow range and small harvests kept it obscure until the 1950s, when the Instituto Sanitas in Lima studied it and it was sold in Germany as a medicinal tea. It cultivates poorly, so most of it is gathered wild.",
+  "liquor_hex": "#BFA65A",
+  "leaf_hex": "#7A7648",
+  "sources": [
+    "https://de.wikipedia.org/wiki/Angurat%C3%A9"
+  ],
+  "confidence": "medium",
+  "images": [],
+  "stub": true,
+  "processing": "Stems, shoot tips and roots are used, mostly from wild plants.",
+  "harvest_season": "Depends on the plant and the place.",
+  "appearance_dry": "Dried plant material.",
+  "appearance_liquor": "Depends on the plant; usually pale to amber.",
+  "appearance_wet": "Softened plant material.",
+  "taste_profile": "A herbal infusion; the taste depends on the plant.",
+  "vintage_note": "Herbal infusions are not sold by vintage: buy recent stock and use it within a year or so."
+}

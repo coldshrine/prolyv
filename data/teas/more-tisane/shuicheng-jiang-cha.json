@@ -1,0 +1,50 @@
+{
+  "slug": "shuicheng-jiang-cha",
+  "name_en": "Shuicheng Jiang Cha",
+  "name_native": "水城姜茶",
+  "name_romanized": "shuǐ chéng jiāng chá",
+  "aliases": [
+    "Shuichengjiangcha"
+  ],
+  "category": "tisane",
+  "origin_country": "China",
+  "origin_region": "Guizhou · Liupanshui Shuicheng",
+  "cultivar": null,
+  "form": "other",
+  "caffeine_level": "none",
+  "brewing": {
+    "grams": 2,
+    "water_ml": 200,
+    "temp_c": 100,
+    "steeps": 1,
+    "seconds": [
+      300
+    ],
+    "notes": "A common starting point for herbal infusions: boiling water, about five minutes."
+  },
+  "taste_tags": [
+    "spicy"
+  ],
+  "description": "A ginger drink from Shuicheng in Guizhou, made from the local small yellow ginger grown in the Beipan River valley.\n\nBrew it as you would other herbal infusions. If the plant is new to you, check that it is safe for you first, especially when pregnant or on medication.",
+  "wikipedia_title": null,
+  "wikipedia_scope": "none",
+  "popularity": 1,
+  "name_zh": "水城姜茶",
+  "name_ru": "Шуй Чэн Цзян Ча",
+  "history": "It is a modern product developed by a local ginger company as a tourist speciality. Little more is documented.",
+  "liquor_hex": "#C9963C",
+  "leaf_hex": "#B08A4A",
+  "sources": [
+    "https://milulu.com.cn/techan/33680.html"
+  ],
+  "confidence": "low",
+  "images": [],
+  "stub": true,
+  "processing": "Active compounds are extracted from the ginger at very low temperature, with no preservatives added.",
+  "harvest_season": "Depends on the plant and the place.",
+  "appearance_dry": "Dried plant material.",
+  "appearance_liquor": "Depends on the plant; usually pale to amber.",
+  "appearance_wet": "Softened plant material.",
+  "taste_profile": "A herbal infusion; the taste depends on the plant.",
+  "vintage_note": "Herbal infusions are not sold by vintage: buy recent stock and use it within a year or so."
+}

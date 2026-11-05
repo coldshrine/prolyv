@@ -1,0 +1,49 @@
+{
+  "slug": "wedang-semlo",
+  "name_en": "Wedang Semlo",
+  "name_native": null,
+  "name_romanized": null,
+  "aliases": [],
+  "category": "tisane",
+  "origin_country": "Indonesia",
+  "origin_region": "Yogyakarta",
+  "cultivar": null,
+  "form": "other",
+  "caffeine_level": "none",
+  "brewing": {
+    "grams": 2,
+    "water_ml": 200,
+    "temp_c": 100,
+    "steeps": 1,
+    "seconds": [
+      300
+    ],
+    "notes": "A common starting point for herbal infusions: boiling water, about five minutes."
+  },
+  "taste_tags": [
+    "sweet",
+    "spicy"
+  ],
+  "description": "A warming Yogyakarta drink made from kepok banana, ginger, cinnamon, pandan leaf, lemongrass, palm sugar and rock sugar.\n\nBrew it as you would other herbal infusions. If the plant is new to you, check that it is safe for you first, especially when pregnant or on medication.",
+  "wikipedia_title": null,
+  "wikipedia_scope": "none",
+  "popularity": 1,
+  "name_zh": "日惹香蕉姜饮",
+  "name_ru": "Веданг семло",
+  "history": "It is served at traditional wedang stalls in the city and is recorded as a favourite of Sultan Hamengkubuwono IX. Little more is documented about it.",
+  "liquor_hex": "#A9722E",
+  "leaf_hex": "#6B5230",
+  "sources": [
+    "https://id.wikipedia.org/wiki/Wedang_semlo"
+  ],
+  "confidence": "low",
+  "images": [],
+  "stub": true,
+  "processing": "Dried plant material, as with most herbal infusions.",
+  "harvest_season": "Depends on the plant and the place.",
+  "appearance_dry": "Dried plant material.",
+  "appearance_liquor": "Depends on the plant; usually pale to amber.",
+  "appearance_wet": "Softened plant material.",
+  "taste_profile": "A herbal infusion; the taste depends on the plant.",
+  "vintage_note": "Herbal infusions are not sold by vintage: buy recent stock and use it within a year or so."
+}

@@ -14,7 +14,7 @@
   "origin_country": "Paraguay",
   "origin_region": "Southern Cone",
   "cultivar": "Ilex paraguariensis",
-  "processing": "Yerba mate leaves are dried slowly over a wood fire, with the smoke reaching them directly, often in brick dryers. Accounts of the duration range from about 12 to 24 hours up to several days.",
+  "processing": "Yerba mate leaves are dried slowly over a wood fire, with the smoke reaching them directly, often in brick ovens. Accounts of the duration range from about 10 to 12 hours or a whole day up to several days.",
   "form": "loose",
   "harvest_season": "No prized season specific to this style is recorded; it follows the local yerba mate harvest.",
   "appearance_dry": "Finely cut dull olive to grey-green leaf and stem with a clear smoky smell.",
@@ -47,9 +47,9 @@
     "notes": "Gourd and bombilla, topped up from a thermos and sipped dry each round. Water well below boiling keeps the smoke from turning harsh."
   },
   "caffeine_level": "medium",
-  "vintage_note": "Sold as bagged yerba under brand names, and the word barbacuá must appear on the pack to signal a smoked product. Like other yerba mate it is commonly rested after drying, but ageing times vary by brand, so read the label.",
-  "description": "Barbacuá is not a type of plant but a way of drying yerba mate: the leaves sit over a wood fire and take on the smoke directly. Most modern mate dries with less contact with smoke, so this style tastes clearly different from the green or lightly toasted packs.\n\nThe process is slow and done in brick dryers that hold in heat and smoke. Accounts vary on how long it takes, from around a day to a few days. Paraguayan small producers are reported to dry with wood gathered from the forest, sometimes timed to the waning moon.\n\nIn the gourd it is the campfire of the mate world: smoke up front, mate's bitterness behind it, and a woody finish. Brew it as any mate, but go easy on the water temperature if the first sips come out acrid.\n\nThe label is what counts when buying, because a pack generally has to say barbacuá to be sold as smoked. Smoke drying has a known downside: it can leave polycyclic aromatic hydrocarbons on the leaf. That argument is pressed hardest by sellers of hot-air-dried mate, so weigh it accordingly, but it is a reason to treat this as an occasional pack.",
-  "history": "The method is credited to the Guaraní, and the word is said to mean toasting in their language; sellers often put it at more than 400 years old, a figure hard to check.\n\nToday it survives as a small, artisanal niche. Brands from Argentina are the best known, with Paraguayan small producers also keeping the practice, while most of the market has moved to other drying methods.",
+  "vintage_note": "Sold as bagged yerba under brand names, with barbacuá named on the pack. Like other yerba mate it is commonly stored after drying, but storage times vary by brand, so read the label.",
+  "description": "Barbacuá is not a type of plant but a way of drying yerba mate: the leaves sit over a wood fire and take on the smoke directly. Most modern mate dries with less contact with smoke, so this style tastes clearly different from the green or lightly toasted packs.\n\nThe process is slow and done in brick dryers that hold in heat and smoke. Accounts vary on how long it takes, from 10 to 12 hours or a whole day to, by one seller's account, several days. One Paraguayan association of small producers is reported to follow the phases of the moon in its traditional process.\n\nIn the gourd it is the campfire of the mate world: smoke up front, mate's bitterness behind it, and a woody finish. Brew it as any mate, but go easy on the water temperature if the first sips come out acrid.\n\nWhen buying, look for the word barbacuá on the pack. Smoke drying has a known downside: it can leave polycyclic aromatic hydrocarbons on the leaf. That argument is pressed hardest by sellers of hot-air-dried mate, so weigh it accordingly, but it is a reason to treat this as an occasional pack.",
+  "history": "The method is credited to the Guaraní, and the word is said to mean toasting in their language; sellers often put it at more than 400 years old, a figure hard to check.\n\nToday it survives as a small, artisanal niche. In Misiones, Argentina, a producers' cooperative sells it under a collective brand, and small producers in Paraguay also keep the practice, while much of the market uses other drying methods.",
   "liquor_hex": "#A79A3C",
   "leaf_hex": "#6B6A42",
   "sources": [
@@ -59,7 +59,7 @@
     "https://yvy-mate.fr/en-nl/blogs/mate-blog/mate-barbacua-drying-dangerous",
     "https://uk.news.yahoo.com/leaves-change-paraguay-small-scale-073021466.html"
   ],
-  "confidence": "medium",
+  "confidence": "low",
   "wikipedia_title": null,
   "wikipedia_scope": "none",
   "popularity": 2,

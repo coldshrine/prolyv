@@ -42,7 +42,7 @@
   "caffeine_level": "none",
   "vintage_note": "Sold without vintage, as tea bags or loose leaf in shops, markets and hotels in the Andes. It is legal in Colombia, Peru, Bolivia, Argentina and Ecuador, and illegal in the United States unless decocainized. Check the law before carrying it home, since one cup can turn a drug test positive.",
   "description": "Mate de coca is an infusion of leaves of the coca plant, drunk across the Andes and above all in Peru. Despite the name, it has nothing to do with yerba mate, which is a different plant altogether.\n\nThere is hardly any processing: leaves are dried and steeped, either whole or in tea bags. A one-gram bag gives about 4.2 mg of coca alkaloids in the cup, far below a typical 20 to 30 mg line of cocaine. It acts as a mild stimulant, often compared to a moderately strong cup of coffee or tea, though it contains its own alkaloids and not the caffeine of those drinks.\n\nThe colour is greenish yellow, and the taste is a gently bitter one that reminds many people of green tea with a little more sweetness. Five minutes in hot water is plenty.\n\nTravellers meet it at altitude. Cuzco and La Paz greet new arrivals with it for altitude sickness, a use that has never been properly studied. One practical warning matters more than taste: even a single cup can produce a positive result in a cocaine drug test, and there is no evidence of it causing dependence.",
-  "history": "Andean indigenous peoples have used the infusion in traditional medicine, and it became a standard welcome for visitors arriving in high Andean cities. Little is documented about when the tea bag format appeared.\n\nIts modern history is largely legal. The Single Convention on Narcotic Drugs discourages its use even where it is permitted, and outside the Andes it is mostly restricted, which keeps it a drink you travel for.",
+  "history": "Andean indigenous peoples have used the infusion in traditional medicine, and it became a standard welcome for visitors arriving in high Andean cities. Little is documented about when the tea bag format appeared.\n\nIts modern history is largely legal. The Single Convention on Narcotic Drugs discourages its use even where it is permitted, and in the United States it is illegal unless decocainized.",
   "liquor_hex": "#D3CC6E",
   "leaf_hex": "#5E7B3C",
   "sources": [
@@ -55,6 +55,36 @@
   "wikipedia_title": "Coca tea",
   "wikipedia_scope": "exact",
   "popularity": 3,
-  "images": [],
-  "sources_note": "Caffeine field is none as a plain-class judgement; the stimulant effect comes from coca alkaloids. Legal lists differ slightly between language versions."
+  "images": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/2/29/Mate_de_coca_Peru.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/29/Mate_de_coca_Peru.jpg/330px-Mate_de_coca_Peru.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Mate_de_coca_Peru.jpg",
+      "author": "Anikó",
+      "license": "CC BY 2.0",
+      "license_url": "https://creativecommons.org/licenses/by/2.0",
+      "kind": "liquor",
+      "alt": "Two white cups of pale coca tea with whole coca leaves floating"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3e/Coca_mate_2010.jpg/1280px-Coca_mate_2010.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3e/Coca_mate_2010.jpg/330px-Coca_mate_2010.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Coca_mate_2010.jpg",
+      "author": "LWYang",
+      "license": "CC BY 2.0",
+      "license_url": "https://creativecommons.org/licenses/by/2.0",
+      "kind": "liquor",
+      "alt": "Terracotta mug of greenish-yellow coca tea with whole leaves"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a1/Coca_tea.jpg/1280px-Coca_tea.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a1/Coca_tea.jpg/330px-Coca_tea.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Coca_tea.jpg",
+      "author": "Will from New York, USA",
+      "license": "CC BY-SA 2.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+      "kind": "liquor",
+      "alt": "White cup of clear yellow coca tea on a ceramic coaster"
+    }
+  ]
 }

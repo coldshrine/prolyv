@@ -1,0 +1,52 @@
+{
+  "slug": "ogwa-cha",
+  "name_en": "Ogwa-cha (Five Fruit Tea)",
+  "name_native": "오과차",
+  "name_romanized": "ogwa-cha",
+  "aliases": [
+    "Five fruit tea",
+    "five-fruit tea"
+  ],
+  "category": "tisane",
+  "origin_country": "South Korea",
+  "origin_region": "Korea",
+  "cultivar": null,
+  "form": "other",
+  "caffeine_level": "none",
+  "brewing": {
+    "grams": 2,
+    "water_ml": 200,
+    "temp_c": 100,
+    "steeps": 1,
+    "seconds": [
+      300
+    ],
+    "notes": "A common starting point for herbal infusions: boiling water, about five minutes."
+  },
+  "taste_tags": [
+    "herbal"
+  ],
+  "description": "A traditional Korean tea of walnut, ginkgo, jujube, chestnut and dried persimmon, mashed with ginger and boiled.\n\nBrew it as you would other herbal infusions. If the plant is new to you, check that it is safe for you first, especially when pregnant or on medication.",
+  "wikipedia_title": null,
+  "wikipedia_scope": "none",
+  "popularity": 1,
+  "name_zh": "五果茶",
+  "name_ru": "Огва-ча",
+  "history": "It is traditionally taken by people who catch colds often or have a weak constitution, a folk belief rather than an established effect. Little more is documented.",
+  "liquor_hex": "#A8702E",
+  "leaf_hex": "#6E4A2A",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Ogwa-cha",
+    "https://ko.wikipedia.org/wiki/%EC%98%A4%EA%B3%BC%EC%B0%A8"
+  ],
+  "confidence": "low",
+  "images": [],
+  "stub": true,
+  "processing": "The ingredients are mashed with ginger, boiled in water and strained, with honey as an optional addition.",
+  "harvest_season": "Depends on the plant and the place.",
+  "appearance_dry": "Dried plant material.",
+  "appearance_liquor": "Depends on the plant; usually pale to amber.",
+  "appearance_wet": "Softened plant material.",
+  "taste_profile": "A herbal infusion; the taste depends on the plant.",
+  "vintage_note": "Herbal infusions are not sold by vintage: buy recent stock and use it within a year or so."
+}

@@ -52,8 +52,8 @@
   },
   "caffeine_level": "medium",
   "vintage_note": "Sold like other pu-erh, by pressing year and producer, young or stored. Shape says nothing about age or quality, so look for the year, the origin of the material and how it has been stored.",
-  "description": "Fangcha simply means square tea: pu-erh pressed into a flat square rather than a round cake, a tuo or a long brick. It is one of the recognised compressed shapes of pu-erh and not a separate style.\n\nThe making follows the general pattern for compressed pu-erh: sun-dried large-leaf material is steamed to soften it, pressed in a mould and dried. Little is documented on standard sizes or weights for the square, so don't assume one.\n\nThe taste comes from the leaf inside and the storage, not the shape. A young square acts like young sheng, with bitterness and sweetness; an old one should be woodier and softer. Dense pressing can affect how fast it ages and how easily it comes apart, as with other tightly pressed tea.\n\nBuy it as you would any cake, by producer, year and storage. Squares make neat gifts and samples, and some are decorative more than serious, so a low price and pretty stamp shouldn't sway you.",
-  "history": "Square pressed tea is listed among pu-erh's traditional shapes alongside cakes, bricks and tuos. Pressing Yunnan tea in general has a long record: a Ming-era text describes tea steamed into lumps. A distinct history of the square format has not been well documented.",
+  "description": "Fangcha simply means square tea: pu-erh pressed into a flat square rather than a round cake, a tuo or a long brick. It is one of the recognised compressed shapes of pu-erh and not a separate style.\n\nThe making follows the general pattern for compressed pu-erh: sun-dried large-leaf material is steamed to soften it, pressed in a mould and dried. Little is documented on standard sizes or weights for the square, so don't assume one.\n\nThe taste comes from the leaf inside and the storage, not the shape. A young square acts like young sheng, with bitterness and sweetness; an old one should be woodier and softer. Dense pressing can affect how fast it ages and how easily it comes apart, as with other tightly pressed tea.\n\nBuy it as you would any cake, by producer, year and storage.",
+  "history": "Square pressed tea is listed among pu-erh's shapes alongside cakes, bricks and tuos. A distinct history of the square format has not been well documented.",
   "liquor_hex": "#C79A3F",
   "leaf_hex": "#4A4A2C",
   "wikipedia_title": "Fermented tea",
@@ -64,5 +64,16 @@
     "https://www.ihchina.cn/project_details/14621.html"
   ],
   "confidence": "low",
-  "images": []
+  "images": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/3/39/Fang_cha.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/39/Fang_cha.jpg/330px-Fang_cha.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Fang_cha.jpg",
+      "author": "Jason Fasi.",
+      "license": "CC BY-SA 2.5",
+      "license_url": "https://creativecommons.org/licenses/by-sa/2.5",
+      "kind": "cake",
+      "alt": "Square pressed raw pu-erh fangcha brick with olive and brown leaves"
+    }
+  ]
 }

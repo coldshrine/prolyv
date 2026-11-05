@@ -62,5 +62,26 @@
   "wikipedia_title": "Buckwheat tea",
   "wikipedia_scope": "umbrella",
   "popularity": 3,
-  "images": []
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8d/Buckwheat_Tea.JPG/1280px-Buckwheat_Tea.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8d/Buckwheat_Tea.JPG/330px-Buckwheat_Tea.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Buckwheat_Tea.JPG",
+      "author": "PanShiBo",
+      "license": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "kind": "liquor",
+      "alt": "Glass of pale yellow tartary buckwheat tea with roasted grains settled at the bottom, beside a sachet"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d8/Barrel_of_tartary_buckwheat_tea.jpg/1280px-Barrel_of_tartary_buckwheat_tea.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d8/Barrel_of_tartary_buckwheat_tea.jpg/330px-Barrel_of_tartary_buckwheat_tea.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Barrel_of_tartary_buckwheat_tea.jpg",
+      "author": "Fumikas Sagisavas",
+      "license": "CC0",
+      "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "kind": "serving",
+      "alt": "Heated glass barrel dispenser filled with golden tartary buckwheat tea"
+    }
+  ]
 }

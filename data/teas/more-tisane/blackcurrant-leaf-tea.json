@@ -15,7 +15,7 @@
   "origin_country": "Russia",
   "origin_region": "Russian home gardens",
   "cultivar": "Ribes nigrum",
-  "processing": "Leaves are either simply dried in a shaded airy place, or wilted for about 10 to 12 hours, bruised and fermented until they smell strongly of currant, then dried.",
+  "processing": "Leaves are either simply dried or fermented and then dried; little is documented about the method.",
   "form": "loose",
   "harvest_season": "Summer, picked from garden bushes by home makers; little is documented about a prized picking.",
   "appearance_dry": "Crumpled dark green leaf when simply dried, dark brown-green and twisted when fermented.",
@@ -35,23 +35,21 @@
     "seconds": [
       420
     ],
-    "notes": "Western-style, in a teapot. Fermented leaf can stand for 7 to 10 minutes. Plain dried leaf is often added to a regular black tea instead of drunk alone."
+    "notes": "Western-style, in a teapot. Plain dried leaf is often added to a regular black tea instead of drunk alone."
   },
   "caffeine_level": "none",
-  "vintage_note": "Mostly homemade, or sold in small bags of dried or fermented leaf with no vintage. Use the current summer's leaf through the winter. Keep fermented leaf in linen bags or jars with a little air, and throw it out when the currant smell has gone.",
-  "description": "Smorodinovyi list is a Russian garden tea: leaves of the black currant bush, dried or fermented, drunk alone or added to the regular pot. Russian herbal tea practice lists it alongside raspberry leaf.\n\nThe interesting choice is fermentation. A simple drying keeps the leaf green. Wilting it first and then bruising it lets it ferment for a matter of hours, and the leaf comes out smelling much stronger, with a darker cup.\n\nThe taste is more about scent than body: currant bush on a warm day. Fermented leaf takes a long steep of up to ten minutes, and a small handful of plain dried leaf is a nice way to lift ordinary black tea.\n\nYou rarely need to buy it if you know someone with a garden. If you do buy, smell it first: the currant aroma is the whole point, and it fades. For a related drink, try fermented ivan-chai.",
-  "history": "Little is documented about the origin of the custom. Tea from fermented and unfermented blackcurrant leaves is listed among Russian herbal teas, alongside raspberry leaf.\n\nIt has remained largely a home craft, passed on through household instructions and not through any named maker, and fermenting at home is still commonly described in Russian how-to guides.",
+  "vintage_note": "Mostly homemade, or sold in small bags of dried or fermented leaf with no vintage. Discard it when the currant smell has gone.",
+  "description": "Smorodinovyi list is a Russian garden tea: leaves of the black currant bush, dried or fermented, drunk alone or added to the regular pot. Russian herbal tea practice lists it alongside raspberry leaf.\n\nThe interesting choice is fermentation. Both dried and fermented leaf are used, and fermented leaf typically gives a darker cup, as with other fermented leaf teas.\n\nThe taste is more about scent than body: currant bush on a warm day. A small handful of plain dried leaf is a nice way to lift ordinary black tea.\n\nYou rarely need to buy it if you know someone with a garden. If you do buy, smell it first: the currant aroma is the whole point, and it fades. For a related drink, try fermented ivan-chai.",
+  "history": "Little is documented about the origin of the custom. Tea from fermented and unfermented blackcurrant leaves is listed among Russian herbal teas, alongside raspberry leaf.\n\nIt has remained largely a home craft, passed on through household instructions and not through any named maker.",
   "liquor_hex": "#BF9A45",
   "leaf_hex": "#4C5A34",
   "sources": [
     "https://ru.wikipedia.org/wiki/%D0%A2%D1%80%D0%B0%D0%B2%D1%8F%D0%BD%D0%BE%D0%B9_%D1%87%D0%B0%D0%B9",
-    "https://ru.wikipedia.org/wiki/%D0%A1%D0%BC%D0%BE%D1%80%D0%BE%D0%B4%D0%B8%D0%BD%D0%B0_%D1%87%D1%91%D1%80%D0%BD%D0%B0%D1%8F",
-    "https://lifehacker.ru/kak-fermentirovat-listya-smorodiny/amp/"
+    "https://ru.wikipedia.org/wiki/%D0%A1%D0%BC%D0%BE%D1%80%D0%BE%D0%B4%D0%B8%D0%BD%D0%B0_%D1%87%D1%91%D1%80%D0%BD%D0%B0%D1%8F"
   ],
   "confidence": "low",
   "wikipedia_title": null,
   "wikipedia_scope": "none",
   "popularity": 2,
-  "images": [],
-  "sources_note": "Taste is inferred from the reported currant aroma; colours are typical of dried and fermented leaf."
+  "images": []
 }

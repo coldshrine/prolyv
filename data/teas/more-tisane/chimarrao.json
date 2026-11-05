@@ -65,5 +65,16 @@
   "wikipedia_title": "Mate (drink)",
   "wikipedia_scope": "umbrella",
   "popularity": 3,
-  "images": []
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/48/Erva_mate_chimarrao_in_big_cuia.jpg/1280px-Erva_mate_chimarrao_in_big_cuia.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/48/Erva_mate_chimarrao_in_big_cuia.jpg/330px-Erva_mate_chimarrao_in_big_cuia.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Erva_mate_chimarrao_in_big_cuia.jpg",
+      "author": "ChimaAddicted",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "kind": "serving",
+      "alt": "Gourd cuia filled with bright green yerba mate and a metal bomba straw"
+    }
+  ]
 }

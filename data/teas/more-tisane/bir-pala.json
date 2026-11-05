@@ -1,0 +1,51 @@
+{
+  "slug": "bir-pala",
+  "name_en": "Bir Pala",
+  "name_native": null,
+  "name_romanized": null,
+  "aliases": [
+    "Ber Pala"
+  ],
+  "category": "tisane",
+  "origin_country": "Indonesia",
+  "origin_region": "Aceh",
+  "cultivar": null,
+  "form": "other",
+  "caffeine_level": "none",
+  "brewing": {
+    "grams": 2,
+    "water_ml": 200,
+    "temp_c": 100,
+    "steeps": 1,
+    "seconds": [
+      300
+    ],
+    "notes": "A common starting point for herbal infusions: boiling water, about five minutes."
+  },
+  "taste_tags": [
+    "spicy",
+    "honey"
+  ],
+  "description": "A spice drink from Aceh made from nutmeg fruit flesh, a crop of South Aceh, mixed with forest honey.\n\nBrew it as you would other herbal infusions. If the plant is new to you, check that it is safe for you first, especially when pregnant or on medication.",
+  "wikipedia_title": null,
+  "wikipedia_scope": "none",
+  "popularity": 1,
+  "name_zh": "亚齐肉豆蔻饮",
+  "name_ru": "Бир пала",
+  "history": "Little is documented about it beyond how it is made.",
+  "liquor_hex": "#B98A3E",
+  "leaf_hex": "#8A6A38",
+  "sources": [
+    "https://id.wikipedia.org/wiki/Bir_pala"
+  ],
+  "confidence": "low",
+  "images": [],
+  "stub": true,
+  "processing": "Nutmeg fruit flesh is fermented for 2 days, extracted and blended with forest honey.",
+  "harvest_season": "Depends on the plant and the place.",
+  "appearance_dry": "Dried plant material.",
+  "appearance_liquor": "Depends on the plant; usually pale to amber.",
+  "appearance_wet": "Softened plant material.",
+  "taste_profile": "A herbal infusion; the taste depends on the plant.",
+  "vintage_note": "Herbal infusions are not sold by vintage: buy recent stock and use it within a year or so."
+}

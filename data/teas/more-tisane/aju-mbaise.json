@@ -1,0 +1,51 @@
+{
+  "slug": "aju-mbaise",
+  "name_en": "Aju Mbaise",
+  "name_native": null,
+  "name_romanized": null,
+  "aliases": [
+    "Ajụ Mbaise"
+  ],
+  "category": "tisane",
+  "origin_country": "Nigeria",
+  "origin_region": "Imo · Mbaise",
+  "cultivar": null,
+  "form": "other",
+  "caffeine_level": "none",
+  "brewing": {
+    "grams": 2,
+    "water_ml": 200,
+    "temp_c": 100,
+    "steeps": 1,
+    "seconds": [
+      300
+    ],
+    "notes": "A common starting point for herbal infusions: boiling water, about five minutes."
+  },
+  "taste_tags": [
+    "herbal",
+    "medicinal"
+  ],
+  "description": "A traditional many-herb decoction from the Mbaise area of Imo State, Nigeria, made by boiling bundled leaves, roots, stems and bark.\n\nBrew it as you would other herbal infusions. If the plant is new to you, check that it is safe for you first, especially when pregnant or on medication.",
+  "wikipedia_title": null,
+  "wikipedia_scope": "none",
+  "popularity": 1,
+  "name_zh": "姆拜塞草药汤",
+  "name_ru": "Аджу мбаисе",
+  "history": "It is widely used in southeastern and southern Nigeria for postpartum care, weight management and general well-being. A 2020 study from the University of Port Harcourt identified plants in it including Xylopia aethiopica, Uvaria chamae and Dialium guineense; rodent work has looked at its effects on body weight and the liver.",
+  "liquor_hex": "#7A4A1E",
+  "leaf_hex": "#4A3A24",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Aju_Mbaise"
+  ],
+  "confidence": "low",
+  "images": [],
+  "stub": true,
+  "processing": "Plant parts are bound together and boiled into a decoction.",
+  "harvest_season": "Depends on the plant and the place.",
+  "appearance_dry": "Dried plant material.",
+  "appearance_liquor": "Depends on the plant; usually pale to amber.",
+  "appearance_wet": "Softened plant material.",
+  "taste_profile": "A herbal infusion; the taste depends on the plant.",
+  "vintage_note": "Herbal infusions are not sold by vintage: buy recent stock and use it within a year or so."
+}

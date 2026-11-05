@@ -1,0 +1,53 @@
+{
+  "slug": "lotus-pod-tea",
+  "name_en": "Lotus Pod Tea (Yeonbang-cha)",
+  "name_native": "연방차",
+  "name_romanized": "yeonbang-cha",
+  "aliases": [
+    "Yeonbang-cha",
+    "Lotus fruit tea",
+    "蓮房茶"
+  ],
+  "category": "tisane",
+  "origin_country": "South Korea",
+  "origin_region": "South Korea",
+  "cultivar": null,
+  "form": "loose",
+  "caffeine_level": "none",
+  "brewing": {
+    "grams": 2,
+    "water_ml": 200,
+    "temp_c": 100,
+    "steeps": 1,
+    "seconds": [
+      300
+    ],
+    "notes": "A common starting point for herbal infusions: boiling water, about five minutes."
+  },
+  "taste_tags": [
+    "herbal"
+  ],
+  "description": "A Korean lotus infusion, usually described as made from dried lotus fruit or pods. One account instead gives dried lotus root.\n\nBrew it as you would other herbal infusions. If the plant is new to you, check that it is safe for you first, especially when pregnant or on medication.",
+  "wikipedia_title": null,
+  "wikipedia_scope": "none",
+  "popularity": 1,
+  "name_zh": "莲房茶",
+  "name_ru": "Чай из коробочек лотоса",
+  "history": "It is one of several Korean teas named for a part of the lotus. Little more is documented about it.",
+  "liquor_hex": "#C9A860",
+  "leaf_hex": "#7A6240",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Lotus_tea",
+    "https://ko.wikipedia.org/wiki/%EC%97%B0%EC%B0%A8_%28%EC%9D%8C%EC%8B%9D%29"
+  ],
+  "confidence": "low",
+  "images": [],
+  "stub": true,
+  "processing": "Dried plant material, as with most herbal infusions.",
+  "harvest_season": "Depends on the plant and the place.",
+  "appearance_dry": "Dried plant material.",
+  "appearance_liquor": "Depends on the plant; usually pale to amber.",
+  "appearance_wet": "Softened plant material.",
+  "taste_profile": "A herbal infusion; the taste depends on the plant.",
+  "vintage_note": "Herbal infusions are not sold by vintage: buy recent stock and use it within a year or so."
+}

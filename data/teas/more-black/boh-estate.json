@@ -46,7 +46,38 @@
   "wikipedia_title": "BOH Plantations",
   "wikipedia_scope": "exact",
   "popularity": 3,
-  "images": [],
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/50/BOH_tea_estate_2%2C_Cameron_Highlands%2C_Malaysia.jpg/1280px-BOH_tea_estate_2%2C_Cameron_Highlands%2C_Malaysia.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/50/BOH_tea_estate_2%2C_Cameron_Highlands%2C_Malaysia.jpg/330px-BOH_tea_estate_2%2C_Cameron_Highlands%2C_Malaysia.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source_page": "https://commons.wikimedia.org/wiki/File:BOH_tea_estate_2,_Cameron_Highlands,_Malaysia.jpg",
+      "author": "Vyacheslav Argenberg",
+      "license": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0",
+      "kind": "plantation",
+      "alt": "Rows of tea bushes on rolling hills at the BOH estate, Cameron Highlands"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/66/Tea_plantations%2C_Malaysia.jpg/1280px-Tea_plantations%2C_Malaysia.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/66/Tea_plantations%2C_Malaysia.jpg/330px-Tea_plantations%2C_Malaysia.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Tea_plantations,_Malaysia.jpg",
+      "author": "Vyacheslav Argenberg",
+      "license": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0",
+      "kind": "plantation",
+      "alt": "Green valley of BOH tea fields in the Cameron Highlands"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/47/BOH_tea_plantations_2%2C_Cameron_Highlands%2C_Malaysia.jpg/1280px-BOH_tea_plantations_2%2C_Cameron_Highlands%2C_Malaysia.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/47/BOH_tea_plantations_2%2C_Cameron_Highlands%2C_Malaysia.jpg/330px-BOH_tea_plantations_2%2C_Cameron_Highlands%2C_Malaysia.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source_page": "https://commons.wikimedia.org/wiki/File:BOH_tea_plantations_2,_Cameron_Highlands,_Malaysia.jpg",
+      "author": "Vyacheslav Argenberg",
+      "license": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0",
+      "kind": "plantation",
+      "alt": "Tea-covered slope under cloudy sky at the BOH estate, Cameron Highlands"
+    }
+  ],
   "sources": [
     "https://en.wikipedia.org/wiki/BOH_Plantations",
     "https://en.wikipedia.org/wiki/Tringkap",

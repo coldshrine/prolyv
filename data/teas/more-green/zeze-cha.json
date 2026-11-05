@@ -1,0 +1,55 @@
+{
+  "slug": "zeze-cha",
+  "name_en": "Zeze-cha",
+  "name_native": "膳所茶",
+  "name_romanized": "zeze-cha",
+  "aliases": [
+    "Zeze tea",
+    "Zezecha"
+  ],
+  "category": "green",
+  "origin_country": "Japan",
+  "origin_region": "Shiga · Zeze",
+  "cultivar": null,
+  "form": "loose",
+  "caffeine_level": "medium",
+  "brewing": {
+    "grams": 3,
+    "water_ml": 150,
+    "temp_c": 80,
+    "steeps": 3,
+    "seconds": [
+      60,
+      75,
+      105
+    ],
+    "notes": "A safe starting point for green tea: cooler water, short steeps, then adjust by taste."
+  },
+  "taste_tags": [
+    "vegetal",
+    "sweet"
+  ],
+  "description": "A green tea of the old Zeze domain in present-day Shiga, remembered as Japan's first tea exported to America at the end of the Edo period.\n\nTreat it as you would any green tea: cooler water, short steeps, and a seller who can say where and when it was picked.",
+  "wikipedia_title": null,
+  "wikipedia_scope": "none",
+  "popularity": 1,
+  "name_zh": "膳所茶",
+  "name_ru": "Дзэдзэ-тя",
+  "history": "Good tea was grown on the domain's Kakigasaka slopes during the Edo period. The story goes that in 1853 a Zeze scholar in the shogunate's party served it aboard Perry's ship and the Americans asked for it. The domain then sent a former retainer to learn tea-making in Uji, cleared thirteen cho of land at Sonoyama, and shipped the tea in Shigaraki jars from Kobe and Yokohama.",
+  "liquor_hex": "#D6D27A",
+  "leaf_hex": "#7E8B3E",
+  "sources": [
+    "https://ja.wikipedia.org/wiki/%E8%86%B3%E6%89%80%E8%8C%B6",
+    "https://www.wikidata.org/wiki/Q11612412"
+  ],
+  "confidence": "medium",
+  "images": [],
+  "stub": true,
+  "processing": "Typical of green tea: picked, heated soon after picking to stop oxidation, then shaped and dried.",
+  "harvest_season": "Usually picked in spring, with the earliest pickings prized, as with most green teas.",
+  "appearance_dry": "Green leaf whose shape depends on the maker, as is usual for regional green teas.",
+  "appearance_liquor": "Usually a clear, pale yellow-green.",
+  "appearance_wet": "Usually soft green leaf that opens up in the water.",
+  "taste_profile": "Expect what green teas usually give: fresh, vegetal and lightly sweet.",
+  "vintage_note": "Green teas like this are normally sold as the current year's harvest and are best within a year of picking. It is not an ageing tea."
+}

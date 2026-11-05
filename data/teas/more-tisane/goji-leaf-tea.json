@@ -1,0 +1,55 @@
+{
+  "slug": "goji-leaf-tea",
+  "name_en": "Goji Leaf Tea",
+  "name_native": "枸杞叶茶",
+  "name_romanized": "gǒuqǐyè chá",
+  "aliases": [
+    "Чай из листьев годжи",
+    "Gugiyeop-cha",
+    "Kuko-cha",
+    "クコ茶",
+    "枸杞葉茶"
+  ],
+  "category": "tisane",
+  "origin_country": "China",
+  "origin_region": "China",
+  "cultivar": null,
+  "form": "loose",
+  "caffeine_level": "none",
+  "brewing": {
+    "grams": 2,
+    "water_ml": 200,
+    "temp_c": 100,
+    "steeps": 1,
+    "seconds": [
+      300
+    ],
+    "notes": "A common starting point for herbal infusions: boiling water, about five minutes."
+  },
+  "taste_tags": [
+    "herbal"
+  ],
+  "description": "A tisane made from the dried leaves of the goji plant, known in Japan as kuko-cha and in Korea as gugiyeop-cha.\n\nBrew it as you would other herbal infusions. If the plant is new to you, check that it is safe for you first, especially when pregnant or on medication.",
+  "wikipedia_title": null,
+  "wikipedia_scope": "none",
+  "popularity": 1,
+  "name_zh": "枸杞叶茶",
+  "name_ru": "Гоу Ци Е Ча",
+  "history": "Japanese herbal tradition credits it with lowering blood pressure and helping prevent hardening of the arteries. Little more is documented about it.",
+  "liquor_hex": "#C8B85E",
+  "leaf_hex": "#5E7040",
+  "sources": [
+    "https://ja.wikipedia.org/wiki/%E3%82%AF%E3%82%B3",
+    "https://www.wikidata.org/wiki/Q5615230"
+  ],
+  "confidence": "low",
+  "images": [],
+  "stub": true,
+  "processing": "Leaves, and sometimes roots, are finely chopped and dried.",
+  "harvest_season": "Depends on the plant and the place.",
+  "appearance_dry": "Dried plant material.",
+  "appearance_liquor": "Depends on the plant; usually pale to amber.",
+  "appearance_wet": "Softened plant material.",
+  "taste_profile": "A herbal infusion; the taste depends on the plant.",
+  "vintage_note": "Herbal infusions are not sold by vintage: buy recent stock and use it within a year or so."
+}

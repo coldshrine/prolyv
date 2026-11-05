@@ -1,0 +1,51 @@
+{
+  "slug": "peperina-tea",
+  "name_en": "Peperina",
+  "name_native": "peperina",
+  "name_romanized": null,
+  "aliases": [
+    "Menta peperina",
+    "Minthostachys verticillata"
+  ],
+  "category": "tisane",
+  "origin_country": "Argentina",
+  "origin_region": "Córdoba",
+  "cultivar": null,
+  "form": "loose",
+  "caffeine_level": "none",
+  "brewing": {
+    "grams": 2,
+    "water_ml": 200,
+    "temp_c": 100,
+    "steeps": 1,
+    "seconds": [
+      300
+    ],
+    "notes": "A common starting point for herbal infusions: boiling water, about five minutes."
+  },
+  "taste_tags": [
+    "herbal"
+  ],
+  "description": "An infusion of Minthostachys verticillata, a wild aromatic plant of the mint family, sold commercially by Argentine makers. Some chemotypes smell strongly of menthol.\n\nBrew it as you would other herbal infusions. If the plant is new to you, check that it is safe for you first, especially when pregnant or on medication.",
+  "wikipedia_title": null,
+  "wikipedia_scope": "none",
+  "popularity": 1,
+  "name_zh": "佩佩里纳草茶",
+  "name_ru": "Пеперина",
+  "history": "Gathering it in the Córdoba hills long supported local families, and scientists have warned since 1990 that wild native herbs there were at risk. The plant is now considered vulnerable and is harder to find. In Paraguay and northeastern Argentina it is sometimes confused with Mentha piperita.",
+  "liquor_hex": "#C9BE78",
+  "leaf_hex": "#6F7F4A",
+  "sources": [
+    "https://es.wikipedia.org/wiki/Minthostachys_verticillata"
+  ],
+  "confidence": "medium",
+  "images": [],
+  "stub": true,
+  "processing": "Dried plant material, as with most herbal infusions.",
+  "harvest_season": "Depends on the plant and the place.",
+  "appearance_dry": "Dried plant material.",
+  "appearance_liquor": "Depends on the plant; usually pale to amber.",
+  "appearance_wet": "Softened plant material.",
+  "taste_profile": "A herbal infusion; the taste depends on the plant.",
+  "vintage_note": "Herbal infusions are not sold by vintage: buy recent stock and use it within a year or so."
+}

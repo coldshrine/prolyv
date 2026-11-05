@@ -5,18 +5,21 @@
   "name_romanized": null,
   "name_zh": "哈萨克茶",
   "name_ru": "Казахский чай",
-  "aliases": [],
+  "aliases": [
+    "Kazakh milk tea",
+    "Kyzyl shai"
+  ],
   "category": "black",
   "origin_country": "Kazakhstan",
   "origin_region": "Kazakhstan",
   "cultivar": null,
-  "processing": "A way of serving black tea, not a leaf style. The tea itself is imported and brewed strong for the table.",
+  "processing": "A way of serving tea: strong black tea, kept hot and diluted in the bowl with milk or cream. Kazakhs in Xinjiang, China, may start with a pinch of salt and fresh milk, and also make a flour tea, un shai.",
   "form": "loose",
   "harvest_season": "Not applicable; it depends on the black tea used.",
   "appearance_dry": "Ordinary dark black tea leaf.",
   "appearance_liquor": "Typically a dark reddish brown before any milk is added.",
   "appearance_wet": "Dark brown leaf, as with other strong black teas.",
-  "taste_profile": "Depends on the tea used; expect a strong, plain black tea taste served alongside sweets.",
+  "taste_profile": "Strong, malty black tea softened by milk or cream, with a brisk finish; some versions add fennel or cardamom, and a pinch of salt appears in Xinjiang Kazakh practice.",
   "taste_tags": [
     "brisk",
     "malty"
@@ -33,7 +36,7 @@
   },
   "caffeine_level": "medium",
   "vintage_note": "It has no vintages or seasons, since this is a serving custom using ordinary black tea, bought as needed and drunk fresh.",
-  "description": "Kazakh tea means black tea as it is drunk at the Kazakh table, the dastarqan, and not a tea grown in Kazakhstan. Tea has become the constant companion of a meal there.\n\nThe interest is in the setting, not the leaf. Tea traditionally arrived with sweets after the main course, often after qymyz, and it has since displaced much of the older range of drinks.\n\nBrew it strong and keep it coming. The drink is meant to go with food and company, so there is little point chasing a rare leaf for it.\n\nAny sturdy black tea will do, and no regional grade is attached to the name.",
+  "description": "In Kazakhstan, tea is the drink that accompanies nearly every meal, and hosting people properly means keeping their bowls full. The usual cup is strong black tea with milk or cream, served in a ceramic bowl: small ones, called kese or piyala, in the hot south and west, larger ones elsewhere.\n\nThe name kyzyl shai, red tea, refers to the rich reddish colour of a strong brew with milk. Traditionally it is kept steeping on a hot stove. Kazakhs in Xinjiang, China, may start with a pinch of salt and fresh milk, and also make a flour tea called un shai.\n\nIn the cup it should be strong and malty, with enough milk to round it off and not hide it. Weak tea is the usual mistake: the milk needs something to stand up to. Fennel or cardamom are sometimes added, which gives a warm spiced version.\n\nAccounts of how to pour disagree. Some describe a nearly full bowl as generous, others hold that a small pour is the respectful one, because the guest then gets refilled more often. It varies by region and family, so follow your host.\n\nServe it the way it comes at the table, with dried curd such as kurt and sweets on the dastarkhan.",
   "history": "Black tea reached the Kazakhs from China along the Silk Road trade routes, though no firm date is attached to this. It was traditionally taken with sweets after the main course. Today it accompanies every meal and has largely replaced other traditional drinks.",
   "liquor_hex": "#7E3518",
   "leaf_hex": "#33231A",

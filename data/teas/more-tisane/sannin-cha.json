@@ -1,0 +1,51 @@
+{
+  "slug": "sannin-cha",
+  "name_en": "Sannin-cha",
+  "name_native": "サンニン茶",
+  "name_romanized": "sannin-cha",
+  "aliases": [
+    "Shell ginger tea",
+    "Getto-cha"
+  ],
+  "category": "tisane",
+  "origin_country": "Japan",
+  "origin_region": "Okinawa",
+  "cultivar": null,
+  "form": "loose",
+  "caffeine_level": "none",
+  "brewing": {
+    "grams": 2,
+    "water_ml": 200,
+    "temp_c": 100,
+    "steeps": 1,
+    "seconds": [
+      300
+    ],
+    "notes": "A common starting point for herbal infusions: boiling water, about five minutes."
+  },
+  "taste_tags": [
+    "herbal"
+  ],
+  "description": "An Okinawan infusion made from shell ginger, the plant called getto in standard Japanese and sannin locally.\n\nBrew it as you would other herbal infusions. If the plant is new to you, check that it is safe for you first, especially when pregnant or on medication.",
+  "wikipedia_title": null,
+  "wikipedia_scope": "none",
+  "popularity": 1,
+  "name_zh": "月桃茶",
+  "name_ru": "Саннин-тя",
+  "history": null,
+  "liquor_hex": "#CDAF58",
+  "leaf_hex": "#6D7A42",
+  "sources": [
+    "https://ja.wikipedia.org/wiki/%E3%82%B2%E3%83%83%E3%83%88%E3%82%A6"
+  ],
+  "confidence": "low",
+  "images": [],
+  "stub": true,
+  "processing": "Dried plant material, as with most herbal infusions.",
+  "harvest_season": "Depends on the plant and the place.",
+  "appearance_dry": "Dried plant material.",
+  "appearance_liquor": "Depends on the plant; usually pale to amber.",
+  "appearance_wet": "Softened plant material.",
+  "taste_profile": "A herbal infusion; the taste depends on the plant.",
+  "vintage_note": "Herbal infusions are not sold by vintage: buy recent stock and use it within a year or so."
+}

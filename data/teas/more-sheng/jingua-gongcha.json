@@ -21,7 +21,10 @@
     "金瓜貢茶",
     "Цзинь гуа",
     "Цзинь гуа (золотая тыква)",
-    "Цзиньгуа гунча"
+    "Цзиньгуа гунча",
+    "Jin Gua Gong Cha",
+    "Jīn Guā Gòng Chá",
+    "Jingua Tribute Tea"
   ],
   "category": "sheng",
   "origin_country": "China",
@@ -65,11 +68,23 @@
     "https://www.ihchina.cn/project_details/14621/",
     "https://m.bendibao.com/show770716_2.html",
     "https://zh.wikipedia.org/wiki/%E6%98%86%E6%98%8E%E8%8C%B6%E5%8E%82",
-    "https://en.wikipedia.org/wiki/Pu%27er_tea"
+    "https://en.wikipedia.org/wiki/Pu%27er_tea",
+    "https://aboxtik.com/dark-tea/"
   ],
   "confidence": "medium",
   "wikipedia_title": "Pu'er tea",
   "wikipedia_scope": "umbrella",
   "popularity": 3,
-  "images": []
+  "images": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/3/36/Golden_melon.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/36/Golden_melon.jpg/330px-Golden_melon.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Golden_melon.jpg",
+      "author": "Jason Fasi",
+      "license": "CC BY 2.5",
+      "license_url": "https://creativecommons.org/licenses/by/2.5",
+      "kind": "cake",
+      "alt": "Rounded melon-shaped block of pressed pu-erh tea on a bamboo mat"
+    }
+  ]
 }

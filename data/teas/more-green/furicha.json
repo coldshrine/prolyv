@@ -21,7 +21,7 @@
   "harvest_season": "Depends on the local tea. Shimane's botebote uses bancha harvested in late autumn and dried in the shade; other regions use their own coarse home-made tea.",
   "appearance_dry": "Varies with the region; typically coarse, brownish, rustic leaf and not a refined tea.",
   "appearance_liquor": "A brown-gold brew under a thick pale foam, which in Okinawa is piled high and served on its own.",
-  "appearance_wet": "Large, coarse leaves in the boiling pot, strained off before whisking.",
+  "appearance_wet": "Typically large, coarse leaves in the boiling pot; varies by region, and the leaf is milled in the Nara version.",
   "taste_profile": "Typical of boiled bancha: mellow, toasty and low in bitterness, softened further by the foam and usually made savoury with salt.",
   "taste_tags": [
     "roasted",
@@ -52,5 +52,36 @@
   "wikipedia_title": "振り茶",
   "wikipedia_scope": "exact",
   "popularity": 2,
-  "images": []
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e8/Bukubuku_cha1.jpg/1280px-Bukubuku_cha1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e8/Bukubuku_cha1.jpg/330px-Bukubuku_cha1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Bukubuku_cha1.jpg",
+      "author": "Opqr",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "kind": "liquor",
+      "alt": "Wooden bowl of bukubuku-cha brew with a bamboo whisk, before the foam is built up"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5c/Bukubuku_cha3.jpg/1280px-Bukubuku_cha3.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5c/Bukubuku_cha3.jpg/330px-Bukubuku_cha3.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Bukubuku_cha3.jpg",
+      "author": "Opqr",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "kind": "serving",
+      "alt": "Finished bukubuku-cha with a tall dome of white foam on a lacquer tray with sweets"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/07/Bukubuku_cha2.jpg/1280px-Bukubuku_cha2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/07/Bukubuku_cha2.jpg/330px-Bukubuku_cha2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Bukubuku_cha2.jpg",
+      "author": "Opqr",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "kind": "serving",
+      "alt": "Bamboo whisk raising thick white foam on bukubuku-cha in a wooden bowl"
+    }
+  ]
 }

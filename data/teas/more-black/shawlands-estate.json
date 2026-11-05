@@ -11,13 +11,13 @@
   "origin_country": "Sri Lanka",
   "origin_region": "Uva · Lunugala",
   "cultivar": null,
-  "processing": "Orthodox Ceylon black tea in grades such as OP, OPA and FBOP, made in the estate's own factory.",
+  "processing": "Orthodox Ceylon black tea in grades such as FBOPF1 and BOPSP.",
   "form": "loose",
   "harvest_season": "Little is published on a best season for this estate; as elsewhere in Uva, it is picked through the year with dry-weather lots usually most valued.",
-  "appearance_dry": "Long, dark, wiry leaf in OP and OPA, and smaller leaf in FBOP.",
+  "appearance_dry": "Dark orthodox leaf, its size set by the grade.",
   "appearance_liquor": "Clear reddish amber, as with mid-grown Uva teas.",
   "appearance_wet": "Coppery brown open leaf.",
-  "taste_profile": "Little is recorded in detail; expect a medium-bodied, rounded Ceylon black tea, typical of mid-elevation Uva, with OP grades smoother than the small broken ones.",
+  "taste_profile": "Little is recorded in detail; expect a medium-bodied, rounded Ceylon black tea, typical of mid-elevation Uva.",
   "taste_tags": [
     "malty",
     "brisk",
@@ -29,24 +29,22 @@
     "temp_c": 95,
     "steeps": 2,
     "seconds": [
-      210,
-      270
+      180,
+      240
     ],
-    "notes": "Brewed Western style. The long OP leaf opens slowly, so allow an extra half minute or so."
+    "notes": "Brewed Western style. Shorten the steep for small broken grades."
   },
   "caffeine_level": "medium",
-  "vintage_note": "Sold through the Colombo auction by grade, without a vintage, and exclusively brokered by Forbes & Walker. Retail packs are single-estate OP or similar of recent production; drink them within a year or two.",
-  "description": "Shawlands is a mid-elevation estate at Lunugala in the Passara district of Uva, between about 792 and 1,173 metres and covering roughly 515 hectares. It is managed by Hapugastenna Plantations, and it is a name the auction room knows better than the tea shelf.\n\nThe tea is orthodox black, made in its own factory, and long-leaf grades such as OP and OPA have been its most notable performers at auction. The Sri Lanka Tea Board has also given it a two-star rating for its practices, and an FBOP won one star at the Great Taste Awards 2022.\n\nBrew OP with a little more time than you would give a broken grade, since the long leaf opens slowly. It suits drinking plain, while FBOP stands up better to milk.\n\nBe careful with listings: a Shawlands Tea Estate near Nuwara Eliya also appears online with different details, and it may not be the same place. Look for Lunugala or Uva on the pack.",
-  "history": "The estate's origins are placed in the early 1880s, with 1880 itself given by one account. The factory was built in the late 1930s and has been renovated several times since.\n\nIts recent reputation comes from the Colombo auction: repeated record prices, including Rs. 2,150 per kilo for an OP/OPA in 2022.",
+  "vintage_note": "Sold through the Colombo auction by grade, without a vintage; the record lots were marketed by Forbes and Walker. Drink recent lots within a year or two.",
+  "description": "Shawlands is a mid-elevation estate at Lunugala in Uva, at about 990 metres on the southern slopes of the Madulsima range. It is managed by Hapugastenna Plantations, and it is a name the auction room knows better than the tea shelf.\n\nThe tea is orthodox black, and small grades such as FBOPF1 and BOPSP have set estate records at auction. The Sri Lanka Tea Board has also given it a two-star rating for its organising and manufacturing practices.\n\nBrew it like other mid-grown Ceylon black tea, with water just off the boil, and shorten the steep for small grades, which stand up well to milk.\n\nLook for Lunugala or Uva on the pack to be sure of the origin.",
+  "history": "Its recent reputation comes from the Colombo auction, where it has set estate records, including Rs. 1,160 per kilo for an FBOPF1 in August 2021, in the Uva Medium category.",
   "liquor_hex": "#A85C24",
   "leaf_hex": "#33261C",
   "sources": [
-    "https://archives.sundayobserver.lk/2004/01/04/bus23.html",
     "https://www.ft.lk/Business/Shawlands-shines-with-all-time-record-price/34-722230",
-    "https://www.historyofceylontea.com/ceylon-publications/ceylon-tea-articles/shawlands-shines-with-all-time-record-price.html",
-    "https://www.ft.lk/Agriculture/Shawlands-Estate-achieves-all-time-price/31-684831"
+    "https://www.historyofceylontea.com/ceylon-publications/ceylon-tea-articles/shawlands-shines-with-all-time-record-price.html"
   ],
-  "confidence": "medium",
+  "confidence": "low",
   "wikipedia_title": null,
   "wikipedia_scope": "none",
   "popularity": 2,

@@ -18,9 +18,9 @@
   "form": "other",
   "harvest_season": "Not seasonal: it is a blend of dried ingredients sold year round.",
   "appearance_dry": "Pale yellow-tan chopped root and peel with straw-like lemongrass, mostly inside a bag.",
-  "appearance_liquor": "Clear pale gold, turning pinker in blends with hibiscus.",
+  "appearance_liquor": "Typically a clear pale gold; blends with hibiscus would run pinker.",
   "appearance_wet": "Soft fibrous bits of root and peel.",
-  "taste_profile": "Zesty citrus up front and a warm, peppery ginger kick behind it, with lemongrass keeping things fresh.",
+  "taste_profile": "Citrus and warm ginger, with lemongrass in the usual mix; flavouring often does much of the work.",
   "taste_tags": [
     "citrus",
     "spicy",
@@ -32,13 +32,13 @@
     "temp_c": 100,
     "steeps": 1,
     "seconds": [
-      300
+      180
     ],
-    "notes": "One bag per cup in boiling water for 2 to 5 minutes, depending on the brand. Also works iced."
+    "notes": "One bag in freshly boiled water; Twinings gives 3 minutes per 200 ml, longer for a stronger cup."
   },
   "caffeine_level": "none",
   "vintage_note": "A supermarket staple with no vintage or season, sold by best-before date. Recipes differ from brand to brand, so read the list: the ginger share and the presence of flavouring tell you most of what you need to know.",
-  "description": "Lemon and ginger is one of the standard herbal infusions on British supermarket shelves: caffeine-free, sharp and warming, and made with no tea leaf at all.\n\nThe usual base is ginger root, lemongrass and lemon peel, and the proportions vary a lot. One brand lists ginger at 65% with lemongrass and liquorice, another adds blackberry leaf and fennel, and another uses apple and hibiscus, which changes the colour and adds tartness.\n\nBrew it with boiling water; brands suggest anything from two to five minutes. Two minutes is bright and light, five is fuller.\n\nIf a bag tastes more of sweets than of ginger, flavouring is probably doing the work. Look for ginger high in the ingredient list, or make your own with fresh ginger slices and lemon.",
+  "description": "Lemon and ginger is one of the standard herbal infusions on British supermarket shelves: caffeine-free, sharp and warming, and made with no tea leaf at all.\n\nThe usual base is ginger root, lemongrass and lemon peel, and recipes vary. Twinings lists 37% ginger root and 25% lemon flavourings, with blackberry leaf and fennel.\n\nBrew it with freshly boiled water for about three minutes, longer for a stronger cup.\n\nIf a bag tastes more of sweets than of ginger, flavouring is probably doing the work. Look for ginger high in the ingredient list, or make your own with fresh ginger slices and lemon.",
   "history": "This is a modern commercial blend, and little is documented about who first sold it under this name. It is now carried by most large British tea brands, so it is better understood as a category than as a single tea with its own history.",
   "liquor_hex": "#E2C766",
   "leaf_hex": "#C9A968",

@@ -1,0 +1,57 @@
+{
+  "slug": "taihua",
+  "name_en": "Taihua",
+  "name_native": "太华茶",
+  "name_romanized": "Tàihuá",
+  "aliases": [
+    "Taihua Tea"
+  ],
+  "category": "sheng",
+  "origin_country": "China",
+  "origin_region": "Yunnan · Lincang · Fengqing",
+  "cultivar": "Fengqing Dayezhong",
+  "form": "loose",
+  "caffeine_level": "high",
+  "brewing": {
+    "grams": 6,
+    "water_ml": 110,
+    "temp_c": 95,
+    "steeps": 7,
+    "seconds": [
+      10,
+      10,
+      15,
+      20,
+      25,
+      35,
+      50
+    ],
+    "notes": "A safe starting point for raw pu-erh: rinse once, gongfu style, short early steeps."
+  },
+  "taste_tags": [
+    "bitter",
+    "sweet"
+  ],
+  "description": "A historical name linked to the Fengqing large-leaf tea plant, a seed-propagated, early-sprouting tree type native to Dasi and Fengshan in Fengqing County, Lincang.\n\nThis is a tea plant cultivar rather than a finished tea, so you are more likely to meet its name in a grower's notes than on a packet. If you find tea made from it, brew it like any other raw pu-erh tea and taste what the plant brings.",
+  "wikipedia_title": null,
+  "wikipedia_scope": "none",
+  "popularity": 1,
+  "name_zh": "太华茶",
+  "name_ru": "Тай Хуа",
+  "history": "The Ming-era travel writings of Xu Xiake mention a tea called Taihua, and this is identified with the Fengqing large-leaf plant, now grown mainly in Fengqing and Changning. Little more is documented about it.",
+  "liquor_hex": "#C9A23C",
+  "leaf_hex": "#5A5A3A",
+  "sources": [
+    "https://m.ipucha.com/show-34-1191.html"
+  ],
+  "confidence": "low",
+  "images": [],
+  "stub": true,
+  "processing": "A plant cultivar, not a processing style: it is usually made into raw pu-erh tea, and the method is up to the grower.",
+  "harvest_season": "Depends on the place and the grower.",
+  "appearance_dry": "Depends on how the leaf is processed.",
+  "appearance_liquor": "Depends on how the leaf is processed.",
+  "appearance_wet": "Depends on how the leaf is processed.",
+  "taste_profile": "Depends on how the leaf is processed; tea from it usually falls within what raw pu-erh teas give.",
+  "vintage_note": "A cultivar is not sold by vintage. Tea made from it follows the usual pattern for raw pu-erh tea, so ask for the harvest year and the grower."
+}

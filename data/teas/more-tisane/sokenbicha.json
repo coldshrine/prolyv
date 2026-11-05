@@ -1,0 +1,54 @@
+{
+  "slug": "sokenbicha",
+  "name_en": "Sokenbicha",
+  "name_native": "爽健美茶",
+  "name_romanized": "sōkenbicha",
+  "aliases": [
+    "Sōkenbicha",
+    "Soukenbicha",
+    "Sokembicha"
+  ],
+  "category": "tisane",
+  "origin_country": "Japan",
+  "origin_region": "Japan",
+  "cultivar": null,
+  "form": "other",
+  "caffeine_level": "none",
+  "brewing": {
+    "grams": 2,
+    "water_ml": 200,
+    "temp_c": 100,
+    "steeps": 1,
+    "seconds": [
+      300
+    ],
+    "notes": "A common starting point for herbal infusions: boiling water, about five minutes."
+  },
+  "taste_tags": [
+    "herbal"
+  ],
+  "description": "A bottled Japanese blended drink from Coca-Cola, built on grains and herbs such as job's tears, brown rice, barley, corn, dokudami and chicory. The name draws on the words for refreshing, healthy and beautiful.\n\nBrew it as you would other herbal infusions. If the plant is new to you, check that it is safe for you first, especially when pregnant or on medication.",
+  "wikipedia_title": null,
+  "wikipedia_scope": "none",
+  "popularity": 1,
+  "name_zh": "爽健美茶",
+  "name_ru": "Сокэнби-тя",
+  "history": "It was launched in 1993 under the Chariu Saisai line as a test sale in Kyushu, went national in 1994, and became a brand of its own in 1999 after it outsold the rival it was designed to answer, Asahi's Juroku-cha. Green tea and pu-erh were once in the recipe; after a public vote in 2013 the caffeine-free version became the standard one. A separate range built on oolong, green and barley blends reached the United States in 2010.",
+  "liquor_hex": "#C9963F",
+  "leaf_hex": "#7A6236",
+  "sources": [
+    "https://ja.wikipedia.org/wiki/%E7%88%BD%E5%81%A5%E7%BE%8E%E8%8C%B6",
+    "https://en.wikipedia.org/wiki/Sokenbicha",
+    "https://www.wikidata.org/wiki/Q1263804"
+  ],
+  "confidence": "medium",
+  "images": [],
+  "stub": true,
+  "processing": "Current Japanese ingredients, as of September 2025: job's tears, brown rice, barley, corn, dokudami, habu-cha, chicory, malt extract powder, evening primrose, young barley leaf, eucommia leaf, corn silk and vitamin C.",
+  "harvest_season": "Depends on the plant and the place.",
+  "appearance_dry": "Dried plant material.",
+  "appearance_liquor": "Depends on the plant; usually pale to amber.",
+  "appearance_wet": "Softened plant material.",
+  "taste_profile": "A herbal infusion; the taste depends on the plant.",
+  "vintage_note": "Herbal infusions are not sold by vintage: buy recent stock and use it within a year or so."
+}

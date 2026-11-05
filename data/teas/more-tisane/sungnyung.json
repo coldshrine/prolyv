@@ -1,0 +1,53 @@
+{
+  "slug": "sungnyung",
+  "name_en": "Sungnyung",
+  "name_native": "숭늉",
+  "name_romanized": "sungnyung",
+  "aliases": [
+    "Scorched rice tea"
+  ],
+  "category": "tisane",
+  "origin_country": "South Korea",
+  "origin_region": "Korea",
+  "cultivar": null,
+  "form": "other",
+  "caffeine_level": "none",
+  "brewing": {
+    "grams": 2,
+    "water_ml": 200,
+    "temp_c": 100,
+    "steeps": 1,
+    "seconds": [
+      300
+    ],
+    "notes": "A common starting point for herbal infusions: boiling water, about five minutes."
+  },
+  "taste_tags": [
+    "roasted",
+    "sweet"
+  ],
+  "description": "A traditional Korean drink made by boiling water with the scorched rice crust left at the bottom of the pot, usually served after a meal.\n\nBrew it as you would other herbal infusions. If the plant is new to you, check that it is safe for you first, especially when pregnant or on medication.",
+  "wikipedia_title": null,
+  "wikipedia_scope": "none",
+  "popularity": 1,
+  "name_zh": "熟冷",
+  "name_ru": "Суннюн",
+  "history": "Its origin is unknown. The late Joseon Imwon gyeongjeji records it under the term for boiled water, and a 12th-century Song text gives a similar term, which suggests the drink existed in early or middle Goryeo. Iron cauldrons left the crust behind, and making the drink also saved the rice and cleaned the pot. It declined as modern cookers stopped forming a crust, then regained popularity in the late 20th century, with prepackaged crust now sold.",
+  "liquor_hex": "#C9A468",
+  "leaf_hex": "#A87A3E",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Sungnyung",
+    "https://ko.wikipedia.org/wiki/%EC%88%AD%EB%8A%89",
+    "https://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%B3%E3%83%8B%E3%83%A5%E3%83%B3"
+  ],
+  "confidence": "medium",
+  "images": [],
+  "stub": true,
+  "processing": "Water is poured over the browned rice layer in the pot and simmered until it takes on the roasted flavour.",
+  "harvest_season": "Depends on the plant and the place.",
+  "appearance_dry": "Dried plant material.",
+  "appearance_liquor": "Depends on the plant; usually pale to amber.",
+  "appearance_wet": "Softened plant material.",
+  "taste_profile": "Sweetness from the crust together with a toasty, savoury note.",
+  "vintage_note": "Herbal infusions are not sold by vintage: buy recent stock and use it within a year or so."
+}

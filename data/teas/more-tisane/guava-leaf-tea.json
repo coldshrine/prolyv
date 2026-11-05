@@ -17,17 +17,17 @@
   "origin_country": "Japan",
   "origin_region": "Okinawa",
   "cultivar": "Psidium guajava",
-  "processing": "Guava leaves are dried and cut, then boiled or steeped. Methods differ by maker; some hand-roll young leaves and dry in stages, and lactic-fermented versions also exist.",
+  "processing": "Guava leaves are dried and cut, then steeped or boiled. Methods differ by maker.",
   "form": "loose",
   "harvest_season": "No prized picking season is documented; the tea sells all year.",
   "appearance_dry": "Cut, dull green to brownish leaf pieces.",
   "appearance_liquor": "Clear yellow-brown to light amber.",
   "appearance_wet": "Soft olive-brown leaf pieces with visible veins.",
-  "taste_profile": "Fruity and lightly cooling in the nose, refreshing when hot; iced, it leaves a slightly medicinal bitterness in the aftertaste.",
+  "taste_profile": "Clean and refreshing when hot; iced, it leaves a slight bitterness in the aftertaste.",
   "taste_tags": [
-    "fruity",
     "herbal",
-    "bitter"
+    "bitter",
+    "grassy"
   ],
   "brewing": {
     "grams": 3,
@@ -37,12 +37,12 @@
     "seconds": [
       240
     ],
-    "notes": "Steep a bag or loose leaf for 3 to 5 minutes, or simmer loose leaf in a pot. If the bitterness bothers you, boil it with a little bancha, hojicha or green tea."
+    "notes": "Steep a bag or loose leaf for 3 to 5 minutes, to taste. If the bitterness bothers you, try it hot or blend it with another tea."
   },
   "caffeine_level": "none",
-  "vintage_note": "Sold with no vintage, as tea bags and loose cut leaf, all year, and common on Okinawan shelves. Fermented guava tea is a separate product, sold as such on the label.",
-  "description": "Banshirū is the Okinawan word for guava, and banshirū-cha is the local name for tea made from its leaves. It is not a fruit tea in the usual sense: there is no pulp, just the leaf of a small tropical tree, and no true tea unless someone blends it in.\n\nThe leaves are dried and usually boiled or steeped directly. Small producers have their own methods, and one Okinawan maker hand-rolls only young leaves, avoiding the bitter stems. A fermented style also exists, sold on claims of a milder taste.\n\nIt smells surprisingly fruity, with a cool, slightly herbal lift through the nose. Hot, it reads as refreshing; cold, a bitter touch shows up on the finish. Keep steeps to a few minutes, and blend with bancha or hojicha if it is too sharp. Remember that blending adds caffeine.\n\nBuy it as a pleasant daily drink, not as medicine. Compounds in the leaf such as quercetin glycosides are studied, but packaging tends to run far ahead of the evidence.",
-  "history": "Guava leaf tea has long been a familiar household herbal drink in Okinawa, where guava fruit is also grown on a small scale. Little is documented about when the habit started. Okinawa's prefectural technology researchers have more recently looked at its compounds and at lactic fermentation, which has led to new fermented products.",
+  "vintage_note": "Sold with no vintage, as tea bags and loose cut leaf, all year.",
+  "description": "Banshirū is the Okinawan word for guava, and banshirū-cha is the local name for tea made from its leaves. It is not a fruit tea in the usual sense: there is no pulp, just the leaf of a small tropical tree, and no true tea unless someone blends it in.\n\nThe leaves are dried and usually steeped or boiled directly, and methods differ by maker.\n\nHot, it reads as clean and refreshing; cold, a bitter touch shows up on the finish. Keep steeps to a few minutes, and blend with another tea if it is too sharp. Remember that blending with true tea adds caffeine.\n\nBuy it as a pleasant daily drink, not as medicine: packaging tends to run ahead of the evidence.",
+  "history": "Guava leaves are said to have been steeped as tea in China long ago. In Japan the fruit is grown only in small amounts, in Okinawa and Kagoshima. Little is documented about when the tea habit started in Okinawa.",
   "liquor_hex": "#C2A052",
   "leaf_hex": "#6E7044",
   "sources": [

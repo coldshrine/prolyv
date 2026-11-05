@@ -13,7 +13,7 @@
   "origin_country": "United States",
   "origin_region": "Hawaii",
   "cultivar": "Pipturus albidus",
-  "processing": "Leaves of the endemic Hawaiian shrub are harvested, withered and dried, sometimes in mechanical dryers, then sorted. There is little processing beyond that.",
+  "processing": "Leaves of the endemic Hawaiian shrub are harvested and dried, then sold crumbled or whole. Processing is typically minimal.",
   "form": "loose",
   "harvest_season": "No prized picking is recorded; small growers harvest leaves as the plants allow.",
   "appearance_dry": "Crumbled dark olive-green dried leaf, sometimes with bits of stem.",
@@ -31,13 +31,13 @@
     "temp_c": 95,
     "steeps": 1,
     "seconds": [
-      300
+      540
     ],
-    "notes": "About 2 tablespoons of crumbled leaf to 2 cups of water just off the boil. Steep time is by taste."
+    "notes": "About 2 tablespoons of crumbled leaf to 2 cups of water just off the boil. Cover and steep 8 to 10 minutes; it does not turn bitter with a longer steep."
   },
   "caffeine_level": "none",
   "vintage_note": "Sold by small Hawaiian growers with no vintage, typically as recently dried loose leaf or bags. Look for the name of the farm and island, because supply is local and limited. As with other dried leaf herbs, freshness counts more than age.",
-  "description": "Māmaki is a shrub found only in Hawaii, growing wild in the understorey of wet forests on all the main islands except Kahoʻolawe and Niʻihau. The tea comes from its leaves and contains no Camellia sinensis.\n\nProcessing is simple: leaves are withered, dried and sorted, without the rolling or firing of true tea. That leaves a plain leaf infusion rather than anything shaped by a tea maker.\n\nThe cup is amber to rust in colour, smooth and quiet, with mild earthiness and a little sweetness. Little is recorded about getting the best from it, so start with a short steep and adjust by taste.\n\nBuy from named island growers if you can, and treat health claims on packaging with care. Anyone pregnant, nursing or on medication would do well to ask a doctor first.",
+  "description": "Māmaki is a shrub found only in Hawaii, growing wild in the understorey of wet forests on all the main islands except Kahoʻolawe and Niʻihau. The tea comes from its leaves and contains no Camellia sinensis.\n\nProcessing is simple, essentially drying, which leaves a plain leaf infusion.\n\nThe cup is amber to rust in colour, smooth and quiet, with mild earthiness and a little sweetness. Give it a long, covered steep of 8 to 10 minutes; it has no bitter edge to fear.\n\nBuy from named island growers if you can, and treat health claims on packaging with care. Anyone pregnant, nursing or on medication would do well to ask a doctor first.",
   "history": "Native Hawaiians used the plant as medicine and for dye, and it is reported to have been drunk as a hot infusion, though detailed records are scarce and much of what circulates comes from sellers.\n\nCommercial tea is a smaller, modern story. University of Hawaiʻi agricultural specialists have worked on finding higher-yielding, better-tasting varieties to expand the market.",
   "liquor_hex": "#B5692E",
   "leaf_hex": "#5A5A32",
@@ -50,5 +50,36 @@
   "wikipedia_title": null,
   "wikipedia_scope": "none",
   "popularity": 2,
-  "images": []
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a9/Starr_041113-0709_Pipturus_albidus.jpg/1280px-Starr_041113-0709_Pipturus_albidus.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a9/Starr_041113-0709_Pipturus_albidus.jpg/330px-Starr_041113-0709_Pipturus_albidus.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Starr_041113-0709_Pipturus_albidus.jpg",
+      "author": "Forest &amp; Kim Starr",
+      "license": "CC BY 3.0",
+      "license_url": "https://creativecommons.org/licenses/by/3.0",
+      "kind": "plant",
+      "alt": "Young mamaki plant (Pipturus albidus) with serrated green leaves on forest soil, Maui"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/5/55/Starr_030405-0099_Pipturus_albidus.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/55/Starr_030405-0099_Pipturus_albidus.jpg/330px-Starr_030405-0099_Pipturus_albidus.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Starr_030405-0099_Pipturus_albidus.jpg",
+      "author": "Forest &amp; Kim Starr",
+      "license": "CC BY 3.0",
+      "license_url": "https://creativecommons.org/licenses/by/3.0",
+      "kind": "plant",
+      "alt": "Mamaki plant (Pipturus albidus) with pale-backed leaves among ferns in Makawao Forest Reserve, Maui"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/1/1e/Starr-040131-0014-Pipturus_albidus-habit-Auwahi-Maui_%2824070915513%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1e/Starr-040131-0014-Pipturus_albidus-habit-Auwahi-Maui_%2824070915513%29.jpg/330px-Starr-040131-0014-Pipturus_albidus-habit-Auwahi-Maui_%2824070915513%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Starr-040131-0014-Pipturus_albidus-habit-Auwahi-Maui_(24070915513).jpg",
+      "author": "Forest and Kim Starr",
+      "license": "CC BY 3.0 us",
+      "license_url": "https://creativecommons.org/licenses/by/3.0/us/deed.en",
+      "kind": "plant",
+      "alt": "Mamaki shrub (Pipturus albidus) growing on dark rock at Auwahi, Maui"
+    }
+  ]
 }

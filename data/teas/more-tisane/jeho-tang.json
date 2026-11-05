@@ -1,0 +1,54 @@
+{
+  "slug": "jeho-tang",
+  "name_en": "Jeho-tang (Daigo-to)",
+  "name_native": "제호탕",
+  "name_romanized": "jeho-tang",
+  "aliases": [
+    "Daigo-to",
+    "醍醐湯"
+  ],
+  "category": "tisane",
+  "origin_country": "South Korea",
+  "origin_region": "South Korea",
+  "cultivar": null,
+  "form": "other",
+  "caffeine_level": "none",
+  "brewing": {
+    "grams": 2,
+    "water_ml": 200,
+    "temp_c": 100,
+    "steeps": 1,
+    "seconds": [
+      300
+    ],
+    "notes": "A common starting point for herbal infusions: boiling water, about five minutes."
+  },
+  "taste_tags": [
+    "honey",
+    "sweet",
+    "spicy",
+    "medicinal"
+  ],
+  "description": "A traditional Korean cold drink of honey and medicinal ingredients: smoked unripe plums, medicinal cardamom, white sandalwood and black cardamom.\n\nBrew it as you would other herbal infusions. If the plant is new to you, check that it is safe for you first, especially when pregnant or on medication.",
+  "wikipedia_title": null,
+  "wikipedia_scope": "none",
+  "popularity": 1,
+  "name_zh": "醍醐汤",
+  "name_ru": "Чехо-тан (дайго-то)",
+  "history": "Royal court cuisine regarded it as the finest summer drink. Little more is documented about it.",
+  "liquor_hex": "#8A4A22",
+  "leaf_hex": "#5A3420",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Jeho-tang"
+  ],
+  "confidence": "low",
+  "images": [],
+  "stub": true,
+  "processing": "The ingredients are powdered, mixed with honey and water and boiled; the chilled liquid is then diluted with cold water.",
+  "harvest_season": "Depends on the plant and the place.",
+  "appearance_dry": "Dried plant material.",
+  "appearance_liquor": "Depends on the plant; usually pale to amber.",
+  "appearance_wet": "Softened plant material.",
+  "taste_profile": "A herbal infusion; the taste depends on the plant.",
+  "vintage_note": "Herbal infusions are not sold by vintage: buy recent stock and use it within a year or so."
+}

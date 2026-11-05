@@ -1,0 +1,53 @@
+{
+  "slug": "ganhe-cha",
+  "name_en": "Ganhe Cha",
+  "name_native": "甘和茶",
+  "name_romanized": "gān hé chá",
+  "aliases": [
+    "榄葱茶",
+    "欖蔥茶",
+    "盒仔茶"
+  ],
+  "category": "tisane",
+  "origin_country": "China",
+  "origin_region": "Guangdong · Foshan",
+  "cultivar": null,
+  "form": "brick",
+  "caffeine_level": "none",
+  "brewing": {
+    "grams": 2,
+    "water_ml": 200,
+    "temp_c": 100,
+    "steeps": 1,
+    "seconds": [
+      300
+    ],
+    "notes": "A common starting point for herbal infusions: boiling water, about five minutes."
+  },
+  "taste_tags": [
+    "herbal"
+  ],
+  "description": "A medicinal cold-remedy tea from Guangdong, pressed into bricks from herb-soaked leaves and also known as box tea for its small packaging.\n\nBrew it as you would other herbal infusions. If the plant is new to you, check that it is safe for you first, especially when pregnant or on medication.",
+  "wikipedia_title": null,
+  "wikipedia_scope": "none",
+  "popularity": 1,
+  "name_zh": "甘和茶",
+  "name_ru": "Гань Хэ Ча",
+  "history": "It was created in the Daoguang era of the Qing by the three Yuan brothers Huichang, Hechang and Yingchang under the Yuan Jilin name, and Yuan Jilin Ganhe Tea is on Guangdong's intangible heritage list. Standard versions appear in China's national drug standards, and the Yuan Jilin formula became a prescription product in 2005.",
+  "liquor_hex": "#6E3A18",
+  "leaf_hex": "#3A2A1C",
+  "sources": [
+    "https://zh.wikipedia.org/wiki/%E6%84%9F%E5%86%92%E8%8C%B6",
+    "https://zh.wikipedia.org/wiki/涼茶"
+  ],
+  "confidence": "medium",
+  "images": [],
+  "stub": true,
+  "processing": "Herbs are first prepared, then their decoction is absorbed into leaf that is pressed into bricks.",
+  "harvest_season": "Depends on the plant and the place.",
+  "appearance_dry": "Dried plant material.",
+  "appearance_liquor": "Depends on the plant; usually pale to amber.",
+  "appearance_wet": "Softened plant material.",
+  "taste_profile": "A herbal infusion; the taste depends on the plant.",
+  "vintage_note": "Herbal infusions are not sold by vintage: buy recent stock and use it within a year or so."
+}

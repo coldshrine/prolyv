@@ -1,0 +1,52 @@
+{
+  "slug": "white-orange-nepal",
+  "name_en": "White Orange",
+  "name_native": null,
+  "name_romanized": null,
+  "aliases": [],
+  "category": "white",
+  "origin_country": "Nepal",
+  "origin_region": "Nepal",
+  "cultivar": null,
+  "form": "loose",
+  "caffeine_level": "low",
+  "brewing": {
+    "grams": 4,
+    "water_ml": 120,
+    "temp_c": 85,
+    "steeps": 4,
+    "seconds": [
+      45,
+      60,
+      75,
+      90
+    ],
+    "notes": "A safe starting point for white tea: use hot but not boiling water and give it time."
+  },
+  "taste_tags": [
+    "sweet",
+    "floral"
+  ],
+  "description": "A Nepalese tea made from silvery buds with one leaf, listed as white though it is rolled and fired.\n\nTreat it as you would any white tea: hot but not boiling water, patient steeps, and a seller who can say where and when it was picked.",
+  "wikipedia_title": null,
+  "wikipedia_scope": "none",
+  "popularity": 1,
+  "name_zh": "尼泊尔白橙茶",
+  "name_ru": "Белый апельсин (Непал)",
+  "history": "It is picked in mid-summer or deep autumn, and the final firing is there to build flavour and extend shelf life. Little more is documented about it.",
+  "liquor_hex": "#DDB565",
+  "leaf_hex": "#A9A98E",
+  "sources": [
+    "https://stir-tea-coffee.com/features/teas-from-the-hills-of-nepal"
+  ],
+  "confidence": "low",
+  "images": [],
+  "stub": true,
+  "processing": "Withered, hand-rolled, rested, machine-rolled, dried over low heat, rested again, then fired.",
+  "harvest_season": "Mid-summer or the depth of autumn.",
+  "appearance_dry": "Usually downy buds or soft, silvery-green leaves.",
+  "appearance_liquor": "Usually a pale straw to light amber.",
+  "appearance_wet": "Usually soft, intact leaf and bud.",
+  "taste_profile": "Expect what white teas usually give: gentle, sweet and lightly floral.",
+  "vintage_note": "White teas are normally sold either fresh, from the current year, or pressed and aged for several years, with the year stated."
+}

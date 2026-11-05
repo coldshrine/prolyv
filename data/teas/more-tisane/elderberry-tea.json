@@ -14,13 +14,13 @@
   "origin_country": "United Kingdom",
   "origin_region": "Britain",
   "cultivar": null,
-  "processing": "Ripe elderberries are dried or freeze-dried, with stems and leaves removed, then simmered or steeped. Heat matters here: raw elder berries, stems and leaves contain sambunigrin, which is broken down by cooking.",
+  "processing": "Ripe elderberries are dried, with stems and leaves removed, then boiled and strained. Heat matters here: raw unripe berries, stems and leaves contain sambunigrin, which cooking eliminates.",
   "form": "loose",
   "harvest_season": "Not tied to a prized picking in the sources; bought dried year round.",
   "appearance_dry": "Small, wrinkled, near-black round berries.",
   "appearance_liquor": "Deep purple-red and opaque when simmered strongly.",
   "appearance_wet": "Plump, soft, dark berries that are strained out.",
-  "taste_profile": "Sweet and tart with an earthy undertone, fairly mild on its own, which is why it is usually paired with cinnamon, ginger, lemon or orange.",
+  "taste_profile": "Sweet and tart with an earthy undertone, often paired with cinnamon, ginger, orange or honey.",
   "taste_tags": [
     "fruity",
     "tart",
@@ -39,7 +39,7 @@
   },
   "caffeine_level": "none",
   "vintage_note": "Sold without vintage, as whole dried berries or in bags. As with other dried fruit, the fresher pack keeps more colour and flavour, so check the packing date and look for clean berries with no stems.",
-  "description": "Elderberry tea is an infusion of the dark berries of the elder, a hedgerow plant familiar in Britain. It is a fruit drink, with no tea leaf in it.\n\nThe important thing is the heat. Raw and especially unripe berries, along with stems and leaves, contain sambunigrin, which degrades to hydrogen cyanide and can cause nausea, vomiting and diarrhoea. Cooking takes care of it, which is why simmering is the standard method and why dried berries should come free of stems.\n\nThe cup is sweet-tart and earthy, milder than its colour suggests. A 15 minute simmer gives real depth, while a 5 minute steep gives a quick, lighter cup. Cinnamon, ginger or a strip of orange peel all help.\n\nBuy whole dried berries from an herb seller rather than a fruit-flavoured bag if you want the real taste. In any blend, read the ingredients to see how much elderberry it really holds.",
+  "description": "Elderberry tea is an infusion of the dark berries of the elder, a hedgerow plant familiar in Britain. It is a fruit drink, with no tea leaf in it.\n\nThe important thing is the heat. Raw unripe berries, along with stems and leaves, contain sambunigrin, which degrades to hydrogen cyanide and can cause nausea, vomiting and diarrhoea. Cooking takes care of it, which is why simmering is the standard method and why dried berries should come free of stems.\n\nThe cup is sweet-tart and earthy. Recipes differ on simmering time, so adjust to taste. Cinnamon, ginger, orange or honey all suit it.\n\nIn any blend, read the ingredients to see how much elderberry it really holds.",
   "history": "Little is documented specifically about elderberry tea as a named drink, and there is no reliable date or person to attach to it. Today it is mostly a home recipe and a wellness-shop product.",
   "liquor_hex": "#4F1B3A",
   "leaf_hex": "#231722",
@@ -52,5 +52,16 @@
     "https://detoxinista.com/elderberry-tea/"
   ],
   "confidence": "medium",
-  "images": []
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c8/00_3769_Schwarzen_Holunder_%28Sambucus_nigra%29.jpg/1280px-00_3769_Schwarzen_Holunder_%28Sambucus_nigra%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c8/00_3769_Schwarzen_Holunder_%28Sambucus_nigra%29.jpg/330px-00_3769_Schwarzen_Holunder_%28Sambucus_nigra%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source_page": "https://commons.wikimedia.org/wiki/File:00_3769_Schwarzen_Holunder_(Sambucus_nigra).jpg",
+      "author": "W. Bulach",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "kind": "plant",
+      "alt": "Black elder shrub with a cluster of immature green and reddish berries among serrated leaves"
+    }
+  ]
 }

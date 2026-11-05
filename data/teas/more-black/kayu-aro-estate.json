@@ -53,5 +53,26 @@
   "wikipedia_title": null,
   "wikipedia_scope": "none",
   "popularity": 2,
-  "images": []
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/32/Kayu_aro.jpg/1280px-Kayu_aro.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/32/Kayu_aro.jpg/330px-Kayu_aro.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Kayu_aro.jpg",
+      "author": "Ardi Ryan Dirza",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "kind": "plantation",
+      "alt": "Rolling green tea fields of the Kayu Aro estate with a track and distant mountains"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bc/Kebun_Teh_Kayu_Aro_Kerinci.jpg/1280px-Kebun_Teh_Kayu_Aro_Kerinci.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bc/Kebun_Teh_Kayu_Aro_Kerinci.jpg/330px-Kebun_Teh_Kayu_Aro_Kerinci.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Kebun_Teh_Kayu_Aro_Kerinci.jpg",
+      "author": "Zhilal Darma",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "kind": "plantation",
+      "alt": "Tea bushes at Kayu Aro in the foreground with Mount Kerinci behind"
+    }
+  ]
 }

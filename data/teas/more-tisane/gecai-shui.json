@@ -1,0 +1,52 @@
+{
+  "slug": "gecai-shui",
+  "name_en": "Gecai Shui",
+  "name_native": "葛菜水",
+  "name_romanized": "gé cài shuǐ",
+  "aliases": [
+    "野葛菜水",
+    "野葛菜汤"
+  ],
+  "category": "tisane",
+  "origin_country": "China",
+  "origin_region": "Guangdong",
+  "cultivar": null,
+  "form": "other",
+  "caffeine_level": "none",
+  "brewing": {
+    "grams": 2,
+    "water_ml": 200,
+    "temp_c": 100,
+    "steeps": 1,
+    "seconds": [
+      300
+    ],
+    "notes": "A common starting point for herbal infusions: boiling water, about five minutes."
+  },
+  "taste_tags": [
+    "herbal",
+    "sweet"
+  ],
+  "description": "A Guangdong cooling tea sold in herbal tea shops, made from Rorippa indica and usually seasoned with sea salt.\n\nBrew it as you would other herbal infusions. If the plant is new to you, check that it is safe for you first, especially when pregnant or on medication.",
+  "wikipedia_title": null,
+  "wikipedia_scope": "none",
+  "popularity": 1,
+  "name_zh": "葛菜水",
+  "name_ru": "Гэ Цай Шуй",
+  "history": "It may be simmered with longli leaf, monk fruit, candied dates or dried tangerine peel, and with snakehead fish it becomes a soup. Little is documented about its history.",
+  "liquor_hex": "#8A7A3A",
+  "leaf_hex": "#5A6A34",
+  "sources": [
+    "https://zh.wikipedia.org/wiki/%E8%91%9B%E8%8F%9C%E6%B0%B4"
+  ],
+  "confidence": "medium",
+  "images": [],
+  "stub": true,
+  "processing": "Simmered from the fresh or dried plant.",
+  "harvest_season": "Depends on the plant and the place.",
+  "appearance_dry": "Dried plant material.",
+  "appearance_liquor": "Depends on the plant; usually pale to amber.",
+  "appearance_wet": "Softened plant material.",
+  "taste_profile": "Herbaceous and sweet, with a touch of salt.",
+  "vintage_note": "Herbal infusions are not sold by vintage: buy recent stock and use it within a year or so."
+}

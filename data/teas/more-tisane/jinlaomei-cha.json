@@ -1,0 +1,50 @@
+{
+  "slug": "jinlaomei-cha",
+  "name_en": "Jinlaomei Cha",
+  "name_native": "金老梅茶",
+  "name_romanized": "Jīnlǎoméi Chá",
+  "aliases": [
+    "Jinlaomeicha"
+  ],
+  "category": "tisane",
+  "origin_country": "China",
+  "origin_region": "Shaanxi · Baoji Meixian",
+  "cultivar": null,
+  "form": "loose",
+  "caffeine_level": "none",
+  "brewing": {
+    "grams": 2,
+    "water_ml": 200,
+    "temp_c": 100,
+    "steeps": 1,
+    "seconds": [
+      300
+    ],
+    "notes": "A common starting point for herbal infusions: boiling water, about five minutes."
+  },
+  "taste_tags": [
+    "herbal"
+  ],
+  "description": "An infusion of the leaves of jinlaomei, a plant of the rose family, growing at about 3000 metres on Mount Taibai in Shaanxi. It is also called Yaowang tea.\n\nBrew it as you would other herbal infusions. If the plant is new to you, check that it is safe for you first, especially when pregnant or on medication.",
+  "wikipedia_title": null,
+  "wikipedia_scope": "none",
+  "popularity": 1,
+  "name_zh": "金老梅茶",
+  "name_ru": "Цзинь Лао Мэй Ча",
+  "history": "Legend links the long life of the physician Sun Simiao to drinking it. A development project for the tea passed a technical appraisal in Baoji on 22 October 2010. Little more is documented about it.",
+  "liquor_hex": "#D0B458",
+  "leaf_hex": "#66683C",
+  "sources": [
+    "https://milulu.com.cn/techan/31215.html"
+  ],
+  "confidence": "low",
+  "images": [],
+  "stub": true,
+  "processing": "Dried plant material, as with most herbal infusions.",
+  "harvest_season": "Depends on the plant and the place.",
+  "appearance_dry": "Dried plant material.",
+  "appearance_liquor": "Depends on the plant; usually pale to amber.",
+  "appearance_wet": "Softened plant material.",
+  "taste_profile": "A herbal infusion; the taste depends on the plant.",
+  "vintage_note": "Herbal infusions are not sold by vintage: buy recent stock and use it within a year or so."
+}

@@ -52,10 +52,30 @@
     "https://en.wikipedia.org/wiki/Mate_%28drink%29",
     "https://vi.wikipedia.org/wiki/Chi_C%C3%BAc_ng%E1%BB%8Dt"
   ],
-  "confidence": "high",
+  "confidence": "medium",
   "wikipedia_title": "Stevia",
   "wikipedia_scope": "umbrella",
   "popularity": 2,
-  "images": [],
-  "sources_note": "Colours and appearance are typical of dried-leaf infusions."
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/26/Stevia_rebaudiana_flowers.jpg/1280px-Stevia_rebaudiana_flowers.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/26/Stevia_rebaudiana_flowers.jpg/330px-Stevia_rebaudiana_flowers.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Stevia_rebaudiana_flowers.jpg",
+      "author": "Ethel Aardvark",
+      "license": "CC BY 3.0",
+      "license_url": "https://creativecommons.org/licenses/by/3.0",
+      "kind": "plant",
+      "alt": "Stevia rebaudiana stem with narrow green leaves and small white flowers"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/e/e1/Stevia_emigalife.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e1/Stevia_emigalife.jpg/330px-Stevia_emigalife.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Stevia_emigalife.jpg",
+      "author": "Emigalife",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "kind": "plant",
+      "alt": "Dense green leaves of cultivated stevia plants with a hand touching them"
+    }
+  ]
 }

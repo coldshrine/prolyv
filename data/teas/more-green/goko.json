@@ -20,12 +20,10 @@
   "harvest_season": "Spring; it is plucked about three days later than Yabukita.",
   "appearance_dry": "As gyokuro or tencha the finished leaf is dark green.",
   "appearance_liquor": "As gyokuro, typically a pale, clear yellow-green.",
-  "appearance_wet": "Soft, thin green leaf, as the cultivar's leaves are relatively thin.",
-  "taste_profile": "Strong umami and a very noticeable aroma, often called fruity, and both are at their best when the bushes are shaded.",
+  "appearance_wet": "Typically soft green leaf, as with other shaded teas.",
+  "taste_profile": "Strong umami and a very noticeable aroma, both at their best when the bushes are shaded.",
   "taste_tags": [
     "umami",
-    "fruity",
-    "creamy",
     "sweet"
   ],
   "brewing": {
@@ -41,9 +39,9 @@
     "notes": "For gyokuro use cool water and a small pot. For matcha made from Gokou, follow the usual matcha method and sift first."
   },
   "caffeine_level": "high",
-  "vintage_note": "Sold as a current-year spring harvest, mostly as gyokuro or matcha and often in small single-cultivar lots. Because of its strong character much of it disappears into blends, so a named Gokou is usually a limited item. As with other shaded teas, keep it cold and sealed and drink it within about a year.",
-  "description": "Gokou is a tea cultivar from Uji, the shaded-tea heartland of Kyoto Prefecture. It is grown for gyokuro and for the tencha that becomes matcha, and it is one of the names that serious Uji drinkers look for.\n\nIts thin leaves respond well to shade, developing both colour and savoury depth. That is the whole reason to grow it. Sencha from Gokou does exist but is rare, and it may not show the cultivar at its best.\n\nThe cup is defined by deep umami and a striking aroma, usually described as fruity. A single-origin matcha seller lists raw cacao, ripe nectarine and cashew, which gives you an idea, though that is one lot. For gyokuro, the usual error is water that is too hot, which buries all of this in bitterness.\n\nYou will find it mostly as a blending component, because the character is strong, but some shops offer it alone. Check whether the label says single cultivar or only that it contains Gokou.\n\nTo understand what you are tasting, try it side by side with an Uji-hikari or a Yabukita matcha.",
-  "history": "Gokou came from seedlings raised from native Uji tea plants and was selected at the Kyoto Prefecture tea research institute, with the selection dated to 1953.\n\nIt was never entered in the official cultivar register, for reasons that are not documented. It has stayed popular anyway, mostly around Kyoto. It is rated highly for gyokuro and matcha, is cold-hardy and yields about as well as Yabukita.",
+  "vintage_note": "Sold as a current-year spring harvest, mostly as gyokuro or matcha, and a named Gokou is often a small single-cultivar lot. As with other shaded teas, keep it cold and sealed and drink it within about a year.",
+  "description": "Gokou is a tea cultivar from Uji, the shaded-tea heartland of Kyoto Prefecture. It is grown for gyokuro and for the tencha that becomes matcha, and it is one of the names that serious Uji drinkers look for.\n\nIt responds well to shade, which brings out both its aroma and its savoury depth. Sencha from Gokou does exist but is rare, and it may not show the cultivar at its best.\n\nThe cup is defined by deep umami and a striking aroma. A single-origin matcha seller lists raw cacao, ripe nectarine and cashew, which gives you an idea, though that is one lot. For gyokuro, the usual error is water that is too hot, which buries all of this in bitterness.\n\nSome shops offer it as a single cultivar. Check whether the label says so or only that it contains Gokou.\n\nTo understand what you are tasting, try it side by side with an Uji-hikari or a Yabukita matcha.",
+  "history": "Gokou came from seedlings raised from native Uji tea plants and was selected at the Kyoto Prefecture tea research institute, with the selection dated to 1953.\n\nIt was never entered in the official cultivar register, for reasons that are not documented. It has stayed popular anyway, mostly around Kyoto. It is rated highly for gyokuro and matcha and yields about as well as Yabukita.",
   "liquor_hex": "#C8CC7A",
   "leaf_hex": "#2F4A2A",
   "sources": [
@@ -56,6 +54,5 @@
   "wikipedia_title": null,
   "wikipedia_scope": "none",
   "popularity": 3,
-  "sources_note": "One tea wiki also lists Kagoshima as a growing area; the Kyoto-focused accounts do not mention it, so it was left out.",
   "images": []
 }

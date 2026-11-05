@@ -1,0 +1,53 @@
+{
+  "slug": "compressed-yellow-tea",
+  "name_en": "Compressed Yellow Tea",
+  "name_native": "紧压黄茶",
+  "name_romanized": "Jǐnyā Huángchá",
+  "aliases": [
+    "Прессованный жёлтый чай"
+  ],
+  "category": "yellow",
+  "origin_country": "China",
+  "origin_region": "Hunan · Yueyang",
+  "cultivar": null,
+  "form": "other",
+  "caffeine_level": "medium",
+  "brewing": {
+    "grams": 3,
+    "water_ml": 150,
+    "temp_c": 80,
+    "steeps": 3,
+    "seconds": [
+      60,
+      75,
+      105
+    ],
+    "notes": "A safe starting point for yellow tea: treat it like a delicate green tea."
+  },
+  "taste_tags": [
+    "sweet",
+    "vegetal"
+  ],
+  "description": "Yellow tea pressed into a compact shape, made in the Yueyang area of Hunan.\n\nTreat it as you would any yellow tea: cooler water, short steeps, and a seller who can say where and when it was picked.",
+  "wikipedia_title": null,
+  "wikipedia_scope": "none",
+  "popularity": 1,
+  "name_zh": "紧压黄茶",
+  "name_ru": "Цзинь Я Хуан Ча",
+  "history": null,
+  "liquor_hex": "#D9B85F",
+  "leaf_hex": "#8E8A48",
+  "sources": [
+    "https://www.cnpp.cn/china/2026/list_6336.html"
+  ],
+  "confidence": "low",
+  "images": [],
+  "stub": true,
+  "processing": "Typical of yellow tea: made like a green tea with an added slow 'smothering' step that mellows the leaf.",
+  "harvest_season": "Usually picked in early spring, as with most yellow teas.",
+  "appearance_dry": "Usually yellow-green buds or leaves.",
+  "appearance_liquor": "Usually a clear, soft yellow.",
+  "appearance_wet": "Usually soft yellow-green leaf.",
+  "taste_profile": "Expect what yellow teas usually give: mellow and sweet, softer than a green tea.",
+  "vintage_note": "Yellow teas are normally sold as the current year's spring harvest and are best fresh."
+}

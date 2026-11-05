@@ -1,0 +1,52 @@
+{
+  "slug": "chapeu-de-couro",
+  "name_en": "Chapéu-de-couro",
+  "name_native": "chapéu-de-couro",
+  "name_romanized": null,
+  "aliases": [
+    "Chá-da-campanha",
+    "Erva-do-brejo",
+    "Erva-do-pântano"
+  ],
+  "category": "tisane",
+  "origin_country": "Brazil",
+  "origin_region": "Brazil",
+  "cultivar": null,
+  "form": "loose",
+  "caffeine_level": "none",
+  "brewing": {
+    "grams": 2,
+    "water_ml": 200,
+    "temp_c": 100,
+    "steeps": 1,
+    "seconds": [
+      300
+    ],
+    "notes": "A common starting point for herbal infusions: boiling water, about five minutes."
+  },
+  "taste_tags": [
+    "herbal"
+  ],
+  "description": "A Brazilian herbal tisane named after a marsh herb, Echinodorus macrophyllum or E. grandiflorus. The plant grows in swampy ground from southern Mexico down to Brazil.\n\nBrew it as you would other herbal infusions. If the plant is new to you, check that it is safe for you first, especially when pregnant or on medication.",
+  "wikipedia_title": null,
+  "wikipedia_scope": "none",
+  "popularity": 1,
+  "name_zh": "皮革帽草茶",
+  "name_ru": "Шапеу-де-коуру",
+  "history": "The plant is described as having leathery leaves about thirty centimetres long and white flowers in racemes. Little else is documented about it as a drink.",
+  "liquor_hex": "#B9A85A",
+  "leaf_hex": "#5F6B3A",
+  "sources": [
+    "https://pt.wikipedia.org/wiki/Chap%C3%A9u-de-couro"
+  ],
+  "confidence": "low",
+  "images": [],
+  "stub": true,
+  "processing": "Dried plant material, as with most herbal infusions.",
+  "harvest_season": "Depends on the plant and the place.",
+  "appearance_dry": "Dried plant material.",
+  "appearance_liquor": "Depends on the plant; usually pale to amber.",
+  "appearance_wet": "Softened plant material.",
+  "taste_profile": "A herbal infusion; the taste depends on the plant.",
+  "vintage_note": "Herbal infusions are not sold by vintage: buy recent stock and use it within a year or so."
+}

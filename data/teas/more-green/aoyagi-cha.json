@@ -16,7 +16,7 @@
   "cultivar": null,
   "processing": "Pan-fired, not steamed: leaves are fixed in a horizontally set pan, then rolled and repeatedly fired and cooled. Unlike the tilted pans of the Saga tradition, it uses a level, general-purpose pan.",
   "form": "loose",
-  "harvest_season": "Spring, as with other Japanese kamairicha; the fine first picking was historically the prized one.",
+  "harvest_season": "Spring, as with other Japanese kamairicha.",
   "appearance_dry": "As is typical of kamairicha, curled, dark olive leaves without the needle shape of sencha.",
   "appearance_liquor": "Clear, pale golden yellow, typical of pan-fired tea.",
   "appearance_wet": "Fairly whole olive-green leaves, as with other pan-fired teas.",
@@ -41,14 +41,13 @@
   "caffeine_level": "medium",
   "vintage_note": "Sold, where it is sold at all, as the current year's kamairicha, usually labelled simply as pan-fired tea with the region rather than as Aoyagi. Kamairicha is a tiny share of Japanese green tea, so expect small farm lots. Drink it within the year.",
   "description": "Aoyagi-cha is less a place than a method: the pan-fired green tea tradition of Kumamoto and Miyazaki. It sits within kamairicha, the small part of Japanese tea made by heat in a pan rather than by steam.\n\nThe craft is what sets it apart. A level pan is used to kill the green, a job called namahagoroshi, with a stirring tool called a matagi whose shape differs from farm to farm. The leaf is then rolled and fired and cooled in turn.\n\nThe cup should smell toasted and clean, closer to some Chinese greens than to sencha. Use hotter water than you would for steamed tea, and do not expect the thick seaweed savouriness of Japanese steamed teas.\n\nYou will rarely see the word Aoyagi on a pack. Look for kamairicha from Kumamoto or from Takachiho in Miyazaki, and ask how it was fired; the Saga tilted-pan style of Ureshino is the natural comparison.",
-  "history": "Studies by Sakamoto Takayoshi describe Aoyagi-style tea as a higher-grade pan-fired tea once drunk by the upper classes, while ordinary people drank coarse pan-fired bancha across Kyushu, Shikoku and Chugoku. His interviews with Kumamoto farmers record how the level-pan method was actually done.\n\nDuring the export push of the late Edo and Meiji periods, pan-fired teas were reportedly confused with sun-dried ones, and even kamairicha faced prohibition. Tilted pans seem to have been tried in Kumamoto too, but mechanised tea making spread before they took hold.",
+  "history": "Studies by Sakamoto Takayoshi describe Aoyagi-style tea as a higher-grade pan-fired tea once drunk by the upper classes, while ordinary people drank pan-fired bancha. His interviews with Kumamoto farmers record how the level-pan method was actually done.\n\nDuring the export push of the late Edo and Meiji periods, pan-fired teas were reportedly confused with sun-dried ones, and even kamairicha faced prohibition. Tilted pans seem to have been tried in Kumamoto too, but mechanised tea making spread before they took hold.",
   "liquor_hex": "#E0CF85",
   "leaf_hex": "#5A6A3C",
   "sources": [
     "https://ja.wikipedia.org/wiki/%E9%87%9C%E7%82%92%E3%82%8A%E8%8C%B6",
     "https://www.jstage.jst.go.jp/article/cha/2018/125/2018_1/_article/-char/ja",
-    "https://www.jstage.jst.go.jp/article/cha/2016/121/2016_37/_article/-char/ja",
-    "https://www.tezumi.com/products/kumamoto-kamairicha-genmaicha"
+    "https://www.jstage.jst.go.jp/article/cha/2016/121/2016_37/_article/-char/ja"
   ],
   "confidence": "medium",
   "wikipedia_title": "釜炒り茶",

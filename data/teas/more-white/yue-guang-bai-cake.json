@@ -1,0 +1,54 @@
+{
+  "slug": "yue-guang-bai-cake",
+  "name_en": "Yue Guang Bai Cake",
+  "name_native": "月光白饼",
+  "name_romanized": "Yuèguāng Bái Bǐng",
+  "aliases": [
+    "月光白餅"
+  ],
+  "category": "white",
+  "origin_country": "China",
+  "origin_region": "Yunnan",
+  "cultivar": null,
+  "form": "cake",
+  "caffeine_level": "low",
+  "brewing": {
+    "grams": 4,
+    "water_ml": 120,
+    "temp_c": 85,
+    "steeps": 4,
+    "seconds": [
+      45,
+      60,
+      75,
+      90
+    ],
+    "notes": "A safe starting point for white tea: use hot but not boiling water and give it time."
+  },
+  "taste_tags": [
+    "sweet",
+    "floral"
+  ],
+  "description": "Yue Guang Bai, the Yunnan Moonlight White, pressed into a cake.\n\nTreat it as you would any white tea: hot but not boiling water, patient steeps, and a seller who can say where and when it was picked.",
+  "wikipedia_title": null,
+  "wikipedia_scope": "none",
+  "popularity": 1,
+  "name_zh": "月光白饼",
+  "name_ru": "Юэ Гуан Бай Бин",
+  "history": null,
+  "liquor_hex": "#E2C98A",
+  "leaf_hex": "#6E6A58",
+  "sources": [
+    "https://tea-lab.pages.dev/types/white/"
+  ],
+  "confidence": "low",
+  "images": [],
+  "stub": true,
+  "processing": "Typical of white tea: withered for a long time and dried with little handling.",
+  "harvest_season": "Usually picked in spring, as with most white teas.",
+  "appearance_dry": "Usually downy buds or soft, silvery-green leaves.",
+  "appearance_liquor": "Usually a pale straw to light amber.",
+  "appearance_wet": "Usually soft, intact leaf and bud.",
+  "taste_profile": "Expect what white teas usually give: gentle, sweet and lightly floral.",
+  "vintage_note": "White teas are normally sold either fresh, from the current year, or pressed and aged for several years, with the year stated."
+}

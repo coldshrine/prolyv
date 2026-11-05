@@ -1,0 +1,57 @@
+{
+  "slug": "menghai-lao-cha-zhuan",
+  "name_en": "Menghai Lao Cha Zhuan",
+  "name_native": "勐海老茶砖",
+  "name_romanized": "Měnghǎi Lǎo Chá Zhuān",
+  "aliases": [
+    "勐海老茶磚"
+  ],
+  "category": "sheng",
+  "origin_country": "China",
+  "origin_region": "Yunnan · Menghai",
+  "cultivar": null,
+  "form": "brick",
+  "caffeine_level": "high",
+  "brewing": {
+    "grams": 6,
+    "water_ml": 110,
+    "temp_c": 95,
+    "steeps": 7,
+    "seconds": [
+      10,
+      10,
+      15,
+      20,
+      25,
+      35,
+      50
+    ],
+    "notes": "A safe starting point for raw pu-erh: rinse once, gongfu style, short early steeps."
+  },
+  "taste_tags": [
+    "bitter",
+    "sweet"
+  ],
+  "description": "A pu-erh brick from Menghai in Yunnan, its name meaning old tea brick.\n\nThis is a way of preparing tea more than a tea you buy under one name, so the recipe and the base tea change from one maker to the next.",
+  "wikipedia_title": null,
+  "wikipedia_scope": "none",
+  "popularity": 1,
+  "name_zh": "勐海老茶砖",
+  "name_ru": "Мэн Хай Лао Ча Чжуань",
+  "history": null,
+  "liquor_hex": "#B8862E",
+  "leaf_hex": "#4E4630",
+  "sources": [
+    "https://yunnansourcing.com/collections/menghai-tea-factory-pu-erh/products.json?limit=250&page=1"
+  ],
+  "confidence": "low",
+  "images": [],
+  "stub": true,
+  "processing": "Made from a raw pu-erh base tea according to the recipe; the method varies.",
+  "harvest_season": "Not tied to a harvest: it depends on the base tea.",
+  "appearance_dry": "Usually a pressed cake of silvery-green to brown leaf, darkening with age.",
+  "appearance_liquor": "Usually pale gold when young, deepening to amber with age.",
+  "appearance_wet": "Usually thick, large leaf.",
+  "taste_profile": "Expect what young raw pu-erh usually gives: bright, bitter-sweet and full, mellowing with age.",
+  "vintage_note": "Not sold by vintage: it is made from whatever base tea the maker keeps, so freshness of the base matters more than the year."
+}

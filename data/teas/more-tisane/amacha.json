@@ -53,5 +53,26 @@
     "https://en.wikipedia.org/wiki/Herbal_tea"
   ],
   "confidence": "high",
-  "images": []
+  "images": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/1/14/Amacha.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/14/Amacha.jpg/330px-Amacha.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Amacha.jpg",
+      "author": "李桃桃内",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "kind": "liquor",
+      "alt": "Yellow-brown amacha in a small white and blue patterned cup"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/51/Amacha_-_Kanagawa_-_2026_April_7.jpeg/1280px-Amacha_-_Kanagawa_-_2026_April_7.jpeg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/51/Amacha_-_Kanagawa_-_2026_April_7.jpeg/330px-Amacha_-_Kanagawa_-_2026_April_7.jpeg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Amacha_-_Kanagawa_-_2026_April_7.jpeg",
+      "author": "Nesnad",
+      "license": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0",
+      "kind": "liquor",
+      "alt": "Clear yellow-brown amacha in a stoneware cup on a wooden table"
+    }
+  ]
 }

@@ -51,5 +51,26 @@
   "wikipedia_title": "Matcha latte",
   "wikipedia_scope": "exact",
   "popularity": 3,
-  "images": []
+  "images": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/e/e7/Matcha_Latte_Art.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e7/Matcha_Latte_Art.jpg/330px-Matcha_Latte_Art.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Matcha_Latte_Art.jpg",
+      "author": "Aqilla Rahmi",
+      "license": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0",
+      "kind": "liquor",
+      "alt": "Hot matcha latte with leaf latte art in a speckled ceramic cup"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ce/Matcha_latte_in_tall_glass.jpg/1280px-Matcha_latte_in_tall_glass.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ce/Matcha_latte_in_tall_glass.jpg/330px-Matcha_latte_in_tall_glass.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Matcha_latte_in_tall_glass.jpg",
+      "author": "Derjochenmeyer",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "kind": "liquor",
+      "alt": "Matcha latte with vivid green streaks in a tall ribbed glass"
+    }
+  ]
 }

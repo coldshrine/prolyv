@@ -1,0 +1,50 @@
+{
+  "slug": "giguk-cha",
+  "name_en": "Giguk-cha (Goji and Chrysanthemum)",
+  "name_native": "기국차",
+  "name_romanized": "giguk-cha",
+  "aliases": [
+    "Goji chrysanthemum tea"
+  ],
+  "category": "tisane",
+  "origin_country": "South Korea",
+  "origin_region": "South Korea",
+  "cultivar": null,
+  "form": "other",
+  "caffeine_level": "none",
+  "brewing": {
+    "grams": 2,
+    "water_ml": 200,
+    "temp_c": 100,
+    "steeps": 1,
+    "seconds": [
+      300
+    ],
+    "notes": "A common starting point for herbal infusions: boiling water, about five minutes."
+  },
+  "taste_tags": [
+    "herbal"
+  ],
+  "description": "A Korean herbal blend of goji and chrysanthemum.\n\nBrew it as you would other herbal infusions. If the plant is new to you, check that it is safe for you first, especially when pregnant or on medication.",
+  "wikipedia_title": null,
+  "wikipedia_scope": "none",
+  "popularity": 1,
+  "name_zh": "杞菊茶",
+  "name_ru": "Кигук-ча",
+  "history": null,
+  "liquor_hex": "#D9B85A",
+  "leaf_hex": "#A8703A",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Korean_tea"
+  ],
+  "confidence": "low",
+  "images": [],
+  "stub": true,
+  "processing": "Dried plant material, as with most herbal infusions.",
+  "harvest_season": "Depends on the plant and the place.",
+  "appearance_dry": "Dried plant material.",
+  "appearance_liquor": "Depends on the plant; usually pale to amber.",
+  "appearance_wet": "Softened plant material.",
+  "taste_profile": "A herbal infusion; the taste depends on the plant.",
+  "vintage_note": "Herbal infusions are not sold by vintage: buy recent stock and use it within a year or so."
+}

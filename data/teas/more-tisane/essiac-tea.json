@@ -1,0 +1,51 @@
+{
+  "slug": "essiac-tea",
+  "name_en": "Essiac Tea",
+  "name_native": null,
+  "name_romanized": null,
+  "aliases": [
+    "Essiac"
+  ],
+  "category": "tisane",
+  "origin_country": "Canada",
+  "origin_region": "Canada",
+  "cultivar": null,
+  "form": "loose",
+  "caffeine_level": "none",
+  "brewing": {
+    "grams": 2,
+    "water_ml": 200,
+    "temp_c": 100,
+    "steeps": 1,
+    "seconds": [
+      300
+    ],
+    "notes": "A common starting point for herbal infusions: boiling water, about five minutes."
+  },
+  "taste_tags": [
+    "herbal"
+  ],
+  "description": "A blended herbal tea from Canada, promoted as an alternative cancer treatment, with no evidence that it benefits health. Most versions combine burdock root, turkey rhubarb root, sheep sorrel and slippery elm.\n\nBrew it as you would other herbal infusions. If the plant is new to you, check that it is safe for you first, especially when pregnant or on medication.",
+  "wikipedia_title": null,
+  "wikipedia_scope": "none",
+  "popularity": 1,
+  "name_zh": "埃西亚克茶",
+  "name_ru": "Эссиак",
+  "history": "Rene Caisse, a Canadian nurse, promoted it as a cancer treatment from the 1920s through the 1970s and named it with her surname spelled backwards. Her accounts of an Ojibwa or medicine-man origin were never substantiated. She sold the formula and trademark to Respirin Corporation in 1977. Laboratory tests found no slowing of tumours, and the US and Canadian governments refused to approve it as a treatment, so it is sold as a dietary supplement. Reported side effects include nausea, liver damage and kidney damage.",
+  "liquor_hex": "#8A5A2A",
+  "leaf_hex": "#5A4A32",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Essiac",
+    "https://www.wikidata.org/wiki/Q1747778"
+  ],
+  "confidence": "medium",
+  "images": [],
+  "stub": true,
+  "processing": "Dried plant material, as with most herbal infusions.",
+  "harvest_season": "Depends on the plant and the place.",
+  "appearance_dry": "Dried plant material.",
+  "appearance_liquor": "Depends on the plant; usually pale to amber.",
+  "appearance_wet": "Softened plant material.",
+  "taste_profile": "A herbal infusion; the taste depends on the plant.",
+  "vintage_note": "Herbal infusions are not sold by vintage: buy recent stock and use it within a year or so."
+}

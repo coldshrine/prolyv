@@ -1,0 +1,53 @@
+{
+  "slug": "zhenzhulan-cha",
+  "name_en": "Zhenzhulan Cha",
+  "name_native": "珍珠兰茶",
+  "name_romanized": "zhēn zhū lán chá",
+  "aliases": [
+    "Zhenzhulancha",
+    "珍珠蘭茶"
+  ],
+  "category": "green",
+  "origin_country": "China",
+  "origin_region": "Chongqing · Qianjiang",
+  "cultivar": null,
+  "form": "loose",
+  "caffeine_level": "medium",
+  "brewing": {
+    "grams": 3,
+    "water_ml": 150,
+    "temp_c": 80,
+    "steeps": 3,
+    "seconds": [
+      60,
+      75,
+      105
+    ],
+    "notes": "A safe starting point for green tea: cooler water, short steeps, then adjust by taste."
+  },
+  "taste_tags": [
+    "floral"
+  ],
+  "description": "A green tea from the Wuling mountains around Qianjiang, Chongqing, scented with zhulan flowers.\n\nTreat it as you would any green tea: cooler water, short steeps, and a seller who can say where and when it was picked.",
+  "wikipedia_title": null,
+  "wikipedia_scope": "none",
+  "popularity": 1,
+  "name_zh": "珍珠兰茶",
+  "name_ru": "Чжэнь Чжу Лань Ча",
+  "history": "Local promotion traces it to the Three Kingdoms and claims favour from the Qianlong Emperor, stories best read as legend. Because the best tea is picked around Qingming and the flowers open in mid-July, a Chongqing company worked out a way to bring the two together. Little more is documented.",
+  "liquor_hex": "#D4CF74",
+  "leaf_hex": "#7E8B3E",
+  "sources": [
+    "https://milulu.com.cn/techan/16316.html"
+  ],
+  "confidence": "low",
+  "images": [],
+  "stub": true,
+  "processing": "Typical of green tea: picked, heated soon after picking to stop oxidation, then shaped and dried.",
+  "harvest_season": "Usually picked in spring, with the earliest pickings prized, as with most green teas.",
+  "appearance_dry": "Tender, fresh green leaf.",
+  "appearance_liquor": "Clear yellow-green.",
+  "appearance_wet": "Usually soft green leaf that opens up in the water.",
+  "taste_profile": "Fresh and clean with a lasting, elegant floral scent.",
+  "vintage_note": "Green teas like this are normally sold as the current year's harvest and are best within a year of picking. It is not an ageing tea."
+}

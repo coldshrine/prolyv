@@ -48,7 +48,6 @@
   "wikipedia_title": "Chamomile",
   "wikipedia_scope": "exact",
   "popularity": 5,
-  "sources_note": "origin_country set to Egypt because it is the dominant source of tea-grade chamomile; the plant is native to Europe and western Asia and chamomile tea is a pan-European tradition. Egyptian harvest window (Feb–Apr) given as approximate.",
   "name_zh": "洋甘菊茶",
   "name_ru": "Ромашковый чай",
   "history": "Chamomile tea has no founding story. The plant behind most cups, German chamomile (Matricaria chamomilla), is native to southern and eastern Europe and now grows on every continent, and Roman chamomile (Chamaemelum nobile) is the second species used for infusions. The name itself goes back through French and Latin to the Greek for 'earth apple', and it appears in English from the 13th century.\n\nThe plant was used for more than the cup: as a bitter flavouring in beer, in cosmetics and soaps, and, in the Roman species, for chamomile lawns and seats. Little is documented about when drying the flowers for tea became an everyday habit, so it is best treated as an old household custom without a date.\n\nThe bedtime reputation is tradition rather than proven medicine: there is no clinical evidence that it treats any disease, and no good evidence that it helps insomnia. People allergic to daisies or ragweed may react to it, and Roman chamomile is advised against in pregnancy.",
@@ -60,16 +59,6 @@
   ],
   "confidence": "medium",
   "images": [
-    {
-      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/26/Camomile_tea%2C_High_Tea_at_the_Savoy_Hotel.jpg/1280px-Camomile_tea%2C_High_Tea_at_the_Savoy_Hotel.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/26/Camomile_tea%2C_High_Tea_at_the_Savoy_Hotel.jpg/330px-Camomile_tea%2C_High_Tea_at_the_Savoy_Hotel.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "source_page": "https://commons.wikimedia.org/wiki/File:Camomile_tea,_High_Tea_at_the_Savoy_Hotel.jpg",
-      "author": "Payton Walton",
-      "license": "CC BY-SA 4.0",
-      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
-      "kind": "serving",
-      "alt": "Camomile tea poured from a silver teapot through a strainer into a cup at the Savoy"
-    },
     {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fb/D%C3%BClmen%2C_Brachliegendes_Feld_mit_Wildblumen_--_2021_--_9774.jpg/1280px-D%C3%BClmen%2C_Brachliegendes_Feld_mit_Wildblumen_--_2021_--_9774.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
       "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fb/D%C3%BClmen%2C_Brachliegendes_Feld_mit_Wildblumen_--_2021_--_9774.jpg/330px-D%C3%BClmen%2C_Brachliegendes_Feld_mit_Wildblumen_--_2021_--_9774.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
@@ -89,6 +78,16 @@
       "license_url": "https://creativecommons.org/licenses/by/4.0",
       "kind": "plantation",
       "alt": "Field of chamomile in bloom in rows under a clear sky in Portugal"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/26/Camomile_tea%2C_High_Tea_at_the_Savoy_Hotel.jpg/1280px-Camomile_tea%2C_High_Tea_at_the_Savoy_Hotel.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/26/Camomile_tea%2C_High_Tea_at_the_Savoy_Hotel.jpg/330px-Camomile_tea%2C_High_Tea_at_the_Savoy_Hotel.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Camomile_tea,_High_Tea_at_the_Savoy_Hotel.jpg",
+      "author": "Payton Walton",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "kind": "serving",
+      "alt": "Camomile tea poured from a silver teapot through a strainer into a cup at the Savoy"
     }
   ],
   "i18n": {

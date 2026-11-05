@@ -38,7 +38,7 @@
   "caffeine_level": "medium",
   "vintage_note": "Sold as current production under the BOH name, without a harvest year on the pack. Most people meet it at the estate's own tea centre, so buy fresh and drink it within a year or so, as is usual for packaged black tea.",
   "description": "Sungai Palas is BOH's showpiece tea garden in the Cameron Highlands, reached by the road up Gunung Brinchang. It is better known as a place than as a tea: the hillside rows and the tea centre with its terrace are what draw people.\n\nThe tea is ordinary in the best sense, a clean black tea from Malaysia's largest producer rather than a rare single-garden lot. Little is published on how this garden's leaf is handled separately from the rest of the company's production.\n\nBrew it as you would any good highland black tea, with water near the boil and three minutes or so. It is a pleasant everyday cup, and it will not reward gongfu fussing.\n\nThe spelling varies between Sungai and Sungei, and both mean the same place. If you visit, drink a pot at the centre and treat the shop as a souvenir stop; for a sense of range, try the company's other highland teas next to it.",
-  "history": "BOH was founded in 1929 by J. A. Russell, whose first garden was at Habu, not here. Sungei Palas came into the company later, and the accounts differ: BOH's side is given as the 1950s, while the Malay Mail puts it in the 1960s, bought from former Danish residents.\n\nThe visitor centre and café were built in 2007 and expanded in 2019, when a new wing was named Tristan's Terrace.",
+  "history": "BOH was founded in 1929 by J. A. Russell, whose first garden was at Habu, not here. Sungai Palas joined the company later; it was historically a Danish-owned estate, and accounts differ on the date of the purchase.",
   "liquor_hex": "#A65A22",
   "leaf_hex": "#3B2A1C",
   "sources": [
@@ -52,7 +52,18 @@
   "wikipedia_title": "BOH Plantations",
   "wikipedia_scope": "umbrella",
   "popularity": 3,
-  "images": [],
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/27/Cameron_highland.jpg/1280px-Cameron_highland.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/27/Cameron_highland.jpg/330px-Cameron_highland.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Cameron_highland.jpg",
+      "author": "udeyismail",
+      "license": "CC BY-SA 2.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+      "kind": "plantation",
+      "alt": "Rolling tea slopes at Sungai Palas in the Cameron Highlands beside a glass-walled building"
+    }
+  ],
   "name_zh": "金马伦双溪巴拉斯茶园红茶",
   "name_ru": "Сунгай Палас"
 }

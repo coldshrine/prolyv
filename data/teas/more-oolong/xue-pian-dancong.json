@@ -17,23 +17,21 @@
   "category": "oolong",
   "origin_country": "China",
   "origin_region": "Guangdong · Fenghuang",
-  "cultivar": "Various Dancong strains, such as Wu Ye",
-  "processing": "Winter leaf made as Dancong, usually with light oxidation that keeps the leaf quite green. Winter leaf grows slowly and comes out stout.",
+  "cultivar": "Described for Wu Ye; the name may be used for other Dancong strains",
+  "processing": "Winter leaf made as Dancong in general: withered, tossed for partial oxidation, fixed, rolled and dried. Winter leaf grows slowly and comes out stout.",
   "form": "loose",
-  "harvest_season": "The last picking of the year, around November.",
-  "appearance_dry": "Stout, coarse-looking strips, usually greener than spring Dancong.",
-  "appearance_liquor": "Pale gold, lighter than a typical spring Dancong, as is expected from light oxidation.",
-  "appearance_wet": "Fairly green leaves, reflecting the light oxidation.",
-  "taste_profile": "Intensely aromatic, with fruit and flowers and a creamy mouthfeel.",
+  "harvest_season": "Winter, the smallest picking of the year.",
+  "appearance_dry": "Stout, coarse-looking strips.",
+  "appearance_liquor": "Typically orange-yellow, as with other Dancong.",
+  "appearance_wet": "Typically thick leaves with reddened edges, as with other tossed Dancong.",
+  "taste_profile": "Known above all for a strong aroma, the most intense of the year's pickings by Chinese accounts.",
   "taste_tags": [
-    "floral",
-    "fruity",
-    "creamy"
+    "floral"
   ],
   "brewing": {
     "grams": 5,
     "water_ml": 100,
-    "temp_c": 90,
+    "temp_c": 95,
     "steeps": 6,
     "seconds": [
       8,
@@ -43,17 +41,16 @@
       25,
       40
     ],
-    "notes": "Slightly cooler water than for roasted Dancong protects the aroma; this is a general rule for lightly oxidised oolongs."
+    "notes": "General Dancong advice: plenty of leaf, hot water, quick pours."
   },
   "caffeine_level": "medium",
-  "vintage_note": "Sold as the winter harvest of a stated year, in small lots and usually as a single named strain, for example Wu Ye or Ya Shi Xiang. Being lightly oxidised, it is best drunk fresh, like other greener oolongs. Note that sellers also offer black teas under the snowflake name, so check the category.",
-  "description": "Xue Pian, snowflake, is less a strain than a season: the last Dancong picking of the year, taken around November from whichever Fenghuang strain the maker works with.\n\nCold weather slows the leaf, so it comes out stout, and yields are the lowest of any Dancong picking. Makers usually oxidise it lightly, which is why the leaf stays comparatively green.\n\nThe appeal is pure aroma: fruit and flowers on a creamy texture. Treat it more gently than a roasted spring Dancong, with slightly cooler water and quick pours.\n\nBecause Xue Pian describes a picking, the label should name the strain as well as the year. Small harvests invite stretching the name, so buy from someone who can say which trees it came from.",
-  "history": "Little is documented about when the name came into use. Chinese descriptions of the Wu Ye strain explain it as the winter picking, named for its stout flake-like leaf and prized as the scarcest and most fragrant of the year. Today it is sold abroad as well, usually as a named winter lot.",
-  "liquor_hex": "#DDC470",
-  "leaf_hex": "#6F7344",
+  "vintage_note": "Sold as the winter harvest of a stated year, in small lots. Ask which strain it is, since the name describes a picking rather than a tree.",
+  "description": "Xue Pian, snowflake, is less a strain than a season: the winter Dancong picking, described in Chinese accounts of the Wu Ye strain.\n\nCold weather slows the leaf, so it comes out stout, and yields are the lowest of any Dancong picking. Processing specific to winter leaf is not well documented here, so expect Dancong work in general.\n\nThe appeal is aroma, said to be the strongest of the year. Use plenty of leaf and quick pours.\n\nBecause Xue Pian describes a picking, the label should name the strain as well as the year. Small harvests invite stretching the name, so buy from someone who can say which trees it came from.",
+  "history": "Little is documented about when the name came into use. Chinese descriptions of the Wu Ye strain explain it as the winter picking, named for its stout flake-like leaf and prized as the scarcest and most fragrant of the year.",
+  "liquor_hex": "#CF9A3E",
+  "leaf_hex": "#5E4A2C",
   "sources": [
-    "https://www.ichabaike.com/chashu/wuyedancong/",
-    "https://yunnansourcing.com/en-ca/products/winter-snowflake-duck-shit-aroma-dan-cong-oolong-tea"
+    "https://www.ichabaike.com/chashu/wuyedancong/"
   ],
   "confidence": "low",
   "wikipedia_title": null,

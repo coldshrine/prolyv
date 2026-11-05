@@ -1,0 +1,50 @@
+{
+  "slug": "hanbang-cha",
+  "name_en": "Hanbang-cha",
+  "name_native": "한방차",
+  "name_romanized": "hanbang-cha",
+  "aliases": [
+    "韓方茶"
+  ],
+  "category": "tisane",
+  "origin_country": "South Korea",
+  "origin_region": "South Korea",
+  "cultivar": null,
+  "form": "other",
+  "caffeine_level": "none",
+  "brewing": {
+    "grams": 2,
+    "water_ml": 200,
+    "temp_c": 100,
+    "steeps": 1,
+    "seconds": [
+      300
+    ],
+    "notes": "A common starting point for herbal infusions: boiling water, about five minutes."
+  },
+  "taste_tags": [
+    "herbal"
+  ],
+  "description": "A Korean name for teas that come out of traditional herbal medicine rather than from the tea plant. It is a group of drinks, not one recipe.\n\nBrew it as you would other herbal infusions. If the plant is new to you, check that it is safe for you first, especially when pregnant or on medication.",
+  "wikipedia_title": null,
+  "wikipedia_scope": "none",
+  "popularity": 1,
+  "name_zh": "韩方茶",
+  "name_ru": "Ханбан-ча (корейский лечебный чай)",
+  "history": "These drinks are also called substitute teas, set apart from tea made with leaves of the tea plant. Little more is documented about them.",
+  "liquor_hex": "#9A6230",
+  "leaf_hex": "#5E4630",
+  "sources": [
+    "https://ko.wikipedia.org/wiki/%EC%B0%A8_%28%EC%9D%8C%EB%A3%8C%29"
+  ],
+  "confidence": "low",
+  "images": [],
+  "stub": true,
+  "processing": "Dried plant material, as with most herbal infusions.",
+  "harvest_season": "Depends on the plant and the place.",
+  "appearance_dry": "Dried plant material.",
+  "appearance_liquor": "Depends on the plant; usually pale to amber.",
+  "appearance_wet": "Softened plant material.",
+  "taste_profile": "A herbal infusion; the taste depends on the plant.",
+  "vintage_note": "Herbal infusions are not sold by vintage: buy recent stock and use it within a year or so."
+}

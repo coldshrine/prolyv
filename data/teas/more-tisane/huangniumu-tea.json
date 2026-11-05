@@ -1,0 +1,56 @@
+{
+  "slug": "huangniumu-tea",
+  "name_en": "Huangniumu Tea (Cratoxylum)",
+  "name_native": "黄牛木",
+  "name_romanized": "huáng niú mù",
+  "aliases": [
+    "黃牛木",
+    "黄牛茶",
+    "Cratoxylum cochinchinense",
+    "hoàng ngưu trà"
+  ],
+  "category": "tisane",
+  "origin_country": "China",
+  "origin_region": "Guangdong",
+  "cultivar": null,
+  "form": "loose",
+  "caffeine_level": "none",
+  "brewing": {
+    "grams": 2,
+    "water_ml": 200,
+    "temp_c": 100,
+    "steeps": 1,
+    "seconds": [
+      300
+    ],
+    "notes": "A common starting point for herbal infusions: boiling water, about five minutes."
+  },
+  "taste_tags": [
+    "sweet",
+    "bitter",
+    "herbal"
+  ],
+  "description": "A tea made from the young leaves of Cratoxylum cochinchinense, a small tree of southern China and Southeast Asia.\n\nBrew it as you would other herbal infusions. If the plant is new to you, check that it is safe for you first, especially when pregnant or on medication.",
+  "wikipedia_title": null,
+  "wikipedia_scope": "none",
+  "popularity": 1,
+  "name_zh": "黄牛木",
+  "name_ru": "Хуан Ню Му",
+  "history": "Known in Chinese medicine as huangniu cha, it is a main ingredient of the Cantonese cooling tea Twenty-Four Flavours, and in Vietnam the young leaves are likewise used in place of tea. Little is documented about its history as a drink.",
+  "liquor_hex": "#A8762C",
+  "leaf_hex": "#6A4E2C",
+  "sources": [
+    "https://zh.wikipedia.org/wiki/%E9%BB%83%E7%89%9B%E6%9C%A8",
+    "https://vi.wikipedia.org/wiki/L%C3%A0nh_ng%E1%BA%A1nh_nam"
+  ],
+  "confidence": "medium",
+  "images": [],
+  "stub": true,
+  "processing": "Dried plant material, as with most herbal infusions.",
+  "harvest_season": "Depends on the plant and the place.",
+  "appearance_dry": "Dried plant material.",
+  "appearance_liquor": "Depends on the plant; usually pale to amber.",
+  "appearance_wet": "Softened plant material.",
+  "taste_profile": "Sweet and mild, slightly bitter.",
+  "vintage_note": "Herbal infusions are not sold by vintage: buy recent stock and use it within a year or so."
+}

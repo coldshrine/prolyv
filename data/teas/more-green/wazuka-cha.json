@@ -54,5 +54,26 @@
   "wikipedia_title": "和束茶",
   "wikipedia_scope": "exact",
   "popularity": 3,
-  "images": []
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/92/Wazuka%2CKyotoIMG_1428.jpg/1280px-Wazuka%2CKyotoIMG_1428.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/92/Wazuka%2CKyotoIMG_1428.jpg/330px-Wazuka%2CKyotoIMG_1428.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Wazuka,KyotoIMG_1428.jpg",
+      "author": "Ujigis",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "kind": "plantation",
+      "alt": "Rows of tea bushes covering hillsides in Wazuka under a blue sky"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/f/f5/WazukaTea.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f5/WazukaTea.jpg/330px-WazukaTea.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source_page": "https://commons.wikimedia.org/wiki/File:WazukaTea.jpg",
+      "author": "OldTeaSeller",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "kind": "plantation",
+      "alt": "Close view of rounded green rows of tea bushes in Wazuka"
+    }
+  ]
 }

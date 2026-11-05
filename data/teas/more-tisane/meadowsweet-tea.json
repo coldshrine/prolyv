@@ -21,12 +21,11 @@
   "form": "loose",
   "harvest_season": "The plant flowers from early summer to early autumn, and the creamy-white flower clusters are the part usually dried for tea.",
   "appearance_dry": "Crumbly cream-to-pale-yellow flower heads mixed with bits of green stem.",
-  "appearance_liquor": "Clear yellow, a colour often put down to the pollen in the flowers.",
+  "appearance_liquor": "Clear yellow.",
   "appearance_wet": "Soft, faded cream florets with limp green fragments.",
-  "taste_profile": "Honey and almond on the nose, then a light herbal cup that can turn rather bitter; drinkers disagree on how pleasant it is.",
+  "taste_profile": "One tea-maker's account says the tea does not taste very good and differs from the flower lemonade, which tastes of almond or amaretto. Expect a light herbal cup that may turn bitter.",
   "taste_tags": [
     "floral",
-    "honey",
     "herbal",
     "bitter"
   ],
@@ -36,13 +35,13 @@
     "temp_c": 100,
     "steeps": 1,
     "seconds": [
-      300
+      600
     ],
-    "notes": "About a tablespoon of the light dried flowers per cup, steeped around 5 minutes. Honey softens the bitterness. People sensitive to salicylates should avoid it, and anyone on blood thinners should ask a doctor first."
+    "notes": "About 2 teaspoons of dried flowers per 250 ml of boiling water, steeped 10 minutes. The plant contains salicin, so people sensitive to aspirin or on blood thinners should ask a doctor first."
   },
   "caffeine_level": "none",
   "vintage_note": "Sold as a dried herb with no vintage, loose or in bags. As with other dried flowers, the current year's summer gathering smells best, and aroma is what you are paying for, so judge it by smell.",
-  "description": "Meadowsweet is a tall perennial of damp meadows across Europe and Western Asia, with frothy creamy flowers and a very strong sweet smell. As a tea it is all about that scent.\n\nThe flowers are simply dried, so there is little to say about processing and a lot to say about freshness. They are light and bulky: a tablespoon may weigh only a couple of grams.\n\nThe nose promises honey and almond, while the cup is thinner and can be bitter. Opinions split: some find it pleasant and gentle, others prefer it in a cold flower lemonade. A short steep and some honey help, and it blends well with chamomile, lemon balm or rose petals.\n\nThe plant contains salicylates, so those sensitive to them should skip it, and it is not a tea for children recovering from a viral illness. Buy it from a seller who can tell you what plant it is, since the Russian names таволга and лабазник both circulate for it.",
+  "description": "Meadowsweet is a tall perennial of damp meadows across Europe and Western Asia, with frothy creamy flowers and a very strong sweet smell. As a tea it is all about that scent.\n\nThe flowers are simply dried, so there is little to say about processing and a lot to say about freshness.\n\nThe smell promises more than the cup delivers. One tea-maker's account finds the tea not very tasty and prefers the flowers in a lemonade, which tastes of almond or amaretto.\n\nThe plant contains salicin and is called a natural aspirin, so anyone sensitive to aspirin should ask a doctor first. Buy it from a seller who can tell you what plant it is, since the Russian names таволга and лабазник both circulate for it.",
   "history": "The English name dates from the 16th century and first meant a plant for flavouring mead, with the older form meadsweet going back to the 15th century. Chaucer's The Knight's Tale calls it meadwort, an ingredient in a drink called save.\n\nIt was also strewn in churches for festivals and weddings, which earned it the name bridewort. In Russian and wider European folk medicine, the herb, flowers and roots have long been used in infusions and decoctions, and the plant appears in several Western European pharmacopoeias.",
   "liquor_hex": "#DCC36A",
   "leaf_hex": "#CDBF8A",
@@ -54,6 +53,17 @@
     "https://ru.wikipedia.org/wiki/%D0%A2%D0%B0%D0%B2%D0%BE%D0%BB%D0%B3%D0%B0_%D0%B2%D1%8F%D0%B7%D0%BE%D0%BB%D0%B8%D1%81%D1%82%D0%BD%D0%B0%D1%8F",
     "https://www.sewhistorically.com/meadowsweet-tea-recipe-filipendula-ulmaria/"
   ],
-  "confidence": "medium",
-  "images": []
+  "confidence": "low",
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/ba/Pflanzen_im_Brenner_Moor_06.jpg/1280px-Pflanzen_im_Brenner_Moor_06.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/ba/Pflanzen_im_Brenner_Moor_06.jpg/330px-Pflanzen_im_Brenner_Moor_06.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Pflanzen_im_Brenner_Moor_06.jpg",
+      "author": "Juliett09",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "kind": "plant",
+      "alt": "Meadowsweet plant (Filipendula ulmaria) with creamy white flower clusters on a reddish stem"
+    }
+  ]
 }

@@ -58,5 +58,26 @@
   "wikipedia_title": "Ssukcha",
   "wikipedia_scope": "exact",
   "popularity": 2,
-  "images": []
+  "images": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/7/72/Ssukcha_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/72/Ssukcha_2.jpg/330px-Ssukcha_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Ssukcha_2.jpg",
+      "author": "이석분",
+      "license": "CC BY 2.0 kr",
+      "license_url": "https://creativecommons.org/licenses/by/2.0/kr/deed.en",
+      "kind": "dry_leaf",
+      "alt": "Two glass jars filled with dried grey-green Korean mugwort leaves"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/6/6c/Ssukcha.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6c/Ssukcha.jpg/330px-Ssukcha.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Ssukcha.jpg",
+      "author": "이석분",
+      "license": "CC BY 2.0 kr",
+      "license_url": "https://creativecommons.org/licenses/by/2.0/kr/deed.en",
+      "kind": "liquor",
+      "alt": "Korean mugwort tea in a glass cup and glass teapot beside two covered jars"
+    }
+  ]
 }

@@ -1,0 +1,53 @@
+{
+  "slug": "fengru-cha",
+  "name_en": "Fengru Cha",
+  "name_native": null,
+  "name_romanized": "Fēngrú Chá",
+  "aliases": [
+    "Fengru tea",
+    "風茹茶",
+    "澎湖青草茶"
+  ],
+  "category": "tisane",
+  "origin_country": "Taiwan",
+  "origin_region": "Penghu",
+  "cultivar": null,
+  "form": "loose",
+  "caffeine_level": "none",
+  "brewing": {
+    "grams": 2,
+    "water_ml": 200,
+    "temp_c": 100,
+    "steeps": 1,
+    "seconds": [
+      300
+    ],
+    "notes": "A common starting point for herbal infusions: boiling water, about five minutes."
+  },
+  "taste_tags": [
+    "herbal"
+  ],
+  "description": "An herbal tea from Penghu made from Glossogyne tenuifolia, a hardy native plant that tolerates drought, wind and salt. It is also known as Penghu herb tea.\n\nBrew it as you would other herbal infusions. If the plant is new to you, check that it is safe for you first, especially when pregnant or on medication.",
+  "wikipedia_title": null,
+  "wikipedia_scope": "none",
+  "popularity": 1,
+  "name_zh": "风茹茶",
+  "name_ru": "Фэн Жу Ча",
+  "history": "Though promoted as a local industry, it was barred from sale by Taiwan's food regulator, on the grounds that it had no record of use as food in the country and was unproven as safe. Traditional cooling and remedial uses are claimed for it, and little more is documented.",
+  "liquor_hex": "#8A5428",
+  "leaf_hex": "#6A6A42",
+  "sources": [
+    "https://zh.wikipedia.org/wiki/%E9%A2%A8%E8%8C%B9%E8%8C%B6",
+    "https://www.wikidata.org/wiki/Q10566222"
+  ],
+  "confidence": "low",
+  "images": [],
+  "stub": true,
+  "processing": "The sun-dried plant is rinsed and boiled from cold water, then left in the liquid for about 30 minutes as it cools, which deepens aroma and colour.",
+  "harvest_season": "Depends on the plant and the place.",
+  "appearance_dry": "Dried plant material.",
+  "appearance_liquor": "Depends on the plant; usually pale to amber.",
+  "appearance_wet": "Softened plant material.",
+  "taste_profile": "Wild plants, with their thicker aromatic roots, brew most fragrant. Cultivated plants are lighter, and teabags lighter still.",
+  "vintage_note": "Herbal infusions are not sold by vintage: buy recent stock and use it within a year or so."
+}

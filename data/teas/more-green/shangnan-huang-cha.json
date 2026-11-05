@@ -1,0 +1,51 @@
+{
+  "slug": "shangnan-huang-cha",
+  "name_en": "Shangnan Yellow Tea",
+  "name_native": "商南黄茶",
+  "name_romanized": "Shāngnán Huángchá",
+  "aliases": [],
+  "category": "green",
+  "origin_country": "China",
+  "origin_region": "Shaanxi · Shangluo · Shangnan",
+  "cultivar": null,
+  "form": "loose",
+  "caffeine_level": "medium",
+  "brewing": {
+    "grams": 3,
+    "water_ml": 150,
+    "temp_c": 80,
+    "steeps": 3,
+    "seconds": [
+      60,
+      75,
+      105
+    ],
+    "notes": "A safe starting point for green tea: cooler water, short steeps, then adjust by taste."
+  },
+  "taste_tags": [
+    "sweet",
+    "umami"
+  ],
+  "description": "A green tea from Shangnan in Shaanxi, made from a tea plant whose buds turn golden through a natural inherited mutation. Yellow here describes the leaf, not the processing.\n\nTreat it as you would any green tea: cooler water, short steeps, and a seller who can say where and when it was picked.",
+  "wikipedia_title": null,
+  "wikipedia_scope": "none",
+  "popularity": 1,
+  "name_zh": "商南黄茶",
+  "name_ru": "Шан Нань Хуан Ча",
+  "history": "The plant came to the Qinling mountains from Tiantai in Zhejiang, and the tea was developed by a Shangnan company. It took a top prize at the third Guoyin Cup national tea competition and was praised by the tea scientist Chen Zongmao. Its amino acid content is given as 10 to 13 percent, higher than ordinary varieties.",
+  "liquor_hex": "#E6DC8E",
+  "leaf_hex": "#C4B85A",
+  "sources": [
+    "https://blog.sina.com.cn/s/blog_8513c2860102vvdm.html"
+  ],
+  "confidence": "medium",
+  "images": [],
+  "stub": true,
+  "processing": "Typical of green tea: picked, heated soon after picking to stop oxidation, then shaped and dried.",
+  "harvest_season": "Usually picked in spring, with the earliest pickings prized, as with most green teas.",
+  "appearance_dry": "Bright golden buds and leaves, soft as silk.",
+  "appearance_liquor": "Clear goose-yellow.",
+  "appearance_wet": "Tender, bright yellow leaf.",
+  "taste_profile": "A fresh, lingering aroma with a brisk, savoury sweetness.",
+  "vintage_note": "Green teas like this are normally sold as the current year's harvest and are best within a year of picking. It is not an ageing tea."
+}

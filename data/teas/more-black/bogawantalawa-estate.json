@@ -51,7 +51,28 @@
   "wikipedia_title": "Bogawantalawa",
   "wikipedia_scope": "umbrella",
   "popularity": 3,
-  "images": [],
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b7/Gathered_tea_crops._Bogawantalawa_Valley._Sri_Lanka.jpg/1280px-Gathered_tea_crops._Bogawantalawa_Valley._Sri_Lanka.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b7/Gathered_tea_crops._Bogawantalawa_Valley._Sri_Lanka.jpg/330px-Gathered_tea_crops._Bogawantalawa_Valley._Sri_Lanka.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Gathered_tea_crops._Bogawantalawa_Valley._Sri_Lanka.jpg",
+      "author": "Mstyslav Chernov",
+      "license": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "kind": "wet_leaf",
+      "alt": "Freshly plucked green tea leaves spread in a withering trough, Bogawantalawa Valley"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9a/Tea_crops_gathering_process._Bogawantalawa_Valley._Sri_Lanka-4.jpg/1280px-Tea_crops_gathering_process._Bogawantalawa_Valley._Sri_Lanka-4.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9a/Tea_crops_gathering_process._Bogawantalawa_Valley._Sri_Lanka-4.jpg/330px-Tea_crops_gathering_process._Bogawantalawa_Valley._Sri_Lanka-4.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Tea_crops_gathering_process._Bogawantalawa_Valley._Sri_Lanka-4.jpg",
+      "author": "Mstyslav Chernov",
+      "license": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "kind": "plant",
+      "alt": "Hand plucking young shoots from a tea bush in the Bogawantalawa Valley"
+    }
+  ],
   "name_zh": "博加万塔拉瓦红茶",
   "name_ru": "Богаванталава"
 }

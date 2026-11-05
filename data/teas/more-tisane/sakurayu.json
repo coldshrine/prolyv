@@ -9,7 +9,6 @@
     "Sakura-cha",
     "桜茶",
     "櫻花茶",
-    "桜漬け",
     "Cherry blossom tea"
   ],
   "category": "tisane",
@@ -52,5 +51,36 @@
   "wikipedia_title": "Sakurayu",
   "wikipedia_scope": "exact",
   "popularity": 3,
-  "images": []
+  "images": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/6/67/Sakura_yu.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/67/Sakura_yu.jpg/330px-Sakura_yu.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Sakura_yu.jpg",
+      "author": "Suguri F",
+      "license": "CC BY-SA 3.0",
+      "license_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+      "kind": "liquor",
+      "alt": "Salted cherry blossom opened in clear hot water in a blue-rimmed cup on a wooden saucer"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/6/6e/Sakura_yu2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6e/Sakura_yu2.jpg/330px-Sakura_yu2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Sakura_yu2.jpg",
+      "author": "Suguri F",
+      "license": "CC BY-SA 2.5",
+      "license_url": "https://creativecommons.org/licenses/by-sa/2.5",
+      "kind": "dry_leaf",
+      "alt": "Salt-crusted pink preserved cherry blossoms with their stems"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ce/20101128_%E6%A1%9C%E6%B9%AF%EF%BC%88%E3%81%95%E3%81%8F%E3%82%89%E3%82%86%EF%BC%89.png/1280px-20101128_%E6%A1%9C%E6%B9%AF%EF%BC%88%E3%81%95%E3%81%8F%E3%82%89%E3%82%86%EF%BC%89.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ce/20101128_%E6%A1%9C%E6%B9%AF%EF%BC%88%E3%81%95%E3%81%8F%E3%82%89%E3%82%86%EF%BC%89.png/330px-20101128_%E6%A1%9C%E6%B9%AF%EF%BC%88%E3%81%95%E3%81%8F%E3%82%89%E3%82%86%EF%BC%89.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source_page": "https://commons.wikimedia.org/wiki/File:20101128_%E6%A1%9C%E6%B9%AF%EF%BC%88%E3%81%95%E3%81%8F%E3%82%89%E3%82%86%EF%BC%89.png",
+      "author": "Ozawajun",
+      "license": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "kind": "liquor",
+      "alt": "Single pink cherry blossom floating in a white cup of nearly colourless sakurayu"
+    }
+  ]
 }

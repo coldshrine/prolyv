@@ -1,0 +1,53 @@
+{
+  "slug": "kuzuyu",
+  "name_en": "Kuzuyu",
+  "name_native": "葛湯",
+  "name_romanized": "kuzuyu",
+  "aliases": [
+    "葛湯",
+    "くずゆ"
+  ],
+  "category": "tisane",
+  "origin_country": "Japan",
+  "origin_region": "Japan",
+  "cultivar": null,
+  "form": "powder",
+  "caffeine_level": "none",
+  "brewing": {
+    "grams": 2,
+    "water_ml": 200,
+    "temp_c": 100,
+    "steeps": 1,
+    "seconds": [
+      300
+    ],
+    "notes": "A common starting point for herbal infusions: boiling water, about five minutes."
+  },
+  "taste_tags": [
+    "sweet"
+  ],
+  "description": "A thick, sweet Japanese drink made by cooking kudzu starch with water and sugar until translucent.\n\nBrew it as you would other herbal infusions. If the plant is new to you, check that it is safe for you first, especially when pregnant or on medication.",
+  "wikipedia_title": null,
+  "wikipedia_scope": "none",
+  "popularity": 1,
+  "name_zh": "葛汤",
+  "name_ru": "Кудзую",
+  "history": "Slow to cool, warming and easy to digest, it has long been given as weaning food, liquid food, care food and to people recovering from illness. It is also a winter dessert drink. Genuine kudzu is the finest base, with wasanbon sugar at the very top, but much of what is sold as kudzu flour is potato, sweet potato or corn starch.",
+  "liquor_hex": "#E8E2CF",
+  "leaf_hex": "#E9E5DA",
+  "sources": [
+    "https://ja.wikipedia.org/wiki/%E8%91%9B%E6%B9%AF",
+    "https://en.wikipedia.org/wiki/Arrowroot_tea",
+    "https://www.wikidata.org/wiki/Q138830419"
+  ],
+  "confidence": "medium",
+  "images": [],
+  "stub": true,
+  "processing": "Sugar is dissolved in a little hot water, kudzu starch is stirred in, then plenty of boiling water is added and mixed quickly until clear.",
+  "harvest_season": "Depends on the plant and the place.",
+  "appearance_dry": "Dried plant material.",
+  "appearance_liquor": "Pale and translucent, with a thick, honey-like body.",
+  "appearance_wet": "Softened plant material.",
+  "taste_profile": "Gently sweet; often flavoured with matcha, grated ginger, coffee or citrus juice.",
+  "vintage_note": "Herbal infusions are not sold by vintage: buy recent stock and use it within a year or so."
+}

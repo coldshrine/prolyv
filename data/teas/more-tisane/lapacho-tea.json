@@ -57,5 +57,26 @@
   "popularity": 2,
   "name_zh": "拉帕乔茶",
   "name_ru": "Лапачо",
-  "images": []
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f1/Lapachorinde_geschnitten.jpg/1280px-Lapachorinde_geschnitten.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f1/Lapachorinde_geschnitten.jpg/330px-Lapachorinde_geschnitten.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Lapachorinde_geschnitten.jpg",
+      "author": "soultea.de /André Helbig",
+      "license": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "kind": "dry_leaf",
+      "alt": "Heap of cut lapacho inner bark shreds on a white background"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7b/Lapacho_Teerinde.JPG/1280px-Lapacho_Teerinde.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7b/Lapacho_Teerinde.JPG/330px-Lapacho_Teerinde.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Lapacho_Teerinde.JPG",
+      "author": "de:Man77",
+      "license": "Public domain",
+      "license_url": null,
+      "kind": "dry_leaf",
+      "alt": "Scattered reddish-brown chips of lapacho bark for tea"
+    }
+  ]
 }

@@ -46,7 +46,18 @@
   "wikipedia_title": "Hile",
   "wikipedia_scope": "umbrella",
   "popularity": 2,
-  "images": [],
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e0/Guranse_Tips_G75_-_Summer_2016.jpg/1280px-Guranse_Tips_G75_-_Summer_2016.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e0/Guranse_Tips_G75_-_Summer_2016.jpg/330px-Guranse_Tips_G75_-_Summer_2016.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Guranse_Tips_G75_-_Summer_2016.jpg",
+      "author": "Caroline Léna Becker",
+      "license": "CC BY 3.0",
+      "license_url": "https://creativecommons.org/licenses/by/3.0",
+      "kind": "dry_leaf",
+      "alt": "Twisted dark dry leaf with pale tips from Guranse, summer 2016 harvest"
+    }
+  ],
   "sources": [
     "https://www.wipo.int/ipadvantage/en/details.jsp?id=3472",
     "https://stir-tea-coffee.com/features/teas-from-the-hills-of-nepal",

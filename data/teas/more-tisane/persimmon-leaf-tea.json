@@ -54,5 +54,36 @@
   "wikipedia_title": "Persimmon leaf tea",
   "wikipedia_scope": "exact",
   "popularity": 2,
-  "images": []
+  "images": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/3/34/Gamnip-cha_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/34/Gamnip-cha_2.jpg/330px-Gamnip-cha_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Gamnip-cha_2.jpg",
+      "author": "은국",
+      "license": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0",
+      "kind": "liquor",
+      "alt": "White mug of pale yellow-green persimmon leaf tea with steeped leaves, seen from above"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/1/16/Th%C3%A9_de_plaqueminier.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/16/Th%C3%A9_de_plaqueminier.jpg/330px-Th%C3%A9_de_plaqueminier.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Th%C3%A9_de_plaqueminier.jpg",
+      "author": "Jpbrigand",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "kind": "liquor",
+      "alt": "Glass cup of pale golden persimmon leaf tea on a white background"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/a/a6/Drying_persimmon_leaves.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a6/Drying_persimmon_leaves.jpg/330px-Drying_persimmon_leaves.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Drying_persimmon_leaves.jpg",
+      "author": "은국",
+      "license": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0",
+      "kind": "other",
+      "alt": "Fresh green persimmon leaves spread on a bamboo mat to dry for gamnip-cha"
+    }
+  ]
 }

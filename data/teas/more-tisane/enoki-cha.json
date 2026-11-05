@@ -1,0 +1,49 @@
+{
+  "slug": "enoki-cha",
+  "name_en": "Enoki-cha",
+  "name_native": "えのき茶",
+  "name_romanized": "enoki-cha",
+  "aliases": [],
+  "category": "tisane",
+  "origin_country": "Japan",
+  "origin_region": "Japan",
+  "cultivar": null,
+  "form": "other",
+  "caffeine_level": "none",
+  "brewing": {
+    "grams": 2,
+    "water_ml": 200,
+    "temp_c": 100,
+    "steeps": 1,
+    "seconds": [
+      300
+    ],
+    "notes": "A common starting point for herbal infusions: boiling water, about five minutes."
+  },
+  "taste_tags": [
+    "herbal"
+  ],
+  "description": "A Japanese infusion made from dried enoki mushrooms rather than tea leaves.\n\nBrew it as you would other herbal infusions. If the plant is new to you, check that it is safe for you first, especially when pregnant or on medication.",
+  "wikipedia_title": null,
+  "wikipedia_scope": "none",
+  "popularity": 1,
+  "name_zh": "金针菇茶",
+  "name_ru": "Эноки-тя",
+  "history": "It was devised by Yasuo Watanabe of Yokohama University of Pharmacy, who identified and named a fatty acid complex in enoki extract linked to reduced visceral fat. Human trials of the extract, reported from 2006 to 2009, prompted a media-driven boom in dried enoki as a diet food. Those trials tested the extract, not the tea as drunk at home.",
+  "liquor_hex": "#C9A766",
+  "leaf_hex": "#B59A6A",
+  "sources": [
+    "https://ja.wikipedia.org/wiki/%E3%81%88%E3%81%AE%E3%81%8D%E8%8C%B6",
+    "https://www.wikidata.org/wiki/Q30922606"
+  ],
+  "confidence": "medium",
+  "images": [],
+  "stub": true,
+  "processing": "Enoki are dried to about a tenth of their weight and cut finely so that more of the active component is extracted.",
+  "harvest_season": "Depends on the plant and the place.",
+  "appearance_dry": "Dried plant material.",
+  "appearance_liquor": "Depends on the plant; usually pale to amber.",
+  "appearance_wet": "Softened plant material.",
+  "taste_profile": "A herbal infusion; the taste depends on the plant.",
+  "vintage_note": "Herbal infusions are not sold by vintage: buy recent stock and use it within a year or so."
+}

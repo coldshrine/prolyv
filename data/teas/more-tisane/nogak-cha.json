@@ -1,0 +1,50 @@
+{
+  "slug": "nogak-cha",
+  "name_en": "Nogak-cha",
+  "name_native": "노각차",
+  "name_romanized": "nogak-cha",
+  "aliases": [
+    "Nogakcha"
+  ],
+  "category": "tisane",
+  "origin_country": "South Korea",
+  "origin_region": "South Gyeongsang · Geochang",
+  "cultivar": null,
+  "form": "loose",
+  "caffeine_level": "none",
+  "brewing": {
+    "grams": 2,
+    "water_ml": 200,
+    "temp_c": 100,
+    "steeps": 1,
+    "seconds": [
+      300
+    ],
+    "notes": "A common starting point for herbal infusions: boiling water, about five minutes."
+  },
+  "taste_tags": [
+    "herbal"
+  ],
+  "description": "A caffeine-free Korean tea made from the leaves of the nogak tree, worked much like green tea. It was first made and became known in Geochang.\n\nBrew it as you would other herbal infusions. If the plant is new to you, check that it is safe for you first, especially when pregnant or on medication.",
+  "wikipedia_title": null,
+  "wikipedia_scope": "none",
+  "popularity": 1,
+  "name_zh": "韩国紫茎叶茶",
+  "name_ru": "Ногак-ча",
+  "history": "It is described as a prized mountain tea once used by monks, and it was entered in the Korean Food Code in 2014. Traditional uses are claimed for it, but little more is documented.",
+  "liquor_hex": "#D8D08A",
+  "leaf_hex": "#6F7F42",
+  "sources": [
+    "https://ko.wikipedia.org/wiki/%EB%85%B8%EA%B0%81%EC%B0%A8"
+  ],
+  "confidence": "low",
+  "images": [],
+  "stub": true,
+  "processing": "The leaves are pan-fired and rolled repeatedly, in a method close to green tea.",
+  "harvest_season": "Spring, around the Gogu solar term.",
+  "appearance_dry": "Dried plant material.",
+  "appearance_liquor": "Depends on the plant; usually pale to amber.",
+  "appearance_wet": "Softened plant material.",
+  "taste_profile": "Soft and gentle in both taste and aroma.",
+  "vintage_note": "Herbal infusions are not sold by vintage: buy recent stock and use it within a year or so."
+}

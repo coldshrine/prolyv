@@ -55,5 +55,16 @@
   "wikipedia_title": "Japanese tea",
   "wikipedia_scope": "umbrella",
   "popularity": 3,
-  "images": []
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fd/Yamazoe_tyabatake.jpg/1280px-Yamazoe_tyabatake.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fd/Yamazoe_tyabatake.jpg/330px-Yamazoe_tyabatake.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Yamazoe_tyabatake.jpg",
+      "author": "Tamago Moffle",
+      "license": "CC BY-SA 2.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+      "kind": "plantation",
+      "alt": "Rows of green tea bushes in a hillside tea field at Yamazoe, Nara, in the Yamato tea region"
+    }
+  ]
 }

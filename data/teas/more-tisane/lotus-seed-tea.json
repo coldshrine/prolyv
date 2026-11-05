@@ -1,0 +1,55 @@
+{
+  "slug": "lotus-seed-tea",
+  "name_en": "Lotus Seed Tea (Yeonja-cha)",
+  "name_native": "연자차",
+  "name_romanized": "yeonja-cha",
+  "aliases": [
+    "Yeonbap-cha",
+    "연밥차",
+    "Yeonssi-cha",
+    "연씨차",
+    "蓮子茶"
+  ],
+  "category": "tisane",
+  "origin_country": "South Korea",
+  "origin_region": "South Korea",
+  "cultivar": null,
+  "form": "loose",
+  "caffeine_level": "none",
+  "brewing": {
+    "grams": 2,
+    "water_ml": 200,
+    "temp_c": 100,
+    "steeps": 1,
+    "seconds": [
+      300
+    ],
+    "notes": "A common starting point for herbal infusions: boiling water, about five minutes."
+  },
+  "taste_tags": [
+    "herbal"
+  ],
+  "description": "A Korean tea made by simmering lotus seeds that have been steamed and dried.\n\nBrew it as you would other herbal infusions. If the plant is new to you, check that it is safe for you first, especially when pregnant or on medication.",
+  "wikipedia_title": null,
+  "wikipedia_scope": "none",
+  "popularity": 1,
+  "name_zh": "莲子茶",
+  "name_ru": "Чай из семян лотоса",
+  "history": "It goes by three Korean names: yeonbap-cha, yeonssi-cha and yeonja-cha. Little more is documented about it.",
+  "liquor_hex": "#E2D3A4",
+  "leaf_hex": "#D2C094",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Lotus_tea",
+    "https://ko.wikipedia.org/wiki/%EC%97%B0%EC%B0%A8_%28%EC%9D%8C%EC%8B%9D%29"
+  ],
+  "confidence": "low",
+  "images": [],
+  "stub": true,
+  "processing": "Seeds are steamed and dried; 5 to 10 g simmered over low heat in 600 ml of water makes two to three cups.",
+  "harvest_season": "Depends on the plant and the place.",
+  "appearance_dry": "Dried plant material.",
+  "appearance_liquor": "Depends on the plant; usually pale to amber.",
+  "appearance_wet": "Softened plant material.",
+  "taste_profile": "A herbal infusion; the taste depends on the plant.",
+  "vintage_note": "Herbal infusions are not sold by vintage: buy recent stock and use it within a year or so."
+}

@@ -1,0 +1,48 @@
+{
+  "slug": "bir-pletok",
+  "name_en": "Bir Pletok",
+  "name_native": null,
+  "name_romanized": null,
+  "aliases": [],
+  "category": "tisane",
+  "origin_country": "Indonesia",
+  "origin_region": "Jakarta · Betawi",
+  "cultivar": null,
+  "form": "other",
+  "caffeine_level": "none",
+  "brewing": {
+    "grams": 2,
+    "water_ml": 200,
+    "temp_c": 100,
+    "steeps": 1,
+    "seconds": [
+      300
+    ],
+    "notes": "A common starting point for herbal infusions: boiling water, about five minutes."
+  },
+  "taste_tags": [
+    "spicy"
+  ],
+  "description": "A warming, alcohol-free Betawi drink based on ginger and secang wood with other spices. Despite the word bir, it contains no beer.\n\nBrew it as you would other herbal infusions. If the plant is new to you, check that it is safe for you first, especially when pregnant or on medication.",
+  "wikipedia_title": null,
+  "wikipedia_scope": "none",
+  "popularity": 1,
+  "name_zh": "贝塔维姜饮",
+  "name_ru": "Бир плеток",
+  "history": "Its origin is not recorded with certainty, though it is commonly thought to have begun as a Betawi celebratory answer to European wine and beer. It is served at circumcisions and weddings and at cultural tourism venues, and is recognised as Indonesian intangible cultural heritage.",
+  "liquor_hex": "#8E2A24",
+  "leaf_hex": "#6A2E1E",
+  "sources": [
+    "https://id.wikipedia.org/wiki/Bir_pletok"
+  ],
+  "confidence": "medium",
+  "images": [],
+  "stub": true,
+  "processing": "Ingredients are boiled and strained; before serving it may be shaken until it foams.",
+  "harvest_season": "Depends on the plant and the place.",
+  "appearance_dry": "Dried plant material.",
+  "appearance_liquor": "Depends on the plant; usually pale to amber.",
+  "appearance_wet": "Softened plant material.",
+  "taste_profile": "A herbal infusion; the taste depends on the plant.",
+  "vintage_note": "Herbal infusions are not sold by vintage: buy recent stock and use it within a year or so."
+}

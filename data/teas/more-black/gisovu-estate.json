@@ -46,7 +46,18 @@
   "wikipedia_title": null,
   "wikipedia_scope": "none",
   "popularity": 2,
-  "images": [],
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5c/Gisovu_tea_factory.jpg/1280px-Gisovu_tea_factory.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5c/Gisovu_tea_factory.jpg/330px-Gisovu_tea_factory.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Gisovu_tea_factory.jpg",
+      "author": "Mutuyemungu Ignance",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "kind": "plantation",
+      "alt": "Tea bushes in front of the Gisovu tea factory with misty green hills behind"
+    }
+  ],
   "sources": [
     "https://www.wikidata.org/wiki/Q124336361",
     "https://imperialteas.co.uk/rwanda-gisovu-silverback-black-tea-182v",

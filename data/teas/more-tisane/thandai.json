@@ -1,0 +1,55 @@
+{
+  "slug": "thandai",
+  "name_en": "Thandai",
+  "name_native": "ठंडाई",
+  "name_romanized": null,
+  "aliases": [
+    "Thanday",
+    "Sardai",
+    "Sarday"
+  ],
+  "category": "tisane",
+  "origin_country": "India",
+  "origin_region": "Punjab · Haryana",
+  "cultivar": null,
+  "form": "other",
+  "caffeine_level": "none",
+  "brewing": {
+    "grams": 2,
+    "water_ml": 200,
+    "temp_c": 100,
+    "steeps": 1,
+    "seconds": [
+      300
+    ],
+    "notes": "A common starting point for herbal infusions: boiling water, about five minutes."
+  },
+  "taste_tags": [
+    "sweet",
+    "creamy",
+    "nutty",
+    "spicy"
+  ],
+  "description": "A sweet cold drink of the Indian subcontinent built on milk, sugar, almonds, spices, seeds and rose petals. It is drunk mainly in summer in the hot parts of north India and Pakistan.\n\nBrew it as you would other herbal infusions. If the plant is new to you, check that it is safe for you first, especially when pregnant or on medication.",
+  "wikipedia_title": null,
+  "wikipedia_scope": "none",
+  "popularity": 1,
+  "name_zh": "印度坦代冷饮",
+  "name_ru": "Тандай",
+  "history": "Thandai belongs to the Hindu festival of Holi and the Sikh festival of Hola Mohalla, where it is served with snacks such as gujhia and chaat. The usual variants are almond (badam) and cannabis (bhang). Its early history is not documented here.",
+  "liquor_hex": "#EADBB8",
+  "leaf_hex": "#B99A6A",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Thandai"
+  ],
+  "confidence": "medium",
+  "images": [],
+  "stub": true,
+  "processing": "A mixture of almonds, fennel seeds, watermelon kernels, rose petals, pepper, poppy seeds, cardamom and saffron is combined with milk and sugar and served cold.",
+  "harvest_season": "Depends on the plant and the place.",
+  "appearance_dry": "Dried plant material.",
+  "appearance_liquor": "Depends on the plant; usually pale to amber.",
+  "appearance_wet": "Softened plant material.",
+  "taste_profile": "A herbal infusion; the taste depends on the plant.",
+  "vintage_note": "Herbal infusions are not sold by vintage: buy recent stock and use it within a year or so."
+}

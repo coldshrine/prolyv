@@ -1,0 +1,55 @@
+{
+  "slug": "tieguanyin-bai-cha",
+  "name_en": "Tieguanyin Bai Cha (White Tieguanyin)",
+  "name_native": "铁观音白茶",
+  "name_romanized": "Tiěguānyīn Bái Chá",
+  "aliases": [
+    "Tieguanyin Baicha (White Tieguanyin)",
+    "鐵觀音白茶"
+  ],
+  "category": "white",
+  "origin_country": "China",
+  "origin_region": "Fujian",
+  "cultivar": "Tieguanyin",
+  "form": "loose",
+  "caffeine_level": "low",
+  "brewing": {
+    "grams": 4,
+    "water_ml": 120,
+    "temp_c": 85,
+    "steeps": 4,
+    "seconds": [
+      45,
+      60,
+      75,
+      90
+    ],
+    "notes": "A safe starting point for white tea: use hot but not boiling water and give it time."
+  },
+  "taste_tags": [
+    "sweet",
+    "floral"
+  ],
+  "description": "A Fujian white tea bearing the name of Tieguanyin.\n\nTreat it as you would any white tea: hot but not boiling water, patient steeps, and a seller who can say where and when it was picked.",
+  "wikipedia_title": null,
+  "wikipedia_scope": "none",
+  "popularity": 1,
+  "name_zh": "铁观音白茶",
+  "name_ru": "Те Гуань Инь Бай Ча",
+  "history": null,
+  "liquor_hex": "#E6D48E",
+  "leaf_hex": "#A9AE90",
+  "sources": [
+    "https://sevencups.com/shop-category/white-tea/"
+  ],
+  "confidence": "low",
+  "images": [],
+  "stub": true,
+  "processing": "Typical of white tea: withered for a long time and dried with little handling.",
+  "harvest_season": "Usually picked in spring, as with most white teas.",
+  "appearance_dry": "Usually downy buds or soft, silvery-green leaves.",
+  "appearance_liquor": "Usually a pale straw to light amber.",
+  "appearance_wet": "Usually soft, intact leaf and bud.",
+  "taste_profile": "Expect what white teas usually give: gentle, sweet and lightly floral.",
+  "vintage_note": "White teas are normally sold either fresh, from the current year, or pressed and aged for several years, with the year stated."
+}

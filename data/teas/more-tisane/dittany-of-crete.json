@@ -23,7 +23,7 @@
   "appearance_dry": "Small round leaves in a soft, woolly coat of white-grey hair, often with dried pink-purple bracts.",
   "appearance_liquor": "Clear golden yellow, as is usual for a dried aromatic herb.",
   "appearance_wet": "Velvety grey-green leaves that keep their furry look, with soft flower bracts.",
-  "taste_profile": "Strongly herbal and pungent with a slight astringency, close to oregano in family; wild plants run more peppery and bitter, cultivated ones milder.",
+  "taste_profile": "Strongly herbal and pungent, close to oregano in family.",
   "taste_tags": [
     "herbal",
     "spicy",
@@ -40,8 +40,8 @@
     "notes": "Western-style. The Cretan measure is about 1 g per 100 ml of water, usually as a decoction or hot infusion; strain before drinking. It is strong, so start small."
   },
   "caffeine_level": "none",
-  "vintage_note": "Sold as a dried herb by the current season, not by vintage, mostly from cultivated plants around Embaros and neighbouring villages. Dried leaves keep for several months in a cool, dark place. Wild-gathered lots are scarcer and worth questioning, since past overharvesting did real damage.",
-  "description": "Diktamo is a small woolly herb that grows wild only on Crete, where it clings to cliffs and gorges from sea level up to about 1,600 metres. The Cretans also call it erontas, from the word for love, and drink it in place of tea.\n\nIt is easy to recognise: round leaves under a soft coat of white-grey hair, with rose-pink flowers and brighter purple-pink bracts. It is gathered in bloom in summer and simply dried.\n\nThe smell is very strong for such a small plant. In the cup it is pungent, herbal and slightly astringent, and it belongs to the same genus as oregano, which you will notice. Keep the dose low: about a gram per 100 ml is the traditional measure.\n\nBuy cultivated diktamo where you can. Most of it now comes from Embaros and the villages around it, south of Heraklion, and cultivated plants are gentler in taste than wild ones. Cultivation is also what has taken the pressure off wild populations.",
+  "vintage_note": "Sold as a dried herb, not by vintage, often from cultivated plants such as those of Embaros. Keep it in a cool, dark place. Wild-gathered lots are worth questioning, since past overharvesting did real damage.",
+  "description": "Diktamo is a small woolly herb that grows wild only on Crete, where it clings to cliffs and gorges from sea level up to about 1,600 metres. The Cretans also call it erontas, from the word for love, and drink it in place of tea.\n\nIt is easy to recognise: round leaves under a soft coat of white-grey hair, with rose-pink flowers and brighter purple-pink bracts. It is gathered in bloom in summer and simply dried.\n\nThe smell is very strong for such a small plant. In the cup it is pungent, herbal and slightly astringent, and it belongs to the same genus as oregano, which you will notice. Keep the dose low: about a gram per 100 ml is the traditional measure.\n\nBuy cultivated diktamo where you can. It is grown around Embaros on Crete. Cultivation is also what has taken the pressure off wild populations.",
   "history": "The Greek name is usually tied to Mount Dikti, where the plant was once abundant, though in fact it grows across the mountains of the island. It has served for a long time as a medicinal drink and flavouring on Crete.\n\nHarvesting from cliffs drove local extinctions in parts of Crete during the twentieth century, and it was listed as vulnerable on the 1997 IUCN Red List. Organised cultivation, dated by the IUCN to the 1920s, has eased that pressure, and a more recent assessment rates the species as Least Concern as long as cultivation keeps meeting demand.",
   "liquor_hex": "#D2B257",
   "leaf_hex": "#9CA58E",
@@ -51,10 +51,20 @@
     "https://iucn.org/blog/202607/cretan-dittany-hairiest-greek-legend",
     "https://specialtyproduce.com/produce/Cretan_Dittany_25358.php"
   ],
-  "confidence": "high",
+  "confidence": "medium",
   "wikipedia_title": "Origanum dictamnus",
   "wikipedia_scope": "umbrella",
   "popularity": 2,
-  "images": [],
-  "sources_note": "Greek text dates Embaros cultivation to about 70 years; the IUCN gives the 1920s. Liquor colour is typical of the class."
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1c/%CE%94%CE%B9%CE%BA%CF%84%CE%B1%CE%BC%CE%BF.jpg/1280px-%CE%94%CE%B9%CE%BA%CF%84%CE%B1%CE%BC%CE%BF.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1c/%CE%94%CE%B9%CE%BA%CF%84%CE%B1%CE%BC%CE%BF.jpg/330px-%CE%94%CE%B9%CE%BA%CF%84%CE%B1%CE%BC%CE%BF.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source_page": "https://commons.wikimedia.org/wiki/File:%CE%94%CE%B9%CE%BA%CF%84%CE%B1%CE%BC%CE%BF.jpg",
+      "author": "Djefzo",
+      "license": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "kind": "plant",
+      "alt": "Dittany of Crete with round woolly grey leaves and pink bracts trailing over a terracotta pot"
+    }
+  ]
 }

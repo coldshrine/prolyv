@@ -1,0 +1,57 @@
+{
+  "slug": "maesil-cha",
+  "name_en": "Maesil-cha (Plum Tea)",
+  "name_native": "매실차",
+  "name_romanized": "maesil-cha",
+  "aliases": [
+    "Plum tea",
+    "maeshil-cha",
+    "梅實茶",
+    "Ume-cha",
+    "梅茶"
+  ],
+  "category": "tisane",
+  "origin_country": "South Korea",
+  "origin_region": "Korea",
+  "cultivar": null,
+  "form": "other",
+  "caffeine_level": "none",
+  "brewing": {
+    "grams": 2,
+    "water_ml": 200,
+    "temp_c": 100,
+    "steeps": 1,
+    "seconds": [
+      300
+    ],
+    "notes": "A common starting point for herbal infusions: boiling water, about five minutes."
+  },
+  "taste_tags": [
+    "fruity",
+    "tart",
+    "sweet"
+  ],
+  "description": "A traditional Korean drink made from green plums, smoked plums or, most often, plum syrup stirred into hot or cold water.\n\nBrew it as you would other herbal infusions. If the plant is new to you, check that it is safe for you first, especially when pregnant or on medication.",
+  "wikipedia_title": null,
+  "wikipedia_scope": "none",
+  "popularity": 1,
+  "name_zh": "梅实茶",
+  "name_ru": "Мэсиль-ча",
+  "history": "Beyond its place among traditional Korean teas and the ways it is prepared, little is documented about it.",
+  "liquor_hex": "#D9B04E",
+  "leaf_hex": "#8A7A2E",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Maesil-cha",
+    "https://ko.wikipedia.org/wiki/%EB%A7%A4%EC%8B%A4%EC%B0%A8"
+  ],
+  "confidence": "low",
+  "images": [],
+  "stub": true,
+  "processing": "Usually plum syrup diluted with water. A less common version uses an extract of grated green plums, thinned with a little water, pressed through hemp cloth and sun-dried, then kept in glass somewhere cool.",
+  "harvest_season": "Depends on the plant and the place.",
+  "appearance_dry": "Dried plant material.",
+  "appearance_liquor": "Depends on the plant; usually pale to amber.",
+  "appearance_wet": "Softened plant material.",
+  "taste_profile": "A herbal infusion; the taste depends on the plant.",
+  "vintage_note": "Herbal infusions are not sold by vintage: buy recent stock and use it within a year or so."
+}

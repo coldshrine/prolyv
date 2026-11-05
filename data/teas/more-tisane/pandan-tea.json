@@ -15,7 +15,7 @@
   "origin_country": "Malaysia",
   "origin_region": "Southeast Asia",
   "cultivar": "Pandanus amaryllifolius",
-  "processing": "Fresh or dried leaves of Pandanus amaryllifolius are steeped in hot water; drying keeps part of the fragrance.",
+  "processing": "Fresh or dried leaves of Pandanus amaryllifolius are steeped in hot water.",
   "form": "loose",
   "harvest_season": "No harvest season or prized picking is recorded; the leaf is used fresh or dried.",
   "appearance_dry": "Dried strips or cut pieces of long, flat, dull green leaf.",
@@ -35,22 +35,41 @@
     "seconds": [
       360
     ],
-    "notes": "One or two leaves steeped for 5 to 10 minutes is the usual guide. Good hot, and good chilled afterward."
+    "notes": "Typically steeped for several minutes. Good hot, and good chilled afterward."
   },
   "caffeine_level": "none",
   "vintage_note": "Sold without a year or grade, as dried leaf, cut leaf or bags, and fresh leaf can be used too. As usual for dried herbs, buy by smell: the leaf should still be clearly sweet, because the aroma is the whole point.",
-  "description": "Pandan tea is an infusion of Pandanus amaryllifolius, the fragrant screwpine leaf of Southeast Asian kitchens. Its appeal is the smell, a sweet note people compare to vanilla or coconut.\n\nThere is almost no processing to speak of. The leaf is used fresh or dried and steeped in hot water, and the drying holds on to some, but not all, of the scent.\n\nIn the cup it is light, more aroma than body. Give it longer than you would a tea, around 5 to 10 minutes, and do not worry about bitterness as you would with camellia leaf. It works hot and cold.\n\nIn the Philippines it is served chilled and is a common drink at home, while in Thailand pandan is often combined with lemongrass in herbal tea. Claims about calm or digestion come mostly from sellers and have thin evidence behind them.",
-  "history": "Little is documented about the history of pandan as a drink, and no clear origin or date can be given. Accounts of it today place it in everyday home use in the Philippines and in herbal blends in Thailand.",
+  "description": "Pandan tea is an infusion of Pandanus amaryllifolius, the fragrant screwpine leaf of Southeast Asian kitchens. Its appeal is the smell, a sweet note people compare to vanilla or coconut.\n\nThere is almost no processing to speak of. The leaf is used fresh or dried and steeped in hot water.\n\nIn the cup it is light, more aroma than body. Give it several minutes. It works hot and cold.\n\nIn the Philippines it is served chilled and is a common drink at home. Treat any health claims with caution.",
+  "history": "Little is documented about the history of pandan as a drink, and no clear origin or date can be given. Accounts of it today place it in everyday home use in the Philippines.",
   "liquor_hex": "#D3CC8C",
   "leaf_hex": "#6E7F48",
   "sources": [
-    "https://steepdreams.substack.com/p/teas-of-the-philippines",
-    "https://www.simplysuwanee.com/pandan-tea/",
-    "https://ingredients.hermeticasuperfoods.com/ingredients/pandan-leaves"
+    "https://steepdreams.substack.com/p/teas-of-the-philippines"
   ],
   "confidence": "low",
   "wikipedia_title": null,
   "wikipedia_scope": "none",
   "popularity": 2,
-  "images": []
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/31/2016_Singapur%2C_Ogrody_botaniczne_%28131%29.jpg/1280px-2016_Singapur%2C_Ogrody_botaniczne_%28131%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/31/2016_Singapur%2C_Ogrody_botaniczne_%28131%29.jpg/330px-2016_Singapur%2C_Ogrody_botaniczne_%28131%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source_page": "https://commons.wikimedia.org/wiki/File:2016_Singapur,_Ogrody_botaniczne_(131).jpg",
+      "author": "Marcin Konsek",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "kind": "plant",
+      "alt": "Pandanus amaryllifolius plant with long, narrow green leaves in a botanic garden"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/9/95/Pandan_%28screwpine%29_leaves.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/95/Pandan_%28screwpine%29_leaves.JPG/330px-Pandan_%28screwpine%29_leaves.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Pandan_(screwpine)_leaves.JPG",
+      "author": "",
+      "license": "CC BY 1.0",
+      "license_url": "https://creativecommons.org/licenses/by/1.0",
+      "kind": "plant",
+      "alt": "Dense clump of long, flat green pandan leaves"
+    }
+  ]
 }

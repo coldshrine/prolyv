@@ -1,0 +1,57 @@
+{
+  "slug": "sheng-puerh-ninger",
+  "name_en": "Ning'er Pu-erh",
+  "name_native": "宁洱",
+  "name_romanized": "Níng'ěr",
+  "aliases": [
+    "Ning'er"
+  ],
+  "category": "sheng",
+  "origin_country": "China",
+  "origin_region": "Yunnan · Pu'er · Ning'er",
+  "cultivar": null,
+  "form": "cake",
+  "caffeine_level": "high",
+  "brewing": {
+    "grams": 6,
+    "water_ml": 110,
+    "temp_c": 95,
+    "steeps": 7,
+    "seconds": [
+      10,
+      10,
+      15,
+      20,
+      25,
+      35,
+      50
+    ],
+    "notes": "A safe starting point for raw pu-erh: rinse once, gongfu style, short early steeps."
+  },
+  "taste_tags": [
+    "bitter",
+    "sweet"
+  ],
+  "description": "Raw pu-erh from Ning'er, the county seat of Pu'er City and the old Pu'er Prefecture.\n\nTreat it as you would any raw pu-erh: rinse the leaf, keep early steeps short, and ask which year and which trees it comes from, since village names on Yunnan teas are often stretched.",
+  "wikipedia_title": null,
+  "wikipedia_scope": "none",
+  "popularity": 1,
+  "name_zh": "宁洱",
+  "name_ru": "Нин Эр",
+  "history": "For centuries Ning'er managed the pu-erh trade: leaf from the surrounding mountains was gathered, graded, blended and branded here, then sent along the Tea Horse Road toward Tibet and beyond. The tea's name is traced to this trading post. Little is documented about the character of the local leaf itself.",
+  "liquor_hex": "#C9A23C",
+  "leaf_hex": "#5A5A3A",
+  "sources": [
+    "https://orientaleaf.com/blogs/tea-101/pu-erh-tea-regions-yunnan-guide"
+  ],
+  "confidence": "low",
+  "images": [],
+  "stub": true,
+  "processing": "Typical of raw pu-erh: sun-dried large-leaf mao cha, usually steamed and stone-pressed, then left to age slowly.",
+  "harvest_season": "Usually spring leaf is prized, as with most raw pu-erh.",
+  "appearance_dry": "Usually a pressed cake of silvery-green to brown leaf, darkening with age.",
+  "appearance_liquor": "Usually pale gold when young, deepening to amber with age.",
+  "appearance_wet": "Usually thick, large leaf.",
+  "taste_profile": "Expect what young raw pu-erh usually gives: bright, bitter-sweet and full, mellowing with age.",
+  "vintage_note": "Raw pu-erh is sold by harvest year: young at 1 to 3 years, mid-aged at 5 to 10, aged at 15 or more. Storage matters as much as age."
+}

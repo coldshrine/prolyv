@@ -1,0 +1,53 @@
+{
+  "slug": "mengku-gu-shu-bai-cha",
+  "name_en": "Mengku Gu Shu Bai Cha",
+  "name_native": "勐库古树白茶",
+  "name_romanized": "Měngkù Gǔ Shù Bái Chá",
+  "aliases": [
+    "勐庫古樹白茶"
+  ],
+  "category": "white",
+  "origin_country": "China",
+  "origin_region": "Yunnan · Lincang · Mengku",
+  "cultivar": null,
+  "form": "cake",
+  "caffeine_level": "low",
+  "brewing": {
+    "grams": 4,
+    "water_ml": 120,
+    "temp_c": 85,
+    "steeps": 4,
+    "seconds": [
+      45,
+      60,
+      75,
+      90
+    ],
+    "notes": "A safe starting point for white tea: use hot but not boiling water and give it time."
+  },
+  "taste_tags": [
+    "sweet"
+  ],
+  "description": "An old-arbor white tea from Mengku in Lincang, known as a pressed cake with leaf from Nuo Wu and Ba Wai villages.\n\nTreat it as you would any white tea: hot but not boiling water, patient steeps, and a seller who can say where and when it was picked.",
+  "wikipedia_title": null,
+  "wikipedia_scope": "none",
+  "popularity": 1,
+  "name_zh": "勐库古树白茶",
+  "name_ru": "Мэнку Гу Шу Бай Ча",
+  "history": "One documented pressing uses first-flush spring 2024 leaf from two family gardens, aged two years before pressing. Little more is documented about it.",
+  "liquor_hex": "#E2C97F",
+  "leaf_hex": "#8C8C70",
+  "sources": [
+    "https://yunnansourcing.com/collections/white-tea/products.json?limit=250"
+  ],
+  "confidence": "low",
+  "images": [],
+  "stub": true,
+  "processing": "Picked and processed by hand, sun-dried, then pressed at medium-plus compression.",
+  "harvest_season": "First flush of spring.",
+  "appearance_dry": "Usually downy buds or soft, silvery-green leaves.",
+  "appearance_liquor": "Usually a pale straw to light amber.",
+  "appearance_wet": "Usually soft, intact leaf and bud.",
+  "taste_profile": "Sweet, thick and highly aromatic.",
+  "vintage_note": "White teas are normally sold either fresh, from the current year, or pressed and aged for several years, with the year stated."
+}

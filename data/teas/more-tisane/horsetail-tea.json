@@ -27,19 +27,19 @@
     "vegetal"
   ],
   "brewing": {
-    "grams": 1,
+    "grams": 2,
     "water_ml": 250,
     "temp_c": 100,
     "steeps": 1,
     "seconds": [
       300
     ],
-    "notes": "Western-style infusion. Standard doses are around 1 g at a time, and use is usually limited to short courses of about a week. Not for pregnancy, breastfeeding, children or people with kidney disease."
+    "notes": "Western-style infusion. One published guide gives about 2 to 3 g per cup, steeped 5 to 10 minutes, for no more than a week without medical supervision. Not for pregnancy, breastfeeding, children under 12 or people with kidney disease."
   },
   "caffeine_level": "none",
   "vintage_note": "Sold as a dried herb with no vintage: as cut herb in health shops, and as roasted sugina-cha in Japan. There is no harvest-year culture to follow. Buy from a seller who names the species, since toxic relatives such as marsh horsetail exist.",
-  "description": "Horsetail tea is an infusion of the stems of field horsetail, Equisetum arvense, a primitive flowerless plant. Spanish speakers call it cola de caballo, and Japan has its own version, sugina-cha, one of its many non-tea health teas.\n\nIt is made by drying the stems, and the Japanese style roasts the young green ones as well. That roasting is the one real choice in how it is made, and it should give a warmer cup than the plain dried herb, as roasting does with other herbal teas.\n\nLittle is documented about the taste as such, and few drink it for pleasure. Treat it as a mild green herbal infusion and keep the portion small. Most interest in it comes from folk medicine, where it has long been used as a diuretic and against bleeding.\n\nThis is one to treat with some care. The plant carries thiaminase, which breaks down vitamin B1, and whether brewing fully removes it is not settled. Keep to short periods, and see a doctor first if you take diuretics. Always buy the named species.",
-  "history": "Spanish folk medicine gave horsetail a strong reputation, mainly for stopping bleeding and for kidney and bladder complaints, and its long list of Spanish folk names shows how familiar it was. In Japan the roasted stems are classed among the health teas made without tea leaf.\n\nLittle is documented about the Peruvian use of this tea in particular, or about when it became a commercial product. Canada now requires horsetail products to be certified free of thiaminase-like activity.",
+  "description": "Horsetail tea is an infusion of the stems of field horsetail, Equisetum arvense, a primitive flowerless plant. Spanish speakers call it cola de caballo, and Japan has its own version, sugina-cha, one of its many non-tea health teas.\n\nIt is made by drying the stems, and the Japanese style roasts the young green ones as well. That roasting is the one real choice in how it is made, and it should give a warmer cup than the plain dried herb, as roasting does with other herbal teas.\n\nLittle is documented about the taste as such, and few drink it for pleasure. Treat it as a mild green herbal infusion and keep the portion small. Most interest in it comes from folk medicine, where it has long been used as a diuretic and against bleeding.\n\nThis is one to treat with some care. The plant carries thiaminase, which breaks down vitamin B1, and steeping is reported to reduce it without removing it. Keep to short periods, and see a doctor first if you take diuretics. Always buy the named species.",
+  "history": "Folk medicine gave horsetail a strong reputation, mainly for stopping bleeding and for kidney and bladder complaints, and its long list of Spanish folk names shows how familiar it was. In Japan the roasted stems are classed among the health teas made without tea leaf.\n\nLittle is documented about the Peruvian use of this tea in particular, or about when it became a commercial product.",
   "liquor_hex": "#CFC27A",
   "leaf_hex": "#6E8050",
   "sources": [
@@ -52,6 +52,5 @@
   "wikipedia_title": null,
   "wikipedia_scope": "none",
   "popularity": 2,
-  "images": [],
-  "sources_note": "Peru link comes only from the master list. Taste tags and appearance are inferred from the class; no direct taste report was read."
+  "images": []
 }

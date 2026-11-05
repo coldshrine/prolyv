@@ -1,0 +1,57 @@
+{
+  "slug": "tongchang-hao",
+  "name_en": "Tongchang Hao",
+  "name_native": "同昌号",
+  "name_romanized": "Tóngchāng Hào",
+  "aliases": [
+    "同昌號"
+  ],
+  "category": "sheng",
+  "origin_country": "China",
+  "origin_region": "Yunnan · Yiwu",
+  "cultivar": null,
+  "form": "cake",
+  "caffeine_level": "high",
+  "brewing": {
+    "grams": 6,
+    "water_ml": 110,
+    "temp_c": 95,
+    "steeps": 7,
+    "seconds": [
+      10,
+      10,
+      15,
+      20,
+      25,
+      35,
+      50
+    ],
+    "notes": "A safe starting point for raw pu-erh: rinse once, gongfu style, short early steeps."
+  },
+  "taste_tags": [
+    "bitter",
+    "sweet"
+  ],
+  "description": "Pu-erh of a family-run brand from the early twentieth-century era centred on Yiwu, before state factory marks.\n\nThis is a way of preparing tea more than a tea you buy under one name, so the recipe and the base tea change from one maker to the next.",
+  "wikipedia_title": null,
+  "wikipedia_scope": "none",
+  "popularity": 1,
+  "name_zh": "同昌号",
+  "name_ru": "Тун Чан Хао",
+  "history": "Producers of this period worked in small quantities, and their tea is thought to have come from the six famous mountains near Yiwu. Little more is documented about this house.",
+  "liquor_hex": "#9A6424",
+  "leaf_hex": "#4A3F2A",
+  "sources": [
+    "https://teadb.org/old-school-puerh-categories-ji-haoji/"
+  ],
+  "confidence": "low",
+  "images": [],
+  "stub": true,
+  "processing": "Made from a raw pu-erh base tea according to the recipe; the method varies.",
+  "harvest_season": "Not tied to a harvest: it depends on the base tea.",
+  "appearance_dry": "Usually a pressed cake of silvery-green to brown leaf, darkening with age.",
+  "appearance_liquor": "Usually pale gold when young, deepening to amber with age.",
+  "appearance_wet": "Usually thick, large leaf.",
+  "taste_profile": "Expect what young raw pu-erh usually gives: bright, bitter-sweet and full, mellowing with age.",
+  "vintage_note": "Not sold by vintage: it is made from whatever base tea the maker keeps, so freshness of the base matters more than the year."
+}

@@ -37,8 +37,8 @@
   },
   "caffeine_level": "high",
   "vintage_note": "Sold by grade and through the trade, not by vintage. Drink within a year or two. Dry-season lots are the ones to ask for, as with other teas from the Uva side.",
-  "description": "Dambatenne is the estate above Haputale forever tied to Thomas Lipton: his first tea plantation on the island and the home of a very long factory, listed on a visitor's board at 345 ft by 45 ft and 1,566 m above sea level. Lipton's Seat, the famous viewpoint, sits on the hills above it.\n\nIt is a working estate making black tea in the ordinary Ceylon way, in a factory you can visit. The old building is much of the draw.\n\nPublished tasting notes are few. As with other teas on the Uva side, expect something brisk and bright; brew it short and try it both black and with milk.\n\nWhen you buy it, look for the grade and date; the Lipton story adds nothing to the cup.",
-  "history": "Thomas Lipton bought the estate in the late 19th century, and the factory dates from 1890. Figures for the size of his holding vary a good deal, from 925 acres to 2,500.\n\nLipton kept the estate for about four decades. One account says estate and factory changed hands in 1930, and that the company bearing his name kept buying from the factory afterwards.",
+  "description": "Dambatenne is the estate above Haputale forever tied to Thomas Lipton: his first tea plantation on the island and the home of a factory called the longest in Sri Lanka, at about 1,566 m above sea level. Lipton's Seat, the famous viewpoint, sits on the hills above it.\n\nIt is a working estate making black tea in the ordinary Ceylon way, in a factory you can visit. The old building is much of the draw.\n\nPublished tasting notes are few. As with other teas on the Uva side, expect something brisk and bright; brew it short and try it both black and with milk.\n\nWhen you buy it, look for the grade and date; the Lipton story adds nothing to the cup.",
+  "history": "Thomas Lipton bought the estate in the late 19th century, and the factory dates from 1890. Figures for the size vary, from 2,500 acres in one account to 873 hectares in another.\n\nLipton kept the estate for about four decades. One account says estate and factory changed hands in 1930.",
   "liquor_hex": "#B04E1E",
   "leaf_hex": "#33241A",
   "sources": [
@@ -52,7 +52,18 @@
   "wikipedia_title": "Lipton",
   "wikipedia_scope": "umbrella",
   "popularity": 3,
-  "images": [],
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7e/Tea_plantation_Haputale.jpg/1280px-Tea_plantation_Haputale.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7e/Tea_plantation_Haputale.jpg/330px-Tea_plantation_Haputale.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Tea_plantation_Haputale.jpg",
+      "author": "Adbar",
+      "license": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "kind": "plantation",
+      "alt": "Green tea bushes on the Dambatenne estate hillside near Haputale, with a dirt track and distant hills"
+    }
+  ],
   "name_zh": "丹巴滕内红茶",
   "name_ru": "Дамбатенне"
 }

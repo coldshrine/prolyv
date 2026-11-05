@@ -56,5 +56,36 @@
   "wikipedia_title": "Boldo",
   "wikipedia_scope": "umbrella",
   "popularity": 2,
-  "images": []
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/51/Hojas_de_Boldo.jpg/1280px-Hojas_de_Boldo.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/51/Hojas_de_Boldo.jpg/330px-Hojas_de_Boldo.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Hojas_de_Boldo.jpg",
+      "author": "Pontificia Universidad Católica de Chile from Santiago, Chile",
+      "license": "CC BY-SA 2.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+      "kind": "dry_leaf",
+      "alt": "Dried whole oval boldo leaves in a grey-green and olive pile"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/31/Peumus_boldus_%28boldo%29%2C_hembra_-_Flickr_-_Pato_Novoa.jpg/1280px-Peumus_boldus_%28boldo%29%2C_hembra_-_Flickr_-_Pato_Novoa.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/31/Peumus_boldus_%28boldo%29%2C_hembra_-_Flickr_-_Pato_Novoa.jpg/330px-Peumus_boldus_%28boldo%29%2C_hembra_-_Flickr_-_Pato_Novoa.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Peumus_boldus_(boldo),_hembra_-_Flickr_-_Pato_Novoa.jpg",
+      "author": "Pato Novoa from Valparaíso, Chile",
+      "license": "CC BY 2.0",
+      "license_url": "https://creativecommons.org/licenses/by/2.0",
+      "kind": "plant",
+      "alt": "Boldo branch with bumpy dark leaves and small white flowers"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/3/36/Peumus_boldus_%28boldo%29%2C_macho_-_Flickr_-_Pato_Novoa.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/36/Peumus_boldus_%28boldo%29%2C_macho_-_Flickr_-_Pato_Novoa.jpg/330px-Peumus_boldus_%28boldo%29%2C_macho_-_Flickr_-_Pato_Novoa.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Peumus_boldus_(boldo),_macho_-_Flickr_-_Pato_Novoa.jpg",
+      "author": "Pato Novoa from Valparaíso, Chile",
+      "license": "CC BY 2.0",
+      "license_url": "https://creativecommons.org/licenses/by/2.0",
+      "kind": "plant",
+      "alt": "Cluster of white flowers on a male boldo tree"
+    }
+  ]
 }

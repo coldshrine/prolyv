@@ -1,0 +1,55 @@
+{
+  "slug": "baihe-hua-cha",
+  "name_en": "Baihe Hua Cha (Lily Flower Tea)",
+  "name_native": "百合花茶",
+  "name_romanized": "Bǎihé Huā Chá",
+  "aliases": [
+    "Baihe Hua Cha",
+    "Lily Flowers",
+    "百合花",
+    "Цветки лилии"
+  ],
+  "category": "tisane",
+  "origin_country": "China",
+  "origin_region": "Hunan · Xiangxi Longshan",
+  "cultivar": null,
+  "form": "loose",
+  "caffeine_level": "none",
+  "brewing": {
+    "grams": 2,
+    "water_ml": 200,
+    "temp_c": 100,
+    "steeps": 1,
+    "seconds": [
+      300
+    ],
+    "notes": "A common starting point for herbal infusions: boiling water, about five minutes."
+  },
+  "taste_tags": [
+    "floral",
+    "bitter"
+  ],
+  "description": "An infusion of dried lily flowers, drunk alone or blended with green or black tea. Xiluo township in Longshan county, Hunan, is a major lily-growing area in China.\n\nBrew it as you would other herbal infusions. If the plant is new to you, check that it is safe for you first, especially when pregnant or on medication.",
+  "wikipedia_title": null,
+  "wikipedia_scope": "none",
+  "popularity": 1,
+  "name_zh": "百合花茶",
+  "name_ru": "Бай Хэ Хуа Ча",
+  "history": "It is sold as a flower tea and valued in Chinese herbal tradition as cooling and calming. Little more is documented about its origins.",
+  "liquor_hex": "#E2C766",
+  "leaf_hex": "#C9AE7A",
+  "sources": [
+    "https://www.ichabaike.com/huacha/baihehuacha/",
+    "https://chay.by/product/cvetki-lilii-100-g/"
+  ],
+  "confidence": "low",
+  "images": [],
+  "stub": true,
+  "processing": "Dried plant material, as with most herbal infusions.",
+  "harvest_season": "Depends on the plant and the place.",
+  "appearance_dry": "Dried plant material.",
+  "appearance_liquor": "Depends on the plant; usually pale to amber.",
+  "appearance_wet": "Softened plant material.",
+  "taste_profile": "Described as faintly bitter.",
+  "vintage_note": "Herbal infusions are not sold by vintage: buy recent stock and use it within a year or so."
+}

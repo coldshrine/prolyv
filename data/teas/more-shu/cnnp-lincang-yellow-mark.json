@@ -1,0 +1,55 @@
+{
+  "slug": "cnnp-lincang-yellow-mark",
+  "name_en": "CNNP Lincang Yellow Mark",
+  "name_native": "中茶临沧黄印",
+  "name_romanized": "Zhōngchá Líncāng Huángyìn",
+  "aliases": [],
+  "category": "shu",
+  "origin_country": "China",
+  "origin_region": "Yunnan · Kunming",
+  "cultivar": null,
+  "form": "other",
+  "caffeine_level": "medium",
+  "brewing": {
+    "grams": 6,
+    "water_ml": 110,
+    "temp_c": 100,
+    "steeps": 7,
+    "seconds": [
+      10,
+      10,
+      15,
+      20,
+      30,
+      40,
+      60
+    ],
+    "notes": "A safe starting point for ripe pu-erh: rinse once or twice, boiling water."
+  },
+  "taste_tags": [
+    "earthy",
+    "sweet"
+  ],
+  "description": "A ripe pu-erh issued under the CNNP name with a yellow mark and named for Lincang.\n\nThis is a way of preparing tea more than a tea you buy under one name, so the recipe and the base tea change from one maker to the next.",
+  "wikipedia_title": null,
+  "wikipedia_scope": "none",
+  "popularity": 1,
+  "name_zh": "中茶临沧黄印",
+  "name_ru": "Чжунча Линьцан Жёлтая марка",
+  "history": null,
+  "liquor_hex": "#3B1A0C",
+  "leaf_hex": "#2E1D14",
+  "sources": [
+    "https://yunnansourcing.com/collections/cnnp-china-national-native-products"
+  ],
+  "confidence": "low",
+  "images": [],
+  "stub": true,
+  "processing": "Made from a ripe pu-erh base tea according to the recipe; the method varies.",
+  "harvest_season": "Not tied to a harvest: it depends on the base tea.",
+  "appearance_dry": "Usually dark brown leaf, loose or pressed.",
+  "appearance_liquor": "Usually a dark red-brown.",
+  "appearance_wet": "Usually soft dark brown leaf.",
+  "taste_profile": "Expect what ripe pu-erh usually gives: smooth, earthy and sweet.",
+  "vintage_note": "Not sold by vintage: it is made from whatever base tea the maker keeps, so freshness of the base matters more than the year."
+}

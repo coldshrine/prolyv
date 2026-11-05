@@ -45,9 +45,9 @@
     "notes": "General gongfu advice for large-leaf Shan tea. It takes hotter water than a delicate green; drop the temperature if the first cup turns harsh."
   },
   "caffeine_level": "medium",
-  "vintage_note": "Normally sold as the current year's picking from the old trees, under family or company labels, with dozens of products in the commune and six rated four-star OCOP. Ask about tree age and harvest year, because age claims vary widely and cannot be checked from the packet. Sun-dried large-leaf tea may keep for longer than a typical green, though little is recorded about ageing this one.",
+  "vintage_note": "Normally sold as the current year's picking from the old trees, under family or company labels. Ask about tree age and harvest year, because age claims vary widely and cannot be checked from the packet. Sun-dried large-leaf tea may keep for longer than a typical green, though little is recorded about ageing this one.",
   "description": "Suối Giàng is a Hmong commune above 1,300 metres in the Văn Chấn area, known for huge, moss-covered Shan Tuyết tea trees, some so thick that it takes two people to reach around the trunk. It is the old trees, more than the leaf style, that make this tea distinct.\n\nThe leaf is roasted and rolled and then allowed to dry slowly in the sun, which keeps the white down on the buds. Machines now do much of the rolling that used to be done by hand. Producers make dozens of different products, so 'Suối Giàng tea' covers more than one style.\n\nExpect something rich and broad, closer to other large-leaf mountain teas than to a light green. Some lots pour amber red. Treat it more like a gentle young sheng than a Long Jing: hotter water and short steeps, and see how it develops.\n\nBuy with care. Reported figures for the old-tree area run from about 300 to over 500 hectares and the claimed tree ages vary by hundreds of years, so a label saying '300-year-old trees' is a claim rather than a measurement. A named family or cooperative and a stated harvest year mean more.",
-  "history": "The old Shan Tuyết trees are the core of the story, with common local claims of 300 years and more for the oldest, but their true ages remain estimates. More than 400 trees have been recognised as Vietnamese heritage trees by a conservation association.\n\nThe Hmong community holds a yearly festival with offerings at the roots of the trees and picking demonstrations. Tourism has grown around this, and reports speak both of slow investment in the brand and of old trees being dug up for bonsai, a loss still worrying the commune.\n\nYên Bái has since been folded into Lào Cai in newer reports, so the same place can appear under either province.",
+  "history": "The old Shan Tuyết trees are the core of the story, with common local claims of 300 years and more for the oldest, but their true ages remain estimates. The oldest tree, put at about 400 years, has been recognised as a Vietnamese heritage tree by a conservation association.\n\nThe Hmong community holds a yearly festival with offerings at the roots of the trees and picking demonstrations. Tourism has grown around this, and reports speak both of slow investment in the brand and of old trees being dug up for bonsai, a loss still worrying the commune.\n\nYên Bái has since been folded into Lào Cai in newer reports, so the same place can appear under either province.",
   "liquor_hex": "#C99A3F",
   "leaf_hex": "#5A5A3C",
   "sources": [
@@ -58,10 +58,30 @@
     "https://vietnamnet.vn/en/vietnams-unique-ancient-shan-tuyet-tea-forest-in-pictures-E148554.html",
     "https://en.wikipedia.org/wiki/Vietnamese_tea"
   ],
-  "confidence": "high",
+  "confidence": "medium",
   "wikipedia_title": "Vietnamese tea",
   "wikipedia_scope": "umbrella",
   "popularity": 3,
-  "images": [],
-  "sources_note": "name_zh is descriptive. Tree ages and hectare figures conflict between reports."
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d5/Suoi_Giang_tea.JPG/1280px-Suoi_Giang_tea.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d5/Suoi_Giang_tea.JPG/330px-Suoi_Giang_tea.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Suoi_Giang_tea.JPG",
+      "author": "Viethavvh at Vietnamese Wikipedia",
+      "license": "Public domain",
+      "license_url": null,
+      "kind": "plant",
+      "alt": "Very old tall tea tree with bare branching trunks in Suoi Giang, Vietnam"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/e/e2/C%C3%A2y_ch%C3%A8_t%E1%BB%95.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e2/C%C3%A2y_ch%C3%A8_t%E1%BB%95.jpg/330px-C%C3%A2y_ch%C3%A8_t%E1%BB%95.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source_page": "https://commons.wikimedia.org/wiki/File:C%C3%A2y_ch%C3%A8_t%E1%BB%95.jpg",
+      "author": "Trasuoigiang",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "kind": "plant",
+      "alt": "Old spreading tea trees on green ground in Suoi Giang under a bright sky"
+    }
+  ]
 }

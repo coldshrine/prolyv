@@ -52,5 +52,26 @@
   "wikipedia_title": "Darjeeling tea",
   "wikipedia_scope": "umbrella",
   "popularity": 2,
-  "images": []
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f2/Tukvar_Tea_Estate_%287353729056%29.jpg/1280px-Tukvar_Tea_Estate_%287353729056%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f2/Tukvar_Tea_Estate_%287353729056%29.jpg/330px-Tukvar_Tea_Estate_%287353729056%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Tukvar_Tea_Estate_(7353729056).jpg",
+      "author": "shankar s. from Dubai, united arab emirates",
+      "license": "CC BY 2.0",
+      "license_url": "https://creativecommons.org/licenses/by/2.0",
+      "kind": "plantation",
+      "alt": "Tea bushes on a slope at Tukvar estate with village houses below"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/11/Tukvar_Tea_Estate_%287353907286%29.jpg/1280px-Tukvar_Tea_Estate_%287353907286%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/11/Tukvar_Tea_Estate_%287353907286%29.jpg/330px-Tukvar_Tea_Estate_%287353907286%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Tukvar_Tea_Estate_(7353907286).jpg",
+      "author": "shankar s. from Dubai, united arab emirates",
+      "license": "CC BY 2.0",
+      "license_url": "https://creativecommons.org/licenses/by/2.0",
+      "kind": "plantation",
+      "alt": "Green tea bushes covering a hillside with shade trees at Tukvar estate"
+    }
+  ]
 }

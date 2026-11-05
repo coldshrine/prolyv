@@ -17,7 +17,7 @@
   "origin_country": "Sri Lanka",
   "origin_region": "Sri Lanka",
   "cultivar": "Centella asiatica",
-  "processing": "Leaves of Centella asiatica are dried, typically in the air, and steeped in hot water. Fresh leaf and powder are also sold.",
+  "processing": "Dried leaves of Centella asiatica are steeped in hot water.",
   "form": "loose",
   "harvest_season": "Little is documented about a set picking season; the dried leaf is available all year.",
   "appearance_dry": "Crumbled small green leaves, typically a muted mid-green.",
@@ -37,21 +37,51 @@
     "seconds": [
       300
     ],
-    "notes": "About a teaspoon per cup for 2 to 5 minutes in boiled water, up to 10 minutes for a stronger cup. Lemon or honey are common additions."
+    "notes": "About a teaspoon per cup for 2 to 5 minutes in boiling water. Lemon or honey are common additions."
   },
   "caffeine_level": "none",
   "vintage_note": "No vintages or graded harvests. It is sold as a dried herb in loose form or bags, so go by the packing date and drink it within about a year, as is usual for dried herbs.",
-  "description": "Gotu kola is a small creeping herb, Centella asiatica, also known as Asiatic pennywort. Dried and steeped, it makes a caffeine-free herbal tea sold in Sri Lanka and well beyond it.\n\nThere is little to the making: the leaves are dried and cut. Fresh leaves and powder are sold too, but the dried leaf is what you will usually find labelled as tea.\n\nThe cup is light, slightly grassy and faintly sweet. It suits a splash of lemon or a little honey, and a longer steep gives more flavour without much harshness.\n\nMost information on the market comes from sellers, and the health claims about memory and anxiety are marketing rather than settled evidence. People with liver conditions or those taking several medicines should talk to a healthcare provider first.",
-  "history": "Little is documented about gotu kola as a tea specifically, including when the dried leaf began to be sold in this form. In Sri Lanka today, sellers offer the dried leaf as a tea alongside the fresh and powdered herb.",
+  "description": "Gotu kola is a small herb, Centella asiatica, also known as Asiatic pennywort. Dried and steeped, it makes a caffeine-free herbal tea.\n\nThere is little to the making: dried leaves and boiling water.\n\nThe cup is light, slightly grassy and faintly sweet. It suits a splash of lemon or a little honey.\n\nMost information on the market comes from sellers, and health claims about memory and inflammation are marketing rather than settled evidence. If you have a liver condition or take medication, ask a healthcare provider first.",
+  "history": "Little is documented about gotu kola as a tea specifically, including when the dried leaf began to be sold in this form. One tea seller lists its origin as Sri Lanka and India.",
   "liquor_hex": "#CFC97F",
   "leaf_hex": "#6B7A3C",
   "sources": [
-    "https://www.theteahut.com.au/gotu-kola-leaf-tea-organic",
-    "https://hermeticasuperfoods.com/ingredients/sri-lankan-gotu-kola"
+    "https://www.theteahut.com.au/gotu-kola-leaf-tea-organic"
   ],
   "confidence": "low",
   "wikipedia_title": null,
   "wikipedia_scope": "none",
   "popularity": 2,
-  "images": []
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1a/Centella_asiatica_04.jpg/1280px-Centella_asiatica_04.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1a/Centella_asiatica_04.jpg/330px-Centella_asiatica_04.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Centella_asiatica_04.jpg",
+      "author": "Md. Siddiq Hasan",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "kind": "plant",
+      "alt": "Dense rounded green leaves of gotu kola (Centella asiatica)"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cc/Centella_asiatica_%28%E0%A6%A5%E0%A6%BE%E0%A6%A8%E0%A6%95%E0%A7%81%E0%A6%A8%E0%A6%BF%29_%283%29.jpg/1280px-Centella_asiatica_%28%E0%A6%A5%E0%A6%BE%E0%A6%A8%E0%A6%95%E0%A7%81%E0%A6%A8%E0%A6%BF%29_%283%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cc/Centella_asiatica_%28%E0%A6%A5%E0%A6%BE%E0%A6%A8%E0%A6%95%E0%A7%81%E0%A6%A8%E0%A6%BF%29_%283%29.jpg/330px-Centella_asiatica_%28%E0%A6%A5%E0%A6%BE%E0%A6%A8%E0%A6%95%E0%A7%81%E0%A6%A8%E0%A6%BF%29_%283%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Centella_asiatica_(%E0%A6%A5%E0%A6%BE%E0%A6%A8%E0%A6%95%E0%A7%81%E0%A6%A8%E0%A6%BF)_(3).jpg",
+      "author": "Shahidul Hasan Roman",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "kind": "plant",
+      "alt": "Gotu kola plants with rounded, scalloped green leaves growing thickly"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d5/Starr_020803-0094_Centella_asiatica.jpg/1280px-Starr_020803-0094_Centella_asiatica.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d5/Starr_020803-0094_Centella_asiatica.jpg/330px-Starr_020803-0094_Centella_asiatica.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Starr_020803-0094_Centella_asiatica.jpg",
+      "author": "Forest &amp; Kim Starr",
+      "license": "CC BY 3.0",
+      "license_url": "https://creativecommons.org/licenses/by/3.0",
+      "kind": "plant",
+      "alt": "Gotu kola (Centella asiatica) growing low over leaf litter on the ground"
+    }
+  ]
 }

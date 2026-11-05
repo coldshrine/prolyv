@@ -60,5 +60,16 @@
   "wikipedia_title": "Kelp tea",
   "wikipedia_scope": "exact",
   "popularity": 3,
-  "images": []
+  "images": [
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/d/dc/Tsuitachi_Mochi02_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/dc/Tsuitachi_Mochi02_1.jpg/330px-Tsuitachi_Mochi02_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Tsuitachi_Mochi02_1.jpg",
+      "author": "Tawashi2006",
+      "license": "CC BY 2.1 jp",
+      "license_url": "https://creativecommons.org/licenses/by/2.1/jp/deed.en",
+      "kind": "serving",
+      "alt": "Cup of pale yellow-green ume kelp tea served beside mochi sweets on a bamboo mat"
+    }
+  ]
 }

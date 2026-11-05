@@ -51,5 +51,26 @@
     "https://ja.wikipedia.org/wiki/%E7%BE%8E%E6%BF%83%E8%8C%B6"
   ],
   "confidence": "medium",
-  "images": []
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1a/Shirakawa_hirono_tea_farm.jpg/1280px-Shirakawa_hirono_tea_farm.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1a/Shirakawa_hirono_tea_farm.jpg/330px-Shirakawa_hirono_tea_farm.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Shirakawa_hirono_tea_farm.jpg",
+      "author": "Opqr",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "kind": "plantation",
+      "alt": "Rows of green tea bushes beside rice fields in the Hirono district of Shirakawa, Gifu"
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/7/7c/Shirakawatya01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7c/Shirakawatya01.jpg/330px-Shirakawatya01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Shirakawatya01.jpg",
+      "author": "Opqr",
+      "license": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "kind": "plantation",
+      "alt": "Terraced tea fields on a forested hillside in Higashishirakawa, Gifu"
+    }
+  ]
 }

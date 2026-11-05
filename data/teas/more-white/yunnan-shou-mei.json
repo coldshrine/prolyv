@@ -1,0 +1,55 @@
+{
+  "slug": "yunnan-shou-mei",
+  "name_en": "Yunnan Shou Mei",
+  "name_native": "云南寿眉",
+  "name_romanized": "Yúnnán Shòu Méi",
+  "aliases": [
+    "Yunnan Shoumei",
+    "雲南壽眉"
+  ],
+  "category": "white",
+  "origin_country": "China",
+  "origin_region": "Yunnan",
+  "cultivar": null,
+  "form": "loose",
+  "caffeine_level": "low",
+  "brewing": {
+    "grams": 4,
+    "water_ml": 120,
+    "temp_c": 85,
+    "steeps": 4,
+    "seconds": [
+      45,
+      60,
+      75,
+      90
+    ],
+    "notes": "A safe starting point for white tea: use hot but not boiling water and give it time."
+  },
+  "taste_tags": [
+    "sweet",
+    "floral"
+  ],
+  "description": "A Yunnan white tea whose name is also applied to lower grades of Yue Guang Bai.\n\nTreat it as you would any white tea: hot but not boiling water, patient steeps, and a seller who can say where and when it was picked.",
+  "wikipedia_title": null,
+  "wikipedia_scope": "none",
+  "popularity": 1,
+  "name_zh": "云南寿眉",
+  "name_ru": "Юньнань Шоу Мэй",
+  "history": "Little is documented about it beyond that link to low-grade Yue Guang Bai.",
+  "liquor_hex": "#DDBF7E",
+  "leaf_hex": "#8F8A68",
+  "sources": [
+    "https://orientaleaf.com/blogs/tea-101/types-of-fuding-white-tea"
+  ],
+  "confidence": "low",
+  "images": [],
+  "stub": true,
+  "processing": "Typical of white tea: withered for a long time and dried with little handling.",
+  "harvest_season": "Usually picked in spring, as with most white teas.",
+  "appearance_dry": "Usually downy buds or soft, silvery-green leaves.",
+  "appearance_liquor": "Usually a pale straw to light amber.",
+  "appearance_wet": "Usually soft, intact leaf and bud.",
+  "taste_profile": "Expect what white teas usually give: gentle, sweet and lightly floral.",
+  "vintage_note": "White teas are normally sold either fresh, from the current year, or pressed and aged for several years, with the year stated."
+}

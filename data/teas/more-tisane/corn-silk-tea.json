@@ -52,5 +52,26 @@
   "wikipedia_title": null,
   "wikipedia_scope": "none",
   "popularity": 3,
-  "images": []
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1a/Corn_silk_tea_cup_teapot_02.jpg/1280px-Corn_silk_tea_cup_teapot_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1a/Corn_silk_tea_cup_teapot_02.jpg/330px-Corn_silk_tea_cup_teapot_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Corn_silk_tea_cup_teapot_02.jpg",
+      "author": "KQuhen",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "kind": "liquor",
+      "alt": "Cup of amber corn silk tea beside an open glass teapot holding the silk"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ab/Corn_silk_tea_cup_teapot_01.jpg/1280px-Corn_silk_tea_cup_teapot_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ab/Corn_silk_tea_cup_teapot_01.jpg/330px-Corn_silk_tea_cup_teapot_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Corn_silk_tea_cup_teapot_01.jpg",
+      "author": "KQuhen",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "kind": "liquor",
+      "alt": "Corn silk tea in a pale blue cup beside a glass teapot"
+    }
+  ]
 }

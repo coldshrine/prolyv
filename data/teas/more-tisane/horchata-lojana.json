@@ -54,5 +54,16 @@
   "wikipedia_title": null,
   "wikipedia_scope": "none",
   "popularity": 2,
-  "images": []
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ef/Vaso_de_horchata_lojana.jpg/1280px-Vaso_de_horchata_lojana.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ef/Vaso_de_horchata_lojana.jpg/330px-Vaso_de_horchata_lojana.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Vaso_de_horchata_lojana.jpg",
+      "author": "SimonLuzuriaga",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "kind": "liquor",
+      "alt": "Glass of amber-pink horchata lojana beside a sprig of cedron leaves"
+    }
+  ]
 }

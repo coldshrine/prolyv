@@ -1,0 +1,63 @@
+{
+  "slug": "sheng-puerh-midi",
+  "name_en": "Midi",
+  "name_native": "迷帝",
+  "name_romanized": "Mídì",
+  "aliases": [
+    "Midi Tea",
+    "Midi Gongcha",
+    "迷帝茶",
+    "迷帝贡茶"
+  ],
+  "category": "sheng",
+  "origin_country": "China",
+  "origin_region": "Yunnan · Pu'er · Mojiang · Xinfu",
+  "cultivar": null,
+  "form": "cake",
+  "caffeine_level": "high",
+  "brewing": {
+    "grams": 6,
+    "water_ml": 110,
+    "temp_c": 95,
+    "steeps": 7,
+    "seconds": [
+      10,
+      10,
+      15,
+      20,
+      25,
+      35,
+      50
+    ],
+    "notes": "A safe starting point for raw pu-erh: rinse once, gongfu style, short early steeps."
+  },
+  "taste_tags": [
+    "floral",
+    "bitter",
+    "sweet"
+  ],
+  "description": "Midi, also called Midi tribute tea, comes from an ancient tea mountain in Xinfu Township, Mojiang County, Yunnan.\n\nTreat it as you would any raw pu-erh: rinse the leaf, keep early steeps short, and ask which year and which trees it comes from, since village names on Yunnan teas are often stretched.",
+  "wikipedia_title": null,
+  "wikipedia_scope": "none",
+  "popularity": 1,
+  "name_zh": "迷帝",
+  "name_ru": "Ми Ди",
+  "history": "The gardens lie at 1300 to 1940 m, with a mean yearly temperature of 14.2 to 18.3 °C, about 1293 mm of annual rain and red and yellow-brown soils. One spring price listing puts it at 1200 to 2500 yuan per kilogram. Little more is documented, including how it earned the tribute name.",
+  "liquor_hex": "#C9A23C",
+  "leaf_hex": "#5A5A3A",
+  "sources": [
+    "https://www.yunnanexploration.com/?p=50757",
+    "https://www.yunnanexploration.com/?p=11214",
+    "https://m.thepaper.cn/newsDetail_forward_7151162"
+  ],
+  "confidence": "medium",
+  "images": [],
+  "stub": true,
+  "processing": "Typical of raw pu-erh: sun-dried large-leaf mao cha, usually steamed and stone-pressed, then left to age slowly.",
+  "harvest_season": "Usually spring leaf is prized, as with most raw pu-erh.",
+  "appearance_dry": "Usually a pressed cake of silvery-green to brown leaf, darkening with age.",
+  "appearance_liquor": "Usually pale gold when young, deepening to amber with age.",
+  "appearance_wet": "Usually thick, large leaf.",
+  "taste_profile": "Pronounced bitterness and astringency that turn sweet quickly, with a clear fragrance, a faint orchid note and an evident wild character.",
+  "vintage_note": "Raw pu-erh is sold by harvest year: young at 1 to 3 years, mid-aged at 5 to 10, aged at 15 or more. Storage matters as much as age."
+}

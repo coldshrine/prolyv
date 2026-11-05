@@ -1,0 +1,54 @@
+{
+  "slug": "fruit-tea",
+  "name_en": "Fruit Tea",
+  "name_native": "Früchtetee",
+  "name_romanized": null,
+  "aliases": [
+    "Huaguo cha",
+    "花果茶",
+    "Azerbaijani fruit tea",
+    "Фруктовые чаи"
+  ],
+  "category": "tisane",
+  "origin_country": "Germany",
+  "origin_region": "Germany",
+  "cultivar": null,
+  "form": "loose",
+  "caffeine_level": "none",
+  "brewing": {
+    "grams": 2,
+    "water_ml": 200,
+    "temp_c": 100,
+    "steeps": 1,
+    "seconds": [
+      300
+    ],
+    "notes": "A common starting point for herbal infusions: boiling water, about five minutes."
+  },
+  "taste_tags": [
+    "fruity",
+    "floral"
+  ],
+  "description": "A caffeine-free tea-like infusion made from one fruit, such as rose hip, or from a mix of fruits. Commercial blends often add flavourings or vitamins.\n\nBrew it as you would other herbal infusions. If the plant is new to you, check that it is safe for you first, especially when pregnant or on medication.",
+  "wikipedia_title": null,
+  "wikipedia_scope": "none",
+  "popularity": 1,
+  "name_zh": "水果茶",
+  "name_ru": "Фруктовый чай",
+  "history": "The drink is a broad class with no single documented origin. Little is documented about its history.",
+  "liquor_hex": "#A83A32",
+  "leaf_hex": "#6A2E2A",
+  "sources": [
+    "https://de.wikipedia.org/wiki/Fr%C3%BCchtetee"
+  ],
+  "confidence": "low",
+  "images": [],
+  "stub": true,
+  "processing": "Dried plant material, as with most herbal infusions.",
+  "harvest_season": "Depends on the plant and the place.",
+  "appearance_dry": "Dried plant material.",
+  "appearance_liquor": "Depends on the plant; usually pale to amber.",
+  "appearance_wet": "Softened plant material.",
+  "taste_profile": "Ranges with the fruit used, from fruity to floral, mellow, spiced or lightly tart.",
+  "vintage_note": "Herbal infusions are not sold by vintage: buy recent stock and use it within a year or so."
+}

@@ -1,0 +1,56 @@
+{
+  "slug": "muna-tea",
+  "name_en": "Muña",
+  "name_native": "muña",
+  "name_romanized": null,
+  "aliases": [
+    "Minthostachys mollis",
+    "Tipo",
+    "Tipollo",
+    "Poleo",
+    "软薄荷穗"
+  ],
+  "category": "tisane",
+  "origin_country": "Peru",
+  "origin_region": "Andes",
+  "cultivar": null,
+  "form": "loose",
+  "caffeine_level": "none",
+  "brewing": {
+    "grams": 2,
+    "water_ml": 200,
+    "temp_c": 100,
+    "steeps": 1,
+    "seconds": [
+      300
+    ],
+    "notes": "A common starting point for herbal infusions: boiling water, about five minutes."
+  },
+  "taste_tags": [
+    "herbal"
+  ],
+  "description": "A tea from Minthostachys mollis, an aromatic Andean shrub whose name comes from Quechua and which grows at about 2,700 to 3,400 metres.\n\nBrew it as you would other herbal infusions. If the plant is new to you, check that it is safe for you first, especially when pregnant or on medication.",
+  "wikipedia_title": null,
+  "wikipedia_scope": "none",
+  "popularity": 1,
+  "name_zh": "穆纳茶",
+  "name_ru": "Мунья",
+  "history": "Indigenous Andean medicine brews it as a carminative and aphrodisiac, and it also serves as a seasoning and for its use against respiratory and digestive complaints. Emoliente sellers in Peru have recently added it to their drinks. The essential oil in its aerial parts can pose a health risk if swallowed.",
+  "liquor_hex": "#D4CE86",
+  "leaf_hex": "#6C8348",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Minthostachys_mollis",
+    "https://zh.wikipedia.org/wiki/%E8%BD%AF%E8%96%84%E8%8D%B7%E7%A9%97",
+    "https://en.wikipedia.org/wiki/Emoliente"
+  ],
+  "confidence": "medium",
+  "images": [],
+  "stub": true,
+  "processing": "Dried plant material, as with most herbal infusions.",
+  "harvest_season": "Depends on the plant and the place.",
+  "appearance_dry": "Dried plant material.",
+  "appearance_liquor": "Depends on the plant; usually pale to amber.",
+  "appearance_wet": "Softened plant material.",
+  "taste_profile": "A herbal infusion; the taste depends on the plant.",
+  "vintage_note": "Herbal infusions are not sold by vintage: buy recent stock and use it within a year or so."
+}

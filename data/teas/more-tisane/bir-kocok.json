@@ -1,0 +1,49 @@
+{
+  "slug": "bir-kocok",
+  "name_en": "Bir Kocok",
+  "name_native": null,
+  "name_romanized": null,
+  "aliases": [],
+  "category": "tisane",
+  "origin_country": "Indonesia",
+  "origin_region": "West Java · Bogor",
+  "cultivar": null,
+  "form": "other",
+  "caffeine_level": "none",
+  "brewing": {
+    "grams": 2,
+    "water_ml": 200,
+    "temp_c": 100,
+    "steeps": 1,
+    "seconds": [
+      300
+    ],
+    "notes": "A common starting point for herbal infusions: boiling water, about five minutes."
+  },
+  "taste_tags": [
+    "sweet",
+    "spicy"
+  ],
+  "description": "A non-alcoholic ginger drink from the city of Bogor, drunk to warm the body.\n\nBrew it as you would other herbal infusions. If the plant is new to you, check that it is safe for you first, especially when pregnant or on medication.",
+  "wikipedia_title": null,
+  "wikipedia_scope": "none",
+  "popularity": 1,
+  "name_zh": "茂物姜汁泡沫饮",
+  "name_ru": "Бир кочок",
+  "history": "The name means shaken beer and comes from the foam it raises when shaken. It has existed since the 1960s; little more is documented about its past.",
+  "liquor_hex": "#8C5A24",
+  "leaf_hex": "#6B4526",
+  "sources": [
+    "https://id.wikipedia.org/wiki/Bir_kocok"
+  ],
+  "confidence": "low",
+  "images": [],
+  "stub": true,
+  "processing": "Ginger, cinnamon, clove and palm sugar are boiled together, strained and bottled, then shaken to a foam.",
+  "harvest_season": "Depends on the plant and the place.",
+  "appearance_dry": "Dried plant material.",
+  "appearance_liquor": "Depends on the plant; usually pale to amber.",
+  "appearance_wet": "Softened plant material.",
+  "taste_profile": "Sweet and warming with ginger and spice.",
+  "vintage_note": "Herbal infusions are not sold by vintage: buy recent stock and use it within a year or so."
+}

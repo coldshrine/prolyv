@@ -1,0 +1,50 @@
+{
+  "slug": "yaowang-tea",
+  "name_en": "Yaowang Tea",
+  "name_native": "药王茶",
+  "name_romanized": "Yàowáng Chá",
+  "aliases": [
+    "太白药王茶"
+  ],
+  "category": "tisane",
+  "origin_country": "China",
+  "origin_region": "Shaanxi · Baoji Taibai",
+  "cultivar": null,
+  "form": "loose",
+  "caffeine_level": "none",
+  "brewing": {
+    "grams": 2,
+    "water_ml": 200,
+    "temp_c": 100,
+    "steeps": 1,
+    "seconds": [
+      300
+    ],
+    "notes": "A common starting point for herbal infusions: boiling water, about five minutes."
+  },
+  "taste_tags": [
+    "herbal"
+  ],
+  "description": "A wild-gathered infusion from Mount Taibai in Shaanxi, tied to the plant huaxi yinlamei. Its name means King of Medicine tea.\n\nBrew it as you would other herbal infusions. If the plant is new to you, check that it is safe for you first, especially when pregnant or on medication.",
+  "wikipedia_title": null,
+  "wikipedia_scope": "none",
+  "popularity": 1,
+  "name_zh": "药王茶",
+  "name_ru": "Яо Ван Ча",
+  "history": "Tradition holds that the physician Sun Simiao found it while gathering herbs on Taibai, and that later people named it in his memory. A regional flora records the plant as suitable for long-term drinking as tea. The name is also a registered trademark of a local company.",
+  "liquor_hex": "#D0B65E",
+  "leaf_hex": "#6A6C42",
+  "sources": [
+    "https://blog.sina.com.cn/s/blog_8513c2860102vvdm.html"
+  ],
+  "confidence": "low",
+  "images": [],
+  "stub": true,
+  "processing": "The product on sale is described as wholly wild-gathered.",
+  "harvest_season": "Depends on the plant and the place.",
+  "appearance_dry": "Dried plant material.",
+  "appearance_liquor": "Depends on the plant; usually pale to amber.",
+  "appearance_wet": "Softened plant material.",
+  "taste_profile": "A herbal infusion; the taste depends on the plant.",
+  "vintage_note": "Herbal infusions are not sold by vintage: buy recent stock and use it within a year or so."
+}

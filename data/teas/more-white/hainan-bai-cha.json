@@ -1,0 +1,52 @@
+{
+  "slug": "hainan-bai-cha",
+  "name_en": "Hainan Bai Cha",
+  "name_native": "海南白茶",
+  "name_romanized": "Hǎinán Báichá",
+  "aliases": [],
+  "category": "white",
+  "origin_country": "China",
+  "origin_region": "Hainan · Wuzhishan, Baisha, Qiongzhong, Baoting",
+  "cultivar": "Fuding Dabai, Fuyun No. 6",
+  "form": "loose",
+  "caffeine_level": "low",
+  "brewing": {
+    "grams": 4,
+    "water_ml": 120,
+    "temp_c": 85,
+    "steeps": 4,
+    "seconds": [
+      45,
+      60,
+      75,
+      90
+    ],
+    "notes": "A safe starting point for white tea: use hot but not boiling water and give it time."
+  },
+  "taste_tags": [
+    "sweet",
+    "floral"
+  ],
+  "description": "White tea from the central counties of Hainan island, made from cultivars brought in from Yunnan and Fujian.\n\nTreat it as you would any white tea: hot but not boiling water, patient steeps, and a seller who can say where and when it was picked.",
+  "wikipedia_title": null,
+  "wikipedia_scope": "none",
+  "popularity": 1,
+  "name_zh": "海南白茶",
+  "name_ru": "Хай Нань Бай Ча",
+  "history": "It is a recent product. In recent years companies such as the Hainan state farm tea group introduced cultivars including Fuding Dabai and Fuyun No. 6, and Wuzhishan, Baisha, Qiongzhong and Baoting now produce white tea. Little more is documented about it.",
+  "liquor_hex": "#E8D9A0",
+  "leaf_hex": "#C9CDB8",
+  "sources": [
+    "https://www.hi.chinanews.com.cn/hnnew/2023-01-09/665896.html"
+  ],
+  "confidence": "low",
+  "images": [],
+  "stub": true,
+  "processing": "Typical of white tea: withered for a long time and dried with little handling.",
+  "harvest_season": "Usually picked in spring, as with most white teas.",
+  "appearance_dry": "Usually downy buds or soft, silvery-green leaves.",
+  "appearance_liquor": "Usually a pale straw to light amber.",
+  "appearance_wet": "Usually soft, intact leaf and bud.",
+  "taste_profile": "Expect what white teas usually give: gentle, sweet and lightly floral.",
+  "vintage_note": "White teas are normally sold either fresh, from the current year, or pressed and aged for several years, with the year stated."
+}

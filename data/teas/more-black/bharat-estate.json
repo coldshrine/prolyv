@@ -44,7 +44,48 @@
   "wikipedia_title": null,
   "wikipedia_scope": "none",
   "popularity": 2,
-  "images": [],
+  "images": [
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5f/025_Bharat_Tea_Estate%2C_Ringlet_%289134178280%29.jpg/1280px-025_Bharat_Tea_Estate%2C_Ringlet_%289134178280%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5f/025_Bharat_Tea_Estate%2C_Ringlet_%289134178280%29.jpg/330px-025_Bharat_Tea_Estate%2C_Ringlet_%289134178280%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source_page": "https://commons.wikimedia.org/wiki/File:025_Bharat_Tea_Estate,_Ringlet_(9134178280).jpg",
+      "author": "Photo Dharma from Sadao, Thailand",
+      "license": "CC BY 2.0",
+      "license_url": "https://creativecommons.org/licenses/by/2.0",
+      "kind": "plantation",
+      "alt": "Rolling hills covered in tea bushes at Bharat Tea Estate, Cameron Highlands"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f4/026_Bharat_Tea_Estate%2C_Ringlet_%289131968449%29.jpg/1280px-026_Bharat_Tea_Estate%2C_Ringlet_%289131968449%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f4/026_Bharat_Tea_Estate%2C_Ringlet_%289131968449%29.jpg/330px-026_Bharat_Tea_Estate%2C_Ringlet_%289131968449%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source_page": "https://commons.wikimedia.org/wiki/File:026_Bharat_Tea_Estate,_Ringlet_(9131968449).jpg",
+      "author": "Photo Dharma from Sadao, Thailand",
+      "license": "CC BY 2.0",
+      "license_url": "https://creativecommons.org/licenses/by/2.0",
+      "kind": "plantation",
+      "alt": "Tea slopes and estate buildings under low cloud at Bharat Tea Estate"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/89/028_Bharat_Tea_Estate%2C_Ringlet_%289134337210%29.jpg/1280px-028_Bharat_Tea_Estate%2C_Ringlet_%289134337210%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/89/028_Bharat_Tea_Estate%2C_Ringlet_%289134337210%29.jpg/330px-028_Bharat_Tea_Estate%2C_Ringlet_%289134337210%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source_page": "https://commons.wikimedia.org/wiki/File:028_Bharat_Tea_Estate,_Ringlet_(9134337210).jpg",
+      "author": "Photo Dharma from Sadao, Thailand",
+      "license": "CC BY 2.0",
+      "license_url": "https://creativecommons.org/licenses/by/2.0",
+      "kind": "plantation",
+      "alt": "Rounded hillside of bright green tea bushes beside forest at Bharat Tea Estate"
+    },
+    {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ef/027_Bharat_Tea_Estate%2C_Ringlet_%289132053279%29.jpg/1280px-027_Bharat_Tea_Estate%2C_Ringlet_%289132053279%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ef/027_Bharat_Tea_Estate%2C_Ringlet_%289132053279%29.jpg/330px-027_Bharat_Tea_Estate%2C_Ringlet_%289132053279%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "source_page": "https://commons.wikimedia.org/wiki/File:027_Bharat_Tea_Estate,_Ringlet_(9132053279).jpg",
+      "author": "Photo Dharma from Sadao, Thailand",
+      "license": "CC BY 2.0",
+      "license_url": "https://creativecommons.org/licenses/by/2.0",
+      "kind": "plantation",
+      "alt": "Tea fields around a stream and small buildings at Bharat Tea Estate"
+    }
+  ],
   "sources": [
     "https://12go.asia/en/malaysia/tea-culture",
     "https://theedgemalaysia.com/article/cup-life",

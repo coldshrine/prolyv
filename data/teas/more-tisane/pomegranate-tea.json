@@ -1,0 +1,55 @@
+{
+  "slug": "pomegranate-tea",
+  "name_en": "Pomegranate Tea (Seongnyu-cha)",
+  "name_native": "석류차",
+  "name_romanized": "seongnyu-cha",
+  "aliases": [
+    "Pomegranate tea",
+    "Seongnyu-cha",
+    "Гранатовый чай",
+    "石榴茶"
+  ],
+  "category": "tisane",
+  "origin_country": "South Korea",
+  "origin_region": "Korea",
+  "cultivar": null,
+  "form": "other",
+  "caffeine_level": "none",
+  "brewing": {
+    "grams": 2,
+    "water_ml": 200,
+    "temp_c": 100,
+    "steeps": 1,
+    "seconds": [
+      300
+    ],
+    "notes": "A common starting point for herbal infusions: boiling water, about five minutes."
+  },
+  "taste_tags": [
+    "fruity",
+    "tart",
+    "sweet"
+  ],
+  "description": "A Korean tea of pomegranate, most often seeds cured in sugar into a syrup and diluted with hot water, or else seeds or peel simmered directly.\n\nBrew it as you would other herbal infusions. If the plant is new to you, check that it is safe for you first, especially when pregnant or on medication.",
+  "wikipedia_title": null,
+  "wikipedia_scope": "none",
+  "popularity": 1,
+  "name_zh": "石榴茶",
+  "name_ru": "Сонню-ча",
+  "history": "Many health benefits are claimed for it, without firm support. Little is documented about its history.",
+  "liquor_hex": "#B5384A",
+  "leaf_hex": "#8A2A3A",
+  "sources": [
+    "https://ko.wikipedia.org/wiki/%EC%84%9D%EB%A5%98%EC%B0%A8"
+  ],
+  "confidence": "low",
+  "images": [],
+  "stub": true,
+  "processing": "Seeds are layered one to one with sugar in a sterilised jar, left a day until the sugar melts, then chilled for at least two weeks. Alternatively, seeds or dried peel are simmered in water and strained.",
+  "harvest_season": "Depends on the plant and the place.",
+  "appearance_dry": "Dried plant material.",
+  "appearance_liquor": "Depends on the plant; usually pale to amber.",
+  "appearance_wet": "Softened plant material.",
+  "taste_profile": "A herbal infusion; the taste depends on the plant.",
+  "vintage_note": "Herbal infusions are not sold by vintage: buy recent stock and use it within a year or so."
+}
