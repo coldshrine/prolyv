@@ -39,7 +39,7 @@ def load_session(db: Session, token: str | None) -> AuthSession | None:
     now = utcnow()
     if sess.expires_at <= now or sess.user.deleted_at is not None:
         db.delete(sess)
-        db.flush()
+        db.commit()  # persist the cleanup even if this request ends in a 401
         return None
     return sess
 

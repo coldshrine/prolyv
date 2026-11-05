@@ -3,8 +3,6 @@ and PendingCookiesMiddleware appends them when the response starts."""
 
 from __future__ import annotations
 
-from http.cookies import SimpleCookie
-
 from starlette.requests import Request
 from starlette.responses import Response
 
@@ -38,12 +36,6 @@ def queue_delete_cookie(request: Request, settings: Settings, name: str) -> None
 def _queue(request: Request, probe: Response) -> None:
     pending = request.scope.setdefault("state", {}).setdefault("pending_cookies", [])
     pending.extend(v for k, v in probe.raw_headers if k == b"set-cookie")
-
-
-def parse_cookie_header(header: str) -> dict[str, str]:
-    jar: SimpleCookie = SimpleCookie()
-    jar.load(header)
-    return {k: m.value for k, m in jar.items()}
 
 
 class PendingCookiesMiddleware:

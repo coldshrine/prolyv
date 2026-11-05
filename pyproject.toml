@@ -34,4 +34,4 @@ packages = ["prolyv"]
 [tool.pytest.ini_options]
 testpaths = ["tests"]
 addopts = "-q"
-filterwarnings = ["error::DeprecationWarning:prolyv.*"]
+filterwarnings = ["error::DeprecationWarning", "error::PendingDeprecationWarning"]

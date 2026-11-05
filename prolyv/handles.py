@@ -46,8 +46,8 @@ def generate_handle(preferred: str, is_taken: Callable[[str], bool]) -> str:
     """Turn a username or display name into a free handle. is_taken() consults the database."""
     base = slugify(preferred)
     if not base:
-        base = "tea"
-    if len(base) < MIN_LEN:
+        base = "tea_friend"
+    elif len(base) < MIN_LEN:
         base = f"{base}_tea"
     base = base[:MAX_LEN].rstrip("_")
 

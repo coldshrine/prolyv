@@ -2,7 +2,7 @@
 
 from __future__ import annotations
 
-from fastapi import APIRouter, Request
+from fastapi import APIRouter, HTTPException, Request
 from fastapi.responses import JSONResponse
 
 from prolyv.web.deps import CurrentUser
@@ -32,8 +32,6 @@ def healthz():
 @router.get("/{section}")
 def coming_soon(request: Request, section: str, user: CurrentUser):
     if section not in SECTIONS:
-        from fastapi import HTTPException
-
         raise HTTPException(status_code=404)
     title, text = SECTIONS[section]
     return render(request, "coming_soon.html", {"title": title, "text": text, "section": section})
