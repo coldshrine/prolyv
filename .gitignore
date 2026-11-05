@@ -1,0 +1,30 @@
+# secrets — never commit real credentials (copy .env.example to .env)
+.env
+.env.*
+!.env.example
+/etc/
+
+# databases (SQLite + WAL/SHM side files)
+*.db
+*.db-wal
+*.db-shm
+*.sqlite
+*.sqlite3
+/data/
+/backups/
+
+# python
+__pycache__/
+*.py[cod]
+.venv/
+*.egg-info/
+dist/
+build/
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+
+# editors / OS
+.DS_Store
+.idea/
+.vscode/
