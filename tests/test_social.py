@@ -130,7 +130,7 @@ def test_quote_button_and_quote_rendering(client):
     client.post(f"/discussions/{tid}/replies", data={"csrf_token": token, "body": "> @olena_tea: From steep three it gets harsh.\n\nUse less leaf."}, follow_redirects=False)
     page = client.get(f"/discussions/{tid}").text
     assert '<blockquote><a href="/u/olena_tea">@olena_tea</a>: From steep three it gets harsh.</blockquote>' in page
-    assert 'data-quote="' in page
+    assert 'data-quote-text="' in page
 
 
 def test_post_rate_limit(tmp_path, google):

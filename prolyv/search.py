@@ -116,7 +116,7 @@ def _fill_index(db: Session) -> int:
     for topic in db.execute(select(Topic)).scalars():
         index_topic(db, topic.id, topic.title, topic.body)
         count += 1
-    for reply in db.execute(select(Reply)).scalars():
+    for reply in db.execute(select(Reply).where(Reply.hidden.is_(False))).scalars():
         index_reply(db, reply.id, reply.topic_id, reply.body)
         count += 1
     for post in db.execute(select(Post).where(Post.published_at.is_not(None))).scalars():

@@ -1,0 +1,21 @@
+{% from "partials/macros.html" import avatar, cup %}
+{# One topic in a list (Forum, MForum). A row of its own because the shared topic_card has no avatar column or stat columns. #}
+{% macro topic_row(t) -%}
+<li class="f-row">
+  <span class="f-row-avatar">{{ avatar(t.user, 40) }}</span>
+  <div class="f-row-tags">
+    <a class="f-tag sec-{{ t.section.slug }}" href="/discussions/s/{{ t.section.slug }}">{{ t.section.name|upper }}</a>
+    {% if t.pinned %}<span class="f-tag f-tag-pin">PINNED</span>{% endif %}
+    {% if t.solved %}<span class="f-tag f-tag-solved">SOLVED</span>{% endif %}
+    {% if t.shown_session %}<span class="f-tag f-tag-session">{{ cup(t.shown_session.category_key, 18, t.shown_session.tea.liquor_hex if t.shown_session.tea else None) }}SESSION</span>{% endif %}
+    {% if t.hidden %}<span class="f-tag f-tag-hidden">HIDDEN</span>{% endif %}
+  </div>
+  <span class="f-row-time">{{ t.created_at|ago }}</span>
+  <a class="f-row-title" href="/discussions/{{ t.id }}">{{ t.title }}</a>
+  <p class="f-row-meta">
+    <span class="f-row-author">{% if t.user.deleted_at %}Deleted account{% else %}{{ t.user.display_name }}{% endif %}<span class="f-row-time-inline"> · {{ t.created_at|ago }}</span></span>
+    <span class="f-row-replies"><b>{{ t.reply_count }}</b> repl{{ 'y' if t.reply_count == 1 else 'ies' }}</span>
+    {% if t.last_reply_at %}<span class="f-row-last">last reply <b>{{ t.last_reply_at|ago }}</b></span>{% endif %}
+  </p>
+</li>
+{%- endmacro %}

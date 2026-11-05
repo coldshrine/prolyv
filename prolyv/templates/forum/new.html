@@ -13,7 +13,7 @@
       {% if errors.section %}<span class="field-error">{{ errors.section }}</span>{% endif %}
     </label>
     <label class="field"><span class="label">Title</span><input name="title" value="{{ form.title }}" maxlength="160" required placeholder="Why does my shu turn bitter after the third steep?">{% if errors.title %}<span class="field-error">{{ errors.title }}</span>{% endif %}</label>
-    <label class="field"><span class="label">Your question or story</span><textarea name="body" rows="8" required placeholder="Blank line between paragraphs.">{{ form.body }}</textarea>{% if errors.body %}<span class="field-error">{{ errors.body }}</span>{% endif %}</label>
+    <label class="field"><span class="label">Your question or story</span><textarea name="body" rows="8" maxlength="20000" required placeholder="Blank line between paragraphs.">{{ form.body }}</textarea>{% if errors.body %}<span class="field-error">{{ errors.body }}</span>{% endif %}</label>
     <label class="field"><span class="label">Attach a public session (optional)</span>
       <select name="attached_session_id"><option value="">None</option>{% for s in my_sessions %}<option value="{{ s.id }}"{% if s.id|string == form.attached_session_id %} selected{% endif %}>{{ s.brewed_at.strftime('%-d %b') }} · {{ s.tea_name }}{% if s.params_line %} · {{ s.params_line }}{% endif %}</option>{% endfor %}</select>
       <span class="muted small">Only your public sessions can be attached.</span>

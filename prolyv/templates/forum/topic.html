@@ -1,72 +1,199 @@
 {% extends "base.html" %}
-{% from "partials/macros.html" import session_card, author_chip, paras, report_button, hide_button, save_button %}
+{% from "partials/macros.html" import avatar, cup, paras, report_button, hide_button, save_button %}
 {% block title %}{{ topic.title }} · Discussions · Prolyv{% endblock %}
 {% block head %}
 <meta property="og:type" content="article">
 <meta property="og:title" content="{{ topic.title }}">
 <meta property="og:description" content="{{ topic.body[:200] }}">
+<link rel="stylesheet" href="/static/css/forum.css?v={{ version }}">
+<script src="/static/forum.js?v={{ version }}" defer></script>
+{% endblock %}
+{% block body_class %}f-topic-page{% endblock %}
+{% macro person(user, count, label, when) -%}
+{%- if user.deleted_at %}<span class="f-who-name">Deleted account</span>{% else %}<a class="f-who-name" href="/u/{{ user.handle }}">{{ user.display_name }}</a>{% endif %} · {{ when|ago }}{% if count %} · {{ count }} {{ label }}{{ '' if count == 1 else 's' }}{% endif %}
+{%- endmacro %}
+{% macro session_bits(sess, with_steeps=False) -%}
+{%- set bits = [] -%}
+{%- if sess.grams %}{% set _ = bits.append('%g g' % sess.grams) %}{% endif -%}
+{%- if sess.water_ml %}{% set _ = bits.append(sess.water_ml ~ ' ml') %}{% endif -%}
+{%- if sess.temp_c %}{% set _ = bits.append(sess.temp_c ~ ' °C') %}{% endif -%}
+{%- if sess.vessel %}{% set _ = bits.append(sess.vessel) %}{% endif -%}
+{%- set _ = bits.append('rinsed' if sess.rinse else 'no rinse') -%}
+{%- if with_steeps and sess.steeps %}{% set _ = bits.append(sess.steeps|length ~ ' steep' ~ ('' if sess.steeps|length == 1 else 's')) %}{% endif -%}
+{%- if sess.rating %}{% set _ = bits.append('★ ' ~ sess.rating) %}{% endif -%}
+{{ bits|join(' · ') }}
+{%- endmacro %}
+{% block topbar %}
+{{ super() }}
+<header class="f-phonebar">
+  <a class="f-phonebar-btn" href="/discussions" aria-label="Back"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M15 5l-7 7 7 7"></path></svg></a>
+  <p class="f-phonebar-title">Discussion</p>
+  <button class="f-phonebar-btn" type="button" data-share="{{ share_url }}" aria-label="Share"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3v12"></path><path d="M7 8l5-5 5 5"></path><path d="M5 13v6a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2v-6"></path></svg></button>
+</header>
 {% endblock %}
 {% block content %}
-<div class="container narrow">
-  <p class="eyebrow"><a href="/discussions">Discussions</a> · <a href="/discussions/s/{{ topic.section.slug }}">{{ topic.section.name }}</a></p>
-  <div class="topic-card-head">
-    {% if topic.pinned %}<span class="badge badge-pin">Pinned</span>{% endif %}
-    {% if topic.solved %}<span class="badge badge-solved">Solved</span>{% endif %}
-  </div>
-  <h1 class="h1">{{ topic.title }}</h1>
-  <p class="session-by">{{ author_chip(topic.user, 32, long=True) }} · <span class="muted">{{ topic.created_at.strftime('%-d %B %Y') }}</span></p>
-  <div class="prose topic-body user-text">{{ paras(topic.paragraphs) }}</div>
-  {% if topic.shown_session %}<div class="attached"><p class="label">Attached session</p>{{ session_card(topic.shown_session) }}</div>{% endif %}
-  <div class="actions topic-actions">
-    {{ save_button('topic', topic.id, saved, current_user, csrf_token, path) }}
-    {% if current_user and not is_author %}{{ report_button('topic', topic.id, csrf_token, path) }}{% endif %}
-    {% if is_admin_view %}{{ hide_button('topic', topic.id, topic.hidden, csrf_token, path) }}{% endif %}
-  </div>
-  {% if is_author or is_admin_view %}
-  <div class="actions topic-actions">
-    {% if is_admin_view %}<form method="post" action="/discussions/{{ topic.id }}/pin"><input type="hidden" name="csrf_token" value="{{ csrf_token }}"><button class="btn btn-ghost btn-sm" type="submit">{{ 'Unpin' if topic.pinned else 'Pin' }}</button></form>{% endif %}
-    <form method="post" action="/discussions/{{ topic.id }}/delete" data-confirm="Delete this topic and its replies?"><input type="hidden" name="csrf_token" value="{{ csrf_token }}"><button class="btn btn-ghost btn-sm" type="submit">Delete topic</button></form>
-  </div>
-  {% endif %}
-
-  <h2 class="h2 replies-title" id="replies">{{ replies|length }} repl{{ 'y' if replies|length == 1 else 'ies' }}</h2>
-  {% if replies %}
-  <ul class="replies">
-    {% for r in replies %}
-    <li class="reply{% if r.marked_helpful_by_author %} reply-helpful{% endif %}{% if r.hidden %} is-hidden{% endif %}" id="reply-{{ r.id }}">
-      <div class="reply-head">
-        {{ author_chip(r.user, 28) }}
-        <span class="muted small">{{ r.created_at.strftime('%-d %b %Y') }}</span>
-        {% if r.marked_helpful_by_author %}<span class="badge badge-solved">Marked helpful by the author</span>{% endif %}
-      </div>
-      <div class="prose user-text">{{ paras(r.paragraphs) }}</div>
-      {% if r.shown_session %}<div class="attached">{{ session_card(r.shown_session) }}</div>{% endif %}
-      <div class="reply-actions">
-        {% if current_user and r.user_id != current_user.id %}
-        <form method="post" action="/discussions/{{ topic.id }}/replies/{{ r.id }}/helpful"><input type="hidden" name="csrf_token" value="{{ csrf_token }}"><button class="vote-btn{% if r.id in my_votes %} vote-on{% endif %}" type="submit" aria-pressed="{{ 'true' if r.id in my_votes else 'false' }}">👍 Helpful · {{ r.helpful_count }}</button></form>
-        {% else %}<span class="vote-btn vote-static">👍 Helpful · {{ r.helpful_count }}</span>{% endif %}
-        {% if (is_author or is_admin_view) and r.user_id != topic.user_id %}
-        <form method="post" action="/discussions/{{ topic.id }}/replies/{{ r.id }}/mark"><input type="hidden" name="csrf_token" value="{{ csrf_token }}"><button class="link-btn small" type="submit">{% if r.marked_helpful_by_author %}Unmark{% else %}Mark as helpful{% endif %}</button></form>
+<section class="f-thero" aria-label="Topic">
+  <div class="f-wrap f-thero-inner">
+    <nav class="f-crumbs" aria-label="Breadcrumbs"><a href="/discussions">Discussions</a> / <a href="/discussions/s/{{ topic.section.slug }}">{{ topic.section.name }}</a></nav>
+    <div class="f-thero-tags">
+      <a class="f-tag f-tag-lg sec-{{ topic.section.slug }}" href="/discussions/s/{{ topic.section.slug }}">{{ topic.section.name|upper }}</a>
+      <span class="f-tag f-tag-lg f-tag-count">{{ total }} repl{{ 'y' if total == 1 else 'ies' }}</span>
+      {% if topic.pinned %}<span class="f-tag f-tag-lg f-tag-pin">PINNED</span>{% endif %}
+      {% if topic.solved %}<span class="f-tag f-tag-lg f-tag-solved">SOLVED</span>{% endif %}
+      {% if topic.hidden %}<span class="f-tag f-tag-lg f-tag-hidden">HIDDEN</span>{% endif %}
+    </div>
+    <h1 class="f-ttitle">{{ topic.title }}</h1>
+    <div class="f-thero-by">
+      {{ avatar(topic.user, 40) }}
+      <p class="f-who">{{ person(topic.user, session_counts.get(topic.user_id), 'session', topic.created_at) }}{% if session_counts.get(topic.user_id) %} logged{% endif %}</p>
+      <div class="f-thero-actions">
+        {% if not is_author %}
+        {% if current_user %}<form method="post" action="/discussions/{{ topic.id }}/follow"><input type="hidden" name="csrf_token" value="{{ csrf_token }}"><button class="f-follow{% if following %} is-on{% endif %}" type="submit" aria-pressed="{{ 'true' if following else 'false' }}"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 8a6 6 0 0 1 12 0c0 7 3 9 3 9H3s3-2 3-9"></path><path d="M10 21h4"></path></svg>{{ 'Following' if following else 'Follow topic' }}</button></form>
+        {% else %}<a class="f-follow" href="{{ login_url }}"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 8a6 6 0 0 1 12 0c0 7 3 9 3 9H3s3-2 3-9"></path><path d="M10 21h4"></path></svg>Follow topic</a>{% endif %}
         {% endif %}
-        {% if current_user %}<button type="button" class="link-btn small" data-quote="{{ r.body[:600] }}" data-quote-author="{{ r.user.handle }}">quote</button>{% endif %}
-        {% if is_admin_view %}{{ hide_button('reply', r.id, r.hidden, csrf_token, path) }}{% endif %}
-        {% if current_user and r.user_id != current_user.id %}{{ report_button('reply', r.id, csrf_token, path) }}{% endif %}
-        {% if current_user and (r.user_id == current_user.id or is_admin_view) %}
-        <form method="post" action="/discussions/{{ topic.id }}/replies/{{ r.id }}/delete"><input type="hidden" name="csrf_token" value="{{ csrf_token }}"><button class="link-btn small" type="submit">delete</button></form>
+        <a class="f-reply-btn" href="#reply">Reply</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="f-wrap f-columns f-tcolumns">
+  <div class="f-main f-tmain">
+    <article class="f-op" id="opening-post" aria-label="Original post">
+      <div class="prose user-text f-body">{{ paras(topic.paragraphs) }}</div>
+      {% if topic.shown_session %}{% set sess = topic.shown_session %}
+      <a class="f-attached" href="/sessions/{{ sess.id }}">
+        <span class="f-attached-top">
+          {{ cup(sess.category_key, 64, sess.tea.liquor_hex if sess.tea else None) }}
+          <span class="f-attached-text"><span class="f-attached-kicker">ATTACHED SESSION</span><span class="f-attached-name">{{ sess.tea_name }}</span><span class="f-attached-params">{{ session_bits(sess) }}</span></span>
+        </span>
+        {% if sess.steeps %}<span class="f-steeps">{% for s in sess.steeps %}<span class="f-steep"><span class="f-orb" aria-hidden="true" style="background:{{ steep_orb(sess.category_key, sess.tea.liquor_hex if sess.tea else None, loop.index0) }}"></span>{{ s.seconds }} s</span>{% endfor %}</span>{% endif %}
+      </a>
+      {% endif %}
+      <div class="f-op-actions">
+        {% set thumb %}<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 10v10H3V10z"></path><path d="M7 10l4.5-6.5a2 2 0 0 1 3.5 1.5V9h4a2 2 0 0 1 2 2.4l-1.3 6.5A2 2 0 0 1 17.7 20H7"></path></svg>{% endset %}
+        {% if is_author %}<span class="f-act f-act-static" title="This is your own topic">{{ thumb }}Helpful · {{ topic_votes }}</span>
+        {% elif current_user %}<form method="post" action="/discussions/{{ topic.id }}/helpful"><input type="hidden" name="csrf_token" value="{{ csrf_token }}"><button class="f-act{% if my_topic_vote %} vote-on{% endif %}" type="submit" aria-pressed="{{ 'true' if my_topic_vote else 'false' }}">{{ thumb }}Helpful · {{ topic_votes }}</button></form>
+        {% else %}<a class="f-act" href="{{ login_url }}">{{ thumb }}Helpful · {{ topic_votes }}</a>{% endif %}
+        {% set quote_icon %}<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 7H5v5h4v4c0 1.5-1 2.5-2.5 3"></path><path d="M19 7h-4v5h4v4c0 1.5-1 2.5-2.5 3"></path></svg>{% endset %}
+        {% if current_user %}<button class="f-act" type="button" data-quote-text="{{ topic.body[:4000] }}" data-quote-author="{{ topic.user.handle }}">{{ quote_icon }}Quote</button>
+        {% else %}<a class="f-act" href="{{ login_url }}">{{ quote_icon }}Quote</a>{% endif %}
+        <button class="f-act" type="button" data-share="{{ share_url }}"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="18" cy="5" r="3"></circle><circle cx="6" cy="12" r="3"></circle><circle cx="18" cy="19" r="3"></circle><path d="M8.6 13.5l6.8 4"></path><path d="M15.4 6.5l-6.8 4"></path></svg>Share</button>
+      </div>
+      <div class="f-op-more">
+        {{ save_button('topic', topic.id, saved, current_user, csrf_token, path) }}
+        {% if current_user and not is_author %}{{ report_button('topic', topic.id, csrf_token, path) }}{% endif %}
+        {% if is_admin_view %}{{ hide_button('topic', topic.id, topic.hidden, csrf_token, path) }}
+        <form method="post" action="/discussions/{{ topic.id }}/pin"><input type="hidden" name="csrf_token" value="{{ csrf_token }}"><button class="f-act" type="submit">{{ 'Unpin' if topic.pinned else 'Pin' }}</button></form>{% endif %}
+        {% if is_author or is_admin_view %}<form method="post" action="/discussions/{{ topic.id }}/delete" data-confirm="Delete this topic and its replies?"><input type="hidden" name="csrf_token" value="{{ csrf_token }}"><button class="f-act" type="submit">Delete topic</button></form>{% endif %}
+      </div>
+    </article>
+
+    <section class="f-replies" aria-labelledby="replies" >
+      <div class="f-replies-head">
+        <h2 class="f-h2" id="replies">{{ total }} repl{{ 'y' if total == 1 else 'ies' }}</h2>
+        {% if total > 1 %}
+        <nav class="f-seg" aria-label="Sort replies">
+          {% for key, label in sorts.items() %}<a href="/discussions/{{ topic.id }}{% if key != 'helpful' %}?sort={{ key }}{% endif %}#replies"{% if sort == key %} aria-current="true"{% endif %}>{{ label }}</a>{% endfor %}
+        </nav>
         {% endif %}
       </div>
-    </li>
-    {% endfor %}
-  </ul>
-  {% endif %}
+      {% if offset > 0 %}<p class="f-previous"><a class="btn btn-ghost btn-sm" href="{{ first_url }}">← Back to the first replies</a></p>{% endif %}
+      {% if replies %}
+      <ol class="f-reply-list more-list">
+        {% for r in replies %}
+        <li class="f-reply{% if r.marked_helpful_by_author %} is-best{% endif %}{% if r.hidden %} is-hidden{% endif %}" id="reply-{{ r.id }}">
+          <div class="f-reply-head">
+            {{ avatar(r.user, 38) }}
+            <p class="f-who">{{ person(r.user, session_counts.get(r.user_id), 'session', r.created_at) }}</p>
+            {% if r.marked_helpful_by_author %}<span class="f-best"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12l5 5L20 7"></path></svg>MARKED HELPFUL BY AUTHOR</span>{% endif %}
+            {% if r.hidden %}<span class="f-tag f-tag-hidden">HIDDEN</span>{% endif %}
+          </div>
+          <div class="prose user-text f-body">{{ paras(r.paragraphs) }}</div>
+          {% if r.shown_session %}{% set sess = r.shown_session %}
+          <div class="f-reply-session">
+            <a class="f-reply-session-link" href="/sessions/{{ sess.id }}">{{ cup(sess.category_key, 30, sess.tea.liquor_hex if sess.tea else None) }}<span>Session: {{ session_bits(sess, True) }}</span></a>
+            <a class="f-reply-session-brew" href="/sessions/new?from={{ sess.id }}">Brew it the same way →</a>
+          </div>
+          {% endif %}
+          <div class="f-reply-actions">
+            {% if not current_user %}<a class="f-act" href="{{ login_url }}">Helpful · {{ r.helpful_count }}</a>
+            {% elif r.user_id == current_user.id %}<span class="f-act f-act-static" title="This is your own reply">Helpful · {{ r.helpful_count }}</span>
+            {% else %}<form method="post" action="/discussions/{{ topic.id }}/replies/{{ r.id }}/helpful"><input type="hidden" name="csrf_token" value="{{ csrf_token }}"><input type="hidden" name="sort" value="{{ sort }}"><button class="f-act{% if r.id in my_votes %} vote-on{% endif %}" type="submit" aria-pressed="{{ 'true' if r.id in my_votes else 'false' }}">Helpful · {{ r.helpful_count }}</button></form>{% endif %}
+            {% if current_user %}
+            <a class="f-act" href="#reply" data-reply-to="{{ r.user.handle if not r.user.deleted_at else '' }}">Reply</a>
+            <button class="f-act" type="button" data-quote-text="{{ r.body[:4000] }}" data-quote-author="{{ r.user.handle }}">Quote</button>
+            {% else %}
+            <a class="f-act" href="{{ login_url }}">Reply</a>
+            <a class="f-act" href="{{ login_url }}">Quote</a>
+            {% endif %}
+            {% if (is_author or is_admin_view) and r.user_id != topic.user_id %}
+            <form method="post" action="/discussions/{{ topic.id }}/replies/{{ r.id }}/mark"><input type="hidden" name="csrf_token" value="{{ csrf_token }}"><input type="hidden" name="sort" value="{{ sort }}"><button class="f-act" type="submit">{% if r.marked_helpful_by_author %}Unmark{% else %}Mark as helpful{% endif %}</button></form>
+            {% endif %}
+            {% if is_admin_view %}{{ hide_button('reply', r.id, r.hidden, csrf_token, path) }}{% endif %}
+            {% if current_user and r.user_id != current_user.id %}{{ report_button('reply', r.id, csrf_token, path) }}{% endif %}
+            {% if current_user and (r.user_id == current_user.id or is_admin_view) %}
+            <form method="post" action="/discussions/{{ topic.id }}/replies/{{ r.id }}/delete" data-confirm="Delete this reply?"><input type="hidden" name="csrf_token" value="{{ csrf_token }}"><input type="hidden" name="sort" value="{{ sort }}"><button class="f-act" type="submit">Delete</button></form>
+            {% endif %}
+          </div>
+        </li>
+        {% endfor %}
+        {% if remaining %}<li class="show-more f-more"><a class="f-more-btn" href="{{ more_url }}" hx-get="{{ more_url }}" hx-target="closest .show-more" hx-swap="outerHTML" hx-select=".more-list > *" hx-push-url="false">Show {{ more_count }} more repl{{ 'y' if more_count == 1 else 'ies' }}</a></li>{% endif %}
+      </ol>
+      {% else %}
+      <p class="f-empty">No replies yet. {% if current_user %}Yours can be the first.{% else %}<a href="{{ login_url }}">Log in</a> to write the first one.{% endif %}</p>
+      {% endif %}
+    </section>
 
-  {% if current_user %}
-  <form method="post" action="/discussions/{{ topic.id }}/replies" class="card form reply-form">
-    <input type="hidden" name="csrf_token" value="{{ csrf_token }}">
-    <label class="field"><span class="label">Your reply</span><textarea name="body" id="reply-body" rows="4" required placeholder="What worked for you?"></textarea></label>
-    {% if my_sessions %}<label class="field"><span class="label">Attach a public session</span><select name="attached_session_id"><option value="">None</option>{% for s in my_sessions %}<option value="{{ s.id }}">{{ s.brewed_at.strftime('%-d %b') }} · {{ s.tea_name }}</option>{% endfor %}</select></label>{% endif %}
-    <div class="actions"><button class="btn btn-primary" type="submit">Reply</button></div>
-  </form>
-  {% else %}<p class="muted"><a href="/login?next=/discussions/{{ topic.id }}">Log in</a> to reply.</p>{% endif %}
+    {% if current_user %}
+    <form method="post" action="/discussions/{{ topic.id }}/replies" class="f-form" id="reply">
+      <input type="hidden" name="csrf_token" value="{{ csrf_token }}">
+      {% if form_error %}<p class="f-form-error" role="alert">{{ form_error }}</p>{% endif %}
+      <label for="reply-body" class="f-form-label">Your reply</label>
+      <textarea name="body" id="reply-body" rows="4" maxlength="20000" required placeholder="{% if my_sessions %}Share what worked for you. Attaching a session makes it concrete{% else %}Share what worked for you{% endif %}">{{ draft }}</textarea>
+      <div class="f-form-foot">
+        {% if my_sessions %}
+        <label class="f-attach"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 11l-8.5 8.5a5 5 0 0 1-7-7L14 4a3.5 3.5 0 0 1 5 5l-8.5 8.5a2 2 0 0 1-3-3L15 7"></path></svg><span data-attach-label>Attach a session</span>
+          <select name="attached_session_id" aria-label="Attach a session" data-attach><option value="">No session</option>{% for s in my_sessions %}<option value="{{ s.id }}"{% if draft_session == s.id|string %} selected{% endif %}>{{ s.brewed_at.strftime('%-d %b') }} · {{ s.tea_name }}</option>{% endfor %}</select>
+        </label>
+        {% endif %}
+        <button class="f-post" type="submit">Post reply</button>
+      </div>
+    </form>
+    {% else %}
+    <div class="f-form" id="reply"><p class="f-form-label">Your reply</p><p class="f-form-note">Log in to join the thread and attach a session from your diary.</p><div class="f-form-foot"><a class="f-post" href="{{ login_url }}">Log in to reply</a></div></div>
+    {% endif %}
+  </div>
+
+  <aside class="f-side">
+    {% if sessions %}
+    <section class="f-panel" aria-labelledby="compare-h">
+      <h2 id="compare-h">Sessions in this thread</h2>
+      {% if same_tea %}<p class="f-panel-note">Same tea, {{ sessions|length }} ways.</p>{% endif %}
+      <ul class="f-compare">
+        {% for s in sessions %}
+        <li><a href="/sessions/{{ s.id }}">{{ cup(s.category_key, 44, s.tea.liquor_hex if s.tea else None) }}<span class="f-compare-text"><b>{% if s.user.deleted_at %}Deleted account{% else %}{{ s.user.display_name }}{% endif %}{% if s.user_id == topic.user_id %} (author){% endif %}</b><span>{% if not same_tea %}{{ s.tea_name }} · {% endif %}{{ session_bits(s, True) }}</span></span></a></li>
+        {% endfor %}
+      </ul>
+      {% if sessions|length >= 2 %}<a class="f-compare-btn" href="/sessions/compare?a={{ sessions[0].id }}&amp;b={{ sessions[1].id }}">Compare side by side</a>{% endif %}
+    </section>
+    {% endif %}
+    {% if related %}
+    <section class="f-panel" aria-labelledby="related-h">
+      <h2 id="related-h">Related topics</h2>
+      <ol class="f-related">
+        {% for t in related %}<li><a href="/discussions/{{ t.id }}"><b>{{ t.title }}</b><span>{{ topic.section.name }} · {{ t.reply_count }} repl{{ 'y' if t.reply_count == 1 else 'ies' }}{% if t.solved %} · solved{% endif %}</span></a></li>{% endfor %}
+      </ol>
+    </section>
+    {% endif %}
+    {% if blog_post %}
+    <a class="f-blog" href="/blog/{{ blog_post.slug }}">
+      <span class="f-blog-kicker">FROM THE BLOG · {{ blog_post.kind_label|upper }}</span>
+      <span class="f-blog-title">{{ blog_post.title }}</span>
+      {% if blog_post.summary %}<span class="f-blog-summary">{{ blog_post.summary }}</span>{% endif %}
+      <span class="f-blog-more">Read and discuss →</span>
+    </a>
+    {% endif %}
+  </aside>
 </div>
 {% endblock %}
