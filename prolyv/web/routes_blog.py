@@ -12,7 +12,8 @@ from sqlalchemy.orm import selectinload
 from prolyv.handles import slugify
 from prolyv.markdown import render_markdown
 from prolyv.models import Post, PostComment, Tea, TeaSession, TeaStatus, Visibility, utcnow
-from prolyv.web.deps import AdminUser, CurrentUser, DbDep, RequiredUser, SettingsDep, SignerDep, require_csrf
+from prolyv.social import notify
+from prolyv.web.deps import AdminUser, CurrentUser, DbDep, RequiredUser, SettingsDep, SignerDep, post_quota, require_csrf
 from prolyv.web.flash import set_flash
 from prolyv.web.templating import render
 
@@ -58,7 +59,7 @@ def blog_post(request: Request, db: DbDep, settings: SettingsDep, user: CurrentU
     post = get_post(db, slug, is_admin)
     brew_alongs = db.execute(
         select(TeaSession).options(selectinload(TeaSession.steeps), selectinload(TeaSession.user), selectinload(TeaSession.tea))
-        .where(TeaSession.post_id == post.id, TeaSession.visibility == Visibility.public)
+        .where(TeaSession.post_id == post.id, TeaSession.visibility == Visibility.public, TeaSession.hidden.is_(False))
         .order_by(TeaSession.brewed_at.desc()).limit(12)
     ).scalars().all()
     brew_along_count = db.scalar(select(func.count()).select_from(TeaSession).where(TeaSession.post_id == post.id, TeaSession.visibility == Visibility.public)) or 0
@@ -67,10 +68,15 @@ def blog_post(request: Request, db: DbDep, settings: SettingsDep, user: CurrentU
         og["image"] = post.cover_url
     elif post.tea and post.tea.primary_image:
         og["image"] = post.tea.primary_image.thumb_url or post.tea.primary_image.url
-    return render(request, "blog/post.html", {"post": post, "brew_alongs": brew_alongs, "brew_along_count": brew_along_count, "og": og, "is_admin_view": is_admin})
+    from prolyv.web.routes_social import is_saved
+
+    comments = [c for c in post.comments if not c.hidden or is_admin]
+    context = {"post": post, "brew_alongs": brew_alongs, "brew_along_count": brew_along_count, "og": og, "is_admin_view": is_admin,
+               "comments": comments, "saved": is_saved(db, user, "post", post.id)}
+    return render(request, "blog/post.html", context)
 
 
-@router.post("/blog/{slug}/comments", dependencies=[Depends(require_csrf)])
+@router.post("/blog/{slug}/comments", dependencies=[Depends(require_csrf), Depends(post_quota)])
 def post_comment_create(request: Request, db: DbDep, settings: SettingsDep, signer: SignerDep, user: RequiredUser, slug: str, body: str = Form("")):
     post = get_post(db, slug, getattr(request.state, "is_admin", False))
     body = body.strip()[:2000]
@@ -79,6 +85,7 @@ def post_comment_create(request: Request, db: DbDep, settings: SettingsDep, sign
         set_flash(response, settings, signer, "error", "Write a comment first.")
         return response
     db.add(PostComment(post=post, user=user, body=body))
+    notify(db, post.author_id, user, f"@{user.handle} commented on “{post.title}”", f"/blog/{post.slug}#comments")
     return response
 
 

@@ -9,6 +9,7 @@ from prolyv.auth.accounts import AccountError, get_user_by_handle, handle_taken,
 from prolyv.handles import RESERVED, is_valid_handle
 from prolyv.models import Provider, User
 from prolyv.security import SESSION_COOKIE
+from prolyv.social import follow_counts, is_following
 from prolyv.web.cookies import delete_cookie
 from prolyv.web.deps import CurrentUser, DbDep, RequiredUser, SettingsDep, SignerDep, require_csrf
 from prolyv.web.flash import set_flash
@@ -174,5 +175,8 @@ def profile_page(request: Request, db: DbDep, handle: str, current_user: Current
         "session_count": public_session_count(db, user.id),
         "topics": topics_for_user(db, user.id),
         "helpful_count": helpful_reply_count(db, user.id),
+        "following": is_following(db, current_user, user.id),
+        "follower_count": follow_counts(db, user.id)[0],
+        "following_count": follow_counts(db, user.id)[1],
     }
     return render(request, "profile.html", context)

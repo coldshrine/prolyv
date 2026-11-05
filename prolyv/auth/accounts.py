@@ -5,11 +5,22 @@ from __future__ import annotations
 import uuid
 from dataclasses import dataclass, field
 
-from sqlalchemy import select
+from sqlalchemy import delete, select
 from sqlalchemy.orm import Session
 
 from prolyv.handles import generate_handle
-from prolyv.models import AuthSession, Identity, Provider, User, utcnow
+from prolyv.models import (
+    AuthSession,
+    Follow,
+    Identity,
+    LoginToken,
+    Notification,
+    Provider,
+    SavedItem,
+    TeaSession,
+    User,
+    utcnow,
+)
 
 
 class AccountError(Exception):
@@ -127,11 +138,17 @@ def purge_sessions(db: Session, user: User) -> int:
 
 
 def soft_delete(db: Session, user: User) -> None:
-    """Keep the row (future posts may reference it) but free the handle, drop logins and sessions."""
+    """Keep the row so topics and replies still make sense, but erase the person: logins, diary, profile."""
     purge_sessions(db, user)
     for identity in list(user.identities):
         db.delete(identity)
     user.identities.clear()
+    for sess in db.execute(select(TeaSession).where(TeaSession.user_id == user.id)).scalars():
+        db.delete(sess)
+    db.execute(delete(Follow).where((Follow.follower_id == user.id) | (Follow.followee_id == user.id)))
+    db.execute(delete(SavedItem).where(SavedItem.user_id == user.id))
+    db.execute(delete(Notification).where(Notification.user_id == user.id))
+    db.execute(delete(LoginToken).where(LoginToken.user_id == user.id))
     user.deleted_at = utcnow()
     user.handle = f"deleted_{user.id.hex[:12]}"
     user.display_name = "Deleted account"

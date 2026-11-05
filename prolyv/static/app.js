@@ -26,6 +26,16 @@
     var message = e.target.dataset && e.target.dataset.confirm;
     if (message && !window.confirm(message)) e.preventDefault();
   });
+  // quote a reply into the reply box
+  document.addEventListener("click", function (e) {
+    var button = e.target.closest("[data-quote]");
+    var box = document.getElementById("reply-body");
+    if (!button || !box) return;
+    var first = button.dataset.quote.split(/\n\s*\n/)[0].replace(/\s+/g, " ").trim();
+    box.value = "> @" + button.dataset.quoteAuthor + ": " + first + "\n\n" + box.value;
+    box.focus();
+    box.scrollIntoView({ block: "center" });
+  });
   // copy-link and native share buttons
   function copy(button, text) {
     if (navigator.clipboard) navigator.clipboard.writeText(text).then(function () { button.textContent = "Link copied"; });

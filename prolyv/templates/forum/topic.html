@@ -1,5 +1,5 @@
 {% extends "base.html" %}
-{% from "partials/macros.html" import avatar, session_card %}
+{% from "partials/macros.html" import session_card, author_chip, paras, report_button, hide_button, save_button %}
 {% block title %}{{ topic.title }} · Discussions · Prolyv{% endblock %}
 {% block head %}
 <meta property="og:type" content="article">
@@ -14,9 +14,14 @@
     {% if topic.solved %}<span class="badge badge-solved">Solved</span>{% endif %}
   </div>
   <h1 class="h1">{{ topic.title }}</h1>
-  <p class="session-by"><a class="author-link" href="/u/{{ topic.user.handle }}">{{ avatar(topic.user, 32) }} <span>{{ topic.user.display_name }} · @{{ topic.user.handle }}</span></a> · <span class="muted">{{ topic.created_at.strftime('%-d %B %Y') }}</span></p>
-  <div class="prose topic-body">{% for p in topic.paragraphs %}<p>{{ p }}</p>{% endfor %}</div>
+  <p class="session-by">{{ author_chip(topic.user, 32, long=True) }} · <span class="muted">{{ topic.created_at.strftime('%-d %B %Y') }}</span></p>
+  <div class="prose topic-body user-text">{{ paras(topic.paragraphs) }}</div>
   {% if topic.attached_session %}<div class="attached"><p class="label">Attached session</p>{{ session_card(topic.attached_session) }}</div>{% endif %}
+  <div class="actions topic-actions">
+    {{ save_button('topic', topic.id, saved, current_user, csrf_token, path) }}
+    {% if current_user and not is_author %}{{ report_button('topic', topic.id, csrf_token, path) }}{% endif %}
+    {% if is_admin_view %}{{ hide_button('topic', topic.id, topic.hidden, csrf_token, path) }}{% endif %}
+  </div>
   {% if is_author or is_admin_view %}
   <div class="actions topic-actions">
     {% if is_admin_view %}<form method="post" action="/discussions/{{ topic.id }}/pin"><input type="hidden" name="csrf_token" value="{{ csrf_token }}"><button class="btn btn-ghost btn-sm" type="submit">{{ 'Unpin' if topic.pinned else 'Pin' }}</button></form>{% endif %}
@@ -28,13 +33,13 @@
   {% if replies %}
   <ul class="replies">
     {% for r in replies %}
-    <li class="reply{% if r.marked_helpful_by_author %} reply-helpful{% endif %}" id="reply-{{ r.id }}">
+    <li class="reply{% if r.marked_helpful_by_author %} reply-helpful{% endif %}{% if r.hidden %} is-hidden{% endif %}" id="reply-{{ r.id }}">
       <div class="reply-head">
-        <a class="author-link" href="/u/{{ r.user.handle }}">{{ avatar(r.user, 28) }} <span>@{{ r.user.handle }}</span></a>
+        {{ author_chip(r.user, 28) }}
         <span class="muted small">{{ r.created_at.strftime('%-d %b %Y') }}</span>
         {% if r.marked_helpful_by_author %}<span class="badge badge-solved">Marked helpful by the author</span>{% endif %}
       </div>
-      <div class="prose">{% for p in r.paragraphs %}<p>{{ p }}</p>{% endfor %}</div>
+      <div class="prose user-text">{{ paras(r.paragraphs) }}</div>
       {% if r.attached_session %}<div class="attached">{{ session_card(r.attached_session) }}</div>{% endif %}
       <div class="reply-actions">
         {% if current_user and r.user_id != current_user.id %}
@@ -43,6 +48,9 @@
         {% if (is_author or is_admin_view) and r.user_id != topic.user_id %}
         <form method="post" action="/discussions/{{ topic.id }}/replies/{{ r.id }}/mark"><input type="hidden" name="csrf_token" value="{{ csrf_token }}"><button class="link-btn small" type="submit">{% if r.marked_helpful_by_author %}Unmark{% else %}Mark as helpful{% endif %}</button></form>
         {% endif %}
+        {% if current_user %}<button type="button" class="link-btn small" data-quote="{{ r.body[:600] }}" data-quote-author="{{ r.user.handle }}">quote</button>{% endif %}
+        {% if is_admin_view %}{{ hide_button('reply', r.id, r.hidden, csrf_token, path) }}{% endif %}
+        {% if current_user and r.user_id != current_user.id %}{{ report_button('reply', r.id, csrf_token, path) }}{% endif %}
         {% if current_user and (r.user_id == current_user.id or is_admin_view) %}
         <form method="post" action="/discussions/{{ topic.id }}/replies/{{ r.id }}/delete"><input type="hidden" name="csrf_token" value="{{ csrf_token }}"><button class="link-btn small" type="submit">delete</button></form>
         {% endif %}
@@ -55,7 +63,7 @@
   {% if current_user %}
   <form method="post" action="/discussions/{{ topic.id }}/replies" class="card form reply-form">
     <input type="hidden" name="csrf_token" value="{{ csrf_token }}">
-    <label class="field"><span class="label">Your reply</span><textarea name="body" rows="4" required placeholder="What worked for you?"></textarea></label>
+    <label class="field"><span class="label">Your reply</span><textarea name="body" id="reply-body" rows="4" required placeholder="What worked for you?"></textarea></label>
     {% if my_sessions %}<label class="field"><span class="label">Attach a public session</span><select name="attached_session_id"><option value="">None</option>{% for s in my_sessions %}<option value="{{ s.id }}">{{ s.brewed_at.strftime('%-d %b') }} · {{ s.tea_name }}</option>{% endfor %}</select></label>{% endif %}
     <div class="actions"><button class="btn btn-primary" type="submit">Reply</button></div>
   </form>

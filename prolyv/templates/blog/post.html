@@ -1,5 +1,5 @@
 {% extends "base.html" %}
-{% from "partials/macros.html" import avatar, session_card %}
+{% from "partials/macros.html" import avatar, session_card, author_chip, report_button, hide_button, save_button %}
 {% block title %}{{ post.title }} · Prolyv blog{% endblock %}
 {% block head %}
 <link rel="canonical" href="{{ og.url }}">
@@ -22,6 +22,7 @@
       <p class="session-by"><a class="author-link" href="/u/{{ post.author.handle }}">{{ avatar(post.author, 32) }} <span>{{ post.author.display_name }}</span></a></p>
       <div class="actions">
         <a class="btn btn-primary" href="{% if current_user %}/sessions/new?post={{ post.slug }}{% else %}/login?next=/sessions/new%3Fpost%3D{{ post.slug }}{% endif %}">Brew along</a>
+        {{ save_button('post', post.id, saved, current_user, csrf_token, path) }}
         {% if post.tea %}<a class="btn btn-secondary" href="/teas/{{ post.tea.slug }}">Tea card</a>{% endif %}
         {% if is_admin_view %}<a class="btn btn-ghost" href="/admin/posts/{{ post.id }}/edit">Edit post</a>{% endif %}
       </div>
@@ -56,16 +57,20 @@
     <div class="card empty"><p class="empty-title">Nobody has brewed along yet</p><p class="muted">Log your session from this post and make it public to show up here.</p></div>
     {% endif %}
 
-    <h2 class="h2" id="comments">Comments{% if post.comments %} · {{ post.comments|length }}{% endif %}</h2>
-    {% if post.comments %}
+    <h2 class="h2" id="comments">Comments{% if comments %} · {{ comments|length }}{% endif %}</h2>
+    {% if comments %}
     <ul class="comments">
-      {% for c in post.comments %}
-      <li class="comment">
-        <a class="author-link" href="/u/{{ c.user.handle }}">{{ avatar(c.user, 28) }} <span>@{{ c.user.handle }}</span></a>
+      {% for c in comments %}
+      <li class="comment{% if c.hidden %} is-hidden{% endif %}">
+        {{ author_chip(c.user, 28) }}
         <span class="muted small">{{ c.created_at.strftime('%-d %b %Y') }}</span>
         <p>{{ c.body }}</p>
-        {% if current_user and (c.user_id == current_user.id or is_admin_view) %}
-        <form method="post" action="/blog/{{ post.slug }}/comments/{{ c.id }}/delete" class="inline-form"><input type="hidden" name="csrf_token" value="{{ csrf_token }}"><button class="link-btn small" type="submit">delete</button></form>
+        {% if current_user %}
+        <div class="reply-actions">
+          {% if c.user_id == current_user.id or is_admin_view %}<form method="post" action="/blog/{{ post.slug }}/comments/{{ c.id }}/delete" class="inline-form"><input type="hidden" name="csrf_token" value="{{ csrf_token }}"><button class="link-btn small" type="submit">delete</button></form>{% endif %}
+          {% if is_admin_view %}{{ hide_button('post_comment', c.id, c.hidden, csrf_token, path) }}{% endif %}
+          {% if c.user_id != current_user.id %}{{ report_button('post_comment', c.id, csrf_token, path) }}{% endif %}
+        </div>
         {% endif %}
       </li>
       {% endfor %}

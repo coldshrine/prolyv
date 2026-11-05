@@ -1,5 +1,5 @@
 {% extends "base.html" %}
-{% from "partials/macros.html" import avatar, session_card, topic_card %}
+{% from "partials/macros.html" import avatar, session_card, topic_card, report_button %}
 {% block title %}{{ profile.display_name }} (@{{ profile.handle }}) · Prolyv{% endblock %}
 {% block content %}
 <section class="hero hero-profile">
@@ -15,7 +15,9 @@
         <a class="btn btn-secondary" href="/diary">My diary</a>
         <a class="btn btn-ghost" href="/settings">Edit profile</a>
         {% else %}
-        <a class="btn btn-primary" href="{% if current_user %}/discussions{% else %}/login{% endif %}">Follow</a>
+        {% if current_user %}
+        <form method="post" action="/u/{{ profile.handle }}/follow" class="inline-form"><input type="hidden" name="csrf_token" value="{{ csrf_token }}"><button class="btn {{ 'btn-secondary' if following else 'btn-primary' }}" type="submit" aria-pressed="{{ 'true' if following else 'false' }}">{{ 'Following ✓' if following else 'Follow' }}</button></form>
+        {% else %}<a class="btn btn-primary" href="/login?next=/u/{{ profile.handle }}">Follow</a>{% endif %}
         <a class="btn btn-secondary" href="{% if current_user %}/discussions/new{% else %}/login?next=/discussions/new{% endif %}">Ask {{ profile.display_name.split(' ')[0] }} in the forum</a>
         {% endif %}
       </div>
@@ -23,10 +25,13 @@
     <ul class="stats">
       <li><p class="stat-value grad-pink">{{ session_count }}</p><p class="stat-label">public sessions</p></li>
       <li><p class="stat-value grad-mint">{{ helpful_count }}</p><p class="stat-label">helpful replies</p></li>
+      <li><p class="stat-value grad-pink">{{ follower_count }}</p><p class="stat-label">followers</p></li>
+      <li><p class="stat-value grad-mint">{{ following_count }}</p><p class="stat-label">following</p></li>
     </ul>
   </div>
 </section>
 <section class="container">
+  {% if current_user and not is_me %}<div class="profile-report">{{ report_button('user', profile.id, csrf_token, path) }}</div>{% endif %}
   <h2 class="h2">Sessions</h2>
   <p class="muted">Private sessions stay private. Public ones will appear here.</p>
   {% if sessions %}

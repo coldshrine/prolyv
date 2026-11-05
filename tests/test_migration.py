@@ -26,7 +26,7 @@ def test_migration_builds_the_schema_and_matches_the_models(tmp_path, monkeypatc
         "id", "user_id", "token_hash", "expires_at", "created_at", "last_seen_at", "user_agent",
     }
     assert {c["name"] for c in inspector.get_columns("users")} == {
-        "id", "handle", "display_name", "avatar_url", "bio", "created_at", "deleted_at",
+        "id", "handle", "display_name", "avatar_url", "bio", "created_at", "deleted_at", "banned_at",
     }
     uniques = {tuple(u["column_names"]) for u in inspector.get_unique_constraints("identities")}
     assert ("provider", "provider_user_id") in uniques

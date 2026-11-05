@@ -18,9 +18,9 @@ dependencies = [
     "itsdangerous>=2.2",
     "pydantic-settings>=2.3",
     "markdown-it-py>=3",
-    "bleach>=6",
     "pillow>=10",
     "nh3>=0.2",
+    "linkify-it-py>=2",
 ]
 
 [dependency-groups]

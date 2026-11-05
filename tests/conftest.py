@@ -44,6 +44,7 @@ def make_settings(tmp_path, **overrides) -> Settings:
         "google_client_secret": "test-client-secret",
         "auth_rate_limit": 1000,
         "auth_rate_window": 60,
+        "post_rate_limit": 1000,
     }
     values.update(overrides)
     return Settings(_env_file=None, **values)

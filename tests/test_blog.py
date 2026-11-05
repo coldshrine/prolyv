@@ -32,7 +32,7 @@ def test_markdown_is_rendered_and_sanitised():
     html = render_markdown(BODY)
     assert "<h2>Why the third steep goes bitter</h2>" in html and "<strong>rinse</strong>" in html and "<li>7 g</li>" in html
     assert "<script>" not in html and "alert(1)" in html
-    assert 'href="https://prolyv.com"' in html and 'rel="noopener"' in html
+    assert 'href="https://prolyv.com"' in html and 'rel="noopener nofollow"' in html
 
 
 def test_video_embed_detection():

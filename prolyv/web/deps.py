@@ -6,12 +6,13 @@ from collections.abc import Iterator
 from typing import Annotated
 
 from fastapi import Depends, HTTPException, Request
+from sqlalchemy import func, select
 from sqlalchemy.orm import Session
 
 from prolyv.auth.sessions import load_session, touch_session
 from prolyv.config import Settings
 from prolyv.db import session_scope
-from prolyv.models import User
+from prolyv.models import Notification, User
 from prolyv.security import SESSION_COOKIE, Signer
 from prolyv.web.cookies import queue_cookie
 
@@ -43,6 +44,9 @@ def get_current_user(request: Request, db: DbDep, settings: SettingsDep, signer:
     request.state.is_admin = sess is not None and settings.is_admin_handle(sess.user.handle)
     if sess is None:
         return None
+    request.state.unread = db.scalar(
+        select(func.count()).select_from(Notification).where(Notification.user_id == sess.user_id, Notification.read_at.is_(None))
+    ) or 0
     if touch_session(db, sess, settings.session_days):
         queue_cookie(request, settings, SESSION_COOKIE, token, settings.session_days * 86400)
     return sess.user
@@ -79,3 +83,9 @@ def require_admin(request: Request, user: RequiredUser, settings: SettingsDep) -
 
 
 AdminUser = Annotated[User, Depends(require_admin)]
+
+
+def post_quota(request: Request, user: RequiredUser) -> None:
+    """Limits new topics, replies, comments and reports per user."""
+    if not request.app.state.post_limiter.allow(str(user.id)):
+        raise HTTPException(status_code=429, detail="too_many_posts")

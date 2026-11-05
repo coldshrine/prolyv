@@ -19,7 +19,7 @@ from prolyv.db import make_engine, make_session_factory
 from prolyv.forum_search import ensure_fts
 from prolyv.ratelimit import RateLimiter, RateLimitMiddleware
 from prolyv.security import SESSION_COOKIE, Signer
-from prolyv.web import routes_account, routes_auth, routes_blog, routes_dev, routes_diary, routes_forum, routes_home, routes_pages, routes_teas
+from prolyv.web import routes_account, routes_auth, routes_blog, routes_dev, routes_diary, routes_forum, routes_home, routes_pages, routes_social, routes_teas
 from prolyv.web.cookies import PendingCookiesMiddleware
 from prolyv.web.deps import get_current_user
 from prolyv.web.headers import SecurityHeadersMiddleware
@@ -34,6 +34,7 @@ ERROR_TEXT = {
     404: ("Nothing steeping here", "The page you asked for does not exist, or the account was deleted."),
     405: ("Wrong kind of request", "Please use the buttons on the page."),
     400: ("Something was off with that request", "Please go back and try again."),
+    429: ("Slow down a little", "You're posting very quickly. Please wait a few minutes and try again."),
 }
 
 
@@ -45,6 +46,7 @@ def create_app(settings: Settings | None = None, google_transport=None) -> FastA
 
     app.state.settings = settings
     app.state.signer = Signer(settings.secret_key)
+    app.state.post_limiter = RateLimiter(settings.post_rate_limit, settings.post_rate_window)
     app.state.engine = make_engine(settings.database_url)
     app.state.session_factory = make_session_factory(app.state.engine)
     ensure_fts(app.state.engine)  # SQLite FTS5 table for the forum (idempotent; the migration creates it too)
@@ -71,6 +73,7 @@ def create_app(settings: Settings | None = None, google_transport=None) -> FastA
     app.include_router(routes_forum.router)
     app.include_router(routes_blog.router)
     app.include_router(routes_pages.router)
+    app.include_router(routes_social.router)
     app.include_router(routes_dev.router)
     app.include_router(routes_home.router)  # last: it owns the catch-all /{section}
 

@@ -29,7 +29,7 @@
     <a class="session-title" href="/sessions/{{ sess.id }}">{{ sess.tea_name }}</a>
     {% if sess.params_line %}<p class="session-params">{{ sess.params_line }}</p>{% endif %}
     {% if sess.note %}<p class="session-note">{{ sess.note[:160] }}{% if sess.note|length > 160 %}…{% endif %}</p>{% endif %}
-    {% if show_author %}<p class="session-author"><a href="/u/{{ sess.user.handle }}">@{{ sess.user.handle }}</a></p>{% endif %}
+    {% if show_author %}<p class="session-author">{{ who(sess.user) }}</p>{% endif %}
   </div>
   <div class="session-side">
     {% if sess.rating %}<span class="stars" aria-label="{{ sess.rating }} of 5">{{ sess.stars }}</span>{% endif %}
@@ -48,7 +48,7 @@
   </div>
   <a class="topic-title" href="/discussions/{{ topic.id }}">{{ topic.title }}</a>
   <p class="topic-excerpt">{{ topic.body[:180] }}{% if topic.body|length > 180 %}…{% endif %}</p>
-  <p class="topic-meta"><a href="/u/{{ topic.user.handle }}">@{{ topic.user.handle }}</a> · {{ topic.reply_count }} repl{{ 'y' if topic.reply_count == 1 else 'ies' }}{% if topic.attached_session %} · session attached{% endif %}</p>
+  <p class="topic-meta">{{ who(topic.user) }} · {{ topic.reply_count }} repl{{ 'y' if topic.reply_count == 1 else 'ies' }}{% if topic.attached_session %} · session attached{% endif %}</p>
 </article>
 {%- endmacro %}
 
@@ -67,4 +67,35 @@
     {% if post.summary %}<p class="topic-excerpt">{{ post.summary }}</p>{% endif %}
   </div>
 </article>
+{%- endmacro %}
+
+
+{% macro who(u) -%}
+{% if u.deleted_at %}<span class="muted">Deleted account</span>{% else %}<a href="/u/{{ u.handle }}">@{{ u.handle }}</a>{% endif %}
+{%- endmacro %}
+
+{% macro author_chip(u, size=28, long=False) -%}
+{% if u.deleted_at %}<span class="author-link muted">{{ avatar(u, size) }} <span>Deleted account</span></span>{% else %}<a class="author-link" href="/u/{{ u.handle }}">{{ avatar(u, size) }} <span>{% if long %}{{ u.display_name }} · {% endif %}@{{ u.handle }}</span></a>{% endif %}
+{%- endmacro %}
+
+{% macro paras(items) -%}
+{% for p in items %}{% if p.startswith('>') %}<blockquote>{{ p.lstrip('> ') }}</blockquote>{% else %}<p>{{ p }}</p>{% endif %}{% endfor %}
+{%- endmacro %}
+
+{% macro report_button(kind, ref_id, csrf, next) -%}
+<details class="report"><summary>Report</summary>
+  <form method="post" action="/report">
+    <input type="hidden" name="csrf_token" value="{{ csrf }}"><input type="hidden" name="kind" value="{{ kind }}"><input type="hidden" name="ref_id" value="{{ ref_id }}"><input type="hidden" name="next" value="{{ next }}">
+    <select name="reason" aria-label="Reason"><option value="spam">Spam or advertising</option><option value="rude">Rude or harassing</option><option value="wrong">Dangerous or false claims</option><option value="other">Something else</option></select>
+    <button class="btn btn-ghost btn-sm" type="submit">Send report</button>
+  </form>
+</details>
+{%- endmacro %}
+
+{% macro hide_button(kind, ref_id, hidden, csrf, next) -%}
+<form method="post" action="/admin/hide" class="inline-form"><input type="hidden" name="csrf_token" value="{{ csrf }}"><input type="hidden" name="kind" value="{{ kind }}"><input type="hidden" name="ref_id" value="{{ ref_id }}"><input type="hidden" name="next" value="{{ next }}"><input type="hidden" name="hidden" value="{{ '0' if hidden else '1' }}"><button class="link-btn small" type="submit">{{ 'unhide' if hidden else 'hide' }}</button></form>
+{%- endmacro %}
+
+{% macro save_button(kind, ref_id, saved, user, csrf, next) -%}
+{% if user %}<form method="post" action="/saved/toggle" class="inline-form"><input type="hidden" name="csrf_token" value="{{ csrf }}"><input type="hidden" name="kind" value="{{ kind }}"><input type="hidden" name="ref_id" value="{{ ref_id }}"><input type="hidden" name="next" value="{{ next }}"><button class="btn btn-secondary" type="submit" aria-pressed="{{ 'true' if saved else 'false' }}">{{ 'Saved ✓' if saved else 'Save' }}</button></form>{% else %}<a class="btn btn-secondary" href="/login?next={{ next|urlencode }}">Save</a>{% endif %}
 {%- endmacro %}

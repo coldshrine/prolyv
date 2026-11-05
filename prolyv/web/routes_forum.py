@@ -11,7 +11,8 @@ from sqlalchemy.orm import selectinload
 
 from prolyv.forum_search import index_reply, index_topic, remove_reply, remove_topic, search_topics
 from prolyv.models import ForumSection, Reply, ReplyVote, TeaSession, Topic, User, Visibility, utcnow
-from prolyv.web.deps import CurrentUser, DbDep, RequiredUser, SettingsDep, SignerDep, require_csrf
+from prolyv.social import notify, notify_followers
+from prolyv.web.deps import CurrentUser, DbDep, RequiredUser, SettingsDep, SignerDep, post_quota, require_csrf
 from prolyv.web.flash import set_flash
 from prolyv.web.templating import render
 
@@ -58,6 +59,8 @@ def list_topics(request: Request, db, user, section: ForumSection | None, q: str
     q = q.strip()[:80]
     page = max(1, page)
     stmt = topic_query()
+    if not getattr(request.state, "is_admin", False):
+        stmt = stmt.where(Topic.hidden.is_(False))
     if section is not None:
         stmt = stmt.where(Topic.section_id == section.id)
     ranked: list[uuid.UUID] = []
@@ -75,7 +78,7 @@ def list_topics(request: Request, db, user, section: ForumSection | None, q: str
     else:
         stmt = stmt.order_by(Topic.pinned.desc(), func.coalesce(Topic.last_reply_at, Topic.created_at).desc())
         topics = db.execute(stmt.offset((page - 1) * PAGE_SIZE).limit(PAGE_SIZE)).scalars().all()
-    counts = dict(db.execute(select(Topic.section_id, func.count()).group_by(Topic.section_id)).all())
+    counts = dict(db.execute(select(Topic.section_id, func.count()).where(Topic.hidden.is_(False)).group_by(Topic.section_id)).all())
     sections = [(s, counts.get(s.id, 0)) for s in all_sections(db)]
     context = {"topics": topics, "sections": sections, "section": section, "q": q, "page": page, "pages": pages, "total": total}
     return render(request, "forum/index.html", context)
@@ -116,7 +119,7 @@ def validate_topic(data, db) -> tuple[dict, dict]:  # noqa: ANN001
     return form, errors
 
 
-@router.post("/discussions/new", dependencies=[Depends(require_csrf)])
+@router.post("/discussions/new", dependencies=[Depends(require_csrf), Depends(post_quota)])
 async def topic_create(request: Request, db: DbDep, settings: SettingsDep, signer: SignerDep, user: RequiredUser):
     form, errors = validate_topic(await request.form(), db)
     if errors:
@@ -128,6 +131,7 @@ async def topic_create(request: Request, db: DbDep, settings: SettingsDep, signe
     db.add(topic)
     db.flush()
     index_topic(db, topic.id, topic.title, topic.body)
+    notify_followers(db, user, f"@{user.handle} started a topic: {topic.title}", f"/discussions/{topic.id}")
     response = RedirectResponse(f"/discussions/{topic.id}", status_code=303)
     set_flash(response, settings, signer, "ok", "Topic posted.")
     return response
@@ -143,8 +147,11 @@ def get_topic(db, topic_id: uuid.UUID) -> Topic:  # noqa: ANN001
 @router.get("/discussions/{topic_id}")
 def topic_page(request: Request, db: DbDep, user: CurrentUser, topic_id: uuid.UUID):
     topic = get_topic(db, topic_id)
+    is_admin = getattr(request.state, "is_admin", False)
+    if topic.hidden and not is_admin:
+        raise HTTPException(status_code=404)
     replies = db.execute(
-        select(Reply).where(Reply.topic_id == topic.id)
+        select(Reply).where(Reply.topic_id == topic.id, Reply.hidden.is_(False) if not is_admin else True)
         .options(selectinload(Reply.user), selectinload(Reply.attached_session).selectinload(TeaSession.steeps),
                  selectinload(Reply.attached_session).selectinload(TeaSession.user),
                  selectinload(Reply.attached_session).selectinload(TeaSession.tea))
@@ -155,16 +162,17 @@ def topic_page(request: Request, db: DbDep, user: CurrentUser, topic_id: uuid.UU
         my_votes = set(db.execute(
             select(ReplyVote.reply_id).where(ReplyVote.user_id == user.id, ReplyVote.reply_id.in_([r.id for r in replies]))
         ).scalars().all())
-    is_admin = getattr(request.state, "is_admin", False)
+    from prolyv.web.routes_social import is_saved
+
     context = {
-        "topic": topic, "replies": replies, "my_votes": my_votes,
+        "topic": topic, "replies": replies, "my_votes": my_votes, "saved": is_saved(db, user, "topic", topic.id),
         "is_author": user is not None and user.id == topic.user_id, "is_admin_view": is_admin,
         "my_sessions": my_public_sessions(db, user),
     }
     return render(request, "forum/topic.html", context)
 
 
-@router.post("/discussions/{topic_id}/replies", dependencies=[Depends(require_csrf)])
+@router.post("/discussions/{topic_id}/replies", dependencies=[Depends(require_csrf), Depends(post_quota)])
 def reply_create(request: Request, db: DbDep, settings: SettingsDep, signer: SignerDep, user: RequiredUser,
                  topic_id: uuid.UUID, body: str = Form(""), attached_session_id: str = Form("")):
     topic = get_topic(db, topic_id)
@@ -179,6 +187,7 @@ def reply_create(request: Request, db: DbDep, settings: SettingsDep, signer: Sig
     topic.last_reply_at = utcnow()
     db.flush()
     index_reply(db, reply.id, topic.id, body)
+    notify(db, topic.user_id, user, f"@{user.handle} replied to “{topic.title}”", f"/discussions/{topic.id}#reply-{reply.id}")
     response.headers["location"] = f"/discussions/{topic.id}#reply-{reply.id}"
     return response
 
@@ -212,6 +221,8 @@ def reply_mark_helpful(request: Request, db: DbDep, user: RequiredUser, topic_id
         raise HTTPException(status_code=403)
     reply = get_reply(db, topic, reply_id)
     reply.marked_helpful_by_author = not reply.marked_helpful_by_author
+    if reply.marked_helpful_by_author:
+        notify(db, reply.user_id, user, f"Your reply in “{topic.title}” was marked helpful", f"/discussions/{topic.id}#reply-{reply.id}")
     db.flush()
     topic.solved = db.scalar(select(func.count()).select_from(Reply).where(Reply.topic_id == topic.id, Reply.marked_helpful_by_author.is_(True))) > 0
     return RedirectResponse(f"/discussions/{topic.id}#reply-{reply.id}", status_code=303)
@@ -253,7 +264,7 @@ def topic_delete(request: Request, db: DbDep, settings: SettingsDep, signer: Sig
 
 
 def topics_for_user(db, user_id: uuid.UUID, limit: int = 5) -> list[Topic]:  # noqa: ANN001
-    return db.execute(topic_query().where(Topic.user_id == user_id).order_by(Topic.created_at.desc()).limit(limit)).scalars().all()
+    return db.execute(topic_query().where(Topic.user_id == user_id, Topic.hidden.is_(False)).order_by(Topic.created_at.desc()).limit(limit)).scalars().all()
 
 
 def helpful_reply_count(db, user_id: uuid.UUID) -> int:  # noqa: ANN001
@@ -264,4 +275,4 @@ def helpful_reply_count(db, user_id: uuid.UUID) -> int:  # noqa: ANN001
 
 
 def latest_topics(db, limit: int = 30) -> list[Topic]:  # noqa: ANN001
-    return db.execute(topic_query().order_by(Topic.created_at.desc()).limit(limit)).scalars().all()
+    return db.execute(topic_query().where(Topic.hidden.is_(False)).order_by(Topic.created_at.desc()).limit(limit)).scalars().all()

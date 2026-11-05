@@ -35,6 +35,7 @@ class User(Base):
     bio: Mapped[str] = mapped_column(String(280), default="")
     created_at: Mapped[datetime] = mapped_column(DateTime, default=utcnow, nullable=False)
     deleted_at: Mapped[datetime | None] = mapped_column(DateTime)
+    banned_at: Mapped[datetime | None] = mapped_column(DateTime)
 
     identities: Mapped[list[Identity]] = relationship(back_populates="user", cascade="all, delete-orphan")
     sessions: Mapped[list[AuthSession]] = relationship(back_populates="user", cascade="all, delete-orphan")
@@ -371,6 +372,8 @@ class TeaSession(Base):
     )
     allow_comments: Mapped[bool] = mapped_column(Boolean, default=True)
     post_id: Mapped[uuid.UUID | None] = mapped_column(Uuid, index=True)  # "brew along" with a blog post (milestone 5)
+    hidden: Mapped[bool] = mapped_column(Boolean, default=False, server_default="0", nullable=False)
+    announced: Mapped[bool] = mapped_column(Boolean, default=False, server_default="0", nullable=False)  # followers were told
     brewed_at: Mapped[datetime] = mapped_column(DateTime, default=utcnow, nullable=False, index=True)
     created_at: Mapped[datetime] = mapped_column(DateTime, default=utcnow, nullable=False)
     updated_at: Mapped[datetime] = mapped_column(DateTime, default=utcnow, onupdate=utcnow, nullable=False)
@@ -381,6 +384,7 @@ class TeaSession(Base):
     comments: Mapped[list[SessionComment]] = relationship(
         back_populates="session", cascade="all, delete-orphan", order_by="SessionComment.created_at"
     )
+    photos: Mapped[list[SessionPhoto]] = relationship(back_populates="session", cascade="all, delete-orphan", order_by="SessionPhoto.sort")
 
     @property
     def is_public(self) -> bool:
@@ -425,6 +429,21 @@ class Steep(Base):
     session: Mapped[TeaSession] = relationship(back_populates="steeps")
 
 
+class SessionPhoto(Base):
+    """A photo re-encoded to WebP on upload: EXIF gone, size limited. Files live in media/sessions/<session id>/."""
+
+    __tablename__ = "session_photos"
+
+    id: Mapped[uuid.UUID] = mapped_column(Uuid, primary_key=True, default=uuid.uuid4)
+    session_id: Mapped[uuid.UUID] = mapped_column(ForeignKey("tea_sessions.id", ondelete="CASCADE"), index=True)
+    url: Mapped[str] = mapped_column(String(300))
+    thumb_url: Mapped[str] = mapped_column(String(300))
+    sort: Mapped[int] = mapped_column(Integer, default=0)
+    created_at: Mapped[datetime] = mapped_column(DateTime, default=utcnow, nullable=False)
+
+    session: Mapped[TeaSession] = relationship(back_populates="photos")
+
+
 class SessionComment(Base):
     __tablename__ = "session_comments"
 
@@ -432,6 +451,7 @@ class SessionComment(Base):
     session_id: Mapped[uuid.UUID] = mapped_column(ForeignKey("tea_sessions.id", ondelete="CASCADE"), index=True)
     user_id: Mapped[uuid.UUID] = mapped_column(ForeignKey("users.id", ondelete="CASCADE"), index=True)
     body: Mapped[str] = mapped_column(Text)
+    hidden: Mapped[bool] = mapped_column(Boolean, default=False, server_default="0", nullable=False)
     created_at: Mapped[datetime] = mapped_column(DateTime, default=utcnow, nullable=False)
 
     session: Mapped[TeaSession] = relationship(back_populates="comments")
@@ -466,6 +486,7 @@ class Topic(Base):
     attached_session_id: Mapped[uuid.UUID | None] = mapped_column(ForeignKey("tea_sessions.id", ondelete="SET NULL"))
     pinned: Mapped[bool] = mapped_column(Boolean, default=False)
     solved: Mapped[bool] = mapped_column(Boolean, default=False)
+    hidden: Mapped[bool] = mapped_column(Boolean, default=False, server_default="0", nullable=False)
     reply_count: Mapped[int] = mapped_column(Integer, default=0)
     last_reply_at: Mapped[datetime | None] = mapped_column(DateTime)
     created_at: Mapped[datetime] = mapped_column(DateTime, default=utcnow, nullable=False, index=True)
@@ -495,6 +516,7 @@ class Reply(Base):
     attached_session_id: Mapped[uuid.UUID | None] = mapped_column(ForeignKey("tea_sessions.id", ondelete="SET NULL"))
     helpful_count: Mapped[int] = mapped_column(Integer, default=0)
     marked_helpful_by_author: Mapped[bool] = mapped_column(Boolean, default=False)
+    hidden: Mapped[bool] = mapped_column(Boolean, default=False, server_default="0", nullable=False)
     created_at: Mapped[datetime] = mapped_column(DateTime, default=utcnow, nullable=False)
 
     topic: Mapped[Topic] = relationship(back_populates="replies")
@@ -574,6 +596,7 @@ class PostComment(Base):
     post_id: Mapped[uuid.UUID] = mapped_column(ForeignKey("posts.id", ondelete="CASCADE"), index=True)
     user_id: Mapped[uuid.UUID] = mapped_column(ForeignKey("users.id", ondelete="CASCADE"), index=True)
     body: Mapped[str] = mapped_column(Text)
+    hidden: Mapped[bool] = mapped_column(Boolean, default=False, server_default="0", nullable=False)
     created_at: Mapped[datetime] = mapped_column(DateTime, default=utcnow, nullable=False)
 
     post: Mapped[Post] = relationship(back_populates="comments")
@@ -593,3 +616,63 @@ def video_embed(url: str | None) -> dict | None:
     if instagram:
         return {"provider": "instagram", "url": f"https://www.instagram.com/{'reel' if '/reel' in url else 'p'}/{instagram.group(1)}/", "id": instagram.group(1)}
     return {"provider": "link", "url": url, "id": None}
+
+
+# ---------------------------------------------------------------------------------------------------------------
+# Social layer and moderation
+# ---------------------------------------------------------------------------------------------------------------
+
+
+class Follow(Base):
+    __tablename__ = "follows"
+    __table_args__ = (UniqueConstraint("follower_id", "followee_id", name="uq_follows_pair"),)
+
+    id: Mapped[uuid.UUID] = mapped_column(Uuid, primary_key=True, default=uuid.uuid4)
+    follower_id: Mapped[uuid.UUID] = mapped_column(ForeignKey("users.id", ondelete="CASCADE"), index=True)
+    followee_id: Mapped[uuid.UUID] = mapped_column(ForeignKey("users.id", ondelete="CASCADE"), index=True)
+    created_at: Mapped[datetime] = mapped_column(DateTime, default=utcnow, nullable=False)
+
+
+class Notification(Base):
+    __tablename__ = "notifications"
+
+    id: Mapped[uuid.UUID] = mapped_column(Uuid, primary_key=True, default=uuid.uuid4)
+    user_id: Mapped[uuid.UUID] = mapped_column(ForeignKey("users.id", ondelete="CASCADE"), index=True)
+    actor_id: Mapped[uuid.UUID | None] = mapped_column(ForeignKey("users.id", ondelete="SET NULL"))
+    text: Mapped[str] = mapped_column(String(300))
+    url: Mapped[str] = mapped_column(String(300))
+    read_at: Mapped[datetime | None] = mapped_column(DateTime)
+    created_at: Mapped[datetime] = mapped_column(DateTime, default=utcnow, nullable=False, index=True)
+
+    actor: Mapped[User | None] = relationship(foreign_keys=[actor_id])
+
+
+SAVE_KINDS = ("tea", "session", "topic", "post")
+
+
+class SavedItem(Base):
+    __tablename__ = "saved_items"
+    __table_args__ = (UniqueConstraint("user_id", "kind", "ref_id", name="uq_saved_items"),)
+
+    id: Mapped[uuid.UUID] = mapped_column(Uuid, primary_key=True, default=uuid.uuid4)
+    user_id: Mapped[uuid.UUID] = mapped_column(ForeignKey("users.id", ondelete="CASCADE"), index=True)
+    kind: Mapped[str] = mapped_column(String(10))
+    ref_id: Mapped[uuid.UUID] = mapped_column(Uuid)
+    created_at: Mapped[datetime] = mapped_column(DateTime, default=utcnow, nullable=False)
+
+
+REPORT_REASONS = {"spam": "Spam or advertising", "rude": "Rude or harassing", "wrong": "Dangerous or false claims", "other": "Something else"}
+
+
+class Report(Base):
+    __tablename__ = "reports"
+
+    id: Mapped[uuid.UUID] = mapped_column(Uuid, primary_key=True, default=uuid.uuid4)
+    reporter_id: Mapped[uuid.UUID] = mapped_column(ForeignKey("users.id", ondelete="CASCADE"), index=True)
+    kind: Mapped[str] = mapped_column(String(20))  # session | session_comment | topic | reply | post_comment | user
+    ref_id: Mapped[uuid.UUID] = mapped_column(Uuid)
+    reason: Mapped[str] = mapped_column(String(10))
+    resolved_at: Mapped[datetime | None] = mapped_column(DateTime, index=True)
+    created_at: Mapped[datetime] = mapped_column(DateTime, default=utcnow, nullable=False)
+
+    reporter: Mapped[User] = relationship()

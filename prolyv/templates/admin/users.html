@@ -1,0 +1,29 @@
+{% extends "base.html" %}
+{% from "partials/macros.html" import avatar %}
+{% block title %}Users · Prolyv admin{% endblock %}
+{% block content %}
+<div class="container narrow">
+  <p class="eyebrow"><a href="/admin">Admin</a></p>
+  <h1 class="h1">Users · {{ total }}</h1>
+  <form class="teas-filters forum-search" method="get" action="/admin/users" role="search">
+    <input type="search" name="q" value="{{ q }}" placeholder="Search by handle or name" aria-label="Search users">
+    <button class="btn btn-secondary btn-sm" type="submit">Search</button>
+  </form>
+  <ul class="admin-list">
+    {% for u in users %}
+    <li>
+      <a class="author-link" href="/u/{{ u.handle }}">{{ avatar(u, 28) }} <span>@{{ u.handle }}</span></a>
+      <span class="muted small">{{ u.display_name }} · joined {{ u.created_at.strftime('%-d %b %Y') }}{% if u.banned_at %} · <strong>restricted</strong>{% endif %}</span>
+      <form method="post" action="/admin/users/{{ u.handle }}/ban"{% if not u.banned_at %} data-confirm="Restrict @{{ u.handle }} and sign them out?"{% endif %}><input type="hidden" name="csrf_token" value="{{ csrf_token }}"><input type="hidden" name="banned" value="{{ '0' if u.banned_at else '1' }}"><button class="btn btn-ghost btn-sm" type="submit">{{ 'Lift restriction' if u.banned_at else 'Restrict' }}</button></form>
+    </li>
+    {% endfor %}
+  </ul>
+  {% if pages > 1 %}
+  <nav class="pagination" aria-label="Pages">
+    {% if page > 1 %}<a class="btn btn-secondary btn-sm" href="?q={{ q|urlencode }}&page={{ page - 1 }}">← Previous</a>{% endif %}
+    <span class="muted">Page {{ page }} of {{ pages }}</span>
+    {% if page < pages %}<a class="btn btn-secondary btn-sm" href="?q={{ q|urlencode }}&page={{ page + 1 }}">Next →</a>{% endif %}
+  </nav>
+  {% endif %}
+</div>
+{% endblock %}

@@ -8,7 +8,7 @@
       <p class="eyebrow">My diary</p>
       <h1 class="display">{{ current_user.display_name }}</h1>
       <p class="lead">{% if stats.total %}{{ stats.total }} session{{ '' if stats.total == 1 else 's' }} logged · {{ stats.public }} public{% else %}Your steeps will show up here.{% endif %}</p>
-      <div class="actions"><a class="btn btn-primary" href="/sessions/new"><span class="plus" aria-hidden="true">+</span> Log a tea</a><a class="btn btn-secondary" href="/u/{{ current_user.handle }}">Public profile</a></div>
+      <div class="actions"><a class="btn btn-primary" href="/sessions/new"><span class="plus" aria-hidden="true">+</span> Log a tea</a><a class="btn btn-secondary" href="/u/{{ current_user.handle }}">Public profile</a><a class="btn btn-secondary" href="/saved">Saved</a></div>
     </div>
     <ul class="stats">
       <li><p class="stat-value grad-pink">{{ stats.month }}</p><p class="stat-label">last 30 days</p></li>

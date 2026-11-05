@@ -337,8 +337,10 @@ def tea_detail(request: Request, db: DbDep, settings: SettingsDep, user: Current
     if tea.wikipedia_url:
         jsonld["about"]["sameAs"] = tea.wikipedia_url
     from prolyv.web.routes_diary import public_sessions_for_tea
+    from prolyv.web.routes_social import is_saved
 
     context = {
+        "saved": is_saved(db, user, "tea", tea.id),
         "tea": tea, "text": text, "lang": lang, "languages": languages, "related": related, "image": image, "is_admin_view": is_admin,
         "sessions": public_sessions_for_tea(db, tea.id), "page_url": page_url,
         "jsonld": json.dumps(jsonld, ensure_ascii=False).replace("</", "<\\/"),

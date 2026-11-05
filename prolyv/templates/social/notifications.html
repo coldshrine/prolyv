@@ -1,0 +1,22 @@
+{% extends "base.html" %}
+{% from "partials/macros.html" import avatar %}
+{% block title %}Notifications · Prolyv{% endblock %}
+{% block content %}
+<div class="container narrow">
+  <h1 class="h1">Notifications</h1>
+  {% if notifications %}
+  <ul class="notifications">
+    {% for n in notifications %}
+    <li{% if n.id in had_unread %} class="unread"{% endif %}>
+      <a href="{{ n.url }}">
+        {% if n.actor %}{{ avatar(n.actor, 36) }}{% endif %}
+        <span><span class="notification-text">{{ n.text }}</span><span class="muted small">{{ n.created_at.strftime('%-d %b, %H:%M') }}</span></span>
+      </a>
+    </li>
+    {% endfor %}
+  </ul>
+  {% else %}
+  <div class="card empty"><p class="empty-title">Nothing yet</p><p class="muted">Replies, comments and new sessions from people you follow will show up here.</p></div>
+  {% endif %}
+</div>
+{% endblock %}

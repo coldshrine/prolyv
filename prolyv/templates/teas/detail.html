@@ -1,5 +1,5 @@
 {% extends "base.html" %}
-{% from "partials/macros.html" import session_card, cup %}
+{% from "partials/macros.html" import session_card, cup, save_button %}
 {% block title %}{{ tea.name_en }}{% if tea.name_zh %} ({{ tea.name_zh }}){% endif %} · Prolyv tea base{% endblock %}
 {% block head %}
 <link rel="canonical" href="{{ og.url }}">
@@ -60,6 +60,7 @@
       {% endif %}
       <div class="actions">
         <a class="btn btn-primary" href="{% if current_user %}/sessions/new?tea={{ tea.slug }}{% else %}/login?next=/sessions/new%3Ftea%3D{{ tea.slug }}{% endif %}">Log this tea</a>
+        {{ save_button('tea', tea.id, saved, current_user, csrf_token, path) }}
         {% if tea.wikipedia_url %}<a class="btn btn-secondary" href="{{ tea.wikipedia_url }}" target="_blank" rel="noopener">Read more on Wikipedia</a>{% endif %}
         {% if is_admin_view %}<a class="btn btn-ghost" href="/admin/teas/{{ tea.slug }}/edit">Edit card</a>{% endif %}
       </div>

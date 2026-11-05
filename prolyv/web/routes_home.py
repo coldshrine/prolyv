@@ -4,9 +4,10 @@ from __future__ import annotations
 
 from fastapi import APIRouter, HTTPException, Request
 from fastapi.responses import JSONResponse, RedirectResponse
-from sqlalchemy import select
+from sqlalchemy import func, select
 
 from prolyv.models import Tea, TeaStatus
+from prolyv.social import followee_ids
 from prolyv.web.deps import CurrentUser, DbDep
 from prolyv.web.templating import render
 
@@ -15,35 +16,38 @@ router = APIRouter()
 FEED_TABS = [("all", "All"), ("sessions", "Sessions"), ("discussions", "Discussions"), ("blog", "Blog")]
 
 
-def build_feed(db, tab: str = "all", limit: int = 30) -> list[dict]:  # noqa: ANN001
-    """Newest public things across the site. Each item: {kind, at, obj}."""
+def build_feed(db, tab: str = "all", limit: int = 30, following: list | None = None) -> list[dict]:  # noqa: ANN001
+    """Newest public things across the site. Each item: {kind, at, obj}. `following` limits it to those authors."""
+    from prolyv.models import Post, TeaSession, Topic
+    from prolyv.web.routes_blog import published_posts
     from prolyv.web.routes_diary import public_sessions
-    from prolyv.web.routes_forum import latest_topics
+    from prolyv.web.routes_forum import topic_query
 
     items: list[dict] = []
-    if tab in ("all", "sessions"):
-        from prolyv.models import TeaSession
-
-        sessions = db.execute(public_sessions().order_by(TeaSession.brewed_at.desc()).limit(limit)).scalars().all()
-        items += [{"kind": "session", "at": s.brewed_at, "obj": s} for s in sessions]
-    if tab in ("all", "discussions"):
-        items += [{"kind": "topic", "at": t.created_at, "obj": t} for t in latest_topics(db, limit)]
+    if tab in ("all", "sessions", "following"):
+        stmt = public_sessions().order_by(TeaSession.brewed_at.desc()).limit(limit)
+        if following is not None:
+            stmt = stmt.where(TeaSession.user_id.in_(following))
+        items += [{"kind": "session", "at": s.brewed_at, "obj": s} for s in db.execute(stmt).scalars().all()]
+    if tab in ("all", "discussions", "following"):
+        stmt = topic_query().where(Topic.hidden.is_(False)).order_by(Topic.created_at.desc()).limit(limit)
+        if following is not None:
+            stmt = stmt.where(Topic.user_id.in_(following))
+        items += [{"kind": "topic", "at": t.created_at, "obj": t} for t in db.execute(stmt).scalars().all()]
     if tab in ("all", "blog"):
-        try:
-            from prolyv.web.routes_blog import latest_posts
-        except ImportError:  # pragma: no cover - blog lands in milestone 5
-            latest_posts = None
-        if latest_posts is not None:
-            items += [{"kind": "post", "at": p.published_at, "obj": p} for p in latest_posts(db, limit)]
+        stmt = published_posts().order_by(Post.published_at.desc()).limit(limit)
+        items += [{"kind": "post", "at": p.published_at, "obj": p} for p in db.execute(stmt).scalars().all()]
     items.sort(key=lambda i: i["at"], reverse=True)
     return items[:limit]
 
 
 @router.get("/")
 def home(request: Request, db: DbDep, user: CurrentUser, tab: str = "all"):
-    tab = tab if tab in dict(FEED_TABS) else "all"
-    tea_count = db.scalar(select(__import__("sqlalchemy").func.count()).select_from(Tea).where(Tea.status == TeaStatus.published)) or 0
-    return render(request, "home.html", {"feed": build_feed(db, tab), "tab": tab, "tabs": FEED_TABS, "tea_count": tea_count})
+    tabs = [*FEED_TABS, ("following", "Following")] if user else FEED_TABS
+    tab = tab if tab in dict(tabs) else "all"
+    following = followee_ids(db, user) if tab == "following" and user else None
+    tea_count = db.scalar(select(func.count()).select_from(Tea).where(Tea.status == TeaStatus.published)) or 0
+    return render(request, "home.html", {"feed": build_feed(db, tab, following=following), "tab": tab, "tabs": tabs, "tea_count": tea_count})
 
 
 @router.get("/healthz")

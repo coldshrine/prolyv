@@ -1,0 +1,16 @@
+{% extends "base.html" %}
+{% block title %}Admin · Prolyv{% endblock %}
+{% block content %}
+<div class="container narrow">
+  <p class="eyebrow">Admin</p>
+  <h1 class="h1">Site admin</h1>
+  <div class="type-grid admin-hub">
+    <a class="card card-link" href="/admin/reports"><span><span class="promo-title">Reports</span><span class="muted small">{{ counts.reports }} open</span></span></a>
+    <a class="card card-link" href="/admin/users"><span><span class="promo-title">Users</span><span class="muted small">{{ counts.users }} accounts</span></span></a>
+    <a class="card card-link" href="/admin/teas"><span><span class="promo-title">Tea base</span><span class="muted small">{{ counts.teas }} cards</span></span></a>
+    <a class="card card-link" href="/admin/posts"><span><span class="promo-title">Blog posts</span><span class="muted small">{{ counts.posts }} posts</span></span></a>
+    <a class="card card-link" href="/discussions"><span><span class="promo-title">Discussions</span><span class="muted small">{{ counts.topics }} topics. Pin and hide from the topic page.</span></span></a>
+    <span class="card"><span class="promo-title">Sessions</span><br><span class="muted small">{{ counts.sessions }} logged, private ones stay private.</span></span>
+  </div>
+</div>
+{% endblock %}

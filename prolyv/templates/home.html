@@ -41,7 +41,7 @@
   {% if feed %}
   <div class="feed">{% for item in feed %}{{ feed_item(item) }}{% endfor %}</div>
   {% else %}
-  <div class="card empty"><p class="empty-title">Quiet for now</p><p class="muted">Public sessions, discussions and blog posts will appear here.</p></div>
+  <div class="card empty"><p class="empty-title">Quiet for now</p><p class="muted">{% if tab == 'following' %}Follow people on their profile pages and their sessions and topics will appear here.{% else %}Public sessions, discussions and blog posts will appear here.{% endif %}</p></div>
   {% endif %}
 </section>
 {% endblock %}

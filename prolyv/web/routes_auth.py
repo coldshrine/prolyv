@@ -175,6 +175,9 @@ def complete_sign_in(
         set_flash(response, settings, signer, "error", f"That {provider_name} account is already linked to another Prolyv account.")
         return response
 
+    if user.banned_at is not None:
+        return error_page(request, "This account is restricted", "It can't sign in. Contact the admins if you think this is a mistake.", 403)
+
     old_session = request.state.session
     if old_session is not None:
         revoke_session(db, old_session)  # rotate on every login

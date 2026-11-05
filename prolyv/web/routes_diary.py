@@ -24,7 +24,8 @@ from prolyv.models import (
     Visibility,
     utcnow,
 )
-from prolyv.web.deps import CurrentUser, DbDep, RequiredUser, SettingsDep, SignerDep, require_csrf
+from prolyv.social import notify, notify_followers
+from prolyv.web.deps import CurrentUser, DbDep, RequiredUser, SettingsDep, SignerDep, post_quota, require_csrf
 from prolyv.web.flash import set_flash
 from prolyv.web.templating import render
 
@@ -36,7 +37,7 @@ def session_query():
 
 
 def public_sessions():
-    return session_query().where(TeaSession.visibility == Visibility.public)
+    return session_query().where(TeaSession.visibility == Visibility.public, TeaSession.hidden.is_(False))
 
 
 def get_session(db, session_id: uuid.UUID, viewer: User | None, is_admin: bool = False) -> TeaSession:  # noqa: ANN001
@@ -44,9 +45,16 @@ def get_session(db, session_id: uuid.UUID, viewer: User | None, is_admin: bool =
     if sess is None:
         raise HTTPException(status_code=404)
     owner = viewer is not None and viewer.id == sess.user_id
-    if not sess.is_public and not owner and not is_admin:
+    if (not sess.is_public or sess.hidden) and not owner and not is_admin:
         raise HTTPException(status_code=404)
     return sess
+
+
+def announce_session(db, sess: TeaSession) -> None:  # noqa: ANN001
+    """Tell followers about a session the first time it becomes public."""
+    if sess.is_public and not sess.announced:
+        sess.announced = True
+        notify_followers(db, sess.user, f"@{sess.user.handle} logged {sess.tea_name}", f"/sessions/{sess.id}")
 
 
 def require_owner(sess: TeaSession, viewer: User, is_admin: bool = False) -> None:
@@ -242,6 +250,7 @@ async def session_create(request: Request, db: DbDep, settings: SettingsDep, sig
     db.flush()
     apply_session_form(db, sess, form)
     db.flush()
+    announce_session(db, sess)
     response = RedirectResponse(f"/sessions/{sess.id}", status_code=303)
     set_flash(response, settings, signer, "ok", "Session saved to your diary." + (" It is public." if sess.is_public else ""))
     return response
@@ -263,6 +272,7 @@ async def session_edit(request: Request, db: DbDep, settings: SettingsDep, signe
         return render(request, "diary/session_form.html", form_context(form, errors, tea=sess.tea, editing=sess), status_code=400)
     apply_session_form(db, sess, form)
     sess.updated_at = utcnow()
+    announce_session(db, sess)
     response = RedirectResponse(f"/sessions/{sess.id}", status_code=303)
     set_flash(response, settings, signer, "ok", "Session updated.")
     return response
@@ -274,6 +284,7 @@ def session_visibility(request: Request, db: DbDep, settings: SettingsDep, signe
     sess = get_session(db, session_id, user, getattr(request.state, "is_admin", False))
     require_owner(sess, user, getattr(request.state, "is_admin", False))
     sess.visibility = Visibility.public if visibility == "public" else Visibility.private
+    announce_session(db, sess)
     response = RedirectResponse(f"/sessions/{sess.id}", status_code=303)
     set_flash(response, settings, signer, "ok", "This session is now public." if sess.is_public else "This session is private again.")
     return response
@@ -300,10 +311,15 @@ def session_page(request: Request, db: DbDep, settings: SettingsDep, user: Curre
     image = sess.tea.primary_image if sess.tea else None
     if image:
         og["image"] = image.thumb_url or image.url
-    return render(request, "diary/session.html", {"sess": sess, "is_owner": is_owner, "can_moderate": is_owner or is_admin, "og": og})
+    from prolyv.web.routes_social import is_saved
+
+    comments = [c for c in sess.comments if not c.hidden or is_admin]
+    context = {"sess": sess, "is_owner": is_owner, "can_moderate": is_owner or is_admin, "og": og, "comments": comments,
+               "saved": is_saved(db, user, "session", sess.id)}
+    return render(request, "diary/session.html", context)
 
 
-@router.post("/sessions/{session_id}/comments", dependencies=[Depends(require_csrf)])
+@router.post("/sessions/{session_id}/comments", dependencies=[Depends(require_csrf), Depends(post_quota)])
 def comment_create(request: Request, db: DbDep, settings: SettingsDep, signer: SignerDep, user: RequiredUser,
                    session_id: uuid.UUID, body: str = Form("")):
     sess = get_session(db, session_id, user, getattr(request.state, "is_admin", False))
@@ -316,6 +332,7 @@ def comment_create(request: Request, db: DbDep, settings: SettingsDep, signer: S
         set_flash(response, settings, signer, "error", "Write a comment first.")
         return response
     db.add(SessionComment(session=sess, user=user, body=body))
+    notify(db, sess.user_id, user, f"@{user.handle} commented on your {sess.tea_name} session", f"/sessions/{sess.id}#comments")
     return response
 
 
