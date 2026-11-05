@@ -49,6 +49,15 @@ def test_looks_like_photo_filters_icons_and_svgs():
     assert not import_teas.looks_like_photo("File:Flag of Japan.svg")
     assert not import_teas.looks_like_photo("File:Map of Shizuoka.png")
     assert not import_teas.looks_like_photo("File:Caffeine molecule.png")
+    assert import_teas.looks_like_tea_photo("File:Dong Ding tea.jpg")
+    assert import_teas.looks_like_tea_photo("File:凍頂烏龍茶.jpg")
+    assert not import_teas.looks_like_tea_photo("File:Taiwanese cuisine.jpg")
+
+
+def test_image_urls_are_cleaned_for_hotlinking():
+    dirty = "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/30/Dong_Ding_tea.jpg/960px-Dong_Ding_tea.jpg?utm_source=commons&utm_content=thumbnail"
+    assert import_teas.clean_image_url(dirty) == "https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/Dong_Ding_tea.jpg/960px-Dong_Ding_tea.jpg"
+    assert import_teas.clean_image_url(None) is None
 
 
 def test_enrich_uses_only_free_licensed_photos(monkeypatch):
@@ -59,7 +68,7 @@ def test_enrich_uses_only_free_licensed_photos(monkeypatch):
         "rest_v1/page/summary": {"title": "Sencha", "description": "Japanese green tea", "extract": "Sencha is a Japanese green tea."},
         "Special:EntityData": {"entities": {"Q1": {"claims": {"P18": [{"mainsnak": {"datavalue": {"value": "Sencha main.jpg"}}}]}}}},
         "list=categorymembers": {"query": {"categorymembers": []}},
-        "list=search": {"query": {"search": [{"title": "File:Unfree sencha.jpg"}]}},
+        "list=search": {"query": {"search": [{"title": "File:Unfree sencha tea.jpg"}, {"title": "File:Random noodles.jpg"}]}},
         "prop=imageinfo": {"query": {"pages": [
             {"title": "File:Sencha main.jpg", "imageinfo": [{"url": "https://u/main.jpg", "thumburl": "https://u/main-t.jpg", "descriptionurl": "https://c/main",
                                                              "mime": "image/jpeg", "width": 1200, "height": 900,
@@ -67,7 +76,7 @@ def test_enrich_uses_only_free_licensed_photos(monkeypatch):
             {"title": "File:Sencha field.jpg", "imageinfo": [{"url": "https://u/field.jpg", "thumburl": "https://u/field-t.jpg", "descriptionurl": "https://c/field",
                                                               "mime": "image/jpeg", "width": 1000, "height": 700,
                                                               "extmetadata": {"LicenseShortName": {"value": "Public domain"}}}]},
-            {"title": "File:Unfree sencha.jpg", "imageinfo": [{"url": "https://u/unfree.jpg", "mime": "image/jpeg", "width": 1000, "height": 700,
+            {"title": "File:Unfree sencha tea.jpg", "imageinfo": [{"url": "https://u/unfree.jpg", "mime": "image/jpeg", "width": 1000, "height": 700,
                                                                "extmetadata": {"LicenseShortName": {"value": "Fair use"}}}]},
             {"title": "File:Sencha cup.jpg", "imageinfo": [{"url": "https://u/cup.jpg", "mime": "image/jpeg", "width": 200, "height": 100,
                                                             "extmetadata": {"LicenseShortName": {"value": "CC0"}}}]},

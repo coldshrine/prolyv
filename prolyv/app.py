@@ -13,10 +13,19 @@ from starlette.exceptions import HTTPException as StarletteHTTPException
 from prolyv.auth.google import GoogleOIDC
 from prolyv.config import Settings, get_settings
 from prolyv.db import make_engine, make_session_factory
+from prolyv.forum_search import ensure_fts
 from prolyv.ratelimit import RateLimiter, RateLimitMiddleware
 from prolyv.security import Signer
-from prolyv.forum_search import ensure_fts
-from prolyv.web import routes_account, routes_auth, routes_blog, routes_dev, routes_diary, routes_forum, routes_home, routes_teas
+from prolyv.web import (
+    routes_account,
+    routes_auth,
+    routes_blog,
+    routes_dev,
+    routes_diary,
+    routes_forum,
+    routes_home,
+    routes_teas,
+)
 from prolyv.web.cookies import PendingCookiesMiddleware
 from prolyv.web.headmethod import HeadMethodMiddleware
 from prolyv.web.routes_auth import login_redirect

@@ -21,7 +21,7 @@ import json
 import re
 import sys
 import time
-from datetime import datetime, timezone
+from datetime import UTC, datetime
 from pathlib import Path
 from urllib.parse import quote, urlencode
 
@@ -125,7 +125,7 @@ class Http:
 
 
 def _now() -> str:
-    return datetime.now(timezone.utc).isoformat(timespec="seconds")
+    return datetime.now(UTC).isoformat(timespec="seconds")
 
 
 def strip_html(value: str | None) -> str | None:
@@ -272,11 +272,12 @@ def commons_category_files(http: Http, category: str, limit: int = 20) -> list[s
     return [m["title"] for m in data["query"].get("categorymembers", [])]
 
 
-def commons_search(http: Http, query: str, limit: int = 8) -> list[str]:
+def commons_search(http: Http, query: str, limit: int = 10, exact: bool = True) -> list[str]:
+    phrase = f'"{query}"' if exact else query
     data = http.get_json(
         COMMONS_API,
         {"action": "query", "format": "json", "formatversion": 2, "list": "search", "srnamespace": 6,
-         "srlimit": limit, "srsearch": f'"{query}" tea filetype:bitmap'},
+         "srlimit": limit, "srsearch": f"{phrase} filetype:bitmap"},
     )
     if not data or "query" not in data:
         return []
@@ -310,8 +311,8 @@ def commons_imageinfo(http: Http, titles: list[str]) -> list[dict]:
             results.append(
                 {
                     "title": page["title"],
-                    "url": info["url"],
-                    "thumb_url": info.get("thumburl") or info["url"],
+                    "url": clean_image_url(info["url"]),
+                    "thumb_url": clean_image_url(info.get("thumburl") or info["url"]),
                     "source_page": info.get("descriptionurl"),
                     "author": strip_html((meta.get("Artist") or {}).get("value")),
                     "license": license_name,
@@ -321,9 +322,27 @@ def commons_imageinfo(http: Http, titles: list[str]) -> list[dict]:
     return results
 
 
+TEA_WORDS = re.compile(r"tea|cha\b|chá|茶|oolong|wulong|pu-?erh|pu'er|puer|sencha|matcha|gyokuro|hojicha|bancha|genmaicha|"
+                       r"leaf|leaves|brew|infus|steep|gaiwan|teapot|kyusu|yixing|tisane|rooibos|mate\b|herbal|chai",
+                       re.IGNORECASE)
+
+
 def looks_like_photo(file_title: str) -> bool:
     name = file_title.lower()
     return name.endswith(IMAGE_EXT) and not any(word in name for word in BAD_IMAGE_WORDS)
+
+
+def looks_like_tea_photo(file_title: str) -> bool:
+    """Search hits must mention tea in the file name: 'Taiwanese cuisine.jpg' is not a Dong Ding photo."""
+    return looks_like_photo(file_title) and TEA_WORDS.search(file_title) is not None
+
+
+def clean_image_url(url: str | None) -> str | None:
+    """Drop the tracking query the API appends and use the canonical upload host for hotlinking."""
+    if not url:
+        return None
+    url = url.split("?", 1)[0]
+    return url.replace("https://thumb.wikimedia.org/", "https://upload.wikimedia.org/")
 
 
 def enrich(http: Http, card: dict, max_images: int) -> dict:
@@ -345,16 +364,20 @@ def enrich(http: Http, card: dict, max_images: int) -> dict:
                     candidates += [f"File:{name}" for name in entity["images"]]
                 if page.get("pageimage"):
                     candidates.append(f"File:{page['pageimage']}")
-                candidates += [t for t in page["images"] if looks_like_photo(t)]
+                # inline article images include navbox pictures (cuisine, flags): keep only tea-looking ones
+                candidates += [t for t in page["images"] if looks_like_tea_photo(t)]
                 if entity and entity.get("commons_category"):
                     candidates += [t for t in commons_category_files(http, entity["commons_category"]) if looks_like_photo(t)]
     if summary:
         out["summary"] = {"title": summary.get("title"), "description": summary.get("description"), "extract": summary.get("extract")}
-    search_terms = [card["name_en"]] + [a for a in card.get("aliases", [])[:1]]
-    for term in search_terms:
+    # Commons search: the English name, the native name, then the first alias; results must look like tea photos.
+    search_terms = [card["name_en"], card.get("name_native"), *(card.get("aliases") or [])[:1]]
+    for term in [t for t in search_terms if t]:
         if len(candidates) >= max_images * 3:
             break
-        candidates += [t for t in commons_search(http, term) if looks_like_photo(t)]
+        candidates += [t for t in commons_search(http, term) if looks_like_tea_photo(t)]
+    if len(candidates) < max_images:  # looser query as a last resort
+        candidates += [t for t in commons_search(http, f"{card['name_en']} tea", exact=False) if looks_like_tea_photo(t)]
     deduped = list(dict.fromkeys(candidates))[: max_images * 3]
     if deduped:
         resolved = commons_imageinfo(http, deduped)

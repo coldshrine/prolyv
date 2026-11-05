@@ -5,7 +5,6 @@ from __future__ import annotations
 import json
 import uuid
 from datetime import datetime
-
 from urllib.parse import urlencode
 
 from fastapi import APIRouter, Depends, Form, HTTPException, Request

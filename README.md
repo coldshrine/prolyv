@@ -3,8 +3,14 @@
 Tea diary, forum and blog — the home of the Prolyv TikTok and Instagram. Short videos live there; full brewing
 breakdowns, discussion and personal diaries live here.
 
-This is **milestone 1: login and accounts**. Teas, sessions (the diary), the forum and the blog come next and
-extend the same schema.
+Milestones so far:
+
+1. **Login and accounts** — Google / Telegram sign-in, sessions, settings, public profiles.
+2. **Tea base** — hundreds of catalog cards with photos from Wikimedia Commons, search and filters, community
+   requests with admin review, sitemap and structured data.
+3. **Diary** — tea sessions with a steep timer, private by default, comments, "brew it the same way".
+4. **Forum and feed** — sections, topics with attached sessions, helpful replies, full-text search, home feed.
+5. **Blog** — Markdown posts with TikTok / Instagram embeds, brew-along sessions, comments.
 
 ## Stack
 
@@ -39,7 +45,23 @@ uv run alembic upgrade head
 uv run uvicorn prolyv.main:app --reload
 ```
 
-Open <http://localhost:8000/login>. Tests:
+Open <http://localhost:8000/login>. For a populated local site:
+
+```bash
+uv run python scripts/import_teas.py
+```
+
+```bash
+uv run python scripts/seed_dev.py
+```
+
+The first command fills the tea base from `data/teas/**/*.json` and fetches links and free-licence photos from
+Wikipedia, Wikidata and Wikimedia Commons (about ten minutes the first time; every response is cached in
+`data/cache/`, so later runs are fast and `--no-network` works offline). The second creates three users (`karyna`
+is the admin), a few sessions, topics and a blog post. With `DEV_LOGIN=1` and `ADMIN_HANDLES=karyna` in `.env`
+you can sign in as any seeded user at `/dev/login/<handle>` without Google or Telegram (refused on https).
+
+Tests:
 
 ```bash
 uv run pytest
@@ -49,6 +71,25 @@ The suite covers Telegram hash verification (valid, tampered, stale), the Google
 Google (state, nonce, audience, failed exchange), the session cookie lifecycle, handle generation and collisions,
 settings validation and handle uniqueness, the unlink-last-provider refusal, soft delete, CSRF, rate limiting,
 in-app browser detection and the Alembic migration matching the models.
+
+## The tea base
+
+Every tea is a JSON file under `data/teas/<group>/<slug>.json`; `data/teas/SCHEMA.md` documents the fields, the
+enums and the house voice. The cards are the source of truth for the text; `scripts/import_teas.py` upserts them
+into the `teas` table and enriches each one:
+
+- the English Wikipedia article (`wikipedia_title`) gives the "Read more on Wikipedia" link and, for cards about
+  that exact tea, the Wikidata id, the lead photo (P18) and the Commons category;
+- photos come only from Wikimedia Commons with a free licence (CC BY, CC BY-SA, CC0, public domain) and are shown
+  with "Photo: author · licence" and a link to the source page — no shop photos;
+- a card without a photo gets a cup placeholder in the colour of its category.
+
+Re-running the importer is safe: cards edited by an admin in the UI are locked and keep their text. Options:
+`--group japan`, `--only sencha`, `--refresh` (ignore the cache), `--dry-run` (validate only), `--max-images 4`.
+
+Logged-in users can propose a tea at `/teas/new`; it stays `pending` and visible only to them until an admin
+publishes it from `/admin/teas`. Admins (handles listed in `ADMIN_HANDLES`) can edit any card and manage its
+photos; blog posts are written at `/admin/posts`.
 
 ## Secrets you have to create
 
@@ -109,6 +150,12 @@ locally (`sign_telegram_params` in `prolyv/auth/telegram.py` builds validly sign
 Rotating `SECRET_KEY` invalidates in-flight OAuth, flash and intent cookies and CSRF tokens, but not logins:
 sessions are database rows, not signed cookies.
 
+## Search
+
+Teas are searched with `LIKE` over a denormalised `search_text` (names, aliases, origin) — fine for a few
+thousand rows. Forum topics and replies use SQLite FTS5 (`forum_fts`, created by the migration and kept in sync
+from the routes); on Postgres this is the one place that needs a `tsvector` equivalent.
+
 ## Project layout
 
 ```
@@ -126,13 +173,22 @@ prolyv/
     telegram.py     Login Widget verification
     accounts.py     sign-in resolution, linking, unlinking, soft delete
     sessions.py     create / load / slide / revoke
+  forum_search.py   FTS5 index helpers
+  markdown.py       Markdown -> sanitised HTML for the blog
   web/
     routes_auth.py     /login, /auth/google/*, /auth/telegram/callback, /logout
     routes_account.py  /settings, /settings/handle-check, /u/{handle}
-    routes_home.py     /, /healthz and placeholders for feed, discuss, blog, diary, new
+    routes_teas.py     /teas, /teas/{slug}, /teas/c/{category}, /teas/o/{origin}, /teas/new, /admin/teas, sitemap.xml
+    routes_diary.py    /diary, /sessions/new, /sessions/{id}, comments, /teas/suggest
+    routes_forum.py    /discussions, /discussions/{id}, replies, votes, search
+    routes_blog.py     /blog, /blog/{slug}, comments, /admin/posts
+    routes_home.py     / (feed), /healthz, legacy redirects
+    routes_dev.py      /dev/login/{handle} (DEV_LOGIN=1 only)
     deps.py, cookies.py, flash.py, templating.py, useragent.py
-  templates/        base (top bar + bottom tab bar), login, settings, profile, home, errors
-  static/           app.css (design tokens), htmx.min.js (2.0.4, vendored)
+  templates/        base (top bar + bottom tab bar), login, settings, profile, teas/, diary/, forum/, blog/, admin/
+  static/           app.css (design tokens), session.js (steep timer), htmx.min.js (2.0.4, vendored)
+data/teas/          tea cards (JSON) + SCHEMA.md; data/cache/ is the importer's HTTP cache (git-ignored)
+scripts/            import_teas.py, seed_dev.py
 alembic/            migrations (alembic upgrade head)
 tests/              pytest suite (uv run pytest)
 deploy/             prolyv.service, Caddyfile, backup.sh
@@ -212,21 +268,15 @@ export SSH="ssh -i ~/Downloads/ssh-key-2026-06-25.key"
 
 **Updating later:** repeat steps 2, 3 and 5, then `sudo systemctl restart prolyv`.
 
+**Tea base on the server:** after the first deploy run the importer once on the VM (it only needs outbound
+HTTPS): `cd ~/prolyv && set -a && . /etc/prolyv.env && set +a && .venv/bin/python scripts/import_teas.py`.
+Re-run it whenever cards change. Do **not** run `scripts/seed_dev.py` on the server.
+
 **Memory.** One uvicorn worker (~70 MB) next to the Dota containers is fine on 956 MB plus swap; the unit caps
 Prolyv at 300 MB and restarts it if it ever grows past that.
 
-## Next milestone: tea sessions and the diary
+## What is still a stub
 
-What the schema already gives the next step, and what it needs:
-
-- `users.id` (UUID) is the foreign key for everything a person creates; filter `deleted_at IS NULL` for public
-  pages; `handle` is the URL (`/u/{handle}`), `display_name` and `avatar_url` are what to show in a feed.
-- **Naming:** the `sessions` table is *login* sessions. Call the diary table `tea_sessions` (or rename the login
-  table to `auth_sessions` now, while the migration is a one-liner and there is no data).
-- Suggested tables: `teas` (id, name, type, vendor, year, created_by → users) and `tea_sessions` (id, user_id,
-  tea_id, grams, water_ml, temp_c, steeps as JSON `[{seconds, note}]`, rating 1–5, notes, `is_public` default
-  false, brewed_at, created_at) with indexes on `(user_id, created_at)` and `(is_public, created_at)` for the feed.
-- Hooks in the code: `routes_home.py` holds the placeholders for `/feed`, `/diary` and `/new` — replace the
-  catch-all with real routers; the profile page has the empty "Sessions" section and two stat tiles waiting for
-  numbers; `RequiredUser`, `require_csrf`, `render()` and the bottom tab bar are ready to reuse.
-- Avatar upload, "Follow" and share cards are deliberately stubs on the profile page.
+- "Follow" on profiles, avatar upload and Open Graph share images for sessions.
+- Forum search on Postgres (FTS5 is SQLite-only).
+- Notifications (replies, comments) and e-mail.

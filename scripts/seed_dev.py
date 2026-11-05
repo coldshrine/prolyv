@@ -20,7 +20,18 @@ from prolyv.config import get_settings  # noqa: E402
 from prolyv.db import make_engine, make_session_factory  # noqa: E402
 from prolyv.markdown import render_markdown  # noqa: E402
 from prolyv.models import (  # noqa: E402
-    ForumSection, Identity, Post, Provider, Reply, Steep, Tea, TeaSession, Topic, User, Visibility, utcnow,
+    ForumSection,
+    Identity,
+    Post,
+    Provider,
+    Reply,
+    Steep,
+    Tea,
+    TeaSession,
+    Topic,
+    User,
+    Visibility,
+    utcnow,
 )
 
 USERS = [
