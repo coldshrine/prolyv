@@ -18,7 +18,9 @@ sys.path.insert(0, str(ROOT))
 
 from prolyv.config import get_settings  # noqa: E402
 from prolyv.db import make_engine, make_session_factory  # noqa: E402
-from prolyv.models import Identity, Provider, Steep, Tea, TeaSession, User, Visibility, utcnow  # noqa: E402
+from prolyv.models import (  # noqa: E402
+    ForumSection, Identity, Provider, Reply, Steep, Tea, TeaSession, Topic, User, Visibility, utcnow,
+)
 
 USERS = [
     ("karyna", "Karyna", "Tea TikToker. Runs Prolyv. Mostly oolong and sheng.", True),
@@ -95,7 +97,43 @@ def seed_sessions(db, users: list[User]) -> None:  # noqa: ANN001
     print(f"  + {len(samples)} sessions")
 
 
-EXTRA_SEEDERS: list = [seed_sessions]  # later milestones append functions (db, users) -> None
+def seed_forum(db, users: list[User]) -> None:  # noqa: ANN001
+    from prolyv.forum_search import index_reply, index_topic
+
+    if db.execute(select(Topic).limit(1)).first() is not None:
+        print("  = topics exist")
+        return
+    sections = {s.slug: s for s in db.execute(select(ForumSection)).scalars().all()}
+    karyna, olena, mike = users[0], users[1], users[2]
+    public = db.execute(select(TeaSession).where(TeaSession.visibility == Visibility.public)).scalars().all()
+    samples = [
+        (olena, "pu-erh", "Why does my shu pu-erh turn bitter after the third steep?",
+         "8 g in a 100 ml gaiwan, water off the boil, 10 second steeps.\n\nSteeps one and two are lovely and sweet, then it gets harsh and drying. Same leaf, same water. What am I doing wrong?",
+         [(mike, "Shu needs one quick rinse to wake up, and I'd go 7 g. From the third steep keep them at 5 seconds and it stays sweet.", True),
+          (karyna, "Also check the water: very soft water makes shu flat and then bitter. A pinch of mineralisation helps.", False)]),
+        (mike, "oolong", "Tie Guan Yin: spring vs autumn harvest, side by side",
+         "Brewed the spring and the autumn lot from the same farm back to back. Autumn wins on aroma, spring on texture.\n\nAnyone else notice this? Attaching the session.", []),
+        (karyna, "beginners", "What to buy first: gaiwan or a small teapot?",
+         "If you are starting gongfu brewing with oolong and pu-erh, a 100 ml porcelain gaiwan does everything. Teapots come later, when you know what you like.", []),
+    ]
+    for author, section_slug, title, body, replies in samples:
+        topic = Topic(section=sections[section_slug], user=author, title=title, body=body,
+                      attached_session=next((s for s in public if s.user_id == author.id), None))
+        db.add(topic)
+        db.flush()
+        index_topic(db, topic.id, title, body)
+        for replier, text, helpful in replies:
+            reply = Reply(topic=topic, user=replier, body=text, marked_helpful_by_author=helpful, helpful_count=3 if helpful else 0)
+            db.add(reply)
+            db.flush()
+            index_reply(db, reply.id, topic.id, text)
+            topic.reply_count += 1
+            topic.last_reply_at = utcnow()
+            topic.solved = topic.solved or helpful
+    print(f"  + {len(samples)} topics")
+
+
+EXTRA_SEEDERS: list = [seed_sessions, seed_forum]  # later milestones append functions (db, users) -> None
 
 
 if __name__ == "__main__":

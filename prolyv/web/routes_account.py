@@ -14,6 +14,7 @@ from prolyv.web.deps import CurrentUser, DbDep, RequiredUser, SettingsDep, Signe
 from prolyv.web.flash import set_flash
 from prolyv.web.routes_auth import PROVIDER_NAMES, set_telegram_intent
 from prolyv.web.routes_diary import public_session_count, public_sessions_for_user
+from prolyv.web.routes_forum import helpful_reply_count, topics_for_user
 from prolyv.web.templating import render
 
 router = APIRouter()
@@ -170,5 +171,7 @@ def profile_page(request: Request, db: DbDep, handle: str, current_user: Current
         "joined": user.created_at.strftime("%B %Y"),
         "sessions": public_sessions_for_user(db, user.id),
         "session_count": public_session_count(db, user.id),
+        "topics": topics_for_user(db, user.id),
+        "helpful_count": helpful_reply_count(db, user.id),
     }
     return render(request, "profile.html", context)

@@ -21,11 +21,11 @@
   <div class="topbar-inner">
     <a class="brand" href="/"><span class="brand-mark" aria-hidden="true"></span><span class="brand-name">Prolyv</span></a>
     <nav class="topnav" aria-label="Main navigation">
-      <a href="/feed"{% if path == '/feed' %} aria-current="page"{% endif %}>Feed</a>
+      <a href="/"{% if path == '/' %} aria-current="page"{% endif %}>Feed</a>
       <a href="/teas"{% if path.startswith('/teas') %} aria-current="page"{% endif %}>Teas</a>
-      <a href="/discuss"{% if path == '/discuss' %} aria-current="page"{% endif %}>Discussions</a>
+      <a href="/discussions"{% if path.startswith('/discussions') %} aria-current="page"{% endif %}>Discussions</a>
       <a href="/blog"{% if path == '/blog' %} aria-current="page"{% endif %}>Blog</a>
-      <a href="/diary"{% if path == '/diary' %} aria-current="page"{% endif %}>My diary</a>
+      <a href="/diary"{% if path.startswith('/diary') or path.startswith('/sessions') %} aria-current="page"{% endif %}>My diary</a>
     </nav>
     <div class="topbar-actions">
       <a class="icon-btn" href="/teas" aria-label="Search teas"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="M20 20l-3.5-3.5"/></svg></a>
@@ -46,8 +46,8 @@
 </main>
 {% block tabbar %}
 <nav class="tabbar" aria-label="Main navigation">
-  <a href="/feed"{% if path == '/feed' %} aria-current="page"{% endif %}><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 11l8-7 8 7v9a1 1 0 0 1-1 1h-5v-6h-4v6H5a1 1 0 0 1-1-1z"/></svg><span>Feed</span><i class="dot"></i></a>
-  <a href="/discuss"{% if path == '/discuss' %} aria-current="page"{% endif %}><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 6a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2h-7l-5 4v-4H6a2 2 0 0 1-2-2z"/></svg><span>Discuss</span><i class="dot"></i></a>
+  <a href="/"{% if path == '/' %} aria-current="page"{% endif %}><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 11l8-7 8 7v9a1 1 0 0 1-1 1h-5v-6h-4v6H5a1 1 0 0 1-1-1z"/></svg><span>Feed</span><i class="dot"></i></a>
+  <a href="/discussions"{% if path.startswith('/discussions') %} aria-current="page"{% endif %}><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 6a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2h-7l-5 4v-4H6a2 2 0 0 1-2-2z"/></svg><span>Discuss</span><i class="dot"></i></a>
   <a class="tab-plus" href="{% if current_user %}/sessions/new{% else %}/login?next=/sessions/new{% endif %}" aria-label="Log a tea"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 5v14M5 12h14"/></svg></a>
   <a href="/blog"{% if path == '/blog' %} aria-current="page"{% endif %}><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M8 5l12 7-12 7z"/></svg><span>Blog</span><i class="dot"></i></a>
   <a href="/diary"{% if path == '/diary' %} aria-current="page"{% endif %}><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 4h11a2 2 0 0 1 2 2v14H8a2 2 0 0 1-2-2zM6 18a2 2 0 0 1 2-2h11"/></svg><span>Diary</span><i class="dot"></i></a>

@@ -471,3 +471,41 @@ select option { color: #111; }
   .session-side { flex: 0 0 300px; }
   .params-grid { grid-template-columns: repeat(4, minmax(0, 1fr)); }
 }
+
+/* ---------------------------------------------------------------- Forum + feed (milestone 4) */
+.forum-search { grid-template-columns: 1fr auto; }
+.topic-list, .feed { display: flex; flex-direction: column; gap: 10px; margin-top: 16px; }
+.topic-card { padding: 16px 18px; border-radius: 22px; background: rgba(16, 18, 48, 0.7); border: 1px solid var(--card-line); display: flex; flex-direction: column; gap: 6px; }
+.topic-card-head { display: flex; flex-wrap: wrap; align-items: center; gap: 8px; }
+.badge { display: inline-flex; align-items: center; padding: 3px 10px; border-radius: 999px; font-size: 11px; font-weight: 800; letter-spacing: .04em; text-transform: uppercase; text-decoration: none; }
+.badge-section { background: rgba(255, 138, 31, 0.2); color: #FFC98A; }
+.badge-solved { background: rgba(34, 227, 166, 0.18); color: #9DF5D3; }
+.badge-pin { background: rgba(255, 79, 216, 0.2); color: #FFC4F2; }
+.topic-title { color: var(--fg); text-decoration: none; font-weight: 800; font-size: 17px; line-height: 1.3; }
+.topic-title:hover { color: var(--link); }
+.topic-excerpt { margin: 0; color: var(--muted); font-size: 15px; }
+.topic-meta { margin: 0; font-size: 13px; color: var(--muted-2); }
+.topic-body { margin-top: 16px; }
+.attached { margin: 16px 0; }
+.attached .label { margin-bottom: 6px; }
+.topic-actions { margin-top: 8px; }
+.replies-title { margin-top: 28px; }
+.replies { list-style: none; margin: 12px 0 0; padding: 0; display: flex; flex-direction: column; gap: 12px; }
+.reply { padding: 16px 18px; border-radius: 22px; background: rgba(255, 255, 255, 0.04); border: 1px solid rgba(255, 255, 255, 0.08); }
+.reply-helpful { border-color: rgba(34, 227, 166, 0.45); background: rgba(34, 227, 166, 0.06); }
+.reply-head { display: flex; flex-wrap: wrap; align-items: center; gap: 10px; margin-bottom: 8px; }
+.reply .prose p { font-size: 16px; margin-bottom: 10px; }
+.reply-actions { display: flex; flex-wrap: wrap; align-items: center; gap: 14px; margin-top: 6px; }
+.reply-actions form { display: inline; }
+.vote-btn { display: inline-flex; align-items: center; height: 34px; padding: 0 12px; border-radius: 999px; background: rgba(255, 255, 255, 0.06); border: 1px solid rgba(255, 255, 255, 0.16); color: var(--muted); font: inherit; font-size: 13px; font-weight: 800; cursor: pointer; }
+.vote-btn:hover { color: var(--fg); }
+.vote-on { background: rgba(34, 227, 166, 0.18); border-color: rgba(34, 227, 166, 0.5); color: #9DF5D3; }
+.vote-static { cursor: default; }
+.reply-form { margin-top: 20px; }
+.feed-tabs { margin-top: 8px; }
+.feed-title { margin-top: 28px; }
+.hero-compact { padding: 32px 16px; }
+.profile-topics-title { margin-top: 32px; }
+.post-card { display: flex; flex-direction: column; border-radius: 22px; background: rgba(16, 18, 48, 0.7); border: 1px solid var(--card-line); overflow: hidden; }
+.post-cover img { width: 100%; aspect-ratio: 16 / 9; object-fit: cover; }
+.post-card-body { padding: 14px 18px 16px; display: flex; flex-direction: column; gap: 6px; }

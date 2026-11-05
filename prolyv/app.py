@@ -15,7 +15,8 @@ from prolyv.config import Settings, get_settings
 from prolyv.db import make_engine, make_session_factory
 from prolyv.ratelimit import RateLimiter, RateLimitMiddleware
 from prolyv.security import Signer
-from prolyv.web import routes_account, routes_auth, routes_dev, routes_diary, routes_home, routes_teas
+from prolyv.forum_search import ensure_fts
+from prolyv.web import routes_account, routes_auth, routes_dev, routes_diary, routes_forum, routes_home, routes_teas
 from prolyv.web.cookies import PendingCookiesMiddleware
 from prolyv.web.headmethod import HeadMethodMiddleware
 from prolyv.web.routes_auth import login_redirect
@@ -39,6 +40,7 @@ def create_app(settings: Settings | None = None, google_transport=None) -> FastA
     app.state.signer = Signer(settings.secret_key)
     app.state.engine = make_engine(settings.database_url)
     app.state.session_factory = make_session_factory(app.state.engine)
+    ensure_fts(app.state.engine)  # SQLite FTS5 table for the forum (idempotent; the migration creates it too)
     app.state.google = GoogleOIDC(
         settings.google_client_id,
         settings.google_client_secret,
@@ -55,6 +57,7 @@ def create_app(settings: Settings | None = None, google_transport=None) -> FastA
     app.include_router(routes_account.router)
     app.include_router(routes_diary.router)  # before teas: owns /teas/suggest
     app.include_router(routes_teas.router)
+    app.include_router(routes_forum.router)
     app.include_router(routes_dev.router)
     app.include_router(routes_home.router)  # last: it owns the catch-all /{section}
 

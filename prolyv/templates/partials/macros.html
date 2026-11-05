@@ -33,3 +33,34 @@
   </div>
 </article>
 {%- endmacro %}
+
+{% macro topic_card(topic, show_section=True) -%}
+<article class="topic-card">
+  <div class="topic-card-head">
+    {% if topic.pinned %}<span class="badge badge-pin">Pinned</span>{% endif %}
+    {% if topic.solved %}<span class="badge badge-solved">Solved</span>{% endif %}
+    {% if show_section %}<a class="badge badge-section" href="/discussions/s/{{ topic.section.slug }}">{{ topic.section.name }}</a>{% endif %}
+    <span class="muted small">{{ topic.activity_at.strftime('%-d %b') }}</span>
+  </div>
+  <a class="topic-title" href="/discussions/{{ topic.id }}">{{ topic.title }}</a>
+  <p class="topic-excerpt">{{ topic.body[:180] }}{% if topic.body|length > 180 %}…{% endif %}</p>
+  <p class="topic-meta"><a href="/u/{{ topic.user.handle }}">@{{ topic.user.handle }}</a> · {{ topic.reply_count }} repl{{ 'y' if topic.reply_count == 1 else 'ies' }}{% if topic.attached_session %} · session attached{% endif %}</p>
+</article>
+{%- endmacro %}
+
+{% macro feed_item(item) -%}
+{% if item.kind == 'session' %}{{ session_card(item.obj) }}
+{% elif item.kind == 'topic' %}{{ topic_card(item.obj) }}
+{% elif item.kind == 'post' %}{{ post_card(item.obj) }}{% endif %}
+{%- endmacro %}
+
+{% macro post_card(post) -%}
+<article class="post-card">
+  {% if post.cover_url %}<a class="post-cover" href="/blog/{{ post.slug }}"><img src="{{ post.cover_url }}" alt="" loading="lazy"></a>{% endif %}
+  <div class="post-card-body">
+    <p class="session-date">Blog · {{ post.published_at.strftime('%-d %b %Y') if post.published_at else 'draft' }}</p>
+    <a class="topic-title" href="/blog/{{ post.slug }}">{{ post.title }}</a>
+    {% if post.summary %}<p class="topic-excerpt">{{ post.summary }}</p>{% endif %}
+  </div>
+</article>
+{%- endmacro %}

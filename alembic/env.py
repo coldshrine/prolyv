@@ -17,6 +17,13 @@ if config.config_file_name is not None:
 target_metadata = Base.metadata
 
 
+def include_object(obj, name, type_, reflected, compare_to):  # noqa: ANN001
+    """Skip the SQLite FTS5 virtual table and its shadow tables (created by raw SQL in the forum migration)."""
+    if type_ == "table" and name.startswith("forum_fts"):
+        return False
+    return True
+
+
 def database_url() -> str:
     url = os.environ.get("DATABASE_URL")
     if not url:
@@ -36,6 +43,7 @@ def run_migrations_offline() -> None:
         literal_binds=True,
         dialect_opts={"paramstyle": "named"},
         render_as_batch=True,
+        include_object=include_object,
     )
     with context.begin_transaction():
         context.run_migrations()
@@ -46,7 +54,8 @@ def run_migrations_online() -> None:
     section["sqlalchemy.url"] = database_url()
     connectable = engine_from_config(section, prefix="sqlalchemy.", poolclass=pool.NullPool)
     with connectable.connect() as connection:
-        context.configure(connection=connection, target_metadata=target_metadata, render_as_batch=True)
+        context.configure(connection=connection, target_metadata=target_metadata, render_as_batch=True,
+                          include_object=include_object)
         with context.begin_transaction():
             context.run_migrations()
 

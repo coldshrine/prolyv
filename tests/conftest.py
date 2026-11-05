@@ -13,6 +13,7 @@ from joserfc.jwk import KeySet, RSAKey
 from starlette.testclient import TestClient
 
 from prolyv.app import create_app
+from prolyv.forum_search import ensure_forum_sections
 from prolyv.auth.telegram import sign_telegram_params
 from prolyv.config import Settings
 from prolyv.models import Base
@@ -98,6 +99,7 @@ def settings(tmp_path) -> Settings:
 def build_app(settings: Settings, google: GoogleStub | None = None):
     app = create_app(settings, google_transport=google.transport if google else None)
     Base.metadata.create_all(app.state.engine)
+    ensure_forum_sections(app.state.engine)
     return app
 
 

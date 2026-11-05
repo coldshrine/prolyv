@@ -1,5 +1,5 @@
 {% extends "base.html" %}
-{% from "partials/macros.html" import avatar, session_card %}
+{% from "partials/macros.html" import avatar, session_card, topic_card %}
 {% block title %}{{ profile.display_name }} (@{{ profile.handle }}) · Prolyv{% endblock %}
 {% block content %}
 <section class="hero hero-profile">
@@ -15,14 +15,14 @@
         <a class="btn btn-secondary" href="/diary">My diary</a>
         <a class="btn btn-ghost" href="/settings">Edit profile</a>
         {% else %}
-        <a class="btn btn-primary" href="{% if current_user %}/discuss{% else %}/login{% endif %}">Follow</a>
-        <a class="btn btn-secondary" href="/discuss">Ask in the forum</a>
+        <a class="btn btn-primary" href="{% if current_user %}/discussions{% else %}/login{% endif %}">Follow</a>
+        <a class="btn btn-secondary" href="{% if current_user %}/discussions/new{% else %}/login?next=/discussions/new{% endif %}">Ask {{ profile.display_name.split(' ')[0] }} in the forum</a>
         {% endif %}
       </div>
     </div>
     <ul class="stats">
       <li><p class="stat-value grad-pink">{{ session_count }}</p><p class="stat-label">public sessions</p></li>
-      <li><p class="stat-value grad-mint">0</p><p class="stat-label">helpful replies</p></li>
+      <li><p class="stat-value grad-mint">{{ helpful_count }}</p><p class="stat-label">helpful replies</p></li>
     </ul>
   </div>
 </section>
@@ -36,6 +36,10 @@
     <p class="empty-title">No public sessions yet</p>
     <p class="muted">{% if is_me %}Log a tea and switch it to public to show it here. <a href="/sessions/new">Log a tea</a>{% else %}When @{{ profile.handle }} shares a session, it will show up here.{% endif %}</p>
   </div>
+  {% endif %}
+  {% if topics %}
+  <h2 class="h2 profile-topics-title">Topics</h2>
+  <div class="topic-list">{% for t in topics %}{{ topic_card(t) }}{% endfor %}</div>
   {% endif %}
 </section>
 {% endblock %}

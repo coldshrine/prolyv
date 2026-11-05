@@ -1,0 +1,64 @@
+{% extends "base.html" %}
+{% from "partials/macros.html" import avatar, session_card %}
+{% block title %}{{ topic.title }} · Discussions · Prolyv{% endblock %}
+{% block head %}
+<meta property="og:type" content="article">
+<meta property="og:title" content="{{ topic.title }}">
+<meta property="og:description" content="{{ topic.body[:200] }}">
+{% endblock %}
+{% block content %}
+<div class="container narrow">
+  <p class="eyebrow"><a href="/discussions">Discussions</a> · <a href="/discussions/s/{{ topic.section.slug }}">{{ topic.section.name }}</a></p>
+  <div class="topic-card-head">
+    {% if topic.pinned %}<span class="badge badge-pin">Pinned</span>{% endif %}
+    {% if topic.solved %}<span class="badge badge-solved">Solved</span>{% endif %}
+  </div>
+  <h1 class="h1">{{ topic.title }}</h1>
+  <p class="session-by"><a class="author-link" href="/u/{{ topic.user.handle }}">{{ avatar(topic.user, 32) }} <span>{{ topic.user.display_name }} · @{{ topic.user.handle }}</span></a> · <span class="muted">{{ topic.created_at.strftime('%-d %B %Y') }}</span></p>
+  <div class="prose topic-body">{% for p in topic.paragraphs %}<p>{{ p }}</p>{% endfor %}</div>
+  {% if topic.attached_session %}<div class="attached"><p class="label">Attached session</p>{{ session_card(topic.attached_session) }}</div>{% endif %}
+  {% if is_author or is_admin_view %}
+  <div class="actions topic-actions">
+    {% if is_admin_view %}<form method="post" action="/discussions/{{ topic.id }}/pin"><input type="hidden" name="csrf_token" value="{{ csrf_token }}"><button class="btn btn-ghost btn-sm" type="submit">{{ 'Unpin' if topic.pinned else 'Pin' }}</button></form>{% endif %}
+    <form method="post" action="/discussions/{{ topic.id }}/delete" onsubmit="return confirm('Delete this topic and its replies?')"><input type="hidden" name="csrf_token" value="{{ csrf_token }}"><button class="btn btn-ghost btn-sm" type="submit">Delete topic</button></form>
+  </div>
+  {% endif %}
+
+  <h2 class="h2 replies-title" id="replies">{{ replies|length }} repl{{ 'y' if replies|length == 1 else 'ies' }}</h2>
+  {% if replies %}
+  <ul class="replies">
+    {% for r in replies %}
+    <li class="reply{% if r.marked_helpful_by_author %} reply-helpful{% endif %}" id="reply-{{ r.id }}">
+      <div class="reply-head">
+        <a class="author-link" href="/u/{{ r.user.handle }}">{{ avatar(r.user, 28) }} <span>@{{ r.user.handle }}</span></a>
+        <span class="muted small">{{ r.created_at.strftime('%-d %b %Y') }}</span>
+        {% if r.marked_helpful_by_author %}<span class="badge badge-solved">Marked helpful by the author</span>{% endif %}
+      </div>
+      <div class="prose">{% for p in r.paragraphs %}<p>{{ p }}</p>{% endfor %}</div>
+      {% if r.attached_session %}<div class="attached">{{ session_card(r.attached_session) }}</div>{% endif %}
+      <div class="reply-actions">
+        {% if current_user and r.user_id != current_user.id %}
+        <form method="post" action="/discussions/{{ topic.id }}/replies/{{ r.id }}/helpful"><input type="hidden" name="csrf_token" value="{{ csrf_token }}"><button class="vote-btn{% if r.id in my_votes %} vote-on{% endif %}" type="submit" aria-pressed="{{ 'true' if r.id in my_votes else 'false' }}">👍 Helpful · {{ r.helpful_count }}</button></form>
+        {% else %}<span class="vote-btn vote-static">👍 Helpful · {{ r.helpful_count }}</span>{% endif %}
+        {% if (is_author or is_admin_view) and r.user_id != topic.user_id %}
+        <form method="post" action="/discussions/{{ topic.id }}/replies/{{ r.id }}/mark"><input type="hidden" name="csrf_token" value="{{ csrf_token }}"><button class="link-btn small" type="submit">{% if r.marked_helpful_by_author %}Unmark{% else %}Mark as helpful{% endif %}</button></form>
+        {% endif %}
+        {% if current_user and (r.user_id == current_user.id or is_admin_view) %}
+        <form method="post" action="/discussions/{{ topic.id }}/replies/{{ r.id }}/delete"><input type="hidden" name="csrf_token" value="{{ csrf_token }}"><button class="link-btn small" type="submit">delete</button></form>
+        {% endif %}
+      </div>
+    </li>
+    {% endfor %}
+  </ul>
+  {% endif %}
+
+  {% if current_user %}
+  <form method="post" action="/discussions/{{ topic.id }}/replies" class="card form reply-form">
+    <input type="hidden" name="csrf_token" value="{{ csrf_token }}">
+    <label class="field"><span class="label">Your reply</span><textarea name="body" rows="4" required placeholder="What worked for you?"></textarea></label>
+    {% if my_sessions %}<label class="field"><span class="label">Attach a public session</span><select name="attached_session_id"><option value="">None</option>{% for s in my_sessions %}<option value="{{ s.id }}">{{ s.brewed_at.strftime('%-d %b') }} · {{ s.tea_name }}</option>{% endfor %}</select></label>{% endif %}
+    <div class="actions"><button class="btn btn-primary" type="submit">Reply</button></div>
+  </form>
+  {% else %}<p class="muted"><a href="/login?next=/discussions/{{ topic.id }}">Log in</a> to reply.</p>{% endif %}
+</div>
+{% endblock %}

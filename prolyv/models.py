@@ -379,3 +379,95 @@ class SessionComment(Base):
 
     session: Mapped[TeaSession] = relationship(back_populates="comments")
     user: Mapped[User] = relationship()
+
+
+# ---------------------------------------------------------------------------------------------------------------
+# Forum (milestone 4)
+# ---------------------------------------------------------------------------------------------------------------
+
+
+class ForumSection(Base):
+    __tablename__ = "forum_sections"
+
+    id: Mapped[uuid.UUID] = mapped_column(Uuid, primary_key=True, default=uuid.uuid4)
+    slug: Mapped[str] = mapped_column(String(40), unique=True)
+    name: Mapped[str] = mapped_column(String(80))
+    description: Mapped[str] = mapped_column(String(200), default="")
+    sort: Mapped[int] = mapped_column(Integer, default=0)
+
+    topics: Mapped[list[Topic]] = relationship(back_populates="section")
+
+
+class Topic(Base):
+    __tablename__ = "topics"
+
+    id: Mapped[uuid.UUID] = mapped_column(Uuid, primary_key=True, default=uuid.uuid4)
+    section_id: Mapped[uuid.UUID] = mapped_column(ForeignKey("forum_sections.id", ondelete="RESTRICT"), index=True)
+    user_id: Mapped[uuid.UUID] = mapped_column(ForeignKey("users.id", ondelete="CASCADE"), index=True)
+    title: Mapped[str] = mapped_column(String(160))
+    body: Mapped[str] = mapped_column(Text)
+    attached_session_id: Mapped[uuid.UUID | None] = mapped_column(ForeignKey("tea_sessions.id", ondelete="SET NULL"))
+    pinned: Mapped[bool] = mapped_column(Boolean, default=False)
+    solved: Mapped[bool] = mapped_column(Boolean, default=False)
+    reply_count: Mapped[int] = mapped_column(Integer, default=0)
+    last_reply_at: Mapped[datetime | None] = mapped_column(DateTime)
+    created_at: Mapped[datetime] = mapped_column(DateTime, default=utcnow, nullable=False, index=True)
+    updated_at: Mapped[datetime] = mapped_column(DateTime, default=utcnow, onupdate=utcnow, nullable=False)
+
+    section: Mapped[ForumSection] = relationship(back_populates="topics")
+    user: Mapped[User] = relationship()
+    attached_session: Mapped[TeaSession | None] = relationship()
+    replies: Mapped[list[Reply]] = relationship(back_populates="topic", cascade="all, delete-orphan", order_by="Reply.created_at")
+
+    @property
+    def activity_at(self) -> datetime:
+        return self.last_reply_at or self.created_at
+
+    @property
+    def paragraphs(self) -> list[str]:
+        return [p.strip() for p in self.body.replace("\r\n", "\n").split("\n\n") if p.strip()]
+
+
+class Reply(Base):
+    __tablename__ = "replies"
+
+    id: Mapped[uuid.UUID] = mapped_column(Uuid, primary_key=True, default=uuid.uuid4)
+    topic_id: Mapped[uuid.UUID] = mapped_column(ForeignKey("topics.id", ondelete="CASCADE"), index=True)
+    user_id: Mapped[uuid.UUID] = mapped_column(ForeignKey("users.id", ondelete="CASCADE"), index=True)
+    body: Mapped[str] = mapped_column(Text)
+    attached_session_id: Mapped[uuid.UUID | None] = mapped_column(ForeignKey("tea_sessions.id", ondelete="SET NULL"))
+    helpful_count: Mapped[int] = mapped_column(Integer, default=0)
+    marked_helpful_by_author: Mapped[bool] = mapped_column(Boolean, default=False)
+    created_at: Mapped[datetime] = mapped_column(DateTime, default=utcnow, nullable=False)
+
+    topic: Mapped[Topic] = relationship(back_populates="replies")
+    user: Mapped[User] = relationship()
+    attached_session: Mapped[TeaSession | None] = relationship()
+    votes: Mapped[list[ReplyVote]] = relationship(back_populates="reply", cascade="all, delete-orphan")
+
+    @property
+    def paragraphs(self) -> list[str]:
+        return [p.strip() for p in self.body.replace("\r\n", "\n").split("\n\n") if p.strip()]
+
+
+class ReplyVote(Base):
+    __tablename__ = "reply_votes"
+    __table_args__ = (UniqueConstraint("reply_id", "user_id", name="uq_reply_votes_reply_user"),)
+
+    id: Mapped[uuid.UUID] = mapped_column(Uuid, primary_key=True, default=uuid.uuid4)
+    reply_id: Mapped[uuid.UUID] = mapped_column(ForeignKey("replies.id", ondelete="CASCADE"), index=True)
+    user_id: Mapped[uuid.UUID] = mapped_column(ForeignKey("users.id", ondelete="CASCADE"), index=True)
+    created_at: Mapped[datetime] = mapped_column(DateTime, default=utcnow, nullable=False)
+
+    reply: Mapped[Reply] = relationship(back_populates="votes")
+
+
+FORUM_SECTIONS = [
+    ("oolong", "Oolong", "Rock tea, Tie Guan Yin, dancong, Taiwanese high mountain."),
+    ("pu-erh", "Pu-erh", "Sheng and shu, storage, ageing, regions."),
+    ("black-white", "Black & white", "Hong cha, Darjeeling, Ceylon, silver needle, aged white."),
+    ("green-yellow", "Green & yellow", "Longjing, sencha, matcha, Korean greens, yellow teas."),
+    ("teaware", "Teaware", "Gaiwans, clay, kyusu, kettles, cups."),
+    ("beginners", "Beginners", "First steps, gongfu basics, what to buy first."),
+    ("where-to-buy", "Where to buy", "Shops, vendors, prices, what arrived in the post."),
+]

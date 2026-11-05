@@ -1,0 +1,38 @@
+{% extends "base.html" %}
+{% from "partials/macros.html" import topic_card %}
+{% block title %}{% if section %}{{ section.name }} · {% endif %}Discussions · Prolyv{% endblock %}
+{% block content %}
+<section class="container">
+  <div class="teas-head">
+    <div>
+      <p class="eyebrow">Discussions{% if total %} · {{ total }} topic{{ '' if total == 1 else 's' }}{% endif %}</p>
+      <h1 class="h1">{% if section %}{{ section.name }}{% elif q %}Search: “{{ q }}”{% else %}Discussions{% endif %}</h1>
+      {% if section %}<p class="lead">{{ section.description }}</p>{% else %}<p class="lead">Ask about a tea, attach the session, get answers from people who brewed it.</p>{% endif %}
+    </div>
+    <a class="btn btn-primary btn-sm" href="{% if current_user %}/discussions/new{% if section %}?section={{ section.slug }}{% endif %}{% else %}/login?next=/discussions/new{% endif %}"><span class="plus" aria-hidden="true">+</span> New topic</a>
+  </div>
+
+  <form class="teas-filters forum-search" method="get" action="{% if section %}/discussions/s/{{ section.slug }}{% else %}/discussions{% endif %}" role="search">
+    <input type="search" name="q" value="{{ q }}" placeholder="Search topics and replies…" aria-label="Search discussions">
+    <button class="btn btn-secondary btn-sm" type="submit">Search</button>
+  </form>
+
+  <nav class="chips" aria-label="Sections">
+    <a class="chip{% if not section %} chip-on{% endif %}" href="/discussions">All</a>
+    {% for s, count in sections %}<a class="chip{% if section and section.id == s.id %} chip-on{% endif %}" href="/discussions/s/{{ s.slug }}">{{ s.name }}{% if count %} <span class="count">{{ count }}</span>{% endif %}</a>{% endfor %}
+  </nav>
+
+  {% if topics %}
+  <div class="topic-list">{% for t in topics %}{{ topic_card(t, show_section=not section) }}{% endfor %}</div>
+  {% if pages > 1 %}
+  <nav class="pagination" aria-label="Pages">
+    {% if page > 1 %}<a class="btn btn-secondary btn-sm" href="?q={{ q|urlencode }}&page={{ page - 1 }}">← Previous</a>{% endif %}
+    <span class="muted">Page {{ page }} of {{ pages }}</span>
+    {% if page < pages %}<a class="btn btn-secondary btn-sm" href="?q={{ q|urlencode }}&page={{ page + 1 }}">Next →</a>{% endif %}
+  </nav>
+  {% endif %}
+  {% else %}
+  <div class="card empty"><p class="empty-title">{% if q %}Nothing matches “{{ q }}”{% else %}No topics yet{% endif %}</p><p class="muted">{% if current_user %}<a href="/discussions/new">Start the first one</a>.{% else %}<a href="/login?next=/discussions/new">Log in</a> to start one.{% endif %}</p></div>
+  {% endif %}
+</section>
+{% endblock %}
