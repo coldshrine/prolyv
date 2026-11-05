@@ -24,7 +24,7 @@ from prolyv.models import (
     origin_key,
     utcnow,
 )
-from prolyv.web.deps import AdminUser, CurrentUser, DbDep, RequiredUser, SettingsDep, SignerDep, require_csrf
+from prolyv.web.deps import AdminUser, CurrentUser, DbDep, SettingsDep, SignerDep, require_csrf
 from prolyv.web.flash import set_flash
 from prolyv.web.templating import render
 
@@ -133,7 +133,7 @@ def tea_origin(request: Request, db: DbDep, user: CurrentUser, origin: str, q: s
                      title=f"Teas from {label}", canonical=f"/teas/o/{origin_key(origin)}")
 
 
-# ------------------------------------------------------------------------------------------ community requests
+# ------------------------------------------------------------------------------------------ the admin form
 
 
 def unique_slug(db, name: str) -> str:  # noqa: ANN001
@@ -233,33 +233,8 @@ def form_from_tea(tea: Tea) -> dict:
         "brew_grams": brewing.get("grams", ""), "brew_water_ml": brewing.get("water_ml", ""),
         "brew_temp_c": brewing.get("temp_c", ""), "brew_steeps": brewing.get("steeps", ""),
         "brew_seconds": ", ".join(str(s) for s in brewing.get("seconds", [])), "brew_notes": brewing.get("notes") or "",
-        "popularity": str(tea.popularity),
+        "popularity": str(tea.popularity), "published": tea.status == TeaStatus.published,
     }
-
-
-@router.get("/teas/new")
-def tea_new_form(request: Request, user: RequiredUser):
-    return render(request, "teas/new.html", tea_form_context(form={"category": "", "form": "loose"}))
-
-
-@router.post("/teas/new", dependencies=[Depends(require_csrf)])
-async def tea_new(request: Request, db: DbDep, settings: SettingsDep, signer: SignerDep, user: RequiredUser):
-    data = await request.form()
-    form, errors = read_tea_form(data)
-    if errors:
-        return render(request, "teas/new.html", tea_form_context(form, errors), status_code=400)
-    is_admin = settings.is_admin_handle(user.handle)
-    tea = Tea(slug=unique_slug(db, form["name_en"]), name_en=form["name_en"], category=TeaCategory(form["category"]),
-              origin_country=form["origin_country"], form=TeaForm(form["form"]), created_by=user.id,
-              status=TeaStatus.published if is_admin else TeaStatus.pending, popularity=2, locked=True)
-    db.add(tea)
-    db.flush()
-    apply_tea_form(db, tea, form)
-    db.flush()
-    response = RedirectResponse(f"/teas/{tea.slug}", status_code=303)
-    text = "Added to the catalog." if is_admin else "Thanks! Your tea is waiting for a quick review by an admin."
-    set_flash(response, settings, signer, "ok", text)
-    return response
 
 
 # ------------------------------------------------------------------------------------------ the card
@@ -271,7 +246,7 @@ def tea_detail(request: Request, db: DbDep, settings: SettingsDep, user: Current
     if tea is None:
         raise HTTPException(status_code=404)
     is_admin = user is not None and settings.is_admin_handle(user.handle)
-    if tea.status != TeaStatus.published and not (is_admin or (user is not None and tea.created_by == user.id)):
+    if tea.status != TeaStatus.published and not is_admin:
         raise HTTPException(status_code=404)
     related = db.execute(
         published().where(Tea.category == tea.category, Tea.id != tea.id).order_by(Tea.popularity.desc(), Tea.name_en).limit(4)
@@ -304,13 +279,43 @@ def tea_detail(request: Request, db: DbDep, settings: SettingsDep, user: Current
 
 
 @router.get("/admin/teas")
-def admin_teas(request: Request, db: DbDep, user: AdminUser):
-    pending = db.execute(select(Tea).where(Tea.status == TeaStatus.pending).order_by(Tea.created_at.desc())).scalars().all()
+def admin_teas(request: Request, db: DbDep, user: AdminUser, q: str = "", page: int = 1):
+    q = q.strip()[:80]
+    stmt = apply_filters(select(Tea), q, "", "", "")
+    total_found = db.scalar(select(func.count()).select_from(stmt.subquery())) or 0
+    pages = max(1, (total_found + 49) // 50)
+    page = min(max(1, page), pages)
+    teas = db.execute(stmt.order_by(Tea.status.desc(), Tea.name_en).offset((page - 1) * 50).limit(50)).scalars().all()
     total = db.scalar(select(func.count()).select_from(published().subquery())) or 0
+    drafts = db.scalar(select(func.count()).select_from(Tea).where(Tea.status == TeaStatus.pending)) or 0
     with_photos = db.scalar(
         select(func.count(func.distinct(TeaImage.tea_id))).join(Tea, Tea.id == TeaImage.tea_id).where(Tea.status == TeaStatus.published)
     ) or 0
-    return render(request, "admin/teas.html", {"pending": pending, "total": total, "with_photos": with_photos})
+    context = {"teas": teas, "q": q, "page": page, "pages": pages, "total": total, "drafts": drafts, "with_photos": with_photos}
+    return render(request, "admin/teas.html", context)
+
+
+@router.get("/admin/teas/new")
+def admin_tea_new_form(request: Request, user: AdminUser):
+    return render(request, "admin/tea_edit.html", tea_form_context(form={"category": "", "form": "loose", "popularity": "3", "published": True}))
+
+
+@router.post("/admin/teas/new", dependencies=[Depends(require_csrf)])
+async def admin_tea_new(request: Request, db: DbDep, settings: SettingsDep, signer: SignerDep, user: AdminUser):
+    data = await request.form()
+    form, errors = read_tea_form(data)
+    if errors:
+        return render(request, "admin/tea_edit.html", tea_form_context(form, errors), status_code=400)
+    tea = Tea(slug=unique_slug(db, form["name_en"]), name_en=form["name_en"], category=TeaCategory(form["category"]),
+              origin_country=form["origin_country"], form=TeaForm(form["form"]), created_by=user.id, popularity=3, locked=True,
+              status=TeaStatus.published if data.get("published") else TeaStatus.pending)
+    db.add(tea)
+    db.flush()
+    apply_tea_form(db, tea, form)
+    db.flush()
+    response = RedirectResponse(f"/teas/{tea.slug}", status_code=303)
+    set_flash(response, settings, signer, "ok", "Added to the tea base." if tea.status == TeaStatus.published else "Saved as a draft.")
+    return response
 
 
 def admin_tea(db, slug: str) -> Tea:  # noqa: ANN001
@@ -318,16 +323,6 @@ def admin_tea(db, slug: str) -> Tea:  # noqa: ANN001
     if tea is None:
         raise HTTPException(status_code=404)
     return tea
-
-
-@router.post("/admin/teas/{slug}/approve", dependencies=[Depends(require_csrf)])
-def admin_tea_approve(request: Request, db: DbDep, settings: SettingsDep, signer: SignerDep, user: AdminUser, slug: str):
-    tea = admin_tea(db, slug)
-    tea.status = TeaStatus.published
-    tea.updated_at = utcnow()
-    response = RedirectResponse("/admin/teas", status_code=303)
-    set_flash(response, settings, signer, "ok", f"{tea.name_en} is now published.")
-    return response
 
 
 @router.post("/admin/teas/{slug}/delete", dependencies=[Depends(require_csrf)])
@@ -348,10 +343,12 @@ def admin_tea_edit_form(request: Request, db: DbDep, user: AdminUser, slug: str)
 @router.post("/admin/teas/{slug}/edit", dependencies=[Depends(require_csrf)])
 async def admin_tea_edit(request: Request, db: DbDep, settings: SettingsDep, signer: SignerDep, user: AdminUser, slug: str):
     tea = admin_tea(db, slug)
-    form, errors = read_tea_form(await request.form())
+    data = await request.form()
+    form, errors = read_tea_form(data)
     if errors:
         return render(request, "admin/tea_edit.html", tea_form_context(form, errors, tea=tea), status_code=400)
     apply_tea_form(db, tea, form)
+    tea.status = TeaStatus.published if data.get("published") else TeaStatus.pending
     tea.locked = True  # the importer will not overwrite an admin's text
     tea.updated_at = utcnow()
     response = RedirectResponse(f"/teas/{tea.slug}", status_code=303)

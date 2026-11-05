@@ -6,8 +6,8 @@ breakdowns, discussion and personal diaries live here.
 Milestones so far:
 
 1. **Login and accounts** — Google / Telegram sign-in, sessions, settings, public profiles.
-2. **Tea base** — hundreds of catalog cards with photos from Wikimedia Commons, search and filters, community
-   requests with admin review, sitemap and structured data.
+2. **Tea base** — an encyclopedia of tea cards with photos from Wikimedia Commons, search and filters, admin editing,
+   sitemap and structured data.
 3. **Diary** — tea sessions with a steep timer, private by default, comments, "brew it the same way".
 4. **Forum and feed** — sections, topics with attached sessions, helpful replies, full-text search, home feed.
 5. **Blog** — Markdown posts with TikTok / Instagram embeds, brew-along sessions, comments.
@@ -87,9 +87,9 @@ into the `teas` table and enriches each one:
 Re-running the importer is safe: cards edited by an admin in the UI are locked and keep their text. Options:
 `--group japan`, `--only sencha`, `--refresh` (ignore the cache), `--dry-run` (validate only), `--max-images 4`.
 
-Logged-in users can propose a tea at `/teas/new`; it stays `pending` and visible only to them until an admin
-publishes it from `/admin/teas`. Admins (handles listed in `ADMIN_HANDLES`) can edit any card and manage its
-photos; blog posts are written at `/admin/posts`.
+Teas are added only by the team: the card files plus the importer, or the admin form at `/admin/teas/new`. Users do
+not add teas. Admins (handles listed in `ADMIN_HANDLES`) can edit any card and manage its photos; blog posts are
+written at `/admin/posts`.
 
 ## Что сделать руками, 5 минут
 

@@ -1,35 +1,36 @@
 {% extends "base.html" %}
-{% block title %}Tea requests · Prolyv admin{% endblock %}
+{% block title %}Tea base · Prolyv admin{% endblock %}
 {% block content %}
 <div class="container narrow">
-  <p class="eyebrow">Admin</p>
-  <h1 class="h1">Tea base</h1>
+  <p class="eyebrow"><a href="/admin">Admin</a></p>
+  <div class="teas-head">
+    <h1 class="h1">Tea base</h1>
+    <a class="btn btn-primary btn-sm" href="/admin/teas/new"><span class="plus" aria-hidden="true">+</span> New tea</a>
+  </div>
   <ul class="stats stats-inline">
-    <li><p class="stat-value grad-pink">{{ total }}</p><p class="stat-label">published teas</p></li>
+    <li><p class="stat-value grad-pink">{{ total }}</p><p class="stat-label">published</p></li>
     <li><p class="stat-value grad-mint">{{ with_photos }}</p><p class="stat-label">with photos</p></li>
-    <li><p class="stat-value grad-pink">{{ pending|length }}</p><p class="stat-label">waiting for review</p></li>
+    <li><p class="stat-value grad-pink">{{ drafts }}</p><p class="stat-label">drafts</p></li>
   </ul>
-
-  <h2 class="h2">Requests</h2>
-  {% if pending %}
-  <ul class="request-list">
-    {% for tea in pending %}
-    <li class="card">
-      <div class="request-head">
-        <div>
-          <a class="request-title" href="/teas/{{ tea.slug }}">{{ tea.name_en }}</a>
-          <p class="muted small">{{ tea.category_label }} · {{ tea.origin_country }}{% if tea.origin_region %} · {{ tea.origin_region }}{% endif %}{% if tea.author %} · by @{{ tea.author.handle }}{% endif %} · {{ tea.created_at.strftime('%d %b %Y') }}</p>
-        </div>
-      </div>
-      <p>{{ tea.paragraphs[0] if tea.paragraphs else '' }}</p>
-      <div class="actions">
-        <form method="post" action="/admin/teas/{{ tea.slug }}/approve"><input type="hidden" name="csrf_token" value="{{ csrf_token }}"><button class="btn btn-primary btn-sm" type="submit">Publish</button></form>
-        <a class="btn btn-secondary btn-sm" href="/admin/teas/{{ tea.slug }}/edit">Edit first</a>
-        <form method="post" action="/admin/teas/{{ tea.slug }}/delete"><input type="hidden" name="csrf_token" value="{{ csrf_token }}"><button class="btn btn-ghost btn-sm" type="submit">Reject</button></form>
-      </div>
+  <form class="teas-filters forum-search" method="get" action="/admin/teas" role="search">
+    <input type="search" name="q" value="{{ q }}" placeholder="Search by name, alias or region" aria-label="Search teas">
+    <button class="btn btn-secondary btn-sm" type="submit">Search</button>
+  </form>
+  <ul class="admin-list">
+    {% for tea in teas %}
+    <li>
+      <a href="/teas/{{ tea.slug }}">{{ tea.name_en }}</a>
+      <span class="muted small">{{ tea.category_label }} · {{ tea.origin_country }} · {{ tea.images|length }} photo{{ '' if tea.images|length == 1 else 's' }}{% if tea.status.value == 'pending' %} · draft{% endif %}{% if tea.locked %} · locked{% endif %}</span>
+      <a class="btn btn-ghost btn-sm" href="/admin/teas/{{ tea.slug }}/edit">Edit</a>
     </li>
     {% endfor %}
   </ul>
-  {% else %}<div class="card empty"><p class="empty-title">Nothing to review</p><p class="muted">New requests from the community will show up here.</p></div>{% endif %}
+  {% if pages > 1 %}
+  <nav class="pagination" aria-label="Pages">
+    {% if page > 1 %}<a class="btn btn-secondary btn-sm" href="?q={{ q|urlencode }}&page={{ page - 1 }}">← Previous</a>{% endif %}
+    <span class="muted">Page {{ page }} of {{ pages }}</span>
+    {% if page < pages %}<a class="btn btn-secondary btn-sm" href="?q={{ q|urlencode }}&page={{ page + 1 }}">Next →</a>{% endif %}
+  </nav>
+  {% endif %}
 </div>
 {% endblock %}

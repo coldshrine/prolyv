@@ -545,3 +545,8 @@ select option { color: #111; }
 .email-link-form { display: flex; flex-wrap: wrap; gap: 8px; flex: 1; }
 .email-link-form input { flex: 1 1 200px; padding: 10px 14px; }
 input[type="email"]:focus { border-color: var(--pink); box-shadow: 0 0 0 3px rgba(255, 79, 216, 0.25); }
+
+.admin-list { list-style: none; margin: 16px 0 0; padding: 0; display: flex; flex-direction: column; }
+.admin-list li { display: flex; flex-wrap: wrap; align-items: center; gap: 4px 12px; padding: 10px 0; border-bottom: 1px solid rgba(255, 255, 255, 0.08); }
+.admin-list li > a:first-child { font-weight: 800; color: var(--fg); text-decoration: none; }
+.admin-list li > .muted { flex: 1 1 220px; }

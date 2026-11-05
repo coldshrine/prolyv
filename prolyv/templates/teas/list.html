@@ -11,7 +11,6 @@
       <h1 class="h1">{{ title }}</h1>
       {% if origin_label %}<p class="lead">Everything in the base from {{ origin_label }}.</p>{% elif intro %}<p class="lead">{{ intro }}</p>{% endif %}
     </div>
-    <a class="btn btn-secondary btn-sm" href="{% if current_user %}/teas/new{% else %}/login?next=/teas/new{% endif %}"><span class="plus" aria-hidden="true">+</span> Add a tea</a>
   </div>
 
   <form class="teas-filters" method="get" action="{{ canonical }}" hx-get="{{ canonical }}" hx-trigger="input delay:300ms, change" hx-target="#tea-results" hx-select="#tea-results" hx-swap="outerHTML" hx-push-url="true" role="search">
@@ -50,7 +49,7 @@
     {% else %}
     <div class="card empty">
       <p class="empty-title">Nothing found</p>
-      <p class="muted">Try another spelling, or <a href="{% if current_user %}/teas/new{% else %}/login?next=/teas/new{% endif %}">add this tea</a> to the base.</p>
+      <p class="muted">Try another spelling, or a Chinese or Russian name.</p>
     </div>
     {% endif %}
   </div>

@@ -30,7 +30,7 @@
       {% else %}
       <div class="tea-photo tea-photo-empty" data-category="{{ tea.category.value }}">
         <span class="cup-mark cup-{{ tea.category.value }} cup-lg" aria-hidden="true"></span>
-        <p class="muted small">No photo yet — {% if is_admin_view %}<a href="/admin/teas/{{ tea.slug }}/edit">add one</a>{% else %}add one{% endif %}</p>
+        <p class="muted small">No photo yet</p>
       </div>
       {% endif %}
     </div>
@@ -47,7 +47,7 @@
         {% if tea.wikipedia_url %}<a class="btn btn-secondary" href="{{ tea.wikipedia_url }}" target="_blank" rel="noopener">Read more on Wikipedia</a>{% endif %}
         {% if is_admin_view %}<a class="btn btn-ghost" href="/admin/teas/{{ tea.slug }}/edit">Edit card</a>{% endif %}
       </div>
-      {% if tea.status.value == 'pending' %}<div class="notice">This card is waiting for review. Only you and the admins can see it for now.</div>{% endif %}
+      {% if tea.status.value == 'pending' %}<div class="notice">Draft. Only admins can see this card.</div>{% endif %}
     </div>
   </div>
 </section>

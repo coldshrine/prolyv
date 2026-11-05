@@ -97,7 +97,7 @@ def test_detail_page(client, db):
     assert client.get("/teas/nope").status_code == 404
 
 
-def test_pending_tea_is_private_until_approved(tmp_path, google):
+def test_draft_tea_is_visible_to_admins_only(tmp_path, google):
     client = admin_client(tmp_path, google)
     db = client.app.state.session_factory()
     make_tea(db, "mystery", "Mystery tea", status=TeaStatus.pending)
@@ -106,62 +106,51 @@ def test_pending_tea_is_private_until_approved(tmp_path, google):
     assert client.get("/teas/mystery").status_code == 404
     client.cookies.clear()
     admin_login(client)
-    assert client.get("/teas/mystery").status_code == 200
-    assert "waiting for review" in client.get("/teas/mystery").text
+    assert "Draft. Only admins" in client.get("/teas/mystery").text
 
 
-def test_request_review_edit_and_delete_flow(tmp_path, google):
+def test_users_cannot_add_teas(client):
+    telegram_login(client)
+    assert client.get("/teas/new").status_code == 404
+    assert client.post("/teas/new", data={"csrf_token": csrf_token(client), "name_en": "X"}).status_code in (404, 405)
+    assert client.get("/admin/teas").status_code == 403
+    assert client.get("/admin/teas/new").status_code == 403
+    page = client.get("/teas").text
+    assert "Add a tea" not in page and "/teas/new" not in page
+
+
+def test_admin_tea_crud(tmp_path, google):
     client = admin_client(tmp_path, google)
     db = client.app.state.session_factory()
-
-    telegram_login(client, username="olena_tea")
+    admin_login(client)
     token = csrf_token(client)
     form = {"csrf_token": token, "name_en": "Mystery Mountain Oolong", "category": "oolong", "form": "loose",
             "origin_country": "Taiwan", "origin_region": "Nantou", "description": "A rolled oolong from a small garden we found on a trip. " * 2,
             "taste_tags": "floral, creamy", "aliases": "MMO", "brew_grams": "6", "brew_water_ml": "120",
-            "brew_temp_c": "95", "brew_steeps": "3", "brew_seconds": "20, 25, 30"}
-    response = client.post("/teas/new", data=form, follow_redirects=False)
-    assert response.status_code == 303
+            "brew_temp_c": "95", "brew_steeps": "3", "brew_seconds": "20, 25, 30", "published": "on"}
+    response = client.post("/admin/teas/new", data=form, follow_redirects=False)
     assert response.headers["location"] == "/teas/mystery-mountain-oolong"
-    page = client.get("/teas/mystery-mountain-oolong").text  # the author can see their pending card
-    assert "waiting for review" in page and "Mystery Mountain Oolong" in page
-    assert "Mystery Mountain" not in client.get("/teas").text
     tea = db.execute(select(Tea).where(Tea.slug == "mystery-mountain-oolong")).scalar_one()
-    assert tea.status == TeaStatus.pending and tea.brewing["seconds"] == [20, 25, 30] and tea.taste_tags == ["floral", "creamy"]
-    assert [a.alias for a in tea.aliases] == ["MMO"]
+    assert tea.status == TeaStatus.published and tea.brewing["seconds"] == [20, 25, 30] and tea.taste_tags == ["floral", "creamy"]
+    assert [a.alias for a in tea.aliases] == ["MMO"] and "Mystery Mountain" in client.get("/admin/teas").text
 
-    assert client.get("/admin/teas").status_code == 403  # not an admin
-    client.cookies.clear()
-    admin_login(client)
-    admin_token = csrf_token(client)
-    queue = client.get("/admin/teas").text
-    assert "Mystery Mountain Oolong" in queue and "waiting for review" in queue
-
-    edited = dict(form, csrf_token=admin_token, name_en="Mystery Mountain Oolong (Nantou)", popularity="4")
+    edited = dict(form, name_en="Mystery Mountain Oolong (Nantou)", popularity="4")
+    edited.pop("published")
     assert client.post("/admin/teas/mystery-mountain-oolong/edit", data=edited, follow_redirects=False).status_code == 303
-    assert client.post("/admin/teas/mystery-mountain-oolong/approve", data={"csrf_token": admin_token}, follow_redirects=False).status_code == 303
     db.expire_all()
     tea = db.execute(select(Tea).where(Tea.slug == "mystery-mountain-oolong")).scalar_one()
-    assert tea.status == TeaStatus.published and tea.locked and tea.popularity == 4
-    assert "Mystery Mountain Oolong (Nantou)" in client.get("/teas").text
+    assert tea.status == TeaStatus.pending and tea.locked and tea.popularity == 4
+    assert "Mystery Mountain" not in client.get("/teas").text
 
-    assert client.post("/admin/teas/mystery-mountain-oolong/delete", data={"csrf_token": admin_token}, follow_redirects=False).status_code == 303
+    assert client.post("/admin/teas/mystery-mountain-oolong/delete", data={"csrf_token": token}, follow_redirects=False).status_code == 303
     assert client.get("/teas/mystery-mountain-oolong").status_code == 404
 
 
-def test_admin_adds_teas_directly_as_published(tmp_path, google):
+def test_admin_tea_form_validation(tmp_path, google):
     client = admin_client(tmp_path, google)
     admin_login(client)
-    form = {"csrf_token": csrf_token(client), "name_en": "Quick Oolong", "category": "oolong", "form": "loose",
-            "origin_country": "China", "description": "Short but long enough description of a quick test tea card."}
-    client.post("/teas/new", data=form, follow_redirects=False)
-    assert "Quick Oolong" in client.get("/teas").text
-
-
-def test_request_form_validation(client):
-    telegram_login(client)
     form = {"csrf_token": csrf_token(client), "name_en": "X", "category": "nope", "form": "loose", "origin_country": "", "description": "short"}
-    response = client.post("/teas/new", data=form, follow_redirects=False)
+    response = client.post("/admin/teas/new", data=form, follow_redirects=False)
     assert response.status_code == 400
     assert "Pick a category" in response.text and "Where is it from?" in response.text
 
