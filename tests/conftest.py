@@ -15,8 +15,8 @@ from starlette.testclient import TestClient
 from prolyv.app import create_app
 from prolyv.auth.telegram import sign_telegram_params
 from prolyv.config import Settings
-from prolyv.search import ensure_forum_sections
 from prolyv.models import Base
+from prolyv.search import ensure_forum_sections
 
 BOT_TOKEN = "123456:TEST-BOT-TOKEN-0123456789"
 GOOGLE_CLIENT_ID = "test-client-id.apps.googleusercontent.com"

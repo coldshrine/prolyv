@@ -3,8 +3,8 @@ import uuid
 
 from sqlalchemy import select
 
-from prolyv.search import fts_query
 from prolyv.models import Reply, Topic
+from prolyv.search import fts_query
 from tests.conftest import build_app, csrf_token, make_settings, telegram_login
 from tests.test_diary import new_session, session_id_from
 

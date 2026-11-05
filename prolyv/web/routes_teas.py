@@ -12,8 +12,6 @@ from fastapi.responses import RedirectResponse, Response
 from sqlalchemy import func, select
 
 from prolyv.handles import slugify
-from prolyv.search import index_tea, remove
-from prolyv.web.cup import HEX_RE
 from prolyv.models import (
     CATEGORY_LABELS,
     FORM_LABELS,
@@ -27,6 +25,8 @@ from prolyv.models import (
     origin_key,
     utcnow,
 )
+from prolyv.search import index_tea, remove
+from prolyv.web.cup import HEX_RE
 from prolyv.web.deps import AdminUser, CurrentUser, DbDep, SettingsDep, SignerDep, require_csrf
 from prolyv.web.flash import set_flash
 from prolyv.web.templating import render

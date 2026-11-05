@@ -28,9 +28,9 @@ from prolyv.models import (
     utcnow,
 )
 from prolyv.search import index_session, remove
+from prolyv.social import notify, notify_followers
 from prolyv.story import render_story
 from prolyv.uploads import MAX_PHOTOS, PhotoError, delete_photo_files, delete_session_media, save_session_photo
-from prolyv.social import notify, notify_followers
 from prolyv.web.deps import CurrentUser, DbDep, RequiredUser, SettingsDep, SignerDep, post_quota, require_csrf
 from prolyv.web.flash import set_flash
 from prolyv.web.templating import render

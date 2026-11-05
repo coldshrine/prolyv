@@ -2,9 +2,8 @@
 
 from __future__ import annotations
 
-from pathlib import Path
-
 import logging
+from pathlib import Path
 
 from fastapi import Depends, FastAPI, Request
 from fastapi.exceptions import RequestValidationError
@@ -16,10 +15,21 @@ from prolyv.auth.google import GoogleOIDC
 from prolyv.auth.sessions import load_session
 from prolyv.config import Settings, get_settings
 from prolyv.db import make_engine, make_session_factory
-from prolyv.search import ensure_fts
 from prolyv.ratelimit import RateLimiter, RateLimitMiddleware
+from prolyv.search import ensure_fts
 from prolyv.security import SESSION_COOKIE, Signer
-from prolyv.web import routes_account, routes_auth, routes_blog, routes_dev, routes_diary, routes_forum, routes_home, routes_pages, routes_social, routes_teas
+from prolyv.web import (
+    routes_account,
+    routes_auth,
+    routes_blog,
+    routes_dev,
+    routes_diary,
+    routes_forum,
+    routes_home,
+    routes_pages,
+    routes_social,
+    routes_teas,
+)
 from prolyv.web.cookies import PendingCookiesMiddleware
 from prolyv.web.deps import get_current_user
 from prolyv.web.headers import SecurityHeadersMiddleware

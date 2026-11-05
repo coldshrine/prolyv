@@ -3,9 +3,8 @@
 from __future__ import annotations
 
 import hmac
-from urllib.parse import quote
-
 import logging
+from urllib.parse import quote
 
 from fastapi import APIRouter, Depends, Form, HTTPException, Request
 from fastapi.responses import RedirectResponse, Response

@@ -14,7 +14,16 @@ from prolyv.markdown import render_markdown
 from prolyv.models import Post, PostComment, Tea, TeaSession, TeaStatus, Visibility, utcnow
 from prolyv.search import index_post, remove
 from prolyv.social import notify
-from prolyv.web.deps import AdminUser, CurrentUser, DbDep, RequiredUser, SettingsDep, SignerDep, post_quota, require_csrf
+from prolyv.web.deps import (
+    AdminUser,
+    CurrentUser,
+    DbDep,
+    RequiredUser,
+    SettingsDep,
+    SignerDep,
+    post_quota,
+    require_csrf,
+)
 from prolyv.web.flash import set_flash
 from prolyv.web.templating import render
 

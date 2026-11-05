@@ -20,11 +20,9 @@ sys.path.insert(0, str(ROOT))
 
 from prolyv.config import get_settings  # noqa: E402
 from prolyv.db import make_engine, make_session_factory  # noqa: E402
-from prolyv.search import rebuild  # noqa: E402
 from prolyv.models import (  # noqa: E402
     ForumSection,
     Identity,
-    Post,
     Provider,
     Reply,
     Steep,
@@ -35,6 +33,7 @@ from prolyv.models import (  # noqa: E402
     Visibility,
     utcnow,
 )
+from prolyv.search import rebuild  # noqa: E402
 
 USERS = [
     ("karyna", "Karyna", "Tea TikToker. Runs Prolyv. Mostly oolong and sheng.", True),
