@@ -175,3 +175,36 @@ def test_home_feed_merges_public_sessions_and_topics(client):
     assert "Every steep, in your diary" in guest and "Latest on Prolyv" in guest and "Feed Oolong" in guest
     assert client.get("/feed", follow_redirects=False).headers["location"] == "/"
     assert client.get("/discuss", follow_redirects=False).headers["location"] == "/discussions"
+
+
+def test_a_mention_reaches_the_person_and_the_ask_button_prefills_it(client, app):
+    from fastapi.testclient import TestClient
+    from sqlalchemy import select
+
+    from prolyv.models import Notification, User
+    from tests.conftest import DESKTOP_UA
+
+    telegram_login(client, tg_id="1", username="olena_tea")
+    asker = TestClient(app, headers={"user-agent": DESKTOP_UA})
+    telegram_login(asker, tg_id="2", username="tea_mike")
+    form = asker.get("/discussions/new", params={"ask": "olena_tea"}).text
+    assert "@olena_tea " in form and "they get a notification" in form
+    section = form.split('name="section"')[1].split('<option value="')[2].split('"')[0]
+    asker.post("/discussions/new", data={"csrf_token": csrf_token(asker), "section": section, "title": "A question for you",
+                                         "body": "@olena_tea how long do you steep it?"}, follow_redirects=False)
+    db = app.state.session_factory()
+    olena = db.execute(select(User).where(User.handle == "olena_tea")).scalar_one()
+    notes = db.execute(select(Notification).where(Notification.user_id == olena.id)).scalars().all()
+    assert any("mentioned you" in n.text for n in notes)
+    db.close()
+
+
+def test_links_in_posts_are_clickable_and_nothing_else_becomes_html(client):
+    telegram_login(client, username="olena_tea")
+    token = csrf_token(client)
+    form = client.get("/discussions/new").text
+    section = form.split('name="section"')[1].split('<option value="')[2].split('"')[0]
+    response = client.post("/discussions/new", data={"csrf_token": token, "section": section, "title": "Links please",
+                                                     "body": "See https://example.com/a?b=1&c=2. <script>alert(1)</script>"})
+    page = response.text
+    assert '<a href="https://example.com/a?b=1&amp;c=2" rel="nofollow ugc noopener"' in page and "<script>alert(1)" not in page

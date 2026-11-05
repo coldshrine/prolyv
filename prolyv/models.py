@@ -165,6 +165,9 @@ FORM_LABELS = {
 }
 
 
+EXPLAINER_SLUG = "style-%"
+
+
 class Tea(Base):
     """One catalog card. Text comes from data/teas/*.json (or a community request); photos from Wikimedia Commons."""
 
@@ -272,12 +275,24 @@ class Tea(Base):
         base["history_paragraphs"] = split(base["history"])
         return base
 
+    @property
+    def search_names(self) -> list[str]:
+        """Every name people may type. Pu-erh is also written puerh, puer and pu'er."""
+        names = [self.name_en, self.name_native, self.name_romanized, self.name_zh, self.name_ru, *[a.alias for a in self.aliases], self.category_label]
+        if self.category in (TeaCategory.sheng, TeaCategory.shu):
+            names += ["puer", "пуэр", "пу эр", "普洱"]
+        return [n for n in names if n]
+
+    @property
+    def is_explainer(self) -> bool:
+        """style-* cards are articles about a way of making tea, not teas to log or list."""
+        return self.slug.startswith("style-")
+
     def refresh_search_text(self) -> None:
-        names = [self.name_en, self.name_native, self.name_romanized, self.name_zh, self.name_ru, *[a.alias for a in self.aliases]]
+        names = self.search_names
         bits = [*names, self.origin_country, self.origin_region, self.category.value, self.category_label, self.cultivar]
         text = " ".join(b for b in bits if b)
-        compact = " ".join(n.replace(" ", "").replace("-", "") for n in names if n and (" " in n or "-" in n))
-        self.search_text = fold_text(f"{text} {compact}")
+        self.search_text = fold_text(f"{text} {' '.join(joined_names(names))}")
         keys = [key for _, key in self.origin_parts]
         self.origin_keys = " " + " ".join(keys) + " "
 
@@ -286,16 +301,37 @@ def fold_text(text: str) -> str:
     """Lowercase without diacritics: 'Tiě Guānyīn' -> 'tie guanyin', 'Чёрный' -> 'черныи'. Keeps CJK and Cyrillic."""
     import unicodedata
 
-    decomposed = unicodedata.normalize("NFKD", text.lower())
+    decomposed = unicodedata.normalize("NFKD", text.lower().translate(TRADITIONAL_TO_SIMPLIFIED))
     return "".join(ch for ch in decomposed if unicodedata.category(ch) != "Mn")
 
 
-def origin_levels(region: str | None) -> list[str]:
-    """Places named in a free-form region: 'Nantou · Lugu and Shuili; Taipei (Muzha, 400 m)' -> Nantou, Lugu, Shuili, Taipei."""
+# The characters of tea names, so that 鐵觀音 and 铁观音 find the same tea. Not a general converter.
+TRADITIONAL_TO_SIMPLIFIED = str.maketrans(
+    "鐵觀龍烏紅綠雲葉壽貢銀針頂凍東鳳單叢萬壺蓮蘭黃崗園門陽廣壓餅磚團條樹區縣臺灣陳饒嶺蘇閩浙贛滇藏韓國島聯實靈馬麥鄉開關將軍絲帶貴妃",
+    "铁观龙乌红绿云叶寿贡银针顶冻东凤单丛万壶莲兰黄岗园门阳广压饼砖团条树区县台湾陈饶岭苏闽浙赣滇藏韩国岛联实灵马麦乡开关将军丝带贵妃",
+)
+
+
+def joined_names(names: list[str]) -> list[str]:
+    """Runs of words written together, so that 'dahongpao' finds Wuyi Da Hong Pao and 'puerh' finds Pu-erh."""
     import re
 
-    plain = re.sub(r"\([^)]*\)", " ", region or "")
-    return [level.strip() for level in re.split(r"[·;,]|\band\b", plain) if origin_key(level)]
+    out: set[str] = set()
+    for name in names:
+        words = re.findall(r"[^\W_]+", fold_text(name).replace("'", "").replace("’", ""))
+        for size in (2, 3, 4):
+            out.update("".join(words[i:i + size]) for i in range(len(words) - size + 1))
+    return sorted(out)
+
+
+def origin_levels(region: str | None) -> list[str]:
+    """The leading place of a free-form region, as a path: 'Nantou · Lugu; Taipei · Muzha (400 m)' -> Nantou, Lugu.
+
+    Only this becomes a /teas/o/ page. Anything after the first ';', ',', '(' or ' and ' is description, not a place."""
+    import re
+
+    leading = re.split(r"[;,(]|\band\b", region or "", maxsplit=1)[0]
+    return [level.strip() for level in leading.split("·") if origin_key(level)]
 
 
 def origin_key(label: str) -> str:

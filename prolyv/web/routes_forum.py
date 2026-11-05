@@ -10,12 +10,14 @@ from fastapi.responses import RedirectResponse
 from sqlalchemy import func, select
 from sqlalchemy.orm import selectinload
 
+from prolyv.auth.accounts import get_user_by_handle
 from prolyv.models import ForumSection, Reply, ReplyVote, TeaSession, Topic, User, Visibility, utcnow
 from prolyv.search import index_reply, index_topic, remove_reply, remove_topic, search_topics
 from prolyv.social import notify, notify_followers
 from prolyv.web.deps import CurrentUser, DbDep, RequiredUser, SettingsDep, SignerDep, post_quota, require_csrf
 from prolyv.web.flash import set_flash
 from prolyv.web.templating import render
+from prolyv.web.text import mentions
 
 router = APIRouter()
 PAGE_SIZE = 20
@@ -105,9 +107,19 @@ def forum_section(request: Request, db: DbDep, user: CurrentUser, slug: str, q: 
 
 
 @router.get("/discussions/new")
-def topic_new_form(request: Request, db: DbDep, user: RequiredUser, section: str = "", session: str = ""):
-    form = {"section": section, "title": "", "body": "", "attached_session_id": session}
-    return render(request, "forum/new.html", {"form": form, "errors": {}, "sections": all_sections(db), "my_sessions": my_public_sessions(db, user)})
+def topic_new_form(request: Request, db: DbDep, user: RequiredUser, section: str = "", session: str = "", ask: str = ""):
+    asked = get_user_by_handle(db, ask.strip().lstrip("@").lower()) if ask else None
+    form = {"section": section, "title": "", "body": f"@{asked.handle} " if asked else "", "attached_session_id": session}
+    context = {"form": form, "errors": {}, "sections": all_sections(db), "my_sessions": my_public_sessions(db, user), "asked": asked}
+    return render(request, "forum/new.html", context)
+
+
+def notify_mentions(db, author: User, body: str, url: str, what: str) -> None:  # noqa: ANN001
+    """An @handle in a post reaches that person. "Ask X in the forum" relies on this."""
+    for handle in mentions(body):
+        person = get_user_by_handle(db, handle)
+        if person is not None:
+            notify(db, person.id, author, f"@{author.handle} mentioned you in {what}", url)
 
 
 def validate_topic(data, db) -> tuple[dict, dict]:  # noqa: ANN001
@@ -139,6 +151,7 @@ async def topic_create(request: Request, db: DbDep, settings: SettingsDep, signe
     db.flush()
     index_topic(db, topic.id, topic.title, topic.body)
     notify_followers(db, user, f"@{user.handle} started a topic: {topic.title}", f"/discussions/{topic.id}")
+    notify_mentions(db, user, topic.body, f"/discussions/{topic.id}", f"“{topic.title}”")
     response = RedirectResponse(f"/discussions/{topic.id}", status_code=303)
     set_flash(response, settings, signer, "ok", "Topic posted.")
     return response
@@ -183,6 +196,8 @@ def topic_page(request: Request, db: DbDep, user: CurrentUser, topic_id: uuid.UU
 def reply_create(request: Request, db: DbDep, settings: SettingsDep, signer: SignerDep, user: RequiredUser,
                  topic_id: uuid.UUID, body: str = Form(""), attached_session_id: str = Form("")):
     topic = get_topic(db, topic_id)
+    if topic.hidden and not getattr(request.state, "is_admin", False):
+        raise HTTPException(status_code=404)
     body = body.strip()[:20000]
     response = RedirectResponse(f"/discussions/{topic.id}", status_code=303)
     if len(body) < 2:
@@ -195,6 +210,7 @@ def reply_create(request: Request, db: DbDep, settings: SettingsDep, signer: Sig
     db.flush()
     index_reply(db, reply.id, topic.id, body)
     notify(db, topic.user_id, user, f"@{user.handle} replied to “{topic.title}”", f"/discussions/{topic.id}#reply-{reply.id}")
+    notify_mentions(db, user, body, f"/discussions/{topic.id}#reply-{reply.id}", f"“{topic.title}”")
     response.headers["location"] = f"/discussions/{topic.id}#reply-{reply.id}"
     return response
 

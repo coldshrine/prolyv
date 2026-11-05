@@ -7,7 +7,7 @@
   var toggle = document.getElementById("timer-toggle");
   var suggestEl = document.getElementById("timer-suggest");
   var suggested = (form.dataset.suggested || "").split(",").filter(Boolean).map(Number);
-  var draftKey = "prolyv:session-draft:" + (form.dataset.draftKey || "new");
+  var draftKey = "prolyv:session-draft:" + (form.dataset.user || "") + ":" + (form.dataset.draftKey || "new");
   var running = false, startedAt = 0, tick = null;
 
   function fmt(sec) { var m = Math.floor(sec / 60), s = sec % 60; return m + ":" + (s < 10 ? "0" : "") + s; }
@@ -59,9 +59,11 @@
   });
   document.getElementById("manual-add").addEventListener("click", function () {
     var input = document.getElementById("manual-seconds");
-    var sec = parseInt(input.value, 10);
-    if (sec > 0) { addSteep(sec, ""); input.value = ""; }
-    else if (suggested[steepCount()]) { addSteep(suggested[steepCount()], ""); }
+    var typed = input.value.trim();
+    var sec = parseInt(typed, 10);
+    if (sec > 0 && sec <= 3600) { addSteep(sec, ""); input.value = ""; }
+    else if (!typed && suggested[steepCount()]) { addSteep(suggested[steepCount()], ""); }
+    else { input.focus(); input.select(); }
   });
 
   // tea picker (HTMX fills #tea-suggest; we handle the click)
@@ -74,9 +76,9 @@
     teaId.value = item.dataset.id; teaName.value = item.dataset.name;
     ["grams", "water", "temp"].forEach(function (k) {
       var el = document.getElementById(k === "water" ? "water_ml" : k === "temp" ? "temp_c" : "grams");
-      if (el && !el.value && item.dataset[k]) el.value = item.dataset[k];
+      if (el && item.dataset[k] && (!el.value || el.dataset.fromTea === "1")) { el.value = item.dataset[k]; el.dataset.fromTea = "1"; }
     });
-    if (item.dataset.seconds && !suggested.length) { suggested = item.dataset.seconds.split(",").map(Number); }
+    if (item.dataset.seconds) { suggested = item.dataset.seconds.split(",").map(Number); }
     suggest.innerHTML = ""; linked.hidden = false; updateSuggest(); saveDraft();
   });
   teaName.addEventListener("input", function () { if (teaId.value) { teaId.value = ""; linked.hidden = true; } });
@@ -87,7 +89,8 @@
     var data = {};
     form.querySelectorAll("input, textarea, select").forEach(function (el) {
       if (!el.name || el.type === "file" || el.name === "csrf_token" || el.name === "remove_photo" || el.name.indexOf("steep_") === 0) return;
-      if (el.type === "checkbox") data[el.name] = el.checked;
+      if (el.name === "taste_tags") { (data.taste_tags = data.taste_tags || []); if (el.checked) data.taste_tags.push(el.value); }
+      else if (el.type === "checkbox") data[el.name] = el.checked;
       else if (el.type === "radio") { if (el.checked) data[el.name] = el.value; }
       else data[el.name] = el.value;
     });
@@ -108,7 +111,8 @@
       if (name === "steeps") return;
       var els = form.querySelectorAll('[name="' + name + '"]');
       els.forEach(function (el) {
-        if (el.type === "checkbox") el.checked = !!data[name];
+        if (name === "taste_tags") el.checked = Array.isArray(data[name]) && data[name].indexOf(el.value) >= 0;
+        else if (el.type === "checkbox") el.checked = !!data[name];
         else if (el.type === "radio") el.checked = el.value === data[name];
         else el.value = data[name];
       });
@@ -122,8 +126,24 @@
   }
   form.addEventListener("input", saveDraft);
   form.addEventListener("change", saveDraft);
-  form.addEventListener("submit", function () { try { localStorage.removeItem(draftKey); } catch (e) {} });
-  window.addEventListener("beforeunload", function () { if (running) saveDraft(); });
+  var submitting = false;
+  form.addEventListener("submit", function () {
+    if (running) stopTimer(); // the running steep counts
+    submitting = true;
+    try { sessionStorage.setItem("prolyv:saved-draft", draftKey); } catch (e) {}
+  });
+  window.addEventListener("beforeunload", function () { if (running && !submitting) saveDraft(); });
+  // Enter in a one-line field never saves the whole session. In the seconds box it adds the steep.
+  form.addEventListener("keydown", function (e) {
+    if (e.key !== "Enter" || e.target.tagName !== "INPUT" || e.target.type === "submit") return;
+    e.preventDefault();
+    if (e.target.id === "manual-seconds") document.getElementById("manual-add").click();
+  });
+  document.addEventListener("click", function (e) {
+    if (!suggest.contains(e.target) && e.target !== teaName) suggest.innerHTML = "";
+  });
+  var cancel = document.getElementById("session-cancel");
+  if (cancel) cancel.addEventListener("click", function () { try { localStorage.removeItem(draftKey); } catch (e) {} });
 
   restoreDraft();
   renumber();

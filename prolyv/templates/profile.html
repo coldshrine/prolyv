@@ -18,7 +18,7 @@
         {% if current_user %}
         <form method="post" action="/u/{{ profile.handle }}/follow" class="inline-form"><input type="hidden" name="csrf_token" value="{{ csrf_token }}"><button class="btn {{ 'btn-secondary' if following else 'btn-primary' }}" type="submit" aria-pressed="{{ 'true' if following else 'false' }}">{{ 'Following ✓' if following else 'Follow' }}</button></form>
         {% else %}<a class="btn btn-primary" href="/login?next=/u/{{ profile.handle }}">Follow</a>{% endif %}
-        <a class="btn btn-secondary" href="{% if current_user %}/discussions/new{% else %}/login?next=/discussions/new{% endif %}">Ask {{ profile.display_name.split(' ')[0] }} in the forum</a>
+        <a class="btn btn-secondary" href="{% if current_user %}/discussions/new?ask={{ profile.handle }}{% else %}/login?next=/discussions/new%3Fask%3D{{ profile.handle }}{% endif %}">Ask {{ profile.display_name.split(' ')[0][:24] }} in the forum</a>
         {% endif %}
       </div>
     </div>

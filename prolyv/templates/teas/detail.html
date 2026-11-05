@@ -3,6 +3,7 @@
 {% block title %}{{ tea.name_en }}{% if tea.name_zh %} ({{ tea.name_zh }}){% endif %} · Prolyv tea base{% endblock %}
 {% block head %}
 <link rel="canonical" href="{{ og.url }}">
+{% if tea.confidence == 'low' %}<meta name="robots" content="noindex">{% endif %}
 {% if languages|length > 1 %}{% for code in languages %}<link rel="alternate" hreflang="{{ code }}" href="{{ page_url }}{% if code != 'en' %}?lang={{ code }}{% endif %}">
 {% endfor %}<link rel="alternate" hreflang="x-default" href="{{ page_url }}">{% endif %}
 <meta name="description" content="{{ og.description }}">
@@ -59,7 +60,7 @@
       </div>
       {% endif %}
       <div class="actions">
-        <a class="btn btn-primary" href="{% if current_user %}/sessions/new?tea={{ tea.slug }}{% else %}/login?next=/sessions/new%3Ftea%3D{{ tea.slug }}{% endif %}">Log this tea</a>
+        {% if not tea.is_explainer %}<a class="btn btn-primary" href="{% if current_user %}/sessions/new?tea={{ tea.slug }}{% else %}/login?next=/sessions/new%3Ftea%3D{{ tea.slug }}{% endif %}">Log this tea</a>{% endif %}
         {{ save_button('tea', tea.id, saved, current_user, csrf_token, path) }}
         {% if tea.wikipedia_url %}<a class="btn btn-secondary" href="{{ tea.wikipedia_url }}" target="_blank" rel="noopener">Read more on Wikipedia</a>{% endif %}
         {% if is_admin_view %}<a class="btn btn-ghost" href="/admin/teas/{{ tea.slug }}/edit">Edit card</a>{% endif %}
@@ -91,7 +92,7 @@
     {% endif %}
 
     {% if text.vintage_note %}
-    <h2 class="h2">Sold as · vintages</h2>
+    <h2 class="h2">How it is sold</h2>
     <div class="card vintage"><p>{{ text.vintage_note }}</p></div>
     {% endif %}
 
@@ -110,6 +111,7 @@
     <ul class="sources">{% for url in tea.sources %}<li><a href="{{ url }}" target="_blank" rel="noopener nofollow">{{ url|replace('https://', '')|replace('http://', '')|truncate(70, True) }}</a></li>{% endfor %}</ul>
     {% endif %}
 
+    {% if not tea.is_explainer %}
     <h2 class="h2" id="sessions">Sessions with this tea</h2>
     {% if sessions %}
     <div class="session-list">{% for s in sessions %}{{ session_card(s) }}{% endfor %}</div>
@@ -118,6 +120,7 @@
       <p class="empty-title">No public sessions yet</p>
       <p class="muted">Be the first: <a href="{% if current_user %}/sessions/new?tea={{ tea.slug }}{% else %}/login?next=/sessions/new%3Ftea%3D{{ tea.slug }}{% endif %}">log this tea</a>.</p>
     </div>
+    {% endif %}
     {% endif %}
   </div>
 

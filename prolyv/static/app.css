@@ -402,8 +402,8 @@ select option { color: #111; }
 .cal-3 { background: #FF8A1F; }
 .cal-future { background: transparent; border: 1px dashed rgba(255, 255, 255, 0.1); }
 .shelf { list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; gap: 10px; }
-.shelf li { display: grid; grid-template-columns: 28px 1fr; grid-template-rows: auto auto; column-gap: 10px; align-items: center; }
-.shelf .cup-mark { grid-row: 1 / 3; }
+.shelf li { display: grid; grid-template-columns: 32px minmax(0, 1fr); grid-template-rows: auto auto; column-gap: 10px; align-items: center; }
+.shelf .cup, .shelf .cup-mark { grid-row: 1 / 3; }
 .shelf-name a { color: var(--fg); font-weight: 800; text-decoration: none; }
 .session-hero { display: flex; flex-direction: column; gap: 20px; padding: 36px 16px; }
 .session-hero-meta { display: flex; flex-direction: column; gap: 10px; }
@@ -647,3 +647,23 @@ input[type="email"]:focus { border-color: var(--pink); box-shadow: 0 0 0 3px rgb
 .photo-edit img { width: 96px; height: 72px; object-fit: cover; border-radius: 12px; }
 .photo-edit .check { margin-top: 4px; font-size: 13px; }
 input[type="file"] { color: var(--muted); font: inherit; font-size: 14px; }
+
+/* Long unbroken text (a pasted URL, a nickname) wraps inside its card instead of widening the whole page. */
+html, body { overflow-x: clip; }
+body { overflow-wrap: anywhere; }
+.btn, .chip, .badge, .tag, .tab, .stat-value { overflow-wrap: normal; }
+.btn { max-width: 100%; }
+.btn-ask { overflow: hidden; text-overflow: ellipsis; }
+.prose table, .post-prose table { display: block; overflow-x: auto; max-width: 100%; }
+.prose pre, .post-prose pre { overflow-x: auto; max-width: 100%; }
+[id] { scroll-margin-top: 88px; }
+.user-text a, .comment a { color: var(--accent, #FF8FE0); }
+.comment p { white-space: pre-line; }
+.notifications .avatar { flex: none; }
+.tea-card-origin { display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
+.search-group { margin-top: 28px; }
+.search-more { margin-top: 12px; }
+.explainers-title { margin-top: 32px; }
+.explainers { list-style: none; margin: 14px 0 0; padding: 0; display: grid; gap: 10px; grid-template-columns: minmax(0, 1fr); }
+@media (min-width: 768px) { .explainers { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+.explainer { display: flex; flex-direction: column; gap: 4px; color: var(--fg); text-decoration: none; }

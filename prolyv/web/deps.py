@@ -79,7 +79,8 @@ async def require_csrf(request: Request, user: RequiredUser, signer: SignerDep) 
     """All state-changing forms carry csrf_token bound to the login session."""
     form = await request.form()
     sess = request.state.session
-    if not signer.verify_csrf(sess.token_hash, form.get("csrf_token")):
+    token = form.get("csrf_token")
+    if not isinstance(token, str) or not signer.verify_csrf(sess.token_hash, token):
         raise HTTPException(status_code=403, detail="csrf_failed")
 
 

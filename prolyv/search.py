@@ -14,7 +14,7 @@ from sqlalchemy import select, text
 from sqlalchemy.engine import Engine
 from sqlalchemy.orm import Session, selectinload
 
-from prolyv.models import FORUM_SECTIONS, ForumSection, Post, Reply, Tea, TeaSession, TeaStatus, Topic
+from prolyv.models import FORUM_SECTIONS, TRADITIONAL_TO_SIMPLIFIED, ForumSection, Post, Reply, Tea, TeaSession, TeaStatus, Topic, joined_names
 
 FTS_DDL = (
     "CREATE VIRTUAL TABLE IF NOT EXISTS search_fts USING fts5("
@@ -27,7 +27,7 @@ WORD = re.compile(r"\w+", re.UNICODE)
 
 
 def prep(value: str | None) -> str:
-    return CJK.sub(r" \1 ", value or "")
+    return CJK.sub(r" \1 ", (value or "").translate(TRADITIONAL_TO_SIMPLIFIED))
 
 
 def ensure_fts(engine: Engine) -> None:
@@ -63,9 +63,10 @@ def index_tea(db: Session, tea: Tea) -> None:
     if tea.status != TeaStatus.published:
         remove(db, "tea", tea.id)
         return
-    names = [tea.name_en, tea.name_zh, tea.name_ru, tea.name_native, tea.name_romanized, *[a.alias for a in tea.aliases]]
-    body = [tea.category_label, tea.origin_country, tea.origin_region, tea.cultivar, tea.taste_profile, tea.description, tea.history]
-    _put(db, "tea", tea.id, " ".join(n for n in names if n), " ".join(b for b in body if b))
+    names = tea.search_names
+    title = [*names, *joined_names(names), tea.origin_country]
+    body = [tea.origin_region, tea.cultivar, tea.taste_profile, tea.description, tea.history]
+    _put(db, "tea", tea.id, " ".join(title), " ".join(b for b in body if b))
 
 
 def index_topic(db: Session, topic_id: uuid.UUID, title: str, body: str) -> None:
@@ -130,7 +131,7 @@ def _fill_index(db: Session) -> int:
 def fts_query(raw: str) -> str:
     """Free text to a safe FTS5 query: quoted prefix tokens joined by AND; Chinese runs become phrases."""
     parts: list[str] = []
-    for word in WORD.findall(raw.lower())[:10]:
+    for word in WORD.findall(raw.lower().translate(TRADITIONAL_TO_SIMPLIFIED))[:10]:
         for run in CJK_RUN.findall(word):
             parts.append(f'"{" ".join(run)}"' if CJK.match(run) else f'"{run}"*')
     return " ".join(parts)
@@ -154,6 +155,24 @@ def search_all(db: Session, raw: str, kinds: tuple[str, ...] = ("tea", "topic", 
             seen.add(key)
             results.append((key[0], uuid.UUID(hex=key[1])))
     return results[:limit]
+
+
+def search_teas(db: Session, raw: str, limit: int = 30) -> list[uuid.UUID]:
+    """Teas whose name, type or country match come first, best known first; then teas that only mention the words."""
+    query = fts_query(raw)
+    if not query:
+        return []
+    named = db.execute(
+        text("SELECT f.ref_id FROM search_fts f JOIN teas t ON t.id = f.ref_id WHERE search_fts MATCH :q AND f.kind = 'tea' "
+             "ORDER BY t.popularity DESC, f.rank LIMIT :limit"),
+        {"q": f"title : ({query})", "limit": limit},
+    ).scalars().all()
+    if len(named) < limit:
+        named += db.execute(
+            text("SELECT ref_id FROM search_fts WHERE search_fts MATCH :q AND kind = 'tea' ORDER BY rank LIMIT :limit"),
+            {"q": query, "limit": limit},
+        ).scalars().all()
+    return [uuid.UUID(hex=ref) for ref in dict.fromkeys(named)][:limit]
 
 
 def search_topics(db: Session, raw: str, limit: int = 50) -> list[uuid.UUID]:

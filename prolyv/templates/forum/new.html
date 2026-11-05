@@ -5,6 +5,7 @@
   <p class="eyebrow"><a href="/discussions">Discussions</a></p>
   <h1 class="h1">New topic</h1>
   <p class="lead">Be specific: the tea, the parameters, what happened. Attach a session and people can brew along.</p>
+  {% if asked %}<div class="notice notice-ok">Asking {{ asked.display_name }}. Keep @{{ asked.handle }} in the text and they get a notification.</div>{% endif %}
   <form method="post" action="/discussions/new" class="card form" novalidate>
     <input type="hidden" name="csrf_token" value="{{ csrf_token }}">
     <label class="field"><span class="label">Section</span>

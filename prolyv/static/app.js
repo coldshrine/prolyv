@@ -50,3 +50,36 @@
     if (copyBtn) copy(copyBtn, location.href);
   });
 })();
+
+/* The draft of a saved session goes once the save went through; a signed-out browser keeps nobody's draft. */
+(function () {
+  try {
+    if (!document.getElementById("session-form")) {
+      var saved = sessionStorage.getItem("prolyv:saved-draft");
+      if (saved) { localStorage.removeItem(saved); sessionStorage.removeItem("prolyv:saved-draft"); }
+    }
+  } catch (e) {}
+  document.addEventListener("submit", function (e) {
+    if (e.target.getAttribute("action") !== "/logout") return;
+    try {
+      Object.keys(localStorage).forEach(function (key) { if (key.indexOf("prolyv:session-draft:") === 0) localStorage.removeItem(key); });
+    } catch (err) {}
+  });
+})();
+
+/* Live filters: no empty parameters in the URL, and Back restores what the controls show. */
+document.addEventListener("htmx:configRequest", function (e) {
+  if (!e.detail.elt.classList || !e.detail.elt.classList.contains("teas-filters")) return;
+  var params = e.detail.parameters;
+  var names = params.keys ? Array.from(params.keys()) : Object.keys(params);
+  names.forEach(function (name) {
+    var value = params.get ? params.get(name) : params[name];
+    if (!value || (name === "sort" && value === "popular")) { if (params.delete) params.delete(name); else delete params[name]; }
+  });
+});
+document.addEventListener("htmx:historyRestore", function () {
+  var query = new URLSearchParams(location.search);
+  document.querySelectorAll(".teas-filters input[name], .teas-filters select[name]").forEach(function (el) {
+    el.value = query.get(el.name) || (el.name === "sort" ? "popular" : "");
+  });
+});

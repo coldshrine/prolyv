@@ -15,6 +15,7 @@ from sqlalchemy.orm import load_only, selectinload
 from prolyv.handles import slugify
 from prolyv.models import (
     CATEGORY_LABELS,
+    EXPLAINER_SLUG,
     FORM_LABELS,
     Tea,
     TeaAlias,
@@ -50,8 +51,13 @@ CARD_COLUMNS = (Tea.slug, Tea.name_en, Tea.name_native, Tea.name_zh, Tea.name_ru
 CARD_OPTIONS = (load_only(*CARD_COLUMNS), selectinload(Tea.images))
 
 
+# The tea list proper: published, without style-* cards, which are articles shown on /teas/types.
+CATALOG = (Tea.status == TeaStatus.published, Tea.slug.not_like(EXPLAINER_SLUG))
+MIN_REGION_TEAS = 3  # a region with fewer teas is too thin for a list or the sitemap
+
+
 def published() -> select:
-    return select(Tea).where(Tea.status == TeaStatus.published)
+    return select(Tea).where(*CATALOG)
 
 
 def count_of(db, stmt) -> int:  # noqa: ANN001
@@ -84,7 +90,7 @@ def origin_label(db, key: str) -> str | None:  # noqa: ANN001
 
 def sub_origins(db, key: str, limit: int = 60) -> list[dict]:  # noqa: ANN001
     """The regions inside a country or region, most teas first, for the chips on its page."""
-    rows = db.execute(select(Tea.origin_country, Tea.origin_region).where(Tea.status == TeaStatus.published, Tea.origin_keys.like(f"% {key} %"))).all()
+    rows = db.execute(select(Tea.origin_country, Tea.origin_region).where(*CATALOG, Tea.origin_keys.like(f"% {key} %"))).all()
     found: dict[str, dict] = {}
     for country, region in rows:
         levels = origin_levels(region)
@@ -93,7 +99,8 @@ def sub_origins(db, key: str, limit: int = 60) -> list[dict]:  # noqa: ANN001
         for level in dict.fromkeys(inside):
             entry = found.setdefault(origin_key(level), {"name": level, "key": origin_key(level), "count": 0})
             entry["count"] += 1
-    return sorted(found.values(), key=lambda r: (-r["count"], r["name"]))[:limit]
+    listed = [entry for entry in found.values() if entry["count"] >= MIN_REGION_TEAS]
+    return sorted(listed, key=lambda r: (-r["count"], r["name"]))[:limit]
 
 
 def list_page(request: Request, db, user, *, q="", category="", origin="", form="", sort="popular", page=1,  # noqa: ANN001
@@ -110,23 +117,43 @@ def list_page(request: Request, db, user, *, q="", category="", origin="", form=
     page = min(page, pages)
     teas = db.execute(stmt.options(*CARD_OPTIONS).order_by(*SORTS[sort]()).offset((page - 1) * PAGE_SIZE).limit(PAGE_SIZE)).scalars().all()
 
-    category_counts = dict(db.execute(select(Tea.category, func.count()).where(Tea.status == TeaStatus.published).group_by(Tea.category)).all())
-    country_counts = db.execute(
-        select(Tea.origin_country, func.count()).where(Tea.status == TeaStatus.published)
-        .group_by(Tea.origin_country).order_by(func.count().desc(), Tea.origin_country)
-    ).all()
-    form_counts = dict(db.execute(select(Tea.form, func.count()).where(Tea.status == TeaStatus.published).group_by(Tea.form)).all())
+    # each menu counts what is left once the other filters apply
+    def counts(column, *filters):  # noqa: ANN001, ANN202
+        return db.execute(select(column, func.count()).where(*filters).group_by(column)).all()
+
+    scope = apply_filters(select(Tea.id).where(*CATALOG), q, "", origin, form).whereclause
+    category_counts = dict(counts(Tea.category, scope))
+    scope = apply_filters(select(Tea.id).where(*CATALOG), q, category, "", form).whereclause
+    country_counts = sorted(counts(Tea.origin_country, scope), key=lambda row: (-row[1], row[0]))
+    scope = apply_filters(select(Tea.id).where(*CATALOG), q, category, origin, "").whereclause
+    form_counts = dict(counts(Tea.form, scope))
 
     query = {k: v for k, v in (("q", q), ("origin", origin), ("form", form), ("sort", sort if sort != "popular" else "")) if v}
     if category and (canonical or "/teas") == "/teas":
         query["category"] = category
+    base = canonical or "/teas"
+
+    def with_query(path: str, **drop) -> str:  # noqa: ANN003
+        kept = {k: v for k, v in query.items() if k not in drop and k != "category"}
+        return f"{path}?{urlencode(kept)}" if kept else path
+
+    on_origin_page = base.startswith("/teas/o/")
+
+    def category_url(value: str | None) -> str:
+        if on_origin_page:
+            keep = {k: v for k, v in query.items() if k not in ("origin", "category")}
+            if value:
+                keep["category"] = value
+            return f"{base}?{urlencode(keep)}" if keep else base
+        return with_query(f"/teas/c/{value}" if value else "/teas")
 
     def page_url(n: int) -> str:
-        return f"{canonical or '/teas'}?{urlencode({**query, 'page': n})}"
+        return f"{base}?{urlencode({**query, 'page': n})}"
 
     context = {
         "teas": teas, "total": total, "page": page, "pages": pages, "q": q, "category": category, "origin": origin,
-        "form": form, "sort": sort, "page_url": page_url, "shown": min(page * PAGE_SIZE, total),
+        "form": form, "sort": sort, "page_url": page_url, "shown": min(page * PAGE_SIZE, total), "category_url": category_url,
+        "on_origin_page": on_origin_page, "thin_page": on_origin_page and total < MIN_REGION_TEAS,
         "title": title or ("Teas" if not q else f"Teas matching “{q}”"),
         "intro": intro,
         "canonical": canonical or "/teas",
@@ -134,7 +161,7 @@ def list_page(request: Request, db, user, *, q="", category="", origin="", form=
         "countries": [(origin_key(name), name, count) for name, count in country_counts],
         "forms": [(f.value, FORM_LABELS[f], form_counts.get(f, 0)) for f in TeaForm if form_counts.get(f)],
         "origin_label": origin_label(db, origin) if origin else None,
-        "sub_origins": sub_origins(db, origin) if origin and (canonical or "").startswith("/teas/o/") else [],
+        "sub_origins": sub_origins(db, origin) if origin and on_origin_page else [],
     }
     return render(request, "teas/list.html", context)
 
@@ -298,14 +325,18 @@ CATEGORY_BLURBS = {
 
 @router.get("/teas/types")
 def tea_types(request: Request, db: DbDep, user: CurrentUser):
-    counts = dict(db.execute(select(Tea.category, func.count()).where(Tea.status == TeaStatus.published).group_by(Tea.category)).all())
+    counts = dict(db.execute(select(Tea.category, func.count()).where(*CATALOG).group_by(Tea.category)).all())
     types = [{"key": c.value, "label": CATEGORY_LABELS[c], "blurb": CATEGORY_BLURBS[c], "count": counts.get(c, 0)} for c in TeaCategory]
-    return render(request, "teas/types.html", {"types": types})
+    explainers = db.execute(
+        select(Tea).options(load_only(Tea.slug, Tea.name_en, Tea.taste_profile, Tea.description))
+        .where(Tea.status == TeaStatus.published, Tea.slug.like(EXPLAINER_SLUG)).order_by(Tea.name_en)
+    ).scalars().all()
+    return render(request, "teas/types.html", {"types": types, "explainers": explainers})
 
 
 @router.get("/teas/origins")
 def tea_origins(request: Request, db: DbDep, user: CurrentUser):
-    rows = db.execute(select(Tea.origin_country, Tea.origin_region).where(Tea.status == TeaStatus.published)).all()
+    rows = db.execute(select(Tea.origin_country, Tea.origin_region).where(*CATALOG)).all()
     countries: dict[str, dict] = {}
     for country, region in rows:
         entry = countries.setdefault(country, {"name": country, "key": origin_key(country), "count": 0, "regions": {}})
@@ -315,7 +346,7 @@ def tea_origins(request: Request, db: DbDep, user: CurrentUser):
             reg["count"] += 1
     ordered = sorted(countries.values(), key=lambda c: (-c["count"], c["name"]))
     for entry in ordered:
-        regions = sorted(entry["regions"].values(), key=lambda r: (-r["count"], r["name"]))
+        regions = sorted((r for r in entry["regions"].values() if r["count"] >= MIN_REGION_TEAS), key=lambda r: (-r["count"], r["name"]))
         entry["regions"], entry["region_count"] = regions[:ORIGIN_CHIPS], len(regions)
     return render(request, "teas/origins.html", {"countries": ordered})
 
@@ -326,7 +357,7 @@ def first_letter(name: str) -> str:
 
 
 def tea_letters(db) -> dict[str, list]:  # noqa: ANN001
-    rows = db.execute(select(Tea.slug, Tea.name_en, Tea.name_zh, Tea.name_ru).where(Tea.status == TeaStatus.published)).all()
+    rows = db.execute(select(Tea.slug, Tea.name_en, Tea.name_zh, Tea.name_ru).where(*CATALOG)).all()
     letters: dict[str, list] = {}
     for row in rows:
         letters.setdefault(first_letter(row.name_en), []).append(row)
@@ -502,16 +533,24 @@ def admin_tea_image(request: Request, db: DbDep, settings: SettingsDep, signer: 
 
 @router.get("/sitemap.xml")
 def sitemap(db: DbDep, settings: SettingsDep):
+    from prolyv.models import ForumSection, Post, Topic
+
     base = settings.base_url
-    entries = [(f"{base}/", None), (f"{base}/teas", None), (f"{base}/login", None)]
-    entries += [(f"{base}/teas/types", None), (f"{base}/teas/origins", None), (f"{base}/teas/a-z", None)]
+    pages = ["/", "/teas", "/teas/types", "/teas/origins", "/teas/a-z", "/blog", "/discussions", "/about", "/rules", "/privacy", "/terms"]
+    entries = [(f"{base}{page}", None) for page in pages]
     entries += [(f"{base}/teas/a-z?letter={quote(letter)}", None) for letter in tea_letters(db)]
     entries += [(f"{base}/teas/c/{c.value}", None) for c in TeaCategory]
-    origin_rows = db.execute(select(Tea.origin_keys).where(Tea.status == TeaStatus.published)).scalars().all()
-    origins = sorted({key for row in origin_rows for key in row.split()})
-    entries += [(f"{base}/teas/o/{key}", None) for key in origins]
-    rows = db.execute(select(Tea.slug, Tea.updated_at).where(Tea.status == TeaStatus.published).order_by(Tea.slug)).all()
+    origin_counts: dict[str, int] = {}
+    for row in db.execute(select(Tea.origin_keys).where(*CATALOG)).scalars():
+        for key in row.split():
+            origin_counts[key] = origin_counts.get(key, 0) + 1
+    entries += [(f"{base}/teas/o/{key}", None) for key, count in sorted(origin_counts.items()) if count >= MIN_REGION_TEAS]
+    # thin cards on rare teas carry noindex, so they stay out of here too
+    rows = db.execute(select(Tea.slug, Tea.updated_at).where(Tea.status == TeaStatus.published, Tea.confidence.is_distinct_from("low")).order_by(Tea.slug)).all()
     entries += [(f"{base}/teas/{slug}", updated) for slug, updated in rows]
+    entries += [(f"{base}/blog/{slug}", updated) for slug, updated in db.execute(select(Post.slug, Post.updated_at).where(Post.published_at.is_not(None)).order_by(Post.published_at.desc())).all()]
+    entries += [(f"{base}/discussions/s/{slug}", None) for slug in db.execute(select(ForumSection.slug).order_by(ForumSection.sort)).scalars()]
+    entries += [(f"{base}/discussions/{tid}", updated) for tid, updated in db.execute(select(Topic.id, Topic.updated_at).where(Topic.hidden.is_(False)).order_by(Topic.created_at.desc()).limit(5000)).all()]
     body = ['<?xml version="1.0" encoding="UTF-8"?>', '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">']
     for loc, updated in entries:
         lastmod = f"<lastmod>{updated.date().isoformat()}</lastmod>" if isinstance(updated, datetime) else ""

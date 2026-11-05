@@ -2,7 +2,8 @@
 {% from "partials/macros.html" import tea_card, show_more %}
 {% block title %}{{ title }} · Prolyv{% endblock %}
 {% block head %}<link rel="canonical" href="{{ settings.base_url }}{{ canonical }}">
-<meta name="description" content="Prolyv tea base: {{ total }} teas with photos, taste notes, brewing parameters and how each one is sold.">{% endblock %}
+<meta name="description" content="Prolyv tea base: {{ total }} teas with taste notes, brewing parameters and where each one comes from.">
+{% if thin_page %}<meta name="robots" content="noindex">{% endif %}{% endblock %}
 {% block content %}
 <section class="container">
   <div class="teas-head" id="tea-head">
@@ -15,11 +16,11 @@
 
   {% include "teas/_browse.html" %}
   <form class="teas-filters" method="get" action="{{ canonical }}" hx-get="{{ canonical }}" hx-trigger="input delay:300ms, change" hx-target="#tea-results" hx-select="#tea-results" hx-select-oob="#tea-head" hx-swap="outerHTML" hx-push-url="true" hx-sync="this:replace" role="search">
-    <input type="search" name="q" value="{{ q }}" placeholder="Search in English, 中文 or по-русски" autocomplete="off" aria-label="Search teas">
-    <select name="origin" aria-label="Origin">
+    <input type="search" name="q" value="{{ q }}" placeholder="Search by any name" autocomplete="off" aria-label="Search teas">
+    {% if not on_origin_page %}<select name="origin" aria-label="Origin">
       <option value="">Any origin</option>
       {% for key, name, count in countries %}<option value="{{ key }}"{% if key == origin %} selected{% endif %}>{{ name }} ({{ count }})</option>{% endfor %}
-    </select>
+    </select>{% endif %}
     <select name="form" aria-label="Form">
       <option value="">Any form</option>
       {% for value, label, count in forms %}<option value="{{ value }}"{% if value == form %} selected{% endif %}>{{ label }} ({{ count }})</option>{% endfor %}
@@ -33,8 +34,8 @@
   </form>
 
   <nav class="chips" aria-label="Categories">
-    <a class="chip{% if not category %} chip-on{% endif %}" href="/teas">All</a>
-    {% for value, label, count in categories %}{% if count %}<a class="chip{% if value == category %} chip-on{% endif %}" href="/teas/c/{{ value }}">{{ label }} <span class="count">{{ count }}</span></a>{% endif %}{% endfor %}
+    <a class="chip{% if not category %} chip-on{% endif %}" href="{{ category_url(None) }}">All</a>
+    {% for value, label, count in categories %}{% if count %}<a class="chip{% if value == category %} chip-on{% endif %}" href="{{ category_url(value) }}">{{ label }} <span class="count">{{ count }}</span></a>{% endif %}{% endfor %}
   </nav>
 
   {% if sub_origins %}
@@ -56,7 +57,7 @@
     {% else %}
     <div class="card empty">
       <p class="empty-title">Nothing found</p>
-      <p class="muted">Try another spelling, or a Chinese or Russian name.</p>
+      <p class="muted">Try another spelling or another name for this tea.</p>
     </div>
     {% endif %}
   </div>

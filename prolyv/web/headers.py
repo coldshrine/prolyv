@@ -4,7 +4,7 @@ from __future__ import annotations
 
 CSP = "; ".join([
     "default-src 'self'",
-    "script-src 'self' https://telegram.org https://www.tiktok.com https://www.instagram.com",
+    "script-src 'self' https://telegram.org https://www.tiktok.com https://*.ttwstatic.com https://www.instagram.com",
     "style-src 'self' 'unsafe-inline' https://fonts.googleapis.com",
     "font-src https://fonts.gstatic.com",
     "img-src 'self' data: https:",

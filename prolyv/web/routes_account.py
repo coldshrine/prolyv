@@ -89,11 +89,13 @@ def settings_save(
     errors: dict[str, str] = {}
     if not 1 <= len(display_name) <= 50:
         errors["display_name"] = "Your name must be 1–50 characters."
-    if handle in RESERVED:
+    if handle == user.handle:
+        pass  # keeping your own handle is always fine, even a reserved one like @prolyv
+    elif handle in RESERVED:
         errors["handle"] = "That handle is reserved."
     elif not is_valid_handle(handle):
         errors["handle"] = "3–24 characters: lowercase letters, digits and underscores."
-    elif handle != user.handle and handle_taken(db, handle, except_user_id=user.id):
+    elif handle_taken(db, handle, except_user_id=user.id):
         errors["handle"] = "That handle is already taken."
     if len(bio) > 280:
         errors["bio"] = "Your bio is limited to 280 characters."

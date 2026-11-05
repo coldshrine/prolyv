@@ -10,6 +10,7 @@ from starlette.templating import Jinja2Templates
 
 from prolyv import __version__
 from prolyv.web.cup import cup_styles
+from prolyv.web.text import linkify, time_ago
 from prolyv.web.deps import csrf_token_for
 from prolyv.web.flash import pop_flash
 from prolyv.web.useragent import is_in_app_browser
@@ -22,6 +23,8 @@ jinja_env = Environment(
     lstrip_blocks=True,
 )
 jinja_env.globals["cup_styles"] = cup_styles
+jinja_env.filters["linkify"] = linkify
+jinja_env.filters["ago"] = time_ago
 templates = Jinja2Templates(env=jinja_env)
 
 

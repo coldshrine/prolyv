@@ -22,6 +22,7 @@
       <p class="session-by"><a class="author-link" href="/u/{{ post.author.handle }}">{{ avatar(post.author, 32) }} <span>{{ post.author.display_name }}</span></a></p>
       <div class="actions">
         <a class="btn btn-primary" href="{% if current_user %}/sessions/new?post={{ post.slug }}{% else %}/login?next=/sessions/new%3Fpost%3D{{ post.slug }}{% endif %}">Brew along</a>
+        <button type="button" class="btn btn-secondary" data-share="{{ og.url }}">Share</button>
         {{ save_button('post', post.id, saved, current_user, csrf_token, path) }}
         {% if post.tea %}<a class="btn btn-secondary" href="/teas/{{ post.tea.slug }}">Tea card</a>{% endif %}
         {% if is_admin_view %}<a class="btn btn-ghost" href="/admin/posts/{{ post.id }}/edit">Edit post</a>{% endif %}

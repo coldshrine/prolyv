@@ -87,7 +87,7 @@
 {%- endmacro %}
 
 {% macro paras(items) -%}
-{% for p in items %}{% if p.startswith('>') %}<blockquote>{{ p.lstrip('> ') }}</blockquote>{% else %}<p>{{ p }}</p>{% endif %}{% endfor %}
+{% for p in items %}{% if p.startswith('>') %}<blockquote>{{ p.lstrip('> ')|linkify }}</blockquote>{% else %}<p>{{ p|linkify }}</p>{% endif %}{% endfor %}
 {%- endmacro %}
 
 {% macro report_button(kind, ref_id, csrf, next) -%}

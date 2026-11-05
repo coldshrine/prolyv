@@ -6,7 +6,7 @@
 <section class="container narrow">
   <h1 class="h1">Search</h1>
   <form class="teas-filters forum-search" method="get" action="/search" role="search">
-    <input type="search" name="q" value="{{ q }}" placeholder="Teas, topics, posts, sessions. English, 中文, по-русски" aria-label="Search" autofocus>
+    <input type="search" name="q" value="{{ q }}" placeholder="Teas, topics, posts, sessions" aria-label="Search" autofocus>
     {% if type != 'all' %}<input type="hidden" name="type" value="{{ type }}">{% endif %}
     <button class="btn btn-primary btn-sm" type="submit">Search</button>
   </form>
@@ -14,7 +14,17 @@
   <nav class="chips" aria-label="Filter results">
     {% for key, label in tabs %}<a class="chip{% if key == type %} chip-on{% endif %}" href="/search?q={{ q|urlencode }}{% if key != 'all' %}&type={{ key }}{% endif %}">{{ label }}</a>{% endfor %}
   </nav>
-  {% if results %}
+  {% if groups %}
+  {% for group in groups %}
+  <h2 class="h2 search-group"><a href="/search?q={{ q|urlencode }}&type={{ group.key }}">{{ group.label }}</a></h2>
+  <div class="feed">
+    {% for r in group['items'] %}
+    {% if r.kind == 'tea' %}{{ tea_row(r.obj) }}{% elif r.kind == 'topic' %}{{ topic_card(r.obj) }}{% elif r.kind == 'post' %}{{ post_card(r.obj) }}{% else %}{{ session_card(r.obj) }}{% endif %}
+    {% endfor %}
+  </div>
+  {% if group.more %}<p class="search-more"><a class="btn btn-secondary btn-sm" href="/search?q={{ q|urlencode }}&type={{ group.key }}">All {{ group.label|lower }} →</a></p>{% endif %}
+  {% endfor %}
+  {% elif results %}
   <div class="feed more-list">
     {% for r in results %}
     {% if r.kind == 'tea' %}{{ tea_row(r.obj) }}{% elif r.kind == 'topic' %}{{ topic_card(r.obj) }}{% elif r.kind == 'post' %}{{ post_card(r.obj) }}{% else %}{{ session_card(r.obj) }}{% endif %}

@@ -2,20 +2,22 @@
 
 from __future__ import annotations
 
+import uuid
 from urllib.parse import urlencode
 
 from fastapi import APIRouter, HTTPException, Request
 from fastapi.responses import JSONResponse, RedirectResponse
 from sqlalchemy import func, select
 
-from prolyv.models import Tea, TeaStatus
-from prolyv.search import search_all
+from prolyv.models import EXPLAINER_SLUG, Tea, TeaStatus
+from prolyv.search import search_all, search_teas
 from prolyv.social import followee_ids
 from prolyv.web.deps import CurrentUser, DbDep
 from prolyv.web.templating import render
 
 router = APIRouter()
 
+CATALOG = (Tea.status == TeaStatus.published, Tea.slug.not_like(EXPLAINER_SLUG))
 FEED_PAGE = 30
 FEED_MAX_PAGES = 30
 FEED_TABS = [("all", "All"), ("sessions", "Sessions"), ("discussions", "Discussions"), ("blog", "Blog")]
@@ -53,7 +55,7 @@ def home(request: Request, db: DbDep, user: CurrentUser, tab: str = "all", page:
     tabs = [*FEED_TABS, ("following", "Following")] if user else FEED_TABS
     tab = tab if tab in dict(tabs) else "all"
     following = followee_ids(db, user) if tab == "following" and user else None
-    tea_count = db.scalar(select(func.count()).select_from(Tea).where(Tea.status == TeaStatus.published)) or 0
+    tea_count = db.scalar(select(func.count()).select_from(Tea).where(*CATALOG)) or 0
     page = min(max(1, page), FEED_MAX_PAGES)
     items = build_feed(db, tab, limit=page * FEED_PAGE + 1, following=following)
     next_url = f"/?{urlencode({**({'tab': tab} if tab != 'all' else {}), 'page': page + 1})}" if len(items) > page * FEED_PAGE and page < FEED_MAX_PAGES else None
@@ -67,6 +69,7 @@ SEARCH_KINDS = {"all": ("tea", "topic", "reply", "post", "session"), "teas": ("t
 
 
 SEARCH_PAGE = 30
+SEARCH_PREVIEW = 5
 SEARCH_MAX_PAGES = 20
 
 
@@ -81,22 +84,40 @@ def search_page(request: Request, db: DbDep, q: str = "", type: str = "all", pag
     q = q.strip()[:80]
     type = type if type in SEARCH_KINDS else "all"
     page = min(max(1, page), SEARCH_MAX_PAGES)
-    matches = search_all(db, q, SEARCH_KINDS[type], limit=page * SEARCH_PAGE + 1) if q else []
-    hits = matches[(page - 1) * SEARCH_PAGE:page * SEARCH_PAGE]
-    more = len(matches) > page * SEARCH_PAGE and page < SEARCH_MAX_PAGES
-    wanted = {kind: [ref for k, ref in hits if k == kind] for kind in ("tea", "topic", "post", "session")}
-    found: dict[tuple, object] = {}
-    for obj in db.execute(select(Tea).options(*CARD_OPTIONS).where(Tea.id.in_(wanted["tea"]), Tea.status == TeaStatus.published)).scalars():
-        found[("tea", obj.id)] = obj
-    for obj in db.execute(topic_query().where(Topic.id.in_(wanted["topic"]), Topic.hidden.is_(False))).scalars():
-        found[("topic", obj.id)] = obj
-    for obj in db.execute(published_posts().where(Post.id.in_(wanted["post"]))).scalars():
-        found[("post", obj.id)] = obj
-    for obj in db.execute(public_sessions().where(TeaSession.id.in_(wanted["session"]))).scalars():
-        found[("session", obj.id)] = obj
-    results = [{"kind": kind, "obj": found[(kind, ref)]} for kind, ref in hits if (kind, ref) in found]
-    next_url = f"/search?{urlencode({'q': q, **({'type': type} if type != 'all' else {}), 'page': page + 1})}" if more else None
-    return render(request, "search.html", {"q": q, "type": type, "tabs": SEARCH_TABS, "results": results, "next_url": next_url})
+
+    def find(kinds: tuple[str, ...], limit: int) -> list[tuple[str, uuid.UUID]]:
+        if kinds == ("tea",):
+            return [("tea", ref) for ref in search_teas(db, q, limit)]
+        return search_all(db, q, kinds, limit=limit)
+
+    def load(hits: list[tuple[str, uuid.UUID]]) -> list[dict]:
+        wanted = {kind: [ref for k, ref in hits if k == kind] for kind in ("tea", "topic", "post", "session")}
+        found: dict[tuple, object] = {}
+        for obj in db.execute(select(Tea).options(*CARD_OPTIONS).where(Tea.id.in_(wanted["tea"]), Tea.status == TeaStatus.published)).scalars():
+            found[("tea", obj.id)] = obj
+        for obj in db.execute(topic_query().where(Topic.id.in_(wanted["topic"]), Topic.hidden.is_(False))).scalars():
+            found[("topic", obj.id)] = obj
+        for obj in db.execute(published_posts().where(Post.id.in_(wanted["post"]))).scalars():
+            found[("post", obj.id)] = obj
+        for obj in db.execute(public_sessions().where(TeaSession.id.in_(wanted["session"]))).scalars():
+            found[("session", obj.id)] = obj
+        return [{"kind": kind, "obj": found[(kind, ref)]} for kind, ref in hits if (kind, ref) in found]
+
+    groups, results, next_url = [], [], None
+    if q and type == "all":
+        # a few of each kind, so common words don't bury discussions and posts under teas
+        for key, label in SEARCH_TABS[1:]:
+            matches = find(SEARCH_KINDS[key], SEARCH_PREVIEW + 1)
+            items = load(matches[:SEARCH_PREVIEW])
+            if items:
+                groups.append({"key": key, "label": label, "items": items, "more": len(matches) > SEARCH_PREVIEW})
+    elif q:
+        matches = find(SEARCH_KINDS[type], page * SEARCH_PAGE + 1)
+        results = load(matches[(page - 1) * SEARCH_PAGE:page * SEARCH_PAGE])
+        if len(matches) > page * SEARCH_PAGE and page < SEARCH_MAX_PAGES:
+            next_url = f"/search?{urlencode({'q': q, 'type': type, 'page': page + 1})}"
+    context = {"q": q, "type": type, "tabs": SEARCH_TABS, "results": results, "groups": groups, "next_url": next_url}
+    return render(request, "search.html", context)
 
 
 @router.get("/healthz")

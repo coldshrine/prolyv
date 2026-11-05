@@ -112,24 +112,106 @@ def test_live_filter_also_refreshes_the_heading_and_count(client, db):
     assert "1 tea" in head and "Teas matching" in head and "sencha" in head
 
 
-def test_origin_levels_cope_with_free_form_regions():
+def test_only_the_leading_place_becomes_a_region():
     from prolyv.models import origin_levels
 
-    assert origin_levels("Nantou · Lugu; Taipei · Muzha") == ["Nantou", "Lugu", "Taipei", "Muzha"]
+    assert origin_levels("Nantou · Lugu; Taipei · Muzha") == ["Nantou", "Lugu"]
     assert origin_levels("Central Province · Dimbula (Hatton, Talawakelle; 1,100 m)") == ["Central Province", "Dimbula"]
-    assert origin_levels("Nantou · Mingjian, Lugu and Zhushan") == ["Nantou", "Mingjian", "Lugu", "Zhushan"]
+    assert origin_levels("Nantou · Mingjian, Lugu and Zhushan") == ["Nantou", "Mingjian"]
+    assert origin_levels("Fuding and Zhenghe") == ["Fuding"]
     assert origin_levels("") == [] and origin_levels(None) == []
-    assert origin_levels("Darjeeling · Sandakphu") == ["Darjeeling", "Sandakphu"]
 
 
-def test_origin_pages_stay_small_and_link_to_every_region(client, db):
+def test_regions_are_listed_from_three_teas_and_thin_pages_are_noindex(client, db):
     for n in range(20):
-        make_tea(db, f"tea-{n:02}", f"Tea {n:02}", country="China", region=f"Province{n:02}")
+        make_tea(db, f"tea-{n:02}", f"Tea {n:02}", country="China", region=f"Province{n % 15:02}")
+    for n in range(3):
+        make_tea(db, f"big-{n}", f"Big {n}", country="China", region="Bigregion")
     overview = client.get("/teas/origins").text
-    assert "All 20 regions" in overview and overview.count("/teas/o/province") == 12
-    country = client.get("/teas/o/china").text
-    assert country.count('href="/teas/o/province') == 20
-    assert client.get("/teas/o/province03").status_code == 200
+    assert "/teas/o/bigregion" in overview and "/teas/o/province00" not in overview
+    assert "/teas/o/bigregion" in client.get("/teas/o/china").text
+    thin = client.get("/teas/o/province14")
+    assert thin.status_code == 200 and 'name="robots" content="noindex"' in thin.text
+    assert 'name="robots"' not in client.get("/teas/o/bigregion").text
+    sitemap = client.get("/sitemap.xml").text
+    assert "/teas/o/bigregion<" in sitemap and "/teas/o/province14<" not in sitemap
+
+
+def test_explainers_are_articles_not_teas(client, db):
+    make_tea(db, "style-aged-teas", "Aged Teas", category="sheng")
+    make_tea(db, "real-tea", "Real Tea", category="sheng")
+    grid = client.get("/teas").text
+    assert "/teas/real-tea" in grid and "/teas/style-aged-teas" not in grid and "1 tea" in grid
+    assert "/teas/style-aged-teas" not in client.get("/teas/a-z").text
+    types = client.get("/teas/types").text
+    assert "/teas/style-aged-teas" in types and "How tea gets its character" in types
+    article = client.get("/teas/style-aged-teas").text
+    assert "Log this tea" not in article and "Sessions with this tea" not in article
+    assert "/teas/style-aged-teas<" in client.get("/sitemap.xml").text
+
+
+def test_thin_cards_are_noindex_and_out_of_the_sitemap(client, db):
+    make_tea(db, "rare-one", "Rare One", confidence="low")
+    make_tea(db, "known-one", "Known One", confidence="high")
+    make_tea(db, "unrated-one", "Unrated One")
+    assert 'content="noindex"' in client.get("/teas/rare-one").text
+    assert "thinly documented" in client.get("/teas/rare-one").text
+    assert 'content="noindex"' not in client.get("/teas/known-one").text
+    sitemap = client.get("/sitemap.xml").text
+    assert "/teas/known-one<" in sitemap and "/teas/unrated-one<" in sitemap and "/teas/rare-one<" not in sitemap
+
+
+def test_sitemap_has_the_blog_the_forum_and_the_static_pages(client, settings):
+    sitemap = client.get("/sitemap.xml").text
+    for path in ("/blog<", "/discussions<", "/about<", "/rules<", "/privacy<", "/terms<"):
+        assert path in sitemap
+    assert "/login<" not in sitemap
+
+
+def test_search_finds_names_written_together_and_traditional_characters(client, db):
+    from prolyv.search import rebuild
+
+    make_tea(db, "yiwu", "Yiwu Sheng", category="sheng")
+    make_tea(db, "wuyi-dhp", "Wuyi Da Hong Pao", name_zh="大红袍")
+    make_tea(db, "tgy", "Tie Guan Yin", name_zh="铁观音")
+    rebuild(db)
+    db.commit()
+    for query, slug in (("puerh", "yiwu"), ("puer", "yiwu"), ("pu-erh", "yiwu"), ("dahongpao", "wuyi-dhp"), ("鐵觀音", "tgy"), ("铁观音", "tgy")):
+        assert f"/teas/{slug}" in client.get("/search", params={"q": query}).text, query
+        assert f"/teas/{slug}" in client.get("/teas", params={"q": query}).text, query
+
+
+def test_search_all_tab_shows_a_few_of_each_kind(client, db):
+    from sqlalchemy import select as sql_select
+
+    from prolyv.models import ForumSection, Topic, User
+    from prolyv.search import rebuild
+
+    for n in range(9):
+        make_tea(db, f"tea-{n}", f"Black Tea {n}", category="black")
+    user = User(handle="someone", display_name="Someone")
+    db.add(user)
+    section = db.execute(sql_select(ForumSection)).scalars().first()
+    topic = Topic(section=section, user=user, title="About black tea", body="Black tea talk here.")
+    db.add(topic)
+    db.flush()
+    rebuild(db)
+    db.commit()
+    page = client.get("/search", params={"q": "black"}).text
+    assert page.count('class="tea-row"') == 5 and "About black tea" in page and "All teas →" in page
+    assert client.get("/search", params={"q": "black", "type": "teas"}).text.count('class="tea-row"') == 9
+
+
+def test_category_chips_keep_the_filters_and_count_within_them(client, db):
+    make_tea(db, "jp-green", "Jp Green", category="green", country="Japan")
+    make_tea(db, "cn-green", "Cn Green", category="green")
+    make_tea(db, "cn-oolong", "Cn Oolong")
+    page = client.get("/teas", params={"origin": "japan"}).text
+    assert 'href="/teas/c/green?origin=japan"' in page
+    origin = client.get("/teas/o/china").text
+    assert 'href="/teas/o/china?category=green"' in origin and 'name="origin"' not in origin
+    assert "/teas/cn-green" in client.get("/teas/o/china", params={"category": "green"}).text
+    assert "/teas/cn-oolong" not in client.get("/teas/o/china", params={"category": "green"}).text
 
 
 def test_a_to_z_shows_one_letter_at_a_time(client, db):
@@ -151,7 +233,7 @@ def test_detail_page(client, db):
              taste_profile="Orchid florals over a creamy body.", image="https://upload.wikimedia.org/x.jpg")
     make_tea(db, "rou-gui", "Rou Gui", region="Fujian · Wuyi Mountains")
     page = client.get("/teas/tie-guan-yin").text
-    assert "铁观音" in page and "Sold as · vintages" in page and "Sold by season" in page
+    assert "铁观音" in page and "How it is sold" in page and "Sold by season" in page
     assert "Brewing" in page and "7 g" in page and "95 °C" in page
     assert "Read more on Wikipedia" in page and "Also known as: TGY" in page
     assert "Log this tea" in page and "/login?next=/sessions/new%3Ftea%3Dtie-guan-yin" in page
@@ -275,11 +357,11 @@ def test_index_pages_and_sitemap(client, db, settings):
     types = client.get("/teas/types").text
     assert "Oolong" in types and "/teas/c/oolong" in types
     origins = client.get("/teas/origins").text
-    assert "/teas/o/china" in origins and "/teas/o/wuyi-mountains" in origins and "/teas/o/japan" in origins
+    assert "/teas/o/china" in origins and "/teas/o/japan" in origins
     az = client.get("/teas/a-z").text
     assert "letter=D" in az and "letter=S" in az
     az = client.get("/teas/a-z", params={"letter": "D"}).text
     assert "大红袍" in az and "/teas/sencha" not in az
     sitemap = client.get("/sitemap.xml").text
-    for path in ("/teas/types", "/teas/origins", "/teas/a-z", "/teas/o/wuyi-mountains", "/teas/c/oolong"):
+    for path in ("/teas/types", "/teas/origins", "/teas/a-z", "/teas/c/oolong"):
         assert f"{settings.base_url}{path}<" in sitemap

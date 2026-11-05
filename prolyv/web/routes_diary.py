@@ -16,6 +16,7 @@ from sqlalchemy.orm import load_only, selectinload
 
 from prolyv.models import (
     CATEGORY_LABELS,
+    EXPLAINER_SLUG,
     SESSION_TASTE_TAGS,
     VESSELS,
     Post,
@@ -113,6 +114,7 @@ def form_from_session(sess: TeaSession, as_copy: bool = False) -> dict:
         form.update({
             "rating": sess.rating or "", "note": sess.note, "visibility": sess.visibility.value,
             "allow_comments": sess.allow_comments, "brewed_at": sess.brewed_at.date().isoformat(),
+            "post_id": str(sess.post_id) if sess.post_id else "",
             "steeps": [{"seconds": s.seconds, "note": s.note or ""} for s in sess.steeps],
         })
     return form
@@ -123,17 +125,19 @@ def parse_session_form(data) -> tuple[dict, dict]:  # noqa: ANN001
     errors: dict[str, str] = {}
 
     def text(key: str, limit: int) -> str:
-        return (data.get(key) or "").strip()[:limit]
+        value = data.get(key)
+        return value.strip()[:limit] if isinstance(value, str) else ""
 
     def number(key: str, low: float, high: float, cast=int, label: str = ""):  # noqa: ANN001
-        raw = (data.get(key) or "").strip().replace(",", ".")
+        """The value, or None when empty. On a bad value the raw text stays in the form so it can be corrected."""
+        raw = text(key, 40).replace(",", ".")
         if not raw:
             return None
         try:
             value = cast(float(raw)) if cast is int else cast(raw)
-        except ValueError:
+        except (ValueError, OverflowError):
             errors[key] = f"{label or key} must be a number."
-            return None
+            return raw
         if not low <= value <= high:
             errors[key] = f"{label or key} must be between {low:g} and {high:g}."
         return value
@@ -156,7 +160,7 @@ def parse_session_form(data) -> tuple[dict, dict]:  # noqa: ANN001
     form["brewed_at"] = text("brewed_at", 10) or date.today().isoformat()
     try:
         brewed = date.fromisoformat(form["brewed_at"])
-        if brewed > date.today() + timedelta(days=1):
+        if brewed > date.today():
             errors["brewed_at"] = "That date is in the future."
     except ValueError:
         errors["brewed_at"] = "Use a date like 2026-11-05."
@@ -165,18 +169,19 @@ def parse_session_form(data) -> tuple[dict, dict]:  # noqa: ANN001
     notes_list = data.getlist("steep_note")
     steeps = []
     for i, raw in enumerate(seconds_list[:40]):
-        raw = (raw or "").strip()
+        raw = raw.strip() if isinstance(raw, str) else ""
         if not raw:
             continue
+        note = notes_list[i] if i < len(notes_list) and isinstance(notes_list[i], str) else ""
+        note = note.strip()[:200]
         try:
             seconds = int(float(raw))
-        except ValueError:
+        except (ValueError, OverflowError):
             errors["steeps"] = "Steep times must be whole seconds."
+            steeps.append({"seconds": raw, "note": note})  # stays in the list so it can be corrected
             continue
         if not 1 <= seconds <= 3600:
             errors["steeps"] = "Steep times must be between 1 second and an hour."
-            continue
-        note = (notes_list[i] if i < len(notes_list) else "").strip()[:200]
         steeps.append({"seconds": seconds, "note": note})
     form["steeps"] = steeps
 
@@ -201,7 +206,8 @@ def apply_session_form(db, sess: TeaSession, form: dict) -> None:  # noqa: ANN00
             post = db.get(Post, uuid.UUID(form["post_id"]))
         except ValueError:
             post = None
-    sess.post_id = post.id if post is not None and post.is_published else None
+    if post is not None and post.is_published:  # editing must not drop a session from its brew-along
+        sess.post_id = post.id
     sess.tea_name = form["tea_name"] or (tea.name_en if tea else "")
     sess.grams = form["grams"]
     sess.water_ml = form["water_ml"]
@@ -249,7 +255,7 @@ async def apply_photos(request: Request, db, sess: TeaSession, data) -> str | No
 
 def form_context(form: dict, errors: dict | None = None, tea: Tea | None = None, editing: TeaSession | None = None) -> dict:
     return {
-        "form": form, "errors": errors or {}, "tea": tea, "editing": editing, "vessels": VESSELS,
+        "today": date.today().isoformat(), "form": form, "errors": errors or {}, "tea": tea, "editing": editing, "vessels": VESSELS,
         "tag_options": SESSION_TASTE_TAGS, "draft_key": (editing and str(editing.id)) or form.get("tea_id") or "new",
     }
 
@@ -532,7 +538,7 @@ def tea_suggest(request: Request, db: DbDep, user: RequiredUser, tea_name: str =
     q = tea_name.strip().lower()[:60]
     teas = []
     if len(q) >= 2:
-        stmt = select(Tea).where(Tea.status == TeaStatus.published)
+        stmt = select(Tea).where(Tea.status == TeaStatus.published, Tea.slug.not_like(EXPLAINER_SLUG))
         for token in fold_text(q).split()[:4]:
             stmt = stmt.where(Tea.search_text.contains(token, autoescape=True))
         teas = db.execute(stmt.order_by(Tea.popularity.desc(), Tea.name_en).limit(8)).scalars().all()

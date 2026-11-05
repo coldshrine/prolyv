@@ -362,3 +362,32 @@ def test_diary_reaches_every_session_page_by_page(client, db):
     heading = "2 January 2024" if "2 January 2024" in first else "January 2024"
     assert heading in first
     assert second.count('class="day-label"') + first.count('class="day-label"') == 2
+
+
+def test_session_form_keeps_what_was_typed_after_an_error(client):
+    telegram_login(client, username="olena_tea")
+    token = csrf_token(client)
+    empty = client.post("/sessions/new", data={"csrf_token": token, "tea_name": "", "brewed_at": "2026-01-01"})
+    assert empty.status_code in (200, 400) and 'value="None"' not in empty.text
+    bad = client.post("/sessions/new", data={"csrf_token": token, "tea_name": "X", "grams": "abc", "water_ml": "inf", "steep_seconds": ["9999", "1e400"], "brewed_at": "2026-01-01"})
+    assert bad.status_code == 400 and 'value="abc"' in bad.text and 'value="None"' not in bad.text
+    assert "must be a number" in bad.text
+
+
+def test_editing_a_brew_along_session_keeps_it_on_the_post(client, db):
+    from prolyv.models import Post, User
+
+    telegram_login(client, username="olena_tea")
+    user = db.execute(select(User)).scalars().first()
+    post = Post(slug="p", title="P", author_id=user.id, published_at=__import__("prolyv.models").models.utcnow())
+    db.add(post)
+    db.commit()
+    token = csrf_token(client)
+    sid = session_id_from(new_session(client, token, post_id=str(post.id), visibility="public"))
+    client.post(f"/sessions/{sid}/edit", data={"csrf_token": token, "tea_name": "Edited", "visibility": "public", "brewed_at": "2026-01-01",
+                                                "post_id": re.search(r'name="post_id" value="([^"]*)"', client.get(f"/sessions/{sid}/edit").text).group(1)}, follow_redirects=False)
+    db.expire_all()
+    assert db.get(TeaSession, uuid.UUID(sid)).post_id == post.id
+    client.post(f"/sessions/{sid}/edit", data={"csrf_token": token, "tea_name": "Edited", "visibility": "public", "brewed_at": "2026-01-01"}, follow_redirects=False)
+    db.expire_all()
+    assert db.get(TeaSession, uuid.UUID(sid)).post_id == post.id
