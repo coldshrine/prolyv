@@ -139,7 +139,7 @@ def test_error_pages_say_what_happened_and_send_people_home(client):
 
     telegram_login(client, username="olena_tea")
     denied = client.get("/admin")
-    assert denied.status_code == 403 and "don't have access" in denied.text and "Back to login" not in denied.text and "form has expired" not in denied.text
+    assert denied.status_code == 403 and "have access to this page" in denied.text and "Back to login" not in denied.text and "form has expired" not in denied.text
     expired = client.post("/logout", data={"csrf_token": "wrong"})
     assert expired.status_code == 403 and "form has expired" in expired.text
     assert csrf_token(client)
