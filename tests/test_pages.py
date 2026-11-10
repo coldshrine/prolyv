@@ -18,7 +18,7 @@ def test_browser_files(client, settings):
     assert client.get("/favicon.ico").status_code == 200
     assert client.get("/apple-touch-icon.png").headers["content-type"] == "image/png"
     manifest = client.get("/manifest.json")
-    assert manifest.json()["name"] == "Prolyv" and client.get(manifest.json()["icons"][0]["src"]).status_code == 200
+    assert manifest.json()["name"] == "What’s in my gaiwan" and manifest.json()["short_name"] == "My gaiwan" and client.get(manifest.json()["icons"][0]["src"]).status_code == 200
     robots = client.get("/robots.txt").text
     assert f"Sitemap: {settings.base_url}/sitemap.xml" in robots and "Disallow: /admin" in robots
 
@@ -115,7 +115,7 @@ def test_seed_prod_is_idempotent_and_has_no_invented_people(app, db, monkeypatch
         db.commit()
     assert len(db.execute(select(Post)).scalars().all()) == len(seed_prod.GUIDES)
     assert len(db.execute(select(Topic)).scalars().all()) == len(seed_prod.TOPICS)
-    assert [u.handle for u in db.execute(select(User)).scalars()] == ["prolyv"] and author.identities == []
+    assert [u.handle for u in db.execute(select(User)).scalars()] == ["whatsinmygaiwan"] and author.identities == []
     assert 3 <= len(seed_prod.GUIDES) <= 5
     for guide in seed_prod.GUIDES:
         assert "<h2>" in render_markdown(guide["body"])

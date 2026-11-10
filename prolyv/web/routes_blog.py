@@ -12,6 +12,7 @@ from fastapi.responses import RedirectResponse
 from sqlalchemy import delete, desc, func, select
 from sqlalchemy.orm import selectinload
 
+from prolyv.brand import SITE_NAME
 from prolyv.handles import slugify
 from prolyv.markdown import insecure_images, render_markdown
 from prolyv.models import HelpfulVote, Post, PostComment, Tea, TeaSession, TeaStatus, Topic, Visibility, utcnow, video_embed
@@ -197,7 +198,7 @@ def post_context(request: Request, db, settings, user, post: Post, along: int = 
     ).scalars().all()
     helpful_counts, helpful_mine = helpful_state(db, user, [c.id for c in comments])
 
-    og = {"title": f"{post.title} · Prolyv blog", "description": post.summary or post.title, "url": f"{settings.base_url}/blog/{post.slug}"}
+    og = {"title": f"{post.title} · {SITE_NAME}", "description": post.summary or post.title, "url": f"{settings.base_url}/blog/{post.slug}"}
     if post.cover_url:
         og["image"] = post.cover_url
     elif post.tea and post.tea.primary_image:

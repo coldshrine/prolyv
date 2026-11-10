@@ -1,6 +1,6 @@
 {% extends "base.html" %}
-{% block title %}Teas starting with {{ letter }} · Prolyv tea base{% endblock %}
-{% block head %}<link rel="canonical" href="{{ settings.base_url }}/teas/a-z?letter={{ letter|urlencode }}"><meta name="description" content="All {{ total }} teas in the Prolyv base, A to Z. This page: {{ letter }}.">{% endblock %}
+{% block title %}Teas starting with {{ letter }} · {{ site_name }}{% endblock %}
+{% block head %}<link rel="canonical" href="{{ settings.base_url }}/teas/a-z?letter={{ letter|urlencode }}"><meta name="description" content="All {{ total }} teas in our tea base, A to Z. This page: {{ letter }}.">{% endblock %}
 {% block content %}
 <section class="container">
   <p class="eyebrow"><a href="/teas">Tea base</a> · {{ total }} teas</p>

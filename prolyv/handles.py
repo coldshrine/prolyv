@@ -13,7 +13,7 @@ MIN_LEN, MAX_LEN = 3, 24
 RESERVED = frozenset(
     {
         "admin", "administrator", "api", "auth", "blog", "diary", "discuss", "discussions", "feed", "forum",
-        "healthz", "help", "login", "logout", "me", "mod", "moderator", "new", "prolyv", "root", "sessions",
+        "healthz", "help", "login", "logout", "me", "mod", "moderator", "new", "prolyv", "root", "whatsinmygaiwan", "sessions",
         "settings", "static", "support", "system", "tea", "teas", "u", "user", "users", "www",
     }
 )

@@ -1,5 +1,5 @@
 {% extends "base.html" %}
-{% block title %}{{ "Link this e-mail" if linking else "Sign in" }} · Prolyv{% endblock %}
+{% block title %}{{ "Link this e-mail" if linking else "Sign in" }} · {{ site_name }}{% endblock %}
 {% block content %}
 <section class="container narrow centered">
   <p class="eyebrow">{{ "Link an e-mail" if linking else "Sign-in link" }}</p>
@@ -8,7 +8,7 @@
     <input type="hidden" name="token" value="{{ token }}">
     <input type="hidden" name="form_token" value="{{ form_token }}">
     {% if next %}<input type="hidden" name="next" value="{{ next }}">{% endif %}
-    <button class="btn btn-primary" type="submit">{{ "Link this e-mail" if linking else "Sign in to Prolyv" }}</button>
+    <button class="btn btn-primary" type="submit">{{ "Link this e-mail" if linking else "Sign in" }}</button>
   </form>
 </section>
 {% endblock %}

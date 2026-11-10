@@ -30,7 +30,7 @@ def request_link(client, email="olena@example.com", **extra) -> str:
 
 def follow_link(client, link):
     page = client.get(link)
-    assert "Sign in to Prolyv" in page.text or "Link this e-mail" in page.text
+    assert ">Sign in<" in page.text or "Link this e-mail" in page.text
     token = re.search(r'name="token" value="([^"]+)"', page.text).group(1)
     data = {"token": token, "form_token": re.search(r'name="form_token" value="([^"]+)"', page.text).group(1)}
     match = re.search(r'name="next" value="([^"]+)"', page.text)

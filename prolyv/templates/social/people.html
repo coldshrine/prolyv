@@ -1,6 +1,6 @@
 {% extends "base.html" %}
 {% from "partials/macros.html" import avatar, show_more %}
-{% block title %}{{ 'Followers of' if which == 'followers' else 'Followed by' }} {{ profile.display_name }} · Prolyv{% endblock %}
+{% block title %}{{ 'Followers of' if which == 'followers' else 'Followed by' }} {{ profile.display_name }} · {{ site_name }}{% endblock %}
 {% block head %}<link rel="stylesheet" href="/static/css/profile.css?v={{ version }}">{% endblock %}
 {% block content %}
 <div class="container narrow">

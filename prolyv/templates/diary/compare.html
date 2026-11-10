@@ -1,6 +1,6 @@
 {% extends "base.html" %}
 {% from "partials/macros.html" import cup %}
-{% block title %}Compare sessions · Prolyv{% endblock %}
+{% block title %}Compare sessions · {{ site_name }}{% endblock %}
 {% block head %}<link rel="stylesheet" href="/static/css/session.css?v={{ version }}"><meta name="robots" content="noindex">{% endblock %}
 {% macro head_cell(s) %}
 <a class="cmp-head" href="/sessions/{{ s.id }}">

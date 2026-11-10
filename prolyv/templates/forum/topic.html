@@ -1,6 +1,6 @@
 {% extends "base.html" %}
 {% from "partials/macros.html" import avatar, cup, paras, report_button, hide_button, save_button %}
-{% block title %}{{ topic.title }} · Discussions · Prolyv{% endblock %}
+{% block title %}{{ topic.title }} · Discussions · {{ site_name }}{% endblock %}
 {% block head %}
 <meta property="og:type" content="article">
 <meta property="og:title" content="{{ topic.title }}">

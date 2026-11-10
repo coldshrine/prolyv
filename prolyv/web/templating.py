@@ -10,6 +10,7 @@ from jinja2 import Environment, FileSystemLoader, select_autoescape
 from starlette.templating import Jinja2Templates
 
 from prolyv import __version__
+from prolyv.brand import BRAND_HANDLE, SITE_NAME
 from prolyv.web.cup import cup_styles
 from prolyv.web.text import linkify, source_label, time_ago
 from prolyv.web.deps import csrf_token_for
@@ -24,6 +25,8 @@ jinja_env = Environment(
     lstrip_blocks=True,
 )
 jinja_env.globals["cup_styles"] = cup_styles
+jinja_env.globals["site_name"] = SITE_NAME
+jinja_env.globals["brand_handles"] = (BRAND_HANDLE, "prolyv")
 jinja_env.filters["linkify"] = linkify
 jinja_env.filters["ago"] = time_ago
 jinja_env.filters["source_label"] = source_label

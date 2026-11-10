@@ -9,6 +9,7 @@ from pathlib import Path
 
 from PIL import Image, ImageDraw, ImageFont
 
+from prolyv.brand import SITE_NAME
 from prolyv.models import CATEGORY_LABELS, TeaSession, User
 from prolyv.web.cup import palette_for
 
@@ -250,10 +251,14 @@ def _compose(*, badge: str, kind: str, liquor_hex: str | None, kicker: str, titl
     # logo and badge
     y = TOP
     image.paste(mark := _mark(56), (MARGIN, y + 6), mark)
-    draw.text((MARGIN + 76, y + 6), "Prolyv", font=_font("Unbounded", 40, 700), fill=(255, 255, 255))
     badge_font = _font("Manrope", 26, 800)
     badge_w = int(draw.textlength(badge, font=badge_font)) + 56
     badge_box = (WIDTH - MARGIN - badge_w, y + 4, WIDTH - MARGIN, y + 64)
+    room = badge_box[0] - 24 - (MARGIN + 76)
+    size = 40
+    while size > 22 and draw.textlength(SITE_NAME, font=_font("Unbounded", size, 700)) > room:
+        size -= 2
+    draw.text((MARGIN + 76, y + 6 + (40 - size) // 2), SITE_NAME, font=_font("Unbounded", size, 700), fill=(255, 255, 255))
     _outline_pill(image, badge_box, (255, 255, 255), 0.32)
     draw.text((badge_box[0] + 28, y + 17), badge, font=badge_font, fill=(255, 255, 255))
     y += 76 + 28

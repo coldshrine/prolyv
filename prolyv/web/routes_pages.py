@@ -7,6 +7,7 @@ from pathlib import Path
 from fastapi import APIRouter, Request
 from fastapi.responses import FileResponse, JSONResponse, PlainTextResponse
 
+from prolyv.brand import SITE_NAME, SITE_SHORT_NAME
 from prolyv.web.deps import SettingsDep
 from prolyv.web.templating import render
 
@@ -54,7 +55,7 @@ def apple_touch_icon():
 @router.get("/manifest.json")
 def manifest():
     return JSONResponse({
-        "name": "Prolyv", "short_name": "Prolyv", "description": "Tea diary, tea base, forum and blog.", "start_url": "/",
+        "name": SITE_NAME, "short_name": SITE_SHORT_NAME, "description": "Tea diary, tea base, forum and blog.", "start_url": "/",
         "display": "standalone", "background_color": "#07081A", "theme_color": "#07081A",
         "icons": [{"src": "/static/icons/icon-192.png", "sizes": "192x192", "type": "image/png"},
                   {"src": "/static/icons/icon-512.png", "sizes": "512x512", "type": "image/png"}],

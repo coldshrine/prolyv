@@ -1,5 +1,5 @@
 {% extends "base.html" %}
-{% block title %}{% if tea %}Edit {{ tea.name_en }}{% else %}New tea{% endif %} · Prolyv admin{% endblock %}
+{% block title %}{% if tea %}Edit {{ tea.name_en }}{% else %}New tea{% endif %} · Admin · {{ site_name }}{% endblock %}
 {% block content %}
 <div class="container narrow">
   <p class="eyebrow">Admin · <a href="/admin/teas">tea base</a></p>

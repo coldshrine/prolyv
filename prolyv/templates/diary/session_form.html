@@ -1,6 +1,6 @@
 {% extends "base.html" %}
 {% from "partials/macros.html" import cup %}
-{% block title %}{% if editing %}Edit session{% else %}New session{% endif %} · Prolyv{% endblock %}
+{% block title %}{% if editing %}Edit session{% else %}New session{% endif %} · {{ site_name }}{% endblock %}
 {% block head %}<link rel="stylesheet" href="/static/css/session.css?v={{ version }}">{% endblock %}
 {% block body_class %}has-phonebar{% endblock %}
 {% set back_url = '/sessions/' ~ editing.id if editing else '/diary' %}

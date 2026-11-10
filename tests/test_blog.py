@@ -75,7 +75,7 @@ def test_draft_publish_embed_and_feed(tmp_path, google):
     page = client.get("/blog/why-does-shu-turn-bitter").text
     assert 'data-embed-src="https://www.tiktok.com/player/v1/7301234567890123456"' in page and "Open on TikTok" in page
     assert "<strong>rinse</strong>" in page and "<script>alert" not in page
-    assert 'property="og:title" content="Why does shu turn bitter? · Prolyv blog"' in page
+    assert 'property="og:title" content="Why does shu turn bitter? · What’s in my gaiwan"' in page
     assert "Nobody has brewed along yet" not in page and "brew-along" not in page  # a guide with no tea has nothing to brew along
     assert "Why does shu turn bitter?" in client.get("/blog").text
     assert "Why does shu turn bitter?" in client.get("/", params={"tab": "blog"}).text

@@ -1,7 +1,10 @@
-# Prolyv
+# What’s in my gaiwan
 
-Tea diary, forum and blog — the home of the Prolyv TikTok and Instagram. Short videos live there; full brewing
-breakdowns, discussion and personal diaries live here.
+Tea diary, forum, blog and tea encyclopedia — the home of our TikTok and Instagram. Short videos live there; full
+brewing breakdowns, discussion and personal diaries live here. Live at <https://whatsinmygaiwan.144.24.168.1.sslip.io>.
+
+Prolyv is the codename: the Python package, the service, the paths and this repository keep it. The public name lives
+in `prolyv/brand.py`.
 
 Milestones so far:
 
@@ -269,7 +272,7 @@ export SSH="ssh -i ~/Downloads/ssh-key-2026-06-25.key"
    ```
 
 4. **Secrets.** Create `/etc/prolyv.env` from `.env.example` and fill it in. Values that differ from local:
-   `BASE_URL=https://prolyv.144.24.168.1.sslip.io`, `DATABASE_URL=sqlite:////var/lib/prolyv/prolyv.db`,
+   `BASE_URL=https://whatsinmygaiwan.144.24.168.1.sslip.io`, `DATABASE_URL=sqlite:////var/lib/prolyv/prolyv.db`,
    `MEDIA_DIR=/var/lib/prolyv/media`, `ADMIN_EMAILS=<the e-mail you sign in with>` (or `ADMIN_TELEGRAM_IDS=<your numeric Telegram id>`), no `DEV_LOGIN` (the app won't start with it),
    and leave `BIND_HOST` and `BIND_PORT` out.
 
@@ -297,7 +300,7 @@ export SSH="ssh -i ~/Downloads/ssh-key-2026-06-25.key"
    - in `docker-compose.yml`, under the `caddy` service, add the volume `/var/lib/prolyv/run:/run/prolyv`;
    - validate the file with a throwaway container, then `sudo docker compose up -d --no-deps caddy`.
 
-   Check <https://prolyv.144.24.168.1.sslip.io/healthz>, then `/login`. When you move to a real domain, point its
+   Check <https://whatsinmygaiwan.144.24.168.1.sslip.io/healthz>, then `/login`. When you move to a real domain, point its
    DNS A record at the VM, change the site address in the Caddyfile and `BASE_URL`, update the Google redirect
    URI and BotFather's `/setdomain`.
 

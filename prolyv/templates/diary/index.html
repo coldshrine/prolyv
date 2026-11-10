@@ -1,6 +1,6 @@
 {% extends "base.html" %}
 {% from "partials/macros.html" import cup, show_more %}
-{% block title %}My diary · Prolyv{% endblock %}
+{% block title %}My diary · {{ site_name }}{% endblock %}
 {% block head %}<link rel="stylesheet" href="/static/css/diary.css?v={{ version }}">{% endblock %}
 {% block body_class %}dy-page{% endblock %}
 {% macro share_icon(size=16) %}<svg width="{{ size }}" height="{{ size }}" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3v12"></path><path d="M7 8l5-5 5 5"></path><path d="M5 13v6a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2v-6"></path></svg>{% endmacro %}

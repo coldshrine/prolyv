@@ -1,5 +1,5 @@
 #!/usr/bin/env python
-"""Real launch content: the tea base, forum sections, starter topics and guides, written under the Prolyv name.
+"""Real launch content: the tea base, forum sections, starter topics and guides, written under the site's own name.
 
 No invented people, views or statistics. Safe to re-run: existing guides and topics are left untouched, so edits made
 in the admin stay.
@@ -20,6 +20,7 @@ ROOT = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(ROOT))
 sys.path.insert(0, str(ROOT / "scripts"))
 
+from prolyv.brand import BRAND_HANDLE, SITE_NAME  # noqa: E402
 from prolyv.config import get_settings  # noqa: E402
 from prolyv.db import make_engine, make_session_factory  # noqa: E402
 from prolyv.markdown import render_markdown  # noqa: E402
@@ -182,7 +183,7 @@ A session that went wrong tells you more than one that went well. If you wrote d
 
 ## Private by default
 
-Sessions in your Prolyv diary are private unless you make them public, so write what you really think. If a session could help someone, switch it to public or attach it to a question in Discussions, and people can see exactly what you did and suggest what to change.
+Sessions in your diary here are private unless you make them public, so write what you really think. If a session could help someone, switch it to public or attach it to a question in Discussions, and people can see exactly what you did and suggest what to change.
 """,
     },
 ]
@@ -201,11 +202,13 @@ TOPICS = [
 
 def get_prolyv_user(db) -> User:  # noqa: ANN001
     """The site's own byline. It has no sign-in method, so nobody can log in as it, and the handle is reserved."""
-    user = db.execute(select(User).where(User.handle == "prolyv")).scalar_one_or_none()
+    user = db.execute(select(User).where(User.handle.in_((BRAND_HANDLE, "prolyv")))).scalar_one_or_none()
     if user is None:
-        user = User(handle="prolyv", display_name="Prolyv", bio="Tea diary, tea base, forum and blog.")
+        user = User(handle=BRAND_HANDLE, display_name=SITE_NAME, bio="Tea diary, tea base, forum and blog.")
         db.add(user)
-        db.flush()
+    else:  # a database seeded before the site was renamed from Prolyv
+        user.handle, user.display_name = BRAND_HANDLE, SITE_NAME
+    db.flush()
     return user
 
 

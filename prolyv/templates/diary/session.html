@@ -1,10 +1,10 @@
 {% extends "base.html" %}
 {% from "partials/macros.html" import avatar, cup, paras, report_button, hide_button, save_button, show_more %}
-{% block title %}{{ sess.tea_name }} · {{ sess.user.display_name }}'s diary · Prolyv{% endblock %}
+{% block title %}{{ sess.tea_name }} · {{ sess.user.display_name }}'s diary · {{ site_name }}{% endblock %}
 {% block head %}
 <link rel="stylesheet" href="/static/css/session.css?v={{ version }}">
 <meta property="og:type" content="article">
-<meta property="og:site_name" content="Prolyv">
+<meta property="og:site_name" content="{{ site_name }}">
 <meta property="og:title" content="{{ og.title }}">
 <meta property="og:description" content="{{ og.description }}">
 <meta property="og:url" content="{{ og.url }}">

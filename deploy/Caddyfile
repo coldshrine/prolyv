@@ -16,7 +16,7 @@
 # }
 
 # Replace with your real domain once you have one; sslip.io needs no DNS setup.
-prolyv.144.24.168.1.sslip.io {
+whatsinmygaiwan.144.24.168.1.sslip.io {
 	encode zstd gzip
 
 	request_body {
@@ -32,4 +32,9 @@ prolyv.144.24.168.1.sslip.io {
 	}
 
 	reverse_proxy unix//run/prolyv/prolyv.sock
+}
+
+# The first address, kept so old links still work.
+prolyv.144.24.168.1.sslip.io {
+	redir https://whatsinmygaiwan.144.24.168.1.sslip.io{uri} permanent
 }

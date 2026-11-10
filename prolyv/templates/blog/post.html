@@ -1,12 +1,12 @@
 {% extends "base.html" %}
 {% from "partials/macros.html" import cup, avatar, report_button, hide_button, save_button %}
-{% block title %}{{ post.title }} · Prolyv blog{% endblock %}
+{% block title %}{{ post.title }} · {{ site_name }}{% endblock %}
 {% block body_class %}blog-post-page{% endblock %}
 {% block head %}
 <link rel="canonical" href="{{ og.url }}">
 <meta name="description" content="{{ og.description }}">
 <meta property="og:type" content="article">
-<meta property="og:site_name" content="Prolyv">
+<meta property="og:site_name" content="{{ site_name }}">
 <meta property="og:title" content="{{ og.title }}">
 <meta property="og:description" content="{{ og.description }}">
 <meta property="og:url" content="{{ og.url }}">

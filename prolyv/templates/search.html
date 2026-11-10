@@ -1,6 +1,6 @@
 {% extends "base.html" %}
 {% from "partials/macros.html" import tea_row, session_card, topic_card, post_card, show_more %}
-{% block title %}{% if q %}{{ q }} · {% endif %}Search · Prolyv{% endblock %}
+{% block title %}{% if q %}{{ q }} · {% endif %}Search · {{ site_name }}{% endblock %}
 {% block head %}<meta name="robots" content="noindex">{% endblock %}
 {% block content %}
 <section class="container narrow">

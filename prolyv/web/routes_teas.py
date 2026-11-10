@@ -12,6 +12,7 @@ from fastapi.responses import RedirectResponse, Response
 from sqlalchemy import func, select
 from sqlalchemy.orm import load_only, selectinload
 
+from prolyv.brand import SITE_NAME
 from prolyv.handles import slugify
 from prolyv.models import (
     CATEGORY_LABELS,
@@ -428,7 +429,7 @@ def tea_detail(request: Request, db: DbDep, settings: SettingsDep, user: Current
         "@context": "https://schema.org", "@type": "Article", "headline": tea.name_en, "about": {
             "@type": "Thing", "name": tea.name_en, "alternateName": alternate[:8], "description": summary},
         "description": summary, "url": page_url, "inLanguage": lang,
-        "dateModified": tea.updated_at.date().isoformat(), "publisher": {"@type": "Organization", "name": "Prolyv"},
+        "dateModified": tea.updated_at.date().isoformat(), "publisher": {"@type": "Organization", "name": SITE_NAME},
     }
     if image:
         jsonld["image"] = absolute_url(settings, image.url)
@@ -453,7 +454,7 @@ def tea_detail(request: Request, db: DbDep, settings: SettingsDep, user: Current
         "tea": tea, "text": text, "lang": lang, "languages": languages, "related": related, "image": image, "is_admin_view": is_admin,
         "sessions": public_sessions_for_tea(db, tea.id), "page_url": page_url,
         "jsonld": json.dumps(jsonld, ensure_ascii=False).replace("</", "<\\/"),
-        "og": {"title": f"{tea.name_en} · Prolyv tea base", "description": summary[:200],
+        "og": {"title": f"{tea.name_en} · {SITE_NAME}", "description": summary[:200],
                "image": absolute_url(settings, image.url) if image else None,
                "url": page_url if lang == "en" else f"{page_url}?lang={lang}"},
     }

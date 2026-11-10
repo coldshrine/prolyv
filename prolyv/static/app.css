@@ -106,7 +106,8 @@ h3 { font-size: 18px; font-weight: 700; }
               conic-gradient(from 200deg, #FF4FD8, #8A3FFC, #2563FF, #22E3A6, #FFC21A, #FF8A1F, #FF4FD8);
   box-shadow: 0 0 24px rgba(255, 79, 216, 0.45);
 }
-.brand-name { font-family: var(--font-head); font-weight: 700; font-size: 20px; letter-spacing: -0.01em; }
+.brand-name { font-family: var(--font-head); font-weight: 700; font-size: 20px; letter-spacing: -0.01em; line-height: 1.05; text-wrap: balance; }
+@media (max-width: 767px) { .topbar .brand-name { font-size: 16px; } }
 .topnav { display: none; flex: 1; gap: 4px; }
 .topnav a { display: inline-flex; align-items: center; height: 44px; padding: 0 16px; border-radius: 999px; color: var(--muted); text-decoration: none; font-weight: 700; font-size: 15px; }
 .topnav a:hover { color: var(--fg); }

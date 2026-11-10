@@ -1,14 +1,14 @@
 {% extends "base.html" %}
 {% from "partials/macros.html" import cup %}
-{% block title %}Log in · Prolyv{% endblock %}
+{% block title %}Log in · {{ site_name }}{% endblock %}
 {% block body_class %}login-body{% endblock %}
 {% block topbar %}{% endblock %}
 {% block tabbar %}{% endblock %}
 {% block footer %}{% endblock %}
 {% block content %}
 <div class="login">
-  <section class="login-brand" aria-label="About Prolyv">
-    <a class="brand" href="/"><span class="brand-mark" aria-hidden="true"></span><span class="brand-name">Prolyv</span></a>
+  <section class="login-brand" aria-label="About {{ site_name }}">
+    <a class="brand" href="/"><span class="brand-mark" aria-hidden="true"></span><span class="brand-name">{{ site_name }}</span></a>
     <div class="login-brand-body">
       <span class="login-cup login-cup-phone">{{ cup('oolong', 200, spin=True) }}</span><span class="login-cup login-cup-wide">{{ cup('oolong', 380, spin=True) }}</span>
       <h2 class="login-tagline">Every steep, in your diary</h2>
@@ -21,7 +21,7 @@
   </section>
   <section class="login-panel">
     <div class="login-card">
-      <h1 class="h1">Log in to Prolyv</h1>
+      <h1 class="h1">Log in</h1>
       <p class="lead">No passwords — use an account you already have. New here? We’ll create your diary automatically.</p>
 
       {% if not (settings.dev_login_enabled or settings.telegram_usable or settings.google_enabled or settings.email_login_enabled or settings.is_local) %}

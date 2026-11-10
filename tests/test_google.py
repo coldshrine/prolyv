@@ -113,7 +113,7 @@ def test_identity_owned_by_another_account_cannot_be_linked(client, db, google):
     response = google_login(client, google, sub="g-1", email="first@example.com")
     assert response.status_code == 303
     assert response.headers["location"] == "/settings"
-    assert "already linked to another Prolyv account" in client.get("/settings").text
+    assert "already linked to another account here" in client.get("/settings").text
 
     account_b = db.execute(select(User).where(User.handle == "second")).scalar_one()
     assert [i.provider for i in account_b.identities] == [Provider.telegram]

@@ -1,6 +1,6 @@
 {% extends "base.html" %}
 {% from "partials/macros.html" import session_card, cup, save_button %}
-{% block title %}{{ tea.name_en }}{% if tea.name_zh %} ({{ tea.name_zh }}){% endif %} · Prolyv tea base{% endblock %}
+{% block title %}{{ tea.name_en }}{% if tea.name_zh %} ({{ tea.name_zh }}){% endif %} · {{ site_name }}{% endblock %}
 {% block head %}
 <link rel="canonical" href="{{ og.url }}">
 {% if tea.confidence == 'low' %}<meta name="robots" content="noindex">{% endif %}
@@ -8,7 +8,7 @@
 {% endfor %}<link rel="alternate" hreflang="x-default" href="{{ page_url }}">{% endif %}
 <meta name="description" content="{{ og.description }}">
 <meta property="og:type" content="article">
-<meta property="og:site_name" content="Prolyv">
+<meta property="og:site_name" content="{{ site_name }}">
 <meta property="og:title" content="{{ og.title }}">
 <meta property="og:description" content="{{ og.description }}">
 <meta property="og:url" content="{{ og.url }}">

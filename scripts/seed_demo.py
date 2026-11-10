@@ -36,7 +36,7 @@ from prolyv.models import (  # noqa: E402
 from prolyv.search import rebuild  # noqa: E402
 
 USERS = [
-    ("karyna", "Karyna", "Tea TikToker. Runs Prolyv. Mostly oolong and sheng.", True),
+    ("karyna", "Karyna", "Tea TikToker. Runs What’s in my gaiwan. Mostly oolong and sheng.", True),
     ("olena_tea", "Olena K.", "Lviv · Mostly shu and aged oolong. I log every session, even the bad ones.", False),
     ("tea_mike", "Mike", "Darjeeling first flush believer, gaiwan convert since 2024.", False),
     ("demo_user", "Demo User", "A local demo account.", False),

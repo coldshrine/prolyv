@@ -1,6 +1,6 @@
 {% extends "base.html" %}
 {% from "partials/macros.html" import feed_item, cup, show_more, avatar %}
-{% block head %}{% with og_title="Prolyv: log your tea, talk through every steep", og_desc="A personal tea diary where any session can become a discussion. The home of our TikTok and Instagram.", og_path="/" %}{% include "partials/og.html" %}{% endwith %}{% endblock %}
+{% block head %}{% with og_title=site_name ~ ": log your tea, talk through every steep", og_desc="A personal tea diary where any session can become a discussion. The home of our TikTok and Instagram.", og_path="/" %}{% include "partials/og.html" %}{% endwith %}{% endblock %}
 {% block content %}
 {% if not current_user %}
 <section class="home-hero">

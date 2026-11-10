@@ -3,7 +3,7 @@
 {% macro remove(kind, ref_id) -%}
 <form method="post" action="/saved/toggle" class="pf-remove"><input type="hidden" name="csrf_token" value="{{ csrf_token }}"><input type="hidden" name="kind" value="{{ kind }}"><input type="hidden" name="ref_id" value="{{ ref_id }}"><input type="hidden" name="next" value="/saved"><button class="btn btn-ghost btn-sm" type="submit">Remove</button></form>
 {%- endmacro %}
-{% block title %}Saved · Prolyv{% endblock %}
+{% block title %}Saved · {{ site_name }}{% endblock %}
 {% block head %}<link rel="stylesheet" href="/static/css/profile.css?v={{ version }}">{% endblock %}
 {% block content %}
 <div class="container">

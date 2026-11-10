@@ -1,6 +1,6 @@
 {% extends "base.html" %}
 {% from "partials/macros.html" import avatar, cup, report_button, show_more %}
-{% block title %}{{ profile.display_name }} (@{{ profile.handle }}) · Prolyv{% endblock %}
+{% block title %}{{ profile.display_name }} (@{{ profile.handle }}) · {{ site_name }}{% endblock %}
 {% block body_class %}pf-page{% endblock %}
 {% block head %}
 <link rel="stylesheet" href="/static/css/profile.css?v={{ version }}">

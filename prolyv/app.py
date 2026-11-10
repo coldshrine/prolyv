@@ -16,6 +16,7 @@ from starlette.exceptions import HTTPException as StarletteHTTPException
 from prolyv.auth.accounts import is_admin_user
 from prolyv.auth.google import GoogleOIDC
 from prolyv.auth.sessions import load_session
+from prolyv.brand import SITE_NAME
 from prolyv.config import Settings, get_settings
 from prolyv.db import make_engine, make_session_factory
 from prolyv.ratelimit import RateLimiter, RateLimitMiddleware
@@ -65,7 +66,7 @@ def create_app(settings: Settings | None = None, google_transport=None) -> FastA
     settings = settings or get_settings()
     settings.check_startup()
     # every route loads the signed-in user, so the top bar is right on every page
-    app = FastAPI(title="Prolyv", docs_url=None, redoc_url=None, openapi_url=None, dependencies=[Depends(get_current_user)])
+    app = FastAPI(title=SITE_NAME, docs_url=None, redoc_url=None, openapi_url=None, dependencies=[Depends(get_current_user)])
 
     app.state.settings = settings
     app.state.signer = Signer(settings.secret_key)

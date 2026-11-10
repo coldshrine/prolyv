@@ -10,6 +10,7 @@ from sqlalchemy import func, select
 from sqlalchemy.orm import selectinload
 
 from prolyv.auth.accounts import AccountError, get_user_by_handle, handle_taken, soft_delete, unlink
+from prolyv.brand import SITE_SLUG
 from prolyv.handles import RESERVED, is_valid_handle
 from prolyv.models import (
     Follow,
@@ -220,7 +221,7 @@ def settings_export(request: Request, db: DbDep, user: RequiredUser):
         "following": [h for h in db.execute(select(User.handle).join(Follow, Follow.followee_id == User.id).where(Follow.follower_id == user.id)).scalars()],
     }
     body = json.dumps(data, ensure_ascii=False, indent=1)
-    return Response(body, media_type="application/json", headers={"Content-Disposition": f'attachment; filename="prolyv-{user.handle}.json"'})
+    return Response(body, media_type="application/json", headers={"Content-Disposition": f'attachment; filename="{SITE_SLUG}-{user.handle}.json"'})
 
 
 @router.post("/settings/delete", dependencies=[Depends(require_csrf)])

@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <meta name="color-scheme" content="dark">
 <meta name="theme-color" content="#07081A">
-<title>{% block title %}Prolyv — every steep, in your diary{% endblock %}</title>
+<title>{% block title %}{{ site_name }} · every steep, in your diary{% endblock %}</title>
 <link rel="icon" href="/favicon.ico" sizes="48x48">
 <link rel="icon" type="image/png" href="/static/icons/favicon-32.png" sizes="32x32">
 <link rel="apple-touch-icon" href="/apple-touch-icon.png">
@@ -24,7 +24,7 @@
 {% block topbar %}
 <header class="topbar">
   <div class="topbar-inner">
-    <a class="brand" href="/"><span class="brand-mark" aria-hidden="true"></span><span class="brand-name">Prolyv</span></a>
+    <a class="brand" href="/"><span class="brand-mark" aria-hidden="true"></span><span class="brand-name">{{ site_name }}</span></a>
     <nav class="topnav" aria-label="Main navigation">
       <a href="/"{% if path == '/' %} aria-current="page"{% endif %}>Feed</a>
       <a href="/teas"{% if path.startswith('/teas') %} aria-current="page"{% endif %}>Teas</a>
@@ -66,7 +66,7 @@
   <div class="rainbow-stripe" aria-hidden="true"></div>
   <div class="site-footer-inner">
     <div class="footer-brand">
-      <a class="brand" href="/"><span class="brand-mark" aria-hidden="true"></span><span class="brand-name">Prolyv</span></a>
+      <a class="brand" href="/"><span class="brand-mark" aria-hidden="true"></span><span class="brand-name">{{ site_name }}</span></a>
       <p>A tea diary, forum and blog. Log your sessions, talk them through and share: the home of our TikTok and Instagram.</p>
       {% if settings.social_tiktok or settings.social_instagram %}
       <div class="footer-social">
@@ -99,7 +99,7 @@
     <nav aria-label="Project">
       <p class="footer-title">PROJECT</p>
       <ul>
-        <li><a href="/about">About Prolyv</a></li>
+        <li><a href="/about">About us</a></li>
         <li><a href="/rules">Community rules</a></li>
         <li><a href="/privacy">Privacy</a></li>
         <li><a href="/terms">Terms</a></li>
@@ -107,7 +107,7 @@
       </ul>
     </nav>
   </div>
-  <div class="site-footer-bottom"><span>© {{ year }} Prolyv · Made in Ukraine</span><span>Your diary is yours: private entries are visible only to you.</span></div>
+  <div class="site-footer-bottom"><span>© {{ year }} {{ site_name }} · Made in Ukraine</span><span>Your diary is yours: private entries are visible only to you.</span></div>
 </footer>
 {% endblock %}
 {% block tabbar %}

@@ -14,6 +14,7 @@ from prolyv.auth.email_links import TOKEN_MINUTES, create_login_token, email_pro
 from prolyv.auth.google import GoogleAuthError
 from prolyv.auth.sessions import create_session, revoke_session
 from prolyv.auth.telegram import TelegramAuthError, verify_telegram_auth
+from prolyv.brand import SITE_NAME
 from prolyv.config import Settings
 from prolyv.mail import send_mail
 from prolyv.models import Provider, User, utcnow
@@ -138,7 +139,7 @@ async def telegram_callback(request: Request, db: DbDep, settings: SettingsDep, 
 
     intent = signer.loads("tg_intent", request.cookies.get(INTENT_COOKIE), INTENT_COOKIE_MAX_AGE)
     if intent is None or not hmac.compare_digest(params.get("state", ""), anon_form_token(request, signer)):
-        return error_page(request, "Please start from the login page", "Open Prolyv's login page and tap Continue with Telegram.")
+        return error_page(request, "Please start from the login page", "Open the login page and tap Continue with Telegram.")
 
     try:
         tg = verify_telegram_auth(params, settings.telegram_bot_token)
@@ -171,7 +172,7 @@ def complete_sign_in(
         user, created = sign_in(db, profile, current_user)
     except AccountError:
         response = RedirectResponse("/settings" if current_user else "/login", status_code=303)
-        set_flash(response, settings, signer, "error", f"That {provider_name} account is already linked to another Prolyv account.")
+        set_flash(response, settings, signer, "error", f"That {provider_name} account is already linked to another account here.")
         return response
 
     if user.banned_at is not None:
@@ -185,7 +186,7 @@ def complete_sign_in(
     if current_user is not None:
         target, kind, text = "/settings", "ok", f"{provider_name} is now linked to your account."
     elif created:
-        target, kind, text = safe_next(next_url) or "/settings", "ok", "Welcome to Prolyv! You can change your name and handle in Settings."
+        target, kind, text = safe_next(next_url) or "/settings", "ok", f"Welcome to {SITE_NAME}! You can change your name and handle in Settings."
     else:
         target, kind, text = safe_next(next_url) or "/", "ok", f"Welcome back, {user.display_name}."
 
@@ -226,8 +227,8 @@ def email_start(request: Request, db: DbDep, settings: SettingsDep, signer: Sign
         if settings.smtp_enabled:
             db.commit()
             try:
-                send_mail(settings, address, "Your Prolyv sign-in link",
-                          f"Open this link to sign in to Prolyv:\n\n{link}\n\n"
+                send_mail(settings, address, f"Your sign-in link for {SITE_NAME}",
+                          f"Open this link to sign in to {SITE_NAME}:\n\n{link}\n\n"
                           f"It works once and expires in {TOKEN_MINUTES} minutes. If you did not ask for it, ignore this e-mail.\n")
             except OSError:
                 log.exception("could not send the sign-in e-mail")
