@@ -1,21 +1,21 @@
 {% extends "base.html" %}
-{% block title %}Community rules · {{ site_name }}{% endblock %}
+{% block title %}{{ _("Community rules") }} · {{ site_name }}{% endblock %}
 {% block content %}
 <article class="container narrow page-text">
-  <p class="eyebrow">Community</p>
-  <h1 class="h1">Community rules</h1>
+  <p class="eyebrow">{{ _("Community") }}</p>
+  <h1 class="h1">{{ _("Community rules") }}</h1>
   <div class="prose">
-    <p>{{ site_name }} is for people who like tea and like talking about it. The rules are short.</p>
-    <h2 class="h2">Be decent</h2>
-    <p>Disagree about the tea, not the person. No harassment, hate or threats. Everyone was a beginner once, so beginner questions are welcome.</p>
-    <h2 class="h2">Be honest</h2>
-    <p>Say what you actually brewed and tasted. If you sell tea or work for someone who does, say so when you mention them. No hidden advertising and no spam.</p>
-    <h2 class="h2">No health promises</h2>
-    <p>Share your experience, but don't tell people a tea will treat an illness. Medical questions belong with a doctor.</p>
-    <h2 class="h2">Respect other people's work</h2>
-    <p>Only post text and photos you have the right to share, and credit your sources.</p>
-    <h2 class="h2">Moderation</h2>
-    <p>Any member can press Report. Admins may hide content or restrict an account that breaks these rules.</p>
+    <p>{{ _("{site} is for people who like tea and like talking about it. The rules are short.", site=site_name) }}</p>
+    <h2 class="h2">{{ _("Be decent") }}</h2>
+    <p>{{ _("Disagree about the tea, not the person. No harassment, hate or threats. Everyone was a beginner once, so beginner questions are welcome.") }}</p>
+    <h2 class="h2">{{ _("Be honest") }}</h2>
+    <p>{{ _("Say what you actually brewed and tasted. If you sell tea or work for someone who does, say so when you mention them. No hidden advertising and no spam.") }}</p>
+    <h2 class="h2">{{ _("No health promises") }}</h2>
+    <p>{{ _("Share your experience, but don't tell people a tea will treat an illness. Medical questions belong with a doctor.") }}</p>
+    <h2 class="h2">{{ _("Respect other people's work") }}</h2>
+    <p>{{ _("Only post text and photos you have the right to share, and credit your sources.") }}</p>
+    <h2 class="h2">{{ _("Moderation") }}</h2>
+    <p>{{ _("Any member can press Report. Admins may hide content or restrict an account that breaks these rules.") }}</p>
   </div>
 </article>
 {% endblock %}

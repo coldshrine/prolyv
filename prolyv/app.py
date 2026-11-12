@@ -19,6 +19,7 @@ from prolyv.auth.sessions import load_session
 from prolyv.brand import SITE_NAME
 from prolyv.config import Settings, get_settings
 from prolyv.db import make_engine, make_session_factory
+from prolyv.i18n import N_, _, set_lang
 from prolyv.ratelimit import RateLimiter, RateLimitMiddleware
 from prolyv.search import ensure_fts
 from prolyv.security import SESSION_COOKIE, Signer
@@ -47,13 +48,19 @@ STATIC_DIR = Path(__file__).resolve().parent / "static"
 # Tea photos are WebP, and a slim server image has no system MIME table that knows it.
 mimetypes.add_type("image/webp", ".webp")
 
+# English; error_text() shows them in the visitor's language
 ERROR_TEXT = {
-    403: ("You don't have access to this page", "If you think you should, check that you are signed in to the right account."),
-    404: ("Nothing steeping here", "We couldn't find that page. It may have moved or been removed."),
-    405: ("Wrong kind of request", "Please use the buttons on the page."),
-    400: ("Something was off with that request", "Please go back and try again."),
-    429: ("Slow down a little", "You're posting very quickly. Please wait a few minutes and try again."),
+    403: (N_("You don't have access to this page"), N_("If you think you should, check that you are signed in to the right account.")),
+    404: (N_("Nothing steeping here"), N_("We couldn't find that page. It may have moved or been removed.")),
+    405: (N_("Wrong kind of request"), N_("Please use the buttons on the page.")),
+    400: (N_("Something was off with that request"), N_("Please go back and try again.")),
+    429: (N_("Slow down a little"), N_("You're posting very quickly. Please wait a few minutes and try again.")),
 }
+
+
+def error_text(status: int) -> tuple[str, str]:
+    title, text = ERROR_TEXT.get(status, (N_("Something went wrong"), N_("Please try again in a moment.")))
+    return _(title), _(text)
 
 
 def same_site_referer(request: Request) -> str | None:
@@ -111,11 +118,11 @@ def create_app(settings: Settings | None = None, google_transport=None) -> FastA
     def http_error(request: Request, exc: StarletteHTTPException):
         if exc.status_code == 401:
             if request.headers.get("hx-request"):
-                return PlainTextResponse("Please log in.", status_code=401)
+                return PlainTextResponse(_("Please log in."), status_code=401)
             return login_redirect(request)
-        title, text = ERROR_TEXT.get(exc.status_code, ("Something went wrong", "Please try again in a moment."))
+        title, text = error_text(exc.status_code)
         if exc.detail == "csrf_failed":
-            title, text = "That form has expired", "Go back, reload the page and try again."
+            title, text = _("That form has expired"), _("Go back, reload the page and try again.")
         if not hasattr(request.state, "user"):  # no route matched, so no dependency loaded the user
             remember_user(request)
         return render(request, "error.html", {"title": title, "text": text, "status": exc.status_code, "back": same_site_referer(request)}, exc.status_code)
@@ -135,7 +142,8 @@ def create_app(settings: Settings | None = None, google_transport=None) -> FastA
     def server_error(request: Request, exc: Exception):
         logging.getLogger("prolyv").exception("unhandled error on %s", request.url.path, exc_info=exc)
         request.state.user = None
-        return render(request, "error.html", {"title": "Something went wrong", "text": "It's on our side. Please try again in a moment.", "status": 500}, 500)
+        set_lang(request.scope.get("state", {}).get("lang"))  # this handler runs outside LanguageMiddleware
+        return render(request, "error.html", {"title": _("Something went wrong"), "text": _("It's on our side. Please try again in a moment."), "status": 500}, 500)
 
     @app.exception_handler(RequestValidationError)
     def validation_error(request: Request, exc: RequestValidationError):
@@ -143,13 +151,13 @@ def create_app(settings: Settings | None = None, google_transport=None) -> FastA
             remember_user(request)
         places = {error["loc"][0] for error in exc.errors() if error.get("loc")}
         if "path" in places:  # /sessions/notauuid is simply a page that does not exist
-            title, text = ERROR_TEXT[404]
+            title, text = error_text(404)
             return render(request, "error.html", {"title": title, "text": text, "status": 404}, 404)
         if places == {"query"} and request.method == "GET":  # ?page=abc: the same page without the bad value
             bad = {error["loc"][1] for error in exc.errors() if len(error["loc"]) > 1}
             kept = [(k, v) for k, v in request.query_params.multi_items() if k not in bad]
             return RedirectResponse(f"{request.url.path}?{urlencode(kept)}" if kept else request.url.path, status_code=303)
-        title, text = ERROR_TEXT[400]
+        title, text = error_text(400)
         return render(request, "error.html", {"title": title, "text": text, "status": 400, "back": same_site_referer(request)}, 400)
 
     return app

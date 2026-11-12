@@ -2,13 +2,13 @@
 {% block title %}{{ title }} · {{ site_name }}{% endblock %}
 {% block content %}
 <section class="container narrow centered">
-  <p class="eyebrow">Error {{ status }}</p>
+  <p class="eyebrow">{{ _("Error {status}", status=status) }}</p>
   <h1 class="h1">{{ title }}</h1>
   <p class="lead">{{ text }}</p>
   <div class="actions">
-    {% if back %}<a class="btn btn-primary" href="{{ back }}">Go back</a><a class="btn btn-secondary" href="/">Home</a>
-    {% else %}<a class="btn btn-primary" href="/">Home</a>{% endif %}
-    {% if not current_user %}<a class="btn btn-secondary" href="/login">Log in</a>{% endif %}
+    {% if back %}<a class="btn btn-primary" href="{{ back }}">{{ _("Go back") }}</a><a class="btn btn-secondary" href="/">{{ _("Home") }}</a>
+    {% else %}<a class="btn btn-primary" href="/">{{ _("Home") }}</a>{% endif %}
+    {% if not current_user %}<a class="btn btn-secondary" href="/login">{{ _("Log in") }}</a>{% endif %}
   </div>
 </section>
 {% endblock %}

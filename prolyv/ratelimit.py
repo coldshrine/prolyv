@@ -6,6 +6,8 @@ import threading
 import time
 from collections import OrderedDict, deque
 
+from prolyv.i18n import _
+
 
 class RateLimiter:
     def __init__(self, limit: int, window_seconds: int, max_keys: int = 10_000) -> None:
@@ -49,7 +51,7 @@ class RateLimitMiddleware:
             client = scope.get("client")
             key = client[0] if client else "unknown"
             if not self.limiter.allow(key):
-                body = b"Too many sign-in attempts. Please wait a minute and try again."
+                body = _("Too many sign-in attempts. Please wait a minute and try again.").encode()
                 await send(
                     {
                         "type": "http.response.start",

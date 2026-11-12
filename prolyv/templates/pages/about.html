@@ -1,17 +1,17 @@
 {% extends "base.html" %}
-{% block title %}About · {{ site_name }}{% endblock %}
-{% block head %}{% with og_title="About · " ~ site_name, og_desc="A tea diary, a tea encyclopedia, a forum and a blog for people who brew tea at home.", og_path="/about" %}{% include "partials/og.html" %}{% endwith %}{% endblock %}
+{% block title %}{{ _("About") }} · {{ site_name }}{% endblock %}
+{% block head %}{% with og_title=_("About") ~ " · " ~ site_name, og_desc=_("A tea diary, a tea encyclopedia, a forum and a blog for people who brew tea at home."), og_path="/about" %}{% include "partials/og.html" %}{% endwith %}{% endblock %}
 {% block content %}
 <article class="container narrow page-text">
-  <p class="eyebrow">About</p>
-  <h1 class="h1">A home for every steep</h1>
+  <p class="eyebrow">{{ _("About") }}</p>
+  <h1 class="h1">{{ _("A home for every steep") }}</h1>
   <div class="prose">
-    <p>{{ site_name }} started as short tea videos on TikTok and Instagram. A minute is enough to show a pour, but not enough for the grams, the water, the steep times and the reasons behind them. This site is where the rest lives.</p>
-    <p><strong>The tea base</strong> is an open encyclopedia of tea: what each tea is, how it looks and tastes, how to brew it, and how it is actually sold, by harvest, grade or year. Photos come from Wikimedia Commons with their authors and licences shown.</p>
-    <p><strong>The diary</strong> keeps your sessions: tea, grams, water, temperature, steeps, rating, notes. A session is private unless you make it public.</p>
-    <p><strong>Discussions and the blog</strong> are for the longer conversation: ask about a tea, attach the session, and get an answer from someone who brewed it. Blog posts are the full breakdowns behind the videos, and you can brew along.</p>
-    <p>This is not a shop. We don't sell tea and we don't post anything on your behalf.</p>
+    <p>{{ _("{site} started as short tea videos on TikTok and Instagram. A minute is enough to show a pour, but not enough for the grams, the water, the steep times and the reasons behind them. This site is where the rest lives.", site=site_name) }}</p>
+    {% set what %}<strong>{{ _("The tea base") }}</strong>{% endset %}<p>{{ _("{what} is an open encyclopedia of tea: what each tea is, how it looks and tastes, how to brew it, and how it is actually sold, by harvest, grade or year. Photos come from Wikimedia Commons with their authors and licences shown.", what=what) }}</p>
+    {% set what %}<strong>{{ _("The diary") }}</strong>{% endset %}<p>{{ _("{what} keeps your sessions: tea, grams, water, temperature, steeps, rating, notes. A session is private unless you make it public.", what=what) }}</p>
+    {% set what %}<strong>{{ _("Discussions and the blog") }}</strong>{% endset %}<p>{{ _("{what} are for the longer conversation: ask about a tea, attach the session, and get an answer from someone who brewed it. Blog posts are the full breakdowns behind the videos, and you can brew along.", what=what) }}</p>
+    <p>{{ _("This is not a shop. We don't sell tea and we don't post anything on your behalf.") }}</p>
   </div>
-  <div class="actions"><a class="btn btn-primary" href="/teas">Explore the tea base</a><a class="btn btn-secondary" href="{% if current_user %}/diary{% else %}/login?next=/sessions/new{% endif %}">{% if current_user %}Open my diary{% else %}Start your diary{% endif %}</a>{% if settings.social_tiktok %}<a class="btn btn-secondary" href="{{ settings.social_tiktok }}" target="_blank" rel="noopener">TikTok</a>{% endif %}{% if settings.social_instagram %}<a class="btn btn-secondary" href="{{ settings.social_instagram }}" target="_blank" rel="noopener">Instagram</a>{% endif %}</div>
+  <div class="actions"><a class="btn btn-primary" href="/teas">{{ _("Explore the tea base") }}</a><a class="btn btn-secondary" href="{% if current_user %}/diary{% else %}/login?next=/sessions/new{% endif %}">{% if current_user %}{{ _("Open my diary") }}{% else %}{{ _("Start your diary") }}{% endif %}</a>{% if settings.social_tiktok %}<a class="btn btn-secondary" href="{{ settings.social_tiktok }}" target="_blank" rel="noopener">TikTok</a>{% endif %}{% if settings.social_instagram %}<a class="btn btn-secondary" href="{{ settings.social_instagram }}" target="_blank" rel="noopener">Instagram</a>{% endif %}</div>
 </article>
 {% endblock %}

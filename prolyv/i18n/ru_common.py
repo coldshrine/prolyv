@@ -65,6 +65,7 @@ TEXT: dict[str, str] = {
     # shared words
     "Show more": "Показать ещё",
     "Remove": "Убрать",
+    "TOP NOTES": "ГЛАВНЫЕ НОТЫ",
     "Deleted account": "Удалённый аккаунт",
     "just now": "только что",
     "Wikipedia ({lang}): {title}": "Википедия ({lang}): {title}",

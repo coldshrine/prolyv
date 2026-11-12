@@ -1,7 +1,7 @@
 <button type="button" class="btn-auth btn-telegram" data-telegram-login data-bot-id="{{ settings.telegram_bot_id }}" data-state="{{ tg_state }}">
   <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 4L3 11l6 2 2 6 3-4 5 4z"/><path d="M9 13l12-9"/></svg>
-  {{ tg_label|default("Continue with Telegram") }}
+  {{ tg_label|default(_("Continue with Telegram")) }}
 </button>
-<noscript><p class="muted small">Enable JavaScript to sign in with Telegram.</p></noscript>
+<noscript><p class="muted small">{{ _("Enable JavaScript to sign in with Telegram.") }}</p></noscript>
 <script src="https://telegram.org/js/telegram-widget.js?22" defer></script>
 <script src="/static/telegram.js?v={{ version }}" defer></script>

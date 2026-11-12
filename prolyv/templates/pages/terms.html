@@ -1,23 +1,24 @@
 {% extends "base.html" %}
-{% block title %}Terms of use · {{ site_name }}{% endblock %}
+{% block title %}{{ _("Terms of use") }} · {{ site_name }}{% endblock %}
 {% block content %}
 <article class="container narrow page-text">
-  <p class="eyebrow">Legal</p>
-  <h1 class="h1">Terms of use</h1>
+  <p class="eyebrow">{{ _("Legal") }}</p>
+  <h1 class="h1">{{ _("Terms of use") }}</h1>
   <div class="prose">
-    <p>By using {{ site_name }} you agree to these terms. It is a free hobby project, offered as it is.</p>
-    <h2 class="h2">Your account</h2>
-    <p>You sign in with an account you already have. Keep it secure, because anyone with access to it can act as you here. One person, one account is the norm.</p>
-    <h2 class="h2">Your content</h2>
-    <p>What you write and upload stays yours. By publishing it you allow us to store and show it on the site. Don't post anything you have no right to share, and follow the <a href="/rules">Community rules</a>. Admins may hide or remove content and restrict accounts that break them.</p>
-    <h2 class="h2">Tea information</h2>
-    <p>Tea cards are written with care but may contain mistakes, and each one lists its sources where available. They are general information and not medical advice. Photos belong to their authors and are shown under the licence named next to them.</p>
-    <h2 class="h2">No warranty</h2>
-    <p>The site may change, pause or stop, and we can't promise it will always be available or free of errors. To the extent the law allows, we aren't liable for losses from using it. Use the export in Settings to keep your own copy of your diary.</p>
-    <h2 class="h2">Changes</h2>
-    <p>We may update these terms and will change this page when we do.</p>
-    <h2 class="h2">Contact</h2>
-    <p>{% if settings.contact_email %}<a href="mailto:{{ settings.contact_email }}">{{ settings.contact_email }}</a>{% else %}Post in <a href="/discussions">Discussions</a> and an admin will follow up.{% endif %}</p>
+    <p>{{ _("By using {site} you agree to these terms. It is a free hobby project, offered as it is.", site=site_name) }}</p>
+    <h2 class="h2">{{ _("Your account") }}</h2>
+    <p>{{ _("You sign in with an account you already have. Keep it secure, because anyone with access to it can act as you here. One person, one account is the norm.") }}</p>
+    <h2 class="h2">{{ _("Your content") }}</h2>
+    {% set rules_link %}<a href="/rules">{{ _("Community rules") }}</a>{% endset %}
+    <p>{{ _("What you write and upload stays yours. By publishing it you allow us to store and show it on the site. Don't post anything you have no right to share, and follow the {rules}. Admins may hide or remove content and restrict accounts that break them.", rules=rules_link) }}</p>
+    <h2 class="h2">{{ _("Tea information") }}</h2>
+    <p>{{ _("Tea cards are written with care but may contain mistakes, and each one lists its sources where available. They are general information and not medical advice. Photos belong to their authors and are shown under the licence named next to them.") }}</p>
+    <h2 class="h2">{{ _("No warranty") }}</h2>
+    <p>{{ _("The site may change, pause or stop, and we can't promise it will always be available or free of errors. To the extent the law allows, we aren't liable for losses from using it. Use the export in Settings to keep your own copy of your diary.") }}</p>
+    <h2 class="h2">{{ _("Changes") }}</h2>
+    <p>{{ _("We may update these terms and will change this page when we do.") }}</p>
+    <h2 class="h2">{{ _("Contact") }}</h2>
+    <p>{% if settings.contact_email %}<a href="mailto:{{ settings.contact_email }}">{{ settings.contact_email }}</a>{% else %}{% set forum_link %}<a href="/discussions">{{ _("Discussions") }}</a>{% endset %}{{ _("Post in {forum} and an admin will follow up.", forum=forum_link) }}{% endif %}</p>
   </div>
 </article>
 {% endblock %}

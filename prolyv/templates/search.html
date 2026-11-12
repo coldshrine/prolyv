@@ -1,28 +1,28 @@
 {% extends "base.html" %}
 {% from "partials/macros.html" import tea_row, session_card, topic_card, post_card, show_more %}
-{% block title %}{% if q %}{{ q }} · {% endif %}Search · {{ site_name }}{% endblock %}
+{% block title %}{% if q %}{{ q }} · {% endif %}{{ _("Search") }} · {{ site_name }}{% endblock %}
 {% block head %}<meta name="robots" content="noindex">{% endblock %}
 {% block content %}
 <section class="container narrow">
-  <h1 class="h1">Search</h1>
+  <h1 class="h1">{{ _("Search") }}</h1>
   <form class="teas-filters forum-search" method="get" action="/search" role="search">
-    <input type="search" name="q" value="{{ q }}" placeholder="Teas, topics, posts, sessions" aria-label="Search" autofocus>
+    <input type="search" name="q" value="{{ q }}" placeholder="{{ _('Teas, topics, posts, sessions') }}" aria-label="{{ _('Search') }}" autofocus>
     {% if type != 'all' %}<input type="hidden" name="type" value="{{ type }}">{% endif %}
-    <button class="btn btn-primary btn-sm" type="submit">Search</button>
+    <button class="btn btn-primary btn-sm" type="submit">{{ _("Search") }}</button>
   </form>
   {% if q %}
-  <nav class="chips" aria-label="Filter results">
-    {% for key, label in tabs %}<a class="chip{% if key == type %} chip-on{% endif %}" href="/search?q={{ q|urlencode }}{% if key != 'all' %}&type={{ key }}{% endif %}">{{ label }}</a>{% endfor %}
+  <nav class="chips" aria-label="{{ _('Filter results') }}">
+    {% for key, label in tabs %}<a class="chip{% if key == type %} chip-on{% endif %}" href="/search?q={{ q|urlencode }}{% if key != 'all' %}&type={{ key }}{% endif %}">{{ _(label) }}</a>{% endfor %}
   </nav>
   {% if groups %}
   {% for group in groups %}
-  <h2 class="h2 search-group"><a href="/search?q={{ q|urlencode }}&type={{ group.key }}">{{ group.label }}</a></h2>
+  <h2 class="h2 search-group"><a href="/search?q={{ q|urlencode }}&type={{ group.key }}">{{ _(group.label) }}</a></h2>
   <div class="feed">
     {% for r in group['items'] %}
     {% if r.kind == 'tea' %}{{ tea_row(r.obj) }}{% elif r.kind == 'topic' %}{{ topic_card(r.obj) }}{% elif r.kind == 'post' %}{{ post_card(r.obj) }}{% else %}{{ session_card(r.obj) }}{% endif %}
     {% endfor %}
   </div>
-  {% if group.more %}<p class="search-more"><a class="btn btn-secondary btn-sm" href="/search?q={{ q|urlencode }}&type={{ group.key }}">All {{ group.label|lower }} →</a></p>{% endif %}
+  {% if group.more %}<p class="search-more"><a class="btn btn-secondary btn-sm" href="/search?q={{ q|urlencode }}&type={{ group.key }}">{{ _("All {what} →", what=_(group.label)|lower) }}</a></p>{% endif %}
   {% endfor %}
   {% elif results %}
   <div class="feed more-list">
@@ -32,7 +32,7 @@
     {% if next_url %}{{ show_more(next_url) }}{% endif %}
   </div>
   {% else %}
-  <div class="card empty"><p class="empty-title">Nothing matches “{{ q }}”</p><p class="muted">Try another spelling, or browse the <a href="/teas/a-z">tea base A–Z</a>.</p></div>
+  {% set az_link %}<a href="/teas/a-z">{{ _("tea base A–Z") }}</a>{% endset %}<div class="card empty"><p class="empty-title">{{ _("Nothing matches “{q}”", q=q) }}</p><p class="muted">{{ _("Try another spelling, or browse the {az}.", az=az_link) }}</p></div>
   {% endif %}
   {% endif %}
 </section>

@@ -1,28 +1,28 @@
 {% extends "base.html" %}
 {% from "partials/macros.html" import avatar %}
-{% block title %}Users · Admin · {{ site_name }}{% endblock %}
+{% block title %}{{ _("Users") }} · {{ _("Admin") }} · {{ site_name }}{% endblock %}
 {% block content %}
 <div class="container narrow">
-  <p class="eyebrow"><a href="/admin">Admin</a></p>
-  <h1 class="h1">Users · {{ total }}</h1>
+  <p class="eyebrow"><a href="/admin">{{ _("Admin") }}</a></p>
+  <h1 class="h1">{{ _("Users") }} · {{ total }}</h1>
   <form class="teas-filters forum-search" method="get" action="/admin/users" role="search">
-    <input type="search" name="q" value="{{ q }}" placeholder="Search by handle or name" aria-label="Search users">
-    <button class="btn btn-secondary btn-sm" type="submit">Search</button>
+    <input type="search" name="q" value="{{ q }}" placeholder="{{ _('Search by handle or name') }}" aria-label="{{ _('Search users') }}">
+    <button class="btn btn-secondary btn-sm" type="submit">{{ _("Search") }}</button>
   </form>
   <ul class="admin-list">
     {% for u in users %}
     <li>
       <a class="author-link" href="/u/{{ u.handle }}">{{ avatar(u, 28) }} <span>@{{ u.handle }}</span></a>
-      <span class="muted small">{{ u.display_name }} · joined {{ u.created_at.strftime('%-d %b %Y') }}{% if u.banned_at %} · <strong>restricted</strong>{% endif %}</span>
-      {% if u.handle not in brand_handles and u.id != current_user.id %}<form method="post" action="/admin/users/{{ u.handle }}/ban"{% if not u.banned_at %} data-confirm="Restrict @{{ u.handle }} and sign them out?"{% endif %}><input type="hidden" name="csrf_token" value="{{ csrf_token }}"><input type="hidden" name="banned" value="{{ '0' if u.banned_at else '1' }}"><button class="btn btn-ghost btn-sm" type="submit">{{ 'Lift restriction' if u.banned_at else 'Restrict' }}</button></form>{% endif %}
+      <span class="muted small">{{ u.display_name }} · {{ _("joined {date}", date=u.created_at|date('%-d %b %Y')) }}{% if u.banned_at %} · <strong>{{ _("restricted") }}</strong>{% endif %}</span>
+      {% if u.handle not in brand_handles and u.id != current_user.id %}<form method="post" action="/admin/users/{{ u.handle }}/ban"{% if not u.banned_at %} data-confirm="{{ _('Restrict @{handle} and sign them out?', handle=u.handle) }}"{% endif %}><input type="hidden" name="csrf_token" value="{{ csrf_token }}"><input type="hidden" name="banned" value="{{ '0' if u.banned_at else '1' }}"><button class="btn btn-ghost btn-sm" type="submit">{{ _('Lift restriction') if u.banned_at else _('Restrict') }}</button></form>{% endif %}
     </li>
     {% endfor %}
   </ul>
   {% if pages > 1 %}
-  <nav class="pagination" aria-label="Pages">
-    {% if page > 1 %}<a class="btn btn-secondary btn-sm" href="?q={{ q|urlencode }}&page={{ page - 1 }}">← Previous</a>{% endif %}
-    <span class="muted">Page {{ page }} of {{ pages }}</span>
-    {% if page < pages %}<a class="btn btn-secondary btn-sm" href="?q={{ q|urlencode }}&page={{ page + 1 }}">Next →</a>{% endif %}
+  <nav class="pagination" aria-label="{{ _('Pages') }}">
+    {% if page > 1 %}<a class="btn btn-secondary btn-sm" href="?q={{ q|urlencode }}&page={{ page - 1 }}">{{ _("← Previous") }}</a>{% endif %}
+    <span class="muted">{{ _("Page {page} of {pages}", page=page, pages=pages) }}</span>
+    {% if page < pages %}<a class="btn btn-secondary btn-sm" href="?q={{ q|urlencode }}&page={{ page + 1 }}">{{ _("Next →") }}</a>{% endif %}
   </nav>
   {% endif %}
 </div>

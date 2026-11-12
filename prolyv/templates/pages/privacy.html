@@ -1,30 +1,31 @@
 {% extends "base.html" %}
-{% block title %}Privacy policy · {{ site_name }}{% endblock %}
-{% block head %}<meta name="description" content="What this site stores about you, why, and how to export or delete it.">{% endblock %}
+{% block title %}{{ _("Privacy policy") }} · {{ site_name }}{% endblock %}
+{% block head %}<meta name="description" content="{{ _('What this site stores about you, why, and how to export or delete it.') }}">{% endblock %}
 {% block content %}
 <article class="container narrow page-text">
-  <p class="eyebrow">Legal</p>
-  <h1 class="h1">Privacy policy</h1>
+  <p class="eyebrow">{{ _("Legal") }}</p>
+  <h1 class="h1">{{ _("Privacy policy") }}</h1>
   <div class="prose">
-    <p>This page explains what we store and why. We keep it to what the site needs to work.</p>
-    <h2 class="h2">What we store</h2>
+    <p>{{ _("This page explains what we store and why. We keep it to what the site needs to work.") }}</p>
+    <h2 class="h2">{{ _("What we store") }}</h2>
     <ul>
-      <li><strong>Sign-in details.</strong> With Google: your Google account ID, name, e-mail address and profile photo link. With Telegram: your Telegram ID, name, username and photo link. With an e-mail link: your e-mail address. We never receive or store a password.</li>
-      <li><strong>Your profile.</strong> The display name, handle and bio you choose.</li>
-      <li><strong>What you create.</strong> Diary sessions, photos you add to them, topics, replies, comments, saved items and reports.</li>
-      <li><strong>Login sessions.</strong> A protected token in a cookie, and the browser name, so you stay signed in.</li>
-      <li><strong>Server logs.</strong> IP addresses and requests, kept briefly for security and to limit abuse.</li>
+      <li><strong>{{ _("Sign-in details.") }}</strong> {{ _("With Google: your Google account ID, name, e-mail address and profile photo link. With Telegram: your Telegram ID, name, username and photo link. With an e-mail link: your e-mail address. We never receive or store a password.") }}</li>
+      <li><strong>{{ _("Your profile.") }}</strong> {{ _("The display name, handle and bio you choose.") }}</li>
+      <li><strong>{{ _("What you create.") }}</strong> {{ _("Diary sessions, photos you add to them, topics, replies, comments, saved items and reports.") }}</li>
+      <li><strong>{{ _("Login sessions.") }}</strong> {{ _("A protected token in a cookie, and the browser name, so you stay signed in.") }}</li>
+      <li><strong>{{ _("Server logs.") }}</strong> {{ _("IP addresses and requests, kept briefly for security and to limit abuse.") }}</li>
     </ul>
-    <h2 class="h2">What is public</h2>
-    <p>Your display name, handle, bio, avatar and anything you publish are visible to everyone. Diary sessions are private unless you make them public. Your e-mail address is never shown.</p>
-    <h2 class="h2">Cookies</h2>
-    <p>We only use cookies needed to run the site: your login session, short-lived sign-in checks and one-time messages. There is no advertising and no analytics tracking.</p>
-    <h2 class="h2">Other services</h2>
-    <p>Google or Telegram take part in signing in if you choose them. Fonts load from Google Fonts. A tea photo that has not been copied to our server yet loads from Wikimedia Commons. Blog posts with an embedded TikTok or Instagram video load it from that service. If e-mail sign-in is used, a mail provider delivers the link. We don't sell your data or share it for advertising.</p>
-    <h2 class="h2">Your choices</h2>
-    <p>In <a href="/settings">Settings</a> you can edit your profile, download your data as a file, unlink sign-in methods and delete your account. Deleting signs you out everywhere, removes your sign-in details and erases your name, bio and avatar. Your diary sessions, photos, saved items and follows are deleted. Topics and replies stay in discussions under "Deleted account" so conversations still make sense, unless you ask us to remove them.</p>
-    <h2 class="h2">Contact</h2>
-    <p>{% if settings.contact_email %}Questions or requests: <a href="mailto:{{ settings.contact_email }}">{{ settings.contact_email }}</a>.{% else %}You can download or delete your data yourself in <a href="/settings">Settings</a>. Please don't post personal requests in public discussions.{% endif %}</p>
+    <h2 class="h2">{{ _("What is public") }}</h2>
+    <p>{{ _("Your display name, handle, bio, avatar and anything you publish are visible to everyone. Diary sessions are private unless you make them public. Your e-mail address is never shown.") }}</p>
+    <h2 class="h2">{{ _("Cookies") }}</h2>
+    <p>{{ _("We only use cookies needed to run the site: your login session, short-lived sign-in checks, one-time messages and the interface language you pick. There is no advertising and no analytics tracking.") }}</p>
+    <h2 class="h2">{{ _("Other services") }}</h2>
+    <p>{{ _("Google or Telegram take part in signing in if you choose them. Fonts load from Google Fonts. A tea photo that has not been copied to our server yet loads from Wikimedia Commons. Blog posts with an embedded TikTok or Instagram video load it from that service. If e-mail sign-in is used, a mail provider delivers the link. We don't sell your data or share it for advertising.") }}</p>
+    <h2 class="h2">{{ _("Your choices") }}</h2>
+    {% set settings_link %}<a href="/settings">{{ _("Settings") }}</a>{% endset %}
+    <p>{{ _("In {settings} you can edit your profile, download your data as a file, unlink sign-in methods and delete your account. Deleting signs you out everywhere, removes your sign-in details and erases your name, bio and avatar. Your diary sessions, photos, saved items and follows are deleted. Topics and replies stay in discussions under \"Deleted account\" so conversations still make sense, unless you ask us to remove them.", settings=settings_link) }}</p>
+    <h2 class="h2">{{ _("Contact") }}</h2>
+    <p>{% if settings.contact_email %}{% set mail_link %}<a href="mailto:{{ settings.contact_email }}">{{ settings.contact_email }}</a>{% endset %}{{ _("Questions or requests: {email}.", email=mail_link) }}{% else %}{{ _("You can download or delete your data yourself in {settings}. Please don't post personal requests in public discussions.", settings=settings_link) }}{% endif %}</p>
   </div>
 </article>
 {% endblock %}

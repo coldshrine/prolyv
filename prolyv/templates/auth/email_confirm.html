@@ -1,14 +1,14 @@
 {% extends "base.html" %}
-{% block title %}{{ "Link this e-mail" if linking else "Sign in" }} · {{ site_name }}{% endblock %}
+{% block title %}{{ _("Link this e-mail") if linking else _("Sign in") }} · {{ site_name }}{% endblock %}
 {% block content %}
 <section class="container narrow centered">
-  <p class="eyebrow">{{ "Link an e-mail" if linking else "Sign-in link" }}</p>
-  <h1 class="h1">{% if linking %}Link {{ email }} to your account{% else %}Continue as {{ email }}{% endif %}</h1>
+  <p class="eyebrow">{{ _("Link an e-mail") if linking else _("Sign-in link") }}</p>
+  <h1 class="h1">{% if linking %}{{ _("Link {email} to your account", email=email) }}{% else %}{{ _("Continue as {email}", email=email) }}{% endif %}</h1>
   <form method="post" action="/auth/email/verify" class="actions">
     <input type="hidden" name="token" value="{{ token }}">
     <input type="hidden" name="form_token" value="{{ form_token }}">
     {% if next %}<input type="hidden" name="next" value="{{ next }}">{% endif %}
-    <button class="btn btn-primary" type="submit">{{ "Link this e-mail" if linking else "Sign in" }}</button>
+    <button class="btn btn-primary" type="submit">{{ _("Link this e-mail") if linking else _("Sign in") }}</button>
   </form>
 </section>
 {% endblock %}

@@ -1,6 +1,6 @@
-{% if state == "available" %}<span class="hint-ok">@{{ handle }} is available</span>
-{% elif state == "yours" %}<span class="hint-ok">That’s your current handle</span>
-{% elif state == "taken" %}<span class="hint-bad">@{{ handle }} is already taken</span>
-{% elif state == "reserved" %}<span class="hint-bad">@{{ handle }} is reserved</span>
-{% elif state == "invalid" %}<span class="hint-bad">3–24 characters: lowercase letters, digits and underscores</span>
-{% else %}<span>Pick a handle</span>{% endif %}
+{% if state == "available" %}<span class="hint-ok">{{ _("@{handle} is available", handle=handle) }}</span>
+{% elif state == "yours" %}<span class="hint-ok">{{ _("That’s your current handle") }}</span>
+{% elif state == "taken" %}<span class="hint-bad">{{ _("@{handle} is already taken", handle=handle) }}</span>
+{% elif state == "reserved" %}<span class="hint-bad">{{ _("@{handle} is reserved", handle=handle) }}</span>
+{% elif state == "invalid" %}<span class="hint-bad">{{ _("3–24 characters: lowercase letters, digits and underscores") }}</span>
+{% else %}<span>{{ _("Pick a handle") }}</span>{% endif %}

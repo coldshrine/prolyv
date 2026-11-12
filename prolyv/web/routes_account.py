@@ -12,6 +12,7 @@ from sqlalchemy.orm import selectinload
 from prolyv.auth.accounts import AccountError, get_user_by_handle, handle_taken, soft_delete, unlink
 from prolyv.brand import SITE_SLUG
 from prolyv.handles import RESERVED, is_valid_handle
+from prolyv.i18n import MONTHS_RU, N_, _, _n, format_date, get_lang
 from prolyv.models import (
     Follow,
     PostComment,
@@ -49,14 +50,14 @@ router = APIRouter()
 PROFILE_SESSIONS = 20
 PROFILE_ACTIVITY = 10
 PROFILE_SHELF = 24
-PROFILE_TABS = {"sessions": "Sessions", "topics": "Topics & replies", "shelf": "Shelf", "tea": "Tea profile"}
+PROFILE_TABS = {"sessions": N_("Sessions"), "topics": N_("Topics & replies"), "shelf": N_("Shelf"), "tea": N_("Tea profile")}  # shown with _()
 AVATAR_FIELD = {Provider.google: "picture", Provider.telegram: "photo_url"}
 
 
 # A failed unlink or delete comes back to the card it happened in: /settings?error=<key>#<card id>
-SETTINGS_ERRORS = {
-    "providers": "You need at least one way to sign in. Link another account before unlinking this one.",
-    "delete": "That doesn't match your handle, so nothing was deleted. Type your handle exactly to confirm.",
+SETTINGS_ERRORS = {  # shown with _()
+    "providers": N_("You need at least one way to sign in. Link another account before unlinking this one."),
+    "delete": N_("That doesn't match your handle, so nothing was deleted. Type your handle exactly to confirm."),
 }
 
 
@@ -89,7 +90,7 @@ def render_settings(request: Request, user: User, form: dict | None = None, erro
 @router.get("/settings")
 def settings_page(request: Request, user: RequiredUser, error: str = ""):
     message = SETTINGS_ERRORS.get(error)
-    return render_settings(request, user, errors={error: message} if message else None)
+    return render_settings(request, user, errors={error: _(message)} if message else None)
 
 
 @router.post("/settings", dependencies=[Depends(require_csrf)])
@@ -108,17 +109,17 @@ def settings_save(
     bio = bio.strip()
     errors: dict[str, str] = {}
     if not 1 <= len(display_name) <= 50:
-        errors["display_name"] = "Your name must be 1–50 characters."
+        errors["display_name"] = _("Your name must be 1–50 characters.")
     if handle == user.handle:
         pass  # keeping your own handle is always fine, even a reserved one like @prolyv
     elif handle in RESERVED:
-        errors["handle"] = "That handle is reserved."
+        errors["handle"] = _("That handle is reserved.")
     elif not is_valid_handle(handle):
-        errors["handle"] = "3–24 characters: lowercase letters, digits and underscores."
+        errors["handle"] = _("3–24 characters: lowercase letters, digits and underscores.")
     elif handle_taken(db, handle, except_user_id=user.id):
-        errors["handle"] = "That handle is already taken."
+        errors["handle"] = _("That handle is already taken.")
     if len(bio) > 280:
-        errors["bio"] = "Your bio is limited to 280 characters."
+        errors["bio"] = _("Your bio is limited to 280 characters.")
     if errors:
         form = {"display_name": display_name, "handle": handle, "bio": bio}
         return render_settings(request, user, form, errors, status_code=400)
@@ -126,7 +127,7 @@ def settings_save(
     user.display_name, user.handle, user.bio = display_name, handle, bio
     db.flush()
     response = RedirectResponse("/settings", status_code=303)
-    set_flash(response, settings, signer, "ok", "Profile saved.")
+    set_flash(response, settings, signer, "ok", _("Profile saved."))
     return response
 
 
@@ -157,7 +158,7 @@ def settings_avatar(
     if provider == "none":
         user.avatar_url = None
         db.flush()
-        set_flash(response, settings, signer, "ok", "Avatar removed.")
+        set_flash(response, settings, signer, "ok", _("Avatar removed."))
         return response
     try:
         prov = Provider(provider)
@@ -166,11 +167,11 @@ def settings_avatar(
     identity = user.identity_for(prov)
     url = (identity.raw_profile or {}).get(AVATAR_FIELD.get(prov, "")) if identity else None
     if not url:
-        set_flash(response, settings, signer, "error", f"Your {PROVIDER_NAMES[prov]} account has no photo we can use.")
+        set_flash(response, settings, signer, "error", _("Your {provider} account has no photo we can use.", provider=PROVIDER_NAMES[prov]))
         return response
     user.avatar_url = url
     db.flush()
-    set_flash(response, settings, signer, "ok", f"Avatar updated from {PROVIDER_NAMES[prov]}.")
+    set_flash(response, settings, signer, "ok", _("Avatar updated from {provider}.", provider=PROVIDER_NAMES[prov]))
     return response
 
 
@@ -187,7 +188,7 @@ def settings_unlink(
     except AccountError:
         return RedirectResponse("/settings?error=providers#linked-accounts", status_code=303)
     response = RedirectResponse("/settings", status_code=303)
-    set_flash(response, settings, signer, "ok", f"{PROVIDER_NAMES[prov]} unlinked.")
+    set_flash(response, settings, signer, "ok", _("{provider} unlinked.", provider=PROVIDER_NAMES[prov]))
     return response
 
 
@@ -235,12 +236,15 @@ def settings_delete(
     soft_delete(db, user)
     response = RedirectResponse("/", status_code=303)
     delete_cookie(response, settings, SESSION_COOKIE)
-    set_flash(response, settings, signer, "ok", "Your account was deleted. Thank you for the tea.")
+    set_flash(response, settings, signer, "ok", _("Your account was deleted. Thank you for the tea."))
     return response
 
 
-def _plural(n: int, one: str, many: str) -> str:
-    return one if n == 1 else many
+def joined_on(moment) -> str:  # noqa: ANN001
+    """'November 2026'; Russian reads «с ноября 2026», so the month goes in the genitive there."""
+    if get_lang() == "ru":
+        return f"{MONTHS_RU[moment.month - 1]} {moment.year}"
+    return format_date(moment, "%B %Y")
 
 
 def _pages(total: int, size: int) -> int:
@@ -267,7 +271,7 @@ def profile_page(
     context = {
         "profile": user,
         "is_me": is_me,
-        "joined": user.created_at.strftime("%B %Y"),
+        "joined": joined_on(user.created_at),
         "first_name": user.display_name.split(" ")[0][:24],
         "tab": tab,
         "tabs": PROFILE_TABS,
@@ -276,10 +280,10 @@ def profile_page(
         # how many are private is the owner's business: only they see the total
         "logged_count": (db.scalar(select(func.count()).select_from(TeaSession).where(TeaSession.user_id == user.id)) or 0) if is_me else None,
         "stats": [
-            {"value": compact(shared), "label": _plural(shared, "public session", "public sessions"), "grad": "grad-pink", "url": f"{home}#sections"},
-            {"value": compact(helpful), "label": _plural(helpful, "helpful reply", "helpful replies"), "grad": "grad-mint", "url": f"{home}?tab=topics#sections"},
-            {"value": compact(followers), "label": _plural(followers, "follower", "followers"), "grad": "pf-grad-purple", "url": f"{home}/followers"},
-            {"value": compact(len(teas)), "label": _plural(len(teas), "tea on the shelf", "teas on the shelf"), "grad": "pf-grad-gold", "url": f"{home}?tab=shelf#sections"},
+            {"value": compact(shared), "label": _n("public session", "public sessions", shared), "grad": "grad-pink", "url": f"{home}#sections"},
+            {"value": compact(helpful), "label": _n("helpful reply", "helpful replies", helpful), "grad": "grad-mint", "url": f"{home}?tab=topics#sections"},
+            {"value": compact(followers), "label": _n("follower", "followers", followers), "grad": "pf-grad-purple", "url": f"{home}/followers"},
+            {"value": compact(len(teas)), "label": _n("tea on the shelf", "teas on the shelf", len(teas)), "grad": "pf-grad-gold", "url": f"{home}?tab=shelf#sections"},
         ],
         "following_count": following,
         "following": is_following(db, current_user, user.id),

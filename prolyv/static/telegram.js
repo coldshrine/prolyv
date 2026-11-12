@@ -23,7 +23,10 @@
   }
   if (!window.Telegram || !Telegram.Login) {
     button.disabled = true;
-    button.insertAdjacentHTML("afterend", '<p class="muted small">Telegram sign-in could not load. Check your connection and reload.</p>');
+    var note = document.createElement("p");
+    note.className = "muted small";
+    note.textContent = tr("Telegram sign-in could not load. Check your connection and reload.");
+    button.insertAdjacentElement("afterend", note);
     return;
   }
   Telegram.Login.init(cfg, submit); // handles the return from a full-page sign-in (#tgAuthResult)

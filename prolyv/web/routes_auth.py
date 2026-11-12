@@ -16,6 +16,7 @@ from prolyv.auth.sessions import create_session, revoke_session
 from prolyv.auth.telegram import TelegramAuthError, verify_telegram_auth
 from prolyv.brand import SITE_NAME
 from prolyv.config import Settings
+from prolyv.i18n import N_, _, _n
 from prolyv.mail import send_mail
 from prolyv.models import Provider, User, utcnow
 from prolyv.security import (
@@ -38,11 +39,11 @@ log = logging.getLogger("prolyv.auth")
 
 PROVIDER_NAMES = {Provider.google: "Google", Provider.telegram: "Telegram", Provider.email: "E-mail"}
 
-TELEGRAM_ERRORS = {
-    "missing": "Telegram did not send a complete sign-in. Please try again.",
-    "bad_hash": "This Telegram sign-in could not be verified. Please try again from the login page.",
-    "stale": "This Telegram sign-in is older than 24 hours. Please sign in again.",
-    "bad_date": "This Telegram sign-in could not be verified. Please try again from the login page.",
+TELEGRAM_ERRORS = {  # shown with _()
+    "missing": N_("Telegram did not send a complete sign-in. Please try again."),
+    "bad_hash": N_("This Telegram sign-in could not be verified. Please try again from the login page."),
+    "stale": N_("This Telegram sign-in is older than 24 hours. Please sign in again."),
+    "bad_date": N_("This Telegram sign-in could not be verified. Please try again from the login page."),
 }
 
 
@@ -107,14 +108,14 @@ def google_callback(
         raise HTTPException(status_code=404)
     if error:
         response = RedirectResponse("/login", status_code=303)
-        set_flash(response, settings, signer, "error", "Google sign-in was cancelled.")
+        set_flash(response, settings, signer, "error", _("Google sign-in was cancelled."))
         delete_cookie(response, settings, OAUTH_COOKIE)
         return response
 
     payload = signer.loads("oauth", request.cookies.get(OAUTH_COOKIE), OAUTH_COOKIE_MAX_AGE)
     if not payload or not state or not code or not hmac.compare_digest(str(payload.get("state")), state):
         return error_page(
-            request, "Sign-in link expired", "This Google sign-in is stale or did not start here. Please try again."
+            request, _("Sign-in link expired"), _("This Google sign-in is stale or did not start here. Please try again.")
         )
 
     google = request.app.state.google
@@ -122,7 +123,7 @@ def google_callback(
         token = google.exchange_code(code)
         claims = google.verify_id_token(token["id_token"], payload.get("nonce") or "")
     except GoogleAuthError:
-        return error_page(request, "Google sign-in failed", "We could not verify the sign-in with Google. Please try again.")
+        return error_page(request, _("Google sign-in failed"), _("We could not verify the sign-in with Google. Please try again."))
 
     profile = google.profile_from_claims(claims)
     return complete_sign_in(request, db, settings, signer, profile, user, payload.get("next"), clear=(OAUTH_COOKIE,))
@@ -139,12 +140,12 @@ async def telegram_callback(request: Request, db: DbDep, settings: SettingsDep, 
 
     intent = signer.loads("tg_intent", request.cookies.get(INTENT_COOKIE), INTENT_COOKIE_MAX_AGE)
     if intent is None or not hmac.compare_digest(params.get("state", ""), anon_form_token(request, signer)):
-        return error_page(request, "Please start from the login page", "Open the login page and tap Continue with Telegram.")
+        return error_page(request, _("Please start from the login page"), _("Open the login page and tap Continue with Telegram."))
 
     try:
         tg = verify_telegram_auth(params, settings.telegram_bot_token)
     except TelegramAuthError as exc:
-        return error_page(request, "Telegram sign-in failed", TELEGRAM_ERRORS[exc.code])
+        return error_page(request, _("Telegram sign-in failed"), _(TELEGRAM_ERRORS[exc.code]))
 
     profile = ExternalProfile(
         provider=Provider.telegram,
@@ -172,23 +173,23 @@ def complete_sign_in(
         user, created = sign_in(db, profile, current_user)
     except AccountError:
         response = RedirectResponse("/settings" if current_user else "/login", status_code=303)
-        set_flash(response, settings, signer, "error", f"That {provider_name} account is already linked to another account here.")
+        set_flash(response, settings, signer, "error", _("That {provider} account is already linked to another account here.", provider=provider_name))
         return response
 
     if user.banned_at is not None:
-        return error_page(request, "This account is restricted", "It can't sign in. Contact the admins if you think this is a mistake.", 403)
+        return error_page(request, _("This account is restricted"), _("It can't sign in. Contact the admins if you think this is a mistake."), 403)
 
     old_session = request.state.session
     if old_session is not None:
         revoke_session(db, old_session)  # rotate on every login
-    _, token = create_session(db, user, request.headers.get("user-agent"), settings.session_days)
+    _session, token = create_session(db, user, request.headers.get("user-agent"), settings.session_days)
 
     if current_user is not None:
-        target, kind, text = "/settings", "ok", f"{provider_name} is now linked to your account."
+        target, kind, text = "/settings", "ok", _("{provider} is now linked to your account.", provider=provider_name)
     elif created:
-        target, kind, text = safe_next(next_url) or "/settings", "ok", f"Welcome to {SITE_NAME}! You can change your name and handle in Settings."
+        target, kind, text = safe_next(next_url) or "/settings", "ok", _("Welcome to {site}! You can change your name and handle in Settings.", site=SITE_NAME)
     else:
-        target, kind, text = safe_next(next_url) or "/", "ok", f"Welcome back, {user.display_name}."
+        target, kind, text = safe_next(next_url) or "/", "ok", _("Welcome back, {name}.", name=user.display_name)
 
     response = RedirectResponse(target, status_code=303)
     set_cookie(response, settings, SESSION_COOKIE, token, settings.session_days * 86400)
@@ -214,7 +215,7 @@ def email_start(request: Request, db: DbDep, settings: SettingsDep, signer: Sign
     if address is None:
         back = "/settings" if user else (f"/login?next={quote(safe_next(next))}" if safe_next(next) else "/login")
         response = RedirectResponse(back, status_code=303)
-        set_flash(response, settings, signer, "error", "That doesn't look like an e-mail address.")
+        set_flash(response, settings, signer, "error", _("That doesn't look like an e-mail address."))
         return response
 
     token = create_login_token(db, address, user.id if user else None)
@@ -227,12 +228,14 @@ def email_start(request: Request, db: DbDep, settings: SettingsDep, signer: Sign
         if settings.smtp_enabled:
             db.commit()
             try:
-                send_mail(settings, address, f"Your sign-in link for {SITE_NAME}",
-                          f"Open this link to sign in to {SITE_NAME}:\n\n{link}\n\n"
-                          f"It works once and expires in {TOKEN_MINUTES} minutes. If you did not ask for it, ignore this e-mail.\n")
+                # in the language of the page that asked for it
+                send_mail(settings, address, _("Your sign-in link for {site}", site=SITE_NAME),
+                          _("Open this link to sign in to {site}:", site=SITE_NAME) + f"\n\n{link}\n\n"
+                          + _n("It works once and expires in {n} minute. If you did not ask for it, ignore this e-mail.",
+                               "It works once and expires in {n} minutes. If you did not ask for it, ignore this e-mail.", TOKEN_MINUTES) + "\n")
             except OSError:
                 log.exception("could not send the sign-in e-mail")
-                return error_page(request, "We couldn't send the e-mail", "Please try again in a few minutes.", 503)
+                return error_page(request, _("We couldn't send the e-mail"), _("Please try again in a few minutes."), 503)
             link = None
         else:
             log.warning("sign-in link for %s: %s", address, link)  # localhost only: no SMTP configured
@@ -244,7 +247,8 @@ def email_verify_page(request: Request, db: DbDep, settings: SettingsDep, signer
     """Shows a button instead of signing in right away, so mail scanners that fetch links don't burn the token."""
     row = find_valid_token(db, token)
     if row is None:
-        return error_page(request, "This link has expired", "Sign-in links work once and last 15 minutes. Ask for a new one.")
+        return error_page(request, _("This link has expired"), _n("Sign-in links work once and last {n} minute. Ask for a new one.",
+                                                                 "Sign-in links work once and last {n} minutes. Ask for a new one.", TOKEN_MINUTES))
     intent, form_token = new_intent(signer, safe_next(next))
     linking = row.user_id is not None
     response = render(request, "auth/email_confirm.html", {"token": token, "next": safe_next(next), "email": row.email, "form_token": form_token, "linking": linking})
@@ -259,10 +263,11 @@ def email_verify(request: Request, db: DbDep, settings: SettingsDep, signer: Sig
         raise HTTPException(status_code=403, detail="csrf_failed")
     row = find_valid_token(db, token)
     if row is None:
-        return error_page(request, "This link has expired", "Sign-in links work once and last 15 minutes. Ask for a new one.")
+        return error_page(request, _("This link has expired"), _n("Sign-in links work once and last {n} minute. Ask for a new one.",
+                                                                 "Sign-in links work once and last {n} minutes. Ask for a new one.", TOKEN_MINUTES))
     if row.user_id is not None and (user is None or user.id != row.user_id):
-        return error_page(request, "Open this link in the same browser",
-                          "This link adds an e-mail to an account. Open it in the browser where you are logged in.")
+        return error_page(request, _("Open this link in the same browser"),
+                          _("This link adds an e-mail to an account. Open it in the browser where you are logged in."))
     row.used_at = utcnow()
     return complete_sign_in(request, db, settings, signer, email_profile(row.email), user if row.user_id else None, next)
 
@@ -272,7 +277,7 @@ def logout(request: Request, db: DbDep, settings: SettingsDep, signer: SignerDep
     revoke_session(db, request.state.session)
     response = RedirectResponse("/", status_code=303)
     delete_cookie(response, settings, SESSION_COOKIE)
-    set_flash(response, settings, signer, "ok", "Signed out.")
+    set_flash(response, settings, signer, "ok", _("Signed out."))
     return response
 
 
