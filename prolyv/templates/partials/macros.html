@@ -39,7 +39,7 @@
   </div>
   <a class="session-main" href="/sessions/{{ sess.id }}">
     {% if sess.photos %}<img class="session-thumb" src="{{ sess.photos[0].thumb_url }}" alt="" loading="lazy">{% else %}{{ cup(sess.category_key, 72, sess.tea.liquor_hex if sess.tea else None) }}{% endif %}
-    <span class="session-title-box"><span class="session-title">{{ sess.tea_name }}</span>{% if sess.params_line %}<span class="session-params">{{ sess.params_line }}</span>{% endif %}</span>
+    <span class="session-title-box"><span class="session-title">{{ sess.tea_title }}</span>{% if sess.params_line %}<span class="session-params">{{ sess.params_line }}</span>{% endif %}</span>
   </a>
   {% if sess.note %}<p class="session-note">{{ sess.note[:220] }}{% if sess.note|length > 220 %}…{% endif %}</p>{% endif %}
   {% if sess.rating or sess.comment_count or sess.is_public %}

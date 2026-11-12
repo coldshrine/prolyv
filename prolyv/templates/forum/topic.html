@@ -65,7 +65,7 @@
       <a class="f-attached" href="/sessions/{{ sess.id }}">
         <span class="f-attached-top">
           {{ cup(sess.category_key, 64, sess.tea.liquor_hex if sess.tea else None) }}
-          <span class="f-attached-text"><span class="f-attached-kicker">ATTACHED SESSION</span><span class="f-attached-name">{{ sess.tea_name }}</span><span class="f-attached-params">{{ session_bits(sess) }}</span></span>
+          <span class="f-attached-text"><span class="f-attached-kicker">ATTACHED SESSION</span><span class="f-attached-name">{{ sess.tea_title }}</span><span class="f-attached-params">{{ session_bits(sess) }}</span></span>
         </span>
         {% if sess.steeps %}<span class="f-steeps">{% for s in sess.steeps %}<span class="f-steep"><span class="f-orb" aria-hidden="true" style="background:{{ steep_orb(sess.category_key, sess.tea.liquor_hex if sess.tea else None, loop.index0) }}"></span>{{ s.seconds }} s</span>{% endfor %}</span>{% endif %}
       </a>

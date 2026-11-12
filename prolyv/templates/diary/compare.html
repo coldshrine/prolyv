@@ -5,7 +5,7 @@
 {% macro head_cell(s) %}
 <a class="cmp-head" href="/sessions/{{ s.id }}">
   {{ cup(s.category_key, 72, s.tea.liquor_hex if s.tea else None) }}
-  <b>{{ s.tea_name }}</b>
+  <b>{{ s.tea_title }}</b>
   <span>{{ 'you' if current_user and s.user_id == current_user.id else ('Deleted account' if s.user.deleted_at else '@' ~ s.user.handle) }} · {{ s.brewed_at.strftime('%-d %b %Y') }}</span>
 </a>
 {% endmacro %}
@@ -50,7 +50,7 @@
     <h2 id="cmp-pick-h">Compare with another of yours</h2>
     <ul>
       {% for m in mine %}
-      <li><a href="/sessions/{{ first.id }}/compare?with={{ m.id }}"{% if second and m.id == second.id %} aria-current="true"{% endif %}>{{ cup(m.category_key, 40, m.tea.liquor_hex if m.tea else None) }}<span><b>{{ m.tea_name }}</b><small>{{ m.brewed_at.strftime('%-d %b %Y') }}{% if m.params_line %} · {{ m.params_line }}{% endif %}</small></span></a></li>
+      <li><a href="/sessions/{{ first.id }}/compare?with={{ m.id }}"{% if second and m.id == second.id %} aria-current="true"{% endif %}>{{ cup(m.category_key, 40, m.tea.liquor_hex if m.tea else None) }}<span><b>{{ m.tea_title }}</b><small>{{ m.brewed_at.strftime('%-d %b %Y') }}{% if m.params_line %} · {{ m.params_line }}{% endif %}</small></span></a></li>
       {% endfor %}
     </ul>
   </section>

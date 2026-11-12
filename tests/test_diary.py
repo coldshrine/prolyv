@@ -639,3 +639,37 @@ def test_photos_that_would_blow_the_memory_limit_are_refused(tmp_path):
     buffer = BytesIO()
     Image.new("RGB", (7700, 5000), "green").save(buffer, "JPEG", quality=30)
     save_session_photo(str(tmp_path), uuid.uuid4(), buffer.getvalue())
+
+
+def test_session_logs_the_tea_year(client, db):
+    telegram_login(client, tg_id="1", username="olena_tea")
+    token = csrf_token(client)
+    sid = session_id_from(new_session(client, token, tea_name="Red Moon", vintage="2002", visibility="public"))
+    sess = db.get(TeaSession, uuid.UUID(sid))
+    assert sess.vintage == 2002 and sess.tea_title == "Red Moon 2002"
+
+    page = client.get(f"/sessions/{sid}").text
+    assert "Red Moon 2002" in page
+    assert "Red Moon 2002" in client.get("/diary").text
+    assert 'name="vintage"' in client.get(f"/sessions/{sid}/edit").text and 'value="2002"' in client.get(f"/sessions/{sid}/edit").text
+
+    # "brew it the same way" keeps the year: it is the same tea
+    client.cookies.clear()
+    telegram_login(client, tg_id="2", username="mike")
+    assert 'value="2002"' in client.get("/sessions/new", params={"from": sid}).text
+
+    # the year is optional, and a name that already says it is not repeated
+    sid2 = session_id_from(new_session(client, csrf_token(client), tea_name="Menghai 7542 2008", vintage="2008"))
+    assert db.get(TeaSession, uuid.UUID(sid2)).tea_title == "Menghai 7542 2008"
+    sid3 = session_id_from(new_session(client, csrf_token(client)))
+    sess3 = db.get(TeaSession, uuid.UUID(sid3))
+    assert sess3.vintage is None and sess3.tea_title == "Tie Guan Yin"
+
+
+def test_tea_year_is_validated(client):
+    telegram_login(client)
+    token = csrf_token(client)
+    for bad, message in (("1850", "Year must be between"), ("2999", "Year must be between"), ("old", "Year must be a number")):
+        response = new_session(client, token, vintage=bad)
+        assert response.status_code == 400 and message in response.text
+        assert f'value="{bad}"' in response.text  # what was typed stays so it can be corrected

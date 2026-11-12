@@ -58,7 +58,7 @@
             {% if s.photos %}<img class="dy-thumb" src="{{ s.photos[0].thumb_url }}" alt="" loading="lazy">{% else %}{{ cup(s.category_key, 60, s.tea.liquor_hex if s.tea else None) }}{% endif %}
             <span class="dy-row-text">
               <span class="dy-row-date">{{ s.brewed_at.strftime('%b %-d')|upper }}{% if s.brewed_at.year != today.year %} {{ s.brewed_at.year }}{% endif %}{% if not s.is_public %} · PRIVATE{% endif %}</span>
-              <span class="dy-row-tea">{{ s.tea_name }}</span>
+              <span class="dy-row-tea">{{ s.tea_title }}</span>
               {% if s.params_line %}<span class="dy-row-params">{{ s.params_line }}</span>{% endif %}
             </span>
           </a>

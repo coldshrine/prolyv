@@ -204,7 +204,7 @@ def settings_export(request: Request, db: DbDep, user: RequiredUser):
         "profile": {"handle": user.handle, "display_name": user.display_name, "bio": user.bio, "avatar_url": user.avatar_url, "joined": iso(user.created_at)},
         "sign_in_methods": [{"provider": i.provider.value, "account": i.label} for i in user.identities],
         "sessions": [{
-            "id": str(s.id), "tea": s.tea_name, "brewed_at": iso(s.brewed_at), "grams": s.grams, "water_ml": s.water_ml, "temp_c": s.temp_c,
+            "id": str(s.id), "tea": s.tea_name, "vintage": s.vintage, "brewed_at": iso(s.brewed_at), "grams": s.grams, "water_ml": s.water_ml, "temp_c": s.temp_c,
             "vessel": s.vessel, "rinse": s.rinse, "rating": s.rating, "taste_tags": s.taste_tags, "note": s.note, "visibility": s.visibility.value,
             "steeps": [{"n": st.n, "seconds": st.seconds, "note": st.note} for st in s.steeps],
             "photos": [p.url for p in s.photos],

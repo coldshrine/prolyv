@@ -375,3 +375,6 @@
   .cmp-head b { font-size: 18px; }
 }
 .ns-errors { padding: 12px 16px; border-radius: 16px; background: rgba(255, 107, 107, 0.14); border: 1px solid rgba(255, 107, 107, 0.45); color: #FFB3B3; font-weight: 700; }
+
+.ns-vintage { margin-top: 14px; max-width: 220px; }
+.ns-vintage .ns-step-hint { margin: 2px 0 8px; }

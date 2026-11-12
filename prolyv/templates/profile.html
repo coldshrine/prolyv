@@ -79,7 +79,7 @@
       <li class="pf-sess">
         <a class="pf-sess-head" href="/sessions/{{ s.id }}">
           {% if s.photos %}<img class="pf-thumb" src="{{ s.photos[0].thumb_url }}" alt="" loading="lazy">{% else %}{{ cup(s.category_key, 60, s.tea.liquor_hex if s.tea else None) }}{% endif %}
-          <span class="pf-sess-title"><span class="pf-date">{{ s.brewed_at|ago|upper }}</span><span class="pf-tea">{{ s.tea_name }}</span>{% if s.params_line %}<span class="pf-params">{{ s.params_line }}</span>{% endif %}</span>
+          <span class="pf-sess-title"><span class="pf-date">{{ s.brewed_at|ago|upper }}</span><span class="pf-tea">{{ s.tea_title }}</span>{% if s.params_line %}<span class="pf-params">{{ s.params_line }}</span>{% endif %}</span>
         </a>
         {% if s.note %}<p class="pf-note">{{ s.note[:220] }}{% if s.note|length > 220 %}…{% endif %}</p>{% endif %}
         <div class="pf-sess-foot">

@@ -1,6 +1,6 @@
 {% extends "base.html" %}
 {% from "partials/macros.html" import avatar, cup, paras, report_button, hide_button, save_button, show_more %}
-{% block title %}{{ sess.tea_name }} · {{ sess.user.display_name }}'s diary · {{ site_name }}{% endblock %}
+{% block title %}{{ sess.tea_title }} · {{ sess.user.display_name }}'s diary · {{ site_name }}{% endblock %}
 {% block head %}
 <link rel="stylesheet" href="/static/css/session.css?v={{ version }}">
 <meta property="og:type" content="article">
@@ -28,7 +28,7 @@
 <section class="sp-hero">
   <div class="sp-hero-inner">
     <nav class="crumbs" aria-label="Breadcrumbs">
-      {% if is_owner %}<a href="/diary">Diary</a>{% else %}<a href="/">Feed</a>{% if not sess.user.deleted_at %} / <a href="/u/{{ sess.user.handle }}">{{ sess.user.display_name }}</a>{% endif %}{% endif %} / <span aria-current="page">{{ sess.tea_name }}</span>
+      {% if is_owner %}<a href="/diary">Diary</a>{% else %}<a href="/">Feed</a>{% if not sess.user.deleted_at %} / <a href="/u/{{ sess.user.handle }}">{{ sess.user.display_name }}</a>{% endif %}{% endif %} / <span aria-current="page">{{ sess.tea_title }}</span>
     </nav>
     <div class="sp-hero-grid">
       <div class="sp-hero-cup">{{ cup(sess.category_key, 400, liquor, spin=True) }}</div>
@@ -50,7 +50,7 @@
       <div class="sp-head">
         <p class="sp-kicker sp-kicker-{{ sess.category_key if category_label else 'plain' }}">{% if category_label %}{{ category_label|upper }}{% else %}TEA SESSION{% endif %} · {{ sess.steeps|length }} STEEP{{ '' if sess.steeps|length == 1 else 'S' }}</p>
         {% if not sess.is_public %}<p class="sp-private">Private · only you can see this</p>{% endif %}
-        <h1 class="sp-title{% if sess.tea_name|length > 50 %} is-long{% endif %}">{{ sess.tea_name }}</h1>
+        <h1 class="sp-title{% if sess.tea_title|length > 50 %} is-long{% endif %}">{{ sess.tea_title }}</h1>
         {% if sess.tea or brew_post %}
         <p class="sp-links">{% if sess.tea %}<a href="/teas/{{ sess.tea.slug }}">Tea card</a>{% endif %}{% if sess.tea and brew_post %} · {% endif %}{% if brew_post %}Brewed along with <a href="/blog/{{ brew_post.slug }}">{{ brew_post.title }}</a>{% endif %}</p>
         {% endif %}

@@ -88,7 +88,7 @@ def index_session(db: Session, sess: TeaSession) -> None:
     if not sess.is_public:
         remove(db, "session", sess.id)
         return
-    _put(db, "session", sess.id, sess.tea_name, sess.note)
+    _put(db, "session", sess.id, sess.tea_title, sess.note)
 
 
 def remove_topic(db: Session, topic_id: uuid.UUID) -> None:

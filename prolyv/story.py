@@ -337,7 +337,7 @@ def _session_kicker(sess: TeaSession) -> str:
 def render_story(sess: TeaSession, site: str) -> bytes:
     return _compose(
         badge="my tea of the day", kind=sess.category_key, liquor_hex=sess.tea.liquor_hex if sess.tea else None, kicker=_session_kicker(sess),
-        title=_clean(sess.tea_name) or "Tea session", byline="" if sess.user.deleted_at else _clean(f"by @{sess.user.handle}"), rating=sess.rating,
+        title=_clean(sess.tea_title) or "Tea session", byline="" if sess.user.deleted_at else _clean(f"by @{sess.user.handle}"), rating=sess.rating,
         tags=list(sess.taste_tags or []), quote=first_paragraph(sess.note), foot_left=_session_foot(sess), site=site,
     )
 

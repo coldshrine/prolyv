@@ -102,7 +102,7 @@ def announce_session(db, sess: TeaSession) -> None:  # noqa: ANN001
     """Tell followers about a session the first time it becomes public."""
     if sess.is_public and not sess.announced:
         sess.announced = True
-        notify_followers(db, sess.user, f"@{sess.user.handle} logged {sess.tea_name}", f"/sessions/{sess.id}")
+        notify_followers(db, sess.user, f"@{sess.user.handle} logged {sess.tea_title}", f"/sessions/{sess.id}")
 
 
 def require_owner(sess: TeaSession, viewer: User, is_admin: bool = False) -> None:
@@ -115,7 +115,7 @@ def require_owner(sess: TeaSession, viewer: User, is_admin: bool = False) -> Non
 
 def empty_form() -> dict:
     return {
-        "tea_id": "", "tea_name": "", "grams": "", "water_ml": "", "temp_c": "", "vessel": "gaiwan", "rinse": False,
+        "tea_id": "", "tea_name": "", "vintage": "", "grams": "", "water_ml": "", "temp_c": "", "vessel": "gaiwan", "rinse": False,
         "rating": "", "taste_tags": [], "note": "", "visibility": "private", "allow_comments": True,
         "brewed_at": date.today().isoformat(), "steeps": [], "suggested_seconds": [], "post_id": "", "post": None,
     }
@@ -135,7 +135,7 @@ def form_from_tea(tea: Tea) -> dict:
 def form_from_session(sess: TeaSession, as_copy: bool = False) -> dict:
     form = empty_form()
     form.update({
-        "tea_id": str(sess.tea_id) if sess.tea_id else "", "tea_name": sess.tea_name,
+        "tea_id": str(sess.tea_id) if sess.tea_id else "", "tea_name": sess.tea_name, "vintage": sess.vintage or "",
         "grams": "" if sess.grams is None else f"{sess.grams:g}", "water_ml": sess.water_ml or "",
         "temp_c": sess.temp_c or "", "vessel": sess.vessel or "", "rinse": sess.rinse,
     })
@@ -176,6 +176,7 @@ def parse_session_form(data) -> tuple[dict, dict]:  # noqa: ANN001
     form["tea_id"] = text("tea_id", 40)
     form["post_id"] = text("post_id", 40)
     form["tea_name"] = text("tea_name", 160)
+    form["vintage"] = number("vintage", 1900, date.today().year, int, "Year")
     form["grams"] = number("grams", 0.1, 100, float, "Leaf")
     form["water_ml"] = number("water_ml", 10, 5000, int, "Water")
     form["temp_c"] = number("temp_c", 30, 100, int, "Temperature")
@@ -241,6 +242,7 @@ def apply_session_form(db, sess: TeaSession, form: dict) -> None:  # noqa: ANN00
     if post is not None and post.is_published:  # editing must not drop a session from its brew-along
         sess.post_id = post.id
     sess.tea_name = form["tea_name"] or (tea.name_en if tea else "")
+    sess.vintage = form["vintage"]
     sess.grams = form["grams"]
     sess.water_ml = form["water_ml"]
     sess.temp_c = form["temp_c"]
@@ -470,7 +472,7 @@ def session_page(request: Request, db: DbDep, settings: SettingsDep, user: Curre
     sess = get_session(db, session_id, user, is_admin)
     is_owner = user is not None and user.id == sess.user_id
     description = sess.params_line + (f" · {sess.note[:120]}" if sess.note else "")
-    og = {"title": f"{sess.tea_name} · {sess.user.display_name}'s tea diary", "description": description[:200],
+    og = {"title": f"{sess.tea_title} · {sess.user.display_name}'s tea diary", "description": description[:200],
           "url": f"{settings.base_url}/sessions/{sess.id}"}
     image = sess.tea.primary_image if sess.tea else None
     if image:

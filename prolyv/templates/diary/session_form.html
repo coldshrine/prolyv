@@ -60,6 +60,12 @@
         {% if errors.tea_name %}<span class="field-error">{{ errors.tea_name }}</span>{% endif %}
         <div id="tea-suggest" class="suggest"></div>
       </div>
+      <div class="ns-vintage">
+        <label class="ns-step-label" for="ns-vintage">Year</label>
+        <p class="ns-step-hint" id="ns-vintage-hint">Harvest or pressing year, if the package says</p>
+        <input type="number" id="ns-vintage" name="vintage" value="{{ '' if form.vintage is none else form.vintage }}" min="1900" max="{{ today[:4] }}" inputmode="numeric" placeholder="e.g. 2002" aria-describedby="ns-vintage-hint">
+        {% if errors.vintage %}<span class="field-error">{{ errors.vintage }}</span>{% endif %}
+      </div>
     </section>
 
     <section aria-labelledby="ns-params">

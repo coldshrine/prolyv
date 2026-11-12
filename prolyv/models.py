@@ -427,6 +427,7 @@ class TeaSession(Base):
     user_id: Mapped[uuid.UUID] = mapped_column(ForeignKey("users.id", ondelete="CASCADE"), index=True)
     tea_id: Mapped[uuid.UUID | None] = mapped_column(ForeignKey("teas.id", ondelete="SET NULL"), index=True)
     tea_name: Mapped[str] = mapped_column(String(160))
+    vintage: Mapped[int | None] = mapped_column(Integer)  # harvest or pressing year of the tea itself, not the session date
     grams: Mapped[float | None] = mapped_column(Float)
     water_ml: Mapped[int | None] = mapped_column(Integer)
     temp_c: Mapped[int | None] = mapped_column(Integer)
@@ -457,6 +458,13 @@ class TeaSession(Base):
     @property
     def is_public(self) -> bool:
         return self.visibility == Visibility.public
+
+    @property
+    def tea_title(self) -> str:
+        """The tea as people read it: 'Red Moon 2002'. The year is left out when the name already says it."""
+        if self.vintage and str(self.vintage) not in self.tea_name:
+            return f"{self.tea_name} {self.vintage}"
+        return self.tea_name
 
     @property
     def params_line(self) -> str:
