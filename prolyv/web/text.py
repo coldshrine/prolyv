@@ -8,6 +8,7 @@ from urllib.parse import unquote, urlsplit
 
 from markupsafe import Markup, escape
 
+from prolyv.i18n import _, _n, format_date
 from prolyv.models import utcnow
 
 LINK = re.compile(r"(https?://[^\s<>\"']+)|(?<![\w@/])@([a-z0-9_]{3,24})\b", re.IGNORECASE)
@@ -48,15 +49,14 @@ def time_ago(moment: datetime | None) -> str:
         return ""
     seconds = int((utcnow() - moment).total_seconds())
     if seconds < 60:
-        return "just now"
+        return _("just now")
     if seconds < 3600:
-        return f"{seconds // 60} min ago"
+        return _n("{n} min ago", "{n} min ago", seconds // 60)
     if seconds < 86400:
-        return f"{seconds // 3600} h ago"
+        return _n("{n} h ago", "{n} h ago", seconds // 3600)
     if seconds < 86400 * 7:
-        days = seconds // 86400
-        return f"{days} day{'' if days == 1 else 's'} ago"
-    return moment.strftime("%-d %b") if moment.year == utcnow().year else moment.strftime("%-d %b %Y")
+        return _n("{n} day ago", "{n} days ago", seconds // 86400)
+    return format_date(moment, "%-d %b") if moment.year == utcnow().year else format_date(moment, "%-d %b %Y")
 
 
 MENTION = re.compile(r"(?<![\w@/])@([a-z0-9_]{3,24})\b", re.IGNORECASE)

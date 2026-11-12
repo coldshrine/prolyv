@@ -44,7 +44,7 @@ def test_no_inline_scripts_or_handlers_in_templates():
         assert " onsubmit=" not in text and " onclick=" not in text, path
         for chunk in text.split("<script")[1:]:
             head = chunk.split(">", 1)[0]
-            assert " src=" in head or "application/ld+json" in head, f"inline script in {path}"
+            assert " src=" in head or "application/ld+json" in head or 'type="application/json"' in head, f"inline script in {path}"
 
 
 def test_no_leftovers_in_templates():

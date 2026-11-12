@@ -38,6 +38,8 @@ from prolyv.web.cookies import PendingCookiesMiddleware
 from prolyv.web.deps import get_current_user, on_this_machine
 from prolyv.web.headers import SecurityHeadersMiddleware
 from prolyv.web.headmethod import HeadMethodMiddleware
+from prolyv.web.lang import LanguageMiddleware
+from prolyv.web.lang import router as lang_router
 from prolyv.web.routes_auth import login_redirect
 from prolyv.web.templating import render
 
@@ -85,6 +87,7 @@ def create_app(settings: Settings | None = None, google_transport=None) -> FastA
     app.add_middleware(HeadMethodMiddleware)
     app.add_middleware(RateLimitMiddleware, limiter=RateLimiter(settings.auth_rate_limit, settings.auth_rate_window))
     app.add_middleware(SecurityHeadersMiddleware, hsts=settings.cookie_secure)
+    app.add_middleware(LanguageMiddleware)  # outermost of ours: every page and error page knows its language
 
     app.mount("/static", StaticFiles(directory=str(STATIC_DIR)), name="static")
     # Only tea photos are static. Session photos go through a route that checks who is asking, and stories are
@@ -101,6 +104,7 @@ def create_app(settings: Settings | None = None, google_transport=None) -> FastA
     app.include_router(routes_pages.router)
     app.include_router(routes_social.router)
     app.include_router(routes_dev.router)
+    app.include_router(lang_router)
     app.include_router(routes_home.router)  # last: it owns the catch-all /{section}
 
     @app.exception_handler(StarletteHTTPException)

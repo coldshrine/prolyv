@@ -1,11 +1,11 @@
 <!doctype html>
-<html lang="en">
+<html lang="{{ ui_lang }}">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <meta name="color-scheme" content="dark">
 <meta name="theme-color" content="#07081A">
-<title>{% block title %}{{ site_name }} · every steep, in your diary{% endblock %}</title>
+<title>{% block title %}{{ site_name }} · {{ _("every steep, in your diary") }}{% endblock %}</title>
 <link rel="icon" href="/favicon.ico" sizes="48x48">
 <link rel="icon" type="image/png" href="/static/icons/favicon-32.png" sizes="32x32">
 <link rel="apple-touch-icon" href="/apple-touch-icon.png">
@@ -25,34 +25,36 @@
 <header class="topbar">
   <div class="topbar-inner">
     <a class="brand" href="/"><span class="brand-mark" aria-hidden="true"></span><span class="brand-name">{{ site_name }}</span></a>
-    <nav class="topnav" aria-label="Main navigation">
-      <a href="/"{% if path == '/' %} aria-current="page"{% endif %}>Feed</a>
-      <a href="/teas"{% if path.startswith('/teas') %} aria-current="page"{% endif %}>Teas</a>
-      <a href="/discussions"{% if path.startswith('/discussions') %} aria-current="page"{% endif %}>Discussions</a>
-      <a href="/blog"{% if path.startswith('/blog') %} aria-current="page"{% endif %}>Blog</a>
-      <a href="/diary"{% if path.startswith('/diary') or path.startswith('/sessions') %} aria-current="page"{% endif %}>My diary</a>
+    <nav class="topnav" aria-label="{{ _('Main navigation') }}">
+      <a href="/"{% if path == '/' %} aria-current="page"{% endif %}>{{ _("Feed") }}</a>
+      <a href="/teas"{% if path.startswith('/teas') %} aria-current="page"{% endif %}>{{ _("Teas") }}</a>
+      <a href="/discussions"{% if path.startswith('/discussions') %} aria-current="page"{% endif %}>{{ _("Discussions") }}</a>
+      <a href="/blog"{% if path.startswith('/blog') %} aria-current="page"{% endif %}>{{ _("Blog") }}</a>
+      <a href="/diary"{% if path.startswith('/diary') or path.startswith('/sessions') %} aria-current="page"{% endif %}>{{ _("My diary") }}</a>
     </nav>
     <div class="topbar-actions">
-      <a class="icon-btn" href="/search" aria-label="Search"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="M20 20l-3.5-3.5"/></svg></a>
+      <a class="icon-btn" href="/search" aria-label="{{ _('Search') }}"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="M20 20l-3.5-3.5"/></svg></a>
       {% if current_user %}
-      <a class="icon-btn bell" href="/notifications" aria-label="Notifications{% if unread %}, {{ unread }} new{% endif %}"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 9a6 6 0 1 1 12 0c0 6 2 7 2 7H4s2-1 2-7"/><path d="M10 20a2 2 0 0 0 4 0"/></svg>{% if unread %}<span class="bell-count">{{ unread if unread < 100 else '99+' }}</span>{% endif %}</a>
+      <a class="icon-btn bell" href="/notifications" aria-label="{% if unread %}{{ _n('Notifications, {n} new', 'Notifications, {n} new', unread) }}{% else %}{{ _('Notifications') }}{% endif %}"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 9a6 6 0 1 1 12 0c0 6 2 7 2 7H4s2-1 2-7"/><path d="M10 20a2 2 0 0 0 4 0"/></svg>{% if unread %}<span class="bell-count">{{ unread if unread < 100 else '99+' }}</span>{% endif %}</a>
       <details class="account-menu">
-        <summary aria-label="Your account">{{ avatar(current_user, 40) }}</summary>
+        <summary aria-label="{{ _('Your account') }}">{{ avatar(current_user, 40) }}</summary>
         <div class="account-panel">
           <p class="account-who"><b>{{ current_user.display_name }}</b><span>@{{ current_user.handle }}</span></p>
-          <a href="/u/{{ current_user.handle }}">Profile</a>
-          <a href="/diary">My diary</a>
-          <a href="/saved">Saved</a>
-          <a href="/settings">Settings</a>
-          {% if is_admin %}<a href="/admin">Admin</a>{% endif %}
-          <form method="post" action="/logout"><input type="hidden" name="csrf_token" value="{{ csrf_token }}"><button type="submit">Log out</button></form>
+          <a href="/u/{{ current_user.handle }}">{{ _("Profile") }}</a>
+          <a href="/diary">{{ _("My diary") }}</a>
+          <a href="/saved">{{ _("Saved") }}</a>
+          <a href="/settings">{{ _("Settings") }}</a>
+          {% if is_admin %}<a href="/admin">{{ _("Admin") }}</a>{% endif %}
+          <form method="post" action="/logout"><input type="hidden" name="csrf_token" value="{{ csrf_token }}"><button type="submit">{{ _("Log out") }}</button></form>
         </div>
       </details>
-      <a class="btn btn-primary btn-sm hide-mobile" href="/sessions/new"><span class="plus" aria-hidden="true">+</span> Log a tea</a>
+      <a class="btn btn-primary btn-sm hide-mobile" href="/sessions/new"><span class="plus" aria-hidden="true">+</span> {{ _("Log a tea") }}</a>
       {% else %}
-      <a class="btn btn-secondary btn-sm" href="/login">Log in</a>
-      <a class="btn btn-primary btn-sm hide-mobile" href="/login?next=/sessions/new"><span class="plus" aria-hidden="true">+</span> Log a tea</a>
+      <a class="btn btn-secondary btn-sm" href="/login">{{ _("Log in") }}</a>
+      <a class="btn btn-primary btn-sm hide-mobile" href="/login?next=/sessions/new"><span class="plus" aria-hidden="true">+</span> {{ _("Log a tea") }}</a>
       {% endif %}
+      {% set other = 'ru' if ui_lang == 'en' else 'en' %}
+      <a class="lang-btn" href="/lang/{{ other }}?next={{ here|urlencode }}" lang="{{ other }}" rel="nofollow" title="{{ lang_names[other] }}" aria-label="{{ lang_names[other] }}">{{ other|upper }}</a>
     </div>
   </div>
 </header>
@@ -67,7 +69,7 @@
   <div class="site-footer-inner">
     <div class="footer-brand">
       <a class="brand" href="/"><span class="brand-mark" aria-hidden="true"></span><span class="brand-name">{{ site_name }}</span></a>
-      <p>A tea diary, forum and blog. Log your sessions, talk them through and share: the home of our TikTok and Instagram.</p>
+      <p>{{ _("A tea diary, forum and blog. Log your sessions, talk them through and share: the home of our TikTok and Instagram.") }}</p>
       {% if settings.social_tiktok or settings.social_instagram %}
       <div class="footer-social">
         {% if settings.social_tiktok %}<a href="{{ settings.social_tiktok }}" aria-label="TikTok" target="_blank" rel="noopener"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M14 4v10.5a3.5 3.5 0 1 1-3.5-3.5"></path><path d="M14 4c.5 2.6 2.2 4 5 4.2"></path></svg></a>{% endif %}
@@ -75,50 +77,51 @@
       </div>
       {% endif %}
     </div>
-    <nav aria-label="Community">
-      <p class="footer-title">COMMUNITY</p>
+    <nav aria-label="{{ _('Community') }}">
+      <p class="footer-title">{{ _("COMMUNITY") }}</p>
       <ul>
-        <li><a href="/">Feed</a></li>
-        <li><a href="/teas">Tea base</a></li>
-        <li><a href="/discussions">Discussions</a></li>
-        <li><a href="/blog">Blog</a></li>
-        <li><a href="/diary">My diary</a></li>
-        {% if current_user %}<li><a href="/saved">Saved</a></li><li><a href="/settings">Settings</a></li>{% endif %}
-        {% if is_admin %}<li><a href="/admin">Admin</a></li>{% endif %}
+        <li><a href="/">{{ _("Feed") }}</a></li>
+        <li><a href="/teas">{{ _("Tea base") }}</a></li>
+        <li><a href="/discussions">{{ _("Discussions") }}</a></li>
+        <li><a href="/blog">{{ _("Blog") }}</a></li>
+        <li><a href="/diary">{{ _("My diary") }}</a></li>
+        {% if current_user %}<li><a href="/saved">{{ _("Saved") }}</a></li><li><a href="/settings">{{ _("Settings") }}</a></li>{% endif %}
+        {% if is_admin %}<li><a href="/admin">{{ _("Admin") }}</a></li>{% endif %}
       </ul>
     </nav>
-    <nav aria-label="Forum sections">
-      <p class="footer-title">FORUM SECTIONS</p>
+    <nav aria-label="{{ _('Forum sections') }}">
+      <p class="footer-title">{{ _("FORUM SECTIONS") }}</p>
       <ul>
-        <li><a href="/discussions/s/oolong">Oolong</a></li>
-        <li><a href="/discussions/s/pu-erh">Pu-erh</a></li>
-        <li><a href="/discussions/s/teaware">Teaware</a></li>
-        <li><a href="/discussions/s/beginners">Beginners</a></li>
+        <li><a href="/discussions/s/oolong">{{ _("Oolong") }}</a></li>
+        <li><a href="/discussions/s/pu-erh">{{ _("Pu-erh") }}</a></li>
+        <li><a href="/discussions/s/teaware">{{ _("Teaware") }}</a></li>
+        <li><a href="/discussions/s/beginners">{{ _("Beginners") }}</a></li>
       </ul>
     </nav>
-    <nav aria-label="Project">
-      <p class="footer-title">PROJECT</p>
+    <nav aria-label="{{ _('Project') }}">
+      <p class="footer-title">{{ _("PROJECT") }}</p>
       <ul>
-        <li><a href="/about">About us</a></li>
-        <li><a href="/rules">Community rules</a></li>
-        <li><a href="/privacy">Privacy</a></li>
-        <li><a href="/terms">Terms</a></li>
-        {% if settings.contact_email %}<li><a href="mailto:{{ settings.contact_email }}">Contact</a></li>{% endif %}
+        <li><a href="/about">{{ _("About us") }}</a></li>
+        <li><a href="/rules">{{ _("Community rules") }}</a></li>
+        <li><a href="/privacy">{{ _("Privacy") }}</a></li>
+        <li><a href="/terms">{{ _("Terms") }}</a></li>
+        {% if settings.contact_email %}<li><a href="mailto:{{ settings.contact_email }}">{{ _("Contact") }}</a></li>{% endif %}
       </ul>
     </nav>
   </div>
-  <div class="site-footer-bottom"><span>© {{ year }} {{ site_name }} · Made in Ukraine</span><span>Your diary is yours: private entries are visible only to you.</span></div>
+  <div class="site-footer-bottom"><span>© {{ year }} {{ site_name }} · {{ _("Made in Ukraine") }}</span><nav class="footer-lang" aria-label="{{ _('Language') }}">{% for code in ui_langs %}{% if code == ui_lang %}<span aria-current="true" lang="{{ code }}">{{ lang_names[code] }}</span>{% else %}<a href="/lang/{{ code }}?next={{ here|urlencode }}" lang="{{ code }}" rel="nofollow">{{ lang_names[code] }}</a>{% endif %}{% endfor %}</nav><span>{{ _("Your diary is yours: private entries are visible only to you.") }}</span></div>
 </footer>
 {% endblock %}
 {% block tabbar %}
-<nav class="tabbar" aria-label="Main navigation">
-  <a href="/"{% if path == '/' %} aria-current="page"{% endif %}><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 11l8-7 8 7v9a1 1 0 0 1-1 1h-5v-6h-4v6H5a1 1 0 0 1-1-1z"/></svg><span>Feed</span><i class="dot"></i></a>
-  <a href="/discussions"{% if path.startswith('/discussions') %} aria-current="page"{% endif %}><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 6a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2h-7l-5 4v-4H6a2 2 0 0 1-2-2z"/></svg><span>Discuss</span><i class="dot"></i></a>
-  <a class="tab-plus" href="{% if current_user %}/sessions/new{% else %}/login?next=/sessions/new{% endif %}" aria-label="Log a tea"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 5v14M5 12h14"/></svg></a>
-  <a href="/blog"{% if path.startswith('/blog') %} aria-current="page"{% endif %}><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M8 5l12 7-12 7z"/></svg><span>Blog</span><i class="dot"></i></a>
-  <a href="/diary"{% if path == '/diary' or path.startswith('/sessions') %} aria-current="page"{% endif %}><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 4h11a2 2 0 0 1 2 2v14H8a2 2 0 0 1-2-2zM6 18a2 2 0 0 1 2-2h11"/></svg><span>Diary</span><i class="dot"></i></a>
+<nav class="tabbar" aria-label="{{ _('Main navigation') }}">
+  <a href="/"{% if path == '/' %} aria-current="page"{% endif %}><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 11l8-7 8 7v9a1 1 0 0 1-1 1h-5v-6h-4v6H5a1 1 0 0 1-1-1z"/></svg><span>{{ _("Feed") }}</span><i class="dot"></i></a>
+  <a href="/discussions"{% if path.startswith('/discussions') %} aria-current="page"{% endif %}><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 6a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2h-7l-5 4v-4H6a2 2 0 0 1-2-2z"/></svg><span>{{ _("Discuss") }}</span><i class="dot"></i></a>
+  <a class="tab-plus" href="{% if current_user %}/sessions/new{% else %}/login?next=/sessions/new{% endif %}" aria-label="{{ _('Log a tea') }}"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 5v14M5 12h14"/></svg></a>
+  <a href="/blog"{% if path.startswith('/blog') %} aria-current="page"{% endif %}><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M8 5l12 7-12 7z"/></svg><span>{{ _("Blog") }}</span><i class="dot"></i></a>
+  <a href="/diary"{% if path == '/diary' or path.startswith('/sessions') %} aria-current="page"{% endif %}><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 4h11a2 2 0 0 1 2 2v14H8a2 2 0 0 1-2-2zM6 18a2 2 0 0 1 2-2h11"/></svg><span>{{ _("Diary") }}</span><i class="dot"></i></a>
 </nav>
 {% endblock %}
+{% if js_text %}<script type="application/json" id="ui-text">{{ js_text|tojson }}</script>{% endif %}
 {% block scripts %}{% endblock %}
 </body>
 </html>

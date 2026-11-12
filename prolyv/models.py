@@ -9,6 +9,8 @@ from datetime import UTC, datetime
 from sqlalchemy import JSON, Boolean, DateTime, Enum, Float, ForeignKey, Index, Integer, String, Text, UniqueConstraint, Uuid, desc
 from sqlalchemy.orm import DeclarativeBase, Mapped, mapped_column, relationship
 
+from prolyv.i18n import RU_TEXT, N_, _, _n
+
 
 def utcnow() -> datetime:
     """Naive UTC — stored the same way in SQLite and Postgres; compare only with other utcnow() values."""
@@ -141,27 +143,28 @@ class TeaStatus(str, enum.Enum):
     pending = "pending"
 
 
+# English, as stored and searched; shown through _() (Tea.category_label and friends)
 CATEGORY_LABELS = {
-    TeaCategory.green: "Green",
-    TeaCategory.white: "White",
-    TeaCategory.yellow: "Yellow",
-    TeaCategory.oolong: "Oolong",
-    TeaCategory.black: "Black",
-    TeaCategory.sheng: "Sheng pu-erh",
-    TeaCategory.shu: "Shu pu-erh",
-    TeaCategory.heicha: "Heicha",
-    TeaCategory.tisane: "Tisane",
+    TeaCategory.green: N_("Green"),
+    TeaCategory.white: N_("White"),
+    TeaCategory.yellow: N_("Yellow"),
+    TeaCategory.oolong: N_("Oolong"),
+    TeaCategory.black: N_("Black"),
+    TeaCategory.sheng: N_("Sheng pu-erh"),
+    TeaCategory.shu: N_("Shu pu-erh"),
+    TeaCategory.heicha: N_("Heicha"),
+    TeaCategory.tisane: N_("Tisane"),
 }
 
 FORM_LABELS = {
-    TeaForm.loose: "Loose leaf",
-    TeaForm.cake: "Cake",
-    TeaForm.brick: "Brick",
-    TeaForm.tuo: "Tuo",
-    TeaForm.ball: "Ball",
-    TeaForm.powder: "Powder",
-    TeaForm.stick: "Stick",
-    TeaForm.other: "Other",
+    TeaForm.loose: N_("Loose leaf"),
+    TeaForm.cake: N_("Cake"),
+    TeaForm.brick: N_("Brick"),
+    TeaForm.tuo: N_("Tuo"),
+    TeaForm.ball: N_("Ball"),
+    TeaForm.powder: N_("Powder"),
+    TeaForm.stick: N_("Stick"),
+    TeaForm.other: N_("Other"),
 }
 
 
@@ -233,11 +236,11 @@ class Tea(Base):
 
     @property
     def category_label(self) -> str:
-        return CATEGORY_LABELS[self.category]
+        return _(CATEGORY_LABELS[self.category])
 
     @property
     def form_label(self) -> str:
-        return FORM_LABELS[self.form]
+        return _(FORM_LABELS[self.form])
 
     @property
     def primary_image(self) -> TeaImage | None:
@@ -288,7 +291,8 @@ class Tea(Base):
     @property
     def search_names(self) -> list[str]:
         """Every name people may type. Pu-erh is also written puerh, puer and pu'er."""
-        names = [self.name_en, self.name_native, self.name_romanized, self.name_zh, self.name_ru, *[a.alias for a in self.aliases], self.category_label]
+        label = CATEGORY_LABELS[self.category]  # both languages, whichever one the importer or the admin ran in
+        names = [self.name_en, self.name_native, self.name_romanized, self.name_zh, self.name_ru, *[a.alias for a in self.aliases], label, RU_TEXT.get(label)]
         if self.category in (TeaCategory.sheng, TeaCategory.shu):
             names += ["puer", "пуэр", "пу эр", "普洱"]
         return [n for n in names if n]
@@ -384,7 +388,7 @@ class TeaImage(Base):
     @property
     def credit(self) -> str:
         author = (self.author or "").removeprefix("Photo:").strip()
-        bits = [f"Photo: {author}" if author else "Photo: author unknown"]
+        bits = [_("Photo: {author}", author=author) if author else _("Photo: author unknown")]
         if self.license:
             bits.append(self.license)
         return " · ".join(bits)
@@ -470,13 +474,13 @@ class TeaSession(Base):
     def params_line(self) -> str:
         bits = []
         if self.grams:
-            bits.append(f"{self.grams:g} g")
+            bits.append(_("{grams} g", grams=f"{self.grams:g}"))
         if self.water_ml:
-            bits.append(f"{self.water_ml} ml")
+            bits.append(_("{ml} ml", ml=self.water_ml))
         if self.temp_c:
             bits.append(f"{self.temp_c} °C")
         if self.steeps:
-            bits.append(f"{len(self.steeps)} steep{'s' if len(self.steeps) != 1 else ''}")
+            bits.append(_n("{n} steep", "{n} steeps", len(self.steeps)))
         if self.vessel:
             bits.append(self.vessel)
         return " · ".join(bits)
@@ -642,14 +646,15 @@ class ReplyVote(Base):
     reply: Mapped[Reply] = relationship(back_populates="votes")
 
 
+# stored in forum_sections in English; templates show them through _(section.name) and _(section.description)
 FORUM_SECTIONS = [
-    ("oolong", "Oolong", "Rock tea, Tie Guan Yin, dancong, Taiwanese high mountain."),
-    ("pu-erh", "Pu-erh", "Sheng and shu, storage, ageing, regions."),
-    ("black-white", "Black & white", "Hong cha, Darjeeling, Ceylon, silver needle, aged white."),
-    ("green-yellow", "Green & yellow", "Longjing, sencha, matcha, Korean greens, yellow teas."),
-    ("teaware", "Teaware", "Gaiwans, clay, kyusu, kettles, cups."),
-    ("beginners", "Beginners", "First steps, gongfu basics, what to buy first."),
-    ("where-to-buy", "Where to buy", "Shops, vendors, prices, what arrived in the post."),
+    ("oolong", N_("Oolong"), N_("Rock tea, Tie Guan Yin, dancong, Taiwanese high mountain.")),
+    ("pu-erh", N_("Pu-erh"), N_("Sheng and shu, storage, ageing, regions.")),
+    ("black-white", N_("Black & white"), N_("Hong cha, Darjeeling, Ceylon, silver needle, aged white.")),
+    ("green-yellow", N_("Green & yellow"), N_("Longjing, sencha, matcha, Korean greens, yellow teas.")),
+    ("teaware", N_("Teaware"), N_("Gaiwans, clay, kyusu, kettles, cups.")),
+    ("beginners", N_("Beginners"), N_("First steps, gongfu basics, what to buy first.")),
+    ("where-to-buy", N_("Where to buy"), N_("Shops, vendors, prices, what arrived in the post.")),
 ]
 
 
@@ -687,7 +692,7 @@ class Post(Base):
 
     @property
     def kind_label(self) -> str:
-        return "Video" if self.video_url else "Article"
+        return _("Video") if self.video_url else _("Article")
 
     @property
     def cup_kind(self) -> str:
@@ -799,7 +804,7 @@ class SavedItem(Base):
     created_at: Mapped[datetime] = mapped_column(DateTime, default=utcnow, nullable=False)
 
 
-REPORT_REASONS = {"spam": "Spam or advertising", "rude": "Rude or harassing", "wrong": "Dangerous or false claims", "other": "Something else"}
+REPORT_REASONS = {"spam": N_("Spam or advertising"), "rude": N_("Rude or harassing"), "wrong": N_("Dangerous or false claims"), "other": N_("Something else")}  # shown with _()
 
 
 class Report(Base):

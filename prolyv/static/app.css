@@ -885,3 +885,11 @@ body { overflow-wrap: anywhere; }
 .tea-card-media img { position: absolute; inset: 0; }
 .stats-inline li { min-width: 0; }
 @media (max-width: 767px) { .stats-inline .stat-value { font-size: 22px; } }
+
+/* Language switcher: the other language in the top bar, both in the footer */
+.lang-btn { min-width: 44px; height: 44px; padding: 0 10px; display: inline-grid; place-items: center; border-radius: 999px; background: var(--glass); border: 1px solid rgba(255, 255, 255, 0.14); color: var(--fg); font-weight: 800; font-size: 13px; letter-spacing: 0.06em; text-decoration: none; }
+.lang-btn:hover { color: var(--fg); border-color: rgba(255, 255, 255, 0.3); }
+.site-footer-bottom .footer-lang { flex: none; display: flex; flex-wrap: wrap; gap: 4px 14px; }
+.footer-lang a { color: var(--muted); font-weight: 700; }
+.footer-lang a:hover { color: var(--link); }
+.footer-lang [aria-current] { color: var(--fg); font-weight: 700; }

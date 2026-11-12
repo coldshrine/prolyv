@@ -1,3 +1,22 @@
+/* Interface text for scripts. base.html carries the translations a non-English page needs as JSON; English needs none.
+   tr(text) and trn(singular, plural, n) work in every script loaded after this one; ru_*.py JS holds their Russian. */
+var UI_TEXT = (function () {
+  try { var el = document.getElementById("ui-text"); return el ? JSON.parse(el.textContent) : {}; } catch (e) { return {}; }
+})();
+function fillText(text, values) {
+  Object.keys(values || {}).forEach(function (k) { text = text.split("{" + k + "}").join(values[k]); });
+  return text;
+}
+function tr(text, values) { return fillText(typeof UI_TEXT[text] === "string" ? UI_TEXT[text] : text, values); }
+function trn(singular, plural, n, values) {
+  var forms = UI_TEXT[singular], chosen;
+  if (Array.isArray(forms)) {  // Russian: 1, 2-4, 5+
+    var a = Math.abs(n), i = a % 10 === 1 && a % 100 !== 11 ? 0 : a % 10 >= 2 && a % 10 <= 4 && (a % 100 < 12 || a % 100 > 14) ? 1 : 2;
+    chosen = forms[i];
+  } else chosen = n === 1 ? singular : plural;
+  return fillText(chosen, Object.assign({ n: n }, values || {}));
+}
+
 /* Small page behaviours. No inline scripts anywhere, so the CSP can stay strict. */
 (function () {
   // tea card gallery: thumbnails swap the main photo; without JS they simply open the image
@@ -14,7 +33,7 @@
       credit.textContent = a.dataset.credit || "";
       if (a.dataset.source) {
         var link = document.createElement("a");
-        link.href = a.dataset.source; link.target = "_blank"; link.rel = "noopener nofollow"; link.textContent = "source";
+        link.href = a.dataset.source; link.target = "_blank"; link.rel = "noopener nofollow"; link.textContent = tr("source");
         credit.append(" · ", link);
       }
       thumbs.querySelectorAll("a").forEach(function (t) { t.removeAttribute("aria-current"); });
@@ -38,7 +57,7 @@
   });
   // copy-link and native share buttons
   function copy(button, text) {
-    if (navigator.clipboard) navigator.clipboard.writeText(text).then(function () { button.textContent = "Link copied"; });
+    if (navigator.clipboard) navigator.clipboard.writeText(text).then(function () { button.textContent = tr("Link copied"); });
   }
   document.addEventListener("click", function (e) {
     var share = e.target.closest("[data-share]");
