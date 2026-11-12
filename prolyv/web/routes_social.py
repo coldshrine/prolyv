@@ -10,6 +10,7 @@ from sqlalchemy import func, select, update
 from sqlalchemy.orm import selectinload
 
 from prolyv.auth.accounts import get_user_by_handle, is_admin_user, purge_sessions
+from prolyv.i18n import N_, _
 from prolyv.models import (
     REPORT_REASONS,
     SAVE_KINDS,
@@ -29,7 +30,7 @@ from prolyv.models import (
     Visibility,
     utcnow,
 )
-from prolyv.social import follow_counts, notification_views, notify_first_follow
+from prolyv.social import follow_counts, in_context, notification_views, notify_first_follow
 from prolyv.web.deps import AdminUser, CurrentUser, DbDep, RequiredUser, SettingsDep, SignerDep, post_quota, require_csrf
 from prolyv.web.flash import set_flash
 from prolyv.web.routes_auth import safe_next
@@ -84,7 +85,7 @@ def people_page(request: Request, db, current_user: User | None, handle: str, wh
         i_follow = set(db.execute(select(Follow.followee_id).where(Follow.follower_id == current_user.id, Follow.followee_id.in_([p.id for p in people]))).scalars())
     followers, following = follow_counts(db, target.id)
     return render(request, "social/people.html", {
-        "profile": target, "which": which, "people": people, "i_follow": i_follow, "follower_count": followers, "following_count": following,
+        "profile": target, "which": which, "heading": _("Followers") if follower_list else in_context("people", "Following"), "people": people, "i_follow": i_follow, "follower_count": followers, "following_count": following,
         "next_url": f"/u/{target.handle}/{which}?page={page + 1}" if len(rows) > PEOPLE_PAGE else None,
     })
 
@@ -164,6 +165,8 @@ def saved_page(request: Request, db: DbDep, user: RequiredUser):
 # ---------------------------------------------------------------------------------------------- reports
 
 
+REPORT_KINDS = {"session": N_("session"), "session_comment": N_("session comment"), "topic": N_("topic"), "reply": N_("reply"),
+                "post_comment": N_("post comment"), "user": N_("user")}  # shown with _()
 REPORTABLE = {"session": TeaSession, "session_comment": SessionComment, "topic": Topic, "reply": Reply, "post_comment": PostComment, "user": User}
 
 
@@ -194,7 +197,7 @@ def report_create(request: Request, db: DbDep, settings: SettingsDep, signer: Si
     if existing is None:
         db.add(Report(reporter_id=user.id, kind=kind, ref_id=ref_id, reason=reason))
     response = RedirectResponse(safe_next(next) or "/", status_code=303)
-    set_flash(response, settings, signer, "ok", "Thanks. An admin will take a look.")
+    set_flash(response, settings, signer, "ok", _("Thanks. An admin will take a look."))
     return response
 
 
@@ -219,7 +222,8 @@ def admin_reports(request: Request, db: DbDep, user: AdminUser):
     rows = db.execute(
         select(Report).options(selectinload(Report.reporter)).order_by(Report.resolved_at.is_not(None), Report.created_at.desc()).limit(200)
     ).scalars().all()
-    entries = [{"report": r, "target": content_link(db, r.kind, r.ref_id), "reason": REPORT_REASONS.get(r.reason, r.reason)} for r in rows]
+    entries = [{"report": r, "target": content_link(db, r.kind, r.ref_id), "reason": _(REPORT_REASONS.get(r.reason, r.reason)),
+                "kind": _(REPORT_KINDS.get(r.kind, r.kind.replace("_", " ")))} for r in rows]
     return render(request, "admin/reports.html", {"entries": entries})
 
 
@@ -246,7 +250,7 @@ def admin_hide(request: Request, db: DbDep, settings: SettingsDep, signer: Signe
 
         reply_visibility_changed(db, obj)
     response = RedirectResponse(safe_next(next) or "/admin/reports", status_code=303)
-    set_flash(response, settings, signer, "ok", "Hidden from everyone except admins." if obj.hidden else "Visible again.")
+    set_flash(response, settings, signer, "ok", _("Hidden from everyone except admins.") if obj.hidden else _("Visible again."))
     return response
 
 
@@ -270,13 +274,13 @@ def admin_user_ban(request: Request, db: DbDep, settings: SettingsDep, signer: S
         raise HTTPException(status_code=404)
     response = RedirectResponse("/admin/users", status_code=303)
     if target.id == user.id or is_admin_user(db, settings, target):
-        set_flash(response, settings, signer, "error", "Admins can't be restricted here.")
+        set_flash(response, settings, signer, "error", _("Admins can't be restricted here."))
         return response
     if banned == "1":
         target.banned_at = utcnow()
         purge_sessions(db, target)
-        set_flash(response, settings, signer, "ok", f"@{target.handle} is restricted and signed out.")
+        set_flash(response, settings, signer, "ok", _("@{handle} is restricted and signed out.", handle=target.handle))
     else:
         target.banned_at = None
-        set_flash(response, settings, signer, "ok", f"@{target.handle} can sign in again.")
+        set_flash(response, settings, signer, "ok", _("@{handle} can sign in again.", handle=target.handle))
     return response

@@ -1,24 +1,24 @@
 {% extends "base.html" %}
-{% block title %}New topic · {{ site_name }}{% endblock %}
+{% block title %}{{ _("New topic") }} · {{ site_name }}{% endblock %}
 {% block content %}
 <div class="container narrow">
-  <p class="eyebrow"><a href="/discussions">Discussions</a></p>
-  <h1 class="h1">New topic</h1>
-  <p class="lead">Be specific: the tea, the parameters, what happened. Attach a session and people can brew along.</p>
-  {% if asked %}<div class="notice notice-ok">Asking {{ asked.display_name }}. Keep @{{ asked.handle }} in the text and they get a notification.</div>{% endif %}
+  <p class="eyebrow"><a href="/discussions">{{ _("Discussions") }}</a></p>
+  <h1 class="h1">{{ _("New topic") }}</h1>
+  <p class="lead">{{ _("Be specific: the tea, the parameters, what happened. Attach a session and people can brew along.") }}</p>
+  {% if asked %}<div class="notice notice-ok">{{ _("Asking {name}. Keep @{handle} in the text and they get a notification.", name=asked.display_name, handle=asked.handle) }}</div>{% endif %}
   <form method="post" action="/discussions/new" class="card form" novalidate>
     <input type="hidden" name="csrf_token" value="{{ csrf_token }}">
-    <label class="field"><span class="label">Section</span>
-      <select name="section" required><option value="">Pick…</option>{% for s in sections %}<option value="{{ s.slug }}"{% if s.slug == form.section %} selected{% endif %}>{{ s.name }}</option>{% endfor %}</select>
+    <label class="field"><span class="label">{{ _("Section") }}</span>
+      <select name="section" required><option value="">{{ _("Pick…") }}</option>{% for s in sections %}<option value="{{ s.slug }}"{% if s.slug == form.section %} selected{% endif %}>{{ _(s.name) }}</option>{% endfor %}</select>
       {% if errors.section %}<span class="field-error">{{ errors.section }}</span>{% endif %}
     </label>
-    <label class="field"><span class="label">Title</span><input name="title" value="{{ form.title }}" maxlength="160" required placeholder="Why does my shu turn bitter after the third steep?">{% if errors.title %}<span class="field-error">{{ errors.title }}</span>{% endif %}</label>
-    <label class="field"><span class="label">Your question or story</span><textarea name="body" rows="8" maxlength="20000" required placeholder="Blank line between paragraphs.">{{ form.body }}</textarea>{% if errors.body %}<span class="field-error">{{ errors.body }}</span>{% endif %}</label>
-    <label class="field"><span class="label">Attach a public session (optional)</span>
-      <select name="attached_session_id"><option value="">None</option>{% for s in my_sessions %}<option value="{{ s.id }}"{% if s.id|string == form.attached_session_id %} selected{% endif %}>{{ s.brewed_at.strftime('%-d %b') }} · {{ s.tea_name }}{% if s.params_line %} · {{ s.params_line }}{% endif %}</option>{% endfor %}</select>
-      <span class="muted small">Only your public sessions can be attached.</span>
+    <label class="field"><span class="label">{{ _("Title") }}</span><input name="title" value="{{ form.title }}" maxlength="160" required placeholder="{{ _('Why does my shu turn bitter after the third steep?') }}">{% if errors.title %}<span class="field-error">{{ errors.title }}</span>{% endif %}</label>
+    <label class="field"><span class="label">{{ _("Your question or story") }}</span><textarea name="body" rows="8" maxlength="20000" required placeholder="{{ _('Blank line between paragraphs.') }}">{{ form.body }}</textarea>{% if errors.body %}<span class="field-error">{{ errors.body }}</span>{% endif %}</label>
+    <label class="field"><span class="label">{{ _("Attach a public session (optional)") }}</span>
+      <select name="attached_session_id"><option value="">{{ _("None") }}</option>{% for s in my_sessions %}<option value="{{ s.id }}"{% if s.id|string == form.attached_session_id %} selected{% endif %}>{{ s.brewed_at|date('%-d %b') }} · {{ s.tea_name }}{% if s.params_line %} · {{ s.params_line }}{% endif %}</option>{% endfor %}</select>
+      <span class="muted small">{{ _("Only your public sessions can be attached.") }}</span>
     </label>
-    <div class="actions"><button class="btn btn-primary" type="submit">Post topic</button><a class="btn btn-ghost" href="/discussions">Cancel</a></div>
+    <div class="actions"><button class="btn btn-primary" type="submit">{{ _("Post topic") }}</button><a class="btn btn-ghost" href="/discussions">{{ _("Cancel") }}</a></div>
   </form>
 </div>
 {% endblock %}

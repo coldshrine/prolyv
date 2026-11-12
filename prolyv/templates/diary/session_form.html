@@ -1,6 +1,6 @@
 {% extends "base.html" %}
 {% from "partials/macros.html" import cup %}
-{% block title %}{% if editing %}Edit session{% else %}New session{% endif %} · {{ site_name }}{% endblock %}
+{% block title %}{% if editing %}{{ _("Edit session") }}{% else %}{{ _("New session") }}{% endif %} · {{ site_name }}{% endblock %}
 {% block head %}<link rel="stylesheet" href="/static/css/session.css?v={{ version }}">{% endblock %}
 {% block body_class %}has-phonebar{% endblock %}
 {% set back_url = '/sessions/' ~ editing.id if editing else '/diary' %}
@@ -11,18 +11,18 @@
 {% block topbar %}
 {{ super() }}
 <header class="phonebar">
-  <a class="phonebar-side session-cancel" href="{{ back_url }}">Cancel</a>
-  <p class="phonebar-title">{% if editing %}Edit session{% else %}New session{% endif %}</p>
-  <button class="phonebar-save" type="submit" form="session-form">Save</button>
+  <a class="phonebar-side session-cancel" href="{{ back_url }}">{{ _("Cancel") }}</a>
+  <p class="phonebar-title">{% if editing %}{{ _("Edit session") }}{% else %}{{ _("New session") }}{% endif %}</p>
+  <button class="phonebar-save" type="submit" form="session-form">{{ _("Save") }}</button>
 </header>
 {% endblock %}
-{% macro stepper(id, label, value, unit, step, min, max, start, word, inputmode, placeholder, error) %}
+{% macro stepper(id, label, value, unit, step, min, max, start, less, more, inputmode, placeholder, error) %}
 <div class="ns-stepper{% if error %} has-error{% endif %}" data-step="{{ step }}" data-min="{{ min }}" data-max="{{ max }}" data-start="{{ start }}">
   <label class="ns-step-label" for="{{ id }}">{{ label }}</label>
   <div class="ns-step-row">
-    <button type="button" class="ns-step-btn" data-dir="-1" aria-label="Less {{ word }}">−</button>
+    <button type="button" class="ns-step-btn" data-dir="-1" aria-label="{{ less }}">−</button>
     <span class="ns-step-value"><input id="{{ id }}" name="{{ id }}" value="{{ value }}" inputmode="{{ inputmode }}" placeholder="{{ placeholder }}" autocomplete="off"{% if from_tea and value != '' %} data-from-tea="1"{% endif %}><span class="ns-unit">{{ unit }}</span></span>
-    <button type="button" class="ns-step-btn" data-dir="1" aria-label="More {{ word }}">+</button>
+    <button type="button" class="ns-step-btn" data-dir="1" aria-label="{{ more }}">+</button>
   </div>
   {% if error %}<span class="field-error">{{ error }}</span>{% endif %}
 </div>
@@ -30,11 +30,11 @@
 {% block content %}
 <section class="ns-hero">
   <div class="ns-hero-inner">
-    <nav class="crumbs" aria-label="Breadcrumbs"><a href="/diary">Diary</a> / {% if editing %}<a href="/sessions/{{ editing.id }}">{{ editing.tea_name }}</a> / <span aria-current="page">Edit</span>{% else %}<span aria-current="page">New session</span>{% endif %}</nav>
-    <h1 class="ns-title">{% if editing %}Edit session{% else %}New session{% endif %}</h1>
-    <p class="ns-lead">{% if editing %}Fix the numbers or the note. The date stays unless you change it.{% else %}Log as you brew. Your draft saves automatically.{% endif %}</p>
+    <nav class="crumbs" aria-label="{{ _('Breadcrumbs') }}"><a href="/diary">{{ _("Diary") }}</a> / {% if editing %}<a href="/sessions/{{ editing.id }}">{{ editing.tea_name }}</a> / <span aria-current="page">{{ _("Edit") }}</span>{% else %}<span aria-current="page">{{ _("New session") }}</span>{% endif %}</nav>
+    <h1 class="ns-title">{% if editing %}{{ _("Edit session") }}{% else %}{{ _("New session") }}{% endif %}</h1>
+    <p class="ns-lead">{% if editing %}{{ _("Fix the numbers or the note. The date stays unless you change it.") }}{% else %}{{ _("Log as you brew. Your draft saves automatically.") }}{% endif %}</p>
     {% if errors.quota %}<div class="notice" role="alert">{{ errors.quota }}</div>{% endif %}
-    <p class="ns-draft" id="draft-hint" hidden>Draft restored from this device · <a href="#" id="draft-discard">discard</a></p>
+    <p class="ns-draft" id="draft-hint" hidden>{{ _("Draft restored from this device") }} · <a href="#" id="draft-discard">{{ _("discard") }}</a></p>
   </div>
 </section>
 
@@ -44,147 +44,147 @@
   <input type="hidden" name="post_id" value="{{ form.post_id or '' }}">
 
   <div class="ns-main">
-    {% if errors %}<p class="notice notice-error ns-errors" role="alert">That didn't save yet. Check the fields marked below.</p>{% endif %}
-    {% if form.post %}<p class="notice notice-ok">Brewing along with <a href="/blog/{{ form.post.slug }}">{{ form.post.title }}</a>. Make the session public and it will appear under the post.</p>{% endif %}
+    {% if errors %}<p class="notice notice-error ns-errors" role="alert">{{ _("That didn't save yet. Check the fields marked below.") }}</p>{% endif %}
+    {% if form.post %}{% set post_link %}<a href="/blog/{{ form.post.slug }}">{{ form.post.title }}</a>{% endset %}<p class="notice notice-ok">{{ _("Brewing along with {post}. Make the session public and it will appear under the post.", post=post_link) }}</p>{% endif %}
 
     <section aria-labelledby="ns-tea">
-      <h2 class="ns-h" id="ns-tea">Tea</h2>
+      <h2 class="ns-h" id="ns-tea">{{ _("Tea") }}</h2>
       <div class="ns-tea-card" id="tea-card"{% if not tea %} hidden{% endif %}>
         <span id="tea-card-cup">{{ cup(kind, 64, liquor) }}</span>
-        <div class="ns-tea-text"><p class="ns-tea-name" id="tea-card-name">{{ form.tea_name }}</p><p class="ns-tea-sub" id="tea-card-sub">{% if tea %}{{ tea.category_label }} · {{ tea.origin_region or tea.origin_country }}{% endif %}</p></div>
-        <button type="button" class="ns-pill" id="tea-change">Change</button>
+        <div class="ns-tea-text"><p class="ns-tea-name" id="tea-card-name">{{ form.tea_name }}</p><p class="ns-tea-sub" id="tea-card-sub">{% if tea %}{{ tea.category_label }} · {{ (tea.origin_region or tea.origin_country)|place }}{% endif %}</p></div>
+        <button type="button" class="ns-pill" id="tea-change">{{ _("Change") }}</button>
       </div>
       <div id="tea-field"{% if tea %} hidden{% endif %}>
-        <label class="ns-sr" for="tea_name">Which tea</label>
-        <input name="tea_name" id="tea_name" value="{{ form.tea_name }}" maxlength="160" autocomplete="off" placeholder="Start typing: Tie Guan Yin, sencha, Yiwu…" hx-get="/teas/suggest" hx-trigger="input changed delay:250ms" hx-target="#tea-suggest" hx-swap="innerHTML" required>
+        <label class="ns-sr" for="tea_name">{{ _("Which tea") }}</label>
+        <input name="tea_name" id="tea_name" value="{{ form.tea_name }}" maxlength="160" autocomplete="off" placeholder="{{ _('Start typing: Tie Guan Yin, sencha, Yiwu…') }}" hx-get="/teas/suggest" hx-trigger="input changed delay:250ms" hx-target="#tea-suggest" hx-swap="innerHTML" required>
         {% if errors.tea_name %}<span class="field-error">{{ errors.tea_name }}</span>{% endif %}
         <div id="tea-suggest" class="suggest"></div>
       </div>
       <div class="ns-vintage">
-        <label class="ns-step-label" for="ns-vintage">Year</label>
-        <p class="ns-step-hint" id="ns-vintage-hint">Harvest or pressing year, if the package says</p>
-        <input type="number" id="ns-vintage" name="vintage" value="{{ '' if form.vintage is none else form.vintage }}" min="1900" max="{{ today[:4] }}" inputmode="numeric" placeholder="e.g. 2002" aria-describedby="ns-vintage-hint">
+        <label class="ns-step-label" for="ns-vintage">{{ _("Year") }}</label>
+        <p class="ns-step-hint" id="ns-vintage-hint">{{ _("Harvest or pressing year, if the package says") }}</p>
+        <input type="number" id="ns-vintage" name="vintage" value="{{ '' if form.vintage is none else form.vintage }}" min="1900" max="{{ today[:4] }}" inputmode="numeric" placeholder="{{ _('e.g. 2002') }}" aria-describedby="ns-vintage-hint">
         {% if errors.vintage %}<span class="field-error">{{ errors.vintage }}</span>{% endif %}
       </div>
     </section>
 
     <section aria-labelledby="ns-params">
-      <h2 class="ns-h" id="ns-params">Parameters</h2>
+      <h2 class="ns-h" id="ns-params">{{ _("Parameters") }}</h2>
       <div class="ns-params">
-        {{ stepper('grams', 'Leaf', grams_text, 'g', 1, 1, 100, 7, 'leaf', 'decimal', '–', errors.grams) }}
-        {{ stepper('water_ml', 'Water', '' if form.water_ml is none else form.water_ml, 'ml', 10, 10, 5000, 100, 'water', 'numeric', '–', errors.water_ml) }}
-        {{ stepper('temp_c', 'Temperature', '' if form.temp_c is none else form.temp_c, '°C', 5, 30, 100, 95, 'temperature', 'numeric', '–', errors.temp_c) }}
+        {{ stepper('grams', _('Leaf'), grams_text, _('g'), 1, 1, 100, 7, _('Less leaf'), _('More leaf'), 'decimal', '–', errors.grams) }}
+        {{ stepper('water_ml', _('Water'), '' if form.water_ml is none else form.water_ml, _('ml'), 10, 10, 5000, 100, _('Less water'), _('More water'), 'numeric', '–', errors.water_ml) }}
+        {{ stepper('temp_c', _('Temperature'), '' if form.temp_c is none else form.temp_c, '°C', 5, 30, 100, 95, _('Less temperature'), _('More temperature'), 'numeric', '–', errors.temp_c) }}
         <div class="ns-stepper">
-          <label class="ns-step-label" for="ns-vessel">Vessel</label>
-          <p class="ns-step-hint">How you brew this one</p>
-          <select id="ns-vessel" name="vessel" class="ns-select">{% for v in vessels %}<option value="{{ v }}"{% if v == form.vessel %} selected{% endif %}>{{ v }}</option>{% endfor %}</select>
+          <label class="ns-step-label" for="ns-vessel">{{ _("Vessel") }}</label>
+          <p class="ns-step-hint">{{ _("How you brew this one") }}</p>
+          <select id="ns-vessel" name="vessel" class="ns-select">{% for v in vessels %}<option value="{{ v }}"{% if v == form.vessel %} selected{% endif %}>{{ _(v) }}</option>{% endfor %}</select>
         </div>
       </div>
-      <label class="ns-check"><input type="checkbox" name="rinse"{% if form.rinse %} checked{% endif %}> Rinsed the leaf first</label>
+      <label class="ns-check"><input type="checkbox" name="rinse"{% if form.rinse %} checked{% endif %}> {{ _("Rinsed the leaf first") }}</label>
     </section>
 
     <section class="ns-timer" aria-labelledby="ns-timer-h">
       <div class="ns-timer-top">
-        <p class="ns-timer-h" id="ns-timer-h">STEEP TIMER</p>
-        <p class="ns-timer-status" id="timer-status">STEEP 1 · READY</p>
+        <p class="ns-timer-h" id="ns-timer-h">{{ _("STEEP TIMER") }}</p>
+        <p class="ns-timer-status" id="timer-status">{{ _("STEEP {n} · READY", n=1) }}</p>
       </div>
       <p class="ns-timer-time" id="timer-display" aria-live="polite">00:00</p>
-      <p class="ns-timer-next">Suggested next: <b id="timer-suggest">10 s</b></p>
+      {% set next_secs %}<b id="timer-suggest">{{ _("{n} s", n=10) }}</b>{% endset %}<p class="ns-timer-next">{{ _("Suggested next: {seconds}", seconds=next_secs) }}</p>
       <div class="ns-timer-btns">
-        <button type="button" class="ns-timer-toggle" id="timer-toggle">Start</button>
-        <button type="button" class="ns-timer-log" id="timer-log">Log steep</button>
+        <button type="button" class="ns-timer-toggle" id="timer-toggle">{{ _("Start") }}</button>
+        <button type="button" class="ns-timer-log" id="timer-log">{{ _("Log steep") }}</button>
       </div>
-      <p class="ns-timer-hint">At 00:00, Log steep uses the suggested time.</p>
+      <p class="ns-timer-hint">{{ _("At 00:00, Log steep uses the suggested time.") }}</p>
     </section>
 
     <section aria-labelledby="ns-brews">
       <div class="ns-brews-head">
-        <h2 class="ns-h" id="ns-brews">Steeps · <span id="steep-count">{{ form.steeps|length }}</span></h2>
+        {% set steep_count %}<span id="steep-count">{{ form.steeps|length }}</span>{% endset %}<h2 class="ns-h" id="ns-brews">{{ _("Steeps · {count}", count=steep_count) }}</h2>
         <div class="ns-brews-btns">
-          <button type="button" class="ns-pill ns-pill-clear" id="steep-reset">Reset</button>
-          <button type="button" class="ns-steep-add" id="steep-add">+ Steep · <span id="steep-add-sec">10</span> s</button>
+          <button type="button" class="ns-pill ns-pill-clear" id="steep-reset">{{ _("Reset") }}</button>
+          {% set add_secs %}<span id="steep-add-sec">10</span>{% endset %}<button type="button" class="ns-steep-add" id="steep-add">{{ _("+ Steep · {seconds} s", seconds=add_secs) }}</button>
         </div>
       </div>
-      <ol class="ns-steeps" id="steep-list" aria-label="Logged steeps">
+      <ol class="ns-steeps" id="steep-list" aria-label="{{ _('Logged steeps') }}">
         {% for st in form.steeps %}
         <li class="steep-item">
-          <button type="button" class="steep-orb"><span class="orb" aria-hidden="true"></span><span class="steep-sec">{{ st.seconds }} s</span></button>
+          <button type="button" class="steep-orb"><span class="orb" aria-hidden="true"></span><span class="steep-sec">{{ _("{n} s", n=st.seconds) }}</span></button>
           <div class="steep-edit">
-            <label>Steep <span class="steep-n">{{ loop.index }}</span>, seconds <input type="number" name="steep_seconds" value="{{ st.seconds }}" min="1" max="3600" inputmode="numeric"></label>
-            <label>What did it taste like? <input type="text" name="steep_note" value="{{ st.note }}" maxlength="200"></label>
-            <button type="button" class="steep-remove">Remove</button>
+            {% set steep_n %}<span class="steep-n">{{ loop.index }}</span>{% endset %}<label>{{ _("Steep {n}, seconds", n=steep_n) }} <input type="number" name="steep_seconds" value="{{ st.seconds }}" min="1" max="3600" inputmode="numeric"></label>
+            <label>{{ _("What did it taste like?") }} <input type="text" name="steep_note" value="{{ st.note }}" maxlength="200"></label>
+            <button type="button" class="steep-remove">{{ _("Remove") }}</button>
           </div>
         </li>
         {% endfor %}
       </ol>
-      <p class="ns-steeps-empty" id="steep-empty"{% if form.steeps %} hidden{% endif %}>No steeps yet. Start the timer above and log each steep as you pour.</p>
-      <p class="ns-steeps-full" id="steep-full" hidden>40 steeps is the maximum for one session.</p>
+      <p class="ns-steeps-empty" id="steep-empty"{% if form.steeps %} hidden{% endif %}>{{ _("No steeps yet. Start the timer above and log each steep as you pour.") }}</p>
+      <p class="ns-steeps-full" id="steep-full" hidden>{{ _("40 steeps is the maximum for one session.") }}</p>
       {% if errors.steeps %}<p class="field-error">{{ errors.steeps }}</p>{% endif %}
     </section>
 
     <section class="ns-rate" aria-labelledby="ns-rate-h">
-      <h2 class="ns-h" id="ns-rate-h">Rating</h2>
+      <h2 class="ns-h" id="ns-rate-h">{{ _("Rating") }}</h2>
       <div class="ns-stars" role="radiogroup" aria-labelledby="ns-rate-h">
-        {% for n in [1, 2, 3, 4, 5] %}<label class="ns-star{% if form.rating|int(0) >= n %} on{% endif %}"><input type="radio" name="rating" value="{{ n }}" aria-label="Rate {{ n }} out of 5"{% if form.rating|string == n|string %} checked{% endif %}><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2.5l2.9 6 6.6.9-4.8 4.6 1.2 6.5L12 17.4l-5.9 3.1 1.2-6.5L2.5 9.4l6.6-.9z"></path></svg></label>{% endfor %}
+        {% for n in [1, 2, 3, 4, 5] %}<label class="ns-star{% if form.rating|int(0) >= n %} on{% endif %}"><input type="radio" name="rating" value="{{ n }}" aria-label="{{ _('Rate {n} out of 5', n=n) }}"{% if form.rating|string == n|string %} checked{% endif %}><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2.5l2.9 6 6.6.9-4.8 4.6 1.2 6.5L12 17.4l-5.9 3.1 1.2-6.5L2.5 9.4l6.6-.9z"></path></svg></label>{% endfor %}
       </div>
       {% if errors.rating %}<p class="field-error">{{ errors.rating }}</p>{% endif %}
     </section>
 
     <section aria-labelledby="ns-taste">
-      <h2 class="ns-h" id="ns-taste">Taste</h2>
+      <h2 class="ns-h" id="ns-taste">{{ _("Taste") }}</h2>
       <div class="ns-tags">
-        {% for t in tag_options %}<label class="ns-tag"><input type="checkbox" name="taste_tags" value="{{ t }}"{% if t in form.taste_tags %} checked{% endif %}><span>{{ t|capitalize }}</span></label>{% endfor %}
+        {% for t in tag_options %}<label class="ns-tag"><input type="checkbox" name="taste_tags" value="{{ t }}"{% if t in form.taste_tags %} checked{% endif %}><span>{{ _(t)|capitalize }}</span></label>{% endfor %}
       </div>
     </section>
 
     <section>
-      <label class="ns-h ns-h-label" for="ns-note">Note</label>
-      <textarea id="ns-note" name="note" class="ns-note" rows="3" placeholder="What did you taste in the first steeps? How did it change?">{{ form.note }}</textarea>
+      <label class="ns-h ns-h-label" for="ns-note">{{ _("Note") }}</label>
+      <textarea id="ns-note" name="note" class="ns-note" rows="3" placeholder="{{ _('What did you taste in the first steeps? How did it change?') }}">{{ form.note }}</textarea>
     </section>
 
     <section>
       {% if editing and editing.photos %}
       <ul class="ns-photos">
-        {% for ph in editing.photos %}<li><img src="{{ ph.thumb_url }}" alt=""><label class="ns-check"><input type="checkbox" name="remove_photo" value="{{ ph.id }}"> Remove</label></li>{% endfor %}
+        {% for ph in editing.photos %}<li><img src="{{ ph.thumb_url }}" alt=""><label class="ns-check"><input type="checkbox" name="remove_photo" value="{{ ph.id }}"> {{ _("Remove") }}</label></li>{% endfor %}
       </ul>
       {% endif %}
       <label class="ns-drop">
         <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="3"></rect><circle cx="9" cy="11" r="2"></circle><path d="M21 16l-5-5-8 8"></path></svg>
-        <span>Add a photo of the leaf or liquor</span>
-        <span class="ns-drop-hint" id="photo-hint">Up to 4. JPEG, PNG or WebP, 10 MB each. Location and camera data are removed.</span>
+        <span>{{ _("Add a photo of the leaf or liquor") }}</span>
+        <span class="ns-drop-hint" id="photo-hint">{{ _("Up to 4. JPEG, PNG or WebP, 10 MB each. Location and camera data are removed.") }}</span>
         <input type="file" name="photos" id="ns-photos-input" accept="image/jpeg,image/png,image/webp" multiple>
       </label>
     </section>
 
     <section class="ns-when">
-      <label class="ns-h ns-h-label" for="ns-date">Date</label>
+      <label class="ns-h ns-h-label" for="ns-date">{{ _("Date") }}</label>
       <input type="date" id="ns-date" class="ns-date" name="brewed_at" value="{{ form.brewed_at }}" max="{{ today }}">
       {% if errors.brewed_at %}<span class="field-error">{{ errors.brewed_at }}</span>{% endif %}
     </section>
 
     <fieldset class="ns-privacy">
-      <legend>Privacy</legend>
+      <legend>{{ _("Privacy") }}</legend>
       <input type="hidden" name="visibility" value="private">
-      <label class="ns-check"><input type="checkbox" name="visibility" value="public" id="share-feed"{% if form.visibility == 'public' %} checked{% endif %}> Show in the community feed</label>
-      <label class="ns-check"><input type="checkbox" name="allow_comments"{% if form.allow_comments %} checked{% endif %}> Allow comments</label>
+      <label class="ns-check"><input type="checkbox" name="visibility" value="public" id="share-feed"{% if form.visibility == 'public' %} checked{% endif %}> {{ _("Show in the community feed") }}</label>
+      <label class="ns-check"><input type="checkbox" name="allow_comments"{% if form.allow_comments %} checked{% endif %}> {{ _("Allow comments") }}</label>
     </fieldset>
   </div>
 
   <aside class="ns-preview" aria-labelledby="ns-preview-h">
-    <p class="ns-preview-h" id="ns-preview-h">HOW OTHERS WILL SEE IT</p>
+    <p class="ns-preview-h" id="ns-preview-h">{{ _("HOW OTHERS WILL SEE IT") }}</p>
     <span class="ns-preview-cup" id="pv-cup" data-swirl="{{ pv.swirl }}" data-core="{{ pv.core }}">{{ cup(kind, 240, liquor, spin=True) }}</span>
-    <p class="ns-preview-hint">The liquor gets lighter with every steep</p>
-    <h2 class="ns-preview-title" id="pv-title">{{ form.tea_name or 'Your tea' }}</h2>
+    <p class="ns-preview-hint">{{ _("The liquor gets lighter with every steep") }}</p>
+    <h2 class="ns-preview-title" id="pv-title">{{ form.tea_name or _('Your tea') }}</h2>
     <p class="ns-preview-sum" id="pv-summary"></p>
     <div class="ns-preview-orbs" id="pv-orbs" aria-hidden="true"></div>
     <p class="ns-preview-stars" id="pv-stars" aria-hidden="true"></p>
     <ul class="ns-preview-tags" id="pv-tags"></ul>
-    <p class="ns-preview-vis" id="pv-vis">{% if form.visibility == 'public' %}This entry will appear in the community feed{% else %}Only you can see this entry{% endif %}</p>
+    <p class="ns-preview-vis" id="pv-vis">{% if form.visibility == 'public' %}{{ _("This entry will appear in the community feed") }}{% else %}{{ _("Only you can see this entry") }}{% endif %}</p>
   </aside>
 
   <div class="ns-save">
-    <button class="ns-save-btn" type="submit">{% if editing %}Save changes{% else %}Save session{% endif %}</button>
-    <a class="ns-cancel session-cancel" href="{{ back_url }}">Cancel</a>
+    <button class="ns-save-btn" type="submit">{% if editing %}{{ _("Save changes") }}{% else %}{{ _("Save session") }}{% endif %}</button>
+    <a class="ns-cancel session-cancel" href="{{ back_url }}">{{ _("Cancel") }}</a>
   </div>
 </form>
 {% endblock %}

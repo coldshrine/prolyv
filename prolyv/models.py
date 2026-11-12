@@ -482,7 +482,7 @@ class TeaSession(Base):
         if self.steeps:
             bits.append(_n("{n} steep", "{n} steeps", len(self.steeps)))
         if self.vessel:
-            bits.append(self.vessel)
+            bits.append(_(self.vessel))  # the form's vessel names are English keys; anything typed stays as written
         return " · ".join(bits)
 
     @property

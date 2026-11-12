@@ -82,23 +82,23 @@
     }
     function showStatus() {
       var n = Math.min(steepCount() + 1, MAX_STEEPS);
-      status.textContent = "STEEP " + n + " · " + (running ? "RUNNING" : banked ? "PAUSED" : "READY");
+      status.textContent = running ? tr("STEEP {n} · RUNNING", { n: n }) : banked ? tr("STEEP {n} · PAUSED", { n: n }) : tr("STEEP {n} · READY", { n: n });
     }
     function renumber() {
       var all = items();
       all.forEach(function (li, i) {
         var seconds = li.querySelector("[name=steep_seconds]").value;
         li.querySelector(".steep-n").textContent = i + 1;
-        li.querySelector(".steep-sec").textContent = seconds + " s";
+        li.querySelector(".steep-sec").textContent = tr("{n} s", { n: seconds });
         li.querySelector(".orb").style.background = orbCss(i);
-        li.querySelector(".steep-orb").setAttribute("aria-label", "Steep " + (i + 1) + ", " + seconds + " seconds");
+        li.querySelector(".steep-orb").setAttribute("aria-label", tr("Steep {n}, {seconds} seconds", { n: i + 1, seconds: seconds }));
       });
       var full = all.length >= MAX_STEEPS, next = nextSuggested();
       document.getElementById("steep-count").textContent = all.length;
       document.getElementById("steep-empty").hidden = all.length > 0;
       document.getElementById("steep-full").hidden = !full;
       document.getElementById("steep-add-sec").textContent = next;
-      suggestEl.textContent = next + " s";
+      suggestEl.textContent = tr("{n} s", { n: next });
       logBtn.disabled = full; addBtn.disabled = full;
       showStatus();
       refresh();
@@ -115,9 +115,9 @@
       var li = document.createElement("li");
       li.className = "steep-item";
       li.innerHTML = '<button type="button" class="steep-orb"><span class="orb" aria-hidden="true"></span><span class="steep-sec"></span></button>' +
-        '<div class="steep-edit"><label>Steep <span class="steep-n"></span>, seconds <input type="number" name="steep_seconds" min="1" max="3600" inputmode="numeric"></label>' +
-        '<label>What did it taste like? <input type="text" name="steep_note" maxlength="200"></label>' +
-        '<button type="button" class="steep-remove">Remove</button></div>';
+        '<div class="steep-edit"><label>' + tr("Steep {n}, seconds", { n: '<span class="steep-n"></span>' }) + ' <input type="number" name="steep_seconds" min="1" max="3600" inputmode="numeric"></label>' +
+        '<label>' + tr("What did it taste like?") + ' <input type="text" name="steep_note" maxlength="200"></label>' +
+        '<button type="button" class="steep-remove">' + tr("Remove") + '</button></div>';
       li.querySelector("[name=steep_seconds]").value = seconds;
       li.querySelector("[name=steep_note]").value = note || "";
       list.appendChild(li);
@@ -143,7 +143,7 @@
     });
     list.addEventListener("input", function (e) { if (e.target.name === "steep_seconds") renumber(); });
     document.getElementById("steep-reset").addEventListener("click", function () {
-      if (steepCount() && !window.confirm("Clear all logged steeps?")) return;
+      if (steepCount() && !window.confirm(tr("Clear all logged steeps?"))) return;
       list.innerHTML = "";
       clearTimer();
       renumber(); saveDraft();
@@ -156,7 +156,7 @@
       paintToggle();
     }
     function paintToggle() {
-      toggle.textContent = running ? "Stop" : "Start";
+      toggle.textContent = running ? tr("Stop") : tr("Start");
       toggle.classList.toggle("is-running", running);
       showStatus();
     }
@@ -256,7 +256,7 @@
 
     var photos = document.getElementById("ns-photos-input");
     if (photos) photos.addEventListener("change", function () {
-      if (photos.files.length) document.getElementById("photo-hint").textContent = photos.files.length + (photos.files.length === 1 ? " photo" : " photos") + " ready to upload";
+      if (photos.files.length) document.getElementById("photo-hint").textContent = trn("{n} photo ready to upload", "{n} photos ready to upload", photos.files.length);
     });
 
     // "How others will see it"
@@ -268,15 +268,16 @@
     function refresh() {
       fitValues();
       var name = teaName.value.trim();
-      document.getElementById("pv-title").textContent = name || "Your tea";
+      document.getElementById("pv-title").textContent = name || tr("Your tea");
       var bits = [];
       var grams = document.getElementById("grams").value.trim(), water = document.getElementById("water_ml").value.trim(), temp = document.getElementById("temp_c").value.trim();
-      var vessel = document.getElementById("ns-vessel").value, n = steepCount();
-      if (grams) bits.push(grams + " g");
-      if (water) bits.push(water + " ml");
+      var vesselBox = document.getElementById("ns-vessel"), n = steepCount();
+      var vessel = vesselBox.value ? vesselBox.options[vesselBox.selectedIndex].text : "";
+      if (grams) bits.push(tr("{grams} g", { grams: grams }));
+      if (water) bits.push(tr("{ml} ml", { ml: water }));
       if (temp) bits.push(temp + " °C");
       if (vessel) bits.push(vessel);
-      if (n) bits.push(n + (n === 1 ? " steep" : " steeps"));
+      if (n) bits.push(trn("{n} steep", "{n} steeps", n));
       document.getElementById("pv-summary").textContent = bits.join(" · ");
       var orbs = document.getElementById("pv-orbs");
       orbs.textContent = "";
@@ -294,7 +295,7 @@
         li.textContent = el.parentNode.querySelector("span").textContent;
         tags.appendChild(li);
       });
-      document.getElementById("pv-vis").textContent = document.getElementById("share-feed").checked ? "This entry will appear in the community feed" : "Only you can see this entry";
+      document.getElementById("pv-vis").textContent = document.getElementById("share-feed").checked ? tr("This entry will appear in the community feed") : tr("Only you can see this entry");
       var step = Math.min(8, Math.max(1, n));
       paintCup(pvCupBox.querySelector(".cup"), lighten(pvCupBox.dataset.swirl, step), lighten(pvCupBox.dataset.core, step));
     }
@@ -412,7 +413,7 @@
         if (response.type !== "opaqueredirect" && !response.ok) { form.submit(); return; }
         var on = button.getAttribute("aria-pressed") !== "true";
         button.setAttribute("aria-pressed", on ? "true" : "false");
-        button.textContent = on ? "Following" : "Follow";
+        button.textContent = on ? tr("Following") : tr("Follow");
       }).catch(function () { form.submit(); }).then(function () { button.disabled = false; });
     });
 

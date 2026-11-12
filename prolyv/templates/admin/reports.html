@@ -1,28 +1,28 @@
 {% extends "base.html" %}
-{% block title %}Reports · Admin · {{ site_name }}{% endblock %}
+{% block title %}{{ _("Reports") }} · {{ _("Admin") }} · {{ site_name }}{% endblock %}
 {% block content %}
 <div class="container narrow">
-  <p class="eyebrow"><a href="/admin">Admin</a></p>
-  <h1 class="h1">Reports</h1>
+  <p class="eyebrow"><a href="/admin">{{ _("Admin") }}</a></p>
+  <h1 class="h1">{{ _("Reports") }}</h1>
   {% if entries %}
   <ul class="request-list">
     {% for e in entries %}
     <li class="card{% if e.report.resolved_at %} report-resolved{% endif %}">
-      <p class="muted small">{{ e.reason }} · {{ e.report.kind|replace('_', ' ') }} · by @{{ e.report.reporter.handle }} · {{ e.report.created_at.strftime('%-d %b %Y') }}{% if e.report.resolved_at %} · resolved{% endif %}</p>
+      <p class="muted small">{{ e.reason }} · {{ e.kind }} · {{ _("by @{handle}", handle=e.report.reporter.handle) }} · {{ e.report.created_at|date('%-d %b %Y') }}{% if e.report.resolved_at %} · {{ _("resolved") }}{% endif %}</p>
       {% if e.target %}
-      <p><a href="{{ e.target.url }}">@{{ e.target.who }}</a>: {{ e.target.excerpt }}{% if e.target.hidden %} <span class="badge badge-pin">Hidden</span>{% endif %}</p>
-      {% else %}<p class="muted">The content is gone.</p>{% endif %}
+      <p><a href="{{ e.target.url }}">@{{ e.target.who }}</a>: {{ e.target.excerpt }}{% if e.target.hidden %} <span class="badge badge-pin">{{ _("Hidden") }}</span>{% endif %}</p>
+      {% else %}<p class="muted">{{ _("The content is gone.") }}</p>{% endif %}
       <div class="actions">
         {% if e.target and e.target.hidden is not none %}
-        <form method="post" action="/admin/hide"><input type="hidden" name="csrf_token" value="{{ csrf_token }}"><input type="hidden" name="kind" value="{{ e.report.kind }}"><input type="hidden" name="ref_id" value="{{ e.report.ref_id }}"><input type="hidden" name="hidden" value="{{ '0' if e.target.hidden else '1' }}"><button class="btn btn-secondary btn-sm" type="submit">{{ 'Show again' if e.target.hidden else 'Hide' }}</button></form>
+        <form method="post" action="/admin/hide"><input type="hidden" name="csrf_token" value="{{ csrf_token }}"><input type="hidden" name="kind" value="{{ e.report.kind }}"><input type="hidden" name="ref_id" value="{{ e.report.ref_id }}"><input type="hidden" name="hidden" value="{{ '0' if e.target.hidden else '1' }}"><button class="btn btn-secondary btn-sm" type="submit">{{ _("Show again") if e.target.hidden else _("Hide") }}</button></form>
         {% endif %}
         {% if not e.report.resolved_at %}
-        <form method="post" action="/admin/reports/{{ e.report.id }}/resolve"><input type="hidden" name="csrf_token" value="{{ csrf_token }}"><button class="btn btn-ghost btn-sm" type="submit">Mark resolved</button></form>
+        <form method="post" action="/admin/reports/{{ e.report.id }}/resolve"><input type="hidden" name="csrf_token" value="{{ csrf_token }}"><button class="btn btn-ghost btn-sm" type="submit">{{ _("Mark resolved") }}</button></form>
         {% endif %}
       </div>
     </li>
     {% endfor %}
   </ul>
-  {% else %}<div class="card empty"><p class="empty-title">No reports</p></div>{% endif %}
+  {% else %}<div class="card empty"><p class="empty-title">{{ _("No reports") }}</p></div>{% endif %}
 </div>
 {% endblock %}

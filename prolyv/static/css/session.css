@@ -378,3 +378,8 @@
 
 .ns-vintage { margin-top: 14px; max-width: 220px; }
 .ns-vintage .ns-step-hint { margin: 2px 0 8px; }
+
+/* Russian row labels (Температура, Промывка) are longer than the English ones: room for them on a phone */
+@media (max-width: 767.98px) {
+  html[lang="ru"] .cmp-row { grid-template-columns: 86px minmax(0, 1fr) minmax(0, 1fr); }
+}

@@ -9,7 +9,7 @@
   function showAttached(select) {
     var label = select.parentNode.querySelector("[data-attach-label]");
     var option = select.options[select.selectedIndex];
-    if (label) label.textContent = select.value && option ? option.textContent : "Attach a session";
+    if (label) label.textContent = select.value && option ? option.textContent : tr("Attach a session");
   }
 
   // What someone actually said: quoted lines are dropped, so quoting a reply that opens with a quote keeps the answer.

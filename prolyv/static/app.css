@@ -901,3 +901,12 @@ body { overflow-wrap: anywhere; }
   .topnav a { padding: 0 11px; }
   .topbar-actions { gap: 8px; }
 }
+/* 320px phones: the language button needs the room of a few pixels from every other piece of the top bar */
+@media (max-width: 359px) {
+  .topbar-inner { padding-inline: 12px; gap: 8px; }
+  .topbar .brand { gap: 8px; }
+  .topbar .brand-name { font-size: 14px; }
+  .topbar-actions { gap: 6px; }
+  .topbar .icon-btn, .topbar .lang-btn { width: 40px; min-width: 40px; height: 40px; padding: 0; }
+  .topbar .account-menu summary .avatar { --size: 36px !important; }
+}

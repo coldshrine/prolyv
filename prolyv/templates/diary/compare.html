@@ -1,56 +1,56 @@
 {% extends "base.html" %}
 {% from "partials/macros.html" import cup %}
-{% block title %}Compare sessions · {{ site_name }}{% endblock %}
+{% block title %}{{ _("Compare sessions") }} · {{ site_name }}{% endblock %}
 {% block head %}<link rel="stylesheet" href="/static/css/session.css?v={{ version }}"><meta name="robots" content="noindex">{% endblock %}
 {% macro head_cell(s) %}
 <a class="cmp-head" href="/sessions/{{ s.id }}">
   {{ cup(s.category_key, 72, s.tea.liquor_hex if s.tea else None) }}
   <b>{{ s.tea_title }}</b>
-  <span>{{ 'you' if current_user and s.user_id == current_user.id else ('Deleted account' if s.user.deleted_at else '@' ~ s.user.handle) }} · {{ s.brewed_at.strftime('%-d %b %Y') }}</span>
+  <span>{{ _('you') if current_user and s.user_id == current_user.id else (_('Deleted account') if s.user.deleted_at else '@' ~ s.user.handle) }} · {{ s.brewed_at|date('%-d %b %Y') }}</span>
 </a>
 {% endmacro %}
 {% macro row(label, one, two) %}
 <div class="cmp-row"><span class="cmp-label">{{ label }}</span><span class="cmp-cell{% if one != two %} is-diff{% endif %}">{{ one or '–' }}</span><span class="cmp-cell{% if one != two %} is-diff{% endif %}">{{ two or '–' }}</span></div>
 {% endmacro %}
-{% macro grams(s) %}{% if s.grams %}{{ '%g'|format(s.grams) }} g{% endif %}{% endmacro %}
+{% macro grams(s) %}{% if s.grams %}{{ _('{grams} g', grams='%g'|format(s.grams)) }}{% endif %}{% endmacro %}
 {% block content %}
 <div class="cmp-page">
-  <nav class="crumbs" aria-label="Breadcrumbs"><a href="/diary">Diary</a> / <a href="/sessions/{{ first.id }}">{{ first.tea_name }}</a> / <span aria-current="page">Compare</span></nav>
-  <h1 class="cmp-title">Compare sessions</h1>
+  <nav class="crumbs" aria-label="{{ _('Breadcrumbs') }}"><a href="/diary">{{ _("Diary") }}</a> / <a href="/sessions/{{ first.id }}">{{ first.tea_name }}</a> / <span aria-current="page">{{ _("Compare") }}</span></nav>
+  <h1 class="cmp-title">{{ _("Compare sessions") }}</h1>
   {% if second %}
   <div class="cmp-table">
     <div class="cmp-row cmp-row-head"><span></span>{{ head_cell(first) }}{{ head_cell(second) }}</div>
-    {{ row('Leaf', grams(first)|string, grams(second)|string) }}
-    {{ row('Water', (first.water_ml ~ ' ml') if first.water_ml else '', (second.water_ml ~ ' ml') if second.water_ml else '') }}
-    {{ row('Temp', (first.temp_c ~ ' °C') if first.temp_c else '', (second.temp_c ~ ' °C') if second.temp_c else '') }}
-    {{ row('Vessel', (first.vessel or '')|capitalize, (second.vessel or '')|capitalize) }}
-    {{ row('Rinse', 'Yes' if first.rinse else 'No', 'Yes' if second.rinse else 'No') }}
-    {{ row('Rating', (first.rating ~ ' / 5') if first.rating else '', (second.rating ~ ' / 5') if second.rating else '') }}
-    {{ row('Steeps', first.steeps|length, second.steeps|length) }}
+    {{ row(_('Leaf'), grams(first)|string, grams(second)|string) }}
+    {{ row(_('Water'), _('{ml} ml', ml=first.water_ml)|string if first.water_ml else '', _('{ml} ml', ml=second.water_ml)|string if second.water_ml else '') }}
+    {{ row(_('Temp'), (first.temp_c ~ ' °C') if first.temp_c else '', (second.temp_c ~ ' °C') if second.temp_c else '') }}
+    {{ row(_('Vessel'), (_(first.vessel) if first.vessel else '')|capitalize, (_(second.vessel) if second.vessel else '')|capitalize) }}
+    {{ row(_('Rinse'), (_('Yes') if first.rinse else _('No'))|string, (_('Yes') if second.rinse else _('No'))|string) }}
+    {{ row(_('Rating'), (first.rating ~ ' / 5') if first.rating else '', (second.rating ~ ' / 5') if second.rating else '') }}
+    {{ row(_('Steeps'), first.steeps|length, second.steeps|length) }}
     {% for i in range(steep_count) %}
     {% set a = first.steeps[i] if i < first.steeps|length else None %}
     {% set b = second.steeps[i] if i < second.steeps|length else None %}
     <div class="cmp-row"><span class="cmp-label">#{{ i + 1 }}</span>
-      <span class="cmp-cell{% if not a or not b or a.seconds != b.seconds %} is-diff{% endif %}">{% if a %}{{ a.seconds }} s{% if a.note %}<small>{{ a.note }}</small>{% endif %}{% else %}–{% endif %}</span>
-      <span class="cmp-cell{% if not a or not b or a.seconds != b.seconds %} is-diff{% endif %}">{% if b %}{{ b.seconds }} s{% if b.note %}<small>{{ b.note }}</small>{% endif %}{% else %}–{% endif %}</span>
+      <span class="cmp-cell{% if not a or not b or a.seconds != b.seconds %} is-diff{% endif %}">{% if a %}{{ _("{n} s", n=a.seconds) }}{% if a.note %}<small>{{ a.note }}</small>{% endif %}{% else %}–{% endif %}</span>
+      <span class="cmp-cell{% if not a or not b or a.seconds != b.seconds %} is-diff{% endif %}">{% if b %}{{ _("{n} s", n=b.seconds) }}{% if b.note %}<small>{{ b.note }}</small>{% endif %}{% else %}–{% endif %}</span>
     </div>
     {% endfor %}
     {% if first.taste_tags or second.taste_tags %}
-    <div class="cmp-row"><span class="cmp-label">Taste</span>
-      {% for s in (first, second) %}<span class="cmp-cell cmp-tags">{% for t in s.taste_tags or [] %}<span class="cmp-tag{% if t in shared_tags %} is-shared{% endif %}">{{ t|capitalize }}</span>{% else %}–{% endfor %}</span>{% endfor %}
+    <div class="cmp-row"><span class="cmp-label">{{ _("Taste") }}</span>
+      {% for s in (first, second) %}<span class="cmp-cell cmp-tags">{% for t in s.taste_tags or [] %}<span class="cmp-tag{% if t in shared_tags %} is-shared{% endif %}">{{ _(t)|capitalize }}</span>{% else %}–{% endfor %}</span>{% endfor %}
     </div>
     {% endif %}
   </div>
-  <p class="cmp-legend"><span class="cmp-legend-mark"></span> marks what differs. Notes you both tasted are highlighted.</p>
+  <p class="cmp-legend"><span class="cmp-legend-mark"></span> {{ _("marks what differs. Notes you both tasted are highlighted.") }}</p>
   {% else %}
-  <p class="cmp-empty">You have no other session to compare this one with yet. <a href="/sessions/new?from={{ first.id }}">Brew it the same way</a> and log it.</p>
+  {% set brew_link %}<a href="/sessions/new?from={{ first.id }}">{{ _("Brew it the same way") }}</a>{% endset %}<p class="cmp-empty">{{ _("You have no other session to compare this one with yet. {link} and log it.", link=brew_link) }}</p>
   {% endif %}
   {% if mine %}
   <section class="cmp-pick" aria-labelledby="cmp-pick-h">
-    <h2 id="cmp-pick-h">Compare with another of yours</h2>
+    <h2 id="cmp-pick-h">{{ _("Compare with another of yours") }}</h2>
     <ul>
       {% for m in mine %}
-      <li><a href="/sessions/{{ first.id }}/compare?with={{ m.id }}"{% if second and m.id == second.id %} aria-current="true"{% endif %}>{{ cup(m.category_key, 40, m.tea.liquor_hex if m.tea else None) }}<span><b>{{ m.tea_title }}</b><small>{{ m.brewed_at.strftime('%-d %b %Y') }}{% if m.params_line %} · {{ m.params_line }}{% endif %}</small></span></a></li>
+      <li><a href="/sessions/{{ first.id }}/compare?with={{ m.id }}"{% if second and m.id == second.id %} aria-current="true"{% endif %}>{{ cup(m.category_key, 40, m.tea.liquor_hex if m.tea else None) }}<span><b>{{ m.tea_title }}</b><small>{{ m.brewed_at|date('%-d %b %Y') }}{% if m.params_line %} · {{ m.params_line }}{% endif %}</small></span></a></li>
       {% endfor %}
     </ul>
   </section>

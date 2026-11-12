@@ -350,3 +350,7 @@ a.f-who-name:hover { color: var(--link); }
   .f-blog-summary { color: #C9CCEB; }
   .f-blog-more { display: none; }
 }
+
+/* Russian words are longer: the opening post's actions may take two rows on a phone rather than spill out of their pills */
+html:lang(ru) .f-op-actions { flex-wrap: wrap; }
+html:lang(ru) .f-op-actions > .f-act, html:lang(ru) .f-op-actions form { flex: 1 1 auto; }

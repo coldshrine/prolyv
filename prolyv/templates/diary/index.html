@@ -1,27 +1,27 @@
 {% extends "base.html" %}
 {% from "partials/macros.html" import cup, show_more %}
-{% block title %}My diary · {{ site_name }}{% endblock %}
+{% block title %}{{ _("My diary") }} · {{ site_name }}{% endblock %}
 {% block head %}<link rel="stylesheet" href="/static/css/diary.css?v={{ version }}">{% endblock %}
 {% block body_class %}dy-page{% endblock %}
 {% macro share_icon(size=16) %}<svg width="{{ size }}" height="{{ size }}" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3v12"></path><path d="M7 8l5-5 5 5"></path><path d="M5 13v6a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2v-6"></path></svg>{% endmacro %}
 {% block content %}
-<section class="dy-hero" aria-label="Your last 30 days">
+<section class="dy-hero" aria-label="{{ _('Your last 30 days') }}">
   <div class="dy-hero-inner">
-    <p class="dy-kicker">HI, {{ current_user.display_name.split(' ')[0]|upper }}</p>
-    <h1 class="dy-title">Your last 30 days in cups</h1>
+    <p class="dy-kicker">{{ _("HI, {name}", name=current_user.display_name.split(' ')[0]|upper) }}</p>
+    <h1 class="dy-title">{{ _("Your last 30 days in cups") }}</h1>
     <figure class="dy-fig">
       <span class="dy-cup">{{ cup(stats.favourite.key if stats.favourite else 'oolong', 260, spin=True) }}</span>
-      {% if stats.favourite %}<figcaption>Your favourite type is <b>{{ stats.favourite.label|lower }}</b> · {{ stats.favourite.count }} of {{ stats.sessions }} session{{ '' if stats.sessions == 1 else 's' }}</figcaption>{% endif %}
+      {% if stats.favourite %}{% set fav_type %}<b>{{ stats.favourite.label|lower }}</b>{% endset %}<figcaption>{{ _("Your favourite type is {type}", type=fav_type) }} · {{ _n("{count} of {n} session", "{count} of {n} sessions", stats.sessions, count=stats.favourite.count) }}</figcaption>{% endif %}
     </figure>
     <div class="dy-stats">
-      <div class="dy-stat"><p class="dy-stat-label">Sessions</p><p class="dy-stat-value grad-1">{{ stats.sessions }}</p><p class="dy-stat-hint">{{ stats.sessions_hint }}</p></div>
-      {% if stats.favourite %}<div class="dy-stat"><p class="dy-stat-label">Favourite type</p><p class="dy-stat-value grad-2{% if stats.favourite.label|length > 7 %} is-long{% endif %}">{{ stats.favourite.label }}</p><p class="dy-stat-hint">{{ stats.favourite.count }} of {{ stats.sessions }} session{{ '' if stats.sessions == 1 else 's' }}</p></div>{% endif %}
-      {% if stats.avg_rating %}<div class="dy-stat"><p class="dy-stat-label">Average rating</p><p class="dy-stat-value grad-3">{{ stats.avg_rating }}</p><p class="dy-stat-hint">out of 5</p></div>{% endif %}
-      <div class="dy-stat"><p class="dy-stat-label">New teas</p><p class="dy-stat-value grad-4">{{ stats.new_teas }}</p><p class="dy-stat-hint">tried for the first time</p></div>
+      <div class="dy-stat"><p class="dy-stat-label">{{ _("Sessions") }}</p><p class="dy-stat-value grad-1">{{ stats.sessions }}</p><p class="dy-stat-hint">{{ stats.sessions_hint }}</p></div>
+      {% if stats.favourite %}<div class="dy-stat"><p class="dy-stat-label">{{ _("Favourite type") }}</p><p class="dy-stat-value grad-2{% if stats.favourite.label|length > 7 %} is-long{% endif %}">{{ stats.favourite.label }}</p><p class="dy-stat-hint">{{ _n("{count} of {n} session", "{count} of {n} sessions", stats.sessions, count=stats.favourite.count) }}</p></div>{% endif %}
+      {% if stats.avg_rating %}<div class="dy-stat"><p class="dy-stat-label">{{ _("Average rating") }}</p><p class="dy-stat-value grad-3">{{ stats.avg_rating }}</p><p class="dy-stat-hint">{{ _("out of 5") }}</p></div>{% endif %}
+      <div class="dy-stat"><p class="dy-stat-label">{{ _("New teas") }}</p><p class="dy-stat-value grad-4">{{ stats.new_teas }}</p><p class="dy-stat-hint">{{ _("tried for the first time") }}</p></div>
     </div>
     <div class="dy-actions">
-      <a class="dy-btn dy-btn-primary" href="/sessions/new"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" aria-hidden="true"><path d="M12 5v14M5 12h14"></path></svg>New session</a>
-      {% if stats.sessions %}<a class="dy-btn dy-btn-glass" href="/diary/month.png" target="_blank" rel="noopener">{{ share_icon(18) }}Share your month</a>{% endif %}
+      <a class="dy-btn dy-btn-primary" href="/sessions/new"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" aria-hidden="true"><path d="M12 5v14M5 12h14"></path></svg>{{ _("New session") }}</a>
+      {% if stats.sessions %}<a class="dy-btn dy-btn-glass" href="/diary/month.png" target="_blank" rel="noopener">{{ share_icon(18) }}{{ _("Share your month") }}</a>{% endif %}
     </div>
   </div>
 </section>
@@ -29,11 +29,11 @@
 <div class="dy-body">
   <div class="dy-main">
     <section class="dy-card dy-cal" aria-labelledby="cal-h">
-      <div class="dy-cal-head"><h2 id="cal-h">Five weeks in cups</h2><p>{{ calendar.range }}</p></div>
-      <div class="dy-cal-days" aria-hidden="true"><span>Mon</span><span>Tue</span><span>Wed</span><span>Thu</span><span>Fri</span><span>Sat</span><span>Sun</span></div>
+      <div class="dy-cal-head"><h2 id="cal-h">{{ _("Five weeks in cups") }}</h2><p>{{ calendar.range }}</p></div>
+      <div class="dy-cal-days" aria-hidden="true"><span>{{ _("Mon") }}</span><span>{{ _("Tue") }}</span><span>{{ _("Wed") }}</span><span>{{ _("Thu") }}</span><span>{{ _("Fri") }}</span><span>{{ _("Sat") }}</span><span>{{ _("Sun") }}</span></div>
       <div class="dy-cal-grid">
         {% for d in calendar.cells %}
-        {% if d.count %}<a class="dy-day" href="/diary?day={{ d.date.isoformat() }}#sessions" aria-label="{{ d.date.strftime('%-d %B') }}: {{ d.count }} session{{ '' if d.count == 1 else 's' }}">{{ cup(d.kind, 46, d.hex) }}<span class="dy-day-label{% if d.today %} is-today{% endif %}">{{ d.label }}</span></a>
+        {% if d.count %}<a class="dy-day" href="/diary?day={{ d.date.isoformat() }}#sessions" aria-label="{{ d.date|date('%-d %B') }}: {{ _n('{n} session', '{n} sessions', d.count) }}">{{ cup(d.kind, 46, d.hex) }}<span class="dy-day-label{% if d.today %} is-today{% endif %}">{{ d.label }}</span></a>
         {% else %}<div class="dy-day{% if d.future %} is-future{% endif %}"><span class="dy-day-empty"></span><span class="dy-day-label{% if d.today %} is-today{% endif %}">{{ d.label }}</span></div>{% endif %}
         {% endfor %}
       </div>
@@ -41,15 +41,15 @@
 
     <section class="dy-sessions" id="sessions" aria-labelledby="sessions-h">
       <div class="dy-sessions-head">
-        <h2 id="sessions-h">Sessions</h2>
+        <h2 id="sessions-h">{{ _("Sessions") }}</h2>
         {% if type_chips %}
-        <nav class="dy-chips" aria-label="Filter sessions by type">
-          <a class="dy-chip" href="/diary#sessions"{% if not picked_kind %} aria-current="true"{% endif %}>All</a>
+        <nav class="dy-chips" aria-label="{{ _('Filter sessions by type') }}">
+          <a class="dy-chip" href="/diary#sessions"{% if not picked_kind %} aria-current="true"{% endif %}>{{ _("All") }}</a>
           {% for chip in type_chips %}<a class="dy-chip" href="/diary?type={{ chip.key }}#sessions"{% if picked_kind == chip.key %} aria-current="true"{% endif %}>{{ chip.label }}</a>{% endfor %}
         </nav>
         {% endif %}
       </div>
-      {% if picked_day %}<p class="dy-day-note">Sessions on {{ picked_day.strftime('%-d %B %Y') }} · <a href="/diary#sessions">Show all</a></p>{% endif %}
+      {% if picked_day %}<p class="dy-day-note">{{ _("Sessions on {date}", date=picked_day|date('%-d %B %Y')) }} · <a href="/diary#sessions">{{ _("Show all") }}</a></p>{% endif %}
       {% if sessions %}
       <ol class="dy-list more-list">
         {% for s in sessions %}
@@ -57,7 +57,7 @@
           <a class="dy-row-main" href="/sessions/{{ s.id }}">
             {% if s.photos %}<img class="dy-thumb" src="{{ s.photos[0].thumb_url }}" alt="" loading="lazy">{% else %}{{ cup(s.category_key, 60, s.tea.liquor_hex if s.tea else None) }}{% endif %}
             <span class="dy-row-text">
-              <span class="dy-row-date">{{ s.brewed_at.strftime('%b %-d')|upper }}{% if s.brewed_at.year != today.year %} {{ s.brewed_at.year }}{% endif %}{% if not s.is_public %} · PRIVATE{% endif %}</span>
+              <span class="dy-row-date">{{ s.brewed_at|date('%b %-d')|upper }}{% if s.brewed_at.year != today.year %} {{ s.brewed_at.year }}{% endif %}{% if not s.is_public %} · {{ _("PRIVATE") }}{% endif %}</span>
               <span class="dy-row-tea">{{ s.tea_title }}</span>
               {% if s.params_line %}<span class="dy-row-params">{{ s.params_line }}</span>{% endif %}
             </span>
@@ -65,18 +65,19 @@
           {% if s.note %}<p class="dy-row-note">{{ s.note[:220] }}{% if s.note|length > 220 %}…{% endif %}</p>{% endif %}
           {% if s.rating or s.is_public %}
           <div class="dy-row-foot">
-            {% if s.rating %}<span class="stars" aria-label="Rated {{ s.rating }} out of 5">{{ s.stars }}</span>{% else %}<span></span>{% endif %}
-            {% if s.is_public %}<a class="dy-share" href="/sessions/{{ s.id }}/story.png" target="_blank" rel="noopener">{{ share_icon() }}Share</a>{% endif %}
+            {% if s.rating %}<span class="stars" aria-label="{{ _('Rated {n} out of 5', n=s.rating) }}">{{ s.stars }}</span>{% else %}<span></span>{% endif %}
+            {% if s.is_public %}<a class="dy-share" href="/sessions/{{ s.id }}/story.png" target="_blank" rel="noopener">{{ share_icon() }}{{ _("Share") }}</a>{% endif %}
           </div>
           {% endif %}
         </li>
         {% endfor %}
-        {% if next_url %}{{ show_more(next_url, shown ~ " of " ~ filtered_total, list=".dy-list", tag="li") }}{% endif %}
+        {% if next_url %}{{ show_more(next_url, _("{shown} of {total}", shown=shown, total=filtered_total), list=".dy-list", tag="li") }}{% endif %}
       </ol>
       {% elif stats.total %}
-      <p class="dy-empty">{% if picked_day %}No sessions on this day.{% else %}No sessions of this type yet.{% endif %}</p>
+      <p class="dy-empty">{% if picked_day %}{{ _("No sessions on this day.") }}{% else %}{{ _("No sessions of this type yet.") }}{% endif %}</p>
       {% else %}
-      <p class="dy-empty">No sessions yet. Brew something and <a href="/sessions/new">log it</a>.</p>
+      {% set log_link %}<a href="/sessions/new">{{ _("log it") }}</a>{% endset %}
+      <p class="dy-empty">{{ _("No sessions yet. Brew something and {link}.", link=log_link) }}</p>
       {% endif %}
     </section>
   </div>
@@ -84,36 +85,36 @@
   {% if stats.total %}
   <aside class="dy-side">
     <section class="dy-card dy-profile" aria-labelledby="profile-h">
-      <h2 id="profile-h">Your tea profile</h2>
-      <p class="dy-card-sub">From all {{ stats.total }} session{{ '' if stats.total == 1 else 's' }} in your diary.</p>
+      <h2 id="profile-h">{{ _("Your tea profile") }}</h2>
+      <p class="dy-card-sub">{{ _n("From all {n} session in your diary.", "From all {n} sessions in your diary.", stats.total) }}</p>
       <div class="dy-share-bar" aria-hidden="true">{% for t in profile_types %}<span style="width:{{ t.pct }}%;background:{{ t.grad }}"></span>{% endfor %}</div>
       <ul class="dy-type-list">
         {% for t in profile_types %}<li><span class="dy-type-dot" style="background:{{ t.grad }}" aria-hidden="true"></span><span class="dy-type-name">{{ t.label }}</span><b>{{ t.n }}</b></li>{% endfor %}
       </ul>
       {% if profile_notes %}
-      <p class="dy-notes-h">TOP NOTES</p>
+      <p class="dy-notes-h">{{ _("TOP NOTES") }}</p>
       <ul class="dy-notes">{% for n in profile_notes %}<li>{{ n.label }} · {{ n.n }}</li>{% endfor %}</ul>
       {% endif %}
     </section>
 
     <section class="dy-card dy-shelf" aria-labelledby="shelf-h">
-      <h2 id="shelf-h">Shelf</h2>
-      <p class="dy-card-sub">The teas you brew most.</p>
+      <h2 id="shelf-h">{{ _("Shelf") }}</h2>
+      <p class="dy-card-sub">{{ _("The teas you brew most.") }}</p>
       <ul class="dy-shelf-list">
         {% for item in shelf %}
-        <li><a href="{{ item.url }}">{{ cup(item.kind, 40, item.hex) }}<span class="dy-shelf-text"><span class="dy-shelf-name">{{ item.name }}</span><span class="dy-shelf-meta">{{ item.count }}× · last {{ item.last.strftime('%-d %b') }}{% if item.avg %} · ★ {{ item.avg }}{% endif %}</span></span></a></li>
+        <li><a href="{{ item.url }}">{{ cup(item.kind, 40, item.hex) }}<span class="dy-shelf-text"><span class="dy-shelf-name">{{ item.name }}</span><span class="dy-shelf-meta">{{ item.count }}× · {{ _("last {date}", date=item.last|date('%-d %b')) }}{% if item.avg %} · ★ {{ item.avg }}{% endif %}</span></span></a></li>
         {% endfor %}
       </ul>
     </section>
 
     {% if year_card %}
-    <section class="dy-year" aria-label="Your tea year {{ year_card.year }}">
-      <p class="dy-year-kicker">YOUR TEA YEAR {{ year_card.year }}</p>
-      <p class="dy-year-title">{{ year_card.sessions }} session{{ '' if year_card.sessions == 1 else 's' }} of {{ year_card.teas }} tea{{ '' if year_card.teas == 1 else 's' }}</p>
+    <section class="dy-year" aria-label="{{ _('Your tea year {year}', year=year_card.year) }}">
+      <p class="dy-year-kicker">{{ _("YOUR TEA YEAR {year}", year=year_card.year) }}</p>
+      <p class="dy-year-title">{{ _("{sessions} of {teas}", sessions=_n("{n} session", "{n} sessions", year_card.sessions), teas=_n("{n} tea", "{n} teas", year_card.teas)) }}</p>
       <ul class="dy-year-list">
-        <li><span>Top tea</span><b>{{ year_card.top_tea }} · {{ year_card.top_tea_count }}×</b></li>
-        {% if year_card.top_note %}<li><span>Favourite note</span><b>{{ year_card.top_note|capitalize }} · {{ year_card.top_note_count }}×</b></li>{% endif %}
-        {% if year_card.longest %}<li><span>Longest session</span><b><a href="/sessions/{{ year_card.longest.id }}">{{ year_card.longest.name }} · {{ year_card.longest.steeps }} steep{{ '' if year_card.longest.steeps == 1 else 's' }}</a></b></li>{% endif %}
+        <li><span>{{ _("Top tea") }}</span><b>{{ year_card.top_tea }} · {{ year_card.top_tea_count }}×</b></li>
+        {% if year_card.top_note %}<li><span>{{ _("Favourite note") }}</span><b>{{ _(year_card.top_note)|capitalize }} · {{ year_card.top_note_count }}×</b></li>{% endif %}
+        {% if year_card.longest %}<li><span>{{ _("Longest session") }}</span><b><a href="/sessions/{{ year_card.longest.id }}">{{ year_card.longest.name }} · {{ _n("{n} steep", "{n} steeps", year_card.longest.steeps) }}</a></b></li>{% endif %}
       </ul>
     </section>
     {% endif %}

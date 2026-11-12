@@ -14,6 +14,7 @@ from fastapi.responses import FileResponse, RedirectResponse, Response
 from sqlalchemy import func, select
 from sqlalchemy.orm import selectinload
 
+from prolyv.i18n import N_, _, _n, format_date, get_lang
 from prolyv.models import (
     CATEGORY_LABELS,
     EXPLAINER_SLUG,
@@ -45,7 +46,7 @@ from prolyv.web.text import mentions
 
 router = APIRouter()
 
-QUOTA_TEXT = "You're saving very quickly. Please wait a few minutes and try again: nothing here is lost."
+QUOTA_TEXT = N_("You're saving very quickly. Please wait a few minutes and try again: nothing here is lost.")
 PHOTO_FILE = re.compile(r"[0-9a-f]{32}-(?:1200|400)\.webp")
 HANDLE_RE = re.compile(r"[a-z0-9_]{3,24}")
 COMMENT_PAGE = 20
@@ -167,24 +168,24 @@ def parse_session_form(data) -> tuple[dict, dict]:  # noqa: ANN001
         try:
             value = cast(float(raw)) if cast is int else cast(raw)
         except (ValueError, OverflowError):
-            errors[key] = f"{label or key} must be a number."
+            errors[key] = _("{field} must be a number.", field=label or key)
             return raw
         if not low <= value <= high:
-            errors[key] = f"{label or key} must be between {low:g} and {high:g}."
+            errors[key] = _("{field} must be between {low} and {high}.", field=label or key, low=f"{low:g}", high=f"{high:g}")
         return value
 
     form["tea_id"] = text("tea_id", 40)
     form["post_id"] = text("post_id", 40)
     form["tea_name"] = text("tea_name", 160)
-    form["vintage"] = number("vintage", 1900, date.today().year, int, "Year")
-    form["grams"] = number("grams", 0.1, 100, float, "Leaf")
-    form["water_ml"] = number("water_ml", 10, 5000, int, "Water")
-    form["temp_c"] = number("temp_c", 30, 100, int, "Temperature")
+    form["vintage"] = number("vintage", 1900, date.today().year, int, _("Year"))
+    form["grams"] = number("grams", 0.1, 100, float, _("Leaf"))
+    form["water_ml"] = number("water_ml", 10, 5000, int, _("Water"))
+    form["temp_c"] = number("temp_c", 30, 100, int, _("Temperature"))
     form["vessel"] = text("vessel", 40).lower()
     if form["vessel"] and form["vessel"] not in VESSELS:
         form["vessel"] = "other"
     form["rinse"] = data.get("rinse") in ("on", "1", "true")
-    form["rating"] = number("rating", 1, 5, int, "Rating")
+    form["rating"] = number("rating", 1, 5, int, _("Rating"))
     form["taste_tags"] = [t for t in data.getlist("taste_tags") if t in SESSION_TASTE_TAGS][:8]
     form["note"] = text("note", 4000)
     # the "Show in the community feed" box posts public after a hidden private, so look at every value
@@ -194,9 +195,9 @@ def parse_session_form(data) -> tuple[dict, dict]:  # noqa: ANN001
     try:
         brewed = date.fromisoformat(form["brewed_at"])
         if brewed > date.today():
-            errors["brewed_at"] = "That date is in the future."
+            errors["brewed_at"] = _("That date is in the future.")
     except ValueError:
-        errors["brewed_at"] = "Use a date like 2026-11-05."
+        errors["brewed_at"] = _("Use a date like 2026-11-05.")
 
     seconds_list = data.getlist("steep_seconds")
     notes_list = data.getlist("steep_note")
@@ -210,16 +211,16 @@ def parse_session_form(data) -> tuple[dict, dict]:  # noqa: ANN001
         try:
             seconds = int(float(raw))
         except (ValueError, OverflowError):
-            errors["steeps"] = "Steep times must be whole seconds."
+            errors["steeps"] = _("Steep times must be whole seconds.")
             steeps.append({"seconds": raw, "note": note})  # stays in the list so it can be corrected
             continue
         if not 1 <= seconds <= 3600:
-            errors["steeps"] = "Steep times must be between 1 second and an hour."
+            errors["steeps"] = _("Steep times must be between 1 second and an hour.")
         steeps.append({"seconds": seconds, "note": note})
     form["steeps"] = steeps
 
     if not form["tea_name"]:
-        errors["tea_name"] = "Which tea was it?"
+        errors["tea_name"] = _("Which tea was it?")
     return form, errors
 
 
@@ -274,7 +275,7 @@ async def apply_photos(request: Request, db, sess: TeaSession, data) -> str | No
         if isinstance(upload, str) or not upload.filename:
             continue
         if len(sess.photos) >= MAX_PHOTOS:
-            problem = f"A session can have up to {MAX_PHOTOS} photos."
+            problem = _n("A session can have up to {n} photo.", "A session can have up to {n} photos.", MAX_PHOTOS)
             break
         content = await upload.read()
         try:
@@ -346,7 +347,7 @@ async def session_create(request: Request, db: DbDep, settings: SettingsDep, sig
     if repeat is not None:
         return RedirectResponse(f"/sessions/{repeat}", status_code=303)
     if not request.app.state.post_limiter.allow(str(user.id)):  # same quota as post_quota, but the entry stays in the form
-        return render(request, "diary/session_form.html", form_context(form, {"quota": QUOTA_TEXT}, tea=linked_tea(db, form)), status_code=429)
+        return render(request, "diary/session_form.html", form_context(form, {"quota": _(QUOTA_TEXT)}, tea=linked_tea(db, form)), status_code=429)
     sess = TeaSession(user=user, tea_name=form["tea_name"])
     db.add(sess)
     db.flush()
@@ -357,9 +358,9 @@ async def session_create(request: Request, db: DbDep, settings: SettingsDep, sig
     index_session(db, sess)
     response = RedirectResponse(f"/sessions/{sess.id}", status_code=303)
     if problem:
-        set_flash(response, settings, signer, "error", f"Session saved, but a photo was refused. {problem}")
+        set_flash(response, settings, signer, "error", _("Session saved, but a photo was refused. {problem}", problem=problem))
     else:
-        set_flash(response, settings, signer, "ok", "Session saved to your diary." + (" It is public." if sess.is_public else ""))
+        set_flash(response, settings, signer, "ok", _("Session saved to your diary. It is public.") if sess.is_public else _("Session saved to your diary."))
     return response
 
 
@@ -387,9 +388,9 @@ async def session_edit(request: Request, db: DbDep, settings: SettingsDep, signe
     index_session(db, sess)
     response = RedirectResponse(f"/sessions/{sess.id}", status_code=303)
     if problem:
-        set_flash(response, settings, signer, "error", f"Saved, but a photo was refused. {problem}")
+        set_flash(response, settings, signer, "error", _("Saved, but a photo was refused. {problem}", problem=problem))
     else:
-        set_flash(response, settings, signer, "ok", "Session updated.")
+        set_flash(response, settings, signer, "ok", _("Session updated."))
     return response
 
 
@@ -404,7 +405,7 @@ def session_visibility(request: Request, db: DbDep, settings: SettingsDep, signe
     announce_session(db, sess)
     index_session(db, sess)
     response = RedirectResponse(f"/sessions/{sess.id}", status_code=303)
-    set_flash(response, settings, signer, "ok", "This session is now public." if sess.is_public else "This session is private again.")
+    set_flash(response, settings, signer, "ok", _("This session is now public.") if sess.is_public else _("This session is private again."))
     return response
 
 
@@ -417,7 +418,7 @@ def session_delete(request: Request, db: DbDep, settings: SettingsDep, signer: S
     drop_comment_votes(db, [c.id for c in sess.comments])
     db.delete(sess)
     response = RedirectResponse("/diary", status_code=303)
-    set_flash(response, settings, signer, "ok", "Session deleted.")
+    set_flash(response, settings, signer, "ok", _("Session deleted."))
     return response
 
 
@@ -472,7 +473,7 @@ def session_page(request: Request, db: DbDep, settings: SettingsDep, user: Curre
     sess = get_session(db, session_id, user, is_admin)
     is_owner = user is not None and user.id == sess.user_id
     description = sess.params_line + (f" · {sess.note[:120]}" if sess.note else "")
-    og = {"title": f"{sess.tea_title} · {sess.user.display_name}'s tea diary", "description": description[:200],
+    og = {"title": _("{tea} · {name}'s tea diary", tea=sess.tea_title, name=sess.user.display_name), "description": description[:200],
           "url": f"{settings.base_url}/sessions/{sess.id}"}
     image = sess.tea.primary_image if sess.tea else None
     if image:
@@ -495,7 +496,7 @@ def session_page(request: Request, db: DbDep, settings: SettingsDep, user: Curre
         "steep_rows": rows, "picked_steep": rows[min(2, len(rows) - 1)] if rows else None,
         "others": other_sessions(db, sess), "can_compare": user is None or has_other_session(db, user, sess),
         "brew_post": brew_post if brew_post is not None and brew_post.is_published else None,
-        "category_label": CATEGORY_LABELS[sess.tea.category] if sess.tea else None,
+        "category_label": _(CATEGORY_LABELS[sess.tea.category]) if sess.tea else None,
         "reply_to": reply.lower() if HANDLE_RE.fullmatch(reply.lower()) else "",
         "comment_body": getattr(request.state, "comment_body", ""), "comment_error": getattr(request.state, "comment_error", ""),
     }
@@ -551,16 +552,21 @@ def session_story(request: Request, db: DbDep, settings: SettingsDep, user: Curr
     """The 1080x1920 card for Instagram and TikTok stories, drawn on demand and cached on disk."""
     sess = get_session(db, session_id, user, getattr(request.state, "is_admin", False))
     folder = Path(settings.media_dir) / "stories"
-    path = folder / f"{sess.id.hex}-{int(sess.updated_at.timestamp())}-v2.png"  # v2: the canvas layout
+    # v2: the canvas layout; each language has its own card, and a new edit (a new timestamp) replaces them all
+    version = f"{sess.id.hex}-{int(sess.updated_at.timestamp())}-"
+    lang = get_lang()
+    path = folder / f"{version}v2{'' if lang == 'en' else '-' + lang}.png"
     if path.exists():
         data = path.read_bytes()
     else:
         data = render_story(sess, settings.base_host)
         folder.mkdir(parents=True, exist_ok=True)
         for old in folder.glob(f"{sess.id.hex}-*.png"):
-            old.unlink(missing_ok=True)
+            if not old.name.startswith(version):
+                old.unlink(missing_ok=True)
         path.write_bytes(data)
-    headers = {"Content-Disposition": f'inline; filename="prolyv-session-{sess.id.hex[:8]}.png"', "Cache-Control": "private, max-age=300"}
+    headers = {"Content-Disposition": f'inline; filename="prolyv-session-{sess.id.hex[:8]}.png"', "Cache-Control": "private, max-age=300",
+               "Vary": "Cookie, Accept-Language"}
     return Response(data, media_type="image/png", headers=headers)
 
 
@@ -571,14 +577,14 @@ def comment_create(request: Request, db: DbDep, settings: SettingsDep, signer: S
     body = body.strip()[:2000]
     response = RedirectResponse(f"/sessions/{sess.id}#comments", status_code=303)
     if not sess.allow_comments or not sess.is_public:
-        set_flash(response, settings, signer, "error", "Comments are off for this session.")
+        set_flash(response, settings, signer, "error", _("Comments are off for this session."))
         return response
     if len(body) < 2:
-        set_flash(response, settings, signer, "error", "That comment is too short: write at least 2 characters." if body else "Write a comment first.")
+        set_flash(response, settings, signer, "error", _("That comment is too short: write at least 2 characters.") if body else _("Write a comment first."))
         return response
     if not request.app.state.post_limiter.allow(str(user.id)):  # same quota as post_quota, but the comment stays in the box
         request.state.comment_body = body
-        request.state.comment_error = "You're posting very quickly. Please wait a few minutes and send it again."
+        request.state.comment_error = _("You're posting very quickly. Please wait a few minutes and send it again.")
         page = session_page(request, db, settings, user, session_id)
         page.status_code = 429
         return page
@@ -639,16 +645,12 @@ TYPE_GRADS = {
 }
 
 
-def plural(n: int, word: str) -> str:
-    return f"{n} {word}{'' if n == 1 else 's'}"
-
-
 def type_key(row) -> str:  # noqa: ANN001
     return row.category.value if row.category else OTHER_TYPE
 
 
 def type_label(key: str) -> str:
-    return "Other" if key == OTHER_TYPE else CATEGORY_LABELS[TeaCategory(key)]
+    return _("Other") if key == OTHER_TYPE else _(CATEGORY_LABELS[TeaCategory(key)])
 
 
 def top_counts(values) -> list[tuple[str, int]]:  # noqa: ANN001
@@ -667,10 +669,10 @@ def five_weeks(by_day: dict[date, list], today: date) -> dict:
         rows = by_day.get(day, [])
         cells.append({
             "date": day, "count": len(rows), "kind": rows[0].category.value if rows and rows[0].category else "oolong", "hex": rows[0].liquor_hex if rows else None,
-            "label": day.strftime("%-d %b") if i == 0 or day.day == 1 else str(day.day), "today": day == today, "future": day > today,
+            "label": format_date(day, "%-d %b") if i == 0 or day.day == 1 else str(day.day), "today": day == today, "future": day > today,
         })
     end = start + timedelta(days=34)
-    return {"cells": cells, "range": f"{start.strftime('%b %-d')} – {end.strftime('%b %-d')}"}
+    return {"cells": cells, "range": f"{format_date(start, '%b %-d')} – {format_date(end, '%b %-d')}"}
 
 
 def diary_overview(db, user: User) -> dict:  # noqa: ANN001
@@ -712,19 +714,20 @@ def diary_overview(db, user: User) -> dict:  # noqa: ANN001
     new_teas = sum(1 for seen in first_seen.values() if seen >= since)
     if earlier and len(month) != earlier:
         difference = abs(len(month) - earlier)
-        sessions_hint = f"{difference} {'more' if len(month) > earlier else 'fewer'} than the 30 days before"
+        more = len(month) > earlier
+        sessions_hint = _("{n} more than the 30 days before", n=difference) if more else _("{n} fewer than the 30 days before", n=difference)
     else:
-        sessions_hint = "same as the 30 days before" if earlier else "in the last 30 days"
+        sessions_hint = _("same as the 30 days before") if earlier else _("in the last 30 days")
     stats = {
         "total": len(rows), "sessions": len(month), "sessions_hint": sessions_hint, "favourite": favourite,
         "avg_rating": round(sum(month_rated) / len(month_rated), 1) if month_rated else None, "new_teas": new_teas,
-        "month_notes": [tag for tag, _ in top_counts(tag for row in month for tag in (row.taste_tags or []))[:5]],
+        "month_notes": [tag for tag, _count in top_counts(tag for row in month for tag in (row.taste_tags or []))[:5]],
     }
 
     # the profile looks at the whole diary
     all_types = top_counts(type_key(row) for row in rows)
     types = [{"key": key, "label": type_label(key), "n": n, "pct": round(100 * n / len(rows), 1), "grad": TYPE_GRADS[key]} for key, n in all_types]
-    notes = [{"label": tag.capitalize(), "n": n} for tag, n in top_counts(tag for row in rows for tag in (row.taste_tags or []))[:6]]
+    notes = [{"label": _(tag).capitalize(), "n": n} for tag, n in top_counts(tag for row in rows for tag in (row.taste_tags or []))[:6]]
 
     year = now.year
     this_year = [row for row in rows if row.brewed_at.year == year]
@@ -790,7 +793,7 @@ def diary_month_story(request: Request, db: DbDep, settings: SettingsDep, user: 
     stats = diary_overview(db, user)["stats"]
     if not stats["sessions"]:
         raise HTTPException(status_code=404)
-    headers = {"Content-Disposition": 'inline; filename="prolyv-my-month.png"', "Cache-Control": "private, no-store"}
+    headers = {"Content-Disposition": 'inline; filename="prolyv-my-month.png"', "Cache-Control": "private, no-store", "Vary": "Cookie, Accept-Language"}
     return Response(render_month_story(user, stats, settings.base_host), media_type="image/png", headers=headers)
 
 

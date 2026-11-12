@@ -9,7 +9,7 @@
 {# Goes last inside a .more-list. The next page's items and its own button replace this block; without JS it is a plain link. #}
 {% macro show_more(url, note=None, list=".more-list", tag="div", push=False) -%}
 <{{ tag }} class="show-more">
-  <a class="btn btn-secondary btn-sm" href="{{ url }}" hx-get="{{ url }}" hx-target="closest .show-more" hx-swap="outerHTML" hx-select="{{ list }} > *" hx-push-url="{{ url if push else 'false' }}">Show more</a>
+  <a class="btn btn-secondary btn-sm" href="{{ url }}" hx-get="{{ url }}" hx-target="closest .show-more" hx-swap="outerHTML" hx-select="{{ list }} > *" hx-push-url="{{ url if push else 'false' }}">{{ _("Show more") }}</a>
   {% if note %}<span class="muted small">{{ note }}</span>{% endif %}
 </{{ tag }}>
 {%- endmacro %}
@@ -23,8 +23,8 @@
   <span class="tea-card-body">
     <span class="tea-card-name">{{ tea.name_en }}</span>
     {% if tea.name_zh or tea.name_ru or tea.name_native %}<span class="tea-card-native">{{ tea.name_zh or tea.name_native or '' }}{% if (tea.name_zh or tea.name_native) and tea.name_ru %} · {% endif %}{{ tea.name_ru or '' }}</span>{% endif %}
-    {% if tea.origin_line %}<span class="tea-card-origin">{{ tea.origin_line }}</span>{% endif %}
-    {% if tea.taste_tags %}<span class="tags">{% for t in tea.taste_tags[:3] %}<span class="tag">{{ t }}</span>{% endfor %}</span>{% endif %}
+    {% if tea.origin_line %}<span class="tea-card-origin">{{ tea.origin_line|place }}</span>{% endif %}
+    {% if tea.taste_tags %}<span class="tags">{% for t in tea.taste_tags[:3] %}<span class="tag">{{ _(t) }}</span>{% endfor %}</span>{% endif %}
   </span>
 </a>
 {%- endmacro %}
@@ -33,9 +33,9 @@
 {% macro session_card(sess, show_author=True) -%}
 <article class="session-card">
   <div class="session-head">
-    {% if show_author %}{{ avatar(sess.user, 36) }}<p class="session-who">{% if sess.user.deleted_at %}<span>Deleted account</span>{% else %}<a href="/u/{{ sess.user.handle }}">{{ sess.user.display_name }}</a>{% endif %} · {{ sess.brewed_at|ago }}</p>
-    {% else %}<p class="session-who session-date">{{ sess.brewed_at.strftime('%-d %b %Y') }}</p>{% endif %}
-    {% if not sess.is_public %}<span class="kind-badge">PRIVATE</span>{% else %}<span class="kind-badge">SESSION</span>{% endif %}
+    {% if show_author %}{{ avatar(sess.user, 36) }}<p class="session-who">{% if sess.user.deleted_at %}<span>{{ _("Deleted account") }}</span>{% else %}<a href="/u/{{ sess.user.handle }}">{{ sess.user.display_name }}</a>{% endif %} · {{ sess.brewed_at|ago }}</p>
+    {% else %}<p class="session-who session-date">{{ sess.brewed_at|date('%-d %b %Y') }}</p>{% endif %}
+    {% if not sess.is_public %}<span class="kind-badge">{{ _("PRIVATE") }}</span>{% else %}<span class="kind-badge">{{ _("SESSION") }}</span>{% endif %}
   </div>
   <a class="session-main" href="/sessions/{{ sess.id }}">
     {% if sess.photos %}<img class="session-thumb" src="{{ sess.photos[0].thumb_url }}" alt="" loading="lazy">{% else %}{{ cup(sess.category_key, 72, sess.tea.liquor_hex if sess.tea else None) }}{% endif %}
@@ -44,8 +44,8 @@
   {% if sess.note %}<p class="session-note">{{ sess.note[:220] }}{% if sess.note|length > 220 %}…{% endif %}</p>{% endif %}
   {% if sess.rating or sess.comment_count or sess.is_public %}
   <div class="session-foot">
-    <span class="session-stats">{% if sess.rating %}<span class="stars" aria-label="{{ sess.rating }} of 5">{{ sess.stars }}</span>{% endif %}{% if sess.comment_count %}<a href="/sessions/{{ sess.id }}#comments">{{ sess.comment_count }} comment{{ '' if sess.comment_count == 1 else 's' }}</a>{% endif %}</span>
-    {% if show_author and sess.is_public %}<a class="btn-pill" href="/sessions/new?from={{ sess.id }}"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 4v6h6"></path><path d="M20 12a8 8 0 1 1-2.3-5.7L20 9"></path></svg>Brew it the same way</a>{% endif %}
+    <span class="session-stats">{% if sess.rating %}<span class="stars" aria-label="{{ _('{rating} of 5', rating=sess.rating) }}">{{ sess.stars }}</span>{% endif %}{% if sess.comment_count %}<a href="/sessions/{{ sess.id }}#comments">{{ _n("{n} comment", "{n} comments", sess.comment_count) }}</a>{% endif %}</span>
+    {% if show_author and sess.is_public %}<a class="btn-pill" href="/sessions/new?from={{ sess.id }}"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 4v6h6"></path><path d="M20 12a8 8 0 1 1-2.3-5.7L20 9"></path></svg>{{ _("Brew it the same way") }}</a>{% endif %}
   </div>
   {% endif %}
 </article>
@@ -54,15 +54,15 @@
 {% macro topic_card(topic, show_section=True) -%}
 <article class="topic-card">
   <div class="topic-card-head">
-    {% if show_section %}<a class="sec-badge sec-{{ topic.section.slug }}" href="/discussions/s/{{ topic.section.slug }}">{{ topic.section.name|upper }}</a>{% endif %}
-    {% if topic.pinned %}<span class="badge badge-pin">PINNED</span>{% endif %}
-    {% if topic.solved %}<span class="badge badge-solved">SOLVED</span>{% endif %}
+    {% if show_section %}<a class="sec-badge sec-{{ topic.section.slug }}" href="/discussions/s/{{ topic.section.slug }}">{{ _(topic.section.name)|upper }}</a>{% endif %}
+    {% if topic.pinned %}<span class="badge badge-pin">{{ _("PINNED") }}</span>{% endif %}
+    {% if topic.solved %}<span class="badge badge-solved">{{ _("SOLVED") }}</span>{% endif %}
     <span class="topic-time">{{ topic.created_at|ago }}</span>
   </div>
   <a class="topic-title" href="/discussions/{{ topic.id }}">{{ topic.title }}</a>
   {% if topic.excerpt %}<p class="topic-excerpt">{{ topic.excerpt[:180] }}{% if topic.excerpt|length > 180 %}…{% endif %}</p>{% endif %}
-  {% if topic.shown_session %}<p class="attached-pill">{{ cup(topic.shown_session.category_key, 26) }}<span>Attached session{% if topic.shown_session.params_line %}: {{ topic.shown_session.params_line }}{% endif %}</span></p>{% endif %}
-  <p class="topic-meta"><span>{% if topic.user.deleted_at %}Deleted account{% else %}<a href="/u/{{ topic.user.handle }}">{{ topic.user.display_name }}</a>{% endif %}</span><strong>{{ topic.reply_count }} repl{{ 'y' if topic.reply_count == 1 else 'ies' }}</strong>{% if topic.last_reply_at %}<span>last reply {{ topic.last_reply_at|ago }}</span>{% endif %}</p>
+  {% if topic.shown_session %}<p class="attached-pill">{{ cup(topic.shown_session.category_key, 26) }}<span>{% if topic.shown_session.params_line %}{{ _("Attached session: {params}", params=topic.shown_session.params_line) }}{% else %}{{ _("Attached session") }}{% endif %}</span></p>{% endif %}
+  <p class="topic-meta"><span>{% if topic.user.deleted_at %}{{ _("Deleted account") }}{% else %}<a href="/u/{{ topic.user.handle }}">{{ topic.user.display_name }}</a>{% endif %}</span><strong>{{ _n("{n} reply", "{n} replies", topic.reply_count) }}</strong>{% if topic.last_reply_at %}<span>{{ _("last reply {when}", when=topic.last_reply_at|ago) }}</span>{% endif %}</p>
 </article>
 {%- endmacro %}
 
@@ -79,21 +79,21 @@
     <span class="post-badge">{{ post.kind_label|upper }}</span>
   </span>
   <span class="post-card-body">
-    <span class="post-kicker">BLOG · {{ post.read_minutes }} MIN{% if post.published_at %} · {{ post.published_at.strftime('%-d %b %Y') }}{% endif %}{% if not post.published_at %} · DRAFT{% endif %}</span>
+    <span class="post-kicker">{{ _("BLOG") }} · {{ _("{n} MIN", n=post.read_minutes) }}{% if post.published_at %} · {{ post.published_at|date('%-d %b %Y') }}{% endif %}{% if not post.published_at %} · {{ _("DRAFT") }}{% endif %}</span>
     <span class="post-title">{{ post.title }}</span>
     {% if post.summary %}<span class="post-summary">{{ post.summary }}</span>{% endif %}
-    <span class="post-more">Read and discuss →</span>
+    <span class="post-more">{{ _("Read and discuss →") }}</span>
   </span>
 </a>
 {%- endmacro %}
 
 
 {% macro who(u) -%}
-{% if u.deleted_at %}<span class="muted">Deleted account</span>{% else %}<a href="/u/{{ u.handle }}">@{{ u.handle }}</a>{% endif %}
+{% if u.deleted_at %}<span class="muted">{{ _("Deleted account") }}</span>{% else %}<a href="/u/{{ u.handle }}">@{{ u.handle }}</a>{% endif %}
 {%- endmacro %}
 
 {% macro author_chip(u, size=28, long=False) -%}
-{% if u.deleted_at %}<span class="author-link muted">{{ avatar(u, size) }} <span>Deleted account</span></span>{% else %}<a class="author-link" href="/u/{{ u.handle }}">{{ avatar(u, size) }} <span>{% if long %}{{ u.display_name }} · {% endif %}@{{ u.handle }}</span></a>{% endif %}
+{% if u.deleted_at %}<span class="author-link muted">{{ avatar(u, size) }} <span>{{ _("Deleted account") }}</span></span>{% else %}<a class="author-link" href="/u/{{ u.handle }}">{{ avatar(u, size) }} <span>{% if long %}{{ u.display_name }} · {% endif %}@{{ u.handle }}</span></a>{% endif %}
 {%- endmacro %}
 
 {% macro paras(items) -%}
@@ -101,31 +101,31 @@
 {%- endmacro %}
 
 {% macro report_button(kind, ref_id, csrf, next) -%}
-<details class="report"><summary>Report</summary>
+<details class="report"><summary>{{ _("Report") }}</summary>
   <form method="post" action="/report">
     <input type="hidden" name="csrf_token" value="{{ csrf }}"><input type="hidden" name="kind" value="{{ kind }}"><input type="hidden" name="ref_id" value="{{ ref_id }}"><input type="hidden" name="next" value="{{ next }}">
-    <select name="reason" aria-label="Reason"><option value="spam">Spam or advertising</option><option value="rude">Rude or harassing</option><option value="wrong">Dangerous or false claims</option><option value="other">Something else</option></select>
-    <button class="btn btn-ghost btn-sm" type="submit">Send report</button>
+    <select name="reason" aria-label="{{ _('Reason') }}"><option value="spam">{{ _("Spam or advertising") }}</option><option value="rude">{{ _("Rude or harassing") }}</option><option value="wrong">{{ _("Dangerous or false claims") }}</option><option value="other">{{ _("Something else") }}</option></select>
+    <button class="btn btn-ghost btn-sm" type="submit">{{ _("Send report") }}</button>
   </form>
 </details>
 {%- endmacro %}
 
 {% macro hide_button(kind, ref_id, hidden, csrf, next) -%}
-<form method="post" action="/admin/hide" class="inline-form"><input type="hidden" name="csrf_token" value="{{ csrf }}"><input type="hidden" name="kind" value="{{ kind }}"><input type="hidden" name="ref_id" value="{{ ref_id }}"><input type="hidden" name="next" value="{{ next }}"><input type="hidden" name="hidden" value="{{ '0' if hidden else '1' }}"><button class="link-btn small" type="submit">{{ 'unhide' if hidden else 'hide' }}</button></form>
+<form method="post" action="/admin/hide" class="inline-form"><input type="hidden" name="csrf_token" value="{{ csrf }}"><input type="hidden" name="kind" value="{{ kind }}"><input type="hidden" name="ref_id" value="{{ ref_id }}"><input type="hidden" name="next" value="{{ next }}"><input type="hidden" name="hidden" value="{{ '0' if hidden else '1' }}"><button class="link-btn small" type="submit">{{ _("unhide") if hidden else _("hide") }}</button></form>
 {%- endmacro %}
 
 {% macro save_button(kind, ref_id, saved, user, csrf, next) -%}
-{% if user %}<form method="post" action="/saved/toggle" class="inline-form"><input type="hidden" name="csrf_token" value="{{ csrf }}"><input type="hidden" name="kind" value="{{ kind }}"><input type="hidden" name="ref_id" value="{{ ref_id }}"><input type="hidden" name="next" value="{{ next }}"><button class="btn btn-secondary" type="submit" aria-pressed="{{ 'true' if saved else 'false' }}">{{ 'Saved ✓' if saved else 'Save' }}</button></form>{% else %}<a class="btn btn-secondary" href="/login?next={{ next|urlencode }}">Save</a>{% endif %}
+{% if user %}<form method="post" action="/saved/toggle" class="inline-form"><input type="hidden" name="csrf_token" value="{{ csrf }}"><input type="hidden" name="kind" value="{{ kind }}"><input type="hidden" name="ref_id" value="{{ ref_id }}"><input type="hidden" name="next" value="{{ next }}"><button class="btn btn-secondary" type="submit" aria-pressed="{{ 'true' if saved else 'false' }}">{{ _("Saved ✓") if saved else _("Save") }}</button></form>{% else %}<a class="btn btn-secondary" href="/login?next={{ next|urlencode }}">{{ _("Save") }}</a>{% endif %}
 {%- endmacro %}
 
 {% macro tea_row(tea) -%}
 <a class="tea-row" href="/teas/{{ tea.slug }}">
   {% if tea.primary_image %}<img src="{{ tea.primary_image.thumb_url or tea.primary_image.url }}" alt="" loading="lazy" referrerpolicy="no-referrer">{% else %}{{ cup(tea.category.value, 56, tea.liquor_hex) }}{% endif %}
   <span class="tea-row-body">
-    <span class="session-date">Tea · {{ tea.category_label }}</span>
+    <span class="session-date">{{ _("Tea · {category}", category=tea.category_label) }}</span>
     <span class="tea-card-name">{{ tea.name_en }}</span>
     {% if tea.name_zh or tea.name_ru %}<span class="tea-card-native">{{ tea.name_zh or '' }}{% if tea.name_zh and tea.name_ru %} · {% endif %}{{ tea.name_ru or '' }}</span>{% endif %}
-    {% if tea.origin_line %}<span class="tea-card-origin">{{ tea.origin_line }}</span>{% endif %}
+    {% if tea.origin_line %}<span class="tea-card-origin">{{ tea.origin_line|place }}</span>{% endif %}
   </span>
 </a>
 {%- endmacro %}

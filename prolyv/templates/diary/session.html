@@ -1,6 +1,6 @@
 {% extends "base.html" %}
 {% from "partials/macros.html" import avatar, cup, paras, report_button, hide_button, save_button, show_more %}
-{% block title %}{{ sess.tea_title }} · {{ sess.user.display_name }}'s diary · {{ site_name }}{% endblock %}
+{% block title %}{{ _("{tea} · {name}'s diary", tea=sess.tea_title, name=sess.user.display_name) }} · {{ site_name }}{% endblock %}
 {% block head %}
 <link rel="stylesheet" href="/static/css/session.css?v={{ version }}">
 <meta property="og:type" content="article">
@@ -16,9 +16,9 @@
 {% block topbar %}
 {{ super() }}
 <header class="phonebar">
-  <a class="phonebar-icon" href="{{ '/diary' if is_owner else '/' }}" aria-label="Back" data-back><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M15 5l-7 7 7 7"></path></svg></a>
-  <p class="phonebar-title phonebar-title-left">Session</p>
-  <a class="phonebar-icon" href="/sessions/{{ sess.id }}/story.png" target="_blank" rel="noopener" aria-label="Share as a story">{{ share_svg }}</a>
+  <a class="phonebar-icon" href="{{ '/diary' if is_owner else '/' }}" aria-label="{{ _('Back') }}" data-back><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M15 5l-7 7 7 7"></path></svg></a>
+  <p class="phonebar-title phonebar-title-left">{{ _("Session") }}</p>
+  <a class="phonebar-icon" href="/sessions/{{ sess.id }}/story.png" target="_blank" rel="noopener" aria-label="{{ _('Share as a story') }}">{{ share_svg }}</a>
 </header>
 {% endblock %}
 {% set liquor = sess.tea.liquor_hex if sess.tea else None %}
@@ -27,69 +27,69 @@
 <div data-tab="{{ '/diary' if is_owner else '/' }}" hidden></div>
 <section class="sp-hero">
   <div class="sp-hero-inner">
-    <nav class="crumbs" aria-label="Breadcrumbs">
-      {% if is_owner %}<a href="/diary">Diary</a>{% else %}<a href="/">Feed</a>{% if not sess.user.deleted_at %} / <a href="/u/{{ sess.user.handle }}">{{ sess.user.display_name }}</a>{% endif %}{% endif %} / <span aria-current="page">{{ sess.tea_title }}</span>
+    <nav class="crumbs" aria-label="{{ _('Breadcrumbs') }}">
+      {% if is_owner %}<a href="/diary">{{ _("Diary") }}</a>{% else %}<a href="/">{{ _("Feed") }}</a>{% if not sess.user.deleted_at %} / <a href="/u/{{ sess.user.handle }}">{{ sess.user.display_name }}</a>{% endif %}{% endif %} / <span aria-current="page">{{ sess.tea_title }}</span>
     </nav>
     <div class="sp-hero-grid">
       <div class="sp-hero-cup">{{ cup(sess.category_key, 400, liquor, spin=True) }}</div>
       <div class="sp-author">
         {{ avatar(sess.user, 48) }}
         <div class="sp-author-text">
-          {% if sess.user.deleted_at %}<span class="sp-author-name">Deleted account</span><p>logged {{ sess.brewed_at|ago }}</p>
-          {% else %}<a class="sp-author-name" href="/u/{{ sess.user.handle }}">{{ sess.user.display_name }}</a><p>@{{ sess.user.handle }} · logged {{ sess.brewed_at|ago }}{% if author_sessions %} · {{ author_sessions }} public session{{ '' if author_sessions == 1 else 's' }}{% endif %}</p>{% endif %}
+          {% if sess.user.deleted_at %}<span class="sp-author-name">{{ _("Deleted account") }}</span><p>{{ _("logged {when}", when=sess.brewed_at|ago) }}</p>
+          {% else %}<a class="sp-author-name" href="/u/{{ sess.user.handle }}">{{ sess.user.display_name }}</a><p>@{{ sess.user.handle }} · {{ _("logged {when}", when=sess.brewed_at|ago) }}{% if author_sessions %} · {{ _n("{n} public session", "{n} public sessions", author_sessions) }}{% endif %}</p>{% endif %}
         </div>
         {% if not is_owner and not sess.user.deleted_at %}
         {% if current_user %}
         <form method="post" action="/u/{{ sess.user.handle }}/follow" class="inline-form" data-follow>
           <input type="hidden" name="csrf_token" value="{{ csrf_token }}">
-          <button class="sp-follow" type="submit" aria-pressed="{{ 'true' if following else 'false' }}">{{ 'Following' if following else 'Follow' }}</button>
+          <button class="sp-follow" type="submit" aria-pressed="{{ 'true' if following else 'false' }}">{{ _('Following') if following else _('Follow') }}</button>
         </form>
-        {% else %}<a class="sp-follow" href="/login?next=/sessions/{{ sess.id }}">Follow</a>{% endif %}
+        {% else %}<a class="sp-follow" href="/login?next=/sessions/{{ sess.id }}">{{ _("Follow") }}</a>{% endif %}
         {% endif %}
       </div>
       <div class="sp-head">
-        <p class="sp-kicker sp-kicker-{{ sess.category_key if category_label else 'plain' }}">{% if category_label %}{{ category_label|upper }}{% else %}TEA SESSION{% endif %} · {{ sess.steeps|length }} STEEP{{ '' if sess.steeps|length == 1 else 'S' }}</p>
-        {% if not sess.is_public %}<p class="sp-private">Private · only you can see this</p>{% endif %}
+        <p class="sp-kicker sp-kicker-{{ sess.category_key if category_label else 'plain' }}">{% if category_label %}{{ category_label|upper }}{% else %}{{ _("TEA SESSION") }}{% endif %} · {{ _n("{n} STEEP", "{n} STEEPS", sess.steeps|length) }}</p>
+        {% if not sess.is_public %}<p class="sp-private">{{ _("Private · only you can see this") }}</p>{% endif %}
         <h1 class="sp-title{% if sess.tea_title|length > 50 %} is-long{% endif %}">{{ sess.tea_title }}</h1>
         {% if sess.tea or brew_post %}
-        <p class="sp-links">{% if sess.tea %}<a href="/teas/{{ sess.tea.slug }}">Tea card</a>{% endif %}{% if sess.tea and brew_post %} · {% endif %}{% if brew_post %}Brewed along with <a href="/blog/{{ brew_post.slug }}">{{ brew_post.title }}</a>{% endif %}</p>
+        <p class="sp-links">{% if sess.tea %}<a href="/teas/{{ sess.tea.slug }}">{{ _("Tea card") }}</a>{% endif %}{% if sess.tea and brew_post %} · {% endif %}{% if brew_post %}{% set post_link %}<a href="/blog/{{ brew_post.slug }}">{{ brew_post.title }}</a>{% endset %}{{ _("Brewed along with {post}", post=post_link) }}{% endif %}</p>
         {% endif %}
       </div>
       <div class="sp-params">
-        {% if sess.grams %}<div class="sp-param"><p>Leaf</p><b>{{ '%g'|format(sess.grams) }} g</b></div>{% endif %}
-        {% if sess.water_ml %}<div class="sp-param"><p>Water</p><b>{{ sess.water_ml }} ml</b></div>{% endif %}
-        {% if sess.temp_c %}<div class="sp-param"><p>Temp</p><b>{{ sess.temp_c }} °C</b></div>{% endif %}
-        {% if sess.vessel %}<div class="sp-param"><p>Vessel</p><b>{{ sess.vessel|capitalize }}</b></div>{% endif %}
-        {% if sess.rinse %}<div class="sp-param"><p>Rinse</p><b>Yes</b></div>{% endif %}
-        {% if sess.rating %}<div class="sp-param sp-param-rating"><p>Rating</p><b><span class="stars" aria-hidden="true">{{ sess.stars }}</span><span>{{ sess.rating }} / 5</span></b></div>{% endif %}
+        {% if sess.grams %}<div class="sp-param"><p>{{ _("Leaf") }}</p><b>{{ _("{grams} g", grams='%g'|format(sess.grams)) }}</b></div>{% endif %}
+        {% if sess.water_ml %}<div class="sp-param"><p>{{ _("Water") }}</p><b>{{ _("{ml} ml", ml=sess.water_ml) }}</b></div>{% endif %}
+        {% if sess.temp_c %}<div class="sp-param"><p>{{ _("Temp") }}</p><b>{{ sess.temp_c }} °C</b></div>{% endif %}
+        {% if sess.vessel %}<div class="sp-param"><p>{{ _("Vessel") }}</p><b>{{ _(sess.vessel)|capitalize }}</b></div>{% endif %}
+        {% if sess.rinse %}<div class="sp-param"><p>{{ _("Rinse") }}</p><b>{{ _("Yes") }}</b></div>{% endif %}
+        {% if sess.rating %}<div class="sp-param sp-param-rating"><p>{{ _("Rating") }}</p><b><span class="stars" aria-hidden="true">{{ sess.stars }}</span><span>{{ sess.rating }} / 5</span></b></div>{% endif %}
       </div>
       {% if sess.rating or sess.taste_tags %}
       <div class="sp-taste">
-        {% if sess.rating %}<span class="sp-taste-rating"><span class="stars stars-lg" aria-label="Rated {{ sess.rating }} out of 5">{{ sess.stars }}</span><b>{{ sess.rating }} / 5</b><i aria-hidden="true"></i></span>{% endif %}
-        {% if sess.taste_tags %}<ul class="sp-tags" aria-label="Tasting notes">{% for t in sess.taste_tags %}<li>{{ t|capitalize }}</li>{% endfor %}</ul>{% endif %}
+        {% if sess.rating %}<span class="sp-taste-rating"><span class="stars stars-lg" aria-label="{{ _('Rated {n} out of 5', n=sess.rating) }}">{{ sess.stars }}</span><b>{{ sess.rating }} / 5</b><i aria-hidden="true"></i></span>{% endif %}
+        {% if sess.taste_tags %}<ul class="sp-tags" aria-label="{{ _('Tasting notes') }}">{% for t in sess.taste_tags %}<li>{{ _(t)|capitalize }}</li>{% endfor %}</ul>{% endif %}
       </div>
       {% endif %}
       {% if sess.note %}<div class="sp-note user-text">{{ paras(sess.note.replace('\r\n', '\n').split('\n\n')) }}</div>{% endif %}
       <div class="sp-actions">
-        <a class="sp-brew" href="{% if current_user %}/sessions/new?from={{ sess.id }}{% else %}/login?next=/sessions/new%3Ffrom%3D{{ sess.id }}{% endif %}"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 4v6h6"></path><path d="M20 12a8 8 0 1 1-2.3-5.7L20 9"></path></svg>Brew it the same way</a>
+        <a class="sp-brew" href="{% if current_user %}/sessions/new?from={{ sess.id }}{% else %}/login?next=/sessions/new%3Ffrom%3D{{ sess.id }}{% endif %}"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 4v6h6"></path><path d="M20 12a8 8 0 1 1-2.3-5.7L20 9"></path></svg>{{ _("Brew it the same way") }}</a>
         <div class="sp-actions-row">
           {{ save_button('session', sess.id, saved, current_user, csrf_token, path) }}
-          {% if sess.is_public %}<a class="btn btn-secondary" href="{% if current_user %}/discussions/new?session={{ sess.id }}{% else %}/login?next=/discussions/new%3Fsession%3D{{ sess.id }}{% endif %}">Discuss in the forum</a>{% endif %}
-          <a class="sp-story" href="/sessions/{{ sess.id }}/story.png" target="_blank" rel="noopener" aria-label="Share as a story">{{ share_svg }}</a>
+          {% if sess.is_public %}<a class="btn btn-secondary" href="{% if current_user %}/discussions/new?session={{ sess.id }}{% else %}/login?next=/discussions/new%3Fsession%3D{{ sess.id }}{% endif %}">{{ _("Discuss in the forum") }}</a>{% endif %}
+          <a class="sp-story" href="/sessions/{{ sess.id }}/story.png" target="_blank" rel="noopener" aria-label="{{ _('Share as a story') }}">{{ share_svg }}</a>
         </div>
       </div>
       {% if is_owner or is_admin or (current_user and not is_owner) %}
       <div class="sp-manage">
         {% if is_owner %}
-        <a class="btn btn-secondary btn-sm" href="/sessions/{{ sess.id }}/edit">Edit</a>
+        <a class="btn btn-secondary btn-sm" href="/sessions/{{ sess.id }}/edit">{{ _("Edit") }}</a>
         <form method="post" action="/sessions/{{ sess.id }}/visibility" class="inline-form">
           <input type="hidden" name="csrf_token" value="{{ csrf_token }}">
           <input type="hidden" name="visibility" value="{{ 'private' if sess.is_public else 'public' }}">
-          <button class="btn btn-secondary btn-sm" type="submit">{% if sess.is_public %}Make private{% else %}Make public{% endif %}</button>
+          <button class="btn btn-secondary btn-sm" type="submit">{% if sess.is_public %}{{ _("Make private") }}{% else %}{{ _("Make public") }}{% endif %}</button>
         </form>
-        <form method="post" action="/sessions/{{ sess.id }}/delete" class="inline-form" data-confirm="Delete this session?">
+        <form method="post" action="/sessions/{{ sess.id }}/delete" class="inline-form" data-confirm="{{ _('Delete this session?') }}">
           <input type="hidden" name="csrf_token" value="{{ csrf_token }}">
-          <button class="btn btn-ghost btn-sm" type="submit">Delete</button>
+          <button class="btn btn-ghost btn-sm" type="submit">{{ _("Delete") }}</button>
         </form>
         {% elif sess.is_public %}{{ report_button('session', sess.id, csrf_token, path) }}{% endif %}
         {% if is_admin and not is_owner %}{{ hide_button('session', sess.id, sess.hidden, csrf_token, path) }}{% endif %}
@@ -100,23 +100,23 @@
 </section>
 
 {% if sess.photos %}
-<section class="sp-section" aria-label="Photos">
-  <div class="sp-photos">{% for ph in sess.photos %}<a href="{{ ph.url }}" target="_blank" rel="noopener"><img src="{{ ph.thumb_url }}" alt="Photo of {{ sess.tea_name }}" loading="lazy"></a>{% endfor %}</div>
+<section class="sp-section" aria-label="{{ _('Photos') }}">
+  <div class="sp-photos">{% for ph in sess.photos %}<a href="{{ ph.url }}" target="_blank" rel="noopener"><img src="{{ ph.thumb_url }}" alt="{{ _('Photo of {tea}', tea=sess.tea_name) }}" loading="lazy"></a>{% endfor %}</div>
 </section>
 {% endif %}
 
 {% if steep_rows %}
 <section class="sp-section sp-steeps" id="sp-steeps" aria-labelledby="steeps-h">
-  <h2 class="sp-h" id="steeps-h">Steep by steep</h2>
-  <p class="sp-h-sub">Hover or tap a steep to see how the liquor and the notes changed.</p>
+  <h2 class="sp-h" id="steeps-h">{{ _("Steep by steep") }}</h2>
+  <p class="sp-h-sub">{{ _("Hover or tap a steep to see how the liquor and the notes changed.") }}</p>
   <div class="sp-steeps-grid">
     <div class="sp-steep-cup" data-swirl="{{ base_cup.swirl }}" data-core="{{ base_cup.core }}">
       {{ cup(sess.category_key, 220, liquor, spin=True) }}
-      <p id="sp-steep-now" aria-live="polite">Steep {{ picked_steep.n }} · {{ picked_steep.seconds }} s{% if picked_steep.note %} · {{ picked_steep.note }}{% endif %}</p>
+      <p id="sp-steep-now" aria-live="polite">{{ _("Steep {n} · {seconds} s", n=picked_steep.n, seconds=picked_steep.seconds) }}{% if picked_steep.note %} · {{ picked_steep.note }}{% endif %}</p>
     </div>
-    <ol class="sp-steep-list" aria-label="Steeps">
+    <ol class="sp-steep-list" aria-label="{{ _('Steeps') }}">
       {% for s in steep_rows %}
-      <li><button type="button" class="sp-steep" data-steep="{{ s.step }}" data-text="Steep {{ s.n }} · {{ s.seconds }} s{% if s.note %} · {{ s.note }}{% endif %}" aria-pressed="{{ 'true' if s.n == picked_steep.n else 'false' }}"><span class="orb" style="background:{{ s.orb }}" aria-hidden="true"></span><span class="sp-steep-text"><span class="sp-steep-n">#{{ s.n }} · {{ s.seconds }} s</span>{% if s.note %}<span class="sp-steep-note">{{ s.note }}</span>{% endif %}</span></button></li>
+      <li><button type="button" class="sp-steep" data-steep="{{ s.step }}" data-text="{{ _('Steep {n} · {seconds} s', n=s.n, seconds=s.seconds) }}{% if s.note %} · {{ s.note }}{% endif %}" aria-pressed="{{ 'true' if s.n == picked_steep.n else 'false' }}"><span class="orb" style="background:{{ s.orb }}" aria-hidden="true"></span><span class="sp-steep-text"><span class="sp-steep-n">#{{ s.n }} · {{ _("{n} s", n=s.seconds) }}</span>{% if s.note %}<span class="sp-steep-note">{{ s.note }}</span>{% endif %}</span></button></li>
       {% endfor %}
     </ol>
   </div>
@@ -126,44 +126,44 @@
 <div class="sp-bottom">
   {% if sess.is_public %}
   <section class="sp-comments" id="comments" aria-labelledby="comments-h">
-    <h2 class="sp-h" id="comments-h">{{ comment_total }} comment{{ '' if comment_total == 1 else 's' }}</h2>
+    <h2 class="sp-h" id="comments-h">{{ _n("{n} comment", "{n} comments", comment_total) }}</h2>
     {% if sess.allow_comments %}
       {% if current_user %}
       <form method="post" action="/sessions/{{ sess.id }}/comments#comments" class="sp-comment-form" id="comment-form">
         <input type="hidden" name="csrf_token" value="{{ csrf_token }}">
         {% if comment_error %}<p class="field-error" role="alert">{{ comment_error }}</p>{% endif %}
-        <label for="comment-body">Add a comment</label>
-        <textarea id="comment-body" name="body" rows="3" maxlength="2000" placeholder="Ask about the parameters or share how it went for you" required>{% if comment_body %}{{ comment_body }}{% elif reply_to %}@{{ reply_to }} {% endif %}</textarea>
-        <div class="sp-comment-btns"><button class="sp-post" type="submit">Post</button></div>
+        <label for="comment-body">{{ _("Add a comment") }}</label>
+        <textarea id="comment-body" name="body" rows="3" maxlength="2000" placeholder="{{ _('Ask about the parameters or share how it went for you') }}" required>{% if comment_body %}{{ comment_body }}{% elif reply_to %}@{{ reply_to }} {% endif %}</textarea>
+        <div class="sp-comment-btns"><button class="sp-post" type="submit">{{ _("Post") }}</button></div>
       </form>
-      {% else %}<p class="sp-login"><a href="/login?next=/sessions/{{ sess.id }}">Log in</a> to comment.</p>{% endif %}
-    {% else %}<p class="muted small">Comments are off for this session.</p>{% endif %}
+      {% else %}{% set login_link %}<a href="/login?next=/sessions/{{ sess.id }}">{{ _("Log in") }}</a>{% endset %}<p class="sp-login">{{ _("{login} to comment.", login=login_link) }}</p>{% endif %}
+    {% else %}<p class="muted small">{{ _("Comments are off for this session.") }}</p>{% endif %}
     {% if comments %}
     <ol class="sp-comment-list">
       {% for c in comments %}
       <li class="sp-comment{% if c.user_id == sess.user_id %} is-author{% endif %}{% if c.hidden %} is-hidden{% endif %}" id="comment-{{ c.id }}">
         <div class="sp-comment-head">
           {{ avatar(c.user, 36) }}
-          <p>{% if c.user.deleted_at %}<b>Deleted account</b>{% else %}<a href="/u/{{ c.user.handle }}"><b>{{ c.user.display_name }}</b></a> @{{ c.user.handle }}{% endif %}{% if c.user_id == sess.user_id %} · author{% endif %} · {{ c.created_at|ago }}</p>
+          <p>{% if c.user.deleted_at %}<b>{{ _("Deleted account") }}</b>{% else %}<a href="/u/{{ c.user.handle }}"><b>{{ c.user.display_name }}</b></a> @{{ c.user.handle }}{% endif %}{% if c.user_id == sess.user_id %} · {{ _("author") }}{% endif %} · {{ c.created_at|ago }}</p>
         </div>
         <p class="sp-comment-body user-text">{{ c.body|linkify }}</p>
         <div class="sp-comment-actions">
           {% set votes = helpful.get(c.id, 0) %}
           {% if current_user %}
-            {% if sess.allow_comments and not c.user.deleted_at and c.user_id != current_user.id %}<a class="sp-act" href="/sessions/{{ sess.id }}?reply={{ c.user.handle }}#comment-form" data-reply="{{ c.user.handle }}">Reply</a>{% endif %}
+            {% if sess.allow_comments and not c.user.deleted_at and c.user_id != current_user.id %}<a class="sp-act" href="/sessions/{{ sess.id }}?reply={{ c.user.handle }}#comment-form" data-reply="{{ c.user.handle }}">{{ _("Reply") }}</a>{% endif %}
             {% if c.user_id != current_user.id %}
-            <form method="post" action="/sessions/{{ sess.id }}/comments/{{ c.id }}/helpful" class="inline-form"><input type="hidden" name="csrf_token" value="{{ csrf_token }}"><button class="sp-act" type="submit" aria-pressed="{{ 'true' if c.id in voted else 'false' }}">Helpful · {{ votes }}</button></form>
-            {% elif votes %}<span class="sp-act sp-act-static">Helpful · {{ votes }}</span>{% endif %}
-            {% if c.user_id == current_user.id or can_moderate %}<form method="post" action="/sessions/{{ sess.id }}/comments/{{ c.id }}/delete" class="inline-form" data-confirm="Delete this comment?"><input type="hidden" name="csrf_token" value="{{ csrf_token }}"><button class="sp-act" type="submit">Delete</button></form>{% endif %}
+            <form method="post" action="/sessions/{{ sess.id }}/comments/{{ c.id }}/helpful" class="inline-form"><input type="hidden" name="csrf_token" value="{{ csrf_token }}"><button class="sp-act" type="submit" aria-pressed="{{ 'true' if c.id in voted else 'false' }}">{{ _("Helpful · {n}", n=votes) }}</button></form>
+            {% elif votes %}<span class="sp-act sp-act-static">{{ _("Helpful · {n}", n=votes) }}</span>{% endif %}
+            {% if c.user_id == current_user.id or can_moderate %}<form method="post" action="/sessions/{{ sess.id }}/comments/{{ c.id }}/delete" class="inline-form" data-confirm="{{ _('Delete this comment?') }}"><input type="hidden" name="csrf_token" value="{{ csrf_token }}"><button class="sp-act" type="submit">{{ _("Delete") }}</button></form>{% endif %}
             {% if is_admin %}{{ hide_button('session_comment', c.id, c.hidden, csrf_token, path) }}{% endif %}
             {% if c.user_id != current_user.id %}{{ report_button('session_comment', c.id, csrf_token, path) }}{% endif %}
           {% else %}
-            <a class="sp-act" href="/login?next=/sessions/{{ sess.id }}">Helpful · {{ votes }}</a>
+            <a class="sp-act" href="/login?next=/sessions/{{ sess.id }}">{{ _("Helpful · {n}", n=votes) }}</a>
           {% endif %}
         </div>
       </li>
       {% endfor %}
-      {% if comments_next %}{{ show_more(comments_next, comments_shown ~ " of " ~ comment_total, list=".sp-comment-list", tag="li") }}{% endif %}
+      {% if comments_next %}{{ show_more(comments_next, _("{shown} of {total}", shown=comments_shown, total=comment_total), list=".sp-comment-list", tag="li") }}{% endif %}
     </ol>
     {% endif %}
   </section>
@@ -172,15 +172,15 @@
   {% if others or can_compare %}
   <aside class="sp-others" aria-labelledby="others-h">
     {% if others %}
-    <h2 id="others-h">Other sessions of this tea</h2>
-    <p class="sp-others-sub">Same tea, different hands. Compare the parameters.</p>
+    <h2 id="others-h">{{ _("Other sessions of this tea") }}</h2>
+    <p class="sp-others-sub">{{ _("Same tea, different hands. Compare the parameters.") }}</p>
     <ul>
       {% for o in others %}
-      <li><a href="/sessions/{{ o.id }}">{{ cup(o.category_key, 48, o.tea.liquor_hex if o.tea else None) }}<span class="sp-other-text"><b>{{ 'Deleted account' if o.user.deleted_at else o.user.display_name }}</b>{% if o.params_line %}<span>{{ o.params_line }}</span>{% endif %}</span>{% if o.rating %}<span class="sp-other-rate" aria-label="Rated {{ o.rating }} out of 5">★ {{ o.rating }}</span>{% endif %}</a></li>
+      <li><a href="/sessions/{{ o.id }}">{{ cup(o.category_key, 48, o.tea.liquor_hex if o.tea else None) }}<span class="sp-other-text"><b>{{ _('Deleted account') if o.user.deleted_at else o.user.display_name }}</b>{% if o.params_line %}<span>{{ o.params_line }}</span>{% endif %}</span>{% if o.rating %}<span class="sp-other-rate" aria-label="{{ _('Rated {n} out of 5', n=o.rating) }}">★ {{ o.rating }}</span>{% endif %}</a></li>
       {% endfor %}
     </ul>
-    {% else %}<h2 id="others-h">Compare</h2><p class="sp-others-sub">Put this session next to one of yours.</p>{% endif %}
-    {% if can_compare %}<a class="sp-compare" href="/sessions/{{ sess.id }}/compare">Compare with my sessions</a>{% endif %}
+    {% else %}<h2 id="others-h">{{ _("Compare") }}</h2><p class="sp-others-sub">{{ _("Put this session next to one of yours.") }}</p>{% endif %}
+    {% if can_compare %}<a class="sp-compare" href="/sessions/{{ sess.id }}/compare">{{ _("Compare with my sessions") }}</a>{% endif %}
   </aside>
   {% endif %}
 </div>

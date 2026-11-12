@@ -10,7 +10,8 @@ from pathlib import Path
 from PIL import Image, ImageDraw, ImageFont
 
 from prolyv.brand import SITE_NAME
-from prolyv.models import CATEGORY_LABELS, TeaSession, User
+from prolyv.i18n import N_, _, _n, get_lang
+from prolyv.models import CATEGORY_LABELS, TeaCategory, TeaSession, User
 from prolyv.web.cup import palette_for
 
 FONTS = Path(__file__).resolve().parent / "fonts"
@@ -23,7 +24,7 @@ UNSUPPORTED = re.compile(r"[^ -ɏЀ-ӿ–—‘’“”…°·]")
 PARAGRAPH = re.compile(r"\n\s*\n")
 PILLS = (((255, 79, 216), 0.22, (255, 211, 244)), ((138, 63, 252), 0.3, (228, 214, 255)), ((255, 194, 26), 0.22, (255, 231, 168)),
          ((34, 227, 166), 0.18, (157, 245, 211)), ((255, 138, 31), 0.2, (255, 201, 138)))
-KICKER_NAMES = {"Black": "BLACK TEA"}
+KICKER_NAMES = {"Black": N_("BLACK TEA")}
 MARK_STOPS = ("#FF4FD8", "#8A3FFC", "#2563FF", "#22E3A6", "#FFC21A", "#FF8A1F", "#FF4FD8")
 
 
@@ -216,7 +217,7 @@ def _fitting_pills(draw: ImageDraw.ImageDraw, tags: list[str], font: ImageFont.F
     row: list[tuple[str, int]] = []
     used = 0
     for tag in tags[:5]:
-        label = _clean(tag).capitalize()
+        label = _clean(_(tag)).capitalize()
         pill = int(draw.textlength(label, font=font)) + 56
         if used + pill > width:
             break
@@ -238,9 +239,10 @@ def _compose(*, badge: str, kind: str, liquor_hex: str | None, kicker: str, titl
     quote_font = _font("Manrope", 36, 500)
     title_font, title_lines = _title_lines(draw, title, width)
     title_height = int(title_font.size * 1.18) * len(title_lines)
-    quote_lines = _wrap(draw, f"“{quote}”", quote_font, width, 3) if quote else []
-    if quote_lines and not quote_lines[-1].endswith("”"):
-        quote_lines[-1] += "”"
+    opening, closing = ("«", "»") if get_lang() == "ru" else ("“", "”")
+    quote_lines = _wrap(draw, f"{opening}{quote}{closing}", quote_font, width, 3) if quote else []
+    if quote_lines and not quote_lines[-1].endswith(closing):
+        quote_lines[-1] += closing
     pills = _fitting_pills(draw, tags, pill_font, width)
 
     # Everything but the cup has a known height, so the cup takes what is left, up to the canvas's size.
@@ -285,7 +287,7 @@ def _compose(*, badge: str, kind: str, liquor_hex: str | None, kicker: str, titl
         y += 62
     if pills:
         y += 20
-        x = (WIDTH - (sum(p for _, p in pills) + 16 * (len(pills) - 1))) // 2
+        x = (WIDTH - (sum(p for _label, p in pills) + 16 * (len(pills) - 1))) // 2
         for i, (label, pill) in enumerate(pills):
             color, alpha, fg = PILLS[i % len(PILLS)]
             _pill(image, (x, y, x + pill, y + 56), color, alpha)
@@ -315,29 +317,33 @@ def _compose(*, badge: str, kind: str, liquor_hex: str | None, kicker: str, titl
 def _session_foot(sess: TeaSession) -> str:
     bits = []
     if sess.grams:
-        bits.append(f"{sess.grams:g} g")
+        bits.append(_("{grams} g", grams=f"{sess.grams:g}"))
     if sess.temp_c:
         bits.append(f"{sess.temp_c} °C")
     if sess.vessel:
-        bits.append(sess.vessel)
+        bits.append(_(sess.vessel))
     return _clean(" · ".join(bits))
+
+
+def kicker_name(label: str) -> str:
+    """The tea type in capitals, from its English label: 'Black' -> 'BLACK TEA', 'Green' -> 'GREEN' (or the Russian)."""
+    return _(KICKER_NAMES[label]) if label in KICKER_NAMES else _(label).upper()
 
 
 def _session_kicker(sess: TeaSession) -> str:
     bits = []
     if sess.tea:
-        label = CATEGORY_LABELS[sess.tea.category]
-        bits.append(KICKER_NAMES.get(label, label.upper()))
+        bits.append(kicker_name(CATEGORY_LABELS[sess.tea.category]))
     count = len(sess.steeps)
     if count:
-        bits.append(f"{count} STEEP{'' if count == 1 else 'S'}")
+        bits.append(_n("{n} STEEP", "{n} STEEPS", count))
     return " · ".join(bits)
 
 
 def render_story(sess: TeaSession, site: str) -> bytes:
     return _compose(
-        badge="my tea of the day", kind=sess.category_key, liquor_hex=sess.tea.liquor_hex if sess.tea else None, kicker=_session_kicker(sess),
-        title=_clean(sess.tea_title) or "Tea session", byline="" if sess.user.deleted_at else _clean(f"by @{sess.user.handle}"), rating=sess.rating,
+        badge=_("my tea of the day"), kind=sess.category_key, liquor_hex=sess.tea.liquor_hex if sess.tea else None, kicker=_session_kicker(sess),
+        title=_clean(sess.tea_title) or _("Tea session"), byline="" if sess.user.deleted_at else _clean(_("by @{handle}", handle=sess.user.handle)), rating=sess.rating,
         tags=list(sess.taste_tags or []), quote=first_paragraph(sess.note), foot_left=_session_foot(sess), site=site,
     )
 
@@ -346,12 +352,12 @@ def render_month_story(user: User, stats: dict, site: str) -> bytes:
     """The last 30 days as a card, from the same numbers the diary hero shows."""
     count = stats["sessions"]
     favourite = stats["favourite"]
-    foot = [f"{stats['new_teas']} new tea{'' if stats['new_teas'] == 1 else 's'}"]
+    foot = [_n("{n} new tea", "{n} new teas", stats["new_teas"])]
     if stats["avg_rating"]:
-        foot.append(f"average {stats['avg_rating']} of 5")
+        foot.append(_("average {rating} of 5", rating=stats["avg_rating"]))
     return _compose(
-        badge="my last 30 days", kind=favourite["key"] if favourite else "oolong", liquor_hex=None,
-        kicker=f"FAVOURITE: {KICKER_NAMES.get(favourite['label'], favourite['label'].upper())}" if favourite else "",
-        title=f"{count} cup{'' if count == 1 else 's'} in 30 days", byline=_clean(f"by @{user.handle}"), rating=None,
+        badge=_("my last 30 days"), kind=favourite["key"] if favourite else "oolong", liquor_hex=None,
+        kicker=_("FAVOURITE: {kind}", kind=kicker_name(CATEGORY_LABELS[TeaCategory(favourite["key"])])) if favourite else "",
+        title=_n("{n} cup in 30 days", "{n} cups in 30 days", count), byline=_clean(_("by @{handle}", handle=user.handle)), rating=None,
         tags=stats["month_notes"], quote="", foot_left=" · ".join(foot), site=site,
     )

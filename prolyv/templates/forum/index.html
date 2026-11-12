@@ -1,9 +1,9 @@
 {% extends "base.html" %}
 {% from "partials/macros.html" import cup, avatar, show_more %}
 {% from "forum/_topic_row.html" import topic_row %}
-{% block title %}{% if section %}{{ section.name }} · {% endif %}Discussions · {{ site_name }}{% endblock %}
+{% block title %}{% if section %}{{ _(section.name) }} · {% endif %}{{ _("Discussions") }} · {{ site_name }}{% endblock %}
 {% block head %}
-{% with og_title=(section.name ~ " · " if section else "") ~ "Discussions · " ~ site_name, og_desc="Ask with your session attached and get answers that fit your cup: grams, temperature and steeps included.", og_path=(("/discussions/s/" ~ section.slug) if section else "/discussions") %}{% include "partials/og.html" %}{% endwith %}
+{% with og_title=(_(section.name) ~ " · " if section else "") ~ _("Discussions") ~ " · " ~ site_name, og_desc=_("Ask with your session attached and get answers that fit your cup: grams, temperature and steeps included."), og_path=(("/discussions/s/" ~ section.slug) if section else "/discussions") %}{% include "partials/og.html" %}{% endwith %}
 <link rel="stylesheet" href="/static/css/forum.css?v={{ version }}">
 <script src="/static/forum.js?v={{ version }}" defer></script>
 {% endblock %}
@@ -11,31 +11,31 @@
 <section class="f-hero">
   <div class="f-wrap f-hero-inner">
     <div class="f-hero-head">
-      <h1 class="f-title">Discussions</h1>
-      <a class="f-new-round" href="{{ new_url }}" aria-label="New topic"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><circle cx="12" cy="12" r="9"></circle><path d="M12 8v8M8 12h8"></path></svg></a>
+      <h1 class="f-title">{{ _("Discussions") }}</h1>
+      <a class="f-new-round" href="{{ new_url }}" aria-label="{{ _('New topic') }}"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><circle cx="12" cy="12" r="9"></circle><path d="M12 8v8M8 12h8"></path></svg></a>
     </div>
-    <p class="f-lead">{% if section %}{{ section.description }}{% else %}Ask with your session attached (grams, temperature and steeps included) and get answers that actually fit your cup.{% endif %}</p>
+    <p class="f-lead">{% if section %}{{ _(section.description) }}{% else %}{{ _("Ask with your session attached (grams, temperature and steeps included) and get answers that actually fit your cup.") }}{% endif %}</p>
     <form class="f-search" role="search" method="get" action="{{ base }}">
-      <button class="f-search-go" type="submit" aria-label="Search"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><circle cx="11" cy="11" r="7"></circle><path d="M20 20l-3.5-3.5"></path></svg></button>
-      <label for="forum-q" class="f-vh">Search discussions</label>
-      <input id="forum-q" type="search" name="q" value="{{ q }}" placeholder="Search topics, teas or questions">
-      <a class="f-new" href="{{ new_url }}"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" aria-hidden="true"><path d="M12 5v14M5 12h14"></path></svg>New topic</a>
+      <button class="f-search-go" type="submit" aria-label="{{ _('Search') }}"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><circle cx="11" cy="11" r="7"></circle><path d="M20 20l-3.5-3.5"></path></svg></button>
+      <label for="forum-q" class="f-vh">{{ _("Search discussions") }}</label>
+      <input id="forum-q" type="search" name="q" value="{{ q }}" placeholder="{{ _('Search topics, teas or questions') }}">
+      <a class="f-new" href="{{ new_url }}"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" aria-hidden="true"><path d="M12 5v14M5 12h14"></path></svg>{{ _("New topic") }}</a>
     </form>
   </div>
 </section>
 
-<nav class="f-wrap f-sections" aria-label="Sections">
+<nav class="f-wrap f-sections" aria-label="{{ _('Sections') }}">
   {% for s, count in sections %}
   <a class="f-section{% if section and section.id == s.id %} is-on sec-{{ s.slug }}{% endif %}" href="{{ section_url(s) }}"{% if section and section.id == s.id %} aria-current="page"{% endif %}>
     {{ cup(section_cups.get(s.slug, 'oolong'), 40) }}
-    <span class="f-section-text"><b>{{ s.name }}</b><span>{{ count }} topic{{ '' if count == 1 else 's' }}</span></span>
+    <span class="f-section-text"><b>{{ _(s.name) }}</b><span>{{ _n("{n} topic", "{n} topics", count) }}</span></span>
   </a>
   {% endfor %}
 </nav>
-<nav class="f-chips" id="f-sections" aria-label="Sections">
-  <a class="f-chip{% if not section %} is-on{% endif %}" href="{{ section_url(None) }}"{% if not section %} aria-current="page"{% endif %} aria-label="All sections">{{ cup('sheng', 24) }}<span>All</span></a>
+<nav class="f-chips" id="f-sections" aria-label="{{ _('Sections') }}">
+  <a class="f-chip{% if not section %} is-on{% endif %}" href="{{ section_url(None) }}"{% if not section %} aria-current="page"{% endif %} aria-label="{{ _('All sections') }}">{{ cup('sheng', 24) }}<span>{{ _("All") }}</span></a>
   {% for s, count in sections %}
-  <a class="f-chip{% if section and section.id == s.id %} is-on{% endif %}" href="{{ section_url(s) }}"{% if section and section.id == s.id %} aria-current="page"{% endif %} aria-label="{{ s.name }}, {{ count }} topic{{ '' if count == 1 else 's' }}">{{ cup(section_cups.get(s.slug, 'oolong'), 24) }}<span>{{ s.name }}</span><span class="f-chip-count">{{ count }}</span></a>
+  <a class="f-chip{% if section and section.id == s.id %} is-on{% endif %}" href="{{ section_url(s) }}"{% if section and section.id == s.id %} aria-current="page"{% endif %} aria-label="{{ _(s.name) }}, {{ _n('{n} topic', '{n} topics', count) }}">{{ cup(section_cups.get(s.slug, 'oolong'), 24) }}<span>{{ _(s.name) }}</span><span class="f-chip-count">{{ count }}</span></a>
   {% endfor %}
 </nav>
 
@@ -43,52 +43,54 @@
   <section class="f-main" aria-labelledby="topics-h" id="topics">
     <div class="f-list-head">
       <div class="f-list-title">
-        <h2 id="topics-h" class="f-h2">{% if q %}Search: “{{ q }}”{% elif section %}{{ section.name }}{% else %}All topics{% endif %}</h2>
-        {% if q %}<p class="f-search-note">{{ total }} topic{{ '' if total == 1 else 's' }}{% if section %} in {{ section.name }}{% endif %} · <a href="{{ clear_url }}">Clear search</a></p>{% endif %}
+        <h2 id="topics-h" class="f-h2">{% if q %}{{ _("Search: “{q}”", q=q) }}{% elif section %}{{ _(section.name) }}{% else %}{{ _("All topics") }}{% endif %}</h2>
+        {% if q %}<p class="f-search-note">{% if section %}{{ _n("{n} topic in {section}", "{n} topics in {section}", total, section=_(section.name)) }}{% else %}{{ _n("{n} topic", "{n} topics", total) }}{% endif %} · <a href="{{ clear_url }}">{{ _("Clear search") }}</a></p>{% endif %}
       </div>
       <form class="f-sort" method="get" action="{{ base }}#topics" data-autosubmit>
         {% if q %}<input type="hidden" name="q" value="{{ q }}">{% endif %}
-        <label for="topics-sort">Sort</label>
+        <label for="topics-sort">{{ _("Sort") }}</label>
         <select id="topics-sort" name="sort">
-          {% if q %}<option value="match"{% if sort == 'match' %} selected{% endif %}>Best match</option>{% endif %}
-          {% for key, label in sorts.items() %}<option value="{{ key }}"{% if sort == key %} selected{% endif %}>{{ label }}</option>{% endfor %}
+          {% if q %}<option value="match"{% if sort == 'match' %} selected{% endif %}>{{ _("Best match") }}</option>{% endif %}
+          {% for key, label in sorts.items() %}<option value="{{ key }}"{% if sort == key %} selected{% endif %}>{{ _(label) }}</option>{% endfor %}
         </select>
-        <noscript><button class="btn btn-secondary btn-sm" type="submit">Apply</button></noscript>
+        <noscript><button class="btn btn-secondary btn-sm" type="submit">{{ _("Apply") }}</button></noscript>
       </form>
     </div>
 
     {% if topics %}
-    {% if page > 1 %}<p class="f-previous"><a class="btn btn-ghost btn-sm" href="{{ page_url(page - 1) }}">← Previous page</a></p>{% endif %}
-    <ol class="f-list more-list">{% for t in topics %}{{ topic_row(t) }}{% endfor %}{% if page < pages %}{{ show_more(page_url(page + 1), shown ~ " of " ~ total, tag="li") }}{% endif %}</ol>
+    {% if page > 1 %}<p class="f-previous"><a class="btn btn-ghost btn-sm" href="{{ page_url(page - 1) }}">{{ _("← Previous page") }}</a></p>{% endif %}
+    <ol class="f-list more-list">{% for t in topics %}{{ topic_row(t) }}{% endfor %}{% if page < pages %}{{ show_more(page_url(page + 1), _("{shown} of {total}", shown=shown, total=total), tag="li") }}{% endif %}</ol>
     {% elif q %}
-    <div class="f-empty"><p class="f-empty-title">Nothing matches “{{ q }}”</p><p>No topic{% if section %} in {{ section.name }}{% endif %} uses those words. Try fewer words, <a href="{{ clear_url }}">clear the search</a> or <a href="{{ new_url }}">ask it as a new topic</a>.</p></div>
+    {% set clear_a %}<a href="{{ clear_url }}">{% endset %}{% set new_a %}<a href="{{ new_url }}">{% endset %}{% set end_a %}</a>{% endset %}
+    <div class="f-empty"><p class="f-empty-title">{{ _("Nothing matches “{q}”", q=q) }}</p><p>{% if section %}{{ _("No topic in {section} uses those words.", section=_(section.name)) }}{% else %}{{ _("No topic uses those words.") }}{% endif %} {{ _("Try fewer words, {clear}clear the search{end} or {new}ask it as a new topic{end}.", clear=clear_a, new=new_a, end=end_a) }}</p></div>
     {% elif in_scope %}
-    <div class="f-empty"><p class="f-empty-title">Every topic here has a reply</p><p><a href="{{ base }}">See the active ones</a> or <a href="{{ new_url }}">start a new topic</a>.</p></div>
+    {% set base_a %}<a href="{{ base }}">{% endset %}{% set new_a %}<a href="{{ new_url }}">{% endset %}{% set end_a %}</a>{% endset %}
+    <div class="f-empty"><p class="f-empty-title">{{ _("Every topic here has a reply") }}</p><p>{{ _("{active}See the active ones{end} or {new}start a new topic{end}.", active=base_a, new=new_a, end=end_a) }}</p></div>
     {% else %}
-    <div class="f-empty"><p class="f-empty-title">No topics here yet.</p><p><a href="{{ new_url }}">Start the first one.</a></p></div>
+    <div class="f-empty"><p class="f-empty-title">{{ _("No topics here yet.") }}</p><p><a href="{{ new_url }}">{{ _("Start the first one.") }}</a></p></div>
     {% endif %}
   </section>
 
   <aside class="f-side">
     <section class="f-ask" aria-labelledby="ask-h">
-      <h2 id="ask-h">Ask a better question</h2>
-      <p>Attach a session from your diary and people will see your leaf, water, temperature and every steep.</p>
-      <a href="{{ new_url }}">New topic with a session</a>
+      <h2 id="ask-h">{{ _("Ask a better question") }}</h2>
+      <p>{{ _("Attach a session from your diary and people will see your leaf, water, temperature and every steep.") }}</p>
+      <a href="{{ new_url }}">{{ _("New topic with a session") }}</a>
     </section>
     <section class="f-panel" aria-labelledby="rules-h">
-      <h2 id="rules-h">House rules</h2>
+      <h2 id="rules-h">{{ _("House rules") }}</h2>
       <ol class="f-rules">
-        <li>Be kind: everyone’s cup is different.</li>
-        <li>Attach a session when asking about taste or brewing.</li>
-        <li>Say where a tea is from if you recommend it.</li>
-        <li>No shop ads: share experiences, not deals.</li>
+        <li>{{ _("Be kind: everyone’s cup is different.") }}</li>
+        <li>{{ _("Attach a session when asking about taste or brewing.") }}</li>
+        <li>{{ _("Say where a tea is from if you recommend it.") }}</li>
+        <li>{{ _("No shop ads: share experiences, not deals.") }}</li>
       </ol>
     </section>
     {% if helpers %}
     <section class="f-panel" aria-labelledby="helpers-h">
-      <h2 id="helpers-h">Most helpful this month</h2>
+      <h2 id="helpers-h">{{ _("Most helpful this month") }}</h2>
       <ol class="f-helpers">
-        {% for person, votes in helpers %}<li>{{ avatar(person, 36) }}<a href="/u/{{ person.handle }}">{{ person.display_name }}</a><span>{{ votes }} helpful</span></li>{% endfor %}
+        {% for person, votes in helpers %}<li>{{ avatar(person, 36) }}<a href="/u/{{ person.handle }}">{{ person.display_name }}</a><span>{{ _("{n} helpful", n=votes) }}</span></li>{% endfor %}
       </ol>
     </section>
     {% endif %}

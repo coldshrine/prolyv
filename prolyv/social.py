@@ -12,13 +12,24 @@ from collections import Counter
 from sqlalchemy import func, literal, select, union_all
 from sqlalchemy.orm import Session, selectinload
 
+from prolyv.i18n import N_, _, _n, get_lang
 from prolyv.models import CATEGORY_LABELS, Follow, Notification, Post, Reply, Tea, TeaSession, Topic, User, Visibility
 
 MAX_FANOUT = 1000
 FOLLOW_TEXT = "started following you"
 
 
+def in_context(context: str, text: str) -> str:
+    """_() for a word whose Russian depends on where it stands: "Following" is «Вы подписаны» on a button but «Подписки»
+    as the name of a list. The Russian is under "context|text"; without one it is the plain _(text)."""
+    key = f"{context}|{text}"
+    translated = _(key)
+    return _(text) if translated == key else translated
+
+
 def notify(db: Session, user_id: uuid.UUID, actor: User | None, text: str, url: str) -> None:
+    """`text` is English, whatever language the actor uses: the reader may use another, and NOTICES translates it
+    when it is shown. Never pass it through _()."""
     if actor is not None and actor.id == user_id:
         return
     db.add(Notification(user_id=user_id, actor_id=actor.id if actor else None, text=text[:300], url=url[:300]))
@@ -60,6 +71,36 @@ def followee_ids(db: Session, user: User) -> list[uuid.UUID]:
 
 _ACTOR_LEAD = re.compile(r"^@[a-z0-9_]+", re.IGNORECASE)
 _TARGET = re.compile(r"^/(discussions|sessions|blog|u)/([^/?#]+)")
+
+# Every notification the site writes, as stored (in English) and as shown in the reader's language. A new kind of
+# notification adds its shape here; text that matches none is shown as stored. More specific shapes go first.
+_WHO = r"(?P<who>@[A-Za-z0-9_]+|Deleted account) "
+NOTICES = [(re.compile(f"^{pattern}$", re.DOTALL), template) for pattern, template in (
+    (_WHO + FOLLOW_TEXT, N_("{who} started following you")),
+    (_WHO + r"replied to “(?P<title>.*)”", N_("{who} replied to “{title}”")),
+    (_WHO + r"mentioned you in a comment on the (?P<tea>.*) session", N_("{who} mentioned you in a comment on the {tea} session")),
+    (_WHO + r"mentioned you in a comment on “(?P<title>.*)”", N_("{who} mentioned you in a comment on “{title}”")),
+    (_WHO + r"mentioned you in “(?P<title>.*)”", N_("{who} mentioned you in “{title}”")),
+    (_WHO + r"started a topic: (?P<title>.*)", N_("{who} started a topic: {title}")),
+    (_WHO + r"commented on your (?P<tea>.*) session", N_("{who} commented on your {tea} session")),
+    (_WHO + r"commented on “(?P<title>.*)”", N_("{who} commented on “{title}”")),
+    (_WHO + r"logged (?P<title>.*)", N_("{who} logged {title}")),
+    (r"Your reply in “(?P<title>.*)” was marked helpful", N_("Your reply in “{title}” was marked helpful")),
+)]
+
+
+def notice_text(text: str) -> str:
+    """A stored notification in the reader's language."""
+    if get_lang() == "en":
+        return text
+    for pattern, template in NOTICES:
+        match = pattern.match(text)
+        if match:
+            values = match.groupdict()
+            if values.get("who") == "Deleted account":
+                values["who"] = _("Deleted account")
+            return _(template, **values)
+    return text
 
 
 def _uuids(values: set[str]) -> set[uuid.UUID]:
@@ -104,7 +145,7 @@ def notification_views(db: Session, viewer: User, rows: list[Notification], admi
             url = None if actor.deleted_at else f"/u/{actor.handle}"
         elif match and match[2] not in alive[match[1]]:
             url = None
-        views.append({"id": n.id, "text": text, "url": url, "actor": actor, "created_at": n.created_at})
+        views.append({"id": n.id, "text": notice_text(text), "url": url, "actor": actor, "created_at": n.created_at})
     return views
 
 
@@ -125,17 +166,19 @@ KIND_GRADIENTS = {
 OTHER_GRADIENT = "linear-gradient(90deg, #9EA3CF, #5A5F8F)"
 
 # The only place badge rules live. A badge shows its rule as text, and one that isn't earned isn't drawn.
+# Titles and rules are English here; earned_badges() hands them out in the visitor's language.
 BADGES = (
-    {"title": "First steep", "rule": "At least 1 public session", "number": "sessions", "at_least": 1, "grad": "linear-gradient(135deg, #FF4FD8, #FF8A1F)"},
-    {"title": "Regular", "rule": "30 or more public sessions", "number": "sessions", "at_least": 30, "grad": "linear-gradient(135deg, #FFE066, #FF8A1F)"},
-    {"title": "Helpful", "rule": "5 or more helpful replies", "number": "helpful", "at_least": 5, "grad": "linear-gradient(135deg, #22E3A6, #22B8FF)"},
-    {"title": "Explorer", "rule": "10 or more teas on the shelf", "number": "teas", "at_least": 10, "grad": "linear-gradient(135deg, #D6F25C, #22E3A6)"},
-    {"title": "Brewed along", "rule": "3 or more public sessions brewed along with a blog post", "number": "brew_alongs", "at_least": 3, "grad": "linear-gradient(135deg, #C77DFF, #8A3FFC)"},
+    {"title": N_("First steep"), "rule": N_("At least 1 public session"), "number": "sessions", "at_least": 1, "grad": "linear-gradient(135deg, #FF4FD8, #FF8A1F)"},
+    {"title": N_("Regular"), "rule": N_("30 or more public sessions"), "number": "sessions", "at_least": 30, "grad": "linear-gradient(135deg, #FFE066, #FF8A1F)"},
+    {"title": N_("Helpful"), "rule": N_("5 or more helpful replies"), "number": "helpful", "at_least": 5, "grad": "linear-gradient(135deg, #22E3A6, #22B8FF)"},
+    {"title": N_("Explorer"), "rule": N_("10 or more teas on the shelf"), "number": "teas", "at_least": 10, "grad": "linear-gradient(135deg, #D6F25C, #22E3A6)"},
+    {"title": N_("Brewed along"), "rule": N_("3 or more public sessions brewed along with a blog post"), "number": "brew_alongs", "at_least": 3, "grad": "linear-gradient(135deg, #C77DFF, #8A3FFC)"},
 )
 
 
 def earned_badges(numbers: dict[str, int]) -> list[dict]:
-    return [badge for badge in BADGES if numbers.get(badge["number"], 0) >= badge["at_least"]]
+    return [{**badge, "title": in_context("badge", badge["title"]), "rule": _(badge["rule"])}
+            for badge in BADGES if numbers.get(badge["number"], 0) >= badge["at_least"]]
 
 
 def compact(n: int) -> str:
@@ -194,12 +237,12 @@ def public_diary(db: Session, user_id: uuid.UUID) -> dict:
     share = []
     if kinds:  # a tea typed in by hand has no type, so "Other" alone would say nothing
         ranked = kinds.most_common()
-        counts = [count for _, count in ranked] + ([other] if other else [])
+        counts = [count for _kind, count in ranked] + ([other] if other else [])
         percents = _whole_percents(counts)
-        share = [{"label": CATEGORY_LABELS[kind], "count": count, "percent": percents[i], "grad": KIND_GRADIENTS.get(kind.value, OTHER_GRADIENT)}
+        share = [{"label": _(CATEGORY_LABELS[kind]), "count": count, "percent": percents[i], "grad": KIND_GRADIENTS.get(kind.value, OTHER_GRADIENT)}
                  for i, (kind, count) in enumerate(ranked)]
         if other:
-            share.append({"label": "Other", "count": other, "percent": percents[-1], "grad": OTHER_GRADIENT})
+            share.append({"label": _("Other"), "count": other, "percent": percents[-1], "grad": OTHER_GRADIENT})
 
     return {
         "sessions": len(rows),
@@ -257,14 +300,14 @@ def activity_page(db: Session, user_id: uuid.UUID, limit: int, offset: int) -> t
     for key in keys:
         if key.kind == "topic":
             topic = loaded_topics[key.id]
-            meta = f"{topic.reply_count} repl{'y' if topic.reply_count == 1 else 'ies'}" + (" · solved" if topic.solved else "")
-            items.append({"kind": "topic", "section": topic.section.name, "at": topic.created_at, "title": topic.title,
+            meta = _n("{n} reply", "{n} replies", topic.reply_count) + (" · " + _("solved") if topic.solved else "")
+            items.append({"kind": "topic", "section": _(topic.section.name), "at": topic.created_at, "title": topic.title,
                           "url": f"/discussions/{topic.id}", "excerpt": "", "meta": meta})
         else:
             reply = loaded_replies[key.id]
-            bits = ["Marked helpful by the author"] if reply.marked_helpful_by_author else []
+            bits = [_("Marked helpful by the author")] if reply.marked_helpful_by_author else []
             if reply.helpful_count:
-                bits.append(f"{reply.helpful_count} helpful")
-            items.append({"kind": "reply", "section": reply.topic.section.name, "at": reply.created_at, "title": reply.topic.title,
+                bits.append(_("{n} helpful", n=reply.helpful_count))
+            items.append({"kind": "reply", "section": _(reply.topic.section.name), "at": reply.created_at, "title": reply.topic.title,
                           "url": f"/discussions/{reply.topic_id}#reply-{reply.id}", "excerpt": reply_excerpt(reply.body, 160), "meta": " · ".join(bits)})
     return items, total

@@ -54,7 +54,7 @@
       </nav>
       {% endif %}
       {% if thin_lead %}<p class="lead" lang="{{ lang }}">{{ thin_lead }}</p>{% elif text.taste_profile %}<p class="lead" lang="{{ lang }}">{{ text.taste_profile }}</p>{% endif %}
-      {% if tea.taste_tags %}<div class="tags">{% for t in tea.taste_tags %}<span class="tag">{{ t }}</span>{% endfor %}</div>{% endif %}
+      {% if tea.taste_tags %}<div class="tags">{% for t in tea.taste_tags %}<span class="tag">{{ _(t) }}</span>{% endfor %}</div>{% endif %}
       {% if tea.liquor_hex or tea.leaf_hex %}
       <div class="swatches">
         {% if tea.leaf_hex %}<span class="swatch"><i style="background:{{ tea.leaf_hex }}"></i>{{ t("Leaf") }}</span>{% endif %}

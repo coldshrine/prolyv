@@ -1,10 +1,10 @@
 {% extends "base.html" %}
 {% from "partials/macros.html" import avatar, show_more %}
-{% block title %}Notifications · {{ site_name }}{% endblock %}
+{% block title %}{{ _("Notifications") }} · {{ site_name }}{% endblock %}
 {% block head %}<link rel="stylesheet" href="/static/css/profile.css?v={{ version }}">{% endblock %}
 {% block content %}
 <div class="container narrow">
-  <h1 class="h1">Notifications</h1>
+  <h1 class="h1">{{ _("Notifications") }}</h1>
   {% if notifications %}
   <ul class="notifications more-list">
     {% for n in notifications %}
@@ -17,7 +17,7 @@
       {% else %}
       <div class="pf-gone">
         {% if n.actor %}{{ avatar(n.actor, 36) }}{% endif %}
-        <span><span class="notification-text">{{ n.text }}</span><span class="muted small">{{ n.created_at|ago }} · no longer available</span></span>
+        <span><span class="notification-text">{{ n.text }}</span><span class="muted small">{{ n.created_at|ago }} · {{ _("no longer available") }}</span></span>
       </div>
       {% endif %}
     </li>
@@ -25,7 +25,7 @@
     {% if next_url %}{{ show_more(next_url, tag="li") }}{% endif %}
   </ul>
   {% else %}
-  <div class="card empty"><p class="empty-title">Nothing yet</p><p class="muted">Replies, comments and new sessions from people you follow will show up here.</p></div>
+  <div class="card empty"><p class="empty-title">{{ _("Nothing yet") }}</p><p class="muted">{{ _("Replies, comments and new sessions from people you follow will show up here.") }}</p></div>
   {% endif %}
 </div>
 {% endblock %}

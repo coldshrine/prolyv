@@ -47,7 +47,8 @@ def test_blog_index_and_post_in_russian(tmp_path, google):
     assert "Пролив за проливом" in page and "Пролив 3 · 12 с" in page and "ПРОЛИВ 1" in page
     assert "1 человек заварил вместе с нами" in page and "Средняя оценка" in page
     assert "3 комментария" in page and "Присоединяйтесь к обсуждению" in page and ">Отправить<" in page
-    assert "Обсудить на форуме" in page and "Steep" not in page and "Helpful" not in page
+    shown = page.split('<script type="application/json" id="ui-text">')[0]  # the scripts' dictionary has English keys
+    assert "Обсудить на форуме" in page and "Steep" not in shown and "Helpful" not in shown
 
     refused = client.post("/blog/why-does-shu-turn-bitter/comments", data={"csrf_token": token, "body": " x "})
     assert refused.status_code == 400 and "Сначала напишите комментарий." in refused.text

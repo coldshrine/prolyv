@@ -13,6 +13,7 @@ from sqlalchemy import delete, func, select, true
 from sqlalchemy.orm import selectinload
 
 from prolyv.auth.accounts import get_user_by_handle
+from prolyv.i18n import N_, _
 from prolyv.models import (
     ForumSection, HelpfulVote, Notification, Post, Reply, ReplyVote, TeaSession, Topic, TopicFollow, User, Visibility, utcnow,
 )
@@ -27,11 +28,12 @@ from prolyv.web.text import mentions
 router = APIRouter()
 PAGE_SIZE = 20
 REPLY_PAGE = 10
-TOPIC_SORTS = {"active": "Active", "newest": "Newest", "unanswered": "Unanswered", "helpful": "Most helpful"}
-REPLY_SORTS = {"helpful": "Most helpful", "newest": "Newest"}
+# labels in English, shown with _()
+TOPIC_SORTS = {"active": N_("Active"), "newest": N_("Newest"), "unanswered": N_("Unanswered"), "helpful": N_("Most helpful")}
+REPLY_SORTS = {"helpful": N_("Most helpful"), "newest": N_("Newest")}
 SECTION_CUPS = {"oolong": "oolong", "pu-erh": "shu", "black-white": "black", "green-yellow": "green", "teaware": "white",
                 "beginners": "yellow", "where-to-buy": "sheng"}
-TOO_FAST = "Slow down a little. You're posting very quickly: wait a few minutes and try again. Your text is still here."
+TOO_FAST = N_("Slow down a little. You're posting very quickly: wait a few minutes and try again. Your text is still here.")  # shown with _()
 
 
 def all_sections(db) -> list[ForumSection]:  # noqa: ANN001
@@ -192,12 +194,12 @@ def validate_topic(data, db) -> tuple[dict, dict]:  # noqa: ANN001
     }
     errors: dict[str, str] = {}
     if len(form["title"]) < 5:
-        errors["title"] = "Give the topic a title (at least 5 characters)."
+        errors["title"] = _("Give the topic a title (at least 5 characters).")
     if len(form["body"]) < 10:
-        errors["body"] = "Say a bit more (at least 10 characters)."
+        errors["body"] = _("Say a bit more (at least 10 characters).")
     section = db.execute(select(ForumSection).where(ForumSection.slug == form["section"])).scalar_one_or_none()
     if section is None:
-        errors["section"] = "Pick a section."
+        errors["section"] = _("Pick a section.")
     return form, errors
 
 
@@ -206,7 +208,7 @@ async def topic_create(request: Request, db: DbDep, settings: SettingsDep, signe
     form, errors = validate_topic(await request.form(), db)
     status = 400
     if not errors and not request.app.state.post_limiter.allow(str(user.id)):  # same quota as post_quota, but the text survives
-        errors, status = {"body": TOO_FAST}, 429
+        errors, status = {"body": _(TOO_FAST)}, 429
     if errors:
         context = {"form": form, "errors": errors, "sections": all_sections(db), "my_sessions": my_public_sessions(db, user)}
         return render(request, "forum/new.html", context, status_code=status)
@@ -219,7 +221,7 @@ async def topic_create(request: Request, db: DbDep, settings: SettingsDep, signe
     notify_followers(db, user, f"@{user.handle} started a topic: {topic.title}", f"/discussions/{topic.id}")
     notify_mentions(db, user, topic.body, f"/discussions/{topic.id}", f"“{topic.title}”")
     response = RedirectResponse(f"/discussions/{topic.id}", status_code=303)
-    set_flash(response, settings, signer, "ok", "Topic posted.")
+    set_flash(response, settings, signer, "ok", _("Topic posted."))
     return response
 
 
@@ -375,10 +377,10 @@ def reply_create(request: Request, db: DbDep, settings: SettingsDep, signer: Sig
     body = body.strip()[:20000]
     response = RedirectResponse(f"/discussions/{topic.id}#reply", status_code=303)
     if len(body) < 2:
-        set_flash(response, settings, signer, "error", "Write a reply first.")
+        set_flash(response, settings, signer, "error", _("Write a reply first."))
         return response
     if not request.app.state.post_limiter.allow(str(user.id)):  # same quota as post_quota, but the reply stays in the box
-        return topic_view(request, db, user, topic, draft=body, draft_session=attached_session_id, form_error=TOO_FAST, status_code=429)
+        return topic_view(request, db, user, topic, draft=body, draft_session=attached_session_id, form_error=_(TOO_FAST), status_code=429)
     reply = Reply(topic=topic, user=user, body=body, attached_session=resolve_attachment(db, user, attached_session_id))
     db.add(reply)
     db.flush()
@@ -407,10 +409,10 @@ def topic_follow(request: Request, db: DbDep, settings: SettingsDep, signer: Sig
     response = RedirectResponse(f"/discussions/{topic.id}", status_code=303)
     if follow is None:
         db.add(TopicFollow(user_id=user.id, topic_id=topic.id))
-        set_flash(response, settings, signer, "ok", "Following. New replies will show up in your notifications.")
+        set_flash(response, settings, signer, "ok", _("Following. New replies will show up in your notifications."))
     else:
         db.delete(follow)
-        set_flash(response, settings, signer, "ok", "No longer following this topic.")
+        set_flash(response, settings, signer, "ok", _("No longer following this topic."))
     return response
 
 
@@ -468,7 +470,7 @@ def reply_delete(request: Request, db: DbDep, settings: SettingsDep, signer: Sig
     refresh_reply_stats(db, topic)
     params = f"?{urlencode({'sort': sort})}" if sort in REPLY_SORTS and sort != "helpful" else ""
     response = RedirectResponse(f"/discussions/{topic.id}{params}#replies", status_code=303)
-    set_flash(response, settings, signer, "ok", "Reply deleted.")
+    set_flash(response, settings, signer, "ok", _("Reply deleted."))
     return response
 
 
@@ -491,7 +493,7 @@ def topic_delete(request: Request, db: DbDep, settings: SettingsDep, signer: Sig
     db.execute(delete(Notification).where(Notification.url.like(f"/discussions/{topic.id}%")))  # they would lead to a 404
     db.delete(topic)
     response = RedirectResponse("/discussions", status_code=303)
-    set_flash(response, settings, signer, "ok", "Topic deleted.")
+    set_flash(response, settings, signer, "ok", _("Topic deleted."))
     return response
 
 
