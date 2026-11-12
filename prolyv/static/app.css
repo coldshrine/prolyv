@@ -893,3 +893,11 @@ body { overflow-wrap: anywhere; }
 .footer-lang a { color: var(--muted); font-weight: 700; }
 .footer-lang a:hover { color: var(--link); }
 .footer-lang [aria-current] { color: var(--fg); font-weight: 700; }
+/* Longer menu words (Russian) on a narrow desktop: the name keeps whole words, the menu gives up some padding */
+.brand-name { overflow-wrap: normal; }
+@media (min-width: 1024px) and (max-width: 1199px) {
+  .topbar-inner { gap: 10px; }
+  .topnav { gap: 0; }
+  .topnav a { padding: 0 11px; }
+  .topbar-actions { gap: 8px; }
+}

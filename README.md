@@ -188,6 +188,25 @@ sessions are database rows, not signed cookies.
 step by the routes and rebuilt by the importer. Chinese characters are indexed one by one, because the tokenizer doesn't
 split them. The filter box on `/teas` uses `LIKE` over a normalised `search_text`, which is fine for thousands of rows.
 
+## Languages
+
+The interface speaks English and Russian. The top bar shows the other language (RU / EN), the footer lists both, and
+Settings has the same choice. `/lang/ru?next=<path>` stores the choice in the `lang` cookie for a year and goes back to
+the page. Without the cookie the site takes the first language from the browser's list that it speaks (so
+`uk, ru, en` gets Russian) and falls back to English; search engines see English. Pages say which language they are
+in (`<html lang>`, `Content-Language`, `Vary: Cookie, Accept-Language`).
+
+Only the interface is translated. Sessions, topics, comments and posts stay in the language they were written in. Tea
+cards carry their own translations (`i18n` in the card file): a Russian visitor gets the Russian text when the card has
+it, and `?lang=` on the tea page still picks one.
+
+How to translate a new string: write the English in the template as `{{ _("Save") }}`, or `{{ _n("{n} reply",
+"{n} replies", count) }}` for a count, or `_()` / `_n()` from `prolyv.i18n` in Python, then add the Russian to the
+`ru_*.py` module of that part of the site in `prolyv/i18n/` (`PLURALS` takes the three Russian forms: 1, 2–4, 5+).
+Scripts use `tr()` / `trn()` from `app.js`, with their Russian under `JS`. `ru_common.py` holds the glossary and house
+style. A missing translation shows the English, and `tests/test_i18n.py` fails until it is added. Dates go through the
+`|date` filter (`format_date` in Python) so month names follow the language.
+
 ## Project layout
 
 ```
@@ -211,6 +230,7 @@ prolyv/
   story.py          1080x1920 story card PNG
   mail.py           SMTP for sign-in links
   markdown.py       Markdown -> sanitised HTML for the blog
+  i18n/             _() and _n(), dates, the language pick; ru_*.py hold the Russian, ru_common.py the glossary
   web/
     routes_auth.py     /login, /auth/google/*, /auth/telegram/callback, /logout
     routes_account.py  /settings, /settings/handle-check, /u/{handle}
@@ -222,6 +242,7 @@ prolyv/
     routes_social.py   follow, /notifications, /saved, /report, /admin, /admin/reports, /admin/users
     routes_pages.py    /about, /rules, /privacy, /terms, robots.txt, manifest, icons
     routes_dev.py      /dev/login (DEV_LOGIN=1 on localhost only)
+    lang.py            LanguageMiddleware and /lang/{code}
     deps.py, cookies.py, flash.py, templating.py, useragent.py
   templates/        base (top bar + bottom tab bar), login, settings, profile, teas/, diary/, forum/, blog/, admin/
   fonts/            Unbounded and Manrope (SIL OFL) for story cards
