@@ -1,0 +1,180 @@
+<!doctype html>
+<html lang="uk">
+<head>
+<meta charset="utf-8">
+<title>Пролив — чайний клуб</title>
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&amp;family=Unbounded:wght@500;600;700;800&amp;display=swap">
+<style>
+body{margin:0;background:#07081A}
+*{box-sizing:border-box}
+a{color:#FFB3F0}a:hover{color:#FFFFFF}
+summary{cursor:pointer}
+</style>
+</helmet>
+<div style="min-height: 100vh; background: #07081A; color: #FFFFFF; font-family: Manrope, system-ui, sans-serif; font-size: 16px; line-height: 1.5">
+<dc-import name="Header" current="club" hint-size="100%,72px"></dc-import>
+
+<main>
+<section style="position: relative; overflow: hidden; background: radial-gradient(40% 70% at 85% 25%, #FF8A1F 0, rgba(255,138,31,0) 70%), radial-gradient(50% 80% at 60% 110%, #2563FF 0, rgba(37,99,255,0) 70%), radial-gradient(40% 70% at 0% 0%, #FF4FD8 0, rgba(255,79,216,0) 70%), linear-gradient(125deg, #6A1FD0 0%, #3B1FB8 50%, #0B0D3A 100%)">
+<svg aria-hidden="true" viewBox="0 0 1440 640" preserveAspectRatio="none" style="position: absolute; inset: 0; width: 100%; height: 100%"><path d="M-40 520 C 300 360, 760 700, 1480 300" fill="none" stroke="rgba(255,255,255,0.9)" stroke-width="30" stroke-linecap="round"></path><path d="M-40 560 C 320 410, 780 740, 1480 350" fill="none" stroke="rgba(255,255,255,0.25)" stroke-width="6" stroke-linecap="round"></path></svg>
+<div style="position: relative; max-width: 1240px; margin: 0 auto; padding: 88px 24px 104px; display: flex; flex-wrap: wrap; gap: 48px; align-items: center">
+<div style="flex: 1 1 520px; min-width: 0; display: flex; flex-direction: column; gap: 22px">
+<p style="margin: 0; align-self: flex-start; padding: 7px 14px; border-radius: 999px; background: rgba(255,255,255,0.16); font-size: 14px; font-weight: 800; letter-spacing: 0.06em">ЧАЙНИЙ КЛУБ ПРОЛИВ</p>
+<h1 style="margin: 0; font-family: Unbounded, sans-serif; font-weight: 800; font-size: 68px; line-height: 1.02; letter-spacing: -0.035em">Новий чай щомісяця. І з ким його пити.</h1>
+<p style="margin: 0; max-width: 30em; font-size: 20px; color: #F3EAFF">Чотири чаї по 10 г від різних українських магазинів і спільна онлайн-дегустація в останню неділю місяця.</p>
+<div style="display: flex; flex-wrap: wrap; gap: 12px">
+<a href="#plans" style="height: 58px; display: inline-flex; align-items: center; padding: 0 28px; border-radius: 999px; background: #FFFFFF; color: #07081A; text-decoration: none; font-weight: 800; font-size: 17px">Приєднатися</a>
+<a href="#how" style="height: 58px; display: inline-flex; align-items: center; padding: 0 26px; border-radius: 999px; background: rgba(7,8,26,0.25); border: 1px solid rgba(255,255,255,0.4); color: #FFFFFF; text-decoration: none; font-weight: 800; font-size: 17px">Як це працює</a>
+</div>
+</div>
+<div style="flex: 1 1 380px; min-width: 0; padding: 28px; border-radius: 36px; background: rgba(7,8,26,0.35); border: 1px solid rgba(255,255,255,0.25); backdrop-filter: blur(20px); -webkit-backdrop-filter: blur(20px); box-shadow: 0 40px 80px -30px rgba(0,0,0,0.6)">
+<p style="margin: 0; font-size: 13px; font-weight: 800; letter-spacing: 0.08em; color: #FFE39A">СЕТ ЛИСТОПАДА</p>
+<div style="margin-top: 18px; display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 14px">
+<sc-for list="{{set}}" as="s" hint-placeholder-count="4">
+<div style="padding: 18px 14px; border-radius: 24px; background: rgba(255,255,255,0.1); display: flex; flex-direction: column; align-items: center; gap: 10px; text-align: center">
+<dc-import name="Cup" kind="{{s.kind}}" size="84" hint-size="84px,84px"></dc-import>
+<span style="font-weight: 800; font-size: 14px; line-height: 1.3">{{s.short}}</span>
+</div>
+</sc-for>
+</div>
+<p style="margin: 18px 0 0; font-size: 14px; color: #E6E7FA">Дегустація: неділя, 29 листопада, 19:00</p>
+</div>
+</div>
+</section>
+
+<section id="how" aria-labelledby="how-h" style="max-width: 1240px; margin: 0 auto; padding: 80px 24px 0">
+<h2 id="how-h" style="margin: 0; font-family: Unbounded, sans-serif; font-weight: 700; font-size: 40px; letter-spacing: -0.02em">Як це працює</h2>
+<ol style="list-style: none; margin: 28px 0 0; padding: 0; display: flex; flex-wrap: wrap; gap: 16px">
+<sc-for list="{{steps}}" as="s" hint-placeholder-count="4">
+<li style="flex: 1 1 240px; min-width: 0; padding: 26px; border-radius: 28px; background: rgba(255,255,255,0.05); border: 1px solid rgba(255,255,255,0.1); display: flex; flex-direction: column; gap: 12px">
+<span style="width: 52px; height: 52px; border-radius: 16px; background: {{s.grad}}; color: #07081A; display: grid; place-items: center; font-family: Unbounded, sans-serif; font-weight: 800; font-size: 20px">{{s.n}}</span>
+<h3 style="margin: 4px 0 0; font-size: 19px; font-weight: 800">{{s.title}}</h3>
+<p style="margin: 0; color: #C9CCEB; font-size: 15px">{{s.text}}</p>
+</li>
+</sc-for>
+</ol>
+</section>
+
+<section aria-labelledby="set-h" style="max-width: 1240px; margin: 0 auto; padding: 80px 24px 0">
+<div style="display: flex; flex-wrap: wrap; justify-content: space-between; align-items: baseline; gap: 12px">
+<h2 id="set-h" style="margin: 0; font-family: Unbounded, sans-serif; font-weight: 700; font-size: 40px; letter-spacing: -0.02em">Що в сеті листопада</h2>
+<p style="margin: 0; color: #9EA3CF">Від чотирьох різних магазинів — щоб порівнювати, а не вгадувати.</p>
+</div>
+<div style="margin-top: 28px; display: flex; flex-wrap: wrap; gap: 20px">
+<sc-for list="{{set}}" as="s" hint-placeholder-count="4">
+<article style="flex: 1 1 260px; min-width: 0; overflow: hidden; border-radius: 28px; background: rgba(16,18,48,0.75); border: 1px solid rgba(255,255,255,0.12)">
+<div style="height: 150px; display: grid; place-items: center; background: {{s.halo}}"><dc-import name="Cup" kind="{{s.kind}}" size="116" hint-size="116px,116px"></dc-import></div>
+<div style="padding: 20px 22px 24px; display: flex; flex-direction: column; gap: 8px">
+<p style="margin: 0; font-size: 12px; font-weight: 800; letter-spacing: 0.08em; color: {{s.labelColor}}">{{s.typeCaps}} · {{s.shop}}</p>
+<h3 style="margin: 0; font-size: 18px; font-weight: 800; line-height: 1.3">{{s.name}}</h3>
+<p style="margin: 0; color: #C9CCEB; font-size: 15px">{{s.why}}</p>
+</div>
+</article>
+</sc-for>
+</div>
+</section>
+
+<section id="plans" aria-labelledby="plans-h" style="max-width: 1240px; margin: 0 auto; padding: 80px 24px 0">
+<h2 id="plans-h" style="margin: 0; text-align: center; font-family: Unbounded, sans-serif; font-weight: 700; font-size: 40px; letter-spacing: -0.02em">Оберіть формат</h2>
+<p style="margin: 10px auto 0; max-width: 36em; text-align: center; color: #9EA3CF">Без автоматичних сюрпризів: нагадаємо перед кожним списанням, паузу можна поставити в один клік.</p>
+<div style="margin-top: 32px; display: flex; flex-wrap: wrap; gap: 20px; align-items: stretch">
+<article style="flex: 1 1 300px; min-width: 0; padding: 32px; border-radius: 32px; background: rgba(255,255,255,0.05); border: 1px solid rgba(255,255,255,0.12); display: flex; flex-direction: column; gap: 18px">
+<h3 style="margin: 0; font-size: 22px; font-weight: 800">Щомісяця</h3>
+<p style="margin: 0"><span style="font-family: Unbounded, sans-serif; font-weight: 800; font-size: 40px">[ціна] ₴</span><span style="color: #9EA3CF"> / місяць</span></p>
+<ul style="list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; gap: 10px; color: #E6E7FA">
+<sc-for list="{{features}}" as="f" hint-placeholder-count="4"><li style="display: flex; gap: 10px"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#22E3A6" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="flex: none; margin-top: 2px"><path d="M5 12l5 5L20 7"></path></svg>{{f.text}}</li></sc-for>
+</ul>
+<a href="Login.dc.html" style="margin-top: auto; height: 54px; display: flex; align-items: center; justify-content: center; border-radius: 999px; background: rgba(255,255,255,0.1); border: 1px solid rgba(255,255,255,0.22); color: #FFFFFF; text-decoration: none; font-weight: 800">Обрати</a>
+</article>
+<article style="flex: 1 1 300px; min-width: 0; padding: 2px; border-radius: 34px; background: linear-gradient(135deg, #FF4FD8, #8A3FFC, #FF8A1F)">
+<div style="height: 100%; padding: 30px; border-radius: 32px; background: radial-gradient(70% 50% at 50% 0%, rgba(255,79,216,0.3) 0, rgba(255,79,216,0) 70%), #0E1030; display: flex; flex-direction: column; gap: 18px">
+<div style="display: flex; justify-content: space-between; align-items: center; gap: 12px"><h3 style="margin: 0; font-size: 22px; font-weight: 800">3 місяці</h3><span style="padding: 5px 12px; border-radius: 999px; background: linear-gradient(100deg, #FF4FD8, #FF8A1F); color: #07081A; font-size: 13px; font-weight: 800">Вигідніше</span></div>
+<p style="margin: 0"><span style="font-family: Unbounded, sans-serif; font-weight: 800; font-size: 40px">[ціна] ₴</span><span style="color: #9EA3CF"> за 3 місяці</span></p>
+<ul style="list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; gap: 10px; color: #E6E7FA">
+<sc-for list="{{features}}" as="f" hint-placeholder-count="4"><li style="display: flex; gap: 10px"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#22E3A6" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="flex: none; margin-top: 2px"><path d="M5 12l5 5L20 7"></path></svg>{{f.text}}</li></sc-for>
+<li style="display: flex; gap: 10px"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#FF8A1F" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="flex: none; margin-top: 2px"><path d="M5 12l5 5L20 7"></path></svg>Бонусний пробник витриманого пуеру</li>
+</ul>
+<a href="Login.dc.html" style="margin-top: auto; height: 54px; display: flex; align-items: center; justify-content: center; border-radius: 999px; background: linear-gradient(100deg, #FF4FD8 0%, #FF8A1F 100%); color: #07081A; text-decoration: none; font-weight: 800">Обрати 3 місяці</a>
+</div>
+</article>
+<article style="flex: 1 1 300px; min-width: 0; padding: 32px; border-radius: 32px; background: rgba(255,255,255,0.05); border: 1px solid rgba(255,255,255,0.12); display: flex; flex-direction: column; gap: 18px">
+<h3 style="margin: 0; font-size: 22px; font-weight: 800">У подарунок</h3>
+<p style="margin: 0"><span style="font-family: Unbounded, sans-serif; font-weight: 800; font-size: 40px">[ціна] ₴</span><span style="color: #9EA3CF"> від</span></p>
+<ul style="list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; gap: 10px; color: #E6E7FA">
+<li style="display: flex; gap: 10px"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#22E3A6" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="flex: none; margin-top: 2px"><path d="M5 12l5 5L20 7"></path></svg>Сертифікат на 1 або 3 місяці</li>
+<li style="display: flex; gap: 10px"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#22E3A6" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="flex: none; margin-top: 2px"><path d="M5 12l5 5L20 7"></path></svg>Листівка з вашим побажанням</li>
+<li style="display: flex; gap: 10px"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#22E3A6" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="flex: none; margin-top: 2px"><path d="M5 12l5 5L20 7"></path></svg>Доставка на будь-яку адресу</li>
+</ul>
+<a href="Login.dc.html" style="margin-top: auto; height: 54px; display: flex; align-items: center; justify-content: center; border-radius: 999px; background: rgba(255,255,255,0.1); border: 1px solid rgba(255,255,255,0.22); color: #FFFFFF; text-decoration: none; font-weight: 800">Подарувати</a>
+</article>
+</div>
+</section>
+
+<section aria-labelledby="faq-h" style="max-width: 860px; margin: 0 auto; padding: 80px 24px 96px">
+<h2 id="faq-h" style="margin: 0; text-align: center; font-family: Unbounded, sans-serif; font-weight: 700; font-size: 36px; letter-spacing: -0.02em">Питання</h2>
+<div style="margin-top: 28px; display: flex; flex-direction: column; gap: 12px">
+<sc-for list="{{faq}}" as="q" hint-placeholder-count="4">
+<details style="padding: 0 24px; border-radius: 22px; background: rgba(255,255,255,0.05); border: 1px solid rgba(255,255,255,0.12)">
+<summary style="min-height: 64px; display: flex; align-items: center; font-weight: 800; font-size: 17px">{{q.q}}</summary>
+<p style="margin: 0 0 22px; color: #C9CCEB">{{q.a}}</p>
+</details>
+</sc-for>
+</div>
+</section>
+</main>
+
+<dc-import name="Footer" hint-size="100%,440px"></dc-import>
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props='{"$preview":{"width":1440,"height":3500}}'>
+class Component extends DCLogic {
+  renderVals() {
+    const T = {
+      green: ['#5CF2B8', '#0E9E73', 'Зелений', '#7CF5C8'],
+      oolong: ['#FFB347', '#E8590C', 'Улун', '#FFC98A'],
+      red: ['#FF7A6B', '#C4161C', 'Червоний', '#FFA59B'],
+      shu: ['#A86BFF', '#3A0E8C', 'Шу пуер', '#CDB0FF']
+    };
+    const item = (k, name, short, shop, why) => ({
+      kind: k, name, short, shop, why,
+      typeCaps: T[k][2].toUpperCase(), labelColor: T[k][3],
+      orb: 'radial-gradient(circle at 32% 28%, rgba(255,255,255,0.85) 0, rgba(255,255,255,0) 26%), radial-gradient(circle at 50% 60%, ' + T[k][0] + ' 0, ' + T[k][1] + ' 100%)',
+      glow: '0 16px 36px -12px ' + T[k][0],
+      halo: 'radial-gradient(60% 80% at 50% 50%, ' + T[k][1] + '66 0, rgba(7,8,26,0) 75%)'
+    });
+    return {
+      set: [
+        item('green', 'Лун Цзин', 'Лун Цзин', 'ЛИСТЯ', 'Класика, з якої варто почати знайомство з китайським зеленим: горіх і свіжа трава.'),
+        item('oolong', 'Те Гуань Інь «Осінній»', 'Те Гуань Інь', 'СІМ ПРОЛИВІВ', 'Порівняйте з весняним із топу місяця: осінній щільніший і солодший.'),
+        item('red', 'Дянь Хун «Золоті бруньки»', 'Дянь Хун', 'ЧАЙНА ЛАВКА', 'Мед і какао. Прощає помилки — ідеальний для тих, хто тільки пробує гунфу.'),
+        item('shu', 'Шу пуер «Мен Хай» 2019', 'Шу пуер', 'ГОРНЯТКО', 'Землистий і густий. Покажемо, як промивати й скільки тримати проливи.')
+      ],
+      steps: [
+        { n: '1', title: 'Отримуєте сет', text: 'До 5 числа — Новою поштою, у коробці з картками параметрів заварювання.', grad: 'linear-gradient(135deg, #FF4FD8, #FF8A1F)' },
+        { n: '2', title: 'Заварюєте вдома', text: 'У своєму темпі. Записуйте сесії в щоденник — так легше порівнювати.', grad: 'linear-gradient(135deg, #FFE066, #FF8A1F)' },
+        { n: '3', title: 'П’єте разом', text: 'В останню неділю місяця о 19:00 — онлайн-зустріч з ведучим і магазинами.', grad: 'linear-gradient(135deg, #5CF2B8, #22B8FF)' },
+        { n: '4', title: 'Обговорюєте й оцінюєте', text: 'Ваші оцінки потрапляють у спільний рейтинг і допомагають іншим обирати.', grad: 'linear-gradient(135deg, #C77DFF, #FF4FD8)' }
+      ],
+      features: [
+        { text: '4 чаї по 10 г від різних магазинів' },
+        { text: 'Онлайн-дегустація і запис зустрічі' },
+        { text: 'Картки з параметрами заварювання' },
+        { text: 'Знижка [N] % у магазинах-партнерах' }
+      ],
+      faq: [
+        { q: 'Коли приходить сет?', a: 'Відправляємо до 5 числа кожного місяця Новою поштою. Номер ТТН надішлемо в Telegram.' },
+        { q: 'Що, якщо я пропущу дегустацію?', a: 'Запис зустрічі з’явиться в клубному розділі наступного дня, а обговорення лишається відкритим до кінця місяця.' },
+        { q: 'Можна поставити підписку на паузу?', a: 'Так, у будь-який момент до 25 числа — тоді наступний сет не відправимо і не спишемо оплату.' },
+        { q: 'Звідки чай у сетах?', a: 'Лише з українських магазинів-партнерів. Магазини не платять за потрапляння в сет — чаї обираємо за оцінками й нотатками спільноти.' }
+      ]
+    };
+  }
+}
+</script>
+</body>
+</html>

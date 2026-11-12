@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Prolyv — header</title>
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&amp;family=Unbounded:wght@500;600;700;800&amp;display=swap">
+<style>
+body{margin:0}
+</style>
+</helmet>
+<header style="position: relative; z-index: 10; width: 100%; box-sizing: border-box; background: rgba(7,8,26,0.82); backdrop-filter: blur(18px); -webkit-backdrop-filter: blur(18px); border-bottom: 1px solid rgba(255,255,255,0.08); font-family: Manrope, system-ui, sans-serif; color: #FFFFFF; line-height: 1.4">
+<div style="max-width: 1240px; margin: 0 auto; padding: 14px 24px; box-sizing: border-box; display: flex; flex-wrap: wrap; align-items: center; gap: 10px 24px">
+<a href="Feed.dc.html" style="display: inline-flex; align-items: center; gap: 10px; color: #FFFFFF; text-decoration: none">
+<span aria-hidden="true" style="width: 32px; height: 32px; border-radius: 50%; background: radial-gradient(circle at 30% 28%, rgba(255,255,255,0.9) 0, rgba(255,255,255,0) 28%), conic-gradient(from 200deg, #FF4FD8, #8A3FFC, #2563FF, #22E3A6, #FFC21A, #FF8A1F, #FF4FD8); box-shadow: 0 0 24px rgba(255,79,216,0.45)"></span>
+<span style="font-family: Unbounded, sans-serif; font-weight: 700; font-size: 20px; letter-spacing: -0.01em">Prolyv</span>
+</a>
+<nav aria-label="Main navigation" style="flex: 1 1 auto; display: flex; flex-wrap: wrap; gap: 4px">
+<sc-for list="{{nav}}" as="n" hint-placeholder-count="5">
+<sc-if value="{{n.on}}" hint-placeholder-val="{{ false }}">
+<a href="{{n.href}}" aria-current="page" style="display: inline-flex; align-items: center; height: 44px; padding: 0 16px; border-radius: 999px; background: rgba(255,255,255,0.12); color: #FFFFFF; text-decoration: none; font-weight: 700; font-size: 15px">{{n.label}}</a>
+</sc-if>
+<sc-if value="{{n.off}}" hint-placeholder-val="{{ true }}">
+<a href="{{n.href}}" style="display: inline-flex; align-items: center; height: 44px; padding: 0 16px; border-radius: 999px; color: #C9CCEB; text-decoration: none; font-weight: 700; font-size: 15px">{{n.label}}</a>
+</sc-if>
+</sc-for>
+</nav>
+<div style="display: flex; align-items: center; gap: 10px">
+<a href="Forum.dc.html" aria-label="Search sessions and topics" style="width: 44px; height: 44px; display: inline-grid; place-items: center; border-radius: 999px; background: rgba(255,255,255,0.08); border: 1px solid rgba(255,255,255,0.14)"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" aria-hidden="true"><circle cx="11" cy="11" r="7"></circle><path d="M20 20l-3.5-3.5"></path></svg></a>
+<a href="Login.dc.html" style="height: 44px; display: inline-flex; align-items: center; padding: 0 18px; border-radius: 999px; background: rgba(255,255,255,0.08); border: 1px solid rgba(255,255,255,0.14); color: #FFFFFF; text-decoration: none; font-weight: 700; font-size: 15px">Log in</a>
+<a href="NewSession.dc.html" style="height: 44px; display: inline-flex; align-items: center; gap: 8px; padding: 0 18px; border-radius: 999px; background: linear-gradient(100deg, #FF4FD8 0%, #FF8A1F 100%); color: #07081A; text-decoration: none; font-weight: 800; font-size: 15px"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#07081A" stroke-width="2.6" stroke-linecap="round" aria-hidden="true"><path d="M12 5v14M5 12h14"></path></svg>Log a tea</a>
+</div>
+</div>
+</header>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props='{"current":{"editor":"enum","options":["feed","forum","blog","diary","none"],"default":"none"},"$preview":{"width":1440,"height":72}}'>
+class Component extends DCLogic {
+  renderVals() {
+    const current = this.props.current ?? 'none';
+    const items = [
+      { key: 'feed', label: 'Feed', href: 'Feed.dc.html' },
+      { key: 'forum', label: 'Discussions', href: 'Forum.dc.html' },
+      { key: 'blog', label: 'Blog', href: 'Blog.dc.html' },
+      { key: 'diary', label: 'My diary', href: 'MyDiary.dc.html' }
+    ];
+    return {
+      nav: items.map((it) => ({ label: it.label, href: it.href, on: it.key === current, off: it.key !== current }))
+    };
+  }
+}
+</script>
+</body>
+</html>

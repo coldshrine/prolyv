@@ -1,0 +1,254 @@
+<!doctype html>
+<html lang="uk">
+<head>
+<meta charset="utf-8">
+<title>Пролив — Те Гуань Інь «Весняний»</title>
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&amp;family=Unbounded:wght@500;600;700;800&amp;display=swap">
+<style>
+body{margin:0;background:#07081A}
+*{box-sizing:border-box}
+a{color:#FFB3F0}a:hover{color:#FFFFFF}
+@keyframes prolyvSpin{to{transform:rotate(360deg)}}
+@media (prefers-reduced-motion: reduce){[data-spin]{animation:none!important}}
+</style>
+</helmet>
+<div style="min-height: 100vh; background: #07081A; color: #FFFFFF; font-family: Manrope, system-ui, sans-serif; font-size: 16px; line-height: 1.5">
+<dc-import name="Header" current="catalog" hint-size="100%,72px"></dc-import>
+
+<main>
+<section style="position: relative; overflow: hidden; background: radial-gradient(36% 70% at 22% 45%, rgba(255,138,31,0.6) 0, rgba(255,138,31,0) 70%), radial-gradient(30% 60% at 8% 90%, rgba(255,79,216,0.45) 0, rgba(255,79,216,0) 70%), radial-gradient(40% 70% at 95% 0%, rgba(138,63,252,0.45) 0, rgba(138,63,252,0) 70%), #07081A">
+<div style="max-width: 1240px; margin: 0 auto; padding: 32px 24px 72px">
+<nav aria-label="Хлібні крихти" style="font-size: 14px; color: #9EA3CF"><a href="Catalog.dc.html">Каталог</a> / <a href="Catalog.dc.html">Улун</a> / <span aria-current="page">Те Гуань Інь «Весняний»</span></nav>
+<div style="margin-top: 28px; display: flex; flex-wrap: wrap; gap: 48px; align-items: center">
+<figure style="flex: 1 1 420px; min-width: 0; margin: 0; display: flex; flex-direction: column; align-items: center; gap: 22px">
+<dc-import name="Cup" kind="oolong" size="440" step="2" spin="on" hint-size="440px,440px"></dc-import>
+<figcaption style="text-align: center; font-size: 14px; color: #C9CCEB">Колір настою на 2-му проливі — за фото спільноти</figcaption>
+</figure>
+
+<div style="flex: 1 1 500px; min-width: 0; display: flex; flex-direction: column; gap: 22px">
+<ul style="list-style: none; margin: 0; padding: 0; display: flex; flex-wrap: wrap; gap: 8px">
+<li style="padding: 6px 14px; border-radius: 999px; background: rgba(255,138,31,0.2); color: #FFC98A; font-size: 14px; font-weight: 800">Улун</li>
+<li style="padding: 6px 14px; border-radius: 999px; background: rgba(255,255,255,0.08); border: 1px solid rgba(255,255,255,0.14); font-size: 14px; font-weight: 700">Слабка ферментація</li>
+<li style="padding: 6px 14px; border-radius: 999px; background: rgba(255,255,255,0.08); border: 1px solid rgba(255,255,255,0.14); font-size: 14px; font-weight: 700">Весна 2026</li>
+<li style="padding: 6px 14px; border-radius: 999px; background: rgba(255,255,255,0.08); border: 1px solid rgba(255,255,255,0.14); font-size: 14px; font-weight: 700">Аньсі, Фуцзянь</li>
+</ul>
+<h1 style="margin: 0; font-family: Unbounded, sans-serif; font-weight: 800; font-size: 56px; line-height: 1.04; letter-spacing: -0.03em">Те Гуань Інь «Весняний»</h1>
+<p style="margin: 0; font-size: 18px; color: #D7D9F2">Скручений лист, квітково-вершковий аромат і довгий солодкий післясмак. Тримає 6–8 проливів.</p>
+
+<div style="display: flex; flex-wrap: wrap; align-items: center; gap: 28px; padding: 24px 28px; border-radius: 28px; background: rgba(16,18,48,0.62); border: 1px solid rgba(255,255,255,0.16); backdrop-filter: blur(20px); -webkit-backdrop-filter: blur(20px)">
+<div style="display: flex; flex-direction: column; gap: 6px">
+<span style="font-family: Unbounded, sans-serif; font-weight: 800; font-size: 64px; line-height: 1; background: linear-gradient(180deg, #FFE066 0%, #FF8A1F 100%); -webkit-background-clip: text; background-clip: text; color: transparent">4,8</span>
+<span style="display: inline-flex; gap: 2px">
+<sc-for list="{{five}}" as="s" hint-placeholder-count="5">
+<svg width="18" height="18" viewBox="0 0 24 24" fill="#FFC21A" aria-hidden="true"><path d="M12 2.5l2.9 6 6.6.9-4.8 4.6 1.2 6.5L12 17.4l-5.9 3.1 1.2-6.5L2.5 9.4l6.6-.9z"></path></svg>
+</sc-for>
+</span>
+<span style="font-size: 14px; color: #9EA3CF">64 оцінки · 183 сесії</span>
+</div>
+<ul style="flex: 1 1 240px; list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; gap: 8px">
+<sc-for list="{{dist}}" as="d" hint-placeholder-count="5">
+<li style="display: flex; align-items: center; gap: 10px; font-size: 14px">
+<span style="width: 14px; font-weight: 800; color: #C9CCEB">{{d.stars}}</span>
+<span style="flex: 1; height: 10px; border-radius: 999px; background: rgba(255,255,255,0.1); overflow: hidden; display: block"><span style="display: block; height: 100%; width: {{d.pct}}; border-radius: 999px; background: linear-gradient(90deg, #FF4FD8, #FF8A1F)"></span></span>
+<span style="width: 40px; text-align: right; color: #9EA3CF">{{d.pct}}</span>
+</li>
+</sc-for>
+</ul>
+</div>
+
+<div style="display: flex; flex-wrap: wrap; gap: 12px">
+<a href="NewSession.dc.html" style="height: 56px; display: inline-flex; align-items: center; gap: 10px; padding: 0 26px; border-radius: 999px; background: linear-gradient(100deg, #FF4FD8 0%, #FF8A1F 100%); color: #07081A; text-decoration: none; font-weight: 800; font-size: 16px; box-shadow: 0 18px 40px -14px rgba(255,79,216,0.7)"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#07081A" stroke-width="2.6" stroke-linecap="round" aria-hidden="true"><path d="M12 5v14M5 12h14"></path></svg>Записати сесію</a>
+<button type="button" style="height: 56px; display: inline-flex; align-items: center; gap: 10px; padding: 0 24px; border-radius: 999px; background: rgba(255,255,255,0.08); border: 1px solid rgba(255,255,255,0.2); color: #FFFFFF; font: inherit; font-weight: 800; font-size: 16px; cursor: pointer"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="4" y="4" width="6" height="16" rx="1.5"></rect><rect x="14" y="8" width="6" height="12" rx="1.5"></rect></svg>На полицю</button>
+<a href="Story.dc.html" aria-label="Поділитися" style="width: 56px; height: 56px; display: inline-grid; place-items: center; border-radius: 999px; background: rgba(255,255,255,0.08); border: 1px solid rgba(255,255,255,0.2)"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3v12"></path><path d="M7 8l5-5 5 5"></path><path d="M5 13v6a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2v-6"></path></svg></a>
+</div>
+</div>
+</div>
+</div>
+</section>
+
+<section aria-labelledby="buy-h" style="max-width: 1240px; margin: 0 auto; padding: 72px 24px 24px">
+<div style="display: flex; flex-wrap: wrap; justify-content: space-between; align-items: baseline; gap: 12px">
+<h2 id="buy-h" style="margin: 0; font-family: Unbounded, sans-serif; font-weight: 700; font-size: 36px; letter-spacing: -0.02em">Де купити</h2>
+<p style="margin: 0; color: #9EA3CF; font-size: 14px">Ціни оновлено сьогодні о 09:00</p>
+</div>
+<div style="margin-top: 24px; overflow-x: auto; border-radius: 28px; background: rgba(255,255,255,0.04); border: 1px solid rgba(255,255,255,0.1)">
+<table style="width: 100%; min-width: 760px; border-collapse: collapse; font-size: 15px">
+<thead>
+<tr style="text-align: left; font-size: 13px; color: #9EA3CF">
+<th scope="col" style="padding: 18px 24px; font-weight: 800">Магазин</th>
+<th scope="col" style="padding: 18px 12px; font-weight: 800">Фасування</th>
+<th scope="col" style="padding: 18px 12px; font-weight: 800">Ціна</th>
+<th scope="col" style="padding: 18px 12px; font-weight: 800">За 10 г</th>
+<th scope="col" style="padding: 18px 12px; font-weight: 800">Наявність</th>
+<th scope="col" style="padding: 18px 24px; font-weight: 800; text-align: right">Дія</th>
+</tr>
+</thead>
+<tbody>
+<tr style="border-top: 1px solid rgba(255,255,255,0.08); background: linear-gradient(90deg, rgba(34,227,166,0.1), rgba(34,227,166,0))">
+<td style="padding: 18px 24px"><div style="display: flex; align-items: center; gap: 12px"><span aria-hidden="true" style="width: 40px; height: 40px; border-radius: 12px; background: linear-gradient(135deg, #FF9BEA, #C77DFF); display: grid; place-items: center; font-family: Unbounded, sans-serif; font-weight: 800; color: #07081A">Л</span><div><span style="display: block; font-weight: 800">Листя</span><span style="font-size: 13px; color: #9EA3CF">Одеса</span></div></div></td>
+<td style="padding: 18px 12px">100 г</td>
+<td style="padding: 18px 12px; font-weight: 800">790 ₴</td>
+<td style="padding: 18px 12px"><span style="font-weight: 800">79 ₴</span> <span style="margin-left: 6px; padding: 3px 8px; border-radius: 999px; background: rgba(34,227,166,0.2); color: #7CF5C8; font-size: 12px; font-weight: 800">найвигідніше</span></td>
+<td style="padding: 18px 12px"><span style="display: inline-flex; align-items: center; gap: 8px; font-weight: 800; color: #FFC98A"><span style="width: 8px; height: 8px; border-radius: 50%; background: #FFB347"></span>Закінчується</span></td>
+<td style="padding: 14px 24px; text-align: right"><a href="#buy-h" style="height: 44px; display: inline-flex; align-items: center; padding: 0 18px; border-radius: 999px; background: linear-gradient(100deg, #FF4FD8 0%, #FF8A1F 100%); color: #07081A; text-decoration: none; font-weight: 800; font-size: 14px">До магазину</a></td>
+</tr>
+<tr style="border-top: 1px solid rgba(255,255,255,0.08)">
+<td style="padding: 18px 24px"><div style="display: flex; align-items: center; gap: 12px"><span aria-hidden="true" style="width: 40px; height: 40px; border-radius: 12px; background: linear-gradient(135deg, #5CF2B8, #22B8FF); display: grid; place-items: center; font-family: Unbounded, sans-serif; font-weight: 800; color: #07081A">Ч</span><div><span style="display: block; font-weight: 800">Чайна лавка</span><span style="font-size: 13px; color: #9EA3CF">Київ</span></div></div></td>
+<td style="padding: 18px 12px">50 г</td>
+<td style="padding: 18px 12px; font-weight: 800">420 ₴</td>
+<td style="padding: 18px 12px; font-weight: 800">84 ₴</td>
+<td style="padding: 18px 12px"><span style="display: inline-flex; align-items: center; gap: 8px; font-weight: 800; color: #7CF5C8"><span style="width: 8px; height: 8px; border-radius: 50%; background: #22E3A6"></span>В наявності</span></td>
+<td style="padding: 14px 24px; text-align: right"><a href="#buy-h" style="height: 44px; display: inline-flex; align-items: center; padding: 0 18px; border-radius: 999px; background: linear-gradient(100deg, #FF4FD8 0%, #FF8A1F 100%); color: #07081A; text-decoration: none; font-weight: 800; font-size: 14px">До магазину</a></td>
+</tr>
+<tr style="border-top: 1px solid rgba(255,255,255,0.08)">
+<td style="padding: 18px 24px"><div style="display: flex; align-items: center; gap: 12px"><span aria-hidden="true" style="width: 40px; height: 40px; border-radius: 12px; background: linear-gradient(135deg, #FFE066, #FF8A1F); display: grid; place-items: center; font-family: Unbounded, sans-serif; font-weight: 800; color: #07081A">Г</span><div><span style="display: block; font-weight: 800">Горнятко</span><span style="font-size: 13px; color: #9EA3CF">Львів</span></div></div></td>
+<td style="padding: 18px 12px">25 г</td>
+<td style="padding: 18px 12px; font-weight: 800">230 ₴</td>
+<td style="padding: 18px 12px; font-weight: 800">92 ₴</td>
+<td style="padding: 18px 12px"><span style="display: inline-flex; align-items: center; gap: 8px; font-weight: 800; color: #7CF5C8"><span style="width: 8px; height: 8px; border-radius: 50%; background: #22E3A6"></span>В наявності</span></td>
+<td style="padding: 14px 24px; text-align: right"><a href="#buy-h" style="height: 44px; display: inline-flex; align-items: center; padding: 0 18px; border-radius: 999px; background: linear-gradient(100deg, #FF4FD8 0%, #FF8A1F 100%); color: #07081A; text-decoration: none; font-weight: 800; font-size: 14px">До магазину</a></td>
+</tr>
+<tr style="border-top: 1px solid rgba(255,255,255,0.08)">
+<td style="padding: 18px 24px"><div style="display: flex; align-items: center; gap: 12px"><span aria-hidden="true" style="width: 40px; height: 40px; border-radius: 12px; background: linear-gradient(135deg, #8EC5FF, #A78BFA); display: grid; place-items: center; font-family: Unbounded, sans-serif; font-weight: 800; color: #07081A">С</span><div><span style="display: block; font-weight: 800">Сім проливів</span><span style="font-size: 13px; color: #9EA3CF">Дніпро</span></div></div></td>
+<td style="padding: 18px 12px">50 г</td>
+<td style="padding: 18px 12px; font-weight: 800">395 ₴</td>
+<td style="padding: 18px 12px; font-weight: 800">79 ₴</td>
+<td style="padding: 18px 12px"><span style="display: inline-flex; align-items: center; gap: 8px; font-weight: 800; color: #9EA3CF"><span style="width: 8px; height: 8px; border-radius: 50%; border: 1.5px solid #9EA3CF"></span>Немає</span></td>
+<td style="padding: 14px 24px; text-align: right"><a href="#buy-h" style="height: 44px; display: inline-flex; align-items: center; padding: 0 18px; border-radius: 999px; background: rgba(255,255,255,0.08); border: 1px solid rgba(255,255,255,0.2); color: #FFFFFF; text-decoration: none; font-weight: 800; font-size: 14px">Повідомити, коли з’явиться</a></td>
+</tr>
+</tbody>
+</table>
+</div>
+<p style="margin: 14px 0 0; display: flex; align-items: flex-start; gap: 8px; font-size: 13px; color: #9EA3CF"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#9EA3CF" stroke-width="2" stroke-linecap="round" aria-hidden="true" style="flex: none; margin-top: 2px"><circle cx="12" cy="12" r="9"></circle><path d="M12 11v6M12 7.5v.5"></path></svg>Деякі посилання партнерські: якщо ви купите чай, магазин заплатить нам невелику комісію. На оцінки й порядок у списку це не впливає.</p>
+</section>
+
+<section style="max-width: 1240px; margin: 0 auto; padding: 72px 24px 24px; display: flex; flex-wrap: wrap; gap: 24px; align-items: stretch">
+<div style="flex: 999 1 600px; min-width: 0; padding: 32px; border-radius: 32px; background: rgba(255,255,255,0.04); border: 1px solid rgba(255,255,255,0.1)">
+<h2 style="margin: 0; font-family: Unbounded, sans-serif; font-weight: 700; font-size: 30px; letter-spacing: -0.02em">Як заварюють у спільноті</h2>
+<p style="margin: 6px 0 0; color: #9EA3CF; font-size: 15px">Медіана зі 183 сесій. Орієнтир, а не правило.</p>
+<div style="margin-top: 22px; display: flex; flex-wrap: wrap; gap: 12px">
+<div style="flex: 1 1 140px; padding: 16px 18px; border-radius: 20px; background: rgba(255,255,255,0.06)"><p style="margin: 0; font-size: 13px; color: #9EA3CF; font-weight: 800">Лист</p><p style="margin: 4px 0 0; font-family: Unbounded, sans-serif; font-weight: 700; font-size: 22px; color: #FFC98A">7 г / 100 мл</p></div>
+<div style="flex: 1 1 140px; padding: 16px 18px; border-radius: 20px; background: rgba(255,255,255,0.06)"><p style="margin: 0; font-size: 13px; color: #9EA3CF; font-weight: 800">Вода</p><p style="margin: 4px 0 0; font-family: Unbounded, sans-serif; font-weight: 700; font-size: 22px; color: #FFA59B">95 °C</p></div>
+<div style="flex: 1 1 140px; padding: 16px 18px; border-radius: 20px; background: rgba(255,255,255,0.06)"><p style="margin: 0; font-size: 13px; color: #9EA3CF; font-weight: 800">Проливи</p><p style="margin: 4px 0 0; font-family: Unbounded, sans-serif; font-weight: 700; font-size: 22px; color: #FFC4F2">6–8</p></div>
+<div style="flex: 1 1 140px; padding: 16px 18px; border-radius: 20px; background: rgba(255,255,255,0.06)"><p style="margin: 0; font-size: 13px; color: #9EA3CF; font-weight: 800">Посуд</p><p style="margin: 4px 0 0; font-family: Unbounded, sans-serif; font-weight: 700; font-size: 22px; color: #9FD8FF">Гайвань</p></div>
+</div>
+<figure style="margin: 18px 0 0; padding: 22px 22px 16px; border-radius: 24px; background: rgba(7,8,26,0.6); border: 1px solid rgba(255,255,255,0.08)">
+<div style="height: 190px; display: flex; align-items: flex-end; gap: 12px">
+<sc-for list="{{steeps}}" as="s" hint-placeholder-count="8">
+<div style="flex: 1; height: 100%; display: flex; flex-direction: column; align-items: center; justify-content: flex-end; gap: 6px">
+<span style="font-size: 13px; font-weight: 800">{{s.label}}</span>
+<span style="display: block; width: 100%; max-width: 52px; height: {{s.h}}; border-radius: 12px 12px 6px 6px; background: {{s.fill}}; box-shadow: 0 10px 24px -10px #FF8A1F"></span>
+<span style="font-size: 12px; color: #9EA3CF">{{s.n}}</span>
+</div>
+</sc-for>
+</div>
+<figcaption style="margin-top: 12px; font-size: 13px; color: #9EA3CF">Медіанний час настоювання в секундах; під стовпчиком — номер проливу.</figcaption>
+</figure>
+</div>
+<div style="flex: 1 1 320px; min-width: 0; padding: 32px; border-radius: 32px; background: radial-gradient(80% 60% at 100% 0%, rgba(255,79,216,0.25) 0, rgba(255,79,216,0) 70%), rgba(255,255,255,0.04); border: 1px solid rgba(255,255,255,0.1)">
+<h2 style="margin: 0; font-family: Unbounded, sans-serif; font-weight: 700; font-size: 24px">Профіль смаку</h2>
+<p style="margin: 6px 0 0; color: #9EA3CF; font-size: 15px">Найчастіші ноти в нотатках спільноти.</p>
+<ul style="list-style: none; margin: 22px 0 0; padding: 0; display: flex; flex-direction: column; gap: 16px">
+<sc-for list="{{flavors}}" as="fl" hint-placeholder-count="6">
+<li style="display: flex; flex-direction: column; gap: 6px">
+<div style="display: flex; justify-content: space-between; gap: 12px"><span style="font-weight: 800">{{fl.label}}</span><span style="color: #9EA3CF; font-size: 14px">{{fl.n}}</span></div>
+<span style="display: block; height: 10px; border-radius: 999px; background: rgba(255,255,255,0.08); overflow: hidden"><span style="display: block; height: 100%; width: {{fl.w}}; border-radius: 999px; background: {{fl.grad}}"></span></span>
+</li>
+</sc-for>
+</ul>
+</div>
+</section>
+
+<section aria-labelledby="notes-h" style="max-width: 1240px; margin: 0 auto; padding: 72px 24px 24px">
+<div style="display: flex; flex-wrap: wrap; justify-content: space-between; align-items: center; gap: 12px">
+<h2 id="notes-h" style="margin: 0; font-family: Unbounded, sans-serif; font-weight: 700; font-size: 36px; letter-spacing: -0.02em">Нотатки спільноти</h2>
+<div style="display: flex; align-items: center; gap: 10px">
+<label for="notes-sort" style="font-size: 14px; color: #9EA3CF; font-weight: 700">Сортувати</label>
+<select id="notes-sort" style="height: 44px; padding: 0 14px; border-radius: 12px; border: 1px solid rgba(255,255,255,0.18); background: #12142F; color: #FFFFFF; font: inherit; font-size: 15px"><option>Найкорисніші</option><option>Нові</option><option>З найвищою оцінкою</option></select>
+</div>
+</div>
+<div style="margin-top: 24px; display: flex; flex-direction: column; gap: 16px">
+<sc-for list="{{notes}}" as="n" hint-placeholder-count="3">
+<article style="padding: 26px 28px; border-radius: 28px; background: rgba(16,18,48,0.7); border: 1px solid rgba(255,255,255,0.12); display: flex; flex-direction: column; gap: 14px">
+<div style="display: flex; flex-wrap: wrap; align-items: center; gap: 12px">
+<span aria-hidden="true" style="width: 44px; height: 44px; flex: none; border-radius: 50%; background: {{n.avatar}}; color: #07081A; display: grid; place-items: center; font-weight: 800; font-size: 14px">{{n.initials}}</span>
+<div style="flex: 1 1 240px; min-width: 0"><p style="margin: 0; font-weight: 800">{{n.name}}</p><p style="margin: 0; font-size: 13px; color: #9EA3CF">{{n.date}} · {{n.params}}</p></div>
+<span style="display: inline-flex; align-items: center; gap: 4px; padding: 5px 12px; border-radius: 999px; background: rgba(255,194,26,0.16); color: #FFE39A; font-weight: 800; font-size: 14px"><svg width="14" height="14" viewBox="0 0 24 24" fill="#FFC21A" aria-hidden="true"><path d="M12 2.5l2.9 6 6.6.9-4.8 4.6 1.2 6.5L12 17.4l-5.9 3.1 1.2-6.5L2.5 9.4l6.6-.9z"></path></svg>{{n.rating}} з 5</span>
+</div>
+<p style="margin: 0; font-size: 17px; color: #E6E7FA; max-width: 60em">{{n.text}}</p>
+<div style="display: flex; flex-wrap: wrap; justify-content: space-between; align-items: center; gap: 12px">
+<ul style="list-style: none; margin: 0; padding: 0; display: flex; flex-wrap: wrap; gap: 6px">
+<sc-for list="{{n.tags}}" as="tg" hint-placeholder-count="2">
+<li style="padding: 5px 12px; border-radius: 999px; background: rgba(255,79,216,0.16); color: #FFC4F2; font-size: 13px; font-weight: 800">{{tg.label}}</li>
+</sc-for>
+</ul>
+<button type="button" style="height: 44px; display: inline-flex; align-items: center; gap: 8px; padding: 0 16px; border-radius: 999px; background: rgba(255,255,255,0.06); border: 1px solid rgba(255,255,255,0.16); color: #FFFFFF; font: inherit; font-size: 14px; font-weight: 800; cursor: pointer"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 11v9H4v-9zM7 11l4-7a2 2 0 0 1 3 2l-1 4h6a2 2 0 0 1 2 2.3l-1.2 6A2 2 0 0 1 17.8 20H7"></path></svg>Корисно · {{n.useful}}</button>
+</div>
+</article>
+</sc-for>
+</div>
+</section>
+
+<section aria-labelledby="similar-h" style="max-width: 1240px; margin: 0 auto; padding: 72px 24px 96px">
+<h2 id="similar-h" style="margin: 0; font-family: Unbounded, sans-serif; font-weight: 700; font-size: 36px; letter-spacing: -0.02em">Схожі чаї</h2>
+<div style="margin-top: 24px; display: flex; flex-wrap: wrap; gap: 20px">
+<sc-for list="{{similar}}" as="si" hint-placeholder-count="4">
+<a href="TeaPage.dc.html" style="flex: 1 1 230px; min-width: 0; padding: 24px; border-radius: 28px; background: rgba(255,255,255,0.05); border: 1px solid rgba(255,255,255,0.1); color: #FFFFFF; text-decoration: none; display: flex; flex-direction: column; gap: 12px">
+<dc-import name="Cup" kind="{{si.kind}}" size="76" hint-size="76px,76px"></dc-import>
+<span style="font-weight: 800; font-size: 17px; line-height: 1.3">{{si.tea}}</span>
+<span style="display: flex; justify-content: space-between; gap: 8px; font-size: 14px; color: #9EA3CF"><span>★ {{si.rating}}</span><span style="font-weight: 800; color: #FFFFFF">{{si.price}}</span></span>
+</a>
+</sc-for>
+</div>
+</section>
+</main>
+
+<dc-import name="Footer" hint-size="100%,440px"></dc-import>
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props='{"$preview":{"width":1440,"height":3400}}'>
+class Component extends DCLogic {
+  renderVals() {
+    const orbOf = (a, b) => 'radial-gradient(circle at 32% 28%, rgba(255,255,255,0.85) 0, rgba(255,255,255,0) 26%), radial-gradient(circle at 50% 60%, ' + a + ' 0, ' + b + ' 100%)';
+    const secs = [10, 12, 15, 20, 30, 45, 60, 90];
+    const flavors = [
+      { label: 'Бузок', n: '41 згадка', v: 41, grad: 'linear-gradient(90deg, #C77DFF, #FF4FD8)' },
+      { label: 'Вершки', n: '33 згадки', v: 33, grad: 'linear-gradient(90deg, #FFE9B8, #FFB347)' },
+      { label: 'Орхідея', n: '29 згадок', v: 29, grad: 'linear-gradient(90deg, #FF9BEA, #FF4FD8)' },
+      { label: 'Мед', n: '22 згадки', v: 22, grad: 'linear-gradient(90deg, #FFE066, #FF8A1F)' },
+      { label: 'Зелене яблуко', n: '14 згадок', v: 14, grad: 'linear-gradient(90deg, #D6F25C, #22E3A6)' },
+      { label: 'Мінеральність', n: '11 згадок', v: 11, grad: 'linear-gradient(90deg, #8EC5FF, #2563FF)' }
+    ];
+    return {
+      five: [1, 2, 3, 4, 5].map((n) => ({ n })),
+      dist: [
+        { stars: '5', pct: '84%' },
+        { stars: '4', pct: '13%' },
+        { stars: '3', pct: '3%' },
+        { stars: '2', pct: '0%' },
+        { stars: '1', pct: '0%' }
+      ],
+      steeps: secs.map((s, i) => ({ label: s + ' с', n: String(i + 1), h: Math.round(18 + (s / 90) * 112) + 'px', fill: 'linear-gradient(180deg, #FFE066 0%, #FF8A1F 55%, #FF4FD8 100%)' })),
+      flavors: flavors.map((f) => ({ label: f.label, n: f.n, grad: f.grad, w: Math.round((f.v / 41) * 100) + '%' })),
+      notes: [
+        { initials: 'ІП', name: 'Ірина П.', date: '29 жовтня', params: '7 г · 100 мл · 95 °C · гайвань', rating: '5', text: 'Перші два проливи — бузок і вершкове масло, далі відкривається орхідея. Після восьмого ще тримає солодкий післясмак.', tags: [{ label: 'Бузок' }, { label: 'Вершки' }, { label: 'Орхідея' }], useful: 18, avatar: 'linear-gradient(135deg, #FF9BEA, #C77DFF)' },
+        { initials: 'АТ', name: 'Андрій Т.', date: '24 жовтня', params: '6 г · 120 мл · 90 °C · глиняний чайничок', rating: '4', text: 'Спокійний і чистий. Окропом з’являється легка гірчинка, тому краще 90 °C і короткі проливи.', tags: [{ label: 'Мед' }, { label: 'Мінеральність' }], useful: 9, avatar: 'linear-gradient(135deg, #8EC5FF, #22E3A6)' },
+        { initials: 'МЛ', name: 'Марія Л.', date: '20 жовтня', params: '5 г · 500 мл · 85 °C · великий чайник', rating: '5', text: 'Заварювала у великому чайнику на компанію — все одно квітковий і не гірчить. Гарний спосіб познайомити друзів з улунами.', tags: [{ label: 'Бузок' }], useful: 6, avatar: 'linear-gradient(135deg, #FFE066, #FF8A1F)' }
+      ],
+      similar: [
+        { kind: 'oolong', tea: 'Те Гуань Інь «Осінній»', rating: '4,5', price: 'від 74 ₴ / 10 г', orb: orbOf('#FFC56E', '#D9650F') },
+        { kind: 'red', tea: 'Фен Хуан Дань Цун «Мі Лань Сян»', rating: '4,6', price: 'від 98 ₴ / 10 г', orb: orbOf('#FFA94F', '#C24A08') },
+        { kind: 'green', tea: 'Алішань', rating: '4,4', price: 'від 105 ₴ / 10 г', orb: orbOf('#E9F27A', '#9DB51A') },
+        { kind: 'oolong', tea: 'Бень Шань', rating: '4,2', price: 'від 48 ₴ / 10 г', orb: orbOf('#FFB347', '#E8590C') }
+      ]
+    };
+  }
+}
+</script>
+</body>
+</html>

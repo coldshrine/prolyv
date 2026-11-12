@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Prolyv — mobile tab bar (component)</title>
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&amp;display=swap">
+<style>
+body{margin:0}
+</style>
+</helmet>
+<nav aria-label="Main navigation" style="width: 100%; box-sizing: border-box; height: 84px; padding: 6px 6px 16px; display: flex; align-items: center; justify-content: space-between; background: rgba(7,8,26,0.92); backdrop-filter: blur(18px); -webkit-backdrop-filter: blur(18px); border-top: 1px solid rgba(255,255,255,0.1); font-family: Manrope, system-ui, sans-serif">
+<sc-for list="{{items}}" as="it" hint-placeholder-count="5">
+<sc-if value="{{it.center}}" hint-placeholder-val="{{ false }}">
+<a href="{{it.href}}" aria-label="Log a tea" style="width: 60px; height: 60px; margin-top: -30px; flex: none; display: inline-grid; place-items: center; border-radius: 50%; background: linear-gradient(100deg, #FF4FD8 0%, #FF8A1F 100%); border: 4px solid #07081A; box-shadow: 0 14px 30px -10px rgba(255,79,216,0.8)"><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="#07081A" stroke-width="3" stroke-linecap="round" aria-hidden="true"><path d="M12 5v14M5 12h14"></path></svg></a>
+</sc-if>
+<sc-if value="{{it.plain}}" hint-placeholder-val="{{ true }}">
+<a href="{{it.href}}" aria-current="{{it.ariaCurrent}}" style="flex: 1; min-width: 0; min-height: 56px; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 3px; color: {{it.color}}; text-decoration: none; font-size: 11px; font-weight: 800; letter-spacing: 0.02em">
+<svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="{{it.d}}"></path></svg>
+<span>{{it.label}}</span>
+<span aria-hidden="true" style="width: 4px; height: 4px; border-radius: 50%; background: {{it.dot}}"></span>
+</a>
+</sc-if>
+</sc-for>
+</nav>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props='{"current":{"editor":"enum","options":["feed","forum","blog","diary","none"],"default":"none"},"$preview":{"width":390,"height":84}}'>
+class Component extends DCLogic {
+  renderVals() {
+    const current = this.props.current ?? 'none';
+    const icons = {
+      feed: 'M4 11l8-7 8 7v9a1 1 0 0 1-1 1h-5v-6h-4v6H5a1 1 0 0 1-1-1z',
+      forum: 'M4 6a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2h-7l-5 4v-4H6a2 2 0 0 1-2-2z',
+      blog: 'M8 5l12 7-12 7z',
+      diary: 'M6 4h11a2 2 0 0 1 2 2v14H8a2 2 0 0 1-2-2zM6 18a2 2 0 0 1 2-2h11'
+    };
+    const defs = [
+      { key: 'feed', label: 'Feed', href: 'MFeed.dc.html' },
+      { key: 'forum', label: 'Discuss', href: 'MForum.dc.html' },
+      { key: 'log', center: true, href: 'MNewSession.dc.html' },
+      { key: 'blog', label: 'Blog', href: 'MBlog.dc.html' },
+      { key: 'diary', label: 'Diary', href: 'MDiary.dc.html' }
+    ];
+    return {
+      items: defs.map((d) => {
+        const on = d.key === current;
+        return {
+          label: d.label || '',
+          href: d.href,
+          center: !!d.center,
+          plain: !d.center,
+          d: icons[d.key] || '',
+          color: on ? '#FFFFFF' : '#9EA3CF',
+          dot: on ? '#FF4FD8' : 'transparent',
+          ariaCurrent: on ? 'page' : undefined
+        };
+      })
+    };
+  }
+}
+</script>
+</body>
+</html>

@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Prolyv — “my tea of the day” card</title>
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&amp;family=Unbounded:wght@500;600;700;800&amp;display=swap">
+<style>
+body{margin:0}
+@keyframes prolyvSpin{to{transform:rotate(360deg)}}
+@media (prefers-reduced-motion: reduce){[data-spin]{animation:none!important}}
+</style>
+</helmet>
+<div style="position: relative; overflow: hidden; width: 540px; height: 960px; box-sizing: border-box; padding: 44px 40px 36px; display: flex; flex-direction: column; align-items: center; gap: 22px; text-align: center; font-family: Manrope, system-ui, sans-serif; color: #FFFFFF; line-height: 1.5; background: radial-gradient(70% 40% at 50% 34%, rgba(255,79,216,0.5) 0, rgba(255,79,216,0) 70%), radial-gradient(60% 30% at 100% 100%, rgba(255,138,31,0.5) 0, rgba(255,138,31,0) 70%), radial-gradient(60% 30% at 0% 0%, rgba(37,99,255,0.5) 0, rgba(37,99,255,0) 70%), linear-gradient(170deg, #2A1478 0%, #070A2A 70%)">
+<div style="align-self: stretch; display: flex; justify-content: space-between; align-items: center">
+<span style="display: inline-flex; align-items: center; gap: 10px"><span aria-hidden="true" style="width: 28px; height: 28px; border-radius: 50%; background: radial-gradient(circle at 30% 28%, rgba(255,255,255,0.9) 0, rgba(255,255,255,0) 28%), conic-gradient(from 200deg, #FF4FD8, #8A3FFC, #2563FF, #22E3A6, #FFC21A, #FF8A1F, #FF4FD8)"></span><span style="font-family: Unbounded, sans-serif; font-weight: 700; font-size: 20px">Prolyv</span></span>
+<span style="padding: 6px 14px; border-radius: 999px; border: 1px solid rgba(255,255,255,0.32); font-size: 13px; font-weight: 800">my tea of the day</span>
+</div>
+<div style="margin-top: 6px"><dc-import name="Cup" kind="{{kind}}" size="320" step="2" spin="on" hint-size="320px,320px"></dc-import></div>
+<div style="display: flex; flex-direction: column; align-items: center; gap: 8px">
+<p style="margin: 0; font-size: 14px; font-weight: 800; letter-spacing: 0.1em; color: #FFC98A">{{label}} · 8 STEEPS</p>
+<h1 style="margin: 0; font-family: Unbounded, sans-serif; font-weight: 800; font-size: 38px; line-height: 1.1; letter-spacing: -0.02em">Tie Guan Yin “Spring”</h1>
+<p style="margin: 0; font-size: 17px; color: #D7D9F2">by @[your_handle]</p>
+</div>
+<p style="margin: 0; font-size: 26px; letter-spacing: 6px; color: #FFC21A">★★★★★</p>
+<ul style="list-style: none; margin: 0; padding: 0; display: flex; gap: 8px">
+<li style="padding: 6px 14px; border-radius: 999px; background: rgba(255,79,216,0.22); color: #FFD3F4; font-size: 14px; font-weight: 800">Lilac</li>
+<li style="padding: 6px 14px; border-radius: 999px; background: rgba(138,63,252,0.3); color: #E4D6FF; font-size: 14px; font-weight: 800">Cream</li>
+<li style="padding: 6px 14px; border-radius: 999px; background: rgba(255,194,26,0.22); color: #FFE7A8; font-size: 14px; font-weight: 800">Honey</li>
+</ul>
+<p style="margin: 0; font-size: 18px; line-height: 1.45; color: #EDEBFF">“Lilac and cream in the first steeps, honey by the fifth.”</p>
+<div style="margin-top: auto; align-self: stretch; padding-top: 16px; border-top: 1px solid rgba(255,255,255,0.18); display: flex; justify-content: space-between; font-size: 14px; color: #C9CCEB">
+<span>7 g · 95 °C · gaiwan</span>
+<span style="font-weight: 800; color: #FFFFFF">[site address]</span>
+</div>
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props='{"kind":{"editor":"enum","options":["oolong","red","shu","sheng","green","white","yellow"],"default":"oolong"},"$preview":{"width":540,"height":960}}'>
+class Component extends DCLogic {
+  renderVals() {
+    const labels = { oolong: 'OOLONG', red: 'BLACK TEA', shu: 'SHU PU-ERH', sheng: 'SHENG PU-ERH', green: 'GREEN', white: 'WHITE', yellow: 'YELLOW' };
+    const kind = labels[this.props.kind] ? this.props.kind : 'oolong';
+    return { kind, label: labels[kind] };
+  }
+}
+</script>
+</body>
+</html>

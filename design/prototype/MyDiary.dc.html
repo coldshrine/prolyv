@@ -1,0 +1,218 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Prolyv — my diary</title>
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&amp;family=Unbounded:wght@500;600;700;800&amp;display=swap">
+<style>
+body{margin:0;background:#07081A}
+*{box-sizing:border-box}
+a{color:#FFB3F0}a:hover{color:#FFFFFF}
+@keyframes prolyvSpin{to{transform:rotate(360deg)}}
+@media (prefers-reduced-motion: reduce){[data-spin]{animation:none!important}}
+</style>
+</helmet>
+<div style="min-height: 100vh; background: #07081A; color: #FFFFFF; font-family: Manrope, system-ui, sans-serif; font-size: 16px; line-height: 1.5">
+<dc-import name="Header" current="diary" hint-size="100%,72px"></dc-import>
+
+<main>
+<section style="position: relative; overflow: hidden; background: radial-gradient(35% 80% at 85% 50%, rgba(255,79,216,0.45) 0, rgba(255,79,216,0) 70%), radial-gradient(30% 70% at 100% 100%, rgba(255,138,31,0.45) 0, rgba(255,138,31,0) 70%), radial-gradient(30% 70% at 55% 0%, rgba(37,99,255,0.4) 0, rgba(37,99,255,0) 70%), #070A2A">
+<div style="max-width: 1240px; margin: 0 auto; padding: 48px 24px 56px; display: flex; flex-wrap: wrap; gap: 32px; align-items: center">
+<div style="flex: 999 1 600px; min-width: 0; display: flex; flex-direction: column; gap: 22px">
+<p style="margin: 0; font-size: 14px; font-weight: 800; letter-spacing: 0.1em; color: #FFC98A">HI, [NAME]</p>
+<h1 style="margin: 0; font-family: Unbounded, sans-serif; font-weight: 800; font-size: 52px; line-height: 1.05; letter-spacing: -0.03em">Your last 30 days in cups</h1>
+<div style="display: flex; flex-wrap: wrap; gap: 12px">
+<sc-for list="{{stats}}" as="st" hint-placeholder-count="4">
+<div style="flex: 1 1 150px; min-width: 0; padding: 16px 18px; border-radius: 22px; background: rgba(16,18,48,0.6); border: 1px solid rgba(255,255,255,0.14); backdrop-filter: blur(14px); -webkit-backdrop-filter: blur(14px)">
+<p style="margin: 0; font-size: 13px; font-weight: 800; color: #C9CCEB">{{st.label}}</p>
+<p style="margin: 2px 0 0; font-family: Unbounded, sans-serif; font-weight: 800; font-size: 32px; line-height: 1.15; background: {{st.grad}}; -webkit-background-clip: text; background-clip: text; color: transparent">{{st.value}}</p>
+<p style="margin: 2px 0 0; font-size: 13px; color: #9EA3CF">{{st.hint}}</p>
+</div>
+</sc-for>
+</div>
+<div style="display: flex; flex-wrap: wrap; gap: 12px">
+<a href="NewSession.dc.html" style="height: 54px; display: inline-flex; align-items: center; gap: 10px; padding: 0 24px; border-radius: 999px; background: linear-gradient(100deg, #FF4FD8 0%, #FF8A1F 100%); color: #07081A; text-decoration: none; font-weight: 800"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#07081A" stroke-width="2.6" stroke-linecap="round" aria-hidden="true"><path d="M12 5v14M5 12h14"></path></svg>New session</a>
+<a href="Story.dc.html" style="height: 54px; display: inline-flex; align-items: center; gap: 10px; padding: 0 22px; border-radius: 999px; background: rgba(255,255,255,0.08); border: 1px solid rgba(255,255,255,0.22); color: #FFFFFF; text-decoration: none; font-weight: 800"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3v12"></path><path d="M7 8l5-5 5 5"></path><path d="M5 13v6a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2v-6"></path></svg>Share your month</a>
+</div>
+</div>
+<figure style="flex: 1 1 280px; margin: 0; display: flex; flex-direction: column; align-items: center; gap: 14px; text-align: center">
+<dc-import name="Cup" kind="oolong" size="260" step="2" spin="on" hint-size="260px,260px"></dc-import>
+<figcaption style="font-size: 14px; color: #D7D9F2">Your favourite type is <b style="color: #FFFFFF">oolong</b> — 9 of 23 sessions</figcaption>
+</figure>
+</div>
+</section>
+
+<div style="max-width: 1240px; margin: 0 auto; padding: 48px 24px 96px; display: flex; flex-wrap: wrap; gap: 24px; align-items: flex-start">
+<div style="flex: 999 1 640px; min-width: 0; display: flex; flex-direction: column; gap: 24px">
+
+<section aria-labelledby="cal-h" style="padding: 28px; border-radius: 32px; background: rgba(255,255,255,0.04); border: 1px solid rgba(255,255,255,0.1)">
+<div style="display: flex; flex-wrap: wrap; justify-content: space-between; align-items: baseline; gap: 8px">
+<h2 id="cal-h" style="margin: 0; font-family: Unbounded, sans-serif; font-weight: 700; font-size: 24px">Five weeks in cups</h2>
+<p style="margin: 0; font-size: 14px; color: #9EA3CF">Oct 5 — Nov 8</p>
+</div>
+<div aria-hidden="true" style="margin-top: 20px; display: grid; grid-template-columns: repeat(7, minmax(0, 1fr)); gap: 10px; text-align: center; font-size: 12px; font-weight: 800; color: #9EA3CF">
+<span>Mon</span><span>Tue</span><span>Wed</span><span>Thu</span><span>Fri</span><span>Sat</span><span>Sun</span>
+</div>
+<div style="margin-top: 10px; display: grid; grid-template-columns: repeat(7, minmax(0, 1fr)); gap: 12px 10px">
+<sc-for list="{{days}}" as="d" hint-placeholder-count="35">
+<div style="display: flex; flex-direction: column; align-items: center; gap: 4px">
+<sc-if value="{{d.has}}" hint-placeholder-val="{{ true }}"><dc-import name="Cup" kind="{{d.kind}}" size="46" hint-size="46px,46px"></dc-import></sc-if>
+<sc-if value="{{d.none}}" hint-placeholder-val="{{ false }}"><span style="width: 46px; height: 46px; border-radius: 50%; border: 1.5px dashed {{d.dash}}"></span></sc-if>
+<span style="padding: 0 6px; border-radius: 999px; font-size: 11px; font-weight: 800; color: {{d.fg}}; background: {{d.pill}}">{{d.label}}</span>
+</div>
+</sc-for>
+</div>
+</section>
+
+<section aria-labelledby="sessions-h">
+<div style="display: flex; flex-wrap: wrap; justify-content: space-between; align-items: center; gap: 12px">
+<h2 id="sessions-h" style="margin: 0; font-family: Unbounded, sans-serif; font-weight: 700; font-size: 28px">Sessions</h2>
+<div style="display: flex; flex-wrap: wrap; gap: 8px">
+<sc-for list="{{filters}}" as="f" hint-placeholder-count="5">
+<button type="button" onClick="{{f.pick}}" aria-pressed="{{f.pressed}}" style="height: 44px; padding: 0 16px; border-radius: 999px; border: 1px solid {{f.border}}; background: {{f.bg}}; color: {{f.fg}}; font: inherit; font-weight: 800; font-size: 14px; cursor: pointer">{{f.label}}</button>
+</sc-for>
+</div>
+</div>
+<ol style="list-style: none; margin: 18px 0 0; padding: 0; display: flex; flex-direction: column; gap: 12px">
+<sc-for list="{{sessions}}" as="s" hint-placeholder-count="6">
+<li style="display: flex; flex-wrap: wrap; align-items: center; gap: 14px 20px; padding: 18px 22px; border-radius: 26px; background: rgba(16,18,48,0.7); border: 1px solid rgba(255,255,255,0.12)">
+<dc-import name="Cup" kind="{{s.kind}}" size="60" hint-size="60px,60px"></dc-import>
+<div style="flex: 1 1 300px; min-width: 0">
+<p style="margin: 0; font-size: 12px; font-weight: 800; letter-spacing: 0.08em; color: #FFC98A">{{s.date}}</p>
+<a href="TeaPage.dc.html" style="color: #FFFFFF; text-decoration: none; font-weight: 800; font-size: 17px">{{s.tea}}</a>
+<p style="margin: 2px 0 0; font-size: 14px; color: #9EA3CF">{{s.shop}} · {{s.params}}</p>
+<p style="margin: 6px 0 0; font-size: 15px; color: #D7D9F2">{{s.note}}</p>
+</div>
+<div style="display: flex; flex-direction: column; align-items: flex-end; gap: 6px">
+<span aria-hidden="true" style="color: #FFC21A; letter-spacing: 2px; font-size: 16px">{{s.stars}}</span>
+<span style="position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap">Rated {{s.r}} out of 5</span>
+<a href="Story.dc.html" style="font-size: 14px; font-weight: 800">Share</a>
+</div>
+</li>
+</sc-for>
+</ol>
+<sc-if value="{{noSessions}}" hint-placeholder-val="{{ false }}">
+<p style="margin: 18px 0 0; padding: 24px; border-radius: 24px; border: 1px dashed rgba(255,255,255,0.2); text-align: center; color: #C9CCEB">No sessions of this type in the last 30 days.</p>
+</sc-if>
+</section>
+</div>
+
+<aside style="flex: 1 1 340px; min-width: 0; display: flex; flex-direction: column; gap: 24px">
+<section aria-labelledby="profile-h" style="padding: 26px; border-radius: 32px; background: rgba(255,255,255,0.04); border: 1px solid rgba(255,255,255,0.1)">
+<h2 id="profile-h" style="margin: 0; font-size: 20px; font-weight: 800">Your tea profile</h2>
+<div aria-hidden="true" style="margin-top: 16px; height: 18px; border-radius: 999px; overflow: hidden; display: flex; gap: 3px">
+<sc-for list="{{share}}" as="sh" hint-placeholder-count="5"><span style="width: {{sh.w}}; background: {{sh.grad}}"></span></sc-for>
+</div>
+<ul style="list-style: none; margin: 16px 0 0; padding: 0; display: flex; flex-direction: column; gap: 8px; font-size: 15px">
+<sc-for list="{{share}}" as="sh" hint-placeholder-count="5">
+<li style="display: flex; align-items: center; gap: 10px"><span style="width: 12px; height: 12px; border-radius: 50%; background: {{sh.grad}}"></span><span style="flex: 1">{{sh.label}}</span><span style="font-weight: 800">{{sh.n}}</span></li>
+</sc-for>
+</ul>
+<p style="margin: 20px 0 8px; font-size: 13px; font-weight: 800; color: #9EA3CF">TOP NOTES</p>
+<ul style="list-style: none; margin: 0; padding: 0; display: flex; flex-wrap: wrap; gap: 6px">
+<li style="padding: 5px 12px; border-radius: 999px; background: rgba(255,79,216,0.18); color: #FFC4F2; font-size: 13px; font-weight: 800">Lilac · 7</li>
+<li style="padding: 5px 12px; border-radius: 999px; background: rgba(255,194,26,0.18); color: #FFE39A; font-size: 13px; font-weight: 800">Honey · 6</li>
+<li style="padding: 5px 12px; border-radius: 999px; background: rgba(138,63,252,0.24); color: #DCC8FF; font-size: 13px; font-weight: 800">Cocoa · 4</li>
+<li style="padding: 5px 12px; border-radius: 999px; background: rgba(255,138,31,0.18); color: #FFC98A; font-size: 13px; font-weight: 800">Cream · 4</li>
+<li style="padding: 5px 12px; border-radius: 999px; background: rgba(34,227,166,0.16); color: #9DF5D3; font-size: 13px; font-weight: 800">Dried fruit · 3</li>
+</ul>
+</section>
+
+<section aria-labelledby="shelf-h" style="padding: 26px; border-radius: 32px; background: rgba(255,255,255,0.04); border: 1px solid rgba(255,255,255,0.1)">
+<h2 id="shelf-h" style="margin: 0; font-size: 20px; font-weight: 800">Running low on your shelf</h2>
+<p style="margin: 4px 0 0; font-size: 14px; color: #9EA3CF">Calculated from the grams in your sessions.</p>
+<ul style="list-style: none; margin: 18px 0 0; padding: 0; display: flex; flex-direction: column; gap: 18px">
+<sc-for list="{{shelf}}" as="sh" hint-placeholder-count="3">
+<li style="display: flex; align-items: center; gap: 14px">
+<dc-import name="Cup" kind="{{sh.kind}}" size="48" hint-size="48px,48px"></dc-import>
+<div style="flex: 1; min-width: 0; display: flex; flex-direction: column; gap: 6px">
+<span style="font-weight: 800; font-size: 15px; line-height: 1.3">{{sh.tea}}</span>
+<span style="display: block; height: 8px; border-radius: 999px; background: rgba(255,255,255,0.1); overflow: hidden"><span style="display: block; height: 100%; width: {{sh.pct}}; border-radius: 999px; background: linear-gradient(90deg, #FF4FD8, #FF8A1F)"></span></span>
+<span style="display: flex; justify-content: space-between; gap: 8px; font-size: 13px"><span style="color: #9EA3CF">{{sh.left}}</span><a href="TeaPage.dc.html" style="font-weight: 800">Restock</a></span>
+</div>
+</li>
+</sc-for>
+</ul>
+</section>
+
+<a href="Story.dc.html" style="position: relative; overflow: hidden; padding: 28px; border-radius: 32px; background: radial-gradient(60% 60% at 100% 0%, #FF8A1F 0, rgba(255,138,31,0) 70%), linear-gradient(140deg, #FF4FD8 0%, #8A3FFC 55%, #3B1FB8 100%); color: #FFFFFF; text-decoration: none; display: flex; flex-direction: column; gap: 10px">
+<p style="margin: 0; font-size: 13px; font-weight: 800; letter-spacing: 0.1em; color: #FFE7FA">YOUR TEA YEAR 2026</p>
+<p style="margin: 0; font-family: Unbounded, sans-serif; font-weight: 800; font-size: 24px; line-height: 1.15">Your top teas, favourite notes and longest session of the year</p>
+<p style="margin: 0; font-size: 15px; color: #FFF1FC">Arrives on December 28 as a story you can share.</p>
+<span style="margin-top: 6px; font-weight: 800">See an example →</span>
+</a>
+</aside>
+</div>
+</main>
+
+<dc-import name="Footer" hint-size="100%,440px"></dc-import>
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props='{"$preview":{"width":1440,"height":2700}}'>
+class Component extends DCLogic {
+  renderVals() {
+    const filter = (this.state && this.state.filter) || 'all';
+    const map = { O: 'oolong', D: 'oolong', R: 'red', S: 'shu', G: 'green', W: 'white' };
+    const oct = 'O R - S O - G O R S S - W O - R D S - G O - R S O - W D - R O'.split(' ');
+    const nov = ['O', '-', 'R', 'S', 'O', 'F', 'F', 'F'];
+    const cells = oct.slice(4).map((k, i) => ({ k, day: i + 5, month: 'Oct' })).concat(nov.map((k, i) => ({ k, day: i + 1, month: 'Nov' })));
+    const days = cells.map((c) => {
+      const has = !!map[c.k];
+      const future = c.k === 'F';
+      const today = c.month === 'Nov' && c.day === 5;
+      return {
+        has, none: !has, kind: map[c.k] || 'oolong',
+        label: c.day === 1 || (c.month === 'Oct' && c.day === 5) ? c.day + ' ' + c.month : String(c.day),
+        dash: future ? 'rgba(255,255,255,0.1)' : 'rgba(255,255,255,0.24)',
+        fg: today ? '#07081A' : (future ? '#5F6390' : '#C9CCEB'),
+        pill: today ? '#FFFFFF' : 'transparent'
+      };
+    });
+    const all = [
+      { date: 'NOV 5', tea: 'Tie Guan Yin “Spring”', shop: 'Gaiwan', params: '7 g · 95 °C · 8 steeps', note: 'Lilac and cream, honey by the fifth.', kind: 'oolong', r: 5 },
+      { date: 'NOV 4', tea: 'Shu pu-erh “Menghai” 2019', shop: 'Clay teapot', params: '8 g · 100 °C · 10 steeps', note: 'Cocoa and damp forest, no mustiness at all.', kind: 'shu', r: 4 },
+      { date: 'NOV 3', tea: 'Dian Hong “Golden Buds”', shop: 'Gaiwan', params: '5 g · 90 °C · 6 steeps', note: 'Honey and bread crust. Shorter steeps work better.', kind: 'red', r: 4 },
+      { date: 'NOV 1', tea: 'Da Hong Pao', shop: 'Glass teapot', params: '7 g · 100 °C · 7 steeps', note: 'Roasted nuts and a mineral finish.', kind: 'oolong', r: 4 },
+      { date: 'OCT 31', tea: 'Tie Guan Yin “Spring”', shop: 'Gaiwan', params: '8 g · 95 °C · 9 steeps', note: 'More leaf — fuller, but a bit astringent.', kind: 'oolong', r: 4 },
+      { date: 'OCT 27', tea: 'Bai Mu Dan 2023', shop: 'Glass teapot', params: '5 g · 85 °C · 5 steeps', note: 'Too light for me. Cold brew next time.', kind: 'white', r: 3 }
+    ];
+    const main = { oolong: 1, red: 1, shu: 1 };
+    const list = all.filter((s) => filter === 'all' || (filter === 'other' ? !main[s.kind] : s.kind === filter));
+    const chips = [['all', 'All'], ['oolong', 'Oolong'], ['red', 'Black'], ['shu', 'Shu pu-erh'], ['other', 'Other']];
+    return {
+      stats: [
+        { label: 'Sessions', value: '23', hint: '5 more than last month', grad: 'linear-gradient(90deg, #FF4FD8, #FF8A1F)' },
+        { label: 'Favourite type', value: 'Oolong', hint: '9 of 23 sessions', grad: 'linear-gradient(90deg, #FFE066, #FF8A1F)' },
+        { label: 'Average rating', value: '4.2', hint: 'out of 5', grad: 'linear-gradient(90deg, #5CF2B8, #22B8FF)' },
+        { label: 'New teas', value: '6', hint: 'tried for the first time', grad: 'linear-gradient(90deg, #C77DFF, #FF9BEA)' }
+      ],
+      days,
+      filters: chips.map((c) => {
+        const on = c[0] === filter;
+        return { label: c[1], pressed: on, bg: on ? '#FFFFFF' : 'rgba(255,255,255,0.06)', fg: on ? '#07081A' : '#FFFFFF', border: on ? '#FFFFFF' : 'rgba(255,255,255,0.18)', pick: () => this.setState({ filter: c[0] }) };
+      }),
+      sessions: list.map((s) => Object.assign({}, s, { stars: '★★★★★'.slice(0, s.r) + '☆☆☆☆☆'.slice(0, 5 - s.r) })),
+      noSessions: list.length === 0,
+      share: [
+        { label: 'Oolong', n: '9', w: '39%', grad: 'linear-gradient(90deg, #FFB347, #FF4FD8)' },
+        { label: 'Black', n: '5', w: '22%', grad: 'linear-gradient(90deg, #FF7A6B, #C4161C)' },
+        { label: 'Shu pu-erh', n: '5', w: '22%', grad: 'linear-gradient(90deg, #A86BFF, #3A0E8C)' },
+        { label: 'Green', n: '2', w: '9%', grad: 'linear-gradient(90deg, #5CF2B8, #0E9E73)' },
+        { label: 'White', n: '2', w: '8%', grad: 'linear-gradient(90deg, #F4EEFF, #B9A6F0)' }
+      ],
+      shelf: [
+        { tea: 'Tie Guan Yin “Spring”', left: '12 g of 50 left', pct: '24%', kind: 'oolong' },
+        { tea: 'Shu pu-erh “Menghai” 2019', left: '18 g of 100 left', pct: '18%', kind: 'shu' },
+        { tea: 'Long Jing', left: '9 g of 50 left', pct: '18%', kind: 'green' }
+      ]
+    };
+  }
+}
+</script>
+</body>
+</html>

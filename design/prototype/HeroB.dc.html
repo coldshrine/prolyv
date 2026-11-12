@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="uk">
+<head>
+<meta charset="utf-8">
+<title>Перший екран B — спектр і пошук</title>
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&amp;family=Unbounded:wght@500;600;700;800&amp;display=swap">
+<style>
+body{margin:0}
+input::placeholder{color:#6B6E92}
+</style>
+</helmet>
+<div style="position: relative; width: 1440px; height: 900px; overflow: hidden; box-sizing: border-box; font-family: Manrope, system-ui, sans-serif; color: #FFFFFF; line-height: 1.5; background: radial-gradient(55% 65% at 8% 12%, #FF4FD8 0, rgba(255,79,216,0) 62%), radial-gradient(45% 60% at 94% 8%, #FF8A1F 0, rgba(255,138,31,0) 62%), radial-gradient(55% 65% at 88% 96%, #1E9BFF 0, rgba(30,155,255,0) 64%), radial-gradient(45% 55% at 10% 100%, #22E3A6 0, rgba(34,227,166,0) 60%), linear-gradient(160deg, #7B2FF7 0%, #3B1FB8 55%, #1A0E6E 100%)">
+<svg aria-hidden="true" viewBox="0 0 1440 900" style="position: absolute; inset: 0; width: 1440px; height: 900px">
+<defs><linearGradient id="bRib" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#FFFFFF" stop-opacity="0.95"></stop><stop offset="1" stop-color="#F3E8FF" stop-opacity="0.85"></stop></linearGradient></defs>
+<path d="M-60 760 C 260 520, 520 980, 860 700 S 1300 420, 1520 560" fill="none" stroke="rgba(10,4,40,0.35)" stroke-width="64" stroke-linecap="round"></path>
+<path d="M-60 730 C 260 490, 520 950, 860 670 S 1300 390, 1520 530" fill="none" stroke="url(#bRib)" stroke-width="40" stroke-linecap="round"></path>
+</svg>
+<div aria-hidden="true" style="position: absolute; inset: 0; background: radial-gradient(42% 38% at 50% 44%, rgba(20,8,70,0.55) 0, rgba(20,8,70,0) 100%)"></div>
+
+<header style="position: absolute; top: 0; left: 0; right: 0; height: 88px; padding: 0 64px; display: flex; align-items: center; justify-content: space-between">
+<a href="#home" style="display: inline-flex; align-items: center; gap: 10px; color: #FFFFFF; text-decoration: none"><span aria-hidden="true" style="width: 32px; height: 32px; border-radius: 50%; background: radial-gradient(circle at 30% 28%, rgba(255,255,255,0.9) 0, rgba(255,255,255,0) 28%), conic-gradient(from 200deg, #FFFFFF, #FFD3F4, #C7B8FF, #FFFFFF)"></span><span style="font-family: Unbounded, sans-serif; font-weight: 700; font-size: 20px">Пролив</span></a>
+<nav aria-label="Основна навігація" style="display: flex; gap: 6px; padding: 6px; border-radius: 999px; background: rgba(255,255,255,0.14); border: 1px solid rgba(255,255,255,0.24); backdrop-filter: blur(16px); -webkit-backdrop-filter: blur(16px); font-weight: 700; font-size: 15px">
+<a href="#catalog" style="padding: 10px 16px; border-radius: 999px; background: #FFFFFF; color: #2A1478; text-decoration: none">Каталог</a><a href="#shops" style="padding: 10px 16px; color: #FFFFFF; text-decoration: none">Магазини</a><a href="#events" style="padding: 10px 16px; color: #FFFFFF; text-decoration: none">Дегустації</a><a href="#club" style="padding: 10px 16px; color: #FFFFFF; text-decoration: none">Клуб</a><a href="#diary" style="padding: 10px 16px; color: #FFFFFF; text-decoration: none">Щоденник</a>
+</nav>
+<a href="#login" style="height: 44px; display: inline-flex; align-items: center; padding: 0 20px; border-radius: 999px; background: #FFFFFF; color: #2A1478; text-decoration: none; font-weight: 800; font-size: 15px">Увійти</a>
+</header>
+
+<div style="position: absolute; left: 0; right: 0; top: 168px; display: flex; flex-direction: column; align-items: center; text-align: center; gap: 24px; padding: 0 160px">
+<p style="margin: 0; padding: 8px 16px; border-radius: 999px; background: rgba(255,255,255,0.16); border: 1px solid rgba(255,255,255,0.28); font-size: 14px; font-weight: 800; letter-spacing: 0.04em">Чайний щоденник і спільнота</p>
+<h1 style="margin: 0; font-family: Unbounded, sans-serif; font-weight: 800; font-size: 92px; line-height: 1; letter-spacing: -0.04em; text-shadow: 0 10px 40px rgba(20,6,60,0.35)">Що ви сьогодні<br>п’єте?</h1>
+<p style="margin: 0; max-width: 34em; font-size: 20px; color: #F3EEFF">Знайдіть чай, порівняйте оцінки спільноти й ціни українських магазинів.</p>
+<form role="search" style="margin-top: 6px; width: 700px; height: 72px; display: flex; align-items: center; gap: 12px; padding: 0 10px 0 26px; border-radius: 999px; background: #FFFFFF; box-shadow: 0 30px 70px -24px rgba(20,6,60,0.7)">
+<svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#2A1478" stroke-width="2.2" stroke-linecap="round" aria-hidden="true"><circle cx="11" cy="11" r="7"></circle><path d="M20 20l-3.5-3.5"></path></svg>
+<label for="b-search" style="position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap">Пошук чаю</label>
+<input id="b-search" type="search" placeholder="Назва чаю, магазин або нота смаку" style="flex: 1; min-width: 0; height: 100%; border: 0; background: transparent; font: inherit; font-size: 18px; color: #14152E">
+<button type="submit" style="height: 54px; padding: 0 28px; border: 0; border-radius: 999px; background: linear-gradient(100deg, #FF4FD8 0%, #FF8A1F 100%); color: #07081A; font: inherit; font-weight: 800; font-size: 16px">Знайти</button>
+</form>
+<ul style="list-style: none; margin: 0; padding: 0; display: flex; gap: 8px; font-size: 14px; font-weight: 700">
+<li style="padding: 7px 14px; border-radius: 999px; background: rgba(255,255,255,0.16); border: 1px solid rgba(255,255,255,0.26)">Те Гуань Інь</li>
+<li style="padding: 7px 14px; border-radius: 999px; background: rgba(255,255,255,0.16); border: 1px solid rgba(255,255,255,0.26)">шу пуер</li>
+<li style="padding: 7px 14px; border-radius: 999px; background: rgba(255,255,255,0.16); border: 1px solid rgba(255,255,255,0.26)">до 60 ₴ за 10 г</li>
+<li style="padding: 7px 14px; border-radius: 999px; background: rgba(255,255,255,0.16); border: 1px solid rgba(255,255,255,0.26)">бузок</li>
+<li style="padding: 7px 14px; border-radius: 999px; background: rgba(255,255,255,0.16); border: 1px solid rgba(255,255,255,0.26)">дегустації у Львові</li>
+</ul>
+</div>
+
+<ul style="position: absolute; left: 50%; bottom: 44px; transform: translateX(-50%); list-style: none; margin: 0; padding: 16px 26px; border-radius: 999px; display: flex; gap: 26px; background: rgba(10,6,40,0.42); border: 1px solid rgba(255,255,255,0.2); backdrop-filter: blur(18px); -webkit-backdrop-filter: blur(18px)">
+<sc-for list="{{types}}" as="t" hint-placeholder-count="7">
+<li style="display: flex; align-items: center; gap: 10px; font-size: 14px; font-weight: 800"><span style="width: 34px; height: 34px; border-radius: 50%; background: {{t.orb}}"></span>{{t.label}}</li>
+</sc-for>
+</ul>
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props='{"$preview":{"width":1440,"height":900}}'>
+class Component extends DCLogic {
+  renderVals() {
+    const T = [['Зелений', '#5CF2B8', '#0E9E73'], ['Білий', '#F4EEFF', '#B9A6F0'], ['Жовтий', '#FFE066', '#E8A100'], ['Улун', '#FFB347', '#E8590C'], ['Червоний', '#FF7A6B', '#C4161C'], ['Шен пуер', '#D6F25C', '#8FAE12'], ['Шу пуер', '#A86BFF', '#3A0E8C']];
+    return {
+      types: T.map((t) => ({ label: t[0], orb: 'radial-gradient(circle at 32% 28%, rgba(255,255,255,0.85) 0, rgba(255,255,255,0) 26%), radial-gradient(circle at 50% 60%, ' + t[1] + ' 0, ' + t[2] + ' 100%)' }))
+    };
+  }
+}
+</script>
+</body>
+</html>

@@ -1,0 +1,213 @@
+<!doctype html>
+<html lang="uk">
+<head>
+<meta charset="utf-8">
+<title>Пролив — мій щоденник</title>
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&amp;family=Unbounded:wght@500;600;700&amp;display=swap">
+<style>
+body{margin:0}
+*{box-sizing:border-box}
+a{color:#1E5B3E}a:hover{color:#14251C}
+input::placeholder{color:#5A665F}
+</style>
+</helmet>
+<div style="min-height: 100vh; background: #F6F7F4; color: #14251C; font-family: Manrope, system-ui, sans-serif; font-size: 16px; line-height: 1.5">
+
+<header style="background: #FFFFFF; border-bottom: 1px solid #DCE1DA">
+<div style="max-width: 1200px; margin: 0 auto; padding: 14px 24px; display: flex; flex-wrap: wrap; align-items: center; gap: 12px 28px">
+<a href="Main.dc.html" style="display: flex; align-items: center; gap: 10px; color: #14251C; text-decoration: none">
+<svg width="30" height="30" viewBox="0 0 32 32" fill="none" stroke="{{accent}}" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 14h20v2a8 8 0 0 1-8 8h-4a8 8 0 0 1-8-8z"></path><path d="M25 15.5h1.5a2.5 2.5 0 0 1 0 5H24"></path><path d="M9 28h12"></path><path d="M14 10c0-3.3 2.2-5.5 5.5-5.5 0 3.3-2.2 5.5-5.5 5.5z"></path></svg>
+<span style="font-family: Unbounded, sans-serif; font-weight: 600; font-size: 20px; letter-spacing: -0.01em">Пролив</span>
+</a>
+<nav aria-label="Основна навігація" style="flex: 1 1 auto; display: flex; flex-wrap: wrap; gap: 4px 22px; font-size: 15px; font-weight: 600">
+<a href="Main.dc.html" style="color: #14251C; text-decoration: none; padding: 10px 0">Каталог</a>
+<a href="Diary.dc.html" aria-current="page" style="color: {{accent}}; text-decoration: none; padding: 10px 0">Щоденник</a>
+<a href="Main.dc.html" style="color: #14251C; text-decoration: none; padding: 10px 0">Магазини</a>
+<a href="Main.dc.html" style="color: #14251C; text-decoration: none; padding: 10px 0">Дегустації</a>
+</nav>
+<a href="QuickLog.dc.html" style="height: 44px; display: inline-flex; align-items: center; gap: 8px; padding: 0 18px; border-radius: 999px; background: {{accent}}; color: #FFFFFF; text-decoration: none; font-weight: 700; font-size: 15px"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#FFFFFF" stroke-width="2.5" stroke-linecap="round" aria-hidden="true"><path d="M12 5v14M5 12h14"></path></svg>Записати чай</a>
+</div>
+</header>
+
+<main style="max-width: 1200px; margin: 0 auto; padding: 32px 24px 72px; display: flex; flex-wrap: wrap; gap: 32px; align-items: flex-start">
+
+<aside style="flex: 1 1 220px; min-width: 0; display: flex; flex-direction: column; gap: 20px">
+<div style="display: flex; align-items: center; gap: 12px; padding: 16px; background: #FFFFFF; border: 1px solid #DCE1DA; border-radius: 18px">
+<span aria-hidden="true" style="width: 44px; height: 44px; flex: none; border-radius: 50%; background: #E3ECE5; color: #1E5B3E; display: grid; place-items: center; font-weight: 800">Я</span>
+<div style="min-width: 0">
+<p style="margin: 0; font-weight: 800">Мій профіль</p>
+<p style="margin: 0; font-size: 13px; color: #5A665F">@[ваш_нік] · з вересня 2026</p>
+</div>
+</div>
+<nav aria-label="Розділи щоденника">
+<ul style="list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; gap: 4px">
+<li><a href="Diary.dc.html" aria-current="page" style="min-height: 44px; display: flex; align-items: center; gap: 10px; padding: 0 14px; border-radius: 12px; background: #E3ECE5; color: #1E5B3E; text-decoration: none; font-weight: 800"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M8 6h12M8 12h12M8 18h12M4 6h.01M4 12h.01M4 18h.01"></path></svg>Сесії</a></li>
+<li><a href="#shelf" style="min-height: 44px; display: flex; align-items: center; gap: 10px; padding: 0 14px; border-radius: 12px; color: #14251C; text-decoration: none; font-weight: 700"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="4" y="4" width="6" height="16" rx="1.5"></rect><rect x="14" y="8" width="6" height="12" rx="1.5"></rect></svg>Полиця</a></li>
+<li><a href="#stats" style="min-height: 44px; display: flex; align-items: center; gap: 10px; padding: 0 14px; border-radius: 12px; color: #14251C; text-decoration: none; font-weight: 700"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M5 20V11M12 20V5M19 20v-6"></path></svg>Статистика</a></li>
+<li><a href="#favorites" style="min-height: 44px; display: flex; align-items: center; gap: 10px; padding: 0 14px; border-radius: 12px; color: #14251C; text-decoration: none; font-weight: 700"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" aria-hidden="true"><path d="M12 20s-7-4.4-7-10a4 4 0 0 1 7-2.6A4 4 0 0 1 19 10c0 5.6-7 10-7 10z"></path></svg>Обране</a></li>
+<li><a href="#settings" style="min-height: 44px; display: flex; align-items: center; gap: 10px; padding: 0 14px; border-radius: 12px; color: #14251C; text-decoration: none; font-weight: 700"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><circle cx="12" cy="12" r="3"></circle><path d="M12 3v3M12 18v3M3 12h3M18 12h3M5.6 5.6l2.1 2.1M16.3 16.3l2.1 2.1M5.6 18.4l2.1-2.1M16.3 7.7l2.1-2.1"></path></svg>Налаштування</a></li>
+</ul>
+</nav>
+<a href="#export" style="padding: 0 14px; font-size: 14px; font-weight: 700">Експортувати в CSV</a>
+</aside>
+
+<div style="flex: 999 1 560px; min-width: 0; display: flex; flex-direction: column; gap: 28px">
+<div style="display: flex; flex-wrap: wrap; justify-content: space-between; align-items: center; gap: 16px">
+<div>
+<h1 style="margin: 0; font-family: Unbounded, sans-serif; font-weight: 600; font-size: 36px; letter-spacing: -0.02em">Мій щоденник</h1>
+<p style="margin: 4px 0 0; color: #5A665F">Жовтень 2026</p>
+</div>
+<div style="display: flex; flex-wrap: wrap; gap: 10px">
+<a href="ShareCard.dc.html" style="height: 48px; display: inline-flex; align-items: center; gap: 8px; padding: 0 20px; border-radius: 999px; background: #FFFFFF; border: 1px solid #C9D1C8; color: #14251C; text-decoration: none; font-weight: 800; font-size: 15px"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#14251C" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3v12"></path><path d="M7 8l5-5 5 5"></path><path d="M5 13v6a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2v-6"></path></svg>Поділитися</a>
+<a href="QuickLog.dc.html" style="height: 48px; display: inline-flex; align-items: center; gap: 8px; padding: 0 20px; border-radius: 999px; background: {{accent}}; color: #FFFFFF; text-decoration: none; font-weight: 800; font-size: 15px"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#FFFFFF" stroke-width="2.5" stroke-linecap="round" aria-hidden="true"><path d="M12 5v14M5 12h14"></path></svg>Нова сесія</a>
+</div>
+</div>
+
+<div id="stats" style="display: flex; flex-wrap: wrap; gap: 14px">
+<sc-for list="{{stats}}" as="st" hint-placeholder-count="4">
+<div style="flex: 1 1 170px; min-width: 0; padding: 18px 20px; background: #FFFFFF; border: 1px solid #DCE1DA; border-radius: 18px">
+<p style="margin: 0; font-size: 13px; font-weight: 700; color: #5A665F">{{st.label}}</p>
+<p style="margin: 4px 0 0; font-family: Unbounded, sans-serif; font-weight: 600; font-size: 30px; line-height: 1.15">{{st.value}}</p>
+<p style="margin: 4px 0 0; font-size: 13px; color: #5A665F">{{st.hint}}</p>
+</div>
+</sc-for>
+</div>
+
+<div style="display: flex; flex-wrap: wrap; gap: 20px; align-items: flex-start">
+<section aria-labelledby="month-h" style="flex: 1 1 380px; min-width: 0; padding: 24px; background: #FFFFFF; border: 1px solid #DCE1DA; border-radius: 20px">
+<h2 id="month-h" style="margin: 0; font-size: 19px; font-weight: 800">Жовтень у кольорах настою</h2>
+<p style="margin: 4px 0 0; font-size: 14px; color: #5A665F">Кожен день — колір чаю, який ви пили.</p>
+<div aria-hidden="true" style="margin-top: 18px; display: grid; grid-template-columns: repeat(7, minmax(0, 1fr)); gap: 8px; font-size: 12px; font-weight: 700; color: #5A665F; text-align: center">
+<span>Пн</span><span>Вт</span><span>Ср</span><span>Чт</span><span>Пт</span><span>Сб</span><span>Нд</span>
+</div>
+<div style="margin-top: 8px; display: grid; grid-template-columns: repeat(7, minmax(0, 1fr)); gap: 8px">
+<sc-for list="{{days}}" as="d" hint-placeholder-count="34">
+<div style="aspect-ratio: 1; border-radius: 10px; background: {{d.bg}}; border: {{d.border}}; display: flex; align-items: flex-end; justify-content: flex-end; padding: 4px 6px; font-size: 11px; font-weight: 800; color: {{d.fg}}">{{d.label}}</div>
+</sc-for>
+</div>
+<ul style="list-style: none; margin: 18px 0 0; padding: 0; display: flex; flex-wrap: wrap; gap: 8px 16px; font-size: 13px; color: #3E4A43">
+<sc-for list="{{legend}}" as="lg" hint-placeholder-count="6">
+<li style="display: inline-flex; align-items: center; gap: 6px"><span style="width: 12px; height: 12px; border-radius: 50%; background: {{lg.color}}; box-shadow: inset 0 0 0 1px rgba(20,37,28,0.18)"></span>{{lg.label}}</li>
+</sc-for>
+</ul>
+</section>
+
+<section id="shelf" aria-labelledby="shelf-h" style="flex: 1 1 280px; min-width: 0; padding: 24px; background: #FFFFFF; border: 1px solid #DCE1DA; border-radius: 20px">
+<h2 id="shelf-h" style="margin: 0; font-size: 19px; font-weight: 800">Закінчується на полиці</h2>
+<p style="margin: 4px 0 0; font-size: 14px; color: #5A665F">Рахуємо за грамами з ваших сесій.</p>
+<ul style="list-style: none; margin: 18px 0 0; padding: 0; display: flex; flex-direction: column; gap: 18px">
+<sc-for list="{{shelf}}" as="sh" hint-placeholder-count="3">
+<li style="display: flex; flex-direction: column; gap: 8px">
+<div style="display: flex; align-items: center; gap: 10px">
+<span style="width: 14px; height: 14px; flex: none; border-radius: 50%; background: {{sh.color}}; box-shadow: inset 0 0 0 1px rgba(20,37,28,0.18)"></span>
+<span style="flex: 1; min-width: 0; font-weight: 800; font-size: 15px">{{sh.tea}}</span>
+</div>
+<span style="display: block; height: 8px; border-radius: 999px; background: #E6EAE4; overflow: hidden"><span style="display: block; height: 100%; width: {{sh.pct}}; background: #D08A2E; border-radius: 999px"></span></span>
+<div style="display: flex; justify-content: space-between; gap: 8px; font-size: 13px"><span style="color: #5A665F">{{sh.left}}</span><a href="Tea.dc.html" style="font-weight: 800">Купити ще</a></div>
+</li>
+</sc-for>
+</ul>
+</section>
+</div>
+
+<section aria-labelledby="sessions-h">
+<div style="display: flex; flex-wrap: wrap; justify-content: space-between; align-items: center; gap: 12px">
+<h2 id="sessions-h" style="margin: 0; font-family: Unbounded, sans-serif; font-weight: 600; font-size: 24px">Сесії</h2>
+<form role="search" style="flex: 0 1 300px; display: flex; align-items: center; gap: 8px; height: 44px; padding: 0 14px; background: #FFFFFF; border: 1px solid #DCE1DA; border-radius: 999px">
+<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#5A665F" stroke-width="2" stroke-linecap="round" aria-hidden="true"><circle cx="11" cy="11" r="7"></circle><path d="M20 20l-3.5-3.5"></path></svg>
+<label for="diary-search" style="position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap">Пошук у нотатках</label>
+<input id="diary-search" type="search" placeholder="Пошук у нотатках" style="flex: 1; min-width: 0; height: 100%; border: 0; background: transparent; font: inherit; font-size: 15px; color: #14251C">
+</form>
+</div>
+<div style="margin-top: 14px; display: flex; flex-wrap: wrap; gap: 8px">
+<button type="button" aria-pressed="true" style="height: 40px; padding: 0 16px; border-radius: 999px; border: 1px solid #14251C; background: #14251C; color: #FFFFFF; font: inherit; font-size: 14px; font-weight: 700">Усі</button>
+<button type="button" aria-pressed="false" style="height: 40px; padding: 0 16px; border-radius: 999px; border: 1px solid #DCE1DA; background: #FFFFFF; color: #14251C; font: inherit; font-size: 14px; font-weight: 700">Улун</button>
+<button type="button" aria-pressed="false" style="height: 40px; padding: 0 16px; border-radius: 999px; border: 1px solid #DCE1DA; background: #FFFFFF; color: #14251C; font: inherit; font-size: 14px; font-weight: 700">Пуер</button>
+<button type="button" aria-pressed="false" style="height: 40px; padding: 0 16px; border-radius: 999px; border: 1px solid #DCE1DA; background: #FFFFFF; color: #14251C; font: inherit; font-size: 14px; font-weight: 700">Червоний</button>
+<button type="button" aria-pressed="false" style="height: 40px; padding: 0 16px; border-radius: 999px; border: 1px solid #DCE1DA; background: #FFFFFF; color: #14251C; font: inherit; font-size: 14px; font-weight: 700">Зелений</button>
+<button type="button" aria-pressed="false" style="height: 40px; padding: 0 16px; border-radius: 999px; border: 1px solid #DCE1DA; background: #FFFFFF; color: #14251C; font: inherit; font-size: 14px; font-weight: 700">Білий</button>
+</div>
+<ol style="list-style: none; margin: 16px 0 0; padding: 0; display: flex; flex-direction: column; gap: 12px">
+<sc-for list="{{sessions}}" as="s" hint-placeholder-count="5">
+<li style="display: flex; flex-wrap: wrap; align-items: center; gap: 14px 20px; padding: 18px 20px; background: #FFFFFF; border: 1px solid #DCE1DA; border-radius: 18px">
+<div style="flex: none; width: 52px; text-align: center">
+<span style="display: block; font-family: Unbounded, sans-serif; font-weight: 600; font-size: 22px; line-height: 1">{{s.day}}</span>
+<span style="font-size: 12px; font-weight: 800; color: #9A5512; letter-spacing: 0.08em">ЖОВ</span>
+</div>
+<span style="width: 36px; height: 36px; flex: none; border-radius: 50%; background: {{s.color}}; box-shadow: inset 0 0 0 1px rgba(20,37,28,0.18)"></span>
+<div style="flex: 1 1 280px; min-width: 0">
+<a href="Tea.dc.html" style="color: #14251C; text-decoration: none; font-weight: 800; font-size: 17px">{{s.tea}}</a>
+<p style="margin: 2px 0 0; font-size: 14px; color: #5A665F">{{s.shop}} · {{s.params}}</p>
+<p style="margin: 6px 0 0; font-size: 15px; color: #3E4A43">{{s.note}}</p>
+</div>
+<span style="display: inline-flex; gap: 2px">
+<sc-for list="{{s.stars}}" as="st" hint-placeholder-count="5">
+<svg width="18" height="18" viewBox="0 0 24 24" fill="{{st.fill}}" stroke="#D08A2E" stroke-width="1.5" stroke-linejoin="round" aria-hidden="true"><path d="M12 2.5l2.9 6 6.6.9-4.8 4.6 1.2 6.5L12 17.4l-5.9 3.1 1.2-6.5L2.5 9.4l6.6-.9z"></path></svg>
+</sc-for>
+</span>
+</li>
+</sc-for>
+</ol>
+</section>
+</div>
+</main>
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props='{"accent":{"editor":"color","default":"#1E5B3E","options":["#1E5B3E","#2F4A6B","#7A3E2B","#14251C"]},"$preview":{"width":1440,"height":2000}}'>
+class Component extends DCLogic {
+  renderVals() {
+    const accent = this.props.accent ?? '#1E5B3E';
+    const C = { O: '#D9A441', D: '#A8641E', R: '#B5552B', S: '#4A2617', G: '#C5CB72', W: '#E2D29B' };
+    const dark = { D: true, R: true, S: true };
+    const month = 'O R - S O - G O R S S - W O - R D S - G O - R S O - W D - R O'.split(' ');
+    const blank = { label: '', bg: 'transparent', fg: '#5A665F', border: 'none' };
+    const days = [blank, blank, blank].concat(month.map((k, i) => {
+      const has = k !== '-';
+      return {
+        label: String(i + 1),
+        bg: has ? C[k] : '#F2F4F0',
+        fg: has ? (dark[k] ? '#FFFFFF' : '#14251C') : '#5A665F',
+        border: i === 30 ? '2px solid #14251C' : 'none'
+      };
+    }));
+    const stars = (r) => [1, 2, 3, 4, 5].map((n) => ({ fill: n <= r ? '#D08A2E' : 'none' }));
+    return {
+      accent,
+      days,
+      stats: [
+        { label: 'Сесій у жовтні', value: '23', hint: 'на 5 більше, ніж у вересні' },
+        { label: 'Улюблений тип', value: 'Улун', hint: '9 сесій із 23' },
+        { label: 'Середня оцінка', value: '4,2', hint: 'з 5' },
+        { label: 'Нових чаїв', value: '6', hint: 'з 4 магазинів' }
+      ],
+      legend: [
+        { label: 'Улун', color: C.O },
+        { label: 'Темний улун', color: C.D },
+        { label: 'Червоний', color: C.R },
+        { label: 'Шу пуер', color: C.S },
+        { label: 'Зелений', color: C.G },
+        { label: 'Білий', color: C.W }
+      ],
+      shelf: [
+        { tea: 'Те Гуань Інь «Весняний»', left: 'Лишилося 12 г із 50', pct: '24%', color: C.O },
+        { tea: 'Шу пуер «Мен Хай» 2019', left: 'Лишилося 18 г із 100', pct: '18%', color: C.S },
+        { tea: 'Лун Цзин', left: 'Лишилося 9 г із 50', pct: '18%', color: C.G }
+      ],
+      sessions: [
+        { day: '31', tea: 'Те Гуань Інь «Весняний»', shop: 'Чайна лавка', params: '7 г · 95 °C · 8 проливів', note: 'Бузок і вершки, на п’ятому проливі — мед.', color: C.O, stars: stars(5) },
+        { day: '30', tea: 'Дянь Хун «Золоті бруньки»', shop: 'Сім проливів', params: '5 г · 90 °C · 6 проливів', note: 'Солодкий, хлібний. Наступного разу — коротші проливи.', color: C.R, stars: stars(4) },
+        { day: '28', tea: 'Да Хун Пао', shop: 'Листя', params: '7 г · 100 °C · 7 проливів', note: 'Смажений горіх і мінеральний післясмак.', color: C.D, stars: stars(4) },
+        { day: '27', tea: 'Бай Му Дань 2023', shop: 'Листя', params: '5 г · 85 °C · 5 проливів', note: 'Для мене занадто легкий. Спробую холодне заварювання.', color: C.W, stars: stars(3) },
+        { day: '25', tea: 'Те Гуань Інь «Весняний»', shop: 'Чайна лавка', params: '8 г · 95 °C · 9 проливів', note: 'Більше листа — щільніше, але трохи терпко.', color: C.O, stars: stars(4) }
+      ]
+    };
+  }
+}
+</script>
+</body>
+</html>

@@ -1,0 +1,188 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Prolyv — feed (mobile)</title>
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&amp;family=Unbounded:wght@500;600;700;800&amp;display=swap">
+<style>
+body{margin:0;background:#07081A}
+*{box-sizing:border-box}
+a{color:#FFB3F0}a:hover{color:#FFFFFF}
+@keyframes prolyvSpin{to{transform:rotate(360deg)}}
+@media (prefers-reduced-motion: reduce){[data-spin]{animation:none!important}}
+</style>
+</helmet>
+<div style="min-height: 100vh; width: 100%; max-width: 430px; margin: 0 auto; display: flex; flex-direction: column; background: #07081A; color: #FFFFFF; font-family: Manrope, system-ui, sans-serif; font-size: 16px; line-height: 1.5">
+
+<header style="position: sticky; top: 0; z-index: 10; height: 56px; flex: none; padding: 0 8px 0 16px; display: flex; align-items: center; gap: 2px; background: rgba(7,8,26,0.85); backdrop-filter: blur(16px); -webkit-backdrop-filter: blur(16px); border-bottom: 1px solid rgba(255,255,255,0.08)">
+<a href="MFeed.dc.html" style="flex: 1; min-width: 0; display: inline-flex; align-items: center; gap: 8px; color: #FFFFFF; text-decoration: none"><span aria-hidden="true" style="width: 28px; height: 28px; border-radius: 50%; background: radial-gradient(circle at 30% 28%, rgba(255,255,255,0.9) 0, rgba(255,255,255,0) 28%), conic-gradient(from 200deg, #FF4FD8, #8A3FFC, #2563FF, #22E3A6, #FFC21A, #FF8A1F, #FF4FD8)"></span><span style="font-family: Unbounded, sans-serif; font-weight: 700; font-size: 18px">Prolyv</span></a>
+<a href="MForum.dc.html" aria-label="Search" style="width: 44px; height: 44px; display: inline-grid; place-items: center; border-radius: 999px; color: #FFFFFF"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><circle cx="11" cy="11" r="7"></circle><path d="M20 20l-3.5-3.5"></path></svg></a>
+<a href="MLogin.dc.html" aria-label="Log in" style="width: 44px; height: 44px; display: inline-grid; place-items: center; color: #FFFFFF"><span style="width: 30px; height: 30px; border-radius: 50%; border: 1.5px solid rgba(255,255,255,0.4); display: grid; place-items: center"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><circle cx="12" cy="8" r="4"></circle><path d="M4 21a8 8 0 0 1 16 0"></path></svg></span></a>
+</header>
+
+<main style="flex: 1; display: flex; flex-direction: column">
+<section style="padding: 28px 16px 24px; display: flex; flex-direction: column; align-items: center; text-align: center; gap: 18px; background: radial-gradient(70% 40% at 50% 30%, rgba(255,79,216,0.4) 0, rgba(255,79,216,0) 70%), radial-gradient(60% 30% at 100% 100%, rgba(255,138,31,0.45) 0, rgba(255,138,31,0) 70%), radial-gradient(60% 30% at 0% 0%, rgba(37,99,255,0.45) 0, rgba(37,99,255,0) 70%), #070A2A">
+<p style="margin: 0; font-size: 12px; font-weight: 800; letter-spacing: 0.1em; color: #FFC98A">DIARY · FORUM · BLOG</p>
+<dc-import name="Cup" kind="shu" size="200" step="2" spin="on" hint-size="200px,200px"></dc-import>
+<h1 style="margin: 0; font-family: Unbounded, sans-serif; font-weight: 800; font-size: 30px; line-height: 1.08; letter-spacing: -0.02em">Log your tea. Talk through every steep.</h1>
+<p style="margin: 0; font-size: 16px; color: #D7D9F2">A personal tea diary where any session can become a discussion. The home of our TikTok and Instagram.</p>
+<div style="width: 100%; display: flex; flex-direction: column; gap: 10px">
+<a href="MLogin.dc.html" style="height: 52px; display: flex; align-items: center; justify-content: center; border-radius: 999px; background: linear-gradient(100deg, #FF4FD8 0%, #FF8A1F 100%); color: #07081A; text-decoration: none; font-weight: 800; font-size: 16px; box-shadow: 0 18px 40px -14px rgba(255,79,216,0.7)">Start your diary</a>
+<a href="#how" style="height: 48px; display: flex; align-items: center; justify-content: center; border-radius: 999px; background: rgba(255,255,255,0.08); border: 1px solid rgba(255,255,255,0.22); color: #FFFFFF; text-decoration: none; font-weight: 800; font-size: 16px">How it works</a>
+</div>
+<a href="MSessionPost.dc.html" style="display: inline-flex; align-items: center; gap: 10px; padding: 8px 14px 8px 8px; border-radius: 999px; background: rgba(7,10,42,0.8); border: 1px solid rgba(255,255,255,0.2); color: #E6E7FA; text-decoration: none; font-size: 13px; text-align: left"><span aria-hidden="true" style="width: 28px; height: 28px; flex: none; border-radius: 50%; background: linear-gradient(135deg, #C77DFF, #FF9BEA)"></span><span><b style="color: #FFFFFF">Olena</b> logged a shu pu-erh · 12 comments</span></a>
+</section>
+
+<section id="how" aria-label="How it works" style="padding: 20px 16px 4px; display: flex; flex-direction: column; gap: 10px">
+<sc-for list="{{pillars}}" as="pl" hint-placeholder-count="3">
+<a href="{{pl.href}}" style="display: flex; align-items: center; gap: 14px; min-height: 64px; padding: 12px 14px; border-radius: 20px; background: rgba(255,255,255,0.04); border: 1px solid rgba(255,255,255,0.1); color: #FFFFFF; text-decoration: none">
+<span aria-hidden="true" style="width: 40px; height: 40px; flex: none; border-radius: 12px; background: {{pl.grad}}"></span>
+<span style="flex: 1; min-width: 0"><span style="display: block; font-weight: 800; font-size: 16px">{{pl.title}}</span><span style="display: block; font-size: 13px; color: #C9CCEB">{{pl.text}}</span></span>
+<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#9EA3CF" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 6l6 6-6 6"></path></svg>
+</a>
+</sc-for>
+</section>
+
+<section aria-labelledby="feed-h" style="padding: 24px 16px 8px; display: flex; flex-direction: column; gap: 14px">
+<h2 id="feed-h" style="margin: 0; font-family: Unbounded, sans-serif; font-weight: 700; font-size: 22px">Feed</h2>
+<div aria-label="Filter the feed" style="display: flex; gap: 4px; padding: 4px; border-radius: 999px; background: rgba(255,255,255,0.06); border: 1px solid rgba(255,255,255,0.12)">
+<sc-for list="{{tabs}}" as="t" hint-placeholder-count="4">
+<button type="button" onClick="{{t.pick}}" aria-pressed="{{t.on}}" style="flex: 1; min-width: 0; height: 40px; padding: 0 6px; border-radius: 999px; border: 0; background: {{t.bg}}; color: {{t.fg}}; font: inherit; font-weight: 800; font-size: 13px; cursor: pointer">{{t.label}}</button>
+</sc-for>
+</div>
+<ol style="list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; gap: 12px">
+<sc-for list="{{items}}" as="it" hint-placeholder-count="6">
+<li>
+<sc-if value="{{it.isSession}}" hint-placeholder-val="{{ true }}">
+<article style="padding: 16px; border-radius: 22px; background: rgba(16,18,48,0.75); border: 1px solid rgba(255,255,255,0.12); display: flex; flex-direction: column; gap: 12px">
+<div style="display: flex; align-items: center; gap: 10px">
+<span aria-hidden="true" style="width: 36px; height: 36px; flex: none; border-radius: 50%; background: {{it.avatar}}; color: #07081A; display: grid; place-items: center; font-weight: 800; font-size: 13px">{{it.initials}}</span>
+<p style="margin: 0; flex: 1; min-width: 0; font-size: 14px; color: #C9CCEB"><a href="MProfile.dc.html" style="color: #FFFFFF; font-weight: 800; text-decoration: none">{{it.author}}</a> · {{it.time}}</p>
+<span style="padding: 4px 10px; border-radius: 999px; background: rgba(255,255,255,0.08); font-size: 11px; font-weight: 800; color: #C9CCEB">SESSION</span>
+</div>
+<a href="MSessionPost.dc.html" style="display: flex; align-items: center; gap: 12px; color: #FFFFFF; text-decoration: none">
+<dc-import name="Cup" kind="{{it.kind}}" size="60" hint-size="60px,60px"></dc-import>
+<span style="flex: 1; min-width: 0"><span style="display: block; font-weight: 800; font-size: 17px; line-height: 1.3">{{it.tea}}</span><span style="display: block; margin-top: 2px; font-size: 13px; color: #9EA3CF">{{it.params}}</span></span>
+</a>
+<p style="margin: 0; font-size: 15px; color: #E6E7FA">{{it.note}}</p>
+<div style="display: flex; align-items: center; justify-content: space-between; gap: 10px; font-size: 13px; color: #C9CCEB"><span style="color: #FFC21A; letter-spacing: 2px; font-size: 15px" aria-hidden="true">{{it.stars}}</span><a href="MSessionPost.dc.html" style="min-height: 44px; display: inline-flex; align-items: center; color: #C9CCEB; text-decoration: none; font-weight: 700">{{it.comments}}</a></div>
+<a href="MNewSession.dc.html" style="height: 44px; display: flex; align-items: center; justify-content: center; gap: 8px; border-radius: 999px; background: rgba(255,255,255,0.08); border: 1px solid rgba(255,255,255,0.2); color: #FFFFFF; text-decoration: none; font-weight: 800; font-size: 14px"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 4v6h6"></path><path d="M20 12a8 8 0 1 1-2.3-5.7L20 9"></path></svg>Brew it the same way</a>
+</article>
+</sc-if>
+<sc-if value="{{it.isTopic}}" hint-placeholder-val="{{ false }}">
+<article style="padding: 16px; border-radius: 22px; background: rgba(255,255,255,0.04); border: 1px solid rgba(255,255,255,0.12); display: flex; flex-direction: column; gap: 8px">
+<div style="display: flex; flex-wrap: wrap; align-items: center; gap: 6px">
+<span style="padding: 4px 10px; border-radius: 999px; background: {{it.sectionBg}}; color: {{it.sectionFg}}; font-size: 11px; font-weight: 800; letter-spacing: 0.04em">{{it.section}}</span>
+<sc-if value="{{it.pinned}}" hint-placeholder-val="{{ false }}"><span style="padding: 4px 10px; border-radius: 999px; background: rgba(255,194,26,0.16); color: #FFE39A; font-size: 11px; font-weight: 800">PINNED</span></sc-if>
+<span style="margin-left: auto; font-size: 12px; color: #9EA3CF">{{it.time}}</span>
+</div>
+<a href="MTopic.dc.html" style="color: #FFFFFF; text-decoration: none; font-family: Unbounded, sans-serif; font-weight: 700; font-size: 17px; line-height: 1.3">{{it.title}}</a>
+<p style="margin: 0; font-size: 14px; color: #C9CCEB">{{it.excerpt}}</p>
+<sc-if value="{{it.attached}}" hint-placeholder-val="{{ false }}">
+<p style="margin: 0; align-self: flex-start; display: inline-flex; align-items: center; gap: 8px; padding: 4px 10px 4px 4px; border-radius: 999px; background: rgba(255,255,255,0.06); font-size: 12px; color: #E6E7FA"><dc-import name="Cup" kind="{{it.kind}}" size="24" hint-size="24px,24px"></dc-import>Session: {{it.attached}}</p>
+</sc-if>
+<p style="margin: 2px 0 0; display: flex; flex-wrap: wrap; gap: 4px 12px; font-size: 13px; color: #9EA3CF"><span>{{it.author}}</span><span style="color: #FFFFFF; font-weight: 800">{{it.replies}}</span><span>{{it.last}}</span></p>
+</article>
+</sc-if>
+<sc-if value="{{it.isBlog}}" hint-placeholder-val="{{ false }}">
+<a href="MBlogPost.dc.html" style="display: flex; flex-direction: column; overflow: hidden; border-radius: 22px; background: rgba(16,18,48,0.75); border: 1px solid rgba(255,255,255,0.12); color: #FFFFFF; text-decoration: none">
+<span aria-hidden="true" style="position: relative; height: 150px; display: grid; place-items: center; background: {{it.cover}}">
+<dc-import name="Cup" kind="{{it.kind}}" size="100" hint-size="100px,100px"></dc-import>
+<span style="position: absolute; top: 12px; left: 12px; padding: 4px 10px; border-radius: 999px; background: rgba(7,8,26,0.7); font-size: 11px; font-weight: 800">{{it.badge}}</span>
+</span>
+<span style="padding: 14px 16px 16px; display: flex; flex-direction: column; gap: 6px">
+<span style="font-size: 12px; font-weight: 800; letter-spacing: 0.08em; color: #FFC98A">BLOG · {{it.read}}</span>
+<span style="font-family: Unbounded, sans-serif; font-weight: 700; font-size: 17px; line-height: 1.3">{{it.title}}</span>
+<span style="font-size: 14px; color: #C9CCEB">{{it.excerpt}}</span>
+<span style="margin-top: 4px; font-weight: 800; font-size: 14px; color: #FFB3F0">Read and discuss →</span>
+</span>
+</a>
+</sc-if>
+</li>
+</sc-for>
+</ol>
+<button type="button" style="height: 48px; border-radius: 999px; border: 1px solid rgba(255,255,255,0.2); background: rgba(255,255,255,0.06); color: #FFFFFF; font: inherit; font-weight: 800; cursor: pointer">Show more</button>
+</section>
+
+<section aria-labelledby="hot-h" style="padding: 20px 16px 0">
+<div style="padding: 16px; border-radius: 22px; background: rgba(255,255,255,0.04); border: 1px solid rgba(255,255,255,0.1)">
+<h2 id="hot-h" style="margin: 0; font-size: 17px; font-weight: 800">Hot topics</h2>
+<ol style="list-style: none; margin: 6px 0 0; padding: 0; display: flex; flex-direction: column">
+<sc-for list="{{hot}}" as="h" hint-placeholder-count="4">
+<li style="padding: 10px 0; border-top: 1px solid rgba(255,255,255,0.08)"><a href="MTopic.dc.html" style="display: block; color: #FFFFFF; text-decoration: none; font-weight: 800; font-size: 15px; line-height: 1.35">{{h.title}}</a><span style="font-size: 13px; color: #9EA3CF">{{h.meta}}</span></li>
+</sc-for>
+</ol>
+<a href="MForum.dc.html" style="display: inline-flex; align-items: center; min-height: 44px; font-weight: 800; font-size: 14px">All discussions →</a>
+</div>
+</section>
+
+<section aria-labelledby="social-h" style="padding: 16px 16px 24px">
+<div style="padding: 18px 16px; border-radius: 22px; background: radial-gradient(80% 60% at 100% 0%, rgba(255,138,31,0.4) 0, rgba(255,138,31,0) 70%), linear-gradient(150deg, #8A3FFC 0%, #3B1FB8 100%); display: flex; flex-direction: column; gap: 10px">
+<h2 id="social-h" style="margin: 0; font-family: Unbounded, sans-serif; font-weight: 800; font-size: 19px; line-height: 1.2">Find us on TikTok and Instagram</h2>
+<p style="margin: 0; font-size: 14px; color: #F3EEFF">Short videos live there. Parameters, breakdowns and discussion live here, on the blog.</p>
+<div style="display: flex; gap: 8px">
+<a href="#tiktok" style="flex: 1; height: 44px; display: inline-flex; align-items: center; justify-content: center; gap: 6px; border-radius: 999px; background: rgba(7,8,26,0.3); border: 1px solid rgba(255,255,255,0.4); color: #FFFFFF; text-decoration: none; font-weight: 800; font-size: 13px"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M14 4v10.5a3.5 3.5 0 1 1-3.5-3.5"></path><path d="M14 4c.5 2.6 2.2 4 5 4.2"></path></svg>TikTok</a>
+<a href="#instagram" style="flex: 1; height: 44px; display: inline-flex; align-items: center; justify-content: center; gap: 6px; border-radius: 999px; background: rgba(7,8,26,0.3); border: 1px solid rgba(255,255,255,0.4); color: #FFFFFF; text-decoration: none; font-weight: 800; font-size: 13px"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#FFFFFF" stroke-width="2" aria-hidden="true"><rect x="4" y="4" width="16" height="16" rx="5"></rect><circle cx="12" cy="12" r="3.5"></circle><circle cx="17" cy="7" r="0.6"></circle></svg>Instagram</a>
+</div>
+</div>
+</section>
+</main>
+
+<div style="position: sticky; bottom: 0; z-index: 10; margin-top: auto"><dc-import name="MobileNav" current="feed" hint-size="100%,84px"></dc-import></div>
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props='{"$preview":{"width":390,"height":3700}}'>
+class Component extends DCLogic {
+  renderVals() {
+    const st = this.state || {};
+    const tab = st.tab || 'all';
+    const SEC = {
+      'PU-ERH': ['rgba(138,63,252,0.24)', '#DCC8FF'],
+      'BEGINNERS': ['rgba(34,227,166,0.18)', '#9DF5D3'],
+      'TEAWARE': ['rgba(37,99,255,0.24)', '#B9CCFF'],
+      'OOLONG': ['rgba(255,138,31,0.2)', '#FFC98A']
+    };
+    const stars = (r) => '★★★★★'.slice(0, r) + '☆☆☆☆☆'.slice(0, 5 - r);
+    const S = (o) => Object.assign({ type: 'session', isSession: true, isTopic: false, isBlog: false }, o, { stars: stars(o.r) });
+    const T = (o) => Object.assign({ type: 'topic', isSession: false, isTopic: true, isBlog: false, pinned: false, attached: '', kind: 'oolong' }, o, { sectionBg: SEC[o.section][0], sectionFg: SEC[o.section][1] });
+    const B = (o) => Object.assign({ type: 'blog', isSession: false, isTopic: false, isBlog: true }, o);
+    const all = [
+      S({ author: 'Olena K.', initials: 'OK', avatar: 'linear-gradient(135deg, #C77DFF, #FF9BEA)', time: '12 min ago', tea: 'Shu pu-erh “Menghai” 2019', kind: 'shu', params: '8 g · 100 ml · 100 °C · 10 steeps · gaiwan', note: 'Cocoa and damp forest. Date-like sweetness by the fifth steep. No mustiness at all.', r: 5, comments: '12 comments' }),
+      T({ section: 'PU-ERH', title: 'Why does my shu pu-erh turn bitter after the third steep?', excerpt: 'The first steeps are great, then a bitterness shows up and won’t leave. I attached my session — what am I doing wrong?', author: 'Andrew T.', replies: '14 replies', last: 'last reply 5 min ago', time: '2 h ago', attached: '8 g · 100 °C · 6 steeps', kind: 'shu' }),
+      B({ title: 'Look into the cup: how Tie Guan Yin changes over 8 steeps', excerpt: 'The full breakdown of our TikTok video: exact parameters, the time of every steep and what we taste in each.', badge: 'VIDEO · 0:48', read: '4 MIN', kind: 'oolong', cover: 'radial-gradient(60% 80% at 50% 50%, rgba(255,79,216,0.6) 0, rgba(255,79,216,0) 70%), linear-gradient(140deg, #3B1FB8, #0B0D3A)' }),
+      S({ author: 'Daniel M.', initials: 'DM', avatar: 'linear-gradient(135deg, #FFE066, #FF8A1F)', time: '40 min ago', tea: 'Dian Hong “Golden Buds”', kind: 'red', params: '5 g · 100 ml · 90 °C · 6 steeps · gaiwan', note: 'Honey and dried fruit, caramel showed up on the third steep. Shorter steeps work better.', r: 4, comments: '5 comments' }),
+      T({ section: 'BEGINNERS', pinned: true, title: 'New to tea? 5 teas to start with', excerpt: 'A community-built list: what to try first, in what order, and how to brew without a gaiwan.', author: 'Prolyv', replies: '58 replies', last: 'last reply yesterday', time: 'pinned' }),
+      S({ author: 'Yuki S.', initials: 'YS', avatar: 'linear-gradient(135deg, #5CF2B8, #22B8FF)', time: '1 h ago', tea: 'Bai Mu Dan 2023', kind: 'white', params: '6 g · 500 ml · cold brew, 8 h', note: 'Apricot and hay, no astringency at all. Better cold than hot.', r: 4, comments: '3 comments' }),
+      T({ section: 'TEAWARE', title: 'Gaiwan or teapot for oolong: what’s your experience?', excerpt: 'I want one vessel for everything. What did you choose, and did you notice a difference in taste?', author: 'Maria L.', replies: '32 replies', last: 'last reply 1 h ago', time: 'yesterday' }),
+      B({ title: 'Our October in numbers: what the community logged', excerpt: 'The most-logged type was oolong, the longest session was 14 steeps of sheng, and the most common note was lilac.', badge: 'ARTICLE', read: '3 MIN', kind: 'sheng', cover: 'radial-gradient(60% 80% at 50% 50%, rgba(34,227,166,0.5) 0, rgba(34,227,166,0) 70%), linear-gradient(140deg, #0E3B5E, #0B0D3A)' })
+    ];
+    const list = tab === 'all' ? all : all.filter((i) => i.type === tab);
+    const tabs = [['all', 'All'], ['session', 'Sessions'], ['topic', 'Discuss'], ['blog', 'Blog']];
+    return {
+      pillars: [
+        { title: 'Diary', text: 'Sessions, steeps, your shelf and stats. Private by default.', href: 'MDiary.dc.html', grad: 'linear-gradient(135deg, #FF4FD8, #FF8A1F)' },
+        { title: 'Discussions', text: 'Ask with your session attached and get answers that fit.', href: 'MForum.dc.html', grad: 'linear-gradient(135deg, #8A3FFC, #22B8FF)' },
+        { title: 'Blog', text: 'Breakdowns of our videos: everything that didn’t fit into 30 seconds.', href: 'MBlog.dc.html', grad: 'linear-gradient(135deg, #22E3A6, #FFC21A)' }
+      ],
+      tabs: tabs.map((t) => {
+        const on = t[0] === tab;
+        return { label: t[1], on, bg: on ? '#FFFFFF' : 'transparent', fg: on ? '#07081A' : '#FFFFFF', pick: () => this.setState({ tab: t[0] }) };
+      }),
+      items: list,
+      hot: [
+        { title: 'Why does my shu pu-erh turn bitter after the third steep?', meta: 'Pu-erh · 14 replies' },
+        { title: 'Gaiwan or teapot for oolong: what’s your experience?', meta: 'Teaware · 32 replies' },
+        { title: 'How to store sheng pu-erh in a small apartment', meta: 'Pu-erh · 21 replies' },
+        { title: 'Tie Guan Yin: spring vs autumn harvest, side by side', meta: 'Oolong · 17 replies' }
+      ]
+    };
+  }
+}
+</script>
+</body>
+</html>

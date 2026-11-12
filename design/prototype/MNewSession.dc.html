@@ -1,0 +1,253 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Prolyv — new session (mobile)</title>
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&amp;family=Unbounded:wght@500;600;700;800&amp;display=swap">
+<style>
+body{margin:0;background:#07081A}
+*{box-sizing:border-box}
+a{color:#FFB3F0}a:hover{color:#FFFFFF}
+@keyframes prolyvSpin{to{transform:rotate(360deg)}}
+@media (prefers-reduced-motion: reduce){[data-spin]{animation:none!important}}
+</style>
+</helmet>
+<div style="min-height: 100vh; width: 100%; max-width: 430px; margin: 0 auto; display: flex; flex-direction: column; background: #07081A; color: #FFFFFF; font-family: Manrope, system-ui, sans-serif; font-size: 16px; line-height: 1.5">
+
+<header style="position: sticky; top: 0; z-index: 10; height: 56px; flex: none; padding: 0 8px; display: flex; align-items: center; gap: 2px; background: rgba(7,8,26,0.85); backdrop-filter: blur(16px); -webkit-backdrop-filter: blur(16px); border-bottom: 1px solid rgba(255,255,255,0.08)">
+<a href="MDiary.dc.html" style="height: 44px; flex: none; display: inline-flex; align-items: center; padding: 0 8px; border-radius: 999px; color: #D7D9F2; text-decoration: none; font-weight: 700; font-size: 15px">Cancel</a>
+<p style="margin: 0; flex: 1; min-width: 0; text-align: center; font-family: Unbounded, sans-serif; font-weight: 700; font-size: 17px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis">New session</p>
+<a href="MDiary.dc.html" style="height: 44px; flex: none; display: inline-flex; align-items: center; padding: 0 8px; border-radius: 999px; color: #FFB3F0; text-decoration: none; font-weight: 800; font-size: 16px">Save</a>
+</header>
+
+<main style="flex: 1; display: flex; flex-direction: column">
+<h1 style="position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; margin: 0">New session</h1>
+
+<section aria-labelledby="ns-tea" style="padding: 20px 16px 0; display: flex; flex-direction: column; gap: 10px">
+<p style="margin: 0; font-size: 13px; color: #9EA3CF">Log as you brew — your draft saves automatically.</p>
+<h2 id="ns-tea" style="margin: 0; font-size: 17px; font-weight: 800">Tea</h2>
+<div style="padding: 16px; border-radius: 22px; background: rgba(16,18,48,0.75); border: 1px solid rgba(255,255,255,0.12); display: flex; flex-direction: column; gap: 12px">
+<div style="display: flex; align-items: center; gap: 12px">
+<dc-import name="Cup" kind="oolong" size="52" hint-size="52px,52px"></dc-import>
+<div style="flex: 1; min-width: 0"><p style="margin: 0; font-weight: 800; font-size: 17px; line-height: 1.3">Tie Guan Yin “Spring”</p><p style="margin: 2px 0 0; font-size: 13px; color: #9EA3CF">Oolong · from your shelf, 12 g left</p></div>
+</div>
+<div style="display: flex; gap: 8px">
+<button type="button" style="flex: 1; height: 44px; padding: 0 16px; border-radius: 999px; border: 1px solid rgba(255,255,255,0.2); background: rgba(255,255,255,0.08); color: #FFFFFF; font: inherit; font-weight: 800; font-size: 14px; cursor: pointer">Change</button>
+<button type="button" aria-label="Photo of the package" style="width: 44px; height: 44px; flex: none; display: inline-grid; place-items: center; border-radius: 999px; border: 1px solid rgba(255,255,255,0.2); background: rgba(255,255,255,0.08); color: #FFFFFF; cursor: pointer"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 8h3l2-3h6l2 3h3v11H4z"></path><circle cx="12" cy="13" r="3.5"></circle></svg></button>
+</div>
+</div>
+</section>
+
+<section aria-labelledby="ns-params" style="padding: 24px 16px 0">
+<h2 id="ns-params" style="margin: 0 0 10px; font-size: 17px; font-weight: 800">Parameters</h2>
+<div style="display: grid; grid-template-columns: 1fr 1fr; gap: 10px">
+<sc-for list="{{steppers}}" as="p" hint-placeholder-count="3">
+<div style="padding: 12px; border-radius: 20px; background: rgba(16,18,48,0.75); border: 1px solid rgba(255,255,255,0.12); display: flex; flex-direction: column; gap: 8px">
+<p style="margin: 0; font-size: 13px; font-weight: 800; color: #9EA3CF">{{p.label}}</p>
+<p aria-live="polite" style="margin: 0; font-family: Unbounded, sans-serif; font-weight: 700; font-size: 18px; line-height: 1.3; white-space: nowrap">{{p.value}}</p>
+<div style="display: flex; gap: 6px">
+<button type="button" onClick="{{p.dec}}" aria-label="{{p.decLabel}}" style="flex: 1; min-width: 44px; height: 44px; border-radius: 14px; border: 0; background: rgba(255,255,255,0.08); color: #FFFFFF; font: inherit; font-size: 22px; font-weight: 800; cursor: pointer">−</button>
+<button type="button" onClick="{{p.inc}}" aria-label="{{p.incLabel}}" style="flex: 1; min-width: 44px; height: 44px; border-radius: 14px; border: 0; background: rgba(255,255,255,0.08); color: #FFFFFF; font: inherit; font-size: 22px; font-weight: 800; cursor: pointer">+</button>
+</div>
+</div>
+</sc-for>
+<div style="padding: 12px; border-radius: 20px; background: rgba(16,18,48,0.75); border: 1px solid rgba(255,255,255,0.12); display: flex; flex-direction: column; gap: 8px">
+<label for="ns-vessel" style="font-size: 13px; font-weight: 800; color: #9EA3CF">Vessel</label>
+<p style="margin: 0; font-size: 12px; color: #9EA3CF">How you brew this one</p>
+<select id="ns-vessel" value="{{vessel}}" onChange="{{setVessel}}" style="margin-top: auto; width: 100%; height: 44px; padding: 0 10px; border-radius: 14px; border: 0; background: rgba(255,255,255,0.08); color: #FFFFFF; font: inherit; font-weight: 800">
+<option style="color: #07081A">gaiwan</option>
+<option style="color: #07081A">teapot</option>
+<option style="color: #07081A">large teapot</option>
+<option style="color: #07081A">cold brew</option>
+</select>
+</div>
+</div>
+</section>
+
+<section aria-labelledby="ns-timer" style="padding: 24px 16px 0">
+<div style="padding: 20px 16px; border-radius: 22px; border: 1px solid rgba(255,255,255,0.18); background: radial-gradient(80% 70% at 12% 0%, rgba(255,79,216,0.5) 0, rgba(255,79,216,0) 70%), radial-gradient(80% 70% at 100% 100%, rgba(255,138,31,0.5) 0, rgba(255,138,31,0) 70%), #070A2A; box-shadow: 0 24px 60px -30px rgba(255,79,216,0.6); display: flex; flex-direction: column; align-items: center; text-align: center; gap: 8px">
+<div style="width: 100%; display: flex; align-items: center; justify-content: space-between; gap: 8px">
+<p id="ns-timer" style="margin: 0; font-size: 12px; font-weight: 800; letter-spacing: 0.1em; color: #FFC98A">STEEP TIMER</p>
+<p style="margin: 0; padding: 4px 10px; border-radius: 999px; background: rgba(255,255,255,0.1); font-size: 11px; font-weight: 800; letter-spacing: 0.06em; color: #FFFFFF">STEEP {{steepNo}} · {{timerStatus}}</p>
+</div>
+<p aria-live="polite" style="margin: 10px 0 0; font-family: Unbounded, sans-serif; font-weight: 800; font-size: 56px; line-height: 1; letter-spacing: -0.02em; font-variant-numeric: tabular-nums">{{time}}</p>
+<p style="margin: 0; font-size: 15px; color: #D7D9F2">Suggested next: <b style="color: #FFFFFF">{{next}} s</b></p>
+<div style="width: 100%; margin-top: 10px; display: flex; gap: 10px">
+<button type="button" onClick="{{toggleTimer}}" style="flex: 1; height: 56px; border-radius: 999px; border: {{timerBorder}}; background: {{timerBg}}; color: {{timerFg}}; box-shadow: {{timerShadow}}; font: inherit; font-weight: 800; font-size: 17px; cursor: pointer">{{timerLabel}}</button>
+<button type="button" onClick="{{logSteep}}" disabled="{{full}}" style="flex: 1; height: 56px; border-radius: 999px; border: 0; background: #FFFFFF; color: #07081A; font: inherit; font-weight: 800; font-size: 17px; cursor: pointer">Log steep</button>
+</div>
+<p style="margin: 2px 0 0; font-size: 12px; color: #C9CCEB">At 00:00, Log steep uses the suggested time.</p>
+</div>
+</section>
+
+<section aria-labelledby="ns-brews" style="padding: 24px 0 0; display: flex; flex-direction: column; gap: 12px">
+<div style="padding: 0 16px; display: flex; align-items: center; justify-content: space-between; gap: 10px">
+<h2 id="ns-brews" style="margin: 0; font-size: 17px; font-weight: 800">Steeps · {{count}}</h2>
+<button type="button" onClick="{{reset}}" style="height: 44px; padding: 0 16px; border-radius: 999px; border: 1px solid rgba(255,255,255,0.2); background: transparent; color: #FFFFFF; font: inherit; font-weight: 800; font-size: 14px; cursor: pointer">Reset</button>
+</div>
+<sc-if value="{{hasBrews}}" hint-placeholder-val="{{ true }}">
+<ol aria-label="Logged steeps" style="list-style: none; margin: 0; padding: 0 16px; display: flex; gap: 8px; overflow-x: auto; scrollbar-width: none">
+<sc-for list="{{brews}}" as="b" hint-placeholder-count="3">
+<li style="flex: none; width: 48px; display: flex; flex-direction: column; align-items: center; gap: 4px; font-size: 12px; font-weight: 800; color: #C9CCEB"><span aria-hidden="true" style="width: 36px; height: 36px; border-radius: 50%; background: {{b.orb}}"></span>{{b.sec}}</li>
+</sc-for>
+</ol>
+</sc-if>
+<sc-if value="{{empty}}" hint-placeholder-val="{{ false }}">
+<p style="margin: 0 16px; padding: 14px 16px; border-radius: 18px; background: rgba(255,255,255,0.04); border: 1px dashed rgba(255,255,255,0.18); font-size: 13px; color: #9EA3CF">No steeps yet — start the timer above and log each steep as you pour.</p>
+</sc-if>
+<sc-if value="{{full}}" hint-placeholder-val="{{ false }}">
+<p style="margin: 0 16px; font-size: 12px; color: #9EA3CF">12 steeps is the maximum for one session.</p>
+</sc-if>
+</section>
+
+<section aria-labelledby="ns-rate" style="padding: 24px 16px 0; display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 10px">
+<h2 id="ns-rate" style="margin: 0; font-size: 17px; font-weight: 800">Rating</h2>
+<div style="display: flex">
+<sc-for list="{{stars}}" as="s" hint-placeholder-count="5">
+<button type="button" onClick="{{s.pick}}" aria-label="{{s.label}}" aria-pressed="{{s.pressed}}" style="width: 48px; height: 48px; padding: 0; border: 0; background: transparent; display: grid; place-items: center; cursor: pointer"><svg width="32" height="32" viewBox="0 0 24 24" fill="{{s.fill}}" stroke="#FFC21A" stroke-width="1.5" stroke-linejoin="round" aria-hidden="true"><path d="M12 2.5l2.9 6 6.6.9-4.8 4.6 1.2 6.5L12 17.4l-5.9 3.1 1.2-6.5L2.5 9.4l6.6-.9z"></path></svg></button>
+</sc-for>
+</div>
+</section>
+
+<section aria-labelledby="ns-taste" style="padding: 24px 16px 0">
+<h2 id="ns-taste" style="margin: 0 0 10px; font-size: 17px; font-weight: 800">Taste</h2>
+<div style="display: flex; flex-wrap: wrap; gap: 8px">
+<sc-for list="{{tags}}" as="t" hint-placeholder-count="8">
+<button type="button" onClick="{{t.toggle}}" aria-pressed="{{t.pressed}}" style="height: 44px; padding: 0 16px; border-radius: 999px; border: 1px solid {{t.border}}; background: {{t.bg}}; color: {{t.fg}}; font: inherit; font-weight: 800; font-size: 14px; cursor: pointer">{{t.label}}</button>
+</sc-for>
+</div>
+</section>
+
+<section style="padding: 24px 16px 0">
+<label for="ns-note" style="display: block; font-size: 17px; font-weight: 800">Note</label>
+<textarea id="ns-note" rows="3" placeholder="What did you taste in the first steeps? How did it change?" style="margin-top: 10px; width: 100%; padding: 14px 16px; border-radius: 18px; border: 1px solid rgba(255,255,255,0.18); background: rgba(16,18,48,0.75); color: #FFFFFF; font: inherit; resize: vertical"></textarea>
+</section>
+
+<section style="padding: 24px 16px 0">
+<fieldset style="margin: 0; padding: 16px; border-radius: 22px; border: 1px solid rgba(255,255,255,0.1); background: rgba(255,255,255,0.04); display: flex; flex-direction: column; gap: 2px">
+<legend style="padding: 0 6px; font-size: 17px; font-weight: 800">Privacy</legend>
+<label style="min-height: 44px; display: flex; align-items: center; gap: 12px; font-size: 15px; cursor: pointer"><input type="checkbox" checked="{{share}}" onChange="{{toggleShare}}" style="width: 20px; height: 20px; flex: none; accent-color: #FF4FD8">Show in the community feed</label>
+<label style="min-height: 44px; display: flex; align-items: center; gap: 12px; font-size: 15px; cursor: pointer"><input type="checkbox" checked="{{true}}" readOnly="{{true}}" style="width: 20px; height: 20px; flex: none; accent-color: #FF4FD8">Allow comments and “Brew it the same way”</label>
+</fieldset>
+</section>
+
+<section aria-labelledby="ns-preview" style="padding: 24px 16px 0">
+<div style="padding: 16px 16px 20px; border-radius: 22px; background: radial-gradient(70% 50% at 50% 26%, rgba(255,79,216,0.35) 0, rgba(255,79,216,0) 70%), rgba(16,18,48,0.75); border: 1px solid rgba(255,255,255,0.14); display: flex; flex-direction: column; align-items: center; gap: 10px; text-align: center">
+<p id="ns-preview" style="margin: 0; align-self: flex-start; font-size: 12px; font-weight: 800; letter-spacing: 0.08em; color: #9EA3CF">HOW OTHERS WILL SEE IT</p>
+<dc-import name="Cup" kind="oolong" size="120" step="{{step}}" spin="on" hint-size="120px,120px"></dc-import>
+<p style="margin: 0; font-size: 13px; color: #9EA3CF">The liquor gets lighter with every steep</p>
+<h2 style="margin: 2px 0 0; font-family: Unbounded, sans-serif; font-weight: 700; font-size: 19px; line-height: 1.25">Tie Guan Yin “Spring”</h2>
+<p style="margin: 0; font-size: 15px; color: #D7D9F2">{{summary}}</p>
+<div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 6px">
+<sc-for list="{{brews}}" as="b" hint-placeholder-count="3"><span aria-hidden="true" style="width: 16px; height: 16px; border-radius: 50%; background: {{b.orb}}"></span></sc-for>
+</div>
+<p style="margin: 0; font-size: 20px; letter-spacing: 4px; color: #FFC21A"><span aria-hidden="true">{{starText}}</span><span style="position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap">{{ratedText}}</span></p>
+<ul style="list-style: none; margin: 0; padding: 0; display: flex; flex-wrap: wrap; justify-content: center; gap: 6px">
+<sc-for list="{{chosen}}" as="c" hint-placeholder-count="2"><li style="padding: 4px 10px; border-radius: 999px; background: rgba(255,79,216,0.18); color: #FFC4F2; font-size: 12px; font-weight: 800">{{c.label}}</li></sc-for>
+</ul>
+<p style="margin: 0; font-size: 13px; color: #9EA3CF">{{visibility}}</p>
+</div>
+</section>
+
+<section style="padding: 24px 16px 24px">
+<a href="MDiary.dc.html" style="height: 52px; display: flex; align-items: center; justify-content: center; border-radius: 999px; background: linear-gradient(100deg, #FF4FD8 0%, #FF8A1F 100%); color: #07081A; text-decoration: none; font-weight: 800; font-size: 16px; box-shadow: 0 18px 40px -14px rgba(255,79,216,0.7)">Save session</a>
+</section>
+</main>
+
+<div style="position: sticky; bottom: 0; z-index: 10; margin-top: auto"><dc-import name="MobileNav" current="diary" hint-size="100%,84px"></dc-import></div>
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props='{"$preview":{"width":390,"height":2500}}'>
+class Component extends DCLogic {
+  componentWillUnmount() {
+    if (this.timer) { clearInterval(this.timer); this.timer = null; }
+  }
+  renderVals() {
+    const st = this.state || {};
+    const grams = st.grams ?? 7;
+    const water = st.water ?? 100;
+    const temp = st.temp ?? 95;
+    const vessel = st.vessel ?? 'gaiwan';
+    const brews = st.brews ?? [];
+    const rating = st.rating ?? 4;
+    const on = st.tags ?? { 'Lilac': true, 'Cream': true };
+    const share = st.share ?? true;
+    const elapsed = st.elapsed ?? 0;
+    const running = !!st.running;
+    const pairs = [['#FF8A3D', '#B33A00'], ['#FF9A45', '#C24A08'], ['#FFA94F', '#D05A10'], ['#FFB85C', '#DB6B18'], ['#FFC56E', '#E27E24'], ['#FFD283', '#E89134'], ['#FFDE9C', '#ECA54C'], ['#FFE9B8', '#F0BA6C']];
+    const orb = (i) => { const p = pairs[Math.min(i, 7)]; return 'radial-gradient(circle at 32% 28%, rgba(255,255,255,0.85) 0, rgba(255,255,255,0) 26%), radial-gradient(circle at 50% 60%, ' + p[0] + ' 0, ' + p[1] + ' 100%)'; };
+    const last = brews.length ? brews[brews.length - 1] : 5;
+    const next = brews.length === 0 ? 10 : (last < 30 ? last + 5 : Math.round((last * 1.5) / 5) * 5);
+    const clamp = (v, a, b) => Math.min(b, Math.max(a, v));
+    const plural = (n) => (n === 1 ? 'steep' : 'steeps');
+    const pad = (n) => (n < 10 ? '0' : '') + n;
+    const full = brews.length >= 12;
+    const stepper = (key, label, value, unit, d, min, max, word) => ({
+      label, value: value + ' ' + unit,
+      dec: () => this.setState({ [key]: clamp(value - d, min, max) }),
+      inc: () => this.setState({ [key]: clamp(value + d, min, max) }),
+      decLabel: 'Less ' + word, incLabel: 'More ' + word
+    });
+    const tagList = ['Lilac', 'Cream', 'Honey', 'Orchid', 'Fruit', 'Cocoa', 'Mineral', 'Astringent'];
+    const clearTimer = () => { if (this.timer) { clearInterval(this.timer); this.timer = null; } };
+    const start = () => {
+      clearTimer();
+      this.timer = setInterval(() => this.setState({ elapsed: ((this.state || {}).elapsed || 0) + 1 }), 1000);
+      this.setState({ running: true });
+    };
+    const stop = () => { clearTimer(); this.setState({ running: false }); };
+    const logSteep = () => {
+      clearTimer();
+      const sec = elapsed > 0 ? elapsed : next;
+      this.setState({ brews: full ? brews : brews.concat(sec), running: false, elapsed: 0 });
+    };
+    return {
+      vessel,
+      setVessel: (e) => this.setState({ vessel: e.target.value }),
+      steppers: [
+        stepper('grams', 'Leaf', grams, 'g', 1, 1, 30, 'leaf'),
+        stepper('water', 'Water', water, 'ml', 10, 50, 1000, 'water'),
+        stepper('temp', 'Temp', temp, '°C', 5, 60, 100, 'temperature')
+      ],
+      time: pad(Math.floor(elapsed / 60)) + ':' + pad(elapsed % 60),
+      next,
+      steepNo: Math.min(brews.length + 1, 12),
+      timerStatus: running ? 'RUNNING' : 'READY',
+      running,
+      timerLabel: running ? 'Stop' : 'Start',
+      timerBg: running ? 'rgba(255,255,255,0.08)' : 'linear-gradient(100deg, #FF4FD8 0%, #FF8A1F 100%)',
+      timerFg: running ? '#FFFFFF' : '#07081A',
+      timerBorder: running ? '1px solid rgba(255,255,255,0.2)' : '0',
+      timerShadow: running ? 'none' : '0 18px 40px -14px rgba(255,79,216,0.7)',
+      toggleTimer: running ? stop : start,
+      logSteep,
+      full,
+      count: brews.length,
+      empty: brews.length === 0,
+      hasBrews: brews.length > 0,
+      reset: () => this.setState({ brews: [] }),
+      brews: brews.map((s, i) => ({ sec: s + ' s', orb: orb(i) })),
+      step: clamp(brews.length || 1, 1, 8),
+      stars: [1, 2, 3, 4, 5].map((n) => ({ label: 'Rate ' + n + ' out of 5', pressed: n === rating, fill: n <= rating ? '#FFC21A' : 'none', pick: () => this.setState({ rating: n }) })),
+      starText: '★★★★★'.slice(0, rating) + '☆☆☆☆☆'.slice(0, 5 - rating),
+      ratedText: 'Rated ' + rating + ' out of 5',
+      tags: tagList.map((label) => {
+        const sel = !!on[label];
+        return { label, pressed: sel, bg: sel ? '#FFFFFF' : 'rgba(255,255,255,0.06)', fg: sel ? '#07081A' : '#FFFFFF', border: sel ? '#FFFFFF' : 'rgba(255,255,255,0.18)', toggle: () => this.setState({ tags: Object.assign({}, on, { [label]: !sel }) }) };
+      }),
+      chosen: tagList.filter((l) => on[l]).map((label) => ({ label })),
+      summary: grams + ' g · ' + water + ' ml · ' + temp + ' °C · ' + vessel + ' · ' + brews.length + ' ' + plural(brews.length),
+      share,
+      toggleShare: () => this.setState({ share: !share }),
+      visibility: share ? 'This entry will appear in the community feed' : 'Only you can see this entry'
+    };
+  }
+}
+</script>
+</body>
+</html>

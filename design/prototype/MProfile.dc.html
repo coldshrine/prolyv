@@ -1,0 +1,233 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Prolyv — Olena K. (mobile)</title>
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&amp;family=Unbounded:wght@500;600;700;800&amp;display=swap">
+<style>
+body{margin:0;background:#07081A}
+*{box-sizing:border-box}
+a{color:#FFB3F0}a:hover{color:#FFFFFF}
+@keyframes prolyvSpin{to{transform:rotate(360deg)}}
+@media (prefers-reduced-motion: reduce){[data-spin]{animation:none!important}}
+</style>
+</helmet>
+<div style="min-height: 100vh; width: 100%; max-width: 430px; margin: 0 auto; display: flex; flex-direction: column; background: #07081A; color: #FFFFFF; font-family: Manrope, system-ui, sans-serif; font-size: 16px; line-height: 1.5">
+
+<header style="position: sticky; top: 0; z-index: 10; height: 56px; flex: none; padding: 0 8px; display: flex; align-items: center; gap: 2px; background: rgba(7,8,26,0.85); backdrop-filter: blur(16px); -webkit-backdrop-filter: blur(16px); border-bottom: 1px solid rgba(255,255,255,0.08)">
+<a href="MFeed.dc.html" aria-label="Back" style="width: 44px; height: 44px; flex: none; display: inline-grid; place-items: center; border-radius: 999px; color: #FFFFFF"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M15 5l-7 7 7 7"></path></svg></a>
+<p style="margin: 0; flex: 1; min-width: 0; padding: 0 4px; font-family: Unbounded, sans-serif; font-weight: 700; font-size: 17px; line-height: 1.2; white-space: nowrap; overflow: hidden; text-overflow: ellipsis">@olena_tea</p>
+<button type="button" aria-label="More" style="width: 44px; height: 44px; flex: none; display: inline-grid; place-items: center; border-radius: 999px; border: 0; background: transparent; color: #FFFFFF; cursor: pointer"><svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><circle cx="5" cy="12" r="2"></circle><circle cx="12" cy="12" r="2"></circle><circle cx="19" cy="12" r="2"></circle></svg></button>
+</header>
+
+<main style="flex: 1; display: flex; flex-direction: column">
+<section aria-label="Olena K." style="padding: 28px 16px 24px; display: flex; flex-direction: column; align-items: center; text-align: center; gap: 16px; background: radial-gradient(70% 40% at 50% 30%, rgba(138,63,252,0.45) 0, rgba(138,63,252,0) 70%), radial-gradient(60% 30% at 100% 100%, rgba(255,79,216,0.35) 0, rgba(255,79,216,0) 70%), radial-gradient(60% 30% at 0% 0%, rgba(37,99,255,0.45) 0, rgba(37,99,255,0) 70%), #070A2A">
+<div style="position: relative; flex: none; width: 150px; height: 150px">
+<dc-import name="Cup" kind="shu" size="150" step="2" spin="on" hint-size="150px,150px"></dc-import>
+<span aria-hidden="true" style="position: absolute; right: -4px; bottom: 4px; width: 56px; height: 56px; border-radius: 50%; background: linear-gradient(135deg, #C77DFF, #FF9BEA); border: 4px solid #070A2A; color: #07081A; display: grid; place-items: center; font-family: Unbounded, sans-serif; font-weight: 800; font-size: 18px">OK</span>
+</div>
+<div style="display: flex; flex-direction: column; gap: 10px">
+<p style="margin: 0; font-size: 12px; font-weight: 800; letter-spacing: 0.1em; color: #FFC98A">PUBLIC DIARY · SINCE MARCH 2026</p>
+<h1 style="margin: 0; font-family: Unbounded, sans-serif; font-weight: 800; font-size: 30px; line-height: 1.08; letter-spacing: -0.02em">Olena K.</h1>
+</div>
+<p style="margin: 0; font-size: 16px; color: #D7D9F2">@olena_tea · Lviv · Mostly shu and aged oolong. I log every session, even the bad ones — that’s how I learned to brew.</p>
+<ul aria-label="Profile stats" style="width: 100%; list-style: none; margin: 2px 0 0; padding: 0; display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 10px; text-align: left">
+<sc-for list="{{stats}}" as="st" hint-placeholder-count="4">
+<li style="padding: 14px 16px; border-radius: 22px; background: rgba(16,18,48,0.6); border: 1px solid rgba(255,255,255,0.14); backdrop-filter: blur(14px); -webkit-backdrop-filter: blur(14px)"><p style="margin: 0; font-family: Unbounded, sans-serif; font-weight: 800; font-size: 26px; line-height: 1.1; background: {{st.grad}}; -webkit-background-clip: text; background-clip: text; color: transparent">{{st.value}}</p><p style="margin: 4px 0 0; font-size: 13px; color: #C9CCEB">{{st.label}}</p></li>
+</sc-for>
+</ul>
+<div style="width: 100%; display: flex; flex-direction: column; gap: 10px">
+<button type="button" onClick="{{toggleFollow}}" aria-pressed="{{followOn}}" style="height: 52px; width: 100%; display: flex; align-items: center; justify-content: center; border-radius: 999px; border: 0; background: {{followBg}}; color: #07081A; font: inherit; font-weight: 800; font-size: 16px; cursor: pointer; box-shadow: {{followShadow}}">{{followLabel}}</button>
+<a href="MTopic.dc.html" style="height: 48px; display: flex; align-items: center; justify-content: center; border-radius: 999px; background: rgba(255,255,255,0.08); border: 1px solid rgba(255,255,255,0.22); color: #FFFFFF; text-decoration: none; font-weight: 800; font-size: 16px">Ask Olena in the forum</a>
+</div>
+</section>
+
+<nav aria-label="Profile sections" style="display: flex; gap: 8px; overflow-x: auto; padding: 20px 16px 0; scrollbar-width: none">
+<sc-for list="{{tabs}}" as="t" hint-placeholder-count="4">
+<button type="button" onClick="{{t.pick}}" aria-pressed="{{t.on}}" style="flex: none; height: 44px; padding: 0 18px; border-radius: 999px; border: 1px solid {{t.border}}; background: {{t.bg}}; color: {{t.fg}}; font: inherit; font-weight: 800; font-size: 14px; white-space: nowrap; cursor: pointer">{{t.label}}</button>
+</sc-for>
+</nav>
+
+<section aria-label="Profile section content" style="padding: 20px 16px 0; display: flex; flex-direction: column">
+
+<sc-if value="{{showSessions}}" hint-placeholder-val="{{ true }}">
+<div style="display: flex; flex-direction: column; gap: 12px">
+<div>
+<h2 style="margin: 0; font-family: Unbounded, sans-serif; font-weight: 700; font-size: 22px">Public sessions</h2>
+<p style="margin: 2px 0 0; font-size: 13px; color: #9EA3CF">214 logged · 96 shared. Private sessions stay private.</p>
+</div>
+<ol style="list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; gap: 12px">
+<sc-for list="{{sessions}}" as="s" hint-placeholder-count="5">
+<li style="padding: 16px; border-radius: 22px; background: rgba(16,18,48,0.75); border: 1px solid rgba(255,255,255,0.12); display: flex; flex-direction: column; gap: 10px">
+<a href="MSessionPost.dc.html" style="display: flex; align-items: center; gap: 12px; color: #FFFFFF; text-decoration: none">
+<dc-import name="Cup" kind="{{s.kind}}" size="52" hint-size="52px,52px"></dc-import>
+<span style="flex: 1; min-width: 0"><span style="display: block; font-size: 12px; font-weight: 800; letter-spacing: 0.08em; color: #FFC98A">{{s.date}}</span><span style="display: block; font-weight: 800; font-size: 17px; line-height: 1.3">{{s.tea}}</span><span style="display: block; margin-top: 2px; font-size: 13px; color: #9EA3CF">{{s.params}}</span></span>
+</a>
+<p style="margin: 0; font-size: 15px; color: #E6E7FA">{{s.note}}</p>
+<div style="display: flex; align-items: center; justify-content: space-between; gap: 10px; font-size: 13px; color: #C9CCEB">
+<span style="color: #FFC21A; letter-spacing: 2px; font-size: 15px" aria-hidden="true">{{s.stars}}</span>
+<span style="position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap">{{s.rated}}</span>
+<a href="MSessionPost.dc.html" style="min-height: 44px; display: inline-flex; align-items: center; gap: 6px; color: #C9CCEB; text-decoration: none; font-weight: 700"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 6a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2h-7l-5 4v-4H6a2 2 0 0 1-2-2z"></path></svg>{{s.comments}}</a>
+</div>
+</li>
+</sc-for>
+</ol>
+</div>
+</sc-if>
+
+<sc-if value="{{showTopics}}" hint-placeholder-val="{{ false }}">
+<div style="display: flex; flex-direction: column; gap: 12px">
+<h2 style="margin: 0; font-family: Unbounded, sans-serif; font-weight: 700; font-size: 22px">Topics and replies</h2>
+<ol style="list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; gap: 10px">
+<sc-for list="{{topics}}" as="t" hint-placeholder-count="4">
+<li style="padding: 16px; border-radius: 22px; background: rgba(16,18,48,0.75); border: 1px solid rgba(255,255,255,0.12)">
+<div style="display: flex; flex-wrap: wrap; align-items: center; gap: 8px"><span style="padding: 4px 10px; border-radius: 999px; background: {{t.bg}}; color: {{t.fg}}; font-size: 11px; font-weight: 800; letter-spacing: 0.04em">{{t.kind}}</span><span style="font-size: 13px; color: #9EA3CF">{{t.section}} · {{t.time}}</span></div>
+<a href="MTopic.dc.html" style="display: flex; align-items: center; min-height: 44px; margin-top: 8px; color: #FFFFFF; text-decoration: none; font-family: Unbounded, sans-serif; font-weight: 700; font-size: 17px; line-height: 1.3">{{t.title}}</a>
+<p style="margin: 4px 0 0; font-size: 13px; color: #C9CCEB">{{t.meta}}</p>
+</li>
+</sc-for>
+</ol>
+</div>
+</sc-if>
+
+<sc-if value="{{showShelf}}" hint-placeholder-val="{{ false }}">
+<div style="display: flex; flex-direction: column; gap: 12px">
+<div>
+<h2 style="margin: 0; font-family: Unbounded, sans-serif; font-weight: 700; font-size: 22px">Shelf</h2>
+<p style="margin: 2px 0 0; font-size: 13px; color: #9EA3CF">What Olena is drinking right now.</p>
+</div>
+<ul style="list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; gap: 10px">
+<sc-for list="{{shelf}}" as="sh" hint-placeholder-count="6">
+<li><a href="MSessionPost.dc.html" style="display: flex; align-items: center; gap: 12px; min-height: 72px; padding: 12px 14px; border-radius: 20px; background: rgba(16,18,48,0.75); border: 1px solid rgba(255,255,255,0.12); color: #FFFFFF; text-decoration: none"><dc-import name="Cup" kind="{{sh.kind}}" size="48" hint-size="48px,48px"></dc-import><span style="flex: 1; min-width: 0"><span style="display: block; font-weight: 800; font-size: 15px; line-height: 1.3">{{sh.tea}}</span><span style="display: block; margin-top: 2px; font-size: 13px; color: #9EA3CF">{{sh.meta}}</span></span><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#9EA3CF" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 6l6 6-6 6"></path></svg></a></li>
+</sc-for>
+</ul>
+</div>
+</sc-if>
+
+<sc-if value="{{showStats}}" hint-placeholder-val="{{ false }}">
+<div style="display: flex; flex-direction: column; gap: 12px">
+<h2 style="margin: 0; font-family: Unbounded, sans-serif; font-weight: 700; font-size: 22px">Tea profile</h2>
+<div style="padding: 16px; border-radius: 22px; background: rgba(255,255,255,0.04); border: 1px solid rgba(255,255,255,0.1)">
+<div aria-hidden="true" style="height: 16px; border-radius: 999px; overflow: hidden; display: flex; gap: 3px">
+<sc-for list="{{share}}" as="sh" hint-placeholder-count="5"><span style="width: {{sh.w}}; background: {{sh.grad}}"></span></sc-for>
+</div>
+<ul aria-label="Share by tea type" style="list-style: none; margin: 14px 0 0; padding: 0; display: flex; flex-direction: column; gap: 8px; font-size: 15px; color: #E6E7FA">
+<sc-for list="{{share}}" as="sh" hint-placeholder-count="5"><li style="display: flex; align-items: center; gap: 10px"><span aria-hidden="true" style="width: 12px; height: 12px; flex: none; border-radius: 50%; background: {{sh.grad}}"></span><span style="flex: 1; min-width: 0">{{sh.label}}</span><span style="font-weight: 800; color: #FFFFFF">{{sh.n}}</span></li></sc-for>
+</ul>
+<p style="margin: 18px 0 8px; font-size: 12px; font-weight: 800; letter-spacing: 0.08em; color: #9EA3CF">TOP NOTES</p>
+<ul aria-label="Top notes" style="list-style: none; margin: 0; padding: 0; display: flex; flex-wrap: wrap; gap: 6px">
+<li style="padding: 4px 10px; border-radius: 999px; background: rgba(138,63,252,0.24); color: #DCC8FF; font-size: 12px; font-weight: 800">Cocoa · 38</li>
+<li style="padding: 4px 10px; border-radius: 999px; background: rgba(255,194,26,0.16); color: #FFE39A; font-size: 12px; font-weight: 800">Dates · 24</li>
+<li style="padding: 4px 10px; border-radius: 999px; background: rgba(34,227,166,0.18); color: #9DF5D3; font-size: 12px; font-weight: 800">Damp forest · 21</li>
+<li style="padding: 4px 10px; border-radius: 999px; background: rgba(255,79,216,0.18); color: #FFC4F2; font-size: 12px; font-weight: 800">Lilac · 17</li>
+</ul>
+</div>
+</div>
+</sc-if>
+
+</section>
+
+<section aria-labelledby="badges-h" style="padding: 20px 16px 0">
+<div style="padding: 16px; border-radius: 22px; background: rgba(255,255,255,0.04); border: 1px solid rgba(255,255,255,0.1)">
+<h2 id="badges-h" style="margin: 0; font-size: 17px; font-weight: 800">Badges</h2>
+<ul style="list-style: none; margin: 12px 0 0; padding: 0; display: flex; flex-direction: column; gap: 10px">
+<sc-for list="{{badges}}" as="b" hint-placeholder-count="3">
+<li style="display: flex; align-items: center; gap: 12px"><span aria-hidden="true" style="width: 40px; height: 40px; flex: none; border-radius: 12px; background: {{b.grad}}"></span><span style="flex: 1; min-width: 0"><span style="display: block; font-weight: 800; font-size: 15px">{{b.title}}</span><span style="display: block; font-size: 13px; color: #9EA3CF">{{b.text}}</span></span></li>
+</sc-for>
+</ul>
+</div>
+</section>
+
+<section aria-labelledby="helpful-h" style="padding: 16px 16px 0">
+<div style="padding: 16px; border-radius: 22px; background: rgba(255,255,255,0.04); border: 1px solid rgba(255,255,255,0.1)">
+<h2 id="helpful-h" style="margin: 0; font-size: 17px; font-weight: 800">Most helpful reply</h2>
+<p style="margin: 10px 0 0; font-size: 15px; color: #E6E7FA">“Shu needs one quick rinse to wake up, and 20 seconds with the lid off between steeps. From the third steep I keep them at 15 s and it stays sweet.”</p>
+<a href="MTopic.dc.html" style="display: inline-flex; align-items: center; min-height: 44px; margin-top: 4px; font-size: 14px; font-weight: 800">In: Why does my shu turn bitter? →</a>
+</div>
+</section>
+
+<section aria-labelledby="promo-h" style="padding: 16px 16px 24px">
+<div style="padding: 18px 16px; border-radius: 22px; background: radial-gradient(80% 60% at 100% 0%, rgba(255,138,31,0.4) 0, rgba(255,138,31,0) 70%), linear-gradient(150deg, #8A3FFC 0%, #3B1FB8 100%); display: flex; flex-direction: column; gap: 10px">
+<h2 id="promo-h" style="margin: 0; font-family: Unbounded, sans-serif; font-weight: 800; font-size: 19px; line-height: 1.2">Your diary could look like this</h2>
+<p style="margin: 0; font-size: 14px; color: #F3EEFF">Public or private — you choose per session.</p>
+<a href="MLogin.dc.html" style="height: 48px; display: flex; align-items: center; justify-content: center; border-radius: 999px; background: #FFFFFF; color: #2A1478; text-decoration: none; font-weight: 800">Start for free</a>
+</div>
+</section>
+</main>
+
+<div style="position: sticky; bottom: 0; z-index: 10; margin-top: auto"><dc-import name="MobileNav" current="none" hint-size="100%,84px"></dc-import></div>
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props='{"$preview":{"width":390,"height":2800}}'>
+class Component extends DCLogic {
+  renderVals() {
+    const st = this.state || {};
+    const tab = st.tab || 'sessions';
+    const following = !!st.following;
+    const stars = (r) => '★★★★★'.slice(0, r) + '☆☆☆☆☆'.slice(0, 5 - r);
+    const tabs = [['sessions', 'Sessions'], ['topics', 'Topics & replies'], ['shelf', 'Shelf'], ['stats', 'Tea profile']];
+    const S = (o) => Object.assign({}, o, { stars: stars(o.r), rated: 'Rated ' + o.r + ' out of 5' });
+    return {
+      stats: [
+        { value: '214', label: 'sessions logged', grad: 'linear-gradient(90deg, #FF4FD8, #FF8A1F)' },
+        { value: '46', label: 'helpful replies', grad: 'linear-gradient(90deg, #5CF2B8, #22B8FF)' },
+        { value: '1.2k', label: 'followers', grad: 'linear-gradient(90deg, #C77DFF, #FF9BEA)' },
+        { value: '31', label: 'teas on the shelf', grad: 'linear-gradient(90deg, #FFE066, #FF8A1F)' }
+      ],
+      followOn: following,
+      followLabel: following ? 'Following' : 'Follow',
+      followBg: following ? '#FFFFFF' : 'linear-gradient(100deg, #FF4FD8 0%, #FF8A1F 100%)',
+      followShadow: following ? 'none' : '0 18px 40px -14px rgba(255,79,216,0.7)',
+      toggleFollow: () => this.setState({ following: !following }),
+      tabs: tabs.map((t) => {
+        const on = t[0] === tab;
+        return { label: t[1], on, bg: on ? '#FFFFFF' : 'rgba(255,255,255,0.06)', fg: on ? '#07081A' : '#FFFFFF', border: on ? '#FFFFFF' : 'rgba(255,255,255,0.18)', pick: () => this.setState({ tab: t[0] }) };
+      }),
+      showSessions: tab === 'sessions',
+      showTopics: tab === 'topics',
+      showShelf: tab === 'shelf',
+      showStats: tab === 'stats',
+      sessions: [
+        S({ date: 'TODAY', tea: 'Shu pu-erh “Menghai” 2019', kind: 'shu', params: '8 g · 100 ml · 100 °C · 10 steeps · gaiwan', note: 'Cocoa and damp forest, date-like sweetness by the fifth. No mustiness at all.', r: 5, comments: '12 comments' }),
+        S({ date: 'NOV 3', tea: 'Tie Guan Yin “Spring”', kind: 'oolong', params: '7 g · 100 ml · 95 °C · 8 steeps · steep 6 at 30 s', note: 'Brewed along with the blog video. Keeping steep 6 short saved the cream.', r: 5, comments: '7 comments' }),
+        S({ date: 'NOV 1', tea: 'Aged white “Shou Mei” 2018', kind: 'white', params: '6 g · 120 ml · 95 °C · 7 steeps · clay teapot', note: 'Dried apricot and wood. Much deeper than the young one.', r: 4, comments: '3 comments' }),
+        S({ date: 'OCT 29', tea: 'Sheng pu-erh “Yiwu” 2021', kind: 'sheng', params: '7 g · 100 ml · 95 °C · 12 steeps · gaiwan', note: 'Still a bit sharp but the honey is coming. Will revisit in spring.', r: 4, comments: '9 comments' }),
+        S({ date: 'OCT 26', tea: 'Da Hong Pao', kind: 'oolong', params: '7 g · 100 ml · 100 °C · 7 steeps · gaiwan', note: 'Roast is heavier than last batch. Shorter steeps helped.', r: 3, comments: '4 comments' })
+      ],
+      topics: [
+        { kind: 'REPLY', bg: 'rgba(34,227,166,0.18)', fg: '#9DF5D3', section: 'Pu-erh', time: '1 h ago', title: 'Why does my shu pu-erh turn bitter after the third steep?', meta: 'Marked helpful by the author · 11 helpful' },
+        { kind: 'TOPIC', bg: 'rgba(255,138,31,0.2)', fg: '#FFC98A', section: 'Oolong', time: '4 days ago', title: 'Tie Guan Yin: spring vs autumn harvest, side by side', meta: '17 replies · 3 sessions attached' },
+        { kind: 'REPLY', bg: 'rgba(34,227,166,0.18)', fg: '#9DF5D3', section: 'Teaware', time: 'yesterday', title: 'Gaiwan or teapot for oolong: what’s your experience?', meta: '8 helpful' },
+        { kind: 'TOPIC', bg: 'rgba(138,63,252,0.24)', fg: '#DCC8FF', section: 'Pu-erh', time: '3 weeks ago', title: 'Rinsing shu: one, two, or none? My 10-session test', meta: '33 replies · solved' }
+      ],
+      shelf: [
+        { tea: 'Shu pu-erh “Menghai” 2019', kind: 'shu', meta: '180 g left · 24 sessions' },
+        { tea: 'Tie Guan Yin “Spring”', kind: 'oolong', meta: '30 g left · 9 sessions' },
+        { tea: 'Aged white “Shou Mei” 2018', kind: 'white', meta: '70 g left · 5 sessions' },
+        { tea: 'Sheng pu-erh “Yiwu” 2021', kind: 'sheng', meta: '320 g left · 11 sessions' },
+        { tea: 'Da Hong Pao', kind: 'oolong', meta: '15 g left · 6 sessions' },
+        { tea: 'Dian Hong “Golden Buds”', kind: 'red', meta: '40 g left · 8 sessions' }
+      ],
+      share: [
+        { label: 'Shu pu-erh', n: '41%', w: '41%', grad: 'linear-gradient(90deg, #A86BFF, #3A0E8C)' },
+        { label: 'Oolong', n: '27%', w: '27%', grad: 'linear-gradient(90deg, #FFB347, #FF4FD8)' },
+        { label: 'Sheng pu-erh', n: '14%', w: '14%', grad: 'linear-gradient(90deg, #D6F25C, #8FAE12)' },
+        { label: 'White', n: '11%', w: '11%', grad: 'linear-gradient(90deg, #F4EEFF, #B9A6F0)' },
+        { label: 'Black', n: '7%', w: '7%', grad: 'linear-gradient(90deg, #FF7A6B, #C4161C)' }
+      ],
+      badges: [
+        { title: '200 sessions', text: 'Logged 200 sessions', grad: 'linear-gradient(135deg, #FF4FD8, #FF8A1F)' },
+        { title: 'Helpful hand', text: '25+ replies marked helpful', grad: 'linear-gradient(135deg, #22E3A6, #22B8FF)' },
+        { title: 'Brewed along ×12', text: 'Joined 12 blog brew-alongs', grad: 'linear-gradient(135deg, #C77DFF, #8A3FFC)' }
+      ]
+    };
+  }
+}
+</script>
+</body>
+</html>

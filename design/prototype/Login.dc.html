@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Prolyv — log in</title>
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&amp;family=Unbounded:wght@500;600;700;800&amp;display=swap">
+<style>
+body{margin:0;background:#07081A}
+*{box-sizing:border-box}
+a{color:#FFB3F0}a:hover{color:#FFFFFF}
+@keyframes prolyvSpin{to{transform:rotate(360deg)}}
+@media (prefers-reduced-motion: reduce){[data-spin]{animation:none!important}}
+</style>
+</helmet>
+<div style="min-height: 100vh; display: flex; flex-wrap: wrap; background: #07081A; color: #FFFFFF; font-family: Manrope, system-ui, sans-serif; font-size: 16px; line-height: 1.5">
+
+<section aria-label="About Prolyv" style="flex: 1 1 560px; min-width: 0; position: relative; overflow: hidden; padding: 40px 56px 56px; display: flex; flex-direction: column; gap: 32px; background: radial-gradient(50% 50% at 50% 50%, rgba(255,79,216,0.45) 0, rgba(255,79,216,0) 70%), radial-gradient(40% 40% at 100% 100%, rgba(255,138,31,0.5) 0, rgba(255,138,31,0) 70%), radial-gradient(40% 40% at 0% 0%, rgba(37,99,255,0.5) 0, rgba(37,99,255,0) 70%), #070A2A">
+<a href="Feed.dc.html" style="align-self: flex-start; display: inline-flex; align-items: center; gap: 10px; color: #FFFFFF; text-decoration: none"><span aria-hidden="true" style="width: 32px; height: 32px; border-radius: 50%; background: radial-gradient(circle at 30% 28%, rgba(255,255,255,0.9) 0, rgba(255,255,255,0) 28%), conic-gradient(from 200deg, #FF4FD8, #8A3FFC, #2563FF, #22E3A6, #FFC21A, #FF8A1F, #FF4FD8)"></span><span style="font-family: Unbounded, sans-serif; font-weight: 700; font-size: 20px">Prolyv</span></a>
+<div style="flex: 1; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 32px; text-align: center">
+<dc-import name="Cup" kind="oolong" size="380" step="2" spin="on" hint-size="380px,380px"></dc-import>
+<div>
+<p style="margin: 0; font-family: Unbounded, sans-serif; font-weight: 800; font-size: 40px; line-height: 1.08; letter-spacing: -0.03em">Every steep, in your diary</p>
+<ul style="list-style: none; margin: 22px auto 0; padding: 0; display: flex; flex-wrap: wrap; justify-content: center; gap: 8px 20px; font-size: 15px; color: #D7D9F2">
+<li style="display: inline-flex; align-items: center; gap: 8px"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#22E3A6" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12l5 5L20 7"></path></svg>Log a session in 30 seconds</li>
+<li style="display: inline-flex; align-items: center; gap: 8px"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#22E3A6" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12l5 5L20 7"></path></svg>Discuss with people who drink the same tea</li>
+<li style="display: inline-flex; align-items: center; gap: 8px"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#22E3A6" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12l5 5L20 7"></path></svg>Share cards for Instagram and TikTok</li>
+</ul>
+</div>
+</div>
+</section>
+
+<main style="flex: 1 1 480px; min-width: 0; padding: 40px 24px; display: flex; align-items: center; justify-content: center; background: radial-gradient(60% 40% at 100% 0%, rgba(138,63,252,0.25) 0, rgba(138,63,252,0) 70%), #07081A">
+<div style="width: 100%; max-width: 420px; display: flex; flex-direction: column; gap: 22px">
+<div>
+<h1 style="margin: 0; font-family: Unbounded, sans-serif; font-weight: 800; font-size: 40px; line-height: 1.1; letter-spacing: -0.02em">Log in to Prolyv</h1>
+<p style="margin: 10px 0 0; color: #C9CCEB; font-size: 17px">No passwords — use an account you already have. New here? We’ll create your diary automatically.</p>
+</div>
+<a href="MyDiary.dc.html" style="height: 58px; display: flex; align-items: center; justify-content: center; gap: 12px; border-radius: 18px; background: linear-gradient(100deg, #2563FF 0%, #3B1FB8 100%); color: #FFFFFF; text-decoration: none; font-weight: 800; font-size: 17px; box-shadow: 0 18px 40px -18px rgba(37,99,255,0.9)"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 4L3 11l6 2 2 6 3-4 5 4z"></path><path d="M9 13l12-9"></path></svg>Continue with Telegram</a>
+<a href="MyDiary.dc.html" style="height: 58px; display: flex; align-items: center; justify-content: center; gap: 12px; border-radius: 18px; background: #FFFFFF; color: #07081A; text-decoration: none; font-weight: 800; font-size: 17px"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#07081A" stroke-width="2" stroke-linecap="round" aria-hidden="true"><circle cx="12" cy="12" r="9"></circle><path d="M12 12h6a6 6 0 1 1-1.8-4.3"></path></svg>Continue with Google</a>
+<div style="display: flex; align-items: center; gap: 14px; color: #9EA3CF; font-size: 14px"><span style="flex: 1; height: 1px; background: rgba(255,255,255,0.14)"></span>or<span style="flex: 1; height: 1px; background: rgba(255,255,255,0.14)"></span></div>
+<a href="#email" style="height: 54px; display: flex; align-items: center; justify-content: center; gap: 10px; border-radius: 18px; background: rgba(255,255,255,0.06); border: 1px solid rgba(255,255,255,0.18); color: #FFFFFF; text-decoration: none; font-weight: 800">Get a sign-in link by email</a>
+<p style="margin: 6px 0 0; font-size: 13px; color: #9EA3CF">By continuing you agree to the <a href="#rules">Community rules</a> and <a href="#privacy">Privacy policy</a>. We never post anything on your behalf.</p>
+<p style="margin: 10px 0 0; padding-top: 18px; border-top: 1px solid rgba(255,255,255,0.1); font-size: 15px; color: #C9CCEB">Just looking? <a href="Feed.dc.html" style="font-weight: 800">Read the feed without an account →</a></p>
+</div>
+</main>
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props='{"$preview":{"width":1440,"height":900}}'>
+class Component extends DCLogic {
+  renderVals() {
+    return {};
+  }
+}
+</script>
+</body>
+</html>

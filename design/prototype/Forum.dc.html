@@ -1,0 +1,170 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Prolyv — discussions</title>
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&amp;family=Unbounded:wght@500;600;700;800&amp;display=swap">
+<style>
+body{margin:0;background:#07081A}
+*{box-sizing:border-box}
+a{color:#FFB3F0}a:hover{color:#FFFFFF}
+input::placeholder{color:#9EA3CF}
+@keyframes prolyvSpin{to{transform:rotate(360deg)}}
+@media (prefers-reduced-motion: reduce){[data-spin]{animation:none!important}}
+</style>
+</helmet>
+<div style="min-height: 100vh; background: #07081A; color: #FFFFFF; font-family: Manrope, system-ui, sans-serif; font-size: 16px; line-height: 1.5">
+<dc-import name="Header" current="forum" hint-size="100%,72px"></dc-import>
+
+<main>
+<section style="background: radial-gradient(40% 90% at 90% 20%, rgba(138,63,252,0.6) 0, rgba(138,63,252,0) 70%), radial-gradient(30% 80% at 70% 100%, rgba(37,99,255,0.5) 0, rgba(37,99,255,0) 70%), radial-gradient(30% 70% at 100% 90%, rgba(255,79,216,0.4) 0, rgba(255,79,216,0) 70%), #07081A">
+<div style="max-width: 1240px; margin: 0 auto; padding: 56px 24px 40px; display: flex; flex-direction: column; gap: 20px">
+<h1 style="margin: 0; font-family: Unbounded, sans-serif; font-weight: 800; font-size: 56px; line-height: 1.05; letter-spacing: -0.03em">Discussions</h1>
+<p style="margin: 0; max-width: 34em; font-size: 19px; color: #D7D9F2">Ask with your session attached — grams, temperature and steeps included — and get answers that actually fit your cup.</p>
+<form role="search" style="max-width: 680px; display: flex; align-items: center; gap: 12px; height: 60px; padding: 0 8px 0 20px; border-radius: 999px; background: rgba(255,255,255,0.1); border: 1px solid rgba(255,255,255,0.22); backdrop-filter: blur(16px); -webkit-backdrop-filter: blur(16px)">
+<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" aria-hidden="true"><circle cx="11" cy="11" r="7"></circle><path d="M20 20l-3.5-3.5"></path></svg>
+<label for="forum-q" style="position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap">Search discussions</label>
+<input id="forum-q" type="search" placeholder="Search topics, teas or questions" style="flex: 1; min-width: 0; height: 100%; border: 0; background: transparent; font: inherit; font-size: 16px; color: #FFFFFF">
+<a href="#new-topic" style="height: 44px; display: inline-flex; align-items: center; gap: 8px; padding: 0 20px; border-radius: 999px; background: linear-gradient(100deg, #FF4FD8 0%, #FF8A1F 100%); color: #07081A; text-decoration: none; font-weight: 800; white-space: nowrap"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#07081A" stroke-width="2.6" stroke-linecap="round" aria-hidden="true"><path d="M12 5v14M5 12h14"></path></svg>New topic</a>
+</form>
+</div>
+</section>
+
+<section aria-labelledby="sections-h" style="max-width: 1240px; margin: 0 auto; padding: 32px 24px 0">
+<h2 id="sections-h" style="position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap">Sections</h2>
+<div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); gap: 12px">
+<sc-for list="{{sections}}" as="s" hint-placeholder-count="7">
+<button type="button" onClick="{{s.pick}}" aria-pressed="{{s.on}}" style="display: flex; align-items: center; gap: 12px; padding: 14px 16px; border-radius: 20px; border: 1px solid {{s.border}}; background: {{s.bg}}; color: #FFFFFF; font: inherit; text-align: left; cursor: pointer">
+<dc-import name="Cup" kind="{{s.kind}}" size="40" hint-size="40px,40px"></dc-import>
+<span style="flex: 1; min-width: 0"><span style="display: block; font-weight: 800">{{s.label}}</span><span style="display: block; font-size: 13px; color: #9EA3CF">{{s.count}}</span></span>
+</button>
+</sc-for>
+</div>
+</section>
+
+<div style="max-width: 1240px; margin: 0 auto; padding: 32px 24px 96px; display: flex; flex-wrap: wrap; gap: 28px; align-items: flex-start">
+<section aria-labelledby="topics-h" style="flex: 999 1 640px; min-width: 0">
+<div style="display: flex; flex-wrap: wrap; justify-content: space-between; align-items: center; gap: 12px">
+<h2 id="topics-h" style="margin: 0; font-family: Unbounded, sans-serif; font-weight: 700; font-size: 26px">{{heading}}</h2>
+<div style="display: flex; align-items: center; gap: 10px">
+<label for="topics-sort" style="font-size: 14px; color: #9EA3CF; font-weight: 700">Sort</label>
+<select id="topics-sort" style="height: 44px; padding: 0 14px; border-radius: 12px; border: 1px solid rgba(255,255,255,0.18); background: #12142F; color: #FFFFFF; font: inherit; font-size: 15px"><option>Active</option><option>Newest</option><option>Unanswered</option><option>Most helpful</option></select>
+</div>
+</div>
+<ol style="list-style: none; margin: 18px 0 0; padding: 0; display: flex; flex-direction: column; gap: 10px">
+<sc-for list="{{topics}}" as="t" hint-placeholder-count="8">
+<li style="display: flex; flex-wrap: wrap; align-items: center; gap: 12px 18px; padding: 18px 22px; border-radius: 24px; background: rgba(16,18,48,0.7); border: 1px solid rgba(255,255,255,0.12)">
+<span aria-hidden="true" style="width: 40px; height: 40px; flex: none; border-radius: 50%; background: {{t.avatar}}; color: #07081A; display: grid; place-items: center; font-weight: 800; font-size: 13px">{{t.initials}}</span>
+<div style="flex: 1 1 320px; min-width: 0; display: flex; flex-direction: column; gap: 4px">
+<div style="display: flex; flex-wrap: wrap; align-items: center; gap: 6px">
+<span style="padding: 3px 10px; border-radius: 999px; background: {{t.secBg}}; color: {{t.secFg}}; font-size: 11px; font-weight: 800; letter-spacing: 0.04em">{{t.section}}</span>
+<sc-if value="{{t.pinned}}" hint-placeholder-val="{{ false }}"><span style="padding: 3px 10px; border-radius: 999px; background: rgba(255,194,26,0.16); color: #FFE39A; font-size: 11px; font-weight: 800">PINNED</span></sc-if>
+<sc-if value="{{t.solved}}" hint-placeholder-val="{{ false }}"><span style="padding: 3px 10px; border-radius: 999px; background: rgba(34,227,166,0.18); color: #9DF5D3; font-size: 11px; font-weight: 800">SOLVED</span></sc-if>
+<sc-if value="{{t.attached}}" hint-placeholder-val="{{ false }}"><span style="display: inline-flex; align-items: center; gap: 5px; padding: 3px 10px 3px 4px; border-radius: 999px; background: rgba(255,255,255,0.08); font-size: 11px; font-weight: 800; color: #C9CCEB"><dc-import name="Cup" kind="{{t.kind}}" size="18" hint-size="18px,18px"></dc-import>SESSION</span></sc-if>
+</div>
+<a href="Topic.dc.html" style="color: #FFFFFF; text-decoration: none; font-weight: 800; font-size: 18px; line-height: 1.3">{{t.title}}</a>
+<p style="margin: 0; font-size: 14px; color: #9EA3CF">{{t.author}} · {{t.time}}</p>
+</div>
+<div style="display: flex; gap: 22px; text-align: center; font-size: 13px; color: #9EA3CF">
+<span><b style="display: block; font-size: 18px; color: #FFFFFF">{{t.replies}}</b>replies</span>
+<span><b style="display: block; font-size: 18px; color: #FFFFFF">{{t.views}}</b>views</span>
+</div>
+<p style="margin: 0; min-width: 130px; font-size: 13px; color: #9EA3CF; text-align: right">last reply<br><b style="color: #FFFFFF">{{t.last}}</b></p>
+</li>
+</sc-for>
+</ol>
+<sc-if value="{{empty}}" hint-placeholder-val="{{ false }}">
+<p style="margin: 18px 0 0; padding: 28px; border-radius: 24px; border: 1px dashed rgba(255,255,255,0.2); text-align: center; color: #C9CCEB">No topics here yet. Start the first one.</p>
+</sc-if>
+<nav aria-label="Pages" style="margin-top: 28px; display: flex; justify-content: center; gap: 8px">
+<a href="Forum.dc.html" aria-current="page" style="width: 44px; height: 44px; display: inline-grid; place-items: center; border-radius: 999px; background: #FFFFFF; color: #07081A; text-decoration: none; font-weight: 800">1</a>
+<a href="Forum.dc.html" style="width: 44px; height: 44px; display: inline-grid; place-items: center; border-radius: 999px; background: rgba(255,255,255,0.08); color: #FFFFFF; text-decoration: none; font-weight: 800">2</a>
+<a href="Forum.dc.html" style="width: 44px; height: 44px; display: inline-grid; place-items: center; border-radius: 999px; background: rgba(255,255,255,0.08); color: #FFFFFF; text-decoration: none; font-weight: 800">3</a>
+</nav>
+</section>
+
+<aside style="flex: 1 1 320px; min-width: 0; display: flex; flex-direction: column; gap: 20px">
+<section id="new-topic" aria-labelledby="ask-h" style="padding: 24px; border-radius: 28px; background: radial-gradient(80% 60% at 100% 0%, rgba(255,138,31,0.4) 0, rgba(255,138,31,0) 70%), linear-gradient(150deg, #8A3FFC 0%, #3B1FB8 100%); display: flex; flex-direction: column; gap: 12px">
+<h2 id="ask-h" style="margin: 0; font-family: Unbounded, sans-serif; font-weight: 800; font-size: 22px; line-height: 1.2">Ask a better question</h2>
+<p style="margin: 0; color: #F3EEFF">Attach a session from your diary and people will see your leaf, water, temperature and every steep.</p>
+<a href="NewSession.dc.html" style="height: 50px; display: flex; align-items: center; justify-content: center; border-radius: 999px; background: #FFFFFF; color: #2A1478; text-decoration: none; font-weight: 800">New topic with a session</a>
+</section>
+
+<section aria-labelledby="rules-h" style="padding: 24px; border-radius: 28px; background: rgba(255,255,255,0.04); border: 1px solid rgba(255,255,255,0.1)">
+<h2 id="rules-h" style="margin: 0; font-size: 18px; font-weight: 800">House rules</h2>
+<ol style="margin: 12px 0 0; padding-left: 20px; display: flex; flex-direction: column; gap: 8px; color: #C9CCEB; font-size: 15px">
+<li>Be kind — everyone’s cup is different.</li>
+<li>Attach a session when asking about taste or brewing.</li>
+<li>Say where a tea is from if you recommend it.</li>
+<li>No shop ads — share experiences, not deals.</li>
+</ol>
+</section>
+
+<section aria-labelledby="helpers-h" style="padding: 24px; border-radius: 28px; background: rgba(255,255,255,0.04); border: 1px solid rgba(255,255,255,0.1)">
+<h2 id="helpers-h" style="margin: 0; font-size: 18px; font-weight: 800">Most helpful this month</h2>
+<ol style="list-style: none; margin: 12px 0 0; padding: 0; display: flex; flex-direction: column; gap: 10px">
+<sc-for list="{{helpers}}" as="h" hint-placeholder-count="3">
+<li style="display: flex; align-items: center; gap: 10px"><span aria-hidden="true" style="width: 36px; height: 36px; border-radius: 50%; background: {{h.avatar}}; color: #07081A; display: grid; place-items: center; font-weight: 800; font-size: 13px">{{h.initials}}</span><a href="Profile.dc.html" style="flex: 1; color: #FFFFFF; text-decoration: none; font-weight: 800">{{h.name}}</a><span style="font-size: 13px; color: #9EA3CF">{{h.score}}</span></li>
+</sc-for>
+</ol>
+</section>
+</aside>
+</div>
+</main>
+
+<dc-import name="Footer" hint-size="100%,440px"></dc-import>
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props='{"$preview":{"width":1440,"height":2200}}'>
+class Component extends DCLogic {
+  renderVals() {
+    const sec = (this.state && this.state.sec) || 'all';
+    const SEC = {
+      oolong: ['Oolong', 'rgba(255,138,31,0.2)', '#FFC98A', 'OOLONG'],
+      puerh: ['Pu-erh', 'rgba(138,63,252,0.24)', '#DCC8FF', 'PU-ERH'],
+      black: ['Black & white', 'rgba(255,75,62,0.2)', '#FFA59B', 'BLACK & WHITE'],
+      green: ['Green & yellow', 'rgba(214,242,92,0.16)', '#E4F59A', 'GREEN & YELLOW'],
+      teaware: ['Teaware', 'rgba(37,99,255,0.24)', '#B9CCFF', 'TEAWARE'],
+      beginners: ['Beginners', 'rgba(34,227,166,0.18)', '#9DF5D3', 'BEGINNERS'],
+      buy: ['Where to buy', 'rgba(255,79,216,0.18)', '#FFC4F2', 'WHERE TO BUY']
+    };
+    const cupOf = { oolong: 'oolong', puerh: 'shu', black: 'red', green: 'green', teaware: 'white', beginners: 'yellow', buy: 'sheng' };
+    const counts = { oolong: '128 topics', puerh: '214 topics', black: '76 topics', green: '59 topics', teaware: '97 topics', beginners: '143 topics', buy: '41 topics' };
+    const A = {
+      ok: 'linear-gradient(135deg, #C77DFF, #FF9BEA)', dm: 'linear-gradient(135deg, #FFE066, #FF8A1F)', at: 'linear-gradient(135deg, #8EC5FF, #22E3A6)', ys: 'linear-gradient(135deg, #5CF2B8, #22B8FF)', ml: 'linear-gradient(135deg, #FF9BEA, #FF4FD8)', pr: 'conic-gradient(from 200deg, #FF4FD8, #8A3FFC, #2563FF, #22E3A6, #FFC21A, #FF8A1F, #FF4FD8)'
+    };
+    const all = [
+      { s: 'beginners', pinned: true, solved: false, attached: false, title: 'New to tea? 5 teas to start with — a community list', author: 'Prolyv', initials: 'P', avatar: A.pr, time: 'pinned', replies: 58, views: '4.1k', last: 'yesterday' },
+      { s: 'puerh', pinned: false, solved: false, attached: true, title: 'Why does my shu pu-erh turn bitter after the third steep?', author: 'Andrew T.', initials: 'AT', avatar: A.at, time: '2 h ago', replies: 14, views: '312', last: '5 min ago' },
+      { s: 'teaware', pinned: false, solved: false, attached: false, title: 'Gaiwan or teapot for oolong: what’s your experience?', author: 'Maria L.', initials: 'ML', avatar: A.ml, time: 'yesterday', replies: 32, views: '890', last: '1 h ago' },
+      { s: 'puerh', pinned: false, solved: true, attached: false, title: 'How to store sheng pu-erh in a small apartment', author: 'Daniel M.', initials: 'DM', avatar: A.dm, time: '3 days ago', replies: 21, views: '1.2k', last: '6 h ago' },
+      { s: 'oolong', pinned: false, solved: false, attached: true, title: 'Tie Guan Yin: spring vs autumn harvest, side by side', author: 'Olena K.', initials: 'OK', avatar: A.ok, time: '4 days ago', replies: 17, views: '640', last: 'yesterday' },
+      { s: 'black', pinned: false, solved: true, attached: true, title: 'Dian Hong goes sour when I brew it in a thermos — why?', author: 'Yuki S.', initials: 'YS', avatar: A.ys, time: '5 days ago', replies: 9, views: '410', last: '2 days ago' },
+      { s: 'green', pinned: false, solved: false, attached: false, title: 'Long Jing: 80 °C or 85 °C? Share your sessions', author: 'Maria L.', initials: 'ML', avatar: A.ml, time: '1 week ago', replies: 26, views: '980', last: '3 days ago' },
+      { s: 'buy', pinned: false, solved: false, attached: false, title: 'Where do you buy aged white tea in Europe?', author: 'Daniel M.', initials: 'DM', avatar: A.dm, time: '1 week ago', replies: 12, views: '530', last: '4 days ago' }
+    ];
+    const list = sec === 'all' ? all : all.filter((t) => t.s === sec);
+    return {
+      sections: Object.keys(SEC).map((k) => {
+        const on = k === sec;
+        return { label: SEC[k][0], count: counts[k], kind: cupOf[k], on, bg: on ? SEC[k][1] : 'rgba(255,255,255,0.04)', border: on ? SEC[k][2] : 'rgba(255,255,255,0.1)', pick: () => this.setState({ sec: on ? 'all' : k }) };
+      }),
+      heading: sec === 'all' ? 'All topics' : SEC[sec][0],
+      topics: list.map((t) => Object.assign({}, t, { section: SEC[t.s][3], secBg: SEC[t.s][1], secFg: SEC[t.s][2], kind: cupOf[t.s] })),
+      empty: list.length === 0,
+      helpers: [
+        { name: 'Olena K.', initials: 'OK', avatar: A.ok, score: '46 helpful' },
+        { name: 'Maria L.', initials: 'ML', avatar: A.ml, score: '31 helpful' },
+        { name: 'Andrew T.', initials: 'AT', avatar: A.at, score: '19 helpful' }
+      ]
+    };
+  }
+}
+</script>
+</body>
+</html>

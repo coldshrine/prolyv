@@ -1,0 +1,172 @@
+<!doctype html>
+<html lang="uk">
+<head>
+<meta charset="utf-8">
+<title>Пролив — магазин «Чайна лавка»</title>
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&amp;family=Unbounded:wght@500;600;700;800&amp;display=swap">
+<style>
+body{margin:0;background:#07081A}
+*{box-sizing:border-box}
+a{color:#FFB3F0}a:hover{color:#FFFFFF}
+</style>
+</helmet>
+<div style="min-height: 100vh; background: #07081A; color: #FFFFFF; font-family: Manrope, system-ui, sans-serif; font-size: 16px; line-height: 1.5">
+<dc-import name="Header" current="shops" hint-size="100%,72px"></dc-import>
+
+<main>
+<nav aria-label="Магазини-партнери" style="max-width: 1240px; margin: 0 auto; padding: 20px 24px; display: flex; flex-wrap: wrap; align-items: center; gap: 8px">
+<span style="margin-right: 8px; font-size: 14px; font-weight: 800; color: #9EA3CF">Магазини:</span>
+<sc-for list="{{switcher}}" as="s" hint-placeholder-count="4">
+<sc-if value="{{s.on}}" hint-placeholder-val="{{ false }}"><a href="Shop.dc.html" aria-current="page" style="height: 40px; display: inline-flex; align-items: center; gap: 8px; padding: 0 14px 0 6px; border-radius: 999px; background: #FFFFFF; color: #07081A; text-decoration: none; font-weight: 800; font-size: 14px"><span style="width: 28px; height: 28px; border-radius: 50%; background: {{s.grad}}; display: grid; place-items: center; font-size: 12px">{{s.initial}}</span>{{s.name}}</a></sc-if>
+<sc-if value="{{s.off}}" hint-placeholder-val="{{ true }}"><a href="Shop.dc.html" style="height: 40px; display: inline-flex; align-items: center; gap: 8px; padding: 0 14px 0 6px; border-radius: 999px; background: rgba(255,255,255,0.06); border: 1px solid rgba(255,255,255,0.14); color: #FFFFFF; text-decoration: none; font-weight: 700; font-size: 14px"><span style="width: 28px; height: 28px; border-radius: 50%; background: {{s.grad}}; display: grid; place-items: center; font-size: 12px; color: #07081A; font-weight: 800">{{s.initial}}</span>{{s.name}}</a></sc-if>
+</sc-for>
+</nav>
+
+<section style="max-width: 1240px; margin: 0 auto; padding: 0 24px">
+<div aria-hidden="true" style="height: 260px; border-radius: 36px; background: radial-gradient(40% 90% at 20% 30%, #5CF2B8 0, rgba(92,242,184,0) 70%), radial-gradient(40% 90% at 60% 100%, #2563FF 0, rgba(37,99,255,0) 70%), radial-gradient(35% 80% at 95% 20%, #8A3FFC 0, rgba(138,63,252,0) 70%), #0B1240; position: relative; overflow: hidden">
+<svg viewBox="0 0 1200 260" preserveAspectRatio="none" style="position: absolute; inset: 0; width: 100%; height: 100%"><path d="M-20 200 C 300 60, 700 300, 1220 90" fill="none" stroke="rgba(255,255,255,0.85)" stroke-width="22" stroke-linecap="round"></path><path d="M-20 230 C 320 110, 720 330, 1220 130" fill="none" stroke="rgba(255,255,255,0.25)" stroke-width="6" stroke-linecap="round"></path></svg>
+</div>
+<div style="margin-top: -64px; padding: 0 32px; display: flex; flex-wrap: wrap; align-items: flex-end; gap: 24px; position: relative">
+<span aria-hidden="true" style="width: 132px; height: 132px; flex: none; border-radius: 36px; background: linear-gradient(135deg, #5CF2B8, #22B8FF); border: 6px solid #07081A; display: grid; place-items: center; font-family: Unbounded, sans-serif; font-weight: 800; font-size: 56px; color: #07081A; box-shadow: 0 24px 50px -20px #22B8FF">Ч</span>
+<div style="flex: 1 1 320px; min-width: 0; padding-bottom: 6px">
+<p style="margin: 0; display: inline-flex; align-items: center; gap: 6px; padding: 4px 12px; border-radius: 999px; background: rgba(34,227,166,0.16); color: #7CF5C8; font-size: 13px; font-weight: 800"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#7CF5C8" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12l5 5L20 7"></path></svg>Партнер Пролив</p>
+<h1 style="margin: 8px 0 0; font-family: Unbounded, sans-serif; font-weight: 800; font-size: 48px; line-height: 1.05; letter-spacing: -0.02em">Чайна лавка</h1>
+<p style="margin: 6px 0 0; color: #C9CCEB">Київ · [адреса магазину] · доставка Новою поштою по Україні</p>
+</div>
+<div style="display: flex; flex-wrap: wrap; gap: 10px; padding-bottom: 6px">
+<a href="#site" style="height: 48px; display: inline-flex; align-items: center; padding: 0 20px; border-radius: 999px; background: rgba(255,255,255,0.08); border: 1px solid rgba(255,255,255,0.2); color: #FFFFFF; text-decoration: none; font-weight: 800">Сайт магазину</a>
+<button type="button" style="height: 48px; display: inline-flex; align-items: center; gap: 8px; padding: 0 22px; border: 0; border-radius: 999px; background: linear-gradient(100deg, #FF4FD8 0%, #FF8A1F 100%); color: #07081A; font: inherit; font-weight: 800; cursor: pointer"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#07081A" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 8a6 6 0 0 1 12 0c0 7 3 9 3 9H3s3-2 3-9"></path><path d="M10 21h4"></path></svg>Стежити за новинками</button>
+</div>
+</div>
+</section>
+
+<section style="max-width: 1240px; margin: 0 auto; padding: 40px 24px 0; display: flex; flex-wrap: wrap; gap: 24px">
+<div style="flex: 999 1 520px; min-width: 0; padding: 28px; border-radius: 28px; background: rgba(255,255,255,0.04); border: 1px solid rgba(255,255,255,0.1)">
+<h2 style="margin: 0; font-size: 20px; font-weight: 800">Про магазин</h2>
+<p style="margin: 10px 0 0; color: #D7D9F2; max-width: 46em">Улуни й червоні чаї з Фуцзяні та Юньнані. Кожну нову партію спершу пробують самі й описують параметри заварювання. Раз на два тижні — відкриті дегустації в магазині.</p>
+</div>
+<div style="flex: 1 1 520px; min-width: 0; display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 12px">
+<sc-for list="{{stats}}" as="st" hint-placeholder-count="4">
+<div style="padding: 18px 20px; border-radius: 22px; background: rgba(255,255,255,0.05); border: 1px solid rgba(255,255,255,0.1)">
+<p style="margin: 0; font-family: Unbounded, sans-serif; font-weight: 800; font-size: 30px; line-height: 1.1; background: {{st.grad}}; -webkit-background-clip: text; background-clip: text; color: transparent">{{st.value}}</p>
+<p style="margin: 4px 0 0; font-size: 14px; color: #9EA3CF">{{st.label}}</p>
+</div>
+</sc-for>
+</div>
+</section>
+
+<nav aria-label="Розділи магазину" style="max-width: 1240px; margin: 0 auto; padding: 40px 24px 0; display: flex; flex-wrap: wrap; gap: 8px">
+<a href="#shop-teas" aria-current="true" style="height: 44px; display: inline-flex; align-items: center; padding: 0 20px; border-radius: 999px; background: #FFFFFF; color: #07081A; text-decoration: none; font-weight: 800">Чаї · 38</a>
+<a href="#shop-reviews" style="height: 44px; display: inline-flex; align-items: center; padding: 0 20px; border-radius: 999px; background: rgba(255,255,255,0.06); border: 1px solid rgba(255,255,255,0.14); color: #FFFFFF; text-decoration: none; font-weight: 700">Відгуки</a>
+<a href="#shop-events" style="height: 44px; display: inline-flex; align-items: center; padding: 0 20px; border-radius: 999px; background: rgba(255,255,255,0.06); border: 1px solid rgba(255,255,255,0.14); color: #FFFFFF; text-decoration: none; font-weight: 700">Дегустації</a>
+</nav>
+
+<section id="shop-teas" aria-label="Чаї магазину" style="max-width: 1240px; margin: 0 auto; padding: 24px 24px 0">
+<div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); gap: 20px">
+<sc-for list="{{teas}}" as="t" hint-placeholder-count="6">
+<a href="TeaPage.dc.html" style="min-width: 0; display: flex; align-items: center; gap: 16px; padding: 20px; border-radius: 26px; background: rgba(16,18,48,0.75); border: 1px solid rgba(255,255,255,0.12); color: #FFFFFF; text-decoration: none">
+<dc-import name="Cup" kind="{{t.kind}}" size="80" hint-size="80px,80px"></dc-import>
+<span style="flex: 1; min-width: 0; display: flex; flex-direction: column; gap: 4px">
+<span style="font-size: 12px; font-weight: 800; letter-spacing: 0.08em; color: {{t.labelColor}}">{{t.typeCaps}}</span>
+<span style="font-weight: 800; font-size: 16px; line-height: 1.3">{{t.name}}</span>
+<span style="display: flex; justify-content: space-between; gap: 8px; font-size: 14px; color: #9EA3CF"><span>★ {{t.rating}}</span><span style="color: #FFFFFF; font-weight: 800">{{t.price}}</span></span>
+</span>
+</a>
+</sc-for>
+</div>
+<p style="margin: 20px 0 0; text-align: center"><a href="Catalog.dc.html" style="font-weight: 800">Усі 38 чаїв магазину в каталозі →</a></p>
+</section>
+
+<section id="shop-reviews" aria-labelledby="reviews-h" style="max-width: 1240px; margin: 0 auto; padding: 72px 24px 0">
+<h2 id="reviews-h" style="margin: 0; font-family: Unbounded, sans-serif; font-weight: 700; font-size: 34px; letter-spacing: -0.02em">Відгуки про чаї магазину</h2>
+<p style="margin: 6px 0 0; color: #9EA3CF">Магазин може відповідати на відгуки, але не може їх приховати чи змінити оцінку.</p>
+<div style="margin-top: 24px; display: flex; flex-direction: column; gap: 16px">
+<sc-for list="{{reviews}}" as="r" hint-placeholder-count="2">
+<article style="padding: 26px 28px; border-radius: 28px; background: rgba(255,255,255,0.04); border: 1px solid rgba(255,255,255,0.1); display: flex; flex-direction: column; gap: 14px">
+<div style="display: flex; flex-wrap: wrap; align-items: center; gap: 12px">
+<span aria-hidden="true" style="width: 44px; height: 44px; flex: none; border-radius: 50%; background: {{r.avatar}}; color: #07081A; display: grid; place-items: center; font-weight: 800; font-size: 14px">{{r.initials}}</span>
+<div style="flex: 1 1 240px; min-width: 0"><p style="margin: 0; font-weight: 800">{{r.name}} про «{{r.tea}}»</p><p style="margin: 0; font-size: 13px; color: #9EA3CF">{{r.date}}</p></div>
+<span style="display: inline-flex; align-items: center; gap: 4px; padding: 5px 12px; border-radius: 999px; background: rgba(255,194,26,0.16); color: #FFE39A; font-weight: 800; font-size: 14px">★ {{r.rating}} з 5</span>
+</div>
+<p style="margin: 0; font-size: 16px; color: #E6E7FA">{{r.text}}</p>
+<div style="margin-left: 20px; padding: 16px 20px; border-radius: 20px; background: rgba(34,184,255,0.1); border-left: 0; border: 1px solid rgba(34,184,255,0.28)">
+<p style="margin: 0; display: flex; align-items: center; gap: 8px; font-size: 14px; font-weight: 800; color: #9FD8FF"><span aria-hidden="true" style="width: 22px; height: 22px; border-radius: 7px; background: linear-gradient(135deg, #5CF2B8, #22B8FF); display: grid; place-items: center; font-size: 11px; color: #07081A">Ч</span>Відповідь магазину</p>
+<p style="margin: 6px 0 0; font-size: 15px; color: #D7D9F2">{{r.reply}}</p>
+</div>
+</article>
+</sc-for>
+</div>
+</section>
+
+<section id="shop-events" aria-labelledby="shop-events-h" style="max-width: 1240px; margin: 0 auto; padding: 72px 24px 96px">
+<h2 id="shop-events-h" style="margin: 0; font-family: Unbounded, sans-serif; font-weight: 700; font-size: 34px; letter-spacing: -0.02em">Дегустації в «Чайній лавці»</h2>
+<div style="margin-top: 24px; display: flex; flex-wrap: wrap; gap: 20px">
+<sc-for list="{{events}}" as="e" hint-placeholder-count="2">
+<article style="flex: 1 1 360px; min-width: 0; display: flex; gap: 18px; padding: 22px; border-radius: 28px; background: rgba(16,18,48,0.7); border: 1px solid rgba(255,255,255,0.12)">
+<div style="flex: none; width: 72px; height: 84px; border-radius: 20px; background: {{e.grad}}; color: #07081A; display: flex; flex-direction: column; align-items: center; justify-content: center"><span style="font-family: Unbounded, sans-serif; font-weight: 800; font-size: 28px; line-height: 1">{{e.day}}</span><span style="margin-top: 4px; font-size: 12px; font-weight: 800; letter-spacing: 0.08em">{{e.month}}</span></div>
+<div style="flex: 1; min-width: 0; display: flex; flex-direction: column; gap: 6px">
+<h3 style="margin: 0; font-size: 18px; font-weight: 800; line-height: 1.3">{{e.title}}</h3>
+<p style="margin: 0; font-size: 14px; color: #9EA3CF">{{e.time}} · {{e.seats}}</p>
+<div style="margin-top: auto; padding-top: 8px; display: flex; justify-content: space-between; align-items: center; gap: 10px"><span style="font-weight: 800">{{e.price}}</span><a href="Events.dc.html" style="height: 44px; display: inline-flex; align-items: center; padding: 0 18px; border-radius: 999px; background: rgba(255,255,255,0.1); border: 1px solid rgba(255,255,255,0.2); color: #FFFFFF; text-decoration: none; font-weight: 800; font-size: 14px">Квиток</a></div>
+</div>
+</article>
+</sc-for>
+</div>
+</section>
+</main>
+
+<dc-import name="Footer" hint-size="100%,440px"></dc-import>
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props='{"$preview":{"width":1440,"height":3100}}'>
+class Component extends DCLogic {
+  renderVals() {
+    const T = {
+      green: ['#5CF2B8', '#0E9E73', 'Зелений', '#7CF5C8'],
+      oolong: ['#FFB347', '#E8590C', 'Улун', '#FFC98A'],
+      red: ['#FF7A6B', '#C4161C', 'Червоний', '#FFA59B'],
+      shu: ['#A86BFF', '#3A0E8C', 'Шу пуер', '#CDB0FF']
+    };
+    const orb = (k) => 'radial-gradient(circle at 32% 28%, rgba(255,255,255,0.85) 0, rgba(255,255,255,0) 26%), radial-gradient(circle at 50% 60%, ' + T[k][0] + ' 0, ' + T[k][1] + ' 100%)';
+    const tea = (k, name, rating, price) => ({ kind: k, name, rating, price, typeCaps: T[k][2].toUpperCase(), labelColor: T[k][3], orb: orb(k), glow: '0 14px 32px -10px ' + T[k][0] });
+    const shops = [
+      { initial: 'Ч', name: 'Чайна лавка', grad: 'linear-gradient(135deg, #5CF2B8, #22B8FF)' },
+      { initial: 'Г', name: 'Горнятко', grad: 'linear-gradient(135deg, #FFE066, #FF8A1F)' },
+      { initial: 'Л', name: 'Листя', grad: 'linear-gradient(135deg, #FF9BEA, #C77DFF)' },
+      { initial: 'С', name: 'Сім проливів', grad: 'linear-gradient(135deg, #8EC5FF, #A78BFA)' }
+    ];
+    return {
+      switcher: shops.map((s, i) => Object.assign({}, s, { on: i === 0, off: i !== 0 })),
+      stats: [
+        { value: '38', label: 'чаїв у каталозі', grad: 'linear-gradient(90deg, #5CF2B8, #22B8FF)' },
+        { value: '4,6', label: 'середня оцінка чаїв', grad: 'linear-gradient(90deg, #FFE066, #FF8A1F)' },
+        { value: '512', label: 'сесій спільноти', grad: 'linear-gradient(90deg, #FF9BEA, #FF4FD8)' },
+        { value: '2', label: 'дегустації на місяць', grad: 'linear-gradient(90deg, #8EC5FF, #A78BFA)' }
+      ],
+      teas: [
+        tea('oolong', 'Те Гуань Інь «Весняний»', '4,8', '84 ₴ / 10 г'),
+        tea('red', 'Дянь Хун «Золоті бруньки»', '4,7', '58 ₴ / 10 г'),
+        tea('oolong', 'Да Хун Пао', '4,6', '96 ₴ / 10 г'),
+        tea('green', 'Лун Цзин', '4,5', '62 ₴ / 10 г'),
+        tea('red', 'Цзінь Цзюнь Мей', '4,4', '120 ₴ / 10 г'),
+        tea('shu', 'Шу пуер «Гун Тін» 2020', '4,2', '48 ₴ / 10 г')
+      ],
+      reviews: [
+        { initials: 'ВГ', name: 'Віктор Г.', tea: 'Да Хун Пао', date: '2 листопада', rating: '3', text: 'Смажений присмак занадто сильний для мене, а на четвертому проливі чай уже здувся.', reply: 'Дякуємо! Ця партія справді сильно прожарена. Спробуйте 90 °C і проливи до 10 с — так прожарка м’якша. Наступна партія, легша, буде в грудні.', avatar: 'linear-gradient(135deg, #8EC5FF, #A78BFA)' },
+        { initials: 'ІП', name: 'Ірина П.', tea: 'Те Гуань Інь «Весняний»', date: '29 жовтня', rating: '5', text: 'Найкращий весняний Те Гуань Інь, який я пила цього року. Бузок і вершки, дуже чистий.', reply: 'Дуже раді! Ми відклали ще трохи цієї партії для учасників клубу.', avatar: 'linear-gradient(135deg, #FF9BEA, #C77DFF)' }
+      ],
+      events: [
+        { day: '07', month: 'ЛИС', title: 'Улуни Фуцзяні: від зеленого до темного', time: 'сб, 18:00', seats: 'лишилося 4 місця', price: '350 ₴', grad: 'linear-gradient(135deg, #FF4FD8, #FF8A1F)' },
+        { day: '21', month: 'ЛИС', title: 'Червоні чаї Юньнані для початківців', time: 'сб, 18:00', seats: 'лишилося 9 місць', price: '300 ₴', grad: 'linear-gradient(135deg, #5CF2B8, #22B8FF)' }
+      ]
+    };
+  }
+}
+</script>
+</body>
+</html>

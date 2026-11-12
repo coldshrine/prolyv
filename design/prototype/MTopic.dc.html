@@ -1,0 +1,212 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Prolyv — discussion (mobile)</title>
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&amp;family=Unbounded:wght@500;600;700;800&amp;display=swap">
+<style>
+body{margin:0;background:#07081A}
+*{box-sizing:border-box}
+a{color:#FFB3F0}a:hover{color:#FFFFFF}
+@keyframes prolyvSpin{to{transform:rotate(360deg)}}
+@media (prefers-reduced-motion: reduce){[data-spin]{animation:none!important}}
+</style>
+</helmet>
+<div style="min-height: 100vh; width: 100%; max-width: 430px; margin: 0 auto; display: flex; flex-direction: column; background: #07081A; color: #FFFFFF; font-family: Manrope, system-ui, sans-serif; font-size: 16px; line-height: 1.5">
+
+<header style="position: sticky; top: 0; z-index: 10; height: 56px; flex: none; padding: 0 8px; display: flex; align-items: center; gap: 2px; background: rgba(7,8,26,0.85); backdrop-filter: blur(16px); -webkit-backdrop-filter: blur(16px); border-bottom: 1px solid rgba(255,255,255,0.08)">
+<a href="MForum.dc.html" aria-label="Back" style="width: 44px; height: 44px; flex: none; display: inline-grid; place-items: center; border-radius: 999px; color: #FFFFFF"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M15 5l-7 7 7 7"></path></svg></a>
+<p style="margin: 0; flex: 1; min-width: 0; padding: 0 4px; font-family: Unbounded, sans-serif; font-weight: 700; font-size: 17px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis">Discussion</p>
+<a href="Story.dc.html" aria-label="Share" style="width: 44px; height: 44px; flex: none; display: inline-grid; place-items: center; border-radius: 999px; color: #FFFFFF"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3v12"></path><path d="M7 8l5-5 5 5"></path><path d="M5 13v6a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2v-6"></path></svg></a>
+</header>
+
+<main style="flex: 1; display: flex; flex-direction: column">
+<section aria-label="Topic" style="padding: 20px 16px 24px; display: flex; flex-direction: column; gap: 14px; background: radial-gradient(70% 40% at 50% 30%, rgba(138,63,252,0.45) 0, rgba(138,63,252,0) 70%), radial-gradient(60% 30% at 100% 100%, rgba(255,79,216,0.3) 0, rgba(255,79,216,0) 70%), radial-gradient(60% 30% at 0% 0%, rgba(37,99,255,0.45) 0, rgba(37,99,255,0) 70%), #070A2A">
+<div style="display: flex; flex-wrap: wrap; align-items: center; gap: 6px">
+<span style="padding: 4px 10px; border-radius: 999px; background: rgba(138,63,252,0.24); color: #DCC8FF; font-size: 11px; font-weight: 800; letter-spacing: 0.04em">PU-ERH</span>
+<span style="padding: 4px 10px; border-radius: 999px; background: rgba(255,255,255,0.08); color: #C9CCEB; font-size: 11px; font-weight: 800">14 replies · 312 views</span>
+</div>
+<h1 style="margin: 0; font-family: Unbounded, sans-serif; font-weight: 800; font-size: 26px; line-height: 1.1; letter-spacing: -0.02em">Why does my shu pu-erh turn bitter after the third steep?</h1>
+<div style="display: flex; align-items: center; gap: 10px">
+<span aria-hidden="true" style="width: 40px; height: 40px; flex: none; border-radius: 50%; background: linear-gradient(135deg, #8EC5FF, #22E3A6); color: #07081A; display: grid; place-items: center; font-weight: 800; font-size: 13px">AT</span>
+<p style="margin: 0; flex: 1; min-width: 0; font-size: 13px; color: #9EA3CF"><a href="MProfile.dc.html" style="display: inline-flex; align-items: center; min-height: 44px; color: #FFFFFF; font-weight: 800; font-size: 15px; text-decoration: none">Andrew T.</a> · 2 h ago · 38 sessions logged</p>
+</div>
+<div style="display: flex; gap: 8px">
+<button type="button" onClick="{{toggleFollow}}" aria-pressed="{{followOn}}" style="flex: 1; min-width: 0; height: 44px; display: inline-flex; align-items: center; justify-content: center; gap: 8px; padding: 0 12px; border-radius: 999px; border: 1px solid {{followBorder}}; background: {{followBg}}; color: {{followFg}}; font: inherit; font-weight: 800; font-size: 15px; white-space: nowrap; cursor: pointer"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 8a6 6 0 0 1 12 0c0 7 3 9 3 9H3s3-2 3-9"></path><path d="M10 21h4"></path></svg>{{followLabel}}</button>
+<a href="#reply" style="flex: 1; min-width: 0; height: 44px; display: inline-flex; align-items: center; justify-content: center; padding: 0 12px; border-radius: 999px; background: linear-gradient(100deg, #FF4FD8 0%, #FF8A1F 100%); color: #07081A; text-decoration: none; font-weight: 800; font-size: 15px; box-shadow: 0 18px 40px -14px rgba(255,79,216,0.7)">Reply</a>
+</div>
+</section>
+
+<section aria-label="Original post" style="padding: 20px 16px 0">
+<article style="padding: 16px; border-radius: 22px; background: rgba(16,18,48,0.75); border: 1px solid rgba(255,255,255,0.12); display: flex; flex-direction: column; gap: 14px">
+<p style="margin: 0; font-size: 15px; color: #E6E7FA">The first two steeps are great — thick, cocoa, exactly what I wanted. Then from the third one a bitterness shows up and never leaves, even when I cut the steeps to 5 seconds. Same cake Olena logged last week and hers looks nothing like mine. Water is filtered. What am I doing wrong?</p>
+<a href="MSessionPost.dc.html" style="display: flex; flex-direction: column; gap: 12px; padding: 14px; border-radius: 18px; background: rgba(138,63,252,0.12); border: 1px solid rgba(138,63,252,0.35); color: #FFFFFF; text-decoration: none">
+<span style="display: flex; align-items: center; gap: 12px">
+<dc-import name="Cup" kind="shu" size="56" step="2" hint-size="56px,56px"></dc-import>
+<span style="flex: 1; min-width: 0"><span style="display: block; font-size: 12px; font-weight: 800; letter-spacing: 0.06em; color: #DCC8FF">ATTACHED SESSION</span><span style="display: block; font-weight: 800; font-size: 16px; line-height: 1.3">Shu pu-erh “Menghai” 2019</span><span style="display: block; margin-top: 2px; font-size: 13px; color: #C9CCEB">8 g · 100 ml · 100 °C · gaiwan · no rinse · <span aria-hidden="true">★ 2</span><span style="position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0)">Rated 2 out of 5</span></span></span>
+</span>
+<span style="display: flex; justify-content: space-between; padding: 0 4px">
+<sc-for list="{{opSteeps}}" as="s" hint-placeholder-count="6"><span style="display: flex; flex-direction: column; align-items: center; gap: 4px; font-size: 11px; color: #C9CCEB"><span aria-hidden="true" style="width: 28px; height: 28px; border-radius: 50%; background: {{s.orb}}"></span>{{s.sec}}</span></sc-for>
+</span>
+</a>
+<div style="display: flex; gap: 8px">
+<button type="button" onClick="{{opHelpful.pick}}" aria-pressed="{{opHelpful.on}}" style="flex: 1.3; min-width: 0; height: 44px; display: inline-flex; align-items: center; justify-content: center; gap: 6px; padding: 0 8px; border-radius: 999px; border: 1px solid {{opHelpful.border}}; background: {{opHelpful.bg}}; color: {{opHelpful.fg}}; font: inherit; font-weight: 800; font-size: 13px; white-space: nowrap; cursor: pointer"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 10v10H3V10z"></path><path d="M7 10l4.5-6.5a2 2 0 0 1 3.5 1.5V9h4a2 2 0 0 1 2 2.4l-1.3 6.5A2 2 0 0 1 17.7 20H7"></path></svg>{{opHelpful.label}}</button>
+<button type="button" style="flex: 1; min-width: 0; height: 44px; display: inline-flex; align-items: center; justify-content: center; gap: 6px; padding: 0 8px; border-radius: 999px; border: 1px solid rgba(255,255,255,0.2); background: rgba(255,255,255,0.08); color: #FFFFFF; font: inherit; font-weight: 800; font-size: 13px; cursor: pointer"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 7H5v5h4v4c0 1.5-1 2.5-2.5 3"></path><path d="M19 7h-4v5h4v4c0 1.5-1 2.5-2.5 3"></path></svg>Quote</button>
+<button type="button" style="flex: 1; min-width: 0; height: 44px; display: inline-flex; align-items: center; justify-content: center; gap: 6px; padding: 0 8px; border-radius: 999px; border: 1px solid rgba(255,255,255,0.2); background: rgba(255,255,255,0.08); color: #FFFFFF; font: inherit; font-weight: 800; font-size: 13px; cursor: pointer"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="18" cy="5" r="3"></circle><circle cx="6" cy="12" r="3"></circle><circle cx="18" cy="19" r="3"></circle><path d="M8.6 13.5l6.8 4"></path><path d="M15.4 6.5l-6.8 4"></path></svg>Share</button>
+</div>
+</article>
+</section>
+
+<section aria-labelledby="replies-h" style="padding: 24px 16px 8px; display: flex; flex-direction: column; gap: 14px">
+<h2 id="replies-h" style="margin: 0; font-family: Unbounded, sans-serif; font-weight: 700; font-size: 22px">14 replies</h2>
+<div aria-label="Sort replies" style="display: flex; gap: 4px; padding: 4px; border-radius: 999px; background: rgba(255,255,255,0.06); border: 1px solid rgba(255,255,255,0.12)">
+<sc-for list="{{sorts}}" as="so" hint-placeholder-count="2">
+<button type="button" onClick="{{so.pick}}" aria-pressed="{{so.on}}" style="flex: 1; min-width: 0; height: 44px; padding: 0 6px; border-radius: 999px; border: 0; background: {{so.bg}}; color: {{so.fg}}; font: inherit; font-weight: 800; font-size: 13px; cursor: pointer">{{so.label}}</button>
+</sc-for>
+</div>
+<ol style="list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; gap: 12px">
+<sc-for list="{{replies}}" as="r" hint-placeholder-count="4">
+<li style="padding: 16px; border-radius: 22px; background: {{r.bg}}; border: 1px solid {{r.border}}; display: flex; flex-direction: column; gap: 10px">
+<div style="display: flex; align-items: center; gap: 10px">
+<span aria-hidden="true" style="width: 36px; height: 36px; flex: none; border-radius: 50%; background: {{r.avatar}}; color: #07081A; display: grid; place-items: center; font-weight: 800; font-size: 13px">{{r.initials}}</span>
+<p style="margin: 0; flex: 1; min-width: 0; font-size: 13px; color: #9EA3CF"><a href="MProfile.dc.html" style="display: inline-flex; align-items: center; min-height: 44px; color: #FFFFFF; font-weight: 800; font-size: 15px; text-decoration: none">{{r.name}}</a> · {{r.timeMeta}}</p>
+</div>
+<sc-if value="{{r.best}}" hint-placeholder-val="{{ false }}">
+<p style="margin: 0; align-self: flex-start; display: inline-flex; align-items: center; gap: 6px; padding: 4px 12px; border-radius: 999px; background: rgba(34,227,166,0.18); color: #9DF5D3; font-size: 11px; font-weight: 800; letter-spacing: 0.04em"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#9DF5D3" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12l5 5L20 7"></path></svg>MARKED HELPFUL BY AUTHOR</p>
+</sc-if>
+<p style="margin: 0; font-size: 15px; color: #E6E7FA">{{r.text}}</p>
+<sc-if value="{{r.hasAttached}}" hint-placeholder-val="{{ false }}">
+<div style="display: flex; flex-direction: column; border-radius: 18px; background: rgba(255,255,255,0.06); border: 1px solid rgba(255,255,255,0.14); font-size: 13px; overflow: hidden">
+<a href="MSessionPost.dc.html" style="display: flex; align-items: center; gap: 10px; min-height: 44px; padding: 6px 12px 6px 6px; color: #E6E7FA; text-decoration: none">
+<dc-import name="Cup" kind="shu" size="30" step="3" hint-size="30px,30px"></dc-import>
+<span style="flex: 1; min-width: 0">Session: {{r.attached}}</span>
+<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#9EA3CF" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 6l6 6-6 6"></path></svg>
+</a>
+<a href="MNewSession.dc.html" style="display: flex; align-items: center; gap: 8px; min-height: 44px; padding: 0 12px; border-top: 1px solid rgba(255,255,255,0.1); color: #FFB3F0; text-decoration: none; font-weight: 800">
+<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#FFB3F0" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 4v6h6"></path><path d="M20 12a8 8 0 1 1-2.3-5.7L20 9"></path></svg>Brew it the same way →
+</a>
+</div>
+</sc-if>
+<div style="display: flex; gap: 16px; font-size: 14px; font-weight: 800">
+<button type="button" onClick="{{r.pickHelpful}}" aria-pressed="{{r.helpfulOn}}" style="min-height: 44px; min-width: 44px; padding: 0 4px; border: 0; background: transparent; color: {{r.helpfulFg}}; font: inherit; font-weight: 800; cursor: pointer">{{r.helpfulLabel}}</button>
+<a href="#reply" style="min-height: 44px; min-width: 44px; padding: 0 4px; display: inline-flex; align-items: center; color: #C9CCEB; text-decoration: none; font-weight: 800">Reply</a>
+<button type="button" style="min-height: 44px; min-width: 44px; padding: 0 4px; border: 0; background: transparent; color: #C9CCEB; font: inherit; font-weight: 800; cursor: pointer">Quote</button>
+</div>
+</li>
+</sc-for>
+</ol>
+<button type="button" style="height: 48px; border-radius: 999px; border: 1px solid rgba(255,255,255,0.2); background: rgba(255,255,255,0.06); color: #FFFFFF; font: inherit; font-weight: 800; cursor: pointer">Show 10 more replies</button>
+</section>
+
+<section aria-label="Write a reply" style="padding: 20px 16px 0">
+<form id="reply" style="padding: 16px; border-radius: 22px; background: rgba(255,255,255,0.04); border: 1px solid rgba(255,255,255,0.12); display: flex; flex-direction: column; gap: 12px">
+<label for="topic-reply" style="font-family: inherit; font-weight: 800; font-size: 17px">Your reply</label>
+<textarea id="topic-reply" rows="4" placeholder="Share what worked for you — attaching a session makes it concrete" style="width: 100%; padding: 14px 16px; border-radius: 16px; border: 1px solid rgba(255,255,255,0.18); background: rgba(16,18,48,0.75); color: #FFFFFF; font: inherit; font-size: 15px; resize: vertical"></textarea>
+<div style="display: flex; gap: 8px">
+<button type="button" style="flex: 1; min-width: 0; height: 44px; display: inline-flex; align-items: center; justify-content: center; gap: 8px; padding: 0 12px; border-radius: 999px; border: 1px solid rgba(255,255,255,0.2); background: rgba(255,255,255,0.08); color: #FFFFFF; font: inherit; font-weight: 800; font-size: 14px; white-space: nowrap; cursor: pointer"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 11l-8.5 8.5a5 5 0 0 1-7-7L14 4a3.5 3.5 0 0 1 5 5l-8.5 8.5a2 2 0 0 1-3-3L15 7"></path></svg>Attach a session</button>
+<button type="button" style="flex: none; height: 44px; padding: 0 20px; border-radius: 999px; border: 0; background: linear-gradient(100deg, #FF4FD8 0%, #FF8A1F 100%); color: #07081A; font: inherit; font-weight: 800; font-size: 14px; white-space: nowrap; cursor: pointer">Post reply</button>
+</div>
+</form>
+</section>
+
+<section aria-labelledby="compare-h" style="padding: 20px 16px 0">
+<div style="padding: 16px; border-radius: 22px; background: rgba(255,255,255,0.04); border: 1px solid rgba(255,255,255,0.1)">
+<h2 id="compare-h" style="margin: 0; font-size: 17px; font-weight: 800">Sessions in this thread</h2>
+<p style="margin: 2px 0 0; font-size: 13px; color: #9EA3CF">Same cake, three ways.</p>
+<ul style="list-style: none; margin: 14px 0 0; padding: 0; display: flex; flex-direction: column; gap: 10px">
+<sc-for list="{{compare}}" as="c" hint-placeholder-count="3">
+<li style="display: flex; align-items: center; gap: 12px; padding: 10px 12px; border-radius: 18px; background: rgba(16,18,48,0.75)"><dc-import name="Cup" kind="shu" size="44" step="{{c.step}}" hint-size="44px,44px"></dc-import><span style="flex: 1; min-width: 0"><span style="display: block; font-weight: 800; font-size: 15px; line-height: 1.3">{{c.name}}</span><span style="display: block; margin-top: 2px; font-size: 13px; color: #9EA3CF">{{c.params}}</span></span><span style="flex: none; font-weight: 800; font-size: 14px; color: #FFE39A"><span aria-hidden="true">★ {{c.r}}</span><span style="position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0)">Rated {{c.r}} out of 5</span></span></li>
+</sc-for>
+</ul>
+<a href="MSessionPost.dc.html" style="margin-top: 14px; height: 48px; display: flex; align-items: center; justify-content: center; border-radius: 999px; background: rgba(255,255,255,0.08); border: 1px solid rgba(255,255,255,0.2); color: #FFFFFF; text-decoration: none; font-weight: 800; font-size: 15px">Compare side by side</a>
+</div>
+</section>
+
+<section aria-labelledby="related-h" style="padding: 20px 16px 0">
+<div style="padding: 16px; border-radius: 22px; background: rgba(255,255,255,0.04); border: 1px solid rgba(255,255,255,0.1)">
+<h2 id="related-h" style="margin: 0; font-size: 17px; font-weight: 800">Related topics</h2>
+<ol style="list-style: none; margin: 6px 0 0; padding: 0; display: flex; flex-direction: column">
+<sc-for list="{{related}}" as="rl" hint-placeholder-count="4">
+<li style="border-top: 1px solid rgba(255,255,255,0.08)"><a href="MTopic.dc.html" style="display: flex; align-items: center; gap: 10px; min-height: 44px; padding: 10px 0; color: #FFFFFF; text-decoration: none"><span style="flex: 1; min-width: 0"><span style="display: block; font-weight: 800; font-size: 15px; line-height: 1.35">{{rl.title}}</span><span style="display: block; font-size: 13px; color: #9EA3CF">{{rl.meta}}</span></span><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#9EA3CF" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 6l6 6-6 6"></path></svg></a></li>
+</sc-for>
+</ol>
+</div>
+</section>
+
+<section aria-label="From the blog" style="padding: 20px 16px 24px">
+<a href="MBlogPost.dc.html" style="padding: 18px 16px; border-radius: 22px; background: radial-gradient(80% 60% at 100% 0%, rgba(255,138,31,0.4) 0, rgba(255,138,31,0) 70%), linear-gradient(150deg, #8A3FFC 0%, #3B1FB8 100%); color: #FFFFFF; text-decoration: none; display: flex; flex-direction: column; gap: 8px">
+<span style="font-size: 12px; font-weight: 800; letter-spacing: 0.08em; color: #FFC98A">FROM THE BLOG · VIDEO</span>
+<span style="font-family: Unbounded, sans-serif; font-weight: 700; font-size: 19px; line-height: 1.25">Rinsing shu pu-erh: one rinse, two, or none?</span>
+<span style="font-size: 14px; color: #F3EEFF">Our TikTok on this exact question, with the full parameters.</span>
+<span style="margin-top: 6px; align-self: flex-start; height: 44px; padding: 0 18px; display: inline-flex; align-items: center; border-radius: 999px; background: #FFFFFF; color: #2A1478; font-weight: 800; font-size: 14px">Read and discuss →</span>
+</a>
+</section>
+</main>
+
+<div style="position: sticky; bottom: 0; z-index: 10; margin-top: auto"><dc-import name="MobileNav" current="forum" hint-size="100%,84px"></dc-import></div>
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props='{"$preview":{"width":390,"height":3820}}'>
+class Component extends DCLogic {
+  renderVals() {
+    const st = this.state || {};
+    const sort = st.sort || 'helpful';
+    const liked = st.liked || {};
+    const following = !!st.following;
+    const mix = (a, b, t) => { const p = (h) => [1, 3, 5].map((i) => parseInt(h.slice(i, i + 2), 16)); const x = p(a), y = p(b); return '#' + x.map((v, i) => Math.round(v + (y[i] - v) * t).toString(16).padStart(2, '0')).join(''); };
+    const orb = (i) => 'radial-gradient(circle at 32% 28%, rgba(255,255,255,0.85) 0, rgba(255,255,255,0) 26%), radial-gradient(circle at 50% 60%, ' + mix('#A86BFF', '#FFE9F7', i / 12) + ' 0, ' + mix('#2A0866', '#C9A6FF', i / 12) + ' 100%)';
+    const A = { ok: 'linear-gradient(135deg, #C77DFF, #FF9BEA)', dm: 'linear-gradient(135deg, #FFE066, #FF8A1F)', ys: 'linear-gradient(135deg, #5CF2B8, #22B8FF)', ml: 'linear-gradient(135deg, #FF9BEA, #FF4FD8)' };
+    const replies = [
+      { id: 'ok', name: 'Olena K.', initials: 'OK', avatar: A.ok, time: '1 h ago', meta: '214 sessions', best: true, helpful: 11, order: 2, text: 'Two things jump out from your session: no rinse, and 100 °C on the very first steep with no pause. Shu needs one quick rinse to wake up, and 20 seconds with the lid off between steeps. Here’s my session with the same cake — same 8 g, one rinse, and from the third steep I keep them at 15 s; it stays sweet.', attached: '8 g · 100 °C · 1 rinse · 10 steeps · ★ 5' },
+      { id: 'ml', name: 'Maria L.', initials: 'ML', avatar: A.ml, time: '50 min ago', meta: '96 sessions', best: false, helpful: 7, order: 3, text: 'Bitterness that “never leaves” with shu is often the gaiwan running too hot between steeps. Try pouring the water off completely and leaving the lid open for 20–30 seconds — the leaf keeps cooking otherwise.', attached: '' },
+      { id: 'dm', name: 'Daniel M.', initials: 'DM', avatar: A.dm, time: '30 min ago', meta: '61 sessions', best: false, helpful: 3, order: 4, text: 'Could also be the water. Filtered isn’t always soft — what filter? With hard water my shu goes exactly like that: great start, then harsh.', attached: '' },
+      { id: 'ys', name: 'Yuki S.', initials: 'YS', avatar: A.ys, time: '5 min ago', meta: '27 sessions', best: false, helpful: 0, order: 1, text: 'Following — I have the same cake and the same problem. Trying Olena’s parameters tonight and will attach my session.', attached: '' }
+    ];
+    const sorted = sort === 'helpful' ? replies.slice().sort((a, b) => b.helpful - a.helpful) : replies.slice().sort((a, b) => a.order - b.order);
+    const toggleHelpful = (key) => () => { const cur = (this.state && this.state.liked) || {}; const next = Object.assign({}, cur); next[key] = !cur[key]; this.setState({ liked: next }); };
+    const opOn = !!liked.op;
+    return {
+      followLabel: following ? 'Following' : 'Follow topic',
+      followOn: following,
+      followBg: following ? '#FFFFFF' : 'rgba(255,255,255,0.08)',
+      followFg: following ? '#07081A' : '#FFFFFF',
+      followBorder: following ? '#FFFFFF' : 'rgba(255,255,255,0.22)',
+      toggleFollow: () => this.setState({ following: !((this.state || {}).following) }),
+      opHelpful: { label: 'Helpful · ' + (6 + (opOn ? 1 : 0)), on: opOn, bg: opOn ? '#FFFFFF' : 'rgba(255,255,255,0.06)', fg: opOn ? '#07081A' : '#FFFFFF', border: opOn ? '#FFFFFF' : 'rgba(255,255,255,0.18)', pick: toggleHelpful('op') },
+      opSteeps: [10, 10, 10, 5, 5, 5].map((s, i) => ({ sec: s + ' s', orb: orb(i) })),
+      sorts: [['helpful', 'Most helpful'], ['new', 'Newest']].map((s) => { const on = s[0] === sort; return { label: s[1], on, bg: on ? '#FFFFFF' : 'transparent', fg: on ? '#07081A' : '#FFFFFF', pick: () => this.setState({ sort: s[0] }) }; }),
+      replies: sorted.map((r) => {
+        const on = !!liked[r.id];
+        return Object.assign({}, r, {
+          timeMeta: r.time + ' · ' + r.meta,
+          hasAttached: !!r.attached,
+          helpfulLabel: 'Helpful · ' + (r.helpful + (on ? 1 : 0)),
+          helpfulOn: on,
+          helpfulFg: on ? '#9DF5D3' : '#C9CCEB',
+          pickHelpful: toggleHelpful(r.id),
+          bg: r.best ? 'rgba(34,227,166,0.08)' : 'rgba(16,18,48,0.75)',
+          border: r.best ? 'rgba(34,227,166,0.4)' : 'rgba(255,255,255,0.12)'
+        });
+      }),
+      compare: [
+        { name: 'Andrew T. (author)', params: '8 g · 100 °C · no rinse · 6 steeps', r: '2', step: 2 },
+        { name: 'Olena K.', params: '8 g · 100 °C · 1 rinse · 10 steeps', r: '5', step: 3 },
+        { name: 'Maria L.', params: '10 g · 100 °C · 1 rinse · 12 steeps', r: '5', step: 2 }
+      ],
+      related: [
+        { title: 'How to store sheng pu-erh in a small apartment', meta: 'Pu-erh · 21 replies · solved' },
+        { title: 'Rinsing shu: one, two, or none?', meta: 'Pu-erh · 33 replies' },
+        { title: 'Does water hardness change pu-erh that much?', meta: 'Beginners · 18 replies' },
+        { title: 'Shu pu-erh “Menghai” 2019 — all sessions', meta: '48 sessions · ★ 4.7' }
+      ]
+    };
+  }
+}
+</script>
+</body>
+</html>

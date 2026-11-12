@@ -1,0 +1,128 @@
+<!doctype html>
+<html lang="uk">
+<head>
+<meta charset="utf-8">
+<title>Пролив — швидкий запис сесії</title>
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&amp;display=swap">
+<style>
+body{margin:0}
+*{box-sizing:border-box}
+a{color:#1E5B3E}a:hover{color:#14251C}
+textarea::placeholder{color:#5A665F}
+</style>
+</helmet>
+<div style="width: 390px; height: 844px; overflow: hidden; display: flex; flex-direction: column; background: #F6F7F4; color: #14251C; font-family: Manrope, system-ui, sans-serif; font-size: 16px; line-height: 1.5">
+
+<header style="flex: none; height: 56px; padding: 0 6px; display: flex; align-items: center; justify-content: space-between; background: #FFFFFF; border-bottom: 1px solid #DCE1DA">
+<a href="Diary.dc.html" aria-label="Назад до щоденника" style="width: 44px; height: 44px; display: grid; place-items: center; color: #14251C"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M15 5l-7 7 7 7"></path></svg></a>
+<h1 style="margin: 0; font-size: 17px; font-weight: 800">Нова сесія</h1>
+<button type="button" aria-label="Таймер проливу" style="width: 44px; height: 44px; display: grid; place-items: center; border: 0; background: transparent; color: #14251C; cursor: pointer"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="13" r="8"></circle><path d="M12 9v4l2.5 2.5M9.5 2.5h5"></path></svg></button>
+</header>
+
+<div style="flex: 1; min-height: 0; overflow: auto; padding: 14px 16px; display: flex; flex-direction: column; gap: 12px">
+
+<a href="Tea.dc.html" style="display: flex; align-items: center; gap: 12px; padding: 12px 14px; background: #FFFFFF; border: 1px solid #DCE1DA; border-radius: 16px; color: #14251C; text-decoration: none">
+<span style="width: 40px; height: 40px; flex: none; border-radius: 50%; background: #D9A441; box-shadow: inset 0 0 0 1px rgba(20,37,28,0.18)"></span>
+<span style="flex: 1; min-width: 0">
+<span style="display: block; font-weight: 800; font-size: 16px; line-height: 1.3">Те Гуань Інь «Весняний»</span>
+<span style="display: block; font-size: 13px; color: #5A665F">Улун · Чайна лавка</span>
+</span>
+<span style="font-size: 13px; font-weight: 800; color: #1E5B3E">Змінити</span>
+</a>
+
+<div style="display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 8px">
+<button type="button" style="height: 60px; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 0; background: #FFFFFF; border: 1px solid #DCE1DA; border-radius: 14px; font: inherit; color: #14251C; cursor: pointer"><span style="font-size: 11px; font-weight: 700; color: #5A665F">Лист</span><span style="font-size: 15px; font-weight: 800">7 г</span></button>
+<button type="button" style="height: 60px; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 0; background: #FFFFFF; border: 1px solid #DCE1DA; border-radius: 14px; font: inherit; color: #14251C; cursor: pointer"><span style="font-size: 11px; font-weight: 700; color: #5A665F">Вода</span><span style="font-size: 15px; font-weight: 800">100 мл</span></button>
+<button type="button" style="height: 60px; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 0; background: #FFFFFF; border: 1px solid #DCE1DA; border-radius: 14px; font: inherit; color: #14251C; cursor: pointer"><span style="font-size: 11px; font-weight: 700; color: #5A665F">Темп.</span><span style="font-size: 15px; font-weight: 800">95 °C</span></button>
+<button type="button" style="height: 60px; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 0; background: #FFFFFF; border: 1px solid #DCE1DA; border-radius: 14px; font: inherit; color: #14251C; cursor: pointer"><span style="font-size: 11px; font-weight: 700; color: #5A665F">Посуд</span><span style="font-size: 15px; font-weight: 800">Гайвань</span></button>
+</div>
+
+<section style="padding: 12px 14px 14px; background: #FFFFFF; border: 1px solid #DCE1DA; border-radius: 16px">
+<div style="display: flex; justify-content: space-between; align-items: center; gap: 12px">
+<h2 style="margin: 0; font-size: 15px; font-weight: 800">Проливи · {{count}}</h2>
+<button type="button" onClick="{{addBrew}}" disabled="{{full}}" style="height: 44px; display: inline-flex; align-items: center; gap: 6px; padding: 0 14px; border-radius: 999px; border: 1px solid #1E5B3E; background: #E3ECE5; color: #1E5B3E; font: inherit; font-size: 14px; font-weight: 800; cursor: pointer"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" aria-hidden="true"><path d="M12 5v14M5 12h14"></path></svg>Пролив</button>
+</div>
+<ol style="list-style: none; margin: 10px 0 0; padding: 0; display: flex; gap: 5px">
+<sc-for list="{{brews}}" as="b" hint-placeholder-count="4">
+<li style="width: 36px; display: flex; flex-direction: column; align-items: center; gap: 4px; font-size: 11px; font-weight: 700; color: #5A665F"><span style="width: 30px; height: 30px; border-radius: 50%; background: {{b.color}}; box-shadow: inset 0 0 0 1px rgba(20,37,28,0.15)"></span>{{b.sec}}</li>
+</sc-for>
+</ol>
+</section>
+
+<section style="padding: 12px 8px 12px 14px; background: #FFFFFF; border: 1px solid #DCE1DA; border-radius: 16px; display: flex; align-items: center; justify-content: space-between; gap: 8px">
+<h2 style="margin: 0; font-size: 15px; font-weight: 800">Оцінка</h2>
+<div style="display: flex">
+<sc-for list="{{stars}}" as="s" hint-placeholder-count="5">
+<button type="button" onClick="{{s.pick}}" aria-label="{{s.label}}" aria-pressed="{{s.pressed}}" style="width: 44px; height: 44px; padding: 0; border: 0; background: transparent; display: grid; place-items: center; cursor: pointer"><svg width="30" height="30" viewBox="0 0 24 24" fill="{{s.fill}}" stroke="#D08A2E" stroke-width="1.5" stroke-linejoin="round" aria-hidden="true"><path d="M12 2.5l2.9 6 6.6.9-4.8 4.6 1.2 6.5L12 17.4l-5.9 3.1 1.2-6.5L2.5 9.4l6.6-.9z"></path></svg></button>
+</sc-for>
+</div>
+</section>
+
+<section style="padding: 12px 14px 14px; background: #FFFFFF; border: 1px solid #DCE1DA; border-radius: 16px">
+<h2 style="margin: 0; font-size: 15px; font-weight: 800">Смак</h2>
+<div style="margin-top: 8px; display: flex; flex-wrap: wrap; gap: 6px">
+<sc-for list="{{tags}}" as="t" hint-placeholder-count="6">
+<button type="button" onClick="{{t.toggle}}" aria-pressed="{{t.pressed}}" style="height: 44px; padding: 0 14px; border-radius: 999px; border: 1px solid {{t.border}}; background: {{t.bg}}; color: {{t.fg}}; font: inherit; font-size: 14px; font-weight: 700; cursor: pointer">{{t.label}}</button>
+</sc-for>
+</div>
+</section>
+
+<div>
+<label for="session-note" style="font-size: 15px; font-weight: 800">Нотатка</label>
+<textarea id="session-note" rows="2" placeholder="Що відчули на перших проливах?" style="display: block; width: 100%; margin-top: 6px; padding: 12px 14px; border: 1px solid #DCE1DA; border-radius: 14px; background: #FFFFFF; font: inherit; font-size: 15px; color: #14251C; resize: none"></textarea>
+</div>
+</div>
+
+<div style="flex: none; padding: 12px 16px 16px; background: #FFFFFF; border-top: 1px solid #DCE1DA">
+<a href="Diary.dc.html" style="height: 52px; display: flex; align-items: center; justify-content: center; border-radius: 999px; background: #1E5B3E; color: #FFFFFF; text-decoration: none; font-weight: 800; font-size: 16px">Зберегти сесію</a>
+</div>
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props='{"$preview":{"width":390,"height":844}}'>
+class Component extends DCLogic {
+  renderVals() {
+    const st = this.state || {};
+    const rating = st.rating ?? 4;
+    const brews = st.brews ?? [10, 15, 20, 25];
+    const on = st.tags ?? { 'Квітковий': true, 'Вершковий': true };
+    const liquor = ['#8E4F17', '#A35F22', '#B4712F', '#C4843F', '#D09752', '#D9AA69', '#E2BE85', '#EAD1A3'];
+    const max = 8;
+    const addBrew = () => {
+      if (brews.length >= max) return;
+      const last = brews[brews.length - 1];
+      const next = last < 30 ? last + 5 : Math.round((last * 1.5) / 5) * 5;
+      this.setState({ brews: brews.concat(next) });
+    };
+    return {
+      count: brews.length,
+      full: brews.length >= max,
+      addBrew,
+      brews: brews.map((s, i) => ({ sec: s + ' с', color: liquor[i] })),
+      stars: [1, 2, 3, 4, 5].map((n) => ({
+        label: 'Оцінка ' + n + ' з 5',
+        pressed: n === rating,
+        fill: n <= rating ? '#D08A2E' : 'none',
+        pick: () => this.setState({ rating: n })
+      })),
+      tags: ['Квітковий', 'Вершковий', 'Медовий', 'Фруктовий', 'Терпкий', 'Землистий'].map((label) => {
+        const sel = !!on[label];
+        return {
+          label,
+          pressed: sel,
+          bg: sel ? '#1E5B3E' : '#FFFFFF',
+          fg: sel ? '#FFFFFF' : '#14251C',
+          border: sel ? '#1E5B3E' : '#DCE1DA',
+          toggle: () => this.setState({ tags: Object.assign({}, on, { [label]: !sel }) })
+        };
+      })
+    };
+  }
+}
+</script>
+</body>
+</html>

@@ -1,0 +1,215 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Prolyv — feed</title>
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&amp;family=Unbounded:wght@500;600;700;800&amp;display=swap">
+<style>
+body{margin:0;background:#07081A}
+*{box-sizing:border-box}
+a{color:#FFB3F0}a:hover{color:#FFFFFF}
+@keyframes prolyvSpin{to{transform:rotate(360deg)}}
+@media (prefers-reduced-motion: reduce){[data-spin]{animation:none!important}}
+</style>
+</helmet>
+<div style="min-height: 100vh; background: #07081A; color: #FFFFFF; font-family: Manrope, system-ui, sans-serif; font-size: 16px; line-height: 1.5">
+<dc-import name="Header" current="feed" hint-size="100%,72px"></dc-import>
+
+<main>
+<section style="position: relative; overflow: hidden; background: radial-gradient(38% 80% at 80% 50%, rgba(255,79,216,0.45) 0, rgba(255,79,216,0) 70%), radial-gradient(30% 60% at 100% 100%, rgba(255,138,31,0.5) 0, rgba(255,138,31,0) 70%), radial-gradient(30% 60% at 55% 0%, rgba(37,99,255,0.45) 0, rgba(37,99,255,0) 70%), #070A2A">
+<div style="max-width: 1240px; margin: 0 auto; padding: 56px 24px 48px; display: flex; flex-wrap: wrap; gap: 40px; align-items: center">
+<div style="flex: 999 1 560px; min-width: 0; display: flex; flex-direction: column; gap: 22px">
+<p style="margin: 0; font-size: 14px; font-weight: 800; letter-spacing: 0.12em; color: #FFC98A">DIARY · FORUM · BLOG</p>
+<h1 style="margin: 0; font-family: Unbounded, sans-serif; font-weight: 800; font-size: 60px; line-height: 1.04; letter-spacing: -0.035em">Log your tea. Talk through every steep.</h1>
+<p style="margin: 0; max-width: 32em; font-size: 19px; color: #D7D9F2">A personal tea diary where any session can become a discussion. The home of our TikTok and Instagram.</p>
+<div style="display: flex; flex-wrap: wrap; gap: 12px">
+<a href="Login.dc.html" style="height: 56px; display: inline-flex; align-items: center; padding: 0 26px; border-radius: 999px; background: linear-gradient(100deg, #FF4FD8 0%, #FF8A1F 100%); color: #07081A; text-decoration: none; font-weight: 800; font-size: 17px; box-shadow: 0 18px 40px -14px rgba(255,79,216,0.7)">Start your diary</a>
+<a href="#how" style="height: 56px; display: inline-flex; align-items: center; padding: 0 24px; border-radius: 999px; background: rgba(255,255,255,0.08); border: 1px solid rgba(255,255,255,0.22); color: #FFFFFF; text-decoration: none; font-weight: 800; font-size: 17px">How it works</a>
+</div>
+</div>
+<div style="flex: 1 1 380px; position: relative; display: flex; justify-content: center">
+<dc-import name="Cup" kind="shu" size="360" step="2" spin="on" hint-size="360px,360px"></dc-import>
+<a href="SessionPost.dc.html" style="position: absolute; bottom: 6px; left: 0; display: inline-flex; align-items: center; gap: 10px; padding: 10px 16px 10px 10px; border-radius: 999px; background: rgba(7,10,42,0.8); border: 1px solid rgba(255,255,255,0.2); backdrop-filter: blur(12px); -webkit-backdrop-filter: blur(12px); color: #E6E7FA; text-decoration: none; font-size: 14px"><span aria-hidden="true" style="width: 30px; height: 30px; border-radius: 50%; background: linear-gradient(135deg, #C77DFF, #FF9BEA)"></span><span><b style="color: #FFFFFF">Olena</b> logged a shu pu-erh · 12 comments</span></a>
+</div>
+</div>
+<div id="how" style="max-width: 1240px; margin: 0 auto; padding: 0 24px 48px; display: flex; flex-wrap: wrap; gap: 14px">
+<sc-for list="{{pillars}}" as="pl" hint-placeholder-count="3">
+<a href="{{pl.href}}" style="flex: 1 1 280px; min-width: 0; display: flex; align-items: flex-start; gap: 14px; padding: 18px 20px; border-radius: 22px; background: rgba(7,8,26,0.55); border: 1px solid rgba(255,255,255,0.14); color: #FFFFFF; text-decoration: none">
+<span aria-hidden="true" style="width: 40px; height: 40px; flex: none; border-radius: 12px; background: {{pl.grad}}"></span>
+<span><span style="display: block; font-weight: 800; font-size: 17px">{{pl.title}}</span><span style="display: block; font-size: 14px; color: #C9CCEB">{{pl.text}}</span></span>
+</a>
+</sc-for>
+</div>
+</section>
+
+<div style="max-width: 1240px; margin: 0 auto; padding: 40px 24px 96px; display: flex; flex-wrap: wrap; gap: 28px; align-items: flex-start">
+<section aria-labelledby="feed-h" style="flex: 999 1 640px; min-width: 0">
+<div style="display: flex; flex-wrap: wrap; justify-content: space-between; align-items: center; gap: 12px">
+<h2 id="feed-h" style="margin: 0; font-family: Unbounded, sans-serif; font-weight: 700; font-size: 30px">Feed</h2>
+<div style="display: flex; flex-wrap: wrap; gap: 6px; padding: 5px; border-radius: 999px; background: rgba(255,255,255,0.06); border: 1px solid rgba(255,255,255,0.12)">
+<sc-for list="{{tabs}}" as="t" hint-placeholder-count="4">
+<button type="button" onClick="{{t.pick}}" aria-pressed="{{t.pressed}}" style="height: 40px; padding: 0 16px; border-radius: 999px; border: 0; background: {{t.bg}}; color: {{t.fg}}; font: inherit; font-weight: 800; font-size: 14px; cursor: pointer">{{t.label}}</button>
+</sc-for>
+</div>
+</div>
+
+<ol style="list-style: none; margin: 20px 0 0; padding: 0; display: flex; flex-direction: column; gap: 16px">
+<sc-for list="{{items}}" as="it" hint-placeholder-count="6">
+<li>
+<sc-if value="{{it.isSession}}" hint-placeholder-val="{{ true }}">
+<article style="padding: 22px 24px; border-radius: 28px; background: rgba(16,18,48,0.75); border: 1px solid rgba(255,255,255,0.12); display: flex; flex-direction: column; gap: 14px">
+<div style="display: flex; align-items: center; gap: 12px">
+<span aria-hidden="true" style="width: 40px; height: 40px; flex: none; border-radius: 50%; background: {{it.avatar}}; color: #07081A; display: grid; place-items: center; font-weight: 800; font-size: 14px">{{it.initials}}</span>
+<p style="margin: 0; flex: 1; min-width: 0; font-size: 15px; color: #C9CCEB"><a href="Profile.dc.html" style="color: #FFFFFF; font-weight: 800; text-decoration: none">{{it.author}}</a> · {{it.time}}</p>
+<span style="padding: 4px 10px; border-radius: 999px; background: rgba(255,255,255,0.08); font-size: 12px; font-weight: 800; color: #C9CCEB">SESSION</span>
+</div>
+<a href="SessionPost.dc.html" style="display: flex; align-items: center; gap: 16px; color: #FFFFFF; text-decoration: none">
+<dc-import name="Cup" kind="{{it.kind}}" size="76" hint-size="76px,76px"></dc-import>
+<span style="flex: 1; min-width: 0"><span style="display: block; font-weight: 800; font-size: 19px; line-height: 1.3">{{it.tea}}</span><span style="display: block; margin-top: 2px; font-size: 14px; color: #9EA3CF">{{it.params}}</span></span>
+</a>
+<p style="margin: 0; color: #E6E7FA">{{it.note}}</p>
+<div style="display: flex; flex-wrap: wrap; justify-content: space-between; align-items: center; gap: 10px; padding-top: 12px; border-top: 1px solid rgba(255,255,255,0.08)">
+<span style="display: inline-flex; flex-wrap: wrap; align-items: center; gap: 16px; font-size: 14px; color: #C9CCEB"><span style="color: #FFC21A; letter-spacing: 2px" aria-hidden="true">{{it.stars}}</span><a href="SessionPost.dc.html" style="color: #C9CCEB; text-decoration: none; font-weight: 700">{{it.comments}}</a></span>
+<a href="NewSession.dc.html" style="height: 44px; display: inline-flex; align-items: center; gap: 8px; padding: 0 16px; border-radius: 999px; background: rgba(255,255,255,0.08); border: 1px solid rgba(255,255,255,0.2); color: #FFFFFF; text-decoration: none; font-weight: 800; font-size: 14px"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 4v6h6"></path><path d="M20 12a8 8 0 1 1-2.3-5.7L20 9"></path></svg>Brew it the same way</a>
+</div>
+</article>
+</sc-if>
+<sc-if value="{{it.isTopic}}" hint-placeholder-val="{{ false }}">
+<article style="padding: 22px 24px; border-radius: 28px; background: rgba(255,255,255,0.04); border: 1px solid rgba(255,255,255,0.12); display: flex; flex-direction: column; gap: 10px">
+<div style="display: flex; flex-wrap: wrap; align-items: center; gap: 8px">
+<span style="padding: 4px 12px; border-radius: 999px; background: {{it.sectionBg}}; color: {{it.sectionFg}}; font-size: 12px; font-weight: 800; letter-spacing: 0.04em">{{it.section}}</span>
+<sc-if value="{{it.pinned}}" hint-placeholder-val="{{ false }}"><span style="padding: 4px 10px; border-radius: 999px; background: rgba(255,194,26,0.16); color: #FFE39A; font-size: 12px; font-weight: 800">PINNED</span></sc-if>
+<span style="margin-left: auto; font-size: 13px; color: #9EA3CF">{{it.time}}</span>
+</div>
+<a href="Topic.dc.html" style="color: #FFFFFF; text-decoration: none; font-family: Unbounded, sans-serif; font-weight: 700; font-size: 21px; line-height: 1.25">{{it.title}}</a>
+<p style="margin: 0; color: #C9CCEB">{{it.excerpt}}</p>
+<sc-if value="{{it.attached}}" hint-placeholder-val="{{ false }}">
+<p style="margin: 0; align-self: flex-start; display: inline-flex; align-items: center; gap: 8px; padding: 6px 12px 6px 6px; border-radius: 999px; background: rgba(255,255,255,0.06); font-size: 13px; color: #E6E7FA"><dc-import name="Cup" kind="{{it.kind}}" size="26" hint-size="26px,26px"></dc-import>Attached session: {{it.attached}}</p>
+</sc-if>
+<p style="margin: 4px 0 0; display: flex; flex-wrap: wrap; gap: 6px 16px; font-size: 14px; color: #9EA3CF"><span>{{it.author}}</span><span style="color: #FFFFFF; font-weight: 800">{{it.replies}}</span><span>{{it.last}}</span></p>
+</article>
+</sc-if>
+<sc-if value="{{it.isBlog}}" hint-placeholder-val="{{ false }}">
+<a href="BlogPost.dc.html" style="display: flex; flex-wrap: wrap; overflow: hidden; border-radius: 28px; background: rgba(16,18,48,0.75); border: 1px solid rgba(255,255,255,0.12); color: #FFFFFF; text-decoration: none">
+<span aria-hidden="true" style="flex: 1 1 200px; min-height: 180px; position: relative; background: {{it.cover}}; display: grid; place-items: center">
+<dc-import name="Cup" kind="{{it.kind}}" size="120" spin="on" hint-size="120px,120px"></dc-import>
+<span style="position: absolute; top: 14px; left: 14px; padding: 4px 10px; border-radius: 999px; background: rgba(7,8,26,0.7); font-size: 12px; font-weight: 800">{{it.badge}}</span>
+</span>
+<span style="flex: 999 1 300px; min-width: 0; padding: 22px 24px; display: flex; flex-direction: column; gap: 8px">
+<span style="font-size: 12px; font-weight: 800; letter-spacing: 0.08em; color: #FFC98A">BLOG · {{it.read}}</span>
+<span style="font-family: Unbounded, sans-serif; font-weight: 700; font-size: 21px; line-height: 1.25">{{it.title}}</span>
+<span style="color: #C9CCEB">{{it.excerpt}}</span>
+<span style="margin-top: auto; font-weight: 800; color: #FFB3F0">Read and discuss →</span>
+</span>
+</a>
+</sc-if>
+</li>
+</sc-for>
+</ol>
+<p style="margin: 24px 0 0; text-align: center"><button type="button" style="height: 50px; padding: 0 26px; border-radius: 999px; border: 1px solid rgba(255,255,255,0.2); background: rgba(255,255,255,0.06); color: #FFFFFF; font: inherit; font-weight: 800; cursor: pointer">Show more</button></p>
+</section>
+
+<aside style="flex: 1 1 340px; min-width: 0; display: flex; flex-direction: column; gap: 20px">
+<section style="padding: 24px; border-radius: 28px; background: radial-gradient(80% 60% at 100% 0%, rgba(255,138,31,0.4) 0, rgba(255,138,31,0) 70%), linear-gradient(150deg, #8A3FFC 0%, #3B1FB8 100%); display: flex; flex-direction: column; gap: 12px">
+<h2 style="margin: 0; font-family: Unbounded, sans-serif; font-weight: 800; font-size: 22px; line-height: 1.2">Your diary</h2>
+<p style="margin: 0; color: #F3EEFF">Your first session takes 30 seconds. It stays private until you decide to share it.</p>
+<a href="NewSession.dc.html" style="height: 50px; display: flex; align-items: center; justify-content: center; border-radius: 999px; background: #FFFFFF; color: #2A1478; text-decoration: none; font-weight: 800">Log a tea</a>
+</section>
+
+<section aria-labelledby="hot-h" style="padding: 24px; border-radius: 28px; background: rgba(255,255,255,0.04); border: 1px solid rgba(255,255,255,0.1)">
+<h2 id="hot-h" style="margin: 0; font-size: 18px; font-weight: 800">Hot topics</h2>
+<ol style="list-style: none; margin: 14px 0 0; padding: 0; display: flex; flex-direction: column">
+<sc-for list="{{hot}}" as="h" hint-placeholder-count="4">
+<li style="padding: 12px 0; border-top: 1px solid rgba(255,255,255,0.08)"><a href="Topic.dc.html" style="display: block; color: #FFFFFF; text-decoration: none; font-weight: 800; line-height: 1.35">{{h.title}}</a><span style="font-size: 13px; color: #9EA3CF">{{h.meta}}</span></li>
+</sc-for>
+</ol>
+<a href="Forum.dc.html" style="display: inline-block; margin-top: 8px; font-weight: 800">All discussions →</a>
+</section>
+
+<section aria-labelledby="sec-h" style="padding: 24px; border-radius: 28px; background: rgba(255,255,255,0.04); border: 1px solid rgba(255,255,255,0.1)">
+<h2 id="sec-h" style="margin: 0; font-size: 18px; font-weight: 800">Sections</h2>
+<ul style="list-style: none; margin: 14px 0 0; padding: 0; display: flex; flex-wrap: wrap; gap: 8px">
+<sc-for list="{{sections}}" as="s" hint-placeholder-count="7">
+<li><a href="Forum.dc.html" style="display: inline-flex; align-items: center; height: 40px; padding: 0 14px; border-radius: 999px; background: {{s.bg}}; color: {{s.fg}}; text-decoration: none; font-weight: 800; font-size: 14px">{{s.label}}</a></li>
+</sc-for>
+</ul>
+</section>
+
+<section style="padding: 24px; border-radius: 28px; background: rgba(255,255,255,0.04); border: 1px solid rgba(255,255,255,0.1); display: flex; flex-direction: column; gap: 10px">
+<h2 style="margin: 0; font-size: 18px; font-weight: 800">Find us on TikTok and Instagram</h2>
+<p style="margin: 0; font-size: 15px; color: #C9CCEB">Short videos live there. Parameters, breakdowns and discussion live here, on the blog.</p>
+<div style="display: flex; flex-wrap: wrap; gap: 8px">
+<a href="#tiktok" style="height: 44px; display: inline-flex; align-items: center; padding: 0 16px; border-radius: 999px; background: rgba(255,255,255,0.08); border: 1px solid rgba(255,255,255,0.18); color: #FFFFFF; text-decoration: none; font-weight: 800; font-size: 14px">TikTok @[account]</a>
+<a href="#instagram" style="height: 44px; display: inline-flex; align-items: center; padding: 0 16px; border-radius: 999px; background: rgba(255,255,255,0.08); border: 1px solid rgba(255,255,255,0.18); color: #FFFFFF; text-decoration: none; font-weight: 800; font-size: 14px">Instagram @[account]</a>
+</div>
+</section>
+</aside>
+</div>
+</main>
+
+<dc-import name="Footer" hint-size="100%,440px"></dc-import>
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props='{"$preview":{"width":1440,"height":3000}}'>
+class Component extends DCLogic {
+  renderVals() {
+    const tab = (this.state && this.state.tab) || 'all';
+    const SEC = {
+      'PU-ERH': ['rgba(138,63,252,0.24)', '#DCC8FF'],
+      'BEGINNERS': ['rgba(34,227,166,0.18)', '#9DF5D3'],
+      'TEAWARE': ['rgba(37,99,255,0.24)', '#B9CCFF'],
+      'OOLONG': ['rgba(255,138,31,0.2)', '#FFC98A']
+    };
+    const stars = (r) => '★★★★★'.slice(0, r) + '☆☆☆☆☆'.slice(0, 5 - r);
+    const S = (o) => Object.assign({ type: 'session', isSession: true, isTopic: false, isBlog: false }, o, { stars: stars(o.r) });
+    const T = (o) => Object.assign({ type: 'topic', isSession: false, isTopic: true, isBlog: false, pinned: false, attached: '', kind: 'oolong' }, o, { sectionBg: SEC[o.section][0], sectionFg: SEC[o.section][1] });
+    const B = (o) => Object.assign({ type: 'blog', isSession: false, isTopic: false, isBlog: true }, o);
+    const all = [
+      S({ author: 'Olena K.', initials: 'OK', avatar: 'linear-gradient(135deg, #C77DFF, #FF9BEA)', time: '12 min ago', tea: 'Shu pu-erh “Menghai” 2019', kind: 'shu', params: '8 g · 100 ml · 100 °C · 10 steeps · gaiwan', note: 'Cocoa and damp forest. Date-like sweetness by the fifth steep. No mustiness at all.', r: 5, comments: '12 comments' }),
+      T({ section: 'PU-ERH', title: 'Why does my shu pu-erh turn bitter after the third steep?', excerpt: 'The first steeps are great, then a bitterness shows up and won’t leave. I attached my session — what am I doing wrong?', author: 'Andrew T.', replies: '14 replies', last: 'last reply 5 min ago', time: '2 h ago', attached: '8 g · 100 °C · 6 steeps', kind: 'shu' }),
+      B({ title: 'Look into the cup: how Tie Guan Yin changes over 8 steeps', excerpt: 'The full breakdown of our TikTok video: exact parameters, the time of every steep and what we taste in each.', badge: 'VIDEO · 0:48', read: '4 MIN', kind: 'oolong', cover: 'radial-gradient(60% 80% at 50% 50%, rgba(255,79,216,0.6) 0, rgba(255,79,216,0) 70%), linear-gradient(140deg, #3B1FB8, #0B0D3A)' }),
+      S({ author: 'Daniel M.', initials: 'DM', avatar: 'linear-gradient(135deg, #FFE066, #FF8A1F)', time: '40 min ago', tea: 'Dian Hong “Golden Buds”', kind: 'red', params: '5 g · 100 ml · 90 °C · 6 steeps · gaiwan', note: 'Honey and dried fruit, caramel showed up on the third steep. Shorter steeps work better.', r: 4, comments: '5 comments' }),
+      T({ section: 'BEGINNERS', pinned: true, title: 'New to tea? 5 teas to start with', excerpt: 'A community-built list: what to try first, in what order, and how to brew without a gaiwan.', author: 'Prolyv', replies: '58 replies', last: 'last reply yesterday', time: 'pinned' }),
+      S({ author: 'Yuki S.', initials: 'YS', avatar: 'linear-gradient(135deg, #5CF2B8, #22B8FF)', time: '1 h ago', tea: 'Bai Mu Dan 2023', kind: 'white', params: '6 g · 500 ml · cold brew, 8 h', note: 'Apricot and hay, no astringency at all. Better cold than hot.', r: 4, comments: '3 comments' }),
+      T({ section: 'TEAWARE', title: 'Gaiwan or teapot for oolong: what’s your experience?', excerpt: 'I want one vessel for everything. What did you choose, and did you notice a difference in taste?', author: 'Maria L.', replies: '32 replies', last: 'last reply 1 h ago', time: 'yesterday' }),
+      B({ title: 'Our October in numbers: what the community logged', excerpt: 'The most-logged type was oolong, the longest session was 14 steeps of sheng, and the most common note was lilac.', badge: 'ARTICLE', read: '3 MIN', kind: 'sheng', cover: 'radial-gradient(60% 80% at 50% 50%, rgba(34,227,166,0.5) 0, rgba(34,227,166,0) 70%), linear-gradient(140deg, #0E3B5E, #0B0D3A)' })
+    ];
+    const list = tab === 'all' ? all : all.filter((i) => i.type === tab);
+    const tabs = [['all', 'All'], ['session', 'Sessions'], ['topic', 'Discussions'], ['blog', 'Blog']];
+    return {
+      pillars: [
+        { title: 'Diary', text: 'Sessions, steeps, your shelf and stats. Private by default.', href: 'MyDiary.dc.html', grad: 'linear-gradient(135deg, #FF4FD8, #FF8A1F)' },
+        { title: 'Discussions', text: 'Ask with your session attached and get answers that fit.', href: 'Forum.dc.html', grad: 'linear-gradient(135deg, #8A3FFC, #22B8FF)' },
+        { title: 'Blog', text: 'Breakdowns of our videos: everything that didn’t fit into 30 seconds.', href: 'Blog.dc.html', grad: 'linear-gradient(135deg, #22E3A6, #FFC21A)' }
+      ],
+      tabs: tabs.map((t) => {
+        const on = t[0] === tab;
+        return { label: t[1], pressed: on, bg: on ? '#FFFFFF' : 'transparent', fg: on ? '#07081A' : '#FFFFFF', pick: () => this.setState({ tab: t[0] }) };
+      }),
+      items: list,
+      hot: [
+        { title: 'Why does my shu pu-erh turn bitter after the third steep?', meta: 'Pu-erh · 14 replies' },
+        { title: 'Gaiwan or teapot for oolong: what’s your experience?', meta: 'Teaware · 32 replies' },
+        { title: 'How to store sheng pu-erh in a small apartment', meta: 'Pu-erh · 21 replies' },
+        { title: 'Tie Guan Yin: spring vs autumn harvest, side by side', meta: 'Oolong · 17 replies' }
+      ],
+      sections: [
+        { label: 'Oolong', bg: 'rgba(255,138,31,0.2)', fg: '#FFC98A' },
+        { label: 'Pu-erh', bg: 'rgba(138,63,252,0.24)', fg: '#DCC8FF' },
+        { label: 'Black & white', bg: 'rgba(255,75,62,0.2)', fg: '#FFA59B' },
+        { label: 'Green & yellow', bg: 'rgba(214,242,92,0.16)', fg: '#E4F59A' },
+        { label: 'Teaware', bg: 'rgba(37,99,255,0.24)', fg: '#B9CCFF' },
+        { label: 'Beginners', bg: 'rgba(34,227,166,0.18)', fg: '#9DF5D3' },
+        { label: 'Where to buy', bg: 'rgba(255,79,216,0.18)', fg: '#FFC4F2' }
+      ]
+    };
+  }
+}
+</script>
+</body>
+</html>

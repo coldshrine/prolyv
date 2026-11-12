@@ -1,0 +1,595 @@
+{
+  "v": 3,
+  "createdOnFiles": {
+    "v": 1,
+    "at": "2026-10-31T12:00:00Z"
+  },
+  "title": "Чайна спільнота — прототип",
+  "launch": {
+    "view": "canvas",
+    "page": "mobile"
+  },
+  "pages": [
+    {
+      "id": "mobile",
+      "name": "Телефон · щоденник, форум, блог"
+    },
+    {
+      "id": "core",
+      "name": "Щоденник · форум · блог"
+    },
+    {
+      "id": "hero",
+      "name": "Перший екран · 5 варіацій"
+    },
+    {
+      "id": "site",
+      "name": "Пізніше: каталог, магазини, події"
+    },
+    {
+      "id": "draft",
+      "name": "Чернетка v1"
+    }
+  ],
+  "boards": {
+    "Main.dc.html": {
+      "x": 0,
+      "y": 0,
+      "w": 1440,
+      "h": 3000,
+      "title": "Головна",
+      "expand": "fill",
+      "is_interactive": true,
+      "page": "draft"
+    },
+    "Tea.dc.html": {
+      "x": 1520,
+      "y": 0,
+      "w": 1440,
+      "h": 2900,
+      "title": "Сторінка чаю",
+      "expand": "fill",
+      "is_interactive": true,
+      "page": "draft"
+    },
+    "Diary.dc.html": {
+      "x": 3040,
+      "y": 0,
+      "w": 1440,
+      "h": 2000,
+      "title": "Мій щоденник",
+      "expand": "fill",
+      "is_interactive": true,
+      "page": "draft"
+    },
+    "QuickLog.dc.html": {
+      "x": 0,
+      "y": 3400,
+      "w": 390,
+      "h": 844,
+      "title": "Швидкий запис (телефон)",
+      "is_interactive": true,
+      "page": "draft"
+    },
+    "ShareCard.dc.html": {
+      "x": 470,
+      "y": 3400,
+      "w": 540,
+      "h": 960,
+      "title": "Картка для сторіс",
+      "page": "draft"
+    },
+    "Home.dc.html": {
+      "x": 0,
+      "y": 0,
+      "w": 1440,
+      "h": 4800,
+      "title": "Головна",
+      "expand": "fill",
+      "is_interactive": true,
+      "page": "site"
+    },
+    "Catalog.dc.html": {
+      "x": 1520,
+      "y": 0,
+      "w": 1440,
+      "h": 2500,
+      "title": "Каталог",
+      "expand": "fill",
+      "is_interactive": true,
+      "page": "site"
+    },
+    "TeaPage.dc.html": {
+      "x": 3040,
+      "y": 0,
+      "w": 1440,
+      "h": 3400,
+      "title": "Сторінка чаю",
+      "expand": "fill",
+      "is_interactive": true,
+      "page": "site"
+    },
+    "Shop.dc.html": {
+      "x": 4560,
+      "y": 0,
+      "w": 1440,
+      "h": 3100,
+      "title": "Магазин",
+      "expand": "fill",
+      "is_interactive": true,
+      "page": "site"
+    },
+    "Events.dc.html": {
+      "x": 0,
+      "y": 5200,
+      "w": 1440,
+      "h": 2500,
+      "title": "Дегустації",
+      "expand": "fill",
+      "is_interactive": true,
+      "page": "site"
+    },
+    "Club.dc.html": {
+      "x": 1520,
+      "y": 5200,
+      "w": 1440,
+      "h": 3500,
+      "title": "Чайний клуб",
+      "expand": "fill",
+      "is_interactive": true,
+      "page": "site"
+    },
+    "ForShops.dc.html": {
+      "x": 3040,
+      "y": 5200,
+      "w": 1440,
+      "h": 3800,
+      "title": "Для магазинів",
+      "expand": "fill",
+      "is_interactive": true,
+      "page": "site"
+    },
+    "Header.dc.html": {
+      "x": 0,
+      "y": 13100,
+      "w": 1440,
+      "h": 72,
+      "title": "Шапка (компонент)",
+      "is_interactive": true,
+      "page": "core"
+    },
+    "Footer.dc.html": {
+      "x": 1520,
+      "y": 13100,
+      "w": 1440,
+      "h": 440,
+      "title": "Підвал (компонент)",
+      "is_interactive": true,
+      "page": "core"
+    },
+    "Cup.dc.html": {
+      "x": 3040,
+      "y": 13100,
+      "w": 320,
+      "h": 320,
+      "title": "Чашка (компонент)",
+      "page": "core"
+    },
+    "Story.dc.html": {
+      "x": 3440,
+      "y": 13100,
+      "w": 540,
+      "h": 960,
+      "title": "Картка для сторіс",
+      "page": "core"
+    },
+    "Splash.dc.html": {
+      "x": 4060,
+      "y": 13100,
+      "w": 390,
+      "h": 844,
+      "title": "Заставка застосунку",
+      "page": "core"
+    },
+    "HeroA.dc.html": {
+      "x": 0,
+      "y": 0,
+      "w": 1440,
+      "h": 900,
+      "title": "A · Стрічки",
+      "page": "hero"
+    },
+    "HeroB.dc.html": {
+      "x": 1520,
+      "y": 0,
+      "w": 1440,
+      "h": 900,
+      "title": "B · Спектр і пошук",
+      "page": "hero"
+    },
+    "HeroC.dc.html": {
+      "x": 3040,
+      "y": 0,
+      "w": 1440,
+      "h": 900,
+      "title": "C · Світла",
+      "page": "hero"
+    },
+    "HeroD.dc.html": {
+      "x": 0,
+      "y": 1020,
+      "w": 1440,
+      "h": 900,
+      "title": "D · Чашка",
+      "page": "hero"
+    },
+    "HeroE.dc.html": {
+      "x": 1520,
+      "y": 1020,
+      "w": 1440,
+      "h": 900,
+      "title": "E · Бенто",
+      "page": "hero"
+    },
+    "MyDiary.dc.html": {
+      "x": 0,
+      "y": 10000,
+      "w": 1440,
+      "h": 2700,
+      "title": "Мій щоденник",
+      "expand": "fill",
+      "is_interactive": true,
+      "page": "core"
+    },
+    "NewSession.dc.html": {
+      "x": 1520,
+      "y": 10000,
+      "w": 1440,
+      "h": 2000,
+      "title": "Нова сесія",
+      "expand": "fill",
+      "is_interactive": true,
+      "page": "core"
+    },
+    "Login.dc.html": {
+      "x": 3040,
+      "y": 10000,
+      "w": 1440,
+      "h": 900,
+      "title": "Вхід",
+      "expand": "fill",
+      "is_interactive": true,
+      "page": "core"
+    },
+    "Feed.dc.html": {
+      "x": 0,
+      "y": 0,
+      "w": 1440,
+      "h": 3000,
+      "title": "Стрічка (головна)",
+      "page": "core",
+      "expand": "fill",
+      "is_interactive": true
+    },
+    "SessionPost.dc.html": {
+      "x": 1520,
+      "y": 0,
+      "w": 1440,
+      "h": 2700,
+      "title": "Публічна сесія",
+      "page": "core",
+      "expand": "fill",
+      "is_interactive": true
+    },
+    "Profile.dc.html": {
+      "x": 3040,
+      "y": 0,
+      "w": 1440,
+      "h": 2300,
+      "title": "Профіль-щоденник",
+      "page": "core",
+      "expand": "fill",
+      "is_interactive": true
+    },
+    "Forum.dc.html": {
+      "x": 0,
+      "y": 3400,
+      "w": 1440,
+      "h": 2200,
+      "title": "Обговорення",
+      "page": "core",
+      "expand": "fill",
+      "is_interactive": true
+    },
+    "Topic.dc.html": {
+      "x": 1520,
+      "y": 3400,
+      "w": 1440,
+      "h": 2700,
+      "title": "Тема обговорення",
+      "page": "core",
+      "expand": "fill",
+      "is_interactive": true
+    },
+    "Blog.dc.html": {
+      "x": 0,
+      "y": 6500,
+      "w": 1440,
+      "h": 2300,
+      "title": "Блог",
+      "page": "core",
+      "expand": "fill",
+      "is_interactive": true
+    },
+    "BlogPost.dc.html": {
+      "x": 1520,
+      "y": 6500,
+      "w": 1440,
+      "h": 3100,
+      "title": "Пост блогу",
+      "page": "core",
+      "expand": "fill",
+      "is_interactive": true
+    },
+    "MFeed.dc.html": {
+      "x": 0,
+      "y": 0,
+      "w": 390,
+      "h": 3700,
+      "title": "Стрічка",
+      "expand": "fill",
+      "is_interactive": true,
+      "page": "mobile"
+    },
+    "MSessionPost.dc.html": {
+      "x": 470,
+      "y": 0,
+      "w": 390,
+      "h": 3500,
+      "title": "Публічна сесія",
+      "expand": "fill",
+      "is_interactive": true,
+      "page": "mobile"
+    },
+    "MForum.dc.html": {
+      "x": 940,
+      "y": 0,
+      "w": 390,
+      "h": 2560,
+      "title": "Обговорення",
+      "expand": "fill",
+      "is_interactive": true,
+      "page": "mobile"
+    },
+    "MTopic.dc.html": {
+      "x": 1410,
+      "y": 0,
+      "w": 390,
+      "h": 3820,
+      "title": "Тема",
+      "expand": "fill",
+      "is_interactive": true,
+      "page": "mobile"
+    },
+    "MBlog.dc.html": {
+      "x": 1880,
+      "y": 0,
+      "w": 390,
+      "h": 3300,
+      "title": "Блог (link in bio)",
+      "expand": "fill",
+      "is_interactive": true,
+      "page": "mobile"
+    },
+    "MBlogPost.dc.html": {
+      "x": 0,
+      "y": 3940,
+      "w": 390,
+      "h": 5100,
+      "title": "Пост блогу",
+      "expand": "fill",
+      "is_interactive": true,
+      "page": "mobile"
+    },
+    "MProfile.dc.html": {
+      "x": 470,
+      "y": 3940,
+      "w": 390,
+      "h": 2800,
+      "title": "Профіль",
+      "expand": "fill",
+      "is_interactive": true,
+      "page": "mobile"
+    },
+    "MDiary.dc.html": {
+      "x": 940,
+      "y": 3940,
+      "w": 390,
+      "h": 3700,
+      "title": "Мій щоденник",
+      "expand": "fill",
+      "is_interactive": true,
+      "page": "mobile"
+    },
+    "MNewSession.dc.html": {
+      "x": 1410,
+      "y": 3940,
+      "w": 390,
+      "h": 2500,
+      "title": "Нова сесія + таймер",
+      "expand": "fill",
+      "is_interactive": true,
+      "page": "mobile"
+    },
+    "MLogin.dc.html": {
+      "x": 1880,
+      "y": 3940,
+      "w": 390,
+      "h": 1180,
+      "title": "Вхід",
+      "expand": "fill",
+      "is_interactive": false,
+      "page": "mobile"
+    },
+    "MobileNav.dc.html": {
+      "x": 0,
+      "y": 9160,
+      "w": 390,
+      "h": 84,
+      "title": "Таб-бар (компонент)",
+      "page": "mobile"
+    }
+  },
+  "order": [
+    "MFeed.dc.html",
+    "MSessionPost.dc.html",
+    "MForum.dc.html",
+    "MTopic.dc.html",
+    "MBlog.dc.html",
+    "MBlogPost.dc.html",
+    "MProfile.dc.html",
+    "MDiary.dc.html",
+    "MNewSession.dc.html",
+    "MLogin.dc.html",
+    "MobileNav.dc.html",
+    "Main.dc.html",
+    "Tea.dc.html",
+    "Diary.dc.html",
+    "QuickLog.dc.html",
+    "ShareCard.dc.html",
+    "Home.dc.html",
+    "Catalog.dc.html",
+    "TeaPage.dc.html",
+    "Shop.dc.html",
+    "Events.dc.html",
+    "Club.dc.html",
+    "ForShops.dc.html",
+    "Feed.dc.html",
+    "SessionPost.dc.html",
+    "Profile.dc.html",
+    "Forum.dc.html",
+    "Topic.dc.html",
+    "Blog.dc.html",
+    "BlogPost.dc.html",
+    "MyDiary.dc.html",
+    "NewSession.dc.html",
+    "Login.dc.html",
+    "Header.dc.html",
+    "Footer.dc.html",
+    "Cup.dc.html",
+    "Story.dc.html",
+    "Splash.dc.html",
+    "HeroA.dc.html",
+    "HeroB.dc.html",
+    "HeroC.dc.html",
+    "HeroD.dc.html",
+    "HeroE.dc.html"
+  ],
+  "notes": {
+    "rowSite": {
+      "x": 0,
+      "y": -300,
+      "text": "Сайт · десктоп",
+      "kind": "title1",
+      "maxW": 4480,
+      "page": "draft"
+    },
+    "rowMobile": {
+      "x": 0,
+      "y": 3100,
+      "text": "Телефон і соцмережі",
+      "kind": "title1",
+      "maxW": 1010,
+      "page": "draft"
+    },
+    "rowPublic": {
+      "x": 0,
+      "y": -300,
+      "text": "Відкладено: вітрина, каталог і магазини",
+      "kind": "title1",
+      "maxW": 5960,
+      "page": "site"
+    },
+    "rowCommunity": {
+      "x": 0,
+      "y": 4900,
+      "text": "Відкладено: дегустації, клуб, для магазинів",
+      "kind": "title1",
+      "maxW": 4480,
+      "page": "site"
+    },
+    "rowHero": {
+      "x": 0,
+      "y": -300,
+      "text": "Перший екран головної — 5 варіацій",
+      "kind": "title1",
+      "maxW": 4480,
+      "page": "hero"
+    },
+    "coreFeed": {
+      "x": 0,
+      "y": -300,
+      "text": "Стрічка, сесія і профіль",
+      "kind": "title1",
+      "maxW": 4480,
+      "page": "core"
+    },
+    "coreForum": {
+      "x": 0,
+      "y": 3100,
+      "text": "Обговорення",
+      "kind": "title1",
+      "maxW": 2960,
+      "page": "core"
+    },
+    "coreBlog": {
+      "x": 0,
+      "y": 6200,
+      "text": "Блог — продовження TikTok та Instagram",
+      "kind": "title1",
+      "maxW": 2960,
+      "page": "core"
+    },
+    "corePersonal": {
+      "x": 0,
+      "y": 9700,
+      "text": "Особисте: щоденник, запис і вхід",
+      "kind": "title1",
+      "maxW": 4480,
+      "page": "core"
+    },
+    "coreParts": {
+      "x": 0,
+      "y": 12800,
+      "text": "Компоненти, сторіс і заставка",
+      "kind": "title1",
+      "maxW": 4450,
+      "page": "core"
+    },
+    "mobRow1": {
+      "x": 0,
+      "y": -300,
+      "text": "Телефон · стрічка, сесія, форум, тема, блог",
+      "kind": "title1",
+      "maxW": 2330,
+      "page": "mobile"
+    },
+    "mobRow2": {
+      "x": 0,
+      "y": 3640,
+      "text": "Телефон · пост, профіль, щоденник, запис, вхід",
+      "kind": "title1",
+      "maxW": 2330,
+      "page": "mobile"
+    },
+    "mobRow3": {
+      "x": 0,
+      "y": 8860,
+      "text": "Компонент: нижній таб-бар",
+      "kind": "title1",
+      "maxW": 1400,
+      "page": "mobile"
+    }
+  },
+  "designSystems": []
+}

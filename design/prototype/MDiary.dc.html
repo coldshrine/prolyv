@@ -1,0 +1,216 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Prolyv — my diary (mobile)</title>
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&amp;family=Unbounded:wght@500;600;700;800&amp;display=swap">
+<style>
+body{margin:0;background:#07081A}
+*{box-sizing:border-box}
+a{color:#FFB3F0}a:hover{color:#FFFFFF}
+@keyframes prolyvSpin{to{transform:rotate(360deg)}}
+@media (prefers-reduced-motion: reduce){[data-spin]{animation:none!important}}
+</style>
+</helmet>
+<div style="min-height: 100vh; width: 100%; max-width: 430px; margin: 0 auto; display: flex; flex-direction: column; background: #07081A; color: #FFFFFF; font-family: Manrope, system-ui, sans-serif; font-size: 16px; line-height: 1.5">
+
+<header style="position: sticky; top: 0; z-index: 10; height: 56px; flex: none; padding: 0 8px 0 16px; display: flex; align-items: center; gap: 2px; background: rgba(7,8,26,0.85); backdrop-filter: blur(16px); -webkit-backdrop-filter: blur(16px); border-bottom: 1px solid rgba(255,255,255,0.08)">
+<a href="MFeed.dc.html" style="flex: 1; min-width: 0; display: inline-flex; align-items: center; gap: 8px; color: #FFFFFF; text-decoration: none"><span aria-hidden="true" style="width: 28px; height: 28px; border-radius: 50%; background: radial-gradient(circle at 30% 28%, rgba(255,255,255,0.9) 0, rgba(255,255,255,0) 28%), conic-gradient(from 200deg, #FF4FD8, #8A3FFC, #2563FF, #22E3A6, #FFC21A, #FF8A1F, #FF4FD8)"></span><span style="font-family: Unbounded, sans-serif; font-weight: 700; font-size: 18px">Prolyv</span></a>
+<a href="Story.dc.html" aria-label="Share your month" style="width: 44px; height: 44px; display: inline-grid; place-items: center; border-radius: 999px; color: #FFFFFF"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3v12"></path><path d="M7 8l5-5 5 5"></path><path d="M5 13v6a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2v-6"></path></svg></a>
+</header>
+
+<main style="flex: 1; display: flex; flex-direction: column">
+<section aria-label="Your last 30 days" style="padding: 28px 16px 24px; display: flex; flex-direction: column; align-items: center; text-align: center; gap: 16px; background: radial-gradient(70% 40% at 50% 30%, rgba(255,79,216,0.42) 0, rgba(255,79,216,0) 70%), radial-gradient(60% 30% at 100% 100%, rgba(255,138,31,0.45) 0, rgba(255,138,31,0) 70%), radial-gradient(60% 30% at 0% 0%, rgba(255,138,31,0.35) 0, rgba(255,138,31,0) 70%), #070A2A">
+<p style="margin: 0; font-size: 12px; font-weight: 800; letter-spacing: 0.1em; color: #FFC98A">HI, [NAME]</p>
+<h1 style="margin: 0; font-family: Unbounded, sans-serif; font-weight: 800; font-size: 30px; line-height: 1.08; letter-spacing: -0.02em">Your last 30 days in cups</h1>
+<dc-import name="Cup" kind="oolong" size="160" step="2" spin="on" hint-size="160px,160px"></dc-import>
+<p style="margin: 0; font-size: 14px; color: #D7D9F2">Your favourite type is <b style="color: #FFFFFF">oolong</b> — 9 of 23 sessions</p>
+<div style="width: 100%; display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 10px; text-align: left">
+<sc-for list="{{stats}}" as="st" hint-placeholder-count="4">
+<div style="min-width: 0; padding: 14px 16px; border-radius: 22px; background: rgba(16,18,48,0.6); border: 1px solid rgba(255,255,255,0.14); backdrop-filter: blur(14px); -webkit-backdrop-filter: blur(14px)">
+<p style="margin: 0; font-size: 13px; font-weight: 800; color: #C9CCEB">{{st.label}}</p>
+<p style="margin: 2px 0 0; font-family: Unbounded, sans-serif; font-weight: 800; font-size: 26px; line-height: 1.15; background: {{st.grad}}; -webkit-background-clip: text; background-clip: text; color: transparent">{{st.value}}</p>
+<p style="margin: 2px 0 0; font-size: 12px; color: #9EA3CF">{{st.hint}}</p>
+</div>
+</sc-for>
+</div>
+<a href="MNewSession.dc.html" style="width: 100%; height: 52px; display: flex; align-items: center; justify-content: center; gap: 10px; border-radius: 999px; background: linear-gradient(100deg, #FF4FD8 0%, #FF8A1F 100%); color: #07081A; text-decoration: none; font-weight: 800; font-size: 16px; box-shadow: 0 18px 40px -14px rgba(255,79,216,0.7)"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#07081A" stroke-width="2.6" stroke-linecap="round" aria-hidden="true"><path d="M12 5v14M5 12h14"></path></svg>New session</a>
+</section>
+
+<section aria-labelledby="cal-h" style="padding: 24px 16px 0">
+<div style="padding: 16px; border-radius: 22px; background: rgba(255,255,255,0.04); border: 1px solid rgba(255,255,255,0.1)">
+<div style="display: flex; justify-content: space-between; align-items: baseline; gap: 8px">
+<h2 id="cal-h" style="margin: 0; font-size: 17px; font-weight: 800">Five weeks in cups</h2>
+<p style="margin: 0; font-size: 13px; color: #9EA3CF; white-space: nowrap">Oct 5 — Nov 8</p>
+</div>
+<div aria-hidden="true" style="margin-top: 14px; display: grid; grid-template-columns: repeat(7, minmax(0, 1fr)); gap: 4px; text-align: center; font-size: 11px; font-weight: 800; color: #9EA3CF">
+<span>Mon</span><span>Tue</span><span>Wed</span><span>Thu</span><span>Fri</span><span>Sat</span><span>Sun</span>
+</div>
+<div style="margin-top: 8px; display: grid; grid-template-columns: repeat(7, minmax(0, 1fr)); gap: 8px 4px">
+<sc-for list="{{days}}" as="d" hint-placeholder-count="35">
+<div style="display: flex; flex-direction: column; align-items: center; gap: 3px">
+<sc-if value="{{d.has}}" hint-placeholder-val="{{ true }}"><dc-import name="Cup" kind="{{d.kind}}" size="30" hint-size="30px,30px"></dc-import></sc-if>
+<sc-if value="{{d.none}}" hint-placeholder-val="{{ false }}"><span style="width: 30px; height: 30px; border-radius: 50%; border: 1.5px dashed {{d.dash}}"></span></sc-if>
+<span style="padding: 0 5px; border-radius: 999px; font-size: 10px; font-weight: 800; line-height: 16px; white-space: nowrap; color: {{d.fg}}; background: {{d.pill}}">{{d.label}}</span>
+</div>
+</sc-for>
+</div>
+</div>
+</section>
+
+<section aria-labelledby="sessions-h" style="padding: 24px 0 8px; display: flex; flex-direction: column; gap: 14px">
+<h2 id="sessions-h" style="margin: 0; padding: 0 16px; font-family: Unbounded, sans-serif; font-weight: 700; font-size: 22px">Sessions</h2>
+<div role="group" aria-label="Filter sessions by type" style="display: flex; gap: 8px; overflow-x: auto; padding: 0 16px; scrollbar-width: none">
+<sc-for list="{{filters}}" as="f" hint-placeholder-count="5">
+<button type="button" onClick="{{f.pick}}" aria-pressed="{{f.pressed}}" style="flex: none; height: 44px; padding: 0 16px; border-radius: 999px; border: 1px solid {{f.border}}; background: {{f.bg}}; color: {{f.fg}}; font: inherit; font-weight: 800; font-size: 14px; white-space: nowrap; cursor: pointer">{{f.label}}</button>
+</sc-for>
+</div>
+<ol style="list-style: none; margin: 0; padding: 0 16px; display: flex; flex-direction: column; gap: 12px">
+<sc-for list="{{sessions}}" as="s" hint-placeholder-count="6">
+<li style="padding: 16px; border-radius: 22px; background: rgba(16,18,48,0.75); border: 1px solid rgba(255,255,255,0.12); display: flex; flex-direction: column; gap: 12px">
+<a href="MSessionPost.dc.html" style="display: flex; align-items: center; gap: 12px; color: #FFFFFF; text-decoration: none">
+<dc-import name="Cup" kind="{{s.kind}}" size="52" hint-size="52px,52px"></dc-import>
+<span style="flex: 1; min-width: 0"><span style="display: block; font-size: 12px; font-weight: 800; letter-spacing: 0.08em; color: #FFC98A">{{s.date}}</span><span style="display: block; font-weight: 800; font-size: 17px; line-height: 1.3">{{s.tea}}</span><span style="display: block; margin-top: 2px; font-size: 13px; color: #9EA3CF">{{s.shop}} · {{s.params}}</span></span>
+</a>
+<p style="margin: 0; font-size: 15px; color: #E6E7FA">{{s.note}}</p>
+<div style="display: flex; align-items: center; justify-content: space-between; gap: 10px">
+<span aria-hidden="true" style="color: #FFC21A; letter-spacing: 2px; font-size: 15px">{{s.stars}}</span>
+<span style="position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap">Rated {{s.r}} out of 5</span>
+<a href="Story.dc.html" style="min-height: 44px; display: inline-flex; align-items: center; gap: 6px; font-weight: 800; font-size: 14px; text-decoration: none"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3v12"></path><path d="M7 8l5-5 5 5"></path><path d="M5 13v6a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2v-6"></path></svg>Share</a>
+</div>
+</li>
+</sc-for>
+</ol>
+<sc-if value="{{noSessions}}" hint-placeholder-val="{{ false }}">
+<p style="margin: 0 16px; padding: 24px 16px; border-radius: 22px; border: 1px dashed rgba(255,255,255,0.2); text-align: center; font-size: 15px; color: #C9CCEB">No sessions of this type in the last 30 days.</p>
+</sc-if>
+</section>
+
+<section aria-labelledby="shelf-h" style="padding: 20px 16px 0">
+<div style="padding: 16px; border-radius: 22px; background: rgba(255,255,255,0.04); border: 1px solid rgba(255,255,255,0.1)">
+<h2 id="shelf-h" style="margin: 0; font-size: 17px; font-weight: 800">Running low on your shelf</h2>
+<p style="margin: 2px 0 0; font-size: 13px; color: #9EA3CF">Calculated from the grams in your sessions.</p>
+<ul style="list-style: none; margin: 14px 0 0; padding: 0; display: flex; flex-direction: column; gap: 14px">
+<sc-for list="{{shelf}}" as="sf" hint-placeholder-count="3">
+<li style="display: flex; align-items: center; gap: 12px">
+<dc-import name="Cup" kind="{{sf.kind}}" size="40" hint-size="40px,40px"></dc-import>
+<div style="flex: 1; min-width: 0; display: flex; flex-direction: column; gap: 6px">
+<span style="font-weight: 800; font-size: 15px; line-height: 1.3">{{sf.tea}}</span>
+<span style="display: block; height: 8px; border-radius: 999px; background: rgba(255,255,255,0.1); overflow: hidden"><span style="display: block; height: 100%; width: {{sf.pct}}; border-radius: 999px; background: linear-gradient(90deg, #FF4FD8, #FF8A1F)"></span></span>
+<span style="display: flex; justify-content: space-between; align-items: center; gap: 8px; font-size: 13px"><span style="color: #9EA3CF">{{sf.left}}</span><a href="MBlog.dc.html" style="min-height: 44px; margin: -12px 0; display: inline-flex; align-items: center; font-weight: 800; text-decoration: none">Restock</a></span>
+</div>
+</li>
+</sc-for>
+</ul>
+</div>
+</section>
+
+<section aria-labelledby="profile-h" style="padding: 20px 16px 0">
+<div style="padding: 16px; border-radius: 22px; background: rgba(255,255,255,0.04); border: 1px solid rgba(255,255,255,0.1)">
+<h2 id="profile-h" style="margin: 0; font-size: 17px; font-weight: 800">Your tea profile</h2>
+<div aria-hidden="true" style="margin-top: 14px; height: 14px; border-radius: 999px; overflow: hidden; display: flex; gap: 3px">
+<sc-for list="{{share}}" as="sh" hint-placeholder-count="5"><span style="width: {{sh.w}}; background: {{sh.grad}}"></span></sc-for>
+</div>
+<ul style="list-style: none; margin: 14px 0 0; padding: 0; display: flex; flex-direction: column; gap: 8px; font-size: 15px">
+<sc-for list="{{share}}" as="sh" hint-placeholder-count="5">
+<li style="display: flex; align-items: center; gap: 10px"><span aria-hidden="true" style="width: 12px; height: 12px; flex: none; border-radius: 50%; background: {{sh.grad}}"></span><span style="flex: 1">{{sh.label}}</span><span style="font-weight: 800">{{sh.n}}</span></li>
+</sc-for>
+</ul>
+<p style="margin: 18px 0 8px; font-size: 12px; font-weight: 800; letter-spacing: 0.08em; color: #9EA3CF">TOP NOTES</p>
+<ul style="list-style: none; margin: 0; padding: 0; display: flex; flex-wrap: wrap; gap: 6px">
+<sc-for list="{{notes}}" as="n" hint-placeholder-count="5">
+<li style="padding: 5px 12px; border-radius: 999px; background: {{n.bg}}; color: {{n.fg}}; font-size: 12px; font-weight: 800">{{n.label}}</li>
+</sc-for>
+</ul>
+</div>
+</section>
+
+<section aria-label="Your tea year 2026" style="padding: 20px 16px 24px">
+<a href="Story.dc.html" style="display: flex; flex-direction: column; gap: 10px; padding: 18px 16px; border-radius: 22px; background: radial-gradient(80% 60% at 100% 0%, rgba(255,138,31,0.4) 0, rgba(255,138,31,0) 70%), linear-gradient(150deg, #8A3FFC 0%, #3B1FB8 100%); color: #FFFFFF; text-decoration: none">
+<span style="font-size: 12px; font-weight: 800; letter-spacing: 0.1em; color: #FFE7FA">YOUR TEA YEAR 2026</span>
+<span style="font-family: Unbounded, sans-serif; font-weight: 800; font-size: 19px; line-height: 1.2">Your top teas, favourite notes and longest session of the year</span>
+<span style="font-size: 14px; color: #F3EEFF">Arrives on December 28 as a story you can share.</span>
+<span style="margin-top: 6px; height: 44px; display: inline-flex; align-items: center; justify-content: center; gap: 8px; border-radius: 999px; background: #FFFFFF; color: #2A1478; font-weight: 800; font-size: 14px">See an example<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#2A1478" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14"></path><path d="M13 6l6 6-6 6"></path></svg></span>
+</a>
+</section>
+</main>
+
+<div style="position: sticky; bottom: 0; z-index: 10; margin-top: auto"><dc-import name="MobileNav" current="diary" hint-size="100%,84px"></dc-import></div>
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props='{"$preview":{"width":390,"height":3700}}'>
+class Component extends DCLogic {
+  renderVals() {
+    const st = this.state || {};
+    const filter = st.filter || 'all';
+    const map = { O: 'oolong', D: 'oolong', R: 'red', S: 'shu', G: 'green', W: 'white' };
+    const oct = 'O R - S O - G O R S S - W O - R D S - G O - R S O - W D - R O'.split(' ');
+    const nov = ['O', '-', 'R', 'S', 'O', 'F', 'F', 'F'];
+    const cells = oct.slice(4).map((k, i) => ({ k, day: i + 5, month: 'Oct' })).concat(nov.map((k, i) => ({ k, day: i + 1, month: 'Nov' })));
+    const days = cells.map((c) => {
+      const has = !!map[c.k];
+      const future = c.k === 'F';
+      const today = c.month === 'Nov' && c.day === 5;
+      return {
+        has, none: !has, kind: map[c.k] || 'oolong',
+        label: c.day === 1 || (c.month === 'Oct' && c.day === 5) ? c.day + ' ' + c.month : String(c.day),
+        dash: future ? 'rgba(255,255,255,0.1)' : 'rgba(255,255,255,0.24)',
+        fg: today ? '#07081A' : (future ? '#5F6390' : '#C9CCEB'),
+        pill: today ? '#FFFFFF' : 'transparent'
+      };
+    });
+    const all = [
+      { date: 'NOV 5', tea: 'Tie Guan Yin “Spring”', shop: 'Gaiwan', params: '7 g · 95 °C · 8 steeps', note: 'Lilac and cream, honey by the fifth.', kind: 'oolong', r: 5 },
+      { date: 'NOV 4', tea: 'Shu pu-erh “Menghai” 2019', shop: 'Clay teapot', params: '8 g · 100 °C · 10 steeps', note: 'Cocoa and damp forest, no mustiness at all.', kind: 'shu', r: 4 },
+      { date: 'NOV 3', tea: 'Dian Hong “Golden Buds”', shop: 'Gaiwan', params: '5 g · 90 °C · 6 steeps', note: 'Honey and bread crust. Shorter steeps work better.', kind: 'red', r: 4 },
+      { date: 'NOV 1', tea: 'Da Hong Pao', shop: 'Glass teapot', params: '7 g · 100 °C · 7 steeps', note: 'Roasted nuts and a mineral finish.', kind: 'oolong', r: 4 },
+      { date: 'OCT 31', tea: 'Tie Guan Yin “Spring”', shop: 'Gaiwan', params: '8 g · 95 °C · 9 steeps', note: 'More leaf — fuller, but a bit astringent.', kind: 'oolong', r: 4 },
+      { date: 'OCT 27', tea: 'Bai Mu Dan 2023', shop: 'Glass teapot', params: '5 g · 85 °C · 5 steeps', note: 'Too light for me. Cold brew next time.', kind: 'white', r: 3 }
+    ];
+    const main = { oolong: 1, red: 1, shu: 1 };
+    const list = all.filter((s) => filter === 'all' || (filter === 'other' ? !main[s.kind] : s.kind === filter));
+    const chips = [['all', 'All'], ['oolong', 'Oolong'], ['red', 'Black'], ['shu', 'Shu pu-erh'], ['other', 'Other']];
+    return {
+      stats: [
+        { label: 'Sessions', value: '23', hint: '5 more than last month', grad: 'linear-gradient(90deg, #FF4FD8, #FF8A1F)' },
+        { label: 'Favourite type', value: 'Oolong', hint: '9 of 23 sessions', grad: 'linear-gradient(90deg, #FFE066, #FF8A1F)' },
+        { label: 'Average rating', value: '4.2', hint: 'out of 5', grad: 'linear-gradient(90deg, #5CF2B8, #22B8FF)' },
+        { label: 'New teas', value: '6', hint: 'tried for the first time', grad: 'linear-gradient(90deg, #C77DFF, #FF9BEA)' }
+      ],
+      days,
+      filters: chips.map((c) => {
+        const on = c[0] === filter;
+        return { label: c[1], pressed: on, bg: on ? '#FFFFFF' : 'rgba(255,255,255,0.06)', fg: on ? '#07081A' : '#FFFFFF', border: on ? '#FFFFFF' : 'rgba(255,255,255,0.18)', pick: () => this.setState({ filter: c[0] }) };
+      }),
+      sessions: list.map((s) => Object.assign({}, s, { stars: '★★★★★'.slice(0, s.r) + '☆☆☆☆☆'.slice(0, 5 - s.r) })),
+      noSessions: list.length === 0,
+      share: [
+        { label: 'Oolong', n: '9', w: '39%', grad: 'linear-gradient(90deg, #FFB347, #FF4FD8)' },
+        { label: 'Black', n: '5', w: '22%', grad: 'linear-gradient(90deg, #FF7A6B, #C4161C)' },
+        { label: 'Shu pu-erh', n: '5', w: '22%', grad: 'linear-gradient(90deg, #A86BFF, #3A0E8C)' },
+        { label: 'Green', n: '2', w: '9%', grad: 'linear-gradient(90deg, #5CF2B8, #0E9E73)' },
+        { label: 'White', n: '2', w: '8%', grad: 'linear-gradient(90deg, #F4EEFF, #B9A6F0)' }
+      ],
+      notes: [
+        { label: 'Lilac · 7', bg: 'rgba(255,79,216,0.18)', fg: '#FFC4F2' },
+        { label: 'Honey · 6', bg: 'rgba(255,194,26,0.16)', fg: '#FFE39A' },
+        { label: 'Cocoa · 4', bg: 'rgba(138,63,252,0.24)', fg: '#DCC8FF' },
+        { label: 'Cream · 4', bg: 'rgba(255,138,31,0.2)', fg: '#FFC98A' },
+        { label: 'Dried fruit · 3', bg: 'rgba(34,227,166,0.18)', fg: '#9DF5D3' }
+      ],
+      shelf: [
+        { tea: 'Tie Guan Yin “Spring”', left: '12 g of 50 left', pct: '24%', kind: 'oolong' },
+        { tea: 'Shu pu-erh “Menghai” 2019', left: '18 g of 100 left', pct: '18%', kind: 'shu' },
+        { tea: 'Long Jing', left: '9 g of 50 left', pct: '18%', kind: 'green' }
+      ]
+    };
+  }
+}
+</script>
+</body>
+</html>

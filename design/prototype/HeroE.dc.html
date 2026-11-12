@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="uk">
+<head>
+<meta charset="utf-8">
+<title>Перший екран E — бенто</title>
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&amp;family=Unbounded:wght@500;600;700;800&amp;display=swap">
+<style>
+body{margin:0}
+</style>
+</helmet>
+<div style="position: relative; width: 1440px; height: 900px; overflow: hidden; box-sizing: border-box; font-family: Manrope, system-ui, sans-serif; color: #FFFFFF; line-height: 1.5; background: #07081A">
+
+<header style="position: absolute; top: 0; left: 0; right: 0; height: 88px; padding: 0 40px; display: flex; align-items: center; gap: 36px">
+<a href="#home" style="display: inline-flex; align-items: center; gap: 10px; color: #FFFFFF; text-decoration: none"><span aria-hidden="true" style="width: 32px; height: 32px; border-radius: 50%; background: radial-gradient(circle at 30% 28%, rgba(255,255,255,0.9) 0, rgba(255,255,255,0) 28%), conic-gradient(from 200deg, #FF4FD8, #8A3FFC, #2563FF, #22E3A6, #FFC21A, #FF8A1F, #FF4FD8)"></span><span style="font-family: Unbounded, sans-serif; font-weight: 700; font-size: 20px">Пролив</span></a>
+<nav aria-label="Основна навігація" style="flex: 1; display: flex; gap: 28px; font-weight: 700; font-size: 15px"><a href="#catalog" style="color: #E6E7FA; text-decoration: none">Каталог</a><a href="#shops" style="color: #E6E7FA; text-decoration: none">Магазини</a><a href="#events" style="color: #E6E7FA; text-decoration: none">Дегустації</a><a href="#club" style="color: #E6E7FA; text-decoration: none">Клуб</a><a href="#diary" style="color: #E6E7FA; text-decoration: none">Щоденник</a></nav>
+<a href="#login" style="height: 44px; display: inline-flex; align-items: center; padding: 0 18px; border-radius: 999px; background: rgba(255,255,255,0.1); border: 1px solid rgba(255,255,255,0.2); color: #FFFFFF; text-decoration: none; font-weight: 700; font-size: 15px">Увійти</a>
+<a href="#start" style="height: 44px; display: inline-flex; align-items: center; padding: 0 18px; border-radius: 999px; background: linear-gradient(100deg, #FF4FD8 0%, #FF8A1F 100%); color: #07081A; text-decoration: none; font-weight: 800; font-size: 15px">Записати чай</a>
+</header>
+
+<div style="position: absolute; left: 40px; right: 40px; top: 96px; bottom: 32px; display: grid; grid-template-columns: repeat(12, minmax(0, 1fr)); grid-template-rows: 300px 230px 210px; gap: 16px">
+
+<section style="grid-column: 1 / 8; grid-row: 1 / 3; position: relative; overflow: hidden; padding: 48px; border-radius: 36px; background: radial-gradient(50% 70% at 100% 0%, #FF8A1F 0, rgba(255,138,31,0) 70%), radial-gradient(50% 70% at 90% 100%, #2563FF 0, rgba(37,99,255,0) 70%), linear-gradient(135deg, #FF4FD8 0%, #8A3FFC 55%, #4A22D0 100%); display: flex; flex-direction: column; justify-content: flex-end; gap: 22px">
+<svg aria-hidden="true" viewBox="0 0 800 546" preserveAspectRatio="none" style="position: absolute; inset: 0; width: 100%; height: 100%"><path d="M300 -20 C 420 160, 620 140, 820 300" fill="none" stroke="rgba(255,255,255,0.85)" stroke-width="26" stroke-linecap="round"></path><path d="M330 -20 C 450 180, 640 170, 820 330" fill="none" stroke="rgba(255,255,255,0.25)" stroke-width="5" stroke-linecap="round"></path></svg>
+<h1 style="position: relative; margin: 0; max-width: 11em; font-family: Unbounded, sans-serif; font-weight: 800; font-size: 56px; line-height: 1.04; letter-spacing: -0.035em">Щоденник, рейтинг і магазини — в одному місці</h1>
+<p style="position: relative; margin: 0; max-width: 30em; font-size: 18px; color: #FFF1FC">Записуйте сесії, дивіться чесні оцінки спільноти й купуйте чай в українських магазинах.</p>
+<div style="position: relative; display: flex; gap: 12px">
+<a href="#start" style="height: 56px; display: inline-flex; align-items: center; padding: 0 26px; border-radius: 999px; background: #FFFFFF; color: #2A1478; text-decoration: none; font-weight: 800; font-size: 16px">Почати щоденник</a>
+<a href="#catalog" style="height: 56px; display: inline-flex; align-items: center; padding: 0 24px; border-radius: 999px; background: rgba(20,8,70,0.3); border: 1px solid rgba(255,255,255,0.4); color: #FFFFFF; text-decoration: none; font-weight: 800; font-size: 16px">Каталог</a>
+</div>
+</section>
+
+<a href="#tea" style="grid-column: 8 / 13; grid-row: 1; position: relative; overflow: hidden; padding: 28px; border-radius: 36px; background: radial-gradient(60% 80% at 80% 50%, rgba(255,138,31,0.55) 0, rgba(255,138,31,0) 70%), #12142F; border: 1px solid rgba(255,255,255,0.1); color: #FFFFFF; text-decoration: none; display: flex; align-items: center; gap: 24px">
+<div style="flex: 1; min-width: 0; display: flex; flex-direction: column; gap: 10px">
+<p style="margin: 0; align-self: flex-start; padding: 5px 12px; border-radius: 999px; background: rgba(255,255,255,0.12); font-size: 12px; font-weight: 800; letter-spacing: 0.08em">№ 1 ЖОВТНЯ</p>
+<p style="margin: 0; font-family: Unbounded, sans-serif; font-weight: 700; font-size: 26px; line-height: 1.15">Те Гуань Інь «Весняний»</p>
+<p style="margin: 0; font-size: 15px; color: #C9CCEB">Улун · у 4 магазинах · від 79 ₴ / 10 г</p>
+<p style="margin: 0; font-weight: 800; font-size: 18px; color: #FFE39A">★ 4,8 <span style="font-weight: 600; font-size: 14px; color: #C9CCEB">· 64 оцінки</span></p>
+</div>
+<span aria-hidden="true" style="width: 170px; height: 170px; flex: none; border-radius: 50%; background: radial-gradient(circle at 32% 26%, rgba(255,255,255,0.88) 0, rgba(255,255,255,0) 24%), radial-gradient(circle at 50% 62%, #FFB347 0, #E8590C 100%); box-shadow: 0 30px 60px -18px #FF8A1F"></span>
+</a>
+
+<a href="#club" style="grid-column: 8 / 11; grid-row: 2; padding: 26px; border-radius: 36px; background: linear-gradient(150deg, #22E3A6 0%, #1E9BFF 60%, #2563FF 100%); color: #07081A; text-decoration: none; display: flex; flex-direction: column; justify-content: space-between">
+<div><p style="margin: 0; font-size: 12px; font-weight: 800; letter-spacing: 0.08em">ЧАЙНИЙ КЛУБ</p><p style="margin: 6px 0 0; font-family: Unbounded, sans-serif; font-weight: 800; font-size: 22px; line-height: 1.15">Сет листопада вже в дорозі</p></div>
+<span aria-hidden="true" style="display: flex">
+<sc-for list="{{clubSet}}" as="c" hint-placeholder-count="4"><span style="width: 56px; height: 56px; margin-right: -12px; border-radius: 50%; border: 3px solid rgba(255,255,255,0.7); background: {{c.orb}}"></span></sc-for>
+</span>
+</a>
+
+<a href="#events" style="grid-column: 11 / 13; grid-row: 2; padding: 24px; border-radius: 36px; background: linear-gradient(160deg, #FFE066 0%, #FF8A1F 70%, #FF4B3E 100%); color: #07081A; text-decoration: none; display: flex; flex-direction: column; justify-content: space-between">
+<p style="margin: 0; font-family: Unbounded, sans-serif; font-weight: 800; font-size: 44px; line-height: 0.95">07<br><span style="font-size: 18px; letter-spacing: 0.08em">ЛИС</span></p>
+<p style="margin: 0; font-weight: 800; font-size: 15px; line-height: 1.3">Улуни Фуцзяні<br><span style="font-weight: 700; font-size: 13px">Київ · 18:00</span></p>
+</a>
+
+<section aria-label="Що п’ють зараз" style="grid-column: 1 / 5; grid-row: 3; padding: 24px; border-radius: 36px; background: #12142F; border: 1px solid rgba(255,255,255,0.1); display: flex; flex-direction: column; gap: 12px">
+<p style="margin: 0; font-size: 12px; font-weight: 800; letter-spacing: 0.08em; color: #9EA3CF">ЩО П’ЮТЬ ЗАРАЗ</p>
+<sc-for list="{{feed}}" as="f" hint-placeholder-count="2">
+<div style="display: flex; align-items: center; gap: 12px">
+<span aria-hidden="true" style="width: 42px; height: 42px; flex: none; border-radius: 50%; background: {{f.orb}}"></span>
+<div style="flex: 1; min-width: 0"><p style="margin: 0; font-weight: 800; font-size: 15px">{{f.tea}}</p><p style="margin: 0; font-size: 13px; color: #9EA3CF">{{f.who}}</p></div>
+<span style="font-weight: 800; color: #FFE39A">★ {{f.rating}}</span>
+</div>
+</sc-for>
+</section>
+
+<a href="#catalog" style="grid-column: 5 / 13; grid-row: 3; padding: 24px 28px; border-radius: 36px; background: rgba(255,255,255,0.05); border: 1px solid rgba(255,255,255,0.12); color: #FFFFFF; text-decoration: none; display: flex; flex-direction: column; justify-content: space-between">
+<div style="display: flex; justify-content: space-between; align-items: center"><p style="margin: 0; font-size: 12px; font-weight: 800; letter-spacing: 0.08em; color: #9EA3CF">КАТАЛОГ ЗА КОЛЬОРОМ НАСТОЮ</p><span style="font-weight: 800; color: #FFB3F0">Увесь каталог →</span></div>
+<ul style="list-style: none; margin: 0; padding: 0; display: flex; justify-content: space-between">
+<sc-for list="{{types}}" as="t" hint-placeholder-count="7">
+<li style="display: flex; flex-direction: column; align-items: center; gap: 8px; font-size: 13px; font-weight: 800"><span style="width: 64px; height: 64px; border-radius: 50%; background: {{t.orb}}; box-shadow: {{t.glow}}"></span>{{t.label}}</li>
+</sc-for>
+</ul>
+</a>
+</div>
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props='{"$preview":{"width":1440,"height":900}}'>
+class Component extends DCLogic {
+  renderVals() {
+    const T = { green: ['Зелений', '#5CF2B8', '#0E9E73'], white: ['Білий', '#F4EEFF', '#B9A6F0'], yellow: ['Жовтий', '#FFE066', '#E8A100'], oolong: ['Улун', '#FFB347', '#E8590C'], red: ['Червоний', '#FF7A6B', '#C4161C'], sheng: ['Шен пуер', '#D6F25C', '#8FAE12'], shu: ['Шу пуер', '#A86BFF', '#3A0E8C'] };
+    const orb = (k) => 'radial-gradient(circle at 32% 28%, rgba(255,255,255,0.85) 0, rgba(255,255,255,0) 26%), radial-gradient(circle at 50% 60%, ' + T[k][1] + ' 0, ' + T[k][2] + ' 100%)';
+    return {
+      types: ['green', 'white', 'yellow', 'oolong', 'red', 'sheng', 'shu'].map((k) => ({ label: T[k][0], orb: orb(k), glow: '0 14px 30px -12px ' + T[k][1] })),
+      clubSet: ['green', 'oolong', 'red', 'shu'].map((k) => ({ orb: orb(k) })),
+      feed: [
+        { tea: 'Шу пуер «Мен Хай» 2019', who: 'Олена · Львів · 2 хв тому', rating: '4,5', orb: orb('shu') },
+        { tea: 'Дянь Хун «Золоті бруньки»', who: 'Дмитро · Київ · 40 хв тому', rating: '4,8', orb: orb('red') }
+      ]
+    };
+  }
+}
+</script>
+</body>
+</html>

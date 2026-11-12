@@ -1,0 +1,189 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Prolyv — discussions (mobile)</title>
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&amp;family=Unbounded:wght@500;600;700;800&amp;display=swap">
+<style>
+body{margin:0;background:#07081A}
+*{box-sizing:border-box}
+a{color:#FFB3F0}a:hover{color:#FFFFFF}
+@keyframes prolyvSpin{to{transform:rotate(360deg)}}
+@media (prefers-reduced-motion: reduce){[data-spin]{animation:none!important}}
+</style>
+</helmet>
+<div style="min-height: 100vh; width: 100%; max-width: 430px; margin: 0 auto; display: flex; flex-direction: column; background: #07081A; color: #FFFFFF; font-family: Manrope, system-ui, sans-serif; font-size: 16px; line-height: 1.5">
+
+<header style="position: sticky; top: 0; z-index: 10; height: 56px; flex: none; padding: 0 8px 0 16px; display: flex; align-items: center; gap: 2px; background: rgba(7,8,26,0.85); backdrop-filter: blur(16px); -webkit-backdrop-filter: blur(16px); border-bottom: 1px solid rgba(255,255,255,0.08)">
+<a href="MFeed.dc.html" style="flex: 1; min-width: 0; display: inline-flex; align-items: center; gap: 8px; color: #FFFFFF; text-decoration: none"><span aria-hidden="true" style="width: 28px; height: 28px; border-radius: 50%; background: radial-gradient(circle at 30% 28%, rgba(255,255,255,0.9) 0, rgba(255,255,255,0) 28%), conic-gradient(from 200deg, #FF4FD8, #8A3FFC, #2563FF, #22E3A6, #FFC21A, #FF8A1F, #FF4FD8)"></span><span style="font-family: Unbounded, sans-serif; font-weight: 700; font-size: 18px">Prolyv</span></a>
+<a href="MNewSession.dc.html" aria-label="New topic" style="width: 44px; height: 44px; display: inline-grid; place-items: center; border-radius: 999px; color: #FFFFFF"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><circle cx="12" cy="12" r="9"></circle><path d="M12 8v8M8 12h8"></path></svg></a>
+</header>
+
+<main style="flex: 1; display: flex; flex-direction: column">
+<section aria-labelledby="forum-h" style="padding: 28px 16px 24px; display: flex; flex-direction: column; gap: 12px; background: radial-gradient(70% 45% at 80% 20%, rgba(138,63,252,0.55) 0, rgba(138,63,252,0) 70%), radial-gradient(60% 35% at 20% 100%, rgba(37,99,255,0.5) 0, rgba(37,99,255,0) 70%), radial-gradient(50% 30% at 100% 95%, rgba(255,79,216,0.3) 0, rgba(255,79,216,0) 70%), #070A2A">
+<h1 id="forum-h" style="margin: 0; font-family: Unbounded, sans-serif; font-weight: 800; font-size: 30px; line-height: 1.08; letter-spacing: -0.02em">Discussions</h1>
+<p style="margin: 0; font-size: 16px; color: #D7D9F2">Ask with your session attached — grams, temperature and steeps included — and get answers that actually fit your cup.</p>
+<div role="search" style="margin-top: 4px; display: flex; align-items: center; gap: 10px; height: 48px; padding: 0 16px; border-radius: 999px; background: rgba(255,255,255,0.1); border: 1px solid rgba(255,255,255,0.22); backdrop-filter: blur(16px); -webkit-backdrop-filter: blur(16px)">
+<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" aria-hidden="true"><circle cx="11" cy="11" r="7"></circle><path d="M20 20l-3.5-3.5"></path></svg>
+<label for="forum-q" style="position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap">Search discussions</label>
+<input id="forum-q" type="search" placeholder="Search topics, teas or questions" style="flex: 1; min-width: 0; height: 100%; border: 0; background: transparent; font: inherit; font-size: 16px; color: #FFFFFF; color-scheme: dark; -webkit-appearance: none; appearance: none">
+</div>
+</section>
+
+<section aria-labelledby="topics-h" style="padding: 20px 0 8px; display: flex; flex-direction: column; gap: 14px">
+<div role="group" aria-label="Sections" style="display: flex; gap: 8px; overflow-x: auto; padding: 0 16px; scrollbar-width: none">
+<sc-for list="{{chips}}" as="c" hint-placeholder-count="8">
+<button type="button" onClick="{{c.pick}}" aria-pressed="{{c.on}}" aria-label="{{c.aria}}" style="flex: none; height: 44px; display: inline-flex; align-items: center; gap: 8px; padding: 0 14px 0 8px; border-radius: 999px; border: 1px solid {{c.border}}; background: {{c.bg}}; color: {{c.fg}}; font: inherit; font-weight: 800; font-size: 14px; white-space: nowrap; cursor: pointer">
+<dc-import name="Cup" kind="{{c.kind}}" size="24" hint-size="24px,24px"></dc-import>
+<span>{{c.label}}</span>
+<sc-if value="{{c.hasCount}}" hint-placeholder-val="{{ true }}"><span style="font-size: 12px; font-weight: 700; color: {{c.countFg}}">{{c.count}}</span></sc-if>
+</button>
+</sc-for>
+</div>
+
+<div style="padding: 0 16px; display: flex; flex-direction: column; align-items: flex-start; gap: 10px">
+<h2 id="topics-h" style="margin: 0; font-family: Unbounded, sans-serif; font-weight: 700; font-size: 22px">{{heading}}</h2>
+<span style="display: inline-flex; align-items: center; gap: 8px">
+<label for="topics-sort" style="font-size: 13px; color: #9EA3CF; font-weight: 700">Sort</label>
+<select id="topics-sort" style="height: 44px; padding: 0 12px; border-radius: 12px; border: 1px solid rgba(255,255,255,0.18); background: #12142F; color: #FFFFFF; font: inherit; font-size: 14px; font-weight: 700"><option>Active</option><option>Newest</option><option>Unanswered</option><option>Most helpful</option></select>
+</span>
+</div>
+
+<ol style="list-style: none; margin: 0; padding: 0 16px; display: flex; flex-direction: column; gap: 10px">
+<sc-for list="{{topics}}" as="t" hint-placeholder-count="8">
+<li>
+<article style="padding: 14px 16px; border-radius: 22px; background: rgba(16,18,48,0.75); border: 1px solid rgba(255,255,255,0.12); display: flex; flex-direction: column; gap: 8px">
+<div style="display: flex; align-items: center; gap: 8px">
+<span aria-hidden="true" style="width: 36px; height: 36px; flex: none; border-radius: 50%; background: {{t.avatar}}; color: #07081A; display: grid; place-items: center; font-weight: 800; font-size: 13px">{{t.initials}}</span>
+<div style="flex: 1; min-width: 0; display: flex; flex-wrap: wrap; align-items: center; gap: 6px">
+<span style="padding: 4px 10px; border-radius: 999px; background: {{t.secBg}}; color: {{t.secFg}}; font-size: 11px; font-weight: 800; letter-spacing: 0.04em">{{t.section}}</span>
+<sc-if value="{{t.pinned}}" hint-placeholder-val="{{ false }}"><span style="padding: 4px 10px; border-radius: 999px; background: rgba(255,194,26,0.16); color: #FFE39A; font-size: 11px; font-weight: 800">PINNED</span></sc-if>
+<sc-if value="{{t.solved}}" hint-placeholder-val="{{ false }}"><span style="padding: 4px 10px; border-radius: 999px; background: rgba(34,227,166,0.18); color: #9DF5D3; font-size: 11px; font-weight: 800">SOLVED</span></sc-if>
+<sc-if value="{{t.attached}}" hint-placeholder-val="{{ false }}"><span style="display: inline-flex; align-items: center; gap: 5px; padding: 3px 10px 3px 4px; border-radius: 999px; background: rgba(255,255,255,0.08); font-size: 11px; font-weight: 800; color: #C9CCEB"><dc-import name="Cup" kind="{{t.kind}}" size="18" hint-size="18px,18px"></dc-import>SESSION</span></sc-if>
+</div>
+<sc-if value="{{t.showTime}}" hint-placeholder-val="{{ true }}"><span style="flex: none; font-size: 12px; color: #9EA3CF">{{t.time}}</span></sc-if>
+</div>
+<a href="MTopic.dc.html" style="display: flex; flex-direction: column; gap: 8px; min-height: 44px; color: #FFFFFF; text-decoration: none">
+<span style="display: block; font-weight: 800; font-size: 16px; line-height: 1.3">{{t.title}}</span>
+<span style="display: flex; flex-wrap: wrap; gap: 4px 12px; font-size: 13px; color: #9EA3CF"><span>{{t.author}}</span><span>{{t.repliesLabel}}</span><span>{{t.viewsLabel}}</span><span>{{t.lastLabel}}</span></span>
+</a>
+</article>
+</li>
+</sc-for>
+</ol>
+<sc-if value="{{empty}}" hint-placeholder-val="{{ false }}">
+<p style="margin: 0 16px; padding: 24px 16px; border-radius: 22px; border: 1px dashed rgba(255,255,255,0.2); text-align: center; font-size: 15px; color: #C9CCEB">No topics here yet. Start the first one.</p>
+</sc-if>
+</section>
+
+<section aria-labelledby="ask-h" style="padding: 24px 16px 0">
+<div style="padding: 18px 16px; border-radius: 22px; background: radial-gradient(80% 60% at 100% 0%, rgba(255,138,31,0.4) 0, rgba(255,138,31,0) 70%), linear-gradient(150deg, #8A3FFC 0%, #3B1FB8 100%); display: flex; flex-direction: column; gap: 10px">
+<h2 id="ask-h" style="margin: 0; font-family: Unbounded, sans-serif; font-weight: 800; font-size: 19px; line-height: 1.2">Ask a better question</h2>
+<p style="margin: 0; font-size: 14px; color: #F3EEFF">Attach a session from your diary and people will see your leaf, water, temperature and every steep.</p>
+<a href="MNewSession.dc.html" style="margin-top: 4px; height: 52px; display: flex; align-items: center; justify-content: center; border-radius: 999px; background: #FFFFFF; color: #2A1478; text-decoration: none; font-weight: 800; font-size: 16px">New topic with a session</a>
+</div>
+</section>
+
+<section aria-labelledby="rules-h" style="padding: 20px 16px 0">
+<div style="padding: 16px; border-radius: 22px; background: rgba(255,255,255,0.04); border: 1px solid rgba(255,255,255,0.1)">
+<h2 id="rules-h" style="margin: 0; font-size: 17px; font-weight: 800">House rules</h2>
+<ol style="margin: 10px 0 0; padding-left: 20px; display: flex; flex-direction: column; gap: 8px; font-size: 15px; color: #C9CCEB">
+<li>Be kind — everyone’s cup is different.</li>
+<li>Attach a session when asking about taste or brewing.</li>
+<li>Say where a tea is from if you recommend it.</li>
+<li>No shop ads — share experiences, not deals.</li>
+</ol>
+</div>
+</section>
+
+<section aria-labelledby="helpers-h" style="padding: 20px 16px 24px">
+<div style="padding: 16px; border-radius: 22px; background: rgba(255,255,255,0.04); border: 1px solid rgba(255,255,255,0.1)">
+<h2 id="helpers-h" style="margin: 0; font-size: 17px; font-weight: 800">Most helpful this month</h2>
+<ol style="list-style: none; margin: 6px 0 0; padding: 0; display: flex; flex-direction: column">
+<sc-for list="{{helpers}}" as="h" hint-placeholder-count="3">
+<li style="min-height: 48px; display: flex; align-items: center; gap: 10px; border-top: 1px solid rgba(255,255,255,0.08)"><span aria-hidden="true" style="width: 36px; height: 36px; flex: none; border-radius: 50%; background: {{h.avatar}}; color: #07081A; display: grid; place-items: center; font-weight: 800; font-size: 13px">{{h.initials}}</span><a href="MProfile.dc.html" style="flex: 1; min-width: 0; min-height: 44px; display: inline-flex; align-items: center; color: #FFFFFF; text-decoration: none; font-weight: 800; font-size: 15px">{{h.name}}</a><span style="font-size: 13px; color: #9EA3CF">{{h.score}}</span></li>
+</sc-for>
+</ol>
+</div>
+</section>
+</main>
+
+<div style="position: sticky; bottom: 0; z-index: 10; margin-top: auto"><dc-import name="MobileNav" current="forum" hint-size="100%,84px"></dc-import></div>
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props='{"$preview":{"width":390,"height":2560}}'>
+class Component extends DCLogic {
+  renderVals() {
+    const st = this.state || {};
+    const sec = st.sec || 'all';
+    const SEC = {
+      oolong: ['Oolong', 'rgba(255,138,31,0.2)', '#FFC98A', 'OOLONG'],
+      puerh: ['Pu-erh', 'rgba(138,63,252,0.24)', '#DCC8FF', 'PU-ERH'],
+      black: ['Black & white', 'rgba(255,75,62,0.2)', '#FFA59B', 'BLACK & WHITE'],
+      green: ['Green & yellow', 'rgba(214,242,92,0.16)', '#E4F59A', 'GREEN & YELLOW'],
+      teaware: ['Teaware', 'rgba(37,99,255,0.24)', '#B9CCFF', 'TEAWARE'],
+      beginners: ['Beginners', 'rgba(34,227,166,0.18)', '#9DF5D3', 'BEGINNERS'],
+      buy: ['Where to buy', 'rgba(255,79,216,0.18)', '#FFC4F2', 'WHERE TO BUY']
+    };
+    const cupOf = { oolong: 'oolong', puerh: 'shu', black: 'red', green: 'green', teaware: 'white', beginners: 'yellow', buy: 'sheng' };
+    const counts = { oolong: '128 topics', puerh: '214 topics', black: '76 topics', green: '59 topics', teaware: '97 topics', beginners: '143 topics', buy: '41 topics' };
+    const A = {
+      ok: 'linear-gradient(135deg, #C77DFF, #FF9BEA)', dm: 'linear-gradient(135deg, #FFE066, #FF8A1F)', at: 'linear-gradient(135deg, #8EC5FF, #22E3A6)', ys: 'linear-gradient(135deg, #5CF2B8, #22B8FF)', ml: 'linear-gradient(135deg, #FF9BEA, #FF4FD8)', pr: 'conic-gradient(from 200deg, #FF4FD8, #8A3FFC, #2563FF, #22E3A6, #FFC21A, #FF8A1F, #FF4FD8)'
+    };
+    const all = [
+      { s: 'beginners', pinned: true, solved: false, attached: false, title: 'New to tea? 5 teas to start with — a community list', author: 'Prolyv', initials: 'P', avatar: A.pr, time: 'pinned', replies: 58, views: '4.1k', last: 'yesterday' },
+      { s: 'puerh', pinned: false, solved: false, attached: true, title: 'Why does my shu pu-erh turn bitter after the third steep?', author: 'Andrew T.', initials: 'AT', avatar: A.at, time: '2 h ago', replies: 14, views: '312', last: '5 min ago' },
+      { s: 'teaware', pinned: false, solved: false, attached: false, title: 'Gaiwan or teapot for oolong: what’s your experience?', author: 'Maria L.', initials: 'ML', avatar: A.ml, time: 'yesterday', replies: 32, views: '890', last: '1 h ago' },
+      { s: 'puerh', pinned: false, solved: true, attached: false, title: 'How to store sheng pu-erh in a small apartment', author: 'Daniel M.', initials: 'DM', avatar: A.dm, time: '3 days ago', replies: 21, views: '1.2k', last: '6 h ago' },
+      { s: 'oolong', pinned: false, solved: false, attached: true, title: 'Tie Guan Yin: spring vs autumn harvest, side by side', author: 'Olena K.', initials: 'OK', avatar: A.ok, time: '4 days ago', replies: 17, views: '640', last: 'yesterday' },
+      { s: 'black', pinned: false, solved: true, attached: true, title: 'Dian Hong goes sour when I brew it in a thermos — why?', author: 'Yuki S.', initials: 'YS', avatar: A.ys, time: '5 days ago', replies: 9, views: '410', last: '2 days ago' },
+      { s: 'green', pinned: false, solved: false, attached: false, title: 'Long Jing: 80 °C or 85 °C? Share your sessions', author: 'Maria L.', initials: 'ML', avatar: A.ml, time: '1 week ago', replies: 26, views: '980', last: '3 days ago' },
+      { s: 'buy', pinned: false, solved: false, attached: false, title: 'Where do you buy aged white tea in Europe?', author: 'Daniel M.', initials: 'DM', avatar: A.dm, time: '1 week ago', replies: 12, views: '530', last: '4 days ago' }
+    ];
+    const list = sec === 'all' ? all : all.filter((t) => t.s === sec);
+    const chipDefs = [['all', 'All', 'sheng', '']].concat(Object.keys(SEC).map((k) => [k, SEC[k][0], cupOf[k], counts[k]]));
+    return {
+      chips: chipDefs.map((c) => {
+        const on = c[0] === sec;
+        return {
+          label: c[1],
+          kind: c[2],
+          count: c[3].split(' ')[0],
+          hasCount: c[3] !== '',
+          aria: c[0] === 'all' ? 'All sections' : c[1] + ', ' + c[3],
+          on,
+          bg: on ? '#FFFFFF' : 'rgba(255,255,255,0.06)',
+          border: on ? '#FFFFFF' : 'rgba(255,255,255,0.18)',
+          fg: on ? '#07081A' : '#FFFFFF',
+          countFg: on ? 'rgba(7,8,26,0.6)' : '#9EA3CF',
+          pick: () => this.setState({ sec: on ? 'all' : c[0] })
+        };
+      }),
+      heading: sec === 'all' ? 'All topics' : SEC[sec][0],
+      topics: list.map((t) => Object.assign({}, t, {
+        section: SEC[t.s][3],
+        secBg: SEC[t.s][1],
+        secFg: SEC[t.s][2],
+        kind: cupOf[t.s],
+        showTime: t.time !== 'pinned',
+        repliesLabel: t.replies + ' replies',
+        viewsLabel: t.views + ' views',
+        lastLabel: 'last reply ' + t.last
+      })),
+      empty: list.length === 0,
+      helpers: [
+        { name: 'Olena K.', initials: 'OK', avatar: A.ok, score: '46 helpful' },
+        { name: 'Maria L.', initials: 'ML', avatar: A.ml, score: '31 helpful' },
+        { name: 'Andrew T.', initials: 'AT', avatar: A.at, score: '19 helpful' }
+      ]
+    };
+  }
+}
+</script>
+</body>
+</html>

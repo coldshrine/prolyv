@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="uk">
+<head>
+<meta charset="utf-8">
+<title>Пролив — картка «мій чай дня»</title>
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&amp;family=Unbounded:wght@500;600;700&amp;display=swap">
+<style>
+body{margin:0}
+*{box-sizing:border-box}
+</style>
+</helmet>
+<div style="width: 540px; height: 960px; padding: 48px 44px 40px; display: flex; flex-direction: column; gap: 26px; background: #14251C; color: #FFFFFF; font-family: Manrope, system-ui, sans-serif; line-height: 1.5">
+
+<div style="display: flex; justify-content: space-between; align-items: center">
+<span style="display: inline-flex; align-items: center; gap: 10px">
+<svg width="28" height="28" viewBox="0 0 32 32" fill="none" stroke="#E9C98F" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 14h20v2a8 8 0 0 1-8 8h-4a8 8 0 0 1-8-8z"></path><path d="M25 15.5h1.5a2.5 2.5 0 0 1 0 5H24"></path><path d="M9 28h12"></path><path d="M14 10c0-3.3 2.2-5.5 5.5-5.5 0 3.3-2.2 5.5-5.5 5.5z"></path></svg>
+<span style="font-family: Unbounded, sans-serif; font-weight: 600; font-size: 20px">Пролив</span>
+</span>
+<span style="padding: 6px 14px; border-radius: 999px; border: 1px solid rgba(255,255,255,0.32); font-size: 13px; font-weight: 700">мій чай дня</span>
+</div>
+
+<div aria-hidden="true" style="align-self: center; margin-top: 8px; width: 280px; height: 280px; border-radius: 50%; background: #22382C; display: grid; place-items: center">
+<div style="width: 222px; height: 222px; border-radius: 50%; background: #F1E8D8; display: grid; place-items: center">
+<div style="width: 186px; height: 186px; border-radius: 50%; background: {{liquor}}"></div>
+</div>
+</div>
+
+<div style="display: flex; flex-direction: column; align-items: center; gap: 10px; text-align: center">
+<p style="margin: 0; font-size: 14px; font-weight: 800; letter-spacing: 0.08em; color: #E9C98F">УЛУН · 8 ПРОЛИВІВ</p>
+<h1 style="margin: 0; font-family: Unbounded, sans-serif; font-weight: 600; font-size: 38px; line-height: 1.12; letter-spacing: -0.01em">Те Гуань Інь «Весняний»</h1>
+<p style="margin: 0; font-size: 17px; color: #C9D3CC">Чайна лавка · Київ</p>
+</div>
+
+<div style="display: flex; justify-content: center; gap: 4px">
+<sc-for list="{{stars}}" as="s" hint-placeholder-count="5">
+<svg width="28" height="28" viewBox="0 0 24 24" fill="#E0A04A" stroke="#E0A04A" stroke-width="1.5" stroke-linejoin="round" aria-hidden="true"><path d="M12 2.5l2.9 6 6.6.9-4.8 4.6 1.2 6.5L12 17.4l-5.9 3.1 1.2-6.5L2.5 9.4l6.6-.9z"></path></svg>
+</sc-for>
+</div>
+
+<ul style="list-style: none; margin: 0; padding: 0; display: flex; justify-content: center; flex-wrap: wrap; gap: 8px">
+<li style="padding: 6px 14px; border-radius: 999px; border: 1px solid rgba(255,255,255,0.32); font-size: 14px; font-weight: 700">Бузок</li>
+<li style="padding: 6px 14px; border-radius: 999px; border: 1px solid rgba(255,255,255,0.32); font-size: 14px; font-weight: 700">Вершки</li>
+<li style="padding: 6px 14px; border-radius: 999px; border: 1px solid rgba(255,255,255,0.32); font-size: 14px; font-weight: 700">Мед</li>
+</ul>
+
+<p style="margin: 0; text-align: center; font-size: 19px; line-height: 1.45; color: #E7ECE8">«Бузок і вершки на перших проливах, на п’ятому — мед»</p>
+
+<div style="margin-top: auto; padding-top: 18px; border-top: 1px solid rgba(255,255,255,0.18); display: flex; justify-content: space-between; align-items: center; gap: 12px; font-size: 14px; color: #C9D3CC">
+<span>7 г · 95 °C · гайвань</span>
+<span style="font-weight: 800; color: #FFFFFF">[адреса сайту]</span>
+</div>
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props='{"liquor":{"editor":"color","default":"#D9A441","options":["#D9A441","#B5552B","#4A2617","#C5CB72"]},"$preview":{"width":540,"height":960}}'>
+class Component extends DCLogic {
+  renderVals() {
+    return {
+      liquor: this.props.liquor ?? '#D9A441',
+      stars: [1, 2, 3, 4, 5].map((n) => ({ n }))
+    };
+  }
+}
+</script>
+</body>
+</html>
