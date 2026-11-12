@@ -33,13 +33,26 @@
   "appearance_liquor": "Deep red-brown, as usual for ripe pu-erh with some age.",
   "appearance_wet": "Soft dark brown leaf, as usual for ripe pu-erh.",
   "taste_profile": "Little independent tasting is on record. The seller's label calls it an 'old Menghai taste', which usually means a smooth, earthy, woody ripe tea with a dark sweetness and any piling aroma long gone.",
-  "taste_tags": ["earthy", "woody", "sweet"],
+  "taste_tags": [
+    "earthy",
+    "woody",
+    "sweet"
+  ],
   "brewing": {
     "grams": 7,
     "water_ml": 110,
     "temp_c": 98,
     "steeps": 8,
-    "seconds": [10, 10, 15, 20, 25, 35, 50, 70],
+    "seconds": [
+      10,
+      10,
+      15,
+      20,
+      25,
+      35,
+      50,
+      70
+    ],
     "notes": "Standard ripe handling: one quick rinse to wake up the compressed leaf, then near-boiling water and gradually longer steeps."
   },
   "caffeine_level": "medium",
@@ -49,10 +62,21 @@
   "liquor_hex": "#4A1F0E",
   "leaf_hex": "#33221A",
   "sources": [],
-  "sources_note": "Card written from a photo of the retail label (Ukrainian shop sticker, item code RS-0091-8): 'Шу пуер Дін Сін Хао \"Червоний Місяць\", Старий менхайський смак, Юньнань, Шу пуер (чорний), 2002 рік'. The sticker also carries 云南易武 (Yunnan Yiwu), which conflicts with 'Menghai taste', so the region is kept at Yunnan. Web search found the same name and year in thetea.ua's 'Еліт' shu sampler set, but the page could not be opened from the writing environment, so it is not listed in sources. Chinese characters and the pinyin of the brand are unconfirmed (searches for 鼎兴号 returned nothing), hence name_native null and a descriptive name_zh. Form unknown (bought as a foil-packed piece), so 'other'.",
+  "sources_note": "Card written from a photo of the retail label (Ukrainian shop sticker, item code RS-0091-8): 'Шу пуер Дін Сін Хао \"Червоний Місяць\", Старий менхайський смак, Юньнань, Шу пуер (чорний), 2002 рік'. The sticker also carries 云南易武 (Yunnan Yiwu), which conflicts with 'Menghai taste', so the region is kept at Yunnan. Web search found the same name and year in thetea.ua's 'Еліт' shu sampler set, but the page could not be opened from the writing environment, so it is not listed in sources. Chinese characters and the pinyin of the brand are unconfirmed (searches for 鼎兴号 returned nothing), hence name_native null and a descriptive name_zh. Photo: the team's own shot of the retail package, stored in the repo. Form unknown (bought as a foil-packed piece), so 'other'.",
   "confidence": "low",
   "wikipedia_title": null,
   "wikipedia_scope": "none",
   "popularity": 1,
-  "images": []
+  "images": [
+    {
+      "url": "https://raw.githubusercontent.com/coldshrine/prolyv/main/data/teas/photos/ding-xin-hao-red-moon-label.jpg",
+      "thumb_url": "https://raw.githubusercontent.com/coldshrine/prolyv/main/data/teas/photos/ding-xin-hao-red-moon-label.jpg",
+      "source_page": "https://github.com/coldshrine/prolyv/blob/main/data/teas/photos/ding-xin-hao-red-moon-label.jpg",
+      "author": "coldshrine",
+      "license": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "kind": "other",
+      "alt": "A foil-wrapped piece of Ding Xin Hao \"Red Moon\" shu pu-erh with a Ukrainian shop label reading 2002"
+    }
+  ]
 }
