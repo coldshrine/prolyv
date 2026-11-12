@@ -1,6 +1,6 @@
-<nav class="browse-links" aria-label="Browse the tea base">
-  <a href="/teas"{% if path == '/teas' %} aria-current="page"{% endif %}>Search</a>
-  <a href="/teas/types"{% if path == '/teas/types' or path.startswith('/teas/c/') %} aria-current="page"{% endif %}>Types</a>
-  <a href="/teas/origins"{% if path == '/teas/origins' or path.startswith('/teas/o/') %} aria-current="page"{% endif %}>Countries and regions</a>
+<nav class="browse-links" aria-label="{{ _('Browse the tea base') }}">
+  <a href="/teas"{% if path == '/teas' %} aria-current="page"{% endif %}>{{ _("Search") }}</a>
+  <a href="/teas/types"{% if path == '/teas/types' or path.startswith('/teas/c/') %} aria-current="page"{% endif %}>{{ _("Types") }}</a>
+  <a href="/teas/origins"{% if path == '/teas/origins' or path.startswith('/teas/o/') %} aria-current="page"{% endif %}>{{ _("Countries and regions") }}</a>
   <a href="/teas/a-z"{% if path == '/teas/a-z' %} aria-current="page"{% endif %}>A–Z</a>
 </nav>

@@ -13,6 +13,7 @@ from prolyv import __version__
 from prolyv.brand import BRAND_HANDLE, SITE_NAME
 from prolyv.i18n import LANG_NAMES, LANGS, format_date, get_lang, js_text, set_lang, template_gettext, template_ngettext
 from prolyv.web.cup import cup_styles
+from prolyv.web.tea_labels import place
 from prolyv.web.text import linkify, source_label, time_ago
 from prolyv.web.deps import csrf_token_for
 from prolyv.web.flash import pop_flash
@@ -36,6 +37,7 @@ jinja_env.filters["date"] = format_date
 jinja_env.filters["linkify"] = linkify
 jinja_env.filters["ago"] = time_ago
 jinja_env.filters["source_label"] = source_label
+jinja_env.filters["place"] = place  # "China · Fujian" with each known place in the visitor's language
 templates = Jinja2Templates(env=jinja_env)
 
 

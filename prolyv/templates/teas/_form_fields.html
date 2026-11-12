@@ -1,40 +1,40 @@
 <input type="hidden" name="csrf_token" value="{{ csrf_token }}">
 <div class="form-grid">
-  <label class="field span-2"><span class="label">Name (English)</span><input name="name_en" value="{{ form.name_en or '' }}" maxlength="120" required>{% if errors.name_en %}<span class="field-error">{{ errors.name_en }}</span>{% endif %}</label>
-  <label class="field"><span class="label">Chinese name</span><input name="name_zh" value="{{ form.name_zh or '' }}" maxlength="120" placeholder="铁观音"></label>
-  <label class="field"><span class="label">Russian name</span><input name="name_ru" value="{{ form.name_ru or '' }}" maxlength="160" placeholder="Те Гуань Инь"></label>
-  <label class="field"><span class="label">Native name</span><input name="name_native" value="{{ form.name_native or '' }}" maxlength="120" placeholder="铁观音"></label>
-  <label class="field"><span class="label">Romanized</span><input name="name_romanized" value="{{ form.name_romanized or '' }}" maxlength="160" placeholder="Tiě Guānyīn"></label>
-  <label class="field span-2"><span class="label">Aliases (comma-separated)</span><input name="aliases" value="{{ form.aliases or '' }}" placeholder="Iron Goddess of Mercy, TGY"></label>
-  <label class="field"><span class="label">Category</span><select name="category" required><option value="">Pick…</option>{% for value, label in category_options %}<option value="{{ value }}"{% if value == form.category %} selected{% endif %}>{{ label }}</option>{% endfor %}</select>{% if errors.category %}<span class="field-error">{{ errors.category }}</span>{% endif %}</label>
-  <label class="field"><span class="label">Form</span><select name="form">{% for value, label in form_options %}<option value="{{ value }}"{% if value == form.form %} selected{% endif %}>{{ label }}</option>{% endfor %}</select></label>
-  <label class="field"><span class="label">Country</span><input name="origin_country" value="{{ form.origin_country or '' }}" maxlength="80" required>{% if errors.origin_country %}<span class="field-error">{{ errors.origin_country }}</span>{% endif %}</label>
-  <label class="field"><span class="label">Region</span><input name="origin_region" value="{{ form.origin_region or '' }}" maxlength="160" placeholder="Fujian · Anxi"></label>
-  <label class="field"><span class="label">Cultivar</span><input name="cultivar" value="{{ form.cultivar or '' }}" maxlength="200"></label>
-  <label class="field"><span class="label">Caffeine</span><select name="caffeine_level"><option value="">Unknown</option>{% for level in ['none', 'low', 'medium', 'high'] %}<option value="{{ level }}"{% if level == form.caffeine_level %} selected{% endif %}>{{ level|capitalize }}</option>{% endfor %}</select></label>
-  <label class="field span-2"><span class="label">Processing</span><textarea name="processing" rows="2">{{ form.processing or '' }}</textarea></label>
-  <label class="field span-2"><span class="label">Harvest season</span><input name="harvest_season" value="{{ form.harvest_season or '' }}"></label>
-  <label class="field"><span class="label">Dry leaf</span><input name="appearance_dry" value="{{ form.appearance_dry or '' }}"></label>
-  <label class="field"><span class="label">Liquor</span><input name="appearance_liquor" value="{{ form.appearance_liquor or '' }}"></label>
-  <label class="field span-2"><span class="label">Wet leaf</span><input name="appearance_wet" value="{{ form.appearance_wet or '' }}"></label>
-  <label class="field span-2"><span class="label">Taste profile</span><textarea name="taste_profile" rows="2">{{ form.taste_profile or '' }}</textarea></label>
-  <label class="field span-2"><span class="label">Taste tags (comma-separated)</span><input name="taste_tags" value="{{ form.taste_tags or '' }}" placeholder="floral, creamy, sweet"></label>
-  <fieldset class="field span-2 brew-fields"><legend class="label">Brewing</legend>
+  <label class="field span-2"><span class="label">{{ _("Name (English)") }}</span><input name="name_en" value="{{ form.name_en or '' }}" maxlength="120" required>{% if errors.name_en %}<span class="field-error">{{ errors.name_en }}</span>{% endif %}</label>
+  <label class="field"><span class="label">{{ _("Chinese name") }}</span><input name="name_zh" value="{{ form.name_zh or '' }}" maxlength="120" placeholder="铁观音"></label>
+  <label class="field"><span class="label">{{ _("Russian name") }}</span><input name="name_ru" value="{{ form.name_ru or '' }}" maxlength="160" placeholder="Те Гуань Инь"></label>
+  <label class="field"><span class="label">{{ _("Native name") }}</span><input name="name_native" value="{{ form.name_native or '' }}" maxlength="120" placeholder="铁观音"></label>
+  <label class="field"><span class="label">{{ _("Romanized") }}</span><input name="name_romanized" value="{{ form.name_romanized or '' }}" maxlength="160" placeholder="Tiě Guānyīn"></label>
+  <label class="field span-2"><span class="label">{{ _("Aliases (comma-separated)") }}</span><input name="aliases" value="{{ form.aliases or '' }}" placeholder="Iron Goddess of Mercy, TGY"></label>
+  <label class="field"><span class="label">{{ _("Category") }}</span><select name="category" required><option value="">{{ _("Pick…") }}</option>{% for value, label in category_options %}<option value="{{ value }}"{% if value == form.category %} selected{% endif %}>{{ label }}</option>{% endfor %}</select>{% if errors.category %}<span class="field-error">{{ errors.category }}</span>{% endif %}</label>
+  <label class="field"><span class="label">{{ _("Form") }}</span><select name="form">{% for value, label in form_options %}<option value="{{ value }}"{% if value == form.form %} selected{% endif %}>{{ label }}</option>{% endfor %}</select></label>
+  <label class="field"><span class="label">{{ _("Country") }}</span><input name="origin_country" value="{{ form.origin_country or '' }}" maxlength="80" required>{% if errors.origin_country %}<span class="field-error">{{ errors.origin_country }}</span>{% endif %}</label>
+  <label class="field"><span class="label">{{ _("Region") }}</span><input name="origin_region" value="{{ form.origin_region or '' }}" maxlength="160" placeholder="Fujian · Anxi"></label>
+  <label class="field"><span class="label">{{ _("Cultivar") }}</span><input name="cultivar" value="{{ form.cultivar or '' }}" maxlength="200"></label>
+  <label class="field"><span class="label">{{ _("Caffeine") }}</span><select name="caffeine_level"><option value="">{{ _("Unknown") }}</option>{% for level in ['none', 'low', 'medium', 'high'] %}<option value="{{ level }}"{% if level == form.caffeine_level %} selected{% endif %}>{{ _(level|capitalize) }}</option>{% endfor %}</select></label>
+  <label class="field span-2"><span class="label">{{ _("Processing") }}</span><textarea name="processing" rows="2">{{ form.processing or '' }}</textarea></label>
+  <label class="field span-2"><span class="label">{{ _("Harvest season") }}</span><input name="harvest_season" value="{{ form.harvest_season or '' }}"></label>
+  <label class="field"><span class="label">{{ _("Dry leaf") }}</span><input name="appearance_dry" value="{{ form.appearance_dry or '' }}"></label>
+  <label class="field"><span class="label">{{ _("Liquor") }}</span><input name="appearance_liquor" value="{{ form.appearance_liquor or '' }}"></label>
+  <label class="field span-2"><span class="label">{{ _("Wet leaf") }}</span><input name="appearance_wet" value="{{ form.appearance_wet or '' }}"></label>
+  <label class="field span-2"><span class="label">{{ _("Taste profile") }}</span><textarea name="taste_profile" rows="2">{{ form.taste_profile or '' }}</textarea></label>
+  <label class="field span-2"><span class="label">{{ _("Taste tags (comma-separated)") }}</span><input name="taste_tags" value="{{ form.taste_tags or '' }}" placeholder="floral, creamy, sweet"></label>
+  <fieldset class="field span-2 brew-fields"><legend class="label">{{ _("Brewing") }}</legend>
     <div class="brew-inputs">
-      <label><span>g</span><input name="brew_grams" value="{{ form.brew_grams or '' }}" inputmode="decimal"></label>
-      <label><span>ml</span><input name="brew_water_ml" value="{{ form.brew_water_ml or '' }}" inputmode="numeric"></label>
+      <label><span>{{ _("g") }}</span><input name="brew_grams" value="{{ form.brew_grams or '' }}" inputmode="decimal"></label>
+      <label><span>{{ _("ml") }}</span><input name="brew_water_ml" value="{{ form.brew_water_ml or '' }}" inputmode="numeric"></label>
       <label><span>°C</span><input name="brew_temp_c" value="{{ form.brew_temp_c or '' }}" inputmode="numeric"></label>
-      <label><span>steeps</span><input name="brew_steeps" value="{{ form.brew_steeps or '' }}" inputmode="numeric"></label>
+      <label><span>{{ _("steeps") }}</span><input name="brew_steeps" value="{{ form.brew_steeps or '' }}" inputmode="numeric"></label>
     </div>
-    <input name="brew_seconds" value="{{ form.brew_seconds or '' }}" placeholder="seconds per steep: 15, 10, 15, 20">
-    <input name="brew_notes" value="{{ form.brew_notes or '' }}" placeholder="Brewing notes">
+    <input name="brew_seconds" value="{{ form.brew_seconds or '' }}" placeholder="{{ _('seconds per steep: 15, 10, 15, 20') }}">
+    <input name="brew_notes" value="{{ form.brew_notes or '' }}" placeholder="{{ _('Brewing notes') }}">
   </fieldset>
-  <label class="field span-2"><span class="label">Sold as · vintages</span><textarea name="vintage_note" rows="3" placeholder="How and in which years or seasons this tea is sold">{{ form.vintage_note or '' }}</textarea></label>
-  <label class="field span-2"><span class="label">Description</span><textarea name="description" rows="8" required>{{ form.description or '' }}</textarea>{% if errors.description %}<span class="field-error">{{ errors.description }}</span>{% endif %}</label>
-  <label class="field span-2"><span class="label">History</span><textarea name="history" rows="5">{{ form.history or '' }}</textarea></label>
-  <label class="field"><span class="label">Liquor colour</span><input name="liquor_hex" value="{{ form.liquor_hex or '' }}" maxlength="7" placeholder="#C9963C">{% if errors.liquor_hex %}<span class="field-error">{{ errors.liquor_hex }}</span>{% endif %}</label>
-  <label class="field"><span class="label">Dry leaf colour</span><input name="leaf_hex" value="{{ form.leaf_hex or '' }}" maxlength="7" placeholder="#3B5D3A">{% if errors.leaf_hex %}<span class="field-error">{{ errors.leaf_hex }}</span>{% endif %}</label>
-  <label class="field span-2"><span class="label">Sources (one URL per line)</span><textarea name="sources" rows="3">{{ form.sources or '' }}</textarea></label>
-  <label class="field span-2"><span class="label">Wikipedia URL</span><input name="wikipedia_url" value="{{ form.wikipedia_url or '' }}" placeholder="https://en.wikipedia.org/wiki/…">{% if errors.wikipedia_url %}<span class="field-error">{{ errors.wikipedia_url }}</span>{% endif %}</label>
-  {% if is_admin %}<label class="field"><span class="label">Popularity 1–5</span><input name="popularity" value="{{ form.popularity or '3' }}" inputmode="numeric"></label>{% endif %}
+  <label class="field span-2"><span class="label">{{ _("Sold as · vintages") }}</span><textarea name="vintage_note" rows="3" placeholder="{{ _('How and in which years or seasons this tea is sold') }}">{{ form.vintage_note or '' }}</textarea></label>
+  <label class="field span-2"><span class="label">{{ _("Description") }}</span><textarea name="description" rows="8" required>{{ form.description or '' }}</textarea>{% if errors.description %}<span class="field-error">{{ errors.description }}</span>{% endif %}</label>
+  <label class="field span-2"><span class="label">{{ _("History") }}</span><textarea name="history" rows="5">{{ form.history or '' }}</textarea></label>
+  <label class="field"><span class="label">{{ _("Liquor colour") }}</span><input name="liquor_hex" value="{{ form.liquor_hex or '' }}" maxlength="7" placeholder="#C9963C">{% if errors.liquor_hex %}<span class="field-error">{{ errors.liquor_hex }}</span>{% endif %}</label>
+  <label class="field"><span class="label">{{ _("Dry leaf colour") }}</span><input name="leaf_hex" value="{{ form.leaf_hex or '' }}" maxlength="7" placeholder="#3B5D3A">{% if errors.leaf_hex %}<span class="field-error">{{ errors.leaf_hex }}</span>{% endif %}</label>
+  <label class="field span-2"><span class="label">{{ _("Sources (one URL per line)") }}</span><textarea name="sources" rows="3">{{ form.sources or '' }}</textarea></label>
+  <label class="field span-2"><span class="label">{{ _("Wikipedia URL") }}</span><input name="wikipedia_url" value="{{ form.wikipedia_url or '' }}" placeholder="https://en.wikipedia.org/wiki/…">{% if errors.wikipedia_url %}<span class="field-error">{{ errors.wikipedia_url }}</span>{% endif %}</label>
+  {% if is_admin %}<label class="field"><span class="label">{{ _("Popularity 1–5") }}</span><input name="popularity" value="{{ form.popularity or '3' }}" inputmode="numeric"></label>{% endif %}
 </div>

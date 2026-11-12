@@ -1,38 +1,38 @@
 {% extends "base.html" %}
-{% block title %}{% if tea %}Edit {{ tea.name_en }}{% else %}New tea{% endif %} · Admin · {{ site_name }}{% endblock %}
+{% block title %}{% if tea %}{{ _("Edit {name}", name=tea.name_en) }}{% else %}{{ _("New tea") }}{% endif %} · {{ _("Admin") }} · {{ site_name }}{% endblock %}
 {% block content %}
 <div class="container narrow">
-  <p class="eyebrow">Admin · <a href="/admin/teas">tea base</a></p>
-  <h1 class="h1">{% if tea %}Edit: {{ tea.name_en }}{% else %}New tea{% endif %}</h1>
-  {% if tea %}<p class="muted"><a href="/teas/{{ tea.slug }}">View card</a>. Saving locks the text, so the importer keeps your edits.</p>{% endif %}
+  <p class="eyebrow">{{ _("Admin") }} · <a href="/admin/teas">{{ _("tea base") }}</a></p>
+  <h1 class="h1">{% if tea %}{{ _("Edit: {name}", name=tea.name_en) }}{% else %}{{ _("New tea") }}{% endif %}</h1>
+  {% if tea %}{% set view %}<a href="/teas/{{ tea.slug }}">{{ _("View card") }}</a>{% endset %}<p class="muted">{{ _("{view}. Saving locks the text, so the importer keeps your edits.", view=view) }}</p>{% endif %}
   <form method="post" action="{% if tea %}/admin/teas/{{ tea.slug }}/edit{% else %}/admin/teas/new{% endif %}" class="card form" novalidate>
     {% include "teas/_form_fields.html" %}
-    <label class="check"><input type="checkbox" name="published"{% if form.published %} checked{% endif %}> Published (unchecked = draft, admins only)</label>
-    <div class="actions"><button class="btn btn-primary" type="submit">Save card</button></div>
+    <label class="check"><input type="checkbox" name="published"{% if form.published %} checked{% endif %}> {{ _("Published (unchecked = draft, admins only)") }}</label>
+    <div class="actions"><button class="btn btn-primary" type="submit">{{ _("Save card") }}</button></div>
   </form>
   {% if tea %}
 
   <section class="card">
-    <h2 class="h2">Photos</h2>
+    <h2 class="h2">{{ _("Photos") }}</h2>
     {% if tea.images %}
     <ul class="admin-images">
       {% for im in tea.images %}
       <li>
         <img src="{{ im.thumb_url or im.url }}" alt="" loading="lazy" referrerpolicy="no-referrer">
         <div>
-          <p class="small">{{ im.credit }}{% if im.is_primary %} · <strong>primary</strong>{% endif %}</p>
+          <p class="small">{{ im.credit }}{% if im.is_primary %} · <strong>{{ _("primary") }}</strong>{% endif %}</p>
           <div class="actions">
-            <form method="post" action="/admin/teas/{{ tea.slug }}/images/{{ im.id }}"><input type="hidden" name="csrf_token" value="{{ csrf_token }}"><input type="hidden" name="action" value="primary"><button class="btn btn-secondary btn-sm" type="submit">Make primary</button></form>
-            <form method="post" action="/admin/teas/{{ tea.slug }}/images/{{ im.id }}"><input type="hidden" name="csrf_token" value="{{ csrf_token }}"><input type="hidden" name="action" value="delete"><button class="btn btn-ghost btn-sm" type="submit">Remove</button></form>
+            <form method="post" action="/admin/teas/{{ tea.slug }}/images/{{ im.id }}"><input type="hidden" name="csrf_token" value="{{ csrf_token }}"><input type="hidden" name="action" value="primary"><button class="btn btn-secondary btn-sm" type="submit">{{ _("Make primary") }}</button></form>
+            <form method="post" action="/admin/teas/{{ tea.slug }}/images/{{ im.id }}"><input type="hidden" name="csrf_token" value="{{ csrf_token }}"><input type="hidden" name="action" value="delete"><button class="btn btn-ghost btn-sm" type="submit">{{ _("Remove") }}</button></form>
           </div>
         </div>
       </li>
       {% endfor %}
     </ul>
-    {% else %}<p class="muted">No photos. Add them to the card file and re-run <code>scripts/import_teas.py --only {{ tea.slug }}</code>.</p>{% endif %}
+    {% else %}{% set command %}<code>scripts/import_teas.py --only {{ tea.slug }}</code>{% endset %}<p class="muted">{{ _("No photos. Add them to the card file and re-run {command}.", command=command) }}</p>{% endif %}
   </section>
 
-  <form method="post" action="/admin/teas/{{ tea.slug }}/delete" class="actions" data-confirm="Delete this card?"><input type="hidden" name="csrf_token" value="{{ csrf_token }}"><button class="btn btn-danger" type="submit">Delete card</button></form>
+  <form method="post" action="/admin/teas/{{ tea.slug }}/delete" class="actions" data-confirm="{{ _('Delete this card?') }}"><input type="hidden" name="csrf_token" value="{{ csrf_token }}"><button class="btn btn-danger" type="submit">{{ _("Delete card") }}</button></form>
   {% endif %}
 </div>
 {% endblock %}

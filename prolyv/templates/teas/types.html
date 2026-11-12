@@ -1,11 +1,11 @@
 {% extends "base.html" %}
 {% from "partials/macros.html" import cup %}
-{% block title %}Types of tea · {{ site_name }}{% endblock %}
-{% block head %}<link rel="canonical" href="{{ settings.base_url }}/teas/types"><meta name="description" content="Every type of tea in our tea base: green, white, yellow, oolong, black, sheng and shu pu-erh, heicha and tisanes.">{% endblock %}
+{% block title %}{{ _("Types of tea") }} · {{ site_name }}{% endblock %}
+{% block head %}<link rel="canonical" href="{{ settings.base_url }}/teas/types"><meta name="description" content="{{ _('Every type of tea in our tea base: green, white, yellow, oolong, black, sheng and shu pu-erh, heicha and tisanes.') }}">{% endblock %}
 {% block content %}
 <section class="container">
-  <p class="eyebrow"><a href="/teas">Tea base</a></p>
-  <h1 class="h1">Types of tea</h1>
+  <p class="eyebrow"><a href="/teas">{{ _("Tea base") }}</a></p>
+  <h1 class="h1">{{ _("Types of tea") }}</h1>
   {% include "teas/_browse.html" %}
   <div class="type-grid">
     {% for t in types %}
@@ -16,8 +16,8 @@
     {% endfor %}
   </div>
   {% if explainers %}
-  <h2 class="h2 explainers-title">How tea gets its character</h2>
-  <p class="muted">Short guides to ways of making and ageing tea. They explain a style rather than one tea.</p>
+  <h2 class="h2 explainers-title">{{ _("How tea gets its character") }}</h2>
+  <p class="muted">{{ _("Short guides to ways of making and ageing tea. They explain a style rather than one tea.") }}</p>
   <ul class="explainers">
     {% for e in explainers %}<li><a class="card explainer" href="/teas/{{ e.slug }}"><strong>{{ e.name_en }}</strong><span class="muted small">{{ (e.taste_profile or e.description or '')[:120] }}{% if (e.taste_profile or e.description or '')|length > 120 %}…{% endif %}</span></a></li>{% endfor %}
   </ul>

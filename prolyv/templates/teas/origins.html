@@ -1,23 +1,23 @@
 {% extends "base.html" %}
-{% block title %}Tea by country and region · {{ site_name }}{% endblock %}
-{% block head %}<link rel="canonical" href="{{ settings.base_url }}/teas/origins"><meta name="description" content="Teas in our tea base by country and region.">{% endblock %}
+{% block title %}{{ _("Tea by country and region") }} · {{ site_name }}{% endblock %}
+{% block head %}<link rel="canonical" href="{{ settings.base_url }}/teas/origins"><meta name="description" content="{{ _('Teas in our tea base by country and region.') }}">{% endblock %}
 {% block content %}
 <section class="container">
-  <p class="eyebrow"><a href="/teas">Tea base</a></p>
-  <h1 class="h1">By country and region</h1>
+  <p class="eyebrow"><a href="/teas">{{ _("Tea base") }}</a></p>
+  <h1 class="h1">{{ _("By country and region") }}</h1>
   {% include "teas/_browse.html" %}
   <div class="origin-list">
     {% for c in countries if c.count >= 10 %}
     <section class="card">
-      <h2 class="h2"><a href="/teas/o/{{ c.key }}">{{ c.name }}</a> <span class="muted small">{{ c.count }}</span></h2>
-      {% if c.regions %}<p class="origin-regions">{% for r in c.regions %}<a class="chip" href="/teas/o/{{ r.key }}">{{ r.name }} <span class="count">{{ r.count }}</span></a>{% endfor %}{% if c.region_count > c.regions|length %}<a class="chip" href="/teas/o/{{ c.key }}">All {{ c.region_count }} regions →</a>{% endif %}</p>{% endif %}
+      <h2 class="h2"><a href="/teas/o/{{ c.key }}">{{ _(c.name) }}</a> <span class="muted small">{{ c.count }}</span></h2>
+      {% if c.regions %}<p class="origin-regions">{% for r in c.regions %}<a class="chip" href="/teas/o/{{ r.key }}">{{ _(r.name) }} <span class="count">{{ r.count }}</span></a>{% endfor %}{% if c.region_count > c.regions|length %}<a class="chip" href="/teas/o/{{ c.key }}">{{ _n("All {n} regions →", "All {n} regions →", c.region_count) }}</a>{% endif %}</p>{% endif %}
     </section>
     {% endfor %}
   </div>
   {% set others = countries|selectattr('count', 'lt', 10)|list %}
   {% if others %}
-  <h2 class="h2 origin-others">More countries</h2>
-  <p class="origin-regions">{% for c in others %}<a class="chip" href="/teas/o/{{ c.key }}">{{ c.name }} <span class="count">{{ c.count }}</span></a>{% endfor %}</p>
+  <h2 class="h2 origin-others">{{ _("More countries") }}</h2>
+  <p class="origin-regions">{% for c in others %}<a class="chip" href="/teas/o/{{ c.key }}">{{ _(c.name) }} <span class="count">{{ c.count }}</span></a>{% endfor %}</p>
   {% endif %}
 </section>
 {% endblock %}

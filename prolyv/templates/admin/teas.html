@@ -1,36 +1,36 @@
 {% extends "base.html" %}
-{% block title %}Tea base · Admin · {{ site_name }}{% endblock %}
+{% block title %}{{ _("Tea base · Admin") }} · {{ site_name }}{% endblock %}
 {% block content %}
 <div class="container narrow">
-  <p class="eyebrow"><a href="/admin">Admin</a></p>
+  <p class="eyebrow"><a href="/admin">{{ _("Admin") }}</a></p>
   <div class="teas-head">
-    <h1 class="h1">Tea base</h1>
-    <a class="btn btn-primary btn-sm" href="/admin/teas/new"><span class="plus" aria-hidden="true">+</span> New tea</a>
+    <h1 class="h1">{{ _("Tea base") }}</h1>
+    <a class="btn btn-primary btn-sm" href="/admin/teas/new"><span class="plus" aria-hidden="true">+</span> {{ _("New tea") }}</a>
   </div>
   <ul class="stats stats-inline">
-    <li><p class="stat-value grad-pink">{{ total }}</p><p class="stat-label">published</p></li>
-    <li><p class="stat-value grad-mint">{{ with_photos }}</p><p class="stat-label">with photos</p></li>
-    <li><a href="/admin/teas?drafts=1"><p class="stat-value grad-pink">{{ drafts }}</p><p class="stat-label">drafts</p></a></li>
+    <li><p class="stat-value grad-pink">{{ total }}</p><p class="stat-label">{{ _("published") }}</p></li>
+    <li><p class="stat-value grad-mint">{{ with_photos }}</p><p class="stat-label">{{ _("with photos") }}</p></li>
+    <li><a href="/admin/teas?drafts=1"><p class="stat-value grad-pink">{{ drafts }}</p><p class="stat-label">{{ _("drafts") }}</p></a></li>
   </ul>
   <form class="teas-filters forum-search" method="get" action="/admin/teas" role="search">
-    <input type="search" name="q" value="{{ q }}" placeholder="Search by name, alias or region" aria-label="Search teas">
-    <button class="btn btn-secondary btn-sm" type="submit">Search</button>
+    <input type="search" name="q" value="{{ q }}" placeholder="{{ _('Search by name, alias or region') }}" aria-label="{{ _('Search teas') }}">
+    <button class="btn btn-secondary btn-sm" type="submit">{{ _("Search") }}</button>
   </form>
-  {% if not teas %}<div class="card empty"><p class="empty-title">No teas match “{{ q }}”</p><p class="muted"><a href="/admin/teas">Clear the search</a></p></div>{% endif %}
+  {% if not teas %}<div class="card empty"><p class="empty-title">{{ _("No teas match “{q}”", q=q) }}</p><p class="muted"><a href="/admin/teas">{{ _("Clear the search") }}</a></p></div>{% endif %}
   <ul class="admin-list">
     {% for tea in teas %}
     <li>
       <a href="/teas/{{ tea.slug }}">{{ tea.name_en }}</a>
-      <span class="muted small">{{ tea.category_label }} · {{ tea.origin_country }} · {{ tea.images|length }} photo{{ '' if tea.images|length == 1 else 's' }}{% if tea.status.value == 'pending' %} · draft{% endif %}{% if tea.locked %} · locked{% endif %}</span>
-      <a class="btn btn-ghost btn-sm" href="/admin/teas/{{ tea.slug }}/edit">Edit</a>
+      <span class="muted small">{{ tea.category_label }} · {{ _(tea.origin_country) }} · {{ _n("{n} photo", "{n} photos", tea.images|length) }}{% if tea.status.value == 'pending' %} · {{ _("draft") }}{% endif %}{% if tea.locked %} · {{ _("locked") }}{% endif %}</span>
+      <a class="btn btn-ghost btn-sm" href="/admin/teas/{{ tea.slug }}/edit">{{ _("Edit") }}</a>
     </li>
     {% endfor %}
   </ul>
   {% if pages > 1 %}
-  <nav class="pagination" aria-label="Pages">
-    {% if page > 1 %}<a class="btn btn-secondary btn-sm" href="?q={{ q|urlencode }}&page={{ page - 1 }}">← Previous</a>{% endif %}
-    <span class="muted">Page {{ page }} of {{ pages }}</span>
-    {% if page < pages %}<a class="btn btn-secondary btn-sm" href="?q={{ q|urlencode }}&page={{ page + 1 }}">Next →</a>{% endif %}
+  <nav class="pagination" aria-label="{{ _('Pages') }}">
+    {% if page > 1 %}<a class="btn btn-secondary btn-sm" href="?q={{ q|urlencode }}&page={{ page - 1 }}">{{ _("← Previous") }}</a>{% endif %}
+    <span class="muted">{{ _("Page {page} of {pages}", page=page, pages=pages) }}</span>
+    {% if page < pages %}<a class="btn btn-secondary btn-sm" href="?q={{ q|urlencode }}&page={{ page + 1 }}">{{ _("Next →") }}</a>{% endif %}
   </nav>
   {% endif %}
 </div>

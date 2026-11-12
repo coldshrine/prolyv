@@ -14,6 +14,7 @@ from sqlalchemy.orm import load_only, selectinload
 
 from prolyv.brand import SITE_NAME
 from prolyv.handles import slugify
+from prolyv.i18n import N_, _, get_lang
 from prolyv.models import (
     CATEGORY_LABELS,
     EXPLAINER_SLUG,
@@ -35,7 +36,7 @@ from prolyv.search import index_tea, remove
 from prolyv.web.cup import HEX_RE
 from prolyv.web.deps import AdminUser, CurrentUser, DbDep, SettingsDep, SignerDep, require_csrf
 from prolyv.web.flash import set_flash
-from prolyv.web.tea_labels import tea_labels
+from prolyv.web.tea_labels import place, tea_labels
 from prolyv.web.templating import render
 
 router = APIRouter()
@@ -43,7 +44,11 @@ router = APIRouter()
 PAGE_SIZE = 24
 ORIGIN_CHIPS = 12
 MAX_CUMULATIVE_PAGES = 20
-CATEGORY_TITLES = {"tisane": "Tisanes", "heicha": "Heicha: dark teas"}
+CATEGORY_TITLES = {  # shown with _()
+    "green": N_("Green teas"), "white": N_("White teas"), "yellow": N_("Yellow teas"), "oolong": N_("Oolong teas"),
+    "black": N_("Black teas"), "sheng": N_("Sheng pu-erh teas"), "shu": N_("Shu pu-erh teas"), "heicha": N_("Heicha: dark teas"),
+    "tisane": N_("Tisanes"),
+}
 SORTS = {
     "popular": lambda: (Tea.popularity.desc(), Tea.name_en.asc()),
     "name": lambda: (Tea.name_en.asc(),),
@@ -163,13 +168,13 @@ def list_page(request: Request, db, user, *, q="", category="", origin="", form=
         "teas": teas, "total": total, "page": page, "pages": pages, "q": q, "category": category, "origin": origin,
         "form": form, "sort": sort, "page_url": page_url, "shown": min(page * PAGE_SIZE, total), "category_url": category_url,
         "on_origin_page": on_origin_page, "thin_page": on_origin_page and total < MIN_REGION_TEAS,
-        "title": title or ("Teas" if not q else f"Teas matching “{q}”"),
+        "title": title or (_("Teas") if not q else _("Teas matching “{q}”", q=q)),
         "intro": intro,
         "canonical": canonical or "/teas",
-        "categories": [(c.value, CATEGORY_LABELS[c], category_counts.get(c, 0)) for c in TeaCategory],
-        "countries": [(origin_key(name), name, count) for name, count in country_counts if not is_not_a_place(name)],
-        "forms": [(f.value, FORM_LABELS[f], form_counts.get(f, 0)) for f in TeaForm if form_counts.get(f)],
-        "origin_label": origin_label(db, origin) if origin else None,
+        "categories": [(c.value, _(CATEGORY_LABELS[c]), category_counts.get(c, 0)) for c in TeaCategory],
+        "countries": [(origin_key(name), _(name), count) for name, count in country_counts if not is_not_a_place(name)],
+        "forms": [(f.value, _(FORM_LABELS[f]), form_counts.get(f, 0)) for f in TeaForm if form_counts.get(f)],
+        "origin_label": place(origin_label(db, origin)) if origin else None,
         "sub_origins": sub_origins(db, origin) if origin and on_origin_page else [],
     }
     return render(request, "teas/list.html", context)
@@ -186,9 +191,8 @@ def tea_category(request: Request, db: DbDep, user: CurrentUser, category: str, 
                  form: str = "", sort: str = "popular", page: int = 1):
     if category not in TeaCategory.__members__:
         raise HTTPException(status_code=404)
-    label = CATEGORY_LABELS[TeaCategory(category)]
     return list_page(request, db, user, q=q, category=category, origin=origin, form=form, sort=sort, page=page,
-                     title=CATEGORY_TITLES.get(category, f"{label} teas"), canonical=f"/teas/c/{category}")
+                     title=_(CATEGORY_TITLES[category]), canonical=f"/teas/c/{category}")
 
 
 @router.get("/teas/o/{origin}")
@@ -198,7 +202,7 @@ def tea_origin(request: Request, db: DbDep, user: CurrentUser, origin: str, q: s
     if label is None:
         raise HTTPException(status_code=404)
     return list_page(request, db, user, q=q, category=category, origin=origin, form=form, sort=sort, page=page,
-                     title=f"Teas from {label}", canonical=f"/teas/o/{origin_key(origin)}")
+                     title=_("Teas from {place}", place=place(label)), canonical=f"/teas/o/{origin_key(origin)}")
 
 
 # ------------------------------------------------------------------------------------------ the admin form
@@ -216,8 +220,8 @@ def unique_slug(db, name: str) -> str:  # noqa: ANN001
 def tea_form_context(form: dict | None = None, errors: dict | None = None, tea: Tea | None = None) -> dict:
     return {
         "form": form or {}, "errors": errors or {}, "tea": tea,
-        "category_options": [(c.value, CATEGORY_LABELS[c]) for c in TeaCategory],
-        "form_options": [(f.value, FORM_LABELS[f]) for f in TeaForm],
+        "category_options": [(c.value, _(CATEGORY_LABELS[c])) for c in TeaCategory],
+        "form_options": [(f.value, _(FORM_LABELS[f])) for f in TeaForm],
     }
 
 
@@ -231,21 +235,22 @@ def read_tea_form(data) -> tuple[dict, dict]:  # noqa: ANN001
     form["published"] = bool(data.get("published"))  # a refused form must not quietly unpublish the tea
     errors: dict[str, str] = {}
     if not 2 <= len(form["name_en"]) <= 120:
-        errors["name_en"] = "Give the tea a name (2–120 characters)."
+        errors["name_en"] = _("Give the tea a name (2–120 characters).")
     if form["category"] not in TeaCategory.__members__:
-        errors["category"] = "Pick a category."
+        errors["category"] = _("Pick a category.")
     if form["form"] not in TeaForm.__members__:
-        errors["form"] = "Pick a form."
+        errors["form"] = _("Pick a form.")
     if not form["origin_country"]:
-        errors["origin_country"] = "Where is it from?"
+        errors["origin_country"] = _("Where is it from?")
     if len(form["description"]) < 40:
-        errors["description"] = "Tell us a little more (at least 40 characters)."
+        errors["description"] = _("Tell us a little more (at least 40 characters).")
     if form["wikipedia_url"] and not form["wikipedia_url"].startswith("https://en.wikipedia.org/wiki/"):
-        errors["wikipedia_url"] = "Use a link to the English Wikipedia article."
+        errors["wikipedia_url"] = _("Use a link to the English Wikipedia article.")
     for key in ("liquor_hex", "leaf_hex"):
         if form[key] and not HEX_RE.match(form[key]):
-            errors[key] = "Use a colour like #C9963C."
-    limits = {"brew_grams": (0.1, 100, "Grams"), "brew_water_ml": (10, 5000, "Water"), "brew_temp_c": (30, 100, "Temperature"), "brew_steeps": (1, 40, "Steeps"), "popularity": (1, 5, "Popularity")}
+            errors[key] = _("Use a colour like #C9963C.")
+    limits = {"brew_grams": (0.1, 100, N_("Grams")), "brew_water_ml": (10, 5000, N_("Water")), "brew_temp_c": (30, 100, N_("Temperature")),
+              "brew_steeps": (1, 40, N_("Steeps")), "popularity": (1, 5, N_("Popularity"))}
     for key, (low, high, label) in limits.items():
         if form[key]:
             try:
@@ -253,11 +258,11 @@ def read_tea_form(data) -> tuple[dict, dict]:  # noqa: ANN001
             except ValueError:
                 in_range = False
             if not in_range:
-                errors[key] = f"{label} must be a number from {low:g} to {high:g}."
+                errors[key] = _("{label} must be a number from {low} to {high}.", label=_(label), low=f"{low:g}", high=f"{high:g}")
     if form["brew_seconds"] and not all(part.strip().isdigit() for part in form["brew_seconds"].split(",") if part.strip()):
-        errors["brew_seconds"] = "Use whole seconds separated by commas, like 15, 10, 15."
+        errors["brew_seconds"] = _("Use whole seconds separated by commas, like 15, 10, 15.")
     if any(line.strip() and not line.strip().startswith(("http://", "https://")) for line in form["sources"].splitlines()):
-        errors["sources"] = "One link per line, starting with https://."
+        errors["sources"] = _("One link per line, starting with https://.")
     return form, errors
 
 
@@ -333,23 +338,23 @@ def form_from_tea(tea: Tea) -> dict:
 # ------------------------------------------------------------------------------------------ the card
 
 
-CATEGORY_BLURBS = {
-    TeaCategory.green: "Unoxidised: the leaf is heated soon after picking to keep it fresh, grassy and sweet.",
-    TeaCategory.white: "Barely handled: withered and dried, from silver buds to big leaves and aged cakes.",
-    TeaCategory.yellow: "Green tea with an extra slow 'sealed yellowing' step that softens it.",
-    TeaCategory.oolong: "Partly oxidised, from floral high-mountain balls to dark charcoal-roasted rock tea.",
-    TeaCategory.black: "Fully oxidised: hong cha, Darjeeling, Assam, Ceylon and their blends.",
-    TeaCategory.sheng: "Raw pu-erh from Yunnan, sold by harvest year and able to age for decades.",
-    TeaCategory.shu: "Ripe pu-erh: pile-fermented, dark, smooth and ready to drink.",
-    TeaCategory.heicha: "Other post-fermented dark teas: Liu Bao, Fu brick, Anhua and Sichuan bricks.",
-    TeaCategory.tisane: "Not from the tea plant: herbs, flowers, roots and traditional blends.",
+CATEGORY_BLURBS = {  # shown with _()
+    TeaCategory.green: N_("Unoxidised: the leaf is heated soon after picking to keep it fresh, grassy and sweet."),
+    TeaCategory.white: N_("Barely handled: withered and dried, from silver buds to big leaves and aged cakes."),
+    TeaCategory.yellow: N_("Green tea with an extra slow 'sealed yellowing' step that softens it."),
+    TeaCategory.oolong: N_("Partly oxidised, from floral high-mountain balls to dark charcoal-roasted rock tea."),
+    TeaCategory.black: N_("Fully oxidised: hong cha, Darjeeling, Assam, Ceylon and their blends."),
+    TeaCategory.sheng: N_("Raw pu-erh from Yunnan, sold by harvest year and able to age for decades."),
+    TeaCategory.shu: N_("Ripe pu-erh: pile-fermented, dark, smooth and ready to drink."),
+    TeaCategory.heicha: N_("Other post-fermented dark teas: Liu Bao, Fu brick, Anhua and Sichuan bricks."),
+    TeaCategory.tisane: N_("Not from the tea plant: herbs, flowers, roots and traditional blends."),
 }
 
 
 @router.get("/teas/types")
 def tea_types(request: Request, db: DbDep, user: CurrentUser):
     counts = dict(db.execute(select(Tea.category, func.count()).where(*CATALOG).group_by(Tea.category)).all())
-    types = [{"key": c.value, "label": CATEGORY_LABELS[c], "blurb": CATEGORY_BLURBS[c], "count": counts.get(c, 0)} for c in TeaCategory]
+    types = [{"key": c.value, "label": _(CATEGORY_LABELS[c]), "blurb": _(CATEGORY_BLURBS[c]), "count": counts.get(c, 0)} for c in TeaCategory]
     explainers = db.execute(
         select(Tea).options(load_only(Tea.slug, Tea.name_en, Tea.taste_profile, Tea.description))
         .where(Tea.status == TeaStatus.published, Tea.slug.like(EXPLAINER_SLUG)).order_by(Tea.name_en)
@@ -407,7 +412,7 @@ def absolute_url(settings, url: str | None) -> str | None:  # noqa: ANN001
 
 
 @router.get("/teas/{slug}")
-def tea_detail(request: Request, db: DbDep, settings: SettingsDep, user: CurrentUser, slug: str, lang: str = "en"):
+def tea_detail(request: Request, db: DbDep, settings: SettingsDep, user: CurrentUser, slug: str, lang: str | None = None):
     tea = db.execute(select(Tea).where(Tea.slug == slug.lower())).scalar_one_or_none()
     if tea is None:
         raise HTTPException(status_code=404)
@@ -415,7 +420,10 @@ def tea_detail(request: Request, db: DbDep, settings: SettingsDep, user: Current
     if tea.status != TeaStatus.published and not is_admin:
         raise HTTPException(status_code=404)
     languages = tea.languages
-    lang = lang if lang in languages else "en"
+    ui_lang = get_lang()
+    if lang not in languages:
+        # no ?lang: the card's text in the interface's language when the card has it; an unknown ?lang: English
+        lang = ui_lang if lang is None and ui_lang in languages else "en"
     text = tea.localized(lang)
     related = db.execute(
         published().options(*CARD_OPTIONS).where(Tea.category == tea.category, Tea.id != tea.id).order_by(Tea.popularity.desc(), Tea.name_en).limit(4)
@@ -442,13 +450,17 @@ def tea_detail(request: Request, db: DbDep, settings: SettingsDep, user: Current
     session_total, session_avg = db.execute(
         select(func.count(), func.avg(TeaSession.rating)).where(TeaSession.tea_id == tea.id, TeaSession.visibility == Visibility.public, TeaSession.hidden.is_(False))
     ).one()
-    t = tea_labels(lang)
-    local_name = {"ru": tea.name_ru, "zh": tea.name_zh}.get(lang) or tea.name_en
+    # labels speak the card's language when it is not English (Chinese labels on Chinese text), else the interface's
+    label_lang = lang if lang != "en" else ui_lang
+    t = tea_labels(label_lang)
+    local_name = {"ru": tea.name_ru, "zh": tea.name_zh}.get(label_lang) or tea.name_en
     paragraphs = text["description_paragraphs"]
     # on a short card the taste line is generic: lead with what the tea is, and don't repeat it below
     thin_lead = paragraphs[0] if tea.confidence == "low" and paragraphs else None
     context = {
-        "t": t, "local_name": local_name, "thin_lead": thin_lead, "about_paragraphs": paragraphs[1:] if thin_lead else paragraphs,
+        "t": t, "label_lang": label_lang, "local_name": local_name, "thin_lead": thin_lead,
+        "category_en": CATEGORY_LABELS[tea.category], "form_en": FORM_LABELS[tea.form],
+        "place": lambda text: " · ".join(t(part) for part in (text or "").split(" · ")) if text else "", "about_paragraphs": paragraphs[1:] if thin_lead else paragraphs,
         "session_total": session_total, "session_avg": round(session_avg, 1) if session_avg else None,
         "saved": is_saved(db, user, "tea", tea.id),
         "tea": tea, "text": text, "lang": lang, "languages": languages, "related": related, "image": image, "is_admin_view": is_admin,
@@ -503,7 +515,7 @@ async def admin_tea_new(request: Request, db: DbDep, settings: SettingsDep, sign
     db.flush()
     index_tea(db, tea)
     response = RedirectResponse(f"/teas/{tea.slug}", status_code=303)
-    set_flash(response, settings, signer, "ok", "Added to the tea base." if tea.status == TeaStatus.published else "Saved as a draft.")
+    set_flash(response, settings, signer, "ok", _("Added to the tea base.") if tea.status == TeaStatus.published else _("Saved as a draft."))
     return response
 
 
@@ -520,7 +532,7 @@ def admin_tea_delete(request: Request, db: DbDep, settings: SettingsDep, signer:
     remove(db, "tea", tea.id)
     db.delete(tea)
     response = RedirectResponse("/admin/teas", status_code=303)
-    set_flash(response, settings, signer, "ok", f"{tea.name_en} was removed.")
+    set_flash(response, settings, signer, "ok", _("{name} was removed.", name=tea.name_en))
     return response
 
 
@@ -544,7 +556,7 @@ async def admin_tea_edit(request: Request, db: DbDep, settings: SettingsDep, sig
     db.flush()
     index_tea(db, tea)
     response = RedirectResponse(f"/teas/{tea.slug}", status_code=303)
-    set_flash(response, settings, signer, "ok", "Card saved.")
+    set_flash(response, settings, signer, "ok", _("Card saved."))
     return response
 
 
@@ -563,7 +575,7 @@ def admin_tea_image(request: Request, db: DbDep, settings: SettingsDep, signer: 
         db.delete(image)
     tea.locked = True
     response = RedirectResponse(f"/admin/teas/{tea.slug}/edit", status_code=303)
-    set_flash(response, settings, signer, "ok", "Photos updated.")
+    set_flash(response, settings, signer, "ok", _("Photos updated."))
     return response
 
 

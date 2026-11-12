@@ -18,9 +18,9 @@
 {% block topbar %}
 {{ super() }}
 <header class="bp-bar">
-  <a class="bp-bar-btn" href="/blog" aria-label="Back"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M15 5l-7 7 7 7"></path></svg></a>
-  <p class="bp-bar-title">Blog</p>
-  <button class="bp-bar-btn" type="button" data-share="{{ og.url }}" aria-label="Share">{{ share_icon(20) }}</button>
+  <a class="bp-bar-btn" href="/blog" aria-label="{{ _('Back') }}"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M15 5l-7 7 7 7"></path></svg></a>
+  <p class="bp-bar-title">{{ _("Blog") }}</p>
+  <button class="bp-bar-btn" type="button" data-share="{{ og.url }}" aria-label="{{ _('Share') }}">{{ share_icon(20) }}</button>
 </header>
 {% endblock %}
 {% block content %}
@@ -31,31 +31,31 @@
 <section class="bp-hero">
   <div class="bp-hero-in">
     <div class="bp-hero-text">
-      <nav class="bp-crumbs" aria-label="Breadcrumbs"><a href="/blog">Blog</a> / <a href="/blog?tab={{ 'video' if is_video else 'guide' }}#all-posts">{{ 'Video breakdowns' if is_video else 'Guides' }}</a></nav>
-      <p class="bp-eyebrow">{{ 'VIDEO BREAKDOWN' if is_video else 'GUIDE' }} · {{ post.read_minutes }} MIN READ · {% if post.is_published %}{{ (post.published_at.strftime('%b %-d') if post.published_at.year == year else post.published_at.strftime('%b %-d, %Y'))|upper }}{% else %}DRAFT{% endif %}</p>
+      <nav class="bp-crumbs" aria-label="{{ _('Breadcrumbs') }}"><a href="/blog">{{ _("Blog") }}</a> / <a href="/blog?tab={{ 'video' if is_video else 'guide' }}#all-posts">{{ _("Video breakdowns") if is_video else _("Guides") }}</a></nav>
+      <p class="bp-eyebrow">{{ _("VIDEO BREAKDOWN") if is_video else _("GUIDE") }} · {{ _("{n} MIN READ", n=post.read_minutes) }} · {% if post.is_published %}{{ (post.published_at|date('%b %-d') if post.published_at.year == year else post.published_at|date('%b %-d, %Y'))|upper }}{% else %}{{ _("DRAFT") }}{% endif %}</p>
       <h1 class="bp-h1">{{ post.title }}</h1>
       {% if post.summary %}<p class="bp-lead">{{ post.summary }}</p>{% endif %}
       <div class="bp-byline">
-        {% if post.author.deleted_at %}<span class="bp-author">{{ avatar(post.author, 40) }}<span>Deleted account</span></span>
+        {% if post.author.deleted_at %}<span class="bp-author">{{ avatar(post.author, 40) }}<span>{{ _("Deleted account") }}</span></span>
         {% else %}<a class="bp-author" href="/u/{{ post.author.handle }}">{{ avatar(post.author, 40) }}<span><b>{{ post.author.display_name }}</b> · @{{ post.author.handle }}</span></a>{% endif %}
       </div>
       <div class="bp-actions">
-        {% if post.is_published and post.tea %}<a class="btn btn-primary bp-brew" href="#brew-along"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 4v6h6"></path><path d="M20 12a8 8 0 1 1-2.3-5.7L20 9"></path></svg>Brew along</a>{% endif %}
-        {% if params and post.is_published %}<a class="btn btn-secondary bp-copy-phone" href="{{ add_url }}">Copy to my diary</a>{% endif %}
-        <button class="btn btn-secondary bp-share" type="button" data-share="{{ og.url }}" aria-label="Share">{{ share_icon(18) }}</button>
+        {% if post.is_published and post.tea %}<a class="btn btn-primary bp-brew" href="#brew-along"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 4v6h6"></path><path d="M20 12a8 8 0 1 1-2.3-5.7L20 9"></path></svg>{{ _("Brew along") }}</a>{% endif %}
+        {% if params and post.is_published %}<a class="btn btn-secondary bp-copy-phone" href="{{ add_url }}">{{ _("Copy to my diary") }}</a>{% endif %}
+        <button class="btn btn-secondary bp-share" type="button" data-share="{{ og.url }}" aria-label="{{ _('Share') }}">{{ share_icon(18) }}</button>
         {{ save_button('post', post.id, saved, current_user, csrf_token, post_url) }}
-        {% if post.tea %}<a class="btn btn-secondary" href="/teas/{{ post.tea.slug }}">Tea card</a>{% endif %}
-        {% if is_admin_view %}<a class="btn btn-ghost" href="/admin/posts/{{ post.id }}/edit">Edit post</a>{% endif %}
+        {% if post.tea %}<a class="btn btn-secondary" href="/teas/{{ post.tea.slug }}">{{ _("Tea card") }}</a>{% endif %}
+        {% if is_admin_view %}<a class="btn btn-ghost" href="/admin/posts/{{ post.id }}/edit">{{ _("Edit post") }}</a>{% endif %}
       </div>
-      {% if not post.is_published %}<div class="notice">Draft: only admins can see this page.</div>{% endif %}
+      {% if not post.is_published %}<div class="notice">{{ _("Draft: only admins can see this page.") }}</div>{% endif %}
     </div>
     {% if embed %}
     <figure class="bp-figure" id="video">
-      <a class="bp-video" href="{{ embed.url }}" target="_blank" rel="noopener" aria-label="Play the video"{% if embed_src %} data-embed-src="{{ embed_src }}"{% endif %}>
+      <a class="bp-video" href="{{ embed.url }}" target="_blank" rel="noopener" aria-label="{{ _('Play the video') }}"{% if embed_src %} data-embed-src="{{ embed_src }}"{% endif %}>
         {% if post.cover_url %}<img src="{{ post.cover_url }}" alt="">{% else %}{{ cup(post.cup_kind, 200, liquor, spin=True) }}{% endif %}
         <span class="bp-play" aria-hidden="true"><svg width="30" height="30" viewBox="0 0 24 24" fill="#07081A"><path d="M8 5l12 7-12 7z"></path></svg></span>
       </a>
-      <figcaption><a href="{{ embed.url }}" target="_blank" rel="noopener">{% if provider %}Open on {{ provider }}{% else %}Watch the video{% endif %} ↗</a></figcaption>
+      <figcaption><a href="{{ embed.url }}" target="_blank" rel="noopener">{% if provider %}{{ _("Open on {provider}", provider=provider) }}{% else %}{{ _("Watch the video") }}{% endif %} ↗</a></figcaption>
     </figure>
     {% else %}
     <figure class="bp-figure bp-figure-plain">
@@ -70,11 +70,11 @@
     {% if params %}
     <section class="bp-card" aria-labelledby="params-h">
       <div class="bp-card-head">
-        <h2 id="params-h" class="bp-card-h">{{ 'The session from the video' if is_video else 'The session' }}</h2>
-        {% if post.is_published %}<a class="btn btn-secondary btn-sm bp-copy-wide" href="{{ add_url }}">Copy to my diary</a>{% endif %}
+        <h2 id="params-h" class="bp-card-h">{{ _("The session from the video") if is_video else _("The session") }}</h2>
+        {% if post.is_published %}<a class="btn btn-secondary btn-sm bp-copy-wide" href="{{ add_url }}">{{ _("Copy to my diary") }}</a>{% endif %}
       </div>
       <div class="bp-params">
-        <a class="bp-param bp-param-wide" href="/teas/{{ post.tea.slug }}"><span class="bp-param-k">Tea</span><span class="bp-param-v">{{ post.tea.name_en }}</span></a>
+        <a class="bp-param bp-param-wide" href="/teas/{{ post.tea.slug }}"><span class="bp-param-k">{{ _("Tea") }}</span><span class="bp-param-v">{{ post.tea.name_en }}</span></a>
         {% for p in params %}<div class="bp-param"><span class="bp-param-k">{{ p.k }}</span><span class="bp-param-v">{{ p.v }}</span></div>{% endfor %}
       </div>
       {% if post.tea.brewing.notes %}<p class="bp-notes">{{ post.tea.brewing.notes }}</p>{% endif %}
@@ -85,17 +85,17 @@
 
     {% if steeps %}
     <section class="bp-steeps" aria-labelledby="steeps-h" data-steeps>
-      <h2 id="steeps-h" class="bp-h2">Steep by steep</h2>
-      <p class="bp-sub"><span class="bp-wide-only">Hover or tap a steep: the cup on the right shows that steep’s liquor.</span><span class="bp-phone-only">Tap a steep: the cup shows that steep’s liquor.</span></p>
+      <h2 id="steeps-h" class="bp-h2">{{ _("Steep by steep") }}</h2>
+      <p class="bp-sub"><span class="bp-wide-only">{{ _("Hover or tap a steep: the cup on the right shows that steep’s liquor.") }}</span><span class="bp-phone-only">{{ _("Tap a steep: the cup shows that steep’s liquor.") }}</span></p>
       <div class="bp-steeps-grid">
         <ol class="bp-steep-list">
           {% for s in steeps %}
-          <li><button class="bp-steep" type="button" aria-pressed="{{ 'true' if loop.first else 'false' }}" data-label="Steep {{ s.n }} · {{ s.seconds }} s" data-swirl="{{ s.swirl }}" data-core="{{ s.core }}"><span class="bp-orb" aria-hidden="true" style="background:{{ s.swirl }}"></span><span class="bp-steep-text"><span class="bp-steep-n">STEEP {{ s.n }}</span><span class="bp-steep-s">{{ s.seconds }} seconds</span></span></button></li>
+          <li><button class="bp-steep" type="button" aria-pressed="{{ 'true' if loop.first else 'false' }}" data-label="{{ _('Steep {n} · {seconds} s', n=s.n, seconds=s.seconds) }}" data-swirl="{{ s.swirl }}" data-core="{{ s.core }}"><span class="bp-orb" aria-hidden="true" style="background:{{ s.swirl }}"></span><span class="bp-steep-text"><span class="bp-steep-n">{{ _("STEEP {n}", n=s.n) }}</span><span class="bp-steep-s">{{ _("{seconds} seconds", seconds=s.seconds) }}</span></span></button></li>
           {% endfor %}
         </ol>
         <div class="bp-steep-cup">
           {{ cup(post.cup_kind, 200, liquor, spin=True) }}
-          <p aria-live="polite" data-steep-label>Steep 1 · {{ steeps[0].seconds }} s</p>
+          <p aria-live="polite" data-steep-label>{{ _("Steep {n} · {seconds} s", n=1, seconds=steeps[0].seconds) }}</p>
         </div>
       </div>
     </section>
@@ -104,57 +104,57 @@
     {% if post.tea or brew.people %}
     <section class="bp-along" id="brew-along" aria-labelledby="along-h">
       <div class="bp-card-head">
-        <h2 id="along-h" class="bp-along-h">{% if brew.people == 1 %}1 person brewed along{% elif brew.people %}{{ brew.people }} people brewed along{% else %}Nobody has brewed along yet{% endif %}</h2>
-        {% if post.is_published %}<a class="btn btn-primary btn-sm bp-add" href="{{ add_url }}"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" aria-hidden="true"><path d="M12 5v14M5 12h14"></path></svg>Add my session</a>{% endif %}
+        <h2 id="along-h" class="bp-along-h">{% if brew.people %}{{ _n("{n} person brewed along", "{n} people brewed along", brew.people) }}{% else %}{{ _("Nobody has brewed along yet") }}{% endif %}</h2>
+        {% if post.is_published %}<a class="btn btn-primary btn-sm bp-add" href="{{ add_url }}"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" aria-hidden="true"><path d="M12 5v14M5 12h14"></path></svg>{{ _("Add my session") }}</a>{% endif %}
       </div>
       {% if brew_alongs %}
       <ol class="bp-along-list">
         {% for s in brew_alongs %}
-        <li><a class="bp-along-row" href="/sessions/{{ s.id }}">{{ cup(s.category_key, 44, s.tea.liquor_hex if s.tea else None) }}<span class="bp-along-text"><span class="bp-along-name">{% if s.user.deleted_at %}Deleted account{% else %}{{ s.user.display_name }}{% endif %}</span>{% if s.params_line %}<span class="bp-along-params">{{ s.params_line }}</span>{% endif %}</span>{% if s.rating %}<span class="bp-along-rate"><span aria-hidden="true">★ {{ s.rating }}</span><span class="sr-only">Rated {{ s.rating }} out of 5</span></span>{% endif %}</a></li>
+        <li><a class="bp-along-row" href="/sessions/{{ s.id }}">{{ cup(s.category_key, 44, s.tea.liquor_hex if s.tea else None) }}<span class="bp-along-text"><span class="bp-along-name">{% if s.user.deleted_at %}{{ _("Deleted account") }}{% else %}{{ s.user.display_name }}{% endif %}</span>{% if s.params_line %}<span class="bp-along-params">{{ s.params_line }}</span>{% endif %}</span>{% if s.rating %}<span class="bp-along-rate"><span aria-hidden="true">★ {{ s.rating }}</span><span class="sr-only">{{ _("Rated {n} out of 5", n=s.rating) }}</span></span>{% endif %}</a></li>
         {% endfor %}
-        {% if along_page < along_pages %}<li class="show-more"><a class="btn btn-secondary btn-sm" href="{{ post_url }}?along={{ along_page + 1 }}#brew-along" hx-get="{{ post_url }}?along={{ along_page + 1 }}" hx-target="closest .show-more" hx-swap="outerHTML" hx-select=".bp-along-list > *" hx-push-url="false">Show more</a></li>{% endif %}
+        {% if along_page < along_pages %}<li class="show-more"><a class="btn btn-secondary btn-sm" href="{{ post_url }}?along={{ along_page + 1 }}#brew-along" hx-get="{{ post_url }}?along={{ along_page + 1 }}" hx-target="closest .show-more" hx-swap="outerHTML" hx-select=".bp-along-list > *" hx-push-url="false">{{ _("Show more") }}</a></li>{% endif %}
       </ol>
-      {% if brew.average or brew.top_tag %}<p class="bp-along-sum">{% if brew.average %}Average rating from brew-alongs: <b>{{ brew.average }}</b>{% endif %}{% if brew.average and brew.top_tag %} · {% endif %}{% if brew.top_tag %}most common note: <b>{{ brew.top_tag }}</b>{% endif %}</p>{% endif %}
+      {% if brew.average or brew.top_tag %}<p class="bp-along-sum">{% if brew.average %}{% set average %}<b>{{ brew.average }}</b>{% endset %}{{ _("Average rating from brew-alongs: {average}", average=average) }}{% endif %}{% if brew.average and brew.top_tag %} · {% endif %}{% if brew.top_tag %}{% set note %}<b>{{ brew.top_tag }}</b>{% endset %}{{ _("most common note: {note}", note=note) }}{% endif %}</p>{% endif %}
       {% else %}
-      <p class="bp-along-sum">Log your session from this post and make it public to show up here.</p>
+      <p class="bp-along-sum">{{ _("Log your session from this post and make it public to show up here.") }}</p>
       {% endif %}
     </section>
     {% endif %}
 
     <section class="bp-comments-wrap" id="comments" aria-labelledby="comments-h">
-      <h2 id="comments-h" class="bp-h2">{% if comment_total == 1 %}1 comment{% elif comment_total %}{{ comment_total }} comments{% else %}Comments{% endif %}</h2>
+      <h2 id="comments-h" class="bp-h2">{% if comment_total %}{{ _n("{n} comment", "{n} comments", comment_total) }}{% else %}{{ _("Comments") }}{% endif %}</h2>
       {% if current_user %}
       <form class="bp-comment-form" id="comment-form" method="post" action="{{ post_url }}/comments#comment-form">
         <input type="hidden" name="csrf_token" value="{{ csrf_token }}">
-        <label for="bp-comment">Join the discussion</label>
-        <textarea id="bp-comment" name="body" rows="3" maxlength="2000" placeholder="Did yours taste different? Tell us which steep" required{% if comment_error %} aria-invalid="true" aria-describedby="bp-comment-error" autofocus{% endif %}>{{ comment_body }}</textarea>
+        <label for="bp-comment">{{ _("Join the discussion") }}</label>
+        <textarea id="bp-comment" name="body" rows="3" maxlength="2000" placeholder="{{ _('Did yours taste different? Tell us which steep') }}" required{% if comment_error %} aria-invalid="true" aria-describedby="bp-comment-error" autofocus{% endif %}>{{ comment_body }}</textarea>
         {% if comment_error %}<p class="field-error" id="bp-comment-error" role="alert">{{ comment_error }}</p>{% endif %}
-        <div class="bp-comment-actions"><button class="btn btn-primary bp-post" type="submit">Post</button></div>
+        <div class="bp-comment-actions"><button class="btn btn-primary bp-post" type="submit">{{ _("Post") }}</button></div>
       </form>
       {% else %}
-      <div class="bp-comment-form"><p class="bp-join">Join the discussion</p><p class="muted"><a href="/login?next={{ (post_url ~ '#comments')|urlencode }}">Log in</a> to comment.</p></div>
+      <div class="bp-comment-form"><p class="bp-join">{{ _("Join the discussion") }}</p><p class="muted">{% set login %}<a href="/login?next={{ (post_url ~ '#comments')|urlencode }}">{{ _("Log in") }}</a>{% endset %}{{ _("{login} to comment.", login=login) }}</p></div>
       {% endif %}
-      {% if comment_page > 1 %}<p class="previous-page"><a class="btn btn-ghost btn-sm" href="{{ post_url }}#comments">← Newest comments</a></p>{% endif %}
+      {% if comment_page > 1 %}<p class="previous-page"><a class="btn btn-ghost btn-sm" href="{{ post_url }}#comments">{{ _("← Newest comments") }}</a></p>{% endif %}
       {% if comments %}
       <ol class="bp-comments">
         {% for c in comments %}
         <li class="bp-comment{% if c.hidden %} is-hidden{% endif %}{% if c.user_id == post.author_id %} bp-comment-author{% endif %}" id="comment-{{ c.id }}">
           <div class="bp-comment-head">
             {{ avatar(c.user, 36) }}
-            <p>{% if c.user.deleted_at %}<b>Deleted account</b>{% else %}<a href="/u/{{ c.user.handle }}">{{ c.user.display_name }}</a>{% endif %}{% if c.user_id == post.author_id %} · author{% endif %} · {{ c.created_at|ago }}{% if c.hidden %} · hidden{% endif %}</p>
+            <p>{% if c.user.deleted_at %}<b>{{ _("Deleted account") }}</b>{% else %}<a href="/u/{{ c.user.handle }}">{{ c.user.display_name }}</a>{% endif %}{% if c.user_id == post.author_id %} · {{ _("author") }}{% endif %} · {{ c.created_at|ago }}{% if c.hidden %} · {{ _("hidden") }}{% endif %}</p>
           </div>
           <p class="bp-comment-text">{{ c.body|linkify }}</p>
           <div class="bp-comment-tools">
             {% include "blog/_helpful.html" %}
             {% if current_user %}
-            {% if c.user_id == current_user.id or is_admin_view %}<form method="post" action="{{ post_url }}/comments/{{ c.id }}/delete" class="inline-form"><input type="hidden" name="csrf_token" value="{{ csrf_token }}"><button class="link-btn small" type="submit">delete</button></form>{% endif %}
+            {% if c.user_id == current_user.id or is_admin_view %}<form method="post" action="{{ post_url }}/comments/{{ c.id }}/delete" class="inline-form"><input type="hidden" name="csrf_token" value="{{ csrf_token }}"><button class="link-btn small" type="submit">{{ _("delete") }}</button></form>{% endif %}
             {% if is_admin_view %}{{ hide_button('post_comment', c.id, c.hidden, csrf_token, post_url ~ '#comments') }}{% endif %}
             {% if c.user_id != current_user.id %}{{ report_button('post_comment', c.id, csrf_token, post_url ~ '#comments') }}{% endif %}
             {% endif %}
           </div>
         </li>
         {% endfor %}
-        {% if comments_left > 0 %}<li class="show-more"><a class="btn btn-secondary" href="{{ post_url }}?cpage={{ comment_page + 1 }}#comments" hx-get="{{ post_url }}?cpage={{ comment_page + 1 }}" hx-target="closest .show-more" hx-swap="outerHTML" hx-select=".bp-comments > *" hx-push-url="false">Show {{ comments_left }} more comment{{ '' if comments_left == 1 else 's' }}</a></li>{% endif %}
+        {% if comments_left > 0 %}<li class="show-more"><a class="btn btn-secondary" href="{{ post_url }}?cpage={{ comment_page + 1 }}#comments" hx-get="{{ post_url }}?cpage={{ comment_page + 1 }}" hx-target="closest .show-more" hx-swap="outerHTML" hx-select=".bp-comments > *" hx-push-url="false">{{ _n("Show {n} more comment", "Show {n} more comments", comments_left) }}</a></li>{% endif %}
       </ol>
       {% endif %}
     </section>
@@ -163,22 +163,22 @@
   <aside class="bp-aside">
     {% if topic %}
     <a class="bp-thread" href="/discussions/{{ topic.id }}">
-      <span class="bp-thread-k">FORUM THREAD</span>
+      <span class="bp-thread-k">{{ _("FORUM THREAD") }}</span>
       <span class="bp-thread-title">{{ topic.title }}</span>
-      <span class="bp-thread-meta">{{ topic.reply_count }} repl{{ 'y' if topic.reply_count == 1 else 'ies' }}</span>
+      <span class="bp-thread-meta">{{ _n("{n} reply", "{n} replies", topic.reply_count) }}</span>
     </a>
     {% else %}
     <section class="side-card" aria-labelledby="forum-h">
-      <h2 id="forum-h">Discuss in the forum</h2>
-      <p>Start a topic and link this post. It shows up here.</p>
-      <a class="btn btn-secondary bp-side-btn" href="/discussions/new">New topic</a>
+      <h2 id="forum-h">{{ _("Discuss in the forum") }}</h2>
+      <p>{{ _("Start a topic and link this post. It shows up here.") }}</p>
+      <a class="btn btn-secondary bp-side-btn" href="/discussions/new">{{ _("New topic") }}</a>
     </section>
     {% endif %}
     {% if not current_user %}
     <section class="side-diary" aria-labelledby="diary-h">
-      <h2 id="diary-h" class="h2">Start your own diary</h2>
-      <p>{% if post.tea %}Log this session with one tap and see how your cup compares.{% else %}Your first session takes 30 seconds. It stays private until you decide to share it.{% endif %}</p>
-      <a class="side-diary-btn" href="/login?next={{ (add_url if post.tea else '/sessions/new')|urlencode }}">Start for free</a>
+      <h2 id="diary-h" class="h2">{{ _("Start your own diary") }}</h2>
+      <p>{% if post.tea %}{{ _("Log this session with one tap and see how your cup compares.") }}{% else %}{{ _("Your first session takes 30 seconds. It stays private until you decide to share it.") }}{% endif %}</p>
+      <a class="side-diary-btn" href="/login?next={{ (add_url if post.tea else '/sessions/new')|urlencode }}">{{ _("Start for free") }}</a>
     </section>
     {% endif %}
   </aside>

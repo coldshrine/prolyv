@@ -1,24 +1,23 @@
 {% extends "base.html" %}
 {% from "partials/macros.html" import cup, show_more %}
-{% block title %}Blog · {{ site_name }}{% endblock %}
+{% block title %}{{ _("Blog") }} · {{ site_name }}{% endblock %}
 {% block head %}
-{% with og_title="Blog · " ~ site_name, og_desc="Every video we post on TikTok and Instagram gets a page here: the full parameters, every steep, and a place to talk about it.", og_path="/blog" %}{% include "partials/og.html" %}{% endwith %}
+{% with og_title=_("Blog") ~ " · " ~ site_name, og_desc=_("Every video we post on TikTok and Instagram gets a page here: the full parameters, every steep, and a place to talk about it."), og_path="/blog" %}{% include "partials/og.html" %}{% endwith %}
 <link rel="stylesheet" href="/static/css/blog.css?v={{ version }}">
 {% endblock %}
-{% macro short_date(d) %}{{ d.strftime('%b %-d') if d.year == year else d.strftime('%b %-d, %Y') }}{% endmacro %}
-{% macro plural(n, word) %}{{ n }} {{ word }}{{ '' if n == 1 else 's' }}{% endmacro %}
+{% macro short_date(d) %}{{ d|date('%b %-d') if d.year == year else d|date('%b %-d, %Y') }}{% endmacro %}
 {% macro post_row(post) -%}
 {% set is_video = post.video_url %}
 <a class="blog-card" href="/blog/{{ post.slug }}">
   <span class="blog-cover cov-{{ post.cup_kind }}" aria-hidden="true">
     {% if post.cover_url %}<img src="{{ post.cover_url }}" alt="" loading="lazy">{% else %}{{ cup(post.cup_kind, 112, post.tea.liquor_hex if post.tea else None) }}{% endif %}
-    <span class="blog-badge">{{ 'VIDEO' if is_video else 'GUIDE' }}</span>
+    <span class="blog-badge">{{ _("VIDEO") if is_video else _("GUIDE") }}</span>
   </span>
   <span class="blog-card-body">
-    <span class="blog-cat {{ 'cat-video' if is_video else 'cat-guide' }}">{{ 'VIDEO BREAKDOWN' if is_video else 'GUIDE' }} · {{ post.read_minutes }} MIN</span>
+    <span class="blog-cat {{ 'cat-video' if is_video else 'cat-guide' }}">{{ _("VIDEO BREAKDOWN") if is_video else _("GUIDE") }} · {{ _("{n} MIN", n=post.read_minutes) }}</span>
     <span class="blog-card-title">{{ post.title }}</span>
     {% if post.summary %}<span class="blog-card-text">{{ post.summary }}</span>{% endif %}
-    <span class="blog-card-meta"><span>{{ short_date(post.published_at) }}</span><span class="blog-card-dot" aria-hidden="true"> · </span><span>{{ plural(comment_counts.get(post.id, 0), 'comment') }}</span></span>
+    <span class="blog-card-meta"><span>{{ short_date(post.published_at) }}</span><span class="blog-card-dot" aria-hidden="true"> · </span><span>{{ _n("{n} comment", "{n} comments", comment_counts.get(post.id, 0)) }}</span></span>
   </span>
 </a>
 {%- endmacro %}
@@ -26,9 +25,9 @@
 <section class="blog-hero">
   <div class="blog-hero-in">
     <div class="blog-hero-text">
-      <p class="blog-kicker">THE HOME OF OUR SHORT VIDEOS</p>
-      <h1 class="blog-h1">Blog</h1>
-      <p class="blog-lead">Every video we post on TikTok and Instagram gets a page here: the full parameters, every steep, and a place to talk about it.</p>
+      <p class="blog-kicker">{{ _("THE HOME OF OUR SHORT VIDEOS") }}</p>
+      <h1 class="blog-h1">{{ _("Blog") }}</h1>
+      <p class="blog-lead">{{ _("Every video we post on TikTok and Instagram gets a page here: the full parameters, every steep, and a place to talk about it.") }}</p>
     </div>
     {% if social %}
     <div class="blog-social">
@@ -44,18 +43,18 @@
 {% set is_video = latest.video_url %}
 {% set n_comments = comment_counts.get(latest.id, 0) %}
 {% set n_along = along_counts.get(latest.id, 0) %}
-<section class="blog-latest-wrap" aria-label="Latest post">
+<section class="blog-latest-wrap" aria-label="{{ _('Latest post') }}">
   <a class="blog-latest" href="/blog/{{ latest.slug }}">
     <span class="blog-latest-cover" aria-hidden="true">
       {% if latest.cover_url %}<img src="{{ latest.cover_url }}" alt="">{% else %}{{ cup(latest.cup_kind, 260, latest.tea.liquor_hex if latest.tea else None, spin=True) }}{% endif %}
-      <span class="blog-latest-kind">{% if is_video %}<svg width="12" height="12" viewBox="0 0 24 24" fill="#FFFFFF" aria-hidden="true"><path d="M7 4l12 8-12 8z"></path></svg>VIDEO{% else %}GUIDE{% endif %}</span>
-      <span class="blog-latest-tag">LATEST</span>
+      <span class="blog-latest-kind">{% if is_video %}<svg width="12" height="12" viewBox="0 0 24 24" fill="#FFFFFF" aria-hidden="true"><path d="M7 4l12 8-12 8z"></path></svg>{{ _("VIDEO") }}{% else %}{{ _("GUIDE") }}{% endif %}</span>
+      <span class="blog-latest-tag">{{ _("LATEST") }}</span>
     </span>
     <span class="blog-latest-body">
-      <span class="blog-cat cat-video">{{ 'BREAKDOWN' if is_video else 'GUIDE' }} · {{ latest.read_minutes }} MIN READ · {{ short_date(latest.published_at)|upper }}</span>
+      <span class="blog-cat cat-video">{{ _("BREAKDOWN") if is_video else _("GUIDE") }} · {{ _("{n} MIN READ", n=latest.read_minutes) }} · {{ short_date(latest.published_at)|upper }}</span>
       <span class="blog-latest-title">{{ latest.title }}</span>
       {% if latest.summary %}<span class="blog-latest-text">{{ latest.summary }}</span>{% endif %}
-      <span class="blog-latest-meta"><span class="blog-read">Read and discuss →</span><span>{{ plural(n_comments, 'comment') }}</span>{% if n_along %}<span>{{ n_along }} session{{ '' if n_along == 1 else 's' }} attached</span>{% endif %}</span>
+      <span class="blog-latest-meta"><span class="blog-read">{{ _("Read and discuss →") }}</span><span>{{ _n("{n} comment", "{n} comments", n_comments) }}</span>{% if n_along %}<span>{{ _n("{n} session attached", "{n} sessions attached", n_along) }}</span>{% endif %}</span>
     </span>
   </a>
 </section>
@@ -65,29 +64,29 @@
   <section class="blog-posts" id="all-posts" aria-labelledby="posts-h">
     {% if total or tab != 'all' %}
     <div class="blog-posts-head">
-      <h2 id="posts-h" class="blog-h2">All posts</h2>
-      <nav class="blog-tabs" aria-label="Filter posts by category">
-        {% for key, label in tabs %}<a href="/blog{% if key != 'all' %}?tab={{ key }}{% endif %}#all-posts"{% if key == tab %} aria-current="true"{% endif %}>{{ label }}</a>{% endfor %}
+      <h2 id="posts-h" class="blog-h2">{{ _("All posts") }}</h2>
+      <nav class="blog-tabs" aria-label="{{ _('Filter posts by category') }}">
+        {% for key, label in tabs %}<a href="/blog{% if key != 'all' %}?tab={{ key }}{% endif %}#all-posts"{% if key == tab %} aria-current="true"{% endif %}>{{ _(label) }}</a>{% endfor %}
       </nav>
     </div>
-    {% else %}<h2 id="posts-h" class="sr-only">All posts</h2>{% endif %}
-    {% if is_admin %}<p class="blog-admin"><a class="btn btn-secondary btn-sm" href="/admin/posts/new"><span class="plus" aria-hidden="true">+</span> Write a post</a>{% if drafts %} <a class="small" href="/admin/posts">{{ drafts }} draft{{ '' if drafts == 1 else 's' }} waiting</a>{% endif %}</p>{% endif %}
-    {% if page > 1 %}<p class="previous-page"><a class="btn btn-ghost btn-sm" href="/blog?{{ tab_query }}page={{ page - 1 }}#all-posts">← Newer posts</a></p>{% endif %}
+    {% else %}<h2 id="posts-h" class="sr-only">{{ _("All posts") }}</h2>{% endif %}
+    {% if is_admin %}<p class="blog-admin"><a class="btn btn-secondary btn-sm" href="/admin/posts/new"><span class="plus" aria-hidden="true">+</span> {{ _("Write a post") }}</a>{% if drafts %} <a class="small" href="/admin/posts">{{ _n("{n} draft waiting", "{n} drafts waiting", drafts) }}</a>{% endif %}</p>{% endif %}
+    {% if page > 1 %}<p class="previous-page"><a class="btn btn-ghost btn-sm" href="/blog?{{ tab_query }}page={{ page - 1 }}#all-posts">{{ _("← Newer posts") }}</a></p>{% endif %}
     {% if posts %}
     <div class="blog-grid more-list">{% for post in posts %}{{ post_row(post) }}{% endfor %}{% if page < pages %}{{ show_more("/blog?" ~ tab_query ~ "page=" ~ (page + 1)) }}{% endif %}</div>
     {% elif not total %}
-    <p class="blog-empty">{% if tab == 'all' %}The first brewing breakdown is coming.{% else %}Nothing in this category yet.{% endif %}</p>
+    <p class="blog-empty">{% if tab == 'all' %}{{ _("The first brewing breakdown is coming.") }}{% else %}{{ _("Nothing in this category yet.") }}{% endif %}</p>
     {% elif tab != 'all' %}
-    <p class="blog-empty">Nothing in this category yet.</p>
+    <p class="blog-empty">{{ _("Nothing in this category yet.") }}</p>
     {% endif %}
   </section>
 
   {% if popular %}
   <aside class="blog-aside">
     <section class="side-card" aria-labelledby="popular-h">
-      <h2 id="popular-h">Most brewed along</h2>
+      <h2 id="popular-h">{{ _("Most brewed along") }}</h2>
       <ol class="hot-list">
-        {% for post, n in popular %}<li><a href="/blog/{{ post.slug }}">{{ post.title }}</a><span class="blog-side-meta">{{ n }} session{{ '' if n == 1 else 's' }} attached</span></li>{% endfor %}
+        {% for post, n in popular %}<li><a href="/blog/{{ post.slug }}">{{ post.title }}</a><span class="blog-side-meta">{{ _n("{n} session attached", "{n} sessions attached", n) }}</span></li>{% endfor %}
       </ol>
     </section>
   </aside>

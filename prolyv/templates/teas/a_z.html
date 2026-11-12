@@ -1,12 +1,12 @@
 {% extends "base.html" %}
-{% block title %}Teas starting with {{ letter }} · {{ site_name }}{% endblock %}
-{% block head %}<link rel="canonical" href="{{ settings.base_url }}/teas/a-z?letter={{ letter|urlencode }}"><meta name="description" content="All {{ total }} teas in our tea base, A to Z. This page: {{ letter }}.">{% endblock %}
+{% block title %}{{ _("Teas starting with {letter}", letter=letter) }} · {{ site_name }}{% endblock %}
+{% block head %}<link rel="canonical" href="{{ settings.base_url }}/teas/a-z?letter={{ letter|urlencode }}"><meta name="description" content="{{ _n('All {n} teas in our tea base, A to Z. This page: {letter}.', 'All {n} teas in our tea base, A to Z. This page: {letter}.', total, letter=letter) }}">{% endblock %}
 {% block content %}
 <section class="container">
-  <p class="eyebrow"><a href="/teas">Tea base</a> · {{ total }} teas</p>
-  <h1 class="h1">All teas A–Z</h1>
+  <p class="eyebrow"><a href="/teas">{{ _("Tea base") }}</a> · {{ _n("{n} teas", "{n} teas", total) }}</p>
+  <h1 class="h1">{{ _("All teas A–Z") }}</h1>
   {% include "teas/_browse.html" %}
-  <nav class="chips" aria-label="Letters">{% for key, count in letters.items() %}<a class="chip{% if key == letter %} chip-on{% endif %}" href="/teas/a-z?letter={{ key|urlencode }}"{% if key == letter %} aria-current="page"{% endif %}>{{ key }} <span class="count">{{ count }}</span></a>{% endfor %}</nav>
+  <nav class="chips" aria-label="{{ _('Letters') }}">{% for key, count in letters.items() %}<a class="chip{% if key == letter %} chip-on{% endif %}" href="/teas/a-z?letter={{ key|urlencode }}"{% if key == letter %} aria-current="page"{% endif %}>{{ key }} <span class="count">{{ count }}</span></a>{% endfor %}</nav>
   {% if letter %}<h2 class="h2 az-letter">{{ letter }}</h2>{% endif %}
   <ul class="az-list">
     {% for row in rows %}<li><a href="/teas/{{ row.slug }}">{{ row.name_en }}</a>{% if row.name_zh %} <span class="muted small" lang="zh">{{ row.name_zh }}</span>{% endif %}{% if row.name_ru %} <span class="muted small" lang="ru">{{ row.name_ru }}</span>{% endif %}</li>{% endfor %}

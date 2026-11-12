@@ -304,10 +304,10 @@ class Tea(Base):
 
     def refresh_search_text(self) -> None:
         names = self.search_names
-        bits = [*names, self.origin_country, self.origin_region, self.category.value, self.category_label, self.cultivar]
+        bits = [*names, self.origin_country, self.origin_region, self.category.value, CATEGORY_LABELS[self.category], self.cultivar]
         text = " ".join(b for b in bits if b)
         self.search_text = fold_text(f"{text} {' '.join(joined_names(names))}")
-        keys = [key for _, key in self.origin_parts]
+        keys = [key for _label, key in self.origin_parts]
         self.origin_keys = " " + " ".join(keys) + " "
 
 

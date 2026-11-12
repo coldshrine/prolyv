@@ -40,7 +40,7 @@ def source_label(url: str | None) -> str:
     host = (parts.hostname or "").removeprefix("www.")
     if host.endswith(".wikipedia.org") and parts.path.startswith("/wiki/"):
         title = unquote(parts.path.removeprefix("/wiki/")).replace("_", " ")
-        return f"Wikipedia ({host.split('.')[0]}): {title}"
+        return _("Wikipedia ({lang}): {title}", lang=host.split(".")[0], title=title)
     return host or (url or "")
 
 

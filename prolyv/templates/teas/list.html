@@ -2,48 +2,49 @@
 {% from "partials/macros.html" import tea_card, show_more %}
 {% block title %}{{ title }} · {{ site_name }}{% endblock %}
 {% block head %}<link rel="canonical" href="{{ settings.base_url }}{{ canonical }}">
-{% with og_title=title ~ " · " ~ site_name, og_desc="A tea base of " ~ total ~ " teas with taste notes, brewing parameters and where each one comes from.", og_path=canonical %}{% include "partials/og.html" %}{% endwith %}
-<meta name="description" content="A tea base of {{ total }} teas with taste notes, brewing parameters and where each one comes from.">
+{% set base_desc = _n("A tea base of {n} teas with taste notes, brewing parameters and where each one comes from.", "A tea base of {n} teas with taste notes, brewing parameters and where each one comes from.", total) %}
+{% with og_title=title ~ " · " ~ site_name, og_desc=base_desc, og_path=canonical %}{% include "partials/og.html" %}{% endwith %}
+<meta name="description" content="{{ base_desc }}">
 {% if thin_page %}<meta name="robots" content="noindex">{% endif %}{% endblock %}
 {% block content %}
 <section class="container">
   <div class="teas-head" id="tea-head">
     <div>
-      <p class="eyebrow">Tea base · {{ total }} tea{{ '' if total == 1 else 's' }}</p>
+      <p class="eyebrow">{{ _n("Tea base · {n} tea", "Tea base · {n} teas", total) }}</p>
       <h1 class="h1">{{ title }}</h1>
-      {% if origin_label %}<p class="lead">Everything in the base from {{ origin_label }}.</p>{% elif intro %}<p class="lead">{{ intro }}</p>{% endif %}
+      {% if origin_label %}<p class="lead">{{ _("Everything in the base from {place}.", place=origin_label) }}</p>{% elif intro %}<p class="lead">{{ intro }}</p>{% endif %}
     </div>
   </div>
 
   {% include "teas/_browse.html" %}
   <form class="teas-filters" method="get" action="{{ canonical }}" hx-get="{{ canonical }}" hx-trigger="input delay:300ms, change" hx-target="#tea-results" hx-select="#tea-results" hx-select-oob="#tea-head" hx-swap="outerHTML" hx-push-url="true" hx-sync="this:replace" role="search">
-    <input type="search" name="q" value="{{ q }}" placeholder="Search by any name" autocomplete="off" aria-label="Search teas">
-    {% if not on_origin_page %}<select name="origin" aria-label="Origin">
-      <option value="">Any origin</option>
+    <input type="search" name="q" value="{{ q }}" placeholder="{{ _('Search by any name') }}" autocomplete="off" aria-label="{{ _('Search teas') }}">
+    {% if not on_origin_page %}<select name="origin" aria-label="{{ _('Origin') }}">
+      <option value="">{{ _("Any origin") }}</option>
       {% for key, name, count in countries %}<option value="{{ key }}"{% if key == origin %} selected{% endif %}>{{ name }} ({{ count }})</option>{% endfor %}
     </select>{% endif %}
-    <select name="form" aria-label="Form">
-      <option value="">Any form</option>
+    <select name="form" aria-label="{{ _('Form') }}">
+      <option value="">{{ _("Any form") }}</option>
       {% for value, label, count in forms %}<option value="{{ value }}"{% if value == form %} selected{% endif %}>{{ label }} ({{ count }})</option>{% endfor %}
     </select>
-    <select name="sort" aria-label="Sort">
-      <option value="popular"{% if sort == 'popular' %} selected{% endif %}>Most known first</option>
-      <option value="name"{% if sort == 'name' %} selected{% endif %}>A → Z</option>
-      <option value="newest"{% if sort == 'newest' %} selected{% endif %}>Newest</option>
+    <select name="sort" aria-label="{{ _('Sort') }}">
+      <option value="popular"{% if sort == 'popular' %} selected{% endif %}>{{ _("Most known first") }}</option>
+      <option value="name"{% if sort == 'name' %} selected{% endif %}>{{ _("A → Z") }}</option>
+      <option value="newest"{% if sort == 'newest' %} selected{% endif %}>{{ _("Newest") }}</option>
     </select>
-    <noscript><button class="btn btn-secondary btn-sm" type="submit">Apply</button></noscript>
+    <noscript><button class="btn btn-secondary btn-sm" type="submit">{{ _("Apply") }}</button></noscript>
   </form>
 
-  <nav class="chips" aria-label="Categories">
-    <a class="chip{% if not category %} chip-on{% endif %}" href="{{ category_url(None) }}">All</a>
+  <nav class="chips" aria-label="{{ _('Categories') }}">
+    <a class="chip{% if not category %} chip-on{% endif %}" href="{{ category_url(None) }}">{{ _("All") }}</a>
     {% for value, label, count in categories %}{% if count %}<a class="chip{% if value == category %} chip-on{% endif %}" href="{{ category_url(value) }}">{{ label }} <span class="count">{{ count }}</span></a>{% endif %}{% endfor %}
   </nav>
 
   {% if sub_origins %}
-  <nav class="chips origin-regions" aria-label="Regions">{% for r in sub_origins[:12] %}<a class="chip" href="/teas/o/{{ r.key }}">{{ r.name }} <span class="count">{{ r.count }}</span></a>{% endfor %}</nav>
+  <nav class="chips origin-regions" aria-label="{{ _('Regions') }}">{% for r in sub_origins[:12] %}<a class="chip" href="/teas/o/{{ r.key }}">{{ _(r.name) }} <span class="count">{{ r.count }}</span></a>{% endfor %}</nav>
   {% if sub_origins|length > 12 %}
-  <details class="more-regions"><summary class="muted small">All {{ sub_origins|length }} regions</summary>
-    <nav class="chips origin-regions" aria-label="More regions">{% for r in sub_origins[12:] %}<a class="chip" href="/teas/o/{{ r.key }}">{{ r.name }} <span class="count">{{ r.count }}</span></a>{% endfor %}</nav>
+  <details class="more-regions"><summary class="muted small">{{ _n("All {n} regions", "All {n} regions", sub_origins|length) }}</summary>
+    <nav class="chips origin-regions" aria-label="{{ _('More regions') }}">{% for r in sub_origins[12:] %}<a class="chip" href="/teas/o/{{ r.key }}">{{ _(r.name) }} <span class="count">{{ r.count }}</span></a>{% endfor %}</nav>
   </details>
   {% endif %}
   {% endif %}
@@ -52,12 +53,12 @@
     {% if teas %}
     <div class="tea-grid more-list">
       {% for tea in teas %}{{ tea_card(tea) }}{% endfor %}
-      {% if page < pages %}{{ show_more(page_url(page + 1), shown ~ " of " ~ total, push=True) }}{% endif %}
+      {% if page < pages %}{{ show_more(page_url(page + 1), _("{shown} of {total}", shown=shown, total=total), push=True) }}{% endif %}
     </div>
     {% else %}
     <div class="card empty">
-      <p class="empty-title">Nothing found</p>
-      <p class="muted">Try another spelling or another name for this tea.</p>
+      <p class="empty-title">{{ _("Nothing found") }}</p>
+      <p class="muted">{{ _("Try another spelling or another name for this tea.") }}</p>
     </div>
     {% endif %}
   </div>

@@ -64,8 +64,10 @@ TEXT: dict[str, str] = {
     "Your diary is yours: private entries are visible only to you.": "Ваш дневник принадлежит вам: личные записи видите только вы.",
     # shared words
     "Show more": "Показать ещё",
+    "Remove": "Убрать",
     "Deleted account": "Удалённый аккаунт",
     "just now": "только что",
+    "Wikipedia ({lang}): {title}": "Википедия ({lang}): {title}",
     # tea categories, forms and caffeine (the same words as the tea page, prolyv/web/tea_labels.py)
     "Green": "Зелёный", "White": "Белый", "Yellow": "Жёлтый", "Black": "Чёрный", "Sheng pu-erh": "Шэн пуэр",
     "Shu pu-erh": "Шу пуэр", "Heicha": "Хэйча", "Tisane": "Травяной сбор", "Loose leaf": "Листовой", "Cake": "Блин",

@@ -6,7 +6,7 @@
       e.preventDefault();
       var frame = document.createElement("iframe");
       frame.src = video.dataset.embedSrc;
-      frame.title = "Video";
+      frame.title = tr("Video");
       frame.allow = "autoplay; encrypted-media; fullscreen; picture-in-picture";
       frame.setAttribute("allowfullscreen", "");
       var box = document.createElement("div");

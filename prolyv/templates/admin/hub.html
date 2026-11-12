@@ -1,16 +1,16 @@
 {% extends "base.html" %}
-{% block title %}Admin · {{ site_name }}{% endblock %}
+{% block title %}{{ _("Admin") }} · {{ site_name }}{% endblock %}
 {% block content %}
 <div class="container narrow">
-  <p class="eyebrow">Admin</p>
-  <h1 class="h1">Site admin</h1>
+  <p class="eyebrow">{{ _("Admin") }}</p>
+  <h1 class="h1">{{ _("Site admin") }}</h1>
   <div class="type-grid admin-hub">
-    <a class="card card-link" href="/admin/reports"><span><span class="promo-title">Reports</span><span class="muted small">{{ counts.reports }} open</span></span></a>
-    <a class="card card-link" href="/admin/users"><span><span class="promo-title">Users</span><span class="muted small">{{ counts.users }} accounts</span></span></a>
-    <a class="card card-link" href="/admin/teas"><span><span class="promo-title">Tea base</span><span class="muted small">{{ counts.teas }} cards</span></span></a>
-    <a class="card card-link" href="/admin/posts"><span><span class="promo-title">Blog posts</span><span class="muted small">{{ counts.posts }} posts</span></span></a>
-    <a class="card card-link" href="/discussions"><span><span class="promo-title">Discussions</span><span class="muted small">{{ counts.topics }} topics. Pin and hide from the topic page.</span></span></a>
-    <span class="card"><span class="promo-title">Sessions</span><br><span class="muted small">{{ counts.sessions }} logged, private ones stay private.</span></span>
+    <a class="card card-link" href="/admin/reports"><span><span class="promo-title">{{ _("Reports") }}</span><span class="muted small">{{ _("{n} open", n=counts.reports) }}</span></span></a>
+    <a class="card card-link" href="/admin/users"><span><span class="promo-title">{{ _("Users") }}</span><span class="muted small">{{ _("{n} accounts", n=counts.users) }}</span></span></a>
+    <a class="card card-link" href="/admin/teas"><span><span class="promo-title">{{ _("Tea base") }}</span><span class="muted small">{{ _("{n} cards", n=counts.teas) }}</span></span></a>
+    <a class="card card-link" href="/admin/posts"><span><span class="promo-title">{{ _("Blog posts") }}</span><span class="muted small">{{ _("{n} posts", n=counts.posts) }}</span></span></a>
+    <a class="card card-link" href="/discussions"><span><span class="promo-title">{{ _("Discussions") }}</span><span class="muted small">{{ _("{n} topics. Pin and hide from the topic page.", n=counts.topics) }}</span></span></a>
+    <span class="card"><span class="promo-title">{{ _("Sessions") }}</span><br><span class="muted small">{{ _("{n} logged, private ones stay private.", n=counts.sessions) }}</span></span>
   </div>
 </div>
 {% endblock %}

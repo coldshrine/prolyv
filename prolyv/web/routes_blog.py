@@ -14,6 +14,7 @@ from sqlalchemy.orm import selectinload
 
 from prolyv.brand import SITE_NAME
 from prolyv.handles import slugify
+from prolyv.i18n import N_, _
 from prolyv.markdown import insecure_images, render_markdown
 from prolyv.models import HelpfulVote, Post, PostComment, Tea, TeaSession, TeaStatus, Topic, Visibility, utcnow, video_embed
 from prolyv.search import index_post, remove
@@ -36,7 +37,7 @@ router = APIRouter()
 PAGE_SIZE = 10
 ALONG_PAGE = 12
 COMMENT_PAGE = 10
-TABS = (("all", "All"), ("video", "Video breakdowns"), ("guide", "Guides"))
+TABS = (("all", N_("All")), ("video", N_("Video breakdowns")), ("guide", N_("Guides")))  # labels shown with _()
 HAS_VIDEO = func.coalesce(Post.video_url, "") != ""
 
 
@@ -137,13 +138,13 @@ def session_params(tea: Tea | None) -> list[dict]:
     brewing = (tea.brewing if tea else None) or {}
     tiles = []
     if brewing.get("grams"):
-        tiles.append({"k": "Leaf", "v": f"{brewing['grams']:g} g"})
+        tiles.append({"k": _("Leaf"), "v": _("{grams} g", grams=f"{brewing['grams']:g}")})
     if brewing.get("water_ml"):
-        tiles.append({"k": "Water", "v": f"{brewing['water_ml']} ml"})
+        tiles.append({"k": _("Water"), "v": _("{ml} ml", ml=brewing["water_ml"])})
     if brewing.get("temp_c"):
-        tiles.append({"k": "Temp", "v": f"{brewing['temp_c']} °C"})
+        tiles.append({"k": _("Temp"), "v": f"{brewing['temp_c']} °C"})
     if brewing.get("steeps"):
-        tiles.append({"k": "Steeps", "v": str(brewing["steeps"])})
+        tiles.append({"k": _("Steeps"), "v": str(brewing["steeps"])})
     return tiles
 
 
@@ -233,11 +234,11 @@ def post_comment_create(request: Request, db: DbDep, settings: SettingsDep, user
         return render(request, "blog/post.html", context, status_code=status_code)
 
     if len(text) < 2:
-        return refused("Write a comment first.", 400)
+        return refused(_("Write a comment first."), 400)
     try:  # the same quota as every other post, called here so the refusal keeps what the person typed
         post_quota(request, user)
     except HTTPException:
-        return refused("You are posting a lot right now. Your text is still here: try again in a little while.", 429)
+        return refused(_("You are posting a lot right now. Your text is still here: try again in a little while."), 429)
     db.add(PostComment(post=post, user=user, body=text))
     url = f"/blog/{post.slug}#comments"
     notify(db, post.author_id, user, f"@{user.handle} commented on “{post.title}”", url)
@@ -309,7 +310,7 @@ def is_host(host: str, domain: str) -> bool:
 def check_video_url(url: str) -> tuple[str, str | None]:
     """(address to store, error). video_embed only knows the canonical forms, so the form brings a link to one or says why it can't."""
     if not url.startswith("https://"):
-        return url, "Use a full https:// link."
+        return url, _("Use a full https:// link.")
     profile_reel = re.match(r"https://(?:www\.)?instagram\.com/[\w.\-]+/(p|reel|reels)/([\w\-]+)", url)
     if profile_reel:
         url = f"https://www.instagram.com/{'p' if profile_reel.group(1) == 'p' else 'reel'}/{profile_reel.group(2)}/"
@@ -319,11 +320,11 @@ def check_video_url(url: str) -> tuple[str, str | None]:
     host = (urlsplit(url).hostname or "").lower()
     if video_embed(url)["provider"] == "link":
         if host in ("vm.tiktok.com", "vt.tiktok.com") or (is_host(host, "tiktok.com") and urlsplit(url).path.startswith("/t/")):
-            return url, "TikTok short links can't be embedded. Open the link in a browser and paste the full address: tiktok.com/@account/video/1234…"
+            return url, _("TikTok short links can't be embedded. Open the link in a browser and paste the full address: tiktok.com/@account/video/1234…")
         if is_host(host, "tiktok.com"):
-            return url, "This TikTok link can't be embedded. Paste the full address: tiktok.com/@account/video/1234…"
+            return url, _("This TikTok link can't be embedded. Paste the full address: tiktok.com/@account/video/1234…")
         if is_host(host, "instagram.com"):
-            return url, "This Instagram link can't be embedded. Paste the address of the post or reel: instagram.com/reel/AbC123/"
+            return url, _("This Instagram link can't be embedded. Paste the address of the post or reel: instagram.com/reel/AbC123/")
     return url, None
 
 
@@ -332,15 +333,15 @@ def read_post_form(data, db) -> tuple[dict, dict]:  # noqa: ANN001
     form["publish"] = data.get("publish") in ("on", "1", "true")
     errors: dict[str, str] = {}
     if len(form["title"]) < 3:
-        errors["title"] = "Give the post a title."
+        errors["title"] = _("Give the post a title.")
     if len(form["body_md"]) < 20:
-        errors["body_md"] = "The post needs a body (Markdown)."
+        errors["body_md"] = _("The post needs a body (Markdown).")
     else:
         blocked = insecure_images(form["body_md"])
         if blocked:
-            errors["body_md"] = f"Images need an https:// link, browsers block this one: {blocked[0]}"
+            errors["body_md"] = _("Images need an https:// link, browsers block this one: {url}", url=blocked[0])
     if form["cover_url"] and not form["cover_url"].startswith("https://"):
-        errors["cover_url"] = "Use a full https:// link."
+        errors["cover_url"] = _("Use a full https:// link.")
     if form["video_url"]:
         form["video_url"], video_error = check_video_url(form["video_url"])
         if video_error:
@@ -348,7 +349,7 @@ def read_post_form(data, db) -> tuple[dict, dict]:  # noqa: ANN001
     if form["tea_slug"]:
         form["tea_slug"] = form["tea_slug"].lower()
         if db.execute(select(Tea.id).where(Tea.slug == form["tea_slug"], Tea.status == TeaStatus.published)).first() is None:
-            errors["tea_slug"] = "No published tea with this slug. Copy it from the end of the tea's address."
+            errors["tea_slug"] = _("No published tea with this slug. Copy it from the end of the tea's address.")
     return form, errors
 
 
@@ -397,7 +398,7 @@ async def admin_post_new(request: Request, db: DbDep, settings: SettingsDep, sig
     db.flush()
     index_post(db, post)
     response = RedirectResponse(f"/blog/{post.slug}", status_code=303)
-    set_flash(response, settings, signer, "ok", "Published." if post.is_published else "Saved as a draft (only admins can see it).")
+    set_flash(response, settings, signer, "ok", _("Published.") if post.is_published else _("Saved as a draft (only admins can see it)."))
     return response
 
 
@@ -424,7 +425,7 @@ async def admin_post_edit(request: Request, db: DbDep, settings: SettingsDep, si
     post.updated_at = utcnow()
     index_post(db, post)
     response = RedirectResponse(f"/blog/{post.slug}", status_code=303)
-    set_flash(response, settings, signer, "ok", "Post saved.")
+    set_flash(response, settings, signer, "ok", _("Post saved."))
     return response
 
 
@@ -436,5 +437,5 @@ def admin_post_delete(request: Request, db: DbDep, settings: SettingsDep, signer
     db.execute(delete(HelpfulVote).where(HelpfulVote.kind == "post_comment", HelpfulVote.ref_id.in_(comment_ids)))
     db.delete(post)
     response = RedirectResponse("/admin/posts", status_code=303)
-    set_flash(response, settings, signer, "ok", "Post deleted.")
+    set_flash(response, settings, signer, "ok", _("Post deleted."))
     return response

@@ -18,13 +18,13 @@
 {% endblock %}
 {% block content %}
 <section class="hero">
-  <nav class="container tea-crumbs" aria-label="Breadcrumb"><a href="/teas">{{ t("Tea base") }}</a> / <a href="/teas/c/{{ tea.category.value }}">{{ t(tea.category_label) }}</a></nav>
+  <nav class="container tea-crumbs" aria-label="{{ _('Breadcrumb') }}"><a href="/teas">{{ t("Tea base") }}</a> / <a href="/teas/c/{{ tea.category.value }}">{{ t(category_en) }}</a></nav>
   <div class="container tea-hero">
     <div class="tea-gallery">
       {% if image %}
       <figure class="tea-photo" id="tea-photo">
         <img id="tea-photo-img" src="{{ image.url }}" alt="{{ image.alt or tea.name_en }}" referrerpolicy="no-referrer">
-        <figcaption id="tea-photo-credit">{{ image.credit }}{% if image.source_page %} · <a href="{{ image.source_page }}" rel="noopener nofollow" target="_blank">source</a>{% endif %}</figcaption>
+        <figcaption id="tea-photo-credit">{{ image.credit }}{% if image.source_page %} · <a href="{{ image.source_page }}" rel="noopener nofollow" target="_blank">{{ _("source") }}</a>{% endif %}</figcaption>
       </figure>
       {% if tea.images|length > 1 %}
       <div class="tea-thumbs" id="tea-thumbs">
@@ -39,9 +39,9 @@
       {% endif %}
     </div>
     <div class="tea-meta">
-      <p class="eyebrow"><a href="/teas/c/{{ tea.category.value }}">{{ t(tea.category_label) }}</a>{% for label, key in tea.origin_parts %} · <a href="/teas/o/{{ key }}">{{ label }}</a>{% endfor %}</p>
+      <p class="eyebrow"><a href="/teas/c/{{ tea.category.value }}">{{ t(category_en) }}</a>{% for label, key in tea.origin_parts %} · <a href="/teas/o/{{ key }}">{{ t(label) }}</a>{% endfor %}</p>
       <h1 class="display">{{ tea.name_en }}</h1>
-      {% if session_total %}<p class="tea-community"><a href="#sessions">{{ session_total }} session{{ '' if session_total == 1 else 's' }}</a>{% if session_avg %} · <span class="stars">★</span> {{ session_avg }}{% endif %}</p>{% endif %}
+      {% if session_total %}<p class="tea-community"><a href="#sessions">{{ _n("{n} session", "{n} sessions", session_total) }}</a>{% if session_avg %} · <span class="stars">★</span> {{ session_avg }}{% endif %}</p>{% endif %}
       <p class="tea-names">
         {% if tea.name_zh %}<span class="name-zh" lang="zh">{{ tea.name_zh }}</span>{% endif %}
         {% if tea.name_ru %}<span class="name-ru" lang="ru">{{ tea.name_ru }}</span>{% endif %}
@@ -49,8 +49,8 @@
         {% if tea.name_romanized %}<span class="romanized">{{ tea.name_romanized }}</span>{% endif %}
       </p>
       {% if languages|length > 1 %}
-      <nav class="lang-switch" aria-label="Language of this card">
-        {% for code in languages %}<a href="/teas/{{ tea.slug }}{% if code != 'en' %}?lang={{ code }}{% endif %}"{% if code == lang %} aria-current="true"{% endif %}>{{ {'en': 'EN', 'ru': 'RU', 'zh': '中文'}[code] }}</a>{% endfor %}
+      <nav class="lang-switch" aria-label="{{ _('Language of this card') }}">
+        {% for code in languages %}<a href="/teas/{{ tea.slug }}{% if code != 'en' %}?lang={{ code }}{% elif ui_lang != 'en' %}?lang=en{% endif %}"{% if code == lang %} aria-current="true"{% endif %}>{{ {'en': 'EN', 'ru': 'RU', 'zh': '中文'}[code] }}</a>{% endfor %}
       </nav>
       {% endif %}
       {% if thin_lead %}<p class="lead" lang="{{ lang }}">{{ thin_lead }}</p>{% elif text.taste_profile %}<p class="lead" lang="{{ lang }}">{{ text.taste_profile }}</p>{% endif %}
@@ -65,9 +65,9 @@
         {% if not tea.is_explainer %}<a class="btn btn-primary" href="{% if current_user %}/sessions/new?tea={{ tea.slug }}{% else %}/login?next=/sessions/new%3Ftea%3D{{ tea.slug }}{% endif %}">{{ t("Log this tea") }}</a>{% endif %}
         {{ save_button('tea', tea.id, saved, current_user, csrf_token, path) }}
         {% if tea.wikipedia_url %}<a class="btn btn-secondary" href="{{ tea.wikipedia_url }}" target="_blank" rel="noopener">{{ t("Read more on Wikipedia") }}</a>{% endif %}
-        {% if is_admin_view %}<a class="btn btn-ghost" href="/admin/teas/{{ tea.slug }}/edit">Edit card</a>{% endif %}
+        {% if is_admin_view %}<a class="btn btn-ghost" href="/admin/teas/{{ tea.slug }}/edit">{{ _("Edit card") }}</a>{% endif %}
       </div>
-      {% if tea.status.value == 'pending' %}<div class="notice">Draft. Only admins can see this card.</div>{% endif %}
+      {% if tea.status.value == 'pending' %}<div class="notice">{{ _("Draft. Only admins can see this card.") }}</div>{% endif %}
     </div>
   </div>
 </section>
@@ -75,9 +75,9 @@
 <section class="container tea-body">
   <div class="tea-main" lang="{{ lang }}">
     <ul class="facts">
-      <li><span class="fact-label">{{ t("Category") }}</span><span><a href="/teas/c/{{ tea.category.value }}">{{ t(tea.category_label) }}</a></span></li>
-      {% if tea.origin_line %}<li><span class="fact-label">{{ t("Origin") }}</span><span>{{ tea.origin_line }}</span></li>{% endif %}
-      <li><span class="fact-label">{{ t("Form") }}</span><span>{{ t(tea.form_label) }}</span></li>
+      <li><span class="fact-label">{{ t("Category") }}</span><span><a href="/teas/c/{{ tea.category.value }}">{{ t(category_en) }}</a></span></li>
+      {% if tea.origin_line %}<li><span class="fact-label">{{ t("Origin") }}</span><span>{{ place(tea.origin_line) }}</span></li>{% endif %}
+      <li><span class="fact-label">{{ t("Form") }}</span><span>{{ t(form_en) }}</span></li>
       {% if tea.cultivar %}<li><span class="fact-label">{{ t("Cultivar") }}</span><span>{{ tea.cultivar }}</span></li>{% endif %}
       {% if tea.caffeine_level %}<li><span class="fact-label">{{ t("Caffeine") }}</span><span>{{ t(tea.caffeine_level|capitalize) }}</span></li>{% endif %}
     </ul>
@@ -136,15 +136,15 @@
         {% if tea.brewing.temp_c %}<li><span class="brew-value">{{ tea.brewing.temp_c }} °C</span><span class="brew-label">{{ t("temperature") }}</span></li>{% endif %}
         {% if tea.brewing.steeps %}<li><span class="brew-value">{{ tea.brewing.steeps }}</span><span class="brew-label">{{ t("steeps") }}</span></li>{% endif %}
       </ul>
-      {% if tea.brewing.seconds %}<p class="brew-steeps">{% for s in tea.brewing.seconds %}<span class="tag">{{ loop.index }} · {{ s }}s</span>{% endfor %}</p>{% endif %}
+      {% if tea.brewing.seconds %}<p class="brew-steeps">{% for s in tea.brewing.seconds %}<span class="tag">{{ loop.index }} · {{ t("{s}s", s=s) }}</span>{% endfor %}</p>{% endif %}
       {% if text.brewing_notes %}<p class="muted small" lang="{{ lang }}">{{ text.brewing_notes }}</p>{% endif %}
     </section>
     {% endif %}
     {% if related %}
     <section class="card">
-      <h2 class="h2">{{ t("More {category}", category=(t(tea.category_label) if lang != "en" else tea.category_label|lower)) }}</h2>
-      <ul class="related">{% for r in related %}<li><a href="/teas/{{ r.slug }}">{{ r.name_en }}</a><span class="muted small">{{ r.origin_region or r.origin_country }}</span></li>{% endfor %}</ul>
-      <a class="btn btn-ghost btn-sm" href="/teas/c/{{ tea.category.value }}">{{ t("All {category} teas", category=(t(tea.category_label) if lang != "en" else tea.category_label|lower)) }}</a>
+      <h2 class="h2">{{ t("More {category}", category=(t(category_en) if label_lang != "en" else category_en|lower)) }}</h2>
+      <ul class="related">{% for r in related %}<li><a href="/teas/{{ r.slug }}">{{ r.name_en }}</a><span class="muted small">{{ place(r.origin_region or r.origin_country) }}</span></li>{% endfor %}</ul>
+      <a class="btn btn-ghost btn-sm" href="/teas/c/{{ tea.category.value }}">{{ t("All {category} teas", category=(t(category_en) if label_lang != "en" else category_en|lower)) }}</a>
     </section>
     {% endif %}
   </aside>
